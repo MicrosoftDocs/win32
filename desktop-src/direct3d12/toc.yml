@@ -1736,6 +1736,13 @@
           items: 
           - name: "GetD3D12Device"
             href: /windows/win32/api/d3d11on12/nf-d3d11on12-id3d11on12device1-getd3d12device
+        - name: "ID3D11On12Device2"
+          href: /windows/win32/api/d3d11on12/nn-d3d11on12-id3d11on12device2
+          items: 
+          - name: "ReturnUnderlyingResource"
+            href: /windows/win32/api/d3d11on12/nf-d3d11on12-id3d11on12device2-returnunderlyingresource
+          - name: "UnwrapUnderlyingResource"
+            href: /windows/win32/api/d3d11on12/nf-d3d11on12-id3d11on12device2-unwrapunderlyingresource
       - name: "11on12 Functions"
         href: direct3d-11-on-12-functions-.md
         items: 
