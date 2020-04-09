@@ -75,7 +75,7 @@ Folder on a local machine:
 -   Use AQS (crumb=folder:<URL-encoded path>)
 -   Use location argument (crumb=location:<URL-encoded path>)
 
-Folder on a remote machine/netowork:
+Folder on a remote machine/network:
 
 -   Use location argument (crumb=location:<URL-encoded path>)
 
