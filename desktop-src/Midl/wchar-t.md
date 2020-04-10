@@ -39,11 +39,11 @@ The **wchar\_t** type is defined by MIDL as an [**unsigned**](unsigned.md) [**sh
 
 The MIDL compiler allows redefinition of **wchar\_t**, but only if it is consistent with the preceding definition.
 
-The wide-character type is one of the predefined types of MIDL. The wide-character type can appear as a type specifier in [**const**](const.md) declarations, [**typedef**](typedef.md) declarations, general declarations, and function declarators (as a function returnâ€“type specifier and as a parameter-type specifier). For the context in which type specifiers appear, see [Interface Definition (IDL) File](interface-definition-idl-file.md).
+The wide-character type is one of the predefined types of MIDL. The wide-character type can appear as a type specifier in [**const**](const.md) declarations, [**typedef**](typedef.md) declarations, general declarations, and function declarators (as a function return type specifier and as a parameter-type specifier). For the context in which type specifiers appear, see [Interface Definition (IDL) File](interface-definition-idl-file.md).
 
 The **\[string\]** attribute can be applied to a pointer or array of type **wchar\_t**.
 
-Use the **L** character before a character or a string constant to designate the wide characterâ€“type constant.
+Use the **L** character before a character or a string constant to designate the wide character type constant.
 
 ## See also
 
