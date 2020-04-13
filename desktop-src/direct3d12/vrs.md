@@ -500,7 +500,7 @@ return
         D3D12_FEATURE_D3D12_OPTIONS6, 
         &options, 
         sizeof(options))) && 
-    options.ShadingRateTier == D3D12_SHADING_RATE_TIER_1;
+    options.ShadingRateTier == D3D12_VARIABLE_SHADING_RATE_TIER_1;
 ```
 
 ### Shading rates
