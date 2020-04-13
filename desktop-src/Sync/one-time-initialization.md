@@ -56,6 +56,12 @@ The following steps describe asynchronous one-time initialization.
     -   If [**InitOnceComplete**](https://msdn.microsoft.com/library/ms683491(v=VS.85).aspx) succeeds, the calling thread has succeeded at initialization. The state of the one-time initialization structure is changed to initialized and the *lpContext* handle (if any) is stored in the initialization structure.
     -   If [**InitOnceComplete**](https://msdn.microsoft.com/library/ms683491(v=VS.85).aspx) fails, another thread has succeeded at initialization. The calling thread should clean up any context data it has created and call [**InitOnceBeginInitialize**](https://msdn.microsoft.com/library/ms683487(v=VS.85).aspx) with **INIT\_ONCE\_CHECK\_ONLY** to retrieve any context data stored in the one-time initialization structure.
 
+## Calling One-Time Initialization from multiple sites
+
+One-time initialization guarded by a single **INIT\_ONCE** structure may be performed from mutiple sites; different callback may be passed from each site, and synchronization with and without callback may be mixed. Initialization is still guaranted to perform sucesfully just once.
+
+However, asynchronous and synchronous initialization cannot be mixed: once asynchronous initialization is attempted, attempts to start synchronous initialization would fail.
+
 ## Related topics
 
 <dl> <dt>
