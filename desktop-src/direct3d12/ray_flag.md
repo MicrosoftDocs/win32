@@ -42,7 +42,7 @@ enum RAY_FLAG : uint
 
 <dl> <dt>
 
-<span id="RAY_FLAG_NONE"></span><span id="ray_flag_none"></span>**RAYFLAG\_NONE**
+<span id="RAY_FLAG_NONE"></span><span id="ray_flag_none"></span>**RAY\_FLAG\_NONE**
 </dt> <dd>
 
 No options selected.
