@@ -47,7 +47,7 @@ Note that [**WM\_APPCOMMAND**](wm-appcommand.md) does provide for some HID devic
 
 By default, no application receives raw input. To receive raw input from a device, an application must register the device.
 
-To register devices, an application first creates an array of [**RAWINPUTDEVICE**](https://msdn.microsoft.com/library/ms645565(v=VS.85).aspx) structures that specify the top level collection (TLC) for the devices it wants. The TLC is defined by a Usage Page (the class of the device) and a Usage (the device within the class). For example, to get the keyboard TLC, set UsagePage = 1 and Usage = 6. The application calls [**RegisterRawInputDevices**](https://msdn.microsoft.com/library/ms645600(v=VS.85).aspx) to register the devices.
+To register devices, an application first creates an array of [**RAWINPUTDEVICE**](https://msdn.microsoft.com/library/ms645565(v=VS.85).aspx) structures that specify the [top level collection](https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections) (TLC) for the devices it wants. The TLC is defined by a [Usage Page](https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages#usage-page) (the class of the device) and a [Usage ID](https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages#usage-id) (the device within the class). For example, to get the keyboard TLC, set UsagePage = 0x01 and UsageID = 0x06. The application calls [**RegisterRawInputDevices**](https://msdn.microsoft.com/library/ms645600(v=VS.85).aspx) to register the devices.
 
 Note that an application can register a device that is not currently attached to the system. When this device is attached, the Windows Manager will automatically send the raw input to the application. To get the list of raw input devices on the system, an application calls [**GetRawInputDeviceList**](https://msdn.microsoft.com/library/ms645598(v=VS.85).aspx). Using the *hDevice* from this call, an application calls [**GetRawInputDeviceInfo**](https://msdn.microsoft.com/library/ms645597(v=VS.85).aspx) to get the device information.
 
@@ -59,18 +59,10 @@ To get an application's registration status, call [**GetRegisteredRawInputDevice
 
 ## Reading Raw Input
 
-An application receives raw input from any HID whose top level collection (TLC) matches a TLC from the registration. When an application receives raw input, its message queue gets a [**WM\_INPUT**](wm-input.md) message and the queue status flag **QS\_RAWINPUT** is set (**QS\_INPUT** also includes this flag). An application can receive data when it is in the foreground and when it is in the background.
+An application receives raw input from any HID whose top [top level collection](https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections) (TLC) matches a TLC from the registration. When an application receives raw input, its message queue gets a [**WM\_INPUT**](wm-input.md) message and the queue status flag **QS\_RAWINPUT** is set (**QS\_INPUT** also includes this flag). An application can receive data when it is in the foreground and when it is in the background.
 
 There are two ways to read the raw data: the unbuffered (or standard) method and the buffered method. The unbuffered method gets the raw data one [**RAWINPUT**](https://msdn.microsoft.com/library/ms645562(v=VS.85).aspx) structure at a time and is adequate for many HIDs. Here, the application calls [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) to get the [**WM\_INPUT**](wm-input.md) message. Then the application calls [**GetRawInputData**](https://msdn.microsoft.com/library/ms645596(v=VS.85).aspx) using the **RAWINPUT** handle contained in **WM\_INPUT**. For an example, see [Doing a Standard Read of Raw Input](using-raw-input.md).
 
 In contrast, the buffered method gets an array of [**RAWINPUT**](https://msdn.microsoft.com/library/ms645562(v=VS.85).aspx) structures at a time. This is provided for devices that can produce large amounts of raw input. In this method, the application calls [**GetRawInputBuffer**](https://msdn.microsoft.com/library/ms645595(v=VS.85).aspx) to get an array of **RAWINPUT** structures. Note that the [**NEXTRAWINPUTBLOCK**](https://msdn.microsoft.com/library/ms645593(v=VS.85).aspx) macro is used to traverse an array of **RAWINPUT** structures. For an example, see [Doing a Buffered Read of Raw Input](using-raw-input.md).
 
 To interpret the raw input, detailed information about the HIDs is required. An application gets the device information by calling [**GetRawInputDeviceInfo**](https://msdn.microsoft.com/library/ms645597(v=VS.85).aspx) with the device handle. This handle can come either from [**WM\_INPUT**](wm-input.md) or from the **hDevice** member of [**RAWINPUTHEADER**](https://msdn.microsoft.com/library/ms645571(v=VS.85).aspx).
-
- 
-
- 
-
-
-
-
