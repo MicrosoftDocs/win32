@@ -34,6 +34,8 @@ To access the packaging and deployment event logs by using **Event Viewer**, fol
     * **AppxPackagingOM** > **Microsoft-Windows-AppxPackaging/Operational**
     * **AppXDeployment-Server** > **Microsoft-Windows-AppXDeploymentServer/Operational**
 
+You want to start with looking at the logs under **AppXDeployment-Server**. If the error was caused by  **0x80073CF0** or **ERROR_INSTALL_OPEN_PACKAGE_FAILED** ,  additional details maybe present in the **AppxpackagingOM** logs.
+
 You can also use the [Get-AppxLog](https://docs.microsoft.com/powershell/module/appx/get-appxlog) command in PowerShell to get the first few logged events. The following example displays the logs associated with the most recent deployment operation.
 
 ```PowerShell
