@@ -5,7 +5,7 @@ title: Get started
 ms.topic: reference
 ms.date: 05/31/2018
 ---
-
+test
 # Get started with desktop Windows apps that use the Win32 API
 
 The Win32 API (also called the Windows API) is the original platform for native C/C++ Windows applications that require direct access to Windows and hardware. It provides a first-class development experience without depending on a managed runtime environment like .NET and WinRT (for UWP apps for Windows 10). This makes the Win32 API the platform of choice for applications that need the highest level of performance and direct access to system hardware.
