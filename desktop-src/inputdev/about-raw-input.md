@@ -59,7 +59,7 @@ To get an application's registration status, call [**GetRegisteredRawInputDevice
 
 ## Reading Raw Input
 
-An application receives raw input from any HID whose top [top level collection](https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections) (TLC) matches a TLC from the registration. When an application receives raw input, its message queue gets a [**WM\_INPUT**](wm-input.md) message and the queue status flag **QS\_RAWINPUT** is set (**QS\_INPUT** also includes this flag). An application can receive data when it is in the foreground and when it is in the background.
+An application receives raw input from any HID whose [top level collection](https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections) (TLC) matches a TLC from the registration. When an application receives raw input, its message queue gets a [**WM\_INPUT**](wm-input.md) message and the queue status flag **QS\_RAWINPUT** is set (**QS\_INPUT** also includes this flag). An application can receive data when it is in the foreground and when it is in the background.
 
 There are two ways to read the raw data: the unbuffered (or standard) method and the buffered method. The unbuffered method gets the raw data one [**RAWINPUT**](https://msdn.microsoft.com/library/ms645562(v=VS.85).aspx) structure at a time and is adequate for many HIDs. Here, the application calls [**GetMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage) to get the [**WM\_INPUT**](wm-input.md) message. Then the application calls [**GetRawInputData**](https://msdn.microsoft.com/library/ms645596(v=VS.85).aspx) using the **RAWINPUT** handle contained in **WM\_INPUT**. For an example, see [Doing a Standard Read of Raw Input](using-raw-input.md).
 
