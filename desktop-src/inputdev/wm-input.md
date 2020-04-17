@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 04/17/2020
 ---
 
 # WM\_INPUT message
@@ -23,38 +23,34 @@ Sent to the window that is getting raw input.
 A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
-```C++
-#define WM_INPUT                        0x00FF
+```cpp
+#define WM_INPUT 0x00FF
 ```
-
-
 
 ## Parameters
 
 <dl> <dt>
 
-*wParam* 
+*wParam*
+
 </dt> <dd>
 
-The input code. This parameter can be one of the following values.
+The input code. Use [**GET\_RAWINPUT\_CODE\_WPARAM**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-get_rawinput_code_wparam) macro to get the value.
 
+Can be one of the following values:
 
-
-| Value                                                                                                                                                                                                                | Meaning                                                                                                                                                                               |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="RIM_INPUT"></span><span id="rim_input"></span><dl> <dt>**RIM\_INPUT**</dt> <dt>0</dt> </dl>             | Input occurred while the application was in the foreground. The application must call [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) so the system can perform cleanup.<br/>         |
-| <span id="RIM_INPUTSINK"></span><span id="rim_inputsink"></span><dl> <dt>**RIM\_INPUTSINK**</dt> <dt>1</dt> </dl> | Input occurred while the application was not in the foreground. The application must call [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) so the system can perform the cleanup.<br/> |
-
-
-
- 
+| Value | Meaning |
+|---|---|
+| <span id="RIM_INPUT"></span><span id="rim_input"></span><dl> <dt>**RIM\_INPUT**</dt> <dt>0</dt> </dl> | Input occurred while the application was in the foreground. |
+| <span id="RIM_INPUTSINK"></span><span id="rim_inputsink"></span><dl> <dt>**RIM\_INPUTSINK**</dt> <dt>1</dt> </dl> | Input occurred while the application was not in the foreground. |
 
 </dd> <dt>
 
 *lParam* 
+
 </dt> <dd>
 
-A handle to the [**RAWINPUT**](https://msdn.microsoft.com/library/ms645562(v=VS.85).aspx) structure that contains the raw input from the device.
+A **HRAWINPUT** handle to the [**RAWINPUT**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-rawinput) structure that contains the raw input from the device. To get the raw data, use this handle in the call to [**GetRawInputData**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-getrawinputdata).
 
 </dd> </dl>
 
@@ -64,54 +60,30 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-To get the *wParam* value, use the [**GET\_RAWINPUT\_CODE\_WPARAM**](https://msdn.microsoft.com/library/ms645592(v=VS.85).aspx) macro.
+Raw input is available only when the application calls [**RegisterRawInputDevices**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-registerrawinputdevices) with valid device specifications.
 
-Note that *lParam* has the handle to the [**RAWINPUT**](https://msdn.microsoft.com/library/ms645562(v=VS.85).aspx) structure, not a pointer to it. To get the raw data, use the handle in the call to [**GetRawInputData**](https://msdn.microsoft.com/library/ms645596(v=VS.85).aspx).
-
-Raw input is available only when the application calls [**RegisterRawInputDevices**](https://msdn.microsoft.com/library/ms645600(v=VS.85).aspx) with valid device specifications
+The application must call [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) so the system can perform cleanup.
 
 ## Requirements
 
-
-
-|                                     |                                                                                                          |
-|-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
-
-
+| | |
+|--------------------------|-------------------------------------------|
+| Minimum supported client | Windows XP \[desktop apps only\] |
+| Minimum supported server | Windows Server 2003 \[desktop apps only\] |
+| Header | <dl> <dt>**Winuser.h (include Windows.h)** </dt> </dl> |
 
 ## See also
 
-<dl> <dt>
-
 **Reference**
-</dt> <dt>
 
-[**GetRawInputData**](https://msdn.microsoft.com/library/ms645596(v=VS.85).aspx)
-</dt> <dt>
+[**GetRawInputData**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-getrawinputdata)
 
-[**RegisterRawInputDevices**](https://msdn.microsoft.com/library/ms645600(v=VS.85).aspx)
-</dt> <dt>
+[**RegisterRawInputDevices**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-registerrawinputdevices)
 
-[**RAWINPUT**](https://msdn.microsoft.com/library/ms645562(v=VS.85).aspx)
-</dt> <dt>
+[**RAWINPUT**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-rawinput)
 
-[**GET\_RAWINPUT\_CODE\_WPARAM**](https://msdn.microsoft.com/library/ms645592(v=VS.85).aspx)
-</dt> <dt>
+[**GET\_RAWINPUT\_CODE\_WPARAM**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-get_rawinput_code_wparam)
 
 **Conceptual**
-</dt> <dt>
 
 [Raw Input](raw-input.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
