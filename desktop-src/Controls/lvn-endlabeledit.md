@@ -50,6 +50,8 @@ If the **pszText** member of the [**LVITEM**](/windows/win32/api/commctrl/ns-com
 
 ## Remarks
 
+The return value of the dialog procedure is whether the message was handled. The second return value must be set by calling [**SetwindowLongPtr**](/windows/win32/api/winuser/nf-winuser-setwindowlongptra) with **DWLP_MSGRESULT**.
+
 When the user begins editing an item label, the parent window of the list-view control receives an [LVN\_BEGINLABELEDIT](lvn-beginlabeledit.md) notification code. When the user cancels or completes the editing, the parent window receives an LVN\_ENDLABELEDIT notification code.
 
 ## Requirements
