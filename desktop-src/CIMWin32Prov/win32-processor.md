@@ -1220,14 +1220,12 @@ End If
 <dl>
     <dt>[<b>CIM_Processor</b>](cim-processor.md)</dt>
     <dt>[Computer System Hardware Classes](computer-system-hardware-classes.md)</dt>
-    <dt>[WMI Tasks: Computer Hardware](https://docs.microsoft.com/en-us/windows/win32/wmisdk/wmi-tasks--computer-hardware)</dt>
+    <dt>[WMI Tasks: Computer Hardware](/windows/win32/wmisdk/wmi-tasks--computer-hardware)</dt>
 </dl>
 
-  [0]: https://docs.microsoft.com/en-us/windows/win32/wmisdk/retrieving-a-class
-  [1]: https://docs.microsoft.com/en-us/windows/win32/wmisdk/standard-qualifiers
-  [2]: https://docs.microsoft.com/en-us/windows/win32/wmisdk/standard-wmi-qualifiers
-  [3]: https://docs.microsoft.com/en-us/windows/win32/wmisdk/key-qualifier
-  [4]: https://docs.microsoft.com/en-us/windows/win32/api/sysinfoapi/ns-sysinfoapi-system_info
-  [5]: https://docs.microsoft.com/en-us/windows/win32/wmisdk/designing-managed-object-format--mof--classes
-
- 
+  [0]: /windows/win32/wmisdk/retrieving-a-class
+  [1]: /windows/win32/wmisdk/standard-qualifiers
+  [2]: /windows/win32/wmisdk/standard-wmi-qualifiers
+  [3]: /windows/win32/wmisdk/key-qualifier
+  [4]: /windows/win32/api/sysinfoapi/ns-sysinfoapi-system_info
+  [5]: /windows/win32/wmisdk/designing-managed-object-format--mof--classes
