@@ -14,7 +14,7 @@ This article describes Windows Advanced Rasterization Platform (WARP) and the fo
 -   [WARP Benefits](#warp-benefits)
     -   [Removing the Need for Custom Software Rasterizers](#removing-the-need-for-custom-software-rasterizers)
     -   [Enabling Maximum Performance from Graphics Hardware](#enabling-maximum-performance-from-graphics-hardware)
-    -   [Enabling Rendering When Direct3D 10 Hardware is Not Available](#enabling-rendering-when-direct3d-10-hardware-is-not-available)
+    -   [Enabling Rendering When Direct3D Hardware is Not Available](#enabling-rendering-when-direct3d-hardware-is-not-available)
     -   [Leveraging Existing Resources for Software Rendering](#leveraging-existing-resources-for-software-rendering)
     -   [Enabling Scenarios that Do Not Require Graphics Hardware](#enabling-scenarios-that-do-not-require-graphics-hardware)
     -   [Completing the DirectX Graphics Platform](#completing-the-directx-graphics-platform)
@@ -30,7 +30,7 @@ This article describes Windows Advanced Rasterization Platform (WARP) and the fo
 
 ## What is WARP?
 
-WARP is a high speed, fully conformant software rasterizer. It is a component of the DirectX graphics technology that was introduced by the Direct3D 11 runtime. The Direct3D 11 runtime is installed on Windows 7, Windows Server 2008 R2, and Windows Vista with the \[KB971644\] update. Windows 8, Windows Server 2012, and Windows RT include the Direct3D 11.1 runtime, which has an updated version of WARP.
+WARP is a high speed, fully conformant software rasterizer. It is a component of the DirectX graphics technology that was introduced by the Direct3D 11 runtime. The Direct3D 11 runtime is installed on Windows 7, Windows Server 2008 R2, and Windows Vista with the \[KB971644\] update. Windows 8, Windows 10, Windows Server 2012 & above, and Windows RT include the Direct3D 11.1 runtime, which has an updated version of WARP. Windows 10 Fall Creators Update (1709), WARP supports both Direct3D 11 and Direct3D 12 runtimes. 
 
 ## WARP Benefits
 
@@ -38,7 +38,7 @@ WARP provides the following benefits:
 
 -   [Removing the Need for Custom Software Rasterizers](#removing-the-need-for-custom-software-rasterizers)
 -   [Enabling Maximum Performance from Graphics Hardware](#enabling-maximum-performance-from-graphics-hardware)
--   [Enabling Rendering When Direct3D 10 Hardware is Not Available](#enabling-rendering-when-direct3d-10-hardware-is-not-available)
+-   [Enabling Rendering When Direct3D Hardware is Not Available](#enabling-rendering-when-direct3d-hardware-is-not-available)
 -   [Leveraging Existing Resources for Software Rendering](#leveraging-existing-resources-for-software-rendering)
 -   [Enabling Scenarios that Do Not Require Graphics Hardware](#enabling-scenarios-that-do-not-require-graphics-hardware)
 -   [Completing the DirectX Graphics Platform](#completing-the-directx-graphics-platform)
@@ -51,12 +51,13 @@ WARP simplifies development by removing the need to build a custom software rast
 
 When an application is tuned to run efficiently on hardware, it will run efficiently on WARP as well. The converse is also true; any application that is tuned to run well on WARP will perform well on hardware. Applications that use Direct3D 10 and later inefficiently might not scale efficiently on different hardware. WARP has similar performance profiles to hardware, so tuning an application for large batches, minimizing state changes, removing synchronizing points or locks will benefit both hardware and WARP.
 
-### Enabling Rendering When Direct3D 10 Hardware is Not Available
+### Enabling Rendering When Direct3D Hardware is Not Available
 
-WARP allows fast rendering in a variety of situations where hardware implementations are unavailable, including:
+WARP allows fast rendering in a variety of situations where hardware implementations are undesirable or unavailable, including:
 
 -   When the user does not have any Direct3D-capable hardware
 -   When an application runs as a service or in a server environment
+-   When an application wants to reserve the Direct3D hardware resources for other uses
 -   When a video card is not installed
 -   When a video driver is not available, or is not working correctly
 -   When a video card is out of memory, hangs, or would take too many system resources to initialize
@@ -86,7 +87,9 @@ WARP fully supports all Direct3D 10 and 10.1 features. For example, WARP support
 
 When you install the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838) on Windows 7 SP1 or Windows Server 2008 R2 SP1, that operating system then includes the Direct3D 11.1 runtime and a version of WARP that supports Direct3D 11.x when used with [feature levels](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9\_1, 9\_2, 9\_3, 10\_0, 10\_1, and 11\_0.
 
-Windows 8, Windows Server 2012, and Windows RT include the Direct3D 11.1 runtime and a new version of WARP. This version supports Direct3D 11.x when used with [feature levels](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9\_1, 9\_2, 9\_3, 10\_0, 10\_1, 11\_0, and 11\_1.
+Windows 8, Windows 10, Windows Server 2012 & above, and Windows RT include the Direct3D 11.1 runtime and a new version of WARP. This version supports Direct3D 11.x when used with [feature levels](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9\_1, 9\_2, 9\_3, 10\_0, 10\_1, 11\_0, and 11\_1.
+
+Windows 10 Fall Creators Update (1709) includes a new version of WARP that supports [Direct3D 12](https://docs.microsoft.com/en-us/windows/win32/direct3d12/direct3d-12-graphics) feature levels 12\_0 and 12\_1. 
 
 The minimum computer requirements for WARP are the same as for Windows Vista, specifically:
 
@@ -96,15 +99,15 @@ The minimum computer requirements for WARP are the same as for Windows Vista, sp
 
 ## How to Use WARP
 
-Direct3D 10, 10.1, and 11 components can use an additional driver type that you can specify when you create the device (for example, when you call the [**D3D11CreateDevice**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice) function). This driver type is [**D3D10\_DRIVER\_TYPE\_WARP**](https://docs.microsoft.com/windows/desktop/api/d3d10misc/ne-d3d10misc-d3d10_driver_type) or [**D3D\_DRIVER\_TYPE\_WARP**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_driver_type). When you specify this driver type, the runtime creates a WARP device and does not initialize a hardware device.
+Direct3D 10, 10.1, 11, and 12 components can use an additional driver type that you can specify when you create the device (for example, when you call the [**D3D11CreateDevice**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice) function). This driver type is [**D3D10\_DRIVER\_TYPE\_WARP**](https://docs.microsoft.com/windows/desktop/api/d3d10misc/ne-d3d10misc-d3d10_driver_type) or [**D3D\_DRIVER\_TYPE\_WARP**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_driver_type). When you specify this driver type, the runtime creates a WARP device and does not initialize a hardware device.
 
-Because WARP uses the same software interface to Direct3D as the reference rasterizer does, any Direct3D 10 or 10.1 application that can support running with the reference rasterizer can be tested by using WARP. To use WARP, rename D3d10warp.dll to D3d10ref.dll and place it in the same folder as the sample or application. Next, when you switch to ref, you will see WARP rendering.
+Because WARP uses the same software interface to Direct3D as the reference rasterizer does, any Direct3D application that can support running with the reference rasterizer can be tested by using WARP. To use WARP, rename D3d10warp.dll to D3d10ref.dll and place it in the same folder as the sample or application. Next, when you switch to ref, you will see WARP rendering.
 
 If you rename WARP to D3d10ref.dll and place it in C:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)\\Samples\\C++\\Direct3D\\Bin\\x86, you can run all the DirectX samples against WARP, either by clicking the "Toggle Ref" button in the sample, or by running the sample with /ref specified on the command line.
 
 ## Recommended Application Types for WARP
 
-All applications that can use Direct3D 10 or 10.1 can use WARP. This includes the following types of applications:
+All applications that can use Direct3D can use WARP. This includes the following types of applications:
 
 -   [Casual Games](#casual-games)
 -   [Existing Non-Gaming Applications](#existing-non-gaming-applications)
@@ -117,7 +120,7 @@ Games typically have simple rendering requirements. However, they also require t
 
 ### Existing Non-Gaming Applications
 
-A large amount of graphical applications require a minimal number of code paths in their rendering layer. WARP enables these applications to implement a single Direct3D 10, Direct3D 10.1, or Direct3D 11 code path that can target a large number of computer configurations.
+A large amount of graphical applications require a minimal number of code paths in their rendering layer. WARP enables these applications to implement a single Direct3D code path that can target a large number of computer configurations.
 
 ### Advanced Rendering Games
 
@@ -134,7 +137,7 @@ WARP is based on the reference rasterizer codebase. Therefore, WARP uses the sam
 WARP contains the following two high-speed, real-time compilers:
 
 -   The high-level intermediate language compiler that converts HLSL bytecode and the current render state into an optimized stream of vector commands for the geometry shader (GS), vertex shader (VS), and pixel shader (PS) stages of the pipeline.
--   The high-performance just-in-time code generator that can take these commands and generate optimized SSE2, SSE4.1, x86, or x64 assembly code.
+-   The high-performance just-in-time code generator that can take these commands and generate optimized SSE2, SSE4.1, x86, x64, arm, and arm64 assembly code.
 
 WARP uses the thread pool and complex task management and dependency tracking that was introduced in Windows Vista to allow all parts of the rendering pipeline to be distributed efficiently across available CPU cores.
 
