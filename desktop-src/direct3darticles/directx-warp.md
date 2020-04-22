@@ -30,7 +30,7 @@ This article describes Windows Advanced Rasterization Platform (WARP) and the fo
 
 ## What is WARP?
 
-WARP is a high speed, fully conformant software rasterizer. It is a component of the DirectX graphics technology that was introduced by the Direct3D 11 runtime. The Direct3D 11 runtime is installed on Windows 7, Windows Server 2008 R2, and Windows Vista with the \[KB971644\] update. Windows 8, Windows 10, Windows Server 2012 & above, and Windows RT include the Direct3D 11.1 runtime, which has an updated version of WARP. Windows 10 Fall Creators Update (1709), WARP supports both Direct3D 11 and Direct3D 12 runtimes. 
+WARP is a high speed, fully conformant software rasterizer. It is a component of the DirectX graphics technology that was introduced by the Direct3D 11 runtime. The Direct3D 11 runtime is installed on Windows 7, Windows Server 2008 R2, and Windows Vista with the \[KB971644\] update. Windows 8, Windows 10, Windows Server 2012 & above, and Windows RT include the Direct3D 11.1 runtime, which has an updated version of WARP. Windows 10 Fall Creators Update (1709) includes a version of WARP that supports both Direct3D 11 and Direct3D 12 runtimes.
 
 ## WARP Benefits
 
