@@ -30,8 +30,8 @@ The DirectXMath Library provides a number of structures and defined types to enc
 | [**XMFLOAT3PK**](https://msdn.microsoft.com/library/Ee419478(v=VS.85).aspx) | Describes a 3D vector with X and Y components stored as 11 bit floating point number, and Z component stored as a 10 bit floating-point value.  |
 | [**XMFLOAT3SE**](https://msdn.microsoft.com/library/Ee419489(v=VS.85).aspx) | Describes a 3D vector of three floating-point components with 9 bit mantissas, each sharing the same 5-bit exponent.  |
 | [**XMFLOAT3X3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x3) | A 3x3 floating point matrix. |
-| [**XMFLOAT3X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4) | |
-| [**XMFLOAT3X4A**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4a) | |
+| [**XMFLOAT3X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4) | A 3x4 column-major matrix containing 32-bit floating-point components. |
+| [**XMFLOAT3X4A**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4a) | A 3x4 column-major matrix containing 32-bit floating-point components aligned on a 16-byte boundary. |
 | [**XMFLOAT4**](https://msdn.microsoft.com/library/Ee419608(v=VS.85).aspx) | Describes a 4D vector consisting of four single-precision floating-point values.  |
 | [**XMFLOAT4A**](https://msdn.microsoft.com/library/Ee419609(v=VS.85).aspx) | Describes an [**XMFLOAT4**](https://msdn.microsoft.com/library/Ee419608(v=VS.85).aspx) structure aligned on a 16-byte boundary. |
 | [**XMFLOAT4X3**](https://msdn.microsoft.com/library/Ee419611(v=VS.85).aspx) | A 4x3 floating point matrix. |
