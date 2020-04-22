@@ -89,7 +89,7 @@ When you install the [Platform Update for Windows 7](https://support.microsoft.c
 
 Windows 8, Windows 10, Windows Server 2012 & above, and Windows RT include the Direct3D 11.1 runtime and a new version of WARP. This version supports Direct3D 11.x when used with [feature levels](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9\_1, 9\_2, 9\_3, 10\_0, 10\_1, 11\_0, and 11\_1.
 
-Windows 10 Fall Creators Update (1709) includes a new version of WARP that supports [Direct3D 12](https://docs.microsoft.com/en-us/windows/win32/direct3d12/direct3d-12-graphics) feature levels 12\_0 and 12\_1. 
+Windows 10 Fall Creators Update (1709) includes a new version of WARP that supports [Direct3D 12](https://docs.microsoft.com/windows/win32/direct3d12/direct3d-12-graphics) feature levels 12\_0 and 12\_1. 
 
 The minimum computer requirements for WARP are the same as for Windows Vista, specifically:
 
@@ -99,7 +99,7 @@ The minimum computer requirements for WARP are the same as for Windows Vista, sp
 
 ## How to Use WARP
 
-Direct3D 10, 10.1, 11, and 12 components can use an additional driver type that you can specify when you create the device (for example, when you call the [**D3D11CreateDevice**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice) function). This driver type is [**D3D10\_DRIVER\_TYPE\_WARP**](https://docs.microsoft.com/windows/desktop/api/d3d10misc/ne-d3d10misc-d3d10_driver_type) or [**D3D\_DRIVER\_TYPE\_WARP**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_driver_type). When you specify this driver type, the runtime creates a WARP device and does not initialize a hardware device.
+Direct3D 10, 10.1, 11, and 12 components can use an additional driver type that you can specify when you create the device (for example, when you call the [**D3D11CreateDevice**](/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice) function). This driver type is [**D3D10\_DRIVER\_TYPE\_WARP**](/windows/desktop/api/d3d10misc/ne-d3d10misc-d3d10_driver_type) or [**D3D\_DRIVER\_TYPE\_WARP**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_driver_type). When you specify this driver type, the runtime creates a WARP device and does not initialize a hardware device.
 
 Because WARP uses the same software interface to Direct3D as the reference rasterizer does, any Direct3D application that can support running with the reference rasterizer can be tested by using WARP. To use WARP, rename D3d10warp.dll to D3d10ref.dll and place it in the same folder as the sample or application. Next, when you switch to ref, you will see WARP rendering.
 
@@ -161,8 +161,6 @@ The following two tables show WARP example data with various CPUs and graphics c
 
 The first table shows WARP example data with Direct3D 10 Crysis running at 800x600 with all the quality settings on their lowest levels:
 
-
-
 | CPU                         | Time   | Ave FPS | Min FPS | Min Frame | Max FPS | Max Frame |
 |-----------------------------|--------|---------|---------|-----------|---------|-----------|
 | Core i7 8 Core @ 3.0GHz     | 271.57 | 7.36    | 3.46    | 1966      | 15.01   | 995       |
@@ -175,13 +173,7 @@ The first table shows WARP example data with Direct3D 10 Crysis running at 800x6
 | AMD FX74 4 Core @ 3.0GHz    | 583.12 | 3.43    | 1.41    | 1967      | 5.78    | 986       |
 | Phenom 9550 4 Core @ 2.2GHz | 664.69 | 3.01    | 0.53    | 1959      | 5.46    | 987       |
 
-
-
- 
-
 The second table shows example data running the same test across a variety of graphics cards:
-
-
 
 | Graphics Card         | Time   | Ave FPS | Min FPS | Min Frame | Max FPS | Max Frame |
 |-----------------------|--------|---------|---------|-----------|---------|-----------|
@@ -194,10 +186,6 @@ The second table shows example data running the same test across a variety of gr
 | ATI 2400 PRO          | 67.04  | 29.83   | 17.97   | 606       | 45.91   | 987       |
 | Intel DX10 Integrated | 386.94 | 5.17    | 1.74    | 1974      | 16.22   | 995       |
 
-
-
- 
-
 ## WARP Conformance
 
 WARP passes all the standard Windows Hardware Quality Labs (WHQL) conformance tests for validating Direct3D hardware devices.
@@ -205,13 +193,3 @@ WARP passes all the standard Windows Hardware Quality Labs (WHQL) conformance te
 WARP has been tested against a suite of Direct3D 10 and Direct3D 10.1 applications and benchmarks, and against SDK samples from DirectX, NVIDIA, and AMD.
 
 WARP used the [PIX](https://msdn.microsoft.com/library/ee417062(v=VS.85).aspx) debugging and analysis tool for Windows in its testing; Microsoft has a large library of single frame captures of applications that are used to compare between hardware and WARP. The majority of the images appear almost identical between hardware and WARP; where small differences sometimes occur, they are found to be within the tolerances defined by the Direct3D 10 specification.
-
-## 
-
- 
-
- 
-
-
-
-
