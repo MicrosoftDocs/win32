@@ -631,7 +631,7 @@
       - name: "ADS_SYSTEMFLAG_ENUM"
         href: /windows/win32/api/Iads/ne-iads-ads_systemflag_enum
       - name: "ADS_USER_FLAG_ENUM"
-        href: /windows/desktop/api/Iads/ne-iads-ads_user_flag
+        href: /windows/desktop/api/iads/ne-iads-ads_user_flag_enum
       - name: "ADSI_DIALECT_ENUM"
         href: /windows/win32/api/Iads/ne-iads-adsi_dialect_enum
       - name: "ADSTYPEENUM"

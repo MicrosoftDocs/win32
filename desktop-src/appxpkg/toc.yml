@@ -551,11 +551,6 @@
           href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackagereader-getpayloadfile
         - name: "GetPayloadFiles method"
           href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackagereader-getpayloadfiles
-      - name: "IAppxPackageReader2"
-        href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxpackagereader2
-        items: 
-        - name: "GetContentGroupMap method"
-          href: /windows/desktop/api/AppxPackaging/nf-appxpackaging-iappxpackagereader2-getcontentgroupmap
       - name: "IAppxPackageWriter"
         href: /windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxpackagewriter
         items: 
