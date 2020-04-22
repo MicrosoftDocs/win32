@@ -1,7 +1,7 @@
 ---
-Description: Open- cl is a library that ships with various Windows components. For reference documentation for the APIs in this library, see https://www.khronos.org/registry/Open- cl/.
-title: Open- cl
-ms.topic: arti- cle
+Description: OpenCL is a library that ships with various Windows components. For reference documentation for the APIs in this library, see https://www.khronos.org/registry/OpenCL/.
+title: OpenCL
+ms.topic: article
 ms.date: 04/17/2020
 topic_type: 
 - APIRef
@@ -131,11 +131,11 @@ api_name:
 api_type: 
 - DllExport
 api_location: 
-- open- cl.dll
+- openCL.dll
 ---
 
-# Open- cl 
+# OpenCL
 
-Open- cl is a library that ships with various Windows components. For reference documentation for the APIs in this library, see  [https://www.khronos.org/registry/Open- cl/](https://www.khronos.org/registry/Open- cl/).
+OpenCL is a library that ships with various Windows components. For reference documentation for the APIs in this library, see  [https://www.khronos.org/registry/OpenCL/](https://www.khronos.org/registry/OpenCL/).
 
 
