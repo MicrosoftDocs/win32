@@ -1008,6 +1008,8 @@
     items: 
     - name: "DA_GET_NFS_ATTRIBUTES"
       href: da-get-nfs-attributes.md
+  - name: "OpenCL"
+    href: opencl.md
   - name: "PatchAPI"
     href: patchapi.md
     items: 
