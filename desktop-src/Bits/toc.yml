@@ -556,9 +556,9 @@
       href: bits-c---structures-and-unions.md
       items: 
       - name: "BG_AUTH_CREDENTIALS"
-        href: /windows/win32/api/Bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0005
+        href: /windows/win32/api/Bits1_5/ns-bits1_5-bg_auth_credentials
       - name: "BG_AUTH_CREDENTIALS_UNION"
-        href: /windows/win32/api/Bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0004
+        href: /windows/win32/api/Bits1_5/ns-bits1_5-bg_auth_credentials_union
       - name: "BG_BASIC_CREDENTIALS"
         href: /windows/win32/api/Bits1_5/ns-bits1_5-bg_auth_credentials
       - name: "BG_FILE_INFO"
@@ -574,9 +574,9 @@
       - name: "BG_JOB_TIMES"
         href: /windows/win32/api/Bits/ns-bits-bg_job_times
       - name: "BITS_FILE_PROPERTY_VALUE"
-        href: /windows/win32/api/Bits5_0/ns-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0005
+        href: /windows/win32/api/Bits5_0/ns-bits5_0-bits_file_property_value
       - name: "BITS_JOB_PROPERTY_VALUE"
-        href: /windows/win32/api/Bits5_0/ns-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0003
+        href: /windows/win32/api/Bits5_0/ns-bits5_0-bits_job_property_value
     - name: "BITS Upload Protocol"
       href: bits-upload-protocol.md
       items: 
