@@ -7,7 +7,6 @@ topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-- clEnqueueReadBufferRect
 - clBuildProgram
 - clCreateBuffer
 - clCreateCommandQueue
