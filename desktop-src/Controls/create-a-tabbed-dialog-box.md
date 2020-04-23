@@ -83,7 +83,7 @@ HRESULT OnTabbedDialogInit(HWND hwndDlg)
 
     // Save a pointer to the DLGHDR structure in the window
     // data of the dialog box. 
-    SetWindowLong(hwndDlg, GWL_USERDATA, (LONG) pHdr); 
+    SetWindowLongPtr(hwndDlg, GWLP_USERDATA, (LONG_PTR) pHdr); 
  
     // Create the tab control. Note that g_hInst is a global 
     // instance handle. 
@@ -200,8 +200,8 @@ The following function processes the [TCN\_SELCHANGE](tcn-selchange.md) notifica
 VOID OnSelChanged(HWND hwndDlg) 
 { 
     // Get the dialog header data.
-    DLGHDR *pHdr = (DLGHDR *) GetWindowLong( 
-        hwndDlg, GWL_USERDATA); 
+    DLGHDR *pHdr = (DLGHDR *) GetWindowLongPtr( 
+        hwndDlg, GWLP_USERDATA); 
 
     // Get the index of the selected tab.
     int iSel = TabCtrl_GetCurSel(pHdr->hwndTab); 
@@ -232,8 +232,8 @@ The following function processes the [**WM\_INITDIALOG**](https://docs.microsoft
 VOID WINAPI OnChildDialogInit(HWND hwndDlg) 
 { 
     HWND hwndParent = GetParent(hwndDlg);
-    DLGHDR *pHdr = (DLGHDR *) GetWindowLong( 
-        hwndParent, GWL_USERDATA); 
+    DLGHDR *pHdr = (DLGHDR *) GetWindowLongPtr( 
+        hwndParent, GWLP_USERDATA); 
     SetWindowPos(hwndDlg, NULL, pHdr->rcDisplay.left,
         pHdr->rcDisplay.top,//-2,
         (pHdr->rcDisplay.right - pHdr->rcDisplay.left),

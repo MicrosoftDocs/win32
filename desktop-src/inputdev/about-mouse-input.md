@@ -391,14 +391,6 @@ By processing [**WM\_MOUSEACTIVATE**](wm-mouseactivate.md), a window can control
 | **MA\_ACTIVATEANDEAT**   | Activates the window and discards the mouse message.                 |
 | **MA\_NOACTIVATEANDEAT** | Does not activate the window but discards the mouse message.         |
 
+## See also
 
-
- 
-
- 
-
- 
-
-
-
-
+[Taking Advantage of High-Definition Mouse Movement](https://docs.microsoft.com/windows/win32/dxtecharts/taking-advantage-of-high-dpi-mouse-movement)

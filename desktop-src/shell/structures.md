@@ -32,11 +32,11 @@ This section describes the Windows Shell Structures.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Shlobj/ns-shlobj-tagaamenufilename"><strong>AASHELLMENUFILENAME</strong></a><br/></td>
+<td><a href="/windows/win32/api/shlobj/ns-shlobj-aashellmenufilename"><strong>AASHELLMENUFILENAME</strong></a><br/></td>
 <td>A variable-size structure that contains information about a menu file name.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Shlobj/ns-shlobj-tagaashellmenuitem"><strong>AASHELLMENUITEM</strong></a><br/></td>
+<td><a href="/windows/win32/api/shlobj/ns-shlobj-aashellmenuitem"><strong>AASHELLMENUITEM</strong></a><br/></td>
 <td>Contains information about a menu item.<br/></td>
 </tr>
 <tr class="odd">
@@ -64,7 +64,7 @@ This section describes the Windows Shell Structures.
 <td>Contains information about a folder band. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-getbandinfosfb"><strong>IShellFolderBand::GetBandInfoSFB</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-setbandinfosfb"><strong>IShellFolderBand::SetBandInfoSFB</strong></a> methods.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-tagbandsiteinfo"><strong>BANDSITEINFO</strong></a><br/></td>
+<td><a href="/windows/win32/api/shobjidl_core/ns-shobjidl_core-bandsiteinfo"><strong>BANDSITEINFO</strong></a><br/></td>
 <td>Contains information about a band site. This structure is used with the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-getbandsiteinfo"><strong>IBandSite::GetBandSiteInfo</strong></a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-setbandsiteinfo"><strong>IBandSite::SetBandSiteInfo</strong></a> methods.<br/></td>
 </tr>
 <tr class="even">
@@ -84,7 +84,7 @@ This section describes the Windows Shell Structures.
 <td>Contains category information. A component category is a group of logically-related Component Object Model (COM) classes that share a common category identifier (CATID).<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_ida"><strong>CIDA</strong></a><br/></td>
+<td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-cida"><strong>CIDA</strong></a><br/></td>
 <td>Used with the <a href="clipboard.md">CFSTR_SHELLIDLIST</a> clipboard format to transfer the pointer to an item identifier list (PIDL) of one or more Shell namespace objects.<br/></td>
 </tr>
 <tr class="odd">
@@ -104,19 +104,19 @@ This section describes the Windows Shell Structures.
 <td>Used generically to filter elements.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent"><strong>COMPONENT</strong></a><br/></td>
-<td>Used by Windows 2000 to hold information about a component. This structure replaces the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagie4component"><strong>IE4COMPONENT</strong></a> structure.<br/></td>
+<td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-component"><strong>COMPONENT</strong></a><br/></td>
+<td>Used by Windows 2000 to hold information about a component. This structure replaces the <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-ie4component"><strong>IE4COMPONENT</strong></a> structure.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponentsopt"><strong>COMPONENTSOPT</strong></a><br/></td>
+<td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-componentsopt"><strong>COMPONENTSOPT</strong></a><br/></td>
 <td>Contains the desktop item options.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomppos"><strong>COMPPOS</strong></a><br/></td>
+<td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-comppos"><strong>COMPPOS</strong></a><br/></td>
 <td>Holds information about a component's position and size.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcompstateinfo"><strong>COMPSTATEINFO</strong></a><br/></td>
+<td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-compstateinfo"><strong>COMPSTATEINFO</strong></a><br/></td>
 <td>Used by Windows 2000 to hold information about a component's state.<br/></td>
 </tr>
 <tr class="odd">
@@ -128,7 +128,7 @@ This section describes the Windows Shell Structures.
 <td>Defines conflict result information structure.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Cpl/ns-cpl-tagcplinfo"><strong>CPLINFO</strong></a><br/></td>
+<td><a href="/windows/win32/api/cpl/ns-cpl-cplinfo"><strong>CPLINFO</strong></a><br/></td>
 <td>Contains resource information and an application-defined value for a dialog box supported by a Control Panel application. The <a href="https://docs.microsoft.com/windows/desktop/api/cpl/nc-cpl-applet_proc"><strong>CPlApplet</strong></a> function of the Control Panel application returns this information to the Control Panel in response to a <a href="cpl-inquire.md"><strong>CPL_INQUIRE</strong></a> message.<br/></td>
 </tr>
 <tr class="even">
@@ -144,7 +144,7 @@ This section describes the Windows Shell Structures.
 <td>Used with the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex"><strong>SHCreateShellFolderViewEx</strong></a> function.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-tagdatablockheader"><strong>DATABLOCK_HEADER</strong></a><br/></td>
+<td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-datablock_header"><strong>DATABLOCK_HEADER</strong></a><br/></td>
 <td>Serves as the header for some of the extra data structures used by <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>IShellLinkDataList</strong></a>.<br/></td>
 </tr>
 <tr class="even">
@@ -249,16 +249,16 @@ In place of this structure, you can use the <a href="/windows/desktop/api/Shlwap
 <td>Contains information that the file viewer uses to display a file.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Winuser/ns-winuser-taghelpinfo"><strong>HELPINFO</strong></a><br/></td>
+<td><a href="/windows/win32/api/winuser/ns-winuser-helpinfo"><strong>HELPINFO</strong></a><br/></td>
 <td>Contains information about an item for which context-sensitive Help has been requested.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/ns-winuser-taghelpwininfoa"><strong>HELPWININFO</strong></a><br/></td>
+<td><a href="/windows/win32/api/winuser/ns-winuser-helpwininfow"><strong>HELPWININFO</strong></a><br/></td>
 <td>Contains the size and position of either a primary or secondary Help window. An application can set this information by calling the <a href="/windows/desktop/api/Winuser/nf-winuser-winhelpa"><strong>WinHelp</strong></a> function with the HELP_SETWINPOS value.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagie4component"><strong>IE4COMPONENT</strong></a><br/></td>
-<td>Used by Microsoft Internet Explorer 4.0 and Microsoft Internet Explorer 4.01 to hold information about a component. With Windows 2000, it is replaced by the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent"><strong>COMPONENT</strong></a> structure.<br/></td>
+<td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-ie4component"><strong>IE4COMPONENT</strong></a><br/></td>
+<td>Used by Microsoft Internet Explorer 4.0 and Microsoft Internet Explorer 4.01 to hold information about a component. With Windows 2000, it is replaced by the <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-component"><strong>COMPONENT</strong></a> structure.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a><br/></td>
@@ -273,7 +273,7 @@ In place of this structure, you can use the <a href="/windows/desktop/api/Shlwap
 <td>Defines the specifics of a known folder.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/dimm/ns-dimm-__midl___midl_itf_dimm_0000_0000_0003"><strong>LOGFONT</strong></a><br/></td>
+<td><a href="/windows/win32/api/shtypes/ns-shtypes-logfontw"><strong>LOGFONT</strong></a><br/></td>
 <td>Defines the attributes of a font.<br/></td>
 </tr>
 <tr class="odd">
@@ -281,11 +281,11 @@ In place of this structure, you can use the <a href="/windows/desktop/api/Shlwap
 <td>Contains information that defines a new most recently used (MRU) list. Used by <a href="createmrulist.md"><strong>CreateMRUListW</strong></a>.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Winuser/ns-winuser-tagmultikeyhelpa"><strong>MULTIKEYHELP</strong></a><br/></td>
+<td><a href="/windows/win32/api/winuser/ns-winuser-multikeyhelpw"><strong>MULTIKEYHELP</strong></a><br/></td>
 <td>Specifies a keyword to search for and the keyword table to be searched by Windows Help.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Shellapi/ns-shellapi-tagnc_address"><strong>NC_ADDRESS</strong></a><br/></td>
+<td><a href="/windows/win32/api/shellapi/ns-shellapi-nc_address"><strong>NC_ADDRESS</strong></a><br/></td>
 <td>Contains information that describes a network address.<br/></td>
 </tr>
 <tr class="even">
@@ -293,7 +293,7 @@ In place of this structure, you can use the <a href="/windows/desktop/api/Shlwap
 <td>Describes a network address.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Cpl/ns-cpl-tagnewcplinfoa"><strong>NEWCPLINFO</strong></a><br/></td>
+<td><a href="/windows/win32/api/cpl/ns-cpl-newcplinfow"><strong>NEWCPLINFO</strong></a><br/></td>
 <td>Contains resource information and an application-defined value for a dialog box supported by a Control Panel application.<br/></td>
 </tr>
 <tr class="even">
@@ -333,7 +333,7 @@ In place of this structure, you can use the <a href="/windows/desktop/api/Shlwap
 <td>Contains information used in asynchronous (overlapped) input/output (I/O).<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Shlwapi/ns-shlwapi-tagparsedurla"><strong>PARSEDURL</strong></a><br/></td>
+<td><a href="/windows/win32/api/shlwapi/ns-shlwapi-parsedurlw"><strong>PARSEDURL</strong></a><br/></td>
 <td>Used by the <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-parseurla"><strong>ParseURL</strong></a> function to return the parsed URL.<br/></td>
 </tr>
 <tr class="even">
@@ -361,8 +361,8 @@ In place of this structure, you can use the <a href="/windows/desktop/api/Shlwap
 <td>Used by the <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-qisearch"><strong>QISearch</strong></a> function to describe a single interface.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Propidl/ns-propidl-tagserializedpropertyvalue"><strong>SERIALIZEDPROPERTYVALUE</strong></a><br/></td>
-<td>A range of memory of arbitrary type that represents a serialized <a href="https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-propvariant"><strong>PROPVARIANT</strong></a> structure. Programs should not inspect the contents of a <a href="/windows/desktop/api/Propidl/ns-propidl-tagserializedpropertyvalue"><strong>SERIALIZEDPROPERTYVALUE</strong></a>; instead, they should manipulate it with the <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-stgserializepropvariant"><strong>StgSerializePropVariant</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-stgdeserializepropvariant"><strong>StgDeserializePropVariant</strong></a> functions.<br/></td>
+<td><a href="/windows/win32/api/propidl/ns-propidl-serializedpropertyvalue"><strong>SERIALIZEDPROPERTYVALUE</strong></a><br/></td>
+<td>A range of memory of arbitrary type that represents a serialized <a href="https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-propvariant"><strong>PROPVARIANT</strong></a> structure. Programs should not inspect the contents of a <a href="/windows/win32/api/propidl/ns-propidl-serializedpropertyvalue"><strong>SERIALIZEDPROPERTYVALUE</strong></a>; instead, they should manipulate it with the <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-stgserializepropvariant"><strong>StgSerializePropVariant</strong></a> and <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-stgdeserializepropvariant"><strong>StgDeserializePropVariant</strong></a> functions.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-sfv_create"><strong>SFV_CREATE</strong></a><br/></td>
@@ -479,23 +479,23 @@ As of Windows Vista, the use of the <a href="/windows/desktop/api/shobjidl_core
 <td>Receives information used to retrieve a stock Shell icon. This structure is used in a call <a href="/windows/desktop/api/Shellapi/nf-shellapi-shgetstockiconinfo"><strong>SHGetStockIconInfo</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Shappmgr/ns-shappmgr-_tagslowappinfo"><strong>SLOWAPPINFO</strong></a><br/></td>
+<td><a href="/windows/win32/api/shappmgr/ns-shappmgr-slowappinfo"><strong>SLOWAPPINFO</strong></a><br/></td>
 <td>Provides specialized application information to <strong>Add/Remove Programs</strong> in Control Panel. This structure is not applicable to published applications.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-shcschangenotifystruct"><strong>SMCSHCHANGENOTIFYSTRUCT</strong></a><br/></td>
+<td><a href="/windows/win32/api/shobjidl_core/ns-shobjidl_core-smcshchangenotifystruct"><strong>SMCSHCHANGENOTIFYSTRUCT</strong></a><br/></td>
 <td>Contains information about change notification. It is used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm"><strong>IShellMenuCallback::CallbackSM</strong></a>.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-tagsmdata"><strong>SMDATA</strong></a><br/></td>
+<td><a href="/windows/win32/api/shobjidl_core/ns-shobjidl_core-smdata"><strong>SMDATA</strong></a><br/></td>
 <td>Contains information from a menu band.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-tagsminfo"><strong>SMINFO</strong></a><br/></td>
+<td><a href="/windows/win32/api/shobjidl_core/ns-shobjidl_core-sminfo"><strong>SMINFO</strong></a><br/></td>
 <td>Contains information about an item from a menu band.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Urlmon/ns-urlmon-_tagsoftdistinfo"><strong>SOFTDISTINFO</strong></a><br/></td>
+<td><a href="/windows/win32/api/urlmon/ns-urlmon-softdistinfo"><strong>SOFTDISTINFO</strong></a><br/></td>
 <td>Contains information about a software update.<br/></td>
 </tr>
 <tr class="even">
@@ -519,19 +519,19 @@ As of Windows Vista, the use of the <a href="/windows/desktop/api/shobjidl_core
 <td>Describes conflict ID information structure.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Mobsync/ns-mobsync-_tagsyncmgrhandlerinfo"><strong>SYNCMGRHANDLERINFO</strong></a><br/></td>
+<td><a href="/windows/win32/api/mobsync/ns-mobsync-syncmgrhandlerinfo"><strong>SYNCMGRHANDLERINFO</strong></a><br/></td>
 <td>Provides information about the handler for use in the <a href="/windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronize-gethandlerinfo"><strong>ISyncMgrSynchronize::GetHandlerInfo</strong></a> method.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Mobsync/ns-mobsync-_tagsyncmgritem"><strong>SYNCMGRITEM</strong></a><br/></td>
+<td><a href="/windows/win32/api/mobsync/ns-mobsync-syncmgritem"><strong>SYNCMGRITEM</strong></a><br/></td>
 <td>Provides information about items being enumerated by the <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems"><strong>ISyncMgrEnumItems</strong></a> interface.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/Mobsync/ns-mobsync-_tagsyncmgrlogerrorinfo"><strong>SYNCMGRLOGERRORINFO</strong></a><br/></td>
+<td><a href="/windows/win32/api/mobsync/ns-mobsync-syncmgrlogerrorinfo"><strong>SYNCMGRLOGERRORINFO</strong></a><br/></td>
 <td>Provides error information for use in the <a href="/windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror"><strong>ISyncMgrSynchronizeCallback::LogError</strong></a> method.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/Mobsync/ns-mobsync-_tagsyncmgrprogressitem"><strong>SYNCMGRPROGRESSITEM</strong></a><br/></td>
+<td><a href="/windows/win32/api/mobsync/ns-mobsync-syncmgrprogressitem"><strong>SYNCMGRPROGRESSITEM</strong></a><br/></td>
 <td>Provides status information while a synchronization is in progress. This structure is used with the <a href="/windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronizecallback-progress"><strong>ISyncMgrSynchronizeCallback::Progress</strong></a> method and corresponds to a single synchronization item.<br/></td>
 </tr>
 <tr class="odd">
@@ -543,7 +543,7 @@ As of Windows Vista, the use of the <a href="/windows/desktop/api/shobjidl_core
 <td>Used by methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3"><strong>ITaskbarList3</strong></a> interface to define buttons used in a toolbar embedded in a window's thumbnail representation.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagwallpaperopt"><strong>WALLPAPEROPT</strong></a><br/></td>
+<td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-wallpaperopt"><strong>WALLPAPEROPT</strong></a><br/></td>
 <td>Contains the wallpaper display options. Used with members of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop"><strong>IActiveDesktop</strong></a> interface.<br/></td>
 </tr>
 <tr class="even">

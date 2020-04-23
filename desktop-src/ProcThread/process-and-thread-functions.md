@@ -14,7 +14,7 @@ This topic describes the process and thread functions.
 -   [Process Functions](#process-functions)
 -   [Process Enumeration Functions](#process-enumeration-functions)
 -   [Policy Functions](#policy-functions)
--   [Thread Functions](#process-and-thread-functions)
+-   [Thread Functions](#thread-functions)
 -   [Process and Thread Extended Attribute Functions](#process-and-thread-extended-attribute-functions)
 -   [WOW64 Functions](#wow64-functions)
 -   [Job Object Functions](#job-object-functions)
@@ -80,7 +80,7 @@ The following functions are used with [processes](child-processes.md).
 | [**GetProcessWorkingSetSize**](/windows/desktop/api/WinBase/nf-winbase-getprocessworkingsetsize)             | Retrieves the minimum and maximum working set sizes of the specified process.                                                                                                                 |
 | [**GetProcessWorkingSetSizeEx**](https://msdn.microsoft.com/library/ms683227(v=VS.85).aspx)         | Retrieves the minimum and maximum working set sizes of the specified process.                                                                                                                 |
 | [**GetProcessorSystemCycleTime**](https://msdn.microsoft.com/library/Dd405497(v=VS.85).aspx)       | Retrieves the cycle time each processor in the specified group spent executing deferred procedure calls (DPCs) and interrupt service routines (ISRs).                                         |
-| [**GetStartupInfo**](/windows/desktop/api/WinBase/nf-winbase-getstartupinfoa)                                 | Retrieves the contents of the [**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx) structure that was specified when the calling process was created.                                                       |
+| [**GetStartupInfo**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)                                 | Retrieves the contents of the [**STARTUPINFO**](https://msdn.microsoft.com/library/ms686331(v=VS.85).aspx) structure that was specified when the calling process was created.                                                       |
 | [**IsImmersiveProcess**](/windows/desktop/api/Winuser/nf-winuser-isimmersiveprocess)                         | Determines whether the process belongs to a Windows Store app.                                                                                                                                |
 | [**NeedCurrentDirectoryForExePath**](https://msdn.microsoft.com/library/ms684269(v=VS.85).aspx) | Determines whether the current directory should be included in the search path for the specified executable.                                                                                  |
 | [**OpenProcess**](https://msdn.microsoft.com/library/ms684320(v=VS.85).aspx)                                       | Opens an existing local process object.                                                                                                                                                       |

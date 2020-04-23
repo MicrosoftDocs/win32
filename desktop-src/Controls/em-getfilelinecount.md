@@ -73,7 +73,7 @@ Word-wrap does not change the number of lines this message returns, as this mess
 [**EM\_FILELINELENGTH**](em-filelinelength.md)
 </dt> <dt>
 
-[**Edit\_GetFileLineCount**](/windows/desktop/api/Windowsx/nf-windowsx-edit_getfilelinecount)
+[**Edit\_GetFileLineCount**](/windows/win32/api/commctrl/nf-commctrl-edit_getfilelinecount)
 </dt> </dl>
 
  

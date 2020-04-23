@@ -169,7 +169,7 @@ int __cdecl wmain()
         return 1;
     }
     
-    hr = pRegInfo->put_Author( L"Author Name" );
+    hr = pRegInfo->put_Author( _bstr_t(L"Author Name") );
     pRegInfo->Release();  // COM clean up.  Pointer is no longer used.
     if( FAILED(hr) )
     {
@@ -344,8 +344,8 @@ int __cdecl wmain()
     //  be created to run with the credentials from the supplied 
     //  user name and password.
     CREDUI_INFO cui;
-    TCHAR pszName[CREDUI_MAX_USERNAME_LENGTH] = "";
-    TCHAR pszPwd[CREDUI_MAX_PASSWORD_LENGTH] = "";
+    TCHAR pszName[CREDUI_MAX_USERNAME_LENGTH] = TEXT("");
+    TCHAR pszPwd[CREDUI_MAX_PASSWORD_LENGTH] = TEXT("");
     BOOL fSave;
     DWORD dwErr;
 

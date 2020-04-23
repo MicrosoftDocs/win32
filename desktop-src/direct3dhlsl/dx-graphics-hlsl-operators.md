@@ -360,7 +360,7 @@ Compare values that are greater than (or less than) any scalar value:
 
 
 ```
-if( dot(lightDirection, normalVector)  >  0 )
+if( dot(lightDirection, normalVector) > 0 )
    // Do something; the face is lit
 ```
 
@@ -368,7 +368,7 @@ if( dot(lightDirection, normalVector)  >  0 )
 
 
 ```
-if( dot(lightDirection, normalVector) &< 0 )
+if( dot(lightDirection, normalVector) < 0 )
    // Do nothing; the face is backwards
 ```
 
@@ -378,10 +378,10 @@ Or, compare values equal to (or not equal to) any scalar value:
 
 
 ```
-if(color.a  == 0)
+if(color.a == 0)
    // Skip processing because the face is invisible
 
-if(color.a  != 0)
+if(color.a != 0)
    // Blend two colors together using the alpha value
 ```
 
@@ -399,7 +399,7 @@ if( position.z >= oldPosition.z )
 
 
 ```
-if( currentValue &<= someInitialCondition )
+if( currentValue <= someInitialCondition )
    // Reset the current value to its initial condition
 ```
 

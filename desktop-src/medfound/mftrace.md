@@ -36,6 +36,10 @@ MFTrace requires the following DLLs, which are also provided in the SDK.
 
 The SDK provides both 32-bit and 64-bit versions of MFTrace. MFTrace does not support WOW64; to trace a 32-bit process running on 64-bit Windows, use the 32-bit version of MFTrace.
 
+sdk-root on 32 bit systems: \Program Files\Windows Kits\10 
+sdk-root on 64 bit system: \Program Files (x86)\Windows Kits\10
+You will find mftrace at <sdk-root>\bin\<sdk-version>\<architecture>\mftrace.exe
+
 ## Related topics
 
 <dl> <dt>

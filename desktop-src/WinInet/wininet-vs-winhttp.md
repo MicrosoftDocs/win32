@@ -21,7 +21,7 @@ With a few exceptions, [WinINet](portal.md) is a superset of [WinHTTP](https://d
 | **FTP** | yes | no |
 | **Autodial/RAS Support** This is legacy functionality. Use [Remote Access](https://docs.microsoft.com/windows/desktop/RRAS/portal) instead. | yes | no |
 | **Zones** Automatic integration with Internet Explorer security zones. | yes | no |
-| **IDNA Support** Integrated support for the IDNA RFC/Punycode. | yes | no |
+| **IDNA Support** Integrated support for the IDNA RFC/Punycode. | yes | yes |
 | **Cookie Jar APIs** Persistent and non-persistent cookies are supported. Any application or script can use this to see the same cookies as the browser. | yes | no |
 | **Protected Mode IE Support** | yes | no |
 | **Decompression Support** Support for gzip and deflate compression scheme. | yes | yes |

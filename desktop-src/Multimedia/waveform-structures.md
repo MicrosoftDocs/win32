@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 -   [**PCMWAVEFORMAT**](https://msdn.microsoft.com/library/Dd743663(v=VS.85).aspx)
 -   [**WAVEFILTER**](/windows/desktop/api/Mmreg/ns-mmreg-wavefilter)
--   [**WAVEFORMAT**](/windows/desktop/api/mmeapi/ns-mmeapi-twaveformatex)
+-   [**WAVEFORMAT**](/windows/win32/api/mmreg/ns-mmreg-waveformat)
 -   [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd757713(v=VS.85).aspx)
 -   [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Dd757714(v=VS.85).aspx)
 -   [**WAVEHDR**](https://msdn.microsoft.com/library/Dd743837(v=VS.85).aspx)

@@ -9,7 +9,7 @@ topic_type:
 api_name:
 - CB_SETCUEBANNER
 api_location:
-- Winuser.h
+- CommCtrl.h
 api_type:
 - HeaderDef
 ms.topic: reference
@@ -54,7 +54,7 @@ The cue banner is text that is displayed in the edit control of a combo box when
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
+| Header<br/>                   | <dl> <dt>CommCtrl.h</dt> </dl> |
 
 
 

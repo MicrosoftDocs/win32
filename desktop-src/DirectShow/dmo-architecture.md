@@ -26,7 +26,7 @@ In the default DMO model, the client allocates separate input buffers and output
 
 Optionally, a DMO can support "in-place" processing. With in-place processing, the DMO writes the output directly into the input buffer, over the original data. In-place processing eliminates the need for separate buffers. On the other hand, it alters the original data, which may not be acceptable for some applications.
 
-The default (non-in-place) buffering model is supported through the [**IMediaObject**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobject) interface. All DMOs must implement this interface. If a DMO supports in-place processing, it also exposes the [**IMediaObjectInPlace**](/previous-versions/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobjectinplace) interface. The client is responsible for allocating all buffers, both input and output.
+The default (non-in-place) buffering model is supported through the [**IMediaObject**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediaobject) interface. All DMOs must implement this interface. If a DMO supports in-place processing, it also exposes the [**IMediaObjectInPlace**](/previous-versions/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobjectinplace) interface. The client is responsible for allocating all buffers, both input and output.
 
 ## Related topics
 

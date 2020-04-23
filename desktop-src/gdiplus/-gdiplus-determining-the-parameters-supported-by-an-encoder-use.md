@@ -76,7 +76,7 @@ There are 4 EncoderParameter objects in the array.
 
 Each of the [**EncoderParameter**](https://msdn.microsoft.com/library/ms534434(v=VS.85).aspx) objects in the array has the following four public data members:
 
-The following code is a continuation of the console application shown in the preceding example. The code looks at the second [**EncoderParameter**](https://msdn.microsoft.com/library/ms534434(v=VS.85).aspx) object in the array returned by [**Image::GetEncoderParameterList**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlist). The code calls [StringFromGUID2](https://msdn.microsoft.com/library/com/htm/cmf_m2z_2jzm.asp), which is a system function declared in Objbase.h, to convert the **Guid** member of the **EncoderParameter** object to a string.
+The following code is a continuation of the console application shown in the preceding example. The code looks at the second [**EncoderParameter**](https://msdn.microsoft.com/library/ms534434(v=VS.85).aspx) object in the array returned by [**Image::GetEncoderParameterList**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlist). The code calls [StringFromGUID2](/windows/win32/api/combaseapi/nf-combaseapi-stringfromguid2), which is a system function declared in Objbase.h, to convert the **Guid** member of the **EncoderParameter** object to a string.
 
 
 ```

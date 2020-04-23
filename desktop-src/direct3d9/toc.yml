@@ -1087,6 +1087,20 @@
       - name: "Direct3D Functions"
         href: dx9-graphics-reference-d3d-functions.md
         items: 
+        - name: "D3DPERF_BeginEvent"
+          href: /windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_beginevent
+        - name: "D3DPERF_EndEvent"
+          href: /windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_endevent
+        - name: "D3DPERF_GetStatus"
+          href: /windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_getstatus
+        - name: "D3DPERF_QueryRepeatFrame"
+          href: /windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_queryrepeatframe
+        - name: "D3DPERF_SetMarker"
+          href: /windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_setmarker
+        - name: "D3DPERF_SetOptions"
+          href: /windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_setoptions
+        - name: "D3DPERF_SetRegion"
+          href: /windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_setregion
         - name: "DebugSetMute"
           href: debugsetmute.md
         - name: "Direct3DCreate9"

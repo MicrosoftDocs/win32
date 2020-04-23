@@ -161,13 +161,13 @@ CREATE TABLE [dbo].[accounting_data] (
     [EAP_Friendly_Name] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
     [Acct_Status_Type] [int] NULL ,
     [Acct_Delay_Time] [int] NULL ,
-    [Acct_Input_Octets] [int] NULL ,
-    [Acct_Output_Octets] [int] NULL ,
+    [Acct_Input_Octets] [bigint] NULL ,
+    [Acct_Output_Octets] [bigint] NULL ,
     [Acct_Session_Id] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
     [Acct_Authentic] [int] NULL ,
     [Acct_Session_Time] [int] NULL ,
-    [Acct_Input_Packets] [int] NULL ,
-    [Acct_Output_Packets] [int] NULL ,
+    [Acct_Input_Packets] [bigint] NULL ,
+    [Acct_Output_Packets] [bigint] NULL ,
     [Acct_Terminate_Cause] [int] NULL ,
     [Acct_Multi_Session_Id] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
     [Acct_Link_Count] [int] NULL ,
@@ -297,7 +297,13 @@ SELECT
 /*
     NAP-specific information, available from NPS starting with Windows Server 2008. 
 */
-    MS_Quarantine_State
+    MS_Quarantine_State,
+	Event_Source,
+	Framed_MTU,
+	MS_RAS_Correlation_ID,
+	MS_Network_Access_Server_Type,
+	SAM_Account_Name,
+	Fully_Qualifed_User_Name
 FROM OPENXML(@idoc, '/Event')
 WITH (
     Computer_Name nvarchar(255) './Computer-Name',
@@ -330,13 +336,13 @@ WITH (
     EAP_Friendly_Name nvarchar(255) './EAP-Friendly-Name',
     Acct_Status_Type int './Acct-Status-Type',
     Acct_Delay_Time int './Acct-Delay-Time',
-    Acct_Input_Octets int './Acct-Input-Octets',
-    Acct_Output_Octets int './Acct-Output-Octets',
+    Acct_Input_Octets bigint './Acct-Input-Octets',
+    Acct_Output_Octets bigint './Acct-Output-Octets',
     Acct_Session_Id nvarchar(255) './Acct-Session-Id',
     Acct_Authentic int './Acct-Authentic',
     Acct_Session_Time int './Acct-Session-Time',
-    Acct_Input_Packets int './Acct-Input-Packets',
-    Acct_Output_Packets int './Acct-Output-Packets',
+    Acct_Input_Packets bigint './Acct-Input-Packets',
+    Acct_Output_Packets bigint './Acct-Output-Packets',
     Acct_Terminate_Cause int './Acct-Terminate-Cause',
     Acct_Multi_Session_Id nvarchar(255) './Acct-Multi-Session-Id',
     Acct_Link_Count int './Acct-Link-Count',
@@ -366,7 +372,13 @@ WITH (
 /*
     NAP-specific information, available from NPS starting with Windows Server 2008. 
 */
-    MS_Quarantine_State int './MS-Quarantine-State'
+    MS_Quarantine_State int './MS-Quarantine-State',
+    Event_Source nvarchar(255) './Event-Source',
+	Framed_MTU int './Framed-MTU',
+	MS_RAS_Correlation_ID nvarchar(255) './MS-RAS-Correlation-ID',
+	MS_Network_Access_Server_Type nvarchar(255) './MS-Network-Access-Server-Type',
+	SAM_Account_Name nvarchar(255) './SAM-Account-Name',
+	Fully_Qualifed_User_Name nvarchar(255) './Fully-Qualifed-User-Name'
    )
 
 EXEC sp_xml_removedocument @idoc

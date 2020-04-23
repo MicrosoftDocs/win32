@@ -50,7 +50,7 @@ For an example, see [How to Create a Radial Gradient Brush](how-to-create-a-radi
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371260(v=VS.85).aspx)
+[**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)
 </dt> <dt>
 
 [How to Create a Radial Gradient Brush](how-to-create-a-radial-gradient-brush.md)

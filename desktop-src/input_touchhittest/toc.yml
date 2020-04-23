@@ -26,6 +26,6 @@
       href: structures.md
       items: 
       - name: "TOUCH_HIT_TESTING_INPUT"
-        href: /windows/win32/api/winuser/ns-winuser-tagtouch_hit_testing_input
+        href: /windows/win32/api/winuser/ns-winuser-touch_hit_testing_input
       - name: "TOUCH_HIT_TESTING_PROXIMITY_EVALUATION"
-        href: /windows/win32/api/winuser/ns-winuser-tagtouch_hit_testing_proximity_evaluation
+        href: /windows/win32/api/winuser/ns-winuser-touch_hit_testing_proximity_evaluation

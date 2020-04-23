@@ -238,11 +238,10 @@ Return Value:
 
             printf("\n----------------------------------\n");
 
-            // Get a snapshot of this process. This enables us to
-            // enumerate its threads.
-            snapshot = CreateToolhelp32Snapshot(TH32CS_SNAPTHREAD,
-                                                processes[i]);
-            if (snapshot)
+            // Get a snapshot of all threads and look for the ones
+            // from the relevant process
+            snapshot = CreateToolhelp32Snapshot(TH32CS_SNAPTHREAD, 0);
+            if (snapshot != INVALID_HANDLE_VALUE)
             {
                 THREADENTRY32 thread;
                 thread.dwSize = sizeof(thread);

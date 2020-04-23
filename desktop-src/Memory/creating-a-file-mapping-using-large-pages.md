@@ -8,9 +8,10 @@ ms.date: 05/31/2018
 
 # Creating a File Mapping Using Large Pages
 
-The following example uses the [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) function with the **SEC\_LARGE\_PAGES** flag to use large pages. It requires Windows Server 2003 with Service Pack 1 (SP1) or later.
+The following example uses the [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) function with the **SEC\_LARGE\_PAGES** flag to use large pages. The buffer must be large enough to contain the minimum size of a large page. This value is obtained using the [**GetLargePageMinimum**](https://msdn.microsoft.com/library/Aa366568(v=VS.85).aspx) function. This feature also requires the "SeLockMemoryPrivilege" privilege.
 
-The buffer must be large enough to contain the minimum size of a large page. This value is obtained using the [**GetLargePageMinimum**](https://msdn.microsoft.com/library/Aa366568(v=VS.85).aspx) function. This feature also requires the "SeLockMemoryPrivilege" privilege.
+> [!NOTE]
+> Starting in Windows 10, version 1703, the [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) function maps a view using small pages by default, even for file mapping objects created with the **SEC\_LARGE\_PAGES** flag. In this and later OS versions, you must specify the **FILE\_MAP\_LARGE\_PAGES** flag with the [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) function to map large pages. This flag is ignored on OS versions before Windows 10, version 1703.
 
 
 ```C++
@@ -23,7 +24,7 @@ The buffer must be large enough to contain the minimum size of a large page. Thi
 TCHAR szName[]=TEXT("LARGEPAGE");
 typedef int (*GETLARGEPAGEMINIMUM)(void);
 
-void DisplayError(TCHAR* pszAPI, DWORD dwError)
+void DisplayError(const wchar_t* pszAPI, DWORD dwError)
 {
     LPVOID lpvMessageBuffer;
 
@@ -45,7 +46,7 @@ void DisplayError(TCHAR* pszAPI, DWORD dwError)
     ExitProcess(GetLastError());
 }
 
-void Privilege(TCHAR* pszPrivilege, BOOL bEnable)
+void Privilege(const wchar_t* pszPrivilege, BOOL bEnable)
 {
     HANDLE           hToken;
     TOKEN_PRIVILEGES tp;
@@ -82,7 +83,7 @@ void Privilege(TCHAR* pszPrivilege, BOOL bEnable)
         DisplayError(TEXT("CloseHandle"), GetLastError());
 }
 
-void _tmain(void)
+int _tmain(void)
 {
     HANDLE hMapFile;
     LPCTSTR pBuf;
@@ -119,12 +120,12 @@ void _tmain(void)
     if (hMapFile == NULL)
         DisplayError(TEXT("CreateFileMapping"), GetLastError());
     else
-        _tprintf(TEXT("File mapping object successfulyl created.\n"));
+        _tprintf(TEXT("File mapping object successfully created.\n"));
 
     Privilege(TEXT("SeLockMemoryPrivilege"), FALSE);
 
-    pBuf = (LPTSTR) MapViewOfFile(hMapFile,   // handle to map object
-         FILE_MAP_ALL_ACCESS, // read/write permission
+    pBuf = (LPTSTR) MapViewOfFile(hMapFile,          // handle to map object
+         FILE_MAP_ALL_ACCESS | FILE_MAP_LARGE_PAGES, // read/write permission
          0,
          0,
          BUF_SIZE);

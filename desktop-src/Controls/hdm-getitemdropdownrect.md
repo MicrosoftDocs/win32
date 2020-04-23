@@ -20,8 +20,6 @@ ms.date: 05/31/2018
 
 Gets the bounding rectangle of the split button for a header item with style **HDF\_SPLITBUTTON**. Send this message explicitly or by using the [**Header\_GetItemDropDownRect**](/windows/desktop/api/Commctrl/nf-commctrl-header_getitemdropdownrect) macro.
 
-A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
-
 ## Parameters
 
 <dl> <dt>
@@ -36,7 +34,7 @@ The zero-based index of the header control item for which to retrieve the boundi
 *lParam* \[in, out\]
 </dt> <dd>
 
-A pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure to receive the bounding rectangle information. The message sender is responsible for allocating this structure. The coordinates returned in the **RECT** structure are expressed as screen coordinates.
+A pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that receives the bounding rectangle information. The message sender is responsible for allocating this structure. The coordinates returned in the RECT structure are expressed relative to the header control parent.
 
 </dd> </dl>
 

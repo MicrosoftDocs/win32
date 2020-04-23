@@ -28,15 +28,15 @@ Management Types
 
 Shared Types
 
--   [**FWP\_AF**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_ne_family_)
+-   [**FWP\_AF**](/windows/win32/api/fwptypes/ne-fwptypes-fwp_af)
 -   [**FWP\_CLASSIFY\_OPTION\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_classify_option_type_)
 -   [**FWP\_DATA\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type_)
 -   [**FWP\_DIRECTION**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_direction_)
--   [**FWP\_ETHER\_ENCAP\_METHOD**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_ether_encap_method_)
+-   [**FWP\_ETHER\_ENCAP\_METHOD**](/windows/win32/api/fwptypes/ne-fwptypes-fwp_ether_encap_method)
 -   [**FWP\_FILTER\_ENUM\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_filter_enum_type_)
 -   [**FWP\_IP\_VERSION**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_ip_version_)
 -   [**FWP\_MATCH\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_match_type_)
--   [**FWP\_VSWITCH\_NETWORK\_TYPE**](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_vswitch_network_type_)
+-   [**FWP\_VSWITCH\_NETWORK\_TYPE**](/windows/win32/api/fwptypes/ne-fwptypes-fwp_vswitch_network_type)
 
 IKE/AuthIP Types
 
@@ -44,7 +44,7 @@ IKE/AuthIP Types
 -   [**IKEEXT\_AUTHENTICATION\_METHOD\_TYPE**](/windows/desktop/api/Iketypes/ne-iketypes-ikeext_authentication_method_type)
 -   [**IKEEXT\_CIPHER\_TYPE**](/windows/desktop/api/Iketypes/ne-iketypes-ikeext_cipher_type)
 -   [**IKEEXT\_CERT\_CONFIG\_TYPE**](/windows/desktop/api/Iketypes/ne-iketypes-ikeext_cert_config_type)
--   [**IKEEXT\_CERT\_CRITERIA\_NAME\_TYPE**](/windows/desktop/api/iketypes/ne-iketypes-ikeext_cert_criteria_name_type_)
+-   [**IKEEXT\_CERT\_CRITERIA\_NAME\_TYPE**](/windows/win32/api/iketypes/ne-iketypes-ikeext_cert_criteria_name_type)
 -   [**IKEEXT\_DH\_GROUP**](/windows/desktop/api/Iketypes/ne-iketypes-ikeext_dh_group)
 -   [**IKEEXT\_EM\_SA\_STATE**](/windows/desktop/api/Iketypes/ne-iketypes-ikeext_em_sa_state)
 -   [**IKEEXT\_INTEGRITY\_TYPE**](/windows/desktop/api/Iketypes/ne-iketypes-ikeext_integrity_type)

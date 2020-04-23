@@ -51,7 +51,7 @@ New enumerations that were added.
 
 -   [**SysmonDataType**](/windows/win32/api/isysmon/ne-isysmon-sysmondatatype)
 -   [**SysmonFileType**](/windows/win32/api/isysmon/ne-isysmon-sysmonfiletype)
--   New display type values were added to [**DisplayTypeConstants**](/windows/desktop/api/ISysmon/ne-isysmon-edisplaytypeconstant)
+-   New display type values were added to [**DisplayTypeConstants**](/windows/win32/api/isysmon/ne-isysmon-displaytypeconstants)
 
  
 

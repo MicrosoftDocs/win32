@@ -39,7 +39,7 @@ HWND hwndCommandLink = CreateWindow(
     100,        // Button height
     m_hwnd,     // Parent window
     NULL,       // No menu
-    (HINSTANCE)GetWindowLong(m_hwnd, GWL_HINSTANCE), 
+    (HINSTANCE)GetWindowLongPtr(m_hwnd, GWLP_HINSTANCE), 
     NULL);      // Pointer not needed
 ```
 

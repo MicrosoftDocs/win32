@@ -1,13 +1,13 @@
 ---
-title: QuadReadAccrossY function
+title: QuadReadAcrossY function
 description: Returns the specified source value read from the other lane in this quad in the Y direction.
 ms.assetid: 6C03D1E6-433F-4CCA-A5EA-C3F34BB2B93B
 keywords:
-- QuadReadAccrossY function HLSL
+- QuadReadAcrossY function HLSL
 topic_type:
 - apiref
 api_name:
-- QuadReadAccrossY
+- QuadReadAcrossY
 api_type:
 - NA
 ms.topic: reference
@@ -15,14 +15,14 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# QuadReadAccrossY function
+# QuadReadAcrossY function
 
 Returns the specified source value read from the other lane in this quad in the Y direction.
 
 ## Syntax
 
 ``` syntax
-<type> QuadReadAccrossY(
+<type> QuadReadAcrossY(
    <type> localValue
 );
 ```

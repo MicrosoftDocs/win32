@@ -186,4 +186,4 @@ D3D12_RENDER_PASS_TIER get_render_passes_tier(::ID3D12Device * pIDevice)
 
 Because of the runtime's mapping logic, render passes always function. But, depending on feature support, they won't always provide a benefit. You can use code similar to the code example above to determine whether/when it is worth your while to issue commands as render passes, and when it is definitely not a benefit (that is, when the runtime is just mapping to the existing API surface). Performing this check is particularly important if you're using [D3D11On12](/windows/desktop/direct3d12/direct3d-11-on-12)).
 
-For a description of the three tiers of support, see the [**D3D12_RENDER_PASS_TIER**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_tiled_render_pass_tier) enumeration.
+For a description of the three tiers of support, see the [**D3D12_RENDER_PASS_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_render_pass_tier) enumeration.

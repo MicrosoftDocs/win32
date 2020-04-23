@@ -54,7 +54,7 @@ INT main()
 
 
 
-In the preceding code, the three GDI+ drawing commands are in between calls to the [StartDoc](https://msdn.microsoft.com/library/gdi/prntspol_95sz.asp) and [EndDoc](https://msdn.microsoft.com/library/gdi/prntspol_0qhv.asp) functions, each of which receives the printer device context handle. All graphics commands between StartDoc and EndDoc are routed to a temporary metafile. After the call to EndDoc, the printer driver converts the data in the metafile into the format required by the specific printer being used.
+In the preceding code, the three GDI+ drawing commands are in between calls to the [StartDoc](/windows/win32/api/wingdi/nf-wingdi-startdocw) and [EndDoc](/windows/win32/api/wingdi/nf-wingdi-enddoc) functions, each of which receives the printer device context handle. All graphics commands between StartDoc and EndDoc are routed to a temporary metafile. After the call to EndDoc, the printer driver converts the data in the metafile into the format required by the specific printer being used.
 
 > [!Note]  
 > If spooling is not enabled for the printer being used, the graphics output is not routed to a metafile. Instead, individual graphics commands are processed by the printer driver and then sent to the printer.
@@ -68,7 +68,7 @@ Generally you won't want to hard-code the name of a printer as was done in the p
 
  
 
-The following console application gets the name of the default printer and then draws a rectangle and an ellipse on that printer. The [**Graphics::DrawRectangle**](https://msdn.microsoft.com/library/ms536003(v=VS.85).aspx) call is in between calls to [StartPage](https://msdn.microsoft.com/library/gdi/prntspol_2isl.asp) and [EndPage](https://msdn.microsoft.com/library/gdi/prntspol_3b1h.asp), so the rectangle is on a page by itself. Similarly, the ellipse is on a page by itself.
+The following console application gets the name of the default printer and then draws a rectangle and an ellipse on that printer. The [**Graphics::DrawRectangle**](https://msdn.microsoft.com/library/ms536003(v=VS.85).aspx) call is in between calls to [StartPage](/windows/win32/api/wingdi/nf-wingdi-startpage) and [EndPage](/windows/win32/api/wingdi/nf-wingdi-endpage), so the rectangle is on a page by itself. Similarly, the ellipse is on a page by itself.
 
 
 ```

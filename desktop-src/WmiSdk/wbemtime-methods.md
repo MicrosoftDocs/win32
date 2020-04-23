@@ -33,10 +33,10 @@ The [**WBEMTime**](wbemtime.md) class exposes the following methods.
 -   [**WBEMTime::operator == method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator==)
 -   [**WBEMTime::operator > method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator_)
 -   [**WBEMTime::operator >= method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator_=)
--   [**operator+ method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator+)
--   [**operator+= method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator+=)
+-   [**operator+ method**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-add)
+-   [**operator+= method**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-add=)
 -   [**operator= operators**](https://msdn.microsoft.com/library/Aa394050(v=VS.85).aspx)
--   [**operator-= method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator-=)
+-   [**operator-= method**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-sub-assign)
 -   [**SetDMTF method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-setdmtf)
 -   [**WBEMTime constructors**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-wbemtime(constbstr))
 

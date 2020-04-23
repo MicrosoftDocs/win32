@@ -48,7 +48,7 @@ CRYPTCATATTRIBUTE* WINAPI CryptCATCDFEnumAttributesWithCDFTag(
 *pCDF* \[in\]
 </dt> <dd>
 
-A pointer to a [**CRYPTCATCDF**](/windows/desktop/api/Mscat/ns-mscat-cryptcatcdf_) structure.
+A pointer to a [**CRYPTCATCDF**](/windows/win32/api/mscat/ns-mscat-cryptcatcdf) structure.
 
 </dd> <dt>
 
@@ -62,14 +62,14 @@ A pointer to a **null**-terminated string that identifies the catalog file membe
 *pMember* \[in\]
 </dt> <dd>
 
-A pointer to a [**CRYPTCATMEMBER**](/windows/desktop/api/Mscat/ns-mscat-cryptcatmember_) structure that contains the member information.
+A pointer to a [**CRYPTCATMEMBER**](/windows/win32/api/mscat/ns-mscat-cryptcatmember) structure that contains the member information.
 
 </dd> <dt>
 
 *pPrevAttr* \[in\]
 </dt> <dd>
 
-A pointer to a [**CRYPTCATATTRIBUTE**](/windows/desktop/api/Mscat/ns-mscat-cryptcatattribute_) structure for a file member attribute in the CDF pointed to by *pCDF*.
+A pointer to a [**CRYPTCATATTRIBUTE**](/windows/win32/api/mscat/ns-mscat-cryptcatattribute) structure for a file member attribute in the CDF pointed to by *pCDF*.
 
 </dd> <dt>
 
@@ -82,7 +82,7 @@ A pointer to a user-defined function to handle file parse errors.
 
 ## Return value
 
-Upon success, this function returns a pointer to a [**CRYPTCATATTRIBUTE**](/windows/desktop/api/Mscat/ns-mscat-cryptcatattribute_) structure. The **CryptCATCDFEnumAttributesWithCDFTag** function returns a **NULL** pointer if it fails.
+Upon success, this function returns a pointer to a [**CRYPTCATATTRIBUTE**](/windows/win32/api/mscat/ns-mscat-cryptcatattribute) structure. The **CryptCATCDFEnumAttributesWithCDFTag** function returns a **NULL** pointer if it fails.
 
 ## Remarks
 
@@ -149,13 +149,13 @@ The following example shows the correct sequence of assignments for the *pPrevAt
 [MakeCat](makecat.md)
 </dt> <dt>
 
-[**CRYPTCATATTRIBUTE**](/windows/desktop/api/Mscat/ns-mscat-cryptcatattribute_)
+[**CRYPTCATATTRIBUTE**](/windows/win32/api/mscat/ns-mscat-cryptcatattribute)
 </dt> <dt>
 
-[**CRYPTCATCDF**](/windows/desktop/api/Mscat/ns-mscat-cryptcatcdf_)
+[**CRYPTCATCDF**](/windows/win32/api/mscat/ns-mscat-cryptcatcdf)
 </dt> <dt>
 
-[**CRYPTCATMEMBER**](/windows/desktop/api/Mscat/ns-mscat-cryptcatmember_)
+[**CRYPTCATMEMBER**](/windows/win32/api/mscat/ns-mscat-cryptcatmember)
 </dt> <dt>
 
 [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx)

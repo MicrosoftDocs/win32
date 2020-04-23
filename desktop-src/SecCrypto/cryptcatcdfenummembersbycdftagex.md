@@ -49,7 +49,7 @@ LPWSTR WINAPI CryptCATCDFEnumMembersByCDFTagEx(
 *pCDF* \[in\]
 </dt> <dd>
 
-A pointer to a [**CRYPTCATCDF**](/windows/desktop/api/Mscat/ns-mscat-cryptcatcdf_) structure.
+A pointer to a [**CRYPTCATCDF**](/windows/win32/api/mscat/ns-mscat-cryptcatcdf) structure.
 
 </dd> <dt>
 
@@ -70,7 +70,7 @@ A pointer to a user-defined function to handle file parse errors.
 *ppMember* \[in\]
 </dt> <dd>
 
-A pointer to a [**CRYPTCATMEMBER**](/windows/desktop/api/Mscat/ns-mscat-cryptcatmember_) structure that contains the file member information.
+A pointer to a [**CRYPTCATMEMBER**](/windows/win32/api/mscat/ns-mscat-cryptcatmember) structure that contains the file member information.
 
 </dd> <dt>
 
@@ -146,10 +146,10 @@ The following example shows the correct sequence of assignments for the *pwszPre
 [MakeCat](makecat.md)
 </dt> <dt>
 
-[**CRYPTCATCDF**](/windows/desktop/api/Mscat/ns-mscat-cryptcatcdf_)
+[**CRYPTCATCDF**](/windows/win32/api/mscat/ns-mscat-cryptcatcdf)
 </dt> <dt>
 
-[**CRYPTCATMEMBER**](/windows/desktop/api/Mscat/ns-mscat-cryptcatmember_)
+[**CRYPTCATMEMBER**](/windows/win32/api/mscat/ns-mscat-cryptcatmember)
 </dt> <dt>
 
 [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx)

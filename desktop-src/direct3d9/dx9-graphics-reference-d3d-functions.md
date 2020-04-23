@@ -10,10 +10,15 @@ ms.date: 05/31/2018
 
 This section contains reference information for the functions that you need to use when you work with Direct3D. The following functions are implemented:
 
--   [**DebugSetMute**](debugsetmute.md)
--   [**Direct3DCreate9**](https://msdn.microsoft.com/library/Bb219685(v=VS.85).aspx)
-
-    
+- [**D3DPERF_BeginEvent**](/windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_beginevent)
+- [**D3DPERF_EndEvent**](/windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_endevent)
+- [**D3DPERF_GetStatus**](/windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_getstatus)
+- [**D3DPERF_QueryRepeatFrame**](/windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_queryrepeatframe)
+- [**D3DPERF_SetMarker**](/windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_setmarker)
+- [**D3DPERF_SetOptions**](/windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_setoptions)
+- [**D3DPERF_SetRegion**](/windows/win32/direct3d9/d3d9/nf-d3d9-d3dperf_setregion)
+- [**DebugSetMute**](debugsetmute.md)
+- [**Direct3DCreate9**](https://msdn.microsoft.com/library/Bb219685(v=VS.85).aspx)
 
     <table>
     <colgroup>
@@ -29,11 +34,7 @@ This section contains reference information for the functions that you need to u
     </tbody>
     </table>
 
-    
-
-     
-
--   [**Direct3DShaderValidatorCreate9**](direct3dshadervalidatorcreate9.md)
+- [**Direct3DShaderValidatorCreate9**](direct3dshadervalidatorcreate9.md)
 
 ## Related topics
 

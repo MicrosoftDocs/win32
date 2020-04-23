@@ -39,7 +39,7 @@ Using this attribute makes it easy to create buttonswith images on a Web page.
 
 This attribute is used by Microsoft Office only if a picture has been linked and embedded.Microsoft Word has a user interface for inserting pictures this way.
 
-*Microsoft Offfice Extensions Attribute*
+*Microsoft Office Extensions Attribute*
 
 **Example**
 
