@@ -44,7 +44,7 @@ This section discusses the following:
 
 ## Hook Chains
 
-The system supports many different types of hooks; each type provides access to a different aspect of its message-handling mechanism. For example, an application can use the [WH\_MOUSE](https://docs.microsoft.com/windows) hook to monitor the message traffic for mouse messages.
+The system supports many different types of hooks; each type provides access to a different aspect of its message-handling mechanism. For example, an application can use the [WH\_MOUSE](#wh_mouse) hook to monitor the message traffic for mouse messages.
 
 The system maintains a separate hook chain for each type of hook. A *hook chain* is a list of pointers to special, application-defined callback functions called *hook procedures*. When a message occurs that is associated with a particular type of hook, the system passes the message to each hook procedure referenced in the hook chain, one after the other. The action a hook procedure can take depends on the type of hook involved. The hook procedures for some types of hooks can only monitor messages; others can modify messages or stop their progress through the chain, preventing them from reaching the next hook procedure or the destination window.
 
@@ -135,7 +135,7 @@ For more information, see the [*GetMsgProc*](https://msdn.microsoft.com/library/
 
 ### WH\_JOURNALPLAYBACK
 
-The **WH\_JOURNALPLAYBACK** hook enables an application to insert messages into the system message queue. You can use this hook to play back a series of mouse and keyboard events recorded earlier by using [WH\_JOURNALRECORD](https://docs.microsoft.com/windows). Regular mouse and keyboard input is disabled as long as a **WH\_JOURNALPLAYBACK** hook is installed. A **WH\_JOURNALPLAYBACK** hook is a global hook—it cannot be used as a thread-specific hook.
+The **WH\_JOURNALPLAYBACK** hook enables an application to insert messages into the system message queue. You can use this hook to play back a series of mouse and keyboard events recorded earlier by using [WH\_JOURNALRECORD](#wh_journalrecord). Regular mouse and keyboard input is disabled as long as a **WH\_JOURNALPLAYBACK** hook is installed. A **WH\_JOURNALPLAYBACK** hook is a global hook—it cannot be used as a thread-specific hook.
 
 The **WH\_JOURNALPLAYBACK** hook returns a time-out value. This value tells the system how many milliseconds to wait before processing the current message from the playback hook. This enables the hook to control the timing of the events it plays back.
 
@@ -143,7 +143,7 @@ For more information, see the [*JournalPlaybackProc*](https://msdn.microsoft.com
 
 ### WH\_JOURNALRECORD
 
-The **WH\_JOURNALRECORD** hook enables you to monitor and record input events. Typically, you use this hook to record a sequence of mouse and keyboard events to play back later by using [WH\_JOURNALPLAYBACK](https://docs.microsoft.com/windows). The **WH\_JOURNALRECORD** hook is a global hook—it cannot be used as a thread-specific hook.
+The **WH\_JOURNALRECORD** hook enables you to monitor and record input events. Typically, you use this hook to record a sequence of mouse and keyboard events to play back later by using [WH\_JOURNALPLAYBACK](#wh_journalplayback). The **WH\_JOURNALRECORD** hook is a global hook—it cannot be used as a thread-specific hook.
 
 For more information, see the [*JournalRecordProc*](https://msdn.microsoft.com/library/ms644983(v=VS.85).aspx) callback function.
 

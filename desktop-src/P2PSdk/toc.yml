@@ -78,32 +78,32 @@
           href: common-structures.md
           items: 
           - name: "PEER_ADDRESS"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_address_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_address
           - name: "PEER_CONNECTION_INFO"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_connection_info_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_connection_info
           - name: "PEER_DATA"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_data_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_data
           - name: "PEER_EVENT_CONNECTION_CHANGE_DATA"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_event_connection_change_data_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_event_connection_change_data
           - name: "PEER_EVENT_INCOMING_DATA"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_event_incoming_data_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_event_incoming_data
           - name: "PEER_EVENT_RECORD_CHANGE_DATA"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_event_record_change_data_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_event_record_change_data
           - name: "PEER_RECORD"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_record_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_record
           - name: "PEER_VERSION_DATA"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_version_data_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_version_data
         - name: "Common Constants"
           href: common-enumerations.md
           items: 
           - name: "PEER_CONNECTION_FLAGS"
-            href: /windows/desktop/api/P2P/ne-p2p-peer_connection_flags_tag
+            href: /windows/win32/api/P2P/ne-p2p-peer_connection_flags
           - name: "PEER_CONNECTION_STATUS"
-            href: /windows/desktop/api/P2P/ne-p2p-peer_connection_status_tag
+            href: /windows/win32/api/P2P/ne-p2p-peer_connection_status
           - name: "PEER_RECORD_CHANGE_TYPE"
-            href: /windows/desktop/api/P2P/ne-p2p-peer_record_change_type_tag
+            href: /windows/win32/api/P2P/ne-p2p-peer_record_change_type
           - name: "PEER_RECORD_FLAGS"
-            href: /windows/desktop/api/P2P/ne-p2p-peer_record_flags_tag
+            href: /windows/win32/api/P2P/ne-p2p-peer_record_flags
         - name: "Common Return Codes"
           href: common-return-codes.md
     - name: "Graphing API"
@@ -211,32 +211,32 @@
           href: graphing-api-structures.md
           items: 
           - name: "PEER_EVENT_NODE_CHANGE_DATA"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_event_node_change_data_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_event_node_change_data
           - name: "PEER_EVENT_SYNCHRONIZED_DATA"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_event_synchronized_data_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_event_synchronized_data
           - name: "PEER_GRAPH_EVENT_DATA"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_graph_event_data_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_graph_event_data
           - name: "PEER_GRAPH_EVENT_REGISTRATION"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_graph_event_registration_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_graph_event_registration
           - name: "PEER_GRAPH_PROPERTIES"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_graph_properties_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_graph_properties
           - name: "PEER_NODE_INFO"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_node_info_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_node_info
           - name: "PEER_SECURITY_INTERFACE"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_security_interface_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_security_interface
         - name: "Graphing API Constants"
           href: graphing-api-enumerations.md
           items: 
           - name: "PEER_GRAPH_EVENT_TYPE"
-            href: /windows/desktop/api/P2P/ne-p2p-peer_graph_event_type_tag
+            href: /windows/win32/api/P2P/ne-p2p-peer_graph_event_type
           - name: "PEER_GRAPH_PROPERTY_FLAGS"
-            href: /windows/desktop/api/P2P/ne-p2p-peer_graph_property_flags_tag
+            href: /windows/win32/api/P2P/ne-p2p-peer_graph_property_flags
           - name: "PEER_GRAPH_SCOPE"
-            href: /windows/desktop/api/P2P/ne-p2p-peer_graph_scope_tag
+            href: /windows/win32/api/P2P/ne-p2p-peer_graph_scope
           - name: "PEER_GRAPH_STATUS_FLAGS"
-            href: /windows/desktop/api/P2P/ne-p2p-peer_graph_status_flags_tag
+            href: /windows/win32/api/P2P/ne-p2p-peer_graph_status_flags
           - name: "PEER_NODE_CHANGE_TYPE"
-            href: /windows/desktop/api/P2P/ne-p2p-peer_node_change_type_tag
+            href: /windows/win32/api/P2P/ne-p2p-peer_node_change_type
         - name: "Graphing Reference Links"
           href: graphing-reference-links.md
     - name: "Grouping API"
@@ -344,36 +344,36 @@
           href: grouping-api-structures.md
           items: 
           - name: "PEER_CREDENTIAL_INFO"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_credential_info_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_credential_info
           - name: "PEER_EVENT_MEMBER_CHANGE_DATA"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_event_member_change_data_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_event_member_change_data
           - name: "PEER_GROUP_EVENT_DATA"
             href: /windows/desktop/api/P2P/ns-p2p-peer_group_event_data_tag
           - name: "PEER_GROUP_EVENT_REGISTRATION"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_group_event_registration_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_group_event_registration
           - name: "PEER_GROUP_PROPERTIES"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_group_properties_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_group_properties
           - name: "PEER_INVITATION_INFO"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_invitation_info_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_invitation_info
           - name: "PEER_MEMBER"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_member_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_member
         - name: "Grouping API Enumerations"
           href: grouping-api-enumerations.md
           items: 
           - name: "PEER_GROUP_AUTHENTICATION_SCHEME"
-            href: /windows/desktop/api/P2P/ne-p2p-peer_group_authentication_scheme_tag
+            href: /windows/win32/api/P2P/ne-p2p-peer_group_authentication_scheme
           - name: "PEER_GROUP_EVENT_TYPE"
-            href: /windows/desktop/api/P2P/ne-p2p-peer_group_event_type_tag
+            href: /windows/win32/api/P2P/ne-p2p-peer_group_event_type
           - name: "PEER_GROUP_ISSUE_CREDENTIAL_FLAGS"
             href: /windows/desktop/api/P2P/ne-p2p-peer_issue_credential_flags_tag
           - name: "PEER_GROUP_PROPERTY_FLAGS"
-            href: /windows/desktop/api/P2P/ne-p2p-peer_group_property_flags_tag
+            href: /windows/win32/api/P2P/ne-p2p-peer_group_property_flags
           - name: "PEER_GROUP_STATUS"
-            href: /windows/desktop/api/P2P/ne-p2p-peer_group_status_tag
+            href: /windows/win32/api/P2P/ne-p2p-peer_group_status
           - name: "PEER_MEMBER_CHANGE_TYPE"
-            href: /windows/desktop/api/P2P/ne-p2p-peer_member_change_type_tag
+            href: /windows/win32/api/P2P/ne-p2p-peer_member_change_type
           - name: "PEER_MEMBER_FLAGS"
-            href: /windows/desktop/api/P2P/ne-p2p-peer_member_flags_tag
+            href: /windows/win32/api/P2P/ne-p2p-peer_member_flags
     - name: "Identity Manager API"
       href: identity-manager-api.md
       items: 
@@ -418,7 +418,7 @@
           href: identity-manager-structures.md
           items: 
           - name: "PEER_NAME_PAIR"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_name_pair_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_name_pair
         - name: "Identity Manager Reference Links"
           href: identity-manager-reference-links.md
     - name: "Distributed Routing Table API"
@@ -442,42 +442,42 @@
           - name: "DRT_ADDRESS_FLAGS"
             href: /windows/win32/api/drt/ne-drt-drt_address_flags
           - name: "DRT_EVENT_TYPE"
-            href: /windows/desktop/api/drt/ne-drt-drt_event_type_tag
+            href: /windows/win32/api/drt/ne-drt-drt_event_type
           - name: "DRT_LEAFSET_KEY_CHANGE_TYPE"
-            href: /windows/desktop/api/drt/ne-drt-drt_leafset_key_change_type_tag
+            href: /windows/win32/api/drt/ne-drt-drt_leafset_key_change_type
           - name: "DRT_MATCH_TYPE"
-            href: /windows/desktop/api/drt/ne-drt-drt_match_type_tag
+            href: /windows/win32/api/drt/ne-drt-drt_match_type
           - name: "DRT_REGISTRATION_STATE"
             href: /windows/win32/api/drt/ne-drt-drt_registration_state
           - name: "DRT_SCOPE"
-            href: /windows/desktop/api/drt/ne-drt-drt_scope_tag
+            href: /windows/win32/api/drt/ne-drt-drt_scope
           - name: "DRT_SECURITY_MODE"
-            href: /windows/desktop/api/drt/ne-drt-drt_security_mode_tag
+            href: /windows/win32/api/drt/ne-drt-drt_security_mode
           - name: "DRT_STATUS"
-            href: /windows/desktop/api/drt/ne-drt-drt_status_tag
+            href: /windows/win32/api/drt/ne-drt-drt_status
         - name: "Distributed Routing Table Structures"
           href: distributed-routing-table-structures.md
           items: 
           - name: "DRT_ADDRESS"
             href: /windows/win32/api/drt/ns-drt-drt_address
           - name: "DRT_BOOTSTRAP_PROVIDER"
-            href: /windows/desktop/api/drt/ns-drt-drt_bootstrap_provider_tag
+            href: /windows/win32/api/drt/ns-drt-drt_bootstrap_provider
           - name: "DRT_ADDRESS_LIST"
             href: /windows/win32/api/drt/ns-drt-drt_address_list
           - name: "DRT_DATA"
-            href: /windows/desktop/api/drt/ns-drt-drt_data_tag
+            href: /windows/win32/api/drt/ns-drt-drt_data
           - name: "DRT_EVENT_DATA"
-            href: /windows/desktop/api/drt/ns-drt-drt_event_data_tag
+            href: /windows/win32/api/drt/ns-drt-drt_event_data
           - name: "DRT_REGISTRATION"
-            href: /windows/desktop/api/drt/ns-drt-drt_registration_tag
+            href: /windows/win32/api/drt/ns-drt-drt_registration
           - name: "DRT_SEARCH_INFO"
-            href: /windows/desktop/api/drt/ns-drt-drt_search_info_tag
+            href: /windows/win32/api/drt/ns-drt-drt_search_info
           - name: "DRT_SEARCH_RESULT"
-            href: /windows/desktop/api/drt/ns-drt-drt_search_result_tag
+            href: /windows/win32/api/drt/ns-drt-drt_search_result
           - name: "DRT_SECURITY_PROVIDER"
-            href: /windows/desktop/api/Drt/ns-drt-drt_security_provider_tag
+            href: /windows/win32/api/Drt/ns-drt-drt_security_provider
           - name: "DRT_SETTINGS"
-            href: /windows/desktop/api/drt/ns-drt-drt_settings_tag
+            href: /windows/win32/api/drt/ns-drt-drt_settings
         - name: "Distributed Routing Table Functions"
           href: distributed-routing-table-functions.md
           items: 
@@ -597,11 +597,11 @@
           href: pnrp-structures.md
           items: 
           - name: "PEER_PNRP_ENDPOINT_INFO"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_pnrp_endpoint_info_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_pnrp_endpoint_info
           - name: "PEER_PNRP_CLOUD_INFO"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_pnrp_cloud_info_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_pnrp_cloud_info
           - name: "PEER_PNRP_REGISTRATION_INFO"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_pnrp_registration_info_tag
+            href: /windows/win32/api/P2P/ns-p2p-peer_pnrp_registration_info
           - name: "PNRP and WSAQUERYSET"
             href: pnrp-and-wsaqueryset.md
           - name: "PNRP_CLOUD_ID"
@@ -657,21 +657,21 @@
         href: collaboration-api-enumerations.md
         items: 
         - name: "PEER_APPLICATION_REGISTRATION_TYPE"
-          href: /windows/desktop/api/P2P/ne-p2p-peer_application_registration_type_tag
+          href: /windows/win32/api/P2P/ne-p2p-peer_application_registration_type
         - name: "PEER_CHANGE_TYPE"
-          href: /windows/desktop/api/P2P/ne-p2p-peer_change_type_tag
+          href: /windows/win32/api/P2P/ne-p2p-peer_change_type
         - name: "PEER_COLLAB_EVENT_TYPE"
-          href: /windows/desktop/api/P2P/ne-p2p-peer_collab_event_type_tag
+          href: /windows/win32/api/P2P/ne-p2p-peer_collab_event_type
         - name: "PEER_INVITATION_RESPONSE_TYPE"
-          href: /windows/desktop/api/P2P/ne-p2p-peer_invitation_response_type_tag
+          href: /windows/win32/api/P2P/ne-p2p-peer_invitation_response_type
         - name: "PEER_PRESENCE_STATUS"
-          href: /windows/desktop/api/P2P/ne-p2p-peer_presence_status_tag
+          href: /windows/win32/api/P2P/ne-p2p-peer_presence_status
         - name: "PEER_PUBLICATION_SCOPE"
-          href: /windows/desktop/api/P2P/ne-p2p-peer_publication_scope_tag
+          href: /windows/win32/api/P2P/ne-p2p-peer_publication_scope
         - name: "PEER_SIGNIN_FLAGS"
-          href: /windows/desktop/api/P2P/ne-p2p-peer_signin_flags_tag
+          href: /windows/win32/api/P2P/ne-p2p-peer_signin_flags
         - name: "PEER_WATCH_PERMISSION"
-          href: /windows/desktop/api/P2P/ne-p2p-peer_watch_permission_tag
+          href: /windows/win32/api/P2P/ne-p2p-peer_watch_permission
       - name: "Collaboration API Functions"
         href: collaboration-api-functions.md
         items: 
@@ -763,43 +763,43 @@
         href: collaboration-api-structures.md
         items: 
         - name: "PEER_APPLICATION"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_application_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_application
         - name: "PEER_APPLICATION_REGISTRATION_INFO"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_application_registration_info_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_application_registration_info
         - name: "PEER_APP_LAUNCH_INFO"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_app_launch_info_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_app_launch_info
         - name: "PEER_COLLAB_EVENT_DATA"
           href: /windows/desktop/api/P2P/ns-p2p-peer_collab_event_data_tag
         - name: "PEER_COLLAB_EVENT_REGISTRATION"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_collab_event_registration_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_collab_event_registration
         - name: "PEER_CONTACT"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_contact_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_contact
         - name: "PEER_ENDPOINT"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_endpoint_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_endpoint
         - name: "PEER_PEOPLE_NEAR_ME"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_people_near_me_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_people_near_me
         - name: "PEER_EVENT_APPLICATION_CHANGED_DATA"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_event_application_changed_data_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_event_application_changed_data
         - name: "PEER_EVENT_ENDPOINT_CHANGED_DATA"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_event_endpoint_changed_data_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_event_endpoint_changed_data
         - name: "PEER_EVENT_OBJECT_CHANGED_DATA"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_event_object_changed_data_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_event_object_changed_data
         - name: "PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_event_people_near_me_changed_data_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_event_people_near_me_changed_data
         - name: "PEER_EVENT_PRESENCE_CHANGED_DATA"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_event_presence_changed_data_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_event_presence_changed_data
         - name: "PEER_EVENT_REQUEST_STATUS_CHANGED_DATA"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_event_request_status_changed_data_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_event_request_status_changed_data
         - name: "PEER_EVENT_WATCHLIST_CHANGED_DATA"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_event_watchlist_changed_data_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_event_watchlist_changed_data
         - name: "PEER_INVITATION"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_invitation_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_invitation
         - name: "PEER_INVITATION_RESPONSE"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_invitation_response_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_invitation_response
         - name: "PEER_OBJECT"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_object_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_object
         - name: "PEER_PRESENCE_INFO"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_presence_info_tag
+          href: /windows/win32/api/P2P/ns-p2p-peer_presence_info
   - name: "Peer Distribution"
     href: peer-distribution.md
     items: 
@@ -821,13 +821,13 @@
         - name: "PEERDIST_CLIENT_BASIC_INFO"
           href: /windows/win32/api/peerdist/ns-peerdist-peerdist_client_basic_info
         - name: "PEERDIST_CONTENT_TAG"
-          href: /windows/desktop/api/peerdist/ns-peerdist-peerdist_content_tag_tag
+          href: /windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag
         - name: "PEERDIST_PUBLICATION_OPTIONS"
-          href: /windows/desktop/api/peerdist/ns-peerdist-peerdist_publication_options_tag
+          href: /windows/win32/api/peerdist/ns-peerdist-peerdist_publication_options
         - name: "PEERDIST_RETRIEVAL_OPTIONS"
-          href: /windows/desktop/api/peerdist/ns-peerdist-peerdist_retrieval_options_tag
+          href: /windows/win32/api/peerdist/ns-peerdist-peerdist_retrieval_options
         - name: "PEERDIST_STATUS_INFO"
-          href: /windows/desktop/api/peerdist/ns-peerdist-peerdist_status_info_tag
+          href: /windows/win32/api/peerdist/ns-peerdist-peerdist_status_info
       - name: "Peer Distribution API Functions"
         href: peer-distribution-api-functions.md
         items: 

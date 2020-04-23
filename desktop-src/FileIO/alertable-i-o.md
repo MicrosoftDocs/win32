@@ -23,7 +23,7 @@ When the row fetch is complete and the thread returns from the function, its hig
 -   [**SleepEx**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleepex)
 -   [**WaitForSingleObjectEx**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex)
 -   [**WaitForMultipleObjectsEx**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex)
--   [**SignalObjectAndWait**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-signalobjectandwait)
+-   [**SignalObjectAndWait**](https://docs.microsoft.com/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait)
 -   [**MsgWaitForMultipleObjectsEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex)
 
 When the thread enters an alertable state, the following events occur:

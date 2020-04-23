@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Reading User Cannot Change Password (WinNT Provider)
 
-The ability of a user to change their own password is a permission that can be granted or denied. To determine if the user has been granted this permission with the WinNT provider, read the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of the user object. The **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag is defined in the [**ADS\_USER\_FLAG\_ENUM**](/windows/desktop/api/Iads/ne-iads-ads_user_flag) enumeration.
+The ability of a user to change their own password is a permission that can be granted or denied. To determine if the user has been granted this permission with the WinNT provider, read the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of the user object. The **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag is defined in the [**ADS\_USER\_FLAG\_ENUM**](/windows/win32/api/iads/ne-iads-ads_user_flag_enum) enumeration.
 
 ## Example Code
 

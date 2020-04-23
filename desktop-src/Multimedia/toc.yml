@@ -2018,11 +2018,11 @@
       - name: "PCMWAVEFORMAT"
         href: https://docs.microsoft.com/previous-versions//dd743663(v=vs.85)
       - name: "TIMECAPS"
-        href: /windows/desktop/api/TimeAPI/ns-timeapi-timecaps_tag
+        href: /windows/win32/api/TimeAPI/ns-timeapi-timecaps
       - name: "VIDEOHDR"
-        href: /windows/desktop/api/Vfw/ns-vfw-videohdr_tag
+        href: /windows/win32/api/Vfw/ns-vfw-videohdr
       - name: "WAVEFILTER"
-        href: /windows/desktop/api/Mmreg/ns-mmreg-wavefilter_tag
+        href: /windows/win32/api/Mmreg/ns-mmreg-wavefilter
       - name: "WAVEFORMAT"
         href: /windows/desktop/api/mmeapi/ns-mmeapi-twaveformatex
       - name: "WAVEFORMATEX"

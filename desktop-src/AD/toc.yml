@@ -1043,9 +1043,9 @@
         - name: "DS_REPL_KCC_DSA_FAILUREW_BLOB"
           href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failurew_blob
         - name: "DS_REPL_NEIGHBOR"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_neighborw
+          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_neighborw
         - name: "DS_REPL_NEIGHBORS"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_neighborsw
+          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_neighborsw
         - name: "DS_REPL_NEIGHBORW_BLOB"
           href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_neighborw_blob
         - name: "DS_REPL_OBJ_META_DATA"
@@ -1053,9 +1053,9 @@
         - name: "DS_REPL_OBJ_META_DATA_2"
           href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data_2
         - name: "DS_REPL_OP"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_opw
+          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_opw
         - name: "DS_REPL_OPW_BLOB"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_opw_blob
+          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_opw_blob
         - name: "DS_REPL_PENDING_OPS"
           href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_pending_opsw
         - name: "DS_REPL_QUEUE_STATISTICSW"
@@ -1063,7 +1063,7 @@
         - name: "DS_REPL_VALUE_META_DATA"
           href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data
         - name: "DS_REPL_VALUE_META_DATA_2"
-          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_2
+          href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_2
         - name: "DS_REPL_VALUE_META_DATA_BLOB"
           href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_blob
         - name: "DS_REPL_VALUE_META_DATA_BLOB_EXT"

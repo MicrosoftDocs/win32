@@ -14,7 +14,7 @@ The following examples demonstrate the use of the one-time initialization functi
 
 In this example, the `g_InitOnce` global variable is the one-time initialization structure. It is initialized statically using **INIT\_ONCE\_STATIC\_INIT**.
 
-The `OpenEventHandleSync` function returns a handle to an event that is created only once. It calls the [**InitOnceExecuteOnce**](https://msdn.microsoft.com/library/ms683493(v=VS.85).aspx) function to execute the initialization code contained in the `InitHandleFunction` callback function. If the callback function succeeds, `OpenEventHandleAsync` returns the event handle returned in *lpContext*; otherwise, it returns **INVALID\_HANDLE\_VALUE**.
+The `OpenEventHandleSync` function returns a handle to an event that is created only once. It calls the [**InitOnceExecuteOnce**](https://msdn.microsoft.com/library/ms683493(v=VS.85).aspx) function to execute the initialization code contained in the `InitHandleFunction` callback function. If the callback function succeeds, `OpenEventHandleSync` returns the event handle returned in *lpContext*; otherwise, it returns **INVALID\_HANDLE\_VALUE**.
 
 The `InitHandleFunction` function is the [one-time initialization callback function](https://msdn.microsoft.com/library/ms683490(v=VS.85).aspx). `InitHandleFunction` calls the [**CreateEvent**](https://msdn.microsoft.com/library/ms682396(v=VS.85).aspx) function to create the event and returns the event handle in the *lpContext* parameter.
 

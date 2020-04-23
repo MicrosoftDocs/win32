@@ -1028,7 +1028,7 @@ This API is deprecated. New and existing software should start using <a href="ht
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipcreateindirectdata"><strong>CryptSIPCreateIndirectData</strong></a></td>
-<td>Returns a <a href="/windows/desktop/api/Mssip/ns-mssip-sip_indirect_data_"><strong>SIP_INDIRECT_DATA</strong></a> structure that contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly"><em>hash</em></a> of the supplied <a href="/windows/desktop/api/Mssip/ns-mssip-sip_subjectinfo_"><strong>SIP_SUBJECTINFO</strong></a> structure, the digest algorithm, and an encoding attribute. The hash can be used as an indirect reference to the data.</td>
+<td>Returns a <a href="/windows/win32/api/mssip/ns-mssip-sip_indirect_data"><strong>SIP_INDIRECT_DATA</strong></a> structure that contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly"><em>hash</em></a> of the supplied <a href="/windows/win32/api/mssip/ns-mssip-sip_subjectinfo"><strong>SIP_SUBJECTINFO</strong></a> structure, the digest algorithm, and an encoding attribute. The hash can be used as an indirect reference to the data.</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipgetcaps"><strong>CryptSIPGetCaps</strong></a></td>
@@ -1040,7 +1040,7 @@ This API is deprecated. New and existing software should start using <a href="ht
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipload"><strong>CryptSIPLoad</strong></a></td>
-<td>Loads the dynamic link library that implements a subject interface package and assigns appropriate library export functions to a <a href="/windows/desktop/api/Mssip/ns-mssip-sip_dispatch_info_"><strong>SIP_DISPATCH_INFO</strong></a> structure.</td>
+<td>Loads the dynamic link library that implements a subject interface package and assigns appropriate library export functions to a <a href="/windows/win32/api/mssip/ns-mssip-sip_dispatch_info"><strong>SIP_DISPATCH_INFO</strong></a> structure.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipputsigneddatamsg"><strong>CryptSIPPutSignedDataMsg</strong></a></td>
@@ -1371,11 +1371,11 @@ These functions are used to create a catalog. All of these functions are called 
 
 | Function                                                                           | Description                                                                                                               |
 |------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| [**CryptCATCDFClose**](/windows/desktop/api/Mscat/nf-mscat-cryptcatcdfclose)                                       | Closes a catalog definition file and frees the memory for the corresponding [**CRYPTCATCDF**](/windows/desktop/api/Mscat/ns-mscat-cryptcatcdf_) structure. |
+| [**CryptCATCDFClose**](/windows/desktop/api/Mscat/nf-mscat-cryptcatcdfclose)                                       | Closes a catalog definition file and frees the memory for the corresponding [**CRYPTCATCDF**](/windows/win32/api/mscat/ns-mscat-cryptcatcdf) structure. |
 | [**CryptCATCDFEnumAttributesWithCDFTag**](cryptcatcdfenumattributeswithcdftag.md) | Enumerates the attributes of member files in the **CatalogFiles** section of a CDF.                                       |
 | [**CryptCATCDFEnumCatAttributes**](/windows/desktop/api/Mscat/nf-mscat-cryptcatcdfenumcatattributes)               | Enumerates catalog-level attributes within the **CatalogHeader** section of a CDF.                                        |
 | [**CryptCATCDFEnumMembersByCDFTagEx**](cryptcatcdfenummembersbycdftagex.md)       | Enumerates the individual file members in the **CatalogFiles** section of a CDF.                                          |
-| [**CryptCATCDFOpen**](/windows/desktop/api/Mscat/nf-mscat-cryptcatcdfopen)                                         | Opens an existing CDF for reading and initializes a [**CRYPTCATCDF**](/windows/desktop/api/Mscat/ns-mscat-cryptcatcdf_) structure.                         |
+| [**CryptCATCDFOpen**](/windows/desktop/api/Mscat/nf-mscat-cryptcatcdfopen)                                         | Opens an existing CDF for reading and initializes a [**CRYPTCATCDF**](/windows/win32/api/mscat/ns-mscat-cryptcatcdf) structure.                         |
 
 
 

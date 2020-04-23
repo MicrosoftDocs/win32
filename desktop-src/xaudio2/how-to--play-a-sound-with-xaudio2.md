@@ -13,13 +13,13 @@ This topic describes the minimum steps required to play previously-loaded audio 
 ## To play a sound
 
 1.  Initialize the XAudio2 engine by following the steps described in [How to: Initialize XAudio2](how-to--initialize-xaudio2.md).
-2.  Populate a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Ff538799(v=VS.85).aspx) and [**XAUDIO2\_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) structure by following the steps described in [How to: Load Audio Data Files in XAudio2](how-to--load-audio-data-files-in-xaudio2.md).
+2.  Populate a [**WAVEFORMATEX**](/windows/win32/api/mmreg/ns-mmreg-waveformatex) and [**XAUDIO2\_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) structure by following the steps described in [How to: Load Audio Data Files in XAudio2](how-to--load-audio-data-files-in-xaudio2.md).
     > [!Note]  
-    > Depending on the format of the audio data, you may need to use a larger data structure containing a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Ff538799(v=VS.85).aspx) structure in place of a **WAVEFORMATEX**. See the **WAVEFORMATEX** reference page for more information.
+    > Depending on the format of the audio data, you may need to use a larger data structure containing a [**WAVEFORMATEX**](/windows/win32/api/mmreg/ns-mmreg-waveformatex) structure in place of a **WAVEFORMATEX**. See the **WAVEFORMATEX** reference page for more information.
 
      
 
-3.  Create a source voice by calling the [**IXAudio2::CreateSourceVoice**](https://msdn.microsoft.com/library/Ee418607(v=VS.85).aspx) method on an instance of the XAudio2 engine. The format of the voice is specified by the values set in a [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Ff538799(v=VS.85).aspx) structure.
+3.  Create a source voice by calling the [**IXAudio2::CreateSourceVoice**](https://msdn.microsoft.com/library/Ee418607(v=VS.85).aspx) method on an instance of the XAudio2 engine. The format of the voice is specified by the values set in a [**WAVEFORMATEX**](/windows/win32/api/mmreg/ns-mmreg-waveformatex) structure.
     ```
     IXAudio2SourceVoice* pSourceVoice;
     if( FAILED(hr = pXAudio2->CreateSourceVoice( &pSourceVoice, (WAVEFORMATEX*)&wfx ) ) ) return hr;

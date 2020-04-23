@@ -17,7 +17,7 @@ Some data cannot be seeked. For example, you cannot seek a live video stream fro
 -   Retrieving the current position within the stream.
 -   Playing in reverse.
 
-The **IMediaSeeking** interface defines a set of flags, [**AM\_SEEKING\_SEEKING\_CAPABILITIES**](/windows/desktop/api/strmif/ne-strmif-am_seeking_seekingcapabilities), that describe the possible seeking capabilities. To retrieve the stream's capabilities, call the [**IMediaSeeking::GetCapabilities**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-getcapabilities) method. The method returns a bitwise combination of flags. The application can test them using the & (bitwise **AND**) operator. For example, the following code checks whether the graph can seek to an arbitrary position:
+The **IMediaSeeking** interface defines a set of flags, [**AM\_SEEKING\_SEEKING\_CAPABILITIES**](/windows/win32/api/strmif/ne-strmif-am_seeking_seeking_capabilities), that describe the possible seeking capabilities. To retrieve the stream's capabilities, call the [**IMediaSeeking::GetCapabilities**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-getcapabilities) method. The method returns a bitwise combination of flags. The application can test them using the & (bitwise **AND**) operator. For example, the following code checks whether the graph can seek to an arbitrary position:
 
 
 ```C++

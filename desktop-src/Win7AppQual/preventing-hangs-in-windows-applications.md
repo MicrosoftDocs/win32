@@ -105,16 +105,18 @@ Worse yet, the operating system has its own internal process-specific lock that 
 
 To tie all of this together, look at the sample code below. This function acquires multiple synchronization objects and implicitly defines a lock order, something that is not necessarily obvious on cursory inspection. On function entry, the code acquires a Critical Section and does not release it until function exit, thereby making it the top node in our lock hierarchy. The code then calls the Win32 function LoadIcon(), which under the covers might call into the Operating System Loader to load this binary. This operation would acquire the loader lock, which now also becomes part of this lock hierarchy (make sure the DllMain function does not acquire the g\_cs lock). Next the code calls SendMessage(), a blocking cross-thread operation, which will not return unless the UI thread responds. Again, make sure that the UI thread never acquires g\_cs.
 
-<dl> bool foo::bar (char\* buffer)  
+```
+bool foo::bar (char* buffer)  
 {  
-      EnterCriticalSection(&g\_cs);  
+      EnterCriticalSection(&g_cs);  
       // Get 'new data' icon  
-      this.m\_Icon = LoadIcon(hInst, MAKEINTRESOURCE(5));  
-      // Let UI thread know to update icon SendMessage(hWnd,WM\_COMMAND,IDM\_ICON,NULL);  
-      this.m\_Params = GetParams(buffer);  
-      LeaveCriticalSection(&g\_cs); return true;  
+      this.m_Icon = LoadIcon(hInst, MAKEINTRESOURCE(5));  
+      // Let UI thread know to update icon SendMessage(hWnd,WM_COMMAND,IDM_ICON,NULL);  
+      this.m_Params = GetParams(buffer);  
+      LeaveCriticalSection(&g_cs);
+      return true;  
 }  
-</dl>
+```
 
 Looking at this code it seems clear that we implicitly made g\_cs the top-level lock in our lock hierarchy, even if we only wanted to synchronize access to the class member variables.
 
@@ -140,20 +142,22 @@ Exceptions allow the separation of normal program flow and error handling. Becau
 
 The sample code below illustrates this issue. The unbounded access to the "buffer" variable will occasionally result in an access violation (AV). This AV is caught by the native exception handler, but it has no easy way of determining if the critical section was already acquired at the time of the exception (the AV could even have taken place somewhere in the EnterCriticalSection code).
 
-<dl> BOOL bar (char\* buffer)  
+```
+ BOOL bar (char* buffer)  
 {  
-   BOOL rc = **FALSE**;  
-   \_\_try {  
+   BOOL rc = FALSE;  
+   __try {  
       EnterCriticalSection(&cs);  
-      while (\*buffer++ != '&') ;  
+      while (*buffer++ != '&') ;  
       rc = GetParams(buffer);  
       LeaveCriticalSection(&cs);  
-   } \_\_except (EXCEPTION\_EXECUTE\_HANDLER)  
+   } __except (EXCEPTION_EXECUTE_HANDLER)  
    {  
-      return **FALSE**;  
-   } return rc;  
+      return FALSE;  
+   } 
+   return rc;  
 }  
-</dl>
+```
 
 **Do:**
 

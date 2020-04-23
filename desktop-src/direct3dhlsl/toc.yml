@@ -1202,13 +1202,13 @@
       - name: "Shader Model 6"
         href: shader-model-6-0.md
         items: 
-        - name: "QuadReadAccrossDiagonal"
-          href: quadreadaccrossdiagonal.md
+        - name: "QuadReadAcrossDiagonal"
+          href: quadreadacrossdiagonal.md
         - name: "QuadReadLaneAt"
           href: quadreadlaneat.md
-        - name: "QuadReadAccrossX"
+        - name: "QuadReadAcrossX"
           href: quadswapx.md
-        - name: "QuadReadAccrossY"
+        - name: "QuadReadAcrossY"
           href: quadswapy.md
         - name: "WaveActiveAllEqual"
           href: waveactiveallequal.md

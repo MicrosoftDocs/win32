@@ -67,10 +67,10 @@ hwndEdit2 = ChildWindowFromPoint(hwndCombo2, pt);
  
 //  Change the window procedure for both edit windows 
 //  to the subclass procedure. 
-lpfnEditWndProc = (WNDPROC) SetWindowLong(hwndEdit1, 
-    GWL_WNDPROC, (DWORD) SubClassProc); 
+lpfnEditWndProc = (WNDPROC) SetWindowLongPtr(hwndEdit1, 
+    GWLP_WNDPROC, (LONG_PTR) SubClassProc); 
  
-SetWindowLong(hwndEdit2, GWL_WNDPROC, (DWORD) SubClassProc); 
+SetWindowLongPtr(hwndEdit2, GWLP_WNDPROC, (LONG_PTR) SubClassProc); 
 ```
 
 
@@ -223,10 +223,10 @@ LRESULT CALLBACK ToolbarWindowProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lP
  
             //  Change the window procedure for both edit windows 
             //  to the subclass procedure. 
-            lpfnEditWndProc = (WNDPROC) SetWindowLong(hwndEdit1, 
-                GWL_WNDPROC, (DWORD) SubClassProc); 
+            lpfnEditWndProc = (WNDPROC) SetWindowLongPtr(hwndEdit1, 
+                GWLP_WNDPROC, (LONG_PTR) SubClassProc); 
  
-            SetWindowLong(hwndEdit2, GWL_WNDPROC, (DWORD) SubClassProc); 
+            SetWindowLongPtr(hwndEdit2, GWLP_WNDPROC, (LONG_PTR) SubClassProc); 
 
             break; 
 

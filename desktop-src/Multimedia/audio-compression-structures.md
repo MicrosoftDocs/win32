@@ -19,14 +19,14 @@ ms.date: 05/31/2018
 
 The following structures are used with audio compression.
 
--   [**ACMDRIVERDETAILS**](/windows/desktop/api/Msacm/ns-msacm-tacmdriverdetails)
--   [**ACMFILTERCHOOSE**](/windows/desktop/api/Msacm/ns-msacm-tacmfilterchoose)
--   [**ACMFILTERDETAILS**](/windows/desktop/api/Msacm/ns-msacm-tacmfilterdetails)
--   [**ACMFILTERTAGDETAILS**](/windows/desktop/api/Msacm/ns-msacm-tacmfiltertagdetails)
--   [**ACMFORMATCHOOSE**](/windows/desktop/api/Msacm/ns-msacm-tacmformatchoose)
--   [**ACMFORMATDETAILS**](/windows/desktop/api/Msacm/ns-msacm-tacmformatdetails)
--   [**ACMFORMATTAGDETAILS**](/windows/desktop/api/Msacm/ns-msacm-tacmformattagdetails)
--   [**ACMSTREAMHEADER**](/windows/desktop/api/Msacm/ns-msacm-tacmstreamheader)
+-   [**ACMDRIVERDETAILS**](/windows/win32/api/msacm/ns-msacm-acmdriverdetails)
+-   [**ACMFILTERCHOOSE**](/windows/win32/api/msacm/ns-msacm-acmfilterchoose)
+-   [**ACMFILTERDETAILS**](/windows/win32/api/msacm/ns-msacm-acmfilterdetails)
+-   [**ACMFILTERTAGDETAILS**](/windows/win32/api/msacm/ns-msacm-acmfiltertagdetails)
+-   [**ACMFORMATCHOOSE**](/windows/win32/api/msacm/ns-msacm-acmformatchoose)
+-   [**ACMFORMATDETAILS**](/windows/win32/api/msacm/ns-msacm-acmformatdetails)
+-   [**ACMFORMATTAGDETAILS**](/windows/win32/api/msacm/ns-msacm-acmformattagdetails)
+-   [**ACMSTREAMHEADER**](/windows/win32/api/msacm/ns-msacm-acmstreamheader)
 
 ## Related topics
 

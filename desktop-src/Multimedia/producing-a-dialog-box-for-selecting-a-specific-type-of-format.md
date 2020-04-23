@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Producing a Dialog Box for Selecting a Specific Type of Format
 
-You might want an application to allow the user to select a format from a restricted list of formats in a dialog box. Restrictions might limit the number of channels, the sampling rate, the waveform-audio format tag, or the number of bits per sample. In all of these cases, you can generate the list by using the [**acmFormatChoose**](/windows/desktop/api/Msacm/nf-msacm-acmformatchoose) function, setting the **fdwEnum** and **pwfxEnum** members of the [**ACMFORMATCHOOSE**](/windows/desktop/api/Msacm/ns-msacm-tacmformatchoose) structure. The following example illustrates this process.
+You might want an application to allow the user to select a format from a restricted list of formats in a dialog box. Restrictions might limit the number of channels, the sampling rate, the waveform-audio format tag, or the number of bits per sample. In all of these cases, you can generate the list by using the [**acmFormatChoose**](/windows/desktop/api/Msacm/nf-msacm-acmformatchoose) function, setting the **fdwEnum** and **pwfxEnum** members of the [**ACMFORMATCHOOSE**](/windows/win32/api/msacm/ns-msacm-acmformatchoose) structure. The following example illustrates this process.
 
 
 ```C++

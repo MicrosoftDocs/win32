@@ -36,7 +36,7 @@ The [**RealTimeStylus**](realtimestylus-class.md) object throws an exception if 
 The following C\# example is code that causes the [**RealTimeStylus**](realtimestylus-class.md) object to throw an exception.
 
 
-```C++
+```csharp
 using Microsoft.Ink;
 using Microsoft.StylusInput;
 using Microsoft.StylusInput.PluginData;
@@ -65,7 +65,7 @@ The [**RealTimeStylus**](realtimestylus-class.md) object throws an exception if 
 The following C\# example is code that causes the [**RealTimeStylus**](realtimestylus-class.md) object to throw an exception.
 
 
-```C++
+```csharp
 using Microsoft.Ink;
 using Microsoft.StylusInput;
 using Microsoft.StylusInput.PluginData;

@@ -50,7 +50,7 @@ For an example showing how to create a gradient stop collection and use it to de
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371260(v=VS.85).aspx)
+[**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)
 </dt> <dt>
 
 [**CreateGradientStopCollection**](id2d1rendertarget-creategradientstopcollection.md)

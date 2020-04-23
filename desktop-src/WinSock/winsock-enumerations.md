@@ -18,7 +18,7 @@ The following list provides concise descriptions of each Winsock enumeration. Fo
 | [**MULTICAST\_MODE\_TYPE**](/windows/win32/api/ws2ipdef/ne-ws2ipdef-multicast_mode_type) | Specifies the filter mode for multicast group addresses. |
 | [**NAPI\_PROVIDER\_LEVEL**](/windows/win32/api/nsemail/ne-nsemail-napi_provider_level) | Specifies the provider authority level of a NS\_EMAIL namespace provider for a given domain. |
 | [**NAPI\_PROVIDER\_TYPE**](/windows/win32/api/nsemail/ne-nsemail-napi_provider_type) | Specifies the type of hosting expected for a namespace provider. |
-| [**RIO\_NOTIFICATION\_COMPLETION\_TYPE**](/windows/win32/api/mswsock/ne-mswsock-rio_notification_completion_type) | Specifies the type of completion queue notifications to use with the [**RIONotify**](/windows/win32/api/mswsock/nf-mswsock-rionotify) function when sending or receiving data using the Winsock registered I/O extensions. |
+| [**RIO\_NOTIFICATION\_COMPLETION\_TYPE**](/windows/win32/api/mswsock/ne-mswsock-rio_notification_completion_type) | Specifies the type of completion queue notifications to use with the [**RIONotify**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify) function when sending or receiving data using the Winsock registered I/O extensions. |
 | [**SOCKET\_SECURITY\_PROTOCOL**](/windows/win32/api/mstcpip/ne-mstcpip-socket_security_protocol) | Indicates the type of security protocol to be used on a socket. |
 | [**SOCKET\_USAGE\_TYPE**](/windows/win32/api/Mstcpip/ne-mstcpip-socket_usage_type) | Used to specified the usage type for the socket. |
 | [**TCPSTATE**](/windows/win32/api/mstcpip/ne-mstcpip-tcpstate) | Indicates the possible states of a Transmission Control Protocol (TCP) connection. |

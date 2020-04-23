@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This filter uses the waveOut\* API to render waveform audio. However, the [DirectSound Renderer Filter](directsound-renderer-filter.md) provides the same functionality using DirectSound. By default, the Filter Graph Manager uses the DirectSound Renderer instead of this filter. Audio mixing is disabled in the waveOut Audio Renderer, so if you need to mix multiple audio streams during playback, use the DirectSound renderer.
 
-This filter does not check the audio stream's subtype. The [**WAVEFORMAT**](https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-twaveformatex) or [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) structure passed in the format contains the information needed for the connection.
+This filter does not check the audio stream's subtype. The [**WAVEFORMAT**](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-waveformat) or [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) structure passed in the format contains the information needed for the connection.
 
 This filter supports a range of sample rates that depends on the audio driver.
 

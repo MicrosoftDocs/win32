@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 -   [**IKEEXT\_AUTHENTICATION\_IMPERSONATION\_TYPE**](/windows/desktop/api/Iketypes/ne-iketypes-ikeext_authentication_impersonation_type)
 -   [**IKEEXT\_AUTHENTICATION\_METHOD\_TYPE**](/windows/desktop/api/Iketypes/ne-iketypes-ikeext_authentication_method_type)
 -   [**IKEEXT\_CERT\_CONFIG\_TYPE**](/windows/desktop/api/Iketypes/ne-iketypes-ikeext_cert_config_type)
--   [**IKEEXT\_CERT\_CRITERIA\_NAME\_TYPE**](/windows/desktop/api/iketypes/ne-iketypes-ikeext_cert_criteria_name_type_)
+-   [**IKEEXT\_CERT\_CRITERIA\_NAME\_TYPE**](/windows/win32/api/iketypes/ne-iketypes-ikeext_cert_criteria_name_type)
 -   [**IKEEXT\_CIPHER\_TYPE**](/windows/desktop/api/Iketypes/ne-iketypes-ikeext_cipher_type)
 -   [**IKEEXT\_DH\_GROUP**](/windows/desktop/api/Iketypes/ne-iketypes-ikeext_dh_group)
 -   [**IKEEXT\_EM\_SA\_STATE**](/windows/desktop/api/Iketypes/ne-iketypes-ikeext_em_sa_state)

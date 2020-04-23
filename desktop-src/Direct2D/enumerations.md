@@ -34,7 +34,7 @@ Direct2D defines the following enumerations.
 |[**D2D1_BITMAPSOURCE_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_prop). Identifiers for properties of the [bitmap source effect](bitmap-source.md).|
 |[**D2D1_BITMAP_INTERPOLATION_MODE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode). Specifies the algorithm that is used when images are scaled or rotated. See [**D2D1_INTERPOLATION_MODE**](https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode).|
 |[**D2D1_BITMAP_OPTIONS**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_bitmap_options). Specifies how a bitmap can be used.|
-|[**D2D1_BLEND**](/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_blend.md). Specifies how one of the color sources is to be derived and optionally specifies a preblend operation on the color source.|
+|[**D2D1_BLEND**](/windows/win32/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_blend). Specifies how one of the color sources is to be derived and optionally specifies a preblend operation on the color source.|
 |[**D2D1_BLEND_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_blend_mode). The blend mode used for the [blend effect](blend.md).|
 |[**D2D1_BLEND_OPERATION**](/windows/desktop/api/D2d1effectauthor/ne-d2d1effectauthor-d2d1_blend_operation). Specifies the blend operation on two color sources.|
 |[**D2D1_BLEND_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_blend_prop). Identifiers for properties of the [blend effect](blend.md).|
@@ -134,7 +134,7 @@ Direct2D defines the following enumerations.
 |[**D2D1_POINTSPECULAR_SCALE_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_pointspecular_scale_mode). The interpolation mode the [point-specular lighting effect](point-specular.md) uses to scale the image to the corresponding kernel unit length. There are six scale modes, which range in quality and speed.|
 |[**D2D1_POSTERIZE_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_posterize_prop). Identifiers for properties of the [posterize effect](posterize-effect.md).|
 |[**D2D1_PRESENT_OPTIONS**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_present_options). Describes how a render target behaves when it presents its content. This enumeration allows a bitwise combination of its member values.|
-|[**D2D1_PRIMITIVE_BLEND**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_primitive_blend.md). Used to specify the geometric blend mode for all [Direct2D](direct2d-portal.md) primitives.|
+|[**D2D1_PRIMITIVE_BLEND**](/windows/win32/api/d2d1_1/ne-d2d1_1-d2d1_primitive_blend). Used to specify the geometric blend mode for all [Direct2D](direct2d-portal.md) primitives.|
 |[**D2D1_PRINT_FONT_SUBSET_MODE**](/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_print_font_subset_mode). Defines when font resources should be subset during printing.|
 |[**D2D1_PROPERTY_TYPE**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_property_type). Specifies the types of properties supported by the [Direct2D](direct2d-portal.md) property interface.|
 |[**D2D1_PROPERTY**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_property). Specifies the indices of the system properties present on the [**ID2D1Properties**](https://msdn.microsoft.com/library/Hh446854(v=VS.85).aspx) interface for an [**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx).|

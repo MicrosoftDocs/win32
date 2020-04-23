@@ -15,7 +15,11 @@ Specifies that a media type is auto-decoded.
 
 
 ## Remarks
-A media type is marked an attribute to indicate this doesn’t exist on the physical source and is synthesized by the pipeline. A value of 1 (TRUE) indicates that the media type is synthesized. A value of 0 (FALSE), or the value not being present, indicates that it is not.
+A media type is marked an attribute to indicate this doesn't exist on the physical source and is synthesized by the pipeline. A value of 1 (TRUE) indicates that the media type is synthesized. A value of 0 (FALSE), or the value not being present, indicates that it is not.
+
+In the current release, this attribute should be specified using the following GUID value rather than the MD_MT_FSSourceTypeDecoded constant:
+
+```ea031a62-8bbb-43c5-b5c4-572d2d231c18```
 
 
 ## Requirements

@@ -916,7 +916,7 @@
           - name: "RAS_CONNECTION_4"
             href: /windows/win32/api/mprapi/ns-mprapi-ras_connection_4
           - name: "RAS_UPDATE_CONNECTION"
-            href: /windows/desktop/api/Mprapi/ns-mprapi-ras_update_connection_
+            href: /windows/win32/api/Mprapi/ns-mprapi-ras_update_connection
           - name: "ROUTER_CUSTOM_IKEV2_POLICY0"
             href: /windows/win32/api/mprapi/ns-mprapi-router_custom_ikev2_policy0
           - name: "ROUTER_IKEV2_IF_CUSTOM_CONFIG0"

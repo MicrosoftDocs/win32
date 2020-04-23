@@ -172,7 +172,7 @@ Depth, stencil, vertex, and index buffers each have unique formats.
 | **D3DFMT\_D32F\_LOCKABLE** | 82    | A lockable format where the depth value is represented as a standard IEEE floating-point number.                                              |
 | **D3DFMT\_D24FS8**         | 83    | A non-lockable format that contains 24 bits of depth (in a 24-bit floating point format - 20e4) and 8 bits of stencil.                        |
 | **D3DFMT\_D32\_LOCKABLE**  | 84    | A lockable 32-bit depth buffer. **Differences between Direct3D 9 and Direct3D 9Ex:** This flag is available in Direct3D 9Ex only.<br/>  |
-| **D3DFMT\_S8\_LOCKABLE**   | 84    | A lockable 8-bit stencil buffer. **Differences between Direct3D 9 and Direct3D 9Ex:** This flag is available in Direct3D 9Ex only.<br/> |
+| **D3DFMT\_S8\_LOCKABLE**   | 85    | A lockable 8-bit stencil buffer. **Differences between Direct3D 9 and Direct3D 9Ex:** This flag is available in Direct3D 9Ex only.<br/> |
 | **D3DFMT\_D16**            | 80    | 16-bit z-buffer bit depth.                                                                                                                    |
 | **D3DFMT\_VERTEXDATA**     | 100   | Describes a vertex buffer surface.                                                                                                            |
 | **D3DFMT\_INDEX16**        | 101   | 16-bit index buffer bit depth.                                                                                                                |

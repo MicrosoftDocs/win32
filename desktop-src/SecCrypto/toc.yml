@@ -3675,7 +3675,7 @@
       - name: "AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA"
         href: /windows/win32/api/Wincrypt/ns-wincrypt-authenticode_ts_extra_cert_chain_policy_para
       - name: "CATALOG_INFO"
-        href: /windows/desktop/api/Mscat/ns-mscat-catalog_info_
+        href: /windows/win32/api/Mscat/ns-mscat-catalog_info
       - name: "CERT_ACCESS_DESCRIPTION"
         href: /windows/win32/api/Wincrypt/ns-wincrypt-cert_access_description
       - name: "CERT_ALT_NAME_ENTRY"
@@ -4159,13 +4159,13 @@
       - name: "CRYPT_XML_X509DATA_ITEM"
         href: /windows/win32/api/Cryptxml/ns-cryptxml-crypt_xml_x509data_item
       - name: "CRYPTCATATTRIBUTE"
-        href: /windows/desktop/api/Mscat/ns-mscat-cryptcatattribute_
+        href: /windows/win32/api/Mscat/ns-mscat-cryptcatattribute
       - name: "CRYPTCATCDF"
-        href: /windows/desktop/api/Mscat/ns-mscat-cryptcatcdf_
+        href: /windows/win32/api/Mscat/ns-mscat-cryptcatcdf
       - name: "CRYPTCATMEMBER"
-        href: /windows/desktop/api/Mscat/ns-mscat-cryptcatmember_
+        href: /windows/win32/api/Mscat/ns-mscat-cryptcatmember
       - name: "CRYPTCATSTORE"
-        href: /windows/desktop/api/Mscat/ns-mscat-cryptcatstore_
+        href: /windows/win32/api/Mscat/ns-mscat-cryptcatstore
       - name: "CRYPTNET_URL_CACHE_FLUSH_INFO"
         href: /windows/win32/api/Wincrypt/ns-wincrypt-cryptnet_url_cache_flush_info
       - name: "CRYPTNET_URL_CACHE_PRE_FETCH_INFO"
@@ -4261,11 +4261,11 @@
       - name: "KEYSVC_UNICODE_STRING"
         href: keysvc-unicode-string.md
       - name: "MS_ADDINFO_FLAT"
-        href: /windows/desktop/api/Mssip/ns-mssip-ms_addinfo_flat_
+        href: /windows/win32/api/Mssip/ns-mssip-ms_addinfo_flat
       - name: "MS_ADDINFO_CATALOGMEMBER"
-        href: /windows/desktop/api/Mssip/ns-mssip-ms_addinfo_catalogmember_
+        href: /windows/win32/api/Mssip/ns-mssip-ms_addinfo_catalogmember
       - name: "MS_ADDINFO_BLOB"
-        href: /windows/desktop/api/Mssip/ns-mssip-ms_addinfo_blob_
+        href: /windows/win32/api/Mssip/ns-mssip-ms_addinfo_blob
       - name: "OCSP_BASIC_RESPONSE_ENTRY"
         href: /windows/win32/api/Wincrypt/ns-wincrypt-ocsp_basic_response_entry
       - name: "OCSP_BASIC_RESPONSE_INFO"
@@ -4321,15 +4321,15 @@
       - name: "SIGNER_SUBJECT_INFO"
         href: signer-subject-info.md
       - name: "SIP_ADD_NEWPROVIDER"
-        href: /windows/desktop/api/Mssip/ns-mssip-sip_add_newprovider_
+        href: /windows/win32/api/Mssip/ns-mssip-sip_add_newprovider
       - name: "SIP_CAP_SET"
         href: /windows/win32/api/Mssip/ns-mssip-sip_cap_set_v2
       - name: "SIP_DISPATCH_INFO"
-        href: /windows/desktop/api/Mssip/ns-mssip-sip_dispatch_info_
+        href: /windows/win32/api/Mssip/ns-mssip-sip_dispatch_info
       - name: "SIP_INDIRECT_DATA"
-        href: /windows/desktop/api/Mssip/ns-mssip-sip_indirect_data_
+        href: /windows/win32/api/Mssip/ns-mssip-sip_indirect_data
       - name: "SIP_SUBJECTINFO"
-        href: /windows/desktop/api/Mssip/ns-mssip-sip_subjectinfo_
+        href: /windows/win32/api/Mssip/ns-mssip-sip_subjectinfo
       - name: "SPC_INDIRECT_DATA_CONTENT"
         href: /windows/win32/api/Wintrust/ns-wintrust-spc_indirect_data_content
       - name: "SSL_EXTRA_CERT_CHAIN_POLICY_PARA"
@@ -4339,19 +4339,19 @@
       - name: "VTableProvStruc"
         href: vtableprovstruc.md
       - name: "WINTRUST_BLOB_INFO"
-        href: /windows/desktop/api/Wintrust/ns-wintrust-wintrust_blob_info_
+        href: /windows/win32/api/Wintrust/ns-wintrust-wintrust_blob_info
       - name: "WINTRUST_CATALOG_INFO"
-        href: /windows/desktop/api/Wintrust/ns-wintrust-wintrust_catalog_info_
+        href: /windows/win32/api/Wintrust/ns-wintrust-wintrust_catalog_info
       - name: "WINTRUST_CERT_INFO"
-        href: /windows/desktop/api/Wintrust/ns-wintrust-wintrust_cert_info_
+        href: /windows/win32/api/Wintrust/ns-wintrust-wintrust_cert_info
       - name: "WINTRUST_DATA"
         href: /windows/win32/api/Wintrust/ns-wintrust-wintrust_data
       - name: "WINTRUST_FILE_INFO"
-        href: /windows/desktop/api/Wintrust/ns-wintrust-wintrust_file_info_
+        href: /windows/win32/api/Wintrust/ns-wintrust-wintrust_file_info
       - name: "WINTRUST_SIGNATURE_SETTINGS"
-        href: /windows/desktop/api/Wintrust/ns-wintrust-wintrust_signature_settings_
+        href: /windows/win32/api/Wintrust/ns-wintrust-wintrust_signature_settings
       - name: "WINTRUST_SGNR_INFO"
-        href: /windows/desktop/api/Wintrust/ns-wintrust-wintrust_sgnr_info_
+        href: /windows/win32/api/Wintrust/ns-wintrust-wintrust_sgnr_info
     - name: "CryptoAPI Tools Reference"
       href: cryptoapi-tools-reference.md
       items: 

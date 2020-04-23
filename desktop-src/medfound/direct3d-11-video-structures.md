@@ -23,7 +23,7 @@ This section contains reference information for the Microsoft Direct3D 11 video
 -   [**D3D11\_AUTHENTICATED\_QUERY\_ACCESSIBILITY\_ENCRYPTION\_GUID\_COUNT\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_accessibility_encryption_guid_count_output)
 -   [**D3D11\_AUTHENTICATED\_QUERY\_ACCESSIBILITY\_ENCRYPTION\_GUID\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_accessibility_encryption_guid_input)
 -   [**D3D11\_AUTHENTICATED\_QUERY\_ACCESSIBILITY\_ENCRYPTION\_GUID\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_accessibility_encryption_guid_output)
--   [**D3D11\_AUTHENTICATED\_QUERY\_ACCESSIBILITY\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_acessibility_output)
+-   [**D3D11\_AUTHENTICATED\_QUERY\_ACCESSIBILITY\_OUTPUT**](/windows/win32/api/d3d11/ns-d3d11-d3d11_authenticated_query_accessibility_output)
 -   [**D3D11\_AUTHENTICATED\_QUERY\_CHANNEL\_TYPE\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_channel_type_output)
 -   [**D3D11\_AUTHENTICATED\_QUERY\_CRYPTO\_SESSION\_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_crypto_session_input)
 -   [**D3D11\_AUTHENTICATED\_QUERY\_CRYPTO\_SESSION\_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_crypto_session_output)

@@ -52,11 +52,3 @@ A real-time, physical action applied to an object on a screen in which multiple 
 A pen equivalent of a traditional mouse message, such as left-click or double-click.
 
 </dd> </dl>
-
- 
-
- 
-
-
-
-

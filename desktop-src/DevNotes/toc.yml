@@ -1008,6 +1008,15 @@
     items: 
     - name: "DA_GET_NFS_ATTRIBUTES"
       href: da-get-nfs-attributes.md
+  - name: "OpenCL"
+    href: opencl.md
+  - name: "PatchAPI"
+    href: patchapi.md
+    items: 
+    - name: "CreatePatchFileEx"
+      href: patchapi-createpatchfileex.md
+    - name: "ExtractPatchHeaderToFile"
+      href: patchapi-extractpatchheadertofile.md
   - name: "Offline Files"
     href: offline-files.md
     items: 

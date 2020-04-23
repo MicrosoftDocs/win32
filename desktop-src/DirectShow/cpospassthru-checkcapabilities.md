@@ -40,7 +40,7 @@ HRESULT CheckCapabilities(
 *pCapabilities* 
 </dt> <dd>
 
-Pointer to a bitwise combination of one or more [**AM\_SEEKING\_SEEKING\_CAPABILITIES**](/windows/desktop/api/strmif/ne-strmif-am_seeking_seekingcapabilities) attributes. When the method returns, the value indicates which of those attributes are available.
+Pointer to a bitwise combination of one or more [**AM\_SEEKING\_SEEKING\_CAPABILITIES**](/windows/win32/api/strmif/ne-strmif-am_seeking_seeking_capabilities) attributes. When the method returns, the value indicates which of those attributes are available.
 
 </dd> </dl>
 
