@@ -90,7 +90,7 @@ Threat category | Description
 <span id="MP_THREAT_CATEGORY_TROJAN"></span><span id="mp_threat_category_trojan"></span>**MP\_THREAT\_CATEGORY\_TROJAN** | Malicious software that disguises itself as legitimate software.
 <span id="MP_THREAT_CATEGORY_EMAILFLOODER"></span><span id="mp_threat_category_emailflooder"></span> **MP\_THREAT\_CATEGORY\_EMAILFLOODER** | Malware the sends a large volume of email to a target.
 <span id="MP_THREAT_CATEGORY_KEYLOGGER"></span><span id="mp_threat_category_keylogger"></span> **MP\_THREAT\_CATEGORY\_KEYLOGGER** | Malware that records the user's keystrokes, potentially stealing passwords and other sensitive data.
-<span id="MP_THREAT_CATEGORY_DIALER"></span><span id="mp_threat_category_dialer"></span> **MP\_THREAT\_CATEGORY\_DIALER** | Malware that forces a modem to dial phone numbers without the user's consent or knowledge.
+<span id="MP_THREAT_CATEGORY_DIALER"></span><span id="mp_threat_category_dialer"></span> **MP\_THREAT\_CATEGORY\_DIALER** | Malware that makes unauthorized phone calls, often at premium rates.
 <span id="MP_THREAT_CATEGORY_MONITORINGSOFTWARE"></span><span id="mp_threat_category_monitoringsoftware"></span> **MP\_THREAT\_CATEGORY\_MONITORINGSOFTWARE** | A potentially unwanted application that monitors user activity, such as what the user types on their keyboard or views on their screen.
 <span id="MP_THREAT_CATEGORY_BROWSERMODIFIER"></span><span id="mp_threat_category_browsermodifier"></span> **MP\_THREAT\_CATEGORY\_BROWSERMODIFIER** | A potentially unwanted application that changes web browser settings without the user's consent.
 <span id="MP_THREAT_CATEGORY_COOKIE"></span><span id="mp_threat_category_cookie"></span> **MP\_THREAT\_CATEGORY\_COOKIE** | Data that a Web server sends to a browser, allowing it to save information about the user, such as web application settings, on repeated visits.
@@ -116,14 +116,14 @@ Threat category | Description
 <span id="MP_THREAT_CATEGORY_TOOL"></span><span id="mp_threat_category_tool"></span> **MP\_THREAT\_CATEGORY\_TOOL** | A utility that helps an attacker perform malicious actions on a device.
 <span id="MP_THREAT_CATEGORY_TROJAN_DENIALOFSERVICE"></span><span id="mp_threat_category_trojan_denialofservice"></span> **MP\_THREAT\_CATEGORY\_TROJAN\_DENIALOFSERVICE** | A trojan that is designed to send a large volume of network requests to a target as part of a denial of service (DoS) attack.
 <span id="MP_THREAT_CATEGORY_TROJAN_DROPPER"></span><span id="mp_threat_category_trojan_dropper"></span> **MP\_THREAT\_CATEGORY\_TROJAN\_DROPPER** | A trojan that downloads and installs malware or potentially unwanted applications on a target.
-<span id="MP_THREAT_CATEGORY_TROJAN_MASSMAILER"></span><span id="mp_threat_category_trojan_massmailer"></span> **MP\_THREAT\_CATEGORY\_TROJAN\_MASSMAILER** | A trojan that sends a large volume of email to a target.
+<span id="MP_THREAT_CATEGORY_TROJAN_MASSMAILER"></span><span id="mp_threat_category_trojan_massmailer"></span> **MP\_THREAT\_CATEGORY\_TROJAN\_MASSMAILER** | A trojan that sends a large volume of email to a target, intended to overwhelm the target's inbox.
 <span id="MP_THREAT_CATEGORY_TROJAN_MONITORINGSOFTWARE"></span><span id="mp_threat_category_trojan_monitoringsoftware"></span> **MP\_THREAT\_CATEGORY\_TROJAN\_MONITORINGSOFTWARE** | A trojan that monitors user activity, such as what the user types on their keyboard or views on their screen.
 <span id="MP_THREAT_CATEGORY_TROJAN_PROXYSERVER"></span><span id="mp_threat_category_trojan_proxyserver"></span> **MP\_THREAT\_CATEGORY\_TROJAN\_PROXYSERVER** | A proxy server installed by a trojan, providing what appears to be an uninterrupted Internet connection while allowing unauthorized access to the infected device.
 <span id="MP_THREAT_CATEGORY_VIRUS"></span><span id="mp_threat_category_virus"></span> **MP\_THREAT\_CATEGORY\_VIRUS** | Malware that replicates, commonly by infecting other files in the system, thus allowing the execution of the malware code and its propagation when those files are activated.
 <span id="MP_THREAT_CATEGORY_KNOWN"></span><span id="mp_threat_category_known"></span> **MP\_THREAT\_CATEGORY\_KNOWN** | An unspecified malware threat.
 <span id="MP_THREAT_CATEGORY_UNKNOWN"></span><span id="mp_threat_category_unknown"></span> **MP\_THREAT\_CATEGORY\_UNKNOWN** | An unspecified malware threat that has not yet been defined.
 <span id="MP_THREAT_CATEGORY_SPP"></span><span id="mp_threat_category_spp"></span> **MP\_THREAT\_CATEGORY\_SPP** | Anti-piracy technology that requires each installation of a Windows product be activated with Microsoft.
-<span id="MP_THREAT_CATEGORY_BEHAVIOR"></span><span id="mp_threat_category_behavior"></span> **MP\_THREAT\_CATEGORY\_BEHAVIOR** | Malicious activity that may or may not be associated with malware or potentially unwanted applications.
+<span id="MP_THREAT_CATEGORY_BEHAVIOR"></span><span id="mp_threat_category_behavior"></span> **MP\_THREAT\_CATEGORY\_BEHAVIOR** | A type of detection based on file actions that are often associated with malicious activity.
 <span id="MP_THREAT_CATEGORY_VULNERABILTIY"></span><span id="mp_threat_category_vulnerabiltiy"></span> **MP\_THREAT\_CATEGORY\_VULNERABILTIY** | Any weakness, administrative process, or activity that makes a device susceptible to exploit by a threat.
 <span id="MP_THREAT_CATEGORY_POLICY"></span><span id="mp_threat_category_policy"></span> **MP\_THREAT\_CATEGORY\_POLICY** | A set of rules defined by an administrator, that control features on desktop and mobile devices such as software updates.
 
@@ -133,4 +133,4 @@ Threat category | Description
 |-|-|
 | Minimum supported client | Windows 8 (desktop apps only) |
 | Minimum supported server | Windows Server 2012 (desktop apps only) |
-| Header | <dl> <dt>MpClient.h</dt> </dl> |
+| Header | MpClient.h |
