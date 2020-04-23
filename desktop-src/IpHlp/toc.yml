@@ -498,11 +498,7 @@
       - name: "IPV6_ADDRESS_EX"
         href: /windows/win32/api/Ipexport/ns-ipexport-ipv6_address_ex
       - name: "NET_ADDRESS_INFO"
-<<<<<<< HEAD
-        href: /windows/win32/api/Iphlpapi/ns-iphlpapi-net_address_info_
-=======
         href: /windows/win32/api/Iphlpapi/ns-iphlpapi-net_address_info
->>>>>>> master
       - name: "NET_LUID"
         href: /windows/win32/api/Ifdef/ns-ifdef-net_luid_lh
       - name: "SOCKADDR_IN6_PAIR"
