@@ -1,12 +1,12 @@
 ---
 Description: The XMFLOAT2 structure exposes the following operators.
 ms.assetid: 91b6d6e3-7953-461c-8b64-c50f394caa63
-title: XMFLOAT2 Operators
+title: XMFLOAT2 operators
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# XMFLOAT2 Operators
+# XMFLOAT2 operators
 
 The [**XMFLOAT2**](https://msdn.microsoft.com/library/Ee419468(v=VS.85).aspx) structure exposes the following operators.
 

@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# XMBYTEN2 Extensions
+# XMBYTEN2 extensions
 
 [**XMBYTEN2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2) describes a 2D vector for storing signed, normalized values as signed 8-bits (1 byte) integers.
 

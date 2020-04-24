@@ -1,12 +1,12 @@
 ---
 Description: A 3D vector of three floating-point components with 9 bit mantissas, each sharing the same 5-bit exponent.
 ms.assetid: 07dc8e7c-8fd8-4ba5-bbdf-1ca420e38f53
-title: XMFLOAT3SE Extensions
+title: XMFLOAT3SE extensions
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# XMFLOAT3SE Extensions
+# XMFLOAT3SE extensions
 
 A 3D vector of three floating-point components with 9 bit mantissas, each sharing the same 5-bit exponent.
 

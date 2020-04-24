@@ -1,12 +1,12 @@
 ---
 Description: The DirectXMath Library provides a number of structures and defined types to encapsulate data to support ease of use, optimization, and portability.
 ms.assetid: 4b9ffc17-3917-551c-7cb5-19de505dfd21
-title: DirectXMath Library Types
+title: DirectXMath Library types
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DirectXMath Library Types
+# DirectXMath Library types
 
 The DirectXMath Library provides a number of structures and defined types to encapsulate data to support ease of use, optimization, and portability.
 

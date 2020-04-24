@@ -1,12 +1,12 @@
 ---
 Description: The XMBYTEN4 structure exposes the following operators.
 ms.assetid: 3083dd93-301d-4b57-8ad2-bfafc8576063
-title: XMBYTEN4 Operators
+title: XMBYTEN4 operators
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# XMBYTEN4 Operators
+# XMBYTEN4 operators
 
 The [**XMBYTEN4**](https://msdn.microsoft.com/library/Ee419284(v=VS.85).aspx) structure exposes the following operators.
 

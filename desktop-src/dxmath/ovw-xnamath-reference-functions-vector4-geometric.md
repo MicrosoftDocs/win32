@@ -1,12 +1,12 @@
 ---
 Description: Lists the 4D vector geometric functions.
 ms.assetid: 40cf28ab-aa5a-396d-2f9e-2206651966af
-title: DirectXMath Library 4D Vector Geometric Functions
+title: DirectXMath Library 4D vector geometric functions
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DirectXMath Library 4D Vector Geometric Functions
+# DirectXMath Library 4D vector geometric functions
 
 Lists the 4D vector geometric functions.
 

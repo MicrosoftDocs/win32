@@ -1,12 +1,12 @@
 ---
 Description: Lists the 4D vector comparison functions.
 ms.assetid: 1a6d94b8-bb41-cf4a-6e6e-3fc9756f56d2
-title: DirectXMath Library 4D Vector Comparison Functions
+title: DirectXMath Library 4D vector comparison functions
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DirectXMath Library 4D Vector Comparison Functions
+# DirectXMath Library 4D vector comparison functions
 
 Lists the 4D vector comparison functions.
 
