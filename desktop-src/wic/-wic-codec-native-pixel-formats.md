@@ -57,6 +57,12 @@ For the majority of today's digital images, unsigned bytes and unsigned short in
 
 In addition, WIC supports fixed-point and floating-point formats. These formats support larger dynamic ranges, because the entire numerical range of each color channel is larger than the visible range. As a result, colors can be adjusted above or below the visible range, during the intermediate steps of image processing, without loss of image information.
 
+### Fixed-Point Numerical Encoding
+
+16-bit fixed-point values are interpreted as s2.13: sign bit, two integer bits, and thirteen fractional bits. Using this interpretation, a numerical range of −4.0 to +3.999... can be represented, with the value of 1.0 represented by the signed integer value 8192 (0x2000).
+
+32-bit fixed-point values are interpreted as s7.24: sign bit, seven integer bits, and twenty-four fractional bits. Using this interpretation, a numerical range of −128.0 to +127.999... can be represented, with the value of 1.0 represented by the signed integer value 16777216 (0x01000000).
+
 ## Color Channels
 
 The color channels of a pixel format define the memory layout of each color within the image data of a bitmap. There are a variety of different color-channel structures common in today's digital images, and WIC provides support for many of these.
