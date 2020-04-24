@@ -16,7 +16,7 @@ The error reporting feature enables users to notify Microsoft of application fau
 
 Users can enable error reporting through the Windows user interface. They can choose to report errors for specific applications. Administrators can override these settings using Group Policy.
 
-Developers can register with [Windows Quality Online Services](https://www.microsoft.com/?ref=go) to get information about the problems customers are experiencing with their applications and help customers fix these problems. Developers can also use [Application Recovery and Restart](https://docs.microsoft.com/windows/desktop/Recovery/application-recovery-and-restart-portal) to ensure that customers do not lose data when their application crashes and allow users to quickly return to their tasks.
+Developers can register with [Windows Desktop Application Program](https://docs.microsoft.com/en-us/windows/win32/appxpkg/windows-desktop-application-program) to get information about the problems customers are experiencing with their applications and help customers fix these problems. Developers can also use [Application Recovery and Restart](https://docs.microsoft.com/windows/desktop/Recovery/application-recovery-and-restart-portal) to ensure that customers do not lose data when their application crashes and allow users to quickly return to their tasks.
 
 ## In this Section
 
@@ -32,7 +32,7 @@ Developers can register with [Windows Quality Online Services](https://www.micro
 [Application Recovery and Restart](https://docs.microsoft.com/windows/desktop/Recovery/application-recovery-and-restart-portal)
 </dt> <dt>
 
-[Windows Quality Online Services](https://www.microsoft.com/?ref=go)
+[Windows Desktop Application Program](https://docs.microsoft.com/en-us/windows/win32/appxpkg/windows-desktop-application-program)
 </dt> </dl>
 
  
