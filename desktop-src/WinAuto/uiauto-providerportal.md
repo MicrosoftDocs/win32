@@ -32,16 +32,16 @@ This section contains information about creating Microsoft UI Automation provide
 [UI Automation](entry-uiauto-win32.md)
 </dt> <dt>
 
-[UI Automation Simple Provider Sample](https://code.msdn.microsoft.com/windowsdesktop/UI-Automation-Simple-735d36a5)
+[UI Automation Simple Provider Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/UI%20Automation%20simple%20provider%20sample)
 </dt> <dt>
 
-[UI Automation Core Window Provider Sample](https://code.msdn.microsoft.com/windowsapps/UI-Automation-core-window-4558ec23)
+[UI Automation Core Window Provider Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/UI%20Automation%20core%20window%20provider%20sample)
 </dt> <dt>
 
-[UI Automation Fragment Provider Sample](https://code.msdn.microsoft.com/windowsdesktop/UI-Automation-Fragment-6f0aaf20)
+[UI Automation Fragment Provider Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/UI%20Automation%20fragment%20provider%20sample)
 </dt> <dt>
 
-[UI Automation Document Content Provider Sample](https://code.msdn.microsoft.com/windowsdesktop/UIA-Document-Content-00f77d1e)
+[UI Automation Document Content Provider Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/UI%20Automation%20document%20content%20provider%20sample)
 </dt> </dl>
 
  
