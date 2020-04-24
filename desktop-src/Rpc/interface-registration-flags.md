@@ -44,7 +44,7 @@ The following constants are used in the *Flags* parameter of the [**RpcServerReg
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="RPC_IF_ALLOW_CALLBACKS_WITH_NO_AUTH"></span><span id="rpc_if_allow_callbacks_with_no_auth"></span><dl> <dt><strong>RPC_IF_ALLOW_CALLBACKS_WITH_NO_AUTH</strong></dt> </dl></td>
-<td style="text-align: left;">When this interface flag is registered, the RPC runtime invokes the registered security callback for all calls, regardless of identity, protocol sequence, or authentication level of the client. This flag is allowed only when a security callback is registered.<br/>
+<td style="text-align: left;">When this interface flag is registered, the RPC runtime invokes the registered security callback for all calls, regardless of identity, protocol sequence, or authentication level of the client.<br/>
 <blockquote>
 [!Note]<br />
 This flag is available starting with Windows XP with SP2 and Windows Server 2003 with SP1. When this flag is not set, RPC automatically filters all unauthenticated calls before they reach the security callback.
