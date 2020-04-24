@@ -18,6 +18,9 @@ The DirectXMath library is based on the [XNA Math C++ SIMD library version 2.04]
 
 <table>
  <tr>
+  <td>Windows 10 May 2020 Update SDK</td><td>DirectXMath 3.14</td>
+ </tr>
+ <tr>
   <td>Windows 10 October 2018 Update SDK</td><td>DirectXMath 3.13</td>
  </tr>
  <tr>
