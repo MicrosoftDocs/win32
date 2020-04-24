@@ -1,12 +1,12 @@
 ---
 Description: This section contains info about classes provided by DirectXMath.
 ms.assetid: e50e24ab-24f2-d59e-22a4-aaf7015d0255
-title: DirectXMath Library Classes
+title: DirectXMath Library classes
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DirectXMath Library Classes
+# DirectXMath Library classes
 
 This section contains info about classes provided by DirectXMath.
 

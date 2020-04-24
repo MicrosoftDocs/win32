@@ -1,12 +1,12 @@
 ---
 Description: Lists the 2D vector geometric functions.
 ms.assetid: a17cdad7-4fbe-bf83-472f-1b99603b7fec
-title: DirectXMath Library 2D Vector Geometric Functions
+title: DirectXMath Library 2D vector geometric functions
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DirectXMath Library 2D Vector Geometric Functions
+# DirectXMath Library 2D vector geometric functions
 
 Lists the 2D vector geometric functions.
 

@@ -1,12 +1,12 @@
 ---
 Description: The XMFLOAT3PK structure exposes the following operators.
 ms.assetid: eb6e7bd8-3ce8-4137-9592-9f278c36cdd6
-title: XMFLOAT3PK Operators
+title: XMFLOAT3PK operators
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# XMFLOAT3PK Operators
+# XMFLOAT3PK operators
 
 The [**XMFLOAT3PK**](https://msdn.microsoft.com/library/Ee419478(v=VS.85).aspx) structure exposes the following operators.
 

@@ -1,12 +1,12 @@
 ---
 Description: Lists the 2D vector comparison functions.
 ms.assetid: 16e8348b-c6cf-06a5-12be-5954de3522c1
-title: DirectXMath Library 2D Vector Comparison Functions
+title: DirectXMath Library 2D vector comparison functions
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DirectXMath Library 2D Vector Comparison Functions
+# DirectXMath Library 2D vector comparison functions
 
 Lists the 2D vector comparison functions.
 

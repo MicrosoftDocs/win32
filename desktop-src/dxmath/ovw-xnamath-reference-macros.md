@@ -1,12 +1,12 @@
 ---
 Description: Lists macros provided by DirectXMath.
 ms.assetid: a31ba325-d405-74b9-0c13-d912816334dc
-title: DirectXMath Library Macros
+title: DirectXMath Library macros
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DirectXMath Library Macros
+# DirectXMath Library macros
 
 Lists macros provided by DirectXMath.
 

@@ -1,12 +1,12 @@
 ---
 Description: Lists the color functions provided by DirectXMath.
 ms.assetid: 857e2aed-d082-d990-1c67-e22ce3d07310
-title: DirectXMath Library Color Functions
+title: DirectXMath Library color functions
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DirectXMath Library Color Functions
+# DirectXMath Library color functions
 
 Lists the color functions provided by DirectXMath.
 

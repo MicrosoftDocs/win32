@@ -1,12 +1,12 @@
 ---
 Description: Lists the 3D vector geometric functions.
 ms.assetid: f2cee697-b4ec-5e4d-a87b-622c9fb7997c
-title: DirectXMath Library 3D Vector Geometric Functions
+title: DirectXMath Library 3D vector geometric functions
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DirectXMath Library 3D Vector Geometric Functions
+# DirectXMath Library 3D vector geometric functions
 
 Lists the 3D vector geometric functions.
 

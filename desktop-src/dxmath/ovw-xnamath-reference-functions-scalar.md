@@ -1,12 +1,12 @@
 ---
 Description: Lists the scalar functions provided by DirectXMath.
 ms.assetid: 833273ac-4bbc-029e-df3b-cb860d364cba
-title: DirectXMath Library Scalar Functions
+title: DirectXMath Library scalar functions
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DirectXMath Library Scalar Functions
+# DirectXMath Library scalar functions
 
 Lists the scalar functions provided by DirectXMath.
 

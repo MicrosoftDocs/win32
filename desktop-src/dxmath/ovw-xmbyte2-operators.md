@@ -1,12 +1,12 @@
 ---
 Description: The XMBYTE2 structure exposes the following operators.
 ms.assetid: 402876b9-731e-4c30-b48f-bca67ed6dad1
-title: XMBYTE2 Operators
+title: XMBYTE2 operators
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# XMBYTE2 Operators
+# XMBYTE2 operators
 
 The [**XMBYTE2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyte2) structure exposes the following operators.
 

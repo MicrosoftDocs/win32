@@ -1,12 +1,12 @@
 ---
 Description: Lists the vector arithmetic functions.
 ms.assetid: d7ed4516-74a6-81ec-79a2-2e39cf112d11
-title: Vector Arithmetic Functions
+title: Vector arithmetic functions
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Vector Arithmetic Functions
+# Vector arithmetic functions
 
 Lists the vector arithmetic functions.
 

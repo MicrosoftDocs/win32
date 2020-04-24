@@ -1,12 +1,12 @@
 ---
 Description: Lists the component-wise vector functions.
 ms.assetid: f5464614-f6bb-427d-5488-3ba0fd4c6e8d
-title: Component-Wise Vector Functions
+title: Component-wise vector functions
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Component-Wise Vector Functions
+# Component-wise vector functions
 
 Lists the component-wise vector functions.
 

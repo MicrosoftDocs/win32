@@ -1,12 +1,12 @@
 ---
 Description: Lists the matrix functions provided by DirectXMath.
 ms.assetid: d59d0dcc-deae-3f7e-55c5-0c5ff383343b
-title: DirectXMath Library Matrix Functions
+title: DirectXMath Library matrix functions
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DirectXMath Library Matrix Functions
+# DirectXMath Library matrix functions
 
 Lists the matrix functions provided by DirectXMath.
 

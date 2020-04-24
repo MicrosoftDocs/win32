@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# XMBYTEN2 Operators
+# XMBYTEN2 operators
 
 The [**XMBYTEN2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2) structure exposes the following operators.
 

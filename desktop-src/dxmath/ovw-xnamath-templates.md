@@ -1,12 +1,12 @@
 ---
 Description: Lists the template functions provided by DirectXMath.
 ms.assetid: 9922fc0a-0106-c83d-7658-1001bb93845b
-title: DirectXMath Library Template Functions
+title: DirectXMath Library template functions
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DirectXMath Library Template Functions
+# DirectXMath Library template functions
 
 Lists the template functions provided by DirectXMath.
 
