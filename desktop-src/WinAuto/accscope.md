@@ -69,7 +69,7 @@ Under the label **Window** you'll find a dropdown that lists all the HWND window
 
 ## Using the AccScope visualization
 
-The image below is a screenshot of the **AccScope** visualization. This particular screenshot shows the **AccScope** tool viewing the top-level window for the [XAML accessibility sample](https://code.msdn.microsoft.com/windowsapps/XAML-accessibility-sample-d63e820d) output, running as an app on the same machine. This screenshot shows the default element mode of **Leaf Control** and the **Visual** value for **Layout**.
+The image below is a screenshot of the **AccScope** visualization. This particular screenshot shows the **AccScope** tool viewing the top-level window for the [XAML accessibility sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/XAML%20accessibility%20sample) output, running as an app on the same machine. This screenshot shows the default element mode of **Leaf Control** and the **Visual** value for **Layout**.
 
 ![Screenshot of the AccScope visualization](images/accscopescreenshot.png)
 
