@@ -30,7 +30,7 @@ An ASF file is organized into sections called "objects." There are three top-lev
 
 Each top-level or lower-level object begins with a globally unique identifier (GUID) and a size value. These numbers allow the file reader to parse the information at appropriate places into identifiable objects. Because of these GUIDs, lower-level objects can be sent in any order and still be recognized. The ASF format is designed to overcome inaccurate data reception. A partially downloaded ASF file can still be read, as long as it contains the Header object and at least one Data object.
 
-Detailed information about ASF in presented in the ASF specification. You can download the specification from the [Microsoft Web site](https://go.microsoft.com/fwlink/p/?linkid=31334).
+Detailed information about ASF in presented in the ASF specification. You can download the specification from the [Microsoft Web site](http://download.microsoft.com/download/7/9/0/790fecaa-f64a-4a5e-a430-0bccdab3f1b4/ASF_Specification.doc).
 
 ## Related topics
 

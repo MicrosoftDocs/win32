@@ -88,15 +88,15 @@ A client application must follow the COM standards for checking status and error
 
 **To access synchronous and semisynchronous error messages using C++**
 
-1.  Retrieve the error information with a call to the [GetErrorInfo]( https://go.microsoft.com/fwlink/p/?linkid=119575) COM function.
+1.  Retrieve the error information with a call to the [GetErrorInfo]( http://msdn.microsoft.com/en-us/library/ms221032.aspx) COM function.
 
-    Make sure to call [GetErrorInfo]( https://go.microsoft.com/fwlink/p/?linkid=119575) immediately after an interface method indicates an error. This includes any of the [**IWbemCallResult**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemcallresult) methods you call while processing a semisynchronous process.
+    Make sure to call [GetErrorInfo]( http://msdn.microsoft.com/en-us/library/ms221032.aspx) immediately after an interface method indicates an error. This includes any of the [**IWbemCallResult**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemcallresult) methods you call while processing a semisynchronous process.
 
 2.  Examine the returned COM error object with a call to the [**IErrorInterface::QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) method.
 
     Make sure to specify IID\_WbemClassObject for the *riid* parameter in the [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) call. The **QueryInterface** method returns an instance of a WMI class, typically [**\_\_ExtendedStatus**](--extendedstatus.md).
 
-WMI does not deliver the error object through [GetErrorInfo]( https://go.microsoft.com/fwlink/p/?linkid=119575) for an asynchronous call because there is no way to know when, or on which thread the asynchronous call occurred. Therefore, your code can only handle specific errors or pass the call failure through COM.
+WMI does not deliver the error object through [GetErrorInfo]( http://msdn.microsoft.com/en-us/library/ms221032.aspx) for an asynchronous call because there is no way to know when, or on which thread the asynchronous call occurred. Therefore, your code can only handle specific errors or pass the call failure through COM.
 
 > [!Note]  
 > Because the callback to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. For more information, see [Calling a Method](calling-a-method.md).

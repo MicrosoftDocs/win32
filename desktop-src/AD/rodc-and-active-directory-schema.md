@@ -23,17 +23,17 @@ The RODC filtered attribute set is a dynamic set of attributes that is not repli
 
 You cannot add system-critical attributes to the RODC filtered attribute set. An attribute is system critical if it is required for AD DS, Local Security Authority (LSA), Security Accounts Manager (SAM), and any of Microsoft-specific Security Service Providers, such as the Kerberos authentication protocol, to function properly. In releases of Windows Server 2008 after Beta 3, a system-critical attribute has a schemaFlagsEx attribute value of (schemaFlagsEx attribute value & 0x1 = **TRUE**).
 
-For step by step instructions to adding attributes to the RODC filtered attribute set, see [Appendix D of the step-by-step guide for RODCs]( https://go.microsoft.com/fwlink/p/?linkid=103734).
+For step by step instructions to adding attributes to the RODC filtered attribute set, see [Appendix D of the step-by-step guide for RODCs]( http://technet.microsoft.com/en-us/library/f62c9720-a5c3-40c9-aa40-440026f585e9).
 
 ## Marking attributes as confidential
 
-In addition, it is recommended that you also mark as confidential any attributes that you configure as part of the RODC filtered attribute set. To mark an attribute confidential, you have to remove the Read permission for the attribute for the Authenticated Users group. Marking the attribute as confidential provides an additional safeguard against an RODC that is compromised by removing the permissions that are necessary to read the credential-like data. For more information about marking attributes as confidential, see [article 922836 in the Microsoft Knowledge Base]( https://go.microsoft.com/fwlink/p/?linkid=99814).
+In addition, it is recommended that you also mark as confidential any attributes that you configure as part of the RODC filtered attribute set. To mark an attribute confidential, you have to remove the Read permission for the attribute for the Authenticated Users group. Marking the attribute as confidential provides an additional safeguard against an RODC that is compromised by removing the permissions that are necessary to read the credential-like data. For more information about marking attributes as confidential, see [article 922836 in the Microsoft Knowledge Base]( http://support.microsoft.com/kb/922836).
 
 ## Related topics
 
 <dl> <dt>
 
-[Step-by-Step Guide for Read-only Domain Controllers]( https://go.microsoft.com/fwlink/p/?linkid=99814)
+[Step-by-Step Guide for Read-only Domain Controllers]( http://support.microsoft.com/kb/922836)
 </dt> </dl>
 
  

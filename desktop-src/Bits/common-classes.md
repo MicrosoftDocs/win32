@@ -98,7 +98,7 @@ private:
 
 
 
-The CNotifyInterface class derived from the [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) interface. The CNotifyInterface class implements the IUnknown interface. For more information, see [IUnknown]( https://go.microsoft.com/fwlink/p/?linkid=162308).
+The CNotifyInterface class derived from the [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) interface. The CNotifyInterface class implements the IUnknown interface. For more information, see [IUnknown]( http://msdn.microsoft.com/en-us/library/ms680509.aspx).
 
 CNotifyInterface uses the following methods to receive notification that a job is complete, has been modified, or is in an error state: [**JobTransferred**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobtransferred), [**JobModification**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobmodification), and [**JobError**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-joberror). All of these methods take an [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) job object.
 
@@ -405,7 +405,7 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
 
 <dl> <dt>
 
-[IUnknown]( https://go.microsoft.com/fwlink/p/?linkid=162308)
+[IUnknown]( http://msdn.microsoft.com/en-us/library/ms680509.aspx)
 </dt> <dt>
 
 [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback)

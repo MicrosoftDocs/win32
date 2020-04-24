@@ -68,6 +68,6 @@ Declaring support for Windows 10 in your app manifest will not have any effect 
 
 ## Resources
 
--   [Application Compatibility Toolkit Download: Download the Windows ADK for Windows 10](https://go.microsoft.com/fwlink/p/?LinkId=526740)
+-   [Application Compatibility Toolkit Download: Download the Windows ADK for Windows 10](http://download.microsoft.com/download/9/A/E/9AE69DD5-BA93-44E0-864E-180F5E700AB4/adk/adksetup.exe)
 -   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](https://technet.microsoft.com/library/cc765984.aspx)
 -   [Version Helpers API](https://msdn.microsoft.com/library/windows/desktop/dn424972(v=vs.85).aspx)

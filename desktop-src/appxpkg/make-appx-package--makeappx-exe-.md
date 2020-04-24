@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
  
 
-App packager (MakeAppx.exe) creates an app package from files on disk or extracts the files from an app package to disk. Starting with Windows 8.1, App packager also creates an app package bundle from app packages on disk or extracts the app packages from an app package bundle to disk. It is included in Microsoft Visual Studio and the Windows Software Development Kit (SDK) for Windows 8 or Windows Software Development Kit (SDK) for Windows 8.1. Visit [Downloads for developers]( https://go.microsoft.com/fwlink/p/?linkid=232448) to get them.
+App packager (MakeAppx.exe) creates an app package from files on disk or extracts the files from an app package to disk. Starting with Windows 8.1, App packager also creates an app package bundle from app packages on disk or extracts the app packages from an app package bundle to disk. It is included in Microsoft Visual Studio and the Windows Software Development Kit (SDK) for Windows 8 or Windows Software Development Kit (SDK) for Windows 8.1. Visit [Downloads for developers]( http://msdn.microsoft.com/en-us/windows/apps/br229516.aspx) to get them.
 
 The MakeAppx.exe tool is typically found at these locations:
 

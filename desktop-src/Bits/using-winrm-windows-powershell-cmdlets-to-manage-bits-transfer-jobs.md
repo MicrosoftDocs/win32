@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using WinRM Windows PowerShell Cmdlets to Manage BITS Transfer Jobs
 
-Windows Remote Management PowerShell cmdlets can manage Background Intelligent Transfer Service (BITS) transfer jobs. For more information about BITS remote management, see [BITS provider](https://msdn.microsoft.com/library/dd904506.aspx) and [BITS provider classes]( https://go.microsoft.com/fwlink/p/?linkid=160847).
+Windows Remote Management PowerShell cmdlets can manage Background Intelligent Transfer Service (BITS) transfer jobs. For more information about BITS remote management, see [BITS provider](https://msdn.microsoft.com/library/dd904506.aspx) and [BITS provider classes]( http://msdn.microsoft.com/en-us/library/dd904507.aspx).
 
 The following examples require the [BITS provider](https://msdn.microsoft.com/library/dd904506.aspx). The BITS provider is available after the BITS Compact server is installed. For information about installing the Compact server, see the [BITS Compact Server](bits-compact-server.md) documentation.
 

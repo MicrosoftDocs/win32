@@ -29,7 +29,7 @@ An octet string that contains a security identifier (SID).
 | MAPI Type    | BINARY                                                            |
 | ADS Type     | ADSTYPE\_OCTET\_STRING                                            |
 | Variant Type | VT\_UI1 \| VT\_ARRAY                                              |
-| SDS Type     | [System.Byte\[\]](https://go.microsoft.com/fwlink/p/?linkid=83861) |
+| SDS Type     | [System.Byte\[\]](http://msdn.microsoft.com/en-us/library/system.byte.aspx) |
 
 
 
@@ -37,7 +37,7 @@ An octet string that contains a security identifier (SID).
 
 <dl> <dt>
 
-[System.Byte\[\]](https://go.microsoft.com/fwlink/p/?linkid=83861)
+[System.Byte\[\]](http://msdn.microsoft.com/en-us/library/system.byte.aspx)
 </dt> </dl>
 
  

@@ -29,7 +29,7 @@ A string that represents an array of bytes. This syntax is used to store binary 
 | MAPI Type    | BINARY                                                            |
 | ADS Type     | ADSTYPE\_OCTET\_STRING                                            |
 | Variant Type | VT\_UI1 \| VT\_ARRAY                                              |
-| SDS Type     | [System.Byte\[\]](https://go.microsoft.com/fwlink/p/?linkid=83861) |
+| SDS Type     | [System.Byte\[\]](http://msdn.microsoft.com/en-us/library/system.byte.aspx) |
 
 
 
@@ -37,7 +37,7 @@ A string that represents an array of bytes. This syntax is used to store binary 
 
 <dl> <dt>
 
-[System.Byte\[\]](https://go.microsoft.com/fwlink/p/?linkid=83861)
+[System.Byte\[\]](http://msdn.microsoft.com/en-us/library/system.byte.aspx)
 </dt> </dl>
 
  

@@ -22,7 +22,7 @@ Windows PowerShell provides a simple mechanism to connect to Windows Management 
 
     The [Get-Credential](https://technet.microsoft.com/library/dd315327.aspx) cmdlet requests the user's credentials to connect to the remote computer and assigns the credentials to the $cred object.
 
-    The objects returned by the [Get-WmiObject](https://technet.microsoft.com/library/dd315295.aspx) cmdlet are assigned to the $bcs variable. In the preceding example, the [Get-WmiObject](https://technet.microsoft.com/library/dd315295.aspx) cmdlet retrieves the [BITSCompactServerUrlGroup](https://msdn.microsoft.com/library/dd904504.aspx) class in the root\\Microsoft\\BITS namespace of Server1. Static methods exposed by the [BITSCompactServerUrlGroup](https://msdn.microsoft.com/library/dd904504.aspx) class can be called on the $bcs object. For more information about BITS remote management, see [BITS provider](https://msdn.microsoft.com/library/dd904506.aspx) and [BITS provider classes]( https://go.microsoft.com/fwlink/p/?linkid=160847).
+    The objects returned by the [Get-WmiObject](https://technet.microsoft.com/library/dd315295.aspx) cmdlet are assigned to the $bcs variable. In the preceding example, the [Get-WmiObject](https://technet.microsoft.com/library/dd315295.aspx) cmdlet retrieves the [BITSCompactServerUrlGroup](https://msdn.microsoft.com/library/dd904504.aspx) class in the root\\Microsoft\\BITS namespace of Server1. Static methods exposed by the [BITSCompactServerUrlGroup](https://msdn.microsoft.com/library/dd904504.aspx) class can be called on the $bcs object. For more information about BITS remote management, see [BITS provider](https://msdn.microsoft.com/library/dd904506.aspx) and [BITS provider classes]( http://msdn.microsoft.com/en-us/library/dd904507.aspx).
 
     > [!Note]  
     > The grave-accent character (\`) is used to indicate a line break.
@@ -73,7 +73,7 @@ Windows PowerShell provides a simple mechanism to connect to Windows Management 
 [BITS provider](https://msdn.microsoft.com/library/dd904506.aspx)
 </dt> <dt>
 
-[BITS provider classes]( https://go.microsoft.com/fwlink/p/?linkid=160847)
+[BITS provider classes]( http://msdn.microsoft.com/en-us/library/dd904507.aspx)
 </dt> <dt>
 
 [Get-Credential](https://technet.microsoft.com/library/dd315327.aspx)
