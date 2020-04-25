@@ -14,6 +14,8 @@ If you wish to convert your desktop app to be compatible with the Universal Wind
 
 If you are developing and certifying a UWP app from the start, see [Guidance for Windows App Certification in UWP](https://docs.microsoft.com/windows/uwp/debug-test-perf/windows-app-certification-kit) for info on certification.
 
+**Note:** Certification for Win32 desktop apps is [deprecated](https://techcommunity.microsoft.com/t5/windows-hardware-certification/win32-logo-certification-deprecation/ba-p/364920).
+
 ## Step 1: Prepare for certification
 
 
