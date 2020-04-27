@@ -588,9 +588,9 @@
       href: dbghelp-structures.md
       items: 
       - name: "_IMAGE_RUNTIME_FUNCTION_ENTRY"
-        href: /windows/desktop/api/WinNT/ns-winnt-_image_runtime_function_entry
+        href: /windows/win32/api/winnt/ns-winnt-runtime_function
       - name: "ADDRESS64"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_tagaddress
+        href: /windows/desktop/api/DbgHelp/ns-dbghelp-address
       - name: "API_VERSION"
         href: /windows/desktop/api/DbgHelp/ns-dbghelp-api_version
       - name: "FPO_DATA"
@@ -716,9 +716,9 @@
       - name: "SRCCODEINFO"
         href: /windows/win32/api/DbgHelp/ns-dbghelp-srccodeinfo
       - name: "STACKFRAME64"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_tagstackframe
+        href: /windows/desktop/api/DbgHelp/ns-dbghelp-stackframe
       - name: "STACKFRAME_EX"
-        href: /windows/desktop/api/DbgHelp/ns-dbghelp-_tagstackframe_ex
+        href: /windows/desktop/api/DbgHelp/ns-dbghelp-stackframe_ex
       - name: "SYMBOL_INFO"
         href: /windows/win32/api/DbgHelp/ns-dbghelp-symbol_info
       - name: "SYMSRV_INDEX_INFO"
@@ -811,9 +811,9 @@
           - name: "IMAGE_LOAD_CONFIG_DIRECTORY64"
             href: /windows/win32/api/WinNT/ns-winnt-image_load_config_directory32
           - name: "IMAGE_NT_HEADERS"
-            href: /windows/desktop/api/WinNT/ns-winnt-_image_nt_headers
+            href: /windows/desktop/api/WinNT/ns-winnt-image_nt_headers32
           - name: "IMAGE_OPTIONAL_HEADER"
-            href: /windows/desktop/api/WinNT/ns-winnt-_image_optional_header
+            href: /windows/desktop/api/WinNT/ns-winnt-image_optional_header32
           - name: "IMAGE_SECTION_HEADER"
             href: /windows/win32/api/WinNT/ns-winnt-image_section_header
 - name: "Structured Exception Handling"

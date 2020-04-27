@@ -13,11 +13,11 @@
       href: cfgmgr32-h.md
       items: 
       - name: "BUSNUMBER_DES"
-        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_des_s
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_des
       - name: "BUSNUMBER_RANGE"
-        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range_s
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range
       - name: "BUSNUMBER_RESOURCE"
-        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource_s
+        href: /windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource
       - name: "CM_Add_Empty_Log_Conf"
         href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf
       - name: "CM_Add_Empty_Log_Conf_Ex"

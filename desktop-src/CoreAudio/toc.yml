@@ -974,7 +974,7 @@
       - name: "AUDIO_VOLUME_NOTIFICATION_DATA"
         href: /windows/desktop/api/Endpointvolume/ns-endpointvolume-audio_volume_notification_data
       - name: "AudioClientProperties"
-        href: /windows/desktop/api/Audioclient/ns-audioclient-audioclientproperties
+        href: /windows/desktop/api/Audioclient/ns-audioclient-audioclientproperties~r1
       - name: "AudioExtensionParams"
         href: /windows/win32/api/mmdeviceapi/ns-mmdeviceapi-audioextensionparams
       - name: "DIRECTX_AUDIO_ACTIVATION_PARAMS"
@@ -982,9 +982,9 @@
       - name: "KSJACK_DESCRIPTION"
         href: /windows/win32/api/Devicetopology/ns-devicetopology-ksjack_description
       - name: "KSJACK_DESCRIPTION2"
-        href: /windows/desktop/api/Devicetopology/ns-devicetopology-_tagksjack_description2
+        href: /windows/desktop/api/Devicetopology/ns-devicetopology-ksjack_description2
       - name: "KSJACK_SINK_INFORMATION"
-        href: /windows/desktop/api/Devicetopology/ns-devicetopology-_tagksjack_sink_information
+        href: /windows/desktop/api/Devicetopology/ns-devicetopology-ksjack_sink_information
       - name: "LUID"
         href: /windows/win32/api/Devicetopology/ns-devicetopology-luid
       - name: "SpatialAudioClientActivationParams"

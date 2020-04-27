@@ -172,7 +172,7 @@
       href: bluetooth-structures.md
       items: 
       - name: "BLUETOOTH_ADDRESS"
-        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_address
+        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_address_struct
       - name: "BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS"
         href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_authentication_callback_params
       - name: "BLUETOOTH_AUTHENTICATE_RESPONSE"
@@ -180,13 +180,13 @@
       - name: "BLUETOOTH_COD_PAIRS"
         href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_cod_pairs
       - name: "BLUETOOTH_DEVICE_INFO"
-        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_device_info
+        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_device_info_struct
       - name: "BLUETOOTH_DEVICE_SEARCH_PARAMS"
         href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_device_search_params
       - name: "BLUETOOTH_FIND_RADIO_PARAMS"
         href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_find_radio_params
       - name: "BLUETOOTH_LOCAL_SERVICE_INFO"
-        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-_bluetooth_local_service_info
+        href: /windows/desktop/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_local_service_info_struct
       - name: "BLUETOOTH_NUMERIC_COMPARISON_INFO"
         href: /windows/win32/api/BluetoothAPIs/ns-bluetoothapis-bluetooth_numeric_comparison_info
       - name: "BLUETOOTH_OOB_DATA_INFO"
