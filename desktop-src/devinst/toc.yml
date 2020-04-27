@@ -203,7 +203,7 @@
       - name: "CM_Open_Class_Key"
         href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_class_keyw
       - name: "CM_Open_Device_Interface_Key"
-        href: cm-open-device-interface-key.md
+        href: /windows/win32/api/cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keyw
       - name: "CM_Open_Device_Interface_Key_ExA"
         href: /windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keya
       - name: "CM_Open_Device_Interface_Key_ExW"
@@ -560,7 +560,7 @@
       - name: "SP_ADDPROPERTYPAGE_DATA"
         href: /windows/win32/api/setupapi/ns-setupapi-sp_newdevicewizard_data
       - name: "SP_ALTPLATFORM_INFO"
-        href: sp-altplatform-info.md
+        href: /windows/win32/api/setupapi/ns-setupapi-sp_altplatform_info_v2
       - name: "SP_CLASSIMAGELIST_DATA"
         href: /windows/win32/api/setupapi/ns-setupapi-sp_classimagelist_data
       - name: "SP_CLASSINSTALL_HEADER"
