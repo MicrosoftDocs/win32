@@ -1022,7 +1022,7 @@
         - name: "CSC_TransactionConfig"
           href: /windows/win32/api/ComSvcs/ne-comsvcs-csc_transactionconfig
         - name: "EOC_ChangeType"
-          href: eoc-changetype.md
+          href: /windows/desktop/api/Eventsys/ne-eventsys-eoc_changetype
         - name: "GetAppTrackerDataFlags"
           href: /windows/win32/api/ComSvcs/ne-comsvcs-getapptrackerdataflags
         - name: "TRACKING_COLL_TYPE"
@@ -1674,12 +1674,12 @@
           - name: "Remove Method"
             href: /windows/desktop/api/Eventsys/nf-eventsys-ieventobjectcollection-remove
         - name: "IEventProperty"
-          href: ieventproperty.md
+          href: /windows/desktop/api/Eventsys/nn-eventsys-ieventproperty
           items: 
           - name: "Name Property"
-            href: ieventproperty-name.md
+            href: /windows/desktop/api/Eventsys/nf-eventsys-ieventproperty-get_name
           - name: "Value Property"
-            href: ieventproperty-value.md
+            href: /windows/desktop/api/Eventsys/nf-eventsys-ieventproperty-get_value
         - name: "IEventSubscription"
           href: /windows/desktop/api/EventSys/nn-eventsys-ieventsubscription
           items: 
