@@ -149,6 +149,7 @@ For more information about these formats, see [10-bit and 16-bit YUV Video Forma
 | **MFVideoFormat\_WMV3**     | 'WMV3'         | Windows Media Video 9 codec.                                                                                                                                                                                                                                                                                |
 | **MFVideoFormat\_WVC1**     | 'WVC1'         | SMPTE 421M ("VC-1").                                                                                                                                                                                                                                                                                        |
 | **MFVideoFormat\_420O**     | '420O'         | 8-bit per channel planar YUV 4:2:0 video.                                                                                                                                                                                                                                                                   |
+| **MFVideoFormat\_AV1**     | 'AV01'         | AV1 video.                                                                                                                                                                                                                                                                                                |
 
 
 
