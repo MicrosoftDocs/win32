@@ -221,6 +221,8 @@
         href: dml-debug-layer.md
       - name: "Handling errors and device-removal"
         href: dml-errors.md
+      - name: "GPU acceleration in WSL"
+        href: dml-gpu-acceleration.md
       - name: "Helper functions"
         href: dml-helper-functions.md
       - name: "Sample applications"
