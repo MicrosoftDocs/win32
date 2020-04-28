@@ -21,7 +21,7 @@
       - name: "DFS_NAMESPACE_VERSION_ORIGIN"
         href: /windows/desktop/api/lmdfs/ne-lmdfs-dfs_namespace_version_origin
       - name: "DFS_TARGET_PRIORITY_CLASS"
-        href: /windows/desktop/api/lmdfs/ne-lmdfs-_dfs_target_priority_class
+        href: /windows/win32/api/lmdfs/ne-lmdfs-dfs_target_priority_class~r1
     - name: "Distributed File System Functions"
       href: distributed-file-system-functions.md
       items: 
@@ -73,7 +73,7 @@
       href: distributed-file-system-structures.md
       items: 
       - name: "DFS_GET_PKT_ENTRY_STATE_ARG"
-        href: /windows/desktop/api/lmdfs/ns-lmdfs-get_pkt_entry_state_arg
+        href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_get_pkt_entry_state_arg
       - name: "_DFS_INFO_1 structure"
         href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_1
       - name: "_DFS_INFO_2 structure"
@@ -125,4 +125,4 @@
       - name: "_DFS_TARGET_PRIORITY structure"
         href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_target_priority
       - name: "_DFS_TARGET_PRIORITY_CLASS enumeration"
-        href: /windows/desktop/api/lmdfs/ne-lmdfs-_dfs_target_priority_class
+        href: /windows/win32/api/lmdfs/ne-lmdfs-dfs_target_priority_class~r1

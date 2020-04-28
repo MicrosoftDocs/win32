@@ -192,13 +192,13 @@
           - name: "operator* method"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-operator-mult
           - name: "ReinterpretBaseType Method (const *D2D1_MATRIX_3X2_F)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-reinterpretbasetype
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-reinterpretbasetype(constd2d1_matrix_3x2_f)
           - name: "ReinterpretBaseType Method (*D2D1_MATRIX_3X2_F)"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-reinterpretbasetype(d2d1_matrix_3x2_f)
           - name: "Rotation method"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-rotation
           - name: "Scale Method (D2D1_SIZE_F,D2D1_POINT_2F)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale(d2d1_size_f_d2d1_point_2f)
           - name: "Scale Method (FLOAT,FLOAT,D2D1_POINT_2F)"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale(float_float_d2d1_point_2f)
           - name: "SetProduct method"
@@ -208,7 +208,7 @@
           - name: "TransformPoint method"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-transformpoint
           - name: "Translation Method (D2D1_SIZE_F)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-translation
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-translation(d2d1_size_f)
           - name: "Translation Method (FLOAT,FLOAT)"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-translation(float_float)
         - name: "Matrix4x3F"
@@ -222,7 +222,7 @@
           href: /windows/desktop/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f
           items: 
           - name: "operator* method"
-            href: /windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-operator
+            href: /windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-operator-mult
           - name: "ReinterpretBaseType method"
             href: /windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-reinterpretbasetype(d2d1_matrix_4x4_f)
           - name: "ReinterpretBaseType(const D2D1_MATRIX_4X4_F *pMatrix) method"
@@ -1131,7 +1131,7 @@
           - name: "CreateBitmapFromDxgiSurface method (IDXGISurface*, D2D1_BITMAP_PROPERTIES1*, ID2D1Bitmap1**)"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromdxgisurface(idxgisurface_constd2d1_bitmap_properties1__id2d1bitmap1)
           - name: "CreateBitmapFromDxgiSurface method (IDXGISurface*,  D2D1_BITMAP_PROPERTIES1, ID2D1Bitmap1**)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromdxgisurface
+            href: https://docs.microsoft.com/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromdxgisurface(idxgisurface_constd2d1_bitmap_properties1__id2d1bitmap1)
         - name: "CreateBitmapFromWicBitmap methods"
           href: id2d1devicecontext-createbitmapfromwicbitmap-overload.md
           items: 
@@ -1166,13 +1166,13 @@
           href: id2d1devicecontext-drawbitmap-overload.md
           items: 
           - name: "DrawBitmap method (ID2D1Bitmap*, D2D1_RECT_F*, FLOAT, D2D1_INTERPOLATION_MODE, D2D1_RECT_F*, D2D1_MATRIX_4X4_F*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawbitmap(id2d1bitmap_constd2d1_rect_f__float_d2d1_interpolation_mode_constd2d1_rect_f_constd2d1_matrix_4x4_f)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawbitmap(id2d1bitmap_constd2d1_rect_f_float_d2d1_interpolation_mode_constd2d1_rect_f_constd2d1_matrix_4x4_f)
           - name: "DrawBitmap method (ID2D1Bitmap*, D2D1_RECT_F&, FLOAT, D2D1_INTERPOLATION_MODE, D2D1_RECT_F*, D2D1_MATRIX_4X4_F*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawbitmap
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawbitmap(id2d1bitmap_constd2d1_rect_f__float_d2d1_interpolation_mode_constd2d1_rect_f_constd2d1_matrix_4x4_f)
           - name: "DrawBitmap method  (ID2D1Bitmap*, D2D1_RECT_F, FLOAT, D2D1_INTERPOLATION_MODE, D2D1_RECT_F, D2D1_MATRIX_4X4_F*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawbitmap
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawbitmap(id2d1bitmap_constd2d1_rect_f__float_d2d1_interpolation_mode_constd2d1_rect_f__constd2d1_matrix_4x4_f)
           - name: "DrawBitmap method (ID2D1Bitmap*, D2D1_RECT_F&, FLOAT, D2D1_INTERPOLATION_MODE, D2D1_RECT_F&, D2D1_MATRIX_4X4_F&)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawbitmap
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawbitmap(id2d1bitmap_constd2d1_rect_f__float_d2d1_interpolation_mode_constd2d1_rect_f__constd2d1_matrix_4x4_f_)
         - name: "DrawGdiMetafile methods"
           href: id2d1devicecontext-drawgdimetafile-overload.md
           items: 
@@ -1286,7 +1286,7 @@
           - name: "CreateInkStyle (D2D1_INK_STYLE_PROPERTIES&, ID2D1InkStyle **) method"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createinkstyle(constd2d1_ink_style_properties__id2d1inkstyle)
           - name: "CreateInkStyle (D2D1_INK_STYLE_PROPERTIES*, ID2D1InkStyle **) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createinkstyle
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createinkstyle(constd2d1_ink_style_properties_id2d1inkstyle)
         - name: "CreateLookupTable3D method"
           href: https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createlookuptable3d
         - name: "CreateTransformedImageSource"
@@ -1661,7 +1661,7 @@
           - name: "CombineWithGeometry Method (ID2D1Geometry*,D2D1_COMBINE_MODE,D2D1_MATRIX_3X2_F&,ID2D1SimplifiedGeometrySink*)"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-combinewithgeometry(id2d1geometry_d2d1_combine_mode_constd2d1_matrix_3x2_f__id2d1simplifiedgeometrysink)
           - name: "CombineWithGeometry Method (ID2D1Geometry*,D2D1_COMBINE_MODE,D2D1_MATRIX_3X2_F&,FLOAT,ID2D1SimplifiedGeometrySink*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-combinewithgeometry
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-combinewithgeometry(id2d1geometry_d2d1_combine_mode_constd2d1_matrix_3x2_f__float_id2d1simplifiedgeometrysink)
           - name: "CombineWithGeometry Method (ID2D1Geometry*,D2D1_COMBINE_MODE,D2D1_MATRIX_3X2_F*,ID2D1SimplifiedGeometrySink*)"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-combinewithgeometry(id2d1geometry_d2d1_combine_mode_constd2d1_matrix_3x2_f_id2d1simplifiedgeometrysink)
           - name: "CombineWithGeometry Method (ID2D1Geometry*,D2D1_COMBINE_MODE,D2D1_MATRIX_3X2_F*,FLOAT,ID2D1SimplifiedGeometrySink*)"
@@ -1705,11 +1705,11 @@
           - name: "ComputePointAtLength Method (FLOAT,D2D1_MATRIX_3X2_F&,D2D1_POINT_2F*,D2D1_POINT_2F*)"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-computepointatlength(float_constd2d1_matrix_3x2_f__d2d1_point_2f_d2d1_point_2f)
           - name: "ComputePointAtLength Method (FLOAT,D2D1_MATRIX_3X2_F&,FLOAT,D2D1_POINT_2F*,D2D1_POINT_2F*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-computepointatlength
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-computepointatlength(float_constd2d1_matrix_3x2_f__float_d2d1_point_2f_d2d1_point_2f)
           - name: "ComputePointAtLength Method (FLOAT,D2D1_MATRIX_3X2_F*,D2D1_POINT_2F*,D2D1_POINT_2F*)"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-computepointatlength(float_constd2d1_matrix_3x2_f_d2d1_point_2f_d2d1_point_2f)
           - name: "ComputePointAtLength Method (FLOAT,D2D1_MATRIX_3X2_F*,FLOAT,D2D1_POINT_2F*,D2D1_POINT_2F*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-computepointatlength(float_constd2d1_matrix_3x2_f_d2d1_point_2f_d2d1_point_2f)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-computepointatlength(float_constd2d1_matrix_3x2_f_float_d2d1_point_2f_d2d1_point_2f)
         - name: "FillContainsPoint Overloaded method"
           href: id2d1geometry-fillcontainspoint.md
           items: 
@@ -1754,46 +1754,46 @@
           href: id2d1geometry-strokecontainspoint.md
           items: 
           - name: "StrokeContainsPoint Method (D2D1_POINT_2F,FLOAT,ID2D1StrokeStyle*,D2D_MATRIX_3X2_F*,BOOL*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-strokecontainspoint(d2d1_point_2f_float_id2d1strokestyle_constd2d1_matrix_3x2_f__bool)
-          - name: "StrokeContainsPoint Method (D2D1_POINT_2F,FLOAT,ID2D1StrokeStyle*,D2D_MATRIX_3X2_F*,FLOAT,BOOL*)"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-strokecontainspoint(d2d1_point_2f_float_id2d1strokestyle_constd2d1_matrix_3x2_f_bool)
+          - name: "StrokeContainsPoint Method (D2D1_POINT_2F,FLOAT,ID2D1StrokeStyle*,D2D_MATRIX_3X2_F*,FLOAT,BOOL*)"
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-strokecontainspoint(d2d1_point_2f_float_id2d1strokestyle_constd2d1_matrix_3x2_f_float_bool)
           - name: "StrokeContainsPoint Method (D2D1_POINT_2F,FLOAT,ID2D1StrokeStyle*,D2D1_MATRIX_3X2_F&,BOOL*)"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-strokecontainspoint(d2d1_point_2f_float_id2d1strokestyle_constd2d1_matrix_3x2_f_bool)
           - name: "StrokeContainsPoint Method (D2D1_POINT_2F,FLOAT,ID2D1StrokeStyle*,D2D1_MATRIX_3X2_F&,FLOAT,BOOL*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-strokecontainspoint
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-strokecontainspoint(d2d1_point_2f_float_id2d1strokestyle_constd2d1_matrix_3x2_f__float_bool)
         - name: "Simplify Overloaded method"
           href: id2d1geometry-simplify.md
           items: 
           - name: "Simplify Method (D2D1_GEOMETRY_SIMPLIFICATION_OPTION,D2D1_MATRIX_3X2_F*,ID2D1SimplifiedGeometrySink*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-simplify(d2d1_geometry_simplification_option_constd2d1_matrix_3x2_f__id2d1simplifiedgeometrysink)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-simplify(d2d1_geometry_simplification_option_constd2d1_matrix_3x2_f_id2d1simplifiedgeometrysink)
           - name: "Simplify Method (D2D1_GEOMETRY_SIMPLIFICATION_OPTION,D2D1_MATRIX_3X2_F*,FLOAT,ID2D1SimplifiedGeometrySink*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-simplify(d2d1_geometry_simplification_option_constd2d1_matrix_3x2_f_id2d1simplifiedgeometrysink)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-simplify(d2d1_geometry_simplification_option_constd2d1_matrix_3x2_f_float_id2d1simplifiedgeometrysink)
           - name: "Simplify Method (D2D1_GEOMETRY_SIMPLIFICATION_OPTION,D2D1_MATRIX_3X2_F&,ID2D1SimplifiedGeometrySink*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-simplify(d2d1_geometry_simplification_option_constd2d1_matrix_3x2_f_id2d1simplifiedgeometrysink)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-simplify(d2d1_geometry_simplification_option_constd2d1_matrix_3x2_f__id2d1simplifiedgeometrysink)
           - name: "Simplify Method (D2D1_GEOMETRY_SIMPLIFICATION_OPTION,D2D1_MATRIX_3X2_F&,FLOAT,ID2D1SimplifiedGeometrySink*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-simplify
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-simplify(d2d1_geometry_simplification_option_constd2d1_matrix_3x2_f__float_id2d1simplifiedgeometrysink)
         - name: "Tessellate Overloaded method"
           href: id2d1geometry-tessellate.md
           items: 
           - name: "Tessellate Method (D2D1_MATRIX_3X2_F*,ID2D1TessellationSink*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-tessellate(constd2d1_matrix_3x2_f__id2d1tessellationsink)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-tessellate(constd2d1_matrix_3x2_f_id2d1tessellationsink)
           - name: "Tessellate Method (D2D1_MATRIX_3X2_F*,FLOAT,ID2D1TessellationSink*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-tessellate(constd2d1_matrix_3x2_f_id2d1tessellationsink)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-tessellate(constd2d1_matrix_3x2_f_float_id2d1tessellationsink)
           - name: "Tessellate Method (D2D1_MATRIX_3X2_F&,ID2D1TessellationSink*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-tessellate(constd2d1_matrix_3x2_f_id2d1tessellationsink)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-tessellate(constd2d1_matrix_3x2_f__id2d1tessellationsink)
           - name: "Tessellate Method (D2D1_MATRIX_3X2_F&,FLOAT,ID2D1TessellationSink*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-tessellate
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-tessellate(constd2d1_matrix_3x2_f__float_id2d1tessellationsink)
         - name: "Widen Overloaded method"
           href: id2d1geometry-widen.md
           items: 
           - name: "Widen Method (FLOAT,ID2D1StrokeStyle*,D2D1_MATRIX_3X2_F*,ID2D1SimplifiedGeometrySink*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-widen(float_id2d1strokestyle_constd2d1_matrix_3x2_f__id2d1simplifiedgeometrysink)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-widen(float_id2d1strokestyle_constd2d1_matrix_3x2_f_id2d1simplifiedgeometrysink)
           - name: "Widen Method (FLOAT,ID2D1StrokeStyle*,D2D1_MATRIX_3X2_F*,FLOAT,ID2D1SimplifiedGeometrySink*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-widen(float_id2d1strokestyle_constd2d1_matrix_3x2_f_id2d1simplifiedgeometrysink)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-widen(float_id2d1strokestyle_constd2d1_matrix_3x2_f_float_id2d1simplifiedgeometrysink)
           - name: "Widen Method (FLOAT,ID2D1StrokeStyle*,D2D1_MATRIX_3X2_F&,ID2D1SimplifiedGeometrySink*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-widen(float_id2d1strokestyle_constd2d1_matrix_3x2_f_id2d1simplifiedgeometrysink)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-widen(float_id2d1strokestyle_constd2d1_matrix_3x2_f__id2d1simplifiedgeometrysink)
           - name: "Widen Method (FLOAT,ID2D1StrokeStyle*,D2D1_MATRIX_3X2_F&,FLOAT,ID2D1SimplifiedGeometrySink*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-widen
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-widen(float_id2d1strokestyle_constd2d1_matrix_3x2_f__float_id2d1simplifiedgeometrysink)
       - name: "ID2D1GeometryGroup"
         href: https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrygroup
         items: 
