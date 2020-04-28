@@ -6,15 +6,16 @@ ms.date: 05/19/2020
 ---
 
 
-> [!NOTE]
-> The following features are available in prerelease versions of Windows 10, and are subject to change.
-
 # GPU acceleration in WSL
 
 ![Windows ML graphic](images/winml-graphic.png)
 
 
 Using DirectML, you can access your Windows GPU to accellerate machine learning workloads inside the Windows Subsystem for Linux environment. Here's how to get started.
+
+
+> [!NOTE]
+> The following features are available in prerelease versions of Windows 10, and are subject to change.
 
 ## Prerequisites 
 
@@ -24,10 +25,9 @@ Using DirectML, you can access your Windows GPU to accellerate machine learning 
 
 * Ensure you Windows 10 19614 or higher. Note that you can check your version number by running winver via the Run command 
 
-### Set up WSL 2 and install Ubuntu 18.04 (LTS) on your system by following [this guidance](https://docs.microsoft.com/windows/wsl/wsl2-install)
+### Set up WSL 2 and install Ubuntu 18.04 (LTS) on your system
 
-> [!NOTE]
-> These steps have been validated for Ubuntu 18.04 (LTS). They should work on any other glibc or musl based Linux distro, however.
+The WSL installation instructions [can be found here](https://docs.microsoft.com/windows/wsl/wsl2-install). Note that these steps have been validated for Ubuntu 18.04 (LTS). They should work on any other glibc or musl based Linux distro, however.
 
 ## Install the right GPU driver 
 
@@ -47,7 +47,7 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ./Miniconda3-latest-Linux-x86_64.sh
 ```
 
-Once Miniconda is installed, use the following command to create an environment using Python 3.6 named **dml**.
+Use the following command to create an environment using Python 3.6 named "dml".
 
 ```
 conda create --name dml python=3.6
@@ -63,6 +63,6 @@ Finally, install the right driver that supports the GPU hardware in your system.
 
 Now you can get started with the [TensorFlow tutorial models](https://github.com/tensorflow/docs/tree/master/site/en/r1), and start running machine learning training on your existing hardware! 
 
-Expose CUDA in WSL 
+### Expose CUDA in WSL 
 
 If you are interested in getting your exisiting CUDA workloads running inside WSL then the following will guide you through the additional steps to configure your WSL 2 environment. 
