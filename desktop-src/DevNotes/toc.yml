@@ -1626,7 +1626,7 @@
     - name: "WldpIsDynamicCodePolicyEnabled"
       href: wldpisdynamiccodepolicyenabled.md
     - name: "WlpdIsClassInApprovedList"
-      href: wlpdisclassinapprovedlist.md
+      href: wldpisclassinapprovedlist.md
     - name: "WlpdGetLockdownPolicy"
       href: wlpdgetlockdownpolicy.md
     - name: "WldpQueryDynamicCodeTrust"
