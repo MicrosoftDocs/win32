@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # User Naming Attributes
 
-User naming attributes identify user objects, such as logon names and IDs used for security purposes. The **cn**, **name**, and **distinguishedName** attributes are examples of user naming attributes. A user object is a security principle, so it also includes the following user naming attributes:
+User naming attributes identify user objects, such as logon names and IDs used for security purposes. The **cn**, **name**, and **distinguishedName** attributes are examples of user naming attributes. A user object is a security principal object, so it also includes the following user naming attributes:
 
 -   [userPrincipalName](#userprincipalname) — the logon name for the user
 -   [objectGUID](#objectguid) — the unique identifier of a user
