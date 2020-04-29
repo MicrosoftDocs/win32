@@ -6,7 +6,32 @@ ms.topic: language-reference
 targetos: Windows
 description: Contains process mitigation policy settings for Hardware-enforced Stack Protection (HSP).
 req.construct-type: structure
+req.ddi-compliance: 
+req.dll: 
 req.header: winnt.h
+req.include-header: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.typenames: PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY, *PPROCESS_MITIGATION_USER_SHADOW_STACK_POLICY
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - winnt.h
+api_name:
+ - _PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY
+ - PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY
+f1_keywords:
+ - winnt/_PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY
+ - winnt/PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY
 dev_langs:
  - c++
 ---
