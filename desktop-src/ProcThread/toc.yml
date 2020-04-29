@@ -871,5 +871,7 @@
         href: /windows/win32/api/WinBase/ns-winbase-ums_scheduler_startup_info
       - name: "UMS_SYSTEM_THREAD_INFORMATION"
         href: /windows/win32/api/WinBase/ns-winbase-ums_system_thread_information
+      - name: "GetProcessMitigationPolicy"
+        href: nf-processthreadsapi-getprocessmitigationpolicy.md
     - name: "Process Creation Flags"
       href: process-creation-flags.md

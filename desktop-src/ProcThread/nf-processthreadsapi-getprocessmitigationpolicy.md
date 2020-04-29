@@ -1,51 +1,9 @@
 ---
-UID: NF:processthreadsapi.GetProcessMitigationPolicy
 title: GetProcessMitigationPolicy function (processthreadsapi.h)
 description: Retrieves mitigation policy settings for the calling process.
-old-location: base\getprocessmitigationpolicy.htm
-tech.root: ProcThread
 ms.assetid: 89f9c883-6976-4af2-9a8b-c76101d8ed02
-ms.date: 12/05/2018
-ms.keywords: GetProcessMitigationPolicy, GetProcessMitigationPolicy function, ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSideChannelIsolationPolicy, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, ProcessUserShadowStackPolicy, base.getprocessmitigationpolicy, processthreadsapi/GetProcessMitigationPolicy
-f1_keywords:
-- processthreadsapi/GetProcessMitigationPolicy
-dev_langs:
-- c++
-req.header: processthreadsapi.h
-req.include-header: 
-req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- GetProcessMitigationPolicy
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: RS5, 19H1
+ms.topic: article
+ms.date: 4/28/2020
 ---
 
 # GetProcessMitigationPolicy function
