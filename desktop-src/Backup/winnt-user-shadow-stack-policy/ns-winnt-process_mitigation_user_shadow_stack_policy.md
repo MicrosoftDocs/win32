@@ -7,8 +7,8 @@ ms.date: 4/28/2020
 
 # PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY structure
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+>[!NOTE]
+>**Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
 
 Contains process mitigation policy settings for Hardware-enforced Stack Protection (HSP). The [GetProcessMitigationPolicy](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy) and [SetProcessMitigationPolicy](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy) functions use this structure.
 
