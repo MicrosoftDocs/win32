@@ -39,7 +39,7 @@ This example uses the header and implementation defined in [Example: Common Clas
     
 
 2.  Initialize COM parameters by calling the CCoInitializer function. For more information about the CCoInitializer function, see [Example: Common Classes](common-classes.md).
-3.  Prepare a [**BG\_AUTH\_CREDENTIALS**](/windows/desktop/api/Bits1_5/ns-bits1_5-bg_auth_credentials) structure. The example uses the [SecureZeroMemory]( https://go.microsoft.com/fwlink/p/?linkid=162389) function to clear the memory locations associated with the sensitive information. The [SecureZeroMemory]( https://go.microsoft.com/fwlink/p/?linkid=162389) function is defined in WinBase.h.
+3.  Prepare a [**BG\_AUTH\_CREDENTIALS**](/windows/desktop/api/Bits1_5/ns-bits1_5-bg_auth_credentials) structure. The example uses the [SecureZeroMemory]( http://msdn.microsoft.com/en-us/library/aa366877.aspx) function to clear the memory locations associated with the sensitive information. The [SecureZeroMemory]( http://msdn.microsoft.com/en-us/library/aa366877.aspx) function is defined in WinBase.h.
 4.  Use the GetScheme function to get the authentication scheme to use to connect to the server.
 
     ```C++
@@ -69,7 +69,7 @@ This example uses the header and implementation defined in [Example: Common Clas
 5.  Populate the [**BG\_AUTH\_CREDENTIALS**](/windows/desktop/api/Bits1_5/ns-bits1_5-bg_auth_credentials) structure with the authentication scheme returned by the GetScheme function and the user name and password that were passed into the ServerAuthentication function.
 6.  Get a pointer to the [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) interface (pJob).
 7.  Initialize COM process security by calling [CoInitializeSecurity](https://msdn.microsoft.com/library/ms693736.aspx). BITS requires at least the IMPERSONATE level of impersonation. BITS fails with E\_ACCESSDENIED if the correct impersonation level is not set.
-8.  Get a pointer to the [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager) interface, and obtain the initial locator to BITS by calling the [CoCreateInstance]( https://go.microsoft.com/fwlink/p/?linkid=162386) function.
+8.  Get a pointer to the [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager) interface, and obtain the initial locator to BITS by calling the [CoCreateInstance]( http://msdn.microsoft.com/en-us/library/ms686615.aspx) function.
 9.  Create a BITS transfer job by calling the [**IBackgroundCopyManager::CreateJob**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-createjob) method.
 10. Get a pointer to the CNotifyInterface callback interface and call the [**IBackgroundCopyJob::SetNotifyInterface**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setnotifyinterface) method to receive notification of job-related events. For more information about CNotifyInterface, see [Example: Common Classes](common-classes.md).
 11. Call the [**IBackgroundCopyJob::SetNotifyFlags**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setnotifyflags) method to set the types of notifications to receive. In this example, the **BG\_NOTIFY\_JOB\_TRANSFERRED** and **BG\_NOTIFY\_JOB\_ERROR** flags are set.

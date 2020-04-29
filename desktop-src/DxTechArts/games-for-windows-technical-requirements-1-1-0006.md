@@ -482,7 +482,7 @@ Visual Studio 2010 includes a setting in the project properties, named **Enable 
 
 On Windows, the traditional display mode defaults to 96 DPI, which was common for CRT monitors.
 
-While full-screen applications change the display resolution, they often use window messages and metrics when setting up buffers and display rectangles. DPI virtualization causes these full-screen display modes to appear cropped, and declaring DPI-aware will prevent these problems. For more information, see [Writing DPI-Aware Win32 Applications](https://go.microsoft.com/fwlink/p/?linkid=129586).
+While full-screen applications change the display resolution, they often use window messages and metrics when setting up buffers and display rectangles. DPI virtualization causes these full-screen display modes to appear cropped, and declaring DPI-aware will prevent these problems. For more information, see [Writing DPI-Aware Win32 Applications](http://download.microsoft.com/download/1/f/e/1fe476f5-2b7a-4af1-a0ed-768454a0b5b1/Writing DPI Aware Applications.pdf).
 
 </dd> </dl>
 

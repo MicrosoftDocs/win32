@@ -34,14 +34,14 @@ If you are developing and certifying a UWP app from the start, see [Guidance for
 | Topic                                                          | Description                                                                                                                                                                           |
 |----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Get the Kit](https://developer.microsoft.com/windows/downloads/app-certification-kit/) | To certify your app, you have to install and run the Windows App Certification Kit (included in the Windows SDK).                                                                     |
-| [Using the Kit](using-the-windows-app-certification-kit.md)   | Before you can submit your app, you must test it for readiness. You can also download a copy of the [app certification white paper](https://go.microsoft.com/fwlink/p/?LinkId=703908). |
+| [Using the Kit](using-the-windows-app-certification-kit.md)   | Before you can submit your app, you must test it for readiness. You can also download a copy of the [app certification white paper](https://www.microsoft.com/en-us/download/details.aspx?id=27414). |
 | [Review test details](windows-app-certification-kit-tests.md) | Get the list of the tests your app needs to pass to qualify for compatibility with the latest Windows operating system.                                                               |
 
 
 
  
 
-Note: Filter drivers must also pass the [Hardware Certification Kit](https://go.microsoft.com/fwlink/p/?LinkId=733613). (See [Certification requirements for Windows desktop apps, section 6.2](certification-requirements-for-windows-desktop-apps.md).)
+Note: Filter drivers must also pass the [Hardware Certification Kit](http://download.microsoft.com/download/1/8/B/18BC088A-537D-4386-9334-687747A602E6/hlk/hlksetup.exe). (See [Certification requirements for Windows desktop apps, section 6.2](certification-requirements-for-windows-desktop-apps.md).)
 
 ## Step 3: Use the Windows Certification Dashboard
 
@@ -79,7 +79,7 @@ To submit your app for certification, you'll need to log in or register a compan
 
 [Windows SDK blog](https://blogs.msdn.com/b/winsdk/archive/tags/certification/): Find tips and news related to app certification.
 
-[Windows Server forum]( https://go.microsoft.com/fwlink/p/?LinkId=703928): Visit the Certification forum to get answers.
+[Windows Server forum]( https://social.technet.microsoft.com/Forums/windowsserver/en-US/home?forum=WSAppCompat): Visit the Certification forum to get answers.
 
 [Compatibility cookbook](https://docs.microsoft.com/windows/desktop/w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal): Get info about what's new or changed in the latest version of Windows.
 

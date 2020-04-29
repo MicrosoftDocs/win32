@@ -78,13 +78,13 @@ The following table lists features that, if used incorrectly, can compromise the
 **Other Resources**
 </dt> <dt>
 
-[Microsoft Security]( https://go.microsoft.com/fwlink/p/?linkid=193968)
+[Microsoft Security]( http://www.microsoft.com/security/default.aspx)
 </dt> <dt>
 
 [Security](https://docs.microsoft.com/windows/desktop/security)
 </dt> <dt>
 
-[TechNet Security Resources]( https://go.microsoft.com/fwlink/p/?linkid=196444)
+[TechNet Security Resources]( http://www.microsoft.com/technet/security/Bulletin/MS10-059.mspx)
 </dt> <dt>
 
 [Best Practices for the Security APIs](https://docs.microsoft.com/windows/desktop/SecBP/best-practices-for-the-security-apis)

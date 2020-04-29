@@ -125,7 +125,7 @@ First, call [**GetVolumePathName**](/windows/desktop/api/FileAPI/nf-fileapi-getv
 [Dynamic Disks and Volumes Technical Reference](https://technet.microsoft.com/library/2c4910c6-1b83-40e5-810a-023993aa8b94)
 </dt> <dt>
 
-[Basic Storage Versus Dynamic Storage in Windows XP]( https://go.microsoft.com/fwlink/p/?linkid=158442)
+[Basic Storage Versus Dynamic Storage in Windows XP]( http://support.microsoft.com/kb/314343/)
 </dt> </dl>
 
  

@@ -87,7 +87,7 @@ $ColItems[0..47] | Format-List Name, Status
 -   The computer names in the array must be enclosed in quotation marks because they are strings.
 -   The objects returned by the [Get-WmiObject](https://technet.microsoft.com/library/dd315295.aspx) are assigned to the $ColItems variable.
 -   The range operator \[\] limited the list of Plug and Play devices to 48 instances. For more information, see [About\_Operators](https://technet.microsoft.com/library/dd347588.aspx).
--   The "\|" is the pipeline character. The object returned by ColItems is sent to the [Format-List]( https://go.microsoft.com/fwlink/p/?linkid=153477) cmdlet.
+-   The "\|" is the pipeline character. The object returned by ColItems is sent to the [Format-List]( http://technet.microsoft.com/en-us/library/dd347700.aspx) cmdlet.
 
 The following Windows PowerShell example enables you to connect to a remote computer on a different domain. This example also displays the process names for instances of [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) on the remote computer.
 
