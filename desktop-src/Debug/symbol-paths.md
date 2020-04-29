@@ -65,15 +65,15 @@ To see how this works, set this search path.
 
 The following is a listing of the symbol handler's verbose output while searching for ntdll.pdb, using the above listed search path.
 
-<dl> DBGHELP: .\\ntdll.pdb - file not found  
-DBGHELP: .\\dll\\ntdll.pdb - file not found  
-DBGHELP: .\\symbols\\dll\\ntdll.pdb - file not found  
-SYMSRV: c:\\myCache\\ntdll.pdb\\0F7FCF88442F4B0E9FB51DC4A754D9DE2\\ntdll.pdb not found  
-SYMSRV: ntdll.pdb from \\\\symbols\\symbols: 10497024 bytes - copied  
-DBGHELP: c:\\myCache\\ntdll.pdb\\0F7FCF88442F4B0E9FB51DC4A754D9DE2\\ntdll.pdb already cached  
-DBGHELP: ntdll - private symbols & lines  
-c:\\myCache\\ntdll.pdb\\0F7FCF88442F4B0E9FB51DC4A754D9DE2\\ntdll.pdb  
-</dl>
+<pre>DBGHELP: .\\ntdll.pdb - file not found
+DBGHELP: .\\dll\\ntdll.pdb - file not found
+DBGHELP: .\\symbols\\dll\\ntdll.pdb - file not found
+SYMSRV: c:\\myCache\\ntdll.pdb\\0F7FCF88442F4B0E9FB51DC4A754D9DE2\\ntdll.pdb not found
+SYMSRV: ntdll.pdb from \\\\symbols\\symbols: 10497024 bytes - copied
+DBGHELP: c:\\myCache\\ntdll.pdb\\0F7FCF88442F4B0E9FB51DC4A754D9DE2\\ntdll.pdb already cached
+DBGHELP: ntdll - private symbols & lines
+c:\\myCache\\ntdll.pdb\\0F7FCF88442F4B0E9FB51DC4A754D9DE2\\ntdll.pdb
+</pre>
 
 <dl> <dt>
 
