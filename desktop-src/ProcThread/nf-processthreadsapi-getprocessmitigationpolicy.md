@@ -1,7 +1,7 @@
 ---
-title: GetProcessMitigationPolicy function (processthreadsapi.h)
-description: Retrieves mitigation policy settings for the calling process.
-ms.assetid: 89f9c883-6976-4af2-9a8b-c76101d8ed02
+title: GetProcessMitigationPolicy function (processthreadsapi.h)
+description: Retrieves mitigation policy settings for the calling process.
+ms.assetid:  89f9c883-6976-4af2-9a8b-c76101d8ed02
 ms.topic: article
 ms.date: 4/28/2020
 ---
