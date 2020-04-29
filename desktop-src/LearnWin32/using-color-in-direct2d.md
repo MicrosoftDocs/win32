@@ -59,15 +59,14 @@ You can also specify a color using the [**D2D1::ColorF**](https://docs.microsoft
 
 Alpha blending creates translucent areas by blending the foreground color with the background color, using the following formula.
 
-<dl> color = af Cf + (1 af) Cb  
+<dl> color = af * Cf + (1 - af) * Cb  
 </dl>
 
-where *Cb* is the background color, *Cf* is the foreground color, and af is the alpha value of the foreground color. This formula is applied pairwise to each color component. For example, suppose the foreground color is (R = 1.0, G= 0.4, B = 0.0), with alpha = 0.6, and the background color is (R = 0.0, G = 0.5, B = 1.0). The resulting alpha-blended color is:
+where *Cb* is the background color, *Cf* is the foreground color, and *af* is the alpha value of the foreground color. This formula is applied pairwise to each color component. For example, suppose the foreground color is **(R = 1.0, G = 0.4, B = 0.0)**, with **alpha = 0.6**, and the background color is **(R = 0.0, G = 0.5, B = 1.0)**. The resulting alpha-blended color is:
 
-<dl> R = (1.0   0.6 + 0   0.4) = .6  
-G = (0.4   0.6 + 0.5   0.4) = .44  
-B = (0   0.6 + 1.0   0.4) = .40  
-</dl>
+R = (1.0 * 0.6 + 0 * 0.4) = .6   
+G = (0.4 * 0.6 + 0.5 * 0.4) = .44  
+B = (0 * 0.6 + 1.0 * 0.4) = .40  
 
 The following image shows the result of this blending operation.
 
