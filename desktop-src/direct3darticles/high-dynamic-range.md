@@ -224,11 +224,11 @@ If your app always renders SDR and HDR to separate surfaces and relies on OS com
 
 However, if your app performs its own composition of SDR and HDR content into a single surface, then you are responsible for performing the SDR reference white level adjustment yourself. Otherwise the SDR content may appear too dim assuming typical desktop viewing conditions. First, you must obtain the current SDR reference white level, and then you must adjust the color values of any SDR content you are rendering.
 
-### Obtain the Current SDR Reference White Level
+### Step 1: Obtain the Current SDR Reference White Level
 
 Currently, only UWP apps can obtain the current SDR reference white level via [AdvancedColorInfo.SdrWhiteLevelInNits](https://docs.microsoft.com/uwp/api/windows.graphics.display.advancedcolorinfo.sdrwhitelevelinnits). This API requires a [CoreWindow](https://docs.microsoft.com/uwp/api/Windows.UI.Core.CoreWindow).
 
-### Adjust Color Values of SDR Content
+### Step 2: Adjust Color Values of SDR Content
 
 Windows defines the nominal, or default, reference white level at 80 nits; therefore if you were to render a standard sRGB (1.0, 1.0, 1.0) white to an FP16 swap chain, it would be reproduced at 80 nits luminance. In order to match the actual user-defined reference white level, you must adjust SDR content from 80 nits to the level specified via AdvancedColorInfo.SdrWhiteLevelInNits.
 
@@ -242,6 +242,7 @@ auto acInfo; // AdvancedColorInfo
 float sdrAdjust = acInfo->SdrWhiteLevelInNits / D2D1_SCENE_REFERRED_SDR_WHITE_LEVEL;
 
 // Normally in DirectX, color values are manipulated in shaders on GPU textures.
+// This example performs scaling on a CPU color value.
 outputColor.r = inputColor.r * sdrAdjust; // Assumes linear gamma color values.
 outputColor.g = inputColor.g * sdrAdjust;
 outputColor.b = inputColor.b * sdrAdjust;
@@ -250,8 +251,212 @@ outputColor.a = inputColor.a;
 
 If you are rendering using a nonlinear gamma color space such as HDR10, then performing SDR white level adjustment is more complex; if you are writing your own pixel shader you should consider converting into linear gamma to apply the adjustment.
 
+## Adapt HDR Content to the Display's Capabilities using Tonemapping
+
+HDR and advanced color displays vary greatly in terms of their capabilities, for example the minimum and maximum luminance and the color gamut they are capable of reproducing. In many cases, your HDR content will contain colors that exceed the display's capabilities. For the best image quality it is important for you to perform HDR tonemapping, essentially compressing the range of colors to fit the display while best preserving the visual intent of the content.
+
+The most important single parameter to adapt for is max luminance, also known as MaxCLL (content light level); more sophisticated tonemappers will also adapt min luminance (MinCLL) and/or color primaries.
+
+### Step 1: Get the Display's Color Volume Capabilities
+
+#### Universal Windows Platform (UWP) apps
+
+Use [AdvancedColorInfo](https://docs.microsoft.com/uwp/api/windows.graphics.display.advancedcolorinfo) to get the display's color volume.
+
+#### Desktop (Win32) DirectX apps
+
+Use [DXGI_OUTPUT_DESC1](https://docs.microsoft.com/windows/desktop/api/DXGI1_6/ns-dxgi1_6-dxgi_output_desc1) to get the display's color volume.
+
+### Step 2: Get the Content's Color Volume Information
+
+Depending on where your HDR content came from, there are multiple potential ways to determine its luminance and color gamut information. Certain HDR video and image files contain SMPTE ST.2086 metadata. If your content was rendered dynamically, then you may be able to extract scene information from the internal rendering stages, for example the brightest light source in a scene.
+
+A more general but computationally expensive solution is to run a histogram or other analysis pass on the rendered frame. The [Direct2D advanced color images SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DAdvancedColorImages) demonstrates how to do this using Direct2D; the most relevant code snippets are included below:
+
+```C++
+// Perform histogram pipeline setup; this should occur as part of image resource creation.
+// Histogram results in no visual output but is used to calculate HDR metadata for the image.
+void D2DAdvancedColorImagesRenderer::CreateHistogramResources()
+{
+    auto context = m_deviceResources->GetD2DDeviceContext();
+
+    // We need to preprocess the image data before running the histogram.
+    // 1. Spatial downscale to reduce the amount of processing needed.
+    DX::ThrowIfFailed(
+        context->CreateEffect(CLSID_D2D1Scale, &m_histogramPrescale)
+        );
+
+    DX::ThrowIfFailed(
+        m_histogramPrescale->SetValue(D2D1_SCALE_PROP_SCALE, D2D1::Vector2F(0.5f, 0.5f))
+        );
+
+    // The right place to compute HDR metadata is after color management to the
+    // image's native colorspace but before any tonemapping or adjustments for the display.
+    m_histogramPrescale->SetInputEffect(0, m_colorManagementEffect.Get());
+
+    // 2. Convert scRGB data into luminance (nits).
+    // 3. Normalize color values. Histogram operates on [0-1] numeric range,
+    //    while FP16 can go up to 65504 (5+ million nits).
+    // Both steps are performed in the same color matrix.
+    ComPtr<ID2D1Effect> histogramMatrix;
+    DX::ThrowIfFailed(
+        context->CreateEffect(CLSID_D2D1ColorMatrix, &histogramMatrix)
+        );
+
+    histogramMatrix->SetInputEffect(0, m_histogramPrescale.Get());
+
+    float scale = sc_histMaxNits / sc_nominalRefWhite;
+
+    D2D1_MATRIX_5X4_F rgbtoYnorm = D2D1::Matrix5x4F(
+        0.2126f / scale, 0, 0, 0,
+        0.7152f / scale, 0, 0, 0,
+        0.0722f / scale, 0, 0, 0,
+        0              , 0, 0, 1,
+        0              , 0, 0, 0);
+    // 1st column: [R] output, contains normalized Y (CIEXYZ).
+    // 2nd column: [G] output, unused.
+    // 3rd column: [B] output, unused.
+    // 4th column: [A] output, alpha passthrough.
+    // We explicitly calculate Y; this deviates from the CEA 861.3 definition of MaxCLL
+    // which approximates luminance with max(R, G, B).
+
+    DX::ThrowIfFailed(histogramMatrix->SetValue(D2D1_COLORMATRIX_PROP_COLOR_MATRIX, rgbtoYnorm));
+
+    // 4. Apply a gamma to allocate more histogram bins to lower luminance levels.
+    ComPtr<ID2D1Effect> histogramGamma;
+    DX::ThrowIfFailed(
+        context->CreateEffect(CLSID_D2D1GammaTransfer, &histogramGamma)
+        );
+
+    histogramGamma->SetInputEffect(0, histogramMatrix.Get());
+
+    // Gamma function offers an acceptable tradeoff between simplicity and efficient bin allocation.
+    // A more sophisticated pipeline would use a more perceptually linear function than gamma.
+    DX::ThrowIfFailed(histogramGamma->SetValue(D2D1_GAMMATRANSFER_PROP_RED_EXPONENT, sc_histGamma));
+    // All other channels are passthrough.
+    DX::ThrowIfFailed(histogramGamma->SetValue(D2D1_GAMMATRANSFER_PROP_GREEN_DISABLE, TRUE));
+    DX::ThrowIfFailed(histogramGamma->SetValue(D2D1_GAMMATRANSFER_PROP_BLUE_DISABLE, TRUE));
+    DX::ThrowIfFailed(histogramGamma->SetValue(D2D1_GAMMATRANSFER_PROP_ALPHA_DISABLE, TRUE));
+
+    // 5. Finally, the histogram itself.
+    HRESULT hr = context->CreateEffect(CLSID_D2D1Histogram, &m_histogramEffect);
+    
+    if (hr == D2DERR_INSUFFICIENT_DEVICE_CAPABILITIES)
+    {
+        // The GPU doesn't support compute shaders and we can't run histogram on it.
+        m_isComputeSupported = false;
+    }
+    else
+    {
+        DX::ThrowIfFailed(hr);
+        m_isComputeSupported = true;
+
+        DX::ThrowIfFailed(m_histogramEffect->SetValue(D2D1_HISTOGRAM_PROP_NUM_BINS, sc_histNumBins));
+
+        m_histogramEffect->SetInputEffect(0, histogramGamma.Get());
+    }
+}
+
+// Uses a histogram to compute a modified version of MaxCLL (ST.2086 max content light level).
+// Performs Begin/EndDraw on the D2D context.
+void D2DAdvancedColorImagesRenderer::ComputeHdrMetadata()
+{
+    // Initialize with a sentinel value.
+    m_maxCLL = -1.0f;
+
+    // MaxCLL is not meaningful for SDR or WCG images.
+    if ((!m_isComputeSupported) ||
+        (m_imageInfo.imageKind != AdvancedColorKind::HighDynamicRange))
+    {
+        return;
+    }
+
+    // MaxCLL is nominally calculated for the single brightest pixel in a frame.
+    // But we take a slightly more conservative definition that takes the 99.99th percentile
+    // to account for extreme outliers in the image.
+    float maxCLLPercent = 0.9999f;
+
+    auto ctx = m_deviceResources->GetD2DDeviceContext();
+
+    ctx->BeginDraw();
+
+    ctx->DrawImage(m_histogramEffect.Get());
+
+    // We ignore D2DERR_RECREATE_TARGET here. This error indicates that the device
+    // is lost. It will be handled during the next call to Present.
+    HRESULT hr = ctx->EndDraw();
+    if (hr != D2DERR_RECREATE_TARGET)
+    {
+        DX::ThrowIfFailed(hr);
+    }
+
+    float *histogramData = new float[sc_histNumBins];
+    DX::ThrowIfFailed(
+        m_histogramEffect->GetValue(D2D1_HISTOGRAM_PROP_HISTOGRAM_OUTPUT,
+            reinterpret_cast<BYTE*>(histogramData),
+            sc_histNumBins * sizeof(float)
+            )
+        );
+
+    unsigned int maxCLLbin = 0;
+    float runningSum = 0.0f; // Cumulative sum of values in histogram is 1.0.
+    for (int i = sc_histNumBins - 1; i >= 0; i--)
+    {
+        runningSum += histogramData[i];
+        maxCLLbin = i;
+
+        if (runningSum >= 1.0f - maxCLLPercent)
+        {
+            break;
+        }
+    }
+
+    float binNorm = static_cast<float>(maxCLLbin) / static_cast<float>(sc_histNumBins);
+    m_maxCLL = powf(binNorm, 1 / sc_histGamma) * sc_histMaxNits;
+
+    // Some drivers have a bug where histogram will always return 0. Treat this as unknown.
+    m_maxCLL = (m_maxCLL == 0.0f) ? -1.0f : m_maxCLL;
+}
+```
+
+### Step 3: Perform the HDR Tonemapping Operation
+
+Tonemapping is inherently a lossy process and can be optimized for a number of perceptual or objective metrics, so there is no one standard algorithm. Windows provides a built-in [HDR tonemapper effect](https://docs.microsoft.com/windows/win32/direct2d/hdr-tone-map-effect) as part of Direct2D as well as in the Media Foundation HDR video playback pipeline. Some other commonly used algorithms include ACES Filmic, Reinhard, and ITU-R BT.2390-3 EETF (electrical-electrical transfer function).
+
+A simplified Reinhard tonemapper operator is shown below.
+
+```C++
+// Normally in DirectX, color values are manipulated in shaders on GPU textures.
+// This example performs scaling on a CPU color value.
+D2D1_VECTOR_4F simpleReinhardTonemapper(
+    float inputMax, // Content's maximum luminance in scRGB values, e.g. 1.0 = 80 nits.
+    float outputMax, // Display's maximum luminance in scRGB values, e.g. 1.0 = 80 nits.
+    D2D1_VECTOR_4F input // scRGB color.
+)
+{
+    D2D1_VECTOR_4F output = input;
+
+    // Vanilla Reinhard normalizes color values to [0, 1].
+    // This modification scales to the luminance range of the display.
+    output.r /= inputMax;
+    output.g /= inputMax;
+    output.b /= inputMax;
+
+    output.r = (output.r / 1 + output.r);
+    output.g = (output.g / 1 + output.g);
+    output.b = (output.b / 1 + output.b);
+
+    output.r *= outputMax;
+    output.g *= outputMax;
+    output.b *= outputMax;
+
+    return output;
+}
+```
+
 ## Additional Resources
 
+* [Using HDR Rendering with the DirectX Tool Kit](https://github.com/Microsoft/DirectXTK/wiki/Using-HDR-rendering): Walkthrough of how to add HDR support to a DirectX app using the DirectX Tool Kit (DirectXTK).
 * [Direct2D advanced color images SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DAdvancedColorImages): UWP SDK sample implementing an advanced color-aware HDR and WCG image viewer using Direct2D. Demonstrates the full range of best practices for UWP apps, including responding to display capability changes and adjusting for SDR white level.
 * [Direct3D 12 HDR desktop sample](https://github.com/microsoft/DirectX-Graphics-Samples/tree/master/Samples/Desktop/D3D12HDR): Desktop SDK sample implementing a basic Direct3D 12 HDR scene.
 * [Direct3D 12 HDR UWP sample](https://github.com/microsoft/DirectX-Graphics-Samples/tree/master/Samples/UWP/D3D12HDR): UWP equivalent of the above sample.
