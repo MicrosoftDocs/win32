@@ -336,7 +336,7 @@
       - name: "ELEMENT_TYPE"
         href: /windows/win32/api/WinIoCtl/ne-winioctl-element_type
       - name: "STORAGE_BUS_TYPE"
-        href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_bus_type
+        href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_bus_type
       - name: "STORAGE_MEDIA_TYPE"
         href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_media_type
 - name: "PWM API"

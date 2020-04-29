@@ -206,9 +206,9 @@
       - name: "OnItemCaptured Method"
         href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontroleventcallback-onitemcaptured
       - name: "OnItemDeleted Method"
-        href: https://docs.microsoft.com/windows/desktop/DevNotes/icamerauicontroleventcallback-onitemdeleted
+        href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontroleventcallback-onitemdeleted
       - name: "OnClosed Method"
-        href: https://docs.microsoft.com/windows/desktop/DevNotes/icamerauicontroleventcallback-onclosed
+        href: /windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontroleventcallback-onclosed
     - name: "SapCreateInstance Method"
       href: sapcreateinstance-method.md
   - name: "Cabinet API"
@@ -784,7 +784,7 @@
     - name: "GetServerForPMP"
       href: /windows/desktop/api/comppkgsup/nf-comppkgsup-getserverforpmp
     - name: "IMESTRUCT"
-      href: https://docs.microsoft.com/windows/desktop/api/ime/ns-ime-tagimestruct
+      href: /windows/desktop/api/Ime/ns-ime-imestruct
     - name: "InstantiateComponentFromPackage"
       href: /windows/desktop/api/comppkgsup/nf-comppkgsup-instantiatecomponentfrompackage
     - name: "IsMediaBehaviorEnabled"
@@ -834,7 +834,7 @@
     - name: "RtlUTF8ToUnicodeN"
       href: rtlutf8tounicoden.md
     - name: "SendIMEMessage"
-      href: -win32-sendimemessage.md
+      href: https://docs.microsoft.com/previous-versions/hh457667(v=vs.85)
     - name: "SendIMEMessageEx"
       href: /windows/desktop/api/Ime/nf-ime-sendimemessageexa
     - name: "STRING"
@@ -915,7 +915,7 @@
     - name: "VerifyCatalogFile"
       href: verifycatalogfile.md
   - name: "iSCSI Target Pass-Through"
-    href: iscsi-target-pass-through.md
+    href: https://docs.microsoft.com/powershell/module/iscsi
     items: 
     - name: "SENSE_DATA"
       href: sense-data.md
@@ -1198,7 +1198,7 @@
       href: /windows/desktop/api/isolatedapplauncher/nn-isolatedapplauncher-iisolatedapplauncher
       items: 
       - name: "IsProcessInIsolatedContainer method"
-        href: iisolatedapplauncher-isprocessinisolatedcontainer.md
+        href: /windows/desktop/api/isolatedapplauncher/nn-isolatedapplauncher-iisolatedapplauncher
     - name: "FveEnableRawAccessW"
       href: fveenablerawaccessw.md
     - name: "IPassportManager3 Add-ons"
@@ -1626,7 +1626,7 @@
     - name: "WldpIsDynamicCodePolicyEnabled"
       href: wldpisdynamiccodepolicyenabled.md
     - name: "WlpdIsClassInApprovedList"
-      href: wlpdisclassinapprovedlist.md
+      href: wldpisclassinapprovedlist.md
     - name: "WlpdGetLockdownPolicy"
       href: wlpdgetlockdownpolicy.md
     - name: "WldpQueryDynamicCodeTrust"
