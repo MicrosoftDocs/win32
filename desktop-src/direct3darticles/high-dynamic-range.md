@@ -97,7 +97,9 @@ Windows 10 provides control over HDR and advanced color capabilities to the user
 
 If you are writing a UWP app, regardless of the graphics rendering API you are using, use [AdvancedColorInfo](https://docs.microsoft.com/uwp/api/windows.graphics.display.advancedcolorinfo) to get display capabilities. Obtain an instance of AdvancedColorInfo from [DisplayInformation::GetAdvancedColorInfo](https://docs.microsoft.com/uwp/api/windows.graphics.display.displayinformation.getadvancedcolorinfo).
 
-To check what advanced color kind is currently active, use the [CurrentAdvancedColorKind](https://docs.microsoft.com/uwp/api/windows.graphics.display.advancedcolorinfo.currentadvancedcolorkind) property. In Windows 10 1903 this returns one of three possible values: SDR, WCG, or HDR. This is the most important property to check and you should configure your render and presentation pipeline in response to the active kind. To check what advanced color kinds are supported but not necessarily active, call [IsAdvancedColorKindAvailable](https://docs.microsoft.com/uwp/api/windows.graphics.display.advancedcolorinfo.isadvancedcolorkindavailable). You could use this information, for example, to prompt the user to navigate the Settings app so they can enable HDR or WCG.
+To check what advanced color kind is currently active, use the [CurrentAdvancedColorKind](https://docs.microsoft.com/uwp/api/windows.graphics.display.advancedcolorinfo.currentadvancedcolorkind) property. In Windows 10 1903 this returns one of three possible values: SDR, WCG, or HDR. This is the most important property to check and you should configure your render and presentation pipeline in response to the active kind.
+
+To check what advanced color kinds are supported but not necessarily active, call [IsAdvancedColorKindAvailable](https://docs.microsoft.com/uwp/api/windows.graphics.display.advancedcolorinfo.isadvancedcolorkindavailable). You could use this information, for example, to prompt the user to navigate the Settings app so they can enable HDR or WCG.
 
 The other members of AdvancedColorInfo provide quantitative information about the panel’s physical color volume (luminance and chrominance), corresponding to SMPTE ST.2086 static HDR metadata. You should use this information to configure your app's HDR tonemapping and gamut mapping.
 
@@ -191,7 +193,7 @@ Once you have determined that the display currently supports advanced color capa
 
 When creating your swap chain using the CreateSwapChainForHwnd/Composition/CoreWindow methods, you must use the DXGI flip model by selecting either the DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL or DXGI_SWAP_EFFECT_FLIP_DISCARD option, which makes your swap chain eligible for advanced color processing from DWM and various fullscreen optimizations. For more information, refer to the following topic: [For best performance, use DXGI flip model](../direct3ddxgi/for-best-performance--use-dxgi-flip-model.md).
 
-### Option 1: Use FP16 pixel format and scRGB color space
+### Option 1: Use FP16 Pixel Format and scRGB Color Space
 
 Windows 10 supports two main combinations of pixel format and color space for advanced color. Select one based on your app’s specific requirements.
 
@@ -199,15 +201,43 @@ For general purpose apps, we recommend specifying [DXGI_FORMAT_R16G16B16A16_FLOA
 
 This combination provides you with the numeric range and precision to specify almost any physically possible color and perform arbitrary processing including blending. In addition, if you are using Direct2D, Win2D or Windows.UI.Composition, this is the only supported combination for any swap chain or intermediate target that contains advanced color content. 
 
-The main tradeoff of this option is that it consumes 64 bits per pixel which doubles GPU bandwidth and memory consumption versus the traditional UINT8 SDR pixel formats.
+The main tradeoff of this option is that it consumes 64 bits per pixel which doubles GPU bandwidth and memory consumption versus the traditional UINT8 SDR pixel formats. In addition, scRGB uses numeric values that are outside the normalized [0, 1] range to represent colors that are outside the sRGB gamut and/or greater than 80 nits of luminance. For example, scRGB (1.0, 1.0, 1.0) encodes the standard D65 white at 80 nits; but scRGB (12.5, 12.5, 12.5) encodes the same D65 white at a much brighter 1000 nits. Some graphics operations require a normalized numeric range, and you must either modify the operation or re-normalize color values.
 
-### Option 2: Use UINT10/RGB10 pixel format and HDR10/BT.2100 color space
+### Option 2: Use UINT10/RGB10 Pixel Format and HDR10/BT.2100 Color Space
 
 For apps that consume HDR10-encoded content such as media players, or apps that are expected to mainly be used in fullscreen scenarios such as games, you should consider specifying [DXGI_FORMAT_R10G10B10A2_UNORM](https://docs.microsoft.com/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) in [DXGI_SWAP_CHAIN_DESC1](https://docs.microsoft.com/windows/win32/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1) when creating your swap chain. By default, this is treated as using the sRGB color space; therefore, you must explicitly call [IDXGISwapChain3::SetColorSpace1](https://docs.microsoft.com/windows/win32/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-setcolorspace1) and set [DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020](https://docs.microsoft.com/windows/win32/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) a.k.a. HDR10/BT.2100 as your color space.
 
-This combination has more stringent restrictions than FP16. You can only use this with Direct3D. In addition, UINT10/HDR10 is has limitations as an intermediate format because it uses the ST.2084 EOTF (“gamma” function) which is highly nonlinear and optimized as a wire format, and because it only offers 2 bits of alpha.
+This combination has more stringent restrictions than FP16. You can only use this with Direct3D 11 or Direct3D 12. In addition, UINT10/HDR10 has limitations as an intermediate format because it uses the ST.2084 EOTF (“gamma” function) which is highly nonlinear and optimized as a wire format, and because it only offers 2 bits of alpha.
 
 However, this combination can offer powerful performance optimizations when used in your app's final output. It consumes the same 32 bits per pixel as traditional UINT8 SDR pixel formats. In addition, in certain fullscreen scenarios the OS can optimize performance by directly scanning out the HDR10 surface.
+
+## Correctly Render SDR Content with SDR Reference White Level
+
+In many scenarios, your app will want to render both SDR and HDR content; for example rendering subtitles or transport controls over HDR video, or UI into a game scene. It is important to understand the concept of _SDR reference white level_ to ensure your SDR content looks correct on an HDR display.
+
+Windows treats HDR content as _scene-referred_, meaning that a particular color value should be displayed at a specific luminance level; for example, scRGB (1.0, 1.0, 1.0) and HDR10 (497, 497, 497) both encode exactly D65 white at 80 nits luminance. Meanwhile, SDR content traditionally has been _output-referred_ (or display-referred), meaning that its luminance is left up to the user or the device; for example sRGB (1.0, 1.0, 1.0) encodes D65 white as in the HDR examples, but at whatever maximum luminance the display is configured for. Windows allows the user to adjust the _SDR reference white level_ to their preference; this is the luminance that Windows will render sRGB (1.0, 1.0, 1.0) at. On desktop HDR monitors, SDR reference white levels are typically set to around 200 nits.
+
+> [!Note]
+> On displays that support brightness control, such as on laptops, Windows will adjust the luminance of HDR (scene-referred) content to fit the user's desired brightness level, but this is mostly invisible to the app.
+
+If your app always renders SDR and HDR to separate surfaces and relies on OS composition, then Windows will automatically perform the correct adjustment to boost SDR content to the desired white level. For example, if your app uses XAML and renders HDR content to its own SwapChainPanel.
+
+However, if your app performs its own composition of SDR and HDR content into a single surface, then you are responsible for performing the SDR reference white level adjustment yourself. Otherwise the SDR content may appear too dim assuming typical desktop viewing conditions. First, you must obtain the current SDR reference white level, and then you must adjust the color values of any SDR content you are rendering.
+
+### Obtain the Current SDR Reference White Level
+
+Currently, only UWP apps can obtain the current SDR reference white level via [AdvancedColorInfo.SdrWhiteLevelInNits](https://docs.microsoft.com/uwp/api/windows.graphics.display.advancedcolorinfo.sdrwhitelevelinnits). This API requires a [CoreWindow](https://docs.microsoft.com/uwp/api/Windows.UI.Core.CoreWindow).
+
+### Adjust Color Values of SDR Content
+
+Windows defines the nominal, or default, reference white level at 80 nits; therefore if you were to render a standard sRGB (1.0, 1.0, 1.0) white to an FP16 swap chain, it would be reproduced at 80 nits luminance. In order to match the actual user-defined reference white level, you must adjust SDR content from 80 nits to the level specified via AdvancedColorInfo.SdrWhiteLevelInNits.
+
+If you are rendering using FP16 and scRGB, or any color space that uses linear (1.0) gamma, then you can simply multiply the SDR color value by _AdvancedColorInfo.SdrWhiteLevelInNits_ / _80_.
+
+```
+float4 output;
+
+```
 
 ## Additional Resources
 
