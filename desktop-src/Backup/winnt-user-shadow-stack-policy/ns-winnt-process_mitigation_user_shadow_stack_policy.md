@@ -1,6 +1,8 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY
 title: PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY
+ms.date: 4/28/2020
+ms.topic: language-reference
 targetos: Windows
 description: Contains process mitigation policy settings for Hardware-enforced Stack Protection (HSP).
 req.construct-type: structure
