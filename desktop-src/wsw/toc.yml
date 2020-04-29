@@ -569,7 +569,7 @@
       - name: "WS_HTTP_HEADER_AUTH_TARGET"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_http_header_auth_target
       - name: "WS_HTTP_HEADER_MAPPING_OPTIONS"
-        href: https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_1
+        href: /windows/win32/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm
       - name: "WS_HTTP_PROXY_SETTING_MODE"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_http_proxy_setting_mode
       - name: "WS_HTTP_REQUEST_MAPPING_OPTIONS"
@@ -631,7 +631,7 @@
       - name: "WS_SECURITY_ALGORITHM_ID"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_security_algorithm_id
       - name: "WS_SECURITY_ALGORITHM_PROPERTY_ID"
-        href: /windows/desktop/api/WebServices/ne-webservices-__unnamed_enum_7
+        href: /windows/win32/api/webservices/ne-webservices-ws_security_algorithm_property_id
       - name: "WS_SECURITY_ALGORITHM_SUITE_NAME"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_security_algorithm_suite_name
       - name: "WS_SECURITY_BINDING_CONSTRAINT_TYPE"
@@ -701,7 +701,7 @@
       - name: "WS_WRITE_OPTION"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_write_option
       - name: "WS_XML_BUFFER_PROPERTY_ID"
-        href: /windows/desktop/api/WebServices/ne-webservices-__unnamed_enum_0
+        href: /windows/win32/api/webservices/ne-webservices-ws_xml_buffer_property_id
       - name: "WS_XML_CANONICALIZATION_ALGORITHM"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_xml_canonicalization_algorithm
       - name: "WS_XML_CANONICALIZATION_PROPERTY_ID"

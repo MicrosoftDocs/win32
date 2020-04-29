@@ -454,7 +454,7 @@
       - name: "XAUDIO2FX_VOLUMEMETER_LEVELS"
         href: /windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_volumemeter_levels
       - name: "XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS"
-        href: windows/win32/api/xapo/ns-xapo-xapo_lockforprocess_parameters
+        href: /windows/win32/api/xapo/ns-xapo-xapo_lockforprocess_parameters
       - name: "XAPO_PROCESS_BUFFER_PARAMETERS"
         href: /windows/desktop/api/xapo/ns-xapo-xapo_process_buffer_parameters
       - name: "XAPO_REGISTRATION_PROPERTIES"
