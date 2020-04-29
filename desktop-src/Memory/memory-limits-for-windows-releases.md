@@ -31,7 +31,7 @@ This topic describes the memory limits for supported Windows and Windows Server 
 
 Limits on memory and address space vary by platform, operating system, and by whether the **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** value of the [**LOADED\_IMAGE**](https://msdn.microsoft.com/library/ms680349(v=VS.85).aspx) structure and [4-gigabyte tuning](4-gigabyte-tuning.md) (4GT) are in use. **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** is set or cleared by using the [/LARGEADDRESSAWARE](https://msdn.microsoft.com/library/wz223b1z.aspx) linker option.
 
-4-gigabyte tuning (4GT), also known as application memory tuning, or the /3GB switch, is a technology (only applicable to 32 bit systems) that alters the amount of virtual address space available to user mode applications. Enabling this technology reduces the overall size of the system virtual address space and therefore system resource maximums. For more information, see [What is 4GT]( https://go.microsoft.com/FWLink/p/?LinkID=205633).
+4-gigabyte tuning (4GT), also known as application memory tuning, or the /3GB switch, is a technology (only applicable to 32 bit systems) that alters the amount of virtual address space available to user mode applications. Enabling this technology reduces the overall size of the system virtual address space and therefore system resource maximums. For more information, see [What is 4GT]( http://technet.microsoft.com/en-us/library/cc786709(WS.10).aspx).
 
 Limits on physical memory for 32-bit platforms also depend on the [Physical Address Extension](physical-address-extension.md) (PAE), which allows 32-bit Windows systems to use more than 4 GB of physical memory.
 

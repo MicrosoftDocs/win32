@@ -204,7 +204,7 @@ switch (msg)
 ```
 
 > [!Note]  
-> In order to use the [**ScreenToClient**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-screentoclient) function, you must have high DPI support in your application. For more information about supporting high DPI, visit the [High DPI]( https://go.microsoft.com/fwlink/p/?linkid=153387) section of MSDN.
+> In order to use the [**ScreenToClient**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-screentoclient) function, you must have high DPI support in your application. For more information about supporting high DPI, visit the [High DPI]( http://msdn.microsoft.com/library/dd464646.aspx) section of MSDN.
 
 ## Pass TOUCHINPUT Structures to the Appropriate Processor
 

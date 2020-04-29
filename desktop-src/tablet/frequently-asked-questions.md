@@ -26,7 +26,7 @@ Also, the [InkEdit](inkedit-control-reference.md) and [InkPicture](inkpicture-co
 
 ## Q. Do I need to run a special version of Windows to do handwriting recognition?
 
-A. No. While only Windows XP Tablet PC Edition and certain versions of Windows Vista include handwriting recognizers, you can download the [Windows XP Tablet PC Edition 2005 Recognizer Pack]( https://go.microsoft.com/fwlink/p/?linkid=180477) and install it on Windows XP Professional or Windows Server 2003 for development purposes only. You may not redistribute the recognizers with your application.
+A. No. While only Windows XP Tablet PC Edition and certain versions of Windows Vista include handwriting recognizers, you can download the [Windows XP Tablet PC Edition 2005 Recognizer Pack]( http://www.microsoft.com/downloads/details.aspx?FamilyId=080184DD-5E92-4464-B907-10762E9F918B&amp;displaylang=en) and install it on Windows XP Professional or Windows Server 2003 for development purposes only. You may not redistribute the recognizers with your application.
 
 ## Q. What is the difference between Windows Vista and Tablet PC Technology?
 

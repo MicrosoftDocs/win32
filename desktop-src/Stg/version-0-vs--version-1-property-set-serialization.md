@@ -12,7 +12,7 @@ There are two versions of the property set serialization format. The original sp
 
 The following items identify the differences between version 0 and version 1 property set serialization formats.
 
--   Support for new **VARTYPE** values. For more information about **VARTYPE** values and how to use them, see the topic [IDispatch Data Types and Structures]( https://go.microsoft.com/fwlink/p/?linkid=124543) and the [**PROPVARIANT**](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx) structure.
+-   Support for new **VARTYPE** values. For more information about **VARTYPE** values and how to use them, see the topic [IDispatch Data Types and Structures]( http://msdn.microsoft.com/en-us/library/ms221600.aspx) and the [**PROPVARIANT**](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx) structure.
 
     The following **VARTYPE** values are not supported in version 0 property sets, but are supported in version 1:
 

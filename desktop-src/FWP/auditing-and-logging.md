@@ -183,7 +183,7 @@ For example, to enable the auditing of Filtering Platform Policy Change events y
 [Event Log](https://technet.microsoft.com/library/8a2a4750-ea96-4131-8bd0-e581e74bc13f)
 </dt> <dt>
 
-[Group Policy](https://go.microsoft.com/fwlink/p/?LinkID=55469)
+[Group Policy](http://go.microsoft.com/fwlink/?LinkID=31191)
 </dt> </dl>
 
  

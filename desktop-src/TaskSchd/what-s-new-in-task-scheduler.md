@@ -85,8 +85,8 @@ The following Task Scheduler 2.0 changes are introduced in Windows 7:
             -   Triggers:
 
                 -   [Trigger execution time limit](https://msdn.microsoft.com/library/aa382681(VS.85).aspx)
-                -   [Repetition patterns for calendar triggers]( https://go.microsoft.com/fwlink/p/?linkid=168169)
-                -   [XPath query values for event triggers]( https://go.microsoft.com/fwlink/p/?linkid=168170)
+                -   [Repetition patterns for calendar triggers]( http://msdn.microsoft.com/en-us/library/aa383079(VS.85).aspx)
+                -   [XPath query values for event triggers]( http://msdn.microsoft.com/en-us/library/aa383289(VS.85).aspx)
                 -   [Monthly](https://msdn.microsoft.com/library/aa383091(VS.85).aspx) and [Monthly day-of-week](https://msdn.microsoft.com/library/aa383090(VS.85).aspx) trigger types
 
 ## Windows Vista
