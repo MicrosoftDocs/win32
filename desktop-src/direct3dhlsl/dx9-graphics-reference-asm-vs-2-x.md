@@ -55,7 +55,7 @@ The range of values for dynamic flow control depth is 0 to 24 and is equal to th
 
 ### Predication
 
-If [D3DVS20CAPS](https://docs.microsoft.com/windows/desktop/direct3d9/d3dvs20caps) is set, the device supports [setp\_comp - vs](setp-comp---vs.md) and instruction predication. If D3DVS20CAPS is also greater then 0, then the following additional dynamic flow control instructions are supported:
+If [D3DVS20CAPS](https://docs.microsoft.com/windows/desktop/direct3d9/d3dvs20caps) is set, the device supports [setp\_comp - vs](setp-comp---vs.md) and instruction predication. If D3DVS20CAPS is also greater than 0, then the following additional dynamic flow control instructions are supported:
 
 -   [if pred - vs](if-pred---vs.md)
 -   [callnz pred - vs](callnz-pred---vs.md)
