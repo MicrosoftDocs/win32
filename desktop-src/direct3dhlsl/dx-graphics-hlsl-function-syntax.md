@@ -79,7 +79,7 @@ The return type can be any one of these [HLSL types](dx-graphics-hlsl-data-types
 
 The syntax on this page describes almost every type of HLSL function, this includes vertex shaders, pixel shaders, and helper functions. While a geometry shader is also implemented with a function, its syntax is a little more complicated, so there is a separate page that defines a geometry shader function declaration (see [Geometry-Shader Object (DirectX HLSL)](dx-graphics-hlsl-geometry-shader.md)).
 
-A function can be overloaded as long as it is given a unique combination of name, return value, parameter types, or parameter order. HLSL also implements a number of built in, or [**intrinsic functions**](dx-graphics-hlsl-intrinsic-functions.md).
+A function can be overloaded as long as it is given a unique combination of parameter types and/or parameter order. HLSL also implements a number of built in, or [**intrinsic functions**](dx-graphics-hlsl-intrinsic-functions.md).
 
 You can specify user-specific clip planes with the **clipplanes** attribute. Windows applies these clip planes to all of the primitives drawn. The **clipplanes** attribute works like [SV\_ClipDistance](dx-graphics-hlsl-semantics.md) but works on all hardware [feature level](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9\_x and higher. For more info, see [User clip planes on feature level 9 hardware](https://docs.microsoft.com/windows/desktop/direct3dhlsl/user-clip-planes-on-10level9).
 
