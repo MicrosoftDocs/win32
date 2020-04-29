@@ -5,7 +5,7 @@ ms.topic: article
 ms.date: 4/28/2020
 ---
 
-# PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY structure
+# PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY structure
 
 > [!NOTE]
 > **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
@@ -50,6 +50,9 @@ This member is reserved for system use.
 ## See Also
 
 [CETCOMPAT](/cpp/build/reference/cetcompat)
+
 [GetProcessMitigationPolicy](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy)
+
 [SetProcessMitigationPolicy](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy)
+
 [winnt.h header](/windows/win32/api/winnt/)
