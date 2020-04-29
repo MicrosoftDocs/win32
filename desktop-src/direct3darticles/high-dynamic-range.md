@@ -232,19 +232,30 @@ Currently, only UWP apps can obtain the current SDR reference white level via [A
 
 Windows defines the nominal, or default, reference white level at 80 nits; therefore if you were to render a standard sRGB (1.0, 1.0, 1.0) white to an FP16 swap chain, it would be reproduced at 80 nits luminance. In order to match the actual user-defined reference white level, you must adjust SDR content from 80 nits to the level specified via AdvancedColorInfo.SdrWhiteLevelInNits.
 
-If you are rendering using FP16 and scRGB, or any color space that uses linear (1.0) gamma, then you can simply multiply the SDR color value by _AdvancedColorInfo.SdrWhiteLevelInNits_ / _80_.
+If you are rendering using FP16 and scRGB, or any color space that uses linear (1.0) gamma, then you can simply multiply the SDR color value by _AdvancedColorInfo.SdrWhiteLevelInNits_ / _80_. If you are using Direct2D, there is a predefined constant [D2D1_SCENE_REFERRED_SDR_WHITE_LEVEL](https://docs.microsoft.com/windows/win32/direct2d/direct2d-constants#d2d1_scene_referred_sdr_white_level-800f) which equals 80.
 
-```
-float4 output;
+```C++
+D2D1_VECTOR_4F inputColor; // Input SDR color value.
+D2D1_VECTOR_4F outputColor; // Output color adjusted for SDR white level.
+auto acInfo; // AdvancedColorInfo
 
+float sdrAdjust = acInfo->SdrWhiteLevelInNits / D2D1_SCENE_REFERRED_SDR_WHITE_LEVEL;
+
+// Normally in DirectX, color values are manipulated in shaders on GPU textures.
+outputColor.r = inputColor.r * sdrAdjust; // Assumes linear gamma color values.
+outputColor.g = inputColor.g * sdrAdjust;
+outputColor.b = inputColor.b * sdrAdjust;
+outputColor.a = inputColor.a;
 ```
+
+If you are rendering using a nonlinear gamma color space such as HDR10, then performing SDR white level adjustment is more complex; if you are writing your own pixel shader you should consider converting into linear gamma to apply the adjustment.
 
 ## Additional Resources
 
-* [Direct2D advanced color images SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DAdvancedColorImages): UWP SDK sample implementing an advanced color-aware HDR and WCG image viewer using Direct2D.
-* [Direct3D 12 HDR desktop sample](https://github.com/microsoft/DirectX-Graphics-Samples/tree/master/Samples/Desktop/D3D12HDR): Desktop SDK sample implementing a basic Direct3D 12 HDR scene
-* [Direct3D 12 HDR UWP sample](https://github.com/microsoft/DirectX-Graphics-Samples/tree/master/Samples/UWP/D3D12HDR): UWP equivalent of the above sample
-* [Xbox ATG SimpleHDR PC sample](https://github.com/microsoft/Xbox-ATG-Samples/tree/master/PCSamples/Graphics/SimpleHDR_PC): Desktop SDK sample implementing a basic Direct3D 11 HDR scene
+* [Direct2D advanced color images SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DAdvancedColorImages): UWP SDK sample implementing an advanced color-aware HDR and WCG image viewer using Direct2D. Demonstrates the full range of best practices for UWP apps, including responding to display capability changes and adjusting for SDR white level.
+* [Direct3D 12 HDR desktop sample](https://github.com/microsoft/DirectX-Graphics-Samples/tree/master/Samples/Desktop/D3D12HDR): Desktop SDK sample implementing a basic Direct3D 12 HDR scene.
+* [Direct3D 12 HDR UWP sample](https://github.com/microsoft/DirectX-Graphics-Samples/tree/master/Samples/UWP/D3D12HDR): UWP equivalent of the above sample.
+* [Xbox ATG SimpleHDR PC sample](https://github.com/microsoft/Xbox-ATG-Samples/tree/master/PCSamples/Graphics/SimpleHDR_PC): Desktop SDK sample implementing a basic Direct3D 11 HDR scene.
 
 ## Conclusion
 
