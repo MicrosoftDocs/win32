@@ -1,15 +1,15 @@
 ---
-title: GetProcessMitigationPolicy function (processthreadsapi.h)
+title: GetProcessMitigationPolicy function
 description: Retrieves mitigation policy settings for the calling process.
-ms.assetid:  89f9c883-6976-4af2-9a8b-c76101d8ed02
+ms.assetid: 89f9c883-6976-4af2-9a8b-c76101d8ed02
 ms.topic: article
-ms.date: 4/28/2020
+ms.date: 04/28/2020
 ---
 
 # GetProcessMitigationPolicy function
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+>[!NOTE]
+>**Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
 
 Retrieves mitigation policy settings for the calling process.
 
@@ -90,3 +90,7 @@ To compile an application that uses this function, set _WIN32_WINNT &g
 |**Header** | processthreadsapi.h |
 |**Library**| Kernel32.lib |
 |**DLL** | Kernel32.dll |
+
+
+
+
