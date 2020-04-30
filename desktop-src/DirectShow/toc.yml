@@ -4218,7 +4218,7 @@
       - name: "vmrvideostreaminfo"
         href: /windows/win32/api/strmif/ns-strmif-vmrvideostreaminfo
       - name: "waveformatex"
-        href: waveformatex.md
+        href: https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)
       - name: "waveformatextensible"
         href: /windows/desktop/api/mmreg/ns-mmreg-waveformatextensible
     - name: "directshow enumerated types"

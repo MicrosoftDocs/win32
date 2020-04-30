@@ -918,14 +918,14 @@
         href: https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontranslatetransform3d
         items: 
         - name: "SetOffsetX methods"
-          href: idcompositionvisual3-setoffsetx-overloaded.md
+          href: idcompositionvisual-setoffsetx-overloaded.md
           items: 
           - name: "SetOffsetX(float) method"
             href: https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsetx(float)
           - name: "SetOffsetX(IDCompositionAnimation) method"
             href: https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsetx(idcompositionanimation)
         - name: "SetOffsetY methods"
-          href: idcompositionvisual3-setoffsety-overloaded.md
+          href: idcompositionvisual-setoffsety-overloaded.md
           items: 
           - name: "SetOffsetY(float) method"
             href: https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsety(idcompositionanimation)
