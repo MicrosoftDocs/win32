@@ -1194,7 +1194,7 @@
           - name: "D3D11_RLDO_FLAGS"
             href: /windows/desktop/api/D3D11SDKLayers/ne-d3d11sdklayers-d3d11_rldo_flags
           - name: "D3D11_SHADER_TRACKING_OPTIONS"
-            href: /windows/desktop/api/D3D11SDKLayers/ne-d3d11sdklayers-d3d11_shader_tracking_option
+            href: /windows/desktop/api/D3D11SDKLayers/ne-d3d11sdklayers-d3d11_shader_tracking_options
           - name: "D3D11_SHADER_TRACKING_RESOURCE_TYPE"
             href: /windows/desktop/api/D3D11SDKLayers/ne-d3d11sdklayers-d3d11_shader_tracking_resource_type
       - name: "Resource Reference"

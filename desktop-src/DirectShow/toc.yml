@@ -3996,15 +3996,15 @@
       href: directshow-structures.md
       items: 
       - name: "allocator_properties"
-        href: /windows/desktop/api/strmif/ns-strmif-_allocatorproperties
+        href: /windows/desktop/api/strmif/ns-strmif-allocator_properties
       - name: "am_dvd_renderstatus"
         href: /windows/win32/api/strmif/ns-strmif-am_dvd_renderstatus
       - name: "am_media_type"
-        href: /windows/desktop/api/strmif/ns-strmif-_ammediatype
+        href: /windows/desktop/api/strmif/ns-strmif-am_media_type
       - name: "am_mpegstreamtype"
-        href: /windows/win32/api/mpegtype/ns-mpegtype-am_mpegstreamtype
+        href: /previous-versions/windows/desktop/api/mpegtype/ns-mpegtype-am_mpegsystemtype
       - name: "am_mpegsystemtype"
-        href: /windows/win32/api/mpegtype/ns-mpegtype-am_mpegsystemtype
+        href: /previous-versions/windows/desktop/api/mpegtype/ns-mpegtype-am_mpegsystemtype
       - name: "am_sample2_properties"
         href: /windows/win32/api/strmif/ns-strmif-am_sample2_properties
       - name: "am_stream_info"
@@ -4012,7 +4012,7 @@
       - name: "am_wmt_event_data"
         href: /previous-versions/windows/desktop/api/evcode/ns-evcode-am_wmt_event_data
       - name: "am_wst_page"
-        href: /windows/win32/api/iwstdec/ns-iwstdec-am_wst_page
+        href: /previous-versions/windows/desktop/api/iwstdec/ns-iwstdec-am_wst_page
       - name: "amcoppcommand"
         href: /windows/win32/api/strmif/ns-strmif-amcoppcommand
       - name: "amcoppsignature"
@@ -4028,45 +4028,45 @@
       - name: "amoviesetup_pin"
         href: amoviesetup-pin.md
       - name: "amvabeginframeinfo"
-        href: /previous-versions/windows/desktop/api/amva/ns-amva-_tag_amvabeginframeinfo
+        href: /previous-versions/windows/desktop/api/amva/ns-amva-amvabeginframeinfo
       - name: "amvabufferinfo"
-        href: /previous-versions/windows/desktop/api/amva/ns-amva-_tag_amvabufferinfo
+        href: /previous-versions/windows/desktop/api/amva/ns-amva-amvabufferinfo
       - name: "amvacompbufferinfo"
-        href: /previous-versions/windows/desktop/api/amva/ns-amva-_tag_amvacompbufferinfo
+        href: /previous-versions/windows/desktop/api/amva/ns-amva-amvacompbufferinfo
       - name: "amvaendframeinfo"
-        href: /previous-versions/windows/desktop/api/amva/ns-amva-_tag_amvaendframeinfo
+        href: /previous-versions/windows/desktop/api/amva/ns-amva-amvaendframeinfo
       - name: "amvainternalmeminfo"
-        href: /previous-versions/windows/desktop/api/amva/ns-amva-_tag_amvainternalmeminfo
+        href: /previous-versions/windows/desktop/api/amva/ns-amva-amvainternalmeminfo
       - name: "amvauncompbufferinfo"
-        href: /previous-versions/windows/desktop/api/amva/ns-amva-_tag_amvauncompbufferinfo
+        href: /previous-versions/windows/desktop/api/amva/ns-amva-amvauncompbufferinfo
       - name: "amvauncompdatainfo"
-        href: /previous-versions/windows/desktop/api/amva/ns-amva-_tag_amvauncompdatainfo
+        href: /previous-versions/windows/desktop/api/amva/ns-amva-amvauncompdatainfo
       - name: "amvpdatainfo"
-        href: /windows/win32/api/vptype/ns-vptype-amvpdatainfo
+        href: /previous-versions/windows/desktop/api/vptype/ns-vptype-amvpdatainfo
       - name: "amvpdiminfo"
-        href: /previous-versions/windows/desktop/api/vptype/ns-vptype-_amvpdiminfo
+        href: /previous-versions/windows/desktop/api/vptype/ns-vptype-amvpdiminfo
       - name: "amvpsize"
-        href: /windows/win32/api/vptype/ns-vptype-amvpsize
+        href: /previous-versions/windows/desktop/api/vptype/ns-vptype-amvpsize
       - name: "analogvideoinfo"
-        href: /windows/win32/api/amvideo/ns-amvideo-analogvideoinfo
+        href: /previous-versions/windows/desktop/api/amvideo/ns-amvideo-analogvideoinfo
       - name: "audio_stream_config_caps"
         href: /windows/win32/api/strmif/ns-strmif-audio_stream_config_caps
       - name: "avimainheader"
-        href: /previous-versions/windows/desktop/api/aviriff/ns-aviriff-_avimainheader
+        href: /previous-versions/windows/desktop/api/aviriff/ns-aviriff-avimainheader
       - name: "avimetaindex"
-        href: /previous-versions/windows/desktop/api/aviriff/ns-aviriff-_avimetaindex
+        href: /previous-versions/windows/desktop/api/aviriff/ns-aviriff-avimetaindex
       - name: "avioldindex"
-        href: /previous-versions/windows/desktop/api/aviriff/ns-aviriff-_avioldindex
+        href: /previous-versions/windows/desktop/api/aviriff/ns-aviriff-avioldindex
       - name: "avipalchange"
         href: /previous-versions/windows/desktop/api/avifmt/ns-avifmt-avipalchange
       - name: "avistdindex"
-        href: /previous-versions/windows/desktop/api/aviriff/ns-aviriff-_avistdindex
+        href: /previous-versions/windows/desktop/api/aviriff/ns-aviriff-avistdindex
       - name: "avistdindex_entry"
-        href: /previous-versions/windows/desktop/api/aviriff/ns-aviriff-_avistdindex_entry
+        href: /previous-versions/windows/desktop/api/aviriff/ns-aviriff-avistdindex_entry
       - name: "avistreamheader"
         href: /previous-versions/windows/desktop/api/avifmt/ns-avifmt-avistreamheader
       - name: "avisuperindex"
-        href: /previous-versions/windows/desktop/api/aviriff/ns-aviriff-_avisuperindex
+        href: /previous-versions/windows/desktop/api/aviriff/ns-aviriff-avisuperindex
       - name: "bitmapinfoheader"
         href: /windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader
       - name: "codecapieventdata"
@@ -4118,7 +4118,7 @@
       - name: "dxva_coppstatussignalingcmddata"
         href: /windows/win32/api/dxva9typ/ns-dxva9typ-dxva_coppstatussignalingcmddata
       - name: "filter_info"
-        href: /windows/desktop/api/strmif/ns-strmif-_filterinfo
+        href: /windows/win32/api/strmif/ns-strmif-filter_info
       - name: "heaacwaveformat"
         href: /windows/win32/api/mmreg/ns-mmreg-heaacwaveformat
       - name: "heaacwaveinfo"
@@ -4128,13 +4128,13 @@
       - name: "kstopology_connection"
         href: kstopology-connection.md
       - name: "mpeg1videoinfo"
-        href: /windows/win32/api/amvideo/ns-amvideo-mpeg1videoinfo
+        href: /previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo
       - name: "mpeg1waveformat"
         href: /windows/win32/api/mmreg/ns-mmreg-mpeg1waveformat
       - name: "mpeg2_transport_stride"
         href: mpeg2-transport-stride.md
       - name: "mpeg2videoinfo"
-        href: /windows/win32/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo
+        href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo
       - name: "mpeglayer3waveformat"
         href: /windows/win32/api/mmreg/ns-mmreg-mpeglayer3waveformat
       - name: "normalizedrect"
@@ -4148,7 +4148,7 @@
       - name: "pid_map"
         href: pid-map.md
       - name: "pin_info"
-        href: /windows/desktop/api/strmif/ns-strmif-_pininfo
+        href: /windows/desktop/api/strmif/ns-strmif-pin_info
       - name: "quality"
         href: /windows/win32/api/strmif/ns-strmif-quality
       - name: "regfilter2"
@@ -4166,39 +4166,39 @@
       - name: "timecode"
         href: /windows/win32/api/strmif/ns-strmif-timecode
       - name: "timecode_sample"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample
+        href: /windows/win32/api/strmif/ns-strmif-timecode_sample
       - name: "truecolorinfo"
-        href: /previous-versions/windows/desktop/api/amvideo/ns-amvideo-tag_truecolorinfo
+        href: /previous-versions/windows/desktop/api/amvideo/ns-amvideo-truecolorinfo
       - name: "video_stream_config_caps"
         href: /windows/win32/api/strmif/ns-strmif-video_stream_config_caps
       - name: "videoinfo"
-        href: /windows/win32/api/amvideo/ns-amvideo-videoinfo
+        href: /previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo
       - name: "videoinfoheader"
-        href: /windows/win32/api/amvideo/ns-amvideo-videoinfoheader
+        href: /previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader
       - name: "videoinfoheader2"
-        href: /windows/win32/api/dvdmedia/ns-dvdmedia-videoinfoheader2
+        href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2
       - name: "vmr9allocationinfo"
-        href: /windows/win32/api/vmr9/ns-vmr9-vmr9allocationinfo
+        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9allocationinfo
       - name: "vmr9alphabitmap"
-        href: /windows/win32/api/vmr9/ns-vmr9-vmr9alphabitmap
+        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9alphabitmap
       - name: "vmr9deinterlacecaps"
-        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-_vmr9deinterlacecaps
+        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9deinterlacecaps
       - name: "vmr9frequency"
-        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-_vmr9frequency
+        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9frequency
       - name: "vmr9monitorinfo"
-        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-_vmr9monitorinfo
+        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9monitorinfo
       - name: "vmr9normalizedrect"
-        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-_vmr9normalizedrect
+        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9normalizedrect
       - name: "vmr9presentationinfo"
-        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-_vmr9presentationinfo
+        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9presentationinfo
       - name: "vmr9procampcontrol"
-        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-_vmr9procampcontrol
+        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9procampcontrol
       - name: "vmr9procampcontrolrange"
-        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-_vmr9procampcontrolrange
+        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9procampcontrolrange
       - name: "vmr9videodesc"
-        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-_vmr9videodesc
+        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9videodesc
       - name: "vmr9videostreaminfo"
-        href: /windows/win32/api/vmr9/ns-vmr9-vmr9videostreaminfo
+        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9videostreaminfo
       - name: "vmrallocationinfo"
         href: /windows/win32/api/strmif/ns-strmif-vmrallocationinfo
       - name: "vmralphabitmap"
@@ -4218,7 +4218,7 @@
       - name: "vmrvideostreaminfo"
         href: /windows/win32/api/strmif/ns-strmif-vmrvideostreaminfo
       - name: "waveformatex"
-        href: waveformatex.md
+        href: https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)
       - name: "waveformatextensible"
         href: /windows/desktop/api/mmreg/ns-mmreg-waveformatextensible
     - name: "directshow enumerated types"
@@ -4241,13 +4241,13 @@
       - name: "am_intf_search_flags"
         href: /windows/desktop/api/strmif/ne-strmif-_am_intf_search_flags
       - name: "am_line21_cclevel"
-        href: /previous-versions/windows/desktop/api/il21dec/ne-il21dec-_am_line21_cclevel
+        href: /previous-versions/windows/desktop/api/il21dec/ne-il21dec-am_line21_cclevel
       - name: "am_line21_ccservice"
-        href: /windows/win32/api/il21dec/ne-il21dec-am_line21_ccservice
+        href: /previous-versions/windows/desktop/api/il21dec/ne-il21dec-am_line21_ccservice
       - name: "am_line21_ccstate"
-        href: /previous-versions/windows/desktop/api/il21dec/ne-il21dec-_am_line21_ccstate
+        href: /previous-versions/windows/desktop/api/il21dec/ne-il21dec-am_line21_ccstate
       - name: "am_line21_drawbgmode"
-        href: /previous-versions/windows/desktop/api/il21dec/ne-il21dec-_am_line21_drawbgmode
+        href: /previous-versions/windows/desktop/api/il21dec/ne-il21dec-am_line21_drawbgmode
       - name: "am_mpeg2level"
         href: /previous-versions/windows/desktop/api/dvdmedia/ne-dvdmedia-am_mpeg2level
       - name: "am_mpeg2profile"
@@ -4263,19 +4263,19 @@
       - name: "am_sample_property_flags"
         href: /windows/desktop/api/strmif/ne-strmif-tagam_sample_property_flags
       - name: "am_seeking_seeking_capabilities"
-        href: /windows/desktop/api/strmif/ne-strmif-am_seeking_seekingcapabilities
+        href: /windows/desktop/api/strmif/ne-strmif-am_seeking_seeking_capabilities
       - name: "am_stream_info_flags"
         href: /windows/desktop/api/strmif/ne-strmif-am_stream_info_flags
       - name: "am_wst_drawbgmode"
-        href: /previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-_am_wst_drawbgmode
+        href: /previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_drawbgmode
       - name: "am_wst_level"
-        href: /previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-_am_wst_level
+        href: /previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_level
       - name: "am_wst_service"
-        href: /previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-_am_wst_service
+        href: /previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_service
       - name: "am_wst_state"
-        href: /previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-_am_wst_state
+        href: /previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_state
       - name: "am_wst_style"
-        href: /previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-_am_wst_style
+        href: /previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_style
       - name: "amextendedseekingcapabilities"
         href: /previous-versions/windows/desktop/api/qnetwork/ne-qnetwork-amextendedseekingcapabilities
       - name: "amoverlayfx"
@@ -4285,9 +4285,9 @@
       - name: "amtunermodetype"
         href: /windows/win32/api/strmif/ne-strmif-amtunermodetype
       - name: "amvp_mode"
-        href: /previous-versions/windows/desktop/api/vptype/ne-vptype-_amvp_mode
+        href: /previous-versions/windows/desktop/api/vptype/ne-vptype-amvp_mode
       - name: "amvp_select_format_by"
-        href: /previous-versions/windows/desktop/api/vptype/ne-vptype-_amvp_select_format_by
+        href: /previous-versions/windows/desktop/api/vptype/ne-vptype-amvp_select_format_by
       - name: "analogvideostandard"
         href: /windows/win32/api/strmif/ne-strmif-analogvideostandard
       - name: "cameracontrolflags"
@@ -4329,7 +4329,7 @@
       - name: "dvd_domain"
         href: /windows/win32/api/strmif/ne-strmif-dvd_domain
       - name: "dvd_error"
-        href: /previous-versions/windows/desktop/api/dvdevcod/ne-dvdevcod-_tagdvd_error
+        href: /previous-versions/windows/desktop/api/dvdevcod/ne-dvdevcod-dvd_error
       - name: "dvd_framerate"
         href: /windows/win32/api/strmif/ne-strmif-dvd_framerate
       - name: "dvd_karaoke_assignment"
@@ -4347,7 +4347,7 @@
       - name: "dvd_parental_level"
         href: /windows/win32/api/strmif/ne-strmif-dvd_parental_level
       - name: "dvd_pb_stopped"
-        href: /previous-versions/windows/desktop/api/dvdevcod/ne-dvdevcod-_tagdvd_pb_stopped
+        href: /previous-versions/windows/desktop/api/dvdevcod/ne-dvdevcod-dvd_pb_stopped
       - name: "dvd_preferred_display_mode"
         href: /windows/win32/api/strmif/ne-strmif-dvd_preferred_display_mode
       - name: "dvd_relative_button"
@@ -4369,7 +4369,7 @@
       - name: "dvd_video_compression"
         href: /windows/win32/api/strmif/ne-strmif-dvd_video_compression
       - name: "dvd_warning"
-        href: /previous-versions/windows/desktop/api/dvdevcod/ne-dvdevcod-_tagdvd_warning
+        href: /previous-versions/windows/desktop/api/dvdevcod/ne-dvdevcod-dvd_warning
       - name: "dvdecoderresolution"
         href: /windows/desktop/api/strmif/ne-strmif-_dvresolution
       - name: "dvencoderformat"
