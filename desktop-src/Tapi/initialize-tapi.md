@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Initializing TAPI
+# Initialize TAPI
 
 The following code example demonstrates creation of the TAPI object.
 
@@ -33,5 +33,8 @@ if (result != S_OK) {
 
 ## See Also
 
-[ITTAPI::Initialize](https://docs.microsoft.com/en-us/windows/win32/api/tapi3if/nf-tapi3if-ittapi-initialize)
-[Common `HRESULT` Values](https://docs.microsoft.com/en-us/windows/win32/seccrypto/common-hresult-values)
+<dl><dt>
+[ITTAPI::Initialize](https://docs.microsoft.com/windows/win32/api/tapi3if/nf-tapi3if-ittapi-initialize)
+</dt><dt>
+[Common HRESULT Values](https://docs.microsoft.com/windows/win32/seccrypto/common-hresult-values)
+</dt></dl>
