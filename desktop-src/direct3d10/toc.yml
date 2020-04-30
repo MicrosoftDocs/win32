@@ -920,7 +920,7 @@
           - name: "D3D10_SHADER_INPUT_BIND_DESC"
             href: /windows/win32/api/D3D10Shader/ns-d3d10shader-d3d10_shader_input_bind_desc
           - name: "D3D10_SHADER_MACRO"
-            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro
+            href: https://docs.microsoft.com/windows/win32/api/d3dcommon/ns-d3dcommon-d3d_shader_macro
           - name: "D3D10_SHADER_TYPE_DESC"
             href: /windows/win32/api/D3D10Shader/ns-d3d10shader-d3d10_shader_type_desc
           - name: "D3D10_SHADER_VARIABLE_DESC"
@@ -933,7 +933,7 @@
           - name: "D3D10_CBUFFER_TYPE"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb204899(v=vs.85)
           - name: "D3D10_INCLUDE_TYPE"
-            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_include_type
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_include_type
           - name: "D3D10_PRIMITIVE"
             href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_primitive
           - name: "D3D10_SHADER_DEBUG_REGTYPE"
@@ -943,17 +943,17 @@
           - name: "D3D10_NAME"
             href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_name
           - name: "D3D10_SHADER_CBUFFER_FLAGS"
-            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_cbuffer_flags
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_cbuffer_flags
           - name: "D3D10_SHADER_INPUT_FLAGS"
-            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_input_flags
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_input_flags
           - name: "D3D10_SHADER_INPUT_TYPE"
-            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_input_type
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_input_type
           - name: "D3D10_SHADER_VARIABLE_CLASS"
-            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_class
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_class
           - name: "D3D10_SHADER_VARIABLE_FLAGS"
-            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_flags
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_flags
           - name: "D3D10_SHADER_VARIABLE_TYPE"
-            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_type
+            href: https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_type
           - name: "D3D10_SRV_DIMENSION"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb172452(v=vs.85)
           - name: "D3D10_SRV_DIMENSION1"

@@ -2073,79 +2073,79 @@
           - name: "GetPropertyName(UINT32, PWSTR, UINT32) method"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertyname(uint32_pwstr_uint32)
           - name: "GetPropertyName(U, PWSTR, UINT32) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertyname(u_pwstr_uint32_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertyname(u_pwstr_uint32)
         - name: "GetPropertyNameLength methods"
           href: id2d1properties-getpropertynamelength-overload.md
           items: 
           - name: "GetPropertyNameLength(UINT32) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertynamelength(u_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertynamelength(uint32)
           - name: "GetPropertyNameLength(U) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertynamelength(u_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertynamelength(u)
         - name: "GetSubProperties methods"
           href: id2d1properties-getsubproperties-overload.md
           items: 
           - name: "GetSubProperties(UINT32, ID2D1Properties**) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getsubproperties(u_id2d1properties_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getsubproperties(uint32_id2d1properties)
           - name: "GetSubProperties(U, ID2D1Properties**) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getsubproperties(u_id2d1properties_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getsubproperties(u_id2d1properties)
         - name: "GetType methods"
           href: id2d1properties-gettype-overload.md
           items: 
           - name: "GetType(UINT32) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(u_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(uint32)
           - name: "GetType(U) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(u_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(u)
         - name: "GetValue methods"
           href: id2d1properties-getvalue-overload.md
           items: 
           - name: "GetValue(UINT32, D2D1_PROPERTY_TYPE, BYTE*, UINT32) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(uint32_byte_uint32)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(uint32_d2d1_property_type_byte_uint32)
           - name: "GetValue(UINT32, BYTE*, UINT32) method"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(uint32_byte_uint32)
           - name: "GetValue(U, BYTE*, UINT32) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(u_byte_uint32_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(u_byte_uint32)
           - name: "GetValue(U, T*) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(u_t_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(u_t)
           - name: "GetValue(U) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(u_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(u)
         - name: "GetValueByName methods"
           href: id2d1properties-getvaluebyname-overload.md
           items: 
           - name: "GetValueByName(PCWSTR, D2D1_PROPERTY_TYPE, BYTE*, UINT32) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluebyname
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluebyname(pcwstr_d2d1_property_type_byte_uint32)
           - name: "GetValueByName(PCWSTR, BYTE*, UINT32) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluebyname(pcwstr_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluebyname(pcwstr_byte_uint32)
           - name: "GetValueByName(PCWSTR, T*) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluebyname(pcwstr_t_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluebyname(pcwstr_t)
           - name: "GetValueByName(PCWSTR) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluebyname(pcwstr_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluebyname(pcwstr)
         - name: "GetValueSize methods"
           href: id2d1properties-getvaluesize-overload.md
           items: 
           - name: "GetValueSize(UINT32) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluesize(u_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluesize(uint32)
           - name: "GetValueSize(U) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluesize(u_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluesize(u)
         - name: "SetValue methods"
           href: id2d1properties-setvalue-overload.md
           items: 
           - name: "SetValue(UINT32, D2D1_PROPERTY_TYPE, constBYTE*, UINT32) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-setvalue
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-setvalue(uint32_d2d1_property_type_constbyte_uint32)
           - name: "SetValue(UINT32, constBYTE*, UINT32) method"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-setvalue(uint32_constbyte_uint32)
           - name: "SetValue(U, constT&) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-setvalue(u_constt__)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-setvalue(u_constt_)
           - name: "SetValue(U, constBYTE*, UINT32) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-setvalue(u_constbyte_uint32_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-setvalue(u_constbyte_uint32)
         - name: "SetValueByName methods"
           href: id2d1properties-setvaluebyname-overload.md
           items: 
-          - name: "SetValueByName Method(PCWSTR, D2D1_PROPERTY_TYPE, CONST BYTE, dataSize)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-setvaluebyname
-          - name: "SetValueByName method (PCWSTR , const BYTE *, UINT32)"
+          - name: "SetValueByName Method(PCWSTR, D2D1_PROPERTY_TYPE, constBYTE*, UINT32)"
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-setvaluebyname(pcwstr_d2d1_property_type_constbyte_uint32)
+          - name: "SetValueByName method (PCWSTR, constBYTE*, UINT32)"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-setvaluebyname(pcwstr_constbyte_uint32)
           - name: "SetValueByName(PCWSTR, constT&) method"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-setvaluebyname(pcwstr_constt__)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-setvaluebyname(pcwstr_constt_)
       - name: "ID2D1RadialGradientBrush"
         href: https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1radialgradientbrush
         items: 
@@ -2192,9 +2192,9 @@
           href: id2d1rendertarget-clear.md
           items: 
           - name: "Clear Method (D2D1_COLOR_F*)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-clear(constd2d1_color_f_)
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-clear(constd2d1_color_f)
           - name: "Clear Method (D2D1_COLOR_F&)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-clear
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-clear(constd2d1_color_f_)
         - name: "CreateBitmap Overloaded method"
           href: id2d1rendertarget-createbitmap.md
           items: 
@@ -2221,9 +2221,9 @@
           - name: "CreateBitmapFromWicBitmap Method (IWICBitmapSource*,ID2D1Bitmap**)"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmapfromwicbitmap(iwicbitmapsource_id2d1bitmap)
           - name: "CreateBitmapFromWicBitmap Method (IWICBitmapSource*,D2D1_BITMAP_PROPERTIES&,ID2D1Bitmap**)"
-            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmapfromwicbitmap
-          - name: "CreateBitmapFromWicBitmap Method (IWICBitmapSource*,D2D1_BITMAP_PROPERTIES*,ID2D1Bitmap**)"
             href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties__id2d1bitmap)
+          - name: "CreateBitmapFromWicBitmap Method (IWICBitmapSource*,D2D1_BITMAP_PROPERTIES*,ID2D1Bitmap**)"
+            href: https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties_id2d1bitmap)
         - name: "CreateCompatibleRenderTarget Overloaded method"
           href: id2d1rendertarget-createcompatiblerendertarget.md
           items: 

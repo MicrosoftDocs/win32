@@ -672,7 +672,7 @@
       - name: "DXGI_SWAP_CHAIN_FULLSCREEN_DESC"
         href: /windows/desktop/api/DXGI1_2/ns-dxgi1_2-dxgi_swap_chain_fullscreen_desc
       - name: "_LUID"
-        href: /windows/desktop/api/dxgi/ns-dxgi-_luid
+        href: /windows/desktop/api/winnt/ns-winnt-luid
     - name: "DXGI Enumerations"
       href: d3d10-graphics-reference-dxgi-enums.md
       items: 
