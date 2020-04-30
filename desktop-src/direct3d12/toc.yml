@@ -812,7 +812,7 @@
         - name: "D3D12_DISCARD_REGION"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_discard_region
         - name: "D3D12_DISPATCH_ARGUMENTS"
-          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_dispatch_argument
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_dispatch_arguments
         - name: "D3D12_DISPATCH_RAYS_DESC"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_dispatch_rays_desc
         - name: "D3D12_DRAW_ARGUMENTS"
@@ -1195,7 +1195,7 @@
         - name: "D3D12_DRED_ENABLEMENT"
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_dred_enablement
         - name: "D3D12_DRIVER_MATCHING_IDENTIFIER_STATUS"
-          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_matching_identifier_status
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_driver_matching_identifier_status
         - name: "D3D12_DSV_DIMENSION"
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_dsv_dimension
         - name: "D3D12_DSV_FLAGS"
@@ -1790,7 +1790,7 @@
           href: /windows/win32/api/directml/nn-directml-idmlcompiledoperator
           items: 
           - name: "StoreCompiledOperator"
-            href: /windows/win32/api/directml/nf-directml-idmlcompiledoperator-storecompiledoperator
+            href: /windows/win32/api/directml/nn-directml-idmlcompiledoperator
         - name: "IDMLDebugDevice"
           href: /windows/win32/api/directml/nn-directml-idmldebugdevice
           items: 
@@ -1841,7 +1841,7 @@
           - name: "SetPrivateData"
             href: /windows/win32/api/directml/nf-directml-idmlobject-setprivatedata
           - name: "SetPrivateDataInterface"
-            href: /windows/win32/api/directml/nf-directml-idmlobject_setprivatedatainterface
+            href: /windows/win32/api/directml/nf-directml-idmlobject-setprivatedatainterface
         - name: "IDMLOperator"
           href: /windows/win32/api/directml/nn-directml-idmloperator
         - name: "IDMLOperatorInitializer"
