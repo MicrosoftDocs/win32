@@ -3996,11 +3996,11 @@
       href: directshow-structures.md
       items: 
       - name: "allocator_properties"
-        href: /windows/desktop/api/strmif/ns-strmif-_allocatorproperties
+        href: /windows/desktop/api/strmif/ns-strmif-allocator_properties
       - name: "am_dvd_renderstatus"
         href: /windows/win32/api/strmif/ns-strmif-am_dvd_renderstatus
       - name: "am_media_type"
-        href: /windows/desktop/api/strmif/ns-strmif-_ammediatype
+        href: /windows/desktop/api/strmif/ns-strmif-am_media_type
       - name: "am_mpegstreamtype"
         href: /windows/win32/api/mpegtype/ns-mpegtype-am_mpegstreamtype
       - name: "am_mpegsystemtype"

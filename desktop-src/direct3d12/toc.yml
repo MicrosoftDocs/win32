@@ -1834,7 +1834,7 @@
           - name: "SetPrivateData"
             href: /windows/win32/api/directml/nf-directml-idmlobject-setprivatedata
           - name: "SetPrivateDataInterface"
-            href: /windows/win32/api/directml/nf-directml-idmlobject_setprivatedatainterface
+            href: /windows/win32/api/directml/nf-directml-idmlobject-setprivatedatainterface
         - name: "IDMLOperator"
           href: /windows/win32/api/directml/nn-directml-idmloperator
         - name: "IDMLOperatorInitializer"

@@ -239,7 +239,7 @@
       - name: "DDCAPS"
         href: /windows/win32/api/Ddraw/ns-ddraw-ddcaps_dx3
       - name: "DDCOLORCONTROL"
-        href: /windows/desktop/api/Ddraw/ns-ddraw-_ddcolorcontrol
+        href: https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549237(v=vs.85)
       - name: "DDCOLORKEY"
         href: /windows/win32/api/Ddraw/ns-ddraw-ddcolorkey
       - name: "DDDEVICEIDENTIFIER2"
@@ -251,12 +251,12 @@
       - name: "DDPIXELFORMAT"
         href: /windows/win32/api/Ddraw/ns-ddraw-ddpixelformat
       - name: "DDSCAPS"
-        href: /windows/desktop/api/Ddraw/ns-ddraw-_ddscaps
+        href: https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)
       - name: "DDSCAPS2"
-        href: /windows/desktop/api/Ddraw/ns-ddraw-_ddscaps2
+        href: https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)
       - name: "DDSURFACEDESC"
-        href: /windows/desktop/api/Ddraw/ns-ddraw-_ddsurfacedesc
+        href: https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)
       - name: "DDSURFACEDESC2"
-        href: /windows/desktop/api/Ddraw/ns-ddraw-_ddsurfacedesc2
+        href: https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)
     - name: "DirectDraw Return Codes"
       href: directdraw-return-codes.md

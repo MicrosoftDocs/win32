@@ -635,14 +635,14 @@
           - name: "SetAxisZ(IDCompositionAnimation) method"
             href: https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setaxisz(idcompositionanimation)
         - name: "SetCenterX methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setcenterx
+          href: idcompositionrotatetransform3d-setcenterx-overloaded.md
           items: 
           - name: "SetCenterX(float) method"
             href: https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcenterx(idcompositionanimation)
           - name: "SetCenterX(IDCompositionAnimation) method"
             href: https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcenterx(idcompositionanimation)
         - name: "SetCenterY methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setcentery
+          href: idcompositionrotatetransform3d-setcentery-overloaded.md
           items: 
           - name: "SetCenterY(float) method"
             href: https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcentery(idcompositionanimation)
@@ -711,14 +711,14 @@
           - name: "SetCenterZ(IDCompositionAnimation) method"
             href: https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setcenterz(idcompositionanimation)
         - name: "SetScaleX methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setscalex
+          href: idcompositionscaletransform3d-setscalex-overloaded.md
           items: 
           - name: "SetScaleX(float) method"
             href: https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscalex(float)
           - name: "SetScaleX(IDCompositionAnimation) method"
             href: https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscalex(idcompositionanimation)
         - name: "SetScaleY methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setscaley
+          href: idcompositionscaletransform3d-setscaley-overloaded.md
           items: 
           - name: "SetScaleY(float) method"
             href: https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscaley(idcompositionanimation)
@@ -918,14 +918,14 @@
         href: https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontranslatetransform3d
         items: 
         - name: "SetOffsetX methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setoffsetx
+          href: idcompositionvisual3-setoffsetx-overloaded.md
           items: 
           - name: "SetOffsetX(float) method"
             href: https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsetx(float)
           - name: "SetOffsetX(IDCompositionAnimation) method"
             href: https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsetx(idcompositionanimation)
         - name: "SetOffsetY methods"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-setoffsety
+          href: idcompositionvisual3-setoffsety-overloaded.md
           items: 
           - name: "SetOffsetY(float) method"
             href: https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsety(idcompositionanimation)
@@ -1023,7 +1023,7 @@
         - name: "SetTransformMode method"
           href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn904491(v=vs.85)
         - name: "SetTransform method"
-          href: /windows/desktop/api/Dcomp/nf-dcomp-settransform
+          href: idcompositionvisual3-settransform-overloaded.md
           items: 
           - name: "SetTransform(D2D_MATRIX_4X4_F&) method"
             href: https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual3-settransform(idcompositiontransform3d)
