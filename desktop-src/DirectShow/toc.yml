@@ -4052,7 +4052,7 @@
       - name: "audio_stream_config_caps"
         href: /windows/win32/api/strmif/ns-strmif-audio_stream_config_caps
       - name: "avimainheader"
-        href: /previous-versions/windows/desktop/api/aviriff/ns-aviriff-_avimainheader
+        href: /previous-versions/windows/desktop/api/aviriff/ns-aviriff-avimainheader
       - name: "avimetaindex"
         href: /previous-versions/windows/desktop/api/aviriff/ns-aviriff-avimetaindex
       - name: "avioldindex"
@@ -4198,7 +4198,7 @@
       - name: "vmr9videodesc"
         href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9videodesc
       - name: "vmr9videostreaminfo"
-        href: /windows/win32/api/vmr9/ns-vmr9-vmr9videostreaminfo
+        href: /previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9videostreaminfo
       - name: "vmrallocationinfo"
         href: /windows/win32/api/strmif/ns-strmif-vmrallocationinfo
       - name: "vmralphabitmap"
@@ -4218,7 +4218,7 @@
       - name: "vmrvideostreaminfo"
         href: /windows/win32/api/strmif/ns-strmif-vmrvideostreaminfo
       - name: "waveformatex"
-        href: waveformatex.md
+        href: https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)
       - name: "waveformatextensible"
         href: /windows/desktop/api/mmreg/ns-mmreg-waveformatextensible
     - name: "directshow enumerated types"
