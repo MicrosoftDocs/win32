@@ -23,7 +23,7 @@ The following query types are no longer present in Direct3D 12, their functional
 
 -   **Event queries** - event functionally is now handled by fences.
 -   **Disjoint timestamp queries** - GPU clocks can be set to a stable state in Direct3D 12 (see the [Timing](timing.md) section). GPU clock comparisons are not meaningful if the GPU idled at all between the timestamps (known as a disjoint query). With stable power two timestamp queries issued from different command lists are reliably comparable. Two timestamps within the same command list are always reliably comparable.
--   **Steam output statistics queries** - in Direct3D 12 there is no single stream output (SO) overflow query for all the output streams. Apps need to issue multiple single-stream queries, and then correlate the results.
+-   **Stream output statistics queries** - in Direct3D 12 there is no single stream output (SO) overflow query for all the output streams. Apps need to issue multiple single-stream queries, and then correlate the results.
 -   **Stream output statistics predicate and occlusion predicate queries** - queries (which write to memory) and [Predication](predication.md) (which reads from memory) are no longer coupled, and so these query types are not needed.
 
 A new binary occlusion query type has been added to Direct3D 12.
