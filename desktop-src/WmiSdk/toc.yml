@@ -1238,11 +1238,11 @@
               href: chstring-find.md
               items: 
               - name: "Find(LPCWSTR) method"
-                href: chstring-find.md(lpcwstr)
+                href: /windows/win32/api/chstring/nf-chstring-chstring-format(lpcwstr_---)
               - name: "Find(WCHAR) method"
                 href: https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find(lpcwstr)
             - name: "FindOneOf method"
-              href: chstring-find.mdoneof
+              href: /windows/win32/api/chstring/nf-chstring-chstring-findoneof
             - name: "Format methods"
               href: chstring-format.md
               items: 
@@ -1291,9 +1291,9 @@
               href: chstring-mid.md
               items: 
               - name: "Mid(int) method"
-                href: chstring-mid.md(int)
+                href: /windows/win32/api/chstring/nf-chstring-chstring-mid(int)
               - name: "Mid(int, int) method"
-                href: https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-mid(int)
+                href: /windows/win32/api/chstring/nf-chstring-chstring-mid(int_int)
             - name: "operator["
               href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa386162(v=vs.85)
             - name: "CHString::operator+"
@@ -1467,7 +1467,7 @@
               - name: "GetLocalOffsetForDate(constFILETIME*) method"
                 href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(constfiletime)
               - name: "GetLocalOffsetForDate(conststruct tm*) method"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate
+                href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(consttm)
               - name: "GetLocalOffsetForDate(constSYSTEMTIME*) method"
                 href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(constsystemtime)
               - name: "GetLocalOffsetForDate(consttime_t&) method"
@@ -1488,28 +1488,28 @@
               - name: "operator-(constWBEMTime&) method"
                 href: https://docs.microsoft.com/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
               - name: "operator-(constWBEMTimeSpan&) method"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-(constwbemtimespan_)
+                href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-sub(constwbemtimespan_)
             - name: "WBEMTime::operator != method"
-              href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator!=
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-not-equal-to
             - name: "WBEMTime::operator < method"
               href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-less-than
             - name: "WBEMTime::operator <= method"
               href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-less-than-equal-to
             - name: "WBEMTime::operator == method"
-              href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator==
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-equal-equal-to
             - name: "WBEMTime::operator > method"
-              href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator_
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-greater-than
             - name: "WBEMTime::operator >= method"
-              href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator_=
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-greater-than-equal-to
             - name: "operator+ method"
-              href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator+
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-add
             - name: "operator+= method"
-              href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator+=
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-add-assign
             - name: "operator= operators"
               href: wbemtime--operator-equal.md
               items: 
               - name: "operator=(constBSTR&) method"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator=(constfiletime_)
+                href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-assign(constbstr)
               - name: "operator=(constFILETIME&) method"
                 href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(constfiletime_)
               - name: "operator=(conststruct tm&) method"
@@ -1519,7 +1519,7 @@
               - name: "operator=(consttime_t&) method"
                 href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(consttime_t_)
             - name: "operator-= method"
-              href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator-=
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-sub-assign
             - name: "SetDMTF method"
               href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-setdmtf
             - name: "WBEMTime constructors"
@@ -1561,23 +1561,23 @@
             - name: "IsOk method"
               href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-isok
             - name: "operator= method"
-              href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-operator=(constfiletime_)
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-assign(constfiletime_)
             - name: "operator+ method"
-              href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator+
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-add
             - name: "operator+= method"
-              href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator+=
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-add-assign
             - name: "operator- method"
-              href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator-
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-sub
             - name: "operator-= method"
-              href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator-=
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-sub-assign
             - name: "operator == method"
-              href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator==
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-equal-equal-to
             - name: "operator != method"
-              href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator!=
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-not-equal-to
             - name: "operator > method"
-              href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator_
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-greater-than
             - name: "operator >= method"
-              href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator_=
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-greater-than-equal-to
             - name: "operator < method"
               href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-operator-less-than
             - name: "operator <= method"
