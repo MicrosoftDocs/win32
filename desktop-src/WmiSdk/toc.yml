@@ -1577,7 +1577,7 @@
             - name: "operator > method"
               href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator_
             - name: "operator >= method"
-              href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-operator_=
+              href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-greater-than-equal-to
             - name: "operator < method"
               href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-operator-less-than
             - name: "operator <= method"
