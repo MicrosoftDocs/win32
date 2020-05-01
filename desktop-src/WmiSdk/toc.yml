@@ -1291,7 +1291,7 @@
               href: chstring-mid.md
               items: 
               - name: "Mid(int) method"
-                href: chstring-mid.md(int)
+                href: /windows/win32/api/chstring/nf-chstring-chstring-mid(int)
               - name: "Mid(int, int) method"
                 href: /windows/win32/api/chstring/nf-chstring-chstring-mid(int_int)
             - name: "operator["
