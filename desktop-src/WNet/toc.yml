@@ -96,13 +96,13 @@
       href: windows-networking-structures.md
       items: 
       - name: "CONNECTDLGSTRUCT"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_connectdlgstructa
+        href: /windows/win32/api/winnetwk/ns-winnetwk-connectdlgstructa
       - name: "DISCDLGSTRUCT"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_discdlgstructa
+        href: /windows/win32/api/winnetwk/ns-winnetwk-discdlgstructa
       - name: "NETCONNECTINFOSTRUCT"
         href: /windows/win32/api/Winnetwk/ns-winnetwk-netconnectinfostruct
       - name: "NETINFOSTRUCT"
-        href: https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_netinfostruct
+        href: /windows/win32/api/winnetwk/ns-winnetwk-netinfostruct
       - name: "NETRESOURCE"
         href: /windows/win32/api/Winnetwk/ns-winnetwk-netresourcea
       - name: "REMOTE_NAME_INFO"
