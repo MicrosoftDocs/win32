@@ -622,23 +622,23 @@
       href: web-services-for-devices-structures.md
       items: 
       - name: "REQUESTBODY_GetStatus"
-        href: /windows/desktop/api/WsdTypes/ns-wsdtypes-__unnamed_struct_5
+        href: /windows/win32/api/wsdtypes/ns-wsdtypes-requestbody_getstatus
       - name: "REQUESTBODY_Renew"
-        href: /windows/desktop/api/WsdTypes/ns-wsdtypes-__unnamed_struct_3
+        href: /windows/win32/api/wsdtypes/ns-wsdtypes-requestbody_renew
       - name: "REQUESTBODY_Subscribe"
-        href: /windows/desktop/api/WsdTypes/ns-wsdtypes-__unnamed_struct_1
+        href: /windows/win32/api/wsdtypes/ns-wsdtypes-requestbody_subscribe
       - name: "REQUESTBODY_Unsubscribe"
-        href: /windows/desktop/api/WsdTypes/ns-wsdtypes-__unnamed_struct_7
+        href: /windows/win32/api/wsdtypes/ns-wsdtypes-requestbody_unsubscribe
       - name: "RESPONSEBODY_GetMetadata"
-        href: /windows/desktop/api/WsdTypes/ns-wsdtypes-__unnamed_struct_0
+        href: /windows/win32/api/wsdtypes/ns-wsdtypes-responsebody_getmetadata
       - name: "RESPONSEBODY_GetStatus"
-        href: /windows/desktop/api/WsdTypes/ns-wsdtypes-__unnamed_struct_6
+        href: /windows/win32/api/wsdtypes/ns-wsdtypes-responsebody_getstatus
       - name: "RESPONSEBODY_Renew"
-        href: /windows/desktop/api/WsdTypes/ns-wsdtypes-__unnamed_struct_4
+        href: /windows/win32/api/wsdtypes/ns-wsdtypes-responsebody_renew
       - name: "RESPONSEBODY_Subscribe"
-        href: /windows/desktop/api/WsdTypes/ns-wsdtypes-__unnamed_struct_2
+        href: /windows/win32/api/wsdtypes/ns-wsdtypes-responsebody_subscribe
       - name: "RESPONSEBODY_SubscriptionEnd"
-        href: /windows/desktop/api/WsdTypes/ns-wsdtypes-__unnamed_struct_8
+        href: /windows/win32/api/wsdtypes/ns-wsdtypes-responsebody_subscriptionend
       - name: "WSD_APP_SEQUENCE"
         href: /windows/win32/api/WsdTypes/ns-wsdtypes-wsd_app_sequence
       - name: "WSD_BYE"
