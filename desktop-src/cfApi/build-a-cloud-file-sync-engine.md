@@ -58,7 +58,7 @@ The following image demonstrates how the placeholder, full, and pinned full file
   * Registering a sync root with the cloud files API automatically provides several verbs (menu entries) in File Explorer’s context menu that let the user control the hydration state of their file.
   * Additional verbs can be added to this section of the context menu using Desktop Bridge-compatible APIs.
 * User control of file hydration:
-  * Users are in always in control of file hydration, even when the files are not hydrated explicitly by the user. An interactive toast is shown for background hydration to alert the user and provide options. The following image demonstrates a toast notification for a hydrating file.
+  * Users are always in control of file hydration, even when the files are not hydrated explicitly by the user. An interactive toast is shown for background hydration to alert the user and provide options. The following image demonstrates a toast notification for a hydrating file.
       
     ![Example of an interactive toast shown for background file hydration](images/file-hydration-interactive-toast.png)
 
