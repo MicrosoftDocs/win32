@@ -1238,11 +1238,11 @@
               href: chstring-find.md
               items: 
               - name: "Find(LPCWSTR) method"
-                href: chstring-find.md(lpcwstr)
+                href: /windows/win32/api/chstring/nf-chstring-chstring-format(lpcwstr_---)
               - name: "Find(WCHAR) method"
                 href: https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find(lpcwstr)
             - name: "FindOneOf method"
-              href: chstring-find.mdoneof
+              href: /windows/win32/api/chstring/nf-chstring-chstring-findoneof
             - name: "Format methods"
               href: chstring-format.md
               items: 
@@ -1293,7 +1293,7 @@
               - name: "Mid(int) method"
                 href: chstring-mid.md(int)
               - name: "Mid(int, int) method"
-                href: windows/win32/api/chstring/nf-chstring-chstring-mid(int_int)
+                href: /windows/win32/api/chstring/nf-chstring-chstring-mid(int_int)
             - name: "operator["
               href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa386162(v=vs.85)
             - name: "CHString::operator+"
