@@ -303,7 +303,7 @@ enable an implementation to perform the following:
 3. Discover the location of the exFAT file system structures.
 
 The Backup Boot region is a backup of the Main Boot region. It aids
-recovery of the exFAT volume in the advent of the Main Boot region being
+recovery of the exFAT volume in the event of the Main Boot region being
 in an inconsistent state. Except under infrequent circumstances, such as
 updating boot-strapping instructions, implementations should not modify
 the contents of the Backup Boot region.
