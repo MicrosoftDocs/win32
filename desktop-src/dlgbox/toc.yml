@@ -196,11 +196,11 @@
           href: https://docs.microsoft.com/windows/desktop/api/commdlg/nn-commdlg-iprintdialogservices
           items: 
           - name: "GetCurrentDevMode"
-            href: /windows/desktop/api/Commdlg/nf-commdlg-getcurrentdevmode
+            href: /windows/desktop/api/Commdlg/nf-commdlg-iprintdialogservices-getcurrentdevmode
           - name: "GetCurrentPortName"
-            href: /windows/desktop/api/Commdlg/nf-commdlg-getcurrentportname
+            href: /windows/desktop/api/Commdlg/nf-commdlg-iprintdialogservices-getcurrentportname
           - name: "GetCurrentPrinterName"
-            href: /windows/desktop/api/Commdlg/nf-commdlg-getcurrentprintername
+            href: /windows/desktop/api/Commdlg/nf-commdlg-iprintdialogservices-getcurrentprintername
       - name: "Common Dialog Box Messages"
         href: common-dialog-box-messages.md
         items: 
@@ -291,10 +291,10 @@
         - name: "OPENFILENAME_NT4"
           href: /windows/win32/api/Commdlg/ns-commdlg-openfilename_nt4a
         - name: "PAGESETUPDLG"
-          href: /windows/desktop/api/Commdlg/ns-commdlg-tagpsda
+          href: /windows/desktop/api/Commdlg/ns-commdlg-pagesetupdlga
         - name: "PRINTDLG"
-          href: /windows/desktop/api/Commdlg/ns-commdlg-tagpda
+          href: /windows/desktop/api/Commdlg/ns-commdlg-printdlga
         - name: "PRINTDLGEX"
-          href: /windows/desktop/api/Commdlg/ns-commdlg-tagpdexa
+          href: /windows/desktop/api/Commdlg/ns-commdlg-printdlgexa
         - name: "PRINTPAGERANGE"
           href: /windows/win32/api/Commdlg/ns-commdlg-printpagerange
