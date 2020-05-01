@@ -4105,7 +4105,7 @@
           - name: "playerstate"
             href: /previous-versions/windows/desktop/api/effects/ne-effects-playerstate
           - name: "timedlevel"
-            href: /windows/win32/api/effects/ns-effects-timedlevel
+            href: /previous-versions/bb249531(v%3Dvs.85)
     - name: "windows media player user interface plug-ins"
       href: windows-media-player-user-interface-plug-ins.md
       items: 
@@ -5219,9 +5219,9 @@
         href: windows-media-device-manager-device-extensions-for-metadata-transfer.md
         items: 
         - name: "wmp_wmdm_metadata_round_trip_pc2device"
-          href: /previous-versions/windows/desktop/api/wmpdevices/ns-wmpdevices-_wmp_wmdm_metadata_round_trip_pc2device
+          href: https://docs.microsoft.com/en-us/previous-versions//aa393530(v=vs.85)?redirectedfrom=MSDN
         - name: "wmp_wmdm_metadata_round_trip_device2pc"
-          href: /previous-versions/windows/desktop/api/wmpdevices/ns-wmpdevices-_wmp_wmdm_metadata_round_trip_device2pc
+          href: /previous-versions/bb263061(v%3Dvs.85)
     - name: "device extensions for reporting acquired content"
       href: device-extensions-for-reporting-acquired-content.md
     - name: "device extensions for playlist object preferences"
