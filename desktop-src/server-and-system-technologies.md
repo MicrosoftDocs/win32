@@ -8,17 +8,9 @@ ms.date: 05/31/2018
 
 # Develop with server technologies
 
-[Server Technologies](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh309471(v=vs.85))
-
-[System Administration](https://docs.microsoft.com/windows/desktop/SrvNodes/system-administration)
-
-[Virtualization](https://docs.microsoft.com/windows/desktop/SrvNodes/virtualization)
-
-[Windows Server Installation Options](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms723891(v=vs.85))
-
- 
-
- 
-
-
-
+* [Directory, Identity, and Access Services](srvnodes/directory--identity--and-access-services.md)
+* [Rights Management](srvnodes/rights-management.md)
+* [System Administration](srvnodes/system-administration.md)
+* [Virtualization](srvnodes/virtualization.md)
+* [WMI/MI/OMI Providers](srvnodes/wmi-mi-omi-providers.md)
+* [Windows Server](srvnodes/windows-server.md)

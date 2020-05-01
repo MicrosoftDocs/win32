@@ -33,7 +33,7 @@
   - name: "Develop"
     href: 
     items: 
-    - name: "Desktop app technologies"
+    - name: "Desktop App Technologies"
       items: 
       - name: "Overview"
         href: desktop-app-technologies.md
@@ -267,7 +267,7 @@
             href: wec/windows-event-collector.md
       - name: "Documents and Printing"
         href: printdocs/documents-and-printing.md
-      - name: "Graphics and gaming"
+      - name: "Graphics and Gaming"
         items: 
         - name: "Overview"
           href: graphics-and-multimedia.md
@@ -355,7 +355,7 @@
           href: iphlp/ip-helper-start-page.md
         - name: "Message Queuing"
           href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)
-        - name: "Network interfaces"
+        - name: "Network Interfaces"
           href: network-interfaces.md
         - name: "Network List Manager"
           href: nla/portal.md
@@ -372,7 +372,7 @@
         - name: "Simple Network Management Protocol"
           href: snmp/snmp-start-page.md
         - name: "Telephony Application Programming Interfaces"
-          href: https://docs.microsoft.com/windows/desktop/Tapi/telephony-application-programming-interfaces
+          href: Tapi/telephony-application-programming-interfaces.md
         - name: "Teredo"
           href: teredo/portal.md
         - name: "WebSocket Protocol Component API"
@@ -390,7 +390,7 @@
           - name: "Bluetooth"
             href: bluetooth/bluetooth-start-page.md
           - name: "Mobile Broadband"
-            href: https://docs.microsoft.com/windows/desktop/mbn/mobile-broadband-networks-portal
+            href: mbn/mobile-broadband-networks-portal.md
           - name: "Native Wifi"
             href: nativewifi/portal.md
           - name: "Windows Connect Now"
@@ -465,7 +465,7 @@
           - name: "Overview"
             href: SrvNodes/rights-management.md
           - name: "RMS Scenarios, Code and Tools"
-            href: https://docs.microsoft.com/windows/desktop/SrvNodes/rms-code-samples-and-tools
+            href: SrvNodes/rms-code-samples-and-tools.md
         - name: "Security Management"
           href: secmgmt/management-portal.md
         - name: "Security Glossary"
@@ -514,24 +514,63 @@
         href: machinelearning/machine-learning-portal.md
       - name: "Developer Notes"
         href: devnotes/developer-notes.md
-    - name: "Develop with server technologies"
+    - name: "Develop with Server Technologies"
       items: 
       - name: "Overview"
         href: server-and-system-technologies.md
-      - name: "Server Technologies"
-        href: 
+      - name: "Directory, Identity, and Access Services"
+        href: SrvNodes/directory--identity--and-access-services.md
         items: 
-        - name: "File Server Resource Manager Reference"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt740695(v=vs.85)
+        - name: "Directory Services"
+          href: SrvNodes/directory-services.md
+          items: 
+          - name: "Directories"
+            href: SrvNodes/directories.md
+          - name: "Directory Access Technologies"
+            href: SrvNodes/directory-access-technologies.md
+        - name: "Identity Services"
+          href: SrvNodes/identity-services.md
+          items: 
+          - name: "Identity Lifecycle Manager 2007"
+            href: SrvNodes/identity-lifecycle-manager-2007.md
+        - name: "Access Management Services"
+          href: SrvNodes/access-management-services.md
+          items: 
+          - name: "Active Directory Federation Services"
+            href: SrvNodes/active-directory-federation-services.md
+      - name: "Rights Management"
+        href: SrvNodes/rights-management.md
+        items: 
+        - name: "RMS Code Samples and Tools"
+          href: SrvNodes/rms-code-samples-and-tools.md
       - name: "System Administration"
-        href: 
+        href: SrvNodes/system-administration.md
         items: 
         - name: "Group Policy"
           items: 
           - name: "Overview"
-            href: https://docs.microsoft.com/windows/desktop/SrvNodes/group-policy
+            href: SrvNodes/group-policy.md
           - name: "GPMC Class Library Reference"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/class-library/gpmc-class-library-reference
+        - name: "Microsoft Management Console (MMC)"
+          href: SrvNodes/microsoft-management-console--mmc-.md
+          items: 
+          - name: "Microsoft Management Console 3.0"
+            href: SrvNodes/microsoft-management-console-3-0.md
+        - name: "Windows Server Update Services"
+          href: SrvNodes/windows-server-update-services.md
+          items: 
+          - name: "Windows Server Update Services 2.0 Class Library"
+            href: SrvNodes/windows-server-update-services-2-0-class-library.md
+      - name: "Virtualization"
+        href: SrvNodes/virtualization.md
+      - name: "WMI/MI/OMI Providers"
+        href: SrvNodes/wmi-mi-omi-providers.md
+      - name: "Windows Server"
+        href: SrvNodes/windows-server.md
+        items: 
+        - name: "What's New For Windows Server 2012 R2 and Windows Server 2012"
+          href: SrvNodes/what-s-new-for-windows-server-2012-r2.md
         - name: "Mobile Device Management Registration"
           href: mdmreg/mobile-device-management-registration-portal.md
         - name: "System Restore"
@@ -549,18 +588,12 @@
         - name: "WMI Providers"
           href: 
           items: 
-          # - name: "Boot Configuration Data WMI Provider"
-          #   href: bcd/boot-configuration-data-portal.md
           - name: "Boot Event Collector WMI Provider"
             href: bevtcolprov/boot-event-collector-wmi-provider-portal.md
-          # - name: "CIMWin32a Provider"
-          #   href: cimwin32a/cimwin32a-provider-classes.md
           - name: "Hyper-V management"
             href: hyperv_v2/hyper-v-management.md
           - name: "MDM Bridge WMI Provider"
             href: dmwmibridgeprov/mdm-bridge-wmi-provider-portal.md
-          # - name: "Software License Provider"
-          #   href: sppwmi/software-license-provider-.md
           - name: "Windows System Assessment Tool"
             href: winsat/windows-system-assessment-tool-portal.md
           - name: "WMI Core Provider"
@@ -569,11 +602,6 @@
           href: winrm/portal.md
         - name: "Windows Resource Protection"
           href: wfp/windows-resource-protection-portal.md
-      - name: "Virtualization"
-        href: 
-        items: 
-        - name: "Windows Virtual PC"
-          href: vpc/virtual-pc-portal.md
     - name: "API Index"
       href: apiindex/api-index-portal.md
     - name: "Windows Runtime C++ reference"

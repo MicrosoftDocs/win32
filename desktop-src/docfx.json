@@ -39,7 +39,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/windows/desktop/breadcrumb/toc.json",
       "uhfHeaderId": "MSDocsHeader-WinDevCenter",
-      "extendBreadcrumb": true,
+      "extendBreadcrumb": false,
       "searchScope": [
         "Windows", 
         "Desktop"
