@@ -40,7 +40,7 @@ SECURITY_STATUS SEC_Entry AcceptSecurityContext(
   _Inout_opt_ PCtxtHandle    phNewContext,
   _Inout_opt_ PSecBufferDesc pOutput,
   _Out_       PULONG         pfContextAttr,
-  _Out_opt_   PTimeStamp     ptsTimeStamp
+  _Out_opt_   PTimeStamp     ptsExpiry
 );
 ```
 
