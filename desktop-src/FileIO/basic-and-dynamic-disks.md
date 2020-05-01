@@ -110,7 +110,15 @@ Dynamic disk **GPT** partition layouts looks similar to this basic disk example,
 
 There is no specific function to programmatically detect the type of disk a particular file or directory is located on. There is an indirect method.
 
-First, call [**GetVolumePathName**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumepathnamew). Then, call [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) to open the volume using the path. Next, use [**IOCTL\_VOLUME\_GET\_VOLUME\_DISK\_EXTENTS**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_volume_get_volume_disk_extents) with the volume handle to obtain the disk number and use the disk number to construct the disk path, such as "\\\\?\\PhysicalDrive*X*". Finally, use [**IOCTL\_DISK\_GET\_DRIVE\_LAYOUT\_EX**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_get_drive_layout_ex) to obtain the partition list, and check the **PartitionType** for each entry in the partition list.
+* Pass the file or directory path to [**GetVolumePathName**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumepathnamew) to obtain the mount point.
+* Pass the mount point to [**GetVolumeNameForVolumeMountPoint**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumenameforvolumemountpointw) to obtain the volume name.
+* Remove the trailing backslash from the volume name.
+* Pass the volume name without the trailing backslash to [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) to open the volume.
+* Use [**IOCTL\_VOLUME\_GET\_VOLUME\_DISK\_EXTENTS**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_volume_get_volume_disk_extents) with the volume handle to obtain the disk numbers.
+* Use the disk numbers to construct the disk paths, such as "\\\\?\\PhysicalDrive*X*".
+* Pass each disk path to [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) to open the disk.
+* Use [**IOCTL\_DISK\_GET\_DRIVE\_LAYOUT\_EX**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_disk_get_drive_layout_ex) to obtain the partition list.
+* Check the **PartitionType** for each entry in the partition list.
 
 ## Related topics
 
