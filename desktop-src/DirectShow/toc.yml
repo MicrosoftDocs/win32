@@ -4379,7 +4379,7 @@
       - name: "dvencodervideoformat"
         href: /windows/desktop/api/strmif/ne-strmif-_dvencodervideoformat
       - name: "filter_state"
-        href: /windows/desktop/api/strmif/ne-strmif-_filterstate
+        href: /windows/desktop/api/strmif/ne-strmif-filter_state
       - name: "interleavingmode"
         href: /windows/desktop/api/strmif/ne-strmif-interleavingmode
       - name: "media_sample_content"
@@ -4387,7 +4387,7 @@
       - name: "physicalconnectortype"
         href: /windows/win32/api/strmif/ne-strmif-physicalconnectortype
       - name: "pin_direction"
-        href: /windows/desktop/api/strmif/ne-strmif-_pindirection
+        href: /windows/desktop/api/strmif/ne-strmif-pin_direction
       - name: "qualitymessagetype"
         href: /windows/win32/api/strmif/ne-strmif-qualitymessagetype
       - name: "reg_pinflag"
@@ -4395,7 +4395,7 @@
       - name: "rem_filter_flags"
         href: /windows/desktop/api/strmif/ne-strmif-_rem_filter_flags
       - name: "snddev_err"
-        href: /previous-versions/windows/desktop/api/audevcod/ne-audevcod-_tagsnd_device_error
+        href: /previous-versions/windows/desktop/api/audevcod/ne-audevcod-snddev_err
       - name: "tunerinputtype"
         href: /windows/win32/api/strmif/ne-strmif-tunerinputtype
       - name: "tvaudiomode"
@@ -4417,27 +4417,27 @@
       - name: "vmr_aspect_ratio_mode"
         href: https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-vmr_aspect_ratio_mode
       - name: "vmr9_sampleformat"
-        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-_vmr9_sampleformat
+        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9_sampleformat
       - name: "vmr9alphabitmapflags"
-        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0006_0001
+        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9alphabitmapflags
       - name: "vmr9aspectratiomode"
-        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0004_0001
+        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9aspectratiomode
       - name: "vmr9deinterlaceprefs"
-        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0013_0001
+        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9deinterlaceprefs
       - name: "vmr9deinterlacetech"
-        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0013_0002
+        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9deinterlacetech
       - name: "vmr9mixerprefs"
-        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0005_0001
+        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9mixerprefs
       - name: "vmr9mode"
-        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0010_0001
+        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9mode
       - name: "vmr9presentationflags"
-        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0000_0002
+        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9presentationflags
       - name: "vmr9procampcontrolflags"
-        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0005_0002
+        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9procampcontrolflags
       - name: "vmr9renderprefs"
-        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0008_0001
+        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9renderprefs
       - name: "vmr9surfaceallocationflags"
-        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0001_0001
+        href: /previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9surfaceallocationflags
       - name: "vmrdeinterlaceprefs"
         href: /windows/desktop/api/strmif/ne-strmif-vmrdeinterlaceprefs
       - name: "vmrdeinterlacetech"
@@ -5084,15 +5084,15 @@
         - name: "am_property_copy_analog_component"
           href: am-property-copy-analog-component-property.md
         - name: "am_copy_macrovision"
-          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-_am_copy_macrovision
+          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_copy_macrovision
         - name: "am_copy_macrovision_level"
           href: /previous-versions/windows/desktop/api/dvdmedia/ne-dvdmedia-am_copy_macrovision_level
         - name: "am_dvdcopy_buskey"
-          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-_am_dvdcopy_buskey
+          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_buskey
         - name: "am_dvdcopy_chlgkey"
-          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-_am_dvdcopy_chlgkey
+          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_chlgkey
         - name: "am_dvdcopy_disckey"
-          href: /windows/win32/api/dvdmedia/ns-dvdmedia-am_dvdcopy_disckey
+          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_disckey
         - name: "am_dvdcopy_set_copy_state"
           href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_set_copy_state
         - name: "am_dvdcopystate"
@@ -5100,23 +5100,23 @@
         - name: "am_dvdcopy_titlekey"
           href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_titlekey
         - name: "dvd_region"
-          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-_dvd_region
+          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-dvd_region
       - name: "dvd karaoke property set"
         href: dvd-karaoke-property-set.md
         items: 
         - name: "am_dvdkaraokedata"
-          href: /windows/win32/api/dvdmedia/ns-dvdmedia-am_dvdkaraokedata
+          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdkaraokedata
       - name: "dvd subpicture property set"
         href: dvd-subpicture-property-set.md
         items: 
         - name: "am_colcon"
-          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-_am_colcon
+          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_colcon
         - name: "am_dvd_yuv"
-          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-_am_dvd_yuv
+          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvd_yuv
         - name: "am_property_sphli"
-          href: /windows/win32/api/dvdmedia/ns-dvdmedia-am_property_sphli
+          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_property_sphli
         - name: "am_property_sppal"
-          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-_am_property_sppal
+          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_property_sppal
       - name: "external device transport property set"
         href: external-device-transport-property-set.md
         items: 
@@ -5128,7 +5128,7 @@
         href: frame-stepping-property-set.md
         items: 
         - name: "am_framestep_step"
-          href: /windows/win32/api/amvideo/ns-amvideo-am_framestep_step
+          href: /previous-versions/windows/desktop/api/amvideo/ns-amvideo-am_framestep_step
       - name: "pin property set"
         href: pin-property-set.md
       - name: "rate change property set"
@@ -8602,15 +8602,15 @@
         href: dmo-structures.md
         items: 
         - name: "dmo_media_type"
-          href: /previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-_dmomediatype
+          href: /previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type
         - name: "dmo_output_data_buffer"
-          href: /previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-_dmo_output_data_buffer
+          href: /previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_output_data_buffer
         - name: "dmo_partial_mediatype"
-          href: /previous-versions/windows/desktop/api/dmoreg/ns-dmoreg-_dmo_partial_mediatype
+          href: /previous-versions/windows/desktop/api/dmoreg/ns-dmoreg-dmo_partial_mediatype
         - name: "mp_envelope_segment"
-          href: /previous-versions/windows/desktop/api/medparam/ns-medparam-_mp_envelope_segment
+          href: /previous-versions/windows/desktop/api/medparam/ns-medparam-mp_envelope_segment
         - name: "mp_paraminfo"
-          href: /previous-versions/windows/desktop/api/medparam/ns-medparam-_mp_paraminfo
+          href: /previous-versions/windows/desktop/api/medparam/ns-medparam-mp_paraminfo
       - name: "dmo enumerated types"
         href: dmo-enumerated-types.md
         items: 
@@ -8633,9 +8633,9 @@
         - name: "dmo_video_output_stream_flags"
           href: /previous-versions/windows/desktop/api/mediaobj/ne-mediaobj-_dmo_video_output_stream_flags
         - name: "mp_curve_type"
-          href: /previous-versions/windows/desktop/api/medparam/ne-medparam-_mp_curve_type
+          href: /previous-versions/windows/desktop/api/medparam/ne-medparam-mp_curve_type
         - name: "mp_type"
-          href: /previous-versions/windows/desktop/api/medparam/ne-medparam-_mp_type
+          href: /previous-versions/windows/desktop/api/medparam/ne-medparam-mp_type
       - name: "dmo functions"
         href: dmo-functions.md
         items: 
@@ -9916,9 +9916,9 @@
         href: multimedia-streaming-types.md
         items: 
         - name: "stream_state"
-          href: /previous-versions/windows/desktop/api/mmstream/ne-mmstream-__midl___midl_itf_mmstream_0000_0000_0002
+          href: /previous-versions/windows/desktop/api/mmstream/ne-mmstream-stream_state
         - name: "stream_type"
-          href: /previous-versions/windows/desktop/api/mmstream/ne-mmstream-__midl___midl_itf_mmstream_0000_0000_0001
+          href: /previous-versions/windows/desktop/api/mmstream/ne-mmstream-stream_type
       - name: "multimedia streaming data types"
         href: multimedia-streaming-data-types.md
         items: 
@@ -10270,7 +10270,7 @@
         - name: "unregisterpin"
           href: /windows/desktop/api/strmif/nf-strmif-ifiltermapper-unregisterpin
       - name: "ivideoencoder"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nn-strmif-ivideoencoder
+        href: /windows/win32/api/strmif/nn-strmif-ivideoencoder
     - name: "avi file format"
       href: avi-file-format.md
       items: 
