@@ -14,15 +14,12 @@ The **AcceptSecurityContext (Digest)** function enables the server component of 
 
 
 ```C++
-SECURITY_STATUS SEC_Entry InitializeSecurityContext(
+SECURITY_STATUS SEC_Entry AcceptSecurityContext(
   _In_opt_    PCredHandle    phCredential,
-  _In_opt_    PCtxtHandle    phContext,
-  _In_opt_    SEC_CHAR       *pszTargetName,
-  _In_        ULONG          fContextReq,
-  _In_        ULONG          Reserved1,
-  _In_        ULONG          TargetDataRep,
+  _Inout_opt_ PCtxtHandle    phContext,
   _In_opt_    PSecBufferDesc pInput,
-  _In_        ULONG          Reserved2,
+  _In_        ULONG          fContextReq,
+  _In_        ULONG          TargetDataRep,
   _Inout_opt_ PCtxtHandle    phNewContext,
   _Inout_opt_ PSecBufferDesc pOutput,
   _Out_       PULONG         pfContextAttr,
@@ -59,18 +56,18 @@ The following table shows the buffer configuration for Digest HTTP. The first bu
 
 
 
-| Buffer \#/buffer type                                                                                                                                                                                                 | Meaning                                                                                                                                                                  |
+| BufferÂ \#/buffer type                                                                                                                                                                                                 | Meaning                                                                                                                                                                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="0"></span><dl> <dt>**0**</dt> <dt>**SECBUFFER\_TOKEN**</dt> </dl>                                        | Empty for the first call and the challenge response received from the client for the second call.<br/>                                                             |
-| <span id="1"></span><dl> <dt>**1**</dt> <dt>**SECBUFFER\_PKG\_PARAMS**</dt> </dl>                                  | Method. Characters are wireline format from the request line. US ASCII single-byte characters.<br/>                                                                |
+| <span id="1"></span><dl> <dt>**1**</dt> <dt>**SECBUFFER\_PKG\_PARAMS**</dt> </dl>                                  | Method. Characters are wireline format from the request line. USÂ ASCII single-byte characters.<br/>                                                                |
 | <span id="2"></span><dl> <dt>**2**</dt> <dt>**SECBUFFER\_PKG\_PARAMS**</dt> </dl>                                  | Reserved.<br/>                                                                                                                                                     |
-| <span id="3"></span><dl> <dt>**3**</dt> <dt>**SECBUFFER\_PKG\_PARAMS**</dt> </dl>                                  | HEntity. Hexadecimal representation of H(entity-body). US ASCII single-byte characters.<br/>                                                                       |
-| <span id="4"></span><dl> <dt>**4**</dt> <dt>**SECBUFFER\_PKG\_PARAMS**</dt> </dl>                                  | Realm. Realm string for the challenge. Unicode string that must be representable in US ASCII.<br/>                                                                 |
-| <span id="5"></span><dl> <dt>**5**</dt> <dt>**SECBUFFER\_CHANNEL\_BINDINGS** \| **SECBUFFER\_READONLY**</dt> </dl> | Contains the channel binding token value.<br/> **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This value is not supported.<br/> |
+| <span id="3"></span><dl> <dt>**3**</dt> <dt>**SECBUFFER\_PKG\_PARAMS**</dt> </dl>                                  | HEntity. Hexadecimal representation of H(entity-body). USÂ ASCII single-byte characters.<br/>                                                                       |
+| <span id="4"></span><dl> <dt>**4**</dt> <dt>**SECBUFFER\_PKG\_PARAMS**</dt> </dl>                                  | Realm. Realm string for the challenge. Unicode string that must be representable in USÂ ASCII.<br/>                                                                 |
+| <span id="5"></span><dl> <dt>**5**</dt> <dt>**SECBUFFER\_CHANNEL\_BINDINGS** \| **SECBUFFER\_READONLY**</dt> </dl> | Contains the channel binding token value.<br/> **Windows ServerÂ 2008, WindowsÂ Vista, Windows ServerÂ 2003 and WindowsÂ XP:** This value is not supported.<br/> |
 
 
 
- 
+Â 
 
 </dd> <dt>
 
@@ -84,9 +81,9 @@ Bit flags that specify the attributes required by the server to establish the co
 | Value                                                                                                                                                                                                                                          | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="ASC_REQ_ALLOCATE_MEMORY"></span><span id="asc_req_allocate_memory"></span><dl> <dt>**ASC\_REQ\_ALLOCATE\_MEMORY**</dt> </dl>                                                  | Digest allocates output buffers for you. When you have finished using the output buffers, free them by calling the [**FreeContextBuffer**](https://docs.microsoft.com/windows/win32/api/sspi/nf-sspi-freecontextbuffer) function.<br/>                                                                                                                                                                                                                                      |
-| <span id="ASC_REQ_ALLOW_MISSING_BINDINGS"></span><span id="asc_req_allow_missing_bindings"></span><dl> <dt>**ASC\_REQ\_ALLOW\_MISSING\_BINDINGS**</dt> </dl>                            | Indicates that Digest does not require channel bindings for both inner and outer channels. This value is used for backward compatibility when support for endpoint channel binding is not known.<br/> This value is mutually exclusive with **ASC\_REQ\_PROXY\_BINDINGS**.<br/> **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This value is not supported.<br/> <br/> |
+| <span id="ASC_REQ_ALLOW_MISSING_BINDINGS"></span><span id="asc_req_allow_missing_bindings"></span><dl> <dt>**ASC\_REQ\_ALLOW\_MISSING\_BINDINGS**</dt> </dl>                            | Indicates that Digest does not require channel bindings for both inner and outer channels. This value is used for backward compatibility when support for endpoint channel binding is not known.<br/> This value is mutually exclusive with **ASC\_REQ\_PROXY\_BINDINGS**.<br/> **Windows ServerÂ 2008, WindowsÂ Vista, Windows ServerÂ 2003 and WindowsÂ XP:** This value is not supported.<br/> <br/> |
 | <span id="ASC_REQ_CONFIDENTIALITY"></span><span id="asc_req_confidentiality"></span><dl> <dt>**ASC\_REQ\_CONFIDENTIALITY**</dt> </dl>                                                   | Encrypt and decrypt messages. <br/> The Digest SSP supports this flag for SASL only.<br/>                                                                                                                                                                                                                                                                                                                       |
-| <span id="ASC_REQ_PROXY_BINDINGS"></span><span id="asc_req_proxy_bindings"></span><dl> <dt>**ASC\_REQ\_PROXY\_BINDINGS**</dt> </dl>                                                     | Indicates that Digest requires channel binding.<br/> This value is mutually exclusive with **ASC\_REQ\_ALLOW\_MISSING\_BINDINGS**.<br/> **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** This value is not supported.<br/> <br/>                                                                                                                                         |
+| <span id="ASC_REQ_PROXY_BINDINGS"></span><span id="asc_req_proxy_bindings"></span><dl> <dt>**ASC\_REQ\_PROXY\_BINDINGS**</dt> </dl>                                                     | Indicates that Digest requires channel binding.<br/> This value is mutually exclusive with **ASC\_REQ\_ALLOW\_MISSING\_BINDINGS**.<br/> **Windows ServerÂ 2008, WindowsÂ Vista, Windows ServerÂ 2003 and WindowsÂ XP:** This value is not supported.<br/> <br/>                                                                                                                                         |
 | <span id="ASC_REQ_CONNECTION"></span><span id="asc_req_connection"></span><dl> <dt>**ASC\_REQ\_CONNECTION**</dt> </dl>                                                                  | The [*security context*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) will not handle formatting messages.<br/>                                                                                                                                                                                                                                                                                                                                                        |
 | <span id="ASC_REQ_EXTENDED_ERROR"></span><span id="asc_req_extended_error"></span><dl> <dt>**ASC\_REQ\_EXTENDED\_ERROR**</dt> </dl>                                                     | When errors occur, the remote party will be notified.<br/>                                                                                                                                                                                                                                                                                                                                                            |
 | <span id="ASC_REQ_HTTP__0x10000000_"></span><span id="asc_req_http__0x10000000_"></span><span id="ASC_REQ_HTTP__0X10000000_"></span><dl> <dt>**ASC\_REQ\_HTTP (0x10000000)**</dt> </dl> | Use Digest for HTTP. Omit this flag to use Digest as an SASL mechanism.<br/>                                                                                                                                                                                                                                                                                                                                          |
@@ -96,7 +93,7 @@ Bit flags that specify the attributes required by the server to establish the co
 
 
 
- 
+Â 
 
 For possible attribute flags and their meanings, see [Context Requirements](context-requirements.md). Flags used for this parameter are prefixed with ASC\_REQ, for example, ASC\_REQ\_DELEGATE.
 
@@ -146,7 +143,7 @@ This parameter is set to a constant maximum time. There is no expiration time fo
 > [!Note]  
 > Until the last call of the authentication process, the expiration time for the context can be incorrect because more information will be provided during later stages of the negotiation. Therefore, *ptsTimeStamp* must be **NULL** until the last call to the function.
 
- 
+Â 
 
 </dd> </dl>
 
@@ -160,7 +157,7 @@ This function returns one of the following values.
 
 
 
- 
+Â 
 
 ## Remarks
 
@@ -179,7 +176,7 @@ The *fContextReq* and *pfContextAttr* parameters are bitmasks that represent var
 > [!Note]  
 > The *pfContextAttr* parameter is valid on any successful return, but only on the final successful return should you examine the flags pertaining to security aspects of the context. Intermediate returns can set, for example, the ISC\_RET\_ALLOCATED\_MEMORY flag.
 
- 
+Â 
 
 The caller is responsible for determining whether the final context attributes are sufficient. If, for example, confidentiality (encryption) was requested, but could not be established, some applications may choose to shut down the connection immediately. If the [*security context*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) cannot be established, the server must free the partially created context by calling the [**DeleteSecurityContext**](https://docs.microsoft.com/windows/win32/api/sspi/nf-sspi-deletesecuritycontext) function. For information about when to call the **DeleteSecurityContext** function, see **DeleteSecurityContext**.
 
@@ -191,8 +188,8 @@ After the [*security context*](https://docs.microsoft.com/windows/win32/secgloss
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | WindowsÂ XP \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows ServerÂ 2003 \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Sspi.h (include Security.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Secur32.lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
@@ -212,9 +209,9 @@ After the [*security context*](https://docs.microsoft.com/windows/win32/secgloss
 [**InitializeSecurityContext (Digest)**](initializesecuritycontext--digest.md)
 </dt> </dl>
 
- 
+Â 
 
- 
+Â 
 
 
 
