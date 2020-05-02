@@ -2193,17 +2193,17 @@
       - name: "wmt_videoimage_sample"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample
       - name: "wmt_videoimage_sample2"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample2
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_videoimage_sample2
       - name: "wmt_watermark_entry"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__wmt_watermark_entry
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_watermark_entry
       - name: "wmt_webstream_format"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmt_webstream_format
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_webstream_format
       - name: "wmt_webstream_sample_header"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmt_webstream_sample_header
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_webstream_sample_header
       - name: "wmvideoinfoheader"
-        href: /windows/win32/api/wmsdkidl/ns-wmsdkidl-wmvideoinfoheader
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmvideoinfoheader
       - name: "wmvideoinfoheader2"
-        href: /windows/win32/api/wmsdkidl/ns-wmsdkidl-wmvideoinfoheader2
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmvideoinfoheader2
     - name: "enumeration types"
       href: enumeration-types.md
       items: 
@@ -2226,21 +2226,21 @@
       - name: "wmt_credential_flags"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_credential_flags
       - name: "wmt_drmla_trust"
-        href: /windows/win32/api/wmsdkidl/ne-wmsdkidl-wmt_drmla_trust
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_drmla_trust
       - name: "wmt_filesink_mode"
-        href: /windows/win32/api/wmsdkidl/ne-wmsdkidl-wmt_filesink_mode
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_filesink_mode
       - name: "wmt_image_type"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_image_type
       - name: "wmt_index_type"
-        href: /windows/win32/api/wmsdkidl/ne-wmsdkidl-wmt_index_type
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_index_type
       - name: "wmt_indexer_type"
-        href: /windows/win32/api/wmsdkidl/ne-wmsdkidl-wmt_indexer_type
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_indexer_type
       - name: "wmt_net_protocol"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_net_protocol
       - name: "wmt_musicspeech_class_mode"
-        href: /windows/win32/api/wmsdkidl/ne-wmsdkidl-wmt_musicspeech_class_mode
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_musicspeech_class_mode
       - name: "wmt_offset_format"
-        href: /windows/win32/api/wmsdkidl/ne-wmsdkidl-wmt_offset_format
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_offset_format
       - name: "wmt_play_mode"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_play_mode
       - name: "wmt_proxy_settings"
@@ -2250,11 +2250,11 @@
       - name: "wmt_status"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_status
       - name: "wmt_storage_format"
-        href: /windows/win32/api/wmsdkidl/ne-wmsdkidl-wmt_storage_format
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_storage_format
       - name: "wmt_stream_selection"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_stream_selection
       - name: "wmt_transport_type"
-        href: /windows/win32/api/wmsdkidl/ne-wmsdkidl-wmt_transport_type
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_transport_type
       - name: "wmt_version"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_version
       - name: "wmt_watermark_entry_type"
