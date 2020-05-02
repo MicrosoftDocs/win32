@@ -2258,7 +2258,7 @@
       - name: "wmt_version"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_version
       - name: "wmt_watermark_entry_type"
-        href: /windows/win32/api/wmsdkidl/ne-wmsdkidl-wmt_watermark_entry_type
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_watermark_entry_type
     - name: "attributes"
       href: attributes.md
       items: 
