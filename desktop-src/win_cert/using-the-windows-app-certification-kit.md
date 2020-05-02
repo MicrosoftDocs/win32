@@ -31,7 +31,7 @@ Before you install the Windows ACK, you need to install and run the operating sy
 
 2. Install the [Windows App Certification Kit 3.3](https://docs.microsoft.com/previous-versions//mt637081(v=vs.85)), which is included in the Windows Software Development Kit (SDK) for Windows 8.1.
 
-**Note:**When you install Windows App Certification Kit 3.3 or higher on your PC, you replace any previously installed version of the kit.
+**Note:** When you install Windows App Certification Kit 3.3 or higher on your PC, you replace any previously installed version of the kit.
 
 ## Instructions to run Windows App Certification Kit 3.3
 
