@@ -1,176 +1,5897 @@
 ---
-Description: This section specifies the formats (DXGI\_FORMAT values) that are supported in Direct3D Feature Level 11.0 hardware.
+Description: This section specifies the formats ([**DXGI_FORMAT_***](https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx) values) that are supported in Direct3D Feature Level 11.0 hardware.
 ms.assetid: 735CDA40-557F-4D47-87B7-97A8E120B9D2
-title: Format Support for Direct3D Feature Level 11.0 Hardware
+title: Format support for Direct3D Feature Level 11.0 hardware
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Format Support for Direct3D Feature Level 11.0 Hardware
+# Format support for Direct3D Feature Level 11.0 hardware
 
-This section specifies the formats ([**DXGI\_FORMAT**](https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx) values) that are supported in Direct3D Feature Level 11.0 hardware.
+This section specifies the formats ([**DXGI_FORMAT_***](https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx) values) that are supported in Direct3D Feature Level 11.0 hardware.
 
-The following tables summarize the feature support, using the key.
+The table summarizes the feature support, using the following key.
 
-
-
-|                                   |                                                                               |
-|-----------------------------------|-------------------------------------------------------------------------------|
 | Symbol                            | Description                                                                   |
+|-----------------------------------|-------------------------------------------------------------------------------|
 | **-**                             | Disallowed or not available.                                                  |
 | ![required](images/letter-r.jpg)  | Hardware support is required.                                                 |
 | ![optional](images/letter-o.jpg)  | Hardware support optional, the format may or may not be hardware accelerated. |
 | ![dependant](images/letter-d.jpg) | Required if related optional feature is supported.                            |
 
+This topic contains a section per format. A format *target* (the tables contain one row per target) can be a resource type, an HLSL intrinsic function, or a particular functionality that is dependent on a particular format.
 
+To programmatically verify format support in D3D11 and D3D12, refer to [Checking hardware feature support](checking-hardware-feature-support.md).
 
- 
+> [!NOTE] 
+> The numbers of the formats are mostly, but not all, in ascending numerical order&mdash;some are out of numerical order, and listed alongside other relevant formats. Note also that *typeless* in a format name can mean *partially* typed, and not strictly typeless (refer to the [Format notes](#format-notes) section at the end of the topic).
 
-A format target (listed in the top row) can be a resource type, an HLSL intrinsic function, or a particular functionality that is dependent on a particular format.
+## DXGI_FORMAT_UNKNOWN<sup>L</sup> (0)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 0 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | \- |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | \- |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | ![required](images/letter-r.jpg) |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
 
-To programmatically verify format support in D3D11 and D3D12, refer to [Checking Hardware Feature Support](checking-hardware-feature-support.md).
+## DXGI_FORMAT_R32G32B32A32\_TYPELESS<sup>PCS</sup> (1)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
 
-> [!Note]  
-> To scroll to the desired location in these large tables, first minimize the side of the screen for the table of contents. Then you may need to scroll down to the bottom of the page, use the horizontal scroll bar there to select the desired format target, then use the vertical scroll bar to locate the correct table entry.
+## DXGI_FORMAT_R32G32B32A32\_FLOAT<sup>FCS</sup> (2)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | ![required](images/letter-r.jpg) |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
 
- 
+## DXGI_FORMAT_R32G32B32A32\_UINT<sup>FCS</sup> (3)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | ![required](images/letter-r.jpg) |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
 
-> [!Note]  
-> The numbers of the formats are mostly, but not all, in ascending numerical order - some are out of numerical order and listed alongside other relevant formats. Note also that "typeless" in the name can mean "partially typed" and not strictly typeless (refer to the format notes at the end of the table).
+## DXGI_FORMAT_R32G32B32A32\_SINT<sup>FCS</sup> (4)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | ![required](images/letter-r.jpg) |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
 
- 
+## DXGI_FORMAT_R32G32B32\_TYPELESS<sup>PCS</sup> (5)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 96 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
 
+## DXGI_FORMAT_R32G32B32\_FLOAT<sup>FCS</sup> (6)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 96 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | ![required](images/letter-r.jpg) |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![optional](images/letter-o.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![optional](images/letter-o.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![optional](images/letter-o.jpg) |
+| RenderTarget | ![optional](images/letter-o.jpg) |
+| Blendable RenderTarget | ![dependant](images/letter-d.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![dependant](images/letter-d.jpg) |
+| 8x Multisample RenderTarget | ![dependant](images/letter-d.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
 
+## DXGI_FORMAT_R32G32B32\_UINT<sup>FCS</sup> (7)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 96 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | ![required](images/letter-r.jpg) |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![optional](images/letter-o.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![dependant](images/letter-d.jpg) |
+| 8x Multisample RenderTarget | ![dependant](images/letter-d.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
 
-| \#  | Format ( DXGI\_FORMAT\_\* )                  | Bits Per Element (BPE) | Format Support                   | Buffer                           | Input Assembler Vertex Buffer    | Input Assembler Index Buffer     | Stream Output Buffer             | Texture1D                        | Texture2D                        | Texture3D                        | TextureCube                      | \#  | Format ( DXGI\_FORMAT\_\* )    | Shader ld                        | Shader sample (any filter)       | Shader sample\_c (comparison filter) | Shader sample (mono 1\_bit\_filter) | Shader gather4                   | Shader gather4\_c                | Mipmap                           | Mipmap Auto-Generation           | RenderTarget                     | Blendable RenderTarget            | \#  | Format ( DXGI\_FORMAT\_\* )    | Output Merger Logic Op           | Depth/Stencil Target             | Raw UAV and SRV                  | Structured UAV and SRV           | Typed UAV                        | UAV Typed Store                  | UAV Typed Load                   | UAV Atomic Add                   | UAV Atomic Bitwise Ops           | UAV Atomic Cmp&Store/ Cmp&Exch   | \#  | Format ( DXGI\_FORMAT\_\* )    | UAV Atomic Exchange              | UAV Atomic Signed Min/Max        | UAV Atomic Unsigned Min/Max      | CPU Lockable                     | 4x Multisample RenderTarget       | 8x Multisample RenderTarget       | Other Multisample Count RT       | Multisample Resolve              | Multisample Load                 | Display Scan-Out                 | \#  | Format ( DXGI\_FORMAT\_\* )    | Cast Within Bit Layout           | Video Decoder Support            | Video Processor Input            | Video Processor Output           | Shared Resource                  | BackBuffer Castable Even Fully Typed | Tiled Resource                   | \#  | Format ( DXGI\_FORMAT\_\* )    |
-|-----|----------------------------------------------|------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|-----|--------------------------------|----------------------------------|----------------------------------|--------------------------------------|-------------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|-----------------------------------|-----|--------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|-----|--------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|-----------------------------------|-----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|-----|--------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|--------------------------------------|----------------------------------|-----|--------------------------------|
-| 0   | UNKNOWN<sup>L</sup>                          | 0                      | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 0   | UNKNOWN                        | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | \-                               | \-                               | \-                               | \-                                | 0   | UNKNOWN                        | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 0   | UNKNOWN                        | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 0   | UNKNOWN                        | \-                               | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 0   | UNKNOWN                        |
-| 1   | R32G32B32A32\_TYPELESS<sup>PCS</sup>         | 128                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 1   | R32G32B32A32\_TYPELESS         | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 1   | R32G32B32A32\_TYPELESS         | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 1   | R32G32B32A32\_TYPELESS         | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 1   | R32G32B32A32\_TYPELESS         | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 1   | R32G32B32A32\_TYPELESS         |
-| 2   | R32G32B32A32\_FLOAT<sup>FCS</sup>            | 128                    | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 2   | R32G32B32A32\_FLOAT            | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 2   | R32G32B32A32\_FLOAT            | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 2   | R32G32B32A32\_FLOAT            | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 2   | R32G32B32A32\_FLOAT            | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 2   | R32G32B32A32\_FLOAT            |
-| 3   | R32G32B32A32\_UINT<sup>FCS</sup>             | 128                    | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 3   | R32G32B32A32\_UINT             | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 3   | R32G32B32A32\_UINT             | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 3   | R32G32B32A32\_UINT             | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 3   | R32G32B32A32\_UINT             | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 3   | R32G32B32A32\_UINT             |
-| 4   | R32G32B32A32\_SINT<sup>FCS</sup>             | 128                    | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 4   | R32G32B32A32\_SINT             | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 4   | R32G32B32A32\_SINT             | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 4   | R32G32B32A32\_SINT             | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 4   | R32G32B32A32\_SINT             | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 4   | R32G32B32A32\_SINT             |
-| 5   | R32G32B32\_TYPELESS<sup>PCS</sup>            | 96                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 5   | R32G32B32\_TYPELESS            | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 5   | R32G32B32\_TYPELESS            | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 5   | R32G32B32\_TYPELESS            | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 5   | R32G32B32\_TYPELESS            | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | \-                               | 5   | R32G32B32\_TYPELESS            |
-| 6   | R32G32B32\_FLOAT<sup>FCS</sup>               | 96                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 6   | R32G32B32\_FLOAT               | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                                   | \-                                  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![dependant](images/letter-d.jpg) | 6   | R32G32B32\_FLOAT               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 6   | R32G32B32\_FLOAT               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![dependant](images/letter-d.jpg) | ![dependant](images/letter-d.jpg) | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 6   | R32G32B32\_FLOAT               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | \-                               | 6   | R32G32B32\_FLOAT               |
-| 7   | R32G32B32\_UINT<sup>FCS</sup>                | 96                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 7   | R32G32B32\_UINT                | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![optional](images/letter-o.jpg) | \-                                | 7   | R32G32B32\_UINT                | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 7   | R32G32B32\_UINT                | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![dependant](images/letter-d.jpg) | ![dependant](images/letter-d.jpg) | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 7   | R32G32B32\_UINT                | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | \-                               | 7   | R32G32B32\_UINT                |
-| 8   | R32G32B32\_SINT<sup>FCS</sup>                | 96                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 8   | R32G32B32\_SINT                | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![optional](images/letter-o.jpg) | \-                                | 8   | R32G32B32\_SINT                | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 8   | R32G32B32\_SINT                | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![dependant](images/letter-d.jpg) | ![dependant](images/letter-d.jpg) | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 8   | R32G32B32\_SINT                | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | \-                               | 8   | R32G32B32\_SINT                |
-| 9   | R16G16B16A16\_TYPELESS<sup>PCS</sup>         | 64                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 9   | R16G16B16A16\_TYPELESS         | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 9   | R16G16B16A16\_TYPELESS         | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 9   | R16G16B16A16\_TYPELESS         | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 9   | R16G16B16A16\_TYPELESS         | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 9   | R16G16B16A16\_TYPELESS         |
-| 10  | R16G16B16A16\_FLOAT<sup>FCS</sup>            | 64                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 10  | R16G16B16A16\_FLOAT            | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 10  | R16G16B16A16\_FLOAT            | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 10  | R16G16B16A16\_FLOAT            | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 10  | R16G16B16A16\_FLOAT            | ![required](images/letter-r.jpg) | \-                               | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 10  | R16G16B16A16\_FLOAT            |
-| 11  | R16G16B16A16\_UNORM<sup>FCS</sup>            | 64                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 11  | R16G16B16A16\_UNORM            | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 11  | R16G16B16A16\_UNORM            | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 11  | R16G16B16A16\_UNORM            | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 11  | R16G16B16A16\_UNORM            | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 11  | R16G16B16A16\_UNORM            |
-| 12  | R16G16B16A16\_UINT<sup>FCS</sup>             | 64                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 12  | R16G16B16A16\_UINT             | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 12  | R16G16B16A16\_UINT             | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 12  | R16G16B16A16\_UINT             | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 12  | R16G16B16A16\_UINT             | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 12  | R16G16B16A16\_UINT             |
-| 13  | R16G16B16A16\_SNORM<sup>FCS</sup>            | 64                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 13  | R16G16B16A16\_SNORM            | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 13  | R16G16B16A16\_SNORM            | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 13  | R16G16B16A16\_SNORM            | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 13  | R16G16B16A16\_SNORM            | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 13  | R16G16B16A16\_SNORM            |
-| 14  | R16G16B16A16\_SINT<sup>FCS</sup>             | 64                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 14  | R16G16B16A16\_SINT             | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 14  | R16G16B16A16\_SINT             | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 14  | R16G16B16A16\_SINT             | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 14  | R16G16B16A16\_SINT             | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 14  | R16G16B16A16\_SINT             |
-| 15  | R32G32\_TYPELESS<sup>PCS</sup>               | 64                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 15  | R32G32\_TYPELESS               | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 15  | R32G32\_TYPELESS               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 15  | R32G32\_TYPELESS               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 15  | R32G32\_TYPELESS               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 15  | R32G32\_TYPELESS               |
-| 16  | R32G32\_FLOAT<sup>FCS</sup>                  | 64                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 16  | R32G32\_FLOAT                  | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 16  | R32G32\_FLOAT                  | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 16  | R32G32\_FLOAT                  | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 16  | R32G32\_FLOAT                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 16  | R32G32\_FLOAT                  |
-| 17  | R32G32\_UINT<sup>FCS</sup>                   | 64                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 17  | R32G32\_UINT                   | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 17  | R32G32\_UINT                   | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 17  | R32G32\_UINT                   | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 17  | R32G32\_UINT                   | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 17  | R32G32\_UINT                   |
-| 18  | R32G32\_SINT<sup>FCS</sup>                   | 64                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 18  | R32G32\_SINT                   | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 18  | R32G32\_SINT                   | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 18  | R32G32\_SINT                   | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 18  | R32G32\_SINT                   | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 18  | R32G32\_SINT                   |
-| 19  | R32G8X24\_TYPELESS<sup>PCS</sup>             | 64                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | 19  | R32G8X24\_TYPELESS             | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 19  | R32G8X24\_TYPELESS             | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 19  | R32G8X24\_TYPELESS             | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 19  | R32G8X24\_TYPELESS             | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | \-                               | 19  | R32G8X24\_TYPELESS             |
-| \#  | Format ( DXGI\_FORMAT\_\* )                  | Bits Per Element (BPE) | Format Support                   | Buffer                           | Input Assembler Vertex Buffer    | Input Assembler Index Buffer     | Stream Output Buffer             | Texture1D                        | Texture2D                        | Texture3D                        | TextureCube                      | \#  | Format ( DXGI\_FORMAT\_\* )    | Shader ld                        | Shader sample (any filter)       | Shader sample\_c (comparison filter) | Shader sample (mono 1\_bit\_filter) | Shader gather4                   | Shader gather4\_c                | Mipmap                           | Mipmap Auto-Generation           | RenderTarget                     | Blendable RenderTarget            | \#  | Format ( DXGI\_FORMAT\_\* )    | Output Merger Logic Op           | Depth/Stencil Target             | Raw UAV and SRV                  | Structured UAV and SRV           | Typed UAV                        | UAV Typed Store                  | UAV Typed Load                   | UAV Atomic Add                   | UAV Atomic Bitwise Ops           | UAV Atomic Cmp&Store/ Cmp&Exch   | \#  | Format ( DXGI\_FORMAT\_\* )    | UAV Atomic Exchange              | UAV Atomic Signed Min/Max        | UAV Atomic Unsigned Min/Max      | CPU Lockable                     | 4x Multisample RenderTarget       | 8x Multisample RenderTarget       | Other Multisample Count RT       | Multisample Resolve              | Multisample Load                 | Display Scan-Out                 | \#  | Format ( DXGI\_FORMAT\_\* )    | Cast Within Bit Layout           | Video Decoder Support            | Video Processor Input            | Video Processor Output           | Shared Resource                  | BackBuffer Castable Even Fully Typed | Tiled Resource                   | \#  | Format ( DXGI\_FORMAT\_\* )    |
-| 20  | D32\_FLOAT\_S8X24\_UINT<sup>FCS</sup>        | 64                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | 20  | D32\_FLOAT\_S8X24\_UINT        | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 20  | D32\_FLOAT\_S8X24\_UINT        | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 20  | D32\_FLOAT\_S8X24\_UINT        | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 20  | D32\_FLOAT\_S8X24\_UINT        | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | \-                               | 20  | D32\_FLOAT\_S8X24\_UINT        |
-| 21  | R32\_FLOAT\_X8X24\_TYPELESS<sup>FCS</sup>    | 64                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | 21  | R32\_FLOAT\_X8X24\_TYPELESS    | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)     | \-                                  | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 21  | R32\_FLOAT\_X8X24\_TYPELESS    | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 21  | R32\_FLOAT\_X8X24\_TYPELESS    | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | 21  | R32\_FLOAT\_X8X24\_TYPELESS    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | \-                               | 21  | R32\_FLOAT\_X8X24\_TYPELESS    |
-| 22  | X32\_TYPELESS\_G8X24\_UINT<sup>FCS</sup>     | 64                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | 22  | X32\_TYPELESS\_G8X24\_UINT     | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 22  | X32\_TYPELESS\_G8X24\_UINT     | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 22  | X32\_TYPELESS\_G8X24\_UINT     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | 22  | X32\_TYPELESS\_G8X24\_UINT     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | \-                               | 22  | X32\_TYPELESS\_G8X24\_UINT     |
-| 23  | R10G10B10A2\_TYPELESS<sup>PCS</sup>          | 32                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 23  | R10G10B10A2\_TYPELESS          | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 23  | R10G10B10A2\_TYPELESS          | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 23  | R10G10B10A2\_TYPELESS          | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 23  | R10G10B10A2\_TYPELESS          | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 23  | R10G10B10A2\_TYPELESS          |
-| 24  | R10G10B10A2\_UNORM<sup>FCS</sup>             | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 24  | R10G10B10A2\_UNORM             | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 24  | R10G10B10A2\_UNORM             | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 24  | R10G10B10A2\_UNORM             | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 24  | R10G10B10A2\_UNORM             | ![required](images/letter-r.jpg) | \-                               | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)     | ![optional](images/letter-o.jpg) | 24  | R10G10B10A2\_UNORM             |
-| 25  | R10G10B10A2\_UINT<sup>FCS</sup>              | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 25  | R10G10B10A2\_UINT              | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 25  | R10G10B10A2\_UINT              | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 25  | R10G10B10A2\_UINT              | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 25  | R10G10B10A2\_UINT              | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 25  | R10G10B10A2\_UINT              |
-| 89  | R10G10B10\_XR\_BIAS\_A2\_UNORM<sup>FCS</sup> | 32                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | 89  | R10G10B10\_XR\_BIAS\_A2\_UNORM | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | \-                               | \-                               | \-                               | \-                                | 89  | R10G10B10\_XR\_BIAS\_A2\_UNORM | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 89  | R10G10B10\_XR\_BIAS\_A2\_UNORM | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | 89  | R10G10B10\_XR\_BIAS\_A2\_UNORM | ![required](images/letter-r.jpg) | \-                               | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)     | ![optional](images/letter-o.jpg) | 89  | R10G10B10\_XR\_BIAS\_A2\_UNORM |
-| 26  | R11G11B10\_FLOAT<sup>FNS</sup>               | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 26  | R11G11B10\_FLOAT               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 26  | R11G11B10\_FLOAT               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 26  | R11G11B10\_FLOAT               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 26  | R11G11B10\_FLOAT               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 26  | R11G11B10\_FLOAT               |
-| 27  | R8G8B8A8\_TYPELESS<sup>PCS</sup>             | 32                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 27  | R8G8B8A8\_TYPELESS             | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 27  | R8G8B8A8\_TYPELESS             | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 27  | R8G8B8A8\_TYPELESS             | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 27  | R8G8B8A8\_TYPELESS             | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 27  | R8G8B8A8\_TYPELESS             |
-| 28  | R8G8B8A8\_UNORM<sup>FCS</sup>                | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 28  | R8G8B8A8\_UNORM                | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 28  | R8G8B8A8\_UNORM                | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 28  | R8G8B8A8\_UNORM                | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 28  | R8G8B8A8\_UNORM                | ![required](images/letter-r.jpg) | \-                               | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)     | ![optional](images/letter-o.jpg) | 28  | R8G8B8A8\_UNORM                |
-| 29  | R8G8B8A8\_UNORM\_SRGB<sup>FCS</sup>          | 32                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 29  | R8G8B8A8\_UNORM\_SRGB          | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 29  | R8G8B8A8\_UNORM\_SRGB          | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 29  | R8G8B8A8\_UNORM\_SRGB          | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 29  | R8G8B8A8\_UNORM\_SRGB          | ![required](images/letter-r.jpg) | \-                               | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)     | ![optional](images/letter-o.jpg) | 29  | R8G8B8A8\_UNORM\_SRGB          |
-| 30  | R8G8B8A8\_UINT<sup>FCS</sup>                 | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 30  | R8G8B8A8\_UINT                 | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 30  | R8G8B8A8\_UINT                 | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 30  | R8G8B8A8\_UINT                 | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 30  | R8G8B8A8\_UINT                 | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 30  | R8G8B8A8\_UINT                 |
-| 31  | R8G8B8A8\_SNORM<sup>FCS</sup>                | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 31  | R8G8B8A8\_SNORM                | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 31  | R8G8B8A8\_SNORM                | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 31  | R8G8B8A8\_SNORM                | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 31  | R8G8B8A8\_SNORM                | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 31  | R8G8B8A8\_SNORM                |
-| 32  | R8G8B8A8\_SINT<sup>FCS</sup>                 | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 32  | R8G8B8A8\_SINT                 | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 32  | R8G8B8A8\_SINT                 | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 32  | R8G8B8A8\_SINT                 | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 32  | R8G8B8A8\_SINT                 | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 32  | R8G8B8A8\_SINT                 |
-| 33  | R16G16\_TYPELESS<sup>PCS</sup>               | 32                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 33  | R16G16\_TYPELESS               | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 33  | R16G16\_TYPELESS               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 33  | R16G16\_TYPELESS               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 33  | R16G16\_TYPELESS               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 33  | R16G16\_TYPELESS               |
-| 34  | R16G16\_FLOAT<sup>FCS</sup>                  | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 34  | R16G16\_FLOAT                  | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 34  | R16G16\_FLOAT                  | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 34  | R16G16\_FLOAT                  | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 34  | R16G16\_FLOAT                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 34  | R16G16\_FLOAT                  |
-| 35  | R16G16\_UNORM<sup>FCS</sup>                  | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 35  | R16G16\_UNORM                  | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 35  | R16G16\_UNORM                  | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 35  | R16G16\_UNORM                  | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 35  | R16G16\_UNORM                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 35  | R16G16\_UNORM                  |
-| 36  | R16G16\_UINT<sup>FCS</sup>                   | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 36  | R16G16\_UINT                   | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 36  | R16G16\_UINT                   | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 36  | R16G16\_UINT                   | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 36  | R16G16\_UINT                   | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 36  | R16G16\_UINT                   |
-| 37  | R16G16\_SNORM<sup>FCS</sup>                  | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 37  | R16G16\_SNORM                  | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 37  | R16G16\_SNORM                  | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 37  | R16G16\_SNORM                  | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 37  | R16G16\_SNORM                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 37  | R16G16\_SNORM                  |
-| 38  | R16G16\_SINT<sup>FCS</sup>                   | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 38  | R16G16\_SINT                   | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 38  | R16G16\_SINT                   | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 38  | R16G16\_SINT                   | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 38  | R16G16\_SINT                   | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 38  | R16G16\_SINT                   |
-| 39  | R32\_TYPELESS<sup>PCS</sup>                  | 32                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 39  | R32\_TYPELESS                  | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 39  | R32\_TYPELESS                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 39  | R32\_TYPELESS                  | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 39  | R32\_TYPELESS                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 39  | R32\_TYPELESS                  |
-| \#  | Format ( DXGI\_FORMAT\_\* )                  | Bits Per Element (BPE) | Format Support                   | Buffer                           | Input Assembler Vertex Buffer    | Input Assembler Index Buffer     | Stream Output Buffer             | Texture1D                        | Texture2D                        | Texture3D                        | TextureCube                      | \#  | Format ( DXGI\_FORMAT\_\* )    | Shader ld                        | Shader sample (any filter)       | Shader sample\_c (comparison filter) | Shader sample (mono 1\_bit\_filter) | Shader gather4                   | Shader gather4\_c                | Mipmap                           | Mipmap Auto-Generation           | RenderTarget                     | Blendable RenderTarget            | \#  | Format ( DXGI\_FORMAT\_\* )    | Output Merger Logic Op           | Depth/Stencil Target             | Raw UAV and SRV                  | Structured UAV and SRV           | Typed UAV                        | UAV Typed Store                  | UAV Typed Load                   | UAV Atomic Add                   | UAV Atomic Bitwise Ops           | UAV Atomic Cmp&Store/ Cmp&Exch   | \#  | Format ( DXGI\_FORMAT\_\* )    | UAV Atomic Exchange              | UAV Atomic Signed Min/Max        | UAV Atomic Unsigned Min/Max      | CPU Lockable                     | 4x Multisample RenderTarget       | 8x Multisample RenderTarget       | Other Multisample Count RT       | Multisample Resolve              | Multisample Load                 | Display Scan-Out                 | \#  | Format ( DXGI\_FORMAT\_\* )    | Cast Within Bit Layout           | Video Decoder Support            | Video Processor Input            | Video Processor Output           | Shared Resource                  | BackBuffer Castable Even Fully Typed | Tiled Resource                   | \#  | Format ( DXGI\_FORMAT\_\* )    |
-| 40  | D32\_FLOAT<sup>FCS</sup>                     | 32                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | 40  | D32\_FLOAT                     | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 40  | D32\_FLOAT                     | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 40  | D32\_FLOAT                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 40  | D32\_FLOAT                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 40  | D32\_FLOAT                     |
-| 41  | R32\_FLOAT<sup>FCS</sup>                     | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 41  | R32\_FLOAT                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)     | \-                                  | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 41  | R32\_FLOAT                     | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | 41  | R32\_FLOAT                     | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 41  | R32\_FLOAT                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 41  | R32\_FLOAT                     |
-| 42  | R32\_UINT<sup>FCS</sup>                      | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 42  | R32\_UINT                      | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 42  | R32\_UINT                      | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 42  | R32\_UINT                      | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 42  | R32\_UINT                      | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 42  | R32\_UINT                      |
-| 43  | R32\_SINT<sup>FCS</sup>                      | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 43  | R32\_SINT                      | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 43  | R32\_SINT                      | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 43  | R32\_SINT                      | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 43  | R32\_SINT                      | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 43  | R32\_SINT                      |
-| 44  | R24G8\_TYPELESS<sup>PCS</sup>                | 32                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | 44  | R24G8\_TYPELESS                | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 44  | R24G8\_TYPELESS                | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 44  | R24G8\_TYPELESS                | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 44  | R24G8\_TYPELESS                | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | \-                               | 44  | R24G8\_TYPELESS                |
-| 45  | D24\_UNORM\_S8\_UINT<sup>FCS</sup>           | 32                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | 45  | D24\_UNORM\_S8\_UINT           | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 45  | D24\_UNORM\_S8\_UINT           | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 45  | D24\_UNORM\_S8\_UINT           | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 45  | D24\_UNORM\_S8\_UINT           | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | \-                               | 45  | D24\_UNORM\_S8\_UINT           |
-| 46  | R24\_UNORM\_X8\_TYPELESS<sup>FCS</sup>       | 32                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | 46  | R24\_UNORM\_X8\_TYPELESS       | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)     | \-                                  | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 46  | R24\_UNORM\_X8\_TYPELESS       | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 46  | R24\_UNORM\_X8\_TYPELESS       | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | 46  | R24\_UNORM\_X8\_TYPELESS       | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | \-                               | 46  | R24\_UNORM\_X8\_TYPELESS       |
-| 47  | X24\_TYPELESS\_G8\_UINT<sup>FCS</sup>        | 32                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | 47  | X24\_TYPELESS\_G8\_UINT        | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 47  | X24\_TYPELESS\_G8\_UINT        | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 47  | X24\_TYPELESS\_G8\_UINT        | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | 47  | X24\_TYPELESS\_G8\_UINT        | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | \-                               | 47  | X24\_TYPELESS\_G8\_UINT        |
-| 48  | R8G8\_TYPELESS<sup>PCS</sup>                 | 16                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 48  | R8G8\_TYPELESS                 | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 48  | R8G8\_TYPELESS                 | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 48  | R8G8\_TYPELESS                 | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 48  | R8G8\_TYPELESS                 | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 48  | R8G8\_TYPELESS                 |
-| 49  | R8G8\_UNORM<sup>FCS</sup>                    | 16                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 49  | R8G8\_UNORM                    | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 49  | R8G8\_UNORM                    | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 49  | R8G8\_UNORM                    | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 49  | R8G8\_UNORM                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 49  | R8G8\_UNORM                    |
-| 50  | R8G8\_UINT<sup>FCS</sup>                     | 16                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 50  | R8G8\_UINT                     | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 50  | R8G8\_UINT                     | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 50  | R8G8\_UINT                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 50  | R8G8\_UINT                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 50  | R8G8\_UINT                     |
-| 51  | R8G8\_SNORM<sup>FCS</sup>                    | 16                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 51  | R8G8\_SNORM                    | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 51  | R8G8\_SNORM                    | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 51  | R8G8\_SNORM                    | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 51  | R8G8\_SNORM                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 51  | R8G8\_SNORM                    |
-| 52  | R8G8\_SINT<sup>FCS</sup>                     | 16                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 52  | R8G8\_SINT                     | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 52  | R8G8\_SINT                     | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 52  | R8G8\_SINT                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 52  | R8G8\_SINT                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 52  | R8G8\_SINT                     |
-| 53  | R16\_TYPELESS<sup>PCS</sup>                  | 16                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 53  | R16\_TYPELESS                  | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 53  | R16\_TYPELESS                  | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 53  | R16\_TYPELESS                  | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 53  | R16\_TYPELESS                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 53  | R16\_TYPELESS                  |
-| 54  | R16\_FLOAT<sup>FCS</sup>                     | 16                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 54  | R16\_FLOAT                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 54  | R16\_FLOAT                     | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 54  | R16\_FLOAT                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 54  | R16\_FLOAT                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 54  | R16\_FLOAT                     |
-| 55  | D16\_UNORM<sup>FCS</sup>                     | 16                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | 55  | D16\_UNORM                     | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 55  | D16\_UNORM                     | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 55  | D16\_UNORM                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 55  | D16\_UNORM                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 55  | D16\_UNORM                     |
-| 56  | R16\_UNORM<sup>FCS</sup>                     | 16                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 56  | R16\_UNORM                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)     | \-                                  | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 56  | R16\_UNORM                     | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 56  | R16\_UNORM                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 56  | R16\_UNORM                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 56  | R16\_UNORM                     |
-| 57  | R16\_UINT<sup>FCS</sup>                      | 16                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 57  | R16\_UINT                      | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 57  | R16\_UINT                      | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 57  | R16\_UINT                      | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 57  | R16\_UINT                      | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 57  | R16\_UINT                      |
-| 58  | R16\_SNORM<sup>FCS</sup>                     | 16                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 58  | R16\_SNORM                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 58  | R16\_SNORM                     | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 58  | R16\_SNORM                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 58  | R16\_SNORM                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 58  | R16\_SNORM                     |
-| 59  | R16\_SINT<sup>FCS</sup>                      | 16                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 59  | R16\_SINT                      | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 59  | R16\_SINT                      | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 59  | R16\_SINT                      | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 59  | R16\_SINT                      | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 59  | R16\_SINT                      |
-| \#  | Format ( DXGI\_FORMAT\_\* )                  | Bits Per Element (BPE) | Format Support                   | Buffer                           | Input Assembler Vertex Buffer    | Input Assembler Index Buffer     | Stream Output Buffer             | Texture1D                        | Texture2D                        | Texture3D                        | TextureCube                      | \#  | Format ( DXGI\_FORMAT\_\* )    | Shader ld                        | Shader sample (any filter)       | Shader sample\_c (comparison filter) | Shader sample (mono 1\_bit\_filter) | Shader gather4                   | Shader gather4\_c                | Mipmap                           | Mipmap Auto-Generation           | RenderTarget                     | Blendable RenderTarget            | \#  | Format ( DXGI\_FORMAT\_\* )    | Output Merger Logic Op           | Depth/Stencil Target             | Raw UAV and SRV                  | Structured UAV and SRV           | Typed UAV                        | UAV Typed Store                  | UAV Typed Load                   | UAV Atomic Add                   | UAV Atomic Bitwise Ops           | UAV Atomic Cmp&Store/ Cmp&Exch   | \#  | Format ( DXGI\_FORMAT\_\* )    | UAV Atomic Exchange              | UAV Atomic Signed Min/Max        | UAV Atomic Unsigned Min/Max      | CPU Lockable                     | 4x Multisample RenderTarget       | 8x Multisample RenderTarget       | Other Multisample Count RT       | Multisample Resolve              | Multisample Load                 | Display Scan-Out                 | \#  | Format ( DXGI\_FORMAT\_\* )    | Cast Within Bit Layout           | Video Decoder Support            | Video Processor Input            | Video Processor Output           | Shared Resource                  | BackBuffer Castable Even Fully Typed | Tiled Resource                   | \#  | Format ( DXGI\_FORMAT\_\* )    |
-| 60  | R8\_TYPELESS<sup>PCS</sup>                   | 8                      | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 60  | R8\_TYPELESS                   | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 60  | R8\_TYPELESS                   | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 60  | R8\_TYPELESS                   | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 60  | R8\_TYPELESS                   | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 60  | R8\_TYPELESS                   |
-| 61  | R8\_UNORM<sup>FCS</sup>                      | 8                      | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 61  | R8\_UNORM                      | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 61  | R8\_UNORM                      | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 61  | R8\_UNORM                      | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 61  | R8\_UNORM                      | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 61  | R8\_UNORM                      |
-| 62  | R8\_UINT<sup>FCS</sup>                       | 8                      | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 62  | R8\_UINT                       | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 62  | R8\_UINT                       | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 62  | R8\_UINT                       | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 62  | R8\_UINT                       | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 62  | R8\_UINT                       |
-| 63  | R8\_SNORM<sup>FCS</sup>                      | 8                      | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 63  | R8\_SNORM                      | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 63  | R8\_SNORM                      | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 63  | R8\_SNORM                      | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 63  | R8\_SNORM                      | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 63  | R8\_SNORM                      |
-| 64  | R8\_SINT<sup>FCS</sup>                       | 8                      | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 64  | R8\_SINT                       | ![required](images/letter-r.jpg) | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                                | 64  | R8\_SINT                       | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 64  | R8\_SINT                       | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | 64  | R8\_SINT                       | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 64  | R8\_SINT                       |
-| 65  | A8\_UNORM<sup>FNS</sup>                      | 8                      | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 65  | A8\_UNORM                      | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 65  | A8\_UNORM                      | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 65  | A8\_UNORM                      | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 65  | A8\_UNORM                      | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 65  | A8\_UNORM                      |
-| 67  | R9G9B9E5\_SHAREDEXP<sup>FNC</sup>            | 32                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 67  | R9G9B9E5\_SHAREDEXP            | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 67  | R9G9B9E5\_SHAREDEXP            | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 67  | R9G9B9E5\_SHAREDEXP            | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 67  | R9G9B9E5\_SHAREDEXP            | \-                               | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 67  | R9G9B9E5\_SHAREDEXP            |
-| 68  | R8G8\_B8G8\_UNORM<sup>FNC</sup>              | 16                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 68  | R8G8\_B8G8\_UNORM              | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 68  | R8G8\_B8G8\_UNORM              | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 68  | R8G8\_B8G8\_UNORM              | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 68  | R8G8\_B8G8\_UNORM              | \-                               | \-                               | \-                               | \-                               | \-                               | \-                                   | \-                               | 68  | R8G8\_B8G8\_UNORM              |
-| 69  | G8R8\_G8B8\_UNORM<sup>FNC</sup>              | 16                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 69  | G8R8\_G8B8\_UNORM              | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 69  | G8R8\_G8B8\_UNORM              | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 69  | G8R8\_G8B8\_UNORM              | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 69  | G8R8\_G8B8\_UNORM              | \-                               | \-                               | \-                               | \-                               | \-                               | \-                                   | \-                               | 69  | G8R8\_G8B8\_UNORM              |
-| 70  | BC1\_TYPELESS<sup>PCC</sup>                  | 64                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 70  | BC1\_TYPELESS                  | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 70  | BC1\_TYPELESS                  | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 70  | BC1\_TYPELESS                  | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 70  | BC1\_TYPELESS                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 70  | BC1\_TYPELESS                  |
-| 71  | BC1\_UNORM <sup>FCC</sup>                    | 64                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 71  | BC1\_UNORM                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 71  | BC1\_UNORM                     | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 71  | BC1\_UNORM                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 71  | BC1\_UNORM                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 71  | BC1\_UNORM                     |
-| 72  | BC1\_UNORM\_SRGB <sup>FCC</sup>              | 64                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 72  | BC1\_UNORM\_SRGB               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 72  | BC1\_UNORM\_SRGB               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 72  | BC1\_UNORM\_SRGB               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 72  | BC1\_UNORM\_SRGB               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 72  | BC1\_UNORM\_SRGB               |
-| 73  | BC2\_TYPELESS<sup>PCC</sup>                  | 128                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 73  | BC2\_TYPELESS                  | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 73  | BC2\_TYPELESS                  | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 73  | BC2\_TYPELESS                  | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 73  | BC2\_TYPELESS                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 73  | BC2\_TYPELESS                  |
-| 74  | BC2\_UNORM <sup>FCC</sup>                    | 128                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 74  | BC2\_UNORM                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 74  | BC2\_UNORM                     | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 74  | BC2\_UNORM                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 74  | BC2\_UNORM                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 74  | BC2\_UNORM                     |
-| 75  | BC2\_UNORM\_SRGB <sup>FCC</sup>              | 128                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 75  | BC2\_UNORM\_SRGB               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 75  | BC2\_UNORM\_SRGB               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 75  | BC2\_UNORM\_SRGB               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 75  | BC2\_UNORM\_SRGB               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 75  | BC2\_UNORM\_SRGB               |
-| 76  | BC3\_TYPELESS<sup>PCC</sup>                  | 128                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 76  | BC3\_TYPELESS                  | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 76  | BC3\_TYPELESS                  | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 76  | BC3\_TYPELESS                  | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 76  | BC3\_TYPELESS                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 76  | BC3\_TYPELESS                  |
-| 77  | BC3\_UNORM <sup>FCC</sup>                    | 128                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 77  | BC3\_UNORM                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 77  | BC3\_UNORM                     | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 77  | BC3\_UNORM                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 77  | BC3\_UNORM                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 77  | BC3\_UNORM                     |
-| 78  | BC3\_UNORM\_SRGB <sup>FCC</sup>              | 128                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 78  | BC3\_UNORM\_SRGB               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 78  | BC3\_UNORM\_SRGB               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 78  | BC3\_UNORM\_SRGB               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 78  | BC3\_UNORM\_SRGB               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 78  | BC3\_UNORM\_SRGB               |
-| 79  | BC4\_TYPELESS<sup>PCC</sup>                  | 64                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 79  | BC4\_TYPELESS                  | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 79  | BC4\_TYPELESS                  | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 79  | BC4\_TYPELESS                  | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 79  | BC4\_TYPELESS                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 79  | BC4\_TYPELESS                  |
-| \#  | Format ( DXGI\_FORMAT\_\* )                  | Bits Per Element (BPE) | Format Support                   | Buffer                           | Input Assembler Vertex Buffer    | Input Assembler Index Buffer     | Stream Output Buffer             | Texture1D                        | Texture2D                        | Texture3D                        | TextureCube                      | \#  | Format ( DXGI\_FORMAT\_\* )    | Shader ld                        | Shader sample (any filter)       | Shader sample\_c (comparison filter) | Shader sample (mono 1\_bit\_filter) | Shader gather4                   | Shader gather4\_c                | Mipmap                           | Mipmap Auto-Generation           | RenderTarget                     | Blendable RenderTarget            | \#  | Format ( DXGI\_FORMAT\_\* )    | Output Merger Logic Op           | Depth/Stencil Target             | Raw UAV and SRV                  | Structured UAV and SRV           | Typed UAV                        | UAV Typed Store                  | UAV Typed Load                   | UAV Atomic Add                   | UAV Atomic Bitwise Ops           | UAV Atomic Cmp&Store/ Cmp&Exch   | \#  | Format ( DXGI\_FORMAT\_\* )    | UAV Atomic Exchange              | UAV Atomic Signed Min/Max        | UAV Atomic Unsigned Min/Max      | CPU Lockable                     | 4x Multisample RenderTarget       | 8x Multisample RenderTarget       | Other Multisample Count RT       | Multisample Resolve              | Multisample Load                 | Display Scan-Out                 | \#  | Format ( DXGI\_FORMAT\_\* )    | Cast Within Bit Layout           | Video Decoder Support            | Video Processor Input            | Video Processor Output           | Shared Resource                  | BackBuffer Castable Even Fully Typed | Tiled Resource                   | \#  | Format ( DXGI\_FORMAT\_\* )    |
-| 80  | BC4\_UNORM <sup>FCC</sup>                    | 64                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 80  | BC4\_UNORM                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 80  | BC4\_UNORM                     | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 80  | BC4\_UNORM                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 80  | BC4\_UNORM                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 80  | BC4\_UNORM                     |
-| 81  | BC4\_SNORM <sup>FCC</sup>                    | 64                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 81  | BC4\_SNORM                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 81  | BC4\_SNORM                     | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 81  | BC4\_SNORM                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 81  | BC4\_SNORM                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 81  | BC4\_SNORM                     |
-| 82  | BC5\_TYPELESS<sup>PCC</sup>                  | 128                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 82  | BC5\_TYPELESS                  | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 82  | BC5\_TYPELESS                  | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 82  | BC5\_TYPELESS                  | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 82  | BC5\_TYPELESS                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 82  | BC5\_TYPELESS                  |
-| 83  | BC5\_UNORM <sup>FCC</sup>                    | 128                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 83  | BC5\_UNORM                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 83  | BC5\_UNORM                     | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 83  | BC5\_UNORM                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 83  | BC5\_UNORM                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 83  | BC5\_UNORM                     |
-| 84  | BC5\_SNORM <sup>FCC</sup>                    | 128                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 84  | BC5\_SNORM                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 84  | BC5\_SNORM                     | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 84  | BC5\_SNORM                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 84  | BC5\_SNORM                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 84  | BC5\_SNORM                     |
-| 85  | B5G6R5\_UNORM<sup>FNS</sup>                  | 16                     | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 85  | B5G6R5\_UNORM                  | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 85  | B5G6R5\_UNORM                  | \-                               | \-                               | \-                               | \-                               | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 85  | B5G6R5\_UNORM                  | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 85  | B5G6R5\_UNORM                  | \-                               | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 85  | B5G6R5\_UNORM                  |
-| 86  | B5G5R5A1\_UNORM<sup>FNS</sup>                | 16                     | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 86  | B5G5R5A1\_UNORM                | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg)  | 86  | B5G5R5A1\_UNORM                | \-                               | \-                               | \-                               | \-                               | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 86  | B5G5R5A1\_UNORM                | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg)  | ![optional](images/letter-o.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | 86  | B5G5R5A1\_UNORM                | \-                               | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 86  | B5G5R5A1\_UNORM                |
-| 90  | B8G8R8A8\_TYPELESS<sup>PCS</sup>             | 32                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 90  | B8G8R8A8\_TYPELESS             | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 90  | B8G8R8A8\_TYPELESS             | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 90  | B8G8R8A8\_TYPELESS             | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 90  | B8G8R8A8\_TYPELESS             | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 90  | B8G8R8A8\_TYPELESS             |
-| 87  | B8G8R8A8\_UNORM<sup>FCS</sup>                | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 87  | B8G8R8A8\_UNORM                | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 87  | B8G8R8A8\_UNORM                | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 87  | B8G8R8A8\_UNORM                | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 87  | B8G8R8A8\_UNORM                | ![required](images/letter-r.jpg) | \-                               | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)     | ![optional](images/letter-o.jpg) | 87  | B8G8R8A8\_UNORM                |
-| 91  | B8G8R8A8\_UNORM\_SRGB<sup>FCS</sup>          | 32                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 91  | B8G8R8A8\_UNORM\_SRGB          | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 91  | B8G8R8A8\_UNORM\_SRGB          | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 91  | B8G8R8A8\_UNORM\_SRGB          | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 91  | B8G8R8A8\_UNORM\_SRGB          | ![required](images/letter-r.jpg) | \-                               | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)     | ![optional](images/letter-o.jpg) | 91  | B8G8R8A8\_UNORM\_SRGB          |
-| 92  | B8G8R8X8\_TYPELESS<sup>PCS</sup>             | 32                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 92  | B8G8R8X8\_TYPELESS             | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 92  | B8G8R8X8\_TYPELESS             | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 92  | B8G8R8X8\_TYPELESS             | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 92  | B8G8R8X8\_TYPELESS             | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 92  | B8G8R8X8\_TYPELESS             |
-| 88  | B8G8R8X8\_UNORM<sup>FCS</sup>                | 32                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 88  | B8G8R8X8\_UNORM                | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 88  | B8G8R8X8\_UNORM                | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 88  | B8G8R8X8\_UNORM                | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 88  | B8G8R8X8\_UNORM                | ![required](images/letter-r.jpg) | \-                               | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 88  | B8G8R8X8\_UNORM                |
-| 93  | B8G8R8X8\_UNORM\_SRGB<sup>FCS</sup>          | 32                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 93  | B8G8R8X8\_UNORM\_SRGB          | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 93  | B8G8R8X8\_UNORM\_SRGB          | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 93  | B8G8R8X8\_UNORM\_SRGB          | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | ![required](images/letter-r.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | 93  | B8G8R8X8\_UNORM\_SRGB          | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                   | ![optional](images/letter-o.jpg) | 93  | B8G8R8X8\_UNORM\_SRGB          |
-| 94  | BC6H\_TYPELESS<sup>PCC</sup>                 | 128                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 94  | BC6H\_TYPELESS                 | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 94  | BC6H\_TYPELESS                 | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 94  | BC6H\_TYPELESS                 | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 94  | BC6H\_TYPELESS                 | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 94  | BC6H\_TYPELESS                 |
-| 95  | BC6H\_UF16 <sup>FCC</sup>                    | 128                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 95  | BC6H\_UF16                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 95  | BC6H\_UF16                     | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 95  | BC6H\_UF16                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 95  | BC6H\_UF16                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 95  | BC6H\_UF16                     |
-| 96  | BC6H\_SF16 <sup>FCC</sup>                    | 128                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 96  | BC6H\_SF16                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 96  | BC6H\_SF16                     | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 96  | BC6H\_SF16                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 96  | BC6H\_SF16                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 96  | BC6H\_SF16                     |
-| 97  | BC7\_TYPELESS<sup>PCC</sup>                  | 128                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 97  | BC7\_TYPELESS                  | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 97  | BC7\_TYPELESS                  | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 97  | BC7\_TYPELESS                  | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 97  | BC7\_TYPELESS                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 97  | BC7\_TYPELESS                  |
-| 98  | BC7\_UNORM <sup>FCC</sup>                    | 128                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 98  | BC7\_UNORM                     | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 98  | BC7\_UNORM                     | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 98  | BC7\_UNORM                     | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 98  | BC7\_UNORM                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 98  | BC7\_UNORM                     |
-| 99  | BC7\_UNORM\_SRGB <sup>FCC</sup>              | 128                    | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 99  | BC7\_UNORM\_SRGB               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 99  | BC7\_UNORM\_SRGB               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 99  | BC7\_UNORM\_SRGB               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 99  | BC7\_UNORM\_SRGB               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 99  | BC7\_UNORM\_SRGB               |
-| \#  | Format ( DXGI\_FORMAT\_\* )                  | Bits Per Element (BPE) | Format Support                   | Buffer                           | Input Assembler Vertex Buffer    | Input Assembler Index Buffer     | Stream Output Buffer             | Texture1D                        | Texture2D                        | Texture3D                        | TextureCube                      | \#  | Format ( DXGI\_FORMAT\_\* )    | Shader ld                        | Shader sample (any filter)       | Shader sample\_c (comparison filter) | Shader sample (mono 1\_bit\_filter) | Shader gather4                   | Shader gather4\_c                | Mipmap                           | Mipmap Auto-Generation           | RenderTarget                     | Blendable RenderTarget            | \#  | Format ( DXGI\_FORMAT\_\* )    | Output Merger Logic Op           | Depth/Stencil Target             | Raw UAV and SRV                  | Structured UAV and SRV           | Typed UAV                        | UAV Typed Store                  | UAV Typed Load                   | UAV Atomic Add                   | UAV Atomic Bitwise Ops           | UAV Atomic Cmp&Store/ Cmp&Exch   | \#  | Format ( DXGI\_FORMAT\_\* )    | UAV Atomic Exchange              | UAV Atomic Signed Min/Max        | UAV Atomic Unsigned Min/Max      | CPU Lockable                     | 4x Multisample RenderTarget       | 8x Multisample RenderTarget       | Other Multisample Count RT       | Multisample Resolve              | Multisample Load                 | Display Scan-Out                 | \#  | Format ( DXGI\_FORMAT\_\* )    | Cast Within Bit Layout           | Video Decoder Support            | Video Processor Input            | Video Processor Output           | Shared Resource                  | BackBuffer Castable Even Fully Typed | Tiled Resource                   | \#  | Format ( DXGI\_FORMAT\_\* )    |
-| 100 | AYUV<sup>V</sup>                             | 32                     | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | 100 | AYUV                           | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 100 | AYUV                           | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | 100 | AYUV                           | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 100 | AYUV                           | \-                               | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                               | 100 | AYUV                           |
-| 101 | Y410<sup>V</sup>                             | 32                     | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | 101 | Y410                           | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                | 101 | Y410                           | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | 101 | Y410                           | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 101 | Y410                           | \-                               | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                               | 101 | Y410                           |
-| 102 | Y416<sup>V</sup>                             | 64                     | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | 102 | Y416                           | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                | 102 | Y416                           | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | 102 | Y416                           | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 102 | Y416                           | \-                               | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                               | 102 | Y416                           |
-| 103 | NV12<sup>V</sup>                             | 8                      | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | 103 | NV12                           | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 103 | NV12                           | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | 103 | NV12                           | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 103 | NV12                           | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                               | 103 | NV12                           |
-| 104 | P010<sup>V</sup>                             | 16                     | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | 104 | P010                           | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 104 | P010                           | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | 104 | P010                           | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 104 | P010                           | \-                               | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                               | 104 | P010                           |
-| 105 | P016<sup>V</sup>                             | 16                     | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | 105 | P016                           | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 105 | P016                           | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | 105 | P016                           | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 105 | P016                           | \-                               | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                               | 105 | P016                           |
-| 106 | 420\_OPAQUE<sup>V</sup>                      | 8                      | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | 106 | 420\_OPAQUE                    | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | \-                               | \-                               | \-                               | \-                                | 106 | 420\_OPAQUE                    | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 106 | 420\_OPAQUE                    | \-                               | \-                               | \-                               | \-                               | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 106 | 420\_OPAQUE                    | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                               | 106 | 420\_OPAQUE                    |
-| 107 | YUY2<sup>V</sup>                             | 16                     | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | 107 | YUY2                           | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                | 107 | YUY2                           | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | 107 | YUY2                           | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 107 | YUY2                           | \-                               | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                               | 107 | YUY2                           |
-| 108 | Y210<sup>V</sup>                             | 32                     | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | 108 | Y210                           | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                | 108 | Y210                           | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | 108 | Y210                           | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 108 | Y210                           | \-                               | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                               | 108 | Y210                           |
-| 109 | Y216<sup>V</sup>                             | 32                     | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | 109 | Y216                           | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | \-                                | 109 | Y216                           | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | 109 | Y216                           | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 109 | Y216                           | \-                               | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                               | 109 | Y216                           |
-| 110 | NV11<sup>V</sup>                             | 8                      | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | 110 | NV11                           | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg)  | 110 | NV11                           | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                               | \-                               | 110 | NV11                           | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 110 | NV11                           | \-                               | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                               | 110 | NV11                           |
-| 111 | AI44<sup>V</sup>                             | 8                      | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | 111 | AI44                           | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | \-                               | \-                               | \-                               | \-                                | 111 | AI44                           | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 111 | AI44                           | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 111 | AI44                           | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                   | \-                               | 111 | AI44                           |
-| 112 | IA44<sup>V</sup>                             | 8                      | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | 112 | IA44                           | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | \-                               | \-                               | \-                               | \-                                | 112 | IA44                           | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 112 | IA44                           | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 112 | IA44                           | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                   | \-                               | 112 | IA44                           |
-| 113 | P8<sup>V</sup>                               | 8                      | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | 113 | P8                             | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | \-                               | \-                               | \-                               | \-                                | 113 | P8                             | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 113 | P8                             | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 113 | P8                             | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                   | \-                               | 113 | P8                             |
-| 114 | A8P8<sup>V</sup>                             | 16                     | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | 114 | A8P8                           | \-                               | \-                               | \-                                   | \-                                  | \-                               | \-                               | \-                               | \-                               | \-                               | \-                                | 114 | A8P8                           | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | \-                               | 114 | A8P8                           | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                                | \-                                | \-                               | \-                               | \-                               | \-                               | 114 | A8P8                           | \-                               | \-                               | ![required](images/letter-r.jpg) | \-                               | \-                               | \-                                   | \-                               | 114 | A8P8                           |
-| 115 | B4G4R4A4\_UNORM<sup>FNS</sup>                | 16                     | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | 115 | B4G4R4A4\_UNORM                | ![required](images/letter-r.jpg) | ![required](images/letter-r.jpg) | \-                                   | \-                                  | ![required](images/letter-r.jpg) | \-                               | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg)  | 115 | B4G4R4A4\_UNORM                | \-                               | \-                               | \-                               | \-                               | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | ![optional](images/letter-o.jpg) | \-                               | \-                               | \-                               | 115 | B4G4R4A4\_UNORM                | \-                               | \-                               | \-                               | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg)  | ![optional](images/letter-o.jpg)  | ![optional](images/letter-o.jpg) | ![required](images/letter-r.jpg) | ![optional](images/letter-o.jpg) | \-                               | 115 | B4G4R4A4\_UNORM                | \-                               | \-                               | \-                               | \-                               | \-                               | \-                                   | ![optional](images/letter-o.jpg) | 115 | B4G4R4A4\_UNORM                |
-| \#  | Format ( DXGI\_FORMAT\_\* )                  | Bits Per Element (BPE) | Format Support                   | Buffer                           | Input Assembler Vertex Buffer    | Input Assembler Index Buffer     | Stream Output Buffer             | Texture1D                        | Texture2D                        | Texture3D                        | TextureCube                      | \#  | Format ( DXGI\_FORMAT\_\* )    | Shader ld                        | Shader sample (any filter)       | Shader sample\_c (comparison filter) | Shader sample (mono 1\_bit\_filter) | Shader gather4                   | Shader gather4\_c                | Mipmap                           | Mipmap Auto-Generation           | RenderTarget                     | Blendable RenderTarget            | \#  | Format ( DXGI\_FORMAT\_\* )    | Output Merger Logic Op           | Depth/Stencil Target             | Raw UAV and SRV                  | Structured UAV and SRV           | Typed UAV                        | UAV Typed Store                  | UAV Typed Load                   | UAV Atomic Add                   | UAV Atomic Bitwise Ops           | UAV Atomic Cmp&Store/ Cmp&Exch   | \#  | Format ( DXGI\_FORMAT\_\* )    | UAV Atomic Exchange              | UAV Atomic Signed Min/Max        | UAV Atomic Unsigned Min/Max      | CPU Lockable                     | 4x Multisample RenderTarget       | 8x Multisample RenderTarget       | Other Multisample Count RT       | Multisample Resolve              | Multisample Load                 | Display Scan-Out                 | \#  | Format ( DXGI\_FORMAT\_\* )    | Cast Within Bit Layout           | Video Decoder Support            | Video Processor Input            | Video Processor Output           | Shared Resource                  | BackBuffer Castable Even Fully Typed | Tiled Resource                   | \#  | Format ( DXGI\_FORMAT\_\* )    |
+## DXGI_FORMAT_R32G32B32\_SINT<sup>FCS</sup> (8)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 96 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | ![required](images/letter-r.jpg) |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![optional](images/letter-o.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![dependant](images/letter-d.jpg) |
+| 8x Multisample RenderTarget | ![dependant](images/letter-d.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
 
+## DXGI_FORMAT_R16G16B16A16\_TYPELESS<sup>PCS</sup> (9)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
 
+## DXGI_FORMAT_R16G16B16A16\_FLOAT<sup>FCS</sup> (10)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | ![required](images/letter-r.jpg) |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Output | ![required](images/letter-r.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
 
- 
+## DXGI_FORMAT_R16G16B16A16\_UNORM<sup>FCS</sup> (11)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
 
-### Format notes
+## DXGI_FORMAT_R16G16B16A16\_UINT<sup>FCS</sup> (12)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R16G16B16A16\_SNORM<sup>FCS</sup> (13)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R16G16B16A16\_SINT<sup>FCS</sup> (14)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R32G32\_TYPELESS<sup>PCS</sup> (15)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R32G32\_FLOAT<sup>FCS</sup> (16)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | ![required](images/letter-r.jpg) |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R32G32\_UINT<sup>FCS</sup> (17)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | ![required](images/letter-r.jpg) |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R32G32\_SINT<sup>FCS</sup> (18)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | ![required](images/letter-r.jpg) |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R32G8X24\_TYPELESS<sup>PCS</sup> (19)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_D32\_FLOAT\_S8X24\_UINT<sup>FCS</sup> (20)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | ![required](images/letter-r.jpg) |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_R32\_FLOAT\_X8X24\_TYPELESS<sup>FCS</sup> (21)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | ![required](images/letter-r.jpg) |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | ![required](images/letter-r.jpg) |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_X32\_TYPELESS\_G8X24\_UINT<sup>FCS</sup> (22)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_R10G10B10A2\_TYPELESS<sup>PCS</sup> (23)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R10G10B10A2\_UNORM<sup>FCS</sup> (24)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | ![required](images/letter-r.jpg) |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Output | ![required](images/letter-r.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | ![required](images/letter-r.jpg) |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R10G10B10A2\_UINT<sup>FCS</sup> (25)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R10G10B10\_XR\_BIAS\_A2\_UNORM<sup>FCS</sup> (89)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | \- |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | ![required](images/letter-r.jpg) |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Output | ![required](images/letter-r.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | ![required](images/letter-r.jpg) |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R11G11B10\_FLOAT<sup>FNS</sup> (26)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R8G8B8A8\_TYPELESS<sup>PCS</sup> (27)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R8G8B8A8\_UNORM<sup>FCS</sup> (28)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | ![required](images/letter-r.jpg) |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Output | ![required](images/letter-r.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | ![required](images/letter-r.jpg) |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R8G8B8A8\_UNORM\_SRGB<sup>FCS</sup> (29)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | ![required](images/letter-r.jpg) |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Output | ![required](images/letter-r.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | ![required](images/letter-r.jpg) |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R8G8B8A8\_UINT<sup>FCS</sup> (30)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R8G8B8A8\_SNORM<sup>FCS</sup> (31)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R8G8B8A8\_SINT<sup>FCS</sup> (32)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R16G16\_TYPELESS<sup>PCS</sup> (33)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R16G16\_FLOAT<sup>FCS</sup> (34)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R16G16\_UNORM<sup>FCS</sup> (35)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R16G16\_UINT<sup>FCS</sup> (36)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R16G16\_SNORM<sup>FCS</sup> (37)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R16G16\_SINT<sup>FCS</sup> (38)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R32\_TYPELESS<sup>PCS</sup> (39)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | ![required](images/letter-r.jpg) |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_D32\_FLOAT<sup>FCS</sup> (40)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | ![required](images/letter-r.jpg) |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R32\_FLOAT<sup>FCS</sup> (41)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | ![required](images/letter-r.jpg) |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | ![required](images/letter-r.jpg) |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | ![required](images/letter-r.jpg) |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![required](images/letter-r.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | ![required](images/letter-r.jpg) |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R32\_UINT<sup>FCS</sup> (42)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | ![required](images/letter-r.jpg) |
+| Stream Output Buffer | ![required](images/letter-r.jpg) |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![required](images/letter-r.jpg) |
+| UAV Atomic Add | ![required](images/letter-r.jpg) |
+| UAV Atomic Bitwise Ops | ![required](images/letter-r.jpg) |
+| UAV Atomic Cmp&Store/ Cmp&Exch | ![required](images/letter-r.jpg) |
+| UAV Atomic Exchange | ![required](images/letter-r.jpg) |
+| UAV Atomic Signed Min/Max | ![required](images/letter-r.jpg) |
+| UAV Atomic Unsigned Min/Max | ![required](images/letter-r.jpg) |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R32\_SINT<sup>FCS</sup> (43)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | ![required](images/letter-r.jpg) |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![required](images/letter-r.jpg) |
+| UAV Atomic Add | ![required](images/letter-r.jpg) |
+| UAV Atomic Bitwise Ops | ![required](images/letter-r.jpg) |
+| UAV Atomic Cmp&Store/ Cmp&Exch | ![required](images/letter-r.jpg) |
+| UAV Atomic Exchange | ![required](images/letter-r.jpg) |
+| UAV Atomic Signed Min/Max | ![required](images/letter-r.jpg) |
+| UAV Atomic Unsigned Min/Max | ![required](images/letter-r.jpg) |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R24G8\_TYPELESS<sup>PCS</sup> (44)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_D24\_UNORM\_S8\_UINT<sup>FCS</sup> (45)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | ![required](images/letter-r.jpg) |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_R24\_UNORM\_X8\_TYPELESS<sup>FCS</sup> (46)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | ![required](images/letter-r.jpg) |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | ![required](images/letter-r.jpg) |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_X24\_TYPELESS\_G8\_UINT<sup>FCS</sup> (47)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_R8G8\_TYPELESS<sup>PCS</sup> (48)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R8G8\_UNORM<sup>FCS</sup> (49)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R8G8\_UINT<sup>FCS</sup> (50)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R8G8\_SNORM<sup>FCS</sup> (51)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R8G8\_SINT<sup>FCS</sup> (52)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R16\_TYPELESS<sup>PCS</sup> (53)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R16\_FLOAT<sup>FCS</sup> (54)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_D16\_UNORM<sup>FCS</sup> (55)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | ![required](images/letter-r.jpg) |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R16\_UNORM<sup>FCS</sup> (56)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | ![required](images/letter-r.jpg) |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | ![required](images/letter-r.jpg) |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R16\_UINT<sup>FCS</sup> (57)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | ![required](images/letter-r.jpg) |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R16\_SNORM<sup>FCS</sup> (58)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R16\_SINT<sup>FCS</sup> (59)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R8\_TYPELESS<sup>PCS</sup> (60)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 8 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R8\_UNORM<sup>FCS</sup> (61)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 8 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R8\_UINT<sup>FCS</sup> (62)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 8 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | ![optional](images/letter-o.jpg) |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R8\_SNORM<sup>FCS</sup> (63)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 8 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R8\_SINT<sup>FCS</sup> (64)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 8 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | \- |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_A8\_UNORM<sup>FNS</sup> (65)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 8 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R9G9B9E5\_SHAREDEXP<sup>FNC</sup> (67)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_R8G8\_B8G8\_UNORM<sup>FNC</sup> (68)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_G8R8\_G8B8\_UNORM<sup>FNC</sup> (69)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_BC1\_TYPELESS<sup>PCC</sup> (70)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC1\_UNORM <sup>FCC</sup> (71)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC1\_UNORM\_SRGB <sup>FCC</sup> (72)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC2\_TYPELESS<sup>PCC</sup> (73)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC2\_UNORM <sup>FCC</sup> (74)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC2\_UNORM\_SRGB <sup>FCC</sup> (75)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC3\_TYPELESS<sup>PCC</sup> (76)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC3\_UNORM <sup>FCC</sup> (77)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC3\_UNORM\_SRGB <sup>FCC</sup> (78)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC4\_TYPELESS<sup>PCC</sup> (79)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC4\_UNORM <sup>FCC</sup> (80)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC4\_SNORM <sup>FCC</sup> (81)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC5\_TYPELESS<sup>PCC</sup> (82)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC5\_UNORM <sup>FCC</sup> (83)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC5\_SNORM <sup>FCC</sup> (84)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_B5G6R5\_UNORM<sup>FNS</sup> (85)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![optional](images/letter-o.jpg) |
+| Input Assembler Vertex Buffer | ![optional](images/letter-o.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![optional](images/letter-o.jpg) |
+| UAV Typed Store | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![required](images/letter-r.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_B5G5R5A1\_UNORM<sup>FNS</sup> (86)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![optional](images/letter-o.jpg) |
+| Input Assembler Vertex Buffer | ![optional](images/letter-o.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![optional](images/letter-o.jpg) |
+| RenderTarget | ![optional](images/letter-o.jpg) |
+| Blendable RenderTarget | ![optional](images/letter-o.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![optional](images/letter-o.jpg) |
+| UAV Typed Store | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![optional](images/letter-o.jpg) |
+| 8x Multisample RenderTarget | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![optional](images/letter-o.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_B8G8R8A8\_TYPELESS<sup>PCS</sup> (90)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_B8G8R8A8\_UNORM<sup>FCS</sup> (87)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | ![required](images/letter-r.jpg) |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Output | ![required](images/letter-r.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | ![required](images/letter-r.jpg) |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_B8G8R8A8\_UNORM\_SRGB<sup>FCS</sup> (91)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | ![required](images/letter-r.jpg) |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Output | ![required](images/letter-r.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | ![required](images/letter-r.jpg) |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_B8G8R8X8\_TYPELESS<sup>PCS</sup> (92)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_B8G8R8X8\_UNORM<sup>FCS</sup> (88)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Vertex Buffer | ![required](images/letter-r.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_B8G8R8X8\_UNORM\_SRGB<sup>FCS</sup> (93)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| 8x Multisample RenderTarget | ![required](images/letter-r.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![required](images/letter-r.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC6H\_TYPELESS<sup>PCC</sup> (94)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC6H\_UF16 <sup>FCC</sup> (95)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC6H\_SF16 <sup>FCC</sup> (96)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC7\_TYPELESS<sup>PCC</sup> (97)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC7\_UNORM <sup>FCC</sup> (98)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_BC7\_UNORM\_SRGB <sup>FCC</sup> (99)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 128 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | ![required](images/letter-r.jpg) |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## DXGI_FORMAT_AYUV<sup>V</sup> (100)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![optional](images/letter-o.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![required](images/letter-r.jpg) |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | ![optional](images/letter-o.jpg) |
+| Video Processor Input | ![required](images/letter-r.jpg) |
+| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_Y410<sup>V</sup> (101)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![optional](images/letter-o.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | \- |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | ![optional](images/letter-o.jpg) |
+| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_Y416<sup>V</sup> (102)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 64 |
+| Format Support | ![optional](images/letter-o.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | ![optional](images/letter-o.jpg) |
+| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_NV12<sup>V</sup> (103)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 8 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | \- |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | ![required](images/letter-r.jpg) |
+| Video Processor Input | ![required](images/letter-r.jpg) |
+| Video Processor Output | ![required](images/letter-r.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_P010<sup>V</sup> (104)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![optional](images/letter-o.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | \- |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | ![optional](images/letter-o.jpg) |
+| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_P016<sup>V</sup> (105)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![optional](images/letter-o.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | \- |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | ![optional](images/letter-o.jpg) |
+| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_420\_OPAQUE<sup>V</sup> (106)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 8 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | \- |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | \- |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | ![required](images/letter-r.jpg) |
+| Video Processor Input | ![required](images/letter-r.jpg) |
+| Video Processor Output | ![required](images/letter-r.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_YUY2<sup>V</sup> (107)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | \- |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | ![optional](images/letter-o.jpg) |
+| Video Processor Input | ![required](images/letter-r.jpg) |
+| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_Y210<sup>V</sup> (108)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![optional](images/letter-o.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | \- |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | ![optional](images/letter-o.jpg) |
+| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_Y216<sup>V</sup> (109)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 32 |
+| Format Support | ![optional](images/letter-o.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | \- |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | ![optional](images/letter-o.jpg) |
+| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_NV11<sup>V</sup> (110)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 8 |
+| Format Support | ![optional](images/letter-o.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | \- |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | ![required](images/letter-r.jpg) |
+| Blendable RenderTarget | ![required](images/letter-r.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![required](images/letter-r.jpg) |
+| UAV Typed Store | ![required](images/letter-r.jpg) |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | ![optional](images/letter-o.jpg) |
+| Video Processor Input | ![optional](images/letter-o.jpg) |
+| Video Processor Output | ![optional](images/letter-o.jpg) |
+| Shared Resource | ![required](images/letter-r.jpg) |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_AI44<sup>V</sup> (111)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 8 |
+| Format Support | ![optional](images/letter-o.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | \- |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | \- |
+| Video Processor Input | ![required](images/letter-r.jpg) |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_IA44<sup>V</sup> (112)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 8 |
+| Format Support | ![optional](images/letter-o.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | \- |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | \- |
+| Video Processor Input | ![required](images/letter-r.jpg) |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_P8<sup>V</sup> (113)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 8 |
+| Format Support | ![optional](images/letter-o.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | \- |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | \- |
+| Video Processor Input | ![required](images/letter-r.jpg) |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_A8P8<sup>V</sup> (114)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![optional](images/letter-o.jpg) |
+| Buffer | \- |
+| Input Assembler Vertex Buffer | \- |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | \- |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | \- |
+| TextureCube | \- |
+| Shader ld | \- |
+| Shader sample (any filter) | \- |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | \- |
+| Shader gather4\_c | \- |
+| Mipmap | \- |
+| Mipmap Auto-Generation | \- |
+| RenderTarget | \- |
+| Blendable RenderTarget | \- |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | \- |
+| UAV Typed Store | \- |
+| UAV Typed Load | \- |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | \- |
+| 8x Multisample RenderTarget | \- |
+| Other Multisample Count RT | \- |
+| Multisample Resolve | \- |
+| Multisample Load | \- |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | \- |
+| Video Processor Input | ![required](images/letter-r.jpg) |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | \- |
+
+## DXGI_FORMAT_B4G4R4A4\_UNORM<sup>FNS</sup> (115)
+| Target | Support |
+| - | - |
+| Bits Per Element (BPE) | 16 |
+| Format Support | ![required](images/letter-r.jpg) |
+| Buffer | ![optional](images/letter-o.jpg) |
+| Input Assembler Vertex Buffer | ![optional](images/letter-o.jpg) |
+| Input Assembler Index Buffer | \- |
+| Stream Output Buffer | \- |
+| Texture1D | ![required](images/letter-r.jpg) |
+| Texture2D | ![required](images/letter-r.jpg) |
+| Texture3D | ![required](images/letter-r.jpg) |
+| TextureCube | ![required](images/letter-r.jpg) |
+| Shader ld | ![required](images/letter-r.jpg) |
+| Shader sample (any filter) | ![required](images/letter-r.jpg) |
+| Shader sample\_c (comparison filter) | \- |
+| Shader sample (mono 1\_bit\_filter) | \- |
+| Shader gather4 | ![required](images/letter-r.jpg) |
+| Shader gather4\_c | \- |
+| Mipmap | ![required](images/letter-r.jpg) |
+| Mipmap Auto-Generation | ![optional](images/letter-o.jpg) |
+| RenderTarget | ![optional](images/letter-o.jpg) |
+| Blendable RenderTarget | ![optional](images/letter-o.jpg) |
+| Output Merger Logic Op | \- |
+| Depth/Stencil Target | \- |
+| Raw UAV and SRV | \- |
+| Structured UAV and SRV | \- |
+| Typed UAV | ![optional](images/letter-o.jpg) |
+| UAV Typed Store | ![optional](images/letter-o.jpg) |
+| UAV Typed Load | ![optional](images/letter-o.jpg) |
+| UAV Atomic Add | \- |
+| UAV Atomic Bitwise Ops | \- |
+| UAV Atomic Cmp&Store/ Cmp&Exch | \- |
+| UAV Atomic Exchange | \- |
+| UAV Atomic Signed Min/Max | \- |
+| UAV Atomic Unsigned Min/Max | \- |
+| CPU Lockable | ![required](images/letter-r.jpg) |
+| 4x Multisample RenderTarget | ![optional](images/letter-o.jpg) |
+| 8x Multisample RenderTarget | ![optional](images/letter-o.jpg) |
+| Other Multisample Count RT | ![optional](images/letter-o.jpg) |
+| Multisample Resolve | ![required](images/letter-r.jpg) |
+| Multisample Load | ![optional](images/letter-o.jpg) |
+| Display Scan-Out | \- |
+| Cast Within Bit Layout | \- |
+| Video Decoder Support | \- |
+| Video Processor Input | \- |
+| Video Processor Output | \- |
+| Shared Resource | \- |
+| BackBuffer Castable Even Fully Typed | \- |
+| Tiled Resource | ![optional](images/letter-o.jpg) |
+
+## Format notes
 
 The purpose of the format can change from one hardware feature level to the next.
 
@@ -202,17 +5923,6 @@ The purpose of the format can change from one hardware feature level to the next
 
 ## Related topics
 
-<dl> <dt>
-
 [D3D12 Hardware Feature Levels](https://msdn.microsoft.com/library/Mt186615(v=VS.85).aspx)
-</dt> <dt>
 
 [Programming Guide for DXGI](dx-graphics-dxgi-overviews.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
