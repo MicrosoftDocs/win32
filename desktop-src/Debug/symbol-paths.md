@@ -14,10 +14,10 @@ The DbgHelp library uses the symbol search path to locate debug symbols (.pdb an
 
 To specify where the symbol handler will search disk directories for symbol files, call the [**SymSetSearchPath**](/windows/desktop/api/Dbghelp/nf-dbghelp-symsetsearchpath) function. Alternatively, you can specify a symbol search path in the *UserSearchPath* parameter of the [**SymInitialize**](/windows/desktop/api/Dbghelp/nf-dbghelp-syminitialize) function.
 
-The *UserSearchPath* parameter in [**SymInitialize**](/windows/desktop/api/Dbghelp/nf-dbghelp-syminitialize) and the *SearchPath* parameter in [**SymSetSearchPath**](/windows/desktop/api/Dbghelp/nf-dbghelp-symsetsearchpath) take a pointer to a null-terminated string that specifies a path, or series of paths separated by a semicolon. The symbol handler uses these paths to search for symbol files. If this parameter is **NULL**, the symbol handler searches the directory that contains the module for which symbols are being searched. Otherwise, if this parameter is specified as a non-**NULL** value, the symbol handler first searches the paths set by the application before searching the module directory. If you set the \_NT\_SYMBOL\_PATH or \_NT\_ALT\_SYMBOL\_PATH environment variable, the symbol handler searches for symbol files in the following order:
+The *UserSearchPath* parameter in [**SymInitialize**](/windows/desktop/api/Dbghelp/nf-dbghelp-syminitialize) and the *SearchPath* parameter in [**SymSetSearchPath**](/windows/desktop/api/Dbghelp/nf-dbghelp-symsetsearchpath) take a pointer to a null-terminated string that specifies a path, or series of paths separated by a semicolon. The symbol handler uses these paths to search for symbol files. If this parameter is **NULL**, the symbol handler searches the directory that contains the module for which symbols are being searched. Otherwise, if this parameter is specified as a non-**NULL** value, the symbol handler first searches the paths set by the application before searching the module directory. If you set the `\_NT\_SYMBOL\_PATH` or `\_NT\_ALT\_SYMBOL\_PATH` environment variable, the symbol handler searches for symbol files in the following order:
 
-1.  The \_NT\_SYMBOL\_PATH environment variable.
-2.  The \_NT\_ALT\_SYMBOL\_PATH environment variable.
+1.  The `\_NT\_SYMBOL\_PATH` environment variable.
+2.  The `\_NT\_ALT\_SYMBOL\_PATH` environment variable.
 3.  The directory that contains the corresponding module.
 
 To retrieve the search paths, call the [**SymGetSearchPath**](/windows/desktop/api/Dbghelp/nf-dbghelp-symgetsearchpath) function.
@@ -30,10 +30,11 @@ There are three types of path elements.
 
 ### Standard Path Element
 
-A standard path element is searched by looking in the root of the directory specified by the path element. The symbol handler also looks in a subdirectory of "symbols" that matches the file extension of the module that symbols are being looked for. This is typically "dll", "exe", or "sys". Lastly, it looks in a subdirectory called "symbols" with a directory of the same name as the extension. For example, if the symbol path element is "c:\\mySymbols" and the file that symbols are being searched for is "boo.dll", then the following directories would be searched.<dl> c:\\mySymbols  
-c:\\mySymbols\\dll  
-c:\\mySymbols\\symbols\\dll  
-</dl>
+A standard path element is searched by looking in the root of the directory specified by the path element. The symbol handler also looks in a subdirectory of "symbols" that matches the file extension of the module that symbols are being looked for. This is typically "dll", "exe", or "sys". Lastly, it looks in a subdirectory called "symbols" with a directory of the same name as the extension. For example, if the symbol path element is "c:\\mySymbols" and the file that symbols are being searched for is "boo.dll", then the following directories would be searched.
+
+- c:\\mySymbols  
+- c:\\mySymbols\\dll  
+- c:\\mySymbols\\symbols\\dll  
 
 The symbol handler uses this logic to search any path element that does not meet the criteria to be a *symbol server* or *cache* (described below).
 
@@ -60,12 +61,12 @@ The symbol handler treats a path element as a cache element if it begins with th
 
 To see how this works, set this search path.
 
-<dl> **.;cache\****myCache***;srv\*\\\\symbols\\symbols**  
-</dl>
+`**.;cache\****myCache***;srv\*\\\\symbols\\symbols**`
 
 The following is a listing of the symbol handler's verbose output while searching for ntdll.pdb, using the above listed search path.
 
-<pre>DBGHELP: .\\ntdll.pdb - file not found
+```
+DBGHELP: .\\ntdll.pdb - file not found
 DBGHELP: .\\dll\\ntdll.pdb - file not found
 DBGHELP: .\\symbols\\dll\\ntdll.pdb - file not found
 SYMSRV: c:\\myCache\\ntdll.pdb\\0F7FCF88442F4B0E9FB51DC4A754D9DE2\\ntdll.pdb not found
@@ -73,24 +74,17 @@ SYMSRV: ntdll.pdb from \\\\symbols\\symbols: 10497024 bytes - copied
 DBGHELP: c:\\myCache\\ntdll.pdb\\0F7FCF88442F4B0E9FB51DC4A754D9DE2\\ntdll.pdb already cached
 DBGHELP: ntdll - private symbols & lines
 c:\\myCache\\ntdll.pdb\\0F7FCF88442F4B0E9FB51DC4A754D9DE2\\ntdll.pdb
-</pre>
-
-<dl> <dt>
+```
 
 The first three lines of output show the symbol handler processing the first path element of ".". This is a standard path element.
-</dt> <dt>
 
 The fourth line shows the symbol handler using the symbol server to look for the file in the second path element of "cache\*c:\\*mySpace*" which is a cache path element.
-</dt> <dt>
 
 The fifth line shows the file is found in the third path element of "srv\*\\\\symbols\\symbols" which is a symbol server path element.
-</dt> <dt>
 
 The sixth line shows that the file is copied to the cache.
-</dt> <dt>
 
 The last two lines that the file is opened from the cache.
-</dt> </dl>
 
  
 
