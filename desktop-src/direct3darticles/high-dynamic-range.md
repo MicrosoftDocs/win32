@@ -211,6 +211,12 @@ This combination has more stringent restrictions than FP16. You can only use thi
 
 However, this combination can offer powerful performance optimizations when used in your app's final output. It consumes the same 32 bits per pixel as traditional UINT8 SDR pixel formats. In addition, in certain fullscreen scenarios the OS can optimize performance by directly scanning out the HDR10 surface.
 
+### Using an Advanced Color Swap Chain when the Display is in SDR Mode
+
+You may use an advanced color swap chain even if the display does not support some or all of the advanced color capabilities your content requires. In those cases, the DWM will downconvert your content to fit the display's capabilities. In Windows 10 version 1903, it will perform numeric clipping; for example, if you render to an FP16 scRGB swap chain, everything outside of the [0, 1] numeric range is clipped.
+
+This downconversion behavior will also occur if your app window is straddling two or more displays with differing advanced color capabilities. AdvancedColorInfo and IDXGIOutput6 are abstracted to only report the "main" display's characteristics, defined as the display containing the center of the window.
+
 ## Correctly Render SDR Content with SDR Reference White Level
 
 In many scenarios, your app will want to render both SDR and HDR content; for example rendering subtitles or transport controls over HDR video, or UI into a game scene. It is important to understand the concept of _SDR reference white level_ to ensure your SDR content looks correct on an HDR display.
@@ -218,7 +224,7 @@ In many scenarios, your app will want to render both SDR and HDR content; for ex
 Windows treats HDR content as _scene-referred_, meaning that a particular color value should be displayed at a specific luminance level; for example, scRGB (1.0, 1.0, 1.0) and HDR10 (497, 497, 497) both encode exactly D65 white at 80 nits luminance. Meanwhile, SDR content traditionally has been _output-referred_ (or display-referred), meaning that its luminance is left up to the user or the device; for example sRGB (1.0, 1.0, 1.0) encodes D65 white as in the HDR examples, but at whatever maximum luminance the display is configured for. Windows allows the user to adjust the _SDR reference white level_ to their preference; this is the luminance that Windows will render sRGB (1.0, 1.0, 1.0) at. On desktop HDR monitors, SDR reference white levels are typically set to around 200 nits.
 
 > [!Note]
-> On displays that support brightness control, such as on laptops, Windows will adjust the luminance of HDR (scene-referred) content to fit the user's desired brightness level, but this is mostly invisible to the app.
+> On displays that support brightness control, such as on laptops, Windows will also adjust the luminance of HDR (scene-referred) content to match the user's desired brightness level, but this is invisible to the app. Unless you are trying to guarantee bit-accurate reproduction of the HDR signal, you can generally ignore this.
 
 If your app always renders SDR and HDR to separate surfaces and relies on OS composition, then Windows will automatically perform the correct adjustment to boost SDR content to the desired white level. For example, if your app uses XAML and renders HDR content to its own SwapChainPanel.
 
