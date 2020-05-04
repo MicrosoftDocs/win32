@@ -70,19 +70,19 @@ The latest available graphics driver is strongly recommended, either from Window
 
 Windows 10 supports a wide variety of rendering APIs and frameworks. Advanced color support fundamentally relies on your app being able to perform modern presentation using either DXGI or the Visual Layer APIs:
 
-* [DirectX Graphics Infrastructure (DXGI)](../direct3ddxgi/dx-graphics-dxgi.md)
-* [Visual Layer (Windows.UI.Composition)](https://docs.microsoft.com/windows/uwp/composition/visual-layer)
+* [DirectX Graphics Infrastructure (DXGI)](/windows/win32/direct3ddxgi/dx-graphics-dxgi)
+* [Visual Layer (Windows.UI.Composition)](/windows/uwp/composition/visual-layer)
 
 Therefore, any rendering API that can output to one of these presentations methods can support advanced color. This includes but is not limited to:
 
-* [Direct3D 11](../Direct3D11/atoc-dx-graphics-direct3d-11.md)
-* [Direct3D 12](../Direct3D12/direct3d-12-graphics.md)
-* [Direct2D](../Direct2D/direct2d-portal.md)
+* [Direct3D 11](/windows/win32/direct3d11/atoc-dx-graphics-direct3d-11)
+* [Direct3D 12](/windows/win32/direct3d12/direct3d-12-graphics)
+* [Direct2D](/windows/win32/direct2d/direct2d-portal)
 * [Win2D](https://github.com/Microsoft/Win2D)
   * Requires using the lower level CanvasSwapChain or CanvasSwapChainPanel APIs.
-* [Windows.UI.Input.Inking](https://docs.microsoft.com/uwp/api/Windows.UI.Input.Inking)
+* [Windows.UI.Input.Inking](/uwp/api/Windows.UI.Input.Inking)
   * Supports custom dry ink rendering using DirectX
-* [XAML](https://docs.microsoft.com/windows/uwp/xaml-platform/)
+* [XAML](/windows/uwp/xaml-platform/)
   * Supports playback of HDR videos using MediaPlayerElement
   * Supports decode of JPEG XR images using Image element
   * Supports DirectX interop using SwapChainPanel
@@ -95,23 +95,23 @@ Windows 10 provides control over HDR and advanced color capabilities to the user
 
 ### Universal Windows Platform (UWP) apps
 
-If you are writing a UWP app, regardless of the graphics rendering API you are using, use [AdvancedColorInfo](https://docs.microsoft.com/uwp/api/windows.graphics.display.advancedcolorinfo) to get display capabilities. Obtain an instance of AdvancedColorInfo from [DisplayInformation::GetAdvancedColorInfo](https://docs.microsoft.com/uwp/api/windows.graphics.display.displayinformation.getadvancedcolorinfo).
+If you are writing a UWP app, regardless of the graphics rendering API you are using, use [AdvancedColorInfo](/uwp/api/windows.graphics.display.advancedcolorinfo) to get display capabilities. Obtain an instance of AdvancedColorInfo from [DisplayInformation::GetAdvancedColorInfo](/uwp/api/windows.graphics.display.displayinformation.getadvancedcolorinfo).
 
-To check what advanced color kind is currently active, use the [CurrentAdvancedColorKind](https://docs.microsoft.com/uwp/api/windows.graphics.display.advancedcolorinfo.currentadvancedcolorkind) property. In Windows 10 1903 this returns one of three possible values: SDR, WCG, or HDR. This is the most important property to check and you should configure your render and presentation pipeline in response to the active kind.
+To check what advanced color kind is currently active, use the [CurrentAdvancedColorKind](/uwp/api/windows.graphics.display.advancedcolorinfo.currentadvancedcolorkind) property. In Windows 10 1903 this returns one of three possible values: SDR, WCG, or HDR. This is the most important property to check and you should configure your render and presentation pipeline in response to the active kind.
 
-To check what advanced color kinds are supported but not necessarily active, call [IsAdvancedColorKindAvailable](https://docs.microsoft.com/uwp/api/windows.graphics.display.advancedcolorinfo.isadvancedcolorkindavailable). You could use this information, for example, to prompt the user to navigate the Settings app so they can enable HDR or WCG.
+To check what advanced color kinds are supported but not necessarily active, call [IsAdvancedColorKindAvailable](/uwp/api/windows.graphics.display.advancedcolorinfo.isadvancedcolorkindavailable). You could use this information, for example, to prompt the user to navigate the Settings app so they can enable HDR or WCG.
 
 The other members of AdvancedColorInfo provide quantitative information about the panel’s physical color volume (luminance and chrominance), corresponding to SMPTE ST.2086 static HDR metadata. You should use this information to configure your app's HDR tonemapping and gamut mapping.
 
-To handle changes in advanced color capabilities, register for the [AdvancedColorInfoChanged](https://docs.microsoft.com/uwp/api/windows.graphics.display.displayinformation.advancedcolorinfochanged) event. This event fires if any parameter of the display’s advanced color capabilities has changed for any reason.
+To handle changes in advanced color capabilities, register for the [AdvancedColorInfoChanged](/uwp/api/windows.graphics.display.displayinformation.advancedcolorinfochanged) event. This event fires if any parameter of the display’s advanced color capabilities has changed for any reason.
 
 Respond to this event by obtaining a new instance of AdvancedColorInfo and checking which values have changed.
 
 ### Desktop (Win32) DirectX apps
 
-If you are writing a Win32 app and using DirectX to render, use [DXGI_OUTPUT_DESC1](https://docs.microsoft.com/windows/desktop/api/DXGI1_6/ns-dxgi1_6-dxgi_output_desc1) to get display capabilities. Obtain an instance of this struct via [IDXGIOutput6::GetDesc1](https://docs.microsoft.com/windows/win32/api/dxgi1_6/nf-dxgi1_6-idxgioutput6-getdesc1).
+If you are writing a Win32 app and using DirectX to render, use [DXGI_OUTPUT_DESC1](/windows/desktop/api/DXGI1_6/ns-dxgi1_6-dxgi_output_desc1) to get display capabilities. Obtain an instance of this struct via [IDXGIOutput6::GetDesc1](/windows/win32/api/dxgi1_6/nf-dxgi1_6-idxgioutput6-getdesc1).
 
-To check what advanced color kind is currently active, use the ColorSpace property, which is of type [DXGI_COLOR_SPACE_TYPE](https://docs.microsoft.com/windows/win32/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) and contains one of the following values:
+To check what advanced color kind is currently active, use the ColorSpace property, which is of type [DXGI_COLOR_SPACE_TYPE](/windows/win32/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) and contains one of the following values:
 
 * DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709: SDR
 * DXGI_COLOR_SPACE_RGB_FULL_G2048_NONE_P2020: HDR
@@ -124,9 +124,9 @@ To check what advanced color kind is currently active, use the ColorSpace proper
 
 Most of the other members of DXGI_OUTPUT_DESC1 provide quantitative information about the panel’s physical color volume (luminance and chrominance), corresponding to SMPTE ST.2086 static HDR metadata. You should use this information to configure your app's HDR tonemapping and gamut mapping.
 
-Win32 apps don’t have a native mechanism to respond to advanced color capability changes. Instead, if your app uses a render loop you should query [IDXGIFactory1::IsCurrent](https://docs.microsoft.com/windows/desktop/api/DXGI/nf-dxgi-idxgifactory1-iscurrent) with each frame. If it reports FALSE then you should obtain a new DXGI_OUTPUT_DESC1 and check which values have changed.
+Win32 apps don’t have a native mechanism to respond to advanced color capability changes. Instead, if your app uses a render loop you should query [IDXGIFactory1::IsCurrent](/windows/desktop/api/DXGI/nf-dxgi-idxgifactory1-iscurrent) with each frame. If it reports FALSE then you should obtain a new DXGI_OUTPUT_DESC1 and check which values have changed.
 
-In addition, your Win32 message pump should handle the [WM_SIZE](https://docs.microsoft.com/windows/win32/winmsg/wm-size) message which is indicates that your app may have moved between different displays.
+In addition, your Win32 message pump should handle the [WM_SIZE](/windows/win32/winmsg/wm-size) message which is indicates that your app may have moved between different displays.
 
 > [!Note]
 > To obtain a new DXGI_OUTPUT_DESC1 you must obtain the current display. However, you should not call IDXGISwapChain::GetContainingOutput. This is because swap chains will return a stale DXGI output once DXGIFactory::IsCurrent is false, and recreating the swap chain to get a current output results in a temporary black screen. Instead, we recommend that you enumerate through the bounds of all DXGI outputs and determine which one has the greatest intersection with your app window’s bounds.
@@ -191,13 +191,13 @@ Once you have determined that the display currently supports advanced color capa
 
 ### Use a Flip Model Presentation Effect
 
-When creating your swap chain using the CreateSwapChainForHwnd/Composition/CoreWindow methods, you must use the DXGI flip model by selecting either the DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL or DXGI_SWAP_EFFECT_FLIP_DISCARD option, which makes your swap chain eligible for advanced color processing from DWM and various fullscreen optimizations. For more information, refer to the following topic: [For best performance, use DXGI flip model](../direct3ddxgi/for-best-performance--use-dxgi-flip-model.md).
+When creating your swap chain using the CreateSwapChainForHwnd/Composition/CoreWindow methods, you must use the DXGI flip model by selecting either the DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL or DXGI_SWAP_EFFECT_FLIP_DISCARD option, which makes your swap chain eligible for advanced color processing from DWM and various fullscreen optimizations. For more information, refer to the following topic: [For best performance, use DXGI flip model](/windows/win32/direct3ddxgi/for-best-performance--use-dxgi-flip-model).
 
 ### Option 1: Use FP16 Pixel Format and scRGB Color Space
 
 Windows 10 supports two main combinations of pixel format and color space for advanced color. Select one based on your app’s specific requirements.
 
-For general purpose apps, we recommend specifying [DXGI_FORMAT_R16G16B16A16_FLOAT](https://docs.microsoft.com/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) a.k.a. FP16 in your [DXGI_SWAP_CHAIN_DESC1](https://docs.microsoft.com/windows/win32/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1) when creating your swap chain. By default, a swap chain created with a float point pixel format is treated as if it uses the [DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709](https://docs.microsoft.com/windows/win32/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) color space a.k.a. scRGB.
+For general purpose apps, we recommend specifying [DXGI_FORMAT_R16G16B16A16_FLOAT](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) a.k.a. FP16 in your [DXGI_SWAP_CHAIN_DESC1](/windows/win32/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1) when creating your swap chain. By default, a swap chain created with a float point pixel format is treated as if it uses the [DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709](/windows/win32/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) color space a.k.a. scRGB.
 
 This combination provides you with the numeric range and precision to specify almost any physically possible color and perform arbitrary processing including blending. In addition, if you are using Direct2D, Win2D or Windows.UI.Composition, this is the only supported combination for any swap chain or intermediate target that contains advanced color content. 
 
@@ -205,7 +205,7 @@ The main tradeoff of this option is that it consumes 64 bits per pixel which dou
 
 ### Option 2: Use UINT10/RGB10 Pixel Format and HDR10/BT.2100 Color Space
 
-For apps that consume HDR10-encoded content such as media players, or apps that are expected to mainly be used in fullscreen scenarios such as games, you should consider specifying [DXGI_FORMAT_R10G10B10A2_UNORM](https://docs.microsoft.com/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) in [DXGI_SWAP_CHAIN_DESC1](https://docs.microsoft.com/windows/win32/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1) when creating your swap chain. By default, this is treated as using the sRGB color space; therefore, you must explicitly call [IDXGISwapChain3::SetColorSpace1](https://docs.microsoft.com/windows/win32/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-setcolorspace1) and set [DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020](https://docs.microsoft.com/windows/win32/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) a.k.a. HDR10/BT.2100 as your color space.
+For apps that consume HDR10-encoded content such as media players, or apps that are expected to mainly be used in fullscreen scenarios such as games, you should consider specifying [DXGI_FORMAT_R10G10B10A2_UNORM](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) in [DXGI_SWAP_CHAIN_DESC1](/windows/win32/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1) when creating your swap chain. By default, this is treated as using the sRGB color space; therefore, you must explicitly call [IDXGISwapChain3::SetColorSpace1](/windows/win32/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-setcolorspace1) and set [DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020](/windows/win32/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) a.k.a. HDR10/BT.2100 as your color space.
 
 This combination has more stringent restrictions than FP16. You can only use this with Direct3D 11 or Direct3D 12. In addition, UINT10/HDR10 has limitations as an intermediate format because it uses the ST.2084 EOTF (“gamma” function) which is highly nonlinear and optimized as a wire format, and because it only offers 2 bits of alpha.
 
@@ -232,13 +232,13 @@ However, if your app performs its own composition of SDR and HDR content into a 
 
 ### Step 1: Obtain the Current SDR Reference White Level
 
-Currently, only UWP apps can obtain the current SDR reference white level via [AdvancedColorInfo.SdrWhiteLevelInNits](https://docs.microsoft.com/uwp/api/windows.graphics.display.advancedcolorinfo.sdrwhitelevelinnits). This API requires a [CoreWindow](https://docs.microsoft.com/uwp/api/Windows.UI.Core.CoreWindow).
+Currently, only UWP apps can obtain the current SDR reference white level via [AdvancedColorInfo.SdrWhiteLevelInNits](/uwp/api/windows.graphics.display.advancedcolorinfo.sdrwhitelevelinnits). This API requires a [CoreWindow](/uwp/api/Windows.UI.Core.CoreWindow).
 
 ### Step 2: Adjust Color Values of SDR Content
 
 Windows defines the nominal, or default, reference white level at 80 nits; therefore if you were to render a standard sRGB (1.0, 1.0, 1.0) white to an FP16 swap chain, it would be reproduced at 80 nits luminance. In order to match the actual user-defined reference white level, you must adjust SDR content from 80 nits to the level specified via AdvancedColorInfo.SdrWhiteLevelInNits.
 
-If you are rendering using FP16 and scRGB, or any color space that uses linear (1.0) gamma, then you can simply multiply the SDR color value by _AdvancedColorInfo.SdrWhiteLevelInNits_ / _80_. If you are using Direct2D, there is a predefined constant [D2D1_SCENE_REFERRED_SDR_WHITE_LEVEL](https://docs.microsoft.com/windows/win32/direct2d/direct2d-constants#d2d1_scene_referred_sdr_white_level-800f) which equals 80.
+If you are rendering using FP16 and scRGB, or any color space that uses linear (1.0) gamma, then you can simply multiply the SDR color value by _AdvancedColorInfo.SdrWhiteLevelInNits_ / _80_. If you are using Direct2D, there is a predefined constant [D2D1_SCENE_REFERRED_SDR_WHITE_LEVEL](/windows/win32/direct2d/direct2d-constants#d2d1_scene_referred_sdr_white_level-800f) which equals 80.
 
 ```C++
 D2D1_VECTOR_4F inputColor; // Input SDR color value.
@@ -267,11 +267,11 @@ The most important single parameter to adapt for is max luminance, also known as
 
 #### Universal Windows Platform (UWP) apps
 
-Use [AdvancedColorInfo](https://docs.microsoft.com/uwp/api/windows.graphics.display.advancedcolorinfo) to get the display's color volume.
+Use [AdvancedColorInfo](/uwp/api/windows.graphics.display.advancedcolorinfo) to get the display's color volume.
 
 #### Desktop (Win32) DirectX apps
 
-Use [DXGI_OUTPUT_DESC1](https://docs.microsoft.com/windows/desktop/api/DXGI1_6/ns-dxgi1_6-dxgi_output_desc1) to get the display's color volume.
+Use [DXGI_OUTPUT_DESC1](/windows/desktop/api/DXGI1_6/ns-dxgi1_6-dxgi_output_desc1) to get the display's color volume.
 
 ### Step 2: Get the Content's Color Volume Information
 
@@ -427,7 +427,7 @@ void D2DAdvancedColorImagesRenderer::ComputeHdrMetadata()
 
 ### Step 3: Perform the HDR Tonemapping Operation
 
-Tonemapping is inherently a lossy process and can be optimized for a number of perceptual or objective metrics, so there is no one standard algorithm. Windows provides a built-in [HDR tonemapper effect](https://docs.microsoft.com/windows/win32/direct2d/hdr-tone-map-effect) as part of Direct2D as well as in the Media Foundation HDR video playback pipeline. Some other commonly used algorithms include ACES Filmic, Reinhard, and ITU-R BT.2390-3 EETF (electrical-electrical transfer function).
+Tonemapping is inherently a lossy process and can be optimized for a number of perceptual or objective metrics, so there is no one standard algorithm. Windows provides a built-in [HDR tonemapper effect](/windows/win32/direct2d/hdr-tone-map-effect) as part of Direct2D as well as in the Media Foundation HDR video playback pipeline. Some other commonly used algorithms include ACES Filmic, Reinhard, and ITU-R BT.2390-3 EETF (electrical-electrical transfer function).
 
 A simplified Reinhard tonemapper operator is shown below.
 
