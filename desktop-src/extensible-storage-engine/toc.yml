@@ -8230,7 +8230,7 @@
             href: table-type-conversions.md
             items:
             - name: Implicit conversion (Table to JET_TABLEID)
-              href: table-implicit-conversion-table-to-jet-table.md
+              href: table-implicit-conversion-table-to-jet-tableid.md
           - name: Table properties
             href: table-properties.md
             items:
