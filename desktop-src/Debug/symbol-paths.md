@@ -64,7 +64,7 @@ To see how this works, set this search path.
 "cache\*c:\myCache;srv\*\symbols\symbols"
 
 <!-- 
-See example from https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/symbol-path
+See example from https://docs.microsoft.com/windows-hardware/drivers/debugger/symbol-path
 cache\*c:\MySymbols;srv\*https://msdl.microsoft.com/download/symbols
 -->
 
