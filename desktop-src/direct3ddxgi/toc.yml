@@ -32,8 +32,6 @@
       href: dxgi-1-5-improvements.md
     - name: "DXGI 1.6 Improvements"
       href: dxgi-1-6-improvements.md
-    - name: "High Dynamic Range and Wide Color Gamut"
-      href: high-dynamic-range-and-wide-color-gamut.md
     - name: "Variable refresh rate displays"
       href: variable-refresh-rate-displays.md
     - name: "Using gamma correction"
