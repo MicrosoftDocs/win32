@@ -200,9 +200,9 @@
         href: disk-management-enumeration-types.md
         items: 
         - name: "MEDIA_TYPE"
-          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_media_type
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type
         - name: "PARTITION_STYLE"
-          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_partition_style
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style
         - name: "STORAGE_BUS_TYPE"
           href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_bus_type
         - name: "STORAGE_COMPONENT_HEALTH_STATUS"
@@ -212,21 +212,21 @@
         - name: "STORAGE_DEVICE_POWER_CAP_UNITS"
           href: /windows/win32/api/winioctl/ne-winioctl-storage_device_power_cap_units
         - name: "STORAGE_PORT_CODE_SET"
-          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_port_code_set
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_port_code_set
         - name: "STORAGE_PROPERTY_ID"
-          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_property_id
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_property_id
         - name: "STORAGE_PROTOCOL_TYPE"
           href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_protocol_type
         - name: "STORAGE_QUERY_TYPE"
           href: /windows/win32/api/WinIoCtl/ne-winioctl-storage_query_type
         - name: "WRITE_CACHE_CHANGE"
-          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_write_cache_change
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-write_cache_change
         - name: "WRITE_CACHE_ENABLE"
-          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_write_cache_enable
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-write_cache_enable
         - name: "WRITE_CACHE_TYPE"
-          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_write_cache_type
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-write_cache_type
         - name: "WRITE_THROUGH"
-          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_write_through
+          href: https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-write_through
       - name: "Disk Management Functions"
         href: disk-management-functions.md
         items: 
@@ -386,7 +386,7 @@
         - name: "DISK_PERFORMANCE"
           href: /windows/win32/api/WinIoCtl/ns-winioctl-disk_performance
         - name: "DISKQUOTA_USER_INFORMATION"
-          href: /windows/desktop/api/Dskquota/ns-dskquota-diskquotauserinformation
+          href: /windows/win32/api/dskquota/ns-dskquota-diskquota_user_information
         - name: "DRIVE_LAYOUT_INFORMATION"
           href: /windows/win32/api/WinIoCtl/ns-winioctl-drive_layout_information
         - name: "DRIVE_LAYOUT_INFORMATION_EX"
@@ -496,7 +496,7 @@
       - name: "File System Functionality Comparison"
         href: filesystem-functionality-comparison.md
       - name: "exFat File System Specification"
-        href: "exfat-specification.md"
+        href: exfat-specification.md
       - name: "Files and Clusters"
         href: files-and-clusters.md
         items: 
@@ -1072,7 +1072,7 @@
         - name: "DUPLICATE_EXTENTS_DATA"
           href: /windows/win32/api/WinIoCtl/ns-winioctl-duplicate_extents_data
         - name: "EFS_CERTIFICATE_BLOB"
-          href: /windows/desktop/api/Winefs/ns-winefs-_certificate_blob
+          href: /windows/desktop/api/Winefs/ns-winefs-efs_certificate_blob
         - name: "EFS_HASH_BLOB"
           href: /windows/win32/api/Winefs/ns-winefs-efs_hash_blob
         - name: "ENCRYPTION_CERTIFICATE"
@@ -1108,7 +1108,7 @@
         - name: "FILE_FULL_DIR_INFO"
           href: /windows/win32/api/WinBase/ns-winbase-file_full_dir_info
         - name: "FILE_ID_128"
-          href: https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_id_128
+          href: https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-file_id_128
         - name: "FILE_ID_BOTH_DIR_INFO"
           href: /windows/win32/api/WinBase/ns-winbase-file_id_both_dir_info
         - name: "FILE_ID_DESCRIPTOR"
@@ -1140,7 +1140,7 @@
         - name: "FILE_RENAME_INFO"
           href: /windows/win32/api/WinBase/ns-winbase-file_rename_info
         - name: "FILE_SEGMENT_ELEMENT"
-          href: /windows/desktop/api/WinNT/ns-winnt-_file_segment_element
+          href: https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-writefilegather#remarks
         - name: "FILE_SET_DEFECT_MGMT_BUFFER"
           href: /windows/win32/api/WinIoCtl/ns-winioctl-file_set_defect_mgmt_buffer
         - name: "FILE_SET_SPARSE_BUFFER"

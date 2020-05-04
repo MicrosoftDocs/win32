@@ -6429,7 +6429,7 @@
             href: instance-type-conversions.md
             items:
             - name: Implicit conversion (Instance to JET_INSTANCE)
-              href: instance implicit-conversion-instance-to-jet-instance-.md
+              href: instance-implicit-conversion-instance-to-jet-instance.md
           - name: Instance properties
             href: instance-properties.md
             items:
@@ -8084,7 +8084,7 @@
             href: session-type-conversions.md
             items:
             - name: Implicit conversion (Session to JET_SESID)
-              href: session implicit-conversion-session-to-jet-sesid-.md
+              href: session-implicit-conversion-session-to-jet-sesid.md
           - name: Session properties
             href: session-properties.md
             items:
@@ -8230,7 +8230,7 @@
             href: table-type-conversions.md
             items:
             - name: Implicit conversion (Table to JET_TABLEID)
-              href: table implicit-conversion-table-to-jet-tableid-.md
+              href: table-implicit-conversion-table-to-jet-table.md
           - name: Table properties
             href: table-properties.md
             items:

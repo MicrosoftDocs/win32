@@ -31,7 +31,7 @@
       - name: "POINTER_BUTTON_CHANGE_TYPE"
         href: /windows/win32/api/winuser/ne-winuser-pointer_button_change_type
       - name: "POINTER_INPUT_TYPE"
-        href: /windows/win32/api/winuser/ne-winuser-pointer_input_type
+        href: /windows/win32/api/winuser/ne-winuser-tagpointer_input_type
     - name: "Functions"
       href: functions.md
       items: 
@@ -97,7 +97,7 @@
       - name: "IS_POINTER_NEW_WPARAM"
         href: /windows/win32/api/Winuser/nf-winuser-is_pointer_new_wparam
       - name: "IS_POINTER_PRIMARY_WPARAM"
-        href: /windows/win32/api/Winuser/nf-winuser-is_pointer_primary_wparam
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh454900(v%3dvs.85)
       - name: "IS_POINTER_SECONDBUTTON_WPARAM"
         href: /windows/win32/api/Winuser/nf-winuser-is_pointer_secondbutton_wparam
       - name: "IS_POINTER_THIRDBUTTON_WPARAM"
