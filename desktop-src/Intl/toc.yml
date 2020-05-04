@@ -258,7 +258,7 @@
           - name: "GetStringTypeA"
             href: /windows/desktop/api/Winnls/nf-winnls-getstringtypea
           - name: "GetStringTypeEx"
-            href: /windows/desktop/api/Winnls/nf-winnls-getstringtypeexa
+            href: https://docs.microsoft.com/previous-versions/aa915530(v%3dmsdn.10)
           - name: "GetStringTypeW"
             href: /windows/desktop/api/Stringapiset/nf-stringapiset-getstringtypew
           - name: "GetSystemDefaultLangID"
@@ -374,7 +374,7 @@
           - name: "CURRENCYFMT"
             href: /windows/win32/api/Winnls/ns-winnls-currencyfmta
           - name: "NLSVERSIONINFO"
-            href: /windows/desktop/api/Winnls/ns-winnls-_nlsversioninfo
+            href: /windows/desktop/api/Winnls/ns-winnls-nlsversioninfo~r1
           - name: "NLSVERSIONINFOEX"
             href: /windows/win32/api/Winnls/ns-winnls-nlsversioninfoex
           - name: "NUMBERFMT"

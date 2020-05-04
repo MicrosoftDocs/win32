@@ -11,90 +11,90 @@
         href: /windows/desktop/api/LocationApi/nn-locationapi-icivicaddressreport
         items: 
         - name: "GetAddressLine1 Method"
-          href: winlocation-com-ref/icivicaddressreport-getaddressline1.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getaddressline1
         - name: "GetAddressLine2 Method"
-          href: winlocation-com-ref/icivicaddressreport-getaddressline2.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getaddressline2
         - name: "GetCity Method"
-          href: winlocation-com-ref/icivicaddressreport-getcity.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getcity
         - name: "GetCountryRegion Method"
-          href: winlocation-com-ref/icivicaddressreport-getcountryregion.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getcountryregion
         - name: "GetDetailLevel Method"
-          href: winlocation-com-ref/icivicaddressreport-getdetaillevel.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getdetaillevel
         - name: "GetPostalCode Method"
-          href: winlocation-com-ref/icivicaddressreport-getpostalcode.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getpostalcode
         - name: "GetStateProvince Method"
-          href: winlocation-com-ref/icivicaddressreport-getstateprovince.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-icivicaddressreport-getstateprovince
       - name: "IDefaultLocation"
         href: /windows/desktop/api/LocationApi/nn-locationapi-idefaultlocation
         items: 
         - name: "GetReport Method"
-          href: winlocation-com-ref/idefaultlocation-getreport.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-idefaultlocation-getreport
         - name: "SetReport Method"
-          href: winlocation-com-ref/idefaultlocation-setreport.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-idefaultlocation-setreport
       - name: "ILatLongReport"
         href: /windows/desktop/api/LocationApi/nn-locationapi-ilatlongreport
         items: 
         - name: "GetAltitude Method"
-          href: winlocation-com-ref/ilatlongreport-getaltitude.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-getaltitude
         - name: "GetAltitudeError Method"
-          href: winlocation-com-ref/ilatlongreport-getaltitudeerror.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-getaltitudeerror
         - name: "GetErrorRadius Method"
-          href: winlocation-com-ref/ilatlongreport-geterrorradius.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-geterrorradius
         - name: "GetLatitude Method"
-          href: winlocation-com-ref/ilatlongreport-getlatitude.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-getlatitude
         - name: "GetLongitude Method"
-          href: winlocation-com-ref/ilatlongreport-getlongitude.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilatlongreport-getlongitude
       - name: "ILocation"
         href: /windows/desktop/api/LocationApi/nn-locationapi-ilocation
         items: 
         - name: "GetDesiredAccuracy Method"
           href: /windows/desktop/api/LocationApi/nf-locationapi-ilocation-getdesiredaccuracy
         - name: "GetReport Method"
-          href: winlocation-com-ref/ilocation-getreport.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocation-getreport
         - name: "GetReportInterval Method"
-          href: winlocation-com-ref/ilocation-getreportinterval.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocation-getreportinterval
         - name: "GetReportStatus Method"
-          href: winlocation-com-ref/ilocation-getreportstatus.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocation-getreportstatus
         - name: "RegisterForReport Method"
-          href: winlocation-com-ref/ilocation-registerforreport.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocation-registerforreport
         - name: "RequestPermissions Method"
-          href: winlocation-com-ref/ilocation-requestpermissions.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocation-requestpermissions
         - name: "SetDesiredAccuracy Method"
           href: /windows/desktop/api/LocationApi/nf-locationapi-ilocation-setdesiredaccuracy
         - name: "SetReportInterval Method"
-          href: winlocation-com-ref/ilocation-setreportinterval.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocation-setreportinterval
         - name: "UnregisterForReport Method"
-          href: winlocation-com-ref/ilocation-unregisterforreport.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocation-unregisterforreport
       - name: "ILocationEvents"
         href: /windows/desktop/api/LocationApi/nn-locationapi-ilocationevents
         items: 
         - name: "OnLocationChanged Method"
-          href: winlocation-com-ref/ilocationevents-onlocationchanged.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocationevents-onlocationchanged
         - name: "OnStatusChanged Method"
-          href: winlocation-com-ref/ilocationevents-onstatuschanged.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocationevents-onstatuschanged
       - name: "ILocationPower"
         href: /windows/desktop/api/LocationApi/nn-locationapi-ilocationpower
         items: 
         - name: "Connect method"
-          href: winlocation-com-ref/ilocationpower-connect.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocationpower-connect
         - name: "Disconnect method"
-          href: winlocation-com-ref/ilocationpower-disconnect.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocationpower-disconnect
       - name: "ILocationReport"
         href: /windows/desktop/api/LocationApi/nn-locationapi-ilocationreport
         items: 
         - name: "GetSensorID Method"
-          href: winlocation-com-ref/ilocationreport-getsensorid.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocationreport-getsensorid
         - name: "GetTimestamp Method"
-          href: winlocation-com-ref/ilocationreport-gettimestamp.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocationreport-gettimestamp
         - name: "GetValue Method"
-          href: winlocation-com-ref/ilocationreport-getvalue.md)--
+          href: /windows/win32/api/locationapi/nf-locationapi-ilocationreport-getvalue
     - name: "Structures and Enumeration Types"
       href: structures-and-enumeration-types.md
       items: 
       - name: "LOCATION_DESIRED_ACCURACY"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd756639(v=vs.85)
       - name: "LOCATION_REPORT_STATUS"
-        href: winlocation-com-ref/location-report-status.md)--
+        href: /windows/win32/api/locationapi/ne-locationapi-location_report_status
   - name: "Location API Object Model Reference"
     href: windows-location-script-programming-reference.md
     items: 
