@@ -268,7 +268,7 @@
         href: /windows/desktop/api/gdipluslinecaps/nl-gdipluslinecaps-adjustablearrowcap
         items: 
         - name: "AdjustableArrowCap"
-          href: https://docs.microsoft.com/windows/desktop/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-adjustablearrowcap(constadjustablearrowcap_)
+          href: https://docs.microsoft.com/windows/desktop/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-adjustablearrowcap(inreal_inreal_inbool)
         - name: "AdjustableArrowCap Methods"
           href: -gdiplus-class-adjustablearrowcap-methods.md
           items: 
@@ -295,11 +295,11 @@
           href: https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-bitmap(constbitmap_)
           items: 
           - name: "Bitmap(IDirectDrawSurface7*)"
-            href: https://docs.microsoft.com/previous-versions//ms536310(v=vs.85)
+            href: https://docs.microsoft.com/previous-versions/ms536310(v=vs.85)
           - name: "Bitmap(INT,INT,Graphics*)"
-            href: https://docs.microsoft.com/previous-versions//ms536311(v=vs.85)
+            href: https://docs.microsoft.com/previous-versions/ms536311(v=vs.85)
           - name: "Bitmap(BITMAPINFO*,VOID*)"
-            href: https://docs.microsoft.com/previous-versions//ms536312(v=vs.85)
+            href: https://docs.microsoft.com/previous-versions/ms536312(v=vs.85)
           - name: "Bitmap(INT,INT,PixelFormat)"
             href: https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-bitmap(inint_inint_inpixelformat)
           - name: "Bitmap(HBITMAP,HPALETTE)"
@@ -427,7 +427,7 @@
           - name: "CharacterRange(INT,INT)"
             href: https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange(int_int)
         - name: "operator="
-          href: /windows/desktop/api/Gdiplustypes/nf-gdiplustypes-characterrange-operator=
+          href: /windows/desktop/api/Gdiplustypes/nf-gdiplustypes-characterrange-operator-assign
       - name: "Color"
         href: /windows/desktop/api/gdipluscolor/nl-gdipluscolor-color
         items: 
@@ -679,11 +679,11 @@
           - name: "operator delete"
             href: https://docs.microsoft.com/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatordelete
           - name: "operator delete["
-            href: https://docs.microsoft.com/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatordelete[]
+            href: https://docs.microsoft.com/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatordelete_array
           - name: "operator new"
             href: https://docs.microsoft.com/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew
           - name: "operator new["
-            href: https://docs.microsoft.com/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew[]
+            href: https://docs.microsoft.com/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew_array
       - name: "Graphics"
         href: /windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics
         items: 
