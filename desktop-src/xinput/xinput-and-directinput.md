@@ -13,8 +13,6 @@ XInput is an API that allows applications to receive input from the Xbox Control
 > [!Note]  
 > Use of legacy [DirectInput](https://msdn.microsoft.com/library/Ee416842(v=VS.85).aspx) is not recommended, and DirectInput is not available for Windows Store apps.
 
- 
-
 ## The New Standard: XInput
 
 XInput is now available for game development. This is the new input standard for both the Xbox and Windows. The APIs are available through the DirectX SDK, and the driver is available through Windows Update.
@@ -49,8 +47,7 @@ If you want your game to support legacy [DirectInput](https://msdn.microsoft.com
 
 To do this, insert this code into your DirectInput enumeration callback:
 
-
-```
+```cpp
 #include <wbemidl.h>
 #include <oleauto.h>
 #include <wmsstd.h>
@@ -187,22 +184,8 @@ BOOL CALLBACK EnumJoysticksCallback( const DIDEVICEINSTANCE* pdidInstance,
 }
 ```
 
-
-
 ## Related topics
 
-<dl> <dt>
-
 [Getting Started With XInput](getting-started-with-xinput.md)
-</dt> <dt>
 
 [Programming Reference](programming-reference.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-

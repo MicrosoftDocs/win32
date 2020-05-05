@@ -55,29 +55,26 @@ Throughout the duration of an application, getting state from a controller will 
 
 To retrieve state, use the [**XInputGetState**](/windows/desktop/api/XInput/nf-xinput-xinputgetstate) function:
 
-
-```
+```cpp
 DWORD dwResult;    
 for (DWORD i=0; i< XUSER_MAX_COUNT; i++ )
 {
-  XINPUT_STATE state;
-  ZeroMemory( &state, sizeof(XINPUT_STATE) );
+    XINPUT_STATE state;
+    ZeroMemory( &state, sizeof(XINPUT_STATE) );
 
-        // Simply get the state of the controller from XInput.
-        dwResult = XInputGetState( i, &state );
+    // Simply get the state of the controller from XInput.
+    dwResult = XInputGetState( i, &state );
 
-        if( dwResult == ERROR_SUCCESS )
-  {
-      // Controller is connected 
-  }
-        else
-  {
-            // Controller is not connected 
-  }
+    if( dwResult == ERROR_SUCCESS )
+    {
+        // Controller is connected
+    }
+    else
+    {
+        // Controller is not connected
+    }
 }
 ```
-
-
 
 Note that the return value of [**XInputGetState**](/windows/desktop/api/XInput/nf-xinput-xinputgetstate) can be used to determine if the controller is connected. Applications should define a structure to hold internal controller information; this information should be compared against the results of **XInputGetState** to determine what changes, such as button presses or analog controller deltas, were made that frame. In the above example, *g\_Controllers* represents such a structure.
 
@@ -94,14 +91,11 @@ In order for users to have a consistent gameplay experience, your game must impl
 > [!Note]  
 > Games that use XInput that do not filter dead zone at all will experience poor gameplay. Please note that some controllers are more sensitive than others, thus the dead zone may vary from unit to unit. It is recommended that you test your games with several Xbox controllers on different systems.
 
- 
-
 Applications should use "dead zones" on analog inputs (triggers, sticks) to indicate when a movement has been made sufficiently on the stick or trigger to be considered valid.
 
 Your application should check for dead zones and respond appopriately, as in this example:
 
-
-```
+```cpp
 XINPUT_STATE state = g_Controllers[i].state;
 
 float LX = state.Gamepad.sThumbLX;
@@ -119,15 +113,15 @@ float normalizedMagnitude = 0;
 //check if the controller is outside a circular dead zone
 if (magnitude > INPUT_DEADZONE)
 {
-  //clip the magnitude at its expected maximum value
-  if (magnitude > 32767) magnitude = 32767;
-  
-  //adjust magnitude relative to the end of the dead zone
-  magnitude -= INPUT_DEADZONE;
+    //clip the magnitude at its expected maximum value
+    if (magnitude > 32767) magnitude = 32767;
 
-  //optionally normalize the magnitude with respect to its expected range
-  //giving a magnitude value of 0.0 to 1.0
-  normalizedMagnitude = magnitude / (32767 - INPUT_DEADZONE);
+    //adjust magnitude relative to the end of the dead zone
+    magnitude -= INPUT_DEADZONE;
+
+    //optionally normalize the magnitude with respect to its expected range
+    //giving a magnitude value of 0.0 to 1.0
+    normalizedMagnitude = magnitude / (32767 - INPUT_DEADZONE);
 }
 else //if the controller is in the deadzone zero out the magnitude
 {
@@ -138,20 +132,15 @@ else //if the controller is in the deadzone zero out the magnitude
 //repeat for right thumb stick
 ```
 
-
-
 This example calculates the controller's direction vector and how far along the vector the controller has been pushed. This allows enforcement of a circular deadzone by simply checking whether the controller's magnitude is greater than the deadzone value. In addition the code normalizes the controller's magnitude which can then be multiplied by a game specific factor to convert the controller's position to units relevant to the game.
 
 Note that you may define your own dead zones for the sticks and triggers (anywhere from 0-65534), or you may use the provided deadzones defined as XINPUT\_GAMEPAD\_LEFT\_THUMB\_DEADZONE, XINPUT\_GAMEPAD\_RIGHT\_THUMB\_DEADZONE, and XINPUT\_GAMEPAD\_TRIGGER\_THRESHOLD in XInput.h:
 
-
-```
+```cpp
 #define XINPUT_GAMEPAD_LEFT_THUMB_DEADZONE  7849
 #define XINPUT_GAMEPAD_RIGHT_THUMB_DEADZONE 8689
 #define XINPUT_GAMEPAD_TRIGGER_THRESHOLD    30
 ```
-
-
 
 Once the deadzone is enforced, you may find it useful to scale the resulting range \[0.0..1.0\] floating point (as in the example above), and optionally apply a non-linear transform.
 
@@ -163,16 +152,13 @@ In addition to getting the state of the controller, you may also send vibration 
 
 The speed of each motor can be specified using a WORD value in the [**XINPUT\_VIBRATION**](/windows/desktop/api/XInput/ns-xinput-xinput_vibration) structure that is passed to the [**XInputSetState**](/windows/desktop/api/XInput/nf-xinput-xinputsetstate) function as follows:
 
-
-```
+```cpp
 XINPUT_VIBRATION vibration;
 ZeroMemory( &vibration, sizeof(XINPUT_VIBRATION) );
 vibration.wLeftMotorSpeed = 32000; // use any value between 0-65535 here
 vibration.wRightMotorSpeed = 16000; // use any value between 0-65535 here
 XInputSetState( i, &vibration );
 ```
-
-
 
 Note that the right motor is the high-frequency motor, the left motor is the low-frequency motor. They do not always need to be set to the same amount, as they provide different effects.
 
@@ -185,8 +171,7 @@ The headset for an Xbox Controller has these functions:
 
 Use this code to obtain the device identifiers for the headset:
 
-
-```
+```cpp
 WCHAR renderId[ 256 ] = {0};
 WCHAR captureId[ 256 ] = {0};
 UINT rcount = 256;
@@ -195,12 +180,9 @@ UINT ccount = 256;
 XInputGetAudioDeviceIds( i, renderId, &rcount, captureId, &ccount );
 ```
 
-
-
 After you obtain the device identifiers, you can create the appropriate interfaces. For example, if you use XAudio 2.8, use this code to create a mastering voice for this device:
 
-
-```
+```cpp
 IXAudio2* pXAudio2 = NULL;
 HRESULT hr;
 if ( FAILED(hr = XAudio2Create( &pXAudio2, 0, XAUDIO2_DEFAULT_PROCESSOR ) ) )
@@ -210,8 +192,6 @@ IXAudio2MasteringVoice* pMasterVoice = NULL;
 if ( FAILED(hr = pXAudio2->CreateMasteringVoice( &pMasterVoice, XAUDIO2_DEFAULT_CHANNELS, XAUDIO2_DEFAULT_SAMPLERATE, 0, renderId, NULL, AudioCategory_Communications ) ) )
     return hr;
 ```
-
-
 
 For info about how to use the captureId device identifier, see [Capturing a Stream](https://docs.microsoft.com/windows/desktop/CoreAudio/capturing-a-stream).
 
@@ -224,20 +204,14 @@ To associate the headset microphone and headphone with their appropriate [Direct
 > [!Note]  
 > Use of the legacy [DirectSound](https://msdn.microsoft.com/library/Ee416960(v=VS.85).aspx) is not recommended, and is not available in Windows Store apps. The info in this section only applies to the DirectX SDK version of XInput (XInput 1.3). The Windows 8 version of XInput (XInput 1.4) exclusively uses Windows Audio Session API (WASAPI) device identifiers that are obtained through [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids).
 
- 
-
-
-```
+```cpp
 XInputGetDSoundAudioDeviceGuids( i, &dsRenderGuid, &dsCaptureGuid );
 
 ```
 
-
-
 Once you have retrieved the GUIDs you can create the appropriate interfaces by calling DirectSoundCreate8 and DirectSoundCaptureCreate8 like this:
 
-
-```
+```cpp
 // Create IDirectSound8 using the controller's render device
 if( FAILED( hr = DirectSoundCreate8( &dsRenderGuid, &pDS, NULL ) ) )
    return hr;
@@ -251,19 +225,6 @@ if( FAILED( hr = DirectSoundCaptureCreate8( &dsCaptureGuid, &pDSCapture, NULL ) 
    return hr;
 ```
 
-
-
 ## Related topics
 
-<dl> <dt>
-
 [Programming Reference](programming-reference.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
