@@ -2115,27 +2115,27 @@
       href: structures.md
       items: 
       - name: "drm_copy_opl"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_copy_opl
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_copy_opl
       - name: "drm_license_state_data"
         href: drm-license-state-data.md
       - name: "drm_minimum_output_protection_levels"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_minimum_output_protection_levels
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_minimum_output_protection_levels
       - name: "drm_opl_output_ids"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_opl_output_ids
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_opl_output_ids
       - name: "drm_play_opl"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_play_opl
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_play_opl
       - name: "drm_playlist_content_id"
         href: drm-playlist-content-id.md
       - name: "drm_val16"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_drm_val16
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_val16
       - name: "drm_video_output_protection"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_output_protection
       - name: "drm_video_output_protection_ids"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_video_output_protection_ids
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_video_output_protection_ids
       - name: "wm_address_accessentry"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmaddressaccessentry
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_address_accessentry
       - name: "wm_client_properties"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmclientproperties
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties
       - name: "wm_client_properties_ex"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties_ex
       - name: "wm_get_license_data"
