@@ -2137,43 +2137,43 @@
       - name: "wm_client_properties"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmclientproperties
       - name: "wm_client_properties_ex"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmclientpropertiesex
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties_ex
       - name: "wm_get_license_data"
         href: wm-get-license-data.md
       - name: "wm_individualize_status"
         href: wm-individualize-status.md
       - name: "wm_leaky_bucket_pair"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmleakybucketpair
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_leaky_bucket_pair
       - name: "wm_license_state_data"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757942(v=vs.85)
       - name: "wm_media_type"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmmediatype
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type
       - name: "wmmpeg2videoinfo"
-        href: /windows/win32/api/wmsdkidl/ns-wmsdkidl-wmmpeg2videoinfo
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmmpeg2videoinfo
       - name: "wm_picture"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmpicture
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_picture
       - name: "wm_port_number_range"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmportnumberrange
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_port_number_range
       - name: "wm_reader_clientinfo"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmreaderclientinfo
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_reader_clientinfo
       - name: "wm_reader_statistics"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmreaderstatistics
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_reader_statistics
       - name: "wmscriptformat"
-        href: /windows/win32/api/wmsdkidl/ns-wmsdkidl-wmscriptformat
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmscriptformat
       - name: "wm_stream_priority_record"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmstreamprioritizationrecord
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_priority_record
       - name: "wm_stream_type_info"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmstreamtypeinfo
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-ns-wmsdkidl-_wmstreamprioritizationrecord
       - name: "wm_synchronised_lyrics"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmsynchronisedlyrics
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_synchronised_lyrics
       - name: "wm_user_text"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmusertext
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_user_text
       - name: "wm_user_web_url"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmuserweburl
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_user_web_url
       - name: "wm_writer_statistics"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmwriterstatistics
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_writer_statistics
       - name: "wm_writer_statistics_ex"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmwriterstatisticsex
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_writer_statistics_ex
       - name: "wmdrm_import_content_key"
         href: wmdrm-import-content-key.md
       - name: "wmdrm_import_init_struct"
@@ -2181,17 +2181,17 @@
       - name: "wmdrm_import_session_key"
         href: wmdrm-import-session-key.md
       - name: "wmt_buffer_segment"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmt_buffer_segment
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_buffer_segment
       - name: "wmt_colorspaceinfo_extension_data"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmt_colorspaceinfo_extension_data
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_colorspaceinfo_extension_data
       - name: "wmt_filesink_data_unit"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmt_filesink_data_unit
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_filesink_data_unit
       - name: "wmt_payload_fragment"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmt_payload_fragment
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_payload_fragment
       - name: "wmt_timecode_extension_data"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmt_timecode_extension_data
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_timecode_extension_data
       - name: "wmt_videoimage_sample"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_videoimage_sample
       - name: "wmt_videoimage_sample2"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_videoimage_sample2
       - name: "wmt_watermark_entry"
