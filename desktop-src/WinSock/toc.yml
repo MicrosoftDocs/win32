@@ -1127,9 +1127,9 @@
       - name: "ASSOCIATE_NAMERES_CONTEXT_INPUT"
         href: /windows/win32/api/Mstcpip/ns-mstcpip-associate_nameres_context_input
       - name: "BLOB"
-        href: https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob
+        href: /windows/win32/api/nspapi/ns-nspapi-blob
       - name: "CSADDR_INFO"
-        href: https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info
+        href: /windows/win32/api/nspapi/ns-nspapi-csaddr_info
       - name: "fd_set"
         href: /windows/desktop/api/winsock/nf-winsock-fd_set
       - name: "GROUP_FILTER"
@@ -1179,7 +1179,7 @@
       - name: "REAL_TIME_NOTIFICATION_SETTING_OUTPUT"
         href: /windows/win32/api/Mstcpip/ns-mstcpip-real_time_notification_setting_output
       - name: "RIO_EXTENSION_FUNCTION_TABLE"
-        href: https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-_rio_extension_function_table
+        href: /windows/win32/api/mswsock/ns-mswsock-rio_extension_function_table
       - name: "RIO_BUF"
         href: /windows/win32/api/Mswsockdef/ns-mswsockdef-rio_buf
       - name: "RIO_BUFFERID"
@@ -1265,9 +1265,9 @@
       - name: "WSAOVERLAPPED"
         href: /windows/win32/api/Winsock2/ns-winsock2-wsaoverlapped
       - name: "WSAPOLLFD"
-        href: /windows/desktop/api/Winsock2/ns-winsock2-pollfd
+        href: /windows/win32/api/winsock2/ns-winsock2-wsapollfd
       - name: "WSAPROTOCOL_INFO"
-        href: https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa
+        href: /windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa
       - name: "WSAPROTOCOL_INFOW"
         href: /windows/win32/api/Winsock2/ns-winsock2-wsaprotocol_infow
       - name: "WSAPROTOCOLCHAIN"
