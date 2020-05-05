@@ -55,13 +55,13 @@ A *cache* path element is a variation on a symbol server path element.
 
 This directory is searched like any other symbol server. However, if the symbol is not found here and it is found in a path element farther down the chain of the symbol path, then the symbol will be copied and stored in the symbol server specified in this element.
 
-The symbol handler treats a path element as a cache element if it begins with the text, "cache*". To specify a cache in "c:\\myCache", use a symbol path element of "cache\*c:\\myCache".
+The symbol handler treats a path element as a cache element if it begins with the text, "cache\*". To specify a cache in "c:\\myCache", use a symbol path element of "cache\*c:\\myCache".
 
 ## Example Search Path
 
 To see how this works, set this search path.
 
-"cache\*c:\myCache;srv\*\\\\symbols\symbols"
+"cache\*c:\\myCache;srv\*\\\\symbols\\symbols"
 
 <!-- 
 See example from https://docs.microsoft.com/windows-hardware/drivers/debugger/symbol-path
@@ -83,9 +83,9 @@ c:\myCache\\ntdll.pdb\0F7FCF88442F4B0E9FB51DC4A754D9DE2\ntdll.pdb
 
 The first three lines of output show the symbol handler processing the first path element of ".". This is a standard path element.
 
-The fourth line shows the symbol handler using the symbol server to look for the file in the second path element of "cache\*c:\mySpace" which is a cache path element.
+The fourth line shows the symbol handler using the symbol server to look for the file in the second path element of "cache\*c:\\mySpace" which is a cache path element.
 
-The fifth line shows the file is found in the third path element of "srv\*\\\\symbols\symbols" which is a symbol server path element.
+The fifth line shows the file is found in the third path element of "srv\*\\\\symbols\\symbols" which is a symbol server path element.
 
 The sixth line shows that the file is copied to the cache.
 
