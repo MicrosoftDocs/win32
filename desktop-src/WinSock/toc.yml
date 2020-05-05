@@ -920,19 +920,19 @@
       - name: "RIOCloseCompletionQueue"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448837(v=vs.85)
       - name: "RIOCreateCompletionQueue"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448841(v=vs.85)
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion
       - name: "RIOCreateRequestQueue"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448843(v=vs.85)
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue
       - name: "RIODequeueCompletion"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448845(v=vs.85)
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion
       - name: "RIODeregisterBuffer"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448847(v=vs.85)
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_rioderegisterbuffer
       - name: "RIONotify"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437191(v=vs.85)
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify
       - name: "RIOReceive"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437193(v=vs.85)
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceive
       - name: "RIOReceiveEx"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437196(v=vs.85)
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceiveex
       - name: "RIORegisterBuffer"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437199(v=vs.85)
       - name: "RIOResizeCompletionQueue"
@@ -940,7 +940,7 @@
       - name: "RIOResizeRequestQueue"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437204(v=vs.85)
       - name: "RIOSend"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437213(v=vs.85)
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_riosend
       - name: "RIOSendEx"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437216(v=vs.85)
       - name: "select"
