@@ -111,7 +111,7 @@ These topics have been added to the Direct3D documentation for Windows 10, vers
 -   The use of [**ID3D12Device::SetStablePowerState**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-setstablepowerstate) has changed.
 -   Some new features for Direct3D 11 are described in [Direct3D 11.4 Features](/windows/win32/direct3d11/direct3d-11-4-features).
 -   The range of supported libraries for Direct3D 12 has been updated, refer to the **Supported tools and libraries** section of [Direct3D 12 Programming Environment Setup](directx-12-programming-environment-set-up.md).
--   [High Dynamic Range and Wide Color Gamut](/windows/win32/direct3ddxgi/high-dynamic-range-and-wide-color-gamut)
+-   [Using DirectX with high dynamic range displays and advanced color](/windows/win32/direct3darticles/high-dynamic-range)
 -   [Variable refresh rate displays](/windows/win32/direct3ddxgi/variable-refresh-rate-displays)
 -   [DXGI 1.5 Improvements](/windows/win32/direct3ddxgi/dxgi-1-5-improvements)
 

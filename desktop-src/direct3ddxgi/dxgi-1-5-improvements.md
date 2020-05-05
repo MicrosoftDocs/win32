@@ -12,7 +12,7 @@ The following functionality has been added to Microsoft DirectX Graphics Infrast
 
 ## High Dynamic Range and Wide Color Gamut
 
-Refer to [High Dynamic Range and Wide Color Gamut](high-dynamic-range-and-wide-color-gamut.md).
+Refer to [Using DirectX with high dynamic range displays and advanced color](/windows/win32/direct3darticles/high-dynamic-range).
 
 ## Variable refresh rate displays
 

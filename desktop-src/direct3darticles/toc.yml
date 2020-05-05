@@ -15,5 +15,5 @@
     href: direct3d11-deployment.md
   - name: "DirectX Graphics Infrastructure (DXGI): Best Practices"
     href: dxgi-best-practices.md
-  - name: "High Dynamic Range Displays and Advanced Color"
+  - name: "High dynamic range displays and advanced color"
     href: high-dynamic-range.md
