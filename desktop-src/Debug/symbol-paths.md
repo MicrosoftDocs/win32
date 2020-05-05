@@ -61,7 +61,7 @@ The symbol handler treats a path element as a cache element if it begins with th
 
 To see how this works, set this search path.
 
-"cache\*c:\myCache;srv\*\symbols\symbols"
+"cache\*c:\myCache;srv\*\\\\symbols\symbols"
 
 <!-- 
 See example from https://docs.microsoft.com/windows-hardware/drivers/debugger/symbol-path
@@ -85,7 +85,7 @@ The first three lines of output show the symbol handler processing the first pat
 
 The fourth line shows the symbol handler using the symbol server to look for the file in the second path element of "cache\*c:\mySpace" which is a cache path element.
 
-The fifth line shows the file is found in the third path element of "srv\*\symbols\symbols" which is a symbol server path element.
+The fifth line shows the file is found in the third path element of "srv\*\\\\symbols\symbols" which is a symbol server path element.
 
 The sixth line shows that the file is copied to the cache.
 
