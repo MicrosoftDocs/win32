@@ -26,11 +26,3 @@ For applications written using a .NET language, such as C# or Visual Basic, see 
 -   To consume events from a Windows Event Log channel or log, use the classes and methods defined in the [System.Diagnostics.Eventing.Reader](https://msdn.microsoft.com/library/system.diagnostics.eventing.reader(VS.90).aspx) namespace.
 
 As an alternative to using the [System.Diagnostics.Eventing](https://msdn.microsoft.com/library/system.diagnostics.eventing(VS.90).aspx) namespace to write events, you can use the **-cs** or **-css** argument to have the message compiler generate the code to write the events. For details, see [**Message Compiler**](message-compiler--mc-exe-.md).
-
- 
-
- 
-
-
-
-

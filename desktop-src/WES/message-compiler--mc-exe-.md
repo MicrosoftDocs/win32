@@ -19,10 +19,11 @@ ms.date: 05/31/2018
 Used to compile instrumentation manifests and message text files. The compiler generates the message resource files to which your application links.
 
 ``` syntax
-MC [-?aAbcdnouUv] [-co] [-cs namespace] [-css namespace] [-e extension] 
-   [-h path] [-km] [-m length] [-mof] [-p prefix] [-P prefix] [-r path] 
-   [-s path] [-t path] [-w path] [-W path] [-x path] [-z name]
-   filename [filename]
+MC [-?aAbcdnouUv] [-m <length>] [-h <path>] [-e <extension>] [-r <path>]
+   [-x <path>] [-w <file>] [-W <file>] [-z <basename> ] [-cp <encoding>]
+   [-km | -um | -generateProjections | -cs <namespace>]
+   [-mof] [-p <prefix>] [-P <prefix>]
+   [<filename.man>] [<filename.mc>]
 ```
 
 -   [Arguments common to both message text files and manifest files](#arguments-common-to-both-message-text-files-and-manifest-files)
@@ -45,6 +46,13 @@ Displays the usage information for the Message Compiler.
 </dt> <dd>
 
 Use this argument to have the compiler set the customer bit (bit 28) in all message IDs. For information on the customer bit, see winerror.h.
+
+</dd> <dt>
+
+<span id="-cp"></span><span id="-CP"></span>**-cp** *encoding*
+</dt> <dd>
+
+Use this argument to specify the character encoding used for all generated text files. Valid names include "ansi" (default), "utf-8", and "utf-16". The Unicode encodings will add a byte order mark.
 
 </dd> <dt>
 
@@ -167,14 +175,14 @@ You can use this argument with the **-km** or **-um** argument.
 <span id="-cs_namespace"></span><span id="-CS_NAMESPACE"></span>**-cs** *namespace*
 </dt> <dd>
 
-Use this argument to have the compiler generate a C# class that includes the methods that you would call to log the events defined in your manifest.
+Use this argument to have the compiler generate a C# class based on the .NET 3.5 [EventProvider](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.eventing.eventprovider?view=netframework-3.5) class.
 
 </dd> <dt>
 
 <span id="-css_namespace"></span><span id="-CSS_NAMESPACE"></span>**-css** *namespace*
 </dt> <dd>
 
-Use this argument to have the compiler generate a static C# class that includes the methods that you would call to log the events defined in your manifest.
+Use this argument to have the compiler generate a static C# class based on the .NET 3.5 [EventProvider](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.eventing.eventprovider?view=netframework-3.5) class.
 
 </dd> <dt>
 
@@ -188,7 +196,7 @@ Use this argument to have the compiler generate the kernel-mode code that you wo
 <span id="-mof"></span><span id="-MOF"></span>**-mof**
 </dt> <dd>
 
-Use this argument to have the compiler generate code that you can use to log events on computers prior to Windows Vista. This option also creates a MOF file that contains the MOF classes for each event defined in the manifest. To register the classes in the MOF file so that consumers can decode the events, use the MOF compiler (Mofcomp.exe). For details on using the MOF compiler, see [Managed Object Format](https://docs.microsoft.com/windows/desktop/WmiSdk/managed-object-format--mof-).
+DEPRECATED. Use this argument to have the compiler generate code that you can use to log events on computers prior to Windows Vista. This option also creates a MOF file that contains the MOF classes for each event defined in the manifest. To register the classes in the MOF file so that consumers can decode the events, use the MOF compiler (Mofcomp.exe). For details on using the MOF compiler, see [Managed Object Format](https://docs.microsoft.com/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 To use this switch, you must adhere to the following restrictions:
 
@@ -246,14 +254,14 @@ The compiler uses the base name of the input file as the base name of the files 
 <span id="-a"></span><span id="-A"></span>**-a**
 </dt> <dd>
 
-Use this argument to specify that the *filename* input file contains ANSI content (this is the default).
+Use this argument to specify that the *filename* input file contains content in the system-default Windows ANSI code page (CP_ACP). This is the default. Use **-u** for Unicode.
 
 </dd> <dt>
 
 <span id="-A"></span><span id="-a"></span>**-A**
 </dt> <dd>
 
-Use this argument to specify that the messages in the output .bin file should be ANSI.
+DEPRECATED. Use this argument to specify that the messages in the output .bin file should be ANSI.
 
 </dd> <dt>
 
@@ -288,14 +296,14 @@ Use this argument to have the compiler generate an OLE2 header file using **HRES
 <span id="-u"></span><span id="-U"></span>**-u**
 </dt> <dd>
 
-Use this argument to specify that the *filename* input file contains Unicode content. The default is ANSI content.
+Use this argument to specify that the *filename* input file contains UTF-16LE content. The default is ANSI content.
 
 </dd> <dt>
 
 <span id="-U"></span><span id="-u"></span>**-U**
 </dt> <dd>
 
-Use this argument to specify that the messages in the output .bin file should be Unicode (this is the default).
+Use this argument to specify that the messages in the output .bin file should be Unicode. This is the default.
 
 </dd> <dt>
 
@@ -314,6 +322,8 @@ Use this argument to specify the folder into which you want the compiler to plac
 </dd> </dl>
 
 ## Remarks
+
+The **-A** and **-mof** arguments are deprecated and will be removed in the future.
 
 The compiler accepts as input a manifest (.man) file or a message text (.mc) file and generates the following files:
 
@@ -353,28 +363,10 @@ The following example compiles the manifest and places the header and resource f
 mc -h <pathgoeshere> -r <pathgoeshere> spooler.man
 ```
 
-The following example compiles the manifest and generates user-mode code to log events on all supported operating system releases.
-
-``` syntax
-mc -um -mof spooler.man
-```
-
 ## Requirements
-
 
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
-
-
-
- 
-
- 
-
-
-
-
-

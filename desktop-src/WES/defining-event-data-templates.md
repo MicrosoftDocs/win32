@@ -68,11 +68,16 @@ The following example shows how to define a template. You must specify the templ
 
                 <templates>
                     <template tid="t2">
+                        <data name="TransferName" inType="win:UnicodeString"/>
                         <data name="Day" inType="win:UInt32" map="DaysOfTheWeek"/>
                         <data name="Transfer" inType="win:UInt32" map="TransferType"/>
                     </template>
 
                     <template tid="t3">
+                        <data name="TransferName" inType="win:UnicodeString"/>
+                        <data name="ErrorCode" inType="win:Int32" outType="win:HResult"/>
+                        <data name="FilesCount" inType="win:UInt16" />
+                        <data name="Files" inType="win:UnicodeString" count="FilesCount"/>
                         <data name="BufferSize" inType="win:UInt32" />
                         <data name="Buffer" inType="win:Binary" length="BufferSize"/>
                         <data name="Certificate" inType="win:Binary" length="11" />

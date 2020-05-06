@@ -66,7 +66,7 @@ The constants are used in the **LogFileMode** members of [**EVENT\_TRACE\_LOGFIL
 <td><strong>EVENT_TRACE_DELAY_OPEN_FILE_MODE</strong>(0x00000200)</td>
 <td>This mode is used to delay opening the log file until an event occurs. <br/>
 <blockquote>
-[!Note]<br />
+[!NOTE]<br />
 On Windows Vista or later, this mode is not applicable should not be used.
 </blockquote>
 <br/></td>
@@ -90,7 +90,7 @@ Process ID filters and executable name filters can now be passed in to session c
 <td><strong>EVENT_TRACE_ADD_HEADER_MODE</strong>(0x00001000)</td>
 <td>This option adds a header to the log file.<br/>
 <blockquote>
-[!Note]<br />
+[!NOTE]<br />
 On Windows Vista or later, this mode is not applicable should not be used.
 </blockquote>
 <br/></td>
@@ -111,7 +111,7 @@ On Windows Vista or later, this mode is not applicable should not be used.
 <td><strong>EVENT_TRACE_RELOG_MODE</strong> (0x00010000)</td>
 <td>Logs the event without including <a href="event-trace-header.md"><strong>EVENT_TRACE_HEADER</strong></a>.
 <blockquote>
-[!Note]<br />
+[!NOTE]<br />
 This mode should not be used. It is reserved for internal use.
 </blockquote>
 <br/> <strong>Windows 2000:</strong> This value is not supported.<br/></td>
@@ -154,15 +154,3 @@ This mode should not be used. It is reserved for internal use.
 </tr>
 </tbody>
 </table>
-
-
-
- 
-
- 
-
- 
-
-
-
-

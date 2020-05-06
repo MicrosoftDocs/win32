@@ -22,8 +22,8 @@ The following example shows how to import a channel. You must set the **chid** a
 ```XML
 <instrumentationManifest
     xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="https://www.w3.org/2001/XMLSchema"    
+    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="https://www.w3.org/2001/XMLSchema"
     >
 
     <instrumentation>
@@ -36,10 +36,10 @@ The following example shows how to import a channel. You must set the **chid** a
                 message="$(string.Provider.Name)">
 
                 <channels>
-                    <importChannel chid="c1" 
-                                   name="Microsoft-Windows-BaseProvider/Admin"
-                                   symbol="CHANNEL_BASEPROVIDER_ADMIN"
-                                   />
+                    <channel chid="c1"
+                             name="Microsoft-Windows-BaseProvider/Admin"
+                             symbol="CHANNEL_BASEPROVIDER_ADMIN"
+                             type="Admin"/>
                 </channels>
 
                 . . .

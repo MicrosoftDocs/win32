@@ -14,22 +14,25 @@ An ETW tracing session can use the keywords (in the same way that it uses level)
 
 For example, if the provider defines an event that specifies a read keyword (bit 0) and a local access keyword (bit 1), and a second event that specifies a read keyword (bit 0) and a remote access keyword (bit 2), you could set the "Any" bitmask to 1 to receive all read events, or you could set the "Any" bitmask to 1 and "All" bitmask to 3 to receive only local reads.
 
-The following example shows how to define a keyword. You must specify the keyword's **name** and **mask** attributes. The mask must have only one set—the keyword identifies the bit. The event definition's **keyword** attribute contains a space-separated list of keyword names. The **symbol** and **message** attributes are optional.
+You must specify the keyword's **name** and **mask** attributes. The mask must set only one bit, between bit 0 and bit 47. Bits 48 through 64 are reserved by the system. If an event's **keyword** attribute contains a space-separated list of keyword names then the event's keyword mask will be each of specified keywords' masks OR'ed together.
 
+The **symbol** and **message** attributes are optional.
+
+The following example shows how to define a keyword.
 
 ```XML
 <instrumentationManifest
     xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="https://www.w3.org/2001/XMLSchema"    
+    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="https://www.w3.org/2001/XMLSchema"
     >
 
     <instrumentation>
         <events>
-            <provider name="Microsoft-Windows-SampleProvider" 
-                guid="{1db28f2e-8f80-4027-8c5a-a11f7f10f62d}" 
-                symbol="PROVIDER_GUID" 
-                resourceFileName="<path to the exe or dll that contains the metadata resources>" 
+            <provider name="Microsoft-Windows-SampleProvider"
+                guid="{1db28f2e-8f80-4027-8c5a-a11f7f10f62d}"
+                symbol="PROVIDER_GUID"
+                resourceFileName="<path to the exe or dll that contains the metadata resources>"
                 messageFileName="<path to the exe or dll that contains the string resources>"
                 message="$(string.Provider.Name)">
 
@@ -58,13 +61,3 @@ The following example shows how to define a keyword. You must specify the keywor
 
 </instrumentationManifest>
 ```
-
-
-
- 
-
- 
-
-
-
-

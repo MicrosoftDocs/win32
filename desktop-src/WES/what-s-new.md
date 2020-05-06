@@ -27,11 +27,3 @@ The following changes were made to the version of the [**Message Compiler**](mes
 
 -   Added arguments to have the compiler generate logging code based on your manifest. You can also request that the compiler generate code to log events on operating systems prior to Windows Vista. For a list of the arguments, see the "Arguments specific to generating code used to log events" section of the [**Message Compiler**](message-compiler--mc-exe-.md) topic.
 -   The compiler now enforces stricter syntactic and semantic validation on the manifest. This may cause some manifests that successfully compiled on previous versions of the message compiler to require changes in order to successfully compile using the latest version.
-
- 
-
- 
-
-
-
-
