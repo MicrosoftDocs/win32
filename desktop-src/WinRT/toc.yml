@@ -56,7 +56,7 @@
     - name: "RO_INIT_TYPE"
       href: /windows/win32/api/roapi/ne-roapi-ro_init_type
     - name: "RO_ERROR_REPORTING_FLAGS"
-      href: /windows/win32/api/roerrorapi/ne-roerrorapi-ro_error_reporting_flags
+      href: /windows/win32/api/roerrorapi/ne-roerrorapi-roerrorreportingflags
   - name: "Functions"
     href: functions.md
     items: 
