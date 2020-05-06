@@ -61,11 +61,11 @@ The symbol handler treats a path element as a cache element if it begins with th
 
 To see how this works, set this search path.
 
-`cache*c:\myCache;srv\*\symbols\symbols`
+`cache*c:\myCache;srv*\\symbols\symbols`
 
 <!-- 
 See example from https://docs.microsoft.com/windows-hardware/drivers/debugger/symbol-path
-cache\*c:\MySymbols;srv\*https://msdl.microsoft.com/download/symbols
+cache*c:\MySymbols;srv*https://msdl.microsoft.com/download/symbols
 -->
 
 The following is a listing of the symbol handler's verbose output while searching for ntdll.pdb, using the above listed search path.
@@ -75,7 +75,7 @@ DBGHELP: .\ntdll.pdb - file not found
 DBGHELP: .\dll\ntdll.pdb - file not found
 DBGHELP: .\symbols\dll\ntdll.pdb - file not found
 SYMSRV: c:\myCache\ntdll.pdb\0F7FCF88442F4B0E9FB51DC4A754D9DE2\ntdll.pdb not found
-SYMSRV: ntdll.pdb from \symbols\symbols: 10497024 bytes - copied
+SYMSRV: ntdll.pdb from \\symbols\symbols: 10497024 bytes - copied
 DBGHELP: c:\myCache\ntdll.pdb\0F7FCF88442F4B0E9FB51DC4A754D9DE2\ntdll.pdb already cached
 DBGHELP: ntdll - private symbols & lines
 c:\myCache\ntdll.pdb\0F7FCF88442F4B0E9FB51DC4A754D9DE2\ntdll.pdb
@@ -85,7 +85,7 @@ The first three lines of output show the symbol handler processing the first pat
 
 The fourth line shows the symbol handler using the symbol server to look for the file in the second path element of `cache*c:\myCache` which is a cache path element.
 
-The fifth line shows the file is found in the third path element of `srv\*\symbols\symbols`, which is a symbol server path element.
+The fifth line shows the file is found in the third path element of `srv*\\symbols\symbols`, which is a symbol server path element.
 
 The sixth line shows that the file is copied to the cache.
 
