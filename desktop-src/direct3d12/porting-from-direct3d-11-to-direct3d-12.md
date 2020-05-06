@@ -11,6 +11,7 @@ ms.date: 05/31/2018
 
 This section provides some guidance on porting from a custom Direct3D 11 graphics engine to Direct3D 12.
 
+-   [Device creation](#device-creation)
 -   [Committed resources](#committed-resources)
 -   [Reserved resources](#reserved-resources)
 -   [Uploading data](#uploading-data)
@@ -23,6 +24,16 @@ This section provides some guidance on porting from a custom Direct3D 11 graphic
 -   [Fixed function rendering](#fixed-function-rendering)
 -   [Odds and ends](#odds-and-ends)
 -   [Related topics](#related-topics)
+
+## Device creation
+
+Both Direct3D 11 and Direct3D 12 share a simliar device creation pattern. Existing Direct3D 12 drivers are all ``D3D_FEATURE_LEVEL_11_0`` or better, so you can ignore the older feature levels and associated lmitations.
+
+Also keep in mind is that with Direct3D 12, you should explicitly enumerate device information using DXGI interfaces. In Direct3D 11, you could 'chain back' to the DXGI device from the Direct3D device, and this is not supported for Direct3D 12.
+
+Creating a WARP software device on Direct3D 12 is done by providing an explicit adapter obtained from ``IDXGIFcatory4::EnumWarpAdapter``. The WARP device for Direct3D 12 is only available on systems with the **Graphics Tools** optional feature enabled.
+
+> Note that there is no equivalent to ``D3D11CreateDeviceAndSwapChain``. Even with Direct3D 11, use of this function is discouraged as it's often better to create the device & swapchain in distinct steps.
 
 ## Committed resources
 
@@ -61,7 +72,12 @@ In Direct3D 11 there is a lot of creation of shader and state objects, and setti
 
 In Direct3D 12 this setting of pipeline state has been combined into a single object ([**CreateComputePipelineState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcomputepipelinestate) for a compute engine, and [**CreateGraphicsPipelineState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-creategraphicspipelinestate) for a graphics engine), which is then attached to a command list before the draw call with a call to [**SetPipelineState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate).
 
-These calls replace all the individual calls to set shaders, input layout, blend state, rasterizer state, depth stencil state, and so on, in Direct3D 11.
+These calls replace all the individual calls to set shaders, input layout, blend state, rasterizer state, depth stencil state, and so on, in Direct3D 11
+
+- Device 11 methods: ``CreateInputLayout``, ``CreateXShader``, ``CreateDepthStencilState``, andD ``CreateRasterizerState``.
+- Device Context 11 methods:  ``IASetInputLayout``, ``xxSetShader``, ``OMSetBlendState``, ``OMSetDepthStencilState``, and ``RSSetState``.
+
+While Direct3D 12 can support older compiled shader blobs, shaders should be built either using Shader Model 5.1 with the FXC/D3DCompile APIs -or- can utilize Shader Model 6 using the DXIL DXC compiler. Shader Model 6 support should be validated with [**CheckFeatureSupport**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport) with ``D3D12_FEATURE_SHADER_MODEL``.
 
 ## Submitting work to the GPU
 
@@ -71,7 +87,32 @@ In Direct3D 12 work submission is very explicit and controlled by the app. The p
 
 Finally the [**ID3D12CommandQueue**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue) is a first-in first-out queue, that stores the correct order of the command lists for submission to the GPU. Only when one command list has completed execution on the GPU, will the next command list from the queue be submitted by the driver.
 
-In Direct3D 11 there is no concept of a command queue.
+In Direct3D 11 there is no explicit concept of a command queue. In the common setup for Direct3D 12, the currently open ``D3D12_COMMAND_LIST_TYPE_DIRECT`` command list for the current frame can be considered analogous to the  Direct3D 11 immediate context. This provides many of the same functions:
+
+
+| D3D11DeviceContext                  | ID3D12GraphicsCommand List     |
+|-------------------------------------|--------------------------------|
+| ClearDepthStencilView               | ClearDepthStencilView          |
+| ClearRenderTargetView               | ClearRenderTargetView          |
+| ClearUnorderedAccess*               | ClearUnorderedAccess*          |
+| Draw, DrawInstanced                 | DrawInstanced                  |
+| DrawIndexed, DrawIndexedInstanced   | DrawIndexedInstanced           |
+| Dispatch                            | Dispatch                       |
+| IASetInputLayout, xxSetShader, etc. | SetPipelineState               |
+| OMSetBlendState                     | OMSetBlendFactor               |
+| OMSetDepthStencilState              | OMSetStencilRef                |
+| OMSetRenderTargets                  | OMSetRenderTargets             |
+| RSSetViewports                      | RSSetViewports                 |
+| RSSetScissorRects                   | RSSetScissorRects              |
+| IASetPrimitiveTopology              | IASetPrimitiveTopology         |
+| IASetVertexBuffers                  | IASetVertexBuffers             |
+| IASetIndexBuffer                    | IASetIndexBuffer               |
+| ResolveSubresource                  | ResolveSubresource             |
+| CopySubresourceRegion               | CopyBufferRegion               |
+| UpdateSubresource                   | CopyTextureRegion              |
+| CopyResource                        | CopyResource                   |
+
+> A command list created with ``D3D12_COMMAND_LIST_TYPE_BUNDLE`` is simliar to a deferred context. Direct3D 12 also supports the abiilty to access some features of an 'immediate context' simultaneous to rendering via ``D3D12_COMMAND_LIST_TYPE_COPY`` amd ``D3D12_COMMAND_LIST_TYPE_COMPUTE`` command list types.
 
 ## CPU/GPU Synchronization
 
@@ -131,9 +172,11 @@ Clearly there are performance gains if a workload can be parallelized.
 
 ## Swapchains
 
-The DXGI swap chain is the basis for swap chains in both Direct3D 11 and 12. There are some minor differences, in Direct3D 11 the three types of swap chain are SEQUENTIAL, DISCARD, and FLIP\_SEQUENTIAL. For Direct3D 12 there are just two types: FLIP\_SEQUENTIAL and FLIP\_DISCARD.
+The DXGI swap chain is the basis for swap chains in both Direct3D 11 and 12. There are some minor differences, in Direct3D 11 the three types of swap chain are SEQUENTIAL, DISCARD, and FLIP\_SEQUENTIAL. For Direct3D 12 there are just two types: FLIP\_SEQUENTIAL and FLIP\_DISCARD. As noted above, you should be explicitly creating your swapchain via ``IDXGIFactory4`` or later and using the same interface for any adapter enumeration.
 
 In Direct3D 11 there is automatic backbuffer rotation: only one render target view is needed for back buffer 0. In Direct3D 12 buffer rotation is explicit, there needs to be a render target view for each back buffer. Use the [**IDXGISwapChain3::GetCurrentBackBufferIndex**](https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-getcurrentbackbufferindex) method to select which one to render to. Again this additional flexibility enables greater parallelization.
+
+> While there are numerous ways to set up your application, generally applications have one **ID3D12CommandAllocator** per swap-chain buffer. This allows the application to proceed to building up a set of commands for the next frame while the GPU renders the last.
 
 ## Fixed function rendering
 
