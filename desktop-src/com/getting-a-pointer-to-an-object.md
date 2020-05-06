@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Because COM does not have a strict class model, there are four ways that a client can instantiate or get a pointer to an interface on an object:
 
--   Call a COM library function that creates an object of a predetermined typeâ€”that is, the function will return a pointer to only one specific interface for a specific object class.
+-   Call a COM library function that creates an object of a predetermined type; that is, the function will return a pointer to only one specific interface for a specific object class.
 -   Call a COM library function that can create an object based on a class identifier (CLSID) and that returns any type of interface pointer requested.
 -   Call a method of some interface that creates another object (or connects to an existing one) and returns an interface pointer on that separate object.
 -   Implement an object with an interface through which other objects pass their interface pointer to the client directly.
