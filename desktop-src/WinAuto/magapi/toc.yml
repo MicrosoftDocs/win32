@@ -55,7 +55,7 @@
       - name: "MagUninitialize"
         href: /windows/win32/api/Magnification/nf-magnification-maguninitialize
     - name: "Structures"
-      href: entry-magapi-structures.md
+      href: /windows/win32/winauto/magapi/entry-magapi-structures
       items: 
       - name: "MAGCOLOREFFECT"
         href: /windows/win32/api/magnification/ns-magnification-magcoloreffect
@@ -64,4 +64,4 @@
       - name: "MAGTRANSFORM"
         href: /windows/win32/api/magnification/ns-magnification-magtransform
   - name: "Samples"
-    href: magapi-samples-entry.md
+    href: /windows/win32/winauto/magapi/magapi-samples-entry
