@@ -1,18 +1,18 @@
 - name: "Magnification API"
-  href: entry-magapi-sdk.md
+  href: /windows/win32/winauto/magapi/entry-magapi-sdk
   items: 
   - name: "Magnification API Overview"
-    href: magapi-intro.md
+    href: /windows/win32/winauto/magapi/magapi-intro
   - name: "Reference"
-    href: entry-magapi-ref.md
+    href: /windows/win32/winauto/magapi/entry-magapi-ref
     items: 
     - name: "Constants"
-      href: entry-magapi-constants.md
+      href: /windows/win32/winauto/magapi/entry-magapi-constants
       items: 
       - name: "Magnifier Styles"
-        href: magapi-magnifier-styles.md
+        href: /windows/win32/winauto/magapi/magapi-magnifier-styles
     - name: "Functions"
-      href: entry-magapi-functions.md
+      href: /windows/win32/winauto/magapi/entry-magapi-functions
       items: 
       - name: "MagGetColorEffect"
         href: /windows/win32/api/Magnification/nf-magnification-maggetcoloreffect
