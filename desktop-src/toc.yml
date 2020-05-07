@@ -597,14 +597,14 @@
           - name: "Windows System Assessment Tool"
             href: winsat/windows-system-assessment-tool-portal.md
           - name: "WMI Core Provider"
-            href: wmicoreprov/wmi-core-provider-.md
+            href: /windows/win32/wmicoreprov/wmi-core-provider-
         - name: "Windows Remote Management"
-          href: winrm/portal.md
+          href: /windows/win32/winrm/portal
         - name: "Windows Resource Protection"
-          href: wfp/windows-resource-protection-portal.md
+          href: /windows/win32/wfp/windows-resource-protection-portal
     - name: "API Index"
-      href: apiindex/api-index-portal.md
+      href: /windows/win32/apiindex/api-index-portal
     - name: "Windows Runtime C++ reference"
-      href: winrt/reference.md
+      href: /windows/win32/winrt/reference
     - name: "Windows Certification"
-      href: win_cert/windows-certification-portal.md
+      href: /windows/win32/win_cert/windows-certification-portal
