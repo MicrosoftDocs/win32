@@ -578,24 +578,24 @@
         - name: "System Shutdown"
           href: shutdown/system-shutdown.md
         - name: "Task Scheduler"
-          href: taskschd/task-scheduler-start-page.md
+          href: /windows/win32/taskschd/task-scheduler-start-page
         - name: "Windows Deployment Services"
-          href: wds/windows-deployment-services-portal.md
+          href: /windows/win32/wds/windows-deployment-services-portal
         - name: "Windows Management Instrumentation"
-          href: wmisdk/wmi-start-page.md
+          href: /windows/win32/wmisdk/wmi-start-page
         - name: "Windows Management Infrastructure Managed API"
           href: https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/mt738833(v=vs.85)
         - name: "WMI Providers"
           href: 
           items: 
           - name: "Boot Event Collector WMI Provider"
-            href: bevtcolprov/boot-event-collector-wmi-provider-portal.md
+            href: /windows/win32/bevtcolprov/boot-event-collector-wmi-provider-portal
           - name: "Hyper-V management"
-            href: hyperv_v2/hyper-v-management.md
+            href: /windows/win32/hyperv_v2/hyper-v-management
           - name: "MDM Bridge WMI Provider"
-            href: dmwmibridgeprov/mdm-bridge-wmi-provider-portal.md
+            href: /windows/win32/dmwmibridgeprov/mdm-bridge-wmi-provider-portal
           - name: "Windows System Assessment Tool"
-            href: winsat/windows-system-assessment-tool-portal.md
+            href: /windows/win32/winsat/windows-system-assessment-tool-portal
           - name: "WMI Core Provider"
             href: /windows/win32/wmicoreprov/wmi-core-provider-
         - name: "Windows Remote Management"
