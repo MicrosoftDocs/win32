@@ -501,23 +501,23 @@
         - name: "Processes and Threads"
           href: procthread/processes-and-threads.md
         - name: "Remote Desktop Services"
-          href: termserv/terminal-services-portal.md
+          href: /windows/win32/termserv/terminal-services-portal
         - name: "Services"
-          href: services/services.md
+          href: /windows/win32/services/services
         - name: "Setup API"
-          href: setupapi/setup-api-portal.md
+          href: /windows/win32/setupapi/setup-api-portal
         - name: "Synchronization"
-          href: sync/synchronization.md
+          href: /windows/win32/sync/synchronization
         - name: "Windows System Information"
-          href: sysinfo/windows-system-information.md
+          href: /windows/win32/sysinfo/windows-system-information
       - name: "Windows Machine Learning"
-        href: machinelearning/machine-learning-portal.md
+        href: /windows/win32/machinelearning/machine-learning-portal
       - name: "Developer Notes"
-        href: devnotes/developer-notes.md
+        href: /windows/win32/devnotes/developer-notes
     - name: "Develop with Server Technologies"
       items: 
       - name: "Overview"
-        href: server-and-system-technologies.md
+        href: /windows/win32/server-and-system-technologies
       - name: "Directory, Identity, and Access Services"
         href: SrvNodes/directory--identity--and-access-services.md
         items: 
@@ -572,11 +572,11 @@
         - name: "What's New For Windows Server 2012 R2 and Windows Server 2012"
           href: SrvNodes/what-s-new-for-windows-server-2012-r2.md
         - name: "Mobile Device Management Registration"
-          href: mdmreg/mobile-device-management-registration-portal.md
+          href: /windows/win32/mdmreg/mobile-device-management-registration-portal
         - name: "System Restore"
-          href: sr/system-restore-portal.md
+          href: /windows/win32/sr/system-restore-portal
         - name: "System Shutdown"
-          href: shutdown/system-shutdown.md
+          href: /windows/win32/shutdown/system-shutdown
         - name: "Task Scheduler"
           href: /windows/win32/taskschd/task-scheduler-start-page
         - name: "Windows Deployment Services"
