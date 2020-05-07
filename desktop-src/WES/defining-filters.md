@@ -19,7 +19,7 @@ The following example shows how to use the **filter** element to define a filter
 <instrumentationManifest
     xmlns="http://schemas.microsoft.com/win/2004/08/events" 
     xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="https://www.w3.org/2001/XMLSchema"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     >
 
     <instrumentation>

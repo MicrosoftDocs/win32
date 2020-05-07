@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Providers must define all the events that they write. To define an event, use the **event** element.
 
-The **value** attribute is the event identifier and it must be unique for the events that you define. Whether you set the other attributes depends on who will be consuming the events and from where. If administrators will be consuming your events using a tool like Windows Event Viewer, then you must set the **channel** attribute. If the channel type is Admin, then you must also specify the **level** attribute and set it to one of the levels defined in Winmeta.xml (win:Critical through win:Informational).
+The **value** attribute is the event identifier and it must be unique for the events that you define. Whether you set the other attributes depends on who will be consuming the events and from where. If administrators will be consuming your events using a tool like Windows Event Viewer, then you must set the **channel** attribute. If the channel type is Admin, then you must also specify the **level** attribute and set it to one of the levels defined in Winmeta.xml (win:Critical through win:Verbose).
 
 If the event contains event-specific data, you must set the **template** attribute to the identifier of the template that defines the event-specific data. The **level**, **keywords**, **task**, and **opcode** attributes are used to group or bucket events. Although these attributes are optional, you should consider specifying level, task, opcode, and keywords, so that consumers can easily access only those events of interest. The **level** and **keywords** attributes can also be used by an ETW tracing session to limit the events that are written to the event tracing log file. The **keywords** attribute contains a space-delimited list of keyword names defined in the manifest. If multiple keywords are specified their mask values are OR'ed together to create the keyword value that the event will use.
 
@@ -24,7 +24,7 @@ The following example shows a complete manifest that defines events.
 <instrumentationManifest
     xmlns="http://schemas.microsoft.com/win/2004/08/events"
     xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="https://www.w3.org/2001/XMLSchema"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     >
     <instrumentation>
         <events>
@@ -36,10 +36,16 @@ The following example shows a complete manifest that defines events.
                 message="$(string.Provider.Name)">
 
                 <channels>
-                    <channel chid="c1"
-                             name="Microsoft-Windows-BaseProvider/Admin"
-                             symbol="CHANNEL_BASEPROVIDER_ADMIN"
-                             type="Admin"/>
+                    <importChannel chid="c1"
+                                   name="Microsoft-Windows-BaseProvider/Admin"
+                                   symbol="CHANNEL_BASEPROVIDER_ADMIN"
+                                   />
+
+                    <channel chid="c2"
+                             name="Microsoft-Windows-SampleProvider/Operational"
+                             type="Operational"
+                             enabled="true"
+                             />
                 </channels>
 
                 <levels>
@@ -140,16 +146,16 @@ The following example shows a complete manifest that defines events.
                 </templates>
 
                 <events>
-                    <event value="1" 
-                        level="win:Informational" 
+                    <event value="1"
+                        level="win:Informational"
                         keywords="Remote Read"
                         task="Connect"
-                        template="t2" 
+                        template="t2"
                         channel="c1"
                         symbol="TRANSFER_SCHEDULE_EVENT"
                         message ="$(string.Event.XferSchedule)"/>
 
-                    <event value="2" 
+                    <event value="2"
                         level="win:Error"
                         keywords="Remote Write"
                         task="Disconnect"
@@ -165,6 +171,7 @@ The following example shows a complete manifest that defines events.
                         task="Validate"
                         opcode="Cleanup"
                         template="t4"
+                        channel="c2"
                         symbol="TEMPFILE_CLEANUP_EVENT"
                         message ="$(string.Event.TempFilesNotDeleted)"/>
                 </events>

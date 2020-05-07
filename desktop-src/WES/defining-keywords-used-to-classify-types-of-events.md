@@ -14,7 +14,7 @@ An ETW tracing session can use the keywords (in the same way that it uses level)
 
 For example, if the provider defines an event that specifies a read keyword (bit 0) and a local access keyword (bit 1), and a second event that specifies a read keyword (bit 0) and a remote access keyword (bit 2), you could set the "Any" bitmask to 1 to receive all read events, or you could set the "Any" bitmask to 1 and "All" bitmask to 3 to receive only local reads.
 
-You must specify the keyword's **name** and **mask** attributes. The mask must set only one bit, between bit 0 and bit 47. Bits 48 through 64 are reserved by the system. If an event's **keyword** attribute contains a space-separated list of keyword names then the event's keyword mask will be each of specified keywords' masks OR'ed together.
+You must specify the keyword's **name** and **mask** attributes. The mask must set only one bit, between bit 0 and bit 47. Bits 48 through 64 are reserved.
 
 The **symbol** and **message** attributes are optional.
 
@@ -24,7 +24,7 @@ The following example shows how to define a keyword.
 <instrumentationManifest
     xmlns="http://schemas.microsoft.com/win/2004/08/events" 
     xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="https://www.w3.org/2001/XMLSchema"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     >
 
     <instrumentation>

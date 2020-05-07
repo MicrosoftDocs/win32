@@ -254,7 +254,7 @@ The compiler uses the base name of the input file as the base name of the files 
 <span id="-a"></span><span id="-A"></span>**-a**
 </dt> <dd>
 
-Use this argument to specify that the *filename* input file contains content in the system-default Windows ANSI code page (CP_ACP). This is the default. Use **-u** for Unicode.
+Use this argument to specify that the *filename* input file contains content in the system-default Windows ANSI code page (CP_ACP). This is the default. Use **-u** for Unicode. If the input file contains a BOM this argument will be ignored.
 
 </dd> <dt>
 
@@ -296,7 +296,7 @@ Use this argument to have the compiler generate an OLE2 header file using **HRES
 <span id="-u"></span><span id="-U"></span>**-u**
 </dt> <dd>
 
-Use this argument to specify that the *filename* input file contains UTF-16LE content. The default is ANSI content.
+Use this argument to specify that the *filename* input file contains UTF-16LE content. The default is ANSI content. If the input file contains a BOM this argument will be ignored.
 
 </dd> <dt>
 
@@ -365,8 +365,7 @@ mc -h <pathgoeshere> -r <pathgoeshere> spooler.man
 
 ## Requirements
 
-
-|                                     |                                                            |
-|-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+|                          |                                                 |
+|--------------------------|-------------------------------------------------|
+| Minimum supported client | Windows 2000 Professional \[desktop apps only\] |
+| Minimum supported server | Windows 2000 Server \[desktop apps only\]       |
