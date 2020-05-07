@@ -38,10 +38,9 @@ To conform to Microsoft convention, use these file extensions for your shader co
 
 ## Compiling at build time to object files
 
-If you compile your .hlsl files into binary shader object files, your app needs to read the data from those object files (.cso is the default extension for these object files), assign the data to byte arrays, and create shader objects from those byte arrays. For example, to create a vertex shader ([**ID3D11VertexShader**](https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11vertexshader)\*\*), call the [**ID3D11Device::CreateVertexShader**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createvertexshader) method with a byte array that contains compiled vertex shader byte code. The [Direct3D tutorial sample](https://code.msdn.microsoft.com/windowsapps/Direct3D-Tutorial-Sample-08667fb0/view/SourceCode) shows how to create shader objects from byte arrays that it obtained from .cso binary shader object files. In this example code from the [Direct3D tutorial sample](https://code.msdn.microsoft.com/windowsapps/Direct3D-Tutorial-Sample-08667fb0/view/SourceCode), the **Ouput Files** property for the SimpleVertexShader.hlsl file specifies to compile into the SimpleVertexShader.cso object file.
+If you compile your .hlsl files into binary shader object files, your app needs to read the data from those object files (.cso is the default extension for these object files), assign the data to byte arrays, and create shader objects from those byte arrays. For example, to create a vertex shader ([**ID3D11VertexShader**](https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11vertexshader)\*\*), call the [**ID3D11Device::CreateVertexShader**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createvertexshader) method with a byte array that contains compiled vertex shader byte code. The [Direct3D tutorial sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct3D%20tutorial%20sample) shows how to create shader objects from byte arrays that it obtained from .cso binary shader object files. In this example code from the [Direct3D tutorial sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct3D%20tutorial%20sample), the **Ouput Files** property for the SimpleVertexShader.hlsl file specifies to compile into the SimpleVertexShader.cso object file.
 
-
-```C++
+```cpp
         auto vertexShaderBytecode = reader->ReadData("SimpleVertexShader.cso");
         ComPtr<ID3D11VertexShader> vertexShader;
         DX::ThrowIfFailed(
@@ -53,11 +52,9 @@ If you compile your .hlsl files into binary shader object files, your app needs 
                 )
 ```
 
-
-
 ## Compiling at build time to header files
 
-If you compile your .hlsl files into byte arrays that are defined in header files, you need to include those header files in your code. The [Media extensions sample](https://code.msdn.microsoft.com/windowsapps/media-extensions-sample-7b466096) shows how to create shader objects from byte arrays that are defined in header files and that you include in your project at compile time. In this example code from the [Media extensions sample](https://code.msdn.microsoft.com/windowsapps/media-extensions-sample-7b466096), the **Ouput Files** property for the PixelShader.hlsl file specifies to compile into the *g\_psshader* byte array that is defined in the PixelShader.h header file.
+If you compile your .hlsl files into byte arrays that are defined in header files, you need to include those header files in your code. The [Media extensions sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Media%20extensions%20sample) shows how to create shader objects from byte arrays that are defined in header files and that you include in your project at compile time. In this example code from the [Media extensions sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Media%20extensions%20sample), the **Ouput Files** property for the PixelShader.hlsl file specifies to compile into the *g\_psshader* byte array that is defined in the PixelShader.h header file.
 
 
 ```C++

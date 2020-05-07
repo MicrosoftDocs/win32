@@ -286,7 +286,7 @@ The output bitmap for this effect is always the size of the union of the two inp
 
 ## Sample code
 
-For an example of this effect, download the [Direct2D composite effect modes sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-Image-Effects-4819dc5b).
+For an example of this effect, download the [Direct2D composite effect modes sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct2D%20composite%20effect%20modes%20sample).
 
 ## Requirements
 

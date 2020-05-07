@@ -19,7 +19,6 @@ The CLSID for this effect is CLSID\_D2D12DAffineTransform.
 -   [Border modes](#border-modes)
 -   [Interpolation modes](#interpolation-modes)
 -   [Output bitmap](#output-bitmap)
--   [Sample code](#sample-code)
 -   [Requirements](#requirements)
 -   [Related topics](#related-topics)
 
@@ -150,10 +149,6 @@ This property affects only the high quality cubic interpolation mode.
 The size of the output bitmap depends on the transform matrix that is applied to the image.
 
 The effect performs the transform operation and then applies a bounding box around the result. The output bitmap is the size of the bounding box.
-
-## Sample code
-
-For an example of this effect, download the [Direct2D interpolation modes sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-interpolation-0fa5420a).
 
 ## Requirements
 

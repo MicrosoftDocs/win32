@@ -36,8 +36,6 @@ With Direct2D effects you can write your own effects that you can use for your a
 
 The rest of this topic explains the basics of Direct2D effects, like applying an effect to an image. The table here has links to additional topics about effects.
 
-
-
 | Topic                                                                                                                    | Description                                                                                                                                                                                   |
 |--------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Effect Shader Linking](effect-shader-linking.md)<br/>                                                            | Direct2D uses an optimization called effect shader linking which combines multiple effect graph rendering passes into a single pass.<br/>                                               |
@@ -46,10 +44,6 @@ The rest of this topic explains the basics of Direct2D effects, like applying an
 | [How to save Direct2D content to an image file](save-direct2d-content-to-an-image-file.md)<br/>                   | This topic shows how to use [**IWICImageEncoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) to save content in the form of an [**ID2D1Image**](https://msdn.microsoft.com/library/Hh446803(v=VS.85).aspx) to an encoded image file such as JPEG.<br/> |
 | [How to Apply Effects to Primitives](how-to-apply-effects-to-primitives.md)<br/>                                  | This topic shows how to apply a series of effect to [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) and [DirectWrite](direct2d-and-directwrite.md) primitives.<br/>                           |
 | [Controlling Precision and Numerical Clipping in Effect Graphs](precision-and-clipping-in-effect-graphs.md)<br/>  | Applications that render effects using Direct2D must take care to achieve the desired level of quality and predictability with respect to numerical precision. <br/>                    |
-
-
-
- 
 
 ## Applying an effect to an image
 
@@ -256,19 +250,6 @@ See [How to apply effects to primitives](how-to-apply-effects-to-primitives.md) 
 
 ## Related topics
 
-<dl> <dt>
-
-[Direct2D basic image effects sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-basic-image-6b4b1a26)
-</dt> <dt>
+[Direct2D basic image effects sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct2D%20basic%20image%20effects%20sample)
 
 [Built-in Effects](built-in-effects.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-

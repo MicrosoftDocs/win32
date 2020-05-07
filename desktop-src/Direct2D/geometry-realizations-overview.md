@@ -121,7 +121,7 @@ If your app can scale a geometry realization up or down by large amounts (for ex
 
 For most of these apps, the recommended approach is to recreate the geometry realization at progressively lower flattening tolerances as the scene is scaled up, in order to maintain visual fidelity and avoid scaling artifacts. Similarly, as the scene is scaled down, the app should recreate the geometry realizations at progressively higher flattening tolerances, in order to avoid wastefully rendering details that aren’t visible. The app shouldn’t recreate the geometry realizations every time the scale changes, because doing so defeats the purpose of caching the tessellation work. Instead, the app should recreate the geometry realizations less frequently: for example, after every 2x increase or decrease in scale.
 
-This approach is demonstrated in the [Direct2D geometry realizations SDK sample](https://code.msdn.microsoft.com/windowsapps/D2DGeometryRealizations-cc560c4f). Each time the scale changes in response to user interaction, the app compares the new scale against the scale at which the geometry realizations were last created (**m\_lastScale**). If the two values are close (in this case, within a factor of 2), then no further action is taken. But if the two values are not close, then the geometry realizations are re-created. The [**ComputeFlatteningTolerance**](https://msdn.microsoft.com/library/Dn280327(v=VS.85).aspx) function is used to compute a flattening tolerance appropriate for the new scale, and **m\_lastScale** is updated to the new scale.
+Each time the scale changes in an app in response to user interaction, the app could compare the new scale against the scale at which the geometry realizations were last created (stored, for example, in an **m\_lastScale** member). If the two values are close (in this case, within a factor of 2), then no further action is taken. But if the two values are not close, then the geometry realizations are re-created. The [**ComputeFlatteningTolerance**](https://msdn.microsoft.com/library/Dn280327(v=VS.85).aspx) function is used to compute a flattening tolerance appropriate for the new scale, and **m\_lastScale** is updated to the new scale.
 
 In addition, the app always creates realizations using a smaller tolerance than what would normally be used for the new scale, by passing a value of 2 as the *maxZoomFactor* parameter to [**ComputeFlatteningTolerance**](https://msdn.microsoft.com/library/Dn280327(v=VS.85).aspx). This allows the new geometry realizations to be scaled up by an additional factor of 2 without incurring scaling artifacts.
 
@@ -132,33 +132,14 @@ In addition, the app always creates realizations using a smaller tolerance than 
 
 ## Related topics
 
-<dl> <dt>
-
-[Direct2D Geometry Realization Sample](https://code.msdn.microsoft.com/windowsapps/D2DGeometryRealizations-cc560c4f)
-</dt> <dt>
-
 [Geometries Overview](direct2d-geometries-overview.md)
-</dt> <dt>
 
 [Improving the performance of Direct2D apps](improving-direct2d-performance.md)
-</dt> <dt>
 
 [General guidelines for rendering complex static content](improving-direct2d-performance.md)
-</dt> <dt>
 
 [**ID2D1DeviceContext1**](https://msdn.microsoft.com/library/Dn280461(v=VS.85).aspx)
-</dt> <dt>
 
 [**ID2D1GeometryRealization**](https://msdn.microsoft.com/library/Dn280515(v=VS.85).aspx)
-</dt> <dt>
 
 [**ComputeFlatteningTolerance function**](https://msdn.microsoft.com/library/Dn280327(v=VS.85).aspx)
-</dt> </dl>
-
- 
-
- 
-
-
-
-

@@ -23,7 +23,6 @@ The CLSID for this effect is CLSID\_D2D13DTransform.
     -   [Interpolation modes](#interpolation-modes)
     -   [Border modes](#border-modes)
 -   [4x4 Transform Matrix Class](#4x4-transform-matrix-class)
--   [Sample code](#sample-code)
 -   [Requirements](#requirements)
 -   [Related topics](#related-topics)
 
@@ -157,10 +156,6 @@ Direct2D provides a 4x4 matrix class to provide helper functions for transformin
 
 
  
-
-## Sample code
-
-For an example of this effect, download the [Direct2D 3D transform effect sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-3D-transform-327c1e33).
 
 ## Requirements
 

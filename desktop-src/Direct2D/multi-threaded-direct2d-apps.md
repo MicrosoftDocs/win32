@@ -8,21 +8,18 @@ ms.date: 05/31/2018
 
 # Multithreaded Direct2D Apps
 
-If you develop [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) apps, you may need to access Direct2D resources from more than one thread. For good example, see [Direct2D Windows Store app using DirectX with C++ printing sample](https://code.msdn.microsoft.com/Direct2Dapp-printing-sample-9869f99c). In other cases, you may want to use multi-threading to get better performance or better responsiveness (like using one thread for screen display and a separate thread for offline rendering).
+If you develop [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) apps, you may need to access Direct2D resources from more than one thread. In other cases, you may want to use multi-threading to get better performance or better responsiveness (like using one thread for screen display and a separate thread for offline rendering).
 
 This topic describes the best practices for developing multithreaded [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) apps with little to no [Direct3D](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) rendering. Software defects caused by concurrency issues can be difficult to track down, and it is helpful to plan your multithreading policy and to follow the best practices described here.
 
 > [!Note]  
 > If you access two [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) resources created from two different single threaded Direct2D factories it doesn't cause access conflicts as long as the underlying [Direct3D](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) devices and device contexts are also distinct. When talking about "accessing Direct2D resources" in this article, it really means "accessing Direct2D resources created from the same Direct2D Device" unless stated otherwise.
 
- 
-
 ## Developing Thread-Safe Apps that Call Only Direct2D APIs
 
 You can create a multithreaded [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) factory instance. You can use and share a multithreaded factory and all it's resources from more than one thread, but accesses to those resources (via Direct2D calls) are serialized by Direct2D, so no access conflicts occur. If your app calls only Direct2D APIs, such protection is automatically done by Direct2D in a granular level with minimum overhead. The code to create a multithreaded factory here.
 
-
-```C++
+```cpp
 ID2D1Factory* m_D2DFactory;
 
 // Create a Direct2D factory.
@@ -30,10 +27,7 @@ HRESULT hr = D2D1CreateFactory(
     D2D1_FACTORY_TYPE_MULTI_THREADED,
     &m_D2DFactory
 );
-
 ```
-
-
 
 The image here shows how [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) serializes two threads that make calls using only the Direct2D API.
 
@@ -54,7 +48,7 @@ The diagram here shows a [Direct3D](https://docs.microsoft.com/windows/desktop/d
 
 ![thread protection diagram.](images/multi-thread2.png)
 
-To avoid resource access conflict here, we recommend you explicitly acquire the lock that [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) uses for internal access synchronization, and apply that lock when a thread needs to make [Direct3D](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) or DXGI calls that might cause access conflict as shown here. In particular, you should take special care with code that uses exceptions or an early out system based on HRESULT return codes. For this reason, we recommend you use an RAII (Resource Acquisition Is Initialization) pattern to call the [**Enter**](https://msdn.microsoft.com/library/Hh997714(v=VS.85).aspx) and [**Leave**](https://msdn.microsoft.com/library/Hh997716(v=VS.85).aspx) methods. See [Direct2D Windows Store app using DirectX printing sample](https://code.msdn.microsoft.com/Direct2Dapp-printing-sample-9869f99c) for an example of how to apply this approach in the context of printing Direct2D content.
+To avoid resource access conflict here, we recommend you explicitly acquire the lock that [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) uses for internal access synchronization, and apply that lock when a thread needs to make [Direct3D](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) or DXGI calls that might cause access conflict as shown here. In particular, you should take special care with code that uses exceptions or an early out system based on HRESULT return codes. For this reason, we recommend you use an RAII (Resource Acquisition Is Initialization) pattern to call the [**Enter**](https://msdn.microsoft.com/library/Hh997714(v=VS.85).aspx) and [**Leave**](https://msdn.microsoft.com/library/Hh997716(v=VS.85).aspx) methods.
 
 > [!Note]  
 > It is important that you pair up calls to the [**Enter**](https://msdn.microsoft.com/library/Hh997714(v=VS.85).aspx) and [**Leave**](https://msdn.microsoft.com/library/Hh997716(v=VS.85).aspx) methods, otherwise your app can deadlock.
@@ -117,16 +111,6 @@ To address this issue, we recommend you have a separate context for each thread,
 -   You should share heavy-weight resources (like bitmaps and complex effect graphs) that are initialized once and then never modified across threads to increase performance.
 -   You can either share light-weight resources (like solid color brushes and text formats) that are initialized once and then never modified across threads or not
 
-See the [Direct2D Windows Store app using DirectX printing sample](https://code.msdn.microsoft.com/Direct2Dapp-printing-sample-9869f99c) for a complete sample that shows a thread for on-screen rendering and a separate thread for off-screen rendering.
-
 ## Summary
 
 When you develop multithreaded [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) apps, you must create a multithreaded Direct2D factory then derive all Direct2D resources from that factory. If a thread will make [Direct3D](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) or DXGI calls, you also must explicitly acquire then apply the Direct2D lock to guard those Direct3D or DXGI calls. Moreover, you must ensure context integrity by having a copy of mutable resources for each thread.
-
- 
-
- 
-
-
-
-

@@ -19,7 +19,6 @@ The CLSID for this effect is CLSID\_D2D1SpotDiffuse.
 -   [Example image](#example-image)
 -   [Effect properties](#effect-properties)
 -   [Scale modes](#scale-modes)
--   [Sample code](#sample-code)
 -   [Requirements](#requirements)
 -   [Related topics](#related-topics)
 
@@ -80,10 +79,6 @@ L<sub>r</sub>, L<sub>g</sub>, L<sub>b</sub> = the light color in RGB components.
 > If you don't select a mode, the effect defaults to D2D1\_SPOTDIFFUSE\_SCALE\_MODE\_LINEAR.
 
  
-
-## Sample code
-
-For an example of this effect, download the [Direct2D lighting effects sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-lighting-effects-e0801da3).
 
 ## Requirements
 

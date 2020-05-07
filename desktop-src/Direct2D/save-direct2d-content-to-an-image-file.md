@@ -220,10 +220,9 @@ Now you have a file containing the [Direct2D](https://msdn.microsoft.com/library
 
 ## Complete example
 
-Here the full code for this example. You can find a modified version of this code in the [SaveAsImageFile SDK sample](https://code.msdn.microsoft.com/windowsapps/SaveAsImageFile-68073cb0).
+Here the full code for this example.
 
-
-```C++
+```cpp
 ComPtr<IWICImagingFactory2> m_wicFactory;
 
 DX::ThrowIfFailed(

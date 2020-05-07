@@ -14,9 +14,7 @@ We originally created the DirectX SDK as a high-performance platform for game de
 
 Because the Windows SDK is the primary developer SDK for Windows, DirectX is now included in it. You can now use the Windows SDK to build great games for Windows. To download the Windows 8 SDK, see [Windows SDK and emulator archive](https://developer.microsoft.com/windows/downloads/sdk-archive).
 
-The following technologies and tools, formerly part of the DirectX SDK, are now part of the Windows SDK:
-
-
+The following technologies and tools, formerly part of the DirectX SDK, are now part of the Windows SDK.
 
 <table>
 <colgroup>
@@ -75,15 +73,11 @@ The D3DCompiler API is available in the Windows SDK.
 <tr class="odd">
 <td><span id="Games_Explorer_and_GDFMAKER"></span><span id="games_explorer_and_gdfmaker"></span><span id="GAMES_EXPLORER_AND_GDFMAKER"></span><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437965(v=vs.85)">Games Explorer</a> and GDFMAKER<br/></td>
 <td>The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437965(v=vs.85)">Games Explorer</a> API presents games to users of Windows. The Games Explorer API is supported only on Windows Vista and Windows 7. Use the Games Definition File Maker tool (GDFMAKER.EXE) to declare game ratings for Windows Store apps. <br/> The Game Definition File Maker tool (GDFMaker.exe) is included in the x86 subdirectory under the bin folder in the Windows SDK, and supports both Windows Store apps and Win32 desktop applications.<br/>
-<blockquote>
-[!Note]<br />
-The <a href="https://code.msdn.microsoft.com/GDF-Trace-5389d1b4">Game Definition File Validator</a> tool (gdftrace.exe) and <a href="https://code.msdn.microsoft.com/GameuxInstallHelper-6a9335ca">Gameux Install Helper</a> sample are both available in the MSDN Code Gallery.
-</blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="Samples"></span><span id="samples"></span><span id="SAMPLES"></span>Samples<br/></td>
-<td>All new samples that highlight DirectX technologies on Windows are online in the <a href="https://code.msdn.microsoft.com/">Windows SDK Samples Gallery</a>. Most samples for older versions of Direct3D are only available for download in previous versions of the DirectX SDK although a number of them are online as well. For more info about these samples, see <a href="https://blogs.msdn.microsoft.com/chuckw/2013/09/20/directx-sdk-samples-catalog/">DirectX SDK Samples Catalog</a>. <br/></td>
+<td>You can find sample applications that highlight DirectX technologies on Windows in the <a href="https://github.com/Microsoft/DirectX-Graphics-Samples">DirectX samples</a> repo, and in the <a href="https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample">Code Gallery archive</a>. Most samples for older versions of Direct3D are available only for download in previous versions of the DirectX SDK, although a number of them are online as well. For more info about these samples, see <a href="https://blogs.msdn.microsoft.com/chuckw/2013/09/20/directx-sdk-samples-catalog/">DirectX SDK Samples Catalog</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="Managed_DirectX_1.1"></span><span id="managed_directx_1.1"></span><span id="MANAGED_DIRECTX_1.1"></span>Managed DirectX 1.1<br/></td>

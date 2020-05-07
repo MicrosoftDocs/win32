@@ -26,7 +26,7 @@ Suppose the desktop image was transmitted over a slow connection to your remote 
 
 While the operating system accumulates unprocessed desktop image updates, it might run out of space to accurately store the update regions. In this situation, the operating system starts to accumulate the updates by coalescing them with existing update regions to cover all new updates. As a result, the operating system covers pixels that it has not actually updated in that frame yet. But this situation doesn’t produce visual issues on your client app because you receive the entire desktop image and not just the updated pixels.
 
-To reconstruct the correct desktop image, your client app must first process all the move regions and then process all the dirty regions. Either of these lists of dirty and move regions can be completely empty. The example code from the [Desktop Duplication Sample](https://code.msdn.microsoft.com/windowsdesktop/Desktop-Duplication-Sample-da4c696a) shows how to process both the dirty and move regions in a single frame:
+To reconstruct the correct desktop image, your client app must first process all the move regions and then process all the dirty regions. Either of these lists of dirty and move regions can be completely empty. The example code from the [Desktop Duplication Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/DXGI%20desktop%20duplication%20sample) shows how to process both the dirty and move regions in a single frame:
 
 
 ```C++
@@ -194,7 +194,7 @@ To draw the desktop’s mouse pointer, use the **PointerPosition** member of [**
 
  
 
-This example code from the [Desktop Duplication Sample](https://code.msdn.microsoft.com/windowsdesktop/Desktop-Duplication-Sample-da4c696a) shows how to get the mouse pointer shape:
+This example code from the [Desktop Duplication Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/DXGI%20desktop%20duplication%20sample) shows how to get the mouse pointer shape:
 
 
 ```C++

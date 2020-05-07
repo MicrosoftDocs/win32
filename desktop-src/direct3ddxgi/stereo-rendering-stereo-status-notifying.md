@@ -22,7 +22,7 @@ Stereo status can contain the following elements:
 
 -   The computer capability and configuration, which includes graphics adapter, graphics driver, and monitor setup.
 
-The [Direct3D 11.1 Simple Stereo 3D Sample](https://code.msdn.microsoft.com/Direct3D-111-Simple-Stereo-9b2b61aa) shows how to add a stereoscopic 3D effect and how to respond to system stereo changes.
+The [Direct3D 11.1 Simple Stereo 3D Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct3D%20stereoscopic%203D%20sample) shows how to add a stereoscopic 3D effect and how to respond to system stereo changes.
 
 ## Related topics
 
