@@ -435,12 +435,12 @@
               - name: "Active Directory Domain Services"
                 href: ad/active-directory-domain-services.md
               - name: "Active Directory Schema"
-                href: adschema/active-directory-schema.md
+                href: /windows/win32/adschema/active-directory-schema
             - name: "Directory Access Technologies"
               href: 
               items: 
               - name: "Active Directory Service Interfaces"
-                href: adsi/active-directory-service-interfaces-adsi.md
+                href: /windows/win32/adsi/active-directory-service-interfaces-adsi
           - name: "Access Management Services"
             href: 
             items: 
@@ -451,15 +451,15 @@
               - name: "Active Directory Federation Services Overview"
                 href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms674895(v=vs.85)
         - name: "Extensible Authentication Protocol"
-          href: eap/eap-start-page.md
+          href: /windows/win32/eap/eap-start-page
         - name: "Extensible Authentication Protocol Host"
-          href: eaphost/portal.md
+          href: /windows/win32/eaphost/portal
         - name: "Network Access Protection"
-          href: nap/network-access-protection-start-page.md
+          href: /windows/win32/nap/network-access-protection-start-page
         - name: "Network Policy Server"
-          href: nps/portal.md
+          href: /windows/win32/nps/portal
         - name: "Parental Controls"
-          href: parcon/parental-controls-portal.md
+          href: /windows/win32/parcon/parental-controls-portal
         - name: "Rights Management"
           items: 
           - name: "Overview"
@@ -467,31 +467,31 @@
           - name: "RMS Scenarios, Code and Tools"
             href: SrvNodes/rms-code-samples-and-tools.md
         - name: "Security Management"
-          href: secmgmt/management-portal.md
+          href: /windows/win32/secmgmt/management-portal
         - name: "Security Glossary"
-          href: secgloss/security-glossary.md
+          href: /windows/win32/secgloss/security-glossary
         - name: "TPM Base Services"
-          href: tbs/tpm-base-services-portal.md
+          href: /windows/win32/tbs/tpm-base-services-portal
         - name: "Windows Biometric Framework"
-          href: secbiomet/biometric-service-api-portal.md
+          href: /windows/win32/secbiomet/biometric-service-api-portal
       - name: "System Services"
         items: 
         - name: "Overview"
-          href: system-services.md
+          href: /windows/win32/system-services
         - name: "Component Object Model"
-          href: com/component-object-model--com--portal.md
+          href: /windows/win32/com/component-object-model--com--portal
         - name: "Microsoft Interface Definition Language"
-          href: midl/midl-start-page.md
+          href: /windows/win32/midl/midl-start-page
         - name: "Structured Storage"
-          href: stg/structured-storage-start-page.md
+          href: /windows/win32/stg/structured-storage-start-page
         - name: "COM+"
-          href: cossdk/component-services-portal.md
+          href: /windows/win32/cossdk/component-services-portal
         - name: "Compression API"
-          href: cmpapi/-compression-portal.md
+          href: /windows/win32/cmpapi/-compression-portal
         - name: "Dynamic-Link Libraries"
-          href: dlls/dynamic-link-libraries.md
+          href: /windows/win32/dlls/dynamic-link-libraries
         - name: "Interprocess Communications"
-          href: ipc/interprocess-communications.md
+          href: /windows/win32/ipc/interprocess-communications
         - name: "Kernel Transaction Manager"
           href: /windows/win32/ktm/kernel-transaction-manager-portal
         - name: "Memory Management"
@@ -537,9 +537,9 @@
           href: SrvNodes/access-management-services.md
           items: 
           - name: "Active Directory Federation Services"
-            href: SrvNodes/active-directory-federation-services.md
+            href: /windows/win32/srvnodes/active-directory-federation-services
       - name: "Rights Management"
-        href: SrvNodes/rights-management.md
+        href: /windows/win32/srvnodes/rights-management
         items: 
         - name: "RMS Code Samples and Tools"
           href: SrvNodes/rms-code-samples-and-tools.md
