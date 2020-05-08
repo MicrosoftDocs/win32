@@ -65,9 +65,9 @@
         - name: "RAW_SCSI_VIRTUAL_DISK_VERSION"
           href: https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-raw_scsi_virtual_disk_version
         - name: "RESIZE_VIRTUAL_DISK_FLAG"
-          href: https://docs.microsoft.com/windows/desktop/api/virtdisk/ne-virtdisk-_resize_virtual_disk_flag
+          href: /windows/win32/api/virtdisk/ne-virtdisk-resize_virtual_disk_flag
         - name: "RESIZE_VIRTUAL_DISK_VERSION"
-          href: https://docs.microsoft.com/windows/desktop/api/virtdisk/ne-virtdisk-_resize_virtual_disk_version
+          href: /windows/win32/api/virtdisk/ne-virtdisk-resize_virtual_disk_version
         - name: "SET_VIRTUAL_DISK_INFO_VERSION"
           href: https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-set_virtual_disk_info_version
         - name: "STORAGE_DEPENDENCY_INFO_VERSION"
@@ -77,7 +77,7 @@
         - name: "TAKE_SNAPSHOT_VHDSET_VERSION"
           href: https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-take_snapshot_vhdset_version
         - name: "VIRTUAL_DISK_ACCESS_MASK"
-          href: https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-virtual_disk_access_mask
+          href: /windows/win32/api/virtdisk/ne-virtdisk-virtual_disk_access_mask~r1
       - name: "VHD Functions"
         href: vhd-functions.md
         items: 
@@ -163,7 +163,7 @@
         - name: "RAW_SCSI_VIRTUAL_DISK_RESPONSE"
           href: https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-raw_scsi_virtual_disk_response
         - name: "RESIZE_VIRTUAL_DISK_PARAMETERS"
-          href: https://docs.microsoft.com/windows/desktop/api/virtdisk/ns-virtdisk-_resize_virtual_disk_parameters
+          href: /windows/win32/api/virtdisk/ns-virtdisk-resize_virtual_disk_parameters
         - name: "QUERY_CHANGES_VIRTUAL_DISK_RANGE"
           href: https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-query_changes_virtual_disk_range
         - name: "SET_VIRTUAL_DISK_INFO"

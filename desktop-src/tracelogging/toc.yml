@@ -25,7 +25,7 @@
       href: trace-logging-classes.md
       items: 
       - name: "TraceLoggingActivity"
-        href: /windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1
+        href: /windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity
         items: 
         - name: "TraceLoggingActivity constructor"
           href: https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingactivity-traceloggingactivity(traceloggingactivity__)
@@ -48,7 +48,7 @@
         - name: "SetRelatedActivityId method"
           href: https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingactivity-setrelatedactivityid(constguid)
       - name: "TraceLoggingThreadActivity"
-        href: /windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity~r1
+        href: /windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity
         items: 
         - name: "TraceLoggingThreadActivity constructor"
           href: https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivity-traceloggingthreadactivity(traceloggingthreadactivity__)

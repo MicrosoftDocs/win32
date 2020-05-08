@@ -1799,7 +1799,7 @@
       - name: "TF_SELECTIONSTYLE"
         href: /windows/desktop/api/Msctf/ns-msctf-tf_selectionstyle
       - name: "TF_STATUS"
-        href: tf-status.md
+        href: /windows/win32/api/textstor/ns-textstor-ts_status
       - name: "TS_ATTRVAL"
         href: /windows/desktop/api/Textstor/ns-textstor-ts_attrval
       - name: "TS_RUNINFO"
