@@ -331,33 +331,33 @@
         href: window-structures.md
         items: 
         - name: "ALTTABINFO"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagalttabinfo
+          href: /windows/win32/api/winuser/ns-winuser-alttabinfo
         - name: "CHANGEFILTERSTRUCT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagchangefilterstruct
+          href: /windows/win32/api/winuser/ns-winuser-changefilterstruct
         - name: "CLIENTCREATESTRUCT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagclientcreatestruct
+          href: /windows/win32/api/winuser/ns-winuser-clientcreatestruct
         - name: "CREATESTRUCT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcreatestructa
+          href: /windows/win32/api/winuser/ns-winuser-createstructa
         - name: "GUITHREADINFO"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagguithreadinfo
+          href: /windows/win32/api/winuser/ns-winuser-guithreadinfo
         - name: "MINMAXINFO"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagminmaxinfo
+          href: /windows/win32/api/winuser/ns-winuser-minmaxinfo
         - name: "NCCALCSIZE_PARAMS"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagnccalcsize_params
+          href: /windows/win32/api/winuser/ns-winuser-nccalcsize_params
         - name: "STYLESTRUCT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagstylestruct
+          href: /windows/win32/api/winuser/ns-winuser-stylestruct
         - name: "TITLEBARINFO"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtitlebarinfo
+          href: /windows/win32/api/winuser/ns-winuser-titlebarinfo
         - name: "TITLEBARINFOEX"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtitlebarinfoex
+          href: /windows/win32/api/winuser/ns-winuser-titlebarinfoex
         - name: "UPDATELAYEREDWINDOWINFO"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagupdatelayeredwindowinfo
+          href: /windows/win32/api/winuser/ns-winuser-updatelayeredwindowinfo
         - name: "WINDOWINFO"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwindowinfo
+          href: /windows/win32/api/winuser/ns-winuser-windowinfo
         - name: "WINDOWPLACEMENT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwindowplacement
+          href: /windows/win32/api/winuser/ns-winuser-windowplacement
         - name: "WINDOWPOS"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwindowpos
+          href: /windows/win32/api/winuser/ns-winuser-windowpos
   - name: "Window Classes"
     href: window-classes.md
     items: 
@@ -410,9 +410,9 @@
         href: window-class-structures.md
         items: 
         - name: "WNDCLASS"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa
+          href: /windows/win32/api/winuser/ns-winuser-wndclassa
         - name: "WNDCLASSEX"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassexa
+          href: /windows/win32/api/winuser/ns-winuser-wndclassexa
       - name: "Window Class Styles"
         href: window-class-styles.md
   - name: "Window Procedures"
@@ -509,7 +509,7 @@
         - name: "BSMINFO"
           href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-bsminfo
         - name: "MSG"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg
+          href: /windows/win32/api/winuser/ns-winuser-msg
       - name: "Message Constants"
         href: message-and-message-queue-notifications.md
         items: 
@@ -599,13 +599,13 @@
         href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa
         items: 
         - name: "ANIMATIONINFO"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taganimationinfo
+          href: /windows/win32/api/winuser/ns-winuser-animationinfo
         - name: "AUDIODESCRIPTION"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagaudiodescription
+          href: /windows/win32/api/winuser/ns-winuser-audiodescription
         - name: "MINIMIZEDMETRICS"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagminimizedmetrics
+          href: /windows/win32/api/winuser/ns-winuser-minimizedmetrics
         - name: "NONCLIENTMETRICS"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagnonclientmetricsa
+          href: /windows/win32/api/winuser/ns-winuser-nonclientmetricsa
         - name: "WM_SETTINGCHANGE"
           href: wm-settingchange.md
         - name: "WM_WININICHANGE"
@@ -672,25 +672,25 @@
         href: hook-structures.md
         items: 
         - name: "CBT_CREATEWND"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcbt_createwnda
+          href: /windows/win32/api/winuser/ns-winuser-cbt_createwnda
         - name: "CBTACTIVATESTRUCT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcbtactivatestruct
+          href: /windows/win32/api/winuser/ns-winuser-cbtactivatestruct
         - name: "CWPRETSTRUCT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcwpretstruct
+          href: /windows/win32/api/winuser/ns-winuser-cwpretstruct
         - name: "CWPSTRUCT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcwpstruct
+          href: /windows/win32/api/winuser/ns-winuser-cwpstruct
         - name: "DEBUGHOOKINFO"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagdebughookinfo
+          href: /windows/win32/api/winuser/ns-winuser-debughookinfo
         - name: "EVENTMSG"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tageventmsg
+          href: /windows/win32/api/winuser/ns-winuser-eventmsg
         - name: "KBDLLHOOKSTRUCT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagkbdllhookstruct
+          href: /windows/win32/api/winuser/ns-winuser-kbdllhookstruct
         - name: "MOUSEHOOKSTRUCT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousehookstruct
+          href: /windows/win32/api/winuser/ns-winuser-mousehookstruct
         - name: "MOUSEHOOKSTRUCTEX"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousehookstructex
+          href: /windows/win32/api/winuser/ns-winuser-mousehookstructex
         - name: "MSLLHOOKSTRUCT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsllhookstruct
+          href: /windows/win32/api/winuser/ns-winuser-msllhookstruct
   - name: "Multiple Document Interface (MDI)"
     href: multiple-document-interface.md
     items: 
@@ -746,4 +746,4 @@
         href: multiple-document-interface-structures.md
         items: 
         - name: "MDICREATESTRUCT"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmdicreatestructa
+          href: /windows/win32/api/winuser/ns-winuser-mdicreatestructa?redirectedfrom=MSDN
