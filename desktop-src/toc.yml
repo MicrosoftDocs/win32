@@ -493,13 +493,13 @@
         - name: "Interprocess Communications"
           href: ipc/interprocess-communications.md
         - name: "Kernel Transaction Manager"
-          href: ktm/kernel-transaction-manager-portal.md
+          href: /windows/win32/ktm/kernel-transaction-manager-portal
         - name: "Memory Management"
-          href: memory/memory-management.md
+          href: /windows/win32/memory/memory-management
         - name: "Power Management"
-          href: power/power-management-portal.md
+          href: /windows/win32/power/power-management-portal
         - name: "Processes and Threads"
-          href: procthread/processes-and-threads.md
+          href: /windows/win32/procthread/processes-and-threads
         - name: "Remote Desktop Services"
           href: /windows/win32/termserv/terminal-services-portal
         - name: "Services"
