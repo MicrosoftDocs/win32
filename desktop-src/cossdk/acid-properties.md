@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Coined by transaction processing pioneers, the acronym ACID stands for atomic, consistent, isolated, and durable. To ensure predictable behavior, all transactions must possess these basic properties, reinforcing the role of mission-critical transactions as all-or-none propositions.
 
-The following list containss a definition and a description of each ACID property:
+The following list contains a definition and a description of each ACID property:
 
 <dl> <dt>
 
