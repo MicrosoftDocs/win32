@@ -80,7 +80,7 @@
       href: power-management-enumeration-types.md
       items: 
       - name: "EFFECTIVE_POWER_MODE"
-        href: /windows/desktop/api/powersetting/ne-powersetting-effective_power_mode)
+        href: /windows/desktop/api/powersetting/ne-powersetting-effective_power_mode
       - name: "POWER_ACTION"
         href: /windows/desktop/api/WinNT/ne-winnt-power_action
       - name: "POWER_DATA_ACCESSOR"
@@ -218,7 +218,7 @@
       - name: "PowerReadValueUnitsSpecifier"
         href: /windows/desktop/api/PowrProf/nf-powrprof-powerreadvalueunitsspecifier
       - name: "PowerRegisterForEffectivePowerModeNotifications"
-        href: /windows/desktop/api/powersetting/nf-powersetting-powerregisterforeffectivepowermodenotifications)
+        href: /windows/desktop/api/powersetting/nf-powersetting-powerregisterforeffectivepowermodenotifications
       - name: "PowerRegisterSuspendResumeNotification"
         href: /windows/desktop/api/Powerbase/nf-powerbase-powerregistersuspendresumenotification
       - name: "PowerRemovePowerSetting"

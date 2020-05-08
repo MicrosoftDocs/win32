@@ -1375,7 +1375,7 @@
         - name: "ChangeAdviseCodes"
           href: https://docs.microsoft.com/previous-versions//aa965736(v=vs.85)
         - name: "ColumnSortOrder"
-          href: /windows/desktop/api/mmcobj/ne-mmcobj-columnsortorder
+          href: /windows/win32/api/mmcobj/ne-mmcobj-_columnsortorder
         - name: "HeaderDisplayStyle"
           href: -search-2x-headerdisplaystyleenum.md
         - name: "PreviewDisplayStyle"

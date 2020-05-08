@@ -599,9 +599,9 @@
         - name: "StringCchVPrintfEx"
           href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchvprintfexa
         - name: "UnalignedStringCbLength"
-          href: unalignedstringcblength.md
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh305643(v=vs.85)
         - name: "UnalignedStringCchLength"
-          href: unalignedstringcchlength.md
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh305644(v=vs.85)
   - name: "Version Information"
     href: version-information.md
     items: 

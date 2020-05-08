@@ -348,7 +348,7 @@
           - name: "PEER_EVENT_MEMBER_CHANGE_DATA"
             href: /windows/win32/api/P2P/ns-p2p-peer_event_member_change_data
           - name: "PEER_GROUP_EVENT_DATA"
-            href: /windows/desktop/api/P2P/ns-p2p-peer_group_event_data_tag
+            href: /windows/desktop/api/P2P/ns-p2p-peer_group_event_data~r1
           - name: "PEER_GROUP_EVENT_REGISTRATION"
             href: /windows/win32/api/P2P/ns-p2p-peer_group_event_registration
           - name: "PEER_GROUP_PROPERTIES"
@@ -365,7 +365,7 @@
           - name: "PEER_GROUP_EVENT_TYPE"
             href: /windows/win32/api/P2P/ne-p2p-peer_group_event_type
           - name: "PEER_GROUP_ISSUE_CREDENTIAL_FLAGS"
-            href: /windows/desktop/api/P2P/ne-p2p-peer_issue_credential_flags_tag
+            href: /windows/desktop/api/P2P/ne-p2p-peer_group_issue_credential_flags
           - name: "PEER_GROUP_PROPERTY_FLAGS"
             href: /windows/win32/api/P2P/ne-p2p-peer_group_property_flags
           - name: "PEER_GROUP_STATUS"
@@ -769,7 +769,7 @@
         - name: "PEER_APP_LAUNCH_INFO"
           href: /windows/win32/api/P2P/ns-p2p-peer_app_launch_info
         - name: "PEER_COLLAB_EVENT_DATA"
-          href: /windows/desktop/api/P2P/ns-p2p-peer_collab_event_data_tag
+          href: /windows/desktop/api/P2P/ns-p2p-peer_collab_event_data~r1
         - name: "PEER_COLLAB_EVENT_REGISTRATION"
           href: /windows/win32/api/P2P/ns-p2p-peer_collab_event_registration
         - name: "PEER_CONTACT"
