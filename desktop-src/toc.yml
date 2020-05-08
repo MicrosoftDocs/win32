@@ -350,79 +350,79 @@
         - name: "Domain Name System"
           href: dns/dns-start-page.md          
         - name: "HTTP Server API"
-          href: http/http-api-start-page.md
+          href: /windows/win32/http/http-api-start-page
         - name: "IP Helper"
-          href: iphlp/ip-helper-start-page.md
+          href: /windows/win32/iphlp/ip-helper-start-page
         - name: "Message Queuing"
           href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)
         - name: "Network Interfaces"
-          href: network-interfaces.md
+          href: /windows/win32/network-interfaces
         - name: "Network List Manager"
-          href: nla/portal.md
+          href: /windows/win32/nla/portal
         - name: "Network Management"
-          href: netmgmt/network-management.md
+          href: /windows/win32/netmgmt/network-management
         - name: "Network Share Management"
-          href: netshare/network-share-management.md
+          href: /windows/win32/netshare/network-share-management
         - name: "Peer-to-Peer"
-          href: p2psdk/portal.md
+          href: /windows/win32/p2psdk/portal
         - name: "Remote Procedure Call"
-          href: rpc/rpc-start-page.md
+          href: /windows/win32/rpc/rpc-start-page
         - name: "Routing and Remote Access Service"
-          href: rras/portal.md
+          href: /windows/win32/rras/portal
         - name: "Simple Network Management Protocol"
-          href: snmp/snmp-start-page.md
+          href: /windows/win32/snmp/snmp-start-page
         - name: "Telephony Application Programming Interfaces"
           href: Tapi/telephony-application-programming-interfaces.md
         - name: "Teredo"
-          href: teredo/portal.md
+          href: /windows/win32/teredo/portal
         - name: "WebSocket Protocol Component API"
-          href: websock/web-socket-protocol-component-api-portal.md
+          href: /windows/win32/websock/web-socket-protocol-component-api-portal
         - name: "Windows Filtering Platform"
-          href: fwp/windows-filtering-platform-start-page.md
+          href: /windows/win32/fwp/windows-filtering-platform-start-page
         - name: "Windows Networking"
-          href: wnet/windows-networking-wnet-.md
+          href: /windows/win32/wnet/windows-networking-wnet-
         - name: "Windows Sockets 2"
-          href: winsock/windows-sockets-start-page-2.md
+          href: /windows/win32/winsock/windows-sockets-start-page-2
         - name: "Wireless Networking"
           items: 
           - name: "Overview"
-            href: wireless-networking.md
+            href: /windows/win32/wireless-networking
           - name: "Bluetooth"
-            href: bluetooth/bluetooth-start-page.md
+            href: /windows/win32/bluetooth/bluetooth-start-page
           - name: "Mobile Broadband"
             href: mbn/mobile-broadband-networks-portal.md
           - name: "Native Wifi"
-            href: nativewifi/portal.md
+            href: /windows/win32/nativewifi/portal
           - name: "Windows Connect Now"
-            href: wcn/portal.md
+            href: /windows/win32/wcn/portal
           - name: "Windows Connection Manager"
-            href: wcm/windows-connection-manager-portal.md
+            href: /windows/win32/wcm/windows-connection-manager-portal
         - name: "WebDAV"
-          href: webdav/webdav-portal.md
+          href: /windows/win32/webdav/webdav-portal
         - name: "Windows HTTP Services"
-          href: winhttp/winhttp-start-page.md
+          href: /windows/win32/winhttp/winhttp-start-page
         - name: "Windows Internet"
-          href: wininet/portal.md
+          href: /windows/win32/wininet/portal
         - name: "Windows Web Services"
-          href: wsw/portal.md
+          href: /windows/win32/wsw/portal
       - name: "Security and Identity"
         items: 
         - name: "Overview"
-          href: security.md
+          href: /windows/win32/security
         - name: "Antimalware Scan Interface"
-          href: amsi/antimalware-scan-interface-portal.md
+          href: /windows/win32/amsi/antimalware-scan-interface-portal
         - name: "Authentication"
-          href: secauthn/authentication-portal.md
+          href: /windows/win32/secauthn/authentication-portal
         - name: "Authorization"
-          href: secauthz/authorization-portal.md
+          href: /windows/win32/secauthz/authorization-portal
         - name: "Best Practices for the Security APIs"
-          href: secbp/best-practices-for-the-security-apis.md
+          href: /windows/win32/secbp/best-practices-for-the-security-apis
         - name: "Certificate Enrollment API"
-          href: seccertenroll/certenroll-portal.md
+          href: /windows/win32/seccertenroll/certenroll-portal
         - name: "Cryptography"
-          href: seccrypto/cryptography-portal.md
+          href: /windows/win32/seccrypto/cryptography-portal
         - name: "Cryptography API: Next Generation"
-          href: seccng/cng-portal.md
+          href: /windows/win32/seccng/cng-portal
         - name: "Directory, Identity, and Access Services"
           href: 
           items: 
@@ -433,7 +433,7 @@
               href: 
               items: 
               - name: "Active Directory Domain Services"
-                href: ad/active-directory-domain-services.md
+                href: /windows/win32/ad/active-directory-domain-services
               - name: "Active Directory Schema"
                 href: /windows/win32/adschema/active-directory-schema
             - name: "Directory Access Technologies"
