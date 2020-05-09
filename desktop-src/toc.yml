@@ -220,29 +220,29 @@
         - name: "Overview"
           href: windows-portable-devices.md
         - name: "WPD Application Programming Interface"
-          href: wpd_sdk/wpd-application-programming-interface.md
+          href: /windows/win32/wpd_sdk/wpd-application-programming-interface
       - name: "Diagnostics"
         items: 
         - name: "Overview"
-          href: diagnostics.md
+          href: /windows/win32/diagnostics
         - name: "Debugging and Error Handling"
           items: 
           - name: "Overview"
-            href: debugging-and-error-handling.md
+            href: /windows/win32/debugging-and-error-handling
           - name: "Application Recovery and Restart"
-            href: recovery/application-recovery-and-restart-portal.md
+            href: /windows/win32/recovery/application-recovery-and-restart-portal
           - name: "Error Handling"
-            href: debug/error-handling.md
+            href: /windows/win32/debug/error-handling
         - name: "Network Diagnostics Framework"
-          href: ndf/portal.md
+          href: /windows/win32/ndf/portal
         - name: "Network Monitor"
-          href: netmon2/network-monitor.md
+          href: /windows/win32/netmon2/network-monitor
         - name: "Performance Counters"
-          href: perfctrs/performance-counters-portal.md
+          href: /windows/win32/perfctrs/performance-counters-portal
         # - name: "Process Snapshotting"
-        #   href: proc_snap/process-snapshotting-portal.md
+        #   href: /windows/desktop/proc_snap/process-snapshotting-portal
         - name: "Process Status API"
-          href: psapi/process-status-helper.md
+          href: /windows/win32/psapi/process-status-helper
         - name: "System Event Notification Service"
           href: /windows/win32/sens/system-event-notification-service-portal
         - name: "System Monitor"
