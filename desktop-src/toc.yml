@@ -244,17 +244,17 @@
         - name: "Process Status API"
           href: psapi/process-status-helper.md
         - name: "System Event Notification Service"
-          href: sens/system-event-notification-service-portal.md
+          href: /windows/win32/sens/system-event-notification-service-portal
         - name: "System Monitor"
-          href: sysmon/system-monitor-portal.md
+          href: /windows/win32/sysmon/system-monitor-portal
         - name: "Tool Help Library"
-          href: toolhelp/tool-help-library.md
+          href: /windows/win32/toolhelp/tool-help-library
         - name: "Windows Error Reporting"
-          href: wer/windows-error-reporting.md
+          href: /windows/win32/wer/windows-error-reporting
         - name: "Windows Events"
           items: 
           - name: "Overview"
-            href: events/windows-events.md
+            href: /windows/win32/events/windows-events
           - name: "TraceLogging"
             href: /windows/win32/tracelogging/trace-logging-portal
           - name: "Event Tracing"
