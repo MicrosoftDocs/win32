@@ -256,7 +256,7 @@
           - name: "Overview"
             href: events/windows-events.md
           - name: "TraceLogging"
-            href: tracelogging/trace-logging-portal.md
+            href: /windows/win32/tracelogging/trace-logging-portal
           - name: "Event Tracing"
             href: /windows/win32/etw/event-tracing-portal
           - name: "Event Logging"
