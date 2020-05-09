@@ -270,77 +270,77 @@
       - name: "Graphics and Gaming"
         items: 
         - name: "Overview"
-          href: graphics-and-multimedia.md
+          href: /windows/win32/graphics-and-multimedia
         - name: "DirectX graphics and gaming"
           items: 
           - name: "Overview"
-            href: directx.md
+            href: /windows/win32/directx
           - name: "Getting started with DirectX graphics"
-            href: getting-started-with-directx-graphics.md
+            href: /windows/win32/getting-started-with-directx-graphics
           - name: "Programming DirectX with COM"
-            href: prog-dx-with-com.md
+            href: /windows/win32/prog-dx-with-com
           - name: "Direct2D"
-            href: direct2d/direct2d-portal.md
+            href: /windows/win32/direct2d/direct2d-portal
           - name: "Direct3D"
             items: 
             - name: "Overview"
-              href: direct3d.md
+              href: /windows/win32/direct3d
             - name: "Getting started with Direct3D"
-              href: getting-started-with-direct3d.md
+              href: /windows/win32/getting-started-with-direct3d
             - name: "Direct3D 12 Graphics"
-              href: direct3d12/direct3d-12-graphics.md
+              href: /windows/win32/direct3d12/direct3d-12-graphics
             - name: "Direct3D 11 Graphics"
-              href: direct3d11/atoc-dx-graphics-direct3d-11.md
+              href: /windows/win32/direct3d11/atoc-dx-graphics-direct3d-11
             - name: "DXGI"
-              href: direct3ddxgi/dx-graphics-dxgi.md
+              href: /windows/win32/direct3ddxgi/dx-graphics-dxgi
             - name: "HLSL"
-              href: direct3dhlsl/dx-graphics-hlsl.md
+              href: /windows/win32/direct3dhlsl/dx-graphics-hlsl
             - name: "DDS"
-              href: direct3ddds/dx-graphics-dds.md
+              href: /windows/win32/direct3ddds/dx-graphics-dds
           - name: "DXCore"
-            href: dxcore/dxcore.md
+            href: /windows/win32/dxcore/dxcore
           - name: "DirectWrite"
-            href: directwrite/direct-write-portal.md
+            href: /windows/win32/directwrite/direct-write-portal
           - name: "DirectXMath"
-            href: dxmath/directxmath-portal.md
+            href: /windows/win32/dxmath/directxmath-portal
           - name: "windowsnumerics.h APIs"
-            href: numerics_h/windowsnumerics-h-apis-portal.md
+            href: /windows/win32/numerics_h/windowsnumerics-h-apis-portal
           - name: "Classic DirectX Graphics"
             items: 
             - name: "Overview"
-              href: classic-directx-graphics.md
+              href: /windows/win32/directx
             - name: "Direct3D 10 Graphics"
-              href: direct3d10/d3d10-graphics.md
+              href: /windows/win32/direct3d10/d3d10-graphics
             - name: "Direct3D 9 Graphics"
-              href: direct3d9/dx9-graphics.md
+              href: /windows/win32/direct3d9/dx9-graphics-reference
             - name: "DirectDraw"
-              href: directdraw/directdraw.md
+              href: /windows/win32/directdraw/directdraw
             - name: "Technical Articles"
-              href: dxtecharts/dx9-technical-articles.md
+              href: /windows/win32/dxtecharts/dx9-technical-articles
             - name: "Where is the DirectX SDK?"
-              href: directx-sdk--august-2009-.md
+              href: /windows/win32/directx-sdk--august-2009-
           - name: "Tools for DirectX Graphics"
             href: https://docs.microsoft.com/windows/desktop/direct3dtools/dx-graphics-tools
           - name: "DirectX Graphics Articles"
-            href: direct3darticles/directx-graphics-articles-portal.md
+            href: /windows/win32/direct3darticles/directx-graphics-articles-portal
           - name: "XAudio2 APIs"
-            href: xaudio2/xaudio2-apis-portal.md
+            href: /windows/win32/xaudio2/xaudio2-apis-portal
           - name: "XInput Game Controller APIs"
-            href: xinput/xinput-game-controller-apis-portal.md
+            href: /windows/win32/xinput/xinput-game-controller-apis-portal
         - name: "DirectComposition"
-          href: directcomp/directcomposition-portal.md
+          href: /windows/win32/directcomp/directcomposition-portal
         - name: "GDI+"
-          href: gdiplus/-gdiplus-gdi-start.md
+          href: /windows/win32/gdiplus/-gdiplus-gdi-start
         - name: "Windows GDI"
-          href: gdi/windows-gdi.md
+          href: /windows/win32/gdi/windows-gdi
         - name: "Monitor Configuration"
-          href: monitor/monitor-configuration.md
+          href: /windows/win32/monitor/monitor-configuration
         - name: "OpenGL"
-          href: opengl/opengl.md
+          href: /windows/win32/opengl/opengl
         - name: "Windows Imaging Component"
-          href: wic/-wic-lh.md
+          href: /windows/win32/wic/-wic-lh
         - name: "Windows Mixed Reality"
-          href: mixedreality/mixed-reality-portal.md
+          href: /windows/win32/mixedreality/mixed-reality-portal
       - name: "Networking and Internet"
         items: 
         - name: "Overview"
