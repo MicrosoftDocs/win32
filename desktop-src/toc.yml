@@ -258,15 +258,15 @@
           - name: "TraceLogging"
             href: tracelogging/trace-logging-portal.md
           - name: "Event Tracing"
-            href: etw/event-tracing-portal.md
+            href: /windows/win32/etw/event-tracing-portal
           - name: "Event Logging"
-            href: eventlog/event-logging.md
+            href: /windows/win32/eventlog/event-logging
           - name: "Windows Event Log"
-            href: wes/windows-event-log.md
+            href: /windows/win32/wes/windows-event-log
           - name: "Windows Event Collector"
-            href: wec/windows-event-collector.md
+            href: /windows/win32/wec/windows-event-collector
       - name: "Documents and Printing"
-        href: printdocs/documents-and-printing.md
+        href: /windows/win32/printdocs/documents-and-printing
       - name: "Graphics and Gaming"
         items: 
         - name: "Overview"
