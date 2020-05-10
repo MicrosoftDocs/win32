@@ -194,15 +194,15 @@
         - name: "Virtual Disk Service"
           href: https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal
         - name: "Volume Shadow Copy Service"
-          href: vss/volume-shadow-copy-service-portal.md
+          href: /windows/win32/vss/volume-shadow-copy-service-portal
       - name: "Devices"
         items: 
         - name: "Overview"
-          href: devices.md
+          href: /windows/win32/devices
         - name: "Communications Resources"
-          href: devio/communications-resources.md
+          href: /windows/win32/devio/communications-resources
         - name: "Device access"
-          href: deviceaccess/device-access-broker-api-portal.md
+          href: /windows/win32/deviceaccess/device-access-broker-api-portal
         - name: "Location API"
           href: /windows/win32/locationapi/windows-location-api-portal
         - name: "Sensor API"
