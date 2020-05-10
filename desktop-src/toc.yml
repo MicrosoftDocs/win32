@@ -160,35 +160,35 @@
         - name: "Windows Media Format 11 SDK"
           href: wmformat/windows-media-format-11-sdk.md
         - name: "Windows Media Player SDK"
-          href: wmp/windows-media-player-sdk.md
+          href: /windows/win32/wmp/windows-media-player-sdk
         - name: "Media Streaming API"
-          href: mediastreaming/media-streaming-api-portal.md
+          href: /windows/win32/mediastreaming/media-streaming-api-portal
         - name: "Windows Multimedia"
-          href: multimedia/windows-multimedia-start-page.md
+          href: /windows/win32/multimedia/windows-multimedia-start-page
       - name: "Data Access and Storage"
         items: 
         - name: "Overview"
-          href: data-access-and-storage.md
+          href: /windows/win32/data-access-and-storage
         - name: "Background Intelligent Transfer Service"
-          href: bits/background-intelligent-transfer-service-portal.md
+          href: /windows/win32/bits/background-intelligent-transfer-service-portal
         - name: "Backup"
-          href: backup/backup.md
+          href: /windows/win32/backup/backup
         - name: "Cloud Sync Engines"
-          href: cfapi/cloud-files-api-portal.md
+          href: /windows/win32/cfapi/cloud-files-api-portal
         - name: "Distributed File System"
-          href: dfs/distributed-file-system.md
+          href: /windows/win32/api/_dfs/
         - name: "Extensible Storage Engine"
-          href: extensiblestorageengine/gg269259(v=exchg.10).md
+          href: /windows/win32/extensible-storage-engine/extensible-storage-engine
         - name: "Image Mastering API"
-          href: imapi/portal.md
+          href: /windows/win32/imapi/portal
         - name: "Imaging API"
           href: https://msdn.microsoft.com/library/windows/desktop/dd851933.aspx
         - name: "Local File Systems"
-          href: fileio/file-systems.md
+          href: /windows/win32/fileio/file-systems
         - name: "Projected File System"
-          href: projfs/projected-file-system.md
+          href: /windows/win32/projfs/projected-file-system
         - name: "Persistent Memory Programming"
-          href: persistent-memory-programming-in-windows---nvml-integration.md
+          href: /windows/win32/persistent-memory-programming-in-windows---nvml-integration
         - name: "Virtual Storage"
           href: https://docs.microsoft.com/windows/desktop/VStor/virtual-storage
         - name: "Virtual Disk Service"
