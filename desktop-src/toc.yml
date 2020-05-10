@@ -128,37 +128,37 @@
         - name: "Windows Property System"
           href: properties/windows-properties-system.md
         - name: "Windows Search"
-          href: search/windows-search.md
+          href: /windows/win32/search/windows-search
         - name: "Window Stations and Desktops"
-          href: winstation/window-stations-and-desktops.md
+          href: /windows/win32/winstation/window-stations-and-desktops
         - name: "Legacy Windows Environment Features"
-          href: lwef/legacy-windows-environment.md
+          href: /windows/win32/api/_lwef/
       - name: "Application Installation and Servicing"
         items: 
         - name: "Overview"
-          href: application-installing-and-servicing.md
+          href: /windows/win32/application-installing-and-servicing
         - name: "Isolated Applications and Side-by-side Assemblies"
-          href: sbscs/isolated-applications-and-side-by-side-assemblies-portal.md
+          href: /windows/win32/sbscs/isolated-applications-and-side-by-side-assemblies-portal
         - name: "Packaging, deployment, and query of UWP apps"
-          href: appxpkg/appx-portal.md
+          href: /windows/win32/appxpkg/appx-portal
         - name: "Developer licensing"
-          href: devlic/developer-licensing-portal.md
+          href: /windows/win32/devlic/developer-licensing-portal
         - name: "Restart Manager"
-          href: rstmgr/restart-manager-portal.md
+          href: /windows/win32/rstmgr/restart-manager-portal
         - name: "Windows Installer"
-          href: msi/windows-installer-portal.md
+          href: /windows/win32/msi/windows-installer-portal
       - name: "Audio and Video"
         items: 
         - name: "Overview"
-          href: audio-and-video.md
+          href: /windows/win32/audio-and-video
         - name: "Core Audio APIs"
-          href: coreaudio/core-audio-apis-in-windows-vista.md
+          href: /windows/win32/coreaudio/core-audio-apis-in-windows-vista
         - name: "DirectShow"
-          href: directshow/directshow.md
+          href: /windows/win32/directshow/directshow
         - name: "Microsoft Media Foundation"
-          href: medfound/microsoft-media-foundation-sdk.md
+          href: /windows/win32/medfound/microsoft-media-foundation-sdk
         - name: "Windows Media Format 11 SDK"
-          href: wmformat/windows-media-format-11-sdk.md
+          href: /windows/win32/wmformat/windows-media-format-11-sdk
         - name: "Windows Media Player SDK"
           href: /windows/win32/wmp/windows-media-player-sdk
         - name: "Media Streaming API"
