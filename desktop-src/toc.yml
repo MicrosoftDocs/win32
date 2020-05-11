@@ -96,33 +96,33 @@
             - name: "Touch Input"
               href: wintouch/windows-touch-portal.md
             - name: "Keyboard and Mouse Input"
-              href: inputdev/user-input.md
+              href: /windows/win32/inputdev/user-input
             - name: "MultiPoint Mouse"
               href: https://msdn.microsoft.com/library/windows/desktop/ff877472.aspx
             - name: "Tablet PC"
-              href: tablet/tablet-pc-development-guide.md
+              href: /windows/win32/tablet/tablet-pc-development-guide
         - name: "Windows and Messages"
-          href: winmsg/windowing.md
+          href: /windows/win32/winmsg/windowing
         - name: "Desktop Window Manager"
-          href: dwm/dwm-overview.md
+          href: /windows/win32/dwm/dwm-overview
         - name: "Dialog Boxes"
-          href: dlgbox/dialog-boxes.md
+          href: /windows/win32/dlgbox/dialog-boxes
         - name: "Menus and Other Resources"
-          href: menurc/resources.md
+          href: /windows/win32/menurc/resources
         - name: "Data Exchange"
-          href: dataxchg/data-exchange.md
+          href: /windows/win32/dataxchg/data-exchange
         - name: "High DPI"
-          href: hidpi/high-dpi-desktop-application-development-on-windows.md
+          href: /windows/win32/hidpi/high-dpi-desktop-application-development-on-windows
         - name: "Windows Animation Manager"
-          href: uianimation/-main-portal.md
+          href: /windows/win32/uianimation/-main-portal
         - name: "Windows Controls"
-          href: controls/window-controls.md
+          href: /windows/win32/controls/window-controls
         - name: "Windows Ribbon Framework"
-          href: windowsribbon/-uiplat-windowsribbon-entry.md
+          href: /windows/win32/windowsribbon/-uiplat-windowsribbon-entry
       - name: "Desktop Environment"
         items: 
         - name: "Overview"
-          href: user-interface.md
+          href: /windows/win32/user-interface
         - name: "The Windows Shell"
           href: /windows/win32/shell/shell-entry
         - name: "Windows Property System"
