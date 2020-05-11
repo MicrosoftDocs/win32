@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 10/07/2019
 ---
 
-## Options
+# Options
 
 | Option | get | set | Optval type | Description |
 |-|-|-|-|-|

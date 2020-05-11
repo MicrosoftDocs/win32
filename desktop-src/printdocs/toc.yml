@@ -2036,7 +2036,7 @@
           - name: "PSINJECTDATA"
             href: /windows/win32/api/Wingdi/ns-wingdi-psinjectdata
         - name: "GDI Printer Escape Functions"
-          href: printer-escape-functions.md
+          href: printer-escapes.md
           items: 
           - name: "CHECKJPEGFORMAT Printer Escape"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd183421(v=vs.85)
