@@ -124,9 +124,9 @@
         - name: "Overview"
           href: user-interface.md
         - name: "The Windows Shell"
-          href: shell/shell-entry.md
+          href: /windows/win32/shell/shell-entry
         - name: "Windows Property System"
-          href: properties/windows-properties-system.md
+          href: /windows/win32/properties/windows-properties-system
         - name: "Windows Search"
           href: /windows/win32/search/windows-search
         - name: "Window Stations and Desktops"
