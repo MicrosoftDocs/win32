@@ -376,7 +376,7 @@
       - name: "BCRYPT_KEY_DATA_BLOB_HEADER"
         href: /windows/win32/api/Bcrypt/ns-bcrypt-bcrypt_key_data_blob_header
       - name: "BCRYPT_KEY_LENGTHS_STRUCT"
-        href: /windows/desktop/api/Bcrypt/ns-bcrypt-__bcrypt_key_lengths_struct
+        href: /windows/win32/api/bcrypt/ns-bcrypt-bcrypt_key_lengths_struct
       - name: "BCRYPT_MULTI_HASH_OPERATION"
         href: /windows/win32/api/Bcrypt/ns-bcrypt-bcrypt_multi_hash_operation
       - name: "BCRYPT_MULTI_OBJECT_LENGTH_STRUCT"
@@ -428,9 +428,9 @@
       - name: "NCRYPT_PROTECT_STREAM_INFO"
         href: /windows/desktop/api/NCryptprotect/ns-ncryptprotect-ncrypt_protect_stream_info
       - name: "NCRYPT_SUPPORTED_LENGTHS"
-        href: /windows/desktop/api/Ncrypt/ns-ncrypt-__ncrypt_supported_lengths
+        href: /windows/win32/api/ncrypt/ns-ncrypt-ncrypt_supported_lengths
       - name: "NCRYPT_UI_POLICY"
-        href: /windows/desktop/api/Ncrypt/ns-ncrypt-__ncrypt_ui_policy
+        href: /windows/win32/api/ncrypt/ns-ncrypt-ncrypt_ui_policy
       - name: "NCRYPT_UI_POLICY_BLOB"
         href: ncrypt-ui-policy-blob.md
       - name: "NCryptAlgorithmName"

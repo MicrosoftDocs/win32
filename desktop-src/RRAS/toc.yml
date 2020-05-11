@@ -189,7 +189,7 @@
           - name: "RasGetNapStatus"
             href: /windows/desktop/api/Ras/nf-ras-rasgetnapstatus
           - name: "RasGetProjectionInfo"
-            href: /windows/desktop/api/Ras/nf-ras-rasgetprojectioninfoa
+            href: https://docs.microsoft.com/en-us/previous-versions/aa918872(v%3dmsdn.10)
           - name: "RasGetProjectionInfoEx"
             href: /windows/desktop/api/Ras/nf-ras-rasgetprojectioninfoex
           - name: "RasGetQuarantineConnectionId"
@@ -308,7 +308,7 @@
           - name: "RASMONITORDLG"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377591(v=vs.85)
           - name: "RASNAPSTATE"
-            href: /windows/desktop/api/Ras/ns-ras-_tagrasnapstate
+            href: /windows/win32/api/ras/ns-ras-rasnapstate
           - name: "RASNOUSER"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377598(v=vs.85)
           - name: "RASPBDLG"
@@ -1210,7 +1210,7 @@
           - name: "MPR_ROUTING_CHARACTERISTICS"
             href: /windows/win32/api/Routprot/ns-routprot-mpr50_routing_characteristics
           - name: "MPR_SERVICE_CHARACTERISTICS"
-            href: https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_mpr40_service_characteristics
+            href: /windows/win32/api/stm/ns-stm-mpr40_service_characteristics
           - name: "UPDATE_COMPLETE_MESSAGE"
             href: /windows/win32/api/Routprot/ns-routprot-update_complete_message
           - name: "Support Functions Reference"
@@ -1219,23 +1219,23 @@
             - name: "SUPPORT_FUNCTIONS"
               href: /windows/win32/api/Routprot/ns-routprot-support_functions_50
             - name: "DemandDialRequest"
-              href: demanddialrequest.md
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa373924(v=vs.85)
             - name: "MIBEntryCreate"
-              href: mibentrycreate.md
+              href: https://docs.microsoft.com//previous-versions/windows/desktop/legacy/aa374538(v=vs.85)
             - name: "MIBEntryDelete"
-              href: mibentrydelete.md
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374539(v=vs.85)
             - name: "MIBEntryGet"
-              href: mibentryget.md
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374540(v=vs.85)
             - name: "MIBEntryGetFirst"
-              href: mibentrygetfirst.md
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374541(v=vs.85)
             - name: "MIBEntryGetNext"
-              href: mibentrygetnext.md
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374542(v=vs.85)
             - name: "MIBEntrySet"
-              href: mibentryset.md
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374543(v=vs.85)
             - name: "SetInterfaceReceiveType"
-              href: setinterfacereceivetype.md
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa382181(v=vs.85)
             - name: "ValidateRoute"
-              href: validateroute.md
+              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa382342(v=vs.85)
         - name: "IPX Service Table Management"
           href: ipx-service-table-management.md
           items: 

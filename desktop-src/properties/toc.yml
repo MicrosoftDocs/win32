@@ -2978,7 +2978,7 @@
       href: structures.md
       items: 
       - name: "PROPERTYKEY"
-        href: /windows/desktop/api/Wtypes/ns-wtypes-_tagpropertykey
+        href: /windows/win32/api/wtypes/ns-wtypes-propertykey
       - name: "PROPPRG"
         href: /windows/desktop/api/Shlobj_core/ns-shlobj_core-propprg
     - name: "Constants, Enumerations, and Flags"
