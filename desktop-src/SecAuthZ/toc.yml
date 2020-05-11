@@ -351,7 +351,7 @@
       href: authorization-enumerations.md
       items: 
       - name: "ACCESS_MODE"
-        href: https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_access_mode
+        href: /windows/win32/api/accctrl/ne-accctrl-access_mode
       - name: "ACL_INFORMATION_CLASS"
         href: /windows/win32/api/Winnt/ne-winnt-acl_information_class
       - name: "AUDIT_EVENT_TYPE"
@@ -371,7 +371,7 @@
       - name: "MULTIPLE_TRUSTEE_OPERATION"
         href: /windows/win32/api/AccCtrl/ne-accctrl-multiple_trustee_operation
       - name: "PROG_INVOKE_SETTING"
-        href: /windows/desktop/api/AccCtrl/ne-accctrl-_progress_invoke_setting
+        href: /windows/win32/api/accctrl/ne-accctrl-prog_invoke_setting
       - name: "SE_OBJECT_TYPE"
         href: /windows/win32/api/AccCtrl/ne-accctrl-se_object_type
       - name: "SECURITY_IMPERSONATION_LEVEL"

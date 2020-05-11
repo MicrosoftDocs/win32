@@ -168,7 +168,7 @@
         - name: "ASSEMBLY_INFO"
           href: /windows/win32/api/Winsxs/ns-winsxs-assembly_info
         - name: "FUSION_INSTALL_REFERENCE"
-          href: /windows/desktop/api/Winsxs/ns-winsxs-_fusion_install_reference_
+          href: /windows/win32/api/winsxs/ns-winsxs-fusion_install_reference
     - name: "Manifest Files Reference"
       href: manifest-files-reference.md
       items: 

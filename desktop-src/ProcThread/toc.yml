@@ -237,7 +237,7 @@
       - name: "JOB_OBJECT_NET_RATE_CONTROL_FLAGS"
         href: /windows/desktop/api/Winnt/ne-winnt-job_object_net_rate_control_flags
       - name: "PROCESS_MEMORY_EXHAUSTION_TYPE"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ne-processthreadsapi-_process_memory_exhaustion_type
+        href: /windows/win32/api/processthreadsapi/ne-processthreadsapi-process_memory_exhaustion_type
       - name: "PROCESS_MITIGATION_POLICY"
         href: /windows/win32/api/WinNT/ne-winnt-process_mitigation_policy
       - name: "PROCESSOR_CACHE_TYPE"
@@ -484,7 +484,7 @@
       - name: "GetProcessorSystemCycleTime"
         href: https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getprocessorsystemcycletime
       - name: "GetStartupInfo"
-        href: /windows/desktop/api/WinBase/nf-winbase-getstartupinfoa
+        href: /windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow
       - name: "GetSystemCpuSetInformation"
         href: getsystemcpusetinformation.md
       - name: "GetThreadDescription"
@@ -766,7 +766,7 @@
       - name: "PROCESS_POWER_THROTTLING_STATE"
         href: /windows/win32/api/processthreadsapi/ns-processthreadsapi-process_power_throttling_state
       - name: "APP_MEMORY_INFORMATION"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_app_memory_information
+        href: /windows/win32/api/processthreadsapi/ns-processthreadsapi-app_memory_information
       - name: "AR_STATE"
         href: /windows/win32/api/WinUser/ne-winuser-ar_state
       - name: "CACHE_DESCRIPTOR"
@@ -812,7 +812,7 @@
       - name: "JOBOBJECT_SECURITY_LIMIT_INFORMATION"
         href: /windows/win32/api/WinNT/ns-winnt-jobobject_security_limit_information
       - name: "MEMORY_PRIORITY_INFORMATION"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_memory_priority_information
+        href: /windows/win32/api/processthreadsapi/ns-processthreadsapi-memory_priority_information
       - name: "NUMA_NODE_RELATIONSHIP"
         href: /windows/win32/api/WinNT/ns-winnt-numa_node_relationship
       - name: "ORIENTATION_PREFERENCE"
@@ -822,9 +822,9 @@
       - name: "PEB_LDR_DATA"
         href: /windows/win32/api/Winternl/ns-winternl-peb_ldr_data
       - name: "PROCESS_INFORMATION"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_information
+        href: /windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information
       - name: "PROCESS_MEMORY_EXHAUSTION_INFO"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_memory_exhaustion_info
+        href: /windows/win32/api/processthreadsapi/ns-processthreadsapi-process_memory_exhaustion_info
       - name: "PROCESS_MITIGATION_ASLR_POLICY"
         href: /windows/win32/api/WinNT/ns-winnt-process_mitigation_aslr_policy
       - name: "PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY"
@@ -854,7 +854,7 @@
       - name: "RTL_USER_PROCESS_PARAMETERS"
         href: /windows/win32/api/Winternl/ns-winternl-rtl_user_process_parameters
       - name: "STARTUPINFO"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa
+        href: /windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa
       - name: "STARTUPINFOEX"
         href: /windows/win32/api/WinBase/ns-winbase-startupinfoexa
       - name: "SYSTEM_CPU_SET_INFORMATION"
