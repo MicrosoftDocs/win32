@@ -372,21 +372,21 @@
       - name: "SAFER_URLZONE_IDENTIFICATION"
         href: /windows/win32/api/WinSafer/ns-winsafer-safer_urlzone_identification
       - name: "SCESVC_ANALYSIS_INFO"
-        href: /windows/desktop/api/Scesvc/ns-scesvc-_scesvc_analysis_info_
+        href: /windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_info
       - name: "SCESVC_ANALYSIS_LINE"
-        href: /windows/desktop/api/Scesvc/ns-scesvc-_scesvc_analysis_line_
+        href: /windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_line
       - name: "SCESVC_CALLBACK_INFO"
-        href: /windows/desktop/api/Scesvc/ns-scesvc-_scesvc_callback_info_
+        href: /windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info
       - name: "SCESVC_CONFIGURATION_INFO"
-        href: /windows/desktop/api/Scesvc/ns-scesvc-_scesvc_configuration_info_
+        href: /windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info
       - name: "SCESVC_CONFIGURATION_LINE"
-        href: /windows/desktop/api/Scesvc/ns-scesvc-_scesvc_configuration_line_
+        href: /windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_line_
       - name: "TRUSTED_DOMAIN_AUTH_INFORMATION"
         href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_domain_auth_information
       - name: "TRUSTED_DOMAIN_FULL_INFORMATION"
         href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_domain_full_information
       - name: "TRUSTED_DOMAIN_INFORMATION_BASIC"
-        href: trusted-domain-information-basic.md
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms722475(v%3dvs.85)
       - name: "TRUSTED_DOMAIN_INFORMATION_EX"
         href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_domain_information_ex
       - name: "TRUSTED_DOMAIN_NAME_INFO"
