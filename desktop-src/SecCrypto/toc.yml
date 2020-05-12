@@ -4011,7 +4011,7 @@
       - name: "CRYPT_HASH_MESSAGE_PARA"
         href: /windows/win32/api/Wincrypt/ns-wincrypt-crypt_hash_message_para
       - name: "CRYPT_INTEGER_BLOB"
-        href: crypt-integer-blob.md
+        href: /windows/win32/api/wincrypt/ns-wincrypt-crypt_integer_blob
       - name: "CRYPT_KEY_LIMITS"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381417(v=vs.85)
       - name: "CRYPT_KEY_PROV_INFO"
