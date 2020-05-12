@@ -282,7 +282,7 @@ This topic lists the available geographical locations with identifiers (data typ
 | 0x851                                  | 2129                                       | Asia                                         |                                                       |
 | 0x292d                                 | 10541                                      | Europe                                       |                                                       |
 | 0x3b16                                 | 15126                                      | Isle of Man                                  | Isle of Man                                           |
-| 0x4ca2                                 | 19618                                      | Macedonia, FYRO                              | The Former Yugoslav Republic of Macedonia             |
+| 0x4ca2                                 | 19618                                      | North Macedonia                              | The Former Yugoslav Republic of Macedonia             |
 | 0x51a4                                 | 20900                                      | Melanesia                                    |                                                       |
 | 0x52d6                                 | 21206                                      | Micronesia                                   | Federated States of Micronesia                        |
 | 0x52fa                                 | 21242                                      | Midway Islands                               |                                                       |
@@ -326,6 +326,3 @@ This topic lists the available geographical locations with identifiers (data typ
  
 
  
-
-
-
