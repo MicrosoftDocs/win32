@@ -62,8 +62,6 @@ Contains user credential information used for server and proxy authentication.
 > [!Note]
 > This structure has been deprecated. Instead, the use of the [**WINHTTP_CREDS_EX**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) structure is recommended.
 
- 
-
 </dd> <dt>
 
 [**WINHTTP_CREDS_EX**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex)
@@ -115,6 +113,13 @@ Contains timing information for a request.
 
 </dd> <dt>
 
+[**WINHTTP_SECURITY_INFO**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_security_info)
+</dt> <dd>
+
+Contains SChannel connection and cipher information for a request.
+
+</dd> <dt>
+
 [**WINHTTP_WEB_SOCKET_ASYNC_RESULT**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_web_socket_async_result)
 </dt> <dd>
 
@@ -128,10 +133,3 @@ Result status of a WebSocket operation.
 Status of a WebSocket operation.
 
 </dd> </dl>
-
- 
-
- 
-
-
-

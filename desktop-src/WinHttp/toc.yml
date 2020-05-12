@@ -273,6 +273,8 @@
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_request_stats
         - name: "WINHTTP_REQUEST_TIMES"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_request_times
+        - name: "WINHTTP_SECURITY_INFO"
+          href: /windows/win32/api/winhttp/ns-winhttp-winhttp_security_info
         - name: "WINHTTP_WEB_SOCKET_ASYNC_RESULT"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_web_socket_async_result
         - name: "WINHTTP_WEB_SOCKET_STATUS"
