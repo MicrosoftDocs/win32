@@ -6,7 +6,15 @@ ms.topic: article
 ms.date: 10/07/2019
 ---
 
-# Options
+# IPPROTO\_IPV6 socket options
+
+The following tables describe **IPPROTO\_IPV6** socket options that apply to sockets created for the IPv6 address family (AF\_INET6). See the [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) and [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) function reference pages for more information on getting and setting socket options.
+
+To enumerate protocols and discover supported properties for each installed protocol, use the [**WSAEnumProtocols**](/windows/desktop/api/Winsock2/nf-winsock2-wsaenumprotocolsa), [**WSCEnumProtocols**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscenumprotocols), or [**WSCEnumProtocols32**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscenumprotocols32) function.
+
+Some socket options require more explanation than these tables can convey; such options contain links to additional information.
+
+## Options
 
 | Option | get | set | Optval type | Description |
 |-|-|-|-|-|

@@ -14,7 +14,7 @@ Since unopened items have no local presence, normal directory enumeration would 
 
 ## Directory Enumeration Callbacks
 
-To participate in directory enumeration the provider must implement the **[PRJ_START_DIRECTORY_ENUMERATION_CB](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_start_directory_enumeration_cb)**, **[PRJ_GET_DIRECTORY_ENUMERATION_CB](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb)**, and **[PRJ_END_DIRECTORY_ENUMERATION_CB](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_end_directory_enumeration_cb)** callbacks.  When a directory under the provider's virtualization root gets enumerated, ProjFS performs the following actions:
+To participate in directory enumeration the provider must implement the **[PRJ_START_DIRECTORY_ENUMERATION_CB](/windows/win32/api/projectedfslib/nc-projectedfslib-prj_start_directory_enumeration_cb)**, **[PRJ_GET_DIRECTORY_ENUMERATION_CB](/windows/win32/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb)**, and **[PRJ_END_DIRECTORY_ENUMERATION_CB](/windows/win32/api/projectedfslib/nc-projectedfslib-prj_end_directory_enumeration_cb)** callbacks.  When a directory under the provider's virtualization root gets enumerated, ProjFS performs the following actions:
 
 1. ProjFS calls the provider's **PRJ_START_DIRECTORY_ENUMERATION_CB** callback to start an enumeration session.
 
@@ -30,11 +30,11 @@ To participate in directory enumeration the provider must implement the **[PRJ_S
 
     In response to this callback the provider returns a sorted list of items from its backing data store.
 
-    The callback may provide a search expression in its _searchExpression_ parameter that the provider uses to scope the results of the enumeration.  If _searchExpression_ is NULL, the provider returns all the entries in the directory being enumerated.  If it is non-NULL, the provider can use **[PrjDoesNameContainWildCards](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjdoesnamecontainwildcards)** to determine whether there are wildcards in the expression.  If there are, the provider uses **[PrjFileNameMatch](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfilenamematch)** to determine whether an entry in the directory matches the search expression.
+    The callback may provide a search expression in its _searchExpression_ parameter that the provider uses to scope the results of the enumeration.  If _searchExpression_ is NULL, the provider returns all the entries in the directory being enumerated.  If it is non-NULL, the provider can use **[PrjDoesNameContainWildCards](/windows/win32/api/projectedfslib/nf-projectedfslib-prjdoesnamecontainwildcards)** to determine whether there are wildcards in the expression.  If there are, the provider uses **[PrjFileNameMatch](/windows/win32/api/projectedfslib/nf-projectedfslib-prjfilenamematch)** to determine whether an entry in the directory matches the search expression.
 
     The provider should capture the value of _searchExpression_ on the first invocation of this callback.  It uses the captured value on any subsequent invocation of the callback in the same enumeration session, unless PRJ_CB_DATA_FLAG_ENUM_RESTART_SCAN is set in the **Flags** field of the callback's _callbackData_ parameter.  In that case it should recapture the value of _searchExpression_.
 
-    If there are no matching entries in its backing store, the provider simply returns S_OK from the callback.  Otherwise the provider formats each matching entry from its backing store into a **[PRJ_FILE_BASIC_INFO](https://docs.microsoft.com/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_file_basic_info)** structure, and then uses **[PrjFillDirEntryBuffer](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer)** to fill the buffer provided by the callback's _dirEntryBufferHandle_ parameter.  The provider keeps adding entries until it has added them all or until **PrjFillDirEntryBuffer** returns HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER).  Then the provider returns S_OK from the callback.  Note that the provider must add the entries to the _dirEntryBufferHandle_ buffer in the correct sort order.  The provider should use **[PrjFileNameCompare](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfilenamecompare)** to determine the correct sort order.
+    If there are no matching entries in its backing store, the provider simply returns S_OK from the callback.  Otherwise the provider formats each matching entry from its backing store into a **[PRJ_FILE_BASIC_INFO](/windows/win32/api/projectedfslib/ns-projectedfslib-prj_file_basic_info)** structure, and then uses **[PrjFillDirEntryBuffer](/windows/win32/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer)** to fill the buffer provided by the callback's _dirEntryBufferHandle_ parameter.  The provider keeps adding entries until it has added them all or until **PrjFillDirEntryBuffer** returns HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER).  Then the provider returns S_OK from the callback.  Note that the provider must add the entries to the _dirEntryBufferHandle_ buffer in the correct sort order.  The provider should use **[PrjFileNameCompare](/windows/win32/api/projectedfslib/nf-projectedfslib-prjfilenamecompare)** to determine the correct sort order.
 
     > The provider must supply a value for the **IsDirectory** member of **PRJ_FILE_BASIC_INFO**.  If **IsDirectory** is FALSE, the provider must also supply a value for the **FileSize** member.
     >
@@ -44,6 +44,10 @@ To participate in directory enumeration the provider must implement the **[PRJ_S
 
     If **PrjFillDirEntryBuffer** returns HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) before the provider runs out of entries to add to it, the provider must keep track of the entry it was trying to add when it received the error.  The next time ProjFS calls the **PRJ_GET_DIRECTORY_ENUMERATION_CB** callback for the same enumeration session, the provider must resume adding entries to the _dirEntryBufferHandle_ buffer with the entry it was trying to add.
 
+    > If the backing store supports symbolic links, the provider must use **[PrjFillDirEntryBuffer2](/windows/win32/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer2)** to fill the buffer provided by the callback's _dirEntryBufferHandle_ parameter.  **PrjFillDirEntryBuffer2** supports an extra buffer input that allows the provider to specify that the enumeration entry is a symbolic link and what its target is.  It otherwise behaves as described above for **PrjFillDirEntryBuffer**.  The following sample uses **PrjFillDirEntryBuffer2** to illustrate support for symbolic links.
+    >
+    > Note that **PrjFillDirEntryBuffer2** is supported as of Windows 10, version 2004.  A provider should probe for the existence of **PrjFillDirEntryBuffer2**, for instance by using **[GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress)**.
+
     ```C++
     typedef struct MY_ENUM_ENTRY MY_ENUM_ENTRY;
 
@@ -52,6 +56,8 @@ To participate in directory enumeration the provider must implement the **[PRJ_S
         PWSTR Name;
         BOOLEAN IsDirectory;
         INT64 FileSize;
+        BOOLEAN IsSymlink;
+        PWSTR SymlinkTarget;
     } MY_ENUM_ENTRY;
 
     typedef struct MY_ENUM_SESSION {
@@ -165,10 +171,23 @@ To participate in directory enumeration the provider must implement the **[PRJ_S
                     fileBasicInfo.IsDirectory = thisEntry->IsDirectory;
                     fileBasicInfo.FileSize = thisEntry->FileSize;
 
+                    // If our backing store says this is really a symbolic link,
+                    // set up to tell ProjFS that it is a symlink and what its
+                    // target is.
+                    PRJ_EXTENDED_INFO extraInfo = {};
+                    if (thisEntry->IsSymlink)
+                    {
+                        extraInfo.InfoType = PRJ_EXT_INFO_SYMLINK;
+                        extraInfo.Symlink.TargetName = thisEntry->SymlinkTarget;
+                    }
+
                     // Format the entry for return to ProjFS.
-                    if (S_OK != PrjFillDirEntryBuffer(thisEntry->Name,
-                                                      &fileBasicInfo,
-                                                      dirEntryBufferHandle))
+                    HRESULT fillResult = PrjFillDirEntryBuffer2(dirEntryBufferHandle,
+                                                                thisEntry->Name,
+                                                                &fileBasicInfo,
+                                                                thisEntry->IsSymlink ? &extraInfo : NULL);
+
+                    if (fillResult == HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER))
                     {
                         // We couldn't add this entry to the buffer; remember where we left
                         // off for the next time we're called for this enumeration session.

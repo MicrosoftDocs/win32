@@ -6,7 +6,15 @@ ms.topic: article
 ms.date: 10/02/2019
 ---
 
-# Options
+# IPPROTO\_IP socket options
+
+The following tables describe **IPPROTO\_IP** socket options that apply to sockets created for the IPv4 address family (AF\_INET). See the [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) and [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) function reference pages for more information on getting and setting socket options.
+
+To enumerate protocols and discover supported properties for each installed protocol, use the [**WSAEnumProtocols**](/windows/desktop/api/Winsock2/nf-winsock2-wsaenumprotocolsa), [**WSCEnumProtocols**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscenumprotocols), or [**WSCEnumProtocols32**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscenumprotocols32) function.
+
+Some socket options require more explanation than these tables can convey; such options contain links to additional pages.
+
+## Options
 
 | Option | Get | Set | Optval type | Description |
 |-|-|-|-|-|
@@ -90,3 +98,15 @@ ms.date: 10/02/2019
 | IP\_UNICAST\_IF | | |
 | IP\_WFP\_REDIRECT\_CONTEXT | | |
 | IP\_WFP\_REDIRECT\_RECORDS | | |
+
+## Remarks
+
+In the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and **IPPROTO\_IP** level is defined in the *Ws2def.h* header file which is automatically included in the *Winsock2.h* header file. Some of the **IPPROTO\_IP** socket options are defined in the *Ws2ipdef.h* header file which is automatically included by the *Ws2tcpip.h* header file. The remaining **IPPROTO\_IP** socket options are defined in the *Wsipv6ok.h* header file which is automatically included by the *Winsock2.h* header file. The *Ws2def.h*, *Ws2ipdef.h*, and *Wsipv6ok.h* header files should never be used directly.
+
+In the Platform SDK released for Windows Server 2003 and Windows XP, the **IPPROTO\_IP** level is defined in the *Winsock2.h* header file. Some of the **IPPROTO\_IP** socket options are defined in the *Ws2tcpip.h* header file. The remaining **IPPROTO\_IP** socket options are defined in the *Wsipv6ok.h* header file which is automatically included by the *Winsock2.h* header file. The *Wsipv6ok.h* header file should never be used directly.
+
+## Requirements
+
+| | |
+|-|-|
+| Header | <dl> <dt>Ws2def.h (include Winsock2.h); </dt> <dt>Ws2ipdef.h (include Ws2tcpip.h); </dt> <dt>Wsipv6ok.h (include Winsock2.h)</dt> </dl> |

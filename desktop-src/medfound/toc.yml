@@ -2866,6 +2866,8 @@
           href: mf-pd-total-file-size-attribute.md
         - name: "MF_PD_VIDEO_ENCODING_BITRATE"
           href: mf-pd-video-encoding-bitrate-attribute.md
+        - name: "MF_POLICY_ID"
+          href: mf-policy-id.md
         - name: "MF_READWRITE_D3D_OPTIONAL"
           href: mf-readwrite-d3d-optional.md
         - name: "MF_READWRITE_DISABLE_CONVERTERS"
@@ -3248,8 +3250,10 @@
           href: mft-input-types-attributes.md
         - name: "MFT_OUTPUT_TYPES_Attributes"
           href: mft-output-types-attributes.md
-        - name: "MFT_PREFERRED_ENCODER_PROFILE"
+        - name: "MFT_POLICY_SET_AWARE"
           href: mft-preferred-encoder-profile.md
+        - name: "MFT_PREFERRED_ENCODER_PROFILE"
+          href: mft-policy-set-aware.md
         - name: "MFT_PREFERRED_OUTPUTTYPE_Attribute"
           href: mft-preferred-outputtype-attribute.md
         - name: "MFT_PROCESS_LOCAL_Attribute"
@@ -3262,6 +3266,8 @@
           href: mft-support-dynamic-format-change-attribute.md
         - name: "MFT_TRANSFORM_CLSID_Attribute"
           href: mft-transform-clsid-attribute.md
+        - name: "MFT_USING_HARDWARE_DRM"
+          href: mft-using-hardware-drm.md
         - name: "VIDEO_ZOOM_RECT"
           href: video-zoom-rect-attribute.md
       - name: "ASF Attributes"
@@ -3329,6 +3335,8 @@
         href: work-queue-identifiers.md
       - name: "IMFTimedTextTrack Data Format GUIDs"
         href: imftexttrack-data-formats.md
+      - name: "Content Decryption Module (CDM) GUIDs"
+        href: content-decryption-module-guids.md
     - name: "Media Foundation Datatypes"
       href: media-foundation-datatypes.md
       items: 
@@ -3589,6 +3597,8 @@
         href: /windows/win32/api/mfidl/ne-mfidl-mfpolicymanager_action
       - name: "MFRATE_DIRECTION"
         href: /windows/win32/api/mfidl/ne-mfidl-mfrate_direction
+      - name: "MFSampleAllocatorUsage"
+        href: /windows/desktop/api/mfidl/ne-mfidl-mfsampleallocatorusage
       - name: "MFSampleEncryptionProtectionScheme"
         href: https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-mfsampleencryptionprotectionscheme
       - name: "MFSensorDeviceType"
@@ -3930,6 +3940,8 @@
         href: /windows/desktop/api/mfapi/nf-mfapi-mfcancelcreatefile
       - name: "MFCancelWorkItem"
         href: /windows/desktop/api/mfapi/nf-mfapi-mfcancelworkitem
+      - name: "MFCombineSample"
+        href: /windows/desktop/api/mfapi/nf-mfapi-mfcombinesample
       - name: "MFCheckContentProtectionDevice"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt219215(v=vs.85)
       - name: "MFCompareFullToPartialMediaType"
@@ -4014,6 +4026,8 @@
         href: /windows/desktop/api/mfapi/nf-mfapi-mfcreatedxgisurfacebuffer
       - name: "MFCreateDXSurfaceBuffer"
         href: /windows/desktop/api/mfapi/nf-mfapi-mfcreatedxsurfacebuffer
+      - name: "MFCreateEncryptedMediaExtensionsStoreActivate"
+        href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-mfcreateencryptedmediaextensionsstoreactivate
       - name: "MFCreateEventQueue"
         href: /windows/desktop/api/mfapi/nf-mfapi-mfcreateeventqueue
       - name: "MFCreateFile"
@@ -4342,6 +4356,8 @@
         href: /windows/desktop/api/mfapi/nf-mfapi-mfsetattributesize
       - name: "MFShutdown"
         href: /windows/desktop/api/mfapi/nf-mfapi-mfshutdown
+      - name: "MFSplitSample"
+        href: /windows/desktop/api/mfapi/nf-mfapi-mfsplitsample
       - name: "MFShutdownObject"
         href: /windows/desktop/api/mfidl/nf-mfidl-mfshutdownobject
       - name: "MFStartup"
@@ -5212,6 +5228,65 @@
           href: /windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-removeallelements
         - name: "RemoveElement"
           href: /windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-removeelement
+      - name: "IMFContentDecryptionModule"
+        href: /windows/desktop/api/mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodule
+        items:
+        - name: "IMFContentDecryptionModule::CreateSession"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-createsession
+        - name: "IMFContentDecryptionModule::CreateTrustedInput"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-createtrustedinput
+        - name: "IMFContentDecryptionModule::GetProtectionSystemIds"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-getprotectionsystemids
+        - name: "IMFContentDecryptionModule::GetSuspendNotify"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-getsuspendnotify
+        - name: "IMFContentDecryptionModule::SetContentEnabler"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-setcontentenabler
+        - name: "IMFContentDecryptionModule::SetPMPHostApp"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-setpmphostapp
+        - name: "IMFContentDecryptionModule::SetServerCertificate"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-setservercertificate
+      - name: "IMFContentDecryptionModuleAccess"
+        href: /windows/desktop/api/mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess
+        items:
+        - name: "IMFContentDecryptionModuleAccess::CreateContentDecryptionModule"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess-createcontentdecryptionmodule
+        - name: "IMFContentDecryptionModuleAccess::GetConfiguration"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess-getconfiguration
+        - name: "IMFContentDecryptionModuleAccess::GetKeySystem"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess-getkeysystem
+      - name: "IMFContentDecryptionModuleFactory"
+        href: /windows/desktop/api/mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulefactory
+        items:
+        - name: "IMFContentDecryptionModuleFactory::CreateContentDecryptionModuleAccess"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulefactory-createcontentdecryptionmoduleaccess
+        - name: "IMFContentDecryptionModuleFactory::IsTypeSupported"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulefactory-istypesupported 
+      - name: "IMFContentDecryptionModuleSession"
+        href: /windows/desktop/api/mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession
+        items:
+        - name: "IMFContentDecryptionModuleSession::Close"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-close
+        - name: "IMFContentDecryptionModuleSession::GenerateRequest"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-generaterequest
+        - name: "IMFContentDecryptionModuleSession::GetExpiration"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getexpiration
+        - name: "IMFContentDecryptionModuleSession::GetKeyStatuses"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses
+        - name: "IMFContentDecryptionModuleSession::GetSessionId"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getsessionid
+        - name: "IMFContentDecryptionModuleSession::Load"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-load
+        - name: "IMFContentDecryptionModuleSession::Remove"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-remove
+        - name: "IMFContentDecryptionModuleSession::Update"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-update
+      - name: "IMFContentDecryptionModuleSessionCallbacks"
+        href: /windows/desktop/api/mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks
+        items:
+        - name: "IMFContentDecryptionModuleSessionCallbacks::KeyMessage"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks-keymessage
+        - name: "IMFContentDecryptionModuleSessionCallbacks::KeyStatusChanged"
+          href: /windows/desktop/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks-keystatuschanged
       - name: "IMFContentDecryptorContext"
         href: /windows/desktop/api/mfidl/nn-mfidl-imfcontentdecryptorcontext
         items: 
@@ -6489,6 +6564,13 @@
           href: /windows/desktop/api/mfobjects/nf-mfobjects-imfsample-setsampleflags
         - name: "SetSampleTime"
           href: /windows/desktop/api/mfobjects/nf-mfobjects-imfsample-setsampletime
+      - name: "IMFSampleAllocatorControl"
+        href: /windows/desktop/api/mfidl/nn-mfidl-imfsampleallocatorcontrol
+        items:
+        - name: "IMFSampleAllocatorControl::GetAllocatorUsage"
+          href: /windows/desktop/api/mfidl/nf-mfidl-imfsampleallocatorcontrol-getallocatorusage
+        - name: "IMFSampleAllocatorControl::SetDefaultAllocator"
+          href: /windows/desktop/api/mfidl/nf-mfidl-imfsampleallocatorcontrol-setdefaultallocator
       - name: "IMFSampleGrabberSinkCallback"
         href: /windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback
         items: 
@@ -7339,6 +7421,11 @@
           href: /windows/desktop/api/mfidl/nf-mfidl-imftrustedoutput-getoutputtrustauthoritycount
         - name: "IsFinal"
           href: /windows/desktop/api/mfidl/nf-mfidl-imftrustedoutput-isfinal
+      - name: "IMFVideoCaptureSampleAllocator"
+        href: /windows/desktop/api/mfidl/nn-mfidl-imfvideocapturesampleallocator
+        items:
+        - name: "IMFVideoCaptureSampleAllocator::InitializeCaptureSampleAllocator"
+          href: /windows/desktop/api/mfidl/nf-mfidl-imfvideocapturesampleallocator-initializecapturesampleallocator
       - name: "IMFVideoDeviceID"
         href: /windows/desktop/api/evr/nn-evr-imfvideodeviceid
         items: 
@@ -7777,6 +7864,12 @@
         href: codecapi-avlowlatencymode.md
       - name: "CODECAPI_VideoEncoderDisplayContentType"
         href: codecapi-videoencoderdisplaycontenttype.md
+      - name: "MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH"
+        href: mf-contentdecryptionmodule-inprivatestorepath.md
+      - name: "MF_CONTENTDECRYPTIONMODULE_PMPSTORECONTEXT"
+        href: mf-contentdecryptionmodule-pmpstorecontext.md
+      - name: "MF_CONTENTDECRYPTIONMODULE_STOREPATH"
+        href: mf-contentdecryptionmodule-storepath.md
       - name: "MFNETSOURCE_ACCELERATEDSTREAMINGDURATION"
         href: mfnetsource-acceleratedstreamingduration-property.md
       - name: "MFNETSOURCE_AUTORECONNECTLIMIT"
