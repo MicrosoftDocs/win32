@@ -109,7 +109,7 @@ By having the JPEG codec produce YC<sub>b</sub>C<sub>r</sub> data, we can avoid 
 
 This section explains how to use WIC and Direct2D to operate on YC<sub>b</sub>C<sub>r</sub> data.
 
-To see the guidance from this document used in practice, see the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://code.msdn.microsoft.com/windowsapps/JPEG-YCbCr-optimizations-7472183d) which demonstrates all of the steps needed to decode and render YC<sub>b</sub>C<sub>r</sub> content in a Direct2D app.
+To see the guidance from this document used in practice, see the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/blob/master/Official%20Windows%20Platform%20Sample/JPEG%20YCbCr%20optimizations%20in%20Direct2D%20and%20WIC%20sample/%5BC%2B%2B%5D-JPEG%20YCbCr%20optimizations%20in%20Direct2D%20and%20WIC%20sample/C%2B%2B/JpegYCbCrOptimizations.h) which demonstrates all of the steps needed to decode and render YC<sub>b</sub>C<sub>r</sub> content in a Direct2D app.
 
 ### Using YC<sub>b</sub>C<sub>r</sub> JPEG images
 
