@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Hyper-V virtual Fibre Channel API
 
-The Hyper-V virtual Fibre Channel API is used to control virtual Fibre Channel adapters in Hyper-V. For a code example that demonstrates how to use this API, see the [Hyper-V virtual Fiber Channel sample](https://code.msdn.microsoft.com/Hyper-V-virtual-Fiber-35d27dcd).
+The Hyper-V virtual Fibre Channel API is used to control virtual Fibre Channel adapters in Hyper-V. For a code example that demonstrates how to use this API, see the [Hyper-V virtual Fiber Channel sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Hyper-V/FibreChannel).
 
 ## In this section
 
