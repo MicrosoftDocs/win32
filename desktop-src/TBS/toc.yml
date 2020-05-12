@@ -52,8 +52,8 @@
       href: tbs-structures.md
       items: 
       - name: "TBS_CONTEXT_PARAMS"
-        href: /windows/desktop/api/Tbs/ns-tbs-tdtbs_context_params
+        href: /windows/win32/api/tbs/ns-tbs-tbs_context_params
       - name: "TBS_CONTEXT_PARAMS2"
-        href: /windows/desktop/api/Tbs/ns-tbs-tdtbs_context_params2
+        href: /windows/win32/api/tbs/ns-tbs-tbs_context_params2
       - name: "TPM_DEVICE_INFO"
         href: /windows/win32/api/Tbs/ns-tbs-tpm_device_info
