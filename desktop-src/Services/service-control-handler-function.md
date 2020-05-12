@@ -26,14 +26,12 @@ When the user shuts down the system, all control handlers that have called [**Se
 
 After the preshutdown notifications have been completed, all control handlers that have called [**SetServiceStatus**](/windows/desktop/api/Winsvc/nf-winsvc-setservicestatus) with the **SERVICE\_ACCEPT\_SHUTDOWN** control code receive the **SERVICE\_CONTROL\_SHUTDOWN** control code. They are notified in the order that they appear in the database of installed services. By default, a service has approximately 20 seconds to perform cleanup tasks before the system shuts down. After this time expires, system shutdown proceeds regardless of whether service shutdown is complete. Note that if the system is left in the shutdown state (not restarted or powered down), the service continues to run.
 
-If the service requires more time to cleanup, it sends **STOP\_PENDING** status messages, along with a wait hint, so the service controller knows how long to wait before reporting to the system that service shutdown is complete. However, to prevent a service from stopping shutdown, there is a limit to how long the service controller waits. If the service is being shut down through the Services snap-in, the limit is 125 seconds. If the operating system is rebooting, the time limit is specified in the **WaitToKillServiceTimeout** value of the following registry key:
+If the service requires more time to cleanup, it sends **STOP\_PENDING** status messages, along with a wait hint, so the service controller knows how long to wait before reporting to the system that service shutdown is complete. However, to prevent a service from stopping shutdown, there is a limit to how long the service controller waits. If the service is being shut down through the Services snap-in, the limit is 125 seconds, or 125,000 milliseconds. If the operating system is rebooting, the time limit is specified in the **WaitToKillServiceTimeout** value (in milliseconds) of the following registry key:
 
 **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Control**
 
 > [!IMPORTANT]
-> A service should not attempt to increase the time limit by modifying this value.
-
- 
+> A service should not attempt to increase the time limit by modifying this value. If you do need to set **WaitToKillServiceTimeout** by hand, the value should be in milliseconds.
 
 Customers require fast shutdown of the operating system. For example, if a computer running on UPS power cannot complete shutdown before the UPS runs out of power, data can be lost. Therefore, services should complete their cleanup tasks as quickly as possible. It is a good practice to minimize unsaved data by saving data on a regular basis, keeping track of the data that is saved to disk, and only saving your unsaved data on shutdown. Because the computer is being shut down, do not spend time releasing allocated memory or other system resources. If you need to notify a server that you are exiting, minimize the time spent waiting for a reply, because network problems could delay the shutdown of your service.
 
