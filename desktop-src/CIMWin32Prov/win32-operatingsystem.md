@@ -5,10 +5,10 @@ ms.tgt_platform: multiple
 title: Win32_OperatingSystem class
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - Win32_OperatingSystem
 - Win32_OperatingSystem.BootDevice
 - Win32_OperatingSystem.BuildNumber
@@ -76,9 +76,9 @@ api_name:
 - Win32_OperatingSystem.WindowsDirectory
 - Win32_OperatingSystem.QuantumLength
 - Win32_OperatingSystem.QuantumType
-api_type: 
+api_type:
 - DllExport
-api_location: 
+api_location:
 - CIMWin32.dll
 ---
 
@@ -1863,7 +1863,7 @@ Serbian
 1071 (0x42F)
 </dt> <dd>
 
-Macedonian (Macedonia (FYROM))
+Macedonian (North Macedonia)
 
 </dd> <dt>
 
@@ -3650,7 +3650,7 @@ The following script obtains the instances of **Win32\_OperatingSystem** in the 
 
 
 ```VB
-On Error Resume Next 
+On Error Resume Next
 ' Connect to WMI and obtain instances of Win32_OperatingSystem
 For Each objOS in GetObject( _
     "winmgmts:").InstancesOf ("Win32_OperatingSystem")
@@ -3719,7 +3719,3 @@ $os | Format-List *
  
 
  
-
-
-
-

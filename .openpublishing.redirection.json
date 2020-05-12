@@ -1,6 +1,11 @@
 {
   "redirections": [
       {
+            "source_path": "desktop-src/tablet/setconstraint-function.md",
+            "redirect_url": "/windows/win32/tablet/hrecocontext-handle",
+            "redirect_document_id": false
+      },
+      {
             "source_path": "desktop-src/etw/event-tracing-functions.md",
             "redirect_url": "/windows/desktop/api/_etw/#functions",
             "redirect_document_id": false

@@ -2024,7 +2024,7 @@
           href: gdi-print-api-structures.md
           items: 
           - name: "DEVMODE"
-            href: /windows/desktop/api/Wingdi/ns-wingdi-_devicemodea
+            href: /windows/win32/api/wingdi/ns-wingdi-devmodea
           - name: "DOCINFO"
             href: /windows/win32/api/Wingdi/ns-wingdi-docinfoa
           - name: "DRAWPATRECT"
@@ -2036,32 +2036,32 @@
           - name: "PSINJECTDATA"
             href: /windows/win32/api/Wingdi/ns-wingdi-psinjectdata
         - name: "GDI Printer Escape Functions"
-          href: printer-escape-functions.md
+          href: printer-escapes.md
           items: 
           - name: "CHECKJPEGFORMAT Printer Escape"
-            href: checkjpegformat.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd183421(v=vs.85)
           - name: "CHECKPNGFORMAT Printer Escape"
-            href: checkpngformat.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd183424(v=vs.85)
           - name: "DRAWPATTERNRECT Printer Escape"
-            href: drawpatternrect.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd162495(v=vs.85)
           - name: "GET_PS_FEATURESETTING Printer Escape"
-            href: get-ps-featuresetting.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd144954(v=vs.85)
           - name: "GETTECHNOLOGY Printer Escape"
-            href: gettechnology.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd144931(v=vs.85)
           - name: "PASSTHROUGH Printer Escape"
-            href: passthrough.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd162776(v=vs.85)
           - name: "POSTSCRIPT_DATA Printer Escape"
-            href: postscript-data.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd162828(v=vs.85)
           - name: "POSTSCRIPT_IDENTIFY Printer Escape"
-            href: postscript-identify.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd162829(v=vs.85)
           - name: "POSTSCRIPT_INJECTION Printer Escape"
-            href: postscript-injection.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd162830(v=vs.85)
           - name: "POSTSCRIPT_PASSTHROUGH Printer Escape"
-            href: postscript-passthrough.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd162831(v=vs.85)
           - name: "QUERYESCSUPPORT Printer Escape"
-            href: queryescsupport.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff686811(v=vs.85)
           - name: "SPCLPASSTHROUGH2 Printer Escape"
-            href: spclpassthrough2.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd145110(v=vs.85)
       - name: "Microsoft XPS Document Converter (MXDC)"
         href: microsoft-xps-document-converter--mxdc-.md
         items: 

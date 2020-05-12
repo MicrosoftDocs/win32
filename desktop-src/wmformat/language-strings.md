@@ -117,7 +117,7 @@ The multiple language support features of the Windows Media Format SDK use langu
 | kz              | Kyrgyz                       |
 | lt              | Lithuanian                   |
 | lv              | Latvian                      |
-| mk              | Macedonian (FYROM)           |
+| mk              | North Macedonian             |
 | ml              | Malayalam                    |
 | mn              | Mongolian (Cyrillic)         |
 | mr              | Marathi                      |
@@ -185,7 +185,3 @@ The multiple language support features of the Windows Media Format SDK use langu
  
 
  
-
-
-
-
