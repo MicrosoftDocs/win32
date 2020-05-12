@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Querying networking objects
 
-The following C# sample retrieves and displays physical and virtual network information for the specified switch. This code is taken from the [Hyper-V networking sample](https://code.msdn.microsoft.com/Hyper-V-networking-sample-7c47e6f5).
+The following C# sample retrieves and displays physical and virtual network information for the specified switch. This code is taken from the [Hyper-V networking sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Hyper-V/Networking).
 
 The command-line syntax to run this sample is:
 
