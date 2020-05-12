@@ -1,68 +1,68 @@
 - name: "Desktop Win32 Apps"
-  href: index.yml
+  href: /windows/win32/
   items: 
   - name: "Get Started"
     items: 
     - name: "Overview"
-      href: desktop-programming.md
+      href: /windows/win32/desktop-programming
     - name: "What's new"
-      href: whats-new.md
+      href: /windows/win32/whats-new
     - name: "Create your first C++ Win32 app"
-      href: learnwin32/learn-to-program-for-windows.md
+      href: /windows/win32/learnwin32/learn-to-program-for-windows
     - name: "Create your first Windows app using DirectX"
-      href: direct3dgetstarted/building-your-first-directx-app.md
+      href: /windows/win32/direct3dgetstarted/building-your-first-directx-app
     - name: "Using the Windows Headers"
-      href: winprog/using-the-windows-headers.md
+      href: /windows/win32/winprog/using-the-windows-headers
     - name: "Platform Guides"
       items:
       - name: "Programming Guide for 64-bit Windows"
-        href: winprog64/programming-guide-for-64-bit-windows.md
+        href: /windows/win32/winprog64/programming-guide-for-64-bit-windows
       - name: "Compatibility cookbook for Windows"
-        href: w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal.md
+        href: /windows/win32/w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal
       - name: "Windows 7 guides"
-        href: windows-7.md
+        href: /windows/win32/windows-7
         items: 
         - name: "Windows 7 and Windows Server 2008 R2 Application Quality Cookbook"
-          href: win7appqual/windows-7-application-quality-cookbook.md
+          href: /windows/win32/win7appqual/windows-7-application-quality-cookbook
         - name: "Windows 7 Developer Guide"
-          href: win7devguide/windows-7-developer-guide.md
+          href: /windows/win32/win7devguide/windows-7-developer-guide
         - name: "Platform Update for Windows Vista"
-          href: win7ip/platform-update-for-windows-vista-portal.md
+          href: /windows/win32/win7ip/platform-update-for-windows-vista-portal
   - name: "Design"
-    href: uxguide/toc.yml
+    href: /windows/win32/uxguide/guidelines
   - name: "Develop"
     href: 
     items: 
     - name: "Desktop App Technologies"
       items: 
       - name: "Overview"
-        href: desktop-app-technologies.md
+        href: /windows/win32/desktop-app-technologies
       - name: "Accessibility"
         items: 
         - name: "Overview"
-          href: accessibility/accessibility.md
+          href: /windows/win32/accessibility/accessibility
         - name: "What's new in Windows accessibility and automation"
-          href: accessibility/accessibility-whatsnew.md
+          href: /windows/win32/accessibility/accessibility-whatsnew
         - name: "Developing accessible Windows applications"
-          href: accessibility/accessibility-appdev.md
+          href: /windows/win32/accessibility/accessibility-appdev
         - name: "Developing accessible UI frameworks"
           href: accessibility/accessibility-uiframeworkdev.md
         - name: "Developing assistive technology for Windows"
-          href: accessibility/accessibility-atdev.md
+          href: /windows/win32/accessibility/accessibility-atdev
         - name: "Testing for accessibility"
-          href: accessibility/accessibility-testwithuia.md
+          href: /windows/win32/accessibility/accessibility-testwithuia
         - name: "Legacy accessibility and automation technology"
-          href: accessibility/accessibility-legacy.md
+          href: /windows/win32/accessibility/accessibility-legacy
         - name: "Accessibility and automation feature reference"
-          href: accessibility/accessibility-reference.md
+          href: /windows/win32/accessibility/accessibility-reference-old
       - name: "Desktop App User Interface"
         items: 
         - name: "Overview"
-          href: windows-application-ui-development.md
+          href: /windows/win32/windows-application-ui-development
         - name: "Getting Started Developing User Interfaces for Windows Applications"
-          href: appuistart/getting-started-developing-user-interfaces-portal.md
+          href: /windows/win32/appuistart/getting-started-developing-user-interfaces-portal
         - name: "Internationalization for Windows Applications"
-          href: intl/international-support.md
+          href: /windows/win32/intl/international-support
         - name: "User Interaction"
           items: 
           - name: "Overview"
