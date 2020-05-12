@@ -1706,7 +1706,7 @@
         href: remotefx-media-redirection-api-structures.md
         items: 
         - name: "BITMAP_RENDERER_STATISTICS"
-          href: /windows/desktop/api/tsvirtualchannels/ns-tsvirtualchannels-__bitmap_renderer_statistics
+          href: /windows/win32/api/tsvirtualchannels/ns-tsvirtualchannels-bitmap_renderer_statistics
   - name: "Remote Desktop Connection Broker client API"
     href: connection-broker-client-api.md
     items: 
