@@ -209,7 +209,7 @@
           - name: "IASDATASTORE"
             href: /windows/win32/api/SdoIas/ne-sdoias-iasdatastore
           - name: "IASDOMAINTYPE"
-            href: /windows/desktop/api/SdoIas/ne-sdoias-_domaintype
+            href: /windows/desktop/api/SdoIas/ne-sdoias-iasdomaintype
           - name: "IASOSTYPE"
             href: /windows/win32/api/SdoIas/ne-sdoias-iasostype
           - name: "IASPROPERTIES"

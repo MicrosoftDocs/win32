@@ -350,79 +350,79 @@
         - name: "Domain Name System"
           href: dns/dns-start-page.md          
         - name: "HTTP Server API"
-          href: http/http-api-start-page.md
+          href: /windows/win32/http/http-api-start-page
         - name: "IP Helper"
-          href: iphlp/ip-helper-start-page.md
+          href: /windows/win32/iphlp/ip-helper-start-page
         - name: "Message Queuing"
           href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)
         - name: "Network Interfaces"
-          href: network-interfaces.md
+          href: /windows/win32/network-interfaces
         - name: "Network List Manager"
-          href: nla/portal.md
+          href: /windows/win32/nla/portal
         - name: "Network Management"
-          href: netmgmt/network-management.md
+          href: /windows/win32/netmgmt/network-management
         - name: "Network Share Management"
-          href: netshare/network-share-management.md
+          href: /windows/win32/netshare/network-share-management
         - name: "Peer-to-Peer"
-          href: p2psdk/portal.md
+          href: /windows/win32/p2psdk/portal
         - name: "Remote Procedure Call"
-          href: rpc/rpc-start-page.md
+          href: /windows/win32/rpc/rpc-start-page
         - name: "Routing and Remote Access Service"
-          href: rras/portal.md
+          href: /windows/win32/rras/portal
         - name: "Simple Network Management Protocol"
-          href: snmp/snmp-start-page.md
+          href: /windows/win32/snmp/snmp-start-page
         - name: "Telephony Application Programming Interfaces"
           href: Tapi/telephony-application-programming-interfaces.md
         - name: "Teredo"
-          href: teredo/portal.md
+          href: /windows/win32/teredo/portal
         - name: "WebSocket Protocol Component API"
-          href: websock/web-socket-protocol-component-api-portal.md
+          href: /windows/win32/websock/web-socket-protocol-component-api-portal
         - name: "Windows Filtering Platform"
-          href: fwp/windows-filtering-platform-start-page.md
+          href: /windows/win32/fwp/windows-filtering-platform-start-page
         - name: "Windows Networking"
-          href: wnet/windows-networking-wnet-.md
+          href: /windows/win32/wnet/windows-networking-wnet-
         - name: "Windows Sockets 2"
-          href: winsock/windows-sockets-start-page-2.md
+          href: /windows/win32/winsock/windows-sockets-start-page-2
         - name: "Wireless Networking"
           items: 
           - name: "Overview"
-            href: wireless-networking.md
+            href: /windows/win32/wireless-networking
           - name: "Bluetooth"
-            href: bluetooth/bluetooth-start-page.md
+            href: /windows/win32/bluetooth/bluetooth-start-page
           - name: "Mobile Broadband"
             href: mbn/mobile-broadband-networks-portal.md
           - name: "Native Wifi"
-            href: nativewifi/portal.md
+            href: /windows/win32/nativewifi/portal
           - name: "Windows Connect Now"
-            href: wcn/portal.md
+            href: /windows/win32/wcn/portal
           - name: "Windows Connection Manager"
-            href: wcm/windows-connection-manager-portal.md
+            href: /windows/win32/wcm/windows-connection-manager-portal
         - name: "WebDAV"
-          href: webdav/webdav-portal.md
+          href: /windows/win32/webdav/webdav-portal
         - name: "Windows HTTP Services"
-          href: winhttp/winhttp-start-page.md
+          href: /windows/win32/winhttp/winhttp-start-page
         - name: "Windows Internet"
-          href: wininet/portal.md
+          href: /windows/win32/wininet/portal
         - name: "Windows Web Services"
-          href: wsw/portal.md
+          href: /windows/win32/wsw/portal
       - name: "Security and Identity"
         items: 
         - name: "Overview"
-          href: security.md
+          href: /windows/win32/security
         - name: "Antimalware Scan Interface"
-          href: amsi/antimalware-scan-interface-portal.md
+          href: /windows/win32/amsi/antimalware-scan-interface-portal
         - name: "Authentication"
-          href: secauthn/authentication-portal.md
+          href: /windows/win32/secauthn/authentication-portal
         - name: "Authorization"
-          href: secauthz/authorization-portal.md
+          href: /windows/win32/secauthz/authorization-portal
         - name: "Best Practices for the Security APIs"
-          href: secbp/best-practices-for-the-security-apis.md
+          href: /windows/win32/secbp/best-practices-for-the-security-apis
         - name: "Certificate Enrollment API"
-          href: seccertenroll/certenroll-portal.md
+          href: /windows/win32/seccertenroll/certenroll-portal
         - name: "Cryptography"
-          href: seccrypto/cryptography-portal.md
+          href: /windows/win32/seccrypto/cryptography-portal
         - name: "Cryptography API: Next Generation"
-          href: seccng/cng-portal.md
+          href: /windows/win32/seccng/cng-portal
         - name: "Directory, Identity, and Access Services"
           href: 
           items: 
@@ -433,14 +433,14 @@
               href: 
               items: 
               - name: "Active Directory Domain Services"
-                href: ad/active-directory-domain-services.md
+                href: /windows/win32/ad/active-directory-domain-services
               - name: "Active Directory Schema"
-                href: adschema/active-directory-schema.md
+                href: /windows/win32/adschema/active-directory-schema
             - name: "Directory Access Technologies"
               href: 
               items: 
               - name: "Active Directory Service Interfaces"
-                href: adsi/active-directory-service-interfaces-adsi.md
+                href: /windows/win32/adsi/active-directory-service-interfaces-adsi
           - name: "Access Management Services"
             href: 
             items: 
@@ -451,15 +451,15 @@
               - name: "Active Directory Federation Services Overview"
                 href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms674895(v=vs.85)
         - name: "Extensible Authentication Protocol"
-          href: eap/eap-start-page.md
+          href: /windows/win32/eap/eap-start-page
         - name: "Extensible Authentication Protocol Host"
-          href: eaphost/portal.md
+          href: /windows/win32/eaphost/portal
         - name: "Network Access Protection"
-          href: nap/network-access-protection-start-page.md
+          href: /windows/win32/nap/network-access-protection-start-page
         - name: "Network Policy Server"
-          href: nps/portal.md
+          href: /windows/win32/nps/portal
         - name: "Parental Controls"
-          href: parcon/parental-controls-portal.md
+          href: /windows/win32/parcon/parental-controls-portal
         - name: "Rights Management"
           items: 
           - name: "Overview"
@@ -467,57 +467,57 @@
           - name: "RMS Scenarios, Code and Tools"
             href: SrvNodes/rms-code-samples-and-tools.md
         - name: "Security Management"
-          href: secmgmt/management-portal.md
+          href: /windows/win32/secmgmt/management-portal
         - name: "Security Glossary"
-          href: secgloss/security-glossary.md
+          href: /windows/win32/secgloss/security-glossary
         - name: "TPM Base Services"
-          href: tbs/tpm-base-services-portal.md
+          href: /windows/win32/tbs/tpm-base-services-portal
         - name: "Windows Biometric Framework"
-          href: secbiomet/biometric-service-api-portal.md
+          href: /windows/win32/secbiomet/biometric-service-api-portal
       - name: "System Services"
         items: 
         - name: "Overview"
-          href: system-services.md
+          href: /windows/win32/system-services
         - name: "Component Object Model"
-          href: com/component-object-model--com--portal.md
+          href: /windows/win32/com/component-object-model--com--portal
         - name: "Microsoft Interface Definition Language"
-          href: midl/midl-start-page.md
+          href: /windows/win32/midl/midl-start-page
         - name: "Structured Storage"
-          href: stg/structured-storage-start-page.md
+          href: /windows/win32/stg/structured-storage-start-page
         - name: "COM+"
-          href: cossdk/component-services-portal.md
+          href: /windows/win32/cossdk/component-services-portal
         - name: "Compression API"
-          href: cmpapi/-compression-portal.md
+          href: /windows/win32/cmpapi/-compression-portal
         - name: "Dynamic-Link Libraries"
-          href: dlls/dynamic-link-libraries.md
+          href: /windows/win32/dlls/dynamic-link-libraries
         - name: "Interprocess Communications"
-          href: ipc/interprocess-communications.md
+          href: /windows/win32/ipc/interprocess-communications
         - name: "Kernel Transaction Manager"
-          href: ktm/kernel-transaction-manager-portal.md
+          href: /windows/win32/ktm/kernel-transaction-manager-portal
         - name: "Memory Management"
-          href: memory/memory-management.md
+          href: /windows/win32/memory/memory-management
         - name: "Power Management"
-          href: power/power-management-portal.md
+          href: /windows/win32/power/power-management-portal
         - name: "Processes and Threads"
-          href: procthread/processes-and-threads.md
+          href: /windows/win32/procthread/processes-and-threads
         - name: "Remote Desktop Services"
-          href: termserv/terminal-services-portal.md
+          href: /windows/win32/termserv/terminal-services-portal
         - name: "Services"
-          href: services/services.md
+          href: /windows/win32/services/services
         - name: "Setup API"
-          href: setupapi/setup-api-portal.md
+          href: /windows/win32/setupapi/setup-api-portal
         - name: "Synchronization"
-          href: sync/synchronization.md
+          href: /windows/win32/sync/synchronization
         - name: "Windows System Information"
-          href: sysinfo/windows-system-information.md
+          href: /windows/win32/sysinfo/windows-system-information
       - name: "Windows Machine Learning"
-        href: machinelearning/machine-learning-portal.md
+        href: /windows/win32/machinelearning/machine-learning-portal
       - name: "Developer Notes"
-        href: devnotes/developer-notes.md
+        href: /windows/win32/devnotes/developer-notes
     - name: "Develop with Server Technologies"
       items: 
       - name: "Overview"
-        href: server-and-system-technologies.md
+        href: /windows/win32/server-and-system-technologies
       - name: "Directory, Identity, and Access Services"
         href: SrvNodes/directory--identity--and-access-services.md
         items: 
@@ -537,9 +537,9 @@
           href: SrvNodes/access-management-services.md
           items: 
           - name: "Active Directory Federation Services"
-            href: SrvNodes/active-directory-federation-services.md
+            href: /windows/win32/srvnodes/active-directory-federation-services
       - name: "Rights Management"
-        href: SrvNodes/rights-management.md
+        href: /windows/win32/srvnodes/rights-management
         items: 
         - name: "RMS Code Samples and Tools"
           href: SrvNodes/rms-code-samples-and-tools.md
@@ -572,39 +572,39 @@
         - name: "What's New For Windows Server 2012 R2 and Windows Server 2012"
           href: SrvNodes/what-s-new-for-windows-server-2012-r2.md
         - name: "Mobile Device Management Registration"
-          href: mdmreg/mobile-device-management-registration-portal.md
+          href: /windows/win32/mdmreg/mobile-device-management-registration-portal
         - name: "System Restore"
-          href: sr/system-restore-portal.md
+          href: /windows/win32/sr/system-restore-portal
         - name: "System Shutdown"
-          href: shutdown/system-shutdown.md
+          href: /windows/win32/shutdown/system-shutdown
         - name: "Task Scheduler"
-          href: taskschd/task-scheduler-start-page.md
+          href: /windows/win32/taskschd/task-scheduler-start-page
         - name: "Windows Deployment Services"
-          href: wds/windows-deployment-services-portal.md
+          href: /windows/win32/wds/windows-deployment-services-portal
         - name: "Windows Management Instrumentation"
-          href: wmisdk/wmi-start-page.md
+          href: /windows/win32/wmisdk/wmi-start-page
         - name: "Windows Management Infrastructure Managed API"
           href: https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/mt738833(v=vs.85)
         - name: "WMI Providers"
           href: 
           items: 
           - name: "Boot Event Collector WMI Provider"
-            href: bevtcolprov/boot-event-collector-wmi-provider-portal.md
+            href: /windows/win32/bevtcolprov/boot-event-collector-wmi-provider-portal
           - name: "Hyper-V management"
-            href: hyperv_v2/hyper-v-management.md
+            href: /windows/win32/hyperv_v2/hyper-v-management
           - name: "MDM Bridge WMI Provider"
-            href: dmwmibridgeprov/mdm-bridge-wmi-provider-portal.md
+            href: /windows/win32/dmwmibridgeprov/mdm-bridge-wmi-provider-portal
           - name: "Windows System Assessment Tool"
-            href: winsat/windows-system-assessment-tool-portal.md
+            href: /windows/win32/winsat/windows-system-assessment-tool-portal
           - name: "WMI Core Provider"
-            href: wmicoreprov/wmi-core-provider-.md
+            href: /windows/win32/wmicoreprov/wmi-core-provider-
         - name: "Windows Remote Management"
-          href: winrm/portal.md
+          href: /windows/win32/winrm/portal
         - name: "Windows Resource Protection"
-          href: wfp/windows-resource-protection-portal.md
+          href: /windows/win32/wfp/windows-resource-protection-portal
     - name: "API Index"
-      href: apiindex/api-index-portal.md
+      href: /windows/win32/apiindex/api-index-portal
     - name: "Windows Runtime C++ reference"
-      href: winrt/reference.md
+      href: /windows/win32/winrt/reference
     - name: "Windows Certification"
-      href: win_cert/windows-certification-portal.md
+      href: /windows/win32/win_cert/windows-certification-portal

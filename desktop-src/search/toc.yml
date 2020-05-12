@@ -779,18 +779,18 @@
           - name: "GetColumnMapper method"
             href: https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-icolumnmappercreator-getcolumnmapper
         - name: "IFilter"
-          href: -search-ifilter.md
+          href: /windows/win32/api/filter/nn-filter-ifilter
           items: 
           - name: "BindRegion"
-            href: -search-ifilter-bindregion.md
+            href: /windows/win32/api/filter/nf-filter-ifilter-bindregion
           - name: "GetChunk"
-            href: -search-ifilter-getchunk.md
+            href: /windows/win32/api/filter/nf-filter-ifilter-getchunk
           - name: "GetText"
-            href: -search-ifilter-gettext.md
+            href: /windows/win32/api/filter/nf-filter-ifilter-gettext
           - name: "GetValue"
-            href: -search-ifilter-getvalue.md
+            href: /windows/win32/api/filter/nf-filter-ifilter-getvalue
           - name: "Init"
-            href: -search-ifilter-init.md
+            href: /windows/win32/api/filter/nf-filter-ifilter-init
         - name: "ILoadFilter"
           href: /windows/desktop/api/filtereg/nn-filtereg-iloadfilter
           items: 
@@ -1039,7 +1039,7 @@
       - name: "ITEM_INFO"
         href: /windows/win32/api/Searchapi/ns-searchapi-item_info
       - name: "ITEMPROP"
-        href: /windows/desktop/api/subsmgr/ns-subsmgr-_tagitemprop
+        href: /windows/win32/api/subsmgr/ns-subsmgr-itemprop
       - name: "LINKINFO"
         href: -search-linkinfo.md
       - name: "PROXY_INFO"

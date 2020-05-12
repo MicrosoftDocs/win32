@@ -68,7 +68,7 @@
       - name: "MBN_SMS_CDMA_LANG"
         href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_cdma_lang
       - name: "MBN_SMS_CONSTANTS"
-        href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_constants
+        href: /windows/desktop/api/mbnapi/ne-mbnapi-wwaext_sms_constants
       - name: "MBN_SMS_FLAG"
         href: /windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_flag
       - name: "MBN_SMS_FORMAT"

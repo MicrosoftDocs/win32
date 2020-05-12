@@ -78,7 +78,6 @@ Perform these steps to take a trace:
 
 ## Measurements
 
-This section uses the [Direct2D Geometry Realization Sample](https://code.msdn.microsoft.com/windowsapps/Geometry-Realization-963be8b7) as an example for capturing traces and analyzing data.
 
 > [!Note]  
 > The measurements for geometry realization sample are taken on a Quad Core machine with an integrated DirectX11 graphics card. The measurements vary depending upon the machine configuration.

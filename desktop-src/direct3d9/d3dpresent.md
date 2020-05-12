@@ -10,8 +10,6 @@ ms.date: 05/31/2018
 
 Describes the relationship between the adapter refresh rate and the rate at which [**Present**](https://msdn.microsoft.com/library/Bb205908(v=VS.85).aspx) or [**Present**](https://msdn.microsoft.com/library/Bb205908(v=VS.85).aspx) operations are completed. These values also serve as flag values for the PresentationIntervals field of [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9).
 
-
-
 <table>
 <colgroup>
 <col style="width: 50%" />
@@ -38,7 +36,7 @@ Describes the relationship between the adapter refresh rate and the rate at whic
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="D3DPRESENT_FORCEIMMEDIATE"></span><span id="d3dpresent_forceimmediate"></span><dl> <dt><strong>D3DPRESENT_FORCEIMMEDIATE</strong></dt> </dl></td>
-<td style="text-align: left;">D3DPRESENT_INTERVAL_IMMEDIATE is enforced on this <a href="/windows/desktop/api"><strong>Present</strong></a> call. This flag can only be specified when using D3DSWAPEFFECT_FLIPEX. Windowed and fullscreen presentation behaviors are the same. This is especially useful for media apps that want to discard frames that have been detected as late and present subsequent frames at composition time. An invalid parameter error will be returned if this flag is improperly specified. When multiple consecutive frames with D3DPRESENT_FORCEIMMEDIATEs are queued, only the last frame is displayed, for both windowed and fullscreen presentation. A sample application that uses D3DPRESENT_FORCEIMMEDIATE and D3DSWAPEFFECT_FLIPEX is the <a href="https://code.msdn.microsoft.com/D3D9ExFlipEx">D3D9ExFlipEx sample on the MSDN Code Gallery</a>. <br/> This flag is available in Direct3D 9Ex on Windows 7 or later operating systems.<br/> When using D3DSWAPEFFECT_FLIPEX, each frame presented using D3DPRESENT_INTERVAL_IMMEDIATE or D3DPRESENT_INTERVAL_FORCEIMMEDIATE will override the previous frame's present interval. For example, if you queue the following frames using the following swap effects: frame A (D3DPRESENT_INTERVAL_ONE), frame B(D3DPRESENT_INTERVAL_ONE), frame C(D3DPRESENT_INTERVAL_ONE), frame D(D3DPRESENT_INTERVAL_FORCEIMMEDIATE), frame D will override frame C's present interval. The displayed frames per present interval are frame A, frame B, (frame C overridden by) frame D.<br/> See Remarks.<br/></td>
+<td style="text-align: left;">D3DPRESENT_INTERVAL_IMMEDIATE is enforced on this <a href="/windows/desktop/api"><strong>Present</strong></a> call. This flag can only be specified when using D3DSWAPEFFECT_FLIPEX. Windowed and fullscreen presentation behaviors are the same. This is especially useful for media apps that want to discard frames that have been detected as late and present subsequent frames at composition time. An invalid parameter error will be returned if this flag is improperly specified. When multiple consecutive frames with D3DPRESENT_FORCEIMMEDIATEs are queued, only the last frame is displayed, for both windowed and fullscreen presentation.<br/> This flag is available in Direct3D 9Ex on Windows 7 or later operating systems.<br/> When using D3DSWAPEFFECT_FLIPEX, each frame presented using D3DPRESENT_INTERVAL_IMMEDIATE or D3DPRESENT_INTERVAL_FORCEIMMEDIATE will override the previous frame's present interval. For example, if you queue the following frames using the following swap effects: frame A (D3DPRESENT_INTERVAL_ONE), frame B(D3DPRESENT_INTERVAL_ONE), frame C(D3DPRESENT_INTERVAL_ONE), frame D(D3DPRESENT_INTERVAL_FORCEIMMEDIATE), frame D will override frame C's present interval. The displayed frames per present interval are frame A, frame B, (frame C overridden by) frame D.<br/> See Remarks.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_DEFAULT"></span><span id="d3dpresent_interval_default"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_DEFAULT</strong></dt> </dl></td>
@@ -100,8 +98,6 @@ This flag should only be used with swap effect D3DSWAPEFFECT_FLIPEX. The use of 
 </tbody>
 </table>
 
-
-
 ## Remarks
 
 Windowed mode supports D3DPRESENT\_INTERVAL\_DEFAULT, D3DPRESENT\_INTERVAL\_IMMEDIATE, and D3DPRESENT\_INTERVAL\_ONE. D3DPRESENT\_INTERVAL\_DEFAULT and the D3DPRESENT\_INTERVAL\_ONE are nearly equivalent (see the information regarding timer resolution below). They perform similarly to COPY\_VSYNC in that there is only one present per frame, and they prevent tearing with beam-following. In contrast, D3DPRESENT\_INTERVAL\_IMMEDIATE will attempt to provide an unlimited presentation rate.
@@ -110,25 +106,12 @@ Full-screen mode supports similar usage as windowed mode by supporting D3DPRESEN
 
 ## Requirements
 
-
-
 |                   |                                                                                   |
 |-------------------|-----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9.h</dt> </dl> |
-
-
 
 ## See also
 
 <dl> <dt>
 
 [Direct3D Constants](dx9-graphics-reference-d3d-constants.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-

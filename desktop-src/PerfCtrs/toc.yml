@@ -64,7 +64,7 @@
         href: using-the-registry-functions-to-consume-counter-data.md
         items: 
         - name: "Retrieving Counter Names and Help Text"
-          href: retrieving-counter-names-and-explanations.md
+          href: retrieving-counter-names-and-help-text.md
         - name: "Displaying Object, Instance, and Counter Names"
           href: displaying-object-instance-and-counter-names.md
         - name: "Retrieving Counter Data"
@@ -205,9 +205,9 @@
       href: performance-counters-structures.md
       items: 
       - name: "PDH_BROWSE_DLG_CONFIG"
-        href: /windows/desktop/api/Pdh/ns-pdh-_browsedlgconfig_a
+        href: /windows/desktop/api/Pdh/ns-pdh-pdh_browse_dlg_config_a
       - name: "PDH_BROWSE_DLG_CONFIG_H"
-        href: /windows/desktop/api/Pdh/ns-pdh-_browsedlgconfig_ha
+        href: /windows/desktop/api/Pdh/ns-pdh-pdh_browse_dlg_config_ha
       - name: "PDH_COUNTER_INFO"
         href: /windows/win32/api/Pdh/ns-pdh-pdh_counter_info_a
       - name: "PDH_COUNTER_PATH_ELEMENTS"
@@ -265,11 +265,11 @@
       - name: "PERF_OBJECT_TYPE"
         href: /windows/win32/api/Winperf/ns-winperf-perf_object_type
       - name: "PERF_PROVIDER_CONTEXT"
-        href: /windows/desktop/api/Perflib/ns-perflib-_provider_context
+        href: /windows/win32/api/perflib/ns-perflib-perf_provider_context
       - name: "PERF_STRING_BUFFER_HEADER"
-        href: /windows/desktop/api/Perflib/ns-perflib-_string_buffer_header
+        href: /windows/win32/api/perflib/ns-perflib-perf_string_buffer_header
       - name: "PERF_STRING_COUNTER_HEADER"
-        href: /windows/desktop/api/Perflib/ns-perflib-_string_counter_header
+        href: /windows/win32/api/perflib/ns-perflib-perf_string_counter_header
     - name: "Performance Counters Tools"
       href: performance-counters-tools.md
       items: 

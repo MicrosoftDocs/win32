@@ -19,7 +19,6 @@ The CLSID for this effect is CLSID\_D2D1Scale.
     -   [Border modes](#border-modes)
 -   [Interpolation modes](#interpolation-modes)
 -   [Output bitmap](#output-bitmap)
--   [Sample code](#sample-code)
 -   [Requirements](#requirements)
 -   [Related topics](#related-topics)
 
@@ -157,10 +156,6 @@ BitmapSize<sub>y</sub>(Pixels)=Scale<sub>y</sub>\*Original Bitmap Size<sub>y</su
 The effect rounds fractions of pixels up to the nearest whole pixel.
 
 The location of the bitmap is (0, 0) or the value of the center point property.
-
-## Sample code
-
-For an example of this effect, download the [Direct2D interpolation modes sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-interpolation-0fa5420a).
 
 ## Requirements
 

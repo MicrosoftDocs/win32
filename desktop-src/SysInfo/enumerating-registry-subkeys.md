@@ -106,7 +106,7 @@ void QueryKey(HKEY hKey)
     }
 }
 
-void __cdecl _tmain(void)
+int __cdecl _tmain()
 {
    HKEY hTestKey;
 

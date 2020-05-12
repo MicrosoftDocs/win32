@@ -15,19 +15,11 @@ api_location:
 
 Samples a texture.
 
-
-
 |                                                                                  |
 |----------------------------------------------------------------------------------|
 | <Template Type> Object.Sample( sampler\_state S, float Location \[, int Offset\] ); |
 
-
-
- 
-
 ## Parameters
-
-
 
 <table>
 <colgroup>
@@ -117,11 +109,7 @@ Samples a texture.
 </tbody>
 </table>
 
-
-
- 
-
-## Return Value
+## Return value
 
 The texture's template type, which may be a single- or multi-component vector. The format is based on the texture's [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
@@ -129,23 +117,16 @@ The texture's template type, which may be a single- or multi-component vector. T
 
 This function is supported in the following shader models.
 
-
-
 | vs\_4\_0 | vs\_4\_1  | ps\_4\_0 | ps\_4\_1  | gs\_4\_0 | gs\_4\_1  |
 |----------|-----------|----------|-----------|----------|-----------|
 |          |           | x        | x         |          |           |
-
-
-
- 
 
 1.  TextureCubeArray is available in Shader Model 4.1 or higher.
 2.  Shader Model 4.1 is available in Direct3D 10.1 or higher.
 
 ## Example
 
-This partial code example is based on the BasicHLSL11.fx file in the [BasicHLSL11 Sample](https://code.msdn.microsoft.com/Basic-DXUT-Win32-Samples-e59c0682).
-
+This partial code example is based on the BasicHLSL11.fx file in the [BasicHLSL11 Sample](https://github.com/microsoftarchive/msdn-code-gallery-community-a-c/tree/master/Basic%20DXUT%20Win32%20Samples/%5BC%2B%2B%5D-Basic%20DXUT%20Win32%20Samples/C%2B%2B/BasicHLSL11).
 
 ```
 // Object Declarations
@@ -172,19 +153,17 @@ VS_OUTPUT In;
         Output.RGBColor = g_MeshTexture.Sample(MeshTextureSampler, In.TextureUV) * In.Diffuse;
 ```
 
-
-
 ## Remarks
 
 Texture sampling uses the texel position to look up a texel value. An offset can be applied to the position before lookup. The sampler state contains the sampling and filtering options. This method can be invoked within a pixel shader, but it is not supported in a vertex shader or a geometry shader.
 
-### Calculating Texel Positions
+### Calculating texel positions
 
 Texture coordinates are floating-point values that reference texture data, which is also known as normalized texture space. Address wrapping modes are applied in this order (texture coordinates + offsets + wrap mode) to modify texture coordinates outside the \[0...1\] range.
 
 For texture arrays, an additional value in the location parameter specifies an index into a texture array. This index is treated as a scaled float value (instead of the normalized space for standard texture coordinates). The conversion to an integer index is done in the following order (float + round-to-nearest-even integer + clamp to the array range).
 
-### Applying Texture Coordinate Offsets
+### Applying texture coordinate offsets
 
 The offset parameter modifies the texture coordinates, in texel space. Even though texture coordinates are normalized floating-point numbers, the offset applies an integer offset.
 
@@ -192,16 +171,4 @@ The data format returned is determined by the texture format. For example, if th
 
 ## Related topics
 
-<dl> <dt>
-
 [Texture-Object](dx-graphics-hlsl-to-type.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-

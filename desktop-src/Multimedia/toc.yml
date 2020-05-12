@@ -1782,21 +1782,21 @@
       href: multimedia-structures.md
       items: 
       - name: "ACMDRIVERDETAILS"
-        href: /windows/desktop/api/Msacm/ns-msacm-tacmdriverdetails
+        href: /windows/desktop/api/Msacm/ns-msacm-acmdriverdetails
       - name: "ACMFILTERCHOOSE"
-        href: /windows/desktop/api/Msacm/ns-msacm-tacmfilterchoose
+        href: /windows/desktop/api/Msacm/ns-msacm-acmfilterchoose
       - name: "ACMFILTERDETAILS"
-        href: /windows/desktop/api/Msacm/ns-msacm-tacmfilterdetails
+        href: /windows/desktop/api/Msacm/ns-msacm-acmfilterdetails
       - name: "ACMFILTERTAGDETAILS"
-        href: /windows/desktop/api/Msacm/ns-msacm-tacmfiltertagdetails
+        href: /windows/desktop/api/Msacm/ns-msacm-acmfiltertagdetails
       - name: "ACMFORMATCHOOSE"
-        href: /windows/desktop/api/Msacm/ns-msacm-tacmformatchoose
+        href: /windows/desktop/api/Msacm/ns-msacm-acmformatchoose
       - name: "ACMFORMATDETAILS"
-        href: /windows/desktop/api/Msacm/ns-msacm-tacmformatdetails
+        href: /windows/desktop/api/Msacm/ns-msacm-acmformatdetails
       - name: "ACMFORMATTAGDETAILS"
-        href: /windows/desktop/api/Msacm/ns-msacm-tacmformattagdetails
+        href: /windows/desktop/api/Msacm/ns-msacm-acmformattagdetails
       - name: "ACMSTREAMHEADER"
-        href: /windows/desktop/api/Msacm/ns-msacm-tacmstreamheader
+        href: /windows/desktop/api/Msacm/ns-msacm-acmstreamheader
       - name: "AUXCAPS"
         href: https://docs.microsoft.com/previous-versions//dd756711(v=vs.85)
       - name: "AVICOMPRESSOPTIONS"
@@ -1874,7 +1874,7 @@
       - name: "MCI_DGV_PLAY_PARMS"
         href: https://docs.microsoft.com/previous-versions//dd743396(v=vs.85)
       - name: "MCI_DGV_PUT_PARMS"
-        href: mci-dgv-put-parms.md
+        href: https://docs.microsoft.com/previous-versions//dd743397(v=vs.85)
       - name: "MCI_DGV_QUALITY_PARMS"
         href: /windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_quality_parmsa
       - name: "MCI_DGV_RECORD_PARMS"
@@ -1992,9 +1992,9 @@
       - name: "MIDISTRMBUFFVER"
         href: https://docs.microsoft.com/previous-versions//dd798493(v=vs.85)
       - name: "MIXERCAPS"
-        href: https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercapsa
+        href: https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa
       - name: "MIXERCONTROL"
-        href: https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontrola
+        href: https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola
       - name: "MIXERCONTROLDETAILS"
         href: /windows/win32/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta
       - name: "MIXERCONTROLDETAILS_BOOLEAN"
@@ -2006,9 +2006,9 @@
       - name: "MIXERCONTROLDETAILS_UNSIGNED"
         href: https://docs.microsoft.com/previous-versions//dd757298(v=vs.85)
       - name: "MIXERLINE"
-        href: https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixerlinea
+        href: https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixerlinea
       - name: "MIXERLINECONTROLS"
-        href: https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixerlinecontrolsa
+        href: https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixerlinecontrolsa
       - name: "MMCKINFO"
         href: https://docs.microsoft.com/previous-versions//dd757312(v=vs.85)
       - name: "MMIOINFO"
@@ -2024,7 +2024,7 @@
       - name: "WAVEFILTER"
         href: /windows/win32/api/Mmreg/ns-mmreg-wavefilter
       - name: "WAVEFORMAT"
-        href: /windows/desktop/api/mmeapi/ns-mmeapi-twaveformatex
+        href: /windows/desktop/api/mmeapi/ns-mmeapi-waveformat
       - name: "WAVEFORMATEX"
         href: https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)
       - name: "WAVEFORMATEXTENSIBLE"

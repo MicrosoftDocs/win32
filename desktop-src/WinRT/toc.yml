@@ -56,7 +56,7 @@
     - name: "RO_INIT_TYPE"
       href: /windows/win32/api/roapi/ne-roapi-ro_init_type
     - name: "RO_ERROR_REPORTING_FLAGS"
-      href: /windows/win32/api/roerrorapi/ne-roerrorapi-ro_error_reporting_flags
+      href: /windows/win32/api/roerrorapi/ne-roerrorapi-roerrorreportingflags
   - name: "Functions"
     href: functions.md
     items: 
@@ -1380,10 +1380,10 @@
       - name: "SetWinRtInterface method"
         href: /previous-versions/hh438416(v%3Dvs.85)
     - name: "IRoMetaDataLocator"
-      href: irometadatalocator-struct.md
+      href: /windows/win32/api/roparameterizediid/ns-roparameterizediid-irometadatalocator
       items: 
       - name: "Locate method"
-        href: irometadatalocator-locate.md
+        href: https://docs.microsoft.com/en-us/previous-versions//hh438405(v=vs.85)?redirectedfrom=MSDN
     - name: "Point"
       href: /windows/win32/api/windows.foundation/ns-windows-foundation-point
     - name: "PDF_RENDER_PARAMS"

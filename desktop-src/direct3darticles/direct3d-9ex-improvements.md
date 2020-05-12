@@ -1,12 +1,12 @@
 ---
-title: Direct3D 9Ex Improvements
+title: Direct3D 9Ex improvements
 description: This topic describes Windows 7's added support for Flip Mode Present and its associated present statistics in Direct3D 9Ex and Desktop Window Manager.
 ms.assetid: cb92a162-57eb-4aee-af7a-c8ece37075a7
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Direct3D 9Ex Improvements
+# Direct3D 9Ex improvements
 
 This topic describes Windows 7's added support for Flip Mode Present and its associated present statistics in Direct3D 9Ex and Desktop Window Manager. Target applications include video or frame rate-based presentation applications. Applications that use Direct3D 9Ex Flip Mode Present reduce the system resource load when DWM is enabled. Present statistics enhancements associated with Flip Mode Present enable Direct3D 9Ex applications to better control the rate of presentation by providing real-time feedback and correction mechanisms. Detailed explanations and pointers to sample resources are included.
 
@@ -275,8 +275,6 @@ typedef struct _D3DPRESENTSTATS {
 When DWM is off, windowed applications display directly to the monitor screen without going through a flip chain. In Windows Vista, there is no support for obtaining frame statistics information for windowed applications when DWM is off. To maintain an API where applications need not be DWM- aware, Windows 7 will return frame statistics information for windowed applications when DWM is off. The frame statistics returned when DWM is off are estimations only.
 
 ## Walk-Through of a Direct3D 9Ex Flip Model and Present Statistics Sample
-
-A sample application that takes advantage of Direct3D 9Ex Flip Model and associated present statistics functionality is shown in the [D3D9ExFlipEx sample on the MSDN Code Gallery](https://code.msdn.microsoft.com/D3D9ExFlipEx).
 
 **To opt into FlipEx presentation for Direct3D 9Ex sample**
 
@@ -569,7 +567,7 @@ VOID Render()
 
 ## Conclusion about Direct3D 9Ex Improvements
 
-On Windows 7, applications that display video or gauge frame rate during presentation can opt into Flip Model. The present statistics improvements that are associated with Flip Model Direct3D 9Ex can benefit applications that synchronize presentation per frame rate, with real time feedback for glitch detection and recovery. Developers that adopt the Direct3D 9Ex Flip Model should take targeting a separate HWND from GDI content and frame rate synchronization into account. Refer to details in this topic, the [D3D9ExFlipEx MSDN Code Gallery sample](https://code.msdn.microsoft.com/D3D9ExFlipEx), and MSDN documentation. For additional documentation, see [DirectX Developer Center on MSDN](https://msdn.microsoft.com/directx/default.aspx).
+On Windows 7, applications that display video or gauge frame rate during presentation can opt into Flip Model. The present statistics improvements that are associated with Flip Model Direct3D 9Ex can benefit applications that synchronize presentation per frame rate, with real time feedback for glitch detection and recovery. Developers that adopt the Direct3D 9Ex Flip Model should take targeting a separate HWND from GDI content and frame rate synchronization into account. Refer to details in this topic, and MSDN documentation. For additional documentation, see [DirectX Developer Center on MSDN](https://msdn.microsoft.com/directx/default.aspx).
 
 ## Call to Action
 
@@ -577,19 +575,5 @@ We encourage you to use Direct3D 9Ex Flip Model and its present statistics on Wi
 
 ## Related topics
 
-<dl> <dt>
-
-[D3D9ExFlipEx MSDN Code Gallery sample](https://code.msdn.microsoft.com/D3D9ExFlipEx)
-</dt> <dt>
-
 [DirectX Developer Center on MSDN](https://msdn.microsoft.com/directx/default.aspx)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
-

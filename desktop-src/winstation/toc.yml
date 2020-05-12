@@ -68,4 +68,4 @@
       href: window-station-and-desktop-structures.md
       items: 
       - name: "USEROBJECTFLAGS"
-        href: https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taguserobjectflags
+        href: https://docs.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-userobjectflags

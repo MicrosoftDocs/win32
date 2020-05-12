@@ -53,7 +53,7 @@ Direct3D 9 uses [intrinsic texture functions](dx-graphics-hlsl-intrinsic-functio
 
 <code>Output.RGBColor = tex2D(MeshTextureSampler, In.TextureUV) * In.Diffuse;</code>
 
-Direct3D 10 uses [templated texture objects](dx-graphics-hlsl-to-type.md) instead. Here is an example of the equivalent texture operation. This example (taken from the BasicHLSL10 sample, which is included in the [Effects 11 Win32 samples](https://code.msdn.microsoft.com/Effects-11-Win32-Samples-cce82a4d)) uses the [sample](dx-graphics-hlsl-to-sample.md) texture-object function.
+Direct3D 10 uses [templated texture objects](dx-graphics-hlsl-to-type.md) instead. Here is an example of the equivalent texture operation.
 
 <code>Output.RGBColor = g_MeshTexture.Sample(MeshTextureSampler, In.TextureUV) * In.Diffuse;</code>
 

@@ -18,7 +18,7 @@ The following example demonstrates the use of the [**MoveFileEx**](/windows/desk
 #include <tchar.h>
 #include <stdio.h>
 
-void __cdecl _tmain(int argc, TCHAR *argv[])
+int __cdecl _tmain(int argc, TCHAR *argv[])
 {
     printf("\n");
     if( argc != 3 )

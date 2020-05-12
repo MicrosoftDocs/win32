@@ -44,9 +44,9 @@ VOID SvcReportEvent( LPTSTR );
 //   None
 // 
 // Return value:
-//   None
+//   None, defaults to 0 (zero)
 //
-void __cdecl _tmain(int argc, TCHAR *argv[]) 
+int __cdecl _tmain(int argc, TCHAR *argv[]) 
 { 
     // If command-line parameter is "install", install the service. 
     // Otherwise, the service is probably being started by the SCM.

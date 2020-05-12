@@ -88,7 +88,7 @@
       href: wininet-enumerations.md
       items: 
       - name: "InternetCookieState"
-        href: /windows/desktop/api/Wininet/ne-wininet-__unnamed_enum_0
+        href: /windows/win32/api/wininet/ne-wininet-internetcookiestate
       - name: "INTERNET_SCHEME"
         href: /windows/desktop/api/Wininet/ne-wininet-internet_scheme
     - name: "WinINet Functions"
@@ -318,7 +318,7 @@
       - name: "INTERNET_ASYNC_RESULT"
         href: /windows/desktop/api/Wininet/ns-wininet-internet_async_result
       - name: "INTERNET_AUTH_NOTIFY_DATA"
-        href: /windows/desktop/api/Wininet/ns-wininet-__unnamed_struct_4
+        href: /windows/win32/api/wininet/ns-wininet-internet_auth_notify_data
       - name: "INTERNET_BUFFERS"
         href: /windows/win32/api/Wininet/ns-wininet-internet_buffersa
       - name: "INTERNET_CACHE_CONFIG_INFO"
@@ -344,7 +344,7 @@
       - name: "INTERNET_VERSION_INFO"
         href: /windows/desktop/api/Wininet/ns-wininet-internet_version_info
       - name: "InternetCookieHistory"
-        href: /windows/desktop/api/Wininet/ns-wininet-__unnamed_struct_2
+        href: /windows/win32/api/wininet/ns-wininet-internetcookiehistory
       - name: "URL_COMPONENTS"
         href: /windows/desktop/api/Wininet/ns-wininet-url_componentsa
     - name: "Proof of possession cookie API"

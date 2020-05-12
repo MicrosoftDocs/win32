@@ -50,7 +50,7 @@ While ensuring that DLLs are installed on a system isn't as easy as simply linki
 ## Installation of DirectX by the Game's Installer
 
 > [!Note]  
-> See [Direct3D 11 Deployment for Game Developers](https://docs.microsoft.com/windows/desktop/direct3darticles/direct3d11-deployment) and the [D3D11InstallHelper sample](https://code.msdn.microsoft.com/Direct3D-11-Install-Helper-3044575e).
+> See [Direct3D 11 Deployment for Game Developers](https://docs.microsoft.com/windows/desktop/direct3darticles/direct3d11-deployment).
 
  
 

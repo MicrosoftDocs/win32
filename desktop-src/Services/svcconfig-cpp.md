@@ -40,9 +40,9 @@ VOID __stdcall DoDeleteSvc(void);
 //   Command-line syntax is: svcconfig [command] [service_path]
 // 
 // Return value:
-//   None
+//   None, defaults to 0 (zero)
 //
-void __cdecl _tmain(int argc, TCHAR *argv[])
+int __cdecl _tmain(int argc, TCHAR *argv[])
 {
     printf("\n");
     if( argc != 3 )

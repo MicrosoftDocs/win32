@@ -819,7 +819,7 @@
         - name: "SEC_WINNT_AUTH_IDENTITY"
           href: /windows/win32/api/Rpcdce/ns-rpcdce-sec_winnt_auth_identity_a
         - name: "UUID"
-          href: /windows/desktop/rpc/rpcdce/ns-rpcdce-_uuid
+          href: /windows/win32/rpc/rpcdce/ns-rpcdce-uuid
         - name: "UUID_VECTOR"
           href: /windows/win32/api/rpcdce/ns-rpcdce-uuid_vector
       - name: "RPC Enumerated Types"

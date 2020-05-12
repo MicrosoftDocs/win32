@@ -920,19 +920,19 @@
       - name: "RIOCloseCompletionQueue"
         href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh448837(v=vs.85)
       - name: "RIOCreateCompletionQueue"
-        href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh448841(v=vs.85)
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion
       - name: "RIOCreateRequestQueue"
-        href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh448843(v=vs.85)
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue
       - name: "RIODequeueCompletion"
-        href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh448845(v=vs.85)
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion
       - name: "RIODeregisterBuffer"
-        href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh448847(v=vs.85)
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_rioderegisterbuffer
       - name: "RIONotify"
-        href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437191(v=vs.85)
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify
       - name: "RIOReceive"
-        href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437193(v=vs.85)
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceive
       - name: "RIOReceiveEx"
-        href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437196(v=vs.85)
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceiveex
       - name: "RIORegisterBuffer"
         href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437199(v=vs.85)
       - name: "RIOResizeCompletionQueue"
@@ -940,7 +940,7 @@
       - name: "RIOResizeRequestQueue"
         href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437204(v=vs.85)
       - name: "RIOSend"
-        href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437213(v=vs.85)
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_riosend
       - name: "RIOSendEx"
         href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/hh437216(v=vs.85)
       - name: "select"
@@ -1145,9 +1145,9 @@
       - name: "ASSOCIATE_NAMERES_CONTEXT_INPUT"
         href: /windows/win32/api/Mstcpip/ns-mstcpip-associate_nameres_context_input
       - name: "BLOB"
-        href: https://docs.microsoft.com/windows/win32/api/nspapi/ns-nspapi-_blob
+        href: /windows/win32/api/nspapi/ns-nspapi-blob
       - name: "CSADDR_INFO"
-        href: https://docs.microsoft.com/windows/win32/api/nspapi/ns-nspapi-_csaddr_info
+        href: /windows/win32/api/nspapi/ns-nspapi-csaddr_info
       - name: "fd_set"
         href: /windows/win32/api/winsock/nf-winsock-fd_set
       - name: "GROUP_FILTER"
@@ -1197,7 +1197,7 @@
       - name: "REAL_TIME_NOTIFICATION_SETTING_OUTPUT"
         href: /windows/win32/api/Mstcpip/ns-mstcpip-real_time_notification_setting_output
       - name: "RIO_EXTENSION_FUNCTION_TABLE"
-        href: https://docs.microsoft.com/windows/win32/api/mswsock/ns-mswsock-_rio_extension_function_table
+        href: /windows/win32/api/mswsock/ns-mswsock-rio_extension_function_table
       - name: "RIO_BUF"
         href: /windows/win32/api/Mswsockdef/ns-mswsockdef-rio_buf
       - name: "RIO_BUFFERID"
@@ -1285,7 +1285,7 @@
       - name: "WSAPOLLFD"
         href: /windows/win32/api/Winsock2/ns-winsock2-pollfd
       - name: "WSAPROTOCOL_INFO"
-        href: https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-_wsaprotocol_infoa
+        href: /windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa
       - name: "WSAPROTOCOL_INFOW"
         href: /windows/win32/api/Winsock2/ns-winsock2-wsaprotocol_infow
       - name: "WSAPROTOCOLCHAIN"

@@ -25,7 +25,7 @@ A subsequent call to open this file with [**CreateFile**](/windows/desktop/api/F
 
 void DisplayError(LPTSTR lpszFunction);
 
-void __cdecl _tmain(int argc, TCHAR *argv[])
+int __cdecl _tmain(int argc, TCHAR *argv[])
 {
     HANDLE hFile; 
     char DataBuffer[] = "This is some test data to write to the file.";
@@ -175,7 +175,7 @@ VOID CALLBACK FileIOCompletionRoutine(
 // do not use parameters to differentiate between text and binary file types.
 //
 
-void __cdecl _tmain(int argc, TCHAR *argv[])
+int __cdecl _tmain(int argc, TCHAR *argv[])
 {
     HANDLE hFile; 
     DWORD  dwBytesRead = 0;

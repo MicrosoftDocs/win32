@@ -20,7 +20,6 @@ The CLSID for this effect is CLSID\_D2D1SpotSpecular.
 -   [Spot light source](#spot-light-source)
 -   [Effect properties](#effect-properties)
 -   [Scale modes](#scale-modes)
--   [Sample code](#sample-code)
 -   [Requirements](#requirements)
 -   [Related topics](#related-topics)
 
@@ -100,12 +99,6 @@ The vector ![t vector symbol](images/spot-mathchar-t.png) is defined by these eq
 
 > [!Note]  
 > If you don't select a mode, the effect defaults to D2D1\_SPOTSPECULAR\_SCALE\_MODE\_LINEAR.
-
- 
-
-## Sample code
-
-For an example of this effect, download the [Direct2D lighting effects sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-lighting-effects-e0801da3).
 
 ## Requirements
 

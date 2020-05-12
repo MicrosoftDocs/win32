@@ -21,8 +21,7 @@ Defines swap effects.
 
 ## Syntax
 
-
-```C++
+```cpp
 typedef enum D3DSWAPEFFECT { 
   D3DSWAPEFFECT_DISCARD      = 1,
   D3DSWAPEFFECT_FLIP         = 2,
@@ -32,8 +31,6 @@ typedef enum D3DSWAPEFFECT {
   D3DSWAPEFFECT_FORCE_DWORD  = 0xFFFFFFFF
 } D3DSWAPEFFECT, *LPD3DSWAPEFFECT;
 ```
-
-
 
 ## Constants
 
@@ -71,37 +68,23 @@ For a full-screen swap chain, the runtime uses a combination of flip operations 
 
 Use a dedicated area of video memory that can be overlayed on the primary surface. No copy is performed when the overlay is displayed. The overlay operation is performed in hardware, without modifying the data in the primary surface.
 
-
-
 |                                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Differences between Direct3D 9 and Direct3D 9Ex:<br/> D3DSWAPEFFECT\_OVERLAY is only available in Direct3D9Ex running on Windows 7 (or more current operating system).<br/> |
-
-
-
- 
 
 </dd> <dt>
 
 <span id="D3DSWAPEFFECT_FLIPEX"></span><span id="d3dswapeffect_flipex"></span>**D3DSWAPEFFECT\_FLIPEX**
 </dt> <dd>
 
-Designates when an application is adopting flip mode, during which time an application's frame is passed instead of copied to the Desktop Window Manager(DWM) for composition when the application is presenting in windowed mode. Flip mode allows an application to more efficiently use memory bandwidth as well as enabling an application to take advantage of full-screen-present statistics. Flip mode does not affect full-screen behavior. A sample application that uses [D3DPRESENT\_FORCEIMMEDIATE](d3dpresent.md) and D3DSWAPEFFECT\_FLIPEX is the [D3D9ExFlipEx sample on the MSDN Code Gallery](https://code.msdn.microsoft.com/D3D9ExFlipEx).
+Designates when an application is adopting flip mode, during which time an application's frame is passed instead of copied to the Desktop Window Manager(DWM) for composition when the application is presenting in windowed mode. Flip mode allows an application to more efficiently use memory bandwidth as well as enabling an application to take advantage of full-screen-present statistics. Flip mode does not affect full-screen behavior.
 
 > [!Note]  
 > If you create a swap chain with D3DSWAPEFFECT\_FLIPEX, you can't override the **hDeviceWindow** member of the [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md) structure when you present a new frame for display. That is, you must pass **NULL** to the *hDestWindowOverride* parameter of [**IDirect3DDevice9Ex::PresentEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) to instruct the runtime to use the **hDeviceWindow** member of **D3DPRESENT\_PARAMETERS** for the presentation.
 
- 
-
-
-
 |                                                                                                                                                                                        |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Differences between Direct3D 9 and Direct3D 9Ex:<br/> D3DSWAPEFFECT\_FLIPEX is only available in Direct3D9Ex running on Windows 7 (or more current operating system).<br/> |
-
-
-
- 
 
 </dd> <dt>
 
@@ -126,28 +109,12 @@ An invisible window cannot receive user-mode events; furthermore, an invisible-f
 
 ## Requirements
 
-
-
 |                   |                                                                                        |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 
-
-
 ## See also
 
-<dl> <dt>
-
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
-</dt> <dt>
 
 [**IDirect3DDevice9::Reset**](https://msdn.microsoft.com/library/Bb174425(v=VS.85).aspx)
-</dt> </dl>
-
- 
-
- 
-
-
-
-

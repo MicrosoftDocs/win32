@@ -1289,7 +1289,7 @@
         - name: "D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_ENCRYPTION_GUID_OUTPUT"
           href: /windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_accessibility_encryption_guid_output
         - name: "D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_OUTPUT"
-          href: /windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_acessibility_output
+          href: /windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_accessibility_output
         - name: "D3D11_AUTHENTICATED_QUERY_CHANNEL_TYPE_OUTPUT"
           href: /windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_channel_type_output
         - name: "D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT"
@@ -3408,7 +3408,7 @@
       - name: "eAVEncAdaptiveMode"
         href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencadaptivemode
       - name: "eAVEncH264PictureType"
-        href: eavench264picturetype-.md
+        href: /windows/desktop/api/codecapi/ne-codecapi-eavench264picturetype
       - name: "eAVEncH264PictureType"
         href: /windows/desktop/api/codecapi/ne-codecapi-eavench264picturetype
       - name: "eAVEncH264VLevel"
@@ -3418,7 +3418,7 @@
       - name: "eAVEncVideoContentType"
         href: https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavencvideocontenttype
       - name: "EVRFilterConfigPrefs"
-        href: /windows/desktop/api/evr/ne-evr-_evrfilterconfig_prefs
+        href: /windows/win32/api/evr/ne-evr-evrfilterconfigprefs
       - name: "MF_ATTRIBUTE_SERIALIZE_OPTIONS"
         href: /windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_serialize_options
       - name: "MF_ATTRIBUTE_TYPE"
@@ -3546,13 +3546,13 @@
       - name: "MF3DVideoOutputType"
         href: /windows/win32/api/mftransform/ne-mftransform-mf3dvideooutputtype
       - name: "MFASF_INDEXER_FLAGS"
-        href: /windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_indexerflags
+        href: /windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_indexer_flags
       - name: "MFASF_MULTIPLEXERFLAGS"
         href: /windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_multiplexerflags
       - name: "MFASF_SPLITTERFLAGS"
         href: /windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_splitterflags
       - name: "MFASF_STREAMSELECTOR_FLAGS"
-        href: /windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_streamselectorflags
+        href: /windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_streamselector_flags
       - name: "MFASYNC_WORKQUEUE_TYPE"
         href: /windows/desktop/api/mfapi/ne-mfapi-mfasync_workqueue_type
       - name: "MFAudioConstriction"
@@ -3616,7 +3616,7 @@
       - name: "MFSHUTDOWN_STATUS"
         href: /windows/win32/api/mfidl/ne-mfidl-mfshutdown_status
       - name: "MFSINK_WMDRMACTION"
-        href: https://docs.microsoft.com/windows/desktop/api/wmcontainer/ne-wmcontainer-_mfsink_wmdrmaction
+        href: https://docs.microsoft.com/windows/win32/api/wmcontainer/ne-wmcontainer-mfsink_wmdrmaction
       - name: "MFStandardVideoFormat"
         href: /windows/win32/api/mfobjects/ne-mfobjects-mfstandardvideoformat
       - name: "MFSTREAMSINK_MARKER_TYPE"
@@ -8378,9 +8378,9 @@
       - name: "AecQualityMetrics_Struct"
         href: /windows/win32/api/wmcodecdsp/ns-wmcodecdsp-aecqualitymetrics_struct
       - name: "ASF_FLAT_PICTURE"
-        href: /windows/desktop/api/mfidl/ns-mfidl-_asfflatpicture
+        href: /windows/desktop/api/mfidl/ns-mfidl-asf_flat_picture
       - name: "ASF_FLAT_SYNCHRONISED_LYRICS"
-        href: /windows/desktop/api/mfidl/ns-mfidl-_asfflatsynchronisedlyrics
+        href: /windows/desktop/api/mfidl/ns-mfidl-asf_flat_synchronised_lyrics
       - name: "ASF_INDEX_DESCRIPTOR"
         href: /windows/win32/api/wmcontainer/ns-wmcontainer-asf_index_descriptor
       - name: "ASF_INDEX_IDENTIFIER"
@@ -8450,7 +8450,7 @@
       - name: "MFASYNCRESULT"
         href: /windows/win32/api/mfapi/ns-mfapi-mfasyncresult
       - name: "MFAYUVSample"
-        href: /windows/desktop/api/mfobjects/ns-mfobjects-__mfayuvsample
+        href: /windows/desktop/api/mfobjects/ns-mfobjects-mfayuvsample
       - name: "MFBYTESTREAM_BUFFERING_PARAMS"
         href: /windows/win32/api/mfidl/ns-mfidl-mfbytestream_buffering_params
       - name: "MFCameraExtrinsic_CalibratedTransform"
@@ -8472,7 +8472,7 @@
       - name: "MFFOLDDOWN_MATRIX"
         href: /windows/win32/api/mfapi/ns-mfapi-mffolddown_matrix
       - name: "MFINPUTTRUSTAUTHORITY_ACCESS_ACTION"
-        href: /windows/desktop/api/mfidl/ns-mfidl-_mfinputtrustauthority_action
+        href: /windows/desktop/api/mfidl/ns-mfidl-mfinputtrustauthority_access_action
       - name: "MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS"
         href: /windows/win32/api/mfidl/ns-mfidl-mfinputtrustauthority_access_params
       - name: "MFMPEG2DLNASINKSTATS"
@@ -8561,6 +8561,6 @@
       href: media-foundation-unions.md
       items: 
       - name: "DXVAHD_COLOR"
-        href: /windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_color
+        href: /windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_color_rgba
       - name: "MFPaletteEntry Union"
-        href: /windows/desktop/api/mfobjects/ns-mfobjects-_mfpaletteentry
+        href: /windows/desktop/api/mfobjects/mfobjects/ns-mfobjects-mfargb

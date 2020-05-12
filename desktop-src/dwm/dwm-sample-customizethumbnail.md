@@ -12,7 +12,6 @@ This topic contains the following sections:
 
 -   [Description](#description)
 -   [Requirements](#requirements)
--   [Downloading the Sample](#downloading-the-sample)
 -   [Building the Sample](#building-the-sample)
 -   [Related topics](#related-topics)
 
@@ -26,31 +25,11 @@ The following illustration shows a default thumbnail transformed into a customiz
 
 ## Requirements
 
-
-
 |                          |                                                                                                                     |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 7 or Windows Vista with Service Pack 2 (SP2) and Platform Update for Windows Vista                          |
 | Minimum supported server | Windows Server 2008 R2 or Windows Server 2008 with Service Pack 2 (SP2) and Platform Update for Windows Server 2008 |
 | Windows SDK              | [Windows Software Development Kit (SDK) for Windows 7](https://msdn.microsoft.com/windows/bb980924.aspx)             |
-
-
-
- 
-
-## Downloading the Sample
-
-This sample is available in the following locations.
-
-
-
-| Location     | Path/URL                                                                           |
-|--------------|------------------------------------------------------------------------------------|
-| Code Gallery | [Download from MSDN Code Gallery](https://code.msdn.microsoft.com/dwmcustomizethumbnai) |
-
-
-
- 
 
 ## Building the Sample
 
@@ -67,18 +46,6 @@ This sample is available in the following locations.
 
 ## Related topics
 
-<dl> <dt>
-
 [Desktop Window Manager](dwm-overview.md)
-</dt> <dt>
 
 [Windows Development](https://docs.microsoft.com/windows/desktop/win32-and-com-development)
-</dt> </dl>
-
- 
-
- 
-
-
-
-

@@ -236,7 +236,7 @@ DWORD AsyncTestForEnd( HANDLE hEvent, HANDLE hFile )
     return stOverlapped.Offset;
 }
 
-void __cdecl _tmain(int argc, TCHAR *argv[])
+int __cdecl _tmain(int argc, TCHAR *argv[])
 
 // To force an EOF condition, execute this application specifying a
 // zero-length file. This is because the offset (file pointer) must be

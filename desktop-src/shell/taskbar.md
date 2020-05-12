@@ -135,6 +135,7 @@ You can select which way the Shell should behave by calling [**Shell\_NotifyIcon
 
 With Microsoft Internet Explorer 4.0 and later, the Shell notifies applications that the taskbar has been created. When the taskbar is created, it registers a message with the TaskbarCreated string and then broadcasts this message to all top-level windows. When your taskbar application receives this message, it should assume that any taskbar icons it added have been removed and add them again. This feature generally applies only to services that are already running when the Shell launches. The following example shows a very simplified method for handling this case.
 
+On Windows 10, the taskbar also broadcasts this message when the DPI of the primary display changes.
 
 ```
 LRESULT CALLBACK WndProc(HWND hWnd, 

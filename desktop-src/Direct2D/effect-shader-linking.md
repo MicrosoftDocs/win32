@@ -199,7 +199,7 @@ When compiling an export function version of the same code, the following code i
 
 Note that the texture input, normally retrieved by sampling a Texture2D, has been replaced with a function input (input0).
 
-To see a full, step by step description of what you need to do to write a linking-compatible effect, see the [Custom effects tutorial](custom-effects.md) and the [Direct2D custom image effects sample](https://code.msdn.microsoft.com/windowsapps/Direct2D-custom-image-7a1f2cb5).
+To see a full, step by step description of what you need to do to write a linking-compatible effect, see the [Custom effects tutorial](custom-effects.md) and the [Direct2D custom image effects sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects).
 
 ## Compiling a linking compatible-shader
 

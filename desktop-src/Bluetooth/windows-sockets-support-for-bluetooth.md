@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Windows Sockets Support for Bluetooth
 
-This section describes how to use the Windows Sockets interface with Bluetooth functionality introduced in Windows Vista. For more details on the APIs that make this possible, see [Bluetooth Programming with Windows Sockets](bluetooth-programming-with-windows-sockets.md) and the [Bluetooth connection sample](https://code.msdn.microsoft.com/windowsdesktop/Bluetooth-Connection-e3263296).
+This section describes how to use the Windows Sockets interface with Bluetooth functionality introduced in Windows Vista. For more details on the APIs that make this possible, see [Bluetooth Programming with Windows Sockets](bluetooth-programming-with-windows-sockets.md) and the [Bluetooth connection sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Bluetooth%20connection%20sample).
 
 For information about how to directly manage devices by using non-sockets Bluetooth interfaces, see [Managing Bluetooth Devices and Services](managing-bluetooth-devices-and-services.md).
 
@@ -29,7 +29,7 @@ This section contains the following topics.
 [Bluetooth Programming with Windows Sockets](bluetooth-programming-with-windows-sockets.md)
 </dt> <dt>
 
-[Bluetooth connection sample](https://code.msdn.microsoft.com/windowsdesktop/Bluetooth-Connection-e3263296)
+[Bluetooth connection sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Bluetooth%20connection%20sample)
 </dt> </dl>
 
  

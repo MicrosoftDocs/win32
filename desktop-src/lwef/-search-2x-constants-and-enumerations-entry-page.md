@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 [**ChangeAdviseCodes**](https://msdn.microsoft.com/library/Aa965736(v=VS.85).aspx)
 
-[**ColumnSortOrder**](/windows/desktop/api/mmcobj/ne-mmcobj-columnsortorder)
+[**ColumnSortOrder**](/windows/win32/api/mmcobj/ne-mmcobj-_columnsortorder)
 
 [**HeaderDisplayStyle**](-search-2x-headerdisplaystyleenum.md)
 

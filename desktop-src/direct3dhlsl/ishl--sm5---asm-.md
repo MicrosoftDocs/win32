@@ -24,8 +24,8 @@ Shift left.
 | Item                                                            | Description                                          |
 |-----------------------------------------------------------------|------------------------------------------------------|
 | <span id="dest"></span><span id="DEST"></span>*dest*<br/> | \[in\] Contains the results of the shift.<br/> |
-| <span id="src0"></span><span id="SRC0"></span>*src0*<br/> | \[in\] The number of bits to shift.<br/>       |
-| <span id="src1"></span><span id="SRC1"></span>*src1*<br/> | \[in\] The 32-bit values to shift.<br/>        |
+| <span id="src0"></span><span id="SRC0"></span>*src0*<br/> | \[in\] The 32-bit values to shift.<br/>       |
+| <span id="src1"></span><span id="SRC1"></span>*src1*<br/> | \[in\] The number of bits to shift.<br/>        |
 
 
 
