@@ -66,35 +66,35 @@
         - name: "User Interaction"
           items: 
           - name: "Overview"
-            href: user-interaction.md
+            href: /windows/win32/user-interaction
           - name: "Direct Manipulation"
-            href: directmanipulation/direct-manipulation-portal.md
+            href: /windows/win32/directmanipulation/direct-manipulation-portal
           - name: "Ink input"
-            href: input_ink/input-ink-portal.md
+            href: /windows/win32/input_ink/input-ink-portal
           - name: "Input feedback configuration"
-            href: input_feedback/input-feedback-configuration-portal.md
+            href: /windows/win32/input_feedback/input-feedback-configuration-portal
           - name: "Input source identification"
-            href: input_sourceid/input-source-identification-portal.md
+            href: /windows/win32/input_sourceid/input-source-identification-portal
           - name: "Interaction context"
-            href: input_intcontext/interaction-context-portal.md
+            href: /windows/win32/input_intcontext/interaction-context-portal
           - name: "Pointer device stack"
-            href: input_pointerdevice/pointer-device-stack-portal.md
+            href: /windows/win32/input_pointerdevice/pointer-device-stack-portal
           - name: "Pointer Input Messages and Notifications"
-            href: inputmsg/messages-and-notifications-portal.md
+            href: /windows/win32/inputmsg/messages-and-notifications-portal
           - name: "Radial controller input"
-            href: input_radial/radialcontroller-portal.md
+            href: /windows/win32/input_radial/radialcontroller-portal
           - name: "Text Services Framework"
-            href: tsf/text-services-framework.md
+            href: /windows/win32/tsf/text-services-framework
           - name: "Touch input hit testing"
-            href: input_touchhittest/touch-hit-testing-portal.md
+            href: /windows/win32/input_touchhittest/touch-hit-testing-portal
           - name: "Touch input injection"
-            href: input_touchinjection/touch-injection-portal.md
+            href: /windows/win32/input_touchinjection/touch-injection-portal
           - name: "Legacy User Interaction Features"
             items: 
             - name: "Overview"
-              href: legacy-user-interaction-features.md
+              href: /windows/win32/legacy-user-interaction-features
             - name: "Touch Input"
-              href: wintouch/windows-touch-portal.md
+              href: /windows/win32/wintouch/windows-touch-portal
             - name: "Keyboard and Mouse Input"
               href: /windows/win32/inputdev/user-input
             - name: "MultiPoint Mouse"
