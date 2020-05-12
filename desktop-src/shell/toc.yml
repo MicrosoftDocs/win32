@@ -445,11 +445,11 @@
           - name: "GetPropertyFromIDList Method"
             href: https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_pcwstr_propvariant)
           - name: "GetPropertyFromIDList Method"
-            href: https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_pcwstr_propvariant)
+            href: https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_pcwstr_variant)
           - name: "GetPropertyFromIDList Method"
-            href: https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist
+            href: https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_refpropertykey_propvariant)
           - name: "GetPropertyFromIDList Method"
-            href: https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_pcwstr_propvariant)
+            href: https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_refpropertykey_variant)
         - name: "GetPropertyStorageFromIDList Method"
           href: /windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertystoragefromidlist
         - name: "CreateItemID Method"
@@ -3423,7 +3423,7 @@
         - name: "RetrieveProperties method"
           href: /windows/desktop/api/storageprovider/nf-storageprovider-istorageproviderpropertyhandler-retrieveproperties
         - name: "SaveProperties method"
-          href: https://docs.microsoft.com/windows/desktop/shell/istorageproviderpropertyhandler-saveproperties
+          href: /windows/win32/api/storageprovider/nf-storageprovider-istorageproviderpropertyhandler-saveproperties
       - name: "IStreamAsync"
         href: /windows/desktop/api/Shobjidl/nn-shobjidl-istreamasync
         items: 
@@ -4021,14 +4021,14 @@
       - name: "IViewStateIdentityItem"
         href: https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iviewstateidentityitem
       - name: "IVirtualDesktopManager"
-        href: /windows/desktop/api/shobjidl/nn-shobjidl-ivirtualdesktopmanager
+        href: /windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager
         items: 
         - name: "GetWindowDesktopId"
-          href: /windows/desktop/api/shobjidl/nf-shobjidl-ivirtualdesktopmanager-getwindowdesktopid
+          href: /windows/win32/api/shobjidl_core/nf-shobjidl_core-ivirtualdesktopmanager-getwindowdesktopid
         - name: "IsWindowOnCurrentVirtualDesktop"
-          href: /windows/desktop/api/shobjidl/nf-shobjidl-ivirtualdesktopmanager-iswindowoncurrentvirtualdesktop
+          href: /windows/win32/api/shobjidl_core/nf-shobjidl_core-ivirtualdesktopmanager-iswindowoncurrentvirtualdesktop
         - name: "MoveWindowToDesktop"
-          href: /windows/desktop/api/shobjidl/nf-shobjidl-ivirtualdesktopmanager-movewindowtodesktop
+          href: /windows/win32/api/shobjidl_core/nf-shobjidl_core-ivirtualdesktopmanager-movewindowtodesktop
       - name: "IVisualProperties"
         href: /windows/desktop/api/Shobjidl/nn-shobjidl-ivisualproperties
         items: 
@@ -4094,25 +4094,25 @@
           - name: "ByteToInt8"
             href: /windows/desktop/api/intsafe/nf-intsafe-bytetoint8
           - name: "DWordPtrToInt"
-            href: dwordptrtoint.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776679(v=vs.85)
           - name: "DWordPtrToInt64"
-            href: dwordptrtoint64.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776680(v=vs.85)
           - name: "DWordToLongPtr"
-            href: dwordtolongptr.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776694(v=vs.85)
           - name: "DWordToSSIZET"
-            href: dwordtossizet.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776697(v=vs.85)
           - name: "Int64ToInt"
-            href: int64toint.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776705(v=vs.85)
           - name: "Int64ToIntPtr"
-            href: int64tointptr.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776706(v=vs.85)
           - name: "Int64ToLong"
-            href: int64tolong.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776707(v=vs.85)
           - name: "Int64ToLongPtr"
-            href: int64tolongptr.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776708(v=vs.85)
           - name: "Int64ToULongLong"
-            href: int64toulonglong.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776716(v=vs.85)
           - name: "Int64ToULongPtr"
-            href: int64toulongptr.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776717(v=vs.85)
           - name: "Int8ToUChar"
             href: /windows/desktop/api/intsafe/nf-intsafe-int8touchar
           - name: "Int8ToUInt"
@@ -4132,9 +4132,9 @@
           - name: "IntPtrToChar"
             href: /windows/desktop/api/intsafe/nf-intsafe-intptrtochar
           - name: "IntPtrToDWord"
-            href: intptrtodword.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776718(v=vs.85)
           - name: "IntPtrToDWordPtr"
-            href: intptrtodwordptr.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776719(v=vs.85)
           - name: "IntPtrToInt"
             href: /windows/desktop/api/Intsafe/nf-intsafe-intptrtoint
           - name: "IntPtrToInt8"
@@ -4146,7 +4146,7 @@
           - name: "IntPtrToShort"
             href: /windows/desktop/api/intsafe/nf-intsafe-intptrtoshort
           - name: "IntPtrToSizeT"
-            href: intptrtosizet.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776722(v=vs.85)
           - name: "IntPtrToUChar"
             href: /windows/desktop/api/intsafe/nf-intsafe-intptrtouchar
           - name: "IntPtrToUInt"
@@ -4164,11 +4164,11 @@
           - name: "IntPtrToUShort"
             href: /windows/desktop/api/intsafe/nf-intsafe-intptrtoushort
           - name: "IntToByte"
-            href: inttobyte.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776729(v=vs.85)
           - name: "IntToChar"
             href: /windows/desktop/api/Intsafe/nf-intsafe-inttochar
           - name: "IntToDWord"
-            href: inttodword.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776731(v=vs.85)
           - name: "IntToInt8"
             href: /windows/desktop/api/intsafe/nf-intsafe-inttoint8
           - name: "IntToShort"
@@ -4216,9 +4216,9 @@
           - name: "LongPtrToChar"
             href: /windows/desktop/api/intsafe/nf-intsafe-longptrtochar
           - name: "LongPtrToDWord"
-            href: longptrtodword.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776744(v=vs.85)
           - name: "LongPtrToDWordPtr"
-            href: longptrtodwordptr.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776745(v=vs.85)
           - name: "LongPtrToInt"
             href: /windows/desktop/api/Intsafe/nf-intsafe-longptrtoint
           - name: "LongPtrToInt8"
@@ -4246,11 +4246,11 @@
           - name: "LongPtrToUShort"
             href: /windows/desktop/api/intsafe/nf-intsafe-longptrtoushort
           - name: "LongToByte"
-            href: longtobyte.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776756(v=vs.85)
           - name: "LongToChar"
             href: /windows/desktop/api/Intsafe/nf-intsafe-longtochar
           - name: "LongToDWord"
-            href: longtodword.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776758(v=vs.85)
           - name: "LongToInt"
             href: /windows/desktop/api/Intsafe/nf-intsafe-longtoint
           - name: "LongToInt8"
@@ -4260,7 +4260,7 @@
           - name: "LongToShort"
             href: /windows/desktop/api/Intsafe/nf-intsafe-longtoshort
           - name: "LongToSizeT"
-            href: longtosizet.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776764(v=vs.85)
           - name: "LongToUChar"
             href: /windows/desktop/api/Intsafe/nf-intsafe-longtouchar
           - name: "LongToUInt"
@@ -4278,7 +4278,7 @@
           - name: "LongToUShort"
             href: /windows/desktop/api/Intsafe/nf-intsafe-longtoushort
           - name: "ShortToByte"
-            href: shorttobyte.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762359(v=vs.85)
           - name: "ShortToChar"
             href: /windows/desktop/api/Intsafe/nf-intsafe-shorttochar
           - name: "ShortToDWordPtr"
@@ -4302,7 +4302,7 @@
           - name: "ShortToUShort"
             href: /windows/desktop/api/Intsafe/nf-intsafe-shorttoushort
           - name: "SIZETToDWord_1"
-            href: sizettodword-1.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762365(v=vs.85)
           - name: "SizeTToInt"
             href: /windows/desktop/api/Intsafe/nf-intsafe-ulongptrtoint
           - name: "SIZETToInt_1"
@@ -4310,13 +4310,13 @@
           - name: "SIZETToInt64_1"
             href: /windows/desktop/api/Intsafe/nf-intsafe-ulongptrtolonglong
           - name: "SizeTToIntPtr"
-            href: sizettointptr.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762370(v=vs.85)
           - name: "SizeTToLong"
             href: /windows/desktop/api/Intsafe/nf-intsafe-uintptrtolong
           - name: "SizeTToLongPtr"
-            href: sizettolongptr.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762374(v=vs.85)
           - name: "SizeTToUInt"
-            href: sizettouint.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762380(v=vs.85)
           - name: "UInt8ToChar"
             href: /windows/desktop/api/intsafe/nf-intsafe-uint8tochar
           - name: "UInt8ToInt8"
@@ -4324,7 +4324,7 @@
           - name: "UIntPtrToChar"
             href: /windows/desktop/api/intsafe/nf-intsafe-uintptrtochar
           - name: "UIntPtrToInt"
-            href: uintptrtoint.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762396(v=vs.85)
           - name: "UIntPtrToInt16"
             href: /windows/desktop/api/intsafe/nf-intsafe-uintptrtoint16
           - name: "UIntPtrToInt8"
@@ -4352,7 +4352,7 @@
           - name: "UIntPtrToUShort"
             href: /windows/desktop/api/intsafe/nf-intsafe-uintptrtoushort
           - name: "UIntToByte"
-            href: uinttobyte.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762404(v=vs.85)
           - name: "UIntToChar"
             href: /windows/desktop/api/Intsafe/nf-intsafe-uinttochar
           - name: "UIntToInt"
@@ -4376,13 +4376,13 @@
           - name: "ULongLongToChar"
             href: /windows/desktop/api/intsafe/nf-intsafe-ulonglongtochar
           - name: "ULongLongToDWord"
-            href: ulonglongtodword.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762416(v=vs.85)
           - name: "ULongLongToDWordPtr"
-            href: ulonglongtodwordptr.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762417(v=vs.85)
           - name: "ULongLongToInt"
             href: /windows/desktop/api/Intsafe/nf-intsafe-ulonglongtoint
           - name: "ULongLongToInt64"
-            href: ulonglongtoint64.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762419(v=vs.85)
           - name: "ULongLongToInt8"
             href: /windows/desktop/api/intsafe/nf-intsafe-ulonglongtoint8
           - name: "ULongLongToIntPtr"
@@ -4396,7 +4396,7 @@
           - name: "ULongLongToShort"
             href: /windows/desktop/api/intsafe/nf-intsafe-ulonglongtoshort
           - name: "ULongLongToSizeT"
-            href: ulonglongtosizet.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762424(v=vs.85)
           - name: "ULongLongToUChar"
             href: /windows/desktop/api/intsafe/nf-intsafe-ulonglongtouchar
           - name: "ULongLongToUInt"
@@ -4464,7 +4464,7 @@
           - name: "ULongToUShort"
             href: /windows/desktop/api/Intsafe/nf-intsafe-ulongtoushort
           - name: "UShortToByte"
-            href: ushorttobyte.md
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762457(v=vs.85)
           - name: "UShortToChar"
             href: /windows/desktop/api/Intsafe/nf-intsafe-ushorttochar
           - name: "UShortToInt8"
@@ -4669,7 +4669,7 @@
       - name: "CDefFolderMenu_Create2"
         href: /windows/desktop/api/shlobj_core/nf-shlobj_core-cdeffoldermenu_create2
       - name: "CIShutdown"
-        href: /windows/desktop/api/Ntquery/nf-ntquery-cishutdown
+        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776426(v%3dvs.85)
       - name: "CommandLineToArgvW"
         href: /windows/desktop/api/Shellapi/nf-shellapi-commandlinetoargvw
       - name: "APPLET_PROC"
@@ -5077,9 +5077,9 @@
       - name: "_SVSIF"
         href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-_svsif
       - name: "APPACTIONFLAGS"
-        href: /windows/desktop/api/Shappmgr/ne-shappmgr-_tagappactionflags
+        href: /windows/win32/api/shappmgr/ne-shappmgr-appactionflags
       - name: "APPINFODATAFLAGS"
-        href: /windows/desktop/api/Shappmgr/ne-shappmgr-_tagappinfoflags
+        href: /windows/win32/api/shappmgr/ne-shappmgr-appinfodataflags
       - name: "APPLICATION_VIEW_ORIENTATION"
         href: /windows/desktop/api/Shobjidl_core/ne-shobjidl_core-application_view_orientation
       - name: "APPLICATION_VIEW_SIZE_PREFERENCE"
@@ -5105,7 +5105,7 @@
       - name: "AUTOCOMPLETELISTOPTIONS"
         href: /windows/desktop/api/shlobj_core/ne-shlobj_core-_tagautocompletelistoptions
       - name: "AUTOCOMPLETEOPTIONS"
-        href: /windows/desktop/api/Shldisp/ne-shldisp-_tagautocompleteoptions
+        href: /windows/win32/api/shldisp/ne-shldisp-autocompleteoptions
       - name: "Bind Context String Keys"
         href: str-constants.md
       - name: "BNSTATE"
@@ -5245,7 +5245,7 @@
       - name: "PERCEIVED"
         href: /windows/win32/api/Shtypes/ne-shtypes-perceived
       - name: "PUBAPPINFOFLAGS"
-        href: /windows/desktop/api/Shappmgr/ne-shappmgr-_tagpublishedappinfoflags
+        href: /windows/win32/api/shappmgr/ne-shappmgr-pubappinfoflags
       - name: "QUERY_USER_NOTIFICATION_STATE"
         href: /windows/desktop/api/Shellapi/ne-shellapi-query_user_notification_state
       - name: "Registry Data Types"
@@ -5343,19 +5343,19 @@
       - name: "SYNCMGR_SYNC_CONTROL_FLAGS"
         href: /windows/desktop/api/Syncmgr/ne-syncmgr-syncmgr_sync_control_flags
       - name: "SYNCMGRFLAG"
-        href: /windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgrflag
+        href: /windows/win32/api/mobsync/ne-mobsync-syncmgrflag
       - name: "SYNCMGRHANDLERFLAGS"
-        href: /windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgrhandlerflags
+        href: /windows/win32/api/mobsync/ne-mobsync-syncmgrhandlerflags
       - name: "SYNCMGRINVOKEFLAGS"
-        href: /windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgrinvokeflags
+        href: /windows/win32/api/mobsync/ne-mobsync-syncmgrinvokeflags
       - name: "SYNCMGRITEMFLAGS"
-        href: /windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgritemflags
+        href: /windows/win32/api/mobsync/ne-mobsync-syncmgritemflags
       - name: "SYNCMGRLOGLEVEL"
-        href: /windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgrloglevel
+        href: /windows/win32/api/mobsync/ne-mobsync-syncmgrloglevel
       - name: "SYNCMGRREGISTERFLAGS"
-        href: /windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgrregisterflags
+        href: /windows/win32/api/mobsync/ne-mobsync-syncmgrregisterflags
       - name: "SYNCMGRSTATUS"
-        href: /windows/desktop/api/Mobsync/ne-mobsync-_tagsyncmgrstatus
+        href: /windows/win32/api/mobsync/ne-mobsync-syncmgrstatus
       - name: "THUMBBUTTONFLAGS"
         href: /windows/desktop/api/shobjidl_core/ne-shobjidl_core-thumbbuttonflags
       - name: "THUMBBUTTONMASK"
@@ -6609,7 +6609,7 @@
       - name: "CATEGORY_INFO"
         href: /windows/desktop/api/shobjidl_core/ns-shobjidl_core-category_info
       - name: "CIDA"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_ida
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-cida
       - name: "CM_COLUMNINFO"
         href: /windows/desktop/api/shobjidl_core/ns-shobjidl_core-cm_columninfo
       - name: "CMINVOKECOMMANDINFO"
@@ -6619,13 +6619,13 @@
       - name: "COMDLG_FILTERSPEC"
         href: /windows/win32/api/Shtypes/ns-shtypes-comdlg_filterspec
       - name: "COMPONENT"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-component
       - name: "COMPONENTSOPT"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponentsopt
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-componentsopt
       - name: "COMPPOS"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomppos
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-comppos
       - name: "COMPSTATEINFO"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcompstateinfo
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-compstateinfo
       - name: "CONFIRM_CONFLICT_ITEM"
         href: /windows/desktop/api/Syncmgr/ns-syncmgr-confirm_conflict_item
       - name: "CONFIRM_CONFLICT_RESULT_INFO"
@@ -6671,9 +6671,9 @@
       - name: "FILE_ATTRIBUTES_ARRAY"
         href: /windows/desktop/api/shlobj_core/ns-shlobj_core-file_attributes_array
       - name: "FILEDESCRIPTOR"
-        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_filedescriptora
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-filedescriptora
       - name: "FILEGROUPDESCRIPTOR"
-        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_filegroupdescriptora
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-filegroupdescriptora
       - name: "FMS_GETDRIVEINFO"
         href: fms-getdriveinfo.md
       - name: "FMS_GETFILESEL"
@@ -6693,7 +6693,7 @@
       - name: "HELPWININFO"
         href: /windows/win32/api/Winuser/ns-winuser-helpwininfoa
       - name: "IE4COMPONENT"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_tagie4component
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-ie4component
       - name: "ITEMIDLIST"
         href: /windows/win32/api/Shtypes/ns-shtypes-itemidlist
       - name: "ITEMSPACING"
@@ -6799,15 +6799,15 @@
       - name: "SHSTOCKICONINFO"
         href: /windows/win32/api/Shellapi/ns-shellapi-shstockiconinfo
       - name: "SLOWAPPINFO"
-        href: /windows/desktop/api/Shappmgr/ns-shappmgr-_tagslowappinfo
+        href: /windows/win32/api/shappmgr/ns-shappmgr-slowappinfo
       - name: "SMCSHCHANGENOTIFYSTRUCT"
-        href: /windows/desktop/api/shobjidl_core/ns-shobjidl_core-shcschangenotifystruct
+        href: /windows/win32/api/shobjidl_core/ns-shobjidl_core-smcshchangenotifystruct
       - name: "SMDATA"
         href: /windows/win32/api/Shobjidl_core/ns-shobjidl_core-smdata
       - name: "SMINFO"
         href: /windows/win32/api/Shobjidl_core/ns-shobjidl_core-sminfo
       - name: "SOFTDISTINFO"
-        href: /windows/desktop/api/Urlmon/ns-urlmon-_tagsoftdistinfo
+        href: /windows/win32/api/urlmon/ns-urlmon-softdistinfo
       - name: "SORTCOLUMN"
         href: /windows/desktop/api/Shobjidl_core/ns-shobjidl_core-sortcolumn
       - name: "STRRET"
@@ -6819,19 +6819,19 @@
       - name: "SYNCMGR_CONFLICT_ID_INFO"
         href: /windows/desktop/api/Syncmgr/ns-syncmgr-syncmgr_conflict_id_info
       - name: "SYNCMGRHANDLERINFO"
-        href: /windows/desktop/api/Mobsync/ns-mobsync-_tagsyncmgrhandlerinfo
+        href: /windows/win32/api/mobsync/ns-mobsync-syncmgrhandlerinfo
       - name: "SYNCMGRITEM"
-        href: /windows/desktop/api/Mobsync/ns-mobsync-_tagsyncmgritem
+        href: /windows/win32/api/mobsync/ns-mobsync-syncmgritem
       - name: "SYNCMGRLOGERRORINFO"
-        href: /windows/desktop/api/Mobsync/ns-mobsync-_tagsyncmgrlogerrorinfo
+        href: /windows/win32/api/mobsync/ns-mobsync-syncmgrlogerrorinfo
       - name: "SYNCMGRPROGRESSITEM"
-        href: /windows/desktop/api/Mobsync/ns-mobsync-_tagsyncmgrprogressitem
+        href: /windows/win32/api/mobsync/ns-mobsync-syncmgrprogressitem
       - name: "TBINFO"
         href: /windows/win32/api/Shlobj/ns-shlobj-tbinfo
       - name: "THUMBBUTTON"
         href: /windows/desktop/api/Shobjidl_core/ns-shobjidl_core-thumbbutton
       - name: "WALLPAPEROPT"
-        href: /windows/desktop/api/shlobj_core/ns-shlobj_core-_tagwallpaperopt
+        href: /windows/win32/api/shlobj_core/ns-shlobj_core-wallpaperopt
       - name: "WINDOWDATA"
         href: /windows/win32/api/Tlogstg/ns-tlogstg-windowdata
       - name: "WTS_CONTEXTFLAGS"
@@ -6854,7 +6854,7 @@
     - name: "FOLDERSETDATA"
       href: /windows/win32/api/Shdeprecated/ns-shdeprecated-foldersetdata
     - name: "TOOLBARITEM"
-      href: /windows/desktop/api/Shdeprecated/ns-shdeprecated-stoolbaritem
+      href: /windows/win32/api/shdeprecated/ns-shdeprecated-toolbaritem
     - name: "AddMRUStringW"
       href: addmrustring.md
     - name: "CallCPLEntry16"
@@ -7134,7 +7134,7 @@
     - name: "StopWatchMode"
       href: /windows/desktop/api/Shlwapi/nf-shlwapi-stopwatchmode
     - name: "UpdateAllDesktopSubscriptions"
-      href: /windows/desktop/api/shlobj/nf-shlobj-updatealldesktopsubscriptions
+      href: /windows/win32/api/shlobj/nf-shlobj-iadesktopp2-updatealldesktopsubscriptions
     - name: "UrlFixupW"
       href: /windows/desktop/api/Shlwapi/nf-shlwapi-urlfixupw
     - name: "WhichPlatform"
@@ -7820,7 +7820,7 @@
       - name: "Revert"
         href: /windows/desktop/api/Shdeprecated/nf-shdeprecated-itravellog-revert
       - name: "Travel"
-        href: /windows/desktop/api/Shdeprecated/nf-shdeprecated-itravellog-travel
+        href: /windows/win32/api/shdeprecated/nf-shdeprecated-itravellog-travel
       - name: "UpdateEntry"
         href: /windows/desktop/api/Shdeprecated/nf-shdeprecated-itravellog-updateentry
       - name: "UpdateExternal"

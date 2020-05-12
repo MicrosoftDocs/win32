@@ -4173,7 +4173,7 @@
       - name: "CRYPTNET_URL_CACHE_RESPONSE_INFO"
         href: /windows/win32/api/Wincrypt/ns-wincrypt-cryptnet_url_cache_response_info
       - name: "CRYPTOAPI_BLOB"
-        href: /windows/desktop/api/dpapi/ns-dpapi-_cryptoapi_blob
+        href: https://docs.microsoft.com/previous-versions/aa924570(v%3dmsdn.10)
       - name: "CRYPTPROTECT_PROMPTSTRUCT"
         href: /windows/win32/api/Dpapi/ns-dpapi-cryptprotect_promptstruct
       - name: "CRYPTUI_CERT_MGR_STRUCT"
@@ -4205,7 +4205,7 @@
       - name: "CRYPTUI_WIZ_EXPORT_INFO"
         href: /windows/win32/api/Cryptuiapi/ns-cryptuiapi-cryptui_wiz_export_info
       - name: "CRYPTUI_WIZ_IMPORT_SRC_INFO"
-        href: /windows/desktop/api/Cryptuiapi/ns-cryptuiapi-_cryptui_wiz_import_subject_info
+        href: /windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_import_src_info
       - name: "CTL_ANY_SUBJECT_INFO"
         href: /windows/win32/api/Wincrypt/ns-wincrypt-ctl_any_subject_info
       - name: "CTL_CONTEXT"
@@ -4229,11 +4229,11 @@
       - name: "CTL_VERIFY_USAGE_STATUS"
         href: /windows/win32/api/Wincrypt/ns-wincrypt-ctl_verify_usage_status
       - name: "DHPRIVKEY_VER3"
-        href: /windows/desktop/api/Wincrypt/ns-wincrypt-_privkeyver3
+        href: /windows/win32/api/wincrypt/ns-wincrypt-dhprivkey_ver3
       - name: "DHPUBKEY"
-        href: /windows/desktop/api/Wincrypt/ns-wincrypt-_pubkey
+        href: /windows/win32/api/wincrypt/ns-wincrypt-dhpubkey
       - name: "DHPUBKEY_VER3"
-        href: /windows/desktop/api/Wincrypt/ns-wincrypt-_pubkeyver3
+        href: /windows/win32/api/wincrypt/ns-wincrypt-dhpubkey_ver3
       - name: "Diffie-Hellman Version 3 Private Key BLOBs"
         href: diffie-hellman-version-3-private-key-blobs.md
       - name: "Diffie-Hellman Version 3 Public Key BLOBs"
