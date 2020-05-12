@@ -44,7 +44,7 @@ This sample is available in the following locations:
 | Location     | Path/URL                                                                                                                  |
 |--------------|---------------------------------------------------------------------------------------------------------------------------|
 | Windows SDK  | \\Program Files\\Microsoft SDKs\\Windows\\v7.0\\Samples\\multimedia\\wic\\WICViewerD2D\\                                  |
-| Code Gallery | [Windows Imaging Component Animated GIF Win32 Sample](https://code.msdn.microsoft.com/Windows-Imaging-Component-65abbc6a) |
+| Code Gallery | [Windows Imaging Component Animated GIF Win32 Sample](https://github.com/microsoftarchive/msdn-code-gallery-community-s-z/tree/master/Windows%20Imaging%20Component%20Animated%20GIF%20Win32%20Sample) |
 
 
 
