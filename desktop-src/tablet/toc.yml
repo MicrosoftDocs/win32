@@ -2684,8 +2684,6 @@
           href: /windows/desktop/api/recapis/nf-recapis-resetcontext
         - name: "SetCACMode Function"
           href: /windows/desktop/api/recapis/nf-recapis-setcacmode
-        - name: "SetConstraint"
-          href: setconstraint-function.md
         - name: "SetContextPropertyValue Function"
           href: /windows/desktop/api/recapis/nf-recapis-setcontextpropertyvalue
         - name: "SetEnabledUnicodeRanges Function"
