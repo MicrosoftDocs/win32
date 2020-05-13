@@ -2736,11 +2736,11 @@
         href: recognizer-api-enumerations.md
         items: 
         - name: "ALT_BREAKS Enumeration"
-          href: /windows/desktop/api/rectypes/ne-rectypes-enumalt_breaks
+          href: /windows/win32/api/rectypes/ne-rectypes-alt_breaks
         - name: "CONFIDENCE_LEVEL Enumeration"
-          href: /windows/desktop/api/rectypes/ne-rectypes-enumconfidence_level
+          href: /windows/win32/api/rectypes/ne-rectypes-confidence_level
         - name: "LINE_METRICS Enumeration"
-          href: /windows/desktop/api/rectypes/ne-rectypes-enumline_metrics
+          href: /windows/win32/api/rectypes/ne-rectypes-line_metrics
         - name: "PROPERTY_UNITS Enumeration"
           href: /windows/win32/api/tpcshrd/ne-tpcshrd-property_units
       - name: "Recognizer Structures"
