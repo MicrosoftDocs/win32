@@ -8,12 +8,6 @@ ms.date: 06/20/2019
 
 # Using DXCore to enumerate adapters
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
-> [!IMPORTANT]
-> The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
-
 DXCore is an adapter enumeration API for DirectX devices, so some of its facilities overlap with those of [DXGI](/windows/win32/direct3ddxgi/dx-graphics-dxgi).
 
 DXCore enables the exposure of new device types to user mode, such as MCDM (Microsoft Compute Driver Model), for use with [Direct3D 12](/windows/win32/direct3d12/directx-12-programming-guide), [DirectML](/windows/win32/direct3d12/dml), and [Windows Machine Learning](/windows/ai/windows-ml/). DXCore, unlike DXGI, does not provide any information about display-related technology or properties

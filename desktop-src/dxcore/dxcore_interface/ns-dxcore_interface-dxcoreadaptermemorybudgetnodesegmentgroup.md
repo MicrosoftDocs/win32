@@ -8,12 +8,6 @@ ms.date: 06/20/2019
 
 # DXCoreAdapterMemoryBudgetNodeSegmentGroup structure
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
-> [!IMPORTANT]
-> The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
-
 Describes a memory segment group for an adapter.
 
 ## Syntax

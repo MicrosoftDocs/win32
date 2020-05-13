@@ -8,12 +8,6 @@ ms.date: 06/20/2019
 
 # PFN_DXCORE_NOTIFICATION_CALLBACK callback
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
-> [!IMPORTANT]
-> The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
-
 A callback function (implemented by your application), which is called by a DXCore object for notification events.
 
 ## Syntax
