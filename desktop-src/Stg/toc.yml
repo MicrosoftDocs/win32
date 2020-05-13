@@ -572,17 +572,17 @@
       href: structures.md
       items: 
       - name: "PROPSPEC"
-        href: https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropspec
+        href: /windows/win32/api/propidl/ns-propidl-propspec
       - name: "PROPVARIANT"
-        href: https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant
+        href: /windows/win32/api/propidl/ns-propidl-propvariant
       - name: "RemSNB"
         href: /windows/win32/api/Objidl/ns-objidl-remsnb
       - name: "SNB"
         href: snb.md
       - name: "STATPROPSETSTG"
-        href: https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropsetstg
+        href: /windows/win32/api/propidl/ns-propidl-statpropsetstg
       - name: "STATPROPSTG"
-        href: https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg
+        href: /windows/win32/api/propidl/ns-propidl-statpropstg
       - name: "STATSTG"
         href: /windows/win32/api/Objidl/ns-objidl-statstg
       - name: "STGOPTIONS"

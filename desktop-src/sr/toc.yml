@@ -37,9 +37,9 @@
       href: system-restore-structures.md
       items: 
       - name: "RESTOREPOINTINFO"
-        href: /windows/desktop/api/SRRestorePtAPI/ns-srrestoreptapi-_restoreptinfoa
+        href: /windows/win32/api/srrestoreptapi/ns-srrestoreptapi-restorepointinfoa
       - name: "STATEMGRSTATUS"
-        href: /windows/desktop/api/SRRestorePtAPI/ns-srrestoreptapi-_smgrstatus
+        href: /windows/win32/api/srrestoreptapi/ns-srrestoreptapi-statemgrstatus
     - name: "System Restore WMI Classes"
       href: system-restore-wmi-classes.md
       items: 
