@@ -100,7 +100,7 @@ int _tmain(int argc, TCHAR *argv[])
  
 // Read from pipe that is the standard output for child process. 
  
-   printf( "\n->Contents of child process STDOUT:\n\n", argv[1]);
+   printf( "\n->Contents of child process STDOUT:\n\n");
    ReadFromPipe(); 
 
    printf("\n->End of parent execution.\n");
