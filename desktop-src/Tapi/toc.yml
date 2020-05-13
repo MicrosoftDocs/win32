@@ -265,7 +265,7 @@
           - name: "Tone Monitoring"
             href: tone-monitoring.md
         - name: "Media Control"
-          href: media-control-tapi2.md
+          href: /windows/win32/tapi/media-control
         - name: "Digit Gathering"
           href: digit-gathering.md
         - name: "Generating Inband Digits and Tones"
@@ -688,7 +688,7 @@
           - name: "LINEAGENTLIST"
             href: /windows/win32/api/Tapi/ns-tapi-lineagentlist
           - name: "LINEAGENTSESSIONENTRY"
-            href: /windows/desktop/api/Tapi/ns-tapi-lineagentsession_tag
+            href: /windows/win32/api/tapi/ns-tapi-lineagentsessionentry
           - name: "LINEAGENTSESSIONINFO"
             href: /windows/win32/api/Tapi/ns-tapi-lineagentsessioninfo
           - name: "LINEAGENTSESSIONLIST"
@@ -3791,7 +3791,7 @@
             - name: "Line_Event"
               href: https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent
             - name: "Phone_Event"
-              href: phone-event.md
+              href: /windows/win32/api/tapi3if/ne-tapi3if-phone_event
           - name: "TSP UI DLL Functions"
             href: tsp-ui-dll-functions.md
             items: 
@@ -3844,7 +3844,7 @@
             href: tuispi-data-structures.md
             items: 
             - name: "TUISPICREATEDIALOGINSTANCEPARAMS"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/ns-tspi-tuispicreatedialoginstanceparams_tag
+              href: /windows/win32/api/tspi/ns-tspi-tuispicreatedialoginstanceparams
         - name: "TSPI Constants"
           href: tspi-constants.md
           items: 
