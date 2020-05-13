@@ -30,7 +30,7 @@ A capability provided on ISDN lines that allows more information than just a sin
 <span id="tapi2.supplementary_telephony_tapgloss"></span><span id="TAPI2.SUPPLEMENTARY_TELEPHONY_TAPGLOSS"></span>**Supplementary Telephony**
 </dt> <dd>
 
-Level of service that provides advanced switch features such as hold, transfer, and so on. All supplementary services are optional; that is, the service provider is not required to support them. See [*Assisted Telephony*](a-tapgloss.md), [*Basic Telephony*](b-tapgloss.md), [*Extended Telephony*](#tapi2-extended-telephony-tapgloss).
+Level of service that provides advanced switch features such as hold, transfer, and so on. All supplementary services are optional; that is, the service provider is not required to support them. See [*Assisted Telephony*](a-tapgloss.md), [*Basic Telephony*](b-tapgloss.md), [*Extended Telephony*](e-tapgloss.md#tapi2-extended-telephony-tapgloss).
 
 </dd> <dt>
 

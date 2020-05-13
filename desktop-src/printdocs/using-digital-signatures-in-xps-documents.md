@@ -19,7 +19,7 @@ The [XPS Digital Signature API Programming Tasks](#xps-digital-signature-api-pro
     -   [Verifying Digital Signatures in an XPS Document](#verifying-digital-signatures-in-an-xps-document)
     -   [Digital Signature Signing Policy](#digital-signature-signing-policy)
     -   [Embedding a Certificate Chain](#embedding-a-certificate-chain)
-    -   [Using the CERT\_CONTEXT Structure](#using-the-cert-context-structure)
+    -   [Using the CERT\_CONTEXT Structure](#using-the-cert\_context-structure)
 -   [Related topics](#related-topics)
 
 ## XPS Digital Signature API Programming Tasks
@@ -48,7 +48,7 @@ The following topics require some special consideration when you use the XPS Dig
 -   [Verifying Digital Signatures in an XPS Document](#verifying-digital-signatures-in-an-xps-document)
 -   [Digital Signature Signing Policy](#digital-signature-signing-policy)
 -   [Embedding a Certificate Chain](#embedding-a-certificate-chain)
--   [Using the CERT\_CONTEXT Structure](#using-the-cert-context-structure)
+-   [Using the CERT\_CONTEXT Structure](#using-the-cert\_context-structure)
 
 ### Verifying Digital Signatures in an XPS Document
 
