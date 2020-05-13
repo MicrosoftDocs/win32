@@ -376,10 +376,10 @@
       - name: "Close method"
         href: /windows/win32/api/windows.foundation/nf-windows-foundation-iclosable-close
     - name: "ICompositionDrawingSurfaceInterop2"
-      href: /windows/win32/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2
+      href: /windows/win32/winrt/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2
       items: 
       - name: "CopySurface method"
-        href: /windows/win32/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2-copysurface
+        href: /windows/win32/winrt/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiondrawingsurfaceinterop2-copysurface
     - name: "IContactManagerInterop"
       href: /previous-versions//dn302109(v=vs.85)
       items: 

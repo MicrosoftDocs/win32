@@ -7,6 +7,12 @@ ms.date: 11/05/2019
 
 # The Direct3D 12 Core 1.0 Feature Level
 
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+
+> [!IMPORTANT]
+> The feature described in this topic is available in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
+
 The Core 1.0 Feature Level is a subset of the full Direct3D 12 feature set. Core 1.0 Feature Level can be exposed by a category of devices known as *compute-only devices*. The overall driver model for compute-only devices is the Microsoft Compute Driver Model (MCDM). MCDM is a scaled-down peer of the Windows Device Driver Model (WDDM), which has a larger scope.
 
 A device that supports *only* the features within a Core Feature Level is known as a *Core device*.
