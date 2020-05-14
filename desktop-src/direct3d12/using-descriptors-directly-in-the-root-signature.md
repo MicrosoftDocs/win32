@@ -15,7 +15,12 @@ An example usage would be to place a CBV that is changing per draw in the root l
 
 For rendering that uses extremely few resources, descriptor table / heap use may not be needed at all if all the needed descriptors can be placed directly in the root signature.
 
-The only types of descriptors supported in the root signature are CBVs and SRV/UAVs of buffer resources, where the SRV/UAV format contains only 32 bit FLOAT/UINT/SINT components. There is no format conversion. UAVs in the root cannot have counters associated with them. Descriptors in the root signature appear each as individual separate descriptors - they cannot be dynamically indexed.
+The only types of descriptors supported in the root signature are:
+- CBVs
+- SRV/UAVs of buffer resources where the SRV/UAV format contains only 32 bit FLOAT/UINT/SINT components (there is no format conversion)
+- SRVs of raytracing acceleration structures, in local or global root signatures. 
+
+UAVs in the root cannot have counters associated with them. Descriptors in the root signature appear each as individual separate descriptors - they cannot be dynamically indexed.
 
 ``` syntax
 struct SceneData
