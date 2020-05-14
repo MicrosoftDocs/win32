@@ -66,7 +66,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowTextSuggestions](https://docs.microsoft.com/windows/client-management/mdm/secureassessment-csp#allowtextsuggestions)
+[AllowTextSuggestions](https://docs.microsoft.com/windows/client-management/mdm/secureassessment-csp#AllowTextSuggestions)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
