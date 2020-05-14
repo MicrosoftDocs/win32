@@ -151,7 +151,7 @@ More information on /fp:fast can be found at [/fp (Specify Floating-Point Behavi
 
 More information on \_\_restrict can be found at [Microsoft-Specific Modifiers](https://docs.microsoft.com/cpp/cpp/microsoft-specific-modifiers).
 
-More information on declspec(restrict) can be found at [Optimization Best Practices](https://docs.microsoft.com/cpp/build/reference/optimization-best-practices).
+More information on declspec(restrict) can be found at [Optimization Best Practices](/cpp/build/optimization-best-practices).
 
 More information on declspec(noalias) can be found at [\_\_declspec(noalias)](https://msdn.microsoft.com/library/k649tyc7(VS.80).aspx).
 
