@@ -106,7 +106,7 @@ The following options are available to set for this parameter.
 </tr>
 <tr class="even">
 <td><p>JET_ObjInfoList</p></td>
-<td><p><em>pvResult</em> is interpreted as a <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> structure. Information about all objects is retrieved. A temporary table will be created, and the information that is necessary to traverse the temporary table is described in the <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> structure. For more information, see <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>. If the caller does not want to know the number of records and pages for the object, consider using JET_ObjInfoListNoStats, which might be faster.</p></td>
+<td><p><em>pvResult</em> is interpreted as a <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> structure. Information about all objects is retrieved. A temporary table will be created, and the information that is necessary to traverse the temporary table is described in the <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> structure. For more information, see <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>. If the caller does not want to know the number of records and pages for the object, consider using JET_ObjInfoListNoStats, which might be faster.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_ObjInfoListACM</p></td>
@@ -114,7 +114,7 @@ The following options are available to set for this parameter.
 </tr>
 <tr class="even">
 <td><p>JET_ObjInfoListNoStats</p></td>
-<td><p><em>pvResult</em> is interpreted as a <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> structure. Information about all objects is retrieved. A temporary table will be created, and the information that is necessary to traverse the temporary table is described in the <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> structure. For more information, see <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>. JET_ObjInfoListNoStats is identical to JET_ObjInfoList, except that the columns that report the number of records (<em>columnidcRecord</em>) and pages (<em>columnidcPage</em>) will not be updated.</p></td>
+<td><p><em>pvResult</em> is interpreted as a <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> structure. Information about all objects is retrieved. A temporary table will be created, and the information that is necessary to traverse the temporary table is described in the <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> structure. For more information, see <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>. JET_ObjInfoListNoStats is identical to JET_ObjInfoList, except that the columns that report the number of records (<em>columnidcRecord</em>) and pages (<em>columnidcPage</em>) will not be updated.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_ObjInfoMax</p></td>
