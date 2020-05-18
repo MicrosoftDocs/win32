@@ -217,7 +217,7 @@ Visual Impairment Sites:
 
 Mobility impairment Sites:
 
--   [RobertFlorio.com](https://www.robertflorio.com/games.mdl)
+-   [RobertFlorio.com](https://www.robertflorio.com/games)
 -   [WebAIM](https://webaim.org/articles/motor/)
 
 Speech Impairment Sites:
