@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # International Components for Unicode (ICU)
 
-International Components for Unicode (ICU) is a mature, widely used set of open-source globalization APIs. ICU utilizes Unicode’s vast Common Locale Data Repository (CLDR) as it’s data library, providing Globalization support for software applications. ICU is widely portable and gives applications the same results across on all platforms.
+International Components for Unicode (ICU) is a mature, widely used set of open-source globalization APIs. ICU utilizes Unicode's vast Common Locale Data Repository (CLDR) as its data library, providing globalization support for software applications. ICU is widely portable and gives applications the same results across on all platforms.
 
 ## Highlights of the Globalization API services provided by ICU
 
@@ -16,7 +16,7 @@ International Components for Unicode (ICU) is a mature, widely used set of open-
 -   **Collation**: Compare strings according to the conventions and standards of a particular language, region or country. ICU's collation is based on the Unicode Collation Algorithm plus locale-specific comparison rules from CLDR.
 -   **Formatting**: Format numbers, dates, times and currency amounts according the conventions of a chosen locale. This includes translating month and day names into the selected language, choosing appropriate abbreviations, ordering fields correctly, etc. This data also comes from the Common Locale Data Repository.
 -   **Time Calculations**: Multiple types of calendars are provided beyond the traditional Gregorian. A thorough set of time zone calculation APIs are provided.
--   **Unicode Support**: ICU closely tracks the Unicode standard, providing easy access to all of the many Unicode character properties, Unicode Normalization, Case Folding and other fundamental operations as specified by the [Unicode Standard](https://www.unicode.org/).
+-   **Unicode Support**: ICU closely tracks the Unicode standard, providing easy access to all of the many Unicode character properties, Unicode Normalization, Case Folding, and other fundamental operations as specified by the [Unicode Standard](https://www.unicode.org/).
 -   **Regular Expression**: ICU's regular expressions fully support Unicode while providing very competitive performance.
 -   **Bidi**: Support for handling text containing a mixture of left to right (English) and right to left (Arabic or Hebrew) data.
 
@@ -56,50 +56,48 @@ Going forward, no new APIs will be added to the old headers (icucommon.h and icu
 
 ## Getting Started
 
-There are basically only three main steps to follow: (Windows 10 Creators Update or higher)
+There are three main steps to follow: (Windows 10 Creators Update or higher)
 
 <dl>
 
-1. Your application needs to target Windows 10 Version 1703 (Creators Update) or higher as the minimum supported version.
+1. Your application needs to target Windows 10 Version 1703 (Creators Update) or higher.
 
 2. Add in the headers:
 
-``` syntax
-#include <icucommon.h>
-#include <icui18n.h>
-```
+   ``` syntax
+   #include <icucommon.h>
+   #include <icui18n.h>
+   ```
 
-On Windows 10 Version 1709 and above, you should include the combined header instead:
+   On Windows 10 Version 1709 and above, you should include the combined header instead:
 
-``` syntax
-#include <icu.h>
-```
+   ``` syntax
+   #include <icu.h>
+   ```
   
 3. Link to the two libraries:
 
--   icuuc.lib
--   icuin.lib
+   -   icuuc.lib
+   -   icuin.lib
 
-On Windows 10 Version 1903 and above, you should use the combined library instead:
+   On Windows 10 Version 1903 and above, you should use the combined library instead:
 
--   icu.lib
+   -   icu.lib
 
 </dl>
 
-Then you can call whatever ICU C API you want. (No C++ APIs are exposed.)
+Then, you can call whatever ICU C API you want. (No C++ APIs are exposed.)
 
 > [!IMPORTANT]
-> If you are using the legacy import libraries, icuuc.lib and icuin.lib, ensure they're listed before the umbrella libraries, like onecoreuap.lib or WindowsApp.lib, in the Additional Dependencies Linker setting (see the image below). Otherwise, the linker will link to icu.lib, which will result in an attempt to load icu.dll during runtime. That DLL is present only starting with version 1903. So, if a user upgrades the Windows 10 SDK on a pre-version 1903 Windows machine, the app will fail to load and run. For a history of the ICU libraries in Windows, see [History of changes to the ICU library in Windows](#history-of-changes-to-the-icu-library-in-windows).
+> If you are using the legacy import libraries, icuuc.lib and icuin.lib, ensure they're listed before the umbrella libraries, like onecoreuap.lib or WindowsApp.lib, in the Additional Dependencies Linker setting (see the image below). Otherwise, the linker will link to icu.lib, which will result in an attempt to load icu.dll during run time. That DLL is present only starting with version 1903. So, if a user upgrades the Windows 10 SDK on a pre-version 1903 Windows machine, the app will fail to load and run. For a history of the ICU libraries in Windows, see [History of changes to the ICU library in Windows](#history-of-changes-to-the-icu-library-in-windows).
 
 ![icu example](images/icu-example.png)
 
 > [!Note]  
 >
-> -   This is the configuration for “All Platforms”.
-> -   For Win32 apps to use ICU, they need to call CoInitializeEx first. See the MSDN documentation here: <https://msdn.microsoft.com/library/windows/desktop/ms695279(v=vs.85).aspx>
-> -   Not all data returned by ICU APIs will align with the Windows OS, as this alignment work is still in progress.
-
- 
+> - This is the configuration for “All Platforms”.
+> - For Win32 apps to use ICU, they need to call [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) first.
+> - Not all data returned by ICU APIs will align with the Windows OS, as this alignment work is still in progress. 
 
 ## ICU Example App
 
@@ -107,10 +105,10 @@ Then you can call whatever ICU C API you want. (No C++ APIs are exposed.)
 
 The following is an example illustrating the use of ICU APIs from within a C++ UWP application. (It is not intended to be a full stand-alone application, rather it is just an example of calling an ICU method.)
 
-The following small example assumes that there are methods **ErrorMessage** and **OutputMessage** which will output the strings to the user in some manner.
+The following small example assumes that there are methods **ErrorMessage** and **OutputMessage** that output the strings to the user in some manner.
 
 ``` syntax
-// On Windows 10 Creators Update, we need to include the following two headers, whereas with the next major update to Windows 10 we can just include the single header <icu.h>.
+// On Windows 10 Creators Update, include the following two headers. With Windows 10 Fall Creators Update and later, you can just include the single header <icu.h>.
 #include <icucommon.h>
 #include <icui18n.h>
 
