@@ -74,7 +74,7 @@ The wizard creates the following files for you:
 [**IWMPSubscriptionService Interface**](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice)
 </dt> <dt>
 
-[**IWMPSubscriptionService2 Interface**](/previous-versions/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2)
+[**IWMPSubscriptionService2 Interface**](/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2)
 </dt> </dl>
 
  

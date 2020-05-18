@@ -787,7 +787,7 @@ Deprecated.
 <td>Enables the Overlay Mixer to control the properties of a hardware device that uses a video port.</td>
 </tr>
 <tr class="odd">
-<td><a href="/previous-versions/previous-versions/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify2"><strong>IVPNotify2</strong></a></td>
+<td><a href="/previous-versions/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify2"><strong>IVPNotify2</strong></a></td>
 <td>Extends the <a href="/previous-versions/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify"><strong>IVPNotify</strong></a> interface.</td>
 </tr>
 <tr class="even">

@@ -33,7 +33,7 @@ To provide a mechanism for packaging multiple content containers into a single o
 [**IWMPContentContainer Interface**](/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainer)
 </dt> <dt>
 
-[**IWMPContentContainerList Interface**](/previous-versions/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainerlist)
+[**IWMPContentContainerList Interface**](/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainerlist)
 </dt> </dl>
 
  

@@ -25,9 +25,9 @@ The following interfaces are supported by every buffer object.
 | Interface                          | Description                                                          |
 |------------------------------------|----------------------------------------------------------------------|
 | [**INSSBuffer**](/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer)   | Controls and provides access to the buffer.                          |
-| [**INSSBuffer2**](/previous-versions/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer2) | Not implemented.                                                     |
-| [**INSSBuffer3**](/previous-versions/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3) | Supports buffer properties, which are used for data unit extensions. |
-| [**INSSBuffer4**](/previous-versions/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer4) | Enumerates buffer properties.                                        |
+| [**INSSBuffer2**](/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer2) | Not implemented.                                                     |
+| [**INSSBuffer3**](/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3) | Supports buffer properties, which are used for data unit extensions. |
+| [**INSSBuffer4**](/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer4) | Enumerates buffer properties.                                        |
 
 
 
