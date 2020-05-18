@@ -11,6 +11,8 @@ api_type:
 api_location: 
 ---
 
+> This documentation covers the ``FXC.EXE`` complier used for Shader Models 2 - 5.1. For Shader Model 6 you use ``DXC.EXE`` instead which is documented on [GitHub](https://github.com/microsoft/DirectXShaderCompiler/wiki/Using-dxc.exe-and-dxcompiler.dll).
+
 # Compiling Shaders
 
 Microsoft Visual Studio 2012 can now compile shader code from \*.hlsl files that you include in your C++ project.
