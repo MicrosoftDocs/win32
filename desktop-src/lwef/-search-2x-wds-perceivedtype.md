@@ -8,7 +8,8 @@ ms.date: 05/31/2018
 
 # Perceived Types
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://msdn.microsoft.com/library/aa965362(VS.85).aspx).\]
+> [!NOTE]
+> Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
 `PerceivedType` is a property that classifies an item in the index. This classification is different from the "kind" classification used by the [Advanced Query Syntax](-search-2x-wds-aqsreference.md) but similarly lets users refine their search results. The AQS kind lets users limit their search query while the PerceivedType property lets users filter their result set.
 
