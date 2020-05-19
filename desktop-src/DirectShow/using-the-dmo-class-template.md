@@ -77,7 +77,7 @@ The following methods are used to stream data:
 -   **Discontinuity**. This method signals a discontinuity in an input stream. The template calls **InternalAcceptingInput** on the derived class. If that method returns S\_OK, the template calls **InternalDiscontinuity** on the derived class.
 -   **Flush**. This method flushes the DMO. The template calls **InternalFlush** on the derived class. The DMO should discard any input buffers that it still holds to be processed.
 
-The template does not provide any direct support for the [**IMediaObjectInPlace**](/previous-versions/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobjectinplace) interface.
+The template does not provide any direct support for the [**IMediaObjectInPlace**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobjectinplace) interface.
 
 **Methods for Locking**
 

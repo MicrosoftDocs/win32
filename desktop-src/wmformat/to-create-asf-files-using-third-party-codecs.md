@@ -60,7 +60,7 @@ When reading the file:
 [**IWMWriter Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter)
 </dt> <dt>
 
-[**IWMWriterAdvanced Interface**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced)
+[**IWMWriterAdvanced Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced)
 </dt> <dt>
 
 [**To Deliver Compressed Samples with the Asynchronous Reader**](to-deliver-compressed-samples-with-the-asynchronous-reader.md)

@@ -40,7 +40,7 @@ The following interfaces are supported by every mutual exclusion object.
 | Interface                                          | Description                                                                                                                                            |
 |----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IWMMutualExclusion**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion)   | Sets and retrieves the type of mutual exclusion to be used.                                                                                            |
-| [**IWMMutualExclusion2**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion2) | Organizes streams into records, which can be used to create complex mutual exclusion scenarios. Inherits all of the methods of **IWMMutualExclusion**. |
+| [**IWMMutualExclusion2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion2) | Organizes streams into records, which can be used to create complex mutual exclusion scenarios. Inherits all of the methods of **IWMMutualExclusion**. |
 | [**IWMStreamList**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamlist)             | Manages the list of mutually exclusive streams.                                                                                                        |
 
 

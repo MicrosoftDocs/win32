@@ -21,7 +21,7 @@ You can include script commands in the header of an ASF file. To write script co
 When an application reads the file, it will need to retrieve all of the script commands. To find all script commands in the header of a file, perform the following steps. This should be done before starting playback.
 
 1.  Obtain a pointer to the **IWMHeaderInfo** interface of the reader object (or synchronous reader object) by calling the **QueryInterface** method of another interface in the object.
-2.  Get the total number of scripts in the header by calling [**IWMHeaderInfo::GetScriptCount**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getscriptcount).
+2.  Get the total number of scripts in the header by calling [**IWMHeaderInfo::GetScriptCount**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getscriptcount).
 3.  Loop through all of the scripts in the header one at a time using calls to [**IWMHeaderInfo::GetScript**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getscript).
 4.  Create a list of the presentation times so that your application can react to the commands at the appropriate time.
 
