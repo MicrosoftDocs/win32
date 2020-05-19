@@ -3,16 +3,17 @@ Description: The Windows Installer redistributable is a software update package.
 ms.assetid: 8491dfa6-b9be-4e37-8a61-a405c8eb0ab0
 title: Windows Installer Redistributables
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 05/19/2020
 ---
 
 # Windows Installer Redistributables
 
-The Windows Installer redistributable is a software update package. See the section [Released Versions of Windows Installer](released-versions-of-windows-installer.md) to determine which products shipped versions of the Windows Installer. The redistributable update package for a version is made available after the release of the product that ships with a specific Windows Installer version.
+Windows Installer 4.5 and earlier is available as a redistributable software update package. See the section [Released Versions of Windows Installer](released-versions-of-windows-installer.md) to determine which products shipped versions of the Windows Installer. The redistributable update package for a version is made available after the release of the product that ships with a specific Windows Installer version.
 
-The Windows Installer 5.0 is part of the Windows Server 2012, Windows 8, Windows Server 2008 R2, and Windows 7. There is no redistributable for Windows Installer 5.0.
+> [!NOTE]
+> There is no redistributable for Windows Installer 5.0. This version is included with the OS in Windows 7, Windows Server 2008 R2, and later client and server releases (including Windows 10).
 
-## Obtaining the Windows Installer Redistributable
+## Obtaining the Windows Installer Redistributable (4.5 and earlier)
 
 -   You can find all the available Windows Installer redistributables at the [Microsoft Download Center](https://www.microsoft.com/Downloads/).
 -   The download for the [Windows Installer 4.5 redistributable package](https://support.microsoft.com/kb/942288) is available at: https://go.microsoft.com/fwlink/p/?LinkID=101159.
@@ -35,7 +36,7 @@ The Windows Installer 5.0 is part of the Windows Server 2012, Windows 8, Wind
 
     The download for the [Windows Installer 2.0 Redistributable for Windows NT 4.0 and Windows 2000](https://www.microsoft.com/downloads/details.aspx?FamilyID=4b6140f9-2d36-4977-8fa1-6f8a0f5dca8f) is available at https://www.microsoft.com/downloads/details.aspx?FamilyID=4b6140f9-2d36-4977-8fa1-6f8a0f5dca8f.
 
-## Installing the Windows Installer Redistributable
+## Installing the Windows Installer Redistributable (4.5 and earlier)
 
 The Windows Installer 4.5 resdistributable is provided for Windows Vista and Windows Server 2008 operating systems as a .msu file and should be installed using the [Windows Update Stand-alone Installer](https://support.microsoft.com/kb/934307/) (Wusa.exe.)
 
@@ -43,13 +44,15 @@ The Windows Installer 4.5 redistributable for Windows XP and Windows Server 20
 
 The Windows Installer 3.1 and Windows Installer 3.0 redistributables can be installed using the following command line syntax and options.
 
-## Syntax
+### Syntax
 
 Use the following syntax to install the redistributables for Windows Installer 4.5 on Windows XP and Windows Server 2003.
 
-*<Name of the Redistributable>\[<options>\]*
+```CMD
+<Name of the Redistributable>\[<options>\]*
+```
 
-## Command-Line Options
+### Command-Line Options
 
 The Windows Installer redistributable software update packages use the following case-insensitive command-line options.
 
@@ -61,15 +64,11 @@ The Windows Installer redistributable software update packages use the following
 | /quiet     | For use by applications that redistribute the Windows Installer as part of a bootstrapping application. A user interface (UI) is not presented to the user. The bootstrapping application should check the return code to determine whether a reboot is needed to complete the installation of the Windows Installer.<br/>                                                                                                                                                |
 | /help      | Displays help on all the available options.                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
-
-
- 
-
-## Delayed Restart on Windows Vista and Windows Server 2008
+### Delayed Restart on Windows Vista and Windows Server 2008
 
 The /norestart command-line option prevents wusa.exe from restarting the computer. However, if a file being updated by the MSU package is in use, then the package is not applied to the computer until the user restarts the computer. This means that applications that use the Windows Installer 4.5 redistributable for Windows Vista and Windows Server 2008 cannot use the Windows Installer 4.5 functionality until the computer is restarted.
 
-## Delayed Restart on Windows XP and Windows Server 2003
+### Delayed Restart on Windows XP and Windows Server 2003
 
 It is recommended that the Windows Installer service be stopped when using the update package. When the package is run in full UI mode it detects if the Windows Installer service is running and requests the user to stop the service. If the user continues without stopping the service, the update replaces Windows Installer.
 

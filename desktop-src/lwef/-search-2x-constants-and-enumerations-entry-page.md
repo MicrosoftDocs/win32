@@ -8,7 +8,8 @@ ms.date: 05/31/2018
 
 # WDS 2.x Constants and Enumerations
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use the [Windows Search API](https://docs.microsoft.com/windows/desktop/search/-search-reference-entry-page).\]
+> [!NOTE]
+> Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
 ## 
 

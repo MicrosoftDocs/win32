@@ -8,7 +8,8 @@ ms.date: 05/31/2018
 
 # Adding Icons and Context Menus with Shell Extensions
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://msdn.microsoft.com/library/aa965362(VS.85).aspx).\]
+> [!NOTE]
+> Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
 You can improve your users' experience with Microsoft Windows Desktop Search (WDS) and your protocol handler by implementing Shell extensions. Without further extension, the protocol handler you create will not include the following user experiences:
 

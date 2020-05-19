@@ -8,7 +8,8 @@ ms.date: 05/31/2018
 
 # Advanced Query Syntax
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://msdn.microsoft.com/library/aa965362(VS.85).aspx).\]
+> [!NOTE]
+> Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
 The Advanced Query Syntax (AQS) is used by Microsoft Windows Desktop Search (WDS) to help users and programmers better define and narrow their searches. Using AQS is an easy way to narrow searches and deliver better result sets. Searches can be narrowed by the following parameters:
 
@@ -35,7 +36,7 @@ The optional criteria, described in greater detail following, use the following 
 
 `<property name>:<value>`
 
-Suppose a user wants to search for a document containing the phase "last quarter," created by John or Joanne, and that the user saved to the folder mydocuments. The query may look like this:
+Suppose a user wants to search for a document containing the phrase "last quarter," created by John or Joanne, and that the user saved to the folder mydocuments. The query may look like this:
 
 `"last quarter" author:(john OR joanne) foldername:mydocuments`
 
@@ -100,7 +101,7 @@ Search keywords and file properties can be combined to broaden or narrow a searc
 | Keyword/Symbol  | Examples                                              | Function                                                                                                       |
 |-----------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | NOT             | social NOT security<br/>                        | Finds items that contain *social*, but not *security*.<br/>                                              |
-|                 | social  security<br/>                           | Finds items that contain *social*, but not *security*.<br/>                                              |
+|                 | social  security<br/>                           | Finds items that contain *social* and *security*.<br/>                                              |
 | OR              | social OR security<br/>                         | Finds items that contain *social* or *security*.<br/>                                                    |
 | Quotation marks | "social security"<br/>                          | Finds items that contain the exact phrase *social security*.<br/>                                        |
 | Parentheses     | (social security)<br/>                          | Finds items that contain *social* and *security* in any order.<br/>                                      |
@@ -133,7 +134,7 @@ Some file types let users search for files using Boolean properties, as describe
 | isdeleted:     | report isdeleted:true     | Finds items that are flagged as deleted (Recycle Bin or Deleted Items, for example) and which contain *report*. |
 | iscompleted:   | report iscompleted:false  | Finds items that are not flagged as complete and which contain *report*.                                        |
 | hasattachment: | report hasattachment:true | Finds items containing *report* and having attachments                                                          |
-| hasflag:       | report hasflag:true       | inds items containing *report* and having flags.                                                                |
+| hasflag:       | report hasflag:true       | Finds items containing *report* and having flags.                                                                |
 
 
 

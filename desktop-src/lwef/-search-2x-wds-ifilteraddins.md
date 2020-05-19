@@ -8,7 +8,8 @@ ms.date: 05/31/2018
 
 # Developing IFilter Add-ins
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://msdn.microsoft.com/library/aa965362(VS.85).aspx).\]
+> [!NOTE]
+> Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
 You can extend Microsoft Windows Desktop Search (WDS) with filter add-ins, components that implement the [**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)interface, to include new file types. Filters are responsible for accessing and parsing data in files and for returning pairs of properties and values as well as chunks of text for indexing. During the indexing process, WDS calls the appropriate filter with the URL for each file or item. The filter first extracts metadata that corresponds to properties that are marked retrievable in the WDS schema, such as title, file size, and last modified date. Then it breaks the item content into chunks of text. WDS adds the properties and text returned by the filter to the catalog. WDS can index any file type for which it has a registered filter.
 

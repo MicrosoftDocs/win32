@@ -8,7 +8,8 @@ ms.date: 05/31/2018
 
 # Calling WDS from the Command Line
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://msdn.microsoft.com/library/aa965362(VS.85).aspx).\]
+> [!NOTE]
+> Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
 You can launch the Microsoft Windows Desktop Search (WDS) user interface with a specific filter, store, and query from another application or a webpage that uses the Browser Helper Object (BHO) by using the windowssearch.exe command line syntax. When calling WDS from the command line, no information about the user's actions or selection in the WDS window is returned to the calling application or webpage.
 
