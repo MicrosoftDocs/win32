@@ -8,7 +8,8 @@ ms.date: 05/31/2018
 
 # Custom Protocol Handler User Interface Sample Code
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](https://msdn.microsoft.com/library/aa965362(VS.85).aspx).\]
+> [!NOTE]
+> Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
 The following sample code shows how to create user interface extensions for a custom protocol handler.
 

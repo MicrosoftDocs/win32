@@ -3,12 +3,13 @@ Description: Installer engine used to install applications or updates or service
 ms.assetid: c90b8cbe-d7a1-44ad-ae65-80115bd55e4f
 title: Windows Installer
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 05/19/2020
 ---
 
 # Windows Installer
 
-## Purpose
+> [!NOTE]
+> This documentation is intended for software developers who want to use Windows Installer to build installer packages for applications. If you're looking for a redistributable for Windows Installer 4.5 and earlier, see [this article](windows-installer-redistributables.md). Note that there is no redistributable for Windows Installer 5.0. This version is included with the OS in Windows 7, Windows Server 2008 R2, and later client and server releases (including Windows 10).
 
 Microsoft Windows Installer is an installation and configuration service provided with Windows. The installer service enables customers to provide better corporate deployment and provides a standard format for component management. The installer also enables the advertisement of applications and features according to the operating system. For more information, see [Platform Support of Advertisement](platform-support-of-advertisement.md).
 
@@ -34,23 +35,21 @@ This documentation is intended for software developers who want to make applicat
 
 ## Run-time requirements
 
-Windows Installer 5.0 will be released with, and require Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Versions earlier than Windows Installer 5.0 were released with Windows Server 2008, Windows Vista, Windows Server 2003, Windows XP, and Windows 2000.
+Windows Installer 5.0 is included with, Windows 7, Windows Server 2008 R2, and later releases. There is no redistributable for Windows Installer 5.0.
 
-Windows Installer 4.5 requires Windows Server 2008, Windows Vista, Windows XP with Service Pack 2 (SP2) and later, and Windows Server 2003 with Service Pack 1 (SP1) and later.
+Versions earlier than Windows Installer 5.0 were released with Windows Server 2008, Windows Vista, Windows Server 2003, Windows XP, and Windows 2000. [Windows Installer Redistributables](windows-installer-redistributables.md) are available for Windows Installer 4.5 and some earlier versions.
 
-Windows Installer 4.0 requires Windows Vista or Windows Server 2008. There is no redistributable for installing Windows Installer 4.0 on other operating systems. An updated version of Windows Installer 4.0, which does not add any new features, is available in Windows Vista with Service Pack 1 (SP1) and Windows Server 2008.
+* Windows Installer 4.5 requires Windows Server 2008, Windows Vista, Windows XP with Service Pack 2 (SP2) and later, and Windows Server 2003 with Service Pack 1 (SP1) and later.
 
-Windows Installer 3.1 requires Windows Server 2003, Windows XP, or Windows 2000 with Service Pack 3 (SP3).
+* Windows Installer 4.0 requires Windows Vista or Windows Server 2008. There is no redistributable for installing Windows Installer 4.0 on other operating systems. An updated version of Windows Installer 4.0, which does not add any new features, is available in Windows Vista with Service Pack 1 (SP1) and Windows Server 2008.
 
-Windows Installer 3.0 requires Windows Server 2003, Windows XP, or Windows 2000 with SP3. Windows Installer 3.0 is included in Windows XP with Service Pack 2 (SP2). It is available as a redistributable for Windows 2000 Server with Service Pack 3 (SP3) and Windows 2000 Server with Service Pack 4 (SP4), Windows XP RTM and Windows XP with Service Pack 1 (SP1), and Windows Server 2003 RTM.
+* Windows Installer 3.1 requires Windows Server 2003, Windows XP, or Windows 2000 with Service Pack 3 (SP3).
 
-[Windows Installer Redistributables](windows-installer-redistributables.md) are available for Windows Installer 4.5 and some earlier versions. There is no redistributable available for Windows Installer 4.0.
+* Windows Installer 3.0 requires Windows Server 2003, Windows XP, or Windows 2000 with SP3. Windows Installer 3.0 is included in Windows XP with Service Pack 2 (SP2). It is available as a redistributable for Windows 2000 Server with Service Pack 3 (SP3) and Windows 2000 Server with Service Pack 4 (SP4), Windows XP RTM and Windows XP with Service Pack 1 (SP1), and Windows Server 2003 RTM.
 
-Windows Installer 2.0 is contained in Windows Server 2003 and Windows XP.
+* Windows Installer 2.0 is contained in Windows Server 2003 and Windows XP.
 
-Windows Installer 2.0 is available as a package for installing or upgrading to Windows Installer 2.0 on Windows 2000. This package should not be used to install or upgrade Windows Installer 2.0 on Windows Server 2003 and Windows XP.
-
-You can find all the available Windows Installer redistributables at the [Microsoft Download Center](https://www.microsoft.com/Downloads/).
+* Windows Installer 2.0 is available as a package for installing or upgrading to Windows Installer 2.0 on Windows 2000. This package should not be used to install or upgrade Windows Installer 2.0 on Windows Server 2003 and Windows XP.
 
 ## In this section
 
