@@ -23,7 +23,7 @@ The three most common mistakes made by a development team when releasing a produ
 
 -   Requiring administrative privileges. Games should not require administrative privileges. For more details, see [User Account Control for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/user-account-control-for-game-developers).
 -   Not using automated protection. Developers are generally not using **/GS**, **/SAFESEH**, or **/NX**. Using these compile/link flags can spot or eliminate many basic security holes without significantly increasing workload. These flags are discussed later in this article.
--   Using forbidden APIs. There are many APIs (**strcpy**, **strncpy**, and so on) that are prone to programmer error and easily generate security holes. Developers should replace these APIs with the safe versions. Visual Studio 2005 comes with a tool for analyzing binary files that can automatically check object files for references to unsafe APIs. For more information on what to do with information generated with this tool, see [Repel Attacks on Your Code with the Visual Studio 2005 Safe C and C++ Libraries](https://msdn.microsoft.com/magazine/msdn-magazine-issues) by Martyn Lovell. Also, you can get the [banned.h](https://www.microsoft.com/downloads/details.aspx?FamilyID=6aed14bd-4766-4d9d-9ee2-fa86aad1e3c9) header file that can help you remove banned functions from code.
+-   Using forbidden APIs. There are many APIs (**strcpy**, **strncpy**, and so on) that are prone to programmer error and easily generate security holes. Developers should replace these APIs with the safe versions. Visual Studio 2005 comes with a tool for analyzing binary files that can automatically check object files for references to unsafe APIs. For more information on what to do with information generated with this tool, see [Repel Attacks on Your Code with the Visual Studio 2005 Safe C and C++ Libraries](https://docs.microsoft.com/archive/msdn-magazine/2005/may/repel-attacks-with-visual-studio-2005-safe-c-and-c-libraries) by Martyn Lovell. Also, you can get the [banned.h](https://www.microsoft.com/downloads/details.aspx?FamilyID=6aed14bd-4766-4d9d-9ee2-fa86aad1e3c9) header file that can help you remove banned functions from code.
 
 Each of the listed mistakes is not only common but is easily correctable with no significant change in development workload, coding standards, or functionality.
 
@@ -83,7 +83,7 @@ When threat modeling, pay special attention to:
 
 These are the areas that have good potential for security weaknesses.
 
-More on Threat Modeling can be found at [Threat Modeling](https://technet.microsoft.com/security/) on the MSDN Security Development Center and in the book [Threat Modeling](https://www.microsoft.com/mspress/books/6892.asp) by Frank Swiderski and Window Snyder.
+More on Threat Modeling can be found at [Threat Modeling](https://technet.microsoft.com/security/) on the MSDN Security Development Center and in the book [Threat Modeling](https://www.amazon.com/Threat-Modeling-Microsoft-Professional-Swiderski/dp/0735619913) by Frank Swiderski and Window Snyder.
 
 </dd> <dt>
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Issuing the SetDevicePropValue Command
 
-The example in this section invokes the **SetDevicePropValue** MTP command. (For a complete description of this command and its parameters, see the [MTP specification](http://www.usb.org/developers/devclass_docs/MTPv1_1.zip).)
+The example in this section invokes the **SetDevicePropValue** MTP command. (For a complete description of this command and its parameters, see the [MTP specification](https://www.usb.org/sites/default/files/MTPv1_1.zip).)
 
 Because this command includes data (or a data phase), it is more involved than the previous [example](issuing-the-getnumobjects-command.md). Commands that include a data phase can be broken into three parts:
 
