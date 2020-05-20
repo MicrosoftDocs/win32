@@ -58,8 +58,7 @@ The properties for the sepia effect are defined by the [**D2D1\_SEPIA\_PROP**](/
 | Library                  | d2d1.lib, dxguid.lib                              |
 
 
-
- ## Related topics
+## Related topics
 
 * [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)
 

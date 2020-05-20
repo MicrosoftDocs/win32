@@ -82,7 +82,7 @@ signtool verify /a SignableFile.bin
 
 After your signed files have been uploaded and we've identified your desktop applications, your dashboard will show an overview of your applications along with key metrics.
 
-Our telemetry data will show health information such as crashes for each application associated with your certificate. Your dashboard will show an overview of your applications along with key metrics. You can select any application to view its [Health report](#health-report), [Installs report](#installs-report), and [Blocks report](#blocks-report) in the dashboard. You can also [retrieve analytic data programmatically by using the Microsoft Store analytics API](#retrieve-analytic-data-using-the-microsoft-store-analytics-api).
+Our telemetry data will show health information such as crashes for each application associated with your certificate. Your dashboard will show an overview of your applications along with key metrics. You can select any application to view its [Health report](#health-report), [Installs report](#installs-report), and [Blocks report](#application-blocks-report) in the dashboard. You can also [retrieve analytic data programmatically by using the Microsoft Store analytics API](#retrieve-analytic-data-using-the-microsoft-store-analytics-api).
 
 > [!Note]  
 > If we detect that an application's metadata has been updated to use a new name, we ll begin to report new data under the new name. Historical data associated with the old name will be preserved for 30 days.
