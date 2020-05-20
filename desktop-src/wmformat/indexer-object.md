@@ -28,7 +28,7 @@ The following interfaces are supported by the indexer object.
 | Interface                          | Description                                                                         |
 |------------------------------------|-------------------------------------------------------------------------------------|
 | [**IWMIndexer**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer)   | Starts and stops the indexing process.                                              |
-| [**IWMIndexer2**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer2) | Configures the indexer, enabling indexing by frame, by time, or by SMPTE time code. |
+| [**IWMIndexer2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer2) | Configures the indexer, enabling indexing by frame, by time, or by SMPTE time code. |
 
 
 

@@ -40,13 +40,13 @@ The **\_WMPOCXEvents** interface provides the same events as the **IWMPEvents**,
 [**IWMPEvents Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents)
 </dt> <dt>
 
-[**IWMPEvents2 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents2)
+[**IWMPEvents2 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents2)
 </dt> <dt>
 
-[**IWMPEvents3 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents3)
+[**IWMPEvents3 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents3)
 </dt> <dt>
 
-[**IWMPEvents4 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents4)
+[**IWMPEvents4 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents4)
 </dt> </dl>
 
  
