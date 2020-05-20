@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # The State of a Graphics Object
 
-The [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class is at the heart of Windows GDI+. To draw anything, you create a **Graphics** object, set its properties, and call its methods ( [DrawLine](https://msdn.microsoft.com/library/ms535748(v=VS.85).aspx), [DrawImage](https://msdn.microsoft.com/library/ms535746(v=VS.85).aspx), [DrawString](https://msdn.microsoft.com/library/ms535759(v=VS.85).aspx), and the like).
+The [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class is at the heart of Windows GDI+. To draw anything, you create a **Graphics** object, set its properties, and call its methods ( [DrawLine](https://docs.microsoft.com/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)), [DrawImage](https://docs.microsoft.com/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint)), [DrawString](https://msdn.microsoft.com/library/ms535759(v=VS.85).aspx), and the like).
 
 The following example constructs a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and a [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object and then calls the [**Graphics::DrawRectangle**](https://msdn.microsoft.com/library/ms536003(v=VS.85).aspx) method of the **Graphics** object:
 
@@ -32,7 +32,7 @@ In the preceding code, the [BeginPaint](/windows/win32/api/winuser/nf-winuser-be
 
 ## Graphics State
 
-A [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object does more than provide drawing methods, such as [DrawLine](https://msdn.microsoft.com/library/ms535748(v=VS.85).aspx) and [DrawRectangle](https://msdn.microsoft.com/library/ms535755(v=VS.85).aspx). A **Graphics** object also maintains graphics state, which can be divided into the following categories:
+A [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object does more than provide drawing methods, such as [DrawLine](https://docs.microsoft.com/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)) and [DrawRectangle](https://docs.microsoft.com/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inconstrectf_)). A **Graphics** object also maintains graphics state, which can be divided into the following categories:
 
 -   A link to a device context
 -   Quality settings
