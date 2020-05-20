@@ -38,7 +38,7 @@ The Windows Web Services API includes the following enumerations:
 -   [**WS\_HEADER\_ATTRIBUTES**](/windows/win32/api/webservices/ne-webservices-ws_xml_text_type)
 -   [**WS\_HEADER\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_header_type)
 -   [**WS\_HEAP\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_heap_property_id)
--   [**WS\_HTTP\_HEADER\_AUTH\_SCHEME**](https://technet.microsoft.com/en-us/windows/dd401907(v=vs.60)
+-   [**WS\_HTTP\_HEADER\_AUTH\_SCHEME**](https://technet.microsoft.com/windows/dd401907(v=vs.60)
 -   [**WS\_HTTP\_HEADER\_AUTH\_TARGET**](/windows/desktop/api/WebServices/ne-webservices-ws_http_header_auth_target)
 -   [**WS\_HTTP\_HEADER\_MAPPING\_OPTIONS**](/windows/win32/api/webservices/ne-webservices-ws_xml_writer_property_id)
 -   [**WS\_HTTP\_PROXY\_SETTING\_MODE**](/windows/desktop/api/WebServices/ne-webservices-ws_http_proxy_setting_mode)
