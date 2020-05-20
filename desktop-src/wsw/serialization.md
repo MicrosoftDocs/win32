@@ -56,7 +56,7 @@ The following callbacks are used with serialization:
 The following enumerations are used with serialization:
 
 -   [**WS\_FIELD\_MAPPING**](/windows/desktop/api/WebServices/ne-webservices-ws_field_mapping)
--   [**WS\_FIELD\_OPTIONS**](https://msdn.microsoft.com/library/Dd401884(v=VS.85).aspx)
+-   [**WS\_FIELD\_OPTIONS**](/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type)
 -   [**WS\_READ\_OPTION**](/windows/desktop/api/WebServices/ne-webservices-ws_read_option)
 -   [**WS\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_type)
 -   [**WS\_TYPE\_MAPPING**](/windows/desktop/api/WebServices/ne-webservices-ws_type_mapping)
