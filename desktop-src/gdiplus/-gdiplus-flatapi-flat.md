@@ -12,10 +12,10 @@ Windows GDI+ exposes a flat API that consists of about 600 functions, which are 
 
 As an alternative to the C++ wrappers, the Microsoft .NET Framework provides a set of managed-code wrapper classes for GDI+. The managed-code wrappers for GDI+ belong to the following namespaces.
 
--   [System.Drawing](https://msdn.microsoft.com/library/en-us/cpref/html/frlrfSystemDrawing.asp)
--   [System.Drawing.Drawing2D](https://msdn.microsoft.com/library/en-us/cpref/html/frlrfSystemDrawingDrawing2D.asp)
--   [System.Drawing.Imaging](https://msdn.microsoft.com/library/en-us/cpref/html/frlrfSystemDrawingImaging.asp)
--   [System.Drawing.Text](https://msdn.microsoft.com/library/en-us/cpref/html/frlrfSystemDrawingText.asp)
+-   [System.Drawing](https://docs.microsoft.com/dotnet/api/system.drawing?view=dotnet-plat-ext-3.1)
+-   [System.Drawing.Drawing2D](https://docs.microsoft.com/dotnet/api/system.drawing.drawing2d?view=dotnet-plat-ext-3.1)
+-   [System.Drawing.Imaging](https://docs.microsoft.com/dotnet/api/system.drawing.imaging?view=dotnet-plat-ext-3.1)
+-   [System.Drawing.Text](https://docs.microsoft.com/dotnet/api/system.drawing.text?view=dotnet-plat-ext-3.1)
 
 Both sets of wrappers (C++ and managed code) use an object-oriented approach, so there are some differences between the way parameters are passed to the wrapper methods and the way parameters are passed to functions in the flat API. For example, one of the C++ wrappers is the [**Matrix**](/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) class. Each **Matrix** object has a field, **nativeMatrix**, that points to an internal variable of type **GpMatrix**. When you pass parameters to a method of a **Matrix** object, that method passes those parameters (or a set of related parameters) along to one of the functions in the GDI+ flat API. But that method also passes the **nativeMatrix** field (as an input parameter) to the flat API function. The following code shows how the [**Matrix::Shear**](/windows/desktop/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-shear) method calls the **GdipShearMatrix(GpMatrix \*matrix, REAL shearX, REAL shearY, GpMatrixOrder order)** function.
 
