@@ -39,7 +39,7 @@ ODBC data source name that points to a database that contains the correct Perfmo
 
 You must use the Perfmon.msc MMC snap-in to generate the SQL log file. The counter logs are located under **Performance Logs and Alerts**. To specify an SQL log, right-click the log file you created and select **Properties** from the menu. On the **Log Files** property page, select **SQL Database** from the **Log file type** drop-down list box.
 
-**Prior to Windows Vista:** You cannot modify this property if the value of [**SystemMonitor.DataSourceType**](systemmonitor-datasourcetype.md) is set to [**DataSourceTypeConstants.sysmonSqlLog**](/windows/desktop/api/ISysmon/ne-isysmon-edatasourcetypeconstant). You must first specify the name and then set **SystemMonitor.DataSourceType** to **DataSourceTypeConstants.sysmonSqlLog**.
+**Prior to Windows Vista:** You cannot modify this property if the value of [**SystemMonitor.DataSourceType**](systemmonitor-datasourcetype.md) is set to [**DataSourceTypeConstants.sysmonSqlLog**](/windows/desktop/api/ISysmon/ne-isysmon-datasourcetypeconstants). You must first specify the name and then set **SystemMonitor.DataSourceType** to **DataSourceTypeConstants.sysmonSqlLog**.
 
 ## Requirements
 
