@@ -896,7 +896,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="PDWORD_PTR"></span><span id="pdword_ptr"></span><strong>PDWORD_PTR</strong></td>
-<td><p>A pointer to a <a href="#dword-ptr"><strong>DWORD_PTR</strong></a>.</p>
+<td><p>A pointer to a <a href="#dword_ptr"><strong>DWORD_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef DWORD_PTR *PDWORD_PTR;</code></p></td>
 </tr>
@@ -920,7 +920,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="PHALF_PTR"></span><span id="phalf_ptr"></span><strong>PHALF_PTR</strong></td>
-<td><p>A pointer to a <a href="#half-ptr"><strong>HALF_PTR</strong></a>.</p>
+<td><p>A pointer to a <a href="#half_ptr"><strong>HALF_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -966,7 +966,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="PINT_PTR"></span><span id="pint_ptr"></span><strong>PINT_PTR</strong></td>
-<td><p>A pointer to an <a href="#int-ptr"><strong>INT_PTR</strong></a>.</p>
+<td><p>A pointer to an <a href="#int_ptr"><strong>INT_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef INT_PTR *PINT_PTR;</code></p></td>
 </tr>
@@ -1014,7 +1014,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="PLONG_PTR"></span><span id="plong_ptr"></span><strong>PLONG_PTR</strong></td>
-<td><p>A pointer to a <a href="#long-ptr"><strong>LONG_PTR</strong></a>.</p>
+<td><p>A pointer to a <a href="#long_ptr"><strong>LONG_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef LONG_PTR *PLONG_PTR;</code></p></td>
 </tr>
@@ -1107,13 +1107,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="PSIZE_T"></span><span id="psize_t"></span><strong>PSIZE_T</strong></td>
-<td><p>A pointer to a <a href="#size-t"><strong>SIZE_T</strong></a>.</p>
+<td><p>A pointer to a <a href="#size_t"><strong>SIZE_T</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef SIZE_T *PSIZE_T;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="PSSIZE_T"></span><span id="pssize_t"></span><strong>PSSIZE_T</strong></td>
-<td><p>A pointer to a <a href="#ssize-t"><strong>SSIZE_T</strong></a>.</p>
+<td><p>A pointer to a <a href="#ssize_t"><strong>SSIZE_T</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef SSIZE_T *PSSIZE_T;</code></p></td>
 </tr>
@@ -1170,7 +1170,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="PUHALF_PTR"></span><span id="puhalf_ptr"></span><strong>PUHALF_PTR</strong></td>
-<td><p>A pointer to a <a href="#uhalf-ptr"><strong>UHALF_PTR</strong></a>.</p>
+<td><p>A pointer to a <a href="#uhalf_ptr"><strong>UHALF_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -1204,7 +1204,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="PUINT_PTR"></span><span id="puint_ptr"></span><strong>PUINT_PTR</strong></td>
-<td><p>A pointer to a <a href="#uint-ptr"><strong>UINT_PTR</strong></a>.</p>
+<td><p>A pointer to a <a href="#uint_ptr"><strong>UINT_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef UINT_PTR *PUINT_PTR;</code></p></td>
 </tr>
@@ -1246,7 +1246,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="PULONG_PTR"></span><span id="pulong_ptr"></span><strong>PULONG_PTR</strong></td>
-<td><p>A pointer to a <a href="#ulong-ptr"><strong>ULONG_PTR</strong></a>.</p>
+<td><p>A pointer to a <a href="#ulong_ptr"><strong>ULONG_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef ULONG_PTR *PULONG_PTR;</code></p></td>
 </tr>
@@ -1330,7 +1330,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="SSIZE_T"></span><span id="ssize_t"></span><strong>SSIZE_T</strong></td>
-<td><p>A signed version of <a href="#size-t"><strong>SIZE_T</strong></a>.</p>
+<td><p>A signed version of <a href="#size_t"><strong>SIZE_T</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef LONG_PTR SSIZE_T;</code></p></td>
 </tr>
@@ -1398,7 +1398,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="UHALF_PTR"></span><span id="uhalf_ptr"></span><strong>UHALF_PTR</strong></td>
-<td><p>An unsigned <a href="#half-ptr"><strong>HALF_PTR</strong></a>. Use within a structure that contains a pointer and two small fields.</p>
+<td><p>An unsigned <a href="#half_ptr"><strong>HALF_PTR</strong></a>. Use within a structure that contains a pointer and two small fields.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -1432,7 +1432,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="UINT_PTR"></span><span id="uint_ptr"></span><strong>UINT_PTR</strong></td>
-<td><p>An unsigned <a href="#int-ptr"><strong>INT_PTR</strong></a>.</p>
+<td><p>An unsigned <a href="#int_ptr"><strong>INT_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -1518,7 +1518,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="ULONG_PTR"></span><span id="ulong_ptr"></span><strong>ULONG_PTR</strong></td>
-<td><p>An unsigned <a href="#long-ptr"><strong>LONG_PTR</strong></a>.</p>
+<td><p>An unsigned <a href="#long_ptr"><strong>LONG_PTR</strong></a>.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
