@@ -35,7 +35,7 @@ This function can be called from the following raytracing shader types:
 * [**Closest Hit Shader**](closest-hit-shader.md)
 * [**Intersection Shader**](intersection-shader.md)
 * [**Miss Shader**](miss-shader.md)
-* [**Ray Generation Shader**](/ray-generation-shader.md)
+* [**Ray Generation Shader**](ray-generation-shader.md)
 
 
 

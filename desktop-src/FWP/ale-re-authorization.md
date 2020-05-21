@@ -38,9 +38,9 @@ In a strong host model, which is the default security model for the TCP/IP stack
 
 In a weak host model, a connection on a network interface allows packets coming in on any other network interface. Arrival interface reauthorization is used on a weak host computer to implement interface-specific policies. For more information, see ["The Cable Guy: Strong and Weak Host Models."](https://technet.microsoft.com/magazine/2007.09.cableguy.aspx)
 
-Some [classifiable fields](filtering-conditions.md) may be unknown during reauthorization. For example, if an outbound packet is being reauthorized at the [**FWPM\_LAYER\_ALE\_AUTH\_RECV\_ACCEPT\_V{4\|6}**](management-filtering-layer-identifiers-.md) layer, all the fields pertaining to the arrival interface are unknown. In that case, the values of the unknown fields are indicated as [**FWP\_EMPTY**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type_).
+Some [classifiable fields](filtering-conditions.md) may be unknown during reauthorization. For example, if an outbound packet is being reauthorized at the [**FWPM\_LAYER\_ALE\_AUTH\_RECV\_ACCEPT\_V{4\|6}**](management-filtering-layer-identifiers-.md) layer, all the fields pertaining to the arrival interface are unknown. In that case, the values of the unknown fields are indicated as [**FWP\_EMPTY**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type).
 
-Fields of type [**FWP\_EMPTY**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type_) can be matched with [**FWP\_MATCH\_EQUAL**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_match_type_). Therefore, a policy can be set to block reauthorizations and tear down an ALE flow when reauthorization requests for the ALE flow arrive.
+Fields of type [**FWP\_EMPTY**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type) can be matched with [**FWP\_MATCH\_EQUAL**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_match_type). Therefore, a policy can be set to block reauthorizations and tear down an ALE flow when reauthorization requests for the ALE flow arrive.
 
 ## Pending Connection Reauthorization
 
