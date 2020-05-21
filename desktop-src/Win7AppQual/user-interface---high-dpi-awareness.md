@@ -69,7 +69,7 @@ Re-run the DPI Awareness assessment and verify the issues are fixed.
 
 ## Links to Other Resources
 
--   [High DPI Desktop Application Development on Windows](https://docs.microsoft.com/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows)
+-   [High DPI Desktop Application Development on Windows](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows)
 -   **Contact for technical questions:** <disup@microsoft.com>
 
  
