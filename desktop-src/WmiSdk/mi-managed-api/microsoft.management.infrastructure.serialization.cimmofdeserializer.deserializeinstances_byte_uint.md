@@ -25,7 +25,7 @@ ms.topic: reference
 
 Deserializes CIM instances based on serialized data.
 
-**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](hh832966\(v=vs.85\).md)  
+**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))  
 **Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)  
 
 ## Syntax
@@ -74,11 +74,11 @@ Public Function DeserializeInstances (
 
 #### Return value
 
-Type: [System.Collections.Generic.IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1?view=netframework-4.8)\<[CimInstance](hh832336\(v=vs.85\).md)\>
+Type: [System.Collections.Generic.IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1?view=netframework-4.8)\<[CimInstance](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832336(v=vs.85))\>
 
 An [IEnumerable\<T\>](/dotnet/api/system.collections.generic.ienumerable-1?view=netframework-4.8) interface that can be used to enumerate the CIM classes.
 
 ## See also
 
-[CimInstance class](hh832336\(v=vs.85\).md)  
-[Microsoft.Management.Infrastructure.Serialization namespace](hh832966\(v=vs.85\).md)
+[CimInstance class](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832336(v=vs.85))  
+[Microsoft.Management.Infrastructure.Serialization namespace](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))

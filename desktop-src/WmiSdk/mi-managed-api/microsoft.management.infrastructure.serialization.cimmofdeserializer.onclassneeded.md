@@ -32,7 +32,7 @@ ms.topic: reference
 
 Represents a callback to retrieve a CIM class for the specified server, namespace, and class name.
 
-**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](hh832966\(v=vs.85\).md)  
+**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))  
 **Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)  
 
 ## Syntax
@@ -92,10 +92,10 @@ Public Delegate Function OnClassNeeded (
 
 #### Return Value
 
-Type: [CimClass class](hh832269\(v=vs.85\).md)
+Type: [CimClass class](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832269(v=vs.85))
 
 Returns the CIM class corresponding to the specified arguments, or **null** if the class can't be found.
 
 ## See Also
 
-[Microsoft.Management.Infrastructure.Serialization](hh832966\(v=vs.85\).md)
+[Microsoft.Management.Infrastructure.Serialization](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))

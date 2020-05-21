@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Handling Errors in Queued Components
 
-Occasionally, a situation occurs in which a message cannot be successfully delivered to its intended destination, usually due to a problem with the system or configuration. For example, the message might be directed to a queue that does not exist or the destination queue might not be in a state to receive. The message mover is a tool that moves all failed [Message Queuing](_mq_Message_Queuing_MSMQ_Start_Page.md) messages from one queue to another so that they can be retried. The message mover utility is an Automation object that can be invoked with a VBScript.
+Occasionally, a situation occurs in which a message cannot be successfully delivered to its intended destination, usually due to a problem with the system or configuration. For example, the message might be directed to a queue that does not exist or the destination queue might not be in a state to receive. The message mover is a tool that moves all failed [Message Queuing](/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)) messages from one queue to another so that they can be retried. The message mover utility is an Automation object that can be invoked with a VBScript.
 
 ## Components Services Administrative Tool
 

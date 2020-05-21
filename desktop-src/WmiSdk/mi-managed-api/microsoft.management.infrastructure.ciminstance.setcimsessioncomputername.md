@@ -67,4 +67,4 @@ Public Sub SetCimSessionComputerName (
 ## See also
 
 [CimInstance Class](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832336\(v=vs.85\).md)  
-[Microsoft.Management.Infrastructure namespace](hh832958\(v=vs.85\).md)
+[Microsoft.Management.Infrastructure namespace](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85))
