@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # Managing Packet Size
 
-The writer is designed to manage the size of packets internally. However, you may have specific requirements for your application that call for some manual control over the size of packets in the ASF files that you write. The Windows Media Format SDK provides two interfaces, [**IWMPacketSize**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize) and [**IWMPacketSize2**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize2) that enable you to control the maximum and minimum size of packets.
+The writer is designed to manage the size of packets internally. However, you may have specific requirements for your application that call for some manual control over the size of packets in the ASF files that you write. The Windows Media Format SDK provides two interfaces, [**IWMPacketSize**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize) and [**IWMPacketSize2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize2) that enable you to control the maximum and minimum size of packets.
 
 Both packet size interfaces are exposed in the profile object. They are also available to the reader object. As with other profile-related interfaces, the reader can access only the reading methods.
 
@@ -29,7 +29,7 @@ The size of packets has some effect on performance. In general, the smaller the 
 [**IWMPacketSize Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize)
 </dt> <dt>
 
-[**IWMPacketSize2 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize2)
+[**IWMPacketSize2 Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize2)
 </dt> <dt>
 
 [**Working with Profiles**](working-with-profiles.md)

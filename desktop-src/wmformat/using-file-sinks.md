@@ -40,7 +40,7 @@ After writing operations begin, you can stop writing to a file sink by calling [
 
 There are many potential reasons why you would want to stop writing to a sink. For example, if you are recording from a live source, you may only be interested in some of the content.
 
-You can resume writing to a file sink by calling [**IWMWriterFileSink2::Start**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriterfilesink2-start). Both **Stop** and **Start** use presentation times to control approximately when the command is executed. You can use the [**IWMWriterFileSink3**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3) methods to gain more control over start and stop times.
+You can resume writing to a file sink by calling [**IWMWriterFileSink2::Start**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriterfilesink2-start). Both **Stop** and **Start** use presentation times to control approximately when the command is executed. You can use the [**IWMWriterFileSink3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3) methods to gain more control over start and stop times.
 
 ## Closing File Sinks
 
@@ -57,10 +57,10 @@ You can get the file size and duration for an open sink by calling [**IWMWriterF
 [**IWMWriterFileSink Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink)
 </dt> <dt>
 
-[**IWMWriterFileSink2 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink2)
+[**IWMWriterFileSink2 Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink2)
 </dt> <dt>
 
-[**IWMWriterFileSink3 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3)
+[**IWMWriterFileSink3 Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3)
 </dt> <dt>
 
 [**Writer File Sink Object**](writer-file-sink-object.md)

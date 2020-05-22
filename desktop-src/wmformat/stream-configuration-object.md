@@ -25,7 +25,7 @@ To create a stream configuration object, use one of the following methods.
 |-----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | [**IWMProfile::CreateNewStream**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-createnewstream)     | Creates a stream configuration object without any data.                                                                          |
 | [**IWMProfile::GetStream**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-getstream)                 | Creates a stream configuration object populated with data from a profile. Uses the stream index to identify the desired stream.  |
-| [**IWMProfile::GetStreamByNumber**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-getstreambynumber) | Creates a stream configuration object populated with data from a profile. Uses the stream number to identify the desired stream. |
+| [**IWMProfile::GetStreamByNumber**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-getstreambynumber) | Creates a stream configuration object populated with data from a profile. Uses the stream number to identify the desired stream. |
 
 
 
@@ -42,8 +42,8 @@ The following interfaces are supported by the stream configuration object.
 | [**IWMMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops)           | Sets and retrieves the [**WM\_MEDIA\_TYPE**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type) structure for the stream.                                    |
 | [**IWMPropertyVault**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault)     | Sets and retrieves properties that are not required for all streams, like variable bit rate (VBR) settings.                  |
 | [**IWMStreamConfig**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig)       | Sets and retrieves all of the basic information about a stream.                                                              |
-| [**IWMStreamConfig2**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2)     | Configures the types of data unit extensions associated with the stream. Inherits all of the methods of **IWMStreamConfig**. |
-| [**IWMStreamConfig3**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig3)     | Sets and retrieves the language for the stream. Inherits all of the methods of **IWMStreamConfig** and **IWMStreamConfig2**. |
+| [**IWMStreamConfig2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2)     | Configures the types of data unit extensions associated with the stream. Inherits all of the methods of **IWMStreamConfig**. |
+| [**IWMStreamConfig3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig3)     | Sets and retrieves the language for the stream. Inherits all of the methods of **IWMStreamConfig** and **IWMStreamConfig2**. |
 | [**IWMVideoMediaProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nn-wmsdkidl-iwmvideomediaprops) | Manages the properties of a video stream. This is an optional interface, and is available only for video streams.            |
 
 

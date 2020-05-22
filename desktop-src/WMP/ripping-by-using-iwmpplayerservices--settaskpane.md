@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 # Ripping by Using IWMPPlayerServices::setTaskPane
 
 > [!Note]  
-> This section documents a feature of the Windows Media Player 9 Series and Windows Media Player 10 ActiveX controls. It is recommended that you use the **IWMPCdromRip** interface with later versions. See [IWMPCdromRip Interface](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip).
+> This section documents a feature of the Windows Media Player 9 Series and Windows Media Player 10 ActiveX controls. It is recommended that you use the **IWMPCdromRip** interface with later versions. See [IWMPCdromRip Interface](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip).
 
  
 
@@ -242,7 +242,7 @@ void CMyApp::MediaChange(IDispatch * Item)
 [**IWMPCdrom Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdrom)
 </dt> <dt>
 
-[**IWMPCdromCollection Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection)
+[**IWMPCdromCollection Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection)
 </dt> <dt>
 
 [**IWMPEvents Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents)
