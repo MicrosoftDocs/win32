@@ -19,7 +19,7 @@ virtual bool STDMETHODCALLTYPE IsAttributeSupported(
 
 ## Parameters
 
-### attributeGUID
+### attributeGUID
 
 Type: **REFGUID**
 
