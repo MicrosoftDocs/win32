@@ -80,7 +80,7 @@ You can specify multiple servers to receive logging information; just call **Add
 [**IWMReaderAdvanced Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced)
 </dt> <dt>
 
-[**IWMReaderAdvanced2 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2)
+[**IWMReaderAdvanced2 Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2)
 </dt> </dl>
 
  

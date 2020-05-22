@@ -130,7 +130,7 @@ The following tables list the various DMO flags and their MFT equivalents. Whene
 
 ### ProcessInput Flags
 
-DMOs: [**\_DMO\_INPUT\_DATA\_BUFFER\_FLAGS**](https://msdn.microsoft.com/library/Dd375501(v=VS.85).aspx) enumeration.
+DMOs: [**\_DMO\_INPUT\_DATA\_BUFFER\_FLAGS**](https://docs.microsoft.com/previous-versions/windows/embedded/aa451599(v=msdn.10)) enumeration.
 
 MFTs: No equivalent enumeration.
 
@@ -216,7 +216,7 @@ MFTs: [**\_MFT\_OUTPUT\_STATUS\_FLAGS**](/windows/win32/api/mftransform/ne-mftra
 
 ### GetInputStreamInfo Flags
 
-DMOs: [**\_DMO\_INPUT\_STREAM\_INFO\_FLAGS**](https://msdn.microsoft.com/library/Dd375502(v=VS.85).aspx) enumeration.
+DMOs: [**\_DMO\_INPUT\_STREAM\_INFO\_FLAGS**](https://docs.microsoft.com/previous-versions/windows/embedded/aa451600(v=msdn.10)) enumeration.
 
 MFTs: [**\_MFT\_INPUT\_STREAM\_INFO\_FLAGS**](/windows/win32/api/mftransform/ne-mftransform-_mft_input_stream_info_flags) enumeration.
 
@@ -238,7 +238,7 @@ MFTs: [**\_MFT\_INPUT\_STREAM\_INFO\_FLAGS**](/windows/win32/api/mftransform/ne-
 
 ### GetOutputStreamInfo Flags
 
-DMOs: [**\_DMO\_OUTPUT\_STREAM\_INFO\_FLAGS**](https://msdn.microsoft.com/library/Dd375509(v=VS.85).aspx) enumeration.
+DMOs: [**\_DMO\_OUTPUT\_STREAM\_INFO\_FLAGS**](https://docs.microsoft.com/previous-versions/ms806053(v%3dmsdn.10)) enumeration.
 
 MFTs: [**\_MFT\_OUTPUT\_STREAM\_INFO\_FLAGS**](/windows/win32/api/mftransform/ne-mftransform-_mft_output_stream_info_flags) enumeration.
 

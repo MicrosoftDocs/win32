@@ -77,7 +77,7 @@ The sample named WMPML demonstrates how to work with library services. For more 
 [**IWMPLibrary Interface (VB and C#)**](iwmplibrary--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPLibraryServices Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibraryservices)
+[**IWMPLibraryServices Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibraryservices)
 </dt> <dt>
 
 [**IWMPLibraryServices Interface (VB and C#)**](iwmplibraryservices--vb-and-c.md)

@@ -48,10 +48,10 @@ There are two events that you can handle to receive error notifications about yo
 [**IWMPCdrom Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdrom)
 </dt> <dt>
 
-[**IWMPCdromBurn Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn)
+[**IWMPCdromBurn Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn)
 </dt> <dt>
 
-[**IWMPCdromCollection Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection)
+[**IWMPCdromCollection Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection)
 </dt> <dt>
 
 [**IWMPEvents3 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents3)

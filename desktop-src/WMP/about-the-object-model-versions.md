@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 Windows Media Player 7.0 introduced a new object model. This object model has been extended with Windows Media Player 7.1, Windows Media Player for Windows XP, Windows Media Player 9 Series, Windows Media Player 10, Windows Media Player 11, and Windows Media Player 12. Each topic in the Object Model Reference includes a Requirements section that details the minimum requirement for the individual property, method, or event. The following lists detail the new objects, methods, properties, and events that have been added for each version since version 7.0. These lists also include new C++ interfaces, methods, and events.
 
-Where a new or updated interface is also exposed as an object, only the object is listed. To locate the interface, refer to the [Object Model Reference for C++](object-model-reference-for-c.md). Usually, you will simply need to add the IWMP prefix to the object name. If a new interface extends an existing one, you may need to look for the latest version number. For example, Windows Media Player 9 Series introduced new properties and methods available from the [**Settings**](settings-object.md) object. In C++, these are available through the [**IWMPSettings2**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsettings2) interface, which extends [**IWMPSettings**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsettings).
+Where a new or updated interface is also exposed as an object, only the object is listed. To locate the interface, refer to the [Object Model Reference for C++](object-model-reference-for-c.md). Usually, you will simply need to add the IWMP prefix to the object name. If a new interface extends an existing one, you may need to look for the latest version number. For example, Windows Media Player 9 Series introduced new properties and methods available from the [**Settings**](settings-object.md) object. In C++, these are available through the [**IWMPSettings2**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsettings2) interface, which extends [**IWMPSettings**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsettings).
 
 ## Added for Windows Media Player 7.1
 
@@ -80,7 +80,7 @@ Where a new or updated interface is also exposed as an object, only the object i
 ## Added for Windows Media Player 10
 
 -   [**IWMPGraphCreation Interface**](/previous-versions/windows/desktop/api/wmpservices/nn-wmpservices-iwmpgraphcreation)
--   [**IWMPPlayerServices2 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices2)
+-   [**IWMPPlayerServices2 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices2)
 -   [**IWMPSyncDevice Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice)
 -   [**IWMPSyncServices Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncservices)
 -   [**WMPDeviceStatus Enumeration**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpdevicestatus)
@@ -96,9 +96,9 @@ Where a new or updated interface is also exposed as an object, only the object i
 -   [**IWMPFolderMonitorServices Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices)
 -   [**IWMPLibrary Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrary)
 -   [**IWMPLibrary Interface (VB and C#)**](iwmplibrary--vb-and-c.md)
--   [**IWMPLibraryServices Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibraryservices)
+-   [**IWMPLibraryServices Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibraryservices)
 -   [**IWMPLibraryServices Interface (VB and C#)**](iwmplibraryservices--vb-and-c.md)
--   [**IWMPLibrarySharingServices Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrarysharingservices)
+-   [**IWMPLibrarySharingServices Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrarysharingservices)
 -   [**IWMPMediaCollection2 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection2)
 -   [**IWMPMediaCollection2 Interface (VB and C#)**](iwmpmediacollection2--vb-and-c.md)
 -   [**IWMPQuery Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpquery)
@@ -106,7 +106,7 @@ Where a new or updated interface is also exposed as an object, only the object i
 -   [**IWMPRenderConfig Interface**](/previous-versions/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmprenderconfig)
 -   [**IWMPStringCollection2 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection2)
 -   [**IWMPStringCollection2 Interface (VB and C#)**](iwmpstringcollection2--vb-and-c.md)
--   [**IWMPSyncDevice2 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice2)
+-   [**IWMPSyncDevice2 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice2)
 -   [**IWMPVideoRenderConfig Interface**](/previous-versions/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpvideorenderconfig)
 -   [**Query Object**](query-object.md)
 -   [**WMPBurnFormat Enumeration**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpburnformat)
@@ -118,8 +118,8 @@ Where a new or updated interface is also exposed as an object, only the object i
 
 -   [**IWMPAudioRenderConfig Interface**](/previous-versions/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpaudiorenderconfig)
 -   [**IWMPEvents4 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents4)
--   [**IWMPLibrary2 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrary2)
--   [**IWMPSyncDevice3 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice3)
+-   [**IWMPLibrary2 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrary2)
+-   [**IWMPSyncDevice3 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice3)
 
 ## Related topics
 

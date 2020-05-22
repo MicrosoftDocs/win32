@@ -57,7 +57,6 @@ The properties for the contrast effect are defined by the [**D2D1\_RGBTOHUE\_PRO
 | Library                  | d2d1.lib, dxguid.lib                              |
 
 
-
- ## Related topics
+## Related topics
 
 * [ID2D1Effect interface](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)
