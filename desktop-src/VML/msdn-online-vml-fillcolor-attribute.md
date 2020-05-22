@@ -54,7 +54,7 @@ The fill color of the rectangle is red.
 
 
 
-[FillColor Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_fillco.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[FillColor Attribute Example](https://docs.microsoft.com/previous-versions/bb229668(v%3dvs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

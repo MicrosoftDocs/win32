@@ -80,8 +80,8 @@ The following is the minimum code needed to produce an extrusion.
 
 **Examples**
 
--   [Simple Shape Extrusion](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/extrusion/t_extrusion.md)
--   [Dynamic Shape Extrusion](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/extrusion/x_extrusion.md)
+-   [Simple Shape Extrusion](https://docs.microsoft.com/previous-versions/bb229656(v%3dvs.85))
+-   [Dynamic Shape Extrusion](https://docs.microsoft.com/previous-versions/bb229657(v%3dvs.85))
 
  
 

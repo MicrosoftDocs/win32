@@ -63,7 +63,7 @@ To change the attributes of a shape, you must first give the shape an ID; for ex
 
 
 
-[ID Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_id.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[ID Attribute Example](https://docs.microsoft.com/previous-versions/office/developer/speech-technologies/ms872141(v%3dmsdn.10)#example). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 
