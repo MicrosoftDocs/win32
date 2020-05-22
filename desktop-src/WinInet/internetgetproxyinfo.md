@@ -18,7 +18,10 @@ ms.date: 05/31/2018
 
 # InternetGetProxyInfo function
 
-Retrieves proxy data for accessing specified resources. This function can only be called by dynamically linking to "JSProxy.dll". For better autoproxy support, use HTTP Services (WinHTTP) version 5.1 instead. For more information, see [WinHTTP AutoProxy Support](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-autoproxy-support).
+> [!Note]
+> This function is deprecated. For autoproxy support, use HTTP Services (WinHTTP) version 5.1 instead. For more information, see [WinHTTP AutoProxy Support](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-autoproxy-support).
+
+Retrieves proxy data for accessing specified resources. This function can only be called by dynamically linking to "JSProxy.dll".
 
 ## Syntax
 
