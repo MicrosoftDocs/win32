@@ -64,7 +64,7 @@ Indicates the domain, account, and SID values to use during this operation. Addi
 
 ### OpOutput [out]
 
-Contains a value of [LSA_SID_NAME_MAPPING_OPERATION_ERROR](/library/dn280707.aspx) that indicates operation success or failure.
+Contains a value of [LSA_SID_NAME_MAPPING_OPERATION_ERROR](/previous-versions/windows/desktop/legacy/dn280707(v=vs.85)) that indicates operation success or failure.
 
 | Value | Meaning |
 |-------|---------|
