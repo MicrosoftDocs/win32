@@ -121,7 +121,7 @@ The following list lists the possible registry settings and the associated runni
 
 The registry keys can be modified using the Group Policy Management Console (GPMC). For more information, see [Group Policy Management Console](https://msdn.microsoft.com/library/aa814316.aspx).
 
-The following procedures illustrate how to manage secure and compatible mode settings by using group policy preferences. For more information about group policy preferences, see the [Group Policy Preferences Overview](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn581922(v=ws.11)).
+The following procedures illustrate how to manage secure and compatible mode settings by using group policy preferences. For more information about group policy preferences, see the [Group Policy Preferences Overview](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn581922(v=ws.11)).
 
 **To add a provider to either the secure or compatible mode by using Group Policy**
 
