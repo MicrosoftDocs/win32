@@ -73,7 +73,7 @@ The [**Win32\_SecurityDescriptorHelper**](https://docs.microsoft.com/previous-ve
 <span id="User_Account_Control"></span><span id="user_account_control"></span><span id="USER_ACCOUNT_CONTROL"></span>User Account Control
 </dt> <dd>
 
-User Account Control (UAC) affects what WMI data is returned, remote access, and how scripts must be run. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md). For more information about UAC, see [Getting Started with User Account Control on Windows Vista](https://technet.microsoft.com/En-US/WindowsVista/aa906022.aspx).
+User Account Control (UAC) affects what WMI data is returned, remote access, and how scripts must be run. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md). For more information about UAC, see [Getting Started with User Account Control on Windows Vista](https://support.microsoft.com/en-us/help/922708/how-to-use-user-account-control-uac-in-windows-vista).
 
 </dd> </dl>
 
