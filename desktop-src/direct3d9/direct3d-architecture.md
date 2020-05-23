@@ -45,7 +45,7 @@ The following diagram shows the relationships between a Window application, Dire
 
 Direct3D exposes a device-independent interface to an application. Direct3D applications can exist alongsideGDI applications, and both have access to the computer's graphics hardware through the device driver for the graphics card. UnlikeGDI, Direct3D can take advantage of hardware features by creating a hal device.
 
-A hal device provides hardware acceleration to graphics pipeline functions, based upon the feature set supported by the graphics card. Direct3D methods are provided to retrieve device display capabilities at run time. (See [**GetDeviceCaps**](https://msdn.microsoft.com/library/Bb174385(v=VS.85).aspx) and [**GetDeviceCaps**](https://msdn.microsoft.com/library/Bb174385(v=VS.85).aspx).) If a capability is not provided by the hardware, the hal does not report it as a hardware capability.
+A hal device provides hardware acceleration to graphics pipeline functions, based upon the feature set supported by the graphics card. Direct3D methods are provided to retrieve device display capabilities at run time. (See [**GetDeviceCaps**](https://msdn.microsoft.com/library/Bb174385(v=VS.85).aspx).) If a capability is not provided by the hardware, the hal does not report it as a hardware capability.
 
 For more information about hal and reference devices supported by Direct3D, see [Device Types (Direct3D 9)](device-types.md).
 
