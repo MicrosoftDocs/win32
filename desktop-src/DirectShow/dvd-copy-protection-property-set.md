@@ -52,23 +52,23 @@ The following information presents the necessary constants and data types to use
 </tr>
 <tr class="odd">
 <td>AM_PROPERTY_DVDCOPY_CHLG_KEY</td>
-<td>Both get and set operations are supported on this property. A get operation requests the decoder to provide its bus challenge key. A set operation provides the decoder with the bus challenge key from the DVD drive. The data passed in this property will be a structure of type <a href="/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_chlgkey"><strong>AM_DVDCOPY_CHLGKEY</strong></a>.</td>
+<td>Both get and set operations are supported on this property. A get operation requests the decoder to provide its bus challenge key. A set operation provides the decoder with the bus challenge key from the DVD drive. The data passed in this property will be a structure of type <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_chlgkey"><strong>AM_DVDCOPY_CHLGKEY</strong></a>.</td>
 </tr>
 <tr class="even">
 <td>AM_PROPERTY_DVDCOPY_DEC_KEY2</td>
-<td>This is a get-only property. This property requests that the decoder's bus key 2 be transferred to the DVD drive. The data passed will be a structure of type <a href="/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_buskey"><strong>AM_DVDCOPY_BUSKEY</strong></a>.</td>
+<td>This is a get-only property. This property requests that the decoder's bus key 2 be transferred to the DVD drive. The data passed will be a structure of type <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_buskey"><strong>AM_DVDCOPY_BUSKEY</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>AM_PROPERTY_DVDCOPY_DISC_KEY</td>
-<td>Set-only property. This provides disc key. The key is a structure of type <a href="/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_disckey"><strong>AM_DVDCOPY_DISCKEY</strong></a>.</td>
+<td>Set-only property. This provides disc key. The key is a structure of type <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_disckey"><strong>AM_DVDCOPY_DISCKEY</strong></a>.</td>
 </tr>
 <tr class="even">
 <td>AM_PROPERTY_DVDCOPY_DVD_KEY1</td>
-<td>This is a set-only property. This property provides the DVD drive bus key 1 to the decoder. The data passed will be a structure of type <a href="/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_buskey"><strong>AM_DVDCOPY_BUSKEY</strong></a>.</td>
+<td>This is a set-only property. This property provides the DVD drive bus key 1 to the decoder. The data passed will be a structure of type <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_buskey"><strong>AM_DVDCOPY_BUSKEY</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>AM_PROPERTY_DVDCOPY_REGION</td>
-<td>Region code requests the region definition that the decoder is allowed to play in as defined by the DVD consortium. This region is defined as a <a href="/windows/desktop/api/dvdmedia/ns-dvdmedia-dvd_region"><strong>DVD_REGION</strong></a> structure.</td>
+<td>Region code requests the region definition that the decoder is allowed to play in as defined by the DVD consortium. This region is defined as a <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-dvd_region"><strong>DVD_REGION</strong></a> structure.</td>
 </tr>
 <tr class="even">
 <td>AM_PROPERTY_DVDCOPY_SET_COPY_STATE</td>

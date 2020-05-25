@@ -29,7 +29,7 @@ Management Types
 Shared Types
 
 -   [**FWP\_AF**](/windows/win32/api/fwptypes/ne-fwptypes-fwp_af)
--   [**FWP\_CLASSIFY\_OPTION\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_classify_option_type_)
+-   [**FWP\_CLASSIFY\_OPTION\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_classify_option_type)
 -   [**FWP\_DATA\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type_)
 -   [**FWP\_DIRECTION**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_direction_)
 -   [**FWP\_ETHER\_ENCAP\_METHOD**](/windows/win32/api/fwptypes/ne-fwptypes-fwp_ether_encap_method)

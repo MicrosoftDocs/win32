@@ -31,7 +31,7 @@ The device associated with the DXGI surface must be a D3D11 device.
 
 ## Possible Causes
 
-There was an attempt to use the [**CreateDxgiSurfaceRenderTarget**](/windows/desktop/dd371264(v=vs.85).aspx) with a DXGI surface created by a non-Direct3D11 device.
+There was an attempt to use the [**CreateDxgiSurfaceRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) with a DXGI surface created by a non-Direct3D11 device.
 
  
 
