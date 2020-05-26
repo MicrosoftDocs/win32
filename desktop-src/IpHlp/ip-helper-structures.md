@@ -40,7 +40,7 @@ The following structures and unions are used with IP Helper.
 - [**IP\_PER\_ADAPTER\_INFO**](/windows/desktop/api/Iptypes/ns-iptypes-ip_per_adapter_info_w2ksp1)
 - [**IP\_UNIDIRECTIONAL\_ADAPTER\_ADDRESS**](/windows/desktop/api/Ipexport/ns-ipexport-ip_unidirectional_adapter_address)
 - [**IPV6\_ADDRESS\_EX**](/windows/desktop/api/Ipexport/ns-ipexport-ipv6_address_ex)
-- [**NET\_ADDRESS\_INFO**](/windows/desktop/api/Iphlpapi/ns-iphlpapi-net_address_info_)
+- [**NET\_ADDRESS\_INFO**](/windows/desktop/api/Iphlpapi/ns-iphlpapi-net_address_info)
 - [**NET\_LUID**](/windows/desktop/api/Ifdef/ns-ifdef-net_luid_lh)
 - [**NL_NETWORK_CONNECTIVITY_HINT**](/windows/win32/api/nldef/ns-nldef-nl_network_connectivity_hint)
 - [**SOCKADDR\_IN6\_PAIR**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-sockaddr_in6_pair)
