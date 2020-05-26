@@ -68,7 +68,6 @@ To create a shape that is gradient-filled horizontally, you can set the **type**
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedFill/Gradient/Horizontal1.md)
 
 If you change the **fillcolor** property attribute of the shape, the shape is then gradient-filled with a different color. You can add a second color by specifying the **color2** property attribute of the `<fill>` sub-element. For example, to create a shape that is gradient-filled in two colors, you can add a second color by specifying the **color2** property attribute of the `<fill>` sub-element, as shown in the following VML representation:
 
@@ -83,7 +82,6 @@ If you change the **fillcolor** property attribute of the shape, the shape is th
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedFill/Gradient/Horizontal2.md)
 
 You can set the **method** property attribute to "linear" or "sigma" or "any" or "none". The effect of the gradient is slightly different. Also, you can use the **angle**,**focus**,**focussize**, or **focusposition** property attribute to change how the gradient goes.
 
@@ -105,7 +103,6 @@ type="gradient" />
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedFill/Gradient/vertical1.md)
 
 To create a shape that is gradient-filled from diagonal moving up, you can set the **angle** property attribute to angle="-135", as shown in the following VML representation:
 
@@ -121,7 +118,6 @@ type="gradient" />
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedFill/Gradient/DiagonalUp1.md)
 
 To create a shape that is gradient-filled from diagonal moving down, you can set the **angle** property attribute to angle="-45", as shown in the following VML representation:
 
@@ -137,7 +133,6 @@ type="gradient" />
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedFill/Gradient/DiagonalDown1.md)
 
 To create a shape that is gradient-filled from the center, you can specify `angle="-45" focus="100%" focusposition=".5, .5" focussize="0, 0" type="gradientRadial"`, as shown in the following VML representation:
 
@@ -154,7 +149,6 @@ type="gradientRadial" />
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedFill/Gradient/FromCenter1.md)
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -177,7 +171,6 @@ To create a shape that is filled with a pattern image, you can specify the **typ
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedFill/Pattern/Pattern1.md)
 
 If you point the **src** property attribute to a different pattern file, you can create a shape that is filled with a different pattern. Also, you can change the color by specifying a different value for the **fillcolor** or **color2** property attribute, as shown in the following VML representation:
 
@@ -193,7 +186,6 @@ color2="blue" />
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedFill/Pattern/Pattern2.md)
 
 [![back to top](images/top.gif) Back to top](#top)
 
@@ -217,7 +209,6 @@ strokeweight="2.5pt">
 
 
 
-[Show Me](https://samples.msdn.microsoft.com/workshop/samples/vml/examples/AdvancedFill/Picture/Picture1.md)
 
 You can easily create a shape that is filled with a different picture by pointing the **src** property attribute to another file.
 
