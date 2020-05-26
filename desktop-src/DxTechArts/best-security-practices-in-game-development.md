@@ -107,7 +107,7 @@ Using the **/SAFESEH** flag will instruct the linker to only generate an executa
 
 More information about [Buffer Security Check](https://msdn.microsoft.com/library/8dbf701c(vs.71).aspx) (**/GS**) and [Image has Safe Exception Handlers](https://msdn.microsoft.com/library/9a89h429(vs.71).aspx) (**/SAFESEH**) can be found in MSDN.
 
-See also info about Microsoft Visual Studio 2012's [**/SDL** flag](https://blogs.msdn.microsoft.com/b/sdl/archive/2011/12/02/security.aspx) and Visual Studio 2012's [enhancements to the **/GS** flag](https://blogs.msdn.microsoft.com/b/sdl/archive/2012/01/26/enhancements-to-gs-in-visual-studio-11.aspx).
+See also info about Microsoft Visual Studio 2012's [**/SDL** flag](https://blogs.msdn.microsoft.com/b/sdl/archive/2011/12/02/security.aspx) and Visual Studio 2012's [enhancements to the **/GS** flag](https://www.microsoft.com/security/blog/2012/01/26/enhancements-to-gs-in-visual-studio-11/).
 
 </dd> <dt>
 

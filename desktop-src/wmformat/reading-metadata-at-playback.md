@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # Reading Metadata at Playback
 
-Both the asynchronous reader object and the synchronous reader object can read the metadata from the header of a loaded ASF file. When reading files, the metadata attributes are all read-only. Both reader objects can be queried for the [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo) and [**IWMHeaderInfo2**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2) interfaces.
+Both the asynchronous reader object and the synchronous reader object can read the metadata from the header of a loaded ASF file. When reading files, the metadata attributes are all read-only. Both reader objects can be queried for the [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo) and [**IWMHeaderInfo2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2) interfaces.
 
 For more information about accessing metadata, see [Working with Metadata](working-with-metadata.md).
 

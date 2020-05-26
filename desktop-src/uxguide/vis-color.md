@@ -170,7 +170,7 @@ In this example, a darker window background color is derived from the theme colo
 
 ### Testing colors
 
-To determine if your program's use of color is accessible and not used as a primary method of communication, we recommend using the [Fujitsu ColorDoctor](https://design.fujitsu.com/en/universal/assistance/colordoctor/) or the [Vischeck](https://www.vischeck.com/) utilities to check for:
+To determine if your program's use of color is accessible and not used as a primary method of communication, we recommend using the [Fujitsu ColorDoctor](https://www.fujitsu.com/global/about/businesspolicy/tech/design/) or the [Vischeck](https://www.vischeck.com/) utilities to check for:
 
 -   Overall dependency on color using the Gray scale filter.
 -   Specific color confusion problems using the Protanopia, Deuteranopia, and Tritanopia filters.

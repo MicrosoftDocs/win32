@@ -144,7 +144,7 @@ Windows Media Player 10 has up to three service task panes. Windows Media Player
 <td>Provide a plug-in that implements <a href="/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice"><strong>IWMPSubscriptionService</strong></a>.
 <blockquote>
 [!Note]<br />
-In Windows Media Player 10 and later, this plug-in can also implement <a href="/previous-versions/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2"><strong>IWMPSubscriptionService2</strong></a>.
+In Windows Media Player 10 and later, this plug-in can also implement <a href="/previous-versions/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2"><strong>IWMPSubscriptionService2</strong></a>.
 </blockquote>
 <br/></td>
 <td>No</td>

@@ -20,7 +20,7 @@ virtual HRESULT STDMETHODCALLTYPE GetPropertySize(
 
 ## Parameters
 
-### property
+### property
 
 Type: **[DXCoreAdapterProperty](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty)**
 

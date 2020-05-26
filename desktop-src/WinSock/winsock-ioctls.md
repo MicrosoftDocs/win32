@@ -167,6 +167,9 @@ Retrieves information about QoS traffic characteristics. During the transitional
 
 Enables port sharing and receive indication parallelization. When your application uses this socket option to associate sockets to different processors, and then binds the sockets to the same address, receive indications will be distributed across the sockets based on Receive Side Scaling (RSS) hash. The RSS settings don't change, so any given flow (local endpoint, remote endpoint pair) will always be indicated on the same processor. As a result, all packets belonging to a given flow will be indicated to the same socket. This IOCTL must be called prior to bind, otherwise WSAEINVAL will be returned. The input buffer is a processor index (0-based) of type USHORT. The IOCTL is incompatible with SO_REUSEADDR and SO_REUSE_MULTICASTPORT. Only supported for UDP sockets.
 
+> [!NOTE]
+> If you're targeting version 10.0.19041.0 (Windows 10, version 2004) of the Windows SDK, then use the value `0x98000015` instead of the name **SIO_CPU_AFFINITY**.
+
 ### SIO\_ENABLE\_CIRCULAR\_QUEUEING (opcode setting: V, T==1)
 
 Indicates to the underlying message-oriented service provider that a newly arrived message should never be dropped because of a buffer queue overflow. Instead, the oldest message in the queue should be eliminated in order to accommodate the newly arrived message. No input and output buffers are required. Note that this IOCTL is only valid for sockets associated with unreliable, message-oriented protocols. The [WSAENOPROTOOPT](windows-sockets-error-codes-2.md) error code is indicated for service providers that do not support this IOCTL.

@@ -23,7 +23,7 @@ To enumerate the CD drives on the user's computer, use the **IWMPCdromCollection
 
 By using the **get\_count** and **item** methods, you can iterate the collection to retrieve an [IWMPCdrom](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdrom) interface pointer for each CD drive on the user's computer.
 
-The **IWMPCdrom** interface represents an individual CD drive. Before you begin burning a CD, you must first call **QueryInterface** through an **IWMPCdrom** pointer to retrieve a pointer to the [IWMPCdromBurn](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn) interface.
+The **IWMPCdrom** interface represents an individual CD drive. Before you begin burning a CD, you must first call **QueryInterface** through an **IWMPCdrom** pointer to retrieve a pointer to the [IWMPCdromBurn](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn) interface.
 
 The following code example demonstrates how to retrieve an interface for burning a CD to a specific drive:
 
@@ -83,7 +83,7 @@ HRESULT CMainDlg::GetCdromBurnInterface (long lIndex)
 [**Retrieving the Burn Status**](retrieving-the-burn-status.md)
 </dt> <dt>
 
-[**IWMPCdromCollection Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection)
+[**IWMPCdromCollection Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection)
 </dt> </dl>
 
  

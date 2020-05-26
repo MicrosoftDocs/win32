@@ -96,11 +96,11 @@ int _tmain(int argc, TCHAR *argv[])
 // until the child process is running before writing data.
  
    WriteToPipe(); 
-   printf( "\n->Contents of %s written to child STDIN pipe.\n", argv[1]);
+   printf( "\n->Contents of %S written to child STDIN pipe.\n", argv[1]);
  
 // Read from pipe that is the standard output for child process. 
  
-   printf( "\n->Contents of child process STDOUT:\n\n", argv[1]);
+   printf( "\n->Contents of child process STDOUT:\n\n");
    ReadFromPipe(); 
 
    printf("\n->End of parent execution.\n");

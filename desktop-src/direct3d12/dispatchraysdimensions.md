@@ -29,7 +29,7 @@ uint3 DispatchRaysDimensions();
 This function can be called from the following raytracing shader types:
 
 * [**Any Hit Shader**](any-hit-shader.md)
-* [**Callable Shader**](/callable-shader.md)
+* [**Callable Shader**](callable-shader.md)
 * [**Closest Hit Shader**](closest-hit-shader.md)
 * [**Intersection Shader**](intersection-shader.md)
 * [**Miss Shader**](miss-shader.md)
