@@ -22,7 +22,7 @@ The **GetLocalOffsetForDate** method returns the offset in minutes (+ or �) be
 |:-------------------------------------------------------------------------------------------------|:------------------------------------------------------|
 | [**GetLocalOffsetForDate(time\_t&)**](https://msdn.microsoft.com/library/Aa394025(v=VS.85).aspx)         | Argument is a reference to a **time\_t**.<br/>  |
 | [**GetLocalOffsetForDate(FILETIME\*)**](https://msdn.microsoft.com/library/Aa394022(v=VS.85).aspx)     | Argument is a pointer to a **FILETIME**.<br/>   |
-| [**GetLocalOffsetForDate(struct tm\*)**](https://msdn.microsoft.com/library/Aa394023(v=VS.85).aspx)   | Argument is a pointer to **tm** structure.<br/> |
+| [**GetLocalOffsetForDate(struct tm\*)**](/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getstructtm)   | Argument is a pointer to **tm** structure.<br/> |
 | [**GetLocalOffsetForDate(SYSTEMTIME\*)**](https://msdn.microsoft.com/library/Aa394024(v=VS.85).aspx) | Argument is a pointer to a **SYSTEMTIME**.<br/> |
 
 
