@@ -65,7 +65,7 @@ The following functions are supported for Windows Store apps on Windows 8.1, Wi
 -   [**recv**](/windows/desktop/api/winsock/nf-winsock-recv)
 -   [**recvfrom**](/windows/desktop/api/winsock/nf-winsock-recvfrom)
 -   [**RIOCloseCompletionQueue**](https://msdn.microsoft.com/library/Hh448837(v=VS.85).aspx)
--   [**RIOCreateCompletionQueue**](https://msdn.microsoft.com/library/Hh448841(v=VS.85).aspx)
+-   [**RIOCreateCompletionQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion)
 -   [**RIOCreateRequestQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue)
 -   [**RIODequeueCompletion**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion)
 -   [**RIODeregisterBuffer**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioderegisterbuffer)
@@ -172,7 +172,7 @@ The following functions are supported for Windows Phone Store apps on Windows P
 -   [**recv**](/windows/desktop/api/winsock/nf-winsock-recv)
 -   [**recvfrom**](/windows/desktop/api/winsock/nf-winsock-recvfrom)
 -   [**RIOCloseCompletionQueue**](https://msdn.microsoft.com/library/Hh448837(v=VS.85).aspx)
--   [**RIOCreateCompletionQueue**](https://msdn.microsoft.com/library/Hh448841(v=VS.85).aspx)
+-   [**RIOCreateCompletionQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion)
 -   [**RIOCreateRequestQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue)
 -   [**RIODequeueCompletion**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion)
 -   [**RIODeregisterBuffer**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioderegisterbuffer)
@@ -240,7 +240,7 @@ A set of high-speed networking extensions are available for increased networking
 The following are new Windows Sockets functions added to support Winsock high-speed networking Registered I/O extensions:
 
 -   [**RIOCloseCompletionQueue**](https://msdn.microsoft.com/library/Hh448837(v=VS.85).aspx)
--   [**RIOCreateCompletionQueue**](https://msdn.microsoft.com/library/Hh448841(v=VS.85).aspx)
+-   [**RIOCreateCompletionQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion)
 -   [**RIOCreateRequestQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue)
 -   [**RIODequeueCompletion**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion)
 -   [**RIODeregisterBuffer**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioderegisterbuffer)
