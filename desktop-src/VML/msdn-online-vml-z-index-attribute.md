@@ -66,7 +66,7 @@ The red shape will be displayed in "front" of the blue shape, because it has a h
 
 
 
-[Z-Index Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_zindex.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[Z-Index Attribute Example](https://docs.microsoft.com/previous-versions/ms530275(v%3dvs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

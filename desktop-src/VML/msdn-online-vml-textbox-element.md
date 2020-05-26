@@ -62,7 +62,7 @@ Note that the text displayed in the textbox is enclosed by the TextBox tags. The
 
 **Example**
 
--   [Simple TextBox Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/textbox/t_textbox.md)
+-   [Simple TextBox Example](https://docs.microsoft.com/previous-versions/bb264075(v%3dvs.85))
 
  
 
