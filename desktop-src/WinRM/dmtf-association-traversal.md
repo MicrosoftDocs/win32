@@ -25,7 +25,7 @@ The winrm utility now supports a dialect for the association request. Either the
 
 | Alias       | URI                                                               |
 |-------------|-------------------------------------------------------------------|
-| association | https://schemas.dmtf.org/wbem/wsman/1/cimbinding/AssociationFilter |
+| association | https://www.dmtf.org/sites/default/files/standards/documents/DSP0227_1.0.0.pdf |
 
 
 

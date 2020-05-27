@@ -24,7 +24,7 @@ The following list contains best practices for developing applications using the
 
 -   Use MUI compliant strings.
 
-    All the localizable strings are stored in a common data structure: [**FWPM\_DISPLAY\_DATA0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwpm_display_data0_). The strings within this structure can be indirect strings of the type supported by [**SHLoadIndirectString**](https://msdn.microsoft.com/library/Bb759919(v=VS.85).aspx). Before an **FWPM\_DISPLAY\_DATA0** structure is returned by any of the functions, the indirect strings are resolved to the specified string resource using the caller's locale.
+    All the localizable strings are stored in a common data structure: [**FWPM\_DISPLAY\_DATA0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwpm_display_data0). The strings within this structure can be indirect strings of the type supported by [**SHLoadIndirectString**](https://msdn.microsoft.com/library/Bb759919(v=VS.85).aspx). Before an **FWPM\_DISPLAY\_DATA0** structure is returned by any of the functions, the indirect strings are resolved to the specified string resource using the caller's locale.
 
 -   Associate all objects to a provider.
 

@@ -9,7 +9,7 @@ ms.date: 07/25/2019
 
 # QueryContextAttributes (CredSSP) function
 
-The **QueryContextAttributes (CredSSP)** function lets a transport application query the Credential Security Support Provider (CredSSP) security package for certain [*attributes*](https://docs.microsoft.com/windows/win32/secgloss/a-gly#-security-attribute-gly) of a security context.
+The **QueryContextAttributes (CredSSP)** function lets a transport application query the Credential Security Support Provider (CredSSP) security package for certain [*attributes*](https://docs.microsoft.com/windows/win32/secgloss/a-gly#_security_attribute_gly) of a security context.
 
 ## Syntax
 

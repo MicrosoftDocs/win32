@@ -14,7 +14,7 @@ This section provides in-depth guidance and code examples about Windows features
 
 | Topic | Description  |  
 |----------------------------------|---|
-| [Accessibility](accessibility.md) | Provides guidance for Windows developers designing accessible applications, assistive technology developers building tools such as screen readers and magnifiers, and software test engineers creating automated scripts for testing Windows applications. |
+| [Accessibility](accessibility/accessibility.md) | Provides guidance for Windows developers designing accessible applications, assistive technology developers building tools such as screen readers and magnifiers, and software test engineers creating automated scripts for testing Windows applications. |
 | [Desktop user interface](windows-application-ui-development.md) | Provides information that enables you to develop graphical user interfaces for your apps, including features such as windows and messages, resources, and controls. |
 | [Desktop environment](user-interface.md) | Provides guidance for integrating and extending the desktop user-facing features of Windows, including the Taskbar, the desktop, and File Explorer. |
 | [Application installation and servicing](application-installing-and-servicing.md) | Provides information about using APIs and services provided by Windows to install, manage, and service your desktop apps. |

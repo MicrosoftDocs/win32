@@ -33,7 +33,7 @@ To implement the postviewer, perform the following steps.
 
 <dl> <dt>
 
-[**IWMWriterPostViewCallback Interface**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostviewcallback)
+[**IWMWriterPostViewCallback Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostviewcallback)
 </dt> <dt>
 
 [**Writing ASF Files**](writing-asf-files.md)

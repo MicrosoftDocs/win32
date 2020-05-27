@@ -24,7 +24,7 @@ Management Structures
 -   [**FWPM\_CONNECTION0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_connection0)
 -   [**FWPM\_CONNECTION\_ENUM\_TEMPLATE0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_connection_enum_template0)
 -   [**FWPM\_CONNECTION\_SUBSCRIPTION0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)
--   [**FWPM\_DISPLAY\_DATA0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwpm_display_data0_)
+-   [**FWPM\_DISPLAY\_DATA0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwpm_display_data0)
 -   [**FWPM\_FIELD0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_field0)
 -   [**FWPM\_FILTER0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_filter0)
 -   [**FWPM\_FILTER\_CHANGE0**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_filter_change0)
@@ -87,14 +87,14 @@ Management Structures
 Shared Structures
 
 -   [**FWP\_BYTE\_ARRAY6**](/windows/win32/api/fwptypes/ns-fwptypes-fwp_byte_array6)
--   [**FWP\_BYTE\_ARRAY16**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_byte_array16_)
--   [**FWP\_BYTE\_BLOB**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_byte_blob_)
--   [**FWP\_CONDITION\_VALUE0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_condition_value0_)
--   [**FWP\_RANGE0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_range0_)
--   [**FWP\_MATCH\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_match_type_)
--   [**FWP\_V4\_ADDR\_AND\_MASK**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_v4_addr_and_mask_)
--   [**FWP\_V6\_ADDR\_AND\_MASK**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_v6_addr_and_mask_)
--   [**FWP\_VALUE0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_value0_)
+-   [**FWP\_BYTE\_ARRAY16**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_byte_array16)
+-   [**FWP\_BYTE\_BLOB**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_byte_blob)
+-   [**FWP\_CONDITION\_VALUE0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_condition_value0)
+-   [**FWP\_RANGE0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_range0)
+-   [**FWP\_MATCH\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_match_type)
+-   [**FWP\_V4\_ADDR\_AND\_MASK**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_v4_addr_and_mask)
+-   [**FWP\_V6\_ADDR\_AND\_MASK**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)
+-   [**FWP\_VALUE0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_value0)
 
 IKE/AuthIP Structures
 

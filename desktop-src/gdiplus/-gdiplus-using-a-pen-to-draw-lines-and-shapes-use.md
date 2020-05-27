@@ -10,13 +10,13 @@ ms.date: 05/31/2018
 
 The [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class provides a variety of drawing methods including those shown in the following list:
 
--   [DrawLine Methods](https://msdn.microsoft.com/library/ms535748(v=VS.85).aspx)
--   [DrawRectangle Methods](https://msdn.microsoft.com/library/ms535755(v=VS.85).aspx)
--   [DrawEllipse Methods](https://msdn.microsoft.com/library/ms535744(v=VS.85).aspx)
--   [DrawArc Methods](https://msdn.microsoft.com/library/ms535733(v=VS.85).aspx)
+-   [DrawLine Methods](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint))
+-   [DrawRectangle Methods](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inconstrectf_))
+-   [DrawEllipse Methods](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawellipse(inconstpen_inconstrectf_))
+-   [DrawArc Methods](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawarc(inconstpen_inconstrectf__inreal_inreal))
 -   [**Graphics::DrawPath**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpath)
--   [DrawCurve Methods](https://msdn.microsoft.com/library/ms535742(v=VS.85).aspx)
--   [DrawBezier Methods](https://msdn.microsoft.com/library/ms535734(v=VS.85).aspx)
+-   [DrawCurve Methods](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawcurve(inconstpen_inconstpoint_inint))
+-   [DrawBezier Methods](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawbezier(inconstpen_inconstpointf__inconstpointf__inconstpointf__inconstpointf_))
 
 One of the arguments that you pass to such a drawing method is the address of a [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object.
 

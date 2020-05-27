@@ -40,7 +40,7 @@ Windows Media Player and the plug-in run in separate processes. The plug-in is a
 [**IWMPContentPartner Interface**](/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner)
 </dt> <dt>
 
-[**IWMPContentPartnerCallback Interface**](/previous-versions/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback)
+[**IWMPContentPartnerCallback Interface**](/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback)
 </dt> </dl>
 
  

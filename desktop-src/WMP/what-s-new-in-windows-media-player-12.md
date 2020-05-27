@@ -35,7 +35,7 @@ This topic lists features that are new in Windows Media Player 12.
 
 ## New Attributes
 
-The following new attributes for media items are available through the [**IWMPMedia**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia) and [**IWMPMedia3**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia3) interfaces.
+The following new attributes for media items are available through the [**IWMPMedia**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia) and [**IWMPMedia3**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia3) interfaces.
 
 -   [**AlbumCoverURL**](wm-albumcoverurl-attribute.md)
 -   [**AlternateSourceURL**](alternatesourceurl-attribute.md)

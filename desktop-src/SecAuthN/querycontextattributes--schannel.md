@@ -8,7 +8,7 @@ ms.date: 07/25/2019
 
 # QueryContextAttributes (Schannel) function
 
-The **QueryContextAttributes (Schannel)** function enables a transport application to query the Schannel [*security package*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) for certain [*attributes*](https://docs.microsoft.com/windows/win32/secgloss/a-gly#-security-attribute-gly) of a [*security context*](https://docs.microsoft.com/windows/win32/secgloss/s-gly).
+The **QueryContextAttributes (Schannel)** function enables a transport application to query the Schannel [*security package*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) for certain [*attributes*](https://docs.microsoft.com/windows/win32/secgloss/a-gly#_security_attribute_gly) of a [*security context*](https://docs.microsoft.com/windows/win32/secgloss/s-gly).
 
 ## Syntax
 

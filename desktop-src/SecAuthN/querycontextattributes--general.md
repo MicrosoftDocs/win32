@@ -8,7 +8,7 @@ ms.date: 07/25/2019
 
 # QueryContextAttributes (General) function
 
-Enables a transport application to query a [*security package*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) for certain [*attributes*](https://docs.microsoft.com/windows/win32/secgloss/a-gly#-security-attribute-gly) of a [*security context*](https://docs.microsoft.com/windows/win32/secgloss/s-gly).
+Enables a transport application to query a [*security package*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) for certain [*attributes*](https://docs.microsoft.com/windows/win32/secgloss/a-gly#_security_attribute_gly) of a [*security context*](https://docs.microsoft.com/windows/win32/secgloss/s-gly).
 
 For information about using this function with a specific [*security support provider*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) (SSP), see the following topics.
 

@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Playing Files from a Network Source
 
-Reading from a network is not fundamentally different from reading a local file. The application passes the URL to the reader object's [**IWMReader::Open**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open) method, and the reader object handles the details of the network protocols. The reader object uses intelligent buffer management to provide the smoothest playback possible. If the application needs more control over the reader object's network settings, these are available through the [**IWMReaderNetworkConfig**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig) and [**IWMReaderNetworkConfig2**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig2) interfaces.
+Reading from a network is not fundamentally different from reading a local file. The application passes the URL to the reader object's [**IWMReader::Open**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open) method, and the reader object handles the details of the network protocols. The reader object uses intelligent buffer management to provide the smoothest playback possible. If the application needs more control over the reader object's network settings, these are available through the [**IWMReaderNetworkConfig**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig) and [**IWMReaderNetworkConfig2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig2) interfaces.
 
 Content from a network source falls into one of the following two categories:
 
