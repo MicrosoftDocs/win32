@@ -62,7 +62,7 @@ Here is an example:
 
 
 
-For more information about MUI, see [Windows MUI Knowledge Center](https://msdn.microsoft.com/goglobal/bb978454).
+For more information about MUI, see [Windows MUI Knowledge Center](/windows/win32/intl/about-multilingual-user-interface).
 
 ### HCI Profile
 
