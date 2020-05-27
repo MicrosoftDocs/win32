@@ -29,7 +29,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP160r1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Key size (bits)   | 160                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.1                                                                                              |
@@ -43,7 +43,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP160t1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Key size (bits)   | 160                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.2                                                                                              |
@@ -57,7 +57,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP192r1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Key size (bits)   | 192                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.3                                                                                              |
@@ -71,7 +71,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP192t1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Key size (bits)   | 192                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.4                                                                                              |
@@ -85,7 +85,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP224r1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Key size (bits)   | 224                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.5                                                                                              |
@@ -99,7 +99,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP224t1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Key size (bits)   | 224                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.6                                                                                              |
@@ -113,7 +113,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP256r1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Key size (bits)   | 256                                                                                                               |
 | TLS capable       | Yes                                                                                                               |
 | Object identifier | 1.3.36.3.3.2.8.1.1.7                                                                                              |
@@ -127,7 +127,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP256t1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Key size (bits)   | 256                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.8                                                                                              |
@@ -141,7 +141,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP320r1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Key size (bits)   | 320                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.9                                                                                              |
@@ -155,7 +155,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP320t1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Key size (bits)   | 320                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.10                                                                                             |
@@ -169,7 +169,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP384r1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Key size (bits)   | 384                                                                                                               |
 | TLS capable       | Yes                                                                                                               |
 | Object identifier | 1.3.36.3.3.2.8.1.1.11                                                                                             |
@@ -183,7 +183,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP384t1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Key size (bits)   | 384                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.12                                                                                             |
@@ -197,7 +197,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP512r1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Key size (bits)   | 512                                                                                                               |
 | TLS capable       | Yes                                                                                                               |
 | Object identifier | 1.3.36.3.3.2.8.1.1.13                                                                                             |
@@ -211,7 +211,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 |                   |                                                                                                                   |
 |-------------------|-------------------------------------------------------------------------------------------------------------------|
 | Name              | brainpoolP512t1                                                                                                   |
-| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.ecc-brainpool.org/download/Domain-parameters.pdf) |
+| Standard          | [ECC Brainpool Standard Curves and Curve Generation](https://www.teletrust.de/fileadmin/files/oid/oid_ECC-Brainpool-Standard-curves-V1.pdf) |
 | Key size (bits)   | 512                                                                                                               |
 | TLS capable       | No                                                                                                                |
 | Object identifier | 1.3.36.3.3.2.8.1.1.14                                                                                             |
@@ -645,7 +645,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 
 ## Remarks
 
-To use a named curve, call [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider) using either the **BCRYPT\_ECDSA\_ALGORITHM** or the **BCRYPT\_ECDH\_ALGORITHM** as the algorithm ID. Then, call [**BCryptSetProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsetproperty) and set the **BCRYPT\_ECC\_CURVE\_NAME** property to one of the above curves or any named curves registered on the computer as shown by the `certutil -displaytEccCurve` command.
+To use a named curve, call [**BCryptOpenAlgorithmProvider**](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider) using either the **BCRYPT\_ECDSA\_ALGORITHM** or the **BCRYPT\_ECDH\_ALGORITHM** as the algorithm ID. Then, call [**BCryptSetProperty**](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptsetproperty) and set the **BCRYPT\_ECC\_CURVE\_NAME** property to one of the above curves or any named curves registered on the computer as shown by the `certutil -displaytEccCurve` command.
 
 ## Requirements
 
@@ -663,10 +663,10 @@ To use a named curve, call [**BCryptOpenAlgorithmProvider**](/windows/desktop/ap
 
 <dl> <dt>
 
-[**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider)
+[**BCryptOpenAlgorithmProvider**](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider)
 </dt> <dt>
 
-[**NCryptCreatePersistedKey**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptcreatepersistedkey)
+[**NCryptCreatePersistedKey**](/windows/win32/api/Ncrypt/nf-ncrypt-ncryptcreatepersistedkey)
 </dt> </dl>
 
  

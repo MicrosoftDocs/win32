@@ -59,7 +59,7 @@ The stroke weight of the shape is 1 point.
 
 
 
-[StrokeWeight Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_strwgt.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[StrokeWeight Attribute Example](https://docs.microsoft.com/previous-versions/bb264095(v%3dvs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

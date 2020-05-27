@@ -64,7 +64,7 @@ The position of the rectangle is displayed using the *relative* style.
 
 
 
-[Position Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_positn.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[Position Attribute Example](https://docs.microsoft.com/previous-versions/bb264090(v%3dvs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

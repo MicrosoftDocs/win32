@@ -59,7 +59,7 @@ The center of the bounding box will be the origin (0,0) of the path for the shap
 
 
 
-[CoordOrigin Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_coorig.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[CoordOrigin Attribute Example](https://docs.microsoft.com/previous-versions/bb229664(v%3dvs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 
