@@ -43,7 +43,7 @@ ms.topic: reference
 
 Defines constants that specify schema validation options for deserialization.
 
-**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))  
+**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))  
 **Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)  
 
 ## Syntax
@@ -76,4 +76,4 @@ Friend Enumeration MofDeserializerSchemaValidationOption
 
 ## See Also
 
-[Microsoft.Management.Infrastructure.Serialization Namespace](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))
+[Microsoft.Management.Infrastructure.Serialization Namespace](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))

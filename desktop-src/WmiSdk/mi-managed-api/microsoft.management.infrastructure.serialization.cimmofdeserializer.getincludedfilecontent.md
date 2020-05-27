@@ -32,7 +32,7 @@ ms.topic: reference
 
 Represents a callback to retrieve the file's contents in the form of a byte array.
 
-**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))  
+**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))  
 **Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)  
 
 ## Syntax
@@ -76,4 +76,4 @@ Returns the file's contents in the form of a byte array.
 
 ## See Also
 
-[Microsoft.Management.Infrastructure.Serialization](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))
+[Microsoft.Management.Infrastructure.Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))

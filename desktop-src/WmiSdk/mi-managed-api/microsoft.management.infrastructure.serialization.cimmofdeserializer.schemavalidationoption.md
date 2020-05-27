@@ -30,7 +30,7 @@ ms.topic: reference
 
 Gets or sets the schema validation option for deserialization.
 
-**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))  
+**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))  
 **Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)  
 
 ## Syntax
@@ -64,4 +64,4 @@ The schema validation option for deserialization.
 ## See also
 
 [CimMofDeserializer class](microsoft.management.infrastructure.serialization.cimmofdeserializer.md)
-[Microsoft.Management.Infrastructure.Serialization namespace](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))
+[Microsoft.Management.Infrastructure.Serialization namespace](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))
