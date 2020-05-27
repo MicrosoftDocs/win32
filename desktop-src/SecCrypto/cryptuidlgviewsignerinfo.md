@@ -13,7 +13,7 @@ The **CryptUIDlgViewSignerInfo** function displays a dialog box that contains th
 > [!Note]  
 > This function is not declared in a published header file. To use this structure, declare it in the exact format shown.
 
- 
+ï¿½
 
 ## Syntax
 
@@ -50,7 +50,7 @@ Possible error codes returned from [**GetLastError**](base.getlasterror.md) incl
 
 
 
- 
+ï¿½
 
 ## Requirements
 
@@ -58,9 +58,9 @@ Possible error codes returned from [**GetLastError**](base.getlasterror.md) incl
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                        |
-| End of support<br/> | Windows 7 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windowsï¿½XP \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Serverï¿½2003 \[desktop apps only\]<br/>                                        |
+| End of support<br/> | Windowsï¿½7 \[desktop apps only\]<br/>                                                       |
 | Library<br/>                  | <dl> <dt>Cryptui.lib</dt> </dl>      |
 | DLL<br/>                      | <dl> <dt>Cryptui.dll</dt> </dl>      |
 | Unicode and ANSI names<br/>   | **CryptUIDlgViewSignerInfoW** (Unicode) and **CryptUIDlgViewSignerInfoA** (ANSI)<br/> |
@@ -74,9 +74,9 @@ Possible error codes returned from [**GetLastError**](base.getlasterror.md) incl
 [**CRYPTUI\_VIEWSIGNERINFO\_STRUCT**](cryptui-viewsignerinfo-struct.md)
 </dt> </dl>
 
- 
+ï¿½
 
- 
+ï¿½
 
 
 

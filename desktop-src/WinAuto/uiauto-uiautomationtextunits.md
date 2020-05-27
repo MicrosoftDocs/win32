@@ -60,7 +60,7 @@ For example, a text stream, "Hello **world**", contains two word units with diff
 - The range of "Hello" does not share the bold attribute of the word unit "world" and does not return the mixed attribute value for the font weight text attribute.
 - The range of "**world**" has a single font weight (bold), and does not share the font weight of the preceding word unit “Hello”.
 
-Here's another example where a text stream contains two word units, one of which is a link: "[Foo]() Bar". In this case, the [End](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "[Foo]()" and the [Start](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "Bar" are the same, which results in the following:
+Here's another example where a text stream contains two word units, one of which is a link: `[Foo]() Bar`. In this case, the [End](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit `[Foo]()` and the [Start](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "Bar" are the same, which results in the following:
 
 - The link belongs to the text range containing "Foo".
 - The link is a child of the text range "Foo", and is enclosed by the [ITextProvider](https://review.docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider).

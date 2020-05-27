@@ -116,7 +116,7 @@ pRT_(pRT)
 
 A glyph run is a set of glyphs that share the same format, including the client drawing effect. The [**DrawGlyphRun**](https://msdn.microsoft.com/library/Dd371526(v=VS.85).aspx) method takes care of the text rendering for a specified glyph run.
 
-First, create an [**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry) and an [**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink), and then retrieve the glyph run outline by using [**IDWriteFontFace::GetGlyphRunOutline**](https://msdn.microsoft.com/library/Dd371003(v=VS.85).aspx). Then transform the origin of the geometry by using the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) [**ID2D1Factory::CreateTransformedGeometry**](https://docs.microsoft.com/previous-versions/windows/win32/legacy/dd371304(v=vs.85)) method, as shown in the following code.
+First, create an [**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry) and an [**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink), and then retrieve the glyph run outline by using [**IDWriteFontFace::GetGlyphRunOutline**](https://msdn.microsoft.com/library/Dd371003(v=VS.85).aspx). Then transform the origin of the geometry by using the [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) [**ID2D1Factory::CreateTransformedGeometry**](/windows/win32/direct2d/id2d1factory-createtransformedgeometry) method, as shown in the following code.
 
 
 ```C++

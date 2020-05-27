@@ -132,7 +132,7 @@ None.
 </tr>
 <tr class="odd">
 <td><a href="element-islongstandingadditionalpdpcontextprofile.md">IsLongStandingAdditionalPdpContextProfile</a></td>
-<td><p>Specifies that this profile is a long-standing additional PDP context profile.If the value of this element is <strong>true</strong>, then <a href="../WWAN_profile_v3/element_IsAdditionalPdpContextProfile.md"><strong>IsAdditionalPdpContextProfile</strong></a> must also be set to <strong>true</strong>. This is a new element for v4.</p></td>
+<td><p>Specifies that this profile is a long-standing additional PDP context profile.If the value of this element is <strong>true</strong>, then <a href="/previous-versions/windows/desktop/legacy/mt156987(v=vs.85)"><strong>IsAdditionalPdpContextProfile</strong></a> must also be set to <strong>true</strong>. This is a new element for v4.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-isprovisioningprofile.md">IsProvisioningProfile</a></td>
@@ -149,7 +149,7 @@ None.
 <li>Its <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsubscriberinformation-get_simiccid"><strong>SimIccID</strong></a> must contain the ICCID of the SIM that this profile is intended for.</li>
 <li>Its <a href="../mbn/schema_connectionmode_mbnprofile_element.md"><strong>ConnectionMode</strong></a> must be set to <strong>Manual</strong>.</li>
 <li>Its <a href="element-purposegroupguid.md"><strong>PurposeGroupGuid</strong></a> must contain the GUID for MMS purpose group.</li>
-<li>Its <a href="../WWAN_profile_v3/element_IsAdditionalPdpContextProfile.md"><strong>IsAdditionalPdpContextProfile</strong></a> must be set to <strong>true</strong>.</li>
+<li>Its <a href="/previous-versions/windows/desktop/legacy/mt156987(v=vs.85)"><strong>IsAdditionalPdpContextProfile</strong></a> must be set to <strong>true</strong>.</li>
 </ul></td>
 </tr>
 <tr class="even">

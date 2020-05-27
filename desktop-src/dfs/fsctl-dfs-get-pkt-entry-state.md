@@ -53,7 +53,7 @@ The control code for the operation. Use **FSCTL_DFS_GET_PKT_ENTRY_STATE** for th
 *lpInBuffer* 
 </dt> <dd>
 
-Address of a [**DFS_GET_PKT_ENTRY_STATE_ARG**](dfs-get-pkt-entry-state-arg.md) structure and the 1-3 Unicode strings that follow.
+Address of a [**DFS_GET_PKT_ENTRY_STATE_ARG**](/windows/win32/api/lmdfs/ns-lmdfs-dfs_get_pkt_entry_state_arg) structure and the 1-3 Unicode strings that follow.
 
 </dd> <dt>
 
@@ -67,7 +67,7 @@ Size, in bytes, of the buffer pointed to by the *lpInBuffer* parameter.
 *lpOutBuffer* [out]
 </dt> <dd>
 
-Address of a **DFS_INFO_\#** structure and any strings and structures pointed to by the **DFS_INFO_\#** structure. The specific structure returned depends on the **Level** member in the [**DFS_GET_PKT_ENTRY_STATE_ARG**](dfs-get-pkt-entry-state-arg.md) structure passed in the input buffer.
+Address of a **DFS_INFO_\#** structure and any strings and structures pointed to by the **DFS_INFO_\#** structure. The specific structure returned depends on the **Level** member in the [**DFS_GET_PKT_ENTRY_STATE_ARG**](/windows/win32/api/lmdfs/ns-lmdfs-dfs_get_pkt_entry_state_arg) structure passed in the input buffer.
 
 </dd> <dt>
 

@@ -1191,7 +1191,7 @@ This topic lists all the APIs in OneCore.lib, grouped by module. Linking to OneC
 | [**EnumSystemLanguageGroupsW**](https://docs.microsoft.com/previous-versions//ms776311(v=vs.85))  | Introduced into api-ms-win-core-localization-obsolete-l1-3-0.dll in 10.0.10240. Moved into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. |
 | [**EnumUILanguagesW**](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa)                    | Introduced into api-ms-win-core-localization-obsolete-l1-3-0.dll in 10.0.10240. Moved into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. |
 | [**GetNumberFormatW**](https://docs.microsoft.com/previous-versions//ms776317(v=vs.85))           | Introduced into api-ms-win-core-localization-obsolete-l1-3-0.dll in 10.0.10240. Moved into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. |
-| [**GetStringTypeA**](https://docs.microsoft.com/previous-versions/cc709432(v=vs.85))             | Introduced into api-ms-win-core-localization-obsolete-l1-3-0.dll in 10.0.10240. Moved into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. |
+| [**GetStringTypeA**](/windows/win32/api/winnls/nf-winnls-getstringtypea)             | Introduced into api-ms-win-core-localization-obsolete-l1-3-0.dll in 10.0.10240. Moved into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. |
 | [**GetSystemDefaultUILanguage**](https://docs.microsoft.com/previous-versions//ms776263(v=vs.85)) | Introduced into api-ms-win-core-localization-obsolete-l1-3-0.dll in 10.0.10240. Moved into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. |
 | [**GetUserDefaultUILanguage**](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultuilanguage)            | Introduced into api-ms-win-core-localization-obsolete-l1-3-0.dll in 10.0.10240. Moved into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. |
 
@@ -7336,16 +7336,16 @@ This topic lists all the APIs in OneCore.lib, grouped by module. Linking to OneC
 | API                                                                                                         | Requirements                                                      |
 |-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | [**TdhEnumerateManifestProviderEvents**](https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumeratemanifestproviderevents)   | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
-| [**TdhEnumerateProviderFieldInformation**](https://docs.microsoft.com/previous-versions/aa380618(v=vs.85)) | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
-| [**TdhEnumerateProviders**](https://docs.microsoft.com/previous-versions/aa380619(v=vs.85))                | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
+| [**TdhEnumerateProviderFieldInformation**](/windows/win32/api/tdh/nf-tdh-tdhenumerateproviderfieldinformation) | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
+| [**TdhEnumerateProviders**](/windows/win32/api/tdh/nf-tdh-tdhenumerateproviders)                | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
 | [**TdhFormatProperty**](https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhformatproperty)                    | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
-| [**TdhGetEventInformation**](https://docs.microsoft.com/previous-versions/aa380620(v=vs.85))               | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
-| [**TdhGetEventMapInformation**](https://docs.microsoft.com/previous-versions/aa380621(v=vs.85))            | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
+| [**TdhGetEventInformation**](/windows/win32/api/tdh/nf-tdh-tdhgeteventinformation)               | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
+| [**TdhGetEventMapInformation**](/windows/win32/api/tdh/nf-tdh-tdhgeteventmapinformation)            | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
 | [**TdhGetManifestEventInformation**](https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetmanifesteventinformation)       | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
-| [**TdhGetProperty**](https://docs.microsoft.com/previous-versions/aa380623(v=vs.85))                       | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
-| [**TdhGetPropertySize**](https://docs.microsoft.com/previous-versions/aa380622(v=vs.85))                   | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
+| [**TdhGetProperty**](/windows/win32/api/tdh/nf-tdh-tdhgetproperty)                       | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
+| [**TdhGetPropertySize**](/windows/win32/api/tdh/nf-tdh-tdhgetpropertysize)                   | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
 | [**TdhLoadManifest**](https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhloadmanifest)                      | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
-| [**TdhQueryProviderFieldInformation**](https://docs.microsoft.com/previous-versions/aa380624(v=vs.85))     | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
+| [**TdhQueryProviderFieldInformation**](/windows/win32/api/tdh/nf-tdh-tdhqueryproviderfieldinformation)     | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
 | [**TdhUnloadManifest**](https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhunloadmanifest)                    | Introduced into api-ms-win-eventing-tdh-l1-1-0.dll in 10.0.16299. |
 
 

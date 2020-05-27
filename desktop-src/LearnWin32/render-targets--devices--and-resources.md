@@ -128,13 +128,13 @@ HRESULT MainWindow::CreateGraphicsResources()
 
 
 
-To create a render target for a window, call the [**ID2D1Factory::CreateHwndRenderTarget**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createhwndrendertarget) method on the Direct2D factory.
+To create a render target for a window, call the [**ID2D1Factory::CreateHwndRenderTarget**](/previous-versions/windows/desktop/legacy/dd371275(v=vs.85)) method on the Direct2D factory.
 
 -   The first parameter specifies options that are common to any type of render target. Here, we pass in default options by calling the helper function [**D2D1::RenderTargetProperties**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-rendertargetproperties).
 -   The second parameter specifies the handle to the window plus the size of the render target, in pixels.
 -   The third parameter receives an [**ID2D1HwndRenderTarget**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget) pointer.
 
-To create the solid-color brush, call the [**ID2D1RenderTarget::CreateSolidColorBrush**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createsolidcolorbrush) method on the render target. The color is given as a [**D2D1\_COLOR\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f) value. For more information about colors in Direct2D, see [Using Color in Direct2D](using-color-in-direct2d.md).
+To create the solid-color brush, call the [**ID2D1RenderTarget::CreateSolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__id2d1solidcolorbrush)) method on the render target. The color is given as a [**D2D1\_COLOR\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f) value. For more information about colors in Direct2D, see [Using Color in Direct2D](using-color-in-direct2d.md).
 
 Also, notice that if the render target already exists, the `CreateGraphicsResources` method returns **S\_OK** without doing anything. The reason for this design will become clear in the next topic.
 
