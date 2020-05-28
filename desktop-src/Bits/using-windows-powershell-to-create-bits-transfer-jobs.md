@@ -136,9 +136,9 @@ Switch($Job.JobState)
 
 
 
-In the preceding example, the BITS transfer job was assigned to the $Job variable. The files are downloaded sequentially. After the transfer job is complete, the files are immediately available. If $Job.JobState returns "Transferred", the $Job object is sent to the [Complete-BitsTransfer]( http://technet.microsoft.com/en-us/library/dd347701.aspx) cmdlet.
+In the preceding example, the BITS transfer job was assigned to the $Job variable. The files are downloaded sequentially. After the transfer job is complete, the files are immediately available. If $Job.JobState returns "Transferred", the $Job object is sent to the [Complete-BitsTransfer]( https://technet.microsoft.com/library/dd347701.aspx) cmdlet.
 
-If $Job.JobState returns "Error", the $Job object is sent to the [Format-List]( http://technet.microsoft.com/en-us/library/dd347700.aspx) cmdlet to list the errors.
+If $Job.JobState returns "Error", the $Job object is sent to the [Format-List]( https://technet.microsoft.com/library/dd347700.aspx) cmdlet to list the errors.
 
 ## To manage PowerShell Remote sessions
 
@@ -203,7 +203,7 @@ Remove-PSSession -Name MyRemoteSession
 [Start-BitsTransfer](https://technet.microsoft.com/library/dd347701.aspx)
 </dt> <dt>
 
-[Complete-BitsTransfer]( http://technet.microsoft.com/en-us/library/dd347701.aspx)
+[Complete-BitsTransfer]( https://technet.microsoft.com/library/dd347701.aspx)
 </dt> </dl>
 
  
