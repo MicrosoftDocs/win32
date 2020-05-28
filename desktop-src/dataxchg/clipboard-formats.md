@@ -109,7 +109,7 @@ Certain formats must be invoked to exclude clipboard content by being processed 
 
 To stop content from being included in Clipboard History, set the registered format as **CanIncludeInClipboardHistory** with a DWORD value of zero. (A DWORD value of one will include the content). 
 
-To stop content from being uploaded to Cloud Clipnoard, set the registered format to **CanUploadToCloudClipboard** with a DWORD value of zero. (A DWORD value of one will upload the content). 
+To stop content from being uploaded to Cloud Clipboard, set the registered format to **CanUploadToCloudClipboard** with a DWORD value of zero. (A DWORD value of one will upload the content). 
 
 
 
