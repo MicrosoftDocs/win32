@@ -65,6 +65,12 @@ If the [**SetScrollPos**](https://msdn.microsoft.com/library/Cc411085(v=MSDN.10)
 
 Although the width and height of a window are 32-bit values, the *lParam* parameter contains only the low-order 16 bits of each.
 
+The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function
+sends the **WM\_SIZE** and **WM\_MOVE** messages when it processes
+the [**WM\_WINDOWPOSCHANGED**](wm-windowposchanged.md) message.
+The **WM\_SIZE** and **WM\_MOVE** messages are not sent if an application handles
+the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
+
 ## Requirements
 
 
@@ -91,6 +97,9 @@ Although the width and height of a window are 32-bit values, the *lParam* parame
 </dt> <dt>
 
 [**MoveWindow**](https://msdn.microsoft.com/library/ms633534(v=VS.85).aspx)
+</dt> <dt>
+
+[**WM\_WINDOWPOSCHANGED**](wm-windowposchanged.md)
 </dt> <dt>
 
 **Conceptual**
