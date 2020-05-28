@@ -22,7 +22,7 @@ This guide provides an overview of Active Directory Domain Services and sample c
 Windows 2000 Server and later operating systems provide a user interface for users and administrators to work with the objects and data in Active Directory Domain Services. This guide describes how to extend and customize that user interface. It also describes how to extend Active Directory Domain Services by defining new object classes and attributes.
 
 > [!Note]  
-> The following documentation is for computer programmers. If you are an end-user trying to debug a printing error or home network issue, see the [Microsoft community forums](https://answers.microsoft.coms).
+> The following documentation is for computer programmers. If you are an end-user trying to debug a printing error or home network issue, see the [Microsoft community forums](https://answers.microsoft.com).
 
  
 
@@ -34,7 +34,7 @@ Independent software vendors and end-user developers can use Active Directory Do
 
 ## Developer audience
 
-Applications that access data in Active Directory Domain Services can be written using the [Active Directory Service Interfaces](https://docs.microsoft.com/windows/desktop/ADSI/active-directory-service-interfaces-adsi) API, [Lightweight Directory Access Protocol](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api) API, or the [System.DirectoryServices](https://docs.microsoft.com/dotnet/api/system.directoryservices?redirectedfrom=MSDN) namespace.
+Applications that access data in Active Directory Domain Services can be written using the [Active Directory Service Interfaces](/windows/win32/ADSI/active-directory-service-interfaces-adsi) API, [Lightweight Directory Access Protocol](https://docs.microsoft.com/previous-versions/windows/win32/ldap/lightweight-directory-access-protocol-ldap-api) API, or the [System.DirectoryServices](https://docs.microsoft.com/dotnet/api/system.directoryservices?redirectedfrom=MSDN) namespace.
 
 ## Run-time requirements
 

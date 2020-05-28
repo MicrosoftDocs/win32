@@ -328,7 +328,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ExcludeWUDriversInQualityUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-excludewudrivers)
+[ExcludeWUDriversInQualityUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-excludewudriversinqualityupdate)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**

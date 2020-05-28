@@ -23,7 +23,7 @@ Both methods populate structures with statistical information. **GetStatistics**
 [**IWMWriterAdvanced Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced)
 </dt> <dt>
 
-[**IWMWriterAdvanced3 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced3)
+[**IWMWriterAdvanced3 Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced3)
 </dt> <dt>
 
 [**Writing ASF Files**](writing-asf-files.md)

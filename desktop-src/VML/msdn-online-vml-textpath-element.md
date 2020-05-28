@@ -71,9 +71,9 @@ The following is the minimum code needed to display text on a path.
 
 **Examples**
 
--   [Simple TextPath Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/textpath/t_textpath.md)
--   [Dynamic TextPath Typeface Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/textpath/y_textpath.md)
--   [Dynamic TextPath Curve Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/textpath/x_textpath.md)
+-   [Simple TextPath Example](https://docs.microsoft.com/previous-versions/bb264038(v%3dvs.85))
+-   [Dynamic TextPath Typeface Example](https://docs.microsoft.com/previous-versions/bb264042(v%3dvs.85))
+-   [Dynamic TextPath Curve Example](https://docs.microsoft.com/previous-versions/bb264041(v%3dvs.85))
 
  
 

@@ -149,7 +149,7 @@ If the **ISC\_REQ\_ALLOCATE\_MEMORY** flag is specified, CredSSP will allocate m
 *pfContextAttr* \[out\]
 </dt> <dd>
 
-A pointer to a set of bit flags that indicate the [*attributes*](https://docs.microsoft.com/windows/win32/secgloss/a-gly#-security-attribute-gly) of the established context. For a description of the various attributes, see [Context Requirements](context-requirements.md).
+A pointer to a set of bit flags that indicate the [*attributes*](https://docs.microsoft.com/windows/win32/secgloss/a-gly#_security_attribute_gly) of the established context. For a description of the various attributes, see [Context Requirements](context-requirements.md).
 
 Flags used for this parameter are prefixed with ISC\_RET, such as **ISC\_RET\_DELEGATE**. For a list of valid values, see the *fContextReq* parameter.
 
@@ -249,7 +249,7 @@ If **InitializeSecurityContext (CredSSP)** returns success on the first (or only
 
 The client may call **InitializeSecurityContext (CredSSP)** again after it has completed successfully. This indicates to the security package that a reauthentication is wanted.
 
-Kernel-mode callers have the following differences: the target name is a [*Unicode*](https://docs.microsoft.com/windows/win32/secgloss/u-gly#-security-unicode-gly) string that must be allocated in virtual memory by using [**VirtualAlloc**](https://docs.microsoft.com/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc); it must not be allocated from the pool. Buffers passed and supplied in *pInput* and *pOutput* must be in virtual memory, not in the pool.
+Kernel-mode callers have the following differences: the target name is a [*Unicode*](https://docs.microsoft.com/windows/win32/secgloss/u-gly#_security_unicode_gly) string that must be allocated in virtual memory by using [**VirtualAlloc**](https://docs.microsoft.com/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc); it must not be allocated from the pool. Buffers passed and supplied in *pInput* and *pOutput* must be in virtual memory, not in the pool.
 
 If the function returns **SEC\_I\_INCOMPLETE\_CREDENTIALS**, check that the r credentials passed to the [**AcquireCredentialsHandle (CredSSP)**](acquirecredentialshandle--credssp.md) function specified a valid and trusted certificate The certificate must be a client authentication certificate issued by a certification authority trusted by the server. To obtain a list of the CAs trusted by the server, call the [**QueryContextAttributes (CredSSP)**](querycontextattributes--credssp.md) function with the **SECPKG\_ATTR\_ISSUER\_LIST\_EX** attribute.
 

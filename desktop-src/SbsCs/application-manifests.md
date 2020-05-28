@@ -51,10 +51,7 @@ Application manifests have the following elements and attributes.
 | **printerDriverIsolation**            |                           | No       |
 | **ultraHighResolutionScrollingAware** |                           | No       |
 | **msix**                              |                           | No       |
-
-
-
- 
+| **heapType**                          |                           | No       |
 
 ## File Location
 
@@ -387,6 +384,27 @@ The **msix** element must be in the namespace `urn:schemas-microsoft-com:msix.v1
           packageName="ContosoPhotoStore"
           applicationId="ContosoPhotoStore"
         />
+</assembly>
+```
+
+### heapType
+
+Overrides the default heap implementation for the [Win32 heap APIs](../Memory/heap-functions.md) to use.
+
+* The value **SegmentHeap** indicates that segment heap will be used. Segment heap is a modern heap implementation that will generally reduce your overall memory usage. This element is supported in Windows 10, version 2004 (build 19041) and later.
+* All other values are ignored.
+
+This element has no attributes.
+
+```XML
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >
+ ...
+  <asmv3:application>
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2020/WindowsSettings">
+      <heapType>SegmentHeap</heapType>
+    </asmv3:windowsSettings>
+  </asmv3:application>
+ ...
 </assembly>
 ```
 

@@ -137,7 +137,7 @@ The server has fulfilled the partial GET request for the resource.
 
 
 
-During a World Wide Web Distributed Authoring and Versioning (WebDAV) operation, this indicates multiple status codes for a single response. The response body contains Extensible Markup Language (XML) that describes the status codes. For more information, see [HTTP Extensions for Distributed Authoring](https://www.microsoft.com/msj/0699/dav/dav.aspx).
+During a World Wide Web Distributed Authoring and Versioning (WebDAV) operation, this indicates multiple status codes for a single response. The response body contains Extensible Markup Language (XML) that describes the status codes. For more information, see [HTTP Extensions for Distributed Authoring](/windows/win32/webdav/webdav-portal).
 
 
 </dt> </dl> </dd> <dt>

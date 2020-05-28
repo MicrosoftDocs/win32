@@ -29,7 +29,7 @@ To use inverse telecine, you must:
 To use inverse telecine for an input to the writer, perform the following steps.
 
 1.  Set up the writer as usual. For more information, see [Writing ASF Files](writing-asf-files.md).
-2.  Before beginning to write samples, obtain a pointer to the [**IWMWriterAdvanced2**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2) interface by calling **IWMWriter::QueryInterface**.
+2.  Before beginning to write samples, obtain a pointer to the [**IWMWriterAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2) interface by calling **IWMWriter::QueryInterface**.
 3.  Identify the stream to be reconstructed by calling [**IWMWriterAdvanced2::SetInputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting) for the desired input number. Pass g\_wszDeinterlaceMode as the setting and WM\_DM\_DEINTERLACE\_INVERSETELECINE as the value.
 4.  Call **SetInputSetting** again to set g\_wszInitialPatternForInverseTelecine.
 5.  Write the file as usual.
@@ -44,7 +44,7 @@ To use inverse telecine for an input to the writer, perform the following steps.
 [**IWMWriter Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter)
 </dt> <dt>
 
-[**IWMWriterAdvanced2 Interface**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2)
+[**IWMWriterAdvanced2 Interface**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2)
 </dt> </dl>
 
  

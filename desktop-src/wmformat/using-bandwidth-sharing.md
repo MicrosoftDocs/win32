@@ -36,7 +36,7 @@ Each bandwidth sharing object is defined by two settings. First is the bandwidth
 [**IWMProfile3::GetBandwidthSharing**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharing)
 </dt> <dt>
 
-[**IWMProfile3::GetBandwidthSharingCount**](/previous-versions/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharingcount)
+[**IWMProfile3::GetBandwidthSharingCount**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharingcount)
 </dt> <dt>
 
 [**Working with Profiles**](working-with-profiles.md)

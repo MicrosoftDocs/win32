@@ -20,7 +20,7 @@ The following structures are used to implement compound documents and perform da
 -   [**OLEINPLACEFRAMEINFO**](/windows/win32/api/oleidl/ns-oleidl-oleinplaceframeinfo)
 -   [**OLEMENUGROUPWIDTHS**](/windows/win32/api/oleidl/ns-oleidl-olemenugroupwidths)
 -   [**OLEUIBUSY**](/windows/win32/api/oledlg/ns-oledlg-oleuibusya)
--   [**OLEUICHANGEICON**](/windows/desktop/api/OleDlg/ns-oledlg-tagoleuichangeicona)
+-   [**OLEUICHANGEICON**](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona)
 -   [**OLEUICHANGESOURCE**](/windows/win32/api/oledlg/ns-oledlg-oleuichangesourcea)
 -   [**OLEUICONVERT**](/windows/win32/api/oledlg/ns-oledlg-oleuiconverta)
 -   [**OLEUIEDITLINKS**](/windows/win32/api/oledlg/ns-oledlg-oleuieditlinksa)

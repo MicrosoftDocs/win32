@@ -35,8 +35,8 @@ This topic lists features that were new in Windows Media Player 11 and the Windo
 The following interfaces were new in the Windows Media Player 11 ActiveX control.
 
 -   [**IWMPLibrary Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrary)
--   [**IWMPLibraryServices Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibraryservices)
--   [**IWMPLibrarySharingServices Interface**](/previous-versions/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrarysharingservices)
+-   [**IWMPLibraryServices Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibraryservices)
+-   [**IWMPLibrarySharingServices Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrarysharingservices)
 -   [**IWMPMediaCollection2 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection2)
 -   [**IWMPQuery Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpquery)
 -   [**IWMPStringCollection2 Interface**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection2)

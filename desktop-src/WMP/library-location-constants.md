@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
  
 
-The library location constants are global string variables defined in contentpartner.h. They are used by certain methods of the [IWMPContentPartner](/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner) and [IWMPContentPartnerCallback](/previous-versions/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback) interfaces and by certain methods of the [External](external-object-for-type-1-online-stores.md) object. These constants are used to indicate the following types.
+The library location constants are global string variables defined in contentpartner.h. They are used by certain methods of the [IWMPContentPartner](/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner) and [IWMPContentPartnerCallback](/previous-versions/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback) interfaces and by certain methods of the [External](external-object-for-type-1-online-stores.md) object. These constants are used to indicate the following types.
 
 -   Library location type: This is the type of library view being displayed by Windows Media Player. For example, the Player might be displaying a view of a particular album (g\_szCPAlbumID) or the view of all genres (g\_szAllCPGenreIDs).
 -   Selected item type: This is the type of item selected in the library view. For example, the user might select a particular album (g\_szCPAlbumID) in the view of all albums.

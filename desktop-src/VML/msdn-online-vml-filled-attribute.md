@@ -53,7 +53,7 @@ The shape path is filled.
 
 
 
-[Filled Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_filled.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[Filled Attribute Example](https://docs.microsoft.com/previous-versions/bb229669(v%3dvs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

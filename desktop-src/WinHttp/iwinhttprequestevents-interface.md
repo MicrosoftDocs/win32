@@ -52,7 +52,7 @@ The following procedure describes how to register for notifications.
 
 Notifications can be terminated by calling [Unadvise](https://msdn.microsoft.com/library/ms686608(VS.85).aspx) on the connection point returned in step 2.
 
-To view some code that registers for COM notifications, see the Client section of the [COM Connection Points](https://msdn.microsoft.com/msdnmag/issues/07/09/clrinsideout/default.aspx) article.
+To view some code that registers for COM notifications, see the Client section of the [COM Connection Points](https://docs.microsoft.com/archive/msdn-magazine/2007/september/clr-inside-out-com-connection-points) article.
 
 > [!Note]  
 > For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.

@@ -73,7 +73,7 @@ The [**Win32\_SecurityDescriptorHelper**](https://docs.microsoft.com/previous-ve
 <span id="User_Account_Control"></span><span id="user_account_control"></span><span id="USER_ACCOUNT_CONTROL"></span>User Account Control
 </dt> <dd>
 
-User Account Control (UAC) affects what WMI data is returned, remote access, and how scripts must be run. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md). For more information about UAC, see [Getting Started with User Account Control on Windows Vista](https://technet.microsoft.com/En-US/WindowsVista/aa906022.aspx).
+User Account Control (UAC) affects what WMI data is returned, remote access, and how scripts must be run. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md). For more information about UAC, see [Getting Started with User Account Control on Windows Vista](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista).
 
 </dd> </dl>
 
@@ -107,7 +107,7 @@ WMI [IP Route Provider](https://docs.microsoft.com/previous-versions/windows/des
 <span id="Changes_to_remote_connections"></span><span id="changes_to_remote_connections"></span><span id="CHANGES_TO_REMOTE_CONNECTIONS"></span>Changes to remote connections
 </dt> <dd>
 
-Connecting to a WMI namespace on a remote computer running Windows Vista may require changes to settings for [Windows Firewall](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx), [User Account Control](https://technet.microsoft.com/En-US/WindowsVista/aa905108.aspx), or DCOM. For more information, see [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md).
+Connecting to a WMI namespace on a remote computer running Windows Vista may require changes to settings for [Windows Firewall](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx), [User Account Control](https://technet.microsoft.com/WindowsVista/aa905108.aspx), or DCOM. For more information, see [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md).
 
 </dd> <dt>
 

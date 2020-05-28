@@ -32,7 +32,7 @@ The following table identifies what is new for each release of Background Intell
 <td>Version 10.3</td>
 <td>New features:<br/>
 <ul>
-<li>Added <a href="/windows/desktop/api/bits10_3/nn-bits10_3-ibackgroundcopyjobhttpoptions3"><strong>BackgroundCopyJobHttpOptions3</strong></a> to mark HTTP headers as write-only, and to set a server certificate validation callback.</li>
+<li>Added <a href="/windows/win32/api/bits10_3/nn-bits10_3-ibackgroundcopyjobhttpoptions3"><strong>BackgroundCopyJobHttpOptions3</strong></a> to mark HTTP headers as write-only, and to set a server certificate validation callback.</li>
 <li>BITS will retain its service identity when created by another system service.</li>
 <li>BITS will continue to transfer files on connected standby as long as the device is plugged in.</li>
 </ul>
@@ -43,7 +43,7 @@ BITS version 10.3 is included in the Windows 10 May 2019 Update (10.0; Build 183
 <td>Version 10.2</td>
 <td>New features:<br/>
 <ul>
-<li>Added <a href="/windows/desktop/api/bits10_2/nn-bits10_2-ibackgroundcopyjobhttpoptions2"><strong>BackgroundCopyJobHttpOptions2</strong></a> to change the HTTP method for HTTP downloads.</li>
+<li>Added <a href="/windows/win32/api/bits10_2/nn-bits10_2-ibackgroundcopyjobhttpoptions2"><strong>BackgroundCopyJobHttpOptions2</strong></a> to change the HTTP method for HTTP downloads.</li>
 <li>BITS now uses the default proxy ordering to be more consistent with the rest of the system.</li>
 <li>It's easier for programmers to set BITS proxy configuration for enterprise scenarios.</li>
 <li>BITS is now more careful of power and supports [Modern Standby](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby).</li>
@@ -56,8 +56,8 @@ BITS version 10.2 is included in Windows 10 October 2018 Update(10.0; Build 1776
 <td>Version 10.1</td>
 <td>New features:<br/>
 <ul>
-<li>Added <a href="/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopyfile6"><strong>BackgroundCopyFile6</strong></a> and <a href="/windows/desktop/api/Bits10_1/nn-bits10_1-ibackgroundcopycallback3"><strong>IBackgroundCopyCallback3</strong></a> to enable  random-access scenarios for HTTP downloads.</li>
-<li>Added <strong>BITS_JOB_PROPERTY_ON_DEMAND_MODE</strong> and <strong>BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS</strong> to the <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id"><strong>BITS_JOB_PROPERTY_ID</strong></a> enumeration to tweak download and notification behaviors, respectively.</li>
+<li>Added <a href="/windows/win32/api/bits10_1/nn-bits10_1-ibackgroundcopyfile6"><strong>BackgroundCopyFile6</strong></a> and <a href="/windows/win32/api/Bits10_1/nn-bits10_1-ibackgroundcopycallback3"><strong>IBackgroundCopyCallback3</strong></a> to enable  random-access scenarios for HTTP downloads.</li>
+<li>Added <strong>BITS_JOB_PROPERTY_ON_DEMAND_MODE</strong> and <strong>BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS</strong> to the <a href="/windows/win32/api/bits5_0/ne-bits5_0-bits_job_property_id"><strong>BITS_JOB_PROPERTY_ID</strong></a> enumeration to tweak download and notification behaviors, respectively.</li>
 </ul>
 BITS version 10.1 is included in Windows 10 Creator's Update and later.
 </td>
@@ -66,11 +66,11 @@ BITS version 10.1 is included in Windows 10 Creator's Update and later.
 <td>Version 5.0</td>
 <td>New features:<br/>
 <ul>
-<li>Added the <a href="/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5"><strong>IBackgroundCopyJob5</strong></a> interface which adds generic methods for getting and setting BITS job properties to the methods inherited from the <a href="/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopyjob4"><strong>IBackgroundCopyJob4</strong></a> interface.<br/> For information on using the new <a href="/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5"><strong>IBackgroundCopyJob5</strong></a> interface, see <a href="how-to-block-a-bits-job-from-downloading-over-an-expensive-connection.md">How to control whether a BITS job is allowed to download over an expensive connection</a> and <a href="how-to-get-the-last-set-of-http-headers-received-for-each-file-in-a-bits-download-job.md">How to get the last set of HTTP headers received for each file in a BITS download job</a>.<br/></li>
-<li>Added the <a href="/windows/win32/api/bits5_0/ns-bits5_0-bits_job_property_value"><strong>BITS_JOB_PROPERTY_VALUE</strong></a> union and the <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id"><strong>BITS_JOB_PROPERTY_ID</strong></a>, and <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_transfer_policy"><strong>BITS_JOB_TRANSFER_POLICY</strong></a> enumerations. For usage examples, see the above How to topics.</li>
-<li>Added the <a href="/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyfile5"><strong>IBackgroundCopyFile5</strong></a> interface, which adds methods for getting and setting generic properties on BackgroundCopyFile objects to the methods inherited from the <a href="/windows/desktop/api/Bits4_0/nn-bits4_0-ibackgroundcopyfile4"><strong>IBackgroundCopyFile4</strong></a> interface. The addition of generic properties will make it possible to enhance BackgroundCopyFile capabilities in the future without requiring that a new interface be created.</li>
-<li>The first generic property exposed by <a href="/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyfile5"><strong>IBackgroundCopyFile5</strong></a> is the <strong>HttpResponseHeaders</strong> property.</li>
-<li>Added the <a href="/windows/desktop/api/bits5_0/ns-bits5_0-bits_file_property_value"><strong>BITS_FILE_PROPERTY_VALUE</strong></a> union and the <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_file_property_id"><strong>BITS_FILE_PROPERTY_ID</strong></a> enumeration.</li>
+<li>Added the <a href="/windows/win32/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5"><strong>IBackgroundCopyJob5</strong></a> interface which adds generic methods for getting and setting BITS job properties to the methods inherited from the <a href="/windows/win32/api/Bits3_0/nn-bits3_0-ibackgroundcopyjob4"><strong>IBackgroundCopyJob4</strong></a> interface.<br/> For information on using the new <a href="/windows/win32/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5"><strong>IBackgroundCopyJob5</strong></a> interface, see <a href="how-to-block-a-bits-job-from-downloading-over-an-expensive-connection.md">How to control whether a BITS job is allowed to download over an expensive connection</a> and <a href="how-to-get-the-last-set-of-http-headers-received-for-each-file-in-a-bits-download-job.md">How to get the last set of HTTP headers received for each file in a BITS download job</a>.<br/></li>
+<li>Added the <a href="/windows/win32/api/bits5_0/ne-bits5_0-bits_job_property_value"><strong>BITS_JOB_PROPERTY_VALUE</strong></a> union and the <a href="/windows/win32/api/bits5_0/ne-bits5_0-bits_job_property_id"><strong>BITS_JOB_PROPERTY_ID</strong></a>, and <a href="/windows/win32/api/bits5_0/ne-bits5_0-bits_job_transfer_policy"><strong>BITS_JOB_TRANSFER_POLICY</strong></a> enumerations. For usage examples, see the above How to topics.</li>
+<li>Added the <a href="/windows/win32/api/Bits5_0/nn-bits5_0-ibackgroundcopyfile5"><strong>IBackgroundCopyFile5</strong></a> interface, which adds methods for getting and setting generic properties on BackgroundCopyFile objects to the methods inherited from the <a href="/windows/win32/api/Bits4_0/nn-bits4_0-ibackgroundcopyfile4"><strong>IBackgroundCopyFile4</strong></a> interface. The addition of generic properties will make it possible to enhance BackgroundCopyFile capabilities in the future without requiring that a new interface be created.</li>
+<li>The first generic property exposed by <a href="/windows/win32/api/Bits5_0/nn-bits5_0-ibackgroundcopyfile5"><strong>IBackgroundCopyFile5</strong></a> is the <strong>HttpResponseHeaders</strong> property.</li>
+<li>Added the <a href="/windows/win32/api/bits5_0/ns-bits5_0-bits_file_property_value"><strong>BITS_FILE_PROPERTY_VALUE</strong></a> union and the <a href="/windows/win32/api/bits5_0/ne-bits5_0-bits_file_property_id"><strong>BITS_FILE_PROPERTY_ID</strong></a> enumeration.</li>
 </ul>
 BITS version 5.0 is included in the Windows Server 2012 and Windows 8 operating systems, where the version of %windir%\System32\QMgr.dll is &quot;7.7.xxxx.xxxx&quot;.<br/> The following features were added to BITS in Windows 10<br/>
 <ul>
@@ -95,9 +95,9 @@ BITS version 4.0 is included in the Windows Server 2008 R2 and Windows 7 operati
 <td>New features:<br/>
 <ul>
 <li>Added <a href="peer-caching.md">Peer Caching</a> which lets you download content from peers and also serve content to peers in a domain network.</li>
-<li>Added <a href="/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopycallback2-filetransferred">notification</a> for when a file is downloaded.</li>
-<li>Added access to the <a href="/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyfile3-gettemporaryname">temporary file</a> while the download is in progress.</li>
-<li>Added the ability to control HTTP <a href="/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags">redirects</a>.</li>
+<li>Added <a href="/windows/win32/api/Bits3_0/nf-bits3_0-ibackgroundcopycallback2-filetransferred">notification</a> for when a file is downloaded.</li>
+<li>Added access to the <a href="/windows/win32/api/Bits3_0/nf-bits3_0-ibackgroundcopyfile3-gettemporaryname">temporary file</a> while the download is in progress.</li>
+<li>Added the ability to control HTTP <a href="/windows/win32/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags">redirects</a>.</li>
 <li>Added more <a href="group-policies.md">group policies</a> to control peer caching and limit download times.</li>
 <li>Added diagnostic and troubleshooting events to the system event log.</li>
 <li>Added support for <a href="user-account-control-and-bits.md">User Account Control</a> (UAC).</li>
@@ -111,15 +111,15 @@ BITS now uses group policies to limit the number of jobs and files you can creat
 </tr>
 <tr class="odd">
 <td>Version 2.5</td>
-<td>Added support for custom HTTP headers, certificate-based client authentication for secure HTTP transports, and IPv6. Also added the use of Internet gateway device (IGD) counters to more accurately calculate available <a href="network-bandwidth.md">bandwidth</a>.<br/> The BITS 2.5 features are available in the Windows Server 2008, Windows Vista, and Windows XP with Service Pack 3 (SP3) operating systems. <br/> You can also download BITS 2.5 for Windows Server 2003 with Service Pack 2 (SP2), Windows Server 2003 with Service Pack 1 (SP1), and Windows XP with Service Pack 2 (SP2). To download BITS 2.5, go to the <a href="https://www.microsoft.com/downloads/Search.aspx?displaylang=en">Microsoft Download Center</a> and install KB923845.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.7.xxxx.xxxx&quot;.<br/></td>
+<td>Added support for custom HTTP headers, certificate-based client authentication for secure HTTP transports, and IPv6. Also added the use of Internet gateway device (IGD) counters to more accurately calculate available <a href="network-bandwidth.md">bandwidth</a>.<br/> The BITS 2.5 features are available in the Windows Server 2008, Windows Vista, and Windows XP with Service Pack 3 (SP3) operating systems. <br/> You can also download BITS 2.5 for Windows Server 2003 with Service Pack 2 (SP2), Windows Server 2003 with Service Pack 1 (SP1), and Windows XP with Service Pack 2 (SP2). To download BITS 2.5, go to the <a href="https://www.microsoft.com/download/details.aspx?id=4933">Microsoft Download Center</a> and install KB923845.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.7.xxxx.xxxx&quot;.<br/></td>
 </tr>
 <tr class="even">
 <td>Version 2.0</td>
-<td>Added support for performing concurrent foreground downloads, using Server Message Block (SMB) paths for remote names, downloading ranges of a file, changing the prefix or complete name of a remote name, and limiting client bandwidth usage. The JobInactivityTimeout policy is now located under Computer Configuration, Administrative Templates, Network, Background Intelligent Transfer Service (BITS).<br/> BITS version 2.0 is included in Windows XP with SP2 and Windows Server 2003 with SP1. You can also download BITS 2.0 for Windows Server 2003, and Windows XP. To download BITS 2.0, go to the <a href="https://www.microsoft.com/downloads/details.aspx?FamilyID=b93356b1-ba43-480f-983d-eb19368f9047">Microsoft Download Center</a> and install KB842773.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.6.xxxx.xxxx&quot;.<br/></td>
+<td>Added support for performing concurrent foreground downloads, using Server Message Block (SMB) paths for remote names, downloading ranges of a file, changing the prefix or complete name of a remote name, and limiting client bandwidth usage. The JobInactivityTimeout policy is now located under Computer Configuration, Administrative Templates, Network, Background Intelligent Transfer Service (BITS).<br/> BITS version 2.0 is included in Windows XP with SP2 and Windows Server 2003 with SP1. You can also download BITS 2.0 for Windows Server 2003, and Windows XP. To download BITS 2.0, go to the <a href="https://www.microsoft.com/download/details.aspx?id=19031">Microsoft Download Center</a> and install KB842773.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.6.xxxx.xxxx&quot;.<br/></td>
 </tr>
 <tr class="odd">
 <td>Version 1.5</td>
-<td>Added upload and upload-reply capability, command-line execution for events, and explicit credentials and proxy credentials.<br/> Starting with BITS 1.5, users with a <a href="https://msdn.microsoft.com/library/aa379316.aspx">restricted token</a> cannot create or modify jobs.<br/> BITS version 1.5 is included in Windows Server 2003. A redistributable is available for Windows XP from the <a href="https://www.microsoft.com/Downloads/">Microsoft Download Center</a>.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.5.xxxx.xxxx&quot;.<br/></td>
+<td>Added upload and upload-reply capability, command-line execution for events, and explicit credentials and proxy credentials.<br/> Starting with BITS 1.5, users with a <a href="https://msdn.microsoft.com/library/aa379316.aspx">restricted token</a> cannot create or modify jobs.<br/> BITS version 1.5 is included in Windows Server 2003. A redistributable is available for Windows XP from the <a href="https://www.microsoft.com/download/details.aspx?id=22250">Microsoft Download Center</a>.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.5.xxxx.xxxx&quot;.<br/></td>
 </tr>
 <tr class="even">
 <td>Version 1.2</td>
@@ -133,28 +133,28 @@ BITS now uses group policies to limit the number of jobs and files you can creat
 </table>
 
 To light up features in your program based on BITS capabilities, use QueryInterface on (for example) your Job object to see if the Job object allows you to create the version you need. Alternatively, 
-see [Determining the Version of BITS on a Computer](/windows/desktop/Bits/determining-the-version-of-bits-on-a-computer) to convert the QMgr.dll version number into the BITS version.
+see [Determining the Version of BITS on a Computer](/windows/win32/Bits/determining-the-version-of-bits-on-a-computer) to convert the QMgr.dll version number into the BITS version.
 
 ## Version 10.3
 
 The following interfaces were added for this version
--   [**IBackgroundCopyJobHttpOptions3**](/windows/desktop/api/Bits10_3/nn-bits10_3-ibackgroundcopyjobhttpoptions3)
-    [**IBackgroundCopyServerCertificateValidationCallback**](/windows/desktop/api/Bits10_3/nn-bits10_3-ibackgroundcopyservercertificatevalidationcallback)
+-   [**IBackgroundCopyJobHttpOptions3**](/windows/win32/api/Bits10_3/nn-bits10_3-ibackgroundcopyjobhttpoptions3)
+    [**IBackgroundCopyServerCertificateValidationCallback**](/windows/win32/api/Bits10_3/nn-bits10_3-ibackgroundcopyservercertificatevalidationcallback)
 
 
 ## Version 10.2
 
 The following interfaces were added for this version
--   [**IBackgroundCopyJobHttpOptions2**](/windows/desktop/api/Bits10_2/nn-bits10_2-ibackgroundcopyjobhttpoptions2)
+-   [**IBackgroundCopyJobHttpOptions2**](/windows/win32/api/Bits10_2/nn-bits10_2-ibackgroundcopyjobhttpoptions2)
 
 
 ## Version 10.1
 
 The following interfaces were added for this version
--   [**BackgroundCopyFile6**](/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopyfile6)
--   [**IBackgroundCopyCallback3**](/windows/desktop/api/Bits10_1/nn-bits10_1-ibackgroundcopycallback3)
+-   [**BackgroundCopyFile6**](/windows/win32/api/bits10_1/nn-bits10_1-ibackgroundcopyfile6)
+-   [**IBackgroundCopyCallback3**](/windows/win32/api/Bits10_1/nn-bits10_1-ibackgroundcopycallback3)
 
-The following constants were added to use with the [BITS_JOB_PROPERTY_ID enumeration](/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id).
+The following constants were added to use with the [BITS_JOB_PROPERTY_ID enumeration](/windows/win32/api/bits5_0/ne-bits5_0-bits_job_property_id).
 
 -   **BITS\_JOB\_PROPERTY\_ON\_DEMAND\_MODE**
 -   **BITS\_JOB\_PROPERTY\_MINIMUM\_NOTIFICATION\_INTERVAL\_MS**
@@ -164,29 +164,29 @@ The following constants were added to use with the [BITS_JOB_PROPERTY_ID enumera
 
 The following interfaces were added for this version:
 
--   [**IBackgroundCopyJob5**](/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5)
+-   [**IBackgroundCopyJob5**](/windows/win32/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5)
 
 ## Version 4.0
 
 The following interfaces were added for this version:
 
--   [**IBitsToken**](/windows/desktop/api/Bits4_0/nn-bits4_0-ibitstokenoptions)
--   [**IBackgroundCopyFile4**](/windows/desktop/api/Bits4_0/nn-bits4_0-ibackgroundcopyfile4)
+-   [**IBitsToken**](/windows/win32/api/Bits4_0/nn-bits4_0-ibitstokenoptions)
+-   [**IBackgroundCopyFile4**](/windows/win32/api/Bits4_0/nn-bits4_0-ibackgroundcopyfile4)
 
 ## Version 3.0
 
 The following interfaces were added for this version:
 
--   [**IBackgroundCopyCallback2**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopycallback2)
--   [**IBackgroundCopyFile3**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopyfile3)
--   [**IBackgroundCopyJob4**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibackgroundcopyjob4)
--   [**IBitsPeer**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibitspeer)
--   [**IBitsPeerCacheAdministration**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibitspeercacheadministration)
--   [**IBitsPeerCacheRecord**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibitspeercacherecord)
--   [**IEnumBitsPeerCacheRecords**](/windows/desktop/api/Bits3_0/nn-bits3_0-ienumbitspeercacherecords)
--   [**IEnumBitsPeers**](/windows/desktop/api/Bits3_0/nn-bits3_0-ienumbitspeers)
+-   [**IBackgroundCopyCallback2**](/windows/win32/api/Bits3_0/nn-bits3_0-ibackgroundcopycallback2)
+-   [**IBackgroundCopyFile3**](/windows/win32/api/Bits3_0/nn-bits3_0-ibackgroundcopyfile3)
+-   [**IBackgroundCopyJob4**](/windows/win32/api/Bits3_0/nn-bits3_0-ibackgroundcopyjob4)
+-   [**IBitsPeer**](/windows/win32/api/Bits3_0/nn-bits3_0-ibitspeer)
+-   [**IBitsPeerCacheAdministration**](/windows/win32/api/Bits3_0/nn-bits3_0-ibitspeercacheadministration)
+-   [**IBitsPeerCacheRecord**](/windows/win32/api/Bits3_0/nn-bits3_0-ibitspeercacherecord)
+-   [**IEnumBitsPeerCacheRecords**](/windows/win32/api/Bits3_0/nn-bits3_0-ienumbitspeercacherecords)
+-   [**IEnumBitsPeers**](/windows/win32/api/Bits3_0/nn-bits3_0-ienumbitspeers)
 
-The following constants were added to use with the [**IBackgroundCopyJobHttpOptions::SetSecurityFlags**](/windows/desktop/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags) method:
+The following constants were added to use with the [**IBackgroundCopyJobHttpOptions::SetSecurityFlags**](/windows/win32/api/Bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags) method:
 
 -   **BG\_HTTP\_REDIRECT\_POLICY\_ALLOW\_SILENT**
 -   **BG\_HTTP\_REDIRECT\_POLICY\_ALLOW\_REPORT**
@@ -198,27 +198,27 @@ The following constants were added to use with the [**IBackgroundCopyJobHttpOpti
 
 The following interface and enumeration were added for version 2.5:
 
--   [**IBackgroundCopyJobHttpOptions**](/windows/desktop/api/Bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions)
--   [**BG\_CERT\_STORE\_LOCATION**](/windows/desktop/api/Bits2_5/ne-bits2_5-bg_cert_store_location)
+-   [**IBackgroundCopyJobHttpOptions**](/windows/win32/api/Bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions)
+-   [**BG\_CERT\_STORE\_LOCATION**](/windows/win32/api/Bits2_5/ne-bits2_5-bg_cert_store_location)
 
 ## Version 2.0
 
 The following interfaces, structure, and topics were added for version 2.0:
 
--   [**IBackgroundCopyJob3**](/windows/desktop/api/Bits2_0/nn-bits2_0-ibackgroundcopyjob3)
--   [**IBackgroundCopyFile2**](/windows/desktop/api/Bits2_0/nn-bits2_0-ibackgroundcopyfile2)
--   [**BG\_FILE\_RANGE**](/windows/desktop/api/Bits2_0/ns-bits2_0-bg_file_range)
+-   [**IBackgroundCopyJob3**](/windows/win32/api/Bits2_0/nn-bits2_0-ibackgroundcopyjob3)
+-   [**IBackgroundCopyFile2**](/windows/win32/api/Bits2_0/nn-bits2_0-ibackgroundcopyfile2)
+-   [**BG\_FILE\_RANGE**](/windows/win32/api/Bits2_0/ns-bits2_0-bg_file_range)
 -   [Group Policies](group-policies.md)
 
-For information about concurrent foreground downloads, see the Remarks section for [**BG\_JOB\_PRIORITY**](/windows/desktop/api/Bits/ne-bits-bg_job_priority).
+For information about concurrent foreground downloads, see the Remarks section for [**BG\_JOB\_PRIORITY**](/windows/win32/api/Bits/ne-bits-bg_job_priority).
 
-For information about using the SMB protocol, see [**BG\_FILE\_INFO**](/windows/desktop/api/Bits/ns-bits-bg_file_info).
+For information about using the SMB protocol, see [**BG\_FILE\_INFO**](/windows/win32/api/Bits/ns-bits-bg_file_info).
 
 ## Version 1.5
 
 The following interfaces and topics were added for version 1.5:
 
--   [**IBackgroundCopyJob2**](/windows/desktop/api/Bits1_5/nn-bits1_5-ibackgroundcopyjob2)
+-   [**IBackgroundCopyJob2**](/windows/win32/api/Bits1_5/nn-bits1_5-ibackgroundcopyjob2)
 -   [Retrieving the Reply from an Upload-Reply Job](retrieving-the-reply-from-an-upload-reply-job.md)
 -   [Registering to Execute a Program](registering-to-execute-a-program.md)
 -   [BITS Server Settings for Upload Jobs](bits-server-settings-for-upload-jobs.md)

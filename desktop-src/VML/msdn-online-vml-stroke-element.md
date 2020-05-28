@@ -71,8 +71,8 @@ The following code shows how the **Stroke** element can be used to modify a line
 
 **Examples**
 
--   [Simple Stroke Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/stroke/t_stroke.md)
--   [Stroke Image Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/stroke/x_stroke.md)
+-   [Simple Stroke Example](https://docs.microsoft.com/previous-versions/bb229466(v%3dvs.85))
+-   [Stroke Image Example](https://docs.microsoft.com/previous-versions/bb229468(v%3dvs.85))
 
  
 

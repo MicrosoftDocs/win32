@@ -32,7 +32,7 @@ The **RIO\_CQ** object is used for I/O completion notification of send and recei
 
 An application can use the [**RIONotify**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify) function to request notification when a **RIO\_CQ** completion queue is not empty. An application can also poll the status at any time of a **RIO\_CQ** completion queue in a non-blocking way using the [**RIODequeueCompletion**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion) function.
 
-The **RIO\_CQ** object is created using the [**RIOCreateCompletionQueue**](https://msdn.microsoft.com/library/Hh448841(v=VS.85).aspx) function. At creation time, the application must specify the size of the queue, which determines how many completion entries it can hold. When an application calls the [**RIOCreateRequestQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue) function to obtain a [**RIO\_RQ**](riorqueue.md) handle, the application must specify a **RIO\_CQ** handle for send completions and a **RIO\_CQ** handle for receive completions. These handles may be identical when the same queue should be used for send and receive completion. The **RIOCreateRequestQueue** function also requires a maximum number of outstanding send and receive operations, which are charged against the capacity of the associated completion queue or queues. If the queues do not have sufficient capacity remaining, the **RIOCreateRequestQueue** call will fail with [WSAENOBUFS](windows-sockets-error-codes-2.md).
+The **RIO\_CQ** object is created using the [**RIOCreateCompletionQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion) function. At creation time, the application must specify the size of the queue, which determines how many completion entries it can hold. When an application calls the [**RIOCreateRequestQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue) function to obtain a [**RIO\_RQ**](riorqueue.md) handle, the application must specify a **RIO\_CQ** handle for send completions and a **RIO\_CQ** handle for receive completions. These handles may be identical when the same queue should be used for send and receive completion. The **RIOCreateRequestQueue** function also requires a maximum number of outstanding send and receive operations, which are charged against the capacity of the associated completion queue or queues. If the queues do not have sufficient capacity remaining, the **RIOCreateRequestQueue** call will fail with [WSAENOBUFS](windows-sockets-error-codes-2.md).
 
 The notification behavior for a completion queue is set when the **RIO\_CQ** is created.
 
@@ -98,7 +98,7 @@ If multiple threads attempt to access the same **RIO\_CQ** using [**RIODequeueCo
 [**RIOCloseCompletionQueue**](https://msdn.microsoft.com/library/Hh448837(v=VS.85).aspx)
 </dt> <dt>
 
-[**RIOCreateCompletionQueue**](https://msdn.microsoft.com/library/Hh448841(v=VS.85).aspx)
+[**RIOCreateCompletionQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion)
 </dt> <dt>
 
 [**RIOCreateRequestQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue)

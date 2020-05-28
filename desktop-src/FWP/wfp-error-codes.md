@@ -506,7 +506,7 @@ A network mask is not valid.
 
 
 
-An [**FWP\_RANGE0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_range0_) structure is not valid.
+An [**FWP\_RANGE0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_range0) structure is not valid.
 
 
 </dt> </dl> </dd> <dt>
@@ -588,7 +588,7 @@ See [Filter Weight Assignment](filter-weight-assignment.md) for more information
 
 A filter condition contains a match type that is not compatible with the operands.
 
-See [**FWP\_MATCH\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_match_type_) for more information.
+See [**FWP\_MATCH\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_match_type) for more information.
 
 
 </dt> </dl> </dd> <dt>
@@ -601,7 +601,7 @@ See [**FWP\_MATCH\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_match_t
 
 
 
-An [**FWP\_VALUE0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_value0_) structure or an [**FWPM\_CONDITION\_VALUE0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_condition_value0_) structure is of the wrong type.
+An [**FWP\_VALUE0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_value0) structure or an [**FWPM\_CONDITION\_VALUE0**](/windows/desktop/api/Fwptypes/ns-fwptypes-fwp_condition_value0) structure is of the wrong type.
 
 
 </dt> </dl> </dd> <dt>
