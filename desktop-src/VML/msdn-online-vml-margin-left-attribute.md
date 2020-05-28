@@ -72,7 +72,7 @@ The left margin is set to 25 pixels.
 
 
 
-[Margin-Left Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_marlef.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[Margin-Left Attribute Example](https://docs.microsoft.com/previous-versions/visualstudio/design-tools/expression-studio-3/ee371308(v%3dexpression.40)#examples). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

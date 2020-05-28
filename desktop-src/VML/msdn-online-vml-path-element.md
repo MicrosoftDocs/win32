@@ -63,7 +63,7 @@ Note that the [V](msdn-online-vml-v-attribute.md) attribute of **Path** replaces
 
 **Examples**
 
--   [Simple Path Child Element Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/path/t_path.md)
+-   [Simple Path Child Element Example](https://docs.microsoft.com/previous-versions/bb229545(v%3dvs.85))
 -   [Dynamic Path Child Element Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/path/x_path.md)
 
  

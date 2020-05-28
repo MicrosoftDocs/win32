@@ -65,7 +65,7 @@ The following code creates a shape but makes it hidden. Other objects in the doc
 
 
 
-[Visibility Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_visibi.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[Visibility Attribute Example](https://docs.microsoft.com/previous-versions/bb264100(v%3dvs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

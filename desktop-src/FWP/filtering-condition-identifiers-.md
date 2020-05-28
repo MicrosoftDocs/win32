@@ -142,7 +142,7 @@ ms.date: 05/31/2018
 
 # Filtering Condition Identifiers
 
-The Windows Filtering Platform (WFP) filtering condition identifiers are each represented by a **GUID**. The data type for the condition value for each filtering condition is specified as an [**FWP\_DATA\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type_). These identifiers and their data types are defined here.
+The Windows Filtering Platform (WFP) filtering condition identifiers are each represented by a **GUID**. The data type for the condition value for each filtering condition is specified as an [**FWP\_DATA\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type). These identifiers and their data types are defined here.
 
 The standard conditions are listed first, followed by the conditions specific to user mode. Conditions are grouped by supported operating system, so that you can easily tell which conditions are supported for a given OS.
 

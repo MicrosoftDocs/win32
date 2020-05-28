@@ -53,7 +53,7 @@ The color of the stroke of the rectangle is red.
 
 
 
-[StrokeColor Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_strcol.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[StrokeColor Attribute Example](https://docs.microsoft.com/previous-versions/bb264093(v%3dvs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

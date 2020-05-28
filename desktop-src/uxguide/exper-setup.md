@@ -172,7 +172,7 @@ Keep the normal user experience simple—don't clutter it with information that 
 
 -   **Name the setup file "Setup.exe".** "Install.exe" is an acceptable alternative. This enables Windows (and users) to recognize the file as a setup program.
     -   **Exception:** For programs downloaded from the Internet, help users manage and organize their Downloads folder by including the name of the program in the name of the setup file. For example, SetupVisualStudioExpress2008.exe.
--   **Copy program files to the proper file system locations.** Doing so allows users and Windows to find and organize the files better. For more information, see the [Windows File System Namespace Usage Guidelines](https://www.microsoft.com/downloads/details.aspx?FamilyID=88AD7E7C-4068-48B8-9503-E160A6693BBA&displaylang=en).
+-   **Copy program files to the proper file system locations.** Doing so allows users and Windows to find and organize the files better. For more information, see the [Windows File System Namespace Usage Guidelines](/windows/win32/fileio/naming-a-file#namespaces).
 
 ### User Account Control
 
@@ -187,7 +187,7 @@ For more guidelines, see [User Account Control](winenv-uac.md).
 
 ### Restarting Windows
 
--   **Avoid restarting Windows.** Most programs should install without restarting Windows. The primary reason program installations or updates require a system restart is that some of the files involved are currently being used by a running program. In this case, a better alternative is to make users aware of the situation, allow users to close these programs, and retry the action. For more information about avoiding restarts, see [Restart Manager](https://docs.microsoft.com/windows/desktop/RstMgr/restart-manager-portal).
+-   **Avoid restarting Windows.** Most programs should install without restarting Windows. The primary reason program installations or updates require a system restart is that some of the files involved are currently being used by a running program. In this case, a better alternative is to make users aware of the situation, allow users to close these programs, and retry the action. For more information about avoiding restarts, see [Restart Manager](/windows/win32/RstMgr/restart-manager-portal).
 -   **If your setup must restart Windows:**
     -   **Use a single restart.** Delay the restart required by any prerequisites until the program and its updates are completely installed.
     -   **Let users determine when it happens.** Don't restart Windows automatically, because users may lose work. Make sure that it's clear to users that they have a choice.

@@ -25,7 +25,7 @@ If a filter at this layer is matched to authorize promiscuous mode receiving, th
 
 If no port is specified during **bind()**, that is, port is set to 0 (zero), then the TCP/IP stack will select a port from the dynamic port range (19152–65535). The selected port will be classified at this layer along with the [**FWP\_CONDITION\_FLAG\_IS\_WILDCARD\_BIND**](filtering-condition-flags-.md) flag.
 
-If the local address is not specified in the [**bind()**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind) call, the local address field is set to [**FWP\_EMPTY**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type_).
+If the local address is not specified in the [**bind()**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind) call, the local address field is set to [**FWP\_EMPTY**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type).
 
 ## AUTH\_LISTEN
 

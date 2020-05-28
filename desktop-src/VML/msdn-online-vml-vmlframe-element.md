@@ -73,8 +73,8 @@ If the file is external, it must be an XML file. The following code is the minim
 
 **Examples**
 
--   [Simple VMLFrame Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/vmlframe/t_vmlframe.md)
--   [Dynamic VMLFrame Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/stroke/x_stroke.md)
+-   [Simple VMLFrame Example](https://docs.microsoft.com/previous-versions/bb263920(v%3dvs.85))
+-   [Dynamic VMLFrame Example](https://docs.microsoft.com/previous-versions/bb263902(v%3dvs.85))
 
  
 

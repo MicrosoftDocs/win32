@@ -68,7 +68,7 @@ The following list provides concise descriptions of each Winsock function. For a
 | [**recv**](/windows/win32/api/winsock/nf-winsock-recv) | Receives data from a connected or bound socket. |
 | [**recvfrom**](/windows/win32/api/winsock/nf-winsock-recvfrom) | Receives a datagram and stores the source address. |
 | [**RIOCloseCompletionQueue**](https://msdn.microsoft.com/library/Hh448837(v=VS.85).aspx) | Closes an existing completion queue used for I/O completion notification by send and receive requests with the Winsock registered I/O extensions. |
-| [**RIOCreateCompletionQueue**](https://msdn.microsoft.com/library/Hh448841(v=VS.85).aspx) | Creates an I/O completion queue of a specific size for use with the Winsock registered I/O extensions. |
+| [**RIOCreateCompletionQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion) | Creates an I/O completion queue of a specific size for use with the Winsock registered I/O extensions. |
 | [**RIOCreateRequestQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreaterequestqueue) | Creates a registered I/O socket descriptor using a specified socket and I/O completion queues for use with the Winsock registered I/O extensions. |
 | [**RIODequeueCompletion**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion) | Removes entries from an I/O completion queue for use with the Winsock registered I/O extensions. |
 | [**RIODeregisterBuffer**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioderegisterbuffer) | Deregisters a registered buffer used with the Winsock registered I/O extensions. |

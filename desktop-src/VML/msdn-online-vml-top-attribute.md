@@ -70,7 +70,7 @@ The top edge of the shape is 5 pixels below the object that precedes it in the f
 
 
 
-[Top Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_top.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[Top Attribute Example](https://docs.microsoft.com/previous-versions/bb264098(v%3dvs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

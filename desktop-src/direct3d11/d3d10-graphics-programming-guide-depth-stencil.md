@@ -72,7 +72,7 @@ dsDesc.BackFace.StencilFunc = D3D11_COMPARISON_ALWAYS;
 
 // Create depth stencil state
 ID3D11DepthStencilState * pDSState;
-pd3dDeviceContext->CreateDepthStencilState(&dsDesc, &pDSState);
+pd3dDevice->CreateDepthStencilState(&dsDesc, &pDSState);
 ```
 
 
