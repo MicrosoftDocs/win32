@@ -46,7 +46,7 @@ HRESULT get_SortOrderProperty(
 
 ## Property value
 
-Sets the [**ColumnSortOrder**](/windows/desktop/api/mmcobj/ne-mmcobj-columnsortorder) property.
+Sets the [**ColumnSortOrder**](/windows/win32/api/mmcobj/ne-mmcobj-_columnsortorder) property.
 
 ## Requirements
 
