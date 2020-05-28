@@ -136,15 +136,15 @@ Switch($Job.JobState)
 
 
 
-In the preceding example, the BITS transfer job was assigned to the $Job variable. The files are downloaded sequentially. After the transfer job is complete, the files are immediately available. If $Job.JobState returns "Transferred", the $Job object is sent to the [Complete-BitsTransfer]( http://technet.microsoft.com/en-us/library/dd347701.aspx) cmdlet.
+In the preceding example, the BITS transfer job was assigned to the $Job variable. The files are downloaded sequentially. After the transfer job is complete, the files are immediately available. If $Job.JobState returns "Transferred", the $Job object is sent to the [Complete-BitsTransfer]( https://technet.microsoft.com/library/dd347701.aspx) cmdlet.
 
-If $Job.JobState returns "Error", the $Job object is sent to the [Format-List]( http://technet.microsoft.com/en-us/library/dd347700.aspx) cmdlet to list the errors.
+If $Job.JobState returns "Error", the $Job object is sent to the [Format-List]( https://technet.microsoft.com/library/dd347700.aspx) cmdlet to list the errors.
 
 ## To manage PowerShell Remote sessions
 
 Starting with Windows 10, version 1607, you can run PowerShell Cmdlets, BITSAdmin, or other applications that use the BITS [interfaces](bits-interfaces.md) from a PowerShell Remote command line connected to another machine (physical or virtual). This capability is not available when using a [PowerShell Direct](https://docs.microsoft.com/virtualization/hyper-v-on-windows/user_guide/vmsession) command line to a virtual machine on the same physical machine, and it is not available when using WinRM cmdlets.
 
-A BITS Job created from a Remote PowerShell session runs under that session’s user account context and will only make progress when there is at least one active local logon session or Remote PowerShell session associated with that user account. You can use PowerShell's persistent PSSessions to run remote commands without the need to keep a PowerShell window open for each job to continue making progress, as described in [PowerShell Basics: Remote Management](https://windowsitpro.com/powershell/powershell-basics-remote-management).
+A BITS Job created from a Remote PowerShell session runs under that session’s user account context and will only make progress when there is at least one active local logon session or Remote PowerShell session associated with that user account. You can use PowerShell's persistent PSSessions to run remote commands without the need to keep a PowerShell window open for each job to continue making progress, as described in [PowerShell Basics: Remote Management](http://techgenix.com/remote-management-powershell-part1/).
 
 -   [New-PSSession](https://technet.microsoft.com/library/hh849717.aspx) creates a persistent Remote PowerShell session. Once created, the PSSession objects persist in the remote machine until explicitly deleted. Any BITS jobs initiated in an active session will make progress transferring data, even after the client has disconnected from the session.
 -   [Disconnect-PSSession](https://technet.microsoft.com/library/hh849747.aspx) disconnects the client machine from a Remote PowerShell session and the session’s state continues to be maintained by the remote machine. Most importantly, the remote session’s processes will continue executing, and BITS jobs will continue to make progress. The client machine can even reboot and/or turn off after calling Disconnect-PSSession.
@@ -203,7 +203,7 @@ Remove-PSSession -Name MyRemoteSession
 [Start-BitsTransfer](https://technet.microsoft.com/library/dd347701.aspx)
 </dt> <dt>
 
-[Complete-BitsTransfer]( http://technet.microsoft.com/en-us/library/dd347701.aspx)
+[Complete-BitsTransfer]( https://technet.microsoft.com/library/dd347701.aspx)
 </dt> </dl>
 
  
