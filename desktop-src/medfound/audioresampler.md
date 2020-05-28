@@ -19,7 +19,7 @@ CLSID\_CResamplerMediaObject
 
 ## Interfaces
 
--   [**IMediaObject**](https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject)
+-   [**IMediaObject**](https://docs.microsoft.com/en-us/previous-versions/ms785953%28v%3dvs.85%29)
 -   [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)
 -   [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx)
 -   [**IWMResamplerProps**](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresamplerprops)
@@ -31,7 +31,7 @@ PCM or IEEE floating-point
 The media type must specify an uncompressed PCM or floating-point audio format.
 
 -   For the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface, initialize the media type as described in [Uncompressed Audio Media Types](uncompressed-audio-media-types.md).
--   For the [**IMediaObject**](https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) interface, the media type must be a **FORMAT\_WaveFormatEx** type. For more information, see [**DMO\_MEDIA\_TYPE**](https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type).
+-   For the [**IMediaObject**](https://docs.microsoft.com/en-us/previous-versions/ms785953%28v%3dvs.85%29) interface, the media type must be a **FORMAT\_WaveFormatEx** type. For more information, see [**DMO\_MEDIA\_TYPE**](https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type).
 
 ## Properties
 

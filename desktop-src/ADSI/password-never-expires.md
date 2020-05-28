@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # Password Never Expires (LDAP Provider)
 
-To enable the password never expires option using the LDAP provider, set the [**ADS\_UF\_DONT\_EXPIRE\_PASSWD**](/windows/desktop/api/Iads/ne-iads-ads_user_flag) flag on the user [**userAccountControl**](https://docs.microsoft.com/windows/desktop/ADSchema/a-useraccountcontrol) attribute.
+To enable the password never expires option using the LDAP provider, set the [**ADS\_UF\_DONT\_EXPIRE\_PASSWD**](/windows/win32/api/iads/ne-iads-ads_user_flag_enum) flag on the user [**userAccountControl**](https://docs.microsoft.com/windows/desktop/ADSchema/a-useraccountcontrol) attribute.
 
 
 ```VB

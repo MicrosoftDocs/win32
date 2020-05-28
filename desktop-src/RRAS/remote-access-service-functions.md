@@ -94,7 +94,7 @@ Use the following functions to implement RAS functionality.
 
 [**RasGetNapStatus**](/windows/desktop/api/Ras/nf-ras-rasgetnapstatus)
 
-[**RasGetProjectionInfo**](/windows/win32/api/ras/nf-ras-rasgetprojectioninfow)
+[**RasGetProjectionInfo**](/previous-versions/windows/embedded/ms897107(v=msdn.10))
 
 [**RasGetProjectionInfoEx**](/windows/desktop/api/Ras/nf-ras-rasgetprojectioninfoex)
 
