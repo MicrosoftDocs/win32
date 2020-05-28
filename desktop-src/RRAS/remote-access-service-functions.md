@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 Use the following functions to implement RAS functionality.
 
-[**CmFree**](cmfree.md)
+**CmFree**
 
-[**CmMalloc**](cmmalloc.md)
+**CmMalloc**
 
 [**ORASADFunc**](/windows/desktop/api/Ras/nc-ras-orasadfunc)
 
