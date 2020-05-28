@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The following structures are used with synchronization:
 
 -   [**OVERLAPPED**](https://msdn.microsoft.com/library/ms684342(v=VS.85).aspx)
--   [**SLIST\_ENTRY**](/windows/desktop/api/Winnt/ns-winnt-_list_entry)
+-   [**SLIST\_ENTRY**](/windows/win32/api/winnt/ns-winnt-slist_entry)
 
  
 
