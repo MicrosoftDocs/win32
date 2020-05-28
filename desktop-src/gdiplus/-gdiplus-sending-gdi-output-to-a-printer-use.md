@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Sending GDI+ Output to a Printer
 
-Using Windows GDI+ to draw on a printer is similar to using GDI+ to draw on a computer screen. To draw on a printer, obtain a device context handle for the printer and then pass that handle to a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) constructor.
+Using Windows GDI+ to draw on a printer is similar to using GDI+ to draw on a computer screen. To draw on a printer, obtain a device context handle for the printer and then pass that handle to a [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) constructor.
 
 The following console application draws a line, a rectangle, and an ellipse on a printer named MyPrinter:
 
@@ -61,10 +61,10 @@ In the preceding code, the three GDI+ drawing commands are in between calls to t
 
  
 
-Generally you won't want to hard-code the name of a printer as was done in the preceding console application. One alternative to hard-coding the name is to call [GetDefaultPrinter](https://msdn.microsoft.com/library/gdi/prntspol_0hma.asp) to obtain the name of the default printer. Before you call GetDefaultPrinter, you must allocate a buffer large enough to hold the printer name. You can determine the size of the required buffer by calling GetDefaultPrinter, passing **NULL** as the first argument.
+Generally you won't want to hard-code the name of a printer as was done in the preceding console application. One alternative to hard-coding the name is to call [GetDefaultPrinter](/windows/win32/printdocs/getdefaultprinter) to obtain the name of the default printer. Before you call GetDefaultPrinter, you must allocate a buffer large enough to hold the printer name. You can determine the size of the required buffer by calling GetDefaultPrinter, passing **NULL** as the first argument.
 
 > [!Note]  
-> The [GetDefaultPrinter](https://msdn.microsoft.com/library/gdi/prntspol_0hma.asp) function is supported only on Windows 2000 and later.
+> The [GetDefaultPrinter](/windows/win32/printdocs/getdefaultprinter) function is supported only on Windows 2000 and later.
 
  
 

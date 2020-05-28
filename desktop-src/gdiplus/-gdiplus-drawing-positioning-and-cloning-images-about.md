@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Drawing, Positioning, and Cloning Images
 
-You can use the [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) class to load and display raster images (bitmaps) and vector images (metafiles). To display an image, you need a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and an **Image** object. The **Graphics** object provides the [**Graphics::DrawImage**](https://msdn.microsoft.com/library/ms536030(v=VS.85).aspx) method, which receives the address of the **Image** object as an argument.
+You can use the [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) class to load and display raster images (bitmaps) and vector images (metafiles). To display an image, you need a [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and an **Image** object. The **Graphics** object provides the [**Graphics::DrawImage**](https://msdn.microsoft.com/library/ms536030(v=VS.85).aspx) method, which receives the address of the **Image** object as an argument.
 
-The following example constructs an [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) object from the file Climber.jpg and then displays the image. The destination point for the upper-left corner of the image, (10, 10), is specified in the second and third parameters of the [**Graphics::DrawImage**](https://msdn.microsoft.com/library/ms536030(v=VS.85).aspx) method.
+The following example constructs an [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) object from the file Climber.jpg and then displays the image. The destination point for the upper-left corner of the image, (10, 10), is specified in the second and third parameters of the [**Graphics::DrawImage**](https://msdn.microsoft.com/library/ms536030(v=VS.85).aspx) method.
 
 
 ```
@@ -24,9 +24,9 @@ The preceding code, along with a particular file, Climber.jpg, produced the foll
 
 ![screen shot of a window containing a photo](images/aboutgdip03-art04.png)
 
-You can construct [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) objects from a variety of graphics file formats: BMP, GIF, JPEG, Exif, PNG, TIFF, WMF, EMF, and ICON.
+You can construct [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) objects from a variety of graphics file formats: BMP, GIF, JPEG, Exif, PNG, TIFF, WMF, EMF, and ICON.
 
-The following example constructs [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) objects from a variety of file types and then displays the images.
+The following example constructs [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) objects from a variety of file types and then displays the images.
 
 
 ```
@@ -47,7 +47,7 @@ myGraphics.DrawImage(&myTIFF, 300, 200);
 
 
 
-The [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) class provides a [**Image::Clone**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-clone) method that you can use to make a copy of an existing **Image**, [**Metafile**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile), or [**Bitmap**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap) object. The [Clone](https://msdn.microsoft.com/library/ms536287(v=VS.85).aspx) method is overloaded in the **Bitmap** class, and one of the variations has a source-rectangle parameter that you can use to specify the portion of the original image that you want to copy. The following example creates a **Bitmap** object by cloning the top half of an existing **Bitmap** object. Then both images are displayed.
+The [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) class provides a [**Image::Clone**](/windows/win32/api/Gdiplusheaders/nf-gdiplusheaders-image-clone) method that you can use to make a copy of an existing **Image**, [**Metafile**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-metafile), or [**Bitmap**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-bitmap) object. The [Clone](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-clone(inconstrectf__inpixelformat)) method is overloaded in the **Bitmap** class, and one of the variations has a source-rectangle parameter that you can use to specify the portion of the original image that you want to copy. The following example creates a **Bitmap** object by cloning the top half of an existing **Bitmap** object. Then both images are displayed.
 
 
 ```
