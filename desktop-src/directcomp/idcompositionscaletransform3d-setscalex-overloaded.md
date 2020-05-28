@@ -50,10 +50,10 @@ Changes or animates the value of the ScaleX property of a 3D scale transform. Th
 [**IDCompositionScaleTransform3D**](https://msdn.microsoft.com/library/Hh448990(v=VS.85).aspx)
 </dt> <dt>
 
-[**IDCompositionScaleTransform3D::SetScaleY**](https://msdn.microsoft.com/library/Hh449024(v=VS.85).aspx)
+[**IDCompositionScaleTransform3D::SetScaleY**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscaley(float))
 </dt> <dt>
 
-[**IDCompositionScaleTransform3D::SetScaleZ**](https://msdn.microsoft.com/library/Hh449030(v=VS.85).aspx)
+[**IDCompositionScaleTransform3D::SetScaleZ**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscalez(float))
 </dt> </dl>
 
 �

@@ -769,7 +769,7 @@ If a Microsoft system update REDIST requires a reboot, then do the following: Co
 [!Note]<br />
 Autorun programs that were written for use on versions of Windows prior to Windows Vista should not use the .NET runtime, because this technology is not included with Windows XP or older versions of Windows.
 </blockquote>
-<br/> For further guidance, please refer to <a href="https://docs.microsoft.com/windows/desktop/DxTechArts/games-for-windows-technical-requirements-1-1-0006">Games for Windows Technical Requirements</a> 3.7, Support Autorun. <br/></td>
+<br/> For further guidance, please refer to <a href="/windows/win32/DxTechArts/games-for-windows-technical-requirements-1-1-0006">Games for Windows Technical Requirements</a> 3.7, Support Autorun. <br/></td>
 </tr>
 <tr class="even">
 
@@ -1283,7 +1283,7 @@ This process is the same as clicking **Fail**, with the exception of the auto-po
 <span id="Games_for_Windows__Technical_Requirements"></span><span id="games_for_windows__technical_requirements"></span><span id="GAMES_FOR_WINDOWS__TECHNICAL_REQUIREMENTS"></span>Games for Windows: Technical Requirements
 </dt> <dd>
 
-[Games for Windows Technical Requirements: Best Practices for Games on Windows XP, Windows Vista, and Windows 7](https://docs.microsoft.com/windows/desktop/DxTechArts/games-for-windows-technical-requirements-1-1-0006)
+[Games for Windows Technical Requirements: Best Practices for Games on Windows XP, Windows Vista, and Windows 7](/windows/win32/DxTechArts/games-for-windows-technical-requirements-1-1-0006)
 
 </dd> <dt>
 
@@ -1304,14 +1304,14 @@ This process is the same as clicking **Fail**, with the exception of the auto-po
 <span id="Windows_Installer_Information"></span><span id="windows_installer_information"></span><span id="WINDOWS_INSTALLER_INFORMATION"></span>Windows Installer Information
 </dt> <dd>
 
-[Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal)
+[Windows Installer](/windows/win32/Msi/windows-installer-portal)
 
 </dd> <dt>
 
 <span id="WinQual_Developer_Portal__"></span><span id="winqual_developer_portal__"></span><span id="WINQUAL_DEVELOPER_PORTAL__"></span>WinQual Developer Portal 
 </dt> <dd>
 
-[Windows Quality Online Services (Winqual)](https://sysdev.microsoft.com/)
+[Windows Quality Online Services (Winqual)](https://docs.microsoft.com/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-)
 
 </dd> <dt>
 
@@ -1332,7 +1332,7 @@ This process is the same as clicking **Fail**, with the exception of the auto-po
 <span id="Additional_DirectX_Articles"></span><span id="additional_directx_articles"></span><span id="ADDITIONAL_DIRECTX_ARTICLES"></span>Additional DirectX Articles
 </dt> <dd>
 
-[DirectX Technical Articles](https://docs.microsoft.com/windows/desktop/DxTechArts/dx9-technical-articles)
+[DirectX Technical Articles](/windows/win32/DxTechArts/dx9-technical-articles)
 
 </dd> </dl>
 

@@ -32,7 +32,7 @@ HRESULT D3DX10CompileFromResource(
   _In_        HMODULE            hSrcModule,
   _In_        LPCTSTR            pSrcResource,
   _In_        LPCTSTR            pSrcFileName,
-  _In_  const D3D10_SHADER_MACRO *pDefines,
+  _In_  const D3D_SHADER_MACRO *pDefines,
   _In_        LPD3D10INCLUDE     pInclude,
   _In_        LPCSTR             pFunctionName,
   _In_        LPCSTR             pProfile,
@@ -56,7 +56,7 @@ HRESULT D3DX10CompileFromResource(
 
 Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 
-Handle to the resource module containing the shader. HMODULE can be obtained with [GetModuleHandle Function](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea).
+Handle to the resource module containing the shader. HMODULE can be obtained with [GetModuleHandle Function](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlea).
 
 </dd> <dt>
 
@@ -81,9 +81,9 @@ Optional. Effect file name, which is used for error messages only. Can be **NULL
 *pDefines* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/library/Bb172436(v=VS.85).aspx)\***
+Type: **const [**D3D\_SHADER\_MACRO**](/windows/win32/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)\***
 
-Optional. Pointer to an array of macro definitions (see [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/library/Bb172436(v=VS.85).aspx)). The last structure in the array serves as a terminator and must have all members set to 0. If not used, set *pDefines* to **NULL**.
+Optional. Pointer to an array of macro definitions (see [**D3D\_SHADER\_MACRO**](/windows/win32/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)). The last structure in the array serves as a terminator and must have all members set to 0. If not used, set *pDefines* to **NULL**.
 
 </dd> <dt>
 
@@ -144,18 +144,18 @@ A pointer to a thread pump interface (see [**ID3DX10ThreadPump Interface**](id3d
 *ppShader* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/api/D3DCommon/nn-d3dcommon-id3d10blob)\*\***
 
-A pointer to an [**ID3D10Blob Interface**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob) which contains the compiled shader, as well as any embedded debug and symbol-table information.
+A pointer to an [**ID3D10Blob Interface**](/windows/win32/api/D3DCommon/nn-d3dcommon-id3d10blob) which contains the compiled shader, as well as any embedded debug and symbol-table information.
 
 </dd> <dt>
 
 *ppErrorMsgs* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/api/D3DCommon/nn-d3dcommon-id3d10blob)\*\***
 
-A pointer to an [**ID3D10Blob Interface**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob) which contains a listing of errors and warnings that occurred during compilation. These errors and warnings are identical to the debug output from a debugger.
+A pointer to an [**ID3D10Blob Interface**](/windows/win32/api/D3DCommon/nn-d3dcommon-id3d10blob) which contains a listing of errors and warnings that occurred during compilation. These errors and warnings are identical to the debug output from a debugger.
 
 </dd> <dt>
 
