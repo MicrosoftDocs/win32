@@ -22,10 +22,10 @@ To perform this operation, call the [**WSAIoctl**](/windows/desktop/api/winsock2
 int WSAIoctl(
   (socket) s,             // descriptor identifying a socket
   SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS, // dwIoControlCode
-  NULL,                         // lpvInBuffer
-  0,                            // cbInBuffer
-  (LPVOID) lpvOutBuffer,         // output buffer
-  (DWORD) cbOutBuffer,       // size of output buffer
+  (LPVOID) lpvInputBuffer,       // lpvInBuffer
+  (DWORD) cbInputBuffer,         // cbInBuffer
+  NULL,         // output buffer
+  0,       // size of output buffer
   (LPDWORD) lpcbBytesReturned,    // number of bytes returned
   (LPWSAOVERLAPPED) lpOverlapped,   // OVERLAPPED structure
   (LPWSAOVERLAPPED_COMPLETION_ROUTINE) lpCompletionRoutine,  // completion routine
