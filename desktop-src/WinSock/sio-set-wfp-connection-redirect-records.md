@@ -20,31 +20,31 @@ To perform this operation, call the [**WSAIoctl**](/windows/desktop/api/winsock2
 
 ```cpp
 int WSAIoctl(
-  (socket) s,             // descriptor identifying a socket
+  (socket) s,                              // descriptor identifying a socket
   SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS, // dwIoControlCode
-  (LPVOID) lpvInputBuffer,       // lpvInBuffer
-  (DWORD) cbInputBuffer,         // cbInBuffer
-  NULL,         // output buffer
-  0,       // size of output buffer
-  (LPDWORD) lpcbBytesReturned,    // number of bytes returned
-  (LPWSAOVERLAPPED) lpOverlapped,   // OVERLAPPED structure
-  (LPWSAOVERLAPPED_COMPLETION_ROUTINE) lpCompletionRoutine,  // completion routine
+  (LPVOID) lpvInputBuffer,                 // lpvInBuffer
+  (DWORD) cbInputBuffer,                   // cbInBuffer
+  NULL,                                    // output buffer
+  0,                                       // size of output buffer
+  (LPDWORD) lpcbBytesReturned,             // number of bytes returned
+  (LPWSAOVERLAPPED) lpOverlapped,          // OVERLAPPED structure
+  (LPWSAOVERLAPPED_COMPLETION_ROUTINE) lpCompletionRoutine, // completion routine
 );
 ```
 
 ```cpp
 int WSPIoctl(
-  (socket) s,             // descriptor identifying a socket
+  (socket) s,                              // descriptor identifying a socket
   SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS, // dwIoControlCode
-  NULL,                         // lpvInBuffer
-  0,                            // cbInBuffer
-  (LPVOID) lpvOutBuffer,         // output buffer
-  (DWORD) cbOutBuffer,       // size of output buffer
-  (LPDWORD) lpcbBytesReturned,    // number of bytes returned
-  (LPWSAOVERLAPPED) lpOverlapped,   // OVERLAPPED structure
+  (LPVOID) lpvInputBuffer,                 // lpvInBuffer
+  (DWORD) cbInputBuffer,                   // cbInBuffer
+  NULL,                                    // output buffer
+  0,                                       // size of output buffer
+  (LPDWORD) lpcbBytesReturned,             // number of bytes returned
+  (LPWSAOVERLAPPED) lpOverlapped,          // OVERLAPPED structure
   (LPWSAOVERLAPPED_COMPLETION_ROUTINE) lpCompletionRoutine,  // completion routine
-  (LPWSATHREADID) lpThreadId,   // a WSATHREADID structure
-  (LPINT) lpErrno   // a pointer to the error code.
+  (LPWSATHREADID) lpThreadId,              // a WSATHREADID structure
+  (LPINT) lpErrno                          // a pointer to the error code.
 );
 ```
 
