@@ -26,7 +26,7 @@ Sets the named property to the given value.
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------|
 | [**SetValueByName (PCWSTR, const template&lt;T&gt;)**](https://msdn.microsoft.com/library/Hh997718(v=VS.85).aspx)                                                     | Sets the named property to the given value. This is a template overload.<br/> |
 | [**SetValueByName (PCWSTR , const BYTE \*, UINT32)**](https://msdn.microsoft.com/library/Hh446887(v=VS.85).aspx)                                                                        | Sets the named property to the given value. <br/>                             |
-| [**SetValueByName (PCWSTR, D2D1\_PROPERTY\_TYPE, CONST BYTE, dataSize)**](https://msdn.microsoft.com/library/Hh997719(v=VS.85).aspx) | Sets the named property to the given value. <br/>                             |
+| [**SetValueByName (PCWSTR, D2D1\_PROPERTY\_TYPE, CONST BYTE, dataSize)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-setvaluebyname(pcwstr_d2d1_property_type_constbyte_uint32)) | Sets the named property to the given value. <br/>                             |
 
 
 

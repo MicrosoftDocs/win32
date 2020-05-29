@@ -26,7 +26,7 @@ Clears the drawing area to the specified color.
 | Method                                                                 | Description                                                 |
 |:-----------------------------------------------------------------------|:------------------------------------------------------------|
 | [**Clear(D2D1\_COLOR\_F\*)**](https://msdn.microsoft.com/library/Dd371769(v=VS.85).aspx) | Clears the drawing area to the specified color. <br/> |
-| [**Clear(D2D1\_COLOR\_F&)**](https://msdn.microsoft.com/library/Dd371772(v=VS.85).aspx)  | Clears the drawing area to the specified color. <br/> |
+| [**Clear(D2D1\_COLOR\_F&)**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-clear(constd2d1_color_f_))  | Clears the drawing area to the specified color. <br/> |
 
 
 
