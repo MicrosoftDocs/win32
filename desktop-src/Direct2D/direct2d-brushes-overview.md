@@ -148,11 +148,7 @@ Unlike other brushes, creating an [**ID2D1SolidColorBrush**](https://msdn.micros
 
 ## Using Linear Gradient Brushes
 
-<<<<<<< HEAD
-An [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx) paints an area with a linear gradient defined along a line, the gradient axis. You specify the gradient's colors and their location along the gradient axis using [**ID2D1GradientStop**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx) objects. You may also modify the gradient axis, which enables you to create horizontal and vertical gradient and to reverse the gradient direction. To create a linear gradient brush, call the [**ID2D1RenderTarget::CreateLinearGradientBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createlineargradientbrush(constd2d1_linear_gradient_brush_properties__id2d1gradientstopcollection_id2d1lineargradientbrush)) method.
-=======
 An [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx) paints an area with a linear gradient defined along a line, the gradient axis. You specify the gradient's colors and their location along the gradient axis using [**ID2D1GradientStop**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx) objects. You may also modify the gradient axis, which enables you to create horizontal and vertical gradient and to reverse the gradient direction. To create a linear gradient brush, call the [**ID2D1RenderTarget::CreateLinearGradientBrush**](/windows/win32/dd371845(v=vs.85).aspx) method.
->>>>>>> be77ed1f97d3be57a2f42070589de21b66034adf
 
 The following illustration shows a square that is painted with an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx) that has two predefined colors, "Yellow" and "ForestGreen".
 
