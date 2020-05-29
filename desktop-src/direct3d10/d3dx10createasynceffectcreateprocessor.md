@@ -25,7 +25,7 @@ Create an effect pool asynchronously.
 ```C++
 HRESULT D3DX10CreateAsyncEffectCreateProcessor(
   _In_        LPCSTR               pFileName,
-  _In_  const D3D10_SHADER_MACRO   *pDefines,
+  _In_  const D3D_SHADER_MACRO   *pDefines,
   _In_        LPD3D10INCLUDE       pInclude,
   _In_        LPCSTR               pProfile,
   _In_        UINT                 Flags,
@@ -55,9 +55,9 @@ A string that contains the effect filename.
 *pDefines* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/library/Bb172436(v=VS.85).aspx)\***
+Type: **const [**D3D\_SHADER\_MACRO**](/windows/win32/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)\***
 
-A NULL-terminated array of shader macros (see [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/library/Bb172436(v=VS.85).aspx)); set this to **NULL** to specify no macros.
+A NULL-terminated array of shader macros (see [**D3D\_SHADER\_MACRO**](/windows/win32/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)); set this to **NULL** to specify no macros.
 
 </dd> <dt>
 
@@ -100,27 +100,27 @@ Effect compile options (see [Compile and Effect Flags](d3d10-graphics-reference-
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Device**](/windows/desktop/api/D3D10/nn-d3d10-id3d10device)\***
+Type: **[**ID3D10Device**](/windows/win32/api/D3D10/nn-d3d10-id3d10device)\***
 
-A pointer to the device (see [**ID3D10Device Interface**](/windows/desktop/api/D3D10/nn-d3d10-id3d10device)) that will use the resources.
+A pointer to the device (see [**ID3D10Device Interface**](/windows/win32/api/D3D10/nn-d3d10-id3d10device)) that will use the resources.
 
 </dd> <dt>
 
 *pPool* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10EffectPool**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectpool)\***
+Type: **[**ID3D10EffectPool**](/windows/win32/api/D3D10Effect/nn-d3d10effect-id3d10effectpool)\***
 
-A pointer to an effect pool (see [**ID3D10EffectPool Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectpool)) for sharing variables between effects.
+A pointer to an effect pool (see [**ID3D10EffectPool Interface**](/windows/win32/api/D3D10Effect/nn-d3d10effect-id3d10effectpool)) for sharing variables between effects.
 
 </dd> <dt>
 
 *ppErrorBuffer* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/api/D3DCommon/nn-d3dcommon-id3d10blob)\*\***
 
-The address of a pointer to memory (see [**ID3D10Blob Interface**](/windows/desktop/api/D3DCommon/nn-d3dcommon-id3d10blob)) that contains effect compile errors, if there were any.
+The address of a pointer to memory (see [**ID3D10Blob Interface**](/windows/win32/api/D3DCommon/nn-d3dcommon-id3d10blob)) that contains effect compile errors, if there were any.
 
 </dd> <dt>
 

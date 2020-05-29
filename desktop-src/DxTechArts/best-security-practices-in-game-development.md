@@ -21,7 +21,7 @@ An increasing number of people play online games and games with user-made conten
 
 The three most common mistakes made by a development team when releasing a product are:
 
--   Requiring administrative privileges. Games should not require administrative privileges. For more details, see [User Account Control for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/user-account-control-for-game-developers).
+-   Requiring administrative privileges. Games should not require administrative privileges. For more details, see [User Account Control for Game Developers](/windows/win32/DxTechArts/user-account-control-for-game-developers).
 -   Not using automated protection. Developers are generally not using **/GS**, **/SAFESEH**, or **/NX**. Using these compile/link flags can spot or eliminate many basic security holes without significantly increasing workload. These flags are discussed later in this article.
 -   Using forbidden APIs. There are many APIs (**strcpy**, **strncpy**, and so on) that are prone to programmer error and easily generate security holes. Developers should replace these APIs with the safe versions. Visual Studio 2005 comes with a tool for analyzing binary files that can automatically check object files for references to unsafe APIs. For more information on what to do with information generated with this tool, see [Repel Attacks on Your Code with the Visual Studio 2005 Safe C and C++ Libraries](https://docs.microsoft.com/archive/msdn-magazine/2005/may/repel-attacks-with-visual-studio-2005-safe-c-and-c-libraries) by Martyn Lovell. Also, you can get the [banned.h](https://www.microsoft.com/downloads/details.aspx?FamilyID=6aed14bd-4766-4d9d-9ee2-fa86aad1e3c9) header file that can help you remove banned functions from code.
 
@@ -61,7 +61,7 @@ There are several ways to improve security in the development cycle. Here are so
 
 The book, *Writing Secure Code, Second Edition* by Michael Howard and David LeBlanc, provides an in-depth and clear explanation of strategies and methods of preventing attacks and mitigating exploits. Starting with methods of designing security into a release to techniques for securing network applications, the book covers all aspects that a game developer needs to help protect themselves, their products, and their customers from attackers. The book can be used to instill a culture of security in a development studio. Don't just think of code security as a developer's problem or a tester's problem. Think of security as something the whole team — from program manager to designer to developer to tester — should be thinking about when they work on a project. The more eyes that are part of the review process, the greater the chance of catching a security hole prior to release.
 
-*Writing Secure Code, Second Edition* can be found at [Microsoft Learning](https://www.microsoft.com/mspress/books/5957.asp) and more general security information can be found in [Fending Off Future Attacks by Reducing Attack Surface](/previous-versions/ms972812(v=msdn.10)) by Michael Howard.
+*Writing Secure Code, Second Edition* can be found at [Microsoft Learning](https://www.microsoftpressstore.com/store/writing-secure-code-9780735617223) and more general security information can be found in [Fending Off Future Attacks by Reducing Attack Surface](/previous-versions/ms972812(v=msdn.10)) by Michael Howard.
 
 Michael Howard, David LeBlanc, and John Viega have written another book on the subject that covers all common operating systems and programming languages entitled, *19 Deadly Sins of Software Security*.
 
@@ -92,7 +92,7 @@ More on Threat Modeling can be found at [Threat Modeling](https://technet.micros
 
 A recent tool in mitigating multiple exploits is data execution prevention (DEP). If you include the switch **/NX** in the build command, Visual Studio will mark memory pages with flags that denote whether the code has the right to execute or not. Any program attempting to execute in a memory page not flagged with EXECUTE permission will cause a forcible termination of the program. The prevention is enforced on the processor level and will impact developers who are using self-modifying code or native JIT language compilers. Currently, only AMD's Athlon64 and Opteron processors and Intel's Itanium and latest Pentium 4 processors support execution prevention, but it is expected that all 32-bit and 64-bit processors will support execution prevention in the future. (A copy-protection scheme used by a developer may be affected by execution prevention, but Microsoft has been working with copy-protection vendors to minimize the impact.) It is a good practice to use DEP.
 
-For more details on DEP, see [Data Execution Prevention](https://docs.microsoft.com/windows/desktop/Memory/data-execution-prevention).
+For more details on DEP, see [Data Execution Prevention](/windows/win32/Memory/data-execution-prevention).
 
 </dd> <dt>
 
@@ -107,7 +107,7 @@ Using the **/SAFESEH** flag will instruct the linker to only generate an executa
 
 More information about [Buffer Security Check](https://msdn.microsoft.com/library/8dbf701c(vs.71).aspx) (**/GS**) and [Image has Safe Exception Handlers](https://msdn.microsoft.com/library/9a89h429(vs.71).aspx) (**/SAFESEH**) can be found in MSDN.
 
-See also info about Microsoft Visual Studio 2012's [**/SDL** flag](https://blogs.msdn.microsoft.com/b/sdl/archive/2011/12/02/security.aspx) and Visual Studio 2012's [enhancements to the **/GS** flag](https://www.microsoft.com/security/blog/2012/01/26/enhancements-to-gs-in-visual-studio-11/).
+See also info about Microsoft Visual Studio 2012's [**/SDL** flag](https://docs.microsoft.com/cpp/build/reference/sdl-enable-additional-security-checks?view=vs-2019) and Visual Studio 2012's [enhancements to the **/GS** flag](https://www.microsoft.com/security/blog/2012/01/26/enhancements-to-gs-in-visual-studio-11/).
 
 </dd> <dt>
 
@@ -152,16 +152,16 @@ Authenticode should not be considered a method of eliminating security issues, b
 
 Even if a developer feels that there is no threat of their releases being modified, other technologies and services rely on Authenticode. Code signing is easy to integrate and automate; there is no reason for developers to not have their releases signed.
 
-For more information on Authenticode signing, see [Authenticode Signing for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/authenticode-signing-for-game-developers).
+For more information on Authenticode signing, see [Authenticode Signing for Game Developers](/windows/win32/DxTechArts/authenticode-signing-for-game-developers).
 
 </dd> <dt>
 
 <span id="Minimize_Privileges"></span><span id="minimize_privileges"></span><span id="MINIMIZE_PRIVILEGES"></span>Minimize Privileges
 </dt> <dd>
 
-In general processes should run with the minimum set of privileges required to operate. On Windows Vista and Windows 7, this is accomplished by using [User Account Control](https://docs.microsoft.com/windows/desktop/DxTechArts/user-account-control-for-game-developers), allowing the game to run as a Standard User rather than an administrator. For Windows XP, typically games are always running as administrator. Even on Windows Vista and Windows 7, it is sometimes necessary to elevate to full administrator rights for some specific operations.
+In general processes should run with the minimum set of privileges required to operate. On Windows Vista and Windows 7, this is accomplished by using [User Account Control](/windows/win32/DxTechArts/user-account-control-for-game-developers), allowing the game to run as a Standard User rather than an administrator. For Windows XP, typically games are always running as administrator. Even on Windows Vista and Windows 7, it is sometimes necessary to elevate to full administrator rights for some specific operations.
 
-In the cases where the process is running with full administrative rights, usually only a few rights beyond those of a Standard User are actually required. Administrative access includes many rights that are not required by legitimate code, but could be used by an attacker, through some weakness in the process. Examples of such rights include SE\_TAKE\_OWNERSHIP, SE\_DEBUG, SE\_CREATE\_TOKEN, SE\_ASSIGNPRIMARYTOKEN, SE\_TCB, SE\_SECURITY, SE\_LOAD\_DRIVER, SE\_SYSTEMTIME, SE\_BACKUP, SE\_RESTORE, SE\_SHUTDOWN, and SE\_AUDIT (see [Priviledge Constants](https://docs.microsoft.com/windows/desktop/SecAuthZ/privilege-constants)).
+In the cases where the process is running with full administrative rights, usually only a few rights beyond those of a Standard User are actually required. Administrative access includes many rights that are not required by legitimate code, but could be used by an attacker, through some weakness in the process. Examples of such rights include SE\_TAKE\_OWNERSHIP, SE\_DEBUG, SE\_CREATE\_TOKEN, SE\_ASSIGNPRIMARYTOKEN, SE\_TCB, SE\_SECURITY, SE\_LOAD\_DRIVER, SE\_SYSTEMTIME, SE\_BACKUP, SE\_RESTORE, SE\_SHUTDOWN, and SE\_AUDIT (see [Priviledge Constants](/windows/win32/SecAuthZ/privilege-constants)).
 
 While a process cannot gain more rights once started, it can easily give up rights. At startup, the process can immediately use Win32 APIs to remove rights that it does not require.
 
@@ -170,11 +170,11 @@ While a process cannot gain more rights once started, it can easily give up righ
 <span id="Utilize_Windows_Security_Features"></span><span id="utilize_windows_security_features"></span><span id="UTILIZE_WINDOWS_SECURITY_FEATURES"></span>Utilize Windows Security Features
 </dt> <dd>
 
-Windows Vista and Windows 7 includes a number of new features that improve code security. [User Account Control](https://docs.microsoft.com/windows/desktop/DxTechArts/user-account-control-for-game-developers) is certainly the most important one to understand and embrace, but there are other features as well. In addition to the Windows XP SP2 technologies, such as the Windows Firewall, Data Execution Prevention, Buffer Security Check, and Safe Exception Handlers which are also available on Windows Vista and Windows 7, there are three newer security features to consider:
+Windows Vista and Windows 7 includes a number of new features that improve code security. [User Account Control](/windows/win32/DxTechArts/user-account-control-for-game-developers) is certainly the most important one to understand and embrace, but there are other features as well. In addition to the Windows XP SP2 technologies, such as the Windows Firewall, Data Execution Prevention, Buffer Security Check, and Safe Exception Handlers which are also available on Windows Vista and Windows 7, there are three newer security features to consider:
 
 -   The opt-in Address Space Layout Randomization feature. This is enabled by linking with the option **/DYNAMICBASE** on Visual Studio 2005 Service Pack 1 or Visual Studio 2008. This causes the system to randomize the positions of many of the key system DLLs in your process space, making it much more difficult to write exploitable attack programs that propagate broadly across the Internet. This linker flag is ignored by Windows XP and older versions of Windows.
--   Heap corruption can lead to an entire class of security exploits, so the memory system of Windows Vista and Windows 7 now supports a mode which terminates the process if heap corruption is detected. Calling [**HeapSetInformation**](https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapsetinformation) with **HeapEnableTermianteOnCorruption** will opt-in to this behavior. This call fails on Windows XP and older version of Windows.
--   When writing services, they can be configured using a new feature to specify which privileges are actually required, as well as to limit resource access to a specific SID. This is done through [ChangeSeviceConfig2](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a), using SERVICE\_CONFIG\_REQUIRED\_PRIVILEGES\_INFO and SERVICE\_CONFIG\_SERVICE\_SID\_INFO.
+-   Heap corruption can lead to an entire class of security exploits, so the memory system of Windows Vista and Windows 7 now supports a mode which terminates the process if heap corruption is detected. Calling [**HeapSetInformation**](/windows/win32/api/heapapi/nf-heapapi-heapsetinformation) with **HeapEnableTermianteOnCorruption** will opt-in to this behavior. This call fails on Windows XP and older version of Windows.
+-   When writing services, they can be configured using a new feature to specify which privileges are actually required, as well as to limit resource access to a specific SID. This is done through [ChangeSeviceConfig2](/windows/win32/api/winsvc/nf-winsvc-changeserviceconfig2a), using SERVICE\_CONFIG\_REQUIRED\_PRIVILEGES\_INFO and SERVICE\_CONFIG\_SERVICE\_SID\_INFO.
 
 </dd> </dl>
 

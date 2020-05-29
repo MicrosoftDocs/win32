@@ -17,7 +17,7 @@ api_location:
 
 # D3DPRESENTSTATS structure
 
-Describes swapchain statistics relating to [**PresentEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) calls.
+Describes swapchain statistics relating to [**PresentEx**](/windows/win32/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) calls.
 
 ## Syntax
 
@@ -74,7 +74,7 @@ The vblank count when the scheduler last sampled the machine time by calling Que
 **SyncQPCTime**
 </dt> <dd>
 
-Type: **[**LARGE\_INTEGER**](https://msdn.microsoft.com/library/Aa383713(v=VS.85).aspx)**
+Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer~r1)**
 
 </dd> <dd>
 
@@ -85,7 +85,7 @@ The scheduler's last sampled machine time, obtained by calling [**QueryPerforman
 **SyncGPUTime**
 </dt> <dd>
 
-Type: **[**LARGE\_INTEGER**](https://msdn.microsoft.com/library/Aa383713(v=VS.85).aspx)**
+Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer~r1)**
 
 </dd> <dd>
 

@@ -25,7 +25,7 @@ Compile a shader and create a data processor asynchronously.
 ```C++
 HRESULT D3DX10CreateAsyncShaderCompilerProcessor(
   _In_        LPCSTR               pFileName,
-  _In_  const D3D10_SHADER_MACRO   *pDefines,
+  _In_  const D3D_SHADER_MACRO   *pDefines,
   _In_        LPD3D10INCLUDE       pInclude,
   _In_        LPCSTR               pFunctionName,
   _In_        LPCSTR               pProfile,
