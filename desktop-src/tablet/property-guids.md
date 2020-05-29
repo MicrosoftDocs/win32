@@ -29,7 +29,7 @@ The following table lists Tablet PC property GUIDs defined in msinkaut.h (instal
 | INKRECOGNITIONPROPERTY\_HOTPOINT<br/>           | The gesture hot point<br/>                                                             |
 | INKRECOGNITIONPROPERTY\_MAXIMUMSTROKECOUNT<br/> | Maximum number of strokes for a segment<br/>                                           |
 | INKRECOGNITIONPROPERTY\_POINTSPERINCH<br/>      | The points-per-inch metric<br/>                                                        |
-| INKRECOGNITIONPROPERTY\_CONFIDENCELEVEL<br/>    | [**CONFIDENCE\_LEVEL**](/windows/desktop/api/rectypes/ne-rectypes-enumconfidence_level) enumeration<br/>                         |
+| INKRECOGNITIONPROPERTY\_CONFIDENCELEVEL<br/>    | [**CONFIDENCE\_LEVEL**](/windows/win32/api/rectypes/ne-rectypes-confidence_level) enumeration<br/>                         |
 | INKRECOGNITIONPROPERTY\_LINEMETRICS<br/>        | Information for computing baseline, midline, or both, that is used in the lattice<br/> |
 
 

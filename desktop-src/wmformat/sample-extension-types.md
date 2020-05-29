@@ -49,7 +49,7 @@ The following table lists the predefined data unit extension identifiers, and de
 </tr>
 <tr class="even">
 <td>WM_SampleExtensionGUID_Timecode</td>
-<td>The data is a <a href="/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_timecode_extension_data"><strong>WMT_TIMECODE_EXTENSION_DATA</strong></a> structure containing SMPTE time code data associated with the sample.The size for this DUE is always WM_SampleExtension_Timecode_Size, which is 14 bytes.<br/></td>
+<td>The data is a <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_timecode_extension_data"><strong>WMT_TIMECODE_EXTENSION_DATA</strong></a> structure containing SMPTE time code data associated with the sample.The size for this DUE is always WM_SampleExtension_Timecode_Size, which is 14 bytes.<br/></td>
 </tr>
 <tr class="odd">
 <td>WM_SampleExtensionGUID_FileName</td>
@@ -78,7 +78,7 @@ This data unit extension is not configured in the profile. It is included in sam
 </tr>
 <tr class="even">
 <td>WM_SampleExtensionGUID_ColorSpaceInfo</td>
-<td>The data provides information about the color space used for the current video frame.The value of this extension is a <a href="/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_colorspaceinfo_extension_data"><strong>WMT_COLORSPACEINFO_EXTENSION_DATA</strong></a> structure.<br/> This data unit extension is not configured in the profile. It is included in samples output from the decoder.<br/> The size of this DUE is always WM_SampleExtension_ColorSpaceInfo_Size, which is 3 bytes.<br/></td>
+<td>The data provides information about the color space used for the current video frame.The value of this extension is a <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_colorspaceinfo_extension_data"><strong>WMT_COLORSPACEINFO_EXTENSION_DATA</strong></a> structure.<br/> This data unit extension is not configured in the profile. It is included in samples output from the decoder.<br/> The size of this DUE is always WM_SampleExtension_ColorSpaceInfo_Size, which is 3 bytes.<br/></td>
 </tr>
 <tr class="odd">
 <td>WM_SampleExtensionGUID_UserDataInfo</td>

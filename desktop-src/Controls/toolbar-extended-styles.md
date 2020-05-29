@@ -43,7 +43,7 @@ This section lists the extended styles supported by toolbar controls.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="TBSTYLE_EX_HIDECLIPPEDBUTTONS"></span><span id="tbstyle_ex_hideclippedbuttons"></span><dl> <dt><strong>TBSTYLE_EX_HIDECLIPPEDBUTTONS</strong></dt> </dl></td>
-<td style="text-align: left;"><a href="common-control-versions.md">Version 5.81</a>. This style hides partially clipped buttons. The most common use of this style is for toolbars that are part of a rebar control. If an adjacent band covers part of a button, the button will not be displayed. However, if the rebar band has the <a href="/windows/desktop/api/Commctrl/ns-commctrl-tagrebarbandinfoa"><strong>RBBS_USECHEVRON</strong></a> style, the button will be displayed on the chevron's dropdown menu. <br/></td>
+<td style="text-align: left;"><a href="common-control-versions.md">Version 5.81</a>. This style hides partially clipped buttons. The most common use of this style is for toolbars that are part of a rebar control. If an adjacent band covers part of a button, the button will not be displayed. However, if the rebar band has the <a href="/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa"><strong>RBBS_USECHEVRON</strong></a> style, the button will be displayed on the chevron's dropdown menu. <br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="TBSTYLE_EX_DOUBLEBUFFER"></span><span id="tbstyle_ex_doublebuffer"></span><dl> <dt><strong>TBSTYLE_EX_DOUBLEBUFFER</strong></dt> </dl></td>

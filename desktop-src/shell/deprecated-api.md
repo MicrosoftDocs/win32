@@ -873,7 +873,7 @@ This function has been replaced by <a href="/windows/desktop/api/Shlwapi/nf-shlw
 <td><a href="/windows/desktop/api/Shlwapi/nf-shlwapi-stopwatchmode"><strong>StopWatchMode</strong></a> may be altered or unavailable.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/shlobj/nf-shlobj-updatealldesktopsubscriptions"><strong>UpdateAllDesktopSubscriptions</strong></a><br/></td>
+<td><a href="/windows/win32/api/shlobj/nf-shlobj-iadesktopp2-updatealldesktopsubscriptions"><strong>UpdateAllDesktopSubscriptions</strong></a><br/></td>
 <td>Deprecated. Enumerates the URLs of all the Desktop components and then tests to see if they are subscribed to. If they are subscribed to, the subscriptions are delivered.<br/></td>
 </tr>
 <tr class="odd">

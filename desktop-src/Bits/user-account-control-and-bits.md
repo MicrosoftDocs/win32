@@ -22,7 +22,7 @@ BITS helps you protect HTTP authentication tokens from unwanted access. Often an
 BITS protects these authentication tokens in several ways.
 * BITS lets you use TLS- and SSL-protected HTTP connections by specifying an HTTPS URL.
 * Custom headers are always persisted in an encrypted format on disk.
-* You can prevent customer headers from being returned to other programs with the [**IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly**](/windows/desktop/api/Bits3_0/nf-bits10_3-ibackgroundcopyjobhttpoptions3-makecustomheaderswriteonly) method.
+* You can prevent customer headers from being returned to other programs with the [**IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly**](/windows/win32/api/Bits10_3/nf-bits10_3-ibackgroundcopyjobhttpoptions3-makecustomheaderswriteonly) method.
 
 
 ## Standard and Administrator users

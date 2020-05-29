@@ -193,10 +193,10 @@ The AxWindowsMediaPlayer object supports the following events.
 [**Object Model Reference for Visual Basic .NET and C#**](object-model-reference-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
-[**WMPOpenState**](/windows/desktop/api/wmp/ne-wmp-wmpopenstate)
+[**WMPOpenState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpopenstate)
 </dt> <dt>
 
-[**WMPPlayState**](/windows/desktop/api/wmp/ne-wmp-wmpplaystate)
+[**WMPPlayState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpplaystate)
 </dt> </dl>
 
  

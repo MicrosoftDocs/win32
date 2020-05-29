@@ -28,7 +28,7 @@ Retrieves information about a tile in a list-view control.
 </dt> <dd>Must be zero.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to an <a href="/windows/desktop/api/Commctrl/ns-commctrl-taglvtileinfo">**LVTILEINFO**</a> structure that receives the retrieved information.</dd> </dl>
+</dt> <dd>Pointer to an <a href="/windows/win32/api/commctrl/ns-commctrl-lvtileinfo">**LVTILEINFO**</a> structure that receives the retrieved information.</dd> </dl>
 
 ## Return value
 

@@ -50,12 +50,12 @@ As of Direct3D 10, the Direct3D runtime uses [DXGI](https://docs.microsoft.com/w
 
 There are two primary ways to use Direct2D and Direct3D together:
 
--   You can write Direct2D content to a Direct3D surface by obtaining an [**IDXGISurface**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface) and using it with the [**CreateDxgiSurfaceRenderTarget**](/windows/desktop/dd371264(v=vs.85).aspx) to create an [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx). You can then use the render target to add a two-dimensional interface or background to three-dimensional graphics, or use a Direct2D drawing as a texture for a three dimensional object.
+-   You can write Direct2D content to a Direct3D surface by obtaining an [**IDXGISurface**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface) and using it with the [**CreateDxgiSurfaceRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) to create an [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx). You can then use the render target to add a two-dimensional interface or background to three-dimensional graphics, or use a Direct2D drawing as a texture for a three dimensional object.
 -   By using [**CreateSharedBitmap**](https://msdn.microsoft.com/library/Dd371865(v=VS.85).aspx) to create an [**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85).aspx) from an [**IDXGISurface**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface), you can write a Direct3D scene to a bitmap and render it with Direct2D.
 
 ## Writing to a Direct3D Surface with a DXGI Surface Render Target
 
-To write to a Direct3D surface, you obtain an [**IDXGISurface**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface) and pass it to the [**CreateDxgiSurfaceRenderTarget**](/windows/desktop/dd371264(v=vs.85).aspx) method to create a DXGI surface render target. You can then use the DXGI surface render target to draw 2-D content to the DXGI surface.
+To write to a Direct3D surface, you obtain an [**IDXGISurface**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface) and pass it to the [**CreateDxgiSurfaceRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) method to create a DXGI surface render target. You can then use the DXGI surface render target to draw 2-D content to the DXGI surface.
 
 A DXGI surface render target is a kind of [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx). Like other Direct2D render targets, you can use it to create resources and issue drawing commands.
 
@@ -148,7 +148,7 @@ if (FAILED(hr))
 
 ## Writing Direct2D Content to a Swap Chain Buffer
 
-The simplest way to add Direct2D content to a Direct3D scene is to use the [**GetBuffer**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getbuffer) method of an [**IDXGISwapChain**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain) to obtain a DXGI surface, then use the surface with the [**CreateDxgiSurfaceRenderTarget**](/windows/desktop/dd371264(v=vs.85).aspx) method to create an [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx) with which to draw your 2-D content.
+The simplest way to add Direct2D content to a Direct3D scene is to use the [**GetBuffer**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getbuffer) method of an [**IDXGISwapChain**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain) to obtain a DXGI surface, then use the surface with the [**CreateDxgiSurfaceRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) method to create an [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx) with which to draw your 2-D content.
 
 This approach does not render your content in three dimensions; it will not have perspective or depth. However, it is useful for several common tasks:
 
@@ -330,7 +330,7 @@ hr = m_pOffscreenTexture->QueryInterface(&pDxgiSurface);
 
     
 
-3.  Use the surface with the [**CreateDxgiSurfaceRenderTarget**]/windows/desktop/dd371264(v=vs.85).aspx) method to obtain a Direct2D render target.
+3.  Use the surface with the [**CreateDxgiSurfaceRenderTarget**]/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) method to obtain a Direct2D render target.
 
 ```C++
     if (SUCCEEDED(hr))
@@ -384,7 +384,7 @@ To accommodate this approach, your resize method should test to see whether the 
 [Supported Pixel Formats and Alpha Modes](supported-pixel-formats-and-alpha-modes.md)
 </dt> <dt>
 
-[**CreateDxgiSurfaceRenderTarget**](/windows/desktop/dd371264(v=vs.85).aspx)
+[**CreateDxgiSurfaceRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget))
 </dt> <dt>
 
 [Windows DirectX Graphics](https://msdn.microsoft.com/library/ee663279(VS.85).aspx)

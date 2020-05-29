@@ -232,8 +232,8 @@ The [Security and Identity](https://msdn.microsoft.com/library/Gg537265(v=VS.85)
 -   [Directory Services](https://msdn.microsoft.com/library/ms682458(v=VS.85).aspx)
     -   [Active Directory Domain Services](https://msdn.microsoft.com/library/Aa772146(v=VS.85).aspx)
     -   [Active Directory Service Interfaces (ADSI)](https://msdn.microsoft.com/library/Aa772218(v=VS.85).aspx)
--   [Extensible Authentication Protocol (EAP)](https://msdn.microsoft.com/library/Aa363504(v=VS.85).aspx)
--   [Extensible Authentication Protocol Host (EAPHost)](https://msdn.microsoft.com/library/Aa363701(v=VS.85).aspx)
+-   [Extensible Authentication Protocol (EAP)](/windows/win32/eap/extensible-authentication-protocol-reference)
+-   [Extensible Authentication Protocol Host (EAPHost)](/windows/win32/eaphost/about-eap-host)
 -   [MS-CHAP Password Management](https://msdn.microsoft.com/library/ms697865(v=VS.85).aspx)
 -   [Network Access Protection (NAP)](https://msdn.microsoft.com/library/Aa369706(v=VS.85).aspx)
 -   [Network Policy Server Extensions (NPS)](https://msdn.microsoft.com/library/Bb891997(v=VS.85).aspx)
@@ -246,7 +246,7 @@ The [Security and Identity](https://msdn.microsoft.com/library/Gg537265(v=VS.85)
 
 -   [Games Explorer](https://msdn.microsoft.com/library/Ee415251(v=VS.85).aspx)
 -   [Side-by-side Assemblies](https://msdn.microsoft.com/library/Aa376414(v=VS.85).aspx)
--   [Packaging, deployment, and query APIs](https://docs.microsoft.com/windows/desktop/appxpkg/api-reference
+-   [Packaging, deployment, and query APIs](/windows/win32/appxpkg/api-reference
 )
 -   [Developer License](https://msdn.microsoft.com/library/JJ554737(v=VS.85).aspx)
 -   [Restart Manager](https://msdn.microsoft.com/library/Aa373656(v=VS.85).aspx)
@@ -352,7 +352,7 @@ The following are technologies and APIs that are outdated or have been replaced 
 -   [Windows Media Rights Manager](https://docs.microsoft.com/previous-versions//bb614742(v=vs.85))
 -   [Windows Messaging (MAPI)](https://msdn.microsoft.com/library/Dd296730(v=VS.85).aspx): Use [Office MAPI](https://msdn.microsoft.com/library/Cc765775(v=office.12).aspx) instead.
 -   [Windows Multimedia](https://msdn.microsoft.com/library/Dd743606(v=VS.85).aspx)
--   [Windows Gadget Platform](https://msdn.microsoft.com/library/Dd370869(v=VS.85).aspx): Create UWP apps instead.
+-   [Windows Gadget Platform](https://docs.microsoft.com/previous-versions/windows/desktop/gadgetplatform/windows-gadget-platform-portal): Create UWP apps instead.
 -   [Windows Sidebar](https://msdn.microsoft.com/library/Aa965853(v=VS.85).aspx): Create UWP apps instead.
 -   [Windows SideShow](https://msdn.microsoft.com/library/ms744179(v=VS.85).aspx): No replacement.
 -   [WPF Bitmap Effects](https://msdn.microsoft.com/library/ms735322(v=VS.85).aspx)

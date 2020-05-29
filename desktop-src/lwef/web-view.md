@@ -504,7 +504,7 @@ When a user selects an item, the FileList object fires a [SelectionChanged](#ret
 
 
 
-The script uses two FileList properties, [**FileList.FocusedItem**](https://docs.microsoft.com/windows/desktop/shell/shellfolderview-focuseditem)and [**FileList.Folder**](https://docs.microsoft.com/windows/desktop/shell/shellfolderview-folder) to obtain information about the item. **FileList.FocusedItem** identifies the selected item, with the item's name given by **FileList.FocusedItem.Name**. **FileList.Folder** is actually a pointer to a [**Folder**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folder) object. The Folder object's [**GetDetailsOf**](https://docs.microsoft.com/windows/desktop/shell/folder-getdetailsof) method is used to retrieve the remaining information about the item.
+The script uses two FileList properties, [**FileList.FocusedItem**](https://docs.microsoft.com/windows/desktop/shell/shellfolderview-focuseditem)and [**FileList.Folder**](https://docs.microsoft.com/windows/desktop/shell/shellfolderview-folder) to obtain information about the item. **FileList.FocusedItem** identifies the selected item, with the item's name given by **FileList.FocusedItem.Name**. **FileList.Folder** is actually a pointer to a [**Folder**](/windows/win32/shell/folder) object. The Folder object's [**GetDetailsOf**](https://docs.microsoft.com/windows/desktop/shell/folder-getdetailsof) method is used to retrieve the remaining information about the item.
 
 All the information is concatenated into a single text string, separated by <BR> tags for readability. The text is then displayed by assigning it to [TextBlock.innerHTML](https://msdn.microsoft.com/library/ms533897(VS.85).aspx).
 

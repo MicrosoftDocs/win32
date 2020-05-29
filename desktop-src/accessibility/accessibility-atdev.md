@@ -15,6 +15,6 @@ This overview describes how to build assistive technology tools that are compati
 
 - [UI Automation for Win32](https://docs.microsoft.com/windows/desktop/winauto/entry-uiauto-win32)
 - [UI Automation for .NET Framework](https://docs.microsoft.com/dotnet/framework/ui-automation/ui-automation-overview)
-- [Security Considerations for Assistive Technologies](WinAuto/uiauto-securityoverview.md)
+- [Security Considerations for Assistive Technologies](/windows/win32/winauto/uiauto-securityoverview)
 - [Ease of Access Assistive Technology Registration](https://docs.microsoft.com/windows/desktop/winauto/ease-of-access---assistive-technology-registration)
 - [Magnification API](https://docs.microsoft.com/previous-versions/windows/desktop/magapi/entry-magapi-sdk)

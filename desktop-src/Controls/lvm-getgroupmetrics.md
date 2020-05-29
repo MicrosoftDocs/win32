@@ -28,7 +28,7 @@ Gets information about the display of groups.
 </dt> <dd>Must be **NULL**.</dd> <dt>
 
 *lParam* 
-</dt> <dd>A pointer to an <a href="/windows/desktop/api/Commctrl/ns-commctrl-taglvgroupmetrics">**LVGROUPMETRICS**</a> structure that receives the retrieved metrics.</dd> </dl>
+</dt> <dd>A pointer to an <a href="/windows/win32/api/commctrl/ns-commctrl-lvgroupmetrics">**LVGROUPMETRICS**</a> structure that receives the retrieved metrics.</dd> </dl>
 
 ## Return value
 

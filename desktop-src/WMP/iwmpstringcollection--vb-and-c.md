@@ -64,7 +64,7 @@ Get an **IWMPStringCollection** interface by using the following methods.
 
 | Object                                                   | Property                                                                                 |
 |----------------------------------------------------------|------------------------------------------------------------------------------------------|
-| [IWMPMediaCollection](iwmpmediacollection--vb-and-c.md) | [**getAttributeStringCollection**](/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getattributestringcollection) |
+| [IWMPMediaCollection](iwmpmediacollection--vb-and-c.md) | [**getAttributeStringCollection**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getattributestringcollection) |
 
 
 

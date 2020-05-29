@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating Figures from Lines, Curves, and Shapes
 
-To create a path, construct a [**GraphicsPath**](/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath) object, and then call methods, such as [AddLine](https://msdn.microsoft.com/library/ms535543(v=VS.85).aspx) and [AddCurve](https://msdn.microsoft.com/library/ms535541(v=VS.85).aspx), to add primitives to the path.
+To create a path, construct a [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) object, and then call methods, such as [AddLine](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addline(inint_inint_inint_inint)) and [AddCurve](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addcurve(inconstpoint_inint)), to add primitives to the path.
 
 The following example creates a path that has a single arc. The arc has a sweep angle of –180 degrees, which is counterclockwise in the default coordinate system.
 
@@ -66,7 +66,7 @@ graphics.FillPath(&brush, &path);
 
 
 
-The path in the preceding example has three figures. The first figure consists of the two lines, the second figure consists of the rectangle, and the third figure consists of the ellipse. Even when there are no calls to [**GraphicsPath::CloseFigure**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-closefigure) or [**GraphicsPath::StartFigure**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-startfigure), intrinsically closed shapes, such as rectangles and ellipses, are considered separate figures.
+The path in the preceding example has three figures. The first figure consists of the two lines, the second figure consists of the rectangle, and the third figure consists of the ellipse. Even when there are no calls to [**GraphicsPath::CloseFigure**](/windows/win32/api/Gdipluspath/nf-gdipluspath-graphicspath-closefigure) or [**GraphicsPath::StartFigure**](/windows/win32/api/Gdipluspath/nf-gdipluspath-graphicspath-startfigure), intrinsically closed shapes, such as rectangles and ellipses, are considered separate figures.
 
  
 

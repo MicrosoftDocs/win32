@@ -53,7 +53,7 @@ The **IWMPErrorItem2 (VB and C#)** interface does not define any members.
 
 <dl> <dt>
 
-[**IWMPErrorItem**](/windows/desktop/api/wmp/nn-wmp-iwmperroritem)
+[**IWMPErrorItem**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmperroritem)
 </dt> <dt>
 
 [**Interfaces for Visual Basic .NET and C#**](interfaces-for-visual-basic--net-and-c.md)
