@@ -17,7 +17,7 @@ As an alternative to the C++ wrappers, the Microsoft .NET Framework provides a s
 -   [System.Drawing.Imaging](https://docs.microsoft.com/dotnet/api/system.drawing.imaging?view=dotnet-plat-ext-3.1)
 -   [System.Drawing.Text](https://docs.microsoft.com/dotnet/api/system.drawing.text?view=dotnet-plat-ext-3.1)
 
-Both sets of wrappers (C++ and managed code) use an object-oriented approach, so there are some differences between the way parameters are passed to the wrapper methods and the way parameters are passed to functions in the flat API. For example, one of the C++ wrappers is the [**Matrix**](/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) class. Each **Matrix** object has a field, **nativeMatrix**, that points to an internal variable of type **GpMatrix**. When you pass parameters to a method of a **Matrix** object, that method passes those parameters (or a set of related parameters) along to one of the functions in the GDI+ flat API. But that method also passes the **nativeMatrix** field (as an input parameter) to the flat API function. The following code shows how the [**Matrix::Shear**](/windows/desktop/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-shear) method calls the **GdipShearMatrix(GpMatrix \*matrix, REAL shearX, REAL shearY, GpMatrixOrder order)** function.
+Both sets of wrappers (C++ and managed code) use an object-oriented approach, so there are some differences between the way parameters are passed to the wrapper methods and the way parameters are passed to functions in the flat API. For example, one of the C++ wrappers is the [**Matrix**](/windows/win32/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) class. Each **Matrix** object has a field, **nativeMatrix**, that points to an internal variable of type **GpMatrix**. When you pass parameters to a method of a **Matrix** object, that method passes those parameters (or a set of related parameters) along to one of the functions in the GDI+ flat API. But that method also passes the **nativeMatrix** field (as an input parameter) to the flat API function. The following code shows how the [**Matrix::Shear**](/windows/win32/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-shear) method calls the **GdipShearMatrix(GpMatrix \*matrix, REAL shearX, REAL shearY, GpMatrixOrder order)** function.
 
 
 ```
@@ -34,7 +34,7 @@ Status Shear(
 
 
 
-The [**Matrix**](/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) constructors pass the address of a **GpMatrix** pointer variable (as an output parameter) to the **GdipCreateMatrix(GpMatrix \*\*matrix)** function. **GdipCreateMatrix** creates and initializes an internal **GpMatrix** variable and then assigns the address of the **GpMatrix** to the pointer variable. Then the constructor copies the value of the pointer to the **nativeMatrix** field.
+The [**Matrix**](/windows/win32/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) constructors pass the address of a **GpMatrix** pointer variable (as an output parameter) to the **GdipCreateMatrix(GpMatrix \*\*matrix)** function. **GdipCreateMatrix** creates and initializes an internal **GpMatrix** variable and then assigns the address of the **GpMatrix** to the pointer variable. Then the constructor copies the value of the pointer to the **nativeMatrix** field.
 
 
 ```
@@ -53,7 +53,7 @@ VOID SetNativeMatrix(GpMatrix *nativeMatrix)
 
 
 
-Clone methods in the wrapper classes receive no parameters but often pass two parameters to the underlying function in the GDI+ flat API. For example, the [**Matrix::Clone**](/windows/desktop/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-clone) method passes **nativeMatrix** (as an input parameter) and the address of a **GpMatrix** pointer variable (as an output parameter) to the **GdipCloneMatrix** function. The following code shows how the **Matrix::Clone** method calls the **GdipCloneMatrix(GpMatrix \*matrix, GpMatrix \*\*cloneMatrix)** function.
+Clone methods in the wrapper classes receive no parameters but often pass two parameters to the underlying function in the GDI+ flat API. For example, the [**Matrix::Clone**](/windows/win32/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-clone) method passes **nativeMatrix** (as an input parameter) and the address of a **GpMatrix** pointer variable (as an output parameter) to the **GdipCloneMatrix** function. The following code shows how the **Matrix::Clone** method calls the **GdipCloneMatrix(GpMatrix \*matrix, GpMatrix \*\*cloneMatrix)** function.
 
 
 ```
@@ -69,11 +69,11 @@ Matrix *Clone() const
 
 
 
-The functions in the flat API return a value of type GpStatus. The GpStatus enumeration is identical to the [**Status**](/windows/desktop/api/Gdiplustypes/ne-gdiplustypes-status) enumeration used by the wrapper methods. In GdiplusGpStubs.h, GpStatus is defined as follows:
+The functions in the flat API return a value of type GpStatus. The GpStatus enumeration is identical to the [**Status**](/windows/win32/api/Gdiplustypes/ne-gdiplustypes-status) enumeration used by the wrapper methods. In GdiplusGpStubs.h, GpStatus is defined as follows:
 
 `typedef Status GpStatus;`
 
-Most of the methods in the wrapper classes return a status value that indicates whether the method succeeded. However, some of the wrapper methods return state values. When you call a wrapper method that returns a state value, the wrapper method passes the appropriate parameters to the underlying function in the GDI+ flat API. For example, the [**Matrix**](/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) class has an [**Matrix::IsInvertible**](/windows/desktop/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-isinvertible) method that passes the **nativeMatrix** field and and the address of a **BOOL** variable (as an output parameter) to the **GdipIsMatrixInvertible** function. The following code shows how the **Matrix::IsInvertible** method calls the **GdipIsMatrixInvertible(GDIPCONST GpMatrix \*matrix, BOOL \*result)** function.
+Most of the methods in the wrapper classes return a status value that indicates whether the method succeeded. However, some of the wrapper methods return state values. When you call a wrapper method that returns a state value, the wrapper method passes the appropriate parameters to the underlying function in the GDI+ flat API. For example, the [**Matrix**](/windows/win32/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) class has an [**Matrix::IsInvertible**](/windows/win32/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-isinvertible) method that passes the **nativeMatrix** field and and the address of a **BOOL** variable (as an output parameter) to the **GdipIsMatrixInvertible** function. The following code shows how the **Matrix::IsInvertible** method calls the **GdipIsMatrixInvertible(GDIPCONST GpMatrix \*matrix, BOOL \*result)** function.
 
 
 ```
@@ -88,7 +88,7 @@ BOOL IsInvertible() const
 
 
 
-Another one of the wrappers is the [**Color**](/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color) class. A **Color** object has a single field of type **ARGB**, which is defined as a **DWORD**. When you pass a **Color** object to one of the wrapper methods, that method passes the **ARGB** field along to the underlying function in the GDI+ flat API. The following code shows how the [**Pen::SetColor**](/windows/desktop/api/Gdipluspen/nf-gdipluspen-pen-setcolor) method calls the **GdipSetPenColor(GpPen \*pen, ARGB argb)** function. The [**Color::GetValue**](/windows/desktop/api/Gdipluscolor/nf-gdipluscolor-color-getvalue) method returns the value of the **ARGB** field.
+Another one of the wrappers is the [**Color**](/windows/win32/api/gdipluscolor/nl-gdipluscolor-color) class. A **Color** object has a single field of type **ARGB**, which is defined as a **DWORD**. When you pass a **Color** object to one of the wrapper methods, that method passes the **ARGB** field along to the underlying function in the GDI+ flat API. The following code shows how the [**Pen::SetColor**](/windows/win32/api/Gdipluspen/nf-gdipluspen-pen-setcolor) method calls the **GdipSetPenColor(GpPen \*pen, ARGB argb)** function. The [**Color::GetValue**](/windows/win32/api/Gdipluscolor/nf-gdipluscolor-color-getvalue) method returns the value of the **ARGB** field.
 
 
 ```
