@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # IWMPControls2 (VB and C#) interface
 
-Provides a method that supplements the [**IWMPControls**](/windows/desktop/api/wmp/nn-wmp-iwmpcontrols) interface.
+Provides a method that supplements the [**IWMPControls**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcontrols) interface.
 
 ## Members
 
@@ -41,7 +41,7 @@ The **IWMPControls2 (VB and C#)** interface has these methods.
 
  
 
-The following example code shows how to access an [**IWMPControls2**](/windows/desktop/api/wmp/nn-wmp-iwmpcontrols2) interface. The example code casts the [**IWMPControls**](/windows/desktop/api/wmp/nn-wmp-iwmpcontrols) value that the [**AxWindowsMediaPlayer.Ctlcontrols**](axwmplib-axwindowsmediaplayer-ctlcontrols--vb-and-c.md) property returns to a **IWMPControls2** value.
+The following example code shows how to access an [**IWMPControls2**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcontrols2) interface. The example code casts the [**IWMPControls**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcontrols) value that the [**AxWindowsMediaPlayer.Ctlcontrols**](axwmplib-axwindowsmediaplayer-ctlcontrols--vb-and-c.md) property returns to a **IWMPControls2** value.
 
 For **C#**:
 
@@ -76,7 +76,7 @@ Dim Ctlcontrols2 As WMPLib.IWMPControls2 = DirectCast(Ctlcontrols, WMPLib.IWMPCo
 
 <dl> <dt>
 
-[**IWMPControls**](/windows/desktop/api/wmp/nn-wmp-iwmpcontrols)
+[**IWMPControls**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcontrols)
 </dt> <dt>
 
 [**Interfaces for Visual Basic .NET and C#**](interfaces-for-visual-basic--net-and-c.md)

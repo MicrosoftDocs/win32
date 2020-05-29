@@ -48,7 +48,7 @@ Get an **IWMPQuery** interface by using the following method.
 
 | Interface                                                      | Method                                                  |
 |----------------------------------------------------------------|---------------------------------------------------------|
-| [**IWMPMediaCollection2**](iwmpmediacollection2--vb-and-c.md) | [**createQuery**](/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-createquery) |
+| [**IWMPMediaCollection2**](iwmpmediacollection2--vb-and-c.md) | [**createQuery**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-createquery) |
 
 
 

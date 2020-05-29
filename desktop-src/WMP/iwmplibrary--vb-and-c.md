@@ -66,7 +66,7 @@ Get an **IWMPLibrary** interface by using the following method.
 
 | Object                                                   | Property                                                         |
 |----------------------------------------------------------|------------------------------------------------------------------|
-| [IWMPLibraryServices](iwmplibraryservices--vb-and-c.md) | [**getLibraryByType**](/windows/desktop/api/wmp/nf-wmp-iwmplibraryservices-getlibrarybytype) |
+| [IWMPLibraryServices](iwmplibraryservices--vb-and-c.md) | [**getLibraryByType**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibraryservices-getlibrarybytype) |
 
 
 

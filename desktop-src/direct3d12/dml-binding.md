@@ -237,4 +237,4 @@ For interleaving machine learning and rendering workloads, just ensure that each
 
 If you're dealing with a compiled operator (rather than with an operator initializer), then you have the option to specify late binding for the operator. Without late binding, you must set all bindings on the binding table before you record an operator into a command list. With late binding, you can set (or change) bindings on operators that you've already recorded into a command list, before it has been submitted to the command queue.
 
-To specify late binding, call [**IDMLDevice::CompileOperator**](/windows/desktop/api/directml/nf-directml-idmldevice::compileoperator) with a `flags` argument of [**DML_EXECUTION_FLAG_DESCRIPTORS_VOLATILE**](/windows/desktop/api/directml/ne-directml-dml_execution_flags).
+To specify late binding, call [**IDMLDevice::CompileOperator**](/windows/win32/api/directml/nf-directml-idmldevice-compileoperator) with a `flags` argument of [**DML_EXECUTION_FLAG_DESCRIPTORS_VOLATILE**](/windows/desktop/api/directml/ne-directml-dml_execution_flags).

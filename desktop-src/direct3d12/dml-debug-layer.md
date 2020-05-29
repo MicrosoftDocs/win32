@@ -25,7 +25,7 @@ Alternatively, you can install the Graphics Tools package from within Windows 10
 
 ## Enabling the DirectML debug layer
 
-Once the Graphics Tools package is installed, you can enable the DirectML debug layer by supplying  [**DML_CREATE_DEVICE_FLAG_DEBUG**](/windows/desktop/api/directml/ne-directml-dml_create_device_flag) when you call [**DMLCreateDevice**](/windows/desktop/api/directml/nf-directml-dmlcreatedevice.md).
+Once the Graphics Tools package is installed, you can enable the DirectML debug layer by supplying  [**DML_CREATE_DEVICE_FLAG_DEBUG**](/windows/win32/api/directml/ne-directml-dml_create_device_flags) when you call [**DMLCreateDevice**](/windows/win32/api/directml/nf-directml-dmlcreatedevice).
 
 > [!IMPORTANT]
 > You must first enable the Direct3D 12 debug layer. And *then* enable the DirectML debug layer by calling **DMLCreateDevice**.
@@ -38,7 +38,7 @@ DML_OPERATOR_CONVOLUTION: invalid D3D12_HEAP_TYPE. DirectML requires all bound b
 
 ## See also
 
-* [DMLCreateDevice function](/windows/desktop/api/directml/nf-directml-dmlcreatedevice.md)
+* [DMLCreateDevice function](/windows/win32/api/directml/nf-directml-dmlcreatedevice)
 * [Available Features-on-Demand](/windows-hardware/manufacture/desktop/features-on-demand-non-language-fod)
 * [Use GPU-based validation with the Direct3D 12 Debug Layer](/windows/desktop/direct3d12/using-d3d12-debug-layer-gpu-based-validation)
 * [Direct3D 12 Debug Layer reference](/windows/desktop/direct3d12/direct3d-12-sdklayers-reference)
