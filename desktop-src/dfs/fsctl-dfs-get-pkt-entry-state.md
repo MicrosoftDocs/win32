@@ -94,13 +94,13 @@ If *lpOverlapped* is not **NULL**, *lpBytesReturned* can be **NULL**. If this pa
 *lpOverlapped* [in]
 </dt> <dd>
 
-A pointer to an [**OVERLAPPED**](base.overlapped_str.md) structure.
+A pointer to an [**OVERLAPPED**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) structure.
 
 If *hDevice* was opened without specifying **FILE_FLAG_OVERLAPPED**, *lpOverlapped* is ignored.
 
 If *hDevice* was opened with the **FILE_FLAG_OVERLAPPED** flag, the operation is performed as an overlapped (asynchronous) operation. In this case, *lpOverlapped* must point to a valid [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure that contains a handle to an event object. Otherwise, the function fails in unpredictable ways.
 
-For overlapped operations, [**DeviceIoControl**](base.deviceiocontrol.md) returns immediately, and the event object is signaled when the operation has been completed. Otherwise, the function does not return until the operation has been completed or an error occurs.
+For overlapped operations, [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) returns immediately, and the event object is signaled when the operation has been completed. Otherwise, the function does not return until the operation has been completed or an error occurs.
 
 </dd> </dl>
 
@@ -125,5 +125,5 @@ If the operation fails or is pending, [**DeviceIoControl**](https://docs.microso
 [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
 </dt> <dt>
 
-[**NetDfsGetClientInfo**]((/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo))
+[**NetDfsGetClientInfo**](/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo)
 </dt> </dl>

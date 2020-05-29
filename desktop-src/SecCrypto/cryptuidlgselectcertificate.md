@@ -2,6 +2,8 @@
 Description: 'Displays a dialog box that allows a user to select a certificate.'
 ms.assetid: '242c19a7-179b-4fc0-a050-a1b598566a6b'
 title: CryptUIDlgSelectCertificate function
+ms.topic: reference
+ms.date: 05/29/2020
 ---
 
 # CryptUIDlgSelectCertificate function
