@@ -25,11 +25,7 @@ The accessor methods of the **IWMPCore** or **IWMPPlayer** interface are used to
 > [!Note]  
 > All methods and events are fully supported in Windows Media Player 10 Mobile and later unless explicitly stated otherwise.
 
- 
-
 The Windows Media Player control exposes the following interfaces.
-
-
 
 | Interface                                                    | Description                                                                                                                                                                               |
 |--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
