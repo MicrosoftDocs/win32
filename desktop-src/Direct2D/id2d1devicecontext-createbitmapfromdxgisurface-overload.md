@@ -24,7 +24,7 @@ Creates a bitmap from a DXGI surface that can be set as a target surface or have
 
 | Method                                                                                                                                                | Description                                                                                                                                 |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateBitmapFromDxgiSurface (IDXGISurface\*, D2D1\_BITMAP\_PROPERTIES1, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/library/JJ841134(v=VS.85).aspx)  | Creates a bitmap from a DXGI surface that can be set as a target surface or have additional color context information specified.<br/> |
+| [**CreateBitmapFromDxgiSurface (IDXGISurface\*, D2D1\_BITMAP\_PROPERTIES1, ID2D1Bitmap1\*\*)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromdxgisurface(idxgisurface_constd2d1_bitmap_properties1__id2d1bitmap1))  | Creates a bitmap from a DXGI surface that can be set as a target surface or have additional color context information specified.<br/> |
 | [**CreateBitmapFromDxgiSurface (IDXGISurface\*, D2D1\_BITMAP\_PROPERTIES1\*, ID2D1Bitmap1\*\*)**](https://msdn.microsoft.com/library/Hh404482(v=VS.85).aspx) | Creates a bitmap from a DXGI surface that can be set as a target surface or have additional color context information specified.<br/> |
 
 
