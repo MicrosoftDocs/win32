@@ -331,7 +331,7 @@ An XML file that describes available server connections and result formats for a
 
 **OpenSearch standard**
 
-A collection of simple formats and protocols used for sharing search results. For more information, see the OpenSearch website (https://www.opensearch.org/Home).
+A collection of simple formats and protocols used for sharing search results. For more information, see the OpenSearch website (https://github.com/dewitt/opensearch).
 
 ## P
 

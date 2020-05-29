@@ -147,7 +147,7 @@ Systems running these operating systems must have Windows Search installed in or
 ## Additional Resources
 
 -   For information about creating a Shell data source, see [Implementing the Basic Folder Object Interfaces](https://docs.microsoft.com/previous-versions//bb776815(v=vs.85)).
--   For more information about [ISearchFolderItemFactory](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory) and the DB folder data source, see the description of the STR\_PARSE\_WITH\_PROPERTIES constant in [Bind Context String Keys](https://docs.microsoft.com/windows/desktop/shell/str-constants). See also [Association Arrays](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee872122(v=vs.85)) and [IPropertySystem::GetPropertyDescriptionListFromString](https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring).
+-   For more information about [ISearchFolderItemFactory](/windows/win32/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory) and the DB folder data source, see the description of the STR\_PARSE\_WITH\_PROPERTIES constant in [Bind Context String Keys](/windows/win32/shell/str-constants). See also [Association Arrays](https://docs.microsoft.com/previous-versions/windows/win32/legacy/ee872122(v=vs.85)) and [IPropertySystem::GetPropertyDescriptionListFromString](/windows/win32/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring).
 -   For information on OLE DB, see [OLE DB Programming Overview](https://msdn.microsoft.com/library/5d8sd9we.aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](https://msdn.microsoft.com/library/system.data.oledb(VS.71).aspx) documentation.
 -   For an overview of file type handlers (also known as Shell extension handlers and Search handlers), see [Windows Search as a Development Platform](-search-3x-wds-development-ovr.md).
 -   For community-supported message boards about Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://social.msdn.microsoft.com/Forums/en-US/windowsdesktopsearchdevelopment/threads).
@@ -156,7 +156,7 @@ Systems running these operating systems must have Windows Search installed in or
     -   For Windows Vista: [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
 -   To download the Windows SDK:
     -   For Windows 7: [Windows SDK for Windows 7 and .NET Framework](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
-    -   For Windows Vista: [Windows SDK for Windows Vista and .NET Framework](https://www.microsoft.com/downloads/details.aspx?FamilyID=4377f86d-c913-4b5c-b87e-ef72e5b4e065).
+    -   For Windows Vista: [Windows SDK for Windows Vista and .NET Framework](https://www.microsoft.com/download/details.aspx?id=31950).
 
 ## Related topics
 

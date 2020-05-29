@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This example illustrates how to create a URL-based installation of a Windows Installer package. For more information about securing installations and using digital certificates see [Guidelines for Authoring Secure Installations](guidelines-for-authoring-secure-installations.md) and [Digital Signatures and Windows Installer](digital-signatures-and-windows-installer.md).
 
-To reproduce this sample you need the [SignTool](https://docs.microsoft.com/windows/desktop/SecCrypto/signtool) utility. For details, see the [CryptoAPI Tools Reference](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptoapi-tools-reference) in the Microsoft Windows Software Development Kit (SDK). You also need [Msistuff.exe](msistuff-exe.md) and Setup.exe utilities from the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md). For more information, see [Internet Download Bootstrapping](internet-download-bootstrapping.md).
+To reproduce this sample you need the [SignTool](/windows/win32/SecCrypto/signtool) utility. For details, see the [CryptoAPI Tools Reference](/windows/win32/SecCrypto/cryptoapi-tools-reference) in the Microsoft Windows Software Development Kit (SDK). You also need [Msistuff.exe](msistuff-exe.md) and Setup.exe utilities from the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md). For more information, see [Internet Download Bootstrapping](internet-download-bootstrapping.md).
 
 The example has the following specifications:
 

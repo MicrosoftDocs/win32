@@ -68,7 +68,7 @@ Windows SDK
 
 Windows Server 2008
 
-Download link: <https://www.microsoft.com/download/en/confirmation.aspx?id=11310>
+Download link: <https://www.microsoft.com/download/details.aspx?id=5023>
 
 MapName: Yes
 

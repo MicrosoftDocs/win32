@@ -14,7 +14,7 @@ This sample is configured to use Wi-Fi Protected Access security running in Ente
 
 The EAP-TLS credentials are obtained from the certificate store. If authentication based on the credentials in the certificate store fails, the user is prompted to provide valid credentials. No alternate servers, root certificate authorities, or user names are used for authentication if the first attempt fails.
 
-The EAPHost configuration used in this wireless profile sample was derived from the [EAP-TLS Connection Properties](https://msdn.microsoft.com/library/Bb204661(v=VS.85).aspx) sample.
+The EAPHost configuration used in this wireless profile sample was derived from the [EAP-TLS Connection Properties](/windows/win32/eaphost/eap-tls-connection-properties) sample.
 
 **Windows 7 and Windows Server 2008 R2 with the Wireless LAN Service installed:** Changes are implemented on Windows 7 and Windows Server 2008 R2 with the Wireless LAN Service installed to optimize wireless networking performance. The default setting for [**autoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) when this element is not set in a wireless LAN profile has changed. The default setting is changed to "false" on Windows 7 and Windows Server 2008 R2 with the Wireless LAN Service installed. The default setting was "true" on Windows Server 2008 and Windows Vista. Please refer to the [**autoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) schema element description for more information.
 
