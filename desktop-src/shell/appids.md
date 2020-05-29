@@ -46,7 +46,7 @@ The following items describe common scenarios that require an explicit AppUserMo
 
 ## How to Form an Application-Defined AppUserModelID
 
-An application must provide its AppUserModelID in the following form. It can have no more than 128 characters and cannot contain spaces. Each section should be camel-cased.
+An application must provide its AppUserModelID in the following form. It can have no more than 128 characters and cannot contain spaces. Each section should be pascal-cased.
 
 `CompanyName.ProductName.SubProduct.VersionInformation`
 

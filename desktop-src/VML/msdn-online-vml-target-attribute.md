@@ -63,7 +63,7 @@ When the rectangle is clicked, the browser loads the Microsoft Corporation home 
 
 
 
-[Target Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_target.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[Target Attribute Example](https://docs.microsoft.com/previous-versions/bb264096(v%3dvs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

@@ -140,7 +140,7 @@ This section contains information about the programming elements used with butto
 <td>Sent when a button is disabled.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the <a href="bn-disable.md">BN_DISABLE</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
 </tr>
@@ -153,7 +153,7 @@ This notification code is provided only for compatibility with 16-bit versions o
 <td>Sent when the user selects a button.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the <a href="bn-hilite.md">BN_HILITE</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
 </tr>
@@ -166,7 +166,7 @@ This notification code is provided only for compatibility with 16-bit versions o
 <td>Sent when a button should be painted.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the <a href="bn-paint.md">BN_PAINT</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message. <br/></td>
 </tr>
@@ -175,7 +175,7 @@ This notification code is provided only for compatibility with 16-bit versions o
 <td>Sent when the push state of a button is set to pushed.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the <a href="bn-pushed.md">BN_PUSHED</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
 </tr>
@@ -188,7 +188,7 @@ This notification code is provided only for compatibility with 16-bit versions o
 <td>Sent when the highlight should be removed from a button.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the <a href="bn-unhilite.md">BN_UNHILITE</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
 </tr>
@@ -197,7 +197,7 @@ This notification code is provided only for compatibility with 16-bit versions o
 <td>Sent when the push state of a button is set to unpushed.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/desktop/api/Winuser/ns-winuser-tagdrawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> button style and the <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>DRAWITEMSTRUCT</strong></a> structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the <a href="bn-unpushed.md">BN_UNPUSHED</a> notification code through the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> message.<br/></td>
 </tr>

@@ -123,7 +123,7 @@ The current [TextRange](uiauto-implementingtextandtextrange.md) control pattern 
 
 [TextPatternRangeEndpoint](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint)
 
-[ITextRangeProvider::GetChildren](https://review.docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextrangeprovider-getchildren?branch=kbridge-master-textpatternupdates)
+[ITextRangeProvider::GetChildren](/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextrangeprovider-getchildren)
 
 
 

@@ -54,12 +54,12 @@ Here is the declaration for the two macros.
 
 
 ```
-D3D10_SHADER_MACRO Shader_Macros[3] = { "zero", "0", "one", "1.0f", NULL, NULL };
+D3D_SHADER_MACRO Shader_Macros[3] = { "zero", "0", "one", "1.0f", NULL, NULL };
 ```
 
 
 
-The macros are a NULL terminated array of macros; where each macro is defined with a [**D3D10\_SHADER\_MACRO**](https://msdn.microsoft.com/library/Bb172436(v=VS.85).aspx) struct.
+The macros are a NULL terminated array of macros; where each macro is defined with a [**D3D\_SHADER\_MACRO**](/windows/win32/api/d3dcommon/ns-d3dcommon-d3d_shader_macro) struct.
 
 Lastly, modify the compile effect call to take a pointer to the macros.
 

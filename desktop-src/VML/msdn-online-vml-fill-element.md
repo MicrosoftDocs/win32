@@ -70,8 +70,8 @@ The following code shows a simple gradient fill for a shape.
 
 **Examples**
 
--   [Simple Gradient Fill](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/fill/t_fill.md)
--   [Dynamic Fill Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/fill/x_fill.md)
+-   [Simple Gradient Fill](https://docs.microsoft.com/previous-versions/bb229620(v%3dvs.85))
+-   [Dynamic Fill Example](https://docs.microsoft.com/previous-versions/bb229621(v%3dvs.85))
 
  
 

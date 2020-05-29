@@ -27,7 +27,7 @@ Sets the corresponding property by index.
 | [**SetValue(U, const T&)**](https://msdn.microsoft.com/library/JJ151751(v=VS.85).aspx)                                        | Sets the corresponding property by index. This is a template overload.<br/> |
 | [**SetValue(U, const BYTE\*, UINT32)**](https://msdn.microsoft.com/library/JJ151752(v=VS.85).aspx)                            | Sets the corresponding property by index. This is a template overload.<br/> |
 | [**SetValue(UINT32, const BYTE\*, UINT32)**](https://msdn.microsoft.com/library/Hh446885(v=VS.85).aspx)                        | Sets the corresponding property by index.<br/>                              |
-| [**SetValue(UINT32, D2D1\_PROPERTY\_TYPE, const BYTE\*, UINT32)**](https://msdn.microsoft.com/library/JJ151753(v=VS.85).aspx) | Sets the corresponding property by index.<br/>                              |
+| [**SetValue(UINT32, D2D1\_PROPERTY\_TYPE, const BYTE\*, UINT32)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-setvalue(uint32_d2d1_property_type_constbyte_uint32)) | Sets the corresponding property by index.<br/>                              |
 
 
 

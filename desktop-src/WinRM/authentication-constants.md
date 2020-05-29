@@ -119,7 +119,7 @@ The associated scripting method is [**WSMan.SessionFlagUseDigest**](wsman-sessio
 
 Use Negotiate authentication. The client sends a request to the server to authenticate. The server determines whether to use Kerberos or NTLM. Kerberos is selected to authenticate a domain account and NTLM is selected for local computer accounts. The user name should be specified in the form domain\\username for a domain user or servername\\username for a local user on a server computer.
 
-[User Account Control (UAC)](https://technet.microsoft.com/En-US/WindowsVista/aa906022.aspx) affects access to the WinRM service. When Negotiate authentication is used in a workgroup or domain, only the built-in Administrator account can access the service. To allow all accounts in the Administrators group to access the service, set the following registry key to 1: **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\system\\LocalAccountTokenFilterPolicy**.
+[User Account Control (UAC)](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista) affects access to the WinRM service. When Negotiate authentication is used in a workgroup or domain, only the built-in Administrator account can access the service. To allow all accounts in the Administrators group to access the service, set the following registry key to 1: **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\system\\LocalAccountTokenFilterPolicy**.
 
 The associated scripting method is [**WSMan.SessionFlagUseNegotiate**](wsman-sessionflagusenegotiate.md), and the C++ method is [**IWSManEx.SessionFlagUseNegotiate**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusenegotiate).
 

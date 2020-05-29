@@ -32,7 +32,7 @@ There are three separate TraceLogging APIs that target different developer audie
 For WinRT developers:
 
 -   [**LoggingChannel**](https://docs.microsoft.com/uwp/api/Windows.Foundation.Diagnostics.LoggingChannel) has been extended in Windows 10 to log self-describing Event Tracing for Windows (ETW) events without the need for a manifest.
--   [**LoggingActivity**](/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1) has been extended in Windows 10 to provide activity start and stop methods that provide control over the format and contents of the Start and Stop events. Additionally, activities can be nested.
+-   [**LoggingActivity**](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity) has been extended in Windows 10 to provide activity start and stop methods that provide control over the format and contents of the Start and Stop events. Additionally, activities can be nested.
 
 For C/C++ developers:
 

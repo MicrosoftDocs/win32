@@ -53,7 +53,7 @@ A closed square path is defined in the string of the path attribute. An initial 
 
 
 
-[Path Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_path.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[Path Attribute Example](https://docs.microsoft.com/previous-versions/bb264089(v%3dvs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

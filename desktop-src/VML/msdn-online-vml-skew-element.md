@@ -57,7 +57,7 @@ The **Skew** element is a Microsoft Office Extension to VML.
 
 **Examples**
 
--   [Simple Skew Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/skew/t_skew.md)
+-   [Simple Skew Example](https://docs.microsoft.com/previous-versions/bb229482(v%3dvs.85))
 -   [Dynamic Skew Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/skew/x_skew.md)
 
  

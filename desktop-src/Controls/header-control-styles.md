@@ -81,7 +81,7 @@ Comctl32.dll version 6 is not redistributable but it is included in Windows. To 
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="HDS_CHECKBOXES"></span><span id="hds_checkboxes"></span><dl> <dt><strong>HDS_CHECKBOXES</strong></dt> </dl></td>
-<td style="text-align: left;"><a href="common-control-versions.md">Version 6.00 and later</a>. Allows the placing of checkboxes on header items. For more information, see the <strong>fmt</strong> member of <a href="/windows/desktop/api/Commctrl/ns-commctrl-_hd_itema"><strong>HDITEM</strong></a>.<br/></td>
+<td style="text-align: left;"><a href="common-control-versions.md">Version 6.00 and later</a>. Allows the placing of checkboxes on header items. For more information, see the <strong>fmt</strong> member of <a href="/windows/win32/api/commctrl/ns-commctrl-hditema"><strong>HDITEM</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="HDS_NOSIZING"></span><span id="hds_nosizing"></span><dl> <dt><strong>HDS_NOSIZING</strong></dt> </dl></td>

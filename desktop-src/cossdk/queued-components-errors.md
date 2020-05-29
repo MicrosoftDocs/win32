@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Queued Components Errors
 
-When a call to a queued component fails, either because it could not be transmitted to the server (a client-side failure) or because it failed to execute when it arrived (a server-side failure), the corresponding [Message Queuing](_mq_Message_Queuing_MSMQ_Start_Page.md) message is called a *poison message*.
+When a call to a queued component fails, either because it could not be transmitted to the server (a client-side failure) or because it failed to execute when it arrived (a server-side failure), the corresponding [Message Queuing](/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)) message is called a *poison message*.
 
 The COM+ queued components service handles poison messages by using a series of retry queues. After several retries, the message is moved to a final resting queue. Messages stay in the resting queue until they are moved manually by using the queued components message mover utility. For more information about using the message mover, see [Handling Errors](handling-errors-in-queued-components.md).
 
