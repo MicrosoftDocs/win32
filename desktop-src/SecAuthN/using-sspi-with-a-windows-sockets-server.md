@@ -15,7 +15,7 @@ This program includes calls to functions in Secur32.lib and Ws2\_32.lib, which m
 This program demonstrates the following:
 
 -   Establishing a Windows Sockets connection with a client.
--   Initializing an session.
+-   Initializing a session.
 -   Connecting with a client and establishing a secure communication session. The server here offers the Negotiate SSP which can respond to the client with either NTLM or Kerberos.
 -   Uses client impersonation and reverting to self.
 -   Sends the client an encrypted message.
