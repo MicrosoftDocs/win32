@@ -471,11 +471,11 @@ Lockless algorithms are not guaranteed to be faster than algorithms that use loc
 ## References
 
 -   MSDN Library. "[**volatile (C++)**](https://msdn.microsoft.com/library/12a04hfd(v=VS.71).aspx)." C++ Language Reference.
--   Vance Morrison. "[Understand the Impact of Low-Lock Techniques in Multithreaded Apps](https://docs.microsoft.com/archive/msdn-magazine/2005/october/understanding-low-lock-techniques-in-multithreaded-apps)." MSDN Magazine, October 2005.
+-   Vance Morrison. "[Understand the Impact of Low-Lock Techniques in Multithreaded Apps](https://msdn.microsoft.com/magazine/msdn-magazine-issues)." MSDN Magazine, October 2005.
 -   Lyons, Michael. "[PowerPC Storage Model and AIX Programming](https://www-128.ibm.com/developerworks/eserver/articles/powerpc.mdl)." IBM developerWorks, 16 Nov 2005.
 -   McKenney, Paul E. "[Memory Ordering in Modern Microprocessors, Part II](https://www.linuxjournal.com/article/8212)." Linux Journal, September 2005. \[This article has some x86 details.\]
--   Intel Corporation. "[Intel® 64 Architecture Memory Ordering](https://developer.intel.com/products/processor/manuals/index.md)." August 2007. \[Applies to both IA-32 and Intel 64 processors.\]
--   Niebler, Eric. "[Trip Report: Ad-Hoc Meeting on Threads in C++](https://www.artima.com/cppsource/threads_meeting.html)." The C++ Source, 17 Oct 2006.
+-   Intel Corporation. "[Intel® 64 Architecture Memory Ordering](http://www.cs.cmu.edu/~410-f10/doc/Intel_Reordering_318147.pdf)." August 2007. \[Applies to both IA-32 and Intel 64 processors.\]
+-   Niebler, Eric. "[Trip Report: Ad-Hoc Meeting on Threads in C++](https://www.artima.com/cppsource/threads_meeting.mdl)." The C++ Source, 17 Oct 2006.
 -   Hart, Thomas E. 2006. "[Making Lockless Synchronization Fast: Performance Implications of Memory Reclamation](https://www.cs.toronto.edu/~tomhart/papers/hart_ipdps06.pdf)." Proceedings of the 2006 International Parallel and Distributed Processing Symposium (IPDPS 2006), Rhodes Island, Greece, April 2006.
 
  
