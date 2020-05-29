@@ -307,7 +307,7 @@ Generally, [**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85
 
 When you use the [**ID2D1RenderTarget::CreateSharedBitmap**](https://msdn.microsoft.com/library/Dd371865(v=VS.85).aspx) method, you use the **pixelFormat** field of a [**D2D1\_BITMAP\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_bitmap_properties) structure to specify the pixel format of the new render target. It must match the pixel format of the [**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85).aspx) source.
 
-When you use the [**CreateBitmapFromWicBitmap**](https://msdn.microsoft.com/library/Dd371797(v=VS.85).aspx) method, you use the **pixelFormat** field of a [**D2D1\_BITMAP\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_bitmap_properties) structure (instead of the **pixelFormat** member of a [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure) to specify the pixel format of the new render target. It must match the pixel format of the WIC bitmap source.
+When you use the [**CreateBitmapFromWicBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties__id2d1bitmap)) method, you use the **pixelFormat** field of a [**D2D1\_BITMAP\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_bitmap_properties) structure (instead of the **pixelFormat** member of a [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure) to specify the pixel format of the new render target. It must match the pixel format of the WIC bitmap source.
 
 > [!Note]  
 > For more information about support for block compressed (BCₙ) pixel formats, see [Block compression](block-compression.md).
@@ -316,7 +316,7 @@ When you use the [**CreateBitmapFromWicBitmap**](https://msdn.microsoft.com/libr
 
 ### Supported WIC Formats
 
-When you use the [**CreateBitmapFromWicBitmap**](https://msdn.microsoft.com/library/Dd371797(v=VS.85).aspx) method to create a bitmap from a WIC bitmap, or when you use the [**CreateSharedBitmap**](https://msdn.microsoft.com/library/Dd371865(v=VS.85).aspx) method with an [**IWICBitmapLock**](https://msdn.microsoft.com/library/Ee690161(v=VS.85).aspx), the WIC source must be in a format supported by Direct2D.
+When you use the [**CreateBitmapFromWicBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties__id2d1bitmap)) method to create a bitmap from a WIC bitmap, or when you use the [**CreateSharedBitmap**](https://msdn.microsoft.com/library/Dd371865(v=VS.85).aspx) method with an [**IWICBitmapLock**](https://msdn.microsoft.com/library/Ee690161(v=VS.85).aspx), the WIC source must be in a format supported by Direct2D.
 
 
 
