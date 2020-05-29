@@ -63,11 +63,11 @@ The list specified by the *List* and *ListEnd* parameters is inserted at the fro
 
 ### List [in, out]
 
-Pointer to an [SLIST_ENTRY](/windows/desktop/api/winnt/ns-winnt-_list_entry) structure that represents the first item in the list to be inserted.
+Pointer to an [SLIST_ENTRY](/windows/win32/api/winnt/ns-winnt-slist_entry) structure that represents the first item in the list to be inserted.
 
 ### ListEnd [in, out]
 
-Pointer to an [SLIST_ENTRY](/windows/desktop/api/winnt/ns-winnt-_list_entry) structure that represents the last item in the list to be inserted.
+Pointer to an [SLIST_ENTRY](/windows/win32/api/winnt/ns-winnt-slist_entry) structure that represents the last item in the list to be inserted.
 
 ### Count [in]
 
@@ -98,6 +98,6 @@ When compiling with **NTDDI_VERSION** set to **NTDDI_WIN8** or greater, calls to
 
 [InterlockedFlushSList](/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedflushslist)
 
-[SLIST_ENTRY](/windows/desktop/api/winnt/ns-winnt-_list_entry)
+[SLIST_ENTRY](/windows/win32/api/winnt/ns-winnt-slist_entry)
 
 [Using Singly Linked Lists](/windows/desktop/Sync/using-singly-linked-lists)

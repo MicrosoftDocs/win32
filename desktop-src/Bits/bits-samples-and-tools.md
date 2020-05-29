@@ -23,7 +23,7 @@ The following section contains step-by-step C++ examples for Background Intellig
 In addition, BITS includes the following samples in Windows SDK. The samples are located under *InstallDirectory*\\Samples\\Web. Each sample includes a Readme.txt file that explains how to install and run the sample. You can download the Windows SDK from [Microsoft Windows Software Development Kit](https://msdn.microsoft.com/windowsserver/bb980924.aspx). BITS is included in the Core SDK.
 
 > [!Note]  
-> Windows Vista: The samples on this page are included in the [Microsoft Windows SDK for Windows Vista](https://www.microsoft.com/downloads/details.aspx?FamilyID=c2b1e300-f358-4523-b479-f53d234cdccf&DisplayLang=en). However, the ClientCert sample is not included.
+> Windows Vista: The samples on this page are included in the [Microsoft Windows SDK for Windows Vista](https://www.microsoft.com/download/details.aspx?id=30998). However, the ClientCert sample is not included.
 
  
 

@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 TraceLogging provides the following classes that provide support for logging Event Tracing for Windows (ETW) events during an activity:
 
--   [**TraceLoggingActivity**](/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1)
--   [**TraceLoggingThreadActivity**](/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity~r1)
+-   [**TraceLoggingActivity**](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity)
+-   [**TraceLoggingThreadActivity**](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity)
 -   [**TraceLoggingThreadActivityIdSetter**](/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter)
 
 ## Related topics

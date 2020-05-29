@@ -70,7 +70,7 @@ The right margin is set to 25 pixels.
 
 
 
-[Margin-Right Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_marrig.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[Margin-Right Attribute Example](https://docs.microsoft.com/previous-versions/bb229677(v%3dvs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

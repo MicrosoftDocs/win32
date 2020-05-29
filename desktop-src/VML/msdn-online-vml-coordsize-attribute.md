@@ -59,7 +59,7 @@ The shape is 100 points high and 100 points wide, but each horizontal and vertic
 
 
 
-[CoordSize Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_corsiz.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[CoordSize Attribute Example](https://docs.microsoft.com/previous-versions/bb229665(v%3dvs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

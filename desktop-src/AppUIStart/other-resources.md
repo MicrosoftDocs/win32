@@ -132,7 +132,7 @@ Promotes the discovery and exchange of knowledge concerning the characteristics 
 
 </dd> <dt>
 
-<span id="Usability_Professionals_Association"></span><span id="usability_professionals_association"></span><span id="USABILITY_PROFESSIONALS_ASSOCIATION"></span>[Usability Professionals Association](http://www.upassoc.org/)
+<span id="Usability_Professionals_Association"></span><span id="usability_professionals_association"></span><span id="USABILITY_PROFESSIONALS_ASSOCIATION"></span>[Usability Professionals Association](https://uxpa.org/)
 </dt> <dd>
 
 The UPA supports people who research, design, and evaluate the user experience of products and services.

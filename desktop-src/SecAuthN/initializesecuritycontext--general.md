@@ -148,7 +148,7 @@ When using the Schannel SSP, if the ISC\_REQ\_ALLOCATE\_MEMORY flag is specified
 *pfContextAttr* \[out\]
 </dt> <dd>
 
-A pointer to a variable to receive a set of bit flags that indicate the [*attributes*](https://docs.microsoft.com/windows/win32/secgloss/a-gly#-security-attribute-gly) of the established context. For a description of the various attributes, see [Context Requirements](context-requirements.md).
+A pointer to a variable to receive a set of bit flags that indicate the [*attributes*](https://docs.microsoft.com/windows/win32/secgloss/a-gly#_security_attribute_gly) of the established context. For a description of the various attributes, see [Context Requirements](context-requirements.md).
 
 Flags used for this parameter are prefixed with ISC\_RET, such as ISC\_RET\_DELEGATE. For a list of valid values, see the *fContextReq* parameter.
 

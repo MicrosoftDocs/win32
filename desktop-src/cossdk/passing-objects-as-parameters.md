@@ -13,7 +13,7 @@ The COM+ queued components service does not enable queuing for every existing CO
 -   They must contain input parameters only.
 -   They must return no application-specific result.
 
-Additionally, there are restrictions on the types of input parameters that can be passed to a queued component. At run time, the queued components service packages the arguments at the client and passes them to the server component by using [Message Queuing](_mq_Message_Queuing_MSMQ_Start_Page.md). Simple types, such as integers and Booleans, can be marshaled easily—more complex types cannot be marshaled without help.
+Additionally, there are restrictions on the types of input parameters that can be passed to a queued component. At run time, the queued components service packages the arguments at the client and passes them to the server component by using [Message Queuing](/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)). Simple types, such as integers and Booleans, can be marshaled easily—more complex types cannot be marshaled without help.
 
 In the case of passing an object through a queued component's method call as a parameter, the client passes the object to the recorder. The recorder marshals the object into a Message Queuing message and passes it to the listener. After the listener picks up the message and passes it to the player, the player must reinstantiate the object to dispatch it to the method call specified by the client. Based on the lifetimes of the client and server in a queued environment, the implication is that these objects must be able to marshal by value. Because COM+ does not provide pass-by-value semantics for standard COM objects, the recorder and player need help from the component to marshal and unmarshal the object.
 

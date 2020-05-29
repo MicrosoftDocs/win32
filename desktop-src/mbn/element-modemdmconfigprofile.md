@@ -81,7 +81,7 @@ None.
 </tr>
 <tr class="odd">
 <td><a href="element-1-name.md">Name</a></td>
-<td><p>The name of the profile. For more information, see the documentation for the v1 <a href="../mbn/schema_name_mbnprofile_element.md"><strong>Name</strong></a> element.</p></td>
+<td><p>The name of the profile. For more information, see the documentation for the v1 <a href="../mbn/schema-name-mbnprofile-element.md"><strong>Name</strong></a> element.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-oemconnectionid.md">OemConnectionId</a></td>
@@ -98,7 +98,7 @@ None.
 </tr>
 <tr class="odd">
 <td><a href="element-1-simiccid.md">SimIccID</a></td>
-<td><p>The SIM Identifcation number for GSM devices. For more details , see the documentation for the v1 <a href="../mbn/schema_simiccid_mbnprofile_element.md"><strong>SimIccID</strong></a> element.</p></td>
+<td><p>The SIM Identifcation number for GSM devices. For more details , see the documentation for the v1 <a href="../mbn/schema-simiccid-mbnprofile-element.md"><strong>SimIccID</strong></a> element.</p></td>
 </tr>
 </tbody>
 </table>

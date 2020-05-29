@@ -53,7 +53,7 @@ The shape path is stroked.
 
 
 
-[Stroked Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_strokd.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[Stroked Attribute Example](https://docs.microsoft.com/previous-versions/bb264094(v%3dvs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

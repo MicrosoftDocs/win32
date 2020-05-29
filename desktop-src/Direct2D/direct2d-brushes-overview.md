@@ -39,7 +39,7 @@ A brush "paints" an area with its output. Different brushes have different types
 
  
 
-All brushes inherit from [**ID2D1Brush**](https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush) and share a set of common features (setting and getting opacity, and transforming brushes); they are created by [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx) and are device-dependent resources: your application should create brushes after it initializes the render target with which the brushes will be used, and recreate the brushes whenever the render target needs recreated. (For more information about resources, see [Resources Overview](resources-and-resource-domains.md).)
+All brushes inherit from [**ID2D1Brush**](/windows/win32/api/d2d1/nn-d2d1-id2d1brush) and share a set of common features (setting and getting opacity, and transforming brushes); they are created by [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx) and are device-dependent resources: your application should create brushes after it initializes the render target with which the brushes will be used, and recreate the brushes whenever the render target needs recreated. (For more information about resources, see [Resources Overview](resources-and-resource-domains.md).)
 
 The following illustration shows examples of each of the different brush types.
 
@@ -148,7 +148,11 @@ Unlike other brushes, creating an [**ID2D1SolidColorBrush**](https://msdn.micros
 
 ## Using Linear Gradient Brushes
 
+<<<<<<< HEAD
 An [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx) paints an area with a linear gradient defined along a line, the gradient axis. You specify the gradient's colors and their location along the gradient axis using [**ID2D1GradientStop**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx) objects. You may also modify the gradient axis, which enables you to create horizontal and vertical gradient and to reverse the gradient direction. To create a linear gradient brush, call the [**ID2D1RenderTarget::CreateLinearGradientBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createlineargradientbrush(constd2d1_linear_gradient_brush_properties__id2d1gradientstopcollection_id2d1lineargradientbrush)) method.
+=======
+An [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx) paints an area with a linear gradient defined along a line, the gradient axis. You specify the gradient's colors and their location along the gradient axis using [**ID2D1GradientStop**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx) objects. You may also modify the gradient axis, which enables you to create horizontal and vertical gradient and to reverse the gradient direction. To create a linear gradient brush, call the [**ID2D1RenderTarget::CreateLinearGradientBrush**](/windows/win32/dd371845(v=vs.85).aspx) method.
+>>>>>>> be77ed1f97d3be57a2f42070589de21b66034adf
 
 The following illustration shows a square that is painted with an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx) that has two predefined colors, "Yellow" and "ForestGreen".
 
@@ -156,9 +160,9 @@ The following illustration shows a square that is painted with an [**ID2D1Linear
 
 To create the gradient shown in the preceding illustration, complete these steps:
 
-1.  Declare two [**D2D1\_GRADIENT\_STOP**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop) objects. Each gradient stop specifies a color and a position. A position of 0.0 indicates the beginning of the gradient, while a position of 1.0 indicates the end of the gradient.
+1.  Declare two [**D2D1\_GRADIENT\_STOP**](/windows/win32/api/d2d1/ns-d2d1-d2d1_gradient_stop) objects. Each gradient stop specifies a color and a position. A position of 0.0 indicates the beginning of the gradient, while a position of 1.0 indicates the end of the gradient.
 
-    The following code creates an array of two [**D2D1\_GRADIENT\_STOP**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop) objects. The first stop specifies the color "Yellow" at a position 0, and the second stop specifies the color "ForestGreen" at position 1.
+    The following code creates an array of two [**D2D1\_GRADIENT\_STOP**](/windows/win32/api/d2d1/ns-d2d1-d2d1_gradient_stop) objects. The first stop specifies the color "Yellow" at a position 0, and the second stop specifies the color "ForestGreen" at position 1.
 
 ```C++
     // Create an array of gradient stops to put in the gradient stop
@@ -174,7 +178,7 @@ To create the gradient shown in the preceding illustration, complete these steps
 
     
 
-2.  Create an [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx). The following example calls [**CreateGradientStopCollection**](https://msdn.microsoft.com/library/Dd742781(v=VS.85).aspx), passing in the array of [**D2D1\_GRADIENT\_STOP**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop) objects, the number of gradient stops (2), [**D2D1\_GAMMA\_2\_2**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_gamma) for interpolation, and [**D2D1\_EXTEND\_MODE\_CLAMP**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode) for the extend mode.
+2.  Create an [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx). The following example calls [**CreateGradientStopCollection**](https://msdn.microsoft.com/library/Dd742781(v=VS.85).aspx), passing in the array of [**D2D1\_GRADIENT\_STOP**](/windows/win32/api/d2d1/ns-d2d1-d2d1_gradient_stop) objects, the number of gradient stops (2), [**D2D1\_GAMMA\_2\_2**](/windows/win32/api/d2d1/ne-d2d1-d2d1_gamma) for interpolation, and [**D2D1\_EXTEND\_MODE\_CLAMP**](/windows/win32/api/d2d1/ne-d2d1-d2d1_extend_mode) for the extend mode.
 
 ```C++
     // Create the ID2D1GradientStopCollection from a previously
@@ -190,7 +194,7 @@ To create the gradient shown in the preceding illustration, complete these steps
 
     
 
-3.  Create the [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx). The next example calls the [**CreateLinearGradientBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createlineargradientbrush(constd2d1_linear_gradient_brush_properties__id2d1gradientstopcollection_id2d1lineargradientbrush)) method and passes it the linear gradient brush properties that contain the start point at (0, 0) and the end point at (150, 150), and the gradient stops created in the previous step.
+3.  Create the [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx). The next example calls the [**CreateLinearGradientBrush**](/windows/win32/dd371845(v=vs.85).aspx) method and passes it the linear gradient brush properties that contain the start point at (0, 0) and the end point at (150, 150), and the gradient stops created in the previous step.
 ```C++
     // The line that determines the direction of the gradient starts at
     // the upper-left corner of the square and ends at the lower-right corner.
@@ -218,7 +222,7 @@ To create the gradient shown in the preceding illustration, complete these steps
 
 ## More About Gradient Stops
 
-The [**D2D1\_GRADIENT\_STOP**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop) is the basic building block of a gradient brush. A gradient stop specifies the color and the position along the gradient axis. The value of the gradient position ranges between 0.0 and 1.0. The closer it is to 0.0, the closer the color is to the start of the gradient; the closer it is to 1.0, the closer the color is to the end of the gradient.
+The [**D2D1\_GRADIENT\_STOP**](/windows/win32/api/d2d1/ns-d2d1-d2d1_gradient_stop) is the basic building block of a gradient brush. A gradient stop specifies the color and the position along the gradient axis. The value of the gradient position ranges between 0.0 and 1.0. The closer it is to 0.0, the closer the color is to the start of the gradient; the closer it is to 1.0, the closer the color is to the end of the gradient.
 
 The following illustration highlights the gradient stops. The circle marks the position of gradient stops and a dashed line shows the gradient axis.
 
@@ -228,7 +232,7 @@ The first gradient stop specifies the color yellow at a position of 0.0. The sec
 
 ## The Gradient Axis
 
-As mentioned previously, gradient stops of a linear gradient brush are positioned along a line, the gradient axis. You can specify the orientation and size of the line using the **startPoint** and **endPoint** fields of the [**D2D1\_LINEAR\_GRADIENT\_BRUSH\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_linear_gradient_brush_properties) structure when you create a linear gradient brush. After you've created a brush, you can adjust the gradient axis by calling the brush's [**SetStartPoint**](https://msdn.microsoft.com/library/Dd371505(v=VS.85).aspx) and [**SetEndPoint**](https://msdn.microsoft.com/library/Dd371501(v=VS.85).aspx) methods. By manipulating the brush's start point and end point, you can create horizontal and vertical gradients, reverse the gradient direction, and more.
+As mentioned previously, gradient stops of a linear gradient brush are positioned along a line, the gradient axis. You can specify the orientation and size of the line using the **startPoint** and **endPoint** fields of the [**D2D1\_LINEAR\_GRADIENT\_BRUSH\_PROPERTIES**](/windows/win32/api/d2d1/ns-d2d1-d2d1_linear_gradient_brush_properties) structure when you create a linear gradient brush. After you've created a brush, you can adjust the gradient axis by calling the brush's [**SetStartPoint**](https://msdn.microsoft.com/library/Dd371505(v=VS.85).aspx) and [**SetEndPoint**](https://msdn.microsoft.com/library/Dd371501(v=VS.85).aspx) methods. By manipulating the brush's start point and end point, you can create horizontal and vertical gradients, reverse the gradient direction, and more.
 
 For example, in the following illustration, the start point is set to (0,0) and the end point to (150, 50); this creates a diagonal gradient that starts at the upper-left corner and extends to the lower-right corner of the area being painted. When you set the start point to (0, 25) and the end point to (150, 25), a horizontal gradient is created. Similarly, setting the start point to (75, 0) and the end point to (75, 50) creates a vertical gradient. Setting the start point to (0, 50) and the end point to (150, 0) creates a diagonal gradient that starts at the lower-left corner and extends to the upper-right corner of the area being painted.
 
@@ -270,7 +274,7 @@ hr = m_pRenderTarget->CreateGradientStopCollection(
 
 
 
-To create an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/library/Dd371529(v=VS.85).aspx), use the [**ID2D1RenderTarget::CreateRadialGradientBrush**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createradialgradientbrush) method. The **CreateRadialGradientBrush** takes three parameters. The first parameter, a [**D2D1\_RADIAL\_GRADIENT\_BRUSH\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_radial_gradient_brush_properties) specifies the center, gradient origin offset, and the horizontal and vertical radii of the gradient. The second parameter is an [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx) that describes the colors and their positions in the gradient, and the third parameter is the address of the pointer that receive the new **ID2D1RadialGradientBrush** reference. Some overloads take an additional parameter, a [**D2D1\_BRUSH\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_brush_properties) structure that specifies an opacity value and a transform to apply to the new brush.
+To create an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/library/Dd371529(v=VS.85).aspx), use the [**ID2D1RenderTarget::CreateRadialGradientBrush**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createradialgradientbrush) method. The **CreateRadialGradientBrush** takes three parameters. The first parameter, a [**D2D1\_RADIAL\_GRADIENT\_BRUSH\_PROPERTIES**](/windows/win32/api/d2d1/ns-d2d1-d2d1_radial_gradient_brush_properties) specifies the center, gradient origin offset, and the horizontal and vertical radii of the gradient. The second parameter is an [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx) that describes the colors and their positions in the gradient, and the third parameter is the address of the pointer that receive the new **ID2D1RadialGradientBrush** reference. Some overloads take an additional parameter, a [**D2D1\_BRUSH\_PROPERTIES**](/windows/win32/api/d2d1/ns-d2d1-d2d1_brush_properties) structure that specifies an opacity value and a transform to apply to the new brush.
 
 The next example calls [**CreateRadialGradientBrush**](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createradialgradientbrush), passing in the array of gradient stops, and the radial gradient brush properties that have the *center* value set to (75, 75), the *gradientOriginOffset* set to (0, 0), and *radiusX* and *radiusY* both set to 75.
 
@@ -339,7 +343,7 @@ if (SUCCEEDED(hr))
 
 
 
-To create the bitmap brush, call the [**ID2D1RenderTarget::CreateBitmapBrush**](id2d1rendertarget-createbitmapbrush.md) method and specify the [**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85).aspx) with which to paint. The method returns an **HRESULT** and an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx) object. Some **CreateBitmapBrush** overloads enable you to specify additional options by accepting a [**D2D1\_BRUSH\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_brush_properties) and a [**D2D1\_BITMAP\_BRUSH\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_bitmap_brush_properties) structure.
+To create the bitmap brush, call the [**ID2D1RenderTarget::CreateBitmapBrush**](id2d1rendertarget-createbitmapbrush.md) method and specify the [**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85).aspx) with which to paint. The method returns an **HRESULT** and an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx) object. Some **CreateBitmapBrush** overloads enable you to specify additional options by accepting a [**D2D1\_BRUSH\_PROPERTIES**](/windows/win32/api/d2d1/ns-d2d1-d2d1_brush_properties) and a [**D2D1\_BITMAP\_BRUSH\_PROPERTIES**](/windows/win32/api/d2d1/ns-d2d1-d2d1_bitmap_brush_properties) structure.
 
 
 ```C++
@@ -369,13 +373,13 @@ Sometimes, the gradient of a gradient brush or the bitmap for a bitmap brush doe
 
 -   When this happens for an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx), Direct2D uses the brush's horizontal ([**SetExtendModeX**](https://msdn.microsoft.com/library/Dd371139(v=VS.85).aspx)) and vertical ([**SetExtendModeY**](https://msdn.microsoft.com/library/Dd371142(v=VS.85).aspx)) extend mode settings to determine how to fill the remaining area.
 
--   When this happens for a gradient brush, Direct2D determines how to fill the remaining area by using the value of the [**D2D1\_EXTEND\_MODE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode) parameter that you specified when you called the [**CreateGradientStopCollection**](https://msdn.microsoft.com/library/Dd742781(v=VS.85).aspx) to create the gradient brush's [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx).
+-   When this happens for a gradient brush, Direct2D determines how to fill the remaining area by using the value of the [**D2D1\_EXTEND\_MODE**](/windows/win32/api/d2d1/ne-d2d1-d2d1_extend_mode) parameter that you specified when you called the [**CreateGradientStopCollection**](https://msdn.microsoft.com/library/Dd742781(v=VS.85).aspx) to create the gradient brush's [**ID2D1GradientStopCollection**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx).
 
-The following illustration shows the results from every possible combination of the extend modes for an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx): [**D2D1\_EXTEND\_MODE\_CLAMP**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode) (CLAMP), **D2D1\_EXTEND\_MODE\_WRAP** (WRAP), and **D2D1\_EXTEND\_MIRROR** (MIRROR).
+The following illustration shows the results from every possible combination of the extend modes for an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx): [**D2D1\_EXTEND\_MODE\_CLAMP**](/windows/win32/api/d2d1/ne-d2d1-d2d1_extend_mode) (CLAMP), **D2D1\_EXTEND\_MODE\_WRAP** (WRAP), and **D2D1\_EXTEND\_MIRROR** (MIRROR).
 
 ![illustration of an original image and the resulting images from various extend modes](images/bitmapwrap-clamp-mirror.png)
 
-The following example shows how to set the bitmap brush's x- and y-extend modes to [**D2D1\_EXTEND\_MIRROR**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode). It then paints the rectangle with the [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx).
+The following example shows how to set the bitmap brush's x- and y-extend modes to [**D2D1\_EXTEND\_MIRROR**](/windows/win32/api/d2d1/ne-d2d1-d2d1_extend_mode). It then paints the rectangle with the [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx).
 
 
 ```C++
@@ -397,7 +401,7 @@ When you paint with a brush, it paints in the coordinate space of the render tar
 
 You can "move" the gradient defined by an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx) to a target area by setting its start point and end point. Likewise, you can move the gradient defined by an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/library/Dd371529(v=VS.85).aspx) by changing its center and radii.
 
-To align the content of an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx) to the area being painted, you can use the [**SetTransform**](https://msdn.microsoft.com/library/Dd742690(v=VS.85).aspx) method to translate the bitmap to the desired location. This transform only affects the brush; it does not affect any other content drawn by the render target.
+To align the content of an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx) to the area being painted, you can use the [**SetTransform**](/windows/win32/api/d2d1/nf-d2d1-id2d1brush-settransform(constd2d1_matrix_3x2_f)) method to translate the bitmap to the desired location. This transform only affects the brush; it does not affect any other content drawn by the render target.
 
 The following illustrations shows the effect of using an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx) to fill a rectangle located at (100, 100). The illustration on the left illustration shows the result of filling the rectangle without transforming the brush: the bitmap is drawn at the render target's origin. As a result, only a portion of the bitmap appears in the rectangle. The illustration on the right shows the result of transforming the **ID2D1BitmapBrush** so that its content is shifted 50 pixels to the right and 50 pixels down. The bitmap now fills the rectangle.
 

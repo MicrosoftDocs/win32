@@ -70,7 +70,7 @@ The bottom margin is set to 25 pixels.
 
 
 
-[Margin-Bottom Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_marbot.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[Margin-Bottom Attribute Example](https://docs.microsoft.com/previous-versions/bb229675(v%3dvs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

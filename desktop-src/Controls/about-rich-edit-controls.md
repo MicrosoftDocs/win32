@@ -351,7 +351,7 @@ Microsoft Rich Edit 4.1 includes the following features in addition to the featu
 </tr>
 <tr class="odd">
 <td>Restricting input to ANSI text</td>
-<td>Using <a href="/windows/desktop/api/Richedit/ne-richedit-tagtextmode"><strong>TM_SINGLECODEPAGE</strong></a> in <a href="em-settextmode.md"><strong>EM_SETTEXTMODE</strong></a> prevents Unicode input from entering a Rich Edit control.</td>
+<td>Using <a href="/windows/win32/api/richedit/ne-richedit-textmode"><strong>TM_SINGLECODEPAGE</strong></a> in <a href="em-settextmode.md"><strong>EM_SETTEXTMODE</strong></a> prevents Unicode input from entering a Rich Edit control.</td>
 </tr>
 <tr class="even">
 <td>Unsupported RTF keyword notification</td>
