@@ -64,7 +64,7 @@ The following new device metadata items can be set by calling [**IWMPSyncDevice2
 
 ## New Enumeration Member
 
-The [**WMPSyncState**](https://docs.microsoft.com/windows/desktop/api/wmp/ne-wmp-wmpsyncstate) enumeration has the following new member.
+The [**WMPSyncState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpsyncstate) enumeration has the following new member.
 
 -   **wmpssEstimating**
 

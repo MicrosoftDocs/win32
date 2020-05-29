@@ -12,7 +12,7 @@ To change a connection's attributes, such as the cipher suite or client authenti
 
 If the attributes you want to change are controlled by credentials, you must obtain new credentials before you renegotiate the connection. For more information, see [Obtaining Schannel Credentials](obtaining-schannel-credentials.md).
 
-To request a redo from a client application, call the [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schanel.md) function. Server applications call the [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md) function. Set the parameters as follows:
+To request a redo from a client application, call the [**InitializeSecurityContext (Schannel)**](/windows/win32/secauthn/initializesecuritycontext--schannel) function. Server applications call the [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md) function. Set the parameters as follows:
 
 -   Specify the existing [*security context*](/windows/win32/secgloss/s-gly#_SECURITY_SECURITY_CONTEXT_GLY) in the *phContext* parameter.
 -   (Clients only) Specify the same server name (in the *pszTargetName* parameter) as specified when establishing the context.
@@ -21,7 +21,7 @@ To request a redo from a client application, call the [**InitializeSecurityConte
 
 After calling the appropriate function, your application should send the results to the client and continue processing incoming messages using the [**DecryptMessage (Schannel)**](decryptmessage--schannel.md) function.
 
-The [**DecryptMessage (Schannel)**](decryptmessage--schannel.md) function will return SEC\_I\_RENEGOTIATE when Schannel is ready for your application to proceed. When you receive the SEC\_I\_RENEGOTIATE return code, your application must call [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md) (servers) or [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schanel.md) (clients), and pass the contents of SECBUFFER_EXTRA returned from DecryptMessage in the SECBUFFER_TOKEN. After this call returns a value, proceed as though your application were creating a new connection.
+The [**DecryptMessage (Schannel)**](decryptmessage--schannel.md) function will return SEC\_I\_RENEGOTIATE when Schannel is ready for your application to proceed. When you receive the SEC\_I\_RENEGOTIATE return code, your application must call [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md) (servers) or [**InitializeSecurityContext (Schannel)**](/windows/win32/secauthn/initializesecuritycontext--schannel) (clients), and pass the contents of SECBUFFER_EXTRA returned from DecryptMessage in the SECBUFFER_TOKEN. After this call returns a value, proceed as though your application were creating a new connection.
 
  
 

@@ -18,10 +18,10 @@ The WM ASF Reader filter also exposes several Windows Media Format SDK interface
 
 | Interface                                             | How exposed                                 | Comments                                                                                                                       |
 |-------------------------------------------------------|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| [**IWMDRMReader**](https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader)             | Through **IServiceProvider** on the filter. | Provided for applications that need to play content protected by Digital Rights Management (DRM)..                             |
-| [**IWMHeaderInfo**](https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)           | **QueryInterface** on the filter.           | Provided so that applications can read file and content attributes, as well as marker and script information and metadata.     |
-| [**IWMReaderAdvanced**](https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced)   | **QueryInterface** on the filter.           | Partially implemented on the filter so that applications can access the informational methods on the WM Reader object.         |
-| [**IWMReaderAdvanced2**](https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) | **QueryInterface** on the filter.           | Partially implemented on the filter so that applications can access the informational methods on the Format SDK Reader Object. |
+| [**IWMDRMReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader)             | Through **IServiceProvider** on the filter. | Provided for applications that need to play content protected by Digital Rights Management (DRM)..                             |
+| [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)           | **QueryInterface** on the filter.           | Provided so that applications can read file and content attributes, as well as marker and script information and metadata.     |
+| [**IWMReaderAdvanced**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced)   | **QueryInterface** on the filter.           | Partially implemented on the filter so that applications can access the informational methods on the WM Reader object.         |
+| [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) | **QueryInterface** on the filter.           | Partially implemented on the filter so that applications can access the informational methods on the Format SDK Reader Object. |
 
 
 
