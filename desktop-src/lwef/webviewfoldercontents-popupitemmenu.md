@@ -44,7 +44,7 @@ retVal = WebViewFolderContents.PopupItemMenu(
 
 Type: **Variant**
 
-The [**FolderItem**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitem) object for which the shortcut menu will be created.
+The [**FolderItem**](/windows/win32/shell/folderitem) object for which the shortcut menu will be created.
 
 </dd> <dt>
 

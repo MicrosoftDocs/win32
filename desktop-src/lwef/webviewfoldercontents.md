@@ -54,7 +54,7 @@ The **WebViewFolderContents** object has these methods.
 | Method                                                       | Description                                                                                                          |
 |:-------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------|
 | [**PopupItemMenu**](webviewfoldercontents-popupitemmenu.md) | Creates a shortcut menu for the specified item and returns the selected command string.<br/>                   |
-| [**SelectedItems**](webviewfoldercontents-selecteditems.md) | Gets a [**FolderItems**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitems) object that represents all of the selected items in the view.<br/> |
+| [**SelectedItems**](webviewfoldercontents-selecteditems.md) | Gets a [**FolderItems**](/windows/win32/shell/folderitems) object that represents all of the selected items in the view.<br/> |
 | [**SelectItem**](webviewfoldercontents-selectitem.md)       | Sets the selection state of an item in the view.<br/>                                                          |
 
 
@@ -70,8 +70,8 @@ The **WebViewFolderContents** object has these properties.
 | Property                                                            | Access type          | Description                                                                                                                              |
 |:--------------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
 | [**Application**](webviewfoldercontents-application.md)<br/> | Read-only<br/> | Not implemented.<br/>                                                                                                              |
-| [**FocusedItem**](webviewfoldercontents-focuseditem.md)<br/> | Read-only<br/> | Gets a [**FolderItem**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitem) object that represents the item that has the input focus.<br/>                           |
-| [**Folder**](webviewfoldercontents-folder.md)<br/>           | Read-only<br/> | Gets a [**Folder**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folder) object that represents the view.<br/>                                                            |
+| [**FocusedItem**](webviewfoldercontents-focuseditem.md)<br/> | Read-only<br/> | Gets a [**FolderItem**](/windows/win32/shell/folderitem) object that represents the item that has the input focus.<br/>                           |
+| [**Folder**](webviewfoldercontents-folder.md)<br/>           | Read-only<br/> | Gets a [**Folder**](/windows/win32/shell/folder) object that represents the view.<br/>                                                            |
 | [**Parent**](webviewfoldercontents-parent.md)<br/>           | Read-only<br/> | Not implemented.<br/>                                                                                                              |
 | [**Script**](webviewfoldercontents-script.md)<br/>           | Read-only<br/> | Gets the scripting object for the view.<br/>                                                                                       |
 | [**ViewOptions**](webviewfoldercontents-viewoptions.md)<br/> | Read-only<br/> | Gets a set of [**ShellFolderViewOptions**](https://docs.microsoft.com/windows/desktop/api/shldisp/ne-shldisp-shellfolderviewoptions) flags that indicate the current options of the view.<br/> |

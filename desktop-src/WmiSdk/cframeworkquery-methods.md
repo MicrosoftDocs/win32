@@ -19,7 +19,7 @@ The [**CFrameworkQuery**](/windows/desktop/api/FrQuery/nl-frquery-cframeworkquer
 -   [**GetQuery method**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getquery)
 -   [**GetQueryClassName method**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getqueryclassname)
 -   [**GetRequiredProperties method**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getrequiredproperties)
--   [**GetValuesForProp methods**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getvaluesforprop)
+-   [**GetValuesForProp methods**](/windows/win32/WmiSdk/cframeworkquery-getvaluesforprop)
 -   [**IsPropertyRequired method**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-ispropertyrequired)
 -   [**KeysOnly method**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-keysonly)
 

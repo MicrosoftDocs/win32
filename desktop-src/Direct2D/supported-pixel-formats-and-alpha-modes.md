@@ -204,7 +204,7 @@ The [DXGI\_FORMAT\_UNKNOWN](https://msdn.microsoft.com/library/bb173059(VS.85).a
 
 ## Supported Formats for DXGI Surface Render Target
 
-A DXGI render target is an [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx) that is created by one of the [**ID2D1Factory::CreateDxgiSurfaceRenderTarget**](https://msdn.microsoft.com/library/Dd371264(v=VS.85).aspx) methods. It supports the following format and alpha mode combinations.
+A DXGI render target is an [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx) that is created by one of the [**ID2D1Factory::CreateDxgiSurfaceRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) methods. It supports the following format and alpha mode combinations.
 
 
 

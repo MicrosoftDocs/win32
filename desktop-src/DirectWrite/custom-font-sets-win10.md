@@ -57,7 +57,7 @@ This topic focuses on functionality provided by the following APIs: 
 -   [**IDWriteFontFile**](https://msdn.microsoft.com/library/Dd371060(v=VS.85).aspx) interface
 -   [**IDWriteFactory::CreateFontFileReference**](https://msdn.microsoft.com/library/Dd368197(v=VS.85).aspx) method 
 -   [**IDWriteFactory::CreateCustomFontFileReference**](https://msdn.microsoft.com/library/Dd368188(v=VS.85).aspx) method 
--   [**IDWriteFactory3::CreateFontFaceReference**](/windows/win32/api/dwrite_3/nf-dwrite_3-createfontfacereference) methods 
+-   [**IDWriteFactory3::CreateFontFaceReference**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-createfontfacereference) methods 
 -   [**DWRITE\_FONT\_PROPERTY**](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_property) structure 
 -   [**DWRITE\_FONT\_PROPERTY\_ID**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_property_id) enumeration 
 -   [**IDWriteFontFileLoader**](https://msdn.microsoft.com/library/Dd371075(v=VS.85).aspx) interface 

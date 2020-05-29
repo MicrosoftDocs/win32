@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # WebViewFolderContents.FocusedItem property
 
-Gets a [**FolderItem**](https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-folderitem) object that represents the item that has the input focus.
+Gets a [**FolderItem**](/windows/win32/shell/folderitem) object that represents the item that has the input focus.
 
 This property is read-only.
 
