@@ -124,7 +124,7 @@ It is important that customers are not artificially blocked from installing or r
 
 </dl>
 
-## 8. Apps don t load services or drivers in safe mode
+## 8. Apps don't load services or drivers in safe mode
 
 Safe mode allows users to diagnose and troubleshoot Windows. Drivers and services must not be set to load in safe mode unless they are needed for basic system operations of such as storage device drivers or for diagnostic and recovery purposes, such as anti-virus scanners,. By default, when Windows is in safe mode, it starts only the drivers and services that came preinstalled with Windows.
 
