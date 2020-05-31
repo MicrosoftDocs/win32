@@ -297,7 +297,7 @@ To install this writer on the server, you must install the File Services role an
 
 The writer name string for this writer is "MSSearch Service Writer".
 
-The writer ID for the MSSearch service writer is CD3F2362-8BEF-46C7-9181-D62844CDC062.
+The writer ID for the MSSearch service writer is CD3F2362-8BEF-46C7-9181-D62844CDC0B2.
 
 ## NPS VSS Writer
 
