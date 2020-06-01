@@ -1392,9 +1392,9 @@
         - name: "TASK_LOGON_TYPE"
           href: /windows/win32/api/taskschd/ne-taskschd-task_logon_type
         - name: "TASK_PROCESSTOKENSID_TYPE"
-          href: /windows/desktop/api/taskschd/ne-taskschd-_task_processtokensid
+          href: /windows/win32/api/taskschd/ne-taskschd-task_processtokensid_type
         - name: "TASK_RUNLEVEL_TYPE"
-          href: /windows/desktop/api/taskschd/ne-taskschd-_task_runlevel
+          href: /windows/win32/api/taskschd/ne-taskschd-task_runlevel_type
         - name: "TASK_RUN_FLAGS"
           href: /windows/win32/api/taskschd/ne-taskschd-task_run_flags
         - name: "TASK_SESSION_STATE_CHANGE_TYPE"
