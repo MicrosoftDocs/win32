@@ -36,23 +36,23 @@ When you implement the user interface for an application, consider the following
 
 -   Command structure
 
-    Determine whether to implement a traditional command structure based on menus and toolbars, or an alternative command structure based on the Windows Ribbon Framework. For more information, see [Menus](https://docs.microsoft.com/windows/desktop/menurc/menus), [Toolbars](https://docs.microsoft.com/windows/desktop/Controls/toolbar-control-reference), and [Windows Ribbon Framework](https://msdn.microsoft.com/library/Dd371191(v=VS.85).aspx).
+    Determine whether to implement a traditional command structure based on menus and toolbars, or an alternative command structure based on the Windows Ribbon Framework. For more information, see [Menus](/windows/win32/menurc/menus), [Toolbars](/windows/win32/Controls/toolbar-control-reference), and [Windows Ribbon Framework](https://msdn.microsoft.com/library/Dd371191(v=VS.85).aspx).
 
 -   Windows and dialog boxes
 
-    Based on the UI design and prototyping work, implement the application windows, including the main window, child windows, dialog boxes, and message boxes. Follow the UX Guidelines to determine which styles and controls to use in the windows and dialog boxes. For more information, see [Windows](https://docs.microsoft.com/windows/desktop/winmsg/windows), [Dialog Boxes](https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes), and [Windows Controls](https://docs.microsoft.com/windows/desktop/Controls/window-controls).
+    Based on the UI design and prototyping work, implement the application windows, including the main window, child windows, dialog boxes, and message boxes. Follow the UX Guidelines to determine which styles and controls to use in the windows and dialog boxes. For more information, see [Windows](/windows/win32/winmsg/windows), [Dialog Boxes](/windows/win32/dlgbox/dialog-boxes), and [Windows Controls](/windows/win32/Controls/window-controls).
 
 -   Custom controls
 
-    Create new custom controls only if you cannot get the functionality that you want from one of the standard Windows controls. New custom controls are very costly to develop and require additional work to make them accessible. If your application requires custom controls, make sure that they are adequately exposed to assistive technologies. For more information, see [Custom Controls](https://docs.microsoft.com/windows/desktop/Controls/user-controls-intro) and [Windows Automation API](https://docs.microsoft.com/windows/desktop/WinAuto/windows-automation-api-portal).
+    Create new custom controls only if you cannot get the functionality that you want from one of the standard Windows controls. New custom controls are very costly to develop and require additional work to make them accessible. If your application requires custom controls, make sure that they are adequately exposed to assistive technologies. For more information, see [Custom Controls](/windows/win32/Controls/user-controls-intro) and [Windows Automation API](/windows/win32/WinAuto/windows-automation-api-portal).
 
 -   Support for standard user input devices
 
-    Most Windows applications need to support user input through the keyboard and mouse. The ability to navigate and access all application functionality through the keyboard alone is especially important for users who are vision-impaired or have mobility issues. For more information, see [User Input](https://docs.microsoft.com/windows/desktop/inputdev/user-input) and the [Engineering Software for Accessibility eBook](https://www.microsoft.com/downloads/details.aspx?FamilyID=6e71a995-45e0-4170-8ac2-c1c0e635548d&displaylang=en).
+    Most Windows applications need to support user input through the keyboard and mouse. The ability to navigate and access all application functionality through the keyboard alone is especially important for users who are vision-impaired or have mobility issues. For more information, see [User Input](/windows/win32/inputdev/user-input) and the [Engineering Software for Accessibility eBook](https://www.microsoft.com/download/details.aspx?id=19262).
 
 -   Visual styles, animations, and visual effects
 
-    Windows includes several technologies that you can use to add visual interest and set the UI apart from that of other applications. These include specifying the visual styles of controls, adding animations to UI elements, and implementing various visual effects in the UI. For more information, see [Visual Styles](https://docs.microsoft.com/windows/desktop/Controls/themes-overview), [Windows Animation Manager](https://docs.microsoft.com/windows/desktop/UIAnimation/-main-portal), and [Desktop Window Manager](https://docs.microsoft.com/windows/desktop/dwm/dwm-overview).
+    Windows includes several technologies that you can use to add visual interest and set the UI apart from that of other applications. These include specifying the visual styles of controls, adding animations to UI elements, and implementing various visual effects in the UI. For more information, see [Visual Styles](/windows/win32/Controls/themes-overview), [Windows Animation Manager](/windows/win32/UIAnimation/-main-portal), and [Desktop Window Manager](/windows/win32/dwm/dwm-overview).
 
 ## Simplify
 
