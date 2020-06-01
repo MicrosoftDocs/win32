@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 Windows Deployment Services (WDS) is a suite of components that enable the deployment of Windows operating systems, particularly Windows Vista and later and Windows Server 2008 and later. You can use it to set up new computers using network-based installations.
 
-OEMs, system builders, and corporate IT professionals looking for information on how to deploy Windows onto new computers, should see the information about the standard WDS solution in the [Windows Deployment Services Update Step-by-Step Guide](https://technet.microsoft.com/library/cc766320.aspx) and the [Windows Automated Installation Kit (WAIK)](https://www.microsoft.com/downloads/details.aspx?FamilyID=c7d4bc6d-15f3-4284-9123-679830d629f2&DisplayLang=en).
+OEMs, system builders, and corporate IT professionals looking for information on how to deploy Windows onto new computers, should see the information about the standard WDS solution in the [Windows Deployment Services Update Step-by-Step Guide](https://technet.microsoft.com/library/cc766320.aspx) and the [Windows Automated Installation Kit (WAIK)](https://www.microsoft.com/download/details.aspx?id=10333).
 
 In environments where the standard WDS solution cannot be used, the WDS API enables programmatic access to some WDS components.
 

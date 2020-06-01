@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Windows Virtual PC
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/win32/HyperV_v2/windows-virtualization-portal).\]
 
 ## Purpose
 
@@ -29,7 +29,7 @@ The Windows Virtual PC COM interfaces are for developers who are creating client
 
 Windows Virtual PC requires one of the following Windows 7 editions - Home Basic, Home Premium, Professional, Ultimate, or Enterprise edition.
 
-To obtain the related header and library files, install the Windows SDK for Windows 7 from the [Microsoft Download Center](https://www.microsoft.com/downloads/details.aspx?FamilyID=c17ba869-9671-4330-a63e-1fd44e0e2505).
+To obtain the related header and library files, install the Windows SDK for Windows 7 from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=8279).
 
 ## In this section
 
