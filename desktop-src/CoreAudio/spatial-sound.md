@@ -12,6 +12,8 @@ Windows Sonic is Microsoft’s platform-level solution for spatial sound support
 
 Spatial sound with Windows Sonic supports TVs, home theaters, and sound bars that support Dolby Atmos. Spatial sound can also be used with any pair of headphones the consumer may own, with audio rendered by the platform using Windows Sonic for Headphones or Dolby Atmos for Headphones.
 
+> [!NOTE] > This documentation is targeted for a developer audience. For end-user support for enabling spatial sound on your device, see [How to turn on spatial sound in Windows 10](https://support.microsoft.com/en-us/help/4563140/how-to-turn-on-spatial-sound-in-windows-10).
+
 ## Enabling Windows Sonic
 
 Whether as a developer or a consumer, a user must enable Windows Sonic on their device in order to hear spatialized sound.
