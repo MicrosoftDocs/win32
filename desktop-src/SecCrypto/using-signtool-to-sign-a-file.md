@@ -23,7 +23,7 @@ _SignTool sign /f***MyCert***.pfx /p***MyPassword* **MyControl.exe_
 
 The following command signs and time stamps the file:
 
-_SignTool sign /f***MyCert***.pfx /t http://timestamp.digicert.com MyControl.exe_
+_SignTool sign /f***MyCert***.pfx /t https[]()://timestamp.digicert.com MyControl.exe_
 
 > [!Note]  
 > For information about time stamping a file after it has already been signed, see [Adding Time Stamps to Previously Signed Files](adding-time-stamps-to-previously-signed-files.md).

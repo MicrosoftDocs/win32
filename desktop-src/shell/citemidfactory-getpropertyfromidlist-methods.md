@@ -18,7 +18,7 @@ Returns a property from the [**IPropertyStore**](properties.IPropertyStore.md) w
 |:------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289341(v=VS.85).aspx)     | Gets a property from the [**IPropertyStore**](properties.IPropertyStore.md) within the IDList as a variant, using the key.<br/>            |
 | [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289344(v=VS.85).aspx)    | Gets a property from the [**IPropertyStore**](properties.IPropertyStore.md) within the IDList as a variant, using the named property.<br/> |
-| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289342(v=VS.85).aspx)  | Gets a property from the [**IPropertyStore**](properties.IPropertyStore.md) within the IDList, using the key.<br/>                         |
+| [**GetPropertyFromIDList**]/windows/win32/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_pcwstr_propvariant))  | Gets a property from the [**IPropertyStore**](properties.IPropertyStore.md) within the IDList, using the key.<br/>                         |
 | [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289345(v=VS.85).aspx) | Gets a property from the [**IPropertyStore**](properties.IPropertyStore.md) within the IDList, using the named property.<br/>              |
 
 
