@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # App Support for OpenXPS Printing
 
-OpenXPS is the Open XML Paper Specification format for documents, and it’s based on the European Carton Makers Association (ECMA) standard specification.
+OpenXPS is the Open XML Paper Specification format for documents, and it’s based on the European Computer Manufacturers Association  (ECMA) standard specification.
 
 Windows 8 provides full support for OpenXPS printing via the v4 print driver model, side-by-side with continued support for the Microsoft XPS format. And this topic focuses on the portion of this support that is relevant to Windows application developers. For information about driver requirements for OpenXPS support, see [Driver Support for OpenXPS](https://docs.microsoft.com/windows-hardware/drivers/print/printer-driver-overview).
 
