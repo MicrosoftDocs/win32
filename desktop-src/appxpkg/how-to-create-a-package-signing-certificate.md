@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # How to create an app package signing certificate
 
 > [!IMPORTANT]
-> MakeCert.exe is deprecated. For current guidance on creating a certificate, see [Create a certificate for package signing](https://docs.microsoft.com/windows/msix/package/create-certificate-package-signing?redirectedfrom=MSDN).
+> MakeCert.exe is deprecated. For current guidance on creating a certificate, see [Create a certificate for package signing](https://docs.microsoft.com/windows/msix/package/create-certificate-package-signing).
 
  
 
@@ -151,7 +151,7 @@ By adding a certificate to [local machine certificate stores](https://docs.micro
 **Samples**
 </dt> <dt>
 
-[Create app package sample](https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-Create-48062876)
+[Create app package sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingCreateAppx)
 </dt> <dt>
 
 **Concepts**

@@ -12,40 +12,15 @@ topic_type:
 
 ---
 
-# Shell SDK Samples
+# Shell Samples
 
-This section describes the individual Shell samples included in the Windows Software Development Kit (SDK) and, in most cases, downloadable from the [MSDN Code Gallery](https://code.msdn.microsoft.com/).
+This section describes the Shell samples available on [GitHub](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell).
 
--   [Windows SDK Locations](#windows-sdk-locations)
--   [MSDN Code Gallery Locations](#msdn-code-gallery-locations)
--   [Shell Samples](#shell-samples)
-
-## Windows SDK Locations
-
-When you download and install the Windows 7 SDK, samples are included in that installation. Use of the default SDK installation path results in the samples being placed under `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\`. Using the default installation path, the Shell samples listed below are found in the following folders:
-
--   C:\\Program Files\\Microsoft SDKs\\Windows\\v7.0\\Samples\\WinUI\\Shell\\AppPlatform
--   C:\\Program Files\\Microsoft SDKs\\Windows\\v7.0\\Samples\\WinUI\\Shell\\AppShellIntegration
--   C:\\Program Files\\Microsoft SDKs\\Windows\\v7.0\\Samples\\WinUI\\Shell\\LegacySamples
--   C:\\Program Files\\Microsoft SDKs\\Windows\\v7.0\\Samples\\WinUI\\Shell\\ShellExtensibility
-
-## MSDN Code Gallery Locations
-
-Shell samples can also be individually downloaded through the [MSDN Code Gallery](https://code.msdn.microsoft.com/). Most Shell samples listed below can be found on the following pages:
-
--   [Windows Shell Application Samples on Code Gallery](https://code.msdn.microsoft.com/shellapplication)
--   [Windows Shell Extensibility Samples on Code Gallery](https://code.msdn.microsoft.com/shellextensibility)
--   [Windows Shell Integration Samples on Code Gallery](https://code.msdn.microsoft.com/shellintegration)
-
-## Shell Samples
-
-
-
-| Topic                                                                                                         | Contents                                                                                                                                                                                                                      |
-|---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Aero Wizards Sample](samples-aerowizards.md)                                                                | Demonstrates how to migrate Wizard 97 software to the Aero Wizard.                                                                                                                                                            |
-| [Application User Model ID (AppUserModelID) Window Property Sample](samples-appusermodelidwindowproperty.md) | Demonstrates how to control the taskbar grouping behavior of an application's windows through the [System.AppUserModel.ID](https://msdn.microsoft.com/library/Dd391569(v=VS.85).aspx) property.                                                 |
-| [Automatic Jump List Sample](samples-automaticjumplist.md)                                                   | Demonstrates how to add items to the automatic Jump List for an application, including switching between the display of the Frequent and Recent categories.                                                                   |
+| Topic           | Contents                    |
+|-------------|-----------------------|
+| [Aero Wizards Sample](samples-aerowizards.md)                                                                | Demonstrates how to migrate Wizard 97 software to the Aero Wizard.    |
+| [Application User Model ID (AppUserModelID) Window Property Sample](samples-appusermodelidwindowproperty.md) | Demonstrates how to control the taskbar grouping behavior of an application's windows through the [System.AppUserModel.ID](https://msdn.microsoft.com/library/Dd391569(v=VS.85).aspx) property.                   |
+| [Automatic Jump List Sample](samples-automaticjumplist.md)              | Demonstrates how to add items to the automatic Jump List for an application, including switching between the display of the Frequent and Recent categories.                                                                   |
 | [Change Notify Watcher Sample](samples-changenotifywatcher.md)                                               | Demonstrates how to listen to Shell change notifications on a folder or item in the Windows Explorer namespace.                                                                                                               |
 | [Common File Dialog Modes Sample](samples-commonfiledialogmodes.md)                                          | Demonstrates how to use the Common File Dialog in different modes to pick files, containers (folders) or both files and folders (basket mode) without dismissing the dialog.                                                  |
 | [Common File Dialog Sample](samples-commonfiledialog.md)                                                     | Demonstrates how to create a custom file open/save dialog by using different Common File Dialog APIs.                                                                                                                         |

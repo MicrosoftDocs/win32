@@ -3022,14 +3022,3 @@
         href: /windows/desktop/api/Shobjidl_core/ne-shobjidl_core-sync_transfer_status
   - name: "Property System Code Samples"
     href: property-system-code-samples.md
-    items: 
-    - name: "Ideal Property Handler Sample"
-      href: samples-idealpropertyhandler.md
-    - name: "Playlist Property Handler Sample"
-      href: samples-playlistpropertyhandler.md
-    - name: "Property Edit Sample"
-      href: samples-propertyedit.md
-    - name: "Property Schema Sample"
-      href: samples-propertyschema.md
-    - name: "Recipe Property Handler Sample"
-      href: samples-recipepropertyhandlersample.md

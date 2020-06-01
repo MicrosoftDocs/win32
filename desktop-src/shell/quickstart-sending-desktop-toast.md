@@ -34,7 +34,7 @@ This quickstart shows how to raise a toast notification from a desktop app.
  
 
 
-```CSharp
+```csharp
 // Get a toast XML template
 XmlDocument toastXml = ToastNotificationManager.GetTemplateContent(ToastTemplateType.ToastImageAndText04);
 
@@ -59,7 +59,7 @@ ToastNotification toast = new ToastNotification(toastXml);
 Register handlers for the toast events: Activated, Dismissed, and Failed. A desktop app must at least subscribe to the Activated event so that it can handle the expected activation of the app from the toast when the user selects it.
 
 
-```CSharp
+```csharp
 toast.Activated += ToastActivated;
 toast.Dismissed += ToastDismissed;
 toast.Failed += ToastFailed;
@@ -75,7 +75,7 @@ toast.Failed += ToastFailed;
  
 
 
-```CSharp
+```csharp
 ToastNotificationManager.CreateToastNotifier(appID).Show(toast);
 ```
 
@@ -85,19 +85,14 @@ ToastNotificationManager.CreateToastNotifier(appID).Show(toast);
 
 Bring your app's window to the foreground if it receives an "activated" callback from the toast notification. When a user selects a toast, the expectation is that the app will be launched to a view related to the content of that toast..
 
-## Summary and next steps
-
 ## Related topics
 
 <dl> <dt>
 
-[Sending toast notifications from desktop apps sample](https://code.msdn.microsoft.com/windowsdesktop/sending-toast-notifications-71e230a2)
+[Sending toast notifications from desktop apps sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DesktopToasts)
 </dt> <dt>
 
 [How to enable desktop toast notifications through an AppUserModelID](enable-desktop-toast-with-appusermodelid.md)
-</dt> <dt>
-
-[Toast notifications sample](https://code.msdn.microsoft.com/windowsapps/toast-notifications-sample-52eeba29)
 </dt> <dt>
 
 [Toast XML schema](https://msdn.microsoft.com/library/BR230849(v=Win.10).aspx)
@@ -113,12 +108,6 @@ Bring your app's window to the foreground if it receives an "activated" callback
 </dt> <dt>
 
 [Guidelines and checklist for toast notifications](https://msdn.microsoft.com/library/Hh465391(v=Win.10).aspx)
-</dt> <dt>
-
-[How to add images to a toast template](https://msdn.microsoft.com/library/Hh761480(v=Win.10).aspx)
-</dt> <dt>
-
-[How to check toast notification settings](https://msdn.microsoft.com/library/Hh761466(v=Win.10).aspx)
 </dt> <dt>
 
 [How to choose and use a toast template](https://msdn.microsoft.com/library/Hh465448(v=Win.10).aspx)

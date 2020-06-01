@@ -117,7 +117,7 @@ The contents of the Windows Search SDK documentation are as follows:
 
 -   [Windows Search Code Samples](-search-samples-ovw.md)
 
-    Lists and describes briefly the Search API code samples that are provided in the Windows 7 SDK. Most samples can be downloaded from [MSDN Code Gallery](https://code.msdn.microsoft.com/). All samples are included in the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+    Describes the Search API code samples that are available.
 
 -   [Federated Search in Windows](-search-federated-search-overview.md)
 
@@ -151,12 +151,7 @@ Systems running these operating systems must have Windows Search installed in or
 -   For information on OLE DB, see [OLE DB Programming Overview](https://msdn.microsoft.com/library/5d8sd9we.aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](https://msdn.microsoft.com/library/system.data.oledb(VS.71).aspx) documentation.
 -   For an overview of file type handlers (also known as Shell extension handlers and Search handlers), see [Windows Search as a Development Platform](-search-3x-wds-development-ovr.md).
 -   For community-supported message boards about Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://social.msdn.microsoft.com/Forums/en-US/windowsdesktopsearchdevelopment/threads).
--   To download the Search SDK Code Samples:
-    -   For Windows 7: [Windows Search Samples on Code Gallery](https://code.msdn.microsoft.com/windowssearch).
-    -   For Windows Vista: [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
--   To download the Windows SDK:
-    -   For Windows 7: [Windows SDK for Windows 7 and .NET Framework](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
-    -   For Windows Vista: [Windows SDK for Windows Vista and .NET Framework](https://www.microsoft.com/download/details.aspx?id=31950).
+-   For related code samples, see [Windows Search Code Samples](-search-samples-ovw.md).
 
 ## Related topics
 

@@ -12,29 +12,17 @@ These samples demonstrate the packaging, deployment, and query APIs for Windows 
 
 ## Packaging API samples
 
-The following are sample desktop apps:
-
--   [Create app package sample (CreateAppx)](https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-Create-48062876)
--   [Extract app package contents sample (ExtractAppx)](https://code.msdn.microsoft.com/windowsdesktop/Appx-Package-Extraction-b0f5d164)
--   [Query app package and app manifest sample (DescribeAppx)](https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92)
+-   [Create app package sample (CreateAppx)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingCreateAppx)
+-   [Extract app package contents sample (ExtractAppx)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingExtractAppx)
+-   [Query app package and app manifest sample (DescribeAppx)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingDescribeAppx)
 
 ## Package deployment API samples
 
-The following are sample desktop apps:
-
--   [Add app package sample (AddPackage)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Deployment-f4a89ec0)
--   [Enumerate app packages sample (FindPackages)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-ee821079)
--   [Enumerate app packages by name and publisher sample (FindPackagesByNameAndPublisher)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-fe747b8a)
--   [Enumerate app packages by user SID sample (FindPackagesByUserSecurityId)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-5bee970a)
--   [Remove app package sample (RemovePackage)](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Deployment-ae818077)
-
-## Package query samples
-
-The following is a sample app that uses the Windows Runtime query API:
-
--   [App package information sample (Package)](https://code.msdn.microsoft.com/windowsapps/Package-sample-46e239fa)
-
-The sample code for the Win32 [query API](functions.md) isn't available for download at this time, but is included in the documentation.
+-   [Add app package sample (AddPackage)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerAddPackage)
+-   [Enumerate app packages sample (FindPackages)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackages)
+-   [Enumerate app packages by name and publisher sample (FindPackagesByNameAndPublisher)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByNameAndPublisher)
+-   [Enumerate app packages by user SID sample (FindPackagesByUserSecurityId)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByUserSecurityId)
+-   [Remove app package sample (RemovePackage)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerRemovePackage)
 
 ## Related topics
 

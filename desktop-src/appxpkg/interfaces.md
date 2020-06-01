@@ -106,13 +106,13 @@ Learn about the packaging API, which you can use to create, read, and write app 
 **Samples**
 </dt> <dt>
 
-[Create app package sample (CreateAppx)](https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-Create-48062876)
+[Create app package sample (CreateAppx)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingCreateAppx)
 </dt> <dt>
 
-[Extract app package contents sample (ExtractAppx)](https://code.msdn.microsoft.com/windowsdesktop/Appx-Package-Extraction-b0f5d164)
+[Extract app package contents sample (ExtractAppx)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingExtractAppx)
 </dt> <dt>
 
-[Read app package manifest info sample (DescribeAppx)](https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92)
+[Read app package manifest info sample (DescribeAppx)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingDescribeAppx)
 </dt> <dt>
 
 **Tasks**
