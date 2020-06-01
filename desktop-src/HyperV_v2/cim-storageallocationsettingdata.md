@@ -75,7 +75,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_StorageExtent**](cim-storageextent.md).**Access**")
+Qualifiers: [**ModelCorrespondence**](/windows/win32/WmiSdk/standard-qualifiers) ("[**CIM\_StorageExtent**](cim-storageextent.md).**Access**")
 </dt> </dl>
 
 The read/write support of the storage allocation.
@@ -128,7 +128,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**HostExtentNameFormat**", "**CIM\_StorageAllocationSettingData**.**HostExtentNameNamespace**", "[**CIM\_StorageExtent**](cim-storageextent.md).**Name**")
+Qualifiers: [**ModelCorrespondence**](/windows/win32/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**HostExtentNameFormat**", "**CIM\_StorageAllocationSettingData**.**HostExtentNameNamespace**", "[**CIM\_StorageExtent**](cim-storageextent.md).**Name**")
 </dt> </dl>
 
 A unique identifier of the host storage extent.
@@ -144,7 +144,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**HostExtentName**", "**CIM\_StorageAllocationSettingData**.**OtherHostExtentNameFormat**", "[**CIM\_StorageExtent**](cim-storageextent.md).**NameFormat**")
+Qualifiers: [**ModelCorrespondence**](/windows/win32/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**HostExtentName**", "**CIM\_StorageAllocationSettingData**.**OtherHostExtentNameFormat**", "[**CIM\_StorageExtent**](cim-storageextent.md).**NameFormat**")
 </dt> </dl>
 
 The format that of the **HostExtentName** property value.
@@ -202,7 +202,7 @@ For example '21000020372D3C73'
 
 EUI as a generic format (EUI64) See
 
-https://standards.ieee.org/regauth/oui/tutorials/EUI64.html.
+https://standards.ieee.org/content/dam/ieee-standards/standards/web/documents/tutorials/eui.pdf.
 
 </dd> <dt>
 
@@ -246,7 +246,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**HostExtentName**", "**CIM\_StorageAllocationSettingData**.**OtherHostExtentNameNamespace**", "**CIM\_StorageAllocationSettingData**.**HostExtentNameFormat**", "[**CIM\_StorageExtent**](cim-storageextent.md).**Namespace**")
+Qualifiers: [**ModelCorrespondence**](/windows/win32/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**HostExtentName**", "**CIM\_StorageAllocationSettingData**.**OtherHostExtentNameNamespace**", "**CIM\_StorageAllocationSettingData**.**HostExtentNameFormat**", "[**CIM\_StorageExtent**](cim-storageextent.md).**Namespace**")
 </dt> </dl>
 
 The naming format for the **Name** property.
@@ -334,7 +334,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**HostResourceBlockSize**", "[**CIM\_BasedOn**](cim-basedon.md).**StartingAddress**")
+Qualifiers: [**ModelCorrespondence**](/windows/win32/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**HostResourceBlockSize**", "[**CIM\_BasedOn**](cim-basedon.md).**StartingAddress**")
 </dt> </dl>
 
 The starting address on the host storage extent. A NULL val;ue indicates that there is no direct mapping between the virtual storage extent and the host storage extent.
@@ -350,7 +350,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_StorageExtent**](cim-storageextent.md).**BlockSize**"), **PUnit** ("byte")
+Qualifiers: [**ModelCorrespondence**](/windows/win32/WmiSdk/standard-qualifiers) ("[**CIM\_StorageExtent**](cim-storageextent.md).**BlockSize**"), **PUnit** ("byte")
 </dt> </dl>
 
 The size, in bytes, of the blocks that are allocated on the host for the storage allocation. If the block size is variable, then the maximum block size in bytes should be specified. If the block size is unknown or if a block concept does not apply, then the value "1" (unknown) should be used.
@@ -366,7 +366,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Limit"), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**HostResourceBlockSize**")
+Qualifiers: [**Override**](/windows/win32/WmiSdk/standard-qualifiers) ("Limit"), [**ModelCorrespondence**](/windows/win32/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**HostResourceBlockSize**")
 </dt> </dl>
 
 The maximum amount of blocks that will be granted for the storage resource allocation on the host. The block size is specified by the **HostResourceBlockSize** property.
@@ -382,7 +382,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**HostExtentNameFormat**")
+Qualifiers: [**ModelCorrespondence**](/windows/win32/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**HostExtentNameFormat**")
 </dt> </dl>
 
 The format of the **HostExtentName** property if the property is set to "1" (other).
@@ -398,7 +398,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**HostExtentNameNamespace**")
+Qualifiers: [**ModelCorrespondence**](/windows/win32/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**HostExtentNameNamespace**")
 </dt> </dl>
 
 A string that describes the namespace of the **HostExtentName** property if the value of the **HostExtentNameNamespace** property is "1" (other).
@@ -414,7 +414,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Reservation"), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**HostResourceBlockSize**")
+Qualifiers: [**Override**](/windows/win32/WmiSdk/standard-qualifiers) ("Reservation"), [**ModelCorrespondence**](/windows/win32/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**HostResourceBlockSize**")
 </dt> </dl>
 
 The amount of blocks that are guaranteed to be available for the storage resource allocation on the host. The block size is specified by the **HostResourceBlockSize** property.
@@ -430,7 +430,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("VirtualQuantity"), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_StorageExtent**](cim-storageextent.md).**NumberOfBlocks**", "**CIM\_StorageAllocationSettingData**.**VirtualQuantityUnits**")
+Qualifiers: [**Override**](/windows/win32/WmiSdk/standard-qualifiers) ("VirtualQuantity"), [**ModelCorrespondence**](/windows/win32/WmiSdk/standard-qualifiers) ("[**CIM\_StorageExtent**](cim-storageextent.md).**NumberOfBlocks**", "**CIM\_StorageAllocationSettingData**.**VirtualQuantityUnits**")
 </dt> </dl>
 
 The number of blocks that the storage allocation presents to the consumer.
@@ -451,7 +451,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("VirtualQuantityUnits"), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**VirtualQuantity**"), **IsPUnit**
+Qualifiers: [**Override**](/windows/win32/WmiSdk/standard-qualifiers) ("VirtualQuantityUnits"), [**ModelCorrespondence**](/windows/win32/WmiSdk/standard-qualifiers) ("**CIM\_StorageAllocationSettingData**.**VirtualQuantity**"), **IsPUnit**
 </dt> </dl>
 
 The units used by the **VirtualQuantity** property. This value shall should be set to "count(fixed size block)" or "byte". The default value, "count(fixed size block)" should be used for a fixed block size, and "byte" should be used for an unknown or variable block size.
@@ -467,7 +467,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_StorageExtent**](cim-storageextent.md).**BlockSize**"), **PUnit** ("byte")
+Qualifiers: [**ModelCorrespondence**](/windows/win32/WmiSdk/standard-qualifiers) ("[**CIM\_StorageExtent**](cim-storageextent.md).**BlockSize**"), **PUnit** ("byte")
 </dt> </dl>
 
 The size, in bytes, of the blocks that form the storage allocation request. If the block size is variable, then the maximum block size should be specified. If the block size is unknown or if a block concept does not apply, then the block size should be "1" (unknown).

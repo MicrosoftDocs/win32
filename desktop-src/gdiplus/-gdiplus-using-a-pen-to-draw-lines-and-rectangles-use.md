@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Using a Pen to Draw Lines and Rectangles
 
-To draw lines and rectangles, you need a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and a [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) object. The **Graphics** object provides the [DrawLine](https://msdn.microsoft.com/library/ms535748(v=VS.85).aspx) method, and the **Pen** object stores features of the line, such as color and width.
+To draw lines and rectangles, you need a [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and a [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) object. The **Graphics** object provides the [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)) method, and the **Pen** object stores features of the line, such as color and width.
 
-The following example draws a line from (20, 10) to (300, 100). Assume **graphics** is an existing [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object.
+The following example draws a line from (20, 10) to (300, 100). Assume **graphics** is an existing [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object.
 
 
 ```
@@ -20,9 +20,9 @@ graphics.DrawLine(&pen, 20, 10, 300, 100);
 
 
 
-The first statement of code uses the [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) class constructor to create a black pen. The one argument passed to the **Pen** constructor is a [**Color**](/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color) object. The values used to construct the **Color** object — (255, 0, 0, 0) — correspond to the alpha, red, green, and blue components of the color. These values define an opaque black pen.
+The first statement of code uses the [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) class constructor to create a black pen. The one argument passed to the **Pen** constructor is a [**Color**](/windows/win32/api/gdipluscolor/nl-gdipluscolor-color) object. The values used to construct the **Color** object — (255, 0, 0, 0) — correspond to the alpha, red, green, and blue components of the color. These values define an opaque black pen.
 
-The following example draws a rectangle with its upper-left corner at (10, 10). The rectangle has a width of 100 and a height of 50. The second argument passed to the [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) constructor indicates that the pen width is 5 pixels.
+The following example draws a rectangle with its upper-left corner at (10, 10). The rectangle has a width of 100 and a height of 50. The second argument passed to the [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) constructor indicates that the pen width is 5 pixels.
 
 
 ```

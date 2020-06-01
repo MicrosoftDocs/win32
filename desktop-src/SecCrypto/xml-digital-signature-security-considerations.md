@@ -41,7 +41,7 @@ If the application validates the signing key and the **SignedInfo** and **Refere
 
 Cryptographic algorithms become weaker over time as new attacks are discovered and more computing power becomes available. Do not hard code cryptographic algorithm identifiers or key sizes into your applications. For a more complete list of best cryptographic practices, see Michael Howard and Steve Lipner, "SDL Minimum Cryptographic Standards," in *The Security Development Lifecycle* (Redmond, Washington: Microsoft Press, 2006), 251–258.
 
-Additional best practices can be found on the W3C website: https://www.w3c.org.
+Additional best practices can be found on the W3C website: https://www.w3.org.
 
 > [!Note]  
 > These resources may not be available in some languages and countries or regions.

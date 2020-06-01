@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This profile sample shows a wired network profile used to connect to a network that uses Extensible Authentication Protocol Transport Level Security (EAP-TLS) certificates stored on the local machine for 802.1X authentication. To see a profile that uses EAP-TLS certificates stored on a smart card, see [Smart Card Certificate Sample Profile](smart-card-certificate-profile-sample.md).
 
-The EAPHost configuration used in this wireless profile sample was derived from the [EAP-TLS Connection Properties](https://msdn.microsoft.com/library/Bb204661(v=VS.85).aspx) sample.
+The EAPHost configuration used in this wireless profile sample was derived from the [EAP-TLS Connection Properties](/windows/win32/eaphost/eap-tls-connection-properties) sample.
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>

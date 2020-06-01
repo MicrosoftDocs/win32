@@ -23,7 +23,7 @@ A supplementary character is a character located beyond the BMP, and a "surrogat
 
 The operating system supports supplementary characters in the following ways:
 
--   Format 12 of the OpenType font cmap table directly supports the 4-byte character code. For more information, see the [OpenType font specification](https://www.microsoft.com/OpenType/OTSpec/cmap.md).
+-   Format 12 of the OpenType font cmap table directly supports the 4-byte character code. For more information, see the [OpenType font specification](https://docs.microsoft.com/typography/opentype/spec/).
 -   Windows supports surrogate-enabled [input method editors (IMEs)](https://msdn.microsoft.com/library/Ee418266(v=VS.85).aspx).
 -   The [Windows GDI](https://msdn.microsoft.com/library/Dd145203(v=VS.85).aspx) API supports format 12 cmap tables in fonts so that surrogates can be displayed correctly.
 -   The [Uniscribe](uniscribe.md) API supports supplementary characters.
@@ -35,7 +35,7 @@ The operating system supports supplementary characters in the following ways:
 
 UTF-16 handles supplementary characters as surrogate pairs. The operating system processes a surrogate pair similarly to the way it processes [nonspacing marks](using-nonspacing-characters-and-diacritics.md). At display time, the surrogate pair displays as one glyph by means of Uniscribe, as prescribed by the Unicode Standard.
 
-Windows Vista introduces three new macros to help identify surrogates and surrogate pairs in UTF-16 strings. These are [**IS\_HIGH\_SURROGATE**](/windows/desktop/api/Winnls/nf-winnls-is_high_surrogate), [**IS\_LOW\_SURROGATE**](/windows/desktop/api/Winnls/nf-winnls-is_low_surrogate), and [**IS\_SURROGATE\_PAIR**](/windows/desktop/api/Winnls/nf-winnls-is_surrogate_pair).
+Windows Vista introduces three new macros to help identify surrogates and surrogate pairs in UTF-16 strings. These are [**IS\_HIGH\_SURROGATE**](/windows/win32/api/Winnls/nf-winnls-is_high_surrogate), [**IS\_LOW\_SURROGATE**](/windows/win32/api/Winnls/nf-winnls-is_low_surrogate), and [**IS\_SURROGATE\_PAIR**](/windows/win32/api/Winnls/nf-winnls-is_surrogate_pair).
 
 Applications automatically support supplementary characters if they support Unicode and use system controls and standard API functions, such as [**ExtTextOut**](https://msdn.microsoft.com/library/Dd162713(v=VS.85).aspx) and [**DrawText**](https://msdn.microsoft.com/library/Dd162498(v=VS.85).aspx). Thus, if your application uses standard system controls or uses general [**ExtTextOut**](https://msdn.microsoft.com/library/Dd162713(v=VS.85).aspx)-type calls to display, supplementary characters should work without any special coding.
 
