@@ -35,7 +35,7 @@ With the new taskbar in Windows 7, applications can provide more information to
 
 ## Gadgets Platform
 
-Gadgets are a popular feature of the Windows Vista desktop, and in Windows 7, it is even easier for applications to install gadgets. In Windows 7, an application can programmatically add a gadget to the Windows desktop during application setup or first run. This means that an application's out-of-the-box experience can include a simple check box, for example, to install a companion gadget that is available on the desktop as soon as the application is ready to be used. (See [Introduction to the Gadget Platform](https://msdn.microsoft.com/library/dd370867(VS.85).aspx).)
+Gadgets are a popular feature of the Windows Vista desktop, and in Windows 7, it is even easier for applications to install gadgets. In Windows 7, an application can programmatically add a gadget to the Windows desktop during application setup or first run. This means that an application's out-of-the-box experience can include a simple check box, for example, to install a companion gadget that is available on the desktop as soon as the application is ready to be used. (See [Introduction to the Gadget Platform](/previous-versions/windows/desktop/gadgetplatform/introduction-to-the-gadget-platform).)
 
 ![windows gadgets](images/windows7-8.jpg)
 
