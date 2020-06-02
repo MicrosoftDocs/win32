@@ -69,7 +69,7 @@ Applies to Internet Explorer 8 Standards mode and above:
 Security improvements
 
 -   Apply regardless of document mode.
--   You can turn off security features by using [Group Policy](https://www.microsoft.com/downloads/details.aspx?FamilyID=ab4655f2-0a3c-42eb-974d-24b2790bf592&amp;displaylang=en).
+-   You can turn off security features by using [Group Policy](https://www.microsoft.com/en-us/p/group-policy/9wzdncrfjtm4?activetab=pivot:overviewtab).
 
 <!-- -->
 

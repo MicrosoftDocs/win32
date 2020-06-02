@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Internet Explorer Compatibility Test Tool (IECTT)
 
-The Internet Explorer Compatibility Test Tool (IECTT) is a component of the [Microsoft Application Compatibility Toolkit](https://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971). This tool can help you diagnose issues in your web applications by displaying issues in real time and optionally uploading the results to an ACT database. The results include details about possible compatibility issues and links for more information about each compatibility issue. IECTT also enables you to exclude issues and modify available attributes.
+The Internet Explorer Compatibility Test Tool (IECTT) is a component of the [Microsoft Application Compatibility Toolkit](/windows-hardware/get-started/adk-install). This tool can help you diagnose issues in your web applications by displaying issues in real time and optionally uploading the results to an ACT database. The results include details about possible compatibility issues and links for more information about each compatibility issue. IECTT also enables you to exclude issues and modify available attributes.
 
 ## To open IECTT
 
-1.  Install the [Microsoft Application Compatibility Toolkit](https://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971).
+1.  Install the [Microsoft Application Compatibility Toolkit](/windows-hardware/get-started/adk-install).
 2.  Click **Start**, point to **Programs**, point to **Microsoft Application Compatibility Toolkit 5.6**, point to **Developer and Tester Tools**, and then click **Internet Explorer Compatibility Test Tool**.
 
 The following sections describe common IECTT scenarios.

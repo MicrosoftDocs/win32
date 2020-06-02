@@ -193,7 +193,7 @@ The sample code below illustrates this issue. The unbounded access to the "buffe
 -   [Synchronization Objects](https://msdn.microsoft.com/library/ms681924(v=VS.85).aspx)
 -   [**TerminateThread Function**](https://msdn.microsoft.com/library/ms686717(v=VS.85).aspx)
 -   [Windows Error Reporting](https://msdn.microsoft.com/library/Bb513641(v=VS.85).aspx)
--   [Winqual](https://winqual.microsoft.com)
+-   [Winqual](/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-)
 
  
 

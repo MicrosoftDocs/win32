@@ -203,7 +203,7 @@ The following table provides the available metadata query paths that can be used
 The Tagged Image File Format (TIFF) image format supports frame level metadata.
 
 > [!Note]  
-> For a full list of TIFF metadata along with more detailed information, see [the TIFF standard](https://partners.adobe.com/public/developer/en/tiff/TIFF6.pdf).
+> For a full list of TIFF metadata along with more detailed information, see [the TIFF standard](https://www.adobe.io/content/dam/udp/en/open/standards/tiff/TIFF6.pdf).
 
  
 
@@ -236,7 +236,7 @@ The following table provides the available metadata query paths that can be used
 The JPEG image format supports frame level metadata.
 
 > [!Note]  
-> For full list of JPEG metadata along with more detailed information, see the [EXIF JPEG standard](https://www.cipa.jp/english/hyoujunka/kikaku/pdf/DC-008-2010_E.pdf).
+> For full list of JPEG metadata along with more detailed information, see the [EXIF JPEG standard](http://www.cipa.jp/std/documents/e/DC-008-2010_E.pdf).
 
  
 
