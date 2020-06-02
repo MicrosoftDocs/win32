@@ -66,7 +66,7 @@ As a result of these changes, this API guidance is provided:
 
 ## Resources
 
--   [Best Practices for File Type and URI Associations in Windows 8 Desktop Apps](http://download.microsoft.com/download/4/3/A/43A474F2-5038-47BD-A4D3-ECD5EFE80192/Best practices for file type and protocol associations in Windows 8 desktop apps.docx)
+-   [Best Practices for File Type and URI Associations in Windows 8 Desktop Apps](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc144156(v=vs.85))
 -   [File Type Associations and AutoPlay Build Conference Presentation](https://channel9.msdn.com/events/BUILD/BUILD2011/PLAT-282T)
 
  

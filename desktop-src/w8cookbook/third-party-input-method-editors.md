@@ -86,7 +86,7 @@ Digital signing, in addition to revocation by Windows Defender, prevents malicio
 The IME must be TSF-aware in order to be able to run in Windows 8. Windows 8 blocks non-TSF-aware IMEs from running in Windows Store apps. When an app is started, TSF loads the IME .dll for the IME that the user has selected into the app process.
 
 > [!Note]  
-> To provide separate functionality or UIs between Windows Store apps and desktop apps, the .dll loaded by TSF can check which type of app it is being loaded into. The IME calls the [ITfThreadMgrEx::GetActiveFlags](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgrex-getactiveflags) method and checks the TF\_TMF\_IMMERSIVEMODE flag, and can trigger different app logic depending on the result.
+> To provide separate functionality or UIs between Windows Store apps and desktop apps, the .dll loaded by TSF can check which type of app it is being loaded into. The IME calls the [ITfThreadMgrEx::GetActiveFlags](/windows/win32/api/msctf/nf-msctf-itfthreadmgrex-getactiveflags) method and checks the TF\_TMF\_IMMERSIVEMODE flag, and can trigger different app logic depending on the result.
 
  
 
@@ -153,7 +153,7 @@ All third-party IMEs must be digitally signed in order to be installed onto the 
 
 -   **Use an Authenticode signature to digitally sign programs**
     -   Obtain a valid Authenticode code signing certificate from one of the many certificate authorities supported by Windows
-    -   Use development tools (such as [signtool.exe](https://docs.microsoft.com/windows/desktop/SecCrypto/signtool)) to sign the apps prior to distribution
+    -   Use development tools (such as [signtool.exe](/windows/win32/SecCrypto/signtool)) to sign the apps prior to distribution
     -   For more information and a step-by-step description of the code signing process, see the [Everything you need to know about Authenticode code signing](https://blogs.msdn.microsoft.com/ieinternals/2011/03/22/everything-you-need-to-know-about-authenticode-code-signing/) blog entry
 -   **Ensure downloads are not detected as malware**
     -   Downloaded programs that are detected and confirmed as malware affect both the download’s reputation and the reputation of the digital certificate used to sign that file
@@ -183,13 +183,13 @@ IMEs that are malicious or that do not follow the Windows 8 IME Guidelines can 
 
 ## Resources
 
--   [ITfThreadMgrEx::Get Active Flags method](https://msdn.microsoft.com/library/windows/desktop/aa383154.aspx)
+-   [ITfThreadMgrEx::Get Active Flags method](https://msdn.microsoft.com/library/windows/win32/aa383154.aspx)
 -   [SignTool](https://msdn.microsoft.com/library/aa387764.aspx)
 -   [Everything you need to know about Authenticode Code Signing](https://blogs.msdn.com/b/ieinternals/archive/2011/03/22/authenticode-code-signing-for-developers-for-file-downloads-building-smartscreen-application-reputation.aspx)
 -   [Windows app contracts and extensions](https://msdn.microsoft.com/library/windows/apps/hh464906.aspx)
--   [Certification requirements for Windows 8 desktop apps](https://msdn.microsoft.com/library/windows/desktop/hh749939.aspx)
+-   [Certification requirements for Windows 8 desktop apps](https://msdn.microsoft.com/library/windows/win32/hh749939.aspx)
 -   [Certification requirements for Windows apps](https://msdn.microsoft.com/library/windows/apps/51A7C609-94AB-49ab-B8E0-F26FF776DDB4.aspx)
--   [Using the Windows App Certification Kit](https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=27414)
+-   [Using the Windows App Certification Kit](/windows/win32/win_cert/using-the-windows-app-certification-kit)
 -   [Authenticode Overview](https://msdn.microsoft.com/library/ms537359.aspx)
 -   [Ensuring Integrity and Authenticity](https://msdn.microsoft.com/library/ms537361.aspx#Ensuring_Integrity_a)
 -   [Code Signing Best Practices](https://msdn.microsoft.com/windows/hardware/gg487309.aspx)

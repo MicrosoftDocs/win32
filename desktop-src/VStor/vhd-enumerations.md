@@ -40,7 +40,7 @@ The following enumerations are used in Virtual Hard Disk (VHD):
 -   [**STORAGE\_DEPENDENCY\_INFO\_VERSION**](https://msdn.microsoft.com/library/Dd323691(v=VS.85).aspx)
 -   [**TAKE\_SNAPSHOT\_VHDSET\_FLAG**](https://msdn.microsoft.com/library/Mt414221(v=VS.85).aspx)
 -   [**TAKE\_SNAPSHOT\_VHDSET\_VERSION**](https://msdn.microsoft.com/library/Mt414224(v=VS.85).aspx)
--   [**VIRTUAL\_DISK\_ACCESS\_MASK**](https://msdn.microsoft.com/library/Dd323702(v=VS.85).aspx)
+-   [**VIRTUAL\_DISK\_ACCESS\_MASK**](https://docs.microsoft.com/openspecs/windows_protocols/ms-vds/4fa2f54d-00b3-4cd9-b673-a6b8d64ed57f)
 
  
 
