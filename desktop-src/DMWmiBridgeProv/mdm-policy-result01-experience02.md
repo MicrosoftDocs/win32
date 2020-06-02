@@ -116,7 +116,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowScreenCapture](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-allowscreencapture)
+AllowScreenCapture
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -138,7 +138,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowSIMErrorDialogPromptWhenNoSIM](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-allowsimerrordialogpromptwhennosim)
+AllowSIMErrorDialogPromptWhenNoSIM
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
