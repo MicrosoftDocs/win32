@@ -51,7 +51,7 @@ Next [Authorization for web pages](authorization-for-web-pages.md)
 [Considerations for the web page development](considerations-for-the-web-page-development.md)
 </dt> <dt>
 
-[Web Authentication Broker SDK sample app](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122#content)
+[Web Authentication Broker SDK sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
 </dt> <dt>
 
 [**Windows.Security.Authentication.Web**](https://docs.microsoft.com/uwp/api/Windows.Security.Authentication.Web)
