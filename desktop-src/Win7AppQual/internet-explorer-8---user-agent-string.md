@@ -46,7 +46,7 @@ Ensure that your applications properly handle the new 'MSIE 8.0' version in the 
 -   [Internet Explorer 8 User-Agent String](https://blogs.msdn.com/ie/archive/2008/02/21/the-internet-explorer-8-user-agent-string.aspx)
 -   [User-Agent String and Version Vector](https://archive.msdn.microsoft.com/ie8whitepapers)
 -   [Hosting and Reuse](https://msdn.microsoft.com/library/Aa752038(v=VS.85).aspx)
--   [Application Compatibility Toolkit Download](https://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971)
+-   [Application Compatibility Toolkit Download](/windows-hardware/get-started/adk-install)
 -   [Known Internet Explorer Security Feature Issues](https://technet.microsoft.com/library/cc722079.aspx)
 
  

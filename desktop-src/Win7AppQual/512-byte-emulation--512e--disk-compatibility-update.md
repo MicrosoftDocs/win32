@@ -185,8 +185,8 @@ This is a living document, and is meant as an aid for developers to help underst
 -   **General information about ImageX Command-Line Options**: <https://technet.microsoft.com/library/dd799302(WS.10).aspx>
 -   **Intel Chipset driver requirements to support 4 KB Sector Drives**: <https://www.intel.com/support/chipsets/imsm/sb/CS-031502.htm>
 -   For more information on Advanced Format Disks, visit the following IDEMA websites:
-    -   <https://idema.org/_smartsite/external/bigsector/index.php?cmd=list>
-    -   <https://idema.org/_smartsite/external/bigsector/AF_Are_You_Ready.pdf>
+    -   <http://idema.org/?page_id=2172>
+    -   <http://idema.org/?download=7926>
 
  
 
