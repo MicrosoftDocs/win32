@@ -24,7 +24,7 @@ The web page can provide an icon by using an mswebdialog-logo meta tag.
 <meta name="mswebdialog-logo" content="https://www.contoso.com/logo.png"/>
 ```
 
-The content is a URL that can be a page relative or absolute. The scheme of the URL can be HTTP or HTTPS. The format of the file should be either PNG or JPG. The size of the image should be 30x30 pixels. If the image is of the different size, it will be scaled down or up by the operating system to fit the 30x30 space. The image should be designed to render well when scaled up to 140% and 180% to account for higher resolution screens. To test different scaling factors, use the [Web Authentication Broker SDK sample app](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122#content) loaded in Visual Studio 11 which allows simulating different resolutions and scaling factors using the Device windows of the Design mode.
+The content is a URL that can be a page relative or absolute. The scheme of the URL can be HTTP or HTTPS. The format of the file should be either PNG or JPG. The size of the image should be 30x30 pixels. If the image is of the different size, it will be scaled down or up by the operating system to fit the 30x30 space. The image should be designed to render well when scaled up to 140% and 180% to account for higher resolution screens. To test different scaling factors, use the [Web Authentication Broker SDK sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker) loaded in Visual Studio 11 which allows simulating different resolutions and scaling factors using the Device windows of the Design mode.
 
 ### Step 2: Customize the title text
 
@@ -103,7 +103,7 @@ When Web Authentication Broker processes meta tags, the following rules apply:
 [Considerations for the web page development](considerations-for-the-web-page-development.md)
 </dt> <dt>
 
-[Web Authentication Broker SDK sample app](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122#content)
+[Web Authentication Broker SDK sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
 </dt> <dt>
 
 [**Windows.Security.Authentication.Web**](https://docs.microsoft.com/uwp/api/Windows.Security.Authentication.Web)
