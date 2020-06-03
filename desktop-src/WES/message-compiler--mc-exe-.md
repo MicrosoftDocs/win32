@@ -30,7 +30,7 @@ MC [-?aAbcdnouUv] [-co] [-cs namespace] [-css namespace] [-e extension]
 -   [Arguments specific to generating code that your provider would use to log events](#arguments-specific-to-generating-code-that-your-provider-would-use-to-log-events)
 -   [Arguments specific to message text files](#arguments-specific-to-message-text-files)
 
-### Arguments common to both message text files and manifest files
+## Arguments common to both message text files and manifest files
 
 <dl> <dt>
 
