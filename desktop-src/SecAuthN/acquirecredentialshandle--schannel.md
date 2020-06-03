@@ -93,7 +93,7 @@ When using the Schannel SSP, this parameter is not used and should be set to **N
 
 A pointer to package-specific data. This parameter can be **NULL**, which indicates that the default credentials for that [*security package*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) must be used. To use supplied credentials, pass a [**SEC\_WINNT\_AUTH\_IDENTITY**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_a) structure that includes those credentials in this parameter. The RPC run time passes whatever was provided in [**RpcBindingSetAuthInfo**](https://docs.microsoft.com/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo).
 
-When using the Schannel SSP, specify an [**SCHANNEL\_CRED**](https://docs.microsoft.com/windows/win32/api/schannel/ns-schannel-schannel_cred) structure that indicates the protocol to use and the settings for various customizable channel features.
+When using the Schannel SSP, specify an [**SCH_CREDENTIALS**](/windows/win32/api/schannel/ns-schannel-sch_credentials) structure that indicates the protocol to use and the settings for various customizable channel features.
 
 </dd> <dt>
 
@@ -182,18 +182,20 @@ When you have finished using the returned credentials, free the memory used by t
 
 <dl> <dt>
 
-[SSPI Functions](authentication-functions.md#sspi-functions)
-</dt> <dt>
-
 [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md)
-</dt> <dt>
-
-[**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md)
 </dt> <dt>
 
 [**FreeCredentialsHandle**](https://docs.microsoft.com/windows/win32/api/sspi/nf-sspi-freecredentialshandle)
 </dt> </dl>
 
+[**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md)
+</dt> <dt>
+
+[**SCH_CREDENTIALS**](/windows/win32/api/schannel/ns-schannel-sch_credentials)
+</dt> <dt>
+
+[**SSPI Functions**](authentication-functions.md#sspi-functions)
+</dt> <dt>
  
 
  
