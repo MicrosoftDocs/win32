@@ -29,25 +29,7 @@ For complete version history, see [What's New](what-s-new.md).
 ## In this section
 
 
-
-| Topic                                                                     | Description                                                                                                   |
-|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| [Using Windows Event Log](using-windows-event-log.md)<br/>         | Procedural guide that shows how to use the Windows Event Log API.<br/>                                  |
-| [Windows Event Log Reference](windows-event-log-reference.md)<br/> | The data types, functions, enumerations, structures, constants, and schemas that the API includes.<br/> |
-
-
-
- 
-
-## Additional resources
-
-To get answers to your questions and to find out how other people are using Windows Event Log, visit the [Windows Events](https://social.msdn.microsoft.com/Forums/en-US/etw/threads) forum on MSDN.
-
- 
-
- 
-
-
-
-
-
+| Topic                                                        | Description                                                                                       |
+|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| [Using Windows Event Log](using-windows-event-log.md)        | Procedural guide that shows how to use the Windows Event Log API.                                 |
+| [Windows Event Log Reference](windows-event-log-reference.md)| The data types, functions, enumerations, structures, constants, and schemas that the API includes.|

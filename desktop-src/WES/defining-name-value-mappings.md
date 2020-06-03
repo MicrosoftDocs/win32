@@ -18,16 +18,16 @@ The following example shows how to define a value map and a bitmap. You must spe
 ```XML
 <instrumentationManifest
     xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="https://www.w3.org/2001/XMLSchema"    
+    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     >
 
     <instrumentation>
         <events>
-            <provider name="Microsoft-Windows-SampleProvider" 
-                guid="{1db28f2e-8f80-4027-8c5a-a11f7f10f62d}" 
-                symbol="PROVIDER_GUID" 
-                resourceFileName="<path to the exe or dll that contains the metadata resources>" 
+            <provider name="Microsoft-Windows-SampleProvider"
+                guid="{1db28f2e-8f80-4027-8c5a-a11f7f10f62d}"
+                symbol="PROVIDER_GUID"
+                resourceFileName="<path to the exe or dll that contains the metadata resources>"
                 messageFileName="<path to the exe or dll that contains the string resources>"
                 message="$(string.Provider.Name)">
 
@@ -76,13 +76,3 @@ The following example shows how to define a value map and a bitmap. You must spe
 
 </instrumentationManifest>
 ```
-
-
-
- 
-
- 
-
-
-
-

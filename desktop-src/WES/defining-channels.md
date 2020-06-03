@@ -22,8 +22,8 @@ The following example shows how to import a channel. You must set the **chid** a
 ```XML
 <instrumentationManifest
     xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="https://www.w3.org/2001/XMLSchema"    
+    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     >
 
     <instrumentation>
@@ -36,13 +36,14 @@ The following example shows how to import a channel. You must set the **chid** a
                 message="$(string.Provider.Name)">
 
                 <channels>
-                    <importChannel chid="c1" 
-                                   name="Microsoft-Windows-BaseProvider/Admin"
-                                   symbol="CHANNEL_BASEPROVIDER_ADMIN"
-                                   />
+                    <channel chid="c1"
+                             name="Microsoft-Windows-BaseProvider/Admin"
+                             symbol="CHANNEL_BASEPROVIDER_ADMIN"
+                             type="Admin"/>
                 </channels>
 
                 . . .
+
             </provider>
         </events>
     </instrumentation>
@@ -58,35 +59,33 @@ The following example shows how to import a channel. You must set the **chid** a
 </instrumentationManifest>
 ```
 
-
-
 Although Winmeta.xml defines legacy channels that you can import, you should not use them unless you are supporting legacy consumers that consume events out of the legacy channels (for example, Application or System). The Winmeta.xml file is included in the Windows SDK.
 
 The following example shows how to define a channel. You must set the **chid**, **name**, and **type** attributes. The **chid** attribute uniquely identifies the channel—each channel identifier in your list of channels must be unique. Set the **chid** attribute to a value that is unique for the channels that your provider lists; the channel identifier is referenced in one or more of your event definitions. The convention for naming the channel is to use the provider name and channel type in the form, *providername*/*channeltype*.
 
-
 ```XML
 <instrumentationManifest
     xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="https://www.w3.org/2001/XMLSchema"    
+    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     >
 
     <instrumentation>
         <events>
-            <provider name="Microsoft-Windows-SampleProvider" 
-                guid="{1db28f2e-8f80-4027-8c5a-a11f7f10f62d}" 
-                symbol="PROVIDER_GUID" 
-                resourceFileName="<path to the exe or dll that contains the metadata resources>" 
+            <provider name="Microsoft-Windows-SampleProvider"
+                guid="{1db28f2e-8f80-4027-8c5a-a11f7f10f62d}"
+                symbol="PROVIDER_GUID"
+                resourceFileName="<path to the exe or dll that contains the metadata resources>"
                 messageFileName="<path to the exe or dll that contains the string resources>"
                 message="$(string.Provider.Name)">
 
                 <channels>
-                    <importChannel chid="c1" 
+                    <importChannel chid="c1"
                                    name="Microsoft-Windows-BaseProvider/Admin"
                                    symbol="CHANNEL_BASEPROVIDER_ADMIN"
                                    />
-                    <channel chid="c2" 
+
+                    <channel chid="c2"
                              name="Microsoft-Windows-SampleProvider/Operational"
                              type="Operational"
                              enabled="true"
@@ -109,13 +108,3 @@ The following example shows how to define a channel. You must set the **chid**, 
 
 </instrumentationManifest>
 ```
-
-
-
- 
-
- 
-
-
-
-

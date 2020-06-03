@@ -48,7 +48,6 @@ The following example shows how to define a string table. You must specify the s
 ```
 
 
-
 Instead of adding localized strings to the manifest, you should create a multilingual user interface (MUI) file for each language that you support. Use a message text file to specify your localized strings.
 
 The following procedure describes how to create a MUI file for English and French.
@@ -76,7 +75,6 @@ The following procedure describes how to create a MUI file for English and Frenc
     
     ```
 
-    
 
 2.  Run the following commands to create the resource DLL that contains your localized strings. The messages.mc file is the message text file that you created in step 1.
     ```cmd
@@ -104,8 +102,7 @@ The following procedure describes how to create a MUI file for English and Frenc
           </resources>
     </localization>
     ```
-
-    
+  
 
 5.  Run the following Muirct.exe commands to split the English strings from the provider executable file.
     ```cmd
@@ -113,8 +110,7 @@ The following procedure describes how to create a MUI file for English and Frenc
 
     muirct -c provider.exe.ln -e en-US\provider.exe.mui
     ```
-
-    
+ 
 
 6.  Run the following Muirct.exe commands to split the French strings from the resource DLL. Remove the language neutral file (fr-FR\\messages.dll) after the MUI file is created.
     ```cmd
@@ -122,15 +118,6 @@ The following procedure describes how to create a MUI file for English and Frenc
 
     muirct -c provider.exe.ln -e fr-FR\provider.exe.mui
     ```
-
-    
+  
 
 7.  Rename provider.exe.ln to provider.exe.
-
- 
-
- 
-
-
-
-

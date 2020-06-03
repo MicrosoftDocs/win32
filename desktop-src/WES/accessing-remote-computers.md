@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 You can use the Windows Event Log API to access data on the local computer or on a remote computer. To access data on a remote computer, you need to call the [**EvtOpenSession**](/windows/desktop/api/WinEvt/nf-winevt-evtopensession) function to create a remote session context. When you call this function, you specify the name of the remote computer that you want to connect to, the user credentials to use to make the connection, and the type of authentication to use to authenticate the user. To specify the current user, set the Domain, User, and Password members to **NULL**.
 
-When you call Windows Event Log API, you pass the handle to the remote session context that the [**EvtOpenSession**](/windows/desktop/api/WinEvt/nf-winevt-evtopensession) function returns. (To access data on the local computer, you pass **NULL** to specify the default session, which is used to access the local computer.) To access data on the remote computer, the remote computer must enable the "Remote Event Log Management" Windows Firewall exception; otherwise, when you try to use the session handle, the call will error with RPC\_S\_SERVER\_UNAVAILABLE. The computer to which you are connecting must be running Windows Vista or later.
+When you call Windows Event Log API, you pass the handle to the remote session context that the [**EvtOpenSession**](/windows/desktop/api/WinEvt/nf-winevt-evtopensession) function returns. (To access data on the local computer, pass **NULL** to specify the default session.) To access data on the remote computer, the remote computer must enable the "Remote Event Log Management" Windows Firewall exception; otherwise, when you try to use the session handle, the call will error with RPC\_S\_SERVER\_UNAVAILABLE. The computer to which you are connecting must be running Windows Vista or later.
 
 The following example shows how to connect to a remote computer.
 
@@ -70,7 +70,7 @@ EVT_HANDLE ConnectToRemote(LPWSTR lpwszRemote)
     Credentials.Password = NULL; 
     Credentials.Flags = EvtRpcLoginAuthNegotiate; 
 
-    // This call creates a remote seesion context; it does not actually
+    // This call creates a remote session context; it does not actually
     // create a connection to the remote computer. The connection to
     // the remote computer happens when you use the context.
     hRemote = EvtOpenSession(EvtRpcLogin, &Credentials, 0, 0);
@@ -121,13 +121,3 @@ cleanup:
         EvtClose(hPublishers);
 }
 ```
-
-
-
- 
-
- 
-
-
-
-
