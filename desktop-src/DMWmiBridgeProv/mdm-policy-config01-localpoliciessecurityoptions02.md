@@ -95,7 +95,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Accounts\_EnableAdministratorAccountStatus](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-localpoliciessecurityoptions#localpoliciessecurityoptions-accounts-enableadministratoraccountstatus)
+Accounts_EnableAdministratorAccountStatus
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -106,7 +106,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Accounts\_EnableGuestAccountStatus](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-localpoliciessecurityoptions#localpoliciessecurityoptions-accounts-enableguestaccountstatus)
+Accounts_EnableGuestAccountStatus
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
