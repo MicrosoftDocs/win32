@@ -26,7 +26,7 @@ HLSL supports several scalar data types:
 -   **dword** - 32-bit unsigned integer.
 -   **half** - 16-bit floating point value. This data type is provided only for language compatibility. Direct3D 10 shader targets map all half data types to float data types. A half data type cannot be used on a uniform global variable (use the /Gec flag if this functionality is desired).
 -   **float** - 32-bit floating point value.
--   **double** - 64-bit floating point value. You cannot use double precision values as inputs and outputs for a stream. To pass double precision values between shaders, declare each **double** as a pair of **uint** data types. Then, use the [**asdouble**](asdouble.md) function to pack each **double** into the pair of **uint**s and the [**asuint**](asuint.md) function to unpack the pair of **uint**s back into the **double**.
+-   **double** - 64-bit floating point value. You cannot use double precision values as inputs and outputs for a stream. To pass double precision values between shaders, declare each **double** as a pair of **uint** data types. Then, use the [**asuint**](asuint.md) function to pack each **double** into the pair of **uint**s and the [**asdouble**](asdouble.md) function to unpack the pair of **uint**s back into the **double**.
 
 Starting with Windows 8 HLSL also supports minimum precision scalar data types. Graphics drivers can implement minimum precision scalar data types by using any precision greater than or equal to their specified bit precision. We recommend not to rely on clamping or wrapping behavior that depends on specific underlying precision. For example, the graphics driver might execute arithmetic on a **min16float** value at full 32-bit precision.
 

@@ -1,12 +1,12 @@
 ---
 Description: API Sets available in Windows 8 and Windows Server 2012.
 ms.assetid: C7A4C72C-FC0A-4549-8251-F56C2A9ADD6C
-title: Windows 8 API Sets
+title: Windows 8 API sets
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Windows 8 API Sets
+# Windows 8 API sets
 
 API Sets available in Windows 8 and Windows Server 2012.
 
