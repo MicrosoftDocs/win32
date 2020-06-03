@@ -74,57 +74,20 @@ Contains a list of providers that are defined in the manifest.
 
 ## Child elements
 
-
-
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Element</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>message</strong></td>
-
-<td>Defines a message string. <br/></td>
-</tr>
-<tr class="even">
-<td><strong>messageTable</strong></td>
-
-<td>Defines a list of message strings. You should not have to use a message table except in the following cases where you must define a message table to explicitly assign resource numbers to message strings. <br/>
-<ul>
-<li>You are migrating from a message text (.mc) file to a manifest but are still writing events to the application and system channels, so that legacy consumers to continue consuming the events. To make this work, the resource identifiers for the message strings defined in the manifest must be the same as the event identifiers. However, the message compiler automatically assigns resource identifiers to the message strings. To override the compiler, use the message table and set the value attribute to the event identifier and the message attribute to refer to a string in the string table in the localization section of the manifest.</li>
-<li>If you want to identify more than 16 providers, you must include the message table that the seventeenth and on providers must use to assign resource values for the message strings that they define. If the provider references message strings that providers 1 through 16 defined, you do not include those message strings in the message table.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="eventmanifestschema-provider-eventstype-element.md"><strong>provider</strong></a></td>
-<td><a href="eventmanifestschema-providertype-complextype.md"><strong>ProviderType</strong></a></td>
-<td>A list of providers that you want to define.<br/></td>
-</tr>
-</tbody>
-</table>
-
-
+| Element | Type | Description |
+|---------|------|-------------|
+| message |      | Defines a message string. |
+| messageTable | | Defines a list of message strings. You should not have to use a message table except in the following cases where you must define a message table to explicitly assign resource numbers to message strings. <ul><li>You are migrating from a message text (.mc) file to a manifest but are still writing events to the application and system channels, so that legacy consumers to continue consuming the events. To make this work, the resource identifiers for the message strings defined in the manifest must be the same as the event identifiers. However, the message compiler automatically assigns resource identifiers to the message strings. To override the compiler, use the message table and set the value attribute to the event identifier and the message attribute to refer to a string in the string table in the localization section of the manifest.</li><li>If you want to identify more than 16 providers, you must include the message table that the seventeenth and on providers must use to assign resource values for the message strings that they define. If the provider references message strings that providers 1 through 16 defined, you do not include those message strings in the message table.</li></ul>|
+| [**provider**](eventmanifestschema-provider-eventstype-element.md) | [**ProviderType**](eventmanifestschema-providertype-complextype.md) | A list of providers that you want to define. |
 
 ## Attributes
 
-
-
-| Name    | Type                                                              | Description                                                                                        |
-|---------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| message | [**strTableRef**](eventmanifestschema-strtableref-simpletype.md) | A reference to the localized string in the string table.<br/>                                |
-| mid     | xs:string                                                         | Not used.<br/>                                                                               |
-| symbol  | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | The symbolic name that you want the message compiler to create for this message string.<br/> |
-| value   | [**UInt32Type**](eventmanifestschema-hexint32type-simpletype.md) | The number to use as the message identifier for this message.<br/>                           |
-
+| Name    | Type                                                             | Description                                                                            |
+|---------|------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| message | [**strTableRef**](eventmanifestschema-strtableref-simpletype.md) | A reference to the localized string in the string table.                               |
+| mid     | xs:string                                                        | Not used.                                                                              |
+| symbol  | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | The symbolic name that you want the message compiler to create for this message string.|
+| value   | [**UInt32Type**](eventmanifestschema-hexint32type-simpletype.md) | The number to use as the message identifier for this message.                          |
 
 
 ## Remarks
@@ -133,20 +96,7 @@ The practical limit of the number of providers that you can define in a manifest
 
 ## Requirements
 
-
-
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
-
-
-
- 
-
- 
-
-
-
-
-
+|                          |                                           |
+|--------------------------|-------------------------------------------|
+| Minimum supported client | Windows Vista \[desktop apps only\]       |
+| Minimum supported server | Windows Server 2008 \[desktop apps only\] |

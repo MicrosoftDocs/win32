@@ -1,7 +1,7 @@
 - name: "Windows Event Log"
   href: windows-event-log.md
   items: 
-  - name: "What&apos;s New"
+  - name: "What's New"
     href: what-s-new.md
   - name: "Using Windows Event Log"
     href: using-windows-event-log.md

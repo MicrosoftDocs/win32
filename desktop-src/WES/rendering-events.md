@@ -151,7 +151,7 @@ DWORD PrintEventSystemData(EVT_HANDLE hEvent)
     ullTimeStamp = pRenderedValues[EvtSystemTimeCreated].FileTimeVal;
     ft.dwHighDateTime = (DWORD)((ullTimeStamp >> 32) & 0xFFFFFFFF);
     ft.dwLowDateTime = (DWORD)(ullTimeStamp & 0xFFFFFFFF);
-    
+
     FileTimeToSystemTime(&ft, &st);
     ullNanoseconds = (ullTimeStamp % 10000000) * 100; // Display nanoseconds instead of milliseconds for higher resolution
     wprintf(L"TimeCreated SystemTime: %02d/%02d/%02d %02d:%02d:%02d.%I64u)\n", 
@@ -196,7 +196,6 @@ cleanup:
     return status;
 }
 ```
-
 
 
 The following example shows how to render the specific values from the event. Use an XPath expression to specify the specific node or attribute to retrieve. You can specify one or more expressions to retrieve one or more values.
@@ -268,13 +267,3 @@ cleanup:
     return status;
 }
 ```
-
-
-
- 
-
- 
-
-
-
-
