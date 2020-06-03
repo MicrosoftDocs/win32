@@ -11,7 +11,7 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 06/03/2020
 ---
 
 # Message Compiler (MC.exe)
@@ -31,7 +31,7 @@ MC [-?aAbcdnouUv] [-m <length>] [-h <path>] [-e <extension>] [-r <path>]
 -   [Arguments specific to generating code that your provider would use to log events](#arguments-specific-to-generating-code-that-your-provider-would-use-to-log-events)
 -   [Arguments specific to message text files](#arguments-specific-to-message-text-files)
 
-### Arguments common to both message text files and manifest files
+## Arguments common to both message text files and manifest files
 
 <dl> <dt>
 
@@ -175,14 +175,14 @@ You can use this argument with the **-km** or **-um** argument.
 <span id="-cs_namespace"></span><span id="-CS_NAMESPACE"></span>**-cs** *namespace*
 </dt> <dd>
 
-Use this argument to have the compiler generate a C# class based on the .NET 3.5 [EventProvider](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.eventing.eventprovider?view=netframework-3.5) class.
+Use this argument to have the compiler generate a C# class based on the .NET 3.5 [EventProvider](https://docs.microsoft.com/dotnet/api/system.diagnostics.eventing.eventprovider?view=netframework-3.5) class.
 
 </dd> <dt>
 
 <span id="-css_namespace"></span><span id="-CSS_NAMESPACE"></span>**-css** *namespace*
 </dt> <dd>
 
-Use this argument to have the compiler generate a static C# class based on the .NET 3.5 [EventProvider](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.eventing.eventprovider?view=netframework-3.5) class.
+Use this argument to have the compiler generate a static C# class based on the .NET 3.5 [EventProvider](https://docs.microsoft.com/dotnet/api/system.diagnostics.eventing.eventprovider?view=netframework-3.5) class.
 
 </dd> <dt>
 
