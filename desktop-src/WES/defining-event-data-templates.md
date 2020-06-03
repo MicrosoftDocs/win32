@@ -34,16 +34,16 @@ The following example shows how to define a template. You must specify the templ
 ```XML
 <instrumentationManifest
     xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="https://www.w3.org/2001/XMLSchema"    
+    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     >
 
     <instrumentation>
         <events>
-            <provider name="Microsoft-Windows-SampleProvider" 
-                guid="{1db28f2e-8f80-4027-8c5a-a11f7f10f62d}" 
-                symbol="PROVIDER_GUID" 
-                resourceFileName="<path to the exe or dll that contains the metadata resources>" 
+            <provider name="Microsoft-Windows-SampleProvider"
+                guid="{1db28f2e-8f80-4027-8c5a-a11f7f10f62d}"
+                symbol="PROVIDER_GUID"
+                resourceFileName="<path to the exe or dll that contains the metadata resources>"
                 messageFileName="<path to the exe or dll that contains the string resources>"
                 message="$(string.Provider.Name)">
 
@@ -68,11 +68,16 @@ The following example shows how to define a template. You must specify the templ
 
                 <templates>
                     <template tid="t2">
+                        <data name="TransferName" inType="win:UnicodeString"/>
                         <data name="Day" inType="win:UInt32" map="DaysOfTheWeek"/>
                         <data name="Transfer" inType="win:UInt32" map="TransferType"/>
                     </template>
 
                     <template tid="t3">
+                        <data name="TransferName" inType="win:UnicodeString"/>
+                        <data name="ErrorCode" inType="win:Int32" outType="win:HResult"/>
+                        <data name="FilesCount" inType="win:UInt16" />
+                        <data name="Files" inType="win:UnicodeString" count="FilesCount"/>
                         <data name="BufferSize" inType="win:UInt32" />
                         <data name="Buffer" inType="win:Binary" length="BufferSize"/>
                         <data name="Certificate" inType="win:Binary" length="11" />
@@ -112,13 +117,3 @@ The following example shows how to define a template. You must specify the templ
 
 </instrumentationManifest>
 ```
-
-
-
- 
-
- 
-
-
-
-

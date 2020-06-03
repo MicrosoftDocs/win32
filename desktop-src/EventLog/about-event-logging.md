@@ -14,7 +14,6 @@ When an error occurs, the system administrator or support representative must de
 > The Event Logging API was designed for applications that run on the Windows Server 2003, Windows XP, or Windows 2000 operating system. In Windows Vista, the event logging infrastructure was redesigned. Applications that are designed to run on the Windows Vista or later operating systems should now use [Windows Event Log](https://docs.microsoft.com/windows/desktop/WES/windows-event-log) to log events.
 
  
-
 This section discusses the programming interface for writing and consuming events using Event Logging.
 
 -   [Event types](event-types.md)
@@ -26,12 +25,3 @@ This section discusses the programming interface for writing and consuming event
 
 > [!Note]  
 > Applications that publish events that are larger than 64 kilobytes on a Windows Server 2003, Windows XP, or Windows 2000 computer will not be able to publish events on a Windows Vista or later computer.
-
- 
-
- 
-
- 
-
-
-

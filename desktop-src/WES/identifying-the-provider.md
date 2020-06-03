@@ -47,13 +47,3 @@ The following example shows how to use the **provider** element to identify a pr
 
 </instrumentationManifest>
 ```
-
-
-
- 
-
- 
-
-
-
-

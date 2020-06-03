@@ -18,13 +18,3 @@ wevtutil im provider.man
 
 wevtutil um provider.man
 ```
-
-
-
- 
-
- 
-
-
-
-
