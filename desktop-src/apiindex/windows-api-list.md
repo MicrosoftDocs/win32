@@ -1,18 +1,18 @@
 ---
 Description: A list of the reference content for the Windows API.
 ms.assetid: 9CA123F9-92F1-4761-9468-266DA422F70E
-title: Windows API Index
+title: Windows API index
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Windows API Index
+# Windows API index
 
 The following is a list of the reference content for the Windows application programming interface (API) for desktop and server applications.
 
 Using the Windows API, you can develop applications that run successfully on all versions of Windows while taking advantage of the features and capabilities unique to each version. (Note that this was formerly called the Win32 API. The name Windows API more accurately reflects its roots in 16-bit Windows and its support on 64-bit Windows.)
 
-## User Interface
+## User interface
 
 The Windows UI API create and use windows to display output, prompt for user input, and carry out the other tasks that support interaction with the user. Most applications create at least one window.
 
@@ -52,14 +52,14 @@ The Windows UI API create and use windows to display output, prompt for user inp
 -   [Windows Animation Manager](https://msdn.microsoft.com/library/Dd756787(v=VS.85).aspx)
 -   [Windows Ribbon Framework](https://msdn.microsoft.com/library/Dd371195(v=VS.85).aspx)
 
-## Windows Environment (Shell)
+## Windows environment (Shell)
 
 -   [Windows Property System](https://msdn.microsoft.com/library/Ff728872(v=VS.85).aspx)
 -   [Windows Shell](https://msdn.microsoft.com/library/Ff521731(v=VS.85).aspx)
 -   [Windows Search](https://msdn.microsoft.com/library/Ee872061(v=VS.85).aspx)
 -   [Consoles](https://msdn.microsoft.com/library/ms682087(v=VS.85).aspx)
 
-## User Input and Messaging
+## User input and messaging
 
 -   [User Interaction](https://msdn.microsoft.com/library/Ff657750(v=VS.85).aspx)
     -   [Direct Manipulation](https://msdn.microsoft.com/library/Hh446969(v=VS.85).aspx)
@@ -143,7 +143,7 @@ The [Diagnostics](https://msdn.microsoft.com/library/Bb648685(v=VS.85).aspx) API
 -   [Windows Event Log](https://msdn.microsoft.com/library/Aa385785(v=VS.85).aspx)
 -   [Windows Troubleshooting Platform](https://msdn.microsoft.com/library/Dd323775(v=VS.85).aspx)
 
-## Graphics and Multimedia
+## Graphics and multimedia
 
 The [Graphics, multimedia,](https://msdn.microsoft.com/library/Aa969176(v=VS.85).aspx) [audio, and video](https://msdn.microsoft.com/library/Ee663260(v=VS.85).aspx) APIs enable applications to incorporate formatted text, graphics, audio, and video.
 
@@ -153,9 +153,16 @@ The [Graphics, multimedia,](https://msdn.microsoft.com/library/Aa969176(v=VS.85)
 -   [DirectShow](https://msdn.microsoft.com/library/Dd375467(v=VS.85).aspx)
 -   [DirectWrite](https://msdn.microsoft.com/library/Dd371572(v=VS.85).aspx)
 -   [DirectX](https://msdn.microsoft.com/library/Ee663275(v=VS.85).aspx)
+-   [Graphics Device Interface (GDI)](https://msdn.microsoft.com/library/Dd145203(v=VS.85).aspx)
+-   [GDI+](https://msdn.microsoft.com/library/ms533799(v=VS.85).aspx)
 -   [Media Streaming](https://msdn.microsoft.com/library/Hh828986(v=VS.85).aspx)
 -   [Microsoft Media Foundation](https://msdn.microsoft.com/library/ms704847(v=VS.85).aspx)
 -   [Microsoft TV Technologies](https://msdn.microsoft.com/library/Dd695084(v=VS.85).aspx)
+-   [OpenGL](https://msdn.microsoft.com/library/Dd368808(v=VS.85).aspx)
+-   [Monitor Configuration](https://msdn.microsoft.com/library/Dd692965(v=VS.85).aspx)
+-   [Multiple Display Monitors](https://msdn.microsoft.com/library/Dd145073(v=VS.85).aspx)
+-   [Picture Acquisition](https://msdn.microsoft.com/library/Dd370843(v=VS.85).aspx)
+-   [Windows Color System](https://msdn.microsoft.com/library/Dd372181(v=VS.85).aspx)
 -   [Windows Imaging Component (WIC)](https://msdn.microsoft.com/library/Ee719800(v=VS.85).aspx)
 -   [Windows Media Audio and Video Codec and DSP](https://msdn.microsoft.com/library/Dd443208(v=VS.85).aspx)
 -   [Windows Media Center](https://msdn.microsoft.com/library/Dd370843(v=VS.85).aspx)
@@ -164,6 +171,7 @@ The [Graphics, multimedia,](https://msdn.microsoft.com/library/Aa969176(v=VS.85)
 -   [Windows Media Player](https://msdn.microsoft.com/library/Dd564680(v=VS.85).aspx)
 -   [Windows Media Services](https://msdn.microsoft.com/library/Dd893580(v=VS.85).aspx)
 -   [Windows Movie Maker](https://msdn.microsoft.com/library/JJ203966(v=VS.85).aspx)
+-   [Windows Multimedia](https://msdn.microsoft.com/library/Dd743606(v=VS.85).aspx)
 
 ## Devices
 
@@ -191,7 +199,7 @@ The [Graphics, multimedia,](https://msdn.microsoft.com/library/Aa969176(v=VS.85)
 -   [Windows Media Device Manager](https://msdn.microsoft.com/library/Ff801760(v=VS.85).aspx)
 -   [Windows Portable Devices](https://msdn.microsoft.com/library/Dd375709(v=VS.85).aspx)
 
-## System Services
+## System services
 
 The [System Services](https://msdn.microsoft.com/library/Aa969179(v=VS.85).aspx) APIs give applications access to the resources of the computer and the features of the underlying operating system, such as memory, file systems, devices, processes, and threads.
 
@@ -220,7 +228,7 @@ The [System Services](https://msdn.microsoft.com/library/Aa969179(v=VS.85).aspx)
     -   [Time](https://msdn.microsoft.com/library/ms725479(v=VS.85).aspx)
     -   [Time Provider](https://msdn.microsoft.com/library/ms725477(v=VS.85).aspx)
 
-## Security and Identity
+## Security and identity
 
 The [Security and Identity](https://msdn.microsoft.com/library/Gg537265(v=VS.85).aspx) APIs enable password authentication at logon, discretionary protection for all sharable system objects, privileged access control, rights management, and security auditing.
 
@@ -242,7 +250,7 @@ The [Security and Identity](https://msdn.microsoft.com/library/Gg537265(v=VS.85)
 -   [TPM Base Services (TBS)](https://msdn.microsoft.com/library/Aa446794(v=VS.85).aspx)
 -   [Windows Biometric Framework](https://msdn.microsoft.com/library/Dd401510(v=VS.85).aspx)
 
-## Application Installation and Servicing
+## Application installation and servicing
 
 -   [Games Explorer](https://msdn.microsoft.com/library/Ee415251(v=VS.85).aspx)
 -   [Side-by-side Assemblies](https://msdn.microsoft.com/library/Aa376414(v=VS.85).aspx)
@@ -252,7 +260,7 @@ The [Security and Identity](https://msdn.microsoft.com/library/Gg537265(v=VS.85)
 -   [Restart Manager](https://msdn.microsoft.com/library/Aa373656(v=VS.85).aspx)
 -   [Windows Installer](https://msdn.microsoft.com/library/Cc185688(v=VS.85).aspx)
 
-## System Admin and Management
+## System admin and management
 
 The [System administration](https://msdn.microsoft.com/library/Hh309472(v=VS.85).aspx) interfaces enable you to install, configure, and service applications or systems.
 
@@ -285,7 +293,7 @@ The [System administration](https://msdn.microsoft.com/library/Hh309472(v=VS.85)
 -   [Windows System Assessment Tool](https://msdn.microsoft.com/library/ms737395(v=VS.85).aspx)
 -   [Windows Update Agent](https://msdn.microsoft.com/library/Aa387099(v=VS.85).aspx)
 
-## Networking and Internet
+## Networking and internet
 
 The [Networking](https://msdn.microsoft.com/library/Gg537258(v=VS.85).aspx) APIs enable communication between applications over a network. You can also create and manage access to shared resources, such as directories and network printers.
 
@@ -337,29 +345,14 @@ The following are technologies and APIs that are outdated or have been replaced 
 
 -   [DirectMusic](https://msdn.microsoft.com/library/ms807133(v=MSDN.10).aspx)
 -   [DirectSound](https://msdn.microsoft.com/library/Ee416975(v=VS.85).aspx)
--   [Graphics Device Interface (GDI)](https://msdn.microsoft.com/library/Dd145203(v=VS.85).aspx): Use [Direct2D](https://msdn.microsoft.com/library/Dd372349(v=VS.85).aspx) instead.
--   [GDI+](https://msdn.microsoft.com/library/ms533799(v=VS.85).aspx): Use [Direct2D](https://msdn.microsoft.com/library/Dd372349(v=VS.85).aspx) instead.
 -   [Microsoft UDDI SDK](https://msdn.microsoft.com/library/Aa966237(v=BTS.10).aspx) is now included with [Microsoft BizTalk Server](https://msdn.microsoft.com/library/bb905520.aspx).
--   [Monitor Configuration](https://msdn.microsoft.com/library/Dd692965(v=VS.85).aspx)
--   [Multiple Display Monitors](https://msdn.microsoft.com/library/Dd145073(v=VS.85).aspx)
 -   [Network Dynamic Data Exchange (DDE)](https://msdn.microsoft.com/library/Aa365775(v=VS.85).aspx)
--   [OpenGL](https://msdn.microsoft.com/library/Dd368808(v=VS.85).aspx)
--   [Picture Acquisition](https://msdn.microsoft.com/library/Dd370843(v=VS.85).aspx)
 -   [Remote Installation Service](https://msdn.microsoft.com/library/Cc786442(v=WS.10).aspx): Use [Windows Deployment Services](https://msdn.microsoft.com/library/Dd379586(v=VS.85).aspx) instead.
 -   [Virtual Disk Service (VDS)](https://msdn.microsoft.com/library/Aa383429(v=VS.85).aspx): Use [Windows Storage Management](https://msdn.microsoft.com/library/Hh830613(v=VS.85).aspx) instead.
 -   Terminal Services: Use [Remote Desktop Services](https://msdn.microsoft.com/library/Aa383494(v=VS.85).aspx).
--   [Windows Color System](https://msdn.microsoft.com/library/Dd372181(v=VS.85).aspx)
 -   [Windows Media Rights Manager](https://docs.microsoft.com/previous-versions//bb614742(v=vs.85))
 -   [Windows Messaging (MAPI)](https://msdn.microsoft.com/library/Dd296730(v=VS.85).aspx): Use [Office MAPI](https://msdn.microsoft.com/library/Cc765775(v=office.12).aspx) instead.
--   [Windows Multimedia](https://msdn.microsoft.com/library/Dd743606(v=VS.85).aspx)
 -   [Windows Gadget Platform](https://docs.microsoft.com/previous-versions/windows/desktop/gadgetplatform/windows-gadget-platform-portal): Create UWP apps instead.
 -   [Windows Sidebar](https://msdn.microsoft.com/library/Aa965853(v=VS.85).aspx): Create UWP apps instead.
 -   [Windows SideShow](https://msdn.microsoft.com/library/ms744179(v=VS.85).aspx): No replacement.
 -   [WPF Bitmap Effects](https://msdn.microsoft.com/library/ms735322(v=VS.85).aspx)
-
- 
-
- 
-
-
-
