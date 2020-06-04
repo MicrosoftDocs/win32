@@ -20,7 +20,7 @@ Just as an application must free memory it has allocated once that memory is no 
 
 It is important that an object be deallocated when it is no longer being used. The difficulty lies in determining when it is appropriate to deallocate an object. This is easy with automatic variables (those allocated on the stack)—they cannot be used outside the block in which they're declared, so the compiler deallocates them when the end of the block is reached. For COM objects, which are dynamically allocated, it is up to the clients of an object to decide when they no longer need to use the object—especially local or remote objects that might be in use by multiple clients at the same time. The object must wait until all clients are finished with it before freeing itself. Because COM objects are manipulated through interface pointers and can be used by objects in different processes or on other machines, the system cannot keep track of an object's clients.
 
-COM's method of determining when it is appropriate to deallocate an object is manual reference counting. Each object maintains a reference count that tracks how many clients are connected to itâ€”that is, how many pointers exist to any of its interfaces in any client.
+COM's method of determining when it is appropriate to deallocate an object is manual reference counting. Each object maintains a reference count that tracks how many clients are connected to it - that is, how many pointers exist to any of its interfaces in any client.
 
 For more information, see the following topics:
 
