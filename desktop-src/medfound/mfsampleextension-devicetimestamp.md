@@ -26,7 +26,7 @@ To set this attribute, call [**IMFAttributes::SetUINT64**](/windows/desktop/api/
 
 ## Remarks
 
-This attribute is set on media samples created by a media source for a capture device. This attribute carries the non-adjusted value of the query performance counter (QPC). This attribute is available for MFTs inserted into the capture pipeline.
+This attribute is set on media samples created by a media source for a capture device. This attribute's value is in the [**MFTIME**](mftime.md) domain, sharing an epoch with query performance counter (QPC) time and always expressed in 100ns units. This attribute is available for MFTs inserted into the capture pipeline.
 
 To get the time stamp relative to the start of streaming, call the [**IMFSample::GetSampleTime**](/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getsampletime) method.
 
