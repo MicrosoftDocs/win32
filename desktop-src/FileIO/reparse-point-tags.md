@@ -49,20 +49,49 @@ Each macro returns a nonzero value if the associated bit is set.
 
 The following are Microsoft's predefined reparse tag values; they are defined in WinNT.h:
 
--   **IO\_REPARSE\_TAG\_CSV**
--   **IO\_REPARSE\_TAG\_DEDUP**
--   **IO\_REPARSE\_TAG\_DFS**
--   **IO\_REPARSE\_TAG\_DFSR**
--   **IO\_REPARSE\_TAG\_HSM**
--   **IO\_REPARSE\_TAG\_HSM2**
--   **IO\_REPARSE\_TAG\_MOUNT\_POINT**
--   **IO\_REPARSE\_TAG\_NFS**
--   **IO\_REPARSE\_TAG\_RESERVED\_ONE**
--   **IO\_REPARSE\_TAG\_RESERVED\_RANGE**
--   **IO\_REPARSE\_TAG\_RESERVED\_ZERO**
--   **IO\_REPARSE\_TAG\_SIS**
--   **IO\_REPARSE\_TAG\_SYMLINK**
--   **IO\_REPARSE\_TAG\_WIM**
+-   **IO_REPARSE_TAG_AF_UNIX**
+-   **IO_REPARSE_TAG_APPEXECLINK**
+-   **IO_REPARSE_TAG_CLOUD**
+-   **IO_REPARSE_TAG_CLOUD_1**
+-   **IO_REPARSE_TAG_CLOUD_2**
+-   **IO_REPARSE_TAG_CLOUD_3**
+-   **IO_REPARSE_TAG_CLOUD_4**
+-   **IO_REPARSE_TAG_CLOUD_5**
+-   **IO_REPARSE_TAG_CLOUD_6**
+-   **IO_REPARSE_TAG_CLOUD_7**
+-   **IO_REPARSE_TAG_CLOUD_8**
+-   **IO_REPARSE_TAG_CLOUD_9**
+-   **IO_REPARSE_TAG_CLOUD_A**
+-   **IO_REPARSE_TAG_CLOUD_B**
+-   **IO_REPARSE_TAG_CLOUD_C**
+-   **IO_REPARSE_TAG_CLOUD_D**
+-   **IO_REPARSE_TAG_CLOUD_E**
+-   **IO_REPARSE_TAG_CLOUD_F**
+-   **IO_REPARSE_TAG_CLOUD_MASK**
+-   **IO_REPARSE_TAG_CSV**
+-   **IO_REPARSE_TAG_DEDUP**
+-   **IO_REPARSE_TAG_DFS**
+-   **IO_REPARSE_TAG_DFSR**
+-   **IO_REPARSE_TAG_FILE_PLACEHOLDER**
+-   **IO_REPARSE_TAG_GLOBAL_REPARSE**
+-   **IO_REPARSE_TAG_HSM**
+-   **IO_REPARSE_TAG_HSM2**
+-   **IO_REPARSE_TAG_MOUNT_POINT**
+-   **IO_REPARSE_TAG_NFS**
+-   **IO_REPARSE_TAG_ONEDRIVE**
+-   **IO_REPARSE_TAG_PROJFS**
+-   **IO_REPARSE_TAG_PROJFS_TOMBSTONE**
+-   **IO_REPARSE_TAG_SIS**
+-   **IO_REPARSE_TAG_STORAGE_SYNC**
+-   **IO_REPARSE_TAG_SYMLINK**
+-   **IO_REPARSE_TAG_UNHANDLED**
+-   **IO_REPARSE_TAG_WCI**
+-   **IO_REPARSE_TAG_WCI_1**
+-   **IO_REPARSE_TAG_WCI_LINK**
+-   **IO_REPARSE_TAG_WCI_LINK_1**
+-   **IO_REPARSE_TAG_WCI_TOMBSTONE**
+-   **IO_REPARSE_TAG_WIM**
+-   **IO_REPARSE_TAG_WOF**
 
 To ensure uniqueness of tags, Microsoft provides a mechanism to distribute new tags. For more information, see the [Installable File System (IFS) Kit](https://www.microsoft.com/whdc/devtools/ifskit/reparse.mspx).
 
