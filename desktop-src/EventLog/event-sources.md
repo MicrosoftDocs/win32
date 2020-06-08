@@ -29,7 +29,7 @@ HKEY_LOCAL_MACHINE
 
 You cannot use a source name that has already been used as a log name. In addition, source names cannot be hierarchical; that is, they cannot contain the backslash character ("\\").
 
-Each event source contains information (such as a [message file](message-files.md)) specific to the software that will be logging the events,, as shown in the following table.
+Each event source contains information (such as a [message file](message-files.md)) specific to the software that will be logging the events, as shown in the following table.
 
 
 
