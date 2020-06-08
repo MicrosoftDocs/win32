@@ -112,7 +112,7 @@ An Authenticode digital signature allows users to be sure that the software is g
 6.3 Exceptions and Waivers <dl> Waivers will be considered only for unsigned third-party redistributables, excluding drivers. A proof of communication requesting a signed version of the redistributable(s) is required for this waiver to be granted.  
 </dl> </dd> </dl>
 
-## 7. Apps don t block installation or app launch based on an operating system version check
+## 7. Apps don't block installation or app launch based on an operating system version check
 
 It is important that customers are not artificially blocked from installing or running their app when there are no technical limitations. In general, if apps were written for Windows Vista or later versions of Windows, they should not have to check the operating system version.<dl> 7.1 Your app must not perform version checks for equality <dl> If you need a specific feature, check whether the feature itself is available. If you need Windows 7, check for Windows 7 or later (>= 6.2). This way, your detection code will continue to work on future versions of Windows. Driver installers and uninstall modules should never check the operating system version.  
 </dl> </dd> 7.2 Exceptions and Waivers will be considered for apps meeting the criteria below:
@@ -124,7 +124,7 @@ It is important that customers are not artificially blocked from installing or r
 
 </dl>
 
-## 8. Apps don t load services or drivers in safe mode
+## 8. Apps don't load services or drivers in safe mode
 
 Safe mode allows users to diagnose and troubleshoot Windows. Drivers and services must not be set to load in safe mode unless they are needed for basic system operations of such as storage device drivers or for diagnostic and recovery purposes, such as anti-virus scanners,. By default, when Windows is in safe mode, it starts only the drivers and services that came preinstalled with Windows.
 
