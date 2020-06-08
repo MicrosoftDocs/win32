@@ -68,7 +68,7 @@ The following formats are optionally and individually supported on D3D12 and D3D
 -   R8G8\_UNORM
 -   R8G8\_UINT
 -   R8G8\_SNORM
--   8G8\_SINT
+-   R8G8\_SINT
 -   R16\_UNORM
 -   R16\_SNORM
 -   R8\_SNORM
