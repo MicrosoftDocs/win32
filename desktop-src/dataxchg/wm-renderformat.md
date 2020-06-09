@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # WM\_RENDERFORMAT message
 
-Sent to the clipboard owner if it has delayed rendering a specific clipboard format and if an application has requested data in that format. The clipboard owner must render data in the specified format and place it on the clipboard by calling the [**SetClipboardData**](/windows/desktop/api/Winuser/nf-winuser-setclipboarddata) function.
+Sent to the clipboard owner if it has delayed rendering a specific clipboard format and if an application has requested data in that format. The clipboard owner must render data in the specified format and place it on the clipboard by calling the [**SetClipboardData**](/windows/win32/api/winuser/nf-winuser-setclipboarddata) function.
 
 
 ```C++
@@ -51,7 +51,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-When responding to a **WM\_RENDERFORMAT** message, the clipboard owner must not open the clipboard before calling [**SetClipboardData**](/windows/desktop/api/Winuser/nf-winuser-setclipboarddata).
+When responding to a **WM\_RENDERFORMAT** message, the clipboard owner must not open the clipboard before calling [**SetClipboardData**](/windows/win32/api/winuser/nf-winuser-setclipboarddata). Opening the clipboard is not necessary before placing data in response to **WM\_RENDERFORMAT**, and any attempt to open the clipboard will fail because the clipboard is currently being held open by the application that requested the format to be rendered.
 
 ## Requirements
 
@@ -72,7 +72,7 @@ When responding to a **WM\_RENDERFORMAT** message, the clipboard owner must not 
 **Reference**
 </dt> <dt>
 
-[**SetClipboardData**](/windows/desktop/api/Winuser/nf-winuser-setclipboarddata)
+[**SetClipboardData**](/windows/win32/api/winuser/nf-winuser-setclipboarddata)
 </dt> <dt>
 
 [**WM\_RENDERALLFORMATS**](wm-renderallformats.md)
