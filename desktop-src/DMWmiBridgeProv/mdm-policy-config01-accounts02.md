@@ -87,7 +87,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DomainNamesForEmailSync](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-accounts#accounts-domainnamesforemailsync)
+DomainNamesForEmailSync
 </dt> <dd> <dl> <dt>
 
 Data type: **string**

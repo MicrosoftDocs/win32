@@ -51,7 +51,7 @@ The **MDM\_Policy\_Config01\_Location02** class has these properties.
 
 <dl> <dt>
 
-[EnableLocation](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-location#location-enablelocation)
+**EnableLocation**
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
