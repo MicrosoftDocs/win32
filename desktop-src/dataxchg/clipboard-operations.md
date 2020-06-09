@@ -45,7 +45,7 @@ After determining the clipboard format to use, a window calls the [**GetClipboar
 
 ## Clipboard Ownership
 
-The *clipboard owner* is the window associated with the information on the clipboard. A window becomes the clipboard owner when it places data on the clipboard specifically, when it calls the [**EmptyClipboard**](/windows/desktop/api/Winuser/nf-winuser-emptyclipboard) function. The window remains the clipboard owner until it is closed or another window empties the clipboard.
+The *clipboard owner* is the window associated with the information on the clipboard. A window becomes the clipboard owner when it places data on the clipboard, specifically, when it calls the [**EmptyClipboard**](/windows/desktop/api/Winuser/nf-winuser-emptyclipboard) function. The window remains the clipboard owner until it is closed or another window empties the clipboard.
 
 When the clipboard is emptied, the clipboard owner receives a [**WM\_DESTROYCLIPBOARD**](wm-destroyclipboard.md) message. Following are some reasons why a window might process this message:
 
