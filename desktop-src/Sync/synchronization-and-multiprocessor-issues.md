@@ -33,7 +33,6 @@ The following synchronization functions use the appropriate barriers to ensure m
 -   One-time initialization begin and completion
 -   **EnterSynchronizationBarrier** function
 -   Functions that signal synchronization objects
--   Functions that wake from waiting on condition variables or from waiting on addresses
 -   Wait functions
 -   Interlocked functions (except functions with _NoFence_ suffix, or intrinsics with _\_nf_ suffix)
 
