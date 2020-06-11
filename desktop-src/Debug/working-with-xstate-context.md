@@ -75,7 +75,7 @@ PrintThreadAvxState (
     PM128A Ymm;
 
     // If this function was called before and we were not running on 
-    // at least Windws 7 SP1, then bail.
+    // at least Windows 7 SP1, then bail.
     if (pfnGetEnabledXStateFeatures == (PGETENABLEDXSTATEFEATURES)-1)
     {
         _tprintf(_T("This needs to run on Windows 7 SP1 or greater.\n"));
