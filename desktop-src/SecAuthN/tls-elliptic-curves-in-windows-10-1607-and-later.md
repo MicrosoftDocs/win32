@@ -2,6 +2,7 @@
 Description: Elliptic curves enabled in Windows 10 version 1607 and later.
 title: TLS Elliptic Curves in Windows 10 version 1607 and later
 ms.topic: article
+ms.keywords: 'ecc curves, elliptic curves, tls elliptic curves, ECC curves'
 ms.date: 06/10/2020
 ---
 
