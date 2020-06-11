@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent after a window has been moved.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-defwindowproca) function.
 
 
 ```C++
@@ -59,6 +59,12 @@ yPos = (int)(short) HIWORD(lParam);   // vertical position
 
 You can also use the [**MAKEPOINTS**](https://msdn.microsoft.com/library/Dd145043(v=VS.85).aspx) macro to convert the *lParam* parameter to a [**POINTS**](https://msdn.microsoft.com/library/Dd162808(v=VS.85).aspx) structure.
 
+The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function
+sends the **WM\_SIZE** and **WM\_MOVE** messages when it processes
+the [**WM\_WINDOWPOSCHANGED**](wm-windowposchanged.md) message.
+The **WM\_SIZE** and **WM\_MOVE** messages are not sent if an application handles
+the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
+
 ## Requirements
 
 
@@ -82,6 +88,9 @@ You can also use the [**MAKEPOINTS**](https://msdn.microsoft.com/library/Dd14504
 </dt> <dt>
 
 [**LOWORD**](https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx)
+</dt> <dt>
+
+[**WM\_WINDOWPOSCHANGED**](wm-windowposchanged.md)
 </dt> <dt>
 
 **Conceptual**
