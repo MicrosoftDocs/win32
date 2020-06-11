@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent after a window has been moved.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](https://docs.microsoft.com/\windows/win32/api/winuser/nf-winuser-defwindowproca) function.
 
 
 ```C++
