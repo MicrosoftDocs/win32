@@ -227,7 +227,6 @@
             - name: "Transport Layer Security Protocol"
               href: transport-layer-security-protocol.md
               items: 
-
               - name: "TLS Handshake Protocol"
                 href: tls-handshake-protocol.md
               - name: "TLS Record Protocol"
