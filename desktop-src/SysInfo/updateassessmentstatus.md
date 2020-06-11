@@ -17,7 +17,7 @@ api_location:
 
 # UpdateAssessmentStatus enumeration
 
-Describes how up-to-date the OS on a device is.**UpdateAssessmentStatus** is used by the [**UpdateAssessment**](/windows/win32/api/waasapitypes/ns-waasapitypes-updateassessment) and [**OSUpdateAssessment**](/windows/win32/api/waasapitypes/ns-waasapitypes-osupdateassessment) structures, in the **assessmentForCurrent**, **assessmentForUpToDate**, and **securityStatus** members. Exactly one constant is returned.
+Describes how up-to-date the OS on a device is. **UpdateAssessmentStatus** is used by the [**UpdateAssessment**](/windows/win32/api/waasapitypes/ns-waasapitypes-updateassessment) and [**OSUpdateAssessment**](/windows/win32/api/waasapitypes/ns-waasapitypes-osupdateassessment) structures, in the **assessmentForCurrent**, **assessmentForUpToDate**, and **securityStatus** members. Exactly one constant is returned.
 
 ## Syntax
 
@@ -34,7 +34,8 @@ typedef enum TagUpdateAssessmentStatus {
       UpdateAssessmentStatus_NotLatestPausedFeature    = 7,
       UpdateAssessmentStatus_NotLatestPausedQuality    = 8,
       UpdateAssessmentStatus_NotLatestManaged          = 9,
-      UpdateAssessmentStatus_NotLatestUnknown          = 10
+      UpdateAssessmentStatus_NotLatestUnknown          = 10,
+      UpdateAssessmentStatus_NotLatestTargetedVersion  = 11
 } UpdateAssessmentStatus;
 ```
 
@@ -123,6 +124,13 @@ The device is not on the latest update because the approval of updates is not do
 </dt> <dd>
 
 The device is not on the latest update due to a reason that cannot be determined by the assessment.
+
+</dd> <dt>
+
+<span id="____UpdateAssessmentStatus_NotLatestTargetedVersion"></span><span id="____updateassessmentstatus_notlatesttargetedversion"></span><span id="____UPDATEASSESSMENTSTATUS_NOTLATESTTARGETEDVERSION"></span> **UpdateAssessmentStatus\_NotLatestTargetedVersion**
+</dt> <dd>
+
+The device is not on the latest feature update due to the device's Windows Update for Business Target Version policy. This policy is keeping the device on the targeted feature release version.
 
 </dd> </dl>
 
