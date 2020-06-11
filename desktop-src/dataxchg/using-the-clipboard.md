@@ -464,9 +464,12 @@ case WM_RENDERFORMAT:
     RenderFormat((UINT) wParam); 
     break; 
  
-case WM_RENDERALLFORMATS: 
-    RenderFormat(uLabelFormat); 
-    RenderFormat(CF_TEXT); 
+case WM_RENDERALLFORMATS:
+    if (OpenClipboard(hwnd) && GetClipboardOwner() == hwnd)
+    {
+        RenderFormat(uLabelFormat);
+        RenderFormat(CF_TEXT);
+    }
     break;
 ```
 
