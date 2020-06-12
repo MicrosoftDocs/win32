@@ -33,16 +33,16 @@ The WDS client includes a graphical user interface that runs within the Windows 
 
 A sample custom PXE provider, filter provider, and WDS client application is available in the Microsoft Windows Software Development Kit (SDK), see [Microsoft Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-10-sdk/).
 
-You can download the following WDS samples online in the [desktop code gallery](https://code.msdn.microsoft.com/windowsdesktop/).
+You can download the following WDS samples online in the [desktop code gallery](https://github.com/microsoft/Windows-classic-samples).
 
 <dl>
 
-[Windows Deployment Services filter provider sample](https://code.msdn.microsoft.com/windowsdesktop/Windows-Deployment-filter-a6d478f7)  
-[Windows Deployment Services image enumeration sample](https://code.msdn.microsoft.com/windowsdesktop/Windows-Deployment-image-64dfe835)  
-[Windows Deployment Services multicast consumer sample](https://code.msdn.microsoft.com/windowsdesktop/Windows-Deployment-7f5f5f8f)  
-[Windows Deployment Services multicast provider sample](https://code.msdn.microsoft.com/windowsdesktop/Windows-Deployment-7f5f5f8f)  
-[Windows Deployment Services provider sample](https://code.msdn.microsoft.com/windowsdesktop/Windows-Deployment-filter-a6d478f7)  
-[Windows Deployment Services transport manager sample](https://code.msdn.microsoft.com/windowsdesktop/Windows-Deployment-d6e6be31)  
+[Windows Deployment Services filter provider sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/WindowsDeploymentServices/FilterProvider)  
+[Windows Deployment Services image enumeration sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/WindowsDeploymentServices/ImageEnumeration)  
+[Windows Deployment Services multicast consumer sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/WindowsDeploymentServices/Multicast/WdsProvider)  
+[Windows Deployment Services multicast provider sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/WindowsDeploymentServices/Multicast/WdsProvider)  
+[Windows Deployment Services provider sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/WindowsDeploymentServices/FilterProvider)  
+[Windows Deployment Services transport manager sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/WindowsDeploymentServices/Management/WDSTransportManager)  
 </dl>
 
 ## Related topics
