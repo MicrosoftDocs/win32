@@ -452,7 +452,7 @@ if (uLabelFormat == 0)
 
 If a window passes a **NULL** handle to the [**SetClipboardData**](/windows/desktop/api/Winuser/nf-winuser-setclipboarddata) function, it must process the [**WM\_RENDERFORMAT**](wm-renderformat.md) and [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) messages to render data upon request.
 
-If a window delays rendering a specific format and then another application requests data in that format, a [**WM\_RENDERFORMAT**](wm-renderformat.md) message is sent to the window. In addition, if a window delays rendering one or more formats, and if some of those formats remain unrendered when the window is about to be destroyed, then a [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) message is sent to the window before its destruction.
+If a window delays rendering a specific format and then another application requests data in that format, then a [**WM\_RENDERFORMAT**](wm-renderformat.md) message is sent to the window. In addition, if a window delays rendering one or more formats, and if some of those formats remain unrendered when the window is about to be destroyed, then a [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) message is sent to the window before its destruction.
 
 To render a clipboard format, the window procedure should place a non-**NULL** data handle on the clipboard using the [**SetClipboardData**](/windows/desktop/api/Winuser/nf-winuser-setclipboarddata) function. If it is rendering a format in response to the [**WM\_RENDERFORMAT**](wm-renderformat.md) message, it must not open the clipboard before calling **SetClipboardData**, but if it is rendering one or more formats in response to the [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) message, it must open the clipboard before calling **SetClipboardData** and close it afterward.
 
@@ -467,7 +467,7 @@ case WM_RENDERFORMAT:
 case WM_RENDERALLFORMATS:
     if (OpenClipboard(hwnd))
     {
-        if (GetClipboardOwner() == hwnd))
+        if (GetClipboardOwner() == hwnd)
         {
             RenderFormat(uLabelFormat);
             RenderFormat(CF_TEXT);
