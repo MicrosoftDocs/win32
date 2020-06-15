@@ -63,7 +63,7 @@ An application must not open the clipboard before calling [**SetClipboardData**]
 
 If the clipboard owner is about to be destroyed and has delayed rendering some or all clipboard formats, it receives the [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) message. Upon receiving this message, the window should open the clipboard, check that it is still the clipboard owner with the the [**GetClipboardOwner**](/windows/win32/api/winuser/nf-winuser-getclipboardowner) function, and then place valid memory handles on the clipboard for all clipboard formats that it provides. This ensures that these formats remain available after the clipboard owner is destroyed.
 
-Unlike with [**WM\_RENDERFORMAT**](wm-renderformat.md), an appplication responding to [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) should open the clipboard before calling [**SetClipboardData**](/windows/win32/api/winuser/nf-winuser-setclipboarddata) to place any global memory handles on the clipboard.
+Unlike with [**WM\_RENDERFORMAT**](wm-renderformat.md), an application responding to [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) should open the clipboard before calling [**SetClipboardData**](/windows/win32/api/winuser/nf-winuser-setclipboarddata) to place any global memory handles on the clipboard.
 
 Any clipboard formats that are not rendered in response to the [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) message cease to be available to other applications and are no longer enumerated by the clipboard functions.
 
