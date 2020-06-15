@@ -452,9 +452,9 @@ if (uLabelFormat == 0)
 
 If a window passes a **NULL** handle to the [**SetClipboardData**](/windows/desktop/api/Winuser/nf-winuser-setclipboarddata) function, it must process the [**WM\_RENDERFORMAT**](wm-renderformat.md) and [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) messages to render data upon request.
 
-If the [**WM\_RENDERFORMAT**](wm-renderformat.md) message delayed rendering a specific format and an application requested data in that format, the message is sent to the clipboard owner. If the **WM\_RENDERFORMAT** message has delayed rendering one or more formats, the message is sent to the clipboard owner before it is destroyed.
+If a window delays rendering a specific format and then another application requests data in that format, a [**WM\_RENDERFORMAT**](wm-renderformat.md) message is sent to the window. In addition, if a window delays rendering one or more formats, and if some of those formats remain unrendered when the window is about to be destroyed, then a [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) message is sent to the window before its destruction.
 
-To render a clipboard format, the window procedure must place a data handle on the clipboard by using the [**SetClipboardData**](/windows/desktop/api/Winuser/nf-winuser-setclipboarddata) function. It must not open the clipboard before calling **SetClipboardData**.
+To render a clipboard format, the window procedure should place a non-**NULL** data handle on the clipboard using the [**SetClipboardData**](/windows/desktop/api/Winuser/nf-winuser-setclipboarddata) function. If it is rendering a format in response to the [**WM\_RENDERFORMAT**](wm-renderformat.md) message, it must not open the clipboard before calling **SetClipboardData**, but if it is rendering one or more formats in response to the [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) message, it must open the clipboard before calling **SetClipboardData** and close it afterward.
 
 The Label application processes the [**WM\_RENDERFORMAT**](wm-renderformat.md) and [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) messages as follows.
 
@@ -465,10 +465,14 @@ case WM_RENDERFORMAT:
     break; 
  
 case WM_RENDERALLFORMATS:
-    if (OpenClipboard(hwnd) && GetClipboardOwner() == hwnd)
+    if (OpenClipboard(hwnd))
     {
-        RenderFormat(uLabelFormat);
-        RenderFormat(CF_TEXT);
+        if (GetClipboardOwner() == hwnd))
+        {
+            RenderFormat(uLabelFormat);
+            RenderFormat(CF_TEXT);
+        }
+        CloseClipboard();
     }
     break;
 ```
