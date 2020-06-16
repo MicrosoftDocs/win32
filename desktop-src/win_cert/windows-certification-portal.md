@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # Certify your desktop application
 
+> [!IMPORTANT]
+> Certification for Win32 desktop apps is [deprecated](https://techcommunity.microsoft.com/t5/windows-hardware-certification/win32-logo-certification-deprecation/ba-p/364920). Instead, [submit files here](https://www.microsoft.com/wdsi/filesubmission/).
+
 Follow these steps to get your desktop app certified for Windows 7, Windows 8, Windows 8.1, and Windows 10.
 
 If you wish to convert your desktop app to be compatible with the Universal Windows Platform and Windows Store, you will use the [Windows Desktop Bridge](https://developer.microsoft.com/windows/bridges/desktop), in which case you should follow the [Desktop Bridge](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-root) guidance for certification steps.
