@@ -23,6 +23,14 @@ If you’re a professional data scientist that uses a native Linux environment d
 
 ## Students and beginners 
 
-If you’re a student or beginner looking to start building your knowledge in the ML space, then we recommend setting up the package of TensorFlow with a DirectML backend. This package currently accelerates workflows on AMD and Intel GPUs. Support for NVIDIA GPUs is coming soon. 
+If you’re a student or beginner looking to start building your knowledge in the ML space, we recommend setting up the TensorFlow with DirectML backend package. This package currently accelerates workflows on AMD and Intel GPUs. Support for NVIDIA GPUs is coming soon. 
 
-If you’re familiar with ML workflows in a native Linux environment, then we recommend running the [TensorFlow with DirectML package inside WSL 2](dml-tensorflow-wsl.md). If you’re more familiar with Windows and only getting started with ML workflows, then we recommend setting up the [TensorFlow with DirectML package on native Windows](dml-tensorflow-windows.md). 
+For those more familiar with a native Linux environment that are getting started with ML workflows, we recommend running the [TensorFlow with DirectML package inside WSL 2](dml-tensorflow-wsl.md). 
+
+For those more familiar with Windows that are getting started with ML workflows, we recommend setting up the [TensorFlow with DirectML package on native Windows](dml-tensorflow-windows.md). 
+
+## Next steps
+
+* Set up [NVIDIA CUDA preview in WSL 2](dml-cuda-in-wsl.md).
+* Set up [TensorFlow with DirectML package inside WSL 2](dml-tensorflow-wsl.md).
+* Set up [TensorFlow with DirectML package on native Windows](dml-tensorflow-windows.md).
