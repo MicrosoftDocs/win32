@@ -7,20 +7,20 @@ ms.date: 06/17/2020
 
 # Enable TensorFlow with DirectML in WSL 2
 
-This preview provides students and beginners a way to start building their knowledge in the ML space on their existing hardware by using the package of TensorFlow with a DirectML backend.Once set up, users can start with the [TensorFlow tutorial models](https://github.com/tensorflow/docs/tree/master/site/en/r1/tutorials) or [our examples](https://github.com/microsoft/DirectML). 
+This preview provides students and beginners a way to start building knowledge in the ML space on your existing hardware by using the TensorFlow with a DirectML backend package. Once set up, users can start with the [TensorFlow tutorial models](https://github.com/tensorflow/docs/tree/master/site/en/r1/tutorials) or our [DirectML samples](https://github.com/microsoft/DirectML). 
 
 > [!NOTE]
 > The following features are available in prerelease versions of Windows 10, and are subject to change.
 
 ## Install the latest Windows Insider Fast build 
 
-To use this preview, you'll need to [register for the Windows Insider Program](https://insider.windows.com/getting-started/#register). Once you do, follow [these instuctions](https://insider.windows.com/getting-started/#install) to install the latest insider build. When choosing your settings, ensure you're selecting the [Fast ring](https://insider.windows.com/how-to-pc/#about-rings). 
+To use this preview, you'll need to [register for the Windows Insider Program](https://insider.windows.com/getting-started/#register). Once you do, follow [these instuctions](https://insider.windows.com/en-us/getting-started/#install) to install the latest insider build. When choosing your settings, ensure you're selecting the [Fast ring](https://docs.microsoft.com/windows-insider/flight-hub/#active-development-builds-of-windows-10). 
 
-For this preview, you need Build 20150 or higher. You can check your build version number by running `winver` via the**Run** command.
+For this preview, you need Build 20150 or higher. You can check your build version number by running `winver` via the **Run** command (Windows logo key + R).
 
 ## Install the preview GPU driver 
 
-Before installing the package of TensorFlow with DirectML inside WSL 2 you need to install drivers from your GPU hardware vendor. These drivers enable the Windows GPU to work with WSL 2.
+Before installing the TensorFlow with DirectML package inside WSL 2, you need to install drivers from your GPU hardware vendor. These drivers enable the Windows GPU to work with WSL 2.
 
 ### AMD 
 
