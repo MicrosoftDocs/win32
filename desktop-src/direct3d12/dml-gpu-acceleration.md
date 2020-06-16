@@ -2,67 +2,27 @@
 title: GPU acceleration in WSL
 description: Direct Machine Learning (DirectML) powers GPU-accelleration in Windows Subsystem for Linux
 ms.topic: article
-ms.date: 05/19/2020
+ms.date: 06/17/2020
 ---
 
-
-# GPU acceleration in WSL
+# GPU accelerated ML training
 
 ![Windows ML graphic](images/winml-graphic.png)
 
+This documentation covers what is currently supported by the GPU accelerated machine learning (ML) training preview for the [Windows Subsystem for Linux](https://docs.microsoft.com/windows/wsl/about) (WSL) and native Windows.  
 
-Using DirectML, you can access your Windows GPU to accellerate machine learning workloads inside the Windows Subsystem for Linux environment. Here's how to get started.
-
+This preview supports both professional and beginner scenarios. Below you will find pointers to step-by-step guides on how to get your system setup depending on your level of expertise in ML, GPU vendor, and the software library you intend to use. 
 
 > [!NOTE]
 > The following features are available in prerelease versions of Windows 10, and are subject to change.
 
-## Prerequisites 
 
-### Install the latest Windows Insider Fast build 
+## Professionals
 
-* Join the [Windows Insider Program](https://insider.windows.com/) and select the "Fast" ring 
+If you’re a professional data scientist that uses a native Linux environment day-to-day for inner-loop ML development and experimentation, and you have an NVIDIA GPU, we recommend setting up the [NVIDIA CUDA preview in WSL 2.](dml-cuda-in-wsl.md)
 
-* Ensure you Windows 10 19614 or higher. Note that you can check your version number by running winver via the Run command 
+## Students and beginners 
 
-### Set up WSL 2 and install Ubuntu 18.04 (LTS) on your system
+If you’re a student or beginner looking to start building your knowledge in the ML space, then we recommend setting up the package of TensorFlow with a DirectML backend. This package currently accelerates workflows on AMD and Intel GPUs. Support for NVIDIA GPUs is coming soon. 
 
-The WSL installation instructions [can be found here](https://docs.microsoft.com/windows/wsl/wsl2-install). Note that these steps have been validated for Ubuntu 18.04 (LTS). They should work on any other glibc or musl based Linux distro, however.
-
-## Install the right GPU driver 
-
-You will need to install specific preview drivers that enable GPU accessibility inside of the WSL 2 container. In the following instructions there are links to the appropriate hardware vendors depending on the preview path you configure.
-
-## Enable DirectML training capabilities 
-
-Once you’ve completed the prerequisites you are ready to try out DirectML’s new training capabilities to accelerate your machine learning workloads. The following will guide you through the additional steps to configure your WSL 2 environment. 
-
-Since this is a preview we recommend you set up a virtual environment inside your WSL 2 instance. For these instructions, we will use [Anaconda’s Miniconda](https://docs.conda.io/en/latest/miniconda.html).
-
-You can install it by the above link, or in WSL 2 by running the following commands. 
-
-```
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-
-./Miniconda3-latest-Linux-x86_64.sh
-```
-
-Use the following command to create an environment using Python 3.6 named "dml".
-
-```
-conda create --name dml python=3.6
-```
-
-Now you are ready to install the custom TensorFlow package with a DirectML backend. We have our wheel hosted on pypi.org. To install, run this command.
-
-```
-pip install tensorflow-directml
-```
-
-Finally, install the right driver that supports the GPU hardware in your system. You can find more information on the drivers on the hardware vendors website – [AMD](https://www.amd.com/en/support) and [Intel](https://downloadcenter.intel.com/). 
-
-Now you can get started with the [TensorFlow tutorial models](https://github.com/tensorflow/docs/tree/master/site/en/r1), and start running machine learning training on your existing hardware! 
-
-### Expose CUDA in WSL 
-
-If you are interested in getting your exisiting CUDA workloads running inside WSL then the following will guide you through the additional steps to configure your WSL 2 environment. 
+If you’re familiar with ML workflows in a native Linux environment, then we recommend running the [TensorFlow with DirectML package inside WSL 2](dml-tensorflow-wsl.md). If you’re more familiar with Windows and only getting started with ML workflows, then we recommend setting up the [TensorFlow with DirectML package on native Windows](dml-tensorflow-windows.md). 
