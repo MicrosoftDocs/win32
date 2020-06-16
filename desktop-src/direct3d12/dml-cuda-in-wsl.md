@@ -24,7 +24,7 @@ Download and install the [NVIDIA CUDA-enabled driver for WSL](https://developer.
 
 ## Setup WSL 2 for the preview 
 
-Once you've installed the above driver, ensure you have a [WSL 2 glibc based distro installed](https://docs.microsoft.com/windows/wsl/install-win10). Ensure you have the latest kernel by selecting **Check for updates** in the **Windows Update** section of the Settings app. 
+Once you've installed the above driver, ensure you [enable WSL 2](https://docs.microsoft.com/windows/wsl/install-win10) and [install a glibc-based distribution](https://docs.microsoft.com/windows/wsl/install-win10#install-your-linux-distribution-of-choice) (like Ubuntu or Debian). Ensure you have the latest kernel by selecting **Check for updates** in the **Windows Update** section of the Settings app. 
 
 > [!NOTE]
 > Ensure you have the **Receive updates for other Microsoft products when you update Windows** enabled. You can find it in **Advanced options** within the **Windows Update** section of the Settings app. 
