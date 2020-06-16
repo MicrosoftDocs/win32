@@ -19,18 +19,18 @@ This preview supports both professional and beginner scenarios. Below you will f
 
 ## Professionals
 
-If you’re a professional data scientist that uses a native Linux environment day-to-day for inner-loop ML development and experimentation, and you have an NVIDIA GPU, we recommend setting up the [NVIDIA CUDA preview in WSL 2.](dml-cuda-in-wsl.md)
+If you’re a professional data scientist that uses a native Linux environment day-to-day for inner-loop ML development and experimentation, and you have an NVIDIA GPU, we recommend setting up the [NVIDIA CUDA preview in WSL 2.](gpu-cuda-in-wsl.md)
 
 ## Students and beginners 
 
 If you’re a student or beginner looking to start building your knowledge in the ML space, we recommend setting up the TensorFlow with DirectML backend package. This package currently accelerates workflows on AMD and Intel GPUs. Support for NVIDIA GPUs is coming soon. 
 
-For those more familiar with a native Linux environment that are getting started with ML workflows, we recommend running the [TensorFlow with DirectML package inside WSL 2](dml-tensorflow-wsl.md). 
+For those more familiar with a native Linux environment that are getting started with ML workflows, we recommend running the [TensorFlow with DirectML package inside WSL 2](gpu-tensorflow-wsl.md). 
 
-For those more familiar with Windows that are getting started with ML workflows, we recommend setting up the [TensorFlow with DirectML package on native Windows](dml-tensorflow-windows.md). 
+For those more familiar with Windows that are getting started with ML workflows, we recommend setting up the [TensorFlow with DirectML package on native Windows](gpu-tensorflow-windows.md). 
 
 ## Next steps
 
-* [Enable NVIDIA CUDA preview in WSL 2](dml-cuda-in-wsl.md).
-* [Enable TensorFlow with DirectML package inside WSL 2](dml-tensorflow-wsl.md).
-* [Enable TensorFlow with DirectML package on native Windows](dml-tensorflow-windows.md).
+* [Enable NVIDIA CUDA preview in WSL 2](gpu-cuda-in-wsl.md).
+* [Enable TensorFlow with DirectML package inside WSL 2](gpu-tensorflow-wsl.md).
+* [Enable TensorFlow with DirectML package on native Windows](gpu-tensorflow-windows.md).
