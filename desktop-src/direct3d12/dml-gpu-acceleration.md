@@ -31,6 +31,6 @@ For those more familiar with Windows that are getting started with ML workflows,
 
 ## Next steps
 
-* Set up [NVIDIA CUDA preview in WSL 2](dml-cuda-in-wsl.md).
-* Set up [TensorFlow with DirectML package inside WSL 2](dml-tensorflow-wsl.md).
-* Set up [TensorFlow with DirectML package on native Windows](dml-tensorflow-windows.md).
+* [Enable NVIDIA CUDA preview in WSL 2](dml-cuda-in-wsl.md).
+* [Enable TensorFlow with DirectML package inside WSL 2](dml-tensorflow-wsl.md).
+* [Enable TensorFlow with DirectML package on native Windows](dml-tensorflow-windows.md).
