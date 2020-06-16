@@ -222,14 +222,14 @@
       - name: "Handling errors and device-removal"
         href: dml-errors.md
       - name: "GPU acceleration in WSL"
-        href: dml-gpu-acceleration.md
+        href: gpu-accelerated-training.md
         items:
         - name: "Enable NVIDIA CUDA in WSL 2"
-          href: dml-cuda-in-wsl.md
+          href: gpu-cuda-in-wsl.md
         - name: "Enable TensorFlow with DirectML in WSL 2"
-          href: dml-tensorflow-wsl.md
+          href: gpu-tensorflow-wsl.md
         - name: "Enable TensorFlow with DirectML on Windows"
-          href: dml-tensorflow-windows.md
+          href: gpu-tensorflow-windows.md
       - name: "Helper functions"
         href: dml-helper-functions.md
       - name: "Sample applications"
