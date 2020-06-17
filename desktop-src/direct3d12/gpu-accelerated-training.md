@@ -14,7 +14,7 @@ This documentation covers what is currently supported by the GPU accelerated mac
 This preview supports both professional and beginner scenarios. Below you will find pointers to step-by-step guides on how to get your system setup depending on your level of expertise in ML, GPU vendor, and the software library you intend to use. 
 
 > [!NOTE]
-> The following features are available in prerelease versions of Windows 10, and are subject to change.
+> The following features are in preview, and are subject to change.
 
 
 ## Professionals
