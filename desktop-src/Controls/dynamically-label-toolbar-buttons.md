@@ -56,7 +56,7 @@ If you add a toolbar button string to the internal text list, you cannot retriev
 [Using Toolbar Controls](using-toolbar-controls.md)
 </dt> <dt>
 
-[Windows common controls demo (CppWindowsCommonControls)](https://code.msdn.microsoft.com/CppWindowsCommonControls-9ea0de64)
+[Windows common controls demo (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
  

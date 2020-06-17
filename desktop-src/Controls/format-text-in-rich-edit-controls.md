@@ -44,7 +44,7 @@ Foreground color is always a character attribute. In Microsoft Rich Edit 1.0, b
 [Using Rich Edit Controls](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Windows common controls demo (CppWindowsCommonControls)](https://code.msdn.microsoft.com/CppWindowsCommonControls-9ea0de64)
+[Windows common controls demo (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
  
