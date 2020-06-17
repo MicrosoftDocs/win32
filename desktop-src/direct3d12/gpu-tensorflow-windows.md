@@ -7,11 +7,14 @@ ms.date: 06/17/2020
 
 # Enable TensorFlow with DirectML on Windows
 
-This preview provides students and beginners a way to start building their knowledge in the ML space on their existing hardware by using the package of TensorFlow with a DirectML backend. Once set up, users can start with the [TensorFlow tutorial models](https://github.com/tensorflow/docs/tree/master/site/en/r1/tutorials) or [our DirectML samples](https://github.com/microsoft/DirectML). 
+This preview provides students and beginners a way to start building their knowledge in the ML space on their existing hardware by using the the TensorFlow with DirectML package. Once set up, users can start with the [TensorFlow tutorial models](https://github.com/tensorflow/docs/tree/master/site/en/r1/tutorials) or [our DirectML samples](https://github.com/microsoft/DirectML). 
+
+> [!NOTE]
+> The following feature is in preview, and are subject to change.
 
 ## Check your version of Windows 
 
-The TensorFlow with DirectML preview on native Windows works starting with Windows 10 Version 1709 (Build 16299 or higher). You can check your build version number by running `winver` via the **Run** command (Windows logo key + R).
+The TensorFlow with DirectML package on native Windows works starting with Windows 10 Version 1709 (Build 16299 or higher). You can check your build version number by running `winver` via the **Run** command (Windows logo key + R).
 
 ## Check for GPU driver updates 
 
