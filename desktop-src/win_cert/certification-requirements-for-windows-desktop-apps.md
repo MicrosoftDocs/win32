@@ -62,7 +62,9 @@ Note that tests 2.1   2.6 are applicable only for desktop apps tested on Windows
 2.4 Your app must use strong and appropriate [ACLs](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists) to secure directories that contain objects  
 2.5 Your app must reduce non-administrator access to services that are vulnerable to tampering  
 2.6 Your app must prevent services with fast restarts from restarting more than twice every 24 hours  
-</dl>**Note: Access should only be granted to the entities that require it.**
+</dl>
+
+**Note: Access should only be granted to the entities that require it.**
 
 The Windows App Certification Program will verify that Windows Attack Surfaces are not exposed by verifying that ACLs and Services are implemented in a way that does not put the Windows system at risk.
 
@@ -84,7 +86,8 @@ Console apps can call SetConsoleCtrlHandler to specify the function that will ha
 At a minimum, app should prepare by saving any user data and state the information that is needed after a restart.  
 </dl> </dd> 4.4 Console apps that receive the CTRL\_C\_EVENT notification should shut down immediately  
 4.5 Drivers must not veto a system shutdown event  
-</dl>**Note: Apps that must block shutdown because of an operation that cannot be interrupted should explain the reason to the user.** Use ShutdownBlockReasonCreate to register a string that explains the reason to the user. When the operation has completed, the app should call ShutdownBlockReasonDestroy to indicate that the system can be shut down.
+</dl>
+<strong>Note: Apps that must block shutdown because of an operation that cannot be interrupted should explain the reason to the user.</strong> Use ShutdownBlockReasonCreate to register a string that explains the reason to the user. When the operation has completed, the app should call ShutdownBlockReasonDestroy to indicate that the system can be shut down.
 
 ## 5. Apps must support a clean, reversible installation
 
@@ -175,7 +178,8 @@ Windows users should be able to run concurrent sessions without conflict or disr
 </dl> </dd> 11.5 Apps that are installed for multiple users must store data in the correct folder(s) and registry locations <dl> Refer to the UAC requirements.  
 </dl> </dd> 11.6 User apps must be able to run in multiple user sessions (Fast User Switching) for both local and remote access  
 11.7 Your app must check other terminal service (TS) sessions for existing instances of the app  
-</dl>**Note:** If an app does not support multiple user sessions or remote access, it must clearly state this when launched from this kind of session.
+</dl>
+<strong>Note:</strong> If an app does not support multiple user sessions or remote access, it must clearly state this when launched from this kind of session.
 
 ## 12. Apps must support x64 versions of Windows
 

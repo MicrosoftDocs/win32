@@ -91,7 +91,7 @@ Any functions that modify the same area of memory at the same time (critical sec
 
 ## Mode of Operation
 
-CNG supports three modes of operations that can be used with symmetric block ciphers through the encryption APIs. These modes and their supportability are listed in the following table. The mode of operation can be changed by setting the [**BCRYPT\_CHAINING\_MODE**](cng-property-identifiers.md) property for the algorithm provider by using the [**BCryptSetProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsetproperty) function.
+CNG supports five modes of operations that can be used with symmetric block ciphers through the encryption APIs. These modes and their supportability are listed in the following table. The mode of operation can be changed by setting the [**BCRYPT\_CHAINING\_MODE**](cng-property-identifiers.md) property for the algorithm provider by using the [**BCryptSetProperty**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsetproperty) function.
 
 
 

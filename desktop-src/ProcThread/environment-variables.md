@@ -35,7 +35,7 @@ The [**GetEnvironmentVariable**](/windows/desktop/api/WinBase/nf-winbase-getenvi
 
 To retrieve a copy of the environment block for a given user, use the [**CreateEnvironmentBlock**](https://msdn.microsoft.com/library/Bb762270(v=VS.85).aspx) function.
 
-To expand environment-variable strings, use the [**ExpandEnvironmentStrings**](https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig) function.
+To expand environment-variable strings, use the [**ExpandEnvironmentStrings**](/windows/desktop/api/processenv/nf-processenv-expandenvironmentstringsa) function.
 
 ## Related topics
 

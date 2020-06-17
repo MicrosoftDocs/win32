@@ -19,6 +19,8 @@ For TPM version 1.2 commands, there are three lists of blocked commands: a list 
 
 For TPM version 2.0 commands, the logic for blocking is inverted; it uses a list of allowed commands. This logic will automatically block commands that were not known when the list was first made. When commands are added to the TPM specification after a version of Windows has shipped, these new commands are automatically blocked. Only an update of the registry will add these new commands to the list of allowed commands.
 
+Starting with Windows 10 1809 (Windows Server 2019), allowed TPM 2.0 commands can no longer be manipulated through registry settings. For these Windows 10 versions, the allowed TPM 2.0 commands are fixed in the TPM driver. TPM 1.2 commands can still be blocked and unblocked through registry changes. 
+
 ## Direct Registry Access
 
 The Group Policy flags are under registry key **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Policies**\\**Microsoft**\\**Tpm**\\**BlockedCommands**.

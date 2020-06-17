@@ -128,13 +128,13 @@ if(hInputDLL == NULL)
 }
 else
 {
-    PTF_ INSTALLLAYOUTORTIP pfnInputLayoutOrTip;
+    PTF_ INSTALLLAYOUTORTIP pfnInstallLayoutOrTip;
     
-    pfnInputLayoutOrTip = (PTF_ INSTALLLAYOUTORTIP)GetProcAddress(hInputDLL, "InputLayoutOrTip");
+    pfnInstallLayoutOrTip = (PTF_ INSTALLLAYOUTORTIP)GetProcAddress(hInputDLL, "InstallLayoutOrTip");
 
-    if(pfnInputLayoutOrTip)
+    if(pfnInstallLayoutOrTip)
     {
-        bRet = (*pfnInputLayoutOrTip)(psz, dwFlags);
+        bRet = (*pfnInstallLayoutOrTip)(psz, dwFlags);
     }
 
     FreeLibrary(hInputDLL);
