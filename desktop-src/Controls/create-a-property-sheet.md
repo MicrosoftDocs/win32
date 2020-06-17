@@ -95,7 +95,7 @@ The dialog box templates, icons, and labels for the pages are loaded from the re
 [Using Property Sheets](using-property-sheets.md)
 </dt> <dt>
 
-[Windows common controls demo (CppWindowsCommonControls)]( http://code.msdn.microsoft.com/CppWindowsCommonControls-9ea0de64)
+[Property sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/controls/common/property)
 </dt> </dl>
 
  
