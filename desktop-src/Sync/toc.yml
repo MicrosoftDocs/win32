@@ -246,7 +246,7 @@
       - name: "InterlockedCompare64ExchangeRelease128"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683558(v=vs.85)
       - name: "InterlockedCompareExchange"
-        href: /windows/desktop/api/WinBase/nf-winbase-interlockedcompareexchange
+        href: /previous-versions/windows/embedded/ms919110(v%3dmsdn.10)
       - name: "InterlockedCompareExchangeAcquire"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683564(v=vs.85)
       - name: "InterlockedCompareExchangeRelease"
@@ -280,7 +280,7 @@
       - name: "InterlockedCompareExchangePointerNoFence"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972647(v=vs.85)
       - name: "InterlockedDecrement"
-        href: /windows/desktop/api/WinBase/nf-winbase-interlockeddecrement
+        href: /previous-versions/ms919120(v%3dmsdn.10)
       - name: "InterlockedDecrementAcquire"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683583(v=vs.85)
       - name: "InterlockedDecrementRelease"
@@ -304,7 +304,7 @@
       - name: "InterlockedDecrementNoFence64"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972653(v=vs.85)
       - name: "InterlockedExchange"
-        href: /windows/desktop/api/WinBase/nf-winbase-interlockedexchange
+        href: /previous-versions/aa909159(v%3dmsdn.10)
       - name: "InterlockedExchangeAcquire"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683594(v=vs.85)
       - name: "InterlockedExchangeNoFence"
@@ -332,7 +332,7 @@
       - name: "InterlockedExchangeSubtract"
         href: /windows/desktop/api/WinBase/nf-winbase-interlockedexchangesubtract
       - name: "InterlockedExchangeAdd"
-        href: /windows/desktop/api/WinBase/nf-winbase-interlockedexchangeadd
+        href: /previous-versions/aa910697(v%3dmsdn.10)
       - name: "InterlockedExchangeAddAcquire"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683601(v=vs.85)
       - name: "InterlockedExchangeAddRelease"
@@ -348,7 +348,7 @@
       - name: "InterlockedExchangeAddNoFence64"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972658(v=vs.85)
       - name: "InterlockedIncrement"
-        href: /windows/desktop/api/WinBase/nf-winbase-interlockedincrement
+        href: /previous-versions/windows/embedded/ms919140(v%3dmsdn.10)
       - name: "InterlockedIncrementAcquire"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683618(v=vs.85)
       - name: "InterlockedIncrementRelease"
@@ -458,9 +458,9 @@
       - name: "OpenPrivateNamespace"
         href: /windows/desktop/api/WinBase/nf-winbase-openprivatenamespacea
       - name: "OpenSemaphore"
-        href: /windows/desktop/api/WinBase/nf-winbase-opensemaphorea
+        href: /windows/win32/api/synchapi/nf-synchapi-opensemaphorew
       - name: "OpenWaitableTimer"
-        href: /windows/desktop/api/WinBase/nf-winbase-openwaitabletimera
+        href: /windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw
       - name: "PulseEvent"
         href: /windows/desktop/api/WinBase/nf-winbase-pulseevent
       - name: "QueryDepthSList"
@@ -500,7 +500,7 @@
       - name: "SetWaitableTimerEx"
         href: https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimerex
       - name: "SignalObjectAndWait"
-        href: /windows/desktop/api/WinBase/nf-winbase-signalobjectandwait
+        href: /windows/win32/api/synchapi/nf-synchapi-signalobjectandwait
       - name: "SleepConditionVariableCS"
         href: https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleepconditionvariablecs
       - name: "SleepConditionVariableSRW"
@@ -552,6 +552,6 @@
       href: synchronization-structures.md
       items: 
       - name: "OVERLAPPED"
-        href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped
+        href: /windows/win32/api/minwinbase/ns-minwinbase-overlapped
       - name: "SLIST_ENTRY"
-        href: /windows/desktop/api/Winnt/ns-winnt-_list_entry
+        href: /windows/win32/api/winnt/ns-winnt-slist_entry

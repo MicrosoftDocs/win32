@@ -145,7 +145,7 @@ By adding a certificate to [local machine certificate stores](https://docs.micro
 **Samples**
 </dt> <dt>
 
-[Create app package sample](https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-Create-48062876)
+[Create app package sample]https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingCreateAppx)
 </dt> <dt>
 
 **Concepts**

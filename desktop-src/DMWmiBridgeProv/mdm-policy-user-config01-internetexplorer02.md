@@ -615,7 +615,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableBlockingOfOutdatedActiveXControls](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-internetexplorer#internetexplorer-disableblockingofoutdatedactivexcontrols)
+DisableBlockingOfOutdatedActiveXControls
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -1234,7 +1234,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[InternetZoneRunNETFrameworkReliantComponentsNotSignedWithAuthenticode](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-internetexplorer#internetexplorer-internetzonerunnetframeworkreliantcomponentsnotsignedwithauthenticode)
+InternetZoneRunNETFrameworkReliantComponentsNotSignedWithAuthenticode
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -1278,7 +1278,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[InternetZoneWebsitesInLessPrivilegedZonesCanNavigateIntoThisZone](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-internetexplorer#internetexplorer-internetzonewebsitesinlessprivilegedzonescannavigateintothiszone)
+InternetZoneWebsitesInLessPrivilegedZonesCanNavigateIntoThisZone
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -1410,7 +1410,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[IntranetZoneInitializeAndScriptActiveXControlsNotMarkedSafe](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-internetexplorer#internetexplorer-intranetzoneinitializeandscriptactivexcontrolsnotmarkedsafe)
+IntranetZoneInitializeAndScriptActiveXControlsNotMarkedSafe
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -2711,7 +2711,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RestrictedSitesZoneNavigateWindowsAndFramesAcrossDomains](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-internetexplorer#internetexplorer-restrictedsiteszonenavigatewindowsandframesacrossdomains)
+RestrictedSitesZoneNavigateWindowsAndFramesAcrossDomains
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -2777,7 +2777,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RestrictedSitesZoneTurnOnCrossSiteScriptingFilter](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-internetexplorer#internetexplorer-restrictedsiteszoneturnoncrosssitescriptingfilter)
+RestrictedSitesZoneTurnOnCrossSiteScriptingFilter
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -2964,7 +2964,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[TrustedSitesZoneDontRunAntimalwareProgramsAgainstActiveXControls](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-internetexplorer#internetexplorer-trustedsiteszonedontrunantimalwareprogramsagainstactivexcontrols)
+TrustedSitesZoneDontRunAntimalwareProgramsAgainstActiveXControls
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -2986,7 +2986,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[TrustedSitesZoneInitializeAndScriptActiveXControlsNotMarkedAsSafe](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-internetexplorer#internetexplorer-trustedsiteszoneinitializeandscriptactivexcontrolsnotmarkedassafe)
+TrustedSitesZoneInitializeAndScriptActiveXControlsNotMarkedAsSafe
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -2997,7 +2997,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[TrustedSitesZoneInitializeAndScriptActiveXControlsNotMarkedSafe](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-internetexplorer#internetexplorer-trustedsiteszoneinitializeandscriptactivexcontrolsnotmarkedsafe)
+TrustedSitesZoneInitializeAndScriptActiveXControlsNotMarkedSafe
 </dt> <dd> <dl> <dt>
 
 Data type: **string**

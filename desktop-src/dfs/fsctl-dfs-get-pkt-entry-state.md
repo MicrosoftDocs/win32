@@ -53,7 +53,7 @@ The control code for the operation. Use **FSCTL_DFS_GET_PKT_ENTRY_STATE** for th
 *lpInBuffer* 
 </dt> <dd>
 
-Address of a [**DFS_GET_PKT_ENTRY_STATE_ARG**](dfs-get-pkt-entry-state-arg.md) structure and the 1-3 Unicode strings that follow.
+Address of a [**DFS_GET_PKT_ENTRY_STATE_ARG**](/windows/win32/api/lmdfs/ns-lmdfs-dfs_get_pkt_entry_state_arg) structure and the 1-3 Unicode strings that follow.
 
 </dd> <dt>
 
@@ -67,7 +67,7 @@ Size, in bytes, of the buffer pointed to by the *lpInBuffer* parameter.
 *lpOutBuffer* [out]
 </dt> <dd>
 
-Address of a **DFS_INFO_\#** structure and any strings and structures pointed to by the **DFS_INFO_\#** structure. The specific structure returned depends on the **Level** member in the [**DFS_GET_PKT_ENTRY_STATE_ARG**](dfs-get-pkt-entry-state-arg.md) structure passed in the input buffer.
+Address of a **DFS_INFO_\#** structure and any strings and structures pointed to by the **DFS_INFO_\#** structure. The specific structure returned depends on the **Level** member in the [**DFS_GET_PKT_ENTRY_STATE_ARG**](/windows/win32/api/lmdfs/ns-lmdfs-dfs_get_pkt_entry_state_arg) structure passed in the input buffer.
 
 </dd> <dt>
 
@@ -94,13 +94,13 @@ If *lpOverlapped* is not **NULL**, *lpBytesReturned* can be **NULL**. If this pa
 *lpOverlapped* [in]
 </dt> <dd>
 
-A pointer to an [**OVERLAPPED**](base.overlapped_str.md) structure.
+A pointer to an [**OVERLAPPED**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) structure.
 
 If *hDevice* was opened without specifying **FILE_FLAG_OVERLAPPED**, *lpOverlapped* is ignored.
 
 If *hDevice* was opened with the **FILE_FLAG_OVERLAPPED** flag, the operation is performed as an overlapped (asynchronous) operation. In this case, *lpOverlapped* must point to a valid [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure that contains a handle to an event object. Otherwise, the function fails in unpredictable ways.
 
-For overlapped operations, [**DeviceIoControl**](base.deviceiocontrol.md) returns immediately, and the event object is signaled when the operation has been completed. Otherwise, the function does not return until the operation has been completed or an error occurs.
+For overlapped operations, [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) returns immediately, and the event object is signaled when the operation has been completed. Otherwise, the function does not return until the operation has been completed or an error occurs.
 
 </dd> </dl>
 
@@ -125,5 +125,5 @@ If the operation fails or is pending, [**DeviceIoControl**](https://docs.microso
 [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
 </dt> <dt>
 
-[**NetDfsGetClientInfo**]((/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo))
+[**NetDfsGetClientInfo**](/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo)
 </dt> </dl>

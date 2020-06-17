@@ -18,14 +18,14 @@ Because JPEG is one of the most popular image formats on the Web, and because pe
 -   Flip horizontally
 -   Flip vertically
 
-You can apply one of the transformations shown in the preceding list when you call the [Save](https://msdn.microsoft.com/library/ms535399(v=VS.85).aspx) method of an [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) object. If the following conditions are met, then the transformation will proceed without loss of information:
+You can apply one of the transformations shown in the preceding list when you call the [Save](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-save(inistream_inconstclsid_inconstencoderparameters)) method of an [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) object. If the following conditions are met, then the transformation will proceed without loss of information:
 
--   The file used to construct the [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) object is a JPEG file.
+-   The file used to construct the [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) object is a JPEG file.
 -   The width and height of the image are both multiples of 16.
 
 If the width and height of the image are not both multiples of 16, GDI+ will do its best to preserve the image quality when you apply one of the rotation or flipping transformations shown in the preceding list.
 
-To transform a JPEG image, initialize an [**EncoderParameters**](https://msdn.microsoft.com/library/ms534435(v=VS.85).aspx) object and pass the address of that object to the [Save](https://msdn.microsoft.com/library/ms535399(v=VS.85).aspx) method of the [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) class. Initialize the **EncoderParameters** object so that it has an array that consists of one [**EncoderParameter**](https://msdn.microsoft.com/library/ms534434(v=VS.85).aspx) object. Initialize that one **EncoderParameter** object so that its **Value** member points to a **ULONG** variable that holds one of the following elements of the [**EncoderValue**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-encodervalue) enumeration:
+To transform a JPEG image, initialize an [**EncoderParameters**](https://msdn.microsoft.com/library/ms534435(v=VS.85).aspx) object and pass the address of that object to the [Save](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-save(inistream_inconstclsid_inconstencoderparameters)) method of the [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) class. Initialize the **EncoderParameters** object so that it has an array that consists of one [**EncoderParameter**](https://msdn.microsoft.com/library/ms534434(v=VS.85).aspx) object. Initialize that one **EncoderParameter** object so that its **Value** member points to a **ULONG** variable that holds one of the following elements of the [**EncoderValue**](/windows/win32/api/Gdiplusenums/ne-gdiplusenums-encodervalue) enumeration:
 
 -   EncoderValueTransformRotate90,
 -   EncoderValueTransformRotate180,
@@ -35,7 +35,7 @@ To transform a JPEG image, initialize an [**EncoderParameters**](https://msdn.mi
 
 Set the **Guid** member of the [**EncoderParameter**](https://msdn.microsoft.com/library/ms534434(v=VS.85).aspx) object to EncoderTransformation.
 
-The following console application creates an [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) object from a JPEG file and then saves the image to a new file. During the save process, the image is rotated 90 degrees. If the width and height of the image are both multiples of 16, the process of rotating and saving the image causes no loss of information.
+The following console application creates an [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) object from a JPEG file and then saves the image to a new file. During the save process, the image is rotated 90 degrees. If the width and height of the image are both multiples of 16, the process of rotating and saving the image causes no loss of information.
 
 The main function relies on the helper function GetEncoderClsid, which is shown in [Retrieving the Class Identifier for an Encoder](-gdiplus-retrieving-the-class-identifier-for-an-encoder-use.md).
 

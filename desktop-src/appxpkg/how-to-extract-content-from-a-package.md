@@ -442,7 +442,7 @@ CoUninitialize();
 **Samples**
 </dt> <dt>
 
-[Extract app package contents sample](https://code.msdn.microsoft.com/windowsdesktop/Appx-Package-Extraction-b0f5d164)
+[Extract app package contents sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingExtractAppx)
 </dt> <dt>
 
 **Reference**

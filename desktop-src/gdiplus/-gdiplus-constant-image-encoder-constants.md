@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Image Encoder Constants
 
-The [Image::Save Methods](https://msdn.microsoft.com/library/ms535399(v=VS.85).aspx) and [Image::SaveAdd Methods](https://msdn.microsoft.com/library/ms535398(v=VS.85).aspx) methods of the [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) class receive an [**EncoderParameters**](https://msdn.microsoft.com/library/ms534435(v=VS.85).aspx) object that contains an array of [**EncoderParameter**](https://msdn.microsoft.com/library/ms534434(v=VS.85).aspx) objects. Each **EncoderParameter** object has a GUID data member that specifies the parameter category. The following constants, defined in Gdiplusimaging.h, represent GUIDs that specify the various parameter categories.
+The [Image::Save Methods](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-save(inistream_inconstclsid_inconstencoderparameters)) and [Image::SaveAdd Methods](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-saveadd(inimage_inconstencoderparameters)) methods of the [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) class receive an [**EncoderParameters**](https://msdn.microsoft.com/library/ms534435(v=VS.85).aspx) object that contains an array of [**EncoderParameter**](https://msdn.microsoft.com/library/ms534434(v=VS.85).aspx) objects. Each **EncoderParameter** object has a GUID data member that specifies the parameter category. The following constants, defined in Gdiplusimaging.h, represent GUIDs that specify the various parameter categories.
 
 -   EncoderChrominanceTable
 -   EncoderColorDepth

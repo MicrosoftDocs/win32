@@ -1,12 +1,12 @@
 ---
 Description: An API Set is a strong name for a list of Win32 APIs.
 ms.assetid: 0767BEA4-14C5-481A-8784-D3070C2E61DE
-title: Windows API Sets
+title: Windows API sets
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Windows API Sets
+# Windows API sets
 
 An API Set is a strong name for a list of Win32 APIs. The convention for assigning a strong name to an API Set is to use what appears to be a dll name. But the purpose of an API Set is to provide architectural separation between the API Set's name and its associated host DLL implementation for improved portability of your app, so you should think of an API Set's name as just a unique character string, and not as a dll name. For delay load, you use the name of the API Set.
 

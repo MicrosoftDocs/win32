@@ -23,6 +23,6 @@ For details, see the following topics:
 
 ## Related topics
 
-[How Do I Enable WPP Tracing Through the Windows Event Log Service?](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/enabling-wpp-tracing-through-windows-event-log)
+[How Do I Enable WPP Tracing Through the Windows Event Log Service?](https://docs.microsoft.com/windows-hardware/drivers/devtest/enabling-wpp-tracing-through-windows-event-log)
 
 [Windows Event Log Reference](windows-event-log-reference.md)

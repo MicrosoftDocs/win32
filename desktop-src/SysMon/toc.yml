@@ -220,11 +220,11 @@
       href: sysmon-enumerations.md
       items: 
       - name: "DataSourceTypeConstants"
-        href: /windows/desktop/api/ISysmon/ne-isysmon-edatasourcetypeconstant
+        href: /windows/win32/api/isysmon/ne-isysmon-datasourcetypeconstants
       - name: "DisplayTypeConstants"
-        href: /windows/desktop/api/ISysmon/ne-isysmon-edisplaytypeconstant
+        href: /windows/win32/api/isysmon/ne-isysmon-displaytypeconstants
       - name: "ReportValueTypeConstants"
-        href: /windows/desktop/api/ISysmon/ne-isysmon-ereportvaluetypeconstant
+        href: /windows/win32/api/isysmon/ne-isysmon-reportvaluetypeconstants
       - name: "SysmonBatchReason"
         href: /windows/win32/api/ISysmon/ne-isysmon-sysmonbatchreason
       - name: "SysmonDataType"

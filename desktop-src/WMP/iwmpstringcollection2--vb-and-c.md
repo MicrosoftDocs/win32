@@ -44,7 +44,7 @@ The **IWMPStringCollection2 (VB and C#)** interface has these methods.
 
  
 
-Get an **IWMPStringCollection2** interface by casting the value returned by the [**IWMPMediaCollection.getAttributeStringCollection**](/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getattributestringcollection) method.
+Get an **IWMPStringCollection2** interface by casting the value returned by the [**IWMPMediaCollection.getAttributeStringCollection**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getattributestringcollection) method.
 
 ## Requirements
 

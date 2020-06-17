@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Applying Transforms in Direct2D
 
-In [Drawing with Direct2D](drawing-with-direct2d.md), we saw that the [**ID2D1RenderTarget::FillEllipse**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-fillellipse) method draws an ellipse that is aligned to the x- and y-axes. But suppose that you want to draw an ellipse tilted at an angle?
+In [Drawing with Direct2D](drawing-with-direct2d.md), we saw that the [**ID2D1RenderTarget::FillEllipse**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillellipse(constd2d1_ellipse__id2d1brush)) method draws an ellipse that is aligned to the x- and y-axes. But suppose that you want to draw an ellipse tilted at an angle?
 
 ![an image that shows a tilted ellipse.](images/graphics16.png)
 
@@ -28,8 +28,8 @@ Transforms are implemented by using matrices. However, you do not have to unders
 To apply a transform in Direct2D, call the [**ID2D1RenderTarget::SetTransform**](https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-settransform) method. This method takes a [**D2D1\_MATRIX\_3X2\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f) structure that defines the transformation. You can initialize this structure by calling methods on the [**D2D1::Matrix3x2F**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f) class. This class contains static methods that return a matrix for each kind of transform:
 
 -   [**Matrix3x2F::Rotation**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-rotation)
--   [**Matrix3x2F::Scale**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale)
--   [**Matrix3x2F::Translation**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-translation)
+-   [**Matrix3x2F::Scale**](/windows/win32/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale(d2d1_size_f_d2d1_point_2f))
+-   [**Matrix3x2F::Translation**](/windows/win32/api/d2d1helper/nf-d2d1helper-matrix3x2f-translation(d2d1_size_f))
 -   [**Matrix3x2F::Skew**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-skew)
 
 For example, the following code applies a 20-degree rotation around the point (100, 100).

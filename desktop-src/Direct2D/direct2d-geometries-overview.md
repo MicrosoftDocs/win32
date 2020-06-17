@@ -47,7 +47,7 @@ The following sections describe the different kinds of geometries.
 
 Simple geometries include [**ID2D1RectangleGeometry**](https://msdn.microsoft.com/library/Dd371561(v=VS.85).aspx), [**ID2D1RoundedRectangleGeometry**](https://msdn.microsoft.com/library/Dd316914(v=VS.85).aspx), and [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/library/Dd371239(v=VS.85).aspx) objects, and can be used to create basic geometric figures, such as rectangles, rounded rectangles, circles, and ellipses.
 
-To create a simple geometry, use one of the [**ID2D1Factory::Create<*geometryType*>Geometry**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx) methods. These methods create an object of the specified type. For example, to create a rectangle, call [**ID2D1Factory::CreateRectangleGeometry**](/windows/desktop/dd371286(v=vs.85).aspx), which returns an [**ID2D1RectangleGeometry**](https://msdn.microsoft.com/library/Dd371561(v=VS.85).aspx) object; to create a rounded rectangle, call [**ID2D1Factory::CreateRoundedRectangleGeometry**](/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createroundedrectanglegeometry(constd2d1_rounded_rect__id2d1roundedrectanglegeometry)), which returns an [**ID2D1RoundedRectangleGeometry**](https://msdn.microsoft.com/library/Dd316914(v=VS.85).aspx) object, and so on.
+To create a simple geometry, use one of the [**ID2D1Factory::Create<*geometryType*>Geometry**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx) methods. These methods create an object of the specified type. For example, to create a rectangle, call [**ID2D1Factory::CreateRectangleGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createrectanglegeometry(constd2d1_rect_f_id2d1rectanglegeometry)), which returns an [**ID2D1RectangleGeometry**](https://msdn.microsoft.com/library/Dd371561(v=VS.85).aspx) object; to create a rounded rectangle, call [**ID2D1Factory::CreateRoundedRectangleGeometry**](/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createroundedrectanglegeometry(constd2d1_rounded_rect__id2d1roundedrectanglegeometry)), which returns an [**ID2D1RoundedRectangleGeometry**](https://msdn.microsoft.com/library/Dd316914(v=VS.85).aspx) object, and so on.
 
 The following code example calls the [**CreateEllipseGeometry**](/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createellipsegeometry(constd2d1_ellipse__id2d1ellipsegeometry)) method, passing in an ellipse structure with the *center* set to (100, 100), *x-radius* to 100, and *y-radius* to 50. Then, it calls [**DrawGeometry**](https://msdn.microsoft.com/library/Dd371890(v=VS.85).aspx), passing in the returned ellipse geometry, a pointer to a black [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/Dd372207(v=VS.85).aspx), and a stroke width of 5. The following illustration shows the output from the code example.
 
@@ -136,7 +136,9 @@ The following illustration shows the results of rendering the two group geometri
 
 ### Transformed Geometries
 
-There are multiple ways to transform a geometry. You can use the [**SetTransform**](https://msdn.microsoft.com/library/Dd742690(v=VS.85).aspx) method of a render target to transform everything that the render target draws, or you can associate a transform directly with a geometry by using the [**CreateTransformedGeometry**](/windows/desktop/dd371307(v=vs.85).aspx) method to create an [**ID2D1TransformedGeometry**](https://msdn.microsoft.com/library/Dd371304(v=VS.85).aspx).
+
+There are multiple ways to transform a geometry. You can use the [**SetTransform**](/windows/win32/api/d2d1/nf-d2d1-id2d1brush-settransform(constd2d1_matrix_3x2_f_)) method of a render target to transform everything that the render target draws, or you can associate a transform directly with a geometry by using the [**CreateTransformedGeometry**](/windows/desktop/dd371307(v=vs.85).aspx) method to create an [**ID2D1TransformedGeometry**](https://msdn.microsoft.com/library/Dd371304(v=VS.85).aspx).
+
 
 The method that you should use depends on the effect that you want. When you use the render target to transform and then render a geometry, the transform affects everything about the geometry, including the width of any stroke that you have applied. On the other hand, when you use an [**ID2D1TransformedGeometry**](https://msdn.microsoft.com/library/Dd372252(v=VS.85).aspx), the transform affects only the coordinates that describe the shape. The transformation will not affect the stroke thickness when the geometry is drawn.
 
@@ -185,7 +187,7 @@ m_pRenderTarget->DrawGeometry(m_pRectangleGeometry, m_pBlackBrush, 1);
 
 
 
-The next example uses the [**CreateTransformedGeometry**](/windows/desktop/dd371307(v=vs.85).aspx) method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
+The next example uses the [**CreateTransformedGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createtransformedgeometry(id2d1geometry_constd2d1_matrix_3x2_f__id2d1transformedgeometry)) method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
 
 ![illustration of a smaller rectangle inside a larger rectangle with the same stroke thickness](images/transformedgeometry2-step3.png)
 
@@ -220,7 +222,7 @@ m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
 
 ## Geometries as Masks
 
-You can use an [**ID2D1Geometry**](https://msdn.microsoft.com/library/Dd316578(v=VS.85).aspx) object as a geometric mask when you call the [**PushLayer**](https://msdn.microsoft.com/library/Dd742856(v=VS.85).aspx) method. The geometric mask specifies the area of the layer that is composited into the render target. For more information, see the Geometric Masks section of the [Layers Overview](direct2d-layers-overview.md).
+You can use an [**ID2D1Geometry**](https://msdn.microsoft.com/library/Dd316578(v=VS.85).aspx) object as a geometric mask when you call the [**PushLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)) method. The geometric mask specifies the area of the layer that is composited into the render target. For more information, see the Geometric Masks section of the [Layers Overview](direct2d-layers-overview.md).
 
 ## Geometric Operations
 

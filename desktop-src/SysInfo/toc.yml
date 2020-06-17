@@ -208,7 +208,7 @@
         href: registry-structures.md
         items: 
         - name: "VALENT"
-          href: /windows/desktop/api/Winreg/ns-winreg-value_enta
+          href: /windows/win32/api/winreg/ns-winreg-valenta
       - name: "Registry Element Size Limits"
         href: registry-element-size-limits.md
       - name: "Registry Value Types"
@@ -377,7 +377,7 @@
         - name: "OSVERSIONINFOEX"
           href: /windows/win32/api/Winnt/ns-winnt-osversioninfoexa
         - name: "SYSTEM_INFO"
-          href: https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-_system_info
+          href: /windows/win32/api/sysinfoapi/ns-sysinfoapi-system_info
       - name: "System Information Macros"
         href: system-information-macros.md
         items: 
@@ -387,7 +387,7 @@
         href: system-information-enumeration-types.md
         items: 
         - name: "COMPUTER_NAME_FORMAT"
-          href: https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ne-sysinfoapi-_computer_name_format
+          href: /windows/win32/api/sysinfoapi/ne-sysinfoapi-computer_name_format
         - name: "EXTENDED_NAME_FORMAT"
           href: /windows/desktop/api/Secext/ne-secext-extended_name_format
         - name: "FIRMWARE_TYPE"
@@ -525,7 +525,7 @@
         - name: "SYSTEMTIME"
           href: https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime
         - name: "TIME_ZONE_INFORMATION"
-          href: https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information
+          href: /windows/win32/api/timezoneapi/ns-timezoneapi-time_zone_information
       - name: "Time Messages"
         href: time-messages.md
         items: 

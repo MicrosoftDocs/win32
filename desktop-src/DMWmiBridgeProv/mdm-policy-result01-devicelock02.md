@@ -65,7 +65,7 @@ The **MDM\_Policy\_Result01\_DeviceLock02** class has these properties.
 
 <dl> <dt>
 
-[AllowScreenTimeoutWhileLockedUserConfig](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-allowscreentimeoutwhilelockeduserconfig)
+AllowScreenTimeoutWhileLockedUserConfig
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -142,7 +142,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnforceLockScreenProvider](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-enforcelockscreenprovider)
+EnforceLockScreenProvider
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -251,7 +251,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ScreenTimeoutWhileLocked](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-screentimeoutwhilelocked)
+ScreenTimeoutWhileLocked
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**

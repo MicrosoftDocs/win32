@@ -42419,6 +42419,31 @@
 	"source_path": "supporting-device-side-content-collision475.md",
 	"redirect_url": "/windows/win32/wpd_sdk/supporting-device-side-content-property-sheet",
 	"redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/properties/samples-idealpropertyhandler.md",
+      "redirect_url": "/windows/win32/properties/property-system-code-samples",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/properties/samples-playlistpropertyhandler.md",
+      "redirect_url": "/windows/win32/properties/property-system-code-samples",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/properties/samples-propertyedit.md",
+      "redirect_url": "/windows/win32/properties/property-system-code-samples",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/properties/samples-propertyschema.md",
+      "redirect_url": "/windows/win32/properties/property-system-code-samples",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/properties/samples-recipepropertyhandlersample.md",
+      "redirect_url": "/windows/win32/properties/property-system-code-samples",
+      "redirect_document_id": false
 }
   ]
 }

@@ -27,7 +27,7 @@ HRESULT D3DX10CreateEffectFromMemory(
   _In_        LPCVOID            pData,
   _In_        SIZE_T             DataLength,
   _In_        LPCSTR             pSrcFileName,
-  _In_  const D3D10_SHADER_MACRO *pDefines,
+  _In_  const D3D_SHADER_MACRO *pDefines,
   _In_        ID3D10Include      *pInclude,
   _In_        LPCSTR             pProfile,
   _In_        UINT               HLSLFlags,

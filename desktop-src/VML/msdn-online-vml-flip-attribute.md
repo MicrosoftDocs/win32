@@ -67,7 +67,7 @@ The shape is flipped along the *y* -axis by reversing the *x* -coordinates.
 
 
 
-[Flip Attribute Example](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/examples/x_flip.md). (Requires Microsoft Internet Explorer 5 or greater.)
+[Flip Attribute Example](https://docs.microsoft.com/previous-versions/bb229670(v=vs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 

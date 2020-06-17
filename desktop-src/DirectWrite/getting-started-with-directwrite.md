@@ -296,7 +296,7 @@ To render the contents of the window by using [Direct2D](https://msdn.microsoft.
 
 1.  Create the device dependent resources by calling the SimpleText::CreateDeviceResources method implemented in Part 3.
 2.  Call the [**ID2D1HwndRenderTarget::BeginDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw) method of the render target.
-3.  Clear the render target by calling the [**ID2D1HwndRenderTarget::Clear**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-clear) method.
+3.  Clear the render target by calling the [**ID2D1HwndRenderTarget::Clear**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-clear(constd2d1_color_f)) method.
 4.  Call the SimpleText::DrawText method, implemented in Part 4.
 5.  Call the [**ID2D1HwndRenderTarget::EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) method of the render target.
 6.  If it is necessary, discard the device-dependent resources so that they can be recreated when the window is redrawn.

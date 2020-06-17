@@ -41,7 +41,7 @@ The following are practices for writing secure applications for use with Windows
 
 ## Additional Resources
 
--   The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [Code Gallery](https://code.msdn.microsoft.com/windowssearch) and the [Windows 7 SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx), demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
+-   The [IFilterSample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample) sample demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
 -   For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
 -   For an overview of file types, see [File Types](https://msdn.microsoft.com/library/cc144148(VS.85).aspx).
 -   To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](https://msdn.microsoft.com/library/cc144150(VS.85).aspx).

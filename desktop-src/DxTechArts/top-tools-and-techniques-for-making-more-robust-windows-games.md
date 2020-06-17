@@ -38,7 +38,7 @@ The Microsoft Application Verifier, or AppVerifier, is a tool that can help test
 
 While not exhaustive, AppVerifier can be one more component of a tester's toolbox to help a development studio release a quality product and reduce potential post-release costs.
 
-For more information about Application Verifier, see [Application Verifier](https://msdn.microsoft.com/library/ms220948(v=VS.80).aspx) and [Using Application Verifier Within Your Software Development Lifecycle](https://msdn.microsoft.com/library/Aa480483(v=MSDN.10).aspx) on MSDN. You can download Application Verifier from [Download details: Application Verifier](https://www.microsoft.com/downloads/details.aspx?familyid=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18) on Microsoft Download Center.
+For more information about Application Verifier, see [Application Verifier](https://msdn.microsoft.com/library/ms220948(v=VS.80).aspx) and [Using Application Verifier Within Your Software Development Lifecycle](https://msdn.microsoft.com/library/Aa480483(v=MSDN.10).aspx) on MSDN. You can download Application Verifier from [Download details: Application Verifier](https://www.microsoft.com/download/details.aspx?id=20028) on Microsoft Download Center.
 
 A similar tool for drivers, Driver Verifier, is also available. For more information, see [Using Driver Verifier to Identify Issues with Windows Drivers for Advanced Users](https://support.microsoft.com/Default.aspx?kbid=244617) on Microsoft Help and Support.
 
@@ -52,7 +52,7 @@ The Application Compatibility Toolkit, and more information, can be found at [Wi
 
 Windows Vista and Windows 7 have two primary types of user accounts: Standard User and Administrator. Standard User accounts are the preferred type for all users, since they reduce the risk of damage to the system by malicious applications. Because Standard User has access restrictions — such as not being able to write to the Program Files folder or to HKEY\_LOCAL\_MACHINE (HKLM) in the registry — it is important that games be designed and tested to work with a Standard User account.
 
-More information about this topic can be found in the articles [Patching Game Software in Windows XP, Windows Vista, and Windows 7](https://docs.microsoft.com/windows/desktop/DxTechArts/patching-methods-in-windows-xp-and-vista) and [User Account Control for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/user-account-control-for-game-developers).
+More information about this topic can be found in the articles [Patching Game Software in Windows XP, Windows Vista, and Windows 7](/windows/win32/DxTechArts/patching-methods-in-windows-xp-and-vista) and [User Account Control for Game Developers](/windows/win32/DxTechArts/user-account-control-for-game-developers).
 
 ## PIX for Windows
 
@@ -76,7 +76,7 @@ For more information about the Microsoft Symbol Server, see [Debugging Tools and
 
 Windows Error Reporting (WER) is a service provided by Microsoft to help developers collect error information from applications in a unified and organized manner. While it is completely voluntary, developers should take advantage of this service to help determine which bugs occur most often. Use of WER can help with the debugging of commonly reported problems, which will help eliminate support calls for the most commons bugs.
 
-For more information about WER, see [Crash Dump Analysis](https://docs.microsoft.com/windows/desktop/DxTechArts/crash-dump-analysis).
+For more information about WER, see [Crash Dump Analysis](/windows/win32/DxTechArts/crash-dump-analysis).
 
 ## Performance Tuning Tools
 

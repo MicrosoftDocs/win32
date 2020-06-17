@@ -16,7 +16,7 @@ topic_type:
 
 -   [**ByteToChar**](/windows/desktop/api/intsafe/nf-intsafe-bytetochar)
 -   [**ByteToInt8**](/windows/desktop/api/intsafe/nf-intsafe-bytetoint8)
--   [**DWordPtrToInt**](dwordptrtoint.md)
+-   [**DWordPtrToInt**](/previous-versions/windows/desktop/legacy/bb776679(v=vs.85))
 -   [**DWordPtrToInt64**](https://msdn.microsoft.com/library/Bb776680(v=VS.85).aspx)
 -   [**DWordToLongPtr**](https://msdn.microsoft.com/library/Bb776694(v=VS.85).aspx)
 -   [**DWordToSSIZET**](https://msdn.microsoft.com/library/Bb776697(v=VS.85).aspx)
@@ -131,7 +131,7 @@ topic_type:
 -   [**UInt8ToChar**](/windows/desktop/api/intsafe/nf-intsafe-uint8tochar)
 -   [**UInt8ToInt8**](/windows/desktop/api/intsafe/nf-intsafe-uint8toint8)
 -   [**UIntPtrToChar**](/windows/desktop/api/intsafe/nf-intsafe-uintptrtochar)
--   [**UIntPtrToInt**](uintptrtoint.md)
+-   [**UIntPtrToInt**](/previous-versions/windows/desktop/legacy/bb762396(v=vs.85))
 -   [**UIntPtrToInt16**](/windows/desktop/api/intsafe/nf-intsafe-uintptrtoint16)
 -   [**UIntPtrToInt8**](/windows/desktop/api/intsafe/nf-intsafe-uintptrtoint8)
 -   [**UIntPtrToIntPtr**](/windows/desktop/api/Intsafe/nf-intsafe-uintptrtointptr)

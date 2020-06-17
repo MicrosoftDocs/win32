@@ -183,7 +183,7 @@ void MainWindow::Resize()
 
 
 
-The [**GetClientRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclientrect) function gets the new size of the client area, in physical pixels (not DIPs). The [**ID2D1HwndRenderTarget::Resize**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-resize) method updates the size of the render target, also specified in pixels. The [**InvalidateRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect) function forces a repaint by adding the entire client area to the window's update region. (See [Painting the Window](painting-the-window.md), in Module 1.)
+The [**GetClientRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclientrect) function gets the new size of the client area, in physical pixels (not DIPs). The [**ID2D1HwndRenderTarget::Resize**](/windows/win32/direct2d/id2d1hwndrendertarget-resize) method updates the size of the render target, also specified in pixels. The [**InvalidateRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect) function forces a repaint by adding the entire client area to the window's update region. (See [Painting the Window](painting-the-window.md), in Module 1.)
 
 As the window grows or shrinks, you will typically need to recalculate the position of the objects that you draw. For example, in the circle program, the radius and center point must be updated:
 

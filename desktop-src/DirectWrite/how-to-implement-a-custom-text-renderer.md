@@ -38,7 +38,7 @@ Because of this, the constructor takes the parameters found in the table below w
 | Parameter       | Description                                                                                                                                                                                                                                 |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *pD2DFactory*   | A pointer to an [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) object that will be used to create any Direct2D resources that are needed.                                                                                                        |
-| *pRT*           | A pointer to the [**ID2D1HwndRenderTarget**](https://docs.microsoft.com/previous-versions/windows/win32/legacy/dd371275(v=vs.85)) object that the text will be rendered to. |
+| *pRT*           | A pointer to the [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) object that the text will be rendered to. |
 | *pOutlineBrush* | A pointer to the [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush) that will be use to draw outline of the text                                                                                                                     |
 | *pFillBrush*    | A pointer to the [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush) that will be used to fill the text.                                                                                                                                      |
 
@@ -148,7 +148,7 @@ This text renderer implementation renders glyph runs by converting them to [Dire
 
     The *baselineOriginX* and *baselineOriginY* are passed as parameters to the [**DrawGlyphRun**](https://msdn.microsoft.com/library/Dd371526(v=VS.85).aspx) callback method.
 
-5.  Create the transformed geometry by using the [**ID2D1Factory::CreateTransformedGeometry**](https://docs.microsoft.com/previous-versions/windows/win32/legacy/dd371304(v=vs.85)) method and passing the path geometry and the translation matrix.
+5.  Create the transformed geometry by using the [**ID2D1Factory::CreateTransformedGeometry**](/windows/win32/direct2d/id2d1factory-createtransformedgeometry) method and passing the path geometry and the translation matrix.
 
     ```C++
     // Create the transformed geometry
@@ -224,7 +224,7 @@ Drawing an underline by using [Direct2D](https://msdn.microsoft.com/library/Dd37
 
     
 
-3.  As with the glyph run, the origin of the underline geometry must be translated, based on the baseline origin values, by using the [**CreateTransformedGeometry**](https://docs.microsoft.com/previous-versions/windows/win32/legacy/dd371304(v=vs.85)) method.
+3.  As with the glyph run, the origin of the underline geometry must be translated, based on the baseline origin values, by using the [**CreateTransformedGeometry**](/windows/win32/direct2d/id2d1factory-createtransformedgeometry) method.
 
     ```C++
     // Initialize a matrix to translate the origin of the underline

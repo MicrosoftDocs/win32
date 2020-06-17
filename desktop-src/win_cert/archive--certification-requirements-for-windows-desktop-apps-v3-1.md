@@ -238,7 +238,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 -   [Windows Hardware Certification Program](https://docs.microsoft.com/previous-versions/windows/hardware/hck/jj124227(v=vs.85))
 -   [Windows Store Apps Certification Requirements](https://docs.microsoft.com/legal/windows/agreements/store-policies)
 -   [Windows 7 Software Logo Program](faq--windows-7-software-logo-process.md)
--   [How to use the Windows App Certification Kit](https://www.microsoft.com/download/details.aspx?id=27414)
+-   [How to use the Windows App Certification Kit](/windows/win32/win_cert/using-the-windows-app-certification-kit)
 
  
 

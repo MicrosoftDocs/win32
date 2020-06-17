@@ -66,7 +66,7 @@ The Fiddler web debugger can be used with Windows 8 apps.
 
 3.  Add a firewall rule for incoming traffic to Fiddler.
 
-For more information, see [Blog on using Fiddler web debugger with Windows Store apps](https://blogs.msdn.microsoft.com/fiddler/2011/12/).
+For more information, see [Blog on using Fiddler web debugger with Windows Store apps](https://docs.microsoft.com/archive/blogs/fiddler/revisiting-fiddler-and-win8-immersive-applications).
 
 ## Related topics
 
@@ -78,7 +78,7 @@ For more information, see [Blog on using Fiddler web debugger with Windows Store
 [FAQ for Web Authentication Broker](faq-for-web-authentication-broker.md)
 </dt> <dt>
 
-[Web Authentication Broker SDK sample app](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122#content)
+[Web Authentication Broker SDK sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
 </dt> <dt>
 
 [**Windows.Security.Authentication.Web**](https://msdn.microsoft.com/library/BR227044(v=Win.10).aspx)

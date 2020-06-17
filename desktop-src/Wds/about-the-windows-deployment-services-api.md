@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 Windows Deployment Services (WDS) is a suite of components that enable the deployment of Windows operating systems, particularly Windows Vista and later and Windows Server 2008 and later. You can use it to set up new computers using network-based installations.
 
-OEMs, system builders, and corporate IT professionals looking for information on how to deploy Windows onto new computers, should see the information about the standard WDS solution in the [Windows Deployment Services Update Step-by-Step Guide](https://technet.microsoft.com/library/cc766320.aspx) and the [Windows Automated Installation Kit (WAIK)](https://www.microsoft.com/downloads/details.aspx?FamilyID=c7d4bc6d-15f3-4284-9123-679830d629f2&DisplayLang=en).
+OEMs, system builders, and corporate IT professionals looking for information on how to deploy Windows onto new computers, should see the information about the standard WDS solution in the [Windows Deployment Services Update Step-by-Step Guide](https://technet.microsoft.com/library/cc766320.aspx) and the [Windows Automated Installation Kit (WAIK)](https://www.microsoft.com/download/details.aspx?id=10333).
 
 In environments where the standard WDS solution cannot be used, the WDS API enables programmatic access to some WDS components.
 
@@ -33,16 +33,16 @@ The WDS client includes a graphical user interface that runs within the Windows 
 
 A sample custom PXE provider, filter provider, and WDS client application is available in the Microsoft Windows Software Development Kit (SDK), see [Microsoft Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-10-sdk/).
 
-You can download the following WDS samples online in the [desktop code gallery](https://code.msdn.microsoft.com/windowsdesktop/).
+You can download the following WDS samples online in the [desktop code gallery](https://github.com/microsoft/Windows-classic-samples).
 
 <dl>
 
-[Windows Deployment Services filter provider sample](https://code.msdn.microsoft.com/windowsdesktop/Windows-Deployment-filter-a6d478f7)  
-[Windows Deployment Services image enumeration sample](https://code.msdn.microsoft.com/windowsdesktop/Windows-Deployment-image-64dfe835)  
-[Windows Deployment Services multicast consumer sample](https://code.msdn.microsoft.com/windowsdesktop/Windows-Deployment-7f5f5f8f)  
-[Windows Deployment Services multicast provider sample](https://code.msdn.microsoft.com/windowsdesktop/Windows-Deployment-7f5f5f8f)  
-[Windows Deployment Services provider sample](https://code.msdn.microsoft.com/windowsdesktop/Windows-Deployment-filter-a6d478f7)  
-[Windows Deployment Services transport manager sample](https://code.msdn.microsoft.com/windowsdesktop/Windows-Deployment-d6e6be31)  
+[Windows Deployment Services filter provider sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/WindowsDeploymentServices/FilterProvider)  
+[Windows Deployment Services image enumeration sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/WindowsDeploymentServices/ImageEnumeration)  
+[Windows Deployment Services multicast consumer sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/WindowsDeploymentServices/Multicast/WdsProvider)  
+[Windows Deployment Services multicast provider sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/WindowsDeploymentServices/Multicast/WdsProvider)  
+[Windows Deployment Services provider sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/WindowsDeploymentServices/FilterProvider)  
+[Windows Deployment Services transport manager sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/WindowsDeploymentServices/Management/WDSTransportManager)  
 </dl>
 
 ## Related topics

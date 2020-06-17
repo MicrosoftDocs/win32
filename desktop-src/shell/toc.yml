@@ -7872,7 +7872,7 @@
       href: sfvm-setisfv.md
     - name: "SFVM_THISIDLIST"
       href: sfvm-thisidlist.md
-  - name: "Shell SDK Samples"
+  - name: "Shell Samples"
     href: samples-entry.md
     items: 
     - name: "Aero Wizards Sample"

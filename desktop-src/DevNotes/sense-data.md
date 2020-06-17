@@ -205,7 +205,7 @@ The content and format of the sense key specific information is determined by th
 
 ## Remarks
 
-For more information about the sense data format, see [SCSI Request Sense Command](https://en.wikipedia.org/wiki/SCSI_Request_Sense_Command) (https://en.wikipedia.org/wiki/SCSI\_Request\_Sense\_Command).
+For more information about the sense data format, see [SCSI Request Sense Command](https://wikipedia.org/wiki/SCSI_command) (https://wikipedia.org/wiki/SCSI_command).
 
 ## Requirements
 

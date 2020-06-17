@@ -39,16 +39,16 @@ GDI+ can be used in all Windows-based applications. GDI+ was introduced in Windo
 
 <dl> <dt>
 
-[Windows GDI](https://msdn.microsoft.com/library/gdi/wingdistart_9ezp.asp)
+[Windows GDI](/windows/win32/gdi/windows-gdi)
 </dt> <dt>
 
 [DirectX](https://msdn.microsoft.com/directx/)
 </dt> <dt>
 
-[Windows Image Acquisition](https://msdn.microsoft.com/library/wia/wia/overviews/startpage.asp)
+[Windows Image Acquisition](/windows/win32/wia/-wia-startpage)
 </dt> <dt>
 
-[OpenGL](https://msdn.microsoft.com/library/opengl/openglstart_9uw5.asp)
+[OpenGL](/windows/win32/opengl/opengl)
 </dt> <dt>
 
 [Windows Multimedia](https://msdn.microsoft.com/library/Dd743883(v=VS.85).aspx)

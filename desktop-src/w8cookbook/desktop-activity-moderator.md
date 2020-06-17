@@ -84,9 +84,9 @@ Vendors who create software for, or dependent on, the web should consider how pr
 
 Windows Store apps are not impacted by the DAM. If your desktop app is impacted by the DAM, you can request notifications before suspension is engaged (for example, to save state or close network connections) using one of these methods:
 
--   If your app has a window (HWND) and you want to handle these notifications through your window procedure, call [RegisterSuspendResumeNotification](https://msdn.microsoft.com/library/windows/desktop/jj613321(v=vs.85).aspx) to register for these messages (or [UnregisterSuspendResumeNotification](https://msdn.microsoft.com/library/windows/desktop/jj613322(v=vs.85).aspx) to unregister). You can use DEVICE\_NOTIFY\_WINDOW\_HANDLE in the Flags parameter, and pass your window’s HWND in as the Recipient parameter. The message received is the WM\_POWERBROADCAST message.
--   If your app does not have a window (HWND) or you want a direct callback, call [PowerRegisterSuspendResumeNotification](https://msdn.microsoft.com/library/windows/desktop/Hh769080(v=vs.85).aspx) to register for these messages (or [PowerUnregisterSuspendResumeNotification](https://msdn.microsoft.com/library/windows/desktop/hh769084(v=vs.85).aspx) to unregister). You must use DEVICE\_NOTIFY\_CALLBACK in the Flags parameter and pass a value of type PDEVICE\_NOTIFY\_SUBSCRIBE\_PARAMETERS in the Recipient parameter.
--   If your app cannot be recompiled, you can opt in to receive these WM\_POWERBROADCAST messages via the [AppCompat toolkit](https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=7352)(using the PromoteDAM shim).
+-   If your app has a window (HWND) and you want to handle these notifications through your window procedure, call [RegisterSuspendResumeNotification](https://msdn.microsoft.com/library/windows/win32/jj613321(v=vs.85).aspx) to register for these messages (or [UnregisterSuspendResumeNotification](https://msdn.microsoft.com/library/windows/win32/jj613322(v=vs.85).aspx) to unregister). You can use DEVICE\_NOTIFY\_WINDOW\_HANDLE in the Flags parameter, and pass your window’s HWND in as the Recipient parameter. The message received is the WM\_POWERBROADCAST message.
+-   If your app does not have a window (HWND) or you want a direct callback, call [PowerRegisterSuspendResumeNotification](https://msdn.microsoft.com/library/windows/win32/Hh769080(v=vs.85).aspx) to register for these messages (or [PowerUnregisterSuspendResumeNotification](https://msdn.microsoft.com/library/windows/win32/hh769084(v=vs.85).aspx) to unregister). You must use DEVICE\_NOTIFY\_CALLBACK in the Flags parameter and pass a value of type PDEVICE\_NOTIFY\_SUBSCRIBE\_PARAMETERS in the Recipient parameter.
+-   If your app cannot be recompiled, you can opt in to receive these WM\_POWERBROADCAST messages via the [AppCompat toolkit](/windows/win32/win7appqual/application-compatibility-toolkit--act-) (using the PromoteDAM shim).
 
 The suspend message is WM\_POWERBROADCAST with wParam=PBT\_APMSUSPEND; this message is broadcast concurrently to all opted in processes on the system. Your app must perform any work on the suspend path quickly and efficiently. The timeout after the broadcast notification is global, not per process, so your process might be contending for system resources if the work required in this path is extensive.
 
@@ -101,14 +101,14 @@ Test your software across connected standby transitions.
 ## Resources
 
 -   [Mobile Battery Life Solutions for Windows 7](https://msdn.microsoft.com/windows/hardware/gg487547)
--   [SYSTEM\_POWER\_CAPABILITIES](https://msdn.microsoft.com/library/windows/desktop/aa373215(v=vs.85).aspx)
--   [CallNtPowerInformation function](https://msdn.microsoft.com/library/windows/desktop/aa372675(v=vs.85).aspx)
--   [Job Objects](https://msdn.microsoft.com/library/windows/desktop/ms684161(v=vs.85).aspx)
--   [RegisterSuspendResumeNotification](https://msdn.microsoft.com/library/windows/desktop/jj613321(v=vs.85).aspx)
--   [UnregisterSuspendResumeNotification](https://msdn.microsoft.com/library/windows/desktop/jj613322(v=vs.85).aspx)
--   [PowerRegisterSuspendResumeNotification](https://msdn.microsoft.com/library/windows/desktop/Hh769080(v=vs.85).aspx)
--   [PowerUnregisterSuspendResumeNotification](https://msdn.microsoft.com/library/windows/desktop/hh769084(v=vs.85).aspx)
--   [AppCompat toolkit](https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=7352)
+-   [SYSTEM\_POWER\_CAPABILITIES](https://msdn.microsoft.com/library/windows/win32/aa373215(v=vs.85).aspx)
+-   [CallNtPowerInformation function](https://msdn.microsoft.com/library/windows/win32/aa372675(v=vs.85).aspx)
+-   [Job Objects](https://msdn.microsoft.com/library/windows/win32/ms684161(v=vs.85).aspx)
+-   [RegisterSuspendResumeNotification](https://msdn.microsoft.com/library/windows/win32/jj613321(v=vs.85).aspx)
+-   [UnregisterSuspendResumeNotification](https://msdn.microsoft.com/library/windows/win32/jj613322(v=vs.85).aspx)
+-   [PowerRegisterSuspendResumeNotification](https://msdn.microsoft.com/library/windows/win32/Hh769080(v=vs.85).aspx)
+-   [PowerUnregisterSuspendResumeNotification](https://msdn.microsoft.com/library/windows/win32/hh769084(v=vs.85).aspx)
+-   [AppCompat toolkit](/windows/win32/win7appqual/application-compatibility-toolkit--act-)
 
  
 

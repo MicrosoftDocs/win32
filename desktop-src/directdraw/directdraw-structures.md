@@ -13,7 +13,7 @@ This section contains information about the following structures used with Direc
 -   [**DDBLTBATCH**](/windows/desktop/api/Ddraw/ns-ddraw-ddbltbatch)
 -   [**DDBLTFX**](/windows/desktop/api/Ddraw/ns-ddraw-ddbltfx)
 -   [**DDCAPS**](/windows/desktop/api/Ddraw/ns-ddraw-ddcaps_dx3)
--   [**DDCOLORCONTROL**](/windows/desktop/api/Ddraw/ns-ddraw-_ddcolorcontrol)
+-   [**DDCOLORCONTROL**](/windows/win32/api/ddraw/nn-ddraw-idirectdrawcolorcontrol)
 -   [**DDCOLORKEY**](/windows/desktop/api/Ddraw/ns-ddraw-ddcolorkey)
 -   [**DDDEVICEIDENTIFIER2**](/windows/win32/api/ddraw/ns-ddraw-dddeviceidentifier2)
 -   [**DDGAMMARAMP**](/windows/desktop/api/Ddraw/ns-ddraw-ddgammaramp)

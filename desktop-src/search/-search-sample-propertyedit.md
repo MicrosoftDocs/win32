@@ -39,8 +39,7 @@ This sample is available in the following locations.
 
 | Location      | Path URL                                                                  |
 |---------------|---------------------------------------------------------------------------|
-| Code Gallery  | [PropertyEdit sample](https://code.msdn.microsoft.com/shellextensibility)    |
-| Windows 7 SDK | [Download Windows 7 SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx) |
+| GitHub  | [PropertyEdit sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/PropertyEdit)    |
 
 
 
@@ -49,7 +48,7 @@ This sample is available in the following locations.
  
 
 > [!Note]  
-> After you have downloaded and installed the Windows Software Development Kit (SDK), you will find the samples in the installed directory. For example, use of the default installation path for the Windows 7 software development kit (SDK) results in the samples being placed under `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples`.
+> For all versions of Windows, including Windows 7, it is recommended to download the samples directly from GitHub for the most up to date version.
 
  
 
@@ -57,7 +56,7 @@ This sample is available in the following locations.
 
 To build the sample from the Command Prompt:
 
-1.  Open the Command Prompt window and navigate to the **PropertyEdit** project directory. For example, the full default installation path is `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\Shell\AppPlatform\PropertyEdit`.
+1.  Open the Command Prompt window and navigate to the **PropertyEdit** project directory. 
 2.  Enter `msbuild PropertyEdit.sln`.
 
 To build the sample using Microsoft Visual Studio (preferred):

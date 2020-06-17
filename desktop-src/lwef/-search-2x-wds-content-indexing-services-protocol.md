@@ -121,7 +121,7 @@ A WSPP protocol specification does not require the use of Microsoft programming 
 
 ### 1.2.1 Normative References
 
-\[IEEE754\] Institute of Electrical and Electronics Engineers, "Standard for Binary Floating-Point Arithmetic", IEEE 754-1985, October 1985, https://grouper.ieee.org/groups/754/
+\[IEEE754\] Institute of Electrical and Electronics Engineers, "Standard for Binary Floating-Point Arithmetic", IEEE 754-1985, October 1985, https://standards.ieee.org/standard/754-1985.html
 
 \[MS-DCOM\] Microsoft Corporation, "Distributed Component Object Model Remote Protocols", June 2006.
 

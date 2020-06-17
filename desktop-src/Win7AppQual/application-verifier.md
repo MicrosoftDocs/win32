@@ -126,7 +126,7 @@ One further note: Application Verifier is only as good as the code paths you run
 
 **WinQual:**
 
--   [Windows Quality Online Services (Winqual)](https://winqual.microsoft.com)
+-   [Windows Quality Online Services (Winqual)](/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-)
 -   [Windows Error Reporting: Getting Started](https://docs.microsoft.com/windows/win32/wer/using-wer)
 
  

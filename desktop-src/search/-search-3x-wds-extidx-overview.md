@@ -25,13 +25,7 @@ This section on extending the index with add-ins contains the following topics:
 
 ## Additional Resources
 
--   For community-supported message boards on Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://social.msdn.microsoft.com/Forums/en-US/windowsdesktopsearchdevelopment/threads).
--   To download the Search SDK Code Samples:
-    -   For Windows 7: [Windows Search Samples on Code Gallery](https://code.msdn.microsoft.com/windowssearch)
-    -   For Windows Vista: [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8)
--   To download the Windows SDK:
-    -   For Windows 7: [Windows SDK for Windows 7 and .NET Framework](https://msdn.microsoft.com/windowsvista/bb980924.aspx)
-    -   For Windows Vista: [Windows SDK for Windows Vista and .NET Framework](https://www.microsoft.com/downloads/details.aspx?FamilyID=4377f86d-c913-4b5c-b87e-ef72e5b4e065)
+For related code samples, see [Windows Search Code Samples](-search-samples-ovw.md).
 
 ## Related topics
 

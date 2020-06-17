@@ -16,7 +16,7 @@ This topic is organized as follows:
 -   [Development Scenarios](#development-scenarios)
 -   [Properties and Windows Search](#properties-and-windows-search)
 -   [Note to Implementers](#note-to-implementers)
--   [Windows Property System SDK Documentation](#windows-property-system-sdk-documentation)
+-   [Windows Property System Documentation](#windows-property-system-documentation)
 -   [Additional Resources](#additional-resources)
 -   [Related topics](#related-topics)
 
@@ -96,9 +96,9 @@ Third-party developers can create applications that consume the data in the inde
 
 Due to potential difficulties that the indexer may have when consuming the property system's schema, it is critical that you define attributes carefully and strategically for the first release of the schema. Any changes to attributes (type, column width, whether indexible) will not be reflected in the database after a schema has been registered. The only ways to have these changes recognized after the schema has been registered once on a system would be either to rebuild the index and then register the new schema, or to register the schema and then create a new property for each subsequent release; for example `PKEY_GroupName_PropertyNameV2`, `PKEY_GroupName_PropertyNameV3`, and so forth. We do not recommend creating new properties in this manner, because multiple extraneous columns may impact system performance.
 
-## Windows Property System SDK Documentation
+## Windows Property System Documentation
 
-The remainder of this Windows Property System SDK documentation contains the following sections:
+The remainder of this documentation contains the following sections:
 
 -   [Windows Property System Developer's Guide](property-system-developer-s-guide.md)
 
@@ -110,12 +110,12 @@ The remainder of this Windows Property System SDK documentation contains the fol
 
 -   [Property System Code Samples](property-system-code-samples.md)
 
-    Describes the individual property samples included in the Windows Software Development Kit (SDK). Most samples can be downloaded from [MSDN Code Gallery](https://code.msdn.microsoft.com/). All samples are included in the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+    Describes samples that demonstrate how to use the Windows Property System.
 
 ## Additional Resources
 
 -   For information about reusing the In-Memory Property Store, see [Initializing Property Handlers](building-property-handlers-property-handlers.md) and [**PSCreateMemoryPropertyStore**](/windows/desktop/api/Propsys/nf-propsys-pscreatememorypropertystore).
--   For a specification of the Microsoft Property Store Binary File Format, see [\[MS\_PROPSTORE\]](http://msdn.microsoft.com/en-us/library/dd871346(v=prot.13).aspx).
+-   For a specification of the Microsoft Property Store Binary File Format, see [\[MS\_PROPSTORE\]](https://docs.microsoft.com/openspecs/windows_protocols/ms-propstore/39ea873f-7af5-44dd-92f9-bc1f293852cc).
 -   The relationship between Windows Search and indexing, and how to extend the index, are explained in the following topics in Windows Search:
     -   [Developing Filter Handlers for Windows Search](https://msdn.microsoft.com/library/Dd940430(v=VS.85).aspx)
     -   [Developing Protocol Handlers for Windows Search](https://msdn.microsoft.com/library/Bb266531(v=VS.85).aspx)
