@@ -42,7 +42,7 @@ Pointer to a [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa)
 
 ## Return value
 
-Returns **TRUE** if any tools are enumerated, or **FALSE** otherwise.
+Returns **FALSE** whether or not a tool was enumerated.
 
 ## Remarks
 
