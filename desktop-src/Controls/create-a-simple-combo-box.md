@@ -349,9 +349,9 @@ HRESULT DemoApp::Initialize()
 
     TCHAR Planets[9][10] =  
     {
-        TEXT(&quot;Mercury&quot;), TEXT(&quot;Venus&quot;), TEXT(&quot;Terra&quot;), TEXT(&quot;Mars&quot;), 
-        TEXT(&quot;Jupiter&quot;), TEXT(&quot;Saturn&quot;), TEXT(&quot;Uranus&quot;), TEXT(&quot;Neptune&quot;), 
-        TEXT(&quot;Pluto??&quot;) 
+        TEXT("Mercury"), TEXT("Venus"), TEXT("Terra"), TEXT("Mars"), 
+        TEXT("Jupiter"), TEXT("Saturn"), TEXT("Uranus"), TEXT("Neptune"), 
+        TEXT("Pluto??") 
     };
            
     TCHAR A[16]; 
@@ -439,8 +439,8 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
                     { 
                         int ItemIndex = SendMessage((HWND) lParam, (UINT) CB_GETCURSEL, 
                             (WPARAM) 0, (LPARAM) 0);
-                        TCHAR  ListItem[256];
-                        (TCHAR) SendMessage((HWND) lParam, (UINT) CB_GETLBTEXT, 
+                            TCHAR  ListItem[256];
+                            (TCHAR) SendMessage((HWND) lParam, (UINT) CB_GETLBTEXT, 
                             (WPARAM) ItemIndex, (LPARAM) ListItem);
                         MessageBox(hwnd, (LPCWSTR) ListItem, TEXT(&quot;Item Selected&quot;), MB_OK);                        
                     }
