@@ -39,13 +39,13 @@ conda activate directml
 
 ### Install the Tensorflow with DirectML package 
 
-Install the package of TensorFlow with a DirectML backend through pip by running the following command (replace `cp36` with `cp35` for Python 3.5, or `cp37` for Python 3.7).
+Install the package of TensorFlow with a DirectML backend through pip by running the following command.
 
 > [!NOTE]
 > The tensorflow-directml package only supports TensorFlow 1.15. 
 
 ```
-pip install https://github.com/microsoft/DirectML/releases/download/tensorflow-directml-1.15.3.dev200615/tensorflow_directml-1.15.3.dev200615-cp36-cp36m-win_amd64.whl
+pip install tensorflow-directml
 ```
 
 Once you’ve installed the tensorflow-directml package, you can verify that it runs correctly by adding two tensors. Copy the following lines into an interactive Python session. 
