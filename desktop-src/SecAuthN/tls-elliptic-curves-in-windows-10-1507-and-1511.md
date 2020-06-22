@@ -2,7 +2,7 @@
 Description: Elliptic curves enabled in Windows 10 versions 1507 and 1511.
 title: TLS Elliptic Curves in Windows 10 version 1507 and 1511
 ms.topic: article
-ms.keywords: 'ecc curves, elliptic curves, tls elliptic curves, ECC curves'
+ms.keywords: 'ecc curves, elliptic curves, tls elliptic curves, ECC curves, schannel, ECC, EC, Elliptic Curve Cryptography'
 ms.date: 06/10/2020
 ---
 
@@ -30,6 +30,7 @@ The following elliptic curves are supported by the Microsoft Schannel Provider, 
 | secP160r1 | No |
 | secP160r2 | No |
 | secP192k1 | No |
+| secP192r1 | No |
 | secP224k1 | No |
 | secP224r1 | No |
 | secP256k1 | No |
