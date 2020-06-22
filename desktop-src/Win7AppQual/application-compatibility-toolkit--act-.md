@@ -8,8 +8,8 @@ ms.date: 06/12/2020
 
 # Application Compatibility Toolkit (ACT)
 
-. [!IMPORTANT]
-. The Application Compatibility Toolkit versions covered in this article are no longer supported. The last supported version is included in the [Windows 10 Assessment and Deployment Kit](https://docs.microsoft.com/archive/blogs/yongrhee/download-windows-10-assessment-and-deployment-kit-adk)
+> [!IMPORTANT]
+> The Application Compatibility Toolkit versions covered in this article are no longer supported. The last supported version is included in the [Windows 10 Assessment and Deployment Kit](https://docs.microsoft.com/archive/blogs/yongrhee/download-windows-10-assessment-and-deployment-kit-adk)
 
 ## Affected Platforms
 
