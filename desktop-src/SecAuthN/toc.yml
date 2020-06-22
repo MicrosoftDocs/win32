@@ -266,6 +266,12 @@
               href: schannel-cipher-suites-in-windows-vista.md
             - name: "Prioritizing Schannel Cipher Suites"
               href: prioritizing-schannel-cipher-suites.md
+          - name: "Elliptic Curves in TLS (Schannel SSP)"
+            items:
+            - name: "TLS Elliptic Curves in Windows 10, versions 1607 and later"
+              href: tls-elliptic-curves-in-windows-10-1607-and-later.md
+            - name: "TLS Elliptic Curves in Windows 10, versions 1507 and 1511"
+              href: tls-elliptic-curves-in-windows-10-1507-and-1511.md
           - name: "Schannel Credentials"
             href: schannel-credentials.md
           - name: "Schannel Error Codes for TLS and SSL Alerts"
