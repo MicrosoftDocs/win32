@@ -76,7 +76,7 @@ The consistency level of the reference point.
 
 </dt> <dd>
 
-The reference point indicates a point in time when the virtual system was in crash consistent state.
+The reference point indicates a point in time when the virtual system was in application consistent state.
 
 </dd> <dt>
 
@@ -87,7 +87,7 @@ The reference point indicates a point in time when the virtual system was in cra
 
 </dt> <dd>
 
-The reference point indicates a point in time when the virtual system was in application consistent state.
+The reference point indicates a point in time when the virtual system was in crash consistent state.
 
 </dd> </dl>
 
