@@ -75,8 +75,8 @@ The following code handles WM\_INPUT messages in the application's WinProc handl
 ``` syntax
     case WM_INPUT: 
     {
-        UINT dwSize = 40;
-        static BYTE lpb[40];
+        UINT dwSize = sizeof(RAWINPUT);
+        static BYTE lpb[sizeof(RAWINPUT)];
     
         GetRawInputData((HRAWINPUT)lParam, RID_INPUT, 
                         lpb, &dwSize, sizeof(RAWINPUTHEADER));
