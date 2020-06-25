@@ -42,13 +42,13 @@ The expression to evaluate.
 *laneIndex* 
 </dt> <dd>
 
-The input lane index must be uniform across the wave.
+The index of the lane for which the *expr* result will be returned.
 
 </dd> </dl>
 
 ## Return value
 
-The resulting value is uniform across the wave.
+The resulting value is the result of *expr*. It will be uniform if *laneIndex* is uniform.
 
 ## Remarks
 
