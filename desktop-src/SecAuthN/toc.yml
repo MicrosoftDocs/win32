@@ -123,6 +123,8 @@
     - name: "SSPI"
       href: sspi.md
       items: 
+      - name: "SSPI (Asynchronous)"
+        href: sspi-asynchronous.md
       - name: "SSPI Model"
         href: sspi-model.md
       - name: "SSPI Options for Distributed Applications"
