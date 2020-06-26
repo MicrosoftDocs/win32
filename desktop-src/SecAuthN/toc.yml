@@ -123,8 +123,6 @@
     - name: "SSPI"
       href: sspi.md
       items: 
-      - name: "SSPI (Asynchronous)"
-        href: sspi-asynchronous.md
       - name: "SSPI Model"
         href: sspi-model.md
       - name: "SSPI Options for Distributed Applications"
@@ -296,6 +294,8 @@
           href: restrictions-around-registering-and-installing-a-security-package.md
       - name: "Extended Error Information"
         href: extended-error-information.md
+      - name: "Asynchronous SSPI"
+        href: sspi-asynchronous.md
     - name: "Winlogon and Credential Providers"
       href: winlogon-and-credential-providers.md
       items: 

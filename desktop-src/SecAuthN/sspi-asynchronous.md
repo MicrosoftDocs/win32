@@ -8,8 +8,7 @@ ms.date: 06/23/2020
 
 # Asynchronous SSPI
 
-The async SSPI header includes functions that manage async context objects. Async context objects manage the lifecycle of asynchronous SSPI calls as well as the asynchronous APIs that implement the SSPI operations.
-
+The asynchronous SSPI header includes functions that support async context objects, allowing callers to establish security contexts between server and remote clients concurrently through an async SSPI call lifecycle.
 
 ## Async context management types:
 
