@@ -10,14 +10,14 @@ ms.date: 06/23/2020
 
 The asynchronous SSPI header includes functions that support async context objects, allowing callers to establish security contexts between server and remote clients concurrently through an async SSPI call lifecycle.
 
-## Async context management types:
+## Async context management types
 
 | Object Name | Description |
 |-------------|--------------|
 | [SspiAsyncNotifyCallback](/windows/win32/api/sspi/nc-sspi-sspiasyncnotifycallback) | Callback used for notifying completion of an async SSPI call. |
 
 
-## Async context management functions:
+## Async context management functions
 
 | API Name | Description |
 |-------------|--------------|
@@ -43,11 +43,11 @@ The following functions accept an async context in addition to all the same para
 ## API Sample
 
 A typical call flow works as follows:
-1) Create SspiAsyncContext context to track call
-2) Register an SspiAsyncNotifyCallback for the context
-3) Make async call
-4) On callback, retrieve result
-5) Teardown SspiAsyncContext. If reusing the context with SspiReinitAsyncContext, go back to step 2.
+1) Create SspiAsyncContext context to track call using [SspiCreateAsyncContext](/windows/win32/api/sspi/nf-sspi-sspicreateasynccontext)
+2) Register an [SspiAsyncNotifyCallback](/windows/win32/api/sspi/nf-sspi-sspisetasyncnotifycallback) for the context
+3) Make the async call using [SspiAcceptSecurityContextAsync](/windows/win32/api/sspi/nf-sspi-sspiacceptsecuritycontextasync)
+4) On callback, retrieve the result using [SspiGetAsyncCallStatus](/windows/win32/api/sspi/nf-sspi-sspigetasynccallstatus)
+5) Delete SspiAsyncContext using [SspiDeleteSecurityContextAsync](/windows/win32/api/sspi/nf-sspi-sspideletesecuritycontextasync). If reusing the context with [SspiReinitAsyncContext](/windows/win32/api/sspi/nf-sspi-sspireinitasynccontext), go back to step 2.
 
 The sample below demonstrates an invocation of SspiAcceptSecurityContextAsync. The sample waits for the call to complete and retrieves the result.
 
