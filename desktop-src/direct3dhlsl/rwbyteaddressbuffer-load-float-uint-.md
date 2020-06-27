@@ -24,8 +24,8 @@ Gets one value and returns status of the operation.
 
 ```C++
 uint Load(
-  _In_  int  Location,
-  _Out_ uint Status
+  in  int  Location,
+  out uint Status
 );
 ```
 

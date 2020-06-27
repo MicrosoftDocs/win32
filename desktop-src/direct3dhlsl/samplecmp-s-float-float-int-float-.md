@@ -24,11 +24,11 @@ Samples a [**Texture2D**](sm5-object-texture2d.md), using a comparison value to 
 
 ```C++
 DXGI_FORMAT SampleCmp(
-  _In_ SamplerState S,
-  _In_ float        Location,
-  _In_ float        CompareValue,
-  _In_ int          Offset,
-  _In_ float        Clamp
+  in SamplerState S,
+  in float        Location,
+  in float        CompareValue,
+  in int          Offset,
+  in float        Clamp
 );
 ```
 

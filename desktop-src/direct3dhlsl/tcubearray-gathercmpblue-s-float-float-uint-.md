@@ -24,10 +24,10 @@ Samples a texture, tests the samples against a compare value, and returns the bl
 
 ```C++
 TemplateType GatherCmpBlue(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  float        CompareValue,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  float        CompareValue,
+  out uint         Status
 );
 ```
 

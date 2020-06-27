@@ -24,10 +24,10 @@ Samples a texture and returns all four components along with status about the op
 
 ```C++
 TemplateType Gather(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  int          Offset,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  int          Offset,
+  out uint         Status
 );
 ```
 

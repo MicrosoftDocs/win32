@@ -24,11 +24,11 @@ Samples a [**Texture2D**](sm5-object-texture2d.md) on the specified mipmap level
 
 ```C++
 DXGI_FORMAT SampleLevel(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  float        LOD,
-  _In_  int          Offset,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  float        LOD,
+  in  int          Offset,
+  out uint         Status
 );
 ```
 

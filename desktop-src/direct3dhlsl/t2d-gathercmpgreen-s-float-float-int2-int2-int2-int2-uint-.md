@@ -24,14 +24,14 @@ Samples a texture, tests the samples against a compare value, and returns the gr
 
 ```C++
 TemplateType GatherCmpGreen(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  float        CompareValue,
-  _In_  int2         Offset1,
-  _In_  int2         Offset2,
-  _In_  int2         Offset3,
-  _In_  int2         Offset4,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  float        CompareValue,
+  in  int2         Offset1,
+  in  int2         Offset2,
+  in  int2         Offset3,
+  in  int2         Offset4,
+  out uint         Status
 );
 ```
 

@@ -24,12 +24,12 @@ Samples a [**Texture2D**](sm5-object-texture2d.md), after applying the bias valu
 
 ```C++
 DXGI_FORMAT SampleBias(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  float        Bias,
-  _In_  int          Offset,
-  _In_  float        Clamp,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  float        Bias,
+  in  int          Offset,
+  in  float        Clamp,
+  out uint         Status
 );
 ```
 

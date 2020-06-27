@@ -24,10 +24,10 @@ Reads texture data and returns status of the operation.
 
 ```C++
  Load(
-  _In_  int2 Location,
-  _In_  int  sampleindex,
-  _In_  int2 Offset,
-  _Out_ uint Status
+  in  int2 Location,
+  in  int  sampleindex,
+  in  int2 Offset,
+  out uint Status
 );
 ```
 

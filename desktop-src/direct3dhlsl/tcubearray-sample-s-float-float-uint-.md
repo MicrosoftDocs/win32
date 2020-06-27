@@ -24,10 +24,10 @@ Samples a texture with an optional value to clamp sample level-of-detail (LOD) v
 
 ```C++
 DXGI_FORMAT Sample(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  float        Clamp,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  float        Clamp,
+  out uint         Status
 );
 ```
 

@@ -24,11 +24,11 @@ Samples a texture on mipmap level 0 only and compares the result to a comparison
 
 ```C++
 DXGI_FORMAT SampleCmpLevelZero(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  float        CompareValue,
-  _In_  int          Offset,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  float        CompareValue,
+  in  int          Offset,
+  out uint         Status
 );
 ```
 

@@ -24,7 +24,7 @@ Reads texture data.
 
 ```C++
  Load(
-  _In_ int Location
+  in int Location
 );
 ```
 

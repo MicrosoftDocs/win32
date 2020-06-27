@@ -24,13 +24,13 @@ Samples a texture, using a gradient to influence the way the sample location is 
 
 ```C++
 DXGI_FORMAT SampleGrad(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  float        DDX,
-  _In_  float        DDY,
-  _In_  int          Offset,
-  _In_  float        Clamp,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  float        DDX,
+  in  float        DDY,
+  in  int          Offset,
+  in  float        Clamp,
+  out uint         Status
 );
 ```
 

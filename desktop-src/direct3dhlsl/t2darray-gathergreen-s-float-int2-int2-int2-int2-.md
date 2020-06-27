@@ -24,12 +24,12 @@ Samples a texture and returns the green component.
 
 ```C++
 TemplateType GatherGreen(
-  _In_ SamplerState S,
-  _In_ float        Location,
-  _In_ int2         Offset1,
-  _In_ int2         Offset2,
-  _In_ int2         Offset3,
-  _In_ int2         Offset4
+  in SamplerState S,
+  in float        Location,
+  in int2         Offset1,
+  in int2         Offset2,
+  in int2         Offset3,
+  in int2         Offset4
 );
 ```
 

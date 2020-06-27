@@ -24,9 +24,9 @@ Reads texture data and returns status of the operation.
 
 ```C++
  Load(
-  _In_  int  Location,
-  _In_  int  Offset,
-  _Out_ uint Status
+  in  int  Location,
+  in  int  Offset,
+  out uint Status
 );
 ```
 

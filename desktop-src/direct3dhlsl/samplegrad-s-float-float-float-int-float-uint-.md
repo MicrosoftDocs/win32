@@ -24,13 +24,13 @@ Samples a [**Texture2D**](sm5-object-texture2d.md), using a gradient to influenc
 
 ```C++
 DXGI_FORMAT SampleGrad(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  float        DDX,
-  _In_  float        DDY,
-  _In_  int          Offset,
-  _In_  float        Clamp,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  float        DDX,
+  in  float        DDY,
+  in  int          Offset,
+  in  float        Clamp,
+  out uint         Status
 );
 ```
 

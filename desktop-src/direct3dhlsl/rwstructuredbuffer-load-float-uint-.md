@@ -24,8 +24,8 @@ Reads buffer data and returns status about the operation.
 
 ```C++
  Load(
-  _In_  int  Location,
-  _Out_ uint Status
+  in  int  Location,
+  out uint Status
 );
 ```
 

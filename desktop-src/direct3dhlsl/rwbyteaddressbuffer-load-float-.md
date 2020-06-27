@@ -24,7 +24,7 @@ Gets one value.
 
 ```C++
 uint Load(
-  _In_ int Location
+  in int Location
 );
 ```
 

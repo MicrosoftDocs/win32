@@ -24,10 +24,10 @@ Samples a texture, using a comparison value to reject samples, with an optional 
 
 ```C++
 DXGI_FORMAT SampleCmp(
-  _In_ SamplerState S,
-  _In_ float        Location,
-  _In_ float        CompareValue,
-  _In_ float        Clamp
+  in SamplerState S,
+  in float        Location,
+  in float        CompareValue,
+  in float        Clamp
 );
 ```
 

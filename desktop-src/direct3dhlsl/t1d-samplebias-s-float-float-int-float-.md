@@ -24,11 +24,11 @@ Samples a texture, after applying the bias value to the mipmap level, with an op
 
 ```C++
 DXGI_FORMAT SampleBias(
-  _In_ SamplerState S,
-  _In_ float        Location,
-  _In_ float        Bias,
-  _In_ int          Offset,
-  _In_ float        Clamp
+  in SamplerState S,
+  in float        Location,
+  in float        Bias,
+  in int          Offset,
+  in float        Clamp
 );
 ```
 

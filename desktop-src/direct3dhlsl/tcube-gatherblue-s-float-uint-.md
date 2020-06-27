@@ -24,9 +24,9 @@ Samples a texture and returns the blue component along with status about the ope
 
 ```C++
 TemplateType GatherBlue(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  out uint         Status
 );
 ```
 

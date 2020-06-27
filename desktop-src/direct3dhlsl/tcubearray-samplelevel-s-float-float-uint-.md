@@ -24,10 +24,10 @@ Samples a texture on the specified mipmap level and returns status about the ope
 
 ```C++
 DXGI_FORMAT SampleLevel(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  float        LOD,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  float        LOD,
+  out uint         Status
 );
 ```
 

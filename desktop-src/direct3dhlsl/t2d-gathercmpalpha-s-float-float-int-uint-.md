@@ -24,11 +24,11 @@ Samples a texture, tests the samples against a compare value, and returns the al
 
 ```C++
 TemplateType GatherCmpAlpha(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  float        CompareValue,
-  _In_  int          Offset,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  float        CompareValue,
+  in  int          Offset,
+  out uint         Status
 );
 ```
 

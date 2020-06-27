@@ -24,11 +24,11 @@ Samples a texture, tests the samples against a compare value, and returns the re
 
 ```C++
 TemplateType GatherCmpRed(
-  _In_  SamplerState S,
-  _In_  float        Location,
-  _In_  float        CompareValue,
-  _In_  int          Offset,
-  _Out_ uint         Status
+  in  SamplerState S,
+  in  float        Location,
+  in  float        CompareValue,
+  in  int          Offset,
+  out uint         Status
 );
 ```
 
