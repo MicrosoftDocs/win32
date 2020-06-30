@@ -22,7 +22,7 @@ Returns true only for the active lane in the current wave with the smallest inde
 ## Syntax
 
 
-```C++
+``` syntax
 bool WaveIsFirstLane(void);
 ```
 

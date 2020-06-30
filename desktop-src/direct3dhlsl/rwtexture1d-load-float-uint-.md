@@ -22,7 +22,7 @@ Reads texture data and returns status about the operation.
 ## Syntax
 
 
-```C++
+``` syntax
  Load(
   in  int  Location,
   out uint Status

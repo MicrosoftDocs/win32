@@ -22,7 +22,7 @@ Samples a texture, using a gradient to influence the way the sample location is 
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT SampleGrad(
   in  SamplerState S,
   in  float        Location,

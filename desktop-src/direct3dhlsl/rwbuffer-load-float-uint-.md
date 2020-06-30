@@ -22,7 +22,7 @@ Reads buffer data and returns status of the operation.
 ## Syntax
 
 
-```C++
+``` syntax
  Load(
   in  int  Location,
   out uint Status

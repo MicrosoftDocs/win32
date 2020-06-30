@@ -22,7 +22,7 @@ Samples a [**Texture2D**](sm5-object-texture2d.md), using a comparison value to 
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT SampleCmp(
   in  SamplerState S,
   in  float        Location,

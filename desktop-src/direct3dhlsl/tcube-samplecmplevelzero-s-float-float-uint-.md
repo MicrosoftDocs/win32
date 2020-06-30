@@ -22,7 +22,7 @@ Samples a texture on mipmap level 0 only and compares the result to a comparison
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT SampleCmpLevelZero(
   in  SamplerState S,
   in  float        Location,

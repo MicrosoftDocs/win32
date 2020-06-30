@@ -23,7 +23,7 @@ Describes an 4D integer vector.
 ## Syntax
 
 
-```C++
+``` syntax
 typedef struct _XMINT4 {
   INT x;
   INT {

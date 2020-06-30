@@ -22,7 +22,7 @@ Counts the number of boolean variables which evaluate to true across all active 
 ## Syntax
 
 
-```C++
+``` syntax
 uint WaveActiveCountBits(
    bool bBit
 );

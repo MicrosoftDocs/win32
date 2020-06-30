@@ -22,7 +22,7 @@ Samples a texture, using a comparison value to reject samples, with an optional 
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT SampleCmp(
   in  SamplerState S,
   in  float        Location,

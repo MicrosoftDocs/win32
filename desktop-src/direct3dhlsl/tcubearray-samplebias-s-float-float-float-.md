@@ -22,7 +22,7 @@ Samples a texture, after applying the bias value to the mipmap level, with an op
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT SampleBias(
   in SamplerState S,
   in float        Location,

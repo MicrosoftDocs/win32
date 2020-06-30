@@ -22,7 +22,7 @@ Samples a texture, tests the samples against a compare value, and returns all fo
 ## Syntax
 
 
-```C++
+``` syntax
 TemplateType GatherCmp(
   in  SamplerState S,
   in  float        Location,

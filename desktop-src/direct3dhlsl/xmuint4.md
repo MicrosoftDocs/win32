@@ -23,7 +23,7 @@ Describes an 4D unsigned integer vector.
 ## Syntax
 
 
-```C++
+``` syntax
 typedef struct _XMUINT4 {
   UINT x;
   UINT {

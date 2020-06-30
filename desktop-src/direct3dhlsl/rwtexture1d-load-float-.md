@@ -22,7 +22,7 @@ Reads texture data.
 ## Syntax
 
 
-```C++
+``` syntax
  Load(
   in int Location
 );

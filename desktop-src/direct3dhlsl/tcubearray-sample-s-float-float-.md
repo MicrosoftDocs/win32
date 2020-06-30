@@ -22,7 +22,7 @@ Samples a texture with an optional value to clamp sample level-of-detail (LOD) v
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT Sample(
   in SamplerState S,
   in float        Location,

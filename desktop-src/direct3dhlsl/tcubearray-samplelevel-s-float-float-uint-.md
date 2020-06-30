@@ -22,7 +22,7 @@ Samples a texture on the specified mipmap level and returns status about the ope
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT SampleLevel(
   in  SamplerState S,
   in  float        Location,

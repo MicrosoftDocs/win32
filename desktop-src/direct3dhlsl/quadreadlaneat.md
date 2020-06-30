@@ -22,7 +22,7 @@ Returns the specified source value from the lane identified by the lane ID withi
 ## Syntax
 
 
-```C++
+``` syntax
 <type> QuadReadLaneAt(
    <type> sourceValue,
    uint   quadLaneID  

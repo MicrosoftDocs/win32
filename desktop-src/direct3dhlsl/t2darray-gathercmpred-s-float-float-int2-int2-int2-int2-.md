@@ -22,7 +22,7 @@ Samples a texture, tests the samples against a compare value, and returns the re
 ## Syntax
 
 
-```C++
+``` syntax
 TemplateType GatherCmpRed(
   in SamplerState S,
   in float        Location,

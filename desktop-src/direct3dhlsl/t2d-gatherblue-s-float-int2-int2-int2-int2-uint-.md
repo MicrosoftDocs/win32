@@ -22,7 +22,7 @@ Samples a texture and returns the blue component along with status about the ope
 ## Syntax
 
 
-```C++
+``` syntax
 TemplateType GatherBlue(
   in  SamplerState S,
   in  float        Location,

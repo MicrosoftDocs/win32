@@ -22,7 +22,7 @@ Returns the sum of all the specified boolean variables set to true across all ac
 ## Syntax
 
 
-```C++
+``` syntax
 uint WavePrefixCountBits(
    bool bBit
 );

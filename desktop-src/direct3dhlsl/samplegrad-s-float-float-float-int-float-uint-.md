@@ -22,7 +22,7 @@ Samples a [**Texture2D**](sm5-object-texture2d.md), using a gradient to influenc
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT SampleGrad(
   in  SamplerState S,
   in  float        Location,

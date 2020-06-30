@@ -22,7 +22,7 @@ Samples a [**Texture2D**](sm5-object-texture2d.md), after applying the bias valu
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT SampleBias(
   in  SamplerState S,
   in  float        Location,

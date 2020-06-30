@@ -22,7 +22,7 @@ Samples a texture and returns all four components along with status about the op
 ## Syntax
 
 
-```C++
+``` syntax
 TemplateType Gather(
   in  SamplerState S,
   in  float        Location,

@@ -22,7 +22,7 @@ Reads buffer data.
 ## Syntax
 
 
-```C++
+``` syntax
  Load(
   in int Location
 );

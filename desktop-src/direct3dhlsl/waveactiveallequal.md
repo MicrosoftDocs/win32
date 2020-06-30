@@ -22,7 +22,7 @@ Returns true if the expression is the same for every active lane in the current 
 ## Syntax
 
 
-```C++
+``` syntax
 bool WaveActiveAllEqual(
    <type> expr
 );

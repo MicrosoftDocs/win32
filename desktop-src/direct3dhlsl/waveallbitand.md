@@ -22,7 +22,7 @@ Returns the bitwise AND of all the values of the expression across all active la
 ## Syntax
 
 
-```C++
+``` syntax
 <int_type> WaveActiveBitAnd(
    <int_type> expr
 );

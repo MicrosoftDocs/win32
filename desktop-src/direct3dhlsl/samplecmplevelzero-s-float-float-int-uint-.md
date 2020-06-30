@@ -22,7 +22,7 @@ Samples a [**Texture2D**](sm5-object-texture2d.md) on mipmap level 0 only and co
 ## Syntax
 
 
-```C++
+``` syntax
 DXGI_FORMAT SampleCmpLevelZero(
   in  SamplerState S,
   in  float        Location,

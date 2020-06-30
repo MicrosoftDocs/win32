@@ -22,7 +22,7 @@ Gets one value.
 ## Syntax
 
 
-```C++
+``` syntax
 uint Load(
   in int Location
 );

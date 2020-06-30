@@ -22,7 +22,7 @@ Samples a texture and returns the alpha component along with status about the op
 ## Syntax
 
 
-```C++
+``` syntax
 TemplateType GatherAlpha(
   in  SamplerState S,
   in  float        Location,

@@ -22,7 +22,7 @@ Gets three values and returns status of the operation.
 ## Syntax
 
 
-```C++
+``` syntax
 uint3 Load3(
   in  uint Location,
   out uint Status

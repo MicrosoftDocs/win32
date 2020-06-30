@@ -23,7 +23,7 @@ Describes an 2D integer vector.
 ## Syntax
 
 
-```C++
+``` syntax
 typedef struct _XMINT2 {
   INT x;
   INT y;

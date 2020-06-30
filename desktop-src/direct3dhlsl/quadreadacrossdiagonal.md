@@ -22,7 +22,7 @@ Returns the specified local value which is read from the diagonally opposite lan
 ## Syntax
 
 
-```C++
+``` syntax
 <type> QuadReadAcrossDiagonal(
    <type> localValue
 );
