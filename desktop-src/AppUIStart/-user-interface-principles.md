@@ -78,7 +78,7 @@ In the following screen shot, you can see a more professional-looking dialog wit
 
 ![screen shot of a more well designed form.](images/humanux-02.png)
 
-While there are no exact rules for spacing, the SnapLines provide extreemly useful guidelines for proper spacing. Other tools to help you keep proper spacing are the Layout controls under the Containers toolbox group. The TableLayoutPanel is also very helpful for creating entry form style dialog boxes.
+While there are no exact rules for spacing, the SnapLines provide extremely useful guidelines for proper spacing. Other tools to help you keep proper spacing are the Layout controls under the Containers toolbox group. The TableLayoutPanel is also very helpful for creating entry form style dialog boxes.
 
 ### Size
 
