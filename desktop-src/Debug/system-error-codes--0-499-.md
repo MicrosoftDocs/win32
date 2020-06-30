@@ -127,7 +127,7 @@ The storage control blocks were destroyed.
 
 
 
-Not enough storage is available to process this command.
+Not enough memory resources are available to process this command.
 
 
 </dt> </dl> </dd> <dt>
