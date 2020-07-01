@@ -70,13 +70,15 @@ The table below shows how to specify different process-default DPI awareness mod
 The sample below shows both the \<dpiAwareness\> and the \<dpiAware\> settings being used within the same manifest file to configure process-default DPI awareness behavior for different versions of Windows.
 
     <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-    <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
-    <application xmlns="urn:schemas-microsoft-com:asm.v3">
-        <windowsSettings>
-            <dpiAwareness xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">PerMonitorV2</dpiAwareness>
-            <dpiAware>true</dpiAware>
-        </windowsSettings>
-    </application>
+    <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+      <asmv3:application>
+        <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
+          <dpiAware>true</dpiAware>
+        </asmv3:windowsSettings>
+        <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">
+          <dpiAwareness>PerMonitorV2</dpiAwareness>
+        </asmv3:windowsSettings>
+      </asmv3:application>
     </assembly>
 
 ## Setting default awareness programmatically
