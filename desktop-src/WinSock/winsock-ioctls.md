@@ -508,7 +508,7 @@ For more information, see [**SIO\_TCP\_INFO**](https://msdn.microsoft.com/librar
 
 ## Remarks
 
-Winsock Ioctls are defined in a number of different header files. These include the *Winsock2.h*, *Mswsock.h*, and *Mstpcip.h* header file.
+Winsock Ioctls are defined in a number of different header files. These include the *Winsock2.h*, *Mswsock.h*, and *Mstcpip.h* header file.
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and a number of Winsock Ioctls are also defined in the *Ws2def.h*, *Ws2ipdef.h*, and *Mswsockdef.h* header files. The *Ws2def.h* header file is automatically included by the *Winsock2.h* header file. The *Ws2ipdef.h* header file is automatically included by the *Ws2tcpip.h* header file. The *Mswsockdef.h* header file is automatically included in the *Mswsockdef.h* header file.
 
