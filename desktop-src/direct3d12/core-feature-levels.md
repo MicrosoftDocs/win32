@@ -50,7 +50,7 @@ The runtime performs conversion of 5.x non DXIL shader models to 6.0 DXIL. So th
 
 - Support for resource binding tier 1 only
 - Exceptions:
-  - No support texture samplers
+  - No support for texture samplers
   - Support for 64 UAVs like Feature Level 11.1+ (as opposed to only 8)
   - Implementations do not have to implement bounds checking on shader accesses to resources through descriptors, out of bounds accesses produce undefined behavior.
     - As a byproduct, the descriptor range flag D3D12_DESCRIPTOR_RANGE_FLAG_DESCRIPTORS_STATIC_KEEPING_BUFFER_BOUNDS_CHECKS in root signatures is not supported.
