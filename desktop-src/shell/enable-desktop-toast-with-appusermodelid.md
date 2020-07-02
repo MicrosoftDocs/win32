@@ -142,7 +142,7 @@ HRESULT DesktopToastsApp::InstallShortcut(_In_z_ wchar_t *shortcutPath)
 
 ## Remarks
 
-As an alternative to the approach shown in this topic, you can use a framework such as the Windows Installer XML (WiX) to generate the shortcut and deploy it as part of the Windows Installer. In that case, this code should be included in the MSI rather than in the app's code. For more information, see the sample WiX configuration file included with the [Sending toast notifications from desktop apps](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DesktopToasts) sample.
+As an alternative to the approach shown in this topic, you can use a framework such as the Windows Installer XML (WiX) to generate the shortcut and deploy it as part of the Windows Installer. In that case, this code should be included in the MSI rather than in the app's code. For more information, see the sample WiX configuration file included with the [Sending toast notifications from desktop apps](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/Toast%20notifications%20sample%20(Windows%208)) sample.
 
 ## Related topics
 
@@ -151,7 +151,7 @@ As an alternative to the approach shown in this topic, you can use a framework s
 [Quickstart: Sending a toast notification from the desktop](quickstart-sending-desktop-toast.md)
 </dt> <dt>
 
-[Sending toast notifications from desktop apps sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DesktopToasts)
+[Sending toast notifications from desktop apps sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/Toast%20notifications%20sample%20(Windows%208))
 </dt> <dt>
 
 [Application User Model IDs (AppUserModelIDs)](appids.md)

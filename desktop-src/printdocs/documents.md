@@ -103,7 +103,7 @@ The following tools are available to assist you with testing and troubleshooting
 [Printing](https://msdn.microsoft.com/library/Ff686805(v=VS.85).aspx)
 </dt> <dt>
   
-[Print Sample Program](https://code.msdn.microsoft.com/WindowsPrintSample)
+[Print Sample Program](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/Print%20sample%20(Windows%208))
 </dt> </dl>
 
  
