@@ -222,6 +222,12 @@ Find more information in this article: https://technet.microsoft.com/library/dn7
 8. On the Event Collector, the Subscription Runtime Status will show now 1 Active computer.
 9. Open the ForwardedEvents log on the Event Collector and check if you have the events forwarded from the Source computers.
 
+### Grant permission on the private key of the client certificate on the Event Source
+
+1. Open the Certificates management console for Local machine on the Event Source computer.
+2. Right click on the client certificate then Manage Private keys.
+3. Grant Read permission to the NETWORK SERVICE user.
+
 ### Event subscription configuration
 
 1. Open Event Viewer in the Event Collector and navigate to the Subscriptions node.
@@ -241,9 +247,3 @@ Find more information in this article: https://technet.microsoft.com/library/dn7
 13. Change the Protocol to HTTPS and click OK.
 14. Click OK to create the new subscription.
 15. Check the runtime status of the Subscription by right-clicking and choosing “Runtime Status”
-
-### Grant permission on the private key of the client certificate on the Event Source
-
-1. Open the Certificates management console for Local machine on the Event Source computer.
-2. Right click on the client certificate then Manage Private keys.
-3. Grant Read permission to the NETWORK SERVICE user.
