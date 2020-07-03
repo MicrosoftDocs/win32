@@ -125,24 +125,6 @@ Both the event source computers and the event collector computer must be configu
 
 To be able to forward the Security log you need to add the NETWORK SERVICE account to the EventLog Readers group.
 
-### Event Source computer Configuration
-
-1. Logon with an administrator account and open the Local Group Policy Editor (gpedit.msc)
-2. Navigate to the Local Computer Policy\Computer Configuration\Administrative Templates\Windows Components\Event Forwarding.
-3. Open “Configure the server address, refresh interval, and issuer certificate authority of a target Subscription Manager” policy.
-4. Enable the policy and click the SubscriptionManagers “Show...” button.
-5. In the SubscriptionManagers window enter the following string:
-
-    **Server=HTTPS://**&lt;_FQDN of the Event Collector server_&gt;**:5986/wsman/SubscriptionManager/WEC,Refresh=** &lt;_Refresh interval in seconds_&gt;**,IssuerCA=**&lt;_Thumbprint of the issuing CA certificate_&gt;
-
-6. Run the following command line to refresh Local Group Policy settings:Gpupdate /force
-7. These steps should produce event 104 in your source computer Event Viewer Applications and Services Logs\Microsoft\Windows\Eventlog-ForwardingPlugin\Operational log with the following message:
-
-    "The forwarder has successfully connected to the subscription manager at address &lt;FQDN&gt;followed by event 100 with the message: "The subscription &lt;sub_name&gt; is created successfully."
-
-8. On the Event Collector, the Subscription Runtime Status will show now 1 Active computer.
-9. Open the ForwardedEvents log on the Event Collector and check if you have the events forwarded from the Source computers.
-
 ## Setting up a source initiated subscription where the event sources are not in the same domain as the event collector computer
 
 > [!Note]  
@@ -221,6 +203,24 @@ Find more information in this article: https://technet.microsoft.com/library/dn7
 
 4. List the configured certmapping entries with the command:
   **winrm enum winrm/config/service/certmapping**
+
+### Event Source computer Configuration
+
+1. Logon with an administrator account and open the Local Group Policy Editor (gpedit.msc)
+2. Navigate to the Local Computer Policy\Computer Configuration\Administrative Templates\Windows Components\Event Forwarding.
+3. Open “Configure the server address, refresh interval, and issuer certificate authority of a target Subscription Manager” policy.
+4. Enable the policy and click the SubscriptionManagers “Show...” button.
+5. In the SubscriptionManagers window enter the following string:
+
+    **Server=HTTPS://**&lt;_FQDN of the Event Collector server_&gt;**:5986/wsman/SubscriptionManager/WEC,Refresh=** &lt;_Refresh interval in seconds_&gt;**,IssuerCA=**&lt;_Thumbprint of the issuing CA certificate_&gt;
+
+6. Run the following command line to refresh Local Group Policy settings:Gpupdate /force
+7. These steps should produce event 104 in your source computer Event Viewer Applications and Services Logs\Microsoft\Windows\Eventlog-ForwardingPlugin\Operational log with the following message:
+
+    "The forwarder has successfully connected to the subscription manager at address &lt;FQDN&gt;followed by event 100 with the message: "The subscription &lt;sub_name&gt; is created successfully."
+
+8. On the Event Collector, the Subscription Runtime Status will show now 1 Active computer.
+9. Open the ForwardedEvents log on the Event Collector and check if you have the events forwarded from the Source computers.
 
 ### Event subscription configuration
 
