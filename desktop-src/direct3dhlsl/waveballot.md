@@ -1,6 +1,6 @@
 ---
 title: WaveActiveBallot function
-description: Returns a 4-bit unsigned integer bitmask of the evaluation of the Boolean expression for all active lanes in the specified wave.
+description: Returns a uint4 containing a bitmask of the evaluation of the Boolean expression for all active lanes in the current wave. 
 ms.assetid: 67FE28E0-F397-431A-8CF8-64E4AD88CDBC
 keywords:
 - WaveActiveBallot function HLSL
@@ -17,7 +17,7 @@ api_location:
 
 # WaveActiveBallot function
 
-Returns a 4-bit unsigned integer bitmask of the evaluation of the Boolean expression for all active lanes in the specified wave.
+Returns a uint4 containing a bitmask of the evaluation of the Boolean expression for all active lanes in the current wave. 
 
 ## Syntax
 
