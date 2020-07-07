@@ -41,7 +41,7 @@ Can be one of the following values:
 
 | Value | Meaning |
 |---|---|
-| <span id="RIM_INPUT"></span><span id="rim_input"></span><dl> <dt>**RIM\_INPUT**</dt> <dt>0</dt> </dl> | Input occurred while the application was in the foreground. |
+| <span id="RIM_INPUT"></span><span id="rim_input"></span><dl> <dt>**RIM\_INPUT**</dt> <dt>0</dt> </dl> | Input occurred while the application was in the foreground. </br> The application must call [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) so the system can perform cleanup. |
 | <span id="RIM_INPUTSINK"></span><span id="rim_inputsink"></span><dl> <dt>**RIM\_INPUTSINK**</dt> <dt>1</dt> </dl> | Input occurred while the application was not in the foreground. |
 
 </dd> <dt>
@@ -61,8 +61,6 @@ If an application processes this message, it should return zero.
 ## Remarks
 
 Raw input is available only when the application calls [**RegisterRawInputDevices**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-registerrawinputdevices) with valid device specifications.
-
-The application must call [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) so the system can perform cleanup.
 
 ## Requirements
 
