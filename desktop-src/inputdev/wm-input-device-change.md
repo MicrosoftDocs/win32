@@ -12,68 +12,64 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # WM\_INPUT\_DEVICE\_CHANGE message
 
-Sent to the window that registered to receive raw input.
+## -description
+
+Sent to the window that registered to receive raw input. 
+
+Raw input notifications is available only after the application calls [RegisterRawInputDevices](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-registerrawinputdevices) with [RIDEV_DEVNOTIFY](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-rawinputdevice) flag.
 
 A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
-
 
 ```C++
 #define WM_INPUT_DEVICE_CHANGE          0x00FE
 ```
 
+## -parameters
 
+### -param wParam
 
-## Parameters
-
-<dl> <dt>
-
-*wParam* 
-</dt> <dd>
+Type: <b>WPARAM</b>
 
 This parameter can be one of the following values.
 
+| Value                    | Meaning                                    |
+|--------------------------|--------------------------------------------|
+| **GIDC\_ARRIVAL** </br>1 | A new device has been added to the system. </br> You can call [GetRawInputDeviceInfo](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-getrawinputdeviceinfoa) to get more information regarding the device. |
+| **GIDC\_REMOVAL** </br>2 | A device has been removed from the system. |
 
+### -param lParam
 
-| Value                                                                                                                                                                                                             | Meaning                                                |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
-| <span id="GIDC_ARRIVAL"></span><span id="gidc_arrival"></span><dl> <dt>**GIDC\_ARRIVAL**</dt> <dt>1</dt> </dl> | A new device has been added to the system. <br/> |
-| <span id="GIDC_REMOVAL"></span><span id="gidc_removal"></span><dl> <dt>**GIDC\_REMOVAL**</dt> <dt>2</dt> </dl> | A device has been removed from the system. <br/> |
+Type: <b>LPARAM</b>
 
+The **HANDLE** to the raw input device. 
 
-
- 
-
-</dd> <dt>
-
-*lParam* 
-</dt> <dd>
-
-The handle to the raw input device. Call [**GetRawInputDeviceInfo**](https://msdn.microsoft.com/library/ms645597(v=VS.85).aspx) to get more information regarding the device.
-
-</dd> </dl>
-
-## Return value
+## -returns
 
 If an application processes this message, it should return zero.
 
-## Requirements
 
+## -see-also
 
+<b>Conceptual</b>
 
-|                                     |                                                                                                          |
-|-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
+[Raw Input](https://docs.microsoft.com/windows/desktop/inputdev/raw-input)
 
+<b>Reference</b>
 
+[RegisterRawInputDevices](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-registerrawinputdevices)
 
+[RAWINPUTDEVICE structure](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-rawinputdevice)
  
 
  
