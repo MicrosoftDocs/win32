@@ -12,7 +12,7 @@ The *update region* identifies the portion of a window that is out-of-date or in
 
 When the system determines that a window needs updating, it sets the dimensions of the update region to the invalid portion of the window. Setting the update region does not immediately cause the application to draw. Instead, the application continues retrieving messages from the application message queue until no messages remain. The system then checks the update region, and if the region is not empty (non-NULL), it sends a [**WM\_PAINT**](wm-paint.md) message to the window procedure.
 
-An application can use the update region to generate its [**WM\_PAINT**](wm-paint.md) messages. For example, an application that loads data from open files typically sets the update region while loading so that new data is drawn during processing of the next **WM\_PAINT** message. In general, an application should not draw at the time its data changes, but route all drawing operations through the **WM\_PAINT**T message.
+An application can use the update region to generate its [**WM\_PAINT**](wm-paint.md) messages. For example, an application that loads data from open files typically sets the update region while loading so that new data is drawn during processing of the next **WM\_PAINT** message. In general, an application should not draw at the time its data changes, but route all drawing operations through the **WM\_PAINT** message.
 
  
 
