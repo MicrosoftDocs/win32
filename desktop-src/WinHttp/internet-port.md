@@ -28,7 +28,7 @@ The default internet port for the specified protocol.
 <span id="INTERNET_DEFAULT_HTTP_PORT"></span><span id="internet_default_http_port"></span>**INTERNET\_DEFAULT\_HTTP\_PORT**
 </dt> <dd> <dl> <dt>
 
-1
+80
 </dt> <dt>
 
 
@@ -41,7 +41,7 @@ The default internet HTTP port.
 <span id="INTERNET_DEFAULT_HTTPS_PORT"></span><span id="internet_default_https_port"></span>**INTERNET\_DEFAULT\_HTTPS\_PORT**
 </dt> <dd> <dl> <dt>
 
-2
+443
 </dt> <dt>
 
 
