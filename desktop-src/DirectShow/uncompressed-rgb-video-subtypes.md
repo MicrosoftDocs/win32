@@ -34,7 +34,7 @@ The following subtypes define uncompressed RGB formats with alpha channel.
 | <span id="MEDIASUBTYPE_ARGB32"></span><span id="mediasubtype_argb32"></span><dl> <dt>**MEDIASUBTYPE\_ARGB32**</dt> </dl>                | RGB 32 with alpha channel<br/>                                                     |
 | <span id="MEDIASUBTYPE_ARGB4444"></span><span id="mediasubtype_argb4444"></span><dl> <dt>**MEDIASUBTYPE\_ARGB4444**</dt> </dl>          | 16-bit RGB with alpha channel; 4 bits per channel<br/>                             |
 | <span id="MEDIASUBTYPE_A2R10G10B10"></span><span id="mediasubtype_a2r10g10b10"></span><dl> <dt>**MEDIASUBTYPE\_A2R10G10B10**</dt> </dl> | 32-bit RGB with alpha channel; 10 bits per RGB channel plus 2 bits for alpha.<br/> |
-| <span id="MEDIASUBTYPE_A2B10G10R10"></span><span id="mediasubtype_a2b10g10r10"></span><dl> <dt>**MEDIASUBTYPE\_A2B10G10R10**</dt> </dl> | 32-bit RGB with alpha channel; 10 bits per RGB channel plus 2 bits for alpha.<br/> |
+| <span id="MEDIASUBTYPE_A2B10G10R10"></span><span id="mediasubtype_a2b10g10r10"></span><dl> <dt>**MEDIASUBTYPE\_A2B10G10R10**</dt> </dl> | 32-bit BGR with alpha channel; 10 bits per BGR channel plus 2 bits for alpha.<br/> |
 
 
 
