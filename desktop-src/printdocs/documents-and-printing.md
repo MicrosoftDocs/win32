@@ -67,7 +67,7 @@ The XPS Print API is not supported and may be altered or unavailable in the futu
 
 ## Additional resources
 
-The [Print Sample sample app](https://code.msdn.microsoft.com/windowsapps/Print-Sample-c544cce6) demonstrates how to print from a Windows Store app starting with Windows 8.
+The [Print Sample sample app](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/Print%20sample%20(Windows%208)) demonstrates how to print from a Windows Store app starting with Windows 8.
 
 The features described in this section are for native Windows programming. To use similar features in .NET (managed) programming, see [Windows Presentation Foundation Documents](https://msdn.microsoft.com/library/ms749165(v=VS.85).aspx).
 
