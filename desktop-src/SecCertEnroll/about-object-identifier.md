@@ -12,7 +12,7 @@ The **OBJECT IDENTIFIER** data type is encoded into a TLV triplet that begins wi
 
 -   The first two nodes of the OID are encoded onto a single byte. The first node is multiplied by the decimal 40 and the result is added to the value of the second node.
 -   Node values less than or equal to 127 are encoded on one byte.
--   Node values greater than or equal to 128 are encoded on multiple bytes. Bit 7 of the leftmost byte is set to one. Bits 0 through 6 of each byte contains the encoded value.
+-   Node values greater than or equal to 128 are encoded on multiple bytes. Bit 7 of all bytes but the last one is set to one. Bits 0 through 6 of each byte contain the encoded value.
 
 These points are shown by the following illustration.
 
