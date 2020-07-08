@@ -39,7 +39,7 @@ A window receives this message through its [**WindowProc**](https://docs.microso
 
 ### -param wParam
 
-Type: <b>WPARAM</b>
+Type: **WPARAM**
 
 This parameter can be one of the following values.
 
