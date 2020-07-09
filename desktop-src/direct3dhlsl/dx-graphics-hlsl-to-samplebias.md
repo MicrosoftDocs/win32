@@ -19,7 +19,7 @@ Samples a texture, after applying the input bias to the mipmap level.
 
 |                                                                                                  |
 |--------------------------------------------------------------------------------------------------|
-| <Template Type> Object.SampleBias( sampler\_state S, float Location, float Bias \[, int Offset\] ); |
+| &lt;Template Type&gt; Object.SampleBias( sampler\_state S, float Location, float Bias \[, int Offset\] ); |
 
 
 

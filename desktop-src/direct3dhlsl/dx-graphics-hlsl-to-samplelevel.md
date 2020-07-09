@@ -19,7 +19,7 @@ Samples a texture using a mipmap-level offset.
 
 |                                                                                                  |
 |--------------------------------------------------------------------------------------------------|
-| <Template Type> Object.SampleLevel( sampler\_state S, float Location, float LOD \[, int Offset\] ); |
+| &lt;Template Type&gt; Object.SampleLevel( sampler\_state S, float Location, float LOD \[, int Offset\] ); |
 
 
 
