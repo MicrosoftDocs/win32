@@ -12,11 +12,16 @@ DXCore is an adapter enumeration API for graphics and compute devices, so some o
 
 This documentation set contains information about programming with DXCore, as well as the DXCore reference.
 
-|||
-|-|-|
-| Supported runtime environments | Windows/C++ |
-| Recommended programming languages | C/C++ |
-| Minimum supported client | Windows 10 |
+## Requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Supported runtime environments** | Windows/C++ |
+| **Recommended programming languages** | C/C++ |
+| **Minimum supported client** | Windows 10, version 2004 (10.0; Build 19041) |
+| **Header** | dxcore.h and dxcore_interface.h |
+| **Library** | dxcore.lib |
+| **DLL** | dxcore.dll |
 
 ## In this section
 
