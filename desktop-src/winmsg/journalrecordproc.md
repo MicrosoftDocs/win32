@@ -36,7 +36,7 @@ req.redist:
 
 # JournalRecordProc function
 
-## -description
+## Description
 
 An application-defined or library-defined callback function used with the [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw) function.
 The function records messages the system removes from the system message queue.
@@ -53,9 +53,9 @@ LRESULT CALLBACK JournalRecordProc(
 );
 ```
 
-## -parameters
+## Parameters
 
-### -param code [in]
+### code [in]
 
 Type: **int**
 
@@ -69,25 +69,25 @@ This parameter can be one of the following values.
 | **HC_SYSMODALOFF** 5 | A system-modal dialog box has been destroyed. The hook procedure must resume recording. |
 | **HC_SYSMODALON** 4 | A system-modal dialog box is being displayed. Until the dialog box is destroyed, the hook procedure must stop recording. |
 
-### -param wParam
+### wParam
 
 Type: **WPARAM**
 
 This parameter is not used.
 
-### -param lParam [in]
+### lParam [in]
 
 Type: **LPARAM**
 
 A pointer to an **EVENTMSG** structure that contains the message to be recorded.
 
-## -returns
+## Returns
 
 Type: **LRESULT**
 
 The return value is ignored.
 
-## -remarks
+## Remarks
 
 A **JournalRecordProc** hook procedure must copy but not modify the messages.
 After the hook procedure returns control to the system, the message continues to be processed.
@@ -110,7 +110,7 @@ Since the CTRL+C key combination has no such role as a journaling signal, it can
 There are two other key combinations that cannot be recorded: CTRL+ESC and CTRL+ALT+DEL.
 Those two key combinations cause the system to stop all journaling activities (record or playback), remove all journaling hooks, and post a [WM_CANCELJOURNAL](wm-canceljournal.md) message to the journaling application.
 
-## -see-also
+## See also
 
 [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex)
 

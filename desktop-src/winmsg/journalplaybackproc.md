@@ -36,7 +36,7 @@ req.redist:
 
 # JournalPlaybackProc function
 
-## -description
+## Description
 
 An application-defined or library-defined callback function used with the [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw) function.
 Typically, an application uses this function to play back a series of mouse and keyboard messages recorded previously by the **JournalRecordProc** hook procedure.
@@ -53,9 +53,9 @@ LRESULT CALLBACK JournalPlaybackProc(
 );
 ```
 
-## -parameters
+## Parameters
 
-### -param code [in]
+### code [in]
 
 Type: **int**
 
@@ -71,20 +71,20 @@ This parameter can be one of the following values.
 | **HC_SYSMODALOFF** 5 | A system-modal dialog box has been destroyed. The hook procedure must resume playing back the messages. |
 | **HC_SYSMODALON** 4 | A system-modal dialog box is being displayed. Until the dialog box is destroyed, the hook procedure must stop playing back messages. |
 
-### -param wParam
+### wParam
 
 Type: **WPARAM**
 
 This parameter is not used.
 
-### -param lParam
+### lParam
 
 Type: **LPARAM**
 
 A pointer to an **EVENTMSG** structure that represents a message being processed by the hook procedure.
 This parameter is valid only when the *code* parameter is **HC_GETNEXT**.
 
-## -returns
+## Returns
 
 Type: **LRESULT**
 
@@ -94,7 +94,7 @@ To have the system wait before processing the message, the return value must be 
 
 To process the message immediately, the return value should be zero. The return value is used only if the hook code is **HC_GETNEXT**; otherwise, it is ignored.
 
-## -remarks
+## Remarks
 
 A **JournalPlaybackProc** hook procedure should copy an input message to The *lParam* parameter.
 The message must have been previously recorded by using a **JournalRecordProc** hook procedure, which should not modify the message.
@@ -120,7 +120,7 @@ If the hook procedure returns a message in the range **WM_KEYFIRST** to **WM_KEY
 * There's no way to specify a repeat count.
 The event is always taken to represent one key event.
 
-## -see-also
+## See also
 
 [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex)
 

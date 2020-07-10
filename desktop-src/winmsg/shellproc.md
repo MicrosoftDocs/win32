@@ -36,7 +36,7 @@ req.redist:
 
 # ShellProc function
 
-## -description
+## Description
 
 An application-defined or library-defined callback function used with the [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw) function.
 The function receives notifications of Shell events from the system.
@@ -52,9 +52,9 @@ LRESULT CALLBACK ShellProc(
 );
 ```
 
-## -parameters
+## Parameters
 
-### -param nCode [in]
+### nCode [in]
 
 Type: **int**
 
@@ -76,7 +76,7 @@ This parameter can be one of the following values.
 | **HSHELL_WINDOWDESTROYED** 2 | A top-level, unowned window is about to be destroyed. The window still exists when the system calls this hook. |
 | **HSHELL_WINDOWREPLACED** 13 | A top-level window is being replaced. The window exists when the system calls this hook. |
 
-### -param wParam [in]
+### wParam [in]
 
 Type: **WPARAM**
 
@@ -94,7 +94,7 @@ This parameter depends on the value of the *nCode* parameter, as shown in the fo
 | **HSHELL_WINDOWDESTROYED** | A handle to the destroyed window. |
 | **HSHELL_WINDOWREPLACED** | A handle to the window being replaced. Windows 2000:  Not supported. |
 
-### -param lParam [in]
+### lParam [in]
 
 Type: **LPARAM**
 
@@ -110,18 +110,18 @@ This parameter depends on the value of the *nCode* parameter, as shown in the fo
 | **HSHELL_WINDOWACTIVATED** | The value is TRUE if the window is in full-screen mode, or **FALSE** otherwise. |
 | **HSHELL_WINDOWREPLACED** | A handle to the new window. Windows 2000:  Not supported. |
 
-## -returns
+## Returns
 
 Type: **LRESULT**
 
 The return value should be zero unless the value of nCode is **HSHELL_APPCOMMAND** and the shell procedure handles the **WM_COMMAND** message.
 In this case, the return should be nonzero.
 
-## -remarks
+## Remarks
 
 Install this hook procedure by specifying the [WH_SHELL](about-hooks.md) hook type and a pointer to the hook procedure in a call to the **SetWindowsHookEx** function.
 
-## -see-also
+## See also
 
 [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex)
 

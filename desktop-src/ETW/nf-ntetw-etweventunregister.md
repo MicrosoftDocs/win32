@@ -41,7 +41,7 @@ req.redist:
 # EtwEventUnregister function
 
 
-## -description
+## Description
 
 
 The 
@@ -52,17 +52,17 @@ Providers can only call this function from their
 <a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> function.
 
 
-## -parameters
+## Parameters
 
 
 
 
-### -param RegHandle [in]
+### RegHandle [in]
 
 Handle to an event.
 
 
-## -returns
+## Returns
 
 
 
@@ -72,11 +72,11 @@ Returns an HRESULT.
 
 
 
-## -remarks
+## Remarks
 
 
 
-## -see-also
+## See also
 
 
 

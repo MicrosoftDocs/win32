@@ -36,7 +36,7 @@ req.redist:
 
 # MouseProc function
 
-## -description
+## Description
 
 An application-defined or library-defined callback function used with the [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw) function.
 The system calls this function whenever an application calls the [GetMessage](/windows/desktop/api/winuser/nf-winuser-getmessage) or [PeekMessage](/windows/desktop/api/winuser/nf-winuser-peekmessagew) function and there is a mouse message to be processed.
@@ -52,9 +52,9 @@ LRESULT CALLBACK MouseProc(
 );
 ```
 
-## -parameters
+## Parameters
 
-### -param nCode [in]
+### nCode [in]
 
 Type: **int**
 
@@ -67,19 +67,19 @@ This parameter can be one of the following values.
 | **HC_ACTION** 0 | The *wParam* and *lParam* parameters contain information about a mouse message. |
 | **HC_NOREMOVE** 3 | The *wParam* and *lParam* parameters contain information about a mouse message, and the mouse message has not been removed from the message queue. (An application called the **PeekMessage** function, specifying the **PM_NOREMOVE** flag.) |
 
-### -param wParam [in]
+### wParam [in]
 
 Type: **WPARAM**
 
 The identifier of the mouse message.
 
-### -param lParam [in]
+### lParam [in]
 
 Type: **LPARAM**
 
 A pointer to a [MOUSEHOOKSTRUCT](/windows/desktop/api/winuser/ns-winuser-mousehookstruct) structure.
 
-## -returns
+## Returns
 
 Type: **LRESULT**
 
@@ -88,7 +88,7 @@ If *nCode* is less than zero, the hook procedure must return the value returned 
 If *nCode* is greater than or equal to zero, and the hook procedure did not process the message, it is highly recommended that you call **CallNextHookEx** and return the value it returns; otherwise, other applications that have installed [WH_MOUSE](about-hooks.md) hooks will not receive hook notifications and may behave incorrectly as a result.
 If the hook procedure processed the message, it may return a nonzero value to prevent the system from passing the message to the target window procedure.
 
-## -remarks
+## Remarks
 
 An application installs the hook procedure by specifying the WH_MOUSE hook type and a pointer to the hook procedure in a call to the **SetWindowsHookEx** function.
 
@@ -98,7 +98,7 @@ This hook may be called in the context of the thread that installed it.
 The call is made by sending a message to the thread that installed the hook.
 Therefore, the thread that installed the hook must have a message loop.
 
-## -see-also
+## See also
 
 [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex)
 
