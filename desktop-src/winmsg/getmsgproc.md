@@ -54,7 +54,7 @@ LRESULT CALLBACK GetMsgProc(
 
 ## -parameters
 
-### -param code [in]
+### code [in]
 
 Type: **int**
 
@@ -62,7 +62,7 @@ Specifies whether the hook procedure must process the message.
 If *code* is **HC_ACTION**, the hook procedure must process the message.
 If *code* is less than zero, the hook procedure must pass the message to the [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex) function without further processing and should return the value returned by **CallNextHookEx**.
 
-### -param wParam [in]
+### wParam [in]
 
 Type: **WPARAM**
 
@@ -74,7 +74,7 @@ This parameter can be one of the following values.
 | **PM_NOREMOVE** 0x0000 | The message has not been removed from the queue. (An application called the **PeekMessage** function, specifying the **PM_NOREMOVE** flag.) |
 | **PM_REMOVE** 0x0001 | The message has been removed from the queue. (An application called **GetMessage**, or it called the  **PeekMessage** function, specifying the **PM_REMOVE** flag.)|
 
-### -param lParam [in]
+### lParam [in]
 
 Type: **LPARAM**
 
