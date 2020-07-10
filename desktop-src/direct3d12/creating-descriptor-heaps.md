@@ -247,7 +247,7 @@ public:
         D3D12_DESCRIPTOR_HEAP_DESC Desc;
         Desc.Type = Type;
         Desc.NumDescriptors = NumDescriptors;
-        Desc.Flags = (bShaderVisible ? D3D12_DESCRIPTOR_HEAP_FLAG_SHADER_VISIBLE : 0);
+        Desc.Flags = (bShaderVisible ? D3D12_DESCRIPTOR_HEAP_FLAG_SHADER_VISIBLE : D3D12_DESCRIPTOR_HEAP_FLAG_NONE);
        
         HRESULT hr = pDevice->CreateDescriptorHeap(&Desc, 
                                __uuidof(ID3D12DescriptorHeap), 
