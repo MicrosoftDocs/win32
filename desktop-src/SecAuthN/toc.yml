@@ -294,6 +294,8 @@
           href: restrictions-around-registering-and-installing-a-security-package.md
       - name: "Extended Error Information"
         href: extended-error-information.md
+      - name: "Asynchronous SSPI"
+        href: sspi-asynchronous.md
     - name: "Winlogon and Credential Providers"
       href: winlogon-and-credential-providers.md
       items: 
