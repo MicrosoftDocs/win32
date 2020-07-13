@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # LocalService Account
 
-The LocalService account is a predefined local account used by the service control manager. This account is not recognized by the security subsystem, so you cannot specify its name in a call to the [**LookupAccountName**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea) function. It has minimum privileges on the local computer and presents anonymous credentials on the network.
+The LocalService account is a predefined local account used by the service control manager. It has minimum privileges on the local computer and presents anonymous credentials on the network.
 
 This account can be specified in a call to the [**CreateService**](/windows/desktop/api/Winsvc/nf-winsvc-createservicea) and [**ChangeServiceConfig**](/windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfiga) functions. Note that this account does not have a password, so any password information that you provide in this call is ignored. While the security subsystem localizes this account name, the SCM does not support localized names. Therefore, you will receive a localized name for this account from the [**LookupAccountSid**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) function, but the name of the account must be NT AUTHORITY\\LocalService when you call **CreateService** or **ChangeServiceConfig**, regardless of the locale, or unexpected results can occur.
 
