@@ -2274,7 +2274,7 @@ The Name field has one of the formats shown in the following table. As mentioned
 
 ### First Linker Member
 
-The name of the first linker member is "\\". The first linker member is included for backward compatibility. It is not used by current linkers, but its format must be correct. This linker member provides a directory of symbol names, as does the second linker member. For each symbol, the information indicates where to find the archive member that contains the symbol.
+The name of the first linker member is "/". The first linker member is included for backward compatibility. It is not used by current linkers, but its format must be correct. This linker member provides a directory of symbol names, as does the second linker member. For each symbol, the information indicates where to find the archive member that contains the symbol.
 
 The first linker member has the following format. This information appears after the header:
 
@@ -2294,7 +2294,7 @@ The elements in the offsets array must be arranged in ascending order. This fact
 
 ### Second Linker Member
 
-The second linker member has the name "\\" as does the first linker member. Although both linker members provide a directory of symbols and archive members that contain them, the second linker member is used in preference to the first by all current linkers. The second linker member includes symbol names in lexical order, which enables faster searching by name.
+The second linker member has the name "/" as does the first linker member. Although both linker members provide a directory of symbols and archive members that contain them, the second linker member is used in preference to the first by all current linkers. The second linker member includes symbol names in lexical order, which enables faster searching by name.
 
 The second member has the following format. This information appears after the header:
 
@@ -2314,7 +2314,7 @@ The second member has the following format. This information appears after the h
 
 ### Longnames Member
 
-The name of the longnames member is "\\\\". The longnames member is a series of strings of archive member names. A name appears here only when there is insufficient room in the Name field (16 bytes). The longnames member is optional. It can be empty with only a header, or it can be completely absent without even a header.
+The name of the longnames member is "//". The longnames member is a series of strings of archive member names. A name appears here only when there is insufficient room in the Name field (16 bytes). The longnames member is optional. It can be empty with only a header, or it can be completely absent without even a header.
 
 The strings are null-terminated. Each string begins immediately after the null byte in the previous string.
 
