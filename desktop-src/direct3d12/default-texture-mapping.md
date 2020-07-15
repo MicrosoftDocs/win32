@@ -18,7 +18,7 @@ Universal Memory Architecture (UMA) GPUs offer some efficiency advantages over d
 
 ## Overview of CPU accessible textures
 
-CPU accessible textures, in the graphics pipeline, are a feature of UMA architecture, enabling CPUs read and write access to textures. On the more common discreet GPUs, the CPU does not have access to textures in the graphics pipeline.
+CPU accessible textures, in the graphics pipeline, are a feature of UMA architecture, enabling CPUs read and write access to textures. On the more common discrete GPUs, the CPU does not have access to textures in the graphics pipeline.
 
 The general best practice advice for textures is to accommodate discrete GPUs, which typically involves following the processes in [Uploading Texture Data Through Buffers](upload-and-readback-of-texture-data.md), summarized as:
 

@@ -130,6 +130,8 @@
       - name: "SSPI Context Semantics"
         href: sspi-context-semantics.md
         items: 
+        - name: "Asynchronous Contexts"
+          href: sspi-asynchronous-contexts.md
         - name: "Context Requirements"
           href: context-requirements.md
         - name: "Connection-Oriented Contexts"
@@ -294,8 +296,6 @@
           href: restrictions-around-registering-and-installing-a-security-package.md
       - name: "Extended Error Information"
         href: extended-error-information.md
-      - name: "Asynchronous SSPI"
-        href: sspi-asynchronous.md
     - name: "Winlogon and Credential Providers"
       href: winlogon-and-credential-providers.md
       items: 
