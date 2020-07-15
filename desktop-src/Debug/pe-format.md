@@ -2314,7 +2314,7 @@ The second member has the following format. This information appears after the h
 
 ### Longnames Member
 
-The name of the longnames member is "\\\\". The longnames member is a series of strings of archive member names. A name appears here only when there is insufficient room in the Name field (16 bytes). The longnames member can be empty, though its header must appear.
+The name of the longnames member is "\\\\". The longnames member is a series of strings of archive member names. A name appears here only when there is insufficient room in the Name field (16 bytes). The longnames member is optional. It can be empty with only a header, or it can be completely absent without even a header.
 
 The strings are null-terminated. Each string begins immediately after the null byte in the previous string.
 
