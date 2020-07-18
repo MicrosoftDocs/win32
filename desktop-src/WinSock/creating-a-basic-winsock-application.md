@@ -38,7 +38,7 @@ int main() {
 
 > [!Note]
 >
-> The *Iphlpapi.h* header file is required if an application is using the IP Helper APIs. When the *Iphlpapi.h* header file is required, the \#include line for the *Winsock2.h* header this file should be placed before the \#include line for the *Iphlpapi.h* header file.
+> The *Iphlpapi.h* header file is required if an application is using the IP Helper APIs. When the *Iphlpapi.h* header file is required, the \#include line for the *Winsock2.h* header file should be placed before the \#include line for the *Iphlpapi.h* header file.
 >
 > The *Winsock2.h* header file internally includes core elements from the *Windows.h* header file, so there is not usually an \#include line for the *Windows.h* header file in Winsock applications. If an \#include line is needed for the *Windows.h* header file, this should be preceded with the \#define WIN32\_LEAN\_AND\_MEAN macro. For historical reasons, the *Windows.h* header defaults to including the *Winsock.h* header file for Windows Sockets 1.1. The declarations in the *Winsock.h* header file will conflict with the declarations in the *Winsock2.h* header file required by Windows Sockets 2.0. The WIN32\_LEAN\_AND\_MEAN macro prevents the *Winsock.h* from being included by the *Windows.h* header. An example illustrating this is shown below.
 
