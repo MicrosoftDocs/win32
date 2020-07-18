@@ -37,7 +37,7 @@ HRESULT D3DXUVAtlasCreate(
   _In_        FLOAT           *pfIMTArray,
   _In_        LPD3DXUVATLASCB pCallback,
   _In_        FLOAT           fCallbackFrequency,
-  _In_        LPVOID          pUserContent,
+  _In_        LPVOID          pUserContext,
   _In_        DWORD           dwOptions,
   _In_        LPD3DXMESH      *ppMeshOut,
   _Out_       LPD3DXBUFFER    *ppFacePartitioning,
