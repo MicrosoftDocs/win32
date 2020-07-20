@@ -31,7 +31,7 @@ Jump Lists help users get to where they want to go faster
 
 ## Enhanced Taskbar
 
-With the new taskbar in Windows 7, applications can provide more information to the user in more intuitive ways. For example, applications can show progress bars in their taskbar buttons so that users can stay aware of progress without having to keep the window visible. This is useful for tracking time-consuming operations such as file copying, downloads, installations, or media burning. Icon overlays can be displayed on the lower-right area of the application's taskbar button, and are used to communicate status or notifications (such as new mail). New thumbnail APIs enable an application to define child windows and corresponding thumbnail images for those windows. The thumbnail toolbar provides a place to control common actions without requiring window restoration, such as *Play/Stop* for media. (See [Taskbar Extensions](https://msdn.microsoft.com/library/dd378460(VS.85).aspx) and[Windows 7 Taskbar: Developer Resources](https://code.msdn.microsoft.com/Windows7Taskbar).)
+With the new taskbar in Windows 7, applications can provide more information to the user in more intuitive ways. For example, applications can show progress bars in their taskbar buttons so that users can stay aware of progress without having to keep the window visible. This is useful for tracking time-consuming operations such as file copying, downloads, installations, or media burning. Icon overlays can be displayed on the lower-right area of the application's taskbar button, and are used to communicate status or notifications (such as new mail). New thumbnail APIs enable an application to define child windows and corresponding thumbnail images for those windows. The thumbnail toolbar provides a place to control common actions without requiring window restoration, such as *Play/Stop* for media. (See [Taskbar Extensions](https://msdn.microsoft.com/library/dd378460(VS.85).aspx) and [Windows 7: Developer Resources](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples).)
 
 ## Gadgets Platform
 
@@ -55,7 +55,7 @@ The Ribbon controls consist of a set of Win32APIs that override the top-level me
 -   Mini-toolbars
 -   Style galleries
 
-Templates and markup authoring are available to developers for rapid development and integration of Ribbon functionality. (See [Windows Ribbon Framework](https://msdn.microsoft.com/library/dd371191(VS.85).aspx) and [Windows Ribbon Framework: Developer Resources](https://code.msdn.microsoft.com/ScenicRibbon).)
+Templates and markup authoring are available to developers for rapid development and integration of Ribbon functionality. (See [Windows Ribbon Framework](https://msdn.microsoft.com/library/dd371191(VS.85).aspx) and [Windows Ribbon Framework: Developer Resources](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsRibbon).)
 
 ![ribbon toolbar](images/windows7-9.jpg)
 
