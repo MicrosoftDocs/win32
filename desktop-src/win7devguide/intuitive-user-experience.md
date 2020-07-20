@@ -16,7 +16,7 @@ Windows 7 features improved touch and gesture support, empowering developers to
 
 Windows 7 also provides platform support for object manipulation and inertia processing. A rich set of manipulation functions enable you to stretch, resize, or rotate multiple objects concurrently and in very fine granularity. For example, multiple digital photographs could be cropped, resized, and rotated in a single session using touch based gestures.
 
-Windows 7 includes inertia APIs which simulate inertia when objects are moved, working hand-in-hand with the manipulation APIs. For example, in a photo application, you can use the manipulation APIs to let users rotate, resize, and move photos. Similarly, if a user "tosses" a photo, the inertia APIs provide natural interaction and enable the photo to coast to a stop or bounce off the borders of the application's window. (See [Windows Touch Programming Guide](https://msdn.microsoft.com/library/dd317323(VS.85).aspx) and [Windows Touch: Developer Resources](https://code.msdn.microsoft.com/WindowsTouch).)
+Windows 7 includes inertia APIs which simulate inertia when objects are moved, working hand-in-hand with the manipulation APIs. For example, in a photo application, you can use the manipulation APIs to let users rotate, resize, and move photos. Similarly, if a user "tosses" a photo, the inertia APIs provide natural interaction and enable the photo to coast to a stop or bounce off the borders of the application's window. (See [Windows Touch Programming Guide](https://msdn.microsoft.com/library/dd317323(VS.85).aspx) and [Windows Touch: Developer Resources](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch).)
 
 ## Single-Finger Panning
 

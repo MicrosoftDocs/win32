@@ -14,7 +14,7 @@ Users have easier access to files and data in Windows 7. New APIs make files an
 
 Windows 7 introduces the concept of *Libraries* as destinations where developers and end-users can find and organize their data as collections of items that can span multiple locations on the local computer as well as on remote computers.
 
-The *Library*APIs provide a straightforward way for developers to create applications that create, interact with, and support *Libraries* as first-class items within applications. *Libraries* can also be selected by using the folder picker dialog box. Applications can enumerate relevant library scopes, or they can use the library directly as a folder. (See [Windows Libraries](https://msdn.microsoft.com/library/dd758096(VS.85).aspx) and [Windows 7 Libraries: Developer Resources](https://code.msdn.microsoft.com/Libraries)).
+The *Library*APIs provide a straightforward way for developers to create applications that create, interact with, and support *Libraries* as first-class items within applications. *Libraries* can also be selected by using the folder picker dialog box. Applications can enumerate relevant library scopes, or they can use the library directly as a folder. (See [Windows Libraries](https://msdn.microsoft.com/library/dd758096(VS.85).aspx) and [Windows 7 Libraries: Developer Resources](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/dataaccess)).
 
 ![windows 7 pictures library](images/windows7-10.jpg)
 

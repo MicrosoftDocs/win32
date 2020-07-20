@@ -24,7 +24,7 @@ With [Windows Web Services](https://docs.microsoft.com/windows/desktop/wsw/porta
 -   The ability to build services based on the core *WS* family of protocols and *W3C* standards.
 -   The ability to use web services in resource-constrained environments.
 
-For more information, see [Windows Web Services API](https://msdn.microsoft.com/library/dd430435(VS.85).aspx) and [Implement Web Services with the Windows Web Services API](https://code.msdn.microsoft.com/wwsapi).
+For more information, see [Windows Web Services API](https://msdn.microsoft.com/library/dd430435(VS.85).aspx) and [Implement Web Services with the Windows Web Services API](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/web/WWSAPI).
 
 ## Distributed Routing Table
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Instead of [fixing compatibility issues in web applications and add-ons](remediating-web-applications-and-add-ons.md), you can make the web application or website work natively in Windows Internet Explorer 8 standards mode by writing your code to the most recent web standards.
 
-To fully assess any problems in your application or website, you should research the root cause of the problem. The [Website Troubleshooting Guidance](https://code.msdn.microsoft.com/Project/Download/FileDownload.aspx?ProjectName=IE8&DownloadId=7167) white paper describes how the Internet Explorer team debugs Internet Explorer 8 issues. For example, the team determined root causes by using the Developer Tools and logically reducing possible issues. The following sections describe several tools to help simplify the debugging process.
+To fully assess any problems in your application or website, you should research the root cause of the problem. For example, the Internet Explorer team determined root causes by using the Developer Tools and logically reducing possible issues. The following sections describe several tools to help simplify the debugging process.
 
 
 

@@ -12,11 +12,4 @@ For more information about the Sensor and Location platform, see the [Windows Ha
 
 For more information about Windows application development, including Sensor API development, see the [Windows Developer Center Web site](https://msdn.microsoft.com/windows/default.aspx?wt.svl=client).
 
-For late breaking information, including new samples, see the [Windows Sensor and Location Platforms](https://code.msdn.microsoft.com/SensorsAndLocation) page on MSDN Code Gallery.
-
- 
-
- 
-
-
 
