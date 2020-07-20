@@ -90,7 +90,7 @@ To make both the 32-bit (x86) and 64-bit (x64) output work on a 64-bit version o
 
 ## Unregistering the Sample Preview Handler DLL
 
--   Open the command prompt window and enter `regsvr32.dll /u PreviewHandlerSDKSample.dll` to unregister the handler.
+-   Open the command prompt window and enter `regsvr32.exe /u PreviewHandlerSDKSample.dll` to unregister the handler.
 
 ## Related topics
 
