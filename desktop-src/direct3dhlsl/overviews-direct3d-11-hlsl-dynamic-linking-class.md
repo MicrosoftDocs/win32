@@ -150,7 +150,7 @@ Interface instances are initialized in application code by passing a dynamic lin
 
 To create a dynamic linkage array use the following steps
 
-1.  Create a class linkage object using CreatClassLinkage.
+1.  Create a class linkage object using [**CreateClassLinkage**](https://docs.microsoft.com/en-us/windows/win32/api/d3d11/nf-d3d11-id3d11device-createclasslinkage).
     ```
     ID3D11ClassLinkage* g_pPSClassLinkage = NULL;            
     pd3dDevice->CreateClassLinkage( &g_pPSClassLinkage );
