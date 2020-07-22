@@ -4073,8 +4073,8 @@
         href: /windows/desktop/api/mfapi/nf-mfapi-mfcancelcreatefile
       - name: "MFCancelWorkItem"
         href: /windows/desktop/api/mfapi/nf-mfapi-mfcancelworkitem
-      - name: "MFCombineSample"
-        href: /windows/desktop/api/mfapi/nf-mfapi-mfcombinesample
+      - name: "MFCombineSamples"
+        href: /windows/win32/api/mfapi/nf-mfapi-mfcombinesamples
       - name: "MFCheckContentProtectionDevice"
         href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt219215(v=vs.85)
       - name: "MFCompareFullToPartialMediaType"

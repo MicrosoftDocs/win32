@@ -262,15 +262,15 @@
     href: -gdiplus-class-gdi-reference.md
     items: 
     - name: "DebugEventProc callback"
-      href: nc-gdiplusinit-debugeventproc.md
+      href: /windows/win32/api/gdiplusinit/nc-gdiplusinit-debugeventproc
     - name: "EnumerateMetafileProc callback"
       href: nc-gdiplustypes-enumeratemetafileproc.md
     - name: "ImageAbort callback"
-      href: nc-gdiplustypes-imageabort.md
+      href: /windows/win32/api/gdiplustypes/nc-gdiplustypes-imageabort
     - name: "NotificationHookProc callback"
-      href: nc-gdiplusinit-notificationhookproc.md
+      href: /windows/win32/api/gdiplusinit/nc-gdiplusinit-notificationhookproc
     - name: "NotificationUnhookProc callback"
-      href: nc-gdiplusinit-notificationunhookproc.md
+      href: /windows/win32/api/gdiplusinit/nc-gdiplusinit-notificationunhookproc
     - name: "Classes"
       href: -gdiplus-class-classes.md
       items: 
@@ -302,7 +302,7 @@
         href: /windows/win32/api/gdiplusheaders/nl-gdiplusheaders-bitmap
         items: 
         - name: "Bitmap Overloaded Constructor"
-          href: https://docs.microsoft.com/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-bitmap(constbitmap_)
+          href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-bitmap(inconstbitmapinfo_invoid)
           items: 
           - name: "Bitmap(IDirectDrawSurface7*)"
             href: https://docs.microsoft.com/previous-versions/ms536310(v=vs.85)
@@ -2701,7 +2701,7 @@
       - name: "DashStyle"
         href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-dashstyle
       - name: "DebugEventLevel"
-        href: /windows/win32/api/gdiplusenums/ne-gdiplusinit-debugeventlevel
+        href: /windows/win32/api/gdiplusinit/ne-gdiplusinit-debugeventlevel
       - name: "DitherType"
         href: /windows/win32/api/gdipluspixelformats/ne-gdipluspixelformats-dithertype
       - name: "DriverStringOptions"
@@ -2723,7 +2723,7 @@
       - name: "FontStyle"
         href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-fontstyle
       - name: "GdiplusStartupParams"
-        href: /windows/win32/api/gdiplusenums/ne-gdiplusinit-gdiplusstartupparams
+        href: /windows/win32/api/gdiplusinit/ne-gdiplusinit-gdiplusstartupparams
       - name: "HatchStyle"
         href: /windows/win32/api/gdiplusenums/ne-gdiplusenums-hatchstyle
       - name: "HistogramFormat"

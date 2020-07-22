@@ -75,7 +75,7 @@
       href: backup-structures.md
       items: 
       - name: "PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY"
-        href: /windows/win32/backup/winnt-user-shadow-stack-policy/ns-winnt-process_mitigation_user_shadow_stack_policy
+        href: /windows/win32/api/winnt/ns-winnt-process_mitigation_user_shadow_stack_policy
       - name: "TAPE_ERASE"
         href: /windows/win32/api/Winnt/ns-winnt-tape_erase
       - name: "TAPE_GET_DRIVE_PARAMETERS"

@@ -70,7 +70,7 @@
       - name: "IP_SUFFIX_ORIGIN"
         href: /windows/win32/api/nldef/ne-nldef-nl_suffix_origin
       - name: "NET_ADDRESS_FORMAT"
-        href: /windows/win32/api/Iphlpapi/ne-iphlpapi-net_address_format_
+        href: /windows/win32/api/iphlpapi/ne-iphlpapi-net_address_format
       - name: "NL_NETWORK_CONNECTIVITY_LEVEL_HINT"
         href: /windows/win32/api/nldef/ne-nldef-nl_network_connectivity_level_hint
       - name: "NL_NETWORK_CONNECTIVITY_COST_HINT"
@@ -84,11 +84,11 @@
       - name: "TCP_SOFT_ERROR"
         href: /windows/win32/api/Tcpestats/ne-tcpestats-tcp_soft_error
       - name: "TCP_TABLE_CLASS"
-        href: /windows/win32/api/Iprtrmib/ne-iprtrmib-_tcp_table_class
+        href: /windows/win32/api/iprtrmib/ne-iprtrmib-tcp_table_class
       - name: "TCPIP_OWNER_MODULE_INFO_CLASS"
-        href: /windows/win32/api/Iprtrmib/ne-iprtrmib-_tcpip_owner_module_info_class
+        href: /windows/win32/api/iprtrmib/ne-iprtrmib-tcpip_owner_module_info_class
       - name: "UDP_TABLE_CLASS"
-        href: /windows/win32/api/Iprtrmib/ne-iprtrmib-_udp_table_class
+        href: /windows/win32/api/iprtrmib/ne-iprtrmib-udp_table_class
     - name: "IP Helper functions"
       href: ip-helper-functions.md
       items: 
@@ -103,7 +103,7 @@
       - name: "CancelMibChangeNotify2"
         href: /windows/win32/api/Netioapi/nf-netioapi-cancelmibchangenotify2
       - name: "CancelSecurityHealthChangeNotify"
-        href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/bb442512(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/bb442512(v=vs.85)
       - name: "ConvertInterfaceAliasToLuid"
         href: /windows/win32/api/Netioapi/nf-netioapi-convertinterfacealiastoluid
       - name: "ConvertInterfaceGuidToLuid"
@@ -369,7 +369,7 @@
       - name: "NotifyRouteChange2"
         href: /windows/win32/api/Netioapi/nf-netioapi-notifyroutechange2
       - name: "NotifySecurityHealthChange"
-        href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/bb451761(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/bb451761(v=vs.85)
       - name: "NotifyStableUnicastIpAddressTable"
         href: /windows/win32/api/Netioapi/nf-netioapi-notifystableunicastipaddresstable
       - name: "NotifyTeredoPortChange"

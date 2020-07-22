@@ -819,7 +819,7 @@
             - name: "Wait"
               href: /windows/win32/api/d3d11_3/nf-d3d11_3-id3d11devicecontext4-wait
           - name: "ID3DDeviceContextState"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11_1/nn-d3d11_1-id3ddevicecontextstate
+            href: /windows/win32/api/d3d11_1/nn-d3d11_1-id3ddevicecontextstate
           - name: "ID3D11Fence"
             href: /windows/win32/api/D3D11_3/nn-d3d11_3-id3d11fence
             items: 
@@ -830,7 +830,7 @@
             - name: "SetEventOnCompletion"
               href: /windows/win32/api/D3D11_3/nf-d3d11_3-id3d11fence-seteventoncompletion
           - name: "ID3D11InputLayout"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nn-d3d11-id3d11inputlayout
+            href: /windows/win32/api/d3d11/nn-d3d11-id3d11inputlayout
           - name: "ID3D11Multithread"
             href: /windows/win32/api/d3d11_4/nn-d3d11_4-id3d11multithread
             items: 
@@ -843,7 +843,7 @@
             - name: "SetMultithreadProtected method"
               href: /windows/win32/api/d3d11_4/nf-d3d11_4-id3d11multithread-setmultithreadprotected
           - name: "ID3D11Predicate"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nn-d3d11-id3d11predicate
+            href: /windows/win32/api/d3d11/nn-d3d11-id3d11predicate
           - name: "ID3D11Query"
             href: /windows/win32/api/D3D11/nn-d3d11-id3d11query
             items: 
@@ -1030,9 +1030,9 @@
           - name: "D3D11_LOGIC_OP"
             href: /windows/win32/api/D3D11_1/ne-d3d11_1-d3d11_logic_op
           - name: "D3D11_PRIMITIVE"
-            href: https://docs.microsoft.com/windows/win32/api/d3dcommon/ne-d3dcommon-d3d_primitive
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_primitive
           - name: "D3D11_PRIMITIVE_TOPOLOGY"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/ff476189(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/ff476189(v=vs.85)
           - name: "D3D11_QUERY"
             href: /windows/win32/api/D3D11/ne-d3d11-d3d11_query
           - name: "D3D11_QUERY_MISC_FLAG"
@@ -1436,7 +1436,7 @@
           - name: "D3D11_RTV_DIMENSION"
             href: /windows/win32/api/D3D11/ne-d3d11-d3d11_rtv_dimension
           - name: "D3D11_SRV_DIMENSION"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/ff476217(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/ff476217(v=vs.85)
           - name: "D3D11_STANDARD_MULTISAMPLE_QUALITY_LEVELS"
             href: /windows/win32/api/D3D11/ne-d3d11-d3d11_standard_multisample_quality_levels
           - name: "D3D11_TEXTURE_LAYOUT"
@@ -1476,9 +1476,9 @@
             - name: "GetClassInstance"
               href: /windows/win32/api/D3D11/nf-d3d11-id3d11classlinkage-getclassinstance
           - name: "ID3D11ComputeShader"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nn-d3d11-id3d11computeshader
+            href: /windows/win32/api/d3d11/nn-d3d11-id3d11computeshader
           - name: "ID3D11DomainShader"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nn-d3d11-id3d11domainshader
+            href: /windows/win32/api/d3d11/nn-d3d11-id3d11domainshader
           - name: "ID3D11FunctionLinkingGraph"
             href: /windows/win32/api/D3D11Shader/nn-d3d11shader-id3d11functionlinkinggraph
             items: 
@@ -1521,9 +1521,9 @@
             - name: "GetDesc method"
               href: /windows/win32/api/D3D11Shader/nf-d3d11shader-id3d11functionparameterreflection-getdesc
           - name: "ID3D11GeometryShader"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nn-d3d11-id3d11geometryshader
+            href: /windows/win32/api/d3d11/nn-d3d11-id3d11geometryshader
           - name: "ID3D11HullShader"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nn-d3d11-id3d11hullshader
+            href: /windows/win32/api/d3d11/nn-d3d11-id3d11hullshader
           - name: "ID3D11LibraryReflection"
             href: /windows/win32/api/D3D11Shader/nn-d3d11shader-id3d11libraryreflection
             items: 
@@ -1571,7 +1571,7 @@
             - name: "BindUnorderedAccessViewByName method"
               href: /windows/win32/api/D3D11Shader/nf-d3d11shader-id3d11moduleinstance-bindunorderedaccessviewbyname
           - name: "ID3D11PixelShader"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nn-d3d11-id3d11pixelshader
+            href: /windows/win32/api/d3d11/nn-d3d11-id3d11pixelshader
           - name: "ID3D11ShaderReflection"
             href: /windows/win32/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflection
             items: 
@@ -1683,7 +1683,7 @@
             - name: "CreateShaderTrace"
               href: /windows/win32/api/D3D11ShaderTracing/nf-d3d11shadertracing-id3d11shadertracefactory-createshadertrace
           - name: "ID3D11VertexShader"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nn-d3d11-id3d11vertexshader
+            href: /windows/win32/api/d3d11/nn-d3d11-id3d11vertexshader
         - name: "Shader Functions"
           href: d3d11-graphics-reference-shader-functions.md
           items: 
@@ -1738,21 +1738,21 @@
           href: d3d11-graphics-reference-shader-enums.md
           items: 
           - name: "D3D11_CBUFFER_TYPE"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/ff476097(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/ff476097(v=vs.85)
           - name: "D3D_PARAMETER_FLAGS"
             href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_parameter_flags
           - name: "D3D11_RESOURCE_RETURN_TYPE"
-            href: https://docs.microsoft.com/windows/win32/api/d3dcommon/ne-d3dcommon-d3d_resource_return_type
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_resource_return_type
           - name: "D3D11_SHADER_TYPE"
             href: /windows/win32/api/D3D11ShaderTracing/ne-d3d11shadertracing-d3d11_shader_type
           - name: "D3D11_SHADER_VERSION_TYPE"
             href: /windows/win32/api/d3d11shader/ne-d3d11shader-d3d11_shader_version_type
           - name: "D3D11_TESSELLATOR_DOMAIN"
-            href: https://docs.microsoft.com/windows/win32/api/d3dcommon/ne-d3dcommon-d3d_tessellator_domain
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_tessellator_domain
           - name: "D3D11_TESSELLATOR_PARTITIONING"
-            href: https://docs.microsoft.com/windows/win32/api/d3dcommon/ne-d3dcommon-d3d_tessellator_partitioning
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_tessellator_partitioning
           - name: "D3D11_TESSELLATOR_OUTPUT_PRIMITIVE"
-            href: https://docs.microsoft.com/windows/win32/api/d3dcommon/ne-d3dcommon-d3d_tessellator_output_primitive
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_tessellator_output_primitive
           - name: "D3D11_TRACE_GS_INPUT_PRIMITIVE"
             href: /windows/win32/api/D3D11ShaderTracing/ne-d3d11shadertracing-d3d11_trace_gs_input_primitive
           - name: "D3D11_TRACE_REGISTER_TYPE"
@@ -1773,19 +1773,19 @@
           href: d3d11-graphics-reference-d3d11-common-interfaces.md
           items: 
           - name: "ID3D10Blob"
-            href: https://docs.microsoft.com/windows/win32/api/d3dcommon/nn-d3dcommon-id3d10blob
+            href: /windows/win32/api/d3dcommon/nn-d3dcommon-id3d10blob
             items: 
             - name: "GetBufferPointer"
-              href: https://docs.microsoft.com/windows/win32/api/d3dcommon/nf-d3dcommon-id3d10blob-getbufferpointer
+              href: /windows/win32/api/d3dcommon/nf-d3dcommon-id3d10blob-getbufferpointer
             - name: "GetBufferSize"
-              href: https://docs.microsoft.com/windows/win32/api/d3dcommon/nf-d3dcommon-id3d10blob-getbuffersize
+              href: /windows/win32/api/d3dcommon/nf-d3dcommon-id3d10blob-getbuffersize
           - name: "ID3DBlob"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/ff728743(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/ff728743(v=vs.85)
             items: 
             - name: "GetBufferPointer"
-              href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/ff728744(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/(v=vs.85)
             - name: "GetBufferSize"
-              href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/ff728745(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/(v=vs.85)
           - name: "ID3DInclude"
             href: /windows/win32/api/D3Dcommon/nn-d3dcommon-id3dinclude
             items: 
@@ -1858,266 +1858,266 @@
         href: cd3d11-helper-classes.md
         items: 
         - name: "CD3D11_RECT"
-          href: https://msdn.microsoft.com/library/JJ151661(v=VS.85).aspx
+          href: /windows/win32/api/d3d11/ns-d3d11-cd3d11_rect
           items: 
           - name: "CD3D11_RECT() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_rect-cd3d11_rect
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_rect-cd3d11_rect
           - name: "CD3D11_RECT(constD3D11_RECT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_rect-cd3d11_rect
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_rect-cd3d11_rect
           - name: "CD3D11_RECT(LONG, LONG, LONG, LONG) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_rect-cd3d11_rect(long_long_long_long)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_rect-cd3d11_rect(long_long_long_long)
           - name: "~CD3D11_RECT() destructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_rect-~cd3d11_rect
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_rect-~cd3d11_rect
           - name: "operator const D3D11_RECT&() method"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151667(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/jj151667(v=vs.85)
         - name: "CD3D11_BOX"
-          href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151614(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/jj151614(v=vs.85)
           items: 
           - name: "CD3D11_BOX() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_box-cd3d11_box
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_box-cd3d11_box
           - name: "CD3D11_BOX(constD3D11_BOX) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_box-cd3d11_box(constd3d11_box_)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_box-cd3d11_box(constd3d11_box_)
           - name: "CD3D11_BOX(LONG, LONG, LONG, LONG, LONG, LONG) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_box-cd3d11_box(long_long_long_long_long_long)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_box-cd3d11_box(long_long_long_long_long_long)
           - name: "~CD3D11_BOX() destructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_box-~cd3d11_box
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_box-~cd3d11_box
           - name: "operator const D3D11_BOX&() method"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151619(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/jj151619(v=vs.85)
         - name: "CD3D11_DEPTH_STENCIL_DESC"
-          href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151632(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/jj151632(v=vs.85)
           items: 
           - name: "CD3D11_DEPTH_STENCIL_DESC() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-cd3d11_depth_stencil_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-cd3d11_depth_stencil_desc
           - name: "CD3D11_DEPTH_STENCIL_DESC(constD3D11_DEPTH_STENCIL_DESC) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-cd3d11_depth_stencil_desc(constd3d11_depth_stencil_desc_)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-cd3d11_depth_stencil_desc(constd3d11_depth_stencil_desc_)
           - name: "CD3D11_DEPTH_STENCIL_DESC(CD3D11_DEFAULT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-cd3d11_depth_stencil_desc(cd3d11_default)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-cd3d11_depth_stencil_desc(cd3d11_default)
           - name: "CD3D11_DEPTH_STENCIL_DESC(BOOL, D3D11_DEPTH_WRITE_MASK, D3D11_COMPARISON_FUNC, BOOL, UINT8, UINT8, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_COMPARISON_FUNC, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_COMPARISON_FUNC) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-cd3d11_depth_stencil_desc(bool_d3d11_depth_write_mask_d3d11_comparison_func_bool_uint8_uint8_d3d11_stencil_op_d3d11_stencil_op_d3d11_stencil_op_d3d11_compa
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-cd3d11_depth_stencil_desc(bool_d3d11_depth_write_mask_d3d11_comparison_func_bool_uint8_uint8_d3d11_stencil_op_d3d11_stencil_op_d3d11_stencil_op_d3d11_compa
           - name: "~CD3D11_DEPTH_STENCIL_DESC() destructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-~cd3d11_depth_stencil_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-~cd3d11_depth_stencil_desc
           - name: "operator const D3D11_DEPTH_STENCIL_DESC&() method"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151637(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/jj151637(v=vs.85)
         - name: "CD3D11_BLEND_DESC"
           href: /windows/win32/api/D3D11/ns-d3d11-cd3d11_blend_desc
           items: 
           - name: "CD3D11_BLEND_DESC() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_blend_desc-cd3d11_blend_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_blend_desc-cd3d11_blend_desc
           - name: "CD3D11_BLEND_DESC(constD3D11_BLEND_DESC) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_blend_desc-cd3d11_blend_desc(constd3d11_blend_desc_)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_blend_desc-cd3d11_blend_desc(constd3d11_blend_desc_)
           - name: "CD3D11_BLEND_DESC(CD3D11_DEFAULT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_blend_desc-cd3d11_blend_desc(cd3d11_default)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_blend_desc-cd3d11_blend_desc(cd3d11_default)
           - name: "~CD3D11_BLEND_DESC() destructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_blend_desc-~cd3d11_blend_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_blend_desc-~cd3d11_blend_desc
           - name: "operator const D3D11_BLEND_DESC&() method"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_blend_desc-operatorconstd3d11_blend_desc_
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_blend_desc-operatorconstd3d11_blend_desc_
         - name: "CD3D11_RASTERIZER_DESC"
-          href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151654(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/jj151654(v=vs.85)
           items: 
           - name: "CD3D11_RASTERIZER_DESC() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_rasterizer_desc-cd3d11_rasterizer_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_rasterizer_desc-cd3d11_rasterizer_desc
           - name: "CD3D11_RASTERIZER_DESC(constD3D11_RASTERIZER_DESC) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_rasterizer_desc-cd3d11_rasterizer_desc(constd3d11_rasterizer_desc_)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_rasterizer_desc-cd3d11_rasterizer_desc(constd3d11_rasterizer_desc_)
           - name: "CD3D11_RASTERIZER_DESC(CD3D11_DEFAULT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_rasterizer_desc-cd3d11_rasterizer_desc(cd3d11_default)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_rasterizer_desc-cd3d11_rasterizer_desc(cd3d11_default)
           - name: "CD3D11_RASTERIZER_DESC(D3D11_FILL_MODE, D3D11_CULL_MODE, BOOL, INT, FLOAT, FLOAT, BOOL, BOOL, BOOL, BOOL) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_rasterizer_desc-cd3d11_rasterizer_desc(d3d11_fill_mode_d3d11_cull_mode_bool_int_float_float_bool_bool_bool_bool)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_rasterizer_desc-cd3d11_rasterizer_desc(d3d11_fill_mode_d3d11_cull_mode_bool_int_float_float_bool_bool_bool_bool)
           - name: "~CD3D11_RASTERIZER_DESC() destructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_rasterizer_desc-~cd3d11_rasterizer_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_rasterizer_desc-~cd3d11_rasterizer_desc
           - name: "operator const D3D11_RASTERIZER_DESC&() method"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151659(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/jj151659(v=vs.85)
         - name: "CD3D11_BUFFER_DESC"
           href: /windows/win32/api/D3D11/ns-d3d11-cd3d11_buffer_desc
           items: 
           - name: "CD3D11_BUFFER_DESC() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_buffer_desc-cd3d11_buffer_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_buffer_desc-cd3d11_buffer_desc
           - name: "CD3D11_BUFFER_DESC(constD3D11_BUFFER_DESC) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_buffer_desc-cd3d11_buffer_desc(constd3d11_buffer_desc_)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_buffer_desc-cd3d11_buffer_desc(constd3d11_buffer_desc_)
           - name: "CD3D11_BUFFER_DESC(UINT, D3D11_USAGE, UINT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_buffer_desc-cd3d11_buffer_desc(uint_uint_d3d11_usage_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_buffer_desc-cd3d11_buffer_desc(uint_uint_d3d11_usage_uint_uint_uint)
           - name: "~CD3D11_BUFFER_DESC() destructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_buffer_desc-~cd3d11_buffer_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_buffer_desc-~cd3d11_buffer_desc
           - name: "operator const D3D11_BUFFER_DESC&() method"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_buffer_desc-operatorconstd3d11_buffer_desc_
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_buffer_desc-operatorconstd3d11_buffer_desc_
         - name: "CD3D11_TEXTURE1D_DESC"
-          href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151694(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/jj151694(v=vs.85)
           items: 
           - name: "CD3D11_TEXTURE1D_DESC() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_texture1d_desc-cd3d11_texture1d_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_texture1d_desc-cd3d11_texture1d_desc
           - name: "CD3D11_TEXTURE1D_DESC(constD3D11_TEXTURE1D_DESC&) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_texture1d_desc-cd3d11_texture1d_desc(constd3d11_texture1d_desc_)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_texture1d_desc-cd3d11_texture1d_desc(constd3d11_texture1d_desc_)
           - name: "CD3D11_TEXTURE1D_DESC(DXGI_FORMAT, UINT, UINT, UINT, UINT, D3D11_USAGE, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_texture1d_desc-cd3d11_texture1d_desc(dxgi_format_uint_uint_uint_uint_d3d11_usage_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_texture1d_desc-cd3d11_texture1d_desc(dxgi_format_uint_uint_uint_uint_d3d11_usage_uint_uint)
           - name: "~CD3D11_TEXTURE1D_DESC() destructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_texture1d_desc-~cd3d11_texture1d_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_texture1d_desc-~cd3d11_texture1d_desc
           - name: "operator const D3D11_TEXTURE1D_DESC&() method"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151698(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/jj151698(v=vs.85)
         - name: "CD3D11_TEXTURE2D_DESC"
-          href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151700(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/jj151700(v=vs.85)
           items: 
           - name: "CD3D11_TEXTURE2D_DESC() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_texture2d_desc-cd3d11_texture2d_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_texture2d_desc-cd3d11_texture2d_desc
           - name: "CD3D11_TEXTURE2D_DESC(constD3D11_TEXTURE2D_DESC&) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_texture2d_desc-cd3d11_texture2d_desc(constd3d11_texture2d_desc_)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_texture2d_desc-cd3d11_texture2d_desc(constd3d11_texture2d_desc_)
           - name: "CD3D11_TEXTURE2D_DESC(DXGI_FORMAT, UINT, UINT, UINT, UINT, UINT, D3D11_USAGE, UINT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_texture2d_desc-cd3d11_texture2d_desc(dxgi_format_uint_uint_uint_uint_uint_d3d11_usage_uint_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_texture2d_desc-cd3d11_texture2d_desc(dxgi_format_uint_uint_uint_uint_uint_d3d11_usage_uint_uint_uint_uint)
           - name: "~CD3D11_TEXTURE2D_DESC() destructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_texture2d_desc-~cd3d11_texture2d_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_texture2d_desc-~cd3d11_texture2d_desc
           - name: "operator const D3D11_TEXTURE2D_DESC&() method"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151704(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/jj151704(v=vs.85)
         - name: "CD3D11_TEXTURE3D_DESC"
-          href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151706(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/jj151706(v=vs.85)
           items: 
           - name: "CD3D11_TEXTURE3D_DESC() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_texture3d_desc-cd3d11_texture3d_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_texture3d_desc-cd3d11_texture3d_desc
           - name: "CD3D11_TEXTURE3D_DESC(constD3D11_TEXTURE3D_DESC&) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_texture3d_desc-cd3d11_texture3d_desc(constd3d11_texture3d_desc_)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_texture3d_desc-cd3d11_texture3d_desc(constd3d11_texture3d_desc_)
           - name: "CD3D11_TEXTURE3D_DESC(DXGI_FORMAT, UINT, UINT, UINT, UINT, UINT, D3D11_USAGE, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_texture3d_desc-cd3d11_texture3d_desc(dxgi_format_uint_uint_uint_uint_uint_d3d11_usage_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_texture3d_desc-cd3d11_texture3d_desc(dxgi_format_uint_uint_uint_uint_uint_d3d11_usage_uint_uint)
           - name: "~CD3D11_TEXTURE3D_DESC() destructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_texture3d_desc-~cd3d11_texture3d_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_texture3d_desc-~cd3d11_texture3d_desc
           - name: "operator const D3D11_TEXTURE3D_DESC&() method"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151710(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/jj151710(v=vs.85)
         - name: "CD3D11_SHADER_RESOURCE_VIEW_DESC"
-          href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151684(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/jj151684(v=vs.85)
           items: 
           - name: "CD3D11_SHADER_RESOURCE_VIEW_DESC() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_shader_resource_view_desc-cd3d11_shader_resource_view_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_shader_resource_view_desc-cd3d11_shader_resource_view_desc
           - name: "CD3D11_SHADER_RESOURCE_VIEW_DESC(constD3D11_SHADER_RESOURCE_VIEW_DESC&) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_shader_resource_view_desc-cd3d11_shader_resource_view_desc(constd3d11_shader_resource_view_desc_)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_shader_resource_view_desc-cd3d11_shader_resource_view_desc(constd3d11_shader_resource_view_desc_)
           - name: "CD3D11_SHADER_RESOURCE_VIEW_DESC(D3D11_SRV_DIMENSION, DXGI_FORMAT, UINT, UINT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_shader_resource_view_desc-cd3d11_shader_resource_view_desc(d3d11_srv_dimension_dxgi_format_uint_uint_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_shader_resource_view_desc-cd3d11_shader_resource_view_desc(d3d11_srv_dimension_dxgi_format_uint_uint_uint_uint_uint)
           - name: "CD3D11_SHADER_RESOURCE_VIEW_DESC(ID3D11Buffer*, DXGI_FORMAT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_shader_resource_view_desc-cd3d11_shader_resource_view_desc(id3d11buffer_dxgi_format_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_shader_resource_view_desc-cd3d11_shader_resource_view_desc(id3d11buffer_dxgi_format_uint_uint_uint)
           - name: "CD3D11_SHADER_RESOURCE_VIEW_DESC(ID3D11Texture1D*, D3D11_SRV_DIMENSION, DXGI_FORMAT, UINT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_shader_resource_view_desc-cd3d11_shader_resource_view_desc(id3d11texture1d_d3d11_srv_dimension_dxgi_format_uint_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_shader_resource_view_desc-cd3d11_shader_resource_view_desc(id3d11texture1d_d3d11_srv_dimension_dxgi_format_uint_uint_uint_uint)
           - name: "CD3D11_SHADER_RESOURCE_VIEW_DESC(ID3D11Texture2D*, D3D11_SRV_DIMENSION, DXGI_FORMAT, UINT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_shader_resource_view_desc-cd3d11_shader_resource_view_desc(id3d11texture1d_d3d11_srv_dimension_dxgi_format_uint_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_shader_resource_view_desc-cd3d11_shader_resource_view_desc(id3d11texture1d_d3d11_srv_dimension_dxgi_format_uint_uint_uint_uint)
           - name: "CD3D11_SHADER_RESOURCE_VIEW_DESC(ID3D11Texture3D*, DXGI_FORMAT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_shader_resource_view_desc-cd3d11_shader_resource_view_desc(id3d11texture3d_dxgi_format_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_shader_resource_view_desc-cd3d11_shader_resource_view_desc(id3d11texture3d_dxgi_format_uint_uint)
           - name: "~CD3D11_SHADER_RESOURCE_VIEW_DESC() destructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_shader_resource_view_desc-~cd3d11_shader_resource_view_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_shader_resource_view_desc-~cd3d11_shader_resource_view_desc
           - name: "operator const D3D11_SHADER_RESOURCE_VIEW_DESC&() method"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151692(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/jj151692(v=vs.85)
         - name: "CD3D11_RENDER_TARGET_VIEW_DESC"
-          href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151668(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/jj151668(v=vs.85)
           items: 
           - name: "CD3D11_RENDER_TARGET_VIEW_DESC() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_render_target_view_desc-cd3d11_render_target_view_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_render_target_view_desc-cd3d11_render_target_view_desc
           - name: "CD3D11_RENDER_TARGET_VIEW_DESC(constD3D11_RENDER_TARGET_VIEW_DESC&) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_render_target_view_desc-cd3d11_render_target_view_desc(constd3d11_render_target_view_desc_)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_render_target_view_desc-cd3d11_render_target_view_desc(constd3d11_render_target_view_desc_)
           - name: "CD3D11_RENDER_TARGET_VIEW_DESC(D3D11_RTV_DIMENSION, DXGI_FORMAT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_render_target_view_desc-cd3d11_render_target_view_desc(d3d11_rtv_dimension_dxgi_format_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_render_target_view_desc-cd3d11_render_target_view_desc(d3d11_rtv_dimension_dxgi_format_uint_uint_uint)
           - name: "CD3D11_RENDER_TARGET_VIEW_DESC(ID3D11Buffer*, DXGI_FORMAT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_render_target_view_desc-cd3d11_render_target_view_desc(id3d11texture1d_d3d11_rtv_dimension_dxgi_format_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_render_target_view_desc-cd3d11_render_target_view_desc(id3d11texture1d_d3d11_rtv_dimension_dxgi_format_uint_uint_uint)
           - name: "CD3D11_RENDER_TARGET_VIEW_DESC(ID3D11Texture1D*, D3D11_RTV_DIMENSION, DXGI_FORMAT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_render_target_view_desc-cd3d11_render_target_view_desc(id3d11texture1d_d3d11_rtv_dimension_dxgi_format_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_render_target_view_desc-cd3d11_render_target_view_desc(id3d11texture1d_d3d11_rtv_dimension_dxgi_format_uint_uint_uint)
           - name: "CD3D11_RENDER_TARGET_VIEW_DESC(ID3D11Texture2D*, D3D11_RTV_DIMENSION, DXGI_FORMAT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_render_target_view_desc-cd3d11_render_target_view_desc(id3d11texture2d_d3d11_rtv_dimension_dxgi_format_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_render_target_view_desc-cd3d11_render_target_view_desc(id3d11texture2d_d3d11_rtv_dimension_dxgi_format_uint_uint_uint)
           - name: "CD3D11_RENDER_TARGET_VIEW_DESC(ID3D11Texture3D*, DXGI_FORMAT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_render_target_view_desc-cd3d11_render_target_view_desc(id3d11texture3d_dxgi_format_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_render_target_view_desc-cd3d11_render_target_view_desc(id3d11texture3d_dxgi_format_uint_uint_uint)
           - name: "~CD3D11_RENDER_TARGET_VIEW_DESC() destructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_render_target_view_desc-~cd3d11_render_target_view_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_render_target_view_desc-~cd3d11_render_target_view_desc
           - name: "operator const D3D11_RENDER_TARGET_VIEW_DESC&() method"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151676(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/jj151676(v=vs.85)
         - name: "CD3D11_VIEWPORT"
-          href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151722(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/jj151722(v=vs.85)
           items: 
           - name: "CD3D11_VIEWPORT() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_viewport-cd3d11_viewport
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_viewport-cd3d11_viewport
           - name: "CD3D11_VIEWPORT(constD3D11_VIEWPORT&) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_viewport-cd3d11_viewport(constd3d11_viewport_)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_viewport-cd3d11_viewport(constd3d11_viewport_)
           - name: "CD3D11_VIEWPORT(FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_viewport-cd3d11_viewport(float_float_float_float_float_float)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_viewport-cd3d11_viewport(float_float_float_float_float_float)
           - name: "CD3D11_VIEWPORT(ID3D11Buffer*, ID3D11RenderTargetView*, FLOAT, FLOAT, FLOAT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_viewport-cd3d11_viewport(id3d11texture2d_id3d11rendertargetview_float_float_float_float)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_viewport-cd3d11_viewport(id3d11texture2d_id3d11rendertargetview_float_float_float_float)
           - name: "CD3D11_VIEWPORT(ID3D11Texture1D*, ID3D11RenderTargetView*, FLOAT, FLOAT, FLOAT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_viewport-cd3d11_viewport(id3d11texture1d_id3d11rendertargetview_float_float_float)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_viewport-cd3d11_viewport(id3d11texture1d_id3d11rendertargetview_float_float_float)
           - name: "CD3D11_VIEWPORT(ID3D11Texture2D*, ID3D11RenderTargetView*, FLOAT, FLOAT, FLOAT, FLOAT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_viewport-cd3d11_viewport(float_float_float_float_float_float)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_viewport-cd3d11_viewport(float_float_float_float_float_float)
           - name: "CD3D11_VIEWPORT(ID3D11Texture3D*, ID3D11RenderTargetView*, FLOAT, FLOAT, FLOAT, FLOAT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_viewport-cd3d11_viewport(float_float_float_float_float_float)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_viewport-cd3d11_viewport(float_float_float_float_float_float)
           - name: "~CD3D11_VIEWPORT() destructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_viewport-~cd3d11_viewport
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_viewport-~cd3d11_viewport
           - name: "operator const D3D11_VIEWPORT&() method"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151730(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/jj151730(v=vs.85)
         - name: "CD3D11_DEPTH_STENCIL_VIEW_DESC"
-          href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151639(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/jj151639(v=vs.85)
           items: 
           - name: "CD3D11_DEPTH_STENCIL_VIEW_DESC() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_view_desc-cd3d11_depth_stencil_view_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_view_desc-cd3d11_depth_stencil_view_desc
           - name: "CD3D11_DEPTH_STENCIL_VIEW_DESC(constD3D11_DEPTH_STENCIL_VIEW_DESC&) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_view_desc-cd3d11_depth_stencil_view_desc(constd3d11_depth_stencil_view_desc_)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_view_desc-cd3d11_depth_stencil_view_desc(constd3d11_depth_stencil_view_desc_)
           - name: "CD3D11_DEPTH_STENCIL_VIEW_DESC(D3D11_DSV_DIMENSION, DXGI_FORMAT, UINT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_view_desc-cd3d11_depth_stencil_view_desc(d3d11_dsv_dimension_dxgi_format_uint_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_view_desc-cd3d11_depth_stencil_view_desc(d3d11_dsv_dimension_dxgi_format_uint_uint_uint_uint)
           - name: "CD3D11_DEPTH_STENCIL_VIEW_DESC(ID3D11Texture1D*, D3D11_DSV_DIMENSION, DXGI_FORMAT, UINT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_view_desc-cd3d11_depth_stencil_view_desc(id3d11texture2d_d3d11_dsv_dimension_dxgi_format_uint_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_view_desc-cd3d11_depth_stencil_view_desc(id3d11texture2d_d3d11_dsv_dimension_dxgi_format_uint_uint_uint_uint)
           - name: "CD3D11_DEPTH_STENCIL_VIEW_DESC(ID3D11Texture2D*, D3D11_DSV_DIMENSION, DXGI_FORMAT, UINT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_view_desc-cd3d11_depth_stencil_view_desc(d3d11_dsv_dimension_dxgi_format_uint_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_view_desc-cd3d11_depth_stencil_view_desc(d3d11_dsv_dimension_dxgi_format_uint_uint_uint_uint)
           - name: "~CD3D11_DEPTH_STENCIL_VIEW_DESC() destructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_view_desc-~cd3d11_depth_stencil_view_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_view_desc-~cd3d11_depth_stencil_view_desc
           - name: "operator const D3D11_DEPTH_STENCIL_VIEW_DESC&() method"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151645(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/jj151645(v=vs.85)
         - name: "CD3D11_UNORDERED_ACCESS_VIEW_DESC"
-          href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151712(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/jj151712(v=vs.85)
           items: 
           - name: "CD3D11_UNORDERED_ACCESS_VIEW_DESC() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_unordered_access_view_desc-cd3d11_unordered_access_view_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_unordered_access_view_desc-cd3d11_unordered_access_view_desc
           - name: "CD3D11_UNORDERED_ACCESS_VIEW_DESC(constD3D11_UNORDERED_ACCESS_VIEW_DESC&) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_unordered_access_view_desc-cd3d11_unordered_access_view_desc(constd3d11_unordered_access_view_desc_)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_unordered_access_view_desc-cd3d11_unordered_access_view_desc(constd3d11_unordered_access_view_desc_)
           - name: "CD3D11_UNORDERED_ACCESS_VIEW_DESC(D3D11_UAV_DIMENSION, DXGI_FORMAT, UINT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_unordered_access_view_desc-cd3d11_unordered_access_view_desc(d3d11_uav_dimension_dxgi_format_uint_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_unordered_access_view_desc-cd3d11_unordered_access_view_desc(d3d11_uav_dimension_dxgi_format_uint_uint_uint_uint)
           - name: "CD3D11_UNORDERED_ACCESS_VIEW_DESC(ID3D11Buffer*, DXGI_FORMAT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_unordered_access_view_desc-cd3d11_unordered_access_view_desc(id3d11buffer_dxgi_format_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_unordered_access_view_desc-cd3d11_unordered_access_view_desc(id3d11buffer_dxgi_format_uint_uint_uint)
           - name: "CD3D11_UNORDERED_ACCESS_VIEW_DESC(ID3D11Texture1D*, D3D11_UAV_DIMENSION, DXGI_FORMAT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_unordered_access_view_desc-cd3d11_unordered_access_view_desc(id3d11texture1d_d3d11_uav_dimension_dxgi_format_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_unordered_access_view_desc-cd3d11_unordered_access_view_desc(id3d11texture1d_d3d11_uav_dimension_dxgi_format_uint_uint_uint)
           - name: "CD3D11_UNORDERED_ACCESS_VIEW_DESC(ID3D11Texture2D*, D3D11_UAV_DIMENSION, DXGI_FORMAT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_unordered_access_view_desc-cd3d11_unordered_access_view_desc(id3d11texture2d_d3d11_uav_dimension_dxgi_format_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_unordered_access_view_desc-cd3d11_unordered_access_view_desc(id3d11texture2d_d3d11_uav_dimension_dxgi_format_uint_uint_uint)
           - name: "CD3D11_UNORDERED_ACCESS_VIEW_DESC(ID3D11Texture3D*, DXGI_FORMAT, UINT, UINT, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_unordered_access_view_desc-cd3d11_unordered_access_view_desc(id3d11texture3d_dxgi_format_uint_uint_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_unordered_access_view_desc-cd3d11_unordered_access_view_desc(id3d11texture3d_dxgi_format_uint_uint_uint)
           - name: "~CD3D11_UNORDERED_ACCESS_VIEW_DESC() destructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_unordered_access_view_desc-~cd3d11_unordered_access_view_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_unordered_access_view_desc-~cd3d11_unordered_access_view_desc
           - name: "operator const D3D11_UNORDERED_ACCESS_VIEW_DESC&() method"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151720(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/jj151720(v=vs.85)
         - name: "CD3D11_SAMPLER_DESC"
-          href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151678(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/jj151678(v=vs.85)
           items: 
           - name: "CD3D11_SAMPLER_DESC() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_sampler_desc-cd3d11_sampler_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_sampler_desc-cd3d11_sampler_desc
           - name: "CD3D11_SAMPLER_DESC(constD3D11_SAMPLER_DESC&) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_sampler_desc-cd3d11_sampler_desc(constd3d11_sampler_desc_)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_sampler_desc-cd3d11_sampler_desc(constd3d11_sampler_desc_)
           - name: "CD3D11_SAMPLER_DESC(CD3D11_DEFAULT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api//d3d11/nf-d3d11-cd3d11_sampler_desc-cd3d11_sampler_desc(cd3d11_default)
+            href: /windows/win32/api//d3d11/nf-d3d11-cd3d11_sampler_desc-cd3d11_sampler_desc(cd3d11_default)
           - name: "~CD3D11_SAMPLER_DESC() destructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_sampler_desc-~cd3d11_sampler_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_sampler_desc-~cd3d11_sampler_desc
           - name: "operator const D3D11_SAMPLER_DESC&() method"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151682(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/jj151682(v=vs.85)
         - name: "CD3D11_QUERY_DESC"
-          href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151648(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/jj151648(v=vs.85)
           items: 
           - name: "CD3D11_QUERY_DESC() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_query_desc-cd3d11_query_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_query_desc-cd3d11_query_desc
           - name: "CD3D11_QUERY_DESC(constD3D11_QUERY_DESC&) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_query_desc-cd3d11_query_desc(constd3d11_query_desc_)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_query_desc-cd3d11_query_desc(constd3d11_query_desc_)
           - name: "CD3D11_QUERY_DESC(D3D11_QUERY, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_query_desc-cd3d11_query_desc(d3d11_query_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_query_desc-cd3d11_query_desc(d3d11_query_uint)
           - name: "~CD3D11_QUERY_DESC() destructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_query_desc-~cd3d11_query_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_query_desc-~cd3d11_query_desc
           - name: "operator const D3D11_QUERY_DESC&() method"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151652(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/jj151652(v=vs.85)
         - name: "CD3D11_COUNTER_DESC"
-          href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151626(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/jj151626(v=vs.85)
           items: 
           - name: "CD3D11_COUNTER_DESC() constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_counter_desc-cd3d11_counter_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_counter_desc-cd3d11_counter_desc
           - name: "CD3D11_COUNTER_DESC(constD3D11_COUNTER_DESC&) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_counter_desc-cd3d11_counter_desc(constd3d11_counter_desc_)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_counter_desc-cd3d11_counter_desc(constd3d11_counter_desc_)
           - name: "CD3D11_COUNTER_DESC(D3D11_COUNTER, UINT) constructor"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_counter_desc-cd3d11_counter_desc(d3d11_counter_uint)
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_counter_desc-cd3d11_counter_desc(d3d11_counter_uint)
           - name: "~CD3D11_COUNTER_DESC() method"
-            href: https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-cd3d11_counter_desc-~cd3d11_counter_desc
+            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_counter_desc-~cd3d11_counter_desc
           - name: "operator const D3D11_COUNTER_DESC&() method"
-            href: https://docs.microsoft.com/previous-versions/windows/win32/legacy/jj151630(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/jj151630(v=vs.85)
     - name: "D3DCSX 11 Reference"
       href: d3d11-graphics-reference-d3dcsx11.md
       items: 

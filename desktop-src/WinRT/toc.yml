@@ -1364,13 +1364,13 @@
       - name: "SetEnum method"
         href: /previous-versions/hh438408(v%3Dvs.85)
       - name: "SetInterfaceGroupParameterizedDefault method"
-        href: /ie/hh438409(v=vs.100)
+        href: /previous-versions/hh438409(v=vs.85)
       - name: "SetInterfaceGroupSimpleDefault method"
         href: /previous-versions/hh438410(v=vs.85)
       - name: "SetParameterizedDelegate method"
         href: /previous-versions/hh438411(v%3Dvs.85)
       - name: "SetParameterizedInterface method"
-        href: /security/hh438412(v=vs.90)
+        href: /previous-versions/hh438412(v=vs.90)
       - name: "SetRuntimeClassParameterizedDefault method"
         href: /previous-versions/hh438413(v%3Dvs.85)
       - name: "SetRuntimeClassSimpleDefault method"
