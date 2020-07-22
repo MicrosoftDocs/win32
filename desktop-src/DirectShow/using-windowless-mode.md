@@ -184,7 +184,7 @@ Because the VMR does not have its own window, it must be notified if it need to 
 3.  [**WM\_SIZE**](https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx) or [**WM\_WINDOWPOSCHANGED**](https://msdn.microsoft.com/library/ms632652(v=VS.85).aspx): Recalculate the position of the video and call [**IVMRWindowlessControl9::SetVideoPosition**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoposition) to update the position, if needed.
 
 > [!Note]  
-> The default handler for the [**WM\_WINDOWPOSCHANGED**](https://msdn.microsoft.com/library/ms632652(v=VS.85).aspx) message sends a [**WM\_SIZE**](https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx) message. But if your application intercepts **WM\_WINDOWPOSCHANGED** and does not pass it to [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx), you should call **SetVideoPosition** in your **WM\_WINDOWPOSCHANGED** handler, in addition to your **WM\_SIZE** handler.
+> The default handler for the [**WM\_WINDOWPOSCHANGED**](https://msdn.microsoft.com/library/ms632652(v=VS.85).aspx) message sends a [**WM\_SIZE**](https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx) message. But if your application intercepts **WM\_WINDOWPOSCHANGED** and does not pass it to [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca), you should call **SetVideoPosition** in your **WM\_WINDOWPOSCHANGED** handler, in addition to your **WM\_SIZE** handler.
 
  
 

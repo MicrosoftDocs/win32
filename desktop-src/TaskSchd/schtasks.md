@@ -16,7 +16,9 @@ ms.date: 05/31/2018
 
 # Schtasks.exe
 
-Enables an administrator to create, delete, query, change, run, and end scheduled tasks on a local or remote computer. Running Schtasks.exe without arguments displays the status and next run time for each registered task.
+Enables an administrator to create, delete, query, change, run, and end scheduled tasks on a local or remote computer. Running Schtasks.exe without arguments displays the status and next run time for each registered task. 
+
+For more information on Task Scheduler, see this introduction: [Task Scheduler for developers](task-scheduler-start-page.md).
 
 ## Creating a Task
 

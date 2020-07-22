@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 ## In This Section
 
 -   [**CallWindowProc**](https://msdn.microsoft.com/library/ms633571(v=VS.85).aspx)
--   [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+-   [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 -   [*WindowProc*](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx)
 
  

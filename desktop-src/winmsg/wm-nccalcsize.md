@@ -70,7 +70,7 @@ If *wParam* is **TRUE** and an application returns zero, the old client area is 
 
 ## Remarks
 
-The window may be redrawn, depending on whether the [CS\_HREDRAW](about-window-classes.md) or CS\_VREDRAW class style is specified. This is the default, backward-compatible processing of this message by the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function (in addition to the usual client rectangle calculation described in the preceding table).
+The window may be redrawn, depending on whether the [CS\_HREDRAW](about-window-classes.md) or CS\_VREDRAW class style is specified. This is the default, backward-compatible processing of this message by the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function (in addition to the usual client rectangle calculation described in the preceding table).
 
 When *wParam* is **TRUE**, simply returning 0 without processing the [**NCCALCSIZE\_PARAMS**](https://msdn.microsoft.com/library/ms632606(v=VS.85).aspx) rectangles will cause the client area to resize to the size of the window, including the window frame. This will remove the window frame and caption items from your window, leaving only the client area displayed.
 
@@ -95,7 +95,7 @@ Starting with Windows Vista, removing the standard frame by simply returning 0 w
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
 [**MoveWindow**](https://msdn.microsoft.com/library/ms633534(v=VS.85).aspx)

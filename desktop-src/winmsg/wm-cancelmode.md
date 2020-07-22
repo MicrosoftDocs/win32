@@ -45,7 +45,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-When the **WM\_CANCELMODE** message is sent, the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function cancels internal processing of standard scroll bar input, cancels internal menu processing, and releases the mouse capture.
+When the **WM\_CANCELMODE** message is sent, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function cancels internal processing of standard scroll bar input, cancels internal menu processing, and releases the mouse capture.
 
 ## Requirements
 
@@ -66,7 +66,7 @@ When the **WM\_CANCELMODE** message is sent, the [**DefWindowProc**](https://msd
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
 [**EnableWindow**](https://msdn.microsoft.com/library/ms646291(v=VS.85).aspx)

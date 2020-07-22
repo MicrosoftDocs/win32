@@ -16,7 +16,7 @@ This section explains how to perform the following tasks associated with window 
 
 ## Designing a Window Procedure
 
-The following example shows the structure of a typical window procedure. The window procedure uses the message argument in a **switch** statement with individual messages handled by separate **case** statements. Notice that each case returns a specific value for each message. For messages that it does not process, the window procedure calls the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function.
+The following example shows the structure of a typical window procedure. The window procedure uses the message argument in a **switch** statement with individual messages handled by separate **case** statements. Notice that each case returns a specific value for each message. For messages that it does not process, the window procedure calls the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function.
 
 
 ```
@@ -64,7 +64,7 @@ The [**WM\_DESTROY**](wm-destroy.md) message is sent when your window is about t
 
 At the very least, a window procedure should process the [**WM\_PAINT**](https://msdn.microsoft.com/library/Dd145213(v=VS.85).aspx) message to draw itself. Typically, it should handle mouse and keyboard messages as well. Consult the descriptions of individual messages to determine whether your window procedure should handle them.
 
-Your application can call the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function as part of the processing of a message. In such a case, the application can modify the message parameters before passing the message to **DefWindowProc**, or it can continue with the default processing after performing its own operations.
+Your application can call the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function as part of the processing of a message. In such a case, the application can modify the message parameters before passing the message to **DefWindowProc**, or it can continue with the default processing after performing its own operations.
 
 A dialog box procedure receives a [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/ms645428(v=VS.85).aspx) message instead of a [**WM\_CREATE**](wm-create.md) message and does not pass unprocessed messages to the [**DefDlgProc**](https://msdn.microsoft.com/library/ms645450(v=VS.85).aspx) function. Otherwise, a dialog box procedure is exactly the same as a window procedure.
 

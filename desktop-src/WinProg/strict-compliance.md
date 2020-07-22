@@ -33,10 +33,10 @@ Some functions have generic return types or parameters. For example, the [**Send
 -   [**GetWindowLong**](https://msdn.microsoft.com/library/ms633584(v=VS.85).aspx)
 -   [**SetWindowLong**](https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx)
 -   [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx)
--   [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+-   [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 -   [**SendDlgItemMessage**](https://msdn.microsoft.com/library/ms645515(v=VS.85).aspx)
 
-When you call [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx), [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx), or [**SendDlgItemMessage**](https://msdn.microsoft.com/library/ms645515(v=VS.85).aspx), you should first cast the result to type **UINT\_PTR**. You need to take similar steps for any function that returns an **LRESULT** or **LONG\_PTR** value, where the result contains a handle. This is necessary for writing portable code because the size of a handle varies, depending on the version of Windows. The (**UINT\_PTR**) cast ensures proper conversion. The following code shows an example in which **SendMessage** returns a handle to a brush:
+When you call [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx), [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca), or [**SendDlgItemMessage**](https://msdn.microsoft.com/library/ms645515(v=VS.85).aspx), you should first cast the result to type **UINT\_PTR**. You need to take similar steps for any function that returns an **LRESULT** or **LONG\_PTR** value, where the result contains a handle. This is necessary for writing portable code because the size of a handle varies, depending on the version of Windows. The (**UINT\_PTR**) cast ensures proper conversion. The following code shows an example in which **SendMessage** returns a handle to a brush:
 
 
 ```C++

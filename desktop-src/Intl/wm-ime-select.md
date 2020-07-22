@@ -55,7 +55,7 @@ This message has no return value.
 
 An application that has created an IME window should pass this message to that window so that it can retrieve the keyboard layout handle to the newly selected IME.
 
-The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function processes this message by passing the information to the default IME window.
+The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)  function processes this message by passing the information to the default IME window.
 
 ## Requirements
 

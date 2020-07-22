@@ -45,7 +45,7 @@ If the icon can be opened, an application that processes this message should ret
 
 ## Remarks
 
-By default, the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function returns **TRUE**.
+By default, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function returns **TRUE**.
 
 While processing this message, the application should not perform any action that would cause an activation or focus change (for example, creating a dialog box).
 
@@ -68,7 +68,7 @@ While processing this message, the application should not perform any action tha
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
 **Conceptual**

@@ -35,7 +35,7 @@ Because it is possible to call a window procedure recursively, it is important t
 
 ## Default Window Procedure
 
-The default window procedure function, [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) defines certain fundamental behavior shared by all windows. The default window procedure provides the minimal functionality for a window. An application-defined window procedure should pass any messages that it does not process to the **DefWindowProc** function for default processing.
+The default window procedure function, [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) defines certain fundamental behavior shared by all windows. The default window procedure provides the minimal functionality for a window. An application-defined window procedure should pass any messages that it does not process to the **DefWindowProc** function for default processing.
 
 ## Window Procedure Subclassing
 

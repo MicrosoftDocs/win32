@@ -69,7 +69,7 @@ An application should return 0 if it processes this message.
 
 ## Remarks
 
-An application can process this message or pass it to the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function to generate a matching [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/ms646280(v=VS.85).aspx) message.
+An application can process this message or pass it to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)  function to generate a matching [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/ms646280(v=VS.85).aspx) message.
 
 ## Requirements
 

@@ -68,7 +68,7 @@ If an application processes this message, it should return **TRUE** to continue 
 [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx)
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
 [**CREATESTRUCT**](https://msdn.microsoft.com/library/ms632603(v=VS.85).aspx)

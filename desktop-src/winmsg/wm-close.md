@@ -47,7 +47,7 @@ If an application processes this message, it should return zero.
 
 An application can prompt the user for confirmation, prior to destroying a window, by processing the **WM\_CLOSE** message and calling the [**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx) function only if the user confirms the choice.
 
-By default, the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function calls the [**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx) function to destroy the window.
+By default, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function calls the [**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx) function to destroy the window.
 
 ## Requirements
 
@@ -68,7 +68,7 @@ By default, the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
 [**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx)
