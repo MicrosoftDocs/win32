@@ -264,7 +264,7 @@
     - name: "DebugEventProc callback"
       href: /windows/win32/api/gdiplusinit/nc-gdiplusinit-debugeventproc
     - name: "EnumerateMetafileProc callback"
-      href: nc-gdiplustypes-enumeratemetafileproc.md
+      href: /windows/win32/api/gdiplustypes/nc-gdiplustypes-enumeratemetafileproc
     - name: "ImageAbort callback"
       href: /windows/win32/api/gdiplustypes/nc-gdiplustypes-imageabort
     - name: "NotificationHookProc callback"
