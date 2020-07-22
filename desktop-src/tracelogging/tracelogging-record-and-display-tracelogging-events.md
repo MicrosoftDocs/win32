@@ -90,7 +90,7 @@ Create a Windows Performance Recorder profile (.wprp) so that you can use WPR to
     **<path to wpr>\\wpr.exe -start GeneralProfile -start TraceLoggingProvider.wprp**
 
     > \[!Tip\]  
-    > For general profiling purposes, you will typically also add –start GeneralProfile to the wpr.exe command line to capture system events along with the events from your provider. For simplicity the command line above omits -GeneralProfile so that only your events are gathered.
+    > For general profiling purposes, you will typically also add **–start GeneralProfile** to the wpr.exe command line to capture system events along with the events from your provider. If you only want to gather your events, omit **-start GeneralProfile**.
 
      
 
