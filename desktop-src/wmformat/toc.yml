@@ -2163,7 +2163,7 @@
       - name: "wm_stream_priority_record"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_priority_record
       - name: "wm_stream_type_info"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-ns-wmsdkidl-_wmstreamprioritizationrecord
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_type_info
       - name: "wm_synchronised_lyrics"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_synchronised_lyrics
       - name: "wm_user_text"

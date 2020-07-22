@@ -380,7 +380,7 @@
       - name: "SCESVC_CONFIGURATION_INFO"
         href: /windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info
       - name: "SCESVC_CONFIGURATION_LINE"
-        href: /windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_line_
+        href: /windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_line
       - name: "TRUSTED_DOMAIN_AUTH_INFORMATION"
         href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_domain_auth_information
       - name: "TRUSTED_DOMAIN_FULL_INFORMATION"

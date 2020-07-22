@@ -239,8 +239,8 @@
           href: /windows/win32/netmon2/network-monitor
         - name: "Performance Counters"
           href: /windows/win32/perfctrs/performance-counters-portal
-        # - name: "Process Snapshotting"
-        #   href: /windows/desktop/proc_snap/process-snapshotting-portal
+        - name: "Process Snapshotting"
+          href: /windows/win32/api/_proc_snap/
         - name: "Process Status API"
           href: /windows/win32/psapi/process-status-helper
         - name: "System Event Notification Service"
@@ -348,7 +348,7 @@
         - name: "Delivery Optimization"
           href: delivery_optimization/delivery-optimization-portal.md
         - name: "Domain Name System"
-          href: dns/dns-start-page.md          
+          href: /windows/win32/dns/dns-start-page
         - name: "HTTP Server API"
           href: /windows/win32/http/http-api-start-page
         - name: "IP Helper"
@@ -390,7 +390,7 @@
           - name: "Bluetooth"
             href: /windows/win32/bluetooth/bluetooth-start-page
           - name: "Mobile Broadband"
-            href: mbn/mobile-broadband-networks-portal.md
+            href: /windows/win32/mbn/mobile-broadband-networks-portal
           - name: "Native Wifi"
             href: /windows/win32/nativewifi/portal
           - name: "Windows Connect Now"
@@ -447,7 +447,7 @@
             - name: "Active Directory Federation Services"
               items: 
               - name: "Overview"
-                href: SrvNodes/active-directory-federation-services.md
+                href: /windows/win32/srvnodes/active-directory-federation-services.md
               - name: "Active Directory Federation Services Overview"
                 href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms674895(v=vs.85)
         - name: "Extensible Authentication Protocol"
@@ -463,9 +463,9 @@
         - name: "Rights Management"
           items: 
           - name: "Overview"
-            href: SrvNodes/rights-management.md
+            href: /windows/win32/srvnodes/rights-management.md
           - name: "RMS Scenarios, Code and Tools"
-            href: SrvNodes/rms-code-samples-and-tools.md
+            href: /windows/win32/srvnodes/rms-code-samples-and-tools.md
         - name: "Security Management"
           href: /windows/win32/secmgmt/management-portal
         - name: "Security Glossary"
@@ -519,22 +519,22 @@
       - name: "Overview"
         href: /windows/win32/server-and-system-technologies
       - name: "Directory, Identity, and Access Services"
-        href: SrvNodes/directory--identity--and-access-services.md
+        href: /windows/win32/srvnodes/directory--identity--and-access-services
         items: 
         - name: "Directory Services"
-          href: SrvNodes/directory-services.md
+          href: /windows/win32/srvnodes/directory-services
           items: 
           - name: "Directories"
-            href: SrvNodes/directories.md
+            href: /windows/win32/srvnodes/directories
           - name: "Directory Access Technologies"
-            href: SrvNodes/directory-access-technologies.md
+            href: /windows/win32/srvnodes/directory-access-technologies
         - name: "Identity Services"
-          href: SrvNodes/identity-services.md
+          href: /windows/win32/srvnodes/identity-services
           items: 
           - name: "Identity Lifecycle Manager 2007"
-            href: SrvNodes/identity-lifecycle-manager-2007.md
+            href: /windows/win32/srvnodes/identity-lifecycle-manager-2007
         - name: "Access Management Services"
-          href: SrvNodes/access-management-services.md
+          href: /windows/win32/srvnodes/access-management-services
           items: 
           - name: "Active Directory Federation Services"
             href: /windows/win32/srvnodes/active-directory-federation-services
@@ -542,35 +542,35 @@
         href: /windows/win32/srvnodes/rights-management
         items: 
         - name: "RMS Code Samples and Tools"
-          href: SrvNodes/rms-code-samples-and-tools.md
+          href: /windows/win32/srvnodes/rms-code-samples-and-tools.md
       - name: "System Administration"
-        href: SrvNodes/system-administration.md
+        href: /windows/win32/srvnodes/system-administration.md
         items: 
         - name: "Group Policy"
           items: 
           - name: "Overview"
-            href: SrvNodes/group-policy.md
+            href: /windows/win32/srvnodes/group-policy
           - name: "GPMC Class Library Reference"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/class-library/gpmc-class-library-reference
         - name: "Microsoft Management Console (MMC)"
-          href: SrvNodes/microsoft-management-console--mmc-.md
+          href: /windows/win32/srvnodes/microsoft-management-console--mmc-.md
           items: 
           - name: "Microsoft Management Console 3.0"
-            href: SrvNodes/microsoft-management-console-3-0.md
+            href: /windows/win32/srvnodes/microsoft-management-console-3-0.md
         - name: "Windows Server Update Services"
-          href: SrvNodes/windows-server-update-services.md
+          href: /windows/win32/srvnodes/windows-server-update-services.md
           items: 
           - name: "Windows Server Update Services 2.0 Class Library"
-            href: SrvNodes/windows-server-update-services-2-0-class-library.md
+            href: /windows/win32/srvnodes/windows-server-update-services-2-0-class-library.md
       - name: "Virtualization"
-        href: SrvNodes/virtualization.md
+        href: /windows/win32/srvnodes/virtualization.md
       - name: "WMI/MI/OMI Providers"
-        href: SrvNodes/wmi-mi-omi-providers.md
+        href: /windows/win32/srvnodes/wmi-mi-omi-providers.md
       - name: "Windows Server"
-        href: SrvNodes/windows-server.md
+        href: /windows/win32/srvnodes/windows-server.md
         items: 
         - name: "What's New For Windows Server 2012 R2 and Windows Server 2012"
-          href: SrvNodes/what-s-new-for-windows-server-2012-r2.md
+          href: /windows/win32/srvnodes/what-s-new-for-windows-server-2012-r2.md
         - name: "Mobile Device Management Registration"
           href: /windows/win32/mdmreg/mobile-device-management-registration-portal
         - name: "System Restore"
