@@ -69,17 +69,35 @@ The high-order word specifies the y-coordinate of the cursor. The coordinate is 
 
 If an application processes this message, it should return zero.
 
+## Example
+
+
+```cpp
+LRESULT CALLBACK WndProc(_In_ HWND hWnd, _In_ UINT msg, _In_ WPARAM wParam, _In_ LPARAM lParam)
+{
+    POINT pt;
+
+    switch (msg)
+    {
+
+    case WM_LBUTTONDOWN:
+            {
+                pt.x = GET_X_LPARAM(lParam);
+                pt.y = GET_Y_LPARAM(lParam);
+            }
+        }
+        break;
+
+    default:
+        return DefWindowProc(hWnd, msg, wParam, lParam);
+    }
+    return 0;
+}
+```
+
+For more examples see [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples) on GitHub.
+
 ## Remarks
-
-Use the following code to obtain the horizontal and vertical position:
-
-
-```
-xPos = GET_X_LPARAM(lParam); 
-yPos = GET_Y_LPARAM(lParam); 
-```
-
-
 
 As noted above, the x-coordinate is in the low-order **short** of the return value; the y-coordinate is in the high-order **short** (both represent *signed* values because they can take negative values on systems with multiple monitors). If the return value is assigned to a variable, you can use the [**MAKEPOINTS**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-makepoints) macro to obtain a [**POINTS**](https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)) structure from the return value. You can also use the [**GET\_X\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam) or [**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam) macro to extract the x- or y-coordinate.
 
