@@ -185,7 +185,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     HRESULT hr = S_OK;
 
     // Winproc worker for custom frame issues.
-    hr = DwmIsCompositionEnabled(&fDwmEnabled)
+    hr = DwmIsCompositionEnabled(&fDwmEnabled);
     if (SUCCEEDED(hr))
     {
         lRet = CustomCaptionProc(hWnd, message, wParam, lParam, &fCallDWP);
