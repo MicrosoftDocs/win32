@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The **WM\_PRINTCLIENT** message is sent to a window to request that it draw its client area in the specified device context, most commonly in a printer device context.
 
-Unlike [**WM\_PRINT**](wm-print.md), **WM\_PRINTCLIENT** is not processed by [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx). A window should process the **WM\_PRINTCLIENT** message through an application-defined [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function for it to be used properly.
+Unlike [**WM\_PRINT**](wm-print.md), **WM\_PRINTCLIENT** is not processed by [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca). A window should process the **WM\_PRINTCLIENT** message through an application-defined [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function for it to be used properly.
 
 
 ```C++

@@ -153,7 +153,7 @@ The [**TranslateMDISysAccel**](https://msdn.microsoft.com/library/ms644926(v=VS.
 
 ## Writing the Frame Window Procedure
 
-The window procedure for an MDI frame window is similar to that of a non–MDI application's main window. The difference is that a frame window procedure passes all messages it does not handle to the [**DefFrameProc**](https://msdn.microsoft.com/library/ms644924(v=VS.85).aspx) function rather than to the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function. In addition, the frame window procedure must also pass some messages that it does handle, including those listed in the following table.
+The window procedure for an MDI frame window is similar to that of a non–MDI application's main window. The difference is that a frame window procedure passes all messages it does not handle to the [**DefFrameProc**](https://msdn.microsoft.com/library/ms644924(v=VS.85).aspx) function rather than to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. In addition, the frame window procedure must also pass some messages that it does handle, including those listed in the following table.
 
 
 
@@ -162,7 +162,7 @@ The window procedure for an MDI frame window is similar to that of a non–MDI a
 | [**WM\_COMMAND**](https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx)     | Activates the MDI child window that the user chooses. This message is sent when the user chooses an MDI child window from the window menu of the MDI frame window. The window identifier accompanying this message identifies the MDI child window to be activated. |
 | [**WM\_MENUCHAR**](https://msdn.microsoft.com/library/ms646349(v=VS.85).aspx)   | Opens the window menu of the active MDI child window when the user presses the ALT+ – (minus) key combination.                                                                                                                                                      |
 | [**WM\_SETFOCUS**](https://msdn.microsoft.com/library/ms646283(v=VS.85).aspx) | Passes the keyboard focus to the MDI client window, which in turn passes it to the active MDI child window.                                                                                                                                                         |
-| [**WM\_SIZE**](wm-size.md)              | Resizes the MDI client window to fit in the new frame window's client area. If the frame window procedure sizes the MDI client window to a different size, it should not pass the message to the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function.                   |
+| [**WM\_SIZE**](wm-size.md)              | Resizes the MDI client window to fit in the new frame window's client area. If the frame window procedure sizes the MDI client window to a different size, it should not pass the message to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function.                   |
 
 
 
@@ -172,7 +172,7 @@ The frame window procedure in Multipad is called MPFrameWndProc. The handling of
 
 ## Writing the Child Window Procedure
 
-Like the frame window procedure, an MDI child window procedure uses a special function for processing messages by default. All messages that the child window procedure does not handle must be passed to the [**DefMDIChildProc**](https://msdn.microsoft.com/library/ms644925(v=VS.85).aspx) function rather than to the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function. In addition, some window-management messages must be passed to **DefMDIChildProc**, even if the application handles the message, in order for MDI to function correctly. Following are the messages the application must pass to **DefMDIChildProc**.
+Like the frame window procedure, an MDI child window procedure uses a special function for processing messages by default. All messages that the child window procedure does not handle must be passed to the [**DefMDIChildProc**](https://msdn.microsoft.com/library/ms644925(v=VS.85).aspx) function rather than to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. In addition, some window-management messages must be passed to **DefMDIChildProc**, even if the application handles the message, in order for MDI to function correctly. Following are the messages the application must pass to **DefMDIChildProc**.
 
 
 

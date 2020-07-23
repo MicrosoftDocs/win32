@@ -58,7 +58,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function hides or shows the window, as specified by the message. If a window has the [**WS\_VISIBLE**](window-styles.md) style when it is created, the window receives this message after it is created, but before it is displayed. A window also receives this message when its visibility state is changed by the [**ShowWindow**](https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx) or [**ShowOwnedPopups**](https://msdn.microsoft.com/library/ms633547(v=VS.85).aspx) function.
+The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function hides or shows the window, as specified by the message. If a window has the [**WS\_VISIBLE**](window-styles.md) style when it is created, the window receives this message after it is created, but before it is displayed. A window also receives this message when its visibility state is changed by the [**ShowWindow**](https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx) or [**ShowOwnedPopups**](https://msdn.microsoft.com/library/ms633547(v=VS.85).aspx) function.
 
 The **WM\_SHOWWINDOW** message is not sent under the following circumstances:
 
@@ -84,7 +84,7 @@ The **WM\_SHOWWINDOW** message is not sent under the following circumstances:
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
 [**ShowOwnedPopups**](https://msdn.microsoft.com/library/ms633547(v=VS.85).aspx)

@@ -59,7 +59,7 @@ yPos = (int)(short) HIWORD(lParam);   // vertical position
 
 You can also use the [**MAKEPOINTS**](https://msdn.microsoft.com/library/Dd145043(v=VS.85).aspx) macro to convert the *lParam* parameter to a [**POINTS**](https://msdn.microsoft.com/library/Dd162808(v=VS.85).aspx) structure.
 
-The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function
+The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function
 sends the **WM\_SIZE** and **WM\_MOVE** messages when it processes
 the [**WM\_WINDOWPOSCHANGED**](wm-windowposchanged.md) message.
 The **WM\_SIZE** and **WM\_MOVE** messages are not sent if an application handles

@@ -74,7 +74,7 @@ Note that this parameter is a bit mask. To test for this value, use a bit-wise o
 
 ## Return value
 
-Applications should respect the user's intentions and return **TRUE**. By default, the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function returns **TRUE** for this message.
+Applications should respect the user's intentions and return **TRUE**. By default, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function returns **TRUE** for this message.
 
 If shutting down would corrupt the system or media that is being burned, the application can return **FALSE**. However, it is good practice to respect the user's actions.
 
@@ -114,7 +114,7 @@ For an example, see [Logging Off](logging-off.md).
 [Shutting Down](shutting-down.md)
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
 [**ExitWindows**](/windows/desktop/api/Winuser/nf-winuser-exitwindows)

@@ -43,7 +43,7 @@ An application should return nonzero if it erases the background; otherwise, it 
 
 ## Remarks
 
-The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function erases the background by using the class background brush specified by the **hbrBackground** member of the [**WNDCLASS**](https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx) structure. If **hbrBackground** is **NULL**, the application should process the **WM\_ERASEBKGND** message and erase the background.
+The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function erases the background by using the class background brush specified by the **hbrBackground** member of the [**WNDCLASS**](https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx) structure. If **hbrBackground** is **NULL**, the application should process the **WM\_ERASEBKGND** message and erase the background.
 
 An application should return nonzero in response to **WM\_ERASEBKGND** if it processes the message and erases the background; this indicates that no further erasing is required. If the application returns zero, the window will remain marked for erasing. (Typically, this indicates that the **fErase** member of the [**PAINTSTRUCT**](https://msdn.microsoft.com/library/Dd162768(v=VS.85).aspx) structure will be **TRUE**.)
 
@@ -66,7 +66,7 @@ An application should return nonzero in response to **WM\_ERASEBKGND** if it pro
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
 [**WNDCLASS**](https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx)

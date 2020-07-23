@@ -69,7 +69,7 @@ The repeat count, scan code, extended key flag, context code, previous key state
 
 Unlike the [**WM\_CHAR**](https://msdn.microsoft.com/library/ms646276(v=VS.85).aspx) message for a non-Unicode window, this message can include double-byte and single-byte character values. For a Unicode window, this message is the same as WM\_CHAR.
 
-For a non-Unicode window, if the WM\_IME\_CHAR message includes a double-byte character and the application passes this message to [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx), the IME converts this message into two WM\_CHAR messages, each containing one byte of the double-byte character.
+For a non-Unicode window, if the WM\_IME\_CHAR message includes a double-byte character and the application passes this message to [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca), the IME converts this message into two WM\_CHAR messages, each containing one byte of the double-byte character.
 
 ## Requirements
 

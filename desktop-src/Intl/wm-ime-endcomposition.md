@@ -36,7 +36,7 @@ This message has no return value.
 
 An application should process this message if it displays composition characters itself.
 
-If the application has created an IME window, it should pass this message to that window. The [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function processes this message by passing it to the default IME window.
+If the application has created an IME window, it should pass this message to that window. The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)  function processes this message by passing it to the default IME window.
 
 ## Requirements
 
