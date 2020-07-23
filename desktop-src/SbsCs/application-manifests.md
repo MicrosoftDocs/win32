@@ -15,8 +15,6 @@ For a complete listing of the XML schema, see [Manifest File Schema](manifest-fi
 
 Application manifests have the following elements and attributes.
 
-
-
 | Element                               | Attributes                | Required |
 |---------------------------------------|---------------------------|----------|
 | **assembly**                          |                           | Yes      |
@@ -39,6 +37,7 @@ Application manifests have the following elements and attributes.
 |                                       | **name**                  | No       |
 |                                       | **hashalg**               | No       |
 |                                       | **hash**                  | No       |
+| **activeCodePage**                    |                           | No       |
 | **autoElevate**                       |                           | No       |
 | **disableTheming**                    |                           | No       |
 | **disableWindowFiltering**            |                           | No       |
@@ -107,8 +106,6 @@ If **noInherit** is used in a manifest, it must be the first subelement of the *
 As the first subelement of an **assembly** element, **assemblyIdentity** describes and uniquely identifies the application owning this application manifest. As the first subelement of a **dependentAssembly** element, **assemblyIdentity** describes a side-by-side assembly required by the application. Note that every assembly referenced in the application manifest requires an **assemblyIdentity** that exactly matches the **assemblyIdentity** in the referenced assembly's own assembly manifest.
 
 The **assemblyIdentity** element has the following attributes. It has no subelements.
-
-
 
 | Attribute                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -180,6 +177,28 @@ The **file** element has the attributes shown in the following table.
 | **name**    | Name of the file. For example, Comctl32.dll.                                                            |
 | **hashalg** | Algorithm used to create a hash of the file. This value should be SHA1.                                 |
 | **hash**    | A hash of the file referred to by name. A hexadecimal string of length depending on the hash algorithm. |
+
+<span id="activeCodePage"></span><span id="activecodepage"></span><span id="ACTIVECODEPAGE"></span>
+
+### activeCodePage
+
+Force a process to use UTF-8 as the process code page.
+
+**activeCodePage** was added in Windows Version 1903 (May 2019 Update). You can declare this property and target/run on earlier Windows builds, but you must handle legacy code page detection and conversion as usual. See [Use the UTF-8 code page](https://docs.microsoft.com/windows/uwp/design/globalizing/use-utf8-code-page) for details.
+
+This element has no attributes. **UTF-8** is only valid value for **activeCodePage** element.
+
+```XML
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
+  <assemblyIdentity type="win32" name="..." version="6.0.0.0"/>
+  <application>
+    <windowsSettings>
+      <activeCodePage xmlns="http://schemas.microsoft.com/SMI/2019/WindowsSettings">UTF-8</activeCodePage>
+    </windowsSettings>
+  </application>
+</assembly>
+```
 
 <span id="autoElevate"></span><span id="autoelevate"></span><span id="AUTOELEVATE"></span>
 
@@ -448,11 +467,3 @@ The following is an example of an application manifest for an application named 
   </dependency>
 </assembly>
 ```
-
- 
-
- 
-
-
-
-
