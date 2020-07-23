@@ -447,7 +447,7 @@
             - name: "Active Directory Federation Services"
               items: 
               - name: "Overview"
-                href: /windows/win32/srvnodes/active-directory-federation-services.md
+                href: /windows/win32/srvnodes/active-directory-federation-services
               - name: "Active Directory Federation Services Overview"
                 href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms674895(v=vs.85)
         - name: "Extensible Authentication Protocol"
@@ -463,9 +463,9 @@
         - name: "Rights Management"
           items: 
           - name: "Overview"
-            href: /windows/win32/srvnodes/rights-management.md
+            href: /windows/win32/srvnodes/rights-management
           - name: "RMS Scenarios, Code and Tools"
-            href: /windows/win32/srvnodes/rms-code-samples-and-tools.md
+            href: /windows/win32/srvnodes/rms-code-samples-and-tools
         - name: "Security Management"
           href: /windows/win32/secmgmt/management-portal
         - name: "Security Glossary"
@@ -542,9 +542,9 @@
         href: /windows/win32/srvnodes/rights-management
         items: 
         - name: "RMS Code Samples and Tools"
-          href: /windows/win32/srvnodes/rms-code-samples-and-tools.md
+          href: /windows/win32/srvnodes/rms-code-samples-and-tools
       - name: "System Administration"
-        href: /windows/win32/srvnodes/system-administration.md
+        href: /windows/win32/srvnodes/system-administration
         items: 
         - name: "Group Policy"
           items: 
@@ -553,24 +553,24 @@
           - name: "GPMC Class Library Reference"
             href: https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/class-library/gpmc-class-library-reference
         - name: "Microsoft Management Console (MMC)"
-          href: /windows/win32/srvnodes/microsoft-management-console--mmc-.md
+          href: /windows/win32/srvnodes/microsoft-management-console--mmc-
           items: 
           - name: "Microsoft Management Console 3.0"
-            href: /windows/win32/srvnodes/microsoft-management-console-3-0.md
+            href: /windows/win32/srvnodes/microsoft-management-console-3-0
         - name: "Windows Server Update Services"
-          href: /windows/win32/srvnodes/windows-server-update-services.md
+          href: /windows/win32/srvnodes/windows-server-update-services
           items: 
           - name: "Windows Server Update Services 2.0 Class Library"
-            href: /windows/win32/srvnodes/windows-server-update-services-2-0-class-library.md
+            href: /windows/win32/srvnodes/windows-server-update-services-2-0-class-library
       - name: "Virtualization"
-        href: /windows/win32/srvnodes/virtualization.md
+        href: /windows/win32/srvnodes/virtualization
       - name: "WMI/MI/OMI Providers"
-        href: /windows/win32/srvnodes/wmi-mi-omi-providers.md
+        href: /windows/win32/srvnodes/wmi-mi-omi-providers
       - name: "Windows Server"
-        href: /windows/win32/srvnodes/windows-server.md
+        href: /windows/win32/srvnodes/windows-server
         items: 
         - name: "What's New For Windows Server 2012 R2 and Windows Server 2012"
-          href: /windows/win32/srvnodes/what-s-new-for-windows-server-2012-r2.md
+          href: /windows/win32/srvnodes/what-s-new-for-windows-server-2012-r2
         - name: "Mobile Device Management Registration"
           href: /windows/win32/mdmreg/mobile-device-management-registration-portal
         - name: "System Restore"
