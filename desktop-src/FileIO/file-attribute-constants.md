@@ -3,12 +3,50 @@ Description: File attributes are metadata values stored by the file system on di
 ms.assetid: ed9a73d2-7fb6-4fb7-97f6-4dbf89e2f156
 title: File Attribute Constants (WinNT.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/23/2020
 ---
 
 # File Attribute Constants
 
 File attributes are metadata values stored by the file system on disk and are used by the system and are available to developers via various file I/O APIs. For a list of related APIs and topics, see the See Also section.
+
+## Example
+```cpp
+
+
+FILE_BASIC_INFO basicInfo;
+    BOOL result;
+
+    result = GetFileInformationByHandleEx( hFile,
+                                               FileBasicInfo,
+                                               &basicInfo,
+                                               sizeof(basicInfo));
+
+\\...
+
+printf("  File Attributes: ");
+    PrintFileAttributes(basicInfo.FileAttributes);
+
+\\...
+VOID
+PrintFileAttributes(
+    ULONG FileAttributes
+    )
+{
+    
+    if (FileAttributes & FILE_ATTRIBUTE_ARCHIVE) {
+        printf("Archive ");
+    }
+    if (FileAttributes & FILE_ATTRIBUTE_DIRECTORY) {
+        printf("Directory ");
+    }
+    if (FileAttributes & FILE_ATTRIBUTE_READONLY) {
+        printf("Read-Only ");
+    }
+}
+```
+
+Example taken from a [Windows Classic Sample](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/winbase/io/extendedfileapis/ExtendedFileAPIs.cpp) on GitHub.
 
 
 
