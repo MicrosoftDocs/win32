@@ -3,7 +3,7 @@ Description: This topic provides information about using the WinHTTP WinHttpRequ
 ms.assetid: 0bbbf3dc-84b8-41d8-8627-e3d80ddcb783
 title: WinHttpRequest object
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/22/2020
 topic_type: 
 - APIRef
 - kbSyntax
@@ -17,7 +17,32 @@ api_location:
 
 # WinHttpRequest object
 
-This topic provides information about using the WinHTTP **WinHttpRequest** COM object with scripting languages.
+This topic provides information about using the WinHTTP **WinHttpRequest** COM object with scripting languages. For more information, including the C++ API (WinHTTP) please see [About WinHTTP](about-winhttp.md). See [Choosing a WinHTTP Interface](choosing-a-winhttp-interface.md) for a comparison of these interfaces.
+
+## Example
+
+```javascript
+// Instantiate a WinHttpRequest object.
+var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
+```
+
+```cpp
+ IWinHttpRequest *  pIWinHttpRequest = NULL;
+ \\..
+    hr = CLSIDFromProgID(L"WinHttp.WinHttpRequest.5.1", &clsid);
+
+    if (SUCCEEDED(hr))
+    {
+        hr = CoCreateInstance(clsid, NULL,
+                              CLSCTX_INPROC_SERVER,
+                              IID_IWinHttpRequest,
+                              (void **)&pIWinHttpRequest);
+    }
+```
+
+Code examples taken from [IWinHttpRequest::Status property](iwinhttprequest-status.md).
+
+
 
 ## Members
 
