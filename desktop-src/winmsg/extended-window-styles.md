@@ -10,6 +10,22 @@ ms.date: 05/31/2018
 
 The following are the extended window styles.
 
+## Example
+
+```C++
+
+virtual    BOOL    Create(HWND hWndParent, WCHAR* pwszClassName,
+                            WCHAR* pwszWindowName, UINT uID, HICON hIcon,
+                            DWORD dwStyle = WS_OVERLAPPEDWINDOW,
+                            DWORD dwExStyle = WS_EX_APPWINDOW,
+                            int x = CW_USEDEFAULT, int y = CW_USEDEFAULT,
+                            int cx = CW_USEDEFAULT, int cy = CW_USEDEFAULT);
+```
+
+This code was taken from a sample in the [Windows classic samples](https://github.com/microsoft/Windows-classic-samples) GitHub repo.
+
+
+
 
 
 | Constant/value                                                                                                                                                                                                                                                                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
