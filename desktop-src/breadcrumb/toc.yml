@@ -720,6 +720,10 @@
                     - name: Windows Management Instrumentation
                       tocHref: /windows/win32/wmisdk/
                       topicHref: /windows/win32/wmisdk/wmi-start-page
+                      items:
+                        - name: CIMWin32 WMI Providers
+                          tocHref: /windows/win32/cimwin32prov/
+                          topicHref: /windows/win32/cimwin32prov/cimwin32-wmi-providers
                     - name: Boot Event Collector WMI Provider
                       tocHref: /windows/win32/bevtcolprov/
                       topicHref: /windows/win32/bevtcolprov/boot-event-collector-wmi-provider-portal
