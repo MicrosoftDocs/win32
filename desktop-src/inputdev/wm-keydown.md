@@ -64,6 +64,35 @@ For more detail, see [Keystroke Message Flags](about-keyboard-input.md#keystroke
 
 An application should return zero if it processes this message.
 
+## Example
+
+```cpp
+LRESULT CALLBACK HostWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
+{
+    switch (message) 
+    {
+    case WM_KEYDOWN:
+        if (wParam == VK_ESCAPE)
+        {
+            if (isFullScreen) 
+            {
+                GoPartialScreen();
+            }
+        }
+        break;
+
+    // ...
+    default:
+        return DefWindowProc(hWnd, message, wParam, lParam);
+    }
+    return 0;  
+}
+
+```
+
+Example from [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Magnification/cpp/Windowed/MagnifierSample.cpp) on GitHub.
+
+
 ## Remarks
 
 If the F10 key is pressed, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function sets an internal flag. When **DefWindowProc** receives the [**WM\_KEYUP**](wm-keyup.md) message, the function checks whether the internal flag is set and, if so, sends a [**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand) message to the top-level window. The **WM\_SYSCOMMAND** parameter of the message is set to SC\_KEYMENU.
