@@ -3,7 +3,7 @@ Description: An optional entry point into a dynamic-link library (DLL). When the
 ms.assetid: 0c3e3083-9297-4626-b2a7-0062d1c2cf9e
 title: DllMain entry point (Process.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/22/2020
 topic_type: 
 - APIRef
 - kbSyntax
@@ -18,6 +18,41 @@ api_location:
 # DllMain entry point
 
 An optional entry point into a dynamic-link library (DLL). When the system starts or terminates a process or thread, it calls the entry-point function for each loaded DLL using the first thread of the process. The system also calls the entry-point function for a DLL when it is loaded or unloaded using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**FreeLibrary**](https://msdn.microsoft.com/library/ms683152(v=VS.85).aspx) functions.
+
+## Example
+
+```cpp
+BOOL WINAPI DllMain(
+    HINSTANCE hinstDLL,  // handle to DLL module
+    DWORD fdwReason,     // reason for calling function
+    LPVOID lpReserved )  // reserved
+{
+    // Perform actions based on the reason for calling.
+    switch( fdwReason ) 
+    { 
+        case DLL_PROCESS_ATTACH:
+         // Initialize once for each new process.
+         // Return FALSE to fail DLL load.
+            break;
+
+        case DLL_THREAD_ATTACH:
+         // Do thread-specific initialization.
+            break;
+
+        case DLL_THREAD_DETACH:
+         // Do thread-specific cleanup.
+            break;
+
+        case DLL_PROCESS_DETACH:
+         // Perform any necessary cleanup.
+            break;
+    }
+    return TRUE;  // Successful DLL_PROCESS_ATTACH.
+}
+```
+
+This is an example from the [Dynamic-Link Library Entry-Point Function](dynamic-link-library-entry-point-function.md).
+
 
 > [!WARNING]
 > There are significant limits on what you can safely do in a DLL entry point. See [General Best Practices](dynamic-link-library-best-practices.md) for specific Windows APIs that are unsafe to call in DllMain. If you need anything but the simplest initialization then do that in an initialization function for the DLL. You can require applications to call the initialization function after DllMain has run and before they call any other functions in the DLL.
@@ -116,9 +151,6 @@ If your DLL is linked with the C run-time library (CRT), the entry point provide
 
 Consider calling [**DisableThreadLibraryCalls**](https://docs.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-disablethreadlibrarycalls) when receiving **DLL\_PROCESS\_ATTACH**, unless your DLL is linked with static C run-time library (CRT).
 
-## Examples
-
-For an example, see [Dynamic-Link Library Entry-Point Function](dynamic-link-library-entry-point-function.md).
 
 ## Requirements
 
