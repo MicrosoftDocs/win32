@@ -3,14 +3,36 @@ Description: The following process creation flags are used by the CreateProcess,
 ms.assetid: fd3384ad-8635-4ea1-9054-0572ef86b86d
 title: Process Creation Flags (WinBase.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/27/2020
 ---
 
 # Process Creation Flags
 
 The following process creation flags are used by the [**CreateProcess**](https://msdn.microsoft.com/library/ms682425(v=VS.85).aspx), [**CreateProcessAsUser**](https://msdn.microsoft.com/library/ms682429(v=VS.85).aspx), [**CreateProcessWithLogonW**](/windows/desktop/api/WinBase/nf-winbase-createprocesswithlogonw), and [**CreateProcessWithTokenW**](/windows/desktop/api/WinBase/nf-winbase-createprocesswithtokenw) functions. They can be specified in any combination, except as noted.
 
+## Example
 
+```c
+     BOOL creationResult;
+    
+    creationResult = CreateProcess(
+        NULL,                   // No module name (use command line)
+        cmdLine,                // Command line
+        NULL,                   // Process handle not inheritable
+        NULL,                   // Thread handle not inheritable
+        FALSE,                  // Set handle inheritance to FALSE
+        NORMAL_PRIORITY_CLASS | CREATE_NEW_CONSOLE | CREATE_NEW_PROCESS_GROUP, // creation flags
+        NULL,                   // Use parent's environment block
+        NULL,                   // Use parent's starting directory 
+        &startupInfo,           // Pointer to STARTUPINFO structure
+        &processInformation);   // Pointer to PROCESS_INFORMATION structure
+
+```
+
+Example from [Windows classic samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/ManagementInfrastructure/cpp/Process/Provider/WindowsProcess.c) on GitHub.
+
+
+## Flags
 
 | Constant/value                                                                                                                                                                                                                                                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
