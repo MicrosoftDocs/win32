@@ -3,7 +3,7 @@ Description: Sent to a window after its size has changed.
 ms.assetid: e3e14dcd-9236-48bd-a692-6985d8146f81
 title: WM_SIZE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/27/2020
 ---
 
 # WM\_SIZE message
@@ -58,6 +58,53 @@ The high-order word of *lParam* specifies the new height of the client area.
 Type: **LRESULT**
 
 If an application processes this message, it should return zero.
+
+## Example
+
+```cpp
+/******************************************************************
+*                                                                 *
+*  SimpleText::OnResize                                           *
+*                                                                 *
+*  If the application receives a WM_SIZE message, this method     *
+*  resize the render target appropriately.                        *
+*                                                                 *
+******************************************************************/
+
+void SimpleText::OnResize(UINT width, UINT height)
+{
+    if (pRT_)
+    {
+        D2D1_SIZE_U size;
+        size.width = width;
+        size.height = height;
+        pRT_->Resize(size);
+    }
+}
+
+LRESULT CALLBACK SimpleText::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
+{
+   
+    SimpleText *pSimpleText = reinterpret_cast<SimpleText *>(
+                ::GetWindowLongPtr(hwnd, GWLP_USERDATA));
+
+    if (pSimpleText)
+    {
+        switch(message)
+        {
+        case WM_SIZE:
+            {
+                UINT width = LOWORD(lParam);
+                UINT height = HIWORD(lParam);
+                pSimpleText->OnResize(width, height);
+            }
+            return 0;
+
+// ...
+
+```
+
+Example from [Windows classic samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/multimedia/DirectWrite/HelloWorld/SimpleText.cpp) on GitHub.
 
 ## Remarks
 
