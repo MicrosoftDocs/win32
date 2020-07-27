@@ -3,13 +3,48 @@ Description: The following are the memory-protection options; you must specify o
 ms.assetid: 09839db7-2118-4a7d-a707-a08c92bd600c
 title: Memory Protection Constants (WinNT.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/27/2020
 ---
 
 # Memory Protection Constants
 
 The following are the memory-protection options; you must specify one of the following values when allocating or protecting a page in memory. Protection attributes cannot be assigned to a portion of a page; they can only be assigned to a whole page.
 
+## Example
+
+```cpp
+STDMETHODIMP CExtBuffer::FInit
+    (
+    ULONG cItemMax,     //@parm IN | Maximum number of items ever
+    ULONG cbItem,       //@parm IN | Size of each item, in bytes
+    ULONG cbPage        //@parm IN | Size of system page size (from SysInfo)
+    )
+{
+    BYTE  *pb;
+
+    m_cbReserved = ((cbItem *cItemMax) / cbPage + 1) *cbPage;
+    m_rgItem = (BYTE *) VirtualAlloc( NULL, m_cbReserved, MEM_RESERVE, PAGE_READWRITE );
+
+    if (m_rgItem == NULL)
+        return ResultFromScode( E_OUTOFMEMORY );
+
+    m_cbItem  = cbItem;
+    m_dbAlloc = (cbItem / cbPage + 1) *cbPage;
+    pb = (BYTE *) VirtualAlloc( m_rgItem, m_dbAlloc, MEM_COMMIT, PAGE_READWRITE );
+    if (pb == NULL)
+        {
+        VirtualFree((VOID *) m_rgItem, 0, MEM_RELEASE );
+        m_rgItem = NULL;
+        return ResultFromScode( E_OUTOFMEMORY );
+        }
+
+    m_cbAlloc = m_dbAlloc;
+    return ResultFromScode( S_OK );
+}
+```
+Example it from [Windows classic samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/dataaccess/oledb/sampprov/extbuff.cpp)) on GitHub.
+
+## Constants
 
 
 | Constant/value                                                                                                                                                                                                                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
