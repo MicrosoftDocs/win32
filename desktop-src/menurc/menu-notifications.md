@@ -22,7 +22,38 @@ ms.date: 05/31/2018
 -   [**WM\_NEXTMENU**](wm-nextmenu.md)
 -   [**WM\_UNINITMENUPOPUP**](wm-uninitmenupopup.md)
 
- 
+
+## Example
+
+```c
+BOOL AboutDlg (
+    HWND hDlg, 
+    UINT message, 
+    WPARAM wParam, 
+    LPARAM lParam)
+{
+    BOOL bRet = FALSE;
+    
+    switch (message) 
+    {
+        case WM_INITDIALOG:
+            bRet = TRUE;
+            break;
+
+        case WM_COMMAND:
+            if (wParam == IDOK ||
+                wParam == IDCANCEL) 
+            {
+                EndDialog(hDlg, TRUE);
+                bRet = TRUE;
+            }
+            break;
+    }
+
+    return bRet;
+}
+```
+Example taken from [Windows classic samples](https://github.com/microsoft/Windows-classic-samples) on GitHub.
 
  
 
