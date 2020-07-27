@@ -81,7 +81,8 @@ topic_type:
 
 # CSIDL
 
-> [!Note]As of Windows Vista, these values have been replaced by [**KNOWNFOLDERID**](knownfolderid.md) values. See that topic for a list of the new constants and their corresponding CSIDL values. For convenience, corresponding **KNOWNFOLDERID** values are also noted here for each CSIDL value.
+> [!Note]  
+> As of Windows Vista, these values have been replaced by [**KNOWNFOLDERID**](knownfolderid.md) values. See that topic for a list of the new constants and their corresponding CSIDL values. For convenience, corresponding **KNOWNFOLDERID** values are also noted here for each CSIDL value.
 >
 > The CSIDL system is supported under Windows Vista for compatibility reasons. However, new development should use [**KNOWNFOLDERID**](knownfolderid.md) values rather than CSIDL values.
 
