@@ -14,6 +14,24 @@ The functions that get and adjust the privileges in an [*access token*](https://
 
 The operating system represents a privilege by using the string that follows "User Right" in the Description column of the following table. The operating system displays the user right strings in the **Policy** column of the **User Rights Assignment** node of the Local Security Settings Microsoft Management Console (MMC) snap-in.
 
+## Example
+
+```cpp
+BOOL EnablePrivilege()
+{
+    LUID PrivilegeRequired ;
+    BOOL bRes = FALSE;
+  
+    bRes = LookupPrivilegeValue(NULL, SE_DEBUG_NAME, &PrivilegeRequired);
+
+    // ...
+
+    return bRes;
+}
+```
+Example from [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/ManagementInfrastructure/cpp/Process/Provider/WindowsProcess.c) on GitHub.
+
+## Constants
 
 
 <table>
