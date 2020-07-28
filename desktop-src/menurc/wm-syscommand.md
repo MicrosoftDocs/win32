@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/27/2020
 ---
 
 # WM\_SYSCOMMAND message
@@ -25,7 +25,19 @@ A window receives this message when the user chooses a command from the **Window
 #define WM_SYSCOMMAND                   0x0112
 ```
 
+## Example
 
+```cpp
+ case WM_SYSCOMMAND:
+        if (wParam == SC_CLOSE)
+        {
+            EndDialog (hDlg, TRUE);
+            return(TRUE);
+        }
+        break;
+
+```
+Example from [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/winbase/registry/RegExplorer.c) on GitHub.
 
 ## Parameters
 
