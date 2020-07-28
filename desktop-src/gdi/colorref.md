@@ -28,6 +28,19 @@ The low-order byte contains a value for the relative intensity of red; the secon
 
 To create a **COLORREF** color value, use the [RGB](/windows/desktop/api/Wingdi/nf-wingdi-rgb) macro. To extract the individual values for the red, green, and blue components of a color value, use the [**GetRValue**](/windows/desktop/api/Wingdi/nf-wingdi-getrvalue), [GetGValue](/windows/desktop/api/Wingdi/nf-wingdi-getgvalue), and [GetBValue](/windows/desktop/api/Wingdi/nf-wingdi-getbvalue) macros, respectively.
 
+## Example
+
+```cpp
+// Color constants.
+const COLORREF rgbRed   =  0x000000FF;
+const COLORREF rgbGreen =  0x0000FF00;
+const COLORREF rgbBlue  =  0x00FF0000;
+const COLORREF rgbBlack =  0x00000000;
+const COLORREF rgbWhite =  0x00FFFFFF;
+```
+
+Example from [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples) on GitHub.
+
 ## Requirements
 
 
