@@ -42,7 +42,7 @@ STDMETHODIMP CExtBuffer::FInit
     return ResultFromScode( S_OK );
 }
 ```
-Example it from [Windows classic samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/dataaccess/oledb/sampprov/extbuff.cpp)) on GitHub.
+Example it from [Windows classic samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/dataaccess/oledb/sampprov/extbuff.cpp) on GitHub.
 
 ## Constants
 
