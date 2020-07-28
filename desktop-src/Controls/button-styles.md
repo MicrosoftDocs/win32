@@ -41,15 +41,39 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/27/2020
 ---
 
 # Button Styles
 
 Specifies a combination of button styles. If you create a button using the BUTTON class with the [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, you can specify any of the button styles listed below.
 
+## Example
+
+```cpp
+HRESULT Button::CreateText(HWND hParent, const TCHAR *szCaption, int nID, 
+                               const Rect& rcBound)
+{
+    CREATESTRUCT create;
+	ZeroMemory(&create, sizeof(CREATESTRUCT));
+
+    create.x = rcBound.left;
+    create.y = rcBound.top;
+    create.cx = rcBound.right - create.x;
+    create.cy = rcBound.bottom - create.y;
+
+    create.hwndParent = hParent;
+    create.lpszName = szCaption;
+    create.hMenu = (HMENU)(INT_PTR)nID;
+    create.lpszClass = TEXT("BUTTON");
+    create.style = BS_PUSHBUTTON | BS_FLAT;
+    return Control::Create(create);
+}
+```
+Example from [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/multimedia/directshow/common/button.cpp) on GitHub.
 
 
+## Constants
 | Constant                                                                                                                                                                     | Description                                                                                                                                                                                                                                                                                                                                                                                                |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="BS_3STATE"></span><span id="bs_3state"></span><dl> <dt>**BS\_3STATE**</dt> </dl>                            | Creates a button that is the same as a check box, except that the box can be grayed as well as checked or cleared. Use the grayed state to show that the state of the check box is not determined.<br/>                                                                                                                                                                                              |
