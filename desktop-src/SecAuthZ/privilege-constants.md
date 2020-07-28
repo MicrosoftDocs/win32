@@ -3,7 +3,7 @@ Description: Privileges determine the type of system operations that a user acco
 ms.assetid: 973796a6-bc2e-4e64-92db-5e17b9c25460
 title: Privilege Constants (Winnt.h)
 ms.topic: reference
-ms.date: 02/05/2019
+ms.date: 07/27/2020
 ---
 
 # Privilege Constants (Authorization)
