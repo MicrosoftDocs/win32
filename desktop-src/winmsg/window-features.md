@@ -14,6 +14,10 @@ This overview discusses features of windows such as window types, states, size, 
     -   [Overlapped Windows](#overlapped-windows)
     -   [Pop-up Windows](#pop-up-windows)
     -   [Child Windows](#child-windows)
+        -   [Positioning](#positioning)
+        -   [Clipping](#clipping)
+        -   [Relationship to Parent Window](#relationship-to-parent-window)
+        -   [Messages](#size-and-position-messages)
     -   [Layered Windows](#layered-windows)
     -   [Message-Only Windows](#message-only-windows)
 -   [Window Relationships](#window-relationships)
@@ -49,7 +53,7 @@ This section contains the following topics that describe window types.
 
 ### Overlapped Windows
 
-An *overlapped window* is a top-level window that has a title bar, border, and client area; it is meant to serve as an application's main window. It can also have a window menu, minimize and maximize buttons, and scroll bars. An overlapped window used as a main window typically includes all of these components.
+An *overlapped window* is a top-level window (non-child window) that has a title bar, border, and client area; it is meant to serve as an application's main window. It can also have a window menu, minimize and maximize buttons, and scroll bars. An overlapped window used as a main window typically includes all of these components.
 
 By specifying the [**WS\_OVERLAPPED**](window-styles.md) or **WS\_OVERLAPPEDWINDOW** style in the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function, an application creates an overlapped window. If you use the **WS\_OVERLAPPED** style, the window has a title bar and border. If you use the **WS\_OVERLAPPEDWINDOW** style, the window has a title bar, sizing border, window menu, and minimize and maximize buttons.
 
@@ -67,14 +71,14 @@ A child window must have a parent window. The parent window can be an overlapped
 
 A child window has a client area but no other features, unless they are explicitly requested. An application can request a title bar, a window menu, minimize and maximize buttons, a border, and scroll bars for a child window, but a child window cannot have a menu. If the application specifies a menu handle, either when it registers the child's window class or creates the child window, the menu handle is ignored. If no border style is specified, the system creates a borderless window. An application can use borderless child windows to divide a parent window's client area while keeping the divisions invisible to the user.
 
-This section discusses the following:
+This section discusses the following aspects of child windows:
 
 -   [Positioning](#positioning)
 -   [Clipping](#clipping)
 -   [Relationship to Parent Window](#relationship-to-parent-window)
 -   [Messages](#size-and-position-messages)
 
-### Positioning
+#### Positioning
 
 The system always positions a child window relative to the upper left corner of its parent window's client area. No part of a child window ever appears outside the borders of its parent window. If an application creates a child window that is larger than the parent window or positions a child window so that some or all of the child window extends beyond the borders of the parent, the system clips the child window; that is, the portion outside the parent window's client area is not displayed. Actions that affect the parent window can also affect the child window, as follows.
 
@@ -91,7 +95,7 @@ The system always positions a child window relative to the upper left corner of 
 
  
 
-### Clipping
+#### Clipping
 
 The system does not automatically clip a child window from the parent window's client area. This means the parent window draws over the child window if it carries out any drawing in the same location as the child window. However, the system does clip the child window from the parent window's client area if the parent window has the [**WS\_CLIPCHILDREN**](window-styles.md) style. If the child window is clipped, the parent window cannot draw over it.
 
@@ -99,7 +103,7 @@ A child window can overlap other child windows in the same client area. A child 
 
 If a window has either the [**WS\_CLIPCHILDREN**](window-styles.md) or **WS\_CLIPSIBLINGS** style, a slight loss in performance occurs. Each window takes up system resources, so an application should not use child windows indiscriminately. For best performance, an application that needs to logically divide its main window should do so in the window procedure of the main window rather than by using child windows.
 
-### Relationship to Parent Window
+#### Relationship to Parent Window
 
 An application can change the parent window of an existing child window by calling the [**SetParent**](https://msdn.microsoft.com/library/ms633541(v=VS.85).aspx) function. In this case, the system removes the child window from the client area of the old parent window and moves it to the client area of the new parent window. If **SetParent** specifies a **NULL** handle, the desktop window becomes the new parent window. In this case, the child window is drawn on the desktop, outside the borders of any other window. The [**GetParent**](https://msdn.microsoft.com/library/ms633510(v=VS.85).aspx) function retrieves a handle to a child window's parent window.
 
@@ -109,7 +113,7 @@ A child window has only one parent window, but a parent can have any number of c
 
 The [**EnumChildWindows**](https://msdn.microsoft.com/library/ms633494(v=VS.85).aspx) function enumerates the child windows of a parent window. Then, **EnumChildWindows** passes the handle to each child window to an application-defined callback function. Descendant windows of the given parent window are also enumerated.
 
-### Messages
+#### Messages
 
 The system passes a child window's input messages directly to the child window; the messages are not passed through the parent window. The only exception is if the child window has been disabled by the [**EnableWindow**](https://msdn.microsoft.com/library/ms646291(v=VS.85).aspx) function. In this case, the system passes any input messages that would have gone to the child window to the parent window instead. This permits the parent window to examine the input messages and enable the child window, if necessary.
 
