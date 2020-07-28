@@ -3,7 +3,7 @@ Description: The ALLUSERS property configures the installation context of the pa
 ms.assetid: 942e7764-a80f-4880-9559-72174f1827f7
 title: ALLUSERS property
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/27/2020
 ---
 
 # ALLUSERS property
@@ -23,6 +23,18 @@ The value of the **ALLUSERS** property, at installation time, determines the [in
     **Windows XP:** Set the **ALLUSERS** property to 2 and Windows Installer performs a per-user installation if the user has user access privileges.
 
 -   If the value of the **ALLUSERS** property does not equal 2, the Windows Installer ignores the value of the [**MSIINSTALLPERUSER**](msiinstallperuser.md) property.
+
+## Example
+
+```xml
+  <!-- Disallow user from installing for all users -->
+    <Property Id="ALLUSERS" Secure="yes"/>
+    <Condition Message="Setting the ALLUSERS property is not allowed because [ProductName] is a per-user application. Setup will now exit.">
+      NOT ALLUSERS
+    </Condition>
+```
+
+Example from [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/DesktopToasts/CPP/Product.wxs) on GitHub.
 
 ## Default Value
 
