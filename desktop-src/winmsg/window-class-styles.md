@@ -3,10 +3,31 @@ Description: The following are the window class styles.
 ms.assetid: BE908D51-25DD-45d0-B6AA-28B4C627715B
 title: Window Class Styles (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/29/2020
 ---
 
 # Window Class Styles
+
+The class styles define additional elements of the window class. Two or more styles can be combined by using the bitwise OR (\|) operator. To assign a style to a window class, assign the style to the **style** member of the [**WNDCLASSEX**](https://msdn.microsoft.com/library/ms633577(v=VS.85).aspx) structure.
+
+## Example
+
+```cpp
+    WNDCLASS wc = {};
+    wc.lpfnWndProc = s_DropDownWndProc;
+    wc.cbWndExtra = sizeof(CTipACDialog *);
+    wc.hInstance = g_hInstance;
+    wc.hCursor = LoadCursor(NULL, IDC_ARROW);
+    wc.hbrBackground = (HBRUSH)(COLOR_WINDOW + 1);
+    wc.style = CS_SAVEBITS | CS_DROPSHADOW;
+    wc.lpszClassName = s_wzClassName;
+    RegisterClass(&wc);
+```
+
+Example from [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/tabletpc/TipAutoComplete/TIPAutoCompleteSDKSample.cpp) on GitHub.
+
+## Constants
+
 
 The following are the window class styles.
 
