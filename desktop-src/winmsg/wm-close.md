@@ -43,6 +43,33 @@ Type: **LRESULT**
 
 If an application processes this message, it should return zero.
 
+## Example
+
+```cpp
+LRESULT CALLBACK WindowProc(
+    __in HWND hWindow,
+    __in UINT uMsg,
+    __in WPARAM wParam,
+    __in LPARAM lParam)
+{
+    switch (uMsg)
+    {
+    case WM_CLOSE:
+        DestroyWindow(hWindow);
+        break;
+    case WM_DESTROY:
+        PostQuitMessage(0);
+        break;
+    default:
+        return DefWindowProc(hWindow, uMsg, wParam, lParam);
+    }
+
+    return 0;
+}
+```
+Example from [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/RadialController/cpp/RadialController.cpp) on GitHub.
+
+
 ## Remarks
 
 An application can prompt the user for confirmation, prior to destroying a window, by processing the **WM\_CLOSE** message and calling the [**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx) function only if the user confirms the choice.
