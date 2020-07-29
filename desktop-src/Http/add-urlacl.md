@@ -85,7 +85,7 @@ Specifies the SDDL string that describes the DACL.
  
 ## See Also
 
-* [Netsh http commands](https://docs.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-http#add-urlacl)
+* [Netsh http commands](https://docs.microsoft.com/windows-server/networking/technologies/netsh/netsh-http#add-urlacl)
  
 
 
