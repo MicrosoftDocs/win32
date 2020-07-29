@@ -30,6 +30,13 @@ The **malloc** function has the disadvantage of being run-time dependent. The **
 
 The [**CoTaskMemAlloc**](https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx) function has the advantage of working well in either C, C++, or Visual Basic. It is also the only way to share memory in a COM-based application, since MIDL uses **CoTaskMemAlloc** and [**CoTaskMemFree**](https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx) to marshal memory.
 
+
+## Examples
+
+* [Reserving and Committing Memory](https://docs.microsoft.com/windows/win32/memory/reserving-and-committing-memory)
+
+* [AWE Example](https://docs.microsoft.com/windows/win32/memory/awe-example)
+
 ## Related topics
 
 <dl> <dt>
