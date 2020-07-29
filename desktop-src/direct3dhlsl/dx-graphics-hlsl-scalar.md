@@ -11,12 +11,11 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/29/2020
 ---
 
 # Scalar Types
 
-## 
 
 HLSL supports several scalar data types:
 
@@ -75,18 +74,31 @@ For example, here is a 4-component signed-normalized float-variable declaration.
 
 HLSL also supports a **string** type, which is an ASCII string. There are no operations or states that accept strings, but effects can query string parameters and annotations.
 
+## Example
+
+```c
+// top-level variable
+float globalShaderVariable; 
+
+// top-level function
+void function(
+in float4 position: POSITION0 // top-level argument
+              )
+{
+  float localShaderVariable; // local variable
+  function2(...)
+}
+
+void function2()
+{
+  ...
+}
+```
+
 ## See also
 
-<dl> <dt>
-
-[Data Types (DirectX HLSL)](dx-graphics-hlsl-data-types.md)
-</dt> </dl>
-
- 
-
- 
 
 
-
-
+* [Declaring Scalar Types](https://docs.microsoft.com/windows/win32/direct3dhlsl/dx-graphics-hlsl-writing-shaders-9#declaring-shader-variables)
+* [Data Types (DirectX HLSL)](dx-graphics-hlsl-data-types.md)
 
