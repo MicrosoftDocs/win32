@@ -36,13 +36,39 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/29/2020
 ---
 
 # Standard Clipboard Formats
 
 The clipboard formats defined by the system are called *standard clipboard formats*. These clipboard formats are described in the following table.
 
+## Example
+
+```cpp
+  case CF_BITMAP:
+        hdcMem = CreateCompatibleDC(hdc);
+        if (hdcMem != NULL)
+        {
+            if (OpenClipboard(hwnd))
+            {
+                hbm = (HBITMAP) 
+                     GetClipboardData(uFormat);
+                SelectObject(hdcMem, hbm);
+                GetClientRect(hwnd, &rc);
+ 
+                BitBlt(hdc, 0, 0, rc.right, rc.bottom,
+                    hdcMem, 0, 0, SRCCOPY);
+                CloseClipboard();
+             }
+             DeleteDC(hdcMem);
+        }
+    break;
+```
+
+Full example is on [Using Clipboards](using-the-clipboard.md).
+
+## Constants
 
 
 | Constant/value                                                                                                                                                                                                                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
