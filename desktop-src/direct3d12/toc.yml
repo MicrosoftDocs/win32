@@ -230,6 +230,10 @@
           href: gpu-tensorflow-wsl.md
         - name: "Enable TensorFlow with DirectML on Windows"
           href: gpu-tensorflow-windows.md
+        - name: "FAQ for TensorFlow in DirectML on Windows"
+          href: gpu-faq.md
+        - name: "Release notes for TensorFlow in DirectML on Windows"
+          href: gpu-release-notes.md
       - name: "Helper functions"
         href: dml-helper-functions.md
       - name: "Sample applications"
