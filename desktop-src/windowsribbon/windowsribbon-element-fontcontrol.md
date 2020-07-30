@@ -25,7 +25,7 @@ Represents a [Font Control](windowsribbon-controls-fontcontrol.md), which is a s
 <FontControl
   CommandName = "xs:positiveInteger or xs:string"
   FontType = "xs:string"
-  IsGrowShrinkButtonGroupVisible = "xs:string"
+  IsGrowShrinkButtonGroupVisible = "Boolean"
   IsStrikethroughButtonVisible = "Boolean"
   IsUnderlineButtonVisible = "Boolean"
   IsHighlightButtonVisible = "Boolean"
@@ -121,7 +121,7 @@ This control is displayed by default and cannot be hidden by setting the <em>IsH
 </tr>
 <tr class="odd">
 <td><strong>IsGrowShrinkButtonGroupVisible</strong><br/></td>
-<td>xs:string<br/></td>
+<td>Boolean<br/></td>
 <td>No<br/></td>
 <td><strong>Windows 8 and newer</strong><br/> Restricted to one of the following values: <br/>
 <blockquote>
