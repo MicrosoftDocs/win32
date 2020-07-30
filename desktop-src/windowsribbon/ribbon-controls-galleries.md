@@ -254,69 +254,46 @@ A *CommandId* attribute used to bind a Command to a Command handler when the mar
 ```XML
 
 <!-- DropDownGallery -->
-<Command Name=&quot;cmdDropDownGalleryGroup&quot;
-         Symbol=&quot;cmdDropDownGalleryGroup&quot;
-         Comment=&quot;DropDownGallery Group&quot;
-         LabelTitle=&quot;DropDownGallery&quot;/>
-<Command Name=&quot;cmdDropDownGallery&quot;
-         Symbol=&quot;cmdDropDownGallery&quot;
-         Comment=&quot;DropDownGallery&quot;
-         LabelTitle=&quot;DropDownGallery&quot;/>
+<Command Name="cmdDropDownGalleryGroup"
+         Symbol="cmdDropDownGalleryGroup"
+         Comment="DropDownGallery Group"
+         LabelTitle="DropDownGallery"/>
+<Command Name="cmdDropDownGallery"
+         Symbol="cmdDropDownGallery"
+         Comment="DropDownGallery"
+         LabelTitle="DropDownGallery"/>
 ```
 
 
 
-<span codelanguage="XML"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>XML</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code><!-- InRibbonGallery -->
-<Command Name=&quot;cmdInRibbonGalleryGroup&quot;
-         Symbol=&quot;cmdInRibbonGalleryGroup&quot;
-         Comment=&quot;InRibbonGallery Group&quot;
-         LabelTitle=&quot;InRibbonGallery&quot;/>
-<Command Name=&quot;cmdInRibbonGallery&quot;
-         Symbol=&quot;cmdInRibbonGallery&quot;
-         Comment=&quot;InRibbonGallery&quot;
-         LabelTitle=&quot;InRibbonGallery&quot;/></code></pre></td>
-</tr>
-</tbody>
-</table>
+```XML
 
-<span codelanguage="XML"></span>
+<!-- InRibbonGallery -->
+<Command Name="cmdInRibbonGalleryGroup"
+         Symbol="cmdInRibbonGalleryGroup"
+         Comment="InRibbonGallery Group"
+         LabelTitle="InRibbonGallery"/>
+<Command Name="cmdInRibbonGallery"
+         Symbol="cmdInRibbonGallery"
+         Comment="InRibbonGallery"
+         LabelTitle="InRibbonGallery"
+```
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>XML</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code><!-- SplitButtonGallery -->
-<Command Name=&quot;cmdSplitButtonGalleryGroup&quot;
-         Symbol=&quot;cmdSplitButtonGalleryGroup&quot;
-         Comment=&quot;SplitButtonGallery Group&quot;
-         LabelTitle=&quot;SplitButtonGallery&quot;/>
-<Command Name=&quot;cmdSplitButtonGallery&quot;
-         Symbol=&quot;cmdSplitButtonGallery&quot;
-         Comment=&quot;SplitButtonGallery&quot;
-         LabelTitle=&quot;SplitButtonGallery&quot;/></code></pre></td>
-</tr>
-</tbody>
-</table>
+
+
+```XML
+
+<!-- SplitButtonGallery -->
+<Command Name="cmdSplitButtonGalleryGroup"
+         Symbol="cmdSplitButtonGalleryGroup"
+         Comment="SplitButtonGallery Group"
+         LabelTitle="SplitButtonGallery"/>
+<Command Name="cmdSplitButtonGallery"
+         Symbol="cmdSplitButtonGallery"
+         Comment="SplitButtonGallery"
+         LabelTitle="SplitButtonGallery"
+```
 
 
 

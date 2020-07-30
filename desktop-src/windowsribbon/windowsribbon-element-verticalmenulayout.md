@@ -59,7 +59,7 @@ Represents a vertical layout for items in a gallery.
 <td><strong>IsMultipleHighlightingEnabled</strong><br/></td>
 <td>xs:boolean<br/></td>
 <td>No<br/></td>
-<td><strong>Windows 8 and newer</strong><br/> Highlights all items in the list up to, and including, the current mouseover item (instead of the mouseover item only). Typically used for mutliple <strong>Undo</strong> and <strong>Redo</strong> functionality.<br/> <br/>
+<td><strong>Windows 8 and newer</strong><br/> Highlights all items in the list up to, and including, the current mouseover item (instead of the mouseover item only). Typically used for multiple <strong>Undo</strong> and <strong>Redo</strong> functionality.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true)<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (false)<br/> </dt> <dd> Default. <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">

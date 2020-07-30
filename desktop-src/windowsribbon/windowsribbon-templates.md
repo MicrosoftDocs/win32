@@ -185,32 +185,25 @@ Eight button-family controls (alternate presentation).<br/>
 > [!Note]  
 > All control elements declared with this template must be contained in two [**ControlGroup**](windowsribbon-element-controlgroup.md) elements: one for the first five elements and one for the last three elements.
 
-<br/> The following example demonstrates the markup required for this template.<br/> <span codelanguage=""></span>
+<br/> The following example demonstrates the markup required for this template.<br/>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><pre><code><Group CommandName=&quot;cmdSizeDefinitionsGroup&quot; 
-       SizeDefinition=&quot;EightButtons-LastThreeSmall&quot;>
+```
+<Group CommandName="cmdSizeDefinitionsGroup" 
+       SizeDefinition="EightButtons-LastThreeSmall">
   <ControlGroup>
-    <Button CommandName=&quot;cmdSDButton1&quot; />
-    <Button CommandName=&quot;cmdSDButton2&quot; />
-    <Button CommandName=&quot;cmdSDButton3&quot; />
-    <Button CommandName=&quot;cmdSDButton4&quot; />
-    <Button CommandName=&quot;cmdSDButton5&quot; />
+    <Button CommandName="cmdSDButton1" />
+    <Button CommandName="cmdSDButton2" />
+    <Button CommandName="cmdSDButton3" />
+    <Button CommandName="cmdSDButton4" />
+    <Button CommandName="cmdSDButton5" />
   </ControlGroup>
   <ControlGroup>
-    <Button CommandName=&quot;cmdSDButton6&quot; />
-    <Button CommandName=&quot;cmdSDButton7&quot; />
-    <Button CommandName=&quot;cmdSDButton8&quot; />
+    <Button CommandName="cmdSDButton6" />
+    <Button CommandName="cmdSDButton7" />
+    <Button CommandName="cmdSDButton8" />
   </ControlGroup>
-</Group></code></pre></td>
-</tr>
-</tbody>
-</table>
+</Group>
+```
 
 
 
