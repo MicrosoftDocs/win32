@@ -30,6 +30,11 @@ For information about using this function with a specific SSP, see the following
 ## Syntax
 
 ```C++
+SECURITY_STATUS SEC_Entry EncryptMessage(
+  _In_    PCtxtHandle    phContext,
+  _In_    ULONG          fQOP,
+  _Inout_ PSecBufferDesc pMessage,
+  _In_    ULONG          MessageSeqNo
 );
 ```
 ## Parameters
