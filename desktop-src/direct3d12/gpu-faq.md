@@ -7,14 +7,14 @@ ms.date: 07/30/2020
 
 # FAQ
 
-## Q: How do I enable DirectML acceleration? 
+### Q: How do I enable DirectML acceleration? 
 
  
 The DirectML device is enabled by default, assuming you have an appropriate DirectX 12 GPU available. TensorFlow operations will automatically be assigned to the DirectML device if possible. 
 
 If you're having trouble determining whether your model is running using DirectML acceleration or not, you can put `tf.debugging.set_log_device_placement(True)` as the first statement of your program and TensorFlow will print device placement information to the console.
 
-## Q: How do I control device placement of specific operations? 
+### Q: How do I control device placement of specific operations? 
  
 
 As with any other device (see [TensorFlow Guide: Use a GPU](https://www.tensorflow.org/guide/gpu)), you can use `tf.device()` to control which device to run on. 
@@ -59,16 +59,16 @@ tf.Tensor([5. 7. 9.], shape=(3,), dtype=float32)
 ``` 
 
 
-## Q: I have multiple GPUs. How do I select which one is used by DirectML? 
- 
+### Q: I have multiple GPUs. How do I select which one is used by DirectML? 
+
 
 There are a couple of different ways to do this, depending on whether you want to control it process-wide or per-session (or both). 
 
 
 If you want to control which devices are visible to TensorFlow process-wide, use the `DML_VISIBLE_DEVICES` environment variable. If you want to control it on a per-session basis, use tf.GPUOptions.visible_device_list. 
 
- 
-## Q: How do I use the `DML_VISIBLE_DEVICES` environment variable to control which GPU(s) get used by DirectML? 
+
+### Q: How do I use the `DML_VISIBLE_DEVICES` environment variable to control which GPU(s) get used by DirectML? 
 
  
 TensorFlow with DirectML supports a `DML_VISIBLE_DEVICES` environment variable, which takes the form of a comma-separated list of device IDs (also known as "adapter indices".) When set, only the device IDs in that list will be visible to TensorFlow process-wide. Devices excluded using `DML_VISIBLE_DEVICES` will not appear in the list of physical devices available to TensorFlow. 
@@ -164,8 +164,7 @@ tf.Tensor([3.], shape=(1,), dtype=float32)
 
 ``` 
 
-
-## Q: How do I use the `visible_device_list` session option to control which GPU(s) DirectML uses to run the session? 
+### Q: How do I use the `visible_device_list` session option to control which GPU(s) DirectML uses to run the session? 
 
 
 Similar to `DML_VISIBLE_DEVICES`, you can also set a similar string to control visible devices at a session level. The `visible_device_list` attribute is available on the `GPUOptions` class when creating your TensorFlow session. 
