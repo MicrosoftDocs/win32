@@ -32,9 +32,9 @@ For information about using this function with a specific [*security support pro
 
 ```C++
 SECURITY_STATUS SEC_ENTRY QueryContextAttributes(
-    _In_  PCtxtHandle phContext,              // Context to query
-    _In_  unsigned long ulAttribute,          // Attribute to query
-    _Out_ void * pBuffer              // Buffer for attributes
+  _In_  PCtxtHandle phContext,
+  _In_  ULONG       ulAttribute,
+  _Out_ PVOID       pBuffer
 );
 ```
 
