@@ -13,7 +13,7 @@ Record TraceLogging events with the Windows Performance Recorder (WPR) and view 
 ## Prerequisites
 
 -   Windows 10
--   The Windows 10 version of Windows Performance Recorder (WPR), and the Windows 10 version of Windows Performance Analyzer (WPA) which is art of the Windows® Assessment and Deployment Kit (Windows ADK).
+-   The Windows 10 version of Windows Performance Recorder (WPR), and the Windows 10 version of Windows Performance Analyzer (WPA) which is part of the Windows® Assessment and Deployment Kit (Windows ADK).
 
 > [!IMPORTANT]
 > Traces captured with TraceLogging must be captured with the Windows 10 version of Windows Performance Recorder and viewed with the Windows 10 version of Windows Performance Analyzer. If you are unable to capture or decode your events, verify that you are using the Windows 10 version of the tools.
