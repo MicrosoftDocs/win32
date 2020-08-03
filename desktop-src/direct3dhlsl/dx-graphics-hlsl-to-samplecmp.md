@@ -15,8 +15,6 @@ api_location:
 
 Samples a texture and compares a single component against the specified comparison value.
 
-
-
 <table>
 <tbody>
 <tr class="odd">
@@ -28,14 +26,11 @@ float CompareValue,<br />
 </tr>
 </tbody>
 </table>
-
-
-
  
 
-The comparison is a single component comparison between the first component stored in the texture, and the comparison value passed into the method.
+The comparison is a single-component comparison between the first component stored in the texture, and the comparison value passed into the method.
 
-This method can be invoked only from a pixel shader; it is not supported in a vertex or geometry shader.
+This method can be invoked only from a pixel shader; it isn't supported in a vertex or geometry shader.
 
 ## Parameters
 
@@ -60,18 +55,12 @@ Any [texture-object](dx-graphics-hlsl-to-type.md) type (except Texture2DMS, Text
 
 \[in\] The texture coordinates. The argument type is dependent on the texture-object type.
 
-
-
 | Texture-Object Type          | Parameter Type |
 |------------------------------|----------------|
 | Texture1D                    | float          |
 | Texture1DArray, Texture2D    | float2         |
 | Texture2DArray¹, TextureCube | float3         |
 | TextureCubeArray¹            | float4         |
-
-
-
- 
 
 </dd> <dt>
 
@@ -87,23 +76,17 @@ A floating-point value to use as a comparison value.
 
 \[in\] An optional texture coordinate offset, which can be used for any texture-object types. The offset is applied to the location before sampling. The argument type is dependent on the texture-object type. For more info, see [Applying Integer Offsets](dx-graphics-hlsl-to-sample.md).
 
-
-
 | Texture-Object Type            | Parameter Type |
 |--------------------------------|----------------|
 | Texture1D, Texture1DArray      | int            |
 | Texture2D, Texture2DArray¹     | int2           |
-| TextureCube, TextureCubeArray¹ | int3           |
-
-
-
- 
+| TextureCube, TextureCubeArray¹ | Not supported  |
 
 </dd> </dl>
 
 ## Return Value
 
-Returns a floating point value in the range \[0..1\].
+Returns a floating-point value in the range \[0..1\].
 
 For each texel fetched (based on the sampler configuration of the filter mode), **SampleCmp** performs a comparison of the z value (3rd component of input) from the shader against the texel value (1 if the comparison passes; otherwise 0). **SampleCmp** then blends these 0 and 1 results for each texel together as in normal texture filtering (not an average) and returns the resulting \[0..1\] value to the shader.
 
@@ -117,35 +100,16 @@ When using this method on a floating-point resource (Instead of a signed-normali
 
 This function is supported in the following shader models.
 
-
-
 | vs\_4\_0 | vs\_4\_1² | ps\_4\_0 | ps\_4\_1² | gs\_4\_0 | gs\_4\_1² |
 |----------|-----------|----------|-----------|----------|-----------|
 |          |           | x¹       | x         |          |           |
 
-
-
- 
-
 1.  Texture2DArray and TextureCubeArray are available in Shader Model 4.1 or higher.
 2.  Shader Model 4.1 is available in Direct3D 10.1 or higher.
 
-> [!Note]  
-> **SampleCmp** is also available in ps 4\_0\_level\_9\_1 and 4\_0\_level\_9\_3 when you use the techniques that are described in [Implementing shadow buffers for Direct3D feature level 9](https://docs.microsoft.com/previous-versions/windows/apps/jj262110(v=win.10)).
-
- 
+> [!NOTE]  
+> **SampleCmp** is also available in ps 4\_0\_level\_9\_1 and 4\_0\_level\_9\_3 when you use the techniques that are described in [Implementing shadow buffers for Direct3D feature level 9](/previous-versions/windows/apps/jj262110(v=win.10)).
 
 ## Related topics
 
-<dl> <dt>
-
 [Texture-Object](dx-graphics-hlsl-to-type.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
