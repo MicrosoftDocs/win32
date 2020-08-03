@@ -80,7 +80,7 @@ A floating-point value to use as a comparison value.
 |--------------------------------|----------------|
 | Texture1D, Texture1DArray      | int            |
 | Texture2D, Texture2DArray¹     | int2           |
-| TextureCube, TextureCubeArray¹ | Not Supported  |
+| TextureCube, TextureCubeArray¹ | Not supported  |
 
 </dd> </dl>
 
