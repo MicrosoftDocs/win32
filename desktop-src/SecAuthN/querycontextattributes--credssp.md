@@ -15,6 +15,10 @@ The **QueryContextAttributes (CredSSP)** function lets a transport application q
 
 
 ```C++
+SECURITY_STATUS SEC_ENTRY QueryContextAttributes(
+  _In_  PCtxtHandle phContext,
+  _In_  ULONG       ulAttribute,
+  _Out_ PVOID       pBuffer
 );
 ```
 
