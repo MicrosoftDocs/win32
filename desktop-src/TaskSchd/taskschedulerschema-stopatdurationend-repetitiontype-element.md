@@ -18,6 +18,7 @@ api_location:
 # StopAtDurationEnd (repetitionType) Element
 
 Specifies that a running instances of the task is stopped at the end of the repetition pattern duration.
+This is applicable only if repetitions are set.
 
 ``` syntax
 <xs:element name="StopAtDurationEnd"
