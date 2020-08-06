@@ -1,6 +1,6 @@
 ---
 title: EAPHost Supplicant Structures
-description: EAPHost Supplicant Structures
+description: Learn about the EAPHost Supplicant API structures, such as EAP\_CRED\_REQ and EAP\_METHOD\_PROPERTY\_ARRAY.
 ms.assetid: 77595f36-140d-4d8e-af8e-63e9de0031c4
 ms.topic: article
 ms.date: 05/31/2018

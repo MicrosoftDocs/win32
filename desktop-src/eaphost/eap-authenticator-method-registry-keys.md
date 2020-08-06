@@ -1,6 +1,6 @@
 ---
 title: EAP Authenticator Method Registry Values
-description: Specific registry values are required for EAP authenticator methods.
+description: Learn about EAP Authenticator method registry values. These specific registry values are required for EAP authenticator methods.
 ms.assetid: 9374f9f7-b088-4e3a-ac96-8ccbeda87bb7
 ms.topic: article
 ms.date: 05/31/2018

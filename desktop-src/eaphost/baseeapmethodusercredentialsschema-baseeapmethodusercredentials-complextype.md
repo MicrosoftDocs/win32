@@ -1,6 +1,6 @@
 ---
 title: BaseEapMethodUserCredentials Complex Type
-description: Is a placeholder element for method credential data.
+description: Learn about the BaseEapMethodUserCredentials complex type. This type is a placeholder element for method credential data.
 ms.assetid: ebbf813d-657a-4ff2-acf2-c18ce694b564
 keywords:
 - BaseEapMethodUserCredentials complex type EAPHost

@@ -1,6 +1,6 @@
 ---
 title: EnableQuarantineChecks (EapType) Element
-description: Indicates whether to perform Network Access Protection (NAP) checks.
+description: Learn about the EnableQuarantineChecks (EapType) element. This element indicates whether to perform Network Access Protection (NAP) checks.
 ms.assetid: bd5c7efc-f857-4e21-9cd8-0a1cbe5a87d8
 keywords:
 - EnableQuarantineChecks element EAPHost

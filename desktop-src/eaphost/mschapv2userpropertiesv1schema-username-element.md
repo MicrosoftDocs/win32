@@ -1,6 +1,6 @@
 ---
 title: Username Element
-description: Identifies the user being authenticated.
+description: Learn about the Username element, which identifies the user that is being authenticated. See a syntax example and view additional available resources.
 ms.assetid: 3dd12864-5e0a-492c-a2c3-28118d21a0f2
 keywords:
 - Username element EAPHost
