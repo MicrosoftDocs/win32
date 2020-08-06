@@ -36,13 +36,13 @@ HRESULT hr;
 IBackgroundCopyJob* pJob;
 IBackgroundCopyJob2* pJob2 = NULL;
 WCHAR szJobId[48];
-WCHAR *pProgram = L"c:\\PATHHERE\\PROGRAMNAMEHERE.exe";
+const WCHAR *pProgram = L"c:\\PATHHERE\\PROGRAMNAMEHERE.exe";
 WCHAR szParameters[MAX_PARAMETER_LEN+1];
 GUID JobId;
 int rc;
 
 hr = pJob->GetId(&JobId);
-if (SUCCEEDED(hr)
+if (SUCCEEDED(hr))
 {
   rc = StringFromGUID2(JobId, szJobId, ARRAYSIZE(szJobId));
   if (rc)
@@ -55,7 +55,7 @@ if (SUCCEEDED(hr)
       hr = pJob->SetNotifyFlags(BG_NOTIFY_JOB_TRANSFERRED);
     }
     pJob2->Release();
-    if (FAILED(hr)
+    if (FAILED(hr))
     {
       //Handle error - unable to register for command line notification.
     }
