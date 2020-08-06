@@ -1,6 +1,6 @@
 ---
 title: EapBlob Complex Type
-description: Is not in use.
+description: Learn about the EapBlob complex type, which is not in use. See requirements and view additional available resources.
 ms.assetid: 6333daed-15f0-464d-848e-8c84a7ba16fa
 keywords:
 - EapBlob complex type EAPHost

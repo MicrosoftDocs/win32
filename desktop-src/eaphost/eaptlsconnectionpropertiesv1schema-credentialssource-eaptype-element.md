@@ -1,6 +1,6 @@
 ---
 title: CredentialsSource (EapType) Element
-description: Contains information about the location of the EAP-TLS certificate.
+description: Learn about the CredentialsSource (EapType) element. This element contains information about the location of the EAP-TLS certificate.
 ms.assetid: 6ef48e5e-7c71-472f-ab01-0a43a97ecd96
 keywords:
 - CredentialsSource element EAPHost

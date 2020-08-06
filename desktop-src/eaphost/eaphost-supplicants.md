@@ -1,6 +1,6 @@
 ---
 title: EAPHost Supplicants
-description: Describes the behavior of EAPHost supplicants.
+description: "Learn about the behavior of EAPHost supplicants. See topics like 'How to configure the supplicant by supplying an EAP method configuration to EAPHost'."
 ms.assetid: 843f3ada-9694-4d96-b835-41d0ccf24b68
 ms.topic: article
 ms.date: 05/31/2018

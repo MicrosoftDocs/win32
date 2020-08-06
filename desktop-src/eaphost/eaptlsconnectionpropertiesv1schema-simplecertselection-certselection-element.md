@@ -1,6 +1,6 @@
 ---
 title: SimpleCertSelection (CertSelection) Element
-description: Determines how the user selects a certificate.
+description: Learn about the SimpleCertSelection (CertSelection) element. This element determines how the user selects a certificate.
 ms.assetid: 28454877-fd07-4b47-9544-f2b4e91c6651
 keywords:
 - SimpleCertSelection element EAPHost
