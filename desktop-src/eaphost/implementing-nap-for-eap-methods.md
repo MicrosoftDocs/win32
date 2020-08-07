@@ -1,6 +1,6 @@
 ---
 title: Implementing NAP Support for EAP Methods
-description: Explains how to implement NAP for an EAPHost supplicant.
+description: Learn how to implement NAP support for an EAPHost supplicant. See EAPHost-related NAP topics and view additional available resources.
 ms.assetid: c25e4f03-759a-47a7-8b35-bbe669501c5c
 ms.topic: reference
 ms.date: 05/31/2018

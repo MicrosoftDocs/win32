@@ -1,6 +1,6 @@
 ---
 title: mspeapconnectionpropertiesv1 Schema Elements
-description: Consists of the following schema elements.
+description: Learn about the mspeapconnectionpropertiesv1 schema elements. See a list of the schema elements and view additional available resources.
 ms.assetid: 33459529-1267-47dd-8970-1ddde6dccfa4
 ms.topic: article
 ms.date: 05/31/2018

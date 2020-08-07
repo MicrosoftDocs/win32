@@ -1,6 +1,6 @@
 ---
 title: baseeapuserpropertiesv1 Schema Elements
-description: Is made up of the following schema elements.
+description: Learn about the baseeapuserpropertiesv1 schema elements. These elements are Eap, EapType, Identity, and Type (BaseEapParameters).
 ms.assetid: 469a3015-a082-44cd-9c88-70a5e0b2606c
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,6 +1,6 @@
 ---
 title: baseeapconnectionpropertiesv1 Schema Complex Types
-description: Is defines the following complex types.
+description: Learn about the baseeapconnectionpropertiesv1 schema. This schema defines the BaseEapParameters and BaseEapTypeParameters complex types.
 ms.assetid: 536dbc56-1811-4b51-95ee-cf1e3f4b0a2d
 ms.topic: article
 ms.date: 05/31/2018
@@ -13,7 +13,7 @@ api_location:
 
 # baseeapconnectionpropertiesv1 Schema Complex Types
 
-The baseeapconnectionpropertiesv1 schema is defines the following complex types.
+The baseeapconnectionpropertiesv1 schema defines the following complex types.
 
 -   [**BaseEapParameters**](baseeapconnectionpropertiesv1schema-baseeapparameters-complextype.md)
 -   [**BaseEapTypeParameters**](baseeapconnectionpropertiesv1schema-baseeaptypeparameters-complextype.md)
