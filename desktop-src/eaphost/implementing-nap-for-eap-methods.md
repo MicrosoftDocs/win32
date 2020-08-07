@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Implementing NAP Support for EAP Methods
 
-This topic explains how to implement NAP for an EAPHost supplicant. In Windows Vista and Windows Server 2008 a NAP Enforcement Client (NAP EC) is available for [802.1X](Http://go.microsoft.com/fwlink/p/?linkid=83938) authenticated connections.
+This topic explains how to implement NAP for an EAPHost supplicant. In Windows Vista and Windows Server 2008 a NAP Enforcement Client (NAP EC) is available for [802.1X](https://go.microsoft.com/fwlink/p/?linkid=83938) authenticated connections.
 
 ## Implementing Network Access Protection (NAP)
 
@@ -40,9 +40,9 @@ For EAPHost API related NAP information refer to the following topics.
 
 ## Additional Resources
 
--   For a list of NAP resources, see [Network Access Protection](Http://go.microsoft.com/fwlink/p/?linkid=84107).
--   For Statement of Health information, see [Network Access Protection (NAP) Statement of Health (SoH) Messages](Http://go.microsoft.com/fwlink/p/?linkid=83918).
--   For the Enterprise Networking Group webpage and blog, see [Network Access Protection (NAP)](Http://go.microsoft.com/fwlink/p/?linkid=83845).
+-   For a list of NAP resources, see [Network Access Protection](https://go.microsoft.com/fwlink/p/?linkid=84107).
+-   For Statement of Health information, see [Network Access Protection (NAP) Statement of Health (SoH) Messages](https://go.microsoft.com/fwlink/p/?linkid=83918).
+-   For the Enterprise Networking Group webpage and blog, see [Network Access Protection (NAP)](https://go.microsoft.com/fwlink/p/?linkid=83845).
 -   For NAP API information, see [Network Access Protection](https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page).
 
 ## Related topics

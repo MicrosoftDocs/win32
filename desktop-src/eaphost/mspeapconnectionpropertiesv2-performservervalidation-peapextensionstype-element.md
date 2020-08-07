@@ -1,5 +1,5 @@
 ---
-title: PerformServerValidation (PeapExtensionsType) Element
+title: PerformServerValidation (PeapExtensionsType) Element (V2 schema)
 description: Learn about the PerformServerValidation (PeapExtensionsType) element. This element indicates whether server validation is performed.
 ms.assetid: a9c383d4-2582-47dd-bdf1-dd4e6c1689f7
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# PerformServerValidation (PeapExtensionsType) Element
+# PerformServerValidation (PeapExtensionsType) Element (V2 schema)
 
 The **PerformServerValidation (PeapExtensionsType)** element indicates whether server validation is performed.
 
@@ -36,10 +36,10 @@ The **PerformServerValidation** element is optional.
 
 
 
-|                                     |                                                         |
-|-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Role | Minimum OS version |
+|------|--------------------|
+| Client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
