@@ -117,7 +117,7 @@ if(CertGetNameString(
    pszNameString,   
    128))
 {
-   printf("\nCertificate for %s found.\n",pszNameString);
+   printf("\nCertificate for %ls found.\n",pszNameString);
 }
 else
 {
