@@ -16,7 +16,7 @@ Array declarators appear in the interface body of the IDL file as one of the fol
 -   A member of a structure or union declarator
 -   A parameter to a remote procedure call
 
-The bounds of each dimension of the array are expressed inside a separate pair of square brackets. An expression that evaluates to *n* signifies a lower bound of zero and an upper bound of *n*Â –Â 1. If the square brackets are empty or contain a single asterisk (\*), the lower bound is zero and the upper bound is determined at runtime.
+The bounds of each dimension of the array are expressed inside a separate pair of square brackets. An expression that evaluates to *n* signifies a lower bound of zero and an upper bound of *n - 1*. If the square brackets are empty or contain a single asterisk (\*), the lower bound is zero and the upper bound is determined at runtime.
 
 The array can also contain two values separated by an ellipsis that represent the lower and upper bounds of the array, as in \[*lower*...*upper*\]. Microsoft RPC requires a lower bound of zero. The MIDL compiler does not recognize constructs that specify nonzero lower bounds.
 
