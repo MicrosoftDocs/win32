@@ -1,6 +1,6 @@
 ---
 title: TLSExtensions
-description: Enables future enhancements to the schema.
+description: Learn about the TLSExtensions (EapType) element. This element enables future enhancements to the schema.
 ms.assetid: f968d91d-e226-44a9-98db-347cbedfa201
 keywords:
 - element EAPHost
@@ -38,10 +38,10 @@ The **TLSExtensions** element is optional.
 
 
 
-|                                     |                                                         |
+| Role | Minimum supported OS version |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 

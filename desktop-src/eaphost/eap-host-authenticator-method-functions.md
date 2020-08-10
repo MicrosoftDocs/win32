@@ -1,6 +1,6 @@
 ---
 title: EAPHost Authenticator Method Functions
-description: EAPHost Authenticator Method Functions
+description: Learn about EAPHost Authenticator Method API functions, such as EapMethodAuthenticatorFreeErrorMemory.
 ms.assetid: 319516ee-b21d-4375-8c90-e3abe0a457e8
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,6 +1,6 @@
 ---
 title: ServerValidation (EapType) Element
-description: Contains information about how to perform server validation.
+description: Learn about the ServerValidation (EapType) element. This element contains information about how to perform server validation.
 ms.assetid: 5b213853-7161-456c-bbba-d3b1118f1786
 keywords:
 - ServerValidation element EAPHost
@@ -36,10 +36,10 @@ The **ServerValidation** element is optional.
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

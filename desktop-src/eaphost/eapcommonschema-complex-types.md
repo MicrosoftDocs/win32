@@ -1,6 +1,6 @@
 ---
 title: eapcommon Schema Complex Types
-description: Defines the following complex types.
+description: Learn about the eapcommon schema complex types. The schema defines the EapBlob and EapMethodType complex types.
 ms.assetid: f6001c76-3716-4e90-8737-b815f4af21ae
 ms.topic: article
 ms.date: 05/31/2018
