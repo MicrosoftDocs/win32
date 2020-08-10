@@ -1,5 +1,5 @@
 ---
-title: PerformServerValidation
+title: PerformServerValidation (EapType)
 description: Learn about the PerformServerValidation element. This element indicates whether server validation is performed.
 ms.assetid: f6233bff-18e4-45b4-b598-839fa198f676
 keywords:
@@ -14,7 +14,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# PerformServerValidation
+# PerformServerValidation (EapType)
 
 The **PerformServerValidation (EapType)** element indicates whether server validation is performed.
 
@@ -36,10 +36,10 @@ The **PerformServerValidation** element is optional.
 
 
 
-|                                     |                                                         |
-|-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 

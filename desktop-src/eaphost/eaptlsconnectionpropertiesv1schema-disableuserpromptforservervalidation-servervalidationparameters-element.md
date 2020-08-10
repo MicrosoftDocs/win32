@@ -1,5 +1,5 @@
 ---
-title: DisableUserPromptForServerValidation (ServerValidationParameters) Element
+title: DisableUserPromptForServerValidation (ServerValidationParameters)
 description: Learn about the DisableUserPromptForServerValidation (ServerValidationParameters) element. It indicates whether the user should be asked for server validation.
 ms.assetid: d1c2f334-286b-4aac-b723-806b90fc7b1f
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# DisableUserPromptForServerValidation (ServerValidationParameters) Element
+# DisableUserPromptForServerValidation (ServerValidationParameters) element (TLS)
 
 The **DisableUserPromptForServerValidation (ServerValidationParameters)** element indicates whether the user should be asked for server validation.
 
@@ -36,10 +36,10 @@ The **DisableUserPromptForServerValidation** element is defined by the [**Server
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

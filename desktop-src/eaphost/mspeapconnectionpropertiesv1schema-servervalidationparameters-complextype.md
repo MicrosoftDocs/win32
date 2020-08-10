@@ -1,5 +1,5 @@
 ---
-title: ServerValidationParameters Complex Type
+title: ServerValidationParameters complex type (PEAP)
 description: Learn about the ServerValidationParameters complex type. This type contains information about how to perform server validation.
 ms.assetid: 65b3199c-9462-447b-b560-0713348f9130
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# ServerValidationParameters Complex Type
+# ServerValidationParameters complex type (PEAP)
 
 The **ServerValidationParameters** complex type contains information about how to perform server validation.
 
@@ -69,10 +69,10 @@ The **ServerValidationParameters** complex type contains information about how t
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: PeapExtensions (EapType) Element
+title: PeapExtensions (EapType) element (connection property)
 description: Learn about the PeapExtensions (EapType) element. This element enables future enhancements to the schema.
 ms.assetid: ced49bdc-7213-4a69-9feb-e62a513026b6
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# PeapExtensions (EapType) Element
+# PeapExtensions (EapType) element (connection property)
 
 The **PeapExtensions (EapType)** element enables future enhancements to the schema.
 
@@ -36,10 +36,10 @@ The **PeapExtensions** element is optional.
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
