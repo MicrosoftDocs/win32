@@ -12,8 +12,6 @@
       href: general-requirements-for-application-development.md
     - name: "About the Samples and Tools"
       href: about-the-samples.md
-    - name: "For More Information"
-      href: for-more-information.md
   - name: "About the Sensor API"
     href: about-the-sensor-api.md
     items: 
