@@ -1,5 +1,5 @@
 ---
-title: ServerValidation (EapType) Element
+title: ServerValidation (EapType) element (TLS)
 description: Learn about the ServerValidation (EapType) element. This element contains information about how to perform server validation.
 ms.assetid: f4ae1579-8c61-4187-8f5a-13aca3075af2
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# ServerValidation (EapType) Element
+# ServerValidation (EapType) element (TLS)
 
 The **ServerValidation (EapType)** element contains information about how to perform server validation.
 
