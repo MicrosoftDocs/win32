@@ -1,5 +1,5 @@
 ---
-title: Eap Element
+title: Eap element (user property)
 description: Learn about the Eap element. This element captures the method type selected and method-specific configuration.
 ms.assetid: 4adef133-1d18-444a-baa3-5419b8cbe298
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# Eap Element
+# Eap element (user property)
 
 The **Eap** element captures the method type selected and method-specific configuration.
 
@@ -34,10 +34,10 @@ The method can define the constituent elements inside the **Eap** element. The m
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

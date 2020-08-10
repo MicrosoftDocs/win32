@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following topics show sample XML properties for various network configurations. These XML properties use **EapHostConfig** and **Config** schema elements.
 
-For additional schema samples, refer to [EAP Schema](Http://go.microsoft.com/fwlink/p/?linkid=83914).
+For additional schema samples, refer to [EAP Schema](https://go.microsoft.com/fwlink/p/?linkid=83914).
 
 -   [EAP MS-CHAPv2 Connection Properties](eap-ms-chapv2-connection-properties.md)
 -   [EAP-TLS Connection Properties](eap-tls-connection-properties.md)
