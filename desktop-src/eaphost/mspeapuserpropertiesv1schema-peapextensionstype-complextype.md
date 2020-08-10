@@ -1,6 +1,6 @@
 ---
 title: PeapExtensionsType Complex Type
-description: Enables future enhancements to the schema.
+description: Learn about the PeapExtensionsType complex type. This type enables future enhancements to the schema.
 ms.assetid: d4f7784d-d426-4da6-bf81-40716f185416
 keywords:
 - PeapExtensionsType complex type EAPHost

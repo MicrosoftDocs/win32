@@ -1,6 +1,6 @@
 ---
 title: EapMethod (EapHostUserCredentials) Element
-description: Identifies the method being referred to.
+description: Learn about the EapMethod (EapHostUserCredentials) element. This element identifies the method being referred to.
 ms.assetid: 0a510f44-09ac-466e-a806-4e89909fe850
 keywords:
 - EapMethod element EAPHost

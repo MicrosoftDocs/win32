@@ -1,6 +1,6 @@
 ---
 title: Extensible Authentication Protocol Host
-description: .
+description: Learn about the Extensible Authentication Protocol (EAP) host. See run-time requirements and view additional available resources.
 ms.assetid: caaef367-2952-44fc-ac4c-f0db6387850e
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,6 +1,6 @@
 ---
 title: VendorType (EapMethodType) Element
-description: Is the vendor defined type for the method.
+description: Learn about the VendorType (EapMethodType) element. This element is the vendor defined type for the method.
 ms.assetid: baa43e60-05e2-43f9-bb38-896725be76b4
 keywords:
 - VendorType element EAPHost
