@@ -12,20 +12,12 @@ Sent when the user drops a file on the window of an application that has registe
 
 
 ```C++
-
-                PostMessage(
-
+PostMessage(
     (HWND) hWndControl,   // handle to destination control
-
     (UINT) WM_DROPFILES,  // message ID
-
     (WPARAM) wParam,      // = (WPARAM) (HDROP) hDrop;
-
     (LPARAM) lParam       // = 0; not used, must be zero 
-
-);
-
-            
+);          
 ```
 
 
