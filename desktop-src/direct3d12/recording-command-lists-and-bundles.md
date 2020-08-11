@@ -33,7 +33,11 @@ There are different restrictions for creating and executing bundles and direct c
 
 ## Creating command lists
 
-Direct command lists and bundles are created by calling [**ID3D12Device::CreateCommandList**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandlist). This method takes the following parameters as input:
+Direct command lists and bundles are created by calling [**ID3D12Device::CreateCommandList**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandlist) or [**ID3D12Device4::CreateCommandList1**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device4-createcommandlist1).
+
+Use [**ID3D12Device4::CreateCommandList1**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device4-createcommandlist1) to create a closed command list, rather than creating a new list and immediately closing it. This avoids the inefficiency of creating a list with an allocator and PSO but not using them.
+
+[**ID3D12Device::CreateCommandList**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandlist) takes the following parameters as input:
 
 ### D3D12\_COMMAND\_LIST\_TYPE
 
@@ -43,7 +47,7 @@ The [**D3D12\_COMMAND\_LIST\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_c
 
 A command allocator allows the app to manage the memory that is allocated for command lists. The command allocator is created by calling [**CreateCommandAllocator**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandallocator). When creating a command list, the command list type of the allocator, specified by [**D3D12\_COMMAND\_LIST\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_list_type), must match the type of command list being created. A given allocator can be associated with no more than one *currently recording* command list at a time, though one command allocator can be used to create any number of [**GraphicsCommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist) objects.
 
-To reclaim the memory allocated by a command allocator, an app calls [**ID3D12CommandAllocator::Reset**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandallocator-reset). But before doing so, the app must make sure that the GPU is no longer executing any command lists which are associated with the allocator; otherwise, the call will fail. Also, note that this API is not free-threaded and therefore can't be called on the same allocator at the same time from multiple threads.
+To reclaim the memory allocated by a command allocator, an app calls [**ID3D12CommandAllocator::Reset**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandallocator-reset). This allows the allocator to be reused for new commmands, but won't reduce its underlying size. But before doing so, the app must make sure that the GPU is no longer executing any command lists which are associated with the allocator; otherwise, the call will fail. Also, note that this API is not free-threaded and therefore can't be called on the same allocator at the same time from multiple threads.
 
 ### ID3D12PipelineState
 
@@ -53,14 +57,6 @@ Note that bundles don't inherit the pipeline state set by previous calls in dire
 
 If this parameter is NULL, a default state is used.
 
-### ID3D12DescriptorHeap
-
-The [**ID3D12DescriptorHeap**](/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap) allows command lists to bind resources to the graphics pipeline. Direct command lists must specify an initial descriptor heap, but may change the currently-bound descriptor heap inside the command list by calling [**ID3D12GraphicsCommandList::SetDescriptorHeap**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps).
-
-Specifying a descriptor heap at creation time is optional for bundles. If a descriptor heap is not specified, however, the application is not allowed to set any descriptor tables within that bundle. Either way, bundles are not permitted to change the descriptor heap within a bundle. If a heap is specified for a bundle, it must match the currently bound heap in the direct command list that is the calling parent.
-
-For more information, refer to [Descriptor Heaps](descriptor-heaps.md).
-
 ## Recording command lists
 
 Immediately after being created, command lists are in the recording state. You can also re-use an existing command list by calling I[**D3D12GraphicsCommandList::Reset**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset), which also leaves the command list in the recording state. Unlike [**ID3D12CommandAllocator::Reset**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandallocator-reset), you can call **Reset** while the command list is still being executed. A typical pattern is to submit a command list and then immediately reset it to reuse the allocated memory for another command list. Note that only one command list associated with each command allocator may be in a recording state at one time.
@@ -68,6 +64,16 @@ Immediately after being created, command lists are in the recording state. You c
 Once a command list is in the recording state, you simply call methods of the [**ID3D12GraphicsCommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist) interface to add commands to the list. Many of these methods enable common Direct3D functionality that will be familiar to Microsoft Direct3D 11 developers; other APIs are new for Direct3D 12.
 
 After adding commands to the command list, you transition the command list out of the recording state by calling [**Close**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close).
+
+Command allocators can grow but don't shrink - pooling and reusing allocators should be considered to maximise your app's efficiency. 
+You can record multiple lists to the same allocator before it is reset, provided only one list is recording to a given allocator at one time. You can visualise each list as
+owning a portion of the allocator which indicates what [**ID3D12CommandQueue::ExecuteCommandLists**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists) will execute.
+
+A simple allocator pooling strategy should aim for approximately `numCommandLists * MaxFrameLatency` allocators. For example, if you record 6 lists and allow up to 3 latent frames, you could reasonably expect 18-20 allocators. A more advanced pooling strategy, which reuses allocators for multiple lists on the same thread, could aim for `numRecordingThreads * MaxFrameLatency` allocators. Using the prior example, if 2 lists were recorded on thread A, 2 on thread B, 1 on thread C, and 1 on thread D, you could realistically aim for 12-14 allocators.
+
+Use a fence to determine when a given allocator is able to be reused.
+
+As command lists can immediately be reset after execution, they can be trivially pooled, adding them back to the pool after each call to [**ID3D12CommandQueue::ExecuteCommandLists**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists).
 
 ## Example
 
