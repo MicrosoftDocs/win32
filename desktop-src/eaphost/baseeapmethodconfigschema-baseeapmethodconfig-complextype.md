@@ -1,6 +1,6 @@
 ---
 title: BaseEapMethodConfig Complex Type
-description: Is a placeholder element for the method configuration.
+description: Learn about the BaseEapMethodConfig complex type. This type is a placeholder element for the method configuration.
 ms.assetid: 9aafd6ad-2342-4882-99d3-2f2e6c3d67b5
 keywords:
 - BaseEapMethodConfig complex type EAPHost
@@ -41,10 +41,10 @@ The EAP method performs schema validation on the contents of the **BaseEapMethod
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

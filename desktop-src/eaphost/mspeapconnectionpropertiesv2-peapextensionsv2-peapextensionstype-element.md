@@ -1,6 +1,6 @@
 ---
 title: PeapExtensionsV2 (PeapExtensionsType) Element
-description: Enables future enhancements to the schema.
+description: Learn about the PeapExtensionsV2 (PeapExtensionsType) element. This element enables future enhancements to the schema.
 ms.assetid: afac3a39-9cdc-42de-8f9e-c37405ec662a
 keywords:
 - PeapExtensionsV2 element EAPHost
@@ -36,10 +36,10 @@ The **PeapExtensionsV2** element is optional.
 
 
 
-|                                     |                                                         |
-|-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 

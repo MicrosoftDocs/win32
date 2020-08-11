@@ -1,6 +1,6 @@
 ---
 title: PeapExtensions (EapType) Element
-description: Enables future enhancements to the schema.
+description: Learn about the PeapExtensions (EapType) element. This element enables future enhancements to the schema.
 ms.assetid: f04d1361-c88e-4415-9a81-d1195b14de05
 keywords:
 - PeapExtensions element EAPHost
@@ -36,10 +36,10 @@ The **PeapExtensions (EapType)** element is optional.
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

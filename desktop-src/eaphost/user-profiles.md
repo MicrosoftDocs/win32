@@ -1,6 +1,6 @@
 ---
 title: User Properties
-description: Show sample XML user properties for various network configurations.
+description: View topics about sample XML user properties for various network configurations. These XML properties use EapHostUserCredential and Credentials schema elements.
 ms.assetid: 8e8ee656-11de-42fd-a960-f691330ee16e
 ms.topic: article
 ms.date: 05/31/2018

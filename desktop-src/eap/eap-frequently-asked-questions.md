@@ -1,6 +1,6 @@
 ---
 title: EAP Frequently Asked Questions
-description: Provides answers to commonly-asked questions about the EAP APIs.
+description: "Find answers to frequently asked questions (FAQs) about the EAP APIs, such as 'What is the lifetime of an EAP authentication?'."
 ms.assetid: 4e26df7b-3cce-4522-ab39-e24f06b4c4b4
 ms.topic: article
 ms.date: 05/31/2018

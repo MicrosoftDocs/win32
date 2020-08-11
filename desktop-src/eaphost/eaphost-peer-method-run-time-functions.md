@@ -1,6 +1,6 @@
 ---
 title: EAPHost Peer Method Run-Time Functions
-description: EAPHost Peer Method Run-Time Functions
+description: Learn about EAPHost Peer Method API run-time functions. See a list of functions and view additional available resources.
 ms.assetid: fdfa595d-acf7-4489-88a8-113093567fe5
 ms.topic: article
 ms.date: 05/31/2018
