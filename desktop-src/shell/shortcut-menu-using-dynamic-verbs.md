@@ -262,7 +262,7 @@ There are three flags that can be passed in through the *uFlags* parameter that 
 
  
 
-Use either [**InsertMenu**](https://msdn.microsoft.com/library/ms647987(v=VS.85).aspx) or [**InsertMenuItem**](https://msdn.microsoft.com/library/ms647988(v=VS.85).aspx) to add menu items to the list. Then return an **HRESULT** value with the severity set to **SEVERITY\_SUCCESS**. Set the code value to the offset of the largest command identifier that was assigned, plus one (1). For example, assume that *idCmdFirst* is set to 5 and you add three items to the menu with command identifiers of 5, 7, and 8. The return value should be `MAKE_HRESULT(SEVERITY_SUCCESS, 0, 8 + 1)`.
+Use either [**InsertMenu**](https://msdn.microsoft.com/library/ms647987(v=VS.85).aspx) or [**InsertMenuItem**](https://msdn.microsoft.com/library/ms647988(v=VS.85).aspx) to add menu items to the list. Then return an **HRESULT** value with the severity set to **SEVERITY\_SUCCESS**. Set the code value to the offset of the largest command identifier that was assigned, plus one (1). For example, assume that *idCmdFirst* is set to 5 and you add three items to the menu with command identifiers of 5, 7, and 8. The return value should be `MAKE_HRESULT(SEVERITY_SUCCESS, 0, 8 - 5 + 1)`.
 
 The following example shows a simple implementation of [**IContextMenu::QueryContextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) that inserts a single command. The identifier offset for the command is IDM\_DISPLAY, which is set to zero. The **m\_pszVerb** and **m\_pwszVerb** variables are private variables used to store the associated language-independent verb string in both ANSI and Unicode formats.
 
