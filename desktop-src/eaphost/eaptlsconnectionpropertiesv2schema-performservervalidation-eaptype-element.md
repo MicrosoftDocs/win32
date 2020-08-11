@@ -1,5 +1,5 @@
 ---
-title: TLSExtensions
+title: TLSExtensions (v2 schema)
 description: Learn about the TLSExtensions (TLSExtensionsType) element. This element enables future enhancements to the schema.
 ms.assetid: efbb402e-a001-4782-aca8-be4aeca8328c
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# TLSExtensions
+# TLSExtensions (v2 schema)
 
 The **TLSExtensions (TLSExtensionsType)** element enables future enhancements to the schema.
 

@@ -1,5 +1,5 @@
 ---
-title: ServerValidationParameters Complex Type
+title: ServerValidationParameters Complex Type (TLS)
 description: Learn about the ServerValidationParameters complex type. This type contains information about how to perform server validation.
 ms.assetid: 7a35c7f5-4cab-43d5-87dc-a4020811d3a9
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# ServerValidationParameters Complex Type
+# ServerValidationParameters Complex Type (TLS)
 
 The **ServerValidationParameters** complex type contains information about how to perform server validation.
 
@@ -56,10 +56,10 @@ The **ServerValidationParameters** complex type contains information about how t
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

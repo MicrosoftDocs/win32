@@ -1,5 +1,5 @@
 ---
-title: EapType Element
+title: EapType element (v1 schema connection property)
 description: Learn about the EapType element. This element captures method-specific configuration inside the Eap element.
 ms.assetid: f953e150-64cf-41b2-937f-410799be4602
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# EapType Element
+# EapType Element (v1 schema connection property)
 
 The **EapType** element captures method-specific configuration inside the Eap element.
 
