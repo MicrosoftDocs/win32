@@ -1,6 +1,6 @@
 ---
 title: CertSelection Complex Type
-description: Determines how the user selects a certificate.
+description: Learn about the CertSelection complex type. This type determines how the user selects a certificate.
 ms.assetid: f5a37258-8ab0-4736-9721-6c2800769c74
 keywords:
 - CertSelection complex type EAPHost
