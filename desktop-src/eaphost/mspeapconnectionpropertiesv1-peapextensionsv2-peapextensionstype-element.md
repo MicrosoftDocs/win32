@@ -1,5 +1,5 @@
 ---
-title: PeapExtensionsV2 (PeapExtensionsType) Element
+title: PeapExtensionsV2 (PeapExtensionsType) element (v1 schema)
 description: Learn about the PeapExtensionsV2 (PeapExtensionsType) element. This element enables future enhancements to the schema.
 ms.assetid: eedd90c1-f3de-4c3b-9329-7ca0f39f9541
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# 
+# PeapExtensionsV2 (PeapExtensionsType) element (v1 schema)
 
 The **PeapExtensionsV2 (PeapExtensionsType)** element enables future enhancements to the schema.
 

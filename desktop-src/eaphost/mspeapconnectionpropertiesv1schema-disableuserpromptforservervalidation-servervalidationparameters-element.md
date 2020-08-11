@@ -1,5 +1,5 @@
 ---
-title: DisableUserPromptForServerValidation (ServerValidationParameters) Element
+title: DisableUserPromptForServerValidation element (PEAP)
 description: Learn about the DisableUserPromptForServerValidation (ServerValidationParameters) element. It indicates whether the user should be asked for server validation.
 ms.assetid: ddb09888-731b-4c67-939e-9f0e6769408b
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# DisableUserPromptForServerValidation (ServerValidationParameters) Element
+# DisableUserPromptForServerValidation (ServerValidationParameters) element (PEAP)
 
 The **DisableUserPromptForServerValidation (ServerValidationParameters)** element indicates whether the user should be asked for server validation.
 
