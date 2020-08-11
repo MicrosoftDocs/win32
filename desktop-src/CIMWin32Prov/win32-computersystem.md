@@ -1848,97 +1848,13 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (10), [**DisplayName**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Status")
 </dt> </dl>
 
-Current status of an object. Various operational and nonoperational statuses can be defined. Operational statuses include: OK, Degraded, and Pred Fail, which is an element such as a SMART-enabled hard disk drive that may be functioning properly, but predicts a failure in the near future. Nonoperational statuses include: Error, Starting, Stopping, and Service, which can apply during mirror-resilvering of a disk, reloading a user permissions list, or other administrative work. Not all status work is online, but the managed element is not OK or in one of the other states.
+Current status of an object.
+
+For Win32_ComputerSystem, the Status is always “OK”.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
-Values include the following:
-
-<dt>
-
-<span id="OK"></span><span id="ok"></span>
-
-**OK** ("OK")
-
-
-</dt> <dd></dd> <dt>
-
-<span id="Error"></span><span id="error"></span><span id="ERROR"></span>
-
-**Error** ("Error")
-
-
-</dt> <dd></dd> <dt>
-
-<span id="Degraded"></span><span id="degraded"></span><span id="DEGRADED"></span>
-
-**Degraded** ("Degraded")
-
-
-</dt> <dd></dd> <dt>
-
-<span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>
-
-**Unknown** ("Unknown")
-
-
-</dt> <dd></dd> <dt>
-
-<span id="Pred_Fail"></span><span id="pred_fail"></span><span id="PRED_FAIL"></span>
-
-**Pred Fail** ("Pred Fail")
-
-
-</dt> <dd></dd> <dt>
-
-<span id="Starting"></span><span id="starting"></span><span id="STARTING"></span>
-
-**Starting** ("Starting")
-
-
-</dt> <dd></dd> <dt>
-
-<span id="Stopping"></span><span id="stopping"></span><span id="STOPPING"></span>
-
-**Stopping** ("Stopping")
-
-
-</dt> <dd></dd> <dt>
-
-<span id="Service"></span><span id="service"></span><span id="SERVICE"></span>
-
-**Service** ("Service")
-
-
-</dt> <dd></dd> <dt>
-
-<span id="Stressed"></span><span id="stressed"></span><span id="STRESSED"></span>
-
-**Stressed** ("Stressed")
-
-
-</dt> <dd></dd> <dt>
-
-<span id="NonRecover"></span><span id="nonrecover"></span><span id="NONRECOVER"></span>
-
-**NonRecover** ("NonRecover")
-
-
-</dt> <dd></dd> <dt>
-
-<span id="No_Contact"></span><span id="no_contact"></span><span id="NO_CONTACT"></span>
-
-**No Contact** ("No Contact")
-
-
-</dt> <dd></dd> <dt>
-
-<span id="Lost_Comm"></span><span id="lost_comm"></span><span id="LOST_COMM"></span>
-
-**Lost Comm** ("Lost Comm")
-
-
-</dt> <dd></dd> </dl>
+</dl>
 
 </dd> <dt>
 
