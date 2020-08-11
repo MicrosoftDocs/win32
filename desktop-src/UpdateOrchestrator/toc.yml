@@ -1,0 +1,101 @@
+- name: "Update Orchestrator"
+  href: index.md
+- name: "Update Orchestrator Reference"
+  items:
+  - name: "Interfaces"
+    items: 
+    - name: "IUpdateOrchestrator"
+      items: 
+      - name: "IUpdateOrchestrator"
+        href: iupdateorchestrator.md
+      - name: "RegisterProvider"
+        href: iupdateorchestrator-registerprovider.md
+      - name: "UnregisterProvider"
+        href: iupdateorchestrator-unregisterprovider.md
+    - name: "IUpdateOrchestratorAction"
+      items: 
+      - name: "IUpdateOrchestratorAction"
+        href: iupdateorchestratoraction.md
+      - name: "ActionKind"
+        href: iupdateorchestratoraction-actionkind.md
+      - name: "IsExclusive"
+        href: universalorchestrator-hasmoratoriumpassed.md
+      - name: "IsPausable"
+        href: iupdateorchestratoraction-ispausable.md
+      - name: "Name"
+        href: iupdateorchestratoraction-name.md
+      - name: "RequiresNetwork"
+        href: iupdateorchestratoraction-requiresnetwork.md
+    - name: "IUpdateOrchestratorActionCallback"
+      items: 
+      - name: "IUpdateOrchestratorActionCallback"
+        href: iupdateorchestratoractioncallback.md
+      - name: "ReportCompleted"
+        href: iupdateorchestratoractioncallback-reportcompleted.md
+      - name: "ReportFailed"
+        href: iupdateorchestratoractioncallback-reportfailed.md
+      - name: "ReportProgress"
+        href: iupdateorchestratoractioncallback-reportprogress.md
+    - name: "IUpdateOrchestratorUnlock"
+      items: 
+      - name: "IUpdateOrchestratorUnlock"
+        href: iupdateorchestratorunlock-unlock.md
+      - name: "Unlock"
+        href: iupdateorchestratorunlock-unlock.md
+    - name: "IUpdateOrchestratorUpdate"
+      items:
+      - name: "IUpdateOrchestratorUpdate"
+        href: iupdateorchestratorupdate.md 
+      - name: "Action"
+        href: iupdateorchestratorupdate-action.md
+      - name: "Deadline"
+        href: iupdateorchestratorupdate-deadline.md
+      - name: "Description"
+        href: iupdateorchestratorupdate-description.md
+      - name: "IsSecurity"
+        href: iupdateorchestratorupdate-issecurity.md
+      - name: "Pause"
+        href: iupdateorchestratorupdate-pause.md
+      - name: "PerformAction"
+        href: iupdateorchestratorupdate-performaction.md
+      - name: "Serialize"
+        href: iupdateorchestratorupdate-serialize.md
+      - name: "Title"
+        href: iupdateorchestratorupdate-title.md
+      - name: "UniqueId"
+        href: iupdateorchestratorupdate-uniqueid.md
+    - name: "IUpdateOrchestratorUpdateCollection"
+      items: 
+      - name: "IUpdateOrchestratorUpdateCollection"
+        href: iupdateorchestratorupdatecollection.md
+      - name: "Count"
+        href: iupdateorchestratorupdatecollection-count.md
+      - name: "Item"
+        href: iupdateorchestratorupdatecollection-item.md
+    - name: "IUpdateOrchestratorUpdateProvider"
+      items: 
+      - name: "IUpdateOrchestratorUpdateProvider"
+        href: iupdateorchestratorupdateprovider.md
+      - name: "CancelScan"
+        href: iupdateorchestratorupdateprovider-cancelscan.md
+      - name: "Deserialize"
+        href: iupdateorchestratorupdateprovider-deserialize.md
+      - name: "ScanAttempFrequencyInMinutes"
+        href: iupdateorchestratorupdateprovider-scanattemptfrequencyinminutes.md
+      - name: "ScanForPendingUpdates"
+        href: iupdateorchestratorupdateprovider-scanforpendingupdates.md
+      - name: "ScanSlaInMinutes"
+        href: iupdateorchestratorupdateprovider-scanslainminutes.md
+    - name: "IUniversalOrchestrator"
+      href: universalorchestrator-iuniversalorchestrator.md
+      items: 
+      - name: "ScheduleWork"
+        href: universalorchestrator-schedulework.md
+      - name: "WorkCompleted"
+        href: universalorchestrator-workcompleted.md
+      - name: "HasMoratoriumPassed"
+        href: universalorchestrator-hasmoratoriumpassed.md
+  - name: "Enumerations"
+    items: 
+    - name: "Update_Orchestrator_Action_Kind"
+      href: updateorchestratoractionkind.md

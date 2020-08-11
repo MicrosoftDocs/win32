@@ -145,6 +145,8 @@
           href: /windows/win32/devlic/developer-licensing-portal
         - name: "Restart Manager"
           href: /windows/win32/rstmgr/restart-manager-portal
+        - name: "Update Orchestrator"
+          href: /windows/win32/updateorchestrator
         - name: "Windows Installer"
           href: /windows/win32/msi/windows-installer-portal
       - name: "Audio and Video"

@@ -1,0 +1,21 @@
+---
+title: IUpdateOrchestrator::UnregisterProvider method
+ms.date: 03/20/2020
+ms.topic: method
+---
+
+# IUpdateOrchestrator::UnregisterProvider method
+Unregisters the given update provider. 
+
+## Syntax
+```cpp
+HRESULT UnregisterProvider(
+    [in] REFIID classId);
+```
+
+## Parameters
+
+`classId`
+
+## Returns
+Returns **S_OK** if the update provider was succesfully unregistered or an error in case of a failure.
