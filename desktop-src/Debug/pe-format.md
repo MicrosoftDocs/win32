@@ -2311,8 +2311,8 @@ The null-terminated import symbol name immediately follows its associated import
 
 ## Appendix A: Calculating Authenticode PE Image Hash
 
-- [What is an Authenticode PE Image Hash?](#a1-what-is-an-authenticode-pe-image-hash)
-- [What is Covered in an Authenticode PE Image Hash?](#a2-what-is-covered-in-an-authenticode-pe-image-hash)
+- [What is an Authenticode PE Image Hash?](#what-is-an-authenticode-pe-image-hash)
+- [What is Covered in an Authenticode PE Image Hash?](#what-is-covered-in-an-authenticode-pe-image-hash)
 
 Several attribute certificates are expected to be used to verify the integrity of the images. However, the most common is Authenticode signature. An Authenticode signature can be used to verify that the relevant sections of a PE image file have not been altered in any way from the file’s original form. To accomplish this task, Authenticode signatures contain something called a PE image hash
 
