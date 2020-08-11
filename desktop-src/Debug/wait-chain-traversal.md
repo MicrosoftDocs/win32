@@ -35,6 +35,8 @@ For asynchronous sessions, the caller can specify a pointer to a context data st
 
 The context data structure is user-defined and opaque to WCT. It can be used by the application to communicate context between a WCT query and a callback function. Typically, you pass an event handle through this structure and, when the callback is executed, this event is signalled and a monitoring thread is informed that the query has been completed.
 
+See [Using WCT](using-wct.md) for an example of wait chain traversal.
+
 ## Related topics
 
 [Using WCT](using-wct.md), [WCT Reference](wct-reference.md), [MSDN Magazine 2007 July - Bugslayer: Wait Chain Traversal](https://docs.microsoft.com/archive/msdn-magazine/2007/july/bugslayer-wait-chain-traversal)
