@@ -1,5 +1,5 @@
 ---
-title: Username Element
+title: Username element (TLS)
 description: Learn about the Username element. This element captures the user name to be sent in the EAP-Identity response.
 ms.assetid: dda4a7dd-36ba-418d-9b26-2818ef20854d
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# Username Element
+# Username element (TLS)
 
 The **Username** element captures the user name to be sent in the EAP-Identity response.
 

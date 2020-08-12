@@ -1,5 +1,5 @@
 ---
-title: EapType Element
+title: EapType element (base user properties)
 description: Learn about the EapType element. This element captures method-specific configuration inside the Eap element.
 ms.assetid: 8ce81848-5b36-441f-967d-02c666ba5c6c
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# EapType Element
+# EapType element (base user properties)
 
 The **EapType** element captures method-specific configuration inside the Eap element.
 

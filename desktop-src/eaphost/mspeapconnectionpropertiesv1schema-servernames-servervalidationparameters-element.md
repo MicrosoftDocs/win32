@@ -1,5 +1,5 @@
 ---
-title: ServerNames (ServerValidationParameters) Element
+title: ServerNames (ServerValidationParameters) element (PEAP)
 description: Learn about the ServerNames (ServerValidationParameters) element. This element represents a list of semicolon delimited server names.
 ms.assetid: 2595daa1-9f1b-40cf-9219-0e7295fdd5c3
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# ServerNames (ServerValidationParameters) Element
+# ServerNames (ServerValidationParameters) element (PEAP)
 
 The **ServerNames (ServerValidationParameters)** element represents a list of semicolon delimited server names.
 
