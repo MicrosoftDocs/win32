@@ -1,5 +1,5 @@
 ---
-title: PeapExtensions (EapType) Element
+title: PeapExtensions (EapType) element (user properties)
 description: Learn about the PeapExtensions (EapType) element. This element enables future enhancements to the schema.
 ms.assetid: f04d1361-c88e-4415-9a81-d1195b14de05
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# PeapExtensions (EapType) Element
+# PeapExtensions (EapType) element (user properties)
 
 The **PeapExtensions (EapType)** element enables future enhancements to the schema.
 

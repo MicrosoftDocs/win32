@@ -34,7 +34,7 @@ For example, an EAP method installation registration path given an **AuthorId** 
 **HKLM\\System\\CCS\\Services\\Eaphost\\Methods\\311\\254\\311\\40**
 
 > [!Note]  
-> For more information on the allocation of EAP method types, see section 6.2 of [RFC 3748](Http://go.microsoft.com/fwlink/p/?linkid=84016).
+> For more information on the allocation of EAP method types, see section 6.2 of [RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84016).
 
  
 
@@ -210,7 +210,7 @@ If the generic dialog box is used, credentials are set by the [<strong>EapPeerSe
 [Using EAPHost](using-eap-host.md)
 </dt> <dt>
 
-[RFC 3748](Http://go.microsoft.com/fwlink/p/?linkid=84016)
+[RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84016)
 </dt> </dl>
 
  
