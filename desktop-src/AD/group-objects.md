@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Group Objects
 
-A group is represented as a [**group**](https://docs.microsoft.com/windows/desktop/ADSchema/c-group) object in Active Directory Domain Services. The following table lists important attributes of the **group** object.
+A group is represented as a [**group**](/windows/desktop/ADSchema/c-group) object in Active Directory Domain Services. The following table lists important attributes of the **group** object.
 
 
 
@@ -75,7 +75,7 @@ A security group provides a logical grouping of objects and the group itself can
 
 A distribution group also provides a logical grouping of objects, but cannot provide any access privileges. Distribution groups are not security enabled and cannot be used as a security principal in an ACL. Distribution groups are only used for grouping purposes. For example, distribution lists can be used with email applications, such as Exchange, to send email to a collection of users.
 
-For more information about group types in Active Directory Domain Services, see the [Group types](https://technet.microsoft.com/library/cc781446.aspx) topic on [Microsoft TechNet](https://technet.microsoft.com/default.aspx).
+For more information about group types in Active Directory Domain Services, see the [Group types](/previous-versions/windows/it-pro/windows-server-2003/cc781446(v=ws.10)) topic on [Microsoft TechNet](https://technet.microsoft.com/default.aspx).
 
 ## Group Scope
 
@@ -94,10 +94,4 @@ The following table lists the three group scopes and more information about each
  
 
  
-
- 
-
-
-
-
 

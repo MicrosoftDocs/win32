@@ -16,7 +16,7 @@ Access-control entries (ACEs) in an object access-control list (ACL) can belong 
 
 Each ACE in the DACL can belong to one, or more, categories. The categories for where an ACE belongs are determined by the inheritance control flags set in the ACE.
 
-Three inheritance-control flags can be set in the [**AceFlags**](https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) property of an ACE.
+Three inheritance-control flags can be set in the [**AceFlags**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) property of an ACE.
 
 
 
@@ -45,7 +45,7 @@ It is important to remember that the system also sets the following flags based 
 
  
 
-The following table lists the effects of the different flag combinations for the [**AceFlags**](https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) property of an ACE.
+The following table lists the effects of the different flag combinations for the [**AceFlags**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) property of an ACE.
 
 
 
@@ -62,10 +62,4 @@ The following table lists the effects of the different flag combinations for the
  
 
  
-
- 
-
-
-
-
 

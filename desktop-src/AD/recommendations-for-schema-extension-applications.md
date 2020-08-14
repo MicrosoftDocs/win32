@@ -27,14 +27,10 @@ In addition to the prerequisites, the following best practices are recommended f
     If attributes or classes exist that conflict with your new attributes or classes, your application should not apply your schema changes.
 
 -   If such a collision exists, your application should not apply your schema changes. The schema administrator may need to resolve the collision and then run your application again. Alternatively, a different **lDAPDisplayName** could be used; however, any applications using the attribute or object must be aware of that change. To help avoid OID collisions, obtain an OID from an ISO name registration authority.
--   If your application is dependent on attributes or classes that it has added, update the schema cache before adding the new attributes or classes that are dependent on those attributes or classes. Be aware that the **schemaUpdateNow** operational attribute is synchronous. That is, the [**IADs::Put**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put) method call will block until the schema cache is updated. When the call returns, the schema cache has been updated and the new attributes and/or classes are accessible.
+-   If your application is dependent on attributes or classes that it has added, update the schema cache before adding the new attributes or classes that are dependent on those attributes or classes. Be aware that the **schemaUpdateNow** operational attribute is synchronous. That is, the [**IADs::Put**](/windows/desktop/api/iads/nf-iads-iads-put) method call will block until the schema cache is updated. When the call returns, the schema cache has been updated and the new attributes and/or classes are accessible.
 
     For more information about how to update the schema cache, see [Example Code for Updating the Schema Cache](example-code-for-updating-the-schema-cache.md).
 
  
 
  
-
-
-
-

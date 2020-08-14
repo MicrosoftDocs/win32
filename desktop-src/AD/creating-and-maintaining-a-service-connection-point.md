@@ -21,7 +21,7 @@ After creating the SCP, your service installer performs two additional steps tha
 
 The service installer caches the SCP's **objectGUID** rather than its DN. The **objectGUID** never changes, regardless of whether the SCP is moved or renamed. The DN can change if an administrator moves or renames the SCP. For example, if you create an SCP as a child of a computer object, the distinguished name of the SCP changes if the computer is renamed or moved to a different domain or organizational unit.
 
-When a service installer creates an SCP, it must read the **objectGUID** of the newly created object and cache it in the registry of the service host computer. Use the [**IADs::get\_GUID**](https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods) method to get the **objectGUID** value in string format suitable for binding. Cache the GUID string as a value under the following registry key.
+When a service installer creates an SCP, it must read the **objectGUID** of the newly created object and cache it in the registry of the service host computer. Use the [**IADs::get\_GUID**](/windows/desktop/ADSI/iads-property-methods) method to get the **objectGUID** value in string format suitable for binding. Cache the GUID string as a value under the following registry key.
 
 ```
 HKEY_LOCAL_MACHINE
@@ -41,7 +41,3 @@ When the service starts, it retrieves the cached GUID string from the registry a
  
 
  
-
-
-
-

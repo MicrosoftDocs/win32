@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Using IADs to Get a Security Descriptor
 
-The following code examples use the [**IADs::Get**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get) method to retrieve an [**IADsSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) pointer to the **nTSecurityDescriptor** property of an object in Active Directory Domain Services.
+The following code examples use the [**IADs::Get**](/windows/desktop/api/iads/nf-iads-iads-get) method to retrieve an [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) pointer to the **nTSecurityDescriptor** property of an object in Active Directory Domain Services.
 
 
 ```VB
@@ -88,7 +88,3 @@ HRESULT GetSDFromIADs(
  
 
  
-
-
-
-

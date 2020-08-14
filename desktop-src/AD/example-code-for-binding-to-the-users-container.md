@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Example Code for Binding to the User's Container
 
-The following C++ code example binds to the users container in the current domain and return and [**IADsContainer**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer) interface for the container. For more information about binding to well-known objects, see [Binding to Well-Known Objects Using WKGUID](binding-to-well-known-objects-using-wkguid.md).
+The following C++ code example binds to the users container in the current domain and return and [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) interface for the container. For more information about binding to well-known objects, see [Binding to Well-Known Objects Using WKGUID](binding-to-well-known-objects-using-wkguid.md).
 
 
 ```C++
@@ -98,7 +98,3 @@ HRESULT GetUsersContainer(IADsContainer **ppContainer)
  
 
  
-
-
-
-

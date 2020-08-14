@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Example Code for Creating an Attribute
 
-The following code example creates an [**attributeSchema**](https://docs.microsoft.com/windows/desktop/ADSchema/c-attributeschema) object in the schema container.
+The following code example creates an [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema) object in the schema container.
 
-The **CreateAttribute** function creates an [**attributeSchema**](https://docs.microsoft.com/windows/desktop/ADSchema/c-attributeschema) object in the schema container, but does not commit it to the directory. Call the [**IADs.SetInfo**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo) method to commit the new **attributeSchema** object to the directory.
+The **CreateAttribute** function creates an [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema) object in the schema container, but does not commit it to the directory. Call the [**IADs.SetInfo**](/windows/desktop/api/iads/nf-iads-iads-setinfo) method to commit the new **attributeSchema** object to the directory.
 
 The **BytesToVariantArray** function is a utility function that packs an octet string into a variant array.
 
@@ -475,7 +475,3 @@ HRESULT CreateAttribute(
  
 
  
-
-
-
-

@@ -18,7 +18,7 @@ Active Directory Domain Services enable you to delete an object if you have one 
 
 Be aware that the system verifies the security descriptor for both the object and its parent before denying the deletion. This means that an ACE that explicitly denies DELETE access to a user has no effect if the user has DELETE\_CHILD access on the parent. Similarly, an ACE that denies DELETE\_CHILD access on the parent can be overridden if DELETE access is allowed on the object itself.
 
-To perform a tree-delete operation, for example using the [**IADsDeleteOps::DeleteObject**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsdeleteops-deleteobject) method, you must have ADS\_RIGHT\_DS\_DELETE\_TREE access to the object. If you have this access right, you can delete the object and any child objects regardless of the protections on the child objects. To delete a tree if you do not have ADS\_RIGHT\_DS\_DELETE\_TREE access, you must recursively traverse the tree, deleting each object individually. In this case, you must have the necessary DELETE or DELETE\_CHILD access for each object in the tree.
+To perform a tree-delete operation, for example using the [**IADsDeleteOps::DeleteObject**](/windows/desktop/api/iads/nf-iads-iadsdeleteops-deleteobject) method, you must have ADS\_RIGHT\_DS\_DELETE\_TREE access to the object. If you have this access right, you can delete the object and any child objects regardless of the protections on the child objects. To delete a tree if you do not have ADS\_RIGHT\_DS\_DELETE\_TREE access, you must recursively traverse the tree, deleting each object individually. In this case, you must have the necessary DELETE or DELETE\_CHILD access for each object in the tree.
 
 > [!WARNING]
 > If users have ADS\_RIGHT\_DS\_DELETE\_TREE access for an object, this gives them the ability to delete a whole subtree, including all child objects. For this reason, you may consider revoking "Delete Subtree" access permission for all users on a parent container.
@@ -28,7 +28,3 @@ To perform a tree-delete operation, for example using the [**IADsDeleteOps::Dele
  
 
  
-
-
-
-

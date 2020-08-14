@@ -18,9 +18,9 @@ Objects in Active Directory Domain Services have attributes that contain data ab
 
 | Programming technology                                                                       | For more information                                                                        |
 |----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| [Active Directory Service Interfaces](https://docs.microsoft.com/windows/desktop/ADSI/active-directory-service-interfaces-adsi)         | [Accessing and Manipulating Data with ADSI](https://docs.microsoft.com/windows/desktop/ADSI/accessing-and-manipulating-data-with-adsi) |
-| [Lightweight Directory Access Protocol](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api) | [Modifying a Directory Entry](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/modifying-a-directory-entry)                             |
-| [System.DirectoryServices](https://docs.microsoft.com/dotnet/api/system.directoryservices?redirectedfrom=MSDN) | [Directory Object Properties](https://msdn.microsoft.com/library/ms180858(v=VS.80).aspx)                         |
+| [Active Directory Service Interfaces](/windows/desktop/ADSI/active-directory-service-interfaces-adsi)         | [Accessing and Manipulating Data with ADSI](/windows/desktop/ADSI/accessing-and-manipulating-data-with-adsi) |
+| [Lightweight Directory Access Protocol](/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api) | [Modifying a Directory Entry](/previous-versions/windows/desktop/ldap/modifying-a-directory-entry)                             |
+| [System.DirectoryServices](/dotnet/api/system.directoryservices) | [Directory Object Properties](https://msdn.microsoft.com/library/ms180858(v=VS.80).aspx)                         |
 
 
 
@@ -31,7 +31,3 @@ For more information about attributes, see [Determining an Attribute Type](deter
  
 
  
-
-
-
-

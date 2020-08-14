@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Global Catalog
 
-A Domain run by Active Directory Domain Services can consist of many partitions or naming contexts. The distinguished name (DN) of an object includes enough information to locate a replica of the partition that holds the object. Many times however, the user or application does not know the DN of the target object or which partition might contain the object. The [*global catalog (GC)*](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms681905(v=vs.85)) allows users and applications to find objects in an Active Directory domain tree, given one or more attributes of the target object.
+A Domain run by Active Directory Domain Services can consist of many partitions or naming contexts. The distinguished name (DN) of an object includes enough information to locate a replica of the partition that holds the object. Many times however, the user or application does not know the DN of the target object or which partition might contain the object. The [*global catalog (GC)*](/previous-versions/windows/desktop/legacy/ms681905(v=vs.85)) allows users and applications to find objects in an Active Directory domain tree, given one or more attributes of the target object.
 
 The global catalog contains a partial replica of every naming context in the directory. It contains the schema and configuration naming contexts as well. This means the GC holds a replica of every object in the directory but with only a small number of their attributes. The attributes in the GC are those most frequently used in search operations (such as a user's first and last names or login names) and those required to locate a full replica of the object. The GC allows users to quickly find objects of interest without knowing what domain holds them and without requiring a contiguous extended namespace in the enterprise.
 
@@ -20,7 +20,3 @@ The global catalog is built automatically by the Active Directory Domain Service
  
 
  
-
-
-
-

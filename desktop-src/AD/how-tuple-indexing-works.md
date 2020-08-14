@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 Tuple indices are used to optimize searches that have 0 or more [medial-search strings](search-string-types.md) and 0 or 1 final-search strings. They can also be used to optimize searches for an initial search string if no ordinary index is available over that attribute.
 
-You can turn on tuple indexing for an attribute by setting bit 5, which corresponds to the value 32, in the [**searchFlags**](https://docs.microsoft.com/windows/desktop/ADSchema/a-searchflags) attribute. This attribute is set in the schema object that represents the attribute that needs the tuple index. The performance impact of turning on tuple indexing is that any string value that is set for that attribute will be expanded into a large number of fragments in the tuple index. When an attribute expands, it consumes a larger amount of disk space in the Directory Information Tree file, and also gets updated more slowly.
+You can turn on tuple indexing for an attribute by setting bit 5, which corresponds to the value 32, in the [**searchFlags**](/windows/desktop/ADSchema/a-searchflags) attribute. This attribute is set in the schema object that represents the attribute that needs the tuple index. The performance impact of turning on tuple indexing is that any string value that is set for that attribute will be expanded into a large number of fragments in the tuple index. When an attribute expands, it consumes a larger amount of disk space in the Directory Information Tree file, and also gets updated more slowly.
 
 Tuple indices are designed to accelerate searches of the form `*string*`. The acceleration can be considerable because this form of search cannot be optimized in any other way, and in its un-optimized form, it forces the Active Directory server to walk every object in the scope of the search to perform the query. Thus, a base search would just search one object, which would use fewer resources, an immediate children search would search just the children of an object (which could use fewer resources or more resources depending on the container size), and a subtree search will walk the entire subtree under the base object, which would usually require a lot of resources and be very slow because of the subtree size.
 
@@ -48,7 +48,3 @@ If the medial search string (`*cto*` in the previous example) is specific enough
  
 
  
-
-
-
-

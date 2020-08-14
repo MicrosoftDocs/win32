@@ -17,14 +17,14 @@ The directory object picker dialog box enables a user to select one or more obje
 
 To display an object picker dialog box:
 
-1.  Call the [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) or [**CoCreateInstanceEx**](https://msdn.microsoft.com/library/ms680701(v=VS.85).aspx) function to create an instance of the [**IDsObjectPicker**](/windows/desktop/api/Objsel/nn-objsel-idsobjectpicker) interface.
+1.  Call the [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) or [**CoCreateInstanceEx**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstanceex) function to create an instance of the [**IDsObjectPicker**](/windows/desktop/api/Objsel/nn-objsel-idsobjectpicker) interface.
 2.  Call the [**IDsObjectPicker::Initialize**](/windows/desktop/api/Objsel/nf-objsel-idsobjectpicker-initialize) method to initialize the dialog box.
 3.  Call the [**IDsObjectPicker::InvokeDialog**](/windows/desktop/api/Objsel/nf-objsel-idsobjectpicker-invokedialog) method to display the dialog box.
-4.  Call the [**IDataObject::GetData**](https://msdn.microsoft.com/library/ms678431(v=VS.85).aspx) method of the [**IDataObject**](https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx) instance returned by the object picker dialog box to retrieve the [**CFSTR\_DSOP\_DS\_SELECTION\_LIST**](cfstr-dsop-ds-selection-list.md) data. The **CFSTR\_DSOP\_DS\_SELECTION\_LIST** clipboard format provides an **HGLOBAL** that contains a [**DS\_SELECTION\_LIST**](/windows/desktop/api/Objsel/ns-objsel-ds_selection_list) structure. The **DS\_SELECTION\_LIST** structure contains data about the items selected in the object picker dialog box.
+4.  Call the [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) method of the [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) instance returned by the object picker dialog box to retrieve the [**CFSTR\_DSOP\_DS\_SELECTION\_LIST**](cfstr-dsop-ds-selection-list.md) data. The **CFSTR\_DSOP\_DS\_SELECTION\_LIST** clipboard format provides an **HGLOBAL** that contains a [**DS\_SELECTION\_LIST**](/windows/desktop/api/Objsel/ns-objsel-ds_selection_list) structure. The **DS\_SELECTION\_LIST** structure contains data about the items selected in the object picker dialog box.
 
-If the Security Identifier (SID) is required for an object, this should be requested directly from the object picker by adding the **objectSID** attribute to the list of attributes to retrieve for the selected object. Passing the returned object name to the [**LsaLookupNames**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames) or [**LookupAccountName**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea) function is not recommended because the name lookup will be redundant and may fail in some cases.
+If the Security Identifier (SID) is required for an object, this should be requested directly from the object picker by adding the **objectSID** attribute to the list of attributes to retrieve for the selected object. Passing the returned object name to the [**LsaLookupNames**](/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames) or [**LookupAccountName**](/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea) function is not recommended because the name lookup will be redundant and may fail in some cases.
 
-If a reference to any selected objects will be saved, the distinguished name should not be saved because the object may move, get renamed, or may change due to locale differences. For security principals, the **objectSID** should be requested for the object and securely saved. If the name of the security principal is needed later, it can be retrieved with the [**LookupAccountSid**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) function. For all other objects, the **objectGUID** should be requested and saved.
+If a reference to any selected objects will be saved, the distinguished name should not be saved because the object may move, get renamed, or may change due to locale differences. For security principals, the **objectSID** should be requested for the object and securely saved. If the name of the security principal is needed later, it can be retrieved with the [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) function. For all other objects, the **objectGUID** should be requested and saved.
 
 ## Initialization
 
@@ -42,7 +42,7 @@ The [**IDsObjectPicker::Initialize**](/windows/desktop/api/Objsel/nf-objsel-idso
 
 Each [**DSOP\_SCOPE\_INIT\_INFO**](/windows/desktop/api/Objsel/ns-objsel-dsop_scope_init_info) structure contains a [**DSOP\_FILTER\_FLAGS**](/windows/desktop/api/Objsel/ns-objsel-dsop_filter_flags) structure that specifies the filters for that scope type. The **DSOP\_FILTER\_FLAGS** structure distinguishes between up-level and down-level scopes:
 
--   An up-level scope is a global catalog or a domain that supports the ADSI [LDAP provider](https://docs.microsoft.com/windows/desktop/ADSI/adsi-ldap-provider).
+-   An up-level scope is a global catalog or a domain that supports the ADSI [LDAP provider](/windows/desktop/ADSI/adsi-ldap-provider).
 -   A down-level scope includes workgroups and all individual computers. The dialog box uses the ADSI WinNT provider to access a down-level scope.
 
 There are two sets of filter flags defined for use in the [**DSOP\_FILTER\_FLAGS**](/windows/desktop/api/Objsel/ns-objsel-dsop_filter_flags) structure: one for up-level scopes and one for down-level scopes. The **Uplevel** member of the **DSOP\_FILTER\_FLAGS** structure is a [**DSOP\_UPLEVEL\_FILTER\_FLAGS**](/windows/desktop/api/Objsel/ns-objsel-dsop_uplevel_filter_flags) structure that specifies the filters for up-level scopes. The **flDownlevel** member of the **DSOP\_FILTER\_FLAGS** structure is a set of flags that specify the filters for down-level scopes.
@@ -50,7 +50,3 @@ There are two sets of filter flags defined for use in the [**DSOP\_FILTER\_FLAGS
  
 
  
-
-
-
-

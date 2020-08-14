@@ -22,7 +22,7 @@ To modify or extend the schema, bind directly to the schema container. To read t
 It is easier to read from the abstract schema for the following reasons:
 
 -   ADSI provides special binding techniques and a set of interfaces to read the abstract schema.
--   The ADSI interfaces that work with the abstract schema return data in a format appropriate for use in other ADSI interfaces. For example, [**IADsClass**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsclass) and [**IADsProperty**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsproperty) typically use **lDAPDisplayName** strings to report attribute and class names, even though this data is stored in the directory in the form of object identifiers (OIDs). The **lDAPDisplayName** format is convenient because other ADSI interfaces use it to refer to classes and attributes in search filters and elsewhere.
+-   The ADSI interfaces that work with the abstract schema return data in a format appropriate for use in other ADSI interfaces. For example, [**IADsClass**](/windows/desktop/api/iads/nn-iads-iadsclass) and [**IADsProperty**](/windows/desktop/api/iads/nn-iads-iadsproperty) typically use **lDAPDisplayName** strings to report attribute and class names, even though this data is stored in the directory in the form of object identifiers (OIDs). The **lDAPDisplayName** format is convenient because other ADSI interfaces use it to refer to classes and attributes in search filters and elsewhere.
 -   The abstract schema entry for an object class contains data collected from multiple **classSchema** objects. For example, the possible parents, mandatory attributes, and optional attributes for an object class are the union of these attributes from the class's superclasses and auxiliary classes. If you read from the actual schema container, you need to collect data from the various **classSchema** objects that the class was derived from. If you read from the abstract schema, the data is in one place.
 
 You should bind directly to the schema container rather than using the abstract schema in the following cases:
@@ -34,7 +34,3 @@ You should bind directly to the schema container rather than using the abstract 
  
 
  
-
-
-
-

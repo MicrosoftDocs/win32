@@ -15,7 +15,7 @@ The following code example can be used to implement an Active Directory context 
 
 ## IShellExtInit Implementation
 
-The following code example can be used to implement the [**IShellExtInit**](https://msdn.microsoft.com/library/Bb775096(v=VS.85).aspx) methods.
+The following code example can be used to implement the [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) methods.
 
 
 ```C++
@@ -105,7 +105,7 @@ STDMETHODIMP CContMenuExt::Initialize(  LPCITEMIDLIST pidlFolder,
 
 ## IContextMenu Implementation
 
-The following code example can be used to implement the [**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx) methods.
+The following code example can be used to implement the [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) methods.
 
 
 ```C++
@@ -266,7 +266,3 @@ STDMETHODIMP CContMenuExt::GetCommandString(    UINT idCommand,
  
 
  
-
-
-
-

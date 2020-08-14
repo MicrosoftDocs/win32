@@ -18,13 +18,9 @@ Any object in Active Directory Domain Services can be a container of other objec
 **To set the value of the **treatAsLeaf** attribute**
 
 1.  Bind to the desired display attribute in the desired locale. For more information and a code example, see [DisplaySpecifiers Container](displayspecifiers-container.md).
-2.  Use the [**IADs::Put**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put) method to set the **treatAsLeaf** attribute to either **TRUE** or **FALSE**.
-3.  To commit changes to the directory, call the [**IADs::SetInfo**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo) method.
+2.  Use the [**IADs::Put**](/windows/desktop/api/iads/nf-iads-iads-put) method to set the **treatAsLeaf** attribute to either **TRUE** or **FALSE**.
+3.  To commit changes to the directory, call the [**IADs::SetInfo**](/windows/desktop/api/iads/nf-iads-iads-setinfo) method.
 
  
 
  
-
-
-
-

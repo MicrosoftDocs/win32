@@ -53,7 +53,7 @@ GC://servername.fabrikam.com/DC=sales,DC=fabrikam,DC=com
 
 1.  Bind to the root of the Global Catalog namespace.
 2.  Enumerate the Global Catalog container. The Global Catalog container contains a single object that you can use to search the entire forest.
-3.  Use the object in the container to perform the search. In C/C++, call [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) to get an [**IDirectorySearch**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch) pointer on the object so that you can use the **IDirectorySearch** interface to perform the search. In Visual Basic, use the object returned from the enumeration in your ADO query.
+3.  Use the object in the container to perform the search. In C/C++, call [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) to get an [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) pointer on the object so that you can use the **IDirectorySearch** interface to perform the search. In Visual Basic, use the object returned from the enumeration in your ADO query.
 
 To enumerate the Global Catalog servers in a site, perform an LDAP subtree search of "cn=<yoursite>,cn=sites,<DN of the configurationNamingContext>", using the following filter string.
 
@@ -61,11 +61,11 @@ To enumerate the Global Catalog servers in a site, perform an LDAP subtree searc
 (&(objectCategory=nTDSDSA)(options:1.2.840.113556.1.4.803:=1))
 ```
 
-This filter uses the **LDAP\_MATCHING\_RULE\_BIT\_AND** matching rule operator (1.2.840.113556.1.4.803) to find **nTDSDSA** objects that have the low-order bit set in the bitmask of the **options** attribute. The low-order bit, which corresponds to the **NTDSDSA\_OPT\_IS\_GC** constant defined in Ntdsapi.h, identifies the **nTDSDSA** object of a Global Catalog server. For more information about matching rules, see [Search Filter Syntax](https://docs.microsoft.com/windows/desktop/ADSI/search-filter-syntax).
+This filter uses the **LDAP\_MATCHING\_RULE\_BIT\_AND** matching rule operator (1.2.840.113556.1.4.803) to find **nTDSDSA** objects that have the low-order bit set in the bitmask of the **options** attribute. The low-order bit, which corresponds to the **NTDSDSA\_OPT\_IS\_GC** constant defined in Ntdsapi.h, identifies the **nTDSDSA** object of a Global Catalog server. For more information about matching rules, see [Search Filter Syntax](/windows/desktop/ADSI/search-filter-syntax).
 
 The parent of the **nTDSDSA** object is the server object, and the **dNSHostName** property of the server object is the DNS name of the Global Catalog server.
 
-You cannot use \#define constants such as **NTDSDSA\_OPT\_IS\_GC** and **LDAP\_MATCHING\_RULE\_BIT\_AND** directly in a search filter string. However, you could use these constants as arguments to a function such as [**swprintf\_s**](https://msdn.microsoft.com/library/ms647550(v=VS.85).aspx) to insert the constant values into a filter string.
+You cannot use \#define constants such as **NTDSDSA\_OPT\_IS\_GC** and **LDAP\_MATCHING\_RULE\_BIT\_AND** directly in a search filter string. However, you could use these constants as arguments to a function such as [**swprintf\_s**](/windows/win32/api/winuser/nf-winuser-wsprintfa) to insert the constant values into a filter string.
 
 The global catalog does not represent the entire forest tree structure. For example, you might expect that the following code example would enumerate all of the domains in the forest and all child objects of each domain. In reality, what it actually does is enumerate all of the domains in the forest, but none of the enumerated domain objects contain any children. This is a limitation of the global catalog.
 
@@ -120,7 +120,3 @@ For more information and code examples that show how to search an entire forest,
  
 
  
-
-
-
-

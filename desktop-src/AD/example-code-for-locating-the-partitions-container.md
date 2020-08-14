@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 This topic includes code examples that locate the partition container.
 
-The following C/C++ code example gets the distinguished name of the Partitions container by searching the configuration container for the [**crossRefContainer**](https://docs.microsoft.com/windows/desktop/ADSchema/c-crossrefcontainer) object.
+The following C/C++ code example gets the distinguished name of the Partitions container by searching the configuration container for the [**crossRefContainer**](/windows/desktop/ADSchema/c-crossrefcontainer) object.
 
 
 ```C++
@@ -145,7 +145,7 @@ HRESULT GetPartitionsDNSearch(LPWSTR *ppwszPartitionsDN)
 
 
 
-The following Visual Basic Scripting Edition code example gets the distinguished name of the Partitions container by searching the configuration container for the [**crossRefContainer**](https://docs.microsoft.com/windows/desktop/ADSchema/c-crossrefcontainer) object.
+The following Visual Basic Scripting Edition code example gets the distinguished name of the Partitions container by searching the configuration container for the [**crossRefContainer**](/windows/desktop/ADSchema/c-crossrefcontainer) object.
 
 
 ```VB
@@ -278,7 +278,7 @@ End Function
 
 
 
-The following C# code example gets the distinguished name of the Partitions container by searching the configuration container for the [**crossRefContainer**](https://docs.microsoft.com/windows/desktop/ADSchema/c-crossrefcontainer) object. This example uses C# with System.DirectoryServices.
+The following C# code example gets the distinguished name of the Partitions container by searching the configuration container for the [**crossRefContainer**](/windows/desktop/ADSchema/c-crossrefcontainer) object. This example uses C# with System.DirectoryServices.
 
 
 ```CSharp
@@ -312,7 +312,7 @@ static string GetPartitionsDN()
 
 
 
-The following Visual Basic .NET code example gets the distinguished name of the Partition container by searching the configuration container for the [**crossRefContainer**](https://docs.microsoft.com/windows/desktop/ADSchema/c-crossrefcontainer) object. This example uses Visual Basic .NET with System.DirectoryServices.
+The following Visual Basic .NET code example gets the distinguished name of the Partition container by searching the configuration container for the [**crossRefContainer**](/windows/desktop/ADSchema/c-crossrefcontainer) object. This example uses Visual Basic .NET with System.DirectoryServices.
 
 
 ```VB
@@ -350,7 +350,3 @@ End Function
  
 
  
-
-
-
-
