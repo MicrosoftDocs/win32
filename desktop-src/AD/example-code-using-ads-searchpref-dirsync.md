@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The following code example uses the ADSI implementation of the directory synchronization (DirSync) control to search the local domain partition of an Active Directory server for user objects changed since the previous call.
 
-The code example uses the [**IDirectorySearch**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch) interface to search from the root of the domain partition. Before calling the [**ExecuteSearch**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch) method, the example calls the [**SetSearchPreference**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference) method to specify the **ADS\_SEARCHPREF\_SEARCH\_SCOPE**, **ADS\_SEARCHPREF\_DIRSYNC**, and **ADS\_SEARCHPREF\_TOMBSTONE** search preferences. The scope must specify a subtree search. With the **ADS\_SEARCHPREF\_DIRSYNC** search preference, specify an [**ADS\_PROV\_SPECIFIC**](https://docs.microsoft.com/windows/win32/api/iads/ns-iads-ads_prov_specific) structure that contains the length of the cookie and a pointer to it.
+The code example uses the [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) interface to search from the root of the domain partition. Before calling the [**ExecuteSearch**](/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch) method, the example calls the [**SetSearchPreference**](/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference) method to specify the **ADS\_SEARCHPREF\_SEARCH\_SCOPE**, **ADS\_SEARCHPREF\_DIRSYNC**, and **ADS\_SEARCHPREF\_TOMBSTONE** search preferences. The scope must specify a subtree search. With the **ADS\_SEARCHPREF\_DIRSYNC** search preference, specify an [**ADS\_PROV\_SPECIFIC**](/windows/win32/api/iads/ns-iads-ads_prov_specific) structure that contains the length of the cookie and a pointer to it.
 
 The first time this application is called, it specifies a null cookie and a zero length. This causes the search operation to perform a full read, returning all the requested attributes for all objects that match the filter. Along with the search results, the server returns a valid cookie and the cookie length. On subsequent runs, the program retrieves the cached cookie and length and uses them to retrieve changes since the previous run.
 
@@ -460,7 +460,3 @@ cleanup:
  
 
  
-
-
-
-

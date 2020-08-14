@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 The following functions work with display features provided in Active Directory Domain Services:
 
--   [**BFFCallBack**](https://msdn.microsoft.com/library/ms675173(v=VS.85).aspx)
+-   [**BFFCallBack**](/windows/win32/api/shlobj_core/nc-shlobj_core-bffcallback)
 -   [**CQAddFormsProc**](/windows/desktop/api/Cmnquery/nc-cmnquery-lpcqaddformsproc)
 -   [**CQAddPagesProc**](/windows/desktop/api/Cmnquery/nc-cmnquery-lpcqaddpagesproc)
 -   [**CQPageProc**](/windows/desktop/api/Cmnquery/nc-cmnquery-lpcqpageproc)
@@ -23,7 +23,3 @@ The following functions work with display features provided in Active Directory 
  
 
  
-
-
-
-

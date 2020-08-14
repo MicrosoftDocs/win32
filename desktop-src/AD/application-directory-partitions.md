@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 In Windows Server 2003, Active Directory Domain Services support application directory partitions. An application directory partition can contain a hierarchy of any type of objects, except security principals, and can be configured to replicate to any set of domain controllers in the forest. Unlike a domain partition, an application directory partition is not required to replicate to all domain controllers in a domain and the partition can replicate to domain controllers in different domains of the forest. For more information about application directory partitions, see [About Application Directory Partitions](about-application-directory-partitions.md).
 
-An application directory partition can be created. modified and deleted using standard ADSI, LDAP and [System.DirectoryServices](https://docs.microsoft.com/dotnet/api/system.directoryservices?redirectedfrom=MSDN) operations. The security context required to create and modify an application directory partition is the same as that for creating a domain partition.
+An application directory partition can be created. modified and deleted using standard ADSI, LDAP and [System.DirectoryServices](/dotnet/api/system.directoryservices) operations. The security context required to create and modify an application directory partition is the same as that for creating a domain partition.
 
 The following topics describe how to work with application directory partitions:
 
@@ -31,7 +31,3 @@ The following topics describe how to work with application directory partitions:
  
 
  
-
-
-
-

@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 The following code example shows how a client application searches the Global Catalog for a Service Connection Point (SCP). In this code example, the client application has a hard-coded GUID string that identifies the service. The service installer stored the same GUID string as one of the values of the SCPs multi-value **keywords** attribute.
 
-This sample consists of two routines. The **GetGC** routine retrieves an [**IDirectorySearch**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch) pointer for a Global Catalog (GC). The **ScpLocate** routine uses the **IDirectorySearch** methods to search the GC.
+This sample consists of two routines. The **GetGC** routine retrieves an [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) pointer for a Global Catalog (GC). The **ScpLocate** routine uses the **IDirectorySearch** methods to search the GC.
 
-The GC contains a partial replica of every object in the forest, but does not contain all of the SCP attributes that the client requires. First, the client must search the GC to find the SCP and retrieve its DN. Then the client uses the SCP's DN to bind to an [**IDirectoryObject**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject) pointer on the SCP. The client then calls the [**IDirectoryObject::GetObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectattributes) method to retrieve the rest of the attributes.
+The GC contains a partial replica of every object in the forest, but does not contain all of the SCP attributes that the client requires. First, the client must search the GC to find the SCP and retrieve its DN. Then the client uses the SCP's DN to bind to an [**IDirectoryObject**](/windows/desktop/api/iads/nn-iads-idirectoryobject) pointer on the SCP. The client then calls the [**IDirectoryObject::GetObjectAttributes**](/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectattributes) method to retrieve the rest of the attributes.
 
 
 ```C++
@@ -290,7 +290,3 @@ cleanup:
  
 
  
-
-
-
-

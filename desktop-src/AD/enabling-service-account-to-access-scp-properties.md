@@ -15,7 +15,7 @@ The following code example sets a pair of Access Control Entries (ACEs) on a ser
 
 Typically, a service installer will set these ACEs after creating the SCP object. For more information, and a code example that creates an SCP and calls this function, see [How Clients Find and Use a Service Connection Point](how-clients-find-and-use-a-service-connection-point.md). If the service is reconfigured to run under a different account, the ACEs must be updated. To run successfully, this code example must be run in the security context of a domain administrator.
 
-The first parameter of the sample function specifies the name of the user account to be granted access. The function assumes the name is in *Domain***\\***UserName* format. If no account is specified, the function assumes the service uses the LocalSystem account. This means the function must grant access to the computer account of the host server on which the service is running. To do this, the code example calls the [**GetComputerObjectName**](https://docs.microsoft.com/windows/desktop/api/secext/nf-secext-getcomputerobjectnamea) function to obtain the domain and user name of the local computer.
+The first parameter of the sample function specifies the name of the user account to be granted access. The function assumes the name is in *Domain***\\***UserName* format. If no account is specified, the function assumes the service uses the LocalSystem account. This means the function must grant access to the computer account of the host server on which the service is running. To do this, the code example calls the [**GetComputerObjectName**](/windows/desktop/api/secext/nf-secext-getcomputerobjectnamea) function to obtain the domain and user name of the local computer.
 
 The following code example can be modified to grant the service full access to the SCP object, but the best practice is to grant only the specific access rights that the service requires at run time. In this case, the function grants access to two properties.
 
@@ -23,8 +23,8 @@ The following code example can be modified to grant the service full access to t
 
 | Property                                                              | Description                                                          |
 |-----------------------------------------------------------------------|----------------------------------------------------------------------|
-| [**serviceDNSName**](https://docs.microsoft.com/windows/desktop/ADSchema/a-servicednsname)                       | The name of the host server on which the service is running.         |
-| [**serviceBindingInformation**](https://docs.microsoft.com/windows/desktop/ADSchema/a-servicebindinginformation) | Private binding information that the service updates when it starts. |
+| [**serviceDNSName**](/windows/desktop/ADSchema/a-servicednsname)                       | The name of the host server on which the service is running.         |
+| [**serviceBindingInformation**](/windows/desktop/ADSchema/a-servicebindinginformation) | Private binding information that the service updates when it starts. |
 
 
 
@@ -34,7 +34,7 @@ Each property is identified by the **schemaIDGUID** of the property's **attribut
 
 Refer to the Active Directory Schema reference pages for the **schemaIDGUID** values assigned to the properties to grant or deny access to.
 
-The following code example uses the [**IADsSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor), [**IADsAccessControlList**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist), and [**IADsAccessControlEntry**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry) interfaces to perform the following operations.
+The following code example uses the [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor), [**IADsAccessControlList**](/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist), and [**IADsAccessControlEntry**](/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry) interfaces to perform the following operations.
 
 1.  Obtain the security descriptor of the SCP object.
 2.  Set the appropriate ACEs in the discretionary access control list (DACL) of the security descriptor.
@@ -293,7 +293,3 @@ HRESULT AllowAccessToScpProperties(
  
 
  
-
-
-
-

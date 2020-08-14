@@ -102,7 +102,7 @@ Data type: **String**
 Access type: Read-only
 </dt> </dl>
 
-Gets the value of the [**objectGuid**](https://docs.microsoft.com/windows/desktop/ADSchema/a-objectguid) attribute of the DSA that is identified by the **DsaDN** property.
+Gets the value of the [**objectGuid**](/windows/desktop/ADSchema/a-objectguid) attribute of the DSA that is identified by the **DsaDN** property.
 
 </dd> <dt>
 
@@ -128,7 +128,7 @@ Data type: **String**
 Access type: Read-only
 </dt> </dl>
 
-Gets the [**objectGuid**](https://docs.microsoft.com/windows/desktop/ADSchema/a-objectguid) attribute of the NC that is identified by the **NamingContextDN** property.
+Gets the [**objectGuid**](/windows/desktop/ADSchema/a-objectguid) attribute of the NC that is identified by the **NamingContextDN** property.
 
 </dd> <dt>
 
@@ -263,7 +263,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Gets the ID of the operation, which is unique per-machine and per-boot.
@@ -298,10 +298,4 @@ Gets the time at which this operation was added to the queue.
 
 
  
-
- 
-
-
-
-
 

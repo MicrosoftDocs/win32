@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Obtaining a Link ID
 
-Starting with Windows Server 2003, it is no longer necessary to request a [**linkID**](https://docs.microsoft.com/windows/desktop/ADSchema/a-linkid) from Microsoft; there is a process for automatically generating a **linkID**. The system will automatically generate a link ID for a new linked attribute when the attribute's **linkID** attribute is set to 1.2.840.113556.1.2.50. A back link for this forward link is created by setting the **linkID** to the [**attributeID**](https://docs.microsoft.com/windows/desktop/ADSchema/a-attributeid) or [**ldapDisplayName**](https://docs.microsoft.com/windows/desktop/ADSchema/a-ldapdisplayname) of the forward link. The schema cache must be reloaded after creating the forward link and before creating the back link. Otherwise, the forward link's **attributeId** or **ldapDisplayName** will not be found when the back link is created. The schema cache is reloaded on demand, a few minutes after a schema change is made, or when the DC is restarted. Create all forward links, reload the schema cache and then create all back links.
+Starting with Windows Server 2003, it is no longer necessary to request a [**linkID**](/windows/desktop/ADSchema/a-linkid) from Microsoft; there is a process for automatically generating a **linkID**. The system will automatically generate a link ID for a new linked attribute when the attribute's **linkID** attribute is set to 1.2.840.113556.1.2.50. A back link for this forward link is created by setting the **linkID** to the [**attributeID**](/windows/desktop/ADSchema/a-attributeid) or [**ldapDisplayName**](/windows/desktop/ADSchema/a-ldapdisplayname) of the forward link. The schema cache must be reloaded after creating the forward link and before creating the back link. Otherwise, the forward link's **attributeId** or **ldapDisplayName** will not be found when the back link is created. The schema cache is reloaded on demand, a few minutes after a schema change is made, or when the DC is restarted. Create all forward links, reload the schema cache and then create all back links.
 
 For example, when you have created the new attributes **myForwardLinkAttr** and **myBackLinkAttr**, and wish to link them:
 
@@ -52,7 +52,3 @@ For example, when you have created the new attributes **myForwardLinkAttr** and 
  
 
  
-
-
-
-

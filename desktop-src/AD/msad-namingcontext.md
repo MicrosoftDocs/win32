@@ -56,7 +56,7 @@ Data type: **String**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Gets the X.500 path of the NC.
@@ -91,10 +91,4 @@ Gets the value that indicates whether the NC is read/write. **TRUE** if the NC i
 
 
  
-
- 
-
-
-
-
 

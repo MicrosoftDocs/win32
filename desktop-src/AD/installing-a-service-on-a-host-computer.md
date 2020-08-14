@@ -11,8 +11,8 @@ ms.date: 05/31/2018
 
 The following code example shows the basic steps of installing a directory-enabled service on a host computer. It performs the following operations:
 
-1.  Calls the [**OpenSCManager**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera) function to open a handle to the service control manager (SCM) on the local computer.
-2.  Calls the [**CreateService**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea) function to install the service in the SCM database. This call specifies the service's logon account and password, as well as the service's executable and other information about the service. **CreateService** fails if the specified logon account is invalid. However, **CreateService** does not check the validity of the password. It also does not verify that the account has the logon as a service right on the local computer. For more information, see [Granting Logon as Service Right on the Host Computer](granting-logon-as-service-right-on-the-host-computer.md).
+1.  Calls the [**OpenSCManager**](/windows/desktop/api/winsvc/nf-winsvc-openscmanagera) function to open a handle to the service control manager (SCM) on the local computer.
+2.  Calls the [**CreateService**](/windows/desktop/api/winsvc/nf-winsvc-createservicea) function to install the service in the SCM database. This call specifies the service's logon account and password, as well as the service's executable and other information about the service. **CreateService** fails if the specified logon account is invalid. However, **CreateService** does not check the validity of the password. It also does not verify that the account has the logon as a service right on the local computer. For more information, see [Granting Logon as Service Right on the Host Computer](granting-logon-as-service-right-on-the-host-computer.md).
 3.  Calls the service's **ScpCreate** subroutine that creates a service connection point object (SCP) in the directory to publish the location of this instance of the service. For more information, see [How Clients Find and Use a Service Connection Point](how-clients-find-and-use-a-service-connection-point.md). This routine also stores the service's binding information in the SCP, sets an ACE on the SCP so the service can access it at run time, caches the distinguished name of the SCP in the local registry, and returns the distinguished name of the new SCP.
 4.  Calls the service's **SpnCompose** subroutine that uses the service's class string and the distinguished name of the SCP to compose a service principal name (SPN). For more information, see [Composing the SPNs for a Service with an SCP](composing-the-spns-for-a-service-with-an-scp.md). The SPN uniquely identifies this instance of the service.
 5.  Calls the service's **SpnRegister** subroutine that registers the SPN on the account object associated with service's logon account. For more information, see [Registering the SPNs for a Service](registering-the-spns-for-a-service.md). Registration of the SPN enables client applications to authenticate the service.
@@ -148,7 +148,3 @@ For more information about the previous code example, see [Composing the SPNs fo
  
 
  
-
-
-
-

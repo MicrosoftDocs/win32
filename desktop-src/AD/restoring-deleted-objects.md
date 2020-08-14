@@ -54,7 +54,7 @@ To completely restore a deleted object, the user must:
 
 To restore a deleted object, the object must first be located in the Deleted Objects container. For more information about retrieving deleted objects, see [Retrieving Deleted Objects](retrieving-deleted-objects.md).
 
-When the object has been located, the following operations must be completed in a single LDAP operation. This requires the use of the [**ldap\_modify\_ext\_s**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify_ext_s) function with the [**LDAP\_SERVER\_SHOW\_DELETED\_OID**](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-show-deleted-oid) control.
+When the object has been located, the following operations must be completed in a single LDAP operation. This requires the use of the [**ldap\_modify\_ext\_s**](/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify_ext_s) function with the [**LDAP\_SERVER\_SHOW\_DELETED\_OID**](/previous-versions/windows/desktop/ldap/ldap-server-show-deleted-oid) control.
 
 -   Remove the **isDeleted** attribute value. The **isDeleted** attribute value must be removed, not set to **FALSE**.
 -   Replace the distinguished name of the object so that it is moved to a container other than the Deleted Objects container. This can be any container that can normally contain the object. The distinguished name of the previous container of the object can be found in the deleted object's **lastKnownParent** attribute. The **lastKnownParent** attribute is only set if the object was deleted on a Windows Server 2003 domain controller. Thus, it is possible that the content of the **lastKnownParent** attribute is inaccurate.
@@ -244,7 +244,3 @@ HRESULT RestoreDeletedObject(LPCWSTR pwszDeletedDN, LPCWSTR pwszDestContainerDN)
  
 
  
-
-
-
-

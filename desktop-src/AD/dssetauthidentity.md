@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # DsSetAuthIdentity function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](https://msdn2.microsoft.com/library/aa384649.aspx) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](../vss/volume-shadow-copy-service-overview.md) instead.\]
 
 The **DsSetAuthIdentity** function sets the security context under which the directory backup APIs are called.
 
@@ -97,10 +97,4 @@ If **DsSetAuthIdentity** is not called, security context of the current process 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

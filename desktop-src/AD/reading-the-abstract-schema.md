@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 This topic provides a code example and guidelines for reading from the abstract schema, which provides a subset of the data stored in the **attributeSchema** and **classSchema** objects in the schema container. To retrieve data that is unavailable in the abstract schema, read the data directly from the schema container as described in [Reading attributeSchema and classSchema Objects](reading-attributeschema-and-classschema-objects.md).
 
-Use the "LDAP://schema" binding string to bind to an [**IADsContainer**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer) pointer on the abstract schema. Use this pointer to enumerate the class, attribute, and syntax entries in the abstract schema. You can also use the [**IADsContainer.GetObject**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-getobject) method to retrieve individual entries.
+Use the "LDAP://schema" binding string to bind to an [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) pointer on the abstract schema. Use this pointer to enumerate the class, attribute, and syntax entries in the abstract schema. You can also use the [**IADsContainer.GetObject**](/windows/desktop/api/iads/nf-iads-iadscontainer-getobject) method to retrieve individual entries.
 
 
 ```C++
@@ -35,7 +35,7 @@ Set adschema = GetObject("LDAP://schema")
 
 
 
-Use a similar binding string, "LDAP://schema/<object>", to bind directly to a class or attribute entry in the abstract schema. In this string, "&lt;object&gt;" is the **lDAPDisplayName** of a class or attribute. For classes bind to the [**IADsClass**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsclass) interface; for attributes, bind to [**IADsProperty**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsproperty) interface.
+Use a similar binding string, "LDAP://schema/<object>", to bind directly to a class or attribute entry in the abstract schema. In this string, "&lt;object&gt;" is the **lDAPDisplayName** of a class or attribute. For classes bind to the [**IADsClass**](/windows/desktop/api/iads/nn-iads-iadsclass) interface; for attributes, bind to [**IADsProperty**](/windows/desktop/api/iads/nn-iads-iadsproperty) interface.
 
 
 ```C++
@@ -57,7 +57,7 @@ Set userclass = GetObject("LDAP://schema/user")
 
 
 
-In addition, the [**IADs**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads) interface provides the [**IADs.Schema**](https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods) property. This property returns the ADsPath for the object class in abstract schema binding string format. If you have an **IADs** pointer to an object, you can bind to its class in the abstract schema using the ADsPath returned from **IADs.Schema**.
+In addition, the [**IADs**](/windows/desktop/api/iads/nn-iads-iads) interface provides the [**IADs.Schema**](/windows/desktop/ADSI/iads-property-methods) property. This property returns the ADsPath for the object class in abstract schema binding string format. If you have an **IADs** pointer to an object, you can bind to its class in the abstract schema using the ADsPath returned from **IADs.Schema**.
 
 For classes, the following table lists key properties provided by the abstract schema.
 
@@ -65,15 +65,15 @@ For classes, the following table lists key properties provided by the abstract s
 
 | Property                                                             | Meaning                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IADsClass.Abstract**](https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods)            | Indicates whether this is an abstract class.                                                                                                                                                                                                                                            |
-| [**IADsClass.Auxiliary**](https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods)           | Indicates whether this is an auxiliary class.                                                                                                                                                                                                                                           |
-| [**IADsClass.AuxDerivedFrom**](https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods)      | Array of auxiliary classes this class derives from.                                                                                                                                                                                                                                     |
-| [**IADsClass.Container**](https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods)           | Indicates whether objects of this class can contain other objects, which is true if any class includes this class in its list of **possibleSuperiors**.                                                                                                                                 |
-| [**IADsClass.DerivedFrom**](https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods)         | Array of classes that this class is derived from.                                                                                                                                                                                                                                       |
-| [**IADsClass.MandatoryProperties**](https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods) | Retrieves an array of the mandatory properties that must be set for an instance of the class. The returned list includes all the **mustContain** and **systemMustContain** values for the class and the classes from which it is derived, including superclasses and auxiliary classes. |
-| [**IADsClass.OID**](https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods)                 | Retrieves the governsID of the class.                                                                                                                                                                                                                                                   |
-| [**IADsClass.OptionalProperties**](https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods)  | Retrieves an array of the optional properties that might be set for an instance of the class. The returned list includes all the **mayContain** and **systemMayContain** values for the class and the classes from which it is derived, including superclasses and auxiliary classes.   |
-| [**IADsClass.PossibleSuperiors**](https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods)   | Retrieves an array of the **possibleSuperiors** values for the class, which indicates the object classes that can contain objects of this class.                                                                                                                                        |
+| [**IADsClass.Abstract**](/windows/desktop/ADSI/iadsclass-property-methods)            | Indicates whether this is an abstract class.                                                                                                                                                                                                                                            |
+| [**IADsClass.Auxiliary**](/windows/desktop/ADSI/iadsclass-property-methods)           | Indicates whether this is an auxiliary class.                                                                                                                                                                                                                                           |
+| [**IADsClass.AuxDerivedFrom**](/windows/desktop/ADSI/iadsclass-property-methods)      | Array of auxiliary classes this class derives from.                                                                                                                                                                                                                                     |
+| [**IADsClass.Container**](/windows/desktop/ADSI/iadsclass-property-methods)           | Indicates whether objects of this class can contain other objects, which is true if any class includes this class in its list of **possibleSuperiors**.                                                                                                                                 |
+| [**IADsClass.DerivedFrom**](/windows/desktop/ADSI/iadsclass-property-methods)         | Array of classes that this class is derived from.                                                                                                                                                                                                                                       |
+| [**IADsClass.MandatoryProperties**](/windows/desktop/ADSI/iadsclass-property-methods) | Retrieves an array of the mandatory properties that must be set for an instance of the class. The returned list includes all the **mustContain** and **systemMustContain** values for the class and the classes from which it is derived, including superclasses and auxiliary classes. |
+| [**IADsClass.OID**](/windows/desktop/ADSI/iadsclass-property-methods)                 | Retrieves the governsID of the class.                                                                                                                                                                                                                                                   |
+| [**IADsClass.OptionalProperties**](/windows/desktop/ADSI/iadsclass-property-methods)  | Retrieves an array of the optional properties that might be set for an instance of the class. The returned list includes all the **mayContain** and **systemMayContain** values for the class and the classes from which it is derived, including superclasses and auxiliary classes.   |
+| [**IADsClass.PossibleSuperiors**](/windows/desktop/ADSI/iadsclass-property-methods)   | Retrieves an array of the **possibleSuperiors** values for the class, which indicates the object classes that can contain objects of this class.                                                                                                                                        |
 
 
 
@@ -84,7 +84,3 @@ The abstract schema is stored in the **subSchema** object in the schema containe
  
 
  
-
-
-
-

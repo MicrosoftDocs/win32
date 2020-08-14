@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Setting up a Service's User Account
 
-Your service installer can suggest a default logon account for a service instance and allow the administrator to select the default account or specify a different one. If the administrator selects a user account, rather than the LocalSystem account, the account must exist before you call the [**CreateService**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea) function to install an instance of the service on a host server. For more information and a code example that can be used to create a new domain user object in Active Directory Domain Services, see [Creating a User](creating-a-user.md).
+Your service installer can suggest a default logon account for a service instance and allow the administrator to select the default account or specify a different one. If the administrator selects a user account, rather than the LocalSystem account, the account must exist before you call the [**CreateService**](/windows/desktop/api/winsvc/nf-winsvc-createservicea) function to install an instance of the service on a host server. For more information and a code example that can be used to create a new domain user object in Active Directory Domain Services, see [Creating a User](creating-a-user.md).
 
 Ideally, each instance of a service, whether a host-based or replicable service, should have its own domain user account. Using separate accounts for each service instance is more secure than having multiple instances share the same account. Also, using separate accounts makes it possible to audit the activities of each service instance.
 
@@ -22,7 +22,3 @@ You must generate a password for each account. For more information about how to
  
 
  
-
-
-
-

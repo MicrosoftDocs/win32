@@ -41,7 +41,7 @@ The domain controller and replication management functions use the following str
 -   [**DS\_REPL\_OPW\_BLOB**](/windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_opw_blob)
 -   [**DS\_REPL\_PENDING\_OPS**](/windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_pending_opsw)
 -   [**DS\_REPL\_QUEUE\_STATISTICSW**](/windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_queue_statisticsw)
--   [**DS\_REPL\_QUEUE\_STATISTICSW\_BLOB**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms676274(v=vs.85))
+-   [**DS\_REPL\_QUEUE\_STATISTICSW\_BLOB**](/previous-versions/windows/desktop/legacy/ms676274(v=vs.85))
 -   [**DS\_REPL\_VALUE\_META\_DATA**](/windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data)
 -   [**DS\_REPL\_VALUE\_META\_DATA\_2**](/windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_2)
 -   [**DS\_REPL\_VALUE\_META\_DATA\_EXT**](/windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_ext)
@@ -65,7 +65,3 @@ The domain controller and replication management functions use the following str
  
 
  
-
-
-
-

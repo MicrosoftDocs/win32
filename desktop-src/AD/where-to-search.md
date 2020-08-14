@@ -27,7 +27,7 @@ Domains contain most of the highly used objects such as users, contacts, groups,
 
 ## Searching the Schema Container
 
-The schema container contains the [**classSchema**](https://docs.microsoft.com/windows/desktop/ADSchema/c-classschema) and [**attributeSchema**](https://docs.microsoft.com/windows/desktop/ADSchema/c-attributeschema) objects that provide the formal definition of every class and attribute that can exist in Active Directory Domain Services. To search for objects in the schema container, bind to the schema container on any domain controller. The schema container is available on all domain controllers. The distinguished name of the schema container is obtained from the **schemaNamingContext** attribute from rootDSE. For more information about rootDSE and the **schemaNamingContext** attribute, see [Serverless Binding and RootDSE](serverless-binding-and-rootdse.md).
+The schema container contains the [**classSchema**](/windows/desktop/ADSchema/c-classschema) and [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema) objects that provide the formal definition of every class and attribute that can exist in Active Directory Domain Services. To search for objects in the schema container, bind to the schema container on any domain controller. The schema container is available on all domain controllers. The distinguished name of the schema container is obtained from the **schemaNamingContext** attribute from rootDSE. For more information about rootDSE and the **schemaNamingContext** attribute, see [Serverless Binding and RootDSE](serverless-binding-and-rootdse.md).
 
 For more information about reading from the schema or abstract schema container, see [Guidelines for Binding to the Schema](guidelines-for-binding-to-the-schema.md).
 
@@ -42,7 +42,3 @@ The global catalog holds a replica of every object in Active Directory Domain Se
  
 
  
-
-
-
-

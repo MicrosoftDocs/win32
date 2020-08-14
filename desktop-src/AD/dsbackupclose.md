@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # DsBackupClose function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](https://msdn2.microsoft.com/library/aa384649.aspx) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](../vss/volume-shadow-copy-service-overview.md) instead.\]
 
 The **DsBackupClose** function closes a backup file opened with the [**DsBackupOpenFile**](dsbackupopenfile.md) function. For each backup handle, only one file can be opened at a time, so this function closes the currently open file.
 
@@ -96,10 +96,4 @@ No file is currently open.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 
