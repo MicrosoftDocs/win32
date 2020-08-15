@@ -22,7 +22,7 @@ The ability of a user to change their password is a permission that can be grant
 3.  Obtain an [**IADsAccessControlList**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrollist) interface for the security descriptor from the [**IADsSecurityDescriptor.DiscretionaryAcl**](iadssecuritydescriptor-property-methods.md) property.
 4.  Enumerate the access control entries (ACE) for the object and search for the ACEs that have the change password GUID ({AB721A53-1E2F-11D0-9819-00AA0040529B}) for the [**IADsAccessControlEntry.ObjectType**](iadsaccesscontrolentry-property-methods.md) property and "Everyone" or "NT AUTHORITY\\SELF" well-known security principals for the **IADsAccessControlEntry.Trustee** property.
     > [!Note]  
-    > The "Everyone" and "NT AUTHORITY\\SELF" strings are localized based on the language of the first domain controller in the domain. Therefore, the strings should not be used directly. The account names should be obtained at run time by calling the [**LookupAccountSid**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) function with the SID for the "Everyone" ("S-1-1-0") and "NT AUTHORITY\\SELF" ("S-1-5-10") well-known security principals. The following C++ **GetSidAccountName**, **GetSidAccountName\_Everyone**, and **GetSidAccountName\_Self** code examples show how to do this.
+    > The "Everyone" and "NT AUTHORITY\\SELF" strings are localized based on the language of the first domain controller in the domain. Therefore, the strings should not be used directly. The account names should be obtained at run time by calling the [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) function with the SID for the "Everyone" ("S-1-1-0") and "NT AUTHORITY\\SELF" ("S-1-5-10") well-known security principals. The following C++ **GetSidAccountName**, **GetSidAccountName\_Everyone**, and **GetSidAccountName\_Self** code examples show how to do this.
 
      
 
@@ -412,7 +412,7 @@ HRESULT UserCannotChangePassword(LPCWSTR pwszUserDN,
 The following code example shows how to determine the User Cannot Change Password Permission using the LDAP provider.
 
 > [!Note]  
-> The following code example only works for domains where the primary language is English, because the "Everyone" and "NT AUTHORITY\\SELF" strings are localized based on the language of the first domain controller in the domain. There is no way in Visual Basic to obtain the account names for a well-known security principal without calling the [**LookupAccountSid**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) function. If using Visual Basic, it is suggested that you use the WinNT provider to determine the User Cannot Change Password Permission as shown in [Reading User Cannot Change Password (WinNT Provider)](reading-user-cannot-change-password-winnt-provider.md).
+> The following code example only works for domains where the primary language is English, because the "Everyone" and "NT AUTHORITY\\SELF" strings are localized based on the language of the first domain controller in the domain. There is no way in Visual Basic to obtain the account names for a well-known security principal without calling the [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) function. If using Visual Basic, it is suggested that you use the WinNT provider to determine the User Cannot Change Password Permission as shown in [Reading User Cannot Change Password (WinNT Provider)](reading-user-cannot-change-password-winnt-provider.md).
 
  
 
@@ -473,7 +473,3 @@ End Function
  
 
  
-
-
-
-

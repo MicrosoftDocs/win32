@@ -27,8 +27,8 @@ Because COM interfaces are logically connected sets of properties and methods, y
 | **IADsContainer**    | Used for object management and detection. All ADSI container objects require the [**IADsContainer**](/windows/desktop/api/Iads/nn-iads-iadscontainer) interface to manage object creation, deletion, copying and moving, binding, and enumeration.                                                                                                                                                                      |
 | **IADsPropertyList** | Used for object property management. The [**IADsPropertyList**](/windows/desktop/api/Iads/nn-iads-iadspropertylist) interface optimizes management of object data in the property cache.                                                                                                                                                                                                                                |
 | **IDirectoryObject** | Used for direct object access. The [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) interface provides low-level object access for clients that do not use Automation. This interface bypasses the object property cache and provides direct access to object properties. For more information, see [The IADs and IDirectoryObject Interfaces](the-iads-and-idirectoryobject-interfaces.md). |
-| **IUnknown**         | Used for COM object management. The [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface is required for all COM objects.                                                                                                                                                                                                                                                                              |
-| **IDispatch**        | Used for type library data and method invocation. The [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface is required for all Automation objects.                                                                                                                                                                                                                             |
+| **IUnknown**         | Used for COM object management. The [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface is required for all COM objects.                                                                                                                                                                                                                                                                              |
+| **IDispatch**        | Used for type library data and method invocation. The [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface is required for all Automation objects.                                                                                                                                                                                                                             |
 
 
 
@@ -39,7 +39,3 @@ More complex ADSI objects may expose additional interfaces. For example, [**IADs
  
 
  
-
-
-
-

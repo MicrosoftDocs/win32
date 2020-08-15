@@ -19,7 +19,7 @@ The [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) i
 **To perform a search**
 
 1.  Bind to an object in the directory.
-2.  Call [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) to get the [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) pointer.
+2.  Call [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) to get the [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) pointer.
 3.  Run the search using the [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) pointer. Call the [**IDirectorySearch::ExecuteSearch**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-executesearch) method, and pass a search filter, the requested attribute names, and other parameters.
 
 For more information about the search filter syntax, see [Search Filter Syntax](search-filter-syntax.md).
@@ -33,7 +33,7 @@ When you have located the appropriate row, call [**IDirectorySearch::GetColumn**
 **To perform a directory search**
 
 1.  Bind to an LDAP provider. It may be a domain controller or a global catalog provider.
-2.  Retrieve the [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) COM Interface with a call to [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx); this operation may have been done in Step 1 during the initial binding.
+2.  Retrieve the [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) COM Interface with a call to [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)); this operation may have been done in Step 1 during the initial binding.
 
     Optionally, call [**SetSearchPreference**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-setsearchpreference) to select options for handling the results of your search.
 
@@ -151,7 +151,3 @@ IID_IDirectorySearch,
  
 
  
-
-
-
-
