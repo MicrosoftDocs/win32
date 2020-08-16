@@ -12,30 +12,26 @@ ms.date: 05/31/2018
 
 # Bluetooth and socket
 
-The [**socket**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket) function creates a socket for incoming or outgoing connections.:
+The [**socket**](/windows/desktop/api/winsock2/nf-winsock2-socket) function creates a socket for incoming or outgoing connections.:
 
 To create a socket using Bluetooth, use the following settings:
 
--   The *af* parameter of the [**socket**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket) function is always set to **AF\_BTH** for Bluetooth sockets.
--   The *type* parameter of the [**socket**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket) function is always **SOCK\_STREAM**; **SOCK\_DGRAM** sockets are not supported by Bluetooth.
+-   The *af* parameter of the [**socket**](/windows/desktop/api/winsock2/nf-winsock2-socket) function is always set to **AF\_BTH** for Bluetooth sockets.
+-   The *type* parameter of the [**socket**](/windows/desktop/api/winsock2/nf-winsock2-socket) function is always **SOCK\_STREAM**; **SOCK\_DGRAM** sockets are not supported by Bluetooth.
 -   For the *protocol* parameter, **BTHPROTO\_RFCOMM** is the supported protocol.
 
-For more information, see [Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2).
+For more information, see [Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2).
 
 ## Related topics
 
 <dl> <dt>
 
-[Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
+[Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> <dt>
 
-[**socket**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket)
+[**socket**](/windows/desktop/api/winsock2/nf-winsock2-socket)
 </dt> </dl>
 
  
 
  
-
-
-
-

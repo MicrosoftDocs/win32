@@ -55,9 +55,9 @@ PS C:\>
 
 For information about using cmdlets, see the [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx) documentation.
 
-For more information about the Import-Module cmdlet, see [Import-Module](https://technet.microsoft.com/library/dd347701.aspx) in the Microsoft TechNet Library. For help at the command line, type **get-help import-module**.
+For more information about the Import-Module cmdlet, see [Import-Module](/previous-versions//dd347701(v=technet.10)) in the Microsoft TechNet Library. For help at the command line, type **get-help import-module**.
 
-For more information about the Add-WindowsFeature cmdlet, see [Add-WindowsFeature](https://technet.microsoft.com/library/dd347701.aspx) in the Microsoft TechNet Library. For help at the command line, type **get-help Add-WindowsFeature**.
+For more information about the Add-WindowsFeature cmdlet, see [Add-WindowsFeature](/previous-versions//dd347701(v=technet.10)) in the Microsoft TechNet Library. For help at the command line, type **get-help Add-WindowsFeature**.
 
 **To install the BITS Compact Server by using Package Manager**
 
@@ -72,19 +72,15 @@ For more information about the Add-WindowsFeature cmdlet, see [Add-WindowsFeatur
 
 The BITS Compact Server with BITS Remote Management enables more secure remote file transfers. BITS Remote Management uses a Windows Management Instrumentation (WMI) provider to let a system administrator or a controller application remotely create BITS transfer jobs on the clients and to publish files for hosting on the BITS Compact Server. The BITS provider can also be used to enable an application to remotely use the BITS client in conjunction with the BITS Compact Server to transfer files from one remote computer to another remote computer.
 
-For more information, see the [BITS provider](https://msdn.microsoft.com/library/dd904506.aspx) documentation.
+For more information, see the [BITS provider](/previous-versions/windows/desktop/bitsprov/bits-provider) documentation.
 
 ## Related topics
 
 <dl> <dt>
 
-[BITS Provider](https://msdn.microsoft.com/library/dd904506.aspx)
+[BITS provider](/previous-versions/windows/desktop/bitsprov/bits-provider)
 </dt> </dl>
 
  
 
  
-
-
-
-

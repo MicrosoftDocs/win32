@@ -19,15 +19,15 @@ This example uses the header and implementation defined in [Example: Common Clas
 **To add a helper token to a BITS transfer job**
 
 1.  Initialize COM parameters by calling the CCoInitializer function. For more information about the CCoInitializer function, see [Example: Common Classes](common-classes.md).
-2.  Get a pointer to the [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) interface. This example uses the [CComPtr Class](https://msdn.microsoft.com/library/ezzw7k98.aspx) to manage COM interface pointers.
-3.  Initialize COM process security by calling [CoInitializeSecurity](https://msdn.microsoft.com/library/ms693736.aspx). BITS requires at least the IMPERSONATE level of impersonation. BITS fails with E\_ACCESSDENIED if the correct impersonation level is not set.
-4.  Get a pointer to the [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager) interface, and obtain the initial locator to BITS by calling the [CoCreateInstance]( http://msdn.microsoft.com/en-us/library/ms686615.aspx) function.
+2.  Get a pointer to the [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) interface. This example uses the [CComPtr Class](/cpp/atl/reference/ccomptr-class?view=vs-2019) to manage COM interface pointers.
+3.  Initialize COM process security by calling [CoInitializeSecurity](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity). BITS requires at least the IMPERSONATE level of impersonation. BITS fails with E\_ACCESSDENIED if the correct impersonation level is not set.
+4.  Get a pointer to the [**IBackgroundCopyManager**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopymanager) interface, and obtain the initial locator to BITS by calling the [CoCreateInstance]( /windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) function.
 5.  Create a BITS transfer job by calling the [**IBackgroundCopyManager::CreateJob**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-createjob) method.
 6.  Get a pointer to the CNotifyInterface callback interface, and call the [**IBackgroundCopyJob::SetNotifyInterface**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setnotifyinterface) method to receive notification of job-related events. For more information about CNotifyInterface, see [Example: Common Classes](common-classes.md).
 7.  Call the [**IBackgroundCopyJob::SetNotifyFlags**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setnotifyflags) method to set the types of notifications to receive. In this example, the **BG\_NOTIFY\_JOB\_TRANSFERRED** and **BG\_NOTIFY\_JOB\_ERROR** flags are set.
 8.  Get a pointer to the [**IBitsTokenOptions**](/windows/desktop/api/Bits4_0/nn-bits4_0-ibitstokenoptions) interface by calling the **IBackgroundCopyJob::QueryInterface** method with the proper interface identifier.
-9.  Attempt to log on the user of the helper token. Create an impersonation handle, and call the [LogonUser Function]( http://msdn.microsoft.com/en-us/library/aa378184.aspx) to populate the impersonation handle. If successful, call the [ImpersonateLoggedOnUser Function](https://msdn.microsoft.com/library/aa378612.aspx). If unsuccessful, the example calls the [RevertToSelf Function](https://msdn.microsoft.com/library/aa379317.aspx) to terminate the impersonation of the logged-on user, an error is thrown, and the handle is closed.
-10. Call the [**IBitsTokenOptions::SetHelperToken**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken) method to impersonate the token of the logged-on user. If this method fails, the example calls the [RevertToSelf Function](https://msdn.microsoft.com/library/aa379317.aspx) to terminate the impersonation of the logged-on user, an error is thrown, and the handle is closed.
+9.  Attempt to log on the user of the helper token. Create an impersonation handle, and call the [LogonUser Function]( /windows/win32/api/winbase/nf-winbase-logonusera) to populate the impersonation handle. If successful, call the [ImpersonateLoggedOnUser Function](/windows/win32/api/securitybaseapi/nf-securitybaseapi-impersonateloggedonuser). If unsuccessful, the example calls the [RevertToSelf Function](/windows/win32/api/securitybaseapi/nf-securitybaseapi-reverttoself) to terminate the impersonation of the logged-on user, an error is thrown, and the handle is closed.
+10. Call the [**IBitsTokenOptions::SetHelperToken**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken) method to impersonate the token of the logged-on user. If this method fails, the example calls the [RevertToSelf Function](/windows/win32/api/securitybaseapi/nf-securitybaseapi-reverttoself) to terminate the impersonation of the logged-on user, an error is thrown, and the handle is closed.
     > [!Note]
     >
     > In supported versions of Windows before Windows 10, version 1607, the job owner must have administrative credentials to call the [**IBitsTokenOptions::SetHelperToken**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken) method.
@@ -37,10 +37,10 @@ This example uses the header and implementation defined in [Example: Common Clas
      
 
 11. Call the [**IBitsTokenOptions::SetHelperTokenFlags**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertokenflags) method to specify which resources to access using the helper token's security context.
-12. After the impersonation is complete, the example calls the [RevertToSelf Function](https://msdn.microsoft.com/library/aa379317.aspx) to terminate the impersonation of logged on user, and the handle is closed.
+12. After the impersonation is complete, the example calls the [RevertToSelf Function](/windows/win32/api/securitybaseapi/nf-securitybaseapi-reverttoself) to terminate the impersonation of logged on user, and the handle is closed.
 13. Add files to the BITS transfer job by calling [**IBackgroundCopyJob::AddFile**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-addfile).
 14. After the file is added, call [**IBackgroundCopyJob::Resume**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-resume) to resume the job.
-15. Set up a while loop to wait for the quit message from the callback interface while the job is transferring. The while loop uses the [GetTickCount](https://msdn.microsoft.com/library/ms724408.aspx) function to retrieve the number of milliseconds that have elapsed since the job started transferring.
+15. Set up a while loop to wait for the quit message from the callback interface while the job is transferring. The while loop uses the [GetTickCount](/windows/win32/api/sysinfoapi/nf-sysinfoapi-gettickcount) function to retrieve the number of milliseconds that have elapsed since the job started transferring.
 16. After the BITS transfer job is complete, remove the job from the queue by calling [**IBackgroundCopyJob::Complete**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-complete).
 
 The following code example adds a helper token to a BITS transfer job.
@@ -277,7 +277,3 @@ void _cdecl _tmain(int argc, LPWSTR* argv)
  
 
  
-
-
-
-

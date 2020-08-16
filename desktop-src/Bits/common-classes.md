@@ -34,7 +34,7 @@ The MyException class is a generic exception class that accepts an HRESULT code 
 
 ## 
 
-The following code example defines a resource acquisition helper class for the [CoInitializeEx](https://msdn.microsoft.com/library/ms695279.aspx) function.
+The following code example defines a resource acquisition helper class for the [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) function.
 
 
 ```C++
@@ -59,7 +59,7 @@ public:
 
 
 
-The CCoInitializer class deals with resource allocation and deallocation for COM initialization. This class enables the destructor to be called when the class goes out of scope. This class eliminates the need for the [CoUninitialize](https://msdn.microsoft.com/library/ms688715.aspx) method to be called after every exception block.
+The CCoInitializer class deals with resource allocation and deallocation for COM initialization. This class enables the destructor to be called when the class goes out of scope. This class eliminates the need for the [CoUninitialize](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) method to be called after every exception block.
 
 ## 
 
@@ -98,11 +98,11 @@ private:
 
 
 
-The CNotifyInterface class derived from the [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) interface. The CNotifyInterface class implements the IUnknown interface. For more information, see [IUnknown]( http://msdn.microsoft.com/en-us/library/ms680509.aspx).
+The CNotifyInterface class derived from the [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) interface. The CNotifyInterface class implements the IUnknown interface. For more information, see [IUnknown]( /windows/win32/api/unknwn/nn-unknwn-iunknown).
 
 CNotifyInterface uses the following methods to receive notification that a job is complete, has been modified, or is in an error state: [**JobTransferred**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobtransferred), [**JobModification**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-jobmodification), and [**JobError**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopycallback-joberror). All of these methods take an [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) job object.
 
-This example uses the [CoTaskMemFree](https://msdn.microsoft.com/library/ms680722.aspx) to free memory resources.
+This example uses the [CoTaskMemFree](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) to free memory resources.
 
 ## 
 
@@ -405,7 +405,7 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
 
 <dl> <dt>
 
-[IUnknown]( http://msdn.microsoft.com/en-us/library/ms680509.aspx)
+[IUnknown]( /windows/win32/api/unknwn/nn-unknwn-iunknown)
 </dt> <dt>
 
 [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback)
@@ -414,16 +414,12 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
 [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob)
 </dt> <dt>
 
-[CoInitializeEx](https://msdn.microsoft.com/library/ms695279.aspx)
+[CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex)
 </dt> <dt>
 
-[CoUninitialize](https://msdn.microsoft.com/library/ms688715.aspx)
+[CoUninitialize](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize)
 </dt> </dl>
 
  
 
  
-
-
-
-
