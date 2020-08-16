@@ -952,7 +952,7 @@ The requested item was not found.
 
 
 
-An attempt was made to call an interface method of a DirectDraw object created by [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) before the object was initialized.
+An attempt was made to call an interface method of a DirectDraw object created by [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) before the object was initialized.
 
 
 </dt> </dl> </dd> <dt>
@@ -1328,10 +1328,4 @@ The provided rectangle was not horizontally aligned on a required boundary.
 
 
  
-
- 
-
-
-
-
 

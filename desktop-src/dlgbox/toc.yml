@@ -35,7 +35,7 @@
       - name: "DialogBoxParam"
         href: /windows/desktop/api/Winuser/nf-winuser-dialogboxparama
       - name: "DLGPROC"
-        href: https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-dlgproc
+        href: /windows/desktop/api/winuser/nc-winuser-dlgproc
       - name: "EndDialog"
         href: /windows/desktop/api/Winuser/nf-winuser-enddialog
       - name: "GetDialogBaseUnits"
@@ -143,11 +143,11 @@
         href: common-dialog-box-functions.md
         items: 
         - name: "CCHookProc"
-          href: https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpcchookproc
+          href: /windows/desktop/api/commdlg/nc-commdlg-lpcchookproc
         - name: "LPCFHOOKPROC"
-          href: https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpcfhookproc
+          href: /windows/desktop/api/commdlg/nc-commdlg-lpcfhookproc
         - name: "ChooseColor"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646912(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ms646912(v=vs.85)
         - name: "ChooseFont"
           href: /windows/win32/api/Commdlg/ns-commdlg-choosefonta
         - name: "CommDlgExtendedError"
@@ -155,7 +155,7 @@
         - name: "FindText"
           href: /windows/desktop/api/Commdlg/nf-commdlg-findtexta
         - name: "LPFRHOOKPROC"
-          href: https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpfrhookproc
+          href: /windows/desktop/api/commdlg/nc-commdlg-lpfrhookproc
         - name: "GetFileTitle"
           href: /windows/desktop/api/Commdlg/nf-commdlg-getfiletitlea
         - name: "GetOpenFileName"
@@ -163,37 +163,37 @@
         - name: "GetSaveFileName"
           href: /windows/desktop/api/Commdlg/nf-commdlg-getsavefilenamea
         - name: "LPOFNHOOKPROC"
-          href: https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpofnhookproc
+          href: /windows/desktop/api/commdlg/nc-commdlg-lpofnhookproc
         - name: "LPPAGEPAINTHOOK"
-          href: https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lppagepainthook
+          href: /windows/desktop/api/commdlg/nc-commdlg-lppagepainthook
         - name: "PageSetupDlg"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ms646937(v=vs.85)
         - name: "LPPAGESETUPHOOK"
-          href: https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lppagesetuphook
+          href: /windows/desktop/api/commdlg/nc-commdlg-lppagesetuphook
         - name: "PrintDlg"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ms646940(v=vs.85)
         - name: "PrintDlgEx"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ms646942(v=vs.85)
         - name: "LPPRINTHOOKPROC"
-          href: https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpprinthookproc
+          href: /windows/desktop/api/commdlg/nc-commdlg-lpprinthookproc
         - name: "ReplaceText"
           href: /windows/desktop/api/Commdlg/nf-commdlg-replacetexta
         - name: "LPSETUPHOOKPROC"
-          href: https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpsetuphookproc
+          href: /windows/desktop/api/commdlg/nc-commdlg-lpsetuphookproc
       - name: "Common Dialog Box Interfaces"
         href: common-dialog-box-interfaces.md
         items: 
         - name: "IPrintDialogCallback"
-          href: https://docs.microsoft.com/windows/desktop/api/commdlg/nn-commdlg-iprintdialogcallback
+          href: /windows/desktop/api/commdlg/nn-commdlg-iprintdialogcallback
           items: 
           - name: "HandleMessage"
-            href: https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-handlemessage
+            href: /windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-handlemessage
           - name: "InitDone"
-            href: https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-initdone
+            href: /windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-initdone
           - name: "SelectionChange"
-            href: https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-selectionchange
+            href: /windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-selectionchange
         - name: "IPrintDialogServices"
-          href: https://docs.microsoft.com/windows/desktop/api/commdlg/nn-commdlg-iprintdialogservices
+          href: /windows/desktop/api/commdlg/nn-commdlg-iprintdialogservices
           items: 
           - name: "GetCurrentDevMode"
             href: /windows/desktop/api/Commdlg/nf-commdlg-iprintdialogservices-getcurrentdevmode

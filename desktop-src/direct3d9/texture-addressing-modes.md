@@ -18,7 +18,7 @@ Enabling texture wrapping effectively makes texture coordinates outside the \[0.
 
 ## Setting the Addressing Mode
 
-You can set texture addressing modes for individual texture stages by calling the [**IDirect3DDevice9::SetSamplerState**](/windows/desktop/api) method. Specify the desired texture stage identifier in the *Sampler* parameter. Set the *Type* parameter to D3DSAMP\_ADDRESSU, D3DSAMP\_ADDRESSV, or D3DSAMP\_ADDRESSW values to update the u-, v-, or w-addressing modes individually. The *Value* parameter determines which mode is being set. This can be any member of the [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/library/Bb172614(v=VS.85).aspx) enumerated type. To retrieve the current texture address mode for a texture stage, call [**IDirect3DDevice9::GetSamplerState**](/windows/desktop/api), using the D3DSAMP\_ADDRESSU, D3DSAMP\_ADDRESSV, or D3DSAMP\_ADDRESSW members of the [**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/library/Bb172602(v=VS.85).aspx) enumeration to identify the address mode about which you want information.
+You can set texture addressing modes for individual texture stages by calling the [**IDirect3DDevice9::SetSamplerState**](/windows/desktop/api) method. Specify the desired texture stage identifier in the *Sampler* parameter. Set the *Type* parameter to D3DSAMP\_ADDRESSU, D3DSAMP\_ADDRESSV, or D3DSAMP\_ADDRESSW values to update the u-, v-, or w-addressing modes individually. The *Value* parameter determines which mode is being set. This can be any member of the [**D3DTEXTUREADDRESS**](./d3dtextureaddress.md) enumerated type. To retrieve the current texture address mode for a texture stage, call [**IDirect3DDevice9::GetSamplerState**](/windows/desktop/api), using the D3DSAMP\_ADDRESSU, D3DSAMP\_ADDRESSV, or D3DSAMP\_ADDRESSW members of the [**D3DSAMPLERSTATETYPE**](./d3dsamplerstatetype.md) enumeration to identify the address mode about which you want information.
 
 ## Device Limitations
 
@@ -43,6 +43,3 @@ Additional information about the texture addressing modes is contained in the fo
  
 
  
-
-
-

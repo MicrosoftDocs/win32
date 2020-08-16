@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMDEC4 Extensions
 
-[**XMDEC4**](https://msdn.microsoft.com/library/Ee419431(v=VS.85).aspx)describes a 4D vector with x-,y-, and z- components represented as 10 bit signed integer values, and the w-component as a 2 bit signed integer value.
+[**XMDEC4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmdec4)describes a 4D vector with x-,y-, and z- components represented as 10 bit signed integer values, and the w-component as a 2 bit signed integer value.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -35,13 +35,9 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMDEC4**](https://msdn.microsoft.com/library/Ee419431(v=VS.85).aspx)
+[**XMDEC4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmdec4)
 </dt> </dl>
 
  
 
  
-
-
-
-

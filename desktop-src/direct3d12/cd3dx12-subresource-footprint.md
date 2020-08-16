@@ -59,7 +59,7 @@ Creates a new instance of a CD3DX12\_SUBRESOURCE\_FOOTPRINT, initialized with th
 
 Creates a new instance of a CD3DX12\_SUBRESOURCE\_FOOTPRINT, initializing the following parameters:
 
-[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
+[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
 
 UINT width
 
@@ -110,10 +110,4 @@ Defines the & pass-by-reference operator for the parent structure type.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

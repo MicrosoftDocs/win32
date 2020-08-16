@@ -38,7 +38,7 @@ HRESULT GetGutterMap(
 *pGutterData* \[in, out\]
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**BYTE**](../winprog/windows-data-types.md)\***
 
 Pointer to the texel class. Possible texel classes are as follows. There is no texel class 3.
 
@@ -97,7 +97,3 @@ Texture width and height are returned by [**ID3DXTextureGutterHelper::GetWidth**
  
 
  
-
-
-
-

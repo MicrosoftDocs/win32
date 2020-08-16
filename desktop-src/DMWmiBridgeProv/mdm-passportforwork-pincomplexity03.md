@@ -58,7 +58,7 @@ The **MDM\_PassportForWork\_PINComplexity03** class has these properties.
 
 <dl> <dt>
 
-[Digits](https://docs.microsoft.com/windows/client-management/mdm/passportforwork-csp#tenantid-policies-pincomplexity-digits)
+[Digits](/windows/client-management/mdm/passportforwork-csp#tenantid-policies-pincomplexity-digits)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -69,7 +69,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Expiration](https://docs.microsoft.com/windows/client-management/mdm/passportforwork-csp#tenantid-policies-pincomplexity-expiration)
+[Expiration](/windows/client-management/mdm/passportforwork-csp#tenantid-policies-pincomplexity-expiration)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -80,7 +80,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[History](https://docs.microsoft.com/windows/client-management/mdm/passportforwork-csp#tenantid-policies-pincomplexity-history)
+[History](/windows/client-management/mdm/passportforwork-csp#tenantid-policies-pincomplexity-history)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -100,14 +100,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Root node for PIN policies.
 
 </dd> <dt>
 
-[LowercaseLetters](https://docs.microsoft.com/windows/client-management/mdm/passportforwork-csp#tenantid-policies-pincomplexity-lowercaseletters)
+[LowercaseLetters](/windows/client-management/mdm/passportforwork-csp#tenantid-policies-pincomplexity-lowercaseletters)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -118,7 +118,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[MaximumPINLength](https://docs.microsoft.com/windows/client-management/mdm/passportforwork-csp#tenantid-policies-pincomplexity-maximumpinlength)
+[MaximumPINLength](/windows/client-management/mdm/passportforwork-csp#tenantid-policies-pincomplexity-maximumpinlength)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -129,7 +129,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[MinimumPINLength](https://docs.microsoft.com/windows/client-management/mdm/passportforwork-csp#tenantid-policies-pincomplexity-minimumpinlength)
+[MinimumPINLength](/windows/client-management/mdm/passportforwork-csp#tenantid-policies-pincomplexity-minimumpinlength)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -149,14 +149,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/PassPortForWork/*TenantID*/Policies"
 
 </dd> <dt>
 
-[SpecialCharacters](https://docs.microsoft.com/windows/client-management/mdm/passportforwork-csp#tenantid-policies-pincomplexity-specialcharacters)
+[SpecialCharacters](/windows/client-management/mdm/passportforwork-csp#tenantid-policies-pincomplexity-specialcharacters)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -167,7 +167,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[UppercaseLetters](https://docs.microsoft.com/windows/client-management/mdm/passportforwork-csp#tenantid-policies-pincomplexity-uppercaseletters)
+[UppercaseLetters](/windows/client-management/mdm/passportforwork-csp#tenantid-policies-pincomplexity-uppercaseletters)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -196,14 +196,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

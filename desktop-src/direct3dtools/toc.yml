@@ -382,7 +382,7 @@
         - name: "LoadHistogramAsync"
           href: ipixengine5-loadhistogramasync-uint-pixenginetexturesliceindex-int-bstr-ipixengine5callbacks-ptr-dword-dword.md
         - name: "RenderTextureAsync"
-          href: ipixengine5-rendertextureasync-uint-pixenginetexturesliceindex-int-float-arr4-float-arr4-bstr-uint-bstr-arr-float-arr-uint-bstr-arr-bool-arr-bstr-ipixengine5callbacks-ptr-dword-dword.md
+          href: ./ipixengine5-rendertextureasync-uint-pixenginetexturesliceindex-short-name.md
         - name: "ReadTexelValueAsync"
           href: ipixengine5-readtexelvalueasync-uint-pixenginetexturesliceindex-int-int-int-ipixengine5callbacks-ptr-dword-dword.md
         - name: "SaveTextureAsync"

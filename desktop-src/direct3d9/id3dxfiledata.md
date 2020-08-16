@@ -22,7 +22,7 @@ Applications use the methods of the ID3DXFileData interface to build or to acces
 
 ## Members
 
-The **ID3DXFileData** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXFileData** also has these types of members:
+The **ID3DXFileData** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXFileData** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -84,7 +84,3 @@ typedef interface ID3DXFileData *LPD3DXFILEDATA;
  
 
  
-
-
-
-

@@ -16,13 +16,13 @@ ms.date: 05/31/2018
 -   [Detecting Kernel-Mode Callbacks](detecting-kernel-mode-callbacks.md)
 -   [DLL Load Notification](dll-load-notification.md)
 -   [Inactivity Monitoring](inactivity-monitoring.md)
--   [**InitializeCriticalSectionAndSpinCount (KernelBase)**](https://msdn.microsoft.com/library/Ee388306(v=VS.85).aspx)
+-   [**InitializeCriticalSectionAndSpinCount (KernelBase)**](/previous-versions//ee388306(v=vs.85))
 -   [**ObFindHandleForObject**](obfindhandleforobject.md)
 -   [Pointers](pointers.md)
--   [**RegDeleteKeyEx (Api-ms-win)**](https://msdn.microsoft.com/library/Ee361587(v=VS.85).aspx)
--   [**RegDeleteKeyEx (KernelBase)**](https://msdn.microsoft.com/library/Ee125877(v=VS.85).aspx)
+-   [**RegDeleteKeyEx (Api-ms-win)**](/previous-versions//ee361587(v=vs.85))
+-   [**RegDeleteKeyEx (KernelBase)**](/previous-versions//ee125877(v=vs.85))
 -   [Run-time Library](run-time-library.md)
--   [**SetThreadStackGuarantee (KernelBase)**](https://msdn.microsoft.com/library/Ee388307(v=VS.85).aspx)
+-   [**SetThreadStackGuarantee (KernelBase)**](/previous-versions//ee388307(v=vs.85))
 -   [SndVol32.exe](sndvol32-exe-.md)
 -   [**uaw\_wcslen**](/windows/desktop/api/stralign/nf-stralign-uaw_wcslen)
 -   [Winternl](winternl.md)
@@ -31,6 +31,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-

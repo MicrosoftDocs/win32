@@ -41,7 +41,7 @@ typedef struct _D3DPRESENTSTATS {
 **PresentCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -52,7 +52,7 @@ Running count of successful Present calls made by a display device that is curre
 **PresentRefreshCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -63,7 +63,7 @@ The vblank count at which the last Present was displayed on screen, the vblank c
 **SyncRefreshCount**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -78,7 +78,7 @@ Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer~r1)
 
 </dd> <dd>
 
-The scheduler's last sampled machine time, obtained by calling [**QueryPerformanceCounter**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx).
+The scheduler's last sampled machine time, obtained by calling [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter).
 
 </dd> <dt>
 
@@ -172,7 +172,3 @@ Applications can detect a glitch by keeping track of SynchRefreshCount. For exam
  
 
  
-
-
-
-

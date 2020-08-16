@@ -44,7 +44,7 @@ BOOL bWSReading = dwStyle & WS_EX_RTLREADING;
 
 
 
-Set the reading direction by using the [**IDWriteTextFormat::SetReadingDirection**](https://msdn.microsoft.com/library/Dd316705(v=VS.85).aspx) method. The default is left-to-right, so you only need to set the reading direction if it is right-to-left.
+Set the reading direction by using the [**IDWriteTextFormat::SetReadingDirection**](/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setreadingdirection) method. The default is left-to-right, so you only need to set the reading direction if it is right-to-left.
 
 > [!Note]  
 > WS\_EX\_LAYOUTRTL mirrors the whole layout and implies right-to-left reading direction, so set the reading direction only if one of these flags is present. If both are present, they cancel one another out and the reading direction for the text format should be left-to-right.
@@ -67,7 +67,3 @@ if ((bWSLayout && !bWSReading)
  
 
  
-
-
-
-

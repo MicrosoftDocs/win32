@@ -11,7 +11,7 @@ ms.custom: "seodec18"
 
 # Resources Overview
 
-A Direct2D resource is an object that is used for drawing and is represented by a Direct2D interface, such as [**ID2D1Geometry**](https://msdn.microsoft.com/library/Dd316578(v=VS.85).aspx) or [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx). This topic describes the kinds of Direct2D resources and how they can be shared.
+A Direct2D resource is an object that is used for drawing and is represented by a Direct2D interface, such as [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry) or [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget). This topic describes the kinds of Direct2D resources and how they can be shared.
 
 This topic contains the following sections:
 
@@ -30,8 +30,8 @@ Many hardware-accelerated 2D APIs are designed around a CPU-focused resource mod
 
 Direct2D provides a more direct mapping to making full use of the GPU. It provides two categories of resources: device-independent and device-dependent.
 
--   Device-independent resources, such as [**ID2D1Geometry**](https://msdn.microsoft.com/library/Dd316578(v=VS.85).aspx), are kept on the CPU.
--   Device-dependent resources, such as [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx) and [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx), directly map to resources on the GPU (when hardware acceleration is available). Rendering calls are performed by combining vertex and coverage information from a geometry with texturing information produced by the device-dependent resources.
+-   Device-independent resources, such as [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry), are kept on the CPU.
+-   Device-dependent resources, such as [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) and [**ID2D1LinearGradientBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1lineargradientbrush), directly map to resources on the GPU (when hardware acceleration is available). Rendering calls are performed by combining vertex and coverage information from a geometry with texturing information produced by the device-dependent resources.
 
 When you create device-dependent resources, system resources (the GPU, if available, or the CPU) are allocated when the device is created and do not change from one rendering operation to another. This situation eliminates the need for a resource manager. In addition to the general performance improvements that are provided by the elimination of a resource manager, this model enables you to directly control any intermediate rendering.
 
@@ -41,13 +41,13 @@ Because Direct2D provides so much control over resources, you must understand th
 
 As described in the previous section, device-independent resources always reside on the CPU and are never associated with a hardware rendering device. The following are device-independent resources:
 
--   [**ID2D1DrawingStateBlock**](https://msdn.microsoft.com/library/Dd371218(v=VS.85).aspx)
--   [**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx)
--   [**ID2D1Geometry**](https://msdn.microsoft.com/library/Dd316578(v=VS.85).aspx) and the interfaces that inherit from it.
--   [**ID2D1GeometrySink**](https://msdn.microsoft.com/library/Dd316592(v=VS.85).aspx) and [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/library/Dd316919(v=VS.85).aspx)
--   [**ID2D1StrokeStyle**](https://msdn.microsoft.com/library/Dd372217(v=VS.85).aspx)
+-   [**ID2D1DrawingStateBlock**](/windows/win32/api/d2d1/nn-d2d1-id2d1drawingstateblock)
+-   [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)
+-   [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry) and the interfaces that inherit from it.
+-   [**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink) and [**ID2D1SimplifiedGeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink)
+-   [**ID2D1StrokeStyle**](/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle)
 
-Use an [**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx), itself a device-independent resource, to create device-independent resources. (To create a factory, use the [**CreateFactory**](/windows/desktop/api/d2d1/nf-d2d1-d2d1createfactory) function.)
+Use an [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory), itself a device-independent resource, to create device-independent resources. (To create a factory, use the [**CreateFactory**](/windows/desktop/api/d2d1/nf-d2d1-d2d1createfactory) function.)
 
 Excepti for render targets, all the resources created by a factory are device-independent. A render target is a device-dependent resource.
 
@@ -59,12 +59,12 @@ To create most device-dependent resources, use a render target. In most cases, u
 
 The following are examples of device-dependent resources:
 
--   [**ID2D1Brush**](https://msdn.microsoft.com/library/Dd371173(v=VS.85).aspx) and the interfaces that inherit from it. Use a render target to create brushes.
--   [**ID2D1Layer**](https://msdn.microsoft.com/library/Dd371483(v=VS.85).aspx). Use a render target to create layers.
--   [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx) and the interfaces that inherit from it. To create a render target, use a factory or another render target.
+-   [**ID2D1Brush**](/windows/win32/api/d2d1/nn-d2d1-id2d1brush) and the interfaces that inherit from it. Use a render target to create brushes.
+-   [**ID2D1Layer**](/windows/win32/api/d2d1/nn-d2d1-id2d1layer). Use a render target to create layers.
+-   [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) and the interfaces that inherit from it. To create a render target, use a factory or another render target.
 
 > [!Note]  
-> Starting with Windows 8, there are new interfaces that create device dependent resources. An [**ID2D1Device**](https://msdn.microsoft.com/library/Hh404478(v=VS.85).aspx) and a [**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx) can share a resource if the device context and the resource are created from the same **ID2D1Device**.
+> Starting with Windows 8, there are new interfaces that create device dependent resources. An [**ID2D1Device**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1device) and a [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) can share a resource if the device context and the resource are created from the same **ID2D1Device**.
 
  
 
@@ -72,13 +72,13 @@ Device-dependent resources become unusable when the associated rendering devices
 
 ## Sharing Factory Resources
 
-You can share all device-independent resources created by a factory with all other resources (device-independent or device-dependent) created by the same factory. For example, you can use two [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx) objects to draw the same [**ID2D1RectangleGeometry**](https://msdn.microsoft.com/library/Dd371561(v=VS.85).aspx) if both of those **ID2D1RenderTarget** objects were created by the same factory.
+You can share all device-independent resources created by a factory with all other resources (device-independent or device-dependent) created by the same factory. For example, you can use two [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) objects to draw the same [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1rectanglegeometry) if both of those **ID2D1RenderTarget** objects were created by the same factory.
 
-The sink interfaces ([**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/library/Dd316919(v=VS.85).aspx), [**ID2D1GeometrySink**](https://msdn.microsoft.com/library/Dd316592(v=VS.85).aspx), and [**ID2D1TessellationSink**](https://msdn.microsoft.com/library/Dd372245(v=VS.85).aspx)) may be shared with resources created by any factory. Unlike other interfaces in Direct2D, any implementation of a sink interface can be used. For example, you could use your own implementation of **ID2D1SimplifiedGeometrySink**.
+The sink interfaces ([**ID2D1SimplifiedGeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink), [**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink), and [**ID2D1TessellationSink**](/windows/win32/api/d2d1/nn-d2d1-id2d1tessellationsink)) may be shared with resources created by any factory. Unlike other interfaces in Direct2D, any implementation of a sink interface can be used. For example, you could use your own implementation of **ID2D1SimplifiedGeometrySink**.
 
 ## Sharing Render Target Resources
 
-Your ability to share resources created by a render target depends on the kind of render target. When you create a render target of type [**D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type), the resources created by that render target can only be used by that render target (unless the render target fits into one of the categories described in the following sections). This occurs because you do not know what device the render target will end up using—it could end up rendering to local hardware, software, or to a remote client's hardware. For example, you could write a program that stops working when it is displayed remotely or when the render target is increased in size beyond the maximum size supported by the rendering hardware.
+Your ability to share resources created by a render target depends on the kind of render target. When you create a render target of type [**D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type), the resources created by that render target can only be used by that render target (unless the render target fits into one of the categories described in the following sections). This occurs because you do not know what device the render target will end up using—it could end up rendering to local hardware, software, or to a remote client's hardware. For example, you could write a program that stops working when it is displayed remotely or when the render target is increased in size beyond the maximum size supported by the rendering hardware.
 
 The following sections describe the circumstances under which a resource created by one render target can be shared with another render target.
 
@@ -86,7 +86,7 @@ The following sections describe the circumstances under which a resource created
 
 You can share resources between any render target that explicitly uses hardware, as long as the remoting mode is compatible. The remoting mode is only guaranteed to be compatible when both render targets use the [**D2D1\_RENDER\_TARGET\_USAGE\_FORCE\_BITMAP\_REMOTING**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_usage) or **D2D1\_RENDER\_TARGET\_USAGE\_GDI\_COMPATIBLE** usage flag, or if neither flag is specified. These settings guarantee that the resources will always be located on the same computer. To specify a usage mode, set the **usage** field of the [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure that you used to create the render target with one or more **D2D1\_RENDER\_TARGET\_USAGE** flags.
 
-To create a render target that explicitly uses hardware rendering, set the **type** field of the [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure that you used to create the render target to [**D2D1\_RENDER\_TARGET\_TYPE\_HARDWARE**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type).
+To create a render target that explicitly uses hardware rendering, set the **type** field of the [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure that you used to create the render target to [**D2D1\_RENDER\_TARGET\_TYPE\_HARDWARE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type).
 
 ### DXGI Surface Render Targets
 
@@ -96,12 +96,8 @@ You can share resources created by a DXGI surface render target with any other D
 
 You can share resources between a render target and compatible render targets that are created by that render target. To create a compatible render target, use the [**ID2D1RenderTarget::CreateCompatibleRenderTarget**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(id2d1bitmaprendertarget)) method.
 
-You can use the [**ID2D1RenderTarget::CreateSharedBitmap**](https://msdn.microsoft.com/library/Dd371865(v=VS.85).aspx) method to create an [**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85).aspx) that can be shared between the two render targets that are specified in the method call, if the method succeeds. This method will succeed as long as the two render targets use the same underlying device for rendering.
+You can use the [**ID2D1RenderTarget::CreateSharedBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap) method to create an [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) that can be shared between the two render targets that are specified in the method call, if the method succeeds. This method will succeed as long as the two render targets use the same underlying device for rendering.
 
  
 
  
-
-
-
-

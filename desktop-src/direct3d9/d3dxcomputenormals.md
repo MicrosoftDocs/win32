@@ -48,7 +48,7 @@ Pointer to an [**ID3DXBaseMesh**](id3dxbasemesh.md) interface, representing the 
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the created progressive mesh. This parameter is optional and should be set to **NULL** if it is unused.
 
@@ -113,7 +113,3 @@ D3DXComputeTangentFrameEx( pMesh,
  
 
  
-
-
-
-

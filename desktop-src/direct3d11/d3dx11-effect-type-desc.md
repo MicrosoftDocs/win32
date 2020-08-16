@@ -47,7 +47,7 @@ typedef struct _D3DX11_EFFECT_TYPE_DESC {
 **TypeName**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -58,29 +58,29 @@ Name of the type, for example "float4" or "MyStruct".
 **Class**
 </dt> <dd>
 
-Type: **[**D3D10\_SHADER\_VARIABLE\_CLASS**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_class)**
+Type: **[**D3D10\_SHADER\_VARIABLE\_CLASS**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_class)**
 
 </dd> <dd>
 
-The variable class (see [**D3D10\_SHADER\_VARIABLE\_CLASS**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_class)).
+The variable class (see [**D3D10\_SHADER\_VARIABLE\_CLASS**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_class)).
 
 </dd> <dt>
 
 **Type**
 </dt> <dd>
 
-Type: **[**D3D10\_SHADER\_VARIABLE\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_type)**
+Type: **[**D3D10\_SHADER\_VARIABLE\_TYPE**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_type)**
 
 </dd> <dd>
 
-The variable type (see [**D3D10\_SHADER\_VARIABLE\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_type)).
+The variable type (see [**D3D10\_SHADER\_VARIABLE\_TYPE**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_type)).
 
 </dd> <dt>
 
 **Elements**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -91,7 +91,7 @@ Number of elements in this type (0 if not an array).
 **Members**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -102,7 +102,7 @@ Number of members (0 if not a structure).
 **Rows**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -113,7 +113,7 @@ Number of rows in this type (0 if not a numeric primitive).
 **Columns**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -124,7 +124,7 @@ Number of columns in this type (0 if not a numeric primitive).
 **PackedSize**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -135,7 +135,7 @@ Number of bytes required to represent this data type, when tightly packed.
 **UnpackedSize**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -146,7 +146,7 @@ Number of bytes occupied by this data type, when laid out in a constant buffer.
 **Stride**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -176,10 +176,4 @@ D3DX11\_EFFECT\_TYPE\_DESC is used with [**ID3DX11EffectType::GetDesc**](id3dx11
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

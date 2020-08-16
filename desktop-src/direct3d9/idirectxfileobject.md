@@ -22,7 +22,7 @@ Applications use the methods of the IDirectXFileObject interface to retrieve inf
 
 ## Members
 
-The **IDirectXFileObject** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IDirectXFileObject** also has these types of members:
+The **IDirectXFileObject** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IDirectXFileObject** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -75,7 +75,3 @@ typedef interface IDirectXFileObject *LPDIRECTXFILEOBJECT;
  
 
  
-
-
-
-

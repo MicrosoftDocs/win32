@@ -751,7 +751,7 @@ A volume has been accessed for which a file system driver is required that has n
 
 
 
-{Unexpected Failure in [**DebugActiveProcess**](https://msdn.microsoft.com/library/ms679295(v=VS.85).aspx)} An unexpected failure occurred while processing a **DebugActiveProcess** API request. You may choose OK to terminate the process, or Cancel to ignore the error.
+{Unexpected Failure in [**DebugActiveProcess**](/windows/win32/api/debugapi/nf-debugapi-debugactiveprocess)} An unexpected failure occurred while processing a **DebugActiveProcess** API request. You may choose OK to terminate the process, or Cancel to ignore the error.
 
 
 </dt> </dl> </dd> <dt>
@@ -3548,7 +3548,3 @@ Error performing inpage operation.
  
 
  
-
-
-
-

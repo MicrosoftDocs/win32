@@ -39,9 +39,9 @@ HRESULT D3DXFillVolumeTextureTX(
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUMETEXTURE9**](https://msdn.microsoft.com/library/Bb205941(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DVOLUMETEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolumetexture9)**
 
-Pointer to an [**IDirect3DVolumeTexture9**](https://msdn.microsoft.com/library/Bb205941(v=VS.85).aspx) object, representing the texture to be filled.
+Pointer to an [**IDirect3DVolumeTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolumetexture9) object, representing the texture to be filled.
 
 </dd> <dt>
 
@@ -97,7 +97,3 @@ The input parameters can be in any order. For an example, see [**D3DXFillTexture
  
 
  
-
-
-
-

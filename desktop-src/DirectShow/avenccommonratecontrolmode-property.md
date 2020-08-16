@@ -24,13 +24,13 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncCommonRateControlMode**](https://msdn.microsoft.com/library/Dd388772(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVEncCommonRateControlMode**](/windows/win32/api/codecapi/ne-codecapi-eavenccommonratecontrolmode) enumeration.
 
 ## Remarks
 
-This property is also used with [H.264 UVC 1.5 camera encoders](https://docs.microsoft.com/windows/desktop/medfound/camera-encoder-h264-uvc-1-5).
+This property is also used with [H.264 UVC 1.5 camera encoders](/windows/desktop/medfound/camera-encoder-h264-uvc-1-5).
 
-[CODECAPI\_AVEncVideoTemporalLayerCount](https://docs.microsoft.com/windows/desktop/medfound/codecapi-avencvideotemporallayercount), [CODECAPI\_AVEncVideoUsage](https://docs.microsoft.com/windows/desktop/medfound/codecapi-avencvideousage), and CODECAPI\_AVEncCommonRateControlMode are static encoder properties. Once set, these will only take effect after a set media type is called on the camera’s output pin.
+[CODECAPI\_AVEncVideoTemporalLayerCount](/windows/desktop/medfound/codecapi-avencvideotemporallayercount), [CODECAPI\_AVEncVideoUsage](/windows/desktop/medfound/codecapi-avencvideousage), and CODECAPI\_AVEncCommonRateControlMode are static encoder properties. Once set, these will only take effect after a set media type is called on the camera’s output pin.
 
 ## Requirements
 
@@ -55,9 +55,4 @@ This property is also used with [H.264 UVC 1.5 camera encoders](https://docs.mic
 </dt> </dl>
 
  
-
- 
-
-
-
 

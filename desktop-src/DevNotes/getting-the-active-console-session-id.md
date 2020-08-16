@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The following Winternl.h definition is the static memory address of the active Terminal Services console session ID. This active console session ID is not defined in versions of the Microsoft Windows operating system earlier than Windows XP.
 
 > [!Note]  
-> This definition may change in future releases of Windows. To ensure that your application will continue to run correctly in the future, your application must call [**WTSGetActiveConsoleSessionId**](https://msdn.microsoft.com/library/Aa383835(v=VS.85).aspx).
+> This definition may change in future releases of Windows. To ensure that your application will continue to run correctly in the future, your application must call [**WTSGetActiveConsoleSessionId**](/windows/win32/api/winbase/nf-winbase-wtsgetactiveconsolesessionid).
 
  
 
@@ -23,6 +23,3 @@ The following Winternl.h definition is the static memory address of the active T
  
 
  
-
-
-

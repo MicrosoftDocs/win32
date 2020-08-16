@@ -208,7 +208,7 @@ The values in this enumerated type are used by the following render states:
 -   D3DRS\_DESTBLENDALPHA
 -   D3DRS\_SRCBLENDALPHA
 
-See [**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx)
+See [**D3DRENDERSTATETYPE**](./d3drenderstatetype.md)
 
 ### Render Target Blending
 
@@ -236,7 +236,3 @@ These new blending modes are only used for text rendering on the first render ta
  
 
  
-
-
-
-

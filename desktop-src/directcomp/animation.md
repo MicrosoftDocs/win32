@@ -52,7 +52,7 @@ DirectComposition runs animations on a separate thread. You can start an animati
 
 DirectComposition animates an object property based on an animation function that you define. An *animation function* is a construct that specifies how the value of an object property changes over a period of time. For example, you could define an animation function that changes the value of a property from 1 to 360 over the course of 4 seconds. Then, if you apply the animation function to the Angle property of a 2D rotate transform object, and then apply the transform object to the Transform property of a visual, the animation function would rotate the visual in a full circle over the course of 4 seconds.
 
-An animation function is represented by an *animation object* created by a call to the [**IDCompositionDevice::CreateAnimation**](https://msdn.microsoft.com/library/Hh437394(v=VS.85).aspx) method. You create an animation function by using the methods of an animation object's [**IDCompositionAnimation**](/windows/desktop/api/DcompAnimation/nn-dcompanimation-idcompositionanimation) interface to append *animation segments*, one at a time, to the array that defines the animation function. When appending a segment, you specify a zero-based offset that marks the begin time of the segment, relative to the beginning of the animation function. Animation segments must be appended in increasing order of begin times. Attempting to append an animation segment whose begin time is before or equal to a preceding segment will fail. An animation function can have a specified end time, indicating when the function should conclude.
+An animation function is represented by an *animation object* created by a call to the [**IDCompositionDevice::CreateAnimation**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createanimation) method. You create an animation function by using the methods of an animation object's [**IDCompositionAnimation**](/windows/desktop/api/DcompAnimation/nn-dcompanimation-idcompositionanimation) interface to append *animation segments*, one at a time, to the array that defines the animation function. When appending a segment, you specify a zero-based offset that marks the begin time of the segment, relative to the beginning of the animation function. Animation segments must be appended in increasing order of begin times. Attempting to append an animation segment whose begin time is before or equal to a preceding segment will fail. An animation function can have a specified end time, indicating when the function should conclude.
 
 Unless otherwise specified, an animation function starts when the Desktop Window Manager (DWM) receives the command to execute the animation. Each segment runs until the begin time of the next segment is reached. Any discontinuous changes that occur in the animated property value between segments are considered to be discrete changes.
 
@@ -112,7 +112,7 @@ After appending an end segment, you cannot append any other segments to the anim
 
 Windows Animation Manager (Windows Animation) outputs animation primitives in a format that is compatible with the DirectComposition API. This means that DirectComposition can create animations based on animation primitives created by Windows Animation.
 
-For more information, see [Windows Animation Manager](https://docs.microsoft.com/windows/desktop/UIAnimation/-main-portal), the [**IUIAnimationVariable2::GetCurve**](https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getcurve) method, and [Managing DirectComposition animation with Windows Animation Manager v2 sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionWindowsAnimationManager).
+For more information, see [Windows Animation Manager](/windows/desktop/UIAnimation/-main-portal), the [**IUIAnimationVariable2::GetCurve**](/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getcurve) method, and [Managing DirectComposition Animation with Windows Animation Manager v2](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionWindowsAnimationManager).
 
 ## Related topics
 
@@ -124,7 +124,3 @@ For more information, see [Windows Animation Manager](https://docs.microsoft.com
  
 
  
-
-
-
-

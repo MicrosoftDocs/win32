@@ -51,7 +51,7 @@ A pointer to a null-terminated string that specifies a valid UNC directory or pa
 *lpFind32* \[out\]
 </dt> <dd>
 
-A pointer to the [**WIN32\_FIND\_DATA**](https://msdn.microsoft.com/library/Aa365740(v=VS.85).aspx) structure that receives information about the file or subdirectory.
+A pointer to the [**WIN32\_FIND\_DATA**](/windows/win32/api/minwinbase/ns-minwinbase-win32_find_dataa) structure that receives information about the file or subdirectory.
 
 </dd> <dt>
 
@@ -92,7 +92,7 @@ This parameter can be one of the following values.
 *lpOrgFileTime* \[out\]
 </dt> <dd>
 
-A pointer to a [**FILETIME**](https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx) structure to receive the date and time information for the file or subdirectory.
+A pointer to a [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure to receive the date and time information for the file or subdirectory.
 
 </dd> </dl>
 
@@ -104,7 +104,7 @@ If the function fails, the return value is **INVALID\_HANDLE\_VALUE**.
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
@@ -119,7 +119,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

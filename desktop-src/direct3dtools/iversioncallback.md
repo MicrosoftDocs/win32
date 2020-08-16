@@ -26,7 +26,7 @@ Callback to return the versions of all the interfaces supported. This allows the
 
 ## Members
 
-The **IVersionCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IVersionCallback** also has these types of members:
+The **IVersionCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IVersionCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IVersionCallback** interface has these methods.
  
 
  
-
-
-

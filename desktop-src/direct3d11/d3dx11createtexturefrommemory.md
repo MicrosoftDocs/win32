@@ -67,7 +67,7 @@ A pointer to the device (see [**ID3D11Device**](/windows/desktop/api/D3D11/nn-d3
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCVOID**](/windows/desktop/WinProg/windows-data-types)**
 
 Pointer to the resource in system memory.
 
@@ -76,7 +76,7 @@ Pointer to the resource in system memory.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**SIZE\_T**](/windows/desktop/WinProg/windows-data-types)**
 
 Size of the resource in system memory.
 
@@ -143,10 +143,4 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

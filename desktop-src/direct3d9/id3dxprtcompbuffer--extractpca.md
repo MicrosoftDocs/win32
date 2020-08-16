@@ -40,7 +40,7 @@ HRESULT ExtractPCA(
 *StartPCA* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Starting index for PCA projection coefficients to extract from the buffer.
 
@@ -49,7 +49,7 @@ Starting index for PCA projection coefficients to extract from the buffer.
 *NumExtract* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of PCA projection coefficients to extract from the buffer.
 
@@ -58,7 +58,7 @@ Number of PCA projection coefficients to extract from the buffer.
 *pPCACoefficients* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to the location where clustered principal component analysis (CPCA) coefficients are written. The size of the data written is (Number of Samples) \* (Number of PCA Coefficients).
 
@@ -91,7 +91,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
  
 
  
-
-
-
-

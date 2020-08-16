@@ -24,8 +24,8 @@ Sets the Y-intercept of the linear function for the red channel.
 
 | Method                                                                                                       | Description                                                                 |
 |:-------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------|
-| [**SetRedYIntercept**](https://msdn.microsoft.com/library/Dn919761(v=VS.85).aspx)                               | Sets the Y-intercept of the linear function for the red channel.<br/> |
-| [**SetRedYIntercept (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919762(v=VS.85).aspx) | Sets the Y-intercept of the linear function for the red channel.<br/> |
+| [**SetRedYIntercept**](/windows/win32/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setredyintercept(float))                               | Sets the Y-intercept of the linear function for the red channel.<br/> |
+| [**SetRedYIntercept (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setredyintercept(idcompositionanimation)) | Sets the Y-intercept of the linear function for the red channel.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Sets the Y-intercept of the linear function for the red channel.
 
 <dl> <dt>
 
-[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/library/Dn919741(v=VS.85).aspx)
+[**IDCompositionLinearTransferEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionlineartransfereffect)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

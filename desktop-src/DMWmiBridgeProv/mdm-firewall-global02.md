@@ -61,7 +61,7 @@ The **MDM\_Firewall\_Global02** class has these properties.
 
 <dl> <dt>
 
-[BinaryVersionSupported](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#binaryversionsupported)
+[BinaryVersionSupported](/windows/client-management/mdm/firewall-csp#binaryversionsupported)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -72,7 +72,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[CRLcheck](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#crlcheck)
+[CRLcheck](/windows/client-management/mdm/firewall-csp#crlcheck)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -83,7 +83,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[CurrentProfiles](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#currentprofiles)
+[CurrentProfiles](/windows/client-management/mdm/firewall-csp#currentprofiles)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -94,7 +94,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableStatefulFtp](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#disablestatefulftp)
+[DisableStatefulFtp](/windows/client-management/mdm/firewall-csp#disablestatefulftp)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -105,7 +105,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnablePacketQueue](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#enablepacketqueue)
+[EnablePacketQueue](/windows/client-management/mdm/firewall-csp#enablepacketqueue)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -125,12 +125,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[IPsecExempt](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#ipsecexempt)
+[IPsecExempt](/windows/client-management/mdm/firewall-csp#ipsecexempt)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -141,7 +141,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[OpportunisticallyMatchAuthSetPerKM](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#opportunisticallymatchauthsetperkm)
+[OpportunisticallyMatchAuthSetPerKM](/windows/client-management/mdm/firewall-csp#opportunisticallymatchauthsetperkm)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -161,12 +161,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[PolicyVersion](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#policyversion)
+[PolicyVersion](/windows/client-management/mdm/firewall-csp#policyversion)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -177,7 +177,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PolicyVersionSupported](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#policyversionsupported)
+[PolicyVersionSupported](/windows/client-management/mdm/firewall-csp#policyversionsupported)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -188,7 +188,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PresharedKeyEncoding](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#presharedkeyencoding)
+[PresharedKeyEncoding](/windows/client-management/mdm/firewall-csp#presharedkeyencoding)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -199,7 +199,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SaIdleTime](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#saidletime)
+[SaIdleTime](/windows/client-management/mdm/firewall-csp#saidletime)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -225,10 +225,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

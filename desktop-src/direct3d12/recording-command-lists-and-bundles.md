@@ -213,7 +213,7 @@ Applications can expect to see DXGI\_DEVICE\_REMOVED errors in the following API
 
 ## Command list API Restrictions
 
-Some command list APIs can only be called on certain types of command lists. The table below shows which command list APIs are valid to call on each type of command list. It also shows which APIs are valid to call in a [**D3D12 render pass**](/windows/win32/direct3d12/direct3d-12-render-passes). 
+Some command list APIs can only be called on certain types of command lists. The table below shows which command list APIs are valid to call on each type of command list. It also shows which APIs are valid to call in a [**D3D12 render pass**](./direct3d-12-render-passes.md). 
 
 | API Name                                         | Graphics | Compute | Copy | Bundle | In Render Pass |
 |--------------------------------------------------|:--------:|:-------:|:----:|:------:|:--------------:|

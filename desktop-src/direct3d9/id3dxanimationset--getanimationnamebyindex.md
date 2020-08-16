@@ -39,7 +39,7 @@ HRESULT GetAnimationNameByIndex(
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Index of the animation.
 
@@ -48,7 +48,7 @@ Index of the animation.
 *ppName* \[out\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)\***
 
 Address of a pointer to a string that receives the animation name.
 
@@ -58,7 +58,7 @@ Address of a pointer to a string that receives the animation name.
 
 Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
-The return values of this method are implemented by an application programmer. In general, if no error occurs, program the method to return D3D\_OK. Otherwise, program the method to return an appropriate error message from [D3DERR](d3derr.md) or [**D3DXERR**](https://msdn.microsoft.com/library/Bb172825(v=VS.85).aspx).
+The return values of this method are implemented by an application programmer. In general, if no error occurs, program the method to return D3D\_OK. Otherwise, program the method to return an appropriate error message from [D3DERR](d3derr.md) or [**D3DXERR**](./d3dxerr.md).
 
 ## Requirements
 
@@ -81,7 +81,3 @@ The return values of this method are implemented by an application programmer. I
  
 
  
-
-
-
-

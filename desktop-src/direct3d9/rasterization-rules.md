@@ -48,7 +48,7 @@ For both rectangles, the same pixels are affected, as shown in the following ill
 
 Points are rendered the same as point sprites, which are both rendered as screen-aligned quadrilaterals and thus adhere to the same rules as polygon rendering.
 
-Non-antialiased line rendering rules are exactly the same as those for [GDI lines](https://msdn.microsoft.com/library/Dd145027(v=VS.85).aspx).
+Non-antialiased line rendering rules are exactly the same as those for [GDI lines](../gdi/lines.md).
 
 For information about antialiased line rendering, see [**ID3DXLine**](id3dxline.md).
 
@@ -66,6 +66,3 @@ Point sprites and patch primitives are rasterized as if the primitives were firs
  
 
  
-
-
-

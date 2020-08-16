@@ -45,16 +45,16 @@ HRESULT D3DXCheckVolumeTextureRequirements(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the device to be associated with the volume texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, representing the device to be associated with the volume texture.
 
 </dd> <dt>
 
 *pWidth* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to the requested width in pixels, or **NULL**. Returns the corrected size.
 
@@ -63,7 +63,7 @@ Pointer to the requested width in pixels, or **NULL**. Returns the corrected siz
 *pHeight* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to the requested height in pixels, or **NULL**. Returns the corrected size.
 
@@ -72,7 +72,7 @@ Pointer to the requested height in pixels, or **NULL**. Returns the corrected si
 *pDepth* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to the requested depth in pixels, or **NULL**. Returns the corrected size.
 
@@ -81,7 +81,7 @@ Pointer to the requested depth in pixels, or **NULL**. Returns the corrected siz
 *pNumMipLevels* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to the number of requested mipmap levels, or **NULL**. Returns the corrected number of mipmap levels.
 
@@ -90,7 +90,7 @@ Pointer to the number of requested mipmap levels, or **NULL**. Returns the corre
 *Usage* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Currently not used, set to 0.
 
@@ -108,9 +108,9 @@ Pointer to a member of the [D3DFORMAT](d3dformat.md) enumerated type. Specifies 
 *Pool* \[in\]
 </dt> <dd>
 
-Type: **[**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx)**
+Type: **[**D3DPOOL**](./d3dpool.md)**
 
-Member of the [**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx) enumerated type, describing the memory class into which the volume texture should be placed.
+Member of the [**D3DPOOL**](./d3dpool.md) enumerated type, describing the memory class into which the volume texture should be placed.
 
 </dd> </dl>
 
@@ -145,7 +145,3 @@ If parameters to this function are invalid, this function returns corrected para
  
 
  
-
-
-
-

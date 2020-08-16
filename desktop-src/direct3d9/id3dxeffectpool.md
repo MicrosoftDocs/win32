@@ -22,7 +22,7 @@ Applications use the **ID3DXEffectPool** interface to identify parameters that a
 
 ## Members
 
-The **ID3DXEffectPool** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface but does not have additional members.
+The **ID3DXEffectPool** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Remarks
 
@@ -59,7 +59,3 @@ typedef interface ID3DXEffectPool *LPD3DXEFFECTPOOL;
  
 
  
-
-
-
-

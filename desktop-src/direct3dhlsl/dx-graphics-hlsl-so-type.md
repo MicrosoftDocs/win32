@@ -13,7 +13,7 @@ api_location:
 
 # Stream-Output Object
 
-A stream-output object is a templated object that streams data out of the [geometry-shader stage](https://docs.microsoft.com/previous-versions//bb205146(v=vs.85)). Use the following syntax to declare a stream-output object.
+A stream-output object is a templated object that streams data out of the [geometry-shader stage](/previous-versions//bb205146(v=vs.85)). Use the following syntax to declare a stream-output object.
 
 
 
@@ -123,7 +123,3 @@ This object is supported in the following shader models.
  
 
  
-
-
-
-

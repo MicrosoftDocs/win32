@@ -46,7 +46,7 @@ HRESULT D3DX11CreateThreadPump(
 *cIoThreads* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The number of I/O threads to create. If 0 is specified, Direct3D will attempt to calculate the optimal number of threads based on the hardware configuration.
 
@@ -55,7 +55,7 @@ The number of I/O threads to create. If 0 is specified, Direct3D will attempt to
 *cProcThreads* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The number of process threads to create. If 0 is specified, Direct3D will attempt to calculate the optimal number of threads based on the hardware configuration.
 
@@ -82,9 +82,9 @@ A thread pump is a very resource-intensive object. Only one thread pump should b
 
 There s no implementation of the  async loader  outside of D3DX 10, and D3DX 11.
 
-For Windows Store apps, the DirectX samples (for example, the [Direct3D tutorial sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct3D%20tutorial%20sample)) include the **BasicLoader** module that uses the Windows Runtime asynchronous programming model ([**AsyncBase**](https://msdn.microsoft.com/library/BR244878(v=VS.110).aspx)).
+For Windows Store apps, the DirectX samples (for example, the [Direct3D tutorial sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct3D%20tutorial%20sample)) include the **BasicLoader** module that uses the Windows Runtime asynchronous programming model ([**AsyncBase**](/previous-versions/visualstudio/visual-studio-2012/br244878(v=vs.110))).
 
-For Win32 desktop apps, you can use the [Concurrency Runtime](https://msdn.microsoft.com/library/Ee207192(v=VS.100).aspx) to implement something similar to the Windows Runtime asynchronous programming model.
+For Win32 desktop apps, you can use the [Concurrency Runtime](/previous-versions/visualstudio/visual-studio-2010/ee207192(v=vs.100)) to implement something similar to the Windows Runtime asynchronous programming model.
 
 ## Requirements
 
@@ -105,10 +105,4 @@ For Win32 desktop apps, you can use the [Concurrency Runtime](https://msdn.micro
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

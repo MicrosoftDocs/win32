@@ -56,7 +56,7 @@ The **MDM\_DevDetail** class has these properties.
 
 <dl> <dt>
 
-[DevTyp](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp#devtyp)
+[DevTyp](/windows/client-management/mdm/devdetail-csp#devtyp)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -67,7 +67,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[FwV](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp#fwv)
+[FwV](/windows/client-management/mdm/devdetail-csp#fwv)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -78,7 +78,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HwV](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp#hwv)
+[HwV](/windows/client-management/mdm/devdetail-csp#hwv)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -98,14 +98,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "DevDetail"
 
 </dd> <dt>
 
-[LrgObj](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp#lrgobj)
+[LrgObj](/windows/client-management/mdm/devdetail-csp#lrgobj)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -116,7 +116,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[OEM](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp#oem)
+[OEM](/windows/client-management/mdm/devdetail-csp#oem)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -136,14 +136,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node.
 
 </dd> <dt>
 
-[SwV](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp#swv)
+[SwV](/windows/client-management/mdm/devdetail-csp#swv)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -172,14 +172,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

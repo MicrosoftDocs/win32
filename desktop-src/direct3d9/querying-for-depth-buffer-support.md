@@ -12,7 +12,7 @@ As with any feature, the driver that your application uses might not support all
 
 You can check for general support for depth buffers by querying Direct3D for the display device that your application will use before you create a Direct3D device. If the Direct3D object reports that it supports depth buffering, any hardware devices you create from this Direct3D object will support z-buffering.
 
-To query for depth buffering support, you can use the [**IDirect3D9::CheckDeviceFormat**](https://msdn.microsoft.com/library/Bb174309(v=VS.85).aspx) method, as shown in the following code example.
+To query for depth buffering support, you can use the [**IDirect3D9::CheckDeviceFormat**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformat) method, as shown in the following code example.
 
 
 ```
@@ -29,9 +29,9 @@ if(FAILED(m_pD3D->CheckDeviceFormat(pCaps->AdapterOrdinal,
 
 
 
-[**IDirect3D9::CheckDeviceFormat**](https://msdn.microsoft.com/library/Bb174309(v=VS.85).aspx) allows you to choose a device to create based on the capabilities of that device. In this case, devices that do not support 16-bit depth buffers are rejected.
+[**IDirect3D9::CheckDeviceFormat**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformat) allows you to choose a device to create based on the capabilities of that device. In this case, devices that do not support 16-bit depth buffers are rejected.
 
-Using [**IDirect3D9::CheckDepthStencilMatch**](https://msdn.microsoft.com/library/Bb174308(v=VS.85).aspx) to determine depth-stencil compatibility with a render target is illustrated in the following code example.
+Using [**IDirect3D9::CheckDepthStencilMatch**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdepthstencilmatch) to determine depth-stencil compatibility with a render target is illustrated in the following code example.
 
 
 ```
@@ -64,6 +64,3 @@ When you know that the driver supports depth buffers, you can verify w-buffer su
  
 
  
-
-
-

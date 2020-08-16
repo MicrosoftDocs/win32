@@ -31,7 +31,7 @@ To create a source object, call [**IAMTimeline::CreateEmptyNode**](iamtimeline-c
 
 ## Members
 
-The **IAMTimelineSrc** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineSrc** also has these types of members:
+The **IAMTimelineSrc** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IAMTimelineSrc** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -96,7 +96,3 @@ The **IAMTimelineSrc** interface has these methods.
  
 
  
-
-
-
-

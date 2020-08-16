@@ -58,7 +58,7 @@ Returns an array of 4D floating point vectors.
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of vectors in the array.
 
@@ -98,7 +98,3 @@ If the destination vectors are larger than the source vectors, only the initial 
  
 
  
-
-
-
-

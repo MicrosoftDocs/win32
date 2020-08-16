@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMFLOAT4X4 Extensions
 
-[**XMFLOAT4X4**](https://msdn.microsoft.com/library/Ee419621(v=VS.85).aspx) describes a 4\*4 floating point matrix.
+[**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4) describes a 4\*4 floating point matrix.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -35,13 +35,9 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4X4**](https://msdn.microsoft.com/library/Ee419621(v=VS.85).aspx)
+[**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4)
 </dt> </dl>
 
  
 
  
-
-
-
-

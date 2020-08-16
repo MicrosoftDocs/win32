@@ -27,13 +27,13 @@ Displays a modal dialog box that allows the user to set the following attributes
 -   The page orientation (portrait or landscape)
 -   The width of the page margins
 
-You create and display a **Page Setup** dialog box by initializing a [**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga) structure and passing the structure to the [**PageSetupDlg**](https://msdn.microsoft.com/library/ms646937(v=VS.85).aspx) function. However, the attributes presented in the dialog box vary, depending on the capabilities of the printer. The following illustration shows a typical **Page Setup** dialog box.
+You create and display a **Page Setup** dialog box by initializing a [**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga) structure and passing the structure to the [**PageSetupDlg**](/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)) function. However, the attributes presented in the dialog box vary, depending on the capabilities of the printer. The following illustration shows a typical **Page Setup** dialog box.
 
 ![page setup dialog box](images/pagesetupdialogboxxp.png)
 
-If the user clicks the **OK** button, [**PageSetupDlg**](https://msdn.microsoft.com/library/ms646937(v=VS.85).aspx) returns **TRUE** after setting various members in the [**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga) structure to specify the user's selections. The **ptPaperSize** and **rtMargin** members contain the values specified by the user. The **hDevMode** and **hDevNames** members contain global memory handles for the [**DEVMODE**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) and [**DEVNAMES**](/windows/win32/api/commdlg/ns-commdlg-devnames) structures. These structures contain additional page information as well as information about the printer. You can use this information to prepare the output to be sent to the selected printer.
+If the user clicks the **OK** button, [**PageSetupDlg**](/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)) returns **TRUE** after setting various members in the [**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga) structure to specify the user's selections. The **ptPaperSize** and **rtMargin** members contain the values specified by the user. The **hDevMode** and **hDevNames** members contain global memory handles for the [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) and [**DEVNAMES**](/windows/win32/api/commdlg/ns-commdlg-devnames) structures. These structures contain additional page information as well as information about the printer. You can use this information to prepare the output to be sent to the selected printer.
 
-If the user cancels the **Page Setup** dialog box or an error occurs, [**PageSetupDlg**](https://msdn.microsoft.com/library/ms646937(v=VS.85).aspx) returns **FALSE**. To determine the cause of the error, call the [**CommDlgExtendedError**](/windows/desktop/api/Commdlg/nf-commdlg-commdlgextendederror) function to retrieve the extended error value.
+If the user cancels the **Page Setup** dialog box or an error occurs, [**PageSetupDlg**](/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)) returns **FALSE**. To determine the cause of the error, call the [**CommDlgExtendedError**](/windows/desktop/api/Commdlg/nf-commdlg-commdlgextendederror) function to retrieve the extended error value.
 
 This section discusses the following topics.
 
@@ -43,7 +43,7 @@ This section discusses the following topics.
 
 ## Initializing the Page Setup Dialog Box
 
-By default, the **Page Setup** dialog box displays information about the current default printer. To direct the dialog box to display information about a specific printer, set the members of a [**DEVMODE**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea) or [**DEVNAMES**](/windows/win32/api/commdlg/ns-commdlg-devnames) structure and assign the global memory handles of these structures to the corresponding member in [**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga). If you specify the name of a printer that is not currently installed, the dialog box displays an error message. To prevent the dialog box from displaying error messages, use the **PSD\_NOWARNING** value. To retrieve information about the default printer without displaying the **Page Setup** dialog box, use the **PSD\_RETURNDEFAULT** value.
+By default, the **Page Setup** dialog box displays information about the current default printer. To direct the dialog box to display information about a specific printer, set the members of a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) or [**DEVNAMES**](/windows/win32/api/commdlg/ns-commdlg-devnames) structure and assign the global memory handles of these structures to the corresponding member in [**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga). If you specify the name of a printer that is not currently installed, the dialog box displays an error message. To prevent the dialog box from displaying error messages, use the **PSD\_NOWARNING** value. To retrieve information about the default printer without displaying the **Page Setup** dialog box, use the **PSD\_RETURNDEFAULT** value.
 
 If the default measurement system is inches, the dialog box uses thousandths of inches as the default unit of measurement. If the default measurement system is metric, the dialog box uses hundredths of millimeters as the default unit of measurement. To override the default unit of measurement, set the **PSD\_INHUNDREDTHSOFMILLIMETERS** or **PSD\_INTHOUSANDTHSOFINCHES** flag in the **Flags** member of the [**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga) structure.
 
@@ -66,7 +66,7 @@ To prevent users from selecting certain options, set any combination of the foll
 
 ## Customizing the Page Setup Dialog Box
 
-You can provide a custom template for the **Page Setup** dialog box, for example, if you want to include additional controls that are unique to your application. The [**PageSetupDlg**](https://msdn.microsoft.com/library/ms646937(v=VS.85).aspx) function uses your custom template in place of the default template.
+You can provide a custom template for the **Page Setup** dialog box, for example, if you want to include additional controls that are unique to your application. The [**PageSetupDlg**](/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)) function uses your custom template in place of the default template.
 
 **To provide a custom template for the Page Setup dialog box**
 
@@ -78,20 +78,20 @@ You can provide a custom template for the **Page Setup** dialog box, for example
 
         -   If your custom template is already in memory, set the **PSD\_ENABLEPAGESETUPTEMPLATEHANDLE** flag. Use the **hPageSetupTemplate** member to identify the memory object that contains the template.
 
-To filter messages sent to the dialog box procedure, you can provide a [**PageSetupHook**](https://msdn.microsoft.com/library/ms646939(v=VS.85).aspx) hook procedure. If you use a custom template to define additional controls, you must provide a **PageSetupHook** hook procedure to process input for your controls. In addition, you can provide a [**PagePaintHook**](https://msdn.microsoft.com/library/ms646935(v=VS.85).aspx) hook procedure to customize the contents of the sample page displayed by the **Page Setup** dialog box. For more information about the **PagePaintHook** hook procedure, see [Customizing the Sample Page](#customizing-the-sample-page).
+To filter messages sent to the dialog box procedure, you can provide a [**PageSetupHook**](/windows/win32/api/commdlg/nc-commdlg-lppagesetuphook) hook procedure. If you use a custom template to define additional controls, you must provide a **PageSetupHook** hook procedure to process input for your controls. In addition, you can provide a [**PagePaintHook**](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook) hook procedure to customize the contents of the sample page displayed by the **Page Setup** dialog box. For more information about the **PagePaintHook** hook procedure, see [Customizing the Sample Page](#customizing-the-sample-page).
 
 **To enable a PageSetupHook hook procedure**
 
 1.  Set the **PSD\_ENABLEPAGESETUPHOOK** flag in the **Flags** member of the [**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga) structure.
 2.  Specify the address of the hook procedure in the **lpfnPageSetupHook** member.
 
-After processing its [**WM\_INITDIALOG**](wm-initdialog.md) message, the dialog box procedure sends a **WM\_INITDIALOG** message to the [**PageSetupHook**](https://msdn.microsoft.com/library/ms646939(v=VS.85).aspx) hook procedure. The *lParam* parameter of this message is a pointer to the [**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga) structure used to initialize the dialog box.
+After processing its [**WM\_INITDIALOG**](wm-initdialog.md) message, the dialog box procedure sends a **WM\_INITDIALOG** message to the [**PageSetupHook**](/windows/win32/api/commdlg/nc-commdlg-lppagesetuphook) hook procedure. The *lParam* parameter of this message is a pointer to the [**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga) structure used to initialize the dialog box.
 
 ## Customizing the Sample Page
 
 The **Page Setup** dialog box includes an image of a sample page that shows how the user's selections affect the appearance of the printed output. The image consists of a rectangle that represents the selected paper or envelope type, with a dotted-line rectangle representing the current margins, and partial (Greek text) characters to show how text looks on the printed page.
 
-When you call the [**PageSetupDlg**](https://msdn.microsoft.com/library/ms646937(v=VS.85).aspx) function, you can provide a [**PagePaintHook**](https://msdn.microsoft.com/library/ms646935(v=VS.85).aspx) hook procedure to customize the appearance of the sample page.
+When you call the [**PageSetupDlg**](/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)) function, you can provide a [**PagePaintHook**](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook) hook procedure to customize the appearance of the sample page.
 
 **To enable a PagePaintHook hook procedure**
 
@@ -120,12 +120,8 @@ If the hook procedure returns **TRUE** for any of the first three messages of a 
 
 If the hook procedure returns **TRUE** for any of the remaining messages in a drawing sequence, the dialog box does not draw the corresponding portion of the sample page. If the hook procedure returns **FALSE** for any of these messages, the dialog box draws that portion of the sample page.
 
-To prevent the dialog box from drawing the contents of the sample page, you can set the **PSD\_DISABLEPAGEPAINTING** flag. This flag does not affect your [**PagePaintHook**](https://msdn.microsoft.com/library/ms646935(v=VS.85).aspx) hook procedure, which still receives all the **WM\_PSD\_\*** messages and can draw the sample page contents.
+To prevent the dialog box from drawing the contents of the sample page, you can set the **PSD\_DISABLEPAGEPAINTING** flag. This flag does not affect your [**PagePaintHook**](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook) hook procedure, which still receives all the **WM\_PSD\_\*** messages and can draw the sample page contents.
 
  
 
  
-
-
-
-

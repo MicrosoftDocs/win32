@@ -15,7 +15,7 @@ api_location:
 
 # BoundingOrientedBox.Intersects methods
 
-Tests the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx) for intersection with another object.
+Tests the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox) for intersection with another object.
 
 ### Overload list
 
@@ -23,13 +23,13 @@ Tests the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(
 
 | Method                                                                                                   | Description                                                                                                                                 |
 |:---------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
-| [**BoundingOrientedBox::Intersects (XMVECTOR)**](https://msdn.microsoft.com/library/Hh855932(v=VS.85).aspx)                   | Tests the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx) for intersection with a plane.<br/>                                      |
-| [**BoundingOrientedBox::Intersects (const BoundingBox&)**](https://msdn.microsoft.com/library/Hh855921(v=VS.85).aspx)         | Tests the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx) for intersection with a [**BoundingBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingbox).<br/>         |
-| [**BoundingOrientedBox::Intersects (const BoundingSphere&)**](https://msdn.microsoft.com/library/Hh855930(v=VS.85).aspx)      | Tests the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx) for intersection with a [**BoundingSphere**](https://msdn.microsoft.com/library/Hh449592(v=VS.85).aspx).<br/>   |
-| [**BoundingOrientedBox::Intersects (const BoundingFrustum&)**](https://msdn.microsoft.com/library/Hh855913(v=VS.85).aspx)     | Tests the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx) for intersection with a [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).<br/> |
-| [**BoundingOrientedBox::Intersects (XMVECTOR,XMVECTOR,float&)**](https://msdn.microsoft.com/library/Hh855916(v=VS.85).aspx)   | Tests the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx) for intersection with a ray.<br/>                                        |
-| [**BoundingOrientedBox::Intersects (XMVECTOR,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/library/Hh855918(v=VS.85).aspx) | Tests the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx) for intersection with a triangle.<br/>                                   |
-| [**BoundingOrientedBox::Intersects (const BoundingOrientedBox&)**](https://msdn.microsoft.com/library/Hh855927(v=VS.85).aspx) | Tests the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx) for intersection with a **BoundingOrientedBox**.<br/>                    |
+| [**BoundingOrientedBox::Intersects (XMVECTOR)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-intersects(fxmvector))                   | Tests the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox) for intersection with a plane.<br/>                                      |
+| [**BoundingOrientedBox::Intersects (const BoundingBox&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-intersects(constboundingbox_))         | Tests the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox) for intersection with a [**BoundingBox**](/windows/desktop/api/DirectXCollision/ns-directxcollision-boundingbox).<br/>         |
+| [**BoundingOrientedBox::Intersects (const BoundingSphere&)**](/previous-versions/windows/desktop/legacy/hh855930(v=vs.85))      | Tests the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox) for intersection with a [**BoundingSphere**](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere).<br/>   |
+| [**BoundingOrientedBox::Intersects (const BoundingFrustum&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-intersects(constboundingfrustum_))     | Tests the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox) for intersection with a [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).<br/> |
+| [**BoundingOrientedBox::Intersects (XMVECTOR,XMVECTOR,float&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-intersects(fxmvector_fxmvector_float_))   | Tests the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox) for intersection with a ray.<br/>                                        |
+| [**BoundingOrientedBox::Intersects (XMVECTOR,XMVECTOR,XMVECTOR)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-intersects(fxmvector_fxmvector_fxmvector)) | Tests the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox) for intersection with a triangle.<br/>                                   |
+| [**BoundingOrientedBox::Intersects (const BoundingOrientedBox&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-intersects(constboundingorientedbox_)) | Tests the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox) for intersection with a **BoundingOrientedBox**.<br/>                    |
 
 
 
@@ -43,13 +43,9 @@ Tests the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(
 **Reference**
 </dt> <dt>
 
-[**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx)
+[**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox)
 </dt> </dl>
 
  
 
  
-
-
-
-

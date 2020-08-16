@@ -23,15 +23,15 @@ typedef void (STDMETHODCALLTYPE *PFN_DXCORE_NOTIFICATION_CALLBACK)(
 
 ### notificationType
 
-Type: **[DXCoreNotificationType](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype)**
+Type: **[DXCoreNotificationType](./ne-dxcore_interface-dxcorenotificationtype.md)**
 
-The type of notification representing this invocation. See the table in [DXCoreNotificationType](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype) for info about what types are valid with which kinds of objects.
+The type of notification representing this invocation. See the table in [DXCoreNotificationType](./ne-dxcore_interface-dxcorenotificationtype.md) for info about what types are valid with which kinds of objects.
 
 ### object
 
 Type: **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-The [IDXCoreAdapter](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter) or [IDXCoreAdapterList](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist) object raising the notification.
+The [IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md) or [IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md) object raising the notification.
 
 ### context [in]
 
@@ -41,4 +41,4 @@ A pointer, which may be `nullptr`, to an object containing context info.
 
 ## See also
 
-[IDXCoreAdapter](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter), [IDXCoreAdapterList](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+[IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md), [IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md), [DXCore Reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)

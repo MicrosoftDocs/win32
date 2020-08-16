@@ -32,11 +32,8 @@ Shuts down the engine.
 
 ## <span id="see_also"></span>See also
 
-[**IPixEngine**](https://docs.microsoft.com/windows/desktop/direct3dtools/ipixengine)
+[**IPixEngine**](/windows/desktop/direct3dtools/ipixengine)
 
  
 
  
-
-
-

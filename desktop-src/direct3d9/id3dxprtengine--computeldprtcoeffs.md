@@ -50,7 +50,7 @@ Pointer to an input [**ID3DXPRTBuffer**](id3dxprtbuffer.md) spherical harmonic (
 *Order* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Order of the SH evaluation. Must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive. The evaluation generates Order² coefficients. The degree of the evaluation is Order - 1.
 
@@ -107,7 +107,3 @@ This method cannot be used with results from [**ID3DXPRTEngine::ComputeSurfSampl
  
 
  
-
-
-
-

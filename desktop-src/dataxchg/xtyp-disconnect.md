@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # XTYP\_DISCONNECT transaction
 
-An application's Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives the **XTYP\_DISCONNECT** transaction when the application's partner in a conversation uses the [**DdeDisconnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddedisconnect) function to terminate the conversation.
+An application's Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), receives the **XTYP\_DISCONNECT** transaction when the application's partner in a conversation uses the [**DdeDisconnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddedisconnect) function to terminate the conversation.
 
 
 ```C++
@@ -132,10 +132,4 @@ An application cannot block this transaction type; the **CBR\_BLOCK** return cod
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

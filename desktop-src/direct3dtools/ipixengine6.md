@@ -26,7 +26,7 @@ Extensions to the IPixEngine5 interface containing additions for determining rem
 
 ## Members
 
-The **IPixEngine6** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixEngine6** also has these types of members:
+The **IPixEngine6** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixEngine6** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IPixEngine6** interface has these methods.
  
 
  
-
-
-

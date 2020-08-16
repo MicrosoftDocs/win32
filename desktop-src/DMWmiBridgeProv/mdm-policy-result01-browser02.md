@@ -84,7 +84,7 @@ The **MDM\_Policy\_Result01\_Browser02** class has these properties.
 
 <dl> <dt>
 
-[AllowAddressBarDropdown](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowaddressbardropdown)
+[AllowAddressBarDropdown](/windows/client-management/mdm/policy-csp-browser#browser-allowaddressbardropdown)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -95,7 +95,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowAutofill](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowautofill)
+[AllowAutofill](/windows/client-management/mdm/policy-csp-browser#browser-allowautofill)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -106,7 +106,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowCookies](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowcookies)
+[AllowCookies](/windows/client-management/mdm/policy-csp-browser#browser-allowcookies)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -117,7 +117,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowDeveloperTools](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowdevelopertools)
+[AllowDeveloperTools](/windows/client-management/mdm/policy-csp-browser#browser-allowdevelopertools)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -128,7 +128,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowDoNotTrack](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowdonottrack)
+[AllowDoNotTrack](/windows/client-management/mdm/policy-csp-browser#browser-allowdonottrack)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -139,7 +139,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowExtensions](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowextensions)
+[AllowExtensions](/windows/client-management/mdm/policy-csp-browser#browser-allowextensions)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -150,7 +150,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowFlash](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowflash)
+[AllowFlash](/windows/client-management/mdm/policy-csp-browser#browser-allowflash)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -161,7 +161,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowFlashClickToRun](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowflashclicktorun)
+[AllowFlashClickToRun](/windows/client-management/mdm/policy-csp-browser#browser-allowflashclicktorun)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -172,7 +172,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowInPrivate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowinprivate)
+[AllowInPrivate](/windows/client-management/mdm/policy-csp-browser#browser-allowinprivate)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -183,7 +183,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowMicrosoftCompatibilityList](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowmicrosoftcompatibilitylist)
+[AllowMicrosoftCompatibilityList](/windows/client-management/mdm/policy-csp-browser#browser-allowmicrosoftcompatibilitylist)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -194,7 +194,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowPasswordManager](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowpasswordmanager)
+[AllowPasswordManager](/windows/client-management/mdm/policy-csp-browser#browser-allowpasswordmanager)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -205,7 +205,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowPopups](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowpopups)
+[AllowPopups](/windows/client-management/mdm/policy-csp-browser#browser-allowpopups)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -216,7 +216,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowSearchEngineCustomization](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowsearchenginecustomization)
+[AllowSearchEngineCustomization](/windows/client-management/mdm/policy-csp-browser#browser-allowsearchenginecustomization)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -227,7 +227,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowSearchSuggestionsinAddressBar](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowsearchsuggestionsinaddressbar)
+[AllowSearchSuggestionsinAddressBar](/windows/client-management/mdm/policy-csp-browser#browser-allowsearchsuggestionsinaddressbar)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -238,7 +238,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowSmartScreen](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-allowsmartscreen)
+[AllowSmartScreen](/windows/client-management/mdm/policy-csp-browser#browser-allowsmartscreen)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -249,7 +249,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AlwaysEnableBooksLibrary](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-alwaysenablebookslibrary)
+[AlwaysEnableBooksLibrary](/windows/client-management/mdm/policy-csp-browser#browser-alwaysenablebookslibrary)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -260,7 +260,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ClearBrowsingDataOnExit](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-clearbrowsingdataonexit)
+[ClearBrowsingDataOnExit](/windows/client-management/mdm/policy-csp-browser#browser-clearbrowsingdataonexit)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -271,7 +271,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ConfigureAdditionalSearchEngines](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-configureadditionalsearchengines)
+[ConfigureAdditionalSearchEngines](/windows/client-management/mdm/policy-csp-browser#browser-configureadditionalsearchengines)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -282,7 +282,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableLockdownOfStartPages](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-disablelockdownofstartpages)
+[DisableLockdownOfStartPages](/windows/client-management/mdm/policy-csp-browser#browser-disablelockdownofstartpages)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -293,7 +293,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnterpriseModeSiteList](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-enterprisemodesitelist)
+[EnterpriseModeSiteList](/windows/client-management/mdm/policy-csp-browser#browser-enterprisemodesitelist)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -304,7 +304,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnterpriseSiteListServiceUrl](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-enterprisesitelistserviceurl)
+[EnterpriseSiteListServiceUrl](/windows/client-management/mdm/policy-csp-browser#browser-enterprisesitelistserviceurl)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -315,7 +315,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Homepages](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-homepages)
+[Homepages](/windows/client-management/mdm/policy-csp-browser#browser-homepages)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -335,14 +335,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "Browser".
 
 </dd> <dt>
 
-[LockdownFavorites](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-lockdownfavorites)
+[LockdownFavorites](/windows/client-management/mdm/policy-csp-browser#browser-lockdownfavorites)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -362,14 +362,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Result"
 
 </dd> <dt>
 
-[PreventAccessToAboutFlagsInMicrosoftEdge](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-preventaccesstoaboutflagsinmicrosoftedge)
+[PreventAccessToAboutFlagsInMicrosoftEdge](/windows/client-management/mdm/policy-csp-browser#browser-preventaccesstoaboutflagsinmicrosoftedge)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -380,7 +380,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PreventFirstRunPage](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-preventfirstrunpage)
+[PreventFirstRunPage](/windows/client-management/mdm/policy-csp-browser#browser-preventfirstrunpage)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -391,7 +391,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PreventLiveTileDataCollection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-preventlivetiledatacollection)
+[PreventLiveTileDataCollection](/windows/client-management/mdm/policy-csp-browser#browser-preventlivetiledatacollection)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -402,7 +402,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PreventSmartScreenPromptOverride](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-preventsmartscreenpromptoverride)
+[PreventSmartScreenPromptOverride](/windows/client-management/mdm/policy-csp-browser#browser-preventsmartscreenpromptoverride)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -413,7 +413,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PreventSmartScreenPromptOverrideForFiles](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-preventsmartscreenpromptoverrideforfiles)
+[PreventSmartScreenPromptOverrideForFiles](/windows/client-management/mdm/policy-csp-browser#browser-preventsmartscreenpromptoverrideforfiles)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -424,7 +424,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PreventUsingLocalHostIPAddressForWebRTC](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-preventusinglocalhostipaddressforwebrtc)
+[PreventUsingLocalHostIPAddressForWebRTC](/windows/client-management/mdm/policy-csp-browser#browser-preventusinglocalhostipaddressforwebrtc)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -435,7 +435,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ProvisionFavorites](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-provisionfavorites)
+[ProvisionFavorites](/windows/client-management/mdm/policy-csp-browser#browser-provisionfavorites)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -446,7 +446,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SendIntranetTraffictoInternetExplorer](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-sendintranettraffictointernetexplorer)
+[SendIntranetTraffictoInternetExplorer](/windows/client-management/mdm/policy-csp-browser#browser-sendintranettraffictointernetexplorer)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -457,7 +457,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SetDefaultSearchEngine](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-setdefaultsearchengine)
+[SetDefaultSearchEngine](/windows/client-management/mdm/policy-csp-browser#browser-setdefaultsearchengine)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -468,7 +468,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ShowMessageWhenOpeningSitesInInternetExplorer](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-showmessagewhenopeningsitesininternetexplorer)
+[ShowMessageWhenOpeningSitesInInternetExplorer](/windows/client-management/mdm/policy-csp-browser#browser-showmessagewhenopeningsitesininternetexplorer)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -479,7 +479,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SyncFavoritesBetweenIEAndMicrosoftEdge](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-browser#browser-syncfavoritesbetweenieandmicrosoftedge)
+[SyncFavoritesBetweenIEAndMicrosoftEdge](/windows/client-management/mdm/policy-csp-browser#browser-syncfavoritesbetweenieandmicrosoftedge)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -508,14 +508,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

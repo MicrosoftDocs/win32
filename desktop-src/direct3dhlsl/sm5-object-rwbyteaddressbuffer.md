@@ -50,9 +50,9 @@ RWByteAddressBuffer objects can be prefixed with the storage class **globallycoh
 
 The UAV format bound to this resource needs to be created with the DXGI\_FORMAT\_R32\_TYPELESS format.
 
-The UAV bound to this resource must have been created with the [**D3D11\_BUFFER\_UAV\_FLAG\_RAW**](https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_buffer_uav_flag).
+The UAV bound to this resource must have been created with the [**D3D11\_BUFFER\_UAV\_FLAG\_RAW**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_buffer_uav_flag).
 
-You can use the **RWByteAddressBuffer** object type when you work with raw buffers. For more info about raw viewing of buffers, see [Raw Views of Buffers](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro).
+You can use the **RWByteAddressBuffer** object type when you work with raw buffers. For more info about raw viewing of buffers, see [Raw Views of Buffers](/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro).
 
 ## Minimum Shader Model
 
@@ -62,7 +62,7 @@ This object is supported in the following shader models.
 
 | Shader Model                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Supported |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| [Shader Model 5](d3d11-graphics-reference-sm5.md) and higher shader models [Shader Model 4](dx-graphics-hlsl-sm4.md) (Available through the Direct3D 11 API by using 10.0 or 10.1 feature level ([**D3D\_FEATURE\_LEVEL**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level)\_10\_X) on devices that support compute shaders. For more information about compute shader support on downlevel hardware, see [Compute Shaders on Downlevel Hardware](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-compute-shaders).)<br/> | yes       |
+| [Shader Model 5](d3d11-graphics-reference-sm5.md) and higher shader models [Shader Model 4](dx-graphics-hlsl-sm4.md) (Available through the Direct3D 11 API by using 10.0 or 10.1 feature level ([**D3D\_FEATURE\_LEVEL**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level)\_10\_X) on devices that support compute shaders. For more information about compute shader support on downlevel hardware, see [Compute Shaders on Downlevel Hardware](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-compute-shaders).)<br/> | yes       |
 
 
 
@@ -88,10 +88,4 @@ This object is supported for the following types of shaders:
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

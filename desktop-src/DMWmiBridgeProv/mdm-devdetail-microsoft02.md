@@ -59,7 +59,7 @@ The **MDM\_DevDetail\_Microsoft02** class has these properties.
 
 <dl> <dt>
 
-[CommercializationOperator](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp#ext-microsoft-commercializationoperator)
+[CommercializationOperator](/windows/client-management/mdm/devdetail-csp#ext-microsoft-commercializationoperator)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -70,7 +70,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DeviceName](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp#ext-microsoft-devicename)
+[DeviceName](/windows/client-management/mdm/devdetail-csp#ext-microsoft-devicename)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -90,14 +90,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "Microsoft"
 
 </dd> <dt>
 
-[LocalTime](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp#ext-microsoft-localtime)
+[LocalTime](/windows/client-management/mdm/devdetail-csp#ext-microsoft-localtime)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -108,7 +108,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[MobileID](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp#ext-microsoft-mobileid)
+[MobileID](/windows/client-management/mdm/devdetail-csp#ext-microsoft-mobileid)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -119,7 +119,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[OSPlatform](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp#ext-microsoft-osplatform)
+[OSPlatform](/windows/client-management/mdm/devdetail-csp#ext-microsoft-osplatform)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -139,14 +139,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./DevDetail/Ext"
 
 </dd> <dt>
 
-[ProcessorArchitecture](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp#ext-microsoft-processorarchitecture)
+[ProcessorArchitecture](/windows/client-management/mdm/devdetail-csp#ext-microsoft-processorarchitecture)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -157,7 +157,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ProcessorType](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp#ext-microsoft-processortype)
+[ProcessorType](/windows/client-management/mdm/devdetail-csp#ext-microsoft-processortype)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -168,7 +168,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RadioSwV](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp#ext-microsoft-radioswv)
+[RadioSwV](/windows/client-management/mdm/devdetail-csp#ext-microsoft-radioswv)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -181,7 +181,7 @@ Returns the radio stack software version number.
 
 </dd> <dt>
 
-[Resolution](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp#ext-microsoft-resolution)
+[Resolution](/windows/client-management/mdm/devdetail-csp#ext-microsoft-resolution)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -210,14 +210,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

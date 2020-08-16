@@ -47,7 +47,7 @@ Array of resource statistics elements. See [**D3DRESOURCESTATS**](d3dresourcesta
 
 ## Remarks
 
-D3DRTYPECOUNT refers to the number of enumerations in [**D3DRESOURCETYPE**](https://msdn.microsoft.com/library/Bb172601(v=VS.85).aspx).
+D3DRTYPECOUNT refers to the number of enumerations in [**D3DRESOURCETYPE**](./d3dresourcetype.md).
 
 ## Requirements
 
@@ -69,7 +69,3 @@ D3DRTYPECOUNT refers to the number of enumerations in [**D3DRESOURCETYPE**](http
  
 
  
-
-
-
-

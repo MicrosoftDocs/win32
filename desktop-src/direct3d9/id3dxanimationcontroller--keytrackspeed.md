@@ -42,7 +42,7 @@ D3DXEVENTHANDLE KeyTrackSpeed(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Identifier of the track to modify.
 
@@ -51,7 +51,7 @@ Identifier of the track to modify.
 *NewSpeed* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 New speed of the animation track.
 
@@ -60,7 +60,7 @@ New speed of the animation track.
 *StartTime* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 Global time key. Specifies the global time when the change will take place.
 
@@ -69,7 +69,7 @@ Global time key. Specifies the global time when the change will take place.
 *Duration* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 Transition time, which specifies how long the smooth transition will take to complete.
 
@@ -78,9 +78,9 @@ Transition time, which specifies how long the smooth transition will take to com
 *Transition* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/library/Bb205475(v=VS.85).aspx)**
+Type: **[**D3DXTRANSITION\_TYPE**](./d3dxtransition-type.md)**
 
-Specifies the transition type used for transitioning between speeds. See [**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/library/Bb205475(v=VS.85).aspx).
+Specifies the transition type used for transitioning between speeds. See [**D3DXTRANSITION\_TYPE**](./d3dxtransition-type.md).
 
 </dd> </dl>
 
@@ -111,7 +111,3 @@ Event handle to the priority blend event. **NULL** is returned if one or more of
  
 
  
-
-
-
-

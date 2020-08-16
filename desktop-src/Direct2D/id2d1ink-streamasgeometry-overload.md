@@ -24,10 +24,10 @@ Retrieves a geometric representation of this ink object.
 
 | Method                                                                                                                          | Description                                                         |
 |:--------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------|
-| [**(ID2D1InkStyle\*, D2D1\_MATRIX\_3X2\_F\*, ID2D1SimplifiedGeometrySink\*)**](https://msdn.microsoft.com/library/Dn900450(v=VS.85).aspx)                 | Retrieves a geometric representation of this ink object.<br/> |
-| [**(ID2D1InkStyle\*, D2D1\_MATRIX\_3X2\_F\*, FLOAT, ID2D1SimplifiedGeometrySink\*)**](https://msdn.microsoft.com/library/Dn900448(v=VS.85).aspx)            | Retrieves a geometric representation of this ink object.<br/> |
-| [**(ID2D1InkStyle\*, D2D1\_MATRIX\_3X2\_F&, FLOAT, ID2D1SimplifiedGeometrySink\*)**](https://msdn.microsoft.com/library/Dn900449(v=VS.85).aspx)           | Retrieves a geometric representation of this ink object.<br/> |
-| [**StreamAsGeometry (ID2D1InkStyle\*, D2D1\_MATRIX\_3X2\_F&, ID2D1SimplifiedGeometrySink\*)**](https://msdn.microsoft.com/library/Dn900451(v=VS.85).aspx) | Retrieves a geometric representation of this ink object.<br/> |
+| [**(ID2D1InkStyle\*, D2D1\_MATRIX\_3X2\_F\*, ID2D1SimplifiedGeometrySink\*)**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1ink-streamasgeometry(id2d1inkstyle_constd2d1_matrix_3x2_f_id2d1simplifiedgeometrysink))                 | Retrieves a geometric representation of this ink object.<br/> |
+| [**(ID2D1InkStyle\*, D2D1\_MATRIX\_3X2\_F\*, FLOAT, ID2D1SimplifiedGeometrySink\*)**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1ink-streamasgeometry(id2d1inkstyle_constd2d1_matrix_3x2_f_float_id2d1simplifiedgeometrysink))            | Retrieves a geometric representation of this ink object.<br/> |
+| [**(ID2D1InkStyle\*, D2D1\_MATRIX\_3X2\_F&, FLOAT, ID2D1SimplifiedGeometrySink\*)**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1ink-streamasgeometry(id2d1inkstyle_constd2d1_matrix_3x2_f__float_id2d1simplifiedgeometrysink))           | Retrieves a geometric representation of this ink object.<br/> |
+| [**StreamAsGeometry (ID2D1InkStyle\*, D2D1\_MATRIX\_3X2\_F&, ID2D1SimplifiedGeometrySink\*)**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1ink-streamasgeometry(id2d1inkstyle_constd2d1_matrix_3x2_f__id2d1simplifiedgeometrysink)) | Retrieves a geometric representation of this ink object.<br/> |
 
 
 
@@ -35,14 +35,8 @@ Retrieves a geometric representation of this ink object.
 
 <dl> <dt>
 
-[**ID2D1Ink**](https://msdn.microsoft.com/library/Dn900426(v=VS.85).aspx)
+[**ID2D1Ink**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1ink)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

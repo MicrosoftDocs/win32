@@ -24,8 +24,8 @@ Updates the array.
 
 | Method                                                                                               | Description                                                                                                                                                    |
 |:-----------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**UpdateDashes(FLOAT \*, UINT32, UINT32)**](https://msdn.microsoft.com/library/Mt797922(v=VS.85).aspx)               | Updates the array. Existing dashes not updated by this method are preserved. The array is resized larger if necessary to accomodate the new dashes.<br/> |
-| [**UpdateDashes(D2D1\_SVG\_LENGTH \*, UINT32, UINT32)**](https://msdn.microsoft.com/library/Mt797923(v=VS.85).aspx) | Updates the array. Existing dashes not updated by this method are preserved. The array is resized larger if necessary to accomodate the new dashes.<br/> |
+| [**UpdateDashes(FLOAT \*, UINT32, UINT32)**](/windows/win32/api/d2d1svg/nf-d2d1svg-id2d1svgstrokedasharray-updatedashes(constd2d1_svg_length_uint32_uint32))               | Updates the array. Existing dashes not updated by this method are preserved. The array is resized larger if necessary to accomodate the new dashes.<br/> |
+| [**UpdateDashes(D2D1\_SVG\_LENGTH \*, UINT32, UINT32)**](/windows/win32/api/d2d1svg/nf-d2d1svg-id2d1svgstrokedasharray-updatedashes(constfloat_uint32_uint32)) | Updates the array. Existing dashes not updated by this method are preserved. The array is resized larger if necessary to accomodate the new dashes.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Updates the array.
 
 <dl> <dt>
 
-[**ID2D1SvgStrokeDashArray**](https://msdn.microsoft.com/library/Mt797917(v=VS.85).aspx)
+[**ID2D1SvgStrokeDashArray**](/windows/win32/api/d2d1svg/nn-d2d1svg-id2d1svgstrokedasharray)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

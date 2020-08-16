@@ -38,18 +38,18 @@ typedef struct D3DXSEMANTIC {
 **Usage**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
-Options that identify how resources are used. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/library/Bb172534(v=VS.85).aspx).
+Options that identify how resources are used. See [**D3DDECLUSAGE**](./d3ddeclusage.md).
 
 </dd> <dt>
 
 **UsageIndex**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -81,7 +81,3 @@ Semantics are required for vertex and pixel shader, input and output registers.
  
 
  
-
-
-
-

@@ -25,7 +25,7 @@ ms.date: 05/31/2018
 
 The **MDM\_EnterpriseDataProtection** class is used to determine the current status of Windows Information Protection (WIP) (formerly known as Enterprise Data Protection) specific settings.
 
-For more information about WIP, see [Protect your enterprise data using enterprise data protection (EDP)](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-edp).
+For more information about WIP, see [Protect your enterprise data using enterprise data protection (EDP)](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -62,7 +62,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "EnterpriseDataProtection".
@@ -78,14 +78,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/"
 
 </dd> <dt>
 
-[Status](https://docs.microsoft.com/windows/client-management/mdm/enterprisedataprotection-csp#status)
+[Status](/windows/client-management/mdm/enterprisedataprotection-csp#status)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -111,10 +111,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

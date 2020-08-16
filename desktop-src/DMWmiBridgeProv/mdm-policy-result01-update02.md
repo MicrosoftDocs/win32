@@ -97,7 +97,7 @@ The **MDM\_Policy\_Result01\_Update02** class has these properties.
 
 <dl> <dt>
 
-[ActiveHoursEnd](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursend)
+[ActiveHoursEnd](/windows/client-management/mdm/policy-csp-update#update-activehoursend)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -108,7 +108,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ActiveHoursMaxRange](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursmaxrange)
+[ActiveHoursMaxRange](/windows/client-management/mdm/policy-csp-update#update-activehoursmaxrange)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -119,7 +119,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ActiveHoursStart](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursstart)
+[ActiveHoursStart](/windows/client-management/mdm/policy-csp-update#update-activehoursstart)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -130,7 +130,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowAutoUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-allowautoupdate)
+[AllowAutoUpdate](/windows/client-management/mdm/policy-csp-update#update-allowautoupdate)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -141,7 +141,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowAutoWindowsUpdateDownloadOverMeteredNetwork](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-allowautowindowsupdatedownloadovermeterednetwork)
+[AllowAutoWindowsUpdateDownloadOverMeteredNetwork](/windows/client-management/mdm/policy-csp-update#update-allowautowindowsupdatedownloadovermeterednetwork)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -152,7 +152,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowMUUpdateService](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice)
+[AllowMUUpdateService](/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -163,7 +163,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowNonMicrosoftSignedUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-allownonmicrosoftsignedupdate)
+[AllowNonMicrosoftSignedUpdate](/windows/client-management/mdm/policy-csp-update#update-allownonmicrosoftsignedupdate)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -174,7 +174,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowUpdateService](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-allowupdateservice)
+[AllowUpdateService](/windows/client-management/mdm/policy-csp-update#update-allowupdateservice)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -185,7 +185,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AutoRestartDeadlinePeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-autorestartdeadlineperiodindays)
+[AutoRestartDeadlinePeriodInDays](/windows/client-management/mdm/policy-csp-update#update-autorestartdeadlineperiodindays)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -196,7 +196,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AutoRestartNotificationSchedule](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-autorestartnotificationschedule)
+[AutoRestartNotificationSchedule](/windows/client-management/mdm/policy-csp-update#update-autorestartnotificationschedule)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -207,7 +207,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AutoRestartRequiredNotificationDismissal](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-autorestartrequirednotificationdismissal)
+[AutoRestartRequiredNotificationDismissal](/windows/client-management/mdm/policy-csp-update#update-autorestartrequirednotificationdismissal)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -218,7 +218,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[BranchReadinessLevel](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel)
+[BranchReadinessLevel](/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -229,7 +229,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DeferFeatureUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferfeatureupdatesperiodindays)
+[DeferFeatureUpdatesPeriodInDays](/windows/client-management/mdm/policy-csp-update#update-deferfeatureupdatesperiodindays)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -240,7 +240,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DeferQualityUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferqualityupdatesperiodindays)
+[DeferQualityUpdatesPeriodInDays](/windows/client-management/mdm/policy-csp-update#update-deferqualityupdatesperiodindays)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -251,7 +251,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DeferUpdatePeriod](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferupdateperiod)
+[DeferUpdatePeriod](/windows/client-management/mdm/policy-csp-update#update-deferupdateperiod)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -262,7 +262,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DeferUpgradePeriod](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferupgradeperiod)
+[DeferUpgradePeriod](/windows/client-management/mdm/policy-csp-update#update-deferupgradeperiod)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -273,7 +273,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DetectionFrequency](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-detectionfrequency)
+[DetectionFrequency](/windows/client-management/mdm/policy-csp-update#update-detectionfrequency)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -284,7 +284,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableDualScan](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-disabledualscan)
+[DisableDualScan](/windows/client-management/mdm/policy-csp-update#update-disabledualscan)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -295,7 +295,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EngagedRestartDeadline](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-engagedrestartdeadline)
+[EngagedRestartDeadline](/windows/client-management/mdm/policy-csp-update#update-engagedrestartdeadline)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -306,7 +306,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EngagedRestartSnoozeSchedule](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-engagedrestartsnoozeschedule)
+[EngagedRestartSnoozeSchedule](/windows/client-management/mdm/policy-csp-update#update-engagedrestartsnoozeschedule)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -317,7 +317,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EngagedRestartTransitionSchedule](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-engagedrestarttransitionschedule)
+[EngagedRestartTransitionSchedule](/windows/client-management/mdm/policy-csp-update#update-engagedrestarttransitionschedule)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -328,7 +328,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ExcludeWUDriversInQualityUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-excludewudriversinqualityupdate)
+[ExcludeWUDriversInQualityUpdate](/windows/client-management/mdm/policy-csp-update#update-excludewudriversinqualityupdate)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -339,7 +339,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[FillEmptyContentUrls](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-fillemptycontenturls)
+[FillEmptyContentUrls](/windows/client-management/mdm/policy-csp-update#update-fillemptycontenturls)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -350,7 +350,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[IgnoreMOAppDownloadLimit](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-ignoremoappdownloadlimit)
+[IgnoreMOAppDownloadLimit](/windows/client-management/mdm/policy-csp-update#update-ignoremoappdownloadlimit)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -361,7 +361,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[IgnoreMOUpdateDownloadLimit](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-ignoremoupdatedownloadlimit)
+[IgnoreMOUpdateDownloadLimit](/windows/client-management/mdm/policy-csp-update#update-ignoremoupdatedownloadlimit)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -381,14 +381,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "Update"
 
 </dd> <dt>
 
-[ManagePreviewBuilds](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-managepreviewbuilds)
+[ManagePreviewBuilds](/windows/client-management/mdm/policy-csp-update#update-managepreviewbuilds)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -408,14 +408,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Result"
 
 </dd> <dt>
 
-[PauseDeferrals](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-pausedeferrals)
+[PauseDeferrals](/windows/client-management/mdm/policy-csp-update#update-pausedeferrals)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -426,7 +426,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PauseFeatureUpdates](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-pausefeatureupdates)
+[PauseFeatureUpdates](/windows/client-management/mdm/policy-csp-update#update-pausefeatureupdates)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -437,7 +437,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PauseFeatureUpdatesStartTime](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-pausefeatureupdatesstarttime)
+[PauseFeatureUpdatesStartTime](/windows/client-management/mdm/policy-csp-update#update-pausefeatureupdatesstarttime)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -448,7 +448,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PauseQualityUpdates](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-pausequalityupdates)
+[PauseQualityUpdates](/windows/client-management/mdm/policy-csp-update#update-pausequalityupdates)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -459,7 +459,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PauseQualityUpdatesStartTime](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-pausequalityupdatesstarttime)
+[PauseQualityUpdatesStartTime](/windows/client-management/mdm/policy-csp-update#update-pausequalityupdatesstarttime)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -470,7 +470,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PhoneUpdateRestrictions](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-phoneupdaterestrictions)
+[PhoneUpdateRestrictions](/windows/client-management/mdm/policy-csp-update#update-phoneupdaterestrictions)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -481,7 +481,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RequireDeferUpgrade](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-requiredeferupgrade)
+[RequireDeferUpgrade](/windows/client-management/mdm/policy-csp-update#update-requiredeferupgrade)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -492,7 +492,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RequireUpdateApproval](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-requireupdateapproval)
+[RequireUpdateApproval](/windows/client-management/mdm/policy-csp-update#update-requireupdateapproval)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -503,7 +503,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ScheduledInstallDay](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-scheduledinstallday)
+[ScheduledInstallDay](/windows/client-management/mdm/policy-csp-update#update-scheduledinstallday)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -514,7 +514,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ScheduledInstallEveryWeek](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-scheduledinstalleveryweek)
+[ScheduledInstallEveryWeek](/windows/client-management/mdm/policy-csp-update#update-scheduledinstalleveryweek)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -525,7 +525,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ScheduledInstallFirstWeek](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-scheduledinstallfirstweek)
+[ScheduledInstallFirstWeek](/windows/client-management/mdm/policy-csp-update#update-scheduledinstallfirstweek)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -536,7 +536,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ScheduledInstallFourthWeek](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-scheduledinstallfourthweek)
+[ScheduledInstallFourthWeek](/windows/client-management/mdm/policy-csp-update#update-scheduledinstallfourthweek)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -547,7 +547,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ScheduledInstallSecondWeek](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-scheduledinstallsecondweek)
+[ScheduledInstallSecondWeek](/windows/client-management/mdm/policy-csp-update#update-scheduledinstallsecondweek)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -558,7 +558,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ScheduledInstallThirdWeek](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-scheduledinstallthirdweek)
+[ScheduledInstallThirdWeek](/windows/client-management/mdm/policy-csp-update#update-scheduledinstallthirdweek)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -569,7 +569,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ScheduledInstallTime](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-scheduledinstalltime)
+[ScheduledInstallTime](/windows/client-management/mdm/policy-csp-update#update-scheduledinstalltime)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -580,7 +580,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ScheduleImminentRestartWarning](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-scheduleimminentrestartwarning)
+[ScheduleImminentRestartWarning](/windows/client-management/mdm/policy-csp-update#update-scheduleimminentrestartwarning)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -591,7 +591,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ScheduleRestartWarning](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-schedulerestartwarning)
+[ScheduleRestartWarning](/windows/client-management/mdm/policy-csp-update#update-schedulerestartwarning)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -602,7 +602,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SetAutoRestartNotificationDisable](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-setautorestartnotificationdisable)
+[SetAutoRestartNotificationDisable](/windows/client-management/mdm/policy-csp-update#update-setautorestartnotificationdisable)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -613,7 +613,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SetEDURestart](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-setedurestart)
+[SetEDURestart](/windows/client-management/mdm/policy-csp-update#update-setedurestart)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -624,7 +624,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[UpdateServiceUrl](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-updateserviceurl)
+[UpdateServiceUrl](/windows/client-management/mdm/policy-csp-update#update-updateserviceurl)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -635,7 +635,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[UpdateServiceUrlAlternate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-updateserviceurlalternate)
+[UpdateServiceUrlAlternate](/windows/client-management/mdm/policy-csp-update#update-updateserviceurlalternate)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -664,14 +664,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

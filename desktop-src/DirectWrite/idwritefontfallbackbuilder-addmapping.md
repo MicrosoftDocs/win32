@@ -83,7 +83,7 @@ Number of target family names.
 *fontCollection* \[in, optional\]
 </dt> <dd>
 
-Type: **[**IDWriteFontCollection**](https://msdn.microsoft.com/library/Dd368214(v=VS.85).aspx)**
+Type: **[**IDWriteFontCollection**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection)**
 
 Optional explicit font collection for this mapping.
 
@@ -144,10 +144,4 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

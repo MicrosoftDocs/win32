@@ -17,7 +17,7 @@ api_location:
 
 Assigns vector component data to the current instance of `XMXDECN4`.
 
-Assigns vector component data to the current instance of [**XMXDECN4**](https://msdn.microsoft.com/library/Ee421408(v=VS.85).aspx).
+Assigns vector component data to the current instance of [**XMXDECN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmxdecn4).
 
 ### Overload list
 
@@ -68,13 +68,9 @@ This operator is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMXDECN4**](https://msdn.microsoft.com/library/Ee421408(v=VS.85).aspx)
+[**XMXDECN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmxdecn4)
 </dt> </dl>
 
  
 
  
-
-
-
-

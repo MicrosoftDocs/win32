@@ -50,21 +50,21 @@ typedef enum D3DSAMPLERSTATETYPE {
 <span id="D3DSAMP_ADDRESSU"></span><span id="d3dsamp_addressu"></span>**D3DSAMP\_ADDRESSU**
 </dt> <dd>
 
-Texture-address mode for the u coordinate. The default is D3DTADDRESS\_WRAP. For more information, see [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/library/Bb172614(v=VS.85).aspx).
+Texture-address mode for the u coordinate. The default is D3DTADDRESS\_WRAP. For more information, see [**D3DTEXTUREADDRESS**](./d3dtextureaddress.md).
 
 </dd> <dt>
 
 <span id="D3DSAMP_ADDRESSV"></span><span id="d3dsamp_addressv"></span>**D3DSAMP\_ADDRESSV**
 </dt> <dd>
 
-Texture-address mode for the v coordinate. The default is D3DTADDRESS\_WRAP. For more information, see [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/library/Bb172614(v=VS.85).aspx).
+Texture-address mode for the v coordinate. The default is D3DTADDRESS\_WRAP. For more information, see [**D3DTEXTUREADDRESS**](./d3dtextureaddress.md).
 
 </dd> <dt>
 
 <span id="D3DSAMP_ADDRESSW"></span><span id="d3dsamp_addressw"></span>**D3DSAMP\_ADDRESSW**
 </dt> <dd>
 
-Texture-address mode for the w coordinate. The default is D3DTADDRESS\_WRAP. For more information, see [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/library/Bb172614(v=VS.85).aspx).
+Texture-address mode for the w coordinate. The default is D3DTADDRESS\_WRAP. For more information, see [**D3DTEXTUREADDRESS**](./d3dtextureaddress.md).
 
 </dd> <dt>
 
@@ -78,21 +78,21 @@ Border color or type [**D3DCOLOR**](d3dcolor.md). The default color is 0x0000000
 <span id="D3DSAMP_MAGFILTER"></span><span id="d3dsamp_magfilter"></span>**D3DSAMP\_MAGFILTER**
 </dt> <dd>
 
-Magnification filter of type [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/library/Bb172615(v=VS.85).aspx). The default value is D3DTEXF\_POINT.
+Magnification filter of type [**D3DTEXTUREFILTERTYPE**](./d3dtexturefiltertype.md). The default value is D3DTEXF\_POINT.
 
 </dd> <dt>
 
 <span id="D3DSAMP_MINFILTER"></span><span id="d3dsamp_minfilter"></span>**D3DSAMP\_MINFILTER**
 </dt> <dd>
 
-Minification filter of type [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/library/Bb172615(v=VS.85).aspx). The default value is D3DTEXF\_POINT.
+Minification filter of type [**D3DTEXTUREFILTERTYPE**](./d3dtexturefiltertype.md). The default value is D3DTEXF\_POINT.
 
 </dd> <dt>
 
 <span id="D3DSAMP_MIPFILTER"></span><span id="d3dsamp_mipfilter"></span>**D3DSAMP\_MIPFILTER**
 </dt> <dd>
 
-Mipmap filter to use during minification. See [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/library/Bb172615(v=VS.85).aspx). The default value is D3DTEXF\_NONE.
+Mipmap filter to use during minification. See [**D3DTEXTUREFILTERTYPE**](./d3dtexturefiltertype.md). The default value is D3DTEXF\_NONE.
 
 </dd> <dt>
 
@@ -165,7 +165,3 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
  
 
  
-
-
-
-

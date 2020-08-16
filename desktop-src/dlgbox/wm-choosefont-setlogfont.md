@@ -42,7 +42,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure that contains information about the current logical font.
+A pointer to a [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure that contains information about the current logical font.
 
 </dd> </dl>
 
@@ -52,9 +52,9 @@ This message has no return value.
 
 ## Remarks
 
-When you call the [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function to create a **Font** dialog box, you can use the **lpLogFont** member of the [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure to specify a [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure containing initial values for the dialog box. Use the **WM\_CHOOSEFONT\_SETLOGFONT** message to specify a **LOGFONT** structure with different values while the **Font** dialog box is open.
+When you call the [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function to create a **Font** dialog box, you can use the **lpLogFont** member of the [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure to specify a [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure containing initial values for the dialog box. Use the **WM\_CHOOSEFONT\_SETLOGFONT** message to specify a **LOGFONT** structure with different values while the **Font** dialog box is open.
 
-Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**CFHookProc**](https://msdn.microsoft.com/library/ms646909(v=VS.85).aspx) hook procedure. The hook procedure can also send the [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md) and [**WM\_CHOOSEFONT\_SETFLAGS**](wm-choosefont-setflags.md) messages.
+Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**CFHookProc**](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc) hook procedure. The hook procedure can also send the [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md) and [**WM\_CHOOSEFONT\_SETFLAGS**](wm-choosefont-setflags.md) messages.
 
 ## Requirements
 
@@ -75,7 +75,7 @@ Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**C
 **Reference**
 </dt> <dt>
 
-[**CFHookProc**](https://msdn.microsoft.com/library/ms646909(v=VS.85).aspx)
+[**CFHookProc**](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc)
 </dt> <dt>
 
 [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
@@ -99,14 +99,8 @@ Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**C
 **Other Resources**
 </dt> <dt>
 
-[**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta)
+[**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

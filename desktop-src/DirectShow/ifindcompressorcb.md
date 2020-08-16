@@ -25,7 +25,7 @@ The `IFindCompressorCB` interface is not supported.
 
 ## Members
 
-The **IFindCompressorCB** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface but does not have additional members.
+The **IFindCompressorCB** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## See also
 
@@ -37,6 +37,3 @@ The **IFindCompressorCB** interface inherits from the [**IUnknown**](https://msd
  
 
  
-
-
-

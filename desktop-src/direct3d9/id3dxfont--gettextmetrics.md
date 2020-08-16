@@ -18,7 +18,7 @@ api_location:
 
 # ID3DXFont::GetTextMetrics method
 
-Retrieves font characteristics that are identified in a [**TEXTMETRIC**](https://msdn.microsoft.com/library/Dd145132(v=VS.85).aspx) structure. This method supports ANSI and Unicode compiler settings.
+Retrieves font characteristics that are identified in a [**TEXTMETRIC**](/windows/win32/api/wingdi/ns-wingdi-textmetrica) structure. This method supports ANSI and Unicode compiler settings.
 
 ## Syntax
 
@@ -38,15 +38,15 @@ BOOL GetTextMetrics(
 *pTextMetrics* \[out\]
 </dt> <dd>
 
-Type: **[**TEXTMETRIC**](https://msdn.microsoft.com/library/Dd145132(v=VS.85).aspx)\***
+Type: **[**TEXTMETRIC**](/windows/win32/api/wingdi/ns-wingdi-textmetrica)\***
 
-Pointer to a [**TEXTMETRIC**](https://msdn.microsoft.com/library/Dd145132(v=VS.85).aspx) structure, which contains font properties.
+Pointer to a [**TEXTMETRIC**](/windows/win32/api/wingdi/ns-wingdi-textmetrica) structure, which contains font properties.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Nonzero if the function is successful; otherwise 0.
 
@@ -75,7 +75,3 @@ The compiler setting also determines the structure type. If Unicode is defined, 
  
 
  
-
-
-
-

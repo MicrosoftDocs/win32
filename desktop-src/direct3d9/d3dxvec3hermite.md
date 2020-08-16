@@ -88,7 +88,7 @@ Pointer to a source [**D3DXVECTOR3**](d3dxvector3.md) structure, a tangent vecto
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Weighting factor. See Remarks.
 
@@ -165,7 +165,3 @@ The return value for this function is the same value returned in the pOut parame
  
 
  
-
-
-
-

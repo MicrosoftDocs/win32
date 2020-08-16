@@ -18,7 +18,7 @@ api_location:
 
 # ID3DXPRTBuffer::ExtractTexture method
 
-Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) object.
+Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) object.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ HRESULT ExtractTexture(
 *Channel* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Buffer color channel from which to extract texture data.
 
@@ -50,7 +50,7 @@ Buffer color channel from which to extract texture data.
 *StartCoefficient* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Starting value of the buffer coefficient from which to extract texture data.
 
@@ -59,7 +59,7 @@ Starting value of the buffer coefficient from which to extract texture data.
 *NumCoefficients* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of scalars, beginning at StartCoefficient, from which to extract texture data.
 
@@ -68,9 +68,9 @@ Number of scalars, beginning at StartCoefficient, from which to extract texture 
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)**
 
-Pointer to a [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) texture object that will store coefficients.
+Pointer to a [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) texture object that will store coefficients.
 
 </dd> </dl>
 
@@ -101,7 +101,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

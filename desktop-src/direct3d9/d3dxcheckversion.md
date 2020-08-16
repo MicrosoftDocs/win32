@@ -39,7 +39,7 @@ BOOL D3DXCheckVersion(
 *D3DSDKVersion* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Use D3D\_SDK\_VERSION. See remarks.
 
@@ -48,7 +48,7 @@ Use D3D\_SDK\_VERSION. See remarks.
 *D3DXSDKVersion* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Use D3DX\_SDK\_VERSION. See remarks.
 
@@ -56,7 +56,7 @@ Use D3DX\_SDK\_VERSION. See remarks.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Returns **TRUE** if the version of D3DX you compiled against is the version you are running with; otherwise, **FALSE** is returned.
 
@@ -80,7 +80,7 @@ HRESULT CD3DXMyApplication::Initialize(HINSTANCE hInstance,
 
 
 
-Use [**Direct3DCreate9**](https://msdn.microsoft.com/library/Bb219685(v=VS.85).aspx) to verify that the correct runtime is installed.
+Use [**Direct3DCreate9**](/windows/win32/api/d3d9/nf-d3d9-direct3dcreate9) to verify that the correct runtime is installed.
 
 ## Requirements
 
@@ -103,7 +103,3 @@ Use [**Direct3DCreate9**](https://msdn.microsoft.com/library/Bb219685(v=VS.85).a
  
 
  
-
-
-
-

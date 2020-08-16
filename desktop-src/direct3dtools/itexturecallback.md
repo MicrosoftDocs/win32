@@ -26,7 +26,7 @@ Callback to write a texture as a DDS file.
 
 ## Members
 
-The **ITextureCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITextureCallback** also has these types of members:
+The **ITextureCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITextureCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **ITextureCallback** interface has these methods.
  
 
  
-
-
-

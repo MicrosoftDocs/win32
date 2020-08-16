@@ -12,7 +12,7 @@ A compute shader is an Microsoft High Level Shader Language (HLSL) programmable 
 
 **To create a compute shader:**
 
-1.  Compile the HLSL shader code by calling [**D3DCompileFromFile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompilefromfile).
+1.  Compile the HLSL shader code by calling [**D3DCompileFromFile**](/windows/desktop/direct3dhlsl/d3dcompilefromfile).
     ```
         UINT flags = D3DCOMPILE_ENABLE_STRICTNESS;
     #if defined( DEBUG ) || defined( _DEBUG )

@@ -19,8 +19,8 @@ There are several ways to access [resources](overviews-direct3d-11-resources-typ
 
 Two new buffer types can be accessed using a byte offset:
 
--   [**ByteAddressBuffer**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-byteaddressbuffer) is a read-only buffer.
--   [**RWByteAddressBuffer**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwbyteaddressbuffer) is a read or write buffer.
+-   [**ByteAddressBuffer**](/windows/desktop/direct3dhlsl/sm5-object-byteaddressbuffer) is a read-only buffer.
+-   [**RWByteAddressBuffer**](/windows/desktop/direct3dhlsl/sm5-object-rwbyteaddressbuffer) is a read or write buffer.
 
 ## Access By Index
 
@@ -59,7 +59,7 @@ This example assigns the 4 float values that are stored at the texel located at 
 
 ## Access By Mips Method
 
-Texture objects have a **mips** method (for example, [**Texture2D.mips**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff471560(v=vs.85))), which you can use to specify the mipmap level. This example reads the color stored at (7,16) on mipmap level 2 in a 2D texture:
+Texture objects have a **mips** method (for example, [**Texture2D.mips**](/previous-versions/windows/desktop/legacy/ff471560(v=vs.85))), which you can use to specify the mipmap level. This example reads the color stored at (7,16) on mipmap level 2 in a 2D texture:
 
 
 ```
@@ -82,7 +82,3 @@ This is an enhancement from the June 2010 compiler and later. The "myTexture.mip
  
 
  
-
-
-
-

@@ -23,7 +23,7 @@ Represents a block of text after it has been fully analyzed and formatted.
 
 ## Members
 
-The **IDWriteTextLayout2** interface inherits from [**IDWriteTextLayout1**](https://msdn.microsoft.com/library/Hh780438(v=VS.85).aspx). **IDWriteTextLayout2** also has these types of members:
+The **IDWriteTextLayout2** interface inherits from [**IDWriteTextLayout1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextlayout1). **IDWriteTextLayout2** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -35,15 +35,15 @@ The **IDWriteTextLayout2** interface has these methods.
 
 | Method                                                                                | Description                                                                                 |
 |:--------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
-| [**GetFontFallback**](https://msdn.microsoft.com/library/Dn482045(v=VS.85).aspx)                         | Get the current font fallback object. <br/>                                           |
-| [**GetLastLineWrapping**](https://msdn.microsoft.com/library/Dn482046(v=VS.85).aspx)                 | Get whether or not the last word on the last line is wrapped.<br/>                    |
+| [**GetFontFallback**](/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-getfontfallback)                         | Get the current font fallback object. <br/>                                           |
+| [**GetLastLineWrapping**](/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-getlastlinewrapping)                 | Get whether or not the last word on the last line is wrapped.<br/>                    |
 | [**GetMetrics**](idwritetextlayout2-getmetrics.md)                                   | Retrieves overall metrics for the formatted string. <br/>                             |
-| [**GetOpticalAlignment**](https://msdn.microsoft.com/library/Dn482047(v=VS.85).aspx)                 | Get how the glyphs align to the edges the margin. <br/>                               |
-| [**GetVerticalGlyphOrientation**](https://msdn.microsoft.com/library/Dn482048(v=VS.85).aspx) | Get the preferred orientation of glyphs when using a vertical reading direction.<br/> |
-| [**SetFontFallback**](https://msdn.microsoft.com/library/Dn482049(v=VS.85).aspx)                         | Apply a custom font fallback onto layout.<br/>                                        |
-| [**SetLastLineWrapping**](https://msdn.microsoft.com/library/Dn482050(v=VS.85).aspx)                 | Set whether or not the last word on the last line is wrapped. <br/>                   |
-| [**SetOpticalAlignment**](https://msdn.microsoft.com/library/Dn482051(v=VS.85).aspx)                 | Set how the glyphs align to the edges the margin.<br/>                                |
-| [**SetVerticalGlyphOrientation**](https://msdn.microsoft.com/library/Dn482052(v=VS.85).aspx) | Set the preferred orientation of glyphs when using a vertical reading direction.<br/> |
+| [**GetOpticalAlignment**](/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-getopticalalignment)                 | Get how the glyphs align to the edges the margin. <br/>                               |
+| [**GetVerticalGlyphOrientation**](/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-getverticalglyphorientation) | Get the preferred orientation of glyphs when using a vertical reading direction.<br/> |
+| [**SetFontFallback**](/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-setfontfallback)                         | Apply a custom font fallback onto layout.<br/>                                        |
+| [**SetLastLineWrapping**](/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-setlastlinewrapping)                 | Set whether or not the last word on the last line is wrapped. <br/>                   |
+| [**SetOpticalAlignment**](/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-setopticalalignment)                 | Set how the glyphs align to the edges the margin.<br/>                                |
+| [**SetVerticalGlyphOrientation**](/windows/win32/api/dwrite_2/nf-dwrite_2-idwritetextlayout2-setverticalglyphorientation) | Set the preferred orientation of glyphs when using a vertical reading direction.<br/> |
 
 
 
@@ -67,14 +67,8 @@ The **IDWriteTextLayout2** interface has these methods.
 
 <dl> <dt>
 
-[**IDWriteTextLayout1**](https://msdn.microsoft.com/library/Hh780438(v=VS.85).aspx)
+[**IDWriteTextLayout1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextlayout1)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

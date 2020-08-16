@@ -24,8 +24,8 @@ Sets the transformation applied to the brush.
 
 | Method                                                                                       | Description                                              |
 |:---------------------------------------------------------------------------------------------|:---------------------------------------------------------|
-| [**SetTransform(D2D1\_MATRIX\_3X2\_F&)**](https://msdn.microsoft.com/library/Dd371186(v=VS.85).aspx)  | Sets the transformation applied to the brush.<br/> |
-| [**SetTransform(D2D1\_MATRIX\_3X2\_F\*)**](https://msdn.microsoft.com/library/Dd371184(v=VS.85).aspx) | Sets the transformation applied to the brush.<br/> |
+| [**SetTransform(D2D1\_MATRIX\_3X2\_F&)**](/windows/win32/api/d2d1/nf-d2d1-id2d1brush-settransform(constd2d1_matrix_3x2_f_))  | Sets the transformation applied to the brush.<br/> |
+| [**SetTransform(D2D1\_MATRIX\_3X2\_F\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1brush-settransform(constd2d1_matrix_3x2_f)) | Sets the transformation applied to the brush.<br/> |
 
 
 
@@ -33,19 +33,19 @@ Sets the transformation applied to the brush.
 
 When you paint with a brush, it paints in the coordinate space of the render target. Brushes do not automatically position themselves to align with the object being painted; by default, they begin painting at the origin (0, 0) of the render target.
 
-You can "move" the gradient defined by an [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx) to a target area by setting its start point and end point. Likewise, you can move the gradient defined by an [**ID2D1RadialGradientBrush**](https://msdn.microsoft.com/library/Dd371529(v=VS.85).aspx) by changing its center and radii.
+You can "move" the gradient defined by an [**ID2D1LinearGradientBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1lineargradientbrush) to a target area by setting its start point and end point. Likewise, you can move the gradient defined by an [**ID2D1RadialGradientBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush) by changing its center and radii.
 
-To align the content of an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx) to the area being painted, you can use the **SetTransform** method to translate the bitmap to the desired location. This transform only affects the brush; it does not affect any other content drawn by the render target.
+To align the content of an [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush) to the area being painted, you can use the **SetTransform** method to translate the bitmap to the desired location. This transform only affects the brush; it does not affect any other content drawn by the render target.
 
-The following illustrations show the effect of using an [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx) to fill a rectangle located at (100, 100). The illustration on the left illustration shows the result of filling the rectangle without transforming the brush: the bitmap is drawn at the render target's origin. As a result, only a portion of the bitmap appears in the rectangle.
+The following illustrations show the effect of using an [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush) to fill a rectangle located at (100, 100). The illustration on the left illustration shows the result of filling the rectangle without transforming the brush: the bitmap is drawn at the render target's origin. As a result, only a portion of the bitmap appears in the rectangle.
 
-The illustration on the right shows the result of transforming the [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx) so that its content is shifted 50 pixels to the right and 50 pixels down. The bitmap now fills the rectangle.
+The illustration on the right shows the result of transforming the [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush) so that its content is shifted 50 pixels to the right and 50 pixels down. The bitmap now fills the rectangle.
 
 ![illustration of two squares, one painted with a bitmap without a transformed brush and one painted with a transformed brush](images/brushes-ovw-transform.png)
 
 ## Examples
 
-The following code examples show how to create the transformation shown in the right diagram in the preceding illustration. First apply a translation to the [**ID2D1BitmapBrush**](https://msdn.microsoft.com/library/Dd371122(v=VS.85).aspx), moving the brush 50 pixels right along the x-axis and 50 pixels down along the y-axis. Then use the **ID2D1BitmapBrush** to fill the rectangle that has the upper-left corner at (100, 100) and the lower-right corner at (200, 200).
+The following code examples show how to create the transformation shown in the right diagram in the preceding illustration. First apply a translation to the [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush), moving the brush 50 pixels right along the x-axis and 50 pixels down along the y-axis. Then use the **ID2D1BitmapBrush** to fill the rectangle that has the upper-left corner at (100, 100) and the lower-right corner at (200, 200).
 
 
 ```C++
@@ -122,14 +122,9 @@ D2D1_RECT_F rcTransformedBrushRect = D2D1::RectF(100, 100, 200, 200);
 [Brushes Overview](direct2d-brushes-overview.md)
 </dt> <dt>
 
-[**ID2D1Brush**](https://msdn.microsoft.com/library/Dd371173(v=VS.85).aspx)
+[**ID2D1Brush**](/windows/win32/api/d2d1/nn-d2d1-id2d1brush)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

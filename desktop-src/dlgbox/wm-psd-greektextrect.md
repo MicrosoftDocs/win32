@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # WM\_PSD\_GREEKTEXTRECT message
 
-Notifies the hook procedure of a **Page Setup** dialog box, [*PagePaintHook*](https://msdn.microsoft.com/library/ms646935(v=VS.85).aspx), that the dialog box is about to draw Greek text inside the margin rectangle of the sample page.
+Notifies the hook procedure of a **Page Setup** dialog box, [*PagePaintHook*](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook), that the dialog box is about to draw Greek text inside the margin rectangle of the sample page.
 
 
 ```C++
@@ -42,7 +42,7 @@ A handle to the device context for the sample page.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that contains the coordinates, in pixels, of the Greek text rectangle.
+A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that contains the coordinates, in pixels, of the Greek text rectangle.
 
 </dd> </dl>
 
@@ -54,7 +54,7 @@ If the hook procedure returns **FALSE**, the dialog box draws the Greek text por
 
 ## Remarks
 
-The **Page Setup** dialog box includes an image of a sample page that shows how the user's selections affect the appearance of the printed output. When you call the [**PageSetupDlg**](https://msdn.microsoft.com/library/ms646937(v=VS.85).aspx) function, you can provide a [*PagePaintHook*](https://msdn.microsoft.com/library/ms646935(v=VS.85).aspx) hook procedure to customize the appearance of the sample page. Whenever the dialog box is about to draw the contents of the sample page, the dialog box sends a sequence of messages to the hook procedure.
+The **Page Setup** dialog box includes an image of a sample page that shows how the user's selections affect the appearance of the printed output. When you call the [**PageSetupDlg**](/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)) function, you can provide a [*PagePaintHook*](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook) hook procedure to customize the appearance of the sample page. Whenever the dialog box is about to draw the contents of the sample page, the dialog box sends a sequence of messages to the hook procedure.
 
 ## Requirements
 
@@ -75,10 +75,10 @@ The **Page Setup** dialog box includes an image of a sample page that shows how 
 **Reference**
 </dt> <dt>
 
-[*PagePaintHook*](https://msdn.microsoft.com/library/ms646935(v=VS.85).aspx)
+[*PagePaintHook*](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook)
 </dt> <dt>
 
-[**PageSetupDlg**](https://msdn.microsoft.com/library/ms646937(v=VS.85).aspx)
+[**PageSetupDlg**](/previous-versions/windows/desktop/legacy/ms646937(v=vs.85))
 </dt> <dt>
 
 [**WM\_PSD\_PAGESETUPDLG**](wm-psd-pagesetupdlg.md)
@@ -91,10 +91,4 @@ The **Page Setup** dialog box includes an image of a sample page that shows how 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

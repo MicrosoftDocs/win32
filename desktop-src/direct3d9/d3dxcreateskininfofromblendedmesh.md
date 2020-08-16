@@ -50,7 +50,7 @@ Pointer to an [**ID3DXBaseMesh**](id3dxbasemesh.md) object, the mesh from which 
 *NumBones* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 The length of the array attached to the BoneId. See [**D3DXBONECOMBINATION**](d3dxbonecombination.md).
 
@@ -101,7 +101,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

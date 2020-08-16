@@ -24,8 +24,8 @@ Sets a value in the green table.
 
 | Method                                                                                                                | Description                                 |
 |:----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------|
-| [**SetGreenTableValue**](https://msdn.microsoft.com/library/Dn919795(v=VS.85).aspx)                                     | Sets a value in the green table.<br/> |
-| [**SetGreenTableValue (UINT, IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919796(v=VS.85).aspx) | Sets a value in the green table.<br/> |
+| [**SetGreenTableValue**](/windows/win32/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setgreentablevalue(uint_float))                                     | Sets a value in the green table.<br/> |
+| [**SetGreenTableValue (UINT, IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setgreentablevalue(uint_idcompositionanimation)) | Sets a value in the green table.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Sets a value in the green table.
 
 <dl> <dt>
 
-[**IDCompositionTableTransferEffect**](https://msdn.microsoft.com/library/Dn919783(v=VS.85).aspx)
+[**IDCompositionTableTransferEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositiontabletransfereffect)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

@@ -26,7 +26,7 @@ Callbacks used for viewing textures.
 
 ## Members
 
-The **IPixEngine5Callbacks** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixEngine5Callbacks** also has these types of members:
+The **IPixEngine5Callbacks** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixEngine5Callbacks** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IPixEngine5Callbacks** interface has these methods.
  
 
  
-
-
-

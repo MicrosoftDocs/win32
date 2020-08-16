@@ -10,7 +10,7 @@ ms.topic: reference
 
 Constructors exposed by `XMINT4`.
 
-Constructs instances of the [**XMINT4**](https://msdn.microsoft.com/library/Hh404664(v=VS.85).aspx) structure.
+Constructs instances of the [**XMINT4**](/windows/win32/api/directxmath/ns-directxmath-xmint4) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -34,8 +34,8 @@ Constructs instances of the [**XMINT4**](https://msdn.microsoft.com/library/Hh40
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMINT4 (const int32_t*)</strong>](https://msdn.microsoft.com/library/Hh404669(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMINT4</code> from a four element <code>int32_t</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMINT4</strong>](https://msdn.microsoft.com/library/Hh404664(v=VS.85).aspx) from a from a four element <code>int32_t</code> array argument. <br/>
+<td style="text-align: left;">[<strong>XMINT4 (const int32_t*)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmint4-xmint4(constint32_t))</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMINT4</code> from a four element <code>int32_t</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMINT4</strong>](/windows/win32/api/directxmath/ns-directxmath-xmint4) from a from a four element <code>int32_t</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -43,8 +43,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMINT4 (int32_t,int32_t,int32_t,int32_t)</strong>](https://msdn.microsoft.com/library/Hh404668(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMINT4</code> from four <code>int32_t</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMINT4</strong>](https://msdn.microsoft.com/library/Hh404664(v=VS.85).aspx) from four <code>int32_t</code> arguments. <br/>
+<td style="text-align: left;">[<strong>XMINT4 (int32_t,int32_t,int32_t,int32_t)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmint4-xmint4(int32_t_int32_t_int32_t_int32_t))</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMINT4</code> from four <code>int32_t</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMINT4</strong>](/windows/win32/api/directxmath/ns-directxmath-xmint4) from four <code>int32_t</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -52,8 +52,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMINT4 ()</strong>](https://msdn.microsoft.com/library/Hh404667(v=VS.85).aspx)</td>
-<td style="text-align: left;">Default constructor for <code>XMINT4</code>. <br/> Default constructor for [<strong>XMINT4</strong>](https://msdn.microsoft.com/library/Hh404664(v=VS.85).aspx). <br/>
+<td style="text-align: left;">[<strong>XMINT4 ()</strong>](/windows/win32/api/directxmath/nf-directxmath-xmint4-xmint4(constxmint4_))</td>
+<td style="text-align: left;">Default constructor for <code>XMINT4</code>. <br/> Default constructor for [<strong>XMINT4</strong>](/windows/win32/api/directxmath/ns-directxmath-xmint4). <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -85,13 +85,9 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMINT4**](https://msdn.microsoft.com/library/Hh404664(v=VS.85).aspx)
+[**XMINT4**](/windows/win32/api/directxmath/ns-directxmath-xmint4)
 </dt> </dl>
 
  
 
  
-
-
-
-

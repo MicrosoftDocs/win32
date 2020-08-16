@@ -24,7 +24,7 @@ This overview consists of the following parts:
 
 ## Step 1: Get the System Font Collection.
 
-Use the [**GetSystemFontCollection**](https://msdn.microsoft.com/library/Dd368208(v=VS.85).aspx) method provided by the DirectWrite Factory to return an [**IDWriteFontCollection**](https://msdn.microsoft.com/library/Dd368214(v=VS.85).aspx) with all of the system fonts in it.
+Use the [**GetSystemFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-getsystemfontcollection) method provided by the DirectWrite Factory to return an [**IDWriteFontCollection**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection) with all of the system fonts in it.
 
 
 ```C++
@@ -41,7 +41,7 @@ if (SUCCEEDED(hr))
 
 ## Step 2: Get the Font Family Count.
 
-Next, get the font family count from the font collection by using [**IDWriteFontCollection::GetFontFamilyCount**](https://msdn.microsoft.com/library/Dd370974(v=VS.85).aspx). We'll use this to loop over each font family in the collection.
+Next, get the font family count from the font collection by using [**IDWriteFontCollection::GetFontFamilyCount**](/windows/win32/api/dwrite/nf-dwrite-idwritefontcollection-getfontfamilycount). We'll use this to loop over each font family in the collection.
 
 
 ```C++
@@ -65,11 +65,11 @@ for (UINT32 i = 0; i < familyCount; ++i)
 
 
 
-Now that you have the font collection and the font count, the remaining steps loop over each font family, retrieving the [**IDWriteFontFamily**](https://msdn.microsoft.com/library/Dd371042(v=VS.85).aspx) object and querying it.
+Now that you have the font collection and the font count, the remaining steps loop over each font family, retrieving the [**IDWriteFontFamily**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfamily) object and querying it.
 
 ### Step 3: Get the Font Family.
 
-Get a [**IDWriteFontFamily**](https://msdn.microsoft.com/library/Dd371042(v=VS.85).aspx) object by using [**IDWriteFontCollection::GetFontFamily**](https://msdn.microsoft.com/library/Dd370970(v=VS.85).aspx) and passing it the current index, *i*.
+Get a [**IDWriteFontFamily**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfamily) object by using [**IDWriteFontCollection::GetFontFamily**](/windows/win32/api/dwrite/nf-dwrite-idwritefontcollection-getfontfamily) and passing it the current index, *i*.
 
 
 ```C++
@@ -86,7 +86,7 @@ if (SUCCEEDED(hr))
 
 ### Step 4: Get the Family Names.
 
-Get the font family names by using the [**IDWriteFontFamily::GetFamilyNames**](https://msdn.microsoft.com/library/Dd371047(v=VS.85).aspx). This is an [**IDWriteLocalizedStrings**](https://msdn.microsoft.com/library/Dd371250(v=VS.85).aspx) object. It can have multiple localized versions of the family name for the font family.
+Get the font family names by using the [**IDWriteFontFamily::GetFamilyNames**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfamily-getfamilynames). This is an [**IDWriteLocalizedStrings**](/windows/win32/api/dwrite/nn-dwrite-idwritelocalizedstrings) object. It can have multiple localized versions of the family name for the font family.
 
 
 ```C++
@@ -103,7 +103,7 @@ if (SUCCEEDED(hr))
 
 ### Step 5: Find the Locale Name.
 
-Get the font famliy name in the locale you want by using the [**IDWriteLocalizedStrings::FindLocaleName**](https://msdn.microsoft.com/library/Dd371254(v=VS.85).aspx) method. In this case, first the default locale is retrieved and requested. If that does not work, the "en-us" locale is requested. If either of the specified locales are not found, this example simply falls back to index 0, the first available locale.
+Get the font famliy name in the locale you want by using the [**IDWriteLocalizedStrings::FindLocaleName**](/windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-findlocalename) method. In this case, first the default locale is retrieved and requested. If that does not work, the "en-us" locale is requested. If either of the specified locales are not found, this example simply falls back to index 0, the first available locale.
 
 
 ```C++
@@ -137,7 +137,7 @@ if (!exists)
 
 ### Step 6: Get the Length of the Family Name String Length and the String.
 
-Finally, get the length of the family name string by using [**IDWriteLocalizedStrings::GetStringLength**](https://msdn.microsoft.com/library/Dd371269(v=VS.85).aspx). Use this length to allocate a string large enough to hold the name and then get the font family name by using [**IDWriteLocalizedStrings::GetString**](https://msdn.microsoft.com/library/Dd371267(v=VS.85).aspx).
+Finally, get the length of the family name string by using [**IDWriteLocalizedStrings::GetStringLength**](/windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-getstringlength). Use this length to allocate a string large enough to hold the name and then get the font family name by using [**IDWriteLocalizedStrings::GetString**](/windows/win32/api/dwrite/nf-dwrite-idwritelocalizedstrings-getstring).
 
 
 ```C++
@@ -171,12 +171,8 @@ Once you have the family name or names in the locale, you can list them for the 
 
 ## Example Code
 
-To see the full source code for this example see the [Font Enumeration Sample](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples).
+To see the full source code for this example see the [Font Enumeration Sample](/samples/browse/?redirectedfrom=MSDN-samples).
 
  
 
  
-
-
-
-

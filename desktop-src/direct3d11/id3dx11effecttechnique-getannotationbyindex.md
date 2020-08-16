@@ -41,7 +41,7 @@ ID3DX11EffectVariable* GetAnnotationByIndex(
 *Index* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The zero-based index of the interface pointer.
 
@@ -81,10 +81,4 @@ Use an annotation to attach a piece of metadata to a technique.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -24,8 +24,8 @@ Animates or changes the value of the Top property of a clip rectangle. The Top p
 
 | Method                                                                                               | Description                                        |
 |:-----------------------------------------------------------------------------------------------------|:---------------------------------------------------|
-| [**SetTop(float)**](https://msdn.microsoft.com/library/Hh448921(v=VS.85).aspx)                                     | Changes the value of the Top property.<br/>  |
-| [**SetTop(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448922(v=VS.85).aspx) | Animates the value of the Top property.<br/> |
+| [**SetTop(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-settop(float))                                     | Changes the value of the Top property.<br/>  |
+| [**SetTop(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-settop(idcompositionanimation)) | Animates the value of the Top property.<br/> |
 
 
 
@@ -47,14 +47,9 @@ Animates or changes the value of the Top property of a clip rectangle. The Top p
 
 <dl> <dt>
 
-[**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx)
+[**IDCompositionRectangleClip**](/windows/win32/api/dcomp/nn-dcomp-idcompositionrectangleclip)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

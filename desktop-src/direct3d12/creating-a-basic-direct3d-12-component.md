@@ -85,7 +85,7 @@ Initialization involves first setting up the global variables and classes, and a
     -   Create the vertex buffer views.
     -   Create a fence.
         > [!Note]  
-        > A fence is used to synchronize the CPU with the GPU (see [Multi-engine synchronization](/windows/win32/direct3d12/user-mode-heap-synchronization)).
+        > A fence is used to synchronize the CPU with the GPU (see [Multi-engine synchronization](./user-mode-heap-synchronization.md)).
 
          
 
@@ -417,7 +417,7 @@ The following APIs and processes are called in succession.
     [**D3D12SerializeRootSignature**](/windows/win32/api/d3d12/nf-d3d12-d3d12serializerootsignature)  
     [**ID3D12Device::CreateRootSignature**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createrootsignature)  
     </dl>
--   Load and compile the shaders: [**D3DCompileFromFile**](/windows/win32/direct3dhlsl/d3dcompilefromfile).
+-   Load and compile the shaders: [**D3DCompileFromFile**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompilefromfile).
 -   Create the vertex input layout: [**D3D12\_INPUT\_ELEMENT\_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_input_element_desc).
 -   Fill out a pipeline state description, using the helper structures available, then create the graphics pipeline state: <dl>
 
@@ -761,7 +761,3 @@ void D3D12HelloTriangle::OnDestroy()
  
 
  
-
-
-
-

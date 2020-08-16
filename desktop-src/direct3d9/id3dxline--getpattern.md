@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Returns the line stipple pattern: 1 is opaque, 0 is transparent.
 
@@ -63,7 +63,3 @@ Returns the line stipple pattern: 1 is opaque, 0 is transparent.
  
 
  
-
-
-
-

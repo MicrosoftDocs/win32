@@ -21,7 +21,7 @@ SetRenderState(D3DRS_COLORVERTEX, TRUE);
 
 
 
-If per-vertex color is enabled, applications can configure the source from which the system retrieves color information for a vertex. The D3DRS\_AMBIENTMATERIALSOURCE, D3DRS\_DIFFUSEMATERIALSOURCE, D3DRS\_EMISSIVEMATERIALSOURCE, and D3DRS\_SPECULARMATERIALSOURCE render states control the ambient, diffuse, emissive, and specular color component sources, respectively. Each state can be set to members of the [**D3DMATERIALCOLORSOURCE**](https://msdn.microsoft.com/library/Bb172572(v=VS.85).aspx) enumerated type, which defines constants that instruct the system to use the current material, diffuse color, or specular color as the source for the specified color component.
+If per-vertex color is enabled, applications can configure the source from which the system retrieves color information for a vertex. The D3DRS\_AMBIENTMATERIALSOURCE, D3DRS\_DIFFUSEMATERIALSOURCE, D3DRS\_EMISSIVEMATERIALSOURCE, and D3DRS\_SPECULARMATERIALSOURCE render states control the ambient, diffuse, emissive, and specular color component sources, respectively. Each state can be set to members of the [**D3DMATERIALCOLORSOURCE**](./d3dmaterialcolorsource.md) enumerated type, which defines constants that instruct the system to use the current material, diffuse color, or specular color as the source for the specified color component.
 
 ## Related topics
 
@@ -33,6 +33,3 @@ If per-vertex color is enabled, applications can configure the source from which
  
 
  
-
-
-

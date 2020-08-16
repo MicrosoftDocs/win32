@@ -28,13 +28,13 @@ This overview assumes that you are familiar with creating basic Direct2D applica
 
 ## Path Geometries in Direct2D
 
-Path geometries are represented by the [**ID2D1PathGeometry**](https://msdn.microsoft.com/library/Dd371512(v=VS.85).aspx) interface. To instantiate a path geometry, call the [**ID2D1Factory::CreatePathGeometry**](https://msdn.microsoft.com/library/Dd371282(v=VS.85).aspx) method. These objects can be used to describe complex geometric figures composed of segments such as arcs, curves, and lines. To populate a path geometry with figures and segments, call the [**Open**](https://msdn.microsoft.com/library/Dd371522(v=VS.85).aspx) method to retrieve an [**ID2D1GeometrySink**](https://msdn.microsoft.com/library/Dd316592(v=VS.85).aspx) and use the geometry sink's methods to add figures and segments to the path geometry.
+Path geometries are represented by the [**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry) interface. To instantiate a path geometry, call the [**ID2D1Factory::CreatePathGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry) method. These objects can be used to describe complex geometric figures composed of segments such as arcs, curves, and lines. To populate a path geometry with figures and segments, call the [**Open**](/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-open) method to retrieve an [**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink) and use the geometry sink's methods to add figures and segments to the path geometry.
 
 ## Using an ID2D1GeometrySink to Populate a Path Geometry
 
-[**ID2D1GeometrySink**](https://msdn.microsoft.com/library/Dd316592(v=VS.85).aspx) describes a geometric path that can contain lines, arcs, cubic Bezier curves, and quadratic Bezier curves.
+[**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink) describes a geometric path that can contain lines, arcs, cubic Bezier curves, and quadratic Bezier curves.
 
-A geometry sink consists of one or more figures. Each figure is made up of one or more line, curve, or arc segments. To create a figure, call the [**BeginFigure**](https://msdn.microsoft.com/library/Dd316929(v=VS.85).aspx) method, passing in the figure's starting point, and then use its Add methods (such as [**AddLine**](https://msdn.microsoft.com/library/Dd316604(v=VS.85).aspx) and [**AddBezier**](/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) to add segments. When you are finished adding segments, call the [**EndFigure**](https://msdn.microsoft.com/library/Dd316934(v=VS.85).aspx) method. You can repeat this sequence to create additional figures. When you are finished creating figures, call the [**Close**](https://msdn.microsoft.com/library/Dd316932(v=VS.85).aspx) method.
+A geometry sink consists of one or more figures. Each figure is made up of one or more line, curve, or arc segments. To create a figure, call the [**BeginFigure**](/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure) method, passing in the figure's starting point, and then use its Add methods (such as [**AddLine**](/windows/win32/api/d2d1/nf-d2d1-id2d1geometrysink-addline) and [**AddBezier**](/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) to add segments. When you are finished adding segments, call the [**EndFigure**](/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-endfigure) method. You can repeat this sequence to create additional figures. When you are finished creating figures, call the [**Close**](/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-close) method.
 
 ## Example: Create a Complex Drawing
 
@@ -48,7 +48,7 @@ The example first creates a path geometry for the left mountain as shown in the 
 
 ![illustration of a polygon that shows a mountain](images/path-geo-leftmnt.png)
 
-To create the left mountain, the example calls the [**ID2D1Factory::CreatePathGeometry**](https://msdn.microsoft.com/library/Dd371282(v=VS.85).aspx) method to create an [**ID2D1PathGeometry**](https://msdn.microsoft.com/library/Dd371512(v=VS.85).aspx).
+To create the left mountain, the example calls the [**ID2D1Factory::CreatePathGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry) method to create an [**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry).
 
 
 ```C++
@@ -57,7 +57,7 @@ hr = m_pD2DFactory->CreatePathGeometry(&m_pLeftMountainGeometry);
 
 
 
-The example then uses the [**Open**](https://msdn.microsoft.com/library/Dd371522(v=VS.85).aspx) method to obtain a geometry sink from an [**ID2D1PathGeometry**](https://msdn.microsoft.com/library/Dd371512(v=VS.85).aspx) and stores it in the *pSink* variable.
+The example then uses the [**Open**](/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-open) method to obtain a geometry sink from an [**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry) and stores it in the *pSink* variable.
 
 
 ```C++
@@ -67,7 +67,7 @@ hr = m_pLeftMountainGeometry->Open(&pSink);
 
 
 
-The example then calls [**BeginFigure**](https://msdn.microsoft.com/library/Dd316929(v=VS.85).aspx), passing in [**D2D1\_FIGURE\_BEGIN\_FILLED**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_figure_begin) that indicates this figure is filled, then calls [**AddLines**](https://msdn.microsoft.com/library/Dd316925(v=VS.85).aspx), passing in an array of [**D2D1\_POINT\_2F**](d2d1-point-2f.md) points, (267, 177), (236, 192), (212, 160), (156, 255) and (346, 255).
+The example then calls [**BeginFigure**](/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure), passing in [**D2D1\_FIGURE\_BEGIN\_FILLED**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_figure_begin) that indicates this figure is filled, then calls [**AddLines**](/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-addlines), passing in an array of [**D2D1\_POINT\_2F**](d2d1-point-2f.md) points, (267, 177), (236, 192), (212, 160), (156, 255) and (346, 255).
 
 The following code shows how to do this.
 
@@ -142,7 +142,7 @@ The example then populates another path geometry for the sun as shown in the fol
 
 ![illustration of an arc and bezier curves that show the sun](images/path-geo-sun.png)
 
-To do this, the path geometry creates a sink, and adds a figure for the arc and a figure for each flare to the sink. By repeating the sequence of [**BeginFigure**](https://msdn.microsoft.com/library/Dd316929(v=VS.85).aspx), its Add (such as [**AddBezier**](/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget))) methods, and [**EndFigure**](https://msdn.microsoft.com/library/Dd316934(v=VS.85).aspx), multiple figures are added to the sink.
+To do this, the path geometry creates a sink, and adds a figure for the arc and a figure for each flare to the sink. By repeating the sequence of [**BeginFigure**](/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure), its Add (such as [**AddBezier**](/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget))) methods, and [**EndFigure**](/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-endfigure), multiple figures are added to the sink.
 
 The following code shows how to do this.
 
@@ -388,7 +388,3 @@ The complete example outputs the following illustration.
  
 
  
-
-
-
-

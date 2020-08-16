@@ -42,16 +42,16 @@ HRESULT Open(
 *IncludeType* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXINCLUDE\_TYPE**](https://msdn.microsoft.com/library/Bb172881(v=VS.85).aspx)**
+Type: **[**D3DXINCLUDE\_TYPE**](./d3dxinclude-type.md)**
 
-The location of the \#include file. See [**D3DXINCLUDE\_TYPE**](https://msdn.microsoft.com/library/Bb172881(v=VS.85).aspx).
+The location of the \#include file. See [**D3DXINCLUDE\_TYPE**](./d3dxinclude-type.md).
 
 </dd> <dt>
 
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Name of the \#include file.
 
@@ -60,16 +60,16 @@ Name of the \#include file.
 *pParentData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
-Pointer to the container that includes the \#include file. The compiler might pass NULL in *pParentData*. For more information, see the "Searching for Include Files" section in [Compile an Effect (Direct3D 11)](https://msdn.microsoft.com/library/Ff476139(v=VS.85).aspx).
+Pointer to the container that includes the \#include file. The compiler might pass NULL in *pParentData*. For more information, see the "Searching for Include Files" section in [Compile an Effect (Direct3D 11)](../direct3d11/d3d11-graphics-programming-guide-effects-compile.md).
 
 </dd> <dt>
 
 *ppData* \[out\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)\***
 
 Pointer to the returned buffer that contains the include directives. This pointer remains valid until [**ID3DXInclude::Close**](id3dxinclude--close.md) is called.
 
@@ -78,7 +78,7 @@ Pointer to the returned buffer that contains the include directives. This pointe
 *pBytes* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Number of bytes returned in ppData.
 
@@ -118,7 +118,3 @@ The user-implemented method should return S\_OK. If the callback fails when read
  
 
  
-
-
-
-

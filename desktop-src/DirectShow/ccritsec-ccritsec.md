@@ -37,7 +37,7 @@ This constructor has no parameters.
 
 ## Remarks
 
-This method calls the [**InitializeCriticalSection**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initializecriticalsection) function to initialize the critical section.
+This method calls the [**InitializeCriticalSection**](/windows/desktop/api/synchapi/nf-synchapi-initializecriticalsection) function to initialize the critical section.
 
 ## Requirements
 
@@ -58,9 +58,4 @@ This method calls the [**InitializeCriticalSection**](https://docs.microsoft.com
 </dt> </dl>
 
  
-
- 
-
-
-
 

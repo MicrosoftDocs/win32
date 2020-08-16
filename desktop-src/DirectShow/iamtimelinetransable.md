@@ -32,7 +32,7 @@ The `IAMTimelineTransable` interface adds transitions to an object in [DirectSho
 
 ## Members
 
-The **IAMTimelineTransable** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineTransable** also has these types of members:
+The **IAMTimelineTransable** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IAMTimelineTransable** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -81,7 +81,3 @@ The **IAMTimelineTransable** interface has these methods.
  
 
  
-
-
-
-

@@ -24,14 +24,14 @@ Draws an image to the device context.
 
 | Method                                                                                                                                                     | Description                                      |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------|
-| [**DrawImage (ID2D1Image\*, D2D1\_POINT\_2F \*, D2D1\_RECT\_F \*, D2D1\_INTERPOLATION\_MODE, D2D1\_COMPOSITE\_MODE)**](https://msdn.microsoft.com/library/Hh404511(v=VS.85).aspx)   | Draws an image to the device context.<br/> |
-| [**DrawImage (ID2D1Image\*, D2D1\_POINT\_2F \*, D2D1\_RECT\_F &, D2D1\_INTERPOLATION\_MODE, D2D1\_COMPOSITE\_MODE)**](https://msdn.microsoft.com/library/JJ841154(v=VS.85).aspx)   | Draws an image to the device context.<br/> |
-| [**DrawImage (ID2D1Effect\*, D2D1\_POINT\_2F \*, D2D1\_RECT\_F \*, D2D1\_INTERPOLATION\_MODE, D2D1\_COMPOSITE\_MODE)**](https://msdn.microsoft.com/library/JJ841149(v=VS.85).aspx) | Draws an image to the device context.<br/> |
-| [**DrawImage (ID2D1Image\*, D2D1\_INTERPOLATION\_MODE, D2D1\_COMPOSITE\_MODE)**](https://msdn.microsoft.com/library/JJ841150(v=VS.85).aspx)                                        | Draws an image to the device context.<br/> |
-| [**DrawImage (ID2D1Effect\*, D2D1\_INTERPOLATION\_MODE, D2D1\_COMPOSITE\_MODE)**](https://msdn.microsoft.com/library/JJ841151(v=VS.85).aspx)                                       | Draws an image to the device context.<br/> |
-| [**DrawImage (ID2D1Image\*, D2D1\_POINT\_2F \*, D2D1\_INTERPOLATION\_MODE, D2D1\_COMPOSITE\_MODE)**](https://msdn.microsoft.com/library/JJ841152(v=VS.85).aspx)                    | Draws an image to the device context.<br/> |
-| [**DrawImage (ID2D1Effect\*, D2D1\_POINT\_2F \*, D2D1\_INTERPOLATION\_MODE, D2D1\_COMPOSITE\_MODE)**](https://msdn.microsoft.com/library/JJ841153(v=VS.85).aspx)                   | Draws an image to the device context.<br/> |
-| [**DrawImage (ID2D1Effect\*, D2D1\_POINT\_2F, D2D1\_RECT\_F&, D2D1\_INTERPOLATION\_MODE, D2D1\_COMPOSITE\_MODE)**](https://msdn.microsoft.com/library/JJ841155(v=VS.85).aspx)      | Draws an image to the device context.<br/> |
+| [**DrawImage (ID2D1Image\*, D2D1\_POINT\_2F \*, D2D1\_RECT\_F \*, D2D1\_INTERPOLATION\_MODE, D2D1\_COMPOSITE\_MODE)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1image_constd2d1_point_2f_constd2d1_rect_f_d2d1_interpolation_mode_d2d1_composite_mode))   | Draws an image to the device context.<br/> |
+| [**DrawImage (ID2D1Image\*, D2D1\_POINT\_2F \*, D2D1\_RECT\_F &, D2D1\_INTERPOLATION\_MODE, D2D1\_COMPOSITE\_MODE)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1image_d2d1_point_2f_constd2d1_rect_f__d2d1_interpolation_mode_d2d1_composite_mode))   | Draws an image to the device context.<br/> |
+| [**DrawImage (ID2D1Effect\*, D2D1\_POINT\_2F \*, D2D1\_RECT\_F \*, D2D1\_INTERPOLATION\_MODE, D2D1\_COMPOSITE\_MODE)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1effect_constd2d1_point_2f_constd2d1_rect_f_d2d1_interpolation_mode_d2d1_composite_mode)) | Draws an image to the device context.<br/> |
+| [**DrawImage (ID2D1Image\*, D2D1\_INTERPOLATION\_MODE, D2D1\_COMPOSITE\_MODE)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1image_d2d1_interpolation_mode_d2d1_composite_mode))                                        | Draws an image to the device context.<br/> |
+| [**DrawImage (ID2D1Effect\*, D2D1\_INTERPOLATION\_MODE, D2D1\_COMPOSITE\_MODE)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1effect_d2d1_interpolation_mode_d2d1_composite_mode))                                       | Draws an image to the device context.<br/> |
+| [**DrawImage (ID2D1Image\*, D2D1\_POINT\_2F \*, D2D1\_INTERPOLATION\_MODE, D2D1\_COMPOSITE\_MODE)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1image_d2d1_point_2f_d2d1_interpolation_mode_d2d1_composite_mode))                    | Draws an image to the device context.<br/> |
+| [**DrawImage (ID2D1Effect\*, D2D1\_POINT\_2F \*, D2D1\_INTERPOLATION\_MODE, D2D1\_COMPOSITE\_MODE)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1effect_d2d1_point_2f_d2d1_interpolation_mode_d2d1_composite_mode))                   | Draws an image to the device context.<br/> |
+| [**DrawImage (ID2D1Effect\*, D2D1\_POINT\_2F, D2D1\_RECT\_F&, D2D1\_INTERPOLATION\_MODE, D2D1\_COMPOSITE\_MODE)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1effect_d2d1_point_2f_constd2d1_rect_f__d2d1_interpolation_mode_d2d1_composite_mode))      | Draws an image to the device context.<br/> |
 
 
 
@@ -39,14 +39,8 @@ Draws an image to the device context.
 
 <dl> <dt>
 
-[**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx)
+[**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

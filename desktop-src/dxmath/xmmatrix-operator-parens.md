@@ -17,7 +17,7 @@ api_location:
 
 Accesses specific matrix elements referenced by row and column from the current instance of `XMMATRIX`.
 
-Accesses specific matrix elements referenced by row and column from the current instance of [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx)
+Accesses specific matrix elements referenced by row and column from the current instance of [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)
 
 ### Overload list
 
@@ -68,13 +68,9 @@ This operator is only available when developing with C++.
 **Reference**
 </dt> <dt>
 
-[**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx)
+[**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)
 </dt> </dl>
 
  
 
  
-
-
-
-

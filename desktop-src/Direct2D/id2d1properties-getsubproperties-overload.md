@@ -24,8 +24,8 @@ Gets the sub-properties of the provided property by index.
 
 | Method                                                                                    | Description                                                                                        |
 |:------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
-| [**GetSubProperties(U, ID2D1Properties\*\*)**](https://msdn.microsoft.com/library/JJ151736(v=VS.85).aspx)     | Gets the sub-properties of the provided property by index. This is a template overload.<br/> |
-| [**GetSubProperties(UINT32, ID2D1Properties\*\*)**](https://msdn.microsoft.com/library/Hh446870(v=VS.85).aspx) | Gets the sub-properties of the provided property by index.<br/>                              |
+| [**GetSubProperties(U, ID2D1Properties\*\*)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getsubproperties(u_id2d1properties))     | Gets the sub-properties of the provided property by index. This is a template overload.<br/> |
+| [**GetSubProperties(UINT32, ID2D1Properties\*\*)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getsubproperties(uint32_id2d1properties)) | Gets the sub-properties of the provided property by index.<br/>                              |
 
 
 
@@ -33,14 +33,8 @@ Gets the sub-properties of the provided property by index.
 
 <dl> <dt>
 
-[**ID2D1Properties**](https://msdn.microsoft.com/library/Hh446854(v=VS.85).aspx)
+[**ID2D1Properties**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1properties)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -31,7 +31,7 @@ This topic contains the following sections:
 
 ## Drawing a Simple Rectangle
 
-To draw a rectangle using [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi), you could handle the [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message, as shown in the following code.
+To draw a rectangle using [GDI](/windows/desktop/gdi/windows-gdi), you could handle the [**WM\_PAINT**](/windows/desktop/gdi/wm-paint) message, as shown in the following code.
 
 
 ```C++
@@ -93,7 +93,7 @@ In addition to the headers required for a Win32 application, include the d2d1.h 
 
 ## Step 2: Create an ID2D1Factory
 
-One of the first things that any Direct2D example does is create an [**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx).
+One of the first things that any Direct2D example does is create an [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory).
 
 
 ```C++
@@ -106,9 +106,9 @@ HRESULT hr = D2D1CreateFactory(
 
 
 
-The [**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx) interface is the starting point for using Direct2D; use an **ID2D1Factory** to create Direct2D resources.
+The [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) interface is the starting point for using Direct2D; use an **ID2D1Factory** to create Direct2D resources.
 
-When you create a factory, you can specify whether it is multi- or single-threaded. (For more information about multi-threaded factories, see the remarks on the [**ID2D1Factory reference page**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx).) This example creates a single-threaded factory.
+When you create a factory, you can specify whether it is multi- or single-threaded. (For more information about multi-threaded factories, see the remarks on the [**ID2D1Factory reference page**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory).) This example creates a single-threaded factory.
 
 In general, your application should create the factory once and retain it for the life of the application.
 
@@ -140,11 +140,11 @@ HRESULT hr = pD2DFactory->CreateHwndRenderTarget(
 
 
 
-A render target is a device that can perform drawing operations and create device-dependent drawing resources such as brushes. Different types of render targets render to different devices. The preceding example uses an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/Dd371461(v=VS.85).aspx), which renders to a portion of the screen.
+A render target is a device that can perform drawing operations and create device-dependent drawing resources such as brushes. Different types of render targets render to different devices. The preceding example uses an [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget), which renders to a portion of the screen.
 
-When possible, a render target uses the GPU to accelerate rendering operations and create drawing resources. Otherwise, the render target uses the CPU to process rendering instructions and create resources. (You can modify this behavior by using the [**D2D1\_RENDER\_TARGET\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type) flags when you create the render target.)
+When possible, a render target uses the GPU to accelerate rendering operations and create drawing resources. Otherwise, the render target uses the CPU to process rendering instructions and create resources. (You can modify this behavior by using the [**D2D1\_RENDER\_TARGET\_TYPE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type) flags when you create the render target.)
 
-The [**CreateHwndRenderTarget**](https://msdn.microsoft.com/library/Dd371275(v=VS.85).aspx) method takes three parameters. The first parameter, a [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) struct, specifies remote display options, whether to force the render target to render to software or hardware, and the DPI. The code in this example uses the [**D2D1::RenderTargetProperties**](/windows/desktop/api/d2d1helper/nf-d2d1helper-rendertargetproperties) helper function to accept default render target properties.
+The [**CreateHwndRenderTarget**](/previous-versions/windows/desktop/legacy/dd371275(v=vs.85)) method takes three parameters. The first parameter, a [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) struct, specifies remote display options, whether to force the render target to render to software or hardware, and the DPI. The code in this example uses the [**D2D1::RenderTargetProperties**](/windows/desktop/api/d2d1helper/nf-d2d1helper-rendertargetproperties) helper function to accept default render target properties.
 
 The second parameter, a [**D2D1\_HWND\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_hwnd_render_target_properties) struct, specifies the **HWND** to which content is rendered, the initial size of the render target (in pixels), and its [**presentation options**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_present_options). This example uses the [**D2D1::HwndRenderTargetProperties**](/windows/desktop/api/d2d1helper/nf-d2d1helper-hwndrendertargetproperties) helper function to specify an HWND and initial size. It uses default presentation options.
 
@@ -175,9 +175,9 @@ A brush is an object that paints an area, such as the stroke of a shape or the f
 
 Direct2D also provides other types of brushes: gradient brushes for painting linear and radial gradients, and a bitmap brush for painting with bitmaps and patterns.
 
-Some drawing APIs provide pens for drawing outlines and brushes for filling shapes. Direct2D is different: it does not provide a pen object but uses a brush for drawing outlines and filling shapes. When drawing outlines, use the [**ID2D1StrokeStyle**](https://msdn.microsoft.com/library/Dd372217(v=VS.85).aspx) interface with a brush to control path stroking operations.
+Some drawing APIs provide pens for drawing outlines and brushes for filling shapes. Direct2D is different: it does not provide a pen object but uses a brush for drawing outlines and filling shapes. When drawing outlines, use the [**ID2D1StrokeStyle**](/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle) interface with a brush to control path stroking operations.
 
-A brush can only be used with the render target that created it and with other render targets in the same resource domain. In general, you should create brushes once and retain them for the life of the render target that created them. [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/Dd372207(v=VS.85).aspx) is the lone exception; because it is relatively inexpensive to create, you can create a **ID2D1SolidColorBrush** every time you draw a frame, without any noticeable performance hit. You can also use a single **ID2D1SolidColorBrush** and just change its color every time you use it.
+A brush can only be used with the render target that created it and with other render targets in the same resource domain. In general, you should create brushes once and retain them for the life of the render target that created them. [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush) is the lone exception; because it is relatively inexpensive to create, you can create a **ID2D1SolidColorBrush** every time you draw a frame, without any noticeable performance hit. You can also use a single **ID2D1SolidColorBrush** and just change its color every time you use it.
 
 ## Step 5: Draw the Rectangle
 
@@ -201,9 +201,9 @@ HRESULT hr = pRT->EndDraw();
 
 
 
-The [**DrawRectangle**](https://msdn.microsoft.com/library/Dd371902(v=VS.85).aspx) method takes two parameters: the rectangle to be drawn, and the brush to be used to paint the rectangle's outline. Optionally, you can also specify the stroke width, dash pattern, line join, and end cap options.
+The [**DrawRectangle**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f__id2d1brush_float_id2d1strokestyle)) method takes two parameters: the rectangle to be drawn, and the brush to be used to paint the rectangle's outline. Optionally, you can also specify the stroke width, dash pattern, line join, and end cap options.
 
-You must call the [**BeginDraw**](https://msdn.microsoft.com/library/Dd371768(v=VS.85).aspx) method before issuing any drawing commands, and you must call the [**EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx) method after you've finished issuing drawing commands. The **EndDraw** method returns an **HRESULT** that indicates whether the drawing commands were successful.
+You must call the [**BeginDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw) method before issuing any drawing commands, and you must call the [**EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) method after you've finished issuing drawing commands. The **EndDraw** method returns an **HRESULT** that indicates whether the drawing commands were successful.
 
 ## Step 6: Release Resources
 
@@ -242,7 +242,3 @@ The code in this topic shows the basic elements of a Direct2D application. For b
  
 
  
-
-
-
-

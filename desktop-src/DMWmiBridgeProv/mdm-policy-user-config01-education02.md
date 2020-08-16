@@ -53,7 +53,7 @@ The **MDM\_Policy\_User\_Config01\_Education02** class has these properties.
 
 <dl> <dt>
 
-[DefaultPrinterName](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-education#education-defaultprintername)
+[DefaultPrinterName](/windows/client-management/mdm/policy-csp-education#education-defaultprintername)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -73,7 +73,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -87,12 +87,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[PreventAddingNewPrinters](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-education#education-preventaddingnewprinters)
+[PreventAddingNewPrinters](/windows/client-management/mdm/policy-csp-education#education-preventaddingnewprinters)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -103,7 +103,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PrinterNames](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-education#education-printernames)
+[PrinterNames](/windows/client-management/mdm/policy-csp-education#education-printernames)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -129,10 +129,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

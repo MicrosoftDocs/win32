@@ -74,7 +74,7 @@ Destination texture box (see [**D3D11\_BOX**](/windows/desktop/api/D3D11/ns-d3d1
 **SrcFirstMip**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -85,7 +85,7 @@ Source texture mipmap level, see [**D3D11CalcSubresource**](/windows/desktop/api
 **DstFirstMip**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -96,7 +96,7 @@ Destination texture mipmap level, see [**D3D11CalcSubresource**](/windows/deskto
 **NumMips**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -107,7 +107,7 @@ Number of mipmap levels in the source texture.
 **SrcFirstElement**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -118,7 +118,7 @@ First element of the source texture.
 **DstFirstElement**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -129,7 +129,7 @@ First element of the destination texture.
 **NumElements**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -140,7 +140,7 @@ Number of elements to load.
 **Filter**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -151,7 +151,7 @@ Filtering options during resampling (see [**D3DX11\_FILTER\_FLAG**](d3dx11-filte
 **MipFilter**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -199,10 +199,4 @@ The default values are:
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

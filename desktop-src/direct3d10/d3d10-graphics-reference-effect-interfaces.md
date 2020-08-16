@@ -19,7 +19,7 @@ This section contains information about the following effect-system interfaces:
 | [**ID3D10EffectDepthStencilVariable Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectdepthstencilvariable)         | Accesses depth-stencil state.                                    |
 | [**ID3D10EffectDepthStencilViewVariable Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectdepthstencilviewvariable) | Accesses a depth-stencil view.                                   |
 | [**ID3D10Effect Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effect)                                                 | Encapsulates pipeline state in one or more rendering techniques. |
-| [**ID3D10Include Interface**](https://msdn.microsoft.com/library/Bb173775(v=VS.85).aspx)                                               | User-implemented methods for reading include files.              |
+| [**ID3D10Include Interface**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))                                               | User-implemented methods for reading include files.              |
 | [**ID3D10EffectMatrixVariable Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectmatrixvariable)                     | Accesses a matrix.                                               |
 | [**ID3D10EffectPass Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectpass)                                         | Encapsulates effect state in a pass.                             |
 | [**ID3D10EffectPool Interface**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectpool)                                         | Identifies shared-effect variables.                              |
@@ -50,6 +50,3 @@ There are two kinds of interfaces in the effect framework: rendering interfaces 
  
 
  
-
-
-

@@ -63,7 +63,7 @@ The **MDM\_EnterpriseModernAppManagement\_AppManagement01\_03** class has these 
 
 <dl> <dt>
 
-[Architecture](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-architecture)
+[Architecture](/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-architecture)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -74,7 +74,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[InstallDate](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-installdate)
+[InstallDate](/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-installdate)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -85,7 +85,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[InstallLocation](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-installlocation)
+[InstallLocation](/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-installlocation)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -105,14 +105,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is the instance of the package full name.
 
 </dd> <dt>
 
-[IsBundle](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-isbundle)
+[IsBundle](/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-isbundle)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -123,7 +123,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[IsFramework](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-isframework)
+[IsFramework](/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-isframework)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -134,7 +134,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[IsProvisioned](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-isprovisioned)
+[IsProvisioned](/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-isprovisioned)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -145,7 +145,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Name](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-name)
+[Name](/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-name)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -156,7 +156,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PackageStatus](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-packagestatus)
+[PackageStatus](/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-packagestatus)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -176,14 +176,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/EnterpriseModernAppManagement/AppManagement/*EnterpriseID*/*PackageFamilyName*"
 
 </dd> <dt>
 
-[Publisher](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-publisher)
+[Publisher](/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-publisher)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -194,7 +194,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RequiresReinstall](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-requiresreinstall)
+[RequiresReinstall](/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-requiresreinstall)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -205,7 +205,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ResourceID](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-resourceid)
+[ResourceID](/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-resourceid)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -216,7 +216,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Users](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-users)
+[Users](/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-users)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -227,7 +227,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Version](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-version)
+[Version](/windows/client-management/mdm/enterprisemodernappmanagement-csp#----packagefamilyname-packagefullname-version)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -256,14 +256,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

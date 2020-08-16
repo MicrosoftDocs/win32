@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 Period of the animation set.
 
@@ -64,7 +64,3 @@ The period is the range of time that the animation key frames are valid. For loo
  
 
  
-
-
-
-

@@ -26,7 +26,7 @@ Not used. Formerly a request for pixel history primitives and intersections toge
 
 ## Members
 
-The **IPixelHistoryRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixelHistoryRequest** also has these types of members:
+The **IPixelHistoryRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixelHistoryRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IPixelHistoryRequest** interface has these methods.
  
 
  
-
-
-

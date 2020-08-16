@@ -38,7 +38,7 @@ typedef struct D3DXKEY_CALLBACK {
 **Time**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ Key frame time stamp.
 **pCallbackData**
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -77,7 +77,3 @@ Pointer to user callback data.
  
 
  
-
-
-
-

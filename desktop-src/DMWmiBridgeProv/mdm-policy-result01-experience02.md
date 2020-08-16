@@ -61,7 +61,7 @@ The **MDM\_Policy\_Result01\_Experience02** class has these properties.
 
 <dl> <dt>
 
-[AllowCortana](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-allowcortana)
+[AllowCortana](/windows/client-management/mdm/policy-csp-experience#experience-allowcortana)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -72,7 +72,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowDeviceDiscovery](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-allowdevicediscovery)
+[AllowDeviceDiscovery](/windows/client-management/mdm/policy-csp-experience#experience-allowdevicediscovery)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -83,7 +83,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowFindMyDevice](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-allowfindmydevice)
+[AllowFindMyDevice](/windows/client-management/mdm/policy-csp-experience#experience-allowfindmydevice)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -94,7 +94,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowManualMDMUnenrollment](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-allowmanualmdmunenrollment)
+[AllowManualMDMUnenrollment](/windows/client-management/mdm/policy-csp-experience#experience-allowmanualmdmunenrollment)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -105,7 +105,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowSaveAsOfOfficeFiles](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-allowsaveasofofficefiles)
+[AllowSaveAsOfOfficeFiles](/windows/client-management/mdm/policy-csp-experience#experience-allowsaveasofofficefiles)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -127,7 +127,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowSharingOfOfficeFiles](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-allowsharingofofficefiles)
+[AllowSharingOfOfficeFiles](/windows/client-management/mdm/policy-csp-experience#experience-allowsharingofofficefiles)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -149,7 +149,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowSyncMySettings](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-allowsyncmysettings)
+[AllowSyncMySettings](/windows/client-management/mdm/policy-csp-experience#experience-allowsyncmysettings)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -160,7 +160,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowWindowsTips](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-allowwindowstips)
+[AllowWindowsTips](/windows/client-management/mdm/policy-csp-experience#experience-allowwindowstips)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -171,7 +171,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DoNotShowFeedbackNotifications](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-donotshowfeedbacknotifications)
+[DoNotShowFeedbackNotifications](/windows/client-management/mdm/policy-csp-experience#experience-donotshowfeedbacknotifications)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -191,7 +191,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "Experience".
@@ -207,7 +207,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Result"
@@ -232,14 +232,8 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

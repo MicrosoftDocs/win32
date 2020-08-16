@@ -16,7 +16,7 @@ The output-merger (OM) stage generates the final rendered pixel color using a co
 
 |                                                                                                                                                                                                                                                                                                                                                                                                             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10: Direct3D 9 implements alpha testing (using [alpha-testing state](https://docs.microsoft.com/windows/desktop/direct3d9/alpha-testing-state)) to control whether a pixel is written to an output render target.<br/> Direct3D 10 and higher does not implement an alpha test (or alpha testing state). This can be controlled using a pixel shader or with depth/stencil functionality.<br/> |
+| Differences between Direct3D 9 and Direct3D 10: Direct3D 9 implements alpha testing (using [alpha-testing state](/windows/desktop/direct3d9/alpha-testing-state)) to control whether a pixel is written to an output render target.<br/> Direct3D 10 and higher does not implement an alpha test (or alpha testing state). This can be controlled using a pixel shader or with depth/stencil functionality.<br/> |
 
 
 
@@ -107,14 +107,8 @@ A sample mask is a 32-bit multisample coverage mask that determines which sample
 [Graphics Pipeline](overviews-direct3d-11-graphics-pipeline.md)
 </dt> <dt>
 
-[Pipeline Stages (Direct3D 10)](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
+[Pipeline Stages (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

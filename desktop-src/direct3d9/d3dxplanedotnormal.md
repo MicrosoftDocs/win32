@@ -56,7 +56,7 @@ Pointer to a source [**D3DXVECTOR3**](d3dxvector3.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The dot product of the plane and 3D vector.
 
@@ -91,7 +91,3 @@ Given a plane (a, b, c, d) and a 3D vector (x, y, z) the return value of this fu
  
 
  
-
-
-
-

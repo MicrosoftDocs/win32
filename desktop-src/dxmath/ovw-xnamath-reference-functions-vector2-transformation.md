@@ -16,12 +16,12 @@ Lists the 2D vector transformation functions.
 
 | Topic                                                                               | Description                                                                                                                                      |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**XMVector2Transform**](https://msdn.microsoft.com/library/Ee420793(v=VS.85).aspx)<br/>                         | Transforms a 2D vector by a matrix.<br/>                                                                                                   |
-| [**XMVector2TransformCoord**](https://msdn.microsoft.com/library/Ee420794(v=VS.85).aspx)<br/>               | Transforms a 2D vector by a given matrix, projecting the result back into w = 1.<br/>                                                      |
-| [**XMVector2TransformCoordStream**](https://msdn.microsoft.com/library/Hh404773(v=VS.85).aspx)<br/>   | Transforms a stream of 2D vectors by a given matrix, projecting the resulting vectors such that their w coordinates are equal to 1.0.<br/> |
-| [**XMVector2TransformNormal**](https://msdn.microsoft.com/library/Ee420796(v=VS.85).aspx)<br/>             | Transforms the 2D vector normal by the given matrix.<br/>                                                                                  |
-| [**XMVector2TransformNormalStream**](https://msdn.microsoft.com/library/Hh404774(v=VS.85).aspx)<br/> | Transforms a stream of 2D normal vectors by a given matrix.<br/>                                                                           |
-| [**XMVector2TransformStream**](https://msdn.microsoft.com/library/Hh404775(v=VS.85).aspx)<br/>             | Transforms a stream of 2D vectors by a given matrix.<br/>                                                                                  |
+| [**XMVector2Transform**](/windows/win32/api/directxmath/nf-directxmath-xmvector2transform)<br/>                         | Transforms a 2D vector by a matrix.<br/>                                                                                                   |
+| [**XMVector2TransformCoord**](/windows/win32/api/directxmath/nf-directxmath-xmvector2transformcoord)<br/>               | Transforms a 2D vector by a given matrix, projecting the result back into w = 1.<br/>                                                      |
+| [**XMVector2TransformCoordStream**](/windows/win32/api/directxmath/nf-directxmath-xmvector2transformcoordstream)<br/>   | Transforms a stream of 2D vectors by a given matrix, projecting the resulting vectors such that their w coordinates are equal to 1.0.<br/> |
+| [**XMVector2TransformNormal**](/windows/win32/api/directxmath/nf-directxmath-xmvector2transformnormal)<br/>             | Transforms the 2D vector normal by the given matrix.<br/>                                                                                  |
+| [**XMVector2TransformNormalStream**](/windows/win32/api/directxmath/nf-directxmath-xmvector2transformnormalstream)<br/> | Transforms a stream of 2D normal vectors by a given matrix.<br/>                                                                           |
+| [**XMVector2TransformStream**](/windows/win32/api/directxmath/nf-directxmath-xmvector2transformstream)<br/>             | Transforms a stream of 2D vectors by a given matrix.<br/>                                                                                  |
 
 
 
@@ -37,7 +37,3 @@ Lists the 2D vector transformation functions.
  
 
  
-
-
-
-

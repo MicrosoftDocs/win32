@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Crash Dump Analysis
 
-Not all bugs can be found prior to release, which means not all bugs that throw exceptions can be found before release. Fortunately, Microsoft has included in the Platform SDK a function to help developers collect information on exceptions that are discovered by users. The [**MiniDumpWriteDump**](https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) function writes the necessary crash dump information to a file without saving the whole process space. This crash dump information file is called a minidump. This technical article provides info about how to write and use a minidump.
+Not all bugs can be found prior to release, which means not all bugs that throw exceptions can be found before release. Fortunately, Microsoft has included in the Platform SDK a function to help developers collect information on exceptions that are discovered by users. The [**MiniDumpWriteDump**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) function writes the necessary crash dump information to a file without saving the whole process space. This crash dump information file is called a minidump. This technical article provides info about how to write and use a minidump.
 
 -   [Writing a Minidump](#writing-a-minidump)
 -   [Thread safety](#thread-safety)
@@ -24,27 +24,27 @@ Not all bugs can be found prior to release, which means not all bugs that throw 
 
 The basic options for writing a minidump are as follows:
 
--   Do nothing. Windows automatically generates a minidump whenever a program throws an unhandled exception. Automatic generation of a minidump is available since Windows XP. If the user allows it, the minidump will be sent to Microsoft, and not to the developer, through Windows Error Reporting (WER). Developers can gain access to these minidumps through the [Windows Desktop Application Program](https://docs.microsoft.com/windows/win32/appxpkg/windows-desktop-application-program?redirectedfrom=MSDN).
+-   Do nothing. Windows automatically generates a minidump whenever a program throws an unhandled exception. Automatic generation of a minidump is available since Windows XP. If the user allows it, the minidump will be sent to Microsoft, and not to the developer, through Windows Error Reporting (WER). Developers can gain access to these minidumps through the [Windows Desktop Application Program](../appxpkg/windows-desktop-application-program.md).
 
     Use of WER requires:
 
     -   Developers to sign their applications using Authenticode
     -   Applications have valid VERSIONINFO resource in every executable and DLL
 
-    If you implement a custom routine for unhandled exceptions, you are strongly urged to use the [**ReportFault**](https://docs.microsoft.com/windows/desktop/api/errorrep/nf-errorrep-reportfault) function in the exception handler to also send an automated minidump to WER. The **ReportFault** function handles all of the issues of connecting to and sending the minidump to WER. Not sending minidumps to WER violates the requirements of Games for Windows.
+    If you implement a custom routine for unhandled exceptions, you are strongly urged to use the [**ReportFault**](/windows/desktop/api/errorrep/nf-errorrep-reportfault) function in the exception handler to also send an automated minidump to WER. The **ReportFault** function handles all of the issues of connecting to and sending the minidump to WER. Not sending minidumps to WER violates the requirements of Games for Windows.
 
     For more information on how WER works, see [How Windows Error Reporting Works](https://www.microsoft.com/whdc/maintain/WER/WERWorks.mspx). For an explanation of registration details, see [Introducing Windows Error Reporting](https://msdn.microsoft.com/) on MSDN's [ISV Zone](https://msdn.microsoft.com/).
 
 -   Use a product from the Microsoft Visual Studio Team System. On the **Debug** menu, click **Save Dump As** to save a copy of a dump. Use of a locally saved dump is only an option for in-house testing and debugging.
--   Add code to your project. Add the [**MiniDumpWriteDump**](https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) function and the appropriate exception handling code to save and send a minidump directly to the developer. This article demonstrates how to implement this option. However, note that **MiniDumpWriteDump** does not currently work with managed code and is only available on Windows XP, Windows Vista, Windows 7.
+-   Add code to your project. Add the [**MiniDumpWriteDump**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) function and the appropriate exception handling code to save and send a minidump directly to the developer. This article demonstrates how to implement this option. However, note that **MiniDumpWriteDump** does not currently work with managed code and is only available on Windows XP, Windows Vista, Windows 7.
 
 ## Thread safety
 
-[**MiniDumpWriteDump**](https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) is part of the DBGHELP library. This library is not thread-safe, so any program that uses **MiniDumpWriteDump** should synchronize all threads before attempting to call **MiniDumpWriteDump**.
+[**MiniDumpWriteDump**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) is part of the DBGHELP library. This library is not thread-safe, so any program that uses **MiniDumpWriteDump** should synchronize all threads before attempting to call **MiniDumpWriteDump**.
 
 ## Writing a Minidump with Code
 
-The actual implementation is straightforward. The following is a simple example of how to use [**MiniDumpWriteDump**](https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump).
+The actual implementation is straightforward. The following is a simple example of how to use [**MiniDumpWriteDump**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump).
 
 
 ```C++
@@ -104,9 +104,9 @@ void SomeFunction()
 
 
 
-This example demonstrates the basic usage of [**MiniDumpWriteDump**](https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) and the minimum information necessary to call it. The name of the dump file is up to the developer; however, to avoid file name collisions, it is advisable to generate the file name from the application's name and version number, the process and thread IDs, and the date and time. This will also help to keep the minidumps grouped by application and version. It is up to the developer to decide how much information is used to differentiate minidump file names.
+This example demonstrates the basic usage of [**MiniDumpWriteDump**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) and the minimum information necessary to call it. The name of the dump file is up to the developer; however, to avoid file name collisions, it is advisable to generate the file name from the application's name and version number, the process and thread IDs, and the date and time. This will also help to keep the minidumps grouped by application and version. It is up to the developer to decide how much information is used to differentiate minidump file names.
 
-It should be noted that the path name in the preceding example was generated by calling the [**GetTempPath**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-gettemppatha) function to retrieve the path of the directory designated for temporary files. Use of this directory works even with least-privileged user accounts, and it also prevents the minidump from taking up hard drive space after it is no longer needed.
+It should be noted that the path name in the preceding example was generated by calling the [**GetTempPath**](/windows/desktop/api/fileapi/nf-fileapi-gettemppatha) function to retrieve the path of the directory designated for temporary files. Use of this directory works even with least-privileged user accounts, and it also prevents the minidump from taking up hard drive space after it is no longer needed.
 
 If you archive the product during your daily build process, also be sure to include symbols for the build so that you can debug an old version of the product, if necessary. You also need to take steps to maintain full compiler optimizations while generating symbols. This can be done by opening your project's properties in the development environment and, for the release configuration, doing the following:
 
@@ -115,7 +115,7 @@ If you archive the product during your daily build process, also be sure to incl
 3.  Click **Optimization**, and set **References** to E**liminate Unreferenced Data (/OPT:REF)**.
 4.  Set **Enable COMDAT Folding** to **Remove Redundant COMDATs (/OPT:ICF)**.
 
-MSDN has more detailed information on the [**MINIDUMP\_EXCEPTION\_INFORMATION**](https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception_information) structure and the [**MiniDumpWriteDump**](https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) function.
+MSDN has more detailed information on the [**MINIDUMP\_EXCEPTION\_INFORMATION**](/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception_information) structure and the [**MiniDumpWriteDump**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) function.
 
 ## Using Dumpchk.exe
 
@@ -164,16 +164,12 @@ After installing Windows Debugging Tools, you must enter the symbol path in WinD
 
 ### Using Copy-Protection Tools with Minidumps
 
-Developers also need to be aware of how their copy-protection scheme might affect the minidump. Most copy-protection schemes have their own descramble tools, and it is up to the developer to learn how to use those tools with [**MiniDumpWriteDump**](https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump).
+Developers also need to be aware of how their copy-protection scheme might affect the minidump. Most copy-protection schemes have their own descramble tools, and it is up to the developer to learn how to use those tools with [**MiniDumpWriteDump**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump).
 
 ## Summary
 
-The [**MiniDumpWriteDump**](https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) function can be an extremely useful tool in collecting and solving bugs after the product has been released. Writing a custom exception handler that uses **MiniDumpWriteDump** allows the developer to customize the information collection and improve the debugging process. The function is flexible enough to be used in any C++-based project and should be considered part of any project's stability process.
+The [**MiniDumpWriteDump**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) function can be an extremely useful tool in collecting and solving bugs after the product has been released. Writing a custom exception handler that uses **MiniDumpWriteDump** allows the developer to customize the information collection and improve the debugging process. The function is flexible enough to be used in any C++-based project and should be considered part of any project's stability process.
 
  
 
  
-
-
-
-

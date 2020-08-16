@@ -26,7 +26,7 @@ Not used. Formerly a callback for pipeline stages data.
 
 ## Members
 
-The **IPipeLineStagesCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPipeLineStagesCallback** also has these types of members:
+The **IPipeLineStagesCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPipeLineStagesCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IPipeLineStagesCallback** interface has these methods.
  
 
  
-
-
-

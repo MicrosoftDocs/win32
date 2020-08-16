@@ -40,7 +40,7 @@ HRESULT GetQueueStatus(
 *pIoQueue* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Number of items in the I/O queue.
 
@@ -49,7 +49,7 @@ Number of items in the I/O queue.
 *pProcessQueue* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Number of items in the process queue.
 
@@ -58,7 +58,7 @@ Number of items in the process queue.
 *pDeviceQueue* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Number of items in the device queue.
 
@@ -94,7 +94,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

@@ -46,7 +46,7 @@ Pointer to the root node of the subtree.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Returns the frame count.
 
@@ -71,7 +71,3 @@ Returns the frame count.
  
 
  
-
-
-
-

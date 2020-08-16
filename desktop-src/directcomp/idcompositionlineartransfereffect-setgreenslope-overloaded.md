@@ -24,8 +24,8 @@ Sets the slope of the linear function for the green channel.
 
 | Method                                                                                                 | Description                                                             |
 |:-------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
-| [**SetGreenSlope**](https://msdn.microsoft.com/library/Dn919754(v=VS.85).aspx)                               | Sets the slope of the linear function for the green channel.<br/> |
-| [**SetGreenSlope (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919755(v=VS.85).aspx) | Sets the slope of the linear function for the green channel.<br/> |
+| [**SetGreenSlope**](/windows/win32/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setgreenslope(float))                               | Sets the slope of the linear function for the green channel.<br/> |
+| [**SetGreenSlope (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setgreenslope(idcompositionanimation)) | Sets the slope of the linear function for the green channel.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Sets the slope of the linear function for the green channel.
 
 <dl> <dt>
 
-[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/library/Dn919741(v=VS.85).aspx)
+[**IDCompositionLinearTransferEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionlineartransfereffect)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

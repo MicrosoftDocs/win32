@@ -39,7 +39,7 @@ HRESULT SetMinMaxIntersection(
 *fMin* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Minimum intersection distance. Must be positive and less than fMax.
 
@@ -48,7 +48,7 @@ Minimum intersection distance. Must be positive and less than fMax.
 *fMax* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Maximum intersection distance. If 0.0f, the previous value will be used; otherwise, must be greater than fMin.
 
@@ -85,7 +85,3 @@ This method cannot be used in precomputed radiance transfer (PRT) simulations th
  
 
  
-
-
-
-

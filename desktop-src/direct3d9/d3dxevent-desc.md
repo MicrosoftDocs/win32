@@ -47,18 +47,18 @@ typedef struct D3DXEVENT_DESC {
 **Type**
 </dt> <dd>
 
-Type: **[**D3DXEVENT\_TYPE**](https://msdn.microsoft.com/library/Bb172827(v=VS.85).aspx)**
+Type: **[**D3DXEVENT\_TYPE**](./d3dxevent-type.md)**
 
 </dd> <dd>
 
-Event type, as defined in [**D3DXEVENT\_TYPE**](https://msdn.microsoft.com/library/Bb172827(v=VS.85).aspx).
+Event type, as defined in [**D3DXEVENT\_TYPE**](./d3dxevent-type.md).
 
 </dd> <dt>
 
 **Track**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -69,7 +69,7 @@ Event track identifier.
 **StartTime**
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -80,7 +80,7 @@ Start time of the event in global time.
 **Duration**
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -91,18 +91,18 @@ Duration of the event in global time.
 **Transition**
 </dt> <dd>
 
-Type: **[**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/library/Bb205475(v=VS.85).aspx)**
+Type: **[**D3DXTRANSITION\_TYPE**](./d3dxtransition-type.md)**
 
 </dd> <dd>
 
-Transition style of the event, as defined in [**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/library/Bb205475(v=VS.85).aspx).
+Transition style of the event, as defined in [**D3DXTRANSITION\_TYPE**](./d3dxtransition-type.md).
 
 </dd> <dt>
 
 **Weight**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -113,7 +113,7 @@ Track weight for the event.
 **Speed**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -124,7 +124,7 @@ Track speed for the event.
 **Position**
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -135,7 +135,7 @@ Track position for the event.
 **Enable**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -163,7 +163,3 @@ Enable flag.
  
 
  
-
-
-
-

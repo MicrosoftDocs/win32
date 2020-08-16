@@ -50,7 +50,7 @@ Pointer to an [**ID3DXPatchMesh**](id3dxpatchmesh.md) interface, representing th
 *pNumDegenerateVertices* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Returns the number of degenerate vertices in the patch mesh.
 
@@ -59,7 +59,7 @@ Returns the number of degenerate vertices in the patch mesh.
 *pNumDegeneratePatches* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Returns the number of degenerate patches in the patch mesh.
 
@@ -105,7 +105,3 @@ This method validates the mesh by checking for invalid indices. Error informatio
  
 
  
-
-
-
-

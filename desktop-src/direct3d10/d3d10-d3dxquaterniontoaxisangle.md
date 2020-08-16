@@ -40,7 +40,7 @@ void D3DXQuaternionToAxisAngle(
 *pQ* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the source [**D3DXQUATERNION**](d3d10-d3dxquaternion.md).
 
@@ -49,7 +49,7 @@ Pointer to the source [**D3DXQUATERNION**](d3d10-d3dxquaternion.md).
 *pAxis* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 This function returns a pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) that identifies the quaternion's axis of rotation.
 
@@ -58,7 +58,7 @@ This function returns a pointer to a [**D3DXVECTOR3**](d3d10-d3dxvector3.md) tha
 *pAngle* \[in, out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 This function returns a pointer to a FLOAT value that identifies the quaternion's angle of rotation in radians.
 
@@ -93,7 +93,3 @@ Use [**D3DXQuaternionNormalize**](d3d10-d3dxquaternionnormalize.md) for any quat
  
 
  
-
-
-
-

@@ -23,13 +23,9 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[BoundingSphere](https://msdn.microsoft.com/library/Hh449592(v=VS.85).aspx)
+[BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere)
 </dt> </dl>
 
  
 
  
-
-
-
-

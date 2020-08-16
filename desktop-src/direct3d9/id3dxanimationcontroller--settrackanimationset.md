@@ -39,7 +39,7 @@ HRESULT SetTrackAnimationSet(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Identifier of the track to which the animation set is applied.
 
@@ -85,7 +85,3 @@ This method sets the animation set to the specified track for mixing. The animat
  
 
  
-
-
-
-

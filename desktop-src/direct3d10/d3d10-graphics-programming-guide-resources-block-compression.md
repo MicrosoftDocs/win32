@@ -273,8 +273,8 @@ The algorithm uses the 3-bit indices to look up colors from a color table that c
 
 The algorithm determines the number of interpolated color values by examining the two reference values. If red\_0 is greater than red\_1, then BC4 interpolates 6 color values; otherwise, it interpolates 4. When BC4 interpolates only 4 color values, it sets two additional color values (0.0f for fully transparent and 1.0f for fully opaque). BC4 compresses the alpha values in the 4×4 texel area by storing the bit code corresponding to the interpolated alpha values that most closely matches the original alpha for a given texel.
 
--   [BC4\_UNORM](https://docs.microsoft.com/windows)
--   [BC4\_SNORM](https://docs.microsoft.com/windows)
+-   [BC4\_UNORM](/windows)
+-   [BC4\_SNORM](/windows)
 
 ### BC4\_UNORM
 
@@ -356,8 +356,8 @@ The algorithm uses the 3-bit indices to look up colors from a color table that c
 
 The algorithm determines the number of interpolated color values by examining the two reference values. If red\_0 is greater than red\_1, then BC5 interpolates 6 color values; otherwise, it interpolates 4. When BC5 interpolates only 4 color values, it sets the remaining two color values at 0.0f and 1.0f.
 
--   [BC5\_UNORM](https://docs.microsoft.com/windows)
--   [BC5\_SNORM](https://docs.microsoft.com/windows)
+-   [BC5\_UNORM](/windows)
+-   [BC5\_SNORM](/windows)
 
 ### BC5\_UNORM
 
@@ -441,7 +441,7 @@ Beginning with Direct3D 10.1, you can use [**CopyResource**](/windows/desktop/ap
 
 
 
-To reinterpret ‘f’ as the type of ‘u’, use [memcpy](https://docs.microsoft.com/cpp/c-runtime-library/reference/memcpy-wmemcpy):
+To reinterpret ‘f’ as the type of ‘u’, use [memcpy](/cpp/c-runtime-library/reference/memcpy-wmemcpy):
 
 
 ```
@@ -450,7 +450,7 @@ To reinterpret ‘f’ as the type of ‘u’, use [memcpy](https://docs.microso
 
 
 
-In the preceding reinterpretation, the underlying value of the data doesn’t change; [memcpy](https://docs.microsoft.com/cpp/c-runtime-library/reference/memcpy-wmemcpy) reinterprets the float as an unsigned integer.
+In the preceding reinterpretation, the underlying value of the data doesn’t change; [memcpy](/cpp/c-runtime-library/reference/memcpy-wmemcpy) reinterprets the float as an unsigned integer.
 
 To perform the more typical type of conversion, use assignment:
 
@@ -487,7 +487,3 @@ The following table lists the allowable source and destination formats that you 
  
 
  
-
-
-
-

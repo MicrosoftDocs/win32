@@ -80,7 +80,7 @@ The format the texture will be saved as. See [**D3DX11\_IMAGE\_FILE\_FORMAT**](d
 *ppDestBuf* \[out\]
 </dt> <dd>
 
-Type: **[**LPD3D10BLOB**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob)\***
+Type: **[**LPD3D10BLOB**](/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob)\***
 
 Address of a pointer to the memory containing the saved texture.
 
@@ -89,7 +89,7 @@ Address of a pointer to the memory containing the saved texture.
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 Optional.
 
@@ -120,10 +120,4 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

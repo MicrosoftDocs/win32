@@ -301,7 +301,7 @@ For an uncompressed video stream, the format information is contained in a [**VI
 Here is the complete code for the previous examples.
 
 > [!Note]  
-> This example uses the [SafeRelease](https://msdn.microsoft.com/library/Dd940435(v=VS.85).aspx) function to release interface pointers.
+> This example uses the [SafeRelease](../medfound/saferelease.md) function to release interface pointers.
 
  
 
@@ -570,6 +570,3 @@ HRESULT WriteBitmap(PCWSTR pszFileName, BITMAPINFOHEADER *pBMI, size_t cbBMI,
  
 
  
-
-
-

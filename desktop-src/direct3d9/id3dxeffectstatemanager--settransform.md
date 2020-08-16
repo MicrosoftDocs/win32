@@ -39,9 +39,9 @@ HRESULT SetTransform(
 *State* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/library/Bb172619(v=VS.85).aspx)**
+Type: **[**D3DTRANSFORMSTATETYPE**](./d3dtransformstatetype.md)**
 
-The type of transform to apply the matrix to. See [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/library/Bb172619(v=VS.85).aspx).
+The type of transform to apply the matrix to. See [**D3DTRANSFORMSTATETYPE**](./d3dtransformstatetype.md).
 
 </dd> <dt>
 
@@ -61,7 +61,7 @@ Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).asp
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 
 -   The effect will fail during [**ID3DXEffect::BeginPass**](id3dxeffect--beginpass.md).
--   The dynamic effect state call (such as [**IDirect3DDevice9::SetTransform**](https://msdn.microsoft.com/library/Bb174463(v=VS.85).aspx)) will fail.
+-   The dynamic effect state call (such as [**IDirect3DDevice9::SetTransform**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settransform)) will fail.
 
 ## Requirements
 
@@ -84,7 +84,3 @@ The user-implemented method should return S\_OK. If the callback fails when sett
  
 
  
-
-
-
-

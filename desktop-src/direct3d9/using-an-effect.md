@@ -22,7 +22,7 @@ This page will show you how to generate and use an effect. The topics covered in
 
 ## Create an Effect
 
-Here is an example of creating an effect taken from the [BasicHLSL Sample](https://msdn.microsoft.com/library/Ee663275(v=VS.85).aspx). The effect creation code for creating a debug shader is from **OnCreateDevice**:
+Here is an example of creating an effect taken from the [BasicHLSL Sample](../directx-sdk--august-2009-.md). The effect creation code for creating a debug shader is from **OnCreateDevice**:
 
 
 ```
@@ -65,7 +65,7 @@ This function takes these arguments:
 -   A pointer to a buffer to which validation errors can be sent. In this example, the parameter was set to **NULL** and not used.
 
 > [!Note]  
-> Beginning with the December 2006 SDK, the DirectX 10 HLSL compiler is now the default compiler in both DirectX 9 and DirectX 10. See [Effect-Compiler Tool](https://msdn.microsoft.com/library/Bb232919(v=VS.85).aspx) for details.
+> Beginning with the December 2006 SDK, the DirectX 10 HLSL compiler is now the default compiler in both DirectX 9 and DirectX 10. See [Effect-Compiler Tool](../direct3dtools/fxc.md) for details.
 
  
 
@@ -181,7 +181,7 @@ Each annotation:
 
 -   Must be either numeric or strings.
 -   Must always be initialized with a default value.
--   Can be associated with [Techniques and Passes (Direct3D 9)](techniques-and-passes.md) and top-level [Effect Parameters](https://msdn.microsoft.com/library/Ee417539(v=VS.85).aspx).
+-   Can be associated with [Techniques and Passes (Direct3D 9)](techniques-and-passes.md) and top-level [Effect Parameters](/previous-versions/windows/desktop/ee417539(v=vs.85)).
 -   Can be written to and read from with either [**ID3DXEffect**](id3dxeffect.md) or [**ID3DXEffectCompiler**](id3dxeffectcompiler.md).
 -   Can be added with [**ID3DXEffect**](id3dxeffect.md).
 -   Cannot be referenced inside the effect.
@@ -249,7 +249,7 @@ technique RenderScene
 
 
 
-Using [Effect-Compiler Tool](https://msdn.microsoft.com/library/Bb232919(v=VS.85).aspx) to compile the shader for vs\_1\_1 generated the following assembly shader instructions:
+Using [Effect-Compiler Tool](../direct3dtools/fxc.md) to compile the shader for vs\_1\_1 generated the following assembly shader instructions:
 
 
 ```
@@ -405,7 +405,7 @@ technique RenderVS
 
 
 
-Using [Effect-Compiler Tool](https://msdn.microsoft.com/library/Bb232919(v=VS.85).aspx) to compile the shader for vs\_1\_1 generates the following assembly instructions:
+Using [Effect-Compiler Tool](../direct3dtools/fxc.md) to compile the shader for vs\_1\_1 generates the following assembly instructions:
 
 
 ```
@@ -624,6 +624,3 @@ The parameter block sets the value of all four of the state changes just before 
  
 
  
-
-
-

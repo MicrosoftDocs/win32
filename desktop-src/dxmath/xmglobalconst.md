@@ -34,15 +34,12 @@ Using XMGLOBALCONST permits the specification of global constants. This helps to
 [Global Constants in the DirectXMath Library](pg-xnamath-internals.md)
 </dt> <dt>
 
-[selectany](https://msdn.microsoft.com/library/aa273550(VS.60).aspx)
+[selectany](/previous-versions/visualstudio/visual-studio-6.0/aa273550(v=vs.60))
 </dt> <dt>
 
-[declspec](https://msdn.microsoft.com/library/aa273692(VS.60).aspx)
+[declspec](/previous-versions/visualstudio/visual-studio-6.0/aa273692(v=vs.60))
 </dt> </dl>
 
  
 
  
-
-
-

@@ -29,7 +29,7 @@ Data processing object used by [**ID3DX11ThreadPump Interface**](id3dx11threadpu
 
 ## Members
 
-The **ID3DX11DataProcessor** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX11DataProcessor** also has these types of members:
+The **ID3DX11DataProcessor** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX11DataProcessor** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -107,10 +107,4 @@ This object can be inherited and its members redefined for processing custom fil
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

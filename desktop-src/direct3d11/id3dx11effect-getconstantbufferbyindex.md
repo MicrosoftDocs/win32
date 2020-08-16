@@ -41,7 +41,7 @@ ID3DX11EffectConstantBuffer* GetConstantBufferByIndex(
 *Index* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 A zero-based index.
 
@@ -81,10 +81,4 @@ An effect that contains a variable that will be read/written by an application r
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

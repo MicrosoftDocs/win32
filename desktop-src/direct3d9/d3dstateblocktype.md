@@ -96,7 +96,7 @@ There are only a few states that are considered both vertex and pixel state. The
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::CreateStateBlock**](https://msdn.microsoft.com/library/Bb174362(v=VS.85).aspx)
+[**IDirect3DDevice9::CreateStateBlock**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createstateblock)
 </dt> <dt>
 
 **IDirect3DDevice9::CreateStateBlock**
@@ -105,7 +105,3 @@ There are only a few states that are considered both vertex and pixel state. The
  
 
  
-
-
-
-

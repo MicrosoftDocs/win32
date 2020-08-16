@@ -58,7 +58,7 @@ The **MDM\_ActiveSync\_User\_Accounts01\_01** class has these properties.
 
 <dl> <dt>
 
-[AccountIcon](https://docs.microsoft.com/windows/client-management/mdm/activesync-csp#account-guid-accounticon)
+[AccountIcon](/windows/client-management/mdm/activesync-csp#account-guid-accounticon)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -69,7 +69,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AccountName](https://docs.microsoft.com/windows/client-management/mdm/activesync-csp#account-guid-accountname)
+[AccountName](/windows/client-management/mdm/activesync-csp#account-guid-accountname)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -80,7 +80,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AccountType](https://docs.microsoft.com/windows/client-management/mdm/activesync-csp#account-guid-accounttype)
+[AccountType](/windows/client-management/mdm/activesync-csp#account-guid-accounttype)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -91,7 +91,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Domain](https://docs.microsoft.com/windows/client-management/mdm/activesync-csp#account-guid-domain)
+[Domain](/windows/client-management/mdm/activesync-csp#account-guid-domain)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -102,7 +102,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EmailAddress](https://docs.microsoft.com/windows/client-management/mdm/activesync-csp#account-guid-emailaddress)
+[EmailAddress](/windows/client-management/mdm/activesync-csp#account-guid-emailaddress)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -122,7 +122,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node.
@@ -138,14 +138,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/ActiveSync/"
 
 </dd> <dt>
 
-[Password](https://docs.microsoft.com/windows/client-management/mdm/activesync-csp#account-guid-password)
+[Password](/windows/client-management/mdm/activesync-csp#account-guid-password)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -156,7 +156,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ServerName](https://docs.microsoft.com/windows/client-management/mdm/activesync-csp#account-guid-servername)
+[ServerName](/windows/client-management/mdm/activesync-csp#account-guid-servername)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -167,7 +167,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[UserName](https://docs.microsoft.com/windows/client-management/mdm/activesync-csp#account-guid-username)
+[UserName](/windows/client-management/mdm/activesync-csp#account-guid-username)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -196,14 +196,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

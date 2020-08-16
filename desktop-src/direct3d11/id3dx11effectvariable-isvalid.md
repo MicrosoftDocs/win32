@@ -38,7 +38,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**BOOL**](/windows/desktop/WinProg/windows-data-types)**
 
 **TRUE** if the syntax is valid; otherwise **FALSE**.
 
@@ -70,10 +70,4 @@ This method checks that the data type matches the data stored after casting one 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

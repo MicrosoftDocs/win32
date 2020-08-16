@@ -40,7 +40,7 @@ D3DXEVENTHANDLE KeyTrackEnable(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Identifier of the animation track to modify.
 
@@ -49,7 +49,7 @@ Identifier of the animation track to modify.
 *NewEnable* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Enable flag. Set this to **TRUE** to enable the animation track, or to **FALSE** to disable the track.
 
@@ -58,7 +58,7 @@ Enable flag. Set this to **TRUE** to enable the animation track, or to **FALSE**
 *StartTime* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 Global time key. Specifies the global time when the change will take place.
 
@@ -91,7 +91,3 @@ Event handle to the priority blend event. **NULL** is returned if Track is inval
  
 
  
-
-
-
-

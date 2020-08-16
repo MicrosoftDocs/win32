@@ -22,7 +22,7 @@ The `IKsPin` interface provides a method to retrieve the mediums supported by a 
 
 ## Members
 
-The **IKsPin** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IKsPin** also has these types of members:
+The **IKsPin** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IKsPin** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -60,7 +60,3 @@ You must include Ks.h before Ksproxy.h.
  
 
  
-
-
-
-

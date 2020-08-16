@@ -50,7 +50,7 @@ Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of t
 *sx* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Scaling factor that is applied along the x-axis.
 
@@ -59,7 +59,7 @@ Scaling factor that is applied along the x-axis.
 *sy* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Scaling factor that is applied along the y-axis.
 
@@ -68,7 +68,7 @@ Scaling factor that is applied along the y-axis.
 *sz* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Scaling factor that is applied along the z-axis.
 
@@ -105,7 +105,3 @@ The return value for this function is the same value returned in the *pOut* para
  
 
  
-
-
-
-

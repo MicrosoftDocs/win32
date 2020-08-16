@@ -74,7 +74,7 @@ Number of elements in *Ranges*.
 *ranges* \[in, optional\]
 </dt> <dd>
 
-Array of one or more [**BG_FILE_RANGE**](https://docs.microsoft.com/windows/desktop/api/bits2_0/ns-bits2_0-bg_file_range) structures that specify the ranges to download. Do not specify duplicate or overlapping ranges.
+Array of one or more [**BG_FILE_RANGE**](/windows/desktop/api/bits2_0/ns-bits2_0-bg_file_range) structures that specify the ranges to download. Do not specify duplicate or overlapping ranges.
 
 </dd> <dt>
 
@@ -163,10 +163,4 @@ The ranges are sorted by the offset of the value, not the length. If ranges are 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

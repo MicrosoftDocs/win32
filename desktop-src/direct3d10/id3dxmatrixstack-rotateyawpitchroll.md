@@ -40,7 +40,7 @@ HRESULT RotateYawPitchRoll(
 *Yaw* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The yaw around the y-axis in radians.
 
@@ -49,7 +49,7 @@ The yaw around the y-axis in radians.
 *Pitch* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The pitch around the x-axis in radians.
 
@@ -58,7 +58,7 @@ The pitch around the x-axis in radians.
 *Roll* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The roll around the z-axis in radians.
 
@@ -109,7 +109,3 @@ Because the rotation is right-multiplied to the matrix stack, the rotation is re
  
 
  
-
-
-
-

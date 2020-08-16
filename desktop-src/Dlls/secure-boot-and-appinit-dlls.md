@@ -22,7 +22,7 @@ Please note that secure boot is a UEFI protocol and not a Windows 8 feature. Mo
 
 ## AppInit\_DLLs certification requirement for Windows 8 desktop apps
 
-One of the certification requirements for Windows 8 desktop apps is that the app must not load arbitrary DLLs to intercept Win32 API calls using the AppInit\_DLLs mechanism. For more detailed information about the certification requirements, refer to section 1.1 of [Certification requirements for Windows 8 desktop apps](https://msdn.microsoft.com/library/windows/desktop/hh749939).
+One of the certification requirements for Windows 8 desktop apps is that the app must not load arbitrary DLLs to intercept Win32 API calls using the AppInit\_DLLs mechanism. For more detailed information about the certification requirements, refer to section 1.1 of [Certification requirements for Windows 8 desktop apps](../win_cert/certification-requirements-for-windows-desktop-apps.md).
 
 ## Summary
 
@@ -30,11 +30,8 @@ One of the certification requirements for Windows 8 desktop apps is that the ap
 -   The AppInit\_DLLs mechanism is disabled by default when secure boot is enabled.
 -   Using AppInit\_DLLs in a Windows 8 desktop app is a Windows desktop app certification failure.
 
-See the following whitepaper for info about AppInit\_DLLs on Windows 7 and Windows Server 2008 R2: [AppInit DLLs in Windows 7 and Windows Server 2008 R2](https://msdn.microsoft.com/windows/hardware/gg463040.aspx).
+See the following whitepaper for info about AppInit\_DLLs on Windows 7 and Windows Server 2008 R2: [AppInit DLLs in Windows 7 and Windows Server 2008 R2](/previous-versions/windows/hardware/download/dn550976(v=vs.85)).
 
  
 
  
-
-
-

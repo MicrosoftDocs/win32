@@ -15,7 +15,7 @@ api_location:
 
 Pixel shader input register for a 4D floating-point constant.
 
-They can be set using [def - ps](def---ps.md) or [**SetPixelShaderConstantF**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantf).
+They can be set using [def - ps](def---ps.md) or [**SetPixelShaderConstantF**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantf).
 
 The behavior of shader constants has changed between Direct3D 8 and Direct3D 9.
 
@@ -33,7 +33,7 @@ def c40, 0.0f,0.0f,0.0f,0.0f;
 
 
 
-These constants are loaded every time [**SetPixelShader**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshader) is called.
+These constants are loaded every time [**SetPixelShader**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshader) is called.
 
 If you are setting constant values with the API, there is no shader declaration required.
 
@@ -47,7 +47,3 @@ If you are setting constant values with the API, there is no shader declaration 
  
 
  
-
-
-
-

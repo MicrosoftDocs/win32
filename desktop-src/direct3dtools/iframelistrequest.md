@@ -26,7 +26,7 @@ Request for the list of frames with their event id and frame number.
 
 ## Members
 
-The **IFrameListRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFrameListRequest** also has these types of members:
+The **IFrameListRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFrameListRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IFrameListRequest** interface has these methods.
  
 
  
-
-
-

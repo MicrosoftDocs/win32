@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-This method installs a product key for Windows 10 desktop devices. Dot not reboot. See also [ChangeProductKey](https://docs.microsoft.com/windows/client-management/mdm/windowslicensing-csp)
+This method installs a product key for Windows 10 desktop devices. Dot not reboot. See also [ChangeProductKey](/windows/client-management/mdm/windowslicensing-csp)
 
 ## Syntax
 
@@ -64,10 +64,4 @@ uint32 ChangeProductKeyMethod(
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

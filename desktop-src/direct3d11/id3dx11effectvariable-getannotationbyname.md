@@ -41,7 +41,7 @@ ID3DX11EffectVariable* GetAnnotationByName(
 *Name* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 The annotation name.
 
@@ -81,10 +81,4 @@ Annonations can be attached to a technique, a pass, or a global variable.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 
