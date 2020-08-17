@@ -32,35 +32,21 @@ Time stamps and time-interval measurements are an integral part of computer and 
 
 [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) was introduced in Windows 2000 and Windows XP and has evolved to take advantage of improvements in the hardware platform and processors. Here we describe the characteristics of **QPC** on different Windows versions to help you maintain software that runs on those Windows versions.
 
-<dl> <dt>
-
-<span id="_and_"></span><span id="_AND_"></span>Windows XP and Windows 2000
-</dt> <dd>
+### Windows XP and Windows 2000
 
 [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx) is available on Windows XP and Windows 2000 and works well on most systems. However, some hardware systems' BIOS didn't indicate the hardware CPU characteristics correctly (a non-invariant TSC), and some multi-core or multi-processor systems used processors with TSCs that couldn't be synchronized across cores. Systems with flawed firmware that run these versions of Windows might not provide the same **QPC** reading on different cores if they used the TSC as the basis for **QPC**.
 
-</dd> <dt>
-
-<span id="_and_"></span><span id="_AND_"></span>Windows Vista and Windows Server 2008
-</dt> <dd>
+### Windows Vista and Windows Server 2008
 
 All computers that shipped with Windows Vista and Windows Server 2008 used a platform counter (High Precision Event Timer (HPET)) or the ACPI Power Management Timer (PM timer) as the basis for [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx). Such platform timers have higher access latency than the TSC and are shared between multiple processors. This limits scalability of **QPC** if it is called concurrently from multiple processors.
 
-</dd> <dt>
-
-<span id="_and_"></span><span id="_AND_"></span>Windows 7 and Windows Server 2008 R2
-</dt> <dd>
+### Windows 7 and Windows Server 2008 R2
 
 The majority of Windows 7 and Windows Server 2008 R2 computers have processors with constant-rate TSCs and use these counters as the basis for [**QPC**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx). TSCs are high-resolution per-processor hardware counters that can be accessed with very low latency and overhead (in the order of 10s or 100s of machine cycles, depending on the processor type). Windows 7 and Windows Server 2008 R2 use TSCs as the basis of **QPC** on single-clock domain systems where the operating system (or the hypervisor) is able to tightly synchronize the individual TSCs across all processors during system initialization. On such systems, the cost of reading the performance counter is significantly lower compared to systems that use a platform counter. Furthermore, there is no added overhead for concurrent calls and user-mode queries often bypass system calls, which further reduces overhead. On systems where the TSC is not suitable for timekeeping, Windows automatically selects a platform counter (either the HPET timer or the ACPI PM timer) as the basis for **QPC**.
 
-</dd> <dt>
-
-<span id="______and_________"></span><span id="______AND_________"></span>Windows 8, Windows 8.1, Windows Server 2012, and Windows Server 2012 R2
-</dt> <dd>
+### Windows 8, Windows 8.1, Windows Server 2012, and Windows Server 2012 R2
 
 Windows 8, Windows 8.1, Windows Server 2012, and Windows Server 2012 R2 use TSCs as the basis for the performance counter. The TSC synchronization algorithm was significantly improved to better accommodate large systems with many processors. In addition, support for the new precise time-of-day API was added, which enables acquiring precise wall clock time stamps from the operating system. For more info, see [**GetSystemTimePreciseAsFileTime**](https://msdn.microsoft.com/library/Hh706895(v=VS.85).aspx). On Windows RT PC platforms, the performance counter is based on either a proprietary platform counter or the system counter provided by the Windows RT PC Generic Timer if the platform is so equipped.
-
-</dd> </dl>
 
 ## Guidance for acquiring time stamps
 
