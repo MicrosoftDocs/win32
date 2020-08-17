@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IRemoteDesktopClientEvents::OnTouchPointerCursorMoved method
 
-Called when the touch pointer cursor has moved and the [**EventsEnabled**](https://msdn.microsoft.com/library/Mt787031(v=VS.85).aspx) property is set to true.
+Called when the touch pointer cursor has moved and the [**EventsEnabled**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclienttouchpointer-get_eventsenabled) property is set to true.
 
 ## Syntax
 
@@ -71,10 +71,4 @@ This method does not return a value.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

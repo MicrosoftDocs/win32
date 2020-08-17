@@ -40,15 +40,11 @@ In addition, an application that creates a window outside its client area, such 
 
 The solution is in two parts:
 
--   Make the client application "dpi-aware". To do this, call the [**SetProcessDPIAware**](https://msdn.microsoft.com/library/ms633543(v=VS.85).aspx) function at startup. This function makes the entire process dpi-aware, meaning that all windows that belong to the process are unscaled.
--   Use functions that are dpi-aware. For example, to get cursor coordinates, call the [**GetPhysicalCursorPos**](https://msdn.microsoft.com/library/Aa969464(v=VS.85).aspx) function. Do not use [**GetCursorPos**](https://msdn.microsoft.com/library/ms648390(v=VS.85).aspx); its behavior in dpi-aware applications is undefined.
+-   Make the client application "dpi-aware". To do this, call the [**SetProcessDPIAware**](/windows/win32/api/winuser/nf-winuser-setprocessdpiaware) function at startup. This function makes the entire process dpi-aware, meaning that all windows that belong to the process are unscaled.
+-   Use functions that are dpi-aware. For example, to get cursor coordinates, call the [**GetPhysicalCursorPos**](/windows/win32/api/winuser/nf-winuser-getphysicalcursorpos) function. Do not use [**GetCursorPos**](/windows/win32/api/winuser/nf-winuser-getcursorpos); its behavior in dpi-aware applications is undefined.
 
-If your application performs direct cross-process communication with non-dpi-aware applications, you may have convert between logical and physical coordinates by using the [**PhysicalToLogicalPoint**](https://msdn.microsoft.com/library/ms633536(v=VS.85).aspx) and [**LogicalToPhysicalPoint**](https://msdn.microsoft.com/library/ms633533(v=VS.85).aspx) functions.
-
- 
+If your application performs direct cross-process communication with non-dpi-aware applications, you may have convert between logical and physical coordinates by using the [**PhysicalToLogicalPoint**](/windows/win32/api/winuser/nf-winuser-physicaltologicalpoint) and [**LogicalToPhysicalPoint**](/windows/win32/api/winuser/nf-winuser-logicaltophysicalpoint) functions.
 
  
 
-
-
-
+ 

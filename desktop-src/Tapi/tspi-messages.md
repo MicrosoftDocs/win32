@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # TSPI Messages
 
-This section contains a list of the messages in the Telephony Service Provider Interface (TSPI). These messages are used to notify TAPI of the occurrence of asynchronous events that spontaneously occur within the service provider. The service provider passes these events to TAPI by calling a [**LINEEVENT**](https://msdn.microsoft.com/library/ms725228(v=VS.85).aspx) or [**PHONEEVENT**](https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-phoneevent) callback function, depending on whether the service provider is reporting an event on a line, call, or phone device. The **LINEEVENT** procedure for reporting events occurring on a line or call is supplied to the service provider at the time the line is opened with the [**TSPI\_lineOpen**](https://msdn.microsoft.com/library/ms725583(v=VS.85).aspx) function. The **PHONEEVENT** procedure for reporting events occurring on a phone is supplied with the [**TSPI\_phoneOpen**](https://msdn.microsoft.com/library/ms725941(v=VS.85).aspx) function.
+This section contains a list of the messages in the Telephony Service Provider Interface (TSPI). These messages are used to notify TAPI of the occurrence of asynchronous events that spontaneously occur within the service provider. The service provider passes these events to TAPI by calling a [**LINEEVENT**](/windows/win32/api/tspi/nc-tspi-lineevent) or [**PHONEEVENT**](/windows/desktop/api/tspi/nc-tspi-phoneevent) callback function, depending on whether the service provider is reporting an event on a line, call, or phone device. The **LINEEVENT** procedure for reporting events occurring on a line or call is supplied to the service provider at the time the line is opened with the [**TSPI\_lineOpen**](/windows/win32/api/tspi/nf-tspi-tspi_lineopen) function. The **PHONEEVENT** procedure for reporting events occurring on a phone is supplied with the [**TSPI\_phoneOpen**](/windows/win32/api/tspi/nf-tspi-tspi_phoneopen) function.
 
-These spontaneous events are unsolicited by TAPI in the sense that they are not a direct response to any request. These events contrast with those reporting completion of requests made by TAPI. Such completion events are reported through the [**ASYNC\_COMPLETION**](https://msdn.microsoft.com/library/ms725180(v=VS.85).aspx) callback function.
+These spontaneous events are unsolicited by TAPI in the sense that they are not a direct response to any request. These events contrast with those reporting completion of requests made by TAPI. Such completion events are reported through the [**ASYNC\_COMPLETION**](/windows/win32/api/tspi/nc-tspi-async_completion) callback function.
 
 The parameter profiles for the spontaneous event procedures include parameters that identify the relevant object for which the event is being reported (phone, line, or call). The identification is in the form of an opaque handle whose exact interpretation is not published by TSPI. TAPI internally determines the relationship between these opaque handles and whatever data structures it used to represent the devices.
 
@@ -35,9 +35,9 @@ Certain messages are used to notify TAPI about a change in an object's status. T
 
 When an event occurs, a message may or may not be sent to TAPI. For some event types, such as status changes, TAPI specifies a set of status changes in which it is interested. The service provider is advised to limit the status-change message events it reports to those included in this set. The service provider is not required to adhere to this limit. In other words, it may report more changes than are strictly necessary. However, it should try to observe the limit for performance reasons.
 
-The LINE\_REPLY message is not used at the TSPI level. Completion of an asynchronous request is reported using the [**ASYNC\_COMPLETION**](https://msdn.microsoft.com/library/ms725180(v=VS.85).aspx) callback.
+The LINE\_REPLY message is not used at the TSPI level. Completion of an asynchronous request is reported using the [**ASYNC\_COMPLETION**](/windows/win32/api/tspi/nc-tspi-async_completion) callback.
 
-The PHONE\_REPLY message is not used at the TSPI level. Completion of an asynchronous request is reported using the [**ASYNC\_COMPLETION**](https://msdn.microsoft.com/library/ms725180(v=VS.85).aspx) callback.
+The PHONE\_REPLY message is not used at the TSPI level. Completion of an asynchronous request is reported using the [**ASYNC\_COMPLETION**](/windows/win32/api/tspi/nc-tspi-async_completion) callback.
 
 For more information see the following topics:
 
@@ -47,6 +47,3 @@ For more information see the following topics:
  
 
  
-
-
-

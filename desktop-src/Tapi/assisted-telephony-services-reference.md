@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Assisted Telephony Services Reference
 
-The Assisted Telephony functions are listed in the following table. Assisted Telephony functions allow any application to establish voice calls and media calls. For background information, see the [Assisted Telephony](https://msdn.microsoft.com/library/ms726209(v=VS.85).aspx) overview.
+The Assisted Telephony functions are listed in the following table. Assisted Telephony functions allow any application to establish voice calls and media calls. For background information, see the [Assisted Telephony](./assisted-telephony-overview.md) overview.
 
 ## Assisted Telephony Services Functions
 
@@ -28,6 +28,3 @@ The Assisted Telephony functions are listed in the following table. Assisted Tel
  
 
  
-
-
-

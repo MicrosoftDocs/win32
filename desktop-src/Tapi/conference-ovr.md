@@ -29,13 +29,13 @@ When canceling the consultation session to the third party for a conference or w
 
 Not all service providers support conferencing.
 
-**TAPI 2.x:** The [**lineSetupConference**](https://msdn.microsoft.com/library/ms736113(v=VS.85).aspx) function takes the original two-party call as input, allocates a conference call, connects the original call to the conference, and allocates a consultation call whose handle is returned to the application.
+**TAPI 2.x:** The [**lineSetupConference**](/windows/win32/api/tapi/nf-tapi-linesetupconference) function takes the original two-party call as input, allocates a conference call, connects the original call to the conference, and allocates a consultation call whose handle is returned to the application.
 
-If the application is going to add another member to the conference, a dial operation can be performed on the consultation call. The conference call handle and the consultation call connection are then used in the [**lineAddToConference**](https://msdn.microsoft.com/library/ms734943(v=VS.85).aspx) function. Conference members may also be added using [**linePrepareAddToConference**](https://msdn.microsoft.com/library/ms736012(v=VS.85).aspx) function, if supported by the service provider.
+If the application is going to add another member to the conference, a dial operation can be performed on the consultation call. The conference call handle and the consultation call connection are then used in the [**lineAddToConference**](/windows/win32/api/tapi/nf-tapi-lineaddtoconference) function. Conference members may also be added using [**linePrepareAddToConference**](/windows/win32/api/tapi/nf-tapi-lineprepareaddtoconference) function, if supported by the service provider.
 
-Conference members are removed using the [**lineRemoveFromConference**](https://msdn.microsoft.com/library/ms736047(v=VS.85).aspx) function, if the service provider supports it.
+Conference members are removed using the [**lineRemoveFromConference**](/windows/win32/api/tapi/nf-tapi-lineremovefromconference) function, if the service provider supports it.
 
-Alternatively, a conference may be created using the [**lineSetupTransfer**](https://msdn.microsoft.com/library/ms736115(v=VS.85).aspx) function, which returns a consultation call handle, and the [**lineCompleteTransfer**](https://msdn.microsoft.com/library/ms735578(v=VS.85).aspx) function with the conference option (instead of the [transfer](transfer-ovr.md) option).
+Alternatively, a conference may be created using the [**lineSetupTransfer**](/windows/win32/api/tapi/nf-tapi-linesetuptransfer) function, which returns a consultation call handle, and the [**lineCompleteTransfer**](/windows/win32/api/tapi/nf-tapi-linecompletetransfer) function with the conference option (instead of the [transfer](transfer-ovr.md) option).
 
 **TAPI 3.x:** The [**ITBasicCallControl::Conference**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-conference) method takes the existing session as input and creates a [CallHub object](callhub-object.md) if one does not already exist. The [**ITBasicCallControl::Finish**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-finish) method adds the consultation call to the CallHub. Additional consultation sessions may be created using [**ITAddress::CreateCall**](/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall), and added using the **Conference** and **Finish** methods.
 
@@ -47,6 +47,3 @@ Alternatively, a conference may be created using the [**lineSetupTransfer**](htt
  
 
  
-
-
-

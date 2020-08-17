@@ -61,7 +61,7 @@ In addition, any current or cached property (other than control pattern properti
 -   [**GetCachedPropertyValue**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-getcachedpropertyvalue)
 -   [**GetCachedPropertyValueEx**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-getcachedpropertyvalueex)
 
-These methods offer slightly better performance and access to the full range of properties. However, values are returned in [**VARIANT**](https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-variant) structures, whereas the individual property accessors cast the value to the appropriate type.
+These methods offer slightly better performance and access to the full range of properties. However, values are returned in [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) structures, whereas the individual property accessors cast the value to the appropriate type.
 
 ## Default Property Values
 
@@ -85,7 +85,3 @@ The difference between [**IUIAutomationElement::GetCurrentPropertyValue**](/wind
  
 
  
-
-
-
-

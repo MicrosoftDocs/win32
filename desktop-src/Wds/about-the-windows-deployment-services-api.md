@@ -12,13 +12,13 @@ ms.date: 05/31/2018
 
 Windows Deployment Services (WDS) is a suite of components that enable the deployment of Windows operating systems, particularly Windows Vista and later and Windows Server 2008 and later. You can use it to set up new computers using network-based installations.
 
-OEMs, system builders, and corporate IT professionals looking for information on how to deploy Windows onto new computers, should see the information about the standard WDS solution in the [Windows Deployment Services Update Step-by-Step Guide](https://technet.microsoft.com/library/cc766320.aspx) and the [Windows Automated Installation Kit (WAIK)](https://www.microsoft.com/download/details.aspx?id=10333).
+OEMs, system builders, and corporate IT professionals looking for information on how to deploy Windows onto new computers, should see the information about the standard WDS solution in the [Windows Deployment Services Update Step-by-Step Guide](/previous-versions/windows/it-pro/windows-vista/cc766320(v=ws.10)) and the [Windows Automated Installation Kit (WAIK)](https://www.microsoft.com/download/details.aspx?id=10333).
 
 In environments where the standard WDS solution cannot be used, the WDS API enables programmatic access to some WDS components.
 
 -   The [Windows Deployment Services Server Functions](windows-deployment-services-server-functions.md) provide programmatic access to the WDS Pre-Boot Execution Environment (PXE) server. WDS server components include a PXE server and Trivial File Transfer Protocol (TFTP) server for network booting a computer to load and install an operating system.
 -   The [Windows Deployment Services Client Functions](windows-deployment-services-client-functions.md) provide programmatic access to the WDS client. The WDS client components include a graphical user interface that runs within the Windows Pre-Installation Environment (Windows PE) and communicates with the server components to select and install an operating system image.
--   There is no API for the WDS management components. These components are a set of tools that you use to manage the server, operating system images, and client computer accounts. For more information about the WDS management components, see [The Windows Deployment Services Update Step-by-Step Guide](https://technet.microsoft.com/library/cc766320.aspx).
+-   There is no API for the WDS management components. These components are a set of tools that you use to manage the server, operating system images, and client computer accounts. For more information about the WDS management components, see [The Windows Deployment Services Update Step-by-Step Guide](/previous-versions/windows/it-pro/windows-vista/cc766320(v=ws.10)).
 
 The WDS PXE Server consists of a PXE server and a PXE provider. The PXE server contains the core networking capability. The PXE server supports plug-in interfaces which are known as PXE providers. This provider model enables development of custom PXE solutions while continuing to use the core PXE server networking code base.
 
@@ -58,7 +58,3 @@ You can download the following WDS samples online in the [desktop code gallery](
  
 
  
-
-
-
-

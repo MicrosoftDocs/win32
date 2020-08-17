@@ -26,15 +26,15 @@ By default, a 32-bit application running on WOW64 accesses the 32-bit registry v
 
 These flags can be specified in the *samDesired* parameter of the following registry functions:
 
--   [**RegCreateKeyEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa)
--   [**RegDeleteKeyEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdeletekeyexa)
--   [**RegOpenKeyEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa)
+-   [**RegCreateKeyEx**](/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa)
+-   [**RegDeleteKeyEx**](/windows/desktop/api/winreg/nf-winreg-regdeletekeyexa)
+-   [**RegOpenKeyEx**](/windows/desktop/api/winreg/nf-winreg-regopenkeyexa)
 
 Either KEY\_WOW64\_32KEY or KEY\_WOW64\_64KEY can be specified. If both flags are specified, the function fails with ERROR\_INVALID\_PARAMETER.
 
 **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** If both flags are specified, the function s behavior is undefined.
 
-The [**RegDeleteKey**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdeletekeya) function cannot be used to access an alternate registry view.
+The [**RegDeleteKey**](/windows/desktop/api/winreg/nf-winreg-regdeletekeya) function cannot be used to access an alternate registry view.
 
 The following are best practices when accessing the registry from an application:
 
@@ -46,7 +46,7 @@ The following are best practices when accessing the registry from an application
 
  
 
-For information about accessing the alternate registry view through WMI, see [Requesting WMI Data on a 64-bit Platform](https://docs.microsoft.com/windows/desktop/WmiSdk/requesting-wmi-data-on-a-64-bit-platform).
+For information about accessing the alternate registry view through WMI, see [Requesting WMI Data on a 64-bit Platform](/windows/desktop/WmiSdk/requesting-wmi-data-on-a-64-bit-platform).
 
 ## Related topics
 
@@ -59,10 +59,4 @@ For information about accessing the alternate registry view through WMI, see [Re
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

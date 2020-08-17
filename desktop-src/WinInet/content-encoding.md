@@ -34,14 +34,10 @@ To set the decoding option, the application calls [**InternetSetOption**](/windo
 When the decoding option is set, WinINet performs decoding on the request when the application calls [**InternetReadFile**](/windows/desktop/api/Wininet/nf-wininet-internetreadfile). If WinINet encounters an error while performing content decoding, the call to **InternetReadFile** fails with an **ERROR\_INTERNET\_DECODING\_FAILED**. When decoding fails, the application has two options: it can remove the Accept-Encoding header and resend the request, or it can set the **INTERNET\_OPTION\_HTTP\_DECODING** option on the request to false and then resend the request. If the decoding option is set to false, the application must check the Content-Encoding header and perform any decoding at the application level.
 
 > [!Note]  
-> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 
  
 
  
-
-
-
-

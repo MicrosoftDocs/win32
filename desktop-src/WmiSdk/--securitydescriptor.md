@@ -24,7 +24,7 @@ api_location:
 
 # \_\_SecurityDescriptor class
 
-The **\_\_SecurityDescriptor** abstract system class represents a [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly).
+The **\_\_SecurityDescriptor** abstract system class represents a [*security descriptor*](/windows/desktop/SecGloss/s-gly).
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -63,7 +63,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Bit flags that provide information about the descriptor's contents and format. See the **ControlFlags** property in the [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class for a description of the flags.
+Bit flags that provide information about the descriptor's contents and format. See the **ControlFlags** property in the [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class for a description of the flags.
 
 </dd> <dt>
 
@@ -134,7 +134,7 @@ Time in the [CIM\_DATETIME](cim-datetime.md) format when the security descriptor
 
 ## Remarks
 
-This class provides properties inherited by [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor). For more information, see [WMI Security Descriptor Objects](wmi-security-descriptor-objects.md) and [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md). For more information about ACEs, see [Access Control Components](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-components).
+This class provides properties inherited by [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor). For more information, see [WMI Security Descriptor Objects](wmi-security-descriptor-objects.md) and [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md). For more information about ACEs, see [Access Control Components](/windows/desktop/SecAuthZ/access-control-components).
 
 ## Requirements
 
@@ -155,16 +155,11 @@ This class provides properties inherited by [**Win32\_SecurityDescriptor**](http
 [WMI System Classes](wmi-system-classes.md)
 </dt> <dt>
 
-[**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)
+[**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)
 </dt> <dt>
 
 [Maintaining WMI Security](maintaining-wmi-security.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

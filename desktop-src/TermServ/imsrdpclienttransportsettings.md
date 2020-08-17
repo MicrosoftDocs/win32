@@ -24,7 +24,7 @@ Manages client transport settings for the Remote Desktop Gateway (RD Gateway) se
 
 ## Members
 
-The **IMsRdpClientTransportSettings** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IMsRdpClientTransportSettings** also has these types of members:
+The **IMsRdpClientTransportSettings** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IMsRdpClientTransportSettings** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -66,7 +66,7 @@ The **IMsRdpClientTransportSettings** interface has these properties.
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)
 </dt> <dt>
 
 [Remote Desktop Web Connection Reference](remote-desktop-web-connection-reference.md)
@@ -76,10 +76,4 @@ The **IMsRdpClientTransportSettings** interface has these properties.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

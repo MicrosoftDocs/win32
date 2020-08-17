@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.LensManufacturer Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.LensManufacturer](https://msdn.microsoft.com/library/bb760485(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.LensManufacturer](../properties/props-system-photo-lensmanufacturer.md) property.
 
 ### PKEY
 
@@ -68,12 +68,9 @@ If the file is in TIFF format, the handler will use the following order of prece
 
 <dl> <dt>
 
-[System.Photo.LensManufacturer](https://msdn.microsoft.com/library/bb760485(VS.85).aspx)
+[System.Photo.LensManufacturer](../properties/props-system-photo-lensmanufacturer.md)
 </dt> </dl>
 
  
 
  
-
-
-

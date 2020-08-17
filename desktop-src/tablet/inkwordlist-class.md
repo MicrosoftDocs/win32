@@ -48,9 +48,9 @@ The **InkWordList** class has these methods.
 
 | Method                                       | Description                                                             |
 |:---------------------------------------------|:------------------------------------------------------------------------|
-| [**AddWord**](https://msdn.microsoft.com/library/ms702462(v=VS.85).aspx)       | Adds a single word to the **InkWordList**.<br/>                   |
-| [**Merge**](https://msdn.microsoft.com/library/ms700650(v=VS.85).aspx)           | Merges another **InkWordList** to into this **InkWordList**.<br/> |
-| [**RemoveWord**](https://msdn.microsoft.com/library/ms701127(v=VS.85).aspx) | Removes a single word from a **InkWordList**.<br/>                |
+| [**AddWord**](/windows/win32/api/msinkaut/nf-msinkaut-iinkwordlist-addword)       | Adds a single word to the **InkWordList**.<br/>                   |
+| [**Merge**](/windows/win32/api/msinkaut/nf-msinkaut-iinkwordlist-merge)           | Merges another **InkWordList** to into this **InkWordList**.<br/> |
+| [**RemoveWord**](/windows/win32/api/msinkaut/nf-msinkaut-iinkwordlist-removeword) | Removes a single word from a **InkWordList**.<br/>                |
 
 
 
@@ -58,7 +58,7 @@ The **InkWordList** class has these methods.
 
 ## Remarks
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
+This object can be instantiated by calling the [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
 ## Requirements
 
@@ -87,9 +87,4 @@ This object can be instantiated by calling the [**CoCreateInstance**](https://do
 </dt> </dl>
 
  
-
- 
-
-
-
 

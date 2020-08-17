@@ -29,7 +29,7 @@ This index is divided into the following sections:
 | [check boxes](ctrl-check-boxes.md)<br/> ![screen shot of four check boxes ](images/visual-index-image2.png)<br/>                                               |
 | [command buttons](ctrl-command-buttons.md)<br/> ![screen shot of an ok button ](images/visual-index-image3.png)<br/>                                           |
 | [command links](ctrl-command-links.md)<br/> ![screen shot of two command links ](images/visual-index-image4.png)<br/>                                          |
-| [drop-down lists and combo boxes](https://msdn.microsoft.com/library/Dn742404(v=VS.85).aspx)<br/> ![screen shot of a drop-down list of font sizes ](images/visual-index-image5.png)<br/>                |
+| [drop-down lists and combo boxes](./ctrl-drop.md)<br/> ![screen shot of a drop-down list of font sizes ](images/visual-index-image5.png)<br/>                |
 | [group boxes](ctrl-group-boxes.md)<br/> ![screen shot of both of two check boxes selected ](images/visual-index-image6.png)<br/>                               |
 | [links](ctrl-links.md)<br/> ![screen shot of a command in blue, underlined text ](images/visual-index-image7.png)<br/>                                         |
 | [list boxes](ctrl-list-boxes.md)<br/> ![screen shot of a list of valid screen resolutions ](images/visual-index-image8.png)<br/>                               |
@@ -126,10 +126,4 @@ This index is divided into the following sections:
  
 
  
-
- 
-
-
-
-
 

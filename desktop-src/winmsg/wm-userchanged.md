@@ -20,7 +20,7 @@ topic_type:
 
 Sent to all windows after the user has logged on or off. When the user logs on or off, the system updates the user-specific settings. The system sends this message immediately after updating the settings.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 > [!Note]  
 > This message is not supported as of Windows Vista.
@@ -80,7 +80,3 @@ An application should return zero if it processes this message.
  
 
  
-
-
-
-

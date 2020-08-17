@@ -15,11 +15,8 @@ The [**IWbemDecoupledBasicEventProvider**](/windows/desktop/api/Wbemprov/nn-wbem
 
 -   [**GetService method**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledbasiceventprovider-getservice)
 -   [**GetSink method**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledbasiceventprovider-getsink)
--   [**Register method**](https://msdn.microsoft.com/library/Aa391480(v=VS.85).aspx)
+-   [**Register method**](/previous-versions/windows/desktop/legacy/aa391480(v=vs.85))
 
  
 
  
-
-
-

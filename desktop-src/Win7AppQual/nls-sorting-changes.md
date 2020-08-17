@@ -90,14 +90,11 @@ Applications meant to run only on Windows Vista and later should use **GetNLSVer
 
 ## Links to Other Resources
 
--   [Internationalization for Windows Applications](https://msdn.microsoft.com/library/Dd318661(v=VS.85).aspx)
--   [GetNLSVersionEx Function](https://msdn.microsoft.com/library/Dd318107(v=VS.85).aspx)
--   [GetNLSVersion Function](https://msdn.microsoft.com/library/Dd318105(v=VS.85).aspx)
--   [How to tell if the collation version changed](https://blogs.msdn.com/shawnste/archive/2007/06/01/how-to-tell-if-the-collation-version-changed.aspx)
+-   [Internationalization for Windows Applications](../intl/international-support.md)
+-   [GetNLSVersionEx Function](/windows/win32/api/winnls/nf-winnls-getnlsversionex)
+-   [GetNLSVersion Function](/windows/win32/api/winnls/nf-winnls-getnlsversion)
+-   [How to tell if the collation version changed](/archive/blogs/shawnste/)
 
  
 
  
-
-
-

@@ -519,7 +519,7 @@
       - name: "WS_CERT_CREDENTIAL_TYPE"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_cert_credential_type
       - name: "WS_CERT_FAILURE"
-        href: https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_8
+        href: /windows/desktop/api/webservices/ne-webservices-__unnamed_enum_8
       - name: "WS_CHANNEL_BINDING"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_channel_binding
       - name: "WS_CHANNEL_PROPERTY_ID"
@@ -557,15 +557,15 @@
       - name: "WS_FIELD_MAPPING"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_field_mapping
       - name: "WS_FIELD_OPTIONS"
-        href: https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10
+        href: /windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10
       - name: "WS_HEADER_ATTRIBUTES"
-        href: https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_5
+        href: /windows/desktop/api/webservices/ne-webservices-__unnamed_enum_5
       - name: "WS_HEADER_TYPE"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_header_type
       - name: "WS_HEAP_PROPERTY_ID"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_heap_property_id
       - name: "WS_HTTP_HEADER_AUTH_SCHEME"
-        href: https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_6
+        href: /windows/desktop/api/webservices/ne-webservices-__unnamed_enum_6
       - name: "WS_HTTP_HEADER_AUTH_TARGET"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_http_header_auth_target
       - name: "WS_HTTP_HEADER_MAPPING_OPTIONS"
@@ -573,9 +573,9 @@
       - name: "WS_HTTP_PROXY_SETTING_MODE"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_http_proxy_setting_mode
       - name: "WS_HTTP_REQUEST_MAPPING_OPTIONS"
-        href: https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_3
+        href: /windows/desktop/api/webservices/ne-webservices-__unnamed_enum_3
       - name: "WS_HTTP_RESPONSE_MAPPING_OPTIONS"
-        href: https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_2
+        href: /windows/desktop/api/webservices/ne-webservices-__unnamed_enum_2
       - name: "WS_IP_VERSION"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_ip_version
       - name: "WS_LISTENER_PROPERTY_ID"
@@ -667,13 +667,13 @@
       - name: "WS_SERVICE_HOST_STATE"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_service_host_state
       - name: "WS_SERVICE_OPERATION_MESSAGE_OPTION"
-        href: https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_11
+        href: /windows/desktop/api/webservices/ne-webservices-__unnamed_enum_11
       - name: "WS_SERVICE_PROPERTY_ID"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_service_property_id
       - name: "WS_SERVICE_PROXY_STATE"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_service_proxy_state
       - name: "WS_STRUCT_OPTIONS"
-        href: https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_9
+        href: /windows/desktop/api/webservices/ne-webservices-__unnamed_enum_9
       - name: "WS_TRACE_API"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_trace_api
       - name: "WS_TRANSFER_MODE"
@@ -685,9 +685,9 @@
       - name: "WS_TYPE_MAPPING"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_type_mapping
       - name: "WS_URL_FLAGS"
-        href: https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_12
+        href: /windows/desktop/api/webservices/ne-webservices-__unnamed_enum_12
       - name: "WS_URL_MATCHING_OPTIONS"
-        href: https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_4
+        href: /windows/desktop/api/webservices/ne-webservices-__unnamed_enum_4
       - name: "WS_URL_SCHEME_TYPE"
         href: /windows/desktop/api/WebServices/ne-webservices-ws_url_scheme_type
       - name: "WS_USERNAME_CREDENTIAL_TYPE"
@@ -1156,13 +1156,13 @@
       href: web-services-for-windows-macros.md
       items: 
       - name: "WS_STRING_EMPTY"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323449(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dd323449(v=vs.85)
       - name: "WS_STRING_VALUE"
         href: /windows/desktop/api/WebServices/nf-webservices-ws_string_value
       - name: "WS_XML_STRING_DICTIONARY_VALUE"
         href: /windows/desktop/api/WebServices/nf-webservices-ws_xml_string_dictionary_value
       - name: "WS_XML_STRING_NULL"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323562(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dd323562(v=vs.85)
       - name: "WS_XML_STRING_VALUE"
         href: /windows/desktop/api/WebServices/nf-webservices-ws_xml_string_value
       - name: "WsCountOf"

@@ -34,7 +34,7 @@ if (result != S_OK) {
 ## See Also
 
 <dl><dt>
-[ITTAPI::Initialize](https://docs.microsoft.com/windows/win32/api/tapi3if/nf-tapi3if-ittapi-initialize)
+[ITTAPI::Initialize](/windows/win32/api/tapi3if/nf-tapi3if-ittapi-initialize)
 </dt><dt>
-[Common HRESULT Values](https://docs.microsoft.com/windows/win32/seccrypto/common-hresult-values)
+[Common HRESULT Values](../seccrypto/common-hresult-values.md)
 </dt></dl>

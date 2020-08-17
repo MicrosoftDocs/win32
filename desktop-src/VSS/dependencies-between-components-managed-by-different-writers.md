@@ -45,7 +45,7 @@ In a multi-system deployment, if a component managed by the application's writer
 
 As an example of a multi-system deployment, consider an application server that uses a SQL Server database server as a data store. The application-specific data, which includes the web parts, web content files, and the IIS metabase, resides on one or more computers, called front-end web servers. The actual SQL data store, which includes the Config database and multiple Content databases, resides on one or more other computers, called back-end database servers. Each of the front-end web servers contains the same application-specific content and configuration. Each of the back-end database servers can host any of the Content databases or the Config database. The application software runs only on the front-end web servers, not on the database servers. In this configuration, the application's VSS writer has remote dependencies on the components managed by the SQL writer.
 
-A writer can declare a remote dependency by calling the [**AddComponentDependency**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency) method, prepending "\\\\*RemoteComputerName*\\", where *RemoteComputerName* is the name of the computer where the remote component resides, to the logical path in the *wszOnLogicalPath* parameter. The value of *RemoteComputerName* can be an IP address or a computer name returned by the [**GetComputerNameEx**](https://msdn.microsoft.com/library/ms724301(v=VS.85).aspx) function.
+A writer can declare a remote dependency by calling the [**AddComponentDependency**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency) method, prepending "\\\\*RemoteComputerName*\\", where *RemoteComputerName* is the name of the computer where the remote component resides, to the logical path in the *wszOnLogicalPath* parameter. The value of *RemoteComputerName* can be an IP address or a computer name returned by the [**GetComputerNameEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa) function.
 
 **Windows Server 2003:** A writer cannot declare remote dependencies until Windows Server 2003 with Service Pack 1 (SP1).
 
@@ -107,6 +107,3 @@ To provide partial support for remote dependencies, the requester must follow re
  
 
  
-
-
-

@@ -14,7 +14,7 @@ The **ITParticipantControl** interface is implemented by the IPConf MSP. This in
 
 ## Members
 
-The **ITParticipantControl** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITParticipantControl** also has these types of members:
+The **ITParticipantControl** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITParticipantControl** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -47,9 +47,4 @@ The **ITParticipantControl** interface has these methods.
 
 
  
-
- 
-
-
-
 

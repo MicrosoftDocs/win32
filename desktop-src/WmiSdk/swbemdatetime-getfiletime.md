@@ -54,7 +54,7 @@ The date and time in the **FILETIME** format.
 
 ## Error codes
 
-After completing the **GetFileTime** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain the error code in the following list.
+After completing the **GetFileTime** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain the error code in the following list.
 
 <dl> <dt>
 
@@ -116,9 +116,4 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 </dt> </dl>
 
  
-
- 
-
-
-
 

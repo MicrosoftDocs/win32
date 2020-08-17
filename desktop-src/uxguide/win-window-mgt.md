@@ -114,7 +114,7 @@ In this example, Windows Media Player changes its format when the window becomes
 
     When using a pen, also show contextual windows so that they aren't covered by the user's hand.
 
--   **Developers:** You can distinguish between mouse events and pen events using the [GetMessageExtraInfo](https://msdn2.microsoft.com/library/ms703320.aspx) API. You can determine the user's [handedness](https://msdn2.microsoft.com/library/ms819495.aspx) using the [SystemParametersInfo](https://msdn2.microsoft.com/library/ms724947.aspx) API with SPI\_GETMENUDROPALIGNMENT.
+-   **Developers:** You can distinguish between mouse events and pen events using the [GetMessageExtraInfo](../tablet/system-events-and-mouse-messages.md) API. You can determine the user's [handedness](/previous-versions/ms819495(v=msdn.10)) using the [SystemParametersInfo](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa) API with SPI\_GETMENUDROPALIGNMENT.
 -   **Place progress dialogs out of the way in the lower-right corner of the active monitor.**
 
     ![figure of progress bar in lower-right corner ](images/win-window-mgt-image7.png)
@@ -170,7 +170,7 @@ In this example, Windows Media Player changes its format when the window becomes
 
 -   **When a window is redisplayed, consider displaying it in the same state as last accessed.** When closing, save the monitor used, window size, location, and state (maximized vs. restore). When redisplaying, restore the saved window size, location, and state using the appropriate monitor. Also, consider making these attributes persist across program instances on a per-user basis. **Exceptions:**
     -   Don't save or make these attributes persist for windows when their usage is such that users are far more likely to want to start completely over.
-    -   For programs likely to be used on Windows Tablet and Touch Technology computers, save two windows states for landscape and portrait modes. For more information, see [Designing for Varying Display Sizes](https://msdn2.microsoft.com/library/ms695587.aspx).
+    -   For programs likely to be used on Windows Tablet and Touch Technology computers, save two windows states for landscape and portrait modes. For more information, see [Designing for Varying Display Sizes](/previous-versions/windows/desktop/ms695587(v=vs.85)).
 -   **If the current monitor configuration prevents displaying a window using its last state:**
     -   Try to display the window using its last monitor.
     -   If the window is larger than the monitor, resize the window as necessary.
@@ -180,7 +180,3 @@ In this example, Windows Media Player changes its format when the window becomes
  
 
  
-
-
-
-

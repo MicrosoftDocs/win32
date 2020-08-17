@@ -14,12 +14,8 @@ There are several features that make it easier for you to develop applications t
 
 The 64-bit toolkit that ships with the Windows SDK includes a 64-bit MIDL compiler, Midl.exe, for generating native 64-bit stubs, as well as 32-bit stubs. Use the **/env win64** switch to generate 64-bit stubs only. The default is to generate dual stubs that run on both platforms.
 
-Note that the 64-bit MIDL supports the [**/Oicf**](https://docs.microsoft.com/windows/desktop/Midl/-oi) and [**/Os**](https://docs.microsoft.com/windows/desktop/Midl/-os) optimization modes only.
+Note that the 64-bit MIDL supports the [**/Oicf**](/windows/desktop/Midl/-oi) and [**/Os**](/windows/desktop/Midl/-os) optimization modes only.
 
  
 
  
-
-
-
-

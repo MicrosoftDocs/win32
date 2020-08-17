@@ -19,13 +19,13 @@ When your application or protocol provider is initialized, perform the following
 
 1.  Call the [**CBCreateClientInstance**](cbcreateclientinstance.md) function to obtain the [**IConnectionBrokerClient**](iconnectionbrokerclient.md) interface.
 2.  Keep the [**IConnectionBrokerClient**](iconnectionbrokerclient.md) interface as long as you need it.
-3.  When the [**IConnectionBrokerClient**](iconnectionbrokerclient.md) interface is no longer needed, call the [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) method.
+3.  When the [**IConnectionBrokerClient**](iconnectionbrokerclient.md) interface is no longer needed, call the [**Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) method.
 
 ### Step 2: Request the target information
 
 When your protocol provider receives an incoming connection request, perform the following steps to call the [**IConnectionBrokerClient::GetTargetInfo**](iconnectionbrokerclient-gettargetinfo.md) method. This method obtains, from the Connection Broker, the appropriate server to redirect the connection to.
 
-1.  Create an event that can be signaled using the [**CreateEvent**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa), or similar function, to use for the *hStatusEvent* parameter.
+1.  Create an event that can be signaled using the [**CreateEvent**](/windows/desktop/api/synchapi/nf-synchapi-createeventa), or similar function, to use for the *hStatusEvent* parameter.
 2.  Allocate memory for the *pTargetInfo* and *pResult* parameters. These memory blocks must remain in place until after this entire sequence is complete.
 3.  Fill out a [**CB\_CONNECTION\_INFO**](cb-connection-info.md) structure that contains all of the information about the incoming connection.
 4.  Call the [**GetTargetInfo**](iconnectionbrokerclient-gettargetinfo.md) method, passing all of the required parameters. This is an asynchronous method that will return an instance of the [**IConnectionBrokerRequest**](iconnectionbrokerrequest.md) interface.
@@ -39,7 +39,3 @@ When your protocol provider receives an incoming connection request, perform the
  
 
  
-
-
-
-

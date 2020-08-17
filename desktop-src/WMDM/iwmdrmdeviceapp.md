@@ -18,7 +18,7 @@ api_location:
 
 # IWMDRMDeviceApp interface
 
-\[The Windows Media DRM feature is deprecated and should not be used. Use [Microsoft PlayReady](https://docs.microsoft.com/windows/uwp/audio-video-camera/playready-client-sdk) instead.\]
+\[The Windows Media DRM feature is deprecated and should not be used. Use [Microsoft PlayReady](/windows/uwp/audio-video-camera/playready-client-sdk) instead.\]
 
 The **IWMDRMDeviceApp** interface enables an application to meter, synchronize licenses, and update a device's DRM components. This interface will only work with devices that support Windows Media DRM 10 for Portable Devices.
 
@@ -31,7 +31,7 @@ To get this interface, call **CoCreateInstance**, passing in CLSID\_WMDRMDeviceA
 
 ## Members
 
-The **IWMDRMDeviceApp** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMDeviceApp** also has these types of members:
+The **IWMDRMDeviceApp** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMDeviceApp** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -67,10 +67,4 @@ The **IWMDRMDeviceApp** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

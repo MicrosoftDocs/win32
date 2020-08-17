@@ -40,7 +40,7 @@ ms.date: 05/31/2018
 
 # IMsRdpClientNonScriptable4::PublisherCertificateChain property
 
-Controls the publisher certificate chain. The chain is stored in a variant of type **VT\_BYREF** that contains a pointer to a [**CERT\_CHAIN\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context) structure. For information about **VT\_BYREF** structures, see [VARIANT and VARIANTARG](https://msdn.microsoft.com/library/ms221627.aspx).
+Controls the publisher certificate chain. The chain is stored in a variant of type **VT\_BYREF** that contains a pointer to a [**CERT\_CHAIN\_CONTEXT**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context) structure. For information about **VT\_BYREF** structures, see [VARIANT and VARIANTARG](/windows/win32/api/oaidl/ns-oaidl-variant).
 
 This property is read/write.
 
@@ -61,7 +61,7 @@ HRESULT get_PublisherCertificateChain(
 
 ## Property value
 
-Sets the publisher certificate chain. The chain is stored in a variant of type **VT\_BYREF** that contains a pointer to a [**CERT\_CHAIN\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context) structure.
+Sets the publisher certificate chain. The chain is stored in a variant of type **VT\_BYREF** that contains a pointer to a [**CERT\_CHAIN\_CONTEXT**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context) structure.
 
 ## Error codes
 
@@ -92,10 +92,4 @@ Returns **S\_OK** if successful.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

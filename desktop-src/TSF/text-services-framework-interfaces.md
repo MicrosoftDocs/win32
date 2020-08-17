@@ -89,7 +89,7 @@ The Text Services Framework includes the following interfaces.
 -   [**ITfInputProcessorProfiles**](/windows/desktop/api/Msctf/nn-msctf-itfinputprocessorprofiles)
 -   [**ITfInputProcessorProfilesEx**](/windows/desktop/api/Msctf/nn-msctf-itfinputprocessorprofilesex)
 -   [**ITfInputProcessorProfileSubstituteLayout**](/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofilesubstitutelayout)
--   [**ITfInputScope**](https://docs.microsoft.com/windows/desktop/api/inputscope/nn-inputscope-itfinputscope)
+-   [**ITfInputScope**](/windows/desktop/api/inputscope/nn-inputscope-itfinputscope)
 -   [**ITfInsertAtSelection**](/windows/desktop/api/Msctf/nn-msctf-itfinsertatselection)
 -   [**ITfKeyEventSink**](/windows/desktop/api/Msctf/nn-msctf-itfkeyeventsink)
 -   [**ITfKeystrokeMgr**](/windows/desktop/api/Msctf/nn-msctf-itfkeystrokemgr)
@@ -149,7 +149,3 @@ The Text Services Framework includes the following interfaces.
  
 
  
-
-
-
-

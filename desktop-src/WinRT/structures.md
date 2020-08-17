@@ -10,23 +10,20 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**APARTMENT\_SHUTDOWN\_REGISTRATION\_COOKIE**](https://msdn.microsoft.com/library/JJ219262(v=VS.85).aspx)
--   [**EventRegistrationToken**](https://msdn.microsoft.com/library/BR205773(v=VS.85).aspx)
--   [**DateTime**](https://msdn.microsoft.com/library/BR205770(v=VS.85).aspx)
--   [**HSTRING\_HEADER**](https://msdn.microsoft.com/library/BR205778(v=VS.85).aspx)
--   [**IRoSimpleMetaDataBuilder**](https://msdn.microsoft.com/library/Hh438406(v=VS.85).aspx)
--   [**IRoMetaDataLocator**](https://msdn.microsoft.com/library/Hh438404(v=VS.85).aspx)
--   [**Point**](https://msdn.microsoft.com/library/BR224614(v=VS.85).aspx)
+-   [**APARTMENT\_SHUTDOWN\_REGISTRATION\_COOKIE**](/previous-versions//jj219262(v=vs.85))
+-   [**EventRegistrationToken**](/windows/win32/api/eventtoken/ns-eventtoken-eventregistrationtoken)
+-   [**DateTime**](/windows/win32/api/windows.foundation/ns-windows-foundation-datetime)
+-   [**HSTRING\_HEADER**](/windows/win32/api/hstring/ns-hstring-hstring_header)
+-   [**IRoSimpleMetaDataBuilder**](/windows/win32/api/roparameterizediid/ns-roparameterizediid-irosimplemetadatabuilder)
+-   [**IRoMetaDataLocator**](/windows/win32/api/roparameterizediid/ns-roparameterizediid-irometadatalocator)
+-   [**Point**](/windows/win32/api/windows.foundation/ns-windows-foundation-point)
 -   [**PDF\_RENDER\_PARAMS**](/windows/desktop/api/windows.data.pdf.interop/ns-windows-data-pdf-interop-pdf_render_params)
--   [**Rect**](https://msdn.microsoft.com/library/BR224616(v=VS.85).aspx)
+-   [**Rect**](/windows/win32/api/windows.foundation/ns-windows-foundation-rect)
 -   [**ServerInformation**](/windows/win32/api/combaseapi/ns-combaseapi-serverinformation)
--   [**Size**](https://msdn.microsoft.com/library/BR224622(v=VS.85).aspx)
--   [**TextRange**](https://msdn.microsoft.com/library/Dn302173(v=VS.85).aspx)
--   [**TimeSpan**](https://msdn.microsoft.com/library/BR224624(v=VS.85).aspx)
+-   [**Size**](/windows/win32/api/windows.foundation/ns-windows-foundation-size)
+-   [**TextRange**](/previous-versions//dn302173(v=vs.85))
+-   [**TimeSpan**](/windows/win32/api/windows.foundation/ns-windows-foundation-timespan)
 
  
 
  
-
-
-

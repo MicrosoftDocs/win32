@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.ImgDirectionRef Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.ImgDirectionRef](https://msdn.microsoft.com/library/bb760541(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.ImgDirectionRef](../properties/props-system-gps-imgdirectionref.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.ImgDirectionRef](https://msdn.microsoft.com/library/bb760541(VS.85).aspx)
+[System.GPS.ImgDirectionRef](../properties/props-system-gps-imgdirectionref.md)
 </dt> </dl>
 
  
 
  
-
-
-

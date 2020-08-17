@@ -16,9 +16,9 @@ HTML is very useful in an environment in which formatting is important, such as 
 
 The following features are used in this sample:
 
--   The [Ink](https://msdn.microsoft.com/library/Aa515768(v=MSDN.10).aspx) object's [Load](https://msdn.microsoft.com/library/ms569609(v=VS.90).aspx) method
--   The [Ink](https://msdn.microsoft.com/library/Aa515768(v=MSDN.10).aspx) object's [Save](https://msdn.microsoft.com/library/ms571335(v=VS.90).aspx) method
--   The [Ink](https://msdn.microsoft.com/library/Aa515768(v=MSDN.10).aspx) object's [ExtendedProperties](https://msdn.microsoft.com/library/ms582214(v=VS.90).aspx) property
+-   The [Ink](/previous-versions/aa515768(v=msdn.10)) object's [Load](/previous-versions/ms569609(v=vs.100)) method
+-   The [Ink](/previous-versions/aa515768(v=msdn.10)) object's [Save](/previous-versions/dotnet/netframework-3.5/ms571335(v=vs.90)) method
+-   The [Ink](/previous-versions/aa515768(v=msdn.10)) object's [ExtendedProperties](/previous-versions/ms582214(v=vs.100)) property
 
 ## Collecting Ink
 
@@ -31,7 +31,7 @@ using Microsoft.Ink;
 
 
 
-The constructor creates and enables an [InkCollector](https://msdn.microsoft.com/library/ms836493(v=MSDN.10).aspx), `ic`, for the form.
+The constructor creates and enables an [InkCollector](/previous-versions/ms836493(v=msdn.10)), `ic`, for the form.
 
 
 ```C++
@@ -47,7 +47,7 @@ The `SaveAsMenu_Click` method handles the Save As dialog box, creates a file str
 
 ## Saving to an ISF File
 
-In the `SaveISF` method, the first and last name values are added to the [ExtendedProperties](https://msdn.microsoft.com/library/ms582214(v=VS.90).aspx) property of the [InkCollector](https://msdn.microsoft.com/library/ms836493(v=MSDN.10).aspx) object's [Ink](https://msdn.microsoft.com/library/ms836505(v=MSDN.10).aspx) property, before the ink is serialized and written to the file. After the ink has been serialized, the first and last name values are removed from the [Ink](https://msdn.microsoft.com/library/Aa515768(v=MSDN.10).aspx) object's ExtendedProperties property.
+In the `SaveISF` method, the first and last name values are added to the [ExtendedProperties](/previous-versions/ms582214(v=vs.100)) property of the [InkCollector](/previous-versions/ms836493(v=msdn.10)) object's [Ink](/previous-versions/ms836505(v=msdn.10)) property, before the ink is serialized and written to the file. After the ink has been serialized, the first and last name values are removed from the [Ink](/previous-versions/aa515768(v=msdn.10)) object's ExtendedProperties property.
 
 
 ```C++
@@ -93,7 +93,7 @@ s.Write(isf,0,isf.Length);
 
 ## Saving to an XML File
 
-In the `SaveXML` method, an [XmlTextWriter](https://msdn.microsoft.com/library/w703ce6s(v=VS.90).aspx) object is used to create and write to an XML document. Using the [Ink](https://msdn.microsoft.com/library/Aa515768(v=MSDN.10).aspx) object's [Save](https://msdn.microsoft.com/library/ms571335(v=VS.90).aspx) method, the ink is first converted to a base64 encoded Ink Serialized Format byte array, and then the byte array is converted to a string to be written out to the XML file. The text data from the form is also written out to the XML file.
+In the `SaveXML` method, an [XmlTextWriter](/dotnet/api/system.xml.xmltextwriter?view=netcore-3.1) object is used to create and write to an XML document. Using the [Ink](/previous-versions/aa515768(v=msdn.10)) object's [Save](/previous-versions/dotnet/netframework-3.5/ms571335(v=vs.90)) method, the ink is first converted to a base64 encoded Ink Serialized Format byte array, and then the byte array is converted to a string to be written out to the XML file. The text data from the form is also written out to the XML file.
 
 
 ```C++
@@ -118,7 +118,7 @@ xwriter.WriteElementString("LastName",LastNameBox.Text);
 
 ## Saving to an HTML File
 
-The SaveHTML method uses the bounding box of the [Strokes](https://msdn.microsoft.com/library/ms827799(v=MSDN.10).aspx) collection to test for the presence of a signature. If the signature exists, it is converted to the fortified GIF format using the ink object's [Save](https://msdn.microsoft.com/library/ms571335(v=VS.90).aspx) method, and written to a file. The GIF is then referenced in the HTML file.
+The SaveHTML method uses the bounding box of the [Strokes](/previous-versions/ms827799(v=msdn.10)) collection to test for the presence of a signature. If the signature exists, it is converted to the fortified GIF format using the ink object's [Save](/previous-versions/dotnet/netframework-3.5/ms571335(v=vs.90)) method, and written to a file. The GIF is then referenced in the HTML file.
 
 
 ```C++
@@ -154,7 +154,7 @@ The `OpenMenu_Click` method handles the Open dialog box, opens the file, and cal
 
 ## Loading an ISF File
 
-The `LoadISF` method reads the previously created file and converts the Byte array to ink with the [Ink](https://msdn.microsoft.com/library/Aa515768(v=MSDN.10).aspx) object's [Load](https://msdn.microsoft.com/library/ms569609(v=VS.90).aspx) method. The ink collector is temporarily disabled to assign the Ink object to it. The `LoadISF` method then checks the Ink object's [ExtendedProperties](https://msdn.microsoft.com/library/ms582214(v=VS.90).aspx) property for the first and last name strings.
+The `LoadISF` method reads the previously created file and converts the Byte array to ink with the [Ink](/previous-versions/aa515768(v=msdn.10)) object's [Load](/previous-versions/ms569609(v=vs.100)) method. The ink collector is temporarily disabled to assign the Ink object to it. The `LoadISF` method then checks the Ink object's [ExtendedProperties](/previous-versions/ms582214(v=vs.100)) property for the first and last name strings.
 
 
 ```C++
@@ -209,7 +209,7 @@ else
 
 ## Loading an XML File
 
-The `LoadXML` method loads a previously created XML file, retrieves data from the Ink node, and converts the data in the node to ink using the [Ink](https://msdn.microsoft.com/library/Aa515768(v=MSDN.10).aspx) object's [Load](https://msdn.microsoft.com/library/ms569609(v=VS.90).aspx) method. The [InkCollector](https://msdn.microsoft.com/library/ms836493(v=MSDN.10).aspx) is temporarily disabled to assign the Ink object to it. The signature box is invalidated, and the first and last name information is retrieved from the XML document.
+The `LoadXML` method loads a previously created XML file, retrieves data from the Ink node, and converts the data in the node to ink using the [Ink](/previous-versions/aa515768(v=msdn.10)) object's [Load](/previous-versions/ms569609(v=vs.100)) method. The [InkCollector](/previous-versions/ms836493(v=msdn.10)) is temporarily disabled to assign the Ink object to it. The signature box is invalidated, and the first and last name information is retrieved from the XML document.
 
 
 ```C++
@@ -266,11 +266,8 @@ else
 
 ## Closing the Form
 
-The form's [Dispose](https://msdn.microsoft.com/library/d305e9bx(v=VS.90).aspx) method disposes the [InkCollector](https://msdn.microsoft.com/library/ms836493(v=MSDN.10).aspx) object.
+The form's [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) method disposes the [InkCollector](/previous-versions/ms836493(v=msdn.10)) object.
 
  
 
  
-
-
-

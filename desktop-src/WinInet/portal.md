@@ -18,7 +18,7 @@ The Microsoft Windows Internet (WinINet) application programming interface (API)
 
 ## Where applicable
 
-WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
+WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
 ## Developer audience
 
@@ -46,14 +46,8 @@ Applications that use the WinINet API require Windows NT 4.0 or later, or Window
 
 <dl> <dt>
 
-[Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page)
+[Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

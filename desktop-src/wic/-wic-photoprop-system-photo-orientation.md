@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.Orientation Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.Orientation](https://msdn.microsoft.com/library/bb760501(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.Orientation](../properties/props-system-photo-meteringmode.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.Orientation](https://msdn.microsoft.com/library/bb760501(VS.85).aspx)
+[System.Photo.Orientation](../properties/props-system-photo-meteringmode.md)
 </dt> </dl>
 
  
 
  
-
-
-

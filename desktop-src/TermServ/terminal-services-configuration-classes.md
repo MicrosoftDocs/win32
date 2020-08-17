@@ -60,7 +60,7 @@ Represents a terminal error.
 [**Win32\_TerminalService**](win32-terminalservice.md)
 </dt> <dd>
 
-a subclass of the [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service) class. [**Win32\_TerminalService**](win32-terminalservice.md) represents the **Element** property of the [**Win32\_TerminalServiceToSetting**](win32-terminalservicetosetting.md) association.
+a subclass of the [**Win32\_Service**](/windows/desktop/CIMWin32Prov/win32-service) class. [**Win32\_TerminalService**](win32-terminalservice.md) represents the **Element** property of the [**Win32\_TerminalServiceToSetting**](win32-terminalservicetosetting.md) association.
 
 </dd> <dt>
 
@@ -204,7 +204,3 @@ The following illustration shows the relationships between these classes.
  
 
  
-
-
-
-

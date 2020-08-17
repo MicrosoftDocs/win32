@@ -101,9 +101,9 @@
       - name: "CommitUrlCacheEntryW"
         href: /windows/desktop/api/Wininet/nf-wininet-commiturlcacheentryw
       - name: "CreateMD5SSOHash"
-        href: https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-createmd5ssohash
+        href: /windows/desktop/api/wininet/nf-wininet-createmd5ssohash
       - name: "CreateUrlCacheContainer"
-        href: https://docs.microsoft.com/windows/desktop/api/winineti/nf-winineti-createurlcachecontainera
+        href: /windows/desktop/api/winineti/nf-winineti-createurlcachecontainera
       - name: "CreateUrlCacheEntry"
         href: /windows/desktop/api/Wininet/nf-wininet-createurlcacheentrya
       - name: "CreateUrlCacheGroup"
@@ -113,7 +113,7 @@
       - name: "DeleteUrlCacheGroup"
         href: /windows/desktop/api/Wininet/nf-wininet-deleteurlcachegroup
       - name: "DetectAutoProxyUrl"
-        href: https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-detectautoproxyurl
+        href: /windows/desktop/api/wininet/nf-wininet-detectautoproxyurl
       - name: "FindCloseUrlCache"
         href: /windows/desktop/api/Wininet/nf-wininet-findcloseurlcache
       - name: "FindFirstUrlCacheEntry"
@@ -187,9 +187,9 @@
       - name: "InternetAttemptConnect"
         href: /windows/desktop/api/Wininet/nf-wininet-internetattemptconnect
       - name: "InternetAutodial"
-        href: https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetautodial
+        href: /windows/desktop/api/wininet/nf-wininet-internetautodial
       - name: "InternetAutodialHangup"
-        href: https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetautodialhangup
+        href: /windows/desktop/api/wininet/nf-wininet-internetautodialhangup
       - name: "InternetCanonicalizeUrl"
         href: /windows/desktop/api/Wininet/nf-wininet-internetcanonicalizeurla
       - name: "InternetCheckConnection"
@@ -209,19 +209,19 @@
       - name: "InternetCreateUrl"
         href: /windows/desktop/api/Wininet/nf-wininet-internetcreateurla
       - name: "InternetDeInitializeAutoProxyDll"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa384580(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa384580(v=vs.85)
       - name: "InternetDial"
-        href: https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetdial
+        href: /windows/desktop/api/wininet/nf-wininet-internetdial
       - name: "InternetEnumPerSiteCookieDecision"
-        href: https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetenumpersitecookiedecisiona
+        href: /windows/desktop/api/wininet/nf-wininet-internetenumpersitecookiedecisiona
       - name: "InternetErrorDlg"
         href: /windows/desktop/api/Wininet/nf-wininet-interneterrordlg
       - name: "InternetFindNextFile"
         href: /windows/desktop/api/Wininet/nf-wininet-internetfindnextfilea
       - name: "InternetGetConnectedState"
-        href: https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetconnectedstate
+        href: /windows/desktop/api/wininet/nf-wininet-internetgetconnectedstate
       - name: "InternetGetConnectedStateEx"
-        href: https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetconnectedstateex
+        href: /windows/desktop/api/wininet/nf-wininet-internetgetconnectedstateex
       - name: "InternetGetCookie"
         href: /windows/desktop/api/Wininet/nf-wininet-internetgetcookiea
       - name: "InternetGetCookieEx"
@@ -233,11 +233,11 @@
       - name: "InternetGetProxyInfo"
         href: internetgetproxyinfo.md
       - name: "InternetGoOnline"
-        href: https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgoonline
+        href: /windows/desktop/api/wininet/nf-wininet-internetgoonline
       - name: "InternetHangUp"
-        href: https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internethangup
+        href: /windows/desktop/api/wininet/nf-wininet-internethangup
       - name: "InternetInitializeAutoProxyDll"
-        href: https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetinitializeautoproxydll
+        href: /windows/desktop/api/wininet/nf-wininet-internetinitializeautoproxydll
       - name: "InternetLockRequestFile"
         href: /windows/desktop/api/Wininet/nf-wininet-internetlockrequestfile
       - name: "InternetOpen"
@@ -279,9 +279,9 @@
       - name: "InternetWriteFile"
         href: /windows/desktop/api/Wininet/nf-wininet-internetwritefile
       - name: "PrivacyGetZonePreferenceW"
-        href: https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-privacygetzonepreferencew
+        href: /windows/desktop/api/wininet/nf-wininet-privacygetzonepreferencew
       - name: "PrivacySetZonePreferenceW"
-        href: https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-privacysetzonepreferencew
+        href: /windows/desktop/api/wininet/nf-wininet-privacysetzonepreferencew
       - name: "ReadUrlCacheEntryStream"
         href: /windows/desktop/api/Wininet/nf-wininet-readurlcacheentrystream
       - name: "ResumeSuspendedDownload"

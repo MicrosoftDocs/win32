@@ -19,13 +19,13 @@ ms.date: 05/31/2018
 
 # IVMFloppyDrive interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Controls a floppy drive within a virtual machine. **IVMFloppyDrive** can notify clients about events using the [**IVMFloppyDriveEvents**](ivmfloppydriveevents.md) outgoing interface. You can retrieve an **IVMFloppyDrive** object from the [**IVMFloppyDriveCollection**](ivmfloppydrivecollection.md) object returned from the [**IVMVirtualMachine::FloppyDrives**](ivmvirtualmachine-floppydrives.md) property.
 
 ## Members
 
-The **IVMFloppyDrive** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMFloppyDrive** also has these types of members:
+The **IVMFloppyDrive** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IVMFloppyDrive** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -80,10 +80,4 @@ The **IVMFloppyDrive** interface has these properties.
 
 
  
-
- 
-
-
-
-
 

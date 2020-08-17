@@ -20,7 +20,7 @@ The MM\_SELECTIVE\_LOOPBACK mode is used to enable multiple applications on one 
 
 ## Members
 
-The **IMulticastControl** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMulticastControl** also has these types of members:
+The **IMulticastControl** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMulticastControl** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -60,9 +60,4 @@ The **IMulticastControl** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # CFrameworkQuery Methods
 
-\[The [**CFrameworkQuery**](/windows/desktop/api/FrQuery/nl-frquery-cframeworkquery) class is part of the WMI Provider Framework and is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**CFrameworkQuery**](/windows/desktop/api/FrQuery/nl-frquery-cframeworkquery) class is part of the WMI Provider Framework and is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The [**CFrameworkQuery**](/windows/desktop/api/FrQuery/nl-frquery-cframeworkquery) class exposes the following methods.
 
@@ -19,13 +19,10 @@ The [**CFrameworkQuery**](/windows/desktop/api/FrQuery/nl-frquery-cframeworkquer
 -   [**GetQuery method**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getquery)
 -   [**GetQueryClassName method**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getqueryclassname)
 -   [**GetRequiredProperties method**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-getrequiredproperties)
--   [**GetValuesForProp methods**](/windows/win32/WmiSdk/cframeworkquery-getvaluesforprop)
+-   [**GetValuesForProp methods**](./cframeworkquery-getvaluesforprop.md)
 -   [**IsPropertyRequired method**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-ispropertyrequired)
 -   [**KeysOnly method**](/windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-keysonly)
 
  
 
  
-
-
-

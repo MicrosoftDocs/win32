@@ -27,7 +27,7 @@ With the increasing availability of 64-bit Windows, users expect input methods, 
 Because IMEs and text services (based on the Text Services Framework) are typically implemented as dynamic-link libraries (DLLs), it is important to note that DLLs are built specifically for use in either 32-bit environments or 64-bit environments; a DLL built for use in 32-bit environments cannot be used by 64-bit applications, and vice versa.
 
 > [!Note]  
-> WOW64 does not mitigate this bit-specific DLL restriction. For information about WOW64, see [Running 32-bit Applications](https://docs.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications).
+> WOW64 does not mitigate this bit-specific DLL restriction. For information about WOW64, see [Running 32-bit Applications](/windows/desktop/WinProg64/running-32-bit-applications).
 
  
 
@@ -35,11 +35,11 @@ This topic discusses important design considerations for developing IMEs and tex
 
 ## 64-Bit Considerations for IMEs
 
-This section describes the special considerations involved with building IMEs for use with 64-bit Windows. For information about IMEs, see [Input Method Editor](https://msdn.microsoft.com/library/ms971336(v=MSDN.10).aspx).
+This section describes the special considerations involved with building IMEs for use with 64-bit Windows. For information about IMEs, see [Input Method Editor](/previous-versions/windows/desktop/dnacc/input-method-editor-and-text-services-framework-accessibility).
 
 ## Building 32-Bit and 64-Bit Versions of an IME
 
-Because of the previously mentioned 32-bit/64-bit compatibility issue with DLLs, some precautions must be taken to ensure that IMEs work transparently with any application (32-bit or 64-bit) running on 64-bit Windows. The recommended solution for enabling your IME to work transparently with both 32-bit and 64-bit applications on a 64-bit platform is to build and install parallel 32-bit and 64-bit versions of the IME DLL. Typically, developers build parallel DLLs from a single source by adjusting the target platform settings in their build environment. For more information about single-sourcing 32-bit and 64-bit applications, see [Getting Ready for 64-bit Windows](https://docs.microsoft.com/windows/desktop/WinProg64/getting-ready-for-64-bit-windows).
+Because of the previously mentioned 32-bit/64-bit compatibility issue with DLLs, some precautions must be taken to ensure that IMEs work transparently with any application (32-bit or 64-bit) running on 64-bit Windows. The recommended solution for enabling your IME to work transparently with both 32-bit and 64-bit applications on a 64-bit platform is to build and install parallel 32-bit and 64-bit versions of the IME DLL. Typically, developers build parallel DLLs from a single source by adjusting the target platform settings in their build environment. For more information about single-sourcing 32-bit and 64-bit applications, see [Getting Ready for 64-bit Windows](/windows/desktop/WinProg64/getting-ready-for-64-bit-windows).
 
 ## Side-by-Side Installation of 64-Bit and 32-Bit Input Method Editors
 
@@ -60,7 +60,7 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layouts
 
 
 
-The [**ImmInstallIME**](https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-imminstallimea) function is used to create this registry key. The setup and installation program for an IME must call this function to register the IME as a supported keyboard layout. The **ImmInstallIME** function should be called only once, either from the 32-bit or 64-bit version of the IME DLL.
+The [**ImmInstallIME**](/windows/desktop/api/imm/nf-imm-imminstallimea) function is used to create this registry key. The setup and installation program for an IME must call this function to register the IME as a supported keyboard layout. The **ImmInstallIME** function should be called only once, either from the 32-bit or 64-bit version of the IME DLL.
 
 ## Mismatched IME DLLs
 
@@ -85,7 +85,7 @@ A text service is implemented as a Component Object Model (COM) object exposed o
 For a 32-bit version and a 64-bit version of a text service to be installed side-by-side and represented to the user as a single, logical text service, the following conditions must be met:
 
 -   Both versions of the text service specify the same class identifier (CLSID) when they are registered with the COM subsystem.
--   Both versions of the text service are registered independently. For more information, see [Registering COM Applications](https://docs.microsoft.com/windows/desktop/com/registering-com-applications).
+-   Both versions of the text service are registered independently. For more information, see [Registering COM Applications](/windows/desktop/com/registering-com-applications).
 
 When a 32-bit text service is registered with 64-bit Windows, the registration operation is transparently redirected to the following registry key:
 
@@ -96,7 +96,7 @@ HKEY_CLASS_ROOT\Wow6432Node\CLSID
 
 
 
-[Registry Redirector](https://docs.microsoft.com/windows/desktop/WinProg64/registry-redirector)
+[Registry Redirector](/windows/desktop/WinProg64/registry-redirector)
 
 
 ```C++
@@ -129,21 +129,21 @@ This section describes requirements for where to install IME and text service bi
 
 On 64-bit Windows platforms, install the 32-bit and 64-bit IME DLLs in the following directories:
 
--   Install 32-bit IME DLLs in the SysWOW64 system directory; call [**GetSystemWow64Directory**](https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directorya), or [**SHGetFolderPath**](https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) with **CSIDL\_SYSTEMX86** to retrieve this directory path. Alternately, if you are using [Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/about-windows-installer), use the [**SystemFolder**](https://docs.microsoft.com/windows/desktop/Msi/systemfolder) property.
--   Install 64-bit IME DLLs in the System32 system directory; call [**GetSystemDirectory**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya), or **SHGetFolderPath** with [CSIDL\_SYSTEM](https://docs.microsoft.com/windows/desktop/shell/csidl) to retrieve this directory path. Or, for Windows Installer, use the [**System64Folder**](https://docs.microsoft.com/windows/desktop/Msi/system64folder) property.
+-   Install 32-bit IME DLLs in the SysWOW64 system directory; call [**GetSystemWow64Directory**](/windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directorya), or [**SHGetFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) with **CSIDL\_SYSTEMX86** to retrieve this directory path. Alternately, if you are using [Windows Installer](/windows/desktop/Msi/about-windows-installer), use the [**SystemFolder**](/windows/desktop/Msi/systemfolder) property.
+-   Install 64-bit IME DLLs in the System32 system directory; call [**GetSystemDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya), or **SHGetFolderPath** with [CSIDL\_SYSTEM](/windows/desktop/shell/csidl) to retrieve this directory path. Or, for Windows Installer, use the [**System64Folder**](/windows/desktop/Msi/system64folder) property.
 
 **Text Service DLLs and Related Binary Files**
 
 On 64-bit Windows platforms, install the 32-bit and 64-bit text service DLLs, as well as any other binary files related to your text service or IME, in the following directories:
 
--   Install 32-bit text service DLLs and any other 32-bit binary files in a subdirectory in the Program Files (x86) directory; call **SHGetFolderPath** with **CSIDL\_PROGRAM\_FILESX86** to retrieve this directory path. Or, for Windows Installer, use the [**ProgramFilesFolder**](https://docs.microsoft.com/windows/desktop/Msi/programfilesfolder) property.
--   Install 64-bit text service DLLs and any other 64-bit binary files in a subdirectory under the Program Files directory; call **SHGetFolderPath** with **CSIDL\_PROGRAM\_FILES** to retrieve this directory path. Or, for Windows Installer, use the [**ProgramFiles64Folder**](https://docs.microsoft.com/windows/desktop/Msi/programfiles64folder) property.
+-   Install 32-bit text service DLLs and any other 32-bit binary files in a subdirectory in the Program Files (x86) directory; call **SHGetFolderPath** with **CSIDL\_PROGRAM\_FILESX86** to retrieve this directory path. Or, for Windows Installer, use the [**ProgramFilesFolder**](/windows/desktop/Msi/programfilesfolder) property.
+-   Install 64-bit text service DLLs and any other 64-bit binary files in a subdirectory under the Program Files directory; call **SHGetFolderPath** with **CSIDL\_PROGRAM\_FILES** to retrieve this directory path. Or, for Windows Installer, use the [**ProgramFiles64Folder**](/windows/desktop/Msi/programfiles64folder) property.
 
-If you are not using a Windows Installer package to install your IME or text service, it is strongly recommnded that you use a 64-bit installation application. The WOW64 file system redirector might cause 32-bit installers to place files in the wrong directories (for example, WOW64 file system redirection might cause files intended for the System32 directory to be installed in the SysWOW64 directory instead). If you must use a 32-bit installer, disable WOW64 file redirection during the installation process to ensure that the file-redirector service does not cause any unintended redirection during the installation process. For information about the WOW64 file system redirector, see [File System Redirector](https://docs.microsoft.com/windows/desktop/WinProg64/file-system-redirector). For information about how to disable or enable WOW64 file system redirection, see [**Wow64EnableWow64FsRedirection**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection).
+If you are not using a Windows Installer package to install your IME or text service, it is strongly recommnded that you use a 64-bit installation application. The WOW64 file system redirector might cause 32-bit installers to place files in the wrong directories (for example, WOW64 file system redirection might cause files intended for the System32 directory to be installed in the SysWOW64 directory instead). If you must use a 32-bit installer, disable WOW64 file redirection during the installation process to ensure that the file-redirector service does not cause any unintended redirection during the installation process. For information about the WOW64 file system redirector, see [File System Redirector](/windows/desktop/WinProg64/file-system-redirector). For information about how to disable or enable WOW64 file system redirection, see [**Wow64EnableWow64FsRedirection**](/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection).
 
 > [!TIP]
 >
-> Avoid hard-coded installation paths. For more information, see [Locate Directories Using the Application Programming Interface Not Hard-Coded Paths](https://msdn.microsoft.com/library/ms675638(v=VS.85).aspx)
+> Avoid hard-coded installation paths. For more information, see [Locate Directories Using the Application Programming Interface Not Hard-Coded Paths](/previous-versions//ms675638(v=vs.85))
 
  
 
@@ -173,7 +173,3 @@ There may be circumstances where some settings might be available only through t
  
 
  
-
-
-
-

@@ -20,7 +20,7 @@ WinINet implements IPv6 literals according to the specifications in RFC 3513. As
 
 The IPv6 literal address in the URI may include a scope ID. A scope ID can be an interface ID such as \[FE80::1%1\]. The URI standard, documented in RFC 3986, does not define the syntax for the scope ID, and the URI is considered non-uniform when the scope ID is present. However, WinINet accepts a scope ID in the authority component of the URI, and in the hostname IPv6 literal.
 
-The percent character (%) in the IPv6 literal address must be percent escaped when present in the URI. For example, the scope ID FE80::2%3, must appear in the URI as "https://\[FE80::2%253\]/", where %25 is the hex encoded percent character (%). If the application retrieves the URI from a Unicode API, such as the Winsock [**WSAAddressToString**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaaddresstostringa) API, the application must add the escaped version of the percent character (%) in the hostname of the URI. To create the escaped version of the URI, applications call [**InternetCreateUrl**](/windows/desktop/api/Wininet/nf-wininet-internetcreateurla) with the *dwFlags* parameter set to **ICU\_ESCAPE\_AUTHORITY**, and the IPv6 hostname specified in the URL components structure specified in the *lpUrlComponents* parameter.
+The percent character (%) in the IPv6 literal address must be percent escaped when present in the URI. For example, the scope ID FE80::2%3, must appear in the URI as "https://\[FE80::2%253\]/", where %25 is the hex encoded percent character (%). If the application retrieves the URI from a Unicode API, such as the Winsock [**WSAAddressToString**](/windows/desktop/api/winsock2/nf-winsock2-wsaaddresstostringa) API, the application must add the escaped version of the percent character (%) in the hostname of the URI. To create the escaped version of the URI, applications call [**InternetCreateUrl**](/windows/desktop/api/Wininet/nf-wininet-internetcreateurla) with the *dwFlags* parameter set to **ICU\_ESCAPE\_AUTHORITY**, and the IPv6 hostname specified in the URL components structure specified in the *lpUrlComponents* parameter.
 
 For all sockets operations, WinINet uses the scope ID. However, because the scope ID has only local host significance, it is not sent as part of the HTTP protocol headers in the request. For example, the call to [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) is called with the following URL in the *lpszUrl* parameter.
 
@@ -36,14 +36,10 @@ Host: [fec0::2]
 ```
 
 > [!Note]  
-> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 
  
 
  
-
-
-
-

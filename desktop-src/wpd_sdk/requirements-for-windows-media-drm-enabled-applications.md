@@ -103,18 +103,15 @@ The same pre-requisite with the application private key and certificate applies 
 
 The above method to acquire the **IWMDRMDeviceApp** interface from the **IStream** pointer is just a convenience if your application is already doing a prior protected content transfer, before proceeding on to do metering and license synchronization operations.
 
-Our recommendation for most applications that need to access **IWMDRMDeviceApp** is to initialize **IWMDRMDeviceApp** directly as this does not require your application to transfer protected content or hold on to the transfer interfaces in order to do device metering and license sync. This method will require usage of Windows Media Device Manager (WMDM) APIs. For details and sample code, refer to the [Accessing WMDRM APIs from a WPD Application](https://msdn.microsoft.com/library/windows/hardware/gg463202.aspx) whitepaper on the WHDC site.
+Our recommendation for most applications that need to access **IWMDRMDeviceApp** is to initialize **IWMDRMDeviceApp** directly as this does not require your application to transfer protected content or hold on to the transfer interfaces in order to do device metering and license sync. This method will require usage of Windows Media Device Manager (WMDM) APIs. For details and sample code, refer to the [Accessing WMDRM APIs from a WPD Application](../windows-portable-devices.md) whitepaper on the WHDC site.
 
 ## Related topics
 
 <dl> <dt>
 
-[**Windows Portable Devices**](https://docs.microsoft.com/windows/desktop/windows-portable-devices)
+[**Windows Portable Devices**](/windows/desktop/windows-portable-devices)
 </dt> </dl>
 
  
 
  
-
-
-

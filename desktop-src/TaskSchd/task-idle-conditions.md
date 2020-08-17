@@ -41,7 +41,7 @@ A task can be started when the computer enters an idle state by defining an idle
 
 An idle trigger will only trigger a task action if the computer enters an idle state after the start boundary of the trigger.
 
-An application can define an idle trigger by using the [**IIdleTrigger**](https://msdn.microsoft.com/library/Aa380724(v=VS.85).aspx) interface.
+An application can define an idle trigger by using the [**IIdleTrigger**](/windows/win32/api/taskschd/nn-taskschd-iidletrigger) interface.
 
 If reading or writing XML, the idle trigger is specified by the [**IdleTrigger**](taskschedulerschema-idletrigger-triggergroup-element.md) element of the Task Scheduler schema.
 
@@ -49,7 +49,7 @@ If reading or writing XML, the idle trigger is specified by the [**IdleTrigger**
 
 The task settings can be used to define how the Task Scheduler handles the task when the computer enters an idle state.
 
-The following illustrations provide three possible timelines that show how these different idle conditions relate to each other. Be aware that the illustrations start when the task trigger is activated or when the task is started on demand (without requesting to [ignore the existing task constraints](https://msdn.microsoft.com/library/aa383574(VS.85).aspx)).
+The following illustrations provide three possible timelines that show how these different idle conditions relate to each other. Be aware that the illustrations start when the task trigger is activated or when the task is started on demand (without requesting to [ignore the existing task constraints](/windows/win32/api/taskschd/ne-taskschd-task_run_flags)).
 
 ![idle condition timeline](images/idle-conditions2.png)
 
@@ -66,7 +66,7 @@ By default, a task [**DisallowStartIfOnBatteries**](/windows/desktop/api/tasksch
 
 If a task is triggered by an idle trigger, then the [**WaitTimeout**](/windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_waittimeout) property of the [**IIdleSettings**](/windows/desktop/api/taskschd/nn-taskschd-iidlesettings) interface ([**IdleSettings**](idlesettings.md) for scripting) is ignored.
 
-Applications can control the idle conditions by setting the properties in the [**IIdleSettings**](/windows/desktop/api/taskschd/nn-taskschd-iidlesettings) and [**IIdleTrigger**](https://msdn.microsoft.com/library/Aa380724(v=VS.85).aspx) interfaces.
+Applications can control the idle conditions by setting the properties in the [**IIdleSettings**](/windows/desktop/api/taskschd/nn-taskschd-iidlesettings) and [**IIdleTrigger**](/windows/win32/api/taskschd/nn-taskschd-iidletrigger) interfaces.
 
 If reading or writing XML, these conditions are specified in the [**Settings**](taskschedulerschema-settings-tasktype-element.md) element of the Task Scheduler schema.
 
@@ -80,7 +80,3 @@ If the computer is cycling in and out of the idle state, you can terminate and r
  
 
  
-
-
-
-

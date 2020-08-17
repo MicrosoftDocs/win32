@@ -176,14 +176,8 @@ This section of code shows the **DropDownButton** control declarations.
 [Drop-Down Button control](windowsribbon-controls-dropdownbutton.md)
 </dt> <dt>
 
-[**SetModes**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes)
+[**SetModes**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

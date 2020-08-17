@@ -44,21 +44,15 @@ When a 32-bit process is created by a 64-bit process, or when a 64-bit process i
 
 ## Global Hooks
 
-The [**SetWindowsHookEx**](https://msdn.microsoft.com/library/ms644990(v=VS.85).aspx) function can be used to inject a DLL into another process if the following conditions are met:
+The [**SetWindowsHookEx**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa) function can be used to inject a DLL into another process if the following conditions are met:
 
 -   A 32-bit DLL can be injected only into a 32-bit process, and a 64-bit DLL can be injected only into a 64-bit process. It is not possible to inject a 32-bit DLL into a 64-bit process or vice versa.
 -   The 32-bit and 64-bit DLLs must have different names.
 -   The architectures of the DLL and the process must match. For instance, you cannot inject a 32-bit x86 DLL into a 32-bit ARM process.
 
-For more information, see [**SetWindowsHookEx**](https://msdn.microsoft.com/library/ms644990(v=VS.85).aspx).
+For more information, see [**SetWindowsHookEx**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa).
 
-Be aware that the **WH\_MOUSE**, **WH\_KEYBOARD**, **WH\_JOURNAL\***, **WH\_SHELL**, and low-level hooks can be called on the thread that installed the hook rather than the thread processing the hook. For these hooks, it is possible that both the 32-bit and 64-bit hooks will be called if a 32-bit hook is ahead of a 64-bit hook in the hook chain. For more information, see [Using Hooks](https://msdn.microsoft.com/library/ms644960(v=VS.85).aspx).
-
- 
+Be aware that the **WH\_MOUSE**, **WH\_KEYBOARD**, **WH\_JOURNAL\***, **WH\_SHELL**, and low-level hooks can be called on the thread that installed the hook rather than the thread processing the hook. For these hooks, it is possible that both the 32-bit and 64-bit hooks will be called if a 32-bit hook is ahead of a 64-bit hook in the hook chain. For more information, see [Using Hooks](../winmsg/using-hooks.md).
 
  
-
-
-
-
 

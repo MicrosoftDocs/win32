@@ -209,14 +209,8 @@ This section of code shows the **Tab** control declarations.
 [Tab Group control](windowsribbon-controls-tabgroup.md)
 </dt> <dt>
 
-[**SetModes**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes)
+[**SetModes**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

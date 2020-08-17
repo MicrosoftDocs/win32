@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMTask::PercentCompleted property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves the completion percentage of the task.
 
@@ -77,10 +77,4 @@ The current completion percentage. The value is a number between 0 and 100.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

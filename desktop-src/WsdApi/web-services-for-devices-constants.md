@@ -14,9 +14,9 @@ The following constants are used by Web Services on Devices.
 
 | Constant                                                                                                                                                                                                                        | Description                                                                                                                                                                                      |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="WSD_DEFAULT_HOSTING_ADDRESS"></span><span id="wsd_default_hosting_address"></span><dl> <dt>**WSD\_DEFAULT\_HOSTING\_ADDRESS**</dt> </dl>                       | The default address (in [UrlPrefix](https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings) format) that a WSDAPI host will use to listen for requests on port 5357. <br/>                                                 |
-| <span id="WSD_DEFAULT_SECURE_HOSTING_ADDRESS"></span><span id="wsd_default_secure_hosting_address"></span><dl> <dt>**WSD\_DEFAULT\_SECURE\_HOSTING\_ADDRESS**</dt> </dl> | The default secure address (in [UrlPrefix](https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings) format) that a WSDAPI host will use to listen for requests on port 5358. <br/>                                          |
-| <span id="WSD_DEFAULT_EVENTING_ADDRESS__"></span><span id="wsd_default_eventing_address__"></span><dl> <dt>**WSD\_DEFAULT\_EVENTING\_ADDRESS** </dt> </dl>               | The default address (in [UrlPrefix](https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings) format) that a WSDAPI host will use to listen for events on port 5358 for secure hosts and on port 5357 for other hosts. <br/> |
+| <span id="WSD_DEFAULT_HOSTING_ADDRESS"></span><span id="wsd_default_hosting_address"></span><dl> <dt>**WSD\_DEFAULT\_HOSTING\_ADDRESS**</dt> </dl>                       | The default address (in [UrlPrefix](/windows/desktop/Http/urlprefix-strings) format) that a WSDAPI host will use to listen for requests on port 5357. <br/>                                                 |
+| <span id="WSD_DEFAULT_SECURE_HOSTING_ADDRESS"></span><span id="wsd_default_secure_hosting_address"></span><dl> <dt>**WSD\_DEFAULT\_SECURE\_HOSTING\_ADDRESS**</dt> </dl> | The default secure address (in [UrlPrefix](/windows/desktop/Http/urlprefix-strings) format) that a WSDAPI host will use to listen for requests on port 5358. <br/>                                          |
+| <span id="WSD_DEFAULT_EVENTING_ADDRESS__"></span><span id="wsd_default_eventing_address__"></span><dl> <dt>**WSD\_DEFAULT\_EVENTING\_ADDRESS** </dt> </dl>               | The default address (in [UrlPrefix](/windows/desktop/Http/urlprefix-strings) format) that a WSDAPI host will use to listen for events on port 5358 for secure hosts and on port 5357 for other hosts. <br/> |
 
 
 
@@ -33,9 +33,4 @@ The following constants are used by Web Services on Devices.
 
 
  
-
- 
-
-
-
 

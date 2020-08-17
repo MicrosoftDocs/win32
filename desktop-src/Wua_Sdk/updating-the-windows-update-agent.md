@@ -24,18 +24,15 @@ A user can manually update WUA to a current version by opening the Windows Updat
 
 **To programmatically update WUA on versions of Windows prior to Windows 7 and Windows Server 2008 R2**
 
-1.  Use the [WinHTTP](https://msdn.microsoft.com/library/Aa384273(v=VS.85).aspx) APIs to download [Wuredist.cab](http://update.microsoft.com/redist/wuredist.cab).
-2.  Use the [Cryptography Functions](https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx) to verify that the downloaded copy of [Wuredist.cab](http://update.microsoft.com/redist/wuredist.cab) has a digital signature from Microsoft. If you can't verify the digital signature, stop.
-3.  Use the [File Decompression Interface](https://msdn.microsoft.com/library/Ff797921(v=VS.85).aspx) APIs to extract the XML file from [Wuredist.cab](http://update.microsoft.com/redist/wuredist.cab).
-4.  Use the Microsoft XML Core Services ([MSXML](https://msdn.microsoft.com/library/ms763742(v=VS.85).aspx)) APIs to load the XML file and locate the WURedist/StandaloneRedist/architecture node for the computer's architecture. For example, for x86, locate the WURedist/StandaloneRedist/architecture node with the **name** attribute of x86.
+1.  Use the [WinHTTP](../winhttp/winhttp-start-page.md) APIs to download [Wuredist.cab](http://update.microsoft.com/redist/wuredist.cab).
+2.  Use the [Cryptography Functions](../seccrypto/cryptography-functions.md) to verify that the downloaded copy of [Wuredist.cab](http://update.microsoft.com/redist/wuredist.cab) has a digital signature from Microsoft. If you can't verify the digital signature, stop.
+3.  Use the [File Decompression Interface](../devnotes/cabinet-api-functions.md) APIs to extract the XML file from [Wuredist.cab](http://update.microsoft.com/redist/wuredist.cab).
+4.  Use the Microsoft XML Core Services ([MSXML](/previous-versions/windows/desktop/ms763742(v=vs.85))) APIs to load the XML file and locate the WURedist/StandaloneRedist/architecture node for the computer's architecture. For example, for x86, locate the WURedist/StandaloneRedist/architecture node with the **name** attribute of x86.
 5.  Call [**IWindowsUpdateAgentInfo::GetInfo**](/windows/desktop/api/Wuapi/nf-wuapi-iwindowsupdateagentinfo-getinfo) to determine the current version of WUA. If **IWindowsUpdateAgentInfo::GetInfo** returns a version number that is at least as high as the **clientVersion** attribute in the architecture node you located, stop.
-6.  Use the [MSXML](https://msdn.microsoft.com/library/ms763742(v=VS.85).aspx) APIs to read the **downloadUrl** attribute from the architecture node that you located. **downloadUrl** gives you the download URL for the appropriate WUA installer for the computer's architecture.
-7.  Use the [WinHTTP](https://msdn.microsoft.com/library/Aa384273(v=VS.85).aspx) APIs to download the appropriate installer.
-8.  Use the [**CreateProcess**](https://msdn.microsoft.com/library/ms682425(v=VS.85).aspx) function or a similar API to execute the downloaded installer.
+6.  Use the [MSXML](/previous-versions/windows/desktop/ms763742(v=vs.85)) APIs to read the **downloadUrl** attribute from the architecture node that you located. **downloadUrl** gives you the download URL for the appropriate WUA installer for the computer's architecture.
+7.  Use the [WinHTTP](../winhttp/winhttp-start-page.md) APIs to download the appropriate installer.
+8.  Use the [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) function or a similar API to execute the downloaded installer.
 
  
 
  
-
-
-

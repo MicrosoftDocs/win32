@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 Provides access to the nonscriptable properties of a client's remote session on the Remote Desktop ActiveX control. Derives from the [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md) interface. Methods of this interface can only be accessed through the vtable; they are not available for use to scriptable clients.
 
-An instance of this interface is obtained by calling [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on the [**IMsTscAx**](imstscax-interface.md) object, passing **IID\_IMsRdpClientNonScriptable5**.
+An instance of this interface is obtained by calling [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on the [**IMsTscAx**](imstscax-interface.md) object, passing **IID\_IMsRdpClientNonScriptable5**.
 
 ## Members
 
@@ -74,10 +74,4 @@ The **IMsRdpClientNonScriptable5** interface has these properties.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

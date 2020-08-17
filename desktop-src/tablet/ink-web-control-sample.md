@@ -16,7 +16,7 @@ For more information about using ink on the Web, see [Ink on the Web](ink-on-the
 
 This sample consists of a solution that includes two projects and an HTML file. The first project, AutoClaims, is a Microsoft Visual C\# Control Library project (a User Control). The source code for this control is almost identical to that of the AutoClaims sample with two differences:
 
--   The `AutoClaims` class in this sample inherits from the [UserControl](https://msdn.microsoft.com/library/97855yck(v=VS.90).aspx) class rather than the [Form](https://msdn.microsoft.com/library/w4bcxb43(v=VS.90).aspx) class.
+-   The `AutoClaims` class in this sample inherits from the [UserControl](/dotnet/api/system.windows.forms.usercontrol?view=netcore-3.1) class rather than the [Form](/dotnet/api/system.windows.forms.form?view=netcore-3.1) class.
 
     ```C++
     public class AutoClaims : System.Windows.Forms.UserControl 
@@ -80,6 +80,3 @@ The AutoClaims\_WebControl project is a Deployment Project that creates a setup 
  
 
  
-
-
-

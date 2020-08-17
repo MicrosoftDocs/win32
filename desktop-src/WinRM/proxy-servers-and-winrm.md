@@ -69,14 +69,10 @@ Using encryption would mitigate these potential security issues.
 
 ## Configuring a Proxy Server for WinRM 1.1 and Earlier
 
-If a proxy is required to reach the WinRM server, the WinRM client relies on the Windows HTTP services (WinHTTP) proxy configuration. By default, WinHTTP is not configured to use a proxy server. WinHTTP proxy configuration can be changed by using the [ProxyCfg.exe](https://msdn.microsoft.com/library/ms761351.aspx) or [netsh](https://technet.microsoft.com/library/cc785383.aspx) command-line utilities.
+If a proxy is required to reach the WinRM server, the WinRM client relies on the Windows HTTP services (WinHTTP) proxy configuration. By default, WinHTTP is not configured to use a proxy server. WinHTTP proxy configuration can be changed by using the [ProxyCfg.exe](/previous-versions/windows/desktop/ms761351(v=vs.85)) or [netsh](/previous-versions/windows/it-pro/windows-server-2003/cc785383(v=ws.10)) command-line utilities.
 
 **WinRM 1.1 and Earlier:** WinRM does not use the Internet Explorer proxy settings.
 
  
 
  
-
-
-
-

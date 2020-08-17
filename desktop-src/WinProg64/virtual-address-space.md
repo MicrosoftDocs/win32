@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Virtual Address Space
 
-By default, 64-bit Microsoft Windows-based applications have a user-mode address space of several terabytes. For precise values, see [Memory Limits for Windows and Windows Server Releases](https://docs.microsoft.com/windows/desktop/Memory/memory-limits-for-windows-releases). However, applications can specify that the system should allocate all memory for the application below 2 gigabytes. This feature is beneficial for 64-bit applications if the following conditions are true:
+By default, 64-bit Microsoft Windows-based applications have a user-mode address space of several terabytes. For precise values, see [Memory Limits for Windows and Windows Server Releases](/windows/desktop/Memory/memory-limits-for-windows-releases). However, applications can specify that the system should allocate all memory for the application below 2 gigabytes. This feature is beneficial for 64-bit applications if the following conditions are true:
 
 -   A 2 GB address space is sufficient.
 -   The code has many pointer truncation warnings.
@@ -25,7 +25,3 @@ To specify this memory limitation, use the **/LARGEADDRESSAWARE:NO** linker opti
  
 
  
-
-
-
-

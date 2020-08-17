@@ -14,7 +14,7 @@ Some of these features use new rendering and scripting engines, which are the co
 
 Internet Explorer 8 includes some backward compatibility, but there are some changes (including support for web standards support and security features) that might require you to upgrade web applications that are built for Microsoft Internet Explorer 6 or previous versions.
 
-For more information about how to test and address compatibility issues for Internet Explorer 8, see [Addressing Application Compatibility When Migrating to Internet Explorer 8 – Information for Information Technology Professionals](https://technet.microsoft.com/library/ff955640(WS.10).aspx).
+For more information about how to test and address compatibility issues for Internet Explorer 8, see [Addressing Application Compatibility When Migrating to Internet Explorer 8 – Information for Information Technology Professionals](/previous-versions/windows/it-pro/windows-7/ff955640(v=ws.10)).
 
 ## Related topics
 
@@ -26,6 +26,3 @@ For more information about how to test and address compatibility issues for Inte
  
 
  
-
-
-

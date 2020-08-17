@@ -13,12 +13,8 @@ Multiple users can be logged on simultaneously to a Remote Desktop Session Host 
 
 Applications that use the computer name or IP address for licensing or as a means of identifying an iteration of the application on the network will not work properly in a Remote Desktop Services environment, because the server's computer name or IP address can be associated with many users.
 
-In a Remote Desktop Services environment, each client terminal or terminal emulator has a separate IP address and computer name. To retrieve the IP address and computer name of a client, call the [**WTSQuerySessionInformation**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsquerysessioninformationa) function. Other functions that retrieve these network addresses and computer names retrieve the name and address of the RD Session Host server. For example, the [**GetComputerNameEx**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa) function returns the computer name of the server.
+In a Remote Desktop Services environment, each client terminal or terminal emulator has a separate IP address and computer name. To retrieve the IP address and computer name of a client, call the [**WTSQuerySessionInformation**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsquerysessioninformationa) function. Other functions that retrieve these network addresses and computer names retrieve the name and address of the RD Session Host server. For example, the [**GetComputerNameEx**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa) function returns the computer name of the server.
 
  
 
  
-
-
-
-

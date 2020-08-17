@@ -16,7 +16,7 @@ The following procedure describes how to edit a task using its property pages.
 
 **To edit a task using its property pages**
 
-1.  Call [**CoInitialize**](https://msdn.microsoft.com/library/ms678543(v=VS.85).aspx) to initialize the COM library and [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) to get a Task Scheduler object. (These examples assume that the Task Scheduler service is running.)
+1.  Call [**CoInitialize**](/windows/win32/api/objbase/nf-objbase-coinitialize) to initialize the COM library and [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) to get a Task Scheduler object. (These examples assume that the Task Scheduler service is running.)
 2.  Call [**ITaskScheduler::Activate**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-activate) to get the [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) interface of the task object. (Note that tasks are currently the only valid type of work item.)
 3.  Call [**IScheduledWorkItem::EditWorkItem**](/windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-editworkitem) to display the property pages for the task.
 4.  Edit the properties of the task as needed, then click OK to accept the new values and remove the displayed property pages.
@@ -41,7 +41,3 @@ The following procedure describes how to edit a task using its property pages.
  
 
  
-
-
-
-

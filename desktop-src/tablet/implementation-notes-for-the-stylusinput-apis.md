@@ -8,13 +8,10 @@ ms.date: 05/31/2018
 
 # Implementation Notes for the StylusInput APIs
 
-The [**RealTimeStylus**](realtimestylus-class.md), [GestureRecognizer](https://msdn.microsoft.com/library/ms575185(v=VS.90).aspx), and [DynamicRenderer](https://msdn.microsoft.com/library/ms575176(v=VS.90).aspx) classes are implemented as COM wrappers and are available only in managed code.
+The [**RealTimeStylus**](realtimestylus-class.md), [GestureRecognizer](/previous-versions/ms575185(v=vs.100)), and [DynamicRenderer](/previous-versions/ms575176(v=vs.100)) classes are implemented as COM wrappers and are available only in managed code.
 
-When the [**RealTimeStylus**](realtimestylus-class.md), [GestureRecognizer](https://msdn.microsoft.com/library/ms575185(v=VS.90).aspx), or [DynamicRenderer](https://msdn.microsoft.com/library/ms575176(v=VS.90).aspx) object is added as a plug-in to a **RealTimeStylus** object, the underlying COM objects interact on the COM level. Therefore, directly calling the methods of the [IStylusSyncPlugin](https://msdn.microsoft.com/library/ms575201(v=VS.90).aspx) or [IStylusAsyncPlugin](https://msdn.microsoft.com/library/ms575194(v=VS.90).aspx) interfaces are not supported. Adding the **RealTimeStylus**, GestureRecognizer, or DynamicRenderer object to the **RealTimeStylus** object is the only way to access these features.
-
- 
+When the [**RealTimeStylus**](realtimestylus-class.md), [GestureRecognizer](/previous-versions/ms575185(v=vs.100)), or [DynamicRenderer](/previous-versions/ms575176(v=vs.100)) object is added as a plug-in to a **RealTimeStylus** object, the underlying COM objects interact on the COM level. Therefore, directly calling the methods of the [IStylusSyncPlugin](/previous-versions/ms575201(v=vs.100)) or [IStylusAsyncPlugin](/previous-versions/ms575194(v=vs.100)) interfaces are not supported. Adding the **RealTimeStylus**, GestureRecognizer, or DynamicRenderer object to the **RealTimeStylus** object is the only way to access these features.
 
  
 
-
-
+ 

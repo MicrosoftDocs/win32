@@ -15,7 +15,7 @@ The Terminal Services Session Directory (TS  Session Directory) role service al
 
 In Windows Server 2008, the TS Session Directory role service was expanded and renamed Terminal Services Session Broker (TS Session Broker). In addition to maintaining a directory of existing sessions, TS Session Broker can also broker incoming connections. When TS Session Broker receives an incoming connection from a user, it checks its database to determine whether the user has an existing session on a terminal server. If so, TS Session Broker redirects the connection to that same terminal server. If not, TS Session Broker determines which terminal server has the fewest connections and redirects the connection to that server.
 
-Beginning with Windows Server 2008, Microsoft also released a public application programming interface (API) for monitoring and interacting with sessions on terminal servers. This API is described in [Remote Desktop Connection Broker Plug-in Reference](https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-virtualization-api-reference). Using this API, developers can create custom policy plug-ins that override the standard redirection logic of TS Session Broker. The custom plug-ins can redirect sessions to terminal servers, as well as virtual machines, virtual desktops, blade servers, and physical desktops.
+Beginning with Windows Server 2008, Microsoft also released a public application programming interface (API) for monitoring and interacting with sessions on terminal servers. This API is described in [Remote Desktop Connection Broker Plug-in Reference](/windows/desktop/TermServ/terminal-services-virtualization-api-reference). Using this API, developers can create custom policy plug-ins that override the standard redirection logic of TS Session Broker. The custom plug-ins can redirect sessions to terminal servers, as well as virtual machines, virtual desktops, blade servers, and physical desktops.
 
 In Windows Server 2008 R2, the architecture of Remote Desktop Connection Broker (RD Connection Broker) (formerly known as TS Session Broker) was expanded to support connections to virtual machines. The new architecture supports session management for virtual machines through the Remote Desktop Virtualization API. Developers can use this API to customize the logic that RD Connection Broker uses to determine the best destination for an incoming client connection.
 
@@ -34,13 +34,9 @@ Remote Desktop Virtualization API offers several benefits to developers:
 [Remote Desktop Virtualization API Reference](terminal-services-virtualization-api-reference.md)
 </dt> <dt>
 
-[Remote Desktop Connection Broker Plug-in Reference](https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-virtualization-api-reference)
+[Remote Desktop Connection Broker Plug-in Reference](/windows/desktop/TermServ/terminal-services-virtualization-api-reference)
 </dt> </dl>
 
  
 
  
-
-
-
-

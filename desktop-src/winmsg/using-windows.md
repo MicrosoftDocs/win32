@@ -17,9 +17,9 @@ The examples in this section describe how to perform the following tasks:
 
 ## Creating a Main Window
 
-The first window an application creates is typically the main window. You create the main window by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function, specifying the window class, window name, window styles, size, position, menu handle, instance handle, and creation data. A main window belongs to an application-defined window class, so you must register the window class and provide a window procedure for the class before creating the main window.
+The first window an application creates is typically the main window. You create the main window by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function, specifying the window class, window name, window styles, size, position, menu handle, instance handle, and creation data. A main window belongs to an application-defined window class, so you must register the window class and provide a window procedure for the class before creating the main window.
 
-Most applications typically use the [**WS\_OVERLAPPEDWINDOW**](window-styles.md) style to create the main window. This style gives the window a title bar, a window menu, a sizing border, and minimize and maximize buttons. The [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function returns a handle that uniquely identifies the window.
+Most applications typically use the [**WS\_OVERLAPPEDWINDOW**](window-styles.md) style to create the main window. This style gives the window a title bar, a window menu, a sizing border, and minimize and maximize buttons. The [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function returns a handle that uniquely identifies the window.
 
 The following example creates a main window belonging to an application-defined window class. The window name, **Main Window**, will appear in the window's title bar. By combining the [**WS\_VSCROLL**](window-styles.md) and **WS\_HSCROLL** styles with the **WS\_OVERLAPPEDWINDOW** style, the application creates a main window with horizontal and vertical scroll bars in addition to the components provided by the **WS\_OVERLAPPEDWINDOW** style. The four occurrences of the **CW\_USEDEFAULT** constant set the initial size and position of the window to the system-defined default values. By specifying **NULL** instead of a menu handle, the window will have the menu defined for the window class.
 
@@ -59,15 +59,15 @@ UpdateWindow(hwndMain);
 
 
 
-Notice that the preceding example calls the [**ShowWindow**](https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx) function after creating the main window. This is done because the system does not automatically display the main window after creating it. By passing the **SW\_SHOWDEFAULT** flag to **ShowWindow**, the application allows the program that started the application to set the initial show state of the main window. The [**UpdateWindow**](https://msdn.microsoft.com/library/Dd145167(v=VS.85).aspx) function sends the window its first [**WM\_PAINT**](https://msdn.microsoft.com/library/Dd145213(v=VS.85).aspx) message.
+Notice that the preceding example calls the [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow) function after creating the main window. This is done because the system does not automatically display the main window after creating it. By passing the **SW\_SHOWDEFAULT** flag to **ShowWindow**, the application allows the program that started the application to set the initial show state of the main window. The [**UpdateWindow**](/windows/win32/api/winuser/nf-winuser-updatewindow) function sends the window its first [**WM\_PAINT**](../gdi/wm-paint.md) message.
 
 ## Creating, Enumerating, and Sizing Child Windows
 
-You can divide a window's client area into different functional areas by using child windows. Creating a child window is like creating a main window—you use the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. To create a window of an application-defined window class, you must register the window class and provide a window procedure before creating the child window. You must give the child window the [**WS\_CHILD**](window-styles.md) style and specify a parent window for the child window when you create it.
+You can divide a window's client area into different functional areas by using child windows. Creating a child window is like creating a main window—you use the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. To create a window of an application-defined window class, you must register the window class and provide a window procedure before creating the child window. You must give the child window the [**WS\_CHILD**](window-styles.md) style and specify a parent window for the child window when you create it.
 
 The following example divides the client area of an application's main window into three functional areas by creating three child windows of equal size. Each child window is the same height as the main window's client area, but each is one-third its width. The main window creates the child windows in response to the [**WM\_CREATE**](wm-create.md) message, which the main window receives during its own window-creation process. Because each child window has the [**WS\_BORDER**](window-styles.md) style, each has a thin line border. Also, because the **WS\_VISIBLE** style is not specified, each child window is initially hidden. Notice also that each child window is assigned a child-window identifier.
 
-The main window sizes and positions the child windows in response to the [**WM\_SIZE**](wm-size.md) message, which the main window receives when its size changes. In response to **WM\_SIZE**, the main window retrieves the dimensions of its client area by using the [**GetClientRect**](https://msdn.microsoft.com/library/ms633503(v=VS.85).aspx) function and then passes the dimensions to the [**EnumChildWindows**](https://msdn.microsoft.com/library/ms633494(v=VS.85).aspx) function. **EnumChildWindows** passes the handle to each child window, in turn, to the application-defined [**EnumChildProc**](https://msdn.microsoft.com/library/ms633493(v=VS.85).aspx) callback function. This function sizes and positions each child window by calling the [**MoveWindow**](https://msdn.microsoft.com/library/ms633534(v=VS.85).aspx) function; the size and position are based on the dimensions of the main window's client area and the identifier of the child window. Afterward, **EnumChildProc** calls the [**ShowWindow**](https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx) function to make the window visible.
+The main window sizes and positions the child windows in response to the [**WM\_SIZE**](wm-size.md) message, which the main window receives when its size changes. In response to **WM\_SIZE**, the main window retrieves the dimensions of its client area by using the [**GetClientRect**](/windows/win32/api/winuser/nf-winuser-getclientrect) function and then passes the dimensions to the [**EnumChildWindows**](/windows/win32/api/winuser/nf-winuser-enumchildwindows) function. **EnumChildWindows** passes the handle to each child window, in turn, to the application-defined [**EnumChildProc**](/previous-versions/windows/desktop/legacy/ms633493(v=vs.85)) callback function. This function sizes and positions each child window by calling the [**MoveWindow**](/windows/win32/api/winuser/nf-winuser-movewindow) function; the size and position are based on the dimensions of the main window's client area and the identifier of the child window. Afterward, **EnumChildProc** calls the [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow) function to make the window visible.
 
 
 ```
@@ -155,9 +155,9 @@ BOOL CALLBACK EnumChildProc(HWND hwndChild, LPARAM lParam)
 
 ## Destroying a Window
 
-You can use the [**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx) function to destroy a window. Typically, an application sends the [**WM\_CLOSE**](wm-close.md) message before destroying a window, giving the window the opportunity to prompt the user for confirmation before the window is destroyed. A window that includes a window menu automatically receives the **WM\_CLOSE** message when the user clicks **Close** from the window menu. If the user confirms that the window should be destroyed, the application calls **DestroyWindow**. The system sends the [**WM\_DESTROY**](wm-destroy.md) message to the window after removing it from the screen. In response to **WM\_DESTROY**, the window saves its data and frees any resources it allocated. A main window concludes its processing of **WM\_DESTROY** by calling the [**PostQuitMessage**](https://msdn.microsoft.com/library/ms644945(v=VS.85).aspx) function to quit the application.
+You can use the [**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow) function to destroy a window. Typically, an application sends the [**WM\_CLOSE**](wm-close.md) message before destroying a window, giving the window the opportunity to prompt the user for confirmation before the window is destroyed. A window that includes a window menu automatically receives the **WM\_CLOSE** message when the user clicks **Close** from the window menu. If the user confirms that the window should be destroyed, the application calls **DestroyWindow**. The system sends the [**WM\_DESTROY**](wm-destroy.md) message to the window after removing it from the screen. In response to **WM\_DESTROY**, the window saves its data and frees any resources it allocated. A main window concludes its processing of **WM\_DESTROY** by calling the [**PostQuitMessage**](/windows/win32/api/winuser/nf-winuser-postquitmessage) function to quit the application.
 
-The following example shows how to prompt for user confirmation before destroying a window. In response to [**WM\_CLOSE**](wm-close.md), the example displays a dialog box that contains **Yes**, **No**, and **Cancel** buttons. If the user clicks **Yes**, [**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx) is called; otherwise, the window is not destroyed. Because the window being destroyed is a main window, the example calls [**PostQuitMessage**](https://msdn.microsoft.com/library/ms644945(v=VS.85).aspx) in response to [**WM\_DESTROY**](wm-destroy.md).
+The following example shows how to prompt for user confirmation before destroying a window. In response to [**WM\_CLOSE**](wm-close.md), the example displays a dialog box that contains **Yes**, **No**, and **Cancel** buttons. If the user clicks **Yes**, [**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow) is called; otherwise, the window is not destroyed. Because the window being destroyed is a main window, the example calls [**PostQuitMessage**](/windows/win32/api/winuser/nf-winuser-postquitmessage) in response to [**WM\_DESTROY**](wm-destroy.md).
 
 
 ```
@@ -184,7 +184,7 @@ case WM_DESTROY:
 
 ## Using Layered Windows
 
-To have a dialog box come up as a translucent window, first create the dialog as usual. Then, on [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/ms645428(v=VS.85).aspx), set the layered bit of the window's extended style and call [**SetLayeredWindowAttributes**](https://msdn.microsoft.com/library/ms633540(v=VS.85).aspx) with the desired alpha value. The code might look like this:
+To have a dialog box come up as a translucent window, first create the dialog as usual. Then, on [**WM\_INITDIALOG**](../dlgbox/wm-initdialog.md), set the layered bit of the window's extended style and call [**SetLayeredWindowAttributes**](/windows/win32/api/winuser/nf-winuser-setlayeredwindowattributes) with the desired alpha value. The code might look like this:
 
 
 ```
@@ -199,9 +199,9 @@ SetLayeredWindowAttributes(hwnd, 0, (255 * 70) / 100, LWA_ALPHA);
 
 
 
-Note that the third parameter of [**SetLayeredWindowAttributes**](https://msdn.microsoft.com/library/ms633540(v=VS.85).aspx) is a value that ranges from 0 to 255, with 0 making the window completely transparent and 255 making it completely opaque. This parameter mimics the more versatile [**BLENDFUNCTION**](https://msdn.microsoft.com/library/Dd183393(v=VS.85).aspx) of the [**AlphaBlend**](https://msdn.microsoft.com/library/Dd183351(v=VS.85).aspx) function.
+Note that the third parameter of [**SetLayeredWindowAttributes**](/windows/win32/api/winuser/nf-winuser-setlayeredwindowattributes) is a value that ranges from 0 to 255, with 0 making the window completely transparent and 255 making it completely opaque. This parameter mimics the more versatile [**BLENDFUNCTION**](/windows/win32/api/wingdi/ns-wingdi-blendfunction) of the [**AlphaBlend**](/windows/win32/api/wingdi/nf-wingdi-alphablend) function.
 
-To make this window completely opaque again, remove the **WS\_EX\_LAYERED** bit by calling [**SetWindowLong**](https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx) and then ask the window to repaint. Removing the bit is desired to let the system know that it can free up some memory associated with layering and redirection. The code might look like this:
+To make this window completely opaque again, remove the **WS\_EX\_LAYERED** bit by calling [**SetWindowLong**](/windows/win32/api/winuser/nf-winuser-setwindowlonga) and then ask the window to repaint. Removing the bit is desired to let the system know that it can free up some memory associated with layering and redirection. The code might look like this:
 
 
 ```
@@ -224,6 +224,3 @@ In order to use layered child windows, the application has to declare itself Win
  
 
  
-
-
-

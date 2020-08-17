@@ -44,14 +44,10 @@ Only USER and Windows common controls (COMCTL) will return one of the values fro
 -   A control other than one of the controls in the previous table
 -   An old version of a system control that does not recognize the [**WM\_GETOBJECT**](wm-getobject.md) message
 
-If a window returns 0, clients may need to use [**RealGetWindowClass**](https://msdn.microsoft.com/library/ms633538(v=VS.85).aspx) or [**GetClassName**](https://msdn.microsoft.com/library/ms633582(v=VS.85).aspx). You can use these functions to determine the type of control based on class name.
+If a window returns 0, clients may need to use [**RealGetWindowClass**](/windows/win32/api/winuser/nf-winuser-realgetwindowclassw) or [**GetClassName**](/windows/win32/api/winuser/nf-winuser-getclassname). You can use these functions to determine the type of control based on class name.
 
 In general, clients can use the information provided by OLEACC.
 
  
 
  
-
-
-
-

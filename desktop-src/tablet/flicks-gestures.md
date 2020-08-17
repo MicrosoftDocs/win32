@@ -54,7 +54,7 @@ It is expected that most applications will not be flick-aware and thus will not 
 
 ## Processing Application Commands
 
-Your application should respond to any of the application commands that could be potentially assigned to a flick gesture. If an application fails to respond to the [**WM\_TABLET\_FLICK Message**](wm-tablet-flick-message.md), Windows Vista follows up by sending the applicable [**WM\_APPCOMMAND**](https://docs.microsoft.com/windows/desktop/inputdev/wm-appcommand) notification, followed then by a [**WM\_KEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown) notification.
+Your application should respond to any of the application commands that could be potentially assigned to a flick gesture. If an application fails to respond to the [**WM\_TABLET\_FLICK Message**](wm-tablet-flick-message.md), Windows Vista follows up by sending the applicable [**WM\_APPCOMMAND**](/windows/desktop/inputdev/wm-appcommand) notification, followed then by a [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown) notification.
 
 Following is a list of application commands that can be assigned to flicks, with the backup keystroke message that might be sent.
 
@@ -88,13 +88,8 @@ Editing commands such as Copy, Paste, Cut, and Delete might be directed against 
 [Flicks API Reference](flicks-api-reference.md)
 </dt> <dt>
 
-[Responding to Flick Gestures](https://msdn.microsoft.com/library/Dd356077(v=VS.85).aspx)
+[Responding to Flick Gestures](/previous-versions//dd356077(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
 

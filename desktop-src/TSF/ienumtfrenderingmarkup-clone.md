@@ -39,7 +39,7 @@ HRESULT Clone(
 *ppEnum* \[out\]
 </dt> <dd>
 
-\[out\] A pointer to a [IEnumTfRenderingMarkup](https://docs.microsoft.com/windows/desktop/TSF/ienumtfrenderingmarkup) interface.
+\[out\] A pointer to a [IEnumTfRenderingMarkup](/windows/desktop/TSF/ienumtfrenderingmarkup) interface.
 
 </dd> </dl>
 
@@ -67,10 +67,4 @@ This method can return one of these values.
  
 
  
-
- 
-
-
-
-
 

@@ -54,7 +54,7 @@ The following procedure describes how to create a MUI file for English and Frenc
 
 **To create a MUI file for English and French**
 
-1.  Create a message text file that creates the French message strings. For details on creating a message text file, see [Message Text Files](https://docs.microsoft.com/windows/desktop/EventLog/message-text-files). The message identifiers that you specify in the message text file must match the resource identifiers that the message compiler generated for the same strings in the manifest. To determine the resource identifiers used for the strings in the manifest, see the .h file that the message compiler generated when you compiled the manifest.
+1.  Create a message text file that creates the French message strings. For details on creating a message text file, see [Message Text Files](/windows/desktop/EventLog/message-text-files). The message identifiers that you specify in the message text file must match the resource identifiers that the message compiler generated for the same strings in the manifest. To determine the resource identifiers used for the strings in the manifest, see the .h file that the message compiler generated when you compiled the manifest.
     ```Text
     LanguageNames=(French=0x40C:MSG0040C)
 

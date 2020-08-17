@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualPC::MaximumNetworkAdaptersPerVM property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves the maximum number of networks interfaces per virtual machine.
 
@@ -77,10 +77,4 @@ The maximum number of network interfaces per virtual machine.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -41,7 +41,7 @@ The **PenInputPanel** class has these enumerations.
 
 | Enumeration                    | Description                                                                               |
 |:-------------------------------|:------------------------------------------------------------------------------------------|
-| [**PanelType**](https://msdn.microsoft.com/library/ms704908(v=VS.85).aspx) | Defines the type of input currently available in the **PenInputPanel** object.<br/> |
+| [**PanelType**](/windows/win32/api/peninputpanel/ne-peninputpanel-paneltype) | Defines the type of input currently available in the **PenInputPanel** object.<br/> |
 
 
 
@@ -104,14 +104,14 @@ The **PenInputPanel** class has these properties.
 | Property                                                                  | Access type           | Description                                                                                                                                                                    |
 |:--------------------------------------------------------------------------|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AttachedEditWindow**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_attachededitwindow)<br/> | Read/write<br/> | Gets or sets the window handle of the control that the **PenInputPanel** object is attached to.<br/>                                                                     |
-| [**AutoShow**](https://msdn.microsoft.com/library/ms703289(v=VS.85).aspx)<br/>                     | Read/write<br/> | Gets or sets a Boolean value that specifies whether the **PenInputPanel** object appears when focus is set using the pen.<br/>                                           |
+| [**AutoShow**](/windows/win32/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_autoshow)<br/>                     | Read/write<br/> | Gets or sets a Boolean value that specifies whether the **PenInputPanel** object appears when focus is set using the pen.<br/>                                           |
 | [**Busy**](/windows/desktop/api/Peninputpanel/nf-peninputpanel-ipeninputpanel-get_busy)<br/>                             | Read-only<br/>  | Gets a Boolean value that specifies whether the **PenInputPanel** object is currently processing ink.<br/>                                                               |
 | [**CurrentPanel**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_currentpanel)<br/>             | Read/write<br/> | Gets or sets which panel type is currently being used for input within the **PenInputPanel** object.<br/>                                                                |
 | [**DefaultPanel**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_defaultpanel)<br/>             | Read/write<br/> | Gets or sets which panel type is the default panel type used for input within the **PenInputPanel** object.<br/>                                                         |
 | [**Factoid**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_factoid)<br/>                       | Read/write<br/> | Gets or sets the string name of the factoid used in recognition.<br/>                                                                                                    |
 | [**Height**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_height)<br/>                         | Read-only<br/>  | Gets the height of the **PenInputPanel** object in client coordinates.<br/>                                                                                              |
 | [**HorizontalOffset**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_horizontaloffset)<br/>     | Read/write<br/> | Gets or sets the offset between the left edge of the **PenInputPanel** object and the left edge of the control to which it is attached.<br/>                             |
-| [**Left**](https://msdn.microsoft.com/library/ms701203(v=VS.85).aspx)<br/>                             | Read-only<br/>  | Gets the horizontal, or x-axis, location of the left edge of the **PenInputPanel** object, in screen coordinates.<br/>                                                   |
+| [**Left**](/windows/win32/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left)<br/>                             | Read-only<br/>  | Gets the horizontal, or x-axis, location of the left edge of the **PenInputPanel** object, in screen coordinates.<br/>                                                   |
 | [**Top**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_top)<br/>                               | Read-only<br/>  | Gets the vertical, or y-axis, location of the top edge of the **PenInputPanel** object, in screen coordinates.<br/>                                                      |
 | [**VerticalOffset**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_verticaloffset)<br/>         | Read/write<br/> | Gets or sets the offset between the closest horizontal edge of the **PenInputPanel** object and the closest horizontal edge of the control to which it is attached.<br/> |
 | [**Visible**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_visible)<br/>                       | Read/write<br/> | Gets or sets a value that indicates whether the **PenInputPanel** object is visible.<br/>                                                                                |
@@ -123,7 +123,7 @@ The **PenInputPanel** class has these properties.
 
 ## Remarks
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) method in C++.
+This object can be instantiated by calling the [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
 ## Requirements
 
@@ -148,7 +148,3 @@ This object can be instantiated by calling the [**CoCreateInstance**](https://ms
  
 
  
-
-
-
-

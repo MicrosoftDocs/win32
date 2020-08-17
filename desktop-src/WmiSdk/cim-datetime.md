@@ -91,15 +91,15 @@ The following examples describe two dates that a WMI query does not consider equ
 
 ## Converting to FILETIME or VT\_DATE format
 
-The CIM [**DATETIME**](datetime.md) format is used only within WMI. You can convert to and from the WMI format and either the FILETIME or VT\_DATE format by calling the methods of the [**SWbemDateTime**](swbemdatetime.md) scripting object. A [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) **datetime** structure is a 64-bit value that the 32-bit Windows operating systems use. VT\_DATE format is an automation variant datetime value used by Visual Basic and ActiveX. The following table lists the conversion methods.
+The CIM [**DATETIME**](datetime.md) format is used only within WMI. You can convert to and from the WMI format and either the FILETIME or VT\_DATE format by calling the methods of the [**SWbemDateTime**](swbemdatetime.md) scripting object. A [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) **datetime** structure is a 64-bit value that the 32-bit Windows operating systems use. VT\_DATE format is an automation variant datetime value used by Visual Basic and ActiveX. The following table lists the conversion methods.
 
 
 
 | Method                                                         | Description                                                                                           |
 |----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| [**SWbemDateTime.GetFileTime**](swbemdatetime-getfiletime.md) | Gets a [**DATETIME**](datetime.md) value in [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) format.                |
+| [**SWbemDateTime.GetFileTime**](swbemdatetime-getfiletime.md) | Gets a [**DATETIME**](datetime.md) value in [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) format.                |
 | [**SWbemDateTime.GetVarDate**](swbemdatetime-getvardate.md)   | Gets a [**DATETIME**](datetime.md) value in VT\_DATE format.                                         |
-| [**SWbemDateTime.SetFileTime**](swbemdatetime-setvardate.md)  | Sets a [**DATETIME**](datetime.md) property using a [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) date as input. |
+| [**SWbemDateTime.SetFileTime**](swbemdatetime-setvardate.md)  | Sets a [**DATETIME**](datetime.md) property using a [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) date as input. |
 | [**SWbemDateTime.SetVarDate**](swbemdatetime-setvardate.md)   | Sets a [**DATETIME**](datetime.md) property using a VT\_DATE date as input.                          |
 
 
@@ -138,9 +138,4 @@ The CIM [**DATETIME**](datetime.md) format is used only within WMI. You can conv
 </dt> </dl>
 
  
-
- 
-
-
-
 

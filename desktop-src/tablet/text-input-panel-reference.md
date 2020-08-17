@@ -20,7 +20,7 @@ Provides access to the programmable features of Tablet PC Input Panel.
 
 The topic includes references for the Text Input Panel COM interfaces and enumerations.
 
-These interfaces can be instantiated by calling the [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) method in C++.
+These interfaces can be instantiated by calling the [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
 ## Remarks
 
@@ -41,6 +41,3 @@ These elements are declared in Peninputpanel.h.
  
 
  
-
-
-

@@ -13,7 +13,7 @@ The ISA operator is a WQL-specific operator that can be used in data, event, and
 
 When ISA is included in the [WHERE clause](where-clause.md) of an schema query, it requests that the query be applied to all subclasses of the class you specify.
 
-For example, the following statement requests notification every 10 minutes of instance modification events for all instances that are members of any class deriving from the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
+For example, the following statement requests notification every 10 minutes of instance modification events for all instances that are members of any class deriving from the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
 
 
 ```sql
@@ -23,7 +23,7 @@ WHERE TargetInstance ISA "Win32_LogicalDisk"
 
 
 
-The following query returns the definition for the [**CIM\_Processor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-processor) class and definitions for all of its subclasses.
+The following query returns the definition for the [**CIM\_Processor**](/windows/desktop/CIMWin32Prov/cim-processor) class and definitions for all of its subclasses.
 
 
 ```sql
@@ -37,6 +37,3 @@ The class **meta\_class** identifies this as a schema query, the property called
  
 
  
-
-
-

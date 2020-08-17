@@ -21,13 +21,13 @@ ms.date: 05/31/2018
 
 # Text Service Registration
 
-In addition to the standard COM in-proc server registry entries, a text service must register itself with the Text Services Framework (TSF) so that it can be available for use with an application. TSF supplies the [ITfInputProcessorProfiles](https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles) and [ITfCategoryMgr](https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr) interface to simplify the registration process.
+In addition to the standard COM in-proc server registry entries, a text service must register itself with the Text Services Framework (TSF) so that it can be available for use with an application. TSF supplies the [ITfInputProcessorProfiles](/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles) and [ITfCategoryMgr](/windows/desktop/api/msctf/nn-msctf-itfcategorymgr) interface to simplify the registration process.
 
-Text service providers should also provide digital signatures with their binary executables. See [Introduction to Code Signing](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85)).
+Text service providers should also provide digital signatures with their binary executables. See [Introduction to Code Signing](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85)).
 
 ## Registering the Text Service
 
-A text service registers itself with TSF by calling [ITfInputProcessorProfiles::Register](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-register) with the class identifier of the text service. An instance of the **ITfInputProcessorProfiles** interface is obtained by calling **CoCreateInstance** with CLSID\_TF\_InputProcessorProfiles.
+A text service registers itself with TSF by calling [ITfInputProcessorProfiles::Register](/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-register) with the class identifier of the text service. An instance of the **ITfInputProcessorProfiles** interface is obtained by calling **CoCreateInstance** with CLSID\_TF\_InputProcessorProfiles.
 
 The following example demonstrates how to create an **ITfInputProcessorProfiles** object and register the text service.
 
@@ -59,13 +59,13 @@ BOOL RegisterTextService(CLSID clsidTextService)
 
 
 
-[ITfInputProcessorProfiles::Unregister](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-unregister)
+[ITfInputProcessorProfiles::Unregister](/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-unregister)
 
 ## Registering Language Profiles
 
-A text service is only available when an application has the focus and the proper language is selected in the language bar. To facilitate this, TSF requires that a text service register itself for all of the languages that it supports. The text service registers its language profiles by calling [ITfInputProcessorProfiles::AddLanguageProfile](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile) with the text service class identifier, that language identifier of the profile, and a text service defined **GUID** that identifies the language profile.
+A text service is only available when an application has the focus and the proper language is selected in the language bar. To facilitate this, TSF requires that a text service register itself for all of the languages that it supports. The text service registers its language profiles by calling [ITfInputProcessorProfiles::AddLanguageProfile](/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile) with the text service class identifier, that language identifier of the profile, and a text service defined **GUID** that identifies the language profile.
 
-A language profile can be removed by calling [ITfInputProcessorProfiles::RemoveLanguageProfile](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-removelanguageprofile). **ITfInputProcessorProfiles::Unregister** removes all language profiles for the text service; when a text service is uninstalled, it does require removal of the individual language profiles.
+A language profile can be removed by calling [ITfInputProcessorProfiles::RemoveLanguageProfile](/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-removelanguageprofile). **ITfInputProcessorProfiles::Unregister** removes all language profiles for the text service; when a text service is uninstalled, it does require removal of the individual language profiles.
 
 ## Registering Categories
 
@@ -76,7 +76,3 @@ Remove previously registered categories by calling [ITfCategoryMgr::UnregisterCa
  
 
  
-
-
-
-

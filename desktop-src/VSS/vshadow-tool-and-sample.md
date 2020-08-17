@@ -380,7 +380,7 @@ The **-er** command-line option cannot be combined with other command-line optio
 
 **vshadow** **-wm3**
 
-The **-ws** command-line option enumerates the VSS writers that are currently running on the computer and describes their state. This command is the equivalent of the [Vssadmin list writers](https://technet.microsoft.com/library/df7eb505-43c6-42af-ab42-3095f96ffc27) command. There are six possible state values: Stable, Failed, Unknown, Waiting for freeze, Frozen, and Waiting for completion.
+The **-ws** command-line option enumerates the VSS writers that are currently running on the computer and describes their state. This command is the equivalent of the [Vssadmin list writers](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754968(v=ws.11)) command. There are six possible state values: Stable, Failed, Unknown, Waiting for freeze, Frozen, and Waiting for completion.
 
 The **-wm** command-line option lists a summary of the writer metadata, including the affected volumes.
 
@@ -504,7 +504,3 @@ The <strong>-novolcheck</strong> flag is supported only on Windows server operat
  
 
  
-
-
-
-

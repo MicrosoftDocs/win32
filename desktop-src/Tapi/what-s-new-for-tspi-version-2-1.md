@@ -14,46 +14,43 @@ Starting with TAPI 2.1, proxy request handlers can be implemented. A handler is 
 
 Functions and messages that were new or changed for TSPI version 2.1 are as follows:
 
--   [**TSPI_lineConditionalMediaDetection**](https://msdn.microsoft.com/library/ms725536(v=VS.85).aspx)
+-   [**TSPI_lineConditionalMediaDetection**](/windows/win32/api/tspi/nf-tspi-tspi_lineconditionalmediadetection)
 -   **TSPI_lineDropNoOwner**—**obsolete**
 -   **TSPI_lineDropOnClose**—**obsolete**
--   [**TSPI_lineGetID**](https://msdn.microsoft.com/library/ms725572(v=VS.85).aspx)
--   [**TSPI_lineSetCallData**](https://msdn.microsoft.com/library/ms725595(v=VS.85).aspx)
--   [**TSPI_lineSetCallQualityOfService**](https://msdn.microsoft.com/library/ms725598(v=VS.85).aspx)
--   [**TSPI_lineSetCallTreatment**](https://msdn.microsoft.com/library/ms725599(v=VS.85).aspx)
--   [**TSPI_lineSetLineDevStatus**](https://msdn.microsoft.com/library/ms725603(v=VS.85).aspx)
--   [**TSPI_phoneGetID**](https://msdn.microsoft.com/library/ms725934(v=VS.85).aspx)
--   [**TSPI_providerInit**](https://msdn.microsoft.com/library/ms725960(v=VS.85).aspx)
--   [**TSPI_providerShutdown**](https://msdn.microsoft.com/library/ms725963(v=VS.85).aspx)
--   [**LINE_GATHERDIGITS**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725229(v=vs.85))
--   [**LINE_GENERATE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725230(v=vs.85))
--   [**LINE_MONITORDIGITS**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725232(v=vs.85))
--   [**LINE_MONITORMEDIA**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725233(v=vs.85))
--   [**LINE_MONITORTONE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725234(v=vs.85))
--   [**LINE_REMOVE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725237(v=vs.85))
--   [**PHONE_REMOVE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725260(v=vs.85))
+-   [**TSPI_lineGetID**](/windows/win32/api/tspi/nf-tspi-tspi_linegetid)
+-   [**TSPI_lineSetCallData**](/windows/win32/api/tspi/nf-tspi-tspi_linesetcalldata)
+-   [**TSPI_lineSetCallQualityOfService**](/windows/win32/api/tspi/nf-tspi-tspi_linesetcallqualityofservice)
+-   [**TSPI_lineSetCallTreatment**](/windows/win32/api/tspi/nf-tspi-tspi_linesetcalltreatment)
+-   [**TSPI_lineSetLineDevStatus**](/windows/win32/api/tspi/nf-tspi-tspi_linesetlinedevstatus)
+-   [**TSPI_phoneGetID**](/windows/win32/api/tspi/nf-tspi-tspi_phonegetid)
+-   [**TSPI_providerInit**](/windows/win32/api/tspi/nf-tspi-tspi_providerinit)
+-   [**TSPI_providerShutdown**](/windows/win32/api/tspi/nf-tspi-tspi_providershutdown)
+-   [**LINE_GATHERDIGITS**](/previous-versions/windows/desktop/legacy/ms725229(v=vs.85))
+-   [**LINE_GENERATE**](/previous-versions/windows/desktop/legacy/ms725230(v=vs.85))
+-   [**LINE_MONITORDIGITS**](/previous-versions/windows/desktop/legacy/ms725232(v=vs.85))
+-   [**LINE_MONITORMEDIA**](/previous-versions/windows/desktop/legacy/ms725233(v=vs.85))
+-   [**LINE_MONITORTONE**](/previous-versions/windows/desktop/legacy/ms725234(v=vs.85))
+-   [**LINE_REMOVE**](/previous-versions/windows/desktop/legacy/ms725237(v=vs.85))
+-   [**PHONE_REMOVE**](/previous-versions/windows/desktop/legacy/ms725260(v=vs.85))
 
 The Telephony service provider user interface DLL provides a means of allowing user interaction within the context of the application rather than the service provider itself. TSPI version 2.1 delivered the following new functions, messages, and structures for implementation:
 
--   [**TSPI_providerFreeDialogInstance**](https://msdn.microsoft.com/library/ms725958(v=VS.85).aspx)
--   [**TSPI_providerGenericDialogData**](https://msdn.microsoft.com/library/ms725959(v=VS.85).aspx)
--   [**TSPI_providerUIIdentify**](https://msdn.microsoft.com/library/ms725964(v=VS.85).aspx)
--   [**TUISPI_lineConfigDialog**](https://msdn.microsoft.com/library/ms725976(v=VS.85).aspx)
--   [**TUISPI_lineConfigDialogEdit**](https://msdn.microsoft.com/library/ms725977(v=VS.85).aspx)
--   [**TUISPI_phoneConfigDialog**](https://msdn.microsoft.com/library/ms725979(v=VS.85).aspx)
--   [**TUISPI_providerConfig**](https://msdn.microsoft.com/library/ms725981(v=VS.85).aspx)
--   [**TUISPI_providerGenericDialog**](https://msdn.microsoft.com/library/ms725982(v=VS.85).aspx)
--   [**TUISPI_providerGenericDialogData**](https://msdn.microsoft.com/library/ms725983(v=VS.85).aspx)
--   [**TUISPI_providerInstall**](https://msdn.microsoft.com/library/ms725984(v=VS.85).aspx)
--   [**TUISPI_providerRemove**](https://msdn.microsoft.com/library/ms725985(v=VS.85).aspx)
--   [**TUISPICREATEDIALOGINSTANCEPARAMS**](https://msdn.microsoft.com/library/ms725972(v=VS.85).aspx)
--   [**TUISPIDLLCALLBACK**](https://msdn.microsoft.com/library/ms725187(v=VS.85).aspx)
+-   [**TSPI_providerFreeDialogInstance**](/windows/win32/api/tspi/nf-tspi-tspi_providerfreedialoginstance)
+-   [**TSPI_providerGenericDialogData**](/windows/win32/api/tspi/nf-tspi-tspi_providergenericdialogdata)
+-   [**TSPI_providerUIIdentify**](/windows/win32/api/tspi/nf-tspi-tspi_provideruiidentify)
+-   [**TUISPI_lineConfigDialog**](/windows/win32/api/tspi/nf-tspi-tuispi_lineconfigdialog)
+-   [**TUISPI_lineConfigDialogEdit**](/windows/win32/api/tspi/nf-tspi-tuispi_lineconfigdialogedit)
+-   [**TUISPI_phoneConfigDialog**](/windows/win32/api/tspi/nf-tspi-tuispi_phoneconfigdialog)
+-   [**TUISPI_providerConfig**](/windows/win32/api/tspi/nf-tspi-tuispi_providerconfig)
+-   [**TUISPI_providerGenericDialog**](/windows/win32/api/tspi/nf-tspi-tuispi_providergenericdialog)
+-   [**TUISPI_providerGenericDialogData**](/windows/win32/api/tspi/nf-tspi-tuispi_providergenericdialogdata)
+-   [**TUISPI_providerInstall**](/windows/win32/api/tspi/nf-tspi-tuispi_providerinstall)
+-   [**TUISPI_providerRemove**](/windows/win32/api/tspi/nf-tspi-tuispi_providerremove)
+-   [**TUISPICREATEDIALOGINSTANCEPARAMS**](/windows/win32/api/tspi/ns-tspi-tuispicreatedialoginstanceparams)
+-   [**TUISPIDLLCALLBACK**](/windows/win32/api/tspi/nc-tspi-tuispidllcallback)
 -   [**LINE_CREATEDIALOGINSTANCE**](line-createdialoginstance.md)
 -   [**LINE_SENDDIALOGINSTANCEDATA**](line-senddialoginstancedata.md)
 
  
 
  
-
-
-

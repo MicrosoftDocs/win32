@@ -19,7 +19,7 @@ This topic contains the following sections.
 
 ## Creating a Timer
 
-The following example uses the [**SetTimer**](https://msdn.microsoft.com/library/ms644906(v=VS.85).aspx) function to create two timers. The first timer is set for every 10 seconds, the second for every five minutes.
+The following example uses the [**SetTimer**](/windows/win32/api/winuser/nf-winuser-settimer) function to create two timers. The first timer is set for every 10 seconds, the second for every five minutes.
 
 
 ```
@@ -74,7 +74,7 @@ SetTimer(hwnd,                // handle to main window
 
 
 
-The calling convention for **MyTimerProc** must be based on the [*TimerProc*](https://msdn.microsoft.com/library/ms644907(v=VS.85).aspx) callback function.
+The calling convention for **MyTimerProc** must be based on the [*TimerProc*](/windows/win32/api/winuser/nc-winuser-timerproc) callback function.
 
 If your application creates a timer without specifying a window handle, your application must monitor the message queue for [**WM\_TIMER**](wm-timer.md) messages and dispatch them to the appropriate window.
 
@@ -105,7 +105,7 @@ MSG msg;          // message structure
 
 ## Destroying a Timer
 
-Applications should use the [**KillTimer**](https://msdn.microsoft.com/library/ms644903(v=VS.85).aspx) function to destroy timers that are no longer necessary. The following example destroys the timers identified by the constants IDT\_TIMER1, IDT\_TIMER2, and IDT\_TIMER3.
+Applications should use the [**KillTimer**](/windows/win32/api/winuser/nf-winuser-killtimer) function to destroy timers that are no longer necessary. The following example destroys the timers identified by the constants IDT\_TIMER1, IDT\_TIMER2, and IDT\_TIMER3.
 
 
 ```
@@ -122,7 +122,7 @@ KillTimer(hwnd, IDT_TIMER3);
 
 Sometimes it is necessary to prevent more input while you have a mouse pointer on the screen. One way to accomplish this is to create a special routine that traps mouse input until a specific event occurs. Many developers refer to this routine as "building a mousetrap."
 
-The following example uses the [**SetTimer**](https://msdn.microsoft.com/library/ms644906(v=VS.85).aspx) and [**KillTimer**](https://msdn.microsoft.com/library/ms644903(v=VS.85).aspx) functions to trap mouse input. **SetTimer** creates a timer that sends a [**WM\_TIMER**](wm-timer.md) message every 10 seconds. Each time the application receives a **WM\_TIMER** message, it records the mouse pointer location. If the current location is the same as the previous location and the application's main window is minimized, the application moves the mouse pointer to the icon. When the application closes, **KillTimer** stops the timer.
+The following example uses the [**SetTimer**](/windows/win32/api/winuser/nf-winuser-settimer) and [**KillTimer**](/windows/win32/api/winuser/nf-winuser-killtimer) functions to trap mouse input. **SetTimer** creates a timer that sends a [**WM\_TIMER**](wm-timer.md) message every 10 seconds. Each time the application receives a **WM\_TIMER** message, it records the mouse pointer location. If the current location is the same as the previous location and the application's main window is minimized, the application moves the mouse pointer to the icon. When the application closes, **KillTimer** stops the timer.
 
 
 ```
@@ -320,6 +320,3 @@ VOID CALLBACK MyTimerProc(
  
 
  
-
-
-

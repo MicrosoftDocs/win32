@@ -25,9 +25,9 @@ In addition to the clipboard, this sample also illustrates how to select strokes
 
 The following features are used in this sample:
 
--   The [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.90).aspx) object.
+-   The [InkCollector](/previous-versions/ms583683(v=vs.100)) object.
 -   Ink clipboard support.
--   The use of the lasso with the [Microsoft.Ink.Ink.HitTest](https://msdn.microsoft.com/library/ms571330(v=VS.90).aspx) method.
+-   The use of the lasso with the [Microsoft.Ink.Ink.HitTest](/previous-versions/dotnet/netframework-3.5/ms571330(v=vs.90)) method.
 
 This sample demonstrates rendering ink, copying that ink, and then pasting the ink into another application such as Microsoft Paint.
 
@@ -90,7 +90,7 @@ private Pen dotPen = null;
 
 
 
-Finally, in the form's [Load](https://msdn.microsoft.com/library/4w303742(v=VS.90).aspx) event handler, the form is initialized, an [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.90).aspx) object for the form is created and the ink collector is enabled.
+Finally, in the form's [Load](/dotnet/api/system.windows.forms.form.load?view=netcore-3.1) event handler, the form is initialized, an [InkCollector](/previous-versions/ms583683(v=vs.100)) object for the form is created and the ink collector is enabled.
 
 
 ```C++
@@ -107,15 +107,15 @@ myInkCollector.Enabled = true;
 
 The menu item event handlers primarily update the form's state.
 
-The Clear command removes the selection rectangle, and deletes the strokes from the ink collector's [Ink](https://msdn.microsoft.com/library/ms583670(v=VS.90).aspx) object.
+The Clear command removes the selection rectangle, and deletes the strokes from the ink collector's [Ink](/previous-versions/ms583670(v=vs.100)) object.
 
 The Exit command disables the ink collector before exiting the application.
 
-The Edit menu enables the Cut and Copy commands based on the selection state of the form, and enables the Paste command based on the contents of the clipboard, determined by using the [Ink](https://msdn.microsoft.com/library/ms583670(v=VS.90).aspx) object's [CanPaste](https://msdn.microsoft.com/library/ms571314(v=VS.90).aspx) method.
+The Edit menu enables the Cut and Copy commands based on the selection state of the form, and enables the Paste command based on the contents of the clipboard, determined by using the [Ink](/previous-versions/ms583670(v=vs.100)) object's [CanPaste](/previous-versions/dotnet/netframework-3.5/ms571314(v=vs.90)) method.
 
 The Cut and Copy commands both use a helper method to copy ink to the clipboard. The Cut command uses a helper method to delete the selected strokes.
 
-The Paste command first checks the [Ink](https://msdn.microsoft.com/library/ms583670(v=VS.90).aspx) object's [CanPaste](https://msdn.microsoft.com/library/ms571314(v=VS.90).aspx) method to see if the object on the clipboard can be pasted. The Paste command then computes the upper-left corner for the paste region, converts the coordinates from pixels to ink space, and pastes the strokes from the clipboard to the ink collector. Finally, the selection box is updated.
+The Paste command first checks the [Ink](/previous-versions/ms583670(v=vs.100)) object's [CanPaste](/previous-versions/dotnet/netframework-3.5/ms571314(v=vs.90)) method to see if the object on the clipboard can be pasted. The Paste command then computes the upper-left corner for the paste region, converts the coordinates from pixels to ink space, and pastes the strokes from the clipboard to the ink collector. Finally, the selection box is updated.
 
 
 ```C++
@@ -146,13 +146,13 @@ if (myInkCollector.Ink.CanPaste())
 
 
 
-The Select and Ink commands update the application mode and the default drawing attributes, clear the current selection, update the menu state, and refresh the form. Other handlers rely on the application state to perform the correct function, either lassoing or laying down ink. In addition, the Select command adds the [NewPackets](https://msdn.microsoft.com/library/ms567621(v=VS.90).aspx) and [Stroke](https://msdn.microsoft.com/library/ms567622(v=VS.90).aspx) event handlers to the ink collector and the Ink command removes these event handlers from the ink collector.
+The Select and Ink commands update the application mode and the default drawing attributes, clear the current selection, update the menu state, and refresh the form. Other handlers rely on the application state to perform the correct function, either lassoing or laying down ink. In addition, the Select command adds the [NewPackets](/previous-versions/ms567621(v=vs.100)) and [Stroke](/previous-versions/ms567622(v=vs.100)) event handlers to the ink collector and the Ink command removes these event handlers from the ink collector.
 
 The formats that are available on the Clipboard when strokes are copied are listed on the Format menu, and the user selects the format for copying the ink from this list. The types of formats available include Ink Serialized Format (ISF), metafile, enhanced metafile, and bitmap. The sketch ink and text ink formats are mutually exclusive, and rely on the ink being copied to the clipboard as an OLE object.
 
 The Style menu enables the user to change the color and width properties of the pen and any selected strokes.
 
-For example, the Red command sets the [Color](https://msdn.microsoft.com/library/ms582103(v=VS.90).aspx) property of the ink collector's [DefaultDrawingAttributes](https://msdn.microsoft.com/library/ms571711(v=VS.90).aspx) property to the color red. Because the [DrawingAttributes](https://msdn.microsoft.com/library/ms581965(v=VS.90).aspx) property of the [Cursor](https://msdn.microsoft.com/library/ms552104(v=VS.90).aspx) object has not been set, any new ink drawn to the ink collector inherits to default drawing color. Also, if any strokes are currently selected, each stroke's drawing attributes Color property is updated as well.
+For example, the Red command sets the [Color](/previous-versions/ms582103(v=vs.100)) property of the ink collector's [DefaultDrawingAttributes](/previous-versions/ms571711(v=vs.100)) property to the color red. Because the [DrawingAttributes](/previous-versions/ms581965(v=vs.100)) property of the [Cursor](/previous-versions/ms552104(v=vs.100)) object has not been set, any new ink drawn to the ink collector inherits to default drawing color. Also, if any strokes are currently selected, each stroke's drawing attributes Color property is updated as well.
 
 
 ```C++
@@ -178,21 +178,21 @@ private void SetColor(Color newColor)
 
 ## Handling Mouse Events
 
-The [MouseMove](https://msdn.microsoft.com/library/ms567617(v=VS.90).aspx) event handler checks the application mode. If the mode is MoveInk and a mouse button is down, then the handler moves the strokes by using the [Strokes](https://msdn.microsoft.com/library/ms552701(v=VS.90).aspx) collection's Move method and updates the selection box. Otherwise, the handler checks to determine whether the selection rectangle contains the cursor, enables ink collection accordingly, and also sets the cursor accordingly.
+The [MouseMove](/previous-versions/ms567617(v=vs.100)) event handler checks the application mode. If the mode is MoveInk and a mouse button is down, then the handler moves the strokes by using the [Strokes](/previous-versions/ms552701(v=vs.100)) collection's Move method and updates the selection box. Otherwise, the handler checks to determine whether the selection rectangle contains the cursor, enables ink collection accordingly, and also sets the cursor accordingly.
 
-The [MouseDown](https://msdn.microsoft.com/library/ms567616(v=VS.90).aspx) event handler checks the cursor setting. If the cursor is set to [SizeAll](https://msdn.microsoft.com/library/zf34e8h1(v=VS.90).aspx), then the handler sets the application mode to MoveInk and records the cursor location. Otherwise, if there is a current selection, clear it.
+The [MouseDown](/previous-versions/ms567616(v=vs.100)) event handler checks the cursor setting. If the cursor is set to [SizeAll](/dotnet/api/system.windows.forms.cursors.sizeall?view=netcore-3.1), then the handler sets the application mode to MoveInk and records the cursor location. Otherwise, if there is a current selection, clear it.
 
-The [MouseUp](https://msdn.microsoft.com/library/ms567618(v=VS.90).aspx) event handler checks the application mode. If the mode is MoveInk, then the handler sets the application mode based on the Select command's checked state.
+The [MouseUp](/previous-versions/ms567618(v=vs.100)) event handler checks the application mode. If the mode is MoveInk, then the handler sets the application mode based on the Select command's checked state.
 
-The [NewPackets](https://msdn.microsoft.com/library/ms567621(v=VS.90).aspx) event is raised in selection mode when the ink collector receives new packet data. If the application is in selection mode, it is necessary to intercept the new packets and use them to draw the selection lasso.
+The [NewPackets](/previous-versions/ms567621(v=vs.100)) event is raised in selection mode when the ink collector receives new packet data. If the application is in selection mode, it is necessary to intercept the new packets and use them to draw the selection lasso.
 
 Each packet's coordinate is converted to pixels, constrained to the drawing area, and added to the lasso's collection of points. A helper method is then called to draw the lasso on the form.
 
 ## Handling a New Stroke
 
-The [Stroke](https://msdn.microsoft.com/library/ms567622(v=VS.90).aspx) event is raised in the selection mode when a new stroke is drawn. If the application is in selection mode, this stroke corresponds to the lasso and it is necessary to update the selected strokes' information.
+The [Stroke](/previous-versions/ms567622(v=vs.100)) event is raised in the selection mode when a new stroke is drawn. If the application is in selection mode, this stroke corresponds to the lasso and it is necessary to update the selected strokes' information.
 
-The handler cancels the [Stroke](https://msdn.microsoft.com/library/ms567622(v=VS.90).aspx) event, checks for more than two lasso points, copies the Points collection to an array of [Point](https://msdn.microsoft.com/library/bk9hwzbw(v=VS.90).aspx) objects, and converts the coordinates of the points in the array from pixels to ink space. Then, the handler uses the [Ink](https://msdn.microsoft.com/library/ms583670(v=VS.90).aspx) object's [HitTest](https://msdn.microsoft.com/library/ms571330(v=VS.90).aspx) method to get the strokes selected by the lasso points and updates the selection state of the form. Finally, the stroke that raised the event is removed from the collection of selected strokes, the lasso Points collection is emptied, and a helper method draws the selection rectangle.
+The handler cancels the [Stroke](/previous-versions/ms567622(v=vs.100)) event, checks for more than two lasso points, copies the Points collection to an array of [Point](/dotnet/api/system.drawing.point?view=netcore-3.1) objects, and converts the coordinates of the points in the array from pixels to ink space. Then, the handler uses the [Ink](/previous-versions/ms583670(v=vs.100)) object's [HitTest](/previous-versions/dotnet/netframework-3.5/ms571330(v=vs.90)) method to get the strokes selected by the lasso points and updates the selection state of the form. Finally, the stroke that raised the event is removed from the collection of selected strokes, the lasso Points collection is emptied, and a helper method draws the selection rectangle.
 
 
 ```C++
@@ -238,7 +238,7 @@ SetSelection(hitStrokes);
 
 ## Copying Ink to the Clipboard
 
-The CopyInkToClipboard helper method creates an [InkClipboardFormats](https://msdn.microsoft.com/library/ms583681(v=VS.90).aspx) value, checks the Format menu's state to update the formats to put on the clipboard, and uses the [Ink](https://msdn.microsoft.com/library/ms583670(v=VS.90).aspx) object's [ClipboardCopy](https://msdn.microsoft.com/library/ms571316(v=VS.90).aspx) method to copy the strokes to the clipboard.
+The CopyInkToClipboard helper method creates an [InkClipboardFormats](/previous-versions/ms583681(v=vs.100)) value, checks the Format menu's state to update the formats to put on the clipboard, and uses the [Ink](/previous-versions/ms583670(v=vs.100)) object's [ClipboardCopy](/previous-versions/dotnet/netframework-3.5/ms571316(v=vs.90)) method to copy the strokes to the clipboard.
 
 
 ```C++
@@ -267,14 +267,14 @@ else
 
 ## Updating a Selection
 
-The SetSelection helper method updates the selectedStrokes filed and if the collection is **NULL** or **EMPTY**, the selection rectangle is set to the empty rectangle. If the selected [Strokes](https://msdn.microsoft.com/library/ms552701(v=VS.90).aspx) collection is not empty the SetSelection method performs the following steps:
+The SetSelection helper method updates the selectedStrokes filed and if the collection is **NULL** or **EMPTY**, the selection rectangle is set to the empty rectangle. If the selected [Strokes](/previous-versions/ms552701(v=vs.100)) collection is not empty the SetSelection method performs the following steps:
 
--   Determines the bounding rectangle by using the [GetBoundingBox](https://msdn.microsoft.com/library/ms571376(v=VS.90).aspx) method of the strokes collection
+-   Determines the bounding rectangle by using the [GetBoundingBox](/previous-versions/dotnet/netframework-3.5/ms571376(v=vs.90)) method of the strokes collection
 -   Converts the rectangle coordinates from ink space to pixels
 -   Inflates the rectangle to provide some visual space between it and the selected strokes
 -   Creates selection handles for the current selection box
 
-Finally, the SetSelection method sets the visibility of the selection handles and sets the ink collector's [AutoRedraw](https://msdn.microsoft.com/library/ms571706(v=VS.90).aspx) property to **FALSE**, if strokes are selected.
+Finally, the SetSelection method sets the visibility of the selection handles and sets the ink collector's [AutoRedraw](/previous-versions/ms571706(v=vs.100)) property to **FALSE**, if strokes are selected.
 
 
 ```C++
@@ -355,17 +355,14 @@ Refresh();
 
 ## Drawing the Lasso
 
-The lasso is drawn as a series of open dots that follow the path of the lasso stroke and a dashed connector line between the two ends. The [NewPackets](https://msdn.microsoft.com/library/ms567621(v=VS.90).aspx) event is raised as the lasso is being drawn, and the event handler passes the stroke information to the DrawLasso method.
+The lasso is drawn as a series of open dots that follow the path of the lasso stroke and a dashed connector line between the two ends. The [NewPackets](/previous-versions/ms567621(v=vs.100)) event is raised as the lasso is being drawn, and the event handler passes the stroke information to the DrawLasso method.
 
 The DrawLasso helper method first removes the old connector line and then iterates over the points in the stroke. Then, DrawLasso calculates where to place the dots along the stroke and draws them. Finally, it draws a new connector line.
 
 ## Closing the Form
 
-The form's [Dispose](https://msdn.microsoft.com/library/d305e9bx(v=VS.90).aspx) method disposes the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.90).aspx) object, myInkCollector.
+The form's [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) method disposes the [InkCollector](/previous-versions/ms583683(v=vs.100)) object, myInkCollector.
 
  
 
  
-
-
-

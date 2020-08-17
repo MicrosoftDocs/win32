@@ -18,7 +18,7 @@ The Windows Ribon framework (Ribbon) provides the ability to preserve the state 
 
 ## Introduction
 
-Various aspects of a ribbon, including configuration and interaction preferences, can be customized by a user at run time to improve usability and productivity. The Ribbon framework provides the functionality to preserve these settings across application sessions through two methods defined in the implementation of the [**IUIRibbon**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiribbon) interface: [**IUIRibbon::LoadSettingsFromStream**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream) and [**IUIRibbon::SaveSettingsToStream**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream).
+Various aspects of a ribbon, including configuration and interaction preferences, can be customized by a user at run time to improve usability and productivity. The Ribbon framework provides the functionality to preserve these settings across application sessions through two methods defined in the implementation of the [**IUIRibbon**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiribbon) interface: [**IUIRibbon::LoadSettingsFromStream**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream) and [**IUIRibbon::SaveSettingsToStream**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream).
 
 ## A Predictable Experience
 
@@ -26,13 +26,13 @@ The [Ribbon User Experience Guidelines](https://msdn.microsoft.com/library/cc872
 
 Ribbon settings that can be modified at run time and preserved across application sessions are listed in the Command context menu. They include:
 
--   Commands added to the [Quick Access Toolbar](windowsribbon-controls-quickaccesstoolbar.md) Command list by the user. Specified by an [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) object through the [UI\_PKEY\_ItemsSource](windowsribbon-reference-properties-uipkey-itemssource.md) property key.
+-   Commands added to the [Quick Access Toolbar](windowsribbon-controls-quickaccesstoolbar.md) Command list by the user. Specified by an [**IUICollection**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) object through the [UI\_PKEY\_ItemsSource](windowsribbon-reference-properties-uipkey-itemssource.md) property key.
 
     The following screen shot shows the **Add to Quick Access Toolbar** context menu Command.
 
     ![screen shot of the command context menu in the microsoft paint ribbon.](images/controls/qat-contextmenu-add.png)
 
--   The preferred [Quick Access Toolbar](windowsribbon-controls-quickaccesstoolbar.md) docking state. Specified by the [**UI\_CONTROLDOCK**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_controldock) value of the [UI\_PKEY\_QuickAccessToolbarDock](windowsribbon-reference-properties-uipkey-quickaccesstoolbardock.md) property key.
+-   The preferred [Quick Access Toolbar](windowsribbon-controls-quickaccesstoolbar.md) docking state. Specified by the [**UI\_CONTROLDOCK**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_controldock) value of the [UI\_PKEY\_QuickAccessToolbarDock](windowsribbon-reference-properties-uipkey-quickaccesstoolbardock.md) property key.
 
     This screen shot shows the [Quick Access Toolbar](windowsribbon-controls-quickaccesstoolbar.md) in its default application title bar location and the **Show Quick Access Toolbar below the Ribbon** context menu Command.
 
@@ -59,9 +59,9 @@ Ribbon settings that can be modified at run time and preserved across applicatio
 
 ## Save Ribbon Settings
 
-The [**IUIRibbon::SaveSettingsToStream**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) method writes a binary representation of the persistent ribbon state (outlined in the previous section) to an [IStream](https://msdn.microsoft.com/library/Aa380034(VS.85).aspx) object. The application then saves the content of the IStream object to a file or the Windows registry.
+The [**IUIRibbon::SaveSettingsToStream**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) method writes a binary representation of the persistent ribbon state (outlined in the previous section) to an [IStream](/windows/win32/api/objidl/nn-objidl-istream) object. The application then saves the content of the IStream object to a file or the Windows registry.
 
-The following example demonstrates the basic code required to write the ribbon state to an [IStream](https://msdn.microsoft.com/library/Aa380034(VS.85).aspx) object using the [**IUIRibbon::SaveSettingsToStream**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) method.
+The following example demonstrates the basic code required to write the ribbon state to an [IStream](/windows/win32/api/objidl/nn-objidl-istream) object using the [**IUIRibbon::SaveSettingsToStream**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) method.
 
 
 ```C++
@@ -95,9 +95,9 @@ HRESULT CApplication::SaveRibbonStatusToStream(
 
 ## Load Ribbon Settings
 
-The [**IUIRibbon::LoadSettingsFromStream**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream) method is used to retrieve the persistent ribbon state information stored as an [IStream](https://msdn.microsoft.com/library/Aa380034(VS.85).aspx) object by the [**IUIRibbon::SaveSettingsToStream**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) method. The information in the IStream object is applied to the ribbon UI when the application initializes.
+The [**IUIRibbon::LoadSettingsFromStream**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream) method is used to retrieve the persistent ribbon state information stored as an [IStream](/windows/win32/api/objidl/nn-objidl-istream) object by the [**IUIRibbon::SaveSettingsToStream**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) method. The information in the IStream object is applied to the ribbon UI when the application initializes.
 
-The following example demonstrates the basic code required to load the ribbon state from an [IStream](https://msdn.microsoft.com/library/Aa380034(VS.85).aspx) object with the [**IUIRibbon::LoadSettingsFromStream**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream) method.
+The following example demonstrates the basic code required to load the ribbon state from an [IStream](/windows/win32/api/objidl/nn-objidl-istream) object with the [**IUIRibbon::LoadSettingsFromStream**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream) method.
 
 
 ```C++
@@ -122,7 +122,7 @@ HRESULT CApplication::LoadRibbonStatusFromStream(
 
 
 
-For optimal performance, the [**IUIRibbon::LoadSettingsFromStream**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream) method should be called from the [**IUIApplication::OnViewChanged**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-onviewchanged) callback function during the framework initialization phase, as shown in the following example.
+For optimal performance, the [**IUIRibbon::LoadSettingsFromStream**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream) method should be called from the [**IUIApplication::OnViewChanged**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-onviewchanged) callback function during the framework initialization phase, as shown in the following example.
 
 
 ```C++
@@ -158,9 +158,9 @@ HRESULT CMyRibbonApplication::_LoadRibbonSettings(IUIRibbon* pRibbon)
 
 
 
-Multiple instances of the same Ribbon framework application can manage each ribbon state independently as separate [IStream](https://msdn.microsoft.com/library/Aa380034(VS.85).aspx) objects or as a group through a single IStream object.
+Multiple instances of the same Ribbon framework application can manage each ribbon state independently as separate [IStream](/windows/win32/api/objidl/nn-objidl-istream) objects or as a group through a single IStream object.
 
-When synchronizing ribbon state across a group of application instances, each top-level window must listen for a [WM\_ACTIVATE](https://msdn.microsoft.com/library/ms646274(VS.85).aspx) notification. The top-level window being deactivated saves its ribbon state using the [**IUIRibbon::SaveSettingsToStream**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) method, and the top-level window being activated loads its ribbon state using the [**IUIRibbon::LoadSettingsFromStream**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream) method.
+When synchronizing ribbon state across a group of application instances, each top-level window must listen for a [WM\_ACTIVATE](../inputdev/wm-activate.md) notification. The top-level window being deactivated saves its ribbon state using the [**IUIRibbon::SaveSettingsToStream**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream) method, and the top-level window being activated loads its ribbon state using the [**IUIRibbon::LoadSettingsFromStream**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-loadsettingsfromstream) method.
 
 ## Related topics
 
@@ -172,7 +172,3 @@ When synchronizing ribbon state across a group of application instances, each to
  
 
  
-
-
-
-

@@ -41,10 +41,10 @@ The following media types are defined:
 [**ITQOSEvent::get\_MediaType**](/windows/desktop/api/tapi3if/nf-tapi3if-itqosevent-get_mediatype)
 </dt> <dt>
 
-[**ITAMMediaFormat::get\_MediaFormat**](https://msdn.microsoft.com/library/Aa382339(v=VS.85).aspx)
+[**ITAMMediaFormat::get\_MediaFormat**](/windows/win32/api/tapi3/nf-tapi3-itammediaformat-get_mediaformat)
 </dt> <dt>
 
-[**ITAMMediaFormat::put\_MediaFormat**](https://msdn.microsoft.com/library/Aa382349(v=VS.85).aspx)
+[**ITAMMediaFormat::put\_MediaFormat**](/windows/win32/api/tapi3/nf-tapi3-itammediaformat-put_mediaformat)
 </dt> <dt>
 
 [**ITCallInfo::get\_CallInfoLong**](/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfolong)
@@ -53,13 +53,8 @@ The following media types are defined:
 [**ITMediaSupport::get\_MediaTypes**](/windows/desktop/api/tapi3if/nf-tapi3if-itmediasupport-get_mediatypes)
 </dt> <dt>
 
-[**ITTerminalSupport::CreateTerminal**](https://msdn.microsoft.com/library/ms733172(v=VS.85).aspx)
+[**ITTerminalSupport::CreateTerminal**](/windows/win32/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal)
 </dt> </dl>
 
  
-
- 
-
-
-
 

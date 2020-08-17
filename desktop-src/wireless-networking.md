@@ -14,12 +14,12 @@ ms.date: 05/31/2018
 
 | Topic                                                                          | Description                                                                                                                                                                                                                                                                                                     |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Bluetooth](https://msdn.microsoft.com/library/Aa362932(v=VS.85).aspx)<br/>                         | Bluetooth is an industry-standard protocol that enables wireless connectivity for computers, handheld devices, mobile phones, and other devices.<br/>                                                                                                                                                     |
-| [Infrared Data Association (IrDA)](https://msdn.microsoft.com/library/ms691773(v=VS.85).aspx)<br/>            | Infrared Data Association (IrDA) is a protocol suite designed to provide wireless, line-of-sight connectivity between devices. <br/>                                                                                                                                                                      |
-| [Mobile Broadband](https://msdn.microsoft.com/library/Dd323271(v=VS.85).aspx)<br/>            | The Mobile Broadband API is used to implement connectivity to cellular networks. Applications should not communicate with such mobile broadband devices directly. Instead, they must use the Mobile Broadband API. <br/>                                                                                  |
-| [Native Wifi](https://msdn.microsoft.com/library/ms706556(v=VS.85).aspx)<br/>                                         | The Native Wifi automatic configuration component configures, connects to, and disconnects from wireless networks. Native Wifi can store profiles on the networks it interacts with in the form of XML documents. <br/>                                                                                   |
-| [Windows Connect Now](https://msdn.microsoft.com/library/Dd323260(v=VS.85).aspx)<br/>                                   | Windows Connect Now (WCN) allows mobile and embedded devices, 802.11 access points (APs), and computers to securely connect, and exchange settings with each other. WCN is designed for the home or small business user, providing a reasonable compromise between ease-of-use and robust security. <br/> |
-| [Windows Connection Manager](https://msdn.microsoft.com/library/Hh437650(v=VS.85).aspx)<br/> | Windows Connection Manager (WCM) enables the creation and configuration of connection manager software.<br/>                                                                                                                                                                                              |
+| [Bluetooth](./bluetooth/bluetooth-start-page.md)<br/>                         | Bluetooth is an industry-standard protocol that enables wireless connectivity for computers, handheld devices, mobile phones, and other devices.<br/>                                                                                                                                                     |
+| [Infrared Data Association (IrDA)](/previous-versions/windows/desktop/irda/irda-start-page)<br/>            | Infrared Data Association (IrDA) is a protocol suite designed to provide wireless, line-of-sight connectivity between devices. <br/>                                                                                                                                                                      |
+| [Mobile Broadband](./mbn/mobile-broadband-networks-portal.md)<br/>            | The Mobile Broadband API is used to implement connectivity to cellular networks. Applications should not communicate with such mobile broadband devices directly. Instead, they must use the Mobile Broadband API. <br/>                                                                                  |
+| [Native Wifi](./nativewifi/portal.md)<br/>                                         | The Native Wifi automatic configuration component configures, connects to, and disconnects from wireless networks. Native Wifi can store profiles on the networks it interacts with in the form of XML documents. <br/>                                                                                   |
+| [Windows Connect Now](./wcn/portal.md)<br/>                                   | Windows Connect Now (WCN) allows mobile and embedded devices, 802.11 access points (APs), and computers to securely connect, and exchange settings with each other. WCN is designed for the home or small business user, providing a reasonable compromise between ease-of-use and robust security. <br/> |
+| [Windows Connection Manager](./wcm/windows-connection-manager-portal.md)<br/> | Windows Connection Manager (WCM) enables the creation and configuration of connection manager software.<br/>                                                                                                                                                                                              |
 
 
 
@@ -29,16 +29,12 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[Internet](https://msdn.microsoft.com/library/Hh309468(v=VS.85).aspx)
+[Internet](/previous-versions//hh309468(v=vs.85))
 </dt> <dt>
 
-[Networking](https://msdn.microsoft.com/library/Ee663286(v=VS.85).aspx)
+[Networking](./networking.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -171,7 +171,7 @@ cleanup:
 
 ## Pull Subscriptions
 
-The pull subscription model uses an event object (see the [**CreateEventEx**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventexa) function) to signal the application that there are events in the result set that match the query criteria. Create a loop construct that waits on the event object until the event is signaled. Then, call the [**EvtNext**](/windows/desktop/api/WinEvt/nf-winevt-evtnext) function in a loop to enumerate the events in the result set. When the **EvtNext** function fails and sets the last error to ERROR\_NO\_MORE\_ITEMS, reset the event object and wait for the service to signal the object again when there are events in the result set.
+The pull subscription model uses an event object (see the [**CreateEventEx**](/windows/desktop/api/synchapi/nf-synchapi-createeventexa) function) to signal the application that there are events in the result set that match the query criteria. Create a loop construct that waits on the event object until the event is signaled. Then, call the [**EvtNext**](/windows/desktop/api/WinEvt/nf-winevt-evtnext) function in a loop to enumerate the events in the result set. When the **EvtNext** function fails and sets the last error to ERROR\_NO\_MORE\_ITEMS, reset the event object and wait for the service to signal the object again when there are events in the result set.
 
 The following example shows how to use the pull subscription model.
 
@@ -396,7 +396,3 @@ BOOL IsKeyEvent(HANDLE hStdIn)
  
 
  
-
-
-
-

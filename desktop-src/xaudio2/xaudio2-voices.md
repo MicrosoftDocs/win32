@@ -14,9 +14,9 @@ There are three types of XAudio2 voice objects: *source*, *submix*, and *masteri
 
 All voices perform the following actions in order on the audio that travels though them.
 
-1.  Overall volume adjustment, affecting all audio channels. See [**IXAudio2Voice::SetVolume**](https://msdn.microsoft.com/library/Ee418600(v=VS.85).aspx).
+1.  Overall volume adjustment, affecting all audio channels. See [**IXAudio2Voice::SetVolume**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-setvolume).
 2.  An optional client-specified chain of one or more DSP effects, such as the built-in reverb or a user effect defined by the [**IXAPO**](/windows/desktop/api/XAPO/nn-xapo-ixapo) interface. See [XAudio2 Audio Effects](xaudio2-audio-effects.md).
-3.  Per-channel output volume adjustment. See [**IXAudio2Voice::SetChannelVolumes**](https://msdn.microsoft.com/library/Ee418593(v=VS.85).aspx).
+3.  Per-channel output volume adjustment. See [**IXAudio2Voice::SetChannelVolumes**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-setchannelvolumes).
 4.  Separate matrix mix to each of the destination voices or to the audio output device for mastering voices. This mix changes the number of channels in the audio, if necessary.
 
 ## Source Voices
@@ -27,8 +27,8 @@ In addition to the actions performed by all voices, source voices perform the fo
 
 -   If necessary, a decoder runs first to convert encoded source data to Pulse Code Modulation (PCM).
 -   A variable-rate sample rate conversion (SRC) converts the voice's source audio data to the sample rate expected by its destination voices, if necessary, and also supports dynamic pitch changes.
--   An optional state-variable filter can be used to color the sound in various ways. See [**IXAudio2Voice::SetFilterParameters**](https://msdn.microsoft.com/library/Ee418596(v=VS.85).aspx).
--   An optional filter can be applied to the voice's outputs. See [**IXAudio2Voice::SetOutputFilterParameters**](https://msdn.microsoft.com/library/Ee418597(v=VS.85).aspx).
+-   An optional state-variable filter can be used to color the sound in various ways. See [**IXAudio2Voice::SetFilterParameters**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-setfilterparameters).
+-   An optional filter can be applied to the voice's outputs. See [**IXAudio2Voice::SetOutputFilterParameters**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputfilterparameters).
 
 ## Submix Voices
 
@@ -37,8 +37,8 @@ A submix voice is used primarily for performance improvements and effects proces
 In addition to the actions performed by all voices, submix voices perform the following actions.
 
 -   A fixed-rate SRC runs on the voice's output, if necessary, to convert the audio to the sample rate expected by its destination voices.
--   An optional state-variable filter can be used to color the sound in various ways. See [**IXAudio2Voice::SetFilterParameters**](https://msdn.microsoft.com/library/Ee418596(v=VS.85).aspx).
--   An optional filter can be applied to the voice's outputs. See [**IXAudio2Voice::SetOutputFilterParameters**](https://msdn.microsoft.com/library/Ee418597(v=VS.85).aspx).
+-   An optional state-variable filter can be used to color the sound in various ways. See [**IXAudio2Voice::SetFilterParameters**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-setfilterparameters).
+-   An optional filter can be applied to the voice's outputs. See [**IXAudio2Voice::SetOutputFilterParameters**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputfilterparameters).
 
 ## Mastering Voices
 
@@ -71,6 +71,3 @@ In addition to the actions performed by all voices, mastering voices perform the
  
 
  
-
-
-

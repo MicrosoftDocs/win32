@@ -134,32 +134,32 @@
         - name: "CXAPOBase Members"
           href: cxapobase-members.md
         - name: "CXAPOBase method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapobase-cxapobase
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapobase-cxapobase
         - name: "GetRegistrationPropertiesInternal method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapobase-getregistrationpropertiesinternal
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapobase-getregistrationpropertiesinternal
         - name: "IsLocked method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapobase-islocked
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapobase-islocked
         - name: "ProcessThru method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapobase-processthru
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapobase-processthru
         - name: "ValidateFormatDefault method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapobase-validateformatdefault
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapobase-validateformatdefault
         - name: "ValidateFormatPair method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapobase-validateformatpair
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapobase-validateformatpair
       - name: "CXAPOParametersBase"
         href: /windows/desktop/api/XAPOBase/nl-xapobase-cxapoparametersbase
         items: 
         - name: "CXAPOParametersBase Members"
           href: cxapoparametersbase-members.md
         - name: "CXAPOParametersBase method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-cxapoparametersbase
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-cxapoparametersbase
         - name: "BeginProcess method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-beginprocess
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-beginprocess
         - name: "EndProcess method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-endprocess
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-endprocess
         - name: "OnSetParameters method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-onsetparameters
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-onsetparameters
         - name: "ParametersChanged method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-parameterschanged
+          href: /windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-parameterschanged
     - name: "Constants"
       href: constants.md
       items: 
@@ -238,169 +238,169 @@
         href: /windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2
         items: 
         - name: "AddRef method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-addref
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-addref
         - name: "CommitChanges method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-commitchanges
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-commitchanges
         - name: "CreateMasteringVoice method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice
         - name: "CreateSourceVoice method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice
         - name: "CreateSubmixVoice method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsubmixvoice
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsubmixvoice
         - name: "GetPerformanceData method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-getperformancedata
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-getperformancedata
         - name: "QueryInterface method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-queryinterface
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-queryinterface
         - name: "RegisterForCallbacks method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-registerforcallbacks
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-registerforcallbacks
         - name: "Release method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-release
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-release
         - name: "SetDebugConfiguration method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-setdebugconfiguration
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-setdebugconfiguration
         - name: "StartEngine method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-startengine
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-startengine
         - name: "StopEngine method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-stopengine
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-stopengine
         - name: "UnregisterForCallbacks method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-unregisterforcallbacks
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-unregisterforcallbacks
       - name: "IXAudio2Voice"
         href: /windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice
         items: 
         - name: "DestroyVoice method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-destroyvoice
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-destroyvoice
         - name: "DisableEffect method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-disableeffect
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-disableeffect
         - name: "EnableEffect method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-enableeffect
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-enableeffect
         - name: "GetChannelVolumes method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getchannelvolumes
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getchannelvolumes
         - name: "GetEffectParameters method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectparameters
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectparameters
         - name: "GetEffectState method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectstate
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectstate
         - name: "GetFilterParameters method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getfilterparameters
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getfilterparameters
         - name: "GetOutputFilterParameters method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getoutputfilterparameters
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getoutputfilterparameters
         - name: "GetOutputMatrix method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getoutputmatrix
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getoutputmatrix
         - name: "GetVoiceDetails method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getvoicedetails
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getvoicedetails
         - name: "GetVolume method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getvolume
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getvolume
         - name: "SetChannelVolumes method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setchannelvolumes
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setchannelvolumes
         - name: "SetEffectChain method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectchain
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectchain
         - name: "SetEffectParameters method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectparameters
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectparameters
         - name: "SetFilterParameters method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setfilterparameters
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setfilterparameters
         - name: "SetOutputFilterParameters method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputfilterparameters
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputfilterparameters
         - name: "SetOutputMatrix method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputmatrix
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputmatrix
         - name: "SetOutputVoices method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputvoices
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputvoices
         - name: "SetVolume method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setvolume
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setvolume
       - name: "IXAudio2SourceVoice"
         href: /windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice
         items: 
         - name: "Discontinuity method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-discontinuity
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-discontinuity
         - name: "ExitLoop method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-exitloop
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-exitloop
         - name: "FlushSourceBuffers method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-flushsourcebuffers
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-flushsourcebuffers
         - name: "GetFrequencyRatio method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-getfrequencyratio
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-getfrequencyratio
         - name: "GetState method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-getstate
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-getstate
         - name: "SetFrequencyRatio method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-setfrequencyratio
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-setfrequencyratio
         - name: "SetSourceSampleRate method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-setsourcesamplerate
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-setsourcesamplerate
         - name: "Start method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-start
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-start
         - name: "Stop method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-stop
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-stop
         - name: "SubmitSourceBuffer method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-submitsourcebuffer
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-submitsourcebuffer
       - name: "IXAudio2SubmixVoice"
         href: /windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2submixvoice
       - name: "IXAudio2MasteringVoice"
         href: /windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2masteringvoice
         items: 
         - name: "GetChannelMask method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2masteringvoice-getchannelmask
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2masteringvoice-getchannelmask
       - name: "IXAudio2EngineCallback"
         href: /windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback
         items: 
         - name: "OnCriticalError method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-oncriticalerror
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-oncriticalerror
         - name: "OnProcessingPassEnd method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-onprocessingpassend
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-onprocessingpassend
         - name: "OnProcessingPassStart method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-onprocessingpassstart
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-onprocessingpassstart
       - name: "IXAudio2VoiceCallback"
         href: /windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voicecallback
         items: 
         - name: "OnBufferEnd method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferend
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferend
         - name: "OnBufferStart method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferstart
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferstart
         - name: "OnLoopEnd method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onloopend
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onloopend
         - name: "OnStreamEnd method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onstreamend
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onstreamend
         - name: "OnVoiceError method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceerror
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceerror
         - name: "OnVoiceProcessingPassEnd method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceprocessingpassend
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceprocessingpassend
         - name: "OnVoiceProcessingPassStart method"
-          href: https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceprocessingpassstart
+          href: /windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceprocessingpassstart
       - name: "IXAPO"
         href: /windows/desktop/api/XAPO/nn-xapo-ixapo
         items: 
         - name: "CalcInputFrames method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-calcinputframes
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-calcinputframes
         - name: "CalcOutputFrames method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-calcoutputframes
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-calcoutputframes
         - name: "GetRegistrationProperties method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-getregistrationproperties
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-getregistrationproperties
         - name: "Initialize method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-initialize
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-initialize
         - name: "IsInputFormatSupported method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-isinputformatsupported
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-isinputformatsupported
         - name: "IsOutputFormatSupported method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-isoutputformatsupported
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-isoutputformatsupported
         - name: "LockForProcess method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-lockforprocess
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-lockforprocess
         - name: "Process method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-process
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-process
         - name: "Reset method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-reset
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-reset
         - name: "UnlockForProcess method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-unlockforprocess
+          href: /windows/desktop/api/xapo/nf-xapo-ixapo-unlockforprocess
       - name: "IXAPOParameters"
         href: /windows/desktop/api/XAPO/nn-xapo-ixapoparameters
         items: 
         - name: "GetParameters method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapoparameters-getparameters
+          href: /windows/desktop/api/xapo/nf-xapo-ixapoparameters-getparameters
         - name: "SetParameters method"
-          href: https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters
+          href: /windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters
       - name: "IXAPOHrtfParameters"
-        href: https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters
+        href: /windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters
         items: 
         - name: "SetEnvironment method"
-          href: https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setenvironment
+          href: /windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setenvironment
         - name: "SetSourceGain method"
-          href: https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourcegain
+          href: /windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourcegain
         - name: "SetSourceOrientation method"
-          href: https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourceorientation
+          href: /windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourceorientation
         - name: "SetSourcePosition method"
-          href: https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourceposition
+          href: /windows/desktop/api/hrtfapoapi/nf-hrtfapoapi-ixapohrtfparameters-setsourceposition
     - name: "Macros"
       href: macros.md
       items: 

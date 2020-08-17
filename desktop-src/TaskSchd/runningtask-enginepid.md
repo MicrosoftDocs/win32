@@ -39,7 +39,7 @@ The process ID for the engine which is running the task.
 
 ## Remarks
 
-The process ID returned by this property cannot be appended directly to a string. The returned value needs to be converted to an integer value first by calling the [CInt](https://msdn.microsoft.com/library/fctcwhw9.aspx) function on the returned value.
+The process ID returned by this property cannot be appended directly to a string. The returned value needs to be converted to an integer value first by calling the [CInt](/previous-versions//fctcwhw9(v=vs.85)) function on the returned value.
 
 
 ```VB
@@ -63,10 +63,4 @@ wscript.echo "Process Id of Engine is " & "ProcessId
 
 
  
-
- 
-
-
-
-
 

@@ -10,7 +10,7 @@ ms.topic: reference
 
 # CHString::FormatMessageW methods
 
-\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The overloaded **FormatMessageW** method formats a message string.
 
@@ -20,8 +20,8 @@ The overloaded **FormatMessageW** method formats a message string.
 
 | Method                                                              | Description                                                                                     |
 |:--------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|
-| [**FormatMessageW(UINT)**](https://msdn.microsoft.com/library/Aa385519(v=VS.85).aspx)       | Formats this message according to the resource identifier specified by the **UINT**.<br/> |
-| [**FormatMessageW(LPCWSTR)**](https://msdn.microsoft.com/library/Aa385515(v=VS.85).aspx) | Formats this message string according to the format specified by the **LPCWSTR**.<br/>    |
+| [**FormatMessageW(UINT)**](/previous-versions/windows/desktop/legacy/aa385519(v=vs.85))       | Formats this message according to the resource identifier specified by the **UINT**.<br/> |
+| [**FormatMessageW(LPCWSTR)**](/windows/win32/api/chstring/nf-chstring-chstring-formatmessagew(lpcwstr_---)) | Formats this message string according to the format specified by the **LPCWSTR**.<br/>    |
 
 
 
@@ -42,7 +42,3 @@ The overloaded **FormatMessageW** method formats a message string.
 �
 
 �
-
-
-
-

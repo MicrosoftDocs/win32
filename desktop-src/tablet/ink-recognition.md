@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Ink Recognition
 
-Not all applications require the use of recognition, but because most applications were designed with text as their primary data type, the ability to convert ink into text is very valuable. You can use the recognition features of the Tablet PC platform API to query for information about the recognition engines that are available, such as what languages they recognize. You can then send a [**Strokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection from an [**Ink**](inkdisp-class.md) object to a recognition engine and have it return a [**RecognitionResult**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult) object.
+Not all applications require the use of recognition, but because most applications were designed with text as their primary data type, the ability to convert ink into text is very valuable. You can use the recognition features of the Tablet PC platform API to query for information about the recognition engines that are available, such as what languages they recognize. You can then send a [**Strokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) collection from an [**Ink**](inkdisp-class.md) object to a recognition engine and have it return a [**RecognitionResult**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult) object.
 
 ## RecognizerContext Object
 
@@ -18,7 +18,7 @@ A [**RecognizerContext**](inkrecognizercontext-class.md) object is the instantia
 
 A single Tablet PC may have one or more recognizers available. You can query the recognizer's collection to determine which recognizer to use. A recognizer provides specific information about its capabilities such as the language it can recognize and the manufacturer.
 
-To determine whether at least one recognizer is installed, instantiate an [**InkRecognizerContext**](inkrecognizercontext-class.md) object as shown in the following C++ and C\# code examples. If a recognizer is not present, this call to [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) fails.
+To determine whether at least one recognizer is installed, instantiate an [**InkRecognizerContext**](inkrecognizercontext-class.md) object as shown in the following C++ and C\# code examples. If a recognizer is not present, this call to [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) fails.
 
 
 ```C++
@@ -55,7 +55,7 @@ catch
 
 ## RecognitionResult and RecognitionAlternate Objects
 
-The results of the recognition are returned in a [**RecognitionResult**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult) object. The results contain a best result string in the [TopString](https://msdn.microsoft.com/library/ms829602(v=MSDN.10).aspx) property, as well as a collection of alternative results in a [**RecognitionAlternates**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates) collection. The **RecognitionResult** object can be persisted with the original [**Strokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection from which it was generated.
+The results of the recognition are returned in a [**RecognitionResult**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult) object. The results contain a best result string in the [TopString](/previous-versions/ms829602(v=msdn.10)) property, as well as a collection of alternative results in a [**RecognitionAlternates**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates) collection. The **RecognitionResult** object can be persisted with the original [**Strokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) collection from which it was generated.
 
 ## RecognizerGuide Structure
 
@@ -74,6 +74,3 @@ For more information about using the [**RecognizerGuide**](inkrecognizerguide-cl
  
 
  
-
-
-

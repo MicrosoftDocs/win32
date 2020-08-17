@@ -63,11 +63,8 @@ Generally, applications should not perform operating system version checks. If a
 ## Links to Other Resources
 
 -   [Application Compatibility Toolkit Download](/windows-hardware/get-started/adk-install)
--   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](https://technet.microsoft.com/library/cc765984.aspx)
+-   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](/previous-versions/windows/it-pro/windows-7/cc765984(v=ws.10))
 
  
 
  
-
-
-

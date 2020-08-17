@@ -129,7 +129,7 @@ The following list describes supported configurations and restrictions:
 -   Given the presence of one NTFS file system, and given the appropriate choice of context (see [Shadow Copy Context Configurations](shadow-copy-context-configurations.md)), any supported local file system can be shadow copied.
 -   You can make shadow copies only for locally mounted file systems. Remote shares and other cross-mounted file systems cannot be shadow copied by the system that mounts them. These file systems can be shadow copied only by the systems that serve out the file systems.
 -   Writers and requesters should specify only local resources. Local resources are sets of files whose absolute path starts with a drive letter, and the drive letter cannot be associated with a mounted folder on a remote share.
--   The maximum number is of software shadow copies for each volume is 512. However, by default you can only maintain 64 shadow copies that are used by the Shadow Copies of Shared Folders feature. To change the limit for the Shadow Copies of Shared Folders feature, use the [MaxShadowCopies](https://msdn.microsoft.com/library/Bb891959(v=VS.85).aspx) registry key.
+-   The maximum number is of software shadow copies for each volume is 512. However, by default you can only maintain 64 shadow copies that are used by the Shadow Copies of Shared Folders feature. To change the limit for the Shadow Copies of Shared Folders feature, use the [MaxShadowCopies](../backup/registry-keys-for-backup-and-restore.md) registry key.
 -   The Backup Components infrastructure does not support backing up cluster resources as writer components. To back up cluster resources, applications should assume that the path is local to a specified particular cluster node.
 -   [!Note]  
     > Microsoft does not provide developer or IT professional technical support for implementing online system state restores on Windows (all releases).
@@ -146,7 +146,3 @@ The following list describes supported configurations and restrictions:
  
 
  
-
-
-
-

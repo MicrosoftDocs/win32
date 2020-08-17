@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # WM\_STYLECHANGED message
 
-Sent to a window after the [**SetWindowLong**](https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx) function has changed one or more of the window's styles.
+Sent to a window after the [**SetWindowLong**](/windows/win32/api/winuser/nf-winuser-setwindowlonga) function has changed one or more of the window's styles.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -44,7 +44,7 @@ Indicates whether the window's styles or extended window styles have changed. Th
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**STYLESTRUCT**](https://msdn.microsoft.com/library/ms632607(v=VS.85).aspx) structure that contains the new styles for the window. An application can examine the styles, but cannot change them.
+A pointer to a [**STYLESTRUCT**](/windows/win32/api/winuser/ns-winuser-stylestruct) structure that contains the new styles for the window. An application can examine the styles, but cannot change them.
 
 </dd> </dl>
 
@@ -73,10 +73,10 @@ An application should return zero if it processes this message.
 **Reference**
 </dt> <dt>
 
-[**SetWindowLong**](https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx)
+[**SetWindowLong**](/windows/win32/api/winuser/nf-winuser-setwindowlonga)
 </dt> <dt>
 
-[**STYLESTRUCT**](https://msdn.microsoft.com/library/ms632607(v=VS.85).aspx)
+[**STYLESTRUCT**](/windows/win32/api/winuser/ns-winuser-stylestruct)
 </dt> <dt>
 
 [**WM\_STYLECHANGING**](wm-stylechanging.md)
@@ -91,7 +91,3 @@ An application should return zero if it processes this message.
  
 
  
-
-
-
-

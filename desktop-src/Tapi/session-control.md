@@ -15,11 +15,8 @@ Session control involves two basic areas:
 -   [Session Operations](session-operations-ovr.md) are controls that initiate, maintain, and terminate a communications session.
 -   [Session Information](session-information-ovr.md) describes data that can be obtained concerning a communications session.
 
-Two specialized types of session control are not covered in this section. For information on Automatic Call Distribution Centers, see [Call Center Control](https://msdn.microsoft.com/library/ms734836(v=VS.85).aspx) (TAPI 2.x) or [About Call Center Controls](about-call-center-controls.md) (TAPI 3.x). For information on IP conferencing, see [About Rendezvous IP Telephony Conferencing](about-rendezvous-ip-telephony-conferencing.md).
+Two specialized types of session control are not covered in this section. For information on Automatic Call Distribution Centers, see [Call Center Control](./call-center-control.md) (TAPI 2.x) or [About Call Center Controls](about-call-center-controls.md) (TAPI 3.x). For information on IP conferencing, see [About Rendezvous IP Telephony Conferencing](about-rendezvous-ip-telephony-conferencing.md).
 
  
 
  
-
-
-

@@ -22,11 +22,8 @@ The following topics describe the TAPI 2.2 features that you can use to implemen
 -   [Call State Timer](call-state-timer.md)
 -   [Media Event Timers](media-event-timers.md)
 
-TAPI 3.x is the preferred API of writing ACD Agent applications. Please see the [Call Center Controls](https://msdn.microsoft.com/library/ms725998(v=VS.85).aspx) section for information on using these interfaces and methods. However, TAPI 2.2 remains usable for full ACD application suites if desired.
+TAPI 3.x is the preferred API of writing ACD Agent applications. Please see the [Call Center Controls](./about-call-center-controls.md) section for information on using these interfaces and methods. However, TAPI 2.2 remains usable for full ACD application suites if desired.
 
  
 
  
-
-
-

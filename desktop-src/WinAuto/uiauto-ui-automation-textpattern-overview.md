@@ -33,7 +33,7 @@ This section describes how to use Microsoft UI Automation to expose the textual 
 -   [About the Text and TextRange Control Patterns](uiauto-about-text-and-textrange-patterns.md)
 -   [How UI Automation Exposes Embedded Objects](uiauto-textpattern-and-embedded-objects-overview.md)
 -   [UI Automation Text Attributes](uiauto-textattributes.md)
--   [UI Automation Text Units](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-uiautomationtextunits)
+-   [UI Automation Text Units](/windows/desktop/WinAuto/uiauto-uiautomationtextunits)
 
 ## Related topics
 
@@ -54,7 +54,3 @@ This section describes how to use Microsoft UI Automation to expose the textual 
  
 
  
-
-
-
-

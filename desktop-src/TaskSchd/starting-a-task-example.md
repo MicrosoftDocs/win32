@@ -14,11 +14,11 @@ The following procedure describes how to start a task.
 
 **To start a task**
 
-1.  Call [**CoInitialize**](https://msdn.microsoft.com/library/ms678543(v=VS.85).aspx) to initialize the COM library and [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) to get a Task Scheduler object. (This example assumes that the Task Scheduler service is running.)
+1.  Call [**CoInitialize**](/windows/win32/api/objbase/nf-objbase-coinitialize) to initialize the COM library and [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) to get a Task Scheduler object. (This example assumes that the Task Scheduler service is running.)
 2.  Call [**ITaskScheduler::Activate**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-activate) to get the [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) interface of the task object. (Note that this example gets the "Test Task" task.)
 3.  Call [**Run**](/windows/desktop/api/Mstask/nf-mstask-ischeduledworkitem-run) to start the task. Note that this method is inherited by the [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) interface.
 4.  Continue processing as needed.
-5.  Call **ITask::Release** to free resources and [**CoUninitialize**](https://msdn.microsoft.com/library/ms688715(v=VS.85).aspx) to uninitialize COM. This example calls [**Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) to free the pointer to the [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) interface. (Note that **Release** is an [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) method inherited by **ITask**.)
+5.  Call **ITask::Release** to free resources and [**CoUninitialize**](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) to uninitialize COM. This example calls [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) to free the pointer to the [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) interface. (Note that **Release** is an [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) method inherited by **ITask**.)
 
 
 
@@ -40,7 +40,3 @@ The following procedure describes how to start a task.
  
 
  
-
-
-
-

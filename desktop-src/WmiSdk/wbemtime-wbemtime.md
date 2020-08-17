@@ -10,7 +10,7 @@ ms.topic: reference
 
 # WBEMTime::WBEMTime constructors
 
-\[The [**WBEMTime**](wbemtime.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**WBEMTime**](wbemtime.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The **WBEMTime** class constructor facilitates conversions between various Windows and ANSI C run-time time formats.
 
@@ -20,12 +20,12 @@ The **WBEMTime** class constructor facilitates conversions between various Windo
 
 | Constructor                                                                 | Description                                                               |
 |:----------------------------------------------------------------------------|:--------------------------------------------------------------------------|
-| [**WBEMTime()**](https://msdn.microsoft.com/library/Aa394048(v=VS.85).aspx)                                   | Creates an uninitialized time object.<br/>                          |
-| [**WBEMTime(BSTR)**](https://msdn.microsoft.com/library/Aa394043(v=VS.85).aspx)                           | Initializes the new time object to the value in the parameter.<br/> |
-| [**WBEMTime(const time\_t&)**](https://msdn.microsoft.com/library/Aa394047(v=VS.85).aspx)        | Initializes the new time object to the value in the parameter.<br/> |
-| [**WBEMTime(const struct tm)**](https://msdn.microsoft.com/library/Aa394045(v=VS.85).aspx)    | Initializes the new time object to the value in the parameter.<br/> |
-| [**WBEMTime(const FILETIME&)**](https://msdn.microsoft.com/library/Aa394044(v=VS.85).aspx)     | Initializes the new time object to the value in the parameter.<br/> |
-| [**WBEMTime(const SYSTEMTIME&)**](https://msdn.microsoft.com/library/Aa394046(v=VS.85).aspx) | Initializes the new time object to the value in the parameter.<br/> |
+| [**WBEMTime()**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constbstr))                                   | Creates an uninitialized time object.<br/>                          |
+| [**WBEMTime(BSTR)**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constbstr))                           | Initializes the new time object to the value in the parameter.<br/> |
+| [**WBEMTime(const time\_t&)**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(consttime_t_))        | Initializes the new time object to the value in the parameter.<br/> |
+| [**WBEMTime(const struct tm)**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(consttm_))    | Initializes the new time object to the value in the parameter.<br/> |
+| [**WBEMTime(const FILETIME&)**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constfiletime_))     | Initializes the new time object to the value in the parameter.<br/> |
+| [**WBEMTime(const SYSTEMTIME&)**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constsystemtime_)) | Initializes the new time object to the value in the parameter.<br/> |
 
 
 
@@ -45,7 +45,3 @@ The **WBEMTime** class constructor facilitates conversions between various Windo
 �
 
 �
-
-
-
-

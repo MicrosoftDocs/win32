@@ -57,7 +57,7 @@ The call has been established and the connection is made. Information is able to
 
 
 
-The originator is dialing digits on the call. The dialed digits are collected by the switch. Note that neither [**lineGenerateDigits**](/windows/desktop/api/Tapi/nf-tapi-linegeneratedigits) nor [**TSPI\_lineGenerateDigits**](https://msdn.microsoft.com/library/ms725548(v=VS.85).aspx) will place the line into the dialing state.
+The originator is dialing digits on the call. The dialed digits are collected by the switch. Note that neither [**lineGenerateDigits**](/windows/desktop/api/Tapi/nf-tapi-linegeneratedigits) nor [**TSPI\_lineGenerateDigits**](/windows/win32/api/tspi/nf-tspi-tspi_linegeneratedigits) will place the line into the dialing state.
 
 
 </dt> </dl> </dd> <dt>
@@ -206,9 +206,4 @@ The **LINECALLSTATE\_constants** are used as parameters by the [**LINE\_CALLSTAT
 </dt> </dl>
 
  
-
- 
-
-
-
 

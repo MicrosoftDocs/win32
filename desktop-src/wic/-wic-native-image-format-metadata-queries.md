@@ -32,7 +32,7 @@ To understand this topic, you should be familiar with the Windows Imaging Compon
 
 ## Photo Metadata Policy Expression
 
-In addition to supporting the metadata query language, [WIC](-wic-api.md) also accepts canonical property names from the [Windows Property System](https://msdn.microsoft.com/library/Ff728898(v=VS.85).aspx). WIC supports a subset of the Windows property namespace that is relevant to image formats, as described in [Photo Metadata Policies](photo-metadata-policies.md). A Windows property that is used as a WIC metadata query is referred to as a photo metadata policy expression.
+In addition to supporting the metadata query language, [WIC](-wic-api.md) also accepts canonical property names from the [Windows Property System](../properties/windows-properties-system.md). WIC supports a subset of the Windows property namespace that is relevant to image formats, as described in [Photo Metadata Policies](photo-metadata-policies.md). A Windows property that is used as a WIC metadata query is referred to as a photo metadata policy expression.
 
 For example, the photo metadata policy expression for the EXIF orientation flag is:
 
@@ -572,6 +572,3 @@ If there is no friendly schema prefix for a particular schema, for example if an
  
 
  
-
-
-

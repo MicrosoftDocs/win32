@@ -17,7 +17,7 @@ api_location:
 # WINSOCK\_WS2HELP\_LSP\_REMOVE event
 
 > [!Note]  
-> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/library/Aa366510(v=VS.85).aspx).
+> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](../fwp/windows-filtering-platform-start-page.md).
 
  
 
@@ -37,7 +37,7 @@ const EVENT_DESCRIPTOR WINSOCK_WS2HELP_LSP_REMOVE = {0x2, 0x0, 0x10, 0x0, 0x0, 0
 *LSP Name* 
 </dt> <dd>
 
-The name of the LSP as obtained from the **szProtocol** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure for the LSP being removed.
+The name of the LSP as obtained from the **szProtocol** member of the [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure for the LSP being removed.
 
 </dd> <dt>
 
@@ -65,7 +65,7 @@ The GUID value of the Winsock transport provider that the LSP is being removed f
 *Category* 
 </dt> <dd>
 
-The **dwCatalogEntryId** member of the [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structure for the LSP being removed.
+The **dwCatalogEntryId** member of the [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure for the LSP being removed.
 
 </dd> </dl>
 
@@ -103,7 +103,3 @@ The **WINSOCK\_WS2HELP\_LSP\_REMOVE** event is traced for an LSP removal operati
  
 
  
-
-
-
-

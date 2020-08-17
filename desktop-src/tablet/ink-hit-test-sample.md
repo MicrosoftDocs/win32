@@ -31,10 +31,10 @@ using Microsoft.Ink;
 
 The form's Load event handler:
 
--   Creates an [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx) object, ic, for the form.
--   Sets the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx) object's [CollectionMode](https://msdn.microsoft.com/library/ms836497(v=MSDN.10).aspx) property to ignore gestures.
--   Enables the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx).
--   Sets the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx) object's [AutoRedraw](https://msdn.microsoft.com/library/ms836495(v=MSDN.10).aspx) property to **TRUE**.
+-   Creates an [InkCollector](/previous-versions/ms583683(v=vs.100)) object, ic, for the form.
+-   Sets the [InkCollector](/previous-versions/ms583683(v=vs.100)) object's [CollectionMode](/previous-versions/ms836497(v=msdn.10)) property to ignore gestures.
+-   Enables the [InkCollector](/previous-versions/ms583683(v=vs.100)).
+-   Sets the [InkCollector](/previous-versions/ms583683(v=vs.100)) object's [AutoRedraw](/previous-versions/ms836495(v=msdn.10)) property to **TRUE**.
 
 
 ```C++
@@ -70,21 +70,21 @@ else if( mode == ApplicationMode.NearestPoint )
 
 
 
-This sample has a very straightforward repaint algorithm. With its [AutoRedraw](https://msdn.microsoft.com/library/ms836495(v=MSDN.10).aspx) property set to **TRUE**, the ink collector repaints itself when the form is redrawn. To simplify redrawing the form, the application tracks a bounding box, the invalidateRect member variable, for the area where paint is added, which is invalidated each time the form is redrawn.
+This sample has a very straightforward repaint algorithm. With its [AutoRedraw](/previous-versions/ms836495(v=msdn.10)) property set to **TRUE**, the ink collector repaints itself when the form is redrawn. To simplify redrawing the form, the application tracks a bounding box, the invalidateRect member variable, for the area where paint is added, which is invalidated each time the form is redrawn.
 
 ## Handling Menu Events
 
-The Exit command disables the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx) before exiting the application.
+The Exit command disables the [InkCollector](/previous-versions/ms583683(v=vs.100)) before exiting the application.
 
 The Ink command updates the application mode and menu status, enables the ink collector, and invalidates the previously painted region of the form.
 
 Both the Hit Test and Nearest Point commands change the cursor, update the application mode and menu status, disable the ink collector, and invalidate the previously painted region of the form.
 
-The Clear! command disables the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx) while replacing InkCollector object's [Ink](https://msdn.microsoft.com/library/ms836505(v=MSDN.10).aspx) property with a new [Ink](https://msdn.microsoft.com/library/ms571716(v=VS.100).aspx) object, generates an Ink command event, and forces a refresh on the control.
+The Clear! command disables the [InkCollector](/previous-versions/ms583683(v=vs.100)) while replacing InkCollector object's [Ink](/previous-versions/ms836505(v=msdn.10)) property with a new [Ink](/previous-versions/ms571716(v=vs.100)) object, generates an Ink command event, and forces a refresh on the control.
 
 ## Handling Mouse Events
 
-The [MouseMove](https://msdn.microsoft.com/library/ms567617(v=VS.90).aspx) event handler checks the application mode:
+The [MouseMove](/previous-versions/ms567617(v=vs.100)) event handler checks the application mode:
 
 -   In Ink mode, it does nothing, allowing ink to be collected normally by the ink collector.
 -   In HitTest mode, it sends the event arguments to the application's handleHitTest method.
@@ -109,7 +109,7 @@ using (Graphics g = CreateGraphics())
 
 
 
-Then, the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx) object uses the [Microsoft.Ink.Ink.HitTest()](https://msdn.microsoft.com/library/ms571330(v=VS.90).aspx) method to find any strokes that are within pt3.X - pt2.X ink space units of the cursor, pt2.
+Then, the [InkCollector](/previous-versions/ms583683(v=vs.100)) object uses the [Microsoft.Ink.Ink.HitTest()](/previous-versions/dotnet/netframework-3.5/ms571330(v=vs.90)) method to find any strokes that are within pt3.X - pt2.X ink space units of the cursor, pt2.
 
 
 ```C++
@@ -122,7 +122,7 @@ The handleHitTest method then sets the pen color based on whether strokes were f
 
 ## Locating the Nearest Point
 
-The application's handleNearestPoint method creates two points both equal to the cursor's location, one of these points, pt, is converted to ink space and used in the call to the NearestPoint method of the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx)'s [Ink](https://msdn.microsoft.com/library/ms836505(v=MSDN.10).aspx) object. The NearestPoint method returns the [Stroke](https://msdn.microsoft.com/library/ms827842(v=MSDN.10).aspx) object closest to the point, and sets the floating point index output parameter.
+The application's handleNearestPoint method creates two points both equal to the cursor's location, one of these points, pt, is converted to ink space and used in the call to the NearestPoint method of the [InkCollector](/previous-versions/ms583683(v=vs.100))'s [Ink](/previous-versions/ms836505(v=msdn.10)) object. The NearestPoint method returns the [Stroke](/previous-versions/ms827842(v=msdn.10)) object closest to the point, and sets the floating point index output parameter.
 
 
 ```C++
@@ -149,11 +149,8 @@ The nearest point coordinates are then converted to pixels from ink space, The h
 
 ## Closing the Form
 
-The form's Dispose method disposes the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx) object.
+The form's Dispose method disposes the [InkCollector](/previous-versions/ms583683(v=vs.100)) object.
 
  
 
  
-
-
-

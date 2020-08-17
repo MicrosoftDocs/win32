@@ -54,7 +54,7 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory allocated for the *ppUrl* parameter.
+The application must use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) to free the memory allocated for the *ppUrl* parameter.
 
 An URL is typically used to reference a Web page containing additional resources or background information about a conference.
 
@@ -82,9 +82,4 @@ An URL is typically used to reference a Web page containing additional resources
 </dt> </dl>
 
  
-
- 
-
-
-
 

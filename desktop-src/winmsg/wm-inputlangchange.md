@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # WM\_INPUTLANGCHANGE message
 
-Sent to the topmost affected window after an application's input language has been changed. You should make any application-specific settings and pass the message to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function, which passes the message to all first-level child windows. These child windows can pass the message to [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) to have it pass the message to their child windows, and so on.
+Sent to the topmost affected window after an application's input language has been changed. You should make any application-specific settings and pass the message to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function, which passes the message to all first-level child windows. These child windows can pass the message to [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) to have it pass the message to their child windows, and so on.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -33,7 +33,7 @@ The character set of the new locale.
 *lParam* 
 </dt> <dd>
 
-The input locale identifier. For more information, see [Languages, Locales, and Keyboard Layouts](https://msdn.microsoft.com/library/ms646267(v=VS.85).aspx).
+The input locale identifier. For more information, see [Languages, Locales, and Keyboard Layouts](../inputdev/about-keyboard-input.md).
 
 </dd> </dl>
 
@@ -62,7 +62,7 @@ An application should return nonzero if it processes this message.
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
 [**WM\_INPUTLANGCHANGEREQUEST**](wm-inputlangchangerequest.md)
@@ -77,7 +77,3 @@ An application should return nonzero if it processes this message.
  
 
  
-
-
-
-

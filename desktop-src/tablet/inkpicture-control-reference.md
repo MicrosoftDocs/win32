@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The InkPicture control provides the ability to place an image in an application and enable users to add ink on top of it. It is intended for scenarios in which ink is not recognized as text but is instead stored as ink.
 
-The InkPicture control can be instantiated by calling the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
+The InkPicture control can be instantiated by calling the [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
 > [!Note]  
 > The InkPicture control is not marked safe for scripting. The InkPicture control should not be used in HTML or ASP.NET pages.
@@ -42,7 +42,7 @@ Creating the InkPicture control behind a transparent control (such as a GroupBox
 | [**CursorDown Event**](inkpicture-cursordown.md)                                  | Occurs when the cursor tip contacts the digitizing tablet surface.<br/>                                                                                                                                                                                                                                      |
 | [**CursorInRange Event**](inkpicture-cursorinrange.md)                            | Occurs when a cursor enters the physical detection range (proximity) of the tablet context.<br/>                                                                                                                                                                                                             |
 | [**CursorOutOfRange Event**](inkpicture-cursoroutofrange.md)                      | Occurs when the cursor leaves the physical detection range (proximity) of the tablet context.<br/>                                                                                                                                                                                                           |
-| [**DblClick**](inkpicture-dblclick.md)                                            | Occurs when the InkPicture control is double-clicked.<br/> This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface with an identifier of DISPID\_IPEDblClick.<br/> |
+| [**DblClick**](inkpicture-dblclick.md)                                            | Occurs when the InkPicture control is double-clicked.<br/> This event method is defined in the **\_IInkPictureEvents** interface. The **\_IInkPictureEvents** interface implements the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface with an identifier of DISPID\_IPEDblClick.<br/> |
 | [**Gesture Event**](inkpicture-gesture.md)                                        | Occurs when an application gesture is recognized.<br/>                                                                                                                                                                                                                                                       |
 | [**KeyDown Event \[InkPicture Control\]**](inkpicture-keydown.md)                 | Occurs when a key is pressed and in the down position while the InkPicture control has focus.<br/>                                                                                                                                                                                                           |
 | [**KeyPress Event\[InkPicture Control\]**](inkpicture-keypress.md)                | Occurs when a key is pressed while the InkPicture control has focus.<br/>                                                                                                                                                                                                                                    |
@@ -210,7 +210,7 @@ This property is equivalent to the <a href="/windows/desktop/api/msinkaut/nf-msi
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection"><strong>Selection</strong></a></td>
-<td>Gets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection currently selected inside the InkPicture control (run time only).<br/></td>
+<td>Gets the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection currently selected inside the InkPicture control (run time only).<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode"><strong>SizeMode</strong></a></td>
@@ -277,9 +277,4 @@ This object implements the **IInkPicture** COM interface.
 </dt> </dl>
 
  
-
- 
-
-
-
 

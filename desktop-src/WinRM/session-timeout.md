@@ -46,7 +46,7 @@ During an enumerate operation, the time-out value cannot be reset while the reso
 
 ## Examples
 
-The following VBScript code example starts a Calc.exe process using the [**Create**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) method of the WMI [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) class. The *strInputParameters* parameter contains the input parameters in XML format. The script specifies a time-out for the session.
+The following VBScript code example starts a Calc.exe process using the [**Create**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) method of the WMI [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) class. The *strInputParameters* parameter contains the input parameters in XML format. The script specifies a time-out for the session.
 
 
 ```VB
@@ -117,10 +117,4 @@ End Sub
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -47,9 +47,9 @@ interface IWICMetadataBlockReader : IUnknown
 
 ### GetEnumerator
 
-[**GetEnumerator**](/windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getenumerator) returns an enumerator that the caller can use to enumerate over the metadata blocks in the frame and read their metadata. To implement this method, you need to create a metadata reader for each block of metadata, and implement an enumeration object that enumerates over the collection of metadata readers. The enumeration object must implement [IEnumUnknown](https://msdn.microsoft.com/library/ms683764(VS.85).aspx) so you can cast it to IEnumUnknown when you return it in the *ppIEnumMetadata* parameter.
+[**GetEnumerator**](/windows/desktop/api/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getenumerator) returns an enumerator that the caller can use to enumerate over the metadata blocks in the frame and read their metadata. To implement this method, you need to create a metadata reader for each block of metadata, and implement an enumeration object that enumerates over the collection of metadata readers. The enumeration object must implement [IEnumUnknown](/windows/win32/api/objidlbase/nn-objidlbase-ienumunknown) so you can cast it to IEnumUnknown when you return it in the *ppIEnumMetadata* parameter.
 
-When implementing the enumeration object, you can create all the metadata readers when you first create the [**IWICMetadataBlockReader**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader) object or when you first create the enumeration object, or you can create them lazily inside the implementation of the [IEnumUnknown::Next](https://msdn.microsoft.com/library/ms693367(VS.85).aspx) method. In many cases, it’s more efficient to create them lazily but, in the following example, the block readers are all created in the constructor to save space.
+When implementing the enumeration object, you can create all the metadata readers when you first create the [**IWICMetadataBlockReader**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader) object or when you first create the enumeration object, or you can create them lazily inside the implementation of the [IEnumUnknown::Next](/windows/win32/api/objidlbase/nf-objidlbase-ienumunknown-next) method. In many cases, it’s more efficient to create them lazily but, in the following example, the block readers are all created in the constructor to save space.
 
 
 ```C++
@@ -123,7 +123,7 @@ enum WICMetadataCreationOptions
 };
 ```
 
-The *pIStream* parameter is the actual stream that you are decoding. Before passing in the stream, you should seek to the beginning of the metadata block for which you’re requesting a reader. The appropriate metadata reader for the metadata block at the current position in the [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) will be returned in the *ppiReader* parameter.
+The *pIStream* parameter is the actual stream that you are decoding. Before passing in the stream, you should seek to the beginning of the metadata block for which you’re requesting a reader. The appropriate metadata reader for the metadata block at the current position in the [IStream](/windows/desktop/api/objidl/nn-objidl-istream) will be returned in the *ppiReader* parameter.
 
 ### GetReaderByIndex
 
@@ -157,6 +157,3 @@ The *pIStream* parameter is the actual stream that you are decoding. Before pass
  
 
  
-
-
-

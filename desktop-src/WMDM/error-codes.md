@@ -51,7 +51,7 @@ The following error codes are defined by the Windows Media Device Manager SDK.
 
 A service provider should refrain from returning generic failure codes, for example, E\_FAIL. It should return as specific an error code as possible, so that if the error is propagated to an application, the application can give meaningful feedback to the user.
 
-For errors in storage and device related operations, service providers should resort to Win32 error codes. Service providers can use [HRESULT\_FROM\_WIN32](https://msdn.microsoft.com/library/ms680746.aspx) to convert Windows error codes to **HRESULT** values and use them as the return values. This macro and the error codes are defined in winerror.h which is a part of the Platform SDK.
+For errors in storage and device related operations, service providers should resort to Win32 error codes. Service providers can use [HRESULT\_FROM\_WIN32](/windows/win32/api/winerror/nf-winerror-hresult_from_win32) to convert Windows error codes to **HRESULT** values and use them as the return values. This macro and the error codes are defined in winerror.h which is a part of the Platform SDK.
 
 **MTP Error Codes**
 
@@ -248,7 +248,7 @@ The following error codes are defined in the Windows Media DRM for Portable Devi
 
 **Windows Media Rights Manager SDK errors**
 
-Occasionally, you might encounter an error defined in the Windows Media Rights Manager SDK. A list of errors defined by that SDK is given in the [MSDN library](https://msdn.microsoft.com/library/windows/desktop/bb614577(v=vs.85).aspx). However, the following Windows Media Rights Manager SDK errors were not documented.
+Occasionally, you might encounter an error defined in the Windows Media Rights Manager SDK. A list of errors defined by that SDK is given in the [MSDN library](/previous-versions//bb614577(v=vs.85)). However, the following Windows Media Rights Manager SDK errors were not documented.
 
 
 
@@ -272,7 +272,3 @@ Occasionally, you might encounter an error defined in the Windows Media Rights M
  
 
  
-
-
-
-

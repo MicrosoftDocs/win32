@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 The Microsoft Remote Desktop Protocol (RDP) provides remote display and input capabilities over network connections for Windows-based applications running on a server. RDP is designed to support different types of network topologies and multiple LAN protocols.
 
 > [!Note]  
-> This topic is for software developers. If you are looking for user information for Remote Desktop, see [Windows Support](https://windows.microsoft.com/windows/support#1TC=windows-8). If you are looking for IT professional information for Remote Desktop, see [Remote Desktop Services on TechNet](https://technet.microsoft.com/windowsserver/ee236407.aspx).
+> This topic is for software developers. If you are looking for user information for Remote Desktop, see [Windows Support](https://windows.microsoft.com/windows/support#1TC=windows-8). If you are looking for IT professional information for Remote Desktop, see [Remote Desktop Services on TechNet](/windows/deployment/deploy-whats-new).
 
  
 
@@ -100,7 +100,3 @@ In addition, RDP contains the following features:
  
 
  
-
-
-
-

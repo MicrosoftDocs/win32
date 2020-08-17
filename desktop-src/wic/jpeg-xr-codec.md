@@ -94,20 +94,20 @@ The following compressed domain operations are supported:
 -   Discard frequency data to create a smaller image file.
 -   Reorganize the image between spatial and frequency order.
 
-The JPEG XR encoder uses compressed domain transcoding, if possible, when the source image is a JPEG XR image. When the encoder performs a compressed domain operation, it ignores the following codec properties: [AlphaQuality](#alphaquality), [ImageQuality](#imagequality), [InterleavedAlpha](#interleavedalpha), [Lossless](#lossless)[Overlap](#overlap), and [Quality](#image-quality-settings). If the [HorizontalTileSlices](https://docs.microsoft.com/windows) and [VerticalTileSlices](https://docs.microsoft.com/windows) properties are present, you must set them to zero. You cannot change the tile size of an image as part of a compressed domain transcode.
+The JPEG XR encoder uses compressed domain transcoding, if possible, when the source image is a JPEG XR image. When the encoder performs a compressed domain operation, it ignores the following codec properties: [AlphaQuality](#alphaquality), [ImageQuality](#imagequality), [InterleavedAlpha](#interleavedalpha), [Lossless](#lossless)[Overlap](#overlap), and [Quality](#image-quality-settings). If the [HorizontalTileSlices](/windows) and [VerticalTileSlices](/windows) properties are present, you must set them to zero. You cannot change the tile size of an image as part of a compressed domain transcode.
 
 The follow list describes how to perform the image transformations.
 
 -   To crop the image, set the desired region in the [**WICRect**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-writesource) parameter of the **WriteSource** method.
 -   To rotate or flip the image, set the [BitmapTransform](#bitmaptransform) property.
 -   To discard frequency data in the image, set the [ImageDataDiscard](#imagedatadiscard) property. To discard frequency data in the alpha channel, set the [AlphaDataDiscard](#alphadatadiscard) property. Discarding frequency data reduces the encoded file size and can reduce the resolution.
--   To change the image organization between frequency and spatial ordering, set the [FrequencyOrdering](https://docs.microsoft.com/windows) property.
+-   To change the image organization between frequency and spatial ordering, set the [FrequencyOrdering](/windows) property.
 
 To disable compressed domain transcode and force the encoder to re-encode the image, set the [UseCodecOptions](#usecodecoptions) to **VARIANT\_TRUE** and set [CompressedDomainTranscode](#compresseddomaintranscode) to **VARIANT\_FALSE**.
 
 ## Encoder Options
 
-To set encoding properties, use the [**IPropertyBag2**](https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx) interface. For more information, see the [Encoding Overview](-wic-creating-encoder.md).
+To set encoding properties, use the [**IPropertyBag2**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) interface. For more information, see the [Encoding Overview](-wic-creating-encoder.md).
 
 The following list specifies the encoder options.
 
@@ -626,7 +626,3 @@ For more information about these formats, see [Native Pixel Formats](-wic-codec-
  
 
  
-
-
-
-

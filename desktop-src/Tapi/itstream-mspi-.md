@@ -8,13 +8,10 @@ ms.date: 05/31/2018
 
 # ITStream (MSPI)
 
-The [**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx) interface is available if an MSP is associated with the call. The methods of this interface allow an application to retrieve information on a stream; to start, pause, or stop the stream; and to select or unselect terminals on a stream.
+The [**ITStream**](/windows/win32/api/tapi3if/nn-tapi3if-itstream) interface is available if an MSP is associated with the call. The methods of this interface allow an application to retrieve information on a stream; to start, pause, or stop the stream; and to select or unselect terminals on a stream.
 
-The [**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx) interface is implemented by an MSP. Please see **ITStream** in the MSP Interface section for details on this interface.
-
- 
+The [**ITStream**](/windows/win32/api/tapi3if/nn-tapi3if-itstream) interface is implemented by an MSP. Please see **ITStream** in the MSP Interface section for details on this interface.
 
  
 
-
-
+ 

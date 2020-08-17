@@ -35,20 +35,16 @@ Applications must be designed so that users can complete the desired task withou
 
 ## Resources
 
--   [Input Method Manager Interfaces](https://msdn.microsoft.com/library/windows/desktop/hh851805(v=vs.85).aspx)
--   [IFECommon](https://msdn.microsoft.com/library/windows/desktop/hh851760(v=vs.85).aspx)
--   [IFECommon interface](https://msdn.microsoft.com/library/windows/desktop/hh851760(v=vs.85).aspx)
--   [IFEDictionary interface](https://msdn.microsoft.com/library/windows/desktop/hh851765(v=vs.85).aspx)
--   [IFELanguage](https://msdn.microsoft.com/library/windows/desktop/hh851778(v=vs.85).aspx)
--   [IImePad](https://msdn.microsoft.com/library/windows/desktop/hh851784(v=vs.85).aspx)
--   [IImePadApplet](https://msdn.microsoft.com/library/windows/desktop/hh851785(v=vs.85).aspx)
--   [IimePlugInDictDictionaryList](https://msdn.microsoft.com/library/windows/desktop/hh851792(v=vs.85).aspx)
--   [IImeSpecifyApplets](https://msdn.microsoft.com/library/windows/desktop/hh851795(v=vs.85).aspx)
+-   [Input Method Manager Interfaces](../intl/input-method-manager-interfaces.md)
+-   [IFECommon](/windows/win32/api/msime/nn-msime-ifecommon)
+-   [IFECommon interface](/windows/win32/api/msime/nn-msime-ifecommon)
+-   [IFEDictionary interface](/windows/win32/api/msime/nn-msime-ifedictionary)
+-   [IFELanguage](/windows/win32/api/msime/nn-msime-ifelanguage)
+-   [IImePad](/windows/win32/api/imepad/nn-imepad-iimepad)
+-   [IImePadApplet](/windows/win32/api/imepad/nn-imepad-iimepadapplet)
+-   [IimePlugInDictDictionaryList](/windows/win32/api/msimeapi/nn-msimeapi-iimeplugindictdictionarylist)
+-   [IImeSpecifyApplets](/windows/win32/api/imepad/nn-imepad-iimespecifyapplets)
 
  
 
  
-
-
-
-

@@ -14,11 +14,8 @@ Redirect differs from [forward](forward-ovr.md) in that once forwarding has been
 
 Not all service providers support use of this operation.
 
-**TAPI 2.x:** See [**lineRedirect**](https://msdn.microsoft.com/library/ms736042(v=VS.85).aspx).
+**TAPI 2.x:** See [**lineRedirect**](/windows/win32/api/tapi/nf-tapi-lineredirect).
 
  
 
  
-
-
-

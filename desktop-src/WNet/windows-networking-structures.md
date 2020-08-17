@@ -12,10 +12,10 @@ The following structures are used in Windows networking:
 
 <dl>
 
-[**CONNECTDLGSTRUCT**](https://msdn.microsoft.com/library/Aa385332(v=VS.85).aspx)  
-[**DISCDLGSTRUCT**](https://msdn.microsoft.com/library/Aa385339(v=VS.85).aspx)  
+[**CONNECTDLGSTRUCT**](/windows/win32/api/winnetwk/ns-winnetwk-connectdlgstructa)  
+[**DISCDLGSTRUCT**](/windows/win32/api/winnetwk/ns-winnetwk-discdlgstructa)  
 [**NETCONNECTINFOSTRUCT**](/windows/desktop/api/Winnetwk/ns-winnetwk-netconnectinfostruct)  
-[**NETINFOSTRUCT**](https://msdn.microsoft.com/library/Aa385349(v=VS.85).aspx)  
+[**NETINFOSTRUCT**](/windows/win32/api/winnetwk/ns-winnetwk-netinfostruct)  
 [**NETRESOURCE**](/windows/desktop/api/Winnetwk/ns-winnetwk-netresourcea)  
 [**REMOTE\_NAME\_INFO**](/windows/desktop/api/Winnetwk/ns-winnetwk-remote_name_infoa)  
 [**UNIVERSAL\_NAME\_INFO**](/windows/desktop/api/Winnetwk/ns-winnetwk-universal_name_infoa)  
@@ -24,7 +24,3 @@ The following structures are used in Windows networking:
  
 
  
-
-
-
-

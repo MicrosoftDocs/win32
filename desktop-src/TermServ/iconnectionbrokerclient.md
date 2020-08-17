@@ -26,7 +26,7 @@ This interface is implemented by the system. To obtain an instance of this inter
 
 ## Members
 
-The **IConnectionBrokerClient** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IConnectionBrokerClient** also has these types of members:
+The **IConnectionBrokerClient** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IConnectionBrokerClient** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -67,10 +67,4 @@ The **IConnectionBrokerClient** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

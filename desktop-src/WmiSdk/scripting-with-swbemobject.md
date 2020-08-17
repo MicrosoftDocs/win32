@@ -14,9 +14,9 @@ api_location:
 
 # Scripting with SWbemObject
 
-The [**SWbemObject**](swbemobject.md) scripting object is the generic WMI object, defining properties and methods that can be used regardless of the specific WMI object to which the **SWbemObject** object is bound. All WMI objects, such as an instance of [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) or any other WMI data class, are represented by [**SWbemObject**](swbemobject.md) and can use the **SWbemObject** common properties and methods in addition to their own particular properties and methods.
+The [**SWbemObject**](swbemobject.md) scripting object is the generic WMI object, defining properties and methods that can be used regardless of the specific WMI object to which the **SWbemObject** object is bound. All WMI objects, such as an instance of [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) or any other WMI data class, are represented by [**SWbemObject**](swbemobject.md) and can use the **SWbemObject** common properties and methods in addition to their own particular properties and methods.
 
-For example, use the following script to obtain all of the instances of a [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) by calling the [**SWbemObject.Instances\_**](swbemobject-instances-.md) method. The clsobjProcess represents both the **Win32\_Process** class definition and an [**SWbemObject**](swbemobject.md).
+For example, use the following script to obtain all of the instances of a [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) by calling the [**SWbemObject.Instances\_**](swbemobject-instances-.md) method. The clsobjProcess represents both the **Win32\_Process** class definition and an [**SWbemObject**](swbemobject.md).
 
 
 ```VB
@@ -31,7 +31,7 @@ Next
 
 
 
-The following example obtains a specific instance of [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service) that represents the Alerter service and stores it in objAlerter. You can then call either [**SWbemObject**](swbemobject.md) methods, such as WScript.Echo objAlerter.Path\_, or methods defined by the data class, such as WScript.Echo objAlerter.State. objAlerter which represents both an instance of Win32\_Service and an **SWbemObject**.
+The following example obtains a specific instance of [**Win32\_Service**](/windows/desktop/CIMWin32Prov/win32-service) that represents the Alerter service and stores it in objAlerter. You can then call either [**SWbemObject**](swbemobject.md) methods, such as WScript.Echo objAlerter.Path\_, or methods defined by the data class, such as WScript.Echo objAlerter.State. objAlerter which represents both an instance of Win32\_Service and an **SWbemObject**.
 
 
 ```VB
@@ -65,7 +65,7 @@ Set clsobjProcess = objWMIServices.Get("Win32_Process")
 
 You can identify the [**SWbemObject**](swbemobject.md) methods because they all end with an underscore (\_), for example, [**SWbemObject.Instances\_**](swbemobject-instances-.md).
 
-[**SWbemObjectEx**](swbemobjectex.md) extends the properties of [**SWbemObject**](swbemobject.md). For example, you can now update the data of any WMI object, such as an instance of [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process), by a call to [**SWbemObjectEx.Refresh\_**](swbemobjectex-refresh-.md).
+[**SWbemObjectEx**](swbemobjectex.md) extends the properties of [**SWbemObject**](swbemobject.md). For example, you can now update the data of any WMI object, such as an instance of [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process), by a call to [**SWbemObjectEx.Refresh\_**](swbemobjectex-refresh-.md).
 
 The following example shows how the system process page fault data can be refreshed every five seconds.
 
@@ -110,6 +110,3 @@ The [**SWbemObject.Put\_**](swbemobject-put-.md) and [**PutAsync\_**](swbemobjec
  
 
  
-
-
-

@@ -25,7 +25,7 @@ Check boxes support the following [**IAccessible**](/windows/desktop/api/oleacc/
 
 | Method                                                                    | Comments                                                                                                                                                                                                                         |
 |---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**accDoDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction) | The [**accDoDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction) method calls [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea) with the [**BM\_CLICK**](https://docs.microsoft.com/windows/desktop/Controls/bm-click) button message to click the check box. |
+| [**accDoDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction) | The [**accDoDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction) method calls [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) with the [**BM\_CLICK**](/windows/desktop/Controls/bm-click) button message to click the check box. |
 | [**accHitTest**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acchittest)                 |                                                                                                                                                                                                                                  |
 | [**accLocation**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acclocation)               |                                                                                                                                                                                                                                  |
 | [**accNavigate**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accnavigate)               |                                                                                                                                                                                                                                  |
@@ -68,10 +68,4 @@ Check boxes support the following [**IAccessible**](/windows/desktop/api/oleacc/
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -16,8 +16,8 @@ This sample application demonstrates the following features of the Ink Analysis 
 
 -   Loading a scanned paper form. The sample imports the form from an image in .png format.
 -   Collecting and rendering ink on top of the scanned form.
--   Using an [InkAnalyzer](https://msdn.microsoft.com/library/ms583671(v=VS.90).aspx) object to parse handwriting.
--   Generating [AnalysisHintNode](https://msdn.microsoft.com/library/ms573018(v=VS.90).aspx) objects to improve handwriting results.
+-   Using an [InkAnalyzer](/previous-versions/ms583671(v=vs.100)) object to parse handwriting.
+-   Generating [AnalysisHintNode](/previous-versions/ms573018(v=vs.100)) objects to improve handwriting results.
 -   Populating text boxes from analysis hints.
 -   Creating a basic text correction experience.
 
@@ -37,7 +37,7 @@ The Windows Presentation Foundation version references IAWinFX.dll in addition t
 
 ## User Interface
 
-The UI for this application consists of a [TabControl](https://msdn.microsoft.com/library/8fb09fh2(v=VS.90).aspx) with two [TabPage](https://msdn.microsoft.com/library/s78d0xf0(v=VS.90).aspx) objects associated with it: Ink Form and Converted Text Form. The Ink Form tab contains
+The UI for this application consists of a [TabControl](/dotnet/api/system.windows.forms.tabcontrol?view=netcore-3.1) with two [TabPage](/dotnet/api/system.windows.forms.tabpage?view=netcore-3.1) objects associated with it: Ink Form and Converted Text Form. The Ink Form tab contains
 
 -   A panel that contains an image of a scanned paper form used for taking telephone messages.
 -   A check box that has the application show the analysis hint bounds when selected.
@@ -47,11 +47,11 @@ The Converted Text Form contains the same image and is the page on which the app
 
 ## Functionality
 
-This application uses an [InkOverlay](https://msdn.microsoft.com/library/ms552322(v=VS.90).aspx) to enable writing. The InkOverlay object is well suited for note taking and basic scribbling. The primary intended use of this object is to display ink as ink. The main class for ink analysis is the [InkAnalyzer](https://msdn.microsoft.com/library/ms583671(v=VS.90).aspx) class. When you call the InkAnalyzer object's [Analyze](https://msdn.microsoft.com/library/ms568971(v=VS.90).aspx) method, the ink analysis occurs synchronously.
+This application uses an [InkOverlay](/previous-versions/ms552322(v=vs.100)) to enable writing. The InkOverlay object is well suited for note taking and basic scribbling. The primary intended use of this object is to display ink as ink. The main class for ink analysis is the [InkAnalyzer](/previous-versions/ms583671(v=vs.100)) class. When you call the InkAnalyzer object's [Analyze](/previous-versions/ms568971(v=vs.100)) method, the ink analysis occurs synchronously.
 
-The application initializes two arrays, one of strings and one of rectangles. The string array, `factoidStrings`, is made of [Factoid](https://msdn.microsoft.com/library/ms583657(v=VS.90).aspx) objects that are passed into the [InkAnalyzer](https://msdn.microsoft.com/library/ms583671(v=VS.90).aspx) as [AnalysisHintNode](https://msdn.microsoft.com/library/ms573018(v=VS.90).aspx) objects. The AnalysisHintNode objects bias the InkAnalyzer toward particular input. This sample uses the date, time, and telephone hints, as well as some others.
+The application initializes two arrays, one of strings and one of rectangles. The string array, `factoidStrings`, is made of [Factoid](/previous-versions/ms583657(v=vs.100)) objects that are passed into the [InkAnalyzer](/previous-versions/ms583671(v=vs.100)) as [AnalysisHintNode](/previous-versions/ms573018(v=vs.100)) objects. The AnalysisHintNode objects bias the InkAnalyzer toward particular input. This sample uses the date, time, and telephone hints, as well as some others.
 
-Each [AnalysisHintNode](https://msdn.microsoft.com/library/ms573018(v=VS.90).aspx) is associated with a specific area of the form. The areas are represented by the array of rectangles, `rects`. By creating a [TextBox](https://msdn.microsoft.com/library/48deaakc(v=VS.90).aspx) for each rectangle, the sample outputs the recognized text in the correct location.
+Each [AnalysisHintNode](/previous-versions/ms573018(v=vs.100)) is associated with a specific area of the form. The areas are represented by the array of rectangles, `rects`. By creating a [TextBox](/dotnet/api/system.windows.forms.textbox?view=netcore-3.1) for each rectangle, the sample outputs the recognized text in the correct location.
 
 
 ```C++
@@ -115,6 +115,3 @@ After that, it is merely a matter of creating an event handler that triggers the
  
 
  
-
-
-

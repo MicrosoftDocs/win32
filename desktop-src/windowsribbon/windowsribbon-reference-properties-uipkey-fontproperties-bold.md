@@ -24,7 +24,7 @@ propertyDescription
 
 UI\_PKEY\_FontProperties\_Bold is used by an application to query the state of the **Bold** button.
 
-The property value is from the [**UI\_FONTPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontproperties) enumeration.
+The property value is from the [**UI\_FONTPROPERTIES**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontproperties) enumeration.
 
 The default value is `UI_FONTPROPERTIES_NOTSET`.
 
@@ -49,7 +49,7 @@ The following table describes the properties and the UI result.
 [Font Control Properties](windowsribbon-reference-properties-fontcontrol.md)
 </dt> <dt>
 
-[**UI\_FONTPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontproperties)
+[**UI\_FONTPROPERTIES**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontproperties)
 </dt> <dt>
 
 [Font Control](windowsribbon-controls-fontcontrol.md)
@@ -58,7 +58,3 @@ The following table describes the properties and the UI result.
  
 
  
-
-
-
-

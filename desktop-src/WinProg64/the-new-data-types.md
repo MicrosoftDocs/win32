@@ -15,7 +15,7 @@ Three classes of data types were introduced for 64-bit Windows: fixed-precision 
 
 Even for applications that target only 32-bit Windows, adopting these new data types makes your code more robust. To use these data types, you must scan your code for potentially unsafe pointer usage, polymorphism, and data definitions. For example, when a variable is of type **ULONG\_PTR**, it is clear that it will be used for casting pointers for arithmetic operations or polymorphism. It is not possible to indicate such usage directly by using the older data types. (You can do this indirectly by using derived type naming or Hungarian notation, but both techniques are prone to errors.)
 
-All of these data types are declared in BaseTsd.h. For more information, including definitions of these data types, see [Windows Data Types](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types).
+All of these data types are declared in BaseTsd.h. For more information, including definitions of these data types, see [Windows Data Types](/windows/desktop/WinProg/windows-data-types).
 
 ## Fixed Precision
 
@@ -78,10 +78,4 @@ The following new pointer types explicitly size the pointer. Be cautious when us
  
 
  
-
- 
-
-
-
-
 

@@ -8,12 +8,9 @@ ms.date: 05/31/2018
 
 # Window Class Structures
 
--   [**WNDCLASS**](https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx)
--   [**WNDCLASSEX**](https://msdn.microsoft.com/library/ms633577(v=VS.85).aspx)
+-   [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa)
+-   [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa)
 
  
 
  
-
-
-

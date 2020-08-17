@@ -8,13 +8,10 @@ ms.date: 05/31/2018
 
 # comm
 
-The comm device class consists of communications ports. You access these devices by using the [file](https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions) and [communications functions](https://docs.microsoft.com/windows/desktop/DevIO/communications-functions).
+The comm device class consists of communications ports. You access these devices by using the [file](/windows/desktop/FileIO/file-management-functions) and [communications functions](/windows/desktop/DevIO/communications-functions).
 
 The [**lineGetID**](/windows/desktop/api/Tapi/nf-tapi-linegetid) function fills a [**VARSTRING**](/windows/desktop/api/Tapi/ns-tapi-varstring) structure, setting the **dwStringFormat** member to the STRINGFORMAT\_ASCII value and appending a null-terminated string that specifies the name of the communication device (such as the modem name).
 
  
 
  
-
-
-

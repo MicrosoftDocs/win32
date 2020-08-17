@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # WM\_WINDOWPOSCHANGED message
 
-Sent to a window whose size, position, or place in the Z order has changed as a result of a call to the [**SetWindowPos**](https://msdn.microsoft.com/library/ms633545(v=VS.85).aspx) function or another window-management function.
+Sent to a window whose size, position, or place in the Z order has changed as a result of a call to the [**SetWindowPos**](/windows/win32/api/winuser/nf-winuser-setwindowpos) function or another window-management function.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -33,7 +33,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**WINDOWPOS**](https://msdn.microsoft.com/library/ms632612(v=VS.85).aspx) structure that contains information about the window's new size and position.
+A pointer to a [**WINDOWPOS**](/windows/win32/api/winuser/ns-winuser-windowpos) structure that contains information about the window's new size and position.
 
 </dd> </dl>
 
@@ -45,7 +45,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-By default, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function sends the [**WM\_SIZE**](wm-size.md) and [**WM\_MOVE**](wm-move.md) messages to the window. The **WM\_SIZE** and **WM\_MOVE** messages are not sent if an application handles the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**. It is more efficient to perform any move or size change processing during the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
+By default, the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function sends the [**WM\_SIZE**](wm-size.md) and [**WM\_MOVE**](wm-move.md) messages to the window. The **WM\_SIZE** and **WM\_MOVE** messages are not sent if an application handles the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**. It is more efficient to perform any move or size change processing during the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
 
 ## Requirements
 
@@ -66,16 +66,16 @@ By default, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/a
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**EndDeferWindowPos**](https://msdn.microsoft.com/library/ms633440(v=VS.85).aspx)
+[**EndDeferWindowPos**](/windows/win32/api/winuser/nf-winuser-enddeferwindowpos)
 </dt> <dt>
 
-[**SetWindowPos**](https://msdn.microsoft.com/library/ms633545(v=VS.85).aspx)
+[**SetWindowPos**](/windows/win32/api/winuser/nf-winuser-setwindowpos)
 </dt> <dt>
 
-[**WINDOWPOS**](https://msdn.microsoft.com/library/ms632612(v=VS.85).aspx)
+[**WINDOWPOS**](/windows/win32/api/winuser/ns-winuser-windowpos)
 </dt> <dt>
 
 [**WM\_MOVE**](wm-move.md)
@@ -96,7 +96,3 @@ By default, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/a
  
 
  
-
-
-
-

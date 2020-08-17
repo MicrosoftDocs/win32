@@ -19,13 +19,13 @@ ms.date: 05/31/2018
 
 # IVMAccountant interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Provides access to accounting-related information for a virtual machine. To retrieve the **IVMAccountant** for a virtual machine, use the [**IVMVirtualMachine::Accountant**](ivmvirtualmachine-accountant.md) property.
 
 ## Members
 
-The **IVMAccountant** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMAccountant** also has these types of members:
+The **IVMAccountant** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IVMAccountant** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -65,10 +65,4 @@ The **IVMAccountant** interface has these properties.
 
 
  
-
- 
-
-
-
-
 

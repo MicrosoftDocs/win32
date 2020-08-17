@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.PhotometricInterpretation Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.PhotometricInterpretation](https://msdn.microsoft.com/library/bb760508(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.PhotometricInterpretation](../properties/props-system-photo-photometricinterpretation.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.PhotometricInterpretation](https://msdn.microsoft.com/library/bb760508(VS.85).aspx)
+[System.Photo.PhotometricInterpretation](../properties/props-system-photo-photometricinterpretation.md)
 </dt> </dl>
 
  
 
  
-
-
-

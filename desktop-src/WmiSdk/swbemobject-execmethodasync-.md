@@ -114,7 +114,7 @@ This method has no return values. If the call is successful, an [**OutParameters
 
 ## Error codes
 
-After completion of the **ExecMethodAsync\_** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
+After completion of the **ExecMethodAsync\_** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
 
 <dl> <dt>
 
@@ -174,9 +174,9 @@ The **SWbemObject.ExecMethodAsync\_** method assumes the object represented by [
 
 ## Examples
 
-The following example shows the [**ExecMethodAsync**](swbemservices-execmethodasync.md) method. The script creates a [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) object that represents a process that is running Notepad. It shows setting up of [**InParameters**](swbemmethod-inparameters.md) object, and how to obtain results from an [**OutParameters**](swbemmethod-outparameters.md) object.
+The following example shows the [**ExecMethodAsync**](swbemservices-execmethodasync.md) method. The script creates a [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) object that represents a process that is running Notepad. It shows setting up of [**InParameters**](swbemmethod-inparameters.md) object, and how to obtain results from an [**OutParameters**](swbemmethod-outparameters.md) object.
 
-For a script that shows the same operations performed synchronously, see [**SWbemObject.ExecMethod**](swbemobject-execmethod-.md). For an example using direct access, see [**Create Method in Class Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process). For an example of the same operation using an [**SWbemServices**](swbemservices.md) object, see [**SWbemServices.ExecMethodAsync**](swbemservices-execmethodasync.md).
+For a script that shows the same operations performed synchronously, see [**SWbemObject.ExecMethod**](swbemobject-execmethod-.md). For an example using direct access, see [**Create Method in Class Win32\_Process**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process). For an example of the same operation using an [**SWbemServices**](swbemservices.md) object, see [**SWbemServices.ExecMethodAsync**](swbemservices-execmethodasync.md).
 
 
 ```VB
@@ -262,9 +262,4 @@ end sub
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppParentContextNode* when you no longer need to use the parent context node.
+> To avoid a memory leak, call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppParentContextNode* when you no longer need to use the parent context node.
 
  
 
@@ -162,9 +162,4 @@ HRESULT CMyClass::GetNodeInformation(
 </dt> </dl>
 
  
-
- 
-
-
-
 

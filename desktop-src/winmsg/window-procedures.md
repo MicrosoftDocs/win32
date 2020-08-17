@@ -30,9 +30,9 @@ Every window has an associated window procedure — a function that processes 
 
 | Name                                     | Description                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CallWindowProc**](https://msdn.microsoft.com/library/ms633571(v=VS.85).aspx) | Passes message information to the specified window procedure. <br/>                                                                                                                                                                                                                                     |
-| [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)   | Calls the default window procedure to provide default processing for any window messages that an application does not process. This function ensures that every message is processed. [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) is called with the same parameters received by the window procedure. <br/> |
-| [*WindowProc*](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx)           | An application-defined function that processes messages sent to a window. The **WNDPROC** type defines a pointer to this callback function. [*WindowProc*](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) is a placeholder for the application-defined function name. <br/>                                                            |
+| [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca) | Passes message information to the specified window procedure. <br/>                                                                                                                                                                                                                                     |
+| [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)   | Calls the default window procedure to provide default processing for any window messages that an application does not process. This function ensures that every message is processed. [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) is called with the same parameters received by the window procedure. <br/> |
+| [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85))           | An application-defined function that processes messages sent to a window. The **WNDPROC** type defines a pointer to this callback function. [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) is a placeholder for the application-defined function name. <br/>                                                            |
 
 
 
@@ -41,7 +41,3 @@ Every window has an associated window procedure — a function that processes 
  
 
  
-
-
-
-

@@ -198,7 +198,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The hardware identifier of the computer.
@@ -240,10 +240,4 @@ The name of the computer that the license issuance was attempted for.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

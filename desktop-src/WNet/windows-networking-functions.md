@@ -12,28 +12,28 @@ The following functions are used in Windows networking:
 
 <dl>
 
-[**MultinetGetConnectionPerformance**](https://msdn.microsoft.com/library/Aa385342(v=VS.85).aspx)  
-[**WNetAddConnection2**](https://msdn.microsoft.com/library/Aa385413(v=VS.85).aspx)  
-[**WNetAddConnection3**](https://msdn.microsoft.com/library/Aa385418(v=VS.85).aspx)  
-[**WNetCancelConnection**](https://msdn.microsoft.com/library/Aa385423(v=VS.85).aspx)  
-[**WNetCancelConnection2**](https://msdn.microsoft.com/library/Aa385427(v=VS.85).aspx)  
-[**WNetCloseEnum**](https://msdn.microsoft.com/library/Aa385431(v=VS.85).aspx)  
-[**WNetConnectionDialog**](https://msdn.microsoft.com/library/Aa385433(v=VS.85).aspx)  
-[**WNetConnectionDialog1**](https://msdn.microsoft.com/library/Aa385436(v=VS.85).aspx)  
-[**WNetDisconnectDialog**](https://msdn.microsoft.com/library/Aa385440(v=VS.85).aspx)  
-[**WNetDisconnectDialog1**](https://msdn.microsoft.com/library/Aa385443(v=VS.85).aspx)  
-[**WNetEnumResource**](https://msdn.microsoft.com/library/Aa385449(v=VS.85).aspx)  
-[**WNetGetConnection**](https://msdn.microsoft.com/library/Aa385453(v=VS.85).aspx)  
-[**WNetGetLastError**](https://msdn.microsoft.com/library/Aa385459(v=VS.85).aspx)  
-[**WNetGetNetworkInformation**](https://msdn.microsoft.com/library/Aa385461(v=VS.85).aspx)  
-[**WNetGetProviderName**](https://msdn.microsoft.com/library/Aa385464(v=VS.85).aspx)  
-[**WNetGetResourceInformation**](https://msdn.microsoft.com/library/Aa385469(v=VS.85).aspx)  
-[**WNetGetResourceParent**](https://msdn.microsoft.com/library/Aa385470(v=VS.85).aspx)  
-[**WNetGetUniversalName**](https://msdn.microsoft.com/library/Aa385474(v=VS.85).aspx)  
-[**WNetGetUser**](https://msdn.microsoft.com/library/Aa385476(v=VS.85).aspx)  
-[**WNetOpenEnum**](https://msdn.microsoft.com/library/Aa385478(v=VS.85).aspx)  
-[**WNetRestoreConnectionW**](https://msdn.microsoft.com/library/Aa385480(v=VS.85).aspx)  
-[**WNetUseConnection**](https://msdn.microsoft.com/library/Aa385482(v=VS.85).aspx)  
+[**MultinetGetConnectionPerformance**](/windows/win32/api/winnetwk/nf-winnetwk-multinetgetconnectionperformancea)  
+[**WNetAddConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection2a)  
+[**WNetAddConnection3**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection3a)  
+[**WNetCancelConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnectiona)  
+[**WNetCancelConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnection2a)  
+[**WNetCloseEnum**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcloseenum)  
+[**WNetConnectionDialog**](/windows/win32/api/winnetwk/nf-winnetwk-wnetconnectiondialog)  
+[**WNetConnectionDialog1**](/windows/win32/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a)  
+[**WNetDisconnectDialog**](/windows/win32/api/winnetwk/nf-winnetwk-wnetdisconnectdialog)  
+[**WNetDisconnectDialog1**](/windows/win32/api/winnetwk/nf-winnetwk-wnetdisconnectdialog1a)  
+[**WNetEnumResource**](/windows/win32/api/winnetwk/nf-winnetwk-wnetenumresourcea)  
+[**WNetGetConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetconnectiona)  
+[**WNetGetLastError**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetlasterrora)  
+[**WNetGetNetworkInformation**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa)  
+[**WNetGetProviderName**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetprovidernamea)  
+[**WNetGetResourceInformation**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa)  
+[**WNetGetResourceParent**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetresourceparenta)  
+[**WNetGetUniversalName**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetuniversalnamea)  
+[**WNetGetUser**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetusera)  
+[**WNetOpenEnum**](/windows/win32/api/winnetwk/nf-winnetwk-wnetopenenuma)  
+[**WNetRestoreConnectionW**](/windows/win32/api/winnetwk/nf-winnetwk-wnetrestoreconnectionw)  
+[**WNetUseConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetuseconnectiona)  
 </dl>
 
 ## Obsolete Functions
@@ -42,13 +42,9 @@ The following function is provided only for compatibility with 16-bit versions o
 
 <dl>
 
-[**WNetAddConnection**](https://msdn.microsoft.com/library/Aa385410(v=VS.85).aspx)  
+[**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona)  
 </dl>
 
  
 
  
-
-
-
-
