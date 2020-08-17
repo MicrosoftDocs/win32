@@ -56,7 +56,7 @@ Defines values to use with [**XAudio2Create**](/windows/desktop/api/xaudio2/nf-x
 
 **XAUDIO2\_PROCESSOR** is type defined as a 32-bit value.
 
-<div class="alert"><b>Note</b>  If multiple processors bits are set when calling [**XAudio2Create**](/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create), the system will create a separate worker thread for each processor.</div>
+<div class="alert"><b>Note</b>  If multiple processors bits are set when calling <a href="/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create">XAudio2Create</a>, the system will create a separate worker thread for each processor.</div>
 
 
 
