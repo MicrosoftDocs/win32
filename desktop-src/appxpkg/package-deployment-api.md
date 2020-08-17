@@ -12,7 +12,7 @@ Learn about the package deployment API, which you can use to install, update, an
 
 ## Windows Runtime reference
 
--   [**Windows.Management.Deployment**](https://docs.microsoft.com/uwp/api/Windows.Management.Deployment)
+-   [**Windows.Management.Deployment**](/uwp/api/Windows.Management.Deployment)
 
 ## Related topics
 
@@ -39,7 +39,7 @@ Learn about the package deployment API, which you can use to install, update, an
 **Concepts**
 </dt> <dt>
 
-[App packages and deployment](https://docs.microsoft.com/previous-versions/windows/apps/hh464929(v=win.10))
+[App packages and deployment](/previous-versions/windows/apps/hh464929(v=win.10))
 </dt> <dt>
 
 [Glossary](appx-packaging-glossary.md)
@@ -48,7 +48,7 @@ Learn about the package deployment API, which you can use to install, update, an
 **Reference**
 </dt> <dt>
 
-[App package manifest schema](https://docs.microsoft.com/uwp/schemas/appxpackage/appx-package-manifest)
+[App package manifest schema](/uwp/schemas/appxpackage/appx-package-manifest)
 </dt> <dt>
 
 [Packaging API](interfaces.md)
@@ -60,7 +60,3 @@ Learn about the package deployment API, which you can use to install, update, an
  
 
  
-
-
-
-

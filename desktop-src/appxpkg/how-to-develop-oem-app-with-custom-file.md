@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to develop an OEM app that uses a custom file
 
-For more information on creating and using custom data files, see [DISM App Package (.appx or .appxbundle) Servicing Command-Line Options](https://docs.microsoft.com/windows-hardware/manufacture/desktop/dism-app-package--appx-or-appxbundle--servicing-command-line-options?redirectedfrom=MSDN).
+For more information on creating and using custom data files, see [DISM App Package (.appx or .appxbundle) Servicing Command-Line Options](/windows-hardware/manufacture/desktop/dism-app-package--appx-or-appxbundle--servicing-command-line-options).
 
 Learn how to develop an app that uses a custom file to pass info from the OEM to the app.
 
@@ -22,7 +22,7 @@ For apps that you create for OEM deployment, you can use a custom file to pass i
 
 ### Prerequisites
 
--   You need the [Deployment Image Servicing and Management (DISM)](https://docs.microsoft.com/windows/desktop/Win7AppQual/dism-replaces-pkgmgr-peimg-and-intlconfg-tools) tool to add the app package with the custom data file.
+-   You need the [Deployment Image Servicing and Management (DISM)](/windows/desktop/Win7AppQual/dism-replaces-pkgmgr-peimg-and-intlconfg-tools) tool to add the app package with the custom data file.
 
 ## Instructions
 
@@ -30,7 +30,7 @@ For apps that you create for OEM deployment, you can use a custom file to pass i
 
 You can design your app to use any format you choose for the custom data. For example, you can use XML, a text file, or another file type to organize your data. We recommend that you consider how you can test and validate the file. For example, you can create an XML schema to validate an XML file.
 
-You can specify any type of file with any file name for the custom data. When you add the app package with the custom data file by using the [DISM](https://docs.microsoft.com/windows/desktop/Win7AppQual/dism-replaces-pkgmgr-peimg-and-intlconfg-tools) tool, DISM renames the custom file to Custom.data and saves the file to the microsoft.system.package.metadata folder.
+You can specify any type of file with any file name for the custom data. When you add the app package with the custom data file by using the [DISM](/windows/desktop/Win7AppQual/dism-replaces-pkgmgr-peimg-and-intlconfg-tools) tool, DISM renames the custom file to Custom.data and saves the file to the microsoft.system.package.metadata folder.
 
 > [!Note]  
 > The custom data file can't be modified by the app. It's a read-only resource.
@@ -46,9 +46,9 @@ Windows.ApplicationModel.Package.current.installedLocation.getFileAsync(
 "microsoft.system.package.metadata\\custom.data")
 ```
 
-For more info about developing with the [**Package.Current**](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package.current) property, see [Quickstart: Query app package manifest info](how-to-query-package-identity-information.md).
+For more info about developing with the [**Package.Current**](/uwp/api/windows.applicationmodel.package.current) property, see [Quickstart: Query app package manifest info](how-to-query-package-identity-information.md).
 
-For more info about accessing the custom.data file via [**IStorageFolder.GetFileAsync**](https://docs.microsoft.com/uwp/api/windows.storage.istoragefolder.getfileasync) and by using [**StorageFile**](https://docs.microsoft.com/uwp/api/Windows.Storage.StorageFile) objects, see [Accessing data and files](https://docs.microsoft.com/previous-versions/windows/apps/hh464959(v=win.10)).
+For more info about accessing the custom.data file via [**IStorageFolder.GetFileAsync**](/uwp/api/windows.storage.istoragefolder.getfileasync) and by using [**StorageFile**](/uwp/api/Windows.Storage.StorageFile) objects, see [Accessing data and files](/previous-versions/windows/apps/hh464959(v=win.10)).
 
 ## Related topics
 
@@ -60,7 +60,3 @@ For more info about accessing the custom.data file via [**IStorageFolder.GetFile
  
 
  
-
-
-
-

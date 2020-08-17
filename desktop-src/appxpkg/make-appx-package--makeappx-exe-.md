@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # App packager (MakeAppx.exe)
 
 > [!Note]  
-> For UWP guidance on using this tool, see [Create an app package with the MakeAppx.exe tool](https://docs.microsoft.com/windows/msix/package/create-app-package-with-makeappx-tool?redirectedfrom=MSDN).
+> For UWP guidance on using this tool, see [Create an app package with the MakeAppx.exe tool](/windows/msix/package/create-app-package-with-makeappx-tool).
 
  
 
@@ -354,7 +354,3 @@ This semantic validation is not complete, and packages built by MakeAppx are not
  
 
  
-
-
-
-

@@ -36,7 +36,7 @@ To access the packaging and deployment event logs by using **Event Viewer**, fol
 
 Start by looking at the logs under **AppXDeployment-Server**. If the error was caused by **0x80073CF0** or **ERROR_INSTALL_OPEN_PACKAGE_FAILED**, additional details may be present in the **AppxpackagingOM** logs.
 
-You can also use the [Get-AppxLog](https://docs.microsoft.com/powershell/module/appx/get-appxlog) command in PowerShell to get the first few logged events. The following example displays the logs associated with the most recent deployment operation.
+You can also use the [Get-AppxLog](/powershell/module/appx/get-appxlog) command in PowerShell to get the first few logged events. The following example displays the logs associated with the most recent deployment operation.
 
 ```PowerShell
 Get-Appxlog
@@ -201,7 +201,7 @@ One of the possible reasons is a need for a roaming profile. For information abo
 <tr class="odd">
 <td><strong>ERROR_DELETING_EXISTING_</strong><br/> <strong>APPLICATIONDATA_STORE_FAILED</strong><br/></td>
 <td>0x80073D05</td>
-<td>An error occurred while deleting the package's previously existing application data.<br/> You can get this error if the <a href="https://docs.microsoft.com/previous-versions/hh441475(v=vs.110)">simulator</a> is running. Close the simulator. You can also get this error if there are files open in the app data (for example, if you have a log file open in a text editor).<br/></td>
+<td>An error occurred while deleting the package's previously existing application data.<br/> You can get this error if the <a href="/previous-versions/hh441475(v=vs.110)">simulator</a> is running. Close the simulator. You can also get this error if there are files open in the app data (for example, if you have a log file open in a text editor).<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_INSTALL_</strong><br/> <strong>PACKAGE_DOWNGRADE</strong><br/></td>
@@ -316,7 +316,7 @@ One of the possible reasons is a need for a roaming profile. For information abo
 <tr class="even">
 <td><strong>ERROR_PACKAGES_REPUTATION_</strong><br/> <strong>CHECK_TIMEDOUT</strong><br/></td>
 <td>0x80073D1C</td>
-<td>The <a href="https://docs.microsoft.com/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview">SmartScreen reputation check</a> operation timed out.<br/></td>
+<td>The <a href="/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview">SmartScreen reputation check</a> operation timed out.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>ERROR_DEPLOYMENT_OPTION_</strong><br/> <strong>NOT_SUPPORTED</strong><br/></td>
@@ -496,7 +496,7 @@ If the package contains \AppxMetadata\CodeIntegrity.cat, it must also contain \A
 <tr class="even">
 <td><strong>APPX_E_INVALID_</strong><br/> <strong>APPINSTALLER</strong><br/></td>
 <td>0x8008020C</td>
-<td>The <a href="https://docs.microsoft.com/windows/msix/app-installer/app-installer-root">.appinstaller file</a> for the package is invalid.<br/></td>
+<td>The <a href="/windows/msix/app-installer/app-installer-root">.appinstaller file</a> for the package is invalid.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>APPX_E_DELTA_BASELINE_</strong><br/> <strong>VERSION_MISMATCH</strong><br/></td>

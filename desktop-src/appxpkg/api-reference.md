@@ -16,15 +16,15 @@ Use these APIs in your desktop apps to create, consume, deploy, or query app pac
 
 Use these APIs in your desktop apps to deploy or query app packages:
 
--   [**Windows.ApplicationModel.Package**](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.Package)
--   [**Windows.ApplicationModel.PackageId**](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.PackageId)
--   [**Windows.Management.Deployment.PackageManager**](https://docs.microsoft.com/uwp/api/Windows.Management.Deployment.PackageManager)
--   [**Windows.Management.Deployment.PackageUserInformation**](https://docs.microsoft.com/uwp/api/Windows.Management.Deployment.PackageUserInformation)
+-   [**Windows.ApplicationModel.Package**](/uwp/api/Windows.ApplicationModel.Package)
+-   [**Windows.ApplicationModel.PackageId**](/uwp/api/Windows.ApplicationModel.PackageId)
+-   [**Windows.Management.Deployment.PackageManager**](/uwp/api/Windows.Management.Deployment.PackageManager)
+-   [**Windows.Management.Deployment.PackageUserInformation**](/uwp/api/Windows.Management.Deployment.PackageUserInformation)
 
 Use these APIs in your UWP apps to query app packages:
 
--   [**Windows.ApplicationModel.Package**](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.Package)
--   [**Windows.ApplicationModel.PackageId**](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.PackageId)
+-   [**Windows.ApplicationModel.Package**](/uwp/api/Windows.ApplicationModel.Package)
+-   [**Windows.ApplicationModel.PackageId**](/uwp/api/Windows.ApplicationModel.PackageId)
 
 ## Related topics
 
@@ -39,7 +39,7 @@ Use these APIs in your UWP apps to query app packages:
 **Concepts**
 </dt> <dt>
 
-[App packages and deployment](https://docs.microsoft.com/previous-versions/windows/apps/hh464929(v=win.10))
+[App packages and deployment](/previous-versions/windows/apps/hh464929(v=win.10))
 </dt> <dt>
 
 [Packaging, deployment, and query of Windows apps](appx-portal.md)
@@ -51,13 +51,9 @@ Use these APIs in your UWP apps to query app packages:
 **Other Reference**
 </dt> <dt>
 
-[App package manifest schema](https://docs.microsoft.com/uwp/schemas/appxpackage/appx-package-manifest)
+[App package manifest schema](/uwp/schemas/appxpackage/appx-package-manifest)
 </dt> </dl>
 
  
 
  
-
-
-
-

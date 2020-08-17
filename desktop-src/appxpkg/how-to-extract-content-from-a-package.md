@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Learn how to extract files from the app package for a Windows app using the [packaging API](interfaces.md).
 
-You can also use the MakeAppx.exe tool to extract files from an app package or bundle. See [Extract files from a package or bundle](https://docs.microsoft.com/windows/msix/package/create-app-package-with-makeappx-tool?redirectedfrom=MSDN#extract-files-from-a-package-or-bundle) for more information.
+You can also use the MakeAppx.exe tool to extract files from an app package or bundle. See [Extract files from a package or bundle](/windows/msix/package/create-app-package-with-makeappx-tool#extract-files-from-a-package-or-bundle) for more information.
 
 ### Create a package reader
 
@@ -419,7 +419,7 @@ HRESULT ExtractPayloadFiles(
 
 ### Clean up the package reader
 
-Before returning from the `wmain` function, call the [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) method to clean up the package reader and call the [**CoUninitialize**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize) function.
+Before returning from the `wmain` function, call the [**Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) method to clean up the package reader and call the [**CoUninitialize**](/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize) function.
 
 
 ```C++
@@ -454,7 +454,3 @@ CoUninitialize();
  
 
  
-
-
-
-
