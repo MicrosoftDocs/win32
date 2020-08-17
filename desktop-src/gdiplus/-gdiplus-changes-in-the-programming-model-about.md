@@ -113,7 +113,7 @@ All four of the [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics
 
 ## No More Current Position
 
-Note that in the [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inreal_inreal_inreal_inreal)) methods shown previously both the starting point and the ending point of the line are received as arguments. This is a departure from the GDI scheme where you call to set the current pen position followed by to draw a line starting at (**x1**, **y1**) and ending at (**x2**, **y2**). GDI+ as a whole has abandoned the notion of current position.
+Note that in the [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inreal_inreal_inreal_inreal)) methods shown previously both the starting point and the ending point of the line are received as arguments. This is a departure from the GDI scheme where you call **MoveToEx** to set the current pen position followed by **LineTo** in order to draw a line starting at (**x1**, **y1**) and ending at (**x2**, **y2**). GDI+ as a whole has abandoned the notion of current position.
 
 ## Separate Methods for Draw and Fill
 
