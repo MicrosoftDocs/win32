@@ -18,7 +18,7 @@ topic_type:
 
 # SFVM\_GETBUTTONINFO message
 
-Allows the callback object to add buttons to the toolbar. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to add buttons to the toolbar. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -61,7 +61,3 @@ Buttons can be appended or prepended to the standard system folder view object b
  
 
  
-
-
-
-

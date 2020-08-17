@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PROV\_RSA\_FULL
 
-The PROV\_RSA\_FULL provider type supports both [*digital signatures*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) and data encryption. It is considered a general purpose CSP. The RSA public key algorithm is used for all public key operations.
+The PROV\_RSA\_FULL provider type supports both [*digital signatures*](../secgloss/d-gly.md) and data encryption. It is considered a general purpose CSP. The RSA public key algorithm is used for all public key operations.
 
 ## Algorithms Supported
 
@@ -18,10 +18,10 @@ For descriptions of each of these algorithms, see the glossary.
 
 | Purpose      | Supported algorithms                                                                                                              |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Key Exchange | [*RSA*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx)                                                                       |
+| Key Exchange | [*RSA*](../secgloss/r-gly.md)                                                                       |
 | Signature    | RSA                                                                                                                               |
-| Encryption   | [*RC2*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx)[*RC4*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx)<br/> |
-| Hashing      | [*MD5*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx)[*SHA*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx)<br/> |
+| Encryption   | [*RC2*](../secgloss/r-gly.md)[*RC4*](../secgloss/r-gly.md)<br/> |
+| Hashing      | [*MD5*](../secgloss/m-gly.md)[*SHA*](../secgloss/s-gly.md)<br/> |
 
 
 
@@ -36,7 +36,3 @@ This provider type is defined by Microsoft and RSA Data Security. It is describe
  
 
  
-
-
-
-

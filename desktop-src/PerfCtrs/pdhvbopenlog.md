@@ -124,7 +124,7 @@ Pointer to a buffer that receives a handle to the opened log file.
 
 If the function succeeds, it returns 0.
 
-If the function fails, the return value is a [system error code](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). The following are possible values.
+If the function fails, the return value is a [system error code](/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). The following are possible values.
 
 
 
@@ -175,9 +175,4 @@ Note that log files in the Perfmon format can only be opened for reading.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -17,7 +17,7 @@ api_location:
 
 # SslGetCipherSuitePRFHashAlgorithm function
 
-The **SslGetCipherSuitePRFHashAlgorithm** function returns the Cryptography API: Next Generation (CNG) Algorithm Identifier of the [*hashing algorithm*](https://docs.microsoft.com/windows/desktop/SecGloss/h-gly) that is used for the [*Transport Layer Security protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/t-gly) (TLS) [*pseudo-random function*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) (PRF) for the input protocol, cipher suite, and key type.
+The **SslGetCipherSuitePRFHashAlgorithm** function returns the Cryptography API: Next Generation (CNG) Algorithm Identifier of the [*hashing algorithm*](/windows/desktop/SecGloss/h-gly) that is used for the [*Transport Layer Security protocol*](/windows/desktop/SecGloss/t-gly) (TLS) [*pseudo-random function*](/windows/desktop/SecGloss/p-gly) (PRF) for the input protocol, cipher suite, and key type.
 
 ## Syntax
 
@@ -42,7 +42,7 @@ SECURITY_STATUS WINAPI SslGetCipherSuitePRFHashAlgorithm(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle of the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
+The handle of the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
 
 </dd> <dt>
 
@@ -63,7 +63,7 @@ One of the [**CNG SSL Provider Cipher Suite Identifier**](https://msdn.microsoft
 *dwKeyType* \[in\]
 </dt> <dd>
 
-One of the [**CNG SSL Provider Key Type Identifier**](https://msdn.microsoft.com/library/Hh971256(v=VS.85).aspx) values. For key types that are not [*elliptic curve cryptography*](https://docs.microsoft.com/windows/desktop/SecGloss/e-gly) (ECC), set this parameter to zero.
+One of the [**CNG SSL Provider Key Type Identifier**](https://msdn.microsoft.com/library/Hh971256(v=VS.85).aspx) values. For key types that are not [*elliptic curve cryptography*](/windows/desktop/SecGloss/e-gly) (ECC), set this parameter to zero.
 
 </dd> <dt>
 
@@ -120,9 +120,4 @@ This **SslGetCipherSuitePRFHashAlgorithm** function is called for TLS 1.2 or lat
 
 
  
-
- 
-
-
-
 

@@ -17,9 +17,9 @@ The [access mask format](access-mask-format.md) includes a set of bits for the s
 | Constant      | Meaning                                                                                                                                                                                                                                                                                                                                      |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DELETE        | The right to delete the object.                                                                                                                                                                                                                                                                                                              |
-| READ\_CONTROL | The right to read the information in the object's [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly), not including the information in the [*system access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SACL). |
+| READ\_CONTROL | The right to read the information in the object's [*security descriptor*](/windows/desktop/SecGloss/s-gly), not including the information in the [*system access control list*](/windows/desktop/SecGloss/s-gly) (SACL). |
 | SYNCHRONIZE   | The right to use the object for synchronization. This enables a thread to wait until the object is in the signaled state. Some object types do not support this access right.                                                                                                                                                                |
-| WRITE\_DAC    | The right to modify the [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL) in the object's security descriptor.                                                                                                                    |
+| WRITE\_DAC    | The right to modify the [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) in the object's security descriptor.                                                                                                                    |
 | WRITE\_OWNER  | The right to change the owner in the object's security descriptor.                                                                                                                                                                                                                                                                           |
 
 
@@ -45,6 +45,3 @@ Winnt.h also defines the following combinations of the standard access rights co
  
 
  
-
-
-

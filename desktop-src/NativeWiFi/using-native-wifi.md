@@ -42,7 +42,7 @@ The following topics have more information about the samples:
 [Native Wifi](portal.md)
 </dt> <dt>
 
-[Troubleshooting Windows Vista 802.11 Wireless Connections](https://technet.microsoft.com/library/3ed3d027-5ae8-4cb0-ade5-0a7c446cd4f7)
+[Troubleshooting Windows Vista 802.11 Wireless Connections](/previous-versions/windows/it-pro/windows-vista/cc766215(v=ws.10))
 </dt> <dt>
 
 [What's New in Native Wifi](what-s-new-in-native-wifi.md)
@@ -54,6 +54,3 @@ The following topics have more information about the samples:
  
 
  
-
-
-

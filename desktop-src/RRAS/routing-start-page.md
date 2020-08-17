@@ -36,7 +36,7 @@ Routing is a server-based technology. All the functionality of Routing is incorp
 | Topic                                                                                               | Description                                                                                                                                                                                                                                                                                                                               |
 |-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Router Management](about-router-management.md)<br/>                                         | The router administration API allows developers to create applications to manage the router service on a computer running Windows 2000 Server and later operating systems.<br/>                                                                                                                                                     |
-| [Router Managers and Management Information Base](https://docs.microsoft.com/windows/desktop/RRAS/about-router-management-with-mib)<br/> | The Management Information Base (MIB) APIs for router management makes it possible to query and set the values of MIB variables exported by one of the router managers or any of the routing protocols that the router managers service. By using this API, the router supports the Simple Network Management Protocol (SNMP).<br/> |
+| [Router Managers and Management Information Base](/windows/desktop/RRAS/about-router-management-with-mib)<br/> | The Management Information Base (MIB) APIs for router management makes it possible to query and set the values of MIB variables exported by one of the router managers or any of the routing protocols that the router managers service. By using this API, the router supports the Simple Network Management Protocol (SNMP).<br/> |
 
 
 
@@ -46,7 +46,7 @@ Routing is a server-based technology. All the functionality of Routing is incorp
 
 <dl> <dt>
 
-[IP Helper Functions](https://msdn.microsoft.com/library/Aa366073(v=VS.85).aspx)
+[IP Helper Functions](../iphlp/ip-helper-start-page.md)
 </dt> <dt>
 
 [Remote Access](remote-access-start-page.md)
@@ -56,10 +56,4 @@ Routing is a server-based technology. All the functionality of Routing is incorp
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

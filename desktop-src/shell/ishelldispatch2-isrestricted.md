@@ -49,7 +49,7 @@ IShellDispatch2.IsRestricted( _
 *sGroup* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that contains the group name. This value is the name of a registry subkey under which to check for the restriction.
 
@@ -58,7 +58,7 @@ A **String** that contains the group name. This value is the name of a registry 
 *sRestriction* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that contains the restriction whose value is to be retrieved.
 
@@ -80,7 +80,7 @@ The value of the restriction. If the specified restriction is not found, the ret
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.IsRestricted**](https://msdn.microsoft.com/library/Gg537741(v=VS.85).aspx) method.
+This method is implemented and accessed through the [**Shell.IsRestricted**](./shell-isrestricted.md) method.
 
 **IsRestricted** first looks for a subkey name that matches *sGroup* under the following key.
 
@@ -157,7 +157,3 @@ VBScript:
  
 
  
-
-
-
-

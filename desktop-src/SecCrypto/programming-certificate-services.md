@@ -18,7 +18,7 @@ The following topics provide information about using the Certificate Services pr
 | [Writing Custom Modules](writing-custom-modules.md)<br/>                                                                           | Information about writing policy modules.<br/>                                                                                                                                 |
 | [Viewing the Certificate Services Database](viewing-the-certificate-services-database.md)<br/>                                     | Information about programmatically viewing the Certificate Services database.<br/>                                                                                             |
 | [Retrieving an Issued Certificate from the Active Directory](retrieving-an-issued-certificate-from-the-active-directory.md)<br/>   | Information about and an example to retrieve a certificate from the Active Directory directory service after it has been placed there by Certificate Services.<br/>            |
-| [Retrieving a Certificate Revocation List](retrieving-a-certificate-revocation-list.md)<br/>                                       | Information about retrieving a [*certificate revocation list*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CRL).<br/> |
+| [Retrieving a Certificate Revocation List](retrieving-a-certificate-revocation-list.md)<br/>                                       | Information about retrieving a [*certificate revocation list*](../secgloss/c-gly.md) (CRL).<br/> |
 | [Customizing the Certificate Services Web Enrollment Pages](customizing-the-certificate-services-web-enrollment-pages.md)<br/>     | Information about customization of the Certificate Services web enrollment pages.<br/>                                                                                         |
 | [Setting the Type Tag Field](setting-the-type-tag-field.md)<br/>                                                                   | Information about how to indicate the data type for a **VARIANT** variable.<br/>                                                                                               |
 | [Retrieving Error Messages](retrieving-error-messages.md)<br/>                                                                     | Information about how to retrieve the error messages associated with error codes.<br/>                                                                                         |
@@ -32,7 +32,3 @@ The following topics provide information about using the Certificate Services pr
  
 
  
-
-
-
-

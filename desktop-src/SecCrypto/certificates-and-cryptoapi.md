@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Certificates and CryptoAPI
 
-[*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) supports using X.509 certificates as defined in [IETF RFC 3280](https://www.ietf.org/rfc/rfc3280.txt). This documentation assumes the use of an X.509 or comparable [*digital certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+[*CryptoAPI*](../secgloss/c-gly.md) supports using X.509 certificates as defined in [IETF RFC 3280](https://www.ietf.org/rfc/rfc3280.txt). This documentation assumes the use of an X.509 or comparable [*digital certificate*](../secgloss/c-gly.md).
 
 An X.509 standard certificate contains the following information.
 
@@ -36,7 +36,3 @@ An X.509 standard certificate contains the following information.
  
 
  
-
-
-
-

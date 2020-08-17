@@ -14,11 +14,11 @@ ms.date: 05/31/2018
 
  
 
-The target data to which an attribute manipulation rule is applied. Attribute manipulation was previously known as "realms processing". For more information, see [Realms Processing and Attribute Manipulation](https://docs.microsoft.com/windows/desktop/Nps/sdo-realms-processing-and-attribute-manipulation).
+The target data to which an attribute manipulation rule is applied. Attribute manipulation was previously known as "realms processing". For more information, see [Realms Processing and Attribute Manipulation](/windows/desktop/Nps/sdo-realms-processing-and-attribute-manipulation).
 
 **LDAP Name:** msManipulationTarget
 
-**ID:** 4113 = [**IAS\_ATTRIBUTE\_MANIPULATION\_TARGET**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid)
+**ID:** 4113 = [**IAS\_ATTRIBUTE\_MANIPULATION\_TARGET**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)
 
 **Syntax:** Enumerator
 
@@ -33,7 +33,3 @@ Defined by the Internet Assigned Numbers Authority (IANA) in the [RADIUS TYPES](
  
 
  
-
-
-
-

@@ -18,7 +18,7 @@ api_location:
 
 \[The **SIGNER\_BLOB\_INFO** structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
-The **SIGNER\_BLOB\_INFO** structure specifies a [*BLOB*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx) to sign.
+The **SIGNER\_BLOB\_INFO** structure specifies a [*BLOB*](../secgloss/b-gly.md) to sign.
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.
@@ -100,7 +100,3 @@ The display name of the BLOB. This member can be set to **NULL**.
  
 
  
-
-
-
-

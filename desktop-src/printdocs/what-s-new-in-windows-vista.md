@@ -22,9 +22,9 @@ The following functions and enumerations are used to manage print tickets.
 | [**PTMergeAndValidatePrintTicket**](/windows/desktop/api/prntvpt/nf-prntvpt-ptmergeandvalidateprintticket) | Validates and merges two print tickets into a viable print ticket.                                                                            | Prntvpt.h | Prntvpt.lib |
 | [**PTGetPrintCapabilities**](/windows/desktop/api/prntvpt/nf-prntvpt-ptgetprintcapabilities)               | Gets an account of the printer's capabilities.                                                                                                | Prntvpt.h | Prntvpt.lib |
 | [**PTOpenProvider**](/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider)                               | Opens a print ticket provider.                                                                                                                | Prntvpt.h | Prntvpt.lib |
-| [**PTOpenProviderEx**](/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex)                           | Opens a print ticket provider, even if it does not support the preferred version of the [Print Schema](https://msdn.microsoft.com/library/ms716462(v=VS.85).aspx). | Prntvpt.h | Prntvpt.lib |
+| [**PTOpenProviderEx**](/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex)                           | Opens a print ticket provider, even if it does not support the preferred version of the [Print Schema](./print-schema.md). | Prntvpt.h | Prntvpt.lib |
 | [**PTCloseProvider**](/windows/desktop/api/prntvpt/nf-prntvpt-ptcloseprovider)                             | Closes a print ticket provider.                                                                                                               | Prntvpt.h | Prntvpt.lib |
-| [**PTQuerySchemaVersionSupport**](/windows/desktop/api/prntvpt/nf-prntvpt-ptqueryschemaversionsupport)     | Gets the latest version of the [Print Schema](https://msdn.microsoft.com/library/ms716462(v=VS.85).aspx) that a specified printer supports.                        | Prntvpt.h | Prntvpt.lib |
+| [**PTQuerySchemaVersionSupport**](/windows/desktop/api/prntvpt/nf-prntvpt-ptqueryschemaversionsupport)     | Gets the latest version of the [Print Schema](./print-schema.md) that a specified printer supports.                        | Prntvpt.h | Prntvpt.lib |
 
 
 
@@ -170,6 +170,3 @@ The following enumeration and structures are used for invoking the Microsoft XPS
  
 
  
-
-
-

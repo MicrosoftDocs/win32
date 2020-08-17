@@ -39,7 +39,7 @@ interface MyInterface
 
 Some of the attributes that typically appear in a MIDL interface definition are the UUID and the interface version number. The body of the interface definition must contain the procedure declarations of all of the remote procedures in the interface. It can also contain the declarations of data types and constants required by the interface.
 
-All parameters in the remote procedure declarations must be declared as \[[**in**](https://docs.microsoft.com/windows/desktop/Midl/in)\], \[[**out**](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\], or \[**in**, **out**\]. These declarations specify that the client program passes data into a remote procedure, gets data out of a remote procedure, or both. For more detailed information about interface parameter declarations, see [The IDL Interface Body](the-idl-interface-body.md).
+All parameters in the remote procedure declarations must be declared as \[[**in**](/windows/desktop/Midl/in)\], \[[**out**](/windows/desktop/Midl/out-idl)\], or \[**in**, **out**\]. These declarations specify that the client program passes data into a remote procedure, gets data out of a remote procedure, or both. For more detailed information about interface parameter declarations, see [The IDL Interface Body](the-idl-interface-body.md).
 
 ## Compiling a MIDL File
 
@@ -47,25 +47,21 @@ The MIDL compiler is a command-line tool that is automatically installed with th
 
 **midl MyApp.idl**
 
-Note that you do not have to include the extension if the file name has the .idl extension. You can also use the MIDL compiler [command-line switches](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference) by inserting them between the **midl** command and the file name. This is demonstrated in the following example:
+Note that you do not have to include the extension if the file name has the .idl extension. You can also use the MIDL compiler [command-line switches](/windows/desktop/Midl/midl-command-line-reference) by inserting them between the **midl** command and the file name. This is demonstrated in the following example:
 
 **midl /acf MyApp.acf MyApp.idl**
 
 In this example, the MIDL compiler is executed using the file MyApp.idl as the input file. The command line switch **/acf** instructs the compiler to use an application configuration file (ACF) for input as well. Application configuration files are discussed more thoroughly in [The IDL and ACF Files](the-idl-and-acf-files.md).
 
-For more detailed information on using the MIDL compiler, see the [Microsoft Interface Definition Language (MIDL)](https://docs.microsoft.com/windows/desktop/Midl/midl-start-page), which contains information on the following topics:
+For more detailed information on using the MIDL compiler, see the [Microsoft Interface Definition Language (MIDL)](/windows/desktop/Midl/midl-start-page), which contains information on the following topics:
 
--   [C-Preprocessor Requirements for MIDL](https://docs.microsoft.com/windows/desktop/Midl/c-preprocessor-requirements-for-midl)
--   [C/C++-Compiler Considerations](https://docs.microsoft.com/windows/desktop/Midl/c-c-compiler-considerations)
--   [Files Generated for an RPC Interface](https://docs.microsoft.com/windows/desktop/Midl/files-generated-for-an-rpc-interface)
--   [MIDL Command-line Reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)
--   [MIDL Language Reference](https://docs.microsoft.com/windows/desktop/Midl/midl-language-reference)
--   [MIDL Compiler Errors and Warnings](https://docs.microsoft.com/windows/desktop/Midl/midl-compiler-errors-and-warnings)
-
- 
+-   [C-Preprocessor Requirements for MIDL](/windows/desktop/Midl/c-preprocessor-requirements-for-midl)
+-   [C/C++-Compiler Considerations](/windows/desktop/Midl/c-c-compiler-considerations)
+-   [Files Generated for an RPC Interface](/windows/desktop/Midl/files-generated-for-an-rpc-interface)
+-   [MIDL Command-line Reference](/windows/desktop/Midl/midl-command-line-reference)
+-   [MIDL Language Reference](/windows/desktop/Midl/midl-language-reference)
+-   [MIDL Compiler Errors and Warnings](/windows/desktop/Midl/midl-compiler-errors-and-warnings)
 
  
 
-
-
-
+ 

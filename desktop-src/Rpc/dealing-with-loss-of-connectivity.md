@@ -17,7 +17,7 @@ The following paragraphs expand and clarify the two conditions.
 
 An idempotent call is a call that can be executed more than once on the server without undesirable side effects. For example, having an RPC call that queries the balance in the bank for a given account is idempotent. If this call is executed twice due to loss of connectivity, no harm is done. Another example of an idempotent call is changing the address of a customer in a database. Executing twice is fine, since the second execution simply replaces the already-current address with the same address. An operation like "subtract fifty dollars from account xyz" is not idempotent. Loss of network connectivity should not result in multiple executions of such a call.
 
-To be safe, the RPC run time treats all calls as non-idempotent. The \[idempotent\] attribute is not supported for [**ncacn\_ip\_tcp**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp), and is ignored. As such, the first condition in the preceding list is reduced to *the server that cannot possibly execute the call*.
+To be safe, the RPC run time treats all calls as non-idempotent. The \[idempotent\] attribute is not supported for [**ncacn\_ip\_tcp**](/windows/desktop/Midl/ncacn-ip-tcp), and is ignored. As such, the first condition in the preceding list is reduced to *the server that cannot possibly execute the call*.
 
 In many cases the RPC run time is unable to conclusively determine the call was not already executed on the server. In such cases, the client will not retry executing the call.
 
@@ -51,7 +51,3 @@ In many of these cases, if an RPC client can determine whether a call is idempot
  
 
  
-
-
-
-

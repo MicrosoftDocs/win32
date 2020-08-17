@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Certificate Links
 
-The functions [**CertAddCertificateLinkToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddcertificatelinktostore), [**CertAddCRLLinkToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddcrllinktostore), and [**CertAddCTLLinkToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddctllinktostore) add links to existing contexts into [*certificate stores*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) rather than adding copies of those contexts. Adding links to stores makes the same physical [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx), [*CRL*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx), or [*CTL*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) available through several different stores. Changes made to the extended properties of a [*context*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) from the store of the original context, or from a store where a link to that context is stored, are available in the store that holds the original context and in all other stores that have links to that context.
+The functions [**CertAddCertificateLinkToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddcertificatelinktostore), [**CertAddCRLLinkToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddcrllinktostore), and [**CertAddCTLLinkToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddctllinktostore) add links to existing contexts into [*certificate stores*](../secgloss/c-gly.md) rather than adding copies of those contexts. Adding links to stores makes the same physical [*certificate*](../secgloss/c-gly.md), [*CRL*](../secgloss/c-gly.md), or [*CTL*](../secgloss/c-gly.md) available through several different stores. Changes made to the extended properties of a [*context*](../secgloss/c-gly.md) from the store of the original context, or from a store where a link to that context is stored, are available in the store that holds the original context and in all other stores that have links to that context.
 
 For an example that uses [**CertAddCertificateLinkToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddcertificatelinktostore), see [Example C Program: Certificate Store Operations](example-c-program-certificate-store-operations.md).
 
@@ -24,6 +24,3 @@ Assume that certificates A.1, A.2, A.3, and A.4 are originally in store A, and c
  
 
  
-
-
-

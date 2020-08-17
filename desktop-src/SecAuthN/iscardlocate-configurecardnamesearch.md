@@ -17,9 +17,9 @@ api_location:
 
 # ISCardLocate::ConfigureCardNameSearch method
 
-\[The **ConfigureCardNameSearch** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **ConfigureCardNameSearch** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **ConfigureCardNameSearch** method specifies the card names to be used in the search for the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
+The **ConfigureCardNameSearch** method specifies the card names to be used in the search for the [*smart card*](../secgloss/s-gly.md).
 
 ## Syntax
 
@@ -63,7 +63,7 @@ Dialog box title for the search common control.
 *lFlags* \[in\]
 </dt> <dd>
 
-Specifies when [*user interface*](https://msdn.microsoft.com/library/ms721629(v=VS.85).aspx) is displayed.
+Specifies when [*user interface*](../secgloss/u-gly.md) is displayed.
 
 
 
@@ -98,7 +98,7 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-To locate the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx), call [**FindCard**](iscardlocate-findcard.md).
+To locate the [*smart card*](../secgloss/s-gly.md), call [**FindCard**](iscardlocate-findcard.md).
 
 For a list of all the methods provided by this interface, see [**ISCardLocate**](iscardlocate.md).
 
@@ -134,7 +134,3 @@ In addition to the COM error codes listed above, this interface may return a sma
  
 
  
-
-
-
-

@@ -15,7 +15,7 @@ api_location:
 
 In Authorization Manager, an [**IAzApplicationGroup**](/windows/desktop/api/Azroles/nn-azroles-iazapplicationgroup) object represents a group of users. Roles can then be assigned to this group of users collectively. An **IAzApplicationGroup** object can also include other **IAzApplicationGroup** objects as members. For more information about application groups, see [Users and Groups](users-and-groups.md).
 
-A group can be defined either by explicit lists of members and nonmembers or by a [*Lightweight Directory Access Protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LDAP) query. The following examples show how to create each type of application group:
+A group can be defined either by explicit lists of members and nonmembers or by a [*Lightweight Directory Access Protocol*](/windows/desktop/SecGloss/l-gly) (LDAP) query. The following examples show how to create each type of application group:
 
 -   [Creating a Basic Group](#creating-a-basic-group)
 -   [Creating an LDAP Query Group](#creating-an-ldap-query-group)
@@ -92,6 +92,3 @@ appGroup.Submit
  
 
  
-
-
-

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the .NET Framework to implement security features. For more information, see [Alternatives to Using CAPICOM](alternatives-to-using-capicom.md).\]
 
-To decrypt an enveloped message, the recipient matches a [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) from the My store that has an available private key with a certificate in the enveloped message. If a match is found, the encrypted key associated with that certificate is decrypted and that decrypted key is used to decrypt the enveloped message. A message recipient that does not have a matching certificate with an available private key cannot decrypt the message.
+To decrypt an enveloped message, the recipient matches a [*certificate*](../secgloss/c-gly.md) from the My store that has an available private key with a certificate in the enveloped message. If a match is found, the encrypted key associated with that certificate is decrypted and that decrypted key is used to decrypt the enveloped message. A message recipient that does not have a matching certificate with an available private key cannot decrypt the message.
 
 In the example that follows, a file name is passed into the subroutine, that file is opened and an enveloped message is read in. The enveloped message is then decrypted. The steps of matching a user certificate with a certificate in the enveloped message, of decrypting the encryption key, and finally of decrypting the message are all done behind the scenes. An error is raised if a certificate match is not found or if the decryption fails.
 
@@ -67,6 +67,3 @@ End Sub
  
 
  
-
-
-

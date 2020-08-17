@@ -14,22 +14,18 @@ When you combine pipe types and other types in a remote procedure call, the data
 -   In the **\[out\]** direction, the server sends the pipe data first. After the manager routine returns, the server transmits the nonpipe data.
 -   When there are **\[in,out\]** pipe arguments combined with **\[in,out\]** non-pipe arguments, first the input data is transmitted in its entirety, as previously described. Then, the output data is transmitted as previously described.
 
-The following restriction applies to this (MIDL 3.0) implementation of pipes: When you combine pipe types and other types in a single remote procedure call, the nonpipe parameters must have a well-defined size in order to allow the MIDL compiler to calculate the buffer size needed. For example, you cannot combine pipe parameters with a \[ [unique](https://docs.microsoft.com/windows/desktop/Midl/unique)\] pointer or a conformant structure, since their sizes cannot be determined at compile time.
+The following restriction applies to this (MIDL 3.0) implementation of pipes: When you combine pipe types and other types in a single remote procedure call, the nonpipe parameters must have a well-defined size in order to allow the MIDL compiler to calculate the buffer size needed. For example, you cannot combine pipe parameters with a \[ [unique](/windows/desktop/Midl/unique)\] pointer or a conformant structure, since their sizes cannot be determined at compile time.
 
 ## Related topics
 
 <dl> <dt>
 
-[pipe](https://docs.microsoft.com/windows/desktop/Midl/pipe)
+[pipe](/windows/desktop/Midl/pipe)
 </dt> <dt>
 
-[/Oi](https://docs.microsoft.com/windows/desktop/Midl/-oi)
+[/Oi](/windows/desktop/Midl/-oi)
 </dt> </dl>
 
  
 
  
-
-
-
-

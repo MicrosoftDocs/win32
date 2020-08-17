@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 To retrieve data from the registry, an application typically enumerates the subkeys of a key until it finds a particular one and then retrieves data from the value or values associated with it. An application can call the [**RegEnumKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regenumkeyexa) function to enumerate the subkeys of a given key.
 
-To retrieve detailed data about a particular subkey, an application can call the [**RegQueryInfoKey**](/windows/desktop/api/Winreg/nf-winreg-regqueryinfokeya) function. The [**RegGetKeySecurity**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-reggetkeysecurity) function retrieves a copy of the security descriptor protecting a key.
+To retrieve detailed data about a particular subkey, an application can call the [**RegQueryInfoKey**](/windows/desktop/api/Winreg/nf-winreg-regqueryinfokeya) function. The [**RegGetKeySecurity**](/windows/desktop/api/winreg/nf-winreg-reggetkeysecurity) function retrieves a copy of the security descriptor protecting a key.
 
 An application can use the [**RegEnumValue**](/windows/desktop/api/Winreg/nf-winreg-regenumvaluea) function to enumerate the values for a given key, and [**RegQueryValueEx**](/windows/desktop/api/Winreg/nf-winreg-regqueryvalueexa) function to retrieve a particular value for a key. An application typically calls **RegEnumValue** to determine the value names and then **RegQueryValueEx** to retrieve the data for the names.
 
@@ -20,11 +20,8 @@ Because other applications can change the data in a registry value between the t
 
 You can control or specify what changes should be reported through the use of a notify filter or flag. Usually, changes are reported by signaling an event that you specify to the function. Note that the [**RegNotifyChangeKeyValue**](/windows/desktop/api/Winreg/nf-winreg-regnotifychangekeyvalue) function does not work with remote handles.
 
-To monitor registry operations in more detail, see [**Registry**](https://docs.microsoft.com/windows/desktop/ETW/registry).
+To monitor registry operations in more detail, see [**Registry**](/windows/desktop/ETW/registry).
 
  
 
  
-
-
-

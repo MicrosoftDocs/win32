@@ -17,7 +17,7 @@ api_location:
 
 # Attributes.Clear method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObjectCollection Class**](https://msdn.microsoft.com/library/ms147988(v=VS.90).aspx) in the [**System.Security.Cryptography**](https://msdn.microsoft.com/library/9eat8fht(v=VS.96).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObjectCollection Class**](/dotnet/api/system.security.cryptography.cryptographicattributeobjectcollection?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography**](/previous-versions/windows/) namespace.\]
 
 The **Clear** method clears all [**Attribute**](attribute.md) objects from the collection.
 
@@ -64,7 +64,3 @@ This method does not return a value. An application that uses this method must c
  
 
  
-
-
-
-

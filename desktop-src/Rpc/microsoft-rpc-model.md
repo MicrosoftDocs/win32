@@ -14,7 +14,7 @@ Remote Procedure Call (RPC) for the C and C++ programming languages is designed 
 
 RPC is a powerful, robust, efficient, and secure interprocess communication (IPC) mechanism that enables data exchange and invocation of functionality residing in a different process. That different process can be on the same machine, on the local area network, or across the Internet. This section explains the RPC programming model and the model for distributed systems that can be implemented using RPC.
 
-RPC fully supports 64-bit Windows. There are three types of processes: native 32-bit processes, native 64-bit processes, and 32-bit processes running under the 32-bit process emulator on a 64-bit system (often referred to as WOW64 processes). For more information about WOW64, see [Running 32-bit Applications](https://docs.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications). Using RPC, developers can transparently communicate between different types of process; RPC automatically manages process differences behind the scenes.
+RPC fully supports 64-bit Windows. There are three types of processes: native 32-bit processes, native 64-bit processes, and 32-bit processes running under the 32-bit process emulator on a 64-bit system (often referred to as WOW64 processes). For more information about WOW64, see [Running 32-bit Applications](/windows/desktop/WinProg64/running-32-bit-applications). Using RPC, developers can transparently communicate between different types of process; RPC automatically manages process differences behind the scenes.
 
 RPC was initially developed as an extension to OSF RPC. With the exception of some of its advanced features, RPC is interoperable with other vendors' implementations of OSF RPC.
 
@@ -28,7 +28,3 @@ This section also provides an overview of RPC components and their operation. Th
  
 
  
-
-
-
-

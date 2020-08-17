@@ -105,7 +105,7 @@ CustomEvent=CustomEventName
 
 ### Remarks
 
-You can include a custom event name in the Autorun.inf file of a volume. When AutoPlay prompts the user for an application to use with the volume, it displays only applications that have registered for the specified custom event name. For information on how you can register an application as a handler for your custom AutoPlay content event, see [Auto-launching with AutoPlay](https://msdn.microsoft.com/library/Hh452731(v=Win.10).aspx) or [How to Register an Event Handler](how-to-register-an-event-handler.md).
+You can include a custom event name in the Autorun.inf file of a volume. When AutoPlay prompts the user for an application to use with the volume, it displays only applications that have registered for the specified custom event name. For information on how you can register an application as a handler for your custom AutoPlay content event, see [Auto-launching with AutoPlay](/previous-versions/windows/apps/hh452731(v=win.10)) or [How to Register an Event Handler](how-to-register-an-event-handler.md).
 
 The following example specifies the value "MyContentOnArrival" as a new AutoPlay content event.
 
@@ -221,7 +221,7 @@ UseAutoPlay=1
 
 ### Remarks
 
-Currently, **UseAutoPlay** is applicable only on Windows XP or later and only on a drive that [**GetDriveType**](https://msdn.microsoft.com/library/Aa364939(v=VS.85).aspx) determines to be of type **DRIVE\_CDROM**.
+Currently, **UseAutoPlay** is applicable only on Windows XP or later and only on a drive that [**GetDriveType**](/windows/win32/api/fileapi/nf-fileapi-getdrivetypea) determines to be of type **DRIVE\_CDROM**.
 
 When **UseAutoPlay** is used, any action specified by the **open** or **shellexecute** entries in Autorun.inf is ignored on Windows XP and omitted from the AutoPlay dialog on Windows Vista.
 
@@ -462,6 +462,3 @@ If no **DriverPath** entry is provided in the **\[DeviceInstall\]** section or t
  
 
  
-
-
-

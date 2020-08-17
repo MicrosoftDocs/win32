@@ -23,7 +23,7 @@ The Windows Projected File System (ProjFS) allows a user-mode application called
 | [File System Operation Notifications](file-system-operation-notifications.md)                               | Describes how a provider can receive notifications of file system operations.
 | [Handling View Changes](handling-view-changes.md)                                                           | Describes how to update the client view of a provider's backing store.
 | [Asynchronous Callback Handling](asynchronous-callback-handling.md)                                         | Describes how the provider can asynchronously service callbacks.
-| [Windows Projected File System API Reference](https://docs.microsoft.com/windows/desktop/api/_projfs) | Reference information for the ProjFS programming interface.
+| [Windows Projected File System API Reference](/windows/desktop/api/_projfs) | Reference information for the ProjFS programming interface.
 
 ## Additional Resources
 

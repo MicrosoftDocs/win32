@@ -14,15 +14,15 @@ This topic describes how to render the program data to be printed. This topic do
 
 Rendering print job data for printing involves taking the program-specific data, such as text, images, and formatting, and converting them into a format that is compatible with the destination printer. The program that sends the data to the printer must send it in the format that the printer driver requires.
 
-Use the [XPS Print API](xps-printing.md) to send the data to the printer and it requires the data to be formatted as an XPS document. To produce the XPS document content that the XPS Print API needs, the sample program uses the [XPS Document API](https://msdn.microsoft.com/library/Dd316976(v=VS.85).aspx).
+Use the [XPS Print API](xps-printing.md) to send the data to the printer and it requires the data to be formatted as an XPS document. To produce the XPS document content that the XPS Print API needs, the sample program uses the [XPS Document API](/previous-versions/windows/desktop/dd316976(v=vs.85)).
 
-If the program content is in a format that is not compatible with a printer, it will need to be rendered before it is sent to the printer. If the program uses the [XPS Document API](https://msdn.microsoft.com/library/Dd316976(v=VS.85).aspx) to manage its program content, the program content will be in a format that can be sent directly to the [XPS Print API](xps-printing.md) and will not require any additional rendering before you send it to the printer.
+If the program content is in a format that is not compatible with a printer, it will need to be rendered before it is sent to the printer. If the program uses the [XPS Document API](/previous-versions/windows/desktop/dd316976(v=vs.85)) to manage its program content, the program content will be in a format that can be sent directly to the [XPS Print API](xps-printing.md) and will not require any additional rendering before you send it to the printer.
 
 ## Related topics
 
 <dl> <dt>
 
-[XPS Document API](https://msdn.microsoft.com/library/Dd316976(v=VS.85).aspx)
+[XPS Document API](/previous-versions/windows/desktop/dd316976(v=vs.85))
 </dt> <dt>
 
 [XPS Print API](xps-printing.md)
@@ -31,6 +31,3 @@ If the program content is in a format that is not compatible with a printer, it 
  
 
  
-
-
-

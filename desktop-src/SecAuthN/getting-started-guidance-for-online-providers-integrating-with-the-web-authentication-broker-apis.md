@@ -30,19 +30,14 @@ This section guides web developers and online providers for creating web pages t
 
 <dl> <dt>
 
-[Web authentication broker overview](https://docs.microsoft.com/previous-versions/windows/apps/hh750287(v=win.10))
+[Web authentication broker overview](/previous-versions/windows/apps/hh750287(v=win.10))
 </dt> <dt>
 
 [Web Authentication Broker SDK sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
 </dt> <dt>
 
-[**Windows.Security.Authentication.Web**](https://docs.microsoft.com/uwp/api/Windows.Security.Authentication.Web)
+[**Windows.Security.Authentication.Web**](/uwp/api/Windows.Security.Authentication.Web)
 </dt> </dl>
 
  
-
- 
-
-
-
 

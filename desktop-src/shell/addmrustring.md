@@ -75,7 +75,7 @@ Returns a non-negative value if successful, -1 otherwise.
 
 ## Remarks
 
-This function is not included in a public header or library. It can be accessed through [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) or extracted from comctl32.dll by its ordinal, which is 401 for **AddMRUStringW**.
+This function is not included in a public header or library. It can be accessed through [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) or extracted from comctl32.dll by its ordinal, which is 401 for **AddMRUStringW**.
 
 ## Requirements
 
@@ -91,9 +91,4 @@ This function is not included in a public header or library. It can be accessed 
 
 
  
-
- 
-
-
-
 

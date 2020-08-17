@@ -13,7 +13,7 @@ The following topics discuss the data buffers, alignment, structures, and handle
 -   [Network Management Function Buffers](network-management-function-buffers.md)
 -   [Network Management Function Buffer Lengths](network-management-function-buffer-lengths.md)
 -   [API Data Alignment](api-data-alignment.md)
--   [DFS Server Target Prioritization](https://docs.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization)
+-   [DFS Server Target Prioritization](/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization)
 -   [Embedded Strings](embedded-strings.md)
 -   [Enumeration Resume Handles](enumeration-resume-handles.md)
 -   [Function Status](function-status.md)
@@ -25,7 +25,3 @@ The following topics discuss the data buffers, alignment, structures, and handle
  
 
  
-
-
-
-

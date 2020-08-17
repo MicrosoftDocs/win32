@@ -8,15 +8,15 @@ ms.date: 05/31/2018
 
 # Deriving Bulk Encryption and MAC Keys
 
-[*Bulk encryption*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx) and [*MAC keys*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx) are derived from a [*master key*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx) but can include other sources depending on the protocol and cipher suite used.
+[*Bulk encryption*](../secgloss/b-gly.md) and [*MAC keys*](../secgloss/m-gly.md) are derived from a [*master key*](../secgloss/m-gly.md) but can include other sources depending on the protocol and cipher suite used.
 
 The process of deriving bulk encryption and MAC keys is the same for both client and server:
 
 1.  The protocol engine calls [**CryptSetKeyParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam) on the master key one or more times to provide the CSP with the information needed to build the keys.
-2.  Because [*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) keys cannot be derived directly from other keys, a hash object is created from the master key using [**CryptCreateHash**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash). This [*hash*](https://msdn.microsoft.com/library/ms721586(v=VS.85).aspx) is used to create the new keys.
+2.  Because [*CryptoAPI*](../secgloss/c-gly.md) keys cannot be derived directly from other keys, a hash object is created from the master key using [**CryptCreateHash**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash). This [*hash*](../secgloss/h-gly.md) is used to create the new keys.
 3.  The two bulk encryption keys and the two MAC keys are created from the "master hash" object using four calls to [**CryptDeriveKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptderivekey).
 
-> [!Note]When performing SSL reconnects, a protocol engine can perform the above procedure several times using the same master key. This enables the client and server to have multiple, often simultaneous connections, each using different [*bulk encryption*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx) and MAC keys without additional RSA or Diffie-Hellman operations.
+> [!Note]When performing SSL reconnects, a protocol engine can perform the above procedure several times using the same master key. This enables the client and server to have multiple, often simultaneous connections, each using different [*Bulk encryption*](../secgloss/b-gly.md) and MAC keys without additional RSA or Diffie-Hellman operations.
 >
 > All CSPs must use good thread-safe practices. Thread counts of several dozen are not unusual.
 
@@ -208,6 +208,3 @@ CryptDestroyHash(hMasterHash);
  
 
  
-
-
-

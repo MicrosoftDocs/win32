@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # New in SNMP
 
-\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
+\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
 
 SNMP supports the use of IPv6 starting with Windows Vista. However, SNMP supports IPv6 only for networks running Windows Server 2008 and Windows Vista. This is because SNMP requires the updated protocol stack available in these operating systems for its IPv6 support.
 
@@ -17,7 +17,3 @@ Unless your network is solely a Windows Server 2008 network, IPv6 communication
  
 
  
-
-
-
-

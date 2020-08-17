@@ -18,9 +18,9 @@ ms.date: 05/31/2018
 
 # RpcTryFinally
 
-The **RpcTryFinally** statement provides structured termination handling. It an exception occurs during the execution statements of the code block associated with the **RpcTryFinally** statement, the statements in the code block associated with the [**RpcFinally**](https://msdn.microsoft.com/library/Aa375699(v=VS.80).aspx) statement are executed. All **RpcTryFinally** statements must be terminated by an [**RpcEndFinally**](https://msdn.microsoft.com/library/Aa375634(v=VS.80).aspx) statement.
+The **RpcTryFinally** statement provides structured termination handling. It an exception occurs during the execution statements of the code block associated with the **RpcTryFinally** statement, the statements in the code block associated with the [**RpcFinally**](/previous-versions/aa375699(v=vs.80)) statement are executed. All **RpcTryFinally** statements must be terminated by an [**RpcEndFinally**](/previous-versions/aa375634(v=vs.80)) statement.
 
-For more information, see [**RpcFinally**](https://msdn.microsoft.com/library/Aa375699(v=VS.80).aspx).
+For more information, see [**RpcFinally**](/previous-versions/aa375699(v=vs.80)).
 
 ## Requirements
 
@@ -38,17 +38,11 @@ For more information, see [**RpcFinally**](https://msdn.microsoft.com/library/Aa
 
 <dl> <dt>
 
-[**RpcFinally**](https://msdn.microsoft.com/library/Aa375699(v=VS.80).aspx)
+[**RpcFinally**](/previous-versions/aa375699(v=vs.80))
 </dt> <dt>
 
-[**RpcEndFinally**](https://msdn.microsoft.com/library/Aa375634(v=VS.80).aspx)
+[**RpcEndFinally**](/previous-versions/aa375634(v=vs.80))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

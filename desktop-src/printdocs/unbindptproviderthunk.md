@@ -45,7 +45,7 @@ A handle to an open print ticket provider. This handle is returned by the [**Bin
 
 ## Return value
 
-If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT** error code. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
+If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT** error code. For more information about COM error codes, see [Error Handling](../com/error-handling-in-com.md).
 
 ## Requirements
 
@@ -63,7 +63,7 @@ If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT
 
 <dl> <dt>
 
-[Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx)
+[Print Schema](./printschema.md)
 </dt> <dt>
 
 [**PTCloseProvider**](/windows/desktop/api/prntvpt/nf-prntvpt-ptcloseprovider)
@@ -76,9 +76,4 @@ If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -12,8 +12,8 @@ The following scenario shows how the Certificate Services backup functions can b
 
 An existing full backup of the Certificate Services database must exist before implementing this scenario.
 
-1.  Load the Certadm.dll library into memory (by calling [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx)).
-2.  Retrieve the address of each of the necessary functions in Certadm.dll (by means of [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx)). Use these addresses when calling the functions in the remaining steps.
+1.  Load the Certadm.dll library into memory (by calling [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya)).
+2.  Retrieve the address of each of the necessary functions in Certadm.dll (by means of [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress)). Use these addresses when calling the functions in the remaining steps.
 3.  Call [**CertSrvIsServerOnline**](/windows/desktop/api/Certbcli/nf-certbcli-certsrvisserveronlinew) to determine whether Certificate Services is online. If Certificate Services is running, shut it down before proceeding. Certificate Services must not be online for the restore operations to be successful.
 4.  Call [**CertSrvRestorePrepare**](/windows/desktop/api/Certbcli/nf-certbcli-certsrvrestorepreparew) to begin a restore session. The resulting Certificate Services backup context handle will be used by several of the other functions.
 5.  Determine the path for the database location. During a backup scenario, this value would have been available from a call to [**CertSrvRestoreGetDatabaseLocations**](/windows/desktop/api/Certbcli/nf-certbcli-certsrvrestoregetdatabaselocationsw); this value should have been stored as part of the backup.
@@ -35,6 +35,3 @@ An existing full backup of the Certificate Services database must exist before i
  
 
  
-
-
-

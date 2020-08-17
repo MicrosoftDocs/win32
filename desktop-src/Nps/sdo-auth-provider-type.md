@@ -13,7 +13,7 @@ The type of authentication provider to use.
 
 **LDAP Name:** msAuthProviderType
 
-**ID:** 4133 = [**IAS\_ATTRIBUTE\_AUTH\_PROVIDER\_TYPE**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid)
+**ID:** 4133 = [**IAS\_ATTRIBUTE\_AUTH\_PROVIDER\_TYPE**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)
 
 **Syntax:** Enumerator
 
@@ -26,7 +26,3 @@ The type of authentication provider to use.
  
 
  
-
-
-
-

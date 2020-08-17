@@ -11,24 +11,20 @@ ms.date: 05/31/2018
 
 The following sections provides sample code to accomplish specific tasks using the SDO API.
 
--   [Adding a Client](https://docs.microsoft.com/windows/desktop/Nps/sdo-adding-a-client)
--   [Changing Dial-In Settings](https://docs.microsoft.com/windows/desktop/Nps/sdo-changing-dial-in-settings)
--   [Creating a Connection Request Policy](https://docs.microsoft.com/windows/desktop/Nps/sdo-creating-a-connection-request-policy)
--   [Listing Profiles, Policies, and Clients](https://docs.microsoft.com/windows/desktop/Nps/sdo-listing-profiles-policies-and-clients)
--   [Obtaining Accounting Properties](https://docs.microsoft.com/windows/desktop/Nps/sdo-obtaining-accounting-properties)
--   [Realms Processing and Attribute Manipulation](https://docs.microsoft.com/windows/desktop/Nps/sdo-realms-processing-and-attribute-manipulation)
+-   [Adding a Client](/windows/desktop/Nps/sdo-adding-a-client)
+-   [Changing Dial-In Settings](/windows/desktop/Nps/sdo-changing-dial-in-settings)
+-   [Creating a Connection Request Policy](/windows/desktop/Nps/sdo-creating-a-connection-request-policy)
+-   [Listing Profiles, Policies, and Clients](/windows/desktop/Nps/sdo-listing-profiles-policies-and-clients)
+-   [Obtaining Accounting Properties](/windows/desktop/Nps/sdo-obtaining-accounting-properties)
+-   [Realms Processing and Attribute Manipulation](/windows/desktop/Nps/sdo-realms-processing-and-attribute-manipulation)
 
 ## Related topics
 
 <dl> <dt>
 
-[Fundamental SDO Operations](https://docs.microsoft.com/windows/desktop/Nps/sdo-fundamental-sdo-operations)
+[Fundamental SDO Operations](/windows/desktop/Nps/sdo-fundamental-sdo-operations)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -37,7 +37,7 @@ bRetVal = NewWDEvents.PassportAuthenticate(
 *bstrSignInUrl* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A string containing the URL of a webpage that redirects to the Microsoft account log on UI.
 
@@ -70,7 +70,3 @@ This method may be called even if a user is already logged on to a Microsoft acc
  
 
  
-
-
-
-

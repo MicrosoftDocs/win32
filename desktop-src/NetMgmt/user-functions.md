@@ -80,12 +80,8 @@ The following functions enable applications to check password compliance.
 
  
 
-If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user functions. For more information, see [**IADsUser**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsuser) and [**IADsComputer**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscomputer).
+If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user functions. For more information, see [**IADsUser**](/windows/desktop/api/iads/nn-iads-iadsuser) and [**IADsComputer**](/windows/desktop/api/iads/nn-iads-iadscomputer).
 
  
 
  
-
-
-
-

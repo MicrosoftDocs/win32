@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[**SFVM\_DIDDRAGDROP** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
-Notifies the callback function that a drag-and-drop operation has begun. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
+Notifies the callback function that a drag-and-drop operation has begun. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -29,14 +29,14 @@ SFVM_DIDDRAGDROP
 *dwEffect* \[in\]
 </dt> <dd>
 
-A drop effect specifier from the [**DROPEFFECT**](https://msdn.microsoft.com/library/ms693457(v=VS.85).aspx) enumeration. This is obtained by calling [**SHDoDragDrop**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shdodragdrop).
+A drop effect specifier from the [**DROPEFFECT**](../com/dropeffect-constants.md) enumeration. This is obtained by calling [**SHDoDragDrop**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shdodragdrop).
 
 </dd> <dt>
 
 *pIdo* \[in\]
 </dt> <dd>
 
-A pointer to the [**IDataObject**](https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx) instance.
+A pointer to the [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) instance.
 
 </dd> </dl>
 
@@ -57,7 +57,3 @@ A pointer to the [**IDataObject**](https://msdn.microsoft.com/library/ms688421(v
  
 
  
-
-
-
-

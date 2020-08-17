@@ -20,15 +20,15 @@ The following functions are used to manage print tickets.
 | [**ConvertPrintTicketToDevModeThunk2**](convertprinttickettodevmodethunk2.md)<br/> | Converts a print ticket to a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure.<br/>                                                                          |
 | [**MergeAndValidatePrintTicketThunk2**](mergeandvalidateprintticketthunk2.md)<br/> | Merges two print tickets and returns a valid, viable print ticket.<br/>                                                                          |
 | [**PTCloseProvider**](/windows/desktop/api/prntvpt/nf-prntvpt-ptcloseprovider)<br/>                                     | Closes a print ticket provider handle.<br/>                                                                                                      |
-| [**PTConvertDevModeToPrintTicket**](/windows/desktop/api/prntvpt/nf-prntvpt-ptconvertdevmodetoprintticket)<br/>         | Converts a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure to a print ticket inside an [**IStream**](https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation).<br/>        |
+| [**PTConvertDevModeToPrintTicket**](/windows/desktop/api/prntvpt/nf-prntvpt-ptconvertdevmodetoprintticket)<br/>         | Converts a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure to a print ticket inside an [**IStream**](/windows/desktop/Stg/istream-compound-file-implementation).<br/>        |
 | [**PTConvertPrintTicketToDevMode**](/windows/desktop/api/prntvpt/nf-prntvpt-ptconvertprinttickettodevmode)<br/>         | Converts a print ticket into a [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) structure.<br/>                                                                        |
-| [**PTGetPrintCapabilities**](/windows/desktop/api/prntvpt/nf-prntvpt-ptgetprintcapabilities)<br/>                       | Retrieves the printer's capabilities formatted in compliance with the XML [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx).<br/>                   |
-| [**PTGetPrintDeviceCapabilities**](https://msdn.microsoft.com/library/Mt784458(v=VS.85).aspx)<br/>    | Retrieves the device printer's capabilities formatted in compliance with the XML [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx).<br/>            |
-| [**PTGetPrintDeviceResources**](https://msdn.microsoft.com/library/Mt784459(v=VS.85).aspx)<br/>          | It retrieves the print devices resources for a printer formatted in compliance with the XML [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx).<br/> |
+| [**PTGetPrintCapabilities**](/windows/desktop/api/prntvpt/nf-prntvpt-ptgetprintcapabilities)<br/>                       | Retrieves the printer's capabilities formatted in compliance with the XML [Print Schema](./printschema.md).<br/>                   |
+| [**PTGetPrintDeviceCapabilities**](/windows/win32/api/prntvpt/nf-prntvpt-ptgetprintdevicecapabilities)<br/>    | Retrieves the device printer's capabilities formatted in compliance with the XML [Print Schema](./printschema.md).<br/>            |
+| [**PTGetPrintDeviceResources**](/windows/win32/api/prntvpt/nf-prntvpt-ptgetprintdeviceresources)<br/>          | It retrieves the print devices resources for a printer formatted in compliance with the XML [Print Schema](./printschema.md).<br/> |
 | [**PTMergeAndValidatePrintTicket**](/windows/desktop/api/prntvpt/nf-prntvpt-ptmergeandvalidateprintticket)<br/>         | Merges two print tickets and returns a valid, viable print ticket.<br/>                                                                          |
 | [**PTOpenProvider**](/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider)<br/>                                       | Opens an instance of a print ticket provider.<br/>                                                                                               |
 | [**PTOpenProviderEx**](/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex)<br/>                                   | Opens an instance of a print ticket provider.<br/>                                                                                               |
-| [**PTQuerySchemaVersionSupport**](/windows/desktop/api/prntvpt/nf-prntvpt-ptqueryschemaversionsupport)<br/>             | Retrieves the highest (latest) version of the [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx) that the specified printer supports.<br/>           |
+| [**PTQuerySchemaVersionSupport**](/windows/desktop/api/prntvpt/nf-prntvpt-ptqueryschemaversionsupport)<br/>             | Retrieves the highest (latest) version of the [Print Schema](./printschema.md) that the specified printer supports.<br/>           |
 | [**PTReleaseMemory**](/windows/desktop/api/prntvpt/nf-prntvpt-ptreleasememory)<br/>                                     | Releases buffers associated with print tickets and print capabilities.<br/>                                                                      |
 | [**UnbindPTProviderThunk**](unbindptproviderthunk.md)<br/>                         | Closes a handle to a print ticket provider.<br/>                                                                                                 |
 
@@ -37,9 +37,4 @@ The following functions are used to manage print tickets.
  
 
  
-
- 
-
-
-
 

@@ -34,9 +34,9 @@ Property sheet handlers are most commonly registered for a [file type](fa-file-t
 
 The other use for property sheet handlers is to replace pages in the property sheets displayed by Control Panel applications. A mouse manufacturer, for instance, can use a property sheet handler to replace the **Buttons** page on the Control Panel's **Mouse Properties** property sheet with a page that is customized for the characteristics of its mouse.
 
-Like all Shell extension handlers, property sheet handlers are in-process Component Object Model (COM) objects implemented as DLLs. They must export two interfaces in addition to [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx): [**IShellExtInit**](https://msdn.microsoft.com/library/Bb775096(v=VS.85).aspx) and [**IShellPropSheetExt**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext).
+Like all Shell extension handlers, property sheet handlers are in-process Component Object Model (COM) objects implemented as DLLs. They must export two interfaces in addition to [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown): [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) and [**IShellPropSheetExt**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext).
 
-The [**IShellExtInit**](https://msdn.microsoft.com/library/Bb775096(v=VS.85).aspx) interface is used by the Shell to initialize the handler. When the Shell calls [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize), it passes in a data object with the object's name, and the pointer to an item identifier list (PIDL) of the folder that contains the file. The *hRegKey* parameter is not used with property sheet handlers. The **IShellExtInit::Initialize** method must extract the file name from the data object, and store the name and the folder's PIDL for later use. For further details, see the *Implementing IShellExtInit* section of [Creating Shell Extension Handlers](handlers.md).
+The [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) interface is used by the Shell to initialize the handler. When the Shell calls [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize), it passes in a data object with the object's name, and the pointer to an item identifier list (PIDL) of the folder that contains the file. The *hRegKey* parameter is not used with property sheet handlers. The **IShellExtInit::Initialize** method must extract the file name from the data object, and store the name and the folder's PIDL for later use. For further details, see the *Implementing IShellExtInit* section of [Creating Shell Extension Handlers](handlers.md).
 
 The remainder of the operation takes place through the handler's [**IShellPropSheetExt**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext) interface. If the property sheet is associated with a file type, the Shell calls [**IShellPropSheetExt::AddPages**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages) to allow the handler to add a page to the property sheet. If the property sheet is associated with a Control Panel application, the Shell calls [**IShellPropSheetExt::ReplacePage**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-replacepage) to allow the handler to replace a page.
 
@@ -64,6 +64,3 @@ There are a wide variety of devices that can be mounted as drives. Because the d
  
 
  
-
-
-

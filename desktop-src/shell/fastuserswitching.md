@@ -38,9 +38,9 @@ Both fast user switching and Personal Terminal Server use Terminal Services tech
 
 ## Registering for Session Switching Notification
 
-Typically, an application does not need to be notified when a desktop switch occurs. However, applications that must be notified when the account under which they are running is the current desktop, such as applications that access the serial port or other shared resources, can register for desktop switch notification. To register for a notification, use the [**WTSRegisterSessionNotification**](https://msdn.microsoft.com/library/Aa383841(v=VS.85).aspx) function.
+Typically, an application does not need to be notified when a desktop switch occurs. However, applications that must be notified when the account under which they are running is the current desktop, such as applications that access the serial port or other shared resources, can register for desktop switch notification. To register for a notification, use the [**WTSRegisterSessionNotification**](/windows/win32/api/wtsapi32/nf-wtsapi32-wtsregistersessionnotification) function.
 
-Once that function has been called, the window with handle *hWnd* is registered to receive a [**WM\_WTSSESSION\_CHANGE**](https://msdn.microsoft.com/library/Aa383828(v=VS.85).aspx) message through its **WndProc** function. The session ID is sent in the **lParam** parameter, and a code that indicates the event that generated the message is sent in **wParam** as one of the following flags.
+Once that function has been called, the window with handle *hWnd* is registered to receive a [**WM\_WTSSESSION\_CHANGE**](../termserv/wm-wtssession-change.md) message through its **WndProc** function. The session ID is sent in the **lParam** parameter, and a code that indicates the event that generated the message is sent in **wParam** as one of the following flags.
 
 -   WTS\_CONSOLE\_CONNECT
 -   WTS\_CONSOLE\_DISCONNECT
@@ -49,12 +49,12 @@ Once that function has been called, the window with handle *hWnd* is registered 
 -   WTS\_SESSION\_LOGOFF
 -   WTS\_SESSION\_LOGON
 
-Applications can use this message to track their state, as well as to release and acquire console-specific resources. User desktops can be dynamically switched between remote and console control. Applications should use the [**WM\_WTSSESSION\_CHANGE**](https://msdn.microsoft.com/library/Aa383828(v=VS.85).aspx) message to synchronize with the remote or local connection state.
+Applications can use this message to track their state, as well as to release and acquire console-specific resources. User desktops can be dynamically switched between remote and console control. Applications should use the [**WM\_WTSSESSION\_CHANGE**](../termserv/wm-wtssession-change.md) message to synchronize with the remote or local connection state.
 
-When your process no longer requires these notifications or is terminating, it should call [**WTSUnRegisterSessionNotification**](https://msdn.microsoft.com/library/Aa383847(v=VS.85).aspx) to unregister its notification.
+When your process no longer requires these notifications or is terminating, it should call [**WTSUnRegisterSessionNotification**](/windows/win32/api/wtsapi32/nf-wtsapi32-wtsunregistersessionnotification) to unregister its notification.
 
 > [!IMPORTANT]
-> The **hWnd** values passed to [**WTSRegisterSessionNotification**](https://msdn.microsoft.com/library/Aa383841(v=VS.85).aspx) are reference counted, so you must make an equal number of calls to [**WTSUnRegisterSessionNotification**](https://msdn.microsoft.com/library/Aa383847(v=VS.85).aspx) to ensure the release of all allocated resources.
+> The **hWnd** values passed to [**WTSRegisterSessionNotification**](/windows/win32/api/wtsapi32/nf-wtsapi32-wtsregistersessionnotification) are reference counted, so you must make an equal number of calls to [**WTSUnRegisterSessionNotification**](/windows/win32/api/wtsapi32/nf-wtsapi32-wtsunregistersessionnotification) to ensure the release of all allocated resources.
 
  
 
@@ -62,7 +62,7 @@ When your process no longer requires these notifications or is terminating, it s
 
 Many applications must ensure that they have only one instance running. There are several ways to do this in Windows XP. Among them are the following:
 
--   Use [**FindWindow**](https://msdn.microsoft.com/library/ms633499(v=VS.85).aspx) or [**FindWindowEx**](https://msdn.microsoft.com/library/ms633500(v=VS.85).aspx) to search for a known window that your application opens. If that window is already open, you can use that as an indication that the application is already running.
+-   Use [**FindWindow**](/windows/win32/api/winuser/nf-winuser-findwindowa) or [**FindWindowEx**](/windows/win32/api/winuser/nf-winuser-findwindowexa) to search for a known window that your application opens. If that window is already open, you can use that as an indication that the application is already running.
 -   Create a mutex or semaphore object when your application is opened, and close that object when the application terminates. The global object namespace is separated for each desktop, allowing a unique list of mutex and semaphore objects for each.
 
 ## Shutting Down Your Application Across All Sessions
@@ -75,16 +75,16 @@ From a programmatic standpoint, the following cases need to be addressed.
 
 -   The server process receives a direct request from a client process.
 
-    In this case, the message is probably transmitted using a local procedure call (LPC) or a remote procedure call (RPC). There are APIs for either LPC or RPC that enable retrieval of the client token. Once the client token is obtained, the server can use it in a call to [**CreateProcessAsUser**](https://msdn.microsoft.com/library/ms682429(v=VS.85).aspx). This brings up the process on the correct window station, assuming that the client user token has a session tag, which it should.
+    In this case, the message is probably transmitted using a local procedure call (LPC) or a remote procedure call (RPC). There are APIs for either LPC or RPC that enable retrieval of the client token. Once the client token is obtained, the server can use it in a call to [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasusera). This brings up the process on the correct window station, assuming that the client user token has a session tag, which it should.
 
     > [!Note]  
-    > [**CreateProcessAsUser**](https://msdn.microsoft.com/library/ms682429(v=VS.85).aspx) does not support handle inheritance across sessions at this time.
+    > [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) does not support handle inheritance across sessions at this time.
 
      
 
 -   The server process receives a notification and needs to display the UI, but the display does not have to be in the current user's context.
 
-    In this case, the server process can duplicate its primary process token and change the session identifier in question to match the current session identifier. The current session identifier can be obtained by using the [**WTSGetActiveConsoleSessionId**](https://msdn.microsoft.com/library/Aa383835(v=VS.85).aspx) function.
+    In this case, the server process can duplicate its primary process token and change the session identifier in question to match the current session identifier. The current session identifier can be obtained by using the [**WTSGetActiveConsoleSessionId**](/windows/win32/api/winbase/nf-winbase-wtsgetactiveconsolesessionid) function.
 
     > [!Note]  
     > To set the token session ID, you need the **SE\_TCB\_PRIVILEGE**. You will have this only as a service running in NT AUTHORITY\\SYSTEM.
@@ -93,11 +93,8 @@ From a programmatic standpoint, the following cases need to be addressed.
 
 ## Remote Desktop and Bandwidth
 
-With the addition of the Remote Desktop feature to Windows XP, applications should make an effort not to use more bandwidth than needed, avoiding extensive screen drawings and animation effects if the desktop is connected remotely. To determine whether the current session is remote, you can call [**GetSystemMetrics**](https://msdn.microsoft.com/library/ms724385(v=VS.85).aspx) with **SM\_REMOTESESSION**. Be aware, however, that this call does not distinguish between remote and disconnected.
+With the addition of the Remote Desktop feature to Windows XP, applications should make an effort not to use more bandwidth than needed, avoiding extensive screen drawings and animation effects if the desktop is connected remotely. To determine whether the current session is remote, you can call [**GetSystemMetrics**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) with **SM\_REMOTESESSION**. Be aware, however, that this call does not distinguish between remote and disconnected.
 
  
 
  
-
-
-

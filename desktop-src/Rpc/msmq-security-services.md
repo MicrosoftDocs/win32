@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Synchronous RPC messages can use any of the security features available from the RPC run time. See [Security](security.md) for more details.
 
-Asynchronous \[ [message](https://docs.microsoft.com/windows/desktop/Midl/message)\] calls cannot use RPC security because there is no handshake between client and server. In fact, the server may not even be running at the time of the call. To access the security services provided by Message Queuing Services (MSMQ), the client application should call [**RpcBindingSetAuthInfo**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo) to control the level of authentication and privacy for its calls to the server.
+Asynchronous \[ [message](/windows/desktop/Midl/message)\] calls cannot use RPC security because there is no handshake between client and server. In fact, the server may not even be running at the time of the call. To access the security services provided by Message Queuing Services (MSMQ), the client application should call [**RpcBindingSetAuthInfo**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo) to control the level of authentication and privacy for its calls to the server.
 
 The server application can call [**RpcBindingInqAuthClient**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthclient) from within a remote procedure call to determine the security level for that call. The mapping between RPC security constants and MSMQ security is shown in the following table.
 
@@ -31,7 +31,3 @@ The server can also force call authentication and encryption by calling [**RpcSe
  
 
  
-
-
-
-

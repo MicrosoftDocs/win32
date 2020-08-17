@@ -17,7 +17,7 @@ api_location:
 
 # Signers.Item property
 
-\[The **Item** property is available for use in the operating systems specified in the Requirements section. Instead, use a collection of CmsSigner objects. For more information, see the [**CmsSigner Class**](https://msdn.microsoft.com/library/5x3db70t(v=VS.100).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
+\[The **Item** property is available for use in the operating systems specified in the Requirements section. Instead, use a collection of CmsSigner objects. For more information, see the [**CmsSigner Class**](/dotnet/api/system.security.cryptography.pkcs.cmssigner?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
 
 The **Item** property retrieves the [**Signer**](signer.md) object that represents the indexed signer. This is the default property.
 
@@ -57,7 +57,3 @@ The [**Signer**](signer.md) object that represents the indexed signer.
  
 
  
-
-
-
-

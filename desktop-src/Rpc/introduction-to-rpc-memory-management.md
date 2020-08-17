@@ -12,7 +12,7 @@ In the context of RPC, memory management involves:
 
 -   Allocating and deallocating the memory needed to simulate a single conceptual address space between the client and the server in the different address spaces of the client and server's threads.
 -   Determining which software component is responsible for managing memory — the application or the MIDL-generated stub.
--   Selecting MIDL attributes that affect memory management: directional attributes, pointer attributes, array attributes, and the ACF attributes \[ [byte\_count](https://docs.microsoft.com/windows/desktop/Midl/byte-count)\], \[ [allocate](https://docs.microsoft.com/windows/desktop/Midl/allocate)\], and \[ [enable\_allocate](https://docs.microsoft.com/windows/desktop/Midl/enable-allocate)\].
+-   Selecting MIDL attributes that affect memory management: directional attributes, pointer attributes, array attributes, and the ACF attributes \[ [byte\_count](/windows/desktop/Midl/byte-count)\], \[ [allocate](/windows/desktop/Midl/allocate)\], and \[ [enable\_allocate](/windows/desktop/Midl/enable-allocate)\].
 
 When a program calls a function or procedure in its address space, memory management is more straightforward than in a distributed application. To illustrate, the following diagram depicts a binary tree. To pass this data structure to a procedure in its address space, a program simply passes a pointer to the root of the tree.
 
@@ -25,7 +25,3 @@ In cases such as the binary tree depicted in the preceding diagram, it is not su
  
 
  
-
-
-
-

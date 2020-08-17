@@ -30,12 +30,9 @@ To view sample WLAN profiles, see [Wireless Profile Samples](wireless-profile-sa
 
 <dl> <dt>
 
-[Netsh Commands for Wireless Local Area Network (wlan)](https://technet.microsoft.com/library/f435edbe-1d50-4774-bae2-0dda33eaeb2f)
+[Netsh Commands for Wireless Local Area Network (wlan)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc755301(v=ws.10))
 </dt> </dl>
 
  
 
  
-
-
-

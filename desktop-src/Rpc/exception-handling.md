@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 RPC uses the same approach to exception handling as the Windows API.
 
-The [**RpcTryFinally**](rpctryfinally.md) / [**RpcFinally**](https://msdn.microsoft.com/library/Aa375699(v=VS.80).aspx) / [**RpcEndFinally**](https://msdn.microsoft.com/library/Aa375634(v=VS.80).aspx) structure is equivalent to the Windows **try-finally** statement. The RPC exception construct [**RpcTryExcept**](rpctryexcept.md) / [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept) / [**RpcEndExcept**](https://msdn.microsoft.com/library/Aa375629(v=VS.80).aspx) is equivalent to the Windows **try-except** statement.
+The [**RpcTryFinally**](rpctryfinally.md) / [**RpcFinally**](/previous-versions/aa375699(v=vs.80)) / [**RpcEndFinally**](/previous-versions/aa375634(v=vs.80)) structure is equivalent to the Windows **try-finally** statement. The RPC exception construct [**RpcTryExcept**](rpctryexcept.md) / [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept) / [**RpcEndExcept**](/previous-versions/aa375629(v=vs.80)) is equivalent to the Windows **try-except** statement.
 
 When you use the RPC exception handlers, your client-side source code is portable. The different RPC header files provided for each platform resolve the **RpcTry** and [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept) macros for each platform. In the Windows environment, these macros map directly to the Windows **try-finally** and **try-except** statements. In other environments, these macros map to other platform-specific implementations of exception handlers.
 
@@ -24,12 +24,8 @@ The following figure shows how exceptions are returned from the server to the cl
 
 ![exceptions are returned from the server to the client through the respective rpc runtime of each component](images/prog-a20.png)
 
-The RPC exception handlers differ slightly from the Open Software Foundation-Distributed Computing Environment (OSF-DCE) exception-handling macros **TRY**, **FINALLY**, and **CATCH**. Various vendors provide include files that map the OSF-DCE RPC functions to the Microsoft RPC functions, including **TRY**, **CATCH**, **CATCH**\_**ALL**, and **ENDTRY**. These header files also map the RPC\_S\_\* error codes onto the OSF-DCE exception counterparts, rpc\_s\_\*, and map RPC\_X\_\* error codes to rpc\_x\_\*. For OSF-DCE portability, use these include files. For more information about the RPC exception handlers, see [**RpcExceptionFilter**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcexceptionfilter), [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept), [**RpcFinally**](https://msdn.microsoft.com/library/Aa375699(v=VS.80).aspx). For more information about the Windows exception handlers, see [Structured Exception Handling](https://docs.microsoft.com/windows/desktop/Debug/structured-exception-handling).
+The RPC exception handlers differ slightly from the Open Software Foundation-Distributed Computing Environment (OSF-DCE) exception-handling macros **TRY**, **FINALLY**, and **CATCH**. Various vendors provide include files that map the OSF-DCE RPC functions to the Microsoft RPC functions, including **TRY**, **CATCH**, **CATCH**\_**ALL**, and **ENDTRY**. These header files also map the RPC\_S\_\* error codes onto the OSF-DCE exception counterparts, rpc\_s\_\*, and map RPC\_X\_\* error codes to rpc\_x\_\*. For OSF-DCE portability, use these include files. For more information about the RPC exception handlers, see [**RpcExceptionFilter**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcexceptionfilter), [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept), [**RpcFinally**](/previous-versions/aa375699(v=vs.80)). For more information about the Windows exception handlers, see [Structured Exception Handling](/windows/desktop/Debug/structured-exception-handling).
 
  
 
  
-
-
-
-

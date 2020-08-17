@@ -395,13 +395,9 @@ GO
 
 <dl> <dt>
 
-[TechNet: Key concepts for IAS SQL Server logging](https://technet.microsoft.com/library/5dcae8bc-d1e0-4562-9f53-b8478e5d3308)
+[TechNet: Key concepts for IAS SQL Server logging](/previous-versions/windows/it-pro/windows-server-2003/cc778830(v=ws.10))
 </dt> </dl>
 
  
 
  
-
-
-
-

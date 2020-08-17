@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # About CNG
 
-Cryptography API: Next Generation (CNG) is the long-term replacement for the [*CryptoAPI*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly). CNG is designed to be extensible at many levels and cryptography agnostic in behavior.
+Cryptography API: Next Generation (CNG) is the long-term replacement for the [*CryptoAPI*](/windows/desktop/SecGloss/c-gly). CNG is designed to be extensible at many levels and cryptography agnostic in behavior.
 
 ## Features
 
@@ -33,6 +33,3 @@ CNG provides a set of APIs that can be used to easily encrypt and decrypt conten
  
 
  
-
-
-

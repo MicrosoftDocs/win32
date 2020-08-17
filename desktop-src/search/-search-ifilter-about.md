@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Understanding Filter Handlers in Windows Search
 
-Filter handlers, which are implementations of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface, scan documents for text and properties. Filter handlers extract chunks of text from these items, filtering out embedded formatting and retaining information about the position of the text. They also extract chunks of values, which are document properties. **IFilter** is the foundation for building higher-level applications such as document indexers and application-independent viewers.
+Filter handlers, which are implementations of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface, scan documents for text and properties. Filter handlers extract chunks of text from these items, filtering out embedded formatting and retaining information about the position of the text. They also extract chunks of values, which are document properties. **IFilter** is the foundation for building higher-level applications such as document indexers and application-independent viewers.
 
 This topic is organized as follows:
 
@@ -26,29 +26,29 @@ This topic is organized as follows:
 
 Microsoft Windows Search uses filters to extract the content of items for inclusion in a full-text index. You can extend Windows Search to index new or proprietary file types by writing filters to extract the content, and property handlers to extract the properties of files.
 
-The [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface is designed to meet the specific needs of full-text search engines. Full-text search engines like Windows Search call the **IFilter** methods to extract text and property information and add them to an index. Windows Search breaks the results of the returned [**IFilter::GetText**](https://msdn.microsoft.com/library/Bb266449(v=VS.85).aspx) method into words, normalizes them, and saves them in an index. If available, the search engine uses the language code identifier (LCID) of a text chunk to perform language-specific word breaking and normalization.
+The [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface is designed to meet the specific needs of full-text search engines. Full-text search engines like Windows Search call the **IFilter** methods to extract text and property information and add them to an index. Windows Search breaks the results of the returned [**IFilter::GetText**](/windows/win32/api/filter/nf-filter-ifilter-gettext) method into words, normalizes them, and saves them in an index. If available, the search engine uses the language code identifier (LCID) of a text chunk to perform language-specific word breaking and normalization.
 
-Windows Search uses three functions, described in the following table, to access registered filter handlers (implementations of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface). These functions are especially useful when loading and binding to an embedded object's filter handler.
+Windows Search uses three functions, described in the following table, to access registered filter handlers (implementations of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface). These functions are especially useful when loading and binding to an embedded object's filter handler.
 
 | Function               | Description                                                                                                                                                                                               |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| LoadIFilter            | Gets a pointer to the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) that is most suitable for the specified content type.                                                                                            |
-| BindIFilterFromStorage | Gets a pointer to the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) that is most suitable for the content contained in an [IStorage Interface](https://msdn.microsoft.com/library/aa380015(VS.85).aspx) object. |
-| BindIFilterFromStream  | Gets a pointer to the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) that is most suitable for a specified class identifier (CLSID) retrieved from a stream variable.                                                 |
+| LoadIFilter            | Gets a pointer to the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) that is most suitable for the specified content type.                                                                                            |
+| BindIFilterFromStorage | Gets a pointer to the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) that is most suitable for the content contained in an [IStorage Interface](/windows/win32/api/objidl/nn-objidl-istorage) object. |
+| BindIFilterFromStream  | Gets a pointer to the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) that is most suitable for a specified class identifier (CLSID) retrieved from a stream variable.                                                 |
 
-The [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface has five methods, described in the following table.
+The [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface has five methods, described in the following table.
 
 | Method                                                    | Description                                                                                                        |
 |-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| [**IFilter::Init**](https://msdn.microsoft.com/library/Bb266452(v=VS.85).aspx)          | Initializes a filtering session.                                                                                   |
-| [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx)     | Positions [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) at the beginning of the first or next chunk and returns a descriptor. |
-| [**IFilter::GetText**](https://msdn.microsoft.com/library/Bb266449(v=VS.85).aspx)       | Retrieves text from the current chunk.                                                                             |
-| [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx)     | Retrieves values from the current chunk.                                                                           |
-| [**IFilter::BindRegion**](https://msdn.microsoft.com/library/Bb266447(v=VS.85).aspx) | Retrieves an interface representing the specified portion of object. Reserved for future use.                      |
+| [**IFilter::Init**](/windows/win32/api/filter/nf-filter-ifilter-init)          | Initializes a filtering session.                                                                                   |
+| [**IFilter::GetChunk**](/windows/win32/api/filter/nf-filter-ifilter-getchunk)     | Positions [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) at the beginning of the first or next chunk and returns a descriptor. |
+| [**IFilter::GetText**](/windows/win32/api/filter/nf-filter-ifilter-gettext)       | Retrieves text from the current chunk.                                                                             |
+| [**IFilter::GetValue**](/windows/win32/api/filter/nf-filter-ifilter-getvalue)     | Retrieves values from the current chunk.                                                                           |
+| [**IFilter::BindRegion**](/windows/win32/api/filter/nf-filter-ifilter-bindregion) | Retrieves an interface representing the specified portion of object. Reserved for future use.                      |
 
 ### Isolation Process
 
-Windows Search runs IFilters in the Local System security context with restricted rights. In this [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) host isolation process, a number of rights are removed:
+Windows Search runs IFilters in the Local System security context with restricted rights. In this [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) host isolation process, a number of rights are removed:
 
 - Restricted Code
 - Everyone
@@ -58,18 +58,18 @@ Windows Search runs IFilters in the Local System security context with restricte
 - Built-in Users
 - Users' security identifier (SID)
 
-The removal of these rights means the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface does not have access to the disk system or network or to any user interface or clipboard functions. Furthermore, the isolation process runs under a job object that prevents child processes from being created and imposes a 100 MB limit on the working set. the **IFilter** interface host isolation process increases the stability of the indexing platform, due to the possibility of incorrectly implemented third-party filters.
+The removal of these rights means the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface does not have access to the disk system or network or to any user interface or clipboard functions. Furthermore, the isolation process runs under a job object that prevents child processes from being created and imposes a 100 MB limit on the working set. the **IFilter** interface host isolation process increases the stability of the indexing platform, due to the possibility of incorrectly implemented third-party filters.
 
 > [!NOTE]  
 > Filter handlers must be written to manage buffers, and stack correctly. All string copies must have explicit checks to guard against buffer overruns. You should always verify the allocated size of the buffer. You should always test the size of the data against the size of the buffer.
 
 ### IFilter DLLs
 
-[**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) DLLs implement the **IFilter** interface to enable a client to extract text and property value information from a file type, class, or perceived type. The Windows Search filtering process **SearchFilterHost.exe** binds to the **IFilter** that is registered for the class, perceived type, or name extension of the item.
+[**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) DLLs implement the **IFilter** interface to enable a client to extract text and property value information from a file type, class, or perceived type. The Windows Search filtering process **SearchFilterHost.exe** binds to the **IFilter** that is registered for the class, perceived type, or name extension of the item.
 
 ### IFilter Structure
 
-Each [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) is a DLL file that implements an in-process Component Object Model (COM) server to supply the specified filtering capabilities. The following figure illustrates shows the overall structure of a typical **IFilter** DLLs. A more complex example could implement more than one **IFilter** class.
+Each [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) is a DLL file that implements an in-process Component Object Model (COM) server to supply the specified filtering capabilities. The following figure illustrates shows the overall structure of a typical **IFilter** DLLs. A more complex example could implement more than one **IFilter** class.
 
 ![diagram of the structure of a typical ifilter dll](images/ifilter-structure.png)
 
@@ -79,7 +79,7 @@ Filters must be written in native code due to potential common language runtime 
 
 ## Finding the IFilter Class Identifier
 
-The class of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) DLL is registered under the PersistentHandler registry key. The following example, for HTML files, illustrates how to find the **IFilter** DLL for an HTML document. This example follows logic similar to that used by the system to find the **IFilter** associated with an item.
+The class of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) DLL is registered under the PersistentHandler registry key. The following example, for HTML files, illustrates how to find the **IFilter** DLL for an HTML document. This example follows logic similar to that used by the system to find the **IFilter** associated with an item.
 
 1. Check whether the extension for the type of files that the DLL filters has a PersistentHandler registered under the registry entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes. Let this key be `Value1`. If that entry already exists, then skip to step 4 of this procedure and use `Value1` in that key. The values are of type REG\_SZ.
 
@@ -116,7 +116,7 @@ The class of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.
                    {EEC97550-47A9-11CF-B952-00AA0051FE20}
 ```
 
-4. Determine the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) persistent handler GUID. Using `Value1` and `Value3`, find the **IFilter** Persistent Handler GUID for the document type. The value under the registry entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\CLSID\\Value1 or 3\\PersistentAddinsRegistered\\ 89BCB740-6119-101A-BCB7-00DD010655AF"/> yields the **IFilter** PersistentHandler GUID for this document type. Let this key be `Value4`. In this example, the **IFilter** interface GUID is 89BCB740-6119-101A-BCB7-00DD010655AF.
+4. Determine the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) persistent handler GUID. Using `Value1` and `Value3`, find the **IFilter** Persistent Handler GUID for the document type. The value under the registry entry \\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes\\CLSID\\Value1 or 3\\PersistentAddinsRegistered\\ 89BCB740-6119-101A-BCB7-00DD010655AF"/> yields the **IFilter** PersistentHandler GUID for this document type. Let this key be `Value4`. In this example, the **IFilter** interface GUID is 89BCB740-6119-101A-BCB7-00DD010655AF.
 
 ```
     HKEY_LOCAL_MACHINE
@@ -133,11 +133,11 @@ The class of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.
 ```
 
 > [!NOTE]  
-> In this example, the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) DLL for HTML documents is nlhtml.dll.
+> In this example, the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) DLL for HTML documents is nlhtml.dll.
 
 ### IFilter::GetChunk and Locale Code Identifiers
 
-The LCID of text can change within a single file. For example, the text of an instruction manual might alternate between English (en-us) and Spanish (es) or the text may include a single word in a language other than the primary language. In either case, your [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) must begin a new chunk each time the LCID changes. Because the LCID is used to choose an appropriate word breaker, it is very important that you correctly identify it. If the **IFilter** cannot determine the locale of the text, then it should return an LCID of zero with the chunk. Returning an LCID of zero causes Windows Search to use Language Auto-Detection (LAD) technology to determine the locale ID of the chunk. If Windows Search cannot find a match, it defaults to the system default locale (by calling the [GetSystemDefaultLocaleName Function](https://msdn.microsoft.com/library/dd318122(VS.85).aspx) function). For more information, see [**IFilter::GetChunk**](https://msdn.microsoft.com/library/Bb266448(v=VS.85).aspx), [**CHUNK\_BREAKTYPE**](https://msdn.microsoft.com/library/Bb266509(v=VS.85).aspx), [**CHUNKSTATE**](https://msdn.microsoft.com/library/Bb266508(v=VS.85).aspx), and [**STAT\_CHUNK**](https://msdn.microsoft.com/library/Bb231253(v=VS.85).aspx).
+The LCID of text can change within a single file. For example, the text of an instruction manual might alternate between English (en-us) and Spanish (es) or the text may include a single word in a language other than the primary language. In either case, your [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) must begin a new chunk each time the LCID changes. Because the LCID is used to choose an appropriate word breaker, it is very important that you correctly identify it. If the **IFilter** cannot determine the locale of the text, then it should return an LCID of zero with the chunk. Returning an LCID of zero causes Windows Search to use Language Auto-Detection (LAD) technology to determine the locale ID of the chunk. If Windows Search cannot find a match, it defaults to the system default locale (by calling the [GetSystemDefaultLocaleName Function](/windows/win32/api/winnls/nf-winnls-getsystemdefaultlocalename) function). For more information, see [**IFilter::GetChunk**](/windows/win32/api/filter/nf-filter-ifilter-getchunk), [**CHUNK\_BREAKTYPE**](/windows/win32/api/filter/ne-filter-chunk_breaktype), [**CHUNKSTATE**](/windows/win32/api/filter/ne-filter-chunkstate), and [**STAT\_CHUNK**](/windows/win32/api/filter/ns-filter-stat_chunk).
 
 If you control the file format and it currently does not contain locale information, you should add a user feature to enable proper locale identification. Using a mismatched word breaker can result in a poor query experience for the user. For more information, see [**IWordBreaker**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordbreaker).
 
@@ -146,10 +146,10 @@ If you control the file format and it currently does not contain locale informat
 
 ## Additional Resources
 
-- The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample7), demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
+- The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample7), demonstrates how to create an IFilter base class for implementing the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface.
 - For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
-- For an overview of file types, see [File Types](https://msdn.microsoft.com/library/cc144148(VS.85).aspx).
-- To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](https://msdn.microsoft.com/library/cc144150(VS.85).aspx).
+- For an overview of file types, see [File Types](../shell/fa-file-types.md).
+- To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](/previous-versions/windows/desktop/legacy/cc144150(v=vs.85)).
 
 ## Related topics
 

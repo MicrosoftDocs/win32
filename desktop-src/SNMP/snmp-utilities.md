@@ -23,12 +23,8 @@ The following table lists the SNMP utilities that are available in the Microsoft
 
  
 
-The SNMP Provider in the Windows Management Instrumentation (WMI) SDK allows client applications to access static and dynamic SNMP information through WMI. For more information, see [SNMP Provider](https://docs.microsoft.com/windows/desktop/WmiSdk/snmp-provider) in the WMI SDK documentation.
+The SNMP Provider in the Windows Management Instrumentation (WMI) SDK allows client applications to access static and dynamic SNMP information through WMI. For more information, see [SNMP Provider](/windows/desktop/WmiSdk/snmp-provider) in the WMI SDK documentation.
 
  
 
  
-
-
-
-

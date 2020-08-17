@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # The \[length\_is\] Attribute
 
-The \[[**size\_is**](https://docs.microsoft.com/windows/desktop/Midl/size-is)\] attribute lets you specify the maximum size of the array. When this is the only attribute, all elements of the array are transmitted. Instead of sending all elements of the array, you can specify the transmitted elements using the \[[**length\_is**](https://docs.microsoft.com/windows/desktop/Midl/length-is)\] attribute, as follows:
+The \[[**size\_is**](/windows/desktop/Midl/size-is)\] attribute lets you specify the maximum size of the array. When this is the only attribute, all elements of the array are transmitted. Instead of sending all elements of the array, you can specify the transmitted elements using the \[[**length\_is**](/windows/desktop/Midl/length-is)\] attribute, as follows:
 
 ``` syntax
 /* IDL file */
@@ -32,7 +32,3 @@ Size describes allocation while length describes transmission. The number of ele
  
 
  
-
-
-
-

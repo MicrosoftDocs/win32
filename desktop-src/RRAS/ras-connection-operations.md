@@ -22,12 +22,8 @@ The [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) call specifies the f
 
 -   The [connection information](phone-book-files-and-connection-information.md) that the Remote Access Connection Manager needs to establish the connection.
 -   An optional [notification handler](notification-handlers.md) that receives progress notifications during the connection operation. If the [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) call specifies a notification handler, the call is [asynchronous](asynchronous-operations.md); otherwise, it is [synchronous](synchronous-operations.md).
--   An optional [**RASDIALEXTENSIONS**](https://msdn.microsoft.com/library/Aa377029(v=VS.85).aspx) structure to enable or disable extensions to the [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) operation. The extensions permit a RAS client to directly enable some modem settings, to control whether RAS uses the prefixes and suffixes in a phone-book entry, and to support [paused states](paused-states.md) during the connection operation.
+-   An optional [**RASDIALEXTENSIONS**](/previous-versions/windows/desktop/legacy/aa377029(v=vs.85)) structure to enable or disable extensions to the [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) operation. The extensions permit a RAS client to directly enable some modem settings, to control whether RAS uses the prefixes and suffixes in a phone-book entry, and to support [paused states](paused-states.md) during the connection operation.
 
  
 
  
-
-
-
-

@@ -100,7 +100,7 @@ Pointer to the [**LARGEINT**](largeint.md) data.
 **lpSysTime**
 </dt> <dd>
 
-Pointer to the [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) data.
+Pointer to the [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) data.
 
 </dd> <dt>
 
@@ -168,9 +168,4 @@ The **PROPERTYINST** structure defines an instance of an attached property. The 
 </dt> </dl>
 
  
-
- 
-
-
-
 

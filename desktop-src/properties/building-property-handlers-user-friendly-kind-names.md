@@ -23,7 +23,7 @@ Kind was introduced in Windows Vista to express a more user-friendly notion of 
 
 Because Kind is a multi-value string property, you can have an `audio;video` or `link;document` Kind value. A `System.Kind` values is an ordered list of string values. In some cases, there might be only one element in that list. In other cases, an item can belong to more than one Kind. For an example of an item that belongs to more than one Kind, see the registry key example in this topic. The string values are from a predefined set of known values. The values are compared by using case-insensitive and locale-insensitive string-compare functions. These strings are not localized.
 
-Some Kind names are already associated with properties and layout patterns. For example, items associated with `Kind.Picture` and items associated with `Kind.Document` display different properties even when they are in the same view, because of the properties and layout patterns that are already associated with those two Kind names. Each item Kind can be associated with one of four unique layout patterns that defines the number of properties displayed for each item and their layout. For more information, see [Content View based on the File Type or Kind Association](https://msdn.microsoft.com/library/Ee330739(v=VS.85).aspx).
+Some Kind names are already associated with properties and layout patterns. For example, items associated with `Kind.Picture` and items associated with `Kind.Document` display different properties even when they are in the same view, because of the properties and layout patterns that are already associated with those two Kind names. Each item Kind can be associated with one of four unique layout patterns that defines the number of properties displayed for each item and their layout. For more information, see [Content View based on the File Type or Kind Association](/previous-versions/windows/desktop/legacy/ee330739(v=vs.85)).
 
 ## Kind Value Hierarchy and Registration
 
@@ -73,31 +73,28 @@ Note that the `Kind` can be a single value or multiple values in a semi-colon de
 
 ## Additional Resources
 
--   For reference documentation about properties, see [System.Kind](https://msdn.microsoft.com/library/Bb787521(v=VS.85).aspx) and [System.KindText](https://msdn.microsoft.com/library/Bb787523(v=VS.85).aspx).
--   For more information about creating new or using existing file types, see [File Types](https://msdn.microsoft.com/library/Cc144148(v=VS.85).aspx).
+-   For reference documentation about properties, see [System.Kind](./props-system-kind.md) and [System.KindText](./props-system-kindtext.md).
+-   For more information about creating new or using existing file types, see [File Types](../shell/fa-file-types.md).
 
 ## Related topics
 
 <dl> <dt>
 
-[Understanding Property Handlers](https://msdn.microsoft.com/library/Cc144129(v=VS.85).aspx)
+[Understanding Property Handlers](./building-property-handlers-properties.md)
 </dt> <dt>
 
-[Using Property Lists](https://msdn.microsoft.com/library/Cc144133(v=VS.85).aspx)
+[Using Property Lists](./building-property-handlers-property-lists.md)
 </dt> <dt>
 
-[Initializing Property Handlers](https://msdn.microsoft.com/library/Cc144131(v=VS.85).aspx)
+[Initializing Property Handlers](./building-property-handlers-property-handlers.md)
 </dt> <dt>
 
-[Registering and Distributing Property Handlers](https://msdn.microsoft.com/library/Dd894084(v=VS.85).aspx)
+[Registering and Distributing Property Handlers](./prophand-reg-dist.md)
 </dt> <dt>
 
-[Property Handler Best Practices and FAQ](https://msdn.microsoft.com/library/Dd894083(v=VS.85).aspx)
+[Property Handler Best Practices and FAQ](./prophand-bestprac-faq.md)
 </dt> </dl>
 
  
 
  
-
-
-

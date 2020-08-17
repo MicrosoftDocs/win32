@@ -10,17 +10,17 @@ ms.date: 05/31/2018
 
 Disables the ability of a shortcut or window to be pinned to the taskbar or the **Start** menu. This property also makes the item ineligible for inclusion in the **Start** menu's Most Frequently Used (MFU) list.
 
-This property must be set on a window before the [PKEY\_AppUserModel\_ID](https://msdn.microsoft.com/library/Dd391569(v=VS.85).aspx) property. After the PKEY\_AppUserModel\_ID property is set, changes to [PKEY\_AppUserModel\_PreventPinning](https://msdn.microsoft.com/library/Dd561983(v=VS.85).aspx) are ignored.
+This property must be set on a window before the [PKEY\_AppUserModel\_ID](./props-system-appusermodel-id.md) property. After the PKEY\_AppUserModel\_ID property is set, changes to [PKEY\_AppUserModel\_PreventPinning]() are ignored.
 
-For more information about Application User Model IDs (AppUserModelIDs) and other methods of excluding an item from being pinned to the taskbar and from MFU inclusion, see [Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/library/Dd378459(v=VS.85).aspx).
+For more information about Application User Model IDs (AppUserModelIDs) and other methods of excluding an item from being pinned to the taskbar and from MFU inclusion, see [Application User Model IDs (AppUserModelIDs)](../shell/appids.md).
 
-To set this property on a window, use [**SHGetPropertyStoreForWindow**](/windows/desktop/api/Shellapi/nf-shellapi-shgetpropertystoreforwindow) to retrieve the window's property store, and use the methods of that retrieved [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) object to set the [System.AppUserModel.PreventPinning](https://msdn.microsoft.com/library/Dd561983(v=VS.85).aspx) property of that window.
+To set this property on a window, use [**SHGetPropertyStoreForWindow**](/windows/desktop/api/Shellapi/nf-shellapi-shgetpropertystoreforwindow) to retrieve the window's property store, and use the methods of that retrieved [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) object to set the [System.AppUserModel.PreventPinning]() property of that window.
 
 Setting this property causes the following properties to be ignored:
 
--   [System.AppUserModel.RelaunchCommand](https://msdn.microsoft.com/library/Dd391571(v=VS.85).aspx)
--   [System.AppUserModel.RelaunchDisplayNameResource](https://msdn.microsoft.com/library/Dd391572(v=VS.85).aspx)
--   [System.AppUserModel.RelaunchIconResource](https://msdn.microsoft.com/library/Dd391573(v=VS.85).aspx)
+-   [System.AppUserModel.RelaunchCommand](./props-system-appusermodel-relaunchcommand.md)
+-   [System.AppUserModel.RelaunchDisplayNameResource](./props-system-appusermodel-relaunchdisplaynameresource.md)
+-   [System.AppUserModel.RelaunchIconResource](./props-system-appusermodel-relaunchiconresource.md)
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7
 
@@ -46,81 +46,78 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Application User Model IDs (AppUserModelIDs)](https://msdn.microsoft.com/library/Dd378459(v=VS.85).aspx)
+[Application User Model IDs (AppUserModelIDs)](../shell/appids.md)
 </dt> <dt>
 
-[System.AppUserModel.ID](https://msdn.microsoft.com/library/Dd391569(v=VS.85).aspx)
+[System.AppUserModel.ID](./props-system-appusermodel-id.md)
 </dt> <dt>
 
 [**SHGetPropertyStoreForWindow**](/windows/desktop/api/Shellapi/nf-shellapi-shgetpropertystoreforwindow)
 </dt> <dt>
 
-[propertyDescriptionList](https://msdn.microsoft.com/library/Bb773882(v=VS.85).aspx)
+[propertyDescriptionList](./propdesc-schema-propertydescriptionlist.md)
 </dt> <dt>
 
-[propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx)
+[propertyDescription](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx)
+[searchInfo](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx)
+[labelInfo](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx)
+[typeInfo](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx)
+[displayInfo](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[aliasInfo](https://msdn.microsoft.com/library/Bb773860(v=VS.85).aspx)
+[aliasInfo](./propdesc-schema-aliasinfo.md)
 </dt> <dt>
 
-[stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx)
+[stringFormat](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[booleanFormat](https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx)
+[booleanFormat](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx)
+[numberFormat](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[dateTimeFormat](https://msdn.microsoft.com/library/Bb773863(v=VS.85).aspx)
+[dateTimeFormat](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx)
+[enumeratedList](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[enum](https://msdn.microsoft.com/library/Bb773869(v=VS.85).aspx)
+[enum](./propdesc-schema-enum.md)
 </dt> <dt>
 
-[enumRange](https://msdn.microsoft.com/library/Bb773873(v=VS.85).aspx)
+[enumRange](./propdesc-schema-enumrange.md)
 </dt> <dt>
 
-[image](https://msdn.microsoft.com/library/Dd798383(v=VS.85).aspx)
+[image](./propdesc-schema-image.md)
 </dt> <dt>
 
-[drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx)
+[drawControl](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx)
+[editControl](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx)
+[filterControl](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx)
+[queryControl](./propdesc-schema-querycontrol.md)
 </dt> <dt>
 
-[relatedPropertyInfo](https://msdn.microsoft.com/library/Dd798385(v=VS.85).aspx)
+[relatedPropertyInfo](./propdesc-schema-relatedpropertyinfo.md)
 </dt> <dt>
 
-[relatedProperty](https://msdn.microsoft.com/library/Dd798384(v=VS.85).aspx)
+[relatedProperty](./propdesc-schema-relatedproperty.md)
 </dt> </dl>
 
  
 
  
-
-
-

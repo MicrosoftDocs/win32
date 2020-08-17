@@ -14,7 +14,7 @@ A persistent property set contains related data as properties. Each property set
 
 For example, the character-formatting properties in a word processor or the rendering attributes of an element in a drawing program are property sets.
 
-COM defines the [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) interface to facilitate management of property sets. Through the methods of this interface, you can create a new property set, or open or delete an existing property set. In addition, it provides a method that creates an enumerator and supplies a pointer to its [**IEnumSTATPROPSETSTG**](https://msdn.microsoft.com/library/Aa379184(v=VS.85).aspx) interface. You can call the methods of this interface to enumerate [**STATPROPSETSTG**](https://msdn.microsoft.com/library/Aa379184(v=VS.85).aspx) structures on your object, which will provide information about all of the property sets on the object.
+COM defines the [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) interface to facilitate management of property sets. Through the methods of this interface, you can create a new property set, or open or delete an existing property set. In addition, it provides a method that creates an enumerator and supplies a pointer to its [**IEnumSTATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) interface. You can call the methods of this interface to enumerate [**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) structures on your object, which will provide information about all of the property sets on the object.
 
 When you create or open an instance of [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage), it is similar to opening an object that supports [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) or [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream), because you need to specify the storage mode in which you are opening the interface. For **IStorage**, these include the transaction mode, the read/write mode, and the sharing mode.
 
@@ -38,7 +38,3 @@ For more information about property sets in COM, see:
  
 
  
-
-
-
-

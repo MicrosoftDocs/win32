@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 | Topic                                                                                                | Description                                                                     |
 |------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| [System.Computer.DecoratedFreeSpace](https://msdn.microsoft.com/library/Bb787749(v=VS.85).aspx)<br/> | The computer's free space and total space stated as "%s free of %s".<br/> |
+| [System.Computer.DecoratedFreeSpace](./props-system-computer-decoratedfreespace.md)<br/> | The computer's free space and total space stated as "%s free of %s".<br/> |
 
 
 
@@ -23,7 +23,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

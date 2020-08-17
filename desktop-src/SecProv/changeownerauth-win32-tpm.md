@@ -68,7 +68,7 @@ The following table lists some of the common return codes.
 | <dl> <dt>**S\_OK**</dt> <dt>0 (0x0)</dt> </dl>                                              | The method was successful.<br/>                                                                                                                                                                                                                                                                                                                                                            |
 | <dl> <dt>**TPM\_E\_AUTHFAIL**</dt> <dt>2150105089 (0x80280001)</dt> </dl>                   | The current TPM owner authorization value is incorrect.<br/>                                                                                                                                                                                                                                                                                                                               |
 | <dl> <dt>**TPM\_E\_DEFEND\_LOCK\_RUNNING**</dt> <dt>2150107139 (0x80280803)</dt> </dl>      | The TPM is defending against dictionary attacks and is in a time-out period. For more information, see the [**ResetAuthLockOut**](resetauthlockout-win32-tpm.md) method.<br/>                                                                                                                                                                                                             |
-| <dl> <dt>**FVE\_E\_AD\_SCHEMA\_NOT\_INSTALLED**</dt> <dt>2150694922 (0x8031000A)</dt> </dl> | Cannot save recovery information to the network. The computer has been configured to store recovery information to Active Directory Domain Services. For instructions on how to set up Active Directory, see [BitLocker Drive Encryption Configuration Guide: Backing Up BitLocker and TPM Recovery Information to Active Directory](https://technet.microsoft.com/library/3dbad515-5a32-4330-ad6f-d1fb6dfcdd41).<br/> |
+| <dl> <dt>**FVE\_E\_AD\_SCHEMA\_NOT\_INSTALLED**</dt> <dt>2150694922 (0x8031000A)</dt> </dl> | Cannot save recovery information to the network. The computer has been configured to store recovery information to Active Directory Domain Services. For instructions on how to set up Active Directory, see [BitLocker Drive Encryption Configuration Guide: Backing Up BitLocker and TPM Recovery Information to Active Directory](/previous-versions/windows/it-pro/windows-vista/cc766015(v=ws.10)).<br/> |
 | <dl> <dt>**Connection Failed**</dt> <dt>2147943755 (0x8007054B)</dt> </dl>                  | Cannot save recovery information to the network. The computer has been configured to store recovery information to Active Directory Domain Services. A network connection is required to continue.<br/>                                                                                                                                                                                    |
 
 
@@ -79,7 +79,7 @@ The following table lists some of the common return codes.
 
 The **ChangeOwnerAuth** method backs up the new TPM owner authorization to Active Directory Domain Services if the appropriate Group Policy settings have been configured.
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/Aa823192(v=VS.85).aspx).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Windows SDK. They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## Requirements
 
@@ -105,7 +105,3 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
  
 
  
-
-
-
-

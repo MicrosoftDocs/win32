@@ -118,7 +118,7 @@ Call the **FindNextPrinterChangeNotification** function after a wait operation o
 
 With one exception, do not call the **FindNextPrinterChangeNotification** function if the change notification object is not in the signaled state. If a wait function returns the value **WAIT\_TIMEOUT**, the change object is not in the signaled state. Call the **FindNextPrinterChangeNotification** function only if the wait function succeeds without timing out. The exception is when **FindNextPrinterChangeNotification** is called with the **PRINTER\_NOTIFY\_OPTIONS\_REFRESH** bit set in the *pPrinterNotifyOptions* parameter. Note that even when this flag is set, it is still possible for the **PRINTER\_NOTIFY\_INFO\_DISCARDED** flag to be set in the *ppPrinterNotifyInfo* parameter.
 
-To continue monitoring the printer or print server for changes, repeat the cycle of calling one of the [wait functions](https://docs.microsoft.com/windows/desktop/Sync/wait-functions) , and then calling the **FindNextPrinterChangeNotification** function to examine the change and reset the notification object.
+To continue monitoring the printer or print server for changes, repeat the cycle of calling one of the [wait functions](/windows/desktop/Sync/wait-functions) , and then calling the **FindNextPrinterChangeNotification** function to examine the change and reset the notification object.
 
 **FindNextPrinterChangeNotification** may combine multiple changes to the same printer information field into a single notification. When this occurs, the function typically collapses all changes for the field into a single entry in the array of [**PRINTER\_NOTIFY\_INFO\_DATA**](printer-notify-info-data.md) structures in *ppPrinterNotifyInfo*; the single entry reports only the most current information. However, for some job and printer information fields, the function can return multiple array entries for the same field. In this case, the last array entry for the field reports the current data, and the earlier entries contain the data for the intermediate stages.
 
@@ -215,9 +215,4 @@ if (chgObject != INVALID_HANDLE_VALUE) {
 </dt> </dl>
 
  
-
- 
-
-
-
 

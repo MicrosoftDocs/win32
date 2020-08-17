@@ -17,7 +17,7 @@ api_location:
 
 # SslEnumProtocolProviders function
 
-The **SslEnumProtocolProviders** function returns an array of installed [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol providers.
+The **SslEnumProtocolProviders** function returns an array of installed [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) protocol providers.
 
 ## Syntax
 
@@ -95,9 +95,4 @@ When you have finished using the array of [**NCryptProviderName**](/windows/desk
 
 
  
-
- 
-
-
-
 

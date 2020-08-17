@@ -122,7 +122,7 @@ Call the Windows Installer.
 
 ## Remarks
 
-This method is essentially identical in functionality to [**Resolve**](https://msdn.microsoft.com/library/Bb774952(v=VS.85).aspx). For further discussion of link resolution, see the Remarks section of that page.
+This method is essentially identical in functionality to [**Resolve**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishelllinka-resolve). For further discussion of link resolution, see the Remarks section of that page.
 
 ## Examples
 
@@ -247,7 +247,3 @@ End Sub
  
 
  
-
-
-
-

@@ -20,7 +20,7 @@ Provides methods that define interaction between a user interface (UI) and the S
 
 ## Members
 
-The **ISearchItem** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ISearchItem** also has these types of members:
+The **ISearchItem** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ISearchItem** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -33,7 +33,7 @@ The **ISearchItem** interface has these methods.
 | Method                                                         | Description                                                                                                                               |
 |:---------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetParentFolder**](-search-isearchitem-getparentfolder.md) | Gets the **ISearchItem** object if the URL represents an actual Shell data source (also known as a Shell namespace extension).<br/> |
-| [**GetUIObjectOf**](https://msdn.microsoft.com/library/Dd756721(v=VS.85).aspx)     | Gets the user interface (UI) object of **ISearchItem**.<br/>                                                                        |
+| [**GetUIObjectOf**](/previous-versions/windows/desktop/legacy/dd756721(v=vs.85))     | Gets the user interface (UI) object of **ISearchItem**.<br/>                                                                        |
 
 
 
@@ -60,7 +60,3 @@ To preview attachments with a third-party protocol handler on computers running 
  
 
  
-
-
-
-

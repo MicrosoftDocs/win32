@@ -17,7 +17,7 @@ api_location:
 
 # Attribute.Name property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObject Class**](https://msdn.microsoft.com/library/ms147976(v=VS.90).aspx) in the [**System.Security.Cryptography**](https://msdn.microsoft.com/library/9eat8fht(v=VS.96).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObject Class**](/dotnet/api/system.security.cryptography.cryptographicattributeobject?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography**](/previous-versions/windows/) namespace.\]
 
 The **Name** property sets or retrieves the CAPICOM name of the attribute. This is the default property.
 
@@ -75,7 +75,3 @@ When the value of this property is reset, directly or indirectly, the whole stat
  
 
  
-
-
-
-

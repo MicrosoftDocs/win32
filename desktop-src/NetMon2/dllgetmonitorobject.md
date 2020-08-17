@@ -57,11 +57,11 @@ Pointer to a pointer that receives the interface requested in *riid*.
 
 If the function is successful, the return value is S\_OK (which is the same as NOERROR).
 
-If the function is unsuccessful, the return value is a failure code. When a failure code is returned, the MCSVC does not create the monitor object, and the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method is not called on the interface pointer.
+If the function is unsuccessful, the return value is a failure code. When a failure code is returned, the MCSVC does not create the monitor object, and the [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method is not called on the interface pointer.
 
 ## Remarks
 
-The **DllGetMonitorObject** function is called each time the MCSVC tries to create an instance of the monitor. This function intentionally bears a strong resemblance to the more common [**DllGetClassObject**](https://msdn.microsoft.com/library/ms680760(v=VS.85).aspx) function. The main difference is that a CLSID is not passed in to **DllGetMonitorObject**.
+The **DllGetMonitorObject** function is called each time the MCSVC tries to create an instance of the monitor. This function intentionally bears a strong resemblance to the more common [**DllGetClassObject**](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject) function. The main difference is that a CLSID is not passed in to **DllGetMonitorObject**.
 
 ## Requirements
 
@@ -76,9 +76,4 @@ The **DllGetMonitorObject** function is called each time the MCSVC tries to crea
 
 
  
-
- 
-
-
-
 

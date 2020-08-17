@@ -18,7 +18,7 @@ The following functions are used or implemented by services.
 | [**HandlerEx**](/windows/desktop/api/WinSvc/nc-winsvc-lphandler_function_ex)                                       | An application-defined callback function used with the [**RegisterServiceCtrlHandlerEx**](/windows/desktop/api/Winsvc/nf-winsvc-registerservicectrlhandlerexa) function. |
 | [**RegisterServiceCtrlHandler**](/windows/desktop/api/Winsvc/nf-winsvc-registerservicectrlhandlera)     | Registers a function to handle service control requests.                                                                              |
 | [**RegisterServiceCtrlHandlerEx**](/windows/desktop/api/Winsvc/nf-winsvc-registerservicectrlhandlerexa) | Registers a function to handle extended service control requests.                                                                     |
-| [**ServiceMain**](https://msdn.microsoft.com/library/ms685138(v=VS.85).aspx)                                   | An application-defined function that serves as the starting point for a service.                                                      |
+| [**ServiceMain**](/windows/win32/api/winsvc/nc-winsvc-lpservice_main_functiona)                                   | An application-defined function that serves as the starting point for a service.                                                      |
 | [**SetServiceBits**](/windows/desktop/api/Lmserver/nf-lmserver-setservicebits)                             | Registers a service type with the service control manager and the Server service.                                                     |
 | [**SetServiceStatus**](/windows/desktop/api/Winsvc/nf-winsvc-setservicestatus)                         | Updates the service control manager's status information for the calling service.                                                     |
 | [**StartServiceCtrlDispatcher**](/windows/desktop/api/Winsvc/nf-winsvc-startservicectrldispatchera)     | Connects the main thread of a service process to the service control manager.                                                         |
@@ -51,9 +51,9 @@ The following functions are used by programs that control, configure, or interac
 | [**QueryServiceConfig**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfiga)                         | Retrieves the configuration parameters of the specified service.                                                                            |
 | [**QueryServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfig2a)                       | Retrieves the optional configuration parameters of the specified service.                                                                   |
 | [**QueryServiceDynamicInformation**](/windows/desktop/api/Winsvc/nf-winsvc-queryservicedynamicinformation) | Retrieves dynamic information related to the current service start.                                                                         |
-| [**QueryServiceObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity)    | Retrieves a copy of the security descriptor associated with a service object.                                                               |
+| [**QueryServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity)    | Retrieves a copy of the security descriptor associated with a service object.                                                               |
 | [**QueryServiceStatusEx**](/windows/desktop/api/Winsvc/nf-winsvc-queryservicestatusex)                     | Retrieves the current status of the specified service based on the specified information level.                                             |
-| [**SetServiceObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity)        | Sets the security descriptor of a service object.                                                                                           |
+| [**SetServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity)        | Sets the security descriptor of a service object.                                                                                           |
 | [**StartService**](/windows/desktop/api/Winsvc/nf-winsvc-startservicea)                                     | Starts a service.                                                                                                                           |
 
 
@@ -74,6 +74,3 @@ The following functions are obsolete.<dl>
  
 
  
-
-
-

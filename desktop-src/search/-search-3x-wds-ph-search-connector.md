@@ -55,8 +55,8 @@ Registry keys and their possible values are outlined in the following table. A p
 | HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows Search\\PHSearchConnectors\\<protocol>\\Version                     | Does not exist (default). Otherwise it is 1 or greater.                                                                               | REG\_DWORD | This value is used to detect changes to the location template registrations for search roots that have already been processed. If does not exist, use 0 as a default. Alternatively, increment the version to inform Windows Explorer that the search connector should be regenerated because a newer version of the protocol handler has been installed. |
 | HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows Search\\PHSearchConnectors\\<protocol>\\DoNotCreateSearchConnectors | Does not exist (default). Otherwise set to 1.                                                                                         | REG\_DWORD | If it does not exist, create a .searchconnector-ms file in the Searches folder. If 1, mark as processed and do nothing.                                                                                                                                                                                                                                   |
 | HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows Search\\PHSearchConnectors\\<protocol>\\Default\\Description        | A localizable string containing the description of the search connector.                                                              | REG\_SZ    | Optional. It is used in the Description element of the .searchconnector-ms file.                                                                                                                                                                                                                                                                          |
-| HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows Search\\PHSearchConnectors\\<protocol>\\Default\\Name               | A localized string to name the search connector. Used as the name of the .searchconnector-ms file.                                    | REG\_SZ    | Each location must have a unique name. In the absence of this value, the display name provided by the protocol handler's [IShellFolder Interface](https://msdn.microsoft.com/library/bb775075(VS.85).aspx) will be used.                                                                                                                             |
-| HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows Search\\PHSearchConnectors\\<protocol>\\Default\\FolderType         | A GUID identifying the [FOLDERTYPEID](https://msdn.microsoft.com/library/bb762581(VS.85).aspx) to apply to the search connector. | REG\_SZ    | Optional. Used in the folderType element of the .searchconnector-ms file to indicate what templates should be used to display results. For example, the GUID value of FOLDERTYPEID\_Documents.                                                                                                                                                            |
+| HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows Search\\PHSearchConnectors\\<protocol>\\Default\\Name               | A localized string to name the search connector. Used as the name of the .searchconnector-ms file.                                    | REG\_SZ    | Each location must have a unique name. In the absence of this value, the display name provided by the protocol handler's [IShellFolder Interface](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) will be used.                                                                                                                             |
+| HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows Search\\PHSearchConnectors\\<protocol>\\Default\\FolderType         | A GUID identifying the [FOLDERTYPEID](../shell/foldertypeid.md) to apply to the search connector. | REG\_SZ    | Optional. Used in the folderType element of the .searchconnector-ms file to indicate what templates should be used to display results. For example, the GUID value of FOLDERTYPEID\_Documents.                                                                                                                                                            |
 
 
 
@@ -78,13 +78,13 @@ HKEY_LOCAL_MACHINE
                   DoNotCreateSearchConnectors
 ```
 
-If DoNotCreateSearchConnectors is set to 1, then we recommend that you expose the [System.Shell.OmitFromView](https://docs.microsoft.com/windows/desktop/properties/props-system-shell-omitfromview) property on each item exposed by the protocol handler, and set the value of this property to **TRUE**. Doing so will prevent the protocol handler items from appearing under the **Start** menu **Files** group.
+If DoNotCreateSearchConnectors is set to 1, then we recommend that you expose the [System.Shell.OmitFromView](/windows/desktop/properties/props-system-shell-omitfromview) property on each item exposed by the protocol handler, and set the value of this property to **TRUE**. Doing so will prevent the protocol handler items from appearing under the **Start** menu **Files** group.
 
 If DoNotCreateSearchConnectors is present and set to zero, then Windows Explorer will create a search connector for the protocol handler, and the protocol handler items will be returned in in **Start** menu and Windows Explorer searches.
 
 ### Customizing the Name, Description or FolderType for a Protocol Handler Search Connector
 
-The search connector name is used not only to identify the search connector in the **Searches** folder, but as the group header for the results in **Start** menu searches. Hence, it is important to provide a descriptive name for the search connector. If a name is not provided in the registry key, by default Windows Explorer uses the name provided by [IShellFolder Interface](https://msdn.microsoft.com/library/bb775075(VS.85).aspx) for the protocol handler's search root and blank description. You can override the default name through a registry key entry without having to rename the IShellFolder Interface. Although it is not as visible as the search connector name, you can also override the description for the search connector by providing your own description.
+The search connector name is used not only to identify the search connector in the **Searches** folder, but as the group header for the results in **Start** menu searches. Hence, it is important to provide a descriptive name for the search connector. If a name is not provided in the registry key, by default Windows Explorer uses the name provided by [IShellFolder Interface](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) for the protocol handler's search root and blank description. You can override the default name through a registry key entry without having to rename the IShellFolder Interface. Although it is not as visible as the search connector name, you can also override the description for the search connector by providing your own description.
 
 To override the default name or description, set the entries as shown in the following registry example.
 
@@ -100,7 +100,7 @@ HKEY_LOCAL_MACHINE
                      Description
 ```
 
-In addition, the FolderType entry can be set to one of the [FOLDERTYPEID](https://msdn.microsoft.com/library/bb762581(VS.85).aspx) GUIDs. The value should be the actual GUID, and not its name. For example, {94d6ddcc-4a68-4175-a374-bd584a510b78} rather than FOLDERTYPEID\_Music. The GUID for a FOLDERTYPEID can be obtained in the Shlguid.h header file in the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+In addition, the FolderType entry can be set to one of the [FOLDERTYPEID](../shell/foldertypeid.md) GUIDs. The value should be the actual GUID, and not its name. For example, {94d6ddcc-4a68-4175-a374-bd584a510b78} rather than FOLDERTYPEID\_Music. The GUID for a FOLDERTYPEID can be obtained in the Shlguid.h header file in the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
 ```
 HKEY_LOCAL_MACHINE
@@ -115,7 +115,7 @@ HKEY_LOCAL_MACHINE
 
 ### Using Registry String Redirection
 
-You can use a [redirected string](https://msdn.microsoft.com/library/dd374120(vs.85).aspx) to ensure that the name you provide for the search connector can be localized. You can include localizable strings for the name and description registry keys instead of entering the actual string into the registry.
+You can use a [redirected string](../intl/using-registry-string-redirection.md) to ensure that the name you provide for the search connector can be localized. You can include localizable strings for the name and description registry keys instead of entering the actual string into the registry.
 
 To include a localizable string for the Name or Description values, set the value as shown in the following registry key example.
 
@@ -135,7 +135,7 @@ The localizable string takes the following format:
     -   @dllname.dll is the path to the DLL that contains the string resource
     -   resourceID is the integer resource ID of the string resource
 
-The format for an indirect string, and an indirect string appended with a version modifier, is described in [SHLoadIndirectString Function](https://msdn.microsoft.com/library/bb759919(VS.85).aspx).
+The format for an indirect string, and an indirect string appended with a version modifier, is described in [SHLoadIndirectString Function](/windows/win32/api/shlwapi/nf-shlwapi-shloadindirectstring).
 
 ### Restoring a Deleted Protocol Handler Search Connector
 
@@ -145,8 +145,8 @@ Because search connectors are files on the user's computer, they can be mistaken
 
 ## Additional Resources
 
--   [IShellItem::GetDisplayName](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getdisplayname)
--   [SIGDN\_NORMALDISPLAY](https://msdn.microsoft.com/library/bb762544(vs.85).aspx)
+-   [IShellItem::GetDisplayName](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getdisplayname)
+-   [SIGDN\_NORMALDISPLAY](/windows/win32/api/shobjidl_core/ne-shobjidl_core-sigdn)
 
 ## Related topics
 
@@ -179,6 +179,3 @@ Because search connectors are files on the user's computer, they can be mistaken
  
 
  
-
-
-

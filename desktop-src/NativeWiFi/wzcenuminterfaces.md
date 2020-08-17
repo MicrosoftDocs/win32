@@ -79,7 +79,7 @@ The **dwNumIntfs** member of the [**INTFS\_KEY\_TABLE**](intfs-key-table.md) str
 
 For subsequent calls to other Wireless Zero Configuration functions, an application must identify the interface it is operating on by providing relevant key information returned by the **WZCEnumInterfaces** function.
 
-If the **WZCEnumInterfaces** returns ERROR\_SUCCESS, the caller should call [**LocalFree**](https://msdn.microsoft.com/library/Aa366730(v=VS.85).aspx) to release the internal buffers allocated for the data returned once this information is no longer needed.
+If the **WZCEnumInterfaces** returns ERROR\_SUCCESS, the caller should call [**LocalFree**](/windows/win32/api/winbase/nf-winbase-localfree) to release the internal buffers allocated for the data returned once this information is no longer needed.
 
 > [!Note]  
 > The *Wzcsapi.h* header file and *Wzcsapi.lib* import library file are not available in the Windows SDK.
@@ -261,7 +261,3 @@ int wmain()
  
 
  
-
-
-
-

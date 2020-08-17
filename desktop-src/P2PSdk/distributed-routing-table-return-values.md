@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 The following error codes are commonly returned by the Distributed Routing Technology:
 
 > [!Note]  
-> The DRT can also return [Winsock Error Codes](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2).
+> The DRT can also return [Winsock Error Codes](/windows/desktop/WinSock/windows-sockets-error-codes-2).
 
  
 
@@ -77,9 +77,4 @@ The following error codes are commonly returned by the Distributed Routing Techn
 
 
  
-
- 
-
-
-
 

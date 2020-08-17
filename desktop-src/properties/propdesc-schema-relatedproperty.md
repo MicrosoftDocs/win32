@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # relatedProperty
 
-New for Windows 7. Identifies a property that is related to the property defined in the property description file. There can be as many [relatedProperty](https://msdn.microsoft.com/library/Dd798384(v=VS.85).aspx) elements within a [relatedPropertyInfo](https://msdn.microsoft.com/library/Dd798385(v=VS.85).aspx) as needed.
+New for Windows 7. Identifies a property that is related to the property defined in the property description file. There can be as many [relatedProperty]() elements within a [relatedPropertyInfo](./propdesc-schema-relatedpropertyinfo.md) as needed.
 
 ## Syntax
 
@@ -31,7 +31,7 @@ New for Windows 7. Identifies a property that is related to the property define
 
 | Parent Element                                                   | Child Elements |
 |------------------------------------------------------------------|----------------|
-| [relatedPropertyInfo](https://msdn.microsoft.com/library/Dd798385(v=VS.85).aspx) | None           |
+| [relatedPropertyInfo](./propdesc-schema-relatedpropertyinfo.md) | None           |
 
 
 
@@ -70,6 +70,3 @@ This element enables you to map one property to another. For example, you can ma
  
 
  
-
-
-

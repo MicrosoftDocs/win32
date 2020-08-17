@@ -26,9 +26,9 @@ Microsoft provides several different document technologies to support a variety 
 
     In the case of using OpenXPS with Windows 8 and Windows Server 2012, support is only provided via the [XPS Document API](documents-xps.md)
 
-    If you need to convert between Microsoft XPS (MSXPS) and OpenXPS, then Microsoft has provided a tool (XPSConverter.exe) that allows you to convert MSXPS-formatted documents to the OpenXPS format and vice versa. The tool is part of the Windows Driver Kit (WDK). To download the WDK, see [How to get the WDK](https://docs.microsoft.com/windows-hardware/drivers/download-the-wdk).
+    If you need to convert between Microsoft XPS (MSXPS) and OpenXPS, then Microsoft has provided a tool (XPSConverter.exe) that allows you to convert MSXPS-formatted documents to the OpenXPS format and vice versa. The tool is part of the Windows Driver Kit (WDK). To download the WDK, see [How to get the WDK](/windows-hardware/drivers/download-the-wdk).
 
-    And for more information about OpenXPS and Windows 8, see [OpenXPS Support in Windows](https://docs.microsoft.com/windows-hardware/drivers/print/driver-support-for-openxps).
+    And for more information about OpenXPS and Windows 8, see [OpenXPS Support in Windows](/windows-hardware/drivers/print/driver-support-for-openxps).
 
 -   **XPS Document API**
 
@@ -36,7 +36,7 @@ Microsoft provides several different document technologies to support a variety 
 
     For more information, see the XPS Document API, and [XPS Digital Signature API](xps-digital-signatures.md).
 
-    \*The XPS Document API is also supported in Windows Vista with Service Pack 2 (SP2) with the Platform Update for Windows Vista and Windows Server 2008 with SP2 using the Platform Update for Windows Server 2008. For more information about the Platform Update for Windows Vista or the Platform Update for Windows Server 2008, see [Platform Update for Windows Vista](https://docs.microsoft.com/windows/desktop/win7ip/platform-update-for-windows-vista-portal)
+    \*The XPS Document API is also supported in Windows Vista with Service Pack 2 (SP2) with the Platform Update for Windows Vista and Windows Server 2008 with SP2 using the Platform Update for Windows Server 2008. For more information about the Platform Update for Windows Vista or the Platform Update for Windows Server 2008, see [Platform Update for Windows Vista](/windows/desktop/win7ip/platform-update-for-windows-vista-portal)
 
 -   **.NET Framework**
 
@@ -51,7 +51,7 @@ Microsoft provides several different document technologies to support a variety 
 
      
 
-    For more information about document support in .NET Framework, see [Windows Presentation Foundation Documents](https://msdn.microsoft.com/library/ms749165(v=VS.85).aspx).
+    For more information about document support in .NET Framework, see [Windows Presentation Foundation Documents](/previous-versions/dotnet/netframework-3.0/ms749165(v=vs.85)).
 
 > [!Note]  
 > To work with XPS documents in a program, use either the native XPS Document API or the .NET Framework; simultaneous use of both in the same program is not supported.
@@ -78,15 +78,15 @@ This section describes the native Windows document technologies that are support
 
 The following tools are available to assist you with testing and troubleshooting of XPS document files.
 
--   [IsXPS](https://docs.microsoft.com/previous-versions/aa348104(v=vs.110))
+-   [IsXPS](/previous-versions/aa348104(v=vs.110))
 
     Tests a file's conformity to the XML Paper Specification (XPS) and the Open Packaging Conventions (OPC) Specification.
 
--   [XpsAnalyzer](https://msdn.microsoft.com/library/ff556218.aspx)
+-   [XpsAnalyzer](/windows-hardware/drivers/devtest/xpsanalyzer)
 
     A command-prompt tool that analyzes XPS document files for compatibility with the XPS 1.0 specification.
 
--   [PTConform](https://msdn.microsoft.com/library/dd327476.aspx)
+-   [PTConform](/previous-versions/dd327476(v=msdn.10))
 
     A tool that checks the validity of PrintTicket and PrintCapabilities documents.
 
@@ -94,22 +94,17 @@ The following tools are available to assist you with testing and troubleshooting
 
 <dl> <dt>
 
-[XPS Print API](https://msdn.microsoft.com/library/Ff728890(v=VS.85).aspx)
+[XPS Print API](./printing-with-the-xpsprint-api.md)
 </dt> <dt>
 
-[Packaging](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging)
+[Packaging](/previous-versions/windows/desktop/opc/packaging)
 </dt> <dt>
 
-[Printing](https://msdn.microsoft.com/library/Ff686805(v=VS.85).aspx)
+[Printing](./printdocs-printing.md)
 </dt> <dt>
   
 [Print Sample Program](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/Print%20sample%20(Windows%208))
 </dt> </dl>
 
  
-
- 
-
-
-
 

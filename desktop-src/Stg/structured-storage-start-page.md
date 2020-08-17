@@ -52,14 +52,8 @@ For more information about which operating systems are required to use a particu
 
 <dl> <dt>
 
-[The Component Object Model](https://msdn.microsoft.com/library/ms694363(v=VS.85).aspx)
+[The Component Object Model](../com/the-component-object-model.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

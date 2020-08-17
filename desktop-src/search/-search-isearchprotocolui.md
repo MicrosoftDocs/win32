@@ -20,7 +20,7 @@ Provides a method for invoking [**ISearchItem**](-search-isearchitem.md) objects
 
 ## Members
 
-The **ISearchProtocolUI** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ISearchProtocolUI** also has these types of members:
+The **ISearchProtocolUI** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ISearchProtocolUI** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -59,7 +59,3 @@ To preview attachments with a third-party protocol handler on computers running 
  
 
  
-
-
-
-

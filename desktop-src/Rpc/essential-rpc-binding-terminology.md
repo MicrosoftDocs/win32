@@ -19,7 +19,7 @@ To better aid in a discussion of the client/server connection process, it is hel
 <span id="Protocol_Sequence"></span><span id="protocol_sequence"></span><span id="PROTOCOL_SEQUENCE"></span>Protocol Sequence
 </dt> <dd>
 
-When network operating systems communicate with each other, they must listen and speak the same language. These languages are called *protocol sequences*. Client and server programs must use protocol sequences that the network connecting them supports. Microsoft RPC supports a variety of protocol sequences. For details, see [Selecting a Protocol Sequence](selecting-a-protocol-sequence.md), [Specifying Protocol Sequences](specifying-protocol-sequences.md), and [**endpoint**](https://docs.microsoft.com/windows/desktop/Midl/endpoint).
+When network operating systems communicate with each other, they must listen and speak the same language. These languages are called *protocol sequences*. Client and server programs must use protocol sequences that the network connecting them supports. Microsoft RPC supports a variety of protocol sequences. For details, see [Selecting a Protocol Sequence](selecting-a-protocol-sequence.md), [Specifying Protocol Sequences](specifying-protocol-sequences.md), and [**endpoint**](/windows/desktop/Midl/endpoint).
 
 </dd> <dt>
 
@@ -47,7 +47,3 @@ Client programs create a binding to the server to establish a communication sess
  
 
  
-
-
-
-

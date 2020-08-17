@@ -15,7 +15,7 @@ All functions, prototypes, structures, and constants are defined in the Winwlx.h
 
  
 
-To test a [*GINA*](https://docs.microsoft.com/windows/desktop/SecGloss/g-gly) DLL, use the Winlogon.exe from a checked version of the operating system, which is available with the Microsoft Windows Driver Development Kit (DDK). The checked version of [*Winlogon*](https://docs.microsoft.com/windows/desktop/SecGloss/w-gly) supports debugging GINAs as follows:
+To test a [*GINA*](/windows/desktop/SecGloss/g-gly) DLL, use the Winlogon.exe from a checked version of the operating system, which is available with the Microsoft Windows Driver Development Kit (DDK). The checked version of [*Winlogon*](/windows/desktop/SecGloss/w-gly) supports debugging GINAs as follows:
 
 -   You can use the following syntax to create a section in Win.ini to specify Winlogon debugging options.
 
@@ -37,7 +37,7 @@ To test a [*GINA*](https://docs.microsoft.com/windows/desktop/SecGloss/g-gly) DL
     | Error          | Print errors.                                                                                                                                                              |
     | Init           | Print initialization and progress messages.                                                                                                                                |
     | Notify         | Print notification package messages.                                                                                                                                       |
-    | SAS            | Print information about [*secure attention sequence*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SAS) notifications. |
+    | SAS            | Print information about [*secure attention sequence*](/windows/desktop/SecGloss/s-gly) (SAS) notifications. |
     | State          | Print messages when Winlogon changes state.                                                                                                                                |
     | Timeout        | Print messages when a time limit is set or a time limit is reached.                                                                                                        |
     | Trace          | Print verbose trace information.                                                                                                                                           |
@@ -90,6 +90,3 @@ To test a [*GINA*](https://docs.microsoft.com/windows/desktop/SecGloss/g-gly) DL
  
 
  
-
-
-

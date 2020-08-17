@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Specifying the Algorithms
 
-After a [*master key*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx) is created or imported, both [*RSA*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx)/Schannel and [*Diffie-Hellman*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx)/Schannel inform the [*CSP*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) of the type of [*bulk encryption keys*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx) and [*MAC keys*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx) that will be derived from the master key. The following example specifies these algorithms. The same code is used for both client and server.
+After a [*master key*](../secgloss/m-gly.md) is created or imported, both [*RSA*](../secgloss/r-gly.md)/Schannel and [*Diffie-Hellman*](../secgloss/d-gly.md)/Schannel inform the [*CSP*](../secgloss/c-gly.md) of the type of [*bulk encryption keys*](../secgloss/b-gly.md) and [*MAC keys*](../secgloss/m-gly.md) that will be derived from the master key. The following example specifies these algorithms. The same code is used for both client and server.
 
 
 ```C++
@@ -78,13 +78,10 @@ if (!CryptSetKeyParam(
 
 
 > [!Note]  
-> An [*Schannel*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) protocol engine must not specify algorithms and key sizes not supported by the CSP. For more information, see [Enumerating Supported Protocols](enumerating-supported-protocols.md). If unsupported algorithms or key sizes are specified, the CSP function must fail and return the NTE\_BAD\_DATA error code.
+> An [*Schannel*](../secgloss/s-gly.md) protocol engine must not specify algorithms and key sizes not supported by the CSP. For more information, see [Enumerating Supported Protocols](enumerating-supported-protocols.md). If unsupported algorithms or key sizes are specified, the CSP function must fail and return the NTE\_BAD\_DATA error code.
 
  
 
  
 
  
-
-
-

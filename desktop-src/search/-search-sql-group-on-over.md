@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # GROUP ON ... OVER ... Statement
 
-The GROUP ON... OVER... statement returns a hierarchical rowset in which search results are divided into groups based on a specified column and optional grouping ranges. If you group on the [System.Kind](https://msdn.microsoft.com/library/bb787521(VS.85).aspx) column, the result set is divided into multiple groups: one for documents, one for communications, and so on. If you group on [System.Size](https://msdn.microsoft.com/library/bb787566(VS.85).aspx) and group range 100 KB, the result set is divided into three groups: items of size < 100 KB, items of size >= 100 KB, and items with no size value. You can also aggregate groupings with functions.
+The GROUP ON... OVER... statement returns a hierarchical rowset in which search results are divided into groups based on a specified column and optional grouping ranges. If you group on the [System.Kind](../properties/props-system-kind.md) column, the result set is divided into multiple groups: one for documents, one for communications, and so on. If you group on [System.Size](../properties/props-system-size.md) and group range 100 KB, the result set is divided into three groups: items of size < 100 KB, items of size >= 100 KB, and items with no size value. You can also aggregate groupings with functions.
 
 This topic covers the following subjects:
 
@@ -51,7 +51,7 @@ The optional <group ranges> is a list of one or more values (number, date, or st
 
 The first group of results includes items with the minimum possible value for the specified property up to but not including the first range limit. This group can be referred to with the MINVALUE keyword. The second group can be referred to with the range limit specifier itself and includes items whose value for the specified property is equal to or greater than the range limit. Any items that do not have a value for the specified property are returned last and can be referred to with the **NULL** keyword.
 
-For example, a range limit of '2006-01-01' for the [System.DateCreated](https://msdn.microsoft.com/library/bb760681(VS.85).aspx) property divides the result set into items with dates before 2006-01-01 (MINVALUE group), items with dates on or after 2006-01-01 (2006-01-01 group), and items with no date (**NULL** group).
+For example, a range limit of '2006-01-01' for the [System.DateCreated](../properties/props-system-datecreated.md) property divides the result set into items with dates before 2006-01-01 (MINVALUE group), items with dates on or after 2006-01-01 (2006-01-01 group), and items with no date (**NULL** group).
 
 Within each group, the results are sorted by the values in the GROUP ON column by default. The optional [ORDER BY](-search-sql-orderby.md) clause can contain a direction specifier of either ASC for ascending (low to high) or DESC for descending (high to low), and the [ORDER IN GROUP BY](-search-sql-orderingroup.md) clause can order each group using different rules. See the [Ordering Groups](#ordering-groups) section below for more information.
 
@@ -144,7 +144,7 @@ There are three ways to order items in groups:
 
 -   Default ordering: If you do not specify otherwise, the results are ordered by the values in the GROUP ON column, in ascending order.
 -   ORDER BY: You can specify descending order in an ORDER BY clause. You must order the results by the GROUP ON column.
--   ORDER IN GROUP BY: You can specify a different order for each group. If you group on [System.Kind](https://msdn.microsoft.com/library/bb787521(VS.85).aspx), you can order documents by [System.Author](https://msdn.microsoft.com/library/bb760652(VS.85).aspx) and music by [System.Music.Artist](https://msdn.microsoft.com/library/bb787294(VS.85).aspx).
+-   ORDER IN GROUP BY: You can specify a different order for each group. If you group on [System.Kind](../properties/props-system-kind.md), you can order documents by [System.Author](../properties/props-system-author.md) and music by [System.Music.Artist](../properties/props-system-music-artist.md).
 
 For more information on ordering results, see the [ORDER BY Clause](-search-sql-orderby.md) and [ORDER IN GROUP Clause](-search-sql-orderingroup.md) reference pages.
 
@@ -256,7 +256,3 @@ GROUP ON System.Size[1,2]
  
 
  
-
-
-
-

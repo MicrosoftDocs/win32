@@ -18,7 +18,7 @@ topic_type:
 
 # SFVM\_GETSORTDEFAULTS message
 
-Allows the callback object to specify a default sorting parameter. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to specify a default sorting parameter. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -73,7 +73,3 @@ The column used for the sort. This will be passed to the [**IShellFolder::Compar
  
 
  
-
-
-
-

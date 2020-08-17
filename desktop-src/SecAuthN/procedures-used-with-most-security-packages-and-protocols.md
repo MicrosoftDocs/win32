@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Procedures Used with Most Security Packages and Protocols
 
-The [*Security Support Provider Interface*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SSPI) model provides a single interface for a client/server transport application using the various [*security packages*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) available on a computer or network. SSPI allows an application to use a security package without dealing with the underlying [*security protocols*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) of the package. At the same time, SSPI also allows sophisticated, security-aware applications to take advantage of the advanced capabilities of specific security packages.
+The [*Security Support Provider Interface*](../secgloss/s-gly.md) (SSPI) model provides a single interface for a client/server transport application using the various [*security packages*](../secgloss/s-gly.md) available on a computer or network. SSPI allows an application to use a security package without dealing with the underlying [*security protocols*](../secgloss/s-gly.md) of the package. At the same time, SSPI also allows sophisticated, security-aware applications to take advantage of the advanced capabilities of specific security packages.
 
 Applications initialize SSPI using the following steps to secure a network connection for most security packages:
 
@@ -21,6 +21,3 @@ Applications initialize SSPI using the following steps to secure a network conne
  
 
  
-
-
-

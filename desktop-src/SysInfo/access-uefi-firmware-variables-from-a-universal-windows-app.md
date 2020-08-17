@@ -34,8 +34,8 @@ Starting with Windows 10, version 1803, Universal Windows apps can use [**GetFi
 
 <!-- -->
 
--   Set the linker option **/INTEGRITYCHECK**, for all project configurations, before submitting the app to the Microsoft Store. This ensures that the app will be launched as a protected app. See [/INTEGRITYCHECK (Require Signature Check)](https://docs.microsoft.com/cpp/build/reference/integritycheck-require-signature-check) for details.
--   Obtain a [Signed Custom Capability Descriptor](https://docs.microsoft.com/windows-hardware/drivers/devapps/creating-a-custom-capability-to-pair-driver-with-hsa#preparing-the-signed-custom-capability-descriptor-sccd-file) (SCCD) file from Microsoft. See [Creating a custom capability to pair a driver with a Hardware Support App (HSA)](https://docs.microsoft.com/windows-hardware/drivers/devapps/creating-a-custom-capability-to-pair-driver-with-hsa) and [Using a custom capability to pair a Hardware Support App (HSA) with a driver](https://docs.microsoft.com/windows-hardware/drivers/devapps/using-a-custom-capability-to-pair-hsa-with-driver) for information about how to obtain signed SCCD file from Microsoft, how to package it with your app, and how to enable developer mode. Here is an example SSCD file from the [CustomCapability sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CustomCapability):
+-   Set the linker option **/INTEGRITYCHECK**, for all project configurations, before submitting the app to the Microsoft Store. This ensures that the app will be launched as a protected app. See [/INTEGRITYCHECK (Require Signature Check)](/cpp/build/reference/integritycheck-require-signature-check) for details.
+-   Obtain a [Signed Custom Capability Descriptor](/windows-hardware/drivers/devapps/creating-a-custom-capability-to-pair-driver-with-hsa#preparing-the-signed-custom-capability-descriptor-sccd-file) (SCCD) file from Microsoft. See [Creating a custom capability to pair a driver with a Hardware Support App (HSA)](/windows-hardware/drivers/devapps/creating-a-custom-capability-to-pair-driver-with-hsa) and [Using a custom capability to pair a Hardware Support App (HSA) with a driver](/windows-hardware/drivers/devapps/using-a-custom-capability-to-pair-hsa-with-driver) for information about how to obtain signed SCCD file from Microsoft, how to package it with your app, and how to enable developer mode. Here is an example SSCD file from the [CustomCapability sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CustomCapability):
     ```XML
     <?xml version="1.0" encoding="utf-8"?>
     <CustomCapabilityDescriptor xmlns="http://schemas.microsoft.com/appx/2016/sccd" xmlns:s="http://schemas.microsoft.com/appx/2016/sccd">
@@ -53,13 +53,13 @@ Starting with Windows 10, version 1803, Universal Windows apps can use [**GetFi
 
     
 
--   Submit the app to the Microsoft Store to get it signed. For development purposes, you can skip signing by enabling test-signing in the boot configuration database (bcd). See [The TESTSIGNING Boot Configuration Option](https://docs.microsoft.com/windows-hardware/drivers/install/the-testsigning-boot-configuration-option) for details.
+-   Submit the app to the Microsoft Store to get it signed. For development purposes, you can skip signing by enabling test-signing in the boot configuration database (bcd). See [The TESTSIGNING Boot Configuration Option](/windows-hardware/drivers/install/the-testsigning-boot-configuration-option) for details.
 
 ## Related topics
 
 <dl> <dt>
 
-[Special and restricted capabilities](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities)
+[Special and restricted capabilities](/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities)
 </dt> <dt>
 
 [**GetFirmwareEnvironmentVariable**](/windows/desktop/api/Winbase/nf-winbase-getfirmwareenvironmentvariablea)
@@ -80,6 +80,3 @@ Starting with Windows 10, version 1803, Universal Windows apps can use [**GetFi
  
 
  
-
-
-

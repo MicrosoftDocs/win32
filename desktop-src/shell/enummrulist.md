@@ -99,7 +99,7 @@ Returns one of the following values.
 
 ## Remarks
 
-This function is not included in a public header or library. It can be accessed through [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) or extracted from comctl32.dll by its ordinal, which is 403 for **EnumMRUListW**.
+This function is not included in a public header or library. It can be accessed through [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) or extracted from comctl32.dll by its ordinal, which is 403 for **EnumMRUListW**.
 
 ## Requirements
 
@@ -127,7 +127,3 @@ This function is not included in a public header or library. It can be accessed 
  
 
  
-
-
-
-

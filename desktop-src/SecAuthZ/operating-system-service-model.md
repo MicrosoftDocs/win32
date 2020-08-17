@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Operating System Service Model
 
-In the operating system service model, an application running as a standard user communicates with a service running as **SYSTEM** by using [Remote Procedure Call](https://docs.microsoft.com/windows/desktop/Rpc/rpc-start-page) (RPC).
+In the operating system service model, an application running as a standard user communicates with a service running as **SYSTEM** by using [Remote Procedure Call](/windows/desktop/Rpc/rpc-start-page) (RPC).
 
 The standard user application is marked in the application manifest with a **requestedExecutionLevel** of **asInvoker**. To perform an operation that requires administrator privilege, the standard user application makes a request to the service.
 
@@ -39,6 +39,3 @@ To implement the operating system service model, create a standard user client a
  
 
  
-
-
-

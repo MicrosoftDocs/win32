@@ -44,7 +44,7 @@ The following steps show how to create and initialize a simple autocomplete obje
 
     
 
-    The following code uses a custom autocomplete source. You can write your own autocomplete source by implementing an object that exposes the [**IEnumString**](https://msdn.microsoft.com/library/ms687257(v=VS.85).aspx) interface. The object can also optionally implement the [**IACList**](https://msdn.microsoft.com/library/Bb776378(v=VS.85).aspx) and [**IACList2**](https://msdn.microsoft.com/library/Bb776375(v=VS.85).aspx) interfaces.
+    The following code uses a custom autocomplete source. You can write your own autocomplete source by implementing an object that exposes the [**IEnumString**](/windows/win32/api/objidlbase/nn-objidlbase-ienumstring) interface. The object can also optionally implement the [**IACList**](/windows/win32/api/shlobj_core/nn-shlobj_core-iaclist) and [**IACList2**](/windows/win32/api/shlobj_core/nn-shlobj_core-iaclist2) interfaces.
 
     ```C++
     CCustomAutoCompleteSource *pcacs = new CCustomAutoCompleteSource();
@@ -62,7 +62,7 @@ The following steps show how to create and initialize a simple autocomplete obje
 
 3.  Set the options on the autocomplete source (optional).
 
-    You can customize the behavior of the autocomplete source by setting its options if the source exposes the [**IACList2**](https://msdn.microsoft.com/library/Bb776375(v=VS.85).aspx) interface. When using the predefined autocomplete sources, only CLSID\_ACListISF exports **IACList2**. For a complete list of options and their values, see [**IACList2::SetOptions**](https://msdn.microsoft.com/library/Bb776376(v=VS.85).aspx).
+    You can customize the behavior of the autocomplete source by setting its options if the source exposes the [**IACList2**](/windows/win32/api/shlobj_core/nn-shlobj_core-iaclist2) interface. When using the predefined autocomplete sources, only CLSID\_ACListISF exports **IACList2**. For a complete list of options and their values, see [**IACList2::SetOptions**](/windows/win32/api/shlobj_core/nf-shlobj_core-iaclist2-setoptions).
 
     ```C++
     IACList2 *pal2;
@@ -89,7 +89,7 @@ The following steps show how to create and initialize a simple autocomplete obje
 
 5.  Set the options of the autocomplete object (optional).
 
-    You can customize the behavior of the autocomplete object by setting its options. For a complete list of options and their values, see the documentation for [**IACList2::SetOptions**](https://msdn.microsoft.com/library/Bb776376(v=VS.85).aspx).
+    You can customize the behavior of the autocomplete object by setting its options. For a complete list of options and their values, see the documentation for [**IACList2::SetOptions**](/windows/win32/api/shlobj_core/nf-shlobj_core-iaclist2-setoptions).
 
     ```C++
     IAutoComplete2 *pac2;
@@ -181,6 +181,3 @@ A compound autocomplete object matches against strings from multiple sources. Fo
  
 
  
-
-
-

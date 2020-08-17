@@ -12,12 +12,8 @@ Asynchronous I/O is an efficient means for a single thread to manage multiple I/
 
 Prior to Windows Vista, an asynchronous remote procedure call may complete before the asynchronous I/O request completes. When the asynchronous call completes, its thread may terminate if the RPC runtime decides it has enough threads available to service the expected workload. The system binds all I/O requests to the thread that initiates them. If the thread terminates, any I/O requests pending on that thread are aborted. Pending I/O requests cannot be moved to another thread.
 
-Therefore, application designers targeting versions of Windows prior to Windows Vista can either use synchronous I/O in server procedures, or they can forward all requests that involve asynchronous I/O to procedures executing on a thread pool that the application manages. The Windows API provides functions for thread-pool management. See [Process and Thread Functions](https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions).
+Therefore, application designers targeting versions of Windows prior to Windows Vista can either use synchronous I/O in server procedures, or they can forward all requests that involve asynchronous I/O to procedures executing on a thread pool that the application manages. The Windows API provides functions for thread-pool management. See [Process and Thread Functions](/windows/desktop/ProcThread/process-and-thread-functions).
 
  
 
  
-
-
-
-

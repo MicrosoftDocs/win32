@@ -33,7 +33,7 @@ The following are practices for writing secure applications for use with Windows
 
 -   If a new filter handler for a file type is being installed as a replacement for an existing filter registration, the installer should save the current registration and restore it if the new filter handler is uninstalled. There is no mechanism to chain filters. Hence, the new filter handler is responsible for replicating any necessary functionality of the old filter.
 -   IFilters, word breakers, and stemmers for Windows Search run in the Local Security context. They should be written to manage buffers and to stack correctly. All string copies must have explicit checks to guard against buffer overruns. You should always verify the allocated size of the buffer and test the size of the data against the size of the buffer. Buffer overruns are a common technique for exploiting code that does not enforce buffer size restrictions.
--   [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx), word breaker and stemmer components should never call the [ExitProcess Function](https://msdn.microsoft.com/library/ms682658(VS.85).aspx) function or similar API that terminates a process and all its threads.
+-   [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter), word breaker and stemmer components should never call the [ExitProcess Function](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess) function or similar API that terminates a process and all its threads.
 -   Do not allocate or free resources in the DllMain entry point. This can lead to failures during low-resource stress tests.
 -   Code all objects to be thread-safe. Windows Search calls any one instance of a word breaker or stemmer in one thread at a time, but it may call multiple instances at the same time across multiple threads.
 -   Avoid creating temporary files or writing to the registry.
@@ -41,10 +41,10 @@ The following are practices for writing secure applications for use with Windows
 
 ## Additional Resources
 
--   The [IFilterSample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample) sample demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
+-   The [IFilterSample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample) sample demonstrates how to create an IFilter base class for implementing the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface.
 -   For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
--   For an overview of file types, see [File Types](https://msdn.microsoft.com/library/cc144148(VS.85).aspx).
--   To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](https://msdn.microsoft.com/library/cc144150(VS.85).aspx).
+-   For an overview of file types, see [File Types](../shell/fa-file-types.md).
+-   To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](/previous-versions/windows/desktop/legacy/cc144150(v=vs.85)).
 
 ## Related topics
 
@@ -74,6 +74,3 @@ The following are practices for writing secure applications for use with Windows
  
 
  
-
-
-

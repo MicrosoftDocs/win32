@@ -19,7 +19,7 @@ The NTFS version 5.0 provides an implementation of the [**IPropertyStorage**](/w
 
 ## When to Use
 
-Use [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) to manage properties within a single property set. Its methods support reading, writing, and deleting properties and the optional string names that can be associated with property identifiers. Another method enables you to set times associated with the property storage, and another permits the assignment of a CLSID, used to associate other code, such as user interface (UI) code, with the property set. Calling the [**Enum**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-enum) method supplies a pointer to the NTFS implementation of [**IEnumSTATPROPSTG**](https://msdn.microsoft.com/library/Aa379210(v=VS.85).aspx), which enables you to enumerate the properties in the set.
+Use [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) to manage properties within a single property set. Its methods support reading, writing, and deleting properties and the optional string names that can be associated with property identifiers. Another method enables you to set times associated with the property storage, and another permits the assignment of a CLSID, used to associate other code, such as user interface (UI) code, with the property set. Calling the [**Enum**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-enum) method supplies a pointer to the NTFS implementation of [**IEnumSTATPROPSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropstg), which enables you to enumerate the properties in the set.
 
 ## Remarks
 
@@ -44,7 +44,3 @@ Although the NTFS implementation of [**IPropertySetStorage**](/windows/desktop/a
  
 
  
-
-
-
-

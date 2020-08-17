@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Performance Data Helper Error Codes
 
-All Performance Data Helper (PDH) functions return a value of type **PDH\_STATUS**. If the function succeeds, the return value is ERROR\_SUCCESS. Otherwise, the function returns a [system error code](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes) or a PDH error code. To retrieve the description text for the error in your application, use the [**FormatMessage**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage) function as shown in the following example.
+All Performance Data Helper (PDH) functions return a value of type **PDH\_STATUS**. If the function succeeds, the return value is ERROR\_SUCCESS. Otherwise, the function returns a [system error code](/windows/desktop/Debug/system-error-codes) or a PDH error code. To retrieve the description text for the error in your application, use the [**FormatMessage**](/windows/desktop/api/winbase/nf-winbase-formatmessage) function as shown in the following example.
 
 
 ```C++
@@ -158,6 +158,3 @@ The following table provides a list of error codes that are specific to PDH. The
  
 
  
-
-
-

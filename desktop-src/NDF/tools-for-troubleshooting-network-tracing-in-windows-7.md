@@ -19,7 +19,7 @@ In this section we will look at how to use Netsh.exe and Network Monitor to help
 | Topic                                                                                  |
 |----------------------------------------------------------------------------------------|
 | [Using Netsh to Manage Traces](using-netsh-to-manage-traces.md)                       |
-| [Using Network Monitor to View ETL Files](https://docs.microsoft.com/windows/desktop/NDF/using-network-monitor-to-view-etl-files) |
+| [Using Network Monitor to View ETL Files](/windows/desktop/NDF/using-network-monitor-to-view-etl-files) |
 
 
 
@@ -28,7 +28,3 @@ In this section we will look at how to use Netsh.exe and Network Monitor to help
  
 
  
-
-
-
-

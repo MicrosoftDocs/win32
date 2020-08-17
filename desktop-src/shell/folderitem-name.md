@@ -33,7 +33,7 @@ FolderItem.Name = strName
 
 ## Property value
 
-A variable of type [**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx) that specifies or receives the item's name.
+A variable of type [**BSTR**](/previous-versions/windows/desktop/automat/bstr) that specifies or receives the item's name.
 
 ## Examples
 
@@ -153,7 +153,3 @@ End Sub
  
 
  
-
-
-
-

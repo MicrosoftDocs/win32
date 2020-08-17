@@ -147,7 +147,7 @@ HKEY_LOCAL_MACHINE
                LocalizedString = @C:\Program Files\LitwareInc\ResourceDLL.dll,-123
 ```
 
-Note the use of the (Default) entry as a secondary declaration of the client's display name. If the **LocalizedString** is not present, the (Default) value is used instead. This works with all client types (Internet browsers, email browsers, instant messengers, and media players). For backward compatibility with the [Internet Explorer Client Registry Layout](https://msdn.microsoft.com/library/Aa753633(v=VS.85).aspx), email programs should set the (Default) value of the *CanonicalName* subkey to the client's display name in the currently installed language.
+Note the use of the (Default) entry as a secondary declaration of the client's display name. If the **LocalizedString** is not present, the (Default) value is used instead. This works with all client types (Internet browsers, email browsers, instant messengers, and media players). For backward compatibility with the [Internet Explorer Client Registry Layout](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa753633(v=vs.85)), email programs should set the (Default) value of the *CanonicalName* subkey to the client's display name in the currently installed language.
 
 ### Registering a Program's Icon
 
@@ -327,7 +327,7 @@ The command line must specify a fully qualified absolute path to the file, follo
 
 The reinstall command line declared in the ReinstallCommand value is executed when the user uses the **Set Program Access and Computer Defaults** page to select your program as the default for its client type. In Windows Vista and later, access to this page requires an Administrator privilege level. In Windows 8, if you have registered your application using the same name for both **Set Program Access and Computer Defaults** and **Default Programs**, the defaults specified in **Default Programs** for that application will be applied for the current user as well as running the reinstall command.
 
-The program launched by the reinstall command line must associate the application with the complete set of [file](fa-intro.md) and [protocol](https://msdn.microsoft.com/library/Aa767743(v=VS.85).aspx) types the application can handle. All applications must establish handler capability in the reinstall command. Applications can use the reinstall command to register capability as well as optionally establish default status. When an application chooses to implement both capability and default handler status in the reinstall command, it should also reinstate any visible links or shortcuts desired. The visible entry points most applications choose are listed in [The Hide Icons Command](#the-hide-icons-command).
+The program launched by the reinstall command line must associate the application with the complete set of [file](fa-intro.md) and [protocol](/previous-versions//aa767743(v=vs.85)) types the application can handle. All applications must establish handler capability in the reinstall command. Applications can use the reinstall command to register capability as well as optionally establish default status. When an application chooses to implement both capability and default handler status in the reinstall command, it should also reinstate any visible links or shortcuts desired. The visible entry points most applications choose are listed in [The Hide Icons Command](#the-hide-icons-command).
 
 > [!Note]  
 > It is highly recommended that applications implement handling capability in the reinstall command.
@@ -591,7 +591,7 @@ HKEY_LOCAL_MACHINE
 
  
 
-After updating the registry keys, the program should broadcast the [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/library/ms725497(v=VS.85).aspx) message with **wParam** = 0 and **lParam** pointing to the null-terminated string "Software\\Clients\\**ClientTypeName**" to notify the operating system that the default client has changed.
+After updating the registry keys, the program should broadcast the [**WM\_SETTINGCHANGE**](../winmsg/wm-settingchange.md) message with **wParam** = 0 and **lParam** pointing to the null-terminated string "Software\\Clients\\**ClientTypeName**" to notify the operating system that the default client has changed.
 
 ### Mail Client Registration
 
@@ -607,7 +607,7 @@ HKEY_LOCAL_MACHINE
                   mailto
 ```
 
-This registry hierarchy replaces the existing `mailto` registry hierarchy found at **HKEY\_CLASSES\_ROOT**\\**mailto**. The hierarchy remains the same, only the location has changed. The format of this hierarchy is documented on MSDN under [Asynchronous Pluggable Protocol Overviews and Tutorials](https://msdn.microsoft.com/library/Aa767913(v=VS.85).aspx). Typically, the `mailto` protocol is registered to a program rather than an asynchronous protocol, in which case the documentation on [Registering an Application to a URI Scheme](https://msdn.microsoft.com/library/Aa767914(v=VS.85).aspx) applies.
+This registry hierarchy replaces the existing `mailto` registry hierarchy found at **HKEY\_CLASSES\_ROOT**\\**mailto**. The hierarchy remains the same, only the location has changed. The format of this hierarchy is documented on MSDN under [Asynchronous Pluggable Protocol Overviews and Tutorials](/previous-versions//aa767913(v=vs.85)). Typically, the `mailto` protocol is registered to a program rather than an asynchronous protocol, in which case the documentation on [Registering an Application to a URI Scheme](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767914(v=vs.85)) applies.
 
 The following example shows the `mailto` section of the registration for a `mailto` handler registered to a program.
 
@@ -769,18 +769,15 @@ HKEY_LOCAL_MACHINE
 [How to Register an Internet Browser or Email Client With the Windows Start Menu](start-menu-reg.md)
 </dt> <dt>
 
-[Internet Explorer Client Registry Layout (see the "Client Registry Key Definitions" section)](https://msdn.microsoft.com/library/Aa753633(v=VS.85).aspx)
+[Internet Explorer Client Registry Layout (see the "Client Registry Key Definitions" section)](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa753633(v=vs.85))
 </dt> <dt>
 
-[Asynchronous Pluggable Protocol Overviews and Tutorials](https://msdn.microsoft.com/library/Aa767913(v=VS.85).aspx)
+[Asynchronous Pluggable Protocol Overviews and Tutorials](/previous-versions//aa767913(v=vs.85))
 </dt> <dt>
 
-[Registering an Application to a URI Scheme](https://msdn.microsoft.com/library/Aa767914(v=VS.85).aspx)
+[Registering an Application to a URI Scheme](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767914(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-
