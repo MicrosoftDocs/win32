@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Locale Names
 
-A [locale](locales-and-languages.md) name is based on the language tagging conventions of RFC 4646 (Windows Vista and later), and is represented by [LOCALE\_SNAME](locale-sname.md). Generally, the pattern <language>-<REGION> is used. Here, language is a lowercase ISO 639 language code. The codes from ISO 639-1 are used when available. Otherwise, codes from ISO 639-2/T are used. REGION specifies an uppercase ISO 3166-1 country/region identifier. For example, the locale name for English (United States) is "en-US" and the locale name for Divehi (Maldives) is "dv-MV".
+A [locale](locales-and-languages.md) name is based on the language tagging conventions of RFC 4646 (Windows Vista and later), and is represented by [LOCALE\_SNAME](locale-sname.md). Generally, the pattern `<language>-<REGION>` is used. Here, language is a lowercase ISO 639 language code. The codes from ISO 639-1 are used when available. Otherwise, codes from ISO 639-2/T are used. REGION specifies an uppercase ISO 3166-1 country/region identifier. For example, the locale name for English (United States) is "en-US" and the locale name for Divehi (Maldives) is "dv-MV".
 
 > [!Note]  
 > The constant [LOCALE\_NAME\_MAX\_LENGTH](locale-name-constants.md) gives the maximum length of a locale name. It includes space for a terminating null character.
