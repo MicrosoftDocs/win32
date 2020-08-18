@@ -18,4 +18,10 @@ HRESULT UnregisterProvider(
 `classId`
 
 ## Returns
-Returns **S_OK** if the update provider was succesfully unregistered or an error in case of a failure.
+Returns **S_OK** if the update provider was successfully unregistered or an error in case of a failure.
+
+## See Also
+
+[IUpdateOrchestrator](iupdateorchestrator.md)
+
+[IUpdateOrchestrator::RegisterProvider](iupdateorchestrator-registerprovider.md)

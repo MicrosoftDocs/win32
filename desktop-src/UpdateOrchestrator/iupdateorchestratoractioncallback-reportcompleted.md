@@ -17,3 +17,10 @@ HRESULT ReportCompleted();
 
 ## Returns
 
+## See Also
+
+[IUpdateOrchestratorActionCallback](iupdateorchestratoractioncallback.md)
+
+[IUpdateOrchestratorActionCallback::ReportFailed](iupdateorchestratoractioncallback-reportfailed.md)
+
+[IUpdateOrchestratorActionCallback::ReportProgress](iupdateorchestratoractioncallback-reportprogress.md)

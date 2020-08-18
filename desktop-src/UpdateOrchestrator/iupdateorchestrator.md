@@ -12,17 +12,17 @@ The caller should use this interface to register their updater CLSID for work.
 
 |Method | Description |
 |---|---|
-|[IUpdateOrchestrator::RegisterProvider ](iupdateorchestrator-registerprovider.md) | Registers the update provider with the given CLSID.  |
-|[IUpdateOrchestrator::UnregisterProvider ](iupdateorchestrator-unregisterprovider.md) | Unregisters the given update provider.  |
+|[::RegisterProvider](iupdateorchestrator-registerprovider.md) | Registers the update provider with the given CLSID.  |
+|[::UnregisterProvider](iupdateorchestrator-unregisterprovider.md) | Unregisters the given update provider.  |
 
 ## Remarks
-Once registered, the USO (Windows Update Session Orchestrator) will create the IUpdateOrchestratorUpdateProvider and attemp a scan on it. 
+Once registered, the USO (Windows Update Session Orchestrator) will create the IUpdateOrchestratorUpdateProvider and attempt a scan on it. 
 
 At this point, the updater should determine if it has updates that need work and return the collection of them. At an appropriate time to do work, the UpdateOrchestrator will call the updates supplied to perform the work.
 
 ## Requirements
 
-|   |   |
+| Requirement | Version |
 |---|---|
-| **Minimum supported client** | Windows 10 1903 |
+| Minimum supported client | Windows 10 1903 |
 |   |   |

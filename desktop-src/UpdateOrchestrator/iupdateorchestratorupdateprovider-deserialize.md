@@ -5,7 +5,8 @@ ms.topic: method
 ---
 
 # IUpdateOrchestratorUpdateProvider::Deserialize method
-Deserialize the bytes into an update 
+
+Deserializes the bytes into an update.
 
 ## Syntax
 ```cpp
@@ -33,4 +34,15 @@ Returns **S_OK** if successful, a failure otherwise.
 
 ## Remarks
 
-The provider should return the collection of updates that it still needs to complete actions on. This method will be called daily by the UpdateOrchestrator.
+
+## See Also
+
+[IUpdateOrchestratorUpdateProvider](iupdateorchestratorupdateprovider.md)
+
+[IUpdateOrchestratorUpdateProvider::CancelScan](iupdateorchestratorupdateprovider-cancelscan.md)
+
+[IUpdateOrchestratorUpdateProvider::ScanAttemptFrequencyInMinutes](iupdateorchestratorupdateprovider-scanattemptfrequencyinminutes.md)
+
+[IUpdateOrchestratorUpdateProvider::ScanForPendingUpdates](iupdateorchestratorupdateprovider-scanforpendingupdates.md) 
+
+[IUpdateOrchestratorUpdateProvider::ScanSlaInMinutes](iupdateorchestratorupdateprovider-scanslainminutes.md)

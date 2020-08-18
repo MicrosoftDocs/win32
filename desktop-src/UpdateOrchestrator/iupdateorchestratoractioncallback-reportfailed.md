@@ -20,3 +20,11 @@ HRESULT ReportFailed(
 The failure code.
 
 ## Returns
+
+## See Also
+
+[IUpdateOrchestratorActionCallback](iupdateorchestratoractioncallback.md)
+
+[IUpdateOrchestratorActionCallback::ReportCompleted](iupdateorchestratoractioncallback-reportcompleted.md)
+
+[IUpdateOrchestratorActionCallback::ReportProgress](iupdateorchestratoractioncallback-reportprogress.md)

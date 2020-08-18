@@ -8,7 +8,8 @@ ms.date: 03/20/2020
 
 # IUniversalOrchestrator::HasMoratoriumPassed method
 
-> This API belongs to v1 of the Update Orchestrator API, previously known as Universal Orchestrator API.
+> [!NOTE] 
+> This API belongs to the Universal Orchestrator API.
 
 Allows clients to determine if Universal Orchestrator is operating immediately after the new device Out of Box Experience, which limits work attempts to minimize user interruption. 
 
@@ -35,9 +36,9 @@ If this method succeeds, it returns **S_OK**.  Otherwise, it returns an **HRESUL
 
 ## Requirements
 
-|   |   |
+| Requirement | Version |
 |---|---|
-| **Minimum supported client** | Windows 10 1903 |
+| Minimum supported client | Windows 10 1903 |
 |   |   |
 
 

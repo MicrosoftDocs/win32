@@ -7,7 +7,8 @@ ms.date: 03/20/2020
 
 # IUniversalOrchestrator::ScheduleWork method
 
-> This API belongs to v1 of the Update Orchestrator API, previously known as Universal Orchestrator API.
+> [!NOTE] 
+> This API belongs to the Universal Orchestrator API.
 
 Allows clients to inform Universal Orchestrator that work is pending and provide a binary that will be called by Universal Orchestrator to perform the update work at a later time.
 
@@ -46,9 +47,9 @@ If this method succeeds, it returns **S_OK**.  Otherwise, it returns an **HRESUL
 
 ## Requirements
 
-|   |   |
+| Requirement | Version |
 |---|---|
-| **Minimum supported client** | Windows 10 1903 |
+| Minimum supported client | Windows 10 1903 |
 |   |   |
 
 

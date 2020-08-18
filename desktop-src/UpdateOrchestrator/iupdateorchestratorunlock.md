@@ -12,14 +12,14 @@ Unlocks the instance for permission to access the IUpdateOrchestrator methods.
 
 |Method | Description |
 |---|---|
-|[IUpdateOrchestratorUnlock::Unlock ](iupdateorchestratorunlock-unlock.md) | Unlocks and provides access to IUpdateOrchestrator methods.  |
+|[::Unlock](iupdateorchestratorunlock-unlock.md) | Unlocks and provides access to IUpdateOrchestrator methods.  |
 
 ## Remarks
 This routine must be called on the object before access the functions in IUpdateOrchestrator are available.
 
 ## Requirements
 
-|   |   |
+| Requirement | Version |
 |---|---|
-| **Minimum supported client** | Windows 10 1903 |
+| Minimum supported client | Windows 10 1903 |
 |   |   |

@@ -17,3 +17,14 @@ HRESULT CancelScan();
 
 ## Remarks
 
+## See Also
+
+[IUpdateOrchestratorUpdateProvider](iupdateorchestratorupdateprovider.md)
+
+[IUpdateOrchestratorUpdateProvider::Deserialize](iupdateorchestratorupdateprovider-deserialize.md)
+
+[IUpdateOrchestratorUpdateProvider::ScanAttemptFrequencyInMinutes](iupdateorchestratorupdateprovider-scanattemptfrequencyinminutes.md)
+
+[IUpdateOrchestratorUpdateProvider::ScanForPendingUpdates](iupdateorchestratorupdateprovider-scanforpendingupdates.md) 
+
+[IUpdateOrchestratorUpdateProvider::ScanSlaInMinutes](iupdateorchestratorupdateprovider-scanslainminutes.md)

@@ -5,7 +5,7 @@ ms.topic: method
 ---
 
 # IUpdateOrchestratorUpdateProvider::get_ScanSlaInMinutes method
-Gets the default Scan Sla. This value is how often the provider wishes to have a successful scan.
+Gets the default Scan SLA. This value is how often the provider wishes to have a successful scan.
 
 ## Syntax
 ```cpp
@@ -21,3 +21,15 @@ IUpdateOrchestratorUpdateProvider::get_ScanSlaInMinutes(
 
 
 ## Remarks
+
+## See Also
+
+[IUpdateOrchestratorUpdateProvider](iupdateorchestratorupdateprovider.md)
+
+[IUpdateOrchestratorUpdateProvider::CancelScan](iupdateorchestratorupdateprovider-cancelscan.md)
+
+[IUpdateOrchestratorUpdateProvider::Deserialize](iupdateorchestratorupdateprovider-deserialize.md)
+
+[IUpdateOrchestratorUpdateProvider::ScanAttemptFrequencyInMinutes](iupdateorchestratorupdateprovider-scanattemptfrequencyinminutes.md)
+
+[IUpdateOrchestratorUpdateProvider::ScanForPendingUpdates](iupdateorchestratorupdateprovider-scanforpendingupdates.md) 

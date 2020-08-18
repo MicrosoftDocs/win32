@@ -20,3 +20,11 @@ HRESULT ReportProgress(
 The percent complete with the action.
 
 ## Returns
+
+## See Also
+
+[IUpdateOrchestratorActionCallback](iupdateorchestratoractioncallback.md)
+
+[IUpdateOrchestratorActionCallback::ReportCompleted](iupdateorchestratoractioncallback-reportcompleted.md)
+
+[IUpdateOrchestratorActionCallback::ReportFailed](iupdateorchestratoractioncallback-reportfailed.md)

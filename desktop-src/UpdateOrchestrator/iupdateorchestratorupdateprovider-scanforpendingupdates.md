@@ -5,7 +5,8 @@ ms.topic: method
 ---
 
 # IUpdateOrchestratorUpdateProvider::ScanForPendingUpdates method
-Scans for pending updates 
+
+Scans for pending updates.
 
 ## Syntax
 ```cpp
@@ -23,4 +24,16 @@ Returns **S_OK** if successful, a failure otherwise.
 
 ## Remarks
 
-The provider should return the collection of updates that it still needs to complete actions on. This method will be called daily by the UpdateOrchestrator.
+The provider should return the collection of updates that it still needs to complete actions on. This method will be called by the UpdateOrchestrator in a cadence that is in accordance with the SLA. 
+
+## See Also
+
+[IUpdateOrchestratorUpdateProvider](iupdateorchestratorupdateprovider.md)
+
+[IUpdateOrchestratorUpdateProvider::CancelScan](iupdateorchestratorupdateprovider-cancelscan.md)
+
+[IUpdateOrchestratorUpdateProvider::Deserialize](iupdateorchestratorupdateprovider-deserialize.md)
+
+[IUpdateOrchestratorUpdateProvider::ScanAttemptFrequencyInMinutes](iupdateorchestratorupdateprovider-scanattemptfrequencyinminutes.md)
+
+[IUpdateOrchestratorUpdateProvider::ScanSlaInMinutes](iupdateorchestratorupdateprovider-scanslainminutes.md)

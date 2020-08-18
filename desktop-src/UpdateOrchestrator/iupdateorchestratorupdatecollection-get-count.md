@@ -19,3 +19,10 @@ IUpdateOrchestratorUpdateCollection::get_Count(
 
 
 ## Returns
+
+
+## See Also
+
+[IUpdateOrchestratorUpdateCollection](iupdateorchestratorupdatecollection.md)
+
+[IUpdateOrchestratorUpdateCollection::get_Item](iupdateorchestratorupdatecollection-get-item.md)

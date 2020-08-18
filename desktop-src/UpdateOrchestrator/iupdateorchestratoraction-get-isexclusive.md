@@ -20,3 +20,15 @@ IUpdateOrchestratorAction::get_IsExclusive(
 Set to true if no two actions of this kind can be performed at the same time. 
 
 ## Returns
+
+## See Also
+
+[IUpdateOrchestratorAction](iupdateorchestratoraction.md)
+
+[IUpdateOrchestratorAction::get_ActionKind](iupdateorchestratoraction-get-actionkind.md)
+
+[IUpdateOrchestratorAction::get_IsPausable](iupdateorchestratoraction-get-ispausable.md)
+
+[IUpdateOrchestratorAction::get_Name](iupdateorchestratoraction-get-name.md)
+
+[IUpdateOrchestratorAction::get_RequiresNetwork](iupdateorchestratoraction-get-requiresnetwork.md)
