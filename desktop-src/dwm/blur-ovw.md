@@ -25,6 +25,8 @@ One of the signature Desktop Window Manager (DWM) effects is a translucent and b
 
 > [!Note]  
 > Windows Vista Home Basic edition does not support the transparent glass effect. Areas that would typically render with the transparent glass effect on other Windows editions are rendered as opaque.
+> Beginning with Windows 8, calling this function doesn't result in the blur effect, due to a style change in the way windows are rendered.
+
 
  
 
