@@ -75,6 +75,8 @@
           href: handling-duplicate-instance-names.md
         - name: "Performance Data Format"
           href: performance-data-format.md
+      - name: "Using the PerfLib Functions to Consume Counter Data"
+        href: using-the-perflib-functions-to-consume-counter-data.md
     - name: "Providing Counter Data"
       href: providing-counter-data.md
       items: 

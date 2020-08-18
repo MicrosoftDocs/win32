@@ -3,7 +3,7 @@ Description: The CTRPP tool is a pre-processor that parses and validates your co
 ms.assetid: 3939f6a1-0a94-429d-a71e-b37f045fea13
 title: CTRPP
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 08/17/2020
 topic_type: 
 - APIRef
 - kbSyntax
@@ -16,160 +16,86 @@ api_location:
 
 # CTRPP
 
-The CTRPP tool is a pre-processor that parses and validates your counters manifest. The tool also generates code that you use to provide your counter data. You should use the generated code as a starting point when developing your provider instead of trying to generate this code yourself.
+The CTRPP tool is a pre-processor that parses and validates the manifest for your V2 provider. The tool generates `.rc` resources with the strings needed by consumers of your provider, and it generates a `.h` header with code that you use to provide your counter data. You should use the generated code as a starting point when developing your provider instead of trying to generate this code yourself.
 
-``` syntax
-ctrpp -o filename -rc filename [-legacy] [-MemoryRoutines] [-NotificationCallback] 
-[-prefix prefix] [-ch filename] [-backcompat] [-summary path] [-sumPath path] manifest
+```syntax
+ctrpp -o codeFile -rc rcFile [-legacy] [-MemoryRoutines] [-NotificationCallback] [-prefix prefix] [-ch symFile] [-backcompat] inputFile
 ```
 
 ## Arguments
 
-<dl> <dt>
-
-<span id="-backcompat"></span><span id="-BACKCOMPAT"></span>**-backcompat**
-</dt> <dd>
-
-Used by kernel-mode drivers to generate code that is compatible with operating systems prior to Windows 7. Although the provider will run without failing on operating systems prior to Windows 7, the provider will not provide counter data.
-
-</dd> <dt>
-
-<span id="-ch_filename"></span><span id="-CH_FILENAME"></span>**-ch filename**
-</dt> <dd>
-
-Creates a header file that assigns symbols to the counter set names and GUIDs for each counter set in the manifest.
-
-</dd> <dt>
-
-<span id="-legacy"></span><span id="-LEGACY"></span>**-legacy**
-</dt> <dd>
-
-Generates code using the Windows Vista code templates. The tool generates the following files:
-
--   .h
--   .c
--   .rc
--   \_r.h
-
-The .h file contains the provider GUID, a counter set GUID and [**PERF\_COUNTERSET\_INFO**](/windows/desktop/api/Perflib/ns-perflib-perf_counterset_info) block for each counter set defined in the manifest, the function declarations for the initialization, cleanup, and notification (if specified) functions, and the provider handle that is used when starting and stopping the provider.
-
-The .c file contains the **PerfAutoInitialize** function, the **PerfAutoCleanup** function, and the default implementation of the notification callback function. You can include the rest of your provider implementation in this file or another file.
-
-The **PerfAutoInitialize** function calls the [**PerfStartProvider**](/windows/desktop/api/Perflib/nf-perflib-perfstartprovider) function to register the provider and the [**PerfSetCounterSetInfo**](/windows/desktop/api/Perflib/nf-perflib-perfsetcountersetinfo) function to initialize each counter set. If you specify the **-MemoryRoutines** or **-NotificationCallback** arguments, the **PerfAutoInitialize** function will call the [**PerfStartProviderEx**](/windows/desktop/api/Perflib/nf-perflib-perfstartproviderex) function instead of calling **PerfStartProvider**.
-
-The **PerfAutoCleanup** function calls [**PerfStopProvider**](/windows/desktop/api/Perflib/nf-perflib-perfstopprovider) to remove the provider's registration from the list of registered providers and frees all resources associated with the provider.
-
-Your provider calls the **PerfAutoInitialize** and **PerfAutoCleanup** functions.
-
-The .c file includes the [**notification**](/windows/desktop/api/Perflib/nc-perflib-perflibrequest) callback function only if the **callback** attribute of [**provider**](/windows/desktop/PerfCtrs/performance-counters-provider--counters--element) is set to "custom" or you use the **-NotificationCallback** argument. The generated callback includes all the callback cases. You can provide implementation for each case or remove those cases that you do not want to support.
-
-The .rc file contains the localized strings for the counter name and description strings.
-
-The \_r.h file contains string constant definitions.
-
-You can use this argument with only the **-MemoryRoutines** and **-NotificationCallback** arguments.
-
-**Windows Vista:** This argument is not supported.
-
-</dd> <dt>
-
-<span id="-MemoryRoutines"></span><span id="-memoryroutines"></span><span id="-MEMORYROUTINES"></span>**-MemoryRoutines**
-</dt> <dd>
-
-Changes the default signature of the [**CounterInitialize**](counterinitialize.md) function to include parameters for specifying the name of your [*AllocateMemory*](/windows/desktop/api/Perflib/nc-perflib-perf_mem_alloc) and [*FreeMemory*](/windows/desktop/api/Perflib/nc-perflib-perf_mem_free) callback functions.
-
-**Windows Vista:** Generates function templates for memory allocation and free routines (you provide the implementation for these routines).
-
-</dd> <dt>
-
-<span id="-NotificationCallback"></span><span id="-notificationcallback"></span><span id="-NOTIFICATIONCALLBACK"></span>**-NotificationCallback**
-</dt> <dd>
-
-Changes the default signature of the [**CounterInitialize**](counterinitialize.md) function to include the parameter for specifying the name of your [*ControlCallback*](/windows/desktop/api/Perflib/nc-perflib-perflibrequest) callback function.
-
-This argument is that same as including the **callback** attribute in the [**provider**](/windows/desktop/PerfCtrs/performance-counters-provider--counters--element) element.
-
-**Windows Vista:** Generates function templates for the notification callback (you provide the implementation for this callback).
-
-</dd> <dt>
-
-<span id="-o_filename"></span><span id="-O_FILENAME"></span>**-o** *filename*
-</dt> <dd>
-
-Specifies the name of the header file that the tool generates. If you do not specify a path, the file is generated in the current folder. You must specify this argument.
-
-**Windows Vista:** This argument is not supported.
-
-</dd> <dt>
-
-<span id="-prefix"></span><span id="-PREFIX"></span>**-prefix**
-</dt> <dd>
-
-Specifies the prefix to use for the global variables and functions defined in the generated header file.
-
-**Windows Vista:** This argument is not supported.
-
-</dd> <dt>
-
-<span id="-rc_filename"></span><span id="-RC_FILENAME"></span>**-rc** *filename*
-</dt> <dd>
-
-Specifies the name of the resource file that the tool generates. If you do not specify a path, the file is generated in the current folder. You must specify this argument.
-
-**Windows Vista:** This argument is not supported.
-
-</dd> <dt>
-
-<span id="-summary_path"></span><span id="-SUMMARY_PATH"></span>**-summary path**
-</dt> <dd>
-
-Reserved.
-
-</dd> <dt>
-
-<span id="-sumPath_path"></span><span id="-sumpath_path"></span><span id="-SUMPATH_PATH"></span>**-sumPath path**
-</dt> <dd>
-
-Reserved.
-
-</dd> <dt>
-
-<span id="manifest"></span><span id="MANIFEST"></span>*manifest*
-</dt> <dd>
-
-The manifest that defines your counters. If *manifest* does not include a full path, the tool looks in the current folder.
-
-</dd> </dl>
+|Option              |Description
+|--------------------|-----------
+|*inputFile*         |**Required:** Specifies the name of the `.man` (XML manifest) file that defines your counters.
+|**-o** *codeFile*   |**Required:** Specifies the name of the `.h` code file to be generated by CTRPP. This file will contain C/C++ inline helper functions that simplify initializing and uninitializing your provider.
+|**-rc** *rcFile*    |**Required:** Specifies the name of the `.rc` (resource file) to be generated by CTRPP. This file will contain the provider's string table.
+|**-ch** *symFile*   |Specifies the name of the optional `.h` symbol file to be generated by CTRPP. This file will contain C/C++ symbols for the names and GUIDs of each counterset in the provider.
+|**-prefix** *prefix*|Specifies the prefix to use for the variables and functions defined in the generated header file.
+|**-NotificationCallback**|Changes the default signature of the [**CounterInitialize**](counterinitialize.md) function to include parameters for specifying the name of [*ControlCallback*](/windows/desktop/api/Perflib/nc-perflib-perflibrequest), [*AllocateMemory*](/windows/desktop/api/Perflib/nc-perflib-perf_mem_alloc), and [*FreeMemory*](/windows/desktop/api/Perflib/nc-perflib-perf_mem_free) callback functions. This argument has the same effect as including the `callback` attribute in the [**provider**](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-provider--counters--element) element.
+|**-migrate** *outputFile*|Instead of generating `.h` and `.rc` files, upgrades the *inputFile* manifest to the latest version and saves it to *outputFile*. This switch cannot be used with other switches. Usage: `CTRPP -migrate NewFile.man OldFile.man`
+|**-BackCompat**     |**Deprecated:** Support for kernel-mode providers was added in Windows 7. By default, the code generated by CTRPP for kernel-mode providers will be incompatible with earlier versions of Windows (driver will fail to load due to missing `Pcw***` APIs). Set `-BackCompat` to enable compatibility with earlier versions of Windows. The driver will dynamically load the necessary APIs and the generated code will silently disable the provider if the APIs are not available.
+|**-MemoryRoutines** |**Deprecated:** When used with the `-Legacy` switch, includes templates for memory routines in the generated code. Otherwise, this argument has the same effect as the `-NotificationCallback` switch.
+|**-Legacy**         |**Deprecated:** Generates `*.h`, `*.c`, `*.rc`, and `*_r.h` files using the Windows Vista code templates (generates PerfAutoInitialize and PerfAutoCleanup instead of CounterInitialize and CounterCleanup). This switch can be used with **-MemoryRoutines** and **-NotificationCallback** but cannot be used with any other switches. Do not use the **-o** or **-rc** switches with this switch. The generated files will be named based on the name of the manifest and will be written to the directory that contained the manifest. Usage: `CTRPP -legacy OldFile.man`
 
 ## Remarks
 
-The names of the files that the tool generates are based on the name of the manifest that you pass to the CTRPP tool. For example, if the manifest name is Perf.man, the tool generates the following files for you.
+The CTRPP tool generates a `.h` code file, an `.rc` resource file, and optionally generates a `.h` symbol file.
 
--   Perf.h
--   Perf.rc
+### Using the generated resource file
 
-Note that these files include code for each provider included in the manifest.
+The CTRPP tool will generate a `.rc` resource file that contains the localizable strings needed by consumers of the provider's countersets.
 
-The .h file contains the initialization and cleanup functions that your provider calls. The initialization function is called [***prefix*CounterInitialize**](counterinitialize.md) and the cleanup function is called [***prefix*CounterCleanup**](countercleanup.md). The function names include the *prefix* string if you specify the **-prefix** argument. The functions are inline functions.
+> [!IMPORTANT]
+> The resources from this file must be included into your provider binary and the full path to the provider binary must be registered during the installation of your provider's manifest. Consumers that are unable to locate and load the resources will be unable to use your provider's countersets.
 
-The .h file also includes a counter set GUID and [**PERF\_COUNTERSET\_INFO**](/windows/desktop/api/Perflib/ns-perflib-perf_counterset_info) block for each counter set defined in the manifest and the symbolic names for the provider, counter sets, and counters (if specified). You specify the symbolic names in the manifest. You can use the symbolic names when you reference the provider, counter set, or counter. For example, when calling the [**PerfCreateInstance**](/windows/desktop/api/Perflib/nf-perflib-perfcreateinstance) function, set the *CounterSetGuid* parameter to the symbolic name.
+The string resources should be handled as follows:
 
-The .rc file contains the strings for the counter names and descriptions.
+- The developer edits the provider manifest (`.man`) file to set the `applicationIdentity` attribute of the provider to the name of a provider binary (.DLL, .SYS, or .EXE) that will contain the string resources for the provider and will be installed as part of the provider component.
+- The CTRPP tool reads the provider manifest and generates an `.rc` file.
+- The [RC (resource compiler)](https://docs.microsoft.com/windows/win32/menurc/resource-compiler) tool compiles the data from the CTRPP-generated `.rc` file to generate a `.res` file containing the binary resources. This can be done either by directly compiling the CTRPP-generated `.rc` file OR by compiling another `.rc` file that includes the CTRPP-generated `.rc` file via an `#include` directive.
+- The linker embeds the data from the RC-generated `.res` file into the provider binary.
+- During installation, the provider binary is copied onto the user's system and the provider manifest is registered using the [lodctr tool](https://docs.microsoft.com/windows-server/administration/windows-commands/lodctr). The lodctr tool converts the `applicationIdentity` attribute of the provider manifest into a full path and records the full path to the provider binary in the registry.
+  - If the provider binary is in the same directory as the manifest, use: `lodctr.exe /m:"C:\full\manifest\path\manifest.man"`. lodctr will combine the specified manifest path with the manifest's `applicationIdentity` attribute to form the full path.
+  - Otherwise, use `lodctr.exe /m:"C:\full\manifest\path\manifest.man" "c:\full\binary\path"`. lodctr will combine the specified binary path with the manifest's `applicationIdentity` attribute to form the full path.
+  - For diagnostic purposes, you can inspect the recorded full path by checking the `ApplicationIdentity` value of registry key `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Perflib\_V2Providers\{<ProviderGuid>}`.
+  - If the binary is using MUI for localization, be sure to copy the MUI file along with the binary.
+- During counterset collection, the consumer uses the recorded full path to the provider binary to locate and load the necessary strings from the provider binary's resources.
 
-You cannot specify the **-legacy** argument with the **-o**, **-rc**, **-ch**, and **-prefix** arguments; they are mutually exclusive.
+### Using the generated code file in a user-mode provider
 
-If you do not specify the **-legacy**, **-o**, **-ch**, or **-rc** arguments, the tool validates the manifest but does not generate any code.
+The CTRPP tool will generate a `.h` C/C++ code file. If the provider manifest's `providerType` attribute is set to `userMode`, the generated code file will contain the following definitions that are helpful in coding a user-mode provider:
+
+- An provider initialization function named [***prefix*CounterInitialize**](counterinitialize.md).
+- A provider cleanup function named [***prefix*CounterCleanup**](countercleanup.md).
+- A global ***provider*** variable that stores the provider handle opened by the ***prefix*CounterInitialize** function. The variable's name is the value of the `symbol` attribute of the `provider` element in the manifest. This variable should be used in calls to `PerfCreateInstance`, `PerfDeleteInstance`, and other APIs for controlling your provider's data.
+- For each counterset, a global ***counterset*GUID** variable with the counterset GUID. The variable's name is the value of the `counterSet` element's `symbol` attribute plus the suffix "GUID", e.g. `MyCounterSetGUID`. This variable should be used in calls to `PerfCreateInstance`, `PerfDeleteInstance`, and other APIs for controlling your provider's data.
+- For each counter, a ***counter*** macro with the counter's `id` value. The macro's name is the value of the `counter` element's `symbol` attribute. This macro should be used in calls to `PerfSetCounterRefValue`, `PerfSetULongLongCounterValue`, and other APIs for setting your provider's data.
+
+In the function names, ***prefix*** refers to the value of the `-prefix` command-line parameter. If the `-prefix` parameter is not used the functions will be named `CounterInitialize` and `CounterCleanup`.
+
+### Using the generated code file in a kernel-mode provider
+
+The CTRPP tool will generate a `.h` C/C++ code file. If the provider manifest's `providerType` attribute is set to `kernelMode`, the generated code file will contain the following definitions that are helpful in coding a kernel-mode provider's countersets:
+
+- A counterset initialization function named <b>*prefix*Register*Counterset*</b>. This function fills in a [RegInfo](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_registration_information) structure then invokes [PcwRegister](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwregister), putting the resulting counterset registration handle into the global ***Counterset*** variable.
+- A counterset cleanup function named <b>*prefix*Unregister*Counterset*</b>. This function invokes [PcwUnregister](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwunregister) on the counterset registration handle in the global ***Counterset*** variable.
+- An instance creation function named <b>*prefix*Create*Counterset*</b>. This function fills in an array of [PcwData](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_data) structures then invokes [PcwCreateInstance](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwcreateinstance) using the counterset registration handle in the global ***Counterset*** variable.
+- An instance cleanup function named <b>*prefix*Close*Counterset*</b>. This function invokes [PcwCloseInstance](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwcloseinstance).
+- An instance reporting function named <b>*prefix*Add*Counterset*</b> to be used from the counterset callback function. This function fills in an array of [PcwData](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_data) structures then invokes [PcwAddInstance](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwaddinstance).
+- **Windows SDK 20H1 and later:** A RegInfo initialization function named <b>*prefix*InitRegistrationInformation*Counterset*</b> for use in advanced scenarios. This function fills in a [RegInfo](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_registration_information) structure. This function can be used in cases where the generated <b>*prefix*Register*Counterset*</b> does not meet your needs, e.g. when you want to customize the values in the RegInfo structure or when you want to store the returned handle in another variable.
+
+In the function names, ***prefix*** refers to the value of the `-prefix` command-line parameter. If the `-prefix` parameter is not used the functions will have no prefix.
+
+> [!NOTE]
+> The generated <b>*prefix*Add*Counterset*</b> function is used when you have a counterset callback. The generated <b>*prefix*Create*Counterset*</b> and <b>*prefix*Close*Counterset*</b> functions are used when you do not have a counterset callback.
+
+### Using the generated symbol file
+
+If the **-ch** parameter is specified on the command line, the CTRPP tool will generate a `.h` symbol file. This file contains the C/C++ symbols for the names and GUIDs of each counterset in the provider. The symbols can be used when writing programs that are hard-coded to consume the data from this counterset using the [PerfLib V2 Consumer functions](using-the-perflib-functions-to-consume-counter-data.md).
 
 ## Requirements
 
-
-
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
-
-
-
- 
-
+|                         ||
+|-------------------------|----
+| Minimum supported client| Windows Vista \[desktop apps only\]
+| Minimum supported server| Windows Server 2008 \[desktop apps only\]
