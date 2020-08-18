@@ -84,8 +84,6 @@ The following procedure shows how to execute the WMI application. Steps 1 throug
 
     For more information, see [Enumerating WMI](enumerating-wmi.md).
 
-For more code samples that retrieve WMI data from a remote computer, see the [Check OS bitness in C++](https://Code.MSDN.Microsoft.Com/CppCheckOSBitness-a16c69e4) in the MSDN Code Gallery.
-
 The following code example shows how to get WMI data semisynchronously from a remote computer.
 
 

@@ -2267,8 +2267,6 @@ The following Scripting Center [code example](https://Gallery.TechNet.Microsoft.
 
 You can find an example script that obtains operating system and processor data from **Win32\_ComputerSystem**, [**Win32\_Processor**](win32-processor.md), and [**Win32\_OperatingSystem**](win32-operatingsystem.md) in the [**Win32\_Processor**](win32-processor.md) topic examples.
 
-For an example application in C++ that uses [**Win32\_OperatingSystem**](win32-operatingsystem.md), see the [Detect the process running platform in C++](https://Code.MSDN.Microsoft.Com/CppPlatformDetector-1f8160e9) sample on the MSDN Code Gallery.
-
 The following VBScript sample describes how to retrieve the domain name of the local machine from instances of **Win32\_ComputerSystem**.
 
 

@@ -822,7 +822,6 @@ while (!done)
 
 
 
-For the complete helper source and examples, refer to Direc3D9Ex and DXGI Interop Helper and Sample on MSDN Code Gallery <https://code.msdn.microsoft.com/D3D9ExDXGISharedSurf>.  
 A more complex solution could check the return value from enqueue and from flush to determine if flushing is necessary.  
 </dl>
 

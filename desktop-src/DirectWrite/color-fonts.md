@@ -216,17 +216,11 @@ args.DrawingSession.DrawText(
     m_color, 
     m_textFormat 
     ); 
-    
 ```
-
-
 
 ## Related topics
 
-[DirectWrite color glyph sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteColorGlyph)
-
-
-[DirectWrite Color Font Fallback sample](https://code.msdn.microsoft.com/windowsapps/DirectWrite-Color-Font-ef762d88)
+[DirectWrite colored glyph sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteColorGlyph)
 
 
 [**IDWriteFontFace4 interface**](https://msdn.microsoft.com/library/Mt725320(v=VS.85).aspx)
