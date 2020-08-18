@@ -46,7 +46,7 @@ This section contains information about the Desktop Window Manager (DWM) functio
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmenableblurbehindwindow"><strong>DwmEnableBlurBehindWindow</strong></a><br/></td>
 <td>Enables the blur effect on a specified window.<br/></td>
-<b>Note</> Beginning with Windows 8, calling this function doesn't result in the blur effect, due to a style change in the way windows are rendered.
+<b>Note</b> Beginning with Windows 8, calling this function doesn't result in the blur effect, due to a style change in the way windows are rendered.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmenablecomposition"><strong>DwmEnableComposition</strong></a><br/></td>
