@@ -51,7 +51,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
                     // Display the file name to the user.
                     if (SUCCEEDED(hr))
                     {
-                        MessageBox(NULL, pszFilePath, L"File Path", MB_OK);
+                        MessageBoxW(NULL, pszFilePath, L"File Path", MB_OK);
                         CoTaskMemFree(pszFilePath);
                     }
                     pItem->Release();
