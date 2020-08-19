@@ -29,7 +29,7 @@ Represents a 32-bit signed integer value.
 | MAPI Type    | LONG                                                                      |
 | ADS Type     | ADSTYPE\_INTEGER                                                          |
 | Variant Type | VT\_I4                                                                    |
-| SDS Type     | [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN) |
+| SDS Type     | [System.Int32](/dotnet/api/system.int32) |
 
 
 
@@ -37,13 +37,9 @@ Represents a 32-bit signed integer value.
 
 <dl> <dt>
 
-[System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)
+[System.Int32](/dotnet/api/system.int32)
 </dt> </dl>
 
  
 
  
-
-
-
-
