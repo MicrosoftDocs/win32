@@ -56,11 +56,11 @@ Pointer to the [**RAS\_SERVER\_0**](ras-server-0-str.md) structure that receives
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is an error code. Possible error codes include those returned by [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) for the [**CallNamedPipe**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-callnamedpipea) function. There is no extended error information for this function; do not call **GetLastError**.
+If the function fails, the return value is an error code. Possible error codes include those returned by [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) for the [**CallNamedPipe**](/windows/desktop/api/winbase/nf-winbase-callnamedpipea) function. There is no extended error information for this function; do not call **GetLastError**.
 
 ## Remarks
 
-To enumerate all RAS servers in a domain, call the [**NetServerEnum**](https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserverenum) function and specify SV\_TYPE\_DIALIN for the *servertype* parameter.
+To enumerate all RAS servers in a domain, call the [**NetServerEnum**](/windows/desktop/api/lmserver/nf-lmserver-netserverenum) function and specify SV\_TYPE\_DIALIN for the *servertype* parameter.
 
 ## Requirements
 
@@ -86,17 +86,11 @@ To enumerate all RAS servers in a domain, call the [**NetServerEnum**](https://d
 [RAS Server Administration Functions](ras-server-administration-functions.md)
 </dt> <dt>
 
-[**NetServerEnum**](https://msdn.microsoft.com/library/Aa370623(v=VS.85).aspx)
+[**NetServerEnum**](/windows/win32/api/lmserver/nf-lmserver-netserverenum)
 </dt> <dt>
 
 [**RAS\_SERVER\_0**](ras-server-0-str.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

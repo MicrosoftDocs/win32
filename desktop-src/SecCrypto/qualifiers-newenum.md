@@ -17,9 +17,9 @@ api_location:
 
 # Qualifiers.\_NewEnum property
 
-\[The **\_NewEnum** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](https://msdn.microsoft.com/library/x5x51x86(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to process qualifiers that are part of the policy information in the Certificate Policies extension.\]
+\[The **\_NewEnum** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to process qualifiers that are part of the policy information in the Certificate Policies extension.\]
 
-The **\_NewEnum** property retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
+The **\_NewEnum** property retrieves an [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).
 
 ## Syntax
 
@@ -32,7 +32,7 @@ Qualifiers._NewEnum As IUnknown
 
 ## Property value
 
-An [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection.
+An [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) interface on an object that can be used to enumerate the collection.
 
 ## Remarks
 
@@ -59,7 +59,3 @@ This property is automatically used internally when you use the `For Each In` co
  
 
  
-
-
-
-

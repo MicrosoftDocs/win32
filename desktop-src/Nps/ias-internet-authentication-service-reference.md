@@ -18,14 +18,10 @@ ms.date: 05/31/2018
 
 The following sections describe the NPS Extensions API programming elements.
 
--   [NPS Extensions Enumerations](https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-enumerations)
--   [NPS Extensions Functions](https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-functions)
--   [NPS Extensions Structures](https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-structures)
+-   [NPS Extensions Enumerations](/windows/desktop/Nps/ias-internet-authentication-service-enumerations)
+-   [NPS Extensions Functions](/windows/desktop/Nps/ias-internet-authentication-service-functions)
+-   [NPS Extensions Structures](/windows/desktop/Nps/ias-internet-authentication-service-structures)
 
  
 
  
-
-
-
-

@@ -10,12 +10,12 @@ ms.date: 05/31/2018
 
 The following example works in conjunction with the program in [Example C Program: Sending and Receiving a Signed and Encrypted Message](example-c-program-sending-and-receiving-a-signed-and-encrypted-message.md). It reads the signed and encrypted message, then decrypts and verifies the message.
 
-To decrypt and verify the message, the [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) of the message's intended receiver must be available. The certificate of the signer is included in the message [*BLOB*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx) read in from the file.
+To decrypt and verify the message, the [*private key*](../secgloss/p-gly.md) of the message's intended receiver must be available. The certificate of the signer is included in the message [*BLOB*](../secgloss/b-gly.md) read in from the file.
 
 This example illustrates the following tasks:
 
 -   Opening and closing system certificate stores.
--   Reading a [**CERT\_NAME\_BLOB**](https://msdn.microsoft.com/library/Aa381414(v=VS.85).aspx) from a file.
+-   Reading a [**CERT\_NAME\_BLOB**](/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)) from a file.
 -   Initializing data structures needed to decrypt and verify a message.
 -   Calling a CryptoAPI function to find the required size of a buffer, allocating the buffer of the required size, and calling the CryptoAPI function again to fill the buffer. For more information, see [Retrieving Data of Unknown Length](retrieving-data-of-unknown-length.md).
 
@@ -251,6 +251,3 @@ void main()
  
 
  
-
-
-

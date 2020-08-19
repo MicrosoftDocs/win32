@@ -170,9 +170,9 @@ The number of pages that have printed. This value may be zero if the print job d
 **Submitted**
 </dt> <dd>
 
-A [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that specifies the time that this document was spooled.
+A [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that specifies the time that this document was spooled.
 
-This time value is in Universal Time Coordinate (UTC) format. You should convert it to a local time value before displaying it. You can use the [**FileTimeToLocalFileTime**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-filetimetolocalfiletime) function to perform the conversion.
+This time value is in Universal Time Coordinate (UTC) format. You should convert it to a local time value before displaying it. You can use the [**FileTimeToLocalFileTime**](/windows/desktop/api/fileapi/nf-fileapi-filetimetolocalfiletime) function to perform the conversion.
 
 </dd> </dl>
 
@@ -213,9 +213,4 @@ Port monitors that do not support TrueEndOfJob will set the job as JOB\_STATUS\_
 </dt> </dl>
 
  
-
- 
-
-
-
 

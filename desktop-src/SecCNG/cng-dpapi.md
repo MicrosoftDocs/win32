@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # CNG DPAPI
 
-Microsoft introduced the data protection application programming interface (DPAPI) in Windows 2000. The API consists of two functions, [**CryptProtectData**](https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata). DPAPI is part of CryptoAPI and was intended for developers who knew very little about using cryptography. The two functions could be used to encrypt and decrypt static data on a single computer.
+Microsoft introduced the data protection application programming interface (DPAPI) in Windows 2000. The API consists of two functions, [**CryptProtectData**](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata). DPAPI is part of CryptoAPI and was intended for developers who knew very little about using cryptography. The two functions could be used to encrypt and decrypt static data on a single computer.
 
 Cloud computing, however, often requires that content encrypted on one computer be decrypted on another. Therefore, beginning with Windows 8, Microsoft extended the idea of using a relatively straightforward API to encompass cloud scenarios. This new API, called DPAPI-NG, enables you to securely share secrets (keys, passwords, key material) and messages by protecting them to a set of principals that can be used to unprotect them on different computers after proper authentication and authorization. The following principals are currently supported:
 
@@ -37,6 +37,3 @@ DPAPI-NG is built on top of Cryptography Next Generation (CNG) and includes the 
  
 
  
-
-
-

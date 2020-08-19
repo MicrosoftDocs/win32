@@ -17,7 +17,7 @@ api_location:
 
 # IByteBuffer::Write method
 
-\[The **Write** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
+\[The **Write** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
 
 The **Write** method writes a specified number from bytes into the stream object starting at the current seek pointer.
 
@@ -113,9 +113,4 @@ if (FAILED(hr))
 
 
  
-
- 
-
-
-
 

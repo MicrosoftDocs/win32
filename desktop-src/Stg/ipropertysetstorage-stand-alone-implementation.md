@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # IPropertySetStorage-Stand-alone Implementation
 
-The system-provided, stand-alone implementation of [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) includes an implementation of both [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) and **IPropertySetStorage**.[**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) is the interface that reads and writes properties in a property set storage. [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) is the interface that creates and opens property sets in a storage. The [**IEnumSTATPROPSTG**](https://msdn.microsoft.com/library/Aa379210(v=VS.85).aspx) and [**IEnumSTATPROPSETSTG**](https://msdn.microsoft.com/library/Aa379184(v=VS.85).aspx) interfaces are also provided in the stand-alone implementation.
+The system-provided, stand-alone implementation of [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) includes an implementation of both [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) and **IPropertySetStorage**.[**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) is the interface that reads and writes properties in a property set storage. [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) is the interface that creates and opens property sets in a storage. The [**IEnumSTATPROPSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropstg) and [**IEnumSTATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) interfaces are also provided in the stand-alone implementation.
 
 To use the stand-alone implementation of [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage), first obtain a pointer to the system-provided, stand-alone implementation and associate the system-provided implementation with your storage object. To get a pointer to the stand-alone implementation of **IPropertySetStorage**, call the [**StgCreatePropSetStg**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatepropsetstg) function and provide the *pStorage* parameter specifying the storage object that will contain the property set. This function provides a pointer to the new **IPropertySetStorage** interface for the specified storage object.
 
@@ -21,7 +21,7 @@ For more information about the compound file implementation of this interface, s
 
 ## When to Use
 
-Call the methods of [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) to create, open, and delete property sets in any structured storage. There is also a method that supplies a pointer to the [**IEnumSTATPROPSETSTG**](https://msdn.microsoft.com/library/Aa379184(v=VS.85).aspx) enumerator that can be used to enumerate the property sets in the storage.
+Call the methods of [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) to create, open, and delete property sets in any structured storage. There is also a method that supplies a pointer to the [**IEnumSTATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) enumerator that can be used to enumerate the property sets in the storage.
 
 The stand-alone implementation also provides the [**StgCreatePropStg**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatepropstg) and [**StgOpenPropStg**](/windows/desktop/api/coml2api/nf-coml2api-stgopenpropstg) helper functions, in addition to the [**Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) and [**Open**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-open) methods, to create and open property sets. These two functions add support for the PROPSETFLAG\_UNBUFFERED value so you can write changes directly to the property set instead of buffering them in a cache. For more information, see [**PROPSETFLAG Constants**](propsetflag-constants.md).
 
@@ -59,7 +59,7 @@ Deletes a property set in this property set storage.
 <span id="IPropertySetStorage__Enum"></span><span id="ipropertysetstorage__enum"></span><span id="IPROPERTYSETSTORAGE__ENUM"></span>[**IPropertySetStorage::Enum**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-enum)
 </dt> <dd>
 
-Creates an object that can be used to enumerate [**STATPROPSETSTG**](https://msdn.microsoft.com/library/Aa379184(v=VS.85).aspx) structures. Each **STATPROPSETSTG** structure provides data about a single property set.
+Creates an object that can be used to enumerate [**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) structures. Each **STATPROPSETSTG** structure provides data about a single property set.
 
 > [!Note]  
 > The DocumentSummaryInformation and UserDefined property set is unique in that it may have two property set sections in a single underlying stream. For more information, see [The DocumentSummaryInformation and UserDefined Property Sets](the-documentsummaryinformation-and-userdefined-property-sets.md) .
@@ -87,7 +87,7 @@ Creates an object that can be used to enumerate [**STATPROPSETSTG**](https://msd
 [**PROPSETFLAG Constants**](propsetflag-constants.md)
 </dt> <dt>
 
-[**STATPROPSETSTG**](https://msdn.microsoft.com/library/Aa379184(v=VS.85).aspx)
+[**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg)
 </dt> <dt>
 
 [**StgCreatePropSetStg**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatepropsetstg)
@@ -105,7 +105,3 @@ Creates an object that can be used to enumerate [**STATPROPSETSTG**](https://msd
  
 
  
-
-
-
-

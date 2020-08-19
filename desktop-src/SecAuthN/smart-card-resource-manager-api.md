@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Smart Card Resource Manager API
 
-The [*resource manager API*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx) provides the following functionality.
+The [*resource manager API*](../secgloss/r-gly.md) provides the following functionality.
 
 
 
@@ -19,7 +19,7 @@ The [*resource manager API*](https://msdn.microsoft.com/library/ms721604(v=VS.85
 | [Resource Manager Context Functions](resource-manager-context-functions.md)<br/>             | Manage the context of the resource manager's database operations.<br/>                                                                                                                                                                                                |
 | [Resource Manager Support Function](resource-manager-support-function.md)<br/>               | Release allocated memory.<br/>                                                                                                                                                                                                                                        |
 | [Smart Card Tracking Functions](smart-card-tracking-functions.md)<br/>                       | Track smart cards within readers.<br/>                                                                                                                                                                                                                                |
-| [Smart Card and Reader Access Functions](smart-card-and-reader-access-functions.md)<br/>     | Connect to and communicate with a smart card, including transferring data using [*T=0*](https://msdn.microsoft.com/library/ms721627(v=VS.85).aspx), [*T=1*](https://msdn.microsoft.com/library/ms721627(v=VS.85).aspx), and raw protocols.<br/> |
+| [Smart Card and Reader Access Functions](smart-card-and-reader-access-functions.md)<br/>     | Connect to and communicate with a smart card, including transferring data using [*T=0*](../secgloss/t-gly.md), [*T=1*](../secgloss/t-gly.md), and raw protocols.<br/> |
 | [Direct Card Access Functions](direct-card-access-functions.md)<br/>                         | Communicate with cards that may not conform to the ISO 7816 specifications.<br/>                                                                                                                                                                                      |
 
 
@@ -29,7 +29,3 @@ The [*resource manager API*](https://msdn.microsoft.com/library/ms721604(v=VS.85
  
 
  
-
-
-
-

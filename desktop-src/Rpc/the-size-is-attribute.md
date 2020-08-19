@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # The \[size\_is\] Attribute
 
-The \[ [size\_is](https://docs.microsoft.com/windows/desktop/Midl/size-is)\] attribute is associated with an integer constant, expression, or variable that specifies the allocation size of the array. Consider a character array whose length is determined by user input:
+The \[ [size\_is](/windows/desktop/Midl/size-is)\] attribute is associated with an integer constant, expression, or variable that specifies the allocation size of the array. Consider a character array whose length is determined by user input:
 
 ``` syntax
 /* IDL file */
@@ -30,9 +30,9 @@ interface arraytest
 
  
 
-The server stub must allocate memory on the server that corresponds to the memory on the client for that parameter. The variable that specifies the size must always be at least an \[ [in](https://docs.microsoft.com/windows/desktop/Midl/in)\] parameter. The **\[in\]** directional attribute is required so that the size value is defined on entry to the server stub. This size value provides information that the server stub requires to allocate the memory.
+The server stub must allocate memory on the server that corresponds to the memory on the client for that parameter. The variable that specifies the size must always be at least an \[ [in](/windows/desktop/Midl/in)\] parameter. The **\[in\]** directional attribute is required so that the size value is defined on entry to the server stub. This size value provides information that the server stub requires to allocate the memory.
 
-The size parameter can also be \[in, [out](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\]. This is useful if, for instance, the array the client sends is not large enough for the data that the server needs to store in it. You can use an **\[in, out\]** size parameter to send the required size back to the client program.
+The size parameter can also be \[in, [out](/windows/desktop/Midl/out-idl)\]. This is useful if, for instance, the array the client sends is not large enough for the data that the server needs to store in it. You can use an **\[in, out\]** size parameter to send the required size back to the client program.
 
 ## Related topics
 
@@ -44,7 +44,3 @@ The size parameter can also be \[in, [out](https://docs.microsoft.com/windows/de
  
 
  
-
-
-
-

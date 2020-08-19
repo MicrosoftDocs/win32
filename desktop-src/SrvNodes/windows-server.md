@@ -34,9 +34,9 @@ The following table describes the specialized versions of Windows Server.
 
 | SKU                                                                                                                   | Description                                                                                                                                                                                       |
 |-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Windows Server Essentials 2012 and 2012 R2](https://msdn.microsoft.com/library/Gg513877(v=MSDN.10).aspx)<br/>                         | Continuation of the Small Business Server line, and focuses on a tight integration with the unified Management Console. Based off of Windows Server 2012 and Windows Server 2012 R2.<br/>   |
-| [Windows Essential Business Server 2008](https://msdn.microsoft.com/library/Cc540266(v=WS.10).aspx)<br/>                             | Designed for medium-sized businesses, for a maximum of 300 users, and focused on integration with the Management Console. Based off of Windows Server 2008.<br/>                            |
-| [Windows Small Business Server](https://msdn.microsoft.com/library/Cc721712(v=WS.10).aspx)<br/>                                      | Designed to be an integrated server suite for small-to-medium-sized businesses with no more than 75 users. Based off of Windows Server operating systems up to Windows Server 2008 R2.<br/> |
+| [Windows Server Essentials 2012 and 2012 R2](/previous-versions/windows/server-essentials/gg513877(v=msdn.10))<br/>                         | Continuation of the Small Business Server line, and focuses on a tight integration with the unified Management Console. Based off of Windows Server 2012 and Windows Server 2012 R2.<br/>   |
+| [Windows Essential Business Server 2008](/previous-versions/windows/it-pro/windows-server-essentials-sbs/cc514417(v=msdn.10))<br/>                             | Designed for medium-sized businesses, for a maximum of 300 users, and focused on integration with the Management Console. Based off of Windows Server 2008.<br/>                            |
+| [Windows Small Business Server](/previous-versions/windows/sbs-2008-sdk/cc721712(v=ws.10))<br/>                                      | Designed to be an integrated server suite for small-to-medium-sized businesses with no more than 75 users. Based off of Windows Server operating systems up to Windows Server 2008 R2.<br/> |
 | [Windows Home Server and Windows Home Server 2011](https://msdn.microsoft.com/library/dn689011.aspx)<br/> | Designed for a home with multiple networked PCs, and emphasized file sharing, remote access, and automated backups. Based off of Windows Server 2003 and Windows Server 2008 R2.<br/>       |
 
 
@@ -50,13 +50,8 @@ The following table describes the specialized versions of Windows Server.
 [Windows Server Blog](https://blogs.technet.com/b/windowsserver/)
 </dt> <dt>
 
-[Windows Server on TechNet](https://technet.microsoft.com/windowsserver)
+[Windows Server on TechNet](/windows/deployment/deploy-whats-new)
 </dt> </dl>
 
  
-
- 
-
-
-
 

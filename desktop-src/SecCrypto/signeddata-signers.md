@@ -17,7 +17,7 @@ api_location:
 
 # SignedData.Signers property
 
-\[The **Signers** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](https://msdn.microsoft.com/library/kz82bs5e(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
+\[The **Signers** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](/dotnet/api/system.security.cryptography.pkcs.signedcms?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
 
 The **Signers** property retrieves the signature creators of the data.
 
@@ -55,7 +55,3 @@ The [**Signers**](signers.md) collection that represents the signature creators 
  
 
  
-
-
-
-

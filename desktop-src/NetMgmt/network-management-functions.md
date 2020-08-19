@@ -154,9 +154,9 @@ The network management functions can be grouped as follows.
 
 | Function                                | Description                                                          |
 |-----------------------------------------|----------------------------------------------------------------------|
-| [**NetFileClose**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfileclose)     | Forces a resource to close.                                          |
-| [**NetFileEnum**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfileenum)       | Returns information about open files on a server.                    |
-| [**NetFileGetInfo**](https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfilegetinfo) | Returns information about a particular opening of a server resource. |
+| [**NetFileClose**](/windows/desktop/api/lmshare/nf-lmshare-netfileclose)     | Forces a resource to close.                                          |
+| [**NetFileEnum**](/windows/desktop/api/lmshare/nf-lmshare-netfileenum)       | Returns information about open files on a server.                    |
+| [**NetFileGetInfo**](/windows/desktop/api/lmshare/nf-lmshare-netfilegetinfo) | Returns information about a particular opening of a server resource. |
 
 
 
@@ -305,7 +305,7 @@ The network management functions can be grouped as follows.
 ## Obsolete Functions
 
 -   [**NetAccessAdd**](/windows/desktop/api/lmaccess/nf-lmaccess-netaccessadd)
--   [**NetAccessCheck**](https://msdn.microsoft.com/library/Aa370291(v=VS.85).aspx)
+-   [**NetAccessCheck**](/previous-versions/windows/desktop/legacy/aa370291(v=vs.85))
 -   [**NetAccessDel**](/windows/desktop/api/lmaccess/nf-lmaccess-netaccessdel)
 -   [**NetAccessEnum**](/windows/desktop/api/lmaccess/nf-lmaccess-netaccessenum)
 -   [**NetAccessGetInfo**](/windows/desktop/api/lmaccess/nf-lmaccess-netaccessgetinfo)
@@ -333,13 +333,9 @@ The network management functions can be grouped as follows.
 
 <dl> <dt>
 
-[Windows Networking Functions](https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions)
+[Windows Networking Functions](/windows/desktop/WNet/windows-networking-functions)
 </dt> </dl>
 
  
 
  
-
-
-
-

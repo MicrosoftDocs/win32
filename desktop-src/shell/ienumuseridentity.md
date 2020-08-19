@@ -23,7 +23,7 @@ Provides enumeration of all user identities present on the system.
 
 ## Members
 
-The **IEnumUserIdentity** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IEnumUserIdentity** also has these types of members:
+The **IEnumUserIdentity** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IEnumUserIdentity** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -75,7 +75,3 @@ To retrieve information about user identities present on the system, you can use
  
 
  
-
-
-
-

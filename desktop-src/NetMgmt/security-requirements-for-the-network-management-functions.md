@@ -17,14 +17,10 @@ For more information, and a list of affected functions, see the following topics
 -   [Requirements for Network Management functions on Active Directory domain controllers](requirements-for-network-management-functions-on-active-directory-domain-controllers.md)
 -   [Requirements for Network Management functions on servers and workstations](requirements-for-network-management-functions-on-servers-and-workstations.md)
 
-For more information about controlling access to securable objects, see [Access Control](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control), [Privileges](https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges), and [Securable Objects](https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects).
+For more information about controlling access to securable objects, see [Access Control](/windows/desktop/SecAuthZ/access-control), [Privileges](/windows/desktop/SecAuthZ/privileges), and [Securable Objects](/windows/desktop/SecAuthZ/securable-objects).
 
-For more information about specific security descriptors that are used during access checks, see the individual function reference page. For more information about calling functions that require administrator privileges, see [Running with Special Privileges](https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges).
-
- 
+For more information about specific security descriptors that are used during access checks, see the individual function reference page. For more information about calling functions that require administrator privileges, see [Running with Special Privileges](/windows/desktop/SecBP/running-with-special-privileges).
 
  
 
-
-
-
+ 

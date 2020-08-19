@@ -49,7 +49,7 @@ IShellDispatch2.ShowBrowserBar( _
 *sCLSID* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that contains the string form of the CLSID of the browser bar to be displayed. The object must be registered as an Explorer Bar object with a CATID\_InfoBand component category. For further information, see [Creating Custom Explorer Bars, Tool Bands, and Desk Bands](band-objects.md).
 
@@ -80,7 +80,7 @@ Returns **true** if successful; otherwise, **false**.
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.ShowBrowserBar**](https://msdn.microsoft.com/library/Gg537746(v=VS.85).aspx) method.
+This method is implemented and accessed through the [**Shell.ShowBrowserBar**](./shell-showbrowserbar.md) method.
 
 You can display one of the standard Explorer Bars by setting the *sCLSID* parameter to the CLSID of that Explorer Bar. The standard Explorer Bars and their CLSID strings are as follows:
 
@@ -157,7 +157,3 @@ VBScript:
  
 
  
-
-
-
-

@@ -26,13 +26,9 @@ In addition to connection-oriented protocols, Microsoft RPC supports datagram (c
 -   Because it is not necessary to establish and maintain a connection, the datagram RPC protocol requires less resource overhead.
 -   Datagrams enable faster binding.
 -   As with connection-oriented RPC, datagram RPC calls are by default *nonidempotent*. This means the call is guaranteed not to be executed more than once. However, a function can be marked as idempotent in the IDL file telling RPC that it is harmless to execute the function more than once in response to a single, client request. This allows the run time to maintain less state on the server. Note that an idempotent call would be re-executed only in rare circumstances on an unstable network.
--   Datagram RPC supports the [broadcast](https://docs.microsoft.com/windows/desktop/Midl/broadcast) IDL attribute. Broadcast enables a client to issue messages to multiple servers at the same time. This lets the client locate one of several available servers on the network, or control multiple servers simultaneously. Note that the datagram broadcast is valid only within the local link, and usually does not cross routers. Broadcast calls are implicitly idempotent. If the call contains \[**out**\] parameters, only the first server response is returned. Once a server responds, all future RPCs over that binding handle will be sent to that server only, including calls with the broadcast attribute. To send another broadcast, create a new binding handle or call [**RpcBindingReset**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingreset) on the existing handle.
--   Datagram RPC supports the [maybe](https://docs.microsoft.com/windows/desktop/Midl/maybe) IDL attribute. This lets the client send a call to the server without waiting for a response or confirmation. The call cannot contain \[**out**\] parameters. Calls using the **\[maybe\]** calls are implicitly idempotent.
+-   Datagram RPC supports the [broadcast](/windows/desktop/Midl/broadcast) IDL attribute. Broadcast enables a client to issue messages to multiple servers at the same time. This lets the client locate one of several available servers on the network, or control multiple servers simultaneously. Note that the datagram broadcast is valid only within the local link, and usually does not cross routers. Broadcast calls are implicitly idempotent. If the call contains \[**out**\] parameters, only the first server response is returned. Once a server responds, all future RPCs over that binding handle will be sent to that server only, including calls with the broadcast attribute. To send another broadcast, create a new binding handle or call [**RpcBindingReset**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingreset) on the existing handle.
+-   Datagram RPC supports the [maybe](/windows/desktop/Midl/maybe) IDL attribute. This lets the client send a call to the server without waiting for a response or confirmation. The call cannot contain \[**out**\] parameters. Calls using the **\[maybe\]** calls are implicitly idempotent.
 
  
 
  
-
-
-
-

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The GDI Print API provides applications with a device-independent printing interface. Use this interface if the application uses GDI to render text and graphics.
 
-If you write applications for Windows Vista or later versions of Windows, consider using the [XPS Document API](https://msdn.microsoft.com/library/Dd316976(v=VS.85).aspx) and the [XPS Print API](xps-printing.md) to use the higher-performance graphics interfaces that are supported by XPSDrv print drivers.
+If you write applications for Windows Vista or later versions of Windows, consider using the [XPS Document API](/previous-versions/windows/desktop/dd316976(v=vs.85)) and the [XPS Print API](xps-printing.md) to use the higher-performance graphics interfaces that are supported by XPSDrv print drivers.
 
 This section provides information about the following topics.
 
@@ -22,7 +22,7 @@ This section provides information about the following topics.
 | [Using the GDI Print API](using-the-printing-functions.md)<br/>                            | Information about using the GDI Print API in an application.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | [GDI Print API Reference](gdi-print-api-reference.md)<br/>                                 | Detailed descriptions of the functions, structures, and other elements of the GDI Print API.<br/>                                                                                                                                                                                                                                                                                                                                                                                                               |
 | [Microsoft XPS Document Converter (MXDC)](microsoft-xps-document-converter--mxdc-.md)<br/> | The [Microsoft XPS Document Converter (MXDC)](microsoft-xps-document-converter--mxdc-.md) is a component that enables applications to use the GDI Print API with printers that have an XPSDrv Print Driver.<br/>                                                                                                                                                                                                                                                                                               |
-| [Microsoft XPS Document Writer (MXDW)](microsoft-xps-document-writer.md)<br/>              | The [Microsoft XPS Document Writer (MXDW)](microsoft-xps-document-writer.md) provides applications with "save as XPS" or "export to XPS" functionality. Applications that do not natively create XPS document content can use the MXDW to create XPS document files without using the [XPS Document API](https://msdn.microsoft.com/library/Dd316976(v=VS.85).aspx). The XPS Document API, however, provides an application with the ability to use the higher-performance graphics interfaces that are supported by XPSDrv print drivers.<br/> |
+| [Microsoft XPS Document Writer (MXDW)](microsoft-xps-document-writer.md)<br/>              | The [Microsoft XPS Document Writer (MXDW)](microsoft-xps-document-writer.md) provides applications with "save as XPS" or "export to XPS" functionality. Applications that do not natively create XPS document content can use the MXDW to create XPS document files without using the [XPS Document API](/previous-versions/windows/desktop/dd316976(v=vs.85)). The XPS Document API, however, provides an application with the ability to use the higher-performance graphics interfaces that are supported by XPSDrv print drivers.<br/> |
 
 
 
@@ -39,7 +39,7 @@ The following diagram shows the relationship of the GDI Print API to the other p
 [**AddJob**](addjob.md)
 </dt> <dt>
 
-[XPS Document API](https://msdn.microsoft.com/library/Dd316976(v=VS.85).aspx)
+[XPS Document API](/previous-versions/windows/desktop/dd316976(v=vs.85))
 </dt> <dt>
 
 [XPS Print API](xps-printing.md)
@@ -52,9 +52,4 @@ The following diagram shows the relationship of the GDI Print API to the other p
 </dt> </dl>
 
  
-
- 
-
-
-
 

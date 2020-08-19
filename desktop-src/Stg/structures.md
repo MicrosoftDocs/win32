@@ -12,12 +12,12 @@ ms.date: 05/31/2018
 
 Structures are primarily collections of data elements or members that facilitate an organizational scheme for interpreting data or performing operations on it. The Structured Storage structures are described in the following sections:
 
--   [**PROPSPEC**](https://msdn.microsoft.com/library/Aa380070(v=VS.85).aspx)
--   [**PROPVARIANT**](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx)
+-   [**PROPSPEC**](/windows/win32/api/propidlbase/ns-propidlbase-propspec)
+-   [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant)
 -   [**RemSNB**](/windows/win32/api/objidl/ns-objidl-remsnb)
 -   [**SNB**](snb.md)
--   [**STATPROPSETSTG**](https://msdn.microsoft.com/library/Aa379184(v=VS.85).aspx)
--   [**STATPROPSTG**](https://msdn.microsoft.com/library/Aa379210(v=VS.85).aspx)
+-   [**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg)
+-   [**STATPROPSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropstg)
 -   [**STATSTG**](/windows/win32/api/objidl/ns-objidl-statstg)
 -   [**STGOPTIONS**](/windows/win32/api/coml2api/ns-coml2api-stgoptions)
 -   [**StorageLayout**](/windows/win32/api/objidl/ns-objidl-storagelayout)
@@ -25,7 +25,3 @@ Structures are primarily collections of data elements or members that facilitate
  
 
  
-
-
-
-

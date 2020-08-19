@@ -66,7 +66,7 @@ The minus sign (-101) in the .dll resource in the DisplayName entry exists for l
 
 The AppID value gives a reference to the AppID of the application associated with the file name extension (stored under **HKEY\_CLASSES\_ROOT**\\**APPID**. The value used here—{6d2b5079-2f0b-48dd-ab7f-97cec514d30b}—is the ID of the Prevhost.exe surrogate host. 32-bit preview handlers should use **AppID** {534A1E02-D58F-44f0-B58B-36CBED287C7C} when installed on 64-bit operating systems.
 
-The entries under the **InprocServer32** subkey include a reference back to the file name extension's ProgID subkey as well as an entry for a [VersionIndependentProgID](https://msdn.microsoft.com/library/Dd542717(v=VS.85).aspx).
+The entries under the **InprocServer32** subkey include a reference back to the file name extension's ProgID subkey as well as an entry for a [VersionIndependentProgID](../com/versionindependentprogid.md).
 
 ### Step 3:
 
@@ -104,6 +104,3 @@ HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER
  
 
  
-
-
-

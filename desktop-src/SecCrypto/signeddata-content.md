@@ -17,7 +17,7 @@ api_location:
 
 # SignedData.Content property
 
-\[The **Content** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](https://msdn.microsoft.com/library/kz82bs5e(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
+\[The **Content** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](/dotnet/api/system.security.cryptography.pkcs.signedcms?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
 
 The **Content** property sets or retrieves the data to be signed. This is the default property.
 
@@ -36,7 +36,7 @@ The data to be signed.
 
 ## Remarks
 
-This property must be initialized before the [**Sign**](signeddata-sign.md) method is called. When the value of this property is reset, directly or indirectly, the whole [*state*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) of the object is reset, and any signature that was associated with the object before the property was changed is lost.
+This property must be initialized before the [**Sign**](signeddata-sign.md) method is called. When the value of this property is reset, directly or indirectly, the whole [*state*](../secgloss/s-gly.md) of the object is reset, and any signature that was associated with the object before the property was changed is lost.
 
 ## Requirements
 
@@ -59,7 +59,3 @@ This property must be initialized before the [**Sign**](signeddata-sign.md) meth
  
 
  
-
-
-
-

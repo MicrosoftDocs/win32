@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Avoiding Buffer Overruns
 
-A buffer overrun is one of the most common sources of security risk. A buffer overrun is essentially caused by treating unchecked, external input as trustworthy data. The act of copying this data, using operations such as [**CopyMemory**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366535(v=vs.85)), **strcat**, **strcpy**, or **wcscpy**, can create unanticipated results, which allows for system corruption. In the best of cases, your application will abort with a core dump, segmentation fault, or access violation. In the worst of cases, an attacker can exploit the buffer overrun by introducing and executing other malicious code in your process. Copying unchecked, input data into a stack-based buffer is the most common cause of exploitable faults.
+A buffer overrun is one of the most common sources of security risk. A buffer overrun is essentially caused by treating unchecked, external input as trustworthy data. The act of copying this data, using operations such as [**CopyMemory**](/previous-versions/windows/desktop/legacy/aa366535(v=vs.85)), **strcat**, **strcpy**, or **wcscpy**, can create unanticipated results, which allows for system corruption. In the best of cases, your application will abort with a core dump, segmentation fault, or access violation. In the worst of cases, an attacker can exploit the buffer overrun by introducing and executing other malicious code in your process. Copying unchecked, input data into a stack-based buffer is the most common cause of exploitable faults.
 
 Buffer overruns can occur in a variety of ways. The following list provides a brief introduction to a few types of buffer overrun situations and offers some ideas and resources to help you avoid creating new risks and mitigate existing ones:
 
@@ -45,11 +45,8 @@ Preventing buffer overruns is primarily about writing good code. Always validate
 
  
 
-Safe string handling is a long-standing issue that continues to be addressed both by following good programming practices and often by using and retrofitting existing systems with secure, string-handling functions. An example of such a set of functions for the Windows shell starts with [**StringCbCat**](https://msdn.microsoft.com/library/ms647495(v=VS.85).aspx).
+Safe string handling is a long-standing issue that continues to be addressed both by following good programming practices and often by using and retrofitting existing systems with secure, string-handling functions. An example of such a set of functions for the Windows shell starts with [**StringCbCat**](/windows/win32/api/strsafe/nf-strsafe-stringcbcata).
 
  
 
  
-
-
-

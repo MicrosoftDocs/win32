@@ -21,7 +21,7 @@ COM provides implementations of the property set interfaces for various objects,
 
 -   [IPropertySetStorage–Compound File Implementation](ipropertysetstorage-compound-file-implementation.md)
 
-    The compound file implementation, which provides the [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) and [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) interfaces, also provides the [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) and [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) interfaces. Given a compound file implementation of **IStorage**, the **IPropertySetStorage** interface can be obtained by calling [**IUnknown::QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx).
+    The compound file implementation, which provides the [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) and [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) interfaces, also provides the [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) and [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) interfaces. Given a compound file implementation of **IStorage**, the **IPropertySetStorage** interface can be obtained by calling [**IUnknown::QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)).
 
 -   [IPropertySetStorage–NTFS File System Implementation](ipropertysetstorage-ntfs-file-system-implementation.md)
 
@@ -35,12 +35,12 @@ COM provides implementations of the property set interfaces for various objects,
 
     There are several issues to consider in providing an implementation of the [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) interface. Please refer to these *Implementation Considerations* in the COM Reference section.
 
-In addition, there are four helper functions, designed to aid in dealing with properties that have been read from a property set into memory (into a [**PROPVARIANT**](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx) structure):
+In addition, there are four helper functions, designed to aid in dealing with properties that have been read from a property set into memory (into a [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structure):
 
 -   [**PropVariantInit**](/windows/desktop/api/PropIdl/nf-propidl-propvariantinit)
--   [**PropVariantClear**](https://msdn.microsoft.com/library/Aa380073(v=VS.85).aspx)
--   [**FreePropVariantArray**](https://msdn.microsoft.com/library/Aa379126(v=VS.85).aspx)
--   [**PropVariantCopy**](https://msdn.microsoft.com/library/Aa380192(v=VS.85).aspx)
+-   [**PropVariantClear**](/windows/win32/api/combaseapi/nf-combaseapi-propvariantclear)
+-   [**FreePropVariantArray**](/windows/win32/api/combaseapi/nf-combaseapi-freepropvariantarray)
+-   [**PropVariantCopy**](/windows/win32/api/combaseapi/nf-combaseapi-propvariantcopy)
 
 The following sections discuss property set implementations in COM in greater detail:
 
@@ -54,7 +54,3 @@ The following sections discuss property set implementations in COM in greater de
  
 
  
-
-
-
-

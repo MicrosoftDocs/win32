@@ -38,7 +38,7 @@ HRESULT CreateCatalog(
 *pszCatalog* \[in\]
 </dt> <dd>
 
-Type: **[**LPCWSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCWSTR**](../winprog/windows-data-types.md)**
 
 Name of catalog to create. Can be any name selected by the caller, must contain only standard alphanumeric characters and underscore.
 
@@ -97,7 +97,3 @@ Called to create a new catalog in the Windows Search indexer. After creation, th
  
 
  
-
-
-
-

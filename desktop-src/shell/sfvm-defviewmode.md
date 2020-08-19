@@ -18,7 +18,7 @@ topic_type:
 
 # SFVM\_DEFVIEWMODE message
 
-Allows the callback object to specify the view mode. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to specify the view mode. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -57,7 +57,3 @@ One of the values from the [**FOLDERVIEWMODE**](/windows/desktop/api/shobjidl_co
  
 
  
-
-
-
-

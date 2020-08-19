@@ -51,7 +51,7 @@ Message Queue Information Service (MQIS) database for a particular site within a
 <span id="_rpc_procedure_serialization_glos"></span><span id="_RPC_PROCEDURE_SERIALIZATION_GLOS"></span>**procedure serialization**
 </dt> <dd>
 
-Data [*serialization*](s-glos.md) that uses a MIDL-generated serialization stub to accomplish the encoding and decoding of one or more types with a single procedure call. Procedure serialization is accomplished by applying the \[ [encode](https://docs.microsoft.com/windows/desktop/Midl/encode)\] and \[ [decode](https://docs.microsoft.com/windows/desktop/Midl/decode)\] attributes to a function prototype in the ACF file. See also [*type serialization*](t-glos.md).
+Data [*serialization*](s-glos.md) that uses a MIDL-generated serialization stub to accomplish the encoding and decoding of one or more types with a single procedure call. Procedure serialization is accomplished by applying the \[ [encode](/windows/desktop/Midl/encode)\] and \[ [decode](/windows/desktop/Midl/decode)\] attributes to a function prototype in the ACF file. See also [*type serialization*](t-glos.md).
 
 </dd> <dt>
 
@@ -72,7 +72,3 @@ MIDL-generated C or C++ language–source code that contains all the functions n
  
 
  
-
-
-
-

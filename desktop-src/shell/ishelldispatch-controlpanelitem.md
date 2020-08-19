@@ -66,7 +66,7 @@ IShellDispatch.ControlPanelItem( _
 *bstrDir* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 The Control Panel application's file name.
 
@@ -157,7 +157,3 @@ End Sub
  
 
  
-
-
-
-

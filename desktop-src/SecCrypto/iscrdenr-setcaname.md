@@ -18,7 +18,7 @@ api_location:
 
 # ISCrdEnr::setCAName method
 
-The **setCAName** method specifies the name of the [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA).
+The **setCAName** method specifies the name of the [*certification authority*](../secgloss/c-gly.md) (CA).
 
 ## Syntax
 
@@ -109,7 +109,3 @@ Use this method to specify a CA for a certificate template.
  
 
  
-
-
-
-

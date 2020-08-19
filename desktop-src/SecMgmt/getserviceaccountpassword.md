@@ -17,7 +17,7 @@ api_location:
 
 # GetServiceAccountPassword function
 
-Retrieves the service account password, available to [*security support providers*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSPs), such as Kerberos SSP.
+Retrieves the service account password, available to [*security support providers*](/windows/desktop/SecGloss/s-gly) (SSPs), such as Kerberos SSP.
 
 ## Syntax
 
@@ -113,7 +113,7 @@ If the function fails, the return value is an NTSTATUS code. For more informatio
 
 You can use the [**LsaNtStatusToWinError**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsantstatustowinerror) function to convert the NTSTATUS code to a Windows error code.
 
-When you have finished using the buffers returned in the *CurrentPassword* and *PreviousPassword* parameters, free them by calling the [**FreeLsaHeap**](https://docs.microsoft.com/windows/desktop/api/ntlsa/nc-ntlsa-lsa_free_lsa_heap) function.
+When you have finished using the buffers returned in the *CurrentPassword* and *PreviousPassword* parameters, free them by calling the [**FreeLsaHeap**](/windows/desktop/api/ntlsa/nc-ntlsa-lsa_free_lsa_heap) function.
 
 ## Remarks
 
@@ -136,9 +136,4 @@ The **GetServiceAccountPassword** function can be called in the following scenar
 
 
  
-
- 
-
-
-
 

@@ -121,7 +121,7 @@ Retrieves the info tip information for the item.
 
 ## Return value
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)\***
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)\***
 
 String containing the retrieved detail.
 
@@ -246,7 +246,3 @@ End Sub
  
 
  
-
-
-
-

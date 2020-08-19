@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Performance Counters Schema
 
-Beginning with Windows Vista, you use an XML manifest to define the performance counters that your provider provides. The counters are described in the counters section of an instrumentation manifest (for details on what an instrumentation manifest is, see [EventManifest Schema](https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-schema) and [Writing an Instrumentation Manifest](https://docs.microsoft.com/windows/desktop/WES/writing-an-instrumentation-manifest)). This section describes the following elements and types that you use to write the counters section of an instrumentation manifest:
+Beginning with Windows Vista, you use an XML manifest to define the performance counters that your provider provides. The counters are described in the counters section of an instrumentation manifest (for details on what an instrumentation manifest is, see [EventManifest Schema](/windows/desktop/WES/eventmanifestschema-schema) and [Writing an Instrumentation Manifest](/windows/desktop/WES/writing-an-instrumentation-manifest)). This section describes the following elements and types that you use to write the counters section of an instrumentation manifest:
 
 -   [Performance Counters Elements](performance-counters-elements.md)
 -   [Performance Counters Simple Types](performance-counters-simple-types.md)
@@ -28,7 +28,7 @@ If you want to update a counter set, run the UnlodCtr.exe tool as shown in the f
 
 ## Performance Counters Schema
 
-The following is the performance counters schema that you can use to validate the counters section of your manifest. Following the schema is an example manifest. For details on the schema that you use to validate the instrumentation section of the manifest, see [EventManifest Schema](https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-schema).
+The following is the performance counters schema that you can use to validate the counters section of your manifest. Following the schema is an example manifest. For details on the schema that you use to validate the instrumentation section of the manifest, see [EventManifest Schema](/windows/desktop/WES/eventmanifestschema-schema).
 
 ``` syntax
 <xs:schema
@@ -589,6 +589,3 @@ The following shows an example manifest that defines performance counters.
  
 
  
-
-
-

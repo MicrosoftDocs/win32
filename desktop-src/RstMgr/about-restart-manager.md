@@ -21,7 +21,7 @@ The Restart Manager stops applications in the following order, and after the app
 
 Restart Manager shuts down application or services only if the caller has permission to do so. Note that shutdown across sessions is not supported.
 
-Applications that use the [Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal) version 4.0 for installation and servicing automatically use the Restart Manager to reduce system restarts. Custom installers can also be designed to call the Restart Manager API to shut down and restart applications and services. In cases where a system restart is unavoidable, installers can use the Restart Manager API to schedule restarts in such a way that it minimizes the disruption of the user's work flow.
+Applications that use the [Windows Installer](/windows/desktop/Msi/windows-installer-portal) version 4.0 for installation and servicing automatically use the Restart Manager to reduce system restarts. Custom installers can also be designed to call the Restart Manager API to shut down and restart applications and services. In cases where a system restart is unavoidable, installers can use the Restart Manager API to schedule restarts in such a way that it minimizes the disruption of the user's work flow.
 
 For information about using the Restart Manager API during installation and updates, see [Using Restart Manager](using-restart-manager.md).
 
@@ -34,7 +34,3 @@ For reference information about the enumerations, structures, and functions of t
  
 
  
-
-
-
-

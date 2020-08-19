@@ -14,7 +14,7 @@ The Setup API provides a set of functions that a setup application calls to perf
 
 ## Where applicable
 
-These setup functions are available to develop a setup application. Setup API should no longer be used for installing applications. Instead, use the [Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal)for developing application installers. Setup API continues to be used for installing device drivers.
+These setup functions are available to develop a setup application. Setup API should no longer be used for installing applications. Instead, use the [Windows Installer](/windows/desktop/Msi/windows-installer-portal)for developing application installers. Setup API continues to be used for installing device drivers.
 
 The Setup API is intended for the development of desktop style applications.
 
@@ -47,9 +47,4 @@ For information about which operating systems are required to use a particular f
  
 
  
-
- 
-
-
-
 

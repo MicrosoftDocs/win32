@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Adding an Object to a Collection
 
-The following code adds a new policy to the IAS policies collection. The variable pClientsCollection points to an [**ISdoCollection**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdocollection) interface for the collection. See [Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection) for information on how to retrieve the collection object.
+The following code adds a new policy to the IAS policies collection. The variable pClientsCollection points to an [**ISdoCollection**](/windows/desktop/api/sdoias/nn-sdoias-isdocollection) interface for the collection. See [Retrieving a Collection](/windows/desktop/Nps/sdo-retrieving-a-collection) for information on how to retrieve the collection object.
 
 
 ```C++
@@ -106,25 +106,21 @@ The following code adds a new policy to the IAS policies collection. The variabl
 
 <dl> <dt>
 
-[\_bstr\_t](https://msdn.microsoft.com/library/Aa278286.aspx)
+[\_bstr\_t](/previous-versions/visualstudio/visual-studio-6.0/aa278286(v=vs.60))
 </dt> <dt>
 
-[**ISdoCollection::Add**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-add)
+[**ISdoCollection::Add**](/windows/desktop/api/sdoias/nf-sdoias-isdocollection-add)
 </dt> <dt>
 
-[**ISdoCollection::IsNameUnique**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-isnameunique)
+[**ISdoCollection::IsNameUnique**](/windows/desktop/api/sdoias/nf-sdoias-isdocollection-isnameunique)
 </dt> <dt>
 
-[Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection)
+[Retrieving a Collection](/windows/desktop/Nps/sdo-retrieving-a-collection)
 </dt> <dt>
 
-[**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx)
+[**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant)
 </dt> </dl>
 
  
 
  
-
-
-
-

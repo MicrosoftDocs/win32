@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # ApiBuffer Functions
 
-The network management ApiBuffer functions are used to manage memory allocation used by an application with network management functions. However, in general, for other memory used by an application you should use the [memory management functions](https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions) instead of these ApiBuffer functions.
+The network management ApiBuffer functions are used to manage memory allocation used by an application with network management functions. However, in general, for other memory used by an application you should use the [memory management functions](/windows/desktop/Memory/memory-management-functions) instead of these ApiBuffer functions.
 
 The ApiBuffer functions are listed following.
 
@@ -30,7 +30,3 @@ For remotable functions that return information to the caller, the RPC run-time 
  
 
  
-
-
-
-

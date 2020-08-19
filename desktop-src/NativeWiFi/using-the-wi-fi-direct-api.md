@@ -36,7 +36,7 @@ The [**WFDStartOpenSession**](/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartop
 
 Once an application is done using the Wi-Fi Direct service, the application should call the [**WFDCloseHandle**](/windows/desktop/api/wlanapi/nf-wlanapi-wfdclosehandle) function to signal to the Wi-Fi Direct service that the application is done using the service. This allows the Wi-Fi Direct service to release resources used by the application.
 
-For more information on Wi-Fi Direct for use in Windows Store apps, see [**PeerFinder**](https://msdn.microsoft.com/library/BR241203(v=Win.10).aspx) and related classes in the [**Windows.Networking.Proximity**](https://msdn.microsoft.com/library/BR241250(v=Win.10).aspx) namespace.
+For more information on Wi-Fi Direct for use in Windows Store apps, see [**PeerFinder**](/uwp/api/Windows.Networking.Proximity.PeerFinder?view=winrt-19041) and related classes in the [**Windows.Networking.Proximity**](/uwp/api/Windows.Networking.Proximity?view=winrt-19041) namespace.
 
 ## Related topics
 
@@ -57,7 +57,7 @@ For more information on Wi-Fi Direct for use in Windows Store apps, see [**PeerF
 **Reference**
 </dt> <dt>
 
-[**PeerFinder**](https://msdn.microsoft.com/library/BR241203(v=Win.10).aspx)
+[**PeerFinder**](/uwp/api/Windows.Networking.Proximity.PeerFinder?view=winrt-19041)
 </dt> <dt>
 
 [**WFD\_OPEN\_SESSION\_COMPLETE\_CALLBACK**](/windows/desktop/api/wlanapi/nc-wlanapi-wfd_open_session_complete_callback)
@@ -84,12 +84,9 @@ For more information on Wi-Fi Direct for use in Windows Store apps, see [**PeerF
 [**WFDUpdateDeviceVisibility**](/windows/desktop/api/wlanapi/nf-wlanapi-wfdupdatedevicevisibility)
 </dt> <dt>
 
-[**Windows.Networking.Proximity**](https://msdn.microsoft.com/library/BR241250(v=Win.10).aspx)
+[**Windows.Networking.Proximity**](/uwp/api/Windows.Networking.Proximity?view=winrt-19041)
 </dt> </dl>
 
  
 
  
-
-
-

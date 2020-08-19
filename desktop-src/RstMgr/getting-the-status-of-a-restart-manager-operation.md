@@ -12,13 +12,9 @@ When many applications and services must be shut down or restarted, the Restart 
 
 **To get the status of the current Restart Manager operation**
 
-1.  The installer should implement a [**RM\_WRITE\_STATUS\_CALLBACK**](https://msdn.microsoft.com/library/Aa373678(v=VS.85).aspx) function that determines the status of the applications that have been shut down or restarted. The function can provide the information to the user interface or log.
-2.  The installer passes the pointer to the [**RM\_WRITE\_STATUS\_CALLBACK**](https://msdn.microsoft.com/library/Aa373678(v=VS.85).aspx) function when calling the [**RmShutdown**](/windows/desktop/api/RestartManager/nf-restartmanager-rmshutdown) or [**RmRestart**](/windows/desktop/api/RestartManager/nf-restartmanager-rmrestart) function.
+1.  The installer should implement a [**RM\_WRITE\_STATUS\_CALLBACK**](/windows/win32/api/restartmanager/nc-restartmanager-rm_write_status_callback) function that determines the status of the applications that have been shut down or restarted. The function can provide the information to the user interface or log.
+2.  The installer passes the pointer to the [**RM\_WRITE\_STATUS\_CALLBACK**](/windows/win32/api/restartmanager/nc-restartmanager-rm_write_status_callback) function when calling the [**RmShutdown**](/windows/desktop/api/RestartManager/nf-restartmanager-rmshutdown) or [**RmRestart**](/windows/desktop/api/RestartManager/nf-restartmanager-rmrestart) function.
 
  
 
  
-
-
-
-

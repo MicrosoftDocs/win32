@@ -17,12 +17,12 @@ api_location:
 
 # GetTimeFormatWrapW function
 
-\[**GetTimeFormatWrapW** is available for use in Windows XP. It may not be available in subsequent versions. You should use [**GetTimeFormatW**](https://msdn.microsoft.com/library/Dd318130(v=VS.85).aspx) in its place.\]
+\[**GetTimeFormatWrapW** is available for use in Windows XP. It may not be available in subsequent versions. You should use [**GetTimeFormatW**](/windows/win32/api/datetimeapi/nf-datetimeapi-gettimeformata) in its place.\]
 
 Formats time as a time string for a specified locale. The function formats either a specified time or the local system time.
 
 > [!Note]  
-> **GetTimeFormatWrapW** is a wrapper for the **GetTimeFormatW** function. See the [**GetTimeFormat**](https://msdn.microsoft.com/library/Dd318130(v=VS.85).aspx) page for further usage notes.
+> **GetTimeFormatWrapW** is a wrapper for the **GetTimeFormatW** function. See the [**GetTimeFormat**](/windows/win32/api/datetimeapi/nf-datetimeapi-gettimeformata) page for further usage notes.
 
  
 
@@ -53,7 +53,7 @@ Type: **LCID**
 
 Specifies the locale for which the time string is to be formatted. If *pwzFormat* is **NULL**, the function formats the string according to the time format for this locale. If *pwzFormat* is not **NULL**, the function uses the locale only for information not specified in the format picture string (for example, the locale's time markers).
 
-This parameter can be a locale identifier created by the [**MAKELCID**](https://msdn.microsoft.com/library/Dd319052(v=VS.85).aspx) macro, or one of the following predefined values.
+This parameter can be a locale identifier created by the [**MAKELCID**](/windows/win32/api/winnt/nf-winnt-makelcid) macro, or one of the following predefined values.
 
 <dt>
 
@@ -157,9 +157,9 @@ Always uses a 24-hour time format.
 *lpTime* \[in\]
 </dt> <dd>
 
-Type: **const [**SYSTEMTIME**](https://msdn.microsoft.com/library/ms724950(v=VS.85).aspx)\***
+Type: **const [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime)\***
 
-A pointer to a [**SYSTEMTIME**](https://msdn.microsoft.com/library/ms724950(v=VS.85).aspx) structure that contains the time information to be formatted. If this pointer is **NULL**, the function uses the current local system time.
+A pointer to a [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) structure that contains the time information to be formatted. If this pointer is **NULL**, the function uses the current local system time.
 
 </dd> <dt>
 
@@ -168,7 +168,7 @@ A pointer to a [**SYSTEMTIME**](https://msdn.microsoft.com/library/ms724950(v=VS
 
 Type: **LPCWSTR**
 
-A pointer to a format to use to form the time string. If *pwzFormat* is **NULL**, the function uses the time format of the specified locale. See [**GetTimeFormat**](https://msdn.microsoft.com/library/Dd318130(v=VS.85).aspx) for more details.
+A pointer to a format to use to form the time string. If *pwzFormat* is **NULL**, the function uses the time format of the specified locale. See [**GetTimeFormat**](/windows/win32/api/datetimeapi/nf-datetimeapi-gettimeformata) for more details.
 
 </dd> <dt>
 
@@ -196,7 +196,7 @@ Type: **int**
 
 If the function succeeds, the return value is the number of characters written to the buffer pointed to by *pwzTimeStr*. If the *cchTime* parameter is zero, the return value is the number of characters required to hold the formatted time string. The count includes the terminating null character.
 
-If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx). **GetLastError** may return one of the following error codes.
+If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). **GetLastError** may return one of the following error codes.
 
 <dl> <dt>
 
@@ -211,7 +211,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## Remarks
 
-**GetTimeFormatWrapW** provides the ability to use Unicode strings in operating systems earlier than Windows XP. The preferred method is to use [**GetTimeFormatW**](https://msdn.microsoft.com/library/Dd318130(v=VS.85).aspx) in conjunction with the Microsoft Layer for Unicode (MSLU).
+**GetTimeFormatWrapW** provides the ability to use Unicode strings in operating systems earlier than Windows XP. The preferred method is to use [**GetTimeFormatW**](/windows/win32/api/datetimeapi/nf-datetimeapi-gettimeformata) in conjunction with the Microsoft Layer for Unicode (MSLU).
 
 **GetTimeFormatWrapW** must be called directly from Shlwapi.dll, using ordinal 310.
 
@@ -231,13 +231,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 <dl> <dt>
 
-[**GetTimeFormat**](https://msdn.microsoft.com/library/Dd318130(v=VS.85).aspx)
+[**GetTimeFormat**](/windows/win32/api/datetimeapi/nf-datetimeapi-gettimeformata)
 </dt> </dl>
 
  
 
  
-
-
-
-

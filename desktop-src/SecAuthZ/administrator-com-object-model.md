@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Administrator COM Object Model
 
-In the administrator COM object model, an application running as a standard user performs operations that require administrator privilege by creating an elevated [Component Object Model](https://docs.microsoft.com/windows/desktop/com/component-object-model--com--portal) object. For information about creating an elevated COM object, see [The COM Elevation Moniker](https://msdn.microsoft.com/library/ms679687.aspx).
+In the administrator COM object model, an application running as a standard user performs operations that require administrator privilege by creating an elevated [Component Object Model](/windows/desktop/com/component-object-model--com--portal) object. For information about creating an elevated COM object, see [The COM Elevation Moniker](../com/the-com-elevation-moniker.md).
 
 One drawback to using the administrator COM object model is that the user is prompted each time a privileged operation is performed.
 
@@ -33,6 +33,3 @@ Any user interface that can control the COM object must be presented by the COM 
  
 
  
-
-
-

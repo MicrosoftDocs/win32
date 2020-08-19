@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Secure Channel
 
-Secure Channel, also known as [*Schannel*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx), is a [*security support provider*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SSP) that contains a set of security protocols that provide identity authentication and secure, private communication through encryption.
+Secure Channel, also known as [*Schannel*](../secgloss/s-gly.md), is a [*security support provider*](../secgloss/s-gly.md) (SSP) that contains a set of security protocols that provide identity authentication and secure, private communication through encryption.
 
 Schannel is primarily used for Internet applications that require secure Hypertext Transfer Protocol (HTTP) communications.
 
@@ -26,6 +26,3 @@ For more information about Secure Channel, see the following topics.
  
 
  
-
-
-

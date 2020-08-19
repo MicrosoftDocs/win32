@@ -11,11 +11,8 @@ ms.date: 05/31/2018
 ## In this section
 
 -   [Microsoft.UpdateServices.Administration Namespace (2.0)](https://www.bing.com/search?q=Microsoft.UpdateServices.Administration+Namespace+(2.0))
--   [WSUS Samples](https://msdn.microsoft.com/library/Bb313617(v=VS.85).aspx)
+-   [WSUS Samples](/previous-versions/windows/desktop/bb313617(v=vs.85))
 
  
 
  
-
-
-

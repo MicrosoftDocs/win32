@@ -21,11 +21,11 @@ The following data types are used by the Security Configuration attachment DLLs 
 
 | Data type                                                    | Description                                                                                                                                                                                                                                                 |
 |--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SCE\_ENUMERATION\_CONTEXT**](sce-enumeration-context.md) | Used by the [**PFSCE\_QUERY\_INFO**](https://msdn.microsoft.com/library/ms721890(v=VS.85).aspx) function to navigate through the security database.                                                                                                                                              |
-| [**SCE\_HANDLE**](sce-handle.md)                            | Used by [**PFSCE\_QUERY\_INFO**](https://msdn.microsoft.com/library/ms721890(v=VS.85).aspx) and [**PFSCE\_SET\_INFO**](https://msdn.microsoft.com/library/ms721892(v=VS.85).aspx) to pass information between the attachment and the security database.                                                                                 |
+| [**SCE\_ENUMERATION\_CONTEXT**](sce-enumeration-context.md) | Used by the [**PFSCE\_QUERY\_INFO**](/windows/win32/api/scesvc/nc-scesvc-pfsce_query_info) function to navigate through the security database.                                                                                                                                              |
+| [**SCE\_HANDLE**](sce-handle.md)                            | Used by [**PFSCE\_QUERY\_INFO**](/windows/win32/api/scesvc/nc-scesvc-pfsce_query_info) and [**PFSCE\_SET\_INFO**](/windows/win32/api/scesvc/nc-scesvc-pfsce_set_info) to pass information between the attachment and the security database.                                                                                 |
 | [**SCESTATUS**](scestatus.md)                               | Data type is used by the Security Configuration tool set API to return information about the results of a function call.                                                                                                                                    |
 | [**SCESVC\_HANDLE**](scesvc-handle.md)                      | Used by methods of the [**ISceSvcAttachmentData**](/windows/desktop/api/Scesvc/nn-scesvc-iscesvcattachmentdata) and [**ISceSvcAttachmentPersistInfo**](/windows/desktop/api/Scesvc/nn-scesvc-iscesvcattachmentpersistinfo) interfaces to pass information between the Security Configuration snap-in and the snap-in extension. |
-| [**SCESVC\_INFO\_TYPE**](/windows/desktop/api/Scesvc/ne-scesvc-scesvc_info_type)               | Enumeration is used by [**PFSCE\_QUERY\_INFO**](https://msdn.microsoft.com/library/ms721890(v=VS.85).aspx) and [**PFSCE\_SET\_INFO**](https://msdn.microsoft.com/library/ms721892(v=VS.85).aspx) to indicate the type of information requested from or passed to the security database.                                                 |
+| [**SCESVC\_INFO\_TYPE**](/windows/desktop/api/Scesvc/ne-scesvc-scesvc_info_type)               | Enumeration is used by [**PFSCE\_QUERY\_INFO**](/windows/win32/api/scesvc/nc-scesvc-pfsce_query_info) and [**PFSCE\_SET\_INFO**](/windows/win32/api/scesvc/nc-scesvc-pfsce_set_info) to indicate the type of information requested from or passed to the security database.                                                 |
 
 
 
@@ -49,6 +49,3 @@ The following data types are used by the LSA policy management functions.
  
 
  
-
-
-

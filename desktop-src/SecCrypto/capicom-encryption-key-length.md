@@ -17,7 +17,7 @@ api_location:
 
 # CAPICOM\_ENCRYPTION\_KEY\_LENGTH enumeration
 
-The **CAPICOM\_ENCRYPTION\_KEY\_LENGTH** enumeration type defines the [*key length*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx) to be used in encryption.
+The **CAPICOM\_ENCRYPTION\_KEY\_LENGTH** enumeration type defines the [*key length*](../secgloss/k-gly.md) to be used in encryption.
 
 ## Members
 
@@ -52,7 +52,3 @@ The **CAPICOM\_ENCRYPTION\_KEY\_LENGTH** enumeration type is used by the [**Algo
  
 
  
-
-
-
-

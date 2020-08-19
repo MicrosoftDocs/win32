@@ -17,7 +17,7 @@ api_location:
 
 # CertificatePolicies object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Extension Class**](https://msdn.microsoft.com/library/x5x51x86(v=VS.90).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to retrieve the certificate policies.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Extension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to retrieve the certificate policies.\]
 
 The **CertificatePolicies** object represents a collection of [**PolicyInformation**](policyinformation.md) objects. Each [**PolicyInformation**](policyinformation.md) object represents a single certificate policy.
 
@@ -43,7 +43,7 @@ The **CertificatePolicies** object has these properties.
 
 | Property                                                    | Access type          | Description                                                                                                                                                                                                                     |
 |:------------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](certificatepolicies-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
+| [**\_NewEnum**](certificatepolicies-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
 | [**Count**](certificatepolicies-count.md)<br/>       | Read-only<br/> | Retrieves the number of [**PolicyInformation**](policyinformation.md) objects in the collection.<br/>                                                                                                                    |
 | [**Item**](certificatepolicies-item.md)<br/>         | Read-only<br/> | Retrieves a [**PolicyInformation**](policyinformation.md) object that represents the indexed certificate policy of the collection. This is the default property.<br/>                                                    |
 
@@ -71,7 +71,3 @@ The **CertificatePolicies** object cannot be created.
  
 
  
-
-
-
-

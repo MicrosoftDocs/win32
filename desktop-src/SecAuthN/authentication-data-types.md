@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## LSA Data Types
 
-The [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) uses the following data type.
+The [*Local Security Authority*](/windows/desktop/SecGloss/l-gly) (LSA) uses the following data type.
 
 
 
@@ -39,9 +39,4 @@ The [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecG
  
 
  
-
- 
-
-
-
 

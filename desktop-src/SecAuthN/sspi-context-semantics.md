@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # SSPI Context Semantics
 
-A [*security context*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) is the set of security attributes and rules in effect during a communication session. This includes such information as the identities of the principal and information on the keys, ciphers, and algorithms being used. For [*Security Support Provider Interface*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SSPI), a security context is an opaque structure that is created through an exchange involving the [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx) function and the [**AcceptSecurityContext (General)**](https://msdn.microsoft.com/library/Aa374703(v=VS.85).aspx) function.
+A [*security context*](../secgloss/s-gly.md) is the set of security attributes and rules in effect during a communication session. This includes such information as the identities of the principal and information on the keys, ciphers, and algorithms being used. For [*Security Support Provider Interface*](../secgloss/s-gly.md) (SSPI), a security context is an opaque structure that is created through an exchange involving the [**InitializeSecurityContext (General)**](/windows/win32/api/sspi/nf-sspi-initializesecuritycontexta) function and the [**AcceptSecurityContext (General)**](/windows/win32/api/sspi/nf-sspi-acceptsecuritycontext) function.
 
 For more information about the context attributes, see [Context Requirements](context-requirements.md).
 
@@ -71,7 +71,3 @@ The SSPI model supports three types of security contexts.
  
 
  
-
-
-
-

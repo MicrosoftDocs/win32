@@ -62,7 +62,7 @@ The handle to the parent window of the dialog box. This value can be zero.
 *sTitle* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** value that represents the title displayed inside the **Browse** dialog box.
 
@@ -193,7 +193,3 @@ End Sub
  
 
  
-
-
-
-

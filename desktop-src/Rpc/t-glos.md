@@ -37,14 +37,10 @@ TCP/IP protocol for transmitting data from a content-server application to a bro
 <span id="_rpc_type_serialization_glos"></span><span id="_RPC_TYPE_SERIALIZATION_GLOS"></span>**type serialization**
 </dt> <dd>
 
-Data [*serialization*](s-glos.md) that uses MIDL-generated routines to size, encode, and decode objects of a specified type. The client application calls these routines to serialize the data. Type serialization is accomplished by applying the \[ [encode](https://docs.microsoft.com/windows/desktop/Midl/encode)\] and \[ [decode](https://docs.microsoft.com/windows/desktop/Midl/decode)\] attributes to a single data type, or to an interface, in the ACF file. See also [*procedure serialization*](p-glos.md).
+Data [*serialization*](s-glos.md) that uses MIDL-generated routines to size, encode, and decode objects of a specified type. The client application calls these routines to serialize the data. Type serialization is accomplished by applying the \[ [encode](/windows/desktop/Midl/encode)\] and \[ [decode](/windows/desktop/Midl/decode)\] attributes to a single data type, or to an interface, in the ACF file. See also [*procedure serialization*](p-glos.md).
 
 </dd> </dl>
 
  
 
  
-
-
-
-

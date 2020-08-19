@@ -99,7 +99,7 @@ Streaming consumption is more efficient if you call [**ExtEscape**](/windows/des
 [Print Spooler API Structures](printing-and-print-spooler-structures.md)
 </dt> <dt>
 
-[GDI Printer Escape Functions](https://msdn.microsoft.com/library/Dd162843(v=VS.85).aspx)
+[GDI Printer Escape Functions](/previous-versions/windows/desktop/legacy/dd162843(v=vs.85))
 </dt> <dt>
 
 [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape)
@@ -109,9 +109,4 @@ Streaming consumption is more efficient if you call [**ExtEscape**](/windows/des
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -10,16 +10,13 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [Active Directory Domain Services](https://docs.microsoft.com/windows/desktop/AD/active-directory-domain-services)
--   [Active Directory Lightweight Directory Services](https://docs.microsoft.com/previous-versions/windows/desktop/adam/active-directory-lightweight-directory-services)
--   [Active Directory Schema](https://docs.microsoft.com/windows/desktop/ADSchema/active-directory-schema)
--   [Active Directory WMI Provider](https://docs.microsoft.com/previous-versions/windows/desktop/dsprov/active-directory-provider)
--   [Microsoft UDDI SDK](https://msdn.microsoft.com/library/Aa966237(v=BTS.10).aspx)
--   [UDDI Class Library](https://msdn.microsoft.com/library/ee294451(BTS.10).aspx)
+-   [Active Directory Domain Services](/windows/desktop/AD/active-directory-domain-services)
+-   [Active Directory Lightweight Directory Services](/previous-versions/windows/desktop/adam/active-directory-lightweight-directory-services)
+-   [Active Directory Schema](/windows/desktop/ADSchema/active-directory-schema)
+-   [Active Directory WMI Provider](/previous-versions/windows/desktop/dsprov/active-directory-provider)
+-   [Microsoft UDDI SDK](/previous-versions/windows/desktop/aa966237(v=bts.10))
+-   [UDDI Class Library](/previous-versions/windows/desktop/ee294451(v=bts.10))
 
  
 
  
-
-
-

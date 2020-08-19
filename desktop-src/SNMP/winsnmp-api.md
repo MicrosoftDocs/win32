@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # WinSNMP API
 
-\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
+\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
 
 The Microsoft Windows SNMP Application Programming Interface (the WinSNMP API) versions 1.1a and 2.0 allow you to develop SNMP-based network management applications that execute in the Windows environment. The Simple Network Management Protocol (SNMP) is a request-response protocol that transfers management information between protocol entities.
 
@@ -39,7 +39,3 @@ You should be familiar with the basic concepts of SNMP and Windows programming b
  
 
  
-
-
-
-

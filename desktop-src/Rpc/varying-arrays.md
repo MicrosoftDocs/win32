@@ -31,7 +31,7 @@ interface MyInterface
 }
 ```
 
-The interface definition uses the MIDL attribute \[[**first\_is**](https://docs.microsoft.com/windows/desktop/Midl/first-is)\] to specify the index number of the first element in the portion of the array that the client passes to the server. The \[[**length\_is**](https://docs.microsoft.com/windows/desktop/Midl/length-is)\] attribute specifies the total number of array elements that the client passes. For more information on these MIDL attributes, see [Array Attributes](array-attributes.md).
+The interface definition uses the MIDL attribute \[[**first\_is**](/windows/desktop/Midl/first-is)\] to specify the index number of the first element in the portion of the array that the client passes to the server. The \[[**length\_is**](/windows/desktop/Midl/length-is)\] attribute specifies the total number of array elements that the client passes. For more information on these MIDL attributes, see [Array Attributes](array-attributes.md).
 
 The following code fragment illustrates how a client might invoke the remote procedure defined in the preceding MIDL file.
 
@@ -64,7 +64,3 @@ This fragment calls the remote procedure MyRemoteProc twice. On the first invoca
  
 
  
-
-
-
-

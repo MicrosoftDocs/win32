@@ -8,21 +8,18 @@ ms.date: 05/31/2018
 
 # Impersonation Tokens
 
-An impersonating thread has two [*access tokens*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly):
+An impersonating thread has two [*access tokens*](/windows/desktop/SecGloss/a-gly):
 
--   A [*primary access token*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) that describes the [*security context*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) of the server. To get a handle to this token, call the [**OpenProcessToken**](https://msdn.microsoft.com/library/Aa379295(v=VS.85).aspx) function.
--   An impersonation access token that describes the security context of the client being impersonated. To get a handle to this token, call the [**OpenThreadToken**](https://msdn.microsoft.com/library/Aa379296(v=VS.85).aspx) function.
+-   A [*primary access token*](/windows/desktop/SecGloss/p-gly) that describes the [*security context*](/windows/desktop/SecGloss/s-gly) of the server. To get a handle to this token, call the [**OpenProcessToken**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocesstoken) function.
+-   An impersonation access token that describes the security context of the client being impersonated. To get a handle to this token, call the [**OpenThreadToken**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openthreadtoken) function.
 
-A server can use the [*impersonation token*](https://docs.microsoft.com/windows/desktop/SecGloss/i-gly) in the following functions:
+A server can use the [*impersonation token*](/windows/desktop/SecGloss/i-gly) in the following functions:
 
--   In the [**AccessCheck**](https://msdn.microsoft.com/library/Aa374815(v=VS.85).aspx), [**AccessCheckByType**](https://msdn.microsoft.com/library/Aa374826(v=VS.85).aspx), and [**AccessCheckByTypeResultList**](https://msdn.microsoft.com/library/Aa374836(v=VS.85).aspx) functions to determine whether a [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) allows the client a set of access rights.
--   In the [**AdjustTokenPrivileges**](https://msdn.microsoft.com/library/Aa375202(v=VS.85).aspx) function to enable or disable the client's privileges.
--   In the [**PrivilegeCheck**](https://msdn.microsoft.com/library/Aa379304(v=VS.85).aspx) function to determine whether a set of privileges are enabled in the client's token.
+-   In the [**AccessCheck**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-accesscheck), [**AccessCheckByType**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-accesscheckbytype), and [**AccessCheckByTypeResultList**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-accesscheckbytyperesultlist) functions to determine whether a [*security descriptor*](/windows/desktop/SecGloss/s-gly) allows the client a set of access rights.
+-   In the [**AdjustTokenPrivileges**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) function to enable or disable the client's privileges.
+-   In the [**PrivilegeCheck**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-privilegecheck) function to determine whether a set of privileges are enabled in the client's token.
 -   In functions that generate entries in the security event log, such as [**ObjectOpenAuditAlarm**](/windows/desktop/api/Winbase/nf-winbase-objectopenauditalarma) or [**PrivilegedServiceAuditAlarm**](/windows/desktop/api/Winbase/nf-winbase-privilegedserviceauditalarma). These functions use an impersonation token to get information about the client for the log entry.
 
  
 
  
-
-
-

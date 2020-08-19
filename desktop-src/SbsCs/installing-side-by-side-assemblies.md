@@ -8,16 +8,13 @@ ms.date: 05/31/2018
 
 # Installing Side-by-side Assemblies
 
-You may install side-by-side assemblies as [shared assemblies](https://docs.microsoft.com/windows/desktop/Msi/shared-assemblies) or as [private assemblies](https://docs.microsoft.com/windows/desktop/Msi/private-assemblies). For more information, see [Installing Side-by-Side Assemblies as Private Assemblies](installing-side-by-side-assemblies-as-private-assemblies.md) and [Installing Side-by-side Assemblies as Shared Assemblies](installing-side-by-side-assemblies-as-shared-assemblies.md).
+You may install side-by-side assemblies as [shared assemblies](/windows/desktop/Msi/shared-assemblies) or as [private assemblies](/windows/desktop/Msi/private-assemblies). For more information, see [Installing Side-by-Side Assemblies as Private Assemblies](installing-side-by-side-assemblies-as-private-assemblies.md) and [Installing Side-by-side Assemblies as Shared Assemblies](installing-side-by-side-assemblies-as-shared-assemblies.md).
 
 Note that:
 
--   Assemblies installed to the global assembly cache by an installation using the per-user [installation context](https://docs.microsoft.com/windows/desktop/Msi/installation-context) are not protected by Windows File Protection.
--   Assemblies that are installed to the global assembly cache by an installation using the per-machine [installation context](https://docs.microsoft.com/windows/desktop/Msi/installation-context) are protected by Windows File Protection.
+-   Assemblies installed to the global assembly cache by an installation using the per-user [installation context](/windows/desktop/Msi/installation-context) are not protected by Windows File Protection.
+-   Assemblies that are installed to the global assembly cache by an installation using the per-machine [installation context](/windows/desktop/Msi/installation-context) are protected by Windows File Protection.
 
  
 
  
-
-
-

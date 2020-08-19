@@ -14,7 +14,7 @@ The client must send the server a Digest challenge response when it receives a D
 
 | Directive          | Description                                                                                                                                                                                                                |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| username           | The account name of the [*security principal*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) requesting the resource.                                                                  |
+| username           | The account name of the [*security principal*](/windows/desktop/SecGloss/s-gly) requesting the resource.                                                                  |
 | Realm              | The name of the domain that contains the account indicated by username.                                                                                                                                                    |
 | nonce              | The nonce received in the Digest challenge.                                                                                                                                                                                |
 | uri                | The Universal Resource Identifier (URI) of the requested resource.                                                                                                                                                         |
@@ -46,6 +46,3 @@ Microsoft Digest generates the Digest challenge response string for client appli
  
 
  
-
-
-

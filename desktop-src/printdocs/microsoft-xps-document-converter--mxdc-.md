@@ -29,12 +29,9 @@ This section provides information about the following topics.
 [XPS Specification and License Downloads](https://www.microsoft.com/download/details.aspx?id=11816)
 </dt> <dt>
 
-[isXPS Conformance Tool](https://msdn.microsoft.com/library/Aa348104(v=VS.85).aspx)
+[isXPS Conformance Tool](/previous-versions/dotnet/netframework-3.0/aa348104(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-

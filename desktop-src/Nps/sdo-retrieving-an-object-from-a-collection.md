@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Retrieving an Object from a Collection
 
-The following code retrieves the IP address of a client from a collection of clients. The variable pClientsCollection points to an [**ISdoCollection**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdocollection) interface for the collection. See [Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection) for information on how to retrieve the collection object.
+The following code retrieves the IP address of a client from a collection of clients. The variable pClientsCollection points to an [**ISdoCollection**](/windows/desktop/api/sdoias/nn-sdoias-isdocollection) interface for the collection. See [Retrieving a Collection](/windows/desktop/Nps/sdo-retrieving-a-collection) for information on how to retrieve the collection object.
 
 
 ```C++
@@ -53,25 +53,21 @@ The following code retrieves the IP address of a client from a collection of cli
 
 <dl> <dt>
 
-[**ISdoCollection::Item**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-item)
+[**ISdoCollection::Item**](/windows/desktop/api/sdoias/nf-sdoias-isdocollection-item)
 </dt> <dt>
 
-[Retrieving a Collection](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection)
+[Retrieving a Collection](/windows/desktop/Nps/sdo-retrieving-a-collection)
 </dt> <dt>
 
-[**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx)
+[**SysAllocString**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring)
 </dt> <dt>
 
-[**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx)
+[**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring)
 </dt> <dt>
 
-[**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx)
+[**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant)
 </dt> </dl>
 
  
 
  
-
-
-
-

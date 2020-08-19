@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Filter Handlers that Ship with Windows
 
-Microsoft supplies several standard filters with Windows Search. Clients call these filter handlers (which are implementations of the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface) to extract text and properties from a document.
+Microsoft supplies several standard filters with Windows Search. Clients call these filter handlers (which are implementations of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface) to extract text and properties from a document.
 
 This topic is organized as follows:
 
@@ -37,25 +37,25 @@ In Windows 7 and later, we recommend that you install a filter handler in conj
 
 If only a filter handler is installed without a corresponding property handler, then automatic re-indexing occurs either after a restart of the indexing service, or a restart of the system.
 
-For property description flags specific to Windows 7, see the following reference topics: [GETPROPERTYSTOREFLAGS](https://msdn.microsoft.com/library/bb762582(VS.85).aspx), [PROPDESC\_COLUMNINDEX\_TYPE](https://msdn.microsoft.com/library/bb762587(VS.85).aspx) and [PROPDESC\_SEARCHINFO\_FLAGS](https://msdn.microsoft.com/library/bb762588(VS.85).aspx).
+For property description flags specific to Windows 7, see the following reference topics: [GETPROPERTYSTOREFLAGS](/windows/win32/api/propsys/ne-propsys-getpropertystoreflags), [PROPDESC\_COLUMNINDEX\_TYPE](/windows/win32/api/propsys/ne-propsys-propdesc_columnindex_type) and [PROPDESC\_SEARCHINFO\_FLAGS](/windows/win32/api/propsys/ne-propsys-propdesc_searchinfo_flags).
 
 ### Windows Vista Implementation
 
-In Windows Vista and earlier, installing an [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) or property handler does not initiate a re-indexing of existing items unless an independent software vendor (ISV) explicitly calls a rebuild or re-indexing of matching URLs.
+In Windows Vista and earlier, installing an [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) or property handler does not initiate a re-indexing of existing items unless an independent software vendor (ISV) explicitly calls a rebuild or re-indexing of matching URLs.
 
 There are two major differences between legacy applications like Indexing Service and newer applications like Windows Search that you should be aware of when implementing filters:
 
-- Use of the [IPersistStream](https://msdn.microsoft.com/library/ms690091(VS.85).aspx) interface.
+- Use of the [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) interface.
 - Use of property handlers.
 
-First, Windows Vista and Windows Search 3.0 and later require you use [IPersistStream](https://msdn.microsoft.com/library/ms690091(VS.85).aspx) for the following reasons:
+First, Windows Vista and Windows Search 3.0 and later require you use [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) for the following reasons:
 
 - To ensure performance and future compatibility.
-- To help increase security. Filters implemented with [IPersistStream](https://msdn.microsoft.com/library/ms690091(VS.85).aspx) are more secure because the context in which the filter runs does not need the rights to open files on the disk or over the network.
+- To help increase security. Filters implemented with [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) are more secure because the context in which the filter runs does not need the rights to open files on the disk or over the network.
 
-While Windows Search uses only [IPersistStream](https://msdn.microsoft.com/library/ms690091(VS.85).aspx), you can also include [IPersistFile Interface](https://msdn.microsoft.com/library/ms687223(VS.85).aspx) and/or [IPersistStorage Interface](https://msdn.microsoft.com/library/ms679731(VS.85).aspx) implementations in your filters for backward compatibility.
+While Windows Search uses only [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream), you can also include [IPersistFile Interface](/windows/win32/api/objidl/nn-objidl-ipersistfile) and/or [IPersistStorage Interface](/windows/win32/api/objidl/nn-objidl-ipersiststorage) implementations in your filters for backward compatibility.
 
-The second major difference is that Windows Vista and Windows Search 3.0 and later have a new [Property System](https://msdn.microsoft.com/library/Cc144125(VS.85).aspx) that uses property handlers to enumerate properties of items.
+The second major difference is that Windows Vista and Windows Search 3.0 and later have a new [Property System](../properties/building-property-handlers.md) that uses property handlers to enumerate properties of items.
 
 However, there are times when you need to implement a filter that handles both content and properties in order to:
 
@@ -64,17 +64,17 @@ However, there are times when you need to implement a filter that handles both c
 - Preserve language information.
 - Recursively filter embedded items.
 
-In these situations, you need a full filter implementation, including the [**IFilter::GetValue**](https://msdn.microsoft.com/library/Bb266450(v=VS.85).aspx) method to access property values.
+In these situations, you need a full filter implementation, including the [**IFilter::GetValue**](/windows/win32/api/filter/nf-filter-ifilter-getvalue) method to access property values.
 
 ### Legacy Implementation
 
 As noted earlier, Windows Vista and Windows Search include a new property system that encapsulates an item's properties that is separate from an item's content. This property system does not exist in earlier versions of Microsoft Windows Desktop Search (WDS) 2.x. If your filter must support other applications as described above, it may need to handle both content and properties.
 
-For more information on developing a compatible filter, see the following topics, [IFilter (for legacy applications)](https://msdn.microsoft.com/library/ms691105(VS.85).aspx), and [Developing Filter Add-ins (for legacy applications)](https://msdn.microsoft.com/library/Aa965717(v=VS.85).aspx).
+For more information on developing a compatible filter, see the following topics, [IFilter (for legacy applications)](/windows/win32/api/filter/nn-filter-ifilter), and [Developing Filter Add-ins (for legacy applications)](../lwef/-search-2x-wds-ifilteraddins.md).
 
 ## Windows Search Filters
 
-Microsoft supplies several standard filters with Windows Search. The [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx)  DLL contents are summarized in the following table. Clicking the name of a filter handler takes you to the description for that **IFilter** implementation.
+Microsoft supplies several standard filters with Windows Search. The [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)  DLL contents are summarized in the following table. Clicking the name of a filter handler takes you to the description for that **IFilter** implementation.
 
 | Filter handler                                                  | Files filtered                              | IFilter DLL  |
 |-----------------------------------------------------------------|---------------------------------------------|--------------|
@@ -90,9 +90,9 @@ The MIME filter handler (in mimefilt.dll) extracts text and property information
 
 ### HTML Filter Handler
 
-The HTML filter handler (in nlhtml.dll) extracts text and property information from the class "htmlfiles" so that it can be indexed by Windows Search. For a description of the association between [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) and file type, see "Finding the IFilter DLL for a File" in [Registering Filter Handlers](-search-ifilter-registering-filters.md).
+The HTML filter handler (in nlhtml.dll) extracts text and property information from the class "htmlfiles" so that it can be indexed by Windows Search. For a description of the association between [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) and file type, see "Finding the IFilter DLL for a File" in [Registering Filter Handlers](-search-ifilter-registering-filters.md).
 
-You can use the `META` tag feature of HTML documents to convey special handling requests to the HTML [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx). `META` tags occur near the beginning of an html file within the `HEAD ... /HEAD` tags, as illustrated in the following example.
+You can use the `META` tag feature of HTML documents to convey special handling requests to the HTML [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter). `META` tags occur near the beginning of an html file within the `HEAD ... /HEAD` tags, as illustrated in the following example.
 
 ```XML
    <head>
@@ -110,7 +110,7 @@ Some HTML `META` tags are automatically mapped to well known property set and pr
 | meta name="keywords" content="fonts, serif"   | The keyword property in the Summary Information property set.           |
 | meta name="ms.category" content="fiction"     | The category property in the document Summary Information property set. |
 
-Some features of the HTML [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) are listed in the following table.
+Some features of the HTML [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) are listed in the following table.
 
 [comment]: # (This table needs to be HTML to have the samples formated in it correctly)
 
@@ -205,11 +205,11 @@ The Document filter handler (in offilt.dll) filters files for some extensions of
 
 ### Plain Text Filter Handler
 
-For plain-text files, Windows Search uses the text filter handler, which filters both the system properties (such as file names) and the contents of a file. When a file type does not have an [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) association in the registry, Windows Search indexes only the Shell properties for the file. However the user can use the **Advanced Options** in the **Indexing Options** control panel to **Index Properties** or **Index Properties and File Contents**.
+For plain-text files, Windows Search uses the text filter handler, which filters both the system properties (such as file names) and the contents of a file. When a file type does not have an [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) association in the registry, Windows Search indexes only the Shell properties for the file. However the user can use the **Advanced Options** in the **Indexing Options** control panel to **Index Properties** or **Index Properties and File Contents**.
 
 ![screen shot showing the advanced options dialog box](images/ifilteradvancedoptions.png)
 
-If the user chooses this option for a file type without an associated [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx), the text filter handler is used to extract the content of the file. The text filter handler does not "understand" any document format; when filtering the contents of a file, it treats the file as a sequence of characters. It does check for the Unicode byte-order mark at the beginning of the file.
+If the user chooses this option for a file type without an associated [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter), the text filter handler is used to extract the content of the file. The text filter handler does not "understand" any document format; when filtering the contents of a file, it treats the file as a sequence of characters. It does check for the Unicode byte-order mark at the beginning of the file.
 
 ### Binary or Null Filter Handler
 
@@ -217,10 +217,10 @@ When a registered binary file is encountered, the null filter handler is used. T
 
 ## Additional Resources
 
-- The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), demonstrates how to create an IFilter base class for implementing the [**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx) interface.
+- The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), demonstrates how to create an IFilter base class for implementing the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface.
 - For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
-- For an overview of file types, see [File Types](https://msdn.microsoft.com/library/cc144148(VS.85).aspx).
-- To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](https://msdn.microsoft.com/library/cc144150(VS.85).aspx).
+- For an overview of file types, see [File Types](../shell/fa-file-types.md).
+- To query file association attributes for a file type, see [PerceivedTypes, SystemFileAssociations, and Application Registration](/previous-versions/windows/desktop/legacy/cc144150(v=vs.85)).
 
 ## Related topics
 

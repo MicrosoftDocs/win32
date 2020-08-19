@@ -95,7 +95,7 @@ Returns a pointer to the subscription resulting from the notification callback r
 
 If the function succeeds, the return value is **ERROR\_SUCCESS**.
 
-If the function fails, the return value is one of the [system error codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+If the function fails, the return value is one of the [system error codes](/windows/desktop/Debug/system-error-codes).
 
 ## Remarks
 
@@ -149,9 +149,4 @@ The callback function must not block execution. If you expect the execution of t
 </dt> </dl>
 
  
-
- 
-
-
-
 

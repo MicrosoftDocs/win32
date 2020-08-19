@@ -10,11 +10,11 @@ ms.date: 05/31/2018
 
 Starting with Windows Vista, the RPC Marshalling Engine takes further steps to try to prevent client-side buffer overruns due to returned data. This facility is called Mini Compute Conformance Protection (MCCP).
 
-When the client passes a pointer to an existing buffer to an \[[**out**](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\] or \[[**in**](https://docs.microsoft.com/windows/desktop/Midl/in),**out**\] parameter, returned data for that parameter is copied into the existing buffer. If the returned data is larger than the passed buffer, a buffer overrun can occur when RPC copies the returned data into the too-small buffer. See [Top-Level and Embedded Pointers](top-level-and-embedded-pointers.md).
+When the client passes a pointer to an existing buffer to an \[[**out**](/windows/desktop/Midl/out-idl)\] or \[[**in**](/windows/desktop/Midl/in),**out**\] parameter, returned data for that parameter is copied into the existing buffer. If the returned data is larger than the passed buffer, a buffer overrun can occur when RPC copies the returned data into the too-small buffer. See [Top-Level and Embedded Pointers](top-level-and-embedded-pointers.md).
 
-With MCCP, RPC attempts to detect this condition and reject the call if it is detected. For buffers with a correlation value, such as \[[**size\_is**](https://docs.microsoft.com/windows/desktop/Midl/size-is)\], if the returned data does not fit in the specified buffer size, the call is rejected and RPC\_X\_BAD\_STUB\_DATA exception is raised. For unsized strings, the call is rejected if the existing string size (length until the **null** terminator) is insufficient to hold the returned string, the call is rejected. RPC cannot detect buffer overruns in all conditions, so the developer is advised to continue to take normal precautions against buffer overruns.
+With MCCP, RPC attempts to detect this condition and reject the call if it is detected. For buffers with a correlation value, such as \[[**size\_is**](/windows/desktop/Midl/size-is)\], if the returned data does not fit in the specified buffer size, the call is rejected and RPC\_X\_BAD\_STUB\_DATA exception is raised. For unsized strings, the call is rejected if the existing string size (length until the **null** terminator) is insufficient to hold the returned string, the call is rejected. RPC cannot detect buffer overruns in all conditions, so the developer is advised to continue to take normal precautions against buffer overruns.
 
-If the client does not pass an existing buffer for an \[[**out**](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\] parameter, but instead passes a dereferenced pointer to **NULL**, RPC will follow normal rules to allocate a new buffer on the client’s behalf. This buffer will be allocated with sufficient space to hold the returned data.
+If the client does not pass an existing buffer for an \[[**out**](/windows/desktop/Midl/out-idl)\] parameter, but instead passes a dereferenced pointer to **NULL**, RPC will follow normal rules to allocate a new buffer on the client’s behalf. This buffer will be allocated with sufficient space to hold the returned data.
 
 A second protection is that for correlated parameters, RPC will enforce that a non-**null** buffer is passed when the correlation count variable is non-**null**.
 
@@ -27,7 +27,3 @@ If *MyString* is **NULL**, RPC will reject the call unless *Length* is set to 0.
  
 
  
-
-
-
-

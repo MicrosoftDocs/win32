@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WinSNMP Function Return Values
 
-\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
+\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
 
 The return value from a WinSNMP function call can be a handle to a resource that the Microsoft WinSNMP implementation allocates for the WinSNMP application.
 
@@ -48,7 +48,3 @@ The following table lists the WinSNMP status values and their meaning.
  
 
  
-
-
-
-

@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # The wire\_marshal Attribute
 
-The \[ [wire\_marshal](https://docs.microsoft.com/windows/desktop/Midl/wire-marshal)\] attribute is an IDL-type attribute similar in syntax to \[ [transmit\_as](https://docs.microsoft.com/windows/desktop/Midl/transmit-as)\], but providing a more efficient way to marshal data across a network.
+The \[ [wire\_marshal](/windows/desktop/Midl/wire-marshal)\] attribute is an IDL-type attribute similar in syntax to \[ [transmit\_as](/windows/desktop/Midl/transmit-as)\], but providing a more efficient way to marshal data across a network.
 
-You use the \[**wire\_marshal**\] attribute to specify a data type that will be transmitted in place of the application-specific data type. Each application-specific type has a corresponding transmittable type that defines the wire representation (the representation used on the network).The application-specific type need not be transmittable, but it must be a type that MIDL recognizes. To marshal a type unknown to MIDL, use the ACF attribute \[ [user\_marshal](https://docs.microsoft.com/windows/desktop/Midl/user-marshal)\].
+You use the \[**wire\_marshal**\] attribute to specify a data type that will be transmitted in place of the application-specific data type. Each application-specific type has a corresponding transmittable type that defines the wire representation (the representation used on the network).The application-specific type need not be transmittable, but it must be a type that MIDL recognizes. To marshal a type unknown to MIDL, use the ACF attribute \[ [user\_marshal](/windows/desktop/Midl/user-marshal)\].
 
 Your application-specific type can be a simple, composite, or pointer type. The main restriction is that the type instance must have a fixed, well-defined memory size. If the size of your type instance needs to change, use a pointer field rather than a conformant array. Alternatively, you can define a pointer to the changeable type.
 
@@ -34,9 +34,9 @@ You must supply the routines for sizing, marshaling, and unmarshaling the data a
 
 These programmer-supplied routines are provided by either the client or the server application based on the directional attributes.
 
-If the parameter is \[ [in](https://docs.microsoft.com/windows/desktop/Midl/in)\] only, the client transmits to the server. The client needs the **<type>\_UserSize** and **<type>\_UserMarshal** functions. The server needs the **<type>\_UserUnmarshal**, and **<type>\_UserFree** functions.
+If the parameter is \[ [in](/windows/desktop/Midl/in)\] only, the client transmits to the server. The client needs the **<type>\_UserSize** and **<type>\_UserMarshal** functions. The server needs the **<type>\_UserUnmarshal**, and **<type>\_UserFree** functions.
 
-For an \[ [out](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\]-only parameter, the server transmits to the client. The server needs the **<type>\_UserSize** and **<type>\_UserMarshal** functions, while the client needs the **<type>\_UserMarshal** function.
+For an \[ [out](/windows/desktop/Midl/out-idl)\]-only parameter, the server transmits to the client. The server needs the **<type>\_UserSize** and **<type>\_UserMarshal** functions, while the client needs the **<type>\_UserMarshal** function.
 
 ## Related topics
 
@@ -48,10 +48,10 @@ For an \[ [out](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\]-only 
 [Marshaling Rules for user\_marshal and wire\_marshal](marshaling-rules-for-user-marshal-and-wire-marshal.md)
 </dt> <dt>
 
-[wire\_marshal](https://docs.microsoft.com/windows/desktop/Midl/wire-marshal)
+[wire\_marshal](/windows/desktop/Midl/wire-marshal)
 </dt> <dt>
 
-[user\_marshal](https://docs.microsoft.com/windows/desktop/Midl/user-marshal)
+[user\_marshal](/windows/desktop/Midl/user-marshal)
 </dt> <dt>
 
 [**NdrGetUserMarshalInfo**](/windows/desktop/api/Rpcndr/nf-rpcndr-ndrgetusermarshalinfo)
@@ -60,7 +60,3 @@ For an \[ [out](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\]-only 
  
 
  
-
-
-
-

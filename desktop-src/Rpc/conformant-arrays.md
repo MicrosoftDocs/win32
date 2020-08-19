@@ -27,7 +27,7 @@ interface MyInterface
 }
 ```
 
-The interface definition uses the MIDL attribute \[[**size\_is**](https://docs.microsoft.com/windows/desktop/Midl/size-is)\] to specify the size of the array that the client passes to the server. If you would rather indicate the maximum value of the array's index numbers, use the \[[**max\_is**](https://docs.microsoft.com/windows/desktop/Midl/max-is)\] attribute instead. For more information on these MIDL attributes, see [Array Attributes](array-attributes.md).
+The interface definition uses the MIDL attribute \[[**size\_is**](/windows/desktop/Midl/size-is)\] to specify the size of the array that the client passes to the server. If you would rather indicate the maximum value of the array's index numbers, use the \[[**max\_is**](/windows/desktop/Midl/max-is)\] attribute instead. For more information on these MIDL attributes, see [Array Attributes](array-attributes.md).
 
 The following code fragment illustrates how a client might invoke the remote procedure defined in the preceding MIDL file.
 
@@ -58,7 +58,3 @@ This fragment calls the remote procedure MyRemoteProc twice. On the first invoca
  
 
  
-
-
-
-

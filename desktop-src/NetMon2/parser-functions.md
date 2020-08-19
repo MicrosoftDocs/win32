@@ -35,7 +35,7 @@ The following helper functions are called by parsers.
 | [CreateHandoffTable](createhandofftable.md)             | Creates a handoff table based on information in an given INI file.                                             |
 | [DestroyHandoffTable](destroyhandofftable.md)           | Destroys a handoff table created with the **CreateHandoffTable** function.                                     |
 | [GetProtocolFromTable](getprotocolfromtable.md)         | Retrieves the protocol of a given handoff table.                                                               |
-| [AddProperty](https://msdn.microsoft.com/library/Ee817694(v=VS.85).aspx)                           | Adds a **PROPERTYINFO** structure to the property database.                                                    |
+| [AddProperty](/previous-versions/bb251873(v=msdn.10))                           | Adds a **PROPERTYINFO** structure to the property database.                                                    |
 | [AttachPropertyInstance](attachpropertyinstance.md)     | Attaches a property instance to a frame.                                                                       |
 | [AttachPropertyInstanceEx](attachpropertyinstanceex.md) | Attaches a property instance to a frame.                                                                       |
 | [CreatePropertyDatabase](createpropertydatabase.md)     | Creates a property database that describes properties that the parser uses to describe its data.               |
@@ -69,6 +69,3 @@ For information about export functions (helper functions that can be called by e
  
 
  
-
-
-

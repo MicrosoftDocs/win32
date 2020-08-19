@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Calling Outside An Assembly
 
-Hosted components should ensure that the correct activation context is active when calling outside the component. Calls into outside code that was found by calling [**CreateActCtx**](/windows/desktop/api/Winbase/nf-winbase-createactctxa) and then [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) or [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx), should be called with the same context that was used to find it. Calls into code that was found outside of activation contexts, or calls back into the hosting application should be called with the application default activation context.
+Hosted components should ensure that the correct activation context is active when calling outside the component. Calls into outside code that was found by calling [**CreateActCtx**](/windows/desktop/api/Winbase/nf-winbase-createactctxa) and then [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) or [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance), should be called with the same context that was used to find it. Calls into code that was found outside of activation contexts, or calls back into the hosting application should be called with the application default activation context.
 
 Compiling with ISOLATION\_AWARE\_ENABLED defined may be useful when calling outside of hosted components. However this means that only calls to Windows APIs are isolated to the component's activation context. This is sufficient for most cases because calls to third-party functions do not have a context activated before being called. Compiling with ISOLATION\_AWARE\_ENABLED defined does not help if your component uses several activation contexts with various platform APIs.
 
@@ -62,6 +62,3 @@ void WINAPI MyEntrypoint()
  
 
  
-
-
-

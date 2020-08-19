@@ -16,10 +16,10 @@ Returns a property from the [**IPropertyStore**](/windows/win32/api/propsys/nn-p
 
 | Method                                                                        | Description                                                                                                                                   |
 |:------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289341(v=VS.85).aspx)     | Gets a property from the [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) within the IDList as a variant, using the key.<br/>            |
-| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289344(v=VS.85).aspx)    | Gets a property from the [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) within the IDList as a variant, using the named property.<br/> |
+| [**GetPropertyFromIDList**](/windows/win32/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_pcwstr_propvariant))     | Gets a property from the [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) within the IDList as a variant, using the key.<br/>            |
+| [**GetPropertyFromIDList**](/windows/win32/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_pcwstr_propvariant))    | Gets a property from the [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) within the IDList as a variant, using the named property.<br/> |
 | [**GetPropertyFromIDList**]/windows/win32/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_pcwstr_propvariant))  | Gets a property from the [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) within the IDList, using the key.<br/>                         |
-| [**GetPropertyFromIDList**](https://msdn.microsoft.com/library/Hh289345(v=VS.85).aspx) | Gets a property from the [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) within the IDList, using the named property.<br/>              |
+| [**GetPropertyFromIDList**](/windows/win32/api/shidfact/nf-shidfact-citemidfactory-getpropertyfromidlist(pcuidlist_relative_pcwstr_propvariant)) | Gets a property from the [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) within the IDList, using the named property.<br/>              |
 
 
 
@@ -39,13 +39,9 @@ Returns a property from the [**IPropertyStore**](/windows/win32/api/propsys/nn-p
 
 <dl> <dt>
 
-[**CItemIDFactory**](https://msdn.microsoft.com/library/Hh289338(v=VS.85).aspx)
+[**CItemIDFactory**](/windows/win32/api/shidfact/nl-shidfact-citemidfactory)
 </dt> </dl>
 
  
 
  
-
-
-
-

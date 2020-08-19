@@ -13,13 +13,9 @@ ms.date: 05/31/2018
 
 The following sections describe the Server Data Objects (SDO) API programming elements.
 
--   [Server Data Objects Enumerations](https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-enumerations)
--   [Server Data Objects Interfaces](https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-interfaces)
+-   [Server Data Objects Enumerations](/windows/desktop/Nps/sdo-server-data-objects-enumerations)
+-   [Server Data Objects Interfaces](/windows/desktop/Nps/sdo-server-data-objects-interfaces)
 
  
 
  
-
-
-
-

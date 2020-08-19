@@ -8,12 +8,8 @@ ms.date: 05/31/2018
 
 # Arrays (RPC)
 
-For information on arrays, see [**MIDL Arrays**](https://docs.microsoft.com/windows/desktop/Midl/midl-arrays).
+For information on arrays, see [**MIDL Arrays**](/windows/desktop/Midl/midl-arrays).
 
  
 
  
-
-
-
-

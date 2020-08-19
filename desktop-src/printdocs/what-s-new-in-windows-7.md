@@ -18,8 +18,8 @@ Documents and printing has been improved for Windows 7 to include the following 
 
 |                                                                                                                |                                                                                                                                                                                                                                                                                                                          |
 |----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [XPS Document API](https://msdn.microsoft.com/library/Dd316976(v=VS.85).aspx)<br/>                                                        | The [XPS Document API](https://msdn.microsoft.com/library/Dd316976(v=VS.85).aspx) lets you create XPS documents from your Win32 program and save them as a document file or send them directly to a printer.<br/> You can also use the [XPS Document API](https://msdn.microsoft.com/library/Dd316976(v=VS.85).aspx) to modify existing XPS documents in a Win32 program.<br/> |
-| [XPS Digital Signature API](https://msdn.microsoft.com/library/Ff819108(v=VS.85).aspx)<br/>                                      | The [XPS Digital Signature API](https://msdn.microsoft.com/library/Ff819108(v=VS.85).aspx) lets you add digital signatures to XPS documents from your Win32 program.<br/> You can also use the XPS Digital Signature API to verify whether an XPS document is authentic and unaltered.<br/>                                          |
+| [XPS Document API](/previous-versions/windows/desktop/dd316976(v=vs.85))<br/>                                                        | The [XPS Document API](/previous-versions/windows/desktop/dd316976(v=vs.85)) lets you create XPS documents from your Win32 program and save them as a document file or send them directly to a printer.<br/> You can also use the [XPS Document API](/previous-versions/windows/desktop/dd316976(v=vs.85)) to modify existing XPS documents in a Win32 program.<br/> |
+| [XPS Digital Signature API](/previous-versions/windows/desktop/ff819108(v=vs.85))<br/>                                      | The [XPS Digital Signature API](/previous-versions/windows/desktop/ff819108(v=vs.85)) lets you add digital signatures to XPS documents from your Win32 program.<br/> You can also use the XPS Digital Signature API to verify whether an XPS document is authentic and unaltered.<br/>                                          |
 | [XPS Print API](xps-printing.md)<br/>                                                                   | The [XPS Print API](xpsprint-api.md) lets you print XPS documents from your Win32 program.<br/>                                                                                                                                                                                                                   |
 | [Microsoft XPS Document Converter (MXDC)](microsoft-xps-document-converter--mxdc-.md) improvements<br/> | The [MXDC](microsoft-xps-document-converter--mxdc-.md) has been improved so that you can use existing GDI functionality to create XPS content and print to the XPS print path from your Win32 programs with greater graphical fidelity than was possible in Windows Vista.<br/>                                   |
 
@@ -31,19 +31,14 @@ Documents and printing has been improved for Windows 7 to include the following 
 
 <dl> <dt>
 
-[XPS Document API](https://msdn.microsoft.com/library/Dd316976(v=VS.85).aspx)
+[XPS Document API](/previous-versions/windows/desktop/dd316976(v=vs.85))
 </dt> <dt>
 
-[XPS Digital Signature API](https://msdn.microsoft.com/library/Ff819108(v=VS.85).aspx)
+[XPS Digital Signature API](/previous-versions/windows/desktop/ff819108(v=vs.85))
 </dt> <dt>
 
 [XPS Print API](xpsprint-api.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

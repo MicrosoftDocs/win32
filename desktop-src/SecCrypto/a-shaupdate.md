@@ -65,7 +65,7 @@ This function does not return a value.
 
 This function can be called multiple times to compute the hash on long data streams or discontinuous data streams. The [**A\_SHAFinal**](a-shafinal.md) function must be called before retrieving the hash value.
 
-This function is very similar to SHAUpdate, but is called directly from the library, rather than being routed through the cryptography infrastructure. For more information, see [Windows NTCryptographic Providers](https://docs.microsoft.com/previous-versions/tn-archive/cc723484(v=technet.10)).
+This function is very similar to SHAUpdate, but is called directly from the library, rather than being routed through the cryptography infrastructure. For more information, see [Windows NTCryptographic Providers](/previous-versions/tn-archive/cc723484(v=technet.10)).
 
 ## Requirements
 
@@ -82,7 +82,3 @@ This function is very similar to SHAUpdate, but is called directly from the libr
  
 
  
-
-
-
-

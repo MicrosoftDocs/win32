@@ -145,13 +145,13 @@
           - name: "GetGamesSettings Method"
             href: /windows/desktop/api/Wpcapi/nf-wpcapi-iwindowsparentalcontrols-getgamessettings
           - name: "GetUserSettings Method"
-            href: https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getusersettings
+            href: /windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getusersettings
           - name: "GetVisibility Method"
-            href: https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getvisibility
+            href: /windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getvisibility
           - name: "GetWebFilterInfo Method"
-            href: https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebfilterinfo
+            href: /windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebfilterinfo
           - name: "GetWebSettings Method"
-            href: https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebsettings
+            href: /windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebsettings
       - name: "IWPCGamesSettings"
         href: /windows/desktop/api/Wpcapi/nn-wpcapi-iwpcgamessettings
         items: 

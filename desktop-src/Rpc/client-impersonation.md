@@ -22,7 +22,7 @@ The capability to call other servers while impersonating the original client is 
 
 Delegation can be a dangerous capability due to the privileges the client gives the server during a remote procedure call. This is why Kerberos allows calls with the impersonation level of delegation only if mutual authentication is requested. Domain administrators can limit the computers to which calls with delegation impersonation level are made to prevent unsuspecting clients from making calls to servers that could abuse their credentials.
 
-One exception to the delegation rule exists: calls using [**ncalrpc**](https://docs.microsoft.com/windows/desktop/Midl/ncalrpc). When these calls are made the server gets delegation rights, even if an impersonation level of impersonate is specified. That is, a server can call other servers on behalf of the client. This works for one remote call only. For example, if client A calls local server LB using **ncalrpc** local server LB can impersonate and call remote server RB. RB will be able to act on behalf of client A, but only on the remote computer that RB is running on. It cannot make another network call to remote computer C unless LB specified an impersonation level of delegate when it called RB.
+One exception to the delegation rule exists: calls using [**ncalrpc**](/windows/desktop/Midl/ncalrpc). When these calls are made the server gets delegation rights, even if an impersonation level of impersonate is specified. That is, a server can call other servers on behalf of the client. This works for one remote call only. For example, if client A calls local server LB using **ncalrpc** local server LB can impersonate and call remote server RB. RB will be able to act on behalf of client A, but only on the remote computer that RB is running on. It cannot make another network call to remote computer C unless LB specified an impersonation level of delegate when it called RB.
 
 > [!Note]  
 > The term *impersonation* represents two overlapping meanings. The first meaning of impersonation is the general process of acting on behalf of a client. The second meaning is the specific impersonation level called impersonation. The context of the text generally clarifies the meaning.
@@ -32,7 +32,3 @@ One exception to the delegation rule exists: calls using [**ncalrpc**](https://d
  
 
  
-
-
-
-

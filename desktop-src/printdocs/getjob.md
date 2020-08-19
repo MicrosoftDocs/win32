@@ -69,7 +69,7 @@ The type of information returned in the *pJob* buffer. If *Level* is 1, *pJob* r
 
 A pointer to a buffer that receives a [**JOB\_INFO\_1**](job-info-1.md) or a [**JOB\_INFO\_2**](job-info-2.md) structure containing information about the job. The buffer must be large enough to store the strings pointed to by the structure members.
 
-To determine the required buffer size, call **GetJob** with *cbBuf* set to zero. **GetJob** fails, [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_INSUFFICIENT\_BUFFER, and the *pcbNeeded* parameter returns the size, in bytes, of the buffer required to hold the array of structures and their data.
+To determine the required buffer size, call **GetJob** with *cbBuf* set to zero. **GetJob** fails, [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_INSUFFICIENT\_BUFFER, and the *pcbNeeded* parameter returns the size, in bytes, of the buffer required to hold the array of structures and their data.
 
 </dd> <dt>
 
@@ -141,9 +141,4 @@ If the function fails, the return value is zero.
 </dt> </dl>
 
  
-
- 
-
-
-
 

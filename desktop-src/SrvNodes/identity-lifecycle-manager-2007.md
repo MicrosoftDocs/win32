@@ -10,13 +10,10 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [Certificate Lifecycle Manager Overview](https://msdn.microsoft.com/library/Bb468065(v=VS.85).aspx)
--   [External Resources for CLM](https://msdn.microsoft.com/library/Bb540653(v=VS.85).aspx)
--   [Certificate Lifecycle Manager Managed Reference](https://msdn.microsoft.com/library/bb456693(VS.85).aspx)
+-   [Certificate Lifecycle Manager Overview](/previous-versions/windows/desktop/forefront-2010/bb468065(v=vs.100))
+-   [External Resources for CLM](/previous-versions/windows/desktop/forefront-2010/bb540653(v=vs.100))
+-   [Certificate Lifecycle Manager Managed Reference](/previous-versions/windows/desktop/legacy/bb456693(v=vs.85))
 
  
 
  
-
-
-

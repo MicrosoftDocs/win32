@@ -12,14 +12,10 @@ When you have a multithreaded client where multiple threads are using the same c
 
 Consider the following: two client threads invoke a remote procedure call that does not change the state of the context (for example, the call simply obtains some values from it). Such calls do not need to be serialized.
 
-For such situations, Windows XP offers a mixed mode serialization model, where each method may be declared to have exclusive or shared access to a context handle. See [context\_handle\_serialize](https://docs.microsoft.com/windows/desktop/Midl/context-handle-serialize) and [context\_handle\_noserialize](https://docs.microsoft.com/windows/desktop/Midl/context-handle-noserialize) for details.
+For such situations, Windows XP offers a mixed mode serialization model, where each method may be declared to have exclusive or shared access to a context handle. See [context\_handle\_serialize](/windows/desktop/Midl/context-handle-serialize) and [context\_handle\_noserialize](/windows/desktop/Midl/context-handle-noserialize) for details.
 
-In versions of Windows prior to Windows XP, the only means of allowing concurrent access to a context handle is to call the [**RpcSsDontSerializeContext**](https://msdn.microsoft.com/library/Aa378473(v=VS.80).aspx) function to allow multiple calls to be dispatched on a single context handle. Calling the **RpcSsDontSerializeContext** function does not disable serialization entirely; when a context run-down occurs, the context run-down routine runs only when all outstanding client requests have completed. A call to **RpcScDontSerializeContext** affects the entire process, and is not revertible. Using **RpcScDontSerializeContext** in Windows XP and later versions is not recommended; it makes server code very complicated when dealing reliably with race conditions inherent in completely non-serialized environments.
-
- 
+In versions of Windows prior to Windows XP, the only means of allowing concurrent access to a context handle is to call the [**RpcSsDontSerializeContext**](/previous-versions/aa378473(v=vs.80)) function to allow multiple calls to be dispatched on a single context handle. Calling the **RpcSsDontSerializeContext** function does not disable serialization entirely; when a context run-down occurs, the context run-down routine runs only when all outstanding client requests have completed. A call to **RpcScDontSerializeContext** affects the entire process, and is not revertible. Using **RpcScDontSerializeContext** in Windows XP and later versions is not recommended; it makes server code very complicated when dealing reliably with race conditions inherent in completely non-serialized environments.
 
  
 
-
-
-
+ 

@@ -17,9 +17,9 @@ api_location:
 
 # ISCardCmd::get\_LeField method
 
-\[The **get\_LeField** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **get\_LeField** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **get\_LeField** method returns the Le field of the [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU).
+The **get\_LeField** method returns the Le field of the [*application protocol data unit*](../secgloss/a-gly.md) (APDU).
 
 ## Syntax
 
@@ -60,7 +60,7 @@ The method returns one of the following possible values.
 
 ## Examples
 
-The following example shows how to retrieve the Le field value from the [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU). The example assumes that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
+The following example shows how to retrieve the Le field value from the [*application protocol data unit*](../secgloss/a-gly.md) (APDU). The example assumes that pISCardCmd is a valid pointer to an instance of the [**ISCardCmd**](iscardcmd.md) interface.
 
 
 ```C++
@@ -107,7 +107,3 @@ else
  
 
  
-
-
-
-

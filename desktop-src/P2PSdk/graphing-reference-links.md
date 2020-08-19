@@ -12,19 +12,16 @@ The following are some useful graphing references:
 
 -   [**AcceptSecurityContext**](../SecAuthN/acceptsecuritycontext--general.md)
 -   [**AcquireCredentialsHandle**](../SecAuthN/acquirecredentialshandle--general.md)
--   [**CreateEvent**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa)
+-   [**CreateEvent**](/windows/desktop/api/synchapi/nf-synchapi-createeventa)
 -   [**DecryptMessage**](../SecAuthN/decryptmessage--general.md)
 -   [**EncryptMessage**](../SecAuthN/encryptmessage--general.md)
--   [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime)
+-   [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime)
 -   [**InitializeSecurityContext**](../SecAuthN/initializesecuritycontext--general.md)
--   [Link-Local and Site-Local Addresses](https://docs.microsoft.com/windows/desktop/WinSock/link-local-and-site-local-addresses-2)
--   [Naming a File](https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file)
--   [**QueryContextAttributes**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa)
--   [SSPI documentation](https://docs.microsoft.com/windows/desktop/SecAuthN/sspi)
+-   [Link-Local and Site-Local Addresses](/windows/desktop/WinSock/link-local-and-site-local-addresses-2)
+-   [Naming a File](/windows/desktop/FileIO/naming-a-file)
+-   [**QueryContextAttributes**](/windows/desktop/api/sspi/nf-sspi-querycontextattributesa)
+-   [SSPI documentation](/windows/desktop/SecAuthN/sspi)
 
  
 
  
-
-
-

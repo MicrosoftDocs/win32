@@ -16,7 +16,7 @@ api_location:
 
 # AuthzComputeGroupsCallback callback function
 
-The **AuthzComputeGroupsCallback** function is an application-defined function that creates a list of [*security identifiers*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SIDs) that apply to a client. **AuthzComputeGroupsCallback** is a placeholder for the application-defined function name.
+The **AuthzComputeGroupsCallback** function is an application-defined function that creates a list of [*security identifiers*](/windows/desktop/SecGloss/s-gly) (SIDs) that apply to a client. **AuthzComputeGroupsCallback** is a placeholder for the application-defined function name.
 
 ## Syntax
 
@@ -133,9 +133,4 @@ Attribute variables must be in the form of an expression when used with logical 
 </dt> </dl>
 
  
-
- 
-
-
-
 

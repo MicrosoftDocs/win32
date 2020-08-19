@@ -12,7 +12,7 @@ This topic describes how to retrieve data from a sensor, synchronously and async
 
 ## Retrieving Data Synchronously
 
-You can retrieve sensor data synchronously by calling [**ISensor::GetData**](https://msdn.microsoft.com/library/Dd318870(v=VS.85).aspx).
+You can retrieve sensor data synchronously by calling [**ISensor::GetData**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensor-getdata).
 
 The following example code retrieves a sensor data report, and then retrieves three individual data field values. The sample sensor provides custom data about the current local time in hour, minute, and second data fields. The variable named pSensor contains a pointer to [**ISensor**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor) that represents the sensor that supplies the data.
 
@@ -80,9 +80,9 @@ if(SUCCEEDED(hr))
 
 ## Retrieving Data Asynchronously
 
-You can receive sensor data asynchronously by registering to receive the [**ISensorEvents::OnDataUpdated**](https://msdn.microsoft.com/library/Dd318859(v=VS.85).aspx) event. To understand how to receive sensor event callbacks, see [Using Sensor API Events](using-sensor-api-events.md).
+You can receive sensor data asynchronously by registering to receive the [**ISensorEvents::OnDataUpdated**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensorevents-ondataupdated) event. To understand how to receive sensor event callbacks, see [Using Sensor API Events](using-sensor-api-events.md).
 
-The following example code shows an implementation of [**ISensorEvents::OnDataUpdated**](https://msdn.microsoft.com/library/Dd318859(v=VS.85).aspx) that retrieves data values from the data report provided by the event. The sample sensor provides custom data about the current local time in hour, minute, and second data fields.
+The following example code shows an implementation of [**ISensorEvents::OnDataUpdated**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensorevents-ondataupdated) that retrieves data values from the data report provided by the event. The sample sensor provides custom data about the current local time in hour, minute, and second data fields.
 
 
 ```C++
@@ -165,6 +165,3 @@ STDMETHODIMP OnDataUpdated(
  
 
  
-
-
-

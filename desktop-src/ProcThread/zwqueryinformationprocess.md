@@ -126,7 +126,7 @@ typedef struct _PROCESS_BASIC_INFORMATION {
 } PROCESS_BASIC_INFORMATION;
 ```
 
-The **UniqueProcessId** member points to the system's unique identifier for this process. It is best to use the [**GetProcessId**](https://msdn.microsoft.com/library/ms683215(v=VS.85).aspx) function to retrieve this information.
+The **UniqueProcessId** member points to the system's unique identifier for this process. It is best to use the [**GetProcessId**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessid) function to retrieve this information.
 
 The **PebBaseAddress** member points to a [**PEB**](/windows/desktop/api/Winternl/ns-winternl-peb) structure.
 
@@ -139,7 +139,7 @@ The other members of this structure are reserved for internal use by the operati
 
 When the *ProcessInformationClass* parameter is **ProcessWow64Information**, the buffer pointed to by the *ProcessInformation* parameter should be large enough to hold a **ULONG\_PTR**. If this value is nonzero, the process is running in a WOW64 environment; otherwise, if the value is equal to zero, the process is not running in a WOW64 environment.
 
-It is best to use the [**IsWow64Process**](https://msdn.microsoft.com/library/ms684139(v=VS.85).aspx) function to determine whether a process is running in the WOW64 environment.
+It is best to use the [**IsWow64Process**](/windows/win32/api/wow64apiset/nf-wow64apiset-iswow64process) function to determine whether a process is running in the WOW64 environment.
 
 </dd> <dt>
 
@@ -223,9 +223,9 @@ The forms and significance of NTSTATUS error codes are listed in the Ntstatus.h 
 
 The **ZwQueryInformationProcess** function and the structures that it returns are internal to the operating system and subject to change from one release of Windows to another. To maintain the compatibility of your application, it is better to use public functions mentioned in the description of the *ProcessInformationClass* parameter instead.
 
-If you do use **ZwQueryInformationProcess**, access the function through [run-time dynamic linking](https://msdn.microsoft.com/library/ms686944(v=VS.85).aspx). This gives your code an opportunity to respond gracefully if the function has been changed or removed from the operating system. Signature changes, however, may not be detectable.
+If you do use **ZwQueryInformationProcess**, access the function through [run-time dynamic linking](../dlls/using-run-time-dynamic-linking.md). This gives your code an opportunity to respond gracefully if the function has been changed or removed from the operating system. Signature changes, however, may not be detectable.
 
-This function has no associated import library. You must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Ntdll.dll.
+This function has no associated import library. You must use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Ntdll.dll.
 
 ## Requirements
 
@@ -243,22 +243,18 @@ This function has no associated import library. You must use the [**LoadLibrary*
 
 <dl> <dt>
 
-[**CheckRemoteDebuggerPresent**](https://msdn.microsoft.com/library/ms679280(v=VS.85).aspx)
+[**CheckRemoteDebuggerPresent**](/windows/win32/api/debugapi/nf-debugapi-checkremotedebuggerpresent)
 </dt> <dt>
 
-[**GetProcessId**](https://msdn.microsoft.com/library/ms683215(v=VS.85).aspx)
+[**GetProcessId**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessid)
 </dt> <dt>
 
-[**IsDebuggerPresent**](https://msdn.microsoft.com/library/ms680345(v=VS.85).aspx)
+[**IsDebuggerPresent**](/windows/win32/api/debugapi/nf-debugapi-isdebuggerpresent)
 </dt> <dt>
 
-[**IsWow64Process**](https://msdn.microsoft.com/library/ms684139(v=VS.85).aspx)
+[**IsWow64Process**](/windows/win32/api/wow64apiset/nf-wow64apiset-iswow64process)
 </dt> </dl>
 
  
 
  
-
-
-
-

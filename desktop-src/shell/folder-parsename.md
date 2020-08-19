@@ -37,7 +37,7 @@ retVal = Folder.ParseName(
 *bName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A string that specifies the name of the item.
 
@@ -158,7 +158,3 @@ End Sub
  
 
  
-
-
-
-

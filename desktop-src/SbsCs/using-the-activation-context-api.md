@@ -24,7 +24,7 @@ The application programming interface (API) can be used to manage the activation
     ReleaseActCtx(&ActCtx);  
     </dl>
 
-    In the following code fragment, the API function activates the appropriate activation contexts before calling [**CallWindowProc**](https://msdn.microsoft.com/library/ms633571(v=VS.85).aspx). When **CallWindowProc** is called, it uses this context to pass a message to Windows. When all resource operations have completed, the function will deactivate the context.
+    In the following code fragment, the API function activates the appropriate activation contexts before calling [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca). When **CallWindowProc** is called, it uses this context to pass a message to Windows. When all resource operations have completed, the function will deactivate the context.
 
     <dl> ULONG\_PTR ulpCookie;  
     HANDLE hActCtx;  
@@ -65,6 +65,3 @@ The application programming interface (API) can be used to manage the activation
  
 
  
-
-
-

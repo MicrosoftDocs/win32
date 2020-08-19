@@ -17,9 +17,9 @@ api_location:
 
 # SignedData.Verify method
 
-\[The **Verify** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](https://msdn.microsoft.com/library/kz82bs5e(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
+\[The **Verify** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](/dotnet/api/system.security.cryptography.pkcs.signedcms?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
 
-The **Verify** method determines whether the [*signatures*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) on signed data in the [**SignedData**](signeddata.md) object are valid. To verify a signature, the encrypted [*hash*](https://msdn.microsoft.com/library/ms721586(v=VS.85).aspx) of the contents is decrypted by using the signer's public key from the signer's certificate. The decrypted hash is compared to a new hash of the data content. A signature is valid if the hashes match. In addition, this method also builds a certificate chain to determine the validity of the certificate that provides the [*public key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) used to decrypt the hash.
+The **Verify** method determines whether the [*signatures*](../secgloss/d-gly.md) on signed data in the [**SignedData**](signeddata.md) object are valid. To verify a signature, the encrypted [*hash*](../secgloss/h-gly.md) of the contents is decrypted by using the signer's public key from the signer's certificate. The decrypted hash is compared to a new hash of the data content. A signature is valid if the hashes match. In addition, this method also builds a certificate chain to determine the validity of the certificate that provides the [*public key*](../secgloss/p-gly.md) used to decrypt the hash.
 
 ## Syntax
 
@@ -100,7 +100,3 @@ If this method fails, an error will be thrown. The **Err** object will contain a
  
 
  
-
-
-
-

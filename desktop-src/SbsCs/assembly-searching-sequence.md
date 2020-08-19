@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Assembly Searching Sequence
 
-If an isolated application specifies an assembly dependency, side-by-side first searches for the assembly among the [shared assemblies](https://docs.microsoft.com/windows/desktop/Msi/shared-assemblies) in the WinSxS folder. If the required assembly is not found, side-by-side then searches for a private assembly installed in a folder of the application's directory structure.
+If an isolated application specifies an assembly dependency, side-by-side first searches for the assembly among the [shared assemblies](/windows/desktop/Msi/shared-assemblies) in the WinSxS folder. If the required assembly is not found, side-by-side then searches for a private assembly installed in a folder of the application's directory structure.
 
-[Private assemblies](https://docs.microsoft.com/windows/desktop/Msi/private-assemblies) may be deployed in the following locations in the application's directory structure:
+[Private assemblies](/windows/desktop/Msi/private-assemblies) may be deployed in the following locations in the application's directory structure:
 
 -   In the application's folder. Typically, this is the folder containing the application's executable file.
 -   In a subfolder in the application's folder. The subfolder must have the same name as the assembly.
@@ -63,7 +63,7 @@ For example, if myapp is installed at the root of drive c: and requires myasm in
 24. c:\\myapp\\myasm\\myasm.dll
 25. c:\\myapp\\myasm\\myasm.manifest
 
-If side-by-side searching reaches a language-neutral version of the assembly, and a [Multilanguage User Interface (MUI)](https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface) version of Windows is present on the system, side-by-side then attempts to bind to <*assemblyname*>.mui. Side-by-side does not attempt to bind to <*assemblyname*>.mui if the search reaches a localized version of the assembly. The [assembly manifest](assembly-manifests.md) of a language-neutral assembly will not have a language attribute in its **assemblyIdentity** element. If side-by-side reaches a language-neutral assembly, and MUI is installed, side-by-side searches the following locations using the following sequence for <*assemblyname*>.mui. Side-by-side uses the same search sequence if the assembly is culture-neutral, except <*no language*> is not searched.
+If side-by-side searching reaches a language-neutral version of the assembly, and a [Multilanguage User Interface (MUI)](/windows/desktop/Intl/multilingual-user-interface) version of Windows is present on the system, side-by-side then attempts to bind to <*assemblyname*>.mui. Side-by-side does not attempt to bind to <*assemblyname*>.mui if the search reaches a localized version of the assembly. The [assembly manifest](assembly-manifests.md) of a language-neutral assembly will not have a language attribute in its **assemblyIdentity** element. If side-by-side reaches a language-neutral assembly, and MUI is installed, side-by-side searches the following locations using the following sequence for <*assemblyname*>.mui. Side-by-side uses the same search sequence if the assembly is culture-neutral, except <*no language*> is not searched.
 
 1.  Side-by-side searches the WinSxS folder for <*assemblyname*>.mui.
 2.  \\\\<*user's language-culture*>\\<*assemblyname*>.mui
@@ -98,6 +98,3 @@ For example, if side-by-side searching finds the private assembly at c:\\myapp\\
  
 
  
-
-
-

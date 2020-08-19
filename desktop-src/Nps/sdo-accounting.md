@@ -11,13 +11,9 @@ ms.date: 05/31/2018
 
 Use the following enumeration types when administering accounting on the SDO computer.
 
--   [**ACCOUNTINGPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-accountingproperties)
--   [**NEW\_LOG\_FILE\_FREQUENCY**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-new_log_file_frequency)
+-   [**ACCOUNTINGPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-accountingproperties)
+-   [**NEW\_LOG\_FILE\_FREQUENCY**](/windows/desktop/api/sdoias/ne-sdoias-new_log_file_frequency)
 
  
 
  
-
-
-
-

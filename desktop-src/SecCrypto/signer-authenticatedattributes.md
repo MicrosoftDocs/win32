@@ -17,7 +17,7 @@ api_location:
 
 # Signer.AuthenticatedAttributes property
 
-\[The **AuthenticatedAttributes** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsSigner Class**](https://msdn.microsoft.com/library/5x3db70t(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
+\[The **AuthenticatedAttributes** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsSigner Class**](/dotnet/api/system.security.cryptography.pkcs.cmssigner?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
 
 The **AuthenticatedAttributes** property retrieves the collection of authenticated attributes.
 
@@ -55,7 +55,3 @@ An [**Attributes**](attributes.md) collection that represents the signer's authe
  
 
  
-
-
-
-

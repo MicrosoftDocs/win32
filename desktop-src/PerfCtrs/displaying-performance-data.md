@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Displaying Performance Data
 
-Most counters require two sample values in order to compute a displayable value. The formula for each counter determines if the counter requires two samples. For a list of counters and their formulas, see the Counter Types section of the [Windows Server 2003 Deployment Kit](https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2).
+Most counters require two sample values in order to compute a displayable value. The formula for each counter determines if the counter requires two samples. For a list of counters and their formulas, see the Counter Types section of the [Windows Server 2003 Deployment Kit](/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)).
 
 [Collecting Performance Data](collecting-performance-data.md) shows how to retrieve sample data. Once you have the samples, you typically call [**PdhGetFormattedCounterValue**](/windows/desktop/api/Pdh/nf-pdh-pdhgetformattedcountervalue) to calculate a displayable value.
 
@@ -29,6 +29,3 @@ You can also use this function to compress a log file. For example, read ten rec
  
 
  
-
-
-

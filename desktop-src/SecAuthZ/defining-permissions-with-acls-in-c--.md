@@ -14,7 +14,7 @@ You can use ACLs to control access to protected resources. Define which clients 
 
 | Topic                                                                                                                | Description                                                                                                                                                                                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Modifying the ACLs of an Object in C++](modifying-the-acls-of-an-object-in-c--.md)                                 | Add or remove an [*access control entry*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACE) to the [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL) of an object. |
+| [Modifying the ACLs of an Object in C++](modifying-the-acls-of-an-object-in-c--.md)                                 | Add or remove an [*access control entry*](/windows/desktop/SecGloss/a-gly) (ACE) to the [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) of an object. |
 | [Creating a Security Descriptor for a New Object in C++](creating-a-security-descriptor-for-a-new-object-in-c--.md) | Create a security descriptor for a new object.                                                                                                                                                                                                                                                                          |
 | [Controlling Child Object Creation in C++](controlling-child-object-creation-in-c--.md)                             | Use the DACL of a container object to control who is allowed to create child objects within the container.                                                                                                                                                                                                              |
 | [Enabling and Disabling Privileges in C++](enabling-and-disabling-privileges-in-c--.md)                             | Allow or disallow a process to perform system-level actions.                                                                                                                                                                                                                                                            |
@@ -26,6 +26,3 @@ You can use ACLs to control access to protected resources. Define which clients 
  
 
  
-
-
-

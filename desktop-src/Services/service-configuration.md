@@ -16,7 +16,7 @@ To retrieve the configuration information for a service object, the configuratio
 
 The [**ChangeServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfig2a) and [**QueryServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-queryserviceconfig2a) service configuration functions support the use of triggers to control service start.
 
-To modify the security descriptor for either an SCManager object or a service object, a configuration program uses the [**SetServiceObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) function. To retrieve a copy of the security descriptor, the configuration program uses the [**QueryServiceObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) function.
+To modify the security descriptor for either an SCManager object or a service object, a configuration program uses the [**SetServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) function. To retrieve a copy of the security descriptor, the configuration program uses the [**QueryServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) function.
 
 ## Related topics
 
@@ -28,6 +28,3 @@ To modify the security descriptor for either an SCManager object or a service ob
  
 
  
-
-
-

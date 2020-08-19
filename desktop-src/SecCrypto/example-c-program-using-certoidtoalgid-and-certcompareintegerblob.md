@@ -12,11 +12,11 @@ The following example demonstrates using the [**CertOIDToAlgId**](/windows/deskt
 
 First, all available OIDs are enumerated using [**CryptEnumOIDInfo**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumoidinfo). Code used with this function also demonstrates the use of a callback function. The callback function demonstrates break logic to pause between each OID group and after presenting information on a set number of OIDs.
 
-Second, three [*object identifier*](https://msdn.microsoft.com/library/ms721599(v=VS.85).aspx) (OID) strings are converted into **DWORD** algorithm identifier integers using [**CertOIDToAlgId**](/windows/desktop/api/Wincrypt/nf-wincrypt-certoidtoalgid). The code also demonstrates that all OID strings do not have related algorithm identifiers.
+Second, three [*object identifier*](../secgloss/o-gly.md) (OID) strings are converted into **DWORD** algorithm identifier integers using [**CertOIDToAlgId**](/windows/desktop/api/Wincrypt/nf-wincrypt-certoidtoalgid). The code also demonstrates that all OID strings do not have related algorithm identifiers.
 
 Finally, the example demonstrates comparing integer BLOBs. This example demonstrates the truncation of leading 0x00's from positive numbers and leading 0xFF's from negative numbers.
 
-It also shows that integers are compared as though they are stored in [*little-endian*](https://msdn.microsoft.com/library/ms721592(v=VS.85).aspx) form with the most significant digits on the right.
+It also shows that integers are compared as though they are stored in [*little-endian*](../secgloss/l-gly.md) form with the most significant digits on the right.
 
 
 ```C++
@@ -303,6 +303,3 @@ void my_wait(char* s)
  
 
  
-
-
-

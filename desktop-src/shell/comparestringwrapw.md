@@ -17,12 +17,12 @@ api_location:
 
 # CompareStringWrapW function
 
-\[**CompareStringWrapW** is available for use in Windows XP. It will not be available in subsequent versions. You should use [**CompareStringW**](https://msdn.microsoft.com/library/Dd317759(v=VS.85).aspx) in its place.\]
+\[**CompareStringWrapW** is available for use in Windows XP. It will not be available in subsequent versions. You should use [**CompareStringW**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) in its place.\]
 
 Compares two Unicode character strings, using a specified locale.
 
 > [!Note]  
-> **CompareStringWrapW** is a wrapper for the **CompareStringW** function. See the [**CompareString**](https://msdn.microsoft.com/library/Dd317759(v=VS.85).aspx) page for further usage notes.
+> **CompareStringWrapW** is a wrapper for the **CompareStringW** function. See the [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) page for further usage notes.
 
  
 
@@ -51,7 +51,7 @@ int CompareStringWrapW(
 
 Type: **LCID**
 
-A locale identifier used for the comparison. This parameter can be one of the following predefined locale identifiers or a locale identifier created by the [**MAKELCID**](https://msdn.microsoft.com/library/Dd319052(v=VS.85).aspx) macro.
+A locale identifier used for the comparison. This parameter can be one of the following predefined locale identifiers or a locale identifier created by the [**MAKELCID**](/windows/win32/api/winnt/nf-winnt-makelcid) macro.
 
 <dt>
 
@@ -192,7 +192,7 @@ The number of characters in the string pointed to by the *lpString2* parameter. 
 
 Type: **int**
 
-If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx). **GetLastError** may return one of the following error codes.
+If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). **GetLastError** may return one of the following error codes.
 
 -   ERROR\_INVALID\_FLAGS
 -   ERROR\_INVALID\_PARAMETER
@@ -211,9 +211,9 @@ If the function succeeds, the return value is one of the following values.
 
 ## Remarks
 
-**Security Warning:** Using this function incorrectly can compromise the security of your application. Strings that are not compared correctly can produce invalid input. Test strings to make sure they are valid before using them and provide error handlers. For more information, see [Security Considerations: International Features](https://msdn.microsoft.com/library/Dd374047(v=VS.85).aspx)
+**Security Warning:** Using this function incorrectly can compromise the security of your application. Strings that are not compared correctly can produce invalid input. Test strings to make sure they are valid before using them and provide error handlers. For more information, see [Security Considerations: International Features](../intl/security-considerations--international-features.md)
 
-The preferred method is to use [**CompareStringW**](https://msdn.microsoft.com/library/Dd317759(v=VS.85).aspx) in conjunction with the Microsoft Layer for Unicode (MSLU).
+The preferred method is to use [**CompareStringW**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) in conjunction with the Microsoft Layer for Unicode (MSLU).
 
 **CompareStringWrapW** must be called directly from Shlwapi.dll, using ordinal 45.
 
@@ -234,13 +234,9 @@ The preferred method is to use [**CompareStringW**](https://msdn.microsoft.com/l
 
 <dl> <dt>
 
-[**CompareString**](https://msdn.microsoft.com/library/Dd317759(v=VS.85).aspx)
+[**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -28,7 +28,7 @@ These topics describe the documents and printing features of Windows that enable
 <tbody>
 <tr class="odd">
 <td><a href="https://docs.microsoft.com/windows/desktop/printdocs/what-s-new-for-printing-in-windows-vnext">What's New for Printing</a><br/></td>
-<td>Windows 8 supports <a href="https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10)">printing for Windows Store apps using JavaScript and HTML</a> and <a href="https://docs.microsoft.com/previous-versions/windows/apps/hh465196(v=win.10)">printing for Windows Store apps using C#/VB/C++ and XAML</a>.<br/> Windows 8 also includes a new COM-based API that provides full support for Open XPS and access to portions of the new printer drivers that Windows 8 supports. For more information about the new API, see <a href="https://docs.microsoft.com/windows/desktop/printdocs/tailored-app-printing-api">Print Document Package API</a>.<br/> The Windows Print Driver Inbox Program makes sure that Windows 8 includes support for a high percentage of the popular printers.<br/></td>
+<td>Windows 8 supports <a href="/previous-versions/windows/apps/hh465225(v=win.10)">printing for Windows Store apps using JavaScript and HTML</a> and <a href="https://docs.microsoft.com/previous-versions/windows/apps/hh465196(v=win.10)">printing for Windows Store apps using C#/VB/C++ and XAML</a>.<br/> Windows 8 also includes a new COM-based API that provides full support for Open XPS and access to portions of the new printer drivers that Windows 8 supports. For more information about the new API, see <a href="https://docs.microsoft.com/windows/desktop/printdocs/tailored-app-printing-api">Print Document Package API</a>.<br/> The Windows Print Driver Inbox Program makes sure that Windows 8 includes support for a high percentage of the popular printers.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="https://docs.microsoft.com/windows/desktop/printdocs/jobbindalldocuments">XPS Documents</a><br/></td>
@@ -49,7 +49,7 @@ These topics describe the documents and printing features of Windows that enable
 <li><p><a href="xps-printing.md">XPS Print API</a><br/> Provides an interface to the print spooler that applications can use to send XPS documents to a printer.</p>
 <blockquote>
 [!Note]<br />
-The XPS Print API is not supported and may be altered or unavailable in the future. Client applications should use the <a href="https://docs.microsoft.com/windows/desktop/printdocs/tailored-app-printing-api">Print Document Package API</a> instead.
+The XPS Print API is not supported and may be altered or unavailable in the future. Client applications should use the <a href="/windows/desktop/printdocs/tailored-app-printing-api">Print Document Package API</a> instead.
 </blockquote>
 <p><br/> <br/></p></li>
 </ul></td>
@@ -69,21 +69,16 @@ The XPS Print API is not supported and may be altered or unavailable in the futu
 
 The [Print Sample sample app](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/Print%20sample%20(Windows%208)) demonstrates how to print from a Windows Store app starting with Windows 8.
 
-The features described in this section are for native Windows programming. To use similar features in .NET (managed) programming, see [Windows Presentation Foundation Documents](https://msdn.microsoft.com/library/ms749165(v=VS.85).aspx).
+The features described in this section are for native Windows programming. To use similar features in .NET (managed) programming, see [Windows Presentation Foundation Documents](/previous-versions/dotnet/netframework-3.0/ms749165(v=vs.85)).
 
-XPS documents are built on the [Packaging](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging) API. See the Packaging API, for lower level access to the contents of an XPS document.
+XPS documents are built on the [Packaging](/previous-versions/windows/desktop/opc/packaging) API. See the Packaging API, for lower level access to the contents of an XPS document.
 
 ## Related topics
 
 <dl> <dt>
 
-[Bidirectional printer communications (Hardware Dev Center)](https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication?redirectedfrom=MSDN)
+[Bidirectional printer communications (Hardware Dev Center)](/windows-hardware/drivers/print/bidirectional-communication)
 </dt> </dl>
 
  
-
- 
-
-
-
 

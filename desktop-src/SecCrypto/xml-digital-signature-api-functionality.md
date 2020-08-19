@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XML Digital Signature API Functionality
 
-CryptXML provides a low level set of APIs that allow applications to create and verify enveloped, enveloping, and detached signatures. You can use CryptXML to create and verify content stored in signature object elements, including manifests. A public/private, shared key, or an [*X.509*](https://msdn.microsoft.com/library/ms721636(v=VS.85).aspx) certificate or certificate chain can be used to sign and verify the XML [*digital signature*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx).
+CryptXML provides a low level set of APIs that allow applications to create and verify enveloped, enveloping, and detached signatures. You can use CryptXML to create and verify content stored in signature object elements, including manifests. A public/private, shared key, or an [*X.509*](../secgloss/x-gly.md) certificate or certificate chain can be used to sign and verify the XML [*digital signature*](../secgloss/d-gly.md).
 
 Applications that use CryptXML to verify external references (references that target an external document or file outside of the document context) must resolve the external URIs and retrieve the data to be digested.
 
@@ -46,7 +46,3 @@ By default, CryptXML does not support XPath or XSLT transforms. If required, app
  
 
  
-
-
-
-

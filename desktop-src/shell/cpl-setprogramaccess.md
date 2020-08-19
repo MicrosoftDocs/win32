@@ -100,7 +100,7 @@ A fourth category titled "Computer Manufacturer" can appear in the SPAD window o
 
 ### The LastUserInitiatedDefaultChange Registry Value
 
-The LastUserInitiatedDefaultChange value has been added to the registry to assist applications in recognizing and respecting the user's default choices. The value holds REG\_BINARY data in the form of a [**FILETIME**](https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx) structure that contains the date and time (in Coordinated Universal Time (UTC)) of the last time the user changed a default choice through the **Set Program Access and Computer Defaults** tool. This value is found under the following subkey.
+The LastUserInitiatedDefaultChange value has been added to the registry to assist applications in recognizing and respecting the user's default choices. The value holds REG\_BINARY data in the form of a [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure that contains the date and time (in Coordinated Universal Time (UTC)) of the last time the user changed a default choice through the **Set Program Access and Computer Defaults** tool. This value is found under the following subkey.
 
 ```
 HKEY_LOCAL_MACHINE
@@ -140,7 +140,7 @@ Microsoft and non-Microsoft applications that use the Windows Installer do not n
 
 The following example illustrates which registry values to declare for an installation to be recognized as an update to an existing program.
 
-1.  The parent application must add its uninstall information in a subkey under the **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**Uninstall** subkey. See the [Installation](https://msdn.microsoft.com/library/ms997548(v=MSDN.10).aspx) topic for more information on using the **Uninstall** subkey.
+1.  The parent application must add its uninstall information in a subkey under the **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**Uninstall** subkey. See the [Installation](/previous-versions/ms997548(v=msdn.10)) topic for more information on using the **Uninstall** subkey.
 2.  Each update to that parent application also must add its information as a subkey of the **Uninstall** subkey. It should use a particular naming convention of its choice, attempting to avoid potential conflicts with other programs. The following conventions are reserved as subkey names by Microsoft for use with Windows updates.
     -   IEUpdate
     -   OEUpdate
@@ -206,15 +206,15 @@ This value is of type REG\_DWORD and is interpreted as follows.
 DontGroupPatches has no effect in Windows Vista and Windows 7, where the UI contains no check box and registered updates are always filtered.
 
 > [!Note]  
-> Policies are set only by administrators. Applications should not alter this value. For more information on how to set a registry-based Group Policy, see [Group Policy](https://msdn.microsoft.com/library/Aa374177(v=VS.85).aspx) or [Windows Server Group Policy](https://technet.microsoft.com/windowsserver/bb310732.aspx).
+> Policies are set only by administrators. Applications should not alter this value. For more information on how to set a registry-based Group Policy, see [Group Policy](/previous-versions/windows/desktop/Policy/group-policy-start-page) or [Windows Server Group Policy](/windows/deployment/deploy-whats-new).
 
  
 
 ## Additional Resources
 
 -   [Registering Programs with Client Types](reg-middleware-apps.md)
--   [Installation](https://msdn.microsoft.com/library/ms997548(v=MSDN.10).aspx)
--   [Configuring Add/Remove Programs with Windows Installer](https://msdn.microsoft.com/library/Aa368032(v=VS.85).aspx)
+-   [Installation](/previous-versions/ms997548(v=msdn.10))
+-   [Configuring Add/Remove Programs with Windows Installer](../msi/configuring-add-remove-programs-with-windows-installer.md)
 
 ## Related topics
 
@@ -235,6 +235,3 @@ DontGroupPatches has no effect in Windows Vista and Windows 7, where the UI co
  
 
  
-
-
-

@@ -50,7 +50,7 @@ A **ULONG** value that represents the number of interfaces to retrieve.
 *rgelt* \[out\]
 </dt> <dd>
 
-Type: **[**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx)\*\***
+Type: **[**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)\*\***
 
 The address of a pointer that receives the interfaces.
 
@@ -112,7 +112,3 @@ The value of *celt* should not exceed the value returned by [**IEnumUserIdentity
  
 
  
-
-
-
-

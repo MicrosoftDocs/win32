@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Memory Orphaning
 
-If your distributed application uses an \[ [in](https://docs.microsoft.com/windows/desktop/Midl/in), [out](https://docs.microsoft.com/windows/desktop/Midl/out-idl), [unique](https://docs.microsoft.com/windows/desktop/Midl/unique)\] or \[**in**, **out**, [ptr](https://docs.microsoft.com/windows/desktop/Midl/ptr)\] pointer parameter, the server side of the application can change the value of the pointer parameter to null. When the server subsequently returns the null value to the client, memory referenced by the pointer before the remote procedure call is still present on the client side, but is no longer accessible from that pointer (except in the case of an aliased full pointer). This memory is said to be *orphaned*. This is also termed a *memory leak*. Repeated orphaning of memory on the client causes the client to run out of available memory resources.
+If your distributed application uses an \[ [in](/windows/desktop/Midl/in), [out](/windows/desktop/Midl/out-idl), [unique](/windows/desktop/Midl/unique)\] or \[**in**, **out**, [ptr](/windows/desktop/Midl/ptr)\] pointer parameter, the server side of the application can change the value of the pointer parameter to null. When the server subsequently returns the null value to the client, memory referenced by the pointer before the remote procedure call is still present on the client side, but is no longer accessible from that pointer (except in the case of an aliased full pointer). This memory is said to be *orphaned*. This is also termed a *memory leak*. Repeated orphaning of memory on the client causes the client to run out of available memory resources.
 
 Memory can also be orphaned whenever the server changes an embedded pointer to a null value. For example, if the parameter points to a complex data structure such as a tree, the server side of the application can delete nodes of the tree and set pointers inside the tree to null.
 
@@ -17,7 +17,3 @@ Another situation that can lead to a memory leak involves conformant, varying, a
  
 
  
-
-
-
-

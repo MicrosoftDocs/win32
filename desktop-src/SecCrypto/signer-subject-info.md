@@ -61,7 +61,7 @@ This member is reserved. It must be set to zero.
 **dwSubjectChoice**
 </dt> <dd>
 
-Specifies whether the subject is a file or a [*BLOB*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx). This member can be one or more of the following values.
+Specifies whether the subject is a file or a [*BLOB*](../secgloss/b-gly.md). This member can be one or more of the following values.
 
 
 
@@ -114,7 +114,3 @@ A pointer to a [**SIGNER\_BLOB\_INFO**](signer-blob-info.md) structure that spec
  
 
  
-
-
-
-

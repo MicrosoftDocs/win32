@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Establishing a Client Context from a SID in C++
 
-Use a [*security identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SID) to identify a user, group, or computer account. Use SIDs to check access rights to resources.
+Use a [*security identifier*](/windows/desktop/SecGloss/s-gly) (SID) to identify a user, group, or computer account. Use SIDs to check access rights to resources.
 
 
 
@@ -24,6 +24,3 @@ Use a [*security identifier*](https://docs.microsoft.com/windows/desktop/SecGlos
  
 
  
-
-
-

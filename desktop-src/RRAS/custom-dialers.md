@@ -20,7 +20,7 @@ Windows 2000 and later operating systems enable developers to provide their own
 
 The custom-dial DLL must export all of these entry points, and it must implement the entry points as Unicode functions. For more information about these functions, see the reference page for each function in the Windows SDK Remote Access Service Reference.
 
-In order for a RAS connection to use the custom dialer, the phone-book entry for the connection must contain the path to the custom-dial DLL. Use the RAS API functions [**RasGetEntryProperties**](/windows/desktop/api/Ras/nf-ras-rasgetentrypropertiesa) and [**RasSetEntryProperties**](/windows/desktop/api/Ras/nf-ras-rassetentrypropertiesa) to set this path in the **szCustomDialDll** member of the [**RASENTRY**](https://msdn.microsoft.com/library/Aa377274(v=VS.85).aspx) structure for the phone-book entry.
+In order for a RAS connection to use the custom dialer, the phone-book entry for the connection must contain the path to the custom-dial DLL. Use the RAS API functions [**RasGetEntryProperties**](/windows/desktop/api/Ras/nf-ras-rasgetentrypropertiesa) and [**RasSetEntryProperties**](/windows/desktop/api/Ras/nf-ras-rassetentrypropertiesa) to set this path in the **szCustomDialDll** member of the [**RASENTRY**](/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)) structure for the phone-book entry.
 
 ## Updating the Registry for Custom Dialers
 
@@ -61,7 +61,3 @@ If the custom dialer displays a user interface, the user interface must support 
  
 
  
-
-
-
-

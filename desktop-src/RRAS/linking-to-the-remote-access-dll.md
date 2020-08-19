@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Linking to the Remote Access DLL
 
-If an application links statically to the RASAPI32 DLL, the application will fail to load if Remote Access Service is not installed. A RAS application can load when RAS is not installed by using [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) to load the DLL, and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) to obtain pointers to the RAS functions.
+If an application links statically to the RASAPI32 DLL, the application will fail to load if Remote Access Service is not installed. A RAS application can load when RAS is not installed by using [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) to load the DLL, and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) to obtain pointers to the RAS functions.
 
 The RAS functions are located in RASAPI32.DLL. The import library for these functions is RASAPI32.LIB. To use the RAS functions, your programs must include the following files:
 
@@ -26,7 +26,3 @@ The RAS functions are located in RASAPI32.DLL. The import library for these func
  
 
  
-
-
-
-

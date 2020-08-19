@@ -14,16 +14,12 @@ ms.date: 05/31/2018
 
  
 
-To obtain SDOs for NPS (IAS) or a particular user, call the [**ISdoMachine::GetServiceSDO**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getservicesdo) or [**ISdoMachine::GetUserSDO**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getusersdo) methods. These methods return pointers to [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interfaces for these objects. For the user SDO, use the [**IUnknown::QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) method to obtain an [**ISdo**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo) interface for the object. For the service SDO, use **IUnknown::QueryInterface** to obtain an [**ISdo**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo) interface or [**ISdoServiceControl**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdoservicecontrol) interface.
+To obtain SDOs for NPS (IAS) or a particular user, call the [**ISdoMachine::GetServiceSDO**](/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getservicesdo) or [**ISdoMachine::GetUserSDO**](/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getusersdo) methods. These methods return pointers to [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interfaces for these objects. For the user SDO, use the [**IUnknown::QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) method to obtain an [**ISdo**](/windows/desktop/api/sdoias/nn-sdoias-isdo) interface for the object. For the service SDO, use **IUnknown::QueryInterface** to obtain an [**ISdo**](/windows/desktop/api/sdoias/nn-sdoias-isdo) interface or [**ISdoServiceControl**](/windows/desktop/api/sdoias/nn-sdoias-isdoservicecontrol) interface.
 
-Before calling either [**ISdoMachine::GetServiceSDO**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getservicesdo) or [**ISdoMachine::GetUserSDO**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getusersdo), call [**ISdoMachine::Attach**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach) to associate the machine object with the local computer.
+Before calling either [**ISdoMachine::GetServiceSDO**](/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getservicesdo) or [**ISdoMachine::GetUserSDO**](/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getusersdo), call [**ISdoMachine::Attach**](/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach) to associate the machine object with the local computer.
 
-See [Retrieving a Service SDO](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-service-sdo) and [Retrieving a User SDO](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-user-sdo) for sample code that demonstrates how to obtain these SDOs.
-
- 
+See [Retrieving a Service SDO](/windows/desktop/Nps/sdo-retrieving-a-service-sdo) and [Retrieving a User SDO](/windows/desktop/Nps/sdo-retrieving-a-user-sdo) for sample code that demonstrates how to obtain these SDOs.
 
  
 
-
-
-
+ 

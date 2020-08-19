@@ -29,7 +29,7 @@ Exposes methods that are used to initialize a most recently used (MRU) list for 
 
 ## Members
 
-The **IACLCustomMRU** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IACLCustomMRU** also has these types of members:
+The **IACLCustomMRU** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IACLCustomMRU** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -62,7 +62,3 @@ The **IACLCustomMRU** interface has these methods.
  
 
  
-
-
-
-
