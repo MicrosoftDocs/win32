@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_CHAR message
 
-Sent to an application when the IME gets a character of the conversion result. A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+Sent to an application when the IME gets a character of the conversion result. A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -67,9 +67,9 @@ The repeat count, scan code, extended key flag, context code, previous key state
 
 ## Remarks
 
-Unlike the [**WM\_CHAR**](https://msdn.microsoft.com/library/ms646276(v=VS.85).aspx) message for a non-Unicode window, this message can include double-byte and single-byte character values. For a Unicode window, this message is the same as WM\_CHAR.
+Unlike the [**WM\_CHAR**](../inputdev/wm-char.md) message for a non-Unicode window, this message can include double-byte and single-byte character values. For a Unicode window, this message is the same as WM\_CHAR.
 
-For a non-Unicode window, if the WM\_IME\_CHAR message includes a double-byte character and the application passes this message to [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx), the IME converts this message into two WM\_CHAR messages, each containing one byte of the double-byte character.
+For a non-Unicode window, if the WM\_IME\_CHAR message includes a double-byte character and the application passes this message to [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca), the IME converts this message into two WM\_CHAR messages, each containing one byte of the double-byte character.
 
 ## Requirements
 
@@ -96,7 +96,3 @@ For a non-Unicode window, if the WM\_IME\_CHAR message includes a double-byte ch
  
 
  
-
-
-
-

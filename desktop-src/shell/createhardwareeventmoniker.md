@@ -69,9 +69,9 @@ The name of the event handler.
 *ppmoniker* \[out\]
 </dt> <dd>
 
-Type: **[**IMoniker**](https://msdn.microsoft.com/library/ms679705(v=VS.85).aspx)\*\***
+Type: **[**IMoniker**](/windows/win32/api/objidl/nn-objidl-imoniker)\*\***
 
-The address of a pointer variable that receives the [**IMoniker**](https://msdn.microsoft.com/library/ms679705(v=VS.85).aspx) interface pointer.
+The address of a pointer variable that receives the [**IMoniker**](/windows/win32/api/objidl/nn-objidl-imoniker) interface pointer.
 
 </dd> </dl>
 
@@ -87,9 +87,9 @@ Use **CreateHardwareEventMoniker** when registering running applications so that
 
 You should call **CreateHardwareEventMoniker** to get a moniker that represents your component and its event handler. Then, use the value returned in the *ppmoniker* parameter to register your component in the running object table (ROT) as shown in the example.
 
-Note that **CreateHardwareEventMoniker** is not defined in a header file. To use it in your code, you must obtain a handle to the Shsvcs.dll file through a call to [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx). You then use that handle in a call to [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) to obtain an instance of the **CreateHardwareEventMoniker** function.
+Note that **CreateHardwareEventMoniker** is not defined in a header file. To use it in your code, you must obtain a handle to the Shsvcs.dll file through a call to [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya). You then use that handle in a call to [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) to obtain an instance of the **CreateHardwareEventMoniker** function.
 
-The call to [**IRunningObjectTable::Register**](https://msdn.microsoft.com/library/ms680747(v=VS.85).aspx) requires that you enter the following **AppID** information in the registry.
+The call to [**IRunningObjectTable::Register**](/windows/win32/api/objidl/nf-objidl-irunningobjecttable-register) requires that you enter the following **AppID** information in the registry.
 
 ```
 HKEY_CLASSES_ROOT
@@ -123,7 +123,3 @@ HKEY_CLASSES_ROOT
  
 
  
-
-
-
-

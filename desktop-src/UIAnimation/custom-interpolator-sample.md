@@ -19,7 +19,7 @@ This sample is available in the following locations.
 | Location                               | Path/URL                                                                                          |
 |----------------------------------------|---------------------------------------------------------------------------------------------------|
 | Windows Software Development Kit (SDK) | [Microsoft Windows Software Development Kit 7.0](https://msdn.microsoft.com/windowsvista/bb980924.aspx) |
-| Code Gallery                           | [Windows Animation Manager Sample Code](https://code.msdn.microsoft.com/animationmanager)          |
+| Code Gallery                           | [Windows Animation Manager Sample Code](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionWindowsAnimationManager)          |
 
 
 

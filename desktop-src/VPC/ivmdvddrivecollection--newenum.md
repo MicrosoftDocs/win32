@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMDVDDriveCollection::\_NewEnum property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves an enumerator for the CD/DVD collection.
 
@@ -40,7 +40,7 @@ HRESULT get__NewEnum(
 
 ## Property value
 
-The [IEnumVARIANT](https://msdn.microsoft.com/library/ms221053.aspx) enumerator.
+The [IEnumVARIANT](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) enumerator.
 
 ## Error codes
 
@@ -78,10 +78,4 @@ The [IEnumVARIANT](https://msdn.microsoft.com/library/ms221053.aspx) enumerator.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

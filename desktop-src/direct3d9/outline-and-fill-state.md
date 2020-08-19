@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Outline and Fill State (Direct3D 9)
 
-Primitives that have no textures are rendered with the color specified by their material, or with the colors specified for the vertices, if any. You can select the method to fill them by specifying a value defined by the [**D3DFILLMODE**](https://msdn.microsoft.com/library/Bb172556(v=VS.85).aspx) enumerated type for the D3DRS\_FILLMODE render state.
+Primitives that have no textures are rendered with the color specified by their material, or with the colors specified for the vertices, if any. You can select the method to fill them by specifying a value defined by the [**D3DFILLMODE**](./d3dfillmode.md) enumerated type for the D3DRS\_FILLMODE render state.
 
-To enable dithering, your application must pass the D3DRS\_DITHERENABLE enumerated value as the first parameter to [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx). It must set the second parameter to **TRUE** to enable dithering, and **FALSE** to disable it.
+To enable dithering, your application must pass the D3DRS\_DITHERENABLE enumerated value as the first parameter to [**IDirect3DDevice9::SetRenderState**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrenderstate). It must set the second parameter to **TRUE** to enable dithering, and **FALSE** to disable it.
 
 At times, drawing the last pixel in a line can cause unsightly overlap with surrounding primitives. You can control this using the D3DRS\_LASTPIXEL enumerated value. However, do not alter this setting without some forethought. Under some conditions, suppressing the rendering of the last pixel can cause unsightly gaps between primitives.
 
@@ -26,6 +26,3 @@ Object outlines can be drawn by setting the appropriate line drawing pattern. Th
  
 
  
-
-
-

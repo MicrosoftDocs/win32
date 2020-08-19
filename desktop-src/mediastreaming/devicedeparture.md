@@ -37,12 +37,8 @@ This event does not return a value.
 
 ## Remarks
 
-To handle notifications from this event, register a [**DeviceControllerFinderHandler**](https://msdn.microsoft.com/library/Hh828843(v=VS.85).aspx) event handler function using the [**add\_DeviceDeparture**](https://msdn.microsoft.com/library/Hh828904(v=VS.85).aspx) method. To unregister the event handler, use the [**remove\_DeviceDeparture**](https://msdn.microsoft.com/library/Hh828908(v=VS.85).aspx) method.
+To handle notifications from this event, register a [**DeviceControllerFinderHandler**](/previous-versions/windows/desktop/legacy/hh828843(v=vs.85)) event handler function using the [**add\_DeviceDeparture**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-idevicecontroller-add_devicedeparture) method. To unregister the event handler, use the [**remove\_DeviceDeparture**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-idevicecontroller-remove_devicedeparture) method.
 
  
 
  
-
-
-
-

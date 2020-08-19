@@ -41,7 +41,7 @@ ID3DX11EffectVariable* GetVariableBySemantic(
 *Semantic* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 The semantic name.
 
@@ -55,7 +55,7 @@ A pointer to the effect variable indicated by the Semantic. See [**ID3DX11Effect
 
 ## Remarks
 
-Each effect variable can have a semantic attached, which is a user defined metadata string. Some [system-value semantics](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics) are reserved words that trigger built in functionality by pipeline stages.
+Each effect variable can have a semantic attached, which is a user defined metadata string. Some [system-value semantics](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics) are reserved words that trigger built in functionality by pipeline stages.
 
 The method returns a pointer to an [**effect-variable interface**](id3dx11effectvariable.md) if a variable is not found; you can call [**ID3DX11Effect::IsValid**](id3dx11effect-isvalid.md) to verify whether or not the semantic exists.
 
@@ -83,10 +83,4 @@ The method returns a pointer to an [**effect-variable interface**](id3dx11effect
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

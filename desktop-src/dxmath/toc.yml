@@ -885,11 +885,11 @@
         - name: "ContainedBy"
           href: /windows/win32/api/DirectXCollision/nf-directxcollision-boundingbox-containedby
         - name: "Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR)"
-          href: /previous-versions/windows/win32/legacy/hh855919(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/hh855919(v=vs.85)
         - name: "Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, float&)"
-          href: /previous-versions/windows/win32/legacy/hh855922(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/hh855922(v=vs.85)
         - name: "Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR)"
-          href: /previous-versions/windows/win32/legacy/hh855933(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/hh855933(v=vs.85)
       - name: "DirectXMath Library utility functions"
         href: ovw-xnamath-utilities.md
         items: 
@@ -915,11 +915,11 @@
         href: ovw-xnamath-reference-functions-accessors.md
         items: 
         - name: "XMVectorGetByIndex"
-          href: /previous-versions/windows/win32/legacy/hh404786(v=vs.85)
+          href: /windows/win32/api/directxmath/nf-directxmath-xmvectorgetbyindex
         - name: "XMVectorGetByIndexPtr"
           href: /windows/win32/api/directxmath/nf-directxmath-xmvectorgetbyindexptr
         - name: "XMVectorGetIntByIndex"
-          href: /previous-versions/windows/win32/legacy/hh404788(v=vs.85)
+          href: /windows/win32/api/directxmath/nf-directxmath-xmvectorgetintbyindex
         - name: "XMVectorGetIntByIndexPtr"
           href: /windows/win32/api/directxmath/nf-directxmath-xmvectorgetintbyindexptr
         - name: "XMVectorGetIntW"
@@ -955,11 +955,11 @@
         - name: "XMVectorGetZPtr"
           href: /windows/win32/api/directxmath/nf-directxmath-xmvectorgetzptr
         - name: "XMVectorSetByIndex"
-          href: /previous-versions/windows/win32/legacy/hh404810(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/hh404810(v=vs.85)
         - name: "XMVectorSetByIndexPtr"
           href: /windows/win32/api/directxmath/nf-directxmath-xmvectorsetbyindexptr
         - name: "XMVectorSetIntByIndex"
-          href: /previous-versions/windows/win32/legacy/hh404813(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/hh404813(v=vs.85)
         - name: "XMVectorSetIntByIndexPtr"
           href: /windows/win32/api/directxmath/nf-directxmath-xmvectorsetintbyindexptr
         - name: "XMVectorSetIntW"
@@ -1289,7 +1289,7 @@
             href: ovw-xmbyte4-operators.md
             items: 
             - name: "operator="
-              href: /previous-versions/windows/win32/legacy/ee419283(v=vs.85)
+              href: /windows/win32/api/directxpackedvector/nf-directxpackedvector-xmbyte4-operator-assign(xmbyte4__)
       - name: "XMBYTEN2"
         href: /windows/win32/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2
         items: 
@@ -1448,7 +1448,7 @@
             - name: "operator="
               href: /windows/win32/api/directxmath/nf-directxmath-xmfloat2-operator-assign
       - name: "XMFLOAT2A"
-        href: /previous-versions/windows/win32/legacy/ee419469(v=vs.85)
+        href: /windows/win32/api/directxmath/ns-directxmath-xmfloat2a
       - name: "XMFLOAT3"
         href: /windows/win32/api/directxmath/ns-directxmath-xmfloat3
         items: 
@@ -1615,7 +1615,7 @@
             - name: "operator="
               href: /windows/win32/api//rrascfg/nn-rrascfg-ieapproviderconfig
       - name: "XMFLOAT4A"
-        href: /previous-versions/windows/win32/legacy/ee419609(v=vs.85)
+        href: /windows/win32/api/directxmath/ns-directxmath-xmfloat4a
       - name: "XMFLOAT4X3"
         href: /windows/win32/api/directxmath/ns-directxmath-xmfloat4x3
         items: 
@@ -1644,7 +1644,7 @@
               - name: "operator () (size_t,size_t)"
                 href: /windows/win32/api/directxmath/nf-directxmath-xmfloat4x3-operator-function-call(size_t_size_t)
       - name: "XMFLOAT4X3A"
-        href: /previous-versions/windows/win32/legacy/ee419612(v=vs.85)
+        href: /windows/win32/api/directxmath/ns-directxmath-xmfloat4x3a
       - name: "XMFLOAT4X4"
         href: /windows/win32/api/directxmath/ns-directxmath-xmfloat4x4
         items: 
@@ -1673,7 +1673,7 @@
               - name: "operator () (size_t,size_t)"
                 href: /windows/win32/api/directxmath/nf-directxmath-xmfloat4x4-operator-function-call(size_t_size_t)
       - name: "XMFLOAT4X4A"
-        href: /previous-versions/windows/win32/legacy/ee419623(v=vs.85)
+        href: /windows/win32/api/directxmath/ns-directxmath-xmfloat4x4a
       - name: "XMHALF2"
         href: /windows/win32/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2
         items: 
@@ -2076,7 +2076,7 @@
             href: ovw-xmubyten4-operators.md
             items: 
             - name: "operator="
-              href: /previous-versions/windows/win32/legacy/ee420506(v=vs.85)
+              href: /windows/win32/api/directxpackedvector/nf-directxpackedvector-xmubyten4-operator-assign(xmubyten4__)
       - name: "XMUDEC4"
         href: /windows/win32/api/directxpackedvector/ns-directxpackedvector-xmudec4
         items: 
@@ -2238,20 +2238,20 @@
             href: xmushort2-ctor.md
             items: 
             - name: "XMUSHORT2 ()"
-              href: /windows/win32/api/directxpackedvector/nf-directxpackedvector-xmushort2-xmushort2(constfloat)
+              href: /windows/win32/api/directxpackedvector/nf-directxpackedvector-xmushort2-xmushort2
             - name: "XMUSHORT2 (float)"
-              href: /previous-versions/windows/win32/legacy/ee420629(v=vs.85)
+              href: /windows/win32/api/directxpackedvector/nf-directxpackedvector-xmushort2-xmushort2(constfloat)
             - name: "XMUSHORT2 (float,float)"
               href: /windows/win32/api/directxpackedvector/nf-directxpackedvector-xmushort2-xmushort2(float_float)
             - name: "XMUSHORT2 (uint16_t)"
-              href: /previous-versions/windows/win32/legacy/hh404766(v=vs.85)
+              href: /windows/win32/api/directxpackedvector/nf-directxpackedvector-xmushort2-xmushort2(constuint16_t)
             - name: "XMUSHORT2 (uint16_t,uint16_t)"
               href: /windows/win32/api/directxpackedvector/nf-directxpackedvector-xmushort2-xmushort2(uint16_t_uint16_t)
           - name: "XMUSHORT2 operators"
             href: ovw-xmushort2-operators.md
             items: 
             - name: "operator="
-              href: /previous-versions/windows/win32/legacy/ee420700(v=vs.85)
+              href: /windows/win32/api/directxpackedvector/nf-directxpackedvector-xmushort2-operator-assign(xmushort2__)
       - name: "XMUSHORT4"
         href: /windows/win32/api/DirectXPackedVector/ns-directxpackedvector-xmushort4
         items: 
@@ -2275,7 +2275,7 @@
             href: ovw-xmushort4-operators.md
             items: 
             - name: "operator="
-              href: /previous-versions/windows/win32/legacy/ee420711(v=vs.85)
+              href: /windows/win32/api/directxpackedvector/nf-directxpackedvector-xmushort4-operator-assign(xmushort4__)
       - name: "XMUSHORTN2"
         href: /windows/win32/api/DirectXPackedVector/ns-directxpackedvector-xmushortn2
         items: 
@@ -2439,7 +2439,7 @@
             - name: "Intersects (BoundingOrientedBox)"
               href: /windows/win32/api/directxcollision/nf-directxcollision-boundingbox-intersects(constboundingorientedbox_)
             - name: "Intersects (BoundingSphere)"
-              href: /previous-versions/windows/win32/legacy/hh437825(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/hh437825(v=vs.85)
             - name: "Intersects (XMVECTOR)"
               href: /windows/win32/api/directxcollision/nf-directxcollision-boundingbox-intersects(fxmvector)
             - name: "Intersects (XMVECTOR,XMVECTOR,float)"
@@ -2526,7 +2526,7 @@
             - name: "Intersects (BoundingOrientedBox)"
               href: /windows/win32/api/directxcollision/nf-directxcollision-boundingfrustum-intersects(constboundingorientedbox_)
             - name: "Intersects (BoundingSphere)"
-              href: /previous-versions/windows/win32/legacy/hh855929(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/hh855929(v=vs.85)
             - name: "Intersects (XMVECTOR)"
               href: /windows/win32/api/directxcollision/nf-directxcollision-boundingfrustum-intersects(fxmvector)
             - name: "Intersects (XMVECTOR,XMVECTOR,float)"
@@ -2601,7 +2601,7 @@
             - name: "Intersects (BoundingOrientedBox)"
               href: /windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-intersects(constboundingorientedbox_)
             - name: "Intersects (BoundingSphere)"
-              href: /previous-versions/windows/win32/legacy/hh855930(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/hh855930(v=vs.85)
             - name: "Intersects (XMVECTOR)"
               href: /windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-intersects(fxmvector)
             - name: "Intersects (XMVECTOR,XMVECTOR,float)"
@@ -2659,7 +2659,7 @@
             - name: "Contains (BoundingSphere)"
               href: /windows/win32/api/directxcollision/nf-directxcollision-boundingsphere-contains(constboundingsphere_)
             - name: "Contains (XMVECTOR)"
-              href: /previous-versions/windows/win32/legacy/hh449621(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/hh449621(v=vs.85)
             - name: "Contains (XMVECTOR,XMVECTOR,XMVECTOR)"
               href: /windows/win32/api/directxcollision/nf-directxcollision-boundingsphere-contains(fxmvector_fxmvector_fxmvector)
           - name: "Intersects"
@@ -2672,7 +2672,7 @@
             - name: "Intersects (BoundingOrientedBox)"
               href: /windows/win32/api/directxcollision/nf-directxcollision-boundingsphere-intersects(constboundingorientedbox_)
             - name: "Intersects (BoundingSphere)"
-              href: /previous-versions/windows/win32/legacy/hh437826(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/hh437826(v=vs.85)
             - name: "Intersects (XMVECTOR)"
               href: /windows/win32/api/directxcollision/nf-directxcollision-boundingsphere-intersects(fxmvector)
             - name: "Intersects (XMVECTOR,XMVECTOR,float)"
@@ -2718,53 +2718,53 @@
             href: ovw-xmvector-operators.md
             items: 
             - name: "operator +="
-              href: /previous-versions/windows/win32/legacy/ee421394(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/ee421394(v=vs.85)
             - name: "operator -="
-              href: /previous-versions/windows/win32/legacy/ee421383(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/ee421383(v=vs.85)
             - name: "operator *"
               href: xmvector-operator-mul.md
               items: 
               - name: "operator * (float,XMVECTOR)"
-                href: /previous-versions/windows/win32/legacy/ee421390(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/ee421390(v=vs.85)
               - name: "operator * (XMVECTOR,float)"
-                href: /previous-versions/windows/win32/legacy/ee421391(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/ee421391(v=vs.85)
               - name: "operator * (XMVECTOR,XMVECTOR)"
-                href: /previous-versions/windows/win32/legacy/ee421392(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/ee421392(v=vs.85)
             - name: "operator *="
               href: xmvector-operator-muleq.md
               items: 
               - name: "operator *= (XMVECTOR,float)"
-                href: /previous-versions/windows/win32/legacy/ff729806(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/ff729806(v=vs.85)
               - name: "operator *= (XMVECTOR,XMVECTOR)"
-                href: /previous-versions/windows/win32/legacy/ee421388(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/ee421388(v=vs.85)
             - name: "operator /"
               href: xmvector-operator-div.md
               items: 
               - name: "operator / (XMVECTOR,float)"
-                href: /previous-versions/windows/win32/legacy/ee421381(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/ee421381(v=vs.85)
               - name: "operator / (XMVECTOR,XMVECTOR)"
-                href: /previous-versions/windows/win32/legacy/ee421380(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/ee421380(v=vs.85)
             - name: "operator /="
               href: xmvector-operator-diveq.md
               items: 
               - name: "operator /= (XMVECTOR,float)"
-                href: /previous-versions/windows/win32/legacy/ee421377(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/ee421377(v=vs.85)
               - name: "operator /= (XMVECTOR,XMVECTOR)"
-                href: /previous-versions/windows/win32/legacy/ee421378(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/ee421378(v=vs.85)
             - name: "operator -"
               href: xmvector-operator--.md
               items: 
               - name: "operator - (XMVECTOR)"
-                href: /previous-versions/windows/win32/legacy/ee421384(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/ee421384(v=vs.85)
               - name: "operator - (XMVECTOR,XMVECTOR)"
-                href: /previous-versions/windows/win32/legacy/ee421385(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/ee421385(v=vs.85)
             - name: "operator +"
               href: xmvector-operator-pls.md
               items: 
               - name: "operator + (XMVECTOR)"
-                href: /previous-versions/windows/win32/legacy/ee421395(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/ee421395(v=vs.85)
               - name: "operator + (XMVECTOR,XMVECTOR)"
-                href: /previous-versions/windows/win32/legacy/ee421396(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/ee421396(v=vs.85)
       - name: "XMVECTORF32 data type"
         href: xmvectorf32-data-type.md
         items: 
@@ -2775,11 +2775,11 @@
             href: ovw-xmvectorf32-operators.md
             items: 
             - name: "operator __m128d"
-              href: /previous-versions/windows/win32/legacy/ee421020(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/ee421020(v=vs.85)
             - name: "operator __m128i"
-              href: /previous-versions/windows/win32/legacy/ee421021(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/ee421021(v=vs.85)
             - name: "operator XMVECTOR"
-              href: /previous-versions/windows/win32/legacy/ee421022(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/ee421022(v=vs.85)
       - name: "XMVECTORI32 data type"
         href: xmvectori32-data-type.md
         items: 
@@ -2790,9 +2790,9 @@
             href: ovw-xmvectori32-operators.md
             items: 
             - name: "operator __m128i"
-              href: /previous-versions/windows/win32/legacy/ee421164(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/ee421164(v=vs.85)
             - name: "operator XMVECTOR"
-              href: /previous-versions/windows/win32/legacy/ee421165(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/ee421165(v=vs.85)
       - name: "XMVECTORU32 data type"
         href: xmvectoru32-data-type.md
         items: 
@@ -2803,9 +2803,9 @@
             href: ovw-xmvectoru32-operators.md
             items: 
             - name: "operator __m128i"
-              href: /previous-versions/windows/win32/legacy/ee421369(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/ee421369(v=vs.85)
             - name: "operator XMVECTOR"
-              href: /previous-versions/windows/win32/legacy/ee421370(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/ee421370(v=vs.85)
       - name: "XMVECTORU8 data type"
         href: xmvectoru8-data-type.md
         items: 
@@ -2816,6 +2816,6 @@
             href: ovw-xmvectoru8-operators.md
             items: 
             - name: "operator __m128i"
-              href: /previous-versions/windows/win32/legacy/ee421373(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/ee421373(v=vs.85)
             - name: "operator XMVECTOR"
-              href: /previous-versions/windows/win32/legacy/ee421374(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/ee421374(v=vs.85)

@@ -25,10 +25,10 @@ Gets the bounds of the geometry after it has been widened by the specified strok
 
 | Method                                                                                                                                                                                                 | Description                                                                                                                                           |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetWidenedBounds(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,D2D1\_RECT\_F\*)**](https://msdn.microsoft.com/library/Dd316714(v=VS.85).aspx)              | Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.<br/> |
-| [**GetWidenedBounds(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,D2D1\_RECT\_F\*)**](https://msdn.microsoft.com/library/Dd316707(v=VS.85).aspx)             | Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.<br/> |
-| [**GetWidenedBounds(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,FLOAT,D2D1\_RECT\_F\*)**](https://msdn.microsoft.com/library/Dd316710(v=VS.85).aspx)  | Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.<br/> |
-| [**GetWidenedBounds(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,FLOAT,D2D1\_RECT\_F\*)**](https://msdn.microsoft.com/library/Dd316704(v=VS.85).aspx) | Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.<br/> |
+| [**GetWidenedBounds(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,D2D1\_RECT\_F\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1geometry-getwidenedbounds(float_id2d1strokestyle_constd2d1_matrix_3x2_f__d2d1_rect_f))              | Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.<br/> |
+| [**GetWidenedBounds(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,D2D1\_RECT\_F\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1geometry-getwidenedbounds(float_id2d1strokestyle_constd2d1_matrix_3x2_f_d2d1_rect_f))             | Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.<br/> |
+| [**GetWidenedBounds(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,FLOAT,D2D1\_RECT\_F\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1geometry-getwidenedbounds(float_id2d1strokestyle_constd2d1_matrix_3x2_f__float_d2d1_rect_f))  | Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.<br/> |
+| [**GetWidenedBounds(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,FLOAT,D2D1\_RECT\_F\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1geometry-getwidenedbounds(float_id2d1strokestyle_constd2d1_matrix_3x2_f_float_d2d1_rect_f)) | Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.<br/> |
 
 
 
@@ -345,14 +345,8 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**ID2D1Geometry**](https://msdn.microsoft.com/library/Dd316578(v=VS.85).aspx)
+[**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

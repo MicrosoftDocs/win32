@@ -69,7 +69,7 @@ The size, in bytes, of the *SuppliedCred* buffer.
 *CertContext* \[out\]
 </dt> <dd>
 
-If the function succeeds, this parameter is a pointer to the returned CCERT\_CONTEXT pointer. When you have finished using the certificate context, release it by calling the [**CertFreeCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext) function.
+If the function succeeds, this parameter is a pointer to the returned CCERT\_CONTEXT pointer. When you have finished using the certificate context, release it by calling the [**CertFreeCertificateContext**](/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext) function.
 
 </dd> </dl>
 
@@ -114,9 +114,4 @@ The identity provider can also cache the certificate locally as long as it is pr
 
 
  
-
- 
-
-
-
 

@@ -79,7 +79,7 @@ public static string RetrieveColumnAsString(
 
 #### Return value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+Type: [System.String](/dotnet/api/system.string)  
 The data retrieved from the column as a string. Null if the column is null.  
 
 ## See also
@@ -93,4 +93,3 @@ The data retrieved from the column as a string. Null if the column is null.
 [RetrieveColumnAsString overload](dn334102\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

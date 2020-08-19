@@ -24,4 +24,4 @@ The following structures are used with memory management.
 | [**PROCESS\_HEAP\_ENTRY**](/windows/desktop/api/minwinbase/ns-minwinbase-process_heap_entry) | Contains information about a heap element. |
 | [**WIN32\_MEMORY\_RANGE\_ENTRY**](/windows/desktop/api/memoryapi/ns-memoryapi-win32_memory_range_entry) | Specifies a range of memory. |
 | [**WIN32\_MEMORY\_REGION\_INFORMATION**](/windows/desktop/api/memoryapi/ns-memoryapi-win32_memory_region_information) | Contains information about a memory region. |
-| [**AtlThunkData\_t**](https://msdn.microsoft.com/library/Mt805050(v=VS.85).aspx) | An opaque data structure that represents an ATL thunk. |
+| [**AtlThunkData\_t**](/previous-versions/windows/desktop/legacy/mt805050(v=vs.85)) | An opaque data structure that represents an ATL thunk. |

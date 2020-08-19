@@ -92,11 +92,11 @@ topic_type:
 
 The tables in this document list wrapper functions from Shlwapi.dll that provide limited Unicode functionality to Windows 95, Windows 98, and Windows Millennium Edition (Windows Me).
 
-Windows 95, Windows 98, and Windows Millennium Edition (Windows Me) are referred to here as "native ANSI platforms". On native ANSI platforms, these wrapper functions convert the Unicode input string parameters to ANSI and call ANSI versions of functions in the **Forwards To** column. For example, **AppendMenuWrapW** calls **AppendMenuA**, which is the ANSI version of [**AppendMenu**](https://msdn.microsoft.com/library/ms647616(v=VS.85).aspx). The other functions follow the same pattern. Any strings returned by the ANSI function are converted to Unicode and returned to the calling application. Aside from the exceptions noted in the **Remarks** column, the wrapper function has the same syntax and provides the same functionality as the function in the **Forwards To** column. You should refer to that reference page for detailed usage information.
+Windows 95, Windows 98, and Windows Millennium Edition (Windows Me) are referred to here as "native ANSI platforms". On native ANSI platforms, these wrapper functions convert the Unicode input string parameters to ANSI and call ANSI versions of functions in the **Forwards To** column. For example, **AppendMenuWrapW** calls **AppendMenuA**, which is the ANSI version of [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua). The other functions follow the same pattern. Any strings returned by the ANSI function are converted to Unicode and returned to the calling application. Aside from the exceptions noted in the **Remarks** column, the wrapper function has the same syntax and provides the same functionality as the function in the **Forwards To** column. You should refer to that reference page for detailed usage information.
 
 **Security Warning:** Multiple Unicode strings can convert to the same ANSI string. Unexpected collisions after conversion could result in unexpected behavior. For example, if **CreateEventWrapW** is used to create two differently-named events whose names match after conversion from Unicode to ANSI, the second call will return a handle to the same event as the first call, even though the original Unicode strings were different.
 
-Microsoft Windows NT, Windows 2000, Windows XP, Windows Server 2003, and later operating systems are referred to here as "native Unicode platforms". For the most part, on native Unicode platforms, these wrapper functions simply forward input string parameters to the Unicode version of the function in the **Forwards To** column. For example, **AppendMenuWrapW** forwards to **AppendMenuW**, which is the Unicode version of [**AppendMenu**](https://msdn.microsoft.com/library/ms647616(v=VS.85).aspx). The other functions follow the same pattern. Any strings that are returned by the Unicode function are returned to the calling application. Aside from the exceptions noted in the **Remarks** column, the wrapper function has the same syntax and provides the same functionality as the function in the **Forwards To** column. You should refer to that reference page for detailed usage information.
+Microsoft Windows NT, Windows 2000, Windows XP, Windows Server 2003, and later operating systems are referred to here as "native Unicode platforms". For the most part, on native Unicode platforms, these wrapper functions simply forward input string parameters to the Unicode version of the function in the **Forwards To** column. For example, **AppendMenuWrapW** forwards to **AppendMenuW**, which is the Unicode version of [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua). The other functions follow the same pattern. Any strings that are returned by the Unicode function are returned to the calling application. Aside from the exceptions noted in the **Remarks** column, the wrapper function has the same syntax and provides the same functionality as the function in the **Forwards To** column. You should refer to that reference page for detailed usage information.
 
 **Security Warning:** The security issues noted for the functions in the **Forwards To** column also apply to the corresponding wrapper functions. For details, see the reference documentation for the function in the **Forwards To** column.
 
@@ -111,69 +111,69 @@ The wrapper functions in this table are all contained in Shlwapi.dll. To call th
 
 | Function                  | Ordinal | Forwards To                                             | DLL      | Remarks                                                                                                                             |
 |---------------------------|---------|---------------------------------------------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------|
-| AppendMenuWrapW           | 36      | [**AppendMenu**](https://msdn.microsoft.com/library/ms647616(v=VS.85).aspx)                     | USER32   | [(a)](#shlwapi-wrapper-functions), [(f)](#dragqueryfile), [(Menu)](#menu)                                                           |
-| CallWindowProcWrapW       | 37      | [**CallWindowProc**](https://msdn.microsoft.com/library/ms633571(v=VS.85).aspx)             | USER32   | [(i)](#shlwapi-wrapper-functions)                                                                                                   |
-| CharLowerWrapW            | 38      | [**CharLower**](https://msdn.microsoft.com/library/ms647467(v=VS.85).aspx)                       | KERNEL32 | [(e)](#shlwapi-wrapper-functions)                                                                                                   |
-| CharUpperBufWrapW         | 44      | [**CharUpperBuff**](https://msdn.microsoft.com/library/ms647475(v=VS.85).aspx)               | KERNEL32 | [(e)](#shlwapi-wrapper-functions)                                                                                                   |
-| CharUpperWrapW            | 43      | [**CharUpper**](https://msdn.microsoft.com/library/ms647474(v=VS.85).aspx)                       | KERNEL32 | [(e)](#shlwapi-wrapper-functions)                                                                                                   |
-| CompareStringWrapW        | 45      | [**CompareString**](https://msdn.microsoft.com/library/Dd317759(v=VS.85).aspx)                 | KERNEL32 | [(CompareString)](#comparestring)                                                                                                   |
-| CopyFileWrapW             | 112     | [**CopyFile**](https://msdn.microsoft.com/library/Aa363851(v=VS.85).aspx)                             | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(c)](#shlwapi-wrapper-functions)                                                                |
-| CreateEventWrapW          | 51      | [**CreateEvent**](https://msdn.microsoft.com/library/ms682396(v=VS.85).aspx)                     | KERNEL32 | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
-| CreateFileWrapW           | 52      | [**CreateFile**](https://msdn.microsoft.com/library/Aa363858(v=VS.85).aspx)                         | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(c)](#shlwapi-wrapper-functions)                                                                |
-| CreateWindowExWrapW       | 55      | [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx)             | USER32   | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
-| DefWindowProcWrapW        | 56      | [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)               | USER32   | [(i)](#shlwapi-wrapper-functions)                                                                                                   |
-| DeleteFileWrapW           | 57      | [**DeleteFile**](https://msdn.microsoft.com/library/Aa363915(v=VS.85).aspx)                         | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(c)](#shlwapi-wrapper-functions)                                                                |
-| DialogBoxParamWrapW       | 59      | [**DialogBoxParam**](https://msdn.microsoft.com/library/ms645465(v=VS.85).aspx)             | USER32   | [(f)](#dragqueryfile), [(i)](#shlwapi-wrapper-functions), [(DialogBoxParam)](#dialogboxparam)                                       |
-| DispatchMessageWrapW      | 60      | [**DispatchMessage**](https://msdn.microsoft.com/library/ms644934(v=VS.85).aspx)           | USER32   | [(i)](#shlwapi-wrapper-functions)                                                                                                   |
+| AppendMenuWrapW           | 36      | [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua)                     | USER32   | [(a)](#shlwapi-wrapper-functions), [(f)](#dragqueryfile), [(Menu)](#menu)                                                           |
+| CallWindowProcWrapW       | 37      | [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca)             | USER32   | [(i)](#shlwapi-wrapper-functions)                                                                                                   |
+| CharLowerWrapW            | 38      | [**CharLower**](/windows/win32/api/winuser/nf-winuser-charlowera)                       | KERNEL32 | [(e)](#shlwapi-wrapper-functions)                                                                                                   |
+| CharUpperBufWrapW         | 44      | [**CharUpperBuff**](/windows/win32/api/winuser/nf-winuser-charupperbuffa)               | KERNEL32 | [(e)](#shlwapi-wrapper-functions)                                                                                                   |
+| CharUpperWrapW            | 43      | [**CharUpper**](/windows/win32/api/winuser/nf-winuser-charuppera)                       | KERNEL32 | [(e)](#shlwapi-wrapper-functions)                                                                                                   |
+| CompareStringWrapW        | 45      | [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw)                 | KERNEL32 | [(CompareString)](#comparestring)                                                                                                   |
+| CopyFileWrapW             | 112     | [**CopyFile**](/windows/win32/api/winbase/nf-winbase-copyfile)                             | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(c)](#shlwapi-wrapper-functions)                                                                |
+| CreateEventWrapW          | 51      | [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa)                     | KERNEL32 | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
+| CreateFileWrapW           | 52      | [**CreateFile**](/windows/win32/api/fileapi/nf-fileapi-createfilea)                         | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(c)](#shlwapi-wrapper-functions)                                                                |
+| CreateWindowExWrapW       | 55      | [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa)             | USER32   | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
+| DefWindowProcWrapW        | 56      | [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)               | USER32   | [(i)](#shlwapi-wrapper-functions)                                                                                                   |
+| DeleteFileWrapW           | 57      | [**DeleteFile**](/windows/win32/api/fileapi/nf-fileapi-deletefilea)                         | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(c)](#shlwapi-wrapper-functions)                                                                |
+| DialogBoxParamWrapW       | 59      | [**DialogBoxParam**](/windows/win32/api/winuser/nf-winuser-dialogboxparama)             | USER32   | [(f)](#dragqueryfile), [(i)](#shlwapi-wrapper-functions), [(DialogBoxParam)](#dialogboxparam)                                       |
+| DispatchMessageWrapW      | 60      | [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage)           | USER32   | [(i)](#shlwapi-wrapper-functions)                                                                                                   |
 | DragQueryFileWrapW        | 318     | [**DragQueryFile**](/windows/win32/api/Shellapi/nf-shellapi-dragqueryfilea)                  | SHELL32  | [(b)](#dialogboxparam), [(c)](#shlwapi-wrapper-functions), [(g)](#compareexchange), [(DragQueryFile)](#dragqueryfile)               |
-| DrawTextExWrapW           | 301     | [**DrawTextEx**](https://msdn.microsoft.com/library/Dd162499(v=VS.85).aspx)                        | USER32   | [(a)](#shlwapi-wrapper-functions), [(d)](#shlwapi-wrapper-functions)                                                                |
-| DrawTextWrapW             | 61      | [**DrawText**](https://msdn.microsoft.com/library/Dd162498(v=VS.85).aspx)                            | USER32   | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
-| ExtTextOutWrapW           | 299     | [**ExtTextOut**](https://msdn.microsoft.com/library/Dd162713(v=VS.85).aspx)                        | GDI32    | [(d)](#shlwapi-wrapper-functions), [(f)](#dragqueryfile), [(ExtTextOut)](#exttextout)                                               |
-| FormatMessageWrapW        | 68      | [**FormatMessage**](https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx)                 | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(g)](#compareexchange), [(FormatMessage)](#formatmessage)                                       |
-| GetClassInfoWrapW         | 69      | [**GetClassInfo**](https://msdn.microsoft.com/library/ms633578(v=VS.85).aspx)                 | USER32   | [(GetClassInfo)](#getclassinfo)                                                                                                     |
-| GetDateFormatWrapW        | 311     | [**GetDateFormat**](https://msdn.microsoft.com/library/Dd318086(v=VS.85).aspx)                 | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(g)](#compareexchange), [(DateTime)](#datetime)                                                 |
-| GetDlgItemTextWrapW       | 74      | [**GetDlgItemText**](https://msdn.microsoft.com/library/ms645489(v=VS.85).aspx)             | USER32   | [(g)](#compareexchange)                                                                                                             |
-| GetFileAttributesWrapW    | 75      | [**GetFileAttributes**](https://msdn.microsoft.com/library/Aa364944(v=VS.85).aspx)           | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(c)](#shlwapi-wrapper-functions)                                                                |
-| GetLocaleInfoWrapW        | 77      | [**GetLocaleInfo**](https://msdn.microsoft.com/library/Dd318101(v=VS.85).aspx)                 | KERNEL32 | [(g)](#compareexchange)                                                                                                             |
-| GetMenuItemInfoWrapW      | 302     | [**GetMenuItemInfo**](https://msdn.microsoft.com/library/ms647980(v=VS.85).aspx)           | USER32   | [(f)](#dragqueryfile), [(g)](#compareexchange), [(MenuItemInfo)](#menuiteminfo)                                                     |
-| GetModuleFileNameWrapW    | 80      | [**GetModuleFileName**](https://msdn.microsoft.com/library/ms683197(v=VS.85).aspx)         | KERNEL32 | [(c)](#shlwapi-wrapper-functions), [(g)](#compareexchange)                                                                          |
-| GetModuleHandleWrapW      | 83      | [**GetModuleHandle**](https://msdn.microsoft.com/library/ms683199(v=VS.85).aspx)             | KERNEL32 | [(c)](#shlwapi-wrapper-functions), [(g)](#compareexchange)                                                                          |
-| GetObjectWrapW            | 84      | [**GetObject**](https://msdn.microsoft.com/library/Dd144904(v=VS.85).aspx)                          | GDI32    | [(g)](#compareexchange)                                                                                                             |
-| GetOpenFileNameWrapW      | 403     | [**GetOpenFileName**](https://msdn.microsoft.com/library/ms646927(v=VS.85).aspx)           | COMDLG32 | [(a)](#shlwapi-wrapper-functions), [(b)](#dialogboxparam), [(g)](#compareexchange), [(OpenFileName)](#openfilename)                 |
-| GetSaveFileNameWrapW      | 389     | [**GetSaveFileName**](https://msdn.microsoft.com/library/ms646928(v=VS.85).aspx)           | COMDLG32 | [(a)](#shlwapi-wrapper-functions), [(b)](#dialogboxparam), [(g)](#compareexchange), [(OpenFileName)](#openfilename)                 |
-| GetSystemDirectoryWrapW   | 81      | [**GetSystemDirectory**](https://msdn.microsoft.com/library/ms724373(v=VS.85).aspx)       | KERNEL32 | [(c)](#shlwapi-wrapper-functions), [(g)](#compareexchange)                                                                          |
-| GetTimeFormatWrapW        | 310     | [**GetTimeFormat**](https://msdn.microsoft.com/library/Dd318130(v=VS.85).aspx)                 | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(g)](#compareexchange), [(DateTime)](#datetime)                                                 |
-| GetWindowLongWrapW        | 94      | [**GetWindowLong**](https://msdn.microsoft.com/library/ms633584(v=VS.85).aspx)               | USER32   | [(WindowLong)](#windowlong)                                                                                                         |
-| GetWindowsDirectoryWrapW  | 97      | [**GetWindowsDirectory**](https://msdn.microsoft.com/library/ms724454(v=VS.85).aspx)     | KERNEL32 | [(c)](#shlwapi-wrapper-functions), [(g)](#compareexchange)                                                                          |
-| GetWindowTextLengthWrapW  | 96      | [**GetWindowTextLength**](https://msdn.microsoft.com/library/ms633521(v=VS.85).aspx)   | USER32   | [(j)](#j)                                                                                                                           |
-| GetWindowTextWrapW        | 95      | [**GetWindowText**](https://msdn.microsoft.com/library/ms633520(v=VS.85).aspx)               | USER32   | [(f)](#dragqueryfile), [(g)](#compareexchange)                                                                                      |
-| InsertMenuItemWrapW       | 98      | [**InsertMenuItem**](https://msdn.microsoft.com/library/ms647988(v=VS.85).aspx)             | USER32   | [(a)](#shlwapi-wrapper-functions), [(f)](#dragqueryfile), [(Menu)](#menu), [(MenuItemInfo)](#menuiteminfo)                          |
-| IsCharAlphaWrapW          | 25      | [**IsCharAlpha**](https://msdn.microsoft.com/library/ms647482(v=VS.85).aspx)                   | USER32   | [(e)](#shlwapi-wrapper-functions)                                                                                                   |
-| IsCharAlphaNumericWrapW   | 28      | [**IsCharAlphaNumeric**](https://msdn.microsoft.com/library/ms647483(v=VS.85).aspx)     | KERNEL32 | [(e)](#shlwapi-wrapper-functions)                                                                                                   |
-| IsCharUpperWrapW          | 26      | [**IsCharUpper**](https://msdn.microsoft.com/library/ms647485(v=VS.85).aspx)                   | USER32   | [(e)](#shlwapi-wrapper-functions)                                                                                                   |
-| LoadLibraryWrapW          | 105     | [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx)                     | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(c)](#shlwapi-wrapper-functions)                                                                |
-| LoadStringWrapW           | 107     | [**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx)                     | KERNEL32 | [(e)](#shlwapi-wrapper-functions)                                                                                                   |
-| MessageBoxWrapW           | 340     | [**MessageBox**](https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx)                     | USER32   | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
-| MoveFileWrapW             | 113     | [**MoveFile**](https://msdn.microsoft.com/library/Aa365239(v=VS.85).aspx)                             | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(c)](#shlwapi-wrapper-functions)                                                                |
-| OutputDebugStringWrapW    | 115     | [**OutputDebugString**](https://msdn.microsoft.com/library/Aa363362(v=VS.85).aspx)         | KERNEL32 | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
-| PeekMessageWrapW          | 116     | [**PeekMessage**](https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx)                   | USER32   | [(PeekMessage and PostMessage)](#peekmessage-and-postmessage)                                                                       |
-| PostMessageWrapW          | 117     | [**PostMessage**](https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx)                   | USER32   | [(PeekMessage and PostMessage)](#peekmessage-and-postmessage)                                                                       |
-| RegCreateKeyExWrapW       | 120     | [**RegCreateKeyEx**](https://msdn.microsoft.com/library/ms724844(v=VS.85).aspx)               | ADVAPI32 | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
-| RegisterClassWrapW        | 131     | [**RegisterClass**](https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx)               | USER32   | [(a)](#shlwapi-wrapper-functions), [(RegisterClass)](#registerclass)                                                                |
-| RegOpenKeyExWrapW         | 125     | [**RegOpenKeyEx**](https://msdn.microsoft.com/library/ms724897(v=VS.85).aspx)                   | ADVAPI32 | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
-| RegQueryValueExWrapW      | 128     | [**RegQueryValueEx**](https://msdn.microsoft.com/library/ms724911(v=VS.85).aspx)             | ADVAPI32 | [(a)](#shlwapi-wrapper-functions), [(g)](#compareexchange), [(ValueEx)](#regqueryvalueexw), [(RegQueryValueExW)](#regqueryvalueexw) |
-| RegQueryValueWrapW        | 127     | [**RegQueryValue**](https://msdn.microsoft.com/library/ms724909(v=VS.85).aspx)                 | ADVAPI32 | [(a)](#shlwapi-wrapper-functions), [(g)](#compareexchange)                                                                          |
-| RegSetValueExWrapW        | 130     | [**RegSetValueEx**](https://msdn.microsoft.com/library/ms724923(v=VS.85).aspx)                 | ADVAPI32 | [(a)](#shlwapi-wrapper-functions), [(ValueEx)](#regqueryvalueexw)                                                                   |
-| SendMessageWrapW          | 136     | [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx)                   | USER32   | [(SendMessage)](#sendmessage)                                                                                                       |
-| SetDlgItemTextWrapW       | 138     | [**SetDlgItemText**](https://msdn.microsoft.com/library/ms645521(v=VS.85).aspx)             | USER32   | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
-| SetWindowLongWrapW        | 141     | [**SetWindowLong**](https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx)               | USER32   | [(WindowLong)](#windowlong)                                                                                                         |
-| SetWindowTextWrapW        | 143     | [**SetWindowText**](https://msdn.microsoft.com/library/ms633546(v=VS.85).aspx)               | USER32   | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
+| DrawTextExWrapW           | 301     | [**DrawTextEx**](/windows/win32/api/winuser/nf-winuser-drawtextexa)                        | USER32   | [(a)](#shlwapi-wrapper-functions), [(d)](#shlwapi-wrapper-functions)                                                                |
+| DrawTextWrapW             | 61      | [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext)                            | USER32   | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
+| ExtTextOutWrapW           | 299     | [**ExtTextOut**](/windows/win32/api/wingdi/nf-wingdi-exttextouta)                        | GDI32    | [(d)](#shlwapi-wrapper-functions), [(f)](#dragqueryfile), [(ExtTextOut)](#exttextout)                                               |
+| FormatMessageWrapW        | 68      | [**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage)                 | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(g)](#compareexchange), [(FormatMessage)](#formatmessage)                                       |
+| GetClassInfoWrapW         | 69      | [**GetClassInfo**](/windows/win32/api/winuser/nf-winuser-getclassinfoa)                 | USER32   | [(GetClassInfo)](#getclassinfo)                                                                                                     |
+| GetDateFormatWrapW        | 311     | [**GetDateFormat**](/windows/win32/api/datetimeapi/nf-datetimeapi-getdateformata)                 | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(g)](#compareexchange), [(DateTime)](#datetime)                                                 |
+| GetDlgItemTextWrapW       | 74      | [**GetDlgItemText**](/windows/win32/api/winuser/nf-winuser-getdlgitemtexta)             | USER32   | [(g)](#compareexchange)                                                                                                             |
+| GetFileAttributesWrapW    | 75      | [**GetFileAttributes**](/windows/win32/api/fileapi/nf-fileapi-getfileattributesa)           | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(c)](#shlwapi-wrapper-functions)                                                                |
+| GetLocaleInfoWrapW        | 77      | [**GetLocaleInfo**](/windows/win32/api/winnls/nf-winnls-getlocaleinfoa)                 | KERNEL32 | [(g)](#compareexchange)                                                                                                             |
+| GetMenuItemInfoWrapW      | 302     | [**GetMenuItemInfo**](/windows/win32/api/winuser/nf-winuser-getmenuiteminfoa)           | USER32   | [(f)](#dragqueryfile), [(g)](#compareexchange), [(MenuItemInfo)](#menuiteminfo)                                                     |
+| GetModuleFileNameWrapW    | 80      | [**GetModuleFileName**](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulefilenamea)         | KERNEL32 | [(c)](#shlwapi-wrapper-functions), [(g)](#compareexchange)                                                                          |
+| GetModuleHandleWrapW      | 83      | [**GetModuleHandle**](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlea)             | KERNEL32 | [(c)](#shlwapi-wrapper-functions), [(g)](#compareexchange)                                                                          |
+| GetObjectWrapW            | 84      | [**GetObject**](/windows/win32/api/wingdi/nf-wingdi-getobject)                          | GDI32    | [(g)](#compareexchange)                                                                                                             |
+| GetOpenFileNameWrapW      | 403     | [**GetOpenFileName**](/windows/win32/api/commdlg/nf-commdlg-getopenfilenamea)           | COMDLG32 | [(a)](#shlwapi-wrapper-functions), [(b)](#dialogboxparam), [(g)](#compareexchange), [(OpenFileName)](#openfilename)                 |
+| GetSaveFileNameWrapW      | 389     | [**GetSaveFileName**](/windows/win32/api/commdlg/nf-commdlg-getsavefilenamea)           | COMDLG32 | [(a)](#shlwapi-wrapper-functions), [(b)](#dialogboxparam), [(g)](#compareexchange), [(OpenFileName)](#openfilename)                 |
+| GetSystemDirectoryWrapW   | 81      | [**GetSystemDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya)       | KERNEL32 | [(c)](#shlwapi-wrapper-functions), [(g)](#compareexchange)                                                                          |
+| GetTimeFormatWrapW        | 310     | [**GetTimeFormat**](/windows/win32/api/datetimeapi/nf-datetimeapi-gettimeformata)                 | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(g)](#compareexchange), [(DateTime)](#datetime)                                                 |
+| GetWindowLongWrapW        | 94      | [**GetWindowLong**](/windows/win32/api/winuser/nf-winuser-getwindowlonga)               | USER32   | [(WindowLong)](#windowlong)                                                                                                         |
+| GetWindowsDirectoryWrapW  | 97      | [**GetWindowsDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya)     | KERNEL32 | [(c)](#shlwapi-wrapper-functions), [(g)](#compareexchange)                                                                          |
+| GetWindowTextLengthWrapW  | 96      | [**GetWindowTextLength**](/windows/win32/api/winuser/nf-winuser-getwindowtextlengtha)   | USER32   | [(j)](#j)                                                                                                                           |
+| GetWindowTextWrapW        | 95      | [**GetWindowText**](/windows/win32/api/winuser/nf-winuser-getwindowtexta)               | USER32   | [(f)](#dragqueryfile), [(g)](#compareexchange)                                                                                      |
+| InsertMenuItemWrapW       | 98      | [**InsertMenuItem**](/windows/win32/api/winuser/nf-winuser-insertmenuitema)             | USER32   | [(a)](#shlwapi-wrapper-functions), [(f)](#dragqueryfile), [(Menu)](#menu), [(MenuItemInfo)](#menuiteminfo)                          |
+| IsCharAlphaWrapW          | 25      | [**IsCharAlpha**](/windows/win32/api/winuser/nf-winuser-ischaralphaa)                   | USER32   | [(e)](#shlwapi-wrapper-functions)                                                                                                   |
+| IsCharAlphaNumericWrapW   | 28      | [**IsCharAlphaNumeric**](/windows/win32/api/winuser/nf-winuser-ischaralphanumerica)     | KERNEL32 | [(e)](#shlwapi-wrapper-functions)                                                                                                   |
+| IsCharUpperWrapW          | 26      | [**IsCharUpper**](/windows/win32/api/winuser/nf-winuser-ischaruppera)                   | USER32   | [(e)](#shlwapi-wrapper-functions)                                                                                                   |
+| LoadLibraryWrapW          | 105     | [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya)                     | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(c)](#shlwapi-wrapper-functions)                                                                |
+| LoadStringWrapW           | 107     | [**LoadString**](/windows/win32/api/winuser/nf-winuser-loadstringa)                     | KERNEL32 | [(e)](#shlwapi-wrapper-functions)                                                                                                   |
+| MessageBoxWrapW           | 340     | [**MessageBox**](/windows/win32/api/winuser/nf-winuser-messagebox)                     | USER32   | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
+| MoveFileWrapW             | 113     | [**MoveFile**](/windows/win32/api/winbase/nf-winbase-movefile)                             | KERNEL32 | [(a)](#shlwapi-wrapper-functions), [(c)](#shlwapi-wrapper-functions)                                                                |
+| OutputDebugStringWrapW    | 115     | [**OutputDebugString**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa)         | KERNEL32 | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
+| PeekMessageWrapW          | 116     | [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea)                   | USER32   | [(PeekMessage and PostMessage)](#peekmessage-and-postmessage)                                                                       |
+| PostMessageWrapW          | 117     | [**PostMessage**](/windows/win32/api/winuser/nf-winuser-postmessagea)                   | USER32   | [(PeekMessage and PostMessage)](#peekmessage-and-postmessage)                                                                       |
+| RegCreateKeyExWrapW       | 120     | [**RegCreateKeyEx**](/windows/win32/api/winreg/nf-winreg-regcreatekeyexa)               | ADVAPI32 | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
+| RegisterClassWrapW        | 131     | [**RegisterClass**](/windows/win32/api/winuser/nf-winuser-registerclassa)               | USER32   | [(a)](#shlwapi-wrapper-functions), [(RegisterClass)](#registerclass)                                                                |
+| RegOpenKeyExWrapW         | 125     | [**RegOpenKeyEx**](/windows/win32/api/winreg/nf-winreg-regopenkeyexa)                   | ADVAPI32 | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
+| RegQueryValueExWrapW      | 128     | [**RegQueryValueEx**](/windows/win32/api/winreg/nf-winreg-regqueryvalueexa)             | ADVAPI32 | [(a)](#shlwapi-wrapper-functions), [(g)](#compareexchange), [(ValueEx)](#regqueryvalueexw), [(RegQueryValueExW)](#regqueryvalueexw) |
+| RegQueryValueWrapW        | 127     | [**RegQueryValue**](/windows/win32/api/winreg/nf-winreg-regqueryvaluea)                 | ADVAPI32 | [(a)](#shlwapi-wrapper-functions), [(g)](#compareexchange)                                                                          |
+| RegSetValueExWrapW        | 130     | [**RegSetValueEx**](/windows/win32/api/winreg/nf-winreg-regsetvalueexa)                 | ADVAPI32 | [(a)](#shlwapi-wrapper-functions), [(ValueEx)](#regqueryvalueexw)                                                                   |
+| SendMessageWrapW          | 136     | [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage)                   | USER32   | [(SendMessage)](#sendmessage)                                                                                                       |
+| SetDlgItemTextWrapW       | 138     | [**SetDlgItemText**](/windows/win32/api/winuser/nf-winuser-setdlgitemtexta)             | USER32   | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
+| SetWindowLongWrapW        | 141     | [**SetWindowLong**](/windows/win32/api/winuser/nf-winuser-setwindowlonga)               | USER32   | [(WindowLong)](#windowlong)                                                                                                         |
+| SetWindowTextWrapW        | 143     | [**SetWindowText**](/windows/win32/api/winuser/nf-winuser-setwindowtexta)               | USER32   | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
 | ShellExecuteExWrapW       | 35      | [**ShellExecuteEx**](/windows/win32/api/Shellapi/nf-shellapi-shellexecuteexa)                | SHELL32  | [(a)](#shlwapi-wrapper-functions), [(b)](#dialogboxparam), [(ShellExecuteEx)](#shellexecuteex)                                      |
 | ShellMessageBoxWrapW      | 388     | [**ShellMessageBox**](/windows/win32/api/Shellapi/nf-shellapi-shellmessageboxa)              | SHLWAPI  | [(a)](#shlwapi-wrapper-functions), [(FormatMessage)](#formatmessage)                                                                |
 | SHGetFileInfoWrapW        | 313     | [**SHGetFileInfo**](/windows/win32/api/Shellapi/nf-shellapi-shgetfileinfoa)                  | SHELL32  | [(a)](#shlwapi-wrapper-functions), [(b)](#dialogboxparam), [(g)](#compareexchange)                                                  |
 | SHGetPathFromIDListWrapW  | 334     | [**SHGetPathFromIDList**](/windows/win32/api/shlobj_core/nf-shlobj_core-shgetpathfromidlista)      | USER32   | [(g)](#compareexchange)                                                                                                             |
-| TranslateAcceleratorWrapW | 146     | [**TranslateAccelerator**](https://msdn.microsoft.com/library/ms646373(v=VS.85).aspx) | USER32   | [(i)](#shlwapi-wrapper-functions)                                                                                                   |
-| UnregisterClassWrapW      | 147     | [**UnregisterClass**](https://msdn.microsoft.com/library/ms644899(v=VS.85).aspx)           | USER32   | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
+| TranslateAcceleratorWrapW | 146     | [**TranslateAccelerator**](/windows/win32/api/winuser/nf-winuser-translateacceleratora) | USER32   | [(i)](#shlwapi-wrapper-functions)                                                                                                   |
+| UnregisterClassWrapW      | 147     | [**UnregisterClass**](/windows/win32/api/winuser/nf-winuser-unregisterclassa)           | USER32   | [(a)](#shlwapi-wrapper-functions)                                                                                                   |
 
 
 
@@ -185,12 +185,12 @@ The wrapper functions in the following table do not perform any character set co
 
 | Function                     | Ordinal | Forwards To                                                                     | DLL      | Remarks                                                                        |
 |------------------------------|---------|---------------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------|
-| MLGetUILanguage              | 376     | [**GetUserDefaultUILanguage**](https://msdn.microsoft.com/library/Dd318137(v=VS.85).aspx)                   | KERNEL32 | [(h)](#shlwapi-wrapper-functions)                                              |
-| SHCancelTimerQueueTimer      | 265     | [**DeleteTimerQueueTimer**](https://msdn.microsoft.com/library/ms682569(v=VS.85).aspx)                         | KERNEL32 | [(h)](#shlwapi-wrapper-functions)                                              |
-| SHDeleteTimerQueue           | 262     | [**DeleteTimerQueue**](https://msdn.microsoft.com/library/ms682565(v=VS.85).aspx)                                   | KERNEL32 | [(h)](#shlwapi-wrapper-functions)                                              |
-| SHInterlockedCompareExchange | 342     | [**InterlockedCompareExchangePointer**](https://msdn.microsoft.com/library/ms683568(v=VS.85).aspx) | KERNEL32 | [(CompareExchange)](#compareexchange)                                          |
-| SHQueueUserWorkItem          | 260     | [**QueueUserWorkItem**](https://msdn.microsoft.com/library/ms684957(v=VS.85).aspx)                                 | KERNEL32 | [(QueueUserWorkItem)](#queueuserworkitem), [(h)](#shlwapi-wrapper-functions)   |
-| SHSetTimerQueueTimer         | 263     | [**CreateTimerQueueTimer**](https://msdn.microsoft.com/library/ms682485(v=VS.85).aspx)                         | KERNEL32 | [(SetTimerQueueTimer)](#settimerqueuetimer), [(h)](#shlwapi-wrapper-functions) |
+| MLGetUILanguage              | 376     | [**GetUserDefaultUILanguage**](/windows/win32/api/winnls/nf-winnls-getuserdefaultuilanguage)                   | KERNEL32 | [(h)](#shlwapi-wrapper-functions)                                              |
+| SHCancelTimerQueueTimer      | 265     | [**DeleteTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer)                         | KERNEL32 | [(h)](#shlwapi-wrapper-functions)                                              |
+| SHDeleteTimerQueue           | 262     | [**DeleteTimerQueue**](/windows/win32/api/winbase/nf-winbase-deletetimerqueue)                                   | KERNEL32 | [(h)](#shlwapi-wrapper-functions)                                              |
+| SHInterlockedCompareExchange | 342     | [**InterlockedCompareExchangePointer**](/windows/win32/api/winnt/nf-winnt-interlockedcompareexchangepointer) | KERNEL32 | [(CompareExchange)](#compareexchange)                                          |
+| SHQueueUserWorkItem          | 260     | [**QueueUserWorkItem**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem)                                 | KERNEL32 | [(QueueUserWorkItem)](#queueuserworkitem), [(h)](#shlwapi-wrapper-functions)   |
+| SHSetTimerQueueTimer         | 263     | [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer)                         | KERNEL32 | [(SetTimerQueueTimer)](#settimerqueuetimer), [(h)](#shlwapi-wrapper-functions) |
 
 
 
@@ -202,9 +202,9 @@ The wrapper functions in the following table do not perform any character set co
 
 If string conversion is necessary, all strings are converted through the CP\_ACP code page.
 
-These functions employ best-fit characters and do not perform default checking when converting from Unicode to ANSI. Furthermore, if the string cannot be converted from Unicode to ANSI, the wrapper function passes a **NULL** string to the underlying ANSI function. This can occur, for example, when there is insufficient memory. Passing a **NULL** string may cause some functions to fail with an invalid parameter error, but other functions accept the **NULL** string and treat it as the intended parameter. For example, an error occurs when the **CreateWindowExWrapW** function attempts to convert the *lpWindowName* parameter to ANSI, and [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) creates a window with an empty caption. The wrapper does not notify you when these problems have occurred.
+These functions employ best-fit characters and do not perform default checking when converting from Unicode to ANSI. Furthermore, if the string cannot be converted from Unicode to ANSI, the wrapper function passes a **NULL** string to the underlying ANSI function. This can occur, for example, when there is insufficient memory. Passing a **NULL** string may cause some functions to fail with an invalid parameter error, but other functions accept the **NULL** string and treat it as the intended parameter. For example, an error occurs when the **CreateWindowExWrapW** function attempts to convert the *lpWindowName* parameter to ANSI, and [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) creates a window with an empty caption. The wrapper does not notify you when these problems have occurred.
 
-The Microsoft Layer for Unicode (MSLU) checks for errors during conversion from Unicode to ANSI and returns appropriate error values. For example, the [**AppendMenu**](https://msdn.microsoft.com/library/ms647616(v=VS.85).aspx) wrapper function in the MSLU returns 0 if the item was not successfully appended.
+The Microsoft Layer for Unicode (MSLU) checks for errors during conversion from Unicode to ANSI and returns appropriate error values. For example, the [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua) wrapper function in the MSLU returns 0 if the item was not successfully appended.
 
 ### (b)
 
@@ -212,7 +212,7 @@ These functions use a delay-loaded link to the appropriate function. This means 
 
 ### (c)
 
-This function manipulates filenames. As noted in [(a)](#shlwapi-wrapper-functions), the functions convert all strings through the CP\_ACP code page. They do not check whether the file I/O functions have been set to ANSI mode. If the file I/O functions are in OEM mode, the strings will be converted to and from the wrong character set. An application can set the file I/O functions to OEM mode explicitly by calling the [**SetFileApisToOEM**](https://msdn.microsoft.com/library/Aa365534(v=VS.85).aspx) function.
+This function manipulates filenames. As noted in [(a)](#shlwapi-wrapper-functions), the functions convert all strings through the CP\_ACP code page. They do not check whether the file I/O functions have been set to ANSI mode. If the file I/O functions are in OEM mode, the strings will be converted to and from the wrong character set. An application can set the file I/O functions to OEM mode explicitly by calling the [**SetFileApisToOEM**](/windows/win32/api/fileapi/nf-fileapi-setfileapistooem) function.
 
 **Security Warning:  ** Using these wrapper functions for file names can compromise the security of your application. Since no default checking is performed and best-fit characters are employed, filename characters can be converted in unexpected ways. This could result in file system spoofing attacks. Also, silent data loss can occur during the conversion from Unicode to ANSI.
 
@@ -220,7 +220,7 @@ The MSLU does not have these limitations.
 
 ### (d)
 
-If the string being drawn requires a character set that is not available in the font that is selected into the device context, these wrapper functions use the [Font Linking](https://msdn.microsoft.com/library/Aa767872(v=VS.85).aspx) feature of the [MLang](https://msdn.microsoft.com/library/Aa767865(v=VS.85).aspx) library to render each character in an appropriate font. Unlike most other wrapper functions, these are functional on Microsoft Windows NT 4.0 in addition to native ANSI platforms.
+If the string being drawn requires a character set that is not available in the font that is selected into the device context, these wrapper functions use the [Font Linking](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767872(v=vs.85)) feature of the [MLang](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767865(v=vs.85)) library to render each character in an appropriate font. Unlike most other wrapper functions, these are functional on Microsoft Windows NT 4.0 in addition to native ANSI platforms.
 
 ### (e)
 
@@ -228,7 +228,7 @@ Full Unicode implementations of these functions are available on native ANSI pla
 
 ### (f)
 
-If the user-default UI language uses a different character set than the system-default UI language, the system attempts to rewrite dialog templates and subclass controls and convert menu items to owner-draw, so that strings in the user-default UI language continue to display correctly. The only controls supported by the dialog template rewrite rules are static, button, listbox, and combobox controls. These controls are subclassed such that the **SendMessageWrapW** function can obtain the original Unicode string without being translated through the ANSI character set. Unlike most of the other wrapper functions, these are functional on Microsoft Windows NT 4.0 as well as native ANSI platforms. See the remarks in the documentation of the [**MLLoadLibrary**](https://msdn.microsoft.com/library/Bb773822(v=VS.85).aspx) function for further discussion of how the user-default UI language and system-default UI language are determined.
+If the user-default UI language uses a different character set than the system-default UI language, the system attempts to rewrite dialog templates and subclass controls and convert menu items to owner-draw, so that strings in the user-default UI language continue to display correctly. The only controls supported by the dialog template rewrite rules are static, button, listbox, and combobox controls. These controls are subclassed such that the **SendMessageWrapW** function can obtain the original Unicode string without being translated through the ANSI character set. Unlike most of the other wrapper functions, these are functional on Microsoft Windows NT 4.0 as well as native ANSI platforms. See the remarks in the documentation of the [**MLLoadLibrary**](./callbacks.md) function for further discussion of how the user-default UI language and system-default UI language are determined.
 
 ### (g)
 
@@ -256,7 +256,7 @@ On ANSI platforms, these functions return the length of the underlying ANSI stri
 
 ### (CompareExchange)
 
-The syntax for **SHInterlockedCompareExchange** is somewhat different from that of [**InterlockedCompareExchangePointer**](https://msdn.microsoft.com/library/ms683568(v=VS.85).aspx), but it functions identically.
+The syntax for **SHInterlockedCompareExchange** is somewhat different from that of [**InterlockedCompareExchangePointer**](/windows/win32/api/winnt/nf-winnt-interlockedcompareexchangepointer), but it functions identically.
 
 ``` syntax
 void* SHInterlockedCompareExchange(void **ppDest, void *pExch, void *pComp);
@@ -272,11 +272,11 @@ On Shlwapi.dll version 5.0, which shipped with Windows 2000, the code page of t
 
 ### (DialogBoxParam)
 
-The *lpTemplateName* parameter for the **DialogBoxParamWrapW** function cannot be a string. It must be an ordinal created by the [**MAKEINTRESOURCE**](https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx) macro. The dialog procedure specified by the *lpDialogFunc* parameter receives ANSI messages on native ANSI platforms and Unicode messages on native Unicode platforms. The dialog procedure must be prepared to handle both cases. The MSLU does not have these limitations.
+The *lpTemplateName* parameter for the **DialogBoxParamWrapW** function cannot be a string. It must be an ordinal created by the [**MAKEINTRESOURCE**](/windows/win32/api/winuser/nf-winuser-makeintresourcea) macro. The dialog procedure specified by the *lpDialogFunc* parameter receives ANSI messages on native ANSI platforms and Unicode messages on native Unicode platforms. The dialog procedure must be prepared to handle both cases. The MSLU does not have these limitations.
 
 ### (ExtTextOut)
 
-Native ANSI platforms implement the [**ExtTextOutW**](https://msdn.microsoft.com/library/Dd162713(v=VS.85).aspx) function as well as native Unicode platforms. The purpose of **ExtTextOutWrapW** is to perform font linking, as described in a separate remark.
+Native ANSI platforms implement the [**ExtTextOutW**](/windows/win32/api/wingdi/nf-wingdi-exttextouta) function as well as native Unicode platforms. The purpose of **ExtTextOutWrapW** is to perform font linking, as described in a separate remark.
 
 ### (DragQueryFile)
 
@@ -301,7 +301,7 @@ FormatMessageWrapW(FORMAT_MESSAGE_FROM_STRING,
 
 
 
-This code example uses the "!s!" format. On native ANSI platforms, this string is passed to the ANSI version of the [**FormatMessage**](https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx) function. Consequently, an ANSI string is expected instead of a Unicode string. Similarly, the "%2" format implies a string argument. When it is passed to the ANSI **FormatMessage** function, it is interpreted as an ANSI string rather than a Unicode string. The correct format string is L"%1!ws! %2!ws!". This prints strings correctly on both ANSI and Unicode platforms.
+This code example uses the "!s!" format. On native ANSI platforms, this string is passed to the ANSI version of the [**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage) function. Consequently, an ANSI string is expected instead of a Unicode string. Similarly, the "%2" format implies a string argument. When it is passed to the ANSI **FormatMessage** function, it is interpreted as an ANSI string rather than a Unicode string. The correct format string is L"%1!ws! %2!ws!". This prints strings correctly on both ANSI and Unicode platforms.
 
 The function does not support the "%0" special format string.
 
@@ -309,7 +309,7 @@ The MSLU does not have these limitations.
 
 ### (GetClassInfo)
 
-On native ANSI platforms, the **lpszMenuName** and **lpszClassName** members of the [**WNDCLASS**](https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx) structure are not translated to Unicode and are always set to **NULL**. Furthermore, the window procedure returned in the **lpfnWndProc** member of the **WNDCLASS** structure is not translated to Unicode, and refers to an ANSI window procedure. The MSLU does not have these limitations.
+On native ANSI platforms, the **lpszMenuName** and **lpszClassName** members of the [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) structure are not translated to Unicode and are always set to **NULL**. Furthermore, the window procedure returned in the **lpfnWndProc** member of the **WNDCLASS** structure is not translated to Unicode, and refers to an ANSI window procedure. The MSLU does not have these limitations.
 
 ### (Menu)
 
@@ -317,17 +317,17 @@ On Shlwapi.dll version 5.0, which shipped with Windows 2000, menu item strings 
 
 ### (MenuItemInfo)
 
-This function only supports the Microsoft Windows NT 4.0 version of the [**MENUITEMINFOW**](https://msdn.microsoft.com/library/ms647578(v=VS.85).aspx) structure. This structure lacks an **hbmpItem** member. In addition, the function does not support the MIIM\_BITMAP flag. The MSLU does not have these limitations.
+This function only supports the Microsoft Windows NT 4.0 version of the [**MENUITEMINFOW**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa) structure. This structure lacks an **hbmpItem** member. In addition, the function does not support the MIIM\_BITMAP flag. The MSLU does not have these limitations.
 
 ### (OpenFileName)
 
-The **cbSize** member of the [**OPENFILENAMEW**](https://msdn.microsoft.com/library/ms646839(v=VS.85).aspx) structure must be set to sizeof(OPENFILENAME\_NT4W).
+The **cbSize** member of the [**OPENFILENAMEW**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure must be set to sizeof(OPENFILENAME\_NT4W).
 
-The **lpstrCustomFilter** member of the [**OPENFILENAMEW**](https://msdn.microsoft.com/library/ms646839(v=VS.85).aspx) structure must be set to **NULL**.
+The **lpstrCustomFilter** member of the [**OPENFILENAMEW**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure must be set to **NULL**.
 
-The values of the **nMaxFile** and **nMaxFileTitle** members of the [**OPENFILENAMEW**](https://msdn.microsoft.com/library/ms646839(v=VS.85).aspx) structure must not exceed MAX\_PATH.
+The values of the **nMaxFile** and **nMaxFileTitle** members of the [**OPENFILENAMEW**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure must not exceed MAX\_PATH.
 
-If the **lpfnHook** member of the [**OPENFILENAMEW**](https://msdn.microsoft.com/library/ms646839(v=VS.85).aspx) structure is not **NULL**, it must refer to an ANSI hook procedure on native ANSI platforms and a Unicode hook procedure on native Unicode platforms.
+If the **lpfnHook** member of the [**OPENFILENAMEW**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure is not **NULL**, it must refer to an ANSI hook procedure on native ANSI platforms and a Unicode hook procedure on native Unicode platforms.
 
 The MSLU does not have these limitations.
 
@@ -337,7 +337,7 @@ On native ANSI platforms, no translation is performed on the transmitted or retr
 
 ### (QueueUserWorkItem)
 
-The **SHQueueUserWorkItem** function is slightly different from the corresponding [**QueueUserWorkItem**](https://msdn.microsoft.com/library/ms684957(v=VS.85).aspx) function. The syntax for **SHQueueUserWorkItem** is shown here.
+The **SHQueueUserWorkItem** function is slightly different from the corresponding [**QueueUserWorkItem**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem) function. The syntax for **SHQueueUserWorkItem** is shown here.
 
 ``` syntax
 BOOL SHQueueUserWorkItem(LPTHREAD_START_ROUTINE pfnCallback,
@@ -351,11 +351,11 @@ BOOL SHQueueUserWorkItem(LPTHREAD_START_ROUTINE pfnCallback,
 
 The parameters should be set as follows:
 
--   The *pfnCallback* and *pContext* parameters have the same meanings as the *Function* and *Context* parameters, respectively, of [**QueueUserWorkItem**](https://msdn.microsoft.com/library/ms684957(v=VS.85).aspx).
+-   The *pfnCallback* and *pContext* parameters have the same meanings as the *Function* and *Context* parameters, respectively, of [**QueueUserWorkItem**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem).
 -   The *dwTag* parameter is unused and must be set to 0.
 -   The *pdwld* parameter is unused and must be set to **NULL**.
 -   The *pszModule* parameter points to an optional null-terminated ANSI string that specifies the name of a library to be loaded before the work item begins and unloaded after the work item completes. This parameter can be **NULL**.
--   The *dwFlags* parameter supports only a subset of the values supported by [**QueueUserWorkItem**](https://msdn.microsoft.com/library/ms684957(v=VS.85).aspx). The following flags are recognized.
+-   The *dwFlags* parameter supports only a subset of the values supported by [**QueueUserWorkItem**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem). The following flags are recognized.
 
     
 
@@ -373,11 +373,11 @@ The parameters should be set as follows:
 
      
 
-**SHQueueUserWorkItem** returns a nonzero value if the work item was successfully queued and 0 otherwise. If the function fails, you can use [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) to obtain additional information.
+**SHQueueUserWorkItem** returns a nonzero value if the work item was successfully queued and 0 otherwise. If the function fails, you can use [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to obtain additional information.
 
 ### (RegisterClass)
 
-On native ANSI platforms, no translation is performed on the **lpfnWndProc** member of the [**WNDCLASSW**](https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx) structure. The window will receive ANSI window messages on native ANSI platforms and Unicode window messages on native Unicode platforms. The window procedure must be prepared to handle both cases. The MSLU does not have these limitations.
+On native ANSI platforms, no translation is performed on the **lpfnWndProc** member of the [**WNDCLASSW**](/windows/win32/api/winuser/ns-winuser-wndclassa) structure. The window will receive ANSI window messages on native ANSI platforms and Unicode window messages on native Unicode platforms. The window procedure must be prepared to handle both cases. The MSLU does not have these limitations.
 
 ### (RegQueryValueExW)
 
@@ -385,7 +385,7 @@ On native ANSI platforms, no translation is performed on the **lpfnWndProc** mem
 
 ### (SendMessage)
 
-On native Unicode platforms, the **SendMessageWrapW** function forwards to the [**SendMessageW**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) function. On native ANSI platforms, **SendMessageWrapW** provides limited support for translating Unicode messages to ANSI. The list of supported messages is given in the following table. The function will not translate any other messages.
+On native Unicode platforms, the **SendMessageWrapW** function forwards to the [**SendMessageW**](/windows/win32/api/winuser/nf-winuser-sendmessage) function. On native ANSI platforms, **SendMessageWrapW** provides limited support for translating Unicode messages to ANSI. The list of supported messages is given in the following table. The function will not translate any other messages.
 
 The MSLU does not have these limitations.
 
@@ -430,15 +430,15 @@ The MSLU does not have these limitations.
 
     This function employs best-fit characters and does not perform default checking when converting from Unicode to ANSI. Furthermore, if the string cannot be converted from Unicode to ANSI, the function passes a null string to the underlying ANSI function. This can occur, for example, when there is insufficient memory. Passing a null string may cause some functions to fail with an invalid parameter error, but other functions accept the null string and treat it as the intended parameter. For example, if an error occurs when the WM\_SETTEXT wrapper attempts to convert the window title to ANSI, the window will have an empty caption. The function does not notify you when these problems occur. The MSLU does not have these limitations.
 
--   (c) The specified window handle must be the handle to a [ComboBox](https://msdn.microsoft.com/library/Bb775792(v=VS.85).aspx) or [ComboBoxEx](https://msdn.microsoft.com/library/Bb775738(v=VS.85).aspx) control. If the handle is to a combobox control that is owner-draw and was not created with the [List Box Styles](https://msdn.microsoft.com/library/Bb775149(v=VS.85).aspx) style, then the translation of this message will fail and may even crash.
--   (d) The specified window handle must be the handle to a listbox control. If the listbox is owner-draw and was not created with the [List Box Styles](https://msdn.microsoft.com/library/Bb775149(v=VS.85).aspx) style, then the translation of this message will fail and may even crash.
+-   (c) The specified window handle must be the handle to a [ComboBox](../controls/combo-boxes.md) or [ComboBoxEx](../controls/comboboxex-controls.md) control. If the handle is to a combobox control that is owner-draw and was not created with the [List Box Styles](../controls/list-box-styles.md) style, then the translation of this message will fail and may even crash.
+-   (d) The specified window handle must be the handle to a listbox control. If the listbox is owner-draw and was not created with the [List Box Styles](../controls/list-box-styles.md) style, then the translation of this message will fail and may even crash.
 -   (e) If string conversion is necessary, all strings are converted through the CP\_ACP code page.
 
-    When converting from ANSI to Unicode for output, the wrapper functions truncate the returned string if it does not fit in the provided buffer. The return value for functions that return the number of characters copied to the buffer or the number of characters necessary to avoid truncation refers to the number of ANSI characters copied to the buffer or required by the underlying ANSI function, not the number of Unicode characters copied to the buffer provided by or required from the calling application that called the wrapper function. The MSLU does not have this limitation. For further details, see [Microsoft Layer for Unicode on Windows 95/98/Me Systems](https://docs.microsoft.com/previous-versions/ms812865(v=msdn.10)).
+    When converting from ANSI to Unicode for output, the wrapper functions truncate the returned string if it does not fit in the provided buffer. The return value for functions that return the number of characters copied to the buffer or the number of characters necessary to avoid truncation refers to the number of ANSI characters copied to the buffer or required by the underlying ANSI function, not the number of Unicode characters copied to the buffer provided by or required from the calling application that called the wrapper function. The MSLU does not have this limitation. For further details, see [Microsoft Layer for Unicode on Windows 95/98/Me Systems](/previous-versions/ms812865(v=msdn.10)).
 
 ### (SetTimerQueueTimer)
 
-The **SHSetTimerQueueTimer** function is slightly different from the corresponding [**CreateTimerQueueTimer**](https://msdn.microsoft.com/library/ms682485(v=VS.85).aspx) function. Its syntax is as follows:
+The **SHSetTimerQueueTimer** function is slightly different from the corresponding [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) function. Its syntax is as follows:
 
 ``` syntax
 HANDLE SHSetTimerQueueTimer(HANDLE hQueue,
@@ -453,9 +453,9 @@ HANDLE SHSetTimerQueueTimer(HANDLE hQueue,
 The parameters should be set as follows:
 
 -   The *hQueue* parameter must be set to **NULL**, specifying the default timer queue.
--   The *pfnCallback*, *pContext*, *dwDueTime*, and *dwPeriod* parameters have the same meanings as the *Callback*, *Parameter*, *DueTime*, and *Period* parameters, respectively, of [**CreateTimerQueueTimer**](https://msdn.microsoft.com/library/ms682485(v=VS.85).aspx).
+-   The *pfnCallback*, *pContext*, *dwDueTime*, and *dwPeriod* parameters have the same meanings as the *Callback*, *Parameter*, *DueTime*, and *Period* parameters, respectively, of [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer).
 -   The *lpszLibrary* parameter is unused and must be set to **NULL**.
--   The *Flags* parameter supports only a subset of the values supported by [**CreateTimerQueueTimer**](https://msdn.microsoft.com/library/ms682485(v=VS.85).aspx).
+-   The *Flags* parameter supports only a subset of the values supported by [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer).
 
     
 
@@ -490,6 +490,3 @@ On native ANSI platforms, the function performs no translation on any of the win
  
 
  
-
-
-

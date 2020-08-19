@@ -92,7 +92,7 @@
       href: structures-and-enumeration-types.md
       items: 
       - name: "LOCATION_DESIRED_ACCURACY"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd756639(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dd756639(v=vs.85)
       - name: "LOCATION_REPORT_STATUS"
         href: /windows/win32/api/locationapi/ne-locationapi-location_report_status
   - name: "Location API Object Model Reference"
@@ -165,7 +165,7 @@
       - name: "Status Property"
         href: locationdisp-latlongreportfactory-status.md
       - name: "StopListeningForReports Method"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317718(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dd317718(v=vs.85)
     - name: "LocationDisp Events"
       href: locationdisp-events.md
       items: 

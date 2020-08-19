@@ -31,14 +31,14 @@ HRESULT SwitchTerminalToSubStream(
 *pITTerminal* \[in\]
 </dt> <dd>
 
-Pointer to [**ITTerminal**](https://msdn.microsoft.com/library/ms732646(v=VS.85).aspx) interface.
+Pointer to [**ITTerminal**](/windows/win32/api/tapi3if/nn-tapi3if-itterminal) interface.
 
 </dd> <dt>
 
 *pITSubStream* \[in\]
 </dt> <dd>
 
-Pointer to [**ITSubStream**](https://msdn.microsoft.com/library/ms732440(v=VS.85).aspx) interface.
+Pointer to [**ITSubStream**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream) interface.
 
 </dd> </dl>
 
@@ -83,16 +83,11 @@ This method can return one of these values.
 [**ITParticipant**](itparticipant.md)
 </dt> <dt>
 
-[**ITSubStream**](https://msdn.microsoft.com/library/ms732440(v=VS.85).aspx)
+[**ITSubStream**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream)
 </dt> <dt>
 
-[**ITTerminal**](https://msdn.microsoft.com/library/ms732646(v=VS.85).aspx)
+[**ITTerminal**](/windows/win32/api/tapi3if/nn-tapi3if-itterminal)
 </dt> </dl>
 
  
-
- 
-
-
-
 

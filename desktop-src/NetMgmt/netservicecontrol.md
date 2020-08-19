@@ -18,12 +18,8 @@ api_location:
 
 # NetServiceControl
 
-The **NetServiceControl** function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the [service functions](https://docs.microsoft.com/windows/desktop/Services/service-functions).
+The **NetServiceControl** function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the [service functions](/windows/desktop/Services/service-functions).
 
  
 
  
-
-
-
-

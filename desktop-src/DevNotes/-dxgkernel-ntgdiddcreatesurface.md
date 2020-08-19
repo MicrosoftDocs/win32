@@ -49,7 +49,7 @@ DWORD APIENTRY NtGdiDdCreateSurface(
 *hDirectDraw* \[in\]
 </dt> <dd>
 
-Handle to the [**DD\_DIRECTDRAW\_GLOBAL**](https://msdn.microsoft.com/library/Ff550586(v=VS.85).aspx) structure representing the driver.
+Handle to the [**DD\_DIRECTDRAW\_GLOBAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_directdraw_global) structure representing the driver.
 
 </dd> <dt>
 
@@ -63,35 +63,35 @@ Previous handle to the same surface. Used if the surface is being re-created aft
 *puSurfaceDescription* \[in, out\]
 </dt> <dd>
 
-Pointer to the [**DDSURFACEDESC**](https://msdn.microsoft.com/library/Ff550339(v=VS.85).aspx) structure describing the surface or buffer that the driver should create.
+Pointer to the [**DDSURFACEDESC**](/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)) structure describing the surface or buffer that the driver should create.
 
 </dd> <dt>
 
 *puSurfaceGlobalData* \[in, out\]
 </dt> <dd>
 
-Pointer to the [**DD\_SURFACE\_GLOBAL**](https://msdn.microsoft.com/library/Ff551726(v=VS.85).aspx) structure containing surface data that is shared globally with multiple surfaces.
+Pointer to the [**DD\_SURFACE\_GLOBAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_global) structure containing surface data that is shared globally with multiple surfaces.
 
 </dd> <dt>
 
 *puSurfaceLocalData* \[in, out\]
 </dt> <dd>
 
-Pointer to a list of [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structures describing the surface objects created by the driver.
+Pointer to a list of [**DD\_SURFACE\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local) structures describing the surface objects created by the driver.
 
 </dd> <dt>
 
 *puSurfaceMoreData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_SURFACE\_MORE**](https://msdn.microsoft.com/library/Ff551737(v=VS.85).aspx) structure that contains additional local surface data.
+Pointer to a [**DD\_SURFACE\_MORE**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_more) structure that contains additional local surface data.
 
 </dd> <dt>
 
 *puCreateSurfaceData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_CREATESURFACEDATA**](https://msdn.microsoft.com/library/Ff550540(v=VS.85).aspx) structure that contains the information required to create a surface.
+Pointer to a [**DD\_CREATESURFACEDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_createsurfacedata) structure that contains the information required to create a surface.
 
 </dd> <dt>
 
@@ -119,7 +119,7 @@ Is used by the DirectDraw  API and should not be filled in by the driver.
 
 ## Remarks
 
-It is recommended that your application call [IDirectDraw7::CreateSurface](https://msdn.microsoft.com/library/Gg426136(v=VS.85).aspx) instead of using this function.
+It is recommended that your application call [IDirectDraw7::CreateSurface](/windows/win32/api/ddraw/nf-ddraw-idirectdraw7-createsurface) instead of using this function.
 
 When creating a chain of attached surfaces, such as a swap chain or chain or mipmaps, [**NtGdiDdCreateSurfaceObject**](-dxgkernel-ntgdiddcreatesurfaceobject.md) should be called for each surface first. Then call [**NtGdiDdAttachSurface**](-dxgkernel-ntgdiddattachsurface.md) to attach them. Finally, call **NtGdiDdCreateSurface** for the first surface in the chain only. In this case, *hSurface* would be the handle returned by **NtGdiDdCreateSurfaceObject** for the first surface in the chain.
 
@@ -147,7 +147,3 @@ When creating a chain of attached surfaces, such as a swap chain or chain or mip
  
 
  
-
-
-
-

@@ -14,12 +14,9 @@ The [**ISCardVerify**](iscardverify.md) interface exposes the following methods.
 
 -   [**ChangeCode Method**](iscardverify-changecode.md)
 -   [**ResetSecurityState Method**](iscardverify-resetsecuritystate.md)
--   [**Unblock Method**](https://msdn.microsoft.com/library/Aa377269(v=VS.85).aspx)
+-   [**Unblock Method**](/previous-versions/windows/desktop/legacy/aa377269(v=vs.85))
 -   [**Verify Method**](iscardverify-verify.md)
 
  
 
  
-
-
-

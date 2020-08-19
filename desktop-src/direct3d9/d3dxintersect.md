@@ -74,7 +74,7 @@ Pointer to a [**D3DXVECTOR3**](d3dxvector3.md) structure, specifying the directi
 *pHit* \[out\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**BOOL**](../winprog/windows-data-types.md)\***
 
 Pointer to a BOOL. If the ray intersects a triangular face on the mesh, this value will be set to **TRUE**. Otherwise, this value is set to **FALSE**.
 
@@ -83,7 +83,7 @@ Pointer to a BOOL. If the ray intersects a triangular face on the mesh, this val
 *pFaceIndex* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to an index value of the face closest to the ray origin, if pHit is **TRUE**.
 
@@ -92,7 +92,7 @@ Pointer to an index value of the face closest to the ray origin, if pHit is **TR
 *pU* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to a barycentric hit coordinate, U.
 
@@ -101,7 +101,7 @@ Pointer to a barycentric hit coordinate, U.
 *pV* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to a barycentric hit coordinate, V.
 
@@ -110,7 +110,7 @@ Pointer to a barycentric hit coordinate, V.
 *pDist* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to a ray intersection parameter distance.
 
@@ -128,7 +128,7 @@ Pointer to an [**ID3DXBuffer**](id3dxbuffer.md) object, containing an array of [
 *pCountOfHits* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to a DWORD that contains the number of entries in the ppAllHits array.
 
@@ -171,7 +171,3 @@ Barycentric coordinates define a point inside a triangle in terms of the triangl
  
 
  
-
-
-
-

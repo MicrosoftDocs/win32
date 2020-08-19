@@ -14,12 +14,12 @@ The general tasks required to decode an enveloped message are depicted in the fo
 
 The sequence of events for decoding enveloped data using key transport key management, as depicted in the previous illustration, is as follows:
 
--   A pointer to the [*digitally enveloped*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) message is retrieved.
--   A [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) is opened.
+-   A pointer to the [*digitally enveloped*](../secgloss/d-gly.md) message is retrieved.
+-   A [*certificate store*](../secgloss/c-gly.md) is opened.
 -   From the message, the recipient ID (My ID) is retrieved.
 -   The recipient ID is used to retrieve the certificate.
--   The [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) associated with that certificate is retrieved.
--   The private key is used to decrypt the [*symmetric*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) ([*session*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx)) key.
+-   The [*private key*](../secgloss/p-gly.md) associated with that certificate is retrieved.
+-   The private key is used to decrypt the [*symmetric*](../secgloss/s-gly.md) ([*session*](../secgloss/s-gly.md)) key.
 -   The encryption algorithm is retrieved from the message.
 -   Using the private key and encryption algorithm, the data is decrypted.
 
@@ -31,7 +31,7 @@ The following procedure uses low-level message functions to accomplish the tasks
 2.  Call [**CryptMsgOpenToDecode**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgopentodecode), passing the necessary arguments.
 3.  Call [**CryptMsgUpdate**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgupdate) once, passing in the handle retrieved in step 2 and a pointer to the data that is to be decoded. This causes the appropriate actions to be taken on the message, depending on the message type.
 4.  Call [**CryptMsgGetParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsggetparam), passing in the handle retrieved in step 2 and CMSG\_TYPE\_PARAM to verify that the message is of the enveloped data type.
-5.  Again call [**CryptMsgGetParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsggetparam), passing in CMSG\_INNER\_CONTENT\_TYPE\_PARAM to get the data type of the [*inner content*](https://msdn.microsoft.com/library/ms721588(v=VS.85).aspx).
+5.  Again call [**CryptMsgGetParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsggetparam), passing in CMSG\_INNER\_CONTENT\_TYPE\_PARAM to get the data type of the [*inner content*](../secgloss/i-gly.md).
 6.  If the inner content data type is **data**, proceed to decrypt and decode the content. Otherwise, run a decoding procedure appropriate for the content data type.
 7.  Assuming the inner content type is "data", initialize the [**CMSG\_CTRL\_DECRYPT\_PARA**](/windows/desktop/api/Wincrypt/ns-wincrypt-cmsg_ctrl_decrypt_para) data structure, and call [**CryptMsgControl**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgcontrol), passing in CMSG\_CTRL\_DECRYPT and the address of the structure. The content will be decrypted.
 8.  Call [**CryptMsgGetParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsggetparam), passing in CMSG\_CONTENT\_PARAM to get a pointer to the decoded content data BLOB (**BYTE** string).
@@ -49,6 +49,3 @@ The result of this procedure is that the message is decoded and decrypted and a 
  
 
  
-
-
-

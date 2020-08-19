@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # DXGI flip model
 
-Windows 8 adds support for flip presentation model and its associated present statistics in DXGI 1.2. Windows 8’s DXGI flip presentation model is similar to Windows 7’s [Direct3D 9EX Flip Mode Presentation](https://msdn.microsoft.com/library/Ee890072(v=VS.85).aspx). Video or frame rate-based presentation apps such as games can benefit most by using flip presentation model. Apps that use DXGI flip presentation model reduce the system resource load and increase performance. Apps can also use present statistics enhancements with flip presentation model to better control the rate of presentation by providing real-time feedback and correction mechanisms.
+Windows 8 adds support for flip presentation model and its associated present statistics in DXGI 1.2. Windows 8’s DXGI flip presentation model is similar to Windows 7’s [Direct3D 9EX Flip Mode Presentation](../direct3darticles/direct3d-9ex-improvements.md). Video or frame rate-based presentation apps such as games can benefit most by using flip presentation model. Apps that use DXGI flip presentation model reduce the system resource load and increase performance. Apps can also use present statistics enhancements with flip presentation model to better control the rate of presentation by providing real-time feedback and correction mechanisms.
 
 -   [Comparing the DXGI flip model and the BitBlt model](#comparing-the-dxgi-flip-model-and-the-bitblt-model)
 -   [How to use DXGI flip model](#how-to-use-dxgi-flip-model)
@@ -20,7 +20,7 @@ Windows 8 adds support for flip presentation model and its associated present s
 
 The runtime uses the bit-block transfer (bitblt) and flip presentation models to present graphics content on display monitors. The biggest difference between bitblt and flip presentation models is how back-buffer contents get to the Windows 8 DWM for composition. In the bitblt model, contents of the back buffer are copied into the redirection surface on each call to [**IDXGISwapChain1::Present1**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1). In the flip model, all back buffers are shared with the Desktop Window Manager (DWM). Therefore, the DWM can compose straight from those back buffers without any additional copy operations. In general, the flip model is more efficient. The flip model also provides more features, such as enhanced present statistics.
 
-If you have legacy components that use Windows Graphics Device Interface (GDI) to write to an [**HWND**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx) directly, use the bitblt model.
+If you have legacy components that use Windows Graphics Device Interface (GDI) to write to an [**HWND**](../winprog/windows-data-types.md) directly, use the bitblt model.
 
 Performance improvements of DXGI flip model are significant when the app is in windowed mode. The sequence in this table and the illustration compare memory bandwidth usages and system reads and writes of windowed apps that choose flip model versus the bitblt model.
 
@@ -52,9 +52,9 @@ If you use [**DXGI\_SWAP\_EFFECT\_FLIP\_SEQUENTIAL**](/windows/desktop/api/DXGI/
 
 When you use flip model, consider these tips:
 
--   Use one flip model swap chain per [**HWND**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx). Do not target multiple flip model swap chains to the same **HWND**.
--   Do not use flip model swap chain with GDI's [**ScrollWindow**](https://msdn.microsoft.com/library/Bb787591(v=VS.85).aspx) or [**ScrollWindowEx**](https://msdn.microsoft.com/library/Bb787593(v=VS.85).aspx) function. Some Direct3D apps use GDI's **ScrollWindow** and **ScrollWindowEx** functions to update window contents after a user scroll event occurs. **ScrollWindow** and **ScrollWindowEx** perform bitblts of window contents on screen as the user scrolls a window. These functions also require bitblt model updates for GDI and Direct3D content. Apps that use either function will not necessarily display visible window contents scrolling on screen when the app is in windowed mode. We recommend that you not use GDI's **ScrollWindow** and **ScrollWindowEx** functions, and instead redraw GDI and Direct3D contents on screen in response to scrolling.
--   Use flip model in an [**HWND**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx) that is not also targeted by other APIs, including DXGI bitblt presentation model, other versions of Direct3D, or GDI. Because bitblt model maintains an additional copy of the surface, you can add GDI and other Direct3D contents to the same **HWND** through piecemeal updates from Direct3D and GDI. When you use the flip model, only Direct3D content in flip model swap chains that the runtime passes to DWM are visible. The runtime ignores all other bitblt model Direct3D or GDI content updates.
+-   Use one flip model swap chain per [**HWND**](../winprog/windows-data-types.md). Do not target multiple flip model swap chains to the same **HWND**.
+-   Do not use flip model swap chain with GDI's [**ScrollWindow**](/windows/win32/api/winuser/nf-winuser-scrollwindow) or [**ScrollWindowEx**](/windows/win32/api/winuser/nf-winuser-scrollwindowex) function. Some Direct3D apps use GDI's **ScrollWindow** and **ScrollWindowEx** functions to update window contents after a user scroll event occurs. **ScrollWindow** and **ScrollWindowEx** perform bitblts of window contents on screen as the user scrolls a window. These functions also require bitblt model updates for GDI and Direct3D content. Apps that use either function will not necessarily display visible window contents scrolling on screen when the app is in windowed mode. We recommend that you not use GDI's **ScrollWindow** and **ScrollWindowEx** functions, and instead redraw GDI and Direct3D contents on screen in response to scrolling.
+-   Use flip model in an [**HWND**](../winprog/windows-data-types.md) that is not also targeted by other APIs, including DXGI bitblt presentation model, other versions of Direct3D, or GDI. Because bitblt model maintains an additional copy of the surface, you can add GDI and other Direct3D contents to the same **HWND** through piecemeal updates from Direct3D and GDI. When you use the flip model, only Direct3D content in flip model swap chains that the runtime passes to DWM are visible. The runtime ignores all other bitblt model Direct3D or GDI content updates.
 
 ## Frame synchronization of DXGI flip model apps
 
@@ -131,7 +131,3 @@ From the time line, you can imagine the latency of present statistics and how gl
  
 
  
-
-
-
-

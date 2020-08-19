@@ -56,7 +56,7 @@ Here are possible values:
 
 </dt> <dd>
 
-Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)) = Other.
+Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](/previous-versions//cc136818(v=vs.85)) = Other.
 
 </dd> <dt>
 
@@ -67,7 +67,7 @@ Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](https://docs.micros
 
 </dt> <dd>
 
-Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)) = Enabled.
+Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](/previous-versions//cc136818(v=vs.85)) = Enabled.
 
 </dd> <dt>
 
@@ -78,7 +78,7 @@ Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](https://docs.micros
 
 </dt> <dd>
 
-Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)) = Disabled.
+Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](/previous-versions//cc136818(v=vs.85)) = Disabled.
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](https://docs.micros
 
 </dt> <dd>
 
-Valid in version 1 (V1) of Hyper-V only. The virtual machine is shutting down via the shutdown service. Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)) = ShuttingDown.
+Valid in version 1 (V1) of Hyper-V only. The virtual machine is shutting down via the shutdown service. Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](/previous-versions//cc136818(v=vs.85)) = ShuttingDown.
 
 </dd> <dt>
 
@@ -100,7 +100,7 @@ Valid in version 1 (V1) of Hyper-V only. The virtual machine is shutting down vi
 
 </dt> <dd>
 
-Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)) = Enabled but offline.
+Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](/previous-versions//cc136818(v=vs.85)) = Enabled but offline.
 
 </dd> <dt>
 
@@ -125,7 +125,7 @@ Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](https://docs.micros
 
 </dt> <dd>
 
-Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)) = Quiesce, Enabled but paused.
+Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](/previous-versions//cc136818(v=vs.85)) = Quiesce, Enabled but paused.
 
 </dd> <dt>
 
@@ -147,7 +147,7 @@ State transition from **Off** or **Saved** to **Running**.
 
 </dt> <dd>
 
-Reset the virtual machine. Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)) = Reset.
+Reset the virtual machine. Corresponds to [**CIM\_EnabledLogicalElement.EnabledState**](/previous-versions//cc136818(v=vs.85)) = Reset.
 
 </dd> <dt>
 
@@ -297,7 +297,7 @@ These values represent critical states:
 *Job* \[out\]
 </dt> <dd>
 
-Type: **[**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85))**
+Type: **[**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85))**
 
 An optional reference to a [**Msvm\_ConcreteJob**](msvm-concretejob.md) object that is returned if the operation is executed asynchronously. If present, the returned reference can be used to monitor progress and obtain the result of the method.
 
@@ -342,7 +342,7 @@ This method returns one of the following values.
 
 ## Remarks
 
-Access to the [**Msvm\_ComputerSystem**](msvm-computersystem.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_ComputerSystem**](msvm-computersystem.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -641,9 +641,4 @@ End Function
 </dt> </dl>
 
  
-
- 
-
-
-
 

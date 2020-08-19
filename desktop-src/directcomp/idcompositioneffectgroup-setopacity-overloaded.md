@@ -24,8 +24,8 @@ Animates or changes the value of the Opacity property.
 
 | Method                                                                                                     | Description                                            |
 |:-----------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetOpacity(float)**](https://msdn.microsoft.com/library/Hh437420(v=VS.85).aspx)                                    | Changes the value of the Opacity property.<br/>  |
-| [**SetOpacity(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh437421(v=VS.85).aspx) | Animates the value of the Opacity property.<br/> |
+| [**SetOpacity(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositioneffectgroup-setopacity(float))                                    | Changes the value of the Opacity property.<br/>  |
+| [**SetOpacity(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositioneffectgroup-setopacity(idcompositionanimation)) | Animates the value of the Opacity property.<br/> |
 
 
 
@@ -47,14 +47,9 @@ Animates or changes the value of the Opacity property.
 
 <dl> <dt>
 
-[**IDCompositionEffectGroup**](https://msdn.microsoft.com/library/Hh437418(v=VS.85).aspx)
+[**IDCompositionEffectGroup**](/windows/win32/api/dcomp/nn-dcomp-idcompositioneffectgroup)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

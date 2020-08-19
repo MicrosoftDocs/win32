@@ -25,7 +25,7 @@ The following sections are discussed in this topic:
 
 WMI has default DCOM impersonation, authentication, and authentication service (NTLM or Kerberos) settings that the a remote system requires. Your local system may use different defaults that the target remote system does not accept. You can change these settings in the connection call. For more information, see [Setting Client Application Process Security](setting-client-application-process-security.md). However, for the authentication service, it is recommended that you specify **RPC\_C\_AUTHN\_DEFAULT** and allow DCOM to choose the appropriate service for the target computer.
 
-You can supply settings in parameters for the calls to [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) or [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/ms692692(v=VS.85).aspx) in C++. In scripts, you can establish security settings in calls to [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md), in an [**SWbemSecurity**](swbemsecurity.md) object, or in the scripting [moniker](constructing-a-moniker-string.md) string.
+You can supply settings in parameters for the calls to [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) or [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) in C++. In scripts, you can establish security settings in calls to [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md), in an [**SWbemSecurity**](swbemsecurity.md) object, or in the scripting [moniker](constructing-a-moniker-string.md) string.
 
 For a list of all the C++ impersonation constants, see [Setting the Default Process Security Level Using C++](setting-the-default-process-security-level-using-c-.md). For the Visual Basic constants and scripting strings for using the moniker connection, see [Setting the Default Process Security Level Using VBScript](setting-the-default-process-security-level-using-vbscript.md).
 
@@ -41,7 +41,7 @@ The following table lists the default DCOM impersonation, authentication, and au
 
  
 
-WMI remote connections are affected by [User Account Control (UAC)](https://technet.microsoft.com/En-US/WindowsVista/aa905108.aspx) and [Windows Firewall](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx). For more information, see [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md) and [Connecting Through Windows Firewall](https://docs.microsoft.com/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista).
+WMI remote connections are affected by [User Account Control (UAC)](/previous-versions/aa905108(v=msdn.10)) and [Windows Firewall](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx). For more information, see [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md) and [Connecting Through Windows Firewall](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista).
 
 Be aware that connecting to WMI on the local computer has a default authentication level of **PktPrivacy**.
 
@@ -125,6 +125,3 @@ Set objWMIService = GetObject("winmgmts:{impersonationLevel=impersonate,authenti
  
 
  
-
-
-

@@ -42,7 +42,7 @@ HRESULT D3DXTessellateRectPatch(
 *pVB* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVERTEXBUFFER9**](https://msdn.microsoft.com/library/Bb205915(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DVERTEXBUFFER9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9)**
 
 Vertex buffer containing the patch data.
 
@@ -51,7 +51,7 @@ Vertex buffer containing the patch data.
 *pNumSegs* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of four floating-point values that identify the number of segments into which each edge of the rectangle patch should be divided when tessellated. See [**D3DRECTPATCH\_INFO**](d3drectpatch-info.md).
 
@@ -118,7 +118,3 @@ Use [**D3DXRectPatchSize**](d3dxrectpatchsize.md) to get the number of output ve
  
 
  
-
-
-
-

@@ -54,7 +54,7 @@ A handle to an open print ticket provider. This handle is returned by the [**Bin
 *pBasePrintTicket* \[in\]
 </dt> <dd>
 
-The buffer that contains the base print ticket data, expressed in XML as described in the [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx).
+The buffer that contains the base print ticket data, expressed in XML as described in the [Print Schema](./printschema.md).
 
 </dd> <dt>
 
@@ -68,7 +68,7 @@ The size, in bytes, of the buffer referenced by *pBasePrintTicket*.
 *pDeltaPrintTicket* \[in, optional\]
 </dt> <dd>
 
-The buffer that contains the print ticket to merge. The print ticket data is expressed in XML as described in the [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx). The value of this parameter can be **NULL**.
+The buffer that contains the print ticket to merge. The print ticket data is expressed in XML as described in the [Print Schema](./printschema.md). The value of this parameter can be **NULL**.
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ The value that specifies whether the scope of *pDeltaPrintTicket* and *ppValidat
 *ppValidatedPrintTicket* \[out\]
 </dt> <dd>
 
-The address of the buffer that contains the merged and validated print ticket. This function calls [**CoTaskMemAlloc**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc) to allocate this buffer. When the buffer is no longer needed, the caller must free it by calling [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
+The address of the buffer that contains the merged and validated print ticket. This function calls [**CoTaskMemAlloc**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc) to allocate this buffer. When the buffer is no longer needed, the caller must free it by calling [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
 </dd> <dt>
 
@@ -103,13 +103,13 @@ The size, in bytes, of the buffer referenced by *ppValidatedPrintTicket*.
 *pbstrErrorMessage* \[out, optional\]
 </dt> <dd>
 
-A pointer to a string that specifies what, if anything, is invalid about the print ticket in *pBasePrintTicket* or *pDeltaPrintTicket*. If they are both valid, this value is **NULL**. If *pbstrErrorMessage* is not **NULL** when the function returns, the caller must free the string with [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx).
+A pointer to a string that specifies what, if anything, is invalid about the print ticket in *pBasePrintTicket* or *pDeltaPrintTicket*. If they are both valid, this value is **NULL**. If *pbstrErrorMessage* is not **NULL** when the function returns, the caller must free the string with [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring).
 
 </dd> </dl>
 
 ## Return value
 
-If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT** error code. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
+If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT** error code. For more information about COM error codes, see [Error Handling](../com/error-handling-in-com.md).
 
 ## Requirements
 
@@ -127,7 +127,7 @@ If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT
 
 <dl> <dt>
 
-[Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx)
+[Print Schema](./printschema.md)
 </dt> <dt>
 
 [**PTMergeAndValidatePrintTicket**](/windows/desktop/api/prntvpt/nf-prntvpt-ptmergeandvalidateprintticket)
@@ -140,9 +140,4 @@ If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT
 </dt> </dl>
 
  
-
- 
-
-
-
 

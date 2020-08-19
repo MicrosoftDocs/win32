@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMFLOAT4X3 Operators
 
-The [**XMFLOAT4X3**](https://msdn.microsoft.com/library/Ee419611(v=VS.85).aspx) structure exposes the following operators.
+The [**XMFLOAT4X3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -21,7 +21,7 @@ The [**XMFLOAT4X3**](https://msdn.microsoft.com/library/Ee419611(v=VS.85).aspx) 
 
 | Methods                                                      | Description                                                                                                              |
 |--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://msdn.microsoft.com/library/Ee419617(v=VS.85).aspx)<br/>      | Assigns the vector component data from one instance of `XMFLOAT4X3` to the current instance of `XMFLOAT4X3`. <br/> |
+| [**operator =**](/windows/win32/api/directxmath/nf-directxmath-xmfloat4x3-operator-assign)<br/>      | Assigns the vector component data from one instance of `XMFLOAT4X3` to the current instance of `XMFLOAT4X3`. <br/> |
 | [**operator ()**](xmfloat4x3-operator-parens.md)<br/> | Accesses specific matrix elements referenced by row and column from the current instance of `XMFLOAT4X3`. <br/>    |
 
 
@@ -38,13 +38,9 @@ The [**XMFLOAT4X3**](https://msdn.microsoft.com/library/Ee419611(v=VS.85).aspx) 
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4X3**](https://msdn.microsoft.com/library/Ee419611(v=VS.85).aspx)
+[**XMFLOAT4X3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -16,11 +16,11 @@ api_location:
 
 # ISCardManage interface
 
-\[The **ISCardManage** interface no longer available for use as of Windows Server 2008, Windows Vista, and Windows Server 2003 with Service Pack 1 (SP1) and later. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **ISCardManage** interface no longer available for use as of Windows Server 2008, Windows Vista, and Windows Server 2003 with Service Pack 1 (SP1) and later. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The following interface definition is provided as a standard that can be followed when developing a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) [*service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+The following interface definition is provided as a standard that can be followed when developing a [*smart card*](../secgloss/s-gly.md) [*service provider*](../secgloss/c-gly.md).
 
-The **ISCardManage** interface must be provided. It is used for attaching to a specific [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) or [*reader*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx), for creating other optional interfaces to perform specific smart card functions, for locking a specific smart card for exclusive use, and for getting the status of a smart card or reader. As a set, these services can be responsible for maintaining a well-defined context within which an application can communicate with a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) or [*reader*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx).
+The **ISCardManage** interface must be provided. It is used for attaching to a specific [*smart card*](../secgloss/s-gly.md) or [*reader*](../secgloss/r-gly.md), for creating other optional interfaces to perform specific smart card functions, for locking a specific smart card for exclusive use, and for getting the status of a smart card or reader. As a set, these services can be responsible for maintaining a well-defined context within which an application can communicate with a [*smart card*](../secgloss/s-gly.md) or [*reader*](../secgloss/r-gly.md).
 
 Following is a typical use of **ISCardManage** interface.
 
@@ -34,7 +34,7 @@ Following is a typical use of **ISCardManage** interface.
 
 ## Members
 
-The **ISCardManage** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ISCardManage** also has these types of members:
+The **ISCardManage** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **ISCardManage** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -46,7 +46,7 @@ The **ISCardManage** interface has these methods.
 
 | Method                                                            | Description                                                                                                                                                                                                                                                                |
 |:------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AttachByHandle**](iscardmanage-attachbyhandle.md)             | Allows an application to create a communication link to a smart card using a handle returned by the smart card [*resource manager*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx).<br/>                                              |
+| [**AttachByHandle**](iscardmanage-attachbyhandle.md)             | Allows an application to create a communication link to a smart card using a handle returned by the smart card [*resource manager*](../secgloss/r-gly.md).<br/>                                              |
 | [**AttachByIFD**](iscardmanage-attachbyifd.md)                   | Allows an application to request establishment of a context for a specific reader referenced with a display name.<br/>                                                                                                                                               |
 | [**CreateCardAuth**](iscardmanage-createcardauth.md)             | Allows the creation of a [**ISCardAuth**](iscardauth.md) interface.<br/>                                                                                                                                                                                            |
 | [**CreateCHVerification**](iscardmanage-createchverification.md) | Allows the creation of a [**ISCardVerify**](iscardverify.md) interface.<br/>                                                                                                                                                                                        |
@@ -78,7 +78,3 @@ The **ISCardManage** interface has these methods.
  
 
  
-
-
-
-

@@ -64,7 +64,7 @@ The [JET_SETCOLUMN](dn335260\(v=exchg.10\).md) type exposes the following member
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn335265(v=exchg.10).md">ToString</a></td>
-<td>Returns a <a href="https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN">String</a> that represents the current <a href="dn335260(v=exchg.10).md">JET_SETCOLUMN</a>. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.object.tostring?redirectedfrom=MSDN#System_Object_ToString">Object.ToString()</a>.)</td>
+<td>Returns a <a href="/dotnet/api/system.string">String</a> that represents the current <a href="dn335260(v=exchg.10).md">JET_SETCOLUMN</a>. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.object.tostring?redirectedfrom=MSDN#System_Object_ToString">Object.ToString()</a>.)</td>
 </tr>
 </tbody>
 </table>
@@ -79,4 +79,3 @@ Top
 [JET_SETCOLUMN class](dn335260\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

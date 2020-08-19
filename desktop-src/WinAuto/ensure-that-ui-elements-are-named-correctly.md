@@ -167,21 +167,21 @@ Using direct annotation to change the [Name Property](name-property.md) of a con
 
      
 
-2.  Initialize the Component Object Model (COM) library by calling the [CoInitializeEx](https://msdn.microsoft.com/library/ms695279(VS.85).aspx) function, typically during the application initialization process.
-3.  Soon after the target control is created (typically during the [WM\_INITDIALOG](https://msdn.microsoft.com/library/ms645428(VS.85).aspx) message), create an instance of the annotation manager and obtain a pointer to its [**IAccPropServices**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices) pointer.
+2.  Initialize the Component Object Model (COM) library by calling the [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) function, typically during the application initialization process.
+3.  Soon after the target control is created (typically during the [WM\_INITDIALOG](../dlgbox/wm-initdialog.md) message), create an instance of the annotation manager and obtain a pointer to its [**IAccPropServices**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices) pointer.
 4.  Annotate the [Name Property](name-property.md) of the target control by using the [**IAccPropServices::SetHwndPropStr**](/windows/desktop/api/Oleacc/nf-oleacc-iaccpropservices-sethwndpropstr) method.
 
 5.  Release the [**IAccPropServices**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices) pointer.
-6.  Before the target control is destroyed (typically when handling the [WM\_DESTROY](https://msdn.microsoft.com/library/ms632620(VS.85).aspx) message), create an instance of the annotation manager and obtain a pointer to its [**IAccPropServices**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices) interface.
+6.  Before the target control is destroyed (typically when handling the [WM\_DESTROY](../winmsg/wm-destroy.md) message), create an instance of the annotation manager and obtain a pointer to its [**IAccPropServices**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices) interface.
 7.  Use the [**IAccPropServices::ClearHwndProps**](/windows/desktop/api/Oleacc/nf-oleacc-iaccpropservices-clearhwndprops) method to clear the [Name property](name-property.md) annotations from the target control.
 8.  Release the [**IAccPropServices**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices) pointer.
-9.  Before your application exits (typically while processing the [WM\_DESTROY](https://msdn.microsoft.com/library/ms632620(VS.85).aspx) message), release the COM library by calling the [CoUninitialize](https://msdn.microsoft.com/library/ms688715(VS.85).aspx) function.
+9.  Before your application exits (typically while processing the [WM\_DESTROY](../winmsg/wm-destroy.md) message), release the COM library by calling the [CoUninitialize](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) function.
 
 The [**IAccPropServices::SetHwndPropStr**](/windows/desktop/api/Oleacc/nf-oleacc-iaccpropservices-sethwndpropstr) function takes five parameters. The first three—*hwnd*, *idObject*, and *idChild*—combine to identify the control. The fourth parameter, *idProp*, specifies the identifier of the property to be changed. To change the [Name property](name-property.md), set *idProp* to **PROPID\_ACC\_NAME**. (For a list of other properties that you can set through direct annotation, see [Using Direct Annotation](using-direct-annotation.md).) The last parameter of **SetHwndPropStr**, *str*, is the new string to use as the Name property.
 
 ### Example of Annotating the Name Property
 
-The following example code shows how to use direct annotation to change the [Name property](name-property.md) of the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) object for a control. To keep things simple, the example uses a hard-coded string ("New Control Name") to set the Name property. Hard-coded strings should not be used in the final version of your application because they cannot be localized. Instead, always load strings from your resource file. Also, the example does not show the calls to the [CoInitializeEx](https://msdn.microsoft.com/library/ms695279(VS.85).aspx) and [CoUninitialize](https://msdn.microsoft.com/library/ms688715(VS.85).aspx) functions.
+The following example code shows how to use direct annotation to change the [Name property](name-property.md) of the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) object for a control. To keep things simple, the example uses a hard-coded string ("New Control Name") to set the Name property. Hard-coded strings should not be used in the final version of your application because they cannot be localized. Instead, always load strings from your resource file. Also, the example does not show the calls to the [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) and [CoUninitialize](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) functions.
 
 
 ```C++
@@ -270,7 +270,3 @@ HRESULT RemoveAnnotatedNameFromControl(HWND hDlg, HWND hwndCtl)
  
 
  
-
-
-
-

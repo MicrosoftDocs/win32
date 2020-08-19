@@ -8,7 +8,7 @@ ms.topic: reference
 
 # PathGradientBrush.SetCenterPoint methods
 
-This topic lists the SetCenterPoint methods of the [**PathGradientBrush**](https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx) class. For a complete list of methods for the **PathGradientBrush** class, see [PathGradientBrush Methods](-gdiplus-class-pathgradientbrush-methods.md).
+This topic lists the SetCenterPoint methods of the [**PathGradientBrush**](/windows/win32/api/gdipluspath/nl-gdipluspath-pathgradientbrush) class. For a complete list of methods for the **PathGradientBrush** class, see [PathGradientBrush Methods](-gdiplus-class-pathgradientbrush-methods.md).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the SetCenterPoint methods of the [**PathGradientBrush**](https
 
 | Method                                                                                           | Description                                                                                                                                                                                                                                                                                                                                    |
 |:-------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SetCenterPoint(Point&)**](https://msdn.microsoft.com/library/ms535094(v=VS.85).aspx)   | The [**PathGradientBrush::SetCenterPoint**](https://msdn.microsoft.com/library/ms535094(v=VS.85).aspx) method sets the center point of this path gradient brush. By default, the center point is at the centroid of the brush's boundary path, but you can set the center point to any location inside or outside the path.<br/>  |
-| [**SetCenterPoint(PointF&)**](https://msdn.microsoft.com/library/ms535095(v=VS.85).aspx) | The [**PathGradientBrush::SetCenterPoint**](https://msdn.microsoft.com/library/ms535095(v=VS.85).aspx) method sets the center point of this path gradient brush. By default, the center point is at the centroid of the brush's boundary path, but you can set the center point to any location inside or outside the path.<br/> |
+| [**SetCenterPoint(Point&)**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setcenterpoint(inconstpoint_))   | The [**PathGradientBrush::SetCenterPoint**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setcenterpoint(inconstpoint_)) method sets the center point of this path gradient brush. By default, the center point is at the centroid of the brush's boundary path, but you can set the center point to any location inside or outside the path.<br/>  |
+| [**SetCenterPoint(PointF&)**](/previous-versions//ms535095(v=vs.85)) | The [**PathGradientBrush::SetCenterPoint**](/previous-versions//ms535095(v=vs.85)) method sets the center point of this path gradient brush. By default, the center point is at the centroid of the brush's boundary path, but you can set the center point to any location inside or outside the path.<br/> |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the SetCenterPoint methods of the [**PathGradientBrush**](https
  
 
  
-
-
-
-

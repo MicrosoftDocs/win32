@@ -24,8 +24,8 @@ Sets the value of the visual's opacity property.
 
 | Method                                                                            | Description                                                     |
 |:----------------------------------------------------------------------------------|:----------------------------------------------------------------|
-| [**SetOpacity(float)**](https://msdn.microsoft.com/library/Mt589908(v=VS.85).aspx)                      | Sets the value of the visual's opacity property.<br/>     |
-| [**SetOpacity(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Mt589909(v=VS.85).aspx) | Animates the value of the visual's opacity property.<br/> |
+| [**SetOpacity(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual3-setopacity(float))                      | Sets the value of the visual's opacity property.<br/>     |
+| [**SetOpacity(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual3-setopacity(idcompositionanimation)) | Animates the value of the visual's opacity property.<br/> |
 
 
 
@@ -33,14 +33,8 @@ Sets the value of the visual's opacity property.
 
 <dl> <dt>
 
-[**IDCompositionVisual3**](https://msdn.microsoft.com/library/Dn904490(v=VS.85).aspx)
+[**IDCompositionVisual3**](/windows/win32/api/dcomp/nn-dcomp-idcompositionvisual3)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

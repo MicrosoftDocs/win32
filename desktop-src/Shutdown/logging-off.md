@@ -16,7 +16,7 @@ When an application returns **TRUE** for [**WM\_QUERYENDSESSION**](wm-queryendse
 
 To force all applications to terminate, use [**ExitWindowsEx**](/windows/desktop/api/Winuser/nf-winuser-exitwindowsex), and specify the EXW\_FORCE flag. This prevents the system from sending [**WM\_QUERYENDSESSION**](wm-queryendsession.md) messages.
 
-The system also sends the CTRL\_LOGOFF\_EVENT control signal to every process during a log-off operation. A console application can register a [**HandlerRoutine**](https://msdn.microsoft.com/library/ms683242(v=VS.85).aspx) to process these messages.
+The system also sends the CTRL\_LOGOFF\_EVENT control signal to every process during a log-off operation. A console application can register a [**HandlerRoutine**](/windows/console/handlerroutine) to process these messages.
 
 If the process that called [**ExitWindowsEx**](/windows/desktop/api/Winuser/nf-winuser-exitwindowsex) is running in the logon session of the interactive user, all processes in the logon session are terminated. If the process calling **ExitWindowsEx** is in some other logon session, only the notifications are made; no processes are terminated.
 
@@ -30,6 +30,3 @@ If the process that called [**ExitWindowsEx**](/windows/desktop/api/Winuser/nf-w
  
 
  
-
-
-

@@ -33,7 +33,7 @@ UI Automation events fall into the following categories.
 | Element action        | Raised when a change in the UI results from end user or programmatic activity, for example, when a button is clicked or invoked through [**IUIAutomationInvokePattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationinvokepattern).                                                                                                                                                                                                                                                     |
 | Structure change      | Raised when the structure of the UI Automation tree changes. The structure changes when new UI items become visible, hidden, or removed on the desktop.                                                                                                                                                                                                                                                                                                              |
 | Global desktop change | Raised when actions of global interest to the client occur, such as when the focus shifts from one element to another, or when a window closes.                                                                                                                                                                                                                                                                                                                      |
-| Notification          | Raised when an app calls the [**UiaRaiseNotificationEvent**](https://www.bing.com/search?q=**UiaRaiseNotificationEvent**) function. [**NotificationKind**](https://msdn.microsoft.com/library/Mt812119(v=VS.85).aspx) indicates the type of the notification.                                                                                                                                                                                                                                                 |
+| Notification          | Raised when an app calls the [**UiaRaiseNotificationEvent**](https://www.bing.com/search?q=**UiaRaiseNotificationEvent**) function. [**NotificationKind**](/windows/win32/api/uiautomationcore/ne-uiautomationcore-notificationkind) indicates the type of the notification.                                                                                                                                                                                                                                                 |
 
 
 
@@ -60,7 +60,3 @@ For a description of all UI Automation events, see [Event Identifiers](uiauto-ev
  
 
  
-
-
-
-

@@ -17,7 +17,7 @@ If you aren't familiar with shader languages, a quick discussion is in order. Sh
 
 This example includes very basic vertex and pixel shaders that only draw geometry, and more complex shaders that add basic lighting calculations.
 
-Shader programs are written in Microsoft High Level Shader Language (HLSL). HLSL syntax looks a lot like C, but without the pointers. Shader programs must be very compact and efficient. If your shader compiles to too many instructions, it cannot be run and an error is returned. (Note that the exact number of instructions allowed is part of the [Direct3D feature level](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro).)
+Shader programs are written in Microsoft High Level Shader Language (HLSL). HLSL syntax looks a lot like C, but without the pointers. Shader programs must be very compact and efficient. If your shader compiles to too many instructions, it cannot be run and an error is returned. (Note that the exact number of instructions allowed is part of the [Direct3D feature level](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro).)
 
 In Direct3D, shaders are not compiled at run time; they are compiled when the rest of the program is compiled. When you compile your app with Microsoft Visual Studio 2013, the HLSL files are compiled to CSO (.cso) files that your app must load and place in GPU memory prior to drawing. Make sure you include these CSO files with your app when you package it; they are assets just like meshes and textures.
 
@@ -58,7 +58,7 @@ typedef struct _constantBufferStruct {
 
 
 
-When declaring the structure for the constant buffer in your C++ code, ensure that all of the data is correctly aligned along 16-byte boundaries. The easiest way to do this is to use [DirectXMath](https://docs.microsoft.com/windows/desktop/dxmath/directxmath-portal) types, like **XMFLOAT4** or **XMFLOAT4X4**, as seen in the example code. You can also guard against misaligned buffers by declaring a static assert:
+When declaring the structure for the constant buffer in your C++ code, ensure that all of the data is correctly aligned along 16-byte boundaries. The easiest way to do this is to use [DirectXMath](/windows/desktop/dxmath/directxmath-portal) types, like **XMFLOAT4** or **XMFLOAT4X4**, as seen in the example code. You can also guard against misaligned buffers by declaring a static assert:
 
 
 ```C++
@@ -68,7 +68,7 @@ static_assert((sizeof(ConstantBufferStruct) % 16) == 0, "Constant Buffer size mu
 
 
 
-This line of code will cause an error at compile time if **ConstantBufferStruct** is not 16-byte aligned. For more information about constant buffer alignment and packing, see [Packing Rules for Constant Variables](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-packing-rules).
+This line of code will cause an error at compile time if **ConstantBufferStruct** is not 16-byte aligned. For more information about constant buffer alignment and packing, see [Packing Rules for Constant Variables](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-packing-rules).
 
 Now, here's how the constant buffer is declared in the vertex shader HLSL.
 
@@ -97,7 +97,7 @@ Texture2D simpleTexture : register(t0);
 SamplerState simpleSampler : register(s0);
 ```
 
-It's up to you to assign constant buffers to registers—when you set up the pipeline, you attach a constant buffer to the same slot you assigned it to in the HLSL file. For example, in the previous topic the call to [**VSSetConstantBuffers**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-vssetconstantbuffers) indicates '0' for the first parameter. That tells Direct3D to attach the constant buffer resource to register 0, which matches the buffer's assignment to **register(b0)** in the HLSL file.
+It's up to you to assign constant buffers to registers—when you set up the pipeline, you attach a constant buffer to the same slot you assigned it to in the HLSL file. For example, in the previous topic the call to [**VSSetConstantBuffers**](/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-vssetconstantbuffers) indicates '0' for the first parameter. That tells Direct3D to attach the constant buffer resource to register 0, which matches the buffer's assignment to **register(b0)** in the HLSL file.
 
 ## Read from the vertex buffers
 
@@ -114,7 +114,7 @@ typedef struct _vertexPositionColor
 
 
 
-There is no standard format for vertex data in Direct3D 11. Instead, we define our own vertex data layout using a descriptor; the data fields are defined using an array of [**D3D11\_INPUT\_ELEMENT\_DESC**](https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_input_element_desc) structures. Here, we show a simple input layout that describes the same vertex format as the preceding struct:
+There is no standard format for vertex data in Direct3D 11. Instead, we define our own vertex data layout using a descriptor; the data fields are defined using an array of [**D3D11\_INPUT\_ELEMENT\_DESC**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_input_element_desc) structures. Here, we show a simple input layout that describes the same vertex format as the preceding struct:
 
 
 ```C++
@@ -384,10 +384,10 @@ Shaders are very powerful tools that can be used to generate procedural resource
 
 Hopefully, you're comfortable with DirectX 11at this point and are ready to start working on your project. Here are some links to help answer other questions you may have about development with DirectX and C++:
 
--   [Developing games](https://docs.microsoft.com/previous-versions/windows/apps/hh452744(v=win.10))
--   [Use Visual Studio tools for DirectX game programming](https://docs.microsoft.com/previous-versions/windows/apps/dn166877(v=win.10))
--   [DirectX game development and sample walkthroughs](https://docs.microsoft.com/previous-versions/windows/apps/hh465149(v=win.10))
--   [Additional game programming resources](https://docs.microsoft.com/previous-versions/windows/apps/dn194515(v=win.10))
+-   [Developing games](/previous-versions/windows/apps/hh452744(v=win.10))
+-   [Use Visual Studio tools for DirectX game programming](/previous-versions/windows/apps/dn166877(v=win.10))
+-   [DirectX game development and sample walkthroughs](/previous-versions/windows/apps/hh465149(v=win.10))
+-   [Additional game programming resources](/previous-versions/windows/apps/dn194515(v=win.10))
 
 ## Related topics
 
@@ -402,7 +402,3 @@ Hopefully, you're comfortable with DirectX 11at this point and are ready to star
  
 
  
-
-
-
-

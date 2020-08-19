@@ -20,7 +20,7 @@ The managed library objects in the Tablet PC API wrap the COM library implementa
 
 ## Object Comparison
 
-For all objects in the Tablet PC Platform Managed library, [**Equals**](https://msdn.microsoft.com/library/d5171fyh(v=VS.96).aspx) is not overridden to correctly compare two objects that are the same. The managed application programming interface (API) does not support the comparison of objects for equality, either through the **Equals** function or through the equals (==) operator.
+For all objects in the Tablet PC Platform Managed library, [**Equals**](/previous-versions/windows/) is not overridden to correctly compare two objects that are the same. The managed application programming interface (API) does not support the comparison of objects for equality, either through the **Equals** function or through the equals (==) operator.
 
 ## Binding to the Latest Microsoft.Ink.dll
 
@@ -30,16 +30,16 @@ The only time you need to explicitly bind to the new assembly by using the follo
 
 The best way to instruct the common language runtime loader to use the newer DLL is to redirect assembly versions at the application level. You can specify that your application use the newer version of the assembly by putting assembly binding information in your application's configuration file. For more information about redirecting assembly versions at the application level, see [Redirecting Assembly Versions](https://msdn.microsoft.com/library/default.asp?url=/library/cpguide/html/cpconassemblyversionredirection.asp?frame=true), specifically the section "Specifying Assembly Binding in Configuration Files."
 
-You will need to create a configuration file in the same directory as your executable file. The configuration file must have the same name as your executable, followed by the .config file extension. For example, for an application, MyApp.exe, the configuration file must be the MyApp.exe.config file. The configuration file uses a [bindingRedirect](https://msdn.microsoft.com/library/eftw1fys(VS.71).aspx) element to force all prior versions to be mapped to the latest version, as shown in the following example:
+You will need to create a configuration file in the same directory as your executable file. The configuration file must have the same name as your executable, followed by the .config file extension. For example, for an application, MyApp.exe, the configuration file must be the MyApp.exe.config file. The configuration file uses a [bindingRedirect](/previous-versions/dotnet/netframework-1.1/eftw1fys(v=vs.71)) element to force all prior versions to be mapped to the latest version, as shown in the following example:
 
 `<bindingRedirect oldVersion="0.0.0.0-1.7.2600.xxxx" newVersion="1.7.2600.xxxx" />`
 
-For more information about configuration files, including examples of how to construct the Extensible Markup Language (XML) for the configuration file, see both [bindingRedirect](https://msdn.microsoft.com/library/eftw1fys(VS.71).aspx) and [Redirecting Assembly Versions](https://msdn.microsoft.com/library/default.asp?url=/library/cpguide/html/cpconassemblyversionredirection.asp?frame=true).
+For more information about configuration files, including examples of how to construct the Extensible Markup Language (XML) for the configuration file, see both [bindingRedirect](/previous-versions/dotnet/netframework-1.1/eftw1fys(v=vs.71)) and [Redirecting Assembly Versions](https://msdn.microsoft.com/library/default.asp?url=/library/cpguide/html/cpconassemblyversionredirection.asp?frame=true).
 
 Applications created with Microsoft Windows XP Tablet PC Edition Development Kit 1.7 and later versions are automatically bound to the new version of the Microsoft.Ink assembly. For more information about assembly binding see [How the Runtime Locates Assemblies](https://msdn.microsoft.com/library/default.asp?url=/library/cpguide/html/cpconHowRuntimeLocatesAssemblies.asp).
 
 > [!Note]  
-> Using application policy to bind to the updated assembly does not work for applications that use the [Divider](https://msdn.microsoft.com/library/ms583616(v=VS.100).aspx) class or the [PenInputPanel](https://msdn.microsoft.com/library/Aa514041(v=MSDN.10).aspx) class. Applications that use either of those classes must either continue to use Microsoft.Ink.15.dll or be recompiled after referencing the updated assembly.
+> Using application policy to bind to the updated assembly does not work for applications that use the [Divider](/previous-versions/ms583616(v=vs.100)) class or the [PenInputPanel](/previous-versions/aa514041(v=msdn.10)) class. Applications that use either of those classes must either continue to use Microsoft.Ink.15.dll or be recompiled after referencing the updated assembly.
 
  
 
@@ -49,19 +49,19 @@ If the code within an event handler for any of the managed objects throws an exc
 
 ## Managing Forms
 
-The [Form](https://msdn.microsoft.com/library/w4bcxb43(v=VS.90).aspx) class and its base classes do not define a finalizer. To clean up your resources on a form, write a subclass that provides a finalizer (for example, the C\# destructor using the ~) that calls [Dispose](https://msdn.microsoft.com/library/d305e9bx(v=VS.100).aspx). To do the cleanup the finalizer overrides Dispose and then calls the base class Dispose. Do not refer to other objects that require the [Finalize](https://msdn.microsoft.com/library/4k87zsw7(v=VS.96).aspx) method in the Dispose method when the Boolean parameter is **FALSE**, because those objects may already have been finalized. For more information about releasing resources see [Finalize Methods and Destructors](https://msdn.microsoft.com/library/default.asp?url=/library/cpguide/html/cpconfinalizemethodscdestructors.asp).
+The [Form](/dotnet/api/system.windows.forms.form?view=netcore-3.1) class and its base classes do not define a finalizer. To clean up your resources on a form, write a subclass that provides a finalizer (for example, the C\# destructor using the ~) that calls [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1). To do the cleanup the finalizer overrides Dispose and then calls the base class Dispose. Do not refer to other objects that require the [Finalize](/previous-versions/windows/) method in the Dispose method when the Boolean parameter is **FALSE**, because those objects may already have been finalized. For more information about releasing resources see [Finalize Methods and Destructors](https://msdn.microsoft.com/library/default.asp?url=/library/cpguide/html/cpconfinalizemethodscdestructors.asp).
 
 ## Forms and the RecognizerContext
 
-[RecognizerContext](https://msdn.microsoft.com/library/ms552546(v=VS.100).aspx) events run in a different thread than the thread that the form is on. Controls in Windows Forms are bound to a specific thread and are not thread safe. Therefore, you must use one of the control's invoke methods to marshal the call to the proper thread. Four methods on a control are thread safe: the [Invoke](https://msdn.microsoft.com/library/30s4t80c(v=VS.90).aspx), [BeginInvoke](https://msdn.microsoft.com/library/ae5kdt95(v=VS.90).aspx), [EndInvoke](https://msdn.microsoft.com/library/zbdewc0s(v=VS.90).aspx), and [CreateGraphics](https://msdn.microsoft.com/library/xz0d56wk(v=VS.90).aspx) methods. For all other method calls, use one of these invoke methods when calling from a different thread. For more information on using these methods, see [Manipulating Controls from Threads](https://docs.microsoft.com/previous-versions/757y83z4(v=vs.140)).
+[RecognizerContext](/previous-versions/ms552546(v=vs.100)) events run in a different thread than the thread that the form is on. Controls in Windows Forms are bound to a specific thread and are not thread safe. Therefore, you must use one of the control's invoke methods to marshal the call to the proper thread. Four methods on a control are thread safe: the [Invoke](/dotnet/api/system.windows.forms.control.invoke?view=netcore-3.1), [BeginInvoke](/dotnet/api/system.windows.forms.control.begininvoke?view=netcore-3.1), [EndInvoke](/dotnet/api/system.windows.forms.control.endinvoke?view=netcore-3.1), and [CreateGraphics](/dotnet/api/system.windows.forms.control.creategraphics?view=netcore-3.1) methods. For all other method calls, use one of these invoke methods when calling from a different thread. For more information on using these methods, see [Manipulating Controls from Threads](/previous-versions/757y83z4(v=vs.140)).
 
 ## Waiting for Events
 
-The Tablet PC environment is multithreaded. Use the [**CoWaitForMultipleHandles**](https://msdn.microsoft.com/library/ms680732(v=VS.85).aspx) function instead of other wait methods to allow re-entrant Component Object Model (COM) calls to enter your multithreaded apartment (MTA) while your application is waiting on an event.
+The Tablet PC environment is multithreaded. Use the [**CoWaitForMultipleHandles**](/windows/win32/api/combaseapi/nf-combaseapi-cowaitformultiplehandles) function instead of other wait methods to allow re-entrant Component Object Model (COM) calls to enter your multithreaded apartment (MTA) while your application is waiting on an event.
 
 ## Using Ink Strokes Collections
 
-Instances of [Strokes](https://msdn.microsoft.com/library/ms552701(v=VS.100).aspx) collections which are obtained from an [Ink](https://msdn.microsoft.com/library/Aa515768(v=MSDN.10).aspx) object are not garbage collected. In order to avoid a memory leak, any time that you are working with one of these collections, make use of the "using" statement as shown below.
+Instances of [Strokes](/previous-versions/ms552701(v=vs.100)) collections which are obtained from an [Ink](/previous-versions/aa515768(v=msdn.10)) object are not garbage collected. In order to avoid a memory leak, any time that you are working with one of these collections, make use of the "using" statement as shown below.
 
 
 ```C++
@@ -75,21 +75,21 @@ using (Strokes strokes = myInk.Strokes)
 
 ## Disposing Managed Objects and Controls
 
-To avoid a memory leak you must explicitly call the [Dispose](https://msdn.microsoft.com/library/d305e9bx(v=VS.100).aspx) method on any Tablet PC object or control to which an event handler has been attached before the object or control goes out of scope.
+To avoid a memory leak you must explicitly call the [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) method on any Tablet PC object or control to which an event handler has been attached before the object or control goes out of scope.
 
 To improve the performance of your application, manually dispose of the following objects, controls, and collection when they are no longer needed.
 
--   [Divider](https://msdn.microsoft.com/library/ms583616(v=VS.100).aspx)
--   [Ink](https://msdn.microsoft.com/library/Aa515768(v=MSDN.10).aspx)
--   [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx)
--   [InkEdit](https://msdn.microsoft.com/library/ms552265(v=VS.100).aspx)
--   [InkOverlay](https://msdn.microsoft.com/library/ms552322(v=VS.100).aspx)
--   [InkPicture](https://msdn.microsoft.com/library/Aa514604(v=MSDN.10).aspx)
--   [PenInputPanel](https://msdn.microsoft.com/library/Aa514041(v=MSDN.10).aspx)
--   [RecognizerContext](https://msdn.microsoft.com/library/ms552546(v=VS.100).aspx)
--   [Strokes](https://msdn.microsoft.com/library/ms552701(v=VS.100).aspx)
+-   [Divider](/previous-versions/ms583616(v=vs.100))
+-   [Ink](/previous-versions/aa515768(v=msdn.10))
+-   [InkCollector](/previous-versions/ms583683(v=vs.100))
+-   [InkEdit](/previous-versions/ms552265(v=vs.100))
+-   [InkOverlay](/previous-versions/ms552322(v=vs.100))
+-   [InkPicture](/previous-versions/aa514604(v=msdn.10))
+-   [PenInputPanel](/previous-versions/aa514041(v=msdn.10))
+-   [RecognizerContext](/previous-versions/ms552546(v=vs.100))
+-   [Strokes](/previous-versions/ms552701(v=vs.100))
 
-The following C\# example demonstrates some scenarios in which the [Dispose](https://msdn.microsoft.com/library/d305e9bx(v=VS.100).aspx) method is used.
+The following C\# example demonstrates some scenarios in which the [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) method is used.
 
 
 ```C++
@@ -144,6 +144,3 @@ public void UsePenInputPanel()
  
 
  
-
-
-

@@ -12,7 +12,7 @@ The property proxy for the System.GPS.ImgDirection photo metadata policy.
 
 ### Description
 
-The property proxy returns a rational pair a through the [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx) uhVal member.
+The property proxy returns a rational pair a through the [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal member.
 
 ### Containers
 
@@ -40,12 +40,9 @@ LowPart of the uhVal.
 
 <dl> <dt>
 
-[System.GPS.ImgDirection](https://msdn.microsoft.com/library/bb760535(VS.85).aspx)
+[System.GPS.ImgDirection](../properties/props-system-gps-imgdirection.md)
 </dt> </dl>
 
  
 
  
-
-
-

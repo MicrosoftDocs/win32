@@ -44,7 +44,7 @@ retVal = WebViewFolderContents.PopupItemMenu(
 
 Type: **Variant**
 
-The [**FolderItem**](/windows/win32/shell/folderitem) object for which the shortcut menu will be created.
+The [**FolderItem**](../shell/folderitem.md) object for which the shortcut menu will be created.
 
 </dd> <dt>
 
@@ -68,7 +68,7 @@ The vertical position of the menu, in screen coordinates.
 
 ## Return value
 
-Type: **[BSTR](https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr)\***
+Type: **[BSTR](/previous-versions/windows/desktop/automat/bstr)\***
 
 When this method returns, contains the command string.
 
@@ -125,10 +125,4 @@ The following example shows the proper use of **PopupItemMenu** for JScript embe
 
 
  
-
- 
-
-
-
-
 

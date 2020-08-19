@@ -21,7 +21,7 @@ Provides access to layout analysis, writing and drawing classification, and hand
 
 ## Members
 
-The **IInkAnalyzer** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IInkAnalyzer** also has these types of members:
+The **IInkAnalyzer** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IInkAnalyzer** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -97,7 +97,7 @@ The **IInkAnalyzer** interface has these methods.
 
 ## Remarks
 
-**IInkAnalyzer** uses stroke packet data to analyze ink and does not interact with [**InkDisp Class**](inkdisp-class.md) or [InkStrokes Collection](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) objects directly.
+**IInkAnalyzer** uses stroke packet data to analyze ink and does not interact with [**InkDisp Class**](inkdisp-class.md) or [InkStrokes Collection](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) objects directly.
 
 To add or remove strokes to the **IInkAnalyzer** for analysis, use one of the following methods.
 
@@ -191,9 +191,4 @@ For more information about using the **IInkAnalyzer** to analyze ink, see [Ink A
 </dt> </dl>
 
  
-
- 
-
-
-
 

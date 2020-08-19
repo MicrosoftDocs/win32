@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Using Message Support
 
-After a handshake has been completed and a secure connection has been established, an application can use the [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature), [**EncryptMessage (General)**](https://msdn.microsoft.com/library/Aa375378(v=VS.85).aspx), [**VerifySignature**](/windows/desktop/api/Sspi/nf-sspi-verifysignature), and [**DecryptMessage (General)**](https://msdn.microsoft.com/library/Aa375211(v=VS.85).aspx) functions to exchange signed or encrypted application data with the remote computer.
+After a handshake has been completed and a secure connection has been established, an application can use the [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature), [**EncryptMessage (General)**](/windows/win32/api/sspi/nf-sspi-encryptmessage), [**VerifySignature**](/windows/desktop/api/Sspi/nf-sspi-verifysignature), and [**DecryptMessage (General)**](/windows/win32/api/sspi/nf-sspi-decryptmessage) functions to exchange signed or encrypted application data with the remote computer.
 
-Examples that use these functions after a [*security context*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) has been established are demonstrated in the following sections:
+Examples that use these functions after a [*security context*](../secgloss/s-gly.md) has been established are demonstrated in the following sections:
 
 -   [Signing a Message](signing-a-message.md)
 -   [Verifying a Message](verifying-a-message.md)
@@ -20,6 +20,3 @@ Examples that use these functions after a [*security context*](https://msdn.micr
  
 
  
-
-
-

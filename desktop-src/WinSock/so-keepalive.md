@@ -117,13 +117,13 @@ When this socket option is enabled, the TCP stack sends keep-alive packets when 
 
 The **SO\_KEEPALIVE** socket option is valid only for protocols that support the notion of keep-alive (connection-oriented protocols). For TCP, the default keep-alive timeout is 2 hours and the keep-alive interval is 1 second. The default number of keep-alive probes varies based on the version of Windows.
 
-The [**SIO\_KEEPALIVE\_VALS**](https://msdn.microsoft.com/library/Dd877220(v=VS.85).aspx) control code enables or disables the per-connection setting of the TCP **keep-alive** option which specifies the TCP keep-alive timeout and interval. If TCP keep-alive is enabled with **SO\_KEEPALIVE**, then the default TCP settings are used for keep-alive timeout and interval unless these values have been changed using **SIO\_KEEPALIVE\_VALS**.
+The [**SIO\_KEEPALIVE\_VALS**](/previous-versions/windows/desktop/legacy/dd877220(v=vs.85)) control code enables or disables the per-connection setting of the TCP **keep-alive** option which specifies the TCP keep-alive timeout and interval. If TCP keep-alive is enabled with **SO\_KEEPALIVE**, then the default TCP settings are used for keep-alive timeout and interval unless these values have been changed using **SIO\_KEEPALIVE\_VALS**.
 
-The default settings when a TCP socket is initialized sets the keep-alive timeout to 2 hours and the keep-alive interval to 1 second. The default system-wide value of the keep-alive timeout is controllable through the [KeepAliveTime](https://technet.microsoft.com/library/cc782936(WS.10).aspx) registry setting which takes a value in milliseconds. The default system-wide value of the keep-alive interval is controllable through the [KeepAliveInterval](https://technet.microsoft.com/library/cc758083(WS.10).aspx) registry setting which takes a value in milliseconds.
+The default settings when a TCP socket is initialized sets the keep-alive timeout to 2 hours and the keep-alive interval to 1 second. The default system-wide value of the keep-alive timeout is controllable through the [KeepAliveTime](/previous-versions/windows/it-pro/windows-server-2003/cc782936(v=ws.10)) registry setting which takes a value in milliseconds. The default system-wide value of the keep-alive interval is controllable through the [KeepAliveInterval](/previous-versions/windows/it-pro/windows-server-2003/cc758083(v=ws.10)) registry setting which takes a value in milliseconds.
 
 On Windows Vista and later, the number of keep-alive probes (data retransmissions) is set to 10 and cannot be changed.
 
-On Windows Server 2003, Windows XP, and Windows 2000, the default setting for number of keep-alive probes is 5. The number of keep-alive probes is controllable through the [TcpMaxDataRetransmissions](https://technet.microsoft.com/library/cc780586.aspx) and [PPTPTcpMaxDataRetransmissions](https://technet.microsoft.com/library/cc775408(WS.10).aspx) registry settings. The number of keep-alive probes is set to the larger of the two registry key values. If this number is 0, then keep-alive probes will not be sent. If this number is above 255, then it is adjusted to 255.
+On Windows Server 2003, Windows XP, and Windows 2000, the default setting for number of keep-alive probes is 5. The number of keep-alive probes is controllable through the [TcpMaxDataRetransmissions](/previous-versions/windows/it-pro/windows-server-2003/cc780586(v=ws.10)) and [PPTPTcpMaxDataRetransmissions](/previous-versions/windows/it-pro/windows-server-2003/cc775408(v=ws.10)) registry settings. The number of keep-alive probes is set to the larger of the two registry key values. If this number is 0, then keep-alive probes will not be sent. If this number is above 255, then it is adjusted to 255.
 
 On Windows Vista and later, the **SO\_KEEPALIVE** socket option can only be set using the [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) function when the socket is in a well-known state not a transitional state. For TCP, the **SO\_KEEPALIVE** socket option should be set either before the connect function ([**connect**](/windows/desktop/api/Winsock2/nf-winsock2-connect), [**ConnectEx**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_connectex), [**WSAConnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnect), [**WSAConnectByList**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbylist), or [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea)) is called, or after the connection request is actually completed. If the connect function was called asynchronously, then this requires waiting for the connection completion before trying to set the **SO\_KEEPALIVE** socket option. If an application attempts to set the **SO\_KEEPALIVE** socket option when a connection request is still in process, the **setsockopt** function will fail and return [WSAEINVAL](windows-sockets-error-codes-2.md).
 
@@ -153,22 +153,22 @@ Note that the *Ws2def.h* header file is automatically included in *Winsock2.h*, 
 [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt)
 </dt> <dt>
 
-[KeepAliveTime](https://technet.microsoft.com/library/cc782936(WS.10).aspx)
+[KeepAliveTime](/previous-versions/windows/it-pro/windows-server-2003/cc782936(v=ws.10))
 </dt> <dt>
 
-[KeepAliveInterval](https://technet.microsoft.com/library/cc758083(WS.10).aspx)
+[KeepAliveInterval](/previous-versions/windows/it-pro/windows-server-2003/cc758083(v=ws.10))
 </dt> <dt>
 
-[PPTPTcpMaxDataRetransmissions](https://technet.microsoft.com/library/cc775408(WS.10).aspx)
+[PPTPTcpMaxDataRetransmissions](/previous-versions/windows/it-pro/windows-server-2003/cc775408(v=ws.10))
 </dt> <dt>
 
 [**socket**](/windows/desktop/api/Winsock2/nf-winsock2-socket)
 </dt> <dt>
 
-[**SIO\_KEEPALIVE\_VALS**](https://msdn.microsoft.com/library/Dd877220(v=VS.85).aspx)
+[**SIO\_KEEPALIVE\_VALS**](/previous-versions/windows/desktop/legacy/dd877220(v=vs.85))
 </dt> <dt>
 
-[TcpMaxDataRetransmissions](https://technet.microsoft.com/library/cc780586.aspx)
+[TcpMaxDataRetransmissions](/previous-versions/windows/it-pro/windows-server-2003/cc780586(v=ws.10))
 </dt> <dt>
 
 [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror)
@@ -177,7 +177,3 @@ Note that the *Ws2def.h* header file is automatically included in *Winsock2.h*, 
  
 
  
-
-
-
-

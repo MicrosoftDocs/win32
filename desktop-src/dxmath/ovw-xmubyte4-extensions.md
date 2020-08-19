@@ -35,13 +35,9 @@ Describes a 4D vector made up of unsigned integers, 8-bits (1 byte) in length.
 **Reference**
 </dt> <dt>
 
-[**XMUBYTE4**](https://msdn.microsoft.com/library/Ee420424(v=VS.85).aspx)
+[**XMUBYTE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyte4)
 </dt> </dl>
 
  
 
  
-
-
-
-

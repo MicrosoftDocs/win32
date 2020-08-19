@@ -61,7 +61,7 @@ The **MDM\_EnterpriseAPN\_01** class has these properties.
 
 <dl> <dt>
 
-[AlwaysOn](https://docs.microsoft.com/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-alwayson)
+[AlwaysOn](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-alwayson)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -72,7 +72,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[APNName](https://docs.microsoft.com/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-apnname)
+[APNName](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-apnname)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -83,7 +83,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AuthType](https://docs.microsoft.com/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-authtype)
+[AuthType](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-authtype)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -94,7 +94,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ClassId](https://docs.microsoft.com/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-classid)
+[ClassId](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-classid)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -105,7 +105,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Enabled](https://docs.microsoft.com/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-enabled)
+[Enabled](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-enabled)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -116,7 +116,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[IccId](https://docs.microsoft.com/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-iccid)
+[IccId](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-iccid)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -136,14 +136,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Name of the connection as seen by Windows Connection Manager.
 
 </dd> <dt>
 
-[IPType](https://docs.microsoft.com/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-iptype)
+[IPType](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-iptype)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -154,7 +154,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[IsAttachAPN](https://docs.microsoft.com/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-isattachapn)
+[IsAttachAPN](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-isattachapn)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -174,14 +174,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/EnterpriseAPN"
 
 </dd> <dt>
 
-[Password](https://docs.microsoft.com/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-password)
+[Password](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-password)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -192,7 +192,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Roaming](https://docs.microsoft.com/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-roaming)
+[Roaming](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-roaming)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -203,7 +203,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[UserName](https://docs.microsoft.com/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-username)
+[UserName](/windows/client-management/mdm/enterpriseapn-csp#enterpriseapn-connectionname-username)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -232,14 +232,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

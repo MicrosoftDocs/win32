@@ -223,7 +223,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Describes the read/write properties of the media. This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is set to 3 (Read/Write Supported) by default.
+Describes the read/write properties of the media. This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is set to 3 (Read/Write Supported) by default.
 
 </dd> <dt>
 
@@ -236,7 +236,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is set to 6 (Not Applicable).
+This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is set to 6 (Not Applicable).
 
 </dd> <dt>
 
@@ -249,7 +249,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_Memory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
+This property is inherited from [**CIM\_Memory**](/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
 
 </dd> <dt>
 
@@ -262,7 +262,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice).
+This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).
 
 </dd> <dt>
 
@@ -275,7 +275,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Indicates the possible values for the *RequestedState* parameter of the **RequestStateChange** method. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
+Indicates the possible values for the *RequestedState* parameter of the **RequestStateChange** method. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -288,7 +288,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The size, in bytes, of the blocks that form the storage extent. If variable block size, then the maximum block size, in bytes, should be specified. If the block size is unknown, or if a block concept is not valid (for example, for aggregate extents, memory, or logical disks), enter a 1 (one). This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to 1048576.
+The size, in bytes, of the blocks that form the storage extent. If variable block size, then the maximum block size, in bytes, should be specified. If the block size is unknown, or if a block concept is not valid (for example, for aggregate extents, memory, or logical disks), enter a 1 (one). This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to 1048576.
 
 </dd> <dt>
 
@@ -301,7 +301,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -314,7 +314,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 <dl> <dt>
 
@@ -350,7 +350,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The maximum number of blocks, of size **BlockSize**, that are available for consumption when layering storage extents using the BasedOn association. This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to **Null**.
+The maximum number of blocks, of size **BlockSize**, that are available for consumption when layering storage extents using the BasedOn association. This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -363,7 +363,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_Memory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
+This property is inherited from [**CIM\_Memory**](/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
 
 </dd> <dt>
 
@@ -376,7 +376,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The name of the class or subclass used in the creation of an instance. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice).
+The name of the class or subclass used in the creation of an instance. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).
 
 </dd> <dt>
 
@@ -389,7 +389,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The type of data organization used. This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to 2.
+The type of data organization used. This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to 2.
 
 </dd> <dt>
 
@@ -402,7 +402,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The number of complete copies of data that is currently maintained. This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to 1.
+The number of complete copies of data that is currently maintained. This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to 1.
 
 </dd> <dt>
 
@@ -415,7 +415,7 @@ Data type: **uint8**
 Access type: Read-only
 </dt> </dl>
 
-The current value for delta reservation. This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to 0.
+The current value for delta reservation. This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to 0.
 
 </dd> <dt>
 
@@ -428,7 +428,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -441,7 +441,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Compliments the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Compliments the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 <dl> <dt>
 
@@ -480,7 +480,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-An address or other identifying information to uniquely name the logical device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice).
+An address or other identifying information to uniquely name the logical device. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).
 
 </dd> <dt>
 
@@ -493,7 +493,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -506,7 +506,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-An administrator's default or startup configuration for the enabled state of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
+An administrator's default or startup configuration for the enabled state of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -519,7 +519,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The enabled and disabled states of an element. It can also indicate the transitions between these requested states. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
+The enabled and disabled states of an element. It can also indicate the transitions between these requested states. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).
 
 
 
@@ -565,7 +565,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_Memory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
+This property is inherited from [**CIM\_Memory**](/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
 
 </dd> <dt>
 
@@ -578,7 +578,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_Memory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
+This property is inherited from [**CIM\_Memory**](/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
 
 </dd> <dt>
 
@@ -591,7 +591,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -604,7 +604,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_Memory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
+This property is inherited from [**CIM\_Memory**](/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
 
 </dd> <dt>
 
@@ -617,7 +617,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_Memory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
+This property is inherited from [**CIM\_Memory**](/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
 
 </dd> <dt>
 
@@ -630,7 +630,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -643,7 +643,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_Memory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
+This property is inherited from [**CIM\_Memory**](/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
 
 </dd> <dt>
 
@@ -656,7 +656,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that describes the type of error detection and correction supported by this storage extent. This property is inherited from [**CIM\_Memory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-memory), and it is always set to **Null**.
+A string that describes the type of error detection and correction supported by this storage extent. This property is inherited from [**CIM\_Memory**](/windows/desktop/CIMWin32Prov/cim-memory), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -669,7 +669,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_Memory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
+This property is inherited from [**CIM\_Memory**](/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
 
 </dd> <dt>
 
@@ -682,7 +682,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_Memory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-memory) but it not used.
+This property is inherited from [**CIM\_Memory**](/windows/desktop/CIMWin32Prov/cim-memory) but it not used.
 
 </dd> <dt>
 
@@ -695,7 +695,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_Memory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
+This property is inherited from [**CIM\_Memory**](/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
 
 </dd> <dt>
 
@@ -708,7 +708,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Storage extents have additional status information beyond that captured in the **OperationalStatus** and other properties inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement). This additional information (for example, "Protection Disabled", value=9) is captured in the **VolumeStatus** property. This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to 2 (None/Not Applicable).
+Storage extents have additional status information beyond that captured in the **OperationalStatus** and other properties inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement). This additional information (for example, "Protection Disabled", value=9) is captured in the **VolumeStatus** property. This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to 2 (None/Not Applicable).
 
 </dd> <dt>
 
@@ -721,7 +721,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The current health of the element. This attribute expresses the health of this element but not necessarily that of its subcomponents. The possible values are 0 to 30, where 5 means the element is entirely healthy and 30 means the element is completely nonfunctional. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and it is always set to 5.
+The current health of the element. This attribute expresses the health of this element but not necessarily that of its subcomponents. The possible values are 0 to 30, where 5 means the element is entirely healthy and 30 means the element is completely nonfunctional. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and it is always set to 5.
 
 </dd> <dt>
 
@@ -734,7 +734,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is set to **Null**.
+This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is set to **Null**.
 
 </dd> <dt>
 
@@ -747,7 +747,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date and time the virtual machine configuration was created. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+The date and time the virtual machine configuration was created. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -763,7 +763,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -776,7 +776,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-**True** if the underlying storage extents participate in a Storage Redundancy Group. This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to **False**.
+**True** if the underlying storage extents participate in a Storage Redundancy Group. This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to **False**.
 
 </dd> <dt>
 
@@ -789,7 +789,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -802,7 +802,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -818,7 +818,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (1024), **Override** ("Name")
 </dt> </dl>
 
-The label by which the object is known. When subclassed, this property can be overridden to be a key property. This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to "*GUID*".
+The label by which the object is known. When subclassed, this property can be overridden to be a key property. This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to "*GUID*".
 
 </dd> <dt>
 
@@ -831,7 +831,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to 0.
+This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to 0.
 
 </dd> <dt>
 
@@ -844,7 +844,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to 0.
+This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to 0.
 
 </dd> <dt>
 
@@ -857,7 +857,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-**True** if there exists no single point of failure. This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to **False**.
+**True** if there exists no single point of failure. This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to **False**.
 
 </dd> <dt>
 
@@ -870,7 +870,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-A calculated value that represents the total amount of memory divided by the **BlockSize**. This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent).
+A calculated value that represents the total amount of memory divided by the **BlockSize**. This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent).
 
 </dd> <dt>
 
@@ -883,7 +883,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 <dl> <dt>
 
@@ -955,7 +955,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-The current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+The current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -968,7 +968,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The enabled or disabled state of the element when the **EnabledState** property is set to 1 (Other). This property must be set to **Null** when **EnabledState** is any value other than 1. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.
+The enabled or disabled state of the element when the **EnabledState** property is set to 1 (Other). This property must be set to **Null** when **EnabledState** is any value other than 1. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -981,7 +981,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_Memory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
+This property is inherited from [**CIM\_Memory**](/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
 
 </dd> <dt>
 
@@ -994,7 +994,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is set to **Null**.
+This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is set to **Null**.
 
 </dd> <dt>
 
@@ -1007,7 +1007,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The namespace of the **Name** property when the **NameFormat** property includes the value 1 (Other"). This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to **Null**.
+The namespace of the **Name** property when the **NameFormat** property includes the value 1 (Other"). This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -1020,7 +1020,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The namespace of the **Name** property when the **NameNamespace** property includes the value 1 (Other). This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to **Null**.
+The namespace of the **Name** property when the **NameNamespace** property includes the value 1 (Other). This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -1033,7 +1033,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The number of physical packages that can currently fail without data loss. This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to 0.
+The number of physical packages that can currently fail without data loss. This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to 0.
 
 </dd> <dt>
 
@@ -1046,7 +1046,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -1059,7 +1059,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -1072,7 +1072,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -1085,7 +1085,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status of the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status of the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 <dl> <dt>
 
@@ -1118,7 +1118,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-**True** if the containing system does not have the ability to create or delete this operational element. This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent).
+**True** if the containing system does not have the ability to create or delete this operational element. This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent).
 
 </dd> <dt>
 
@@ -1131,7 +1131,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that describes the media and its use. This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to "System Memory".
+A string that describes the media and its use. This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to "System Memory".
 
 </dd> <dt>
 
@@ -1144,7 +1144,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The last requested or desired state for the element. The actual state of the element is represented by **EnabledState**. This property is provided to compare the last requested and current enabled or disabled states. A particular instance of [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)) might not support the **RequestStateChange** method. If this occurs, the value 12 (Not Applicable) is used. This property is inherited from **CIM\_EnabledLogicalElement**.
+The last requested or desired state for the element. The actual state of the element is represented by **EnabledState**. This property is provided to compare the last requested and current enabled or disabled states. A particular instance of [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)) might not support the **RequestStateChange** method. If this occurs, the value 12 (Not Applicable) is used. This property is inherited from **CIM\_EnabledLogicalElement**.
 
 </dd> <dt>
 
@@ -1157,7 +1157,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-**True** if the storage is sequentially accessed by a media access device. A tape partition is an example of a sequentially accessed storage extent. Storage volumes, disk partitions, and logical disks represent randomly accessed extents. This property is inherited from [**CIM\_StorageExtent**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to **False**.
+**True** if the storage is sequentially accessed by a media access device. A tape partition is an example of a sequentially accessed storage extent. Storage volumes, disk partitions, and logical disks represent randomly accessed extents. This property is inherited from [**CIM\_StorageExtent**](/windows/desktop/CIMWin32Prov/cim-storageextent), and it is always set to **False**.
 
 </dd> <dt>
 
@@ -1170,7 +1170,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The beginning address referenced by an application or operating system and mapped by a memory controller for this memory object. This property is inherited from [**CIM\_Memory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-memory), and it is always set to 0.
+The beginning address referenced by an application or operating system and mapped by a memory controller for this memory object. This property is inherited from [**CIM\_Memory**](/windows/desktop/CIMWin32Prov/cim-memory), and it is always set to 0.
 
 </dd> <dt>
 
@@ -1183,7 +1183,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not used.
+This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not used.
 
 </dd> <dt>
 
@@ -1196,7 +1196,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -1209,7 +1209,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -1222,7 +1222,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The scoping system's creation class name. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice).
+The scoping system's creation class name. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).
 
 </dd> <dt>
 
@@ -1235,7 +1235,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_Memory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
+This property is inherited from [**CIM\_Memory**](/windows/desktop/CIMWin32Prov/cim-memory), but it is not used.
 
 </dd> <dt>
 
@@ -1248,7 +1248,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The unique identifier for the scoping virtual machine. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice).
+The unique identifier for the scoping virtual machine. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).
 
 </dd> <dt>
 
@@ -1261,7 +1261,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date or time when the enabled state of the element last changed. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it is always set to "NULL".
+The date or time when the enabled state of the element last changed. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)), and it is always set to "NULL".
 
 </dd> <dt>
 
@@ -1274,7 +1274,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -1287,7 +1287,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the target state to which the instance is transitioning. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
+Indicates the target state to which the instance is transitioning. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -1300,13 +1300,13 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether memory is volatile. This property is inherited from [**CIM\_Memory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-memory), and it is always set to **True**.
+Indicates whether memory is volatile. This property is inherited from [**CIM\_Memory**](/windows/desktop/CIMWin32Prov/cim-memory), and it is always set to **True**.
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_Memory** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_Memory** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -1329,16 +1329,11 @@ Access to the **Msvm\_Memory** class might be restricted by UAC Filtering. For m
 [**CIM\_Memory**](cim-memory.md)
 </dt> <dt>
 
-[**CIM\_Memory**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-memory)
+[**CIM\_Memory**](/windows/desktop/CIMWin32Prov/cim-memory)
 </dt> <dt>
 
 [Memory Classes](memory-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

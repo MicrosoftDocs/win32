@@ -42,17 +42,11 @@ Points in Direct2D are represented by the **D2D1\_POINT\_2F** or [**D2D1\_POINT\
 
 <dl> <dt>
 
-[**D2D1\_POINT\_2U**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2u)
+[**D2D1\_POINT\_2U**](/windows/desktop/Direct2D/d2d1-point-2u)
 </dt> <dt>
 
 [**D2D\_POINT\_2F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_point_2f)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

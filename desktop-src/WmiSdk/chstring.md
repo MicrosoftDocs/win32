@@ -21,7 +21,7 @@ api_location:
 
 # CHString class
 
-\[The **CHString** class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The **CHString** class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The following table lists the **CHString** methods.
 
@@ -102,22 +102,22 @@ The **CHString** class has these operators.`
 
 | Operator                                                                                            | Description                                                                                                       |
 |:----------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------|
-| [**operator != (CHString, CHString)**](https://msdn.microsoft.com/library/Aa385704(v=VS.85).aspx)            | Compares two **CHStrings** for inequality.<br/>                                                             |
-| [**operator != (CHString, LPCWSTR)**](https://msdn.microsoft.com/library/Aa385763(v=VS.85).aspx)              | Compares a **CHString** with a **LPCWSTR** for inequality.<br/>                                             |
+| [**operator != (CHString, CHString)**](/previous-versions/windows/desktop/legacy/aa385704(v=vs.85))            | Compares two **CHStrings** for inequality.<br/>                                                             |
+| [**operator != (CHString, LPCWSTR)**](/previous-versions/windows/desktop/legacy/aa385763(v=vs.85))              | Compares a **CHString** with a **LPCWSTR** for inequality.<br/>                                             |
 | [**operator \[\]**](https://msdn.microsoft.com/library/Aa386162(v=VS.85).aspx)                                                | Returns the character at a given position   operator substitution for [**GetAt**](/windows/desktop/api/ChString/nf-chstring-chstring-getat(int)).<br/> |
 | [**operator +**](chstring--operator-plus.md)                                                       | Concatenates two strings and returns a new string.<br/>                                                     |
 | [**operator +=**](chstring--operator-plus-equal.md)                                                | Concatenates a new string to the end of an existing string.<br/>                                            |
-| [**operator < (CHString, LPCWSTR)**](https://msdn.microsoft.com/library/Aa385695(v=VS.85).aspx)            | Compares a **CHString** with a **LPCWSTR**.<br/>                                                            |
-| [**operator < (CHString, CHString)**](https://msdn.microsoft.com/library/Aa385689(v=VS.85).aspx)          | Compares two **CHStrings**.<br/>                                                                            |
-| [**operator <= (CHString, CHString)**](https://msdn.microsoft.com/library/Aa385676(v=VS.85).aspx)    | Compares two **CHStrings**.<br/>                                                                            |
-| [**operator <= (CHString, LPCWSTR)**](https://msdn.microsoft.com/library/Aa385683(v=VS.85).aspx)      | Compares a **CHString** with a **LPCWSTR**.<br/>                                                            |
+| [**operator < (CHString, LPCWSTR)**](/previous-versions/windows/desktop/legacy/aa385695(v=vs.85))            | Compares a **CHString** with a **LPCWSTR**.<br/>                                                            |
+| [**operator < (CHString, CHString)**](/previous-versions/windows/desktop/legacy/aa385689(v=vs.85))          | Compares two **CHStrings**.<br/>                                                                            |
+| [**operator <= (CHString, CHString)**](/previous-versions/windows/desktop/legacy/aa385676(v=vs.85))    | Compares two **CHStrings**.<br/>                                                                            |
+| [**operator <= (CHString, LPCWSTR)**](/previous-versions/windows/desktop/legacy/aa385683(v=vs.85))      | Compares a **CHString** with a **LPCWSTR**.<br/>                                                            |
 | [**operator =**](chstring--operator-equal.md)                                                      | Assigns a new value to a **CHString** string.<br/>                                                          |
-| [**operator == (CHString, CHString)**](https://msdn.microsoft.com/library/Aa385641(v=VS.85).aspx)          | Compares two **CHStrings** for equality.<br/>                                                               |
-| [**operator == (CHString, LPCWSTR)**](https://msdn.microsoft.com/library/Aa385645(v=VS.85).aspx)            | Compares a **CHString** with a **LPCWSTR** for equality.<br/>                                               |
-| [**operator > (CHString, CHString)**](https://msdn.microsoft.com/library/Aa385665(v=VS.85).aspx)       | Compares two **CHStrings**.<br/>                                                                            |
-| [**operator > (CHString, LPCWSTR)**](https://msdn.microsoft.com/library/Aa385672(v=VS.85).aspx)         | Compares a **CHString** with a **LPCWSTR**.<br/>                                                            |
-| [**operator >= (CHString, CHString)**](https://msdn.microsoft.com/library/Aa385652(v=VS.85).aspx) | Compares two **CHStrings**.<br/>                                                                            |
-| [**operator >= (CHString, LPCWSTR)**](https://msdn.microsoft.com/library/Aa385661(v=VS.85).aspx)   | Compares a **CHString** with a **LPCWSTR**.<br/>                                                            |
+| [**operator == (CHString, CHString)**](/previous-versions/windows/desktop/legacy/aa385641(v=vs.85))          | Compares two **CHStrings** for equality.<br/>                                                               |
+| [**operator == (CHString, LPCWSTR)**](/previous-versions/windows/desktop/legacy/aa385645(v=vs.85))            | Compares a **CHString** with a **LPCWSTR** for equality.<br/>                                               |
+| [**operator > (CHString, CHString)**](/previous-versions/windows/desktop/legacy/aa385665(v=vs.85))       | Compares two **CHStrings**.<br/>                                                                            |
+| [**operator > (CHString, LPCWSTR)**](/previous-versions/windows/desktop/legacy/aa385672(v=vs.85))         | Compares a **CHString** with a **LPCWSTR**.<br/>                                                            |
+| [**operator >= (CHString, CHString)**](/previous-versions/windows/desktop/legacy/aa385652(v=vs.85)) | Compares two **CHStrings**.<br/>                                                                            |
+| [**operator >= (CHString, LPCWSTR)**](/previous-versions/windows/desktop/legacy/aa385661(v=vs.85))   | Compares a **CHString** with a **LPCWSTR**.<br/>                                                            |
 | [**operator LPCWSTR**](/windows/desktop/api/ChString/nf-chstring-chstring-operatorlpcwstr)                                               | Directly accesses characters stored in a **CHString** string as a C-style string.<br/>                      |
 
 
@@ -143,9 +143,4 @@ The destructor for the class is **CHString::~CHString**.
 
 
  
-
- 
-
-
-
 

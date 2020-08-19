@@ -30,12 +30,12 @@ To understand the Crawl Scope Manager, you must understand the following terms:
 The **Crawl Scope Manager (CSM)** is a set of APIs that lets you add, remove, and enumerate search roots and scope rules for the Windows Search indexer. When you want the indexer to begin crawling a new container, you can use the CSM to set the search root(s) and scope rules for paths within the search root(s). For example, if you install a new protocol handler, you can create a search root and add one or more inclusion rules; then the indexer can start a crawl for the initial indexing. The CSM offers the following interfaces to help you do this programmatically.
 
 -   [**IEnumSearchRoots**](/windows/desktop/api/Searchapi/nn-searchapi-ienumsearchroots)
--   [IEnumSearchScopeRules](https://msdn.microsoft.com/library/bb266499(VS.85).aspx)
+-   [IEnumSearchScopeRules](/windows/win32/api/searchapi/nn-searchapi-ienumsearchscoperules)
 -   [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager)
--   [ISearchCrawlScopeManager2](https://msdn.microsoft.com/library/dd797832(VS.85).aspx)
+-   [ISearchCrawlScopeManager2](/windows/win32/api/searchapi/nn-searchapi-isearchcrawlscopemanager2)
 -   [**ISearchRoot**](/windows/desktop/api/Searchapi/nn-searchapi-isearchroot)
 -   [**ISearchScopeRule**](/windows/desktop/api/Searchapi/nn-searchapi-isearchscoperule)
--   [ISearchItem](https://msdn.microsoft.com/library/dd756722(VS.85).aspx)
+-   [ISearchItem](./-search-isearchitem.md)
 
 While you can use the CSM APIs to define a crawl scope programmatically, the CSM was designed to support end users as well. For example, suppose you have developed a protocol handler for a new data store, and you want to let users or administrators manage which paths should be indexed. You can use the Crawl Scope Manager to set one or more search roots (for example, file:///C:\\MyContainer\\), and the Windows Search user interface for setting indexing options will display each search root with a check box. Users can then include or exclude that path or children of that path.
 
@@ -89,6 +89,3 @@ System administrators can define crawl scopes across their organizations by usin
  
 
  
-
-
-

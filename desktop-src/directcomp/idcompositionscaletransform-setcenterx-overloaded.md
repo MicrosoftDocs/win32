@@ -24,8 +24,8 @@ Changes or animates the value of the CenterX property of a 2D scale transform. T
 
 | Method                                                                                                        | Description                                            |
 |:--------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetCenterX(float)**](https://msdn.microsoft.com/library/Hh449032(v=VS.85).aspx)                                     | Changes the value of the CenterX property.<br/>  |
-| [**SetCenterX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449034(v=VS.85).aspx) | Animates the value of the CenterX property.<br/> |
+| [**SetCenterX(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setcenterx(float))                                     | Changes the value of the CenterX property.<br/>  |
+| [**SetCenterX(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setcenterx(idcompositionanimation)) | Animates the value of the CenterX property.<br/> |
 
 
 
@@ -47,17 +47,12 @@ Changes or animates the value of the CenterX property of a 2D scale transform. T
 
 <dl> <dt>
 
-[**IDCompositionScaleTransform**](https://msdn.microsoft.com/library/Hh448990(v=VS.85).aspx)
+[**IDCompositionScaleTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionscaletransform)
 </dt> <dt>
 
-[**IDCompositionScaleTransform::SetCenterY**](https://msdn.microsoft.com/library/Hh449042(v=VS.85).aspx)
+[**IDCompositionScaleTransform::SetCenterY**](/previous-versions/windows/desktop/legacy/hh449042(v=vs.85))
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

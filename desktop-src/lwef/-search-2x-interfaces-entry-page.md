@@ -13,14 +13,10 @@ ms.date: 05/31/2018
 
 ## 
 
-[**IGatherNotify**](https://msdn.microsoft.com/library/Aa965731(v=VS.85).aspx)
+[**IGatherNotify**](/previous-versions//aa965731(v=vs.85))
 
-[**ISearchDesktop**](https://msdn.microsoft.com/library/Aa965729(v=VS.85).aspx)
-
- 
+[**ISearchDesktop**](/previous-versions//aa965729(v=vs.85))
 
  
 
-
-
-
+ 

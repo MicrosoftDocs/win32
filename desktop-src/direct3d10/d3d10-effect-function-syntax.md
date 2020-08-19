@@ -25,16 +25,16 @@ An effect function is written in HLSL and is declared with the following syntax.
 
 | Name         | Description                                                                                                                                                                                                                                                          |
 |--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ReturnType   | Any [HLSL type](https://msdn.microsoft.com/library/Bb509706(v=VS.85).aspx)                                                                                                                                                                                                       |
+| ReturnType   | Any [HLSL type](../direct3dhlsl/dx-graphics-hlsl-variable-syntax.md)                                                                                                                                                                                                       |
 | FunctionName | An ASCII string that uniquely identifies the name of the shader function.                                                                                                                                                                                            |
-| ArgumentList | One or more arguments, separated by commas (see [Function Arguments (DirectX HLSL)](https://msdn.microsoft.com/library/Bb509606(v=VS.85).aspx)).                                                                                                                             |
-| Statements   | One or more statements (see [Statements (DirectX HLSL)](https://msdn.microsoft.com/library/Bb509663(v=VS.85).aspx)) that make up the body of the function. If a function is defined without a body, it is considered to be a prototype; and must be redefined with a body before use. |
+| ArgumentList | One or more arguments, separated by commas (see [Function Arguments (DirectX HLSL)](../direct3dhlsl/dx-graphics-hlsl-function-parameters.md)).                                                                                                                             |
+| Statements   | One or more statements (see [Statements (DirectX HLSL)](../direct3dhlsl/dx-graphics-hlsl-statements.md)) that make up the body of the function. If a function is defined without a body, it is considered to be a prototype; and must be redefined with a body before use. |
 
 
 
  
 
-An effect function may be a shader or it may simply be a function called by a shader. A function is uniquely identified by its name, the types of its parameters, and the target platform; therefore, functions can be overloaded. Any valid HLSL function should fit this format; for a more detailed list of syntax for HLSL functions, see [Functions (DirectX HLSL)](https://msdn.microsoft.com/library/Bb509605(v=VS.85).aspx).
+An effect function may be a shader or it may simply be a function called by a shader. A function is uniquely identified by its name, the types of its parameters, and the target platform; therefore, functions can be overloaded. Any valid HLSL function should fit this format; for a more detailed list of syntax for HLSL functions, see [Functions (DirectX HLSL)](../direct3dhlsl/dx-graphics-hlsl-functions.md).
 
 ## Example
 
@@ -71,6 +71,3 @@ PS_OUTPUT RenderScenePS( VS_OUTPUT In,
  
 
  
-
-
-

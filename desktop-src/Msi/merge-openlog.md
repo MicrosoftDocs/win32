@@ -52,7 +52,7 @@ Clients may send their own messages to this log file through the [**Log**](merge
 
 ### C++
 
-See [**OpenLog**](https://msdn.microsoft.com/library/Aa369277(v=VS.85).aspx) function.
+See [**OpenLog**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-openlog) function.
 
 ## Requirements
 
@@ -69,7 +69,3 @@ See [**OpenLog**](https://msdn.microsoft.com/library/Aa369277(v=VS.85).aspx) fun
  
 
  
-
-
-
-

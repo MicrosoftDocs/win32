@@ -26,7 +26,7 @@ Not used.
 
 ## Members
 
-The **IServerConnectionCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IServerConnectionCallback** also has these types of members:
+The **IServerConnectionCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IServerConnectionCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IServerConnectionCallback** interface has these methods.
  
 
  
-
-
-

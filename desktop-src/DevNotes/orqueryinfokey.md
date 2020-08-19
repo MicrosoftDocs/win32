@@ -123,9 +123,9 @@ A pointer to a variable that receives the size of the key's security descriptor,
 *lpftLastWriteTime* \[out, optional\]
 </dt> <dd>
 
-A pointer to a [FILETIME](https://msdn.microsoft.com/library/ms724284.aspx) structure that receives the last write time. This parameter can be **NULL**.
+A pointer to a [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure that receives the last write time. This parameter can be **NULL**.
 
-The function sets the members of the [FILETIME](https://msdn.microsoft.com/library/ms724284.aspx) structure to indicate the last time that the key or any of its value entries is modified.
+The function sets the members of the [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure to indicate the last time that the key or any of its value entries is modified.
 
 </dd> </dl>
 
@@ -133,7 +133,7 @@ The function sets the members of the [FILETIME](https://msdn.microsoft.com/libra
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://msdn.microsoft.com/library/ms679351.aspx) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
+If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
 
 If the *lpClass* buffer is too small to receive the name of the class, the function returns ERROR\_MORE\_DATA.
 
@@ -153,7 +153,7 @@ If the *lpClass* buffer is too small to receive the name of the class, the funct
 
 <dl> <dt>
 
-[FILETIME](https://msdn.microsoft.com/library/ms724284.aspx)
+[FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime)
 </dt> <dt>
 
 [**ORCreateKey**](orcreatekey.md)
@@ -168,7 +168,3 @@ If the *lpClass* buffer is too small to receive the name of the class, the funct
  
 
  
-
-
-
-

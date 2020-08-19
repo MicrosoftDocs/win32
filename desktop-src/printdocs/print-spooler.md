@@ -26,12 +26,9 @@ The default data type for a print job is the enhanced metafile. An EMF record is
 
 <dl> <dt>
 
-[Enhanced-Format Metafiles](https://docs.microsoft.com/windows/desktop/gdi/enhanced-format-metafiles)
+[Enhanced-Format Metafiles](/windows/desktop/gdi/enhanced-format-metafiles)
 </dt> </dl>
 
  
 
  
-
-
-

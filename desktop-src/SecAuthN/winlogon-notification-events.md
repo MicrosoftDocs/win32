@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Winlogon Notification Events
 
-[*Winlogon*](https://msdn.microsoft.com/library/ms721635(v=VS.85).aspx) can inform your notification package of the following events.
+[*Winlogon*](../secgloss/w-gly.md) can inform your notification package of the following events.
 
 
 
@@ -32,7 +32,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

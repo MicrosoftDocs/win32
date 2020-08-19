@@ -16,7 +16,7 @@ ms.topic: reference
 
 # ID2D1Factory::CreateEllipseGeometry methods
 
-Creates an [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/library/Dd371239(v=VS.85).aspx).
+Creates an [**ID2D1EllipseGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1ellipsegeometry).
 
 ### Overload list
 
@@ -24,14 +24,14 @@ Creates an [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/library/Dd37123
 
 | Method                                                                                                                                                      | Description                                                                  |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
-| [**CreateEllipseGeometry(D2D1\_ELLIPSE&,ID2D1EllipseGeometry\*\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createellipsegeometry(constd2d1_ellipse__id2d1ellipsegeometry))  | Creates an [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/library/Dd371239(v=VS.85).aspx). <br/> |
-| [**CreateEllipseGeometry(D2D1\_ELLIPSE\*,ID2D1EllipseGeometry\*\*)**](/previous-versions/windows/desktop/legacy/dd371265(v=vs.85)) | Creates an [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/library/Dd371239(v=VS.85).aspx). <br/> |
+| [**CreateEllipseGeometry(D2D1\_ELLIPSE&,ID2D1EllipseGeometry\*\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createellipsegeometry(constd2d1_ellipse__id2d1ellipsegeometry))  | Creates an [**ID2D1EllipseGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1ellipsegeometry). <br/> |
+| [**CreateEllipseGeometry(D2D1\_ELLIPSE\*,ID2D1EllipseGeometry\*\*)**](/previous-versions/windows/desktop/legacy/dd371265(v=vs.85)) | Creates an [**ID2D1EllipseGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1ellipsegeometry). <br/> |
 
 
 
 ## Examples
 
-The following creates two [**ID2D1EllipseGeometry**](https://msdn.microsoft.com/library/Dd371239(v=VS.85).aspx) objects and combines them using the different geometry combine modes.
+The following creates two [**ID2D1EllipseGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1ellipsegeometry) objects and combines them using the different geometry combine modes.
 
 
 ```C++
@@ -215,5 +215,5 @@ This code produces the output shown in the following illustration.
 
 <dl> <dt>
 
-[**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx)
+[**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)
 </dt> </dl>

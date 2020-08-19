@@ -51,7 +51,7 @@ File formats supported by online printing retailers vary from retailer to retail
 
 ## Programmatically Launching the Online Print Wizard
 
-To invoke the Windows Vista Online Printing Wizard, call the [IDropTarget](https://msdn.microsoft.com/library/ms679679(VS.85).aspx) interface with the following class identifier (CLSID):
+To invoke the Windows Vista Online Printing Wizard, call the [IDropTarget](/windows/win32/api/oleidl/nn-oleidl-idroptarget) interface with the following class identifier (CLSID):
 
 
 ```
@@ -60,7 +60,7 @@ CLSID_PublishDropTarget
 
 
 
-This CLSID is defined in Shobjidl.h and Shobjidl.idl. The files to be processed by the Windows Vista Online Printing Wizard are specified in an [IDataObject](https://msdn.microsoft.com/library/ms688421(VS.85).aspx) object.
+This CLSID is defined in Shobjidl.h and Shobjidl.idl. The files to be processed by the Windows Vista Online Printing Wizard are specified in an [IDataObject](/windows/win32/api/objidl/nn-objidl-idataobject) object.
 
 The following code example demonstrates how to invoke the Windows Vista Online Printing Wizard.
 
@@ -217,7 +217,3 @@ if SUCCEEDED(hr)
  
 
  
-
-
-
-

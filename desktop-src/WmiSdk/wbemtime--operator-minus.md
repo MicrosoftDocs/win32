@@ -10,7 +10,7 @@ ms.topic: reference
 
 # WBEMTime::operator- operators
 
-\[The [**WBEMTime**](wbemtime.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**WBEMTime**](wbemtime.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The [**WBEMTime**](wbemtime.md) class subtraction operator (�) has been overloaded to:
 
@@ -23,8 +23,8 @@ The [**WBEMTime**](wbemtime.md) class subtraction operator (�) has been overlo
 
 | Operator                                                                         | Description                                                                      |
 |:---------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
-| [**operator-(WBEMTime&)**](https://msdn.microsoft.com/library/Aa394037(v=VS.85).aspx)         | Subtracts a **WBEMTime** from a **WBEMTime**.<br/>                         |
-| [**operator-(WBEMTimeSpan&)**](https://msdn.microsoft.com/library/Aa394036(v=VS.85).aspx) | Subtracts a [**WBEMTimeSpan**](https://msdn.microsoft.com/library/Aa393989(v=VS.85).aspx) from a **WBEMTime**.<br/> |
+| [**operator-(WBEMTime&)**](/windows/win32/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize)         | Subtracts a **WBEMTime** from a **WBEMTime**.<br/>                         |
+| [**operator-(WBEMTimeSpan&)**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-sub(constwbemtimespan_)) | Subtracts a [**WBEMTimeSpan**](/windows/win32/api/wbemtime/nl-wbemtime-wbemtimespan) from a **WBEMTime**.<br/> |
 
 
 
@@ -44,7 +44,3 @@ The [**WBEMTime**](wbemtime.md) class subtraction operator (�) has been overlo
 �
 
 �
-
-
-
-

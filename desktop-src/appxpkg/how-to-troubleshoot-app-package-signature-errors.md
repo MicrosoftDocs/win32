@@ -17,12 +17,12 @@ When you deploy a packaged Windows app, Windows always attempts to validate the 
 ### Technologies
 
 -   [Packaging, deployment, and query of Windows apps](appx-portal.md)
--   [Certificate Trust Verification](https://docs.microsoft.com/windows/desktop/SecCrypto/certificate-trust-verification)
+-   [Certificate Trust Verification](/windows/desktop/SecCrypto/certificate-trust-verification)
 
 ### Prerequisites
 
--   [Windows Event Log](https://docs.microsoft.com/windows/desktop/WES/windows-event-log) to diagnose installation failures.
--   [Certutil tasks for managing certificates](https://msdn.microsoft.com/library/Cc772898(v=WS.10).aspx) for certificate store manipulation during troubleshooting
+-   [Windows Event Log](/windows/desktop/WES/windows-event-log) to diagnose installation failures.
+-   [Certutil tasks for managing certificates](/previous-versions/orphan-topics/ws.10/cc772898(v=ws.10)) for certificate store manipulation during troubleshooting
 
 ## Instructions
 
@@ -66,7 +66,7 @@ To figure out the certificates that the local computer must trust, you can exami
 4.  In the **Digital Signature Details** dialog, click the **View Certificate** button.
 5.  In the **Certificate** dialog, select the **Certification Path** tab.
 
-The top certificate in the chain is the root certificate and the bottom certificate is the signing certificate. If only a single certificate is in the chain, the signing certificate is also its own root certificate. You can determine the serial number for each certificate that you then use with [Certutil](https://msdn.microsoft.com/library/Cc732443(v=WS.10).aspx):
+The top certificate in the chain is the root certificate and the bottom certificate is the signing certificate. If only a single certificate is in the chain, the signing certificate is also its own root certificate. You can determine the serial number for each certificate that you then use with [Certutil](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732443(v=ws.10)):
 
 **To determine the serial number for each certificate**
 
@@ -91,9 +91,9 @@ To be able to deploy an app package, it must not only be trusted in the user’s
     CertUtil.exe -store TrustedPeople signingCertSerialNumber
     ```
 
-If you don't specify the certificate serial number, [Certutil](https://msdn.microsoft.com/library/Cc732443(v=WS.10).aspx) lists all certificates that are trusted by the local computer for that store.
+If you don't specify the certificate serial number, [Certutil](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732443(v=ws.10)) lists all certificates that are trusted by the local computer for that store.
 
-The package may fail to install due to certificate chaining errors, even if the signing certificate is not self-signed and the root certificate is in the root store of the local computer. In this case, there might be an issue with trust for the intermediate certificate authorities. For more info about this issue, see [Working with Certificates](https://msdn.microsoft.com/library/ms731899(v=VS.85).aspx).
+The package may fail to install due to certificate chaining errors, even if the signing certificate is not self-signed and the root certificate is in the root store of the local computer. In this case, there might be an issue with trust for the intermediate certificate authorities. For more info about this issue, see [Working with Certificates](/previous-versions/dotnet/netframework-3.0/ms731899(v=vs.85)).
 
 ## Remarks
 
@@ -132,11 +132,11 @@ You can remove the certificate after you no longer need it.
     Certutil -delStore TrustedPeople certID
     ```
 
-We recommend that you avoid manually adding root certificates to the local machine [Trusted Root Certification Authorities Certificate Store](https://docs.microsoft.com/windows-hardware/drivers/install/trusted-root-certification-authorities-certificate-store). Having several applications that are signed with certificates that chain to the same root certificate, such as line of business applications, can be more efficient than installing individual certificates to the Trusted People store. The Trusted People store contains certificates that are considered trusted by default and so aren't verified by higher authorities or certificate trust lists or chains. For considerations around adding certificates to the Trusted Root Certification Authorities certificate store, see [Code-Signing Best Practices](https://msdn.microsoft.com/windows/hardware/gg487309.aspx).
+We recommend that you avoid manually adding root certificates to the local machine [Trusted Root Certification Authorities Certificate Store](/windows-hardware/drivers/install/trusted-root-certification-authorities-certificate-store). Having several applications that are signed with certificates that chain to the same root certificate, such as line of business applications, can be more efficient than installing individual certificates to the Trusted People store. The Trusted People store contains certificates that are considered trusted by default and so aren't verified by higher authorities or certificate trust lists or chains. For considerations around adding certificates to the Trusted Root Certification Authorities certificate store, see [Code-Signing Best Practices](/previous-versions/windows/hardware/design/dn653556(v=vs.85)).
 
 ## Security Considerations
 
-By adding a certificate to [local machine certificate stores](https://docs.microsoft.com/windows-hardware/drivers/install/local-machine-and-current-user-certificate-stores), you affect the certificate trust of all users on the computer. We recommend that you install any code signing certificates that you want for testing app packages to the Trusted People certificate store. Promptly remove those certificates when they are no longer necessary, to prevent them from being used to compromise system trust. If you create your own test certificates for signing app packages, we also recommend that you restrict the privileges that are associated with the test certificate. For info about creating test certificates for signing app packages, see [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md).
+By adding a certificate to [local machine certificate stores](/windows-hardware/drivers/install/local-machine-and-current-user-certificate-stores), you affect the certificate trust of all users on the computer. We recommend that you install any code signing certificates that you want for testing app packages to the Trusted People certificate store. Promptly remove those certificates when they are no longer necessary, to prevent them from being used to compromise system trust. If you create your own test certificates for signing app packages, we also recommend that you restrict the privileges that are associated with the test certificate. For info about creating test certificates for signing app packages, see [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md).
 
 ## Related topics
 
@@ -154,13 +154,9 @@ By adding a certificate to [local machine certificate stores](https://docs.micro
 [Troubleshooting packaging, deployment, and query of Windows apps](troubleshooting.md)
 </dt> <dt>
 
-[Certutil tasks for managing certificates](https://msdn.microsoft.com/library/Cc772898(v=WS.10).aspx)
+[Certutil tasks for managing certificates](/previous-versions/orphan-topics/ws.10/cc772898(v=ws.10))
 </dt> </dl>
 
  
 
  
-
-
-
-

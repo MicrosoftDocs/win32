@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # COM Interfaces
 
-\[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the [**Windows.Devices.Geolocation**](https://docs.microsoft.com/uwp/api/Windows.Devices.Geolocation) API. \]
+\[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the [**Windows.Devices.Geolocation**](/uwp/api/Windows.Devices.Geolocation) API. \]
 
 The Location API provides the following COM interfaces.
 
@@ -23,6 +23,3 @@ The Location API provides the following COM interfaces.
  
 
  
-
-
-

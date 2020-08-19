@@ -17,7 +17,7 @@ api_location:
 
 # BasicConstraints object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**X509BasicConstraintsExtension Class**](https://msdn.microsoft.com/library/z0k9d993(v=VS.90).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/ztkw6e67(v=VS.96).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**X509BasicConstraintsExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509basicconstraintsextension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/previous-versions/windows/) namespace.\]
 
 The **BasicConstraints** object represents the basic constraints extension of a certificate.
 
@@ -44,7 +44,7 @@ The **BasicConstraints** object has these properties.
 
 | Property                                                                                     | Access type          | Description                                                                                                                                                                                                        |
 |:---------------------------------------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IsCertificateAuthority**](basicconstraints-iscertificateauthority.md)<br/>         | Read-only<br/> | Retrieves a Boolean value that indicates whether the certificate is for a [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA).<br/> |
+| [**IsCertificateAuthority**](basicconstraints-iscertificateauthority.md)<br/>         | Read-only<br/> | Retrieves a Boolean value that indicates whether the certificate is for a [*certification authority*](../secgloss/c-gly.md) (CA).<br/> |
 | [**IsCritical**](basicconstraints-iscritical.md)<br/>                                 | Read-only<br/> | Retrieves a Boolean value that indicates whether the basic constraint extension is marked critical.<br/>                                                                                                     |
 | [**IsPathLenConstraintPresent**](basicconstraints-ispathlenconstraintpresent.md)<br/> | Read-only<br/> | Retrieves a Boolean value that indicates whether the certificate's path length constraint is present.<br/>                                                                                                   |
 | [**IsPresent**](basicconstraints-ispresent.md)<br/>                                   | Read-only<br/> | Retrieves a Boolean value that indicates whether the basic constraints extension is present. This is the default property.<br/>                                                                              |
@@ -81,7 +81,3 @@ The **BasicConstraints** object cannot be created.
  
 
  
-
-
-
-

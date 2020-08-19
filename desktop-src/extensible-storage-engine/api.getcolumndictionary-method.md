@@ -73,7 +73,7 @@ public static IDictionary<string, JET_COLUMNID> GetColumnDictionary(
 
 #### Return value
 
-Type: [System.Collections.Generic.IDictionary](https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2?redirectedfrom=MSDN)\<[String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN), [JET_COLUMNID](hh564510\(v=exchg.10\).md)\>  
+Type: [System.Collections.Generic.IDictionary](/dotnet/api/system.collections.generic.idictionary-2)\<[String](/dotnet/api/system.string), [JET_COLUMNID](hh564510\(v=exchg.10\).md)\>  
 A dictionary mapping column names to column IDs.  
 
 ## See also
@@ -85,4 +85,3 @@ A dictionary mapping column names to column IDs.
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

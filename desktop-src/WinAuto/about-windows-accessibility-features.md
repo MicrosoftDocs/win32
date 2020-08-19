@@ -17,7 +17,7 @@ There are two types of settings available to users (through the Ease of Access C
 - [Accessibility parameters](accessibility-parameters.md). When set, these parameters indicate that applications should change their default behavior. Applications can check the state of an accessibility parameter to determine whether the user wants special behavior that can be provided in an application-specific manner. For example, the ShowSounds parameter indicates that an application that typically uses sound to convey important information should also provide the information visually.
 - [Built-in accessibility features](built-in-accessibility-features.md). These features are built into the system or provided as an extension to the system. They affect how the user provides keyboard and mouse input to the computer. When enabled, their functionality is available regardless of which applications are running. An example is a keyboard filter that makes it easier for users with movement impairments to type key combinations such as CTRL+ALT+DEL.
 
-Each accessibility parameter and each built-in accessibility feature corresponds to a system parameter that can be set or queried with the [SystemParametersInfo](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function.
+Each accessibility parameter and each built-in accessibility feature corresponds to a system parameter that can be set or queried with the [SystemParametersInfo](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function.
 
 ## Win32 APIs
 

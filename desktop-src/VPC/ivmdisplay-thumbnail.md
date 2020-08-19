@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMDisplay::Thumbnail property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves an array of pixels representing a thumbnail image of the virtual machine's screen.
 
@@ -81,10 +81,4 @@ This interface returns the thumbnail less efficiently than the [**\_GenerateThum
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

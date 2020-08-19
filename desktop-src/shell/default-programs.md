@@ -289,7 +289,7 @@ The following example shows the recommended registration code that the browser's
 
 [**SHChangeNotify**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify) first notifies the system that new association choices are available. The **SHChangeNotify** call is required to ensure the proper functioning of system defaults.
 
-A [**Sleep**](https://msdn.microsoft.com/library/ms686298(v=VS.85).aspx) statement then allows time for system processes to handle the notification.
+A [**Sleep**](/windows/win32/api/synchapi/nf-synchapi-sleep) statement then allows time for system processes to handle the notification.
 
 
 ```C++
@@ -410,7 +410,3 @@ The following illustration shows an example dialog box.
  
 
  
-
-
-
-

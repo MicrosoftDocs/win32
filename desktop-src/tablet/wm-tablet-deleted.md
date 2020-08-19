@@ -40,7 +40,7 @@ Unused.
 
 This message is sent to all top-level windows in the system, including disabled or invisible unowned windows, overlapped windows, and pop-up windows; but the message is not sent to child windows.
 
-The indexes passed in *wParam* are related to the index used by the [**ITabletManager::GetTablet**](https://msdn.microsoft.com/library/Aa373683(v=VS.85).aspx) method.
+The indexes passed in *wParam* are related to the index used by the [**ITabletManager::GetTablet**](/previous-versions/windows/desktop/legacy/aa373683(v=vs.85)) method.
 
 ## Requirements
 
@@ -57,7 +57,3 @@ The indexes passed in *wParam* are related to the index used by the [**ITabletMa
  
 
  
-
-
-
-

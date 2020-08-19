@@ -35,9 +35,9 @@ The **TcpIp** class does not define any members.
 
 ## Remarks
 
-To enable TCP/IP events in an NT Kernel logging session, specify the **EVENT\_TRACE\_FLAG\_NETWORK\_TCPIP** flag in the **EnableFlags** member of an [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) structure when calling the [**StartTrace**](starttrace.md) function.
+To enable TCP/IP events in an NT Kernel logging session, specify the **EVENT\_TRACE\_FLAG\_NETWORK\_TCPIP** flag in the **EnableFlags** member of an [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) structure when calling the [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) function.
 
-Event trace consumers can implement special processing for TCP/IP events by calling the [**SetTraceCallback**](settracecallback.md) function and specifying [**TcpIpGuid**](nt-kernel-logger-constants.md) as the *pGuid* parameter. Use the following event types to identify the actual network (TCP/IP) event when consuming events.
+Event trace consumers can implement special processing for TCP/IP events by calling the [**SetTraceCallback**](/windows/win32/api/evntrace/nf-evntrace-settracecallback) function and specifying [**TcpIpGuid**](nt-kernel-logger-constants.md) as the *pGuid* parameter. Use the following event types to identify the actual network (TCP/IP) event when consuming events.
 
 
 
@@ -65,7 +65,7 @@ Event trace consumers can implement special processing for TCP/IP events by call
 
  
 
-You can trace network events to a source and destination process using the **ProcessId** property. Because some network events are logged by separate threads, you may not be able to use the **ProcessId** and **ThreadId** members of [**EVENT\_TRACE\_HEADER**](event-trace-header.md) to identify the process or thread that originated the network activities.
+You can trace network events to a source and destination process using the **ProcessId** property. Because some network events are logged by separate threads, you may not be able to use the **ProcessId** and **ThreadId** members of [**EVENT\_TRACE\_HEADER**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) to identify the process or thread that originated the network activities.
 
 ## Requirements
 
@@ -115,7 +115,3 @@ You can trace network events to a source and destination process using the **Pro
  
 
  
-
-
-
-

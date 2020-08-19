@@ -92,7 +92,7 @@ The MPEG-2 Demultiplexer does not validate output types; the downstream filter i
 | Major type       | **MEDIATYPE\_Audio**                 |
 | Subtype          | **MEDIASUBTYPE\_MPEG2\_AUDIO**       |
 | Format Type      | **FORMAT\_WaveFormatEx**             |
-| Format Structure | [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) |
+| Format Structure | [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) |
 
 
 
@@ -108,7 +108,3 @@ The MPEG-2 Demultiplexer does not validate output types; the downstream filter i
  
 
  
-
-
-
-

@@ -17,7 +17,7 @@ Original Equipment Manufacturers (OEMs) have developed a common architecture to 
 
 A BMC has sensors that can detect, for example, when the server computer is overheating or when voltage is out of the acceptable range. Several standards exist to define the architecture of BMC. The [*Intelligent Platform Management Interface (IPMI)*](windows-remote-management-glossary.md) is one such standard that is used frequently. However, despite the IPMI standard, management access to server hardware is proprietary and requires use of management tools supplied by OEMs. Also, remote access to a BMC is provided using a specialized wire protocol, Remote Management Control Protocol (RMCP), which has nonstandard security mechanisms for authentication of access.
 
-The Microsoft [IPMI provider](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider) and IPMI driver, allow you to obtain BMC data from remote server computers through a standard WMI provider with WMI [classes](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider). While you can write a normal WMI script that obtains remote data through DCOM, in many cases the preferred method of obtaining IPMI data is through the **Winrm** command-line utility or the [WinRM Scripting API](winrm-scripting-api.md) or [WinRM C++ API](winrm-c---api.md). The Winrm utility and the WinRM service APIs rely on the WS-Management protocol and can obtain IPMI data either from local or remote computer without using DCOM.
+The Microsoft [IPMI provider](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) and IPMI driver, allow you to obtain BMC data from remote server computers through a standard WMI provider with WMI [classes](/previous-versions/windows/desktop/ipmiprv/ipmi-provider). While you can write a normal WMI script that obtains remote data through DCOM, in many cases the preferred method of obtaining IPMI data is through the **Winrm** command-line utility or the [WinRM Scripting API](winrm-scripting-api.md) or [WinRM C++ API](winrm-c---api.md). The Winrm utility and the WinRM service APIs rely on the WS-Management protocol and can obtain IPMI data either from local or remote computer without using DCOM.
 
 The BMC also has an event database called the System Event Log (SEL) which records events in the monitored computer. You cannot subscribe to have these events delivered to a script as you can with WMI event classes. However, you can use the Wecutil.exe command-line tool to subscribe to them. For more information about how to use this tool, at a command prompt type **wecutil /?**.
 
@@ -34,7 +34,3 @@ The BMC also has an event database called the System Event Log (SEL) which recor
  
 
  
-
-
-
-

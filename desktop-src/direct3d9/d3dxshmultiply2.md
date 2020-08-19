@@ -43,7 +43,7 @@ FLOAT* D3DXSHMultiply2(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to the output SH coefficients - basis function Ylm is stored at l\*l + m+l.
 
@@ -52,7 +52,7 @@ Pointer to the output SH coefficients - basis function Ylm is stored at l\*l + m
 *pF* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](../winprog/windows-data-types.md)\***
 
 Input SH coeffs for first function.
 
@@ -61,7 +61,7 @@ Input SH coeffs for first function.
 *pG* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](../winprog/windows-data-types.md)\***
 
 Second set of input SH coeffs.
 
@@ -69,7 +69,7 @@ Second set of input SH coeffs.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to SH output coefficients.
 
@@ -99,7 +99,3 @@ Computes the product of two functions represented using SH (f and g), where *pOu
  
 
  
-
-
-
-

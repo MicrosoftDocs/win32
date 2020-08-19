@@ -55,7 +55,7 @@ The **MDM\_Policy\_Result01\_ErrorReporting02** class has these properties.
 
 <dl> <dt>
 
-[CustomizeConsentSettings](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-errorreporting#errorreporting-customizeconsentsettings)
+[CustomizeConsentSettings](/windows/client-management/mdm/policy-csp-errorreporting#errorreporting-customizeconsentsettings)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -66,7 +66,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableWindowsErrorReporting](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-errorreporting#errorreporting-disablewindowserrorreporting)
+[DisableWindowsErrorReporting](/windows/client-management/mdm/policy-csp-errorreporting#errorreporting-disablewindowserrorreporting)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -77,7 +77,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisplayErrorNotification](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-errorreporting#errorreporting-displayerrornotification)
+[DisplayErrorNotification](/windows/client-management/mdm/policy-csp-errorreporting#errorreporting-displayerrornotification)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -88,7 +88,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DoNotSendAdditionalData](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-errorreporting#errorreporting-donotsendadditionaldata)
+[DoNotSendAdditionalData](/windows/client-management/mdm/policy-csp-errorreporting#errorreporting-donotsendadditionaldata)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -108,7 +108,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -122,12 +122,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[PreventCriticalErrorDisplay](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-errorreporting#errorreporting-preventcriticalerrordisplay)
+[PreventCriticalErrorDisplay](/windows/client-management/mdm/policy-csp-errorreporting#errorreporting-preventcriticalerrordisplay)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -153,10 +153,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

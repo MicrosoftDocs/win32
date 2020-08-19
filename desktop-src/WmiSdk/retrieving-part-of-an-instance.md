@@ -15,7 +15,7 @@ A partial-instance retrieval is when WMI retrieves only a subset of the properti
 
 You can retrieve an individual property of an instance by using [Get-WmiObject](https://technet.microsoft.com/library/dd315379.aspx); the property itself can be retrieved and displayed a number of ways. As with retrieving an instance, PowerShell will by default return all instances of a given class; you must specify a specific value if you wish to retrieve only a single instance.
 
-The following code example displays the volume serial number for an instance of the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
+The following code example displays the volume serial number for an instance of the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
 
 
 ```PowerShell
@@ -35,14 +35,14 @@ $myDisk.DeviceID
 
 ## Retrieving Part of a WMI Instance Using C# (System.Management)
 
-You can retrieve an individual property of an instance by creating a new [ManagementObject](https://docs.microsoft.com/dotnet/api/system.management.managementobject?redirectedfrom=MSDN) using the details of a specific instance. You can then implicitly retrieve one or more properties of the instance with the [GetPropertyValue](https://docs.microsoft.com/dotnet/api/system.management.managementbaseobject.getpropertyvalue?redirectedfrom=MSDN#System_Management_ManagementBaseObject_GetPropertyValue_System_String_) method.
+You can retrieve an individual property of an instance by creating a new [ManagementObject](/dotnet/api/system.management.managementobject) using the details of a specific instance. You can then implicitly retrieve one or more properties of the instance with the [GetPropertyValue](/dotnet/api/system.management.managementbaseobject.getpropertyvalue#System_Management_ManagementBaseObject_GetPropertyValue_System_String_) method.
 
 > [!Note]  
 > **System.Management** was the original .NET namespace used to access WMI; however, the APIs in this namespace generally are slower and do not scale as well relative to their more modern **Microsoft.Management.Infrastructure** counterparts.
 
  
 
-The following code example displays the volume serial number for an instance of the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
+The following code example displays the volume serial number for an instance of the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
 
 
 ```CSharp
@@ -59,7 +59,7 @@ Console.WriteLine(myProperty);
 
 You can retrieve an individual property of an instance by using [**GetObject**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject).
 
-The following code example displays the volume serial number for an instance of the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
+The following code example displays the volume serial number for an instance of the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
 
 
 ```VB
@@ -74,7 +74,7 @@ The following procedure is used to request a partial-instance retrieval using C+
 
 **To request a partial-instance retrieval using C++**
 
-1.  Create an [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) object with a call to [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx).
+1.  Create an [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) object with a call to [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance).
 
     A context object is an object that WMI uses to pass in more information to a WMI provider. In this case, you are using the [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) object to instruct the provider to process a partial-instance retrieval.
 
@@ -87,7 +87,7 @@ The following procedure is used to request a partial-instance retrieval using C+
     | Named value                              | Description                                                                                                                                                                                                                                                                 |
     |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | \_\_GET\_EXTENSIONS<br/>           | **VT\_BOOL** set to **VARIANT\_TRUE**. Used to signal that partial-instance retrieval operations are being used. This allows a quick, single check without having to enumerate the entire context object. If any of the other values are used, this one must be.<br/> |
-    | \_\_GET\_EXT\_PROPERTIES<br/>      | [**SAFEARRAY**](https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray) of strings listing the properties to be retrieved. Cannot be simultaneously specified with \_\_GET\_EXT\_KEYS\_ONLY.<br/> An asterisk "\*" is an invalid property name for \_\_GET\_EXT\_PROPERTIES.<br/>                    |
+    | \_\_GET\_EXT\_PROPERTIES<br/>      | [**SAFEARRAY**](/windows/win32/api/oaidl/ns-oaidl-safearray) of strings listing the properties to be retrieved. Cannot be simultaneously specified with \_\_GET\_EXT\_KEYS\_ONLY.<br/> An asterisk "\*" is an invalid property name for \_\_GET\_EXT\_PROPERTIES.<br/>                    |
     | \_\_GET\_EXT\_KEYS\_ONLY<br/>      | **VT\_BOOL** set to **VARIANT\_TRUE**. Indicates that only keys should be provided in the returned object. Cannot be simultaneously specified with \_\_GET\_EXT\_PROPERTIES. Instead, takes precedence over \_\_GET\_EXT\_PROPERTIES.<br/>                            |
     | \_\_GET\_EXT\_CLIENT\_REQUEST<br/> | **VT\_BOOL** set to **VARIANT\_TRUE**. Indicates that the caller was the one who wrote the value into the context object and that it was not propagated from another dependent operation.<br/>                                                                        |
 
@@ -101,7 +101,7 @@ The following procedure is used to request a partial-instance retrieval using C+
 
 If the provider cannot comply with the partial-instance operation, the provider either proceeds as if you did not enter the context object, or else returns **WBEM\_E\_UNSUPPORTED\_PARAMETER**.
 
-The following example describes how to perform a full instance retrieval of [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk), and then performs a partial-instance retrieval of the **Win32\_LogicalDisk.Caption** property.
+The following example describes how to perform a full instance retrieval of [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk), and then performs a partial-instance retrieval of the **Win32\_LogicalDisk.Caption** property.
 
 
 ```C++
@@ -343,9 +343,4 @@ Press any key to continue
 ```
 
  
-
- 
-
-
-
 

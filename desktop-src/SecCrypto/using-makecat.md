@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using MakeCat
 
-The [MakeCat](makecat.md) tool makes an unsigned catalog file, which contains the [*hashes*](https://msdn.microsoft.com/library/ms721586(v=VS.85).aspx) of a set of files along with associated attributes of each file in the set. A catalog file allows the user to sign one file (the catalog) instead of signing numerous individual files.
+The [MakeCat](makecat.md) tool makes an unsigned catalog file, which contains the [*hashes*](../secgloss/h-gly.md) of a set of files along with associated attributes of each file in the set. A catalog file allows the user to sign one file (the catalog) instead of signing numerous individual files.
 
 After the unsigned catalog file is signed and transmitted, the receiver can compare the hashes of the original files to the hashes contained within the catalog file and verify that the files are free of tampering.
 
@@ -48,6 +48,3 @@ SignedPE=.\SignedPE.EXE
  
 
  
-
-
-

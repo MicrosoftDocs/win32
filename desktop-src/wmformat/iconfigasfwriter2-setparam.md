@@ -41,7 +41,7 @@ HRESULT SetParam(
 *dwParam* \[in\]
 </dt> <dd>
 
-Specifies the parameter to set. It must be a value defined in the [\_AM\_ASFWRITERCONFIG\_PARAM](https://msdn.microsoft.com/library/Dd758054(v=VS.85).aspx) enumeration.
+Specifies the parameter to set. It must be a value defined in the [\_AM\_ASFWRITERCONFIG\_PARAM](/previous-versions/windows/desktop/legacy/dd758054(v=vs.85)) enumeration.
 
 </dd> <dt>
 
@@ -67,7 +67,7 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an **HRESULT**
 
 <dl> <dt>
 
-[**IConfigAsfWriter2 Interface**](https://msdn.microsoft.com/library/Dd743206(v=VS.85).aspx)
+[**IConfigAsfWriter2 Interface**](/previous-versions/windows/desktop/legacy/dd743206(v=vs.85))
 </dt> <dt>
 
 [**IConfigAsfWriter2::GetParam**](iconfigasfwriter2-getparam.md)
@@ -76,7 +76,3 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an **HRESULT**
  
 
  
-
-
-
-

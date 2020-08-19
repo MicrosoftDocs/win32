@@ -19,13 +19,13 @@ ms.date: 05/31/2018
 
 # IVMTask interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Use the **IVMTask** interface to monitor and control asynchronous tasks for various COM methods.
 
 ## Members
 
-The **IVMTask** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMTask** also has these types of members:
+The **IVMTask** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IVMTask** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -105,10 +105,4 @@ The following methods return an **IVMTask** object that can be used to track pro
 
 
  
-
- 
-
-
-
-
 

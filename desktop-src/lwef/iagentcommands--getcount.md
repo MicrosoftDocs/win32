@@ -16,7 +16,7 @@ HRESULT GetCount(
 );                    
 ```
 
-Retrieves the number of [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) objects in a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+Retrieves the number of [**Command**](/windows/desktop/lwef/the-command-object) objects in a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,16 +25,12 @@ Retrieves the number of [**Command**](https://docs.microsoft.com/windows/desktop
 <span id="pdwCount"></span><span id="pdwcount"></span><span id="PDWCOUNT"></span>*pdwCount*
 </dt> <dd>
 
-Address of a variable that receives the number of [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) in a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+Address of a variable that receives the number of [**Commands**](/windows/desktop/lwef/the-command-object) in a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 </dd> </dl>
 
-*pdwCount* includes only the number of [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) you define in your [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection. Server or other client entries are not included.
+*pdwCount* includes only the number of [**Commands**](/windows/desktop/lwef/the-command-object) you define in your [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection. Server or other client entries are not included.
 
  
 
  
-
-
-
-

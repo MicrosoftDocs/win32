@@ -99,7 +99,7 @@ The information that will be stored in *pvResult*. The following options can be 
 </tr>
 <tr class="even">
 <td><p>JET_IdxInfoLangid</p></td>
-<td><p>JET_IdxInfoLangid is deprecated. Use JET_IdxInfoLCID and the <a href="https://msdn.microsoft.com/library/dd318689(VS.85).aspx">LANGIDFROMLCID</a> macro instead.</p></td>
+<td><p>JET_IdxInfoLangid is deprecated. Use JET_IdxInfoLCID and the <a href="/windows/win32/api/winnt/nf-winnt-langidfromlcid">LANGIDFROMLCID</a> macro instead.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_IdxInfoLCID</p></td>
@@ -231,4 +231,3 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 [JET_SESID](gg269253\(v=exchg.10\).md)  
 [JET_TABLEID](gg269182\(v=exchg.10\).md)  
 [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md)
-

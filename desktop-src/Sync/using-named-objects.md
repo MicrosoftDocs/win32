@@ -12,7 +12,7 @@ The following example illustrates the use of [object names](object-names.md) by 
 
 ## First Process
 
-The first process uses the [**CreateMutex**](https://msdn.microsoft.com/library/ms682411(v=VS.85).aspx) function to create the mutex object. Note that this function succeeds even if there is an existing object with the same name.
+The first process uses the [**CreateMutex**](/windows/win32/api/synchapi/nf-synchapi-createmutexa) function to create the mutex object. Note that this function succeeds even if there is an existing object with the same name.
 
 
 ```C++
@@ -94,6 +94,3 @@ int main(void)
  
 
  
-
-
-

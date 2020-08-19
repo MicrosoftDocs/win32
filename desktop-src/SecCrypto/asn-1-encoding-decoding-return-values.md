@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # ASN.1 Encoding/Decoding Return Values
 
-The following table contains return values that may be returned by functions performing [*Abstract Syntax Notation One*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (ASN.1) encoding or decoding.
+The following table contains return values that may be returned by functions performing [*Abstract Syntax Notation One*](../secgloss/a-gly.md) (ASN.1) encoding or decoding.
 
 
 
@@ -41,6 +41,3 @@ The following table contains return values that may be returned by functions per
  
 
  
-
-
-

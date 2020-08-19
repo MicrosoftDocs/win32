@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Alpha Testing State (Direct3D 9)
 
-C++ applications can use alpha testing to control when pixels are written to the render-target surface. By using the [**D3DRS\_ALPHATESTENABLE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx) render state, your application sets the current Direct3D device so that it tests each pixel according to an alpha test function. If the test succeeds, the pixel is written to the surface. If it does not, Direct3D ignores the pixel. Select the alpha test function with the **D3DRS\_ALPHAFUNC** render state. Your application can set a reference alpha value for all pixels to compare against by using the **D3DRS\_ALPHAREF** render state.
+C++ applications can use alpha testing to control when pixels are written to the render-target surface. By using the [**D3DRS\_ALPHATESTENABLE**](./d3drenderstatetype.md) render state, your application sets the current Direct3D device so that it tests each pixel according to an alpha test function. If the test succeeds, the pixel is written to the surface. If it does not, Direct3D ignores the pixel. Select the alpha test function with the **D3DRS\_ALPHAFUNC** render state. Your application can set a reference alpha value for all pixels to compare against by using the **D3DRS\_ALPHAREF** render state.
 
 The most common use for alpha testing is to improve performance when rasterizing objects that are nearly transparent. If the color data being rasterized is more opaque than the color at a given pixel (D3DPCMPCAPS\_GREATEREQUAL), then the pixel is written. Otherwise, the rasterizer ignores the pixel altogether, saving the processing required to blend the two colors. The following code example checks if a given comparison function is supported and, if so, it sets the comparison function parameters required to improve performance during rendering.
 
@@ -43,6 +43,3 @@ Not all hardware supports all alpha-testing features. You can check the device c
  
 
  
-
-
-

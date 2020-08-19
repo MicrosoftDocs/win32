@@ -12,7 +12,7 @@ The **WM\_QUERYENDSESSION** message is sent when the user chooses to end the ses
 
 After processing this message, the system sends the [**WM\_ENDSESSION**](wm-endsession.md) message with the *wParam* parameter set to the results of the **WM\_QUERYENDSESSION** message.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -60,7 +60,7 @@ This parameter can be one or more of the following values. If this parameter is 
 
 | Value                                                                                                                                                                                                                                           | Meaning                                                                                                                                                                                                                         |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="ENDSESSION_CLOSEAPP"></span><span id="endsession_closeapp"></span><dl> <dt>**ENDSESSION\_CLOSEAPP**</dt> <dt>0x00000001</dt> </dl> | The application is using a file that must be replaced, the system is being serviced, or system resources are exhausted. For more information, see [Guidelines for Applications](https://msdn.microsoft.com/library/Aa373651(v=VS.85).aspx).<br/> |
+| <span id="ENDSESSION_CLOSEAPP"></span><span id="endsession_closeapp"></span><dl> <dt>**ENDSESSION\_CLOSEAPP**</dt> <dt>0x00000001</dt> </dl> | The application is using a file that must be replaced, the system is being serviced, or system resources are exhausted. For more information, see [Guidelines for Applications](../rstmgr/guidelines-for-applications.md).<br/> |
 | <span id="ENDSESSION_CRITICAL"></span><span id="endsession_critical"></span><dl> <dt>**ENDSESSION\_CRITICAL**</dt> <dt>0x40000000</dt> </dl> | The application is forced to shut down.<br/>                                                                                                                                                                              |
 | <span id="ENDSESSION_LOGOFF"></span><span id="endsession_logoff"></span><dl> <dt>**ENDSESSION\_LOGOFF**</dt> <dt>0x80000000</dt> </dl>       | The user is logging off. For more information, see [Logging Off](logging-off.md).<br/>                                                                                                                                   |
 
@@ -74,7 +74,7 @@ Note that this parameter is a bit mask. To test for this value, use a bit-wise o
 
 ## Return value
 
-Applications should respect the user's intentions and return **TRUE**. By default, the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function returns **TRUE** for this message.
+Applications should respect the user's intentions and return **TRUE**. By default, the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function returns **TRUE** for this message.
 
 If shutting down would corrupt the system or media that is being burned, the application can return **FALSE**. However, it is good practice to respect the user's actions.
 
@@ -84,9 +84,9 @@ When an application returns **TRUE** for this message, it receives the [**WM\_EN
 
 Applications can display a user interface prompting the user for information at shutdown, however it is not recommended. After five seconds, the system displays information about the applications that are preventing shutdown and allows the user to terminate them. For example, Windows XP displays a dialog box, while Windows Vista displays a full screen with additional information about the applications blocking shutdown. If your application must block or postpone system shutdown, use the [**ShutdownBlockReasonCreate**](/windows/desktop/api/Winuser/nf-winuser-shutdownblockreasoncreate) function. For more information, see [Shutdown Changes for Windows Vista](shutdown-changes-for-windows-vista.md).
 
-Console applications can use the [**SetConsoleCtrlHandler**](https://msdn.microsoft.com/library/ms686016(v=VS.85).aspx) function to receive shutdown notification.
+Console applications can use the [**SetConsoleCtrlHandler**](/windows/console/setconsolectrlhandler) function to receive shutdown notification.
 
-Service applications can use the [**RegisterServiceCtrlHandlerEx**](https://msdn.microsoft.com/library/ms685058(v=VS.85).aspx) function to receive shutdown notifications in a handler routine.
+Service applications can use the [**RegisterServiceCtrlHandlerEx**](/windows/win32/api/winsvc/nf-winsvc-registerservicectrlhandlerexa) function to receive shutdown notifications in a handler routine.
 
 ## Examples
 
@@ -114,13 +114,13 @@ For an example, see [Logging Off](logging-off.md).
 [Shutting Down](shutting-down.md)
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
 [**ExitWindows**](/windows/desktop/api/Winuser/nf-winuser-exitwindows)
 </dt> <dt>
 
-[**SetProcessShutdownParameters**](https://msdn.microsoft.com/library/ms686227(v=VS.85).aspx)
+[**SetProcessShutdownParameters**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessshutdownparameters)
 </dt> <dt>
 
 [**WM\_ENDSESSION**](wm-endsession.md)
@@ -129,7 +129,3 @@ For an example, see [Logging Off](logging-off.md).
  
 
  
-
-
-
-

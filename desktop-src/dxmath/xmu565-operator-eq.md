@@ -17,7 +17,7 @@ api_location:
 
 Assigns vector component data to the current instance of `XMU565`.
 
-Assigns vector component data to the current instance of [**XMU565**](https://msdn.microsoft.com/library/Ee420413(v=VS.85).aspx).
+Assigns vector component data to the current instance of [**XMU565**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmu565).
 
 ### Overload list
 
@@ -63,13 +63,9 @@ This operator is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMU565**](https://msdn.microsoft.com/library/Ee420413(v=VS.85).aspx)
+[**XMU565**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmu565)
 </dt> </dl>
 
  
 
  
-
-
-
-

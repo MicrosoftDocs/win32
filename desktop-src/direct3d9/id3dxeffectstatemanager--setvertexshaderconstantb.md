@@ -40,7 +40,7 @@ HRESULT SetVertexShaderConstantB(
 *StartRegister* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The zero-based index of the first constant register.
 
@@ -49,7 +49,7 @@ The zero-based index of the first constant register.
 *pConstantData* \[out\]
 </dt> <dd>
 
-Type: **const [**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**BOOL**](../winprog/windows-data-types.md)\***
 
 An array of Boolean constants.
 
@@ -58,7 +58,7 @@ An array of Boolean constants.
 *RegisterCount* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of registers in pConstantData.
 
@@ -71,7 +71,7 @@ Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).asp
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 
 -   The effect will fail during [**ID3DXEffect::BeginPass**](id3dxeffect--beginpass.md).
--   The dynamic effect state call (such as [**IDirect3DDevice9::SetVertexShaderConstantB**](https://msdn.microsoft.com/library/Bb174466(v=VS.85).aspx)) will fail.
+-   The dynamic effect state call (such as [**IDirect3DDevice9::SetVertexShaderConstantB**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstantb)) will fail.
 
 ## Requirements
 
@@ -94,7 +94,3 @@ The user-implemented method should return S\_OK. If the callback fails when sett
  
 
  
-
-
-
-

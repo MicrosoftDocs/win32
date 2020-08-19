@@ -19,7 +19,7 @@ api_location:
 
 # GetMuteOperation.GetResults method
 
-Returns the results of the asynchronous operation started by [**GetMuteAsync**](https://msdn.microsoft.com/library/Hh828930(v=VS.85).aspx).
+Returns the results of the asynchronous operation started by [**GetMuteAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getmuteasync).
 
 ## Syntax
 
@@ -69,10 +69,4 @@ The **GetResults** method is typically called from the event handler that was re
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

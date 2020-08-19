@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WinSNMP Data Types
 
-\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
+\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
 
 The standard WinSNMP data types are defined in the WINSNMP.H file.
 
@@ -17,7 +17,3 @@ Note that WinSNMP specifies some parameters with the signed long integer type, *
  
 
  
-
-
-
-

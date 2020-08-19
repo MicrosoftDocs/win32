@@ -22,12 +22,8 @@ For more information, see the following topics:
 -   [Using the ADSI Extension for Remote Desktop Services User Configuration](using-the-adsi-extension-for-terminal-services-user-configuration.md)
 -   [Reference for the ADSI Extension for Remote Desktop Services User Configuration](reference-for-the-adsi-extension-for-terminal-services-user-configuration.md)
 
-For general information about ADSI, see [ADSI Extensions](https://docs.microsoft.com/windows/desktop/ADSI/adsi-extensions), [The ADSI Attribute Cache](https://docs.microsoft.com/windows/desktop/ADSI/the-adsi-attribute-cache), and [Active Directory Service Interfaces](https://docs.microsoft.com/windows/desktop/ADSI/active-directory-service-interfaces-adsi).
+For general information about ADSI, see [ADSI Extensions](/windows/desktop/ADSI/adsi-extensions), [The ADSI Attribute Cache](/windows/desktop/ADSI/the-adsi-attribute-cache), and [Active Directory Service Interfaces](/windows/desktop/ADSI/active-directory-service-interfaces-adsi).
 
  
 
  
-
-
-
-

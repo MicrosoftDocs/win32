@@ -42,16 +42,11 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the COMBOBOX class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **CBS\_AUTOHSCROLL**, **WS\_TABSTOP**, **WS\_GROUP**, and **WS\_CHILD** styles. If the ComboList bit is on, it also has the **CBS\_DROPDOWNLIST** style, otherwise it has the **CBS\_DROPDOWN** style.
+This control can be created from the COMBOBOX class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **CBS\_AUTOHSCROLL**, **WS\_TABSTOP**, **WS\_GROUP**, and **WS\_CHILD** styles. If the ComboList bit is on, it also has the **CBS\_DROPDOWNLIST** style, otherwise it has the **CBS\_DROPDOWN** style.
 
 The length of the text that can be entered can be limited by putting a number from 0 to 2147483646 in curly braces at the beginning of the Text field in the [Control table](control-table.md). For example if the text field starts with {80}, the length of the string is limited at 80 characters. If no such limit is supplied in the table, or if 0 is specified, the length is set to the maximum possible (2147483646 characters). A negative or non-numeric value will generate an error.
 
 For compatibility with screen readers, when authoring a dialog box with a ComboBox control as the first active control, you must make the text field belonging to the edit field the first active control in the [Dialog table](dialog-table.md). Since the static text cannot take focus, when the dialog box is created, the edit field will have the focus initially as intended. Doing this ensures that screen readers show the correct information.
 
  
-
- 
-
-
-
 

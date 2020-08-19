@@ -10,11 +10,8 @@ ms.date: 05/31/2018
 
 This section describes the Telephony user interface SPI data structure, which is:
 
--   [**TUISPICREATEDIALOGINSTANCEPARAMS**](https://msdn.microsoft.com/library/ms725972(v=VS.85).aspx)
+-   [**TUISPICREATEDIALOGINSTANCEPARAMS**](/windows/win32/api/tspi/ns-tspi-tuispicreatedialoginstanceparams)
 
  
 
  
-
-
-

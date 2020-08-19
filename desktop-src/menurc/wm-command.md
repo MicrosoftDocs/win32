@@ -49,6 +49,39 @@ For a description of this parameter, see Remarks.
 
 If an application processes this message, it should return zero.
 
+## Example
+
+```c
+BOOL AboutDlg (
+    HWND hDlg, 
+    UINT message, 
+    WPARAM wParam, 
+    LPARAM lParam)
+{
+    BOOL bRet = FALSE;
+    
+    switch (message) 
+    {
+        case WM_INITDIALOG:
+            bRet = TRUE;
+            break;
+
+        case WM_COMMAND:
+            if (wParam == IDOK ||
+                wParam == IDCANCEL) 
+            {
+                EndDialog(hDlg, TRUE);
+                bRet = TRUE;
+            }
+            break;
+    }
+
+    return bRet;
+}
+```
+Example taken from [Windows classic samples](https://github.com/microsoft/Windows-classic-samples) on GitHub.
+
+
 ## Remarks
 
 Use of the *wParam* and *lParam* parameters are summarized here.
@@ -96,10 +129,10 @@ If an accelerator keystroke occurs that corresponds to a menu item when the wind
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 </dt> <dt>
 
-[**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
 **Conceptual**
@@ -109,10 +142,4 @@ If an accelerator keystroke occurs that corresponds to a menu item when the wind
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

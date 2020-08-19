@@ -19,11 +19,11 @@ Note, however, that after calling the following methods
 
 the following properties are blocked from being reset
 
--   [**ProviderType**](https://msdn.microsoft.com/library/Aa383182(v=VS.85).aspx)
--   [**KeySpec**](https://msdn.microsoft.com/library/Aa383155(v=VS.85).aspx)
--   [**ProviderFlags**](https://msdn.microsoft.com/library/Aa383177(v=VS.85).aspx)
--   [**ContainerName**](https://msdn.microsoft.com/library/Aa382811(v=VS.85).aspx)
--   [**ProviderName**](https://msdn.microsoft.com/library/Aa383180(v=VS.85).aspx)
+-   [**ProviderType**](/windows/win32/api/xenroll/nf-xenroll-icenroll-get_providertype)
+-   [**KeySpec**](/windows/win32/api/xenroll/nf-xenroll-icenroll-get_keyspec)
+-   [**ProviderFlags**](/windows/win32/api/xenroll/nf-xenroll-icenroll-get_providerflags)
+-   [**ContainerName**](/windows/win32/api/xenroll/nf-xenroll-icenroll-get_containername)
+-   [**ProviderName**](/windows/win32/api/xenroll/nf-xenroll-icenroll-get_providername)
 
 unless the [**ICEnroll4::Reset**](/windows/desktop/api/Xenroll/nf-xenroll-icenroll3-reset) method is called.
 
@@ -36,6 +36,3 @@ The following sections contain language-specific information for setting and ret
  
 
  
-
-
-

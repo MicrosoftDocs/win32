@@ -38,7 +38,7 @@ HRESULT D3DX10DebugMute(
 *Mute* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Set to **TRUE** to enable debug messages; set to **FALSE** to disable debug messages.
 
@@ -86,7 +86,3 @@ The default state is **TRUE** for a debug build.
  
 
  
-
-
-
-

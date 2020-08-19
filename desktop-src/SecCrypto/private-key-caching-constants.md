@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Private Key Caching Constants
 
-The following constants are used to represent registry entries that control [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) caching by Microsoft software-based CSPs.
+The following constants are used to represent registry entries that control [*private key*](../secgloss/p-gly.md) caching by Microsoft software-based CSPs.
 
 
 
@@ -31,7 +31,7 @@ The following constants are used to identify registry values that control privat
 
 
 
-The following constants are used to identify registry values that control private key caching for a single Microsoft software-based [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP) instance.
+The following constants are used to identify registry values that control private key caching for a single Microsoft software-based [*cryptographic service provider*](../secgloss/c-gly.md) (CSP) instance.
 
 
 
@@ -74,7 +74,3 @@ The differences between the **szKEY\_CACHE\_SECONDS** and the **szPRIV\_KEY\_CAC
  
 
  
-
-
-
-

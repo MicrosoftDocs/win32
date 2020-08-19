@@ -26,7 +26,7 @@ Base of any request that can be canceled. Canceled requests can only be canceled
 
 ## Members
 
-The **IPixCancelableRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **IPixCancelableRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Requirements
 
@@ -35,6 +35,3 @@ The **IPixCancelableRequest** interface inherits from the [**IUnknown**](https:/
  
 
  
-
-
-

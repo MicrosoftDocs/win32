@@ -67,7 +67,7 @@ public static void JetGetVersion(
 <!-- end list -->
 
   - version  
-    Type: [System.UInt32](https://docs.microsoft.com/dotnet/api/system.uint32?redirectedfrom=MSDN)  
+    Type: [System.UInt32](/dotnet/api/system.uint32)  
     
     Returns the version number of the database engine.
 
@@ -80,4 +80,3 @@ public static void JetGetVersion(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

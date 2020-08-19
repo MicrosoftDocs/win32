@@ -44,14 +44,14 @@ D3DXMATRIX* D3DXMatrixOrthoLH(
 
 Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***
 
-Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb204929(v=VS.85).aspx).
+Pointer to the resulting [**D3DXMATRIX**](../direct3d10/d3d10-d3dxmatrix.md).
 
 </dd> <dt>
 
 *w* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Width of the view volume.
 
@@ -60,7 +60,7 @@ Width of the view volume.
 *h* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Height of the view volume.
 
@@ -69,7 +69,7 @@ Height of the view volume.
 *zn* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Minimum z-value of the view volume which is referred to as z-near.
 
@@ -78,7 +78,7 @@ Minimum z-value of the view volume which is referred to as z-near.
 *zf* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Maximum z-value of the view volume which is referred to as z-far.
 
@@ -88,7 +88,7 @@ Maximum z-value of the view volume which is referred to as z-far.
 
 Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***
 
-Pointer to the resulting [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb204929(v=VS.85).aspx).
+Pointer to the resulting [**D3DXMATRIX**](../direct3d10/d3d10-d3dxmatrix.md).
 
 ## Remarks
 
@@ -138,7 +138,3 @@ This function uses the following formula to compute the returned matrix.
  
 
  
-
-
-
-

@@ -209,7 +209,7 @@ Next
 
 
 
-If you run this script, you will get information back. However, this information will not be limited to the services installed on a computer. Instead, it will include information from all child classes of [**CIM\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-service), including [**Win32\_SystemDriver**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-systemdriver) and [**Win32\_ApplicationService**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394068(v=vs.85)).
+If you run this script, you will get information back. However, this information will not be limited to the services installed on a computer. Instead, it will include information from all child classes of [**CIM\_Service**](/windows/desktop/CIMWin32Prov/cim-service), including [**Win32\_SystemDriver**](/windows/desktop/CIMWin32Prov/win32-systemdriver) and [**Win32\_ApplicationService**](/previous-versions/windows/desktop/legacy/aa394068(v=vs.85)).
 
 ## Requirements
 
@@ -238,9 +238,4 @@ If you run this script, you will get information back. However, this information
 </dt> </dl>
 
  
-
- 
-
-
-
 

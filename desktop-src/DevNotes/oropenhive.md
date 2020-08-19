@@ -38,7 +38,7 @@ DWORD OROpenHive(
 *lpHivePath* \[in\]
 </dt> <dd>
 
-A pointer to a Unicode string that specifies the name of the registry hive file to be loaded into memory. This can be a hive file that was saved with the [**ORSaveHive**](orsavehive.md) function or created with the [RegSaveKey](https://msdn.microsoft.com/library/ms724917.aspx) or [RegSaveKeyEx](https://msdn.microsoft.com/library/ms724919.aspx) function. The file must be less than 4 GB in size, and the caller must have FILE\_READ\_DATA access to the file. For more information, see [File Security and Access Rights](https://msdn.microsoft.com/library/aa364399.aspx).
+A pointer to a Unicode string that specifies the name of the registry hive file to be loaded into memory. This can be a hive file that was saved with the [**ORSaveHive**](orsavehive.md) function or created with the [RegSaveKey](/windows/win32/api/winreg/nf-winreg-regsavekeya) or [RegSaveKeyEx](/windows/win32/api/winreg/nf-winreg-regsavekeyexa) function. The file must be less than 4 GB in size, and the caller must have FILE\_READ\_DATA access to the file. For more information, see [File Security and Access Rights](../fileio/file-security-and-access-rights.md).
 
 </dd> <dt>
 
@@ -53,7 +53,7 @@ A pointer to a variable that receives a handle to the root key of the loaded off
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://msdn.microsoft.com/library/ms679351.aspx) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error. Possible error codes include the following:
+If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error. Possible error codes include the following:
 
 -   If the file is empty or larger than 4 GB in size, the function returns ERROR\_BADDB.
 -   If the caller does not have the necessary access rights to open the file, the function returns ERROR\_ACCESS\_DENIED.
@@ -88,16 +88,12 @@ The **OROpenHive** function is the only offline registry function that validates
 [**ORSaveHive**](orsavehive.md)
 </dt> <dt>
 
-[RegSaveKey](https://msdn.microsoft.com/library/ms724917.aspx)
+[RegSaveKey](/windows/win32/api/winreg/nf-winreg-regsavekeya)
 </dt> <dt>
 
-[RegSaveKeyEx](https://msdn.microsoft.com/library/ms724919.aspx)
+[RegSaveKeyEx](/windows/win32/api/winreg/nf-winreg-regsavekeyexa)
 </dt> </dl>
 
  
 
  
-
-
-
-

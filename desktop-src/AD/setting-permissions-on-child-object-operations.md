@@ -18,9 +18,9 @@ The following procedure can be used to set permissions for a specific subobject 
 
 **To set permissions for a specific subobject type**
 
-1.  Set the [**IADsAccessControlEntry.AceType**](https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) property to **ADS\_ACETYPE\_ACCESS\_ALLOWED\_OBJECT** or **ADS\_ACETYPE\_ACCESS\_DENIED\_OBJECT**.
-2.  Set the [**IADsAccessControlEntry.ObjectType**](https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) property to the GUID for object class. This is the **schemaIDGUID** property of the classSchema object that defines the object class. If the **ObjectType** property is **NULL**, the ACE applies to subobjects of any class.
-3.  Set the [**IADsAccessControlEntry.Flags**](https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) property to **ADS\_FLAG\_OBJECT\_TYPE\_PRESENT**.
+1.  Set the [**IADsAccessControlEntry.AceType**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) property to **ADS\_ACETYPE\_ACCESS\_ALLOWED\_OBJECT** or **ADS\_ACETYPE\_ACCESS\_DENIED\_OBJECT**.
+2.  Set the [**IADsAccessControlEntry.ObjectType**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) property to the GUID for object class. This is the **schemaIDGUID** property of the classSchema object that defines the object class. If the **ObjectType** property is **NULL**, the ACE applies to subobjects of any class.
+3.  Set the [**IADsAccessControlEntry.Flags**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) property to **ADS\_FLAG\_OBJECT\_TYPE\_PRESENT**.
 
 For more information and a procedure for creating an ACE, see [Setting Access Rights on an Object](setting-access-rights-on-an-object.md).
 
@@ -29,7 +29,3 @@ For more information and a code example that can be used to set an ACE that cont
  
 
  
-
-
-
-

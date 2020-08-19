@@ -27,7 +27,7 @@ This section provides more info about pipeline access to tiled resources.
 | [Rasterizer behavior with non-mapped tiles](rasterizer-behavior-with-non-mapped-tiles.md)<br/>              | This section describes rasterizer behavior with non-mapped tiles.<br/>                                                                                              |
 | [Tile access limitations with duplicate mappings](tile-access-limitations-with-duplicate-mappings-.md)<br/> | This section describes tile access limitations with duplicate mappings.<br/>                                                                                        |
 | [Tiled resources texture sampling features](tiled-resources-texture-sampling-features.md)<br/>              | This section describes tiled resources texture sampling features.<br/>                                                                                              |
-| [HLSL tiled resources exposure](hlsl-tiled-resources-exposure.md)<br/>                                      | New Microsoft High Level Shader Language (HLSL) syntax is required to support tiled resources in [Shader Model 5](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3d11-graphics-reference-sm5). <br/> |
+| [HLSL tiled resources exposure](hlsl-tiled-resources-exposure.md)<br/>                                      | New Microsoft High Level Shader Language (HLSL) syntax is required to support tiled resources in [Shader Model 5](/windows/desktop/direct3dhlsl/d3d11-graphics-reference-sm5). <br/> |
 
 
 
@@ -41,10 +41,4 @@ This section provides more info about pipeline access to tiled resources.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

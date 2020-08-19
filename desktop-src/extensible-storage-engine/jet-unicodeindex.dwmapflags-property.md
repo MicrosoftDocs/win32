@@ -61,7 +61,7 @@ public uint dwMapFlags { get; set; }
 
 #### Property value
 
-Type: [System.UInt32](https://docs.microsoft.com/dotnet/api/system.uint32?redirectedfrom=MSDN)  
+Type: [System.UInt32](/dotnet/api/system.uint32)  
 
 ## See also
 
@@ -72,4 +72,3 @@ Type: [System.UInt32](https://docs.microsoft.com/dotnet/api/system.uint32?redire
 [JET_UNICODEINDEX members](dn351131\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

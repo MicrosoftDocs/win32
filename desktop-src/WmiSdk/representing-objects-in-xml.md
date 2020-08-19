@@ -31,7 +31,7 @@ The following procedure describes how to encode an object in XML using C or C++.
 
 1.  Set up your program to access WMI data.
 
-    Because WMI is based on COM technology, you must perform the requisite calls to the [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx) and [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) functions to access WMI. For more information, see [Initializing COM for a WMI Application](initializing-com-for-a-wmi-application.md).
+    Because WMI is based on COM technology, you must perform the requisite calls to the [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) and [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) functions to access WMI. For more information, see [Initializing COM for a WMI Application](initializing-com-for-a-wmi-application.md).
 
 2.  Optionally, create an [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) object and initialize it.
 
@@ -118,9 +118,9 @@ The following procedure describes how to encode an object in XML using C or C++.
 
 3.  Get a reference to the class or instance to encode in XML.
 
-    After you have initialized COM and are connected to WMI, call [**GetObject**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject) to retrieve a reference to the specified class or instance. If you used a BSTR to specify the class or instance, call [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free up the memory allocated by [**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx).
+    After you have initialized COM and are connected to WMI, call [**GetObject**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject) to retrieve a reference to the specified class or instance. If you used a BSTR to specify the class or instance, call [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) to free up the memory allocated by [**SysAllocString**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring).
 
-    The following code example retrieves a reference to an [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) instance.
+    The following code example retrieves a reference to an [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) instance.
 
     ```C++
     HRESULT hr = NULL;
@@ -145,9 +145,9 @@ The following procedure describes how to encode an object in XML using C or C++.
 
 4.  Create an [**IWbemObjectTextSrc**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjecttextsrc) object.
 
-    After you have a reference to an object you must create the [**IWbemObjectTextSrc**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjecttextsrc) object with a call to [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx). The **IWbemObjectTextSrc** object is used to generate the actual XML text.
+    After you have a reference to an object you must create the [**IWbemObjectTextSrc**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjecttextsrc) object with a call to [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance). The **IWbemObjectTextSrc** object is used to generate the actual XML text.
 
-    The following code example shows how to create an [**IWbemObjectTextSrc**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjecttextsrc) object by calling [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx).
+    The following code example shows how to create an [**IWbemObjectTextSrc**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjecttextsrc) object by calling [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance).
 
     ```C++
     HRESULT hr = NULL;
@@ -195,7 +195,7 @@ The following procedure describes how to encode an object in XML using C or C++.
 
     
 
-The following C++ example code includes all of the steps in the previous procedure and encodes the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class in XML including class, property, and method qualifiers and excluding system properties.
+The following C++ example code includes all of the steps in the previous procedure and encodes the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class in XML including class, property, and method qualifiers and excluding system properties.
 
 
 ```C++
@@ -429,7 +429,7 @@ The following procedure describes how to encode an object in XML using VBScript.
 
     
 
-The following VBScript code example includes all of the steps in the preceding procedure and encodes the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class in XML, including class, property, and method qualifiers and excluding system properties.
+The following VBScript code example includes all of the steps in the preceding procedure and encodes the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class in XML, including class, property, and method qualifiers and excluding system properties.
 
 
 ```VB
@@ -481,9 +481,4 @@ wscript.echo xml.xml
 </dt> </dl>
 
  
-
- 
-
-
-
 

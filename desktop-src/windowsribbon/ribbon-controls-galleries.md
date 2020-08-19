@@ -46,7 +46,7 @@ Galleries are functionally and graphically rich list box controls. The item coll
 
 Galleries are functionally distinct from other dynamic Ribbon controls for the following reasons:
 
--   Galleries implement the [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) interface that defines the various methods for manipulating gallery item collections.
+-   Galleries implement the [**IUICollection**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) interface that defines the various methods for manipulating gallery item collections.
 -   Galleries can be updated at run time, based on activity that occurs directly in the Ribbon, such as when a user adds a Command to the Quick Access Toolbar (QAT).
 -   Galleries can be updated at run time, based on activity that occurs indirectly from the run-time environment, such as when a printer driver supports portrait page layouts only.
 -   Galleries can be updated at run time, based on activity that occurs indirectly in the host application, such as when a user selects an item in a document.
@@ -145,25 +145,25 @@ This section describes the set of properties and methods that form the backbone 
 
 Galleries require a basic set of methods to access and manipulate the individual items in their collections.
 
-The [IEnumUnknown](https://msdn.microsoft.com/library/ms683764.aspx) interface defines these methods, and the framework supplements their functionality with additional methods that are defined in the [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) interface. **IUICollection** is implemented by the framework for each gallery declaration in the Ribbon markup.
+The [IEnumUnknown](/windows/win32/api/objidlbase/nn-objidlbase-ienumunknown) interface defines these methods, and the framework supplements their functionality with additional methods that are defined in the [**IUICollection**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) interface. **IUICollection** is implemented by the framework for each gallery declaration in the Ribbon markup.
 
-If additional functionality is required that is not provided by the [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) interface, then a custom collection object that is implemented by the host application and derived from [IEnumUnknown](https://msdn.microsoft.com/library/ms683764.aspx) can be substituted for the framework collection.
+If additional functionality is required that is not provided by the [**IUICollection**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) interface, then a custom collection object that is implemented by the host application and derived from [IEnumUnknown](/windows/win32/api/objidlbase/nn-objidlbase-ienumunknown) can be substituted for the framework collection.
 
 ### IUICollectionChangedEvent
 
-For an application to respond to changes in a gallery collection, it must implement the [**IUICollectionChangedEvent**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollectionchangedevent) interface. Applications can subscribe to notifications from an [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) object through the [**IUICollectionChangedEvent::OnChanged**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicollectionchangedevent-onchanged) event listener.
+For an application to respond to changes in a gallery collection, it must implement the [**IUICollectionChangedEvent**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicollectionchangedevent) interface. Applications can subscribe to notifications from an [**IUICollection**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) object through the [**IUICollectionChangedEvent::OnChanged**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicollectionchangedevent-onchanged) event listener.
 
-When the application replaces the gallery collection provided by the framework with a custom collection, the application should implement the [IConnectionPointContainer](https://msdn.microsoft.com/library/ms683857.aspx) interface. If [IConnectionPointContainer](https://msdn.microsoft.com/library/ms683857.aspx) is not implemented, then the application is unable to notify the framework of changes in the custom collection that require dynamic updates to the gallery control.
+When the application replaces the gallery collection provided by the framework with a custom collection, the application should implement the [IConnectionPointContainer](/windows/win32/api/ocidl/nn-ocidl-iconnectionpointcontainer) interface. If [IConnectionPointContainer](/windows/win32/api/ocidl/nn-ocidl-iconnectionpointcontainer) is not implemented, then the application is unable to notify the framework of changes in the custom collection that require dynamic updates to the gallery control.
 
-In those cases where [IConnectionPointContainer](https://msdn.microsoft.com/library/ms683857.aspx) is not implemented, the gallery control can be updated only by invalidation through [**IUIFramework::InvalidateUICommand**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand) and [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty), or by calling [**IUIFramework::SetUICommandProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty).
+In those cases where [IConnectionPointContainer](/windows/win32/api/ocidl/nn-ocidl-iconnectionpointcontainer) is not implemented, the gallery control can be updated only by invalidation through [**IUIFramework::InvalidateUICommand**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand) and [**IUICommandHandler::UpdateProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty), or by calling [**IUIFramework::SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty).
 
 ### IUISimplePropertySet
 
-Applications must implement IUISimplePropertySet for each item or Command in a gallery collection. However, the properties that can be requested with [**IUISimplePropertySet::GetValue**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue) vary.
+Applications must implement IUISimplePropertySet for each item or Command in a gallery collection. However, the properties that can be requested with [**IUISimplePropertySet::GetValue**](/windows/desktop/api/uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue) vary.
 
-Items are defined and bound to a gallery through the [UI\_PKEY\_ItemsSource](windowsribbon-reference-properties-uipkey-itemssource.md) property key and expose properties with an [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) object.
+Items are defined and bound to a gallery through the [UI\_PKEY\_ItemsSource](windowsribbon-reference-properties-uipkey-itemssource.md) property key and expose properties with an [**IUICollection**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) object.
 
-The valid properties for items in item galleries ([**UI\_COMMANDTYPE\_COLLECTION**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype)) are described in the following table.
+The valid properties for items in item galleries ([**UI\_COMMANDTYPE\_COLLECTION**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype)) are described in the following table.
 
 > [!Note]  
 > Some item properties, such as [UI\_PKEY\_Label](windowsribbon-reference-properties-uipkey-label.md), can be defined in markup. For more detail, see the [Property Keys](windowsribbon-reference-properties.md) reference documentation.
@@ -198,7 +198,7 @@ Properties
 
  
 
-The valid item properties for Command galleries ([**UI\_COMMANDTYPE\_COMMANDCOLLECTION**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype)) are described in the following table.
+The valid item properties for Command galleries ([**UI\_COMMANDTYPE\_COMMANDCOLLECTION**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype)) are described in the following table.
 
 
 
@@ -212,12 +212,12 @@ The valid item properties for Command galleries ([**UI\_COMMANDTYPE\_COMMANDCOLL
 
  
 
-Categories are used to organize items and Commands in galleries. Categories are defined and bound to a gallery through the [UI\_PKEY\_Categories](windowsribbon-reference-properties-uipkey-categories.md) property key and expose properties with a category-specific [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) object.
+Categories are used to organize items and Commands in galleries. Categories are defined and bound to a gallery through the [UI\_PKEY\_Categories](windowsribbon-reference-properties-uipkey-categories.md) property key and expose properties with a category-specific [**IUICollection**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) object.
 
-Categories do not have a CommandType and do not support user interaction. For example, categories cannot become the SelectedItem in an item gallery, and they are not bound to a Command in a Command gallery. Like other gallery item properties, category properties such as [UI\_PKEY\_Label](windowsribbon-reference-properties-uipkey-label.md) and [UI\_PKEY\_CategoryId](windowsribbon-reference-properties-uipkey-categoryid.md) can be retrieved by calling [**IUISimplePropertySet::GetValue**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue).
+Categories do not have a CommandType and do not support user interaction. For example, categories cannot become the SelectedItem in an item gallery, and they are not bound to a Command in a Command gallery. Like other gallery item properties, category properties such as [UI\_PKEY\_Label](windowsribbon-reference-properties-uipkey-label.md) and [UI\_PKEY\_CategoryId](windowsribbon-reference-properties-uipkey-categoryid.md) can be retrieved by calling [**IUISimplePropertySet::GetValue**](/windows/desktop/api/uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue).
 
 > [!IMPORTANT]
-> [**IUISimplePropertySet::GetValue**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue) should return [**UI\_COLLECTION\_INVALIDINDEX**](https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-ui-collection-invalidindex) when [UI\_PKEY\_CategoryId](windowsribbon-reference-properties-uipkey-categoryid.md) is requested for an item that does not have an associated category.
+> [**IUISimplePropertySet::GetValue**](/windows/desktop/api/uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue) should return [**UI\_COLLECTION\_INVALIDINDEX**](/windows/desktop/windowsribbon/windowsribbon-ui-collection-invalidindex) when [UI\_PKEY\_CategoryId](windowsribbon-reference-properties-uipkey-categoryid.md) is requested for an item that does not have an associated category.
 
  
 
@@ -254,69 +254,46 @@ A *CommandId* attribute used to bind a Command to a Command handler when the mar
 ```XML
 
 <!-- DropDownGallery -->
-<Command Name=&quot;cmdDropDownGalleryGroup&quot;
-         Symbol=&quot;cmdDropDownGalleryGroup&quot;
-         Comment=&quot;DropDownGallery Group&quot;
-         LabelTitle=&quot;DropDownGallery&quot;/>
-<Command Name=&quot;cmdDropDownGallery&quot;
-         Symbol=&quot;cmdDropDownGallery&quot;
-         Comment=&quot;DropDownGallery&quot;
-         LabelTitle=&quot;DropDownGallery&quot;/>
+<Command Name="cmdDropDownGalleryGroup"
+         Symbol="cmdDropDownGalleryGroup"
+         Comment="DropDownGallery Group"
+         LabelTitle="DropDownGallery"/>
+<Command Name="cmdDropDownGallery"
+         Symbol="cmdDropDownGallery"
+         Comment="DropDownGallery"
+         LabelTitle="DropDownGallery"/>
 ```
 
 
 
-<span codelanguage="XML"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>XML</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code><!-- InRibbonGallery -->
-<Command Name=&quot;cmdInRibbonGalleryGroup&quot;
-         Symbol=&quot;cmdInRibbonGalleryGroup&quot;
-         Comment=&quot;InRibbonGallery Group&quot;
-         LabelTitle=&quot;InRibbonGallery&quot;/>
-<Command Name=&quot;cmdInRibbonGallery&quot;
-         Symbol=&quot;cmdInRibbonGallery&quot;
-         Comment=&quot;InRibbonGallery&quot;
-         LabelTitle=&quot;InRibbonGallery&quot;/></code></pre></td>
-</tr>
-</tbody>
-</table>
+```XML
 
-<span codelanguage="XML"></span>
+<!-- InRibbonGallery -->
+<Command Name="cmdInRibbonGalleryGroup"
+         Symbol="cmdInRibbonGalleryGroup"
+         Comment="InRibbonGallery Group"
+         LabelTitle="InRibbonGallery"/>
+<Command Name="cmdInRibbonGallery"
+         Symbol="cmdInRibbonGallery"
+         Comment="InRibbonGallery"
+         LabelTitle="InRibbonGallery"
+```
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>XML</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code><!-- SplitButtonGallery -->
-<Command Name=&quot;cmdSplitButtonGalleryGroup&quot;
-         Symbol=&quot;cmdSplitButtonGalleryGroup&quot;
-         Comment=&quot;SplitButtonGallery Group&quot;
-         LabelTitle=&quot;SplitButtonGallery&quot;/>
-<Command Name=&quot;cmdSplitButtonGallery&quot;
-         Symbol=&quot;cmdSplitButtonGallery&quot;
-         Comment=&quot;SplitButtonGallery&quot;
-         LabelTitle=&quot;SplitButtonGallery&quot;/></code></pre></td>
-</tr>
-</tbody>
-</table>
+
+
+```XML
+
+<!-- SplitButtonGallery -->
+<Command Name="cmdSplitButtonGalleryGroup"
+         Symbol="cmdSplitButtonGalleryGroup"
+         Comment="SplitButtonGallery Group"
+         LabelTitle="SplitButtonGallery"/>
+<Command Name="cmdSplitButtonGallery"
+         Symbol="cmdSplitButtonGallery"
+         Comment="SplitButtonGallery"
+         LabelTitle="SplitButtonGallery"
+```
 
 
 
@@ -433,7 +410,7 @@ The following example shows a control declaration for the [**ComboBox**](windows
 
 ### Create a Command Handler
 
-For each Command, the Ribbon framework requires a corresponding Command handler in the host application. Command handlers are implemented by the Ribbon host application and are derived from the [**IUICommandHandler**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler) interface.
+For each Command, the Ribbon framework requires a corresponding Command handler in the host application. Command handlers are implemented by the Ribbon host application and are derived from the [**IUICommandHandler**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler) interface.
 
 > [!Note]  
 > Multiple Commands can be bound to a single Command handler.
@@ -442,8 +419,8 @@ For each Command, the Ribbon framework requires a corresponding Command handler 
 
 A Command handler serves two purposes:
 
--   [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) responds to property update requests. The values of Command properties, such as [UI\_PKEY\_Enabled](windowsribbon-reference-properties-uipkey-enabled.md) or [UI\_PKEY\_Label](windowsribbon-reference-properties-uipkey-label.md), are set through calls to [**IUIFramework::SetUICommandProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) or [**IUIFramework::InvalidateUICommand**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand).
--   [**IUICommandHandler::Execute**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) responds to execute events. This method supports the following three execution states that are specified by the [**UI\_EXECUTIONVERB**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_executionverb) parameter.
+-   [**IUICommandHandler::UpdateProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) responds to property update requests. The values of Command properties, such as [UI\_PKEY\_Enabled](windowsribbon-reference-properties-uipkey-enabled.md) or [UI\_PKEY\_Label](windowsribbon-reference-properties-uipkey-label.md), are set through calls to [**IUIFramework::SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) or [**IUIFramework::InvalidateUICommand**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand).
+-   [**IUICommandHandler::Execute**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) responds to execute events. This method supports the following three execution states that are specified by the [**UI\_EXECUTIONVERB**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_executionverb) parameter.
     -   The Execute state executes, or commits to, any commands to which the handler is bound.
     -   The Preview state previews any commands to which the handler is bound. This essentially executes the commands without committing to the result.
     -   The CancelPreview state cancels any previewed Commands. This is required to support traversal through a menu or list and sequentially preview and undo the results as required.
@@ -623,9 +600,9 @@ STDMETHOD(OnCreateUICommand)(UINT32 nCmdID,
 
 ### Initialize a Collection
 
-The following example demonstrates a custom implementation of [**IUISimplePropertySet**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset) for both item and Command galleries.
+The following example demonstrates a custom implementation of [**IUISimplePropertySet**](/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset) for both item and Command galleries.
 
-The CItemProperties class in this example is derived from [**IUISimplePropertySet**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset). In addition to the required method [**IUISimplePropertySet::GetValue**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue), the CItemProperties class implements a set of helper functions for initialization and index tracking.
+The CItemProperties class in this example is derived from [**IUISimplePropertySet**](/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset). In addition to the required method [**IUISimplePropertySet::GetValue**](/windows/desktop/api/uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue), the CItemProperties class implements a set of helper functions for initialization and index tracking.
 
 
 ```C++
@@ -877,7 +854,3 @@ HRESULT CQATHandler::OnCollectionChanged(
  
 
  
-
-
-
-

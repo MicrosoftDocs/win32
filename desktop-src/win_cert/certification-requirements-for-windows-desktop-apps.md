@@ -56,10 +56,10 @@ The times when an app crashes or stops responding cause much user frustration. A
 
 Using Windows security best practices will help avoid creating exposure to Windows attack surfaces. Attack surfaces are the entry points that a malicious attacker could use to exploit the operating system by taking advantage of vulnerabilities in the target software. One of the worst security vulnerabilities is the elevation of privilege.
 
-Note that tests 2.1   2.6 are applicable only for desktop apps tested on Windows 7, Windows 8 or Windows 8.1.<dl> 2.1 Your app must use strong and appropriate [ACLs](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists) to secure executable files  
-2.2 Your app must use strong and appropriate [ACLs](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists) to secure directories  
-2.3 Your app must use strong and appropriate [ACLs](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists) to secure registry keys  
-2.4 Your app must use strong and appropriate [ACLs](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists) to secure directories that contain objects  
+Note that tests 2.1   2.6 are applicable only for desktop apps tested on Windows 7, Windows 8 or Windows 8.1.<dl> 2.1 Your app must use strong and appropriate [ACLs](/windows/desktop/SecAuthZ/access-control-lists) to secure executable files  
+2.2 Your app must use strong and appropriate [ACLs](/windows/desktop/SecAuthZ/access-control-lists) to secure directories  
+2.3 Your app must use strong and appropriate [ACLs](/windows/desktop/SecAuthZ/access-control-lists) to secure registry keys  
+2.4 Your app must use strong and appropriate [ACLs](/windows/desktop/SecAuthZ/access-control-lists) to secure directories that contain objects  
 2.5 Your app must reduce non-administrator access to services that are vulnerable to tampering  
 2.6 Your app must prevent services with fast restarts from restarting more than twice every 24 hours  
 </dl>
@@ -308,5 +308,5 @@ Thank you again for joining in our commitment to delivering great customer exper
 
 ## See also
 
--   [Windows Hardware Certification Program](https://docs.microsoft.com/previous-versions/windows/hardware/hck/jj124227(v=vs.85))
--   [How to use the Windows App Certification Kit](/windows/win32/win_cert/using-the-windows-app-certification-kit)
+-   [Windows Hardware Certification Program](/previous-versions/windows/hardware/hck/jj124227(v=vs.85))
+-   [How to use the Windows App Certification Kit](./using-the-windows-app-certification-kit.md)

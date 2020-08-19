@@ -33,11 +33,11 @@ After the CA decides that you meet its policy criteria, it generates a code-sign
 
 After you have a public and private key, you can then begin distributing signed software. Microsoft provides tools to do this in the Windows SDK. The tools utilize a one-way hash, produce a fixed-length digest, and generate an encrypted signature with a private key. They then combine that encrypted signature with your certificate and credentials into a structure known as a signature block and embed it into the file format of the executable. Any type of executable binary file can be signed, including DLLs, executable files, and cabinet files.
 
-The signature can be verified in multiple ways. Programs can call the CertVerifyCertificateChainPolicy function, and SignTool (signtool.exe) can be used to verify a signature from the command-line prompt. Windows Explorer also has a Digital Signatures tab in File Properties that displays each certificate of a signed binary file. (The Digital Signatures tab only appears in File Properties for signed files.) Also, an application can be self-verifying by use of [**CertVerifyCertificateChainPolicy**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy).
+The signature can be verified in multiple ways. Programs can call the CertVerifyCertificateChainPolicy function, and SignTool (signtool.exe) can be used to verify a signature from the command-line prompt. Windows Explorer also has a Digital Signatures tab in File Properties that displays each certificate of a signed binary file. (The Digital Signatures tab only appears in File Properties for signed files.) Also, an application can be self-verifying by use of [**CertVerifyCertificateChainPolicy**](/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy).
 
 Authenticode signing is not only useful for data authentication by end users, but is also needed for patching of Limited User Accounts and by parental controls in Windows Vista and Windows 7. In addition, future technologies in Windows operating systems may also require that code is signed, so it is strongly advised that all professional and amateur developers acquire a code-signing certificate from a CA. More information on how this is done can be found later in this article in [Using a Trusted Certificate Authority](#using-a-trusted-certificate-authority).
 
-Game code, patchers, and installers can further leverage Authenicode signing by verifying files are authentic in code. This can be used for anti-cheat and general network security. Example code for checking if a file is signed can be found here: [Example C Program: Verifying the Signature of a PE File](https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program--verifying-the-signature-of-a-pe-file), and example code for checking ownership of a signing certificate on a signed file can be found here: [How To Get Information from Authenticode Signed Executables](https://support.microsoft.com/kb/323809).
+Game code, patchers, and installers can further leverage Authenicode signing by verifying files are authentic in code. This can be used for anti-cheat and general network security. Example code for checking if a file is signed can be found here: [Example C Program: Verifying the Signature of a PE File](/windows/desktop/SecCrypto/example-c-program--verifying-the-signature-of-a-pe-file), and example code for checking ownership of a signing certificate on a signed file can be found here: [How To Get Information from Authenticode Signed Executables](https://support.microsoft.com/kb/323809).
 
 ## Getting Started
 
@@ -183,17 +183,13 @@ Using Microsoft Authenticode is a straightforward process. Once you have obtaine
 
 More information about tools and processes related to signing code, see the following links:
 
--   [Cryptography Tools](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-tools)
--   [Crypto API Tools Reference](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptoapi-tools-reference)
--   [Authenticode Overview and Turtorials](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537360(v=vs.85))
--   [Digital Certificates](https://docs.microsoft.com/windows/desktop/SecCrypto/digital-certificates)
+-   [Cryptography Tools](/windows/desktop/SecCrypto/cryptography-tools)
+-   [Crypto API Tools Reference](/windows/desktop/SecCrypto/cryptoapi-tools-reference)
+-   [Authenticode Overview and Turtorials](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537360(v=vs.85))
+-   [Digital Certificates](/windows/desktop/SecCrypto/digital-certificates)
 -   [Deploying Authenticode](https://www.microsoft.com/technet/security/topics/cryptographyetc/authenticodets.mspx)
--   [How To: Create Temporary Certificates for Use During Development](https://docs.microsoft.com/dotnet/framework/wcf/feature-details/how-to-create-temporary-certificates-for-use-during-development)
+-   [How To: Create Temporary Certificates for Use During Development](/dotnet/framework/wcf/feature-details/how-to-create-temporary-certificates-for-use-during-development)
 
  
 
  
-
-
-
-

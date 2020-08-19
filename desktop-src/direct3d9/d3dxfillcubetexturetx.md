@@ -39,9 +39,9 @@ HRESULT D3DXFillCubeTextureTX(
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DCUBETEXTURE9**](https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9)**
 
-Pointer to an [**IDirect3DCubeTexture9**](https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx) object, representing the texture to be filled.
+Pointer to an [**IDirect3DCubeTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9) object, representing the texture to be filled.
 
 </dd> <dt>
 
@@ -94,7 +94,3 @@ The input parameters can be in any order. For an example, see [**D3DXFillTexture
  
 
  
-
-
-
-

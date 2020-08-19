@@ -118,13 +118,8 @@ A two-byte checksum calculated over the bytes starting at the **FsName** data me
 [**FILE\_SYSTEM\_RECOGNITION\_INFORMATION**](/windows/desktop/api/WinIoCtl/ns-winioctl-file_system_recognition_information)
 </dt> <dt>
 
-[**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](https://msdn.microsoft.com/library/Dd442655(v=VS.85).aspx)
+[**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](/windows/win32/api/winioctl/ni-winioctl-fsctl_query_file_system_recognition)
 </dt> </dl>
 
  
-
- 
-
-
-
 

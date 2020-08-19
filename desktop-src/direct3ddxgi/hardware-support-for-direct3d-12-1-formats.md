@@ -1,5 +1,5 @@
 ---
-Description: This section specifies the formats ([**DXGI_FORMAT_***](https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx) values) that are supported in Direct3D Feature Level 12.1 hardware.
+Description: This section specifies the formats ([**DXGI_FORMAT_***](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) values) that are supported in Direct3D Feature Level 12.1 hardware.
 ms.assetid: 0DC50FF3-3193-4F3B-9976-EE504C6FCC87
 title: Format support for Direct3D Feature Level 12.1 hardware
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Format support for Direct3D Feature Level 12.1 hardware
 
-This section specifies the formats ([**DXGI_FORMAT_***](https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx) values) that are supported in Direct3D Feature Level 12.1 hardware.
+This section specifies the formats ([**DXGI_FORMAT_***](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) values) that are supported in Direct3D Feature Level 12.1 hardware.
 
 The table summarizes the feature support, using the following key.
 
@@ -5872,6 +5872,6 @@ The purpose of the format can change from one hardware feature level to the next
 
 ## DXGI_FORMAT_Related topics
 
-[D3D12 Hardware Feature Levels](https://msdn.microsoft.com/library/Mt186615(v=VS.85).aspx)
+[D3D12 Hardware Feature Levels](../direct3d12/hardware-feature-levels.md)
 
 [Programming Guide for DXGI](dx-graphics-dxgi-overviews.md)

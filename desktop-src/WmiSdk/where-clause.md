@@ -29,7 +29,7 @@ You may use string literals, such as "NTFS", in a WHERE clause. If you wish to i
 -   double quotes (\\")
 -   single quotes (\\')
 
-Arbitrary arithmetic expressions cannot be used. For example, the following query returns only the instances of the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class that represent NTFS drives:
+Arbitrary arithmetic expressions cannot be used. For example, the following query returns only the instances of the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class that represent NTFS drives:
 
 
 ```sql
@@ -93,7 +93,7 @@ SELECT * FROM win32_computersystem WHERE infraredsupported >= null
 
 
 
-Multiple groups of properties, operators, and constants can be combined in a WHERE clause using logical operators and parenthetical subexpressions. Each group must be joined with the AND, OR, or NOT [operators](wql-operators.md) as is shown in the following queries. The first query retrieves all instances of the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class with the **Name** property set to either C or D:
+Multiple groups of properties, operators, and constants can be combined in a WHERE clause using logical operators and parenthetical subexpressions. Each group must be joined with the AND, OR, or NOT [operators](wql-operators.md) as is shown in the following queries. The first query retrieves all instances of the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class with the **Name** property set to either C or D:
 
 
 ```sql
@@ -168,6 +168,3 @@ In addition to the WMI [DATETIME](date-and-time-format.md) format, the WQL WHERE
  
 
  
-
-
-

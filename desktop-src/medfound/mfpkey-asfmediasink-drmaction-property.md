@@ -28,7 +28,7 @@ VT\_UI4
 
 ## Remarks
 
-The value of this property is a member of the [**MFSINK\_WMDRMACTION**](https://msdn.microsoft.com/library/ms703949(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**MFSINK\_WMDRMACTION**](/windows/win32/api/wmcontainer/ne-wmcontainer-mfsink_wmdrmaction) enumeration.
 
 You can use this attribute to configure the ASF media sink. The usage depends on which function you call to create the ASF media sink:
 
@@ -58,7 +58,3 @@ You can use this attribute to configure the ASF media sink. The usage depends on
  
 
  
-
-
-
-

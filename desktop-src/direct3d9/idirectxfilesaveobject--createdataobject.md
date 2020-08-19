@@ -43,7 +43,7 @@ HRESULT CreateDataObject(
 *rguidTemplate* \[in\]
 </dt> <dd>
 
-Type: **[REFGUID](https://msdn.microsoft.com/library/cc237815(PROT.13).aspx)**
+Type: **[REFGUID](/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50)**
 
 GUID representing the data object's template.
 
@@ -52,7 +52,7 @@ GUID representing the data object's template.
 *szName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to the name of the data object. Specify **NULL** if the object does not have a name.
 
@@ -70,7 +70,7 @@ Pointer to a GUID representing the data object. Specify **NULL** if the object d
 *cbSize* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Size of the data object, in bytes.
 
@@ -79,7 +79,7 @@ Size of the data object, in bytes.
 *pvData* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 Pointer to a buffer containing all required member's data.
 
@@ -138,7 +138,3 @@ If you need to save optional data, use the [**IDirectXFileData::AddDataObject**]
  
 
  
-
-
-
-

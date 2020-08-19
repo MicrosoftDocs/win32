@@ -18,7 +18,7 @@ topic_type:
 
 # SFVM\_BACKGROUNDENUMDONE message
 
-Notifies the callback object that background enumeration is complete. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
+Notifies the callback object that background enumeration is complete. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -49,7 +49,3 @@ This message has no parameters.
  
 
  
-
-
-
-

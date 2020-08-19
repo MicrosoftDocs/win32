@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Enumerating WMI
 
-Enumeration is the act of moving through a set of objects and possibly modifying each object as you do so. For example, you can enumerate through a set of [**Win32\_DiskDrive**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-diskdrive) objects to find a particular serial number. Note that although you can enumerate any object, WMI only returns objects to which you have security access.
+Enumeration is the act of moving through a set of objects and possibly modifying each object as you do so. For example, you can enumerate through a set of [**Win32\_DiskDrive**](/windows/desktop/CIMWin32Prov/win32-diskdrive) objects to find a particular serial number. Note that although you can enumerate any object, WMI only returns objects to which you have security access.
 
 Enumerations of large data sets can require a large amount of resources and degrade performance. For more information, see [Improving Enumeration Performance](improving-enumeration-performance.md). You also can request data with a more specific query. For more information, see [Querying WMI](querying-wmi.md).
 
@@ -68,7 +68,7 @@ foreach ($Drive in $objCol)
 
     
 
-3.  Instantiate a [CimSession](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832509(v=vs.85)) object. The following snippet uses the standard "localhost" value for the [**CimSession.Create**](https://msdn.microsoft.com/library/Hh832529(v=VS.85).aspx) method.
+3.  Instantiate a [CimSession](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832509(v=vs.85)) object. The following snippet uses the standard "localhost" value for the [**CimSession.Create**](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832529(v=vs.85)) method.
 
 ```CSharp
     CimSession cimSession = CimSession.Create("localhost");
@@ -98,7 +98,7 @@ foreach ($Drive in $objCol)
 
     
 
-The following code sample enumerates all instances of the [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) class (which represents active processes) on the local machine, and prints the name of each process.
+The following code sample enumerates all instances of the [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) class (which represents active processes) on the local machine, and prints the name of each process.
 
 > [!Note]  
 > In a real application you would define as parameters the computer name ("localhost") and CIM namespace ("root\\cimv2"). For purposes of simplicity, these have been hardcoded in this example.
@@ -192,7 +192,7 @@ namespace MIClientManaged
 
 ## Enumerating WMI Using C# (System.Management)
 
-If you do not know the object path for a specific instance, or you want to retrieve all the instances for a specific class, use the [ManagementClass](https://docs.microsoft.com/dotnet/api/system.management.managementclass?redirectedfrom=MSDN) object to retrieve a [ManagementObjectCollection](https://docs.microsoft.com/dotnet/api/system.management.managementobjectcollection?redirectedfrom=MSDN) that contains all instances of a given class in the WMI namespace. Alternately, you can query WMI through a [ManagementObjectSearcher](https://docs.microsoft.com/dotnet/api/system.management.managementobjectsearcher?redirectedfrom=MSDN) to obtain the same set of objects.
+If you do not know the object path for a specific instance, or you want to retrieve all the instances for a specific class, use the [ManagementClass](/dotnet/api/system.management.managementclass) object to retrieve a [ManagementObjectCollection](/dotnet/api/system.management.managementobjectcollection) that contains all instances of a given class in the WMI namespace. Alternately, you can query WMI through a [ManagementObjectSearcher](/dotnet/api/system.management.managementobjectsearcher) to obtain the same set of objects.
 
 > [!Note]  
 > **System.Management** was the original .NET namespace used to access WMI; however, the APIs in this namespace generally are slower and do not scale as well relative to their more modern **Microsoft.Management.Infrastructure** counterparts.
@@ -203,9 +203,9 @@ The following procedure describes how to enumerate the instances of a class usin
 
 **To enumerate the instances of a class using C#**
 
-1.  Enumerate the instances with a call to [ManagementClass.GetInstances](https://docs.microsoft.com/dotnet/api/system.management.managementclass.getinstances?redirectedfrom=MSDN#System_Management_ManagementClass_GetInstances).
+1.  Enumerate the instances with a call to [ManagementClass.GetInstances](/dotnet/api/system.management.managementclass.getinstances#System_Management_ManagementClass_GetInstances).
 
-    The [GetInstances](https://docs.microsoft.com/dotnet/api/system.management.managementclass.getinstances?redirectedfrom=MSDN#System_Management_ManagementClass_GetInstances) method returns a collection, or set, of objects through which you can enumerate. For more information, see [Accessing a Collection](accessing-a-collection.md). The returned collection is actually an [ManagementObjectCollection](https://docs.microsoft.com/dotnet/api/system.management.managementobjectcollection?redirectedfrom=MSDN) object, so any of the methods of that object can be called.
+    The [GetInstances](/dotnet/api/system.management.managementclass.getinstances#System_Management_ManagementClass_GetInstances) method returns a collection, or set, of objects through which you can enumerate. For more information, see [Accessing a Collection](accessing-a-collection.md). The returned collection is actually an [ManagementObjectCollection](/dotnet/api/system.management.managementobjectcollection) object, so any of the methods of that object can be called.
 
     If you wish to retrieve a WMI class instance in another namespace or on a different computer, specify the computer and namespace in the *path* parameter. For more information, see [Creating a WMI Script](creating-a-wmi-script.md). This only works if you have the appropriate access privileges. For more information, see [Maintaining WMI Security](maintaining-wmi-security.md) and [Executing Privileged Operations](executing-privileged-operations.md).
 
@@ -334,6 +334,3 @@ For more information, see [Manipulating Class and Instance Information](manipula
  
 
  
-
-
-

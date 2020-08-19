@@ -20,7 +20,7 @@ When a results object is transmitted to the sound editor, it queries that object
 
 `HRESULT  DataGet  (DWord, dwID, GUID gAttrib, SDATA *psData)`
 
-Where **dwID** is the identifier of the graph object, **gAttrib** is a GUID corresponding to the attribute sought, and **psData** is a pointer to an SDATA object containing the data returned. The engine is responsible for allocating the data stored in **psData** through [**CoTaskMemAlloc**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc). The calling application (in this case the sound editor) is responsible for freeing it through [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) when it is finished.
+Where **dwID** is the identifier of the graph object, **gAttrib** is a GUID corresponding to the attribute sought, and **psData** is a pointer to an SDATA object containing the data returned. The engine is responsible for allocating the data stored in **psData** through [**CoTaskMemAlloc**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc). The calling application (in this case the sound editor) is responsible for freeing it through [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) when it is finished.
 
 DataGet is required to recognize three predefined GUIDs, which are listed in the SAPI documentation. An engine which returns a success code to the call to **DWORDSet(SRATTR\_PHONESEG, 1)** is also required to recognize a specific GUID, **SRGARC\_PHONEMESEGMENTATION**, when called with a **dwID** that corresponds to an edge in the graph.
 
@@ -47,7 +47,3 @@ The SAPI 4.0 SDK includes a tool (SRFunc) for testing compliance with the SAPI 4
  
 
  
-
-
-
-

@@ -42,7 +42,7 @@ This function must be implemented to return S\_OK.
 
 ## Remarks
 
-Be sure to specify the [**Windows Data Types**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx) calling convention when declaring the callback function. Otherwise, stack overflows can occur.
+Be sure to specify the [**Windows Data Types**](../winprog/windows-data-types.md) calling convention when declaring the callback function. Otherwise, stack overflows can occur.
 
 
 
@@ -65,6 +65,3 @@ Be sure to specify the [**Windows Data Types**](https://msdn.microsoft.com/libra
  
 
  
-
-
-

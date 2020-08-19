@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # WM\_GETTITLEBARINFOEX message
 
-Sent to request extended title bar information. A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+Sent to request extended title bar information. A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -41,13 +41,13 @@ This parameter is not used and must be 0.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**TITLEBARINFOEX**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-titlebarinfoex) structure. The message sender is responsible for allocating memory for this structure. Set the **cbSize** member of this structure to `sizeof(TITLEBARINFOEX)` before passing this structure with the message.
+A pointer to a [**TITLEBARINFOEX**](/windows/win32/api/winuser/ns-winuser-titlebarinfoex) structure. The message sender is responsible for allocating memory for this structure. Set the **cbSize** member of this structure to `sizeof(TITLEBARINFOEX)` before passing this structure with the message.
 
 </dd> </dl>
 
 ## Remarks
 
-The following example shows how the message receiver casts an **LPARAM** value to retrieve the [**TITLEBARINFOEX**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-titlebarinfoex) structure.
+The following example shows how the message receiver casts an **LPARAM** value to retrieve the [**TITLEBARINFOEX**](/windows/win32/api/winuser/ns-winuser-titlebarinfoex) structure.
 
 `TITLEBARINFOEX *ptinfo = (TITLEBARINFOEX *)lParam;`
 
@@ -71,10 +71,4 @@ The following example shows how the message receiver casts an **LPARAM** value t
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -16,7 +16,7 @@ All keywords and elements of keywords are not required to be supported. Implemen
 
 ## Element Type Implementations for User Configurable Elements
 
-It is important to pay attention to the Parent and Child elements allowed in the structural content for each keyword. For more information please refer to the [Summary of Element Types](https://msdn.microsoft.com/library/ms715286(v=VS.85).aspx) section.
+It is important to pay attention to the Parent and Child elements allowed in the structural content for each keyword. For more information please refer to the [Summary of Element Types](./summary-of-element-types.md) section.
 
 ## Related topics
 
@@ -28,6 +28,3 @@ It is important to pay attention to the Parent and Child elements allowed in the
  
 
  
-
-
-

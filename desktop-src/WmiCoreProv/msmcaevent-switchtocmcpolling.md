@@ -67,7 +67,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Unique identifier of this instance of the class.
@@ -105,9 +105,4 @@ The system abstraction layer (SAL) is code burned onto ROM that the operating sy
 </dt> </dl>
 
  
-
- 
-
-
-
 

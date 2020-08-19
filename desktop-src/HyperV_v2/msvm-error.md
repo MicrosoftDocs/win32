@@ -81,7 +81,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The CIM status code that characterizes this instance. This property defines the status codes that may be return by a conforming CIM Server or Listener. Not all status codes are valid for each operation. The specification for each operation should define the status codes that may be returned by that operation. The following values for CIM status code are defined. This property is inherited from [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)).
+The CIM status code that characterizes this instance. This property defines the status codes that may be return by a conforming CIM Server or Listener. Not all status codes are valid for each operation. The specification for each operation should define the status codes that may be returned by that operation. The following values for CIM status code are defined. This property is inherited from [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)).
 
 
 
@@ -124,7 +124,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string containing a user-readable description of the **CIMStatusCode** property. This description may extend, but must be consistent with, the definition of **CIMStatusCode**. This property is inherited from [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)).
+A string containing a user-readable description of the **CIMStatusCode** property. This description may extend, but must be consistent with, the definition of **CIMStatusCode**. This property is inherited from [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)).
 
 </dd> <dt>
 
@@ -137,7 +137,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The identifying information of the entity (the instance) generating the error. If this entity is modeled in the CIM Schema, this property contains the path of the instance encoded as a string parameter. If not modeled, the property contains some identifying string that names the entity that generated the error. The path or identifying string is formatted per the **ErrorSourceFormat** property. This property is inherited from [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)).
+The identifying information of the entity (the instance) generating the error. If this entity is modeled in the CIM Schema, this property contains the path of the instance encoded as a string parameter. If not modeled, the property contains some identifying string that names the entity that generated the error. The path or identifying string is formatted per the **ErrorSourceFormat** property. This property is inherited from [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)).
 
 </dd> <dt>
 
@@ -150,7 +150,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The format of the **ErrorSource** property is interpretable based on the value of this property. This property is inherited from [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)), and it is always set to 0.
+The format of the **ErrorSource** property is interpretable based on the value of this property. This property is inherited from [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)), and it is always set to 0.
 
 
 
@@ -175,7 +175,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Primary classification of the error. The following values are defined. This property is inherited from [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)).
+Primary classification of the error. The following values are defined. This property is inherited from [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)).
 
 
 
@@ -208,7 +208,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The formatted message. This message is constructed by applying the dynamic content of the message, described in **MessageArguments**, to the format string uniquely identified, within the scope of the **OwningEntity**, by **MessageID**. This property is inherited from [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)).
+The formatted message. This message is constructed by applying the dynamic content of the message, described in **MessageArguments**, to the format string uniquely identified, within the scope of the **OwningEntity**, by **MessageID**. This property is inherited from [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)).
 
 </dd> <dt>
 
@@ -221,7 +221,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-An array containing the dynamic content of the message. This property is inherited from [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)).
+An array containing the dynamic content of the message. This property is inherited from [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)).
 
 </dd> <dt>
 
@@ -234,7 +234,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-An opaque string that uniquely identifies, within the scope of the **OwningEntity**, the format of the message. This property is inherited from [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)).
+An opaque string that uniquely identifies, within the scope of the **OwningEntity**, the format of the message. This property is inherited from [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)).
 
 </dd> <dt>
 
@@ -247,7 +247,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string defining "Other" values for **ErrorSourceFormat**. This value must be set to a non-NULL value when **ErrorSourceFormat** is set to a value of 1 (Other). For all other values of **ErrorSourceFormat**, the value of this string must be set to **Null**. This property is inherited from [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)).
+A string defining "Other" values for **ErrorSourceFormat**. This value must be set to a non-NULL value when **ErrorSourceFormat** is set to a value of 1 (Other). For all other values of **ErrorSourceFormat**, the value of this string must be set to **Null**. This property is inherited from [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)).
 
 </dd> <dt>
 
@@ -260,7 +260,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that describes the **ErrorType** when 1, (Other), is specified as the **ErrorType**. This property is inherited from [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)).
+A string that describes the **ErrorType** when 1, (Other), is specified as the **ErrorType**. This property is inherited from [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)).
 
 </dd> <dt>
 
@@ -273,7 +273,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that uniquely identifies the entity that owns the definition of the format of the message described in this instance. **OwningEntity** must include a copyrighted, trademarked, or otherwise unique name that is owned by the business entity or standards body defining the format. This property is inherited from [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)).
+A string that uniquely identifies the entity that owns the definition of the format of the message described in this instance. **OwningEntity** must include a copyrighted, trademarked, or otherwise unique name that is owned by the business entity or standards body defining the format. This property is inherited from [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)).
 
 </dd> <dt>
 
@@ -286,7 +286,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-An enumerated value that describes the severity of the error from the notifier's point of view: 2 - Low should be used for noncritical issues such as invalid parameters, incorrect usage, unsupported functionality. 3 - Medium should be used to indicate action is needed, but the situation is not serious at this time. 4 - High should be used to indicate action is needed now. 5 - Fatal should be used to indicate a loss of data or unrecoverable system or service failure. This property is inherited from [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)).
+An enumerated value that describes the severity of the error from the notifier's point of view: 2 - Low should be used for noncritical issues such as invalid parameters, incorrect usage, unsupported functionality. 3 - Medium should be used to indicate action is needed, but the situation is not serious at this time. 4 - High should be used to indicate action is needed now. 5 - Fatal should be used to indicate a loss of data or unrecoverable system or service failure. This property is inherited from [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)).
 
 <dl> <dt>
 
@@ -316,7 +316,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-An enumerated value that describes the probable cause of the error. This property is inherited from [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)).
+An enumerated value that describes the probable cause of the error. This property is inherited from [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)).
 
 <dl> <dt>
 
@@ -724,7 +724,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that describes the probable cause of the error. This property is inherited from [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)).
+A string that describes the probable cause of the error. This property is inherited from [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)).
 
 </dd> <dt>
 
@@ -737,13 +737,13 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-A string that describes recommended actions to take to resolve the error. This property is inherited from [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)).
+A string that describes recommended actions to take to resolve the error. This property is inherited from [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_Error** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_Error** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -766,16 +766,11 @@ Access to the **Msvm\_Error** class might be restricted by UAC Filtering. For mo
 [**CIM\_Error**](cim-error.md)
 </dt> <dt>
 
-[**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85))
+[**CIM\_Error**](/previous-versions//cc150671(v=vs.85))
 </dt> <dt>
 
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -4,7 +4,7 @@ ms.assetid: 51206aca-4784-4d18-95ca-bc0a45691f78
 ms.tgt_platform: multiple
 title: Win32_Process class
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/23/2020
 topic_type:
 - APIRef
 - kbSyntax
@@ -66,6 +66,9 @@ api_location:
 The **Win32\_Process** [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents a process on an operating system.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
+
+> [!NOTE]
+> For a general discussion on Processes and Threads within Windows, please see the topic [Processes and Threads](/ProcThread/processes-and-threads.md).
 
 ## Syntax
 
@@ -1134,11 +1137,11 @@ For more information about using **uint64** values in scripts, see [Scripting in
 
 The **Win32\_Process** class is derived from [**CIM\_Process**](cim-process.md). The calling process that uses this class must have the **SE\_RESTORE\_NAME** privilege on the computer in which the registry resides. For more information, see [Executing Privileged Operations](https://msdn.microsoft.com/library/Aa390428(v=VS.85).aspx).
 
-**Overview**
+### Overview
 
 Processes underlie almost everything that happens on a computer. In fact, the root cause of most computer problems can be traced to processes; for example, too many processes might be running on a computer (and contending for a finite set of resources), or a single process might be using more than its share of resources. These factors make it important to keep a close watch on the processes running on a computer. Process monitoring, the main activity in process management, allows you to determine what a computer actually does, what applications the computer runs, and how those applications are affected by changes in the computing environment.
 
-Monitoring a Process
+### Monitoring a Process
 
 Monitoring processes on a regular basis helps you ensure that a computer runs at peak efficiency and that it carries out its appointed tasks as expected. For example, by monitoring processes you can be notified immediately of any application that has stopped responding, and then take steps to end that process. In addition, process monitoring enables you to identify problems before they occur. For example, by repeatedly checking the amount of memory used by a process, you can identify a memory leak. You can then stop the process before the errant application uses all of the available memory and brings the computer to a halt.
 
@@ -1242,12 +1245,12 @@ For Each objProcess in colProcesses
   Set colLogonSessions = objWMIService.ExecQuery("Associators of {Win32_Process='" & ProcessId & "'} " _
                                                & "Where Resultclass = Win32_LogonSession Assocclass = Win32_SessionProcess", "WQL", 48)
   If Err <> 0 Then
-    WScript.Echo "Error on associators query= & Err.number & " " & Err.Description
+    WScript.Echo "Error on associators query= " & Err.number & " " & Err.Description
     WScript.Quit
   End If
-  For Each LogonSession in colLogonSessions    
+  For Each LogonSession in colLogonSessions
     Wscript.Echo " Logon id is " & LogonSession.LogonId
-  Next 
+  Next
 Next
 ```
 

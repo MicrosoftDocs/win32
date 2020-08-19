@@ -72,7 +72,7 @@ This method can return one of these values.
 
 **ITConferenceBlob::Init** will return a failure if the blob has already been initialized.
 
-The application must use [**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx) to allocate memory for the *pName* and *pBlob* parameters. The application must use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory when the variables are no longer needed.
+The application must use [**SysAllocString**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) to allocate memory for the *pName* and *pBlob* parameters. The application must use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) to free the memory when the variables are no longer needed.
 
 ## Requirements
 
@@ -98,9 +98,4 @@ The application must use [**SysAllocString**](https://msdn.microsoft.com/library
 </dt> </dl>
 
  
-
- 
-
-
-
 

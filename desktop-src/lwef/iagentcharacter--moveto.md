@@ -53,7 +53,7 @@ Address of a variable that receives the [**MoveTo**](https://www.bing.com/search
 
 </dd> </dl>
 
-When using the HTTP protocol to access character and animation data, use the [**Prepare**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--prepare) method to ensure the availability of the **Moving** state animations before calling this method. Even if the animation is not loaded, the server still moves the frame.
+When using the HTTP protocol to access character and animation data, use the [**Prepare**](/windows/desktop/lwef/iagentcharacter--prepare) method to ensure the availability of the **Moving** state animations before calling this method. Even if the animation is not loaded, the server still moves the frame.
 
 ## See Also
 
@@ -63,7 +63,3 @@ When using the HTTP protocol to access character and animation data, use the [**
  
 
  
-
-
-
-

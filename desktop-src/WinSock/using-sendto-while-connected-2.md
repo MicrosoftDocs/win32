@@ -8,11 +8,8 @@ ms.date: 05/31/2018
 
 # Using Sendto While Connected
 
-[**WSPSendTo**](https://msdn.microsoft.com/library/ms742291(v=VS.85).aspx) will always deliver the data to the specified address, even though a designated peer for the sending socket has been established in [**WSPConnect**](https://msdn.microsoft.com/library/ms742272(v=VS.85).aspx).
+[**WSPSendTo**](/previous-versions/windows/desktop/legacy/ms742291(v=vs.85)) will always deliver the data to the specified address, even though a designated peer for the sending socket has been established in [**WSPConnect**](/previous-versions/windows/hardware/network/ff566275(v=vs.85)).
 
  
 
  
-
-
-

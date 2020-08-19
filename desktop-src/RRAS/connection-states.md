@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Connection States
 
-During the process of connecting to a remote server, the Remote Access Connection Manager and the RAS server on the remote computer perform several steps to establish the connection. Each of these steps is identified by a connection state. The [**RASCONNSTATE**](https://msdn.microsoft.com/library/Aa376727(v=VS.85).aspx) enumeration is a set of values that correspond to these connection states. The connection states can be divided into the following three groups:
+During the process of connecting to a remote server, the Remote Access Connection Manager and the RAS server on the remote computer perform several steps to establish the connection. Each of these steps is identified by a connection state. The [**RASCONNSTATE**](/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)) enumeration is a set of values that correspond to these connection states. The connection states can be divided into the following three groups:
 
 <dl> <dt>
 
@@ -38,7 +38,3 @@ There are several mechanisms that a RAS client can use to determine the current 
  
 
  
-
-
-
-

@@ -10,12 +10,12 @@ ms.date: 05/31/2018
 
 The following list identifies the control codes that work with the NTFS file system update sequence number (USN) change journal.
 
--   [**FSCTL\_CREATE\_USN\_JOURNAL**](https://msdn.microsoft.com/library/Aa364558(v=VS.85).aspx)
--   [**FSCTL\_DELETE\_USN\_JOURNAL**](https://msdn.microsoft.com/library/Aa364561(v=VS.85).aspx)
--   [**FSCTL\_ENUM\_USN\_DATA**](https://msdn.microsoft.com/library/Aa364563(v=VS.85).aspx)
--   [**FSCTL\_MARK\_HANDLE**](https://msdn.microsoft.com/library/Aa364576(v=VS.85).aspx)
--   [**FSCTL\_QUERY\_USN\_JOURNAL**](https://msdn.microsoft.com/library/Aa364583(v=VS.85).aspx)
--   [**FSCTL\_READ\_USN\_JOURNAL**](https://msdn.microsoft.com/library/Aa364586(v=VS.85).aspx)
+-   [**FSCTL\_CREATE\_USN\_JOURNAL**](/windows/win32/api/winioctl/ni-winioctl-fsctl_create_usn_journal)
+-   [**FSCTL\_DELETE\_USN\_JOURNAL**](/windows/win32/api/winioctl/ni-winioctl-fsctl_delete_usn_journal)
+-   [**FSCTL\_ENUM\_USN\_DATA**](/windows/win32/api/winioctl/ni-winioctl-fsctl_enum_usn_data)
+-   [**FSCTL\_MARK\_HANDLE**](/windows/win32/api/winioctl/ni-winioctl-fsctl_mark_handle)
+-   [**FSCTL\_QUERY\_USN\_JOURNAL**](/windows/win32/api/winioctl/ni-winioctl-fsctl_query_usn_journal)
+-   [**FSCTL\_READ\_USN\_JOURNAL**](/windows/win32/api/winioctl/ni-winioctl-fsctl_read_usn_journal)
 
 The following list identifies the structures information that relates to the NTFS file system USN change journal.
 
@@ -30,6 +30,3 @@ The following list identifies the structures information that relates to the NTF
  
 
  
-
-
-

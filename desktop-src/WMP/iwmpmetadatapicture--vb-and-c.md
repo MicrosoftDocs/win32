@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # IWMPMetadataPicture (VB and C#) interface
 
-Provides properties for getting information about the image contained in a digital media file that is represented by a [**WM/Picture**](https://docs.microsoft.com/windows/desktop/wmformat/wmpicture)metadata attribute. This attribute corresponds to album art images contained in a digital media file, not to album art downloaded over the Internet.
+Provides properties for getting information about the image contained in a digital media file that is represented by a [**WM/Picture**](/windows/desktop/wmformat/wmpicture)metadata attribute. This attribute corresponds to album art images contained in a digital media file, not to album art downloaded over the Internet.
 
 The **IWMPMetadataPicture** interface exposes the following properties.
 
@@ -36,7 +36,7 @@ The **IWMPMetadataPicture** interface exposes the following properties.
 
  
 
-Get an **IWMPMetadataPicture** interface by passing in the attribute name [**WM/Picture**](https://docs.microsoft.com/windows/desktop/wmformat/wmpicture) to the following method and casting the object that is returned.
+Get an **IWMPMetadataPicture** interface by passing in the attribute name [**WM/Picture**](/windows/desktop/wmformat/wmpicture) to the following method and casting the object that is returned.
 
 
 
@@ -70,10 +70,4 @@ The **IWMPMetadataPicture (VB and C#)** interface does not define any members.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

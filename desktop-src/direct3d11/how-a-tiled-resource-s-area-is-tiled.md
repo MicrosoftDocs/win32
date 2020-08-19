@@ -22,8 +22,8 @@ The layout of data within a tile may be depend on resource properties, the subre
 
 | Topic                                                                                                             | Description                                                                                                                                                                                                                                                                            |
 |-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Texture2D and Texture2DArray subresource tiling](texture2d-and-texture2darray-subresource-tiling.md)<br/> | These tables show how [**Texture2D**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-texture2d) and [**Texture2DArray**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-texture2darray) subresources are tiled. <br/>                                                                                                          |
-| [Texture3D subresource tiling](texture3d-subresource-tiling.md)<br/>                                       | This table shows how [**Texture3D**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-texture3d) subresources are tiled. <br/>                                                                                                                                                                            |
+| [Texture2D and Texture2DArray subresource tiling](texture2d-and-texture2darray-subresource-tiling.md)<br/> | These tables show how [**Texture2D**](/windows/desktop/direct3dhlsl/sm5-object-texture2d) and [**Texture2DArray**](/windows/desktop/direct3dhlsl/sm5-object-texture2darray) subresources are tiled. <br/>                                                                                                          |
+| [Texture3D subresource tiling](texture3d-subresource-tiling.md)<br/>                                       | This table shows how [**Texture3D**](/windows/desktop/direct3dhlsl/sm5-object-texture3d) subresources are tiled. <br/>                                                                                                                                                                            |
 | [Buffer tiling](buffer-tiling.md)<br/>                                                                     | A [Buffer](overviews-direct3d-11-resources-buffers.md) resource is divided into 64KB tiles, with some empty space in the last tile if the size is not a multiple of 64KB.<br/>                                                                                                  |
 | [Mipmap packing](mipmap-packing.md)<br/>                                                                   | Depending on the [tier](tiled-resources-features-tiers.md) of tiled resources support, mipmaps with certain dimensions don't follow the standard tile shapes and are considered to all be packed together with one another in a manner that is opaque to the application. <br/> |
 
@@ -39,10 +39,4 @@ The layout of data within a tile may be depend on resource properties, the subre
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

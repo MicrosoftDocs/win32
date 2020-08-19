@@ -26,7 +26,7 @@ Callback to return source file info from a callstack.
 
 ## Members
 
-The **ISourceFileInfoCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ISourceFileInfoCallback** also has these types of members:
+The **ISourceFileInfoCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ISourceFileInfoCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **ISourceFileInfoCallback** interface has these methods.
  
 
  
-
-
-

@@ -116,7 +116,7 @@ If this member is set and the share is trusted to start applications, NetDDE wil
 **nCmdShow**
 </dt> <dd>
 
-When NetDDE starts an application to initiate a DDE conversation, this value is sent to the application through the *nCmdShow* parameter of the [**WinMain**](https://msdn.microsoft.com/library/ms633559(v=VS.85).aspx) function. It defines the preferred mode for the application window to be shown in. This parameter is significant only if **fStartAppFlag** is active. The logged on user in whose context the application is started can also override this option when promoting the share to trusted status. The default for this member is SW\_SHOWMAXIMIZED.
+When NetDDE starts an application to initiate a DDE conversation, this value is sent to the application through the *nCmdShow* parameter of the [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) function. It defines the preferred mode for the application window to be shown in. This parameter is significant only if **fStartAppFlag** is active. The logged on user in whose context the application is started can also override this option when promoting the share to trusted status. The default for this member is SW\_SHOWMAXIMIZED.
 
 </dd> <dt>
 
@@ -169,13 +169,8 @@ A pointer to a buffer containing null-terminated strings that specify the items 
 [**NDdeShareSetInfo**](nddesharesetinfo.md)
 </dt> <dt>
 
-[**WinMain**](https://msdn.microsoft.com/library/ms633559(v=VS.85).aspx)
+[**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain)
 </dt> </dl>
 
  
-
- 
-
-
-
 

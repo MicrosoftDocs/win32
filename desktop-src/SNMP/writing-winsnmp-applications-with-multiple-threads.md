@@ -12,12 +12,8 @@ The Microsoft WinSNMP implementation ensures that the WinSNMP operations of one 
 
 A WinSNMP application with multiple threads must ensure that WinSNMP operations that set application-level parameters are thread-safe. The functions that set application-level parameters are [**SnmpSetTranslateMode**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsettranslatemode) and [**SnmpSetRetransmitMode**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsetretransmitmode). These functions modify settings for the entity and context translation mode and the retransmission mode.
 
-For more information, see [Multiple Threads](https://docs.microsoft.com/windows/desktop/ProcThread/multiple-threads) and [Thread Security and Access Rights](https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights).
+For more information, see [Multiple Threads](/windows/desktop/ProcThread/multiple-threads) and [Thread Security and Access Rights](/windows/desktop/ProcThread/thread-security-and-access-rights).
 
  
 
  
-
-
-
-

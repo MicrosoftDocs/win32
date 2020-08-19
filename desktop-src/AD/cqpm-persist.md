@@ -35,7 +35,7 @@ Contains nonzero to read the query data or zero to write the query data.
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**IPersistQuery**](https://msdn.microsoft.com/library/ms677246(v=VS.85).aspx) interface that the query data should be read from or written to.
+Pointer to an [**IPersistQuery**](/windows/win32/api/cmnquery/nn-cmnquery-ipersistquery) interface that the query data should be read from or written to.
 
 </dd> </dl>
 
@@ -62,14 +62,8 @@ Returns **S\_OK** if successful or a standard **HRESULT** error code otherwise.
 [**CQPageProc**](/windows/desktop/api/Cmnquery/nc-cmnquery-lpcqpageproc)
 </dt> <dt>
 
-[**IPersistQuery**](https://msdn.microsoft.com/library/ms677246(v=VS.85).aspx)
+[**IPersistQuery**](/windows/win32/api/cmnquery/nn-cmnquery-ipersistquery)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -170,6 +170,18 @@ The following is the complete listing of the manifest file schema.
   <ElementType name="dpiAwareness" />
   <ElementType name="longPathAware" />
 
+  <!-- WindowsSettings elements from XML namespace http://schemas.microsoft.com/SMI/2017/WindowsSettings
+  -->
+  <ElementType name="gdiScaling" />
+
+  <!-- WindowsSettings elements from XML namespace http://schemas.microsoft.com/SMI/2019/WindowsSettings
+  -->
+  <ElementType name="activeCodePage" />
+
+  <!-- WindowsSettings elements from XML namespace http://schemas.microsoft.com/SMI/2020/WindowsSettings
+  -->
+  <ElementType name="heapType" />
+
   </Schema>
 ```
 

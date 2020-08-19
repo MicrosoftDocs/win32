@@ -24,8 +24,8 @@ Changes or animates the value of the ScaleX property of a 2D scale transform. Th
 
 | Method                                                                                                      | Description                                           |
 |:------------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
-| [**SetScaleX(float)**](https://msdn.microsoft.com/library/Hh449044(v=VS.85).aspx)                                     | Changes the value of the ScaleX property.<br/>  |
-| [**SetScaleX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449046(v=VS.85).aspx) | Animates the value of the ScaleX property.<br/> |
+| [**SetScaleX(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setscalex(float))                                     | Changes the value of the ScaleX property.<br/>  |
+| [**SetScaleX(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setscalex(idcompositionanimation)) | Animates the value of the ScaleX property.<br/> |
 
 
 
@@ -47,17 +47,12 @@ Changes or animates the value of the ScaleX property of a 2D scale transform. Th
 
 <dl> <dt>
 
-[**IDCompositionScaleTransform**](https://msdn.microsoft.com/library/Hh448990(v=VS.85).aspx)
+[**IDCompositionScaleTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionscaletransform)
 </dt> <dt>
 
-[**IDCompositionScaleTransform::SetScaleY**](https://msdn.microsoft.com/library/Hh449055(v=VS.85).aspx)
+[**IDCompositionScaleTransform::SetScaleY**](/previous-versions/windows/desktop/legacy/hh449055(v=vs.85))
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

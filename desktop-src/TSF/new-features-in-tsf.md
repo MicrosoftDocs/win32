@@ -39,7 +39,7 @@ This new feature is available only for WindowsXP Service Pack1 or later. It is t
 
 ## Rich Edit Support
 
-[Microsoft® Rich Edit](https://msdn.microsoft.com/library/Bb787605(v=VS.85).aspx) Version 4.1, used by applications to view and edit text with special character and paragraph formatting, now exposes TSF functionality. By default this support is turned off. To enable TSF in Rich Edit, a hosting application sends a special window message to the Rich Edit control.
+[Microsoft® Rich Edit](../controls/rich-edit-controls.md) Version 4.1, used by applications to view and edit text with special character and paragraph formatting, now exposes TSF functionality. By default this support is turned off. To enable TSF in Rich Edit, a hosting application sends a special window message to the Rich Edit control.
 
 ## Security Improvements
 
@@ -48,7 +48,3 @@ The security and robustness of TSF have been substantially improved, to reduce t
  
 
  
-
-
-
-

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-An [Int16](https://docs.microsoft.com/dotnet/api/system.int16?redirectedfrom=MSDN) column value.
+An [Int16](/dotnet/api/system.int16) column value.
 
 The [Int16ColumnValue](dn351017\(v=exchg.10\).md) type exposes the following members.
 
@@ -165,4 +165,3 @@ Top
 [Int16ColumnValue class](dn351017\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

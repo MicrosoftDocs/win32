@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 This topic includes a code example used to set and remove SACL and DACL protection.
 
-The following C and C++ code example sets and removes the **SE\_DACL\_PROTECTED** and **SE\_SACL\_PROTECTED** elements in the [**IADsSecurityDescriptor.Control**](https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) property of an object security descriptor.
+The following C and C++ code example sets and removes the **SE\_DACL\_PROTECTED** and **SE\_SACL\_PROTECTED** elements in the [**IADsSecurityDescriptor.Control**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods) property of an object security descriptor.
 
 
 ```C++
@@ -129,7 +129,3 @@ HRESULT SetSDInheritProtect(IADs *pObject, long lControl)
  
 
  
-
-
-
-

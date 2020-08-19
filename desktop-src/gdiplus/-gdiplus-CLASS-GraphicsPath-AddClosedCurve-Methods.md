@@ -8,7 +8,7 @@ ms.topic: reference
 
 # GraphicsPath.AddClosedCurve methods
 
-This topic lists the AddClosedCurve methods of the [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx).
+This topic lists the AddClosedCurve methods of the [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath).
 
 ### Overload list
 
@@ -16,10 +16,10 @@ This topic lists the AddClosedCurve methods of the [**GraphicsPath**](https://ms
 
 | Method                                                                                                                        | Description                                                                                                                                                                                |
 |:------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AddClosedCurve(Point\*,INT)**](https://msdn.microsoft.com/library/ms535615(v=VS.85).aspx)                     | The [**GraphicsPath::AddClosedCurve**](https://msdn.microsoft.com/library/ms535615(v=VS.85).aspx) method adds a closed cardinal spline to this path.<br/>               |
-| [**AddClosedCurve(PointF\*,INT)**](https://msdn.microsoft.com/library/ms535618(v=VS.85).aspx)                   | The [**GraphicsPath::AddClosedCurve**](https://msdn.microsoft.com/library/ms535618(v=VS.85).aspx) method adds a closed cardinal spline to this path.<br/>              |
-| [**AddClosedCurve(Point\*,INT,REAL)**](https://msdn.microsoft.com/library/ms535616(v=VS.85).aspx)   | The [**GraphicsPath::AddClosedCurve**](https://msdn.microsoft.com/library/ms535616(v=VS.85).aspx) method adds a closed cardinal spline to this path.<br/>  |
-| [**AddClosedCurve(PointF\*,INT,REAL)**](https://msdn.microsoft.com/library/ms535617(v=VS.85).aspx) | The [**GraphicsPath::AddClosedCurve**](https://msdn.microsoft.com/library/ms535617(v=VS.85).aspx) method adds a closed cardinal spline to this path.<br/> |
+| [**AddClosedCurve(Point\*,INT)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addclosedcurve(inconstpoint_inint))                     | The [**GraphicsPath::AddClosedCurve**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addclosedcurve(inconstpoint_inint)) method adds a closed cardinal spline to this path.<br/>               |
+| [**AddClosedCurve(PointF\*,INT)**](/previous-versions//ms535618(v=vs.85))                   | The [**GraphicsPath::AddClosedCurve**](/previous-versions//ms535618(v=vs.85)) method adds a closed cardinal spline to this path.<br/>              |
+| [**AddClosedCurve(Point\*,INT,REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addclosedcurve(inconstpoint_inint_inreal))   | The [**GraphicsPath::AddClosedCurve**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addclosedcurve(inconstpoint_inint_inreal)) method adds a closed cardinal spline to this path.<br/>  |
+| [**AddClosedCurve(PointF\*,INT,REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addclosedcurve(inconstpointf_inint_inreal)) | The [**GraphicsPath::AddClosedCurve**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addclosedcurve(inconstpointf_inint_inreal)) method adds a closed cardinal spline to this path.<br/> |
 
 
 
@@ -36,7 +36,3 @@ This topic lists the AddClosedCurve methods of the [**GraphicsPath**](https://ms
  
 
  
-
-
-
-

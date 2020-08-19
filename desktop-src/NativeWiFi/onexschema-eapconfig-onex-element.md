@@ -18,7 +18,7 @@ api_location:
 
 The **EAPConfig** (OneX) element specifies the EAPHost configuration.
 
-Unlike most elements in the 802.1X profile schema, this element is in the `https://www.microsoft.com/provisioning/EapHostConfig` namespace. Its child elements are defined in the [eaphostconfig schema](/windows/win32/eaphost/eaphostconfigschema-schema). The [**EapHostConfig**](/windows/win32/eaphost/eaphostconfigschema-eaphostconfig-element) element is a child of the **EAPConfig** element.
+Unlike most elements in the 802.1X profile schema, this element is in the `https://www.microsoft.com/provisioning/EapHostConfig` namespace. Its child elements are defined in the [eaphostconfig schema](../eaphost/eaphostconfigschema-schema.md). The [**EapHostConfig**](../eaphost/eaphostconfigschema-eaphostconfig-element.md) element is a child of the **EAPConfig** element.
 
 ``` syntax
 <xs:element name="EAPConfig">
@@ -68,7 +68,3 @@ The **EAPConfig** element is defined by the [**OneX**](onexschema-onex-element.m
  
 
  
-
-
-
-

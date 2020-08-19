@@ -13,14 +13,11 @@ The [**IWbemBackupRestoreEx**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemback
 
 ## In this section
 
--   [**Backup method**](https://msdn.microsoft.com/library/Aa391419(v=VS.85).aspx)
--   [**Restore method**](https://msdn.microsoft.com/library/Aa391421(v=VS.85).aspx)
+-   [**Backup method**](/previous-versions/windows/desktop/legacy/aa391419(v=vs.85))
+-   [**Restore method**](/previous-versions/windows/desktop/legacy/aa391421(v=vs.85))
 -   [**Pause method**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestoreex-pause)
 -   [**Resume method**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestoreex-resume)
 
  
 
  
-
-
-

@@ -19,14 +19,10 @@ and in the second window, type
 To experiment with different protocol sequences, endpoints, and other options, build the sample hello application from the source files in the RPC\\Hello directory in the Platform Software Development Kit (SDK).
 
 > [!Note]  
-> **RPC Interface Restriction** may cause this application to fail with an **Access denied** error on Windows XP with Service Pack 2 (SP2) and later versions of Windows. For more information, see [RPC Interface Restriction](https://technet.microsoft.com/library/bb457156.aspx#EGAA).
+> **RPC Interface Restriction** may cause this application to fail with an **Access denied** error on Windows XP with Service Pack 2 (SP2) and later versions of Windows. For more information, see [RPC Interface Restriction](/previous-versions/windows/it-pro/windows-xp/bb457156(v=technet.10)#EGAA).
 
  
 
  
 
  
-
-
-
-

@@ -26,7 +26,7 @@ Callback to return object table data.
 
 ## Members
 
-The **IObjectTableCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IObjectTableCallback** also has these types of members:
+The **IObjectTableCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IObjectTableCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IObjectTableCallback** interface has these methods.
  
 
  
-
-
-

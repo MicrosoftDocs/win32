@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Retrieving Error Messages
 
-When a method call produces an error, many functions return an error code. For most Certificate Services interfaces and API elements that return an error code, the error message text can be retrieved by calling [**FormatMessage**](https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx) with a **NULL** module handle. If **FormatMessage** does not succeed, the error code most likely resulted from a backup API element or database related error; calling **FormatMessage** with a module handle corresponding to the Ntdsbmsg.dll library should retrieve the error message text. The following example shows how to retrieve error message text in a Certificate Services application.
+When a method call produces an error, many functions return an error code. For most Certificate Services interfaces and API elements that return an error code, the error message text can be retrieved by calling [**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage) with a **NULL** module handle. If **FormatMessage** does not succeed, the error code most likely resulted from a backup API element or database related error; calling **FormatMessage** with a module handle corresponding to the Ntdsbmsg.dll library should retrieve the error message text. The following example shows how to retrieve error message text in a Certificate Services application.
 
 
 ```C++
@@ -77,6 +77,3 @@ void PrintCSBackupAPIErrorMessage(DWORD dwErr)
  
 
  
-
-
-

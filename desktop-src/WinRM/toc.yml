@@ -166,7 +166,7 @@
         - name: "WSMAN_SHELL_ASYNC"
           href: /windows/win32/api/Wsman/ns-wsman-wsman_shell_async
         - name: "WSMAN_SHELL_COMPLETION_FUNCTION"
-          href: https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_shell_completion_function
+          href: /windows/desktop/api/wsman/nc-wsman-wsman_shell_completion_function
         - name: "WSMAN_SHELL_DISCONNECT_INFO"
           href: /windows/win32/api/Wsman/ns-wsman-wsman_shell_disconnect_info
         - name: "WSMAN_SHELL_STARTUP_INFO"
@@ -182,13 +182,13 @@
         href: authorization-plug-in-entry-points.md
         items: 
         - name: "WSMAN_PLUGIN_AUTHORIZE_OPERATION"
-          href: https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_operation
+          href: /windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_operation
         - name: "WSMAN_PLUGIN_AUTHORIZE_QUERY_QUOTA"
-          href: https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_query_quota
+          href: /windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_query_quota
         - name: "WSMAN_PLUGIN_AUTHORIZE_RELEASE_CONTEXT"
-          href: https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_release_context
+          href: /windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_release_context
         - name: "WSMAN_PLUGIN_AUTHORIZE_USER"
-          href: https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_user
+          href: /windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_user
       - name: "Authorization Plug-in Methods"
         href: authorization-plug-in-methods.md
         items: 
@@ -218,7 +218,7 @@
         - name: "WSMAN_PLUGIN_SHUTDOWN"
           href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_shutdown
         - name: "WSMAN_PLUGIN_SIGNAL"
-          href: https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_signal
+          href: /windows/desktop/api/wsman/nc-wsman-wsman_plugin_signal
         - name: "WSMAN_PLUGIN_STARTUP"
           href: /windows/desktop/api/Wsman/nc-wsman-wsman_plugin_startup
       - name: "Operations Plug-in Methods"

@@ -130,7 +130,7 @@ Calling [**AddTransition**](/windows/desktop/api/UIAnimation/nf-uianimation-iuia
 
 ### Using Keyframes
 
-To add a transition at an offset from the start of the storyboard, you must first add a keyframe. Keyframes represent instants in time and by themselves have no effect on the behavior of the storyboard. Every storyboard has an implicit keyframe representing the start of the storyboard, [**UI\_ANIMATION\_KEYFRAME\_STORYBOARD\_START**](https://msdn.microsoft.com/library/Dd756780(v=VS.85).aspx); you can add new keyframes at offsets from the start by calling the [**IUIAnimationStoryboard::AddKeyframeAtOffset**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-addkeyframeatoffset) method with **UI\_ANIMATION\_KEYFRAME\_STORYBOARD\_START**.
+To add a transition at an offset from the start of the storyboard, you must first add a keyframe. Keyframes represent instants in time and by themselves have no effect on the behavior of the storyboard. Every storyboard has an implicit keyframe representing the start of the storyboard, [**UI\_ANIMATION\_KEYFRAME\_STORYBOARD\_START**](/previous-versions/windows/desktop/legacy/dd756780(v=vs.85)); you can add new keyframes at offsets from the start by calling the [**IUIAnimationStoryboard::AddKeyframeAtOffset**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-addkeyframeatoffset) method with **UI\_ANIMATION\_KEYFRAME\_STORYBOARD\_START**.
 
 The offset at which you add a keyframe is always relative to another keyframe. The following diagram shows the result of adding keyframe1 and transition T4, which is applied to variable Z, aligned with keyframe1, and created with a fixed duration. Of course, because the durations of the other transitions are not yet known, T4 might not be the last transition to finish.
 
@@ -243,10 +243,4 @@ Once again, the outline of G is now known and is different from the result in th
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

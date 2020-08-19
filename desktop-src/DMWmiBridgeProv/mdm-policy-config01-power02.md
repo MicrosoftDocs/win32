@@ -59,7 +59,7 @@ The **MDM\_Policy\_Config01\_Power02** class has these properties.
 
 <dl> <dt>
 
-[AllowStandbyWhenSleepingPluggedIn](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-allowstandbywhensleepingpluggedin)
+[AllowStandbyWhenSleepingPluggedIn](/windows/client-management/mdm/policy-csp-power#power-allowstandbywhensleepingpluggedin)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -70,7 +70,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisplayOffTimeoutOnBattery](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-displayofftimeoutonbattery)
+[DisplayOffTimeoutOnBattery](/windows/client-management/mdm/policy-csp-power#power-displayofftimeoutonbattery)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -81,7 +81,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisplayOffTimeoutPluggedIn](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-displayofftimeoutpluggedin)
+[DisplayOffTimeoutPluggedIn](/windows/client-management/mdm/policy-csp-power#power-displayofftimeoutpluggedin)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -92,7 +92,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HibernateTimeoutOnBattery](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-hibernatetimeoutonbattery)
+[HibernateTimeoutOnBattery](/windows/client-management/mdm/policy-csp-power#power-hibernatetimeoutonbattery)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -103,7 +103,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HibernateTimeoutPluggedIn](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-hibernatetimeoutpluggedin)
+[HibernateTimeoutPluggedIn](/windows/client-management/mdm/policy-csp-power#power-hibernatetimeoutpluggedin)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -123,7 +123,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -137,12 +137,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[RequirePasswordWhenComputerWakesOnBattery](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-requirepasswordwhencomputerwakesonbattery)
+[RequirePasswordWhenComputerWakesOnBattery](/windows/client-management/mdm/policy-csp-power#power-requirepasswordwhencomputerwakesonbattery)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -153,7 +153,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RequirePasswordWhenComputerWakesPluggedIn](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-requirepasswordwhencomputerwakespluggedin)
+[RequirePasswordWhenComputerWakesPluggedIn](/windows/client-management/mdm/policy-csp-power#power-requirepasswordwhencomputerwakespluggedin)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -164,7 +164,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[StandbyTimeoutOnBattery](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-standbytimeoutonbattery)
+[StandbyTimeoutOnBattery](/windows/client-management/mdm/policy-csp-power#power-standbytimeoutonbattery)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -175,7 +175,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[StandbyTimeoutPluggedIn](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-standbytimeoutpluggedin)
+[StandbyTimeoutPluggedIn](/windows/client-management/mdm/policy-csp-power#power-standbytimeoutpluggedin)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -201,10 +201,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

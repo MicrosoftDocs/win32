@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # WM\_CREATE message
 
-Sent when an application requests that a window be created by calling the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) or [**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx) function. (The message is sent before the function returns.) The window procedure of the new window receives this message after the window is created, but before the window becomes visible.
+Sent when an application requests that a window be created by calling the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) or [**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa) function. (The message is sent before the function returns.) The window procedure of the new window receives this message after the window is created, but before the window becomes visible.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -33,7 +33,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**CREATESTRUCT**](https://msdn.microsoft.com/library/ms632603(v=VS.85).aspx) structure that contains information about the window being created.
+A pointer to a [**CREATESTRUCT**](/windows/win32/api/winuser/ns-winuser-createstructa) structure that contains information about the window being created.
 
 </dd> </dl>
 
@@ -41,7 +41,7 @@ A pointer to a [**CREATESTRUCT**](https://msdn.microsoft.com/library/ms632603(v=
 
 Type: **LRESULT**
 
-If an application processes this message, it should return zero to continue creation of the window. If the application returns –1, the window is destroyed and the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) or [**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx) function returns a **NULL** handle.
+If an application processes this message, it should return zero to continue creation of the window. If the application returns –1, the window is destroyed and the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) or [**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa) function returns a **NULL** handle.
 
 ## Requirements
 
@@ -62,13 +62,13 @@ If an application processes this message, it should return zero to continue crea
 **Reference**
 </dt> <dt>
 
-[**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx)
+[**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa)
 </dt> <dt>
 
-[**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx)
+[**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa)
 </dt> <dt>
 
-[**CREATESTRUCT**](https://msdn.microsoft.com/library/ms632603(v=VS.85).aspx)
+[**CREATESTRUCT**](/windows/win32/api/winuser/ns-winuser-createstructa)
 </dt> <dt>
 
 [**WM\_NCCREATE**](wm-nccreate.md)
@@ -83,7 +83,3 @@ If an application processes this message, it should return zero to continue crea
  
 
  
-
-
-
-

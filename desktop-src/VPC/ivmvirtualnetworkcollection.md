@@ -19,13 +19,13 @@ ms.date: 05/31/2018
 
 # IVMVirtualNetworkCollection interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Defines a collection of [**IVMVirtualNetwork**](ivmvirtualnetwork.md) objects. To obtain an **IVMVirtualNetworkCollection** object, use the [**IVMVirtualPC::VirtualNetworks**](ivmvirtualpc-virtualnetworks.md) property.
 
 ## Members
 
-The **IVMVirtualNetworkCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMVirtualNetworkCollection** also has these types of members:
+The **IVMVirtualNetworkCollection** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IVMVirtualNetworkCollection** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -61,10 +61,4 @@ The **IVMVirtualNetworkCollection** interface has these properties.
 
 
  
-
- 
-
-
-
-
 

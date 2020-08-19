@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Obtaining and Setting the Video Format
 
-The [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure is of variable length to accommodate standard and compressed data formats. Because this structure is of variable length, applications must always query the size of the structure and allocate memory before retrieving the current video format. The following example uses the [**capGetVideoFormatSize**](/windows/desktop/api/Vfw/nf-vfw-capgetvideoformatsize) macro to retrieve the buffer size and then calls the [**capGetVideoFormat**](/windows/desktop/api/Vfw/nf-vfw-capgetvideoformat) macro to retrieve the current video format.
+The [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure is of variable length to accommodate standard and compressed data formats. Because this structure is of variable length, applications must always query the size of the structure and allocate memory before retrieving the current video format. The following example uses the [**capGetVideoFormatSize**](/windows/desktop/api/Vfw/nf-vfw-capgetvideoformatsize) macro to retrieve the buffer size and then calls the [**capGetVideoFormat**](/windows/desktop/api/Vfw/nf-vfw-capgetvideoformat) macro to retrieve the current video format.
 
 
 ```C++
@@ -28,7 +28,7 @@ capGetVideoFormat(hWndC, lpbi, dwSize);
 
 
 
-Applications can use the [**capSetVideoFormat**](/windows/desktop/api/Vfw/nf-vfw-capsetvideoformat) macro (or the [**WM\_CAP\_SET\_VIDEOFORMAT**](wm-cap-set-videoformat.md) message) to send a [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) header structure to the capture window. Because video formats are device specific, your application should check the return value to determine if the format was accepted.
+Applications can use the [**capSetVideoFormat**](/windows/desktop/api/Vfw/nf-vfw-capsetvideoformat) macro (or the [**WM\_CAP\_SET\_VIDEOFORMAT**](wm-cap-set-videoformat.md) message) to send a [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) header structure to the capture window. Because video formats are device specific, your application should check the return value to determine if the format was accepted.
 
 ## Related topics
 
@@ -40,7 +40,3 @@ Applications can use the [**capSetVideoFormat**](/windows/desktop/api/Vfw/nf-vfw
  
 
  
-
-
-
-

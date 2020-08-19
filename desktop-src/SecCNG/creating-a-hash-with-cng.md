@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating a Hash with CNG
 
-A [*hash*](https://docs.microsoft.com/windows/desktop/SecGloss/h-gly) is a one way operation that is performed on a block of data to create a unique hash value that represents the contents of the data. No matter when the hash is performed, the same [*hashing algorithm*](https://docs.microsoft.com/windows/desktop/SecGloss/h-gly) performed on the same data will always produce the same hash value. If any of the data changes, the hash value will change appropriately.
+A [*hash*](/windows/desktop/SecGloss/h-gly) is a one way operation that is performed on a block of data to create a unique hash value that represents the contents of the data. No matter when the hash is performed, the same [*hashing algorithm*](/windows/desktop/SecGloss/h-gly) performed on the same data will always produce the same hash value. If any of the data changes, the hash value will change appropriately.
 
 Hashes are not useful for encrypting data because they are not intended to be used to reproduce the original data from the hash value. Hashes are most useful to verify the integrity of the data when used with an asymmetric signing algorithm. For example, if you hashed a text message, signed the hash, and included the signed hash value with the original message, the recipient could verify the signed hash, create the hash value for the received message, and then compare this hash value with the signed hash value included with the original message. If the two hash values are identical, the recipient can be reasonably sure that the original message has not been modified.
 
@@ -252,6 +252,3 @@ In some circumstances, it may be useful to hash some amount of common data and t
  
 
  
-
-
-

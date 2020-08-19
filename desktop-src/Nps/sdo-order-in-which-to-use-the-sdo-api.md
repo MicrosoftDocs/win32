@@ -11,21 +11,17 @@ ms.date: 05/31/2018
 
 The following sections describe the order in which to call the various SDO interfaces.
 
--   [Obtaining a Machine SDO](https://docs.microsoft.com/windows/desktop/Nps/sdo-obtaining-a-machine-sdo)
--   [Attaching to the SDO Computer](https://docs.microsoft.com/windows/desktop/Nps/sdo-attaching-to-the-sdo-computer)
--   [Obtaining Service and User SDOs](https://docs.microsoft.com/windows/desktop/Nps/sdo-obtaining-service-and-user-sdos)
+-   [Obtaining a Machine SDO](/windows/desktop/Nps/sdo-obtaining-a-machine-sdo)
+-   [Attaching to the SDO Computer](/windows/desktop/Nps/sdo-attaching-to-the-sdo-computer)
+-   [Obtaining Service and User SDOs](/windows/desktop/Nps/sdo-obtaining-service-and-user-sdos)
 
 ## Related topics
 
 <dl> <dt>
 
-[Elements of the SDO API](https://docs.microsoft.com/windows/desktop/Nps/sdo-elements-of-the-sdo-api)
+[Elements of the SDO API](/windows/desktop/Nps/sdo-elements-of-the-sdo-api)
 </dt> </dl>
 
  
 
  
-
-
-
-

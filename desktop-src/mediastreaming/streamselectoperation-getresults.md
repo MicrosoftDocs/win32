@@ -19,7 +19,7 @@ api_location:
 
 # StreamSelectOperation.GetResults method
 
-Returns the results of the asynchronous operation started by [**SelectBestStreamAsync**](https://msdn.microsoft.com/library/Hh829001(v=VS.85).aspx).
+Returns the results of the asynchronous operation started by [**SelectBestStreamAsync**](/previous-versions/windows/desktop/legacy/hh829001(v=vs.85)).
 
 ## Syntax
 
@@ -61,10 +61,4 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

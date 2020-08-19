@@ -50,7 +50,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puSetExclusiveModeData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_SETEXCLUSIVEMODEDATA**](https://msdn.microsoft.com/library/Ff551702(v=VS.85).aspx) structure that contains the notification information.
+Pointer to a [**DD\_SETEXCLUSIVEMODEDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_setexclusivemodedata) structure that contains the notification information.
 
 </dd> </dl>
 
@@ -91,7 +91,3 @@ Pointer to a [**DD\_SETEXCLUSIVEMODEDATA**](https://msdn.microsoft.com/library/F
  
 
  
-
-
-
-

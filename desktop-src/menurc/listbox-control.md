@@ -52,13 +52,9 @@ LISTBOX 101, 10, 10, 100, 100
 [**COMBOBOX**](combobox-control.md)
 </dt> <dt>
 
-[List Boxes](https://msdn.microsoft.com/library/Bb775144(v=VS.85).aspx)
+[List Boxes](../controls/about-list-boxes.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

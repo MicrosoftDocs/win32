@@ -53,7 +53,7 @@ This feature is not enabled by default. Enabling the feature requires administra
 </tr>
 <tr class="even">
 <td><strong>CustomDumpFlags</strong></td>
-<td>The custom dump options to be used. This value is used only when <strong>DumpType</strong> is set to 0.<br/> The options are a bitwise combination of the <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type"><strong>MINIDUMP_TYPE</strong></a> enumeration values.<br/></td>
+<td>The custom dump options to be used. This value is used only when <strong>DumpType</strong> is set to 0.<br/> The options are a bitwise combination of the <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type"><strong>MINIDUMP_TYPE</strong></a> enumeration values.<br/></td>
 <td>REG_DWORD</td>
 <td><code>MiniDumpWithDataSegs | MiniDumpWithUnloadedModules | MiniDumpWithProcessThreadData.</code></td>
 </tr>
@@ -61,7 +61,7 @@ This feature is not enabled by default. Enabling the feature requires administra
 </table>
 
 >[!NOTE]
-> A crash dump is not collected when you set [automatic debugging for **application** crashes](https://docs.microsoft.com/windows/win32/debug/configuring-automatic-debugging#configuring-automatic-debugging-for-application-crashes). 
+> A crash dump is not collected when you set [automatic debugging for **application** crashes](../debug/configuring-automatic-debugging.md#configuring-automatic-debugging-for-application-crashes). 
 
 These registry values represent the global settings. You can also provide per-application settings that override the global settings. To create a per-application setting, create a new key for your application under **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\Windows Error Reporting\\LocalDumps** (for example, **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\Windows Error Reporting\\LocalDumps\\MyApplication.exe**). Add your dump settings under the **MyApplication.exe** key. If your application crashes, WER will first read the global settings, and then will override any of the settings with your application-specific settings.
 
@@ -70,10 +70,4 @@ After an application crashes and prior to its termination, the system will check
 These dumps are configured and controlled independently of the rest of the WER infrastructure. You can make use of the local dump collection even if WER is disabled or if the user cancels WER reporting. The local dump can be different than the dump sent to Microsoft.
 
  
-
- 
-
-
-
-
 

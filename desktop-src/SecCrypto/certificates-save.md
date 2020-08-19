@@ -17,7 +17,7 @@ api_location:
 
 # Certificates.Save method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2Collection Class**](https://msdn.microsoft.com/library/Hh424013(v=MSDN.10).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2Collection Class**](/previous-versions/windows/embedded/hh424013(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
 
 The **Save** method saves the [**Certificate**](certificate.md) objects in the collection.
 
@@ -49,7 +49,7 @@ A string that contains the name of the output file where the certificates will b
 *Password* \[in, optional\]
 </dt> <dd>
 
-A string that contains the [*plaintext*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) password for a [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) file. The default value is the empty string (""). Up to 32 Unicode characters, including a terminating null character, can be used for the password. For information about protecting the password, see [Handling Passwords](https://msdn.microsoft.com/library/ms717799(v=VS.85).aspx).
+A string that contains the [*plaintext*](../secgloss/p-gly.md) password for a [*private key*](../secgloss/p-gly.md) file. The default value is the empty string (""). Up to 32 Unicode characters, including a terminating null character, can be used for the password. For information about protecting the password, see [Handling Passwords](../secbp/handling-passwords.md).
 
 </dd> <dt>
 
@@ -123,7 +123,3 @@ The [**Certificate**](certificate.md) objects can be retrieved by using the [**S
  
 
  
-
-
-
-

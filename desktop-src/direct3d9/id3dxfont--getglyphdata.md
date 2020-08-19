@@ -41,7 +41,7 @@ HRESULT GetGlyphData(
 *Glyph* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Glyph identifier.
 
@@ -50,16 +50,16 @@ Glyph identifier.
 *ppTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)\***
 
-Address of a pointer to a [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) object that contains the glyph.
+Address of a pointer to a [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) object that contains the glyph.
 
 </dd> <dt>
 
 *pBlackBox* \[out\]
 </dt> <dd>
 
-Type: **[**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx)\***
+Type: **[**RECT**](/previous-versions//dd162897(v=vs.85))\***
 
 Pointer to the smallest rectangle object that completely encloses the glyph.
 
@@ -68,9 +68,9 @@ Pointer to the smallest rectangle object that completely encloses the glyph.
 *pCellInc* \[out\]
 </dt> <dd>
 
-Type: **[**POINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**POINT**](../winprog/windows-data-types.md)\***
 
-Pointer to the two-dimensional vector that connects the origin of the current character cell to the origin of the next character cell. See [**POINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx).
+Pointer to the two-dimensional vector that connects the origin of the current character cell to the origin of the next character cell. See [**POINT**](../winprog/windows-data-types.md).
 
 </dd> </dl>
 
@@ -101,7 +101,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

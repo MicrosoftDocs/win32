@@ -257,7 +257,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Name of the event property that contains data to be passed to the [**ReportEvent**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-reporteventa) function *lpRawData* parameter.
+Name of the event property that contains data to be passed to the [**ReportEvent**](/windows/desktop/api/winbase/nf-winbase-reporteventa) function *lpRawData* parameter.
 
 </dd> <dt>
 
@@ -270,7 +270,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Name of the event property that contains a security identifier (SID) to be passed to the [**ReportEvent**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-reporteventa) function *lpUserSid* parameter. The property must be either an array of bytes (**uint8**) or a string. If it is an array of bytes, it is assumed to be a SID. If it is a string, it is a string SID that is converted into a SID.
+Name of the event property that contains a security identifier (SID) to be passed to the [**ReportEvent**](/windows/desktop/api/winbase/nf-winbase-reporteventa) function *lpUserSid* parameter. The property must be either an array of bytes (**uint8**) or a string. If it is an array of bytes, it is assumed to be a SID. If it is a string, it is a string SID that is converted into a SID.
 
 </dd> <dt>
 
@@ -359,9 +359,4 @@ For an example of using **NTEventLogEventConsumer** to create a consumer, see [L
 </dt> </dl>
 
  
-
- 
-
-
-
 

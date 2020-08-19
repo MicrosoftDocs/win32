@@ -66,7 +66,7 @@ Specifies zero or more directional attributes, field attributes, usage attribute
 *declarator* 
 </dt> <dd>
 
-Specifies a standard C declarator such as identifiers, pointer declarators, and array declarators. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**arrays**](arrays-1.md), and [Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers). The parameter-name identifier is optional.
+Specifies a standard C declarator such as identifiers, pointer declarators, and array declarators. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**arrays**](arrays-1.md), and [Arrays and Pointers](/windows/desktop/Rpc/arrays-and-pointers). The parameter-name identifier is optional.
 
 </dd> </dl>
 
@@ -141,13 +141,9 @@ Callbacks can nest to any depth.
 [**unique**](unique.md)
 </dt> <dt>
 
-[**RpcCancelThread**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpccancelthread)
+[**RpcCancelThread**](/windows/desktop/api/rpcdce/nf-rpcdce-rpccancelthread)
 </dt> </dl>
 
  
 
  
-
-
-
-

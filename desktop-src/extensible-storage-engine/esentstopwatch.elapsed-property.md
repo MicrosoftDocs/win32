@@ -55,7 +55,7 @@ public TimeSpan Elapsed { get; private set; }
 
 #### Property value
 
-Type: [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN)  
+Type: [System.TimeSpan](/dotnet/api/system.timespan)  
 
 ## See also
 
@@ -66,4 +66,3 @@ Type: [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?re
 [EsentStopwatch members](dn334924\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -30,12 +30,8 @@ Unloads the character data for the specified character.
 
 Use this method when you no longer need a character, to free up memory used to store information about the character. If you access the character again, use the [**Load**](load-method.md) method.
 
-This method does not return a [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object.
+This method does not return a [**Request**](/windows/desktop/lwef/the-request-object) object.
 
  
 
  
-
-
-
-

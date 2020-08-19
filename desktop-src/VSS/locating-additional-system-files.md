@@ -31,7 +31,7 @@ In addition to the enumerated operating system and driver binary files that are 
 
 All the components reported by a VSS system state writer are part of system state except those for which the VSS\_CF\_NOT\_SYSTEM\_STATE flag is set.
 
-Backup programs should also set the **LastRestoreId** registry key. For more information, see [Registry Keys and Values for Backup and Restore](https://msdn.microsoft.com/library/Bb891959(v=VS.85).aspx).
+Backup programs should also set the **LastRestoreId** registry key. For more information, see [Registry Keys and Values for Backup and Restore](../backup/registry-keys-for-backup-and-restore.md).
 
 > [!Note]  
 > In Windows Vista, Windows Server 2008, and later, the names and locations of some system files have been changed as follows.
@@ -115,6 +115,3 @@ The task scheduler's task files must be backed up. The files are located in one 
  
 
  
-
-
-

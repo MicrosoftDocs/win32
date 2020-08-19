@@ -14,20 +14,20 @@ ms.date: 05/31/2018
 
 | Topic                                                                                                | Description                                                                             |
 |------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| [System.Sync.Comments](https://msdn.microsoft.com/library/Bb760136(v=VS.85).aspx)<br/>                             |                                                                                         |
-| [System.Sync.ConflictDescription](https://msdn.microsoft.com/library/Bb760138(v=VS.85).aspx)<br/>       |                                                                                         |
-| [System.Sync.ConflictFirstLocation](https://msdn.microsoft.com/library/Bb760140(v=VS.85).aspx)<br/>   |                                                                                         |
-| [System.Sync.ConflictSecondLocation](https://msdn.microsoft.com/library/Bb760142(v=VS.85).aspx)<br/> |                                                                                         |
-| [System.Sync.HandlerCollectionID](https://msdn.microsoft.com/library/Bb760144(v=VS.85).aspx)<br/>       |                                                                                         |
-| [System.Sync.HandlerID](https://msdn.microsoft.com/library/Bb760146(v=VS.85).aspx)<br/>                           |                                                                                         |
-| [System.Sync.HandlerName](https://msdn.microsoft.com/library/Bb760148(v=VS.85).aspx)<br/>                       |                                                                                         |
-| [System.Sync.HandlerType](https://msdn.microsoft.com/library/Bb760150(v=VS.85).aspx)<br/>                       |                                                                                         |
-| [System.Sync.HandlerTypeLabel](https://msdn.microsoft.com/library/Bb760152(v=VS.85).aspx)<br/>             |                                                                                         |
-| [System.Sync.ItemID](https://msdn.microsoft.com/library/Bb760154(v=VS.85).aspx)<br/>                                 |                                                                                         |
-| [System.Sync.ItemName](https://msdn.microsoft.com/library/Bb760156(v=VS.85).aspx)<br/>                             |                                                                                         |
-| [System.Sync.ProgressPercentage](https://msdn.microsoft.com/library/Dd391565(v=VS.85).aspx)<br/>         | An integer value between 0 and 100 that represents the percentage completed.<br/> |
-| [System.Sync.State](https://msdn.microsoft.com/library/Dd391566(v=VS.85).aspx)<br/>                                   | State of the system synch.<br/>                                                   |
-| [System.Sync.Status](https://msdn.microsoft.com/library/Dd391567(v=VS.85).aspx)<br/>                                 | Status of the system synch.<br/>                                                  |
+| [System.Sync.Comments](./props-system-sync-comments.md)<br/>                             |                                                                                         |
+| [System.Sync.ConflictDescription](./props-system-sync-conflictdescription.md)<br/>       |                                                                                         |
+| [System.Sync.ConflictFirstLocation](./props-system-sync-conflictfirstlocation.md)<br/>   |                                                                                         |
+| [System.Sync.ConflictSecondLocation](./props-system-sync-conflictsecondlocation.md)<br/> |                                                                                         |
+| [System.Sync.HandlerCollectionID](./props-system-sync-handlercollectionid.md)<br/>       |                                                                                         |
+| [System.Sync.HandlerID](./props-system-sync-handlerid.md)<br/>                           |                                                                                         |
+| [System.Sync.HandlerName](./props-system-sync-handlername.md)<br/>                       |                                                                                         |
+| [System.Sync.HandlerType](./props-system-sync-handlertype.md)<br/>                       |                                                                                         |
+| [System.Sync.HandlerTypeLabel](./props-system-sync-handlertypelabel.md)<br/>             |                                                                                         |
+| [System.Sync.ItemID](./props-system-sync-itemid.md)<br/>                                 |                                                                                         |
+| [System.Sync.ItemName](./props-system-sync-itemname.md)<br/>                             |                                                                                         |
+| [System.Sync.ProgressPercentage](./props-system-sync-progresspercentage.md)<br/>         | An integer value between 0 and 100 that represents the percentage completed.<br/> |
+| [System.Sync.State](./props-system-sync-state.md)<br/>                                   | State of the system synch.<br/>                                                   |
+| [System.Sync.Status](./props-system-sync-status.md)<br/>                                 | Status of the system synch.<br/>                                                  |
 
 
 
@@ -36,7 +36,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

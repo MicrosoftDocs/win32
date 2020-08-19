@@ -50,7 +50,7 @@ The following table describes the property values.
 [Font Control Properties](windowsribbon-reference-properties-fontcontrol.md)
 </dt> <dt>
 
-[**UI\_FONTDELTASIZE**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontdeltasize)
+[**UI\_FONTDELTASIZE**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_fontdeltasize)
 </dt> <dt>
 
 [Font Control](windowsribbon-controls-fontcontrol.md)
@@ -59,7 +59,3 @@ The following table describes the property values.
  
 
  
-
-
-
-

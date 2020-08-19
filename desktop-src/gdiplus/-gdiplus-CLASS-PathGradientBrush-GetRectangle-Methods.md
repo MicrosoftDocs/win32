@@ -8,7 +8,7 @@ ms.topic: reference
 
 # PathGradientBrush.GetRectangle methods
 
-This topic lists the GetRectangle methods of the [**PathGradientBrush**](https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx) class. For a complete list of methods for the **PathGradientBrush** class, see [PathGradientBrush Methods](-gdiplus-class-pathgradientbrush-methods.md).
+This topic lists the GetRectangle methods of the [**PathGradientBrush**](/windows/win32/api/gdipluspath/nl-gdipluspath-pathgradientbrush) class. For a complete list of methods for the **PathGradientBrush** class, see [PathGradientBrush Methods](-gdiplus-class-pathgradientbrush-methods.md).
 
 ### Overload list
 
@@ -16,15 +16,11 @@ This topic lists the GetRectangle methods of the [**PathGradientBrush**](https:/
 
 | Method                                                                                     | Description                                                                                                                                                                                                         |
 |:-------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetRectangle(Rect\*)**](https://msdn.microsoft.com/library/ms535097(v=VS.85).aspx)   | The [**PathGradientBrush::GetRectangle**](https://msdn.microsoft.com/library/ms535097(v=VS.85).aspx) method gets the smallest rectangle that encloses the boundary path of this path gradient brush.<br/>  |
-| [**GetRectangle(RectF\*)**](https://msdn.microsoft.com/library/ms535096(v=VS.85).aspx) | The [**PathGradientBrush::GetRectangle**](https://msdn.microsoft.com/library/ms535096(v=VS.85).aspx) method gets the smallest rectangle that encloses the boundary path of this path gradient brush.<br/> |
+| [**GetRectangle(Rect\*)**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getrectangle(outrect))   | The [**PathGradientBrush::GetRectangle**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getrectangle(outrect)) method gets the smallest rectangle that encloses the boundary path of this path gradient brush.<br/>  |
+| [**GetRectangle(RectF\*)**](/previous-versions//ms535096(v=vs.85)) | The [**PathGradientBrush::GetRectangle**](/previous-versions//ms535096(v=vs.85)) method gets the smallest rectangle that encloses the boundary path of this path gradient brush.<br/> |
 
 
 
  
 
  
-
-
-
-

@@ -23,12 +23,12 @@ Tests whether the BoundingSphere contains a specified object.
 
 | Method                                                                                     | Description                                                                                                                                      |
 |:-------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**BoundingSphere::Contains (XMVECTOR)**](https://msdn.microsoft.com/library/Hh449621(v=VS.85).aspx)                   | Tests whether the BoundingSphere contains a specified point.<br/>                                                                          |
-| [**BoundingSphere::Contains (const BoundingBox&)**](https://msdn.microsoft.com/library/Hh449612(v=VS.85).aspx)         | Tests whether the BoundingSphere contains a specified BoundingBox.<br/>                                                                    |
-| [**BoundingSphere::Contains (const BoundingSphere&)**](https://msdn.microsoft.com/library/Hh449616(v=VS.85).aspx)      | Tests whether the BoundingSphere contains a specified BoundingSphere.<br/>                                                                 |
-| [**BoundingSphere::Contains (const BoundingFrustum&)**](https://msdn.microsoft.com/library/Hh855876(v=VS.85).aspx)     | Tests whether the [**BoundingSphere**](https://msdn.microsoft.com/library/Hh449592(v=VS.85).aspx) contains the specified [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).<br/>         |
-| [**BoundingSphere::Contains (XMVECTOR,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/library/Hh449609(v=VS.85).aspx) | Tests whether the BoundingSphere contains a specified triangle.<br/>                                                                       |
-| [**BoundingSphere::Contains (const BoundingOrientedBox&)**](https://msdn.microsoft.com/library/Hh855886(v=VS.85).aspx) | Tests whether the [**BoundingSphere**](https://msdn.microsoft.com/library/Hh449592(v=VS.85).aspx) contains the specified [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/> |
+| [**BoundingSphere::Contains (XMVECTOR)**](/previous-versions/windows/desktop/legacy/hh449621(v=vs.85))                   | Tests whether the BoundingSphere contains a specified point.<br/>                                                                          |
+| [**BoundingSphere::Contains (const BoundingBox&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingsphere-contains(constboundingbox_))         | Tests whether the BoundingSphere contains a specified BoundingBox.<br/>                                                                    |
+| [**BoundingSphere::Contains (const BoundingSphere&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingsphere-contains(constboundingsphere_))      | Tests whether the BoundingSphere contains a specified BoundingSphere.<br/>                                                                 |
+| [**BoundingSphere::Contains (const BoundingFrustum&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingsphere-contains(constboundingfrustum_))     | Tests whether the [**BoundingSphere**](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) contains the specified [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).<br/>         |
+| [**BoundingSphere::Contains (XMVECTOR,XMVECTOR,XMVECTOR)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingsphere-contains(fxmvector_fxmvector_fxmvector)) | Tests whether the BoundingSphere contains a specified triangle.<br/>                                                                       |
+| [**BoundingSphere::Contains (const BoundingOrientedBox&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingsphere-contains(constboundingorientedbox_)) | Tests whether the [**BoundingSphere**](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) contains the specified [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox).<br/> |
 
 
 
@@ -42,13 +42,9 @@ Tests whether the BoundingSphere contains a specified object.
 **Reference**
 </dt> <dt>
 
-[**BoundingSphere**](https://msdn.microsoft.com/library/Hh449592(v=VS.85).aspx)
+[**BoundingSphere**](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere)
 </dt> </dl>
 
  
 
  
-
-
-
-

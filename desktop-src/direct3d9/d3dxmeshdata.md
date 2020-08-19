@@ -41,11 +41,11 @@ typedef struct D3DXMESHDATA {
 **Type**
 </dt> <dd>
 
-Type: **[**D3DXMESHDATATYPE**](https://msdn.microsoft.com/library/Bb205373(v=VS.85).aspx)**
+Type: **[**D3DXMESHDATATYPE**](./d3dxmeshdatatype.md)**
 
 </dd> <dd>
 
-Defines the mesh data type. See [**D3DXMESHDATATYPE**](https://msdn.microsoft.com/library/Bb205373(v=VS.85).aspx).
+Defines the mesh data type. See [**D3DXMESHDATATYPE**](./d3dxmeshdatatype.md).
 
 </dd> <dt>
 
@@ -94,7 +94,3 @@ Pointer to a patch mesh. See [**ID3DXPatchMesh**](id3dxpatchmesh.md).
  
 
  
-
-
-
-

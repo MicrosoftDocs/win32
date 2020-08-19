@@ -21,7 +21,7 @@ api_location:
 
 # D3D9\_RESOURCE\_PRIORITY
 
-Constants used to set the priority of a resource in [**SetPriority**](https://msdn.microsoft.com/library/Bb205885(v=VS.85).aspx).
+Constants used to set the priority of a resource in [**SetPriority**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dresource9-setpriority).
 
 
 
@@ -61,7 +61,3 @@ You can use priority levels other than the values defined earlier in this topic.
  
 
  
-
-
-
-

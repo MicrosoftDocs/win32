@@ -71,7 +71,7 @@ Both the full-screen magnifier and the magnifier control apply a scale transform
 
 ### Color Effects
 
-Color effects are achieved by applying a 5-by-5 color transformation matrix to the colors of the magnified screen content. The matrix determines the intensities of the red, blue, green, and alpha components of the content. For more information, see [Using a Color Matrix to Transform a Single Color](/windows/win32/gdiplus/-gdiplus-using-a-color-matrix-to-transform-a-single-color-use) in the Windows GDI+ documentation.
+Color effects are achieved by applying a 5-by-5 color transformation matrix to the colors of the magnified screen content. The matrix determines the intensities of the red, blue, green, and alpha components of the content. For more information, see [Using a Color Matrix to Transform a Single Color](../../gdiplus/-gdiplus-using-a-color-matrix-to-transform-a-single-color-use.md) in the Windows GDI+ documentation.
 
 ### Source Rectangle
 
@@ -88,7 +88,7 @@ The full-screen magnifier does not support a filter list; it always magnifies al
 Normally, magnified screen content is "invisible" to user pen or touch input. For example, if the user taps the magnified image of a control, the system does not necessarily pass the input to the control. Instead, the system passes the input to whatever item (if any) resides at the tapped screen coordinates on the unmagnified desktop. The [**MagSetInputTransform**](/windows/win32/api/Magnification/nf-magnification-magsetinputtransform) function enables you to specify an *input transformation* that maps the coordinate space of the magnified screen content to the actual (unmagnified) screen coordinate space. This enables the system to pass pen or touch input that is entered in magnified screen content, to the correct UI element on the screen.
 
 > [!Note]  
-> The calling process must have UIAccess privileges to set the input transform. For more information, see [UI Automation Security Considerations](/windows/win32/winauto/uiauto-securityoverview) and [/MANIFESTUAC (Embeds UAC information in manifest)](/cpp/build/reference/manifestuac-embeds-uac-information-in-manifest).
+> The calling process must have UIAccess privileges to set the input transform. For more information, see [UI Automation Security Considerations](../uiauto-securityoverview.md) and [/MANIFESTUAC (Embeds UAC information in manifest)](/cpp/build/reference/manifestuac-embeds-uac-information-in-manifest).
 
 ### System Cursor
 
@@ -171,13 +171,13 @@ The magnifier control magnifies the content of a particular area of the screen a
 
 ### Creating the Magnifier Control
 
-The magnifier control must be hosted in a window created with the [**WS_EX_LAYERED**](/windows/win32/winmsg/extended-window-styles) extended style. After creating the host window, call [**SetLayeredWindowAttributes**](/windows/win32/api/winuser/nf-winuser-setlayeredwindowattributes) to set the opacity of the host window. The host window is typically set to full opacity to prevent the underlying screen content from showing though. The following example shows how to set the host window to full opacity:
+The magnifier control must be hosted in a window created with the [**WS_EX_LAYERED**](../../winmsg/extended-window-styles.md) extended style. After creating the host window, call [**SetLayeredWindowAttributes**](/windows/win32/api/winuser/nf-winuser-setlayeredwindowattributes) to set the opacity of the host window. The host window is typically set to full opacity to prevent the underlying screen content from showing though. The following example shows how to set the host window to full opacity:
 
 ```C++
 SetLayeredWindowAttributes(hwndHost, NULL, 255, LWA_ALPHA);
 ```
 
-If you apply the [**WS_EX_TRANSPARENT**](/windows/win32/winmsg/extended-window-styles) style to the host window, mouse clicks are passed to whatever object is behind the host window at the location of the mouse cursor. Be aware that, because the host window does not process mouse clicks, the user will not be able to move or resize the magnification window by using the mouse.
+If you apply the [**WS_EX_TRANSPARENT**](../../winmsg/extended-window-styles.md) style to the host window, mouse clicks are passed to whatever object is behind the host window at the location of the mouse cursor. Be aware that, because the host window does not process mouse clicks, the user will not be able to move or resize the magnification window by using the mouse.
 
 The window class of the magnifier control window must be **WC_MAGNIFIER**. If you apply the [**MS_SHOWMAGNIFIEDCURSOR**](magapi-magnifier-styles.md) style, the magnifier control includes the system cursor in the magnified screen contents, and the cursor is magnified along with the screen contents.
 
@@ -376,7 +376,7 @@ BOOL ConvertToGrayscale(HWND hwndMag, BOOL fConvert)
 }
 ```
 
-For more information about how color transformations work, see [Using a Color Matrix to Transform a Single Color](/windows/win32/gdiplus/-gdiplus-using-a-color-matrix-to-transform-a-single-color-use) in the GDI+ documentation.
+For more information about how color transformations work, see [Using a Color Matrix to Transform a Single Color](../../gdiplus/-gdiplus-using-a-color-matrix-to-transform-a-single-color-use.md) in the GDI+ documentation.
 
 ### Selective Magnification
 

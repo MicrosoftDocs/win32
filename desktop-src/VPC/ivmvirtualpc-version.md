@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualPC::Version property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves the version of this instance of Windows Virtual PC.
 
@@ -82,10 +82,4 @@ The Windows Virtual PC version information is returned as a string value with th
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

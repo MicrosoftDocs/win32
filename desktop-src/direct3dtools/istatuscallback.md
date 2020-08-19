@@ -26,7 +26,7 @@ Not used.
 
 ## Members
 
-The **IStatusCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IStatusCallback** also has these types of members:
+The **IStatusCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IStatusCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IStatusCallback** interface has these methods.
  
 
  
-
-
-

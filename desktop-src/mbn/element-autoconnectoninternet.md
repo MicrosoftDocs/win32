@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Specifies whether the Mobile Broadband device will automatically connect to a network.
 
-For more information, see the documentation for the v1 [**AutoConnectOnInternet**](https://msdn.microsoft.com/library/Dd323275(v=VS.85).aspx) element.
+For more information, see the documentation for the v1 [**AutoConnectOnInternet**](./schema-autoconnectoninternet-mbnprofile-element.md) element.
 
 ## Element hierarchy
 
@@ -82,6 +82,3 @@ None.
  
 
  
-
-
-

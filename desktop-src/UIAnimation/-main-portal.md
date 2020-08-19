@@ -42,27 +42,15 @@ Windows Animation is designed for use by experienced C/C++ developers who are fa
 
 The Windows Animation Manager was introduced in Windows 7.
 
-Applications that require support for Windows Animation Manager on Windows Vista can utilize the Platform Update for Windows Vista. Applications that require Platform Update for Windows Vista can have Windows Update verify that it is installed, or download and install it in the background otherwise. For more information, see [About Platform Update for Windows Vista](https://msdn.microsoft.com/library/Ee663866(v=VS.85).aspx).
+Applications that require support for Windows Animation Manager on Windows Vista can utilize the Platform Update for Windows Vista. Applications that require Platform Update for Windows Vista can have Windows Update verify that it is installed, or download and install it in the background otherwise. For more information, see [About Platform Update for Windows Vista](../win7ip/platform-update-for-windows-vista-overview.md).
 
 ## Additional resources
 
 -   [Windows Scenic Animation Overview](https://channel9.msdn.com/blogs/yochay/windows-scenic-animation-overview) (video)
 -   [Inside Windows 7: Animation Manager Deep Dive and Tutorial](https://channel9.msdn.com/blogs/yochay/inside-windows-7-animation-manager-deep-dive) (video)
 -   [Windows Animation - Advanced Topics](https://channel9.msdn.com/posts/yochay/Windows-Animation-Advance-Topics/) (video)
--   [Windows Animation Manager Sample Code](https://code.msdn.microsoft.com/animationmanager) (Code Gallery)
+-   [Windows Animation Manager Sample Code](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionWindowsAnimationManager)
 
 ## Related topics
 
-<dl> <dt>
-
-[Animation Overview (.NET Framework)](https://msdn.microsoft.com/library/ms752312.aspx)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+[Animation Overview (.NET Framework)](/dotnet/framework/wpf/graphics-multimedia/animation-overview)

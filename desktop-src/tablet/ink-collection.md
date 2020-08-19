@@ -48,7 +48,7 @@ A typical scenario in which [**InkOverlay**](inkoverlay-class.md) is useful is i
 To work with [**InkOverlay**](inkoverlay-class.md), you:
 
 1.  Instantiate an [**InkOverlay**](inkoverlay-class.md) object.
-2.  Attach the hWnd (handle, in managed code) of a window to the [**InkOverlay**](inkoverlay-class.md) object's [**hWnd**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_hwnd) property ([Handle](https://msdn.microsoft.com/library/ms582171(v=VS.90).aspx) property, in managed code).
+2.  Attach the hWnd (handle, in managed code) of a window to the [**InkOverlay**](inkoverlay-class.md) object's [**hWnd**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_hwnd) property ([Handle](/previous-versions/ms582171(v=vs.100)) property, in managed code).
 3.  Set the [**InkOverlay**](inkoverlay-class.md) object's [**Enabled**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_enabled) property to **TRUE**.
 
 The [**InkOverlay**](inkoverlay-class.md) object includes basic printing support, but you must implement print preview or other advanced printing capabilities.
@@ -64,7 +64,7 @@ The [**InkOverlay**](inkoverlay-class.md) object includes basic printing support
 
 The [**InkOverlay**](inkoverlay-class.md) object enables users to use a lasso tool to select ink objects that are contained in a traced region. Users can also select ink by tapping any [**Ink**](inkdisp-class.md) object.
 
-Use the [**Selection**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_selection) property to return a [**Strokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection that you can use to manipulate a user's selection.
+Use the [**Selection**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_selection) property to return a [**Strokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) collection that you can use to manipulate a user's selection.
 
 When an [**Ink**](inkdisp-class.md) object or a set of **Ink** objects is selected, sizing handles appear at the four corners of the ink's bounding box and at all midpoints between adjacent corners. If the user drags anywhere within the selected region, the ink becomes movable inside the control.
 
@@ -74,7 +74,7 @@ The [**InkOverlay**](inkoverlay-class.md) object is set to collect ink by defaul
 
 ### Cursor and Button Objects
 
-A cursor corresponds to the tip of the pen that is used on Tablet PC. For instance, a pencil has two ends. Usually, one end is used for writing and the other is used for erasing. These two ends correspond to two cursors. The [**Cursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) class is not be confused with [**System.Windows.Forms.Cursor**](https://msdn.microsoft.com/library/sf27z138(v=VS.90).aspx).
+A cursor corresponds to the tip of the pen that is used on Tablet PC. For instance, a pencil has two ends. Usually, one end is used for writing and the other is used for erasing. These two ends correspond to two cursors. The [**Cursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) class is not be confused with [**System.Windows.Forms.Cursor**](/dotnet/api/system.windows.forms.cursor?view=netcore-3.1).
 
 On Tablet PC, a cursor is usually defined to be used either for writing or erasing. A cursor may potentially change roles if the application enables this functionality. Some Tablet PC devices allow multiple pens. Each cursor has an associated cursor ID that is unique on the system. A cursor can have zero or more associated buttons. These buttons are provided to the application as CursorButton objects. The application can provide a specific [**DrawingAttributes**](inkdrawingattributes-class.md) object for any given cursor.
 
@@ -101,12 +101,9 @@ The [**PenInputPanel**](peninputpanel-class.md) object allows you to easily add 
 [**InkOverlay Class (C++)**](inkoverlay-class.md)
 </dt> <dt>
 
-[**Microsoft.Ink Namespace**](https://msdn.microsoft.com/library/ms581553(v=VS.90).aspx)
+[**Microsoft.Ink Namespace**](/previous-versions/dotnet/netframework-3.5/ms581553(v=vs.90))
 </dt> </dl>
 
  
 
  
-
-
-

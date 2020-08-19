@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # About Carets
 
-The system provides one caret per message queue. A window should create a caret only when it has the keyboard focus or is active. The window should destroy the caret before losing the keyboard focus or becoming inactive. For more information on keyboard input, see [Keyboard Input](https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input).
+The system provides one caret per message queue. A window should create a caret only when it has the keyboard focus or is active. The window should destroy the caret before losing the keyboard focus or becoming inactive. For more information on keyboard input, see [Keyboard Input](/windows/desktop/inputdev/keyboard-input).
 
 Use the [**CreateCaret**](/windows/desktop/api/Winuser/nf-winuser-createcaret) function to specify the parameters for a caret. The system forms a caret by inverting the pixel color within the rectangle specified by the caret's position, width, and height. The width and height are specified in logical units; therefore, the appearance of a caret is subject to the window's mapping mode.
 
@@ -55,7 +55,3 @@ To remove the caret from the screen and destroy its shape, use using the [**Dest
  
 
  
-
-
-
-

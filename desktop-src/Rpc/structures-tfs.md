@@ -136,14 +136,14 @@ The mem\_copy\_incr<2> field is the number of bytes the memory pointer should be
 
 A complex structure is any structure containing one or more fields that either prevent the structure from being block-copied, or for which additional checking must be performed during marshaling or unmarshaling (for example, bound checks on an enumeration). The following NDR types fall in this category:
 
--   [simple types](simple-types-tfs.md): ENUM16, \_\_INT3264 (on 64-bit platforms only), an integral with \[[**range**](https://docs.microsoft.com/windows/desktop/Midl/range)\]
+-   [simple types](simple-types-tfs.md): ENUM16, \_\_INT3264 (on 64-bit platforms only), an integral with \[[**range**](/windows/desktop/Midl/range)\]
 -   alignment padding at the end of the structure
 -   interface pointers (they go using an embedded complex)
--   ignored pointers (that is related to \[[**ignore**](https://docs.microsoft.com/windows/desktop/Midl/ignore)\] attribute and FC\_IGNORE token)
+-   ignored pointers (that is related to \[[**ignore**](/windows/desktop/Midl/ignore)\] attribute and FC\_IGNORE token)
 -   complex arrays, varying arrays, string arrays
 -   multidimensional conformant arrays with at least one nonfixed dimension
 -   unions
--   elements defined with \[[**transmit\_as**](https://docs.microsoft.com/windows/desktop/Midl/transmit-as)\], \[[**represent\_as**](https://docs.microsoft.com/windows/desktop/Midl/represent-as)\], \[[**wire\_marshal**](https://docs.microsoft.com/windows/desktop/Midl/wire-marshal)\], \[[**user\_marshal**](https://docs.microsoft.com/windows/desktop/Midl/user-marshal)\]
+-   elements defined with \[[**transmit\_as**](/windows/desktop/Midl/transmit-as)\], \[[**represent\_as**](/windows/desktop/Midl/represent-as)\], \[[**wire\_marshal**](/windows/desktop/Midl/wire-marshal)\], \[[**user\_marshal**](/windows/desktop/Midl/user-marshal)\]
 -   embedded complex structures
 -   padding at the end of the structure
 
@@ -204,7 +204,3 @@ There may also be an FC\_PAD before the terminating FC\_END if needed to ensure 
  
 
  
-
-
-
-

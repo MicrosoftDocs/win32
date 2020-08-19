@@ -10,12 +10,9 @@ ms.date: 05/31/2018
 
 A Mobile Broadband v2 Profile is comprised of the following elements. All of the named elements are in the namespace `https://www.microsoft.com/networking/WWAN/profile/v2`.
 
--   [**IsPurchaseProfile**](https://msdn.microsoft.com/library/JJ569902(v=VS.85).aspx)
--   [**DisplayProviderName**](https://msdn.microsoft.com/library/JJ569901(v=VS.85).aspx)
+-   [**IsPurchaseProfile**](/previous-versions/windows/desktop/legacy/jj569902(v=vs.85))
+-   [**DisplayProviderName**](/previous-versions/windows/desktop/legacy/jj569901(v=vs.85))
 
  
 
  
-
-
-

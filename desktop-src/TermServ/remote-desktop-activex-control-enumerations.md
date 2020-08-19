@@ -50,7 +50,7 @@ Used to specify the type of a device.
 
 </dd> <dt>
 
-[**RemoteActionType**](https://msdn.microsoft.com/library/Mt787075(v=VS.85).aspx)
+[**RemoteActionType**](/windows/win32/api/rdpappcontainerclient/ne-rdpappcontainerclient-remoteactiontype)
 </dt> <dd>
 
 The action to send to the remote session.
@@ -71,14 +71,14 @@ Used with the method to specify information about the event.
 
 </dd> <dt>
 
-[**SnapshotEncodingType**](https://msdn.microsoft.com/library/Mt787078(v=VS.85).aspx)
+[**SnapshotEncodingType**](/windows/win32/api/rdpappcontainerclient/ne-rdpappcontainerclient-snapshotencodingtype)
 </dt> <dd>
 
 The type of encoding used for a Remote Desktop Protocol (RDP) app container client snapshot.
 
 </dd> <dt>
 
-[**SnapshotFormatType**](https://msdn.microsoft.com/library/Mt787079(v=VS.85).aspx)
+[**SnapshotFormatType**](/windows/win32/api/rdpappcontainerclient/ne-rdpappcontainerclient-snapshotformattype)
 </dt> <dd>
 
 The data format used for a Remote Desktop Protocol (RDP) app container client snapshot.
@@ -88,7 +88,3 @@ The data format used for a Remote Desktop Protocol (RDP) app container client sn
  
 
  
-
-
-
-

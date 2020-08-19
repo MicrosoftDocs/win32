@@ -51,7 +51,7 @@ When using recorded sound-file output, you can still use the *Text* parameter to
 
 You can also vary parameters of the speech output with special tags that you include in the *Text* parameter. For more information, see [Microsoft Agent Speech Output Tags](microsoft-agent-speech-output-tags.md).
 
-If you declare an object reference and set it to this method, it returns a [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object. You can use this to synchronize other parts of your code with the character's spoken output, as in the following example:
+If you declare an object reference and set it to this method, it returns a [**Request**](/windows/desktop/lwef/the-request-object) object. You can use this to synchronize other parts of your code with the character's spoken output, as in the following example:
 
 
 ```
@@ -73,9 +73,9 @@ If you declare an object reference and set it to this method, it returns a [**Re
 
 
 
-You can also use a [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object to check for certain error conditions. For example, if you use the **Speak** method to speak and do not have a compatible TTS engine installed, the server sets the **Request** object's [**Status**](status-property.md) property to "failed" with its [**Description**](description-property.md) property to "Class not registered" or "Unknown or object returned error". To determine if you have a TTS engine installed, use the [**TTSModeID**](ttsmodeid-property.md) property.
+You can also use a [**Request**](/windows/desktop/lwef/the-request-object) object to check for certain error conditions. For example, if you use the **Speak** method to speak and do not have a compatible TTS engine installed, the server sets the **Request** object's [**Status**](status-property.md) property to "failed" with its [**Description**](description-property.md) property to "Class not registered" or "Unknown or object returned error". To determine if you have a TTS engine installed, use the [**TTSModeID**](ttsmodeid-property.md) property.
 
-Similarly, if you have the character attempt to speak a sound file, and if the file has not been loaded or there is a problem with the audio device, the server also sets the [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object's [**Status**](status-property.md) property to "failed" with an appropriate error code number.
+Similarly, if you have the character attempt to speak a sound file, and if the file has not been loaded or there is a problem with the audio device, the server also sets the [**Request**](/windows/desktop/lwef/the-request-object) object's [**Status**](status-property.md) property to "failed" with an appropriate error code number.
 
 You can also include bookmark speech tags in your Speak text to synchronize your code:
 
@@ -121,7 +121,3 @@ Agent's automatic word breaking in the word balloon breaks words using white-spa
  
 
  
-
-
-
-

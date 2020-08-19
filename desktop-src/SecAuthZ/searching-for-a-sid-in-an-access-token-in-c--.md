@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Searching for a SID in an Access Token in C++
 
-The following example uses the [**OpenProcessToken**](https://msdn.microsoft.com/library/Aa379295(v=VS.85).aspx) and [**GetTokenInformation**](https://msdn.microsoft.com/library/Aa446671(v=VS.85).aspx) functions to get the group memberships in an [*access token*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly). Then it uses the [**AllocateAndInitializeSid**](https://msdn.microsoft.com/library/Aa375213(v=VS.85).aspx) function to create a SID that identifies the well-known SID of the administrator group for the local computer. Next, it uses the [**EqualSid**](https://msdn.microsoft.com/library/Aa446622(v=VS.85).aspx) function to compare the well-known SID with the group SIDs from the access token. If the SID is present in the token, the function checks the attributes of the SID to determine whether it is enabled.
+The following example uses the [**OpenProcessToken**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocesstoken) and [**GetTokenInformation**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-gettokeninformation) functions to get the group memberships in an [*access token*](/windows/desktop/SecGloss/a-gly). Then it uses the [**AllocateAndInitializeSid**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-allocateandinitializesid) function to create a SID that identifies the well-known SID of the administrator group for the local computer. Next, it uses the [**EqualSid**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-equalsid) function to compare the well-known SID with the group SIDs from the access token. If the SID is present in the token, the function checks the attributes of the SID to determine whether it is enabled.
 
-The [**CheckTokenMembership**](https://msdn.microsoft.com/library/Aa376389(v=VS.85).aspx) function should be used to determine whether a specified SID is present and enabled in an access token. This function eliminates potential misinterpretations of the active group membership.
+The [**CheckTokenMembership**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-checktokenmembership) function should be used to determine whether a specified SID is present and enabled in an access token. This function eliminates potential misinterpretations of the active group membership.
 
 
 ```C++
@@ -125,6 +125,3 @@ BOOL SearchTokenGroupsForSID (VOID)
  
 
  
-
-
-

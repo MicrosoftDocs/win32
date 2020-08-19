@@ -55,7 +55,7 @@ If the **FragmentDialect** property is not specified in the [**ResourceLocator**
 
 ## Examples
 
-The following VBScript code example creates a [**ResourceLocator**](resourcelocator.md) object and gets the network adapter **Description** property value from the instance of [**Win32\_NetworkAdapterConfiguration**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration) with an Index of "1".
+The following VBScript code example creates a [**ResourceLocator**](resourcelocator.md) object and gets the network adapter **Description** property value from the instance of [**Win32\_NetworkAdapterConfiguration**](/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration) with an Index of "1".
 
 
 ```VB
@@ -107,10 +107,4 @@ WScript.Echo Xml
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Playing a MIDI File
 
-The following example opens a MIDI sequencer device, verifies that the MIDI mapper was selected as the output port, plays the MIDI file specified by the *lpszMIDIFileName* parameter, and closes the device after playback is complete. It uses the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function.
+The following example opens a MIDI sequencer device, verifies that the MIDI mapper was selected as the output port, plays the MIDI file specified by the *lpszMIDIFileName* parameter, and closes the device after playback is complete. It uses the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function.
 
 
 ```C++
@@ -86,7 +86,3 @@ DWORD playMIDIFile(HWND hWndNotify, LPSTR lpszMIDIFileName)
  
 
  
-
-
-
-

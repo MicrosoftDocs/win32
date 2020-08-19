@@ -60,7 +60,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Root node.
@@ -76,14 +76,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Describes the full path to the parent node. For more information, see [PassportForWork CSP](https://docs.microsoft.com/windows/client-management/mdm/passportforwork-csp).
+Describes the full path to the parent node. For more information, see [PassportForWork CSP](/windows/client-management/mdm/passportforwork-csp).
 
 </dd> <dt>
 
-[TPM12](https://docs.microsoft.com/windows/client-management/mdm/passportforwork-csp)
+[TPM12](/windows/client-management/mdm/passportforwork-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -109,10 +109,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

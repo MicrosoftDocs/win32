@@ -38,7 +38,7 @@ HRESULT Optimize(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Currently unused.
 
@@ -80,7 +80,3 @@ Adjacency information is also used to optimize tessellation. Generate adjacency 
  
 
  
-
-
-
-

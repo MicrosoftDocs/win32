@@ -29,7 +29,7 @@ Object(OR-Name) syntax. From X400.
 | MAPI Type    | TSTRING                                                                            |
 | ADS Type     | ADSTYPE\_DN\_WITH\_BINARY                                                          |
 | Variant Type | VT\_DISPATCH                                                                       |
-| SDS Type     | A COM object that can be cast to an [**IADsDNWithBinary**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsdnwithbinary). |
+| SDS Type     | A COM object that can be cast to an [**IADsDNWithBinary**](/windows/desktop/api/iads/nn-iads-iadsdnwithbinary). |
 
 
 
@@ -37,13 +37,9 @@ Object(OR-Name) syntax. From X400.
 
 <dl> <dt>
 
-[**IADsDNWithBinary**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsdnwithbinary)
+[**IADsDNWithBinary**](/windows/desktop/api/iads/nn-iads-iadsdnwithbinary)
 </dt> </dl>
 
  
 
  
-
-
-
-

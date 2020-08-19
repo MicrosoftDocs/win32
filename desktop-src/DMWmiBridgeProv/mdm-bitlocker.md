@@ -61,7 +61,7 @@ The **MDM\_BitLocker** class has these properties.
 
 <dl> <dt>
 
-[AllowWarningForOtherDiskEncryption](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp#allowwarningforotherdiskencryption)
+[AllowWarningForOtherDiskEncryption](/windows/client-management/mdm/bitlocker-csp#allowwarningforotherdiskencryption)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -72,7 +72,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EncryptionMethodByDriveType](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp#encryptionmethodbydrivetype)
+[EncryptionMethodByDriveType](/windows/client-management/mdm/bitlocker-csp#encryptionmethodbydrivetype)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -83,7 +83,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[FixedDrivesRecoveryOptions](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp#fixeddrivesrecoveryoptions)
+[FixedDrivesRecoveryOptions](/windows/client-management/mdm/bitlocker-csp#fixeddrivesrecoveryoptions)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -94,7 +94,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[FixedDrivesRequireEncryption](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp#fixeddrivesrequireencryption)
+[FixedDrivesRequireEncryption](/windows/client-management/mdm/bitlocker-csp#fixeddrivesrequireencryption)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -114,7 +114,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -128,12 +128,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[RemovableDrivesRequireEncryption](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp#removabledrivesrequireencryption)
+[RemovableDrivesRequireEncryption](/windows/client-management/mdm/bitlocker-csp#removabledrivesrequireencryption)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -144,7 +144,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RequireDeviceEncryption](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp#requiredeviceencryption)
+[RequireDeviceEncryption](/windows/client-management/mdm/bitlocker-csp#requiredeviceencryption)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -155,7 +155,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RequireStorageCardEncryption](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp#requirestoragecardencryption)
+[RequireStorageCardEncryption](/windows/client-management/mdm/bitlocker-csp#requirestoragecardencryption)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -166,7 +166,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SystemDrivesMinimumPINLength](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp#systemdrivesminimumpinlength)
+[SystemDrivesMinimumPINLength](/windows/client-management/mdm/bitlocker-csp#systemdrivesminimumpinlength)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -177,7 +177,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SystemDrivesRecoveryMessage](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp#systemdrivesrecoverymessage)
+[SystemDrivesRecoveryMessage](/windows/client-management/mdm/bitlocker-csp#systemdrivesrecoverymessage)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -188,7 +188,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SystemDrivesRecoveryOptions](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp#systemdrivesrecoveryoptions)
+[SystemDrivesRecoveryOptions](/windows/client-management/mdm/bitlocker-csp#systemdrivesrecoveryoptions)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -199,7 +199,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SystemDrivesRequireStartupAuthentication](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp#systemdrivesrequirestartupauthentication)
+[SystemDrivesRequireStartupAuthentication](/windows/client-management/mdm/bitlocker-csp#systemdrivesrequirestartupauthentication)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -225,10 +225,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

@@ -37,7 +37,7 @@ Consider the following suggestions early in the design phase to optimize the use
 
 -   Follow UI design guidelines.
 
-    Become familiar with the [Windows User Experience Interaction Guidelines](/windows/win32/uxguide/guidelines) and refer to them often as the design, implementation, and testing of the application UI progresses.
+    Become familiar with the [Windows User Experience Interaction Guidelines](../uxguide/guidelines.md) and refer to them often as the design, implementation, and testing of the application UI progresses.
 
 -   Ensure that the UI is accessible.
 
@@ -45,7 +45,7 @@ Consider the following suggestions early in the design phase to optimize the use
 
 -   Support the international marketplace.
 
-    Windows includes technologies that enable support for many cultures and written languages in a Windows application. If the application is targeting the international marketplace, it is important to include internationalization support in the UI design from the beginning of the project. For more information, see [Internationalization for Windows Applications](/windows/win32/Intl/international-support).
+    Windows includes technologies that enable support for many cultures and written languages in a Windows application. If the application is targeting the international marketplace, it is important to include internationalization support in the UI design from the beginning of the project. For more information, see [Internationalization for Windows Applications](../intl/international-support.md).
 
 ## User Analysis
 
@@ -108,7 +108,3 @@ It is during this phase that hardware or form factor limitations might introduce
  
 
  
-
-
-
-

@@ -36,7 +36,7 @@ The **IMsRdpWorkspace** interface has these methods.
 
 | Method                                                        | Description                                                                    |
 |:--------------------------------------------------------------|:-------------------------------------------------------------------------------|
-| [**StartWorkspaceEx**](https://msdn.microsoft.com/library/Dn123459(v=VS.85).aspx) | Associates user credentials and certificates with a connection ID. <br/> |
+| [**StartWorkspaceEx**](/previous-versions/windows/desktop/legacy/dn123459(v=vs.85)) | Associates user credentials and certificates with a connection ID. <br/> |
 
 
 
@@ -66,10 +66,4 @@ The **IMsRdpWorkspace** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

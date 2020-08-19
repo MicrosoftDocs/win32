@@ -14,7 +14,7 @@ The WM ASF Reader is a wrapper filter for the reader object provided with the Wi
 
 |                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter), [**IAMExtendedSeeking**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iamextendedseeking), **IServiceProvider**In addition, the filter exposes the following Windows Media Format SDK interfaces: [**IWMHeaderInfo**](https://msdn.microsoft.com/library/Dd798504(v=VS.85).aspx), [**IWMReaderAdvanced**](https://msdn.microsoft.com/library/Dd757429(v=VS.85).aspx), [**IWMReaderAdvanced2**](https://msdn.microsoft.com/library/Dd757430(v=VS.85).aspx), [**IWMDRMReader**](https://msdn.microsoft.com/library/Dd798339(v=VS.85).aspx) (through **IServiceProvider**)<br/> |
+| Filter interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter), [**IAMExtendedSeeking**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iamextendedseeking), **IServiceProvider**In addition, the filter exposes the following Windows Media Format SDK interfaces: [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo), [**IWMReaderAdvanced**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced), [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2), [**IWMDRMReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader) (through **IServiceProvider**)<br/> |
 | Input pin media types                    | Not applicable.                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Input pin interfaces                     | Not applicable.                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Output pin media types                   | MEDIATYPE\_Video, MEDIATYPE\_Audio, MEDIATYPE\_ScriptCommand, MEDIATYPE\_FileTransfer                                                                                                                                                                                                                                                                                                                                                                                                     |
@@ -35,18 +35,18 @@ When given the name of an ASF file or a URL, the WM ASF Reader reads the compres
 
 Playback at speeds other than 1.0 (as specified in [**IMediaSeeking::SetRate**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-setrate)) is not supported.
 
-When the Windows Media Format SDK runtime sends [**WMT\_STATUS**](https://msdn.microsoft.com/library/Dd757854(v=VS.85).aspx) messages to the WM ASF Writer filter, the filter forwards any messages related to DRM license acquisition as [**EC\_WMT\_EVENT**](ec-wmt-event.md) events. For more information, see [Reading DRM-Protected ASF Files in DirectShow](reading-drm-protected-asf-files-in-directshow.md).
+When the Windows Media Format SDK runtime sends [**WMT\_STATUS**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_status) messages to the WM ASF Writer filter, the filter forwards any messages related to DRM license acquisition as [**EC\_WMT\_EVENT**](ec-wmt-event.md) events. For more information, see [Reading DRM-Protected ASF Files in DirectShow](reading-drm-protected-asf-files-in-directshow.md).
 
-The WM ASF Reader partially implements the [**IWMReaderAdvanced**](https://msdn.microsoft.com/library/Dd757429(v=VS.85).aspx) and [**IWMReaderAdvanced2**](https://msdn.microsoft.com/library/Dd757430(v=VS.85).aspx) interfaces in order to give applications access to the informational methods on the reader object. The filter's implementation simply passes the calls through to the interface on the reader object. The streaming methods are not implemented because the filter must have complete control over the streaming process. The following methods are implemented:
+The WM ASF Reader partially implements the [**IWMReaderAdvanced**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced) and [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) interfaces in order to give applications access to the informational methods on the reader object. The filter's implementation simply passes the calls through to the interface on the reader object. The streaming methods are not implemented because the filter must have complete control over the streaming process. The following methods are implemented:
 
--   [**IWMReaderAdvanced::GetStatistics**](https://msdn.microsoft.com/library/Dd743477(v=VS.85).aspx)
--   [**IWMReaderAdvanced::SetClientInfo**](https://msdn.microsoft.com/library/Dd743483(v=VS.85).aspx)
--   [**IWMReaderAdvanced2::GetBufferProgress**](https://msdn.microsoft.com/library/Dd757431(v=VS.85).aspx)
--   [**IWMReaderAdvanced2::GetDownloadProgress**](https://msdn.microsoft.com/library/Dd757432(v=VS.85).aspx)
--   [**IWMReaderAdvanced2::GetPlayMode**](https://msdn.microsoft.com/library/Dd757435(v=VS.85).aspx)
--   [**IWMReaderAdvanced2::GetProtocolName**](https://msdn.microsoft.com/library/Dd757436(v=VS.85).aspx)
--   [**IWMReaderAdvanced2::SetLogClientID**](https://msdn.microsoft.com/library/Dd757441(v=VS.85).aspx)
--   [**IWMReaderAdvanced2::SetPlayMode**](https://msdn.microsoft.com/library/Dd757443(v=VS.85).aspx)
+-   [**IWMReaderAdvanced::GetStatistics**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstatistics)
+-   [**IWMReaderAdvanced::SetClientInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setclientinfo)
+-   [**IWMReaderAdvanced2::GetBufferProgress**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getbufferprogress)
+-   [**IWMReaderAdvanced2::GetDownloadProgress**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getdownloadprogress)
+-   [**IWMReaderAdvanced2::GetPlayMode**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getplaymode)
+-   [**IWMReaderAdvanced2::GetProtocolName**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getprotocolname)
+-   [**IWMReaderAdvanced2::SetLogClientID**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setlogclientid)
+-   [**IWMReaderAdvanced2::SetPlayMode**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setplaymode)
 
 ## Related topics
 
@@ -61,7 +61,3 @@ The WM ASF Reader partially implements the [**IWMReaderAdvanced**](https://msdn.
  
 
  
-
-
-
-

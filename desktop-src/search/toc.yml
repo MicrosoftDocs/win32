@@ -239,7 +239,7 @@
           href: iitempropertybag.md
           items: 
           - name: "CountProperties Method"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff684387(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/ff684387(v=vs.85)
           - name: "GetPropertyInfo Method"
             href: iitempropertybag-getpropertyinfo.md
           - name: "Read Method"
@@ -256,12 +256,12 @@
           - name: "IsOplockValid"
             href: /windows/desktop/api/Searchapi/nf-searchapi-ioplockstatus-isoplockvalid
         - name: "IProtocolHandlerServices"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb231447(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/bb231447(v=vs.85)
           items: 
           - name: "CreateAccessor"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb231445(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/bb231445(v=vs.85)
           - name: "GetFilter"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb231446(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/bb231446(v=vs.85)
         - name: "IProtocolHandlerSite"
           href: /windows/desktop/api/Searchapi/nn-searchapi-iprotocolhandlersite
           items: 
@@ -749,7 +749,7 @@
           - name: "GetParentFolder"
             href: -search-isearchitem-getparentfolder.md
           - name: "GetUIObjectOf"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd756721(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd756721(v=vs.85)
       - name: "Data Add-in Interfaces"
         href: -search-data-addins-interfaces-entry-page.md
         items: 
@@ -766,18 +766,18 @@
           href: /windows/desktop/api/indexsrv/nn-indexsrv-icolumnmapper
           items: 
           - name: "EnumPropInfo method"
-            href: https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-icolumnmapper-enumpropinfo
+            href: /windows/desktop/api/indexsrv/nf-indexsrv-icolumnmapper-enumpropinfo
           - name: "GetPropInfoFromId method"
-            href: https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-icolumnmapper-getpropinfofromid
+            href: /windows/desktop/api/indexsrv/nf-indexsrv-icolumnmapper-getpropinfofromid
           - name: "GetPropInfoFromName method"
-            href: https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-icolumnmapper-getpropinfofromname
+            href: /windows/desktop/api/indexsrv/nf-indexsrv-icolumnmapper-getpropinfofromname
           - name: "IsMapUpToDate method"
-            href: https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-icolumnmapper-ismapuptodate
+            href: /windows/desktop/api/indexsrv/nf-indexsrv-icolumnmapper-ismapuptodate
         - name: "IColumnMapperCreator"
           href: /windows/desktop/api/indexsrv/nn-indexsrv-icolumnmappercreator
           items: 
           - name: "GetColumnMapper method"
-            href: https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-icolumnmappercreator-getcolumnmapper
+            href: /windows/desktop/api/indexsrv/nf-indexsrv-icolumnmappercreator-getcolumnmapper
         - name: "IFilter"
           href: /windows/win32/api/filter/nn-filter-ifilter
           items: 
@@ -801,7 +801,7 @@
           - name: "LoadIFilterFromStream Method"
             href: /windows/desktop/api/filtereg/nf-filtereg-iloadfilter-loadifilterfromstream
         - name: "IPhraseSink"
-          href: https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink
+          href: /windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink
           items: 
           - name: "PutPhrase Method"
             href: /windows/desktop/api/Indexsrv/nf-indexsrv-iphrasesink-putphrase
@@ -811,11 +811,11 @@
           href: /windows/desktop/api/Searchapi/nn-searchapi-isearchlanguagesupport
           items: 
           - name: "EnumerateExpandedTerms"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb266438(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/bb266438(v=vs.85)
           - name: "GetDiacriticSensitivity"
             href: /windows/desktop/api/Searchapi/nf-searchapi-isearchlanguagesupport-getdiacriticsensitivity
           - name: "IsNoiseWord"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb266441(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/bb266441(v=vs.85)
           - name: "IsPrefixNormalized"
             href: /windows/desktop/api/Searchapi/nf-searchapi-isearchlanguagesupport-isprefixnormalized
           - name: "LoadStemmer"
@@ -967,28 +967,28 @@
         href: -search-notifications-interfaces-entry-page.md
         items: 
         - name: "IGatherInlineStatus"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb231473(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/bb231473(v=vs.85)
           items: 
           - name: "SendInlineStatusChange"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb231474(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/bb231474(v=vs.85)
         - name: "IGatherNotifyInline"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb231470(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/bb231470(v=vs.85)
           items: 
           - name: "Initialize"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb231471(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/bb231471(v=vs.85)
           - name: "OnDataChange"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb231472(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/bb231472(v=vs.85)
         - name: "IGatherNotifyInlineInternal"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb231465(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/bb231465(v=vs.85)
           items: 
           - name: "OnDataChangeInline"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb231466(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/bb231466(v=vs.85)
           - name: "RegisterInlineNotificationClient"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb231467(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/bb231467(v=vs.85)
           - name: "ReleaseInlineNotificationClient"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb231468(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/bb231468(v=vs.85)
           - name: "SendItemIndexedStatusChange"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb231469(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/bb231469(v=vs.85)
         - name: "ISearchItemsChangedSink"
           href: /windows/desktop/api/Searchapi/nn-searchapi-isearchitemschangedsink
           items: 
@@ -1027,15 +1027,15 @@
       - name: "FILTERED_DATA_SOURCES"
         href: /windows/win32/api/filtereg/ns-filtereg-filtered_data_sources
       - name: "FILTERREGION"
-        href: https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-filterregion
+        href: /windows/desktop/api/filter/ns-filter-filterregion
       - name: "FULLPROPSPEC"
-        href: https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-fullpropspec
+        href: /windows/desktop/api/filter/ns-filter-fullpropspec
       - name: "HITRANGE"
         href: /windows/win32/api/Structuredquery/ns-structuredquery-hitrange
       - name: "INCREMENTAL_ACCESS_INFO"
         href: /windows/win32/api/Searchapi/ns-searchapi-incremental_access_info
       - name: "INLINE_NOTIFY_DATA_CHANGE_ENTRY"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa965367(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa965367(v=vs.85)
       - name: "ITEM_INFO"
         href: /windows/win32/api/Searchapi/ns-searchapi-item_info
       - name: "ITEMPROP"
@@ -1053,7 +1053,7 @@
       - name: "SEARCH_ITEM_PERSISTENT_CHANGE"
         href: /windows/win32/api/Searchapi/ns-searchapi-search_item_persistent_change
       - name: "STAT_CHUNK"
-        href: https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-stat_chunk
+        href: /windows/desktop/api/filter/ns-filter-stat_chunk
       - name: "TEXT_SOURCE"
         href: /windows/win32/api/Indexsrv/ns-indexsrv-text_source
       - name: "TIMEOUT_INFO"
@@ -1072,9 +1072,9 @@
       - name: "CatalogStatus"
         href: /windows/win32/api/Searchapi/ne-searchapi-catalogstatus
       - name: "CHUNKSTATE"
-        href: https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-chunkstate
+        href: /windows/desktop/api/filter/ne-filter-chunkstate
       - name: "CHUNK_BREAKTYPE"
-        href: https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-chunk_breaktype
+        href: /windows/desktop/api/filter/ne-filter-chunk_breaktype
       - name: "CLUSION_REASON"
         href: /windows/win32/api/Searchapi/ne-searchapi-clusion_reason
       - name: "CONDITION_CREATION_OPTIONS"
@@ -1088,9 +1088,9 @@
       - name: "DISPLAYSTATE"
         href: displaystate.md
       - name: "IFILTER_FLAGS"
-        href: https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-ifilter_flags
+        href: /windows/desktop/api/filter/ne-filter-ifilter_flags
       - name: "IFILTER_INIT"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb266511(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/bb266511(v=vs.85)
       - name: "INTERVAL_LIMIT_KIND"
         href: /windows/win32/api/Structuredquery/ne-structuredquery-interval_limit_kind
       - name: "LINKTYPE"
@@ -1130,7 +1130,7 @@
       - name: "STRUCTURED_QUERY_SYNTAX"
         href: /windows/win32/api/Structuredquery/ne-structuredquery-structured_query_syntax
       - name: "WORDREP_BREAK_TYPE"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff819130(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/ff819130(v=vs.85)
     - name: "Property Mappings (from WDS 2.x to 3.x)"
       href: -search-3x-wds-propertymappings.md
     - name: "Saved Search File Format"

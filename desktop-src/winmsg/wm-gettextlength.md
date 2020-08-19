@@ -43,11 +43,11 @@ The return value is the length of the text in characters, not including the term
 
 ## Remarks
 
-For an edit control, the text to be copied is the content of the edit control. For a combo box, the text is the content of the edit control (or static-text) portion of the combo box. For a button, the text is the button name. For other windows, the text is the window title. To determine the length of an item in a list box, an application can use the [**LB\_GETTEXTLEN**](https://msdn.microsoft.com/library/Bb761315(v=VS.85).aspx) message.
+For an edit control, the text to be copied is the content of the edit control. For a combo box, the text is the content of the edit control (or static-text) portion of the combo box. For a button, the text is the button name. For other windows, the text is the window title. To determine the length of an item in a list box, an application can use the [**LB\_GETTEXTLEN**](../controls/lb-gettextlen.md) message.
 
-When the **WM\_GETTEXTLENGTH** message is sent, the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function returns the length, in characters, of the text. Under certain conditions, the **DefWindowProc** function returns a value that is larger than the actual length of the text. This occurs with certain mixtures of ANSI and Unicode, and is due to the system allowing for the possible existence of double-byte character set (DBCS) characters within the text. The return value, however, will always be at least as large as the actual length of the text; you can thus always use it to guide buffer allocation. This behavior can occur when an application uses both ANSI functions and common dialogs, which use Unicode.
+When the **WM\_GETTEXTLENGTH** message is sent, the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function returns the length, in characters, of the text. Under certain conditions, the **DefWindowProc** function returns a value that is larger than the actual length of the text. This occurs with certain mixtures of ANSI and Unicode, and is due to the system allowing for the possible existence of double-byte character set (DBCS) characters within the text. The return value, however, will always be at least as large as the actual length of the text; you can thus always use it to guide buffer allocation. This behavior can occur when an application uses both ANSI functions and common dialogs, which use Unicode.
 
-To obtain the exact length of the text, use the [**WM\_GETTEXT**](wm-gettext.md), [**LB\_GETTEXT**](https://msdn.microsoft.com/library/Bb761313(v=VS.85).aspx), or [**CB\_GETLBTEXT**](https://msdn.microsoft.com/library/Bb775862(v=VS.85).aspx) messages, or the [**GetWindowText**](https://msdn.microsoft.com/library/ms633520(v=VS.85).aspx) function.
+To obtain the exact length of the text, use the [**WM\_GETTEXT**](wm-gettext.md), [**LB\_GETTEXT**](../controls/lb-gettext.md), or [**CB\_GETLBTEXT**](../controls/cb-getlbtext.md) messages, or the [**GetWindowText**](/windows/win32/api/winuser/nf-winuser-getwindowtexta) function.
 
 Sending a **WM\_GETTEXTLENGTH** message to a non-text static control, such as a static bitmap or static icon controlc, does not return a string value. Instead, it returns zero.
 
@@ -70,13 +70,13 @@ Sending a **WM\_GETTEXTLENGTH** message to a non-text static control, such as a 
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**GetWindowText**](https://msdn.microsoft.com/library/ms633520(v=VS.85).aspx)
+[**GetWindowText**](/windows/win32/api/winuser/nf-winuser-getwindowtexta)
 </dt> <dt>
 
-[**GetWindowTextLength**](https://msdn.microsoft.com/library/ms633521(v=VS.85).aspx)
+[**GetWindowTextLength**](/windows/win32/api/winuser/nf-winuser-getwindowtextlengtha)
 </dt> <dt>
 
 [**WM\_GETTEXT**](wm-gettext.md)
@@ -91,19 +91,15 @@ Sending a **WM\_GETTEXTLENGTH** message to a non-text static control, such as a 
 **Other Resources**
 </dt> <dt>
 
-[**CB\_GETLBTEXT**](https://msdn.microsoft.com/library/Bb775862(v=VS.85).aspx)
+[**CB\_GETLBTEXT**](../controls/cb-getlbtext.md)
 </dt> <dt>
 
-[**LB\_GETTEXT**](https://msdn.microsoft.com/library/Bb761313(v=VS.85).aspx)
+[**LB\_GETTEXT**](../controls/lb-gettext.md)
 </dt> <dt>
 
-[**LB\_GETTEXTLEN**](https://msdn.microsoft.com/library/Bb761315(v=VS.85).aspx)
+[**LB\_GETTEXTLEN**](../controls/lb-gettextlen.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

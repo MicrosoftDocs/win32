@@ -26,8 +26,8 @@ Windows Sockets 1.1 defined a number of routines used for name resolution with T
 <dl>
 
 [**gethostname**](/windows/desktop/api/winsock/nf-winsock-gethostname)  
-[**gethostbyaddr**](https://msdn.microsoft.com/library/ms738521(v=VS.85).aspx)  
-[**gethostbyname**](https://msdn.microsoft.com/library/ms738524(v=VS.85).aspx)  
+[**gethostbyaddr**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr)  
+[**gethostbyname**](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyname)  
 [**getprotobyname**](/windows/desktop/api/winsock/nf-winsock-getprotobyname)  
 [**getprotobynumber**](/windows/desktop/api/winsock/nf-winsock-getprotobynumber)  
 [**getservbyname**](/windows/desktop/api/winsock/nf-winsock-getservbyname)  
@@ -38,8 +38,8 @@ Asynchronous versions of these functions were also defined.
 
 <dl>
 
-[**WSAAsyncGetHostByAddr**](https://msdn.microsoft.com/library/ms741519(v=VS.85).aspx)  
-[**WSAAsyncGetHostByName**](https://msdn.microsoft.com/library/ms741522(v=VS.85).aspx)  
+[**WSAAsyncGetHostByAddr**](/windows/win32/api/winsock/nf-winsock-wsaasyncgethostbyaddr)  
+[**WSAAsyncGetHostByName**](/windows/win32/api/winsock/nf-winsock-wsaasyncgethostbyname)  
 [**WSAAsyncGetProtoByName**](/windows/desktop/api/winsock/nf-winsock-wsaasyncgetprotobyname)  
 [**WSAAsyncGetProtoByNumber**](/windows/desktop/api/winsock/nf-winsock-wsaasyncgetprotobynumber)  
 [**WSAAsyncGetServByName**](/windows/desktop/api/winsock/nf-winsock-wsaasyncgetservbyname)  
@@ -50,8 +50,8 @@ There are also two functions, now implemented in the Winsock2.dll, used to conve
 
 <dl>
 
-[**inet\_addr**](https://msdn.microsoft.com/library/ms738563(v=VS.85).aspx)  
-[**inet\_ntoa**](https://msdn.microsoft.com/library/ms738564(v=VS.85).aspx)  
+[**inet\_addr**](/windows/win32/api/winsock2/nf-winsock2-inet_addr)  
+[**inet\_ntoa**](/windows/win32/api/winsock2/nf-winsock2-inet_ntoa)  
 </dl>
 
 In order to retain strict backward compatibility with Windows Sockets 1.1, all of the older IPv4-only functions continue to be supported as long as at least one namespace provider is present that supports the AF\_INET address family (these functions are not relevant to IP version 6, denoted by AF\_INET6).
@@ -80,6 +80,3 @@ This section describes compatible name resolution for TCP/IP in the Windows Sock
  
 
  
-
-
-

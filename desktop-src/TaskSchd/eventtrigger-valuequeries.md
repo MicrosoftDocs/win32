@@ -33,7 +33,7 @@ EventTrigger.ValueQueries As String
 
 ## Property value
 
-A collection of of name-value pairs. Each name-value pair in the collection defines a unique name for a property value of the event that triggers the event trigger. The property value of the event is defined as an XPath event query. For more information about XPath event queries, see [Event Selection](https://msdn.microsoft.com/library/aa385231(VS.85).aspx).
+A collection of of name-value pairs. Each name-value pair in the collection defines a unique name for a property value of the event that triggers the event trigger. The property value of the event is defined as an XPath event query. For more information about XPath event queries, see [Event Selection](/previous-versions//aa385231(v=vs.85)).
 
 ## Remarks
 
@@ -63,7 +63,7 @@ name: machine
 value: Event/UserData/MachineName
 ```
 
-For more information about writing a query string for certain events, see [Event Selection](https://msdn.microsoft.com/library/aa385231(VS.85).aspx) and [Subscribing to Events](https://msdn.microsoft.com/library/aa385771(VS.85).aspx).
+For more information about writing a query string for certain events, see [Event Selection](/previous-versions//aa385231(v=vs.85)) and [Subscribing to Events](../wes/subscribing-to-events.md).
 
 ## Requirements
 
@@ -89,10 +89,4 @@ For more information about writing a query string for certain events, see [Event
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

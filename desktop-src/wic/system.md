@@ -16,16 +16,16 @@ This section contains the photo metadata policies for System properties.
 
 | Topic                                                                                                | Description                                                                                                                                   |
 |------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [System.ApplicationName Photo Metadata Policy](-wic-photoprop-system-applicationname.md)<br/> | The photo metadata policy for the [System.ApplicationName](https://msdn.microsoft.com/library/bb760650(VS.85).aspx) property.<br/> |
-| [System.Author Photo Metadata Policy](-wic-photoprop-system-author.md)<br/>                   | The photo metadata policy for the [System.Author](https://msdn.microsoft.com/library/bb760652(VS.85).aspx) property.<br/>          |
-| [System.Comment Photo Metadata Policy](-wic-photoprop-system-comment.md)<br/>                 | The photo metadata policy for the [System.Comment](https://msdn.microsoft.com/library/bb760658(VS.85).aspx) property.<br/>         |
-| [System.Copyright Photo Metadata Policy](-wic-photoprop-system-copyright.md)<br/>             | The photo metadata policy for the [System.Copyright](https://msdn.microsoft.com/library/bb760671(VS.85).aspx) property.<br/>       |
-| [System.DateAcquired Photo Metadata Policy](-wic-photoprop-system-dateacquired.md)<br/>       | The photo metadata policy for the [System.DateAcquired](https://msdn.microsoft.com/library/bb760675(VS.85).aspx) property.<br/>    |
-| [System.Keywords Photo Metadata Policy](-wic-photoprop-system-keywords.md)<br/>               | The photo metadata policy for the [System.Keywords](https://msdn.microsoft.com/library/bb787519(VS.85).aspx) property.<br/>        |
-| [System.Rating Photo Metadata Policy](-wic-photoprop-system-rating.md)<br/>                   | The photo metadata policy for the [System.Rating](https://msdn.microsoft.com/library/bb787554(VS.85).aspx) property.<br/>          |
-| [System.SimpleRating Photo Metadata Policy](-wic-photoprop-system-simplerating.md)<br/>       | The photo metadata policy for the [System.SimpleRating](https://msdn.microsoft.com/library/bb787564(VS.85).aspx) property.<br/>    |
-| [System.Subject Photo Metadata Policy](-wic-photoprop-system-subject.md)<br/>                 | The photo metadata policy for the [System.Subject](https://msdn.microsoft.com/library/bb787576(VS.85).aspx) property.<br/>         |
-| [System.Title Photo Metadata Policy](-wic-photoprop-system-title.md)<br/>                     | The photo metadata policy for the [System.Title](https://msdn.microsoft.com/library/bb787584(VS.85).aspx) property.<br/>           |
+| [System.ApplicationName Photo Metadata Policy](-wic-photoprop-system-applicationname.md)<br/> | The photo metadata policy for the [System.ApplicationName](../properties/props-system-applicationname.md) property.<br/> |
+| [System.Author Photo Metadata Policy](-wic-photoprop-system-author.md)<br/>                   | The photo metadata policy for the [System.Author](../properties/props-system-author.md) property.<br/>          |
+| [System.Comment Photo Metadata Policy](-wic-photoprop-system-comment.md)<br/>                 | The photo metadata policy for the [System.Comment](../properties/props-system-comment.md) property.<br/>         |
+| [System.Copyright Photo Metadata Policy](-wic-photoprop-system-copyright.md)<br/>             | The photo metadata policy for the [System.Copyright](../properties/props-system-copyright.md) property.<br/>       |
+| [System.DateAcquired Photo Metadata Policy](-wic-photoprop-system-dateacquired.md)<br/>       | The photo metadata policy for the [System.DateAcquired](../properties/props-system-dateacquired.md) property.<br/>    |
+| [System.Keywords Photo Metadata Policy](-wic-photoprop-system-keywords.md)<br/>               | The photo metadata policy for the [System.Keywords](../properties/props-system-keywords.md) property.<br/>        |
+| [System.Rating Photo Metadata Policy](-wic-photoprop-system-rating.md)<br/>                   | The photo metadata policy for the [System.Rating](../properties/props-system-rating.md) property.<br/>          |
+| [System.SimpleRating Photo Metadata Policy](-wic-photoprop-system-simplerating.md)<br/>       | The photo metadata policy for the [System.SimpleRating](../properties/props-system-simplerating.md) property.<br/>    |
+| [System.Subject Photo Metadata Policy](-wic-photoprop-system-subject.md)<br/>                 | The photo metadata policy for the [System.Subject](../properties/props-system-subject.md) property.<br/>         |
+| [System.Title Photo Metadata Policy](-wic-photoprop-system-title.md)<br/>                     | The photo metadata policy for the [System.Title](../properties/props-system-title.md) property.<br/>           |
 
 
 
@@ -34,7 +34,3 @@ This section contains the photo metadata policies for System properties.
  
 
  
-
-
-
-

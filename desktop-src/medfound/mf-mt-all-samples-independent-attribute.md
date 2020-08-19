@@ -20,7 +20,7 @@ Treat as a Boolean value.
 
 If this attribute is **FALSE**, some samples cannot be used without referring to other samples in the stream. For example, if a video format contains delta frames, this attribute should be **FALSE**.
 
-This attribute corresponds to the **bTemporalCompression** field in the DirectShow [**AM\_MEDIA\_TYPE**](https://msdn.microsoft.com/library/Dd373477(v=VS.85).aspx) structure.
+This attribute corresponds to the **bTemporalCompression** field in the DirectShow [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) structure.
 
 Set this attribute to **TRUE** for all uncompressed media types.
 
@@ -60,7 +60,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

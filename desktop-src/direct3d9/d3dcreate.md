@@ -104,7 +104,7 @@ Unless hardware vertex processing is not available, the usage of software vertex
 </tr>
 <tr class="even">
 <td>D3DCREATE_MULTITHREADED</td>
-<td>Indicates that the application requests Direct3D to be multithread safe. This makes a Direct3D thread take ownership of its global <a href="https://docs.microsoft.com/windows/desktop/Sync/critical-section-objects">critical section</a> more frequently, which can degrade performance. If an application processes window messages in one thread while making Direct3D API calls in another, the application must use this flag when creating the device. This window must also be destroyed before unloading d3d9.dll.</td>
+<td>Indicates that the application requests Direct3D to be multithread safe. This makes a Direct3D thread take ownership of its global <a href="/windows/desktop/Sync/critical-section-objects">critical section</a> more frequently, which can degrade performance. If an application processes window messages in one thread while making Direct3D API calls in another, the application must use this flag when creating the device. This window must also be destroyed before unloading d3d9.dll.</td>
 </tr>
 <tr class="odd">
 <td>D3DCREATE_NOWINDOWCHANGES</td>
@@ -143,7 +143,7 @@ If this flag is set, the application must fully support all focus management eve
 
  
 
-D3DCREATE\_HARDWARE\_VERTEXPROCESSING, D3DCREATE\_MIXED\_VERTEXPROCESSING, and D3DCREATE\_SOFTWARE\_VERTEXPROCESSING are mutually exclusive flags. At least one of these vertex processing flags must be specified when calling [**CreateDevice**](https://msdn.microsoft.com/library/Bb174313(v=VS.85).aspx).
+D3DCREATE\_HARDWARE\_VERTEXPROCESSING, D3DCREATE\_MIXED\_VERTEXPROCESSING, and D3DCREATE\_SOFTWARE\_VERTEXPROCESSING are mutually exclusive flags. At least one of these vertex processing flags must be specified when calling [**CreateDevice**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-createdevice).
 
 ## Constant Information
 
@@ -168,7 +168,3 @@ D3DCREATE\_HARDWARE\_VERTEXPROCESSING, D3DCREATE\_MIXED\_VERTEXPROCESSING, and D
  
 
  
-
-
-
-

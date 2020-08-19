@@ -12,14 +12,10 @@ The Format Version value is a **WORD** data type that is used to indicate the fo
 
 Property sets with Format Version 1 are equivalent to Version 0, with the following additions:
 
--   **Case sensitive property names**. Property names are stored in the reserved dictionary property, [Property ID 0](https://docs.microsoft.com/windows/desktop/Stg/reserved-property-identifiers). In version 1 property sets, these names can be case sensitive. Case sensitivity is determined by the reserved Behavior property, [Property ID 0x80000003](https://docs.microsoft.com/windows/desktop/Stg/reserved-property-identifiers).
--   **Long property names**. Version 1 property sets, unlike version 0 property sets, are not limited in the length of property names. See [Property ID 0](https://docs.microsoft.com/windows/desktop/Stg/reserved-property-identifiers) for more information on property names.
--   **Property types**. Version 1 property sets can hold all the property types that can be held in a version 0 property set plus some additional types. See the [**PROPVARIANT**](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx) structure for more information on these types.
+-   **Case sensitive property names**. Property names are stored in the reserved dictionary property, [Property ID 0](/windows/desktop/Stg/reserved-property-identifiers). In version 1 property sets, these names can be case sensitive. Case sensitivity is determined by the reserved Behavior property, [Property ID 0x80000003](/windows/desktop/Stg/reserved-property-identifiers).
+-   **Long property names**. Version 1 property sets, unlike version 0 property sets, are not limited in the length of property names. See [Property ID 0](/windows/desktop/Stg/reserved-property-identifiers) for more information on property names.
+-   **Property types**. Version 1 property sets can hold all the property types that can be held in a version 0 property set plus some additional types. See the [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structure for more information on these types.
 
  
 
  
-
-
-
-

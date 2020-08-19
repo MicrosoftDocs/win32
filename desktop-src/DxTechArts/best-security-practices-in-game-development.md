@@ -21,9 +21,9 @@ An increasing number of people play online games and games with user-made conten
 
 The three most common mistakes made by a development team when releasing a product are:
 
--   Requiring administrative privileges. Games should not require administrative privileges. For more details, see [User Account Control for Game Developers](/windows/win32/DxTechArts/user-account-control-for-game-developers).
+-   Requiring administrative privileges. Games should not require administrative privileges. For more details, see [User Account Control for Game Developers](./user-account-control-for-game-developers.md).
 -   Not using automated protection. Developers are generally not using **/GS**, **/SAFESEH**, or **/NX**. Using these compile/link flags can spot or eliminate many basic security holes without significantly increasing workload. These flags are discussed later in this article.
--   Using forbidden APIs. There are many APIs (**strcpy**, **strncpy**, and so on) that are prone to programmer error and easily generate security holes. Developers should replace these APIs with the safe versions. Visual Studio 2005 comes with a tool for analyzing binary files that can automatically check object files for references to unsafe APIs. For more information on what to do with information generated with this tool, see [Repel Attacks on Your Code with the Visual Studio 2005 Safe C and C++ Libraries](https://docs.microsoft.com/archive/msdn-magazine/2005/may/repel-attacks-with-visual-studio-2005-safe-c-and-c-libraries) by Martyn Lovell. Also, you can get the [banned.h](https://www.microsoft.com/downloads/details.aspx?FamilyID=6aed14bd-4766-4d9d-9ee2-fa86aad1e3c9) header file that can help you remove banned functions from code.
+-   Using forbidden APIs. There are many APIs (**strcpy**, **strncpy**, and so on) that are prone to programmer error and easily generate security holes. Developers should replace these APIs with the safe versions. Visual Studio 2005 comes with a tool for analyzing binary files that can automatically check object files for references to unsafe APIs. For more information on what to do with information generated with this tool, see [Repel Attacks on Your Code with the Visual Studio 2005 Safe C and C++ Libraries](/archive/msdn-magazine/2005/may/repel-attacks-with-visual-studio-2005-safe-c-and-c-libraries) by Martyn Lovell. Also, you can get the [banned.h](https://www.microsoft.com/downloads/details.aspx?FamilyID=6aed14bd-4766-4d9d-9ee2-fa86aad1e3c9) header file that can help you remove banned functions from code.
 
 Each of the listed mistakes is not only common but is easily correctable with no significant change in development workload, coding standards, or functionality.
 
@@ -92,7 +92,7 @@ More on Threat Modeling can be found at [Threat Modeling](https://technet.micros
 
 A recent tool in mitigating multiple exploits is data execution prevention (DEP). If you include the switch **/NX** in the build command, Visual Studio will mark memory pages with flags that denote whether the code has the right to execute or not. Any program attempting to execute in a memory page not flagged with EXECUTE permission will cause a forcible termination of the program. The prevention is enforced on the processor level and will impact developers who are using self-modifying code or native JIT language compilers. Currently, only AMD's Athlon64 and Opteron processors and Intel's Itanium and latest Pentium 4 processors support execution prevention, but it is expected that all 32-bit and 64-bit processors will support execution prevention in the future. (A copy-protection scheme used by a developer may be affected by execution prevention, but Microsoft has been working with copy-protection vendors to minimize the impact.) It is a good practice to use DEP.
 
-For more details on DEP, see [Data Execution Prevention](/windows/win32/Memory/data-execution-prevention).
+For more details on DEP, see [Data Execution Prevention](../memory/data-execution-prevention.md).
 
 </dd> <dt>
 
@@ -107,7 +107,7 @@ Using the **/SAFESEH** flag will instruct the linker to only generate an executa
 
 More information about [Buffer Security Check](https://msdn.microsoft.com/library/8dbf701c(vs.71).aspx) (**/GS**) and [Image has Safe Exception Handlers](https://msdn.microsoft.com/library/9a89h429(vs.71).aspx) (**/SAFESEH**) can be found in MSDN.
 
-See also info about Microsoft Visual Studio 2012's [**/SDL** flag](https://docs.microsoft.com/cpp/build/reference/sdl-enable-additional-security-checks?view=vs-2019) and Visual Studio 2012's [enhancements to the **/GS** flag](https://www.microsoft.com/security/blog/2012/01/26/enhancements-to-gs-in-visual-studio-11/).
+See also info about Microsoft Visual Studio 2012's [**/SDL** flag](/cpp/build/reference/sdl-enable-additional-security-checks?view=vs-2019) and Visual Studio 2012's [enhancements to the **/GS** flag](https://www.microsoft.com/security/blog/2012/01/26/enhancements-to-gs-in-visual-studio-11/).
 
 </dd> <dt>
 
@@ -117,11 +117,11 @@ See also info about Microsoft Visual Studio 2012's [**/SDL** flag](https://docs
 PREfast is a free tool offered by Microsoft that analyzes execution paths in compiled C or C++ to help find run-time bugs. PREfast operates by working through all execution paths in all functions and assessing each path for problems. Originally used to develop drivers and other kernel code, this tool can help game developers save time by eliminating some bugs that are hard to find or are ignored by the compiler. Using PREfast is an excellent way of reducing workload and focusing the efforts of both the development team and test team. PREfast is available in Visual Studio Team Suite and Visual Studio Team Edition for Software Developers as Code Analysis, enabled by the compiler switch **/analyze**. (This option is also available in the free version of the compiler that ships with the Windows Software Development Kit.)
 
 > [!Note]  
-> Visual Studio 2012 supports **/analyze** in all editions. For more info about code analysis availability in all editions of Visual Studio, see [What’s New in Code Analysis](https://blogs.msdn.microsoft.com/codeanalysis/?m=20123).
+> Visual Studio 2012 supports **/analyze** in all editions. For more info about code analysis availability in all editions of Visual Studio, see [What’s New in Code Analysis](/archive/blogs/codeanalysis/?m=20123).
 
  
 
-Through the use of header annotation (particularly for buffer pointer arguments), PREfast can expose additional issues, such as memory overwrite bugs, a common source of crashes and potential security vulnerabilities. This is done by using the Standard Annotation Language (SAL), which is a form of mark-up for C/C++ function prototypes that provide additional information about expected pointer argument semantics and correlation with length parameters, declared buffer sizes, etc. All of the headers for Windows operating systems are annotated, and adding SAL mark-up in public API headers in your own libraries enables PREfast to perform more detailed and aggressive checks in your client code for such APIs. For an introduction to SAL and links to more information, see Michael Howard's blog entry, "[A Brief Introduction to the Standard Annotation Language (SAL)](https://blogs.msdn.microsoft.com/michael_howard/2006/05/19/a-brief-introduction-to-the-standard-annotation-language-sal/)."
+Through the use of header annotation (particularly for buffer pointer arguments), PREfast can expose additional issues, such as memory overwrite bugs, a common source of crashes and potential security vulnerabilities. This is done by using the Standard Annotation Language (SAL), which is a form of mark-up for C/C++ function prototypes that provide additional information about expected pointer argument semantics and correlation with length parameters, declared buffer sizes, etc. All of the headers for Windows operating systems are annotated, and adding SAL mark-up in public API headers in your own libraries enables PREfast to perform more detailed and aggressive checks in your client code for such APIs. For an introduction to SAL and links to more information, see Michael Howard's blog entry, "[A Brief Introduction to the Standard Annotation Language (SAL)](/archive/blogs/michael_howard/a-brief-introduction-to-the-standard-annotation-language-sal)."
 
 </dd> <dt>
 
@@ -130,7 +130,7 @@ Through the use of header annotation (particularly for buffer pointer arguments)
 
 The Windows Application Verifier, or AppVerifier, can help testers by providing multiple functions in one tool. The AppVerifier is a tool that was developed to make common programming errors more testable. AppVerifier can check parameters passed to API calls, inject erroneous input to check error handling ability, and log changes to the registry and file system. AppVerifier can also detect buffer overruns in the heap, check that an Access Control List (ACL) has been properly defined, and enforce the safe use of socket APIs. While not exhaustive, AppVerifier can be one tool in the tester's toolbox to help a development studio release a quality product.
 
-For more information about Application Verifier, see [Application Verifier](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2008/ms220948(v=vs.90)) and [Using Application Verifier Within Your Software Development Lifecycle](/previous-versions/aa480483(v=msdn.10)) on MSDN.
+For more information about Application Verifier, see [Application Verifier](/previous-versions/visualstudio/visual-studio-2008/ms220948(v=vs.90)) and [Using Application Verifier Within Your Software Development Lifecycle](/previous-versions/aa480483(v=msdn.10)) on MSDN.
 
 </dd> <dt>
 
@@ -152,16 +152,16 @@ Authenticode should not be considered a method of eliminating security issues, b
 
 Even if a developer feels that there is no threat of their releases being modified, other technologies and services rely on Authenticode. Code signing is easy to integrate and automate; there is no reason for developers to not have their releases signed.
 
-For more information on Authenticode signing, see [Authenticode Signing for Game Developers](/windows/win32/DxTechArts/authenticode-signing-for-game-developers).
+For more information on Authenticode signing, see [Authenticode Signing for Game Developers](./authenticode-signing-for-game-developers.md).
 
 </dd> <dt>
 
 <span id="Minimize_Privileges"></span><span id="minimize_privileges"></span><span id="MINIMIZE_PRIVILEGES"></span>Minimize Privileges
 </dt> <dd>
 
-In general processes should run with the minimum set of privileges required to operate. On Windows Vista and Windows 7, this is accomplished by using [User Account Control](/windows/win32/DxTechArts/user-account-control-for-game-developers), allowing the game to run as a Standard User rather than an administrator. For Windows XP, typically games are always running as administrator. Even on Windows Vista and Windows 7, it is sometimes necessary to elevate to full administrator rights for some specific operations.
+In general processes should run with the minimum set of privileges required to operate. On Windows Vista and Windows 7, this is accomplished by using [User Account Control](./user-account-control-for-game-developers.md), allowing the game to run as a Standard User rather than an administrator. For Windows XP, typically games are always running as administrator. Even on Windows Vista and Windows 7, it is sometimes necessary to elevate to full administrator rights for some specific operations.
 
-In the cases where the process is running with full administrative rights, usually only a few rights beyond those of a Standard User are actually required. Administrative access includes many rights that are not required by legitimate code, but could be used by an attacker, through some weakness in the process. Examples of such rights include SE\_TAKE\_OWNERSHIP, SE\_DEBUG, SE\_CREATE\_TOKEN, SE\_ASSIGNPRIMARYTOKEN, SE\_TCB, SE\_SECURITY, SE\_LOAD\_DRIVER, SE\_SYSTEMTIME, SE\_BACKUP, SE\_RESTORE, SE\_SHUTDOWN, and SE\_AUDIT (see [Priviledge Constants](/windows/win32/SecAuthZ/privilege-constants)).
+In the cases where the process is running with full administrative rights, usually only a few rights beyond those of a Standard User are actually required. Administrative access includes many rights that are not required by legitimate code, but could be used by an attacker, through some weakness in the process. Examples of such rights include SE\_TAKE\_OWNERSHIP, SE\_DEBUG, SE\_CREATE\_TOKEN, SE\_ASSIGNPRIMARYTOKEN, SE\_TCB, SE\_SECURITY, SE\_LOAD\_DRIVER, SE\_SYSTEMTIME, SE\_BACKUP, SE\_RESTORE, SE\_SHUTDOWN, and SE\_AUDIT (see [Priviledge Constants](../secauthz/privilege-constants.md)).
 
 While a process cannot gain more rights once started, it can easily give up rights. At startup, the process can immediately use Win32 APIs to remove rights that it does not require.
 
@@ -170,7 +170,7 @@ While a process cannot gain more rights once started, it can easily give up righ
 <span id="Utilize_Windows_Security_Features"></span><span id="utilize_windows_security_features"></span><span id="UTILIZE_WINDOWS_SECURITY_FEATURES"></span>Utilize Windows Security Features
 </dt> <dd>
 
-Windows Vista and Windows 7 includes a number of new features that improve code security. [User Account Control](/windows/win32/DxTechArts/user-account-control-for-game-developers) is certainly the most important one to understand and embrace, but there are other features as well. In addition to the Windows XP SP2 technologies, such as the Windows Firewall, Data Execution Prevention, Buffer Security Check, and Safe Exception Handlers which are also available on Windows Vista and Windows 7, there are three newer security features to consider:
+Windows Vista and Windows 7 includes a number of new features that improve code security. [User Account Control](./user-account-control-for-game-developers.md) is certainly the most important one to understand and embrace, but there are other features as well. In addition to the Windows XP SP2 technologies, such as the Windows Firewall, Data Execution Prevention, Buffer Security Check, and Safe Exception Handlers which are also available on Windows Vista and Windows 7, there are three newer security features to consider:
 
 -   The opt-in Address Space Layout Randomization feature. This is enabled by linking with the option **/DYNAMICBASE** on Visual Studio 2005 Service Pack 1 or Visual Studio 2008. This causes the system to randomize the positions of many of the key system DLLs in your process space, making it much more difficult to write exploitable attack programs that propagate broadly across the Internet. This linker flag is ignored by Windows XP and older versions of Windows.
 -   Heap corruption can lead to an entire class of security exploits, so the memory system of Windows Vista and Windows 7 now supports a mode which terminates the process if heap corruption is detected. Calling [**HeapSetInformation**](/windows/win32/api/heapapi/nf-heapapi-heapsetinformation) with **HeapEnableTermianteOnCorruption** will opt-in to this behavior. This call fails on Windows XP and older version of Windows.
@@ -187,7 +187,3 @@ The information in this article is just an introduction to what a development st
  
 
  
-
-
-
-

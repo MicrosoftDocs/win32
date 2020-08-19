@@ -233,33 +233,33 @@
         - name: "IDirectWriterLock - Compound File Implementation"
           href: idirectwriterlock-compound-file-implementation.md
       - name: "IEnumSTATPROPSETSTG"
-        href: https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg
+        href: /windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg
         items: 
         - name: "Clone"
-          href: https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-clone
+          href: /windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-clone
         - name: "Next"
-          href: https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-next
+          href: /windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-next
         - name: "RemoteNext"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379206(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa379206(v=vs.85)
         - name: "Reset"
-          href: https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-reset
+          href: /windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-reset
         - name: "Skip"
-          href: https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-skip
+          href: /windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-skip
         - name: "IEnumSTATPROPSETSTG - Compound File Implementation"
           href: ienumstatpropsetstg-compound-file-implementation.md
       - name: "IEnumSTATPROPSTG"
-        href: https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropstg
+        href: /windows/desktop/api/propidl/nn-propidl-ienumstatpropstg
         items: 
         - name: "Clone"
-          href: https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-clone
+          href: /windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-clone
         - name: "Next"
-          href: https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-next
+          href: /windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-next
         - name: "RemoteNext"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379214(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa379214(v=vs.85)
         - name: "Reset"
-          href: https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-reset
+          href: /windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-reset
         - name: "Skip"
-          href: https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-skip
+          href: /windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-skip
         - name: "IEnumSTATPROPSTG - Compound File Implementation"
           href: ienumstatpropstg-compound-file-implementation.md
       - name: "IEnumSTATSTG"
@@ -270,7 +270,7 @@
         - name: "Next"
           href: /windows/desktop/api/Objidl/nf-objidl-ienumstatstg-next
         - name: "RemoteNext"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379220(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa379220(v=vs.85)
         - name: "Reset"
           href: /windows/desktop/api/Objidl/nf-objidl-ienumstatstg-reset
         - name: "Skip"
@@ -283,9 +283,9 @@
         - name: "FillAt"
           href: /windows/desktop/api/Objidl/nf-objidl-ifilllockbytes-fillat
         - name: "RemoteFillAppend"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379228(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa379228(v=vs.85)
         - name: "RemoteFillAt"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379229(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa379229(v=vs.85)
         - name: "SetFillSize"
           href: /windows/desktop/api/Objidl/nf-objidl-ifilllockbytes-setfillsize
         - name: "Terminate"
@@ -315,9 +315,9 @@
         - name: "ReadAt"
           href: /windows/desktop/api/Objidl/nf-objidl-ilockbytes-readat
         - name: "RemoteReadAt"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379245(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa379245(v=vs.85)
         - name: "RemoteWriteAt"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379246(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa379246(v=vs.85)
         - name: "SetSize"
           href: /windows/desktop/api/Objidl/nf-objidl-ilockbytes-setsize
         - name: "Stat"
@@ -370,11 +370,11 @@
         - name: "ReadPropertyNames"
           href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-readpropertynames
         - name: "RemoteDeleteMultiple"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379977(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa379977(v=vs.85)
         - name: "RemoteReadMultiple"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379978(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa379978(v=vs.85)
         - name: "RemoteWriteMultiple"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379979(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa379979(v=vs.85)
         - name: "Revert"
           href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-revert
         - name: "SetClass"
@@ -408,9 +408,9 @@
         - name: "Read"
           href: /windows/desktop/api/Objidl/nf-objidl-isequentialstream-read
         - name: "RemoteRead"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380012(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa380012(v=vs.85)
         - name: "RemoteWrite"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380013(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa380013(v=vs.85)
         - name: "Write"
           href: /windows/desktop/api/Objidl/nf-objidl-isequentialstream-write
       - name: "IStorage"
@@ -435,9 +435,9 @@
         - name: "OpenStream"
           href: /windows/desktop/api/Objidl/nf-objidl-istorage-openstream
         - name: "RemoteEnumElements"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380026(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa380026(v=vs.85)
         - name: "RemoteOpenStream"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380027(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa380027(v=vs.85)
         - name: "RenameElement"
           href: /windows/desktop/api/Objidl/nf-objidl-istorage-renameelement
         - name: "Revert"
@@ -464,9 +464,9 @@
         - name: "LockRegion"
           href: /windows/desktop/api/Objidl/nf-objidl-istream-lockregion
         - name: "RemoteCopyTo"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380040(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa380040(v=vs.85)
         - name: "RemoteSeek"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380041(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa380041(v=vs.85)
         - name: "Revert"
           href: /windows/desktop/api/Objidl/nf-objidl-istream-revert
         - name: "Seek"
@@ -489,7 +489,7 @@
       - name: "FmtIdToPropStgName"
         href: /windows/desktop/api/coml2api/nf-coml2api-fmtidtopropstgname
       - name: "FreePropVariantArray"
-        href: https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-freepropvariantarray
+        href: /windows/desktop/api/propidl/nf-propidl-freepropvariantarray
       - name: "GetConvertStg"
         href: /windows/desktop/api/coml2api/nf-coml2api-getconvertstg
       - name: "GetHGlobalFromILockBytes"
@@ -507,9 +507,9 @@
       - name: "PropStgNameToFmtId"
         href: /windows/desktop/api/coml2api/nf-coml2api-propstgnametofmtid
       - name: "PropVariantClear"
-        href: https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-propvariantclear
+        href: /windows/desktop/api/propidl/nf-propidl-propvariantclear
       - name: "PropVariantCopy"
-        href: https://docs.microsoft.com/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
+        href: /windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
       - name: "PropVariantInit"
         href: /windows/desktop/api/PropIdl/nf-propidl-propvariantinit
       - name: "ReadClassStg"
@@ -599,7 +599,7 @@
       - name: "STGC"
         href: /windows/win32/api/WTypes/ne-wtypes-stgc
       - name: "STGFMT"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380330(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa380330(v=vs.85)
       - name: "STGMOVE"
         href: /windows/win32/api/WTypes/ne-wtypes-stgmove
       - name: "STGTY"

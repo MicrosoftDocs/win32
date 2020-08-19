@@ -56,7 +56,7 @@ The **MDM\_DeviceStatus\_CellularIdentities01\_01** class has these properties.
 
 <dl> <dt>
 
-[CommercializationOperator](https://docs.microsoft.com/windows/client-management/mdm/devicestatus-csp#devicestatus-cellularidentities-imei-commercializationoperator)
+[CommercializationOperator](/windows/client-management/mdm/devicestatus-csp#devicestatus-cellularidentities-imei-commercializationoperator)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -67,7 +67,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ICCID](https://docs.microsoft.com/windows/client-management/mdm/devicestatus-csp#devicestatus-cellularidentities-imei-iccid)
+[ICCID](/windows/client-management/mdm/devicestatus-csp#devicestatus-cellularidentities-imei-iccid)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -78,7 +78,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[IMSI](https://docs.microsoft.com/windows/client-management/mdm/devicestatus-csp#devicestatus-cellularidentities-imei-imsi)
+[IMSI](/windows/client-management/mdm/devicestatus-csp#devicestatus-cellularidentities-imei-imsi)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -98,7 +98,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Node for queries on SIM cards.
@@ -114,14 +114,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/DeviceStatus"
 
 </dd> <dt>
 
-[PhoneNumber](https://docs.microsoft.com/windows/client-management/mdm/devicestatus-csp#devicestatus-cellularidentities-imei-phonenumber)
+[PhoneNumber](/windows/client-management/mdm/devicestatus-csp#devicestatus-cellularidentities-imei-phonenumber)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -132,7 +132,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RoamingCompliance](https://docs.microsoft.com/windows/client-management/mdm/devicestatus-csp#devicestatus-cellularidentities-imei-roamingcompliance)
+[RoamingCompliance](/windows/client-management/mdm/devicestatus-csp#devicestatus-cellularidentities-imei-roamingcompliance)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -143,7 +143,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RoamingStatus](https://docs.microsoft.com/windows/client-management/mdm/devicestatus-csp#devicestatus-cellularidentities-imei-roamingstatus)
+[RoamingStatus](/windows/client-management/mdm/devicestatus-csp#devicestatus-cellularidentities-imei-roamingstatus)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -172,14 +172,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

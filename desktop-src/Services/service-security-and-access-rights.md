@@ -33,7 +33,7 @@ The following are the specific access rights for the SCM.
 
  
 
-The following are the [generic access rights](https://docs.microsoft.com/windows/desktop/SecAuthZ/generic-access-rights) for the SCM.
+The following are the [generic access rights](/windows/desktop/SecAuthZ/generic-access-rights) for the SCM.
 
 
 
@@ -80,7 +80,7 @@ The following are the [generic access rights](https://docs.microsoft.com/windows
 
 A process with the correct access rights can open a handle to the SCM that can be used in the [**OpenService**](/windows/desktop/api/Winsvc/nf-winsvc-openservicea), [**EnumServicesStatusEx**](/windows/desktop/api/Winsvc/nf-winsvc-enumservicesstatusexa), and [**QueryServiceLockStatus**](/windows/desktop/api/Winsvc/nf-winsvc-queryservicelockstatusa) functions. Only processes with Administrator privileges are able to open handles to the SCM that can be used by the [**CreateService**](/windows/desktop/api/Winsvc/nf-winsvc-createservicea) and [**LockServiceDatabase**](/windows/desktop/api/Winsvc/nf-winsvc-lockservicedatabase) functions.
 
-The system creates the security descriptor for the SCM. To get or set the security descriptor for the SCM, use the [**QueryServiceObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) and [**SetServiceObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) functions with a handle to the SCManager object.
+The system creates the security descriptor for the SCM. To get or set the security descriptor for the SCM, use the [**QueryServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) and [**SetServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) functions with a handle to the SCManager object.
 
 **Windows Server 2003 and Windows XP:** Unlike most other securable objects, the security descriptor for the SCM cannot be modified. This behavior has changed as of Windows Server 2003 with Service Pack 1 (SP1).
 
@@ -159,23 +159,23 @@ The following are the specific access rights for a service.
 
  
 
-The following are the [standard access rights](https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights) for a service.
+The following are the [standard access rights](/windows/desktop/SecAuthZ/standard-access-rights) for a service.
 
 
 
 | Access right                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **ACCESS\_SYSTEM\_SECURITY** | Required to call the [**QueryServiceObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) or [**SetServiceObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) function to access the SACL. The proper way to obtain this access is to enable the **SE\_SECURITY\_NAME**[**privilege**](https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges) in the caller's current access token, open the handle for **ACCESS\_SYSTEM\_SECURITY** access, and then disable the privilege. |
+| **ACCESS\_SYSTEM\_SECURITY** | Required to call the [**QueryServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) or [**SetServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) function to access the SACL. The proper way to obtain this access is to enable the **SE\_SECURITY\_NAME**[**privilege**](/windows/desktop/SecAuthZ/privileges) in the caller's current access token, open the handle for **ACCESS\_SYSTEM\_SECURITY** access, and then disable the privilege. |
 | **DELETE**   (0x10000)       | Required to call the [**DeleteService**](/windows/desktop/api/Winsvc/nf-winsvc-deleteservice) function to delete the service.                                                                                                                                                                                                                                                                                                                                                  |
-| **READ\_CONTROL**  (0x20000)    | Required to call the [**QueryServiceObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) function to query the security descriptor of the service object.                                                                                                                                                                                                                                                                                  |
-| **WRITE\_DAC**  (0x40000)    | Required to call the [**SetServiceObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) function to modify the **Dacl** member of the service object's security descriptor.                                                                                                                                                                                                                                                                   |
-| **WRITE\_OWNER** (0x80000)   | Required to call the [**SetServiceObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) function to modify the **Owner** and **Group** members of the service object's security descriptor.                                                                                                                                                                                                                                                   |
+| **READ\_CONTROL**  (0x20000)    | Required to call the [**QueryServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) function to query the security descriptor of the service object.                                                                                                                                                                                                                                                                                  |
+| **WRITE\_DAC**  (0x40000)    | Required to call the [**SetServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) function to modify the **Dacl** member of the service object's security descriptor.                                                                                                                                                                                                                                                                   |
+| **WRITE\_OWNER** (0x80000)   | Required to call the [**SetServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) function to modify the **Owner** and **Group** members of the service object's security descriptor.                                                                                                                                                                                                                                                   |
 
 
 
  
 
-The following are the [generic access rights](https://docs.microsoft.com/windows/desktop/SecAuthZ/generic-access-rights) for a service.
+The following are the [generic access rights](/windows/desktop/SecAuthZ/generic-access-rights) for a service.
 
 
 
@@ -275,7 +275,7 @@ The SCM creates a service object's security descriptor when the service is insta
 
 To perform any operations, the user must be logged on interactively or the service must use one of the service accounts.
 
-To get or set the security descriptor for a service object, use the [**QueryServiceObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) and [**SetServiceObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) functions. For more information, see [Modifying the DACL for a Service](modifying-the-dacl-for-a-service.md).
+To get or set the security descriptor for a service object, use the [**QueryServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) and [**SetServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) functions. For more information, see [Modifying the DACL for a Service](modifying-the-dacl-for-a-service.md).
 
 When a process uses the [**OpenService**](/windows/desktop/api/Winsvc/nf-winsvc-openservicea) function, the system checks the requested access rights against the security descriptor for the service object.
 
@@ -284,9 +284,4 @@ Granting certain access rights to untrusted users (such as **SERVICE\_CHANGE\_CO
 When [**EnumServicesStatusEx function**](/windows/desktop/api/Winsvc/nf-winsvc-enumservicesstatusexa) is called, if the caller does not have the **SERVICE\_QUERY\_STATUS** access right to a service, the service is silently omitted from the list of services returned to the client.
 
  
-
- 
-
-
-
 

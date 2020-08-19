@@ -24,8 +24,8 @@ Gets the [**D2D1\_PROPERTY\_TYPE**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_p
 
 | Method                                             | Description                                                                                                                     |
 |:---------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
-| [**GetType(U)**](https://msdn.microsoft.com/library/JJ151738(v=VS.85).aspx)     | Gets the [**D2D1\_PROPERTY\_TYPE**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_property_type) of the selected property. This is a template overload.<br/> |
-| [**GetType(UINT32)**](https://msdn.microsoft.com/library/Hh446873(v=VS.85).aspx) | Gets the [**D2D1\_PROPERTY\_TYPE**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_property_type) of the selected property.<br/>                              |
+| [**GetType(U)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(u))     | Gets the [**D2D1\_PROPERTY\_TYPE**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_property_type) of the selected property. This is a template overload.<br/> |
+| [**GetType(UINT32)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(uint32)) | Gets the [**D2D1\_PROPERTY\_TYPE**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_property_type) of the selected property.<br/>                              |
 
 
 
@@ -33,14 +33,8 @@ Gets the [**D2D1\_PROPERTY\_TYPE**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_p
 
 <dl> <dt>
 
-[**ID2D1Properties**](https://msdn.microsoft.com/library/Hh446854(v=VS.85).aspx)
+[**ID2D1Properties**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1properties)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

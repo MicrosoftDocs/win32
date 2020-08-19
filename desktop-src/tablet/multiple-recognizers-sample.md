@@ -43,7 +43,7 @@ The EventSinks.h file defines the IInkEventsImpl and IInkRecognitionEventsImpl i
 
 ## Enumerating the Installed Recognizers
 
-The application's LoadMenu method populates the Create New Strokes menu with the available recognizers. An [**InkRecognizers**](https://msdn.microsoft.com/library/ms702438(v=VS.85).aspx) is created. If the [**Languages**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_languages) property of an **InkRecognizers** object is not empty, then the recognizer is a *text recognizer*, and the value of its [**Name**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_name) property is added to the menu.
+The application's LoadMenu method populates the Create New Strokes menu with the available recognizers. An [**InkRecognizers**](/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)) is created. If the [**Languages**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_languages) property of an **InkRecognizers** object is not empty, then the recognizer is a *text recognizer*, and the value of its [**Name**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_name) property is added to the menu.
 
 
 ```C++
@@ -123,7 +123,7 @@ if (SUCCEEDED(pIInkRecognizer->get_Capabilities(&dwCapabilities)))
 
 ## Collecting Strokes and Displaying Recognition Results
 
-The application's OnStroke method updates the [**InkStrokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) of the ink collector, cancels existing asynchronous recognition requests, and creates a recognition request on the recognizer context.
+The application's OnStroke method updates the [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) of the ink collector, cancels existing asynchronous recognition requests, and creates a recognition request on the recognizer context.
 
 
 ```C++
@@ -158,7 +158,7 @@ m_wndResults.UpdateString(bstrRecognizedString);
 
 ## Deleting Strokes and Recognition Results
 
-The application's OnClear method deletes all strokes and recognition results from the [**InkDisp**](inkdisp-class.md) object and clears the windows. The recognizer context's association with its [**InkStrokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection is removed.
+The application's OnClear method deletes all strokes and recognition results from the [**InkDisp**](inkdisp-class.md) object and clears the windows. The recognizer context's association with its [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) collection is removed.
 
 
 ```C++
@@ -191,7 +191,7 @@ if (SUCCEEDED(m_spIInkDisp->CreateStrokes(v, &m_spIInkStrokes)))
 
 ## Changing Recognizer Contexts
 
-The application's OnNewStrokes method is called when the user selects a recognizer in the Create New Strokes menu. The current [**InkStrokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) is saved. If a different language recognizer was selected, a new recognizer context is created. Then, a new **InkStrokes** is attached to the new recognizer context.
+The application's OnNewStrokes method is called when the user selects a recognizer in the Create New Strokes menu. The current [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) is saved. If a different language recognizer was selected, a new recognizer context is created. Then, a new **InkStrokes** is attached to the new recognizer context.
 
 
 ```C++
@@ -238,11 +238,11 @@ if (wID != m_nCmdRecognizer)
 
 
 
-It then calls StartNewStrokeCollection, which creates an empty [**InkStrokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) and attaches it to the recognizer context.
+It then calls StartNewStrokeCollection, which creates an empty [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) and attaches it to the recognizer context.
 
 ## Saving the Strokes Collection for a Recognizer Context
 
-The application's `SaveStrokeCollection` method checks for an existing recognizer context, and finalizes the recognition of the current strokes collection. Then the [**InkStrokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection is added to the [**CustomStrokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_customstrokes) of the ink object.
+The application's `SaveStrokeCollection` method checks for an existing recognizer context, and finalizes the recognition of the current strokes collection. Then the [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) collection is added to the [**CustomStrokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-get_customstrokes) of the ink object.
 
 
 ```C++
@@ -287,6 +287,3 @@ if ((0 != lCount) && (m_spIInkCustomStrokes != NULL))
  
 
  
-
-
-

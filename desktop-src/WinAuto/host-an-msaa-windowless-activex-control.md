@@ -17,7 +17,7 @@ Learn how to create a control container that can host windowless Microsoft Activ
 
 ### Technologies
 
--   [ActiveX Controls](https://docs.microsoft.com/windows/desktop/com/activex-controls)
+-   [ActiveX Controls](/windows/desktop/com/activex-controls)
 -   [Microsoft Active Accessibility](microsoft-active-accessibility.md)
 
 ### Prerequisites
@@ -31,7 +31,7 @@ Learn how to create a control container that can host windowless Microsoft Activ
 
 ### Step 1: Provide the root IAccessible interface on behalf of the windowless control.
 
-Whenever the system needs the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) pointer for the root of a windowless control, the system queries the control container. To retrieve the pointer, the container calls the windowless control's implementation of the [**IServiceProvider::QueryService**](https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx) method.
+Whenever the system needs the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) pointer for the root of a windowless control, the system queries the control container. To retrieve the pointer, the container calls the windowless control's implementation of the [**IServiceProvider::QueryService**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)) method.
 
 If the control container has a Microsoft Active Accessibility implementation, it can return the windowless control's [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) pointer to the system.
 
@@ -45,11 +45,11 @@ The control container responds by looking up the windowless control that "owns" 
 
 ### Step 3: Implement the IAccessibleWindowlessSite interface.
 
-1.  Implement the [**IAccessibleWindowlessSite::GetParentAccessible**](https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-getparentaccessible) method.
+1.  Implement the [**IAccessibleWindowlessSite::GetParentAccessible**](/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-getparentaccessible) method.
 
-    When a client application needs accessibility information about the parent of the windowless control's root provider, the system calls the windowless control's [**IAccessible::get\_accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent) method. The control responds by calling the control container's [**IAccessibleWindowlessSite::GetParentAccessible**](https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-getparentaccessible) method, which provides the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) pointer of the windowless control's parent.
+    When a client application needs accessibility information about the parent of the windowless control's root provider, the system calls the windowless control's [**IAccessible::get\_accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent) method. The control responds by calling the control container's [**IAccessibleWindowlessSite::GetParentAccessible**](/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-getparentaccessible) method, which provides the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) pointer of the windowless control's parent.
 
-2.  Implement the [**IAccessibleWindowlessSite::AcquireObjectIdRange**](https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-acquireobjectidrange), [**QueryObjectIdRange**](https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-queryobjectidranges), and [**ReleaseObjectIdRange**](https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-releaseobjectidrange) methods.
+2.  Implement the [**IAccessibleWindowlessSite::AcquireObjectIdRange**](/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-acquireobjectidrange), [**QueryObjectIdRange**](/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-queryobjectidranges), and [**ReleaseObjectIdRange**](/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-releaseobjectidrange) methods.
 
     Your control container must maintain a mapping of object ID ranges to windowless controls. The mapping enables the control container to identify the control that should respond to a particular request for an object ID. The following table shows an example of mapping object ID ranges to windowless controls.
 
@@ -84,7 +84,3 @@ Implement the [**IAccessibleHostingElementProviders**](/windows/desktop/api/UIAu
  
 
  
-
-
-
-

@@ -60,11 +60,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## <span id="see_also"></span>See also
 
-[**ISourceFileInfoRequest**](https://docs.microsoft.com/windows/desktop/direct3dtools/isourcefileinforequest)
+[**ISourceFileInfoRequest**](/windows/desktop/direct3dtools/isourcefileinforequest)
 
  
 
  
-
-
-

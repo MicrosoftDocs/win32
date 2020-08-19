@@ -13,7 +13,7 @@ Asynchronous event notification is a technique that allows an application to con
 
 The queue of asynchronous events routed to a client has the potential to grow exceptionally large. Therefore, WMI implements a system-wide policy to avoid running out of memory. WMI either slows down events, or starts dropping events from the queue when the queue grows past a certain size.
 
-WMI uses the [**LowThresholdOnEvents**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-wmisetting) and [**HighThresholdOnEvents**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-wmisetting) properties of the [**Win32\_WMISetting**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-wmisetting) class to set limits on out-of-memory avoidance. The minimum value indicates when WMI should start slowing event notification, and the maximum value indicates when to start dropping events. The default values for the low and high thresholds are 1000000 (10 MB) and 2000000 (20 MB). In addition, you can set the [**MaxWaitOnEvents**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-wmisetting) property to describe the amount of time WMI should wait before dropping events. The default value for **MaxWaitOnEvents** is 2000, or 2 seconds.
+WMI uses the [**LowThresholdOnEvents**](/windows/desktop/CIMWin32Prov/win32-wmisetting) and [**HighThresholdOnEvents**](/windows/desktop/CIMWin32Prov/win32-wmisetting) properties of the [**Win32\_WMISetting**](/windows/desktop/CIMWin32Prov/win32-wmisetting) class to set limits on out-of-memory avoidance. The minimum value indicates when WMI should start slowing event notification, and the maximum value indicates when to start dropping events. The default values for the low and high thresholds are 1000000 (10 MB) and 2000000 (20 MB). In addition, you can set the [**MaxWaitOnEvents**](/windows/desktop/CIMWin32Prov/win32-wmisetting) property to describe the amount of time WMI should wait before dropping events. The default value for **MaxWaitOnEvents** is 2000, or 2 seconds.
 
 ## Receiving Asynchronous Event Notifications in VBScript
 
@@ -21,7 +21,7 @@ The scripting calls to receive event notifications are essentially the same as a
 
 **To receive asynchronous event notifications in VBScript**
 
-1.  Create a sink object by calling [WScript.CreateObject](https://msdn.microsoft.com/library/xzysf6hc.aspx) and specifying the progid of "WbemScripting" and the object type of [**SWbemSink**](swbemsink.md). The sink object receives the notifications.
+1.  Create a sink object by calling [WScript.CreateObject](/previous-versions//xzysf6hc(v=vs.85)) and specifying the progid of "WbemScripting" and the object type of [**SWbemSink**](swbemsink.md). The sink object receives the notifications.
 2.  Write a subroutine for each event you want to handle. The following table lists the [**SWbemSink**](swbemsink.md) events.
 
     
@@ -77,7 +77,7 @@ By dedicating a separate thread, you permit your main process to perform other a
 
 **To set up asynchronous event notifications**
 
-1.  Before initializing any asynchronous notifications, ensure your out-of-memory avoidance parameters are set correctly in [**Win32\_WMISetting**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-wmisetting).
+1.  Before initializing any asynchronous notifications, ensure your out-of-memory avoidance parameters are set correctly in [**Win32\_WMISetting**](/windows/desktop/CIMWin32Prov/win32-wmisetting).
 
 2.  Determine what kind of events you want to receive.
 
@@ -87,9 +87,9 @@ The following procedure describes how to receive asynchronous event notification
 
 **To receive asynchronous event notifications in C++**
 
-1.  Set up your application with calls to the [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx) and [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) functions.
+1.  Set up your application with calls to the [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) and [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) functions.
 
-    Calling [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx) initializes COM, while [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) grants WMI the permission to call into the process of the consumer. The **CoInitializeEx** function also grants you the ability to program a multithreaded application, which is necessary for asynchronous notification. For more information, see [Maintaining WMI Security](maintaining-wmi-security.md).
+    Calling [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) initializes COM, while [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) grants WMI the permission to call into the process of the consumer. The **CoInitializeEx** function also grants you the ability to program a multithreaded application, which is necessary for asynchronous notification. For more information, see [Maintaining WMI Security](maintaining-wmi-security.md).
 
     The code in this topic requires the following references and \#include statements to compile correctly.
 
@@ -102,7 +102,7 @@ The following procedure describes how to receive asynchronous event notification
 
     
 
-    The following code example describes how to set up the temporary event consumer with calls to [**CoInitializeEx**](https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx) and [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx).
+    The following code example describes how to set up the temporary event consumer with calls to [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) and [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity).
 
     ```C++
     void main(int argc, char **argv)
@@ -143,7 +143,7 @@ The following procedure describes how to receive asynchronous event notification
 
     The purpose of registration is to receive only the required notifications. Receiving superfluous notifications wastes processing and delivery time; and does not use the filtering ability of WMI to the fullest potential.
 
-    However, a temporary consumer can receive more than one type of event. In this case, a temporary consumer must make separate calls to [**IWbemServices::ExecNotificationQueryAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationqueryasync) for each event type. For example, a consumer might require notification when new processes are created (an instance creation event or [**\_\_InstanceCreationEvent**](--instancecreationevent.md)) and for changes to certain registry keys (a registry event such as [**RegistryKeyChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registrykeychangeevent)). Therefore, the consumer makes one call to [**ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md) to register for instance creation events and another call to **ExecNotificationQueryAsync** to register for registry events.
+    However, a temporary consumer can receive more than one type of event. In this case, a temporary consumer must make separate calls to [**IWbemServices::ExecNotificationQueryAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationqueryasync) for each event type. For example, a consumer might require notification when new processes are created (an instance creation event or [**\_\_InstanceCreationEvent**](--instancecreationevent.md)) and for changes to certain registry keys (a registry event such as [**RegistryKeyChangeEvent**](/previous-versions/windows/desktop/regprov/registrykeychangeevent)). Therefore, the consumer makes one call to [**ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md) to register for instance creation events and another call to **ExecNotificationQueryAsync** to register for registry events.
 
     If you choose to create an event consumer that registers for multiple events, you should avoid registering multiple classes with the same sink. Instead, use a separate sink for each class of registered event. Having a dedicated sink simplifies processing and aids in maintenance, allowing you to cancel one registration without affecting the others.
 
@@ -158,6 +158,3 @@ The following procedure describes how to receive asynchronous event notification
  
 
  
-
-
-

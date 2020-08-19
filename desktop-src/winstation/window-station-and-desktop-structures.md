@@ -10,12 +10,8 @@ ms.date: 05/31/2018
 
 The following structure is used with window stations and desktops:
 
--   [**USEROBJECTFLAGS**](https://msdn.microsoft.com/library/ms686892(v=VS.85).aspx)
+-   [**USEROBJECTFLAGS**](/windows/win32/api/winuser/ns-winuser-userobjectflags)
 
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # searchInfo
 
-Specifies how to configure the Windows search engine with respect to a given property definition. If no [searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx) element is provided, then the property is not included in the Windows search engine. This element has changed for Windows 7.
+Specifies how to configure the Windows search engine with respect to a given property definition. If no [searchInfo]() element is provided, then the property is not included in the Windows search engine. This element has changed for Windows 7.
 
 ## Syntax for Windows 7
 
@@ -84,7 +84,7 @@ Specifies how to configure the Windows search engine with respect to a given pro
 
 | Parent Element                                                   | Child Elements |
 |------------------------------------------------------------------|----------------|
-| [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) | None           |
+| [propertyDescription](./propdesc-schema-propertydescription.md) | None           |
 
 
 
@@ -152,7 +152,3 @@ Note that this maximum size is measured in bytes, not characters. The maximum nu
  
 
  
-
-
-
-

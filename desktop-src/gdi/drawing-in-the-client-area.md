@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 You use the [**BeginPaint**](/windows/desktop/api/Winuser/nf-winuser-beginpaint) and [**EndPaint**](/windows/desktop/api/Winuser/nf-winuser-endpaint) functions to prepare for and complete the drawing in the client area. **BeginPaint** returns a handle to the display device context used for drawing in the client area; **EndPaint** ends the paint request and releases the device context.
 
-In the following example, the window procedure writes the message "Hello, Windows!" in the client area. To make sure the string is visible when the window is first created, the [**WinMain**](https://msdn.microsoft.com/library/ms633559(v=VS.85).aspx) function calls [**UpdateWindow**](/windows/desktop/api/Winuser/nf-winuser-updatewindow) immediately after creating and showing the window. This causes a [**WM\_PAINT**](wm-paint.md) message to be sent immediately to the window procedure.
+In the following example, the window procedure writes the message "Hello, Windows!" in the client area. To make sure the string is visible when the window is first created, the [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) function calls [**UpdateWindow**](/windows/desktop/api/Winuser/nf-winuser-updatewindow) immediately after creating and showing the window. This causes a [**WM\_PAINT**](wm-paint.md) message to be sent immediately to the window procedure.
 
 
 ```C++
@@ -51,6 +51,3 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
  
 
  
-
-
-

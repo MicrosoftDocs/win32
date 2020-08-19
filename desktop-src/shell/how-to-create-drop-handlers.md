@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 By default, files are not drop targets. You can make the members of a [file type](fa-file-types.md) into drop targets by implementing and registering a *drop handler*.
 
-If a drop handler is registered for a file type, it is called whenever an object is dragged over or dropped on a member of the file type. The Shell manages the operation by calling the appropriate methods on the handler's [**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx) interface.
+If a drop handler is registered for a file type, it is called whenever an object is dragged over or dropped on a member of the file type. The Shell manages the operation by calling the appropriate methods on the handler's [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) interface.
 
 The general procedures for implementing and registering a Shell extension handler are discussed in [Creating Shell Extension Handlers](handlers.md). This document focuses on those aspects of implementation that are specific to drop handlers.
 
@@ -17,11 +17,11 @@ The general procedures for implementing and registering a Shell extension handle
 
 ### Step 1: Implementing Drop Handlers
 
-Like all Shell extension handlers, drop handlers are in-process Component Object Model (COM) objects implemented as DLLs. They export two interfaces in addition to [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx): [**IPersistFile**](https://msdn.microsoft.com/library/ms687223(v=VS.85).aspx) and [**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx).
+Like all Shell extension handlers, drop handlers are in-process Component Object Model (COM) objects implemented as DLLs. They export two interfaces in addition to [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown): [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) and [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget).
 
-The Shell initializes the handler through its [**IPersistFile**](https://msdn.microsoft.com/library/ms687223(v=VS.85).aspx) interface. It uses this interface to request the handler's class identifier (CLSID) and provides it with the file's name. For a general discussion of how to implement Shell extension handlers, including the **IPersistFile** interface, see [Creating Shell Extension Handlers](handlers.md).
+The Shell initializes the handler through its [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) interface. It uses this interface to request the handler's class identifier (CLSID) and provides it with the file's name. For a general discussion of how to implement Shell extension handlers, including the **IPersistFile** interface, see [Creating Shell Extension Handlers](handlers.md).
 
-Once the drop handler is initialized, the Shell calls the appropriate method on the handler's [**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx) interface.
+Once the drop handler is initialized, the Shell calls the appropriate method on the handler's [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) interface.
 
 ### Step 2: Registering Drop Handlers
 
@@ -61,15 +61,12 @@ HKEY_CLASSES_ROOT
 [Creating Shell Extension Handlers](handlers.md)
 </dt> <dt>
 
-[**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx)
+[**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget)
 </dt> <dt>
 
-[**IPersistFile**](https://msdn.microsoft.com/library/ms687223(v=VS.85).aspx)
+[**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile)
 </dt> </dl>
 
  
 
  
-
-
-

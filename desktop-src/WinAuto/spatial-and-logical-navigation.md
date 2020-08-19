@@ -25,7 +25,7 @@ The starting object of the navigation is either the object it**self or one of th
 
 If a client navigates from an accessible object to a sibling user interface element, or if the **lVal** member of *varStart* is **CHILDID\_SELF** and the specified flag in *navDir* is any navigation flag except [**NAVDIR\_FIRSTCHILD**](navigation-constants.md) or [**NAVDIR\_LASTCHILD**](navigation-constants.md), the result in *pvarEnd* is either a child ID or an [**IDispatch**](idispatch-interface.md) interface. If *pvarEnd* contains a child ID, clients must first obtain a pointer to the parent's [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface in order to navigate from this user interface element or to obtain more information about it. To obtain the parent object, clients call the [**IAccessible::get\_accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent) property of the sibling object or the starting object of the navigation.
 
-Note that clients must have information about all floating objects by calling the [**EnumChildWindows**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumchildwindows) function. Because a floating object is not clipped to its parent, clients do not have information about the hierarchical relationship between two objects near one another on the screen.
+Note that clients must have information about all floating objects by calling the [**EnumChildWindows**](/windows/desktop/api/winuser/nf-winuser-enumchildwindows) function. Because a floating object is not clipped to its parent, clients do not have information about the hierarchical relationship between two objects near one another on the screen.
 
 The following graphic is an example of a floating object that is not clipped to its parent.
 
@@ -44,7 +44,3 @@ For objects that do not have defined screen locations, the logical order is deci
  
 
  
-
-
-
-

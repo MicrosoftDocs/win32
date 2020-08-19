@@ -160,7 +160,7 @@ void D3D12nBodyGravity::PopulateCommandList()
 
 ## Descriptor Heap Methods
 
-Descriptor heaps ([**ID3D12DescriptorHeap**](/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap)) inherit from [**ID3D12Pageable**](https://msdn.microsoft.com/library/Dn788704(v=VS.85).aspx). This imposes the responsibility for the residency management of descriptor heaps on applications, just like resource heaps. The residency management methods only apply to shader visible heaps since the non shader visible heaps are not visible to the GPU directly.
+Descriptor heaps ([**ID3D12DescriptorHeap**](/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap)) inherit from [**ID3D12Pageable**](/windows/win32/api/d3d12/nn-d3d12-id3d12pageable). This imposes the responsibility for the residency management of descriptor heaps on applications, just like resource heaps. The residency management methods only apply to shader visible heaps since the non shader visible heaps are not visible to the GPU directly.
 
 The [**ID3D12Device::GetDescriptorHandleIncrementSize**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize) method allows applications to manually offset handles into a heap (producing handles into anywhere in a descriptor heap). The heap start location’s handle comes from [**ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart**](/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart)/[**ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart**](/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart). Offsetting is done by adding the increment size \* the number of descriptors to offset to the descriptor heap start . Note that the increment size cannot be thought of as a byte size since applications must not dereference handles as if they are memory – the memory pointed to has a non-standardized layout and can vary even for a given device.
 
@@ -247,7 +247,7 @@ public:
         D3D12_DESCRIPTOR_HEAP_DESC Desc;
         Desc.Type = Type;
         Desc.NumDescriptors = NumDescriptors;
-        Desc.Flags = (bShaderVisible ? D3D12_DESCRIPTOR_HEAP_FLAG_SHADER_VISIBLE : 0);
+        Desc.Flags = (bShaderVisible ? D3D12_DESCRIPTOR_HEAP_FLAG_SHADER_VISIBLE : D3D12_DESCRIPTOR_HEAP_FLAG_NONE);
        
         HRESULT hr = pDevice->CreateDescriptorHeap(&Desc, 
                                __uuidof(ID3D12DescriptorHeap), 
@@ -289,7 +289,3 @@ public:
  
 
  
-
-
-
-

@@ -53,7 +53,7 @@ public CompareOptions CompareOptions { get; }
 
 #### Property value
 
-Type: [System.Globalization.CompareOptions](https://docs.microsoft.com/dotnet/api/system.globalization.compareoptions?redirectedfrom=MSDN)  
+Type: [System.Globalization.CompareOptions](/dotnet/api/system.globalization.compareoptions)  
 
 ## See also
 
@@ -64,4 +64,3 @@ Type: [System.Globalization.CompareOptions](https://docs.microsoft.com/dotnet/ap
 [IndexInfo members](dn350916\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

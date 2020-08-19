@@ -16,7 +16,7 @@ ms.topic: reference
 
 # ID2D1Factory::CreateTransformedGeometry methods
 
-Transforms the specified geometry and stores the result as an [**ID2D1TransformedGeometry**](https://msdn.microsoft.com/library/Dd371304(v=VS.85).aspx) object.
+Transforms the specified geometry and stores the result as an [**ID2D1TransformedGeometry**](/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)) object.
 
 ### Overload list
 
@@ -24,8 +24,8 @@ Transforms the specified geometry and stores the result as an [**ID2D1Transforme
 
 | Method                                                                                                                                                                                                                  | Description                                                                                                                                    |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateTransformedGeometry(ID2D1Geometry\*,D2D\_MATRIX\_3X2\_F\*,ID2D1TransformedGeometry\*\*)**](/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)) | Transforms the specified geometry and stores the result as an [**ID2D1TransformedGeometry**](https://msdn.microsoft.com/library/Dd371304(v=VS.85).aspx) object. <br/> |
-| [**CreateTransformedGeometry(ID2D1Geometry\*,D2D\_MATRIX\_3X2\_F&,ID2D1TransformedGeometry\*\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createtransformedgeometry(id2d1geometry_constd2d1_matrix_3x2_f__id2d1transformedgeometry))  | Transforms the specified geometry and stores the result as an [**ID2D1TransformedGeometry**](https://msdn.microsoft.com/library/Dd371304(v=VS.85).aspx) object. <br/> |
+| [**CreateTransformedGeometry(ID2D1Geometry\*,D2D\_MATRIX\_3X2\_F\*,ID2D1TransformedGeometry\*\*)**](/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)) | Transforms the specified geometry and stores the result as an [**ID2D1TransformedGeometry**](/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)) object. <br/> |
+| [**CreateTransformedGeometry(ID2D1Geometry\*,D2D\_MATRIX\_3X2\_F&,ID2D1TransformedGeometry\*\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createtransformedgeometry(id2d1geometry_constd2d1_matrix_3x2_f__id2d1transformedgeometry))  | Transforms the specified geometry and stores the result as an [**ID2D1TransformedGeometry**](/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)) object. <br/> |
 
 
 
@@ -33,11 +33,11 @@ Transforms the specified geometry and stores the result as an [**ID2D1Transforme
 
 Like other resources, a transformed geometry inherits the resource space and threading policy of the factory that created it. This object is immutable.
 
-When stroking a transformed geometry with the [**DrawGeometry**](https://msdn.microsoft.com/library/Dd371890(v=VS.85).aspx) method, the stroke width is not affected by the transform applied to the geometry. The stroke width is only affected by the world transform.
+When stroking a transformed geometry with the [**DrawGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry) method, the stroke width is not affected by the transform applied to the geometry. The stroke width is only affected by the world transform.
 
 ## Examples
 
-The following example creates an [**ID2D1RectangleGeometry**](https://msdn.microsoft.com/library/Dd371286(v=VS.85).aspx), then draws it without transforming it. It produces the output shown in the following illustration.
+The following example creates an [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createrectanglegeometry(constd2d1_rect_f_id2d1rectanglegeometry)), then draws it without transforming it. It produces the output shown in the following illustration.
 
 ![illustration of a rectangle](images/transformedgeometry2-step1.png)
 
@@ -116,5 +116,5 @@ m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
 
 <dl> <dt>
 
-[**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx)
+[**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)
 </dt> </dl>

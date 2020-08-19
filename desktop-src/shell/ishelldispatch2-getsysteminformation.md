@@ -47,7 +47,7 @@ IShellDispatch2.GetSystemInformation( _
 *sName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that specifies the system information that is being requested.
 
@@ -69,7 +69,7 @@ Returns the value of the requested system information. The return type depends o
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.GetSystemInformation**](https://msdn.microsoft.com/library/Gg537740(v=VS.85).aspx) method.
+This method is implemented and accessed through the [**Shell.GetSystemInformation**](./shell-getsysteminformation.md) method.
 
 This method can be used to request many system information values. The following table gives the *sName* value that is used to request the information and the associated type of the returned value.
 
@@ -109,7 +109,7 @@ ProcessorArchitecture
 
 **Integer**
 
-The processor architecture. For details, see the discussion of the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/library/ms724958(v=VS.85).aspx) structure.
+The processor architecture. For details, see the discussion of the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](/windows/win32/api/sysinfoapi/ns-sysinfoapi-system_info) structure.
 
 PhysicalMemoryInstalled
 
@@ -205,7 +205,3 @@ VBScript:
  
 
  
-
-
-
-

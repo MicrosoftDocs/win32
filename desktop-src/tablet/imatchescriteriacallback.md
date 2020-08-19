@@ -21,7 +21,7 @@ Exposes a method to evaluate whether an [**IContextNode**](icontextnode.md) obje
 
 ## Members
 
-The **IMatchesCriteriaCallBack** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMatchesCriteriaCallBack** also has these types of members:
+The **IMatchesCriteriaCallBack** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMatchesCriteriaCallBack** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -70,9 +70,4 @@ To use [**IInkAnalyzer::FindNodesWithCallBack Method**](iinkanalyzer-findnodeswi
 </dt> </dl>
 
  
-
- 
-
-
-
 

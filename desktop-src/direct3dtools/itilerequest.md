@@ -26,7 +26,7 @@ Request for a tiled texture to be written as a DDS file.
 
 ## Members
 
-The **ITileRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITileRequest** also has these types of members:
+The **ITileRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITileRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **ITileRequest** interface has these methods.
  
 
  
-
-
-

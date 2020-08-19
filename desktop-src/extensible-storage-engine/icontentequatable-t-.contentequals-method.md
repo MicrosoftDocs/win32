@@ -63,7 +63,7 @@ bool ContentEquals(
 
 #### Return value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 True if the two instances are equal.  
 
 ## See also
@@ -75,4 +75,3 @@ True if the two instances are equal.
 [IContentEquatable\<T\> members](hh578119\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -58,7 +58,7 @@ The *ifCondition* and *elifCondition* parameters much meet the following require
 -   Expressions must have integral type and can include only integer constants, character constants, and the defined operator.
 -   Expressions cannot use **sizeof** or a type-cast operator.
 -   The target environment may not be able to represent all ranges of integers.
--   The translation represents type [**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types) the same as type **long**, and [**unsigned int**](https://msdn.microsoft.com/library/cc953fe1(v=VS.71).aspx) the same as **unsigned long**.
+-   The translation represents type [**int**](/windows/desktop/WinProg/windows-data-types) the same as type **long**, and [**unsigned int**](https://msdn.microsoft.com/library/cc953fe1(v=VS.71).aspx) the same as **unsigned long**.
 -   The translator can translate character constants to a set of code values different from the set for the target environment. To determine the properties of the target environment, check values of macros from LIMITS.H in an application built for the target environment.
 -   The expression must not perform any environmental inquiries and must remain insulated from implementation details on the target computer.
 
@@ -144,10 +144,4 @@ class Example
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

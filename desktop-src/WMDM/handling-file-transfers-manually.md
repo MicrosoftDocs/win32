@@ -35,7 +35,7 @@ When reading a file from a device, Windows Media Device Manager calls the follow
     1.  **TransferObjectData** receives a buffer, *pData*, of size *pdwSize* bytes, filled with data, and a MAC to verify the incoming data.
     2.  The application verifies the incoming parameters with the incoming data MAC.
     3.  The application decrypts and reads as much of the data in *pData* as it can, and modifies the returned value of *pdwSize* to indicate how many bytes were actually read.
-    4.  The application decrypts the data, using [**CSecureChannelClient::DecryptParam**](https://msdn.microsoft.com/library/Ff801022(v=VS.85).aspx), and stores it or uses it, as needed.
+    4.  The application decrypts the data, using [**CSecureChannelClient::DecryptParam**](/previous-versions/bb231586(v=vs.85)), and stores it or uses it, as needed.
     5.  **TransferObjectData** returns S\_OK.
     6.  Windows Media Device Manager continues to call **TransferObjectData** until the application has read all the data from the file, or the application returns WMDM\_E\_USER\_CANCELLED to cancel the operation (in which case the read is canceled, and Windows Media Device Manager calls **End**).
 -   [**End**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-end) Called to notify the application that a read from device is ending.
@@ -52,7 +52,7 @@ When writing a file to the device, Windows Media Device Manager calls the follow
     1.  **TransferObjectData** receives a pointer to a buffer of size *pdwSize* bytes.
     2.  The application gets a block of data to send to the device, usually by reading data from a file, and fills the received buffer with up to *pdwSize* bytes. It should modify *pdwSize* (if necessary) to reflect how many bytes were added to the buffer.
     3.  The application creates a MAC of all the method parameters.
-    4.  The application encrypts the data in the buffer, using [**CSecureChannelClient::EncryptParam**](https://msdn.microsoft.com/library/Ff801024(v=VS.85).aspx).
+    4.  The application encrypts the data in the buffer, using [**CSecureChannelClient::EncryptParam**](/previous-versions/bb231587(v=vs.85)).
     5.  **TransferObjectData** returns S\_OK to indicate that there is more data, or S\_FALSE to indicate that there is no more data. If the application returns WMDM\_E\_USER\_CANCELLED, the write operation is canceled and Windows Media Device Manager will call **End**.
     6.  Windows Media Device Manager continues to call **TransferObjectData** as long as the application returns S\_OK.
 -   [**End**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-end) Called to notify that a write to device is ending.
@@ -69,7 +69,3 @@ For a code example, see [Encryption and Decryption](encryption-and-decryption.md
  
 
  
-
-
-
-

@@ -28,10 +28,10 @@ These are the Text Services Framework structures.
 -   [**TF\_PERSISTENT\_PROPERTY\_HEADER\_ACP**](/windows/desktop/api/Msctf/ns-msctf-tf_persistent_property_header_acp)
 -   [**TF\_PRESERVEDKEY**](/windows/desktop/api/Msctf/ns-msctf-tf_preservedkey)
 -   [**TF\_PROPERTYVAL**](/windows/desktop/api/Msctf/ns-msctf-tf_propertyval)
--   [**TF\_RENDERINGMARKUP**](https://docs.microsoft.com/windows/desktop/TSF/tf-renderingmarkup)
+-   [**TF\_RENDERINGMARKUP**](/windows/desktop/TSF/tf-renderingmarkup)
 -   [**TF\_SELECTION**](/windows/desktop/api/Msctf/ns-msctf-tf_selection)
 -   [**TF\_SELECTIONSTYLE**](/windows/desktop/api/Msctf/ns-msctf-tf_selectionstyle)
--   [**TF\_STATUS**](https://msdn.microsoft.com/library/ms629192(v=VS.85).aspx)
+-   [**TF\_STATUS**](/previous-versions/windows/desktop/legacy/ms629192(v=vs.85))
 -   [**TS\_ATTRVAL**](/windows/desktop/api/Textstor/ns-textstor-ts_attrval)
 -   [**TS\_RUNINFO**](/windows/desktop/api/Textstor/ns-textstor-ts_runinfo)
 -   [**TS\_SELECTION\_ACP**](/windows/desktop/api/Textstor/ns-textstor-ts_selection_acp)
@@ -43,7 +43,3 @@ These are the Text Services Framework structures.
  
 
  
-
-
-
-

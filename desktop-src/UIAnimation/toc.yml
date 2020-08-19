@@ -34,7 +34,7 @@
       - name: "UI_ANIMATION_ITERATION_NONE"
         href: -ui-animation-iteration-none.md
       - name: "UI_ANIMATION_KEYFRAME_STORYBOARD_START"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd756780(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dd756780(v=vs.85)
       - name: "UI_ANIMATION_REPEAT_INDEFINITELY"
         href: ui-animation-repeat-indefinitely.md
       - name: "UI_ANIMATION_REPEAT_INDEFINITELY_CONCLUDE_AT_END"
@@ -222,44 +222,44 @@
           - name: "SetTag Method"
             href: /windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-settag
         - name: "IUIAnimationStoryboard2"
-          href: https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard2
+          href: /windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard2
           items: 
           - name: "Abandon Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-abandon
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-abandon
           - name: "AddKeyframeAfterTransition Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addkeyframeaftertransition
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addkeyframeaftertransition
           - name: "AddKeyframeAtOffset Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addkeyframeatoffset
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addkeyframeatoffset
           - name: "AddTransition Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addtransition
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addtransition
           - name: "AddTransitionAtKeyframe Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addtransitionatkeyframe
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addtransitionatkeyframe
           - name: "AddTransitionBetweenKeyframes Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addtransitionbetweenkeyframes
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addtransitionbetweenkeyframes
           - name: "Conclude Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-conclude
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-conclude
           - name: "Finish Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-finish
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-finish
           - name: "GetElapsedTime Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-getelapsedtime
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-getelapsedtime
           - name: "GetStatus Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-getstatus
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-getstatus
           - name: "GetTag Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-gettag
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-gettag
           - name: "HoldVariable Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-holdvariable
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-holdvariable
           - name: "RepeatBetweenKeyframes Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-repeatbetweenkeyframes
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-repeatbetweenkeyframes
           - name: "Schedule Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-schedule
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-schedule
           - name: "SetSkipDuration Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setskipduration
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setskipduration
           - name: "SetLongestAcceptableDelay Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setlongestacceptabledelay
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setlongestacceptabledelay
           - name: "SetStoryboardEventHandler Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setstoryboardeventhandler
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setstoryboardeventhandler
           - name: "SetTag Method"
-            href: https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-settag
+            href: /windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-settag
         - name: "IUIAnimationStoryboardEventHandler"
           href: /windows/desktop/api/UIAnimation/nn-uianimation-iuianimationstoryboardeventhandler
           items: 
@@ -601,19 +601,19 @@
       href: -objects-main.md
       items: 
       - name: "UIAnimationManager"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317019(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dd317019(v=vs.85)
       - name: "UIAnimationManager2"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448665(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/hh448665(v=vs.85)
       - name: "UIAnimationTimer"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317021(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dd317021(v=vs.85)
       - name: "UIAnimationTransitionFactory"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317024(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dd317024(v=vs.85)
       - name: "UIAnimationTransitionFactory2"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448667(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/hh448667(v=vs.85)
       - name: "UIAnimationTransitionLibrary"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317028(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dd317028(v=vs.85)
       - name: "UIAnimationTransitionLibrary2"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448668(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/hh448668(v=vs.85)
     - name: "Windows Animation Error Codes"
       href: uianimation-error-codes.md
   - name: "Windows Animation Samples"

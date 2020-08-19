@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachine::File property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves the fully qualified path of the .vmc file for the virtual machine configuration.
 
@@ -78,10 +78,4 @@ The fully qualified name of the "\*.vmc" file that describes this virtual machin
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

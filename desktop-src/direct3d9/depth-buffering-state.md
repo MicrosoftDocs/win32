@@ -12,9 +12,9 @@ Depth buffering is a method of removing hidden lines and surfaces. By default, D
 
 For a conceptual overview of depth buffers, see [Depth Buffers (Direct3D 9)](depth-buffers.md).
 
-C++ applications update the depth-buffering state with the D3DRS\_ZENABLE render state, using a member of the [**D3DZBUFFERTYPE**](https://msdn.microsoft.com/library/Bb205568(v=VS.85).aspx) enumeration to specify the new state value.
+C++ applications update the depth-buffering state with the D3DRS\_ZENABLE render state, using a member of the [**D3DZBUFFERTYPE**](./d3dzbuffertype.md) enumeration to specify the new state value.
 
-If your application needs to prevent Direct3D from writing to the depth buffer, it can use the D3DRS\_ZWRITEENABLE enumerated value, specifying D3DZB\_FALSE as the second parameter for the call to [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx).
+If your application needs to prevent Direct3D from writing to the depth buffer, it can use the D3DRS\_ZWRITEENABLE enumerated value, specifying D3DZB\_FALSE as the second parameter for the call to [**IDirect3DDevice9::SetRenderState**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrenderstate).
 
 The following code example shows how the depth-buffer state is set to enable z-buffering.
 
@@ -42,6 +42,3 @@ Z-biasing is a method of displaying one surface in front of another, even if the
  
 
  
-
-
-

@@ -87,14 +87,14 @@ public static void JetSetColumnDefaultValue(
 <!-- end list -->
 
   - tableName  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The name of the table containing the column.
 
 <!-- end list -->
 
   - columnName  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The name of the column.
 
@@ -108,7 +108,7 @@ public static void JetSetColumnDefaultValue(
 <!-- end list -->
 
   - dataSize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Size of the new default value.
 
@@ -128,4 +128,3 @@ public static void JetSetColumnDefaultValue(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

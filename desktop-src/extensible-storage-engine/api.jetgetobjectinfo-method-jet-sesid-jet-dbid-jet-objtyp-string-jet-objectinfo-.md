@@ -83,7 +83,7 @@ public static void JetGetObjectInfo(
 <!-- end list -->
 
   - objectName  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The object name about which to retrieve information.
 
@@ -105,4 +105,3 @@ public static void JetGetObjectInfo(
 [JetGetObjectInfo overload](dn292176\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Parameter Descriptors
 
-As mentioned previously, [**–Oi**](https://docs.microsoft.com/windows/desktop/Midl/-oi) and **–Oif** style parameter descriptors exist.
+As mentioned previously, [**–Oi**](/windows/desktop/Midl/-oi) and **–Oif** style parameter descriptors exist.
 
 ## The –Oi Parameter Descriptors
 
 Fully interpreted stubs require additional information for each of the parameters in an RPC call. The parameter descriptions of a procedure follow immediately after the description of the procedure.
 
-[**Simple –Oi**](https://docs.microsoft.com/windows/desktop/Midl/-oi)
+[**Simple –Oi**](/windows/desktop/Midl/-oi)
 
 **Parameter Descriptors**
 
@@ -70,7 +70,7 @@ Where the param\_direction<1> field for each of these descriptions must be one o
 The stack\_size<1> is the size of the parameter on the stack, expressed as the number of integers the parameter occupies on the stack.
 
 > [!Note]  
-> The [**–Oi**](https://docs.microsoft.com/windows/desktop/Midl/-oi) mode is not supported on 64-bit platforms.
+> The [**–Oi**](/windows/desktop/Midl/-oi) mode is not supported on 64-bit platforms.
 
  
 
@@ -125,13 +125,9 @@ typedef struct
 -   The **IsSimpleRef** bit is set for a parameter that is a reference pointer to anything other than another pointer, and which has no allocate attributes. For such a type, the parameter description's type\_offset<> field, except for a reference pointer to a base type, provides the offset to the referent's type; the reference pointer is simply skipped.
 -   The **IsDontCallFreeInst** bit is set for certain represent\_as parameters whose free instance routines should not be called.
 -   The **ServerAllocSize** bits are nonzero if the parameter is \[**out**\], \[**in**\], or \[**in,out**\] pointer to pointer, or pointer to enum16, and will be initialized on the server interpreter's stack, rather than using a call to **I\_RpcAllocate**. If nonzero, this value is multiplied by 8 to get the number of bytes for the parameter. Note that doing so means at least 8 bytes are always allocated for a pointer.
--   The **IsBasetype** bit is set for simple types that are being marshaled by the main [**–Oif**](https://docs.microsoft.com/windows/desktop/Midl/-oi) interpreter loop. In particular, a simple type with a range attribute on it is not flagged as a base type in order to force the range routine marshaling through dispatching using an FC\_RANGE token.
--   The **IsByValue** bit is set for compound types being sent by value, but is not set for simple types, regardless of whether the argument is a pointer. The compound types for which it is set are structures, unions, [**transmit\_as**](https://docs.microsoft.com/windows/desktop/Midl/transmit-as), [**represent\_as**](https://docs.microsoft.com/windows/desktop/Midl/represent-as), [**wire\_marshal**](https://docs.microsoft.com/windows/desktop/Midl/wire-marshal) and SAFEARRAY. In general, the bit was introduced for the benefit of the main interpreter loop in the [**–Oicf**](https://docs.microsoft.com/windows/desktop/Midl/-oi) interpreter, to ensure the nonsimple arguments (referred to as compound type arguments) are properly dereferenced. This bit was never used in previous versions of the interpreter.
+-   The **IsBasetype** bit is set for simple types that are being marshaled by the main [**–Oif**](/windows/desktop/Midl/-oi) interpreter loop. In particular, a simple type with a range attribute on it is not flagged as a base type in order to force the range routine marshaling through dispatching using an FC\_RANGE token.
+-   The **IsByValue** bit is set for compound types being sent by value, but is not set for simple types, regardless of whether the argument is a pointer. The compound types for which it is set are structures, unions, [**transmit\_as**](/windows/desktop/Midl/transmit-as), [**represent\_as**](/windows/desktop/Midl/represent-as), [**wire\_marshal**](/windows/desktop/Midl/wire-marshal) and SAFEARRAY. In general, the bit was introduced for the benefit of the main interpreter loop in the [**–Oicf**](/windows/desktop/Midl/-oi) interpreter, to ensure the nonsimple arguments (referred to as compound type arguments) are properly dereferenced. This bit was never used in previous versions of the interpreter.
 
  
 
  
-
-
-
-

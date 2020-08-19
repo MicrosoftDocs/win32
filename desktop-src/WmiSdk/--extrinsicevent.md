@@ -70,7 +70,7 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -94,16 +94,11 @@ The **\_\_ExtrinsicEvent** class is derived from [**\_\_Event**](--event.md).
 
 <dl> <dt>
 
-[**\_\_Event**](https://docs.microsoft.com/windows/desktop/WmiSdk/--event)
+[**\_\_Event**](/windows/desktop/WmiSdk/--event)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -32,8 +32,8 @@ Base class for Memory exceptions.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
-  [System.Exception](https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
+  [System.Exception](/dotnet/api/system.exception)  
     [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
       [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
         [Microsoft.Isam.Esent.Interop.EsentOperationException](dn319727\(v=exchg.10\).md)  
@@ -74,8 +74,8 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
-  [System.Exception](https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
+  [System.Exception](/dotnet/api/system.exception)  
     [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
       [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
         [Microsoft.Isam.Esent.Interop.EsentOperationException](dn319727\(v=exchg.10\).md)  
@@ -90,4 +90,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
               [Microsoft.Isam.Esent.Interop.EsentTooManyMempoolEntriesException](dn350776\(v=exchg.10\).md)  
               [Microsoft.Isam.Esent.Interop.EsentTooManyOpenIndexesException](dn350784\(v=exchg.10\).md)  
               [Microsoft.Isam.Esent.Interop.EsentTooManySortsException](dn350779\(v=exchg.10\).md)
-

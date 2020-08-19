@@ -17,9 +17,9 @@ api_location:
 
 # PrivateKey object
 
-\[The **PrivateKey** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](https://msdn.microsoft.com/library/ms148460(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[The **PrivateKey** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2.privatekey?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
 
-The **PrivateKey** object represents the [*private key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) associated with a certificate.
+The **PrivateKey** object represents the [*private key*](../secgloss/p-gly.md) associated with a certificate.
 
 ## When to use
 
@@ -93,7 +93,3 @@ The **PrivateKey** object can be created, and it is safe for scripting. The Prog
  
 
  
-
-
-
-

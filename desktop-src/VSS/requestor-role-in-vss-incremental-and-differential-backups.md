@@ -56,7 +56,7 @@ The file-set-level file backup specification information ([**VSS\_FILE\_SPEC\_BA
 
 Requesters must obtain file backup specification masks ([**VSS\_FILE\_SPEC\_BACKUP\_TYPE**](/windows/desktop/api/Vss/ne-vss-vss_file_spec_backup_type)) for every file set of each of a writer's components to be included in the incremental or differential backup, regardless of whether the component was [*explicitly*](vssgloss-e.md) or [*implicitly*](vssgloss-i.md) included.
 
-A requester can determine which writers' Writer Metadata Document must be queried by using [**IVssBackupComponents::GetWriterComponentsCount**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponentscount) and [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents). The instance of the [**IVssWriterComponentsExt**](https://msdn.microsoft.com/library/Aa384312(v=VS.85).aspx) interface returned by **IVssBackupComponents::GetWriterComponents** provides writer information through the [**IVssWriterComponentsExt::GetWriterInfo**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getwriterinfo) method.
+A requester can determine which writers' Writer Metadata Document must be queried by using [**IVssBackupComponents::GetWriterComponentsCount**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponentscount) and [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents). The instance of the [**IVssWriterComponentsExt**](/windows/win32/api/vsbackup/nl-vsbackup-ivsswritercomponentsext) interface returned by **IVssBackupComponents::GetWriterComponents** provides writer information through the [**IVssWriterComponentsExt::GetWriterInfo**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getwriterinfo) method.
 
 The requester obtains component information through instances of the [**IVssWMComponent**](/windows/desktop/api/VsBackup/nl-vsbackup-ivsswmcomponent) interface corresponding to an included component managed by a given writer by using [**IVssExamineWriterMetadata::GetComponent**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getcomponent).
 
@@ -75,7 +75,7 @@ A requester obtains partial file and differenced file information through the [*
 
 A requester can iterate over all writers included in a backup using [**IVssBackupComponents::GetWriterComponentsCount**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponentscount) and [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents).
 
-The instance of an [**IVssWriterComponentsExt**](https://msdn.microsoft.com/library/Aa384312(v=VS.85).aspx) interface returned by [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents) provides access to all instances of the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface corresponding to a given writer's [*explicitly included*](vssgloss-e.md) components through the [**IVssWriterComponentsExt::GetComponent**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponent) and [**IVssWriterComponentsExt::GetComponentCount**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponentcount) methods.
+The instance of an [**IVssWriterComponentsExt**](/windows/win32/api/vsbackup/nl-vsbackup-ivsswritercomponentsext) interface returned by [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents) provides access to all instances of the [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) interface corresponding to a given writer's [*explicitly included*](vssgloss-e.md) components through the [**IVssWriterComponentsExt::GetComponent**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponent) and [**IVssWriterComponentsExt::GetComponentCount**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponentcount) methods.
 
 A requester will need to go through all instances of [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) for all writers whose schema support the incremental or differential backup—that is, writers whose backup schema mask, as returned by [**IVssExamineWriterMetadata::GetBackupSchema**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema), includes **VSS\_BS\_INCREMENTAL** when the backup type is **VSS\_BT\_INCREMENTAL**, or **VSS\_BS\_DIFFERENTIAL** when the backup type is **VSS\_BS\_DIFFERENTIAL**.
 
@@ -121,7 +121,7 @@ A requester needs to process (in order) all of a writer's [*differenced files*](
 
     For writers that support backup operations on the basis of last modification data (writers whose backup schema mask, as returned by [**IVssExamineWriterMetadata::GetBackupSchema**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema), includes **VSS\_BS\_LAST\_MODIFY**), a requester uses the path, file specification, and recursion flag information returned by [**IVssComponent::GetDifferencedFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdifferencedfile) to generate a list of files as candidates for incremental backup or restore.
 
-    [**IVssComponent::GetDifferencedFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdifferencedfile) can also return a time of last modification (expressed as a [**FILETIME**](https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx) structure).
+    [**IVssComponent::GetDifferencedFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdifferencedfile) can also return a time of last modification (expressed as a [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure).
 
     If the last modification time supplied by the writer is nonzero, then the requester uses it as the basis (rather than file system information or the requester's own stored data) for determining if the file should be included in the [*incremental*](vssgloss-i.md) or [*differential*](vssgloss-d.md) backup.
 
@@ -180,6 +180,3 @@ The requester's role in handling backup stamp information is (if it exists) to m
  
 
  
-
-
-

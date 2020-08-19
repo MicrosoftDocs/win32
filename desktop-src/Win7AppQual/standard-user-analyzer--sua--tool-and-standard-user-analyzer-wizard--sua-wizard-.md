@@ -46,11 +46,11 @@ The SUA Wizard enables you to follow a guided, step-by-step process by which you
 
 ## Links to Other Resources
 
--   [Application Compatibility Toolkit Download](https://docs.microsoft.com/windows-hardware/get-started/adk-install)
--   [Understanding the Standard User Analyzer Tools](https://technet.microsoft.com/library/cc838047.aspx)
--   [Standard User Analyzer Technical Reference](https://technet.microsoft.com/library/cc765948.aspx)
--   [Testing and Mitigating Issues by Using the Development Tools](https://technet.microsoft.com/library/cc766461(WS.10).aspx)
--   [Application Compatibility and User Account Control](https://technet.microsoft.com/windows/aa905066.aspx)
+-   [Application Compatibility Toolkit Download](/windows-hardware/get-started/adk-install)
+-   [Understanding the Standard User Analyzer Tools](/previous-versions/windows/it-pro/windows-7/cc838047(v=ws.10))
+-   [Standard User Analyzer Technical Reference](/previous-versions/windows/it-pro/windows-7/cc765948(v=ws.10))
+-   [Testing and Mitigating Issues by Using the Development Tools](/previous-versions/orphan-topics/ws.10/cc766461(v=ws.10))
+-   [Application Compatibility and User Account Control](/previous-versions/windows/)
 
 > [!Note]  
 > These resources may not be available in some languages and countries/regions.
@@ -60,6 +60,3 @@ The SUA Wizard enables you to follow a guided, step-by-step process by which you
  
 
  
-
-
-

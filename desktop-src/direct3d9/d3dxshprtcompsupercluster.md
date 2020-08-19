@@ -43,7 +43,7 @@ HRESULT D3DXSHPRTCompSuperCluster(
 *pClusterIDs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to a NumVerts cluster IDs (extracted from a compressed buffer.)
 
@@ -61,7 +61,7 @@ Pointer to a mesh that represents composite scene passed to the simulator. See [
 *MaxNumClusters* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Maximum number of clusters allocated per super cluster.
 
@@ -70,7 +70,7 @@ Maximum number of clusters allocated per super cluster.
 *NumClusters* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of clusters computed in the simulator.
 
@@ -79,7 +79,7 @@ Number of clusters computed in the simulator.
 *pSClusterIDs* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of length *NumClusters*. Contains the index of the super cluster to which the corresponding cluster was assigned.
 
@@ -88,7 +88,7 @@ Pointer to an array of length *NumClusters*. Contains the index of the super clu
 *pNumSCs* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Number of super clusters allocated.
 
@@ -121,7 +121,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

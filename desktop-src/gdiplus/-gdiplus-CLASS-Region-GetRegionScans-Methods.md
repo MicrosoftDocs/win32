@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Region.GetRegionScans methods
 
-This topic lists the GetRegionScans methods of the [**Region**](https://msdn.microsoft.com/library/ms534501(v=VS.85).aspx) class. For a complete list of methods for the **Region** class, see [Region Methods](-gdiplus-class-region-methods.md).
+This topic lists the GetRegionScans methods of the [**Region**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-region) class. For a complete list of methods for the **Region** class, see [Region Methods](-gdiplus-class-region-methods.md).
 
 ### Overload list
 
@@ -16,15 +16,11 @@ This topic lists the GetRegionScans methods of the [**Region**](https://msdn.mic
 
 | Method                                                                                                                      | Description                                                                                                                                                                                                                                                                       |
 |:----------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetRegionScans(Matrix\*,Rect\*,INT\*)**](https://msdn.microsoft.com/library/ms534812(v=VS.85).aspx)   | The [**Region::GetRegionScans**](https://msdn.microsoft.com/library/ms534812(v=VS.85).aspx) method gets an array of rectangles that approximate this region. The region is transformed by a specified matrix before the rectangles are calculated.<br/>  |
-| [**GetRegionScans(Matrix\*,RectF\*,INT\*)**](https://msdn.microsoft.com/library/ms534814(v=VS.85).aspx) | The [**Region::GetRegionScans**](https://msdn.microsoft.com/library/ms534814(v=VS.85).aspx) method gets an array of rectangles that approximate this region. The region is transformed by a specified matrix before the rectangles are calculated.<br/> |
+| [**GetRegionScans(Matrix\*,Rect\*,INT\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-getregionscans(inconstmatrix_outrect_outint))   | The [**Region::GetRegionScans**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-getregionscans(inconstmatrix_outrect_outint)) method gets an array of rectangles that approximate this region. The region is transformed by a specified matrix before the rectangles are calculated.<br/>  |
+| [**GetRegionScans(Matrix\*,RectF\*,INT\*)**](/previous-versions//ms534814(v=vs.85)) | The [**Region::GetRegionScans**](/previous-versions//ms534814(v=vs.85)) method gets an array of rectangles that approximate this region. The region is transformed by a specified matrix before the rectangles are calculated.<br/> |
 
 
 
  
 
  
-
-
-
-

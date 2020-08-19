@@ -13,38 +13,38 @@ The general requirements for pluggable terminal implementation are:
 -   A pluggable terminal's underlying streaming code should match the capabilities of the desired MSPs.
 -   The terminal must use DirectShow filters to work with most MSPs (this is assumed from here on).
 -   Audio terminals must support 8 kHz 16-bit mono linear PCM for most MSPs.
--   The terminal should enable free threaded marshalling by implementing [**IMarshal**](https://msdn.microsoft.com/library/Dd542707(v=VS.85).aspx). The terminal can do this by calling the COM API [**CoCreateFreeThreadedMarshaler**](https://msdn.microsoft.com/library/ms694500(v=VS.85).aspx) and aggregating **IMarshal** to the returned pointer. The terminal object's destructor should call [**IMarshal->Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx).
+-   The terminal should enable free threaded marshalling by implementing [**IMarshal**](/windows/win32/api/objidlbase/nn-objidlbase-imarshal). The terminal can do this by calling the COM API [**CoCreateFreeThreadedMarshaler**](/windows/win32/api/combaseapi/nf-combaseapi-cocreatefreethreadedmarshaler) and aggregating **IMarshal** to the returned pointer. The terminal object's destructor should call [**IMarshal->Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release).
 -   The terminal should implement or aggregate any additional terminal-specific interfaces that are appropriate.
 -   The terminal implementation must be thread-safe.
 -   The terminal implementation must \#include Termmgr.h for the definition of [**ITTerminalControl**](/windows/desktop/api/Termmgr/nn-termmgr-itterminalcontrol). This is in addition to the usual includes and libs that are needed for TAPI 3 or TAPI 3 applications under Windows 2000 SP1.
 
 Interface and method implementation notes:
 
-The terminal must implement [**ITTerminal**](https://msdn.microsoft.com/library/ms732646(v=VS.85).aspx) (dual interface–vtable + [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)).
+The terminal must implement [**ITTerminal**](/windows/win32/api/tapi3if/nn-tapi3if-itterminal) (dual interface–vtable + [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)).
 
-[**ITTerminal::get\_TerminalClass**](https://msdn.microsoft.com/library/ms733195(v=VS.85).aspx)
+[**ITTerminal::get\_TerminalClass**](/windows/win32/api/tapi3if/nf-tapi3if-itterminal-get_terminalclass)
 
-The terminal must return a **BSTR** representation of a GUID you've picked that identifies your type of terminal. Allocate the **BSTR** via [**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx). To convert from GUID to **BSTR**, call [**StringFromCLSID**](https://msdn.microsoft.com/library/ms683917(v=VS.85).aspx), **SysAllocString**, and [**CoTaskMemFree**](https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx).
+The terminal must return a **BSTR** representation of a GUID you've picked that identifies your type of terminal. Allocate the **BSTR** via [**SysAllocString**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring). To convert from GUID to **BSTR**, call [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid), **SysAllocString**, and [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
-[**ITTerminal::get\_TerminalType**](https://msdn.microsoft.com/library/ms733198(v=VS.85).aspx)
+[**ITTerminal::get\_TerminalType**](/windows/win32/api/tapi3if/nf-tapi3if-itterminal-get_terminaltype)
 
 The terminal should generally return TT\_DYNAMIC if an application implements the terminal. Returning TT\_STATIC will also work, and returning this value may be appropriate if the terminal corresponds to a hardware device; however, doing this may be confusing to users because a static terminal will not be present in the MSP's static terminal enumeration.
 
-[**ITTerminal::get\_State**](https://msdn.microsoft.com/library/ms733192(v=VS.85).aspx)
+[**ITTerminal::get\_State**](/windows/win32/api/tapi3if/nf-tapi3if-itterminal-get_state)
 
 If the terminal implementation does not arbitrarily limit the number of streams that the terminal can be concurrently connected to, then the terminal should always return TS\_NOTINUSE.
 
-Otherwise, the terminal implementation arbitrarily limits the number of streams that the terminal can be connected to at a time. In this case, the terminal should keep a count of how many streams it is connected to. The terminal should increment this internal count on a successful [**ITTerminalControl::ConnectTerminal**](/windows/desktop/api/Termmgr/nf-termmgr-itterminalcontrol-connectterminal) call and decrement it on a successful [**ITTerminalControl::DisconnectTerminal**](/windows/desktop/api/Termmgr/nf-termmgr-itterminalcontrol-disconnectterminal) call. In [**ITTerminal::get\_State**](https://msdn.microsoft.com/library/ms733192(v=VS.85).aspx), it should return TS\_INUSE if this count is equal to the maximum number of streams that the terminal can be selected on at a time; otherwise, it should return TS\_NOTINUSE. Note that if the limit is one, the count can simply be a Boolean or a TERMINAL\_STATE value.
+Otherwise, the terminal implementation arbitrarily limits the number of streams that the terminal can be connected to at a time. In this case, the terminal should keep a count of how many streams it is connected to. The terminal should increment this internal count on a successful [**ITTerminalControl::ConnectTerminal**](/windows/desktop/api/Termmgr/nf-termmgr-itterminalcontrol-connectterminal) call and decrement it on a successful [**ITTerminalControl::DisconnectTerminal**](/windows/desktop/api/Termmgr/nf-termmgr-itterminalcontrol-disconnectterminal) call. In [**ITTerminal::get\_State**](/windows/win32/api/tapi3if/nf-tapi3if-itterminal-get_state), it should return TS\_INUSE if this count is equal to the maximum number of streams that the terminal can be selected on at a time; otherwise, it should return TS\_NOTINUSE. Note that if the limit is one, the count can simply be a Boolean or a TERMINAL\_STATE value.
 
-[**ITTerminal::get\_Name**](https://msdn.microsoft.com/library/ms733189(v=VS.85).aspx)
+[**ITTerminal::get\_Name**](/windows/win32/api/tapi3if/nf-tapi3if-itterminal-get_name)
 
-The terminal should return a **BSTR** name of its choice, allocated via [**SysAllocString**](https://msdn.microsoft.com/library/ms221458(v=VS.71).aspx). This name should be meaningful to the user and should be localized.
+The terminal should return a **BSTR** name of its choice, allocated via [**SysAllocString**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring). This name should be meaningful to the user and should be localized.
 
-[**ITTerminal::get\_MediaType**](https://msdn.microsoft.com/library/ms733188(v=VS.85).aspx)
+[**ITTerminal::get\_MediaType**](/windows/win32/api/tapi3if/nf-tapi3if-itterminal-get_mediatype)
 
 The terminal should return its media type, either TAPIMEDIATYPE\_AUDIO or TAPIMEDIATYPE\_VIDEO.
 
-[**ITTerminal::get\_Direction**](https://msdn.microsoft.com/library/ms733184(v=VS.85).aspx)
+[**ITTerminal::get\_Direction**](/windows/win32/api/tapi3if/nf-tapi3if-itterminal-get_direction)
 
 The terminal returns the TERMINAL\_DIRECTION enum value indicating the direction of the terminal. If the terminal is bidirectional (for example, a bridge), then it must return TD\_BIDIRECTIONAL.
 
@@ -86,6 +86,3 @@ The terminal should just return E\_NOTIMPL.
  
 
  
-
-
-

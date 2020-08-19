@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Direct Card Access Functions
 
-By using the [*smart card*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) subsystem, you can communicate with cards that may not conform to the ISO 7816 specifications. To do this, the following functions let you control the attributes of the communications between the application and the card by giving you direct, low-level manipulation of the [*reader*](https://docs.microsoft.com/windows/desktop/SecGloss/r-gly).
+By using the [*smart card*](/windows/desktop/SecGloss/s-gly) subsystem, you can communicate with cards that may not conform to the ISO 7816 specifications. To do this, the following functions let you control the attributes of the communications between the application and the card by giving you direct, low-level manipulation of the [*reader*](/windows/desktop/SecGloss/r-gly).
 
 To use these functions, you have to supply an identifier for the attribute in question. For valid attribute identifiers and values, refer to Table 3-1 in *Requirements for PC-Connected Interface Devices*.
 
@@ -27,6 +27,3 @@ To use these functions, you have to supply an identifier for the attribute in qu
  
 
  
-
-
-

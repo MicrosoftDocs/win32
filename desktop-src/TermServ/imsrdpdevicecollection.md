@@ -24,7 +24,7 @@ Represents a collection of device objects.
 
 ## Members
 
-The **IMsRdpDeviceCollection** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsRdpDeviceCollection** also has these types of members:
+The **IMsRdpDeviceCollection** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsRdpDeviceCollection** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -84,10 +84,4 @@ The **IMsRdpDeviceCollection** interface has these properties.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

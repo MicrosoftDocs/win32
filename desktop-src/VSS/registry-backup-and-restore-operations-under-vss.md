@@ -41,7 +41,7 @@ The registry writer ensures that hive files are saved to disk prior to its shado
 When backing up the registry hives, a requester would replace \\Device\\*HarddiskVolumeX* with the [*device object*](vssgloss-d.md) string of the volume's shadow copy.
 
 > [!Note]  
-> You can convert the \\Device\\*HarddiskVolumeX* path to an equivalent Win32 path by using the [**QueryDosDevice**](https://msdn.microsoft.com/library/Aa365461(v=VS.85).aspx) function. For more information, see [Obtaining a File Name From a File Handle](https://msdn.microsoft.com/library/Aa366789(v=VS.85).aspx) or [Displaying Volume Path Names](https://msdn.microsoft.com/library/Cc542456(v=VS.85).aspx).
+> You can convert the \\Device\\*HarddiskVolumeX* path to an equivalent Win32 path by using the [**QueryDosDevice**](/windows/win32/api/fileapi/nf-fileapi-querydosdevicew) function. For more information, see [Obtaining a File Name From a File Handle](../memory/obtaining-a-file-name-from-a-file-handle.md) or [Displaying Volume Path Names](../fileio/displaying-volume-paths.md).
 
  
 
@@ -49,9 +49,9 @@ When backing up the registry hives, a requester would replace \\Device\\*Harddis
 
 For an online (safe mode or full operating system) restore, the subkeys in the **HKEY\_LOCAL\_MACHINE**\\**SYSTEM**\\**CurrentControlSet**\\**Control**\\**Session Manager**\\**PendingFileRenameOperations** registry key must be preserved.
 
-The [**MoveFileEx**](https://msdn.microsoft.com/library/Aa365240(v=VS.85).aspx) and [**MoveFileTransacted**](https://msdn.microsoft.com/library/Aa365241(v=VS.85).aspx) functions use this registry key to store information about files that were renamed by using the MOVEFILE\_DELAY\_UNTIL\_REBOOT value in the *dwFlags* parameter.
+The [**MoveFileEx**](/windows/win32/api/winbase/nf-winbase-movefileexa) and [**MoveFileTransacted**](/windows/win32/api/winbase/nf-winbase-movefiletransacteda) functions use this registry key to store information about files that were renamed by using the MOVEFILE\_DELAY\_UNTIL\_REBOOT value in the *dwFlags* parameter.
 
-To preserve the contents of the **PendingFileRenameOperations** registry key, your backup application should call the [**RegLoadKey**](https://msdn.microsoft.com/library/ms724889(v=VS.85).aspx) function to connect the registry file to be restored to the active registry. Your backup application can then use the various registry functions to copy the desired keys and values into the loaded hive. After the copy is complete, the [**RegFlushKey**](https://msdn.microsoft.com/library/ms724867(v=VS.85).aspx) and [**RegUnloadKey**](https://msdn.microsoft.com/library/ms724924(v=VS.85).aspx) functions should be called.
+To preserve the contents of the **PendingFileRenameOperations** registry key, your backup application should call the [**RegLoadKey**](/windows/win32/api/winreg/nf-winreg-regloadkeya) function to connect the registry file to be restored to the active registry. Your backup application can then use the various registry functions to copy the desired keys and values into the loaded hive. After the copy is complete, the [**RegFlushKey**](/windows/win32/api/winreg/nf-winreg-regflushkey) and [**RegUnloadKey**](/windows/win32/api/winreg/nf-winreg-regunloadkeya) functions should be called.
 
 For an offline (Windows Recovery Environment or Windows PE) restore, it is not necessary to honor the **PendingFileRenameOperations** registry key.
 
@@ -149,6 +149,3 @@ How key strings are to be interpreted by backup applications is determined by th
  
 
  
-
-
-

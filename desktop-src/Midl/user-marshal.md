@@ -58,7 +58,7 @@ Specifies the named transfer data type that is actually transferred between clie
 *pFlags* 
 </dt> <dd>
 
-Specifies a pointer to a flag field ( [**unsigned**](unsigned.md) [**long**](long.md)). The high-order word specifies NDR data representation flags as defined by DCE for floating point, big- or little-endian, and character representation. The low-order word specifies a marshaling context flag. The exact layout of the flags is described in [The type\_UserSize Function](https://docs.microsoft.com/windows/desktop/Rpc/the-type-usersize-function).
+Specifies a pointer to a flag field ( [**unsigned**](unsigned.md) [**long**](long.md)). The high-order word specifies NDR data representation flags as defined by DCE for floating point, big- or little-endian, and character representation. The low-order word specifies a marshaling context flag. The exact layout of the flags is described in [The type\_UserSize Function](/windows/desktop/Rpc/the-type-usersize-function).
 
 </dd> <dt>
 
@@ -85,9 +85,9 @@ Specifies the current buffer pointer.
 
 ## Remarks
 
-Each named local type, *userm-type*, has a one-to-one correspondence with a *wire-type* that defines the wire representation of the type. You must supply routines to size the data for marshaling, to marshal and unmarshal the data, and to free memory. For more information on these routines, see [The user\_marshal Attribute](https://docs.microsoft.com/windows/desktop/Rpc/the-user-marshal-attribute). Note that if there are embedded types in your data that are also defined with **user\_marshal** or \[ [**\[wire\_marshal\]**](wire-marshal.md), you need to manage the servicing of those embedded types also.
+Each named local type, *userm-type*, has a one-to-one correspondence with a *wire-type* that defines the wire representation of the type. You must supply routines to size the data for marshaling, to marshal and unmarshal the data, and to free memory. For more information on these routines, see [The user\_marshal Attribute](/windows/desktop/Rpc/the-user-marshal-attribute). Note that if there are embedded types in your data that are also defined with **user\_marshal** or \[ [**\[wire\_marshal\]**](wire-marshal.md), you need to manage the servicing of those embedded types also.
 
-The *wire-type* cannot be an interface pointer or a full pointer. The *wire-type* must have a well-defined memory size. See [Marshaling Rules for user\_marshal and wire\_marshal](https://docs.microsoft.com/windows/desktop/Rpc/marshaling-rules-for-user-marshal-and-wire-marshal) for details on how to marshal a given *wire-type*.
+The *wire-type* cannot be an interface pointer or a full pointer. The *wire-type* must have a well-defined memory size. See [Marshaling Rules for user\_marshal and wire\_marshal](/windows/desktop/Rpc/marshaling-rules-for-user-marshal-and-wire-marshal) for details on how to marshal a given *wire-type*.
 
 The *userm-type* should not be an interface pointer as these can be marshaled directly. If the user type is a full pointer, you must manage the aliasing yourself.
 
@@ -154,19 +154,15 @@ void __RPC_USER FOUR_BYTE_DATA_UserFree(
 [**unsigned**](unsigned.md)
 </dt> <dt>
 
-[The user\_marshal Attribute](https://docs.microsoft.com/windows/desktop/Rpc/the-user-marshal-attribute)
+[The user\_marshal Attribute](/windows/desktop/Rpc/the-user-marshal-attribute)
 </dt> <dt>
 
 [**wire\_marshal**](wire-marshal.md)
 </dt> <dt>
 
-[**NdrGetUserMarshalInfo**](https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-ndrgetusermarshalinfo)
+[**NdrGetUserMarshalInfo**](/windows/desktop/api/rpcndr/nf-rpcndr-ndrgetusermarshalinfo)
 </dt> </dl>
 
  
 
  
-
-
-
-

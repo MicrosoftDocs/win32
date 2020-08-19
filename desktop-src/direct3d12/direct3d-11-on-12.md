@@ -29,7 +29,7 @@ After you have a D3D11 device and immediate context, you can `QueryInterface` of
 
 Typical usage of D3D11On12 would be to use D2D to render text or images on top of a D3D12 back buffer. See the D3D11On12 sample for example code. Here is a rough outline of the steps to take to do so:
 
--   Create a D3D12 device ([**D3D12CreateDevice**](/windows/desktop/api/d3d12/nf-d3d12-d3d12createdevice)) and a D3D12 swap chain ([**CreateSwapChain**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-createswapchain) with an [**ID3D12CommandQueue**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue) as an input).
+-   Create a D3D12 device ([**D3D12CreateDevice**](/windows/desktop/api/d3d12/nf-d3d12-d3d12createdevice)) and a D3D12 swap chain ([**CreateSwapChain**](/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-createswapchain) with an [**ID3D12CommandQueue**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue) as an input).
 -   Create a D3D11On12 device using the D3D12 device and the same command queue as input.
 -   Retrieve the swap chain back buffers, and create D3D11 wrapped resources for each of them. The input state used should be the last way that D3D12 used it (e.g. RENDER\_TARGET) and the output state should be the way that D3D12 will use it after D3D11 has finished (e.g. PRESENT).
 -   Initialize D2D, and provide the D3D11 wrapped resources to D2D to prepare for rendering.
@@ -41,7 +41,7 @@ Then, on each frame, do the following:
 -   Issue D2D rendering commands.
 -   Release the wrapped resource ([**ReleaseWrappedResources**](/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-releasewrappedresources)).
 -   Flush the D3D11 immediate context.
--   Present ([**IDXGISwapChain1::Present1**](https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1)).
+-   Present ([**IDXGISwapChain1::Present1**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1)).
 
 ## Background
 
@@ -90,7 +90,3 @@ APIs that make up the 11on12 layer are described in [11on12 Reference](direct3d-
  
 
  
-
-
-
-

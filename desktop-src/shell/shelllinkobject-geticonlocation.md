@@ -37,7 +37,7 @@ iRetVal = ShellLinkObject.GetIconLocation(
 *sPath* \[out\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)\***
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)\***
 
 When this method returns, it holds the fully qualified path of the file that contains the icon.
 
@@ -191,7 +191,3 @@ End Sub
  
 
  
-
-
-
-

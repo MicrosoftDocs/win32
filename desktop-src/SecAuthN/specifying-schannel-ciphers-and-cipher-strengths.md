@@ -10,14 +10,14 @@ ms.date: 05/31/2018
 
 For client/server information exchanges, the default behavior of Schannel is to negotiate the best cipher available based on those enabled in the registry. Applications may limit the ciphers and cipher strengths allowed for a connection by using members of the [**SCHANNEL\_CRED**](/windows/desktop/api/Schannel/ns-schannel-schannel_cred) structure as follows:
 
-1.  Set the **palgSupportedAlgs** member to an array of [**ALG\_ID**](https://msdn.microsoft.com/library/Aa375549(v=VS.85).aspx) containing the allowable ciphers. For more information, see Cipher IDs.
+1.  Set the **palgSupportedAlgs** member to an array of [**ALG\_ID**](../seccrypto/alg-id.md) containing the allowable ciphers. For more information, see Cipher IDs.
 2.  Set the **dwMinimumCipherStrength** and/or **dwMaximumCipherStrength** members to the allowable minimum and maximum strengths. For more information, see Cipher Strength Values.
-3.  Pass the [**SCHANNEL\_CRED**](/windows/desktop/api/Schannel/ns-schannel-schannel_cred) structure (by means of the *pAuthData* parameter) in a call to the [**AcquireCredentialsHandle**](https://msdn.microsoft.com/library/Aa374712(v=VS.85).aspx) function. This function returns a credentials handle.
-4.  Specify the credentials handle in a call to the client-side [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx) function or the server-side [**AcceptSecurityContext (General)**](https://msdn.microsoft.com/library/Aa374703(v=VS.85).aspx) function.
+3.  Pass the [**SCHANNEL\_CRED**](/windows/desktop/api/Schannel/ns-schannel-schannel_cred) structure (by means of the *pAuthData* parameter) in a call to the [**AcquireCredentialsHandle**](/windows/win32/api/sspi/nf-sspi-acquirecredentialshandlea) function. This function returns a credentials handle.
+4.  Specify the credentials handle in a call to the client-side [**InitializeSecurityContext (General)**](/windows/win32/api/sspi/nf-sspi-initializesecuritycontexta) function or the server-side [**AcceptSecurityContext (General)**](/windows/win32/api/sspi/nf-sspi-acceptsecuritycontext) function.
 
 ## Cipher IDs
 
-The default behavior of Schannel is to request the best cipher available based on Schannel entries in the system registry. Do not change the system registry; the settings it contains for Schannel are used globally and will affect other applications. For the list of valid constants, see [**ALG\_ID**](https://msdn.microsoft.com/library/Aa375549(v=VS.85).aspx).
+The default behavior of Schannel is to request the best cipher available based on Schannel entries in the system registry. Do not change the system registry; the settings it contains for Schannel are used globally and will affect other applications. For the list of valid constants, see [**ALG\_ID**](../seccrypto/alg-id.md).
 
 ## Cipher Strength Values
 
@@ -34,6 +34,3 @@ To retrieve the list of supported algorithms for a credential, call the [**Query
  
 
  
-
-
-

@@ -20,7 +20,7 @@ api_location:
 
 # ISCrdEnr::CSPName property
 
-The **CSPName** property sets or retrieves the name of the [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP).
+The **CSPName** property sets or retrieves the name of the [*cryptographic service provider*](../secgloss/c-gly.md) (CSP).
 
 This property is read/write.
 
@@ -82,7 +82,3 @@ Set this property to specify the name of the CSP to use with the Smart Card Enro
  
 
  
-
-
-
-

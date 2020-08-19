@@ -24,7 +24,7 @@ propertyDescription
 
 UI\_PKEY\_FontProperties\_ForegroundColorType is used by an application, in conjunction with [UI\_PKEY\_FontProperties\_ForegroundColor](windowsribbon-reference-properties-uipkey-fontproperties-foregroundcolor.md), to query **Text color** gallery settings.
 
-The property value is from the [**UI\_SWATCHCOLORTYPE**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_swatchcolortype) enumeration.
+The property value is from the [**UI\_SWATCHCOLORTYPE**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_swatchcolortype) enumeration.
 
 The default value is `UI_SWATCHCOLORTYPE_RGB`.
 
@@ -42,7 +42,7 @@ The following table describes the property values.
 
  
 
-UI\_PKEY\_FontProperties\_ForegroundColorType is passed to the [**IUICommandHandler::Execute**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) callback method when a color swatch is selected in a [**FontControl**](windowsribbon-element-fontcontrol.md) **Text color** gallery.
+UI\_PKEY\_FontProperties\_ForegroundColorType is passed to the [**IUICommandHandler::Execute**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) callback method when a color swatch is selected in a [**FontControl**](windowsribbon-element-fontcontrol.md) **Text color** gallery.
 
 > [!Note]  
 > It is highly recommended that the application only set an initial **Text color** value and not re-set this value when the cursor is repositioned within a document. The last selection should be maintained to avoid the need to re-select the desired color.
@@ -56,17 +56,11 @@ UI\_PKEY\_FontProperties\_ForegroundColorType is passed to the [**IUICommandHand
 [Font Control Properties](windowsribbon-reference-properties-fontcontrol.md)
 </dt> <dt>
 
-[**UI\_SWATCHCOLORTYPE**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_swatchcolortype)
+[**UI\_SWATCHCOLORTYPE**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_swatchcolortype)
 </dt> <dt>
 
 [Font Control](windowsribbon-controls-fontcontrol.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

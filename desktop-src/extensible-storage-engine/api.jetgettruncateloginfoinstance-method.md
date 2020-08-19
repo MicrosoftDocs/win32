@@ -70,21 +70,21 @@ public static void JetGetTruncateLogInfoInstance(
 <!-- end list -->
 
   - files  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     Returns a list of null terminated strings describing the set of database log files that can be safely deleted after the backup completes. The list of strings returned in this buffer is in the same format as a multi-string used by the registry. Each null-terminated string is returned in sequence followed by a final null terminator.
 
 <!-- end list -->
 
   - maxChars  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Maximum number of characters to retrieve.
 
 <!-- end list -->
 
   - actualChars  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Actual size of the file list. If this is greater than maxChars then the list has been truncated.
 
@@ -101,4 +101,3 @@ It is important to note that this API does not return an error or warning if the
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

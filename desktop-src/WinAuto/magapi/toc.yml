@@ -1,18 +1,18 @@
 - name: "Magnification API"
-  href: /windows/win32/winauto/magapi/entry-magapi-sdk
+  href: ./entry-magapi-sdk.md
   items: 
   - name: "Magnification API Overview"
-    href: /windows/win32/winauto/magapi/magapi-intro
+    href: ./magapi-intro.md
   - name: "Reference"
-    href: /windows/win32/winauto/magapi/entry-magapi-ref
+    href: ./entry-magapi-ref.md
     items: 
     - name: "Constants"
-      href: /windows/win32/winauto/magapi/entry-magapi-constants
+      href: ./entry-magapi-constants.md
       items: 
       - name: "Magnifier Styles"
-        href: /windows/win32/winauto/magapi/magapi-magnifier-styles
+        href: ./magapi-magnifier-styles.md
     - name: "Functions"
-      href: /windows/win32/winauto/magapi/entry-magapi-functions
+      href: ./entry-magapi-functions.md
       items: 
       - name: "MagGetColorEffect"
         href: /windows/win32/api/Magnification/nf-magnification-maggetcoloreffect
@@ -55,7 +55,7 @@
       - name: "MagUninitialize"
         href: /windows/win32/api/Magnification/nf-magnification-maguninitialize
     - name: "Structures"
-      href: /windows/win32/winauto/magapi/entry-magapi-structures
+      href: ./entry-magapi-structures.md
       items: 
       - name: "MAGCOLOREFFECT"
         href: /windows/win32/api/magnification/ns-magnification-magcoloreffect
@@ -64,4 +64,4 @@
       - name: "MAGTRANSFORM"
         href: /windows/win32/api/magnification/ns-magnification-magtransform
   - name: "Samples"
-    href: /windows/win32/winauto/magapi/magapi-samples-entry
+    href: ./magapi-samples-entry.md

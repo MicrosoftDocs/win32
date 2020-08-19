@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Monitor Events
 
-Monitors are designed to use [Windows Management Instrumentation](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page) (WMI) to fire events to local or remote computers.
+Monitors are designed to use [Windows Management Instrumentation](/windows/desktop/WmiSdk/wmi-start-page) (WMI) to fire events to local or remote computers.
 
 > [!Note]  
 > Because monitors use a real-time capture they can only capture data at the local computer. This is a limitation of the network packet provider's **IRTC** interface. However, by using WMI events, the captured data can be examined locally while events can be sent to local or remote computers.
@@ -20,6 +20,3 @@ Monitors do not communicate directly with WMI. The [*Monitor Control Service*](m
  
 
  
-
-
-

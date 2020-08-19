@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using a Termination Handler
 
-The following example shows how a termination handler is used to ensure that resources are released when execution of a guarded body of code terminates. In this case, a thread uses the [**EnterCriticalSection**](https://msdn.microsoft.com/library/ms682608(v=VS.85).aspx) function to wait for ownership of a critical section object. When the thread is finished executing the code that is protected by the critical section, it must call the [**LeaveCriticalSection**](https://msdn.microsoft.com/library/ms684169(v=VS.85).aspx) function to make the critical section object available to other threads. Using a termination handler guarantees that this will happen. For more information, see [critical section objects](https://msdn.microsoft.com/library/ms682530(v=VS.85).aspx).
+The following example shows how a termination handler is used to ensure that resources are released when execution of a guarded body of code terminates. In this case, a thread uses the [**EnterCriticalSection**](/windows/win32/api/synchapi/nf-synchapi-entercriticalsection) function to wait for ownership of a critical section object. When the thread is finished executing the code that is protected by the critical section, it must call the [**LeaveCriticalSection**](/windows/win32/api/synchapi/nf-synchapi-leavecriticalsection) function to make the critical section object available to other threads. Using a termination handler guarantees that this will happen. For more information, see [critical section objects](../sync/critical-section-objects.md).
 
 
 ```C++
@@ -39,6 +39,3 @@ __finally
  
 
  
-
-
-

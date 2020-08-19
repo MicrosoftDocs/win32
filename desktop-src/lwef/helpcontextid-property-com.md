@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**
 </dt> <dd>
 
-Returns or sets an associated context number for the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object. Used to provide context-sensitive Help for the **Command** object.
+Returns or sets an associated context number for the [**Command**](/windows/desktop/lwef/the-command-object) object. Used to provide context-sensitive Help for the **Command** object.
 
 </dd> <dt>
 
@@ -55,7 +55,3 @@ This property applies only to your client application's use of the character; th
  
 
  
-
-
-
-

@@ -22,7 +22,7 @@ This section describes the functions for UI Automation provider for Microsoft Wi
 | [**UiaGetReservedMixedAttributeValue**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiagetreservedmixedattributevalue)<br/> | Retrieves a reserved value indicating that the value of a UI Automation text attribute varies within a text range.<br/>                                      |
 | [**UiaGetReservedNotSupportedValue**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiagetreservednotsupportedvalue)<br/>     | Retrieves a reserved value indicating that a UI Automation property or a text attribute is not supported.<br/>                                               |
 | [**UiaHostProviderFromHwnd**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiahostproviderfromhwnd)<br/>                     | Gets the host provider for a window.<br/>                                                                                                                    |
-| [**UiaIAccessibleFromProvider**](https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaiaccessiblefromprovider)<br/>                   | Retrieves an [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) implementation that provides Microsoft Active Accessibility data on behalf of a UI Automation provider.<br/> |
+| [**UiaIAccessibleFromProvider**](/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaiaccessiblefromprovider)<br/>                   | Retrieves an [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) implementation that provides Microsoft Active Accessibility data on behalf of a UI Automation provider.<br/> |
 | [**UiaProviderForNonClient**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaproviderfornonclient)<br/>                     | Gets the provider for the entire non-client area of a window, or for a control in the non-client area of a window.<br/>                                      |
 | [**UiaProviderFromIAccessible**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaproviderfromiaccessible)<br/>               | Creates a UI Automation provider based on the specified Microsoft Active Accessibility object.<br/>                                                          |
 | [**UiaRaiseAsyncContentLoadedEvent**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaraiseasynccontentloadedevent)<br/>     | Called by a provider to notify the UI Automation core that content is being loaded asynchronously.<br/>                                                      |
@@ -46,10 +46,4 @@ This section describes the functions for UI Automation provider for Microsoft Wi
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

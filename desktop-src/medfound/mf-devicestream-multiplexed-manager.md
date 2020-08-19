@@ -12,7 +12,7 @@ Provides an instance of [**IMFMuxStreamAttributesManager**](/windows/desktop/api
 
 ## Data type
 
-**[**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx)**
+**[**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)**
 
 ## Remarks
 
@@ -33,7 +33,3 @@ Pass this value into [**IMFAttributes::GetUnknown**](/windows/desktop/api/mfobje
  
 
  
-
-
-
-

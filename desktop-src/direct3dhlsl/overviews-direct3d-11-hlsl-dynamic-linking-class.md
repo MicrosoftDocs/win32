@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Interfaces and Classes
+# Interfaces and classes
 
 Dynamic shader linkage makes use of high-level shader language (HLSL) interfaces and classes that are syntactically similar to their C++ counterparts. This allows shaders to reference abstract interface instances at compile time and leave resolution of those instances to concrete classes for the application at runtime.
 
@@ -24,9 +24,9 @@ The following sections detail how to setup a shader to use interfaces and classe
 -   [Initializing Interface Instances in an Application](#initializing-interface-instances-in-an-application)
 -   [Related topics](#related-topics)
 
-## Declaring Interfaces
+## Declaring interfaces
 
-An interface functions in a similar manner to an abstract base class in C++. An interface is declared in a shader using the interface keyword and only contains method declarations. The methods declared in an interface will all be virtual methods in any classes derived from the interface. Derived classes must implement all methods declared in an interface. Note that interfaces are the only way to declare virtual methods, there is no virtual keyword as in C++ and Classes connot declare virtual methods.
+An interface functions in a similar manner to an abstract base class in C++. An interface is declared in a shader using the interface keyword and only contains method declarations. The methods declared in an interface will all be virtual methods in any classes derived from the interface. Derived classes must implement all methods declared in an interface. Note that interfaces are the only way to declare virtual methods, there is no virtual keyword as in C++, and classes connot declare virtual methods.
 
 The following example shader code declares two interfaces.
 
@@ -125,7 +125,7 @@ float4 PSMain( PS_INPUT Input ) : SV_TARGET
 
 ## Class Instance Declarations in a Shader
 
-Each class that will be used in place of an interface instance must either be declared as a variable in a constant buffer or created by the application at runtime using the [**ID3D11ClassLinkage::CreateClassInstance**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11classlinkage-createclassinstance) method. Interface instances will be pointed at class instances in the application code. Class instances can be referenced in shader code like any other variable, but a class that is derived from an interface will typically only be used with an interface instance and will not be referenced by shader code directly.
+Each class that will be used in place of an interface instance must either be declared as a variable in a constant buffer or created by the application at runtime using the [**ID3D11ClassLinkage::CreateClassInstance**](/windows/desktop/api/d3d11/nf-d3d11-id3d11classlinkage-createclassinstance) method. Interface instances will be pointed at class instances in the application code. Class instances can be referenced in shader code like any other variable, but a class that is derived from an interface will typically only be used with an interface instance and will not be referenced by shader code directly.
 
 The following example shader code illustrates declaring several class instances.
 
@@ -146,11 +146,11 @@ cbuffer cbPerFrame : register( b0 )
 
 ## Initializing Interface Instances in an Application
 
-Interface instances are initialized in application code by passing a dynamic linkage array containing interface assignments to one of the [**ID3D11DeviceContext**](https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext) SetShader methods.
+Interface instances are initialized in application code by passing a dynamic linkage array containing interface assignments to one of the [**ID3D11DeviceContext**](/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext) SetShader methods.
 
 To create a dynamic linkage array use the following steps
 
-1.  Create a class linkage object using CreatClassLinkage.
+1.  Create a class linkage object using [**CreateClassLinkage**](/windows/win32/api/d3d11/nf-d3d11-id3d11device-createclasslinkage).
     ```
     ID3D11ClassLinkage* g_pPSClassLinkage = NULL;            
     pd3dDevice->CreateClassLinkage( &g_pPSClassLinkage );
@@ -168,7 +168,7 @@ To create a dynamic linkage array use the following steps
 
     
 
-3.  Create a [**ID3D11ShaderReflection**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection) object using the [**D3DReflect**](d3dreflect.md) function.
+3.  Create a [**ID3D11ShaderReflection**](/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection) object using the [**D3DReflect**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dreflect) function.
     ```
     ID3D11ShaderReflection* pReflector = NULL; 
     D3DReflect( pPixelShaderBuffer->GetBufferPointer(),                  
@@ -179,7 +179,7 @@ To create a dynamic linkage array use the following steps
 
     
 
-4.  Use the shader reflection object to get the number of interface instances in the shader using the [**ID3D11ShaderReflection::GetNumInterfaceSlots**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflection-getnuminterfaceslots) method.
+4.  Use the shader reflection object to get the number of interface instances in the shader using the [**ID3D11ShaderReflection::GetNumInterfaceSlots**](/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflection-getnuminterfaceslots) method.
     ```
     g_iNumPSInterfaces = pReflector->GetNumInterfaceSlots();             
               
@@ -197,7 +197,7 @@ To create a dynamic linkage array use the following steps
 
     
 
-6.  Determine the index in the array that corresponds to each interface instance using [**ID3D11ShaderReflection::GetVariableByName**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflection-getvariablebyname) and [**ID3D11ShaderReflectionVariable::GetInterfaceSlot**](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-getinterfaceslot).
+6.  Determine the index in the array that corresponds to each interface instance using [**ID3D11ShaderReflection::GetVariableByName**](/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflection-getvariablebyname) and [**ID3D11ShaderReflectionVariable::GetInterfaceSlot**](/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-getinterfaceslot).
     ```
     ID3D11ShaderReflectionVariable* pAmbientLightingVar = 
         pReflector->GetVariableByName("g_abstractAmbientLighting");
@@ -207,7 +207,7 @@ To create a dynamic linkage array use the following steps
 
     
 
-7.  Get a class instance for each class object derived from an interface in the shader using [**ID3D11ClassLinkage::GetClassInstance**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11classlinkage-getclassinstance).
+7.  Get a class instance for each class object derived from an interface in the shader using [**ID3D11ClassLinkage::GetClassInstance**](/windows/desktop/api/d3d11/nf-d3d11-id3d11classlinkage-getclassinstance).
     ```
     g_pPSClassLinkage->GetClassInstance( "g_hemiAmbientLight", 0, 
         &g_pHemiAmbientLightClass );            
@@ -234,15 +234,4 @@ To create a dynamic linkage array use the following steps
 
 ## Related topics
 
-<dl> <dt>
-
 [Dynamic Linking](overviews-direct3d-11-hlsl-dynamic-linking.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-

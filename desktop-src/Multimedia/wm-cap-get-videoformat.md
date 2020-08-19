@@ -43,7 +43,7 @@ Size, in bytes, of the structure referenced by**s**.
 <span id="psVideoFormat"></span><span id="psvideoformat"></span><span id="PSVIDEOFORMAT"></span>*psVideoFormat*
 </dt> <dd>
 
-Pointer to a [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure. You can also specify **NULL** to retrieve the number of bytes needed.
+Pointer to a [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure. You can also specify **NULL** to retrieve the number of bytes needed.
 
 </dd> </dl>
 
@@ -78,10 +78,4 @@ Because compressed video formats vary in size requirements applications must fir
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

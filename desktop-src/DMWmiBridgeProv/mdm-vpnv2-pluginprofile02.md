@@ -54,7 +54,7 @@ The **MDM\_VPNv2\_PluginProfile02** class has these properties.
 
 <dl> <dt>
 
-[CustomConfiguration](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-pluginprofile-customconfiguration)
+[CustomConfiguration](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-pluginprofile-customconfiguration)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -65,7 +65,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[CustomStoreUrl](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-pluginprofile-customstoreurl)
+[CustomStoreUrl](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-pluginprofile-customstoreurl)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -85,7 +85,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node.
@@ -101,14 +101,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/VPNv2/*ProfileName*"
 
 </dd> <dt>
 
-[PluginPackageFamilyName](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-pluginprofile-pluginpackagefamilyname)
+[PluginPackageFamilyName](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-pluginprofile-pluginpackagefamilyname)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -119,7 +119,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ServerUrlList](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-pluginprofile-serverurllist)
+[ServerUrlList](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-pluginprofile-serverurllist)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -148,14 +148,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

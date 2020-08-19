@@ -17,12 +17,12 @@ api_location:
 
 # CharUpperBuffWrapW function
 
-\[**CharUpperBuffWrapW** is available for use in Windows XP. It may not be available in subsequent versions. You should use [**CharUpperBuffW**](https://msdn.microsoft.com/library/ms647475(v=VS.85).aspx) in its place.\]
+\[**CharUpperBuffWrapW** is available for use in Windows XP. It may not be available in subsequent versions. You should use [**CharUpperBuffW**](/windows/win32/api/winuser/nf-winuser-charupperbuffa) in its place.\]
 
 Converts lowercase characters in a buffer to uppercase characters. The function converts the characters in place.
 
 > [!Note]  
-> **CharUpperBuffWrapW** is a wrapper for the **CharUpperBuffW** function. See the [**CharUpperBuff**](https://msdn.microsoft.com/library/ms647475(v=VS.85).aspx) page for further usage notes.
+> **CharUpperBuffWrapW** is a wrapper for the **CharUpperBuffW** function. See the [**CharUpperBuff**](/windows/win32/api/winuser/nf-winuser-charupperbuffa) page for further usage notes.
 
  
 
@@ -68,7 +68,7 @@ The number of characters processed.
 
 ## Remarks
 
-The preferred method is to use [**CharUpperBuffW**](https://msdn.microsoft.com/library/ms647475(v=VS.85).aspx) in conjunction with the Microsoft Layer for Unicode (MSLU).
+The preferred method is to use [**CharUpperBuffW**](/windows/win32/api/winuser/nf-winuser-charupperbuffa) in conjunction with the Microsoft Layer for Unicode (MSLU).
 
 **CharUpperBuffWrapW** must be called directly from Shlwapi.dll, using ordinal 44.
 
@@ -88,13 +88,9 @@ The preferred method is to use [**CharUpperBuffW**](https://msdn.microsoft.com/l
 
 <dl> <dt>
 
-[**CharUpperBuff**](https://msdn.microsoft.com/library/ms647475(v=VS.85).aspx)
+[**CharUpperBuff**](/windows/win32/api/winuser/nf-winuser-charupperbuffa)
 </dt> </dl>
 
  
 
  
-
-
-
-

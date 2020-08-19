@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 An application can use Application Recovery and Restart (ARR) to save data and state information before the application exits due to an unhandled exception or when the application stops responding. The application is also restarted, if requested.
 
-When you register for recovery or restart, the registration information is added to the process. [Windows Error Reporting (WER)](https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting) uses the registration information to call your recovery callback and restart your application. For example, if you register for recovery and your application encounters an unhandled exception, WER displays a dialog to the user that gives the user the option of checking for a solution online, closing the program, or debugging the program. If the user chooses to either check for a solution or close the program, WER calls the registered callback and gives the application the chance to save data and state information. When the recovery is complete, the application is terminated.
+When you register for recovery or restart, the registration information is added to the process. [Windows Error Reporting (WER)](/windows/desktop/wer/windows-error-reporting) uses the registration information to call your recovery callback and restart your application. For example, if you register for recovery and your application encounters an unhandled exception, WER displays a dialog to the user that gives the user the option of checking for a solution online, closing the program, or debugging the program. If the user chooses to either check for a solution or close the program, WER calls the registered callback and gives the application the chance to save data and state information. When the recovery is complete, the application is terminated.
 
 If you register for restart and your application encounters an unhandled exception, WER displays the same dialog to the user but gives the option of restarting the program instead of closing the program. If you register for both recovery and restart, recovery occurs first; the application is then terminated and restarted.
 
@@ -28,7 +28,3 @@ For samples that implement the recovery and restart features, see the AppRecover
  
 
  
-
-
-
-

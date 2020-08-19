@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # RootDSE (AD Schema)
 
-In LDAP 3.0, rootDSE is defined as the root of the directory data tree on a directory server. The rootDSE is not part of any namespace. The purpose of the rootDSE is to provide data about the directory server. For more information about rootDSE, see [Serverless Binding and RootDSE](https://docs.microsoft.com/windows/desktop/AD/serverless-binding-and-rootdse) in the Active Directory SDK documentation.
+In LDAP 3.0, rootDSE is defined as the root of the directory data tree on a directory server. The rootDSE is not part of any namespace. The purpose of the rootDSE is to provide data about the directory server. For more information about rootDSE, see [Serverless Binding and RootDSE](/windows/desktop/AD/serverless-binding-and-rootdse) in the Active Directory SDK documentation.
 
 rootDSE contains the following attributes. All attributes are single-valued unless otherwise noted.
 
@@ -46,37 +46,31 @@ rootDSE contains the following attributes. All attributes are single-valued unle
 
  
 
-Active Directory supports the following control OIDs in the **supportedControl** attribute. For more information, see [**LDAPControl**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapcontrola) and [**ldap\_search\_init\_page**](https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_init_page).
+Active Directory supports the following control OIDs in the **supportedControl** attribute. For more information, see [**LDAPControl**](/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapcontrola) and [**ldap\_search\_init\_page**](/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_init_page).
 
 
 
 | Control OID                        | String constant                                                                                   |
 |------------------------------------|---------------------------------------------------------------------------------------------------|
-| 1.2.840.113556.1.4.319<br/>  | [LDAP\_PAGED\_RESULT\_OID\_STRING](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-paged-result-oid-string)<br/>                  |
-| 1.2.840.113556.1.4.473<br/>  | [LDAP\_SERVER\_SORT\_OID](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-sort-oid)<br/>                                   |
-| 1.2.840.113556.1.4.474<br/>  | [LDAP\_SERVER\_RESP\_SORT\_OID](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-resp-sort-oid)<br/>                        |
-| 1.2.840.113556.1.4.801<br/>  | [LDAP\_SERVER\_SD\_FLAGS\_OID](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-sd-flags-oid)<br/>                          |
-| 1.2.840.113556.1.4.528<br/>  | [LDAP\_SERVER\_NOTIFICATION\_OID](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-notification-oid)<br/>                   |
-| 1.2.840.113556.1.4.417<br/>  | [LDAP\_SERVER\_SHOW\_DELETED\_OID](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-show-deleted-oid)<br/>                  |
-| 1.2.840.113556.1.4.619<br/>  | [LDAP\_SERVER\_LAZY\_COMMIT\_OID](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-lazy-commit-oid)<br/>                    |
-| 1.2.840.113556.1.4.841<br/>  | [LDAP\_SERVER\_DIRSYNC\_OID](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-dirsync-oid)<br/>                             |
-| 1.2.840.113556.1.4.529<br/>  | [LDAP\_SERVER\_EXTENDED\_DN\_OID](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-extended-dn-oid)<br/>                    |
-| 1.2.840.113556.1.4.805<br/>  | [LDAP\_SERVER\_TREE\_DELETE\_OID](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-tree-delete-oid)<br/>                    |
-| 1.2.840.113556.1.4.521<br/>  | [LDAP\_SERVER\_CROSSDOM\_MOVE\_TARGET\_OID](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-crossdom-move-target-oid)<br/> |
-| 1.2.840.113556.1.4.1338<br/> | [LDAP\_SERVER\_VERIFY\_NAME\_OID](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-verify-name-oid)<br/>                    |
-| 1.2.840.113556.1.4.1339<br/> | [LDAP\_SERVER\_DOMAIN\_SCOPE\_OID](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-domain-scope-oid)<br/>                  |
-| 1.2.840.113556.1.4.1340<br/> | [LDAP\_SERVER\_SEARCH\_OPTIONS\_OID](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-search-options-oid)<br/>              |
-| 1.2.840.113556.1.4.1413<br/> | [LDAP\_SERVER\_PERMISSIVE\_MODIFY\_OID](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-permissive-modify-oid)<br/>        |
+| 1.2.840.113556.1.4.319<br/>  | [LDAP\_PAGED\_RESULT\_OID\_STRING](/previous-versions/windows/desktop/ldap/ldap-paged-result-oid-string)<br/>                  |
+| 1.2.840.113556.1.4.473<br/>  | [LDAP\_SERVER\_SORT\_OID](/previous-versions/windows/desktop/ldap/ldap-server-sort-oid)<br/>                                   |
+| 1.2.840.113556.1.4.474<br/>  | [LDAP\_SERVER\_RESP\_SORT\_OID](/previous-versions/windows/desktop/ldap/ldap-server-resp-sort-oid)<br/>                        |
+| 1.2.840.113556.1.4.801<br/>  | [LDAP\_SERVER\_SD\_FLAGS\_OID](/previous-versions/windows/desktop/ldap/ldap-server-sd-flags-oid)<br/>                          |
+| 1.2.840.113556.1.4.528<br/>  | [LDAP\_SERVER\_NOTIFICATION\_OID](/previous-versions/windows/desktop/ldap/ldap-server-notification-oid)<br/>                   |
+| 1.2.840.113556.1.4.417<br/>  | [LDAP\_SERVER\_SHOW\_DELETED\_OID](/previous-versions/windows/desktop/ldap/ldap-server-show-deleted-oid)<br/>                  |
+| 1.2.840.113556.1.4.619<br/>  | [LDAP\_SERVER\_LAZY\_COMMIT\_OID](/previous-versions/windows/desktop/ldap/ldap-server-lazy-commit-oid)<br/>                    |
+| 1.2.840.113556.1.4.841<br/>  | [LDAP\_SERVER\_DIRSYNC\_OID](/previous-versions/windows/desktop/ldap/ldap-server-dirsync-oid)<br/>                             |
+| 1.2.840.113556.1.4.529<br/>  | [LDAP\_SERVER\_EXTENDED\_DN\_OID](/previous-versions/windows/desktop/ldap/ldap-server-extended-dn-oid)<br/>                    |
+| 1.2.840.113556.1.4.805<br/>  | [LDAP\_SERVER\_TREE\_DELETE\_OID](/previous-versions/windows/desktop/ldap/ldap-server-tree-delete-oid)<br/>                    |
+| 1.2.840.113556.1.4.521<br/>  | [LDAP\_SERVER\_CROSSDOM\_MOVE\_TARGET\_OID](/previous-versions/windows/desktop/ldap/ldap-server-crossdom-move-target-oid)<br/> |
+| 1.2.840.113556.1.4.1338<br/> | [LDAP\_SERVER\_VERIFY\_NAME\_OID](/previous-versions/windows/desktop/ldap/ldap-server-verify-name-oid)<br/>                    |
+| 1.2.840.113556.1.4.1339<br/> | [LDAP\_SERVER\_DOMAIN\_SCOPE\_OID](/previous-versions/windows/desktop/ldap/ldap-server-domain-scope-oid)<br/>                  |
+| 1.2.840.113556.1.4.1340<br/> | [LDAP\_SERVER\_SEARCH\_OPTIONS\_OID](/previous-versions/windows/desktop/ldap/ldap-server-search-options-oid)<br/>              |
+| 1.2.840.113556.1.4.1413<br/> | [LDAP\_SERVER\_PERMISSIVE\_MODIFY\_OID](/previous-versions/windows/desktop/ldap/ldap-server-permissive-modify-oid)<br/>        |
 
 
 
  
 
  
-
- 
-
-
-
-
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.AreaInformation Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.AreaInformation](https://msdn.microsoft.com/library/bb787480(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.AreaInformation](../properties/props-system-gps-areainformation.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.AreaInformation](https://msdn.microsoft.com/library/bb787480(VS.85).aspx)
+[System.GPS.AreaInformation](../properties/props-system-gps-areainformation.md)
 </dt> </dl>
 
  
 
  
-
-
-

@@ -54,7 +54,7 @@ The **MDM\_Firewall\_App04** class has these properties.
 
 <dl> <dt>
 
-[FilePath](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#filepath)
+[FilePath](/windows/client-management/mdm/firewall-csp#filepath)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -65,7 +65,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Fqbn](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#fqbn)
+[Fqbn](/windows/client-management/mdm/firewall-csp#fqbn)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -85,12 +85,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[PackageFamilyName](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#packagefamilyname)
+[PackageFamilyName](/windows/client-management/mdm/firewall-csp#packagefamilyname)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -110,12 +110,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[ServiceName](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#servicename)
+[ServiceName](/windows/client-management/mdm/firewall-csp#servicename)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -141,10 +141,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

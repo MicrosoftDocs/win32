@@ -288,7 +288,7 @@ This setting is not supported in the **HKEY\_CURRENT\_USER** registry hive.
 
 **REG\_DWORD**
 
-One or more values from the [**MINIDUMP\_TYPE**](https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type) enumeration. The default is {**MiniDumpWithDataSegs**\|**MiniDumpWithUnloadedModules**\|**MiniDumpWithProcessThreadData**}.
+One or more values from the [**MINIDUMP\_TYPE**](/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type) enumeration. The default is {**MiniDumpWithDataSegs**\|**MiniDumpWithUnloadedModules**\|**MiniDumpWithProcessThreadData**}.
 
 **Windows Vista:** The registry values under the **LocalDumps** key are not supported. Note that this behavior changed with Windows Server 2008 and Windows Vista with SP1.
 
@@ -382,7 +382,7 @@ The maximum number of full live dumps that may be on disk at any given time. The
 
 **REG\_QWORD**
 
-A [SystemTime](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) indicating the last full live report time, for the system or a specific ReportType. This is used to calculate whether a policy threshold has been satisfied.
+A [SystemTime](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) indicating the last full live report time, for the system or a specific ReportType. This is used to calculate whether a policy threshold has been satisfied.
 
 </dd> <dt>
 
@@ -420,7 +420,3 @@ This setting is not supported in the **HKEY\_CURRENT\_USER** registry hive.
  
 
  
-
-
-
-

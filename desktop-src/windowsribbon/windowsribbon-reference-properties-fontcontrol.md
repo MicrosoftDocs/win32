@@ -15,7 +15,7 @@ Reference documentation on property keys for the Ribbon framework [Font Control]
 | Topic                                                                                                                               | Contents                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [UI\_PKEY\_FontProperties](windowsribbon-reference-properties-uipkey-fontproperties.md)                                            | Identifies the UI\_PKEY\_FontProperties property.<br/>                      |
-| [UI\_PKEY\_FontProperties\_BackgroundColor](https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolor) | Identifies the UI\_PKEY\_FontProperties\_BackgroundColor property.<br/>     |
+| [UI\_PKEY\_FontProperties\_BackgroundColor](/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolor) | Identifies the UI\_PKEY\_FontProperties\_BackgroundColor property.<br/>     |
 | [UI\_PKEY\_FontProperties\_BackgroundColorType](windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolortype.md)   | Identifies the UI\_PKEY\_FontProperties\_BackgroundColorType property.<br/> |
 | [UI\_PKEY\_FontProperties\_Bold](windowsribbon-reference-properties-uipkey-fontproperties-bold.md)                                 | Identifies the UI\_PKEY\_FontProperties\_Bold property.<br/>                |
 | [UI\_PKEY\_FontProperties\_ChangedProperties](windowsribbon-reference-properties-uipkey-fontproperties-changedproperties.md)       | Identifies the UI\_PKEY\_FontProperties\_ChangedProperties property.<br/>   |
@@ -41,10 +41,4 @@ Reference documentation on property keys for the Ribbon framework [Font Control]
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

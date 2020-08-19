@@ -3,7 +3,7 @@ Description: This section describes how to use both the C/C++ API for Microsoft 
 ms.assetid: 16178bb8-5e95-46a5-825a-880edc402445
 title: Using WinHTTP
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 07/22/2020
 ---
 
 # Using WinHTTP

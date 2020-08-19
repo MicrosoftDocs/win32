@@ -12,7 +12,7 @@ The following example sets the last-write time for a file to the current system 
 
 The NTFS file system stores time values in UTC format, so they are not affected by changes in time zone or daylight saving time. The FAT file system stores time values based on the local time of the computer.
 
-The file must be opened with the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function using FILE\_WRITE\_ATTRIBUTES access.
+The file must be opened with the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) function using FILE\_WRITE\_ATTRIBUTES access.
 
 
 ```C++
@@ -44,6 +44,3 @@ BOOL SetFileToCurrentTime(HANDLE hFile)
  
 
  
-
-
-

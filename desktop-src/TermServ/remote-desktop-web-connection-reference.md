@@ -333,14 +333,14 @@ Includes methods to retrieve and set properties of the Remote Desktop ActiveX co
 
 </dd> <dt>
 
-[**IRemoteDesktopClient**](https://msdn.microsoft.com/library/Mt786998(v=VS.85).aspx)
+[**IRemoteDesktopClient**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient)
 </dt> <dd>
 
 Provides methods and properties used to configure and use the Remote Desktop Protocol (RDP) app container client control.
 
 </dd> <dt>
 
-[**IRemoteDesktopClientActions**](https://msdn.microsoft.com/library/Mt787001(v=VS.85).aspx)
+[**IRemoteDesktopClientActions**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientactions)
 </dt> <dd>
 
 Provides the methods used to interact with the Remote Desktop Protocol (RDP) app container client control.
@@ -354,16 +354,16 @@ Provides methods that receive information from the server that are related to cl
 
 </dd> <dt>
 
-[**IRemoteDesktopClientSettings**](https://msdn.microsoft.com/library/Mt787023(v=VS.85).aspx)
+[**IRemoteDesktopClientSettings**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientsettings)
 </dt> <dd>
 
 Provides the methods needed to configure the connection settings for the Remote Desktop Protocol (RDP) app container client control.
 
-Use the [**IRemoteDesktopClient**](https://msdn.microsoft.com/library/Mt786998(v=VS.85).aspx)[**Settings**](iremotedesktopclient-settings.md) property to obtain a pointer to this interface.
+Use the [**IRemoteDesktopClient**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient)[**Settings**](iremotedesktopclient-settings.md) property to obtain a pointer to this interface.
 
 </dd> <dt>
 
-[**IRemoteDesktopClientTouchPointer**](https://msdn.microsoft.com/library/Mt787029(v=VS.85).aspx)
+[**IRemoteDesktopClientTouchPointer**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer)
 </dt> <dd>
 
 Provides the properties needed to control the touch pointer feature of the Remote Desktop Protocol (RDP) app container client control.
@@ -395,7 +395,7 @@ Defines properties and methods for use with a RemoteApp.
 
 For more information about Remote Desktop Web Connection, see [Requirements for Remote Desktop Web Connection](requirements-for-remote-desktop-web-connection.md).
 
-For a general discussion of property methods, see [Interface Property Methods](https://docs.microsoft.com/windows/desktop/ADSI/interface-property-methods).
+For a general discussion of property methods, see [Interface Property Methods](/windows/desktop/ADSI/interface-property-methods).
 
 ## Related topics
 
@@ -407,7 +407,3 @@ For a general discussion of property methods, see [Interface Property Methods](h
  
 
  
-
-
-
-

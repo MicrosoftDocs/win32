@@ -29,12 +29,12 @@ When a [**PenInputPanel**](peninputpanel-class.md) object is attached to a paren
 
 To use the [**PenInputPanel**](peninputpanel-class.md) object in a windowless environment, the following technique can be used:
 
-1.  Instantiate a [TextBox](https://msdn.microsoft.com/library/48deaakc(v=VS.90).aspx) control and position it over the windowless control.
+1.  Instantiate a [TextBox](/dotnet/api/system.windows.forms.textbox?view=netcore-3.1) control and position it over the windowless control.
 2.  Attach the [**PenInputPanel**](peninputpanel-class.md) object to the new text box control.
 3.  Let the text box control collect the recognized text from the [**PenInputPanel**](peninputpanel-class.md) object.
 4.  When focus changes away from the text box control, call the [**CommitPendingInput**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-commitpendinginput) method of the [**PenInputPanel**](peninputpanel-class.md) object.
 5.  Copy the recognized text from the text box control to the windowless child.
-6.  Detach the [**PenInputPanel**](peninputpanel-class.md) object by setting its [AttachedEditControl](https://msdn.microsoft.com/library/ms582239(v=VS.90).aspx) (managed code only) property or [**AttachedEditWindow**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_attachededitwindow) property to null.
+6.  Detach the [**PenInputPanel**](peninputpanel-class.md) object by setting its [AttachedEditControl](/previous-versions/ms582239(v=vs.100)) (managed code only) property or [**AttachedEditWindow**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_attachededitwindow) property to null.
 7.  Destroy the text box control.
 
 ## Related topics
@@ -44,15 +44,12 @@ To use the [**PenInputPanel**](peninputpanel-class.md) object in a windowless en
 [**PenInputPanel Class**](peninputpanel-class.md)
 </dt> <dt>
 
-[Microsoft.Ink.PenInputPanel](https://msdn.microsoft.com/library/ms583923(v=VS.90).aspx)
+[Microsoft.Ink.PenInputPanel](/previous-versions/ms583923(v=vs.100))
 </dt> <dt>
 
-[Text Services Framework](https://msdn.microsoft.com/library/ms629032.aspx)
+[Text Services Framework](../tsf/text-services-framework.md)
 </dt> </dl>
 
  
 
  
-
-
-

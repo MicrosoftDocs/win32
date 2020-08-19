@@ -43,7 +43,7 @@ No return value.
 
 ## Remarks
 
-Other applications can use the [**PostMessage**](https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx) function to send this message to File Manager. To obtain the appropriate File Manager window handle, an application can specify "WFS\_Frame" as the *lpszClassName* parameter in a call to the [**FindWindow**](https://msdn.microsoft.com/library/ms633499(v=VS.85).aspx) function.
+Other applications can use the [**PostMessage**](/windows/win32/api/winuser/nf-winuser-postmessagea) function to send this message to File Manager. To obtain the appropriate File Manager window handle, an application can specify "WFS\_Frame" as the *lpszClassName* parameter in a call to the [**FindWindow**](/windows/win32/api/winuser/nf-winuser-findwindowa) function.
 
 ## Requirements
 
@@ -67,7 +67,3 @@ Other applications can use the [**PostMessage**](https://msdn.microsoft.com/libr
  
 
  
-
-
-
-

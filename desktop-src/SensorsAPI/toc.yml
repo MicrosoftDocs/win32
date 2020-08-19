@@ -12,8 +12,6 @@
       href: general-requirements-for-application-development.md
     - name: "About the Samples and Tools"
       href: about-the-samples.md
-    - name: "For More Information"
-      href: for-more-information.md
   - name: "About the Sensor API"
     href: about-the-sensor-api.md
     items: 
@@ -79,14 +77,14 @@
         - name: "CheckLocationCapability method"
           href: /windows/desktop/api/sensorsapi/nf-sensorsapi-ilocationpermissions-checklocationcapability
       - name: "ILogicalSensorManager"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd318934(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dd318934(v=vs.85)
         items: 
         - name: "Connect Method"
-          href: https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/dd374029%28v%3dvs.85%29
+          href: /previous-versions/windows/desktop/legacy/dd374029(v=vs.85)
         - name: "Disconnect Method"
-          href: https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/dd374030%28v%3dvs.85%29
+          href: /previous-versions/windows/desktop/legacy/dd374030(v=vs.85)
         - name: "Uninstall Method"
-          href: https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/dd374031%28v%3dvs.85%29
+          href: /previous-versions/windows/desktop/legacy/dd374031(v=vs.85)
       - name: "ISensor"
         href: /windows/desktop/api/sensorsapi/nn-sensorsapi-isensor
         items: 

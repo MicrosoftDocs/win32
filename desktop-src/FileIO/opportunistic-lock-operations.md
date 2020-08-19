@@ -8,24 +8,21 @@ ms.date: 05/31/2018
 
 # Opportunistic Lock Operations
 
-If an application requests opportunistic locks, all files for which it requests locks must be opened for overlapped (asynchronous) input and output by using the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function with the **FILE\_FLAG\_OVERLAPPED** flag. After the files are opened for overlapped operation, you can use the [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function with one of the following control codes to work with those files' opportunistic locks:
+If an application requests opportunistic locks, all files for which it requests locks must be opened for overlapped (asynchronous) input and output by using the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function with the **FILE\_FLAG\_OVERLAPPED** flag. After the files are opened for overlapped operation, you can use the [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function with one of the following control codes to work with those files' opportunistic locks:
 
 <dl>
 
-[**FSCTL\_OPBATCH\_ACK\_CLOSE\_PENDING**](https://msdn.microsoft.com/library/Aa364578(v=VS.85).aspx)  
-[**FSCTL\_OPLOCK\_BREAK\_ACK\_NO\_2**](https://msdn.microsoft.com/library/Aa364580(v=VS.85).aspx)  
-[**FSCTL\_OPLOCK\_BREAK\_ACKNOWLEDGE**](https://msdn.microsoft.com/library/Aa364579(v=VS.85).aspx)  
-[**FSCTL\_OPLOCK\_BREAK\_NOTIFY**](https://msdn.microsoft.com/library/Aa364581(v=VS.85).aspx)  
-[**FSCTL\_REQUEST\_BATCH\_OPLOCK**](https://msdn.microsoft.com/library/Aa364588(v=VS.85).aspx)  
-[**FSCTL\_REQUEST\_FILTER\_OPLOCK**](https://msdn.microsoft.com/library/Aa364589(v=VS.85).aspx)  
-[**FSCTL\_REQUEST\_OPLOCK**](https://msdn.microsoft.com/library/Ee681828(v=VS.85).aspx)  
-[**FSCTL\_REQUEST\_OPLOCK\_LEVEL\_1**](https://msdn.microsoft.com/library/Aa364590(v=VS.85).aspx)  
-[**FSCTL\_REQUEST\_OPLOCK\_LEVEL\_2**](https://msdn.microsoft.com/library/Aa364591(v=VS.85).aspx)  
+[**FSCTL\_OPBATCH\_ACK\_CLOSE\_PENDING**](/windows/win32/api/winioctl/ni-winioctl-fsctl_opbatch_ack_close_pending)  
+[**FSCTL\_OPLOCK\_BREAK\_ACK\_NO\_2**](/windows/win32/api/winioctl/ni-winioctl-fsctl_oplock_break_ack_no_2)  
+[**FSCTL\_OPLOCK\_BREAK\_ACKNOWLEDGE**](/windows/win32/api/winioctl/ni-winioctl-fsctl_oplock_break_acknowledge)  
+[**FSCTL\_OPLOCK\_BREAK\_NOTIFY**](/windows/win32/api/winioctl/ni-winioctl-fsctl_oplock_break_notify)  
+[**FSCTL\_REQUEST\_BATCH\_OPLOCK**](/windows/win32/api/winioctl/ni-winioctl-fsctl_request_batch_oplock)  
+[**FSCTL\_REQUEST\_FILTER\_OPLOCK**](/windows/win32/api/winioctl/ni-winioctl-fsctl_request_filter_oplock)  
+[**FSCTL\_REQUEST\_OPLOCK**](/windows/win32/api/winioctl/ni-winioctl-fsctl_request_oplock)  
+[**FSCTL\_REQUEST\_OPLOCK\_LEVEL\_1**](/windows/win32/api/winioctl/ni-winioctl-fsctl_request_oplock_level_1)  
+[**FSCTL\_REQUEST\_OPLOCK\_LEVEL\_2**](/windows/win32/api/winioctl/ni-winioctl-fsctl_request_oplock_level_2)  
 </dl>
 
  
 
  
-
-
-

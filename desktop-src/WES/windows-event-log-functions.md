@@ -14,7 +14,7 @@ Windows Event Log defines the following functions that you can use to get events
 
 | Function                                                                   | Description                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**EVT\_SUBSCRIBE\_CALLBACK**](https://msdn.microsoft.com/library/Aa385577(v=VS.85).aspx)                 | Implement this callback if you call the [**EvtSubscribe**](/windows/desktop/api/WinEvt/nf-winevt-evtsubscribe) function to receive events that match your query.                                                                                    |
+| [**EVT\_SUBSCRIBE\_CALLBACK**](/windows/win32/api/winevt/nc-winevt-evt_subscribe_callback)                 | Implement this callback if you call the [**EvtSubscribe**](/windows/desktop/api/WinEvt/nf-winevt-evtsubscribe) function to receive events that match your query.                                                                                    |
 | [**EvtArchiveExportedLog**](/windows/desktop/api/WinEvt/nf-winevt-evtarchiveexportedlog)                     | Adds localized strings to the events in the specified log file.                                                                                                                                                   |
 | [**EvtCancel**](/windows/desktop/api/WinEvt/nf-winevt-evtcancel)                                             | Cancels all pending operations on a handle.                                                                                                                                                                       |
 | [**EvtClearLog**](/windows/desktop/api/WinEvt/nf-winevt-evtclearlog)                                         | Removes all events from the specified channel and writes them to the target log file.                                                                                                                             |
@@ -58,7 +58,3 @@ Windows Event Log defines the following functions that you can use to get events
  
 
  
-
-
-
-

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**CoInstall**](https://msdn.microsoft.com/library/Bb432203(v=VS.85).aspx)
+-   [**CoInstall**](/windows/win32/api/objbase/nf-objbase-coinstall)
 -   [**IcfgInstallInetComponents**](icfginstallinetcomponents.md)
 -   [**IcfgNeedInetComponents**](icfgneedinetcomponents.md)
 -   [**InstallCatalog**](installcatalog.md)
@@ -37,6 +37,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-

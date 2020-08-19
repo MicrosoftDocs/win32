@@ -53,7 +53,7 @@ HRESULT D3DX11GetImageInfoFromMemory(
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCVOID**](/windows/desktop/WinProg/windows-data-types)**
 
 Pointer to the image in memory.
 
@@ -62,7 +62,7 @@ Pointer to the image in memory.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**SIZE\_T**](/windows/desktop/WinProg/windows-data-types)**
 
 Size of the image in memory, in bytes.
 
@@ -120,10 +120,4 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

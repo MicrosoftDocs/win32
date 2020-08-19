@@ -8,13 +8,13 @@ ms.date: 07/25/2019
 
 # DecryptMessage (Schannel) function
 
-The **DecryptMessage (Schannel)** function decrypts a message. Some packages do not encrypt and decrypt messages but rather perform and check an integrity [*hash*](https://docs.microsoft.com/windows/win32/secgloss/h-gly).
+The **DecryptMessage (Schannel)** function decrypts a message. Some packages do not encrypt and decrypt messages but rather perform and check an integrity [*hash*](../secgloss/h-gly.md).
 
 
-This function is also used with the Schannel [*security support provider*](/windows/win32/secgloss/s-gly#_SECURITY_SECURITY_SUPPORT_PROVIDER_GLY) (SSP) to signal a request from a message sender for a renegotiation (redo) of the connection attributes or for a shutdown of the connection.
+This function is also used with the Schannel [*security support provider*](../secgloss/s-gly.md#_SECURITY_SECURITY_SUPPORT_PROVIDER_GLY) (SSP) to signal a request from a message sender for a renegotiation (redo) of the connection attributes or for a shutdown of the connection.
 
 > [!Note]  
-> [**EncryptMessage (Schannel)**](encryptmessage--schannel.md) and **DecryptMessage (Schannel)** can be called at the same time from two different threads in a single [*security support provider interface*](/windows/win32/secgloss/s-gly#_SECURITY_SECURITY_SUPPORT_PROVIDER_INTERFACE_GLY) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
+> [**EncryptMessage (Schannel)**](encryptmessage--schannel.md) and **DecryptMessage (Schannel)** can be called at the same time from two different threads in a single [*security support provider interface*](../secgloss/s-gly.md#_SECURITY_SECURITY_SUPPORT_PROVIDER_INTERFACE_GLY) (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.
 
 
 ## Syntax
@@ -33,7 +33,7 @@ SECURITY_STATUS SEC_Entry DecryptMessage(
 *phContext* \[in\]
 
 
-A handle to the [*security context*](/windows/win32/secgloss/s-gly#_SECURITY_SECURITY_CONTEXT_GLY) to be used to decrypt the message.
+A handle to the [*security context*](../secgloss/s-gly.md#_SECURITY_SECURITY_CONTEXT_GLY) to be used to decrypt the message.
 
 *pMessage* \[in, out\]
 
@@ -83,7 +83,7 @@ When you use the Schannel SSP, the [**DecryptMessage (General)**](decryptmessage
 If you are using TLS 1.0, you may need to call this function multiple times, adjusting the input buffer on each call, to decrypt a whole message.
 
 
-The **DecryptMessage (Schannel)** function returns SEC\_I\_RENEGOTIATE when the message sender wants to renegotiate the connection ([*security context*](https://docs.microsoft.com/en-us/windows/win32/secgloss/s-gly)). An application handles a requested renegotiation by calling [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md) (server side) or [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md) (client side) and pass SECBUFFER_EXTRA returned from DecryptMessage(). After this initial call returns a value, proceed as though your application were creating a new connection. For more information, see [Creating an Schannel Security Context](creating-an-schannel-security-context.md).
+The **DecryptMessage (Schannel)** function returns SEC\_I\_RENEGOTIATE when the message sender wants to renegotiate the connection ([*security context*](../secgloss/s-gly.md)). An application handles a requested renegotiation by calling [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md) (server side) or [**InitializeSecurityContext (Schannel)**](initializesecuritycontext--schannel.md) (client side) and pass SECBUFFER_EXTRA returned from DecryptMessage(). After this initial call returns a value, proceed as though your application were creating a new connection. For more information, see [Creating an Schannel Security Context](creating-an-schannel-security-context.md).
 
 
 ## Requirements
@@ -102,4 +102,3 @@ The **DecryptMessage (Schannel)** function returns SEC\_I\_RENEGOTIATE when the 
 - [**EncryptMessage (Schannel)**](encryptmessage--schannel.md)
 - [**SecBuffer**](/windows/win32/api/sspi/ns-sspi-secbuffer)
 - [**SecBufferDesc**](/windows/win32/api/sspi/ns-sspi-secbufferdesc)
-

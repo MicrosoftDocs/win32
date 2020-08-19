@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 ****wsman:Items****
 </dt> <dd>
 
-A WS-Management protocol element returned in an enumeration that obtains both the instances and the instance [*EPRs*](https://docs.microsoft.com/windows). **wsman:Items** is a container that holds an instance and its EPR. This type of enumeration is initiated when the **WSManFlagReturnObjectAndEPR** flag is set in the request.
+A WS-Management protocol element returned in an enumeration that obtains both the instances and the instance [*EPRs*](/windows). **wsman:Items** is a container that holds an instance and its EPR. This type of enumeration is initiated when the **WSManFlagReturnObjectAndEPR** flag is set in the request.
 
 </dd> </dl>
 
@@ -138,7 +138,7 @@ The operating system component that receives events from the BMC and other opera
 **event forwarding**
 </dt> <dd>
 
-A notification of events that occur on remote computers can be sent to subscribing applications. Event forwarding is not a feature of WinRM, but of the [Windows Event Log](https://docs.microsoft.com/windows/desktop/WES/windows-event-log). Event forwarding becomes available for the first time in Windows Vista. The Management applications, such as Microsoft Operations Manager (MOM) use event forwarding.
+A notification of events that occur on remote computers can be sent to subscribing applications. Event forwarding is not a feature of WinRM, but of the [Windows Event Log](/windows/desktop/WES/windows-event-log). Event forwarding becomes available for the first time in Windows Vista. The Management applications, such as Microsoft Operations Manager (MOM) use event forwarding.
 
 </dd> </dl>
 
@@ -156,7 +156,7 @@ A query mechanism for specifying a limited set of instances in the request for a
 **filter dialect**
 </dt> <dd>
 
-An XML string that identifies the XML dialect used to specify a [*filter*](windows-remote-management-glossary.md) in a call to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-enumerate). The WinRM service supports [WQL](https://docs.microsoft.com/windows/desktop/WmiSdk/wql-sql-for-wmi) as a filter dialect when receiving requests.
+An XML string that identifies the XML dialect used to specify a [*filter*](windows-remote-management-glossary.md) in a call to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-enumerate). The WinRM service supports [WQL](/windows/desktop/WmiSdk/wql-sql-for-wmi) as a filter dialect when receiving requests.
 
 </dd> <dt>
 
@@ -188,7 +188,7 @@ The client application obtains BMC data through the WinRM [*listener*](windows-r
 **Intelligent Platform Management Interface (IPMI)**
 </dt> <dd>
 
-An IT industry standard for the architecture of [*baseboard management controller (BMC)*](windows-remote-management-glossary.md). The Windows hardware management features supply an [*IPMI driver*](windows-remote-management-glossary.md) and a WMI [*IPMI provider*](windows-remote-management-glossary.md) that allow management scripts, command-line tools, and applications to obtain BMC data. The IPMI provider has WMI [classes](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider).
+An IT industry standard for the architecture of [*baseboard management controller (BMC)*](windows-remote-management-glossary.md). The Windows hardware management features supply an [*IPMI driver*](windows-remote-management-glossary.md) and a WMI [*IPMI provider*](windows-remote-management-glossary.md) that allow management scripts, command-line tools, and applications to obtain BMC data. The IPMI provider has WMI [classes](/previous-versions/windows/desktop/ipmiprv/ipmi-provider).
 
 </dd> <dt>
 
@@ -209,7 +209,7 @@ The kernel driver that enables access to [*baseboard management controller (BMC)
 **IPMI provider**
 </dt> <dd>
 
-A standard WMI provider that defines classes modeling the [*IPMI*](windows-remote-management-glossary.md) and its data. The [IPMI provider](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider) is a COM DLL that obtains data from the BMC.
+A standard WMI provider that defines classes modeling the [*IPMI*](windows-remote-management-glossary.md) and its data. The [IPMI provider](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) is a COM DLL that obtains data from the BMC.
 
 </dd> </dl>
 
@@ -267,7 +267,7 @@ A package of information transmitted between computers or separate networks cons
 **namespace**
 </dt> <dd>
 
-A [*WMI*](windows-remote-management-glossary.md) namespace, which is a logical grouping of WMI classes and instances to control scope and access. The most frequent source of management data for systems running Windows is the root\\cimv2 namespace, which contains classes such as [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process). Namespaces appear in the resource URI for WMI classes, for example http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service.
+A [*WMI*](windows-remote-management-glossary.md) namespace, which is a logical grouping of WMI classes and instances to control scope and access. The most frequent source of management data for systems running Windows is the root\\cimv2 namespace, which contains classes such as [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process). Namespaces appear in the resource URI for WMI classes, for example http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service.
 
 </dd> <dt>
 
@@ -292,7 +292,7 @@ A numeric type of sensor in a [*baseboard management controller (BMC)*](windows-
 **option**
 </dt> <dd>
 
-The additional data required by the resource provider to process a request. For example, some WMI providers require additional data supplied as [**IWbemContext**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext) or [**SWbemNamedValueSet**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemnamedvalueset) objects. Option support is found in the [**ResourceLocator**](resourcelocator.md) object.
+The additional data required by the resource provider to process a request. For example, some WMI providers require additional data supplied as [**IWbemContext**](/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext) or [**SWbemNamedValueSet**](/windows/desktop/WmiSdk/swbemnamedvalueset) objects. Option support is found in the [**ResourceLocator**](resourcelocator.md) object.
 
 </dd> <dt>
 
@@ -321,7 +321,7 @@ A [*WS-Enumeration*](windows-remote-management-glossary.md) pull message is sent
 **resource**
 </dt> <dd>
 
-An [*endpoint*](windows-remote-management-glossary.md) that represents a distinct type of management operation or value. A service exposes one or more resources and some resources can have more than one instance. A management resource is similar to a WMI class or a database table, and an instance is similar to an instance of the class or a row in the table. For example, the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class represents a resource. `Win32_LogicalDisk="C:\"` is a specific instance of the resource.
+An [*endpoint*](windows-remote-management-glossary.md) that represents a distinct type of management operation or value. A service exposes one or more resources and some resources can have more than one instance. A management resource is similar to a WMI class or a database table, and an instance is similar to an instance of the class or a row in the table. For example, the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class represents a resource. `Win32_LogicalDisk="C:\"` is a specific instance of the resource.
 
 </dd> <dt>
 
@@ -533,14 +533,10 @@ A public standard protocol, which is SOAP-based, for accessing XML representatio
 **XPath**
 </dt> <dd>
 
-A path notation for addressing parts of an XML document, similar to a URL. An XPath expression is a sequence of phrases to get from the current location in the XML document to another node or set of nodes. The phrases are separated by forward-slash ("/") characters. The WinRM service supports [XPath](https://msdn.microsoft.com/library/ms256115.aspx) for [*fragment dialect*](windows-remote-management-glossary.md).
+A path notation for addressing parts of an XML document, similar to a URL. An XPath expression is a sequence of phrases to get from the current location in the XML document to another node or set of nodes. The phrases are separated by forward-slash ("/") characters. The WinRM service supports [XPath](/previous-versions/dotnet/netframework-4.0/ms256115(v=vs.100)) for [*fragment dialect*](windows-remote-management-glossary.md).
 
 </dd> </dl>
 
  
 
  
-
-
-
-

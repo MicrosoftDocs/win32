@@ -213,7 +213,7 @@ Type: **WORD**
 
 </dd> <dd>
 
-The weight of the font in the range 0 through 1000. For example, 400 is roman and 700 is bold. If this value is zero, a default weight is used. For additional defined values, see the description of the [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure.
+The weight of the font in the range 0 through 1000. For example, 400 is roman and 700 is bold. If this value is zero, a default weight is used. For additional defined values, see the description of the [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure.
 
 </dd> <dt>
 
@@ -224,7 +224,7 @@ Type: **BYTE**
 
 </dd> <dd>
 
-The character set of the font. For predefined values, see the description of the [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure.
+The character set of the font. For predefined values, see the description of the [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure.
 
 </dd> <dt>
 
@@ -257,7 +257,7 @@ Type: **BYTE**
 
 </dd> <dd>
 
-The pitch and the family of the font. For additional information, see the description of the [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure.
+The pitch and the family of the font. For additional information, see the description of the [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure.
 
 </dd> <dt>
 
@@ -432,14 +432,8 @@ Font declarations can be mixed with other resource declarations in the .RC file 
 **Other Resources**
 </dt> <dt>
 
-[**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta)
+[**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -30,16 +30,11 @@ The following are virtualization WMI classes related to the virtual machine.
 | [**Msvm\_SystemDevice**](msvm-systemdevice.md)<br/>                                           | Associates a logical device with the parent system.<br/>                                                                                                                                                                                                                                                                                                                                                                         |
 | [**Msvm\_VirtualSystemCapabilities**](msvm-virtualsystemcapabilities.md)<br/>                 | Describes the capabilities of the associated [**Msvm\_ComputerSystem**](msvm-computersystem.md).<br/>                                                                                                                                                                                                                                                                                                                           |
 | [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md)<br/>                   | Represents the virtualization-specific settings for a virtual machine.<br/>                                                                                                                                                                                                                                                                                                                                                      |
-| [**Msvm\_VirtualSystemSettingDataComponent**](msvm-virtualsystemsettingdatacomponent.md)<br/> | A generic association used to establish 'part of' relationships between one instance of [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)) and one or more instances of [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).<br/>                                                                                                                                                 |
+| [**Msvm\_VirtualSystemSettingDataComponent**](msvm-virtualsystemsettingdatacomponent.md)<br/> | A generic association used to establish 'part of' relationships between one instance of [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)) and one or more instances of [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).<br/>                                                                                                                                                 |
 
 
 
  
 
  
-
- 
-
-
-
 

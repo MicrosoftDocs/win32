@@ -69,7 +69,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Unique identifier for this instance of the class.
@@ -87,7 +87,7 @@ Access type: Read-only
 
 Address of the page of memory that has been removed.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> </dl>
 
@@ -120,9 +120,4 @@ The **MSMCAEvent\_MemoryPageRemoved** class is derived from [**WMIEvent**](wmiev
 </dt> </dl>
 
  
-
- 
-
-
-
 

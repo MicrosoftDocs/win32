@@ -35,7 +35,7 @@ module modulename
 *attributes* 
 </dt> <dd>
 
-The \[[**uuid**](uuid.md)\], \[[**version**](version.md)\], \[[**helpstring**](helpstring.md)\], \[[**helpcontext**](helpcontext.md)\], \[[**hidden**](hidden.md)\], and \[[**dllname**](dllname-str-.md)\] attributes are accepted before a **module** statement. See [Attribute Descriptions](https://msdn.microsoft.com/library/ms221663(v=VS.71).aspx), in the OLE Automation book, for more information on the attributes accepted before a module definition. The \[**dllname**\] attribute is required. If the \[**uuid**\] attribute is omitted, the module is not uniquely specified in the system.
+The \[[**uuid**](uuid.md)\], \[[**version**](version.md)\], \[[**helpstring**](helpstring.md)\], \[[**helpcontext**](helpcontext.md)\], \[[**hidden**](hidden.md)\], and \[[**dllname**](dllname-str-.md)\] attributes are accepted before a **module** statement. See [Attribute Descriptions](/previous-versions/windows/desktop/automat/attribute-descriptions), in the OLE Automation book, for more information on the attributes accepted before a module definition. The \[**dllname**\] attribute is required. If the \[**uuid**\] attribute is omitted, the module is not uniquely specified in the system.
 
 </dd> <dt>
 
@@ -103,7 +103,7 @@ module somemodule
 [**const**](const.md)
 </dt> <dt>
 
-[Contents of a Type Library](https://msdn.microsoft.com/library/ms221355(v=VS.71).aspx)
+[Contents of a Type Library](/previous-versions/windows/desktop/automat/contents-of-a-type-library)
 </dt> <dt>
 
 [**dllname**](dllname-str-.md)
@@ -124,7 +124,7 @@ module somemodule
 [**hidden**](hidden.md)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> <dt>
 
 [**propget**](propget.md)
@@ -139,7 +139,7 @@ module somemodule
 [**string**](string.md)
 </dt> <dt>
 
-[**TYPEFLAGS**](https://msdn.microsoft.com/library/ms221509(v=VS.71).aspx)
+[**TYPEFLAGS**](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> <dt>
 
 [**uuid**](uuid.md)
@@ -154,7 +154,3 @@ module somemodule
  
 
  
-
-
-
-

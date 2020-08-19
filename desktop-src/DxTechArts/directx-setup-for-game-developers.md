@@ -18,13 +18,13 @@ This article is intended to address some of the common questions about the Direc
 -   [Internal Deployment of the Debug DirectX Runtime](#internal-deployment-of-the-debug-directx-runtime)
 
 > [!IMPORTANT]
-> The legacy DirectX SDK is at end-of-life, but it's still available in order to support old games, tutorials, and projects. New projects should not use it. Using the legacy DirectX SDK requires the use of the deprecated DirectSetup for components such as D3DX9, D3DX10, D3DX11, XAudio 2.7, XInput 1.3, and XACT. For more details on the current state of the DirectX SDK, see [Where is the DirectX SDK?](/windows/win32/directx-sdk--august-2009-), and the blog post [Not So Direct Setup](https://walbourn.github.io/not-so-direct-setup/).
+> The legacy DirectX SDK is at end-of-life, but it's still available in order to support old games, tutorials, and projects. New projects should not use it. Using the legacy DirectX SDK requires the use of the deprecated DirectSetup for components such as D3DX9, D3DX10, D3DX11, XAudio 2.7, XInput 1.3, and XACT. For more details on the current state of the DirectX SDK, see [Where is the DirectX SDK?](../directx-sdk--august-2009-.md), and the blog post [Not So Direct Setup](https://walbourn.github.io/not-so-direct-setup/).
 
 ## DirectX Runtime
 
 The DirectX runtime consists of core components and optional components.
 
-The core components, such as Direct3D and DirectInput, are considered part of the operating system. The core components for DirectX 9.0c have not changed since the DirectX SDK Summer 2004 Update, and they match what was released with Microsoft Windows XP SP2, Windows XP Pro x64 Edition, and Windows Server 2003 SP1. Windows Vista includes DirectX 10, which supports the Windows Display Driver Model (WDDM) and Direct3D 10.x. Windows 7 and Windows Vista (see [KB971644](https://support.microsoft.com/kb/971644)) support DirectX 11, which supports Direct3D 11, Direct2D, DirectWrite, the WARP10 software rendering device, and the 10level9 feature levels. See [Graphics APIs in Windows](https://docs.microsoft.com/windows/desktop/direct3darticles/graphics-apis-in-windows-vista) for more details.
+The core components, such as Direct3D and DirectInput, are considered part of the operating system. The core components for DirectX 9.0c have not changed since the DirectX SDK Summer 2004 Update, and they match what was released with Microsoft Windows XP SP2, Windows XP Pro x64 Edition, and Windows Server 2003 SP1. Windows Vista includes DirectX 10, which supports the Windows Display Driver Model (WDDM) and Direct3D 10.x. Windows 7 and Windows Vista (see [KB971644](https://support.microsoft.com/kb/971644)) support DirectX 11, which supports Direct3D 11, Direct2D, DirectWrite, the WARP10 software rendering device, and the 10level9 feature levels. See [Graphics APIs in Windows](/windows/desktop/direct3darticles/graphics-apis-in-windows-vista) for more details.
 
 The optional components are released in updates of DirectX SDK, and they include D3DX, XACT, XAudio2, XINPUT, Managed DirectX, and other such components. Many of the optional components are regularly updated to integrate customer feedback and expose new features.
 
@@ -45,12 +45,12 @@ While ensuring that DLLs are installed on a system isn't as easy as simply linki
 -   The DirectX redistributable can be configured to contain only those components that your application requires to minimize distribution and media sizes.
 -   The redistributable folder, Program Files\\DirectX SDK\\Redist\\, now contains a cabinet (.cab) file for every possible optional component, so you don't have to dig up an older SDK to find them.
 -   Installing the SDK itself installs every possible optional component.
--   A DirectX redistributable that contains all the optional components is available as both a Web-based installer and as a downloadable package; see the DirectX Developer Center ([DirectX](https://msdn2.microsoft.com/directx/default.aspx)) for more information.
+-   A DirectX redistributable that contains all the optional components is available as both a Web-based installer and as a downloadable package; see the DirectX Developer Center ([DirectX](/previous-versions/windows/apps/hh452744(v=win.10))) for more information.
 
 ## Installation of DirectX by the Game's Installer
 
 > [!Note]  
-> See [Direct3D 11 Deployment for Game Developers](https://docs.microsoft.com/windows/desktop/direct3darticles/direct3d11-deployment).
+> See [Direct3D 11 Deployment for Game Developers](/windows/desktop/direct3darticles/direct3d11-deployment).
 
  
 
@@ -133,8 +133,4 @@ However, we strongly recommend that you do not simply copy the released run-time
 
 ## Desktop Bridge applications 
 
-Desktop Bridge applications that use D3DX9, D3DX10, D3DX11, XAudio 2.7, XInput 1.3, or XACT must download either the [Microsoft.DirectX.x86](https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x86.appx) or the [Microsoft.DirectX.x64](https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x64.appx) framework in order to deploy these legacy DirectX SDK side-by-side components. Alternatively, you can remove all such dependencies&mdash;(see [Developer guide for redistributable version of XAudio 2.9](/windows/win32/xaudio2/xaudio2-redistributable), and the blog posts [Living without D3DX](https://walbourn.github.io/living-without-d3dx/) and [XINPUT and Windows 8](https://walbourn.github.io/xinput-and-windows-8/)).
-
-
-
-
+Desktop Bridge applications that use D3DX9, D3DX10, D3DX11, XAudio 2.7, XInput 1.3, or XACT must download either the [Microsoft.DirectX.x86](https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x86.appx) or the [Microsoft.DirectX.x64](https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x64.appx) framework in order to deploy these legacy DirectX SDK side-by-side components. Alternatively, you can remove all such dependencies&mdash;(see [Developer guide for redistributable version of XAudio 2.9](../xaudio2/xaudio2-redistributable.md), and the blog posts [Living without D3DX](https://walbourn.github.io/living-without-d3dx/) and [XINPUT and Windows 8](https://walbourn.github.io/xinput-and-windows-8/)).

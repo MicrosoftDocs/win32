@@ -24,8 +24,8 @@ Changes or animates the value of the CenterY property of a 2D scale transform. T
 
 | Method                                                                                                        | Description                                            |
 |:--------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetCenterY(float)**](https://msdn.microsoft.com/library/Hh449038(v=VS.85).aspx)                                     | Changes the value of the CenterY property.<br/>  |
-| [**SetCenterY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449040(v=VS.85).aspx) | Animates the value of the CenterY property.<br/> |
+| [**SetCenterY(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setcentery(float))                                     | Changes the value of the CenterY property.<br/>  |
+| [**SetCenterY(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setcentery(idcompositionanimation)) | Animates the value of the CenterY property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the CenterY property of a 2D scale transform. T
 
 <dl> <dt>
 
-[**IDCompositionScaleTransform**](https://msdn.microsoft.com/library/Hh448990(v=VS.85).aspx)
+[**IDCompositionScaleTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionscaletransform)
 </dt> <dt>
 
 [**IDCompositionScaleTransform::SetCenterX**](idcompositionscaletransform-setcenterx-overloaded.md)
@@ -56,8 +56,3 @@ Changes or animates the value of the CenterY property of a 2D scale transform. T
 �
 
 �
-
-
-
-
-

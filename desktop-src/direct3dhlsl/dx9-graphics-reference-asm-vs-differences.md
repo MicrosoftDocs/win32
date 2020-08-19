@@ -24,7 +24,7 @@ Each version supports a differing number of maximum instruction slots.
 | vs\_1\_1 | 128                                                                                                                               |
 | vs\_2\_0 | 256                                                                                                                               |
 | vs\_2\_x | 256                                                                                                                               |
-| vs\_3\_0 | 512 minimum, and up to the number of slots in D3DCAPS9.MaxVertexShader30InstructionSlots. See [**D3DCAPS9**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9). |
+| vs\_3\_0 | 512 minimum, and up to the number of slots in D3DCAPS9.MaxVertexShader30InstructionSlots. See [**D3DCAPS9**](/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9). |
 
 
 
@@ -109,7 +109,3 @@ New registers:
  
 
  
-
-
-
-

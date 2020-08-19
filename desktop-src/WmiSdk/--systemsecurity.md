@@ -139,16 +139,11 @@ You can require that client scripts and applications use an encrypted connection
 [Establishing Inheritance of Namespace Security](establishing-inheritance-of-namespace-security.md)
 </dt> <dt>
 
-[Access Control Lists (ACLs)](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists)
+[Access Control Lists (ACLs)](/windows/desktop/SecAuthZ/access-control-lists)
 </dt> <dt>
 
-[**Security\_Descriptor**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor)
+[**Security\_Descriptor**](/windows/desktop/api/winnt/ns-winnt-security_descriptor)
 </dt> </dl>
 
  
-
- 
-
-
-
 

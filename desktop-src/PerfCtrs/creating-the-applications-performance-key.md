@@ -29,11 +29,8 @@ The **Library** value can contain the DLL name or a full path to the DLL. If you
 
 The application's service key must exist before you can run **lodctr** to load your counter names and help strings.
 
-For additional registry values that you can create, such as specifying time out values for the [**OpenPerformanceData**](https://msdn.microsoft.com/library/Aa372200(v=VS.85).aspx) and [**CollectPerformanceData**](https://msdn.microsoft.com/library/Aa371898(v=VS.85).aspx) functions, see [Creating Other Registry Entries](creating-other-registry-entries.md).
+For additional registry values that you can create, such as specifying time out values for the [**OpenPerformanceData**](/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)) and [**CollectPerformanceData**](/windows/win32/api/winperf/nc-winperf-pm_collect_proc) functions, see [Creating Other Registry Entries](creating-other-registry-entries.md).
 
  
 
  
-
-
-

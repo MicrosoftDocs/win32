@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Region.GetBounds methods
 
-This topic lists the GetBounds methods of the [**Region**](https://msdn.microsoft.com/library/ms534501(v=VS.85).aspx) class. For a complete list of methods for the **Region** class, see [Region Methods](-gdiplus-class-region-methods.md).
+This topic lists the GetBounds methods of the [**Region**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-region) class. For a complete list of methods for the **Region** class, see [Region Methods](-gdiplus-class-region-methods.md).
 
 ### Overload list
 
@@ -16,15 +16,11 @@ This topic lists the GetBounds methods of the [**Region**](https://msdn.microsof
 
 | Method                                                                                          | Description                                                                                                                                            |
 |:------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetBounds(Rect\*,Graphics\*)**](https://msdn.microsoft.com/library/ms534816(v=VS.85).aspx)   | The [**Region::GetBounds**](https://msdn.microsoft.com/library/ms534816(v=VS.85).aspx) method gets a rectangle that encloses this region.<br/>   |
-| [**GetBounds(RectF\*,Graphics\*)**](https://msdn.microsoft.com/library/ms534818(v=VS.85).aspx) | The [**Region::GetBounds**](https://msdn.microsoft.com/library/ms534818(v=VS.85).aspx) method gets a rectangle that encloses this region. <br/> |
+| [**GetBounds(Rect\*,Graphics\*)**](/previous-versions//ms534816(v=vs.85))   | The [**Region::GetBounds**](/previous-versions//ms534816(v=vs.85)) method gets a rectangle that encloses this region.<br/>   |
+| [**GetBounds(RectF\*,Graphics\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-getbounds(outrectf_inconstgraphics)) | The [**Region::GetBounds**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-getbounds(outrectf_inconstgraphics)) method gets a rectangle that encloses this region. <br/> |
 
 
 
  
 
  
-
-
-
-

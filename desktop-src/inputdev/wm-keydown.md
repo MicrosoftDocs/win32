@@ -64,15 +64,44 @@ For more detail, see [Keystroke Message Flags](about-keyboard-input.md#keystroke
 
 An application should return zero if it processes this message.
 
+## Example
+
+```cpp
+LRESULT CALLBACK HostWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
+{
+    switch (message) 
+    {
+    case WM_KEYDOWN:
+        if (wParam == VK_ESCAPE)
+        {
+            if (isFullScreen) 
+            {
+                GoPartialScreen();
+            }
+        }
+        break;
+
+    // ...
+    default:
+        return DefWindowProc(hWnd, message, wParam, lParam);
+    }
+    return 0;  
+}
+
+```
+
+Example from [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Magnification/cpp/Windowed/MagnifierSample.cpp) on GitHub.
+
+
 ## Remarks
 
-If the F10 key is pressed, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function sets an internal flag. When **DefWindowProc** receives the [**WM\_KEYUP**](wm-keyup.md) message, the function checks whether the internal flag is set and, if so, sends a [**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand) message to the top-level window. The **WM\_SYSCOMMAND** parameter of the message is set to SC\_KEYMENU.
+If the F10 key is pressed, the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function sets an internal flag. When **DefWindowProc** receives the [**WM\_KEYUP**](wm-keyup.md) message, the function checks whether the internal flag is set and, if so, sends a [**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand) message to the top-level window. The **WM\_SYSCOMMAND** parameter of the message is set to SC\_KEYMENU.
 
 Because of the autorepeat feature, more than one **WM\_KEYDOWN** message may be posted before a [**WM\_KEYUP**](wm-keyup.md) message is posted. The previous key state (bit 30) can be used to determine whether the **WM\_KEYDOWN** message indicates the first down transition or a repeated down transition.
 
 For enhanced 101- and 102-key keyboards, extended keys are the right ALT and CTRL keys on the main section of the keyboard; the INS, DEL, HOME, END, PAGE UP, PAGE DOWN, and arrow keys in the clusters to the left of the numeric keypad; and the divide (/) and ENTER keys in the numeric keypad. Other keyboards may support the extended-key bit in the *lParam* parameter.
 
-Applications must pass *wParam* to [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) without altering it at all.
+Applications must pass *wParam* to [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) without altering it at all.
 
 ## Requirements
 
@@ -93,10 +122,10 @@ Applications must pass *wParam* to [**TranslateMessage**](https://docs.microsoft
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage)
+[**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
 </dt> <dt>
 
 [**WM\_CHAR**](wm-char.md)
@@ -105,7 +134,7 @@ Applications must pass *wParam* to [**TranslateMessage**](https://docs.microsoft
 [**WM\_KEYUP**](wm-keyup.md)
 </dt> <dt>
 
-[**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand)
+[**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
 </dt> <dt>
 
 **Conceptual**
@@ -115,10 +144,4 @@ Applications must pass *wParam* to [**TranslateMessage**](https://docs.microsoft
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

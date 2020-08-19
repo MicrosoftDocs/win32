@@ -26,7 +26,7 @@ Callback from engine to return progress.
 
 ## Members
 
-The **IPixProgressCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixProgressCallback** also has these types of members:
+The **IPixProgressCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixProgressCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IPixProgressCallback** interface has these methods.
  
 
  
-
-
-

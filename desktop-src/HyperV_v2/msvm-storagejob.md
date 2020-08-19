@@ -171,7 +171,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -197,7 +197,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -210,7 +210,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Specifies whether the job should be automatically deleted upon completion. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+Specifies whether the job should be automatically deleted upon completion. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -223,7 +223,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -236,7 +236,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Complements the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Complements the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -249,7 +249,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The length of time that the job has been executing. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+The length of time that the job has been executing. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -262,7 +262,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -275,7 +275,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-A vendor-specific error code. The value must be set to zero if the job completed without error. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+A vendor-specific error code. The value must be set to zero if the job completed without error. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -288,7 +288,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that contains the vendor error description. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+A string that contains the vendor error description. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -301,10 +301,10 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Job**](cim-job.md).**ErrorCode**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Job**](cim-job.md).**ErrorCode**")
 </dt> </dl>
 
-A summary description of the error, if present. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+A summary description of the error, if present. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -317,7 +317,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The current health of the element. This attribute expresses the health of this element but not necessarily that of its subcomponents. The possible values are 0 to 30, where 5 means the element is entirely healthy and 30 means the element is completely nonfunctional. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and it is always set to 5.
+The current health of the element. This attribute expresses the health of this element but not necessarily that of its subcomponents. The possible values are 0 to 30, where 5 means the element is entirely healthy and 30 means the element is completely nonfunctional. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and it is always set to 5.
 
 </dd> <dt>
 
@@ -330,7 +330,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date and time the virtual machine configuration was created. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+The date and time the virtual machine configuration was created. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -343,7 +343,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -369,7 +369,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The number of times that the job should be run. A value of 1 indicates that the job is not recurring, while any nonzero value indicates a limit to the number of times that the job will recur. Zero indicates that there is no limit to the number of times that the job can be processed, but it will be terminated either after the **UntilTime** has been reached, or the job is manually terminated. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+The number of times that the job should be run. A value of 1 indicates that the job is not recurring, while any nonzero value indicates a limit to the number of times that the job will recur. Zero indicates that there is no limit to the number of times that the job can be processed, but it will be terminated either after the **UntilTime** has been reached, or the job is manually terminated. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -382,7 +382,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The operational state of a job. It can also indicate transitions between these states, for example, 6 (Shutting Down) and 3 (Starting). This property is inherited from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+The operational state of a job. It can also indicate transitions between these states, for example, 6 (Shutting Down) and 3 (Starting). This property is inherited from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 
 
@@ -416,7 +416,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that represents the job status. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+A string that represents the job status. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -546,7 +546,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the times represented in the **RunStartInterval** and **UntilTime** properties represent local times or UTC times. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+Indicates whether the times represented in the **RunStartInterval** and **UntilTime** properties represent local times or UTC times. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 <dl> <dt>
 
@@ -567,7 +567,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The label by which the object is known. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+The label by which the object is known. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -580,7 +580,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The user who is notified upon job completion or failure. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+The user who is notified upon job completion or failure. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -593,7 +593,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -606,7 +606,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-The current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+The current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -619,7 +619,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that describes the recovery action when the **RecoveryAction** property of the instance is 1 (Other). This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+A string that describes the recovery action when the **RecoveryAction** property of the instance is 1 (Other). This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -632,7 +632,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The user who submitted the job. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+The user who submitted the job. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -661,7 +661,7 @@ Access type: Read-only
 Qualifiers: **MinValue** ( 0 ), **MaxValue** ( 100 ), **Units** ( "Percent" )
 </dt> </dl>
 
-The completion percentage of the job. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+The completion percentage of the job. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -674,7 +674,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status of the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status of the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -687,7 +687,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The importance of a job's execution. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+The importance of a job's execution. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -700,7 +700,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Describes the recovery action to be taken for a job that did not run successfully. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+Describes the recovery action to be taken for a job that did not run successfully. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 <dl> <dt>
 
@@ -744,7 +744,7 @@ When **RunDayOfWeek** is 0 and **RunDay** is negative, **RunDay** defines the nu
 
 When **RunDayOfWeek** is not 0, **RunDayOfWeek** is the day of the week that the job will be processed, relative to **RunDay**. For example, if **RunDay** is 15 and **RunDayOfWeek** is 7 (+Saturday), the job will be processed on the first Saturday on or after the 15<sup>th</sup> day of the month. If **RunDay** is 20 and **RunDayOfWeek** is  7 ( Saturday), the job will be processed on the first Saturday on or before the 20<sup>th</sup> day of the month. If **RunDay** is  1 and **RunDayOfWeek** is  1 ( Sunday), then the job will be processed on the last Sunday of the month.
 
-This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -757,7 +757,7 @@ Data type: **sint8**
 Access type: Read-only
 </dt> </dl>
 
-A positive or negative integer used in conjunction with **RunDay** to indicate the day of the week or month on which the job is processed. See the description of the **RunDay** property for more information. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+A positive or negative integer used in conjunction with **RunDay** to indicate the day of the week or month on which the job is processed. See the description of the **RunDay** property for more information. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 <dl> <dt>
 
@@ -817,7 +817,7 @@ Data type: **uint8**
 Access type: Read-only
 </dt> </dl>
 
-The month during which the job should be processed. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+The month during which the job should be processed. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 <dl> <dt>
 
@@ -868,7 +868,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The time interval after midnight when the job should be processed. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+The time interval after midnight when the job should be processed. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -881,7 +881,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -894,7 +894,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The time that the job began. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+The time that the job began. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -907,7 +907,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not used.
+This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not used.
 
 </dd> <dt>
 
@@ -920,7 +920,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -933,7 +933,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The amount of time, in minutes, that the job is retained after it has finished executing, either succeeding or failing in that execution. The job must remain in existence for some period of time regardless of the value of the **DeleteOnCompletion** property. The default is five minutes. This property is inherited from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)), and it is always set to 00000000000500.000000:000.
+The amount of time, in minutes, that the job is retained after it has finished executing, either succeeding or failing in that execution. The job must remain in existence for some period of time regardless of the value of the **DeleteOnCompletion** property. The default is five minutes. This property is inherited from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)), and it is always set to 00000000000500.000000:000.
 
 </dd> <dt>
 
@@ -946,7 +946,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The time at which the virtual machine's state was last modified. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
+The time at which the virtual machine's state was last modified. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).
 
 </dd> <dt>
 
@@ -959,7 +959,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The time that the job was submitted. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+The time that the job was submitted. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> <dt>
 
@@ -972,13 +972,13 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The time at which the job is not valid or should be stopped. This property is inherited from [**CIM\_Job**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-job).
+The time at which the job is not valid or should be stopped. This property is inherited from [**CIM\_Job**](/windows/desktop/CIMWin32Prov/cim-job).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_StorageJob** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_StorageJob** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -1001,16 +1001,11 @@ Access to the **Msvm\_StorageJob** class might be restricted by UAC Filtering. F
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> <dt>
 
-[**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85))
+[**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85))
 </dt> <dt>
 
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -36,7 +36,7 @@ req.redist:
 
 # LowLevelKeyboardProc function
 
-## -description
+## Description
 
 An application-defined or library-defined callback function used with the [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw) function.
 The system calls this function every time a new keyboard input event is about to be posted into a thread input queue.
@@ -55,9 +55,9 @@ LRESULT CALLBACK LowLevelKeyboardProc(
 );
 ```
 
-## -parameters
+## Parameters
 
-### -param code [in]
+### code [in]
 
 Type: **int**
 
@@ -69,20 +69,20 @@ This parameter can be one of the following values.
 |-------|---------|
 | **HC_ACTION** 0 | The *wParam* and *lParam* parameters contain information about a keyboard message. |
 
-### -param wParam [in]
+### wParam [in]
 
 Type: **WPARAM**
 
 The identifier of the keyboard message.
 This parameter can be one of the following messages: [WM_KEYDOWN](/windows/desktop/inputdev/wm-keydown), [WM_KEYUP](/windows/desktop/inputdev/wm-keyup), [WM_SYSKEYDOWN](/windows/desktop/inputdev/wm-syskeydown), or [WM_SYSKEYUP](/windows/desktop/inputdev/wm-syskeyup).
 
-### -param lParam [in]
+### lParam [in]
 
 Type: **LPARAM**
 
 A pointer to a [KBDLLHOOKSTRUCT](/windows/desktop/api/winuser/ns-winuser-kbdllhookstruct) structure.
 
-## -returns
+## Returns
 
 Type: **LRESULT**
 
@@ -91,7 +91,7 @@ If *nCode* is less than zero, the hook procedure must return the value returned 
 If *nCode* is greater than or equal to zero, and the hook procedure did not process the message, it is highly recommended that you call **CallNextHookEx** and return the value it returns; otherwise, other applications that have installed [WH_KEYBOARD_LL](about-hooks.md) hooks will not receive hook notifications and may behave incorrectly as a result.
 If the hook procedure processed the message, it may return a nonzero value to prevent the system from passing the message to the rest of the hook chain or the target window procedure.
 
-## -remarks
+## Remarks
 
 An application installs the hook procedure by specifying the **WH_KEYBOARD_LL** hook type and a pointer to the hook procedure in a call to the **SetWindowsHookEx** function.
 
@@ -118,7 +118,7 @@ In most cases where the application needs to use low level hooks, it should moni
 This is because raw input can asynchronously monitor mouse and keyboard messages that are targeted for other threads more effectively than low level hooks can.
 For more information on raw input, see [Raw Input](/windows/desktop/inputdev/raw-input).
 
-## -see-also
+## See also
 
 [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex)
 

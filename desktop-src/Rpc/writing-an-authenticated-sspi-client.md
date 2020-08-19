@@ -15,7 +15,7 @@ All RPC client/server sessions require a binding between the client and the serv
 -   [Creating Client-side Binding Handles](#creating-client-side-binding-handles)
 -   [Providing Client Credentials to the Server](#providing-client-credentials-to-the-server)
 
-For related information, see [Procedures Used with Most Security Packages and Protocols](https://docs.microsoft.com/windows/desktop/SecAuthN/procedures-used-with-most-security-packages-and-protocols) in the Platform Software Development Kit (SDK).
+For related information, see [Procedures Used with Most Security Packages and Protocols](/windows/desktop/SecAuthN/procedures-used-with-most-security-packages-and-protocols) in the Platform Software Development Kit (SDK).
 
 ## Creating Client-side Binding Handles
 
@@ -66,12 +66,8 @@ The process of extracting the client credentials from the binding handle occurs 
 
 -   RPC clients call [**RpcBindingSetAuthInfo**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo) and include their authentication information as part of the binding information passed to the server.
 -   Usually, the server calls [**RpcImpersonateClient**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcimpersonateclient) in order to behave as though it were the client. If the binding handle is not authenticated, the call fails with RPC\_S\_NO\_CONTEXT\_AVAILABLE. To obtain the client's user name, call [**RpcBindingInqAuthClient**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthclient) while impersonating, or on Windows XP or later versions of Windows, call [**RpcGetAuthorizationContextForClient**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient) to get the authorization context, then use Authz functions to retrieve the name.
--   The server will normally call [**CreatePrivateObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurity) to create objects with ACLs. After this is accomplished, later security checks become automatic.
+-   The server will normally call [**CreatePrivateObjectSecurity**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurity) to create objects with ACLs. After this is accomplished, later security checks become automatic.
 
  
 
  
-
-
-
-

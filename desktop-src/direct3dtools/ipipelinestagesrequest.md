@@ -26,7 +26,7 @@ Not used. Formerly a request for pipeline stages data.
 
 ## Members
 
-The **IPipeLineStagesRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPipeLineStagesRequest** also has these types of members:
+The **IPipeLineStagesRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPipeLineStagesRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IPipeLineStagesRequest** interface has these methods.
  
 
  
-
-
-

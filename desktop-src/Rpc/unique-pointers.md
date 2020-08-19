@@ -46,7 +46,7 @@ The amount of processing can be reduced if you guarantee that your pointer is th
 
 ![pointer changing between null and non-null values](images/prog-a01.png)
 
-By default, the MIDL compiler applies the \[ [unique](https://docs.microsoft.com/windows/desktop/Midl/unique)\] pointer attribute to all pointers that are not parameters. This default setting can be changed with the \[ [pointer\_default](https://docs.microsoft.com/windows/desktop/Midl/pointer-default)\] attribute.
+By default, the MIDL compiler applies the \[ [unique](/windows/desktop/Midl/unique)\] pointer attribute to all pointers that are not parameters. This default setting can be changed with the \[ [pointer\_default](/windows/desktop/Midl/pointer-default)\] attribute.
 
 A unique pointer has the following characteristics:
 
@@ -76,7 +76,3 @@ In this example, the parameter *ach* is a unique pointer to character data that 
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Media Access
 
-Media features are different with TAPI 2.2 (TAPI/C) as opposed to TAPI 3 (COM), largely because the COM API has access to media service providers (MSPs). For more information about MSPs, see [About The Media Service Provider (MSP)](https://msdn.microsoft.com/library/ms726003(v=VS.85).aspx). For more information about media stream operations, see [Media Control](https://msdn.microsoft.com/library/ms726961(v=VS.85).aspx).
+Media features are different with TAPI 2.2 (TAPI/C) as opposed to TAPI 3 (COM), largely because the COM API has access to media service providers (MSPs). For more information about MSPs, see [About The Media Service Provider (MSP)](./about-the-media-service-provider-msp-.md). For more information about media stream operations, see [Media Control](./device-control.md).
 
 The two most important concepts for an application are the media type (or mode) and the stream. The type is the form in which data is transmitted. For more information and a list of TAPI-defined types, see [LINEMEDIAMODE\_ Constants](linemediamode--constants.md). The media stream is the actual stream of data. An MSP can provide direct access to the stream. TAPI 2.2 applications have some access, but primarily reference other APIs to implement such controls.
 
@@ -23,13 +23,10 @@ Because these device classes and media stream operations function independently 
 TAPI reports changes in the type of media stream (voice, fax, data modem, and so on) to participating applications. This process is sometimes referred to as [*call classification*](c-tapgloss.md). The mechanism used to determine the type of media stream is specific to the service provider. For example, a service provider may filter the media stream for energy or tones that characterize the media type, or it may use distinctive ringing, data exchanged in messages over the network, or knowledge about the caller or called ID to make this determination.
 
 -   [Call Monitoring](call-monitoring.md)
--   [Media Control](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms736578(v=vs.85))
+-   [Media Control](/previous-versions/windows/desktop/legacy/ms736578(v=vs.85))
 -   [Digit Gathering](digit-gathering.md)
 -   [Generating Inband Digits and Tones](generating-inband-digits-and-tones.md)
 
  
 
  
-
-
-

@@ -40,7 +40,7 @@ SWbemDateTime.UTC As Long
 
 ## Error codes
 
-After you get or set the **UTC** property, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain the error code below.
+After you get or set the **UTC** property, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain the error code below.
 
 <dl> <dt>
 
@@ -85,9 +85,4 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 </dt> </dl>
 
  
-
- 
-
-
-
 

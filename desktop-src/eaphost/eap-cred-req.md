@@ -59,7 +59,7 @@ The **EAP\_CRED\_REQ** structure is identical to the [**EAP\_CRED\_RESP**](eap-c
 [**EAP\_CRED\_EXPIRY\_REQ**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_cred_expiry_req)
 </dt> <dt>
 
-[**EAP\_CRED\_EXPIRY\_RESP**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb530539(v=vs.85))
+[**EAP\_CRED\_EXPIRY\_RESP**](/previous-versions/windows/desktop/legacy/bb530539(v=vs.85))
 </dt> <dt>
 
 [**EAP\_INTERACTIVE\_UI\_DATA**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_interactive_ui_data)
@@ -69,10 +69,4 @@ The **EAP\_CRED\_REQ** structure is identical to the [**EAP\_CRED\_RESP**](eap-c
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

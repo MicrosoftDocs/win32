@@ -38,7 +38,7 @@ HRESULT UnkeyAllTrackEvents(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Identifier of the track on which all events should be removed.
 
@@ -75,7 +75,3 @@ This method prevents the execution of all events previously scheduled on the tra
  
 
  
-
-
-
-

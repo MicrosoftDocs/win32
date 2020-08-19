@@ -16,9 +16,9 @@ Each of these shader interfaces manages a compiled shader. The interface is crea
 
 | Pipeline-Stage Interfaces                                      | Description                                                                                                                                 |
 |----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ID3D10GeometryShader Interface**](https://msdn.microsoft.com/library/Bb173774(v=VS.85).aspx) | A geometry-shader implements per-primitive processing in the [geometry-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md). |
-| [**ID3D10PixelShader Interface**](https://msdn.microsoft.com/library/Bb173821(v=VS.85).aspx)       | A pixel-shader implements per-pixel processing in the [pixel-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md).           |
-| [**ID3D10VertexShader Interface**](https://msdn.microsoft.com/library/Bb173875(v=VS.85).aspx)     | A vertex-shader implements per-vertex processing in the [vertex-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md).        |
+| [**ID3D10GeometryShader Interface**](/windows/win32/api/d3d10/nn-d3d10-id3d10geometryshader) | A geometry-shader implements per-primitive processing in the [geometry-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md). |
+| [**ID3D10PixelShader Interface**](/windows/win32/api/d3d10/nn-d3d10-id3d10pixelshader)       | A pixel-shader implements per-pixel processing in the [pixel-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md).           |
+| [**ID3D10VertexShader Interface**](/windows/win32/api/d3d10/nn-d3d10-id3d10vertexshader)     | A vertex-shader implements per-vertex processing in the [vertex-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md).        |
 
 
 
@@ -52,6 +52,3 @@ Shader reflection APIs implement one COM shader reflection interface ([**ID3D10S
  
 
  
-
-
-

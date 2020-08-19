@@ -49,7 +49,7 @@ The Community Reserved range is for WinEvents specified by the Accessibility Int
 
 ## ATOM Events
 
-The ATOM range is reserved for event IDs that are allocated at runtime through the UI Automation extensibility API. Do not use the values from the ATOM range for any other purpose. Using the [**GlobalAddAtom**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globaladdatoma) function with a string GUID is the recommended method of allocating WinEvents from the ATOM range.
+The ATOM range is reserved for event IDs that are allocated at runtime through the UI Automation extensibility API. Do not use the values from the ATOM range for any other purpose. Using the [**GlobalAddAtom**](/windows/desktop/api/winbase/nf-winbase-globaladdatoma) function with a string GUID is the recommended method of allocating WinEvents from the ATOM range.
 
 ## Using Values from a Reserved Range
 
@@ -68,7 +68,3 @@ According to the WinEvent specification, values from the System Reserved range, 
  
 
  
-
-
-
-

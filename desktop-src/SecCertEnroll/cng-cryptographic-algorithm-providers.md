@@ -113,19 +113,14 @@ To display all named elliptic curves, use <strong>certutil  displayEccCurve</str
 
 <dl> <dt>
 
-[**CNG Algorithm Identifiers**](https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers)
+[**CNG Algorithm Identifiers**](/windows/desktop/SecCNG/cng-algorithm-identifiers)
 </dt> <dt>
 
-[CNG Cryptographic Primitive Functions](https://docs.microsoft.com/windows/desktop/SecCNG/cng-cryptographic-primitive-functions)
+[CNG Cryptographic Primitive Functions](/windows/desktop/SecCNG/cng-cryptographic-primitive-functions)
 </dt> <dt>
 
 [Understanding Cryptographic Providers](understanding-cryptographic-providers.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

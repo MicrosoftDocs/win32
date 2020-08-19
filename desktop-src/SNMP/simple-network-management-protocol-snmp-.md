@@ -10,14 +10,10 @@ ms.date: 05/31/2018
 
 # Simple Network Management Protocol (SNMP)
 
-\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
+\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
 
 The Simple Network Management Protocol (SNMP) is the Internet standard protocol for exchanging management information between management console applications such as HP Openview, Novell NMS, IBM NetView, or Sun Net Manager, and managed entities. The managed entities can include hosts, routers, bridges, and hubs.
 
  
 
  
-
-
-
-

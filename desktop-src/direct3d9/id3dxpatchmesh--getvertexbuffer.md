@@ -38,7 +38,7 @@ HRESULT GetVertexBuffer(
 *ppVB* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVERTEXBUFFER9**](https://msdn.microsoft.com/library/Bb205915(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DVERTEXBUFFER9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9)\***
 
 Pointer to the vertex buffer.
 
@@ -75,7 +75,3 @@ This method assumes uniform tessellation.
  
 
  
-
-
-
-

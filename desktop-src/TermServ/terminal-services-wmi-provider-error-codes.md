@@ -39,7 +39,7 @@ ms.date: 05/31/2018
 
 # Remote Desktop Services WMI provider error codes
 
-The following list lists the WMI errors returned by the Remote Desktop Services WMI provider. For a list of other WMI errors, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants).
+The following list lists the WMI errors returned by the Remote Desktop Services WMI provider. For a list of other WMI errors, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants).
 
 <dl> <dt>
 
@@ -285,7 +285,7 @@ The provider cannot perform the requested operation. The operation could include
 
 
 
-A value of **Nothing**/**NULL** was specified for a property that cannot be **Nothing**/**NULL**, such as one that is marked by a [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Indexed**](https://docs.microsoft.com/windows/desktop/WmiSdk/optional-qualifiers), or [**Not\_Null**](https://docs.microsoft.com/windows/desktop/WmiSdk/optional-qualifiers) qualifier.
+A value of **Nothing**/**NULL** was specified for a property that cannot be **Nothing**/**NULL**, such as one that is marked by a [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Indexed**](/windows/desktop/WmiSdk/optional-qualifiers), or [**Not\_Null**](/windows/desktop/WmiSdk/optional-qualifiers) qualifier.
 
 
 </dt> </dl> </dd> <dt>
@@ -355,10 +355,4 @@ The specified object path was not valid.
 
 
  
-
- 
-
-
-
-
 

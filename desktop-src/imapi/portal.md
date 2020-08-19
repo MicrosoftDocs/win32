@@ -50,7 +50,7 @@ Further information regarding IMAPI and other related subjects can be found at t
 
 |                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Microsoft Optical Storage Blog](https://blogs.msdn.com/b/opticalstorage/)                | Highlights topics that focus on the implementation of the Image Mastering API in real world development scenarios.                                                                                                                                                                                                                                                 |
+| [Microsoft Optical Storage Blog](/archive/blogs/opticalstorage/)                | Highlights topics that focus on the implementation of the Image Mastering API in real world development scenarios.                                                                                                                                                                                                                                                 |
 | [Optical Platform Discussion Forum](https://social.msdn.microsoft.com/forums/en-US/windowsopticalplatform/threads/)              | Discuss CDROM.SYS, IMAPIv2 and Live File System issues. This forum focuses on system-level topics and is intended for application developers rather than endusers.                                                                                                                                                                                                 |
 | [T10 Technical Committee](https://www.t10.org/)                       | A Technical Committee of the InterNational Committee on Information Technology Standards (INCITS, pronounced "insights"). INCITS is accredited by, and operates under rules that are approved by, the American National Standards Institute (ANSI). These rules are designed to ensure that voluntary standards are developed by the consensus of industry groups. |
 | [Optical Storage Technology Association (OSTA)](http://www.osta.org/) | Works to shape the future of the industry through regular meetings of Commercial Optical Storage Applications (COSA), DVD Compatibility, Marketing, MPV (MusicPhotoVideo), UDF committees, and a new adhoc Blue Laser committee. Interested companies worldwide are invited to join the organization and participate in its committees and programs.               |
@@ -60,10 +60,4 @@ Further information regarding IMAPI and other related subjects can be found at t
  
 
  
-
- 
-
-
-
-
 

@@ -10,7 +10,7 @@ ms.topic: reference
 
 Constructors exposed by `XMFLOAT4`.
 
-Constructs instances of the [**XMFLOAT4**](https://msdn.microsoft.com/library/Ee419608(v=VS.85).aspx) structure.
+Constructs instances of the [**XMFLOAT4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -34,8 +34,8 @@ Constructs instances of the [**XMFLOAT4**](https://msdn.microsoft.com/library/Ee
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT4 ()</strong>](https://msdn.microsoft.com/library/Ee419640(v=VS.85).aspx)</td>
-<td style="text-align: left;">Default constructor for <code>XMFLOAT4</code>. <br/> Default constructor for [<strong>XMFLOAT4</strong>](https://msdn.microsoft.com/library/Ee419608(v=VS.85).aspx). <br/>
+<td style="text-align: left;">[<strong>XMFLOAT4 ()</strong>](/windows/win32/api/directxmath/nf-directxmath-xmfloat4-xmfloat4(constfloat))</td>
+<td style="text-align: left;">Default constructor for <code>XMFLOAT4</code>. <br/> Default constructor for [<strong>XMFLOAT4</strong>](/windows/win32/api/directxmath/ns-directxmath-xmfloat4). <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -43,8 +43,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMFLOAT4 (const float*)</strong>](https://msdn.microsoft.com/library/Ee419645(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMFLOAT4</strong>](https://msdn.microsoft.com/library/Ee419608(v=VS.85).aspx) from a from a four element <code>float</code> array argument. <br/>
+<td style="text-align: left;">[<strong>XMFLOAT4 (const float*)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmfloat4a-xmfloat4a(constfloat))</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMFLOAT4</strong>](/windows/win32/api/directxmath/ns-directxmath-xmfloat4) from a from a four element <code>float</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -52,8 +52,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT4 (float,float,float,float)</strong>](https://msdn.microsoft.com/library/Ee419643(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT4</code> from four <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMFLOAT4</strong>](https://msdn.microsoft.com/library/Ee419608(v=VS.85).aspx) from four <code>float</code> arguments. <br/>
+<td style="text-align: left;">[<strong>XMFLOAT4 (float,float,float,float)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmfloat4-xmfloat4(float_float_float_float))</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT4</code> from four <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMFLOAT4</strong>](/windows/win32/api/directxmath/ns-directxmath-xmfloat4) from four <code>float</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -85,13 +85,9 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4**](https://msdn.microsoft.com/library/Ee419608(v=VS.85).aspx)
+[**XMFLOAT4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4)
 </dt> </dl>
 
  
 
  
-
-
-
-

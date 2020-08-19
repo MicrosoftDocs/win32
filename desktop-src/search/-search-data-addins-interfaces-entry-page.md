@@ -18,11 +18,11 @@ This Windows Search reference section consists of the following data add-in inte
 
 [**IColumnMapperCreator**](/windows/desktop/api/indexsrv/nn-indexsrv-icolumnmappercreator)
 
-[**IFilter**](https://msdn.microsoft.com/library/Bb266451(v=VS.85).aspx)
+[**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)
 
 [**ILoadFilter**](/windows/desktop/api/filtereg/nn-filtereg-iloadfilter)
 
-[**IPhraseSink**](https://msdn.microsoft.com/library/Ff819113(v=VS.85).aspx)
+[**IPhraseSink**](/windows/win32/api/indexsrv/nn-indexsrv-iphrasesink)
 
 [**ISearchLanguageSupport**](/windows/desktop/api/Searchapi/nn-searchapi-isearchlanguagesupport)
 
@@ -37,6 +37,3 @@ This Windows Search reference section consists of the following data add-in inte
  
 
  
-
-
-

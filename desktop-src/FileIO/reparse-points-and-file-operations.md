@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 Consider the following examples regarding NTFS reparse point implementations, which include mounted folders, linked files, and the Microsoft Remote Storage Server:
 
--   Backup applications that use [file streams](file-streams.md) should specify **BACKUP\_REPARSE\_DATA** in the [**WIN32\_STREAM\_ID**](https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-win32_stream_id) structure when backing up files with reparse points.
+-   Backup applications that use [file streams](file-streams.md) should specify **BACKUP\_REPARSE\_DATA** in the [**WIN32\_STREAM\_ID**](/windows/desktop/api/winbase/ns-winbase-win32_stream_id) structure when backing up files with reparse points.
 -   Applications that use the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function should specify the **FILE\_FLAG\_OPEN\_REPARSE\_POINT** flag when opening the file if it is a reparse point. For more information, see [Creating and Opening Files](creating-and-opening-files.md).
 -   The process of [defragmenting files](defragmenting-files.md) requires special handling for reparse points.
 -   Virus detection applications should search for reparse points that indicate linked files.
@@ -37,6 +37,3 @@ Consider the following examples regarding NTFS reparse point implementations, wh
  
 
  
-
-
-

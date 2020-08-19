@@ -13,15 +13,11 @@ The [**IMsRdpClientShell**](imsrdpclientshell.md) interface exposes the followin
 
 ## In this section
 
--   [**GetRdpProperty method**](https://msdn.microsoft.com/library/Aa381303(v=VS.85).aspx)
+-   [**GetRdpProperty method**](/previous-versions/windows/desktop/legacy/aa381303(v=vs.85))
 -   [**Launch method**](imsrdpclientshell-launch.md)
--   [**SetRdpProperty method**](https://msdn.microsoft.com/library/Aa381312(v=VS.85).aspx)
+-   [**SetRdpProperty method**](/previous-versions/windows/desktop/legacy/aa381312(v=vs.85))
 -   [**ShowTrustedSitesManagementDialog method**](imsrdpclientshell-showtrustedsitesmanagementdialog.md)
 
  
 
  
-
-
-
-

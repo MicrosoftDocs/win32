@@ -142,9 +142,9 @@
       href: web-services-for-devices-functions.md
       items: 
       - name: "PWSD_SOAP_MESSAGE_HANDLER"
-        href: https://docs.microsoft.com/windows/desktop/api/wsdtypes/nc-wsdtypes-pwsd_soap_message_handler
+        href: /windows/desktop/api/wsdtypes/nc-wsdtypes-pwsd_soap_message_handler
       - name: "WSD_STUB_FUNCTION"
-        href: https://docs.microsoft.com/windows/desktop/api/wsdtypes/nc-wsdtypes-wsd_stub_function
+        href: /windows/desktop/api/wsdtypes/nc-wsdtypes-wsd_stub_function
       - name: "WSDAllocateLinkedMemory"
         href: /windows/desktop/api/WsdUtil/nf-wsdutil-wsdallocatelinkedmemory
       - name: "WSDAttachLinkedMemory"
@@ -242,7 +242,7 @@
         - name: "SetWaitHandle Method"
           href: /windows/desktop/api/WsdClient/nf-wsdclient-iwsdasyncresult-setwaithandle
       - name: "IWSDAttachment"
-        href: https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdattachment
+        href: /windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdattachment
       - name: "IWSDDeviceHost"
         href: /windows/desktop/api/WsdHost/nn-wsdhost-iwsddevicehost
         items: 
@@ -336,12 +336,12 @@
         - name: "SetSecure Method"
           href: /windows/desktop/api/Wsdbase/nf-wsdbase-iwsdhttpaddress-setsecure
       - name: "IWSDHttpAuthParameters"
-        href: https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpauthparameters
+        href: /windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpauthparameters
         items: 
         - name: "GetClientAccessToken Method"
-          href: https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpauthparameters-getclientaccesstoken
+          href: /windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpauthparameters-getclientaccesstoken
         - name: "GetAuthType Method"
-          href: https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpauthparameters-getauthtype
+          href: /windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpauthparameters-getauthtype
       - name: "IWSDHttpMessageParameters"
         href: /windows/desktop/api/Wsdbase/nn-wsdbase-iwsdhttpmessageparameters
         items: 
@@ -548,7 +548,7 @@
         href: /windows/desktop/api/Wsdbase/nn-wsdbase-iwsdsignatureproperty
         items: 
         - name: "GetKeyInfo Method"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd379728(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/dd379728(v=vs.85)
         - name: "GetSignature Method"
           href: /windows/desktop/api/Wsdbase/nf-wsdbase-iwsdsignatureproperty-getsignature
         - name: "GetSignedInfoHash Method"
@@ -714,7 +714,7 @@
       - name: "WSD_SECURITY_CERT_VALIDATION"
         href: /windows/win32/api/wsdbase/ns-wsdbase-wsd_security_cert_validation
       - name: "WSD_SECURITY_CERT_VALIDATION_V1"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437346(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/hh437346(v=vs.85)
       - name: "WSD_SECURITY_SIGNATURE_VALIDATION"
         href: /windows/win32/api/wsdbase/ns-wsdbase-wsd_security_signature_validation
       - name: "WSD_SERVICE_METADATA"

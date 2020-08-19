@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 > [!NOTE]
 > Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
-Microsoft Windows Desktop Search (WDS) 2.x can be queried programmatically using the **ExecuteQuery** and **ExecuteSQLQuery** methods in the [**ISearchDesktop**](https://msdn.microsoft.com/library/Aa965729(v=VS.85).aspx) interface. The **ExecuteQuery** method returns a record set from the index based on the query text, columns, and restrictions passed as parameters. The **ExecuteSQLQuery** method also returns a record set of results but requires the exact Structured Query Language (SQL) command to be passed in. **ExecuteQuery** should be used in most scenarios.
+Microsoft Windows Desktop Search (WDS) 2.x can be queried programmatically using the **ExecuteQuery** and **ExecuteSQLQuery** methods in the [**ISearchDesktop**](/previous-versions//aa965729(v=vs.85)) interface. The **ExecuteQuery** method returns a record set from the index based on the query text, columns, and restrictions passed as parameters. The **ExecuteSQLQuery** method also returns a record set of results but requires the exact Structured Query Language (SQL) command to be passed in. **ExecuteQuery** should be used in most scenarios.
 
 ## Regular Queries
 
@@ -144,10 +144,4 @@ extern "C" int __cdecl wmain( int argc, WCHAR * argv[] )
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

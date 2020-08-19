@@ -619,17 +619,17 @@
         - name: "wm asf writer filter"
           href: wm-asf-writer-filter.md
         - name: "iamwmbufferpass interface"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd798276(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/dd798276(v=vs.85)
           items: 
           - name: "iamwmbufferpass::setnotify"
             href: iamwmbufferpass-setnotify.md
         - name: "iamwmbufferpasscallback interface"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd798277(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/dd798277(v=vs.85)
           items: 
           - name: "iamwmbufferpasscallback::notify"
             href: iamwmbufferpasscallback-notify.md
         - name: "iconfigasfwriter interface"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd743205(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/dd743205(v=vs.85)
           items: 
           - name: "iconfigasfwriter::configurefilterusingprofile"
             href: iconfigasfwriter-configurefilterusingprofile.md
@@ -648,7 +648,7 @@
           - name: "iconfigasfwriter::setindexmode"
             href: iconfigasfwriter-setindexmode.md
         - name: "iconfigasfwriter2 interface"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd743206(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/dd743206(v=vs.85)
           items: 
           - name: "iconfigasfwriter2::getparam"
             href: iconfigasfwriter2-getparam.md
@@ -659,9 +659,9 @@
           - name: "iconfigasfwriter2::streamnumfrompin"
             href: iconfigasfwriter2-streamnumfrompin.md
         - name: "_am_asfwriterconfig_param enumeration"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd758054(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/dd758054(v=vs.85)
         - name: "am_wmt_event_data structure"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/api/evcode/ns-evcode-am_wmt_event_data
+          href: /previous-versions/windows/desktop/api/evcode/ns-evcode-am_wmt_event_data
           items: 
           - name: "ec_wmt_event"
             href: ec-wmt-event.md
@@ -741,7 +741,7 @@
       - name: "wmcreatebackuprestorer"
         href: /previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatebackuprestorer
       - name: "wmcreatecertificate"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757745(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dd757745(v=vs.85)
       - name: "wmcreatedeviceregistration"
         href: /previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatedeviceregistration
       - name: "wmcreatedrmtranscryptionmanager"
@@ -855,14 +855,14 @@
         - name: "iwmaddressaccess2::getaccessentryex"
           href: /previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmaddressaccess2-getaccessentryex
       - name: "iwmauthorizer interface"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsecure/nn-wmsecure-iwmauthorizer
+        href: /previous-versions/windows/desktop/api/wmsecure/nn-wmsecure-iwmauthorizer
         items: 
         - name: "iwmauthorizer::getcert"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmauthorizer-getcert
+          href: /previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmauthorizer-getcert
         - name: "iwmauthorizer::getcertcount"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmauthorizer-getcertcount
+          href: /previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmauthorizer-getcertcount
         - name: "iwmauthorizer::getshareddata"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmauthorizer-getshareddata
+          href: /previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmauthorizer-getshareddata
       - name: "iwmbackuprestoreprops interface"
         href: /previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops
         items: 
@@ -1005,10 +1005,10 @@
         - name: "iwmdrmreader3::getinclusionlist"
           href: /previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader3-getinclusionlist
       - name: "iwmdrmtranscryptionmanager interface"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd798365(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dd798365(v=vs.85)
         items: 
         - name: "iwmdrmtranscryptionmanager::createtranscryptor"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd798366(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/dd798366(v=vs.85)
       - name: "iwmdrmtranscryptor interface"
         href: /previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmtranscryptor
         items: 
@@ -1711,30 +1711,30 @@
         - name: "iwmsbufferallocator::allocatepagesizebuffer"
           href: /previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-iwmsbufferallocator-allocatepagesizebuffer
       - name: "iwmsecurechannel interface"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsecure/nn-wmsecure-iwmsecurechannel
+        href: /previous-versions/windows/desktop/api/wmsecure/nn-wmsecure-iwmsecurechannel
         items: 
         - name: "iwmsecurechannel::wmsc_addcertificate"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_addcertificate
+          href: /previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_addcertificate
         - name: "iwmsecurechannel::wmsc_addsignature"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_addsignature
+          href: /previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_addsignature
         - name: "iwmsecurechannel::wmsc_connect"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_connect
+          href: /previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_connect
         - name: "iwmsecurechannel::wmsc_isconnected"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_isconnected
+          href: /previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_isconnected
         - name: "iwmsecurechannel::wmsc_disconnect"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_disconnect
+          href: /previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_disconnect
         - name: "iwmsecurechannel::wmsc_getvalidcertificate"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_getvalidcertificate
+          href: /previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_getvalidcertificate
         - name: "iwmsecurechannel::wmsc_encrypt"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_encrypt
+          href: /previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_encrypt
         - name: "iwmsecurechannel::wmsc_decrypt"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_decrypt
+          href: /previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_decrypt
         - name: "iwmsecurechannel::wmsc_lock"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_lock
+          href: /previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_lock
         - name: "iwmsecurechannel::wmsc_unlock"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_unlock
+          href: /previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_unlock
         - name: "iwmsecurechannel::wmsc_setshareddata"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_setshareddata
+          href: /previous-versions/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_setshareddata
       - name: "iwmsinternaladminnetsource interface"
         href: /previous-versions/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource
         items: 
@@ -2145,7 +2145,7 @@
       - name: "wm_leaky_bucket_pair"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_leaky_bucket_pair
       - name: "wm_license_state_data"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757942(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dd757942(v=vs.85)
       - name: "wm_media_type"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type
       - name: "wmmpeg2videoinfo"
@@ -2163,7 +2163,7 @@
       - name: "wm_stream_priority_record"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_priority_record
       - name: "wm_stream_type_info"
-        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-ns-wmsdkidl-_wmstreamprioritizationrecord
+        href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_type_info
       - name: "wm_synchronised_lyrics"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_synchronised_lyrics
       - name: "wm_user_text"

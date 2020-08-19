@@ -16,16 +16,16 @@ This section contains reference pages for the following groups of structures:
 
 ## LSA Policy Management Structures
 
-The following structures are used by the [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) policy management functions.
+The following structures are used by the [*Local Security Authority*](/windows/desktop/SecGloss/l-gly) (LSA) policy management functions.
 
 
 
 | Structure                                                                       | Description                                                                                                                                   |
 |---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | [**LSA\_AUTH\_INFORMATION**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-lsa_auth_information)                          | Contains authentication information for a trusted domain.                                                                                     |
-| [**LSA\_ENUMERATION\_INFORMATION**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-lsa_enumeration_information)            | Contains a pointer to a [*security identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SID).    |
+| [**LSA\_ENUMERATION\_INFORMATION**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-lsa_enumeration_information)            | Contains a pointer to a [*security identifier*](/windows/desktop/SecGloss/s-gly) (SID).    |
 | [**LSA\_OBJECT\_ATTRIBUTES**](/windows/desktop/api/LsaLookup/ns-lsalookup-lsa_object_attributes)                        | Specifies the attributes of a connection to the [**Policy**](policy-object.md) object.                                                       |
-| [**LSA\_REFERENCED\_DOMAIN\_LIST**](https://msdn.microsoft.com/library/ms721834(v=VS.85).aspx)             | Contains information about the domains referenced in a lookup operation.                                                                      |
+| [**LSA\_REFERENCED\_DOMAIN\_LIST**](/windows/win32/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list)             | Contains information about the domains referenced in a lookup operation.                                                                      |
 | [**LSA\_TRANSLATED\_NAME**](/windows/desktop/api/LsaLookup/ns-lsalookup-lsa_translated_name)                            | Contains information about the account identified by a SID.                                                                                   |
 | [**LSA\_TRANSLATED\_SID**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-lsa_translated_sid)                              | Contains information about the SID that identifies an account.                                                                                |
 | [**LSA\_TRANSLATED\_SID2**](/windows/desktop/api/LsaLookup/ns-lsalookup-lsa_translated_sid2)                            | Contains information about the SID that identifies an account.                                                                                |
@@ -40,7 +40,7 @@ The following structures are used by the [*Local Security Authority*](https://do
 | [**POLICY\_PRIMARY\_DOMAIN\_INFO**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-policy_primary_domain_info)             | Obsolete. Use **PolicyDnsDomainInformation** and the [**POLICY\_DNS\_DOMAIN\_INFO**](/windows/desktop/api/LsaLookup/ns-lsalookup-policy_dns_domain_info) structure instead.           |
 | [**TRUSTED\_DOMAIN\_AUTH\_INFORMATION**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-trusted_domain_auth_information)   | Used to retrieve authentication information for a trusted domain.                                                                             |
 | [**TRUSTED\_DOMAIN\_FULL\_INFORMATION**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-trusted_domain_full_information)   | Used to retrieve complete information about a trusted domain.                                                                                 |
-| [**TRUSTED\_DOMAIN\_INFORMATION\_BASIC**](https://msdn.microsoft.com/library/ms722475(v=VS.85).aspx) | Information about a trusted domain. This structure is identical to [**LSA\_TRUST\_INFORMATION**](/windows/desktop/api/lsalookup/ns-lsalookup-lsa_trust_information).                  |
+| [**TRUSTED\_DOMAIN\_INFORMATION\_BASIC**](/previous-versions/windows/desktop/legacy/ms722475(v=vs.85)) | Information about a trusted domain. This structure is identical to [**LSA\_TRUST\_INFORMATION**](/windows/desktop/api/lsalookup/ns-lsalookup-lsa_trust_information).                  |
 | [**TRUSTED\_DOMAIN\_INFORMATION\_EX**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-trusted_domain_information_ex)       | Used to retrieve extended information about a trusted domain.                                                                                 |
 | [**TRUSTED\_DOMAIN\_NAME\_INFO**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-trusted_domain_name_info)                 | Used to query or set the name of a trusted domain.                                                                                            |
 | [**TRUSTED\_PASSWORD\_INFO**](/windows/desktop/api/Ntsecapi/ns-ntsecapi-trusted_password_info)                        | Used to query or set the password for a trusted domain.                                                                                       |
@@ -98,6 +98,3 @@ The following structures and enumerated type are used in Safer. They are defined
  
 
  
-
-
-

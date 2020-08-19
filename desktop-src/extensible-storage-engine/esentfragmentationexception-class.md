@@ -32,8 +32,8 @@ Base class for Fragmentation exceptions.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
-  [System.Exception](https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
+  [System.Exception](/dotnet/api/system.exception)  
     [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
       [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
         [Microsoft.Isam.Esent.Interop.EsentDataException](dn334392\(v=exchg.10\).md)  
@@ -73,8 +73,8 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
-  [System.Exception](https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
+  [System.Exception](/dotnet/api/system.exception)  
     [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
       [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
         [Microsoft.Isam.Esent.Interop.EsentDataException](dn334392\(v=exchg.10\).md)  
@@ -87,4 +87,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
             [Microsoft.Isam.Esent.Interop.EsentOutOfLongValueIDsException](dn319790\(v=exchg.10\).md)  
             [Microsoft.Isam.Esent.Interop.EsentOutOfObjectIDsException](dn319746\(v=exchg.10\).md)  
             [Microsoft.Isam.Esent.Interop.EsentOutOfSequentialIndexValuesException](dn319807\(v=exchg.10\).md)
-

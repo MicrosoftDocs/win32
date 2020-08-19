@@ -116,13 +116,9 @@ interface iface2
 [**ncadg\_ipx**](ncadg-ipx.md)
 </dt> <dt>
 
-[String Binding](https://docs.microsoft.com/windows/desktop/Rpc/string-binding)
+[String Binding](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
  
 
  
-
-
-
-

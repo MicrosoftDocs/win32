@@ -39,7 +39,7 @@ HRESULT AddDataReference(
 *szRef* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to the name of the referenced data object. This parameter can be **NULL** if pguidRef provides a reference to the GUID.
 
@@ -85,7 +85,3 @@ For this method to succeed, either the szRef or pguidRef parameter must be non-*
  
 
  
-
-
-
-

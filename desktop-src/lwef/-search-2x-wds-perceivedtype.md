@@ -35,7 +35,7 @@ Use the PerceivedType property to classify your file type so that users can filt
 -   folder
 -   program
 
-For example, when you want to create a filter add-in for a new picture file type, you need to implement the following in your [**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)interface:
+For example, when you want to create a filter add-in for a new picture file type, you need to implement the following in your [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)interface:
 
 -   **GetChunk** to return a FULLPROPSPEC that includes: D5CDD505-2E9C-101B-9397-08002B2CF9AE/PerceivedType
 -   **GetValue** to return a PROPVARIANT that includes: VT\_LPWSTR = "images/picture"
@@ -62,7 +62,3 @@ For example, when you want to create a filter add-in for a new picture file type
  
 
  
-
-
-
-

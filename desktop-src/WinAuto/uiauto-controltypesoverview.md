@@ -71,7 +71,7 @@ The following topics describe the UI Automation control types. For each control 
 -   [ProgressBar Control Type](uiauto-supportprogressbarcontroltype.md)
 -   [RadioButton Control Type](uiauto-supportradiobuttoncontroltype.md)
 -   [ScrollBar Control Type](uiauto-supportscrollbarcontroltype.md)
--   [SemanticZoom Control Type](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-supportsemanticzoomcontroltype)
+-   [SemanticZoom Control Type](/windows/desktop/WinAuto/uiauto-supportsemanticzoomcontroltype)
 -   [Separator Control Type](uiauto-supportseparatorcontroltype.md)
 -   [Slider Control Type](uiauto-supportslidercontroltype.md)
 -   [Spinner Control Type](uiauto-supportspinnercontroltype.md)
@@ -114,7 +114,3 @@ The following topics describe the UI Automation control types. For each control 
  
 
  
-
-
-
-

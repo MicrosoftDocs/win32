@@ -130,6 +130,8 @@
       - name: "SSPI Context Semantics"
         href: sspi-context-semantics.md
         items: 
+        - name: "Asynchronous Contexts"
+          href: sspi-asynchronous-contexts.md
         - name: "Context Requirements"
           href: context-requirements.md
         - name: "Connection-Oriented Contexts"
@@ -540,9 +542,9 @@
       href: authentication-classes.md
       items: 
       - name: "RemoteTpmVirtualSmartCardManager"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh707166(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/hh707166(v=vs.85)
       - name: "TpmVirtualSmartCardManager"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh707171(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/hh707171(v=vs.85)
     - name: "Authentication Constants"
       href: authentication-constants.md
       items: 
@@ -585,9 +587,9 @@
       - name: "LSA_FOREST_TRUST_RECORD_TYPE"
         href: /windows/desktop/api/Ntsecapi/ne-ntsecapi-lsa_forest_trust_record_type
       - name: "LSA_SID_NAME_MAPPING_OPERATION_TYPE"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn280710(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dn280710(v=vs.85)
       - name: "LSA_SID_NAME_MAPPING_OPERATION_ERROR"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn280707(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/dn280707(v=vs.85)
       - name: "LSA_TOKEN_INFORMATION_TYPE"
         href: /windows/win32/api/Ntsecpkg/ne-ntsecpkg-lsa_token_information_type
       - name: "MSV1_0_LOGON_SUBMIT_TYPE"
@@ -658,7 +660,7 @@
       - name: "LSA_ALLOCATE_CLIENT_BUFFER"
         href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer
       - name: "AllocateHeap"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374721(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa374721(v=vs.85)
       - name: "LSA_ALLOCATE_LSA_HEAP"
         href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap
       - name: "LSA_ALLOCATE_PRIVATE_HEAP"
@@ -702,7 +704,7 @@
       - name: "LSA_CREATE_SHARED_MEMORY"
         href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_create_shared_memory
       - name: "CreateThread"
-        href: https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_create_thread
+        href: /windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_create_thread
       - name: "LSA_CREATE_TOKEN"
         href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_create_token
       - name: "LSA_CREATE_TOKEN_EX"
@@ -797,7 +799,7 @@
       - name: "LSA_DELETE_SHARED_MEMORY"
         href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_delete_shared_memory
       - name: "DuplicateHandle"
-        href: https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_duplicate_handle
+        href: /windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_duplicate_handle
       - name: "EncryptMessage (General)"
         href: encryptmessage--general.md
         items: 
@@ -824,9 +826,9 @@
       - name: "FreeCredentialsHandle"
         href: /windows/desktop/api/Sspi/nf-sspi-freecredentialshandle
       - name: "FreeHeap"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa375418(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa375418(v=vs.85)
       - name: "LSA_FREE_LSA_HEAP"
-        href: https://docs.microsoft.com/windows/desktop/api/ntlsa/nc-ntlsa-lsa_free_lsa_heap
+        href: /windows/desktop/api/ntlsa/nc-ntlsa-lsa_free_lsa_heap
       - name: "LSA_FREE_PRIVATE_HEAP"
         href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_free_private_heap
       - name: "LSA_FREE_LSA_HEAP"
@@ -848,7 +850,7 @@
       - name: "LSA_GET_USER_AUTH_DATA"
         href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_get_user_auth_data
       - name: "LSA_IMPERSONATE_CLIENT"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa375494(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa375494(v=vs.85)
       - name: "ImpersonateSecurityContext"
         href: /windows/desktop/api/Sspi/nf-sspi-impersonatesecuritycontext
       - name: "ImportSecurityContext"
@@ -881,7 +883,7 @@
       - name: "LSA_AP_CALL_PACKAGE_PASSTHROUGH"
         href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_ap_call_package_passthrough
       - name: "LsaApCallPackageUntrusted"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa378218(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa378218(v=vs.85)
       - name: "LSA_AP_INITIALIZE_PACKAGE"
         href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_ap_initialize_package
       - name: "LSA_AP_LOGON_TERMINATED"
@@ -911,7 +913,7 @@
       - name: "LsaLookupAuthenticationPackage"
         href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupauthenticationpackage
       - name: "LsaManageSidNameMapping"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj902653(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/jj902653(v=vs.85)
       - name: "LsaOpenPolicy"
         href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaopenpolicy
       - name: "LSA_PROTECT_MEMORY"
@@ -933,7 +935,7 @@
       - name: "LsaSetInformationPolicy"
         href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsasetinformationpolicy
       - name: "LsaUnprotectMemory"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff714510(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/ff714510(v=vs.85)
       - name: "MakeSignature"
         href: /windows/desktop/api/Sspi/nf-sspi-makesignature
       - name: "LSA_MAP_BUFFER"
@@ -1040,9 +1042,9 @@
       - name: "QuerySecurityPackageInfo"
         href: /windows/desktop/api/Sspi/nf-sspi-querysecuritypackageinfoa
       - name: "RegisterCallback"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379372(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa379372(v=vs.85)
       - name: "PLSA_REGISTER_NOTIFICATION"
-        href: https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_register_notification
+        href: /windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_register_notification
       - name: "RevertSecurityContext"
         href: /windows/desktop/api/Sspi/nf-sspi-revertsecuritycontext
       - name: "SaslAcceptSecurityContext"
@@ -1096,9 +1098,9 @@
       - name: "SCardGetProviderId"
         href: /windows/desktop/api/Winscard/nf-winscard-scardgetproviderida
       - name: "SCardGetReaderDeviceInstanceId"
-        href: https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardgetreaderdeviceinstanceida
+        href: /windows/desktop/api/winscard/nf-winscard-scardgetreaderdeviceinstanceida
       - name: "SCardGetReaderIcon"
-        href: https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardgetreadericona
+        href: /windows/desktop/api/winscard/nf-winscard-scardgetreadericona
       - name: "SCardGetStatusChange"
         href: /windows/desktop/api/Winscard/nf-winscard-scardgetstatuschangea
       - name: "SCardGetTransmitCount"
@@ -1120,7 +1122,7 @@
       - name: "SCardListReaders"
         href: /windows/desktop/api/Winscard/nf-winscard-scardlistreadersa
       - name: "SCardListReadersWithDeviceInstanceId"
-        href: https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlistreaderswithdeviceinstanceida
+        href: /windows/desktop/api/winscard/nf-winscard-scardlistreaderswithdeviceinstanceida
       - name: "SCardLocateCards"
         href: /windows/desktop/api/Winscard/nf-winscard-scardlocatecardsa
       - name: "SCardLocateCardsByATR"
@@ -1218,7 +1220,7 @@
       - name: "SpSetExtendedInformationFn"
         href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn
       - name: "SpShutdownFn"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380183(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa380183(v=vs.85)
       - name: "SpUnsealMessageFn"
         href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-spunsealmessagefn
       - name: "SpUpdateCredentialsFn"
@@ -1286,7 +1288,7 @@
       - name: "SspiZeroAuthIdentity"
         href: /windows/desktop/api/Sspi/nf-sspi-sspizeroauthidentity
       - name: "LSA_UNLOAD_PACKAGE"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380520(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa380520(v=vs.85)
       - name: "LSA_UPDATE_PRIMARY_CREDENTIALS"
         href: /windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_update_primary_credentials
       - name: "VerifySignature"
@@ -1294,25 +1296,25 @@
       - name: "WlxActivateUserShell"
         href: /windows/desktop/api/Winwlx/nf-winwlx-wlxactivateusershell
       - name: "WlxAssignShellProtection"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_assign_shell_protection
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_assign_shell_protection
       - name: "WlxChangePasswordNotify"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_change_password_notify
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_change_password_notify
       - name: "WlxChangePasswordNotifyEx"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_change_password_notify_ex
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_change_password_notify_ex
       - name: "WlxCloseUserDesktop"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_close_user_desktop
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_close_user_desktop
       - name: "WlxCreateUserDesktop"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_create_user_desktop
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_create_user_desktop
       - name: "WlxDialogBox"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box
       - name: "WlxDialogBoxIndirect"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box_indirect
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box_indirect
       - name: "WlxDialogBoxIndirectParam"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box_indirect_param
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box_indirect_param
       - name: "WlxDialogBoxParam"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box_param
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box_param
       - name: "WlxDisconnect"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_disconnect
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_disconnect
       - name: "WlxDisplayLockedNotice"
         href: /windows/desktop/api/Winwlx/nf-winwlx-wlxdisplaylockednotice
       - name: "WlxDisplaySASNotice"
@@ -1322,9 +1324,9 @@
       - name: "WlxGetConsoleSwitchCredentials"
         href: /windows/desktop/api/Winwlx/nf-winwlx-wlxgetconsoleswitchcredentials
       - name: "WlxGetOption"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_get_option
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_get_option
       - name: "WlxGetSourceDesktop"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_get_source_desktop
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_get_source_desktop
       - name: "WlxGetStatusMessage"
         href: /windows/desktop/api/Winwlx/nf-winwlx-wlxgetstatusmessage
       - name: "WlxInitialize"
@@ -1340,47 +1342,47 @@
       - name: "WlxLogoff"
         href: /windows/desktop/api/Winwlx/nf-winwlx-wlxlogoff
       - name: "WlxMessageBox"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_message_box
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_message_box
       - name: "WlxNegotiate"
         href: /windows/desktop/api/Winwlx/nf-winwlx-wlxnegotiate
       - name: "WlxNetworkProviderLoad"
         href: /windows/desktop/api/Winwlx/nf-winwlx-wlxnetworkproviderload
       - name: "WlxQueryClientCredentials"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_client_credentials
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_query_client_credentials
       - name: "WlxQueryConsoleSwitchCredentials"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_consoleswitch_credentials
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_query_consoleswitch_credentials
       - name: "WlxQueryInetConnectorCredentials"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_ic_credentials
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_query_ic_credentials
       - name: "WlxQueryTerminalServicesData"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_terminal_services_data
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_query_terminal_services_data
       - name: "WlxQueryTsLogonCredentials"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_ts_logon_credentials
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_query_ts_logon_credentials
       - name: "WlxRemoveStatusMessage"
         href: /windows/desktop/api/Winwlx/nf-winwlx-wlxremovestatusmessage
       - name: "WlxSasNotify"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_sas_notify
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_sas_notify
       - name: "WlxScreenSaverNotify"
         href: /windows/desktop/api/Winwlx/nf-winwlx-wlxscreensavernotify
       - name: "WlxSetContextPointer"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_context_pointer
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_set_context_pointer
       - name: "WlxSetOption"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_option
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_set_option
       - name: "WlxSetReturnDesktop"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_return_desktop
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_set_return_desktop
       - name: "WlxSetTimeout"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_timeout
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_set_timeout
       - name: "WlxShutdown"
         href: /windows/desktop/api/Winwlx/nf-winwlx-wlxshutdown
       - name: "WlxStartApplication"
         href: /windows/desktop/api/Winwlx/nf-winwlx-wlxstartapplication
       - name: "WlxSwitchDesktopToUser"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_switch_desktop_to_user
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_switch_desktop_to_user
       - name: "WlxSwitchDesktopToWinlogon"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_switch_desktop_to_winlogon
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_switch_desktop_to_winlogon
       - name: "WlxUseCtrlAltDel"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_use_ctrl_alt_del
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_use_ctrl_alt_del
       - name: "WlxWin31Migrate"
-        href: https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_win31_migrate
+        href: /windows/desktop/api/winwlx/nc-winwlx-pwlx_win31_migrate
       - name: "WlxWkstaLockedSAS"
         href: /windows/desktop/api/Winwlx/nf-winwlx-wlxwkstalockedsas
       - name: "WNetSetLastError"
@@ -1764,7 +1766,7 @@
           - name: "ResetSecurityState Method"
             href: iscardverify-resetsecuritystate.md
           - name: "Unblock Method"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377269(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa377269(v=vs.85)
           - name: "Verify Method"
             href: iscardverify-verify.md
       - name: "ITpmVirtualSmartCardManager"
@@ -1912,7 +1914,7 @@
       - name: "LSA_TOKEN_INFORMATION_NULL"
         href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-lsa_token_information_null
       - name: "LSA_TOKEN_INFORMATION_V1"
-        href: https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/aa378721(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa378721(v=vs.85)
       - name: "LSA_TOKEN_INFORMATION_V2"
         href: /windows/win32/api/Ntsecpkg/ns-ntsecpkg-lsa_token_information_v1
       - name: "LSA_TOKEN_INFORMATION_V3"
@@ -2108,7 +2110,7 @@
       - name: "SecPkgContext_KeyInfo"
         href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_keyinfoa
       - name: "SecPkgContext_KeyingMaterialInfo"
-        href: https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_keyingmaterialinfo
+        href: /windows/desktop/api/schannel/ns-schannel-secpkgcontext_keyingmaterialinfo
       - name: "SecPkgContext_EarlyStart"
         href: /windows/win32/api/schannel/ns-schannel-secpkgcontext_earlystart
       - name: "SecPkgContext_KeyingMaterial"
@@ -2148,11 +2150,11 @@
       - name: "SecPkgContext_TargetInformation"
         href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_targetinformation
       - name: "SecPkgCred_CipherStrengths"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380101(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa380101(v=vs.85)
       - name: "SecPkgCred_SupportedAlgs"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa380102(v=vs.85)
       - name: "SecPkgCred_SupportedProtocols"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/aa380103(v=vs.85)
       - name: "SecPkgCredentials_Cert"
         href: /windows/win32/api/Sspi/ns-sspi-secpkgcredentials_cert
       - name: "SecPkgCredentials_KdcProxySettings"

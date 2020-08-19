@@ -29,7 +29,7 @@ The Ribbon framework is composed of two [Views](windowsribbon-reference-elements
 
 The [**Ribbon**](windowsribbon-element-ribbon.md) View hosts the [**ApplicationMenu**](windowsribbon-element-applicationmenu.md) element, [**QuickAccessToolbar**](windowsribbon-element-quickaccesstoolbar.md) element, and ribbon command bar while the [**ContextPopup**](windowsribbon-element-contextpopup.md) View hosts a [**ContextMenu**](windowsribbon-element-contextmenu.md) element, a [**MiniToolbar**](windowsribbon-element-minitoolbar.md) element, or both.
 
-Each framework control is distinguished by the functionality associated with its [**Command type**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype).
+Each framework control is distinguished by the functionality associated with its [**Command type**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype).
 
 ### Basic Controls
 
@@ -95,7 +95,7 @@ The following table describes the static container controls in the Ribbon framew
 
 Dynamic containers are declared in the Ribbon markup file. They feature a group of items or Commands that are created or modified at run time.
 
-A subclass of dynamic containers, called galleries, are distinguished by their implementation of the [**IUICollection**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) interface. This interface allows a control to expose its item or Command list as a collection, and to support updates based on both user interaction and run-time conditions. For more information, see [Working with Galleries](ribbon-controls-galleries.md).
+A subclass of dynamic containers, called galleries, are distinguished by their implementation of the [**IUICollection**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) interface. This interface allows a control to expose its item or Command list as a collection, and to support updates based on both user interaction and run-time conditions. For more information, see [Working with Galleries](ribbon-controls-galleries.md).
 
 The following table lists the dynamic container controls in the Ribbon framework.
 
@@ -141,7 +141,3 @@ The following table lists the specialized controls in the Ribbon framework.
  
 
  
-
-
-
-

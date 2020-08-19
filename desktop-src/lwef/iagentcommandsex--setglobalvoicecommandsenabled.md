@@ -29,7 +29,7 @@ A Boolean value that sets whether the voice grammar of Agent's global commands i
 
 </dd> </dl>
 
-Microsoft Agent automatically adds voice parameters (grammar) for opening and closing the Voice Commands Window and for showing and hiding the character. When set to **False**, Agent disables any voice parameters for these commands as well as the voice parameters for the [**Caption**](caption-property.md) of other client's [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) objects. This enables you to eliminate these from your client's current active grammar. However, because this potentially blocks voice access to other clients, reset this property to **True** after processing the user's voice input.
+Microsoft Agent automatically adds voice parameters (grammar) for opening and closing the Voice Commands Window and for showing and hiding the character. When set to **False**, Agent disables any voice parameters for these commands as well as the voice parameters for the [**Caption**](caption-property.md) of other client's [**Command**](/windows/desktop/lwef/the-command-object) objects. This enables you to eliminate these from your client's current active grammar. However, because this potentially blocks voice access to other clients, reset this property to **True** after processing the user's voice input.
 
 Disabling the property does not affect the character's pop-up menu. The global commands added by the server will still appear. You cannot remove them from the pop-up menu.
 
@@ -41,7 +41,3 @@ Disabling the property does not affect the character's pop-up menu. The global c
  
 
  
-
-
-
-

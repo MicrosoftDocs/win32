@@ -80,7 +80,7 @@ public static void JetGetColumnInfo(
 <!-- end list -->
 
   - tablename  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The name of the table containing the column.
 
@@ -107,4 +107,3 @@ public static void JetGetColumnInfo(
 [VistaApi members](dn335317\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-

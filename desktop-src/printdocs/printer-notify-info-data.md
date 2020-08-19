@@ -304,7 +304,7 @@ If the **Type** member specifies JOB\_NOTIFY\_TYPE, the **Field** member can be 
 | JOB\_NOTIFY\_FIELD\_DOCUMENT             | **pBuf** is a pointer to a null-terminated string that specifies the name of the print job (for example, "MS-WORD: Review.doc").                                                                                                                        | 0x0D  |
 | JOB\_NOTIFY\_FIELD\_PRIORITY             | **adwData** \[0\] specifies the job priority.                                                                                                                                                                                                           | 0x0E  |
 | JOB\_NOTIFY\_FIELD\_POSITION             | **adwData** \[0\] specifies the job's position in the print queue.                                                                                                                                                                                      | 0x0F  |
-| JOB\_NOTIFY\_FIELD\_SUBMITTED            | **pBuf** is a pointer to a [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that specifies the time when the job was submitted.                                                                                                                          | 0x10  |
+| JOB\_NOTIFY\_FIELD\_SUBMITTED            | **pBuf** is a pointer to a [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that specifies the time when the job was submitted.                                                                                                                          | 0x10  |
 | JOB\_NOTIFY\_FIELD\_START\_TIME          | **adwData** \[0\] specifies the earliest time that the job can be printed. (This value is specified in minutes elapsed since 12:00 A.M.)                                                                                                                | 0x11  |
 | JOB\_NOTIFY\_FIELD\_UNTIL\_TIME          | **adwData** \[0\] specifies the latest time that the job can be printed. (This value is specified in minutes elapsed since 12:00 A.M.)                                                                                                                  | 0x12  |
 | JOB\_NOTIFY\_FIELD\_TIME                 | **adwData** \[0\] specifies the total time, in seconds, that has elapsed since the job began printing.                                                                                                                                                  | 0x13  |
@@ -354,16 +354,11 @@ If the **Type** member specifies JOB\_NOTIFY\_TYPE, the **Field** member can be 
 [**PRINTER\_NOTIFY\_INFO**](printer-notify-info.md)
 </dt> <dt>
 
-[**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor)
+[**SECURITY\_DESCRIPTOR**](/windows/desktop/api/winnt/ns-winnt-security_descriptor)
 </dt> <dt>
 
-[**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime)
+[**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime)
 </dt> </dl>
 
  
-
- 
-
-
-
 

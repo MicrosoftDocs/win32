@@ -47,7 +47,7 @@ Shell.IsServiceRunning( _
 *sServiceName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that contains the name of the service.
 
@@ -125,7 +125,3 @@ end function
  
 
  
-
-
-
-

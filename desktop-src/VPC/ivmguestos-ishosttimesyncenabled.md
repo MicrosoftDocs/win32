@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # IVMGuestOS::IsHostTimeSyncEnabled property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Indicates whether the Integration Components in this virtual machine (VM) should synchronize the guest's clock with the host's clock.
 
@@ -87,10 +87,4 @@ You cannot change this setting while the virtual machine is active (that is, run
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

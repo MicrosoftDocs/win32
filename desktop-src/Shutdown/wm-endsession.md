@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The **WM\_ENDSESSION** message is sent to an application after the system processes the results of the [**WM\_QUERYENDSESSION**](wm-queryendsession.md) message. The **WM\_ENDSESSION** message informs the application whether the session is ending.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -58,7 +58,7 @@ This parameter can be one or more of the following values. If this parameter is 
 
 | Value                                                                                                                                                                                                                                           | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="ENDSESSION_CLOSEAPP"></span><span id="endsession_closeapp"></span><dl> <dt>**ENDSESSION\_CLOSEAPP**</dt> <dt>0x1</dt> </dl>        | If *wParam* is **TRUE**, the application must shut down. Any data should be saved automatically without prompting the user (for more information, see Remarks). The Restart Manager sends this message when the application is using a file that needs to be replaced, when it must service the system, or when system resources are exhausted. The application will be restarted if it has registered for restart using the [**RegisterApplicationRestart**](https://msdn.microsoft.com/library/Aa373347(v=VS.85).aspx) function. For more information, see [Guidelines for Applications](https://msdn.microsoft.com/library/Aa373651(v=VS.85).aspx). <br/> If *wParam* is **FALSE**, the application should not shut down.<br/> |
+| <span id="ENDSESSION_CLOSEAPP"></span><span id="endsession_closeapp"></span><dl> <dt>**ENDSESSION\_CLOSEAPP**</dt> <dt>0x1</dt> </dl>        | If *wParam* is **TRUE**, the application must shut down. Any data should be saved automatically without prompting the user (for more information, see Remarks). The Restart Manager sends this message when the application is using a file that needs to be replaced, when it must service the system, or when system resources are exhausted. The application will be restarted if it has registered for restart using the [**RegisterApplicationRestart**](/windows/win32/api/winbase/nf-winbase-registerapplicationrestart) function. For more information, see [Guidelines for Applications](../rstmgr/guidelines-for-applications.md). <br/> If *wParam* is **FALSE**, the application should not shut down.<br/> |
 | <span id="ENDSESSION_CRITICAL"></span><span id="endsession_critical"></span><dl> <dt>**ENDSESSION\_CRITICAL**</dt> <dt>0x40000000</dt> </dl> | The application is forced to shut down.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | <span id="ENDSESSION_LOGOFF"></span><span id="endsession_logoff"></span><dl> <dt>**ENDSESSION\_LOGOFF**</dt> <dt>0x80000000</dt> </dl>       | The user is logging off. For more information, see [Logging Off](logging-off.md).<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
@@ -78,7 +78,7 @@ If an application processes this message, it should return zero.
 
 Applications that have unsaved data could save the data to a temporary location and restore it the next time the application starts. It is recommended that applications save their data and state frequently; for example, automatically save data between save operations initiated by the user to reduce the amount of data to be saved at shutdown.
 
-The application need not call the [**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx) or [**PostQuitMessage**](https://msdn.microsoft.com/library/ms644945(v=VS.85).aspx) function when the session is ending.
+The application need not call the [**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow) or [**PostQuitMessage**](/windows/win32/api/winuser/nf-winuser-postquitmessage) function when the session is ending.
 
 ## Requirements
 
@@ -102,13 +102,13 @@ The application need not call the [**DestroyWindow**](https://msdn.microsoft.com
 [Shutting Down](shutting-down.md)
 </dt> <dt>
 
-[**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx)
+[**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow)
 </dt> <dt>
 
-[**PostQuitMessage**](https://msdn.microsoft.com/library/ms644945(v=VS.85).aspx)
+[**PostQuitMessage**](/windows/win32/api/winuser/nf-winuser-postquitmessage)
 </dt> <dt>
 
-[**SetProcessShutdownParameters**](https://msdn.microsoft.com/library/ms686227(v=VS.85).aspx)
+[**SetProcessShutdownParameters**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessshutdownparameters)
 </dt> <dt>
 
 [**WM\_QUERYENDSESSION**](wm-queryendsession.md)
@@ -117,7 +117,3 @@ The application need not call the [**DestroyWindow**](https://msdn.microsoft.com
  
 
  
-
-
-
-

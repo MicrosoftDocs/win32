@@ -24,18 +24,18 @@ interface multiarray
 }
 ```
 
-The preceding array is a conformant array (of size d1size ) of 30 element arrays (with d2len elements shipped for each). The comma in the parentheses of the \[[**size\_is**](https://docs.microsoft.com/windows/desktop/Midl/size-is)\] attribute specifies that value in d1size is applied to the first dimension of the array. Likewise, the command in the parentheses of the \[[**length\_is**](https://docs.microsoft.com/windows/desktop/Midl/length-is)\] attribute indicates that the value in d2len is applied to the second dimension of the array.
+The preceding array is a conformant array (of size d1size ) of 30 element arrays (with d2len elements shipped for each). The comma in the parentheses of the \[[**size\_is**](/windows/desktop/Midl/size-is)\] attribute specifies that value in d1size is applied to the first dimension of the array. Likewise, the command in the parentheses of the \[[**length\_is**](/windows/desktop/Midl/length-is)\] attribute indicates that the value in d2len is applied to the second dimension of the array.
 
-The MIDL 2.0 compiler provides two methods for marshaling parameters: mixed-mode (/**Os**) and fully-interpreted (/**Oif** or /**Oicf**). By default, the MIDL compiler compiles interfaces in mixed mode. You do not need to explicitly specify the [**/Os**](https://docs.microsoft.com/windows/desktop/Midl/-os) switch to get mixed-mode marshaling.
+The MIDL 2.0 compiler provides two methods for marshaling parameters: mixed-mode (/**Os**) and fully-interpreted (/**Oif** or /**Oicf**). By default, the MIDL compiler compiles interfaces in mixed mode. You do not need to explicitly specify the [**/Os**](/windows/desktop/Midl/-os) switch to get mixed-mode marshaling.
 
 The fully-interpreted method marshals data completely offline. This reduces the size of the stub code considerably, but it also results in decreased performance. In mixed-mode marshaling, the stubs marshals some parameters online. While this results in a larger stub size, it also offers increased performance.
 
 > [!Caution]  
-> Exercise caution when compiling IDL files in this mode. Using multidimensional arrays in mixed mode can result in parameters that are not marshaled correctly. The [**/Oicf**](https://docs.microsoft.com/windows/desktop/Midl/-oi) command line switch is recommended when your interface defines parameters that are multidimensional arrays.
+> Exercise caution when compiling IDL files in this mode. Using multidimensional arrays in mixed mode can result in parameters that are not marshaled correctly. The [**/Oicf**](/windows/desktop/Midl/-oi) command line switch is recommended when your interface defines parameters that are multidimensional arrays.
 
  
 
-The \[[**string**](https://docs.microsoft.com/windows/desktop/Midl/string)\] attribute can also be used with multidimensional arrays. The attribute applies to the least significant dimension, such as a conformant array of strings. You can also use multidimensional pointer attributes. For example:
+The \[[**string**](/windows/desktop/Midl/string)\] attribute can also be used with multidimensional arrays. The attribute applies to the least significant dimension, such as a conformant array of strings. You can also use multidimensional pointer attributes. For example:
 
 ``` syntax
 /* IDL file */
@@ -64,7 +64,3 @@ Compare this to the following invalid statement:
  
 
  
-
-
-
-

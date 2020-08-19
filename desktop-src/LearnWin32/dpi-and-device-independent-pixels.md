@@ -103,7 +103,7 @@ Direct2D automatically performs scaling to match the DPI setting. In Direct2D, c
 
 For example, if the user's DPI setting is 144 DPI, and you ask Direct2D to draw a 200 × 100 rectangle, the rectangle will be 300 × 150 physical pixels. In addition, DirectWrite measures font sizes in DIPs, rather than points. To create a 12-point font, specify 16 DIPs (12 points = 1/6 logical inch = 96/6 DIPs). When the text is drawn on the screen, Direct2D converts the DIPs to physical pixels. The benefit of this system is that the units of measurement are consistent for both text and drawing, regardless of the current DPI setting.
 
-A word of caution: Mouse and window coordinates are still given in physical pixels, not DIPs. For example, if you process the [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown) message, the mouse-down position is given in physical pixels. To draw a point at that position, you must convert the pixel coordinates to DIPs.
+A word of caution: Mouse and window coordinates are still given in physical pixels, not DIPs. For example, if you process the [**WM\_LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown) message, the mouse-down position is given in physical pixels. To draw a point at that position, you must convert the pixel coordinates to DIPs.
 
 ## Converting Physical Pixels to DIPs
 
@@ -112,7 +112,7 @@ The conversion from physical pixels to DIPs uses the following formula.
 <dl> DIPs = pixels / (DPI/96.0)  
 </dl>
 
-To get the DPI setting, call the [**ID2D1Factory::GetDesktopDpi**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) method. The DPI is returned as two floating-point values, one for the x-axis and one for the y-axis. In theory, these values can differ. Calculate a separate scaling factor for each axis.
+To get the DPI setting, call the [**ID2D1Factory::GetDesktopDpi**](/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) method. The DPI is returned as two floating-point values, one for the x-axis and one for the y-axis. In theory, these values can differ. Calculate a separate scaling factor for each axis.
 
 
 ```C++
@@ -156,8 +156,8 @@ void InitializeDPIScale(HWND hwnd)
     ReleaseDC(hwnd, hdc);
 }
 ```
-
-
+> [!Note]  
+> On Windows 10, version 1903,  [**ID2D1Factory::GetDesktopDpi**](https://docs.microsoft.com/en-us/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) is deprecated and the recommendation is [**DisplayInformation::LogicalDpi**](https://docs.microsoft.com/en-us/uwp/api/windows.graphics.display.displayinformation.logicaldpi?view=winrt-19041) for Windows Store Apps or [**GetDpiForWindow**](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getdpiforwindow) for desktop apps. If you still want to use it, suppress the compiler error message by writing the line [**#pragma warning(suppress: 4996)**](https://docs.microsoft.com/en-us/cpp/error-messages/compiler-warnings/compiler-warning-level-3-c4996?view=vs-2019#:~:text=To%20turn%20off%20the%20warning,warning(suppress%20%3A%204996)%20.) just before the [**ID2D1Factory::GetDesktopDpi**](https://docs.microsoft.com/en-us/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) call. Although it is not recommended, it is possible to set the default DPI awareness programmatically using [**SetProcessDpiAwarenessContext**](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext?redirectedfrom=MSDN). Once a window (an HWND) has been created in your process, changing the DPI awareness mode is no longer supported. If you are setting the process-default DPI awareness mode programmatically, you must call the corresponding API before any HWNDs have been created. For information see [Setting the default DPI awareness for a process](https://docs.microsoft.com/en-us/windows/win32/hidpi/setting-the-default-dpi-awareness-for-a-process).
 
 ## Resizing the Render Target
 
@@ -183,7 +183,7 @@ void MainWindow::Resize()
 
 
 
-The [**GetClientRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclientrect) function gets the new size of the client area, in physical pixels (not DIPs). The [**ID2D1HwndRenderTarget::Resize**](/windows/win32/direct2d/id2d1hwndrendertarget-resize) method updates the size of the render target, also specified in pixels. The [**InvalidateRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect) function forces a repaint by adding the entire client area to the window's update region. (See [Painting the Window](painting-the-window.md), in Module 1.)
+The [**GetClientRect**](/windows/desktop/api/winuser/nf-winuser-getclientrect) function gets the new size of the client area, in physical pixels (not DIPs). The [**ID2D1HwndRenderTarget::Resize**](../direct2d/id2d1hwndrendertarget-resize.md) method updates the size of the render target, also specified in pixels. The [**InvalidateRect**](/windows/desktop/api/winuser/nf-winuser-invalidaterect) function forces a repaint by adding the entire client area to the window's update region. (See [Painting the Window](painting-the-window.md), in Module 1.)
 
 As the window grows or shrinks, you will typically need to recalculate the position of the objects that you draw. For example, in the circle program, the radius and center point must be updated:
 
@@ -204,7 +204,7 @@ void MainWindow::CalculateLayout()
 
 
 
-The [**ID2D1RenderTarget::GetSize**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getsize) method returns the size of the render target in DIPs (not pixels), which is the appropriate unit for calculating layout. There is a closely related method, [**ID2D1RenderTarget::GetPixelSize**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getpixelsize), that returns the size in physical pixels. For an **HWND** render target, this value matches the size returned by [**GetClientRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclientrect). But remember that drawing is performed in DIPs, not pixels.
+The [**ID2D1RenderTarget::GetSize**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getsize) method returns the size of the render target in DIPs (not pixels), which is the appropriate unit for calculating layout. There is a closely related method, [**ID2D1RenderTarget::GetPixelSize**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getpixelsize), that returns the size in physical pixels. For an **HWND** render target, this value matches the size returned by [**GetClientRect**](/windows/desktop/api/winuser/nf-winuser-getclientrect). But remember that drawing is performed in DIPs, not pixels.
 
 ## Next
 
@@ -213,7 +213,3 @@ The [**ID2D1RenderTarget::GetSize**](https://docs.microsoft.com/windows/desktop/
  
 
  
-
-
-
-

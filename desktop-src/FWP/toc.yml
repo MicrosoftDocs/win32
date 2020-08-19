@@ -308,7 +308,7 @@
         - name: "IPSEC_KEY_MANAGER_NOTIFY_KEY0"
           href: /windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_notify_key0
         - name: "IPSEC_SA_CONTEXT_CALLBACK0"
-          href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_sa_context_callback0
+          href: /windows/desktop/api/fwpmu/nc-fwpmu-ipsec_sa_context_callback0
         - name: "IPsecDospGetSecurityInfo0"
           href: /windows/desktop/api/Fwpmu/nf-fwpmu-ipsecdospgetsecurityinfo0
         - name: "IPsecDospGetStatistics0"
@@ -396,7 +396,7 @@
           href: callout-management.md
           items: 
           - name: "FWPM_CALLOUT_CHANGE_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_callout_change_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_callout_change_callback0
           - name: "FwpmCalloutAdd0"
             href: /windows/desktop/api/Fwpmu/nf-fwpmu-fwpmcalloutadd0
           - name: "FwpmCalloutCreateEnumHandle0"
@@ -427,7 +427,7 @@
           href: connection-object-management.md
           items: 
           - name: "FWPM_CONNECTION_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_connection_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_connection_callback0
           - name: "FwpmConnectionCreateEnumHandle0"
             href: /windows/desktop/api/Fwpmu/nf-fwpmu-fwpmconnectioncreateenumhandle0
           - name: "FwpmConnectionDestroyEnumHandle0"
@@ -450,7 +450,7 @@
           href: event-management.md
           items: 
           - name: "FWPM_NET_EVENT_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_net_event_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_net_event_callback0
           - name: "FWPM_NET_EVENT_CALLBACK1"
             href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_net_event_callback1
           - name: "FWPM_NET_EVENT_CALLBACK2"
@@ -485,7 +485,7 @@
           href: filter-management.md
           items: 
           - name: "FWPM_FILTER_CHANGE_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_filter_change_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_filter_change_callback0
           - name: "FwpmFilterAdd0"
             href: /windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilteradd0
           - name: "FwpmFilterCreateEnumHandle0"
@@ -535,7 +535,7 @@
           href: provider-context-management.md
           items: 
           - name: "FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_provider_context_change_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_provider_context_change_callback0
           - name: "FwpmProviderContextAdd0"
             href: /windows/desktop/api/Fwpmu/nf-fwpmu-fwpmprovidercontextadd0
           - name: "FwpmProviderContextAdd1"
@@ -582,7 +582,7 @@
           href: provider-management.md
           items: 
           - name: "FWPM_PROVIDER_CHANGE_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_provider_change_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_provider_change_callback0
           - name: "FwpmProviderAdd0"
             href: /windows/desktop/api/Fwpmu/nf-fwpmu-fwpmprovideradd0
           - name: "FwpmProviderCreateEnumHandle0"
@@ -630,7 +630,7 @@
           href: sub-layer-management.md
           items: 
           - name: "FWPM_SUBLAYER_CHANGE_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_sublayer_change_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_sublayer_change_callback0
           - name: "FwpmSubLayerAdd0"
             href: /windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsublayeradd0
           - name: "FwpmSubLayerCreateEnumHandle0"
@@ -657,7 +657,7 @@
           href: system-ports-management.md
           items: 
           - name: "FWPM_SYSTEM_PORTS_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_system_ports_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_system_ports_callback0
           - name: "FwpmSystemPortsGet0"
             href: /windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsystemportsget0
           - name: "FwpmSystemPortsSubscribe0"
@@ -677,7 +677,7 @@
           href: vswitch-management.md
           items: 
           - name: "FWPM_VSWITCH_EVENT_CALLBACK0"
-            href: https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_vswitch_event_callback0
+            href: /windows/desktop/api/fwpmu/nc-fwpmu-fwpm_vswitch_event_callback0
           - name: "FwpmvSwitchEventsGetSecurityInfo0"
             href: /windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventsgetsecurityinfo0
           - name: "FwpmvSwitchEventsSetSecurityInfo0"

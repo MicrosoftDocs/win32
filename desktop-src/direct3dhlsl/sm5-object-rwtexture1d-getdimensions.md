@@ -34,7 +34,7 @@ void GetDimensions(
 *Width* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The resource width, in texels.
 
@@ -82,7 +82,3 @@ This function is supported for the following types of shaders:
  
 
  
-
-
-
-

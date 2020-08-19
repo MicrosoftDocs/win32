@@ -12,7 +12,7 @@ ALE is a set of Windows Filtering Platform (WFP) kernel-mode layers that are use
 
 Stateful filtering keeps track of the state of network connections and allows only packets that match a known connection state. For example, stateful filtering for a TCP connection initiated from behind a firewall can allow only incoming packets that match previous outgoing packets sent by the party protected.
 
-Filters in the ALE layers authorize inbound and outbound connection creation, port assignments, socket operations such as [**listen()**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-listen), raw socket creation, and promiscuous mode receiving.
+Filters in the ALE layers authorize inbound and outbound connection creation, port assignments, socket operations such as [**listen()**](/windows/desktop/api/winsock2/nf-winsock2-listen), raw socket creation, and promiscuous mode receiving.
 
 Traffic at the ALE layers is classified either per-connection or per-socket operation. At non-ALE layers, filters can only classify traffic on a per-packet basis.
 
@@ -51,7 +51,3 @@ ALE provides enforcement for policies such as "allow Windows Messenger all acces
  
 
  
-
-
-
-

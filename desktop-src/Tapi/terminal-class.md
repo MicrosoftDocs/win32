@@ -124,7 +124,7 @@ Video display window, dynamically created.
 
 ## Remarks
 
-The **BSTR** version of the terminal classes is mainly designated for the use of Visual Basic applications. (For example, they are returned as the elements of the collection obtained with [**get\_DynamicTerminalClasses**](https://msdn.microsoft.com/library/ms733178(v=VS.85).aspx).)
+The **BSTR** version of the terminal classes is mainly designated for the use of Visual Basic applications. (For example, they are returned as the elements of the collection obtained with [**get\_DynamicTerminalClasses**](/windows/win32/api/tapi3if/nf-tapi3if-itterminalsupport-get_dynamicterminalclasses).)
 
 -   BSTR CLSID\_String\_HandsetTerminal
 -   BSTR CLSID\_String\_HeadsetTerminal
@@ -150,10 +150,10 @@ The **BSTR** version of the terminal classes is mainly designated for the use of
 
 <dl> <dt>
 
-[**ITTerminalSupport::CreateTerminal**](https://msdn.microsoft.com/library/ms733172(v=VS.85).aspx)
+[**ITTerminalSupport::CreateTerminal**](/windows/win32/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal)
 </dt> <dt>
 
-[**ITTerminal::get\_TerminalClass**](https://msdn.microsoft.com/library/ms733195(v=VS.85).aspx)
+[**ITTerminal::get\_TerminalClass**](/windows/win32/api/tapi3if/nf-tapi3if-itterminal-get_terminalclass)
 </dt> <dt>
 
 [**ITTerminalManager::CreateDynamicTerminal**](/windows/desktop/api/Termmgr/nf-termmgr-itterminalmanager-createdynamicterminal)
@@ -162,13 +162,8 @@ The **BSTR** version of the terminal classes is mainly designated for the use of
 [**ITTerminalManager::GetDynamicTerminalClasses**](/windows/desktop/api/Termmgr/nf-termmgr-itterminalmanager-getdynamicterminalclasses)
 </dt> <dt>
 
-[**ITTerminalSupport::EnumerateDynamicTerminalClasses**](https://msdn.microsoft.com/library/ms733173(v=VS.85).aspx)
+[**ITTerminalSupport::EnumerateDynamicTerminalClasses**](/windows/win32/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratedynamicterminalclasses)
 </dt> </dl>
 
  
-
- 
-
-
-
 

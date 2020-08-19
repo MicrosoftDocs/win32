@@ -18,7 +18,7 @@ Asynchronous Remote Procedure Call (RPC) is a Microsoft extension that addresses
 -   **Slow or delayed servers.** A remote procedure call that takes a long time to complete will tie up the dispatch thread for the duration of the task. With asynchronous RPC, the server can start a separate (asynchronous) operation to process the request and send back the reply when it is available. The server can also send the reply incrementally as results become available without having to tie up a dispatch thread for the duration of the remote call. By making the client application asynchronous, you can prevent a slow server from unnecessarily tying up a client application.
 -   **Transfer of large amounts of data.** Transferring large amounts of data between the client and server, especially over slow links, ties up both the client thread and the server manager thread for the duration of the transfer. With asynchronous RPC and pipes, data transfer can take place incrementally, and without blocking the client or server from performing other tasks.
 
-You take advantage of asynchronous RPC mechanisms by declaring functions with the \[[**async**](https://docs.microsoft.com/windows/desktop/Midl/async)\] attribute. Because you make this declaration in an attribute configuration file (ACF), you do not have to make any changes to the Interface Definition Language (IDL) file; asynchronous RPC has no effect on the wire protocol (how the data is transmitted between client and server). This means that both synchronous and asynchronous clients can communicate with an asynchronous server application.
+You take advantage of asynchronous RPC mechanisms by declaring functions with the \[[**async**](/windows/desktop/Midl/async)\] attribute. Because you make this declaration in an attribute configuration file (ACF), you do not have to make any changes to the Interface Definition Language (IDL) file; asynchronous RPC has no effect on the wire protocol (how the data is transmitted between client and server). This means that both synchronous and asynchronous clients can communicate with an asynchronous server application.
 
 This section presents an overview of how to develop distributed applications using asynchronous RPC. The overview is presented in the following sections:
 
@@ -34,7 +34,3 @@ This section presents an overview of how to develop distributed applications usi
  
 
  
-
-
-
-

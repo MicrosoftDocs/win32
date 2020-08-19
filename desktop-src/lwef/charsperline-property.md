@@ -22,7 +22,7 @@ Returns the characters per line supported for the word balloon for the specified
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Syntax**
 </dt> <dd>
 
-*agent*[**.Characters ("**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object)*CharacterID***").**Balloon.CharsPerLine
+*agent*[**.Characters ("**](/windows/desktop/lwef/the-characters-object)*CharacterID***").**Balloon.CharsPerLine
 
 </dd> </dl>
 
@@ -38,7 +38,3 @@ This property returns the average number of characters (letters) being displayed
  
 
  
-
-
-
-

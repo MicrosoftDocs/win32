@@ -62,7 +62,7 @@ If successful (the device can be re-enabled), this function returns **TRUE**. Ot
 
 Once the object has been re-enabled, the capabilities for the device can be re-queried via a call to [**NtGdiDdQueryDirectDrawObject**](-dxgkernel-ntgdiddquerydirectdrawobject.md).
 
-Applications are advised to use the DirectDraw or [Direct3D](https://msdn.microsoft.com/library/bb205147(VS.85).aspx) version 8 APIs, which automate and abstract this process in a manner independent of the operating system.
+Applications are advised to use the DirectDraw or [Direct3D](../direct3d10/d3d10-graphics-reference.md) version 8 APIs, which automate and abstract this process in a manner independent of the operating system.
 
 ## Requirements
 
@@ -89,7 +89,3 @@ Applications are advised to use the DirectDraw or [Direct3D](https://msdn.micros
  
 
  
-
-
-
-

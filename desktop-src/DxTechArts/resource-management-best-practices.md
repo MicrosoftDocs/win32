@@ -42,11 +42,11 @@ Some integrated video solutions make use of a unified memory architecture (UMA),
 
 The majority of your resources should be created as managed resources in POOL\_MANAGED. All your resources will be created in system memory and then copied as needed into video memory. Lost-device situations will be handled automatically from the system memory copy. Since not all managed resources are required to fit into video memory all at once, you can over-commit memory where a smaller video memory working set of resources is all that is required to render in any given frame. Note that it is likely that the majority of this backing-store system memory will be paged out to disk over time, which is why the Reset operation can be slow due to the need to page this data back in to restore the lost video memory.
 
-The runtime keeps a timestamp for the last time a resource is used, and when a video memory allocation fails for loading a needed managed resource, it will release resources based on this timestamp in a LRU fashion. Usage of [**SetPriority**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dresource9-setpriority) takes precedence over the timestamp, so more commonly used resources should be set to a higher priority value. Direct3D 9.0 has limited information about the video memory managed by the driver, so the runtime may need to evict several resources to create a large enough region for the allocation to succeed. Proper priorities can help eliminate situations where something gets evicted and then is required again shortly thereafter. The application can also call [**EvictManagedResources**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-evictmanagedresources) to force all the managed resources to be removed. Again, this can be a time-consuming operation to reload all the resources required for the next frame, but is very useful for level transitions where the working set changes significantly and for removing video memory fragmentation.
+The runtime keeps a timestamp for the last time a resource is used, and when a video memory allocation fails for loading a needed managed resource, it will release resources based on this timestamp in a LRU fashion. Usage of [**SetPriority**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dresource9-setpriority) takes precedence over the timestamp, so more commonly used resources should be set to a higher priority value. Direct3D 9.0 has limited information about the video memory managed by the driver, so the runtime may need to evict several resources to create a large enough region for the allocation to succeed. Proper priorities can help eliminate situations where something gets evicted and then is required again shortly thereafter. The application can also call [**EvictManagedResources**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-evictmanagedresources) to force all the managed resources to be removed. Again, this can be a time-consuming operation to reload all the resources required for the next frame, but is very useful for level transitions where the working set changes significantly and for removing video memory fragmentation.
 
-A frame count is also kept to allow the runtime to detect if the resource it just chose to evict was used early the current frame, which implies a thrashing situation where more resources are in use in a single frame than will fit into video memory. This triggers the replacement policy to switch to a MRU fashion rather than LRU for the remainder of the frame as this tends to perform slightly better under such conditions. Such thrashing behavior will significantly impact the rendering performance. Note that the notion of current frame is tied to [**EndScene**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-endscene), so any application making use of managed resources needs to make regular calls to this method.
+A frame count is also kept to allow the runtime to detect if the resource it just chose to evict was used early the current frame, which implies a thrashing situation where more resources are in use in a single frame than will fit into video memory. This triggers the replacement policy to switch to a MRU fashion rather than LRU for the remainder of the frame as this tends to perform slightly better under such conditions. Such thrashing behavior will significantly impact the rendering performance. Note that the notion of current frame is tied to [**EndScene**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-endscene), so any application making use of managed resources needs to make regular calls to this method.
 
-Developers looking to find more information about how managed resources are behaving in their application can make use of the RESOURCEMANAGER event query via the [**IDirect3DQuery9**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dquery9) interface. This only works when using the debug runtimes, so this information cannot be depended upon by the application, but it provides deep detail on the resources managed by the runtime.
+Developers looking to find more information about how managed resources are behaving in their application can make use of the RESOURCEMANAGER event query via the [**IDirect3DQuery9**](/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dquery9) interface. This only works when using the debug runtimes, so this information cannot be depended upon by the application, but it provides deep detail on the resources managed by the runtime.
 
 While understanding how the resource manager works can help when tuning and debugging your applications, it is important to not tie your application too tightly to the implementation details of the current runtime or drivers. Revisions of the driver or changes in hardware can significantly change the behavior, and future versions of Direct3D will have significantly improved and sophisticated resource management.
 
@@ -66,7 +66,7 @@ The LOCK\_NOOVERWRITE flag can be used to append data in an efficient manner for
 
 ### Using Both Managed and Default Resources
 
-Mixing allocations of managed and POOL\_DEFAULT resources can cause video memory fragmentation and confuse the runtime's view of the video memory available for managed resources. Ideally, you should create all POOL\_DEFAULT resources before making use of POOL\_MANAGED resources or make use of the [**EvictManagedResources**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-evictmanagedresources) call before allocating unmanaged resources. Remember that all allocations made from POOL\_DEFAULT that reside in video memory tie up memory for the life that resource that is unavailable for use by the resource manager or for any other purpose.
+Mixing allocations of managed and POOL\_DEFAULT resources can cause video memory fragmentation and confuse the runtime's view of the video memory available for managed resources. Ideally, you should create all POOL\_DEFAULT resources before making use of POOL\_MANAGED resources or make use of the [**EvictManagedResources**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-evictmanagedresources) call before allocating unmanaged resources. Remember that all allocations made from POOL\_DEFAULT that reside in video memory tie up memory for the life that resource that is unavailable for use by the resource manager or for any other purpose.
 
 Note that unlike previous versions of Direct3D, the version 9 runtime automatically evicts some managed resources before giving up on a failed unmanaged resource allocation for a lack of video memory, but this can potentially create additional fragmentation and even force a resource into a sub-optimal location (for example, having a static texture in non-local video memory). Again, it is best to allocate all required unmanaged resources up front and before using any managed resources.
 
@@ -76,13 +76,13 @@ Data that is generated and updated at a high frequency has no need for the backi
 
 This usage is typical for software skinning solutions and CPU-based particle systems filling out vertex/index buffers, and the LOCK\_DISCARD flag will ensure that stalls are not created in cases where the resource is still in use from the previous frame. Using a managed resource in this case would update a system memory buffer, which would then be copied to video memory, and then used for only a frame or two before being replaced. For systems with non-local video memory, the extra copy is eliminated by proper use of this dynamic pattern.
 
-Standard textures cannot be locked, and can only be updated via [**UpdateSurface**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatesurface) or [**UpdateTexture**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatetexture). Some systems support dynamic textures, which can be locked, and use the LOCK\_DISCARD pattern, but a capabilities bit (D3DCAPS2\_DYNAMICTEXTURES) must be checked before making use of such resources. For highly dynamic textures (video or procedural), your application could create matching POOL\_DEFAULT and POOL\_SYSTEMMEM resources and handle video-memory updates by using **UpdateTexture**. For highly frequent and partial updates, the **UpdateTexture** paradigm is likely the better choice.
+Standard textures cannot be locked, and can only be updated via [**UpdateSurface**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatesurface) or [**UpdateTexture**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatetexture). Some systems support dynamic textures, which can be locked, and use the LOCK\_DISCARD pattern, but a capabilities bit (D3DCAPS2\_DYNAMICTEXTURES) must be checked before making use of such resources. For highly dynamic textures (video or procedural), your application could create matching POOL\_DEFAULT and POOL\_SYSTEMMEM resources and handle video-memory updates by using **UpdateTexture**. For highly frequent and partial updates, the **UpdateTexture** paradigm is likely the better choice.
 
 As useful as dynamic resources can be, be careful when designing systems that rely heavily on dynamic submission. Static resources should be placed into POOL\_MANAGED to ensure both good utilization of local video memory, and to make more efficient use of limited bus and main memory bandwidth. For resources that are semi-static, you may find that the cost of an occasional upload to local video memory is much less than the constant bus traffic generated by making them dynamic.
 
 ## System Memory Resources
 
-Resources can also be created in POOL\_SYSTEMMEM. While they cannot be used by the graphics pipeline, they can be used as sources for updating POOL\_DEFAULT resources by using [**UpdateSurface**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatesurface) or [**UpdateTexture**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatetexture). Their locking behavior is simple, although stalls might occur if they are in use by one of the previously mentioned methods.
+Resources can also be created in POOL\_SYSTEMMEM. While they cannot be used by the graphics pipeline, they can be used as sources for updating POOL\_DEFAULT resources by using [**UpdateSurface**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatesurface) or [**UpdateTexture**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatetexture). Their locking behavior is simple, although stalls might occur if they are in use by one of the previously mentioned methods.
 
 Though they reside in system memory, POOL\_SYSTEMMEM resources are limited to the same formats and capabilities (such as maximum size) supported by the device driver. The POOL\_SCRATCH resource type is another form of system memory resource that can utilize all formats and capabilities supported by the runtime, but cannot be accessed by the device. Scratch resources are intended primarily for use by content tools.
 
@@ -105,34 +105,30 @@ Getting the technical implementation details of resource management correct will
 
 <dl> <dt>
 
-[Managing Resources](https://docs.microsoft.com/windows/desktop/direct3d9/managing-resources)
+[Managing Resources](/windows/desktop/direct3d9/managing-resources)
 </dt> <dt>
 
-[Lost Devices](https://docs.microsoft.com/windows/desktop/direct3d9/lost-devices)
+[Lost Devices](/windows/desktop/direct3d9/lost-devices)
 </dt> <dt>
 
-[Performance Optimizations](https://docs.microsoft.com/windows/desktop/direct3d9/performance-optimizations)
+[Performance Optimizations](/windows/desktop/direct3d9/performance-optimizations)
 </dt> <dt>
 
-[Compressed Texture Resources](https://docs.microsoft.com/windows/desktop/direct3d9/compressed-texture-resources)
+[Compressed Texture Resources](/windows/desktop/direct3d9/compressed-texture-resources)
 </dt> <dt>
 
-[Queries](https://docs.microsoft.com/windows/desktop/direct3d9/queries)
+[Queries](/windows/desktop/direct3d9/queries)
 </dt> <dt>
 
-[**D3DUSAGE**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dusage)
+[**D3DUSAGE**](/windows/desktop/direct3d9/d3dusage)
 </dt> <dt>
 
-[**D3DPOOL**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dpool)
+[**D3DPOOL**](/windows/desktop/direct3d9/d3dpool)
 </dt> <dt>
 
-[D3DCREATE](https://docs.microsoft.com/windows/desktop/direct3d9/d3dcreate)
+[D3DCREATE](/windows/desktop/direct3d9/d3dcreate)
 </dt> </dl>
 
  
 
  
-
-
-
-

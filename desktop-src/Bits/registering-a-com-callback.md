@@ -69,7 +69,7 @@ if (pNotify)
 
 To register a callback CLSID with BITS, call the [**IBackgroundCopyJob5::SetProperty**](/windows/desktop/api/Bits5_0/nf-bits5_0-ibackgroundcopyjob5-setproperty) method with the **BITS\_JOB\_PROPERTY\_NOTIFICATION\_CLSID** PropertyId. To specify which methods BITS calls, call the [**IBackgroundCopyJob::SetNotifyFlags**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setnotifyflags) method.
 
-You must ensure that the notification CLSID is registered to an out-of-process COM server prior to registering the CLSID with a BITS job. Implementing a [COM server](https://docs.microsoft.com/windows/desktop/com/com-server-responsibilities) is significantly more complicated than defining and passing a callback object, but offers several important advantages. A COM server allows BITS to maintain the association between a BITS job and your application’s code across system reboots, and for large or long-lived jobs. A COM server also allows your application to shut down completely while BITS continues executing transfers in the background, which can improve battery, CPU, and memory usage of the system.
+You must ensure that the notification CLSID is registered to an out-of-process COM server prior to registering the CLSID with a BITS job. Implementing a [COM server](/windows/desktop/com/com-server-responsibilities) is significantly more complicated than defining and passing a callback object, but offers several important advantages. A COM server allows BITS to maintain the association between a BITS job and your application’s code across system reboots, and for large or long-lived jobs. A COM server also allows your application to shut down completely while BITS continues executing transfers in the background, which can improve battery, CPU, and memory usage of the system.
 
 To provide a notification you have registered to receive, BITS first attempts to call the corresponding method of any existing callback object you may have attached. If there is no existing object, or if that existing object has become disconnected (typically as a result of your application terminating), BITS will call CoCreateInstance using the notification CLSID to instantiate a new callback object, and will use that object for any further callbacks until it becomes disconnected or it is replaced by a new call to [**IBackgroundCopyJob::SetNotifyInterface**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setnotifyinterface).
 
@@ -102,7 +102,3 @@ if (FAILED(hr))
  
 
  
-
-
-
-

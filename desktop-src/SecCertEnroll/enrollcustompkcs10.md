@@ -27,8 +27,8 @@ The enrollCustomPKCS10 sample:
 4.  Creates an [**IObjectId**](/windows/desktop/api/CertEnroll/nn-certenroll-iobjectid) object, initializes it by using the EKU object identifier (OID) specified on the command line, creates an [**IObjectIds**](/windows/desktop/api/CertEnroll/nn-certenroll-iobjectids) collection, adds the new **IObjectId** (EKU) object to the collection, uses the collection to initialize an [**IX509ExtensionEnhancedKeyUsage**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionenhancedkeyusage) object and adds this object to the request.
 5.  Creates an [**IAlternativeName**](/windows/desktop/api/CertEnroll/nn-certenroll-ialternativename) object, initializes it by using the RFC822 name specified on the command line, Creates an [**IAlternativeNames**](/windows/desktop/api/CertEnroll/nn-certenroll-ialternativenames) collection, adds the new **IAlternativeName** (RFC822 name ) object to the collection, creates an [**IX509ExtensionAlternativeNames**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionalternativenames) object and adds this object to the request.
 6.  Creates an [**IX509Enrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment) object, initializes it by using the [**IX509CertificateRequestPkcs10**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestpkcs10) object, and retrieves a string that contains a base64-encoded request.
-7.  Creates an [**ICertConfig**](https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig) object and uses it to retrieve a string that contains the CA configuration.
-8.  Creates a CryptoAPI [**ICertRequest2**](https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest2) object and uses it plus the strings that contain the CA configuration and the certificate request to submit the request to the CA.
+7.  Creates an [**ICertConfig**](/windows/desktop/api/certcli/nn-certcli-icertconfig) object and uses it to retrieve a string that contains the CA configuration.
+8.  Creates a CryptoAPI [**ICertRequest2**](/windows/desktop/api/certcli/nn-certcli-icertrequest2) object and uses it plus the strings that contain the CA configuration and the certificate request to submit the request to the CA.
 9.  Checks the submission status and, if enrollment is successful, installs the certificate to the certificate store.
 
 ## Related topics
@@ -44,6 +44,3 @@ The enrollCustomPKCS10 sample:
  
 
  
-
-
-

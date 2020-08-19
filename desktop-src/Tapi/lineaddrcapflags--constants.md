@@ -27,7 +27,7 @@ The **LINEADDRCAPFLAGS**\_ bit-flag constants are used in the **dwAddrCapFlags**
 
 
 
-The address supports [ACD Groups](../tapi3/about_call_center_controls.md) in connection with call center operations. See [About Call Center Controls](https://msdn.microsoft.com/library/ms725998(v=VS.85).aspx) for additional information on ACD groups.
+The address supports [ACD Groups](../tapi3/about_call_center_controls.md) in connection with call center operations. See [About Call Center Controls](./about-call-center-controls.md) for additional information on ACD groups.
 
 
 </dt> </dl> </dd> <dt>
@@ -379,9 +379,4 @@ No extensibility. All 32 bits are reserved.
 </dt> </dl>
 
  
-
- 
-
-
-
 

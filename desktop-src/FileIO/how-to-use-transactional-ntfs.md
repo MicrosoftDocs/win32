@@ -16,7 +16,7 @@ Transactional NTFS (TxF) binds a file handle to a transaction. For operations th
 
 The following series of steps represents the most basic usage for TxF. More complex scenarios are also supported, at the discretion of the application designer.
 
-1.  Create a transaction by calling the KTM function [**CreateTransaction**](https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction) or by using the **IKernelTransaction** interface of the [Distributed Transaction Coordinator](https://docs.microsoft.com/previous-versions/windows/desktop/mscs/distributed-transaction-coordinator) (DTC).
+1.  Create a transaction by calling the KTM function [**CreateTransaction**](/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction) or by using the **IKernelTransaction** interface of the [Distributed Transaction Coordinator](/previous-versions/windows/desktop/mscs/distributed-transaction-coordinator) (DTC).
 2.  Get transacted file handle(s) by calling [**CreateFileTransacted**](/windows/desktop/api/WinBase/nf-winbase-createfiletransacteda).
 3.  Modify the file(s) as necessary using the transacted file handle(s).
 4.  Close all transacted file handles associated with the transaction created in step 1.
@@ -41,6 +41,3 @@ The following common errors can occur when developing transacted applications:
  
 
  
-
-
-

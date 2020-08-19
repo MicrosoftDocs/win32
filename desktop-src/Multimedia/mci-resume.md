@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_RESUME command causes a paused device to resume the paused operation. Digital-video, VCR, and waveform-audio devices recognize this command. Although CD audio, MIDI sequencer, and videodisc devices also recognize this command, the MCICDA, MCISEQ, and MCIPIONR device drivers do not support it.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function with the following parameters.
 
 
 ```C++
@@ -90,10 +90,4 @@ This command resumes playing and recording without changing the current track po
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

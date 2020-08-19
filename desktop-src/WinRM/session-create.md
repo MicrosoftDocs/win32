@@ -49,7 +49,7 @@ This parameter can contain one of the following:
 
 -   URI with one or more [*selectors*](windows-remote-management-glossary.md). Be aware that the [*WMI plug-in*](windows-remote-management-glossary.md) does not support creating any resource other than a [WS-Management Protocol](ws-management-protocol.md) listener.
 -   [**ResourceLocator**](resourcelocator.md) object which may contain selectors, [*fragments*](windows-remote-management-glossary.md), or [*options*](windows-remote-management-glossary.md).
--   [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for WS-Management protocol, see [Management Specifications Index Page](https://msdn.microsoft.com/library/ms951267.aspx).
+-   [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for WS-Management protocol, see [Management Specifications Index Page](/previous-versions/dotnet/articles/ms951267(v=msdn.10)).
 
 </dd> <dt>
 
@@ -155,10 +155,4 @@ End Function
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

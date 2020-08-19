@@ -12,7 +12,7 @@ Specifies whether the Voice Capture DSP performs center clipping.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -72,7 +72,3 @@ The DSP uses this property only when AEC processing is enabled.
  
 
  
-
-
-
-

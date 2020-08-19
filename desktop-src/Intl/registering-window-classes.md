@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Registering Window Classes
 
-A window class is supported by a window procedure. Your application can register a window class by using either [**RegisterClassA**](https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx) or [**RegisterClassW**](https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx). New applications should typically use **RegisterClassW**.
+A window class is supported by a window procedure. Your application can register a window class by using either [**RegisterClassA**](/windows/win32/api/winuser/nf-winuser-registerclassa) or [**RegisterClassW**](/windows/win32/api/winuser/nf-winuser-registerclassa). New applications should typically use **RegisterClassW**.
 
-If the application registers the window class using [**RegisterClassA**](https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx), the function informs the operating system that the windows of the created class expect messages with text or character parameters to use a [Windows (ANSI) code page](code-pages.md) character set. Registration using [**RegisterClassW**](https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx) allows the application to request the operating system to pass text parameters of messages as [Unicode](unicode.md). The [**IsWindowUnicode**](https://msdn.microsoft.com/library/ms633529(v=VS.85).aspx) function enables an application to query the nature of each window.
+If the application registers the window class using [**RegisterClassA**](/windows/win32/api/winuser/nf-winuser-registerclassa), the function informs the operating system that the windows of the created class expect messages with text or character parameters to use a [Windows (ANSI) code page](code-pages.md) character set. Registration using [**RegisterClassW**](/windows/win32/api/winuser/nf-winuser-registerclassa) allows the application to request the operating system to pass text parameters of messages as [Unicode](unicode.md). The [**IsWindowUnicode**](/windows/win32/api/winuser/nf-winuser-iswindowunicode) function enables an application to query the nature of each window.
 
 The following example shows how to register a Windows code page window class and a Unicode window class and how to write the window procedures for both cases. For the purposes of this example, all functions and structures are shown with the specific "A" (ANSI) or "W" (wide, Unicode) data types. Using the techniques explained in [Using Generic Data Types](using-generic-data-types.md), you can alternatively write this example to use generic data types, so that it can be compiled to use either Windows code pages or Unicode, depending on whether "UNICODE" is defined.
 
@@ -53,7 +53,7 @@ RegisterClassW(&UnicodeWndCls);
 
 
 
-The following example shows the difference between handling the [**WM\_CHAR**](https://msdn.microsoft.com/library/ms646276(v=VS.85).aspx) message in a Windows code page window procedure and a Unicode window procedure.
+The following example shows the difference between handling the [**WM\_CHAR**](../inputdev/wm-char.md) message in a Windows code page window procedure and a Unicode window procedure.
 
 
 ```C++
@@ -134,6 +134,3 @@ All text in messages received by **AnsiWndProc** is composed of Windows code pag
  
 
  
-
-
-

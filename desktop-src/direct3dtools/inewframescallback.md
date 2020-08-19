@@ -26,7 +26,7 @@ Callback from engine indicating that it is done parsing any new frames added to 
 
 ## Members
 
-The **INewFramesCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INewFramesCallback** also has these types of members:
+The **INewFramesCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **INewFramesCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **INewFramesCallback** interface has these methods.
  
 
  
-
-
-

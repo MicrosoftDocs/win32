@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.DateAcquired Photo Metadata Policy
 
-The photo metadata policy for the [System.DateAcquired](https://msdn.microsoft.com/library/bb760675(VS.85).aspx) property.
+The photo metadata policy for the [System.DateAcquired](../properties/props-system-dateacquired.md) property.
 
 ### PKEY
 
@@ -68,12 +68,9 @@ If the file is in TIFF format, the handler searches for the data in the followin
 
 <dl> <dt>
 
-[System.DateAcquired](https://msdn.microsoft.com/library/bb760675(VS.85).aspx)
+[System.DateAcquired](../properties/props-system-dateacquired.md)
 </dt> </dl>
 
  
 
  
-
-
-

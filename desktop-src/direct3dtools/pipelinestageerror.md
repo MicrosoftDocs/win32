@@ -34,7 +34,7 @@ Represents an error in a pipeline stage.
 ## Members
 
 **Stage**  
-The ID of the pipeline stage in which the error has occured.
+The ID of the pipeline stage in which the error has occurred.
 
 **Error**  
 The kind of error that has occurred.

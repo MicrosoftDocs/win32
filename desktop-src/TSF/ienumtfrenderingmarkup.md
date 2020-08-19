@@ -35,7 +35,7 @@ The **IEnumTfRenderingMarkup** interface is implemented by TSF Manager and used 
 
 ## Members
 
-The **IEnumTfRenderingMarkup** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **IEnumTfRenderingMarkup** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Remarks
 
@@ -47,7 +47,3 @@ The **IEnumTfRenderingMarkup** interface inherits from the [**IUnknown**](https:
  
 
  
-
-
-
-

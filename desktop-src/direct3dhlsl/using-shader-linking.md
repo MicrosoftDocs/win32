@@ -41,16 +41,12 @@ Next we make a shader library and bind resources from source slots to destinatio
 [Programming Guide for HLSL](dx-graphics-hlsl-pguide.md)
 </dt> <dt>
 
-[Direct3D 11 Graphics](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
+[Direct3D 11 Graphics](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
 </dt> <dt>
 
-[DXGI](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
+[DXGI](/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 </dt> </dl>
 
  
 
  
-
-
-
-

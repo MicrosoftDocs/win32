@@ -59,9 +59,9 @@ This notification is received by the [**IShellMenuCallback::CallbackSM**](/windo
 The following interfaces may be requested.
 
 -   [**IShellMenu**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu)
--   [**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx)
+-   [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu)
 -   [**IShellMenuCallback**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback)
--   [**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx)
+-   [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget)
 
 ## Requirements
 
@@ -79,7 +79,3 @@ The following interfaces may be requested.
  
 
  
-
-
-
-

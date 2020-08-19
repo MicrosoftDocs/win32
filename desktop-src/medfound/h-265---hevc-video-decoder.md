@@ -12,7 +12,7 @@ The Media Foundation H.265 video decoder is a [Media Foundation Transform](media
 
 The H.265 video decoder exposes the following interfaces.
 
--   [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx) (supported in Windows 8)
+-   [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi) (supported in Windows 8)
 -   [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes)
 -   [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice)
 -   [**IMFQualityAdvise**](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise)
@@ -66,7 +66,7 @@ The H.265 decoder implements the [**IMFTransform::GetAttributes**](/windows/desk
 |-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | [CODECAPI\_AVLowLatencyMode](codecapi-avlowlatencymode.md)                                     | Enables or disables low-latency decoding mode.                                                                                |
 | [CODECAPI\_AVDecNumWorkerThreads](codecapi-avdecnumworkerthreads.md)                           | Sets the number of worker threads used by the decoder.                                                                        |
-| [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/library/Dd742718(v=VS.85).aspx) | Enables or disables thumbnail generation mode.                                                                                |
+| [CODECAPI\_AVDecVideoThumbnailGenerationMode](../directshow/avdecvideothumbnailgenerationmode-property.md) | Enables or disables thumbnail generation mode.                                                                                |
 | [MF\_NALU\_LENGTH\_SET](mf-nalu-length-set.md)                                                 | Indicates that NALU length information will be sent as a BLOB with each compressed H.265 sample.                              |
 | [MF\_NALU\_LENGTH\_INFORMATION](mf-nalu-length-information.md)                                 | Indicates the lengths of NALUs in the sample. This is a MF BLOB that is set on compressed input samples to the H.265 decoder. |
 | [MF\_SA\_MINIMUM\_OUTPUT\_SAMPLE\_COUNT](mf-sa-minimum-output-sample-count.md)                 | Specifies the maximum number of output samples.                                                                               |
@@ -75,10 +75,10 @@ The H.265 decoder implements the [**IMFTransform::GetAttributes**](/windows/desk
 
  
 
-The H.265 decoder supports the [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx) interface. This interface provides an alternativate API for setting the following codec properties.
+The H.265 decoder supports the [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi) interface. This interface provides an alternativate API for setting the following codec properties.
 
 -   [CODECAPI\_AVDecNumWorkerThreads](codecapi-avdecnumworkerthreads.md)
--   [CODECAPI\_AVDecVideoThumbnailGenerationMode](https://msdn.microsoft.com/library/Dd742718(v=VS.85).aspx)
+-   [CODECAPI\_AVDecVideoThumbnailGenerationMode](../directshow/avdecvideothumbnailgenerationmode-property.md)
 -   [CODECAPI\_AVLowLatencyMode](codecapi-avlowlatencymode.md)
 
 ## Format Constraints
@@ -123,7 +123,3 @@ Input data must conform to Annex B of ITU-T H.265 \| ISO/IEC 23008-2. The data m
  
 
  
-
-
-
-

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 You can use the Authorization Manager API to control access to application resources.
 
-If you have an existing access control solution based on [*access control lists*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACLs) and want to avoid converting this solution to use Authorization Manager, you can continue to use ACLs to control access to resources. For information about controlling access to resources using ACLs, see [Defining Permissions with ACLs in C++](defining-permissions-with-acls-in-c--.md), [Establishing a Client Context from a SID in C++](establishing-a-client-context-from-a-sid-in-c--.md), and [Verifying Client Access with ACLs in C++](verifying-client-access-with-acls-in-c--.md).
+If you have an existing access control solution based on [*access control lists*](/windows/desktop/SecGloss/a-gly) (ACLs) and want to avoid converting this solution to use Authorization Manager, you can continue to use ACLs to control access to resources. For information about controlling access to resources using ACLs, see [Defining Permissions with ACLs in C++](defining-permissions-with-acls-in-c--.md), [Establishing a Client Context from a SID in C++](establishing-a-client-context-from-a-sid-in-c--.md), and [Verifying Client Access with ACLs in C++](verifying-client-access-with-acls-in-c--.md).
 
 > [!Note]  
 > For large enterprises, there is a trade-off between administrative overhead and performance. As the number of secured resources and users increases, the administration of ACLs becomes more complicated. Performance is not affected because all required information about access rights is distributed to the secured resources. The performance of Authorization Manager is affected by scaling.
@@ -34,6 +34,3 @@ For information about other authorization tasks, see [Supporting Tasks for Autho
  
 
  
-
-
-

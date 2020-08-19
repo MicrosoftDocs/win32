@@ -786,10 +786,10 @@
             - name: "WriteToStream1"
               href: /windows/desktop/api/XpsObjectModel_1/nf-xpsobjectmodel_1-ixpsompackage1-writetostream1
           - name: "IXpsOMPackageTarget"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/ff970304(v=vs.85)
+            href: /previous-versions/windows/desktop/ff970304(v=vs.85)
             items: 
             - name: "CreateXpsOMPackageWriter"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/ff970305(v=vs.85)
+              href: /previous-versions/windows/desktop/ff970305(v=vs.85)
           - name: "IXpsOMPackageWriter"
             href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter
             items: 
@@ -1080,7 +1080,7 @@
             - name: "SetAt"
               href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomremotedictionaryresourcecollection-setat
           - name: "IXpsOMResource"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/dd372762(v=vs.85)
+            href: /previous-versions/windows/desktop/dd372762(v=vs.85)
           - name: "IXpsOMShareable"
             href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable
             items: 
@@ -1252,9 +1252,9 @@
             href: xps-color.md
             items: 
             - name: "XPS_COLOR_TYPE_SRGB"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/dd372944(v=vs.85)
+              href: /previous-versions/windows/desktop/dd372944(v=vs.85)
             - name: "XPS_COLOR_TYPE_SCRGB"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/dd372943(v=vs.85)
+              href: /previous-versions/windows/desktop/dd372943(v=vs.85)
             - name: "XPS_COLOR_TYPE_CONTEXT"
               href: /windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_color
           - name: "XPS_DASH"
@@ -1548,7 +1548,7 @@
           - name: "PackageStatusUpdated"
             href: /windows/desktop/api/Documenttarget/nf-documenttarget-iprintdocumentpackagestatusevent-packagestatusupdated
         - name: "IPrintDocumentPackageTarget"
-          href: https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget
+          href: /windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget
           items: 
           - name: "Cancel"
             href: /windows/desktop/api/Documenttarget/nf-documenttarget-iprintdocumentpackagetarget-cancel
@@ -2039,29 +2039,29 @@
           href: printer-escapes.md
           items: 
           - name: "CHECKJPEGFORMAT Printer Escape"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd183421(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd183421(v=vs.85)
           - name: "CHECKPNGFORMAT Printer Escape"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd183424(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd183424(v=vs.85)
           - name: "DRAWPATTERNRECT Printer Escape"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd162495(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd162495(v=vs.85)
           - name: "GET_PS_FEATURESETTING Printer Escape"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd144954(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd144954(v=vs.85)
           - name: "GETTECHNOLOGY Printer Escape"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd144931(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd144931(v=vs.85)
           - name: "PASSTHROUGH Printer Escape"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd162776(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd162776(v=vs.85)
           - name: "POSTSCRIPT_DATA Printer Escape"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd162828(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd162828(v=vs.85)
           - name: "POSTSCRIPT_IDENTIFY Printer Escape"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd162829(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd162829(v=vs.85)
           - name: "POSTSCRIPT_INJECTION Printer Escape"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd162830(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd162830(v=vs.85)
           - name: "POSTSCRIPT_PASSTHROUGH Printer Escape"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd162831(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd162831(v=vs.85)
           - name: "QUERYESCSUPPORT Printer Escape"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff686811(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/ff686811(v=vs.85)
           - name: "SPCLPASSTHROUGH2 Printer Escape"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd145110(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd145110(v=vs.85)
       - name: "Microsoft XPS Document Converter (MXDC)"
         href: microsoft-xps-document-converter--mxdc-.md
         items: 

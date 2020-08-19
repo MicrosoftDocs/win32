@@ -20,4 +20,4 @@ Interfaces for interoperating between Direct3D 12 and types in the the Windows R
 
 ## Related topics
 
-* [Direct3D 12 graphics](/windows/win32/direct3d12/direct3d-12-graphics)
+* [Direct3D 12 graphics](./direct3d-12-graphics.md)

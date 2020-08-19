@@ -49,18 +49,18 @@ The [**TextUnit**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-tex
 
 If a particular text-based control does not support the specified text unit, the provider should respond by substituting the next larger text unit that is supported by the control. For example, if [**TextUnit\_Paragraph**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) is specified but not supported, the method can substitute [**TextUnit\_Page**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) or [**TextUnit\_Document**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit).
 
-The linguistic characteristics of the source text can make it difficult for a provider to determine text boundaries based on the specified text unit. For help in determining text boundaries, a provider can use Uniscribe API functions such as [**ScriptBreak**](https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak). For more information, see [Uniscribe](https://docs.microsoft.com/windows/desktop/Intl/uniscribe) on the MSDN website.
+The linguistic characteristics of the source text can make it difficult for a provider to determine text boundaries based on the specified text unit. For help in determining text boundaries, a provider can use Uniscribe API functions such as [**ScriptBreak**](/windows/desktop/api/usp10/nf-usp10-scriptbreak). For more information, see [Uniscribe](/windows/desktop/Intl/uniscribe) on the MSDN website.
 
 ## Endpoint inclusivity
 
-A text unit endpoint can serve as both a [Start](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint and an [End](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint for adjacent text ranges of the same type. If the end of one text unit is also the start of another text unit, the range containing the [End](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint does not share any attributes or objects of the adjacent range containing the [Start](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint.
+A text unit endpoint can serve as both a [Start](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint and an [End](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint for adjacent text ranges of the same type. If the end of one text unit is also the start of another text unit, the range containing the [End](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint does not share any attributes or objects of the adjacent range containing the [Start](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint.
 
-For example, a text stream, "Hello **world**", contains two word units with different font weight attributes (normal and bold). In this case, the [End](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "Hello" and the [Start](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "**world**" are the same, which results in the following:
+For example, a text stream, "Hello **world**", contains two word units with different font weight attributes (normal and bold). In this case, the [End](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "Hello" and the [Start](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "**world**" are the same, which results in the following:
 
 - The range of "Hello" does not share the bold attribute of the word unit "world" and does not return the mixed attribute value for the font weight text attribute.
 - The range of "**world**" has a single font weight (bold), and does not share the font weight of the preceding word unit “Hello”.
 
-Here's another example where a text stream contains two word units, one of which is a link: `[Foo]() Bar`. In this case, the [End](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit `[Foo]()` and the [Start](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "Bar" are the same, which results in the following:
+Here's another example where a text stream contains two word units, one of which is a link: `[Foo]() Bar`. In this case, the [End](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit `[Foo]()` and the [Start](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "Bar" are the same, which results in the following:
 
 - The link belongs to the text range containing "Foo".
 - The link is a child of the text range "Foo", and is enclosed by the [ITextProvider](https://review.docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider).
@@ -70,7 +70,7 @@ Here's another example where a text stream contains two word units, one of which
 
 > A degenerate (empty) range at a text unit boundary with a text range of the same type assumes properties of the immediately adjacent text unit.
 >
-> Calling [IUIAutomationTextRange::ExpandToEnclosingUnit](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-expandtoenclosingunit
+> Calling [IUIAutomationTextRange::ExpandToEnclosingUnit](/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-expandtoenclosingunit
 ) on a degenerate range at a text unit boundary with a text range of the same type, expands the degenerate range to the following text unit.
 
 ## Text Unit Descriptions
@@ -121,7 +121,7 @@ The current [TextRange](uiauto-implementingtextandtextrange.md) control pattern 
 
 ### Reference
 
-[TextPatternRangeEndpoint](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint)
+[TextPatternRangeEndpoint](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint)
 
 [ITextRangeProvider::GetChildren](/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextrangeprovider-getchildren)
 

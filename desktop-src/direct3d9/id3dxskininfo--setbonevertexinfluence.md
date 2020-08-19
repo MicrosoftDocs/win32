@@ -40,7 +40,7 @@ HRESULT SetBoneVertexInfluence(
 *boneNum* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Index of the bone. Must be between 0 and the number of bones.
 
@@ -49,7 +49,7 @@ Index of the bone. Must be between 0 and the number of bones.
 *influenceNum* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Index of the influence array of the specified bone.
 
@@ -58,7 +58,7 @@ Index of the influence array of the specified bone.
 *weight* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Blend factor of the specified bone influence.
 
@@ -100,7 +100,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

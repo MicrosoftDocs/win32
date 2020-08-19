@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Microsoft Agent
 
-\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows. For more information, see [Windows 7 and Windows Server 2008 R2 Application Quality Cookbook](/windows/win32/win7appqual/windows-7-application-quality-cookbook).\]
+\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows. For more information, see [Windows 7 and Windows Server 2008 R2 Application Quality Cookbook](../win7appqual/windows-7-application-quality-cookbook.md).\]
 
 ## Purpose
 
@@ -78,10 +78,4 @@ Microsoft Agent is designed primarily for developers who use languages or enviro
  
 
  
-
- 
-
-
-
-
 

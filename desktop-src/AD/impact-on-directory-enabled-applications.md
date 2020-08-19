@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Version skew occurs when applications read the same objects from different replicas before a change has replicated. Applications reading the remote replica recognize the unchanged object. Version skew is an issue when a given application or set of applications use the data in the directory to interoperate.
 
-For example, an RPC Service can publish its endpoints in the directory using standard RPC APIs (such as [**RpcNsBindingExport**](https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta)). Clients connect to the service by looking up the desired endpoint in the directory ( [**RpcNsBindingLookupBegin**](https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina), [**RpcNsBindingLookupNext**](https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext), and so on) and binding to it.
+For example, an RPC Service can publish its endpoints in the directory using standard RPC APIs (such as [**RpcNsBindingExport**](/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta)). Clients connect to the service by looking up the desired endpoint in the directory ( [**RpcNsBindingLookupBegin**](/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina), [**RpcNsBindingLookupNext**](/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext), and so on) and binding to it.
 
 Assume that an RPC Service S₁ publishes endpoint Eₛ₁ and subsequently moves to a different computer. The original endpoint Eₛ₁ is changed to E<sub>s2,</sub> reflecting the new computer's address. Clients reading remote replicas of the directory service are unable to connect to the service until the updated endpoint is replicated. However, moving a service from one computer to another is a rare occurrence; therefore, this interruption/delay should rarely be encountered, especially if the movement of the service is well-planned.
 
@@ -53,7 +53,3 @@ Assuming the attributes in question have equal version numbers when the updates 
  
 
  
-
-
-
-

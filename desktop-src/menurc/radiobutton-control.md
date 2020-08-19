@@ -47,7 +47,7 @@ RADIOBUTTON "Italic", 100, 10, 10, 40, 10
 
 <dl> <dt>
 
-[**GetDialogBaseUnits**](https://msdn.microsoft.com/library/ms645475(v=VS.85).aspx)
+[**GetDialogBaseUnits**](/windows/win32/api/winuser/nf-winuser-getdialogbaseunits)
 </dt> <dt>
 
 [Radio Buttons](https://www.bing.com/search?q=Radio+Buttons)
@@ -56,7 +56,3 @@ RADIOBUTTON "Italic", 100, 10, 10, 40, 10
  
 
  
-
-
-
-

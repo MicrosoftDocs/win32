@@ -21,7 +21,7 @@ api_location:
 
 # GetTransportInformationOperation::Completed property
 
-Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetTransportInformationAsync**](https://msdn.microsoft.com/library/Hh828932(v=VS.85).aspx) is completed.
+Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetTransportInformationAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-gettransportinformationasync) is completed.
 
 This property is read/write.
 
@@ -54,7 +54,3 @@ The event handler.
  
 
  
-
-
-
-

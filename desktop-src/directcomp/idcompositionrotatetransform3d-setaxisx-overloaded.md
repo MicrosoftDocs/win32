@@ -24,8 +24,8 @@ Changes or animates the value of the AxisX property of a 3D rotation transform. 
 
 | Method                                                                                                       | Description                                          |
 |:-------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------|
-| [**SetAxisX(float)**](https://msdn.microsoft.com/library/Hh448935(v=VS.85).aspx)                                     | Changes the value of the AxisX property.<br/>  |
-| [**SetAxisX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448937(v=VS.85).aspx) | Animates the value of the AxisX property.<br/> |
+| [**SetAxisX(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setaxisx(float))                                     | Changes the value of the AxisX property.<br/>  |
+| [**SetAxisX(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setaxisx(idcompositionanimation)) | Animates the value of the AxisX property.<br/> |
 
 
 
@@ -47,14 +47,9 @@ Changes or animates the value of the AxisX property of a 3D rotation transform. 
 
 <dl> <dt>
 
-[**IDCompositionRotateTransform3D**](https://msdn.microsoft.com/library/Hh448927(v=VS.85).aspx)
+[**IDCompositionRotateTransform3D**](/windows/win32/api/dcomp/nn-dcomp-idcompositionrotatetransform3d)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

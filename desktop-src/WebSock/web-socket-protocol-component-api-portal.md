@@ -32,7 +32,7 @@ The WebSocket Protocol Component API enables asynchronous, bi-directional commun
 The WebSocket Protocol Component API is designed for use by use by C/C++ programmers. Familiarity with HTTP and Windows networking is required.
 
 > [!Note]  
-> The preferred way to use the WebSocket protocol on Windows is through the [Windows HTTP Services (WinHTTP) API](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page) or the [Windows.Networking.Sockets namespace](https://docs.microsoft.com/uwp/api/Windows.Networking.Sockets).
+> The preferred way to use the WebSocket protocol on Windows is through the [Windows HTTP Services (WinHTTP) API](/windows/desktop/WinHttp/winhttp-start-page) or the [Windows.Networking.Sockets namespace](/uwp/api/Windows.Networking.Sockets).
 
  
 
@@ -49,17 +49,11 @@ The WebSocket Protocol Component API requires Windows 8 and later versions of th
 
 <dl> <dt>
 
-[HTTP](https://docs.microsoft.com/windows/desktop/Http/http-api-start-page)
+[HTTP](/windows/desktop/Http/http-api-start-page)
 </dt> <dt>
 
-[Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page)
+[Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

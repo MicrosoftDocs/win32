@@ -12,7 +12,7 @@ On 32-bit editions of Windows, applications have 4 gigabyte (GB) of virtual addr
 
 For applications that are memory-intensive, such as database management systems (DBMS), the use of a larger virtual address space can provide considerable performance and scalability benefits. However, the file cache, paged pool, and nonpaged pool are smaller, which can adversely affect applications with heavy networking or I/O. Therefore, you might want to test your application under load, and examine the performance counters to determine whether your application benefits from the larger address space.
 
-To enable 4GT, use the [BCDEdit /set](https://msdn.microsoft.com/library/ff542202.aspx) command to set the **increaseuserva** boot entry option to a value between 2048 (2 GB) and 3072 (3 GB).
+To enable 4GT, use the [BCDEdit /set](/windows-hardware/drivers/devtest/bcdedit--set) command to set the **increaseuserva** boot entry option to a value between 2048 (2 GB) and 3072 (3 GB).
 
 **Windows Server 2003 and earlier:** To enable 4GT, add the **/3GB** switch to the Boot.ini file. The **/3GB** switch is supported on the following systems:
 
@@ -21,20 +21,20 @@ To enable 4GT, use the [BCDEdit /set](https://msdn.microsoft.com/library/ff54220
 
 The **/3GB** switch makes a full 3 GB of virtual address space available to applications and reduces the amount available to the system to 1 GB. On Windows Server 2003, the amount of address space available to applications can be adjusted by setting the **/USERVA** switch in Boot.ini to a value between 2048 and 3072, which increases the amount of address space available to the system. This can help maintain overall system performance when the application requires more than 2 GB but less than 3 GB of address space.
 
-To enable an application to use the larger address space, set the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image) flag in the image header. The linker included with Microsoft Visual C++ supports the **/LARGEADDRESSAWARE** switch to set this flag. Setting this flag and then running the application on a system that does not have 4GT support should not affect the application.
+To enable an application to use the larger address space, set the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image) flag in the image header. The linker included with Microsoft Visual C++ supports the **/LARGEADDRESSAWARE** switch to set this flag. Setting this flag and then running the application on a system that does not have 4GT support should not affect the application.
 
-On 64-bit editions of Windows, 32-bit applications marked with the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image) flag have 4 GB of address space available.
+On 64-bit editions of Windows, 32-bit applications marked with the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image) flag have 4 GB of address space available.
 
 **Itanium editions of Windows Server 2003:** Prior to SP1, 32-bit processes have only 2 GB of address space available.
 
 Use the following guidelines to support 4GT in applications:
 
 -   Addresses near the 2-GB boundary are typically used by various system DLLs. Therefore, a 32-bit process cannot allocate more than 2 GB of contiguous memory, even if the entire 4-GB address space is available.
--   To retrieve the amount of total user virtual space, use the [**GlobalMemoryStatusEx**](https://msdn.microsoft.com/library/Aa366589(v=VS.85).aspx) function. To retrieve the highest possible user address, use the [**GetSystemInfo**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo) function. Always detect the real value at runtime, and avoid using hard-wired constant definitions such as: `#define HIGHEST_USER_ADDRESS 0xC0000000`.
+-   To retrieve the amount of total user virtual space, use the [**GlobalMemoryStatusEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex) function. To retrieve the highest possible user address, use the [**GetSystemInfo**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo) function. Always detect the real value at runtime, and avoid using hard-wired constant definitions such as: `#define HIGHEST_USER_ADDRESS 0xC0000000`.
 -   Avoid signed comparisons with pointers, because they might cause applications to crash on a 4GT-enabled system. A condition such as the following is false for a pointer that is above 2 GB: `if (pointer > 40000000)`.
 -   Code that uses the highest bit of a pointer for an application-defined purpose will fail when 4GT is enabled. For example, a 32-bit word might be considered a user-mode address if it is below 0x80000000, and an error code if above. This is not true with 4GT.
 
-[**VirtualAlloc**](https://msdn.microsoft.com/library/Aa366887(v=VS.85).aspx) usually returns low addresses before high addresses. Therefore, your process may not use very high addresses unless it allocates a lot of memory or has a fragmented virtual address space. To force allocations to allocate from higher addresses before lower addresses for testing purposes, specify **MEM\_TOP\_DOWN** when calling **VirtualAlloc** or set the following registry value to 0x100000:
+[**VirtualAlloc**](/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc) usually returns low addresses before high addresses. Therefore, your process may not use very high addresses unless it allocates a lot of memory or has a fragmented virtual address space. To force allocations to allocate from higher addresses before lower addresses for testing purposes, specify **MEM\_TOP\_DOWN** when calling **VirtualAlloc** or set the following registry value to 0x100000:
 
 **HKEY\_LOCAL\_MACHINE**\\**System**\\**CurrentControlSet**\\**Control**\\**Session Manager**\\**Memory Management**\\**AllocationPreference**
 
@@ -48,12 +48,9 @@ Use the following guidelines to support 4GT in applications:
 [Physical Address Extension](physical-address-extension.md)
 </dt> <dt>
 
-[4GT Technical Reference](https://technet.microsoft.com/library/5c0dc5e4-3467-4f35-ab25-c58f1e096e82)
+[4GT Technical Reference](/previous-versions/windows/it-pro/windows-server-2003/cc778496(v=ws.10))
 </dt> </dl>
 
  
 
  
-
-
-

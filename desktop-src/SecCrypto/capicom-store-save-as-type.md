@@ -17,7 +17,7 @@ api_location:
 
 # CAPICOM\_STORE\_SAVE\_AS\_TYPE enumeration
 
-The **CAPICOM\_STORE\_SAVE\_AS\_TYPE** enumeration type indicates the encoding of a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+The **CAPICOM\_STORE\_SAVE\_AS\_TYPE** enumeration type indicates the encoding of a [*certificate store*](../secgloss/c-gly.md).
 
 ## Members
 
@@ -44,7 +44,3 @@ The **CAPICOM\_STORE\_SAVE\_AS\_TYPE** enumeration type indicates the encoding o
  
 
  
-
-
-
-

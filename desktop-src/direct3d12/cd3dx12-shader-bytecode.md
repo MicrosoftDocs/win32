@@ -59,7 +59,7 @@ Creates a new instance of a CD3DX12\_SHADER\_BYTECODE, initialized with the cont
 
 Creates a new instance of a CD3DX12\_SHADER\_BYTECODE, initializing the following parameters:
 
-[**ID3DBlob**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85))\* pShaderBlob
+[**ID3DBlob**](/previous-versions/windows/desktop/legacy/ff728743(v=vs.85))\* pShaderBlob
 
 </dd> <dt>
 
@@ -102,10 +102,4 @@ Defines the & pass-by-reference operator for the parent structure type.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

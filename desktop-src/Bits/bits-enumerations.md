@@ -22,7 +22,7 @@ The [Background Intelligent Transfer Service (BITS) interfaces](bits-interfaces.
 | [**BG_JOB_PROXY_USAGE**](/windows/win32/api/bits/ne-bits-bg_job_proxy_usage) | Defines constants that specify which proxy to use for file transfers. You can define different proxy settings for each job. |
 | [**BG_JOB_STATE**](/windows/win32/api/bits/ne-bits-bg_job_state) | Defines constants that specify the different states of a job. |
 | [**BG_JOB_TYPE**](/windows/win32/api/bits/ne-bits-bg_job_type) | Defines constants that specify the type of transfer job, such as download. |
-| [**BITS_COST_STATE**](/windows/win32/bits/bits-cost-state) | Defines constants that specify the BITS cost state. |
-| [**BITS_FILE_PROPERTY_ID**](/windows/win32/api/bits5_0/ne-bits5_0-bits_file_property_id) | Defines constants that specify ID values corresponding to background copy file properties. See [IBackgroundCopyFile5::GetProperty](/windows/win32/delivery_optimization/ibackgroundcopyfile5-getproperty) and [SetProperty](/windows/win32/delivery_optimization/ibackgroundcopyfile5-setproperty). |
+| [**BITS_COST_STATE**](./bits-cost-state.md) | Defines constants that specify the BITS cost state. |
+| [**BITS_FILE_PROPERTY_ID**](/windows/win32/api/bits5_0/ne-bits5_0-bits_file_property_id) | Defines constants that specify ID values corresponding to background copy file properties. See [IBackgroundCopyFile5::GetProperty](../delivery_optimization/ibackgroundcopyfile5-getproperty.md) and [SetProperty](../delivery_optimization/ibackgroundcopyfile5-setproperty.md). |
 | [**BITS_JOB_PROPERTY_ID**](/windows/win32/api/bits5_0/ne-bits5_0-bits_job_property_id) | Defines constants that specify the ID of the property for the BITS job. |
 | [**BITS_JOB_TRANSFER_POLICY**](/windows/win32/api/bits5_0/ne-bits5_0-bits_job_transfer_policy) | Defines constants that specify ID values corresponding to BITS properties. |

@@ -26,7 +26,7 @@ Reserved. Request to live debug a shader.
 
 ## Members
 
-The **IDebugLiveShaderRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDebugLiveShaderRequest** also has these types of members:
+The **IDebugLiveShaderRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDebugLiveShaderRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IDebugLiveShaderRequest** interface has these methods.
  
 
  
-
-
-

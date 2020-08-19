@@ -20,7 +20,7 @@ api_location:
 
 # SWbemObjectEx object
 
-The **SWbemObjectEx** object provides extended functionality for [**SWbemObject**](swbemobject.md). Like **SWbemObject**, the methods of this extended object can be used by all WMI objects. This object cannot be created by the VBScript [CreateObject](https://docs.microsoft.com/previous-versions//xzysf6hc(v=vs.85)) call.
+The **SWbemObjectEx** object provides extended functionality for [**SWbemObject**](swbemobject.md). Like **SWbemObject**, the methods of this extended object can be used by all WMI objects. This object cannot be created by the VBScript [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) call.
 
 ## Members
 
@@ -89,9 +89,4 @@ The **SWbemObjectEx** object has these properties.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Retrieving the User Name
 
-To retrieve the name of the user associated either with a local device connected to a network resource or with the name of a network, an application can call the [**WNetGetUser**](https://msdn.microsoft.com/library/Aa385476(v=VS.85).aspx) function.
+To retrieve the name of the user associated either with a local device connected to a network resource or with the name of a network, an application can call the [**WNetGetUser**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetusera) function.
 
-The following example uses the device name to retrieve the name of the user. The sample calls an application-defined error handler to process errors, and the [**TextOut**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta) function for printing.
+The following example uses the device name to retrieve the name of the user. The sample calls an application-defined error handler to process errors, and the [**TextOut**](/windows/desktop/api/wingdi/nf-wingdi-textouta) function for printing.
 
 
 ```C++
@@ -43,7 +43,3 @@ For more information about using an application-defined error handler, see [Retr
  
 
  
-
-
-
-

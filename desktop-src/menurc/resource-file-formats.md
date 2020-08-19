@@ -28,19 +28,19 @@ An accelerator table is one resource entry in a resource file. It does not have 
 
 The system handles each icon and cursor as a single file. However, these are stored in .res files and in executable files as a group of icon resources or a group of cursor resources. The file formats of icon and cursor resources are similar. In the .res file a resource group header follows all of the individual icon or cursor group components.
 
-The format of each icon component closely resembles the format of the .ico file. Each icon image is stored in a [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure followed by the color device-independent bitmap (DIB) bits of the icon's **XOR** mask. The monochrome DIB bits of the icon's **AND** mask follow the color DIB bits.
+The format of each icon component closely resembles the format of the .ico file. Each icon image is stored in a [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure followed by the color device-independent bitmap (DIB) bits of the icon's **XOR** mask. The monochrome DIB bits of the icon's **AND** mask follow the color DIB bits.
 
-The format of each cursor component resembles the format of the .cur file. Each cursor image is stored in a [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure followed by the monochrome DIB bits of the cursor's **XOR** mask, and then by the monochrome DIB bits of the cursor's **AND** mask. Note that there is a difference in the bitmaps of the two resources: Unlike icons, cursor XOR masks do not have color DIB bits. Although the bitmaps of the cursor masks are monochrome and do not have DIB headers or color tables, the bits are still in DIB format with respect to alignment and direction. Another significant difference between cursors and icons is that cursors have a hotspot and icons do not.
+The format of each cursor component resembles the format of the .cur file. Each cursor image is stored in a [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure followed by the monochrome DIB bits of the cursor's **XOR** mask, and then by the monochrome DIB bits of the cursor's **AND** mask. Note that there is a difference in the bitmaps of the two resources: Unlike icons, cursor XOR masks do not have color DIB bits. Although the bitmaps of the cursor masks are monochrome and do not have DIB headers or color tables, the bits are still in DIB format with respect to alignment and direction. Another significant difference between cursors and icons is that cursors have a hotspot and icons do not.
 
 The group header for both icon and cursor resources consists of a [**NEWHEADER**](newheader.md) structure plus one or more [**RESDIR**](resdir.md) structures. There is one **RESDIR** structure for each icon or cursor. The group header contains the information an application needs to select the correct icon or cursor to display. Both the group header and the data that repeats for each icon or cursor in the group have a fixed length. This allows the application to randomly access the information.
 
 ## Dialog Box Resources
 
-A dialog box is also one resource entry in the resource file. It consists of one [**DLGTEMPLATE**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-dlgtemplate) dialog box header structure plus one [**DLGITEMTEMPLATE**](https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-dlgitemtemplate) structure for each control in the dialog box. The [**DLGTEMPLATEEX**](https://docs.microsoft.com/windows/desktop/dlgbox/dlgtemplateex) and the [**DLGITEMTEMPLATEEX**](https://docs.microsoft.com/windows/desktop/dlgbox/dlgitemtemplateex) structures describe the format of extended dialog box resources.
+A dialog box is also one resource entry in the resource file. It consists of one [**DLGTEMPLATE**](/windows/desktop/api/winuser/ns-winuser-dlgtemplate) dialog box header structure plus one [**DLGITEMTEMPLATE**](/windows/desktop/api/winuser/ns-winuser-dlgitemtemplate) structure for each control in the dialog box. The [**DLGTEMPLATEEX**](/windows/desktop/dlgbox/dlgtemplateex) and the [**DLGITEMTEMPLATEEX**](/windows/desktop/dlgbox/dlgitemtemplateex) structures describe the format of extended dialog box resources.
 
 ## Font Resources
 
-Fonts are stored in the resource file as a group of resources. Individual fonts make up a font group. A [FONT Statement](https://msdn.microsoft.com/library/Aa381013(v=VS.85).aspx) resource definition statement in the .RC file defines each font. Each individual font in the resource consists of the complete contents of the related .fnt file. A [**FONTGROUPHDR**](fontgrouphdr.md) structure follows all the individual font components in the .res file.
+Fonts are stored in the resource file as a group of resources. Individual fonts make up a font group. A [FONT Statement](./font-statement.md) resource definition statement in the .RC file defines each font. Each individual font in the resource consists of the complete contents of the related .fnt file. A [**FONTGROUPHDR**](fontgrouphdr.md) structure follows all the individual font components in the .res file.
 
 Font resources are not added to the resources of a specific application. Instead, they are normally added to executable files that have a .fon extension. These files are usually resource-only DLLs rather than applications.
 
@@ -59,7 +59,3 @@ The main structure in a version resource is the [**VS\_FIXEDFILEINFO**](/windows
  
 
  
-
-
-
-

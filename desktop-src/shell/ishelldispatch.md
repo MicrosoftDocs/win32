@@ -189,7 +189,7 @@ The **IShellDispatch** object has these properties.
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)
 </dt> <dt>
 
 [**Shell Object**](shell.md)
@@ -198,7 +198,3 @@ The **IShellDispatch** object has these properties.
  
 
  
-
-
-
-

@@ -24,8 +24,8 @@ Animates or changes the value of the Bottom property of a clip rectangle. The Bo
 
 | Method                                                                                                     | Description                                           |
 |:-----------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
-| [**SetBottom(float)**](https://msdn.microsoft.com/library/Hh448860(v=VS.85).aspx)                                     | Changes the value of the Bottom property.<br/>  |
-| [**SetBottom(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448862(v=VS.85).aspx) | Animates the value of the Bottom property.<br/> |
+| [**SetBottom(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-setbottom(float))                                     | Changes the value of the Bottom property.<br/>  |
+| [**SetBottom(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-setbottom(idcompositionanimation)) | Animates the value of the Bottom property.<br/> |
 
 
 
@@ -47,14 +47,9 @@ Animates or changes the value of the Bottom property of a clip rectangle. The Bo
 
 <dl> <dt>
 
-[**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx)
+[**IDCompositionRectangleClip**](/windows/win32/api/dcomp/nn-dcomp-idcompositionrectangleclip)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

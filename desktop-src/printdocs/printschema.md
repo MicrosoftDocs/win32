@@ -28,12 +28,9 @@ The Print Schema technologies, called *PrintCapabilities* and *PrintTicket*, are
 [Legacy Print Schema Reference](print-schema.md)
 </dt> <dt>
 
-[Bidirectional printer communications (Hardware Dev Center)](https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication?redirectedfrom=MSDN)
+[Bidirectional printer communications (Hardware Dev Center)](/windows-hardware/drivers/print/bidirectional-communication)
 </dt> </dl>
 
  
 
  
-
-
-

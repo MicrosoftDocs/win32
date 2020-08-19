@@ -24,8 +24,8 @@ Creates a quadratic Bezier curve between the current point and the specified end
 
 | Method                                                                                                                                   | Description                                                                                        |
 |:-----------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
-| [**AddQuadraticBezier(D2D1\_QUADRATIC\_BEZIER\_SEGMENT&)**](https://msdn.microsoft.com/library/Dd316614(v=VS.85).aspx)  | Creates a quadratic Bezier curve between the current point and the specified end point.<br/> |
-| [**AddQuadraticBezier(D2D1\_QUADRATIC\_BEZIER\_SEGMENT\*)**](https://msdn.microsoft.com/library/Dd316611(v=VS.85).aspx) | Creates a quadratic Bezier curve between the current point and the specified endpoint.<br/>  |
+| [**AddQuadraticBezier(D2D1\_QUADRATIC\_BEZIER\_SEGMENT&)**](/windows/win32/api/d2d1/nf-d2d1-id2d1geometrysink-addquadraticbezier(constd2d1_quadratic_bezier_segment_))  | Creates a quadratic Bezier curve between the current point and the specified end point.<br/> |
+| [**AddQuadraticBezier(D2D1\_QUADRATIC\_BEZIER\_SEGMENT\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1geometrysink-addquadraticbezier(constd2d1_quadratic_bezier_segment_)) | Creates a quadratic Bezier curve between the current point and the specified endpoint.<br/>  |
 
 
 
@@ -45,14 +45,9 @@ Creates a quadratic Bezier curve between the current point and the specified end
 
 <dl> <dt>
 
-[**ID2D1GeometrySink**](https://msdn.microsoft.com/library/Dd316592(v=VS.85).aspx)
+[**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

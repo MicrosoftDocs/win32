@@ -26,7 +26,7 @@ Request for the contents of an object in buffer form for those that support it.
 
 ## Members
 
-The **IBufferObjectDataRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IBufferObjectDataRequest** also has these types of members:
+The **IBufferObjectDataRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IBufferObjectDataRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IBufferObjectDataRequest** interface has these methods.
  
 
  
-
-
-

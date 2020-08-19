@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # ABM\_WINDOWPOSCHANGED message
 
-Notifies the system when an appbar's position has changed. An appbar should call this message in response to the [**WM\_WINDOWPOSCHANGED**](https://docs.microsoft.com/windows/desktop/winmsg/wm-windowposchanged) message.
+Notifies the system when an appbar's position has changed. An appbar should call this message in response to the [**WM\_WINDOWPOSCHANGED**](/windows/desktop/winmsg/wm-windowposchanged) message.
 
 
 ```C++
@@ -49,9 +49,4 @@ This message is ignored if the **hWnd** member of the structure pointed to by *p
 
 
  
-
- 
-
-
-
 

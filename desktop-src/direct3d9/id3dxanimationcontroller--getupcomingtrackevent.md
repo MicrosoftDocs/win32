@@ -39,7 +39,7 @@ D3DXEVENTHANDLE GetUpcomingTrackEvent(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Track identifier.
 
@@ -90,7 +90,3 @@ This method can be used iteratively to locate a desired event by repeatedly pass
  
 
  
-
-
-
-

@@ -41,7 +41,7 @@ ID3DX11EffectVariable* GetMemberByName(
 *Name* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 Member name.
 
@@ -81,10 +81,4 @@ If the effect variable is an structure, use this method to look up a member by n
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

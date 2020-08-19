@@ -30,7 +30,7 @@ The TF\_SD\_\* constants describe the document status.
 
 ## Remarks
 
-The **dwDynamicFlags** member of the [TF\_STATUS](https://msdn.microsoft.com/library/ms629192(v=VS.85).aspx) structure uses these constants.
+The **dwDynamicFlags** member of the [TF\_STATUS](/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)) structure uses these constants.
 
 ## Requirements
 
@@ -50,7 +50,7 @@ The **dwDynamicFlags** member of the [TF\_STATUS](https://msdn.microsoft.com/lib
 
 <dl> <dt>
 
-[TF\_STATUS](https://msdn.microsoft.com/library/ms629192(v=VS.85).aspx)
+[TF\_STATUS](/previous-versions/windows/desktop/legacy/ms629192(v=vs.85))
 </dt> <dt>
 
 [TS\_SD\_\* Constants](ts-sd--constants.md)
@@ -69,10 +69,4 @@ The **dwDynamicFlags** member of the [TF\_STATUS](https://msdn.microsoft.com/lib
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -21,7 +21,7 @@ Contains a collection of objects that implement the [**IAnalysisAlternate**](ian
 
 ## Members
 
-The **IAnalysisAlternates** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IAnalysisAlternates** also has these types of members:
+The **IAnalysisAlternates** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IAnalysisAlternates** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -42,7 +42,7 @@ The **IAnalysisAlternates** interface has these methods.
 
 ## Remarks
 
-This interface is equivalent to the [**System.Windows.Ink.AnalysisCore.AnalysisAlternateBaseCollection**](https://msdn.microsoft.com/library/ms610094(v=VS.90).aspx) class in the .NET Framework.
+This interface is equivalent to the [**System.Windows.Ink.AnalysisCore.AnalysisAlternateBaseCollection**](/previous-versions/ms610094(v=vs.100)) class in the .NET Framework.
 
 ## Requirements
 
@@ -77,9 +77,4 @@ This interface is equivalent to the [**System.Windows.Ink.AnalysisCore.AnalysisA
 </dt> </dl>
 
  
-
- 
-
-
-
 

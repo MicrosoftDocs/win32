@@ -23,7 +23,7 @@ The network management use functions examine and manage connections (uses) betwe
 
  
 
-These function applies only to the Server Message Block (LAN Manager Workstation) client. The **NetUseGetInfo** function does not support Distributed File System (DFS) shares. To retrieve connection information for a shared resource using a different network provider (WebDAV or a DFS share, for example), use the [**WNetGetConnection**](https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona) function.
+These function applies only to the Server Message Block (LAN Manager Workstation) client. The **NetUseGetInfo** function does not support Distributed File System (DFS) shares. To retrieve connection information for a shared resource using a different network provider (WebDAV or a DFS share, for example), use the [**WNetGetConnection**](/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona) function.
 
 Connections are distinguished from sessions: a *session* is established the first time a workstation makes a connection to a shared resource on the server. All additional connections between the workstation and the server are part of this same session until the session ends. Two types of connections can be made: device-name connections (which can only be explicit) and universal-naming convention (UNC) connections (which can be explicit or implicit).
 
@@ -42,7 +42,3 @@ The use functions are available at the following information levels:
  
 
  
-
-
-
-

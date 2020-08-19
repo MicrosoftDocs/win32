@@ -28,7 +28,7 @@ The effect system uses a state block to save state. After [**ID3DXEffect::Begin*
 
 ## Capture Individual States
 
-To save a custom state sequence, wrap the state that you want to save in a [**IDirect3DDevice9::BeginStateBlock**](/windows/desktop/api) and [**IDirect3DDevice9::EndStateBlock**](https://msdn.microsoft.com/library/Bb174376(v=VS.85).aspx) pair. BeginStateBlock tells the current device to set up a state block and add to it every state change that occurs until EndStateBlock is called. Here's an example:
+To save a custom state sequence, wrap the state that you want to save in a [**IDirect3DDevice9::BeginStateBlock**](/windows/desktop/api) and [**IDirect3DDevice9::EndStateBlock**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-endstateblock) pair. BeginStateBlock tells the current device to set up a state block and add to it every state change that occurs until EndStateBlock is called. Here's an example:
 
 
 ```
@@ -40,7 +40,7 @@ pd3dDevice->EndStateBlock( &pStateBlock );
 
 
 
-This will save any number of state changes in any sequence to a custom stateblock. Later, when you want to use the stateblock to reset the device state, call [**IDirect3DStateBlock9::Apply**](https://msdn.microsoft.com/library/Bb205889(v=VS.85).aspx). This will overwrite only the device state that has been captured in the state block. Any other device state that was not captured with the custom stateblock will not be changed. Once again, since the stateblock object is an interface, you will need to release it when you are done with it.
+This will save any number of state changes in any sequence to a custom stateblock. Later, when you want to use the stateblock to reset the device state, call [**IDirect3DStateBlock9::Apply**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dstateblock9-apply). This will overwrite only the device state that has been captured in the state block. Any other device state that was not captured with the custom stateblock will not be changed. Once again, since the stateblock object is an interface, you will need to release it when you are done with it.
 
 ## Related topics
 
@@ -52,6 +52,3 @@ This will save any number of state changes in any sequence to a custom statebloc
  
 
  
-
-
-

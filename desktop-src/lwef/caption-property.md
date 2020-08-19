@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**
 </dt> <dd>
 
-Determines the text displayed for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) in the specified character's pop-up menu.
+Determines the text displayed for a [**Command**](/windows/desktop/lwef/the-command-object) in the specified character's pop-up menu.
 
 </dd> <dt>
 
@@ -45,7 +45,3 @@ If you don't define a **VoiceCaption** for your command, your **Caption** settin
  
 
  
-
-
-
-

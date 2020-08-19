@@ -19,7 +19,7 @@ api_location:
 
 Specifies events associated with the data proxy steps of an [**IInkAnalyzer**](iinkanalyzer.md) object.
 
--   [Events](https://docs.microsoft.com/windows)
+-   [Events](/windows)
 
 ### Events
 
@@ -84,9 +84,4 @@ Use these events when your application maintains its own data structure, which i
 </dt> </dl>
 
  
-
- 
-
-
-
 

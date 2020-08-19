@@ -40,7 +40,7 @@ HRESULT DoShowWindow(
 *ShowCmd* 
 </dt> <dd>
 
-Flag that specifies how the window is to be shown. The value can be any constant defined for the *nCmdShow* parameter of the [**ShowWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow) function.
+Flag that specifies how the window is to be shown. The value can be any constant defined for the *nCmdShow* parameter of the [**ShowWindow**](/windows/desktop/api/winuser/nf-winuser-showwindow) function.
 
 </dd> </dl>
 
@@ -67,9 +67,4 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 </dt> </dl>
 
  
-
- 
-
-
-
 

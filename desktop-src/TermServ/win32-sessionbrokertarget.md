@@ -90,7 +90,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The GUID (if any) of the target.
@@ -106,7 +106,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The name of the plug-in.
@@ -152,10 +152,4 @@ queryString = string.Format("SELECT * FROM Win32_SessionBrokerTarget WHERE Plugi
 
 
  
-
- 
-
-
-
-
 

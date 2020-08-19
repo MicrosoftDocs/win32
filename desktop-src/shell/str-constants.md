@@ -54,7 +54,7 @@ topic_type:
 
 # Bind Context String Keys
 
-A set of string keys that are used with the [**IBindCtx::RegisterObjectParam**](https://msdn.microsoft.com/library/ms687254(v=VS.85).aspx) method to specify a bind context.
+A set of string keys that are used with the [**IBindCtx::RegisterObjectParam**](/windows/win32/api/objidl/nf-objidl-ibindctx-registerobjectparam) method to specify a bind context.
 
 
 
@@ -206,10 +206,10 @@ A set of string keys that are used with the [**IBindCtx::RegisterObjectParam**](
 <td style="text-align: left;"><span id="STR_PARSE_WITH_PROPERTIES"></span><span id="str_parse_with_properties"></span><dl> <dt><strong>STR_PARSE_WITH_PROPERTIES</strong></dt> </dl></td>
 <td style="text-align: left;"><strong>Windows Vista only.</strong> A parsing bind context that is used to pass a set of properties and the item's name when calling <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname"><strong>IShellFolder::ParseDisplayName</strong></a>. The object in the bind context implements <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>IPropertyStore</strong></a> and is retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-getobjectparam"><strong>IBindCtx::GetObjectParam</strong></a>.<br/> DBFolder is a Shell data source that represents items in search results and query-based views. DBFolder retrieves these items by querying the Windows Search system. Items in the search results are identified through a protocol scheme, for example &quot;file:&quot; or &quot;mapi:&quot;. DBFolder provides the behavior for these items by delegating to Shell data sources that are created for these protocols. See <a href="/previous-versions/bb233544(v=msdn.10)">Developing Protocol Handler Add-ins</a> for more information.<br/> When DBFolder delegates its parsing operation to the Shell data sources that support Windows Search protocols, this bind context provides access to values that were returned in the query result for that item. This includes the following:<br/>
 <ul>
-<li><a href="https://docs.microsoft.com/windows/desktop/properties/props-system-itemtype">System.ItemType</a> (PKEY_ItemType)</li>
-<li><a href="https://docs.microsoft.com/windows/desktop/properties/props-system-parsingpath">System.ParsingPath</a> (PKEY_ParsingPath)</li>
-<li><a href="https://docs.microsoft.com/windows/desktop/properties/props-system-itempathdisplay">System.ItemPathDisplay</a> (PKEY_ItemPathDisplay)</li>
-<li><a href="https://docs.microsoft.com/windows/desktop/properties/props-system-itemnamedisplay">System.ItemNameDisplay</a> (PKEY_ItemNameDisplay)</li>
+<li><a href="/windows/desktop/properties/props-system-itemtype">System.ItemType</a> (PKEY_ItemType)</li>
+<li><a href="/windows/desktop/properties/props-system-parsingpath">System.ParsingPath</a> (PKEY_ParsingPath)</li>
+<li><a href="/windows/desktop/properties/props-system-itempathdisplay">System.ItemPathDisplay</a> (PKEY_ItemPathDisplay)</li>
+<li><a href="/windows/desktop/properties/props-system-itemnamedisplay">System.ItemNameDisplay</a> (PKEY_ItemNameDisplay)</li>
 </ul>
 <br/> This bind context can also be used to parse a DBFolder item if a client has a set of properties that define the item. In this case an empty name should be passed to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname"><strong>IShellFolder::ParseDisplayName</strong></a>.<br/> Before Windows 7, this value was not defined in a header file. It could be defined by the caller or passed as its string value: <code>L&quot;ParseWithProperties&quot;</code>. As of Windows 7, the value is defined in Shlobj.h. Note that this is a different header than where the other STR constants are defined.<br/></td>
 </tr>
@@ -237,7 +237,7 @@ Introduced in Windows 2000 SP3, this value was defined in Shlobj.h until Window
 
 ## Remarks
 
-Bind contexts are used to pass optional parameters to functions that have an IBindCtx\* parameter. Those parameters are expressed as COM objects and might implement interfaces that are used to model the parameter data. Some bind contexts represent a Boolean value, where **TRUE** indicates an object that implements only [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) and FALSE indicates no object is present.
+Bind contexts are used to pass optional parameters to functions that have an IBindCtx\* parameter. Those parameters are expressed as COM objects and might implement interfaces that are used to model the parameter data. Some bind contexts represent a Boolean value, where **TRUE** indicates an object that implements only [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) and FALSE indicates no object is present.
 
 [**IShellFolder::ParseDisplayName**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname), [**IShellFolder::BindToObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject) and [**IShellItem::BindToHandler**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-bindtohandler) take a bind context and you can pass them parameters through that bind context.
 
@@ -245,9 +245,9 @@ Some bind contexts are specific to a certain data source implementations or hand
 
 Bind context parameters are defined for use with a specific function or method.
 
-When requesting a property store through [**IShellFolder**](https://msdn.microsoft.com/library/Bb775075(v=VS.85).aspx), you can specify the equivalent of [**GPS\_DEFAULT**](https://msdn.microsoft.com/library/Bb762582(v=VS.85).aspx) by passing in a null [**IBindCtx**](https://msdn.microsoft.com/library/ms693755(v=VS.85).aspx) parameter. You can also specify the equivalent of GPS\_READWRITE by passing a mode of STGM\_READWRITE \| STGM\_EXCLUSIVE in the bind context.
+When requesting a property store through [**IShellFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder), you can specify the equivalent of [**GPS\_DEFAULT**](/windows/win32/api/propsys/ne-propsys-getpropertystoreflags) by passing in a null [**IBindCtx**](/windows/win32/api/objidl/nn-objidl-ibindctx) parameter. You can also specify the equivalent of GPS\_READWRITE by passing a mode of STGM\_READWRITE \| STGM\_EXCLUSIVE in the bind context.
 
-The property bag specified by the **STR\_PROPERTYBAG\_PARAM** bind context object contains additional values that you can access with the [**IPropertyBag::Read**](https://msdn.microsoft.com/library/Aa768197(v=VS.85).aspx) and [**IPropertyBag::Write**](https://msdn.microsoft.com/library/Aa768198(v=VS.85).aspx) methods.
+The property bag specified by the **STR\_PROPERTYBAG\_PARAM** bind context object contains additional values that you can access with the [**IPropertyBag::Read**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768197(v=vs.85)) and [**IPropertyBag::Write**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768198(v=vs.85)) methods.
 
 
 
@@ -280,7 +280,3 @@ See the [Parsing With Parameters Sample](samples-parsingwithparameters.md) for a
  
 
  
-
-
-
-

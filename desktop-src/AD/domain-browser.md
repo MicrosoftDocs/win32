@@ -11,15 +11,15 @@ ms.date: 05/31/2018
 
 # Domain Browser
 
-Using the [**IDsBrowseDomainTree**](https://msdn.microsoft.com/library/ms676955(v=VS.85).aspx) interface, an application can display a domain browser dialog box and obtain the DNS name of the domain selected by the user. An application can also use the **IDsBrowseDomainTree** interface to obtain data about all domain trees and domains within a forest.
+Using the [**IDsBrowseDomainTree**](/windows/win32/api/dsclient/nn-dsclient-idsbrowsedomaintree) interface, an application can display a domain browser dialog box and obtain the DNS name of the domain selected by the user. An application can also use the **IDsBrowseDomainTree** interface to obtain data about all domain trees and domains within a forest.
 
-An instance of the [**IDsBrowseDomainTree**](https://msdn.microsoft.com/library/ms676955(v=VS.85).aspx) interface is created by calling [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) with the **CLSID\_DsDomainTreeBrowser** class identifier as shown below.
+An instance of the [**IDsBrowseDomainTree**](/windows/win32/api/dsclient/nn-dsclient-idsbrowsedomaintree) interface is created by calling [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) with the **CLSID\_DsDomainTreeBrowser** class identifier as shown below.
 
-The [**IDsBrowseDomainTree::SetComputer**](https://msdn.microsoft.com/library/ms676960(v=VS.85).aspx) method can be used to specify which computer and credentials are used as the basis for retrieving the domain data. When **SetComputer** is called on a particular [**IDsBrowseDomainTree**](https://msdn.microsoft.com/library/ms676955(v=VS.85).aspx) instance, [**IDsBrowseDomainTree::FlushCachedDomains**](https://msdn.microsoft.com/library/ms676957(v=VS.85).aspx) must be called before **SetComputer** is called again.
+The [**IDsBrowseDomainTree::SetComputer**](/windows/win32/api/dsclient/nf-dsclient-idsbrowsedomaintree-setcomputer) method can be used to specify which computer and credentials are used as the basis for retrieving the domain data. When **SetComputer** is called on a particular [**IDsBrowseDomainTree**](/windows/win32/api/dsclient/nn-dsclient-idsbrowsedomaintree) instance, [**IDsBrowseDomainTree::FlushCachedDomains**](/windows/win32/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains) must be called before **SetComputer** is called again.
 
-The [**IDsBrowseDomainTree::BrowseTo**](https://msdn.microsoft.com/library/ms676956(v=VS.85).aspx) method is used to display the domain browser dialog box. When the user selects a domain and clicks the **OK** button, the **IDsBrowseDomainTree::BrowseTo** returns **S\_OK** and the *ppszTargetPath* parameter contains the name of the selected domain. When the name string is no longer required, the caller must free the string by calling [**CoTaskMemFree**](https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx).
+The [**IDsBrowseDomainTree::BrowseTo**](/windows/win32/api/dsclient/nf-dsclient-idsbrowsedomaintree-browseto) method is used to display the domain browser dialog box. When the user selects a domain and clicks the **OK** button, the **IDsBrowseDomainTree::BrowseTo** returns **S\_OK** and the *ppszTargetPath* parameter contains the name of the selected domain. When the name string is no longer required, the caller must free the string by calling [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
-The following code example shows how to use the [**IDsBrowseDomainTree**](https://msdn.microsoft.com/library/ms676955(v=VS.85).aspx) interface to display the domain browser dialog box.
+The following code example shows how to use the [**IDsBrowseDomainTree**](/windows/win32/api/dsclient/nn-dsclient-idsbrowsedomaintree) interface to display the domain browser dialog box.
 
 
 ```C++
@@ -68,9 +68,9 @@ void main(void)
 
 
 
-The [**IDsBrowseDomainTree::GetDomains**](https://msdn.microsoft.com/library/ms676959(v=VS.85).aspx) method is used to obtain domain tree data. The domain data is supplied in a [**DOMAINTREE**](/windows/desktop/api/Dsclient/ns-dsclient-domain_tree) structure. The **DOMAINTREE** structure contains the size of the structure and the number of domain elements in the tree. The **DOMAINTREE** structure also contains one or more [**DOMAINDESC**](/windows/desktop/api/Dsclient/ns-dsclient-domaindesc) structures. The **DOMAINDESC** contains data about a single element in the domain tree, including child and sibling data. The siblings of a domain can be enumerated by accessing the **pdNextSibling** member of each subsequent **DOMAINDESC** structure. The children of the domain can be retrieved in a similar manner by accessing the **pdChildList** member of each subsequent **DOMAINDESC** structure.
+The [**IDsBrowseDomainTree::GetDomains**](/windows/win32/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains) method is used to obtain domain tree data. The domain data is supplied in a [**DOMAINTREE**](/windows/desktop/api/Dsclient/ns-dsclient-domain_tree) structure. The **DOMAINTREE** structure contains the size of the structure and the number of domain elements in the tree. The **DOMAINTREE** structure also contains one or more [**DOMAINDESC**](/windows/desktop/api/Dsclient/ns-dsclient-domaindesc) structures. The **DOMAINDESC** contains data about a single element in the domain tree, including child and sibling data. The siblings of a domain can be enumerated by accessing the **pdNextSibling** member of each subsequent **DOMAINDESC** structure. The children of the domain can be retrieved in a similar manner by accessing the **pdChildList** member of each subsequent **DOMAINDESC** structure.
 
-The following code example shows how to obtain and access the domain tree data using the [**IDsBrowseDomainTree::GetDomains**](https://msdn.microsoft.com/library/ms676959(v=VS.85).aspx) method.
+The following code example shows how to obtain and access the domain tree data using the [**IDsBrowseDomainTree::GetDomains**](/windows/win32/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains) method.
 
 
 ```C++
@@ -150,7 +150,3 @@ int main(void)
  
 
  
-
-
-
-

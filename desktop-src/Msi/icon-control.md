@@ -31,12 +31,8 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the STATIC class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **SS\_ICON**, **SS\_CENTERIMAGE**, **WS\_CHILD**, and **WS\_GROUP** styles.
+This control can be created from the STATIC class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **SS\_ICON**, **SS\_CENTERIMAGE**, **WS\_CHILD**, and **WS\_GROUP** styles.
 
  
 
  
-
-
-
-

@@ -57,7 +57,7 @@ The number of bytes in the **pValueName** member, including the terminating NULL
 **dwType**
 </dt> <dd>
 
-A code indicating the type of data pointed to by the **pData** member. For a list of the possible type codes, see [Registry Value Types](https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types).
+A code indicating the type of data pointed to by the **pData** member. For a list of the possible type codes, see [Registry Value Types](/windows/desktop/SysInfo/registry-value-types).
 
 </dd> <dt>
 
@@ -102,9 +102,4 @@ The number of bytes retrieved in the **pData** buffer.
 </dt> </dl>
 
  
-
- 
-
-
-
 

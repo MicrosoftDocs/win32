@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Drawing at Timed Intervals
 
-You can draw at timed intervals by creating a timer with the [**SetTimer**](https://msdn.microsoft.com/library/ms644906(v=VS.85).aspx) function. By using a timer to send [**WM\_TIMER**](https://msdn.microsoft.com/library/ms644902(v=VS.85).aspx) messages to the window procedure at regular intervals, an application can carry out simple animation in the client area while other applications continue running.
+You can draw at timed intervals by creating a timer with the [**SetTimer**](/windows/win32/api/winuser/nf-winuser-settimer) function. By using a timer to send [**WM\_TIMER**](../winmsg/wm-timer.md) messages to the window procedure at regular intervals, an application can carry out simple animation in the client area while other applications continue running.
 
-In the following example, the application bounces a star from side to side in the client area. Each time the window procedure receives a [**WM\_TIMER**](https://msdn.microsoft.com/library/ms644902(v=VS.85).aspx) message, the procedure erases the star at the current position, calculates a new position, and draws the star within the new position. The procedure starts the timer by calling [**SetTimer**](https://msdn.microsoft.com/library/ms644906(v=VS.85).aspx) while processing the [**WM\_CREATE**](https://msdn.microsoft.com/library/ms632619(v=VS.85).aspx) message.
+In the following example, the application bounces a star from side to side in the client area. Each time the window procedure receives a [**WM\_TIMER**](../winmsg/wm-timer.md) message, the procedure erases the star at the current position, calculates a new position, and draws the star within the new position. The procedure starts the timer by calling [**SetTimer**](/windows/win32/api/winuser/nf-winuser-settimer) while processing the [**WM\_CREATE**](../winmsg/wm-create.md) message.
 
 
 ```C++
@@ -142,15 +142,12 @@ LRESULT APIENTRY WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 
 
-This application uses a private device context to minimize the time required to prepare the device context for drawing. The window procedure retrieves and initializes the private device context when processing the [**WM\_CREATE**](https://msdn.microsoft.com/library/ms632619(v=VS.85).aspx) message, setting the binary raster operation mode to allow the star to be erased and drawn using the same call to the [**Polyline**](/windows/desktop/api/Wingdi/nf-wingdi-polyline) function. The window procedure also sets the viewport origin to allow the star to be drawn using the same set of points regardless of the star's position in the client area.
+This application uses a private device context to minimize the time required to prepare the device context for drawing. The window procedure retrieves and initializes the private device context when processing the [**WM\_CREATE**](../winmsg/wm-create.md) message, setting the binary raster operation mode to allow the star to be erased and drawn using the same call to the [**Polyline**](/windows/desktop/api/Wingdi/nf-wingdi-polyline) function. The window procedure also sets the viewport origin to allow the star to be drawn using the same set of points regardless of the star's position in the client area.
 
-The application uses the [**WM\_PAINT**](wm-paint.md) message to draw the star whenever the window must be updated. The window procedure draws the star only if it is not visible; that is, only if it has been erased by the [**WM\_ERASEBKGND**](https://msdn.microsoft.com/library/ms648055(v=VS.85).aspx) message. The window procedure intercepts the **WM\_ERASEBKGND** message to set the *fVisible* variable, but passes the message to [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) so that the system can draw the window background.
+The application uses the [**WM\_PAINT**](wm-paint.md) message to draw the star whenever the window must be updated. The window procedure draws the star only if it is not visible; that is, only if it has been erased by the [**WM\_ERASEBKGND**](../winmsg/wm-erasebkgnd.md) message. The window procedure intercepts the **WM\_ERASEBKGND** message to set the *fVisible* variable, but passes the message to [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) so that the system can draw the window background.
 
-The application uses the [**WM\_SIZE**](https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx) message to stop the timer when the window is minimized and to restart the timer when the minimized window is restored. The window procedure also uses the message to update the current position of the star if the size of the window has been reduced so that the star is no longer in the client area. The application keeps track of the star's current position by using the structure specified by rcCurrent, which defines the bounding rectangle for the star. Keeping all corners of the rectangle in the client area keeps the star in the area. The window procedure initially centers the star in the client area when processing the [**WM\_CREATE**](https://msdn.microsoft.com/library/ms632619(v=VS.85).aspx) message.
-
- 
+The application uses the [**WM\_SIZE**](../winmsg/wm-size.md) message to stop the timer when the window is minimized and to restart the timer when the minimized window is restored. The window procedure also uses the message to update the current position of the star if the size of the window has been reduced so that the star is no longer in the client area. The application keeps track of the star's current position by using the structure specified by rcCurrent, which defines the bounding rectangle for the star. Keeping all corners of the rectangle in the client area keeps the star in the area. The window procedure initially centers the star in the client area when processing the [**WM\_CREATE**](../winmsg/wm-create.md) message.
 
  
 
-
-
+ 

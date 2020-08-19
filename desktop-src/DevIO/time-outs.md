@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Time-Outs
 
-A handle to a communications resource has an associated set of time-out parameters that affect the behavior of read and write operations. Time-outs can cause a [**ReadFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile), [**ReadFileEx**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex), [**WriteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile), or [**WriteFileEx**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex) operation to conclude when a time-out interval elapses, even though the specified number of characters have not been read or written. It is not treated as an error when a time-out occurs during a read or write operation (that is, the read or write function's return value indicates success). The count of bytes actually read or written is reported by **ReadFile** or **WriteFile** (or by the [**GetOverlappedResult**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) or [**FileIOCompletionRoutine**](https://docs.microsoft.com/windows/desktop/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine) function, if the I/O was performed as an overlapped operation).
+A handle to a communications resource has an associated set of time-out parameters that affect the behavior of read and write operations. Time-outs can cause a [**ReadFile**](/windows/desktop/api/fileapi/nf-fileapi-readfile), [**ReadFileEx**](/windows/desktop/api/fileapi/nf-fileapi-readfileex), [**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile), or [**WriteFileEx**](/windows/desktop/api/fileapi/nf-fileapi-writefileex) operation to conclude when a time-out interval elapses, even though the specified number of characters have not been read or written. It is not treated as an error when a time-out occurs during a read or write operation (that is, the read or write function's return value indicates success). The count of bytes actually read or written is reported by **ReadFile** or **WriteFile** (or by the [**GetOverlappedResult**](/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) or [**FileIOCompletionRoutine**](/windows/desktop/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine) function, if the I/O was performed as an overlapped operation).
 
 When an application opens a communications resource, the system sets the resource's time-out values to the values in effect when the resource was last used. If the communications resource has never been opened, the system sets the time-out values to some default value. In either case, an application should always determine the current time-out values after opening the resource, and then explicitly set them to meet its requirements. To determine the current time-out values of a communications resource, use the [**GetCommTimeouts**](/windows/desktop/api/Winbase/nf-winbase-getcommtimeouts) function. To change the time-out values, use the [**SetCommTimeouts**](/windows/desktop/api/Winbase/nf-winbase-setcommtimeouts) function.
 
@@ -54,13 +54,10 @@ The following table summarizes the behavior of read operations based on the valu
  
 
 > [!Note]  
-> The time-out parameters affect the behavior of overlapped read and write operations on a communications device. With overlapped I/O, the [**ReadFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile), [**WriteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile), [**ReadFileEx**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex), or [**WriteFileEx**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex) function can return before the operation has been completed. The time-out parameters can determine when the operation has been completed.
+> The time-out parameters affect the behavior of overlapped read and write operations on a communications device. With overlapped I/O, the [**ReadFile**](/windows/desktop/api/fileapi/nf-fileapi-readfile), [**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile), [**ReadFileEx**](/windows/desktop/api/fileapi/nf-fileapi-readfileex), or [**WriteFileEx**](/windows/desktop/api/fileapi/nf-fileapi-writefileex) function can return before the operation has been completed. The time-out parameters can determine when the operation has been completed.
 
  
 
  
 
  
-
-
-

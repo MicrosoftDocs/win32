@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Example C Program: Creating a Key Container and Generating Keys
 
-The following example creates a named [*key container*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx) and adds a [*signature key pair*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) and an [*exchange key pair*](https://msdn.microsoft.com/library/ms721575(v=VS.85).aspx) to the container. This example can be run without problem even if the named key container and cryptographic keys already exist.
+The following example creates a named [*key container*](../secgloss/k-gly.md) and adds a [*signature key pair*](../secgloss/s-gly.md) and an [*exchange key pair*](../secgloss/e-gly.md) to the container. This example can be run without problem even if the named key container and cryptographic keys already exist.
 
 > [!Note]  
 > An application should not use the default key container to store private keys. When multiple applications use the same container, one application may change or destroy the keys that another application needs to have available. It is recommended that applications use key containers that are linked to the application. Doing so reduces the risk of other applications tampering with keys that are necessary for an application to function properly.
@@ -245,6 +245,3 @@ void main(void)
  
 
  
-
-
-

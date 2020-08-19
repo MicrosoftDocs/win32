@@ -52,7 +52,7 @@ Information about writing and registering an association provider. Association p
 <span id="Optional_feature_status"></span><span id="optional_feature_status"></span><span id="OPTIONAL_FEATURE_STATUS"></span>Optional feature status
 </dt> <dd>
 
-WMI implemented the [**Win32\_OptionalFeature**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-optionalfeature) class. This class queries and returns the status of the optional features that are present on a computer. For example queries using Windows PowerShell, see [Querying the Status of Optional Features](querying-the-status-of-optional-features.md).
+WMI implemented the [**Win32\_OptionalFeature**](/windows/desktop/CIMWin32Prov/win32-optionalfeature) class. This class queries and returns the status of the optional features that are present on a computer. For example queries using Windows PowerShell, see [Querying the Status of Optional Features](querying-the-status-of-optional-features.md).
 
 </dd> <dt>
 
@@ -80,21 +80,21 @@ Windows PowerShell provides a simple mechanism to connect to WMI on a remote com
 <span id="Changes_to_the_software_licensing_classes"></span><span id="changes_to_the_software_licensing_classes"></span><span id="CHANGES_TO_THE_SOFTWARE_LICENSING_CLASSES"></span>Changes to the software licensing classes
 </dt> <dd>
 
-The [software licensing classes](https://docs.microsoft.com/previous-versions/windows/desktop/sppwmi/software-license-provider-) have new methods and properties to provide more software licensing data. In addition, the [**SoftwareLicensingTokenActivationLicense**](https://docs.microsoft.com/previous-versions/windows/desktop/sppwmi/softwarelicensingtokenactivationlicense) class was added.
+The [software licensing classes](/previous-versions/windows/desktop/sppwmi/software-license-provider-) have new methods and properties to provide more software licensing data. In addition, the [**SoftwareLicensingTokenActivationLicense**](/previous-versions/windows/desktop/sppwmi/softwarelicensingtokenactivationlicense) class was added.
 
 </dd> <dt>
 
 <span id="New_power_metering_and_budgeting_classes"></span><span id="new_power_metering_and_budgeting_classes"></span><span id="NEW_POWER_METERING_AND_BUDGETING_CLASSES"></span>New power metering and budgeting classes
 </dt> <dd>
 
-[Power metering and budgeting classes](https://docs.microsoft.com/previous-versions/windows/desktop/powermeterprov/power-meter-provider-) are the primary interface for the query of Power Meter Interface (PMI) information from underlying power meters on the system.
+[Power metering and budgeting classes](/previous-versions/windows/desktop/powermeterprov/power-meter-provider-) are the primary interface for the query of Power Meter Interface (PMI) information from underlying power meters on the system.
 
 </dd> <dt>
 
 <span id="New_power_policy_classes"></span><span id="new_power_policy_classes"></span><span id="NEW_POWER_POLICY_CLASSES"></span>New power policy classes
 </dt> <dd>
 
-[Power policy classes](https://docs.microsoft.com/previous-versions/windows/desktop/powerwmiprov/power-policy-provider-) enable the remote management of all power policy infrastructures.
+[Power policy classes](/previous-versions/windows/desktop/powerwmiprov/power-policy-provider-) enable the remote management of all power policy infrastructures.
 
 </dd> <dt>
 
@@ -117,6 +117,3 @@ For more information about new features in previous operating system versions, s
  
 
  
-
-
-

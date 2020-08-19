@@ -46,7 +46,7 @@ HRESULT GetMonitor(
 *punkSrc* \[in\]
 </dt> <dd>
 
-Type: **[**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx)\***
+Type: **[**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
 A pointer to the object implementing the [**IDockingWindow**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow) interface for which the monitor is being requested.
 
@@ -81,7 +81,3 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
  
 
  
-
-
-
-

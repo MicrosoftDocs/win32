@@ -19,13 +19,13 @@ The DSPs can be used by themselves, or in combination with audio and video codec
 | Interface                              | Description                                 |
 |----------------------------------------|---------------------------------------------|
 | [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)   | Compatible with Microsoft Media Foundation. |
-| [**IMediaObject**](https://msdn.microsoft.com/library/Dd406926(v=VS.85).aspx) | Compatible with DirectShow.                 |
+| [**IMediaObject**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) | Compatible with DirectShow.                 |
 
 
 
  
 
-You can configure the DSPs by using the [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx) interface to set properties. Some of the DSPs have additional interfaces that set properties. To use these interfaces, call the [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) method of any other interface of the DSP. The reference topic for each DSP lists the supported properties, interfaces, and other features.
+You can configure the DSPs by using the [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) interface to set properties. Some of the DSPs have additional interfaces that set properties. To use these interfaces, call the [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) method of any other interface of the DSP. The reference topic for each DSP lists the supported properties, interfaces, and other features.
 
 This section contains the following topics.
 
@@ -54,6 +54,3 @@ This section contains the following topics.
  
 
  
-
-
-

@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 Block Compression (BC) support for textures has been extended in Direct3D 11 to include the BC6H and BC7 algorithms. BC6H supports high-dynamic range color source data, and BC7 provides better-than-average quality compression with less artifacts for standard RGB source data.
 
-For more specific information about block compression algorithm support prior to Direct3D 11, including support for the BC1 through BC5 formats, see [Block Compression (Direct3D 10)](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression).
+For more specific information about block compression algorithm support prior to Direct3D 11, including support for the BC1 through BC5 formats, see [Block Compression (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression).
 
-**Note about File Formats:** The BC6H and BC7 texture compression formats use the DDS file format for storing the compressed texture data. For more information, see the [Programming Guide for DDS](https://docs.microsoft.com/windows/desktop/direct3ddds/dx-graphics-dds-pguide) for details.
+**Note about File Formats:** The BC6H and BC7 texture compression formats use the DDS file format for storing the compressed texture data. For more information, see the [Programming Guide for DDS](/windows/desktop/direct3ddds/dx-graphics-dds-pguide) for details.
 
 ## Block Compression Formats Supported in Direct3D 11
 
@@ -115,17 +115,11 @@ The BC7 format can select different encoding modes for each 4x4 pixel block. A t
 
 <dl> <dt>
 
-[Block Compression (Direct3D 10)](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression)
+[Block Compression (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression)
 </dt> <dt>
 
 [Textures](overviews-direct3d-11-resources-textures.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

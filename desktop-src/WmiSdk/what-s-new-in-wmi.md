@@ -24,7 +24,7 @@ Changes to enhance the security of the WMI shared provider host process (wmiprvs
 
 ## New or Updated Features in Windows 8
 
-The main update to Windows Management Instrumentation was the full release of the next-generation version of WMI, known as Windows Management Infrastructure (MI). MI is fully compatible with previous versions of WMI, and provides a host of features and benefits that make designing and developing providers and clients easier than ever. For more information on MI, see [What's New in MI?](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/what-s-new-in-mi)
+The main update to Windows Management Instrumentation was the full release of the next-generation version of WMI, known as Windows Management Infrastructure (MI). MI is fully compatible with previous versions of WMI, and provides a host of features and benefits that make designing and developing providers and clients easier than ever. For more information on MI, see [What's New in MI?](/previous-versions/windows/desktop/wmi_v2/what-s-new-in-mi)
 
 For more information about new features for WMI in previous operating system versions, see [What's New in Windows 7](what-s-new-in-windows-7.md), and [What's New in Windows Vista](what-s-new-in-windows-vista.md).
 
@@ -38,6 +38,3 @@ For more information about new features for WMI in previous operating system ver
  
 
  
-
-
-

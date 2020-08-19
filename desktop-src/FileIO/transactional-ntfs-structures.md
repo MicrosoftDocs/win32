@@ -16,7 +16,7 @@ Transactional NTFS (TxF) provides the following structures.
 
 | Structure                                                                                                    | Description                                                                                                                                                                                        |
 |--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**TXFS\_CREATE\_MINIVERSION\_INFO**](/windows/desktop/api/WinIoCtl/ns-winioctl-txfs_create_miniversion_info)<br/>                           | Contains the version information about the miniversion created by [**FSCTL\_TXFS\_CREATE\_MINIVERSION**](https://msdn.microsoft.com/library/Aa364598(v=VS.85).aspx).<br/>                                            |
+| [**TXFS\_CREATE\_MINIVERSION\_INFO**](/windows/desktop/api/WinIoCtl/ns-winioctl-txfs_create_miniversion_info)<br/>                           | Contains the version information about the miniversion created by [**FSCTL\_TXFS\_CREATE\_MINIVERSION**](/windows/win32/api/winioctl/ni-winioctl-fsctl_txfs_create_miniversion).<br/>                                            |
 | [**TXFS\_GET\_METADATA\_INFO\_OUT**](/windows/desktop/api/WinIoCtl/ns-winioctl-txfs_get_metadata_info_out)<br/>                              | Contains the version information about the miniversion that is created.<br/>                                                                                                                 |
 | [**TXF\_ID**](/windows/desktop/api/TxfW32/ns-txfw32-txf_id)<br/>                                                                         | Represents a unique identifier within the context of the Resource Manager.<br/>                                                                                                              |
 | [**TXFS\_GET\_TRANSACTED\_VERSION**](/windows/desktop/api/WinIoCtl/ns-winioctl-txfs_get_transacted_version)<br/>                             | Contains the information about the base and latest versions of the specified file.<br/>                                                                                                      |
@@ -40,9 +40,4 @@ Transactional NTFS (TxF) provides the following structures.
  
 
  
-
- 
-
-
-
 

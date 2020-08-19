@@ -19,7 +19,7 @@ This section contains information about creating applications that use Microsoft
 
 ## In this section
 
--   [UI Automation Clients Overview](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-clientsoverview)
+-   [UI Automation Clients Overview](/windows/desktop/WinAuto/uiauto-clientsoverview)
 -   [Creating the CUIAutomation Object](uiauto-creatingcuiautomation.md)
 -   [Obtaining UI Automation Elements](uiauto-obtainingelements.md)
 -   [Retrieving Properties from UI Automation Elements](uiauto-propertiesforclients.md)
@@ -37,7 +37,7 @@ This section contains information about creating applications that use Microsoft
 
 <dl> <dt>
 
-[Registering with Ease of Access](https://docs.microsoft.com/windows/desktop/WinAuto/ease-of-access---assistive-technology-registration)
+[Registering with Ease of Access](/windows/desktop/WinAuto/ease-of-access---assistive-technology-registration)
 </dt> <dt>
 
 [Security Considerations for Assistive Technologies](uiauto-securityoverview.md)
@@ -49,7 +49,3 @@ This section contains information about creating applications that use Microsoft
  
 
  
-
-
-
-

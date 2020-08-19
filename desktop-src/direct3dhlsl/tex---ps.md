@@ -13,7 +13,7 @@ api_location:
 
 # tex - ps
 
-Loads the destination register with color data (RGBA) sampled from a texture. The texture must be bound to a particular texture stage (n) using [**SetTexture**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexture). Texture sampling is controlled by [**SetSamplerState**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setsamplerstate).
+Loads the destination register with color data (RGBA) sampled from a texture. The texture must be bound to a particular texture stage (n) using [**SetTexture**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexture). Texture sampling is controlled by [**SetSamplerState**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setsamplerstate).
 
 ## Syntax
 
@@ -48,7 +48,7 @@ Texture sampling uses texture coordinates to look up, or sample, a color value a
 
 The texture coordinate data is interpolated from the vertex texture coordinate data and is associated with a specific texture stage. The default association is a one-to-one mapping between texture stage number and texture coordinate declaration order. This means that the first set of texture coordinates defined in the vertex format are by default associated with texture stage 0.
 
-Texture coordinates may be associated with any stage using two techniques. When using a fixed function vertex shader or the fixed function pipeline, the texture stage state flag TSS\_TEXCOORDINDEX can be used in [**SetTextureStageState**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexturestagestate) to associate coordinates to a stage. Otherwise, the texture coordinates are output by the vertex shader oTₙ registers when using a programmable vertex shader.
+Texture coordinates may be associated with any stage using two techniques. When using a fixed function vertex shader or the fixed function pipeline, the texture stage state flag TSS\_TEXCOORDINDEX can be used in [**SetTextureStageState**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexturestagestate) to associate coordinates to a stage. Otherwise, the texture coordinates are output by the vertex shader oTₙ registers when using a programmable vertex shader.
 
 ## Related topics
 
@@ -60,7 +60,3 @@ Texture coordinates may be associated with any stage using two techniques. When 
  
 
  
-
-
-
-

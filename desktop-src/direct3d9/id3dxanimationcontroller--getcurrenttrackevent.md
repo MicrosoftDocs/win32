@@ -39,7 +39,7 @@ D3DXEVENTHANDLE GetCurrentTrackEvent(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Track identifier.
 
@@ -48,7 +48,7 @@ Track identifier.
 *EventType* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXEVENT\_TYPE**](https://msdn.microsoft.com/library/Bb172827(v=VS.85).aspx)**
+Type: **[**D3DXEVENT\_TYPE**](./d3dxevent-type.md)**
 
 Type of event to query.
 
@@ -81,7 +81,3 @@ Event handle to the event currently running on the specified track. **NULL** is 
  
 
  
-
-
-
-

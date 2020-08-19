@@ -49,7 +49,7 @@ Shell.ServiceStop( _
 *sServiceName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that contains the name of the service.
 
@@ -60,7 +60,7 @@ A **String** that contains the name of the service.
 
 Type: **Variant**
 
-Set to **true** to have the service started by the service control manager when [**ServiceStart**](https://msdn.microsoft.com/library/Gg537743(v=VS.85).aspx) is called. To leave the service configuration unchanged, set *vPersistent* to **false**.
+Set to **true** to have the service started by the service control manager when [**ServiceStart**](./shell-servicestart.md) is called. To leave the service configuration unchanged, set *vPersistent* to **false**.
 
 </dd> </dl>
 
@@ -80,7 +80,7 @@ Returns **true** if successful; otherwise, **false**.
 
 ## Remarks
 
-The method returns **false** if the service has already been stopped. Before calling this method, you can call [**Shell.IsServiceRunning**](https://msdn.microsoft.com/library/Gg537742(v=VS.85).aspx) to ascertain the status of the service.
+The method returns **false** if the service has already been stopped. Before calling this method, you can call [**Shell.IsServiceRunning**](./shell-isservicerunning.md) to ascertain the status of the service.
 
 This method is not currently available in Microsoft Visual Basic.
 
@@ -142,7 +142,3 @@ VBScript:
  
 
  
-
-
-
-

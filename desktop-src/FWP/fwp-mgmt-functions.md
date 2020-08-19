@@ -14,7 +14,7 @@ The Windows Filtering Platform (WFP) management functions for the filter engine 
 
 Callout Management
 
--   [**FWPM\_CALLOUT\_CHANGE\_CALLBACK0**](https://msdn.microsoft.com/library/Aa364255(v=VS.85).aspx)
+-   [**FWPM\_CALLOUT\_CHANGE\_CALLBACK0**](/windows/win32/api/fwpmu/nc-fwpmu-fwpm_callout_change_callback0)
 -   [**FwpmCalloutAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmcalloutadd0)
 -   [**FwpmCalloutCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmcalloutcreateenumhandle0)
 -   [**FwpmCalloutDeleteById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmcalloutdeletebyid0)
@@ -31,7 +31,7 @@ Callout Management
 
 Connection Object Management
 
--   [**FWPM\_CONNECTION\_CALLBACK0**](https://msdn.microsoft.com/library/Hh447352(v=VS.85).aspx)
+-   [**FWPM\_CONNECTION\_CALLBACK0**](/windows/win32/api/fwpmu/nc-fwpmu-fwpm_connection_callback0)
 -   [**FwpmConnectionCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmconnectioncreateenumhandle0)
 -   [**FwpmConnectionDestroyEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmconnectiondestroyenumhandle0)
 -   [**FwpmConnectionEnum0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmconnectionenum0)
@@ -45,7 +45,7 @@ Connection Object Management
 Event Management
 
 -   FWPM\_NET\_EVENT\_CALLBACK:
-    -   [**FWPM\_NET\_EVENT\_CALLBACK0**](https://msdn.microsoft.com/library/Dd744948(v=VS.85).aspx) (Windows 7)
+    -   [**FWPM\_NET\_EVENT\_CALLBACK0**](/windows/win32/api/fwpmu/nc-fwpmu-fwpm_net_event_callback0) (Windows 7)
     -   [**FWPM\_NET\_EVENT\_CALLBACK1**](/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_net_event_callback1) (Windows 8)
 -   [**FwpmNetEventCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmneteventcreateenumhandle0)
 -   [**FwpmNetEventDestroyEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmneteventdestroyenumhandle0)
@@ -63,7 +63,7 @@ Event Management
 
 Filter Management
 
--   [**FWPM\_FILTER\_CHANGE\_CALLBACK0**](https://msdn.microsoft.com/library/Aa364267(v=VS.85).aspx)
+-   [**FWPM\_FILTER\_CHANGE\_CALLBACK0**](/windows/win32/api/fwpmu/nc-fwpmu-fwpm_filter_change_callback0)
 -   [**FwpmFilterAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilteradd0)
 -   [**FwpmFilterCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfiltercreateenumhandle0)
 -   [**FwpmFilterDeleteById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilterdeletebyid0)
@@ -91,7 +91,7 @@ Layer Management
 
 Provider Context Management
 
--   [**FWPM\_PROVIDER\_CONTEXT\_CHANGE\_CALLBACK0**](https://msdn.microsoft.com/library/Aa364293(v=VS.85).aspx)
+-   [**FWPM\_PROVIDER\_CONTEXT\_CHANGE\_CALLBACK0**](/windows/win32/api/fwpmu/nc-fwpmu-fwpm_provider_context_change_callback0)
 -   FwpmProviderContextAdd:
     -   [**FwpmProviderContextAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmprovidercontextadd0) (Windows Vista)
     -   [**FwpmProviderContextAdd1**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmprovidercontextadd1) (Windows 7)
@@ -120,7 +120,7 @@ Provider Context Management
 
 Provider Management
 
--   [**FWPM\_PROVIDER\_CHANGE\_CALLBACK0**](https://msdn.microsoft.com/library/Aa364287(v=VS.85).aspx)
+-   [**FWPM\_PROVIDER\_CHANGE\_CALLBACK0**](/windows/win32/api/fwpmu/nc-fwpmu-fwpm_provider_change_callback0)
 -   [**FwpmProviderAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmprovideradd0)
 -   [**FwpmProviderCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmprovidercreateenumhandle0)
 -   [**FwpmProviderDeleteByKey0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmproviderdeletebykey0)
@@ -147,7 +147,7 @@ Session Management
 
 Sublayer Management
 
--   [**FWPM\_SUBLAYER\_CHANGE\_CALLBACK0**](https://msdn.microsoft.com/library/Aa364314(v=VS.85).aspx)
+-   [**FWPM\_SUBLAYER\_CHANGE\_CALLBACK0**](/windows/win32/api/fwpmu/nc-fwpmu-fwpm_sublayer_change_callback0)
 -   [**FwpmSubLayerAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsublayeradd0)
 -   [**FwpmSubLayerCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsublayercreateenumhandle0)
 -   [**FwpmSubLayerDeleteByKey0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsublayerdeletebykey0)
@@ -162,7 +162,7 @@ Sublayer Management
 
 System Ports Management
 
--   [**FWPM\_SYSTEM\_PORTS\_CALLBACK0**](https://msdn.microsoft.com/library/Dd744955(v=VS.85).aspx)
+-   [**FWPM\_SYSTEM\_PORTS\_CALLBACK0**](/windows/win32/api/fwpmu/nc-fwpmu-fwpm_system_ports_callback0)
 -   [**FwpmSystemPortsGet0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsystemportsget0)
 -   [**FwpmSystemPortsSubscribe0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsystemportssubscribe0)
 -   [**FwpmSystemPortsUnsubscribe0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsystemportsunsubscribe0)
@@ -175,7 +175,7 @@ Transaction Management
 
 vSwitch Management
 
--   [**FWPM\_VSWITCH\_EVENT\_CALLBACK0**](https://msdn.microsoft.com/library/Hh447387(v=VS.85).aspx)
+-   [**FWPM\_VSWITCH\_EVENT\_CALLBACK0**](/windows/win32/api/fwpmu/nc-fwpmu-fwpm_vswitch_event_callback0)
 -   [**FwpmvSwitchEventsGetSecurityInfo0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventsgetsecurityinfo0)
 -   [**FwpmvSwitchEventsSetSecurityInfo0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventssetsecurityinfo0)
 -   [**FwpmvSwitchEventSubscribe0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventsubscribe0)
@@ -184,7 +184,3 @@ vSwitch Management
  
 
  
-
-
-
-

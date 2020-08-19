@@ -40,7 +40,7 @@ For AC-3 audio, the media types are as follows.
 | Major Type       | MEDIATYPE\_MPEG2\_PES                | **MEDIATYPE\_Audio**         |
 | Subtype          | MEDIASUBTYPE\_DOLBY\_AC3             | **MEDIASUBTYPE\_DOLBY\_AC3** |
 | Format Type      | FORMAT\_WaveFormatEx                 | **FORMAT\_WaveFormatEx**     |
-| Format Structure | [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) | **WAVEFORMATEX**             |
+| Format Structure | [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) | **WAVEFORMATEX**             |
 
 
 
@@ -100,6 +100,3 @@ The **WAVEFORMATEX** structure's **wFormatTag** member for LPCM audio is current
  
 
  
-
-
-

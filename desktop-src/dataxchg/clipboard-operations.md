@@ -69,7 +69,7 @@ Any clipboard formats that are not rendered in response to the [**WM\_RENDERALLF
 
 ## Memory and the Clipboard
 
-A memory object that is to be placed on the clipboard should be allocated by using the [**GlobalAlloc**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc) function with the **GMEM\_MOVEABLE** flag.
+A memory object that is to be placed on the clipboard should be allocated by using the [**GlobalAlloc**](/windows/desktop/api/winbase/nf-winbase-globalalloc) function with the **GMEM\_MOVEABLE** flag.
 
 After a memory object is placed on the clipboard, ownership of that memory handle is transferred to the system. When the clipboard is emptied and the memory object has one of the following clipboard formats, the system frees the memory object by calling the specified function:
 
@@ -77,9 +77,9 @@ After a memory object is placed on the clipboard, ownership of that memory handl
 
 | Function to free object                             | Clipboard format                                                                                                                                               |
 |-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DeleteMetaFile**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletemetafile)<br/> | **CF\_DSPENHMETAFILE**<br/> **CF\_DSPMETAFILEPICT**<br/> **CF\_ENHMETAFILE**<br/> **CF\_METAFILEPICT**<br/>                            |
-| [**DeleteObject**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject)<br/>     | **CF\_BITMAP**<br/> **CF\_DSPBITMAP**<br/> **CF\_PALETTE**<br/>                                                                              |
-| [**GlobalFree**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree)<br/>        | **CF\_DIB**<br/> **CF\_DIBV5**<br/> **CF\_DSPTEXT**<br/> **CF\_OEMTEXT**<br/> **CF\_TEXT**<br/> **CF\_UNICODETEXT**<br/>   |
+| [**DeleteMetaFile**](/windows/desktop/api/wingdi/nf-wingdi-deletemetafile)<br/> | **CF\_DSPENHMETAFILE**<br/> **CF\_DSPMETAFILEPICT**<br/> **CF\_ENHMETAFILE**<br/> **CF\_METAFILEPICT**<br/>                            |
+| [**DeleteObject**](/windows/desktop/api/wingdi/nf-wingdi-deleteobject)<br/>     | **CF\_BITMAP**<br/> **CF\_DSPBITMAP**<br/> **CF\_PALETTE**<br/>                                                                              |
+| [**GlobalFree**](/windows/desktop/api/winbase/nf-winbase-globalfree)<br/>        | **CF\_DIB**<br/> **CF\_DIBV5**<br/> **CF\_DSPTEXT**<br/> **CF\_OEMTEXT**<br/> **CF\_TEXT**<br/> **CF\_UNICODETEXT**<br/>   |
 | none<br/>                                     | **CF\_OWNERDISPLAY**<br/> When the clipboard is emptied of a **CF\_OWNERDISPLAY** object, the application itself must free the memory object.<br/> |
 
 
@@ -87,10 +87,4 @@ After a memory object is placed on the clipboard, ownership of that memory handl
  
 
  
-
- 
-
-
-
-
 

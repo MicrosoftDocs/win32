@@ -26,7 +26,7 @@ Callback to update the contents of an object.
 
 ## Members
 
-The **IUpdateObjectCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IUpdateObjectCallback** also has these types of members:
+The **IUpdateObjectCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IUpdateObjectCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IUpdateObjectCallback** interface has these methods.
  
 
  
-
-
-

@@ -43,14 +43,14 @@ HRESULT ReadFromStream(
 *pJournalFileStream* \[in\]
 </dt> <dd>
 
-An [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) object representing the Journal file to read.
+An [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) object representing the Journal file to read.
 
 </dd> <dt>
 
 *ppXmlStream* \[out, retval\]
 </dt> <dd>
 
-A pointer to the address of an [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) object that will receive the XML stream created by reading the Journal file.
+A pointer to the address of an [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) object that will receive the XML stream created by reading the Journal file.
 
 </dd> </dl>
 
@@ -64,7 +64,7 @@ Streams are used to avoid direct access to the file system and to allow choice i
 
 ## Examples
 
-The following example of a handler for a button's [**Click**](https://msdn.microsoft.com/library/hkz3c8hc(v=VS.90).aspx) event creates an instance of the [**IJournalReader Interface**](ijournalreader.md) interface and uses it to read an existing Journal file.
+The following example of a handler for a button's [**Click**](/dotnet/api/system.windows.forms.control.click?view=netcore-3.1) event creates an instance of the [**IJournalReader Interface**](ijournalreader.md) interface and uses it to read an existing Journal file.
 
 
 ```C++
@@ -167,9 +167,4 @@ void CJntlReaderMFCDlg::OnBnClickedButton1()
 </dt> </dl>
 
  
-
- 
-
-
-
 

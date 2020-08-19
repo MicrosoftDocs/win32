@@ -47,11 +47,11 @@ Indirect input has had the benefit of more than 25 years of refinement. Features
 
 We provide some general user interaction guidelines here and cover device-specific guidelines in these topics.
 
--   [Touch](https://docs.microsoft.com/windows/desktop/uxguide/inter-touch)
--   [Mouse](https://docs.microsoft.com/windows/desktop/uxguide/inter-mouse)
--   [Pen](https://docs.microsoft.com/windows/desktop/uxguide/inter-pen)
--   [Keyboard](https://docs.microsoft.com/windows/desktop/uxguide/inter-keyboard)
--   [Accessibility](https://docs.microsoft.com/windows/desktop/uxguide/inter-accessibility)
+-   [Touch](/windows/desktop/uxguide/inter-touch)
+-   [Mouse](/windows/desktop/uxguide/inter-mouse)
+-   [Pen](/windows/desktop/uxguide/inter-pen)
+-   [Keyboard](/windows/desktop/uxguide/inter-keyboard)
+-   [Accessibility](/windows/desktop/uxguide/inter-accessibility)
 
 ## Visuals for feedback
 
@@ -85,10 +85,4 @@ Interactions that directly affect objects and mimic real world interactions are 
 **Note:** An exception to this is where you use specific timed interactions to assist in learning and exploration (for example, press and hold). Using appropriate descriptions and visual cues has a great effect on the use of advanced interactions.
 
  
-
- 
-
-
-
-
 

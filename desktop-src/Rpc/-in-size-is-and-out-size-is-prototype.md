@@ -18,7 +18,7 @@ void Analyze(
     [out]                                       long *pcbOut);
 ```
 
-Note the parameters that describe the array length are transmitted in the same direction as the arrays: *cbIn* and *achIn* are \[[**in**](https://docs.microsoft.com/windows/desktop/Midl/in)\] parameters while *pcbOut* and *achOut* are \[[**out**](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\] parameters. As an **\[out\]** parameter, the parameter *pcbOut* must follow C convention and be declared as a pointer.
+Note the parameters that describe the array length are transmitted in the same direction as the arrays: *cbIn* and *achIn* are \[[**in**](/windows/desktop/Midl/in)\] parameters while *pcbOut* and *achOut* are \[[**out**](/windows/desktop/Midl/out-idl)\] parameters. As an **\[out\]** parameter, the parameter *pcbOut* must follow C convention and be declared as a pointer.
 
 The client code counts the number of characters in the string, including the trailing zero, before calling the remote procedure as shown:
 
@@ -47,12 +47,8 @@ void Analyze(char *pchIn,
 }
 ```
 
-The \[**string**\] attribute can be utilized when a parameter is known to be a string. This attribute directs the stub to calculate the string size, thus eliminating the overhead associated with the \[[**length is**](https://docs.microsoft.com/windows/desktop/Midl/size-is)\] parameters. Additionally, it will direct the stub to verify the string is **NULL** terminated before passing the parameter to the application.
+The \[**string**\] attribute can be utilized when a parameter is known to be a string. This attribute directs the stub to calculate the string size, thus eliminating the overhead associated with the \[[**length is**](/windows/desktop/Midl/size-is)\] parameters. Additionally, it will direct the stub to verify the string is **NULL** terminated before passing the parameter to the application.
 
  
 
  
-
-
-
-

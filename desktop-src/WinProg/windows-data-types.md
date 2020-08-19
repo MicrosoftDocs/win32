@@ -186,7 +186,7 @@ ms.date: 05/31/2018
 
 # Windows Data Types
 
-The data types supported by Windows are used to define function return values, function and message parameters, and structure members. They define the size and meaning of these elements. For more information about the underlying C/C++ data types, see [Data Type Ranges](https://msdn.microsoft.com/library/s3f49ktz.aspx).
+The data types supported by Windows are used to define function return values, function and message parameters, and structure members. They define the size and meaning of these elements. For more information about the underlying C/C++ data types, see [Data Type Ranges](/cpp/cpp/data-type-ranges?view=vs-2019).
 
 The following table contains the following types: character, integer, Boolean, pointer, and handle. The character, integer, and Boolean types are common to most C compilers. Most of the pointer-type names begin with a prefix of P or LP. Handles refer to a resource that has been loaded into memory.
 
@@ -342,7 +342,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HDC"></span><span id="hdc"></span><strong>HDC</strong></td>
-<td><p>A handle to a <a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-types">device context</a> (DC).</p>
+<td><p>A handle to a <a href="/windows/desktop/gdi/device-context-types">device context</a> (DC).</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HANDLE HDC;</code></p></td>
 </tr>
@@ -1647,10 +1647,4 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 
 
  
-
- 
-
-
-
-
 

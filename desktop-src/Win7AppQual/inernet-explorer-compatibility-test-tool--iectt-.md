@@ -54,7 +54,7 @@ You can filter any of your IECTT results by object name, by issue type, or by bo
 
 2.  Enter the name of the object that you intend to view in the **Enter the name of the object to view issues for** box.
 
-For more information about this tool and other developers tools, see [What is the Internet Explorer Compatibility Test Tool?](https://technet.microsoft.com/library/cc721989(WS.10).aspx) in the MSDN Library and the [Application Compatibility Logging in IE8](https://blogs.msdn.com/b/ie/archive/2008/09/23/application-compatibility-logging-in-ie8.aspx) blog post.
+For more information about this tool and other developers tools, see [What is the Internet Explorer Compatibility Test Tool?](/previous-versions/windows/it-pro/windows-7/cc721989(v=ws.10)) in the MSDN Library and the [Application Compatibility Logging in IE8](/archive/blogs/ie/application-compatibility-logging-in-ie8) blog post.
 
 ## Related topics
 
@@ -66,6 +66,3 @@ For more information about this tool and other developers tools, see [What is th
  
 
  
-
-
-

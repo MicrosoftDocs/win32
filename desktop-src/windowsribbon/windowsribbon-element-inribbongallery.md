@@ -164,7 +164,7 @@ Applies only to galleries where the value of the <em>Type</em> attribute is equa
 | [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                                     | May occur one or more times<br/> <br/> |
 | [**InRibbonGallery.MenuGroups**](windowsribbon-element-inribbongallery-menugroups.md)<br/> | Must occur exactly once<br/> <br/>     |
 | [**InRibbonGallery.MenuLayout**](windowsribbon-element-inribbongallery-menulayout.md)<br/> | May occur at most once<br/> <br/>      |
-| [**Spinner**](windowsribbon-element-spinner.md)<br/>                                       | May occur one or more times<br/> <br/> |
+| [**Button**](windowsribbon-element-button.md)<br/>                                       | May occur one or more times<br/> <br/> |
 | [**SplitButton**](windowsribbon-element-splitbutton.md)<br/>                               | May occur one or more times<br/> <br/> |
 | [**ToggleButton**](windowsribbon-element-togglebutton.md)<br/>                             | May occur one or more times<br/> <br/> |
 

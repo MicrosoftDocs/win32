@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Obtaining a Pointer to the Reader Object
 
-In certain cases, for example when determining which data unit extensions are set on a given stream, you may need to access the Reader Object of the Windows Media Format SDK directly. The following function shows how to obtain the [**IWMReaderAdvanced2**](https://msdn.microsoft.com/library/Dd757430(v=VS.85).aspx) interface on the Reader Object itself:
+In certain cases, for example when determining which data unit extensions are set on a given stream, you may need to access the Reader Object of the Windows Media Format SDK directly. The following function shows how to obtain the [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) interface on the Reader Object itself:
 
 
 ```C++
@@ -76,6 +76,3 @@ HRESULT GetReaderAdvanced(IGraphBuilder *pGraph, IWMReaderAdvanced2** pReaderAdv
  
 
  
-
-
-

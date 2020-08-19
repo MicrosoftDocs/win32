@@ -25,7 +25,7 @@ This topic contains the following sections.
 
 ## The CUIAutomation Object
 
-The first step in using UI Automation is to create an object of the [**CUIAutomation**](https://msdn.microsoft.com/library/Ff384838(v=VS.85).aspx) class. This object exposes the [**IUIAutomation**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation) interface, which is the gateway to all the other objects and interfaces that are used by client applications. Among other things, **IUIAutomation** is used for the following tasks:
+The first step in using UI Automation is to create an object of the [**CUIAutomation**](/previous-versions/windows/desktop/legacy/ff384838(v=vs.85)) class. This object exposes the [**IUIAutomation**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation) interface, which is the gateway to all the other objects and interfaces that are used by client applications. Among other things, **IUIAutomation** is used for the following tasks:
 
 -   Subscribing to events.
 -   Creating conditions. Conditions are objects used to narrow the scope of searches for UI Automation elements.
@@ -40,9 +40,9 @@ To get started using UI Automation in your application, take the following steps
 -   Include UIAutomation.h in your project headers. UIAutomation.h brings in the other headers that define the API.
 -   Declare a pointer to [**IUIAutomation**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation).
 -   Initialize the Component Object Model (COM).
--   Create an instance of [**CUIAutomation**](https://msdn.microsoft.com/library/Ff384838(v=VS.85).aspx) and retrieve the [**IUIAutomation**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation) interface in your pointer.
+-   Create an instance of [**CUIAutomation**](/previous-versions/windows/desktop/legacy/ff384838(v=vs.85)) and retrieve the [**IUIAutomation**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation) interface in your pointer.
 
-The following example function initializes COM, and then creates the [**CUIAutomation**](https://msdn.microsoft.com/library/Ff384838(v=VS.85).aspx) object, retrieving the [**IUIAutomation**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation) interface in the *ppAutomation* pointer.
+The following example function initializes COM, and then creates the [**CUIAutomation**](/previous-versions/windows/desktop/legacy/ff384838(v=vs.85)) object, retrieving the [**IUIAutomation**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation) interface in the *ppAutomation* pointer.
 
 
 ```C++
@@ -77,7 +77,3 @@ HRESULT InitializeUIAutomation(IUIAutomation **ppAutomation)
  
 
  
-
-
-
-

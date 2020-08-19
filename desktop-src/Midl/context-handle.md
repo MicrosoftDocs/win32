@@ -52,7 +52,7 @@ Specifies a pointer type or a type identifier. An optional storage specification
 *declarator and declarator-list* 
 </dt> <dd>
 
-Specifies standard C declarators, such as identifiers, pointer declarators, and array declarators. The declarator for a context handle must include at least one pointer declarator. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**arrays**](arrays-1.md), and [Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers). The *declarator-list* consists of one or more declarators, separated by commas. The parameter-name identifier in the function declarator is optional.
+Specifies standard C declarators, such as identifiers, pointer declarators, and array declarators. The declarator for a context handle must include at least one pointer declarator. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**arrays**](arrays-1.md), and [Arrays and Pointers](/windows/desktop/Rpc/arrays-and-pointers). The *declarator-list* consists of one or more declarators, separated by commas. The parameter-name identifier in the function declarator is optional.
 
 </dd> <dt>
 
@@ -95,7 +95,7 @@ Specifies the identifier that specifies the context handle type as defined in a 
 
 ## Remarks
 
-The **\[context\_handle\]** attribute can appear as an IDL [**typedef**](typedef.md) type attribute, as a function return type attribute, or as a parameter attribute. When you apply the **\[context\_handle\]** attribute to a type definition, you must also provide a context rundown routine. See [Server Context Run-down Routine](https://docs.microsoft.com/windows/desktop/Rpc/server-context-run-down-routine) for details.
+The **\[context\_handle\]** attribute can appear as an IDL [**typedef**](typedef.md) type attribute, as a function return type attribute, or as a parameter attribute. When you apply the **\[context\_handle\]** attribute to a type definition, you must also provide a context rundown routine. See [Server Context Run-down Routine](/windows/desktop/Rpc/server-context-run-down-routine) for details.
 
 When you use the MIDL compiler in default ([**/ms\_ext**](-ms-ext.md)) mode, a context handle can be any pointer type selected by the user, as long as it complies with the requirements for context handles described here. The data associated with such a context handle type is not transmitted on the network and should only be manipulated by the server application. DCE IDL compilers restrict context handles to pointers of type [**void**](void.md) **\***. Therefore this feature is not available when you use the MIDL compiler [**/osf**](-osf.md) switch.
 
@@ -144,19 +144,19 @@ void __RPC_USER PCONTEXT_HANDLE_TYPE_rundown (PCONTEXT_HANDLE_TYPE);
 [**callback**](callback.md)
 </dt> <dt>
 
-[Client Context Reset](https://docs.microsoft.com/windows/desktop/Rpc/client-context-reset)
+[Client Context Reset](/windows/desktop/Rpc/client-context-reset)
 </dt> <dt>
 
 [**const**](const.md)
 </dt> <dt>
 
-[Context Handles](https://docs.microsoft.com/windows/desktop/Rpc/context-handles)
+[Context Handles](/windows/desktop/Rpc/context-handles)
 </dt> <dt>
 
 [**handle**](handle.md)
 </dt> <dt>
 
-[Binding and Handles](https://docs.microsoft.com/windows/desktop/Rpc/binding-and-handles)
+[Binding and Handles](/windows/desktop/Rpc/binding-and-handles)
 </dt> <dt>
 
 [**ignore**](ignore.md)
@@ -171,7 +171,7 @@ void __RPC_USER PCONTEXT_HANDLE_TYPE_rundown (PCONTEXT_HANDLE_TYPE);
 [**local**](local.md)
 </dt> <dt>
 
-[Multithreaded Clients and Context Handles](https://docs.microsoft.com/windows/desktop/Rpc/multithreaded-clients-and-context-handles)
+[Multithreaded Clients and Context Handles](/windows/desktop/Rpc/multithreaded-clients-and-context-handles)
 </dt> <dt>
 
 [**/ms\_ext**](-ms-ext.md)
@@ -189,10 +189,10 @@ void __RPC_USER PCONTEXT_HANDLE_TYPE_rundown (PCONTEXT_HANDLE_TYPE);
 [**represent\_as**](represent-as.md)
 </dt> <dt>
 
-[**RpcSsDestroyClientContext**](https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssdestroyclientcontext)
+[**RpcSsDestroyClientContext**](/windows/desktop/api/rpcndr/nf-rpcndr-rpcssdestroyclientcontext)
 </dt> <dt>
 
-[Server Context Run-down Routine](https://docs.microsoft.com/windows/desktop/Rpc/server-context-run-down-routine)
+[Server Context Run-down Routine](/windows/desktop/Rpc/server-context-run-down-routine)
 </dt> <dt>
 
 [**string**](string.md)
@@ -213,7 +213,3 @@ void __RPC_USER PCONTEXT_HANDLE_TYPE_rundown (PCONTEXT_HANDLE_TYPE);
  
 
  
-
-
-
-

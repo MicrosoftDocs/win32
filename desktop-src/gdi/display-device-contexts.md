@@ -32,13 +32,13 @@ Because only a limited number of common device contexts exist, an application sh
 
 *Private device contexts* are display DCs that, unlike common device contexts, retain any changes to the default data even after an application releases them. Private device contexts are used in applications that perform numerous drawing operations such as computer-aided design (CAD) applications, desktop-publishing applications, drawing and painting applications, and so on. Private device contexts are not part of the system cache and therefore need not be released after use. The system automatically removes a private device context after the last window of that class has been destroyed.
 
-An application creates a private device context by first specifying the CS\_OWNDC window-class style when it initializes the **style** member of the [**WNDCLASS**](https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx) structure and calls the [**RegisterClass**](https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx) function. (For more information about window classes, see [Window Classes](https://msdn.microsoft.com/library/ms632596(v=VS.85).aspx).)
+An application creates a private device context by first specifying the CS\_OWNDC window-class style when it initializes the **style** member of the [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) structure and calls the [**RegisterClass**](/windows/win32/api/winuser/nf-winuser-registerclassa) function. (For more information about window classes, see [Window Classes](../winmsg/window-classes.md).)
 
 After creating a window with the CS\_OWNDC style, an application can call the [**GetDC**](/windows/desktop/api/Winuser/nf-winuser-getdc), [**GetDCEx**](/windows/desktop/api/Winuser/nf-winuser-getdcex), or [**BeginPaint**](/windows/desktop/api/Winuser/nf-winuser-beginpaint) function once to obtain a handle identifying a private device context. The application can continue using this handle (and the associated DC) until it deletes the window created with this class. Any changes to graphic objects and their attributes, or graphic modes are retained by the system until the window is deleted.
 
 ## Window Device Contexts
 
-A *window device context* enables an application to draw anywhere in a window, including the nonclient area. Window device contexts are typically used by applications that process the [**WM\_NCPAINT**](wm-ncpaint.md) and [**WM\_NCACTIVATE**](https://msdn.microsoft.com/library/ms632633(v=VS.85).aspx) messages for windows with custom nonclient areas. Using a window device context is not recommended for any other purpose. For more information; see [**GetWindowDC**](/windows/desktop/api/Winuser/nf-winuser-getwindowdc).
+A *window device context* enables an application to draw anywhere in a window, including the nonclient area. Window device contexts are typically used by applications that process the [**WM\_NCPAINT**](wm-ncpaint.md) and [**WM\_NCACTIVATE**](../winmsg/wm-ncactivate.md) messages for windows with custom nonclient areas. Using a window device context is not recommended for any other purpose. For more information; see [**GetWindowDC**](/windows/desktop/api/Winuser/nf-winuser-getwindowdc).
 
 ## Parent Device Contexts
 
@@ -47,6 +47,3 @@ A *parent device context* enables an application to minimize the time necessary 
  
 
  
-
-
-

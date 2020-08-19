@@ -58,7 +58,7 @@ Specifies the name of the interface.
 *base-interface* 
 </dt> <dd>
 
-Specifies the name of an Automation interface from which this derived interface inherits member functions, status codes, and interface attributes. All Automation interfaces are derived from [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) or [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx).
+Specifies the name of an Automation interface from which this derived interface inherits member functions, status codes, and interface attributes. All Automation interfaces are derived from [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) or [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch).
 
 </dd> </dl>
 
@@ -77,16 +77,16 @@ The parameters and return types specified for the members of an **\[oleautomatio
 | **int**                                         | Signed integer, whose size is system dependent. On 32-bit platforms, MIDL treats [**int**](int.md) as a 32-bit signed integer.                                                                               |
 | **long**                                        | 32-bit signed integer.                                                                                                                                                                                        |
 | **short**                                       | 16-bit signed integer.                                                                                                                                                                                        |
-| **BSTR**                                        | Length-prefixed string, as described in the Automation topic [BSTR](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx).                                                                                                    |
+| **BSTR**                                        | Length-prefixed string, as described in the Automation topic [BSTR](/previous-versions/windows/desktop/automat/bstr).                                                                                                    |
 | **CURRENCY**                                    | 8-byte, fixed floating-point number.                                                                                                                                                                          |
 | **DATE**                                        | 64-bit, floating point fractional number of days since December 30, 1899.                                                                                                                                     |
 | **SCODE**                                       | For 16-bit systems–built-in error type that corresponds to VT\_ERROR.                                                                                                                                         |
 | **Typedef enum**Â *myenum*                      | Signed integer, whose size is system dependent.                                                                                                                                                               |
-| **Interface IDispatch \***                      | Pointer to the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface (VT\_DISPATCH).                                                                                                                |
-| **Interface IUnknown \***                       | Pointer to an interface that does not derive from [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) (VT\_UNKNOWN). (Any OLE interface can be represented by its [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface.) |
-| **dispinterface**Â *Typename \**                | Pointer to an interface derived from [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) (VT\_DISPATCH).                                                                                                    |
+| **Interface IDispatch \***                      | Pointer to the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface (VT\_DISPATCH).                                                                                                                |
+| **Interface IUnknown \***                       | Pointer to an interface that does not derive from [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) (VT\_UNKNOWN). (Any OLE interface can be represented by its [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.) |
+| **dispinterface**Â *Typename \**                | Pointer to an interface derived from [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) (VT\_DISPATCH).                                                                                                    |
 | **Coclass**Â *Typename \**                      | Pointer to a coclass name (VT\_UNKNOWN).                                                                                                                                                                      |
-| **\[oleautomation\] interface**Â  *Typename \** | Pointer to an interface that derives from [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx).                                                                                                                                      |
+| **\[oleautomation\] interface**Â  *Typename \** | Pointer to an interface that derives from [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown).                                                                                                                                      |
 | **SAFEARRAY**(*TypeName*)                       | *TypeName* is any of the above types. Array of these types.                                                                                                                                                   |
 | **TypeName \***                                 | *TypeName* is any of the above types. Pointer to a type.                                                                                                                                                      |
 | **Decimal**                                     | 96-bit unsigned binary integer scaled by a variable power of 10. A decimal data type that provides a size and a scale for a number (as in coordinates).                                                       |
@@ -101,7 +101,7 @@ A return type is compatible with Automation if its type is an HRESULT, SCODE or 
 
 A member is compatible with Automation if its return type and all its parameters are Automation compatible.
 
-An interface is compatible with Automation if it is derived from [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) or [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx), it has the **\[oleautomation\]** attribute, and all of its VTBL entries are Automation compatible. For 32-bit platforms, the calling convention for all methods in the interface must be STDCALL. For 16-bit systems, all methods must have the CDECL calling convention.
+An interface is compatible with Automation if it is derived from [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) or [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown), it has the **\[oleautomation\]** attribute, and all of its VTBL entries are Automation compatible. For 32-bit platforms, the calling convention for all methods in the interface must be STDCALL. For 16-bit systems, all methods must have the CDECL calling convention.
 
 Every [**dispinterface**](dispinterface.md) is implicitly Automation-compatible. Therefore you should not use the **\[oleautomation\]** attribute on **dispinterface**.
 
@@ -142,10 +142,10 @@ library Hello
 [Generating a Type Library With MIDL](generating-a-type-library-with-midl-2.md)
 </dt> <dt>
 
-[ODL File Example](https://msdn.microsoft.com/library/ms221308(v=VS.71).aspx)
+[ODL File Example](/previous-versions/windows/desktop/automat/odl-file-example)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> <dt>
 
 [**/osf**](-osf.md)
@@ -157,7 +157,3 @@ library Hello
  
 
  
-
-
-
-

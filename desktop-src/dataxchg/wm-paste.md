@@ -51,7 +51,7 @@ This message does not return a value.
 
 ## Remarks
 
-When sent to a combo box, the **WM\_PASTE** message is handled by its edit control. This message has no effect when sent to a combo box with the [**CBS\_DROPDOWNLIST**](https://msdn.microsoft.com/library/Bb775796(v=VS.85).aspx) style.
+When sent to a combo box, the **WM\_PASTE** message is handled by its edit control. This message has no effect when sent to a combo box with the [**CBS\_DROPDOWNLIST**](../controls/combo-box-styles.md) style.
 
 ## Requirements
 
@@ -81,7 +81,7 @@ When sent to a combo box, the **WM\_PASTE** message is handled by its edit contr
 [**WM\_CUT**](wm-cut.md)
 </dt> <dt>
 
-[**WM\_UNDO**](https://docs.microsoft.com/windows/desktop/Controls/wm-undo)
+[**WM\_UNDO**](/windows/desktop/Controls/wm-undo)
 </dt> <dt>
 
 **Conceptual**
@@ -91,10 +91,4 @@ When sent to a combo box, the **WM\_PASTE** message is handled by its edit contr
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

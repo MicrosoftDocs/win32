@@ -58,7 +58,7 @@ The name of the requested metadata item.
 *pvarValue* \[in, out\]
 </dt> <dd>
 
-Type: **[PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx)\***
+Type: **[PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant)\***
 
 Pointer that receives the metadata property.
 
@@ -85,9 +85,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

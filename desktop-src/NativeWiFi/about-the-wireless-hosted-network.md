@@ -93,7 +93,7 @@ The **netsh** commands are intended for use by advanced users or administrators.
 
 **netsh wlan /?**
 
-Documentation on all of the Netsh commands for wireless LAN is also available online on Technet. For more information, please see [Netsh commands for Wireless Local Area Network (WLAN)](https://technet.microsoft.com/library/cc755301.aspx).
+Documentation on all of the Netsh commands for wireless LAN is also available online on Technet. For more information, please see [Netsh commands for Wireless Local Area Network (WLAN)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc755301(v=ws.10)).
 
 The following are a few **netsh** commands commonly used with for wireless LAN and the wireless Hosted Network, although other combinations of commands are supported:
 
@@ -159,7 +159,3 @@ The following are a few **netsh** commands commonly used with for wireless LAN a
  
 
  
-
-
-
-

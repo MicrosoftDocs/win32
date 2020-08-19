@@ -55,7 +55,7 @@ Data type: **[**Msvm\_EthernetSwitchExtension**](msvm-ethernetswitchextension.md
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_EthernetSwitchExtension**](msvm-ethernetswitchextension.md) class that represents the parent switch extension.
@@ -71,7 +71,7 @@ Data type: **[**Msvm\_EthernetSwitchExtension**](msvm-ethernetswitchextension.md
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_EthernetSwitchExtension**](msvm-ethernetswitchextension.md) class that represents the child switch extension.
@@ -93,9 +93,4 @@ A reference to an instance of the [**Msvm\_EthernetSwitchExtension**](msvm-ether
 
 
  
-
- 
-
-
-
 

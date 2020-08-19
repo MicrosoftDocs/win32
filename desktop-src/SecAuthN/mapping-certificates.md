@@ -15,13 +15,10 @@ ms.date: 05/31/2018
 
 When a server application requires client authentication, Schannel automatically attempts to map the certificate supplied by the client to a user account.
 
-After the [*security context*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) has been established, the server application can use the [**QuerySecurityContextToken**](/windows/desktop/api/Sspi/nf-sspi-querysecuritycontexttoken) function to obtain an [*access token*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) for the user account to which the [*client certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) was mapped. Also, the server can use the [**ImpersonateSecurityContext**](/windows/desktop/api/Sspi/nf-sspi-impersonatesecuritycontext) function to impersonate the client.
+After the [*security context*](../secgloss/s-gly.md) has been established, the server application can use the [**QuerySecurityContextToken**](/windows/desktop/api/Sspi/nf-sspi-querysecuritycontexttoken) function to obtain an [*access token*](../secgloss/a-gly.md) for the user account to which the [*client certificate*](../secgloss/c-gly.md) was mapped. Also, the server can use the [**ImpersonateSecurityContext**](/windows/desktop/api/Sspi/nf-sspi-impersonatesecuritycontext) function to impersonate the client.
 
 For more information on authentication, see [Performing Authentication Using Schannel](performing-authentication-using-schannel.md).
 
  
 
  
-
-
-

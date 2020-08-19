@@ -21,7 +21,7 @@ api_location:
 
 # Win32\_ServerFeature class
 
-\[The **Win32\_ServerFeature** class is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the [ServerManager Deploymentprovider Provider Classes](https://docs.microsoft.com/previous-versions/windows/desktop/srvmgrdeployprov/server-manager-deployment).\]
+\[The **Win32\_ServerFeature** class is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the [ServerManager Deploymentprovider Provider Classes](/previous-versions/windows/desktop/srvmgrdeployprov/server-manager-deployment).\]
 
 The **Win32\_ServerFeature** class represents the features installed on a computer running Windows Server.
 
@@ -73,7 +73,7 @@ Name
 
 1
 
-[Application Server](https://docs.microsoft.com/windows)
+[Application Server](/windows)
 
 2
 
@@ -81,7 +81,7 @@ Web Server (IIS)
 
 3
 
-[Streaming Media Services](https://docs.microsoft.com/windows)
+[Streaming Media Services](/windows)
 
 5
 
@@ -89,15 +89,15 @@ Fax Server
 
 6
 
-File and iSCSI Services<br/> [name change](https://docs.microsoft.com/windows)<br/>
+File and iSCSI Services<br/> [name change](/windows)<br/>
 
 7
 
-Print and Document Services<br/> [name change](https://docs.microsoft.com/windows)<br/>
+Print and Document Services<br/> [name change](/windows)<br/>
 
 8
 
-[Active Directory Federation Services](https://docs.microsoft.com/windows)
+[Active Directory Federation Services](/windows)
 
 9
 
@@ -109,15 +109,15 @@ Active Directory Domain Services
 
 11
 
-[UDDI Services](https://docs.microsoft.com/windows)<br/>
+[UDDI Services](/windows)<br/>
 
 12
 
-[DHCP Server](https://docs.microsoft.com/windows)
+[DHCP Server](/windows)
 
 13
 
-[DNS Server](https://docs.microsoft.com/windows)
+[DNS Server](/windows)
 
 14
 
@@ -133,7 +133,7 @@ Active Directory Rights Management Services
 
 18
 
-[Remote Desktop Services](https://docs.microsoft.com/windows)<br/> [name change](https://docs.microsoft.com/windows)<br/>
+[Remote Desktop Services](/windows)<br/> [name change](/windows)<br/>
 
 19
 
@@ -145,23 +145,23 @@ Hyper-V
 
 21
 
-[Windows Server Update Services](https://docs.microsoft.com/windows)
+[Windows Server Update Services](/windows)
 
 33
 
-[Failover Clustering](https://docs.microsoft.com/windows)
+[Failover Clustering](/windows)
 
 34
 
-[Network Load Balancing](https://docs.microsoft.com/windows)
+[Network Load Balancing](/windows)
 
 36
 
-[.NET Framework 3.5.1 Features](https://docs.microsoft.com/windows)<br/> [name change](https://docs.microsoft.com/windows)<br/>
+[.NET Framework 3.5.1 Features](/windows)<br/> [name change](/windows)<br/>
 
 37
 
-[Windows System Resource Manager](https://docs.microsoft.com/windows)
+[Windows System Resource Manager](/windows)
 
 38
 
@@ -169,7 +169,7 @@ Wireless LAN Service
 
 39
 
-[Windows Server Backup Features](https://docs.microsoft.com/windows)
+[Windows Server Backup Features](/windows)
 
 40
 
@@ -181,7 +181,7 @@ Windows Process Activation Service
 
 42
 
-[Remote Assistance](https://docs.microsoft.com/windows)
+[Remote Assistance](/windows)
 
 43
 
@@ -189,15 +189,15 @@ Simple TCP/IP Services
 
 44
 
-[Telnet Client](https://docs.microsoft.com/windows)
+[Telnet Client](/windows)
 
 45
 
-[Telnet Server](https://docs.microsoft.com/windows)
+[Telnet Server](/windows)
 
 46
 
-[Subsystem For Unix-based Applications](https://docs.microsoft.com/windows)
+[Subsystem For Unix-based Applications](/windows)
 
 47
 
@@ -213,11 +213,11 @@ Message Queuing
 
 51
 
-[Windows Internal Database](https://docs.microsoft.com/windows)
+[Windows Internal Database](/windows)
 
 52
 
-[Storage Manager For SANs](https://docs.microsoft.com/windows)
+[Storage Manager For SANs](/windows)
 
 53
 
@@ -225,11 +225,11 @@ LPR Port Monitor
 
 55
 
-[Internet Storage Name Server](https://docs.microsoft.com/windows)
+[Internet Storage Name Server](/windows)
 
 57
 
-[Multipath I/O](https://docs.microsoft.com/windows)
+[Multipath I/O](/windows)
 
 58
 
@@ -237,11 +237,11 @@ TFTP Client
 
 59
 
-[SNMP Services](https://docs.microsoft.com/windows)
+[SNMP Services](/windows)
 
 60
 
-[Removable Storage Manager](https://docs.microsoft.com/windows)
+[Removable Storage Manager](/windows)
 
 61
 
@@ -249,7 +249,7 @@ BitLocker Drive Encryption
 
 62
 
-[Services For Network File System](https://docs.microsoft.com/windows)
+[Services For Network File System](/windows)
 
 63
 
@@ -257,7 +257,7 @@ Internet Printing Client
 
 64
 
-[Peer Name Resolution Protocol](https://docs.microsoft.com/windows)
+[Peer Name Resolution Protocol](/windows)
 
 65
 
@@ -265,27 +265,27 @@ Connection Manager Administration Kit
 
 66
 
-[Windows PowerShell](https://docs.microsoft.com/windows)<br/>
+[Windows PowerShell](/windows)<br/>
 
 67
 
-[Remote Server Administration Tools](https://docs.microsoft.com/windows)
+[Remote Server Administration Tools](/windows)
 
 68
 
-[Quality Windows Audio Video Experience](https://docs.microsoft.com/windows)
+[Quality Windows Audio Video Experience](/windows)
 
 69
 
-[Group Policy Management](https://docs.microsoft.com/windows)
+[Group Policy Management](/windows)
 
 71
 
-[Indexing Service](https://docs.microsoft.com/windows)
+[Indexing Service](/windows)
 
 72
 
-[File Server Resource Manager (FSRM)](https://docs.microsoft.com/windows)
+[File Server Resource Manager (FSRM)](/windows)
 
 73
 
@@ -297,11 +297,11 @@ Ink and Handwriting Services<br/>
 
 320
 
-[Windows Server Migration Tools](https://docs.microsoft.com/windows)<br/>
+[Windows Server Migration Tools](/windows)<br/>
 
 321
 
-[WinRM IIS Extension](https://docs.microsoft.com/windows)<br/>
+[WinRM IIS Extension](/windows)<br/>
 
 324
 
@@ -309,19 +309,19 @@ Ink and Handwriting Services<br/>
 
 334
 
-[DirectAccess Management Console](https://docs.microsoft.com/windows)<br/>
+[DirectAccess Management Console](/windows)<br/>
 
 335
 
-[Background Intelligent Transfer Service (BITS)](https://docs.microsoft.com/windows)<br/>
+[Background Intelligent Transfer Service (BITS)](/windows)<br/>
 
 338
 
-[XPS Viewer](https://docs.microsoft.com/windows)<br/>
+[XPS Viewer](/windows)<br/>
 
 339
 
-[Windows Biometric Framework](https://docs.microsoft.com/windows)<br/>
+[Windows Biometric Framework](/windows)<br/>
 
 340
 
@@ -329,7 +329,7 @@ WoW64 Support<br/>
 
 351
 
-[Windows PowerShell Integrated Scripting Environment (ISE)](https://docs.microsoft.com/windows)<br/>
+[Windows PowerShell Integrated Scripting Environment (ISE)](/windows)<br/>
 
 352
 
@@ -337,67 +337,67 @@ Windows TIFF IFilter<br/>
 
 404
 
-[Window Server Update Services](https://docs.microsoft.com/windows)
+[Window Server Update Services](/windows)
 
 409
 
-[IP Address Management (IPAM) Server](https://docs.microsoft.com/windows)
+[IP Address Management (IPAM) Server](/windows)
 
 417
 
-[Windows PowerShell](https://docs.microsoft.com/windows)
+[Windows PowerShell](/windows)
 
 418
 
-[.NET Framework 4.5](https://docs.microsoft.com/windows)
+[.NET Framework 4.5](/windows)
 
 432
 
-[Windows Search Service](https://docs.microsoft.com/windows)
+[Windows Search Service](/windows)
 
 438
 
-[Client for NFS](https://docs.microsoft.com/windows)
+[Client for NFS](/windows)
 
 441
 
-[BitLocker Network Unlock](https://docs.microsoft.com/windows)
+[BitLocker Network Unlock](/windows)
 
 442
 
-[Management OData IIS Extension](https://docs.microsoft.com/windows)
+[Management OData IIS Extension](/windows)
 
 450
 
-[.NET Framework 4.5 Advanced Services](https://docs.microsoft.com/windows)
+[.NET Framework 4.5 Advanced Services](/windows)
 
 466
 
-[.NET Framework 4.5 Features](https://docs.microsoft.com/windows)
+[.NET Framework 4.5 Features](/windows)
 
 468
 
-[Remote Access](https://docs.microsoft.com/windows)<br/>
+[Remote Access](/windows)<br/>
 
 477
 
-[User Interfaces and Infrastructure](https://docs.microsoft.com/windows)
+[User Interfaces and Infrastructure](/windows)
 
 478
 
-[Graphical Management Tools and Infrastructure](https://docs.microsoft.com/windows)
+[Graphical Management Tools and Infrastructure](/windows)
 
 481
 
-[File and Storage Services](https://docs.microsoft.com/windows)
+[File and Storage Services](/windows)
 
 485
 
-[Windows Server Essentials Experience](https://docs.microsoft.com/windows)
+[Windows Server Essentials Experience](/windows)
 
 488
 
-[Direct Play](https://docs.microsoft.com/windows)
+[Direct Play](/windows)
 
 File Services - Role Services (6)
 
@@ -407,7 +407,7 @@ Name
 
 100
 
-[Distributed File System](https://docs.microsoft.com/windows)
+[Distributed File System](/windows)
 
 101
 
@@ -419,27 +419,27 @@ DFS Replication
 
 103
 
-[File Replication Service](https://docs.microsoft.com/windows)
+[File Replication Service](/windows)
 
 104
 
-[File Server Resource Manager (FSRM)](https://docs.microsoft.com/windows)
+[File Server Resource Manager (FSRM)](/windows)
 
 105
 
-[Services For Network File System](https://docs.microsoft.com/windows)
+[Services For Network File System](/windows)
 
 106
 
-[Single Instance Storage](https://docs.microsoft.com/windows)
+[Single Instance Storage](/windows)
 
 107
 
-[Windows Search Service](https://docs.microsoft.com/windows)
+[Windows Search Service](/windows)
 
 108
 
-[Indexing Service](https://docs.microsoft.com/windows)
+[Indexing Service](/windows)
 
 255
 
@@ -451,27 +451,27 @@ BranchCache for Network Files
 
 431
 
-[Server for NFS](https://docs.microsoft.com/windows)<br/>
+[Server for NFS](/windows)<br/>
 
 434
 
-[File Server VSS Agent Service](https://docs.microsoft.com/windows)<br/>
+[File Server VSS Agent Service](/windows)<br/>
 
 435
 
-[iSCSI Target Server](https://docs.microsoft.com/windows)<br/>
+[iSCSI Target Server](/windows)<br/>
 
 436
 
-[Data Deduplication](https://docs.microsoft.com/windows)<br/>
+[Data Deduplication](/windows)<br/>
 
 437
 
-[iSCSI Target Storage Provider (VDS and VSS hardware providers)](https://docs.microsoft.com/windows)
+[iSCSI Target Storage Provider (VDS and VSS hardware providers)](/windows)
 
 486
 
-[Work Folders](https://docs.microsoft.com/windows)
+[Work Folders](/windows)
 
 AD DS - Role Services (10)
 
@@ -481,23 +481,23 @@ Name
 
 110
 
-[Active Directory Domain Controller](https://docs.microsoft.com/windows)
+[Active Directory Domain Controller](/windows)
 
 111
 
-[Identity Management For Unix](https://docs.microsoft.com/windows)
+[Identity Management For Unix](/windows)
 
 112
 
-[Server For Network Information Services](https://docs.microsoft.com/windows)
+[Server For Network Information Services](/windows)
 
 113
 
-[Password Synchronization](https://docs.microsoft.com/windows)
+[Password Synchronization](/windows)
 
 294
 
-[Remote Server Administration Tools](https://docs.microsoft.com/windows)
+[Remote Server Administration Tools](/windows)
 
 Streaming Media - Role Services (3)
 
@@ -507,15 +507,15 @@ Name
 
 120
 
-[Windows Media Server](https://docs.microsoft.com/windows)
+[Windows Media Server](/windows)
 
 121
 
-[Web-based Administration](https://docs.microsoft.com/windows)
+[Web-based Administration](/windows)
 
 122
 
-[Logging Agent](https://docs.microsoft.com/windows)
+[Logging Agent](/windows)
 
 ADFS - Role Services (8)
 
@@ -525,23 +525,23 @@ Name
 
 125
 
-[Active Directory Federation Services](https://docs.microsoft.com/windows)
+[Active Directory Federation Services](/windows)
 
 126
 
-[Federation Service Policy](https://docs.microsoft.com/windows)
+[Federation Service Policy](/windows)
 
 127
 
-[AD FS Web Agents](https://docs.microsoft.com/windows)
+[AD FS Web Agents](/windows)
 
 128
 
-[Claims-aware Agent](https://docs.microsoft.com/windows)
+[Claims-aware Agent](/windows)
 
 129
 
-[Windows Token-based Agent](https://docs.microsoft.com/windows)
+[Windows Token-based Agent](/windows)
 
 Remote Desktop Services - Role Services (18)
 
@@ -551,23 +551,23 @@ Name
 
 130
 
-Remote Desktop Session Host<br/> [name change](https://docs.microsoft.com/windows)<br/>
+Remote Desktop Session Host<br/> [name change](/windows)<br/>
 
 131
 
-[Remote Desktop Licensing](https://docs.microsoft.com/windows)<br/> [name change](https://docs.microsoft.com/windows)<br/>
+[Remote Desktop Licensing](/windows)<br/> [name change](/windows)<br/>
 
 132
 
-Remote Desktop Gateway<br/> [name change](https://docs.microsoft.com/windows)<br/>
+Remote Desktop Gateway<br/> [name change](/windows)<br/>
 
 133
 
-Remote Desktop Connection Broker<br/> [name change](https://docs.microsoft.com/windows)<br/>
+Remote Desktop Connection Broker<br/> [name change](/windows)<br/>
 
 134
 
-Remote Desktop Web Access<br/> [name change](https://docs.microsoft.com/windows)<br/>
+Remote Desktop Web Access<br/> [name change](/windows)<br/>
 
 322
 
@@ -581,11 +581,11 @@ Name
 
 325
 
-[Core Services](https://docs.microsoft.com/windows)<br/>
+[Core Services](/windows)<br/>
 
 327
 
-[Remote Desktop Virtual Graphics](https://docs.microsoft.com/windows)<br/>
+[Remote Desktop Virtual Graphics](/windows)<br/>
 
 Print and Document Services - Role Services (7)
 
@@ -607,7 +607,7 @@ LPD Print Service
 
 328
 
-[Distributed Scan Server](https://docs.microsoft.com/windows)<br/>
+[Distributed Scan Server](/windows)<br/>
 
 Web Server (IIS) - Role Services (2)
 
@@ -817,23 +817,23 @@ IIS Hostable Web Core<br/>
 
 413
 
-[ASP.NET 4.5](https://docs.microsoft.com/windows)
+[ASP.NET 4.5](/windows)
 
 414
 
-[.NET Extensibility 4.5](https://docs.microsoft.com/windows)
+[.NET Extensibility 4.5](/windows)
 
 445
 
-[appialization](https://docs.microsoft.com/windows)
+[appialization](/windows)
 
 446
 
-[Centralized SSL Certificate Support](https://docs.microsoft.com/windows)
+[Centralized SSL Certificate Support](/windows)
 
 447
 
-[WebSocket Protocol](https://docs.microsoft.com/windows)
+[WebSocket Protocol](/windows)
 
 Message Queuing - Features (49)
 
@@ -867,7 +867,7 @@ Routing Service
 
 196
 
-[Windows 2000 Client Support](https://docs.microsoft.com/windows)<br/>
+[Windows 2000 Client Support](/windows)<br/>
 
 197
 
@@ -901,11 +901,11 @@ Network Device Enrollment Service
 
 318
 
-[Certificate Enrollment Web Service](https://docs.microsoft.com/windows)<br/>
+[Certificate Enrollment Web Service](/windows)<br/>
 
 319
 
-[Certificate Enrollment Policy Web Service](https://docs.microsoft.com/windows)<br/>
+[Certificate Enrollment Policy Web Service](/windows)<br/>
 
 Network Policy and Access Services - Role Services (14)
 
@@ -915,7 +915,7 @@ Name
 
 205
 
-[Network Policy Server](https://docs.microsoft.com/windows)
+[Network Policy Server](/windows)
 
 206
 
@@ -923,7 +923,7 @@ Name
 
 207
 
-[Remote Access Services](https://docs.microsoft.com/windows)
+[Remote Access Services](/windows)
 
 208
 
@@ -931,11 +931,11 @@ Name
 
 210
 
-[Health Registration Authority](https://docs.microsoft.com/windows)
+[Health Registration Authority](/windows)
 
 250
 
-[Host Credential Authorization Protocol](https://docs.microsoft.com/windows)
+[Host Credential Authorization Protocol](/windows)
 
 UDDI Services - Role Services (11)
 
@@ -945,11 +945,11 @@ Name
 
 215
 
-[UDDI Services Web Application](https://docs.microsoft.com/windows)<br/>
+[UDDI Services Web Application](/windows)<br/>
 
 216
 
-[UDDI Services Database](https://docs.microsoft.com/windows)<br/>
+[UDDI Services Database](/windows)<br/>
 
 Windows Process Activation Service - Role Services (41)
 
@@ -977,7 +977,7 @@ Name
 
 220
 
-.NET Framework 3.5.1<br/> [name change](https://docs.microsoft.com/windows)<br/>
+.NET Framework 3.5.1<br/> [name change](/windows)<br/>
 
 221
 
@@ -1003,11 +1003,11 @@ Name
 
 224
 
-[SNMP Service](https://docs.microsoft.com/windows)
+[SNMP Service](/windows)
 
 225
 
-[SNMP WMI Provider](https://docs.microsoft.com/windows)
+[SNMP WMI Provider](/windows)
 
 Application Services - Role Services
 
@@ -1017,59 +1017,59 @@ Name
 
 230
 
-[.NET Framework 3.5.1](https://docs.microsoft.com/windows)<br/> [name change](https://docs.microsoft.com/windows)<br/>
+[.NET Framework 3.5.1](/windows)<br/> [name change](/windows)<br/>
 
 231
 
-[Web Server (IIS) Support](https://docs.microsoft.com/windows)
+[Web Server (IIS) Support](/windows)
 
 232
 
-[COM+ Network Access](https://docs.microsoft.com/windows)
+[COM+ Network Access](/windows)
 
 233
 
-[TCP Port Sharing](https://docs.microsoft.com/windows)
+[TCP Port Sharing](/windows)
 
 234
 
-[Windows Process Activation Service Support](https://docs.microsoft.com/windows)
+[Windows Process Activation Service Support](/windows)
 
 235
 
-[HTTP Activation](https://docs.microsoft.com/windows)
+[HTTP Activation](/windows)
 
 236
 
-[Message Queuing Activation](https://docs.microsoft.com/windows)
+[Message Queuing Activation](/windows)
 
 237
 
-[TCP Activation](https://docs.microsoft.com/windows)
+[TCP Activation](/windows)
 
 238
 
-[Named Pipes Activation](https://docs.microsoft.com/windows)
+[Named Pipes Activation](/windows)
 
 239
 
-[Distributed Transactions](https://docs.microsoft.com/windows)
+[Distributed Transactions](/windows)
 
 240
 
-[Incoming Remote Transactions](https://docs.microsoft.com/windows)
+[Incoming Remote Transactions](/windows)
 
 241
 
-[Outgoing Remote Transactions](https://docs.microsoft.com/windows)
+[Outgoing Remote Transactions](/windows)
 
 242
 
-[WS-Automatic Transactions](https://docs.microsoft.com/windows)
+[WS-Automatic Transactions](/windows)
 
 353
 
-[Application Server Extensions for .NET 4.0](https://docs.microsoft.com/windows)<br/>
+[Application Server Extensions for .NET 4.0](/windows)<br/>
 
 Windows Deployment Services - Role (19)
 
@@ -1107,15 +1107,15 @@ Name
 
 256
 
-[Role Administration Tools](https://docs.microsoft.com/windows)
+[Role Administration Tools](/windows)
 
 257
 
-[AD DS Tools](https://docs.microsoft.com/windows)<br/> [name change](https://docs.microsoft.com/windows)<br/>
+[AD DS Tools](/windows)<br/> [name change](/windows)<br/>
 
 258
 
-[AD LDS Snap-Ins and Command-Line Tools](https://docs.microsoft.com/windows)<br/> [name change](https://docs.microsoft.com/windows)<br/>
+[AD LDS Snap-Ins and Command-Line Tools](/windows)<br/> [name change](/windows)<br/>
 
 259
 
@@ -1123,19 +1123,19 @@ Active Directory Certificate Services Tools
 
 260
 
-[Network Policy and Access Services](https://docs.microsoft.com/windows)
+[Network Policy and Access Services](/windows)
 
 261
 
-Print and Document Services Tools<br/> [name change](https://docs.microsoft.com/windows)<br/>
+Print and Document Services Tools<br/> [name change](/windows)<br/>
 
 262
 
-[Active Directory Rights Management Services](https://docs.microsoft.com/windows)
+[Active Directory Rights Management Services](/windows)
 
 263
 
-[Remote Desktop Services Tools](https://docs.microsoft.com/windows)<br/> [name change](https://docs.microsoft.com/windows)<br/>
+[Remote Desktop Services Tools](/windows)<br/> [name change](/windows)<br/>
 
 264
 
@@ -1143,7 +1143,7 @@ Windows Deployment Services Tools
 
 265
 
-[Feature Administration Tools](https://docs.microsoft.com/windows)
+[Feature Administration Tools](/windows)
 
 266
 
@@ -1155,7 +1155,7 @@ BITS Server Extensions Tools
 
 268
 
-[Failover Clustering Tools](https://docs.microsoft.com/windows)
+[Failover Clustering Tools](/windows)
 
 269
 
@@ -1167,7 +1167,7 @@ SMTP Server Tools
 
 273
 
-[DNS Server Tools](https://docs.microsoft.com/windows)
+[DNS Server Tools](/windows)
 
 277
 
@@ -1183,7 +1183,7 @@ File Server Resource Manager Tools
 
 280
 
-[Services For Network File System Tools](https://docs.microsoft.com/windows)
+[Services For Network File System Tools](/windows)
 
 281
 
@@ -1191,15 +1191,15 @@ Web Server (IIS) Tools
 
 284
 
-[Remote Desktop Session Host Tools](https://docs.microsoft.com/windows)<br/> [name change](https://docs.microsoft.com/windows)<br/>
+[Remote Desktop Session Host Tools](/windows)<br/> [name change](/windows)<br/>
 
 285
 
-Remote Desktop Gateway Tools<br/> [name change](https://docs.microsoft.com/windows)<br/>
+Remote Desktop Gateway Tools<br/> [name change](/windows)<br/>
 
 286
 
-Remote Desktop Licensing Tools<br/> [name change](https://docs.microsoft.com/windows)<br/>
+Remote Desktop Licensing Tools<br/> [name change](/windows)<br/>
 
 288
 
@@ -1211,7 +1211,7 @@ WINS Server Tools
 
 291
 
-[UDDI Services Tools](https://docs.microsoft.com/windows)<br/>
+[UDDI Services Tools](/windows)<br/>
 
 292
 
@@ -1223,15 +1223,15 @@ Online Responder Tools
 
 297
 
-[Server for NIS Tools](https://docs.microsoft.com/windows)
+[Server for NIS Tools](/windows)
 
 299
 
-[AD DS Snap-Ins and Command-Line Tools](https://docs.microsoft.com/windows)<br/> [name change](https://docs.microsoft.com/windows)<br/>
+[AD DS Snap-Ins and Command-Line Tools](/windows)<br/> [name change](/windows)<br/>
 
 300
 
-[Active Directory Administrative Center](https://docs.microsoft.com/windows)
+[Active Directory Administrative Center](/windows)
 
 301
 
@@ -1239,15 +1239,15 @@ Hyper-V Tools
 
 323
 
-[BitLocker Recovery Password Viewer](https://docs.microsoft.com/windows)<br/>
+[BitLocker Recovery Password Viewer](/windows)<br/>
 
 326
 
-[BitLocker Drive Encryption Administration Utilities](https://docs.microsoft.com/windows)<br/>
+[BitLocker Drive Encryption Administration Utilities](/windows)<br/>
 
 329
 
-[AD DS and AD LDS Tools](https://docs.microsoft.com/windows)<br/>
+[AD DS and AD LDS Tools](/windows)<br/>
 
 330
 
@@ -1255,55 +1255,55 @@ Active Directory Administrative Center<br/>
 
 331
 
-[Active Directory module for Windows PowerShell](https://docs.microsoft.com/windows)<br/>
+[Active Directory module for Windows PowerShell](/windows)<br/>
 
 337
 
-[Remote Desktop Connection Broker Tools](https://docs.microsoft.com/windows)<br/>
+[Remote Desktop Connection Broker Tools](/windows)<br/>
 
 410
 
-[IP Address Management (IPAM) Client](https://docs.microsoft.com/windows)
+[IP Address Management (IPAM) Client](/windows)
 
 450
 
-[Hyper-V Module for Windows PowerShell](https://docs.microsoft.com/windows)
+[Hyper-V Module for Windows PowerShell](/windows)
 
 462
 
-[Active Directory Rights Management Services Tools](https://docs.microsoft.com/windows)
+[Active Directory Rights Management Services Tools](/windows)
 
 465
 
-[Share and Storage Management Tool](https://docs.microsoft.com/windows)
+[Share and Storage Management Tool](/windows)
 
 471
 
-[Remote Access Management Tools](https://docs.microsoft.com/windows)
+[Remote Access Management Tools](/windows)
 
 472
 
-[Remote Access module for Windows PowerShell](https://docs.microsoft.com/windows)
+[Remote Access module for Windows PowerShell](/windows)
 
 473
 
-[Remote Access GUI and Command-Line Tools](https://docs.microsoft.com/windows)
+[Remote Access GUI and Command-Line Tools](/windows)
 
 474
 
-[Windows Server Update Services Tools](https://docs.microsoft.com/windows)
+[Windows Server Update Services Tools](/windows)
 
 476
 
-[Remote Desktop Licensing Diagnoser Tools](https://docs.microsoft.com/windows)
+[Remote Desktop Licensing Diagnoser Tools](/windows)
 
 479
 
-[SNMP Tools](https://docs.microsoft.com/windows)
+[SNMP Tools](/windows)
 
 480
 
-[Volume Activation Tools](https://docs.microsoft.com/windows)
+[Volume Activation Tools](/windows)
 
 Windows Server Backup - Features (39)
 
@@ -1313,11 +1313,11 @@ Name
 
 296
 
-[Windows Server Backup](https://docs.microsoft.com/windows)
+[Windows Server Backup](/windows)
 
 297
 
-[Command Line Tools](https://docs.microsoft.com/windows)
+[Command Line Tools](/windows)
 
 Ink and Handwriting Services - Features (310)
 
@@ -1327,11 +1327,11 @@ Name
 
 311
 
-[Ink Support](https://docs.microsoft.com/windows)<br/>
+[Ink Support](/windows)<br/>
 
 312
 
-[Handwriting Recognition](https://docs.microsoft.com/windows)<br/>
+[Handwriting Recognition](/windows)<br/>
 
 Background Intelligent Transfer Service (BITS) - Features (335)
 
@@ -1345,7 +1345,7 @@ IIS Server Extension
 
 332
 
-[Compact Server](https://docs.microsoft.com/windows)<br/>
+[Compact Server](/windows)<br/>
 
 Wow64 Support - Features (340)
 
@@ -1359,35 +1359,35 @@ Name
 
 342
 
-[WoW64 for .NET Framework 2.0 and Windows PowerShell](https://docs.microsoft.com/windows)<br/>
+[WoW64 for .NET Framework 2.0 and Windows PowerShell](/windows)<br/>
 
 343
 
-[WoW64 for .NET Framework 2.0](https://docs.microsoft.com/windows)<br/>
+[WoW64 for .NET Framework 2.0](/windows)<br/>
 
 344
 
-[WoW64 for PowerShell](https://docs.microsoft.com/windows)<br/>
+[WoW64 for PowerShell](/windows)<br/>
 
 345
 
-[WoW64 for .NET Framework 3.0 and 3.5](https://docs.microsoft.com/windows)<br/>
+[WoW64 for .NET Framework 3.0 and 3.5](/windows)<br/>
 
 346
 
-[WoW64 for Print Services](https://docs.microsoft.com/windows)<br/>
+[WoW64 for Print Services](/windows)<br/>
 
 347
 
-[WoW64 for Failover Clustering](https://docs.microsoft.com/windows)<br/>
+[WoW64 for Failover Clustering](/windows)<br/>
 
 348
 
-[WoW64 for Input Method Editor](https://docs.microsoft.com/windows)<br/>
+[WoW64 for Input Method Editor](/windows)<br/>
 
 349
 
-[WoW64 for Subsystem for UNIX-based Applications](https://docs.microsoft.com/windows)<br/>
+[WoW64 for Subsystem for UNIX-based Applications](/windows)<br/>
 
 User Interfaces and Infrastructure - Role Services (447)
 
@@ -1397,11 +1397,11 @@ Name
 
 35
 
-[Desktop Experience](https://docs.microsoft.com/windows)
+[Desktop Experience](/windows)
 
 99
 
-[Server Graphical Shell](https://docs.microsoft.com/windows)
+[Server Graphical Shell](/windows)
 
 Window Server Update Services - Features (404)
 
@@ -1411,23 +1411,23 @@ Name
 
 405
 
-[API and PowerShell cmdlets](https://docs.microsoft.com/windows)
+[API and PowerShell cmdlets](/windows)
 
 406
 
-[SQL Server Connectivity](https://docs.microsoft.com/windows)
+[SQL Server Connectivity](/windows)
 
 407
 
-[WSUS Services](https://docs.microsoft.com/windows)
+[WSUS Services](/windows)
 
 408
 
-[User Interface Management Console](https://docs.microsoft.com/windows)
+[User Interface Management Console](/windows)
 
 449
 
-[WID Connectivity](https://docs.microsoft.com/windows)
+[WID Connectivity](/windows)
 
 Windows PowerShell - Features (417)
 
@@ -1437,19 +1437,19 @@ Name
 
 411
 
-[Windows PowerShell 2.0 Engine](https://docs.microsoft.com/windows)
+[Windows PowerShell 2.0 Engine](/windows)
 
 412
 
-[Windows PowerShell 3.0](https://docs.microsoft.com/windows)
+[Windows PowerShell 3.0](/windows)
 
 448
 
-[Windows PowerShell Web Access](https://docs.microsoft.com/windows)
+[Windows PowerShell Web Access](/windows)
 
 1000
 
-[Windows PowerShell Desired State Configuration Service](https://docs.microsoft.com/windows)
+[Windows PowerShell Desired State Configuration Service](/windows)
 
 .NET Framework 4.5 - Features (418)
 
@@ -1459,35 +1459,35 @@ Name
 
 419
 
-[.NET Framework 4.5 Extended](https://docs.microsoft.com/windows)
+[.NET Framework 4.5 Extended](/windows)
 
 420
 
-[WCF Services](https://docs.microsoft.com/windows)
+[WCF Services](/windows)
 
 421
 
-[HTTP Activation](https://docs.microsoft.com/windows)
+[HTTP Activation](/windows)
 
 422
 
-[Message Queuing (MSMQ) Activation](https://docs.microsoft.com/windows)
+[Message Queuing (MSMQ) Activation](/windows)
 
 423
 
-[Named Pipe Activation](https://docs.microsoft.com/windows)
+[Named Pipe Activation](/windows)
 
 424
 
-[TCP Activation](https://docs.microsoft.com/windows)
+[TCP Activation](/windows)
 
 425
 
-[TCP Port Sharing](https://docs.microsoft.com/windows)
+[TCP Port Sharing](/windows)
 
 429
 
-[ASP.NET 4.5](https://docs.microsoft.com/windows)
+[ASP.NET 4.5](/windows)
 
 Remote Access - Role (468)
 
@@ -1497,7 +1497,7 @@ Name
 
 469
 
-[DirectAccess and VPN (RAS)](https://docs.microsoft.com/windows)
+[DirectAccess and VPN (RAS)](/windows)
 
 470
 
@@ -1511,11 +1511,11 @@ Name
 
 482
 
-[Storage Services](https://docs.microsoft.com/windows)
+[Storage Services](/windows)
 
 484
 
-[Failover Cluster Management Tools](https://docs.microsoft.com/windows)
+[Failover Cluster Management Tools](/windows)
 
 
 
@@ -1551,13 +1551,13 @@ ID number of the parent server feature. This property is 0 if the feature repres
 
 ## Remarks
 
-Read the [Windows Server 2008 Server Manager Technical Overview](https://technet.microsoft.com/library/18dd1257-2cd1-48f0-91f1-3012cf0fcc83) to learn about server features.
+Read the [Windows Server 2008 Server Manager Technical Overview](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753319(v=ws.10)) to learn about server features.
 
 Enterprises that do not use management software that reports server features, such as System Center Operations Manager with management packs installed, can get that information by querying the **Win32\_ServerFeature** class.
 
 You can use the remoting features of WMI or WinRM to get server feature information from remote servers. For more information about remote WMI DCOM connections, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md). For more information about WinRM, see Windows Remote Management.
 
-Windows Server 2012: **Win32\_ServerFeature** has been deprecated. To access windows server feature information programmatically, you can use the [Server Manager Cmdlets](https://TechNet.Microsoft.Com/library/ee662311.aspx).
+Windows Server 2012: **Win32\_ServerFeature** has been deprecated. To access windows server feature information programmatically, you can use the [Server Manager Cmdlets](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee662311(v=technet.10)).
 
 ### Windows Server 2012 R2
 
@@ -3241,9 +3241,4 @@ Next
 
 
  
-
- 
-
-
-
 

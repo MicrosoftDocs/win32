@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # JPEG YCbCr Support
 
-Starting with Windows 8.1, the [Windows Imaging Component (WIC)](-wic-about-windows-imaging-codec.md) JPEG codec supports reading and writing image data in its native YC<sub>b</sub>C<sub>r</sub> form. WIC YC<sub>b</sub>C<sub>r</sub> support can be used in conjunction with [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) to render YC<sub>b</sub>C<sub>r</sub> pixel data with an image effect. In addition, the WIC JPEG codec can consume YC<sub>b</sub>C<sub>r</sub> pixel data produced by certain camera drivers via Media Foundation.
+Starting with Windows 8.1, the [Windows Imaging Component (WIC)](-wic-about-windows-imaging-codec.md) JPEG codec supports reading and writing image data in its native YC<sub>b</sub>C<sub>r</sub> form. WIC YC<sub>b</sub>C<sub>r</sub> support can be used in conjunction with [Direct2D](../direct2d/direct2d-portal.md) to render YC<sub>b</sub>C<sub>r</sub> pixel data with an image effect. In addition, the WIC JPEG codec can consume YC<sub>b</sub>C<sub>r</sub> pixel data produced by certain camera drivers via Media Foundation.
 
 YC<sub>b</sub>C<sub>r</sub> pixel data consumes significantly less memory than standard BGRA pixel formats. In addition, accessing YC<sub>b</sub>C<sub>r</sub> data allows you to offload some stages of the JPEG decode/encode pipeline to Direct2D which is GPU accelerated. By using YC<sub>b</sub>C<sub>r</sub>, your app can reduce JPEG memory consumption and load times for the same size and quality images. Or, your app can use more, higher resolution JPEG images without suffering from performance penalties.
 
@@ -66,7 +66,7 @@ Here is a figure showing planar Y and interleaved C<sub>b</sub>C<sub>r</sub> pix
 
 ![a figure showing planar y and interleaved cbcr pixel data, a common ycbcr memory layout.](graphics/ycbcr4.png)
 
-In both WIC and Direct2D, each color plane is treated as its own distinct object (either an [IWICBitmapSource](-wic-imp-iwicbitmapsource.md) or [**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85).aspx)), and collectively these planes form the backing data for a YC<sub>b</sub>C<sub>r</sub> image.
+In both WIC and Direct2D, each color plane is treated as its own distinct object (either an [IWICBitmapSource](-wic-imp-iwicbitmapsource.md) or [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap)), and collectively these planes form the backing data for a YC<sub>b</sub>C<sub>r</sub> image.
 
 While WIC supports accessing YC<sub>b</sub>C<sub>r</sub> data in both the 2 and 3 plane configurations, Direct2D only supports the former (Y and C<sub>b</sub>C<sub>r</sub>). Therefore, when using WIC and Direct2D together you should always use the 2 plane YC<sub>b</sub>C<sub>r</sub> configuration.
 
@@ -109,7 +109,7 @@ By having the JPEG codec produce YC<sub>b</sub>C<sub>r</sub> data, we can avoid 
 
 This section explains how to use WIC and Direct2D to operate on YC<sub>b</sub>C<sub>r</sub> data.
 
-To see the guidance from this document used in practice, see the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/blob/master/Official%20Windows%20Platform%20Sample/JPEG%20YCbCr%20optimizations%20in%20Direct2D%20and%20WIC%20sample/%5BC%2B%2B%5D-JPEG%20YCbCr%20optimizations%20in%20Direct2D%20and%20WIC%20sample/C%2B%2B/JpegYCbCrOptimizations.h) which demonstrates all of the steps needed to decode and render YC<sub>b</sub>C<sub>r</sub> content in a Direct2D app.
+To see the guidance from this document used in practice, see the [JPEG YCbCr optimizations in Direct2D and WIC sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/JPEG%20YCbCr%20optimizations%20in%20Direct2D%20and%20WIC%20sample) which demonstrates all of the steps needed to decode and render YC<sub>b</sub>C<sub>r</sub> content in a Direct2D app.
 
 ### Using YC<sub>b</sub>C<sub>r</sub> JPEG images
 
@@ -135,7 +135,7 @@ WIC in Windows 8.1 adds three new interfaces to provide access to JPEG YC<sub>b<
 
 ### Direct2D APIs
 
-Direct2D in Windows 8.1 supports YC<sub>b</sub>C<sub>r</sub> planar pixel data with the new YC<sub>b</sub>C<sub>r</sub> image effect . This effect provides the ability to render YC<sub>b</sub>C<sub>r</sub> data. The effect takes as input two [**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85).aspx) interfaces: one containing planar Y data in the DXGI\_FORMAT\_R8\_UNORM format, and one containing interleaved CbCr data in the DXGI\_FORMAT\_R8G8\_UNORM format. You typically use this effect in place of the **ID2D1Bitmap** that would have contained BGRA pixel data.
+Direct2D in Windows 8.1 supports YC<sub>b</sub>C<sub>r</sub> planar pixel data with the new YC<sub>b</sub>C<sub>r</sub> image effect . This effect provides the ability to render YC<sub>b</sub>C<sub>r</sub> data. The effect takes as input two [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) interfaces: one containing planar Y data in the DXGI\_FORMAT\_R8\_UNORM format, and one containing interleaved CbCr data in the DXGI\_FORMAT\_R8G8\_UNORM format. You typically use this effect in place of the **ID2D1Bitmap** that would have contained BGRA pixel data.
 
 The YC<sub>b</sub>C<sub>r</sub> image effect is intended to be used in conjunction with the WIC YC<sub>b</sub>C<sub>r</sub> APIs which provide the YC<sub>b</sub>C<sub>r</sub> data. This effectively acts to offload some of the decode work from the CPU to the GPU, where it can be processed much quicker and in parallel.
 
@@ -159,11 +159,11 @@ This pattern is similar to how [**IWICBitmapSourceTransform**](/windows/desktop/
 
 This check is only necessary if you are using the Direct2D YC<sub>b</sub>C<sub>r</sub> effect to render YC<sub>b</sub>C<sub>r</sub> content. Direct2D stores YC<sub>b</sub>C<sub>r</sub> data using the DXGI\_FORMAT\_R8\_UNORM and DXGI\_FORMAT\_R8G8\_UNORM pixel formats, which are not available from all graphics drivers.
 
-Before using the YC<sub>b</sub>C<sub>r</sub> image effect, you should call [**ID2D1DeviceContext::IsDxgiFormatSupported**](https://msdn.microsoft.com/library/Hh847982(v=VS.85).aspx) to ensure that both formats are supported by the driver.
+Before using the YC<sub>b</sub>C<sub>r</sub> image effect, you should call [**ID2D1DeviceContext::IsDxgiFormatSupported**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-isdxgiformatsupported) to ensure that both formats are supported by the driver.
 
 ### Sample code
 
-Below is a code example demonstrating the recommended checks. This example was taken from the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://code.msdn.microsoft.com/windowsapps/JPEG-YCbCr-optimizations-7472183d).
+Below is a code example demonstrating the recommended checks. This example was taken from the [JPEG YCbCr optimizations in Direct2D and WIC sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/JPEG%20YCbCr%20optimizations%20in%20Direct2D%20and%20WIC%20sample).
 
 
 ```C++
@@ -219,11 +219,11 @@ If you want to obtain YC<sub>b</sub>C<sub>r</sub> pixel data you should call [**
 
 If you want to use the YC<sub>b</sub>C<sub>r</sub> pixel data with other WIC APIs you should create an appropriately configured [**IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap), call [**Lock**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmap-lock) to obtain the underlying memory buffer, and associate the buffer with the [**WICBitmapPlane**](/windows/desktop/api/Wincodec/ns-wincodec-wicbitmapplane) used to receive the YC<sub>b</sub>C<sub>r</sub> pixel data. You can then use the [IWICBitmap](-wic-imp-iwicbitmapdecoder.md) normally.
 
-Finally, if you want to render the YC<sub>b</sub>C<sub>r</sub> data in Direct2D, you should create an [**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85).aspx) from each [**IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap) and use them as source for the YC<sub>b</sub>C<sub>r</sub> image effect. WIC allows you to request multiple planar configurations. When interoperating with Direct2D you should request two planes, one using GUID\_WICPixelFormat8bppY and the other using GUID\_WICPixelFormat16bppCbCr, as this is the configuration expected by Direct2D.
+Finally, if you want to render the YC<sub>b</sub>C<sub>r</sub> data in Direct2D, you should create an [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) from each [**IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap) and use them as source for the YC<sub>b</sub>C<sub>r</sub> image effect. WIC allows you to request multiple planar configurations. When interoperating with Direct2D you should request two planes, one using GUID\_WICPixelFormat8bppY and the other using GUID\_WICPixelFormat16bppCbCr, as this is the configuration expected by Direct2D.
 
 ### Code Sample
 
-Below is a code example demonstrating the steps to decode and render YC<sub>b</sub>C<sub>r</sub> data in Direct2D. This example was taken from the [JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://code.msdn.microsoft.com/windowsapps/JPEG-YCbCr-optimizations-7472183d).
+Below is a code example demonstrating the steps to decode and render YC<sub>b</sub>C<sub>r</sub> data in Direct2D. This example was taken from the [JPEG YCbCr optimizations in Direct2D and WIC sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/JPEG%20YCbCr%20optimizations%20in%20Direct2D%20and%20WIC%20sample).
 
 
 ```C++
@@ -338,20 +338,10 @@ For the typical case, you should follow these steps:
 
 ### Decoding YC<sub>b</sub>C<sub>r</sub> pixel data in Windows 10
 
-Starting in Windows 10 build 1507, Direct2D provides [**ID2D1ImageSourceFromWic**](https://msdn.microsoft.com/library/Dn900414(v=VS.85).aspx), a simpler way to decode JPEGs into Direct2D while leveraging YC<sub>b</sub>C<sub>r</sub> optimizations. **ID2D1ImageSourceFromWic** automatically performs all of the necessary YC<sub>b</sub>C<sub>r</sub> capability checks for you; it uses the optimized codepath when possible, and uses a fallback otherwise. It also enables new optimizations such as only caching subregions of the image that are needed at a time.
+Starting in Windows 10 build 1507, Direct2D provides [**ID2D1ImageSourceFromWic**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic), a simpler way to decode JPEGs into Direct2D while leveraging YC<sub>b</sub>C<sub>r</sub> optimizations. **ID2D1ImageSourceFromWic** automatically performs all of the necessary YC<sub>b</sub>C<sub>r</sub> capability checks for you; it uses the optimized codepath when possible, and uses a fallback otherwise. It also enables new optimizations such as only caching subregions of the image that are needed at a time.
 
-For more information about using [**ID2D1ImageSourceFromWic**](https://msdn.microsoft.com/library/Dn900414(v=VS.85).aspx), refer to the Direct2D Photo Adjustment SDK [sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DPhotoAdjustment).
+For more information about using [**ID2D1ImageSourceFromWic**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic), refer to the Direct2D Photo Adjustment SDK [sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DPhotoAdjustment).
 
 ## Related topics
 
-<dl> <dt>
-
-[JPEG YC<sub>b</sub>C<sub>r</sub> Optimizations SDK sample](https://code.msdn.microsoft.com/windowsapps/JPEG-YCbCr-optimizations-7472183d)
-</dt> </dl>
-
- 
-
- 
-
-
-
+* [JPEG YCbCr optimizations in Direct2D and WIC sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/JPEG%20YCbCr%20optimizations%20in%20Direct2D%20and%20WIC%20sample)

@@ -48,7 +48,7 @@ Unique identifier to the array of constants. This value may not be **NULL**.
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Zero-based index of the element in the array.
 
@@ -85,7 +85,3 @@ To get a constant that is not part of an array, use [**ID3DXConstantTable::GetCo
  
 
  
-
-
-
-

@@ -26,7 +26,7 @@ This topic describes the following technologies:
     -   [Windows Forms](#windows-forms)
     -   [Windows Presentation Foundation](#windows-presentation-foundation)
     -   [Silverlight](#silverlight)
-    -   [Expression Blend 3 + SketchFlow](https://docs.microsoft.com/windows)
+    -   [Expression Blend 3 + SketchFlow](/windows)
     -   [UI Automation for Managed Applications](#ui-automation-for-managed-applications)
 
 ## User Interface Technologies for Unmanaged Applications
@@ -41,7 +41,7 @@ Windows controls are supported by all versions of Windows. However, because the 
 
 You should use Windows controls if you want to create a traditional UI for an unmanaged Windows-based application that runs on a wide range of Windows versions.
 
-For more information, see [Windows Controls](https://msdn.microsoft.com/library/bb773173(VS.85).aspx).
+For more information, see [Windows Controls](../controls/window-controls.md).
 
 ### Visual Styles
 
@@ -51,7 +51,7 @@ Visual styles are supported on Windows XP and later, and they only affect the a
 
 You should use Visual Styles if you need to change the appearance of the standard Windows controls and common controls to match the look of your application UI.
 
-For more information, see [Visual Styles](https://msdn.microsoft.com/library/bb773187(VS.85).aspx).
+For more information, see [Visual Styles](../controls/themes-overview.md).
 
 ### Windows Ribbon Framework
 
@@ -66,7 +66,7 @@ You should use Windows Ribbon framework if you want to implement a command UI th
 
 The Windows Ribbon framework is intended for developers who are proficient in COM programming.
 
-For more information, see [Windows Ribbon Framework](https://msdn.microsoft.com/library/dd371191(VS.85).aspx).
+For more information, see [Windows Ribbon Framework](../windowsribbon/-uiplat-windowsribbon-entry.md).
 
 ### Windows Animation Manager
 
@@ -76,7 +76,7 @@ The Windows animation framework is supported on Windows Vista with Platform Upda
 
 You should use Windows Animation Manager if you want to add animation sequences to the UI of an unmanaged Windows-based application.
 
-For more information, see [Windows Animation Manager](https://msdn.microsoft.com/library/dd371981(VS.85).aspx).
+For more information, see [Windows Animation Manager](../uianimation/-main-portal.md).
 
 ### Desktop Window Manager
 
@@ -88,7 +88,7 @@ DWM is supported on Windows Vista and Windows Server 2008.
 
 You should use DWM if your application needs to access and control the visual effects associated with desktop composition.
 
-For more information, see [Desktop Window Manager](https://msdn.microsoft.com/library/aa969540(VS.85).aspx).
+For more information, see [Desktop Window Manager](../dwm/dwm-overview.md).
 
 ### Windows Automation API
 
@@ -100,7 +100,7 @@ Full support for Microsoft Active Accessibility is built into Windows XP and Wi
 
 If your application contains custom controls or other custom UI features, you should use the Windows Automation API to ensure that the custom controls and features are fully accessible. In general, developers need a moderate level of understanding about COM objects and interfaces, Unicode, and Windows API programming.
 
-For more information, see [Windows Automation API](https://msdn.microsoft.com/library/ff486375(VS.85).aspx).
+For more information, see [Windows Automation API](../winauto/windows-automation-api-portal.md).
 
 ### Speech API
 
@@ -110,7 +110,7 @@ The two basic types of SAPI engines are text-to-speech (TTS) systems and speech 
 
 You should use SAPI if you want to implement a UI that enables the user to interact with your application through TTS and speech recognition in addition to the standard input devices such as the keyboard, mouse, and display.
 
-For more information, see [Microsoft Speech API (SAPI) 5.4](https://msdn.microsoft.com/library/ee125663(VS.85).aspx).
+For more information, see [Microsoft Speech API (SAPI) 5.4](/previous-versions/windows/desktop/ee125663(v=vs.85)).
 
 ### Magnification API
 
@@ -118,17 +118,17 @@ The magnification API (MAPI) is used to magnify portions of the screen, and to a
 
 MAPI is supported on Windows Vista, Windows 7, Windows Server 2008, and Windows Server 2008 R2. It is intended for developers who are familiar with graphics programming concepts.
 
-For more information, see [Magnification API](https://msdn.microsoft.com/library/ms692162(VS.85).aspx).
+For more information, see [Magnification API](/previous-versions/windows/desktop/magapi/entry-magapi-sdk).
 
 ### Resource Compiler
 
 The Microsoft Windows Resource Compiler is an application development tool used to add UI and other resources to a Windows-based application. A resource is any non-executable data used by an application, and includes such things as dialog boxes, menus, strings, cursors, icons, bitmaps, and so on. The resource compiler is included in Microsoft Visual Studio and the Windows SDK.
 
-For more information, see [Resource Compiler](https://msdn.microsoft.com/library/aa381042(VS.85).aspx).
+For more information, see [Resource Compiler](../menurc/resource-compiler.md).
 
 ## User Interface Technologies for Managed Applications
 
-This section describes the Microsoft technologies for developing UIs for managed Windows applications that run in the context of the .NET Framework. For more information, see [.NET Development](https://msdn.microsoft.com/library/ff361664(VS.100).aspx).
+This section describes the Microsoft technologies for developing UIs for managed Windows applications that run in the context of the .NET Framework. For more information, see [.NET Development](/previous-versions/ff361664(v=vs.100)).
 
 ### Windows Forms
 
@@ -136,15 +136,15 @@ Windows Forms is a graphical application programming interface for creating mana
 
 You build Windows Forms applications by adding controls to forms and developing responses to user actions, such as mouse clicks or key presses. A control is a discrete UI element that displays data or accepts data input. Windows Forms contains a variety of controls that you can add to forms: controls that display text boxes, buttons, drop-down boxes, radio buttons, and even Web pages. Windows Forms also supports creating custom controls.
 
-For more information, see [Windows Forms](https://msdn.microsoft.com/library/cc656767.aspx).
+For more information, see [Windows Forms](/previous-versions/dotnet/netframework-4.0/cc656767(v=vs.100)).
 
 ### Windows Presentation Foundation
 
-Windows Presentation Foundation (WPF) is the successor to [Windows Forms](https://msdn.microsoft.com/library/cc656767.aspx). WPF is a presentation system for building and rendering user interfaces in Windows-based client applications and browser-hosted applications. The core of WPF is a resolution-independent and vector-based rendering engine that is built to take advantage of modern graphics hardware. WPF extends the core with a comprehensive set of application-development features that include Extensible Application Markup Language (XAML), controls, data binding, layout, 2-D and 3-D graphics, animation, styles, templates, documents, media, text, and typography.
+Windows Presentation Foundation (WPF) is the successor to [Windows Forms](/previous-versions/dotnet/netframework-4.0/cc656767(v=vs.100)). WPF is a presentation system for building and rendering user interfaces in Windows-based client applications and browser-hosted applications. The core of WPF is a resolution-independent and vector-based rendering engine that is built to take advantage of modern graphics hardware. WPF extends the core with a comprehensive set of application-development features that include Extensible Application Markup Language (XAML), controls, data binding, layout, 2-D and 3-D graphics, animation, styles, templates, documents, media, text, and typography.
 
 WPF is included in the .NET Framework, so you can build applications that incorporate other elements of the .NET Framework class library. WPF is supported on Windows Vista, Windows 7, Windows Server 2008, Windows Server 2008 R2, and is also available for Windows XP with Service Pack 2 (SP2), and Windows Server 2003.
 
-For more information, see [Windows Presentation Foundation](https://msdn.microsoft.com/library/ms754130.aspx).
+For more information, see [Windows Presentation Foundation](/dotnet/framework/wpf/).
 
 ### Silverlight
 
@@ -152,13 +152,13 @@ Microsoft Silverlight is a powerful development platform for creating rich media
 
 Based on the .NET Framework, the free Silverlight plug-in works across multiple browsers, devices, and operating systems to bring new interactivity to the Web. With extensive layout and styling options, powerful communication protocols, robust data access, and support for user interaction and high-definition media, Silverlight helps create fast, smooth, and visually rich customer experiences. Silverlight applications can be developed quickly with the Microsoft Web Platform, Visual Studio, and Expression Studio.
 
-For more information, see [Microsoft Silverlight](https://msdn.microsoft.com/library/cc838158(vs.95).aspx).
+For more information, see [Microsoft Silverlight](/previous-versions/windows/silverlight/dotnet-windows-silverlight/cc838158(v=vs.95)).
 
 ### Expression Blend 3 + SketchFlow
 
 Expression Blend 3 + SketchFlow is a visual tool for designing, prototyping, and creating sophisticated user interfaces for WPF and Silverlight desktop and web applications. You build an application by drawing shapes, drawing controls such as buttons and list boxes, making the pieces of your application respond to mouse clicks and other user input, and styling everything to look uniquely your own.
 
-For more information, see [Prototyping with SketchFlow](https://msdn.microsoft.com/library/ee341458(Expression.30).aspx).
+For more information, see [Prototyping with SketchFlow](/previous-versions/visualstudio/design-tools/expression-studio-3/ee341458(v=expression.30)).
 
 ### UI Automation for Managed Applications
 
@@ -166,12 +166,8 @@ UI Automation is an accessibility framework for Windows, available on all operat
 
 UI Automation provides programmatic access to most UI elements on the desktop, enabling assistive technology products such as screen readers to provide information about the UI to end users and to manipulate the UI by means other than standard input. UI Automation also allows automated test scripts to interact with the UI.
 
-For more information, see [UI Automation for Managed Applications](https://msdn.microsoft.com/library/ms753388.aspx).
+For more information, see [UI Automation for Managed Applications](/dotnet/framework/ui-automation/).
 
  
 
  
-
-
-
-

@@ -165,7 +165,7 @@
       - name: "WFDUpdateDeviceVisibility"
         href: /windows/win32/api/wlanapi/nf-wlanapi-wfdupdatedevicevisibility
       - name: "WLAN_NOTIFICATION_CALLBACK"
-        href: https://docs.microsoft.com/windows/win32/api/wlanapi/nc-wlanapi-wlan_notification_callback
+        href: /windows/win32/api/wlanapi/nc-wlanapi-wlan_notification_callback
       - name: "WlanAllocateMemory"
         href: /windows/win32/api/wlanapi/nf-wlanapi-wlanallocatememory
       - name: "WlanCloseHandle"
@@ -354,7 +354,7 @@
       - name: "WLAN_MSM_NOTIFICATION_DATA"
         href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_msm_notification_data
       - name: "WLAN_NOTIFICATION_DATA"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/ms706902(v=vs.85)
       - name: "WLAN_PHY_FRAME_STATISTICS"
         href: /windows/win32/api/wlanapi/ns-wlanapi-wlan_phy_frame_statistics
       - name: "WLAN_PHY_RADIO_STATE"

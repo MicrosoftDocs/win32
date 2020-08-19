@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # ITLocalParticipant interface
 
-The **ITLocalParticipant** interface is exposed on the stream object when the IPConf MSP supports the call. The MSP implements methods that allow an application to get and set participant information. The **ITLocalParticipant** interface is created by calling **QueryInterface** on [**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx).
+The **ITLocalParticipant** interface is exposed on the stream object when the IPConf MSP supports the call. The MSP implements methods that allow an application to get and set participant information. The **ITLocalParticipant** interface is created by calling **QueryInterface** on [**ITStream**](/windows/win32/api/tapi3if/nn-tapi3if-itstream).
 
 ## Members
 
-The **ITLocalParticipant** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITLocalParticipant** also has these types of members:
+The **ITLocalParticipant** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITLocalParticipant** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -48,13 +48,8 @@ The **ITLocalParticipant** interface has these methods.
 
 <dl> <dt>
 
-[**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx)
+[**ITStream**](/windows/win32/api/tapi3if/nn-tapi3if-itstream)
 </dt> </dl>
 
  
-
- 
-
-
-
 

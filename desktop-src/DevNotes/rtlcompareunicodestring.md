@@ -92,16 +92,12 @@ A signed value that gives the results of the comparison:
 
 <dl> <dt>
 
-[**RtlCompareString**](https://msdn.microsoft.com/library/Ff561781(v=VS.85).aspx)
+[**RtlCompareString**](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlcomparestring)
 </dt> <dt>
 
-[**RtlEqualString**](https://msdn.microsoft.com/library/Ff561852(v=VS.85).aspx)
+[**RtlEqualString**](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlequalstring)
 </dt> </dl>
 
  
 
  
-
-
-
-

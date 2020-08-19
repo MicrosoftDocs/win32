@@ -45,7 +45,7 @@ To test your apps:
 
 ## Resources
 
--   [Requirements for Windows Server App Certification Program](/windows/win32/win_cert/certification-requirements-for-windows-desktop-apps)
+-   [Requirements for Windows Server App Certification Program](../win_cert/certification-requirements-for-windows-desktop-apps.md)
 -   [Microsoft Platform Ready (MPR) Test Tool](https://www.microsoft.com/download/details.aspx?id=37143)
 -   [Windows Server 2012 Application Certification Program](https://azure.microsoft.com/overview/commercial-marketplace/)
 -   [Windows Server Logo Feedback](mailto:WSLogoFB@microsoft.com)
@@ -53,7 +53,3 @@ To test your apps:
  
 
  
-
-
-
-

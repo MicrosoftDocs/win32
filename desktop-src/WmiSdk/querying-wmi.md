@@ -30,7 +30,7 @@ In addition to querying the WMI repository, you can also use the [*WMI Query Lan
 >
 > There are limits to the number of **AND** and **OR** keywords that can be used in WQL queries. Large numbers of WQL keywords used in a complex query can cause WMI to return the **WBEM\_E\_QUOTA\_VIOLATION** error code as an **HRESULT** value. The limit of WQL keywords depends on how complex the query is.
 >
-> When querying for property values with a **uint64** or **sint64** data type in a scripting language like VBScript, WMI returns string values. Unexpected results can occur when comparing these values, because comparing strings returns different results than comparing numbers. For example, "10000000000" is less than "9" when comparing strings, and 9 is less than 10000000000 when comparing numbers. To avoid confusion you should use the [CDbl](https://msdn.microsoft.com/library/ftekwwt0.aspx) method in VBScript when properties of type **uint64** or **sint64** are retrieved from WMI.
+> When querying for property values with a **uint64** or **sint64** data type in a scripting language like VBScript, WMI returns string values. Unexpected results can occur when comparing these values, because comparing strings returns different results than comparing numbers. For example, "10000000000" is less than "9" when comparing strings, and 9 is less than 10000000000 when comparing numbers. To avoid confusion you should use the [CDbl](/previous-versions//ftekwwt0(v=vs.85)) method in VBScript when properties of type **uint64** or **sint64** are retrieved from WMI.
 
  
 
@@ -41,9 +41,4 @@ In addition to querying the WMI repository, you can also use the [*WMI Query Lan
 For more information, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md).
 
  
-
- 
-
-
-
 

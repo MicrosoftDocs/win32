@@ -17,7 +17,7 @@ api_location:
 
 # Template object
 
-\[The **Template** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](https://msdn.microsoft.com/library/x5x51x86(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Template to retrieve the certificate extension template.\]
+\[The **Template** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Template to retrieve the certificate extension template.\]
 
 The **Template** object represents the certificate extension template of the certificate.
 
@@ -26,7 +26,7 @@ The **Template** object represents the certificate extension template of the cer
 The **Template** object is used to perform the following tasks:
 
 -   Determine whether the template is marked critical or present.
--   Retrieve the [*object identifier*](https://msdn.microsoft.com/library/ms721599(v=VS.85).aspx) (OID) or name of the template.
+-   Retrieve the [*object identifier*](../secgloss/o-gly.md) (OID) or name of the template.
 -   Retrieve the minor or major version of the template.
 
 ## Members
@@ -87,7 +87,3 @@ CAPICOM uses two different versions of certificate templates. The following tabl
  
 
  
-
-
-
-

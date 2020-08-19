@@ -22,13 +22,13 @@ propertyDescription
 
 ## Remarks
 
-[UI\_PKEY\_Pinned](windowsribbon-reference-properties-uipkey-pinned.md) is used by an application to query the array of items in the most recently used (MRU) items collection of the [Application Menu](windowsribbon-controls-applicationmenu.md). The information for each MRU item is encapsulated in an [**IUISimplePropertySet**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset) object and includes the following three property keys:
+[UI\_PKEY\_Pinned](windowsribbon-reference-properties-uipkey-pinned.md) is used by an application to query the array of items in the most recently used (MRU) items collection of the [Application Menu](windowsribbon-controls-applicationmenu.md). The information for each MRU item is encapsulated in an [**IUISimplePropertySet**](/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset) object and includes the following three property keys:
 
 -   [UI\_PKEY\_Label](windowsribbon-reference-properties-uipkey-label.md)
 -   [UI\_PKEY\_LabelDescription](windowsribbon-reference-properties-uipkey-labeldescription.md)
 -   [UI\_PKEY\_Pinned](windowsribbon-reference-properties-uipkey-pinned.md)
 
-The list of MRU items is passed to the Ribbon host application as a **SAFEARRAY** of [**IUISimplePropertySet**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset) pointers to respective implementations in the host application.
+The list of MRU items is passed to the Ribbon host application as a **SAFEARRAY** of [**IUISimplePropertySet**](/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset) pointers to respective implementations in the host application.
 
 ## Related topics
 
@@ -40,7 +40,3 @@ The list of MRU items is passed to the Ribbon host application as a **SAFEARRAY*
  
 
  
-
-
-
-

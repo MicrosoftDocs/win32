@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following functionality has been added in Direct3D 11.4.
 
-Also see [Where is the DirectX SDK?](/windows/win32/directx-sdk--august-2009-).
+Also see [Where is the DirectX SDK?](../directx-sdk--august-2009-.md).
 
 ## Direct3D device removal
 
@@ -44,7 +44,3 @@ Drivers may support OS-managed shader caching of Direct3D11 applications in the 
  
 
  
-
-
-
-

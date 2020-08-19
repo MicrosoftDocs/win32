@@ -99,7 +99,7 @@ hr = pPsi->GetCountOfElementaryStreams(ProgNum, &cElemStreams);
 
 
 
-For each elementary stream, the [**IMpeg2PsiParser::GetRecordElementaryPid**](https://msdn.microsoft.com/library/Dd376623(v=VS.85).aspx) method returns the PID, and the [**IMpeg2PsiParser::GetRecordStreamType**](https://msdn.microsoft.com/library/Dd376626(v=VS.85).aspx) method returns the stream type:
+For each elementary stream, the [**IMpeg2PsiParser::GetRecordElementaryPid**](/previous-versions/windows/desktop/legacy/dd376623(v=vs.85)) method returns the PID, and the [**IMpeg2PsiParser::GetRecordStreamType**](/previous-versions/windows/desktop/legacy/dd376626(v=vs.85)) method returns the stream type:
 
 
 ```C++
@@ -137,6 +137,3 @@ This sample is installed under the following path: *\[SDK Root\]*\\Samples\\Mult
  
 
  
-
-
-

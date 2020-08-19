@@ -7,7 +7,7 @@ ms.date: 04/17/2020
 
 # PatchAPI
 
-This section documents several functions that belong to the PatchAPI interface. PatchAPI is part of the [Delta Compression API](https://docs.microsoft.com/previous-versions/bb417345(v=msdn.10)), which is designed to programmatically create deltas (similar to patches or compressed diffs) between files.
+This section documents several functions that belong to the PatchAPI interface. PatchAPI is part of the [Delta Compression API](/previous-versions/bb417345(v=msdn.10)), which is designed to programmatically create deltas (similar to patches or compressed diffs) between files.
 
 ## In this section
 

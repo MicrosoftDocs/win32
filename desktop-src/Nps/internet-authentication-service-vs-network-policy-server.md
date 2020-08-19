@@ -17,7 +17,7 @@ Internet Authentication Service is the Microsoft implementation of a RADIUS serv
 
 Internet Authentication Service supports two API sets: [Network Policy Server Extensions API](ias-extensions.md) and [Server Data Objects API](server-data-objects.md).
 
-See [TechNet: Internet Authentication Service](https://technet.microsoft.com/network/bb643123.aspx) for more information on IAS.
+See [TechNet: Internet Authentication Service](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831683(v=ws.11)) for more information on IAS.
 
 ## Network Policy Server
 
@@ -61,7 +61,7 @@ NPS supports policy authoring using the following additional settings:<br/>
 NPS, through NAP, interoperates with CISCO NAC.<br/> IAS does not support NAP.<br/></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.microsoft.com/windows/win32/eap/eap-start-page">EAP</a> Policy and <a href="https://docs.microsoft.com/windows/win32/eaphost/portal">EAPHost</a> Support<br/></td>
+<td><a href="/windows/win32/eap/eap-start-page">EAP</a> Policy and <a href="/windows/win32/eaphost/portal">EAPHost</a> Support<br/></td>
 <td>NPS uses EAPHost for EAP method extensibility. Additionally, administrators may configure network access policy for EAP.<br/> IAS does not support EAPHost integration, or EAP type filter conditions for policies.<br/></td>
 </tr>
 <tr class="odd">
@@ -103,26 +103,20 @@ NPS, through NAP, interoperates with CISCO NAC.<br/> IAS does not support NAP.<b
 
  
 
-See [TechNet: Network Policy Server](https://technet.microsoft.com/network/bb629414.aspx) for more information on NPS.
+See [TechNet: Network Policy Server](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831683(v=ws.11)) for more information on NPS.
 
 ## Related topics
 
 <dl> <dt>
 
-[RADIUS Authentication, Authorization, and Accounting](https://docs.microsoft.com/windows/desktop/Nps/ias-radius-authentication-and-accounting)
+[RADIUS Authentication, Authorization, and Accounting](/windows/desktop/Nps/ias-radius-authentication-and-accounting)
 </dt> <dt>
 
-[Logging With Network Policy Server](https://docs.microsoft.com/windows/desktop/Nps/ias-radius-accounting-packets)
+[Logging With Network Policy Server](/windows/desktop/Nps/ias-radius-accounting-packets)
 </dt> <dt>
 
-[Working with a State Server](https://docs.microsoft.com/windows/desktop/Nps/ias-working-with-a-state-server)
+[Working with a State Server](/windows/desktop/Nps/ias-working-with-a-state-server)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

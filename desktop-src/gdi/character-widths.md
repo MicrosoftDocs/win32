@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 Applications need to retrieve character-width data when they perform such tasks as fitting strings of text to page or column widths. There are four functions that an application can use to retrieve character-width data. Two of these functions retrieve the character-advance width and two of these functions retrieve actual character-width data.
 
-An application can use the [GetCharWidth32](/windows/desktop/api/Wingdi/nf-wingdi-getcharwidth32a) and [GetCharWidthFloat](/windows/desktop/api/Wingdi/nf-wingdi-getcharwidthfloata) functions to retrieve the advance width for individual characters or symbols in a string of text. The advance width is the distance that the cursor on a video display or the print-head on a printer must advance before printing the next character in a string of text. The [**GetCharWidth32**](https://msdn.microsoft.com/library/Dd144862(v=VS.85).aspx) function returns the advance width as an integer value. If greater precision is required, an application can use the [**GetCharWidthFloat**](https://msdn.microsoft.com/library/Dd144863(v=VS.85).aspx) function to retrieve fractional advance-width values.
+An application can use the [GetCharWidth32](/windows/desktop/api/Wingdi/nf-wingdi-getcharwidth32a) and [GetCharWidthFloat](/windows/desktop/api/Wingdi/nf-wingdi-getcharwidthfloata) functions to retrieve the advance width for individual characters or symbols in a string of text. The advance width is the distance that the cursor on a video display or the print-head on a printer must advance before printing the next character in a string of text. The [**GetCharWidth32**](/windows/win32/api/wingdi/nf-wingdi-getcharwidth32a) function returns the advance width as an integer value. If greater precision is required, an application can use the [**GetCharWidthFloat**](/windows/win32/api/wingdi/nf-wingdi-getcharwidthfloata) function to retrieve fractional advance-width values.
 
-An application can retrieve actual character-width data by using the [GetCharABCWidths](/windows/desktop/api/Wingdi/nf-wingdi-getcharabcwidthsa) and [**GetCharABCWidthsFloat**](/windows/desktop/api/Wingdi/nf-wingdi-getcharabcwidthsfloata) functions. The **GetCharABCWidthsFloat** function works with all fonts. The [**GetCharABCWidths**](https://msdn.microsoft.com/library/Dd144857(v=VS.85).aspx) function only works with TrueType and OpenType fonts. For more information about TrueType and OpenType fonts, see [Raster, Vector, TrueType, and OpenType Fonts](raster--vector--truetype--and-opentype-fonts.md).
+An application can retrieve actual character-width data by using the [GetCharABCWidths](/windows/desktop/api/Wingdi/nf-wingdi-getcharabcwidthsa) and [**GetCharABCWidthsFloat**](/windows/desktop/api/Wingdi/nf-wingdi-getcharabcwidthsfloata) functions. The **GetCharABCWidthsFloat** function works with all fonts. The [**GetCharABCWidths**](/windows/win32/api/wingdi/nf-wingdi-getcharabcwidthsa) function only works with TrueType and OpenType fonts. For more information about TrueType and OpenType fonts, see [Raster, Vector, TrueType, and OpenType Fonts](raster--vector--truetype--and-opentype-fonts.md).
 
 The following illustration shows the three components of a character width:
 
@@ -23,6 +23,3 @@ The A spacing is the width to add to the current position before placing the cha
  
 
  
-
-
-

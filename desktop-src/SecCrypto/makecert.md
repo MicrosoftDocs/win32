@@ -9,11 +9,11 @@ ms.date: 05/31/2018
 # MakeCert
 
 > [!Note]  
-> MakeCert is deprecated. To create self-signed certificates, use the Powershell Cmdlet [New-SelfSignedCertificate](https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate).
+> MakeCert is deprecated. To create self-signed certificates, use the Powershell Cmdlet [New-SelfSignedCertificate](/powershell/module/pkiclient/new-selfsignedcertificate).
 
  
 
-The MakeCert tool creates an [*X.509*](https://docs.microsoft.com/windows/win32/secgloss/x-gly) certificate, signed by the test root key or other specified key, that binds your name to the public part of the key pair. The certificate is saved to a file, a system certificate store, or both. The tool is installed in the \\Bin folder of the Microsoft Windows Software Development Kit (SDK) installation path.
+The MakeCert tool creates an [*X.509*](../secgloss/x-gly.md) certificate, signed by the test root key or other specified key, that binds your name to the public part of the key pair. The certificate is saved to a file, a system certificate store, or both. The tool is installed in the \\Bin folder of the Microsoft Windows Software Development Kit (SDK) installation path.
 
 The MakeCert tool uses the following command syntax:
 
@@ -157,11 +157,11 @@ For more information, see the Note that follows this table.<br/></td>
  
 
 > [!Note]  
-> If the **-sky** key specification option is used in Internet Explorer version 4.0 or later, the specification must match the key specification indicated by the [*private key*](https://docs.microsoft.com/windows/win32/secgloss/p-gly) file or private [*key container*](https://docs.microsoft.com/windows/win32/secgloss/k-gly). If the key specification option is not used, the key specification indicated by the private key file or private key container will be used. If there is more than one key specification in the key container, MakeCert will first attempt to use the AT\_SIGNATURE key specification. If that fails, MakeCert will try to use AT\_KEYEXCHANGE. Because most users have either an AT\_SIGNATURE key or an AT\_KEYEXCHANGE key, this option does not need to be used in most cases.
+> If the **-sky** key specification option is used in Internet Explorer version 4.0 or later, the specification must match the key specification indicated by the [*private key*](../secgloss/p-gly.md) file or private [*key container*](../secgloss/k-gly.md). If the key specification option is not used, the key specification indicated by the private key file or private key container will be used. If there is more than one key specification in the key container, MakeCert will first attempt to use the AT\_SIGNATURE key specification. If that fails, MakeCert will try to use AT\_KEYEXCHANGE. Because most users have either an AT\_SIGNATURE key or an AT\_KEYEXCHANGE key, this option does not need to be used in most cases.
 
  
 
-The following options are only for [*Software Publisher Certificate*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) (SPC) files and private key technology.
+The following options are only for [*Software Publisher Certificate*](../secgloss/s-gly.md) (SPC) files and private key technology.
 
 
 
@@ -215,11 +215,11 @@ For more information, see the Note that follows this table.<br/></td>
  
 
 > [!Note]  
-> If the **-iky** key specification option is used in Internet Explorer 4.0 or later, the specification must match the key specification indicated by the [*private key*](https://docs.microsoft.com/windows/win32/secgloss/p-gly) file or private [*key container*](https://docs.microsoft.com/windows/win32/secgloss/k-gly). If the key specification option is not used, the key specification indicated by the private key file or private key container will be used. If there is more than one key specification in the key container, MakeCert will first attempt to use the AT\_SIGNATURE key specification. If that fails, MakeCert will try to use AT\_KEYEXCHANGE. Because most users have either an AT\_SIGNATURE key or an AT\_KEYEXCHANGE key, this option does not need to be used in most cases.
+> If the **-iky** key specification option is used in Internet Explorer 4.0 or later, the specification must match the key specification indicated by the [*private key*](../secgloss/p-gly.md) file or private [*key container*](../secgloss/k-gly.md). If the key specification option is not used, the key specification indicated by the private key file or private key container will be used. If there is more than one key specification in the key container, MakeCert will first attempt to use the AT\_SIGNATURE key specification. If that fails, MakeCert will try to use AT\_KEYEXCHANGE. Because most users have either an AT\_SIGNATURE key or an AT\_KEYEXCHANGE key, this option does not need to be used in most cases.
 
  
 
-The following options are for [*certificate store*](https://docs.microsoft.com/windows/win32/secgloss/c-gly) technology only.
+The following options are for [*certificate store*](../secgloss/c-gly.md) technology only.
 
 
 
@@ -237,7 +237,3 @@ The following options are for [*certificate store*](https://docs.microsoft.com/w
  
 
  
-
-
-
-

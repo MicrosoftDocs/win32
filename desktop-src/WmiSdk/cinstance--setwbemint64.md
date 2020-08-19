@@ -10,7 +10,7 @@ ms.topic: reference
 
 # CInstance::SetWBEMINT64 methods
 
-\[The [**CInstance**](https://msdn.microsoft.com/library/Aa388679(v=VS.85).aspx) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**CInstance**](/windows/win32/api/instance/nl-instance-cinstance) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The [**CInstance::GetWBEMINT64**](cinstance-getwbemint64.md) method sets a 64-bit integer property.
 
@@ -20,9 +20,9 @@ The [**CInstance::GetWBEMINT64**](cinstance-getwbemint64.md) method sets a 64-bi
 
 | Method                                                                                               | Description                                |
 |:-----------------------------------------------------------------------------------------------------|:-------------------------------------------|
-| [**SetWBEMINT64(LPCWSTR, const LONGLONG&)**](https://msdn.microsoft.com/library/Aa389211(v=VS.85).aspx)    | Sets a 64-bit integer property.<br/> |
-| [**SetWBEMINT64(LPCWSTR, const WBEMINT64&)**](https://msdn.microsoft.com/library/Aa389215(v=VS.85).aspx) | Sets a 64-bit integer property.<br/> |
-| [**SetWBEMINT64(LPCWSTR, const ULONGLONG&)**](https://msdn.microsoft.com/library/Aa389213(v=VS.85).aspx)  | Sets a 64-bit integer property.<br/> |
+| [**SetWBEMINT64(LPCWSTR, const LONGLONG&)**](/windows/win32/api/instance/nf-instance-cinstance-setwbemint64(lpcwstr_constlonglong))    | Sets a 64-bit integer property.<br/> |
+| [**SetWBEMINT64(LPCWSTR, const WBEMINT64&)**](/windows/win32/api/instance/nf-instance-cinstance-setwbemint64(lpcwstr_constulonglong)) | Sets a 64-bit integer property.<br/> |
+| [**SetWBEMINT64(LPCWSTR, const ULONGLONG&)**](/windows/win32/api/instance/nf-instance-cinstance-setwbemint64(lpcwstr_constulonglong))  | Sets a 64-bit integer property.<br/> |
 
 
 
@@ -44,13 +44,9 @@ The [**CInstance::GetWBEMINT64**](cinstance-getwbemint64.md) method sets a 64-bi
 
 <dl> <dt>
 
-[**CInstance**](https://msdn.microsoft.com/library/Aa388679(v=VS.85).aspx)
+[**CInstance**](/windows/win32/api/instance/nl-instance-cinstance)
 </dt> </dl>
 
 �
 
 �
-
-
-
-

@@ -14,7 +14,7 @@ This section presents discussions of transport-level security, divided into the 
 
 -   [Using Transport-Level Security on the Client](using-transport-level-security-on-the-client.md)
 
-When you use [ncacn\_np](https://docs.microsoft.com/windows/desktop/Midl/ncacn-np) or [ncalrpc](https://docs.microsoft.com/windows/desktop/Midl/ncalrpc) as the protocol sequence, the server specifies a security descriptor for the endpoint at the time it selects the protocol sequence. For more information on protocol sequences, see [Specifying Protocol Sequences](specifying-protocol-sequences.md). Your application provides the security descriptor as an additional parameter (an extension to the standard OSF-DCE parameters) on all functions that start with the prefixes [**RpcServerUseProtseq**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseq) and [**RpcServerUseAllProtseqs**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqs). The security descriptor controls whether a client can connect to the endpoint.
+When you use [ncacn\_np](/windows/desktop/Midl/ncacn-np) or [ncalrpc](/windows/desktop/Midl/ncalrpc) as the protocol sequence, the server specifies a security descriptor for the endpoint at the time it selects the protocol sequence. For more information on protocol sequences, see [Specifying Protocol Sequences](specifying-protocol-sequences.md). Your application provides the security descriptor as an additional parameter (an extension to the standard OSF-DCE parameters) on all functions that start with the prefixes [**RpcServerUseProtseq**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseq) and [**RpcServerUseAllProtseqs**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqs). The security descriptor controls whether a client can connect to the endpoint.
 
 Each process and thread is associated with a security token. This token includes a default security descriptor that is used for any objects that the process creates, such as the endpoint. If your application does not specify a security descriptor when calling a function with the prefixes [**RpcServerUseProtseq**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseq) and [**RpcServerUseAllProtseqs**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqs), the RPC run-time library applies the default security descriptor from the process security token to the endpoint.
 
@@ -25,7 +25,3 @@ For more information about these functions and the functions [**RpcImpersonateCl
  
 
  
-
-
-
-

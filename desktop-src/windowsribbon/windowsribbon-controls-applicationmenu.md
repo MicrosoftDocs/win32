@@ -58,7 +58,7 @@ The following is a list of constraints for a [**MenuGroup**](windowsribbon-eleme
 -   All [**MenuGroup**](windowsribbon-element-menugroup.md) items must be declared with a *Class* attribute value of `MajorItems`.
 -   An Application Menu [**MenuGroup**](windowsribbon-element-menugroup.md) supports only the [Button](windowsribbon-controls-button.md), [Toggle Button](windowsribbon-controls-togglebutton.md), [Drop-Down Button](windowsribbon-controls-dropdownbutton.md), [Split Button](windowsribbon-controls-splitbutton.md), [Drop-Down Gallery](windowsribbon-controls-dropdowngallery.md), and [Split Button Gallery](windowsribbon-controls-splitbuttongallery.md) controls.
     > \[!Important\]  
-    > Command galleries are the only type of gallery that are supported in the Application Menu. See [Working with Galleries](https://msdn.microsoft.com/library/Dd742868(v=VS.85).aspx), for more information on gallery controls.
+    > Command galleries are the only type of gallery that are supported in the Application Menu. See [Working with Galleries](./ribbon-controls-galleries.md), for more information on gallery controls.
 
      
 
@@ -84,9 +84,9 @@ Sizing of the Application Menu is handled by the Ribbon framework. If very long 
 
 The Ribbon framework defines a collection of [property keys](windowsribbon-reference-properties.md) for the Application Menu control.
 
-Typically, an Application Menu property is updated in the ribbon UI by invalidating the Command associated with the control through a call to the [**IUIFramework::InvalidateUICommand**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand) method. The invalidation event is handled and the property updates are defined by the [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) callback method.
+Typically, an Application Menu property is updated in the ribbon UI by invalidating the Command associated with the control through a call to the [**IUIFramework::InvalidateUICommand**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand) method. The invalidation event is handled and the property updates are defined by the [**IUICommandHandler::UpdateProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) callback method.
 
-The [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) callback method is not executed and the application is not queried for an updated property value until the property is required by the framework. For example, the framework requires the property when a tab is activated and a control is revealed in the ribbon UI, or when a tooltip is displayed.
+The [**IUICommandHandler::UpdateProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) callback method is not executed and the application is not queried for an updated property value until the property is required by the framework. For example, the framework requires the property when a tab is activated and a control is revealed in the ribbon UI, or when a tooltip is displayed.
 
 
 
@@ -112,7 +112,3 @@ The [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/d
  
 
  
-
-
-
-

@@ -39,7 +39,7 @@ HRESULT RegisterTemplates(
 *pvData* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 Pointer to a buffer consisting of a DirectX file in text or binary format that contains templates.
 
@@ -48,7 +48,7 @@ Pointer to a buffer consisting of a DirectX file in text or binary format that c
 *cbSize* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Size of the buffer pointed to by pvData, in bytes.
 
@@ -107,7 +107,3 @@ All templates must specify a name and a Universally Unique Identifier (UUID).
  
 
  
-
-
-
-

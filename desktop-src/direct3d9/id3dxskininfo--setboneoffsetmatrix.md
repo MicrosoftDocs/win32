@@ -39,7 +39,7 @@ HRESULT SetBoneOffsetMatrix(
 *Bone* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Bone number.
 
@@ -88,7 +88,3 @@ Bone names are returned by [**D3DXLoadMeshFromXof**](d3dxloadmeshfromxof.md).
  
 
  
-
-
-
-

@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Specifies the creator of the profile.
 
-For more information about this element, see the documentation for the v1 [**ProfileCreationType**](https://msdn.microsoft.com/library/Dd323293(v=VS.85).aspx) element.
+For more information about this element, see the documentation for the v1 [**ProfileCreationType**](./schema-profilecreationtype-mbnprofile-element.md) element.
 
 ## Element hierarchy
 
@@ -88,6 +88,3 @@ The following elements have the same name as this one, but different content or 
  
 
  
-
-
-

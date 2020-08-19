@@ -50,7 +50,7 @@ Setting the NoOpenWith entry also has these effects:
 
 The second way to prevent an application from appearing in the **Open with** dialog box is to use the **SupportedTypes** subkey to explicitly list the extensions of file types that the application can open. This prevents the application from appearing in the **Open with** dialog box for file types that it cannot open. It also causes the application to appear in the **Recommended Programs** list as discussed previously.
 
-This method is particularly useful if an application can save a file as a certain file type but cannot open that file type. An application should also set the FOS\_DONTADDTORECENT flag through [**IFileDialog::SetOptions**](https://msdn.microsoft.com/library/Bb761832(v=VS.85).aspx) when calling the **Save** dialog box. This keeps the item from being added to the **Recent** or **Frequent** portions of a Jump List. It also blocks the application from being tracked under [OpenWithList](fa-file-types.md).
+This method is particularly useful if an application can save a file as a certain file type but cannot open that file type. An application should also set the FOS\_DONTADDTORECENT flag through [**IFileDialog::SetOptions**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setoptions) when calling the **Save** dialog box. This keeps the item from being added to the **Recent** or **Frequent** portions of a Jump List. It also blocks the application from being tracked under [OpenWithList](fa-file-types.md).
 
 Each supported extension is added as an entry under the **SupportedTypes** subkey as shown in the following example. The entries are of type **REG\_SZ** or **REG\_NULL**, with no associated values.
 
@@ -71,6 +71,3 @@ The NoOpenWith entry overrides the **SupportedTypes** subkey and hides the appli
  
 
  
-
-
-

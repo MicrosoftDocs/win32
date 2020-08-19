@@ -61,46 +61,43 @@ The [**WSARevertImpersonation**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsare
 
 -   An application calls the secure socket functions to set or query security settings for a socket.
 -   The secure socket functions are a set of type-safe extension functions that wrap calls to the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) function using newly-defined values for the *dwIoControlCode* parameter available on Windows Vista and later. These IOCTLs are handled by the network stack.
--   The network stack will direct the call to [Application Layer Enforcement (ALE)](https://msdn.microsoft.com/library/Aa363971(v=VS.85).aspx) along with the endpoint handle. For the [**WSADeleteSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsadeletesocketpeertargetname), [**WSASetSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname), and [**WSASetSocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity) functions, ALE will configure the application's settings on the local endpoint. For the [**WSAQuerySocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity) function, ALE will read the requested information from applicable local and remote endpoints.
--   Based on socket events, Application Layer Enforcement (ALE) enforces policies for the secure socket architecture using the Windows Filtering Platform. For more information, see [About Windows Filtering Platform](https://msdn.microsoft.com/library/Aa363967(v=VS.85).aspx) and [Application Layer Enforcement (ALE)](https://msdn.microsoft.com/library/Aa363971(v=VS.85).aspx).
+-   The network stack will direct the call to [Application Layer Enforcement (ALE)](../fwp/application-layer-enforcement--ale-.md) along with the endpoint handle. For the [**WSADeleteSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsadeletesocketpeertargetname), [**WSASetSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname), and [**WSASetSocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity) functions, ALE will configure the application's settings on the local endpoint. For the [**WSAQuerySocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity) function, ALE will read the requested information from applicable local and remote endpoints.
+-   Based on socket events, Application Layer Enforcement (ALE) enforces policies for the secure socket architecture using the Windows Filtering Platform. For more information, see [About Windows Filtering Platform](../fwp/about-windows-filtering-platform.md) and [Application Layer Enforcement (ALE)](../fwp/application-layer-enforcement--ale-.md).
 
 ## Related topics
 
 <dl> <dt>
 
-[About Windows Filtering Platform](https://msdn.microsoft.com/library/Aa363967(v=VS.85).aspx)
+[About Windows Filtering Platform](../fwp/about-windows-filtering-platform.md)
 </dt> <dt>
 
 [Advanced Winsock Samples Using Secure Socket Extensions](advanced-winsock-samples-using-secure-socket-extensions.md)
 </dt> <dt>
 
-[Application Layer Enforcement (ALE)](https://msdn.microsoft.com/library/Aa363971(v=VS.85).aspx)
+[Application Layer Enforcement (ALE)](../fwp/application-layer-enforcement--ale-.md)
 </dt> <dt>
 
-[IPsec Configuration](https://msdn.microsoft.com/library/Bb736264(v=VS.85).aspx)
+[IPsec Configuration](../fwp/ipsec-configuration.md)
 </dt> <dt>
 
-[IPsec Functions](https://msdn.microsoft.com/library/Aa364938(v=VS.85).aspx)
+[IPsec Functions](../fwp/fwp-ipsec-functions.md)
 </dt> <dt>
 
 [Secure Winsock Programming](secure-winsock-programming.md)
 </dt> <dt>
 
-[Security Support Provider Interface (SSPI)](https://msdn.microsoft.com/library/Aa378663(v=VS.80).aspx)
+[Security Support Provider Interface (SSPI)](../rpc/security-support-provider-interface-sspi-.md)
 </dt> <dt>
 
 [Using Secure Socket Extensions](using-secure-socket-extensions.md)
 </dt> <dt>
 
-[Windows Filtering Platform](https://msdn.microsoft.com/library/Aa366510(v=VS.85).aspx)
+[Windows Filtering Platform](../fwp/windows-filtering-platform-start-page.md)
 </dt> <dt>
 
-[Windows Filtering Platform API Functions](https://msdn.microsoft.com/library/Aa364931(v=VS.85).aspx)
+[Windows Filtering Platform API Functions](../fwp/fwp-functions.md)
 </dt> </dl>
 
  
 
  
-
-
-

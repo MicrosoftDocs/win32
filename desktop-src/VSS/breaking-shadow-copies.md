@@ -16,11 +16,8 @@ Software providers maintain shadow copies only while involved in VSS operations.
 
 If the shadow copy was managed by a hardware provider, the requester must import the shadow copy before calling [**BreakSnapshotSet**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset) or [**BreakSnapshotSetEx**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-breaksnapshotsetex). In case of non-transportable (created by a hardware provider) shadow copies, they are imported implicitly as part of the [**IVssBackupComponents::DoSnapshotSet**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset) call.
 
-After the requester has called [**BreakSnapshotSet**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset) or [**BreakSnapshotSetEx**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-breaksnapshotsetex), the shadow copy set is still accessible via its device objects or other access paths, but it is no longer a shadow copy set. It can be managed as one or more LUNs by using the Virtual Disk Service (VDS) COM interfaces. Using VDS, a requester can convert the LUNs to read/write, mount them with drive letters, or mask/unmask them to other computers. See the [VDS API documentation](https://msdn.microsoft.com/library/Bb986750(v=VS.85).aspx) for more information.
+After the requester has called [**BreakSnapshotSet**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset) or [**BreakSnapshotSetEx**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-breaksnapshotsetex), the shadow copy set is still accessible via its device objects or other access paths, but it is no longer a shadow copy set. It can be managed as one or more LUNs by using the Virtual Disk Service (VDS) COM interfaces. Using VDS, a requester can convert the LUNs to read/write, mount them with drive letters, or mask/unmask them to other computers. See the [VDS API documentation](../vds/virtual-disk-service-portal.md) for more information.
 
  
 
  
-
-
-

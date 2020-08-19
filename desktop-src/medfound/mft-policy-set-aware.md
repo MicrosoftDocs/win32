@@ -7,7 +7,7 @@ ms.date: 05/31/2018
 
 # MFT\_POLICY\_SET\_AWARE attribute
 
-If non-zero, indicates that the **IMFTransform** wants to receive [MEPolicySet](/windows/win32/medfound/mepolicyset) completion notifications.
+If non-zero, indicates that the **IMFTransform** wants to receive [MEPolicySet](./mepolicyset.md) completion notifications.
 
 ## Data type
 
@@ -55,7 +55,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

@@ -19,13 +19,13 @@ ms.date: 05/31/2018
 
 # IVMDVDDriveCollection interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Defines the collection of CD and DVD drives within the virtual machine. To obtain an **IVMDVDDriveCollection** object, use the [**IVMVirtualMachine::DVDROMDrives**](ivmvirtualmachine-dvdromdrives.md) property.
 
 ## Members
 
-The **IVMDVDDriveCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMDVDDriveCollection** also has these types of members:
+The **IVMDVDDriveCollection** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IVMDVDDriveCollection** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -71,10 +71,4 @@ The **IVMDVDDriveCollection** interface has these properties.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

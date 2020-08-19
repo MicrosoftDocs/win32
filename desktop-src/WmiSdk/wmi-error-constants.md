@@ -13,7 +13,7 @@ If an error occurs, WMI returns an error code as an **HRESULT** value. These cod
 
 > [!Note]
 >
-> The following documentation is targeted for developers and IT administrators. If you are an end-user that has experienced an error message concerning WMI, you should go to [Microsoft Support](https://support.microsoft.com/) and search for the error code you see on the error message. For more information about troubleshooting problems with WMI scripts and the WMI service, see [WMI Isn't Working!](https://TechNet.Microsoft.Com/library/ff406382.aspx).
+> The following documentation is targeted for developers and IT administrators. If you are an end-user that has experienced an error message concerning WMI, you should go to [Microsoft Support](https://support.microsoft.com/) and search for the error code you see on the error message. For more information about troubleshooting problems with WMI scripts and the WMI service, see [WMI Isn't Working!](/previous-versions/tn-archive/ff406382(v=msdn.10)).
 >
 > If WMI returns error messages, be aware that they may not indicate problems in the WMI service or in WMI providers. Failures can originate in other parts of the operating system and emerge as errors through WMI. Under any circumstances, do not delete the WMI repository as a first action because deleting the repository can cause damage to the system or to installed applications.
 >
@@ -60,7 +60,7 @@ Error originating from ADSI (Active Directory Service Interfaces) or LDAP (Light
 
 </dd> </dl>
 
-Some methods in WMI classes can return system and network error codes (64 for example). You can check the definition of these types of error codes by using the **net helpmsg** command in the command prompt window. For example, the command **net helpmsg 64** returns the message: The specified network name is no longer available. In C++, you can call [**FormatMessage**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage) and specify **C:\\Windows\\System32\\wbem\\wmiutils.dll** as the message module.
+Some methods in WMI classes can return system and network error codes (64 for example). You can check the definition of these types of error codes by using the **net helpmsg** command in the command prompt window. For example, the command **net helpmsg 64** returns the message: The specified network name is no longer available. In C++, you can call [**FormatMessage**](/windows/desktop/api/winbase/nf-winbase-formatmessage) and specify **C:\\Windows\\System32\\wbem\\wmiutils.dll** as the message module.
 
 <dl> <dt>
 
@@ -320,7 +320,7 @@ This error may be caused by many conditions, including the following:
 
 -   Provider is using a WMI DLL that does not match the .lib file used when the provider was built.
 -   Provider's DLL, or any of the DLLs on which it depends, is corrupt.
--   Provider failed to export [**DllRegisterServer**](https://msdn.microsoft.com/library/ms682162(v=VS.85).aspx).
+-   Provider failed to export [**DllRegisterServer**](/windows/win32/api/olectl/nf-olectl-dllregisterserver).
 -   In-process provider was not registered using the **regsvr32** command.
 -   Out-of-process provider was not registered using the **/regserver** switch. For example, **myprog.exe /regserver**.
 
@@ -2441,9 +2441,4 @@ The syntax for the preprocessor commands [\#pragma deleteinstance](pragma-delete
 </dt> </dl>
 
  
-
- 
-
-
-
 

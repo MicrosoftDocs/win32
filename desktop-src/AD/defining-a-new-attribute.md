@@ -31,7 +31,7 @@ To create a new attribute:
 -   Decide if the attribute should be indexed by default. For more information, see [Indexed Attributes](indexed-attributes.md).
 -   Decide if the attribute should be in the global catalog by default. For more information, see [Attributes Included in the Global Catalog](attributes-included-in-the-global-catalog.md).
 -   If the attribute is an integer or string, decide if a range limit is required. The **rangeLower** and **rangeUpper** attributes are used to specify the range limit.
--   If the attribute is DN-valued, decide if the attribute should be linked with another attribute. If so, the [**linkID**](https://docs.microsoft.com/windows/desktop/ADSchema/a-linkid) attribute must be set appropriately on each attribute; one attribute must be a forward link, the other a back link. For more information about linked attributes, see [Linked Attributes](linked-attributes.md).
+-   If the attribute is DN-valued, decide if the attribute should be linked with another attribute. If so, the [**linkID**](/windows/desktop/ADSchema/a-linkid) attribute must be set appropriately on each attribute; one attribute must be a forward link, the other a back link. For more information about linked attributes, see [Linked Attributes](linked-attributes.md).
 -   Create a new **attributeSchema** object in the schema container and set the appropriate attributes for the object. There are a large number of attributes that can be set for an **attributeSchema** object, but the attributes listed in the following table below are critical to the definition of a new attribute. The values of these attributes are determined by the previous steps. For more information about these attributes, see [Characteristics of Attributes](characteristics-of-attributes.md).
 
     | Attribute                                    | Comment                                              |
@@ -60,10 +60,4 @@ To create a new attribute:
 -   Update the schema cache, if necessary. For more information, see [Updating the Schema Cache](updating-the-schema-cache.md).
 
  
-
- 
-
-
-
-
 

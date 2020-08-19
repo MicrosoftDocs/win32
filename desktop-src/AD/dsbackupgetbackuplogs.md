@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # DsBackupGetBackupLogs function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](https://msdn2.microsoft.com/library/aa384649.aspx) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](../vss/volume-shadow-copy-service-overview.md) instead.\]
 
 The **DsBackupGetBackupLogs** function obtains the list of log files that must be backed up for the given backup context.
 
@@ -135,10 +135,4 @@ The **DsBackupGetBackupLogs** function provides a list of the log files necessar
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

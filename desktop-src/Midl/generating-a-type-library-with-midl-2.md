@@ -32,12 +32,8 @@ library a
 
 If an element defined outside the library block is referenced within the library block, then its definition will be put into the generated type library. The MIDL compiler treats the statements outside of a library block as a typical IDL file and parses those statements as it has always done. Normally, this means generating C-language stubs for an RPC application.
 
-For more information about the general syntax for an ODL file see [ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx).
+For more information about the general syntax for an ODL file see [ODL File Syntax](/previous-versions/windows/desktop/automat/odl-file-syntax).
 
  
 
  
-
-
-
-

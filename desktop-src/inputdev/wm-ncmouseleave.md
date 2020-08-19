@@ -18,9 +18,9 @@ ms.date: 05/31/2018
 
 # WM\_NCMOUSELEAVE message
 
-Posted to a window when the cursor leaves the nonclient area of the window specified in a prior call to [**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx).
+Posted to a window when the cursor leaves the nonclient area of the window specified in a prior call to [**TrackMouseEvent**](/windows/win32/api/winuser/nf-winuser-trackmouseevent).
 
-A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -53,7 +53,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-All tracking requested by [**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx) is canceled when this message is generated. The application must call **TrackMouseEvent** when the mouse reenters its window if it requires further tracking of mouse hover behavior.
+All tracking requested by [**TrackMouseEvent**](/windows/win32/api/winuser/nf-winuser-trackmouseevent) is canceled when this message is generated. The application must call **TrackMouseEvent** when the mouse reenters its window if it requires further tracking of mouse hover behavior.
 
 ## Requirements
 
@@ -74,13 +74,13 @@ All tracking requested by [**TrackMouseEvent**](https://msdn.microsoft.com/libra
 **Reference**
 </dt> <dt>
 
-[**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx)
+[**TrackMouseEvent**](/windows/win32/api/winuser/nf-winuser-trackmouseevent)
 </dt> <dt>
 
-[**TRACKMOUSEEVENT**](https://msdn.microsoft.com/library/ms645604(v=VS.85).aspx)
+[**TRACKMOUSEEVENT**](/windows/win32/api/winuser/ns-winuser-trackmouseevent)
 </dt> <dt>
 
-[**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand)
+[**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
 </dt> <dt>
 
 [**WM\_MOUSELEAVE**](wm-mouseleave.md)
@@ -93,10 +93,4 @@ All tracking requested by [**TrackMouseEvent**](https://msdn.microsoft.com/libra
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

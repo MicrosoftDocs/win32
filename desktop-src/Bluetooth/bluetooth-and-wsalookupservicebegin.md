@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Bluetooth and WSALookupServiceBegin
 
-Bluetooth uses the [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) function to query for devices and to discover services.
+Bluetooth uses the [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) function to query for devices and to discover services.
 
-The following topics describe the use of the [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) function in each of these operations:
+The following topics describe the use of the [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) function in each of these operations:
 
 -   [Bluetooth and WSALookupServiceBegin For Device Inquiry](bluetooth-and-wsalookupservicebegin-for-device-inquiry.md)
 -   [Bluetooth and WSALookupServiceBegin For Service Discovery](bluetooth-and-wsalookupservicebegin-for-service-discovery.md)
@@ -25,13 +25,9 @@ The following topics describe the use of the [**WSALookupServiceBegin**](https:/
 [Bluetooth and WSALookupServiceEnd](bluetooth-and-wsalookupserviceend.md)
 </dt> <dt>
 
-[Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
+[Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> </dl>
 
  
 
  
-
-
-
-

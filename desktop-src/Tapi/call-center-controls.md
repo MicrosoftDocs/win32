@@ -14,11 +14,8 @@ TAPI 3.x implements objects, interfaces, and methods that assist the programmer 
 
 ![call center operations using tapi](images/callcent.png)
 
-A programmer interested in creating call center applications may also want to consult the TAPI 2.2 functions that can enable portions of a call center suite. See TAPI 2.2 [Call Center Control](https://msdn.microsoft.com/library/ms734836(v=VS.85).aspx).
+A programmer interested in creating call center applications may also want to consult the TAPI 2.2 functions that can enable portions of a call center suite. See TAPI 2.2 [Call Center Control](./call-center-control.md).
 
  
 
  
-
-
-

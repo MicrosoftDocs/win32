@@ -17,7 +17,7 @@ The provider application maintains one or more virtualization instances.  Each v
 
 Note that after shutting down a virtualization instance the provider does not need to re-create it to reuse it.  It can simply start it up again.
 
-> **Note**: This section shows examples of ProjFS APIs.  Each example is meant to illustrate basic API usage.  For documentation of options unused in these examples please consult the [ProjFS API reference](https://docs.microsoft.com/windows/desktop/api/_projfs).
+> **Note**: This section shows examples of ProjFS APIs.  Each example is meant to illustrate basic API usage.  For documentation of options unused in these examples please consult the [ProjFS API reference](/windows/desktop/api/_projfs).
 
 ## Creating a virtualization root
 
@@ -27,7 +27,7 @@ To create a virtualization root the provider must:
 
 1. Create a directory to serve as the virtualization root.
 
-    The provider creates a directory to serve as the virtualization root using, for example **[CreateDirectory](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createdirectoryw)**:
+    The provider creates a directory to serve as the virtualization root using, for example **[CreateDirectory](/windows/desktop/api/fileapi/nf-fileapi-createdirectoryw)**:
 
     ```C++
     HRESULT hr;
@@ -56,7 +56,7 @@ To create a virtualization root the provider must:
 
 1. Mark the new directory as the virtualization root.
 
-    The provider calls **[PrjMarkDirectoryAsPlaceholder](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjmarkdirectoryasplaceholder)** to mark the new directory as the virtualization root and assign it to the virtualization instance.
+    The provider calls **[PrjMarkDirectoryAsPlaceholder](/windows/desktop/api/projectedfslib/nf-projectedfslib-prjmarkdirectoryasplaceholder)** to mark the new directory as the virtualization root and assign it to the virtualization instance.
 
     ```C++
     hr = PrjMarkDirectoryAsPlaceholder(rootName,
@@ -80,7 +80,7 @@ To start the virtualization instance the provider must:
 
 1. Set up the callback table.
 
-    ProjFS communicates with the provider by invoking callback routines implemented by the provider.  The provider populates a [PRJ_CALLBACKS](https://docs.microsoft.com/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_callbacks) struct with pointers to its callback routines.
+    ProjFS communicates with the provider by invoking callback routines implemented by the provider.  The provider populates a [PRJ_CALLBACKS](/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_callbacks) struct with pointers to its callback routines.
 
     ```C++
     PRJ_CALLBACKS callbackTable;
@@ -100,7 +100,7 @@ To start the virtualization instance the provider must:
 
 1. Start the instance.
 
-    The provider calls **[PrjStartVirtualizing](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjstartvirtualizing)** to start the virtualization instance.
+    The provider calls **[PrjStartVirtualizing](/windows/desktop/api/projectedfslib/nf-projectedfslib-prjstartvirtualizing)** to start the virtualization instance.
 
     ```C++
     PRJ_NAMESPACE_VIRTUALIZATION_CONTEXT instanceHandle;
@@ -128,7 +128,7 @@ Once the call to **PrjStartVirtualizing** returns, ProjFS will invoke the provid
 
 ## Shutting down a virtualization instance
 
-To signal ProjFS that the provider wants to stop receiving callbacks and providing data, the provider must stop the virtualization instance.  To do this the provider calls **[PrjStopVirtualizing](https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjstopvirtualizing)**, passing it the handle to the virtualization instance that it received from the call to **PrjStartVirtualizing**.
+To signal ProjFS that the provider wants to stop receiving callbacks and providing data, the provider must stop the virtualization instance.  To do this the provider calls **[PrjStopVirtualizing](/windows/desktop/api/projectedfslib/nf-projectedfslib-prjstopvirtualizing)**, passing it the handle to the virtualization instance that it received from the call to **PrjStartVirtualizing**.
 
 ```C++
 PrjStopVirtualizing(instanceHandle);

@@ -19,7 +19,7 @@ api_location:
 
 # SWbemDateTime object
 
-The **SWbemDateTime** object is a helper object to parse and set Common Information Model (CIM) [datetime](datetime.md) values. It plays a role similar to [**SWbemObjectPath**](swbemobjectpath.md), which provides assistance to format and interpret object paths. You can use the VBScript [CreateObject](https://docs.microsoft.com/previous-versions//xzysf6hc(v=vs.85)) call to create the **SWbemDateTime** object.
+The **SWbemDateTime** object is a helper object to parse and set Common Information Model (CIM) [datetime](datetime.md) values. It plays a role similar to [**SWbemObjectPath**](swbemobjectpath.md), which provides assistance to format and interpret object paths. You can use the VBScript [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) call to create the **SWbemDateTime** object.
 
 An **SWbemDateTime** object can be initialized from and formatted in either **VT\_DATE** or **FILETIME** values using methods on the object. Using properties of the object, the value can be parsed into component year, month, day, hour, minutes, seconds, or microseconds. The **SWbemDateTime** object can be formatted into either local or Coordinated Universal Time (UTC) values. For more information, see [Date and Time Format](date-and-time-format.md).
 
@@ -82,7 +82,7 @@ The **SWbemDateTime** object has these properties.
 
 ## Remarks
 
-WMI records timestamps in universal time coordinate (UTC) format. UTC is not the format that most developers and IT administrators use. Therefore, a common issue is determining how to translate UTC into something more readable. For more information on how to work with UTC, see [WMI Tasks: Dates and Times](wmi-tasks--dates-and-times.md) and [Working with Dates and Times using WMI](https://TechNet.Microsoft.Com/library/ee198928.aspx). You can also read the [It s About Time (Oh, and About Dates, Too)](https://TechNet.Microsoft.Com/magazine/2006.07.scriptingguy.aspx) and [How Can I Subtract a Specified Number of Days from a UTC Value?](https://blogs.technet.com/b/heyscriptingguy/archive/2006/07/21/how-can-i-subtract-a-specified-number-of-days-from-a-utc-value.aspx) blog posts for additional information.
+WMI records timestamps in universal time coordinate (UTC) format. UTC is not the format that most developers and IT administrators use. Therefore, a common issue is determining how to translate UTC into something more readable. For more information on how to work with UTC, see [WMI Tasks: Dates and Times](wmi-tasks--dates-and-times.md) and [Working with Dates and Times using WMI](/previous-versions/tn-archive/ee198928(v=technet.10)). You can also read the [It s About Time (Oh, and About Dates, Too)](/previous-versions/technet-magazine/cc160973(v=msdn.10)) and [How Can I Subtract a Specified Number of Days from a UTC Value?](https://blogs.technet.com/b/heyscriptingguy/archive/2006/07/21/how-can-i-subtract-a-specified-number-of-days-from-a-utc-value.aspx) blog posts for additional information.
 
 Any numeric field can have a wildcard value if the [**IsInterval**](swbemdatetime-isinterval.md) property is set to **FALSE**. Fields with wildcard values contain asterisks in the entire field.
 
@@ -92,7 +92,7 @@ For example, if [**SWbemDateTime.DaySpecified**](swbemdatetime-dayspecified.md) 
 
 ## Examples
 
-The following script code example shows how to use an **SWbemDateTime** object to parse a datetime property value read from the WMI repository, the **InstallDate** property in [**Win32\_OperatingSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem).
+The following script code example shows how to use an **SWbemDateTime** object to parse a datetime property value read from the WMI repository, the **InstallDate** property in [**Win32\_OperatingSystem**](/windows/desktop/CIMWin32Prov/win32-operatingsystem).
 
 
 ```VB
@@ -298,9 +298,4 @@ The following Powershell code translates the code into a format ready to be cons
 </dt> </dl>
 
  
-
- 
-
-
-
 

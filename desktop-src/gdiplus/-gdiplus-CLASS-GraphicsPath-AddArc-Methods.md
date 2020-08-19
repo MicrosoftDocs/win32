@@ -8,7 +8,7 @@ ms.topic: reference
 
 # GraphicsPath.AddArc methods
 
-This topic lists the AddArc methods of the [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx).
+This topic lists the AddArc methods of the [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath).
 
 ### Overload list
 
@@ -16,17 +16,13 @@ This topic lists the AddArc methods of the [**GraphicsPath**](https://msdn.micro
 
 | Method                                                                                                                                                | Description                                                                                                                                                                                                           |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AddArc(Rect&,REAL,REAL)**](https://msdn.microsoft.com/library/ms535625(v=VS.85).aspx)                                      | The [**GraphicsPath::AddArc**](https://msdn.microsoft.com/library/ms535625(v=VS.85).aspx) method adds an elliptical arc to the current figure of this path. <br/>                       |
-| [**AddArc(RectF&,REAL,REAL)**](https://msdn.microsoft.com/library/ms535626(v=VS.85).aspx)                                    | The [**GraphicsPath::AddArc**](https://msdn.microsoft.com/library/ms535626(v=VS.85).aspx) method adds an elliptical arc to the current figure of this path.<br/>                       |
-| [**AddArc(INT,INT,INT,INT,REAL,REAL)**](https://msdn.microsoft.com/library/ms535627(v=VS.85).aspx)     | The [**GraphicsPath::AddArc**](https://msdn.microsoft.com/library/ms535627(v=VS.85).aspx) method adds an elliptical arc to the current figure of this path.<br/> |
-| [**AddArc(REAL,REAL,REAL,REAL,REAL,REAL)**](https://msdn.microsoft.com/library/ms535628(v=VS.85).aspx) | The [**GraphicsPath::AddArc**](https://msdn.microsoft.com/library/ms535628(v=VS.85).aspx) method adds an elliptical arc to the current figure of this path.<br/> |
+| [**AddArc(Rect&,REAL,REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addarc(inconstrect__inreal_inreal))                                      | The [**GraphicsPath::AddArc**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addarc(inconstrect__inreal_inreal)) method adds an elliptical arc to the current figure of this path. <br/>                       |
+| [**AddArc(RectF&,REAL,REAL)**](/previous-versions//ms535626(v=vs.85))                                    | The [**GraphicsPath::AddArc**](/previous-versions//ms535626(v=vs.85)) method adds an elliptical arc to the current figure of this path.<br/>                       |
+| [**AddArc(INT,INT,INT,INT,REAL,REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addarc(inint_inint_inint_inint_inreal_inreal))     | The [**GraphicsPath::AddArc**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addarc(inint_inint_inint_inint_inreal_inreal)) method adds an elliptical arc to the current figure of this path.<br/> |
+| [**AddArc(REAL,REAL,REAL,REAL,REAL,REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addarc(inreal_inreal_inreal_inreal_inreal_inreal)) | The [**GraphicsPath::AddArc**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addarc(inreal_inreal_inreal_inreal_inreal_inreal)) method adds an elliptical arc to the current figure of this path.<br/> |
 
 
 
  
 
  
-
-
-
-

@@ -22,19 +22,19 @@ The [**InterlockedIncrement**](/windows/win32/api/winnt/nf-winnt-interlockedincr
 
 The [**InterlockedExchange**](/windows/win32/api/winnt/nf-winnt-interlockedexchange) and [**InterlockedExchangePointer**](/windows/win32/api/winnt/nf-winnt-interlockedexchangepointer) functions atomically exchange the values of the specified variables. The [**InterlockedExchangeAdd**](/windows/win32/api/winnt/nf-winnt-interlockedexchangeadd) function combines two operations: adding two variables together and storing the result in one of the variables.
 
-The [**InterlockedCompareExchange**](/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange), [**InterlockedCompare64Exchange128**](https://msdn.microsoft.com/library/ms683553(v=VS.85).aspx), and [**InterlockedCompareExchangePointer**](/windows/win32/api/winnt/nf-winnt-interlockedcompareexchangepointer) functions combine two operations: comparing two values and storing a third value in one of the variables, based on the outcome of the comparison.
+The [**InterlockedCompareExchange**](/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange), [**InterlockedCompare64Exchange128**](/previous-versions/windows/desktop/legacy/ms683553(v=vs.85)), and [**InterlockedCompareExchangePointer**](/windows/win32/api/winnt/nf-winnt-interlockedcompareexchangepointer) functions combine two operations: comparing two values and storing a third value in one of the variables, based on the outcome of the comparison.
 
 The [**InterlockedAnd**](/windows/win32/api/winnt/nf-winnt-interlockedand), [**InterlockedOr**](/windows/win32/api/winnt/nf-winnt-interlockedor), and [**InterlockedXor**](/windows/win32/api/winnt/nf-winnt-interlockedxor) functions atomically perform AND, OR, and XOR operations, respectively.
 
-There are functions that are specifically designed to perform interlocked variable access on 64-bit memory values and addresses, and are optimized for use on 64-bit Windows. Each of these functions contains "64" in the name; for example, [**InterlockedDecrement64**](/windows/win32/api/winnt/nf-winnt-interlockeddecrement64) and [**InterlockedCompareExchangeAcquire64**](https://msdn.microsoft.com/library/ms683566(v=VS.85).aspx).
+There are functions that are specifically designed to perform interlocked variable access on 64-bit memory values and addresses, and are optimized for use on 64-bit Windows. Each of these functions contains "64" in the name; for example, [**InterlockedDecrement64**](/windows/win32/api/winnt/nf-winnt-interlockeddecrement64) and [**InterlockedCompareExchangeAcquire64**](/previous-versions/windows/desktop/legacy/ms683566(v=vs.85)).
 
-Most of the interlocked functions provide full memory barriers on all Windows platforms. There are also functions that combine the basic interlocked variable access operations with the acquire and release memory ordering semantics supported by certain processors. Each of these functions contains the word "Acquire" or "Release" in their names; for example, [**InterlockedDecrementAcquire**](https://msdn.microsoft.com/library/ms683583(v=VS.85).aspx) and [**InterlockedDecrementRelease**](https://msdn.microsoft.com/library/ms683586(v=VS.85).aspx). Acquire memory semantics specify that the memory operation being performed by the current thread will be visible before any other memory operations are attempted. Release memory semantics specify that the memory operation being performed by the current thread will be visible after all other memory operations have been completed. These semantics allow you to force memory operations to be performed in a specific order. Use acquire semantics when entering a protected region and release semantics when leaving it.
+Most of the interlocked functions provide full memory barriers on all Windows platforms. There are also functions that combine the basic interlocked variable access operations with the acquire and release memory ordering semantics supported by certain processors. Each of these functions contains the word "Acquire" or "Release" in their names; for example, [**InterlockedDecrementAcquire**](/previous-versions/windows/desktop/legacy/ms683583(v=vs.85)) and [**InterlockedDecrementRelease**](/previous-versions/windows/desktop/legacy/ms683586(v=vs.85)). Acquire memory semantics specify that the memory operation being performed by the current thread will be visible before any other memory operations are attempted. Release memory semantics specify that the memory operation being performed by the current thread will be visible after all other memory operations have been completed. These semantics allow you to force memory operations to be performed in a specific order. Use acquire semantics when entering a protected region and release semantics when leaving it.
 
 ## Related topics
 
 <dl> <dt>
 
-[Compiler Intrinsics](https://msdn.microsoft.com/library/26td21ds.aspx)
+[Compiler Intrinsics](/cpp/intrinsics/compiler-intrinsics?view=vs-2019)
 </dt> <dt>
 
 [Synchronization and Multiprocessor Issues](synchronization-and-multiprocessor-issues.md)
@@ -43,6 +43,3 @@ Most of the interlocked functions provide full memory barriers on all Windows pl
  
 
  
-
-
-

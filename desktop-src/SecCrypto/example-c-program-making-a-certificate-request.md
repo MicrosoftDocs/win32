@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Example C Program: Making a Certificate Request
 
-The following example demonstrates the procedure outlined in the previous section. This example creates a simple [*certificate request*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) with one signer, a single [*relative distinguished name*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx) (RDN) [*attribute*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx), and no general attributes.
+The following example demonstrates the procedure outlined in the previous section. This example creates a simple [*certificate request*](../secgloss/c-gly.md) with one signer, a single [*relative distinguished name*](../secgloss/r-gly.md) (RDN) [*attribute*](../secgloss/a-gly.md), and no general attributes.
 
-This example illustrates the following [*CryptoAPI*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) functions:
+This example illustrates the following [*CryptoAPI*](../secgloss/c-gly.md) functions:
 
 -   [**CryptEncodeObject**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencodeobject)
 -   [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta)
@@ -373,6 +373,3 @@ void MyHandleError(char *s)
  
 
  
-
-
-

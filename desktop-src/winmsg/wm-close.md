@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent as a signal that a window or an application should terminate.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -43,11 +43,38 @@ Type: **LRESULT**
 
 If an application processes this message, it should return zero.
 
+## Example
+
+```cpp
+LRESULT CALLBACK WindowProc(
+    __in HWND hWindow,
+    __in UINT uMsg,
+    __in WPARAM wParam,
+    __in LPARAM lParam)
+{
+    switch (uMsg)
+    {
+    case WM_CLOSE:
+        DestroyWindow(hWindow);
+        break;
+    case WM_DESTROY:
+        PostQuitMessage(0);
+        break;
+    default:
+        return DefWindowProc(hWindow, uMsg, wParam, lParam);
+    }
+
+    return 0;
+}
+```
+Example from [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/RadialController/cpp/RadialController.cpp) on GitHub.
+
+
 ## Remarks
 
-An application can prompt the user for confirmation, prior to destroying a window, by processing the **WM\_CLOSE** message and calling the [**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx) function only if the user confirms the choice.
+An application can prompt the user for confirmation, prior to destroying a window, by processing the **WM\_CLOSE** message and calling the [**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow) function only if the user confirms the choice.
 
-By default, the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx) function calls the [**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx) function to destroy the window.
+By default, the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function calls the [**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow) function to destroy the window.
 
 ## Requirements
 
@@ -68,10 +95,10 @@ By default, the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx)
+[**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow)
 </dt> <dt>
 
 **Conceptual**
@@ -83,7 +110,3 @@ By default, the [**DefWindowProc**](https://msdn.microsoft.com/library/ms633572(
  
 
  
-
-
-
-

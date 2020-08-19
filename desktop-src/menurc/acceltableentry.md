@@ -50,7 +50,7 @@ Describes keyboard accelerator characteristics. This member can have one or more
 
 | Value                                                                                                                                                                                                      | Meaning                                                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="FVIRTKEY"></span><span id="fvirtkey"></span><dl> <dt>**FVIRTKEY**</dt> <dt>TRUE</dt> </dl>    | The accelerator key is a [virtual-key code](https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes). If this flag is not specified, the accelerator key is assumed to specify an ASCII character code. <br/>                          |
+| <span id="FVIRTKEY"></span><span id="fvirtkey"></span><dl> <dt>**FVIRTKEY**</dt> <dt>TRUE</dt> </dl>    | The accelerator key is a [virtual-key code](/windows/desktop/inputdev/virtual-key-codes). If this flag is not specified, the accelerator key is assumed to specify an ASCII character code. <br/>                          |
 | <span id="FNOINVERT"></span><span id="fnoinvert"></span><dl> <dt>**FNOINVERT**</dt> <dt>0x02</dt> </dl> | A menu item on the menu bar is not highlighted when an accelerator is used. This attribute is obsolete and retained only for backward compatibility with resource files designed for 16-bit Windows.<br/> |
 | <span id="FSHIFT"></span><span id="fshift"></span><dl> <dt>**FSHIFT**</dt> <dt>0x04</dt> </dl>          | The accelerator is activated only if the user presses the SHIFT key. This flag applies only to virtual keys. <br/>                                                                                        |
 | <span id="FCONTROL"></span><span id="fcontrol"></span><dl> <dt>**FCONTROL**</dt> <dt>0x08</dt> </dl>    | The accelerator is activated only if the user presses the CTRL key. This flag applies only to virtual keys. <br/>                                                                                         |
@@ -130,10 +130,4 @@ You can compute the number of elements in the table if you divide the length of 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

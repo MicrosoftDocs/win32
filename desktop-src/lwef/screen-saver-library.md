@@ -34,7 +34,7 @@ Once a screen saver is chosen, Windows monitors keystrokes and mouse movements a
 
 -   The active application is not a Windows-based application.
 -   A computer-based training (CBT) window is present.
--   The active application receives the [WM\_SYSCOMMAND](https://msdn.microsoft.com/library/ms646360(VS.85).aspx) message with the *wParam* parameter set to the SC\_SCREENSAVE value, but it does not pass the message to the [DefWindowProc](https://msdn.microsoft.com/library/ms633572(VS.85).aspx) function.
+-   The active application receives the [WM\_SYSCOMMAND](../menurc/wm-syscommand.md) message with the *wParam* parameter set to the SC\_SCREENSAVE value, but it does not pass the message to the [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca) function.
 
 **Security Context of the Screen Saver**
 
@@ -69,7 +69,7 @@ cls.cbClsExtra     = 0;
 
 To create a screen saver, most developers create a source code module containing three required functions and link them with the screen saver library. A screen saver module is responsible only for configuring itself and for providing visual effects.
 
-One of the three required functions in a screen saver module is [**ScreenSaverProc**](https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-screensaverproc). This function processes specific messages and passes any unprocessed messages back to the screen saver library. Following are some of the typical messages processed by **ScreenSaverProc**.
+One of the three required functions in a screen saver module is [**ScreenSaverProc**](/windows/desktop/api/scrnsave/nf-scrnsave-screensaverproc). This function processes specific messages and passes any unprocessed messages back to the screen saver library. Following are some of the typical messages processed by **ScreenSaverProc**.
 
 
 
@@ -78,13 +78,13 @@ One of the three required functions in a screen saver module is [**ScreenSaverPr
 | WM\_CREATE     | Retrieve any initialization data from the Regedit.ini file. Set a window timer for the screen saver window. Perform any other required initialization.                                     |
 | WM\_ERASEBKGND | Erase the screen saver window and prepare for subsequent drawing operations.                                                                                                               |
 | WM\_TIMER      | Perform drawing operations.                                                                                                                                                                |
-| WM\_DESTROY    | Destroy the timers created when the application processed the [WM\_CREATE](https://msdn.microsoft.com/library/ms632619(VS.85).aspx) message. Perform any additional required cleanup. |
+| WM\_DESTROY    | Destroy the timers created when the application processed the [WM\_CREATE](../winmsg/wm-create.md) message. Perform any additional required cleanup. |
 
 
 
  
 
-[**ScreenSaverProc**](https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-screensaverproc) passes unprocessed messages to the screen saver library by calling the [**DefScreenSaverProc**](https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-defscreensaverproc) function. The following table describes how this function processes various messages.
+[**ScreenSaverProc**](/windows/desktop/api/scrnsave/nf-scrnsave-screensaverproc) passes unprocessed messages to the screen saver library by calling the [**DefScreenSaverProc**](/windows/desktop/api/scrnsave/nf-scrnsave-defscreensaverproc) function. The following table describes how this function processes various messages.
 
 
 
@@ -103,9 +103,9 @@ One of the three required functions in a screen saver module is [**ScreenSaverPr
 
  
 
-The second required function in a screen saver module is [**ScreenSaverConfigureDialog**](https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-screensaverconfiguredialog). This function displays a dialog box that enables the user to configure the screen saver (an application must provide a corresponding dialog box template). Windows displays the configuration dialog box when the user selects the **Setup** button in the Control Panel's Screen Saver dialog box.
+The second required function in a screen saver module is [**ScreenSaverConfigureDialog**](/windows/desktop/api/scrnsave/nf-scrnsave-screensaverconfiguredialog). This function displays a dialog box that enables the user to configure the screen saver (an application must provide a corresponding dialog box template). Windows displays the configuration dialog box when the user selects the **Setup** button in the Control Panel's Screen Saver dialog box.
 
-The third required function in a screen saver module is [**RegisterDialogClasses**](https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-registerdialogclasses). This function must be called by all screen saver applications. However, applications that do not require special windows or custom controls in the configuration dialog box can simply return **TRUE**. Applications requiring special windows or custom controls should use this function to register the corresponding window classes.
+The third required function in a screen saver module is [**RegisterDialogClasses**](/windows/desktop/api/scrnsave/nf-scrnsave-registerdialogclasses). This function must be called by all screen saver applications. However, applications that do not require special windows or custom controls in the configuration dialog box can simply return **TRUE**. Applications requiring special windows or custom controls should use this function to register the corresponding window classes.
 
 In addition to creating a module that supports the three functions just described, a screen saver should supply an icon. This icon is visible only when the screen saver is run as a standalone application. (To be run by the Control Panel, a screen saver must have the .scr file name extension; to be run as a standalone application, it must have the .exe file name extension.) The icon must be identified in the screen saver's resource file by the constant ID\_APP, which is defined in the Scrnsave.h header file.
 
@@ -121,7 +121,7 @@ This section uses example code taken from a screen saver application to illustra
 
 ### Creating a Screen Saver
 
-At intervals ranging from 1 through 10 seconds, the application in this example repaints the screen with one of four colors: white, light gray, dark gray, and black. The application paints the screen each time it receives a [WM\_TIMER](https://msdn.microsoft.com/library/ms644902(VS.85).aspx) message. The user can adjust the interval at which this message is sent by selecting the application's configuration dialog box and adjusting a single horizontal scroll bar.
+At intervals ranging from 1 through 10 seconds, the application in this example repaints the screen with one of four colors: white, light gray, dark gray, and black. The application paints the screen each time it receives a [WM\_TIMER](../winmsg/wm-timer.md) message. The user can adjust the interval at which this message is sent by selecting the application's configuration dialog box and adjusting a single horizontal scroll bar.
 
 ### Screen saver library
 
@@ -129,7 +129,7 @@ The static screen saver functions are contained in the screen saver library. The
 
 ### Supporting the configuration dialog box
 
-Most screen savers provide a configuration dialog box to let the user specify customization data such as unique colors, drawing speeds, line thickness, fonts, and so on. To support the configuration dialog box, the application must provide a dialog box template and must also support the [**ScreenSaverConfigureDialog**](https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-screensaverconfiguredialog) function. Following is the dialog box template for the sample application.
+Most screen savers provide a configuration dialog box to let the user specify customization data such as unique colors, drawing speeds, line thickness, fonts, and so on. To support the configuration dialog box, the application must provide a dialog box template and must also support the [**ScreenSaverConfigureDialog**](/windows/desktop/api/scrnsave/nf-scrnsave-screensaverconfiguredialog) function. Following is the dialog box template for the sample application.
 
 
 ```
@@ -159,7 +159,7 @@ You must define the constant used to identify the dialog box template by using t
 
 
 
-The following example shows the [**ScreenSaverConfigureDialog**](https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-screensaverconfiguredialog) function found in the sample application.
+The following example shows the [**ScreenSaverConfigureDialog**](/windows/desktop/api/scrnsave/nf-scrnsave-screensaverconfiguredialog) function found in the sample application.
 
 
 ```
@@ -292,7 +292,7 @@ HRESULT  hr;
 
 
 
-In addition to providing the dialog box template and supporting the [**ScreenSaverConfigureDialog**](https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-screensaverconfiguredialog) function, an application must also support the [**RegisterDialogClasses**](https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-registerdialogclasses) function. This function registers any nonstandard window classes required by the screen saver. Because the sample application used only standard window classes in its dialog box procedure, this function simply returns **TRUE**, as in the following example:
+In addition to providing the dialog box template and supporting the [**ScreenSaverConfigureDialog**](/windows/desktop/api/scrnsave/nf-scrnsave-screensaverconfiguredialog) function, an application must also support the [**RegisterDialogClasses**](/windows/desktop/api/scrnsave/nf-scrnsave-registerdialogclasses) function. This function registers any nonstandard window classes required by the screen saver. Because the sample application used only standard window classes in its dialog box procedure, this function simply returns **TRUE**, as in the following example:
 
 
 ```
@@ -307,7 +307,7 @@ HANDLE  hInst;
 
 ### Supporting the screen saver window procedure
 
-Each screen saver must support a window procedure named [**ScreenSaverProc**](https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-screensaverproc). Like most window procedures, **ScreenSaverProc** processes a set of specific messages and passes any unprocessed messages to a default procedure. However, instead of passing them to the [DefWindowProc](https://msdn.microsoft.com/library/ms633572(VS.85).aspx) function, **ScreenSaverProc** passes unprocessed messages to the [**DefScreenSaverProc**](https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-defscreensaverproc) function. Another difference between **ScreenSaverProc** and a normal window procedure is that the handle passed to **ScreenSaverProc** identifies the entire desktop rather than a client window. The following example shows the **ScreenSaverProc** window procedure for the sample screen saver.
+Each screen saver must support a window procedure named [**ScreenSaverProc**](/windows/desktop/api/scrnsave/nf-scrnsave-screensaverproc). Like most window procedures, **ScreenSaverProc** processes a set of specific messages and passes any unprocessed messages to a default procedure. However, instead of passing them to the [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca) function, **ScreenSaverProc** passes unprocessed messages to the [**DefScreenSaverProc**](/windows/desktop/api/scrnsave/nf-scrnsave-defscreensaverproc) function. Another difference between **ScreenSaverProc** and a normal window procedure is that the handle passed to **ScreenSaverProc** identifies the entire desktop rather than a client window. The following example shows the **ScreenSaverProc** window procedure for the sample screen saver.
 
 
 ```
@@ -392,7 +392,7 @@ LONG  lParam;
 
 ### Creating a module-definition file
 
-The [**ScreenSaverProc**](https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-screensaverproc) and [**ScreenSaverConfigureDialog**](https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-screensaverconfiguredialog) functions must be exported in the application's module-definition file; [**RegisterDialogClasses**](https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-registerdialogclasses) should not be exported, however. The following example shows the module-definition file for the sample application.
+The [**ScreenSaverProc**](/windows/desktop/api/scrnsave/nf-scrnsave-screensaverproc) and [**ScreenSaverConfigureDialog**](/windows/desktop/api/scrnsave/nf-scrnsave-screensaverconfiguredialog) functions must be exported in the application's module-definition file; [**RegisterDialogClasses**](/windows/desktop/api/scrnsave/nf-scrnsave-registerdialogclasses) should not be exported, however. The following example shows the module-definition file for the sample application.
 
 
 ```
@@ -422,12 +422,8 @@ When compiling the list of available screen savers, the Control Panel searches t
 
 ### Adding Help to the Screen Saver Configuration Dialog Box
 
-The configuration dialog box for a screen saver typically includes a **Help** button. Screen saver applications can check for the Help button identifier and call the [**WinHelp**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-winhelpa) function in the same way Help is provided in other Windows-based applications.
+The configuration dialog box for a screen saver typically includes a **Help** button. Screen saver applications can check for the Help button identifier and call the [**WinHelp**](/windows/desktop/api/winuser/nf-winuser-winhelpa) function in the same way Help is provided in other Windows-based applications.
 
  
 
  
-
-
-
-

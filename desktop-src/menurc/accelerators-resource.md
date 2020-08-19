@@ -109,7 +109,7 @@ Certain attributes are also supported for backward compatibility. For more infor
 
 ## Remarks
 
-The [**TranslateAccelerator**](https://msdn.microsoft.com/library/ms646373(v=VS.85).aspx) function is used to translate accelerator messages from the application queue into [**WM\_COMMAND**](https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx) or [**WM\_SYSCOMMAND**](https://msdn.microsoft.com/library/ms646360(v=VS.85).aspx) messages.
+The [**TranslateAccelerator**](/windows/win32/api/winuser/nf-winuser-translateacceleratora) function is used to translate accelerator messages from the application queue into [**WM\_COMMAND**](./wm-command.md) or [**WM\_SYSCOMMAND**](./wm-syscommand.md) messages.
 
 ## Examples
 
@@ -139,10 +139,10 @@ The following example demonstrates the use of accelerator keys.
 
 <dl> <dt>
 
-[Using Keyboard Accelerators](https://msdn.microsoft.com/library/ms646337(v=VS.85).aspx)
+[Using Keyboard Accelerators](./using-keyboard-accelerators.md)
 </dt> <dt>
 
-[**TranslateAccelerator**](https://msdn.microsoft.com/library/ms646373(v=VS.85).aspx)
+[**TranslateAccelerator**](/windows/win32/api/winuser/nf-winuser-translateacceleratora)
 </dt> <dt>
 
 [**CHARACTERISTICS**](characteristics-statement.md)
@@ -169,7 +169,3 @@ The following example demonstrates the use of accelerator keys.
  
 
  
-
-
-
-

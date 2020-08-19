@@ -8,7 +8,7 @@ ms.topic: reference
 
 # RectF.Offset methods
 
-This topic lists the Offset methods of the [**RectF**](https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx) class. For a complete list of methods for the **RectF** class, see [Rect Methods](-gdiplus-class-rect-methods.md).
+This topic lists the Offset methods of the [**RectF**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-rectf) class. For a complete list of methods for the **RectF** class, see [Rect Methods](-gdiplus-class-rect-methods.md).
 
 ### Overload list
 
@@ -16,15 +16,11 @@ This topic lists the Offset methods of the [**RectF**](https://msdn.microsoft.co
 
 | Method                                                          | Description                                                                                           |
 |:----------------------------------------------------------------|:------------------------------------------------------------------------------------------------------|
-| [**Offset(PointF&)**](https://msdn.microsoft.com/library/ms534948(v=VS.85).aspx)   | The [**RectF::Offset**](https://msdn.microsoft.com/library/ms534948(v=VS.85).aspx)*point*.**X***point*.**Y**.<br/> |
-| [**Offset(REAL,REAL)**](https://msdn.microsoft.com/library/ms534949(v=VS.85).aspx) | The [**RectF::Offset**](https://msdn.microsoft.com/library/ms534949(v=VS.85).aspx)*dxdx* vertically.<br/>          |
+| [**Offset(PointF&)**](/previous-versions//ms534948(v=vs.85))   | The [**RectF::Offset**](/previous-versions//ms534948(v=vs.85))*point*.**X***point*.**Y**.<br/> |
+| [**Offset(REAL,REAL)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-offset(inreal_inreal)) | The [**RectF::Offset**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-offset(inreal_inreal))*dxdx* vertically.<br/>          |
 
 
 
  
 
  
-
-
-
-

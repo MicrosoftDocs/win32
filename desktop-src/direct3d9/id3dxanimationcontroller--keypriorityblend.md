@@ -41,7 +41,7 @@ D3DXEVENTHANDLE KeyPriorityBlend(
 *NewBlendWeight* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Number between 0 and 1 that is used to blend tracks together.
 
@@ -50,7 +50,7 @@ Number between 0 and 1 that is used to blend tracks together.
 *StartTime* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 Global time to start the blend.
 
@@ -59,7 +59,7 @@ Global time to start the blend.
 *Duration* \[in\]
 </dt> <dd>
 
-Type: **[**DOUBLE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DOUBLE**](../winprog/windows-data-types.md)**
 
 Global time duration of the blend.
 
@@ -68,9 +68,9 @@ Global time duration of the blend.
 *Transition* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/library/Bb205475(v=VS.85).aspx)**
+Type: **[**D3DXTRANSITION\_TYPE**](./d3dxtransition-type.md)**
 
-Specifies the transition type used for the duration of the blend. See [**D3DXTRANSITION\_TYPE**](https://msdn.microsoft.com/library/Bb205475(v=VS.85).aspx).
+Specifies the transition type used for the duration of the blend. See [**D3DXTRANSITION\_TYPE**](./d3dxtransition-type.md).
 
 </dd> </dl>
 
@@ -108,7 +108,3 @@ The animation controller blends in three phases: low priority tracks are blended
  
 
  
-
-
-
-

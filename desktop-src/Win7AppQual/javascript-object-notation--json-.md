@@ -34,7 +34,7 @@ Windows Internet Explorer includes native supports for JSON by introducing a glo
 
 You can override the global JSON object. But when a webpage uses the “Internet Explorer 8 Standards” layout (document) mode, it is not an undefined object anymore. Because JSON is instantiated as a global name by the JavaScript engine, checks like "if(!this.JSON)" evaluate to False and must be changed in the user code.
 
-Webpages that use [json2.js](https://github.com/douglascrockford/JSON-js/blob/master/json2.js) are likely not affected. With few exceptions, these pages should work faster. The exceptions are because of the differences between the Internet Explorer native JSON implementation and json2.js. For example, during serialization, the native JSON implementation detects cycles and does not go in infinite recursion like json.js. For more information about these exceptions, see the [JavaScript Blogs](https://blogs.msdn.com/jscript/).
+Webpages that use [json2.js](https://github.com/douglascrockford/JSON-js/blob/master/json2.js) are likely not affected. With few exceptions, these pages should work faster. The exceptions are because of the differences between the Internet Explorer native JSON implementation and json2.js. For example, during serialization, the native JSON implementation detects cycles and does not go in infinite recursion like json.js. For more information about these exceptions, see the [JavaScript Blogs](/archive/blogs/jscript/).
 
 For more information, see [JSON Documentation](https://msdn.microsoft.com/library/cc836458(VS.85).aspx) and [Versioning and JavaScript Engine’s Version Support](https://www.microsoft.com/windows/internet-explorer/readiness/developers-new.aspx).
 
@@ -48,6 +48,3 @@ For more information, see [JSON Documentation](https://msdn.microsoft.com/librar
  
 
  
-
-
-

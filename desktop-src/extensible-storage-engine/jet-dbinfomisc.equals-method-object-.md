@@ -24,7 +24,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_DBINFOMISC.Equals method (Object)
 
-Determines whether the specified [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN) is equal to the current [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN).
+Determines whether the specified [Object](/dotnet/api/system.object) is equal to the current [Object](/dotnet/api/system.object).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -53,14 +53,14 @@ public override bool Equals(
 #### Parameters
 
   - obj  
-    Type: [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+    Type: [System.Object](/dotnet/api/system.object)  
     
-    The [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN) to compare with the current [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN).
+    The [Object](/dotnet/api/system.object) to compare with the current [Object](/dotnet/api/system.object).
 
 #### Return value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
-True if the specified [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN) is equal to the current [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN); otherwise, false.  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
+True if the specified [Object](/dotnet/api/system.object) is equal to the current [Object](/dotnet/api/system.object); otherwise, false.  
 
 ## See also
 
@@ -73,4 +73,3 @@ True if the specified [Object](https://docs.microsoft.com/dotnet/api/system.obje
 [Equals overload](hh577631\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

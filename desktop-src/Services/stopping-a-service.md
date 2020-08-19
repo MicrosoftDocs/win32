@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Stopping a Service
 
-A [service control program](service-control-programs.md) can stop a service by using the [**ControlService**](/windows/desktop/api/Winsvc/nf-winsvc-controlservice) function to send a SERVICE\_CONTROL\_STOP request. If the [service control manager](service-control-manager.md) (SCM) receives a SERVICE\_CONTROL\_STOP request for a service, it instructs the service to stop by forwarding the request to the service's [**ServiceMain**](https://msdn.microsoft.com/library/ms685138(v=VS.85).aspx) function. However, if the SCM determines that other running services are dependent on the specified service, it will not forward the stop request. Instead, it returns ERROR\_DEPENDENT\_SERVICES\_RUNNING. Therefore, to programmatically stop such a service, you must first enumerate and stop its dependent services.
+A [service control program](service-control-programs.md) can stop a service by using the [**ControlService**](/windows/desktop/api/Winsvc/nf-winsvc-controlservice) function to send a SERVICE\_CONTROL\_STOP request. If the [service control manager](service-control-manager.md) (SCM) receives a SERVICE\_CONTROL\_STOP request for a service, it instructs the service to stop by forwarding the request to the service's [**ServiceMain**](/windows/win32/api/winsvc/nc-winsvc-lpservice_main_functiona) function. However, if the SCM determines that other running services are dependent on the specified service, it will not forward the stop request. Instead, it returns ERROR\_DEPENDENT\_SERVICES\_RUNNING. Therefore, to programmatically stop such a service, you must first enumerate and stop its dependent services.
 
 The DoStopSvc function in the following example shows how to stop a service and any dependent services. The szSvcName variable is a global variable that contains the name of the service to be stopped. For the complete example that sets this variable, see [SvcControl.cpp](svccontrol-cpp.md).
 
@@ -277,6 +277,3 @@ BOOL __stdcall StopDependentServices()
  
 
  
-
-
-

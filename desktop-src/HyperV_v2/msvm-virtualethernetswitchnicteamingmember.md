@@ -55,7 +55,7 @@ Data type: **Msvm\_ExternalEthernetPort**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 An [**Msvm\_ExternalEthernetPort**](msvm-externalethernetport.md) that references the team external ethernet port instance.
@@ -71,7 +71,7 @@ Data type: **Msvm\_ExternalEthernetPort**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 Reference to the member [**Msvm\_ExternalEthernetPort**](msvm-externalethernetport.md) instance.
@@ -100,9 +100,4 @@ Reference to the member [**Msvm\_ExternalEthernetPort**](msvm-externalethernetpo
 </dt> </dl>
 
  
-
- 
-
-
-
 

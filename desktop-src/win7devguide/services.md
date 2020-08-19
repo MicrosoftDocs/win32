@@ -16,19 +16,19 @@ Windows 7 also lets developers take advantage of better caching and searching c
 
 ## Windows Web Services
 
-With [Windows Web Services](https://docs.microsoft.com/windows/desktop/wsw/portal), you can create applications that communicate easily with a local computer or a remote web service. Windows Web Services is a native-code implementation of SOAP and provides core network communication by supporting a broad set of the web services (*WS*) family of protocols. Windows Web Services is a peer to [Windows Communication Foundation](https://docs.microsoft.com/previous-versions/windows/desktop/cc907054(v=vs.85)) (*WCF*, managed-code web services), and provides a high-performance subset of *WCF* functionality. Windows Web Services provides the following benefits:
+With [Windows Web Services](/windows/desktop/wsw/portal), you can create applications that communicate easily with a local computer or a remote web service. Windows Web Services is a native-code implementation of SOAP and provides core network communication by supporting a broad set of the web services (*WS*) family of protocols. Windows Web Services is a peer to [Windows Communication Foundation](/previous-versions/windows/desktop/cc907054(v=vs.85)) (*WCF*, managed-code web services), and provides a high-performance subset of *WCF* functionality. Windows Web Services provides the following benefits:
 
 -   The ability to build native code web services in C/C++ in Windows client and server.
--   Extensive integration with [Windows Communication Foundation](https://docs.microsoft.com/previous-versions/windows/desktop/cc907054(v=vs.85)) services.
+-   Extensive integration with [Windows Communication Foundation](/previous-versions/windows/desktop/cc907054(v=vs.85)) services.
 -   The ability to build web services with minimal startup time.
 -   The ability to build services based on the core *WS* family of protocols and *W3C* standards.
 -   The ability to use web services in resource-constrained environments.
 
-For more information, see [Windows Web Services API](https://msdn.microsoft.com/library/dd430435(VS.85).aspx) and [Implement Web Services with the Windows Web Services API](https://code.msdn.microsoft.com/wwsapi).
+For more information, see [Windows Web Services API](../wsw/portal.md) and [Implement Web Services with the Windows Web Services API](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/web/WWSAPI).
 
 ## Distributed Routing Table
 
-Windows 7 makes it easier to build sophisticated peer-to-peer applications like distributed file systems and content distribution networks with the [Distributed Routing Table](https://docs.microsoft.com/windows/desktop/P2PSdk/distributed-routing-table-api-reference). The Distributed Routing Table provides a secure, scalable mechanism for publishing and searching for keys in a peer-to-peer system. It can be used to build distributed hash tables and construct topologies for overlay networks. (See [Distributed Routing Table API](https://msdn.microsoft.com/library/dd407952(VS.85).aspx).)
+Windows 7 makes it easier to build sophisticated peer-to-peer applications like distributed file systems and content distribution networks with the [Distributed Routing Table](/windows/desktop/P2PSdk/distributed-routing-table-api-reference). The Distributed Routing Table provides a secure, scalable mechanism for publishing and searching for keys in a peer-to-peer system. It can be used to build distributed hash tables and construct topologies for overlay networks. (See [Distributed Routing Table API](../p2psdk/distributed-routing-table-api.md).)
 
 ## **Windows BranchCache**
 
@@ -38,12 +38,8 @@ Windows BranchCache is already integrated with HTTP and Server Message Block (SM
 
 If your application retrieves the same data multiple times from a server over a WAN link and is not automatically optimized using Windows 7, it is easy for you to use the Windows BranchCacheAPIs to optimize your application to work faster on Windows 7 and satisfy your branch users.
 
-These new features help reduce WAN traffic and latency while ensuring compliance with security mandates. (See [Peer Distribution](https://msdn.microsoft.com/library/dd408043(VS.85).aspx).)
+These new features help reduce WAN traffic and latency while ensuring compliance with security mandates. (See [Peer Distribution](../p2psdk/peer-distribution.md).)
 
  
 
  
-
-
-
-

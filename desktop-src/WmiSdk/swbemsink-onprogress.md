@@ -75,7 +75,7 @@ This event does not return a value.
 
 ## Error codes
 
-After the completion of the **OnProgress** event, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes below.
+After the completion of the **OnProgress** event, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes below.
 
 <dl> <dt>
 
@@ -133,9 +133,4 @@ The **OnProgress** event is triggered when an asynchronous call returns the stat
 </dt> </dl>
 
  
-
- 
-
-
-
 

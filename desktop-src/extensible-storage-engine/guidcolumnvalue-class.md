@@ -28,13 +28,13 @@ ROBOTS: INDEX,FOLLOW
 
 # GuidColumnValue class
 
-A [Guid](https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN) column value.
+A [Guid](/dotnet/api/system.guid) column value.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Guid](https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN)\>  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Guid](/dotnet/api/system.guid)\>  
       Microsoft.Isam.Esent.Interop.GuidColumnValue  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
@@ -65,4 +65,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [GuidColumnValue members](dn350892\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

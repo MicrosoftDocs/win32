@@ -25,7 +25,7 @@ Like protocol sequences, an application can specify endpoint information in its 
 
 ## Specifying Dynamic Endpoints
 
-A dynamic endpoint is an endpoint that the server host computer assigns when the server begins execution. Most server applications use dynamic endpoints to avoid conflict with other programs over the limited number of ports that are available on the server host computer system. However, programs using named pipes or the [**ncalrpc**](https://docs.microsoft.com/windows/desktop/Midl/ncalrpc) protocol sequence have a very large endpoint name space. They benefit less from dynamic endpoints than programs using other transports.
+A dynamic endpoint is an endpoint that the server host computer assigns when the server begins execution. Most server applications use dynamic endpoints to avoid conflict with other programs over the limited number of ports that are available on the server host computer system. However, programs using named pipes or the [**ncalrpc**](/windows/desktop/Midl/ncalrpc) protocol sequence have a very large endpoint name space. They benefit less from dynamic endpoints than programs using other transports.
 
 Server programs register dynamic endpoints in an endpoint map database. If you want the server to use any available endpoint, call [**RpcServerUseAllProtSeqs**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqs), [**RpcServerUseAllProtseqsEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqsex), [**RpcServerUseProtseq**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseq) or [**RpcServerUseProtseqEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqex). This sets the RPC run-time library to use all or one valid protocol sequence(s) with dynamic endpoints. The server should then call [**RpcServerInqBindings**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinqbindings) to obtain a set of valid binding handles. The server passes the set of binding handles, or binding vector, to the function [**RpcEpRegister**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcepregister) to register all suitable endpoints in the endpoint map. For each call your server makes to **RpcEpRegister**, there should be a corresponding call to [**RpcBindingVectorFree**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingvectorfree) to release the memory that the binding vector uses.
 
@@ -40,7 +40,3 @@ Dynamic endpoints are automatically purged from the endpoint mapper database whe
  
 
  
-
-
-
-

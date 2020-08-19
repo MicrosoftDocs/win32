@@ -56,7 +56,7 @@ public static string ProcessFriendlyName { get; set; }
 
 #### Property value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+Type: [System.String](/dotnet/api/system.string)  
 
 ## See also
 
@@ -67,4 +67,3 @@ Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redire
 [SystemParameters members](dn351207\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -18,7 +18,7 @@ ms.date: 02/03/2020
 
 # WM_POINTERROUTEDRELEASED message
 
-Sent to all processes (configured for cross-process chaining through [**AddContentWithCrossProcessChaining**](https://msdn.microsoft.com/library/windows/desktop/mt622455) and not currently handling pointer input) ever associated with a specific pointer ID, when a [**WM_POINTERUP**](wm-pointerup.md) message is received on the current process.
+Sent to all processes (configured for cross-process chaining through [**AddContentWithCrossProcessChaining**](/windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationcompositor2-addcontentwithcrossprocesschaining) and not currently handling pointer input) ever associated with a specific pointer ID, when a [**WM_POINTERUP**](wm-pointerup.md) message is received on the current process.
 
 
 ```C++
@@ -69,10 +69,4 @@ NULL
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

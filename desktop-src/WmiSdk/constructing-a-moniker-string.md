@@ -17,7 +17,7 @@ A moniker has the following parts:
 -   A security settings component (optional)
 -   A WMI object path component (optional)
 
-You cannot specify a password in a WMI moniker string. If you must change the password (*strPassword* parameter) or the type of authentication (*strAuthority* parameter) when connecting to WMI, then call [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md). Be aware that you can only specify the password and authority in connections to remote computers. Attempting to set these in a script that is running on the local computer results in a error. For more information about when the security settings and object path components are used, see [WMI Security Settings](https://technet.microsoft.com/library/ee156574.aspx).
+You cannot specify a password in a WMI moniker string. If you must change the password (*strPassword* parameter) or the type of authentication (*strAuthority* parameter) when connecting to WMI, then call [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md). Be aware that you can only specify the password and authority in connections to remote computers. Attempting to set these in a script that is running on the local computer results in a error. For more information about when the security settings and object path components are used, see [WMI Security Settings](/previous-versions/tn-archive/ee156574(v=technet.10)).
 
 The following moniker specifies the [**SWbemServices**](swbemservices.md) object that represents the namespace root\\default, with impersonation on and the wbemPrivilegeDebug (SeDebugPrivilege) privilege enabled, and the wbemPrivilegeSecurity (SeSecurityPrivilege) privilege disabled.
 
@@ -94,7 +94,7 @@ The following moniker identifies the root\\cimv2 namespace on the local server. 
 
 
 
-The following moniker identifies the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class in the root\\cimv2 namespace on the myServer server. An [**SWbemObject**](swbemobject.md) object is returned.
+The following moniker identifies the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class in the root\\cimv2 namespace on the myServer server. An [**SWbemObject**](swbemobject.md) object is returned.
 
 
 ```VB
@@ -104,7 +104,7 @@ The following moniker identifies the [**Win32\_LogicalDisk**](https://docs.micro
 
 
 
-The following moniker identifies the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class in the root\\cimv2 namespace on the local server. An [**SWbemObject**](swbemobject.md) object is returned.
+The following moniker identifies the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class in the root\\cimv2 namespace on the local server. An [**SWbemObject**](swbemobject.md) object is returned.
 
 
 ```VB
@@ -113,7 +113,7 @@ The following moniker identifies the [**Win32\_LogicalDisk**](https://docs.micro
 
 
 
-The following moniker identifies the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class in the default namespace on the local server. An [**SWbemObject**](swbemobject.md) object is returned.
+The following moniker identifies the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class in the default namespace on the local server. An [**SWbemObject**](swbemobject.md) object is returned.
 
 
 ```VB
@@ -122,7 +122,7 @@ The following moniker identifies the [**Win32\_LogicalDisk**](https://docs.micro
 
 
 
-The following moniker identifies the instance of [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) corresponding to drive C: in the default scripting namespace on the local server. An [**SWbemObject**](swbemobject.md) object is returned. The default namespace for scripting is determined by the default namespace configuration setting as specified in the WMI Control. For more information, see [Setting Namespace Security with the WMI Control](setting-namespace-security-with-the-wmi-control.md).
+The following moniker identifies the instance of [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) corresponding to drive C: in the default scripting namespace on the local server. An [**SWbemObject**](swbemobject.md) object is returned. The default namespace for scripting is determined by the default namespace configuration setting as specified in the WMI Control. For more information, see [Setting Namespace Security with the WMI Control](setting-namespace-security-with-the-wmi-control.md).
 
 
 ```VB
@@ -131,7 +131,7 @@ The following moniker identifies the instance of [**Win32\_LogicalDisk**](https:
 
 
 
-The following moniker identifies the instance of [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) corresponding to drive C: in the root\\cimv2 namespace on the myServer server. An [**SWbemObject**](swbemobject.md) object is returned.
+The following moniker identifies the instance of [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) corresponding to drive C: in the root\\cimv2 namespace on the myServer server. An [**SWbemObject**](swbemobject.md) object is returned.
 
 
 ```VB
@@ -140,7 +140,7 @@ The following moniker identifies the instance of [**Win32\_LogicalDisk**](https:
 
 
 
-The following moniker identifies the instance of [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) corresponding to drive C: in the root\\cimv2 namespace on the local server. An [**SWbemObject**](swbemobject.md) object is returned.
+The following moniker identifies the instance of [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) corresponding to drive C: in the root\\cimv2 namespace on the local server. An [**SWbemObject**](swbemobject.md) object is returned.
 
 
 ```VB
@@ -149,7 +149,7 @@ The following moniker identifies the instance of [**Win32\_LogicalDisk**](https:
 
 
 
-The following moniker identifies the instance of [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) corresponding to drive C: in the default namespace on the local server. An [**SWbemObject**](swbemobject.md) object is returned.
+The following moniker identifies the instance of [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) corresponding to drive C: in the default namespace on the local server. An [**SWbemObject**](swbemobject.md) object is returned.
 
 
 ```VB
@@ -242,6 +242,3 @@ wscript.echo "File system = " & myobj.filesystem
  
 
  
-
-
-

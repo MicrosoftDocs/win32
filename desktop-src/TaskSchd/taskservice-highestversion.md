@@ -33,11 +33,11 @@ TaskService.HighestVersion As Integer
 
 ## Property value
 
-The highest version of Task Scheduler that a computer supports. The highest version is a value that is split into MajorVersion/MinorVersion on the 16-bit boundary. The Task Scheduler service returns 1 for the major version and 2 for the minor version. Use the [CLng](https://msdn.microsoft.com/library/ck4c5842.aspx) function to get the integer value of the property.
+The highest version of Task Scheduler that a computer supports. The highest version is a value that is split into MajorVersion/MinorVersion on the 16-bit boundary. The Task Scheduler service returns 1 for the major version and 2 for the minor version. Use the [CLng](/previous-versions//ck4c5842(v=vs.85)) function to get the integer value of the property.
 
 ## Examples
 
-The following code shows how to use the [CLng](https://msdn.microsoft.com/library/ck4c5842.aspx) function to get the value of the **HighestVersion** property.
+The following code shows how to use the [CLng](/previous-versions//ck4c5842(v=vs.85)) function to get the value of the **HighestVersion** property.
 
 
 ```VB
@@ -67,10 +67,4 @@ End If
 
 
  
-
- 
-
-
-
-
 

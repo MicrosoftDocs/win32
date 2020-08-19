@@ -23,7 +23,7 @@ The **ISoftKbd** interface is used by applications and text services to implemen
 
 ## Members
 
-The **ISoftKbd** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ISoftKbd** also has these types of members:
+The **ISoftKbd** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ISoftKbd** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -77,10 +77,4 @@ The **ISoftKbd** interface has these methods.
 
 
  
-
- 
-
-
-
-
 

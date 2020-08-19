@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Primitive and Custom Binding Handles
 
-All handles declared with the [handle\_t](https://docs.microsoft.com/windows/desktop/Midl/handle-t) or [**RPC\_BINDING\_HANDLE**](rpc-binding-handle.md) types are primitive binding handles. You can extend the [handle\_t](https://docs.microsoft.com/windows/desktop/Midl/handle-t) or [**RPC\_BINDING\_HANDLE**](rpc-binding-handle.md) types to include more or different information than the primitive handle type contains. When you do, you create a custom binding handle.
+All handles declared with the [handle\_t](/windows/desktop/Midl/handle-t) or [**RPC\_BINDING\_HANDLE**](rpc-binding-handle.md) types are primitive binding handles. You can extend the [handle\_t](/windows/desktop/Midl/handle-t) or [**RPC\_BINDING\_HANDLE**](rpc-binding-handle.md) types to include more or different information than the primitive handle type contains. When you do, you create a custom binding handle.
 
-To make a custom binding handle for your distributed application, you will need to create your own data type and specify the \[ [handle](https://docs.microsoft.com/windows/desktop/Midl/handle)\] attribute on a type definition in your IDL file. Ultimately, the stub files map custom binding handles to primitive handles.
+To make a custom binding handle for your distributed application, you will need to create your own data type and specify the \[ [handle](/windows/desktop/Midl/handle)\] attribute on a type definition in your IDL file. Ultimately, the stub files map custom binding handles to primitive handles.
 
 If you do create your own binding handle type, you must also supply bind and unbind routines that the client stub uses to map a custom handle to a primitive handle. The stub calls your bind and unbind routines at the beginning and end of each remote procedure call. The bind and unbind routines must conform to the following function prototypes.
 
@@ -113,7 +113,3 @@ Both implicit and explicit binding handles can either be primitive or custom han
  
 
  
-
-
-
-

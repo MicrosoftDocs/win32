@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.Satellites Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.Satellites](https://msdn.microsoft.com/library/bb760580(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.Satellites](../properties/props-system-gps-satellites.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.Satellites](https://msdn.microsoft.com/library/bb760580(VS.85).aspx)
+[System.GPS.Satellites](../properties/props-system-gps-satellites.md)
 </dt> </dl>
 
  
 
  
-
-
-

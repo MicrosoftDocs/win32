@@ -12,8 +12,8 @@ This topic lists the methods of the [**Font**](/windows/desktop/api/gdiplusheade
 
 -   [**Clone**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-font-clone)
 -   [**GetFamily**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-font-getfamily)
--   [**GetHeight(Graphics\*)**](https://msdn.microsoft.com/library/ms536201(v=VS.85).aspx)
--   [**GetHeight(REAL)**](https://msdn.microsoft.com/library/ms536202(v=VS.85).aspx)
+-   [**GetHeight(Graphics\*)**](/previous-versions//ms536201(v=vs.85))
+-   [**GetHeight(REAL)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-getheight(inreal))
 -   [**GetLastStatus**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-font-getlaststatus)
 -   [**GetLogFontA**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-font-getlogfonta)
 -   [**GetLogFontW**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-font-getlogfontw)
@@ -25,6 +25,3 @@ This topic lists the methods of the [**Font**](/windows/desktop/api/gdiplusheade
  
 
  
-
-
-

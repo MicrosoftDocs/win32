@@ -16,7 +16,7 @@ ms.topic: reference
 
 # ID2D1RenderTarget::PushLayer methods
 
-Adds the specified layer to the render target so that it receives all subsequent drawing operations until [**PopLayer**](https://msdn.microsoft.com/library/Dd316852(v=VS.85).aspx) is called.
+Adds the specified layer to the render target so that it receives all subsequent drawing operations until [**PopLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer) is called.
 
 ### Overload list
 
@@ -24,22 +24,22 @@ Adds the specified layer to the render target so that it receives all subsequent
 
 | Method                                                                                                                            | Description                                                                                                                                                                     |
 |:----------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**PushLayer(D2D1\_LAYER\_PARAMETERS&,ID2D1Layer\*)**](https://msdn.microsoft.com/library/Dd316869(v=VS.85).aspx)  | Adds the specified layer to the render target so that it receives all subsequent drawing operations until [**PopLayer**](https://msdn.microsoft.com/library/Dd316852(v=VS.85).aspx) is called. <br/> |
-| [**PushLayer(D2D1\_LAYER\_PARAMETERS\*,ID2D1Layer\*)**](https://msdn.microsoft.com/library/Dd316865(v=VS.85).aspx) | Adds the specified layer to the render target so that it receives all subsequent drawing operations until [**PopLayer**](https://msdn.microsoft.com/library/Dd316852(v=VS.85).aspx) is called. <br/> |
+| [**PushLayer(D2D1\_LAYER\_PARAMETERS&,ID2D1Layer\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer))  | Adds the specified layer to the render target so that it receives all subsequent drawing operations until [**PopLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer) is called. <br/> |
+| [**PushLayer(D2D1\_LAYER\_PARAMETERS\*,ID2D1Layer\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters_id2d1layer)) | Adds the specified layer to the render target so that it receives all subsequent drawing operations until [**PopLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer) is called. <br/> |
 
 
 
 ## Remarks
 
-The [**PushLayer**](https://msdn.microsoft.com/library/Dd316869(v=VS.85).aspx) method enables a caller to begin redirecting rendering to a layer. All rendering operations are valid in a layer. The location of the layer is affected by the world transform set on the render target.
+The [**PushLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)) method enables a caller to begin redirecting rendering to a layer. All rendering operations are valid in a layer. The location of the layer is affected by the world transform set on the render target.
 
-Each **PushLayer** must have a matching [**PopLayer**](https://msdn.microsoft.com/library/Dd316852(v=VS.85).aspx) call. If there are more **PopLayer** calls than **PushLayer** calls, the render target is placed into an error state. If [**Flush**](https://msdn.microsoft.com/library/Dd316801(v=VS.85).aspx) is called before all outstanding layers are popped, the render target is placed into an error state, and an error is returned. The error state can be cleared by a call to [**EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx).
+Each **PushLayer** must have a matching [**PopLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer) call. If there are more **PopLayer** calls than **PushLayer** calls, the render target is placed into an error state. If [**Flush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush) is called before all outstanding layers are popped, the render target is placed into an error state, and an error is returned. The error state can be cleared by a call to [**EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw).
 
-A particular [**ID2D1Layer**](https://msdn.microsoft.com/library/Dd371483(v=VS.85).aspx) resource can be active only at one time. In other words, you cannot call a [**PushLayer**](https://msdn.microsoft.com/library/Dd316869(v=VS.85).aspx) method, and then immediately follow with another **PushLayer** method with the same layer resource. Instead, you must call the second **PushLayer** method with different layer resources.
+A particular [**ID2D1Layer**](/windows/win32/api/d2d1/nn-d2d1-id2d1layer) resource can be active only at one time. In other words, you cannot call a [**PushLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)) method, and then immediately follow with another **PushLayer** method with the same layer resource. Instead, you must call the second **PushLayer** method with different layer resources.
 
 For an example, see [How to Clip a Region with Layers](how-to-clip-with-layers.md).
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as **PushLayer**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx) or [**ID2D1RenderTarget::Flush**](https://msdn.microsoft.com/library/Dd316801(v=VS.85).aspx) methods.
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as **PushLayer**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) or [**ID2D1RenderTarget::Flush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush) methods.
 
 ## Examples
 
@@ -111,8 +111,3 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 �
 
 �
-
-
-
-
-

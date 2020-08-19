@@ -19,7 +19,7 @@ api_location:
 
 # ISCrdEnr::CSPCount property
 
-The **CSPCount** property retrieves the number of [*cryptographic service providers*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSPs).
+The **CSPCount** property retrieves the number of [*cryptographic service providers*](../secgloss/c-gly.md) (CSPs).
 
 This property is read-only.
 
@@ -73,7 +73,3 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
  
 
  
-
-
-
-

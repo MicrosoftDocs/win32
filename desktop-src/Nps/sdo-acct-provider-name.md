@@ -13,14 +13,10 @@ The name of the RADIUS server that provides accounting.
 
 **LDAP Name:** msAcctProviderName
 
-**ID:** 4139 = [**IAS\_ATTRIBUTE\_ACCT\_PROVIDER\_NAME**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid)
+**ID:** 4139 = [**IAS\_ATTRIBUTE\_ACCT\_PROVIDER\_NAME**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)
 
 **Syntax:** String
 
  
 
  
-
-
-
-

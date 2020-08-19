@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.Aperture Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.Aperture](https://msdn.microsoft.com/library/bb760308(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.Aperture](../properties/props-system-photo-aperture.md) property.
 
 ### PKEY
 
@@ -118,12 +118,9 @@ This value is generated from System.Photo.ApertureNumerator and System.Photo.Ape
 
 <dl> <dt>
 
-[System.Photo.Aperture](https://msdn.microsoft.com/library/bb760308(VS.85).aspx)
+[System.Photo.Aperture](../properties/props-system-photo-aperture.md)
 </dt> </dl>
 
  
 
  
-
-
-

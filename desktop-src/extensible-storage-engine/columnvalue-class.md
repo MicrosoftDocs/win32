@@ -32,7 +32,7 @@ Base class for objects that represent a column value to be set.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.ColumnValue  
     [Microsoft.Isam.Esent.Interop.BytesColumnValue](dn334170\(v=exchg.10\).md)  
     [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct\<T\>](dn334171\(v=exchg.10\).md)  
@@ -65,4 +65,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [ColumnValue members](dn334156\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

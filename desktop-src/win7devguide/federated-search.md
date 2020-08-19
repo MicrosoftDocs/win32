@@ -22,13 +22,9 @@ Windows 7 supports searching for documents beyond the user's own PC, as well as
 
 <dl> <dt>
 
-[Federated Search in Windows](https://msdn.microsoft.com/library/dd371694(VS.85).aspx)
+[Federated Search in Windows]()
 </dt> </dl>
 
  
 
  
-
-
-
-

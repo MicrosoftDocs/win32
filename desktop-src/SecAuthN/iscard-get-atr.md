@@ -17,9 +17,9 @@ api_location:
 
 # ISCard::get\_Atr method
 
-\[The **get\_Atr** method is available for use in the operating systems specified in the Requirements section. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **get\_Atr** method is available for use in the operating systems specified in the Requirements section. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **get\_Atr** method retrieves an [*ATR string*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) of the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
+The **get\_Atr** method retrieves an [*ATR string*](../secgloss/a-gly.md) of the [*smart card*](../secgloss/s-gly.md).
 
 ## Syntax
 
@@ -39,7 +39,7 @@ HRESULT get_Atr(
 *ppAtr* \[out\]
 </dt> <dd>
 
-Pointer to a byte buffer in the form of an [**IStream**](https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx) that will contain the ATR string on return.
+Pointer to a byte buffer in the form of an [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) that will contain the ATR string on return.
 
 </dd> </dl>
 
@@ -134,7 +134,3 @@ BYTE  byAtr[32];
  
 
  
-
-
-
-

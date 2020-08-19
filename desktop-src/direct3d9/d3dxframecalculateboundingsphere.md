@@ -58,7 +58,7 @@ Returns the center of the bounding sphere.
 *pObjectRadius* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Returns the radius of the bounding sphere.
 
@@ -91,7 +91,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

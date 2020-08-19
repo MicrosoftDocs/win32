@@ -59,27 +59,27 @@ The user can right-click the taskbar to display the shortcut menu. The shortcut 
 
 The taskbar supports two display options: Auto-Hide and, in Windows Vista and earlier only, Always On Top (the taskbar is always in this mode in Windows 7 and later). To set these options, the user must open the taskbar shortcut menu, click **Properties**, and select or clear the **Auto-hide the taskbar** check box or the **Keep the taskbar on top of other windows** check box. To retrieve the state of these display options, use the [**ABM\_GETSTATE**](abm-getstate.md) message. If you would like to be notified when the state of these display options changes, process the [**ABN\_STATECHANGE**](abn-statechange.md) notification message in your window procedure. To change the state of these display options, use the [**ABM\_SETSTATE**](abm-setstate.md) message.
 
-The *work area* is the portion of the screen not obscured by the taskbar. To retrieve the size of the work area, call the [**SystemParametersInfo**](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx) function with the **SPI\_GETWORKAREA** value set. To retrieve the rectangle coordinates that describe the location of the taskbar, use the [**ABM\_GETTASKBARPOS**](abm-gettaskbarpos.md) message.
+The *work area* is the portion of the screen not obscured by the taskbar. To retrieve the size of the work area, call the [**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa) function with the **SPI\_GETWORKAREA** value set. To retrieve the rectangle coordinates that describe the location of the taskbar, use the [**ABM\_GETTASKBARPOS**](abm-gettaskbarpos.md) message.
 
-It is possible to cover the taskbar by explicitly setting the size of the window rectangle equal to the size of the screen with [**SetWindowPos**](https://msdn.microsoft.com/library/ms633545(v=VS.85).aspx). For Windows 2000 systems or later, the window must lack either [**WS\_CAPTION**](https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx) or [**WS\_THICKFRAME**](https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx), or else the window must be sized so that the client area covers the entire screen. Also particular to those systems, if the taskbar is set to Always On Top, it will remain hidden only while the application is the foreground application.
+It is possible to cover the taskbar by explicitly setting the size of the window rectangle equal to the size of the screen with [**SetWindowPos**](/windows/win32/api/winuser/nf-winuser-setwindowpos). For Windows 2000 systems or later, the window must lack either [**WS\_CAPTION**](../winmsg/window-styles.md) or [**WS\_THICKFRAME**](../winmsg/window-styles.md), or else the window must be sized so that the client area covers the entire screen. Also particular to those systems, if the taskbar is set to Always On Top, it will remain hidden only while the application is the foreground application.
 
 ### Adding Shortcuts to the Start Menu
 
 To add an item to the **Programs** submenu on Microsoft Windows NT 4.0, Windows 2000 and later, or Windows 95 or later, follow these steps.
 
-1.  Create a [shell link](https://msdn.microsoft.com/library/Bb776891(v=VS.85).aspx) by using the [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka) interface.
+1.  Create a [shell link](./links.md) by using the [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka) interface.
 2.  Obtain the PIDL of the Programs folder by using [**SHGetSpecialFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation), passing [**CSIDL\_PROGRAMS**](csidl.md).
 3.  Add the Shell link to the Programs folder. You can also create a folder in the Programs folder and add the link to that folder.
 
 ### Managing Taskbar Buttons
 
-The Shell creates a button on the taskbar whenever an application creates a window that isn't owned. To ensure that the window button is placed on the taskbar, create an unowned window with the [**WS\_EX\_APPWINDOW**](https://msdn.microsoft.com/library/Ff700543(v=VS.85).aspx) extended style. To prevent the window button from being placed on the taskbar, create the unowned window with the [**WS\_EX\_TOOLWINDOW**](https://msdn.microsoft.com/library/Ff700543(v=VS.85).aspx) extended style. As an alternative, you can create a hidden window and make this hidden window the owner of your visible window.
+The Shell creates a button on the taskbar whenever an application creates a window that isn't owned. To ensure that the window button is placed on the taskbar, create an unowned window with the [**WS\_EX\_APPWINDOW**](../winmsg/extended-window-styles.md) extended style. To prevent the window button from being placed on the taskbar, create the unowned window with the [**WS\_EX\_TOOLWINDOW**](../winmsg/extended-window-styles.md) extended style. As an alternative, you can create a hidden window and make this hidden window the owner of your visible window.
 
-The Shell will remove a window's button from the taskbar only if the window's style supports visible taskbar buttons. If you want to dynamically change a window's style to one that does not support visible taskbar buttons, you must hide the window first (by calling [**ShowWindow**](https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx) with **SW\_HIDE**), change the window style, and then show the window.
+The Shell will remove a window's button from the taskbar only if the window's style supports visible taskbar buttons. If you want to dynamically change a window's style to one that does not support visible taskbar buttons, you must hide the window first (by calling [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow) with **SW\_HIDE**), change the window style, and then show the window.
 
 The window button typically contains the application icon and title. However, if the application does not contain a system menu, the window button is created without the icon.
 
-If you want your application to get the user's attention when the window is not active, use the [**FlashWindow**](https://msdn.microsoft.com/library/ms679346(v=VS.85).aspx) function to let the user know that a message is waiting. This function flashes the window button. Once the user clicks the window button to activate the window, your application can display the message.
+If you want your application to get the user's attention when the window is not active, use the [**FlashWindow**](/windows/win32/api/winuser/nf-winuser-flashwindow) function to let the user know that a message is waiting. This function flashes the window button. Once the user clicks the window button to activate the window, your application can display the message.
 
 ### Modifying the Contents of the Taskbar
 
@@ -105,24 +105,24 @@ Applications commonly put icons in the notification area of the taskbar to serve
 
 The system notifies you of mouse and keyboard events by sending an application-defined callback message that is associated with a particular icon. In this way, the system can notify an application when the user, for instance, clicks the icon or selects it by pressing a key.
 
-You define an icon's callback message when you add the icon to the taskbar. The callback message identifier is specified in the **uCallbackMessage** member of the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure passed with NIM\_ADD. When an event occurs, the system sends the callback message to the window procedure of the window specified by the **hWnd** member. The *wParam* parameter of the message contains the identifier of the taskbar icon in which the event occurred. The *lParam* parameter holds the mouse or keyboard message associated with the event. For example, when the mouse pointer moves onto a taskbar icon, *lParam* contains [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/ms645616(v=VS.85).aspx).
+You define an icon's callback message when you add the icon to the taskbar. The callback message identifier is specified in the **uCallbackMessage** member of the [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) structure passed with NIM\_ADD. When an event occurs, the system sends the callback message to the window procedure of the window specified by the **hWnd** member. The *wParam* parameter of the message contains the identifier of the taskbar icon in which the event occurred. The *lParam* parameter holds the mouse or keyboard message associated with the event. For example, when the mouse pointer moves onto a taskbar icon, *lParam* contains [**WM\_MOUSEMOVE**](../inputdev/wm-mousemove.md).
 
 The results of various mouse events can be summarized as follows:
 
 -   When the user moves the mouse pointer over the icon, the system displays the tooltip text that was specified in [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa).
--   When the user clicks the icon, your application receives a [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/library/ms645607(v=VS.85).aspx) notification.
--   When the user right-clicks the icon, your application receives a [**WM\_RBUTTONDOWN**](https://msdn.microsoft.com/library/ms646242(v=VS.85).aspx) notification.
--   When the user double-clicks the icon, your application receives a [**WM\_LBUTTONDBLCLK**](https://msdn.microsoft.com/library/ms645606(v=VS.85).aspx) notification.
+-   When the user clicks the icon, your application receives a [**WM\_LBUTTONDOWN**](../inputdev/wm-lbuttondown.md) notification.
+-   When the user right-clicks the icon, your application receives a [**WM\_RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) notification.
+-   When the user double-clicks the icon, your application receives a [**WM\_LBUTTONDBLCLK**](../inputdev/wm-lbuttondblclk.md) notification.
 
 Typically, clicking the icon causes the application to display a window with additional information, right-clicking displays a shortcut menu, and double-clicking executes the default shortcut menu command.
 
-For an example of how to change the tooltip text associated with a notification area icon, see [Balloon Tooltips for Status Bar Icons](https://msdn.microsoft.com/library/Bb760250(v=VS.85).aspx).
+For an example of how to change the tooltip text associated with a notification area icon, see [Balloon Tooltips for Status Bar Icons](../controls/tooltip-controls.md).
 
 Versions 5.0 and later of the Shell handle [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) mouse and keyboard events in different ways than earlier Shell versions found on Windows NT 4.0, Windows 95, and Windows 98. The differences are as follows:
 
--   If a user requests a notify icon's shortcut menu with the keyboard, the version 5.0 Shell sends the associated application a [**WM\_CONTEXTMENU**](https://msdn.microsoft.com/library/ms647592(v=VS.85).aspx) message. Earlier versions send [**WM\_RBUTTONDOWN**](https://msdn.microsoft.com/library/ms646242(v=VS.85).aspx) and [**WM\_RBUTTONUP**](https://msdn.microsoft.com/library/ms646243(v=VS.85).aspx) messages.
--   If a user selects a notify icon with the keyboard and activates it with the space bar or ENTER key, the version 5.0 Shell sends the associated application an **NIN\_KEYSELECT** notification. Earlier versions send [**WM\_RBUTTONDOWN**](https://msdn.microsoft.com/library/ms646242(v=VS.85).aspx) and [**WM\_RBUTTONUP**](https://msdn.microsoft.com/library/ms646243(v=VS.85).aspx) messages.
--   If a user selects a notify icon with the mouse and activates it with the ENTER key, the version 5.0 Shell sends the associated application an **NIN\_SELECT** notification. Earlier versions send [**WM\_RBUTTONDOWN**](https://msdn.microsoft.com/library/ms646242(v=VS.85).aspx) and [**WM\_RBUTTONUP**](https://msdn.microsoft.com/library/ms646243(v=VS.85).aspx) messages.
+-   If a user requests a notify icon's shortcut menu with the keyboard, the version 5.0 Shell sends the associated application a [**WM\_CONTEXTMENU**](../menurc/wm-contextmenu.md) message. Earlier versions send [**WM\_RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) and [**WM\_RBUTTONUP**](../inputdev/wm-rbuttonup.md) messages.
+-   If a user selects a notify icon with the keyboard and activates it with the space bar or ENTER key, the version 5.0 Shell sends the associated application an **NIN\_KEYSELECT** notification. Earlier versions send [**WM\_RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) and [**WM\_RBUTTONUP**](../inputdev/wm-rbuttonup.md) messages.
+-   If a user selects a notify icon with the mouse and activates it with the ENTER key, the version 5.0 Shell sends the associated application an **NIN\_SELECT** notification. Earlier versions send [**WM\_RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) and [**WM\_RBUTTONUP**](../inputdev/wm-rbuttonup.md) messages.
 -   If a user passes the mouse pointer over an icon with which a balloon tooltip is associated, the version 6.0 Shell (Windows XP)sends the following messages.
     -   -   **NIN\_BALLOONSHOW** - Sent when the balloon is shown (balloons are queued).
         -   **NIN\_BALLOONHIDE** - Sent when the balloon disappears—for example, when the icon is deleted. This message is not sent if the balloon is dismissed because of a timeout or a mouse click.
@@ -288,6 +288,3 @@ void On_MYWM_NOTIFYICON(WPARAM wParam, LPARAM lParam)
  
 
  
-
-
-
