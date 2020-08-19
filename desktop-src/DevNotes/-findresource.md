@@ -53,13 +53,9 @@ HRSRC _FindResource(
 
 <dl> <dt>
 
-[**FindResource**](https://msdn.microsoft.com/library/ms648042(v=VS.85).aspx)
+[**FindResource**](/windows/win32/api/winbase/nf-winbase-findresourcea)
 </dt> </dl>
 
  
 
  
-
-
-
-

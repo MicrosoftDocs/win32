@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMUDEC4 Extensions
 
-[**XMUDEC4**](https://msdn.microsoft.com/library/Ee420508(v=VS.85).aspx)describes a 4D vector with x-,y-, and z- components represented as 10 bit unsigned integer values, and the w-component as a 2 bit unsigned integer value.
+[**XMUDEC4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmudec4)describes a 4D vector with x-,y-, and z- components represented as 10 bit unsigned integer values, and the w-component as a 2 bit unsigned integer value.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -35,13 +35,9 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMUDEC4**](https://msdn.microsoft.com/library/Ee420508(v=VS.85).aspx)
+[**XMUDEC4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmudec4)
 </dt> </dl>
 
  
 
  
-
-
-
-

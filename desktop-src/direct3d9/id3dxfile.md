@@ -22,7 +22,7 @@ Applications use the methods of the ID3DXFile interface to create instances of t
 
 ## Members
 
-The **ID3DXFile** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXFile** also has these types of members:
+The **ID3DXFile** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXFile** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -83,7 +83,3 @@ typedef interface ID3DXFile *LPD3DXFILE;
  
 
  
-
-
-
-

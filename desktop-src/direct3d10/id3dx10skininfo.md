@@ -22,7 +22,7 @@ ID3DX10SkinInfo allows you to optimize, process, and manually set the relationsh
 
 ## Members
 
-The **ID3DX10SkinInfo** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DX10SkinInfo** also has these types of members:
+The **ID3DX10SkinInfo** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX10SkinInfo** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -90,7 +90,3 @@ typedef struct ID3DX10SkinInfo *LPD3DX10SKININFO;
  
 
  
-
-
-
-

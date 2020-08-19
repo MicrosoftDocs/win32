@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # About Communications Resources
 
-The file input and output (I/O) functions ( [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea), [**CloseHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle), [**ReadFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile), [**ReadFileEx**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex), [**WriteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile), and [**WriteFileEx**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex)) provide the basic interface for opening and closing a communications resource handle and for performing read and write operations. The communications functions provide access to communications resources. This overview describes the use of file I/O and communications functions.
+The file input and output (I/O) functions ( [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea), [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle), [**ReadFile**](/windows/desktop/api/fileapi/nf-fileapi-readfile), [**ReadFileEx**](/windows/desktop/api/fileapi/nf-fileapi-readfileex), [**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile), and [**WriteFileEx**](/windows/desktop/api/fileapi/nf-fileapi-writefileex)) provide the basic interface for opening and closing a communications resource handle and for performing read and write operations. The communications functions provide access to communications resources. This overview describes the use of file I/O and communications functions.
 
 -   [Communications Resource Handles](communications-resource-handles.md)
 -   [Modification of Communications Resource Settings](modification-of-communications-resource-settings.md)
@@ -21,6 +21,3 @@ The file input and output (I/O) functions ( [**CreateFile**](https://docs.micros
  
 
  
-
-
-

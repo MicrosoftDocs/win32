@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Getting the Session ID of the Current Process
 
-\[The memory addresses specified by this example code may change in future releases of Windows. To ensure that your application will continue to run correctly in the future, your application must call [**GetCurrentProcessId**](https://msdn.microsoft.com/library/ms683180(v=VS.85).aspx) and then [**ProcessIdToSessionId**](https://msdn.microsoft.com/library/Aa382990(v=VS.85).aspx) instead of the following sample code.\]
+\[The memory addresses specified by this example code may change in future releases of Windows. To ensure that your application will continue to run correctly in the future, your application must call [**GetCurrentProcessId**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentprocessid) and then [**ProcessIdToSessionId**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-processidtosessionid) instead of the following sample code.\]
 
 The following example x86 assembly code gets the Terminal Services session ID associated with the current process.
 
@@ -21,6 +21,3 @@ mov     eax,[eax+0x1d4]
  
 
  
-
-
-

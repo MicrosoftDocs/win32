@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Direct3D 11.1 Features
 
-The following functionality has been added in Direct3D 11.1, which is included with Windows 8, Windows RT, and Windows Server 2012. Partial support for [Direct3D 11.1](direct3d-11-features.md) is available on Windows 7 and Windows Server 2008 R2 via the [Platform Update for Windows 7](https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7), which is available through the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838).
+The following functionality has been added in Direct3D 11.1, which is included with Windows 8, Windows RT, and Windows Server 2012. Partial support for [Direct3D 11.1](direct3d-11-features.md) is available on Windows 7 and Windows Server 2008 R2 via the [Platform Update for Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7), which is available through the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838).
 
 -   [Shader tracing and compiler enhancements](#shader-tracing-and-compiler-enhancements)
 -   [Direct3D device sharing](#direct3d-device-sharing)
@@ -26,7 +26,7 @@ The following functionality has been added in Direct3D 11.1, which is included w
 -   [Bind a subrange of a constant buffer to a shader](#bind-a-subrange-of-a-constant-buffer-to-a-shader)
 -   [Retrieve the subrange of a constant buffer that is bound to a shader](#retrieve-the-subrange-of-a-constant-buffer-that-is-bound-to-a-shader)
 -   [Clear all or part of a resource view](#clear-all-or-part-of-a-resource-view)
--   [Map SRVs of dynamic buffers with NO\_OVERWRITE](https://docs.microsoft.com/windows)
+-   [Map SRVs of dynamic buffers with NO\_OVERWRITE](/windows)
 -   [Use UAVs at every pipeline stage](#use-uavs-at-every-pipeline-stage)
 -   [Extended support for WARP devices](#extended-support-for-warp-devices)
 -   [Use Direct3D in Session 0 processes](#use-direct3d-in-session-0-processes)
@@ -52,19 +52,19 @@ The shader tracing API and the enhancements to the HLSL compiler consists of the
 -   [**ID3D11ShaderTrace::GetStep**](/windows/desktop/api/D3D11ShaderTracing/nf-d3d11shadertracing-id3d11shadertrace-getstep)
 -   [**ID3D11ShaderTrace::GetWrittenRegister**](/windows/desktop/api/D3D11ShaderTracing/nf-d3d11shadertracing-id3d11shadertrace-getwrittenregister)
 -   [**ID3D11ShaderTrace::GetReadRegister**](/windows/desktop/api/D3D11ShaderTracing/nf-d3d11shadertracing-id3d11shadertrace-getreadregister)
--   [**D3DCompile2**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile2)
--   [**D3DCompileFromFile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompilefromfile)
--   [**D3DDisassemble11Trace**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3ddisassemble11trace)
--   [**D3DDisassembleRegion**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3ddisassembleregion)
--   [**D3DGetTraceInstructionOffsets**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dgettraceinstructionoffsets)
--   [**D3DReadFileToBlob**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dreadfiletoblob)
--   [**D3DSetBlobPart**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dsetblobpart)
--   [**D3DWriteBlobToFile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dwriteblobtofile)
+-   [**D3DCompile2**](/windows/desktop/direct3dhlsl/d3dcompile2)
+-   [**D3DCompileFromFile**](/windows/desktop/direct3dhlsl/d3dcompilefromfile)
+-   [**D3DDisassemble11Trace**](/windows/desktop/direct3dhlsl/d3ddisassemble11trace)
+-   [**D3DDisassembleRegion**](/windows/desktop/direct3dhlsl/d3ddisassembleregion)
+-   [**D3DGetTraceInstructionOffsets**](/windows/desktop/direct3dhlsl/d3dgettraceinstructionoffsets)
+-   [**D3DReadFileToBlob**](/windows/desktop/direct3dhlsl/d3dreadfiletoblob)
+-   [**D3DSetBlobPart**](/windows/desktop/direct3dhlsl/d3dsetblobpart)
+-   [**D3DWriteBlobToFile**](/windows/desktop/direct3dhlsl/d3dwriteblobtofile)
 
 The D3dcompiler.lib library requires D3dcompiler\_nn.dll. This DLL is not part of Windows 8; it is in the \\bin folder of the Windows SDK for Windows 8 along with the Fxc.exe command-line version of the HLSL compiler.
 
 > [!Note]  
-> While you can use this library and DLL combination for development, you can't deploy Windows Store apps that use this combination. Therefore, you must instead compile HLSL shaders before you ship your Windows Store app. You can write HLSL compilation binaries to disk, or the compiler can generate headers with static byte arrays that contain the shader blob data. You use the [**ID3DBlob**](https://msdn.microsoft.com/library/Ff728743(v=VS.85).aspx) interface to access the blob data. To develop your Windows Store app, call [**D3DCompile2**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile2) or [**D3DCompileFromFile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompilefromfile) to compile the raw HLSL source, and then feed the resulting blob data to Direct3D.
+> While you can use this library and DLL combination for development, you can't deploy Windows Store apps that use this combination. Therefore, you must instead compile HLSL shaders before you ship your Windows Store app. You can write HLSL compilation binaries to disk, or the compiler can generate headers with static byte arrays that contain the shader blob data. You use the [**ID3DBlob**](/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)) interface to access the blob data. To develop your Windows Store app, call [**D3DCompile2**](/windows/desktop/direct3dhlsl/d3dcompile2) or [**D3DCompileFromFile**](/windows/desktop/direct3dhlsl/d3dcompilefromfile) to compile the raw HLSL source, and then feed the resulting blob data to Direct3D.
 
  
 
@@ -76,11 +76,11 @@ This Direct3D 11.1 feature consists of the following methods and interface.
 
 -   [**ID3D11Device1::CreateDeviceContextState**](/windows/desktop/api/D3D11_1/nf-d3d11_1-id3d11device1-createdevicecontextstate)
 -   [**ID3D11DeviceContext1::SwapDeviceContextState**](/windows/desktop/api/D3D11_1/nf-d3d11_1-id3d11devicecontext1-swapdevicecontextstate)
--   [**ID3DDeviceContextState**](https://msdn.microsoft.com/library/Hh446878(v=VS.85).aspx)
+-   [**ID3DDeviceContextState**](/windows/win32/api/d3d11_1/nn-d3d11_1-id3ddevicecontextstate)
 
 ## Check support of new Direct3D 11.1 features and formats
 
-Direct3D 11.1 lets you check for new features that the graphics driver might support and new ways that a format is supported on a device. Microsoft DirectX Graphics Infrastructure (DXGI) 1.2 also specifies new [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) values.
+Direct3D 11.1 lets you check for new features that the graphics driver might support and new ways that a format is supported on a device. Microsoft DirectX Graphics Infrastructure (DXGI) 1.2 also specifies new [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) values.
 
 This Direct3D 11.1 feature consists of the following API.
 
@@ -89,17 +89,17 @@ This Direct3D 11.1 feature consists of the following API.
 
 ## Use HLSL minimum precision
 
-Starting with Windows 8, graphics drivers can implement minimum precision [HLSL scalar data types](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-scalar) by using any precision greater than or equal to their specified bit precision. When your HLSL minimum precision shader code is used on hardware that implements HLSL minimum precision, you use less memory bandwidth and as a result you also use less system power.
+Starting with Windows 8, graphics drivers can implement minimum precision [HLSL scalar data types](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-scalar) by using any precision greater than or equal to their specified bit precision. When your HLSL minimum precision shader code is used on hardware that implements HLSL minimum precision, you use less memory bandwidth and as a result you also use less system power.
 
 You can query for the minimum precision support that the graphics driver provides by calling [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) with the [**D3D11\_FEATURE\_SHADER\_MIN\_PRECISION\_SUPPORT**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_feature) value. In this **ID3D11Device::CheckFeatureSupport** call, pass a pointer to a [**D3D11\_FEATURE\_DATA\_SHADER\_MIN\_PRECISION\_SUPPORT**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_shader_min_precision_support) structure that **ID3D11Device::CheckFeatureSupport** fills with the minimum precision levels that the driver supports for the pixel shader stage and for other shader stages. The returned info just indicates that the graphics hardware can perform HLSL operations at a lower precision than the standard 32-bit float precision, but doesn’t guarantee that the graphics hardware will actually run at a lower precision.
 
-You don't need to author multiple shaders that do and don't use minimum precision. Instead, create shaders with minimum precision, and the minimum precision variables behave at full 32-bit precision if the graphics driver reports that it doesn't support any minimum precision. For more info about HLSL minimum precision, see [Using HLSL minimum precision](https://docs.microsoft.com/windows/desktop/direct3dhlsl/using-hlsl-minimum-precision).
+You don't need to author multiple shaders that do and don't use minimum precision. Instead, create shaders with minimum precision, and the minimum precision variables behave at full 32-bit precision if the graphics driver reports that it doesn't support any minimum precision. For more info about HLSL minimum precision, see [Using HLSL minimum precision](/windows/desktop/direct3dhlsl/using-hlsl-minimum-precision).
 
 HLSL minimum precision shaders don't work on operating systems earlier than Windows 8.
 
 ## Specify user clip planes in HLSL on feature level 9 and higher
 
-Starting with Windows 8, you can use the **clipplanes** function attribute in an HLSL [function declaration](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-function-syntax) rather than [SV\_ClipDistance](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics) to make your shader work on [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_x as well as feature level 10 and higher. For more info, see [User clip planes on feature level 9 hardware](https://docs.microsoft.com/windows/desktop/direct3dhlsl/user-clip-planes-on-10level9).
+Starting with Windows 8, you can use the **clipplanes** function attribute in an HLSL [function declaration](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-function-syntax) rather than [SV\_ClipDistance](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics) to make your shader work on [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_x as well as feature level 10 and higher. For more info, see [User clip planes on feature level 9 hardware](/windows/desktop/direct3dhlsl/user-clip-planes-on-10level9).
 
 ## Create larger constant buffers than a shader can access
 
@@ -139,7 +139,7 @@ This Direct3D 11.1 feature consists of the following API.
 
 ## Process video resources with shaders
 
-Direct3D 11.1 lets you create views (SRV/RTV/UAV) to video resources so that Direct3D shaders can process those video resources. The format of an underlying video resource restricts the formats that the view can use. The [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration contains new video resource format values. These **DXGI\_FORMAT** values specify the valid view formats that you can create and how the Direct3D 11.1 runtime maps the view. You can create multiple views of different parts of the same surface, and depending on the format, the sizes of the views can differ from each other.
+Direct3D 11.1 lets you create views (SRV/RTV/UAV) to video resources so that Direct3D shaders can process those video resources. The format of an underlying video resource restricts the formats that the view can use. The [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration contains new video resource format values. These **DXGI\_FORMAT** values specify the valid view formats that you can create and how the Direct3D 11.1 runtime maps the view. You can create multiple views of different parts of the same surface, and depending on the format, the sizes of the views can differ from each other.
 
 Direct3D 11.1 updates the following methods for this feature.
 
@@ -151,7 +151,7 @@ Direct3D 11.1 updates the following methods for this feature.
 
 Direct3D 11.1 guarantees that you can share Texture2D resources that you created with particular resource types and formats. To share Texture2D resources, use the [**D3D11\_RESOURCE\_MISC\_SHARED**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag), [**D3D11\_RESOURCE\_MISC\_SHARED\_KEYEDMUTEX**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag), or a combination of the **D3D11\_RESOURCE\_MISC\_SHARED\_KEYEDMUTEX** and [**D3D11\_RESOURCE\_MISC\_SHARED\_NTHANDLE**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag) (new for Windows 8) flags when you create those resources.
 
-Direct3D 11.1 guarantees that you can share Texture2D resources that you created with these [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) values:
+Direct3D 11.1 guarantees that you can share Texture2D resources that you created with these [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) values:
 
 -   DXGI\_FORMAT\_R8G8B8A8\_UNORM
 -   DXGI\_FORMAT\_R8G8B8A8\_UNORM\_SRGB
@@ -171,7 +171,7 @@ In addition, Direct3D 11.1 guarantees that you can share Texture2D resources tha
 
 Direct3D 11.1 lets you share a greater variety of Texture2D resource types and formats. You can query for whether the graphics driver and hardware support extended Texture2D resource sharing by calling [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) with the [**D3D11\_FEATURE\_D3D11\_OPTIONS**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_feature) value. In this **ID3D11Device::CheckFeatureSupport** call, pass a pointer to a [**D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) structure. **ID3D11Device::CheckFeatureSupport** sets the **ExtendedResourceSharing** member of **D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS** to **TRUE** if the hardware and driver support extended Texture2D resource sharing.
 
-If [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) returns **TRUE** in **ExtendedResourceSharing**, you can share resources that you created with these [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) values:
+If [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) returns **TRUE** in **ExtendedResourceSharing**, you can share resources that you created with these [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) values:
 
 -   DXGI\_FORMAT\_R32G32B32A32\_TYPELESS
 -   DXGI\_FORMAT\_R32G32B32A32\_FLOAT
@@ -246,7 +246,7 @@ If [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-i
 Even if [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) returns **TRUE** in **ExtendedResourceSharing**, you still can't share resources that you created with these features and flags:
 
 -   [**D3D11\_BIND\_DEPTH\_STENCIL**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_bind_flag)
--   2D texture resources in multisample antialiasing (MSAA) mode (specified with [**DXGI\_SAMPLE\_DESC**](https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc))
+-   2D texture resources in multisample antialiasing (MSAA) mode (specified with [**DXGI\_SAMPLE\_DESC**](/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc))
 -   [**D3D11\_RESOURCE\_MISC\_RESOURCE\_CLAMP**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)
 -   [**D3D11\_USAGE\_IMMUTABLE**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_usage), [**D3D11\_USAGE\_DYNAMIC**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_usage), or [**D3D11\_USAGE\_STAGING**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_usage) (that is, mappable)
 -   [**D3D11\_RESOURCE\_MISC\_TEXTURECUBE**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)
@@ -323,17 +323,17 @@ Direct3D 11.1 updates the [**ID3D11DeviceContext::Map**](/windows/desktop/api/D3
 
 Direct3D 11.1 lets you use the following shader model 5.0 instructions at all shader stages that were previously used in just pixel shaders and compute shaders.
 
--   [dcl\_uav\_typed](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dcl-uav-typed--sm5---asm-)
--   [dcl\_uav\_raw](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dcl-uav-raw--sm5---asm-)
--   [dcl\_uav\_structured](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dcl-uav-structured--sm5---asm-)
--   [ld\_raw](https://docs.microsoft.com/windows/desktop/direct3dhlsl/ld-raw--sm5---asm-)
--   [ld\_structured](https://docs.microsoft.com/windows/desktop/direct3dhlsl/ld-structured--sm5---asm-)
--   [ld\_uav\_typed](https://docs.microsoft.com/windows/desktop/direct3dhlsl/ld-uav-typed--sm5---asm-)
--   [store\_raw](https://docs.microsoft.com/windows/desktop/direct3dhlsl/store-raw--sm5---asm-)
--   [store\_structured](https://docs.microsoft.com/windows/desktop/direct3dhlsl/store-structured--sm5---asm-)
--   [store\_uav\_typed](https://docs.microsoft.com/windows/desktop/direct3dhlsl/store-uav-typed--sm5---asm-)
--   [sync\_uglobal](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sync--sm5---asm-)
--   All atomics and immediate atomics (for example, [atomic\_and](https://docs.microsoft.com/windows/desktop/direct3dhlsl/atomic-and--sm5---asm-) and [imm\_atomic\_and](https://docs.microsoft.com/windows/desktop/direct3dhlsl/imm-atomic-and--sm5---asm-))
+-   [dcl\_uav\_typed](/windows/desktop/direct3dhlsl/dcl-uav-typed--sm5---asm-)
+-   [dcl\_uav\_raw](/windows/desktop/direct3dhlsl/dcl-uav-raw--sm5---asm-)
+-   [dcl\_uav\_structured](/windows/desktop/direct3dhlsl/dcl-uav-structured--sm5---asm-)
+-   [ld\_raw](/windows/desktop/direct3dhlsl/ld-raw--sm5---asm-)
+-   [ld\_structured](/windows/desktop/direct3dhlsl/ld-structured--sm5---asm-)
+-   [ld\_uav\_typed](/windows/desktop/direct3dhlsl/ld-uav-typed--sm5---asm-)
+-   [store\_raw](/windows/desktop/direct3dhlsl/store-raw--sm5---asm-)
+-   [store\_structured](/windows/desktop/direct3dhlsl/store-structured--sm5---asm-)
+-   [store\_uav\_typed](/windows/desktop/direct3dhlsl/store-uav-typed--sm5---asm-)
+-   [sync\_uglobal](/windows/desktop/direct3dhlsl/sync--sm5---asm-)
+-   All atomics and immediate atomics (for example, [atomic\_and](/windows/desktop/direct3dhlsl/atomic-and--sm5---asm-) and [imm\_atomic\_and](/windows/desktop/direct3dhlsl/imm-atomic-and--sm5---asm-))
 
 Direct3D 11.1 updates the following methods for this feature.
 
@@ -367,7 +367,7 @@ WARP devices don't support these optional features:
 -   [video encode or decode](/windows/desktop/api/D3D11/ne-d3d11-d3d11_create_device_flag)
 -   [minimum precision shader support](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_shader_min_precision_support)
 
-When you run a virtual machine (VM), Hyper-V, with your graphics processing unit (GPU) disabled, or without a display driver, you get a WARP device whose friendly name is "Microsoft Basic Display Adapter." This WARP device can run the full Windows experience, which includes DWM, Internet Explorer, and Windows Store apps. This WARP device also supports running legacy apps that use [DirectDraw](https://docs.microsoft.com/windows/desktop/directdraw/directdraw) or running apps that use Direct3D 3 through Direct3D 11.1.
+When you run a virtual machine (VM), Hyper-V, with your graphics processing unit (GPU) disabled, or without a display driver, you get a WARP device whose friendly name is "Microsoft Basic Display Adapter." This WARP device can run the full Windows experience, which includes DWM, Internet Explorer, and Windows Store apps. This WARP device also supports running legacy apps that use [DirectDraw](/windows/desktop/directdraw/directdraw) or running apps that use Direct3D 3 through Direct3D 11.1.
 
 ## Use Direct3D in Session 0 processes
 
@@ -376,27 +376,27 @@ Starting with Windows 8 and Windows Server 2012, you can use most of the Direc
 > [!Note]  
 > These output, window, swap chain, and presentation-related APIs are not available in Session 0 processes because they don't apply to the Session 0 environment:
 >
-> -   [**IDXGIFactory::CreateSwapChain**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-createswapchain)
-> -   [**IDXGIFactory::GetWindowAssociation**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-getwindowassociation)
-> -   [**IDXGIFactory::MakeWindowAssociation**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-makewindowassociation)
-> -   [**IDXGIAdapter::EnumOutputs**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiadapter-enumoutputs)
+> -   [**IDXGIFactory::CreateSwapChain**](/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-createswapchain)
+> -   [**IDXGIFactory::GetWindowAssociation**](/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-getwindowassociation)
+> -   [**IDXGIFactory::MakeWindowAssociation**](/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-makewindowassociation)
+> -   [**IDXGIAdapter::EnumOutputs**](/windows/desktop/api/dxgi/nf-dxgi-idxgiadapter-enumoutputs)
 > -   [**ID3D11Debug::SetFeatureMask**](/windows/desktop/api/D3D11SDKLayers/nf-d3d11sdklayers-id3d11debug-setfeaturemask)
 > -   [**ID3D11Debug::SetPresentPerRenderOpDelay**](/windows/desktop/api/D3D11SDKLayers/nf-d3d11sdklayers-id3d11debug-setpresentperrenderopdelay)
 > -   [**ID3D11Debug::SetSwapChain**](/windows/desktop/api/D3D11SDKLayers/nf-d3d11sdklayers-id3d11debug-setswapchain)
-> -   [**ID3D10Debug::SetFeatureMask**](https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-setfeaturemask)
-> -   [**ID3D10Debug::SetPresentPerRenderOpDelay**](https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-setpresentperrenderopdelay)
-> -   [**ID3D10Debug::SetSwapChain**](https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-setswapchain)
-> -   [**D3D10CreateDeviceAndSwapChain**](https://docs.microsoft.com/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdeviceandswapchain)
-> -   [**D3D10CreateDeviceAndSwapChain1**](https://docs.microsoft.com/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdeviceandswapchain1)
+> -   [**ID3D10Debug::SetFeatureMask**](/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-setfeaturemask)
+> -   [**ID3D10Debug::SetPresentPerRenderOpDelay**](/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-setpresentperrenderopdelay)
+> -   [**ID3D10Debug::SetSwapChain**](/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-setswapchain)
+> -   [**D3D10CreateDeviceAndSwapChain**](/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdeviceandswapchain)
+> -   [**D3D10CreateDeviceAndSwapChain1**](/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdeviceandswapchain1)
 > -   [**D3D11CreateDeviceAndSwapChain**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdeviceandswapchain)
 >
-> If you call one of the preceding APIs in a Session 0 process, it returns [**DXGI\_ERROR\_NOT\_CURRENTLY\_AVAILABLE**](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error).
+> If you call one of the preceding APIs in a Session 0 process, it returns [**DXGI\_ERROR\_NOT\_CURRENTLY\_AVAILABLE**](/windows/desktop/direct3ddxgi/dxgi-error).
 
  
 
 ## Support for shadow buffer on feature level 9
 
-Use a subset of Direct3D 10\_0+ shadow buffer features to implement shadow effects on [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_x. For info about what you need to do to implement shadow effects on feature level 9\_x, see [Implementing shadow buffers for Direct3D feature level 9](https://docs.microsoft.com/previous-versions/windows/apps/jj262110(v=win.10)).
+Use a subset of Direct3D 10\_0+ shadow buffer features to implement shadow effects on [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 9\_x. For info about what you need to do to implement shadow effects on feature level 9\_x, see [Implementing shadow buffers for Direct3D feature level 9](/previous-versions/windows/apps/jj262110(v=win.10)).
 
 ## Related topics
 
@@ -408,7 +408,3 @@ Use a subset of Direct3D 10\_0+ shadow buffer features to implement shadow effec
  
 
  
-
-
-
-

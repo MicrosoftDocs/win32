@@ -58,7 +58,7 @@ The following structures are declared in d3d12.h.
 | [**D3D12_FEATURE_DATA_D3D12_OPTIONS5**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options5). Indicates the level of support that the adapter provides for render passes, ray tracing, and shader-resource view tier 3 tiled resources. |
 | [**D3D12_FEATURE_DATA_D3D12_OPTIONS6**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options6). Indicates the level of support that the adapter provides for variable-rate shading (VRS), and indicates whether or not background processing is supported. |
 | [**D3D12_FEATURE_DATA_EXISTING_HEAPS**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_existing_heaps). Used to determinine whether the adapter supports creating heaps from existing system memory. Such heaps are not intended for general use, but are exceptionally useful for diagnostic purposes because they are guaranteed to persist even after the adapter faults or experiences a device-removal event. |
-| [**D3D12_FEATURE_DATA_FEATURE_LEVELS**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_feature_levels). Describes info about the [feature levels](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) supported by the current graphics driver. |
+| [**D3D12_FEATURE_DATA_FEATURE_LEVELS**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_feature_levels). Describes info about the [feature levels](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) supported by the current graphics driver. |
 | [**D3D12_FEATURE_DATA_FORMAT_INFO**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_format_info). Describes the DXGI data format. |
 | [**D3D12_FEATURE_DATA_FORMAT_SUPPORT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_format_support). Describes which resources are supported by the current graphics driver for a given format. |
 | [**D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_gpu_virtual_address_support). Details the adapter's GPU virtual address space limitations, including maximum address bits per resource and per process. |
@@ -182,7 +182,7 @@ The following structures are declared in d3d12.h.
 | [**D3D12_VIEW_INSTANCE_LOCATION**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_view_instance_location). Specifies the viewport/stencil and render target associated with a view instance. |
 | [**D3D12_VIEW_INSTANCING_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_view_instancing_desc). Specifies parameters used during view instancing configuration. |
 | [**D3D12_VIEWPORT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_viewport). Describes the dimensions of a viewport. |
-| [**D3D12_WRITEBUFFERIMMEDIATE_PARAMETER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_writebufferimmediate_parameter). Specifies the immediate value and destination address written using [**ID3D12CommandList2::WriteBufferImmediate**](https://msdn.microsoft.com/library/Mt844817(v=VS.85).aspx). |
+| [**D3D12_WRITEBUFFERIMMEDIATE_PARAMETER**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_writebufferimmediate_parameter). Specifies the immediate value and destination address written using [**ID3D12CommandList2::WriteBufferImmediate**](/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist2). |
 
 ## Related topics
 

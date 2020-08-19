@@ -55,7 +55,7 @@ The **MDM\_WindowsAdvancedThreatProtection\_DeviceTagging01** class has these pr
 
 <dl> <dt>
 
-[Criticality](https://docs.microsoft.com/windows/client-management/mdm/windowsadvancedthreatprotection-csp#criticality)
+[Criticality](/windows/client-management/mdm/windowsadvancedthreatprotection-csp#criticality)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -66,7 +66,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Group](https://docs.microsoft.com/windows/client-management/mdm/windowsadvancedthreatprotection-csp#group)
+[Group](/windows/client-management/mdm/windowsadvancedthreatprotection-csp#group)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -99,7 +99,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -113,7 +113,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> </dl>
@@ -133,10 +133,4 @@ Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qual
 
 
  
-
- 
-
-
-
-
 

@@ -70,13 +70,9 @@ Where:
 [Registers](dx9-graphics-reference-asm-ps-registers.md)
 </dt> <dt>
 
-[Multiple Render Targets (Direct3D 9)](https://docs.microsoft.com/windows/desktop/direct3d9/multiple-render-targets)
+[Multiple Render Targets (Direct3D 9)](/windows/desktop/direct3d9/multiple-render-targets)
 </dt> </dl>
 
  
 
  
-
-
-
-

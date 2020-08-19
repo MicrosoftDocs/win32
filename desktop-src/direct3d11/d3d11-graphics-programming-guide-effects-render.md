@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 An effect can be used to store information, or to render using a group of state. Each technique specifies some set of vertex shaders, hull shaders, domain shaders, geometry shaders, pixel shaders, compute shaders, shader state, sampler and texture state, unordered access view state and other pipeline state. So once you have organized state into an effect, you can encapsulate the rendering effect that results from that state by creating and rendering the effect.
 
-There are a few steps for preparing an effect for rendering. The first is compiling, which checks the HLSL like code against the HLSL language syntax and the effect framework rules. You can compile an effect from your application using API calls or you can compile an effect offline using the effect compiler utility [fxc.exe](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc). Once your effect has successfully compiled, create it by calling a different (but very similar) set of APIs.
+There are a few steps for preparing an effect for rendering. The first is compiling, which checks the HLSL like code against the HLSL language syntax and the effect framework rules. You can compile an effect from your application using API calls or you can compile an effect offline using the effect compiler utility [fxc.exe](/windows/desktop/direct3dtools/fxc). Once your effect has successfully compiled, create it by calling a different (but very similar) set of APIs.
 
 After the effect is created, there are two remaining steps for using it. First, you must initialize the effect state values (the values of the effect variables) using a number of methods for setting state if they are not initialized in HLSL. For some variables this can be done once when an effect is created; others must be updated each time your application calls the render loop. Once the effect variables are set, you tell the runtime to render the effect by applying a technique. These topics are all discussed in further detail below.
 
@@ -39,10 +39,4 @@ Naturally there are performance considerations for using effects. These consider
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

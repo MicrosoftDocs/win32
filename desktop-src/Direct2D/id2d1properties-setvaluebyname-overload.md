@@ -24,8 +24,8 @@ Sets the named property to the given value.
 
 | Method                                                                                                                                                           | Description                                                                         |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------|
-| [**SetValueByName (PCWSTR, const template&lt;T&gt;)**](https://msdn.microsoft.com/library/Hh997718(v=VS.85).aspx)                                                     | Sets the named property to the given value. This is a template overload.<br/> |
-| [**SetValueByName (PCWSTR , const BYTE \*, UINT32)**](https://msdn.microsoft.com/library/Hh446887(v=VS.85).aspx)                                                                        | Sets the named property to the given value. <br/>                             |
+| [**SetValueByName (PCWSTR, const template&lt;T&gt;)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-setvaluebyname(pcwstr_constt_))                                                     | Sets the named property to the given value. This is a template overload.<br/> |
+| [**SetValueByName (PCWSTR , const BYTE \*, UINT32)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-setvaluebyname(pcwstr_constbyte_uint32))                                                                        | Sets the named property to the given value. <br/>                             |
 | [**SetValueByName (PCWSTR, D2D1\_PROPERTY\_TYPE, CONST BYTE, dataSize)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-setvaluebyname(pcwstr_d2d1_property_type_constbyte_uint32)) | Sets the named property to the given value. <br/>                             |
 
 
@@ -44,14 +44,9 @@ Sets the named property to the given value.
 
 <dl> <dt>
 
-[**ID2D1Properties**](https://msdn.microsoft.com/library/Hh446854(v=VS.85).aspx)
+[**ID2D1Properties**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1properties)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

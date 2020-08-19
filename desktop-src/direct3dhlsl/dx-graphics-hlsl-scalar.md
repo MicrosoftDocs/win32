@@ -99,6 +99,5 @@ void function2()
 
 
 
-* [Declaring Scalar Types](https://docs.microsoft.com/windows/win32/direct3dhlsl/dx-graphics-hlsl-writing-shaders-9#declaring-shader-variables)
+* [Declaring Scalar Types](./dx-graphics-hlsl-writing-shaders-9.md#declaring-shader-variables)
 * [Data Types (DirectX HLSL)](dx-graphics-hlsl-data-types.md)
-

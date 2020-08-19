@@ -16,7 +16,7 @@ The Diffuse and Ambient members of the [**D3DMATERIAL9**](d3dmaterial9.md) struc
 
 ![illustration of the amount of reflected light](images/incident.png)
 
-Ambient reflection, like ambient light, is nondirectional. Ambient reflection has a lesser impact on the apparent color of a rendered object, but it does affect the overall color and is most noticeable when little or no diffuse light reflects off the material. A material's ambient reflection is affected by the ambient light set for a scene by calling the [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx) method with the D3DRS\_AMBIENT flag.
+Ambient reflection, like ambient light, is nondirectional. Ambient reflection has a lesser impact on the apparent color of a rendered object, but it does affect the overall color and is most noticeable when little or no diffuse light reflects off the material. A material's ambient reflection is affected by the ambient light set for a scene by calling the [**IDirect3DDevice9::SetRenderState**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrenderstate) method with the D3DRS\_AMBIENT flag.
 
 Diffuse and ambient reflection work together to determine the perceived color of an object, and are usually identical values. For example, to render a blue crystalline object, you create a material that reflects only the blue component of diffuse and ambient light. When placed in a room with a white light, the crystal appears to be blue. However, in a room that has only red light, the same crystal would appear to be black, because its material doesn't reflect red light.
 
@@ -38,7 +38,7 @@ Specular highlights can create dramatic effects. Drawing again on the blue cryst
 
 Direct3D rendering devices can render with one set of material properties at a time.
 
-In a C++ application, you set the material properties that the system uses by preparing a [**D3DMATERIAL9**](d3dmaterial9.md) structure, and then calling the [**IDirect3DDevice9::SetMaterial**](https://msdn.microsoft.com/library/Bb174437(v=VS.85).aspx) method.
+In a C++ application, you set the material properties that the system uses by preparing a [**D3DMATERIAL9**](d3dmaterial9.md) structure, and then calling the [**IDirect3DDevice9::SetMaterial**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setmaterial) method.
 
 To prepare the [**D3DMATERIAL9**](d3dmaterial9.md) structure for use, set the property information in the structure to create the desired effect during rendering. The following code example sets up the **D3DMATERIAL9** structure for a purple material with sharp white specular highlights.
 
@@ -74,7 +74,7 @@ mat.Emissive.a = 0.0f;
 
 
 
-After preparing the [**D3DMATERIAL9**](d3dmaterial9.md) structure, you apply the properties by calling the [**IDirect3DDevice9::SetMaterial**](https://msdn.microsoft.com/library/Bb174437(v=VS.85).aspx) method of the rendering device. This method accepts the address of a prepared **D3DMATERIAL9** structure as its only parameter. You can call **IDirect3DDevice9::SetMaterial** with new information as needed to update the material properties for the device. The following code example shows how this might look in code.
+After preparing the [**D3DMATERIAL9**](d3dmaterial9.md) structure, you apply the properties by calling the [**IDirect3DDevice9::SetMaterial**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setmaterial) method of the rendering device. This method accepts the address of a prepared **D3DMATERIAL9** structure as its only parameter. You can call **IDirect3DDevice9::SetMaterial** with new information as needed to update the material properties for the device. The following code example shows how this might look in code.
 
 
 ```
@@ -109,7 +109,7 @@ When you create a Direct3D device, the current material is automatically set to 
 
 ## Retrieving Material Properties
 
-You retrieve the material properties that the rendering device is currently using by calling the [**IDirect3DDevice9::GetMaterial**](/windows/desktop/api) method for the device. Unlike the [**IDirect3DDevice9::SetMaterial**](https://msdn.microsoft.com/library/Bb174437(v=VS.85).aspx) method, **IDirect3DDevice9::GetMaterial** doesn't require preparation. The **IDirect3DDevice9::GetMaterial** method accepts the address of a [**D3DMATERIAL9**](d3dmaterial9.md) structure, and fills the provided structure with information describing the current material properties before returning.
+You retrieve the material properties that the rendering device is currently using by calling the [**IDirect3DDevice9::GetMaterial**](/windows/desktop/api) method for the device. Unlike the [**IDirect3DDevice9::SetMaterial**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setmaterial) method, **IDirect3DDevice9::GetMaterial** doesn't require preparation. The **IDirect3DDevice9::GetMaterial** method accepts the address of a [**D3DMATERIAL9**](d3dmaterial9.md) structure, and fills the provided structure with information describing the current material properties before returning.
 
 
 ```
@@ -142,6 +142,3 @@ if(FAILED(hr))
  
 
  
-
-
-

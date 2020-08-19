@@ -48,14 +48,8 @@ The CLSID for this effect is CLSID\_D2D1OpacityMetadata.
 
 <dl> <dt>
 
-[**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx)
+[**ID2D1Effect**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1effect)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

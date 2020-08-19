@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMUBYTEN4 Operators
 
-The [**XMUBYTEN4**](https://msdn.microsoft.com/library/Ee420492(v=VS.85).aspx) structure exposes the following operators.
+The [**XMUBYTEN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyten4) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -21,7 +21,7 @@ The [**XMUBYTEN4**](https://msdn.microsoft.com/library/Ee420492(v=VS.85).aspx) s
 
 | Methods                                                | Description                                                                                                            |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://msdn.microsoft.com/library/Ee420506(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMUBYTEN4` to the current instance of `XMUBYTEN4`. <br/> |
+| [**operator =**](/previous-versions/windows/desktop/legacy/ee420506(v=vs.85))<br/> | Assigns the vector component data from one instance of `XMUBYTEN4` to the current instance of `XMUBYTEN4`. <br/> |
 
 
 
@@ -37,13 +37,9 @@ The [**XMUBYTEN4**](https://msdn.microsoft.com/library/Ee420492(v=VS.85).aspx) s
 **Reference**
 </dt> <dt>
 
-[**XMUBYTEN4**](https://msdn.microsoft.com/library/Ee420492(v=VS.85).aspx)
+[**XMUBYTEN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyten4)
 </dt> </dl>
 
  
 
  
-
-
-
-

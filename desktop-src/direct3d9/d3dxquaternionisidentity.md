@@ -46,7 +46,7 @@ Pointer to the [**D3DXQUATERNION**](d3dxquaternion.md) structure that will be te
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 If the quaternion is an identity quaternion, this function returns **TRUE**. Otherwise, this function returns **FALSE**.
 
@@ -78,7 +78,3 @@ Use [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) for any quaternion
  
 
  
-
-
-
-

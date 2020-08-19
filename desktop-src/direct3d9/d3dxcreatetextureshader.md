@@ -39,7 +39,7 @@ HRESULT D3DXCreateTextureShader(
 *pFunction* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to the function DWORD stream.
 
@@ -81,7 +81,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

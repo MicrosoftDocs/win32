@@ -48,7 +48,7 @@ A handle to the newly opened directory object.
 *DesiredAccess* \[in\]
 </dt> <dd>
 
-An [**ACCESS\_MASK**](https://msdn.microsoft.com/library/Aa374892(v=VS.85).aspx) that specifies the requested access to the directory object. This parameter can be one or more of the following values.
+An [**ACCESS\_MASK**](../secauthz/access-mask.md) that specifies the requested access to the directory object. This parameter can be one or more of the following values.
 
 
 
@@ -94,7 +94,7 @@ The function returns STATUS\_SUCCESS or an error status. The possible status cod
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
@@ -116,7 +116,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

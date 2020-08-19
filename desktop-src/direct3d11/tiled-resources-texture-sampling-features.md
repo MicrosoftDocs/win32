@@ -16,11 +16,11 @@ The texture sampling features described here require [Tier 2](tier-2.md) level o
 
 ## Shader feedback about mapped areas
 
-Any shader instruction that reads and/or writes to a tiled resource causes status information to be recorded. This status is exposed as an optional extra return value on every resource access instruction that goes into a 32-bit temp register. The contents of the return value are opaque. That is, direct reading by the shader program is disallowed. But, you can use the [**CheckAccessFullyMapped**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/checkaccessfullymapped) function to extract the status info.
+Any shader instruction that reads and/or writes to a tiled resource causes status information to be recorded. This status is exposed as an optional extra return value on every resource access instruction that goes into a 32-bit temp register. The contents of the return value are opaque. That is, direct reading by the shader program is disallowed. But, you can use the [**CheckAccessFullyMapped**](/windows/desktop/direct3dhlsl/checkaccessfullymapped) function to extract the status info.
 
 ## Fully mapped check
 
-The [**CheckAccessFullyMapped**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/checkaccessfullymapped) function interprets the status returned from a memory access and indicates whether all data being accessed was mapped in the resource. **CheckAccessFullyMapped** returns true (0xFFFFFFFF) if data was mapped or false (0x00000000) if data was unmapped.
+The [**CheckAccessFullyMapped**](/windows/desktop/direct3dhlsl/checkaccessfullymapped) function interprets the status returned from a memory access and indicates whether all data being accessed was mapped in the resource. **CheckAccessFullyMapped** returns true (0xFFFFFFFF) if data was mapped or false (0x00000000) if data was unmapped.
 
 During filter operations, sometimes the weight of a given texel ends up being 0.0. An example is a linear sample with texture coordinates that fall directly on a texel center: 3 other texels (which ones they are can vary by hardware) contribute to the filter but with 0 weight. These 0 weight texels don't contribute to the filter result at all, so if they happen to fall on **NULL** tiles, they don't count as an unmapped access. Note the same guarantee applies for texture filters that include multiple mip levels; if the texels on one of the mipmaps isn't mapped but the weight on those texels is 0, those texels don't count as an unmapped access.
 
@@ -28,7 +28,7 @@ When sampling from a format that has fewer than 4 components (such as DXGI\_FORM
 
 The shader can check the status and pursue any desired course of action on failure. For example, a course of action can be logging 'misses' (say via UAV write) and/or issuing another read clamped to a coarser LOD known to be mapped. An application might want to track successful accesses as well in order to get a sense of what portion of the mapped set of tiles got accessed.
 
-One complication for logging is no mechanism exists for reporting the exact set of tiles that would have been accessed. The application can make conservative guesses based on knowing the coordinates it used for access, as well as using the LOD instruction (for example, [**tex2Dlod**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-tex2dlod)) which returns what the hardware LOD calculation is.
+One complication for logging is no mechanism exists for reporting the exact set of tiles that would have been accessed. The application can make conservative guesses based on knowing the coordinates it used for access, as well as using the LOD instruction (for example, [**tex2Dlod**](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-tex2dlod)) which returns what the hardware LOD calculation is.
 
 Another complication is that lots of accesses will be to the same tiles, so a lot of redundant logging will occur and possibly contention on memory. It could be convenient if the hardware could be given the option to not bother to report tile accesses if they were reported elsewhere before. Perhaps the state of such tracking could be reset from the API (likely at frame boundaries).
 
@@ -36,11 +36,11 @@ Another complication is that lots of accesses will be to the same tiles, so a lo
 
 To help shaders avoid areas in mipmapped tiled resources that are known to be non-mapped, most shader instructions that involve using a sampler (filtering) have a new mode that allows the shader to pass an additional float32 MinLOD clamp parameter to the texture sample. This value is in the view's mipmap number space, as opposed to the underlying resource.
 
-The hardware performs [**max**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-max)(fShaderMinLODClamp,fComputedLOD) in the same place in the LOD calculation where the per-resource MinLOD clamp occurs, which is also a **max**().
+The hardware performs [**max**](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-max)(fShaderMinLODClamp,fComputedLOD) in the same place in the LOD calculation where the per-resource MinLOD clamp occurs, which is also a **max**().
 
 If the result of applying the per-sample LOD clamp and any other LOD clamps defined in the sampler is an empty set, the result is the same out of bounds access result as the per-resource minLOD clamp: 0 for components in the surface format and defaults for missing components.
 
-The LOD instruction (for example, [**tex2Dlod**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-tex2dlod)), which predates the per-sample minLOD clamp described here, returns both a clamped and unclamped LOD. The clamped LOD returned from this LOD instruction reflects all clamping including the per-resource clamp, but not a per-sample clamp. Per-sample clamp is controlled and known by the shader anyway, so the shader author can manually apply that clamp to the LOD instruction's return value if desired.
+The LOD instruction (for example, [**tex2Dlod**](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-tex2dlod)), which predates the per-sample minLOD clamp described here, returns both a clamped and unclamped LOD. The clamped LOD returned from this LOD instruction reflects all clamping including the per-resource clamp, but not a per-sample clamp. Per-sample clamp is controlled and known by the shader anyway, so the shader author can manually apply that clamp to the LOD instruction's return value if desired.
 
 ## Min/Max reduction filtering
 
@@ -68,7 +68,3 @@ Support for this feature depends on [Tier 2](tier-2.md) support for tiled resour
  
 
  
-
-
-
-

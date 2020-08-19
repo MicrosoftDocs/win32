@@ -61,7 +61,7 @@ The **MDM\_ClientCertificateInstall\_PFXCertInstall01\_01** class has these prop
 
 <dl> <dt>
 
-[ContainerName](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-containername)
+[ContainerName](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-containername)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -81,14 +81,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, a unique ID to differentiate different certificate install requests.
 
 </dd> <dt>
 
-[KeyLocation](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-keylocation)
+[KeyLocation](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-keylocation)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -108,7 +108,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node.
@@ -117,7 +117,7 @@ The string is "./Vendor/MSFT/ClientCertificateInstall/PFXCertInstall"
 
 </dd> <dt>
 
-[PFXCertBlob](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-pfxcertblob)
+[PFXCertBlob](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-pfxcertblob)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -131,7 +131,7 @@ Qualifiers: **Octetstring**
 
 </dd> <dt>
 
-[PFXCertPassword](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-pfxcertpassword)
+[PFXCertPassword](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-pfxcertpassword)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -142,7 +142,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PFXCertPasswordEncryptionStore](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-pfxcertpasswordencryptionstore)
+[PFXCertPasswordEncryptionStore](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-pfxcertpasswordencryptionstore)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -153,7 +153,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PFXCertPasswordEncryptionType](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-pfxcertpasswordencryptiontype)
+[PFXCertPasswordEncryptionType](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-pfxcertpasswordencryptiontype)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -164,7 +164,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PFXKeyExportable](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-pfxkeyexportable)
+[PFXKeyExportable](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-pfxkeyexportable)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -175,7 +175,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Status](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-status)
+[Status](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-status)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -186,7 +186,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Thumbprint](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-thumbprint)
+[Thumbprint](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-thumbprint)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -215,14 +215,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

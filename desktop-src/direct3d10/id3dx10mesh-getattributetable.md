@@ -48,7 +48,7 @@ Pointer to an array of D3DX10\_ATTRIBUTE\_RANGE structures, representing the ent
 *pAttribTableSize* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to either the number of entries stored in pAttribTable or a value to be filled in with the number of entries stored in the attribute table for the mesh.
 
@@ -88,7 +88,3 @@ An attribute table is used to identify areas of the mesh that need to be drawn w
  
 
  
-
-
-
-

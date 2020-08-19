@@ -35,7 +35,7 @@ To create the timeline object, call **CoCreateInstance** with the class identifi
 
 ## Members
 
-The **IAMTimeline** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMTimeline** also has these types of members:
+The **IAMTimeline** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IAMTimeline** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -107,7 +107,3 @@ The **IAMTimeline** interface has these methods.
  
 
  
-
-
-
-

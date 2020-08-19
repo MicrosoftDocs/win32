@@ -76,7 +76,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowSimpleDevicePassword](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-allowsimpledevicepassword)
+[AllowSimpleDevicePassword](/windows/client-management/mdm/policy-csp-devicelock#devicelock-allowsimpledevicepassword)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -87,7 +87,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AlphanumericDevicePasswordRequired](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-alphanumericdevicepasswordrequired)
+[AlphanumericDevicePasswordRequired](/windows/client-management/mdm/policy-csp-devicelock#devicelock-alphanumericdevicepasswordrequired)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -98,7 +98,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DevicePasswordEnabled](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-devicepasswordenabled)
+[DevicePasswordEnabled](/windows/client-management/mdm/policy-csp-devicelock#devicelock-devicepasswordenabled)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -109,7 +109,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DevicePasswordExpiration](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-devicepasswordexpiration)
+[DevicePasswordExpiration](/windows/client-management/mdm/policy-csp-devicelock#devicelock-devicepasswordexpiration)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -120,7 +120,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DevicePasswordHistory](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-devicepasswordhistory)
+[DevicePasswordHistory](/windows/client-management/mdm/policy-csp-devicelock#devicelock-devicepasswordhistory)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -131,7 +131,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnforceLockScreenAndLogonImage](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-enforcelockscreenandlogonimage)
+[EnforceLockScreenAndLogonImage](/windows/client-management/mdm/policy-csp-devicelock#devicelock-enforcelockscreenandlogonimage)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -162,14 +162,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "DeviceLock".
 
 </dd> <dt>
 
-[MaxDevicePasswordFailedAttempts](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-maxdevicepasswordfailedattempts)
+[MaxDevicePasswordFailedAttempts](/windows/client-management/mdm/policy-csp-devicelock#devicelock-maxdevicepasswordfailedattempts)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -180,7 +180,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[MaxInactivityTimeDeviceLock](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-maxinactivitytimedevicelock)
+[MaxInactivityTimeDeviceLock](/windows/client-management/mdm/policy-csp-devicelock#devicelock-maxinactivitytimedevicelock)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -191,7 +191,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[MinDevicePasswordComplexCharacters](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-mindevicepasswordcomplexcharacters)
+[MinDevicePasswordComplexCharacters](/windows/client-management/mdm/policy-csp-devicelock#devicelock-mindevicepasswordcomplexcharacters)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -202,7 +202,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[MinDevicePasswordLength](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-mindevicepasswordlength)
+[MinDevicePasswordLength](/windows/client-management/mdm/policy-csp-devicelock#devicelock-mindevicepasswordlength)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -213,7 +213,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[MinimumPasswordAge](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-minimumpasswordage)
+[MinimumPasswordAge](/windows/client-management/mdm/policy-csp-devicelock#devicelock-minimumpasswordage)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -233,14 +233,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Result"
 
 </dd> <dt>
 
-[PreventLockScreenSlideShow](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-preventlockscreenslideshow)
+[PreventLockScreenSlideShow](/windows/client-management/mdm/policy-csp-devicelock#devicelock-preventlockscreenslideshow)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -280,14 +280,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

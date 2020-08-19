@@ -26,7 +26,7 @@ Interface for remote communicating data about a vsglog.
 
 ## Members
 
-The **IPeerToPeerEngine** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPeerToPeerEngine** also has these types of members:
+The **IPeerToPeerEngine** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPeerToPeerEngine** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IPeerToPeerEngine** interface has these methods.
  
 
  
-
-
-

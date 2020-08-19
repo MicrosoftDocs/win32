@@ -24,8 +24,8 @@ Changes or animates the value of the OffsetX property of this visual, altering t
 
 | Method                                                                                                | Description                                           |
 |:------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
-| [**SetOffsetX(float)**](https://msdn.microsoft.com/library/Hh449161(v=VS.85).aspx)                                     | Changes the value of the OffsetX property.<br/> |
-| [**SetOffsetX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449163(v=VS.85).aspx) | Animates the value of the OffsetX property<br/> |
+| [**SetOffsetX(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setoffsetx(float))                                     | Changes the value of the OffsetX property.<br/> |
+| [**SetOffsetX(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setoffsetx(idcompositionanimation)) | Animates the value of the OffsetX property<br/> |
 
 
 
@@ -47,17 +47,12 @@ Changes or animates the value of the OffsetX property of this visual, altering t
 
 <dl> <dt>
 
-[**IDCompositionVisual**](https://msdn.microsoft.com/library/Hh449139(v=VS.85).aspx)
+[**IDCompositionVisual**](/windows/win32/api/dcomp/nn-dcomp-idcompositionvisual)
 </dt> <dt>
 
-[**IDCompositionVisual::SetOffsetY**](https://msdn.microsoft.com/library/Hh449171(v=VS.85).aspx)
+[**IDCompositionVisual::SetOffsetY**](/previous-versions/windows/desktop/legacy/hh449171(v=vs.85))
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

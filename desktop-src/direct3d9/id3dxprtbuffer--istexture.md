@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Returns **TRUE** if the buffer contains a texture; returns **FALSE** otherwise.
 
@@ -60,7 +60,3 @@ Returns **TRUE** if the buffer contains a texture; returns **FALSE** otherwise.
  
 
  
-
-
-
-

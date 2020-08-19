@@ -15,7 +15,7 @@ api_location:
 
 Constant integer registers are used only by [loop - vs](loop---vs.md) and [rep - vs](rep---vs.md).
 
-They can be set using [defi - vs](defi---vs.md) or [**SetVertexShaderConstantI**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstanti).
+They can be set using [defi - vs](defi---vs.md) or [**SetVertexShaderConstantI**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstanti).
 
 When used as an argument to the [loop - vs](loop---vs.md) instruction:
 
@@ -38,7 +38,3 @@ The behavior of shader constants has changed between Direct3D 8 and Direct3D 9.
  
 
  
-
-
-
-

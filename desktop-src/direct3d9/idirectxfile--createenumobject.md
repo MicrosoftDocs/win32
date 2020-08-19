@@ -40,7 +40,7 @@ HRESULT CreateEnumObject(
 *pvSource* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 Pointer to data whose contents depend on the value of dwLoadOptions
 
@@ -95,7 +95,3 @@ After using this method, use one of the IDirectXFileEnumObject methods to retrie
  
 
  
-
-
-
-

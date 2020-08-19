@@ -26,7 +26,7 @@ Requests for information on whether an offline request is cached or not.
 
 ## Members
 
-The **IOfflineAnalysisCacheRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IOfflineAnalysisCacheRequest** also has these types of members:
+The **IOfflineAnalysisCacheRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IOfflineAnalysisCacheRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IOfflineAnalysisCacheRequest** interface has these methods.
  
 
  
-
-
-

@@ -50,8 +50,8 @@ The floating-point, scalar value that represents the determinant of the *m* para
 
 | Name  | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md) | Size                                     |
 |-------|-------------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------------------|
-| *m*   | [**matrix**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | any (number of rows = number of columns) |
-| *ret* | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | 1                                        |
+| *m*   | [**matrix**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types)                        | any (number of rows = number of columns) |
+| *ret* | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types)                        | 1                                        |
 
 
 
@@ -80,10 +80,4 @@ This function is supported in the following shader models.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -34,11 +34,11 @@ The basic properties of feature levels are:
 -   A feature level is chosen when you call [**D3D12CreateDevice**](/windows/desktop/api/d3d12/nf-d3d12-d3d12createdevice).
 -   For more detailed information on supported features (especially those marked *Optional* in the table below, which means that the hardware might support the feature but is not required to) call [**CheckFeatureSupport**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport).
 
-For information about limitations creating non-hardware type devices on certain feature levels, see [Limitations Creating WARP and Reference Devices](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-limitations). For more information on the introduction of feature levels, refer to the Direct3D 11 documentation on [Direct3D feature levels](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro).
+For information about limitations creating non-hardware type devices on certain feature levels, see [Limitations Creating WARP and Reference Devices](/windows/desktop/direct3d11/overviews-direct3d-11-devices-limitations). For more information on the introduction of feature levels, refer to the Direct3D 11 documentation on [Direct3D feature levels](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro).
 
 ## Numbering Systems
 
-Hardware feature levels are *not* the same as API versions. For example, there is a D3D11.3 API, but there is no 11\_3 hardware feature level. Feature levels are defined in the [**D3D\_FEATURE\_LEVEL**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level) enum.
+Hardware feature levels are *not* the same as API versions. For example, there is a D3D11.3 API, but there is no 11\_3 hardware feature level. Feature levels are defined in the [**D3D\_FEATURE\_LEVEL**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level) enum.
 
 There are three distinct numbering systems:
 
@@ -65,18 +65,18 @@ The headings across the top row are Direct3D feature levels. The headings in the
 | Map Default Buffer                                                                                                       | Optional                  | Optional                  | Optional                 | Optional                 |
 | [Shader Specified Stencil Reference Value](shader-specified-stencil-reference-value.md)                                 | Optional                  | Optional                  | Optional                 | No                       |
 | [Typed Unordered Access View Loads](typed-unordered-access-view-loads.md)                                               | 18 formats, more optional | 18 formats, more optional | 3 formats, more optional | 3 formats, more optional |
-| [Geometry Shader](https://docs.microsoft.com/previous-versions//bb205146(v=vs.85)) | Yes                       | Yes                       | Yes                      | Yes                      |
-| [Stream Out](https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-stream-stage)                                            | Yes                       | Yes                       | Yes                      | Yes                      |
-| [DirectCompute / Compute Shader](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-compute-shader)                                  | Yes                       | Yes                       | Yes                      | Yes                      |
-| [Hull and Domain Shaders](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-tessellation)                                           | Yes                       | Yes                       | Yes                      | Yes                      |
-| [Texture Resource Arrays](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-intro)                                     | Yes                       | Yes                       | Yes                      | Yes                      |
-| [Cubemap Resource Arrays](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-intro)                                     | Yes                       | Yes                       | Yes                      | Yes                      |
-| [BC1 to BC7 Compression](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression)                        | Yes                       | Yes                       | Yes                      | Yes                      |
-| [Alpha-to-coverage](https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state)         | Yes                       | Yes                       | Yes                      | Yes                      |
-| [Logic Operations (Output Merger)](https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options)                                          | Yes                       | Yes                       | Yes                      | Optional                 |
+| [Geometry Shader](/previous-versions//bb205146(v=vs.85)) | Yes                       | Yes                       | Yes                      | Yes                      |
+| [Stream Out](/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-stream-stage)                                            | Yes                       | Yes                       | Yes                      | Yes                      |
+| [DirectCompute / Compute Shader](/windows/desktop/direct3d11/direct3d-11-advanced-stages-compute-shader)                                  | Yes                       | Yes                       | Yes                      | Yes                      |
+| [Hull and Domain Shaders](/windows/desktop/direct3d11/direct3d-11-advanced-stages-tessellation)                                           | Yes                       | Yes                       | Yes                      | Yes                      |
+| [Texture Resource Arrays](/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-intro)                                     | Yes                       | Yes                       | Yes                      | Yes                      |
+| [Cubemap Resource Arrays](/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-intro)                                     | Yes                       | Yes                       | Yes                      | Yes                      |
+| [BC1 to BC7 Compression](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression)                        | Yes                       | Yes                       | Yes                      | Yes                      |
+| [Alpha-to-coverage](/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state)         | Yes                       | Yes                       | Yes                      | Yes                      |
+| [Logic Operations (Output Merger)](/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options)                                          | Yes                       | Yes                       | Yes                      | Optional                 |
 | Target-independent rasterization                                                                                         | Yes                       | Yes                       | Yes                      | No                       |
-| [Multiple render target(MRT) with ForcedSampleCount 1](https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options)                      | Yes                       | Yes                       | Yes                      | Optional                 |
-| [Max forced sample count for UAV-only rendering](https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options)                            | 16                        | 16                        | 16                       | 8                        |
+| [Multiple render target(MRT) with ForcedSampleCount 1](/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options)                      | Yes                       | Yes                       | Yes                      | Optional                 |
+| [Max forced sample count for UAV-only rendering](/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options)                            | 16                        | 16                        | 16                       | 8                        |
 | Max Texture Dimension                                                                                                    | 16384                     | 16384                     | 16384                    | 16384                    |
 | Max Cubemap Dimension                                                                                                    | 16384                     | 16384                     | 16384                    | 16384                    |
 | Max Volume Extent                                                                                                        | 2048                      | 2048                      | 2048                     | 2048                     |
@@ -109,13 +109,13 @@ The headings across the top row are Direct3D feature levels. The headings in the
 
 To view tables of DXGI formats and hardware features, refer to:
 
--   [DXGI Format Support for Direct3D Feature Level 12.1 Hardware](https://docs.microsoft.com/windows/desktop/direct3ddxgi/hardware-support-for-direct3d-12-1-formats)
--   [DXGI Format Support for Direct3D Feature Level 12.0 Hardware](https://docs.microsoft.com/windows/desktop/direct3ddxgi/hardware-support-for-direct3d-12-0-formats)
--   [DXGI Format Support for Direct3D Feature Level 11.1 Hardware](https://docs.microsoft.com/windows/desktop/direct3ddxgi/format-support-for-direct3d-11-1-feature-level-hardware)
--   [DXGI Format Support for Direct3D Feature Level 11.0 Hardware](https://docs.microsoft.com/windows/desktop/direct3ddxgi/format-support-for-direct3d-11-0-feature-level-hardware)
--   [Hardware Support for Direct3D 10Level9 Formats](https://docs.microsoft.com/previous-versions//ff471324(v=vs.85))
--   [Hardware Support for Direct3D 10.1 Formats](https://docs.microsoft.com/previous-versions//cc627091(v=vs.85))
--   [Hardware Support for Direct3D 10 Formats](https://docs.microsoft.com/previous-versions//cc627090(v=vs.85))
+-   [DXGI Format Support for Direct3D Feature Level 12.1 Hardware](/windows/desktop/direct3ddxgi/hardware-support-for-direct3d-12-1-formats)
+-   [DXGI Format Support for Direct3D Feature Level 12.0 Hardware](/windows/desktop/direct3ddxgi/hardware-support-for-direct3d-12-0-formats)
+-   [DXGI Format Support for Direct3D Feature Level 11.1 Hardware](/windows/desktop/direct3ddxgi/format-support-for-direct3d-11-1-feature-level-hardware)
+-   [DXGI Format Support for Direct3D Feature Level 11.0 Hardware](/windows/desktop/direct3ddxgi/format-support-for-direct3d-11-0-feature-level-hardware)
+-   [Hardware Support for Direct3D 10Level9 Formats](/previous-versions//ff471324(v=vs.85))
+-   [Hardware Support for Direct3D 10.1 Formats](/previous-versions//cc627091(v=vs.85))
+-   [Hardware Support for Direct3D 10 Formats](/previous-versions//cc627090(v=vs.85))
 
 ## Related topics
 
@@ -130,7 +130,3 @@ To view tables of DXGI formats and hardware features, refer to:
  
 
  
-
-
-
-

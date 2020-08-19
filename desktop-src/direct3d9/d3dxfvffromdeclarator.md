@@ -48,7 +48,7 @@ Array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements, describing the 
 *pFVF* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to a DWORD value, representing the returned combination of [D3DFVF](d3dfvf.md) that describes the vertex format returned from the declarator.
 
@@ -88,7 +88,3 @@ This function will fail for any declarator that does not map directly to an FVF.
  
 
  
-
-
-
-

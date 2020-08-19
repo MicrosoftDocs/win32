@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Returns the minimum bone influence value.
 
@@ -63,7 +63,3 @@ Returns the minimum bone influence value.
  
 
  
-
-
-
-

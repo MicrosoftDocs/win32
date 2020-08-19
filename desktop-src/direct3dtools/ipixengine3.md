@@ -26,7 +26,7 @@ Extensions to the IPixEngine2 interface.
 
 ## Members
 
-The **IPixEngine3** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixEngine3** also has these types of members:
+The **IPixEngine3** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixEngine3** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IPixEngine3** interface has these methods.
  
 
  
-
-
-

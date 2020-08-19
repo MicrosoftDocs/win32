@@ -40,7 +40,7 @@ HRESULT D3DXGetImageInfoFromFileInMemory(
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 VOID pointer to the source file in memory.
 
@@ -49,7 +49,7 @@ VOID pointer to the source file in memory.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Size of file in memory, in bytes. .
 
@@ -97,7 +97,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

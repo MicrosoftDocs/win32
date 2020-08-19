@@ -10,7 +10,7 @@ ms.topic: reference
 
 Constructors exposed by `XMUINT3`.
 
-Constructs instances of the [**XMUINT3**](https://msdn.microsoft.com/library/Hh404750(v=VS.85).aspx) structure.
+Constructs instances of the [**XMUINT3**](/windows/win32/api/directxmath/ns-directxmath-xmuint3) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -34,8 +34,8 @@ Constructs instances of the [**XMUINT3**](https://msdn.microsoft.com/library/Hh4
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMUINT3 ()</strong>](https://msdn.microsoft.com/library/Hh404751(v=VS.85).aspx)</td>
-<td style="text-align: left;">Default constructor for <code>XMUINT3</code>.<br/> Default constructor for [<strong>XMUINT3</strong>](https://msdn.microsoft.com/library/Hh404750(v=VS.85).aspx).<br/>
+<td style="text-align: left;">[<strong>XMUINT3 ()</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint3-xmuint3(constuint32_t))</td>
+<td style="text-align: left;">Default constructor for <code>XMUINT3</code>.<br/> Default constructor for [<strong>XMUINT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint3).<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -43,8 +43,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">[<strong>XMUINT3 (const uint32_t*)</strong>](https://msdn.microsoft.com/library/Hh404753(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUINT3</code> from a three element <code>uint32_t</code> array argument.<br/> This constructor initializes a new instance of [<strong>XMUINT3</strong>](https://msdn.microsoft.com/library/Hh404750(v=VS.85).aspx) from a three-element <code>uint32_t</code> array argument.<br/>
+<td style="text-align: left;">[<strong>XMUINT3 (const uint32_t*)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint3-xmuint3(constuint32_t))</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUINT3</code> from a three element <code>uint32_t</code> array argument.<br/> This constructor initializes a new instance of [<strong>XMUINT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint3) from a three-element <code>uint32_t</code> array argument.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -52,8 +52,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">[<strong>XMUINT3 (uint32_t,uint32_t,uint32_t)</strong>](https://msdn.microsoft.com/library/Hh404752(v=VS.85).aspx)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUINT3</code> from three <code>uint32_t</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMUINT3</strong>](https://msdn.microsoft.com/library/Hh404750(v=VS.85).aspx) from three <code>uint32_t</code> arguments.<br/>
+<td style="text-align: left;">[<strong>XMUINT3 (uint32_t,uint32_t,uint32_t)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint3-xmuint3(uint32_t_uint32_t_uint32_t))</td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUINT3</code> from three <code>uint32_t</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMUINT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint3) from three <code>uint32_t</code> arguments.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -85,13 +85,9 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMUINT3**](https://msdn.microsoft.com/library/Hh404750(v=VS.85).aspx)
+[**XMUINT3**](/windows/win32/api/directxmath/ns-directxmath-xmuint3)
 </dt> </dl>
 
  
 
  
-
-
-
-

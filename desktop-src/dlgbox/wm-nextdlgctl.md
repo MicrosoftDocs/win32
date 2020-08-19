@@ -51,9 +51,9 @@ An application should return zero if it processes this message.
 
 ## Remarks
 
-This message performs additional dialog box management operations beyond those performed by the [**SetFocus**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setfocus) function **WM\_NEXTDLGCTL** updates the default pushbutton border, sets the default control identifier, and automatically selects the text of an edit control (if the target window is an edit control).
+This message performs additional dialog box management operations beyond those performed by the [**SetFocus**](/windows/desktop/api/winuser/nf-winuser-setfocus) function **WM\_NEXTDLGCTL** updates the default pushbutton border, sets the default control identifier, and automatically selects the text of an edit control (if the target window is an edit control).
 
-Do not use the [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) function to send a **WM\_NEXTDLGCTL** message if your application will concurrently process other messages that set the focus. Use the [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea) function instead.
+Do not use the [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) function to send a **WM\_NEXTDLGCTL** message if your application will concurrently process other messages that set the focus. Use the [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) function instead.
 
 ## Requirements
 
@@ -74,13 +74,13 @@ Do not use the [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/
 **Reference**
 </dt> <dt>
 
-[**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea)
+[**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea)
 </dt> <dt>
 
-[**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage)
+[**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage)
 </dt> <dt>
 
-[**SetFocus**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setfocus)
+[**SetFocus**](/windows/desktop/api/winuser/nf-winuser-setfocus)
 </dt> <dt>
 
 **Conceptual**
@@ -90,10 +90,4 @@ Do not use the [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

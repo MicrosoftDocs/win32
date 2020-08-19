@@ -26,7 +26,7 @@ Your app has increased speed and efficiency with Direct3D 12, but you are respo
 ## Explicit Synchronization
 
 -   In Direct3D 12, CPU-GPU synchronization is now the explicit responsibility of the app and is no longer implicitly performed by the runtime, as it is in Direct3D 11. This fact also means that no automatic checking for pipeline hazards is performed by Direct3D 12, so again this is the apps responsibility.
--   In Direct3D 12, apps are responsible for pipelining data updates. That is, the "Map/Lock-DISCARD" pattern in Direct3D 11 must be performed manually in Direct3D 12. In Direct3D 11, if the GPU is still using the buffer when you call [**ID3D11DeviceContext::Map**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map) with [**D3D11\_MAP\_WRITE\_DISCARD**](https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_map), the runtime returns a pointer to a new region of memory instead of the old buffer data. This allows the GPU to continue using the old data while the app places data in the new buffer. No additional memory management is required in the app; the old buffer is reused or destroyed automatically when the GPU is finished with it.
+-   In Direct3D 12, apps are responsible for pipelining data updates. That is, the "Map/Lock-DISCARD" pattern in Direct3D 11 must be performed manually in Direct3D 12. In Direct3D 11, if the GPU is still using the buffer when you call [**ID3D11DeviceContext::Map**](/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map) with [**D3D11\_MAP\_WRITE\_DISCARD**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_map), the runtime returns a pointer to a new region of memory instead of the old buffer data. This allows the GPU to continue using the old data while the app places data in the new buffer. No additional memory management is required in the app; the old buffer is reused or destroyed automatically when the GPU is finished with it.
 -   In Direct3D 12, all dynamic updates (including constant buffers, dynamic vertex buffers, dynamic textures, and so on) are explicitly controlled by the app. These dynamic updates include any required GPU fences or buffering. The app is responsible for keeping the memory available until it is no longer needed.
 -   Direct3D 12 uses COM-style reference counting only for the lifetimes of interfaces (by using the weak reference model of Direct3D tied to the lifetime of the device). All resource and description memory lifetimes are the sole responsibly of the app to maintain for the proper duration, and are not reference counted. Direct3D 11 uses reference counting to manage the lifetimes of interface dependencies as well.
 
@@ -48,7 +48,7 @@ Direct3D 12 addresses this scheme by unifying much of the pipeline state into i
 
 ## Command lists and bundles
 
-In Direct3D 11, all work submission is done via the [immediate context](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-render), which represents a single stream of commands that go to the GPU. To achieve multithreaded scaling, games also have [deferred contexts](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-render) available to them. Deferred contexts in Direct3D 11 don't map perfectly to hardware, so relatively little work can be done in them.
+In Direct3D 11, all work submission is done via the [immediate context](/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-render), which represents a single stream of commands that go to the GPU. To achieve multithreaded scaling, games also have [deferred contexts](/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-render) available to them. Deferred contexts in Direct3D 11 don't map perfectly to hardware, so relatively little work can be done in them.
 
 Direct3D 12 introduces a new model for work submission based on command lists that contain the entirety of information needed to execute a particular workload on the GPU. Each new command list contains information such as which PSO to use, what texture and buffer resources are needed, and the arguments to all draw calls. Because each command list is self-contained and inherits no state, the driver can pre-compute all necessary GPU commands up-front and in a free-threaded manner. The only serial process necessary is the final submission of command lists to the GPU via the command queue.
 
@@ -80,7 +80,3 @@ Porting from Direct3D 11 is an involved process, described in [Porting from Dire
  
 
  
-
-
-
-

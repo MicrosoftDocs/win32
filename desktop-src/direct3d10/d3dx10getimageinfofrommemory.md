@@ -42,7 +42,7 @@ HRESULT D3DX10GetImageInfoFromMemory(
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the image in memory.
 
@@ -51,7 +51,7 @@ Pointer to the image in memory.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)**
 
 Size of the image in memory, in bytes.
 
@@ -111,7 +111,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

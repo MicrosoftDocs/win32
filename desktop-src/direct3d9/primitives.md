@@ -29,7 +29,7 @@ Direct3D devices can create and manipulate the following types of primitives.
 -   [Triangle Strips](triangle-strips.md)
 -   [Triangle Fans (Direct3D 9)](triangle-fans.md)
 
-You can render primitive types from a C++ application with any of the rendering methods of the [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface.
+You can render primitive types from a C++ application with any of the rendering methods of the [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface.
 
 ## Related topics
 
@@ -41,6 +41,3 @@ You can render primitive types from a C++ application with any of the rendering 
  
 
  
-
-
-

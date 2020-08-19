@@ -26,7 +26,7 @@ Not used. Formerly a request for things like "capture frame" event.
 
 ## Members
 
-The **IRunActionRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRunActionRequest** also has these types of members:
+The **IRunActionRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRunActionRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IRunActionRequest** interface has these methods.
  
 
  
-
-
-

@@ -52,7 +52,7 @@ Pointer to the [**D3DXVECTOR2**](d3dxvector2.md) structure that is the result of
 *OutStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Stride between vectors in the output data stream.
 
@@ -70,7 +70,7 @@ Pointer to the source [**D3DXVECTOR2**](d3dxvector2.md) array.
 *VStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Stride between vectors in the input data stream.
 
@@ -88,7 +88,7 @@ Pointer to the source [**D3DXMATRIX**](d3dxmatrix.md) structure.
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of elements in the array.
 
@@ -129,7 +129,3 @@ The return value for this function is the same value returned in the *pOut* para
  
 
  
-
-
-
-

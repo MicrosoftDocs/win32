@@ -16,7 +16,7 @@ Use the topics in this section to set up and learn about the environment in whic
 To program with Direct3D 12, you need these components:
 
 -   A hardware platform with a Direct3D 12-compatible GPU
--   [Display drivers](https://docs.microsoft.com/previous-versions//ff569172(v=vs.85)) that support the Windows Display Driver Model (WDDM) 2.0
+-   [Display drivers](/previous-versions//ff569172(v=vs.85)) that support the Windows Display Driver Model (WDDM) 2.0
 
 ## In this section
 
@@ -41,10 +41,4 @@ To program with Direct3D 12, you need these components:
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -25,7 +25,7 @@ Return codes from API functions.
 | S_FALSE ((HRESULT)1L) | Alternate success value, indicating a successful but nonstandard completion (the precise meaning depends on context). |
 | S_OK ((HRESULT)0L) | No error occurred. |
 
-For more return codes, see [DXGI_ERROR](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error).
+For more return codes, see [DXGI_ERROR](/windows/desktop/direct3ddxgi/dxgi-error).
 
 ## Related topics
 

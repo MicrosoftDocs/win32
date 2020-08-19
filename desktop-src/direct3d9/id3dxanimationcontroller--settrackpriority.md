@@ -39,7 +39,7 @@ HRESULT SetTrackPriority(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Track identifier.
 
@@ -48,9 +48,9 @@ Track identifier.
 *Priority* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXPRIORITY\_TYPE**](https://msdn.microsoft.com/library/Bb205401(v=VS.85).aspx)**
+Type: **[**D3DXPRIORITY\_TYPE**](./d3dxpriority-type.md)**
 
-Track priority. This parameter should be set to one of the constants from [**D3DXPRIORITY\_TYPE**](https://msdn.microsoft.com/library/Bb205401(v=VS.85).aspx).
+Track priority. This parameter should be set to one of the constants from [**D3DXPRIORITY\_TYPE**](./d3dxpriority-type.md).
 
 </dd> </dl>
 
@@ -83,7 +83,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
  
 
  
-
-
-
-

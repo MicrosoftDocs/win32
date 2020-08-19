@@ -47,7 +47,7 @@ HRESULT D3DXCreateEffectFromResourceEx(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
 Pointer to the device.
 
@@ -56,7 +56,7 @@ Pointer to the device.
 *hSrcModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](../winprog/windows-data-types.md)**
 
 Handle to a module containing the effect description. If this parameter is **NULL**, the current module will be used.
 
@@ -65,7 +65,7 @@ Handle to a module containing the effect description. If this parameter is **NUL
 *pSrcResource* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Pointer to the resource. This parameter supports both Unicode and ANSI strings. See Remarks.
 
@@ -92,7 +92,7 @@ Optional interface pointer, [**ID3DXInclude**](id3dxinclude.md), to use for hand
 *pSkipConstants* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 A string of effect parameters that will be ignored by the effect system. The string must be **NULL** terminated, and needs to contain the name of each application-managed constant separated by a semicolon.
 
@@ -101,9 +101,9 @@ A string of effect parameters that will be ignored by the effect system. The str
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-If *pSrcResource* contains a text effect, flags can be a combination of [D3DXSHADER Flags](d3dxshader-flags.md) and [D3DXFX](d3dxfx.md) flags; otherwise, *pSrcResource* contains a binary effect and the only flags honored are D3DXFX flags. The Direct3D 10 HLSL compiler is now the default. See [Effect-Compiler Tool](https://msdn.microsoft.com/library/Bb232919(v=VS.85).aspx) for details.
+If *pSrcResource* contains a text effect, flags can be a combination of [D3DXSHADER Flags](d3dxshader-flags.md) and [D3DXFX](d3dxfx.md) flags; otherwise, *pSrcResource* contains a binary effect and the only flags honored are D3DXFX flags. The Direct3D 10 HLSL compiler is now the default. See [Effect-Compiler Tool](../direct3dtools/fxc.md) for details.
 
 </dd> <dt>
 
@@ -184,7 +184,3 @@ D3DXCreateEffectFromResource loads data from a resource of type RT\_RCDATA. See 
  
 
  
-
-
-
-

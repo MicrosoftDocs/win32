@@ -39,7 +39,7 @@ typedef struct D3DXF_FILELOADRESOURCE {
 **hModule**
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -50,7 +50,7 @@ Handle of the module containing the resource to be loaded. If this member is **N
 **lpName**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -61,7 +61,7 @@ Pointer to a string specifying the name of the resource to be loaded. For exampl
 **lpType**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -93,7 +93,3 @@ This structure identifies a resource to be loaded when an application uses the [
  
 
  
-
-
-
-

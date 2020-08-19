@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 The BC6H format is a texture compression format designed to support high-dynamic range (HDR) color spaces in source data.
 
--   [About BC6H/DXGI\_FORMAT\_BC6H](https://docs.microsoft.com/windows)
+-   [About BC6H/DXGI\_FORMAT\_BC6H](/windows)
 -   [BC6H Implementation](#bc6h-implementation)
 -   [Decoding the BC6H Format](#decoding-the-bc6h-format)
 -   [BC6H Compressed Endpoint Format](#bc6h-compressed-endpoint-format)
@@ -46,7 +46,7 @@ BC6H is specified by the following DXGI\_FORMAT enumeration values:
 
  
 
-The BC6H format can be used for [Texture2D](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-structures) (including arrays), Texture3D, or TextureCube (including arrays) texture resources. Similarly, this format applies to any MIP-map surfaces associated with these resources.
+The BC6H format can be used for [Texture2D](/windows/desktop/direct3d10/d3d10-graphics-reference-resource-structures) (including arrays), Texture3D, or TextureCube (including arrays) texture resources. Similarly, this format applies to any MIP-map surfaces associated with these resources.
 
 BC6H uses a fixed block size of 16 bytes (128 bits) and a fixed tile size of 4x4 texels. As with previous BC formats, texture images larger than the supported tile size (4x4) are compressed by using multiple blocks. This addressing identity applies also to three-dimensional images, MIP-maps, cubemaps, and texture arrays. All image tiles must be of the same format.
 
@@ -335,7 +335,3 @@ unsigned short finish_unquantize(int comp)
  
 
  
-
-
-
-

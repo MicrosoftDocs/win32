@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Sent by an Explorer-style **Open** or **Save As** dialog box when the user specifies a file name and clicks the **OK** button.
 
-Your [*OFNHookProc*](https://msdn.microsoft.com/library/ms646931(v=VS.85).aspx) hook procedure receives this message in the form of a [**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx) message.
+Your [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc) hook procedure receives this message in the form of a [**WM\_NOTIFY**](../controls/wm-notify.md) message.
 
 
 ```C++
@@ -46,7 +46,7 @@ This parameter is not used.
 
 A pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) structure.
 
-The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) structure contains an [**NMHDR**](https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx) structure whose **code** member indicates the **CDN\_FILEOK** notification message.
+The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) structure contains an [**NMHDR**](/windows/win32/api/richedit/ns-richedit-nmhdr) structure whose **code** member indicates the **CDN\_FILEOK** notification message.
 
 The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) structure also contains a pointer to an [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure whose **lpstrFile** member specifies the address of the selected file name.
 
@@ -56,7 +56,7 @@ The [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) structure 
 
 If the hook procedure returns zero, the dialog box accepts the specified file name and closes.
 
-To reject the specified file name and force the dialog box to remain open, return a nonzero value from the hook procedure and call the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function to set a nonzero **DWL\_MSGRESULT** value.
+To reject the specified file name and force the dialog box to remain open, return a nonzero value from the hook procedure and call the [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function to set a nonzero **DWL\_MSGRESULT** value.
 
 ## Remarks
 
@@ -87,7 +87,7 @@ The system sends this notification only if the dialog box was created using the 
 [**GetSaveFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getsavefilenamea)
 </dt> <dt>
 
-[*OFNHookProc*](https://msdn.microsoft.com/library/ms646931(v=VS.85).aspx)
+[*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc)
 </dt> <dt>
 
 [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)
@@ -96,7 +96,7 @@ The system sends this notification only if the dialog box was created using the 
 [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)
 </dt> <dt>
 
-[**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga)
+[**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga)
 </dt> <dt>
 
 **Conceptual**
@@ -108,14 +108,8 @@ The system sends this notification only if the dialog box was created using the 
 **Other Resources**
 </dt> <dt>
 
-[**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx)
+[**WM\_NOTIFY**](../controls/wm-notify.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

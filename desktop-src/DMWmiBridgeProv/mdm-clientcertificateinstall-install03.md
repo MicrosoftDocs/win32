@@ -88,7 +88,7 @@ The **MDM\_ClientCertificateInstall\_Install03** class has these properties.
 
 <dl> <dt>
 
-[AADKeyIdentifierList](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-aadkeyidentifierlist)
+[AADKeyIdentifierList](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-aadkeyidentifierlist)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -99,7 +99,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[CAThumbprint](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-cathumbprint)
+[CAThumbprint](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-cathumbprint)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -110,7 +110,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Challenge](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-challenge)
+[Challenge](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-challenge)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -121,7 +121,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ContainerName](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-containername)
+[ContainerName](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-pfxcertinstall-uniqueid-containername)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -132,7 +132,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[CustomTextToShowInPrompt](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-customtexttoshowinprompt)
+[CustomTextToShowInPrompt](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-customtexttoshowinprompt)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -143,7 +143,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EKUMapping](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-ekumapping)
+[EKUMapping](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-ekumapping)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -154,7 +154,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HashAlgorithm](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-hashalgorithm)
+[HashAlgorithm](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-hashalgorithm)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -174,7 +174,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Required for SCEP certificate enrollment. Parent node to group SCEP cert install related request.
@@ -183,7 +183,7 @@ The Format is node.
 
 </dd> <dt>
 
-[KeyLength](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-keylength)
+[KeyLength](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-keylength)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -194,7 +194,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[KeyProtection](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-keyprotection)
+[KeyProtection](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-keyprotection)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -205,7 +205,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[KeyUsage](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp)
+[KeyUsage](/windows/client-management/mdm/clientcertificateinstall-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -225,7 +225,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node.
@@ -234,7 +234,7 @@ The string is "./Vendor/MSFT/ClientCertificateInstall/PFXCertInstall/SCEP/*Uniqu
 
 </dd> <dt>
 
-[RetryCount](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-retrycount)
+[RetryCount](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-retrycount)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -245,7 +245,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RetryDelay](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-retrydelay)
+[RetryDelay](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-retrydelay)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -256,7 +256,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ServerURL](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-serverurl)
+[ServerURL](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-serverurl)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -267,7 +267,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SubjectAlternativeNames](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-subjectalternativenames)
+[SubjectAlternativeNames](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-subjectalternativenames)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -278,7 +278,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SubjectName](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-subjectname)
+[SubjectName](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-subjectname)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -289,7 +289,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[TemplateName](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-templatename)
+[TemplateName](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-templatename)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -300,7 +300,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ValidPeriod](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-validperiod)
+[ValidPeriod](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-validperiod)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -311,7 +311,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ValidPeriodUnits](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-validperiodunits)
+[ValidPeriodUnits](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-install-validperiodunits)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -340,14 +340,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

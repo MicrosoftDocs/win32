@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # SETRGBSTRING message
 
-The hook procedure of a **Color** dialog box, [*CCHookProc*](https://msdn.microsoft.com/library/ms646908(v=VS.85).aspx), can send the **SETRGBSTRING** registered message to the dialog box to set the current color selection.
+The hook procedure of a **Color** dialog box, [*CCHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpcchookproc), can send the **SETRGBSTRING** registered message to the dialog box to set the current color selection.
 
 
 ```C++
@@ -43,7 +43,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-The RGB value of the color to select in the **Color** dialog box. You can use the [**RGB**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb) macro to specify the red, green, and blue intensities of an RGB color value.
+The RGB value of the color to select in the **Color** dialog box. You can use the [**RGB**](/windows/desktop/api/wingdi/nf-wingdi-rgb) macro to specify the red, green, and blue intensities of an RGB color value.
 
 </dd> </dl>
 
@@ -92,13 +92,13 @@ SendMessage(hdlg, uiSetRGB, 0, (LPARAM) RGB(0, 0, 255));
 **Reference**
 </dt> <dt>
 
-[**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
+[**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
 </dt> <dt>
 
-[**RGB**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb)
+[**RGB**](/windows/desktop/api/wingdi/nf-wingdi-rgb)
 </dt> <dt>
 
-[**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage)
+[**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage)
 </dt> <dt>
 
 **Conceptual**
@@ -108,10 +108,4 @@ SendMessage(hdlg, uiSetRGB, 0, (LPARAM) RGB(0, 0, 255));
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

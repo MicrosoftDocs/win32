@@ -38,9 +38,9 @@ HRESULT BeginSphere(
 *pTex* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)**
 
-Pointer to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) interface that represents the texture to which to render.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) interface that represents the texture to which to render.
 
 </dd> </dl>
 
@@ -78,7 +78,3 @@ See [**ID3DXRenderToEnvMap::Face**](id3dxrendertoenvmap--face.md) to draw the fa
  
 
  
-
-
-
-

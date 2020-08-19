@@ -132,13 +132,9 @@ typedef union switch(DWORD tyspec) {
 
 <dl> <dt>
 
-[**CoInstall**](https://msdn.microsoft.com/library/Bb432203(v=VS.85).aspx)
+[**CoInstall**](/windows/win32/api/objbase/nf-objbase-coinstall)
 </dt> </dl>
 
  
 
  
-
-
-
-

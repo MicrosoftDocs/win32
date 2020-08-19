@@ -53,16 +53,16 @@ Pointer to an [**ID3DXFileData**](id3dxfiledata.md) interface, representing the 
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Combination of one or more [**D3DXMESH**](https://msdn.microsoft.com/library/Bb205370(v=VS.85).aspx) flags, specifying creation options for the mesh.
+Combination of one or more [**D3DXMESH**](./d3dxmesh.md) flags, specifying creation options for the mesh.
 
 </dd> <dt>
 
 *pD3DDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
 Pointer to the device that the mesh is created from.
 
@@ -143,7 +143,3 @@ The default texture name is also filled in, but is handled differently. The name
  
 
  
-
-
-
-

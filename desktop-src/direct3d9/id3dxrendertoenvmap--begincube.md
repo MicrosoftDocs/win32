@@ -38,9 +38,9 @@ HRESULT BeginCube(
 *pCubeTex* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DCUBETEXTURE9**](https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9)**
 
-Pointer to an [**IDirect3DCubeTexture9**](https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx) interface that represents the cube texture to which to render.
+Pointer to an [**IDirect3DCubeTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9) interface that represents the cube texture to which to render.
 
 </dd> </dl>
 
@@ -78,7 +78,3 @@ See [**ID3DXRenderToEnvMap::Face**](id3dxrendertoenvmap--face.md) to draw each o
  
 
  
-
-
-
-

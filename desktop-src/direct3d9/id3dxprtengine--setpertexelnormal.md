@@ -38,7 +38,7 @@ HRESULT SetPerTexelNormal(
 *pNormalTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)**
 
 Pointer to an [**IDirect3DTexture9**](/windows/desktop/api) texture object that serves as an object space normal map in which to store normal vectors. The texture must have the same dimensions as [**ID3DXPRTBuffer**](id3dxprtbuffer.md) and must be able to store signed texture formats.
 
@@ -71,7 +71,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

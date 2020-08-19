@@ -14,7 +14,7 @@ DirectShow provides the following function.
 
 | Function                                 | Description                                              |
 |------------------------------------------|----------------------------------------------------------|
-| [**AMGetErrorText**](https://msdn.microsoft.com/library/Dd373430(v=VS.85).aspx) | Retrieves the error message text for a given message ID. |
+| [**AMGetErrorText**](/windows/win32/api/errors/nf-errors-amgeterrortexta) | Retrieves the error message text for a given message ID. |
 
 
 
@@ -30,6 +30,3 @@ DirectShow provides the following function.
  
 
  
-
-
-

@@ -79,14 +79,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "AppInstallation".
 
 </dd> <dt>
 
-[LastError](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#appinstallation-packagefamilyname-lasterror)
+[LastError](/windows/client-management/mdm/enterprisemodernappmanagement-csp#appinstallation-packagefamilyname-lasterror)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -97,7 +97,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LastErrorDesc](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp)
+[LastErrorDesc](/windows/client-management/mdm/enterprisemodernappmanagement-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -117,14 +117,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/EnterpriseModernAppManagement/AppInstallation"
 
 </dd> <dt>
 
-[ProgressStatus](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp)
+[ProgressStatus](/windows/client-management/mdm/enterprisemodernappmanagement-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -135,7 +135,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Status](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#appinstallation-packagefamilyname-status)
+[Status](/windows/client-management/mdm/enterprisemodernappmanagement-csp#appinstallation-packagefamilyname-status)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -164,14 +164,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

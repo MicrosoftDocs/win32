@@ -46,9 +46,9 @@ HRESULT D3DXLoadVolumeFromFileInMemory(
 *pDestVolume* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUME9**](https://msdn.microsoft.com/library/Bb205932(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DVOLUME9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolume9)**
 
-Pointer to an [**IDirect3DVolume9**](https://msdn.microsoft.com/library/Bb205932(v=VS.85).aspx) interface. Specifies the destination volume.
+Pointer to an [**IDirect3DVolume9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolume9) interface. Specifies the destination volume.
 
 </dd> <dt>
 
@@ -73,7 +73,7 @@ Pointer to a [**D3DBOX**](d3dbox.md) structure. Specifies the destination box. S
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the file in memory from which to load the volume.
 
@@ -82,7 +82,7 @@ Pointer to the file in memory from which to load the volume.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Size in bytes of the file in memory.
 
@@ -100,7 +100,7 @@ Pointer to a [**D3DBOX**](d3dbox.md) structure. Specifies the source box. Set th
 *Filter* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Combination of one or more [D3DX\_FILTER](d3dx-filter.md), controlling how the image is filtered. Specifying D3DX\_DEFAULT for this parameter is the equivalent of specifying D3DX\_FILTER\_TRIANGLE \| D3DX\_FILTER\_DITHER.
 
@@ -132,9 +132,9 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 ## Remarks
 
-This function handles conversion to and from compressed texture formats and supports the following file formats: .bmp, .dds, .dib, .hdr, .jpg, .pfm, .png, .ppm, and .tga. See [**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/library/Bb172878(v=VS.85).aspx).
+This function handles conversion to and from compressed texture formats and supports the following file formats: .bmp, .dds, .dib, .hdr, .jpg, .pfm, .png, .ppm, and .tga. See [**D3DXIMAGE\_FILEFORMAT**](./d3dximage-fileformat.md).
 
-Writing to a non-level-zero surface of the volume texture will not cause the dirty rectangle to be updated. If **D3DXLoadVolumeFromFileInMemory** is called and the texture was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**IDirect3DVolumeTexture9::AddDirtyBox**](https://msdn.microsoft.com/library/Bb205942(v=VS.85).aspx) on the volume texture.
+Writing to a non-level-zero surface of the volume texture will not cause the dirty rectangle to be updated. If **D3DXLoadVolumeFromFileInMemory** is called and the texture was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**IDirect3DVolumeTexture9::AddDirtyBox**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dvolumetexture9-adddirtybox) on the volume texture.
 
 ## Requirements
 
@@ -169,7 +169,3 @@ Writing to a non-level-zero surface of the volume texture will not cause the dir
  
 
  
-
-
-
-

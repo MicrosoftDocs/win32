@@ -26,7 +26,7 @@ Callback to return errors from the engine during capture.
 
 ## Members
 
-The **IRunExperimentCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRunExperimentCallback** also has these types of members:
+The **IRunExperimentCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRunExperimentCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IRunExperimentCallback** interface has these methods.
  
 
  
-
-
-

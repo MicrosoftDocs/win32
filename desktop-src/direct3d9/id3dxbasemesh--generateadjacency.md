@@ -39,7 +39,7 @@ HRESULT GenerateAdjacency(
 *Epsilon* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Specifies that vertices that differ in position by less than epsilon should be treated as coincident.
 
@@ -48,7 +48,7 @@ Specifies that vertices that differ in position by less than epsilon should be t
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of three DWORDs per face to be filled with the indices of adjacent faces. The number of bytes in this array must be at least 3 \* [**ID3DXBaseMesh::GetNumFaces**](id3dxbasemesh--getnumfaces.md) \* sizeof(DWORD).
 
@@ -93,7 +93,3 @@ The order of the entries in the adjacency buffer is determined by the order of t
  
 
  
-
-
-
-

@@ -36,7 +36,7 @@ The runtime always sets the following groupings of members identically. That is,
 
 Windows RT tablet devices can support a variety of feature levels and optional features, are optimized for reduced power consumption, and use integrated graphics instead of discrete GPUs. Windows Store apps for ARM devices must support feature level 9.1. DirectX apps for Windows RT should take advantage of optional features that can save power and cycles - such as simple instancing - when they are available.
 
-Windows Phone 8 mobile devices support feature level 9.3 with specific optional features. See [Direct3D feature level 9\_3 for Windows Phone 8](https://msdn.microsoft.com/library/JJ714085(v=VS.105).aspx).
+Windows Phone 8 mobile devices support feature level 9.3 with specific optional features. See [Direct3D feature level 9\_3 for Windows Phone 8](/previous-versions/windows/apps/jj714085(v=vs.105)).
 
 ## What are the Direct3D 11 optional features?
 
@@ -102,7 +102,3 @@ Direct3D 11.2 adds four new optional features that can be supported by Direct3D 
  
 
  
-
-
-
-

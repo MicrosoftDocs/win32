@@ -16,13 +16,13 @@ Basic syntax:
 
 *DataType* *VariableName* \[ *: SemanticName* \] < *Annotations* > \[ = InitialValue \];
 
-See [Variable Syntax (DirectX HLSL)](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-variable-syntax) for full syntax.
+See [Variable Syntax (DirectX HLSL)](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-variable-syntax) for full syntax.
 
 
 
 | Name         | Description                                                                                                                                                                                 |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DataType     | Any [basic](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-variable-syntax), [texture](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-type), unordered access view, shader or state block type.                            |
+| DataType     | Any [basic](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-variable-syntax), [texture](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-type), unordered access view, shader or state block type.                            |
 | VariableName | An ASCII string that uniquely identifies the name of the effect variable.                                                                                                                   |
 | SemanticName | A ASCII string that denotes additional information about how a variable should be used. A semantic is an ASCII string that can be either a predefined system-value or a custom-user string. |
 | Annotations  | One or more pieces of user-supplied information (metadata) that is ignored by the effect system. For syntax, see [Annotation Syntax (Direct3D 11)](d3d11-effect-annotation-syntax.md).     |
@@ -89,7 +89,7 @@ Texture2D g_MeshTexture;            // Color texture for mesh
 
 
 
-Sampling a texture is done with a texture sampler. To set up a sampler in an effect, see the [sampler type](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-sampler).
+Sampling a texture is done with a texture sampler. To set up a sampler in an effect, see the [sampler type](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-sampler).
 
 This example illustrates declaring global unordered access view variables.
 
@@ -175,7 +175,3 @@ sampler mySS[2] : register(s3)
  
 
  
-
-
-
-

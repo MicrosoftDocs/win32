@@ -62,7 +62,7 @@ The **MDM\_Firewall\_PublicProfile02** class has these properties.
 
 <dl> <dt>
 
-[AllowLocalIpsecPolicyMerge](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#allowlocalipsecpolicymerge)
+[AllowLocalIpsecPolicyMerge](/windows/client-management/mdm/firewall-csp#allowlocalipsecpolicymerge)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -73,7 +73,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowLocalPolicyMerge](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#allowlocalpolicymerge)
+[AllowLocalPolicyMerge](/windows/client-management/mdm/firewall-csp#allowlocalpolicymerge)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -84,7 +84,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AuthAppsAllowUserPrefMerge](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#authappsallowuserprefmerge)
+[AuthAppsAllowUserPrefMerge](/windows/client-management/mdm/firewall-csp#authappsallowuserprefmerge)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -95,7 +95,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DefaultInboundAction](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#defaultinboundaction)
+[DefaultInboundAction](/windows/client-management/mdm/firewall-csp#defaultinboundaction)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -106,7 +106,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DefaultOutboundAction](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#defaultoutboundaction)
+[DefaultOutboundAction](/windows/client-management/mdm/firewall-csp#defaultoutboundaction)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -117,7 +117,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableInboundNotifications](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#disableinboundnotifications)
+[DisableInboundNotifications](/windows/client-management/mdm/firewall-csp#disableinboundnotifications)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -128,7 +128,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableStealthMode](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#disablestealthmode)
+[DisableStealthMode](/windows/client-management/mdm/firewall-csp#disablestealthmode)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -139,7 +139,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableStealthModeIpsecSecuredPacketExemption](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#disablestealthmodeipsecsecuredpacketexemption)
+[DisableStealthModeIpsecSecuredPacketExemption](/windows/client-management/mdm/firewall-csp#disablestealthmodeipsecsecuredpacketexemption)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -150,7 +150,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableUnicastResponsesToMulticastBroadcast](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#disableunicastresponsestomulticastbroadcast)
+[DisableUnicastResponsesToMulticastBroadcast](/windows/client-management/mdm/firewall-csp#disableunicastresponsestomulticastbroadcast)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -161,7 +161,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnableFirewall](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#enablefirewall)
+[EnableFirewall](/windows/client-management/mdm/firewall-csp#enablefirewall)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -172,7 +172,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[GlobalPortsAllowUserPrefMerge](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#globalportsallowuserprefmerge)
+[GlobalPortsAllowUserPrefMerge](/windows/client-management/mdm/firewall-csp#globalportsallowuserprefmerge)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -192,7 +192,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -206,12 +206,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[Shielded](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#shielded)
+[Shielded](/windows/client-management/mdm/firewall-csp#shielded)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -237,10 +237,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

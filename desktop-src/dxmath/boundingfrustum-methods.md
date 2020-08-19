@@ -12,14 +12,14 @@ ms.date: 05/31/2018
 
 | Method                                                                  | Description                                                                                                    |
 |-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| [**Contains**](boundingfrustum-contains.md)<br/>                 | Tests whether the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx) contains a specified object.<br/>           |
-| [**Intersects**](boundingfrustum-intersects.md)<br/>             | Tests the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx) for intersection with another object.<br/>          |
-| [**Transform**](boundingfrustum-transform.md)<br/>               | Transforms the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).<br/>                                          |
-| [**ContainedBy**](/windows/desktop/api/DirectXCollision/nf-directxcollision-boundingbox-containedby)<br/>           | Tests whether the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx) is contained by the specified frustum.<br/> |
-| [**CreateFromMatrix**](https://msdn.microsoft.com/library/Hh855895(v=VS.85).aspx)<br/> | Creates a [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx) from the specified projection matrix.<br/>          |
-| [**GetCorners**](https://msdn.microsoft.com/library/Hh855908(v=VS.85).aspx)<br/>             | Gets the corners making up the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).<br/>                          |
-| [**GetPlanes**](https://msdn.microsoft.com/library/Hh855910(v=VS.85).aspx)<br/>               | Gets the planes making up the [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).<br/>                           |
-| [**op\_Assignment**](https://msdn.microsoft.com/library/Hh855936(v=VS.85).aspx)<br/>      | Copies values from another [**BoundingFrustum**](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx).<br/>                              |
+| [**Contains**](boundingfrustum-contains.md)<br/>                 | Tests whether the [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) contains a specified object.<br/>           |
+| [**Intersects**](boundingfrustum-intersects.md)<br/>             | Tests the [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) for intersection with another object.<br/>          |
+| [**Transform**](boundingfrustum-transform.md)<br/>               | Transforms the [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).<br/>                                          |
+| [**ContainedBy**](/windows/desktop/api/DirectXCollision/nf-directxcollision-boundingbox-containedby)<br/>           | Tests whether the [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) is contained by the specified frustum.<br/> |
+| [**CreateFromMatrix**](/windows/win32/api/directxcollision/nf-directxcollision-boundingfrustum-createfrommatrix)<br/> | Creates a [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) from the specified projection matrix.<br/>          |
+| [**GetCorners**](/windows/win32/api/directxcollision/nf-directxcollision-boundingfrustum-getcorners)<br/>             | Gets the corners making up the [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).<br/>                          |
+| [**GetPlanes**](/windows/win32/api/directxcollision/nf-directxcollision-boundingfrustum-getplanes)<br/>               | Gets the planes making up the [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).<br/>                           |
+| [**op\_Assignment**](/windows/win32/api/directxcollision/nf-directxcollision-boundingfrustum-operator-assign(boundingfrustum__))<br/>      | Copies values from another [**BoundingFrustum**](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).<br/>                              |
 
 
 
@@ -29,13 +29,9 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[BoundingFrustum](https://msdn.microsoft.com/library/Hh855859(v=VS.85).aspx)
+[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
 </dt> </dl>
 
  
 
  
-
-
-
-

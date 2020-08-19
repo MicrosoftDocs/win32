@@ -58,7 +58,7 @@ Pointer to a source [**D3DXCOLOR**](d3dxcolor.md) structure.
 *s* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Scale factor. It scales the color, treating it like a 4D vector. There are no limits on the value of s. If s is 1, the resulting color is the original color.
 
@@ -113,7 +113,3 @@ pOut->r = pC->r * s;
  
 
  
-
-
-
-

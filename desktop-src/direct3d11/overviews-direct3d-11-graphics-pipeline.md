@@ -12,9 +12,9 @@ The Direct3D 11 programmable pipeline is designed for generating graphics for re
 
 ![diagram of the data flow in the direct3d 11 programmable pipeline](images/d3d11-pipeline-stages.jpg)
 
-The graphics pipeline for Microsoft Direct3D 11 supports the same stages as the [Direct3D 10 graphics pipeline](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages), with additional stages to support advanced features.
+The graphics pipeline for Microsoft Direct3D 11 supports the same stages as the [Direct3D 10 graphics pipeline](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages), with additional stages to support advanced features.
 
-You can use the Direct3D 11API to configure all of the stages. Stages that feature common shader cores (the rounded rectangular blocks) are programmable by using the [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl) programming language. As you will see, this makes the pipeline extremely flexible and adaptable.
+You can use the Direct3D 11API to configure all of the stages. Stages that feature common shader cores (the rounded rectangular blocks) are programmable by using the [HLSL](/windows/desktop/direct3dhlsl/dx-graphics-hlsl) programming language. As you will see, this makes the pipeline extremely flexible and adaptable.
 
 ## 
 
@@ -48,10 +48,4 @@ You can use the Direct3D 11API to configure all of the stages. Stages that featu
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

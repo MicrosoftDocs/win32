@@ -44,7 +44,7 @@ D3DXMATRIX* D3DXMatrixPerspectiveOffCenterRH(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the result of the operation.
 
@@ -53,7 +53,7 @@ Pointer to the [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure that is the resul
 *l* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Minimum x-value of the view volume.
 
@@ -62,7 +62,7 @@ Minimum x-value of the view volume.
 *r* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Maximum x-value of the view volume.
 
@@ -71,7 +71,7 @@ Maximum x-value of the view volume.
 *b* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Minimum y-value of the view volume.
 
@@ -80,7 +80,7 @@ Minimum y-value of the view volume.
 *t* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Maximum y-value of the view volume.
 
@@ -89,7 +89,7 @@ Maximum y-value of the view volume.
 *zn* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Minimum z-value of the view volume.
 
@@ -98,7 +98,7 @@ Minimum z-value of the view volume.
 *zf* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Maximum z-value of the view volume.
 
@@ -106,7 +106,7 @@ Maximum z-value of the view volume.
 
 ## Return value
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to a D3DXMATRIX structure that is a customized, right-handed perspective projection matrix.
 
@@ -149,7 +149,3 @@ This function uses the following formula to compute the returned matrix.
  
 
  
-
-
-
-

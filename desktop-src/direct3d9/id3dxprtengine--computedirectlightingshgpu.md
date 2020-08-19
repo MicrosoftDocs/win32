@@ -43,12 +43,12 @@ HRESULT ComputeDirectLightingSHGPU(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to the [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) device object used to run the simulation on the GPU. The device must support [ps\_2\_0](https://msdn.microsoft.com/library/Bb219843(v=VS.85).aspx) pixel shaders.
+Pointer to the [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) device object used to run the simulation on the GPU. The device must support [ps\_2\_0](../direct3dhlsl/dx9-graphics-reference-asm-ps-2-0.md) pixel shaders.
 
 > [!Note]  
-> Callback functions should not use the [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) device object used by the GPU simulator.
+> Callback functions should not use the [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) device object used by the GPU simulator.
 
  
 
@@ -57,16 +57,16 @@ Pointer to the [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb17433
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
-GPU simulation parameter that defines the resolution of the shadow z-buffer. Should be set to one of the constant values from [**D3DXSHGPUSIMOPT**](https://msdn.microsoft.com/library/Bb205452(v=VS.85).aspx). To specifiy higher precision simulation, the D3DXSHGPUSIMOPT\_HIGHQUALITY value may be combined with one of the D3DXSHGPUSIMOPT\_SHADOWRESxxx values.
+GPU simulation parameter that defines the resolution of the shadow z-buffer. Should be set to one of the constant values from [**D3DXSHGPUSIMOPT**](./d3dxshgpusimopt.md). To specifiy higher precision simulation, the D3DXSHGPUSIMOPT\_HIGHQUALITY value may be combined with one of the D3DXSHGPUSIMOPT\_SHADOWRESxxx values.
 
 </dd> <dt>
 
 *Order* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Order of the SH evaluation. Must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive. The evaluation generates Order² coefficients. The degree of the evaluation is Order - 1.
 
@@ -75,7 +75,7 @@ Order of the SH evaluation. Must be in the range of [D3DXSH\_MINORDER](other-d3d
 *ZBias* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Bias in the normal direction.
 
@@ -84,7 +84,7 @@ Bias in the normal direction.
 *ZAngleBias* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Bias in the normal direction, scaled by one minus the cosine of the angle with the light ray.
 
@@ -132,7 +132,3 @@ Call [**MultiplyAlbedo**](id3dxprtengine--multiplyalbedo.md) to multiply each pr
  
 
  
-
-
-
-

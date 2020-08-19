@@ -241,7 +241,7 @@ The function [**WaitForSingleObject**](/windows/win32/api/synchapi/nf-synchapi-w
 
 There is a family of functions for performing simple thread-safe operations without using locks. These are the Interlocked family of functions, such as [**InterlockedIncrement**](/windows/win32/api/winbase/nf-winbase-interlockedincrement). These functions, plus other techniques using careful setting of flags, are together known as lockless programming. Lockless programming can be extremely tricky to do correctly, and is substantially more difficult on Xbox 360 than on Windows.
 
-For more information about programming without locks, see [Lockless Programming Considerations for Xbox 360 and Microsoft Windows](/windows/win32/DxTechArts/lockless-programming).
+For more information about programming without locks, see [Lockless Programming Considerations for Xbox 360 and Microsoft Windows](./lockless-programming.md).
 
 ### Minimizing Synchronization
 
@@ -278,7 +278,7 @@ Multithreaded profiling is important. It is easy to end up with long stalls wher
 
 ## Timing
 
-The rdtsc instruction is one way to get accurate timing information on Windows. Unfortunately, rdtsc has multiple problems that make it a poor choice for your shipping title. The rdtsc counters are not necessarily synchronized between CPUs, so when your thread moves between hardware threads you may get large positive or negative differences. Depending on power management settings, the frequency at which the rdtsc counter increments may also change as your game runs. To avoid these difficulties, you should prefer [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) and [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency) for high-precision timing in your shipping game. For more information about timing, see [Game Timing and Multicore Processors](/windows/win32/DxTechArts/game-timing-and-multicore-processors).
+The rdtsc instruction is one way to get accurate timing information on Windows. Unfortunately, rdtsc has multiple problems that make it a poor choice for your shipping title. The rdtsc counters are not necessarily synchronized between CPUs, so when your thread moves between hardware threads you may get large positive or negative differences. Depending on power management settings, the frequency at which the rdtsc counter increments may also change as your game runs. To avoid these difficulties, you should prefer [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) and [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency) for high-precision timing in your shipping game. For more information about timing, see [Game Timing and Multicore Processors](./game-timing-and-multicore-processors.md).
 
 ## Debugging
 
@@ -332,10 +332,10 @@ Multithreaded programming can be tricky, and some multithreaded bugs show up onl
 
 For games targeting the newer versions of Windows, there are a number of APIs that can simplify the creation of scalable multithreaded applications. This is particularly true with the new ThreadPool API and some additional syncrhonziation primitives (condition variables, the slim read/writer lock, and one-time initialization). You can find an overview of these technologies in the following MSDN Magazine articles:
 
--   [Improve Scalability With New Thread Pool APIs](https://docs.microsoft.com/archive/msdn-magazine/2007/october/pooled-threads-improve-scalability-with-new-thread-pool-apis)
--   [Synchronization Primitives New To Windows Vista](https://docs.microsoft.com/archive/msdn-magazine/2007/june/concurrency-synchronization-primitives-new-to-windows-vista)
+-   [Improve Scalability With New Thread Pool APIs](/archive/msdn-magazine/2007/october/pooled-threads-improve-scalability-with-new-thread-pool-apis)
+-   [Synchronization Primitives New To Windows Vista](/archive/msdn-magazine/2007/june/concurrency-synchronization-primitives-new-to-windows-vista)
 
-Applications using [Direct3D 11 Features](/windows/win32/direct3d11/direct3d-11-features) on these operating systems can also take advantage of the new design for concurrent object creation and deferred context command lists for better scalability for multithreaded rendering.
+Applications using [Direct3D 11 Features](../direct3d11/direct3d-11-features.md) on these operating systems can also take advantage of the new design for concurrent object creation and deferred context command lists for better scalability for multithreaded rendering.
 
 ## Summary
 
@@ -344,14 +344,10 @@ With careful design that minimizes the interactions between threads, you can get
 ## References
 
 -   Jim Beveridge & Robert Weiner, *Multithreading Applications in Win32*, Addison-Wesley, 1997
--   Chuck Walbourn, [Game Timing and Multicore Processors](/windows/win32/DxTechArts/game-timing-and-multicore-processors), Microsoft Corporation, 2005
+-   Chuck Walbourn, [Game Timing and Multicore Processors](./game-timing-and-multicore-processors.md), Microsoft Corporation, 2005
 -   MSDN Library: [**GetLogicalProcessorInformation**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation)
 -   [OpenMP](https://www.openmp.org/)
 
  
 
  
-
-
-
-

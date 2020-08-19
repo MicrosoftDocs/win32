@@ -85,30 +85,30 @@ The following table shows the type of hook procedure to provide for each of the 
 
 | Dialog box type                          | Hook procedure                                      |
 |------------------------------------------|-----------------------------------------------------|
-| **Color**                                | [*CCHookProc*](https://msdn.microsoft.com/library/ms646908(v=VS.85).aspx)                      |
-| **Find** or **Replace**                  | [*FRHookProc*](https://msdn.microsoft.com/library/ms646922(v=VS.85).aspx)                      |
-| **Font**                                 | [*CFHookProc*](https://msdn.microsoft.com/library/ms646909(v=VS.85).aspx)                      |
-| **Open** or **Save As** (Explorer-style) | [*OFNHookProc*](https://msdn.microsoft.com/library/ms646931(v=VS.85).aspx)                    |
-| **Open** or **Save As** (Old-style)      | [*OFNHookProcOldStyle*](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646932(v=vs.85)) |
-| **Print**                                | [*PrintHookProc*](https://msdn.microsoft.com/library/ms646944(v=VS.85).aspx)                |
-| **Page Setup**                           | [*PageSetupHook*](https://msdn.microsoft.com/library/ms646939(v=VS.85).aspx)                |
+| **Color**                                | [*CCHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpcchookproc)                      |
+| **Find** or **Replace**                  | [*FRHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpfrhookproc)                      |
+| **Font**                                 | [*CFHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc)                      |
+| **Open** or **Save As** (Explorer-style) | [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc)                    |
+| **Open** or **Save As** (Old-style)      | [*OFNHookProcOldStyle*](/previous-versions/windows/desktop/legacy/ms646932(v=vs.85)) |
+| **Print**                                | [*PrintHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpprinthookproc)                |
+| **Page Setup**                           | [*PageSetupHook*](/windows/win32/api/commdlg/nc-commdlg-lppagesetuphook)                |
 
 
 
  
 
-For the **Page Setup** dialog box, you can also specify a [*PagePaintHook*](https://msdn.microsoft.com/library/ms646935(v=VS.85).aspx) hook procedure. This is a special hook procedure that you can use to customize the appearance of the sample page displayed by the **Page Setup** dialog box.
+For the **Page Setup** dialog box, you can also specify a [*PagePaintHook*](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook) hook procedure. This is a special hook procedure that you can use to customize the appearance of the sample page displayed by the **Page Setup** dialog box.
 
 > [!Note]  
-> The **Print Setup** dialog box has been superseded by the **Page Setup** dialog box. Applications should use the **Page Setup** dialog box. However, for compatibility, the [**PrintDlg**](https://msdn.microsoft.com/library/ms646940(v=VS.85).aspx) function continues to support display of the **Print Setup** dialog box. You can provide a [*SetupHookProc*](https://msdn.microsoft.com/library/ms646948(v=VS.85).aspx) hook procedure for the **Print Setup** dialog box.
+> The **Print Setup** dialog box has been superseded by the **Page Setup** dialog box. Applications should use the **Page Setup** dialog box. However, for compatibility, the [**PrintDlg**](/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)) function continues to support display of the **Print Setup** dialog box. You can provide a [*SetupHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpsetuphookproc) hook procedure for the **Print Setup** dialog box.
 
  
 
 ## Common Dialog Messages
 
-Common dialog boxes use messages to notify your window procedure or hook procedure when certain events occur. In addition, there are messages that you can send to a common dialog box to retrieve information or to control the behavior or appearance of the dialog box. This section describes the common dialog messages registered by the [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function, messages used by the **Font** dialog box and **Page Setup** dialog box, and messages used by the Explorer-style **Open** and **Save As** dialog boxes.
+Common dialog boxes use messages to notify your window procedure or hook procedure when certain events occur. In addition, there are messages that you can send to a common dialog box to retrieve information or to control the behavior or appearance of the dialog box. This section describes the common dialog messages registered by the [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function, messages used by the **Font** dialog box and **Page Setup** dialog box, and messages used by the Explorer-style **Open** and **Save As** dialog boxes.
 
-The Common Dialog Box Library defines a set of message strings. You can pass a constant associated with one of these message strings to [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) to get a message identifier. You can then use the identifier to detect and process messages sent from a common dialog box, or to send messages to a common dialog box. The following table shows the message constants and describes their use.
+The Common Dialog Box Library defines a set of message strings. You can pass a constant associated with one of these message strings to [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) to get a message identifier. You can then use the identifier to detect and process messages sent from a common dialog box, or to send messages to a common dialog box. The following table shows the message constants and describes their use.
 
 
 
@@ -126,9 +126,9 @@ The Common Dialog Box Library defines a set of message strings. You can pass a c
 
  
 
-Some common dialog boxes send and receive other window messages. The hook procedure for a **Font** dialog box can send any of the **WM\_CHOOSEFONT\_\*** messages to the **Font** dialog box. For more information, see [Font Dialog Box](font-dialog-box.md). The **Page Setup** dialog box sends the **WM\_PSD\_\*** messages if you have enabled a [*PagePaintHook*](https://msdn.microsoft.com/library/ms646935(v=VS.85).aspx) hook procedure. For more information, see [Page Setup Dialog Box](page-setup-dialog-box.md).
+Some common dialog boxes send and receive other window messages. The hook procedure for a **Font** dialog box can send any of the **WM\_CHOOSEFONT\_\*** messages to the **Font** dialog box. For more information, see [Font Dialog Box](font-dialog-box.md). The **Page Setup** dialog box sends the **WM\_PSD\_\*** messages if you have enabled a [*PagePaintHook*](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook) hook procedure. For more information, see [Page Setup Dialog Box](page-setup-dialog-box.md).
 
-The Explorer-style **Open** and **Save As** dialog boxes support a set of predefined messages. These include notification messages sent in the form of a [**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx) message to your hook procedure, and messages that your hook procedure can send to the dialog box. For a complete list of these messages, see [Explorer-Style Hook Procedures](open-and-save-as-dialog-boxes.md).
+The Explorer-style **Open** and **Save As** dialog boxes support a set of predefined messages. These include notification messages sent in the form of a [**WM\_NOTIFY**](../controls/wm-notify.md) message to your hook procedure, and messages that your hook procedure can send to the dialog box. For a complete list of these messages, see [Explorer-Style Hook Procedures](open-and-save-as-dialog-boxes.md).
 
 ## Help Support
 
@@ -151,31 +151,25 @@ If you customize a dialog box by adding new controls, you must also extend help 
 
 | User action                                                           | Message                                      |
 |-----------------------------------------------------------------------|----------------------------------------------|
-| Click the right mouse button over a control.                          | [**WM\_CONTEXTMENU**](https://docs.microsoft.com/windows/desktop/menurc/wm-contextmenu) |
-| Pressed the F1 key.                                                   | [**WM\_HELP**](https://msdn.microsoft.com/library/Bb774305(v=VS.85).aspx)               |
-| Clicked the **?** button on the title bar and then clicked a control. | [**WM\_HELP**](https://msdn.microsoft.com/library/Bb774305(v=VS.85).aspx)               |
+| Click the right mouse button over a control.                          | [**WM\_CONTEXTMENU**](/windows/desktop/menurc/wm-contextmenu) |
+| Pressed the F1 key.                                                   | [**WM\_HELP**](../shell/wm-help.md)               |
+| Clicked the **?** button on the title bar and then clicked a control. | [**WM\_HELP**](../shell/wm-help.md)               |
 
 
 
  
 
-You should process these messages for the controls you have added, but let the default dialog box procedure process the messages for the standard controls. For more information about how to process these messages, see [Help](https://msdn.microsoft.com/library/Bb776786(v=VS.85).aspx).
+You should process these messages for the controls you have added, but let the default dialog box procedure process the messages for the standard controls. For more information about how to process these messages, see [Help](/previous-versions/windows/desktop/legacy/bb776786(v=vs.85)).
 
 ### The Help Button
 
-You can display a **Help** button in any of the common dialog boxes by setting a **SHOWHELP** value in the **Flags** member of the initialization structure for the dialog box. If you display the **Help** button, you must process the user's request for help. The processing can be done either in one of your application's window procedures or in a hook procedure for the dialog box. Typically, you would process the request for help by calling the [**WinHelp**](https://msdn.microsoft.com/library/Bb762267(v=VS.85).aspx) function.
+You can display a **Help** button in any of the common dialog boxes by setting a **SHOWHELP** value in the **Flags** member of the initialization structure for the dialog box. If you display the **Help** button, you must process the user's request for help. The processing can be done either in one of your application's window procedures or in a hook procedure for the dialog box. Typically, you would process the request for help by calling the [**WinHelp**](/windows/win32/api/winuser/nf-winuser-winhelpa) function.
 
-To process help messages in one of your window procedures, you must get a message identifier for the string defined by the [**HELPMSGSTRING**](helpmsgstring.md) value and identify the window to receive messages. To get the message identifier, specify **HELPMSGSTRING** as the parameter in a call to the [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function. When you create the dialog box, use the **hwndOwner** member of the dialog box initialization structure to identify the window that is to receive the messages. The dialog box procedure sends the message to the window procedure whenever the user clicks the **Help** button.
+To process help messages in one of your window procedures, you must get a message identifier for the string defined by the [**HELPMSGSTRING**](helpmsgstring.md) value and identify the window to receive messages. To get the message identifier, specify **HELPMSGSTRING** as the parameter in a call to the [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function. When you create the dialog box, use the **hwndOwner** member of the dialog box initialization structure to identify the window that is to receive the messages. The dialog box procedure sends the message to the window procedure whenever the user clicks the **Help** button.
 
-To process help messages in a hook procedure, you should process the [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message. The hook procedure provides help if the *wParam* parameter of this message indicates that the user clicked the **Help** button. The identifier of the **Help** button is the **pshHelp** constant defined in the Dlgs.h file.
+To process help messages in a hook procedure, you should process the [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message. The hook procedure provides help if the *wParam* parameter of this message indicates that the user clicked the **Help** button. The identifier of the **Help** button is the **pshHelp** constant defined in the Dlgs.h file.
 
-Hook procedures for the Explorer-style **Open** and **Save As** dialog boxes do not receive [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) messages for the **Help** button. Instead, the dialog box sends a [**CDN\_HELP**](cdn-help.md) notification message to the hook procedure when the **Help** button is clicked.
-
- 
+Hook procedures for the Explorer-style **Open** and **Save As** dialog boxes do not receive [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) messages for the **Help** button. Instead, the dialog box sends a [**CDN\_HELP**](cdn-help.md) notification message to the hook procedure when the **Help** button is clicked.
 
  
-
-
-
-
 

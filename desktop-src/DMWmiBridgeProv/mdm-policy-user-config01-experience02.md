@@ -57,7 +57,7 @@ The **MDM\_Policy\_User\_Config01\_Experience02** class has these properties.
 
 <dl> <dt>
 
-[AllowTailoredExperiencesWithDiagnosticData](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-allowtailoredexperienceswithdiagnosticdata)
+[AllowTailoredExperiencesWithDiagnosticData](/windows/client-management/mdm/policy-csp-experience#experience-allowtailoredexperienceswithdiagnosticdata)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -68,7 +68,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowThirdPartySuggestionsInWindowsSpotlight](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-allowthirdpartysuggestionsinwindowsspotlight)
+[AllowThirdPartySuggestionsInWindowsSpotlight](/windows/client-management/mdm/policy-csp-experience#experience-allowthirdpartysuggestionsinwindowsspotlight)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -79,7 +79,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowWindowsConsumerFeatures](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-allowwindowsconsumerfeatures)
+[AllowWindowsConsumerFeatures](/windows/client-management/mdm/policy-csp-experience#experience-allowwindowsconsumerfeatures)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -90,7 +90,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowWindowsSpotlight](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-allowwindowsspotlight)
+[AllowWindowsSpotlight](/windows/client-management/mdm/policy-csp-experience#experience-allowwindowsspotlight)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -101,7 +101,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowWindowsSpotlightOnActionCenter](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-allowwindowsspotlightonactioncenter)
+[AllowWindowsSpotlightOnActionCenter](/windows/client-management/mdm/policy-csp-experience#experience-allowwindowsspotlightonactioncenter)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -112,7 +112,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowWindowsSpotlightWindowsWelcomeExperience](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-allowwindowsspotlightwindowswelcomeexperience)
+[AllowWindowsSpotlightWindowsWelcomeExperience](/windows/client-management/mdm/policy-csp-experience#experience-allowwindowsspotlightwindowswelcomeexperience)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -123,7 +123,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ConfigureWindowsSpotlightOnLockScreen](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-experience#experience-configurewindowsspotlightonlockscreen)
+[ConfigureWindowsSpotlightOnLockScreen](/windows/client-management/mdm/policy-csp-experience#experience-configurewindowsspotlightonlockscreen)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -143,7 +143,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "Experience".
@@ -159,7 +159,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./User/Vendor/MSFT/Policy/Config"
@@ -181,10 +181,4 @@ Describes the full path to the parent node. For this class, the string is "./Use
 
 
  
-
- 
-
-
-
-
 

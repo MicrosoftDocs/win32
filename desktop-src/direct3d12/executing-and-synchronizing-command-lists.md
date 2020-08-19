@@ -86,7 +86,7 @@ For more information about synchronizing resource state, see [Using resource bar
 
 ## Command queue support for tiled resources
 
-Methods for managing tiled resources, which were exposed through the [**ID3D11DeviceContext2**](https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2) interface in Direct3D 11, are provided by the [**ID3D12CommandQueue**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue) interface in Direct3D 12. These methods include:
+Methods for managing tiled resources, which were exposed through the [**ID3D11DeviceContext2**](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2) interface in Direct3D 11, are provided by the [**ID3D12CommandQueue**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue) interface in Direct3D 12. These methods include:
 
 
 
@@ -99,7 +99,7 @@ Methods for managing tiled resources, which were exposed through the [**ID3D11De
 
  
 
-For more information about using tiled resources in Direct3D 12 apps, refer to [Direct3D11 Tiled Resources](https://docs.microsoft.com/windows/desktop/direct3d11/tiled-resources).
+For more information about using tiled resources in Direct3D 12 apps, refer to [Direct3D11 Tiled Resources](/windows/desktop/direct3d11/tiled-resources).
 
 ## Related topics
 
@@ -109,10 +109,4 @@ For more information about using tiled resources in Direct3D 12 apps, refer to [
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

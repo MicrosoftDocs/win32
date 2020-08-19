@@ -20,7 +20,7 @@ This API is not available to all apps. Unless your app is specially provisioned 
 
 ## Members
 
-The **IFeedbackHubAppInfo** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface but does not have additional members.
+The **IFeedbackHubAppInfo** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Requirements
 
@@ -36,7 +36,3 @@ The **IFeedbackHubAppInfo** interface inherits from the [**IUnknown**](https://m
  
 
  
-
-
-
-

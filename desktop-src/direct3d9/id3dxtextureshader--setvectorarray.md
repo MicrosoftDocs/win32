@@ -58,7 +58,7 @@ Array of 4D vectors. See [**D3DXVECTOR4**](d3dxvector4.md).
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of vectors in the array.
 
@@ -91,7 +91,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

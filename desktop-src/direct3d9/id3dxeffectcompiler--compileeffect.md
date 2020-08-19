@@ -40,7 +40,7 @@ HRESULT CompileEffect(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Compile options identified by various flags. The Direct3D 10 HLSL compiler is now the default. See [D3DXSHADER Flags](d3dxshader-flags.md) for details.
 
@@ -95,7 +95,3 @@ If the method fails, the return value will be E\_FAIL.
  
 
  
-
-
-
-

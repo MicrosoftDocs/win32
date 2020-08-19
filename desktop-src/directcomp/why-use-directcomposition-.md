@@ -40,7 +40,7 @@ Many Windows-based applications have a UI that consists of elements created by a
 
 ## Memory savings though integration with DWM
 
-Compositions and animations created by DirectComposition are passed to a built-in component of Windows called [Desktop Window Manager (DWM)](https://docs.microsoft.com/windows/desktop/dwm/dwm-overview) for rendering to the screen. Therefore, no special rendering components or UI frameworks are required on the computer.
+Compositions and animations created by DirectComposition are passed to a built-in component of Windows called [Desktop Window Manager (DWM)](/windows/desktop/dwm/dwm-overview) for rendering to the screen. Therefore, no special rendering components or UI frameworks are required on the computer.
 
 ## Keep what you already have
 
@@ -56,7 +56,3 @@ The UI code in an existing Windows-based application represents a significant in
  
 
  
-
-
-
-

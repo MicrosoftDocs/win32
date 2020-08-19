@@ -54,8 +54,8 @@ If the dimensions of the source matrix are *rows* *columns*, the resulting matri
 
 | Name | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                         | Size                                                                                   |
 |------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| *x*  | [**matrix**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types), [**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types), [**bool**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types) | any                                                                                    |
-| ret  | [**matrix**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types), [**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types), [**bool**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types) | rows = same number of columns as input *x*, columns = same number of rows as input *x* |
+| *x*  | [**matrix**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types), [**int**](/windows/desktop/WinProg/windows-data-types), [**bool**](/windows/desktop/WinProg/windows-data-types) | any                                                                                    |
+| ret  | [**matrix**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types), [**int**](/windows/desktop/WinProg/windows-data-types), [**bool**](/windows/desktop/WinProg/windows-data-types) | rows = same number of columns as input *x*, columns = same number of rows as input *x* |
 
 
 
@@ -83,10 +83,4 @@ This function is supported in the following shader models.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

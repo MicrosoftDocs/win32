@@ -39,22 +39,22 @@ Here is a complete list of the features in Direct3D 9 that have been deprecated 
 
     See [Block Compression (Direct3D 10)](d3d10-graphics-programming-guide-resources-block-compression.md) for additional information.
 
--   **Clip planes**. Instead of using clip planes, Direct3D 10 implements clip distances and cull distances, with up to 8 components each in up to 2 elements of vertex attributes. See [Semantics (DirectX HLSL)](https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx) for additional information. [FixedFuncEMU sample](https://msdn.microsoft.com/library/Ee416406(v=VS.85).aspx) provides an example of emulating clip planes in Direct3D 10.
+-   **Clip planes**. Instead of using clip planes, Direct3D 10 implements clip distances and cull distances, with up to 8 components each in up to 2 elements of vertex attributes. See [Semantics (DirectX HLSL)](../direct3dhlsl/dx-graphics-hlsl-semantics.md) for additional information. [FixedFuncEMU sample](https://msdn.microsoft.com/library/Ee416406(v=VS.85).aspx) provides an example of emulating clip planes in Direct3D 10.
 -   **Dithering**. Direct3D 10 does not support writing dithered data to a render target.
--   **Fixed-function transform and lighting pipeline in not available**. Instead, you must use shaders. See [Shader Stages (Direct3D 10)](https://msdn.microsoft.com/library/Bb205146(v=VS.85).aspx) for additional information.
--   **Fixed-function texture blender (also called a fixed function pixel shader)**. Instead, you must use shaders. See [Shader Stages (Direct3D 10)](https://msdn.microsoft.com/library/Bb205146(v=VS.85).aspx) for additional information.
--   **Fill modes** have changed. Direct3D 10 implements solid and wireframe fill modes. D3DFILLMODE point has been removed, use a geometry shader to emulate point mode if necessary. [FixedFuncEMU sample](https://msdn.microsoft.com/library/Ee416406(v=VS.85).aspx) provides an example of emulating D3DFILLMODE point in Direct3D 10. See [**D3D10\_FILL\_MODE**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_fill_mode) and [Shader Stages (Direct3D 10)](https://msdn.microsoft.com/library/Bb205146(v=VS.85).aspx) for additional information.
+-   **Fixed-function transform and lighting pipeline in not available**. Instead, you must use shaders. See [Shader Stages (Direct3D 10)](/previous-versions//bb205146(v=vs.85)) for additional information.
+-   **Fixed-function texture blender (also called a fixed function pixel shader)**. Instead, you must use shaders. See [Shader Stages (Direct3D 10)](/previous-versions//bb205146(v=vs.85)) for additional information.
+-   **Fill modes** have changed. Direct3D 10 implements solid and wireframe fill modes. D3DFILLMODE point has been removed, use a geometry shader to emulate point mode if necessary. [FixedFuncEMU sample](https://msdn.microsoft.com/library/Ee416406(v=VS.85).aspx) provides an example of emulating D3DFILLMODE point in Direct3D 10. See [**D3D10\_FILL\_MODE**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_fill_mode) and [Shader Stages (Direct3D 10)](/previous-versions//bb205146(v=vs.85)) for additional information.
 -   **Formats**. Hardware can use formats exposed by the API. Luminance formats are no longer implemented.
 -   **Mipmap filtering**. Removed the option for selecting no-filter mode. Instead, use a texture with only a single mipmap or set the MaxLOD sampler state to 0. See [State Objects (Direct3D 10)](d3d10-graphics-programming-guide-api-features-state-objects.md) for additional information.
 -   **Palettes**. Applications should use a dependent texture read instead.
--   **Pixel and vertex shader models**: 1\_x, 2\_x, and 3\_0. Direct3D 10 supports shader model 4. See [Shader Model 4](https://msdn.microsoft.com/library/Bb509657(v=VS.85).aspx) for additional information.
--   **Point sprites**. Use a geometry shader instead. See [Shader Stages (Direct3D 10)](https://msdn.microsoft.com/library/Bb205146(v=VS.85).aspx) for additional information.
--   **Rasterization rules**. Legacy GDI line rasterization rules are replaced with cleaner, simpler rules. The last-pixel control for lines is no longer supported. See [Rasterization Rules (Direct3D 10)](https://msdn.microsoft.com/library/Cc627092(v=VS.85).aspx) for additional information.
+-   **Pixel and vertex shader models**: 1\_x, 2\_x, and 3\_0. Direct3D 10 supports shader model 4. See [Shader Model 4](../direct3dhlsl/dx-graphics-hlsl-sm4.md) for additional information.
+-   **Point sprites**. Use a geometry shader instead. See [Shader Stages (Direct3D 10)](/previous-versions//bb205146(v=vs.85)) for additional information.
+-   **Rasterization rules**. Legacy GDI line rasterization rules are replaced with cleaner, simpler rules. The last-pixel control for lines is no longer supported. See [Rasterization Rules (Direct3D 10)](../direct3d11/d3d10-graphics-programming-guide-rasterizer-stage-rules.md) for additional information.
 -   **Shade modes**. D3DSHADEMODE (which support flat/gouraud/phong shading) has been removed. Direct3D 10 implements two interpolations modifiers for vertex shader outputs instead. See [FixedFuncEMU sample](https://msdn.microsoft.com/library/Ee416406(v=VS.85).aspx) for an example of emulating Direct3D 9 gouraud and flat shade modes in Direct3D 10.
--   **texldp** instruction. An application must implement a projected-texture load with extra HLSL statements. See [Reference for HLSL](https://msdn.microsoft.com/library/Bb509638(v=VS.85).aspx) for additional information. [FixedFuncEMU sample](https://msdn.microsoft.com/library/Ee416406(v=VS.85).aspx) provides an example of emulating texldp in Direct3D 10.
+-   **texldp** instruction. An application must implement a projected-texture load with extra HLSL statements. See [Reference for HLSL](../direct3dhlsl/dx-graphics-hlsl-reference.md) for additional information. [FixedFuncEMU sample](https://msdn.microsoft.com/library/Ee416406(v=VS.85).aspx) provides an example of emulating texldp in Direct3D 10.
 -   **Texture coordinate-index** (TCI) texture-stage state (D3DTSS\_TEXCOORDINDEX) is no longer supported.
--   **Triangle fans**. An application must convert existing triangle-fans to triangle lists or triangle strips. To emulate some behaviors using DrawPrimitive in older APIs, try using DrawIndexed in Direct3D 10. See [Primitive Topologies (Direct3D 10)](https://msdn.microsoft.com/library/Bb205124(v=VS.85).aspx) for additional information.
--   **W buffering**. Hardware support is not guaranteed; it is recommended that an application uses high-precision depth buffers instead. See [Configuring Depth-Stencil Functionality (Direct3D 10)](https://msdn.microsoft.com/library/Bb205074(v=VS.85).aspx) for additional information.
+-   **Triangle fans**. An application must convert existing triangle-fans to triangle lists or triangle strips. To emulate some behaviors using DrawPrimitive in older APIs, try using DrawIndexed in Direct3D 10. See [Primitive Topologies (Direct3D 10)](../direct3d11/d3d10-graphics-programming-guide-primitive-topologies.md) for additional information.
+-   **W buffering**. Hardware support is not guaranteed; it is recommended that an application uses high-precision depth buffers instead. See [Configuring Depth-Stencil Functionality (Direct3D 10)](../direct3d11/d3d10-graphics-programming-guide-depth-stencil.md) for additional information.
 -   **Wrap modes** (texture coordinate wrapping). Texture address wrapping (such as wrap, mirror, clamp etc.) still exist. See [**D3D10\_SAMPLER\_DESC**](/windows/desktop/api/D3D10/ns-d3d10-d3d10_sampler_desc) and [**D3D10\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_texture_address_mode).
 
 ## Related topics
@@ -67,7 +67,3 @@ Here is a complete list of the features in Direct3D 9 that have been deprecated 
  
 
  
-
-
-
-

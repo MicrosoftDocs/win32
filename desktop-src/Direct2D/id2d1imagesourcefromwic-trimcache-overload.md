@@ -24,8 +24,8 @@ Trims the populated regions of the image source cache to just the specified rect
 
 | Method                                                                    | Description                                                                                                   |
 |:--------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [**TrimCache (D2D1\_RECT\_U\*)**](https://msdn.microsoft.com/library/Dn900423(v=VS.85).aspx)  | This method trims the populated regions of the image source cache to just the specified rectangle.<br/> |
-| [**TrimCache (D2D1\_RECT\_U&)**](https://msdn.microsoft.com/library/Dn900424(v=VS.85).aspx) | This method trims the populated regions of the image source cache to just the specified rectangle.<br/> |
+| [**TrimCache (D2D1\_RECT\_U\*)**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1imagesourcefromwic-trimcache(constd2d1_rect_u))  | This method trims the populated regions of the image source cache to just the specified rectangle.<br/> |
+| [**TrimCache (D2D1\_RECT\_U&)**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1imagesourcefromwic-trimcache(constd2d1_rect_u_)) | This method trims the populated regions of the image source cache to just the specified rectangle.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Trims the populated regions of the image source cache to just the specified rect
 
 <dl> <dt>
 
-[**ID2D1ImageSourceFromWic**](https://msdn.microsoft.com/library/Dn900414(v=VS.85).aspx)
+[**ID2D1ImageSourceFromWic**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

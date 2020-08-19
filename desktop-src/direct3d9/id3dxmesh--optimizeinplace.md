@@ -42,16 +42,16 @@ HRESULT OptimizeInplace(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Combination of one or more [**D3DXMESHOPT**](https://msdn.microsoft.com/library/Bb205374(v=VS.85).aspx) flags, specifying the type of optimization to perform.
+Combination of one or more [**D3DXMESHOPT**](./d3dxmeshopt.md) flags, specifying the type of optimization to perform.
 
 </dd> <dt>
 
 *pAdjacencyIn* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of three DWORDs per face that specifies the three neighbors for each face in the source mesh. If the edge has no adjacent faces, the value is 0xffffffff.
 
@@ -60,7 +60,7 @@ Pointer to an array of three DWORDs per face that specifies the three neighbors 
 *pAdjacencyOut* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of three DWORDs per face that specifies the three neighbors for each face in the optimized mesh. If the edge has no adjacent faces, the value is 0xffffffff. If the value supplied for this argument is **NULL**, adjacency data is not returned.
 
@@ -69,7 +69,7 @@ Pointer to an array of three DWORDs per face that specifies the three neighbors 
 *pFaceRemap* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 An array of DWORDs, one per face, that identifies the original mesh face that corresponds to each face in the optimized mesh. If the value supplied for this argument is **NULL**, face remap data is not returned.
 
@@ -123,7 +123,3 @@ Before running **ID3DXMesh::OptimizeInplace**, an application must generate an a
  
 
  
-
-
-
-

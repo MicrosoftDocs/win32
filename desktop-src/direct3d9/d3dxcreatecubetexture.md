@@ -44,16 +44,16 @@ HRESULT D3DXCreateCubeTexture(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the device to be associated with the texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, representing the device to be associated with the texture.
 
 </dd> <dt>
 
 *Size* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Width and height of the cube texture, in pixels. For example, if the cube texture is an 8-pixel by 8-pixel cube, the value for this parameter should be 8.
 
@@ -62,7 +62,7 @@ Width and height of the cube texture, in pixels. For example, if the cube textur
 *MipLevels* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of mip levels requested. If this value is zero or D3DX\_DEFAULT, a complete mipmap chain is created.
 
@@ -71,7 +71,7 @@ Number of mip levels requested. If this value is zero or D3DX\_DEFAULT, a comple
 *Usage* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 0, D3DUSAGE\_RENDERTARGET, or D3DUSAGE\_DYNAMIC. Setting this flag to D3DUSAGE\_RENDERTARGET indicates that the surface is to be used as a render target. The resource can then be passed to the *pNewRenderTarget* parameter of the [**SetRenderTarget**](/windows/desktop/api) method. If D3DUSAGE\_RENDERTARGET is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](/windows/desktop/api). For more information about using dynamic textures, see [Using Dynamic Textures](performance-optimizations.md).
 
@@ -89,18 +89,18 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the requeste
 *Pool* \[in\]
 </dt> <dd>
 
-Type: **[**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx)**
+Type: **[**D3DPOOL**](./d3dpool.md)**
 
-Member of the [**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx) enumerated type, describing the memory class into which the cube texture should be placed.
+Member of the [**D3DPOOL**](./d3dpool.md) enumerated type, describing the memory class into which the cube texture should be placed.
 
 </dd> <dt>
 
 *ppCubeTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DCUBETEXTURE9**](https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9)\***
 
-Address of a pointer to an [**IDirect3DCubeTexture9**](https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx) interface, representing the created cube texture object.
+Address of a pointer to an [**IDirect3DCubeTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9) interface, representing the created cube texture object.
 
 </dd> </dl>
 
@@ -114,7 +114,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 Cube textures differ from other surfaces in that they are collections of surfaces.
 
-Internally, D3DXCreateCubeTexture uses [**D3DXCheckCubeTextureRequirements**](d3dxcheckcubetexturerequirements.md) to adjust the calling parameters. Therefore, calls to D3DXCreateCubeTexture will often succeed where calls to [**CreateCubeTexture**](https://msdn.microsoft.com/library/Bb174355(v=VS.85).aspx) would fail.
+Internally, D3DXCreateCubeTexture uses [**D3DXCheckCubeTextureRequirements**](d3dxcheckcubetexturerequirements.md) to adjust the calling parameters. Therefore, calls to D3DXCreateCubeTexture will often succeed where calls to [**CreateCubeTexture**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createcubetexture) would fail.
 
 ## Requirements
 
@@ -137,7 +137,3 @@ Internally, D3DXCreateCubeTexture uses [**D3DXCheckCubeTextureRequirements**](d3
  
 
  
-
-
-
-

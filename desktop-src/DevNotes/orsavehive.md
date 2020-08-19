@@ -92,7 +92,7 @@ The minor version number of the operating system. This member can be one of the 
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://msdn.microsoft.com/library/ms679351.aspx) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error. Possible error codes include the following:
+If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error. Possible error codes include the following:
 
 -   If the caller does not have the necessary access rights to write the file, the function returns ERROR\_ACCESS\_DENIED.
 -   If the specified file already exists, the function returns ERROR\_ALREADY\_EXISTS.
@@ -120,7 +120,7 @@ The *dwOsMajorVersion* and *dwOsMinorVersion* parameters together specify the ta
 
  
 
-Use the [GetVersionEx](https://msdn.microsoft.com/library/ms724451.aspx) function to retrieve information about the current operating system.
+Use the [GetVersionEx](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa) function to retrieve information about the current operating system.
 
 The **ORSaveHive** function locks the registry hive while it is writing the hive to the file, then closes the file and releases the lock. The registry hive remains in memory until it is closed by calling the [**ORCloseHive**](orclosehive.md) function. It is possible to make further changes to the registry hive while it is open; however, to preserve these changes the hive must be saved to a new file, because the **ORSaveHive** function will not overwrite an existing file.
 
@@ -142,7 +142,7 @@ The **ORSaveHive** function can be used to save part of the offline registry hiv
 
 <dl> <dt>
 
-[GetVersionEx](https://msdn.microsoft.com/library/ms724451.aspx)
+[GetVersionEx](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa)
 </dt> <dt>
 
 [**ORCloseHive**](orclosehive.md)
@@ -154,7 +154,3 @@ The **ORSaveHive** function can be used to save part of the offline registry hiv
  
 
  
-
-
-
-

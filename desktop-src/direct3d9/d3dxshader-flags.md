@@ -55,7 +55,7 @@ Parse time flags are only used by the effect system (before effect compilation) 
 
 **Compiler flags**
 
-The DirectX 10 HLSL compiler is now the default compiler. See [Effect-Compiler Tool](https://msdn.microsoft.com/library/Bb232919(v=VS.85).aspx) for details.
+The DirectX 10 HLSL compiler is now the default compiler. See [Effect-Compiler Tool](../direct3dtools/fxc.md) for details.
 
 The following table details the flags available in Direct3D 9 and Direct3D 10. The value for the flag is the equivalent fxc option.
 
@@ -122,7 +122,7 @@ The effect system will use **assembler flags** when called by the following func
 -   [**D3DXAssembleShaderFromFile**](d3dxassembleshaderfromfile.md)
 -   [**D3DXAssembleShaderFromResource**](d3dxassembleshaderfromresource.md)
 
-Applying **compiler flags** or **assembler flags** to the incorrect API will fail shader validation. Check the Direct3D error code return value from the function with the DirectX Error Lookup Tool (DXErr.exe) to help track down this error. You can get DXErr.exe and learn about it from the DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/library/Ee663275(v=VS.85).aspx).
+Applying **compiler flags** or **assembler flags** to the incorrect API will fail shader validation. Check the Direct3D error code return value from the function with the DirectX Error Lookup Tool (DXErr.exe) to help track down this error. You can get DXErr.exe and learn about it from the DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](../directx-sdk--august-2009-.md).
 
 ## Requirements
 
@@ -144,7 +144,3 @@ Applying **compiler flags** or **assembler flags** to the incorrect API will fai
  
 
  
-
-
-
-

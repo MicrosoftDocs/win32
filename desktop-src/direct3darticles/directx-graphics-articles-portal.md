@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 This section contains technical articles that describe WARP and Windows 7's newly added support for Flip Mode Present and its associated Present Statistics in Direct3D 9Ex and Desktop Window Manager. This section also contains technical articles about Windows graphics APIs, porting Direct3D 9 APIs to Microsoft DirectX Graphics Infrastructure (DXGI) APIs, and how to deploy Direct3D 11.
 
-For more information about Direct3D, see [Direct3D](https://docs.microsoft.com/windows/desktop/direct3d).
+For more information about Direct3D, see [Direct3D](/windows/desktop/direct3d).
 
 ## Developer audience
 

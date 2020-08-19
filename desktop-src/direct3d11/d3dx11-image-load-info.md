@@ -56,7 +56,7 @@ typedef struct D3DX11_IMAGE_LOAD_INFO {
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -67,7 +67,7 @@ The target width of the texture. If the actual width of the texture is larger or
 **Height**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -78,7 +78,7 @@ The target height of the texture. If the actual height of the texture is larger 
 **Depth**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -89,7 +89,7 @@ The depth of the texture. This only applies to volume textures.
 **FirstMipLevel**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -100,7 +100,7 @@ The highest resolution mipmap level of the texture. If this is greater than 0, t
 **MipLevels**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -122,7 +122,7 @@ The way the texture resource is intended to be used. See [**D3D11\_USAGE**](/win
 **BindFlags**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -133,7 +133,7 @@ The pipeline stages that the texture will be allowed to bind to. See [**D3D11\_B
 **CpuAccessFlags**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -144,7 +144,7 @@ The access permissions the cpu will have for the texture resource. See [**D3D11\
 **MiscFlags**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -155,18 +155,18 @@ Miscellaneous resource properties (see [**D3D11\_RESOURCE\_MISC\_FLAG**](/window
 **Format**
 </dt> <dd>
 
-Type: **[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
+Type: **[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 
 </dd> <dd>
 
-A [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration indicating the format the texture will be in after it is loaded.
+A [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration indicating the format the texture will be in after it is loaded.
 
 </dd> <dt>
 
 **Filter**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -177,7 +177,7 @@ Filter the texture using the specified filter (only when resampling). See [**D3D
 **MipFilter**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -263,10 +263,4 @@ D3DX11_IMAGE_LOAD_INFO LoadInfo;
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

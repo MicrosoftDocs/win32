@@ -64,12 +64,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[LetAppsAccessCellularData](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-cellular#cellular-letappsaccesscellulardata)
+[LetAppsAccessCellularData](/windows/client-management/mdm/policy-csp-cellular#cellular-letappsaccesscellulardata)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -80,7 +80,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessCellularData\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-cellular#cellular-letappsaccesscellulardata-forceallowtheseapps)
+[LetAppsAccessCellularData\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-cellular#cellular-letappsaccesscellulardata-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -91,7 +91,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessCellularData\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-cellular#cellular-letappsaccesscellulardata-forcedenytheseapps)
+[LetAppsAccessCellularData\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-cellular#cellular-letappsaccesscellulardata-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -102,7 +102,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessCellularData\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-cellular#cellular-letappsaccesscellulardata-userincontroloftheseapps)
+[LetAppsAccessCellularData\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-cellular#cellular-letappsaccesscellulardata-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -122,12 +122,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[ShowAppCellularAccessUI](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-cellular#cellular-showappcellularaccessui)
+[ShowAppCellularAccessUI](/windows/client-management/mdm/policy-csp-cellular#cellular-showappcellularaccessui)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -153,10 +153,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

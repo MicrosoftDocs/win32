@@ -66,7 +66,7 @@ The **MDM\_SharedPC** class has these properties.
 
 <dl> <dt>
 
-[AccountModel](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp#accountmodel)
+[AccountModel](/windows/client-management/mdm/sharedpc-csp#accountmodel)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -75,11 +75,11 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
-[DeletionPolicy](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp#deletionpolicy)
+[DeletionPolicy](/windows/client-management/mdm/sharedpc-csp#deletionpolicy)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -88,11 +88,11 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
-[DiskLevelCaching](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp#disklevelcaching)
+[DiskLevelCaching](/windows/client-management/mdm/sharedpc-csp#disklevelcaching)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -101,11 +101,11 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
-[DiskLevelDeletion](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp#diskleveldeletion)
+[DiskLevelDeletion](/windows/client-management/mdm/sharedpc-csp#diskleveldeletion)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -114,11 +114,11 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
-[EnableAccountManager](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp#enableaccountmanager)
+[EnableAccountManager](/windows/client-management/mdm/sharedpc-csp#enableaccountmanager)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -127,11 +127,11 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
-[EnableSharedPCMode](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp#enablesharedpcmode)
+[EnableSharedPCMode](/windows/client-management/mdm/sharedpc-csp#enablesharedpcmode)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -140,11 +140,11 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
-[InactiveThreshold](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp#inactivethreshold)
+[InactiveThreshold](/windows/client-management/mdm/sharedpc-csp#inactivethreshold)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -153,7 +153,7 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -166,12 +166,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[KioskModeAUMID](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp#kioskmodeaumid)
+[KioskModeAUMID](/windows/client-management/mdm/sharedpc-csp#kioskmodeaumid)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -180,11 +180,11 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
-[KioskModeUserTileDisplayText](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp#kioskmodeusertiledisplaytext)
+[KioskModeUserTileDisplayText](/windows/client-management/mdm/sharedpc-csp#kioskmodeusertiledisplaytext)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -193,11 +193,11 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
-[MaintenanceStartTime](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp#maintenancestarttime)
+[MaintenanceStartTime](/windows/client-management/mdm/sharedpc-csp#maintenancestarttime)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -206,11 +206,11 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
-[MaxPageFileSizeMB](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp#maxpagefilesizemb)
+[MaxPageFileSizeMB](/windows/client-management/mdm/sharedpc-csp#maxpagefilesizemb)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -219,7 +219,7 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
@@ -232,12 +232,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[RestrictLocalStorage](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp#restrictlocalstorage)
+[RestrictLocalStorage](/windows/client-management/mdm/sharedpc-csp#restrictlocalstorage)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -246,11 +246,11 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
-[SetEduPolicies](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp#setedupolicies)
+[SetEduPolicies](/windows/client-management/mdm/sharedpc-csp#setedupolicies)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -259,11 +259,11 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
-[SetPowerPolicies](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp#setpowerpolicies)
+[SetPowerPolicies](/windows/client-management/mdm/sharedpc-csp#setpowerpolicies)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -272,11 +272,11 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
-[SignInOnResume](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp#signinonresume)
+[SignInOnResume](/windows/client-management/mdm/sharedpc-csp#signinonresume)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -285,11 +285,11 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](/windows/client-management/mdm/sharedpc-csp).
 
 </dd> <dt>
 
-[SleepTimeout](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp#sleeptimeout)
+[SleepTimeout](/windows/client-management/mdm/sharedpc-csp#sleeptimeout)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -298,7 +298,7 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-For additional information, see [SharedPC CSP](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp).
+For additional information, see [SharedPC CSP](/windows/client-management/mdm/sharedpc-csp).
 
 </dd> </dl>
 
@@ -317,10 +317,4 @@ For additional information, see [SharedPC CSP](https://docs.microsoft.com/window
 
 
  
-
- 
-
-
-
-
 

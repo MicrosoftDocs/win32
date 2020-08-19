@@ -26,7 +26,7 @@ Callback to request a render target.
 
 ## Members
 
-The **IFrameBufferRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFrameBufferRequest** also has these types of members:
+The **IFrameBufferRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFrameBufferRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IFrameBufferRequest** interface has these methods.
  
 
  
-
-
-

@@ -26,7 +26,7 @@ Not used. Formerly a callback to return all pixel history results at once.
 
 ## Members
 
-The **IPixelHistoryCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixelHistoryCallback** also has these types of members:
+The **IPixelHistoryCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixelHistoryCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IPixelHistoryCallback** interface has these methods.
  
 
  
-
-
-

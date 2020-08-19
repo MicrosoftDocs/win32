@@ -8,7 +8,7 @@ ms.date: 06/20/2019
 
 # IDXCoreAdapter::QueryState method
 
-Retrieves the current state of the specified item on the adapter. Before calling **QueryState** for a property type, call [IsQueryStateSupported](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-isquerystatesupported) to confirm that querying the state kind is available for this adapter and operating system (OS).
+Retrieves the current state of the specified item on the adapter. Before calling **QueryState** for a property type, call [IsQueryStateSupported](./nf-dxcore_interface-idxcoreadapter-isquerystatesupported.md) to confirm that querying the state kind is available for this adapter and operating system (OS).
 
 ## Syntax
 
@@ -36,9 +36,9 @@ HRESULT QueryState(
 
 ### state
 
-Type: **[DXCoreAdapterState](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate)**
+Type: **[DXCoreAdapterState](./ne-dxcore_interface-dxcoreadapterstate.md)**
 
-The kind of state item on the adapter whose state you wish to retrieve. See the table in [DXCoreAdapterState](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate) for more info about each adapter state kind.
+The kind of state item on the adapter whose state you wish to retrieve. See the table in [DXCoreAdapterState](./ne-dxcore_interface-dxcoreadapterstate.md) for more info about each adapter state kind.
 
 ### inputStateDetailsSize
 
@@ -50,7 +50,7 @@ The size, in bytes, of the input state details buffer that you (optionally) allo
 
 Type: **void const\***
 
-An optional pointer to a constant input state details buffer that you allocate in your application, containing any information about your request that's required for the state kind you specify in *state*. See the table in [DXCoreAdapterState](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate) for more info about any input buffer requirement for a given state kind.
+An optional pointer to a constant input state details buffer that you allocate in your application, containing any information about your request that's required for the state kind you specify in *state*. See the table in [DXCoreAdapterState](./ne-dxcore_interface-dxcoreadapterstate.md) for more info about any input buffer requirement for a given state kind.
 
 ### outputBufferSize
 
@@ -62,26 +62,26 @@ The size, in bytes, of the output buffer that you allocate and provide in *outpu
 
 Type: **void\***
 
-A pointer to an output buffer that you allocate in your application, and that the function fills in. See the table in [DXCoreAdapterState](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate) for more info about the output buffer requirement for a given state kind.
+A pointer to an output buffer that you allocate in your application, and that the function fills in. See the table in [DXCoreAdapterState](./ne-dxcore_interface-dxcoreadapterstate.md) for more info about the output buffer requirement for a given state kind.
 
 ## Returns
 
-Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
+Type: **[HRESULT](../../com/structure-of-com-error-codes.md)**
 
-If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/win32/com/structure-of-com-error-codes) [error code](/windows/win32/com/com-error-codes-10).
+If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](../../com/structure-of-com-error-codes.md) [error code](../../com/com-error-codes-10.md).
 
 |Return value|Description|
 |-|-|
 |DXGI_ERROR_DEVICE_REMOVED|The adapter is no longer in a valid state.|
-|DXGI_ERROR_INVALID_CALL|The state kind specified in *state* is not recognized by this operating system (OS). Call [IsQueryStateSupported](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-isquerystatesupported) to confirm that querying the state kind is available for this adapter and operating system (OS).|
-|DXGI_ERROR_UNSUPPORTED|The state kind specified in *state* is not supported by the adapter. Call [IsQueryStateSupported](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-isquerystatesupported) to confirm that querying the state kind is available for this adapter and operating system (OS).|
+|DXGI_ERROR_INVALID_CALL|The state kind specified in *state* is not recognized by this operating system (OS). Call [IsQueryStateSupported](./nf-dxcore_interface-idxcoreadapter-isquerystatesupported.md) to confirm that querying the state kind is available for this adapter and operating system (OS).|
+|DXGI_ERROR_UNSUPPORTED|The state kind specified in *state* is not supported by the adapter. Call [IsQueryStateSupported](./nf-dxcore_interface-idxcoreadapter-isquerystatesupported.md) to confirm that querying the state kind is available for this adapter and operating system (OS).|
 |E_INVALIDARG|An insufficient buffer size is provided for *outputBuffer* (or for *inputStateDetails* where an input state details buffer is necessary).|
 |E_POINTER|`nullptr` was provided for *outputBuffer* (or for *inputStateDetails* where an input state details buffer is necessary).|
 
 ## Remarks
 
-See [DXCoreAdapterState](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate) for more info about each adapter state kind, and what inputs and outputs are used. This function zeros out the *outputBuffer* buffer prior to filling it in.
+See [DXCoreAdapterState](./ne-dxcore_interface-dxcoreadapterstate.md) for more info about each adapter state kind, and what inputs and outputs are used. This function zeros out the *outputBuffer* buffer prior to filling it in.
 
 ## See also
 
-[IDXCoreAdapter](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+[IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md), [DXCore Reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)

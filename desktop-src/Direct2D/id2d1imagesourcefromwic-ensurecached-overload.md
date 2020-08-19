@@ -24,8 +24,8 @@ Loads image data into caches of image sources if that data is not already cached
 
 | Method                                                                          | Description                                                                        |
 |:--------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------|
-| [**EnsureCached (D2D1\_RECT\_U\*)**](https://msdn.microsoft.com/library/Dn900419(v=VS.85).aspx)  | Ensures that a specified region of the image source cache is populated.<br/> |
-| [**EnsureCached (D2D1\_RECT\_U&)**](https://msdn.microsoft.com/library/Dn900420(v=VS.85).aspx) | Ensures that a specified region of the image source cache is populated.<br/> |
+| [**EnsureCached (D2D1\_RECT\_U\*)**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1imagesourcefromwic-ensurecached(constd2d1_rect_u))  | Ensures that a specified region of the image source cache is populated.<br/> |
+| [**EnsureCached (D2D1\_RECT\_U&)**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1imagesourcefromwic-ensurecached(constd2d1_rect_u_)) | Ensures that a specified region of the image source cache is populated.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Loads image data into caches of image sources if that data is not already cached
 
 <dl> <dt>
 
-[**ID2D1ImageSourceFromWic**](https://msdn.microsoft.com/library/Dn900414(v=VS.85).aspx)
+[**ID2D1ImageSourceFromWic**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

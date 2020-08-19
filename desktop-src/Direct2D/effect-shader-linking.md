@@ -76,13 +76,13 @@ As a custom effect author, you should be aware of several key concepts and requi
 
 -   **No changes to effect interface implementations**
 
-    You do not need to modify any code implementing the various effect interfaces such as [ID2D1DrawTransform](https://msdn.microsoft.com/library/Hh847992(v=VS.85).aspx).
+    You do not need to modify any code implementing the various effect interfaces such as [ID2D1DrawTransform](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawtransform).
 
 -   **Provide both a full and export function version of shaders**
 
     You must provide an export function version of your effect’s shaders which are linkable by Direct2D. In addition, you must also continue to provide the original, full shader; this is because Direct2D selects at runtime the right shader version depending on whether shader linking is to be applied to a particular link in the graph.
 
-    If a transform only provides the full pixel shader blob (via [ID2D1EffectContext::LoadPixelShader](https://msdn.microsoft.com/library/Hh404476(v=VS.85).aspx)), it will not be linked to adjacent transforms.
+    If a transform only provides the full pixel shader blob (via [ID2D1EffectContext::LoadPixelShader](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-loadpixelshader)), it will not be linked to adjacent transforms.
 
 -   **Helper functions**
 
@@ -231,7 +231,7 @@ To compile the export function version of your shader, you must pass the followi
 |                                |                                                                                                                                                                                                                                                           |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Flag**                       | **Description**                                                                                                                                                                                                                                           |
-| /T <ShaderModel>         | Set <ShaderModel> to the appropriate pixel shader profile as defined in [FXC Syntax](https://docs.microsoft.com/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax). This must be one of the profiles listed under “HLSL shader linking”. |
+| /T <ShaderModel>         | Set <ShaderModel> to the appropriate pixel shader profile as defined in [FXC Syntax](/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax). This must be one of the profiles listed under “HLSL shader linking”. |
 | <MyShaderFile>.hlsl      | Set <MyShaderFile> to the name of the HLSL file.                                                                                                                                                                                                    |
 | /D D2D\_FUNCTION               | This definition instructs FXC to compile the export function version of the shader.                                                                                                                                                                       |
 | /D D2D\_ENTRY=<entry>    | Set <entry> to the name of the HLSL entry point you defined inside the [D2D\_PS\_ENTRY](d2d-ps-entry.md) macro.                                                                                                                                    |
@@ -255,7 +255,7 @@ To compile the full version of your shader with embedded export version, you mus
 |                                        |                                                                                                                                                                                                                                                                                      |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Flag**                               | **Description**                                                                                                                                                                                                                                                                      |
-| /T <ShaderModel>                 | Set <ShaderModel> to the appropriate pixel shader profile as defined in [FXC Syntax](https://docs.microsoft.com/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax). This must be the pixel shader profile corresponding to the linking profile specified in Step 1. |
+| /T <ShaderModel>                 | Set <ShaderModel> to the appropriate pixel shader profile as defined in [FXC Syntax](/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax). This must be the pixel shader profile corresponding to the linking profile specified in Step 1. |
 | <MyShaderFile>.hlsl              | Set <MyShaderFile> to the name of the HLSL file.                                                                                                                                                                                                                               |
 | /D D2D\_FULL\_SHADER                   | This definition instructs FXC to compile the full version of the shader.                                                                                                                                                                                                             |
 | /D D2D\_ENTRY=<entry>            | Set <entry> to the name of the HLSL entry point you defined inside the D2D\_PS\_ENTRY() macro.                                                                                                                                                                                 |
@@ -314,16 +314,12 @@ The semantics must be defined as above, as D2D will inspect the semantics to dec
 [HLSL Helpers](hlsl-helpers.md)
 </dt> <dt>
 
-[ID3D11Linker interface](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11linker)
+[ID3D11Linker interface](/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11linker)
 </dt> <dt>
 
-[ID3D11FunctionLinkingGraph interface](https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11functionlinkinggraph)
+[ID3D11FunctionLinkingGraph interface](/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11functionlinkinggraph)
 </dt> </dl>
 
  
 
  
-
-
-
-

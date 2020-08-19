@@ -48,7 +48,7 @@ Pointer to the arbitrary axis of rotation. See [**D3DXVECTOR3**](d3dxvector3.md)
 *Angle* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Rotation angle about the arbitrary axis, in radians. Angles are measured counterclockwise when looking along the arbitrary axis toward the origin.
 
@@ -108,7 +108,3 @@ Because the rotation is right-multiplied to the matrix stack, the rotation is re
  
 
  
-
-
-
-

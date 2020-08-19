@@ -22,7 +22,7 @@ Data processing object used by [**ID3DX10ThreadPump Interface**](id3dx10threadpu
 
 ## Members
 
-The **ID3DX10DataProcessor** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DX10DataProcessor** also has these types of members:
+The **ID3DX10DataProcessor** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX10DataProcessor** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -67,7 +67,3 @@ This object can be inherited and its members redefined. Doing so would enable yo
  
 
  
-
-
-
-

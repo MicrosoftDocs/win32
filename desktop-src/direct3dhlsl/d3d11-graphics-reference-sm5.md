@@ -30,11 +30,11 @@ Shader Model 5 is a superset of the capabilites in [Shader Model 4](dx-graphics-
 
  
 
-\* - gs\_4\_0, gs\_4\_1, ps\_4\_0, ps\_4\_1, vs\_4\_0 and vs\_4\_1 were introduced in Shader Model 4.0, however, DirectX 11 adds support for [structured buffers](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources) and byte address buffers to Shader Model 4 running on DirectX 10 hardware.
+\* - gs\_4\_0, gs\_4\_1, ps\_4\_0, ps\_4\_1, vs\_4\_0 and vs\_4\_1 were introduced in Shader Model 4.0, however, DirectX 11 adds support for [structured buffers](/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources) and byte address buffers to Shader Model 4 running on DirectX 10 hardware.
 
-Shader Model 5 introduces the [compute shader](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-compute-shader) which provides high-speed general purpose computing.
+Shader Model 5 introduces the [compute shader](/windows/desktop/direct3d11/direct3d-11-advanced-stages-compute-shader) which provides high-speed general purpose computing.
 
-A more complete listing of Shader Model 5 features is included in a listing of the [Direct3D 11 features](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-features).
+A more complete listing of Shader Model 5 features is included in a listing of the [Direct3D 11 features](/windows/desktop/direct3d11/direct3d-11-features).
 
 The [Shader Model 5 Assembly](shader-model-5-assembly--directx-hlsl-.md) section describes the assembly instructions that the Shader Model 5 supports.
 
@@ -61,10 +61,4 @@ The [Shader Model 5 Assembly](shader-model-5-assembly--directx-hlsl-.md) section
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

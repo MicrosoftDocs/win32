@@ -26,7 +26,7 @@ Callback from engine to handle errors.
 
 ## Members
 
-The **IPixErrorCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixErrorCallback** also has these types of members:
+The **IPixErrorCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixErrorCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IPixErrorCallback** interface has these methods.
  
 
  
-
-
-

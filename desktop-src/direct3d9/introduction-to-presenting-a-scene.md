@@ -10,11 +10,11 @@ ms.date: 05/31/2018
 
 The presentation APIs are a set of methods that control the state of the device that affects what the user sees on the monitor. These methods include setting display modes and once-per-frame methods that are used to present images to the user.
 
--   [**IDirect3DDevice9::Present**](https://msdn.microsoft.com/library/Bb174423(v=VS.85).aspx)
--   [**IDirect3DDevice9::Reset**](https://msdn.microsoft.com/library/Bb174425(v=VS.85).aspx)
--   [**IDirect3DDevice9::GetGammaRamp**](https://msdn.microsoft.com/library/Bb174390(v=VS.85).aspx)
--   [**IDirect3DDevice9::SetGammaRamp**](https://msdn.microsoft.com/library/Bb174434(v=VS.85).aspx)
--   [**IDirect3DDevice9::GetRasterStatus**](https://msdn.microsoft.com/library/Bb174402(v=VS.85).aspx)
+-   [**IDirect3DDevice9::Present**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-present)
+-   [**IDirect3DDevice9::Reset**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset)
+-   [**IDirect3DDevice9::GetGammaRamp**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getgammaramp)
+-   [**IDirect3DDevice9::SetGammaRamp**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setgammaramp)
+-   [**IDirect3DDevice9::GetRasterStatus**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getrasterstatus)
 
 Familiarity with the following terms is necessary to understand the presentation APIs.
 
@@ -22,7 +22,7 @@ Familiarity with the following terms is necessary to understand the presentation
 -   back buffer. A surface whose contents can be promoted to the front buffer.
 -   swap chain. A collection of back buffers that can be serially presented to the front buffer. Typically, a full-screen swap chain presents subsequent images with the flipping device driver interface (DDI), and a windowed swap chain presents images with the blitting DDI.
 
-Because Direct3D 9 has one swap chain as a property of the device, there is always at least one swap chain per device. The [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface has a set of methods that manipulate the implicit swap chain and are a copy of the swap chain's own interface. Applications can create additional swap chains; however, this is not necessary for the typical single window or full-screen application.
+Because Direct3D 9 has one swap chain as a property of the device, there is always at least one swap chain per device. The [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface has a set of methods that manipulate the implicit swap chain and are a copy of the swap chain's own interface. Applications can create additional swap chains; however, this is not necessary for the typical single window or full-screen application.
 
 The front buffer is not directly exposed in Direct3D 9. As a result, applications cannot lock or render to the front buffer. For details, see [Accessing the Color Front Buffer (Direct3D 9)](accessing-the-color-front-buffer.md).
 
@@ -31,9 +31,9 @@ The front buffer is not directly exposed in Direct3D 9. As a result, application
 
  
 
-A call to [**IDirect3D9::CreateDevice**](https://msdn.microsoft.com/library/Bb174313(v=VS.85).aspx) represents an implicit reset of the device. The Direct3D 9 API has no notion of a primary surface; you cannot create an object that represents the primary surface. It is considered to be an internal property of the device.
+A call to [**IDirect3D9::CreateDevice**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-createdevice) represents an implicit reset of the device. The Direct3D 9 API has no notion of a primary surface; you cannot create an object that represents the primary surface. It is considered to be an internal property of the device.
 
-Gamma ramps are associated with a swap chain and are manipulated with the [**IDirect3DDevice9::GetGammaRamp**](https://msdn.microsoft.com/library/Bb174390(v=VS.85).aspx) and [**IDirect3DDevice9::SetGammaRamp**](https://msdn.microsoft.com/library/Bb174434(v=VS.85).aspx) methods.
+Gamma ramps are associated with a swap chain and are manipulated with the [**IDirect3DDevice9::GetGammaRamp**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getgammaramp) and [**IDirect3DDevice9::SetGammaRamp**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setgammaramp) methods.
 
 ## Related topics
 
@@ -45,6 +45,3 @@ Gamma ramps are associated with a swap chain and are manipulated with the [**IDi
  
 
  
-
-
-

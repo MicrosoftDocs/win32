@@ -40,9 +40,9 @@ HRESULT SetInt(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the device associated with the constant table.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, representing the device associated with the constant table.
 
 </dd> <dt>
 
@@ -58,7 +58,7 @@ Unique identifier to the constant. See [D3DXHANDLE](dx9-graphics-reference-effec
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](../winprog/windows-data-types.md)**
 
 Integer.
 
@@ -91,7 +91,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

@@ -40,7 +40,7 @@ typedef struct D3DDEVINFO_D3D9PIPELINETIMINGS {
 **VertexProcessingTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -51,7 +51,7 @@ Percent of time spent running vertex shaders.
 **PixelProcessingTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -62,7 +62,7 @@ Percent of time spent running pixel shaders.
 **OtherGPUProcessingTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -73,7 +73,7 @@ Percent of time spent doing other processing.
 **GPUIdleTimePercent**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -102,13 +102,9 @@ For best performance, a balanced load is recommended.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx)
+[**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata)
 </dt> </dl>
 
  
 
  
-
-
-
-

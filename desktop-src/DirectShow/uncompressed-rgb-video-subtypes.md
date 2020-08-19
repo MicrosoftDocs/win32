@@ -60,7 +60,7 @@ For palettized formats, the color of each pixel is specified as an index into a 
 
     
 
--   For RGB 24, every pixel is an [**RGBTRIPLE**](https://msdn.microsoft.com/library/Dd162939(v=VS.85).aspx). Each color is one byte, with a value from 0 to 255, inclusive. The memory layout is: 
+-   For RGB 24, every pixel is an [**RGBTRIPLE**](/windows/win32/api/wingdi/ns-wingdi-rgbtriple). Each color is one byte, with a value from 0 to 255, inclusive. The memory layout is: 
 
     |       |      |       |     |
     |-------|------|-------|-----|
@@ -129,7 +129,3 @@ For palettized formats, the color of each pixel is specified as an index into a 
  
 
  
-
-
-
-

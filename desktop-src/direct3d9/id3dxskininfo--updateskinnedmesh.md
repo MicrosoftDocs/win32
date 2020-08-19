@@ -59,7 +59,7 @@ Inverse transpose of the bone transform matrix.
 *pVerticesSrc* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the buffer containing the source vertices.
 
@@ -68,7 +68,7 @@ Pointer to the buffer containing the source vertices.
 *pVerticesDst* \[in\]
 </dt> <dd>
 
-Type: **[**PVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**PVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the buffer containing the destination vertices.
 
@@ -105,7 +105,3 @@ When used to skin vertices with two position elements, this method skins the sec
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Align Text
 
-You can align [DirectWrite](direct-write-portal.md) text by using the [**SetTextAlignment**](https://msdn.microsoft.com/library/Dd316709(v=VS.85).aspx) method of the [**IDWriteTextFormat**](https://msdn.microsoft.com/library/Dd316628(v=VS.85).aspx) interface, as shown in the following code that centers the text.
+You can align [DirectWrite](direct-write-portal.md) text by using the [**SetTextAlignment**](/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-settextalignment) method of the [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) interface, as shown in the following code that centers the text.
 
 
 ```C++
@@ -29,12 +29,8 @@ The text can be aligned to the leading or trailing edge of the layout box, or it
 
  
 
-An [**IDWriteTextLayout**](https://msdn.microsoft.com/library/Dd316718(v=VS.85).aspx) object will use the alignment that has been designated for the [**IDWriteTextFormat**](https://msdn.microsoft.com/library/Dd316628(v=VS.85).aspx) provided by you when creating the layout. To change the text alignment, use [**IDWriteTextLayout::SetTextAlignment**](https://msdn.microsoft.com/library/Dd316709(v=VS.85).aspx).
+An [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) object will use the alignment that has been designated for the [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) provided by you when creating the layout. To change the text alignment, use [**IDWriteTextLayout::SetTextAlignment**](/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-settextalignment).
 
  
 
  
-
-
-
-

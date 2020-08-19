@@ -38,7 +38,7 @@ UINT D3DXGetShaderSize(
 *pFunction* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to the function DWORD stream.
 
@@ -46,7 +46,7 @@ Pointer to the function DWORD stream.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Returns the size of the shader byte code, in bytes.
 
@@ -71,7 +71,3 @@ Returns the size of the shader byte code, in bytes.
  
 
  
-
-
-
-

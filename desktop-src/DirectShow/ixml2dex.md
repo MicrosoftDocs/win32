@@ -27,7 +27,7 @@ The `IXml2Dex` interface saves and loads [DirectShow Editing Services](directsho
 
 ## Members
 
-The **IXml2Dex** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IXml2Dex** also has these types of members:
+The **IXml2Dex** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IXml2Dex** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -83,7 +83,3 @@ The **IXml2Dex** interface has these methods.
  
 
  
-
-
-
-

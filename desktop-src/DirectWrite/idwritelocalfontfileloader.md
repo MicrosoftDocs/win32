@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # IDWriteLocalFontFileLoader interface
 
-A built-in implementation of the [**IDWriteFontFileLoader**](https://msdn.microsoft.com/library/Dd371075(v=VS.85).aspx) interface, that operates on local font files and exposes local font file information from the font file reference key. Font file references created using [**CreateFontFileReference**](https://msdn.microsoft.com/library/Dd368197(v=VS.85).aspx) use this font file loader.
+A built-in implementation of the [**IDWriteFontFileLoader**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfileloader) interface, that operates on local font files and exposes local font file information from the font file reference key. Font file references created using [**CreateFontFileReference**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createfontfilereference) use this font file loader.
 
 ## Members
 
@@ -55,10 +55,4 @@ The **IDWriteLocalFontFileLoader** interface has these methods.
 
 
  
-
- 
-
-
-
-
 

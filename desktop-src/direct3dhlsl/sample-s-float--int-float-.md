@@ -95,7 +95,7 @@ An optional value to clamp sample LOD values to. For example, if you pass 2.0f f
 
 ## Return value
 
-The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
+The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
 ## Remarks
 
@@ -126,7 +126,3 @@ The data format returned is determined by the texture format. For example, if th
  
 
  
-
-
-
-

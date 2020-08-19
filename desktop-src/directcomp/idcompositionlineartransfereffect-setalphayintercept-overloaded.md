@@ -24,8 +24,8 @@ Sets the Y-intercept of the linear function for the alpha channel.
 
 | Method                                                                                                           | Description                                                                   |
 |:-----------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
-| [**SetAlphaYIntercept**](https://msdn.microsoft.com/library/Dn919745(v=VS.85).aspx)                               | Sets the Y-intercept of the linear function for the alpha channel.<br/> |
-| [**SetAlphaYIntercept (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919746(v=VS.85).aspx) | Sets the Y-intercept of the linear function for the alpha channel.<br/> |
+| [**SetAlphaYIntercept**](/windows/win32/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setalphayintercept(float))                               | Sets the Y-intercept of the linear function for the alpha channel.<br/> |
+| [**SetAlphaYIntercept (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setalphayintercept(idcompositionanimation)) | Sets the Y-intercept of the linear function for the alpha channel.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Sets the Y-intercept of the linear function for the alpha channel.
 
 <dl> <dt>
 
-[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/library/Dn919741(v=VS.85).aspx)
+[**IDCompositionLinearTransferEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionlineartransfereffect)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

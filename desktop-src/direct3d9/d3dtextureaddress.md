@@ -98,13 +98,9 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/library/Bb172602(v=VS.85).aspx)
+[**D3DSAMPLERSTATETYPE**](./d3dsamplerstatetype.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

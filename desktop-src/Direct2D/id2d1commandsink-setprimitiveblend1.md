@@ -83,11 +83,11 @@ The table here shows the primitive blend modes for both aliased and antialiased 
 
 An illustration of the primitive blend modes with varying opacity and backgrounds.
 
-The primitive blend will apply to all of the primitive drawn on the context, unless this is overridden with the *compositeMode* parameter on the [**DrawImage**](https://msdn.microsoft.com/library/Hh404511(v=VS.85).aspx) API.
+The primitive blend will apply to all of the primitive drawn on the context, unless this is overridden with the *compositeMode* parameter on the [**DrawImage**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1image_constd2d1_point_2f_constd2d1_rect_f_d2d1_interpolation_mode_d2d1_composite_mode)) API.
 
-The primitive blend applies to the interior of any primitives drawn on the context. In the case of [**DrawImage**](https://msdn.microsoft.com/library/Hh404511(v=VS.85).aspx), this will be implied by the image rectangle, offset and world transform.
+The primitive blend applies to the interior of any primitives drawn on the context. In the case of [**DrawImage**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1image_constd2d1_point_2f_constd2d1_rect_f_d2d1_interpolation_mode_d2d1_composite_mode)), this will be implied by the image rectangle, offset and world transform.
 
-If the primitive blend is anything other than **D2D1\_PRIMITIVE\_BLEND\_OVER** then ClearType rendering will be turned off. If the application explicitly forces ClearType rendering in these modes, the drawing context will be placed in an error state. D2DERR\_WRONG\_STATE will be returned from either [**EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx) or [**Flush**](https://msdn.microsoft.com/library/Dd316801(v=VS.85).aspx).
+If the primitive blend is anything other than **D2D1\_PRIMITIVE\_BLEND\_OVER** then ClearType rendering will be turned off. If the application explicitly forces ClearType rendering in these modes, the drawing context will be placed in an error state. D2DERR\_WRONG\_STATE will be returned from either [**EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) or [**Flush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush).
 
 ## Requirements
 
@@ -105,14 +105,8 @@ If the primitive blend is anything other than **D2D1\_PRIMITIVE\_BLEND\_OVER** t
 
 <dl> <dt>
 
-[**ID2D1CommandSink1**](https://msdn.microsoft.com/library/Dn280436(v=VS.85).aspx)
+[**ID2D1CommandSink1**](/windows/win32/api/d2d1_2/nn-d2d1_2-id2d1commandsink1)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

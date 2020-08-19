@@ -38,7 +38,7 @@ HRESULT Begin(
 *flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Flags that control how the sprites will be drawn. See [**D3DX10\_SPRITE\_FLAG**](d3dx10-sprite-flag.md).
 
@@ -78,7 +78,3 @@ Every call to Begin must be matched with a call to [**ID3DX10Sprite::End**](id3d
  
 
  
-
-
-
-

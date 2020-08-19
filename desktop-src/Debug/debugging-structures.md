@@ -13,17 +13,17 @@ The following structures are used with debugging:
 <dl>
 
 [**CONTEXT**](/windows/desktop/api/WinNT/ns-winnt-arm64_nt_context)  
-[**CREATE\_PROCESS\_DEBUG\_INFO**](https://msdn.microsoft.com/library/ms679286(v=VS.85).aspx)  
-[**CREATE\_THREAD\_DEBUG\_INFO**](https://msdn.microsoft.com/library/ms679287(v=VS.85).aspx)  
-[**DEBUG\_EVENT**](https://msdn.microsoft.com/library/ms679308(v=VS.85).aspx)  
-[**EXCEPTION\_DEBUG\_INFO**](https://msdn.microsoft.com/library/ms679326(v=VS.85).aspx)  
-[**EXIT\_PROCESS\_DEBUG\_INFO**](https://msdn.microsoft.com/library/ms679334(v=VS.85).aspx)  
-[**EXIT\_THREAD\_DEBUG\_INFO**](https://msdn.microsoft.com/library/ms679335(v=VS.85).aspx)  
+[**CREATE\_PROCESS\_DEBUG\_INFO**](/windows/win32/api/minwinbase/ns-minwinbase-create_process_debug_info)  
+[**CREATE\_THREAD\_DEBUG\_INFO**](/windows/win32/api/minwinbase/ns-minwinbase-create_thread_debug_info)  
+[**DEBUG\_EVENT**](/windows/win32/api/minwinbase/ns-minwinbase-debug_event)  
+[**EXCEPTION\_DEBUG\_INFO**](/windows/win32/api/minwinbase/ns-minwinbase-exception_debug_info)  
+[**EXIT\_PROCESS\_DEBUG\_INFO**](/windows/win32/api/minwinbase/ns-minwinbase-exit_process_debug_info)  
+[**EXIT\_THREAD\_DEBUG\_INFO**](/windows/win32/api/minwinbase/ns-minwinbase-exit_thread_debug_info)  
 [**LDT\_ENTRY**](/windows/desktop/api/WinNT/ns-winnt-ldt_entry)  
-[**LOAD\_DLL\_DEBUG\_INFO**](https://msdn.microsoft.com/library/ms680351(v=VS.85).aspx)  
-[**OUTPUT\_DEBUG\_STRING\_INFO**](https://msdn.microsoft.com/library/ms680545(v=VS.85).aspx)  
-[**RIP\_INFO**](https://msdn.microsoft.com/library/ms680587(v=VS.85).aspx)  
-[**UNLOAD\_DLL\_DEBUG\_INFO**](https://msdn.microsoft.com/library/ms681403(v=VS.85).aspx)  
+[**LOAD\_DLL\_DEBUG\_INFO**](/windows/win32/api/minwinbase/ns-minwinbase-load_dll_debug_info)  
+[**OUTPUT\_DEBUG\_STRING\_INFO**](/windows/win32/api/minwinbase/ns-minwinbase-output_debug_string_info)  
+[**RIP\_INFO**](/windows/win32/api/minwinbase/ns-minwinbase-rip_info)  
+[**UNLOAD\_DLL\_DEBUG\_INFO**](/windows/win32/api/minwinbase/ns-minwinbase-unload_dll_debug_info)  
 [**WOW64\_CONTEXT**](/windows/desktop/api/WinNT/ns-winnt-wow64_context)  
 [**WOW64\_FLOATING\_SAVE\_AREA**](/windows/desktop/api/WinNT/ns-winnt-wow64_floating_save_area)  
 [**WOW64\_LDT\_ENTRY**](/windows/desktop/api/WinNT/ns-winnt-wow64_ldt_entry)  
@@ -32,6 +32,3 @@ The following structures are used with debugging:
  
 
  
-
-
-

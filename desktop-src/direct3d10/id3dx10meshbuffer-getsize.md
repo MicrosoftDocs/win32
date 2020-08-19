@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)**
 
 The size of the mesh buffer, in bytes.
 
@@ -63,7 +63,3 @@ The size of the mesh buffer, in bytes.
  
 
  
-
-
-
-

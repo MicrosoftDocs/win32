@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 DirectShow provides a [System Device Enumerator](system-device-enumerator.md) object for enumerating devices. You can use it to retrieve monikers for effects or transitions installed on the user's system.
 
-The system device enumerator exposes the [**ICreateDevEnum**](/windows/desktop/api/Strmif/nn-strmif-icreatedevenum) interface. It returns category enumerators for specified device categories. A category enumerator, in turn, exposes the [**IEnumMoniker**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienummoniker) interface and returns monikers for each device in the category. For a detailed discussion of using **ICreateDevEnum**, see [Enumerating Devices and Filters](enumerating-devices-and-filters.md). The following is a brief summary, specific to DirectShow Editing Services.
+The system device enumerator exposes the [**ICreateDevEnum**](/windows/desktop/api/Strmif/nn-strmif-icreatedevenum) interface. It returns category enumerators for specified device categories. A category enumerator, in turn, exposes the [**IEnumMoniker**](/windows/desktop/api/objidl/nn-objidl-ienummoniker) interface and returns monikers for each device in the category. For a detailed discussion of using **ICreateDevEnum**, see [Enumerating Devices and Filters](enumerating-devices-and-filters.md). The following is a brief summary, specific to DirectShow Editing Services.
 
 To enumerate effects or transitions, perform the following steps.
 
@@ -96,6 +96,3 @@ pCreateDevEnum->Release();
  
 
  
-
-
-

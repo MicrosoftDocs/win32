@@ -24,8 +24,8 @@ Changes or animates the value of the OffsetX property of a 2D translation transf
 
 | Method                                                                                                            | Description                                            |
 |:------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetOffsetX(float)**](https://msdn.microsoft.com/library/Hh449124(v=VS.85).aspx)                                     | Changes the value of the OffsetX property.<br/>  |
-| [**SetOffsetX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449125(v=VS.85).aspx) | Animates the value of the OffsetX property.<br/> |
+| [**SetOffsetX(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositiontranslatetransform-setoffsetx(float))                                     | Changes the value of the OffsetX property.<br/>  |
+| [**SetOffsetX(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositiontranslatetransform-setoffsetx(idcompositionanimation)) | Animates the value of the OffsetX property.<br/> |
 
 
 
@@ -47,14 +47,9 @@ Changes or animates the value of the OffsetX property of a 2D translation transf
 
 <dl> <dt>
 
-[**IDCompositionTranslateTransform**](https://msdn.microsoft.com/library/Hh449113(v=VS.85).aspx)
+[**IDCompositionTranslateTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositiontranslatetransform)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

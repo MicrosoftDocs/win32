@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMUBYTEN4 Extensions
 
-[**XMUBYTEN4**](https://msdn.microsoft.com/library/Ee420492(v=VS.85).aspx) describes a 3D vector for storing unsigned, normalized values as unsigned 8-bits (1 byte) integers.
+[**XMUBYTEN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyten4) describes a 3D vector for storing unsigned, normalized values as unsigned 8-bits (1 byte) integers.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -35,13 +35,9 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMUBYTEN4**](https://msdn.microsoft.com/library/Ee420492(v=VS.85).aspx)
+[**XMUBYTEN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyten4)
 </dt> </dl>
 
  
 
  
-
-
-
-

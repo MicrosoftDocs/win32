@@ -80,7 +80,7 @@ For more information about structure members, refer to [**D3DXCOLOR**](d3dxcolor
 Operator overloads and type casts for this structure are implemented in d3dx9math.inl.
 
 > [!Note]  
-> The D3DXCOLOR() constructor crashes at runtime when you run it in debug mode in Microsoft Visual Studio 2010 with the [Run-Time Error Checks (/RTCc)](https://msdn.microsoft.com/library/8wtf2dfz(v=vs.100).aspx) compiler option.
+> The D3DXCOLOR() constructor crashes at runtime when you run it in debug mode in Microsoft Visual Studio 2010 with the [Run-Time Error Checks (/RTCc)](/previous-versions/visualstudio/visual-studio-2010/8wtf2dfz(v=vs.100)) compiler option.
 
  
 
@@ -104,7 +104,3 @@ Operator overloads and type casts for this structure are implemented in d3dx9mat
  
 
  
-
-
-
-

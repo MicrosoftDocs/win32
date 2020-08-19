@@ -39,7 +39,7 @@ Set the location (call [**GetGPUVirtualAddress**](/windows/desktop/api/d3d12/nf-
 
 `typedef UINT64 D3D12_GPU_VIRTUAL_ADDRESS;`
 
-Refer to the [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) enum. Typically for an index buffer the following define might be used:
+Refer to the [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) enum. Typically for an index buffer the following define might be used:
 
 `const DXGI_FORMAT StandardIndexFormat = DXGI_FORMAT_R32_UINT;`
 
@@ -117,7 +117,7 @@ The `ViewDimension` field is set to zero, or one value of the [**D3D12\_BUFFER\_
 
 The enums and structures referenced by [**D3D12\_SHADER\_RESOURCE\_VIEW\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_shader_resource_view_desc) are:
 
--   [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)
+-   [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)
 -   [**D3D12\_BUFFER\_SRV**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_buffer_srv)
 -   [**D3D12\_TEX1D\_SRV**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex1d_srv)
 -   [**D3D12\_TEX1D\_ARRAY\_SRV**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex1d_array_srv)
@@ -252,7 +252,7 @@ The `ViewDimension` field is set to zero, or one value of the [**D3D12\_BUFFER\_
 
 Refer to the following enums and structures:
 
--   [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)
+-   [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)
 -   [**D3D12\_BUFFER\_UAV**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_buffer_uav)
 -   [**D3D12\_TEX1D\_UAV**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex1d_uav)
 -   [**D3D12\_TEX1D\_ARRAY\_UAV**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex1d_array_uav)
@@ -365,7 +365,7 @@ The `ViewDimension` field is set to zero, or one value of the [**D3D12\_RTV\_DIM
 
 Refer to the following enums and structures:
 
--   [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)
+-   [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)
 -   [**D3D12\_BUFFER\_RTV**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_buffer_rtv)
 -   [**D3D12\_TEX1D\_RTV**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex1d_rtv)
 -   [**D3D12\_TEX1D\_ARRAY\_RTV**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex1d_array_rtv)
@@ -433,7 +433,7 @@ The `ViewDimension` field is set to zero, or one value of the [**D3D12\_DSV\_DIM
 
 Refer to the following enums and structures:
 
--   [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)
+-   [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)
 -   [**D3D12\_TEX1D\_DSV**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex1d_dsv)
 -   [**D3D12\_TEX1D\_ARRAY\_DSV**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex1d_array_dsv)
 -   [**D3D12\_TEX2D\_DSV**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex2d_dsv)
@@ -487,7 +487,3 @@ For example,
  
 
  
-
-
-
-

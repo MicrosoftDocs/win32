@@ -76,7 +76,7 @@ DirectShow provides several video renderer filters. Before you build the graph, 
 -   Overlay Mixer Filter: [**IDDrawExclModeVideo**](/windows/desktop/api/Strmif/nn-strmif-iddrawexclmodevideo).
 -   Video Mixing Renderer 7 (VMR-7): [**IVMRFilterConfig**](/windows/desktop/api/Strmif/nn-strmif-ivmrfilterconfig).
 -   Video Mixing Renderer 9 (VMR-9): [**IVMRFilterConfig9**](/previous-versions/windows/desktop/api/Vmr9/nn-vmr9-ivmrfilterconfig9).
--   Enhanced Video Renderer (EVR): [**IEVRFilterConfig**](https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrfilterconfig).
+-   Enhanced Video Renderer (EVR): [**IEVRFilterConfig**](/windows/desktop/api/evr/nn-evr-ievrfilterconfig).
 
 If you request any of these interfaces before building the filter graph, the DVD Graph Builder creates the corresponding video renderer. Later, when you build the graph, the DVD Graph Builder will try to use that renderer. But if it cannot build the graph using the renderer you selected, it may switch to another renderer. For example, your MPEG-2 decoder might not be compatible with the VMR filter, in which case the DVD Graph Builder would default to the Overlay Mixer.
 
@@ -119,6 +119,3 @@ Windowless mode avoids the problems with mouse messages altogether. You do not n
  
 
  
-
-
-

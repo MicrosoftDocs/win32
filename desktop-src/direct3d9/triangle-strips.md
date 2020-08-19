@@ -42,7 +42,7 @@ CUSTOMVERTEX Vertices[] =
 
 
 
-The code example below shows how to render this triangle strip in Direct3D 9 using [**IDirect3DDevice9::DrawPrimitive**](https://msdn.microsoft.com/library/Bb174371(v=VS.85).aspx).
+The code example below shows how to render this triangle strip in Direct3D 9 using [**IDirect3DDevice9::DrawPrimitive**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawprimitive).
 
 
 ```
@@ -84,6 +84,3 @@ CUSTOMVERTEX Vertices[] =
  
 
  
-
-
-

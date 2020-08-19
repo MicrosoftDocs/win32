@@ -38,9 +38,9 @@ HRESULT GetDevice(
 *ppDevice* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)\***
 
-Address of a pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the Direct3D device object associated with the sprite object.
+Address of a pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, representing the Direct3D device object associated with the sprite object.
 
 </dd> </dl>
 
@@ -52,7 +52,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 ## Remarks
 
-Calling this method will increase the internal reference count on the [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface.
+Calling this method will increase the internal reference count on the [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface.
 
 ## Requirements
 
@@ -75,7 +75,3 @@ Calling this method will increase the internal reference count on the [**IDirect
  
 
  
-
-
-
-

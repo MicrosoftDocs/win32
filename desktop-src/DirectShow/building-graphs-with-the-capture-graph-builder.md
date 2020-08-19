@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Despite its name, the Capture Graph Builder is useful for building many kinds of custom filter graphs, not only capture graphs. This article provides a brief overview of how to use this object.
 
-The Capture Graph Builder exposes the [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) interface. Start by calling [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) to create the Capture Graph Builder and the Filter Graph Manager. Then initialize the Capture Graph Builder by calling [**ICaptureGraphBuilder2::SetFiltergraph**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-setfiltergraph) with a pointer to the Filter Graph Manager, as follows:
+The Capture Graph Builder exposes the [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) interface. Start by calling [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) to create the Capture Graph Builder and the Filter Graph Manager. Then initialize the Capture Graph Builder by calling [**ICaptureGraphBuilder2::SetFiltergraph**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-setfiltergraph) with a pointer to the Filter Graph Manager, as follows:
 
 
 ```C++
@@ -38,7 +38,7 @@ if (SUCCEEDED(hr))
 
 ## Connecting Filters
 
-The [**ICaptureGraphBuilder2::RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream) method connects two or three filters together in a chain. Generally, the method works best when each filter has no more than one input pin or output pin of the same type. This discussion begins by ignoring the first two parameters of **RenderStream** and focusing on the last three parameters. The third parameter is an [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) pointer, which can specify either a filter (as an [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) interface pointer) or an output pin (as an [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin) interface pointer). The fourth and fifth parameters specify **IBaseFilter** pointers. The **RenderStream** method connects all three filters in a chain. For example, suppose that *A*, *B*, and *C* are filters. Assume for now that each filter has exactly one input pin and one output pin. The following call connects A to B, and then B to C:
+The [**ICaptureGraphBuilder2::RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream) method connects two or three filters together in a chain. Generally, the method works best when each filter has no more than one input pin or output pin of the same type. This discussion begins by ignoring the first two parameters of **RenderStream** and focusing on the last three parameters. The third parameter is an [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) pointer, which can specify either a filter (as an [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) interface pointer) or an output pin (as an [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin) interface pointer). The fourth and fifth parameters specify **IBaseFilter** pointers. The **RenderStream** method connects all three filters in a chain. For example, suppose that *A*, *B*, and *C* are filters. Assume for now that each filter has exactly one input pin and one output pin. The following call connects A to B, and then B to C:
 
 <dl> `RenderStream(NULL, NULL, A, B, C)`  
 </dl>
@@ -175,6 +175,3 @@ if (SUCCESSFUL(hr))
  
 
  
-
-
-

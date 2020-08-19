@@ -43,7 +43,7 @@ This section discusses the following topics.
 
 ## The FINDMSGSTRING Registered Message
 
-Before creating a **Find** or **Replace** dialog box, you must call the [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function to get a message identifier for the [**FINDMSGSTRING**](findmsgstring.md) registered message. You can then use the identifier to detect and process messages sent from the dialog box. When the user clicks the **Find Next**, **Replace**, or **Replace All** button in a dialog box, the dialog box procedure sends a **FINDMSGSTRING** message to the window procedure of the owner window. When you create the dialog box, the **hwndOwner** member of the [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea) structure identifies the owner window.
+Before creating a **Find** or **Replace** dialog box, you must call the [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function to get a message identifier for the [**FINDMSGSTRING**](findmsgstring.md) registered message. You can then use the identifier to detect and process messages sent from the dialog box. When the user clicks the **Find Next**, **Replace**, or **Replace All** button in a dialog box, the dialog box procedure sends a **FINDMSGSTRING** message to the window procedure of the owner window. When you create the dialog box, the **hwndOwner** member of the [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea) structure identifies the owner window.
 
 The *lParam* parameter of a [**FINDMSGSTRING**](findmsgstring.md) message is a pointer to the [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea) structure that you specified when you created the dialog box. Before sending the message, the dialog box sets the members of this structure with the latest user input, including the string to search for, the replacement string (if any), and options for the find-and-replace operation.
 
@@ -98,7 +98,7 @@ You can provide a custom template for a **Find** or **Replace** dialog box, for 
 
         -   If your custom template is already in memory, set the FR\_ENABLETEMPLATEHANDLE flag. Use the **hInstance** member to identify the memory object that contains the template.
 
-You can provide an [**FRHookProc**](https://msdn.microsoft.com/library/ms646922(v=VS.85).aspx) hook procedure for a **Find** or **Replace** dialog box. The hook procedure can process messages sent to the dialog box. If you use a custom template to define additional controls, you must provide a hook procedure to process input for your controls.
+You can provide an [**FRHookProc**](/windows/win32/api/commdlg/nc-commdlg-lpfrhookproc) hook procedure for a **Find** or **Replace** dialog box. The hook procedure can process messages sent to the dialog box. If you use a custom template to define additional controls, you must provide a hook procedure to process input for your controls.
 
 **To enable a hook procedure for a Find or Replace dialog box**
 
@@ -107,7 +107,7 @@ You can provide an [**FRHookProc**](https://msdn.microsoft.com/library/ms646922(
 
 After processing its [**WM\_INITDIALOG**](wm-initdialog.md) message, the dialog box procedure sends a **WM\_INITDIALOG** message to the hook procedure. The *lParam* parameter of this message is a pointer to the [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea) structure used to initialize the dialog box.
 
-If the hook procedure returns **FALSE** in response to the [**WM\_INITDIALOG**](wm-initdialog.md) message, the dialog box will not be shown unless the hook procedure displays it. To do this, first perform any other paint operations, and then call the [**ShowWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow) and [**UpdateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow) functions. The following code provides an example:
+If the hook procedure returns **FALSE** in response to the [**WM\_INITDIALOG**](wm-initdialog.md) message, the dialog box will not be shown unless the hook procedure displays it. To do this, first perform any other paint operations, and then call the [**ShowWindow**](/windows/desktop/api/winuser/nf-winuser-showwindow) and [**UpdateWindow**](/windows/desktop/api/winuser/nf-winuser-updatewindow) functions. The following code provides an example:
 
 
 ```
@@ -123,7 +123,3 @@ UpdateWindow(hDlg);
  
 
  
-
-
-
-

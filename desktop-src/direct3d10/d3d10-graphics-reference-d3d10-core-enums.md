@@ -36,12 +36,12 @@ This section contains information about the following core enumerations:
 | [**D3D10\_MESSAGE\_CATEGORY**](/windows/desktop/api/d3d10sdklayers/ne-d3d10sdklayers-d3d10_message_category)                | Categories of debug messages.                                                                                                                       |
 | [**D3D10\_MESSAGE\_ID**](/windows/desktop/api/d3d10sdklayers/ne-d3d10sdklayers-d3d10_message_id)                            | A debug message's unique ID.                                                                                                                        |
 | [**D3D10\_MESSAGE\_SEVERITY**](/windows/desktop/api/d3d10sdklayers/ne-d3d10sdklayers-d3d10_message_severity)                | Severity of a debug message.                                                                                                                        |
-| [**D3D10\_PRIMITIVE\_TOPOLOGY**](https://msdn.microsoft.com/library/Bb205334(v=VS.85).aspx)            | Types of primitive topology or the way a primitive's data is arranged.                                                                              |
+| [**D3D10\_PRIMITIVE\_TOPOLOGY**](/previous-versions/windows/desktop/legacy/bb205334(v=vs.85))            | Types of primitive topology or the way a primitive's data is arranged.                                                                              |
 | [**D3D10\_QUERY**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_query)                                       | Types of queries.                                                                                                                                   |
 | [**D3D10\_QUERY\_MISC\_FLAG**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_query_misc_flag)                 | Flags that describe miscellaneous query behavior.                                                                                                   |
 | [**D3D10\_RAISE\_FLAG**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_raise_flag)                            | Flags that indicate how to handle internal driver errors.                                                                                           |
-| [**D3D10\_REGISTER\_COMPONENT\_TYPE**](https://msdn.microsoft.com/library/Bb172409(v=VS.85).aspx) | The register component types, usually used in [**D3D10\_SIGNATURE\_PARAMETER\_DESC**](/windows/desktop/api/D3D10Shader/ns-d3d10shader-d3d10_signature_parameter_desc).                          |
-| [**D3D10\_RESOURCE\_RETURN\_TYPE**](https://msdn.microsoft.com/library/Bb172413(v=VS.85).aspx)       | The return type of a resource. See [**D3D10\_SHADER\_INPUT\_BIND\_DESC**](/windows/desktop/api/D3D10Shader/ns-d3d10shader-d3d10_shader_input_bind_desc).                                        |
+| [**D3D10\_REGISTER\_COMPONENT\_TYPE**](/windows/win32/api/d3dcommon/ne-d3dcommon-d3d_register_component_type) | The register component types, usually used in [**D3D10\_SIGNATURE\_PARAMETER\_DESC**](/windows/desktop/api/D3D10Shader/ns-d3d10shader-d3d10_signature_parameter_desc).                          |
+| [**D3D10\_RESOURCE\_RETURN\_TYPE**](/windows/win32/api/d3dcommon/ne-d3dcommon-d3d_resource_return_type)       | The return type of a resource. See [**D3D10\_SHADER\_INPUT\_BIND\_DESC**](/windows/desktop/api/D3D10Shader/ns-d3d10shader-d3d10_shader_input_bind_desc).                                        |
 | [**D3D10\_STENCIL\_OP**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_stencil_op)                            | Stencil operations.                                                                                                                                 |
 | [**D3D10\_TEXTURE\_ADDRESS\_MODE**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_texture_address_mode)       | Actions to perform when a texture coordinate is outside of the boundaries of a texture.                                                             |
 | [**D3D10\_TEXTURECUBE\_FACE**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_texturecube_face)                | The different faces of a cube texture.                                                                                                              |
@@ -60,6 +60,3 @@ This section contains information about the following core enumerations:
  
 
  
-
-
-

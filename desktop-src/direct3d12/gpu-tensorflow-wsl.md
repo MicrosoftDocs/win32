@@ -14,7 +14,7 @@ This preview provides students and beginners a way to start building knowledge i
 
 ## Install the latest Windows Insider Fast build 
 
-To use this preview, you'll need to [register for the Windows Insider Program](https://insider.windows.com/getting-started/#register). Once you do, follow [these instuctions](https://insider.windows.com/en-us/getting-started/#install) to install the latest insider build. When choosing your settings, ensure you're selecting the [Fast ring](https://docs.microsoft.com/windows-insider/flight-hub/#active-development-builds-of-windows-10). 
+To use this preview, you'll need to [register for the Windows Insider Program](https://insider.windows.com/getting-started/#register). Once you do, follow [these instuctions](https://insider.windows.com/en-us/getting-started/#install) to install the latest insider build. When choosing your settings, ensure you're selecting the [Fast ring](/windows-insider/flight-hub/#active-development-builds-of-windows-10). 
 
 For this preview, you need Build 20150 or higher. You can check your build version number by running `winver` via the **Run** command (Windows logo key + R).
 
@@ -45,7 +45,7 @@ Future versions of NVIDIA’s preview driver will support DirectML. For more inf
 
 ### Install WSL 2 
 
-Once you've installed the above driver, ensure you [enable WSL 2](https://docs.microsoft.com/windows/wsl/install-win10) and [install a glibc-based distribution](https://docs.microsoft.com/windows/wsl/install-win10#install-your-linux-distribution-of-choice) (like Ubuntu or Debian). For our testing, we used Ubuntu. Ensure you have the latest kernel by selecting **Check for updates** in the **Windows Update** section of the Settings app. 
+Once you've installed the above driver, ensure you [enable WSL 2](/windows/wsl/install-win10) and [install a glibc-based distribution](/windows/wsl/install-win10#install-your-linux-distribution-of-choice) (like Ubuntu or Debian). For our testing, we used Ubuntu. Ensure you have the latest kernel by selecting **Check for updates** in the **Windows Update** section of the Settings app. 
 
 > [!NOTE]
 > Ensure you have the **Receive updates for other Microsoft products when you update Windows** enabled. You can find it in **Advanced options** within the **Windows Update** section of the Settings app. 
@@ -117,4 +117,4 @@ tf.Tensor([4. 6.], shape=(2,), dtype=float32)
 
 Now you’re ready to start learning more about ML training. Check out the [TensorFlow tutorials](https://github.com/tensorflow/docs/tree/master/site/en/r1/tutorials) or [our samples](https://github.com/microsoft/DirectML). We used this content as validation for this initial preview package of TensorFlow with DirectML. 
 
-If you run into issues or have feedback on the TensorFlow with DirectML package, please [connect with our team here](https://github.com/microsoft/DirectML/issues). 
+If you run into issues or have feedback on the TensorFlow with DirectML package, please [connect with our team here](https://github.com/microsoft/DirectML/issues).

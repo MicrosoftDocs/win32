@@ -17,7 +17,7 @@ api_location:
 
 Assigns vector component data to the current instance of `XMUDECN4`.
 
-Assigns vector component data to the current instance of [**XMUDECN4**](https://msdn.microsoft.com/library/Ee420527(v=VS.85).aspx).
+Assigns vector component data to the current instance of [**XMUDECN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmudecn4).
 
 ### Overload list
 
@@ -68,13 +68,9 @@ This operator is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMUDECN4**](https://msdn.microsoft.com/library/Ee420527(v=VS.85).aspx)
+[**XMUDECN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmudecn4)
 </dt> </dl>
 
  
 
  
-
-
-
-

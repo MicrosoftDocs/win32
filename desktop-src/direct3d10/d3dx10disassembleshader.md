@@ -18,11 +18,11 @@ api_location:
 # D3DX10DisassembleShader function
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you use the [**D3DDisassemble**](https://msdn.microsoft.com/library/Dd607326(v=VS.85).aspx) API.
+> Instead of using this legacy function, we recommend that you use the [**D3DDisassemble**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3ddisassemble) API.
 
  
 
-This function -- which disassembles a compiled shader into a text string that contains assembly instructions and register assignments -- no longer exists. Instead, use [**D3DDisassemble10Effect**](https://msdn.microsoft.com/library/Dd607327(v=VS.85).aspx).
+This function -- which disassembles a compiled shader into a text string that contains assembly instructions and register assignments -- no longer exists. Instead, use [**D3DDisassemble10Effect**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3ddisassemble10effect).
 
 ## Syntax
 
@@ -55,7 +55,7 @@ A pointer to the [**compiled shader**](/windows/desktop/api/D3D10/nf-d3d10-id3d1
 *BytecodeLength* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)**
 
 The size of pShader.
 
@@ -64,7 +64,7 @@ The size of pShader.
 *EnableColorCode* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Include HTML tags in the output to color code the result.
 
@@ -73,7 +73,7 @@ Include HTML tags in the output to color code the result.
 *pComments* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 The comment string at the top of the shader that identifies the shader constants and variables.
 
@@ -143,7 +143,3 @@ if( pVSBuf )
  
 
  
-
-
-
-

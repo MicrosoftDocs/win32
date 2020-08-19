@@ -24,9 +24,9 @@ Gets the property value by name.
 
 | Method                                                                                                  | Description                                                              |
 |:--------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------|
-| [**GetValueByName(PCWSTR)**](https://msdn.microsoft.com/library/JJ151746(v=VS.85).aspx)                                       | Gets the property value by name. This is a template overload.<br/> |
-| [**GetValueByName(PCWSTR, T\*)**](https://msdn.microsoft.com/library/JJ151745(v=VS.85).aspx)                                  | Gets the property value by name. This is a template overload.<br/> |
-| [**GetValueByName(PCWSTR, BYTE\*, UINT32)**](https://msdn.microsoft.com/library/Hh446879(v=VS.85).aspx)                        | Gets the property value by name.<br/>                              |
+| [**GetValueByName(PCWSTR)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluebyname(pcwstr))                                       | Gets the property value by name. This is a template overload.<br/> |
+| [**GetValueByName(PCWSTR, T\*)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluebyname(pcwstr_t))                                  | Gets the property value by name. This is a template overload.<br/> |
+| [**GetValueByName(PCWSTR, BYTE\*, UINT32)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluebyname(pcwstr_byte_uint32))                        | Gets the property value by name.<br/>                              |
 | [**GetValueByName(PCWSTR, D2D1\_PROPERTY\_TYPE, BYTE\*, UINT32)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluebyname(pcwstr_d2d1_property_type_byte_uint32)) | Gets the property value by name.<br/>                              |
 
 
@@ -35,14 +35,8 @@ Gets the property value by name.
 
 <dl> <dt>
 
-[**ID2D1Properties**](https://msdn.microsoft.com/library/Hh446854(v=VS.85).aspx)
+[**ID2D1Properties**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1properties)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

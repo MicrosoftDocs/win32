@@ -35,13 +35,13 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 The patch type.
 
 ## Remarks
 
-For more information about patch types, see [**D3DXPATCHMESHTYPE**](https://msdn.microsoft.com/library/Bb205384(v=VS.85).aspx).
+For more information about patch types, see [**D3DXPATCHMESHTYPE**](./d3dxpatchmeshtype.md).
 
 ## Requirements
 
@@ -64,7 +64,3 @@ For more information about patch types, see [**D3DXPATCHMESHTYPE**](https://msdn
  
 
  
-
-
-
-

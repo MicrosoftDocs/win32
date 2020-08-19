@@ -21,8 +21,8 @@ The following operators are exposed by the [**XMVECTORU32**](xmvectoru32-data-ty
 
 | Methods                                                               | Description                                                                                                                                                                                                                                                                                               |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**operator \_\_m128i**](https://msdn.microsoft.com/library/Ee421369(v=VS.85).aspx)<br/> | Returns the object implementing the current instance of [**XMVECTORU32**](xmvectoru32-data-type.md) cast to a [\_\_m128i](https://docs.microsoft.com/cpp/cpp/m128i) instance of \[Windows systems supporting [SSE](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)) Only\]<br/> |
-| [**operator XMVECTOR**](https://msdn.microsoft.com/library/Ee421370(v=VS.85).aspx)<br/> | Returns the instance of `XMVECTOR` implementing the current instance of `XMVECTORU32`.<br/>                                                                                                                                                                                                         |
+| [**operator \_\_m128i**](/previous-versions/windows/desktop/legacy/ee421369(v=vs.85))<br/> | Returns the object implementing the current instance of [**XMVECTORU32**](xmvectoru32-data-type.md) cast to a [\_\_m128i](/cpp/cpp/m128i) instance of \[Windows systems supporting [SSE](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)) Only\]<br/> |
+| [**operator XMVECTOR**](/previous-versions/windows/desktop/legacy/ee421370(v=vs.85))<br/> | Returns the instance of `XMVECTOR` implementing the current instance of `XMVECTORU32`.<br/>                                                                                                                                                                                                         |
 
 
 
@@ -44,7 +44,3 @@ The following operators are exposed by the [**XMVECTORU32**](xmvectoru32-data-ty
  
 
  
-
-
-
-

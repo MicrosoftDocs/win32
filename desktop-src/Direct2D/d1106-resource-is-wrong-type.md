@@ -44,7 +44,7 @@ An interface was improperly cast and used as a parameter for a method or functio
 
 ## Examples
 
-The following example passes an [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/Dd372207(v=VS.85).aspx) when an [**ID2D1Geometry**](https://msdn.microsoft.com/library/Dd316578(v=VS.85).aspx) is expected.
+The following example passes an [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush) when an [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry) is expected.
 
 
 ```C++
@@ -69,7 +69,3 @@ Use the type required by the method.
  
 
  
-
-
-
-

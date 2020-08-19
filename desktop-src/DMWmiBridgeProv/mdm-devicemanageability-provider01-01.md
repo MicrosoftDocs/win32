@@ -52,7 +52,7 @@ The **MDM\_DeviceManageability\_Provider01\_01** class has these properties.
 
 <dl> <dt>
 
-[ConfigInfo](https://docs.microsoft.com/windows/client-management/mdm/devicemanageability-csp#capabilities-cspversions)
+[ConfigInfo](/windows/client-management/mdm/devicemanageability-csp#capabilities-cspversions)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -65,7 +65,7 @@ You must set the value to WMI\_Bridge\_Server. The caller cannot dynamically set
 
 </dd> <dt>
 
-[EnrollmentInfo](https://docs.microsoft.com/windows/client-management/mdm/devicemanageability-csp#capabilities-cspversions)
+[EnrollmentInfo](/windows/client-management/mdm/devicemanageability-csp#capabilities-cspversions)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -85,7 +85,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -99,7 +99,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> </dl>
@@ -119,10 +119,4 @@ Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qual
 
 
  
-
- 
-
-
-
-
 

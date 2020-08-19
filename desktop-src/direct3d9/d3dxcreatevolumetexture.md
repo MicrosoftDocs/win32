@@ -46,16 +46,16 @@ HRESULT D3DXCreateVolumeTexture(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the device to be associated with the volume texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, representing the device to be associated with the volume texture.
 
 </dd> <dt>
 
 *Width* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Width in pixels. This value must be nonzero. The maximum dimension that a driver supports (for width, height, and depth) can be found in MaxVolumeExtent in [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9).
 
@@ -64,7 +64,7 @@ Width in pixels. This value must be nonzero. The maximum dimension that a driver
 *Height* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Height in pixels. This value must be nonzero. The maximum dimension that a driver supports (for width, height, and depth) can be found in MaxVolumeExtent in [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9).
 
@@ -73,7 +73,7 @@ Height in pixels. This value must be nonzero. The maximum dimension that a drive
 *Depth* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Depth in pixels. This value must be nonzero. The maximum dimension that a driver supports (for width, height, and depth) can be found in MaxVolumeExtent in [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9).
 
@@ -82,7 +82,7 @@ Depth in pixels. This value must be nonzero. The maximum dimension that a driver
 *MipLevels* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of mip levels requested. If this value is zero or D3DX\_DEFAULT, a complete mipmap chain is created.
 
@@ -91,7 +91,7 @@ Number of mip levels requested. If this value is zero or D3DX\_DEFAULT, a comple
 *Usage* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 0 or D3DUSAGE\_DYNAMIC. For more information about using dynamic textures, see [Using Dynamic Textures](performance-optimizations.md).
 
@@ -109,18 +109,18 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the requeste
 *Pool* \[in\]
 </dt> <dd>
 
-Type: **[**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx)**
+Type: **[**D3DPOOL**](./d3dpool.md)**
 
-Member of the [**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx) enumerated type, describing the memory class into which the volume texture should be placed.
+Member of the [**D3DPOOL**](./d3dpool.md) enumerated type, describing the memory class into which the volume texture should be placed.
 
 </dd> <dt>
 
 *ppVolumeTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUMETEXTURE9**](https://msdn.microsoft.com/library/Bb205941(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DVOLUMETEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolumetexture9)\***
 
-Address of a pointer to an [**IDirect3DVolumeTexture9**](https://msdn.microsoft.com/library/Bb205941(v=VS.85).aspx) interface, representing the created volume texture object.
+Address of a pointer to an [**IDirect3DVolumeTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvolumetexture9) interface, representing the created volume texture object.
 
 </dd> </dl>
 
@@ -132,7 +132,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 ## Remarks
 
-Internally, D3DXCreateVolumeTexture uses [**D3DXCheckVolumeTextureRequirements**](d3dxcheckvolumetexturerequirements.md) to adjust the calling parameters. Therefore, calls to D3DXCreateVolumeTexture will often succeed where calls to [**CreateVolumeTexture**](https://msdn.microsoft.com/library/Bb174367(v=VS.85).aspx) would fail.
+Internally, D3DXCreateVolumeTexture uses [**D3DXCheckVolumeTextureRequirements**](d3dxcheckvolumetexturerequirements.md) to adjust the calling parameters. Therefore, calls to D3DXCreateVolumeTexture will often succeed where calls to [**CreateVolumeTexture**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createvolumetexture) would fail.
 
 ## Requirements
 
@@ -155,7 +155,3 @@ Internally, D3DXCreateVolumeTexture uses [**D3DXCheckVolumeTextureRequirements**
  
 
  
-
-
-
-

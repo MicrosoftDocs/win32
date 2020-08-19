@@ -38,7 +38,7 @@ typedef struct D3DXMACRO {
 **Name**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ Preprocessor name.
 **Definition**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -97,7 +97,3 @@ Notice the 3 backslash characters at the end of the line. The first two are requ
  
 
  
-
-
-
-

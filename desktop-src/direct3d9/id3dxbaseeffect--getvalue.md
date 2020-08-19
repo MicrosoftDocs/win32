@@ -49,7 +49,7 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *pData* \[out\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 Returns a buffer containing the value.
 
@@ -58,7 +58,7 @@ Returns a buffer containing the value.
 *Bytes* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 \[in\] Number of bytes in the buffer. Pass in D3DX\_DEFAULT if you know your buffer is large enough to contain the entire parameter, and you want to skip size validation.
 
@@ -94,7 +94,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

@@ -26,7 +26,7 @@ Callback to return pixel history intersections (draw call level) and primitives 
 
 ## Members
 
-The **IPixelHistoryCallback2** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixelHistoryCallback2** also has these types of members:
+The **IPixelHistoryCallback2** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixelHistoryCallback2** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IPixelHistoryCallback2** interface has these methods.
  
 
  
-
-
-

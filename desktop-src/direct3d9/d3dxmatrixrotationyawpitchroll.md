@@ -50,7 +50,7 @@ Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of t
 *Yaw* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Yaw around the y-axis, in radians.
 
@@ -59,7 +59,7 @@ Yaw around the y-axis, in radians.
 *Pitch* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Pitch around the x-axis, in radians.
 
@@ -68,7 +68,7 @@ Pitch around the x-axis, in radians.
 *Roll* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Roll around the z-axis, in radians.
 
@@ -124,7 +124,3 @@ The order of transformations is roll first, then pitch, then yaw. Relative to th
  
 
  
-
-
-
-

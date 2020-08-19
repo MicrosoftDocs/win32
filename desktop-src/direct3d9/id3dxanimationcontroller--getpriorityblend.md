@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Returns the current priority blending weight.
 
@@ -67,7 +67,3 @@ The priority blending weight is used to blend high and low priority tracks toget
  
 
  
-
-
-
-

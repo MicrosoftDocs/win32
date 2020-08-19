@@ -39,7 +39,7 @@ D3DXVECTOR2* D3DXVec2Normalize(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the operation.
 
@@ -48,7 +48,7 @@ Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the
 *pV* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to the source D3DXVECTOR2 structure.
 
@@ -56,7 +56,7 @@ Pointer to the source D3DXVECTOR2 structure.
 
 ## Return value
 
-Type: **[**D3DXVECTOR2**](https://msdn.microsoft.com/library/Bb205544(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointer to a D3DXVECTOR2 structure that is the normalized version of the vector.
 
@@ -85,7 +85,3 @@ The return value for this function is the same value returned in the pOut parame
  
 
  
-
-
-
-

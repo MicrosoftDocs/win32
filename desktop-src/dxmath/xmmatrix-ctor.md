@@ -15,9 +15,9 @@ api_location:
 
 # XMMATRIX constructors
 
-Constructs instances of the [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx) structure.
+Constructs instances of the [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) structure.
 
-Constructs instances of the [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx) structure.
+Constructs instances of the [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -86,13 +86,9 @@ This constructor is only available when developing with C++.
 **Reference**
 </dt> <dt>
 
-[**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx)
+[**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)
 </dt> </dl>
 
  
 
  
-
-
-
-

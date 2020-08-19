@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Custom effects
 
-[Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) ships with a library of effects that perform a variety of common image operations. See the [built-in effects](built-in-effects.md) topic for the complete list of effects. For functionality that cannot be achieved with the built-in effects, Direct2D allows you to write your own custom effects using standard [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl). You can use these custom effects alongside the built-in effects that ship with Direct2D.
+[Direct2D](./direct2d-portal.md) ships with a library of effects that perform a variety of common image operations. See the [built-in effects](built-in-effects.md) topic for the complete list of effects. For functionality that cannot be achieved with the built-in effects, Direct2D allows you to write your own custom effects using standard [HLSL](/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl). You can use these custom effects alongside the built-in effects that ship with Direct2D.
 
 To see examples of a complete pixel, vertex, and compute shader effect, see the [D2DCustomEffects SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects).
 
@@ -18,18 +18,18 @@ In this topic, we show you the steps and concepts you need to design and create 
 
 ![drop shadow effect diagram.](images/custom-effects1.png)
 
-Conceptually, a [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) effect performs an imaging task, like changing brightness, de-saturating an image, or as shown above, creating a drop shadow. To the app, they are simple. They can accept zero or more input images, expose multiple properties that control their operation, and generate a single output image.
+Conceptually, a [Direct2D](./direct2d-portal.md) effect performs an imaging task, like changing brightness, de-saturating an image, or as shown above, creating a drop shadow. To the app, they are simple. They can accept zero or more input images, expose multiple properties that control their operation, and generate a single output image.
 
 There are four different parts of a custom effect that an effect author is responsible for:
 
 1.  Effect Interface: The effect interface conceptually defines how an app interacts with a custom effect (like how many inputs the effect accepts and what properties are available). The effect interface manages a transform graph, which contains the actual imaging operations.
 2.  Transform graph: Each effect creates an internal transform graph made up of individual transforms. Each transform represents a single image operation. The effect is responsible for linking these transforms together into a graph to perform the intended imaging effect. An effect can add, remove, modify, and reorder transforms in response to changes to the effect's external properties.
 3.  Transform: A transform represents a single image operation. Its main purpose is to house the shaders that are executed for each output pixel. To that end, it is responsible for calculating the new size of its output image based on logic in its shaders. It also must calculate which area of its input image the shaders need to read from to render the requested output region.
-4.  Shader: A shader is executed against the transform's input on the GPU (or CPU if software rendering is specified when the app creates the Direct3D device). Effect shaders are written in High Level Shading Language ([HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl)) and are compiled into byte code during the effect's compilation, which is then loaded by the effect during run-time. This reference document describes how to write [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx)-compliant HLSL. The Direct3D documentation contains a basic HLSL overview.
+4.  Shader: A shader is executed against the transform's input on the GPU (or CPU if software rendering is specified when the app creates the Direct3D device). Effect shaders are written in High Level Shading Language ([HLSL](/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl)) and are compiled into byte code during the effect's compilation, which is then loaded by the effect during run-time. This reference document describes how to write [Direct2D](./direct2d-portal.md)-compliant HLSL. The Direct3D documentation contains a basic HLSL overview.
 
 ## Creating an effect interface
 
-The effect interface defines how an app interacts with the custom effect. To create an effect interface, a class must implement ID2D1EffectImpl, define metadata that describes the effect (such as its name, input count and properties), and create methods that register the custom effect for use with [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx).
+The effect interface defines how an app interacts with the custom effect. To create an effect interface, a class must implement ID2D1EffectImpl, define metadata that describes the effect (such as its name, input count and properties), and create methods that register the custom effect for use with [Direct2D](./direct2d-portal.md).
 
 Once all of the components for an effect interface have been implemented, the class' header will appear like this:
 
@@ -78,31 +78,31 @@ private:
 
 ### Implement ID2D1EffectImpl
 
-The [**ID2D1EffectImpl**](https://msdn.microsoft.com/library/Hh404568(v=VS.85).aspx) interface contains three methods that you must implement:
+The [**ID2D1EffectImpl**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectimpl) interface contains three methods that you must implement:
 
 ### Initialize(ID2D1EffectContext \*pContextInternal, ID2D1TransformGraph \*pTransformGraph)
 
-[Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) calls the [**Initialize**](https://msdn.microsoft.com/library/Hh404570(v=VS.85).aspx) method after the [**ID2D1DeviceContext::CreateEffect**](https://msdn.microsoft.com/library/Hh404500(v=VS.85).aspx) method has been called by the app. You can use this method to perform internal initialization or any other operations needed for the effect. Additionally, you can use it to create the effect's initial transform graph.
+[Direct2D](./direct2d-portal.md) calls the [**Initialize**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-initialize) method after the [**ID2D1DeviceContext::CreateEffect**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect) method has been called by the app. You can use this method to perform internal initialization or any other operations needed for the effect. Additionally, you can use it to create the effect's initial transform graph.
 
 ### SetGraph(ID2D1TransformGraph \*pTransformGraph)
 
-[Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) calls the [**SetGraph**](https://msdn.microsoft.com/library/Hh871459(v=VS.85).aspx) method when the number of inputs to the effect is changed. While most effects have a constant number of inputs, others like the [Composite effect](composite.md) support a variable number of inputs. This method allows these effects to update their transform graph in response to a changing input count. If an effect does not support a variable input count, this method can simply return E\_NOTIMPL.
+[Direct2D](./direct2d-portal.md) calls the [**SetGraph**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-setgraph) method when the number of inputs to the effect is changed. While most effects have a constant number of inputs, others like the [Composite effect](composite.md) support a variable number of inputs. This method allows these effects to update their transform graph in response to a changing input count. If an effect does not support a variable input count, this method can simply return E\_NOTIMPL.
 
 ### PrepareForRender (D2D1\_CHANGE\_TYPE changeType)
 
-The [**PrepareForRender**](https://msdn.microsoft.com/library/Hh404572(v=VS.85).aspx) method provides an opportunity for effects to perform any operations in response to external changes. [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) calls this method just before it renders an effect if at least one of these is true:
+The [**PrepareForRender**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-prepareforrender) method provides an opportunity for effects to perform any operations in response to external changes. [Direct2D](./direct2d-portal.md) calls this method just before it renders an effect if at least one of these is true:
 
 -   The effect has been previously initialized but not yet drawn.
 -   An effect property has changed since the last draw call.
--   The state of the calling [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) context (like DPI) has changed since the last draw call.
+-   The state of the calling [Direct2D](./direct2d-portal.md) context (like DPI) has changed since the last draw call.
 
 ### Implement the effect registration and callback methods
 
-Apps must register effects with [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) before instantiating them. This registration is scoped to an instance of a Direct2D factory, and must be repeated each time the app is run. To enable this registration, a custom effect defines a unique GUID, a public method that registers the effect, and a private callback method that returns an instance of the effect.
+Apps must register effects with [Direct2D](./direct2d-portal.md) before instantiating them. This registration is scoped to an instance of a Direct2D factory, and must be repeated each time the app is run. To enable this registration, a custom effect defines a unique GUID, a public method that registers the effect, and a private callback method that returns an instance of the effect.
 
 ### Define a GUID
 
-You must define a GUID that uniquely identifies the effect for registration with [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx). The app uses the same to identify the effect when it calls [**ID2D1DeviceContext::CreateEffect**](https://msdn.microsoft.com/library/Hh404500(v=VS.85).aspx).
+You must define a GUID that uniquely identifies the effect for registration with [Direct2D](./direct2d-portal.md). The app uses the same to identify the effect when it calls [**ID2D1DeviceContext::CreateEffect**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect).
 
 This code demonstrates defining such a GUID for an effect. You must create its own unique GUID using a GUID generation tool such as guidgen.exe.
 
@@ -119,9 +119,9 @@ DEFINE_GUID(CLSID_SampleEffect, 0x00000000, 0x0000, 0x0000, 0x00, 0x00, 0x00, 0x
 
 ### Define a public registration method
 
-Next, define a public method for the app to call to register the effect with [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx). Because effect registration is specific to an instance of a Direct2D factory, the method accepts an [**ID2D1Factory1**](https://msdn.microsoft.com/library/Hh404596(v=VS.85).aspx) interface as a parameter. To register the effect, the method then calls the [**ID2D1Factory1::RegisterEffectFromString**](https://msdn.microsoft.com/library/Hh404614(v=VS.85).aspx) API on the **ID2D1Factory1** parameter.
+Next, define a public method for the app to call to register the effect with [Direct2D](./direct2d-portal.md). Because effect registration is specific to an instance of a Direct2D factory, the method accepts an [**ID2D1Factory1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1factory1) interface as a parameter. To register the effect, the method then calls the [**ID2D1Factory1::RegisterEffectFromString**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring) API on the **ID2D1Factory1** parameter.
 
-This API accepts an XML string that describes the metadata, inputs, and properties of the effect. The metadata for an effect is for informational purposes only, and can be queried by the app through the [**ID2D1Properties**](https://msdn.microsoft.com/library/Hh446854(v=VS.85).aspx) interface. The input and property data, on the other hand, is used by [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) and represents the effect's functionality.
+This API accepts an XML string that describes the metadata, inputs, and properties of the effect. The metadata for an effect is for informational purposes only, and can be queried by the app through the [**ID2D1Properties**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1properties) interface. The input and property data, on the other hand, is used by [Direct2D](./direct2d-portal.md) and represents the effect's functionality.
 
 An XML string for a minimal sample effect is shown here. Adding custom properties to the XML is covered in the Adding custom properties to an effect section.
 
@@ -152,7 +152,7 @@ PCWSTR pszXml =
 
 ### Define an effect factory callback method
 
-The effect must also provide a private callback method that returns an instance of the effect through a single IUnknown\*\* parameter. A pointer to this method is provided to [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) when the effect is registered via the [**ID2D1Factory1::RegisterEffectFromString**](https://msdn.microsoft.com/library/Hh404614(v=VS.85).aspx) API through the [**PD2D1\_EFFECT\_FACTORY**](/windows/desktop/api/D2D1_1/nc-d2d1_1-pd2d1_effect_factory)\\ parameter.
+The effect must also provide a private callback method that returns an instance of the effect through a single IUnknown\*\* parameter. A pointer to this method is provided to [Direct2D](./direct2d-portal.md) when the effect is registered via the [**ID2D1Factory1::RegisterEffectFromString**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring) API through the [**PD2D1\_EFFECT\_FACTORY**](/windows/desktop/api/D2D1_1/nc-d2d1_1-pd2d1_effect_factory)\\ parameter.
 
 
 ```C++
@@ -178,24 +178,24 @@ Finally, the effect must implement the IUnknown interface for compatibility with
 
 ## Creating the effect's transform graph
 
-An effect can use several different transforms (individual image operations) to create its desired imaging effect. To control the order in which these transforms are applied to the input image, the effect arranges them into a transform graph. A transform graph can make use of the effects and transforms included in [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) as well as custom transforms created by the effect author.
+An effect can use several different transforms (individual image operations) to create its desired imaging effect. To control the order in which these transforms are applied to the input image, the effect arranges them into a transform graph. A transform graph can make use of the effects and transforms included in [Direct2D](./direct2d-portal.md) as well as custom transforms created by the effect author.
 
 ### Using transforms included with Direct2D
 
-These are the most commonly used transforms provided with [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx).
+These are the most commonly used transforms provided with [Direct2D](./direct2d-portal.md).
 
--   [**ID2D1BlendTransform**](https://msdn.microsoft.com/library/Hh404361(v=VS.85).aspx): This transform blends an arbitrary number of inputs together based on a blend description, see the [**D2D1\_BLEND\_DESCRIPTION**](/windows/desktop/api/D2d1effectauthor/ns-d2d1effectauthor-d2d1_blend_description) topic and the [Direct2D composite effect modes sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct2D%20composite%20effect%20modes%20sample) for blending examples. This transform is returned by the [**ID2D1EffectContext::CreateBlendTransform**](https://msdn.microsoft.com/library/Hh404461(v=VS.85).aspx) method.
--   [**ID2D1BorderTransform**](https://msdn.microsoft.com/library/Hh404367(v=VS.85).aspx): This transform expands an image's output size according to the [**D2D1\_EXTEND\_MODE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode) specified. This transform is returned by the [**ID2D1EffectContext::CreateBorderTransform**](https://msdn.microsoft.com/library/Hh404463(v=VS.85).aspx) method.
--   [**ID2D1OffsetTransform**](https://msdn.microsoft.com/library/Hh446820(v=VS.85).aspx): This transform offsets (translates) its input by any whole number of pixels. This transform is returned by the [**ID2D1EffectContext::CreateOffsetTransform**](https://msdn.microsoft.com/library/Hh404468(v=VS.85).aspx) method.
--   Any existing effect can be treated as a transform for the purposes of transform graph creation by using the [**ID2D1EffectContext::CreateTransformNodeFromEffect**](https://msdn.microsoft.com/library/Hh404470(v=VS.85).aspx) method.
+-   [**ID2D1BlendTransform**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1blendtransform): This transform blends an arbitrary number of inputs together based on a blend description, see the [**D2D1\_BLEND\_DESCRIPTION**](/windows/desktop/api/D2d1effectauthor/ns-d2d1effectauthor-d2d1_blend_description) topic and the [Direct2D composite effect modes sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct2D%20composite%20effect%20modes%20sample) for blending examples. This transform is returned by the [**ID2D1EffectContext::CreateBlendTransform**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createblendtransform) method.
+-   [**ID2D1BorderTransform**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1bordertransform): This transform expands an image's output size according to the [**D2D1\_EXTEND\_MODE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode) specified. This transform is returned by the [**ID2D1EffectContext::CreateBorderTransform**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createbordertransform) method.
+-   [**ID2D1OffsetTransform**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1offsettransform): This transform offsets (translates) its input by any whole number of pixels. This transform is returned by the [**ID2D1EffectContext::CreateOffsetTransform**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createoffsettransform) method.
+-   Any existing effect can be treated as a transform for the purposes of transform graph creation by using the [**ID2D1EffectContext::CreateTransformNodeFromEffect**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createtransformnodefromeffect) method.
 
 ### Creating a single-node transform graph
 
-Once you create a transform, the effect's input needs to be connected to the transform's input, and the transform's output needs to be connected to the effect's output. When an effect only contains a single transform, you can use the [**ID2D1TransformGraph::SetSingleTransformNode**](https://msdn.microsoft.com/library/Hh446935(v=VS.85).aspx) method to easily accomplish this.
+Once you create a transform, the effect's input needs to be connected to the transform's input, and the transform's output needs to be connected to the effect's output. When an effect only contains a single transform, you can use the [**ID2D1TransformGraph::SetSingleTransformNode**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-setsingletransformnode) method to easily accomplish this.
 
-You can create or modify a transform in the effect's [**Initialize**](https://msdn.microsoft.com/library/Hh404570(v=VS.85).aspx) or [**SetGraph**](https://msdn.microsoft.com/library/Hh871459(v=VS.85).aspx) methods using the provided ID2D1TransformGraph parameter. If an effect needs to make changes to the transform graph in another method where this parameter is not available, the effect can save the [**ID2D1TransformGraph**](https://msdn.microsoft.com/library/Hh446920(v=VS.85).aspx) parameter as a member variable of the class and access it elsewhere, such as [**PrepareForRender**](https://msdn.microsoft.com/library/Hh404572(v=VS.85).aspx) or a custom property callback method.
+You can create or modify a transform in the effect's [**Initialize**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-initialize) or [**SetGraph**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-setgraph) methods using the provided ID2D1TransformGraph parameter. If an effect needs to make changes to the transform graph in another method where this parameter is not available, the effect can save the [**ID2D1TransformGraph**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph) parameter as a member variable of the class and access it elsewhere, such as [**PrepareForRender**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-prepareforrender) or a custom property callback method.
 
-A sample [**Initialize**](https://msdn.microsoft.com/library/Hh404570(v=VS.85).aspx) method is shown here. This method creates a single-node transform graph that offsets the image by one hundred pixels in each axis.
+A sample [**Initialize**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-initialize) method is shown here. This method creates a single-node transform graph that offsets the image by one hundred pixels in each axis.
 
 
 ```C++
@@ -226,23 +226,23 @@ IFACEMETHODIMP SampleEffect::Initialize(
 
 Adding multiple transforms to an effect's transform graph allows effects to internally perform multiple image operations that are presented to an app as a single unified effect.
 
-As noted above, the effect's transform graph may be edited in any effect method using the [**ID2D1TransformGraph**](https://msdn.microsoft.com/library/Hh446920(v=VS.85).aspx) parameter received in the effect's [**Initialize**](https://msdn.microsoft.com/library/Hh404570(v=VS.85).aspx) method. The following APIs on that interface can be used to create or modify an effect's transform graph:
+As noted above, the effect's transform graph may be edited in any effect method using the [**ID2D1TransformGraph**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph) parameter received in the effect's [**Initialize**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-initialize) method. The following APIs on that interface can be used to create or modify an effect's transform graph:
 
 ### AddNode(ID2D1TransformNode \*pNode)
 
-The [**AddNode**](https://msdn.microsoft.com/library/Hh446922(v=VS.85).aspx) method, in effect, 'registers' the transform with the effect, and must be called before the transform can be used with any of the other transform graph methods.
+The [**AddNode**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-addnode) method, in effect, 'registers' the transform with the effect, and must be called before the transform can be used with any of the other transform graph methods.
 
 ### ConnectToEffectInput(UINT32 toEffectInputIndex, ID2D1TransformNode \*pNode, UINT32 toNodeInputIndex)
 
-The [**ConnectToEffectInput**](https://msdn.microsoft.com/library/Hh446928(v=VS.85).aspx) method connects the effect's image input to a transform's input. The same effect input can be connected to multiple transforms.
+The [**ConnectToEffectInput**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-connecttoeffectinput) method connects the effect's image input to a transform's input. The same effect input can be connected to multiple transforms.
 
 ### ConnectNode(ID2D1TransformNode \*pFromNode, ID2D1TransformNode \*pToNode, UINT32 toNodeInputIndex)
 
-The [**ConnectNode**](https://msdn.microsoft.com/library/Hh446926(v=VS.85).aspx) method connects a transform's output to another transform's input. A transform output can be connected to multiple transforms.
+The [**ConnectNode**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-connectnode) method connects a transform's output to another transform's input. A transform output can be connected to multiple transforms.
 
 ### SetOutputNode(ID2D1TransformNode \*pNode)
 
-The [**SetOutputNode**](https://msdn.microsoft.com/library/Hh446932(v=VS.85).aspx) method connects a transform's output to the effect's output. Because an effect only has one output, only a single transform can be designated as the 'output node'.
+The [**SetOutputNode**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-setoutputnode) method connects a transform's output to the effect's output. Because an effect only has one output, only a single transform can be designated as the 'output node'.
 
 This code uses two separate transforms to create a unified effect. In this case, the effect is a translated drop shadow.
 
@@ -324,7 +324,7 @@ Effects can define custom properties that allow an app to change the effect's be
 
 ### Add property to registration XML
 
-You must define a custom effect's properties during the effect's initial registration with [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx). First, you must update the effect's registration XML in its public registration method with the new property:
+You must define a custom effect's properties during the effect's initial registration with [Direct2D](./direct2d-portal.md). First, you must update the effect's registration XML in its public registration method with the new property:
 
 
 ```C++
@@ -359,7 +359,7 @@ PCWSTR pszXml =
 
 When you define an effect property in XML, it needs a name, a type, and a display name. A property's display name, as well as the overall effect's category, author, and description values can and should be localized.
 
-For each property, an effect can optionally specify default, min, and max values. These values are for informational use only. They are not enforced by [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx). It is up to you to implement any specified default/min/max logic in the effect class yourself.
+For each property, an effect can optionally specify default, min, and max values. These values are for informational use only. They are not enforced by [Direct2D](./direct2d-portal.md). It is up to you to implement any specified default/min/max logic in the effect class yourself.
 
 The type value listed in the XML for the property must match the corresponding data type used by the property's getter and setter methods. Corresponding XML values for each data type are shown in this table:
 
@@ -375,15 +375,15 @@ The type value listed in the XML for the property must match the corresponding d
 | [**D2D\_VECTOR\_2F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f)                                                                                               | vector2                 |
 | [**D2D\_VECTOR\_3F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f)                                                                                               | vector3                 |
 | [**D2D\_VECTOR\_4F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f)                                                                                               | vector4                 |
-| [**D2D\_MATRIX\_3X2\_F**](https://msdn.microsoft.com/library/Dd316742(v=VS.85).aspx) | matrix3x2               |
+| [**D2D\_MATRIX\_3X2\_F**](/windows/win32/api/d2d1/nf-d2d1-id2d1geometry-strokecontainspoint(d2d1_point_2f_float_id2d1strokestyle_constd2d1_matrix_3x2_f__bool)) | matrix3x2               |
 | [**D2D\_MATRIX\_4X3\_F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_4x3_f)                                                                                        | matrix4x3               |
 | [**D2D\_MATRIX\_4X4\_F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_4x4_f)                                                                                        | matrix4x4               |
 | [**D2D\_MATRIX\_5X4\_F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_5x4_f)                                                                                        | matrix5x4               |
 | BYTE\[\]                                                                                                                               | blob                    |
 | IUnknown\*                                                                                                                             | iunknown                |
-| [**ID2D1ColorContext**](https://msdn.microsoft.com/library/Hh404388(v=VS.85).aspx)\*                                                                                       | colorcontext            |
+| [**ID2D1ColorContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1colorcontext)\*                                                                                       | colorcontext            |
 | CLSID                                                                                                                                  | clsid                   |
-| Enumeration ([**D2D1\_INTERPOLATION\_MODE**](https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode), etc.)                                                | enum                    |
+| Enumeration ([**D2D1\_INTERPOLATION\_MODE**](/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode), etc.)                                                | enum                    |
 
 
 
@@ -391,7 +391,7 @@ The type value listed in the XML for the property must match the corresponding d
 
 ### Map the new property to getter and setter methods
 
-Next, the effect must map this new property to getter and setter methods. This is done through the [**D2D1\_PROPERTY\_BINDING**](/windows/desktop/api/d2d1effectauthor/ns-d2d1effectauthor-d2d1_property_binding) array that is passed into the [**ID2D1Factory1::RegisterEffectFromString**](https://msdn.microsoft.com/library/Hh404614(v=VS.85).aspx) method.
+Next, the effect must map this new property to getter and setter methods. This is done through the [**D2D1\_PROPERTY\_BINDING**](/windows/desktop/api/d2d1effectauthor/ns-d2d1effectauthor-d2d1_property_binding) array that is passed into the [**ID2D1Factory1::RegisterEffectFromString**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring) method.
 
 The [**D2D1\_PROPERTY\_BINDING**](/windows/desktop/api/d2d1effectauthor/ns-d2d1effectauthor-d2d1_property_binding) array looks like this:
 
@@ -409,7 +409,7 @@ const D2D1_PROPERTY_BINDING bindings[] =
 
 
 
-Once you create the XML and bindings array, pass them into the [**RegisterEffectFromString**](https://msdn.microsoft.com/library/Hh404614(v=VS.85).aspx) method:
+Once you create the XML and bindings array, pass them into the [**RegisterEffectFromString**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring) method:
 
 
 ```C++
@@ -424,7 +424,7 @@ pFactory->RegisterEffectFromString(
 
 
 
-The D2D1\_VALUE\_TYPE\_BINDING macro requires the effect class to inherit from [**ID2D1EffectImpl**](https://msdn.microsoft.com/library/Hh404568(v=VS.85).aspx) before any other interface.
+The D2D1\_VALUE\_TYPE\_BINDING macro requires the effect class to inherit from [**ID2D1EffectImpl**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectimpl) before any other interface.
 
 Custom properties for an effect are indexed in the order they are declared in the XML, and once created can be accessed by the app using the [**ID2D1Properties::SetValue**](id2d1properties-setvalue-overload.md) and [**ID2D1Properties::GetValue**](id2d1properties-getvalue-overload.md) methods. For convenience, you can create a public enumeration that lists each property in the effect's header file:
 
@@ -468,9 +468,9 @@ D2D_VECTOR_2F SampleEffect::GetOffset() const
 
 ### Update effect's transforms in response to property change
 
-To actually update an effect's image output in response to a property change, the effect needs to change its underlying transforms. This is typically done in the effect's [**PrepareForRender**](https://msdn.microsoft.com/library/Hh404572(v=VS.85).aspx) method which [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) automatically calls when one of an effect's properties has been changed. However, transforms can be updated in any of the effect's methods: such as Initialize or the effect's property setter methods.
+To actually update an effect's image output in response to a property change, the effect needs to change its underlying transforms. This is typically done in the effect's [**PrepareForRender**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-prepareforrender) method which [Direct2D](./direct2d-portal.md) automatically calls when one of an effect's properties has been changed. However, transforms can be updated in any of the effect's methods: such as Initialize or the effect's property setter methods.
 
-For example, if an effect contained an [**ID2D1OffsetTransform**](https://msdn.microsoft.com/library/Hh446820(v=VS.85).aspx) and wanted to modify its offset value in response to the effect's Offset property being changed, it would add the following code in [**PrepareForRender**](https://msdn.microsoft.com/library/Hh404572(v=VS.85).aspx):
+For example, if an effect contained an [**ID2D1OffsetTransform**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1offsettransform) and wanted to modify its offset value in response to the effect's Offset property being changed, it would add the following code in [**PrepareForRender**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-prepareforrender):
 
 
 ```C++
@@ -496,11 +496,11 @@ IFACEMETHODIMP SampleEffect::PrepareForRender(D2D1_CHANGE_TYPE changeType)
 
 ## Creating a custom transform
 
-To implement image operations beyond what is provided in [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx), you must implement custom transforms. Custom transforms can arbitrarily change an input image through the use of custom HLSL shaders.
+To implement image operations beyond what is provided in [Direct2D](./direct2d-portal.md), you must implement custom transforms. Custom transforms can arbitrarily change an input image through the use of custom HLSL shaders.
 
-Transforms implement one of two different interfaces depending on the types of shaders they use. Transforms using pixel and/or vertex shaders must implement [**ID2D1DrawTransform**](https://msdn.microsoft.com/library/Hh847992(v=VS.85).aspx), while transforms using compute shaders must implement [**ID2D1ComputeTransform**](https://msdn.microsoft.com/library/Hh404434(v=VS.85).aspx). These interfaces both inherit from [**ID2D1Transform**](https://msdn.microsoft.com/library/Hh446919(v=VS.85).aspx). This section focuses on implementing the functionality that is common to both.
+Transforms implement one of two different interfaces depending on the types of shaders they use. Transforms using pixel and/or vertex shaders must implement [**ID2D1DrawTransform**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawtransform), while transforms using compute shaders must implement [**ID2D1ComputeTransform**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1computetransform). These interfaces both inherit from [**ID2D1Transform**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transform). This section focuses on implementing the functionality that is common to both.
 
-The [**ID2D1Transform**](https://msdn.microsoft.com/library/Hh446919(v=VS.85).aspx) interface has four methods to implement:
+The [**ID2D1Transform**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transform) interface has four methods to implement:
 
 ### GetInputCount
 
@@ -518,9 +518,9 @@ IFACEMETHODIMP_(UINT32) GetInputCount() const
 
 ### MapInputRectsToOutputRect
 
-[Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) calls the [**MapInputRectsToOutputRect**](https://msdn.microsoft.com/library/Hh446943(v=VS.85).aspx) method each time the transform is rendered. Direct2D passes a rectangle representing the bounds of each of the inputs to the transform. The transform is then responsible for calculating the bounds of the output image. The size of the rectangles for all the methods on this interface ([**ID2D1Transform**](https://msdn.microsoft.com/library/Hh446919(v=VS.85).aspx)) are defined in pixels, not DIPs.
+[Direct2D](./direct2d-portal.md) calls the [**MapInputRectsToOutputRect**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapinputrectstooutputrect) method each time the transform is rendered. Direct2D passes a rectangle representing the bounds of each of the inputs to the transform. The transform is then responsible for calculating the bounds of the output image. The size of the rectangles for all the methods on this interface ([**ID2D1Transform**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transform)) are defined in pixels, not DIPs.
 
-This method is also responsible for calculating the region of the output that is opaque based on the logic of its shader and the opaque regions of each input. An opaque region of an image is defined as that where the alpha channel is '1' for the entirety of the rectangle. If it is unclear whether a transform's output is opaque, the output opaque rectangle should be set to (0, 0, 0, 0) as a safe value. [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) uses this info to perform rendering optimizations with 'guaranteed opaque' content. If this value is inaccurate, it can result in incorrect rendering.
+This method is also responsible for calculating the region of the output that is opaque based on the logic of its shader and the opaque regions of each input. An opaque region of an image is defined as that where the alpha channel is '1' for the entirety of the rectangle. If it is unclear whether a transform's output is opaque, the output opaque rectangle should be set to (0, 0, 0, 0) as a safe value. [Direct2D](./direct2d-portal.md) uses this info to perform rendering optimizations with 'guaranteed opaque' content. If this value is inaccurate, it can result in incorrect rendering.
 
 The you can modify the transform's rendering behavior (as defined in sections 6 through 8) during this method. However, the you can't modify other transforms in the transform graph, or the graph layout itself here.
 
@@ -592,11 +592,11 @@ These calculations are visualized here:
 
 ![rectangle calculation illustration.](images/custom-effects2.png)
 
-For more info about this method, see the [**MapInputRectsToOutputRect**](https://msdn.microsoft.com/library/Hh446943(v=VS.85).aspx) reference page.
+For more info about this method, see the [**MapInputRectsToOutputRect**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapinputrectstooutputrect) reference page.
 
 ### MapOutputRectToInputRects
 
-[Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) calls the [**MapOutputRectToInputRects**](https://msdn.microsoft.com/library/Hh446945(v=VS.85).aspx) method after [**MapInputRectsToOutputRect**](https://msdn.microsoft.com/library/Hh446943(v=VS.85).aspx). The transform must calculate what portion of the image it needs to read from in order to correctly render the requested output region.
+[Direct2D](./direct2d-portal.md) calls the [**MapOutputRectToInputRects**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapoutputrecttoinputrects) method after [**MapInputRectsToOutputRect**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapinputrectstooutputrect). The transform must calculate what portion of the image it needs to read from in order to correctly render the requested output region.
 
 As before, if an effect strictly maps pixels 1-1, it can pass the output rectangle through to the input rectangle:
 
@@ -636,17 +636,17 @@ pInputRects[0].bottom = ((pOutputRect->bottom + 5) > pOutputRect->bottom) ? (pOu
 
 
 
-This figure visualizes the calculation. [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) automatically samples transparent black pixels where the input image doesn't exist, allowing the blur to be blended gradually with the existing content on the screen.
+This figure visualizes the calculation. [Direct2D](./direct2d-portal.md) automatically samples transparent black pixels where the input image doesn't exist, allowing the blur to be blended gradually with the existing content on the screen.
 
 ![illustration of an effect sampling transparent black pixels outside of a rectangle.](images/custom-effects3.png)
 
 If the mapping is non-trivial, then this method should set the input rectangle to the maximum area to guarantee correct results. To do this, set the left and top edges to INT\_MIN, and the right and bottom edges to INT\_MAX.
 
-For more info about this method, see the [**MapOutputRectToInputRects**](https://msdn.microsoft.com/library/Hh446945(v=VS.85).aspx) topic.
+For more info about this method, see the [**MapOutputRectToInputRects**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapoutputrecttoinputrects) topic.
 
 ### MapInvalidRect
 
-[Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) also calls the [**MapInvalidRect**](https://msdn.microsoft.com/library/Hh446946(v=VS.85).aspx) method. However, unlike the [**MapInputRectsToOutputRect**](https://msdn.microsoft.com/library/Hh446943(v=VS.85).aspx) and [**MapOutputRectToInputRects**](https://msdn.microsoft.com/library/Hh446945(v=VS.85).aspx) methods Direct2D is not guaranteed to call it at any particular time. This method conceptually decides what part of a transform's output needs to be re-rendered in response to part or all of its input changing. There are three different scenarios for which to calculate a transform's invalid rect.
+[Direct2D](./direct2d-portal.md) also calls the [**MapInvalidRect**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapinvalidrect) method. However, unlike the [**MapInputRectsToOutputRect**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapinputrectstooutputrect) and [**MapOutputRectToInputRects**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapoutputrecttoinputrects) methods Direct2D is not guaranteed to call it at any particular time. This method conceptually decides what part of a transform's output needs to be re-rendered in response to part or all of its input changing. There are three different scenarios for which to calculate a transform's invalid rect.
 
 ### Transforms with one-to-one pixel mapping
 
@@ -695,7 +695,7 @@ pInvalidOutputRect->bottom = ((invalidInputRect.bottom + 5) > invalidInputRect.b
 
 ### Transforms with complex pixel mapping
 
-For transforms where input and output pixels do not have a simple mapping, the entire output can be marked as invalid. For example, if a transform simply outputs the average color of the input, the entire output of the transform changes if even a small part of the input is changed. In this case, the invalid output rectangle should be set to a logically infinite rectangle (shown below). [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) automatically clamps this to the bounds of the output.
+For transforms where input and output pixels do not have a simple mapping, the entire output can be marked as invalid. For example, if a transform simply outputs the average color of the input, the entire output of the transform changes if even a small part of the input is changed. In this case, the invalid output rectangle should be set to a logically infinite rectangle (shown below). [Direct2D](./direct2d-portal.md) automatically clamps this to the bounds of the output.
 
 
 ```C++
@@ -706,7 +706,7 @@ For transforms where input and output pixels do not have a simple mapping, the e
 
 
 
-For more info about this method, see the [**MapInvalidRect**](https://msdn.microsoft.com/library/Hh446946(v=VS.85).aspx) topic.
+For more info about this method, see the [**MapInvalidRect**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapinvalidrect) topic.
 
 Once these methods have been implemented, your transform's header will contain the following:
 
@@ -760,17 +760,17 @@ Once a transform has been created, it needs to provide a shader that will manipu
 
 ### Implementing ID2D1DrawTransform
 
-To use a pixel shader, the transform must implement the [**ID2D1DrawTransform**](https://msdn.microsoft.com/library/Hh847992(v=VS.85).aspx) interface, which inherits from the [**ID2D1Transform**](https://msdn.microsoft.com/library/Hh446919(v=VS.85).aspx) interface described in section 5. This interface contains one new method to implement:
+To use a pixel shader, the transform must implement the [**ID2D1DrawTransform**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawtransform) interface, which inherits from the [**ID2D1Transform**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transform) interface described in section 5. This interface contains one new method to implement:
 
 ### SetDrawInfo(ID2D1DrawInfo \*pDrawInfo)
 
-[Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) calls the [**SetDrawInfo**](https://msdn.microsoft.com/library/Hh847993(v=VS.85).aspx) method when the transform is first added to an effect's transform graph. This method provides an [**ID2D1DrawInfo**](https://msdn.microsoft.com/library/Hh847986(v=VS.85).aspx) parameter that controls how the transform is rendered. See the **ID2D1DrawInfo** topic for the methods available here.
+[Direct2D](./direct2d-portal.md) calls the [**SetDrawInfo**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawtransform-setdrawinfo) method when the transform is first added to an effect's transform graph. This method provides an [**ID2D1DrawInfo**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawinfo) parameter that controls how the transform is rendered. See the **ID2D1DrawInfo** topic for the methods available here.
 
-If the transform chooses to store this parameter as a class member variable, the *drawInfo* object can be accessed and changed from other methods such as property setters or [**MapInputRectsToOutputRect**](https://msdn.microsoft.com/library/Hh446943(v=VS.85).aspx). Notably, it cannot be called from the [**MapOutputRectToInputRects**](https://msdn.microsoft.com/library/Hh446945(v=VS.85).aspx) or [**MapInvalidRect**](https://msdn.microsoft.com/library/Hh446946(v=VS.85).aspx) methods on [**ID2D1Transform**](https://msdn.microsoft.com/library/Hh446919(v=VS.85).aspx).
+If the transform chooses to store this parameter as a class member variable, the *drawInfo* object can be accessed and changed from other methods such as property setters or [**MapInputRectsToOutputRect**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapinputrectstooutputrect). Notably, it cannot be called from the [**MapOutputRectToInputRects**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapoutputrecttoinputrects) or [**MapInvalidRect**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapinvalidrect) methods on [**ID2D1Transform**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transform).
 
 ### Creating a GUID for the pixel shader
 
-Next, the transform must define a unique GUID for the pixel shader itself. This is used when [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) loads the shader into memory, as well as when the transform chooses which pixel shader to use for execution. Tools such as guidgen.exe, which is included with Visual Studio, can be used to generate a random GUID.
+Next, the transform must define a unique GUID for the pixel shader itself. This is used when [Direct2D](./direct2d-portal.md) loads the shader into memory, as well as when the transform chooses which pixel shader to use for execution. Tools such as guidgen.exe, which is included with Visual Studio, can be used to generate a random GUID.
 
 
 ```C++
@@ -788,11 +788,11 @@ DEFINE_GUID(GUID_SamplePixelShader, 0x00000000, 0x0000, 0x0000, 0x00, 0x00, 0x00
 
 A pixel shader must be loaded into memory before it can be used by the transform.
 
-To load the pixel shader into memory, the transform should read the compiled shader byte code from the .CSO file generated by Visual Studio (see [Direct3D](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) documentation for details) into a byte array. This technique is demonstrated in detail in the [D2DCustomEffects SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects).
+To load the pixel shader into memory, the transform should read the compiled shader byte code from the .CSO file generated by Visual Studio (see [Direct3D](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) documentation for details) into a byte array. This technique is demonstrated in detail in the [D2DCustomEffects SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects).
 
-Once the shader data has been loaded into a byte array, call the [**LoadPixelShader**](https://msdn.microsoft.com/library/Hh404476(v=VS.85).aspx) method on the effect's [**ID2D1EffectContext**](https://msdn.microsoft.com/library/Hh404459(v=VS.85).aspx) object. [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) ignores calls to **LoadPixelShader** when a shader with the same GUID has already been loaded.
+Once the shader data has been loaded into a byte array, call the [**LoadPixelShader**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-loadpixelshader) method on the effect's [**ID2D1EffectContext**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext) object. [Direct2D](./direct2d-portal.md) ignores calls to **LoadPixelShader** when a shader with the same GUID has already been loaded.
 
-After a pixel shader has been loaded into memory, the transform needs to select it for execution by passing its GUID to the [**SetPixelShader**](https://msdn.microsoft.com/library/Hh847988(v=VS.85).aspx) method on the [**ID2D1DrawInfo**](https://msdn.microsoft.com/library/Hh847986(v=VS.85).aspx) parameter provided during the [**SetDrawInfo**](https://msdn.microsoft.com/library/Hh847993(v=VS.85).aspx) method. The pixel shader must be already loaded into memory before being selected for execution.
+After a pixel shader has been loaded into memory, the transform needs to select it for execution by passing its GUID to the [**SetPixelShader**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawinfo-setpixelshaderconstantbuffer) method on the [**ID2D1DrawInfo**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawinfo) parameter provided during the [**SetDrawInfo**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawtransform-setdrawinfo) method. The pixel shader must be already loaded into memory before being selected for execution.
 
 ### Changing shader operation with constant buffers
 
@@ -810,9 +810,9 @@ struct
 
 
 
-The transform then calls the [**ID2D1DrawInfo::SetPixelShaderConstantBuffer**](https://msdn.microsoft.com/library/Hh847988(v=VS.85).aspx) method on the [**ID2D1DrawInfo**](https://msdn.microsoft.com/library/Hh847986(v=VS.85).aspx) parameter provided in the [**SetDrawInfo**](https://msdn.microsoft.com/library/Hh847993(v=VS.85).aspx) method to pass this buffer to the shader.
+The transform then calls the [**ID2D1DrawInfo::SetPixelShaderConstantBuffer**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawinfo-setpixelshaderconstantbuffer) method on the [**ID2D1DrawInfo**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawinfo) parameter provided in the [**SetDrawInfo**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawtransform-setdrawinfo) method to pass this buffer to the shader.
 
-The [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl) also needs to define a corresponding struct that represents the constant buffer. The variables contained in the shader's struct must match those in the transform's struct.
+The [HLSL](/windows/desktop/direct3dhlsl/dx-graphics-hlsl) also needs to define a corresponding struct that represents the constant buffer. The variables contained in the shader's struct must match those in the transform's struct.
 
 
 ```C++
@@ -829,13 +829,13 @@ Once the buffer has been defined, the values contained within can be read from a
 
 ### Writing a pixel shader for Direct2D
 
-[Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) transforms use shaders authored using standard [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl). However, there are a few key concepts to writing a pixel shader that executes from the context of a transform. For a completed example of a fully functionally pixel shader, see the [D2DCustomEffects SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects).
+[Direct2D](./direct2d-portal.md) transforms use shaders authored using standard [HLSL](/windows/desktop/direct3dhlsl/dx-graphics-hlsl). However, there are a few key concepts to writing a pixel shader that executes from the context of a transform. For a completed example of a fully functionally pixel shader, see the [D2DCustomEffects SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects).
 
-[Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) automatically maps a transform's inputs to [**Texture2D**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-texture2d) and [**SamplerState**](https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11samplerstate) objects in the HLSL. The first **Texture2D** is located at register t0, and the first **SamplerState** is located at register s0. Each additional input is located at the next corresponding registers (t1 and s1 for example). Pixel data for a particular input can be sampled by calling Sample on the **Texture2D** object and passing in the corresponding **SamplerState** object and the texel coordinates.
+[Direct2D](./direct2d-portal.md) automatically maps a transform's inputs to [**Texture2D**](/windows/desktop/direct3dhlsl/sm5-object-texture2d) and [**SamplerState**](/windows/desktop/api/d3d11/nn-d3d11-id3d11samplerstate) objects in the HLSL. The first **Texture2D** is located at register t0, and the first **SamplerState** is located at register s0. Each additional input is located at the next corresponding registers (t1 and s1 for example). Pixel data for a particular input can be sampled by calling Sample on the **Texture2D** object and passing in the corresponding **SamplerState** object and the texel coordinates.
 
-A custom pixel shader is run once for each pixel that is rendered. Each time the shader is run, [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) automatically provides three parameters that identify its current execution position:
+A custom pixel shader is run once for each pixel that is rendered. Each time the shader is run, [Direct2D](./direct2d-portal.md) automatically provides three parameters that identify its current execution position:
 
--   Scene-space output: This parameter represents the current execution position in terms of the overall target surface. It is defined in pixels and its min/max values correspond to the bounds of the rectangle returned by [**MapInputRectsToOutputRect**](https://msdn.microsoft.com/library/Hh446943(v=VS.85).aspx).
+-   Scene-space output: This parameter represents the current execution position in terms of the overall target surface. It is defined in pixels and its min/max values correspond to the bounds of the rectangle returned by [**MapInputRectsToOutputRect**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapinputrectstooutputrect).
 -   Clip-space output: This parameter is used by Direct3D, and is must not be used in a transform's pixel shader.
 -   Texel-space input: This parameter represents the current execution position in a particular input texture. A shader should not take any dependencies on how this value is calculated. It should only use it to sample the pixel shader's input, as shown in the code below:
 
@@ -870,27 +870,27 @@ float4 main(
 
 ## Adding a vertex shader to a custom transform
 
-You can use vertex shaders to accomplish different imaging scenarios than pixel shaders. In particular, vertex shaders can perform geometry-based image effects by transforming vertices that comprise an image. Vertex shaders can be used independently of or in conjunction with transform-specified pixel shaders. If a vertex shader is not specified, [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) substitutes in a default vertex shader for use with the custom pixel shader.
+You can use vertex shaders to accomplish different imaging scenarios than pixel shaders. In particular, vertex shaders can perform geometry-based image effects by transforming vertices that comprise an image. Vertex shaders can be used independently of or in conjunction with transform-specified pixel shaders. If a vertex shader is not specified, [Direct2D](./direct2d-portal.md) substitutes in a default vertex shader for use with the custom pixel shader.
 
-The process for adding a vertex shader to a custom transform is similar to that of a pixel shader – the transform implements the [**ID2D1DrawTransform**](https://msdn.microsoft.com/library/Hh847992(v=VS.85).aspx) interface, creates a GUID, and (optionally) passes constant buffers to the shader. However, there are a few key additional steps that are unique to vertex shaders:
+The process for adding a vertex shader to a custom transform is similar to that of a pixel shader – the transform implements the [**ID2D1DrawTransform**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawtransform) interface, creates a GUID, and (optionally) passes constant buffers to the shader. However, there are a few key additional steps that are unique to vertex shaders:
 
 ### Creating a vertex buffer
 
-A vertex shader by definition executes on vertices passed to it, not individual pixels. To specify the vertices for the shader to execute on, a transform creates a vertex buffer to pass to the shader. The layout of vertex buffers is beyond the scope of this document. Please see the [Direct3D reference](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) for details, or the [D2DCustomEffects SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects) for a sample implementation.
+A vertex shader by definition executes on vertices passed to it, not individual pixels. To specify the vertices for the shader to execute on, a transform creates a vertex buffer to pass to the shader. The layout of vertex buffers is beyond the scope of this document. Please see the [Direct3D reference](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) for details, or the [D2DCustomEffects SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects) for a sample implementation.
 
-After creating a vertex buffer in memory, the transform uses the [**CreateVertexBuffer**](https://msdn.microsoft.com/library/Hh404471(v=VS.85).aspx) method on the containing effect's [**ID2D1EffectContext**](https://msdn.microsoft.com/library/Hh404459(v=VS.85).aspx) object to pass that data to the GPU. Again, see the [D2DCustomEffects SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects) for a sample implementation.
+After creating a vertex buffer in memory, the transform uses the [**CreateVertexBuffer**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createvertexbuffer) method on the containing effect's [**ID2D1EffectContext**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext) object to pass that data to the GPU. Again, see the [D2DCustomEffects SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects) for a sample implementation.
 
-If no vertex buffer is specified by the transform, [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) passes a default vertex buffer representing the rectangular image location.
+If no vertex buffer is specified by the transform, [Direct2D](./direct2d-portal.md) passes a default vertex buffer representing the rectangular image location.
 
 ### Changing SetDrawInfo to utilize a vertex shader
 
-Like with pixel shaders, the transform must load and select a vertex shader for execution. To load the vertex shader, it calls the [**LoadVertexShader**](https://msdn.microsoft.com/library/Hh404477(v=VS.85).aspx) method on the [**ID2D1EffectContext**](https://msdn.microsoft.com/library/Hh404459(v=VS.85).aspx) method received in the effect's Initialize method. To select the vertex shader for execution, it calls [**SetVertexProcessing**](https://msdn.microsoft.com/library/Hh847990(v=VS.85).aspx) on the [**ID2D1DrawInfo**](https://msdn.microsoft.com/library/Hh847986(v=VS.85).aspx) parameter received in the transform's [**SetDrawInfo**](https://msdn.microsoft.com/library/Hh847993(v=VS.85).aspx) method. This method accepts a GUID for a previously-loaded vertex shader as well as (optionally) a previously-created vertex buffer for the shader to execute on.
+Like with pixel shaders, the transform must load and select a vertex shader for execution. To load the vertex shader, it calls the [**LoadVertexShader**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-loadvertexshader) method on the [**ID2D1EffectContext**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext) method received in the effect's Initialize method. To select the vertex shader for execution, it calls [**SetVertexProcessing**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawinfo-setvertexprocessing) on the [**ID2D1DrawInfo**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawinfo) parameter received in the transform's [**SetDrawInfo**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawtransform-setdrawinfo) method. This method accepts a GUID for a previously-loaded vertex shader as well as (optionally) a previously-created vertex buffer for the shader to execute on.
 
 ### Implementing a Direct2D vertex shader
 
 A draw transform can contain both a pixel shader and a vertex shader. If a transform defines both a pixel shader and a vertex shader, then the output from the vertex shader is given directly to the pixel shader: the app can customize the return signature of the vertex shader / the parameters of the pixel shader as long as they are consistent.
 
-On the other hand, if a transform only contains a vertex shader, and relies on [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx)'s default pass-through pixel shader, it must return the following default output:
+On the other hand, if a transform only contains a vertex shader, and relies on [Direct2D](./direct2d-portal.md)'s default pass-through pixel shader, it must return the following default output:
 
 
 ```C++
@@ -904,7 +904,7 @@ struct VSOut
 
 
 
-A vertex shader stores the result of its vertex transformations in the shader's Scene-space output variable. To compute the Clip-space output and the Texel-space input variables, [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) automatically provides conversion matrices in a constant buffer:
+A vertex shader stores the result of its vertex transformations in the shader's Scene-space output variable. To compute the Clip-space output and the Texel-space input variables, [Direct2D](./direct2d-portal.md) automatically provides conversion matrices in a constant buffer:
 
 
 ```C++
@@ -922,7 +922,7 @@ cbuffer Direct2DTransforms : register(b0)
 
 
 
-Sample vertex shader code can be found below that uses the conversion matrices to calculate the correct clip and texel spaces expected by [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx):
+Sample vertex shader code can be found below that uses the conversion matrices to calculate the correct clip and texel spaces expected by [Direct2D](./direct2d-portal.md):
 
 
 ```C++
@@ -989,7 +989,7 @@ VSOut GeometryVS(float4 outputScenePosition : OUTPUT_SCENE_POSITION)
 
 The above code can be used as a starting point for a vertex shader. It merely passes through the input image without performing any transforms. Again, see the [D2DCustomEffects SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects) for a fully-implemented vertex shader-based transform.
 
-If no vertex buffer is specified by the transform, [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) substitutes in a default vertex buffer representing the rectangular image location. The parameters to the vertex shader are changed to those of the default shader output:
+If no vertex buffer is specified by the transform, [Direct2D](./direct2d-portal.md) substitutes in a default vertex buffer representing the rectangular image location. The parameters to the vertex shader are changed to those of the default shader output:
 
 
 ```C++
@@ -1009,31 +1009,31 @@ The vertex shader may not modify its *sceneSpaceOutput* and *clipSpaceOutput* pa
 
 Finally, custom transforms may utilize compute shaders for certain targeted scenarios. Compute shaders can be used to implement complex image effects that require arbitrary access to input and output image buffers. For example, a basic histogram algorithm cannot be implemented with a pixel shader due to limitations on memory access.
 
-Because compute shaders have higher hardware feature level requirements than pixel shaders, pixel shaders should be used when possible to implement a given effect. Specifically, compute shaders only run on most DirectX 10 level cards and higher. If a transform chooses to use a compute shader, it must check for the appropriate hardware support during instantiation in addition to implementing the [**ID2D1ComputeTransform**](https://msdn.microsoft.com/library/Hh404434(v=VS.85).aspx) interface.
+Because compute shaders have higher hardware feature level requirements than pixel shaders, pixel shaders should be used when possible to implement a given effect. Specifically, compute shaders only run on most DirectX 10 level cards and higher. If a transform chooses to use a compute shader, it must check for the appropriate hardware support during instantiation in addition to implementing the [**ID2D1ComputeTransform**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1computetransform) interface.
 
 ### Checking for Compute Shader support
 
-If an effect uses a compute shader, it must check for compute shader support during its creation using the [**ID2D1EffectContext::CheckFeatureSupport**](https://msdn.microsoft.com/library/Hh871455(v=VS.85).aspx) method. If the GPU does not support compute shaders, the effect must return [**D2DERR\_INSUFFICIENT\_DEVICE\_CAPABILITIES**](direct2d-error-codes.md).
+If an effect uses a compute shader, it must check for compute shader support during its creation using the [**ID2D1EffectContext::CheckFeatureSupport**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-checkfeaturesupport) method. If the GPU does not support compute shaders, the effect must return [**D2DERR\_INSUFFICIENT\_DEVICE\_CAPABILITIES**](direct2d-error-codes.md).
 
-There are two different types of compute shaders that a transform can use: Shader Model 4 (DirectX 10) and Shader Model 5 (DirectX 11). There are certain limitations to Shader Model 4 shaders. See the [Direct3D](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) documentation for details. Transforms can contain both types of shaders, and can fall back to Shader Model 4 when required: see the [D2DCustomEffects SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects) for an implementation of this.
+There are two different types of compute shaders that a transform can use: Shader Model 4 (DirectX 10) and Shader Model 5 (DirectX 11). There are certain limitations to Shader Model 4 shaders. See the [Direct3D](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) documentation for details. Transforms can contain both types of shaders, and can fall back to Shader Model 4 when required: see the [D2DCustomEffects SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects) for an implementation of this.
 
 ### Implement ID2D1ComputeTransform
 
-This interface contains two new methods to implement in addition to the ones in [**ID2D1Transform**](https://msdn.microsoft.com/library/Dd371304(v=VS.85).aspx):
+This interface contains two new methods to implement in addition to the ones in [**ID2D1Transform**](/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)):
 
 ### SetComputeInfo(ID2D1ComputeInfo \*pComputeInfo)
 
-Like with pixel and vertex shaders, [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) calls the [**SetComputeInfo**](https://msdn.microsoft.com/library/Hh404450(v=VS.85).aspx) method when the transform is first added to an effect's transform graph. This method provides an [**ID2D1ComputeInfo**](https://msdn.microsoft.com/library/Hh847966(v=VS.85).aspx) parameter that controls how the transform is rendered. This includes choosing the compute shader to execute through the [**ID2D1ComputeInfo::SetComputeShader**](https://msdn.microsoft.com/library/Hh847968(v=VS.85).aspx) method. If the transform chooses to store this parameter as a class member variable, it can be accessed and changed from any transform or effect method with the exception of the [**MapOutputRectToInputRects**](https://msdn.microsoft.com/library/Hh446945(v=VS.85).aspx) and [**MapInvalidRect**](https://msdn.microsoft.com/library/Hh446946(v=VS.85).aspx) methods. See the **ID2D1ComputeInfo** topic for other methods available here.
+Like with pixel and vertex shaders, [Direct2D](./direct2d-portal.md) calls the [**SetComputeInfo**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1computetransform-setcomputeinfo) method when the transform is first added to an effect's transform graph. This method provides an [**ID2D1ComputeInfo**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1computeinfo) parameter that controls how the transform is rendered. This includes choosing the compute shader to execute through the [**ID2D1ComputeInfo::SetComputeShader**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1computeinfo-setcomputeshaderconstantbuffer) method. If the transform chooses to store this parameter as a class member variable, it can be accessed and changed from any transform or effect method with the exception of the [**MapOutputRectToInputRects**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapoutputrecttoinputrects) and [**MapInvalidRect**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapinvalidrect) methods. See the **ID2D1ComputeInfo** topic for other methods available here.
 
 ### CalculateThreadgroups(ID2D1ComputeInfo \*pOutputRect, UINT32 \*pDimensionX, UINT32 \*pDimensionY, UINT32 \*pDimensionZ)
 
 Whereas pixel shaders are executed on a per-pixel basis and vertex shaders are executed on a per-vertex basis, compute shaders are executed on a per-'threadgroup' basis. A threadgroup represents a number of threads that execute concurrently on the GPU. The compute shader HLSL code decides how many threads should be executed per threadgroup. The effect scales the number of threadgroups so that the shader executes the desired number of times, depending on the shader's logic.
 
-The [**CalculateThreadgroups**](https://msdn.microsoft.com/library/Hh404437(v=VS.85).aspx) method allows the transform to inform [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) how many thread groups are required, based on the size of the image and the transform's own knowledge of the shader.
+The [**CalculateThreadgroups**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1computetransform-calculatethreadgroups) method allows the transform to inform [Direct2D](./direct2d-portal.md) how many thread groups are required, based on the size of the image and the transform's own knowledge of the shader.
 
-The number of times the compute shader is executed is a product of the threadgroup counts specified here and the 'numthreads' annotation in the compute shader [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl). For example, if the transform sets the threadgroup dimensions to be (2,2,1) the shader specifies (3,3,1) threads per threadgroup, then 4 threadgroups will be executed, each with 9 threads in them, for a total of 36 thread instances.
+The number of times the compute shader is executed is a product of the threadgroup counts specified here and the 'numthreads' annotation in the compute shader [HLSL](/windows/desktop/direct3dhlsl/dx-graphics-hlsl). For example, if the transform sets the threadgroup dimensions to be (2,2,1) the shader specifies (3,3,1) threads per threadgroup, then 4 threadgroups will be executed, each with 9 threads in them, for a total of 36 thread instances.
 
-A common scenario is to process one output pixel for each instance of the compute shader. To calculate the number of thread groups for this scenario, the transform divides the width and height of the image by the respective x and y dimensions of the 'numthreads' annotation in the compute shader [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl).
+A common scenario is to process one output pixel for each instance of the compute shader. To calculate the number of thread groups for this scenario, the transform divides the width and height of the image by the respective x and y dimensions of the 'numthreads' annotation in the compute shader [HLSL](/windows/desktop/direct3dhlsl/dx-graphics-hlsl).
 
 Importantly, if this division is performed, then the number of thread groups requested must always be rounded up to the nearest integer, otherwise the 'remainder' pixels will not be executed upon. If a shader (for example) computes a single pixel with each thread, the method's code would appear as follows.
 
@@ -1069,7 +1069,7 @@ IFACEMETHODIMP SampleTransform::CalculateThreadgroups(
 
 
 
-The [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl) uses the following code to specify the number of threads in each thread group:
+The [HLSL](/windows/desktop/direct3dhlsl/dx-graphics-hlsl) uses the following code to specify the number of threads in each thread group:
 
 
 ```hlsl
@@ -1130,7 +1130,7 @@ SamplerState InputSampler : register(s0);
 
 
 
-However, like pixel shaders, the image's data is not guaranteed to begin at (0, 0) on the texture. Instead, [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) provides system constants that allow shaders to compensate for any offset:
+However, like pixel shaders, the image's data is not guaranteed to begin at (0, 0) on the texture. Instead, [Direct2D](./direct2d-portal.md) provides system constants that allow shaders to compensate for any offset:
 
 
 ```hlsl
@@ -1175,7 +1175,7 @@ float4 color = InputTexture.SampleLevel(
 
 ### Writing image data
 
-[Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) expects a shader to define an output buffer for the resulting image to be placed. In Shader Model 4 (DirectX 10), this must be a single-dimensional buffer due to feature constraints:
+[Direct2D](./direct2d-portal.md) expects a shader to define an output buffer for the resulting image to be placed. In Shader Model 4 (DirectX 10), this must be a single-dimensional buffer due to feature constraints:
 
 
 ```hlsl
@@ -1205,7 +1205,7 @@ RWTexture2D<float4> OutputTexture : register(t1);
 
 
 
-With Shader Model 5 shaders, [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx) provides an additional 'outputOffset' parameter in the constant buffer. The shader's output should be offsetted by this amount:
+With Shader Model 5 shaders, [Direct2D](./direct2d-portal.md) provides an additional 'outputOffset' parameter in the constant buffer. The shader's output should be offsetted by this amount:
 
 
 ```hlsl
@@ -1394,7 +1394,3 @@ void main(
  
 
  
-
-
-
-

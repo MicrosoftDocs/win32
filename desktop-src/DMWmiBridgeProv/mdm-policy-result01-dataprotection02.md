@@ -52,7 +52,7 @@ The **MDM\_Policy\_Result01\_DataProtection02** class has these properties.
 
 <dl> <dt>
 
-[AllowDirectMemoryAccess](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-dataprotection#dataprotection-allowdirectmemoryaccess)
+[AllowDirectMemoryAccess](/windows/client-management/mdm/policy-csp-dataprotection#dataprotection-allowdirectmemoryaccess)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -72,14 +72,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "DataProtection".
 
 </dd> <dt>
 
-[LegacySelectiveWipeID](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-dataprotection#dataprotection-legacyselectivewipeid)
+[LegacySelectiveWipeID](/windows/client-management/mdm/policy-csp-dataprotection#dataprotection-legacyselectivewipeid)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -99,7 +99,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Result"
@@ -124,14 +124,8 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

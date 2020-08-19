@@ -51,18 +51,18 @@ Parameter name.
 **Type**
 </dt> <dd>
 
-Type: **[**D3DXEFFECTDEFAULTTYPE**](https://msdn.microsoft.com/library/Bb172822(v=VS.85).aspx)**
+Type: **[**D3DXEFFECTDEFAULTTYPE**](./d3dxeffectdefaulttype.md)**
 
 </dd> <dd>
 
-Data type in pValue. For more information, see [**D3DXEFFECTDEFAULTTYPE**](https://msdn.microsoft.com/library/Bb172822(v=VS.85).aspx)
+Data type in pValue. For more information, see [**D3DXEFFECTDEFAULTTYPE**](./d3dxeffectdefaulttype.md)
 
 </dd> <dt>
 
 **NumBytes**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -73,7 +73,7 @@ Size, in bytes, of the data pointed to by pValue.
 **pValue**
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -101,7 +101,3 @@ Pointer to the memory location that contains the data.
  
 
  
-
-
-
-

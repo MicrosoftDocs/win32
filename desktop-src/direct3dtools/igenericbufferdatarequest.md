@@ -26,7 +26,7 @@ Request for the contents of an object in XML form.
 
 ## Members
 
-The **IGenericBufferDataRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IGenericBufferDataRequest** also has these types of members:
+The **IGenericBufferDataRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IGenericBufferDataRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IGenericBufferDataRequest** interface has these methods.
  
 
  
-
-
-

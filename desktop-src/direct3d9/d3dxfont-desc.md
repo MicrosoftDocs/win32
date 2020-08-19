@@ -46,7 +46,7 @@ typedef struct D3DXFONT_DESC {
 **Height**
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -57,7 +57,7 @@ Height, in logical units, of the font's character cell or character.
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -68,7 +68,7 @@ Width, in logical units, of characters in the font.
 **Weight**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -79,7 +79,7 @@ Weight of the font in the range from 0 through 1000.
 **MipLevels**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -90,7 +90,7 @@ Number of mip levels requested. If this value is zero or D3DX\_DEFAULT, a comple
 **Italic**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -101,7 +101,7 @@ Set to **TRUE** for an Italic font.
 **CharSet**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BYTE**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -112,7 +112,7 @@ Character set.
 **OutputPrecision**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BYTE**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -123,7 +123,7 @@ Output precision. The output precision defines how closely the output must match
 **Quality**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BYTE**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -134,7 +134,7 @@ Output quality.
 **PitchAndFamily**
 </dt> <dd>
 
-Type: **[**BYTE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BYTE**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -157,7 +157,7 @@ A null-terminated string or characters that specifies the typeface name of the f
 
 The compiler setting also determines the structure type. If Unicode is defined, the D3DXFONT\_DESC structure type resolves to a D3DXFONT\_DESCW; otherwise the structure type resolves to a D3DXFONT\_DESCA.
 
-Possible values of the above members are given in the GDI [**LOGFONT**](https://msdn.microsoft.com/library/Dd145037(v=VS.85).aspx) structure.
+Possible values of the above members are given in the GDI [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure.
 
 ## Requirements
 
@@ -182,7 +182,3 @@ Possible values of the above members are given in the GDI [**LOGFONT**](https://
  
 
  
-
-
-
-

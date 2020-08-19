@@ -36,7 +36,7 @@ Generally, you set the light color components to values between 0.0 and 1.0, inc
 
 Note that although Direct3D uses RGBA values for lights, the alpha color component is not used.
 
-Usually material colors are used for lighting. However, you can specify that material colors-emissive, ambient, diffuse, and specular-are to be overridden by diffuse or specular vertex colors. This is done by calling [**SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx) and setting the device state variables listed in the following table.
+Usually material colors are used for lighting. However, you can specify that material colors-emissive, ambient, diffuse, and specular-are to be overridden by diffuse or specular vertex colors. This is done by calling [**SetRenderState**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrenderstate) and setting the device state variables listed in the following table.
 
 
 
@@ -91,6 +91,3 @@ A light's range property determines the distance, in world space, at which meshe
  
 
  
-
-
-

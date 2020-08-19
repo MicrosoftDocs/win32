@@ -39,7 +39,7 @@ HRESULT D3DXCreateBuffer(
 *NumBytes* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Size of the buffer to create, in bytes.
 
@@ -81,7 +81,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

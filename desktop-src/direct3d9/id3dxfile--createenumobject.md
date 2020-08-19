@@ -40,7 +40,7 @@ HRESULT CreateEnumObject(
 *pvSource* \[out\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 The data source. Either:
 
@@ -104,7 +104,3 @@ After using this method, use one of the [**ID3DXFileEnumObject**](id3dxfileenumo
  
 
  
-
-
-
-

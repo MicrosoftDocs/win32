@@ -58,7 +58,7 @@ The **MDM\_Policy\_Config01\_ApplicationManagement02** class has these propertie
 
 <dl> <dt>
 
-[AllowAllTrustedApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowalltrustedapps)
+[AllowAllTrustedApps](/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowalltrustedapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -69,7 +69,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowAppStoreAutoUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowappstoreautoupdate)
+[AllowAppStoreAutoUpdate](/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowappstoreautoupdate)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -80,7 +80,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowDeveloperUnlock](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowdeveloperunlock)
+[AllowDeveloperUnlock](/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowdeveloperunlock)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -91,7 +91,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowGameDVR](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowgamedvr)
+[AllowGameDVR](/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowgamedvr)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -102,7 +102,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowSharedUserAppData](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowshareduserappdata)
+[AllowSharedUserAppData](/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowshareduserappdata)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -113,7 +113,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableStoreOriginatedApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-disablestoreoriginatedapps)
+[DisableStoreOriginatedApps](/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-disablestoreoriginatedapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -133,7 +133,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "ApplicationManagement".
@@ -149,14 +149,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Config"
 
 </dd> <dt>
 
-[RestrictAppDataToSystemVolume](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-restrictappdatatosystemvolume)
+[RestrictAppDataToSystemVolume](/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-restrictappdatatosystemvolume)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -167,7 +167,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RestrictAppToSystemVolume](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-restrictapptosystemvolume)
+[RestrictAppToSystemVolume](/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-restrictapptosystemvolume)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -196,14 +196,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

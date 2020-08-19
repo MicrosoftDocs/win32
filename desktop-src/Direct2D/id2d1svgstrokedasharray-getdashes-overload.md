@@ -24,8 +24,8 @@ Gets dashes from the array.
 
 | Method                                                                                         | Description                            |
 |:-----------------------------------------------------------------------------------------------|:---------------------------------------|
-| [**GetDashes(FLOAT \*, UINT32, UINT32)**](https://msdn.microsoft.com/library/Mt797918(v=VS.85).aspx)               | Gets dashes from the array.<br/> |
-| [**GetDashes(D2D1\_SVG\_LENGTH \*, UINT32, UINT32)**](https://msdn.microsoft.com/library/Mt797920(v=VS.85).aspx) | Gets dashes from the array.<br/> |
+| [**GetDashes(FLOAT \*, UINT32, UINT32)**](/windows/win32/api/d2d1svg/nf-d2d1svg-id2d1svgstrokedasharray-getdashes(float_uint32_uint32))               | Gets dashes from the array.<br/> |
+| [**GetDashes(D2D1\_SVG\_LENGTH \*, UINT32, UINT32)**](/windows/win32/api/d2d1svg/nf-d2d1svg-id2d1svgstrokedasharray-getdashes(d2d1_svg_length_uint32_uint32)) | Gets dashes from the array.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Gets dashes from the array.
 
 <dl> <dt>
 
-[**ID2D1SvgStrokeDashArray**](https://msdn.microsoft.com/library/Mt797917(v=VS.85).aspx)
+[**ID2D1SvgStrokeDashArray**](/windows/win32/api/d2d1svg/nn-d2d1svg-id2d1svgstrokedasharray)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

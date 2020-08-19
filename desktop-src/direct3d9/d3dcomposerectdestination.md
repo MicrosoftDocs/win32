@@ -40,7 +40,7 @@ typedef struct _D3DCOMPOSERECTDESTINATION {
 **SrcRectIndex**
 </dt> <dd>
 
-Type: **[**USHORT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**USHORT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -51,7 +51,7 @@ Index particular glyph from vertex buffer containing [**D3DCOMPOSERECTDESC**](d3
 **Reserved**
 </dt> <dd>
 
-Type: **[**USHORT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**USHORT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -62,7 +62,7 @@ Reserved for alignment purposes.
 **X**
 </dt> <dd>
 
-Type: **[**USHORT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**USHORT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -73,7 +73,7 @@ Left coordinate to begin copy at.
 **Y**
 </dt> <dd>
 
-Type: **[**USHORT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**USHORT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -83,7 +83,7 @@ Top coordinate to begin copy at.
 
 ## Remarks
 
-This structure is used in calls to [**ComposeRects**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-composerects) to indicate the location glyphs should be copied to and which particular glyph should be copied. A vertex buffer (see [**IDirect3DVertexBuffer9**](https://msdn.microsoft.com/library/Bb205915(v=VS.85).aspx)) filled with these structures are created to contain the glyph locations. USHORT members are used to reduce the memory footprint as much as possible.
+This structure is used in calls to [**ComposeRects**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-composerects) to indicate the location glyphs should be copied to and which particular glyph should be copied. A vertex buffer (see [**IDirect3DVertexBuffer9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9)) filled with these structures are created to contain the glyph locations. USHORT members are used to reduce the memory footprint as much as possible.
 
 ## Requirements
 
@@ -105,7 +105,3 @@ This structure is used in calls to [**ComposeRects**](/windows/desktop/api/d3d9/
  
 
  
-
-
-
-

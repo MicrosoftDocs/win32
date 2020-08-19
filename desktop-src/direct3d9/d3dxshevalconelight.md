@@ -46,7 +46,7 @@ HRESULT D3DXSHEvalConeLight(
 *Order* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Order of the SH evaluation. Must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive. The evaluation generates Order² coefficients. The degree of the evaluation is Order - 1.
 
@@ -64,7 +64,7 @@ Pointer to the (x, y, z) hemisphere axis direction vector in which to evaluate t
 *Radius* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Radius of cone in radians.
 
@@ -73,7 +73,7 @@ Radius of cone in radians.
 *RIntensity* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The red intensity of the light.
 
@@ -82,7 +82,7 @@ The red intensity of the light.
 *GIntensity* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The green intensity of the light.
 
@@ -91,7 +91,7 @@ The green intensity of the light.
 *BIntensity* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The blue intensity of the light.
 
@@ -100,7 +100,7 @@ The blue intensity of the light.
 *pROut* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to the output SH vector for the red component.
 
@@ -109,7 +109,7 @@ Pointer to the output SH vector for the red component.
 *pGOut* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to the output SH vector for the green component.
 
@@ -118,7 +118,7 @@ Pointer to the output SH vector for the green component.
 *pBOut* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to the output SH vector for the blue component.
 
@@ -166,7 +166,3 @@ The following equations show the relationship between Cartesian (x, y, z) and sp
  
 
  
-
-
-
-

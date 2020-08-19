@@ -41,7 +41,7 @@ Returns the thread handle.
 
 ## Remarks
 
-The thread handle can be passed to wait functions, such as [**WaitForMultipleObjects**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects). The thread handle is signaled when the thread has exited.
+The thread handle can be passed to wait functions, such as [**WaitForMultipleObjects**](/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects). The thread handle is signaled when the thread has exited.
 
 ## Requirements
 
@@ -62,9 +62,4 @@ The thread handle can be passed to wait functions, such as [**WaitForMultipleObj
 </dt> </dl>
 
  
-
- 
-
-
-
 

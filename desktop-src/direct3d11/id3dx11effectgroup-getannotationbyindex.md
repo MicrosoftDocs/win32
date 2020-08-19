@@ -41,7 +41,7 @@ ID3DX11EffectVariable* GetAnnotationByIndex(
 *Index* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 Index of the annotation.
 
@@ -79,10 +79,4 @@ Pointer to an [**ID3DX11EffectVariable**](id3dx11effectvariable.md) interface.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

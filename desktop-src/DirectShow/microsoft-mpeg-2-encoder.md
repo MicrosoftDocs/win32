@@ -21,7 +21,7 @@ Filter Information
 
 Filter Interfaces
 
-[**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)<br/> [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi)<br/> **IEncoderAPI**<br/> [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)<br/> [**IVideoEncoder**](https://msdn.microsoft.com/library/Dd377231(v=VS.85).aspx)<br/>
+[**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)<br/> [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi)<br/> **IEncoderAPI**<br/> [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)<br/> [**IVideoEncoder**](/windows/win32/api/strmif/nn-strmif-ivideoencoder)<br/>
 
 Input Pin Media Types
 
@@ -111,7 +111,3 @@ The filter supports the combined properties of the [**MPEG-2 Audio Encoder**](mi
  
 
  
-
-
-
-

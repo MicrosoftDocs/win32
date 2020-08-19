@@ -20,8 +20,8 @@ The Delivery Optimization (DO) [interfaces](do-interfaces.md) use the following 
 | [**BG_JOB_TIMES**](bg-job-times.md) | The **BG_JOB_TIMES** structure provides job-related time stamps. |
 | [**BITS_FILE_PROPERTY_VALUE**](bits-file-property-value.md) | The **BITS_FILE_PROPERTY_VALUE** union provides the property value of the DO file based on a value from the [**BITS_FILE_PROPERTY_ID**](bits-file-property-id-.md) enumeration. |
 | [**BITS_JOB_PROPERTY_VALUE**](bits-job-property-value-.md) | The **BITS_JOB_PROPERTY_VALUE** union provides the property value of the DO job based on the value of the [**BITS_JOB_PROPERTY_ID**](bits-job-property-id.md) enumeration. |
-| [**DO_DOWNLOAD_ENUM_CATEGORY**](/windows/win32/delivery_optimization/do/ns-do-do_download_enum_category) | Used by **IDOManager::EnumDownloads** to filter the downloads enumeration by the specific property's value. |
-| [**DO_DOWNLOAD_RANGE**](/windows/win32/delivery_optimization/deliveryoptimizationdownloadtypes/ns-deliveryoptimizationdownloadtypes-do_download_range) | Identifies a single range of bytes to download from a file. |
-| [**DO_DOWNLOAD_RANGE_INFO**](/windows/win32/delivery_optimization/do/ns-do-do_download_range_info) | Identifies an array of ranges of bytes to download from a file. |
-| [**DO_DOWNLOAD_STATUS**](/windows/win32/delivery_optimization/do/ns-do-do_download_status) | Used to obtain the status of a specific download. |
+| [**DO_DOWNLOAD_ENUM_CATEGORY**](./do/ns-do-do_download_enum_category.md) | Used by **IDOManager::EnumDownloads** to filter the downloads enumeration by the specific property's value. |
+| [**DO_DOWNLOAD_RANGE**](./deliveryoptimizationdownloadtypes/ns-deliveryoptimizationdownloadtypes-do_download_range.md) | Identifies a single range of bytes to download from a file. |
+| [**DO_DOWNLOAD_RANGE_INFO**](./do/ns-do-do_download_range_info.md) | Identifies an array of ranges of bytes to download from a file. |
+| [**DO_DOWNLOAD_STATUS**](./do/ns-do-do_download_status.md) | Used to obtain the status of a specific download. |
 | [**DOSwarmStats**](doswarmstats.md) | Contains fields for download and upload statistics for a file. |

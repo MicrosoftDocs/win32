@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Pixel Fog (Direct3D 9)
 
-Pixel fog gets its name from the fact that it is calculated on a per-pixel basis in the device driver. This is different from vertex fog, which is computed by the pipeline during transformation and lighting calculations. Pixel fog is sometimes called table fog because some drivers use a precalculated lookup table to determine the fog factor, using the depth of each pixel to apply in blending computations. It can be applied using any fog formula identified by members of the [**D3DFOGMODE**](https://msdn.microsoft.com/library/Bb172557(v=VS.85).aspx) enumerated type. The implementations of these formulas are driver-specific. If a driver doesn't support a complex fog formula, it should degrade to a less complex formula.
+Pixel fog gets its name from the fact that it is calculated on a per-pixel basis in the device driver. This is different from vertex fog, which is computed by the pipeline during transformation and lighting calculations. Pixel fog is sometimes called table fog because some drivers use a precalculated lookup table to determine the fog factor, using the depth of each pixel to apply in blending computations. It can be applied using any fog formula identified by members of the [**D3DFOGMODE**](./d3dfogmode.md) enumerated type. The implementations of these formulas are driver-specific. If a driver doesn't support a complex fog formula, it should degrade to a less complex formula.
 
 ## Eye-Relative vs. Z-Based Depth
 
-To alleviate fog-related graphic artifacts caused by uneven distribution of z-values in a depth buffer, most hardware devices use eye-relative depth instead of z-based depth values for pixel fog. Eye-relative depth is essentially the w element from a homogeneous coordinate set. Microsoft Direct3D takes the reciprocal of the RHW element from a device space coordinate set to reproduce true w. If a device supports eye-relative fog, it sets the **D3DPRASTERCAPS\_WFOG** flag in the RasterCaps member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure when you call the [**IDirect3DDevice9::GetDeviceCaps**](https://msdn.microsoft.com/library/Bb174385(v=VS.85).aspx) method. With the exception of the reference rasterizer, software devices always use z to calculate pixel fog effects.
+To alleviate fog-related graphic artifacts caused by uneven distribution of z-values in a depth buffer, most hardware devices use eye-relative depth instead of z-based depth values for pixel fog. Eye-relative depth is essentially the w element from a homogeneous coordinate set. Microsoft Direct3D takes the reciprocal of the RHW element from a device space coordinate set to reproduce true w. If a device supports eye-relative fog, it sets the **D3DPRASTERCAPS\_WFOG** flag in the RasterCaps member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure when you call the [**IDirect3DDevice9::GetDeviceCaps**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getdevicecaps) method. With the exception of the reference rasterizer, software devices always use z to calculate pixel fog effects.
 
 When eye-relative fog is supported, the system automatically uses eye-relative depth rather than z-based depth if the provided projection matrix produces z-values in world space that are equivalent to w-values in device space. You set the projection matrix by calling the [**IDirect3DDevice9::SetTransform**](/windows/desktop/api) method, using the D3DTS\_PROJECTION value and passing a [**D3DMATRIX**](d3dmatrix.md) structure that represents the desired matrix. If the projection matrix isn't compliant with this requirement, fog effects are not applied properly. For details about producing a compliant matrix, see [Projection Transform (Direct3D 9)](projection-transform.md).
 
@@ -26,7 +26,7 @@ Use the following steps to enable pixel fog in your application.
 
 1.  Enable fog blending by setting the D3DRS\_FOGENABLE render state to **TRUE**.
 2.  Set the desired fog color in the D3DRS\_FOGCOLOR render state.
-3.  Choose the fog formula to use by setting the D3DRS\_FOGTABLEMODE render state to the corresponding member of the [**D3DFOGMODE**](https://msdn.microsoft.com/library/Bb172557(v=VS.85).aspx) enumerated type.
+3.  Choose the fog formula to use by setting the D3DRS\_FOGTABLEMODE render state to the corresponding member of the [**D3DFOGMODE**](./d3dfogmode.md) enumerated type.
 4.  Set the fog parameters as desired for the selected fog mode in the associated render states. This includes the start and end distances for linear fog, and fog density for exponential fog mode.
 
 The following example shows what these steps might look like in code.
@@ -67,7 +67,7 @@ void SetupPixelFog(DWORD Color, DWORD Mode)
 
 
 
-Some fog parameters are required as floating-point values, even though the [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx) method accepts only DWORD values in the second parameter. The preceding example provides the floating-point values to **IDirect3DDevice9::SetRenderState** without data translation by casting the addresses of the floating-point variables as DWORD pointers, and then dereferencing them.
+Some fog parameters are required as floating-point values, even though the [**IDirect3DDevice9::SetRenderState**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrenderstate) method accepts only DWORD values in the second parameter. The preceding example provides the floating-point values to **IDirect3DDevice9::SetRenderState** without data translation by casting the addresses of the floating-point variables as DWORD pointers, and then dereferencing them.
 
 ## Related topics
 
@@ -79,6 +79,3 @@ Some fog parameters are required as floating-point values, even though the [**ID
  
 
  
-
-
-

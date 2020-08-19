@@ -40,7 +40,7 @@ HRESULT GetData(
 *szMember* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to the name of the member for which to retrieve data. Specify **NULL** to retrieve all required members' data.
 
@@ -49,7 +49,7 @@ Pointer to the name of the member for which to retrieve data. Specify **NULL** t
 *pcbSize* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to receive the ppvData buffer size, in bytes.
 
@@ -98,7 +98,3 @@ This method retrieves the data for required members of a data object but no data
  
 
  
-
-
-
-

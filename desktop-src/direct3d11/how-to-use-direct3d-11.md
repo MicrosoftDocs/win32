@@ -34,7 +34,7 @@ This section demonstrates how to use the Microsoft Direct3D 11 API to accomplish
 | [How To: Initialize the Tessellator Stage](direct3d-11-advanced-stages-tessellator-initialize.md)<br/>                 | This topic shows how to initialize the tessellator stage.<br/>                                                                                                                                                                                                                       |
 | [How To: Design a Domain Shader](direct3d-11-advanced-stages-domain-shader-design.md)<br/>                             | This topics shows how to design a domain shader.<br/>                                                                                                                                                                                                                                |
 | [How To: Create a Domain Shader](direct3d-11-advanced-stages-domain-shader-create.md)<br/>                             | This topic shows how to create a domain shader.<br/>                                                                                                                                                                                                                                 |
-| [How To: Compile a Shader](how-to--compile-a-shader.md)<br/>                                                           | This topic shows how to use the [**D3DCompileFromFile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompilefromfile) function at run time to compile shader code.<br/>                                                                                                                                          |
+| [How To: Compile a Shader](how-to--compile-a-shader.md)<br/>                                                           | This topic shows how to use the [**D3DCompileFromFile**](/windows/desktop/direct3dhlsl/d3dcompilefromfile) function at run time to compile shader code.<br/>                                                                                                                                          |
 | [How to: Record a Command List](overviews-direct3d-11-render-multi-thread-command-list-record.md)<br/>                 | This topic shows how to create and record a [command list](overviews-direct3d-11-render-multi-thread-command-list.md).<br/>                                                                                                                                                         |
 | [How to: Play Back a Command List](overviews-direct3d-11-render-multi-thread-command-list-play.md)<br/>                | This topic shows how to play back a [command list](overviews-direct3d-11-render-multi-thread-command-list.md).<br/>                                                                                                                                                                 |
 | [How To: Check for Driver Support](overviews-direct3d-11-render-multi-thread-support.md)<br/>                          | This topic shows how to determine whether multithreading features (including [resource creation](overviews-direct3d-11-render-multi-thread-intro.md) and [command lists](overviews-direct3d-11-render-multi-thread-command-list.md)) are supported for hardware acceleration.<br/> |
@@ -51,10 +51,4 @@ This section demonstrates how to use the Microsoft Direct3D 11 API to accomplish
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

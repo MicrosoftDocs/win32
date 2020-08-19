@@ -47,7 +47,7 @@ This instruction interprets coordinate data as color data (RGBA).
 
 No texture is sampled by this instruction. Only texture coordinates set on this texture stage are relevant.
 
-When using texcrd, keep in mind the following detail about how data is copied from the source register to the destination register. The source texture coordinate register (t\#) holds data in the range \[-D3DCAPS9.MaxTextureRepeat, D3DCAPS9.MaxTextureRepeat\], while the destination register (r\#) can hold data only in the (likely smaller) range \[-D3DCAPS9.PixelShader1xMaxValue, D3DCAPS9.PixelShader1xMaxValue\]. Note that for pixel shader version 1\_4, D3DCAPS9.PixelShader1xMaxValue must be a minimum of eight. The texcrd instruction, in the process of clamping source data that is out of range of the destination register, is likely to behave differently on different hardware. The first pixel shader version 1\_4 hardware on the market will perform a special clamp for values outside of range. This clamp is designed to produce a number that can fit into the destination register, but also to preserve texture addressing behavior for out-of-range data (see [**D3DTEXTUREADDRESS**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dtextureaddress)) if the data were to be subsequently used for texture sampling. However, new hardware from different manufacturers might not exhibit this behavior and might just chop data to fit the destination register range. Therefore, the safest course of action when using pixel shader version 1\_4 texcrd is to supply texture coordinate data only into the pixel shader that is already within the range \[-8,8\] so that you do not rely on the way hardware clamps.
+When using texcrd, keep in mind the following detail about how data is copied from the source register to the destination register. The source texture coordinate register (t\#) holds data in the range \[-D3DCAPS9.MaxTextureRepeat, D3DCAPS9.MaxTextureRepeat\], while the destination register (r\#) can hold data only in the (likely smaller) range \[-D3DCAPS9.PixelShader1xMaxValue, D3DCAPS9.PixelShader1xMaxValue\]. Note that for pixel shader version 1\_4, D3DCAPS9.PixelShader1xMaxValue must be a minimum of eight. The texcrd instruction, in the process of clamping source data that is out of range of the destination register, is likely to behave differently on different hardware. The first pixel shader version 1\_4 hardware on the market will perform a special clamp for values outside of range. This clamp is designed to produce a number that can fit into the destination register, but also to preserve texture addressing behavior for out-of-range data (see [**D3DTEXTUREADDRESS**](/windows/desktop/direct3d9/d3dtextureaddress)) if the data were to be subsequently used for texture sampling. However, new hardware from different manufacturers might not exhibit this behavior and might just chop data to fit the destination register range. Therefore, the safest course of action when using pixel shader version 1\_4 texcrd is to supply texture coordinate data only into the pixel shader that is already within the range \[-8,8\] so that you do not rely on the way hardware clamps.
 
 Unlike texcoord\_, texcrd does not clamp values between 0 and 1.
 
@@ -103,7 +103,3 @@ texcrd  r(m).rg,  t(n)_dw.xyw
  
 
  
-
-
-
-

@@ -39,7 +39,7 @@ HRESULT GetSystemFontFallback(
 *fontFallback* \[out\]
 </dt> <dd>
 
-Type: **[**IDWriteFontFallback**](https://msdn.microsoft.com/library/Dn280474(v=VS.85).aspx)\*\***
+Type: **[**IDWriteFontFallback**](/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontfallback)\*\***
 
 Contains an address of a pointer to the newly created font fallback object.
 
@@ -61,7 +61,3 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
  
 
  
-
-
-
-

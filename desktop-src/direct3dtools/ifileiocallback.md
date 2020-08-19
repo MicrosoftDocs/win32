@@ -26,7 +26,7 @@ Callback to save or end the experiment. Indicates file save is done.
 
 ## Members
 
-The **IFileIOCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFileIOCallback** also has these types of members:
+The **IFileIOCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFileIOCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IFileIOCallback** interface has these methods.
  
 
  
-
-
-

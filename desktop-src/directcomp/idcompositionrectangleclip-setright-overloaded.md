@@ -24,8 +24,8 @@ Animates or changes the value of the Right property of a clip rectangle. The Rig
 
 | Method                                                                                                   | Description                                          |
 |:---------------------------------------------------------------------------------------------------------|:-----------------------------------------------------|
-| [**SetRight(float)**](https://msdn.microsoft.com/library/Hh448905(v=VS.85).aspx)                                     | Changes the value of the Right property.<br/>  |
-| [**SetRight(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448907(v=VS.85).aspx) | Animates the value of the Right property.<br/> |
+| [**SetRight(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-setright(float))                                     | Changes the value of the Right property.<br/>  |
+| [**SetRight(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-setright(idcompositionanimation)) | Animates the value of the Right property.<br/> |
 
 
 
@@ -47,14 +47,9 @@ Animates or changes the value of the Right property of a clip rectangle. The Rig
 
 <dl> <dt>
 
-[**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx)
+[**IDCompositionRectangleClip**](/windows/win32/api/dcomp/nn-dcomp-idcompositionrectangleclip)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

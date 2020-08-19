@@ -39,7 +39,7 @@ HRESULT SetTrackEnable(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Identifier of the track to be mixed.
 
@@ -48,7 +48,7 @@ Identifier of the track to be mixed.
 *Enable* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Enable value. Set to **TRUE** to enable this track in the controller, or to **FALSE** to prevent it from being mixed.
 
@@ -85,7 +85,3 @@ To mix a track with other tracks, the Enable flag must be set to **TRUE**. Conve
  
 
  
-
-
-
-

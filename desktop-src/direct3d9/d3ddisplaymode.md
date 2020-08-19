@@ -40,7 +40,7 @@ typedef struct D3DDISPLAYMODE {
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -51,7 +51,7 @@ Screen width, in pixels.
 **Height**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -62,7 +62,7 @@ Screen height, in pixels.
 **RefreshRate**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -98,19 +98,15 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the surface 
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**EnumAdapterModes**](https://msdn.microsoft.com/library/Bb174314(v=VS.85).aspx)
+[**EnumAdapterModes**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-enumadaptermodes)
 </dt> <dt>
 
-[**GetAdapterDisplayMode**](https://msdn.microsoft.com/library/Bb174316(v=VS.85).aspx)
+[**GetAdapterDisplayMode**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-getadapterdisplaymode)
 </dt> <dt>
 
-[**GetDisplayMode**](https://msdn.microsoft.com/library/Bb174387(v=VS.85).aspx)
+[**GetDisplayMode**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getdisplaymode)
 </dt> </dl>
 
  
 
  
-
-
-
-

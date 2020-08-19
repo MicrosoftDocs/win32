@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # D3DCLEAR
 
-These flags identify a surface to reset when calling [**Clear**](https://msdn.microsoft.com/library/Bb174352(v=VS.85).aspx).
+These flags identify a surface to reset when calling [**Clear**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-clear).
 
 
 
@@ -46,6 +46,3 @@ These flags identify a surface to reset when calling [**Clear**](https://msdn.mi
  
 
  
-
-
-
