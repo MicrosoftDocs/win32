@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # Adding Counter Names and Descriptions to the Registry
 
 > [!IMPORTANT]
-> Due to significant performance and reliability limitations, the method for providing performance counter data that this topic describes may be altered or unavailable in the future. Instead, Microsoft recommends that you use the method described in [Providing Counter Data Using Version 2.0](providing-counter-data-using-version-2-0.md) for creating new performance counters, and that you migrate existing performance counters to use that method as well.
+> Due to significant performance and reliability limitations, the method for providing performance counter data that this topic describes may be altered or unavailable in the future. Instead, Microsoft recommends that you use the method described in [Providing Counter Data Using Version 2.0](providing-counter-data-using-version-2-0.md) for creating new performance counters and that you migrate existing performance counters to use that method.
 
 The names and descriptions of all V1 performance objects and their counters must be installed the system. To store names and descriptions for the objects and counters from your [V1 provider](providing-counter-data.md):
 
@@ -20,7 +20,9 @@ The names and descriptions of all V1 performance objects and their counters must
 
 ## Creating a symbolic constants (.h) file
 
-Create a .h header file that defines constants for the offsets to the objects and counters that your provider provides. The constant values must be consecutive even numbers beginning with zero. Group the constants by objects (i.e. start each group with the object offset, then follow with the offsets of the counters for that object).
+Create a .h header file that defines constants (macros) for the offsets to the objects and counters that your provider provides. The .h header is used as input to **lodctr** during installation of your provider, and may also be used by the C/C++ code of your provider.
+
+The constant values must be consecutive, even numbers beginning with zero. Group the constants by objects (i.e. start each group with the object offset, then follow with the offsets of the counters for that object).
 
 The constants in the header determine the order in which the counters are added to the name and help text in the registry. The provider uses the offsets to determine which object is being queried and the index values to use when returning the data. For details, see [Implementing OpenPerformanceData](implementing-openperformancedata.md).
 
@@ -92,7 +94,7 @@ The `[objects]` section provides a list of the performance objects that the prov
 For each object (counterset) supported by your provider, add one key named `<symbol>_<langid>_NAME=` to the `[objects]` section, where `<symbol>` is the name of the object and `<langid>` is the language id of one of the supported languages. The value is ignored.
 
 > [!IMPORTANT]
-> The `[objects]` section improves the performance of the system. Although the objects section is optional, you should always include this section in your .INI file. If you include this section, your performance DLL is called only if you support the requested object. If you do not include the objects section, your DLL is called for every query because the system does not know which objects you support. If the object section is not included, **lodctr** generates a message in the application event log stating that the .INI file did not contain an objects section. The event identifier of this message is 2000.
+> The `[objects]` section improves the performance of the system. Although the objects section is optional, you should always include this section in your .INI file. If you include this section, your performance DLL is called only if you support the requested object. If you do not include the objects section, your DLL is called for every query because the system does not know which objects your provider supports. If the object section is not included, **lodctr** generates a message in the application event log stating that the .INI file did not contain an objects section. The event identifier of this message is 2000.
 
 ### [languages] section
 
@@ -102,7 +104,7 @@ For each supported language, add one key named `<langid>=`. The value is ignored
 
 For most languages, you should use the primary language identifier. The complete list of language identifiers is in the Winnt.h header file, under the heading "Primary Language Ids." Convert the value found in Winnt.h into a sequence of 3 hexadecimal digits by removing the `0x` prefix and adding leading `0` digits until the sequence is 3 digits long. For example, to specify English strings (0x9), use 009. To specify Italian strings (0x10), use 010.
 
-Chinese and Portuguese languages require both the primary and sublanguage identifiers, e.g. 404, 804, 416, 816. If you specify the primary identifier only (004 or 016), **lodctr** uses 804 (simplified Chinese) and 416 (Portuguese), respectively.
+Chinese and Portuguese languages require both the primary and sublanguage identifiers. Use 404, 804, 416, or 816 instead of 004 or 016.
 
 ### [text] section
 
@@ -110,14 +112,14 @@ The `[text]` section provides the name and help strings for your objects and cou
 
 For each object or counter, and for each supported language, you must provide a NAME key (containing the name or title string for your object or counter) and you may optionally provide a HELP key (containing the description or explanation string for your object or counter). The keys should be named `<symbol>_<langid>_NAME` and `<symbol>_<langid>_HELP`, where `<symbol>` is the symbolic constant for the object or counter (as defined in the symbolic constant .h file), and `<langid>` is the language identifier used for this string.
 
-For example, the English strings for an object with symbol `MY_COUNTER` would be specified as:
+For example, the English strings for a counter with symbol `MY_COUNTER` would be specified as:
 
 ```ini
 MY_COUNTER_009_NAME=My Counter
 MY_COUNTER_009_HELP=Description for My Counter.
 ```
 
-The text keys can appear in any order. The text strings should not contain formatting characters.
+The text keys can appear in any order. The text strings should not contain formatting characters such as tabs.
 
 ### Example INI file
 
@@ -184,7 +186,7 @@ Before running **lodctr**, be sure that your application has an entry under the 
 
 As an alternative to running **lodctr**, you can call [**LoadPerfCounterTextStrings**](https://docs.microsoft.com/windows/win32/api/loadperf/nf-loadperf-loadperfcountertextstringsw) (defined in Loadperf.h) from your installation program to load your counter names descriptions. You can then call [**UnloadPerfCounterTextStrings**](https://docs.microsoft.com/windows/win32/api/loadperf/nf-loadperf-unloadperfcountertextstringsw) during uninstall.
 
-The **lodctr** utility copies the strings from the .INI file to the **Counters** and **Help** registry values under the appropriate language subkeys. If the language subkey does not exist, the strings for that language are not copied. The utility also updates the **Last Counter** and **Last Help** value. The performance counter names and descriptions are stored in the following location in the registry.
+The **lodctr** utility copies the strings from the .INI file to the **Counters** and **Help** registry values under the appropriate language subkeys. If the corresponding language subkey does not exist, the strings for that language are not copied. The utility also updates the **Last Counter** and **Last Help** value. The performance counter names and descriptions are stored in the following location in the registry.
 
 ```
 HKEY_LOCAL_MACHINE

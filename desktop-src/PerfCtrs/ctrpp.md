@@ -16,7 +16,7 @@ api_location:
 
 # CTRPP
 
-The CTRPP tool is a pre-processor that parses and validates the manifest for your V2 provider. The tool generates `.rc` resources with the strings needed by consumers of your provider, and it generates a `.h` header with code that you use to provide your counter data. You should use the generated code as a starting point when developing your provider instead of trying to generate this code yourself.
+The CTRPP tool is a pre-processor that parses and validates the manifest for your V2 provider. The tool generates `.rc` resources with the strings needed by consumers of your provider, and it generates a `.h` header with code that you use to provide your counter data. You should run the CTRPP tool during the build of your provider. You should use the generated code as a starting point when developing your provider instead of trying to generate this code yourself.
 
 ```syntax
 ctrpp -o codeFile -rc rcFile [-legacy] [-MemoryRoutines] [-NotificationCallback] [-prefix prefix] [-ch symFile] [-backcompat] inputFile

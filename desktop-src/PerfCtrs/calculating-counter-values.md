@@ -8,7 +8,7 @@ ms.date: 08/17/2020
 
 # Calculating Counter Values
 
-Most counter types use a formula for calculating a displayable value for the counter. For a list of counter types and their formulas, see the Counter Types section of the [Windows Server 2003 Deployment Kit](https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2). If the counter requires two samples in order to calculate the displayable value, the counter type's `PERF_DELTA_COUNTER` flag is set.
+Most counter types use a formula for calculating a displayable value for the counter. For a list of counter types and their formulas, see the Counter Types section of the [Windows Server 2003 Deployment Kit](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)). If the counter requires two samples in order to calculate the displayable value, the counter type's `PERF_DELTA_COUNTER` flag is set.
 
 The following example shows how to use the raw data to calculate a displayable value for each counter type. This example builds on the example in [Retrieving Counter Data](retrieving-counter-data.md).
 
@@ -56,7 +56,7 @@ BOOL DisplayCalculatedValue(RAW_DATA* pSample0, RAW_DATA* pSample1)
     {
         if (pSample0->CounterType != pSample1->CounterType)
         {
-            wprintf(L"The sames have inconsistent counter types.\n");
+            wprintf(L"The samples have inconsistent counter types.\n");
             fSuccess = FALSE;
             goto cleanup;
         }
@@ -84,7 +84,7 @@ BOOL DisplayCalculatedValue(RAW_DATA* pSample0, RAW_DATA* pSample1)
         denominator = pSample1->Time - pSample0->Time;
         dwordValue = (DWORD)(numerator / ((double)denominator / pSample1->Frequency));
         wprintf(L"Display value is: %lu%ls\n", dwordValue,
-            (pSample0->CounterType == PERF_SAMPLE_COUNTER) ? L"." : L"/sec.");
+            (pSample0->CounterType == PERF_SAMPLE_COUNTER) ? L"" : L"/sec");
         break;
 
     case PERF_COUNTER_QUEUELEN_TYPE:

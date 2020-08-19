@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# What's New
+# What's New with Performance Counters
 
 This section describes the new features that were added to Performance Counters for each release.
 
