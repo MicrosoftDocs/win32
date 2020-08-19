@@ -51,7 +51,7 @@ Pointer to the SIS backup structure returned from [**SisCreateBackupStructure**]
 *reparseData* \[in\]
 </dt> <dd>
 
-Pointer to the contents of the SIS reparse point. This reparse point contains data describing a SIS link. To retrieve the reparse point data for a file, use the [**FSCTL\_GET\_REPARSE\_POINT**](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_reparse_point) control code.
+Pointer to the contents of the SIS reparse point. This reparse point contains data describing a SIS link. To retrieve the reparse point data for a file, use the [**FSCTL\_GET\_REPARSE\_POINT**](/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_reparse_point) control code.
 
 </dd> <dt>
 
@@ -92,7 +92,7 @@ Pointer to an array of file names. These files should be backed up at the same t
 
 ## Return value
 
-This function returns **TRUE** if it completes successfully and **FALSE** otherwise. Call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get more information about the reason the call failed.
+This function returns **TRUE** if it completes successfully and **FALSE** otherwise. Call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get more information about the reason the call failed.
 
 ## Remarks
 
@@ -133,10 +133,4 @@ After the backup operation is complete, deallocate the memory used by the *commo
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -10,31 +10,27 @@ ms.date: 05/31/2018
 
 Bluetooth is capable of performing all read and write operations available with Windows Sockets that are currently supported with other address families.
 
-For more information about read and write operations, see [Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2).
+For more information about read and write operations, see [Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2).
 
 ## Related topics
 
 <dl> <dt>
 
-[Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
+[Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> <dt>
 
-[**recv**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv)
+[**recv**](/windows/desktop/api/winsock/nf-winsock-recv)
 </dt> <dt>
 
-[**recvfrom**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recvfrom)
+[**recvfrom**](/windows/desktop/api/winsock/nf-winsock-recvfrom)
 </dt> <dt>
 
-[**send**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send)
+[**send**](/windows/desktop/api/winsock2/nf-winsock2-send)
 </dt> <dt>
 
-[**sendto**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto)
+[**sendto**](/windows/desktop/api/winsock/nf-winsock-sendto)
 </dt> </dl>
 
  
 
  
-
-
-
-

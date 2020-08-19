@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 # Bluetooth and WSAQUERYSET for Service Inquiry
 
-Bluetooth uses the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) structure, with various functions, to facilitate the discovery of devices and services in the Bluetooth namespace, NS\_BTH.
+Bluetooth uses the [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) structure, with various functions, to facilitate the discovery of devices and services in the Bluetooth namespace, NS\_BTH.
 
-The [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) and [**WSALookupServiceNext**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta) functions use the [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) structure to obtain data about the service inquiry process. The following table describes how to set the member values in the **WSAQUERYSET** structure for this purpose.
+The [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) and [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta) functions use the [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) structure to obtain data about the service inquiry process. The following table describes how to set the member values in the **WSAQUERYSET** structure for this purpose.
 
 
 
@@ -139,31 +139,27 @@ Bluetooth and WSALookupServiceNext
 [Bluetooth Reference](bluetooth-reference.md)
 </dt> <dt>
 
-[**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob)
+[**BLOB**](/windows/desktop/api/nspapi/ns-nspapi-blob)
 </dt> <dt>
 
 [**BTH\_QUERY\_SERVICE**](/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_service)
 </dt> <dt>
 
-[**CSADDR\_INFO**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info)
+[**CSADDR\_INFO**](/windows/desktop/api/nspapi/ns-nspapi-csaddr_info)
 </dt> <dt>
 
 [**SOCKADDR\_BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-sockaddr_bth)
 </dt> <dt>
 
-[**WSAAddressToString**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaaddresstostringa)
+[**WSAAddressToString**](/windows/desktop/api/winsock2/nf-winsock2-wsaaddresstostringa)
 </dt> <dt>
 
-[**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)
+[**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)
 </dt> <dt>
 
-[Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
+[Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> </dl>
 
  
 
  
-
-
-
-
