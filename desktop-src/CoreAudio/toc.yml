@@ -144,7 +144,7 @@
         href: devicetopology-api.md
     - name: "Using the IKsControl Interface to Access Audio Properties"
       href: using-the-ikscontrol-interface-to-access-audio-properties.md
-    - name: "Spatial Sound"
+    - name: "Spatial Sound for Developers"
       href: spatial-sound.md
       items: 
       - name: "Render Spatial Sound Using Spatial Audio Objects"
