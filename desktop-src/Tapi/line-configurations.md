@@ -23,7 +23,7 @@ Here are some examples of how a service provider might model various configurati
 
 **Example 3:** In client/server systems, a pool of telephone ports attached to a server can be shared among multiple client computers over a local area network. The pool can be administered to assign a maximum number of line devices (quota) to each client workstation. It is not unusual for the sum of all quotas to exceed the total number of lines. Furthermore, a given client with a quota equal to 2 may be satisfied by using ports 1 and 2 at one time and ports 7 and 11 at a later time. The service provider for the pool can model this arrangement by giving each client workstation access to two line devices.
 
-Suppose that the configuration of service providers for a given computer is such that this particular service provider gets a **DeviceIDBase** of 3. This implies that the (fixed) device identifiers for this client are 3 and 4. If the application later calls the TAPI 2 function [**lineGetDevCaps**](https://msdn.microsoft.com/library/ms735735(v=VS.85).aspx) for device 3 and again for device 4, it should be able to assume that the device capabilities for each of these devices are constant, because that is the device model. As long as the given computer's service-provider configuration remains constant, the device identifiers that appear at the TSPI level remain constant, even if the server changes port allocations. For server-based devices that are pooled as described in Example 3, this holds only for line devices that have identical device capabilities. Of course, if the given computer's service-provider configuration is changed, such that this service provider gets a different **DeviceIDBase**, device identifiers change correspondingly.
+Suppose that the configuration of service providers for a given computer is such that this particular service provider gets a **DeviceIDBase** of 3. This implies that the (fixed) device identifiers for this client are 3 and 4. If the application later calls the TAPI 2 function [**lineGetDevCaps**](/windows/win32/api/tapi/nf-tapi-linegetdevcaps) for device 3 and again for device 4, it should be able to assume that the device capabilities for each of these devices are constant, because that is the device model. As long as the given computer's service-provider configuration remains constant, the device identifiers that appear at the TSPI level remain constant, even if the server changes port allocations. For server-based devices that are pooled as described in Example 3, this holds only for line devices that have identical device capabilities. Of course, if the given computer's service-provider configuration is changed, such that this service provider gets a different **DeviceIDBase**, device identifiers change correspondingly.
 
 **Example 4:** Switch-to-host link:
 
@@ -39,6 +39,3 @@ Suppose that the configuration of service providers for a given computer is such
  
 
  
-
-
-

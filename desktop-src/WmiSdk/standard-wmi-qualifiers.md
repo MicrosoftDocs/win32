@@ -195,7 +195,7 @@ Data type: **string array**
 
 Applies to: namespace instances
 
-Specifies a security descriptor for the namespace in [SDDL](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language) format. For more information, see [Setting Namespace Security When the Namespace is Created](setting-namespace-security-when-the-namespace-is-created.md). The SDDL string is processed by WMI to establish the namespace security but not stored as a string. If no security descriptor is specified, the default security is used. For more information, see [Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md).
+Specifies a security descriptor for the namespace in [SDDL](/windows/desktop/SecAuthZ/security-descriptor-definition-language) format. For more information, see [Setting Namespace Security When the Namespace is Created](setting-namespace-security-when-the-namespace-is-created.md). The SDDL string is processed by WMI to establish the namespace security but not stored as a string. If no security descriptor is specified, the default security is used. For more information, see [Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md).
 
 </dd> <dt>
 
@@ -436,9 +436,4 @@ ExecMethod("Circle.Name='MyCircle'","DrawIt");
 </dt> </dl>
 
  
-
- 
-
-
-
 

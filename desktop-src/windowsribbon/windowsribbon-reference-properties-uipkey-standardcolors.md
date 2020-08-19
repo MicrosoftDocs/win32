@@ -24,9 +24,9 @@ propertyDescription
 
 UI\_PKEY\_StandardColors is used by an application to query the color swatch values of a [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md).
 
-Each [COLORREF](https://msdn.microsoft.com/library/dd183449(VS.85).aspx) value corresponds to a color swatch in a [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md) regardless of the value specified for the **ColorTemplate** attribute.
+Each [COLORREF](../gdi/colorref.md) value corresponds to a color swatch in a [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md) regardless of the value specified for the **ColorTemplate** attribute.
 
-The property value is an array of [COLORREF](https://msdn.microsoft.com/library/dd183449(VS.85).aspx) values.
+The property value is an array of [COLORREF](../gdi/colorref.md) values.
 
 ## Related topics
 
@@ -38,7 +38,3 @@ The property value is an array of [COLORREF](https://msdn.microsoft.com/library/
  
 
  
-
-
-
-

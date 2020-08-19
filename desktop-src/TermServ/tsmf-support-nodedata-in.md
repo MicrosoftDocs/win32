@@ -65,7 +65,7 @@ The number of media format structures.
 
 A variable number of structures defining audio or video media formats. The **FormatType** is either **FORMAT\_WaveFormatEx** for audio or **FORMAT\_MFVideoFormat** for video.
 
-For details of this structure, see [TS\_AM\_MEDIA\_TYPE Structure](https://docs.microsoft.com/openspecs/windows_protocols/ms-rdpev/22a57950-042e-48bd-8135-3580f3a3f934).
+For details of this structure, see [TS\_AM\_MEDIA\_TYPE Structure](/openspecs/windows_protocols/ms-rdpev/22a57950-042e-48bd-8135-3580f3a3f934).
 
 </dd> </dl>
 
@@ -91,10 +91,4 @@ For details of this structure, see [TS\_AM\_MEDIA\_TYPE Structure](https://docs.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

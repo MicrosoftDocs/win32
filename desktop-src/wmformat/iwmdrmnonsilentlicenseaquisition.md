@@ -24,7 +24,7 @@ This interface can be obtained by performing non-silent license acquisition. Aft
 
 ## Members
 
-The **IWMDRMNonSilentLicenseAquisition** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMNonSilentLicenseAquisition** also has these types of members:
+The **IWMDRMNonSilentLicenseAquisition** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMNonSilentLicenseAquisition** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -54,10 +54,4 @@ The **IWMDRMNonSilentLicenseAquisition** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

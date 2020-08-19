@@ -14,7 +14,7 @@ A *desktop* has a logical display surface and contains user interface objects su
 
 Window messages can be sent only between processes that are on the same desktop. In addition, the hook procedure of a process running on a particular desktop can only receive messages intended for windows created in the same desktop.
 
-The desktops associated with the interactive window station, Winsta0, can be made to display a user interface and receive user input, but only one of these desktops at a time is active. This active desktop, also known as the *input desktop*, is the one that is currently visible to the user and that receives user input. Applications can use the [**OpenInputDesktop**](https://msdn.microsoft.com/library/ms684309(v=VS.85).aspx) function to get a handle to the input desktop. Applications that have the required access can use the [**SwitchDesktop**](https://msdn.microsoft.com/library/ms686347(v=VS.85).aspx) function to specify a different input desktop.
+The desktops associated with the interactive window station, Winsta0, can be made to display a user interface and receive user input, but only one of these desktops at a time is active. This active desktop, also known as the *input desktop*, is the one that is currently visible to the user and that receives user input. Applications can use the [**OpenInputDesktop**](/windows/win32/api/winuser/nf-winuser-openinputdesktop) function to get a handle to the input desktop. Applications that have the required access can use the [**SwitchDesktop**](/windows/win32/api/winuser/nf-winuser-switchdesktop) function to specify a different input desktop.
 
 By default, there are three desktops in the interactive window station: Default, ScreenSaver, and Winlogon.
 
@@ -26,7 +26,7 @@ The Winlogon desktop is active while a user logs on. The system switches to the 
 
 **Windows Server 2003 and Windows XP/2000:** The UAC dialog box is not supported.
 
-The Winlogon desktop's security descriptor allows access to a very restricted set of accounts, including the [LocalSystem account](https://docs.microsoft.com/windows/desktop/Services/localsystem-account). Applications generally do not carry any of these accounts' SIDs in their tokens and therefore cannot access the Winlogon desktop or switch to a different desktop while the Winlogon desktop is active.
+The Winlogon desktop's security descriptor allows access to a very restricted set of accounts, including the [LocalSystem account](/windows/desktop/Services/localsystem-account). Applications generally do not carry any of these accounts' SIDs in their tokens and therefore cannot access the Winlogon desktop or switch to a different desktop while the Winlogon desktop is active.
 
 For more information, see the following topics:
 
@@ -37,7 +37,3 @@ For more information, see the following topics:
  
 
  
-
-
-
-

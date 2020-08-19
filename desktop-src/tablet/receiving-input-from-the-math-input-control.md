@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This section explains how to retrieve the MathML markup from the math input control using the Active Template Library (ATL) and the Component Object Model (COM).
 
-To retrieve the recognized math equation from the math input control, you can override the behavior that happens when the insert button is pressed. To do this, you will need to set up an event handler that implements the various events that are supported by the [**\_IMathInputControlEvents**](https://msdn.microsoft.com/library/Dd317349(v=VS.85).aspx) interface. Setting up the events handler involves the performing the following steps for the events you want to support (insert in this case).
+To retrieve the recognized math equation from the math input control, you can override the behavior that happens when the insert button is pressed. To do this, you will need to set up an event handler that implements the various events that are supported by the [**\_IMathInputControlEvents**](/windows/win32/api/micaut/nn-micaut-_imathinputcontrolevents) interface. Setting up the events handler involves the performing the following steps for the events you want to support (insert in this case).
 
 -   [Create a template class that contains event sinks](#create-a-template-class-that-contains-event-sinks)
 -   [Set up the event handlers](#set-up-the-event-handlers)
@@ -45,7 +45,7 @@ private:
 
  
 
-Now that you have the basic template class, you must give a forward declaration for the event handlers that you will be overriding and must then set up a sink map for the events you will be handling. The following code shows how to set up event handlers for the [**Insert**](https://msdn.microsoft.com/library/Dd317352(v=VS.85).aspx) method, called when a user clicks the insert button on the math input control, and the [**Close**](https://msdn.microsoft.com/library/Dd317351(v=VS.85).aspx) method, called when a user clicks the cancel button on the math input control.
+Now that you have the basic template class, you must give a forward declaration for the event handlers that you will be overriding and must then set up a sink map for the events you will be handling. The following code shows how to set up event handlers for the [**Insert**](/previous-versions/windows/desktop/legacy/dd317352(v=vs.85)) method, called when a user clicks the insert button on the math input control, and the [**Close**](/previous-versions/windows/desktop/legacy/dd317351(v=vs.85)) method, called when a user clicks the cancel button on the math input control.
 
 
 ```
@@ -81,7 +81,7 @@ Since you will be working with the math input control, it will be useful to set 
 
 ## Set up the event handlers
 
-Once you have set up the event sinks, you will need to create your implementations of the event sinks. In both of the methods in the following code example, the event sinks retrieve a handle to the math input control interface. In the [**Insert**](https://msdn.microsoft.com/library/Dd317352(v=VS.85).aspx) function, the recognition result is displayed as MathML and the control is hidden. In the [**Close**](https://msdn.microsoft.com/library/Dd317351(v=VS.85).aspx) function, the math input control is hidden.
+Once you have set up the event sinks, you will need to create your implementations of the event sinks. In both of the methods in the following code example, the event sinks retrieve a handle to the math input control interface. In the [**Insert**](/previous-versions/windows/desktop/legacy/dd317352(v=vs.85)) function, the recognition result is displayed as MathML and the control is hidden. In the [**Close**](/previous-versions/windows/desktop/legacy/dd317351(v=vs.85)) function, the math input control is hidden.
 
 
 ```
@@ -199,6 +199,3 @@ OnInitDialog{
  
 
  
-
-
-

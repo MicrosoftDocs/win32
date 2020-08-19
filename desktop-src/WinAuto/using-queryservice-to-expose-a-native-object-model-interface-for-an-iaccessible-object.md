@@ -21,7 +21,7 @@ Clients can use this functionality to obtain a pointer to the custom object from
 
 **To obtain a pointer to a custom object from an IAccessible (clients)**
 
-1.  Call [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q))(IID\_IServiceProvider) on an [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface pointer to obtain an **IServiceProvider** interface pointer.
+1.  Call [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q))(IID\_IServiceProvider) on an [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface pointer to obtain an **IServiceProvider** interface pointer.
 2.  Call **IServiceProvider::QueryService** with the published service ID to obtain a pointer to the custom object for the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible).
 3.  Release the **IServiceProvider** interface if it is no longer needed.
 
@@ -32,7 +32,3 @@ This technique is used by Microsoft Internet Explorer 4.0 and later. It allows 
  
 
  
-
-
-
-

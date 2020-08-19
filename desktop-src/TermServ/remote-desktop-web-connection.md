@@ -38,7 +38,7 @@ For more information, see these topics:
 
 -   [Implementing Scriptable Virtual Channels Using Remote Desktop Web Connection](implementing-scriptable-virtual-channels-using-remote-desktop-web-connection.md)
 -   [Embedding the Remote Desktop ActiveX Control in a Webpage](embedding-the-remote-desktop-activex-control-in-a-web-page.md)
--   [Downloading and Using the Remote Desktop ActiveX Control](https://docs.microsoft.com/previous-versions//aa380808(v=vs.85))
+-   [Downloading and Using the Remote Desktop ActiveX Control](/previous-versions//aa380808(v=vs.85))
 -   [Using the Remote Desktop ActiveX Control with Virtual Channels](using-the-remote-desktop-activex-control-with-virtual-channels.md)
 -   [Providing for RDP Client Security](providing-for-rdp-client-security.md)
 -   [Disabling Remote Desktop Services Features](disabling-terminal-services-features.md)
@@ -58,7 +58,3 @@ For a description of the webpage that is included with the installation of Remot
  
 
  
-
-
-
-

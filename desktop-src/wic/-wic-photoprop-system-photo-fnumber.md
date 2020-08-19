@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.FNumber Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.FNumber](https://msdn.microsoft.com/library/bb760459(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.FNumber](../properties/props-system-photo-fnumber.md) property.
 
 ### PKEY
 
@@ -119,12 +119,9 @@ This value is generated from System.Photo.FNumberNumerator and System.Photo.FNum
 
 <dl> <dt>
 
-[System.Photo.FNumber](https://msdn.microsoft.com/library/bb760459(VS.85).aspx)
+[System.Photo.FNumber](../properties/props-system-photo-fnumber.md)
 </dt> </dl>
 
  
 
  
-
-
-

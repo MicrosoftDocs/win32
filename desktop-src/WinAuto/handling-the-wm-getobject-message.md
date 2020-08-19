@@ -14,8 +14,8 @@ Microsoft Active Accessibility or UI Automation specifies the type of object it 
 
 -   If the receiving application is an Microsoft Active Accessibility server and the [**WM\_GETOBJECT**](wm-getobject.md) message includes an object identifier of [**OBJID\_CLIENT**](object-identifiers.md), the server should return the value obtained by passing the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface of the object to the [**LresultFromObject**](/windows/desktop/api/Oleacc/nf-oleacc-lresultfromobject) function.
 -   If the receiving application is aUI Automation provider and the object identifier is **UiaRootObjectId**, the provider should return the [**IRawElementProviderSimple**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple) interface of the object. The provider obtains the interface by calling the [**UiaReturnRawElementProvider**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiareturnrawelementprovider) function.
--   If the receiving application implements neither Microsoft Active Accessibility nor UI Automation, it should pass the [**WM\_GETOBJECT**](wm-getobject.md) message to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. Passing the message enables the accessibility framework to determine if a proxy is available for the specified object.
--   If the object identifier is neither [**OBJID\_CLIENT**](object-identifiers.md) nor UiaRootObjectId, the receiving application should pass the [**WM\_GETOBJECT**](wm-getobject.md) message to the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. Passing the message enables the accessibility framework to use the default providers for standard UI elements.
+-   If the receiving application implements neither Microsoft Active Accessibility nor UI Automation, it should pass the [**WM\_GETOBJECT**](wm-getobject.md) message to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. Passing the message enables the accessibility framework to determine if a proxy is available for the specified object.
+-   If the object identifier is neither [**OBJID\_CLIENT**](object-identifiers.md) nor UiaRootObjectId, the receiving application should pass the [**WM\_GETOBJECT**](wm-getobject.md) message to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. Passing the message enables the accessibility framework to use the default providers for standard UI elements.
 
 Microsoft Active Accessibility and UI Automation can pass custom object identifiers in a [**WM\_GETOBJECT**](wm-getobject.md) message to retrieve application-defined values or objects from a server or provider. The [**OBJID\_NATIVEOM**](object-identifiers.md) or [**OBJID\_QUERYCLASSNAMEIDX**](object-identifiers.md) object identifier can be used to retrieve a native Object Model interface, or to request a specific proxy object that is supported by Oleacc.dll.
 
@@ -24,7 +24,3 @@ By handling both the [**OBJID\_CLIENT**](object-identifiers.md) and **UiaRootObj
  
 
  
-
-
-
-

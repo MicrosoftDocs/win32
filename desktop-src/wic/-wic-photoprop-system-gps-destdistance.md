@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.DestDistance Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.DestDistance](https://msdn.microsoft.com/library/bb787493(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.DestDistance](../properties/props-system-gps-destdistance.md) property.
 
 ### PKEY
 
@@ -118,12 +118,9 @@ This value is generated from System.GPS.DestDistanceNumerator and System.GPS.Des
 
 <dl> <dt>
 
-[System.GPS.DestDistance](https://msdn.microsoft.com/library/bb787493(VS.85).aspx)
+[System.GPS.DestDistance](../properties/props-system-gps-destdistance.md)
 </dt> </dl>
 
  
 
  
-
-
-

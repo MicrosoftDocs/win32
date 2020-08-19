@@ -106,7 +106,7 @@ The following example illustrates how to declare a set of images to accommodate 
 
 
 
-If images declared in markup are invalidated at run time for any reason, the host application is queried for new images. When these images are generated and loaded programmatically, the application should attempt to return images that are sized according to the default system icon sizes determined by the [SM\_CXICON system metric](https://msdn.microsoft.com/library/ms724385.aspx).
+If images declared in markup are invalidated at run time for any reason, the host application is queried for new images. When these images are generated and loaded programmatically, the application should attempt to return images that are sized according to the default system icon sizes determined by the [SM\_CXICON system metric](/windows/win32/api/winuser/nf-winuser-getsystemmetrics).
 
 > [!Note]  
 > Large images have a size of SM\_CXICON by SM\_CXICON and small images have a size of SM\_CXICON/2 by SM\_CXICON/2.
@@ -200,9 +200,9 @@ WHITE
 
 For more information on the image formats supported by the Ribbon framework, see the following:
 
--   [BITMAPINFOHEADER structure](https://msdn.microsoft.com/library/dd183376(VS.85).aspx) - describes the 32 BPP ARGB pixel format.
--   [CreateDIBSection function](https://msdn.microsoft.com/library/dd183494(VS.85).aspx) - describes how to create a 32 BPP ARGB pixel format image.
--   [LoadImage function](https://msdn.microsoft.com/library/ms648045(VS.85).aspx) - describes how to load a 32 BPP ARGB pixel format image.
+-   [BITMAPINFOHEADER structure](/previous-versions//dd183376(v=vs.85)) - describes the 32 BPP ARGB pixel format.
+-   [CreateDIBSection function](/windows/win32/api/wingdi/nf-wingdi-createdibsection) - describes how to create a 32 BPP ARGB pixel format image.
+-   [LoadImage function](/windows/win32/api/winuser/nf-winuser-loadimagea) - describes how to load a 32 BPP ARGB pixel format image.
 
 ## Accessibility
 
@@ -277,7 +277,3 @@ The following example demonstrates how high-contrast image resources are declare
  
 
  
-
-
-
-

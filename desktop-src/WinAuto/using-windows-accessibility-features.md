@@ -19,13 +19,9 @@ This section describes how to use the Windows accessibility features.
 
 <dl> <dt>
 
-[Windows Accessibility Features](windows-accessibility-features.md)
+[Windows Accessibility Features](../accessibility/accessibility.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

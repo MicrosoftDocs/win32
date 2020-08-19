@@ -52,7 +52,7 @@ To perform automated revocation and renewal when a user attempts to process Wind
 5.  Parse the revocation list, and check for Windows Media DRM revocations. For more information, see [Checking Certificate Revocation](checking-certificate-revocation.md).
 6.  If there are any Windows Media DRM revocations:
     1.  Create a content enabler to renew the revoked components by calling the [**IWMDRMSecurity::GetContentEnablersForRevocations**](iwmdrmsecurity-getcontentenablersforrevocations.md) method.
-    2.  Call **IMFContentEnabler::AutomaticEnable** which directs the user to a URL that contains component renewal information. This method is documented in the [Media Foundation SDK](https://msdn.microsoft.com/library/ms694197(VS.85).aspx) (https://msdn.microsoft.com/library/ms694197(VS.85).aspx).
+    2.  Call **IMFContentEnabler::AutomaticEnable** which directs the user to a URL that contains component renewal information. This method is documented in the [Media Foundation SDK](../medfound/microsoft-media-foundation-sdk.md) (https://msdn.microsoft.com/library/ms694197(VS.85).aspx).
         > [!Note]  
         > You must clarify this process to the user through the use of a privacy statement because the update process sends information from the client computer to a Microsoft Web site.
 
@@ -71,7 +71,3 @@ To perform automated revocation and renewal when a user attempts to process Wind
  
 
  
-
-
-
-

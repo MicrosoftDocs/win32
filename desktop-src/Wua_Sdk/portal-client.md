@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## Purpose
 
-The Windows Update Agent (WUA) API is a set of COM interfaces that enable system administrators and programmers to access Windows Update and [Windows Server Update Services (WSUS)](https://msdn.microsoft.com/library/ms744624(v=VS.85).aspx). Scripts and programs can be written to examine which updates are currently available for a computer, and then you can install or uninstall updates.
+The Windows Update Agent (WUA) API is a set of COM interfaces that enable system administrators and programmers to access Windows Update and [Windows Server Update Services (WSUS)](/previous-versions/windows/desktop/ms744624(v=vs.85)). Scripts and programs can be written to examine which updates are currently available for a computer, and then you can install or uninstall updates.
 
 ## Where applicable
 
@@ -34,6 +34,3 @@ WUA is supported starting with Windows XP. WUA is supported on the server start
  
 
  
-
-
-

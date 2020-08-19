@@ -39,13 +39,10 @@ The following flowchart illustrates the steps required in using the Compatibilit
 ## Links to Other Resources
 
 -   [Application Compatibility Toolkit Download](/windows-hardware/get-started/adk-install)
--   [Using the Compatibility Administrator](https://technet.microsoft.com/library/cc749034(WS.10).aspx)
--   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](https://technet.microsoft.com/library/cc765984.aspx)
--   [Testing and Mitigating Issues by Using the Development Tools](https://technet.microsoft.com/library/cc766461(WS.10).aspx)
+-   [Using the Compatibility Administrator](/previous-versions/windows/it-pro/windows-7/cc749034(v=ws.10))
+-   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](/previous-versions/windows/it-pro/windows-7/cc765984(v=ws.10))
+-   [Testing and Mitigating Issues by Using the Development Tools](/previous-versions/orphan-topics/ws.10/cc766461(v=ws.10))
 
  
 
  
-
-
-

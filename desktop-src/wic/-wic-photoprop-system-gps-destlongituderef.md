@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.DestLongitudeRef Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.DestLongitudeRef](https://msdn.microsoft.com/library/bb787514(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.DestLongitudeRef](../properties/props-system-gps-destlongituderef.md) property.
 
 ### PKEY
 
@@ -70,12 +70,9 @@ If the file is in TIFF format, the handler will read, write, and remove the data
 
 <dl> <dt>
 
-[System.GPS.DestLongitudeRef](https://msdn.microsoft.com/library/bb787514(VS.85).aspx)
+[System.GPS.DestLongitudeRef](../properties/props-system-gps-destlongituderef.md)
 </dt> </dl>
 
  
 
  
-
-
-

@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # How to: Load Audio Data Files in XAudio2
 
 > [!Note]  
-> This content applies only to desktop apps and will require revision to function in a Windows Store app. Please refer to the documentation for [**CreateFile2**](https://msdn.microsoft.com/library/Hh449422(v=VS.85).aspx), [**CreateEventEx**](https://msdn.microsoft.com/library/ms682400(v=VS.85).aspx), [**WaitForSingleObjectEx**](https://msdn.microsoft.com/library/ms687036(v=VS.85).aspx), [**SetFilePointerEx**](https://msdn.microsoft.com/library/Aa365542(v=VS.85).aspx), and [**GetOverlappedResultEx**](https://msdn.microsoft.com/library/Hh448542(v=VS.85).aspx). See SoundFileReader.h/.cpp in the BasicSound Windows 8 sample from the [Windows SDK Samples Gallery](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/XAudio2%20audio%20file%20playback%20sample%20(Windows%208)).
+> This content applies only to desktop apps and will require revision to function in a Windows Store app. Please refer to the documentation for [**CreateFile2**](/windows/win32/api/fileapi/nf-fileapi-createfile2), [**CreateEventEx**](/windows/win32/api/synchapi/nf-synchapi-createeventexa), [**WaitForSingleObjectEx**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex), [**SetFilePointerEx**](/windows/win32/api/fileapi/nf-fileapi-setfilepointerex), and [**GetOverlappedResultEx**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresultex). See SoundFileReader.h/.cpp in the BasicSound Windows 8 sample from the [Windows SDK Samples Gallery](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/XAudio2%20audio%20file%20playback%20sample%20(Windows%208)).
 
  
 
@@ -218,6 +218,3 @@ The following steps illustrate using the functions described above to populate a
  
 
  
-
-
-

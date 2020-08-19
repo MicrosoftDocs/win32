@@ -10,14 +10,11 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**KillTimer**](https://msdn.microsoft.com/library/ms644903(v=VS.85).aspx)
--   [**SetCoalescableTimer**](https://msdn.microsoft.com/library/Hh405404(v=VS.85).aspx)
--   [**SetTimer**](https://msdn.microsoft.com/library/ms644906(v=VS.85).aspx)
--   [*TimerProc*](https://msdn.microsoft.com/library/ms644907(v=VS.85).aspx)
+-   [**KillTimer**](/windows/win32/api/winuser/nf-winuser-killtimer)
+-   [**SetCoalescableTimer**](/windows/win32/api/winuser/nf-winuser-setcoalescabletimer)
+-   [**SetTimer**](/windows/win32/api/winuser/nf-winuser-settimer)
+-   [*TimerProc*](/windows/win32/api/winuser/nc-winuser-timerproc)
 
  
 
  
-
-
-

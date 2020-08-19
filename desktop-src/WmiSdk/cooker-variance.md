@@ -9,9 +9,9 @@ ms.date: 05/31/2018
 
 # COOKER\_VARIANCE
 
-The COOKER\_VARIANCE counter type formula provides variability that use to characterize dispersion for a set of raw observations of one property in a [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) instance. The variance is calculated by dividing the sum of the square of the deviation from the mean of each counter by the number of counters. In other words, the variance is the average of the squared deviations from the mean for each counter. This counter type is defined only within WMI, and it is not available to the performance monitoring technologies, such as [Performance Counters Version 6.0](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-portal).
+The COOKER\_VARIANCE counter type formula provides variability that use to characterize dispersion for a set of raw observations of one property in a [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) instance. The variance is calculated by dividing the sum of the square of the deviation from the mean of each counter by the number of counters. In other words, the variance is the average of the squared deviations from the mean for each counter. This counter type is defined only within WMI, and it is not available to the performance monitoring technologies, such as [Performance Counters Version 6.0](/windows/desktop/PerfCtrs/performance-counters-portal).
 
-For more information about the counter type formula, see [Counter Types](https://technet.microsoft.com/library/cc785636(WS.10).aspx).
+For more information about the counter type formula, see [Counter Types](/previous-versions/windows/it-pro/windows-server-2003/cc785636(v=ws.10)).
 
 For more information about high-performance providers and scripting, see [WMI Performance Counter Types](wmi-performance-counter-types.md).
 
@@ -32,6 +32,3 @@ For code examples, see [Obtaining Statistical Performance Data](obtaining-statis
  
 
  
-
-
-

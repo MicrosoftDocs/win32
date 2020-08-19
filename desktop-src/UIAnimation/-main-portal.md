@@ -42,7 +42,7 @@ Windows Animation is designed for use by experienced C/C++ developers who are fa
 
 The Windows Animation Manager was introduced in Windows 7.
 
-Applications that require support for Windows Animation Manager on Windows Vista can utilize the Platform Update for Windows Vista. Applications that require Platform Update for Windows Vista can have Windows Update verify that it is installed, or download and install it in the background otherwise. For more information, see [About Platform Update for Windows Vista](https://msdn.microsoft.com/library/Ee663866(v=VS.85).aspx).
+Applications that require support for Windows Animation Manager on Windows Vista can utilize the Platform Update for Windows Vista. Applications that require Platform Update for Windows Vista can have Windows Update verify that it is installed, or download and install it in the background otherwise. For more information, see [About Platform Update for Windows Vista](../win7ip/platform-update-for-windows-vista-overview.md).
 
 ## Additional resources
 
@@ -53,4 +53,4 @@ Applications that require support for Windows Animation Manager on Windows Vista
 
 ## Related topics
 
-[Animation Overview (.NET Framework)](https://msdn.microsoft.com/library/ms752312.aspx)
+[Animation Overview (.NET Framework)](/dotnet/framework/wpf/graphics-multimedia/animation-overview)

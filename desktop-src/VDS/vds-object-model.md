@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # VDS Object Model
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 VDS provides indirect access to host-based storage devices, such as disks and CD-ROM devices, and to disk arrays that are managed by hardware RAID controllers. While some storage entities model physical devices, others model virtual constructs: volumes, partitions, and so on. The objects that are described in this topic represent both the physical and virtual entities of VDS.
 
@@ -36,7 +36,7 @@ The configuration and query operations that are associated with object creation 
 
 Several VDS methods delete or transform VDS objects. A caller can hold a reference, by way of an interface pointer, to a deleted object after the method returns. When the caller releases the interface, VDS deletes the object.
 
-With regard to object deletion, callers should refrain from invoking anything except the [**IUnknown::Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on these interfaces. The provider must be robust enough to deal with errant callers; if a caller invokes a method on a deleted object, the provider should return **VDS\_E\_OBJECT\_DELETED**.
+With regard to object deletion, callers should refrain from invoking anything except the [**IUnknown::Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method on these interfaces. The provider must be robust enough to deal with errant callers; if a caller invokes a method on a deleted object, the provider should return **VDS\_E\_OBJECT\_DELETED**.
 
 ### Service Initialization
 
@@ -48,8 +48,8 @@ VDS supplies a class identifier (Clsid) for the service loader and the service o
 
      
 
--   An application calls the [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) function, passing the service loader Clsid as an argument. With a pointer to the service loader object, the application can start VDS either locally or remotely by passing the desired computer name as a parameter to the [**IVdsServiceLoader::LoadService**](/windows/desktop/api/Vds/nf-vds-ivdsserviceloader-loadservice) method.
--   When the initial application attaches to the service, VDS first calls [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) on each Clsid found under the registry key, and then calls the [**IVdsProviderPrivate::OnLoad**](/windows/desktop/api/VdsHwPrv/nf-vdshwprv-ivdsproviderprivate-onload) method on each provider to initialize the programs.
+-   An application calls the [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) function, passing the service loader Clsid as an argument. With a pointer to the service loader object, the application can start VDS either locally or remotely by passing the desired computer name as a parameter to the [**IVdsServiceLoader::LoadService**](/windows/desktop/api/Vds/nf-vds-ivdsserviceloader-loadservice) method.
+-   When the initial application attaches to the service, VDS first calls [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) on each Clsid found under the registry key, and then calls the [**IVdsProviderPrivate::OnLoad**](/windows/desktop/api/VdsHwPrv/nf-vdshwprv-ivdsproviderprivate-onload) method on each provider to initialize the programs.
 
 ## Related topics
 
@@ -70,6 +70,3 @@ VDS supplies a class identifier (Clsid) for the service loader and the service o
  
 
  
-
-
-

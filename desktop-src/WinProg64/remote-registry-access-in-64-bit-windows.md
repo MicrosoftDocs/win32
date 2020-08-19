@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Remote Registry Access in 64-bit Windows
 
-The registry redirector provides remote access to the registry on 64-bit Windows through the [**RegConnectRegistry**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regconnectregistrya) function.
+The registry redirector provides remote access to the registry on 64-bit Windows through the [**RegConnectRegistry**](/windows/desktop/api/winreg/nf-winreg-regconnectregistrya) function.
 
 If the client is a 32-bit application, it accesses the server's default 32-bit registry view. If the client is a 64-bit application, it accesses the 64-bit registry view.
 
@@ -29,7 +29,3 @@ If the client is a 32-bit application, it accesses the server's default 32-bit r
  
 
  
-
-
-
-

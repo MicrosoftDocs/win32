@@ -91,22 +91,22 @@ This topic describes the named constants that are used to identify types of anno
 **Reference**
 </dt> <dt>
 
-[**IAnnotationProvider::AnnotationTypeId**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_annotationtypeid)
+[**IAnnotationProvider::AnnotationTypeId**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_annotationtypeid)
 </dt> <dt>
 
-[**ISpreadsheetItemProvider::GetAnnotationTypes**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ispreadsheetitemprovider-getannotationtypes)
+[**ISpreadsheetItemProvider::GetAnnotationTypes**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ispreadsheetitemprovider-getannotationtypes)
 </dt> <dt>
 
-[**IUIAutomationPattern::CachedAnnotationTypeId**](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationannotationpattern-get_cachedannotationtypeid)
+[**IUIAutomationPattern::CachedAnnotationTypeId**](/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationannotationpattern-get_cachedannotationtypeid)
 </dt> <dt>
 
-[**IUIAutomationPattern::CurrentAnnotationTypeId**](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationannotationpattern-get_currentannotationtypeid)
+[**IUIAutomationPattern::CurrentAnnotationTypeId**](/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationannotationpattern-get_currentannotationtypeid)
 </dt> <dt>
 
-[**IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationType**](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-getcachedannotationtypes)
+[**IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationType**](/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-getcachedannotationtypes)
 </dt> <dt>
 
-[**IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationType**](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-getcurrentannotationtypes)
+[**IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationType**](/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-getcurrentannotationtypes)
 </dt> <dt>
 
 **Conceptual**
@@ -116,10 +116,4 @@ This topic describes the named constants that are used to identify types of anno
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

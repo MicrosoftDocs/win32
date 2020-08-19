@@ -15,11 +15,11 @@ When applications use the Windows Automation API, the Microsoft Active Accessibi
 When the Windows Automation API, DCOM, and Windows messages are not an option, keep the following issues in mind when implementing your chosen IPC method:
 
 -   Shared Memory—When using shared memory, be aware that a structure in a 32-bit process may have a different size and layout than the same structure in a 64-bit process. This is especially true for structures that contain pointers or handles.
--   Pointer Truncation—Although a 32-bit application can use the **LONGLONG** data type to store a 64-bit value, there are instances where no Windows API element exists that would enable the 32-bit application to receive a 64-bit value from a 64-bit process, or to send a 64-bit value to a 64-bit process. For example, the [**GetWindowLongPtr**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlongptra) and [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) functions truncate all pointer values, leaving the 32-bit application with a useless value.
+-   Pointer Truncation—Although a 32-bit application can use the **LONGLONG** data type to store a 64-bit value, there are instances where no Windows API element exists that would enable the 32-bit application to receive a 64-bit value from a 64-bit process, or to send a 64-bit value to a 64-bit process. For example, the [**GetWindowLongPtr**](/windows/desktop/api/winuser/nf-winuser-getwindowlongptra) and [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) functions truncate all pointer values, leaving the 32-bit application with a useless value.
 -   Handles—Because kernel32 and user32 handles are only 32-bit significant in both 32-bit and 64-bit processes, they can be transferred between processes without a problem. However, some items that Windows defines as handles are really just wrapped pointers (for example, **HTREEITEM**). These "handles" will be truncated if they are passed from a 64-bit process to a 32-bit process.
 -   [WinEvent](winevents-infrastructure.md) Hook Functions—To register an in-context hook function with a 32-bit server process, the hook function must reside in a 32-bit DLL. Similarly, to register an in-context hook function with a 64-bit server process, the hook function must reside in a 64-bit DLL. If an assistive technology application attempts to register an in-context hook function with a server that has a different bit-depth, events will still be delivered to the hook function, but they will be delivered out-of-context. For more information, see WinEvents and [In-Context and Out-of-Context Hook Functions](in-context-and-out-of-context-hook-functions.md).
 
-For more information about 32-bit and 64-bit interoperability, see [Process Interoperability](https://docs.microsoft.com/windows/desktop/WinProg64/process-interoperability).
+For more information about 32-bit and 64-bit interoperability, see [Process Interoperability](/windows/desktop/WinProg64/process-interoperability).
 
 ## Related topics
 
@@ -31,7 +31,3 @@ For more information about 32-bit and 64-bit interoperability, see [Process Inte
  
 
  
-
-
-
-

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 When you create a source voice, you can pass a structure to it that defines callbacks for certain audio events. You can use these callbacks to perform actions or to signal other code.
 
-1.  Create a class that inherits from the [**IXAudio2VoiceCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voicecallback) interface. All member functions of **IXAudio2VoiceCallback** are purely virtual, and must be defined. The only function of interest in this example is [**OnStreamEnd**](https://msdn.microsoft.com/library/Ee418477(v=VS.85).aspx). Therefore, the rest of the functions are stubs. The **OnStreamEnd** function triggers an event that indicates the sound is done playing.
+1.  Create a class that inherits from the [**IXAudio2VoiceCallback**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voicecallback) interface. All member functions of **IXAudio2VoiceCallback** are purely virtual, and must be defined. The only function of interest in this example is [**OnStreamEnd**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onstreamend). Therefore, the rest of the functions are stubs. The **OnStreamEnd** function triggers an event that indicates the sound is done playing.
 
     ```
     class VoiceCallback : public IXAudio2VoiceCallback
@@ -35,7 +35,7 @@ When you create a source voice, you can pass a structure to it that defines call
 
     
 
-2.  Create a [**source voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) with [**IXAudio2::CreateSourceVoice**](https://msdn.microsoft.com/library/Ee418607(v=VS.85).aspx) using an instance of the callback class created previously as the pCallback parameter.
+2.  Create a [**source voice**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) with [**IXAudio2::CreateSourceVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice) using an instance of the callback class created previously as the pCallback parameter.
 
     ```
     VoiceCallback voiceCallback;
@@ -45,7 +45,7 @@ When you create a source voice, you can pass a structure to it that defines call
 
     
 
-3.  After starting the voice, use the [**WaitForSingleObjectEx**](https://msdn.microsoft.com/library/ms687036(v=VS.85).aspx) method to wait for the event to be triggered.
+3.  After starting the voice, use the [**WaitForSingleObjectEx**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex) method to wait for the event to be triggered.
 
     ```
     WaitForSingleObjectEx( voiceCallback.hBufferEndEvent, INFINITE, TRUE );
@@ -75,6 +75,3 @@ When you create a source voice, you can pass a structure to it that defines call
  
 
  
-
-
-

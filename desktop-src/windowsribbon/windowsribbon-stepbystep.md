@@ -88,7 +88,7 @@ The following code example illustrates how to declare a Button control, labeled 
 
 ### Compile the Markup
 
-After the Ribbon markup file is created, it must be compiled into a binary format by the Ribbon markup compiler, UI Command Compiler (UICC), that is included with the Windows software development kit (SDK). A reference to this binary file is passed to the [**IUIFramework::LoadUI**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui) method during initialization of the Ribbon framework by the host application.
+After the Ribbon markup file is created, it must be compiled into a binary format by the Ribbon markup compiler, UI Command Compiler (UICC), that is included with the Windows software development kit (SDK). A reference to this binary file is passed to the [**IUIFramework::LoadUI**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui) method during initialization of the Ribbon framework by the host application.
 
 UICC can be executed directly from a command-line window or added as a "Custom Build Step" in Visual Studio.
 
@@ -100,7 +100,7 @@ The following image shows UICC added as a Custom Build Step in Visual Studio.
 
 ![screen shot showing uicc.exe added as a custom build step in visual studio.](images/overviews/screenshot-vs-intentcl-custombuildstep.png)
 
-The UICC generates three files: a binary version of the markup (.bml), an ID definition header (.h file) to expose markup elements to the Ribbon host application, and a [resource-definition script](https://msdn.microsoft.com/library/aa380599(VS.85).aspx) (.rc file) to link Ribbon image and string resources to the host application at compile time.
+The UICC generates three files: a binary version of the markup (.bml), an ID definition header (.h file) to expose markup elements to the Ribbon host application, and a [resource-definition script](../menurc/about-resource-files.md) (.rc file) to link Ribbon image and string resources to the host application at compile time.
 
 For more detail on compiling Ribbon framework markup, see [Compiling Ribbon Markup](windowsribbon-intentcl.md).
 
@@ -147,7 +147,7 @@ The following steps describe in detail how to implement a simple Ribbon applicat
 
 2.  Initialize(hwnd, IUIApplication\*)
 
-    The application calls [**IUIFramework::Initialize**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-initialize), passing in two parameters: the handle to the top-level window that will contain the Ribbon and a pointer to the [**IUIApplication**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication) implementation that allows the framework to make callbacks to the application.
+    The application calls [**IUIFramework::Initialize**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-initialize), passing in two parameters: the handle to the top-level window that will contain the Ribbon and a pointer to the [**IUIApplication**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication) implementation that allows the framework to make callbacks to the application.
 
     > \[!Important\]  
     > The Ribbon framework is initialized as a single-threaded apartment (STA).
@@ -166,7 +166,7 @@ The following steps describe in detail how to implement a simple Ribbon applicat
 
 3.  LoadUI(instance, resourceName)
 
-    The application calls [**IUIFramework::LoadUI**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui) to bind the markup resource. The first parameter of this function is a handle to the Ribbon application instance. The second parameter is the name of the binary markup resource that was compiled previously. By passing the binary markup to the Ribbon framework, the application signals what the Ribbon structure should be and how controls should be arranged. It also provides the framework with a manifest of commands to expose (such as Paste, Cut, Find), which are used by the framework when it makes Command-related callbacks at run time.
+    The application calls [**IUIFramework::LoadUI**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui) to bind the markup resource. The first parameter of this function is a handle to the Ribbon application instance. The second parameter is the name of the binary markup resource that was compiled previously. By passing the binary markup to the Ribbon framework, the application signals what the Ribbon structure should be and how controls should be arranged. It also provides the framework with a manifest of commands to expose (such as Paste, Cut, Find), which are used by the framework when it makes Command-related callbacks at run time.
 
     ```
     hr = pFramework->LoadUI(GetModuleHandle(NULL), L"APPLICATION_RIBBON");
@@ -178,18 +178,18 @@ The following steps describe in detail how to implement a simple Ribbon applicat
 
     
 
-4.  [**IUIApplication::OnCreateUICommand**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-oncreateuicommand) callbacks
+4.  [**IUIApplication::OnCreateUICommand**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-oncreateuicommand) callbacks
 
     After steps 1 through 3 are completed, the Ribbon framework knows which Commands to expose in the Ribbon. However, the framework still needs two things before the Ribbon is fully functional: a way to tell the application when Commands are executed and a way to get Command resources, or properties, at run time. For example, if a combo box is to appear in the UI, then the framework needs to ask for the items with which to populate the combo box.
 
-    These two pieces of functionality are handled through the [**IUICommandHandler**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler) interface. Specifically, for each command declared in the binary markup (see Step 3 above), the framework calls [**IUIApplication::OnCreateUICommand**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-oncreateuicommand) to ask the application for an **IUICommandHandler** object for that command
+    These two pieces of functionality are handled through the [**IUICommandHandler**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler) interface. Specifically, for each command declared in the binary markup (see Step 3 above), the framework calls [**IUIApplication::OnCreateUICommand**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-oncreateuicommand) to ask the application for an **IUICommandHandler** object for that command
 
     > [!Note]  
-    > The [**IUICommandHandler**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler) interface allows a Command handler to be bound to one or more Commands.
+    > The [**IUICommandHandler**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler) interface allows a Command handler to be bound to one or more Commands.
 
      
 
-At a minimum, the application is required to implement [**IUIApplication**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication) methods stubs that return E\_NOTIMPL as shown in the following example.
+At a minimum, the application is required to implement [**IUIApplication**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication) methods stubs that return E\_NOTIMPL as shown in the following example.
 
 
 ```
@@ -230,7 +230,7 @@ At this point, the markup resource files must be linked to the host application 
 
 
 
-Depending on the compiler and linker being used, the resource-definition script may also require compiling before the Ribbon application can be compiled. The [resource compiler (RC)](https://msdn.microsoft.com/library/aa381055(VS.85).aspx) command line tool that ships with Microsoft Visual Studio and the Windows SDK can be used for this task.
+Depending on the compiler and linker being used, the resource-definition script may also require compiling before the Ribbon application can be compiled. The [resource compiler (RC)](../menurc/using-rc-the-rc-command-line-.md) command line tool that ships with Microsoft Visual Studio and the Windows SDK can be used for this task.
 
 ### Compile the Application
 
@@ -244,16 +244,16 @@ The run-time communication structure of the Ribbon framework is based on a push 
 
 This model allows the framework to inform the application when a Command is executed and allows both the framework and the application to query, update, and invalidate property values and Ribbon resources. This functionality is provided through a number of interfaces and methods.
 
-The framework pulls updated property information from the Ribbon application through the [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) callback method. A Command ID and a property key, which identifies the Command property to update, are passed to the method which then returns, or pushes, a value for that property key to the framework.
+The framework pulls updated property information from the Ribbon application through the [**IUICommandHandler::UpdateProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) callback method. A Command ID and a property key, which identifies the Command property to update, are passed to the method which then returns, or pushes, a value for that property key to the framework.
 
-The framework calls [**IUICommandHandler::Execute**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) when a Command is executed, identifying both the Command ID and the type of execution that occurred ([**UI\_EXECUTIONVERB**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_executionverb)). This is where the application specifies the execution logic for a command.
+The framework calls [**IUICommandHandler::Execute**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) when a Command is executed, identifying both the Command ID and the type of execution that occurred ([**UI\_EXECUTIONVERB**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_executionverb)). This is where the application specifies the execution logic for a command.
 
 The following diagram illustrates the run-time communication for Command execution between the framework and the application.
 
 ![diagram showing an example of the run-time communication between the ribbon framework and a host application.](images/overviews/updatesandexecutions.png)
 
 > [!Note]  
-> Implementing the [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) and [**IUICommandHandler::Execute**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) functions is not necessary to initially display a Ribbon in an application. However, these methods are necessary to ensure that the application functions correctly when commands are executed by the user.
+> Implementing the [**IUICommandHandler::UpdateProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) and [**IUICommandHandler::Execute**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) functions is not necessary to initially display a Ribbon in an application. However, these methods are necessary to ensure that the application functions correctly when commands are executed by the user.
 
  
 
@@ -271,7 +271,7 @@ Objects created in an OLE server application maintain their association with the
 
 <dl> <dt>
 
-[Declaring Commands and Controls with Ribbon Markup](https://msdn.microsoft.com/library/Dd316913(v=VS.85).aspx)
+[Declaring Commands and Controls with Ribbon Markup](./windowsribbon-schema.md)
 </dt> <dt>
 
 [Ribbon User Experience Guidelines](https://msdn.microsoft.com/library/cc872782.aspx)
@@ -287,4 +287,3 @@ Objects created in an OLE server application maintain their association with the
 
 
 
-                                                                                                                                                    

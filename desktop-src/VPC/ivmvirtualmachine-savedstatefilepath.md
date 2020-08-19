@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachine::SavedStateFilePath property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves the full path to the saved state file.
 
@@ -79,10 +79,4 @@ The fully qualified path to the virtual machine's saved state file.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

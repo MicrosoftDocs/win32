@@ -21,7 +21,7 @@ Enables the client to call the application's Text Input Panel auto complete prov
 
 ## Members
 
-The **ITipAutocompleteClient** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITipAutocompleteClient** also has these types of members:
+The **ITipAutocompleteClient** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITipAutocompleteClient** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -57,9 +57,4 @@ The **ITipAutocompleteClient** interface has these methods.
 
 
  
-
- 
-
-
-
 

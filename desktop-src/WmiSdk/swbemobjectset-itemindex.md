@@ -90,7 +90,7 @@ The **ItemIndex** method allows WMI clients scripts and applications written in 
 
 ## Examples
 
-The following VBScript code example queries for a collection of all the [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) instances then displays the names of the first three processes.
+The following VBScript code example queries for a collection of all the [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) instances then displays the names of the first three processes.
 
 
 ```VB
@@ -107,7 +107,7 @@ Wscript.Echo  colProcesses.ItemIndex(2).Name
 
 
 
-Only one instance of [**Win32\_OperatingSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem) exists for each operating system installation. Creating the [**GetObject**](https://msdn.microsoft.com/library/e9waz863(v=VS.71).aspx) path to obtain the single instance is awkward so scripts normally enumerate **Win32\_OperatingSystem** even though only one instance is available. The following VBScript code example shows how to use the **ItemIndex** method to get to the one **Win32\_OperatingSystem** without using a **For Each** loop.
+Only one instance of [**Win32\_OperatingSystem**](/windows/desktop/CIMWin32Prov/win32-operatingsystem) exists for each operating system installation. Creating the [**GetObject**](https://msdn.microsoft.com/library/e9waz863(v=VS.71).aspx) path to obtain the single instance is awkward so scripts normally enumerate **Win32\_OperatingSystem** even though only one instance is available. The following VBScript code example shows how to use the **ItemIndex** method to get to the one **Win32\_OperatingSystem** without using a **For Each** loop.
 
 
 ```VB
@@ -123,7 +123,7 @@ Wscript.Echo "Caption: " & colOperatingSystems.ItemIndex(0).Caption
 
 
 
-The following VBScript code example gets instances associated with [**Win32\_OperatingSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem), such as [**Win32\_SystemOperatingSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-systemoperatingsystem).
+The following VBScript code example gets instances associated with [**Win32\_OperatingSystem**](/windows/desktop/CIMWin32Prov/win32-operatingsystem), such as [**Win32\_SystemOperatingSystem**](/windows/desktop/CIMWin32Prov/win32-systemoperatingsystem).
 
 
 ```VB
@@ -143,7 +143,7 @@ set colAssociators = colOS.ItemIndex(0).Associators_
 
 
 
-The following code example output shows instances associated with [**Win32\_OperatingSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem).
+The following code example output shows instances associated with [**Win32\_OperatingSystem**](/windows/desktop/CIMWin32Prov/win32-operatingsystem).
 
 ``` syntax
 Windows Server 2008 
@@ -177,9 +177,4 @@ Win32_AutochkSetting.SettingID="Windows Server 2008
 </dt> </dl>
 
  
-
- 
-
-
-
 

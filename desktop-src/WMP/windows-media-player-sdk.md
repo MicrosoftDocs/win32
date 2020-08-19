@@ -53,13 +53,9 @@ The Windows Media Player SDK documents programming technologies that can be used
 
 <dl> <dt>
 
-[Media Technologies for Windows](https://msdn.microsoft.com/windows/bb190307)
+[Media Technologies for Windows](/previous-versions/bg125389(v=msdn.10))
 </dt> </dl>
 
  
 
  
-
-
-
-

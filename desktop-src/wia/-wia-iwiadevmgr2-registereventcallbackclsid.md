@@ -125,7 +125,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 WIA 2.0 applications use this method to register to receive hardware device events. After **IWiaDevMgr2::RegisterEventCallbackCLSID** is called, the application is registered to receive WIA 2.0 device events even if it is not running.
 
-When the event occurs, the WIA 2.0 system determines which application is registered to receive the event. It uses the [CoCreateInstance](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) function and the CLSID specified in the *pClsID* parameter to create an instance of the application, and then calls the [**ImageEventCallback**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiaeventcallback-imageeventcallback) method to transmit the event information to the application.
+When the event occurs, the WIA 2.0 system determines which application is registered to receive the event. It uses the [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) function and the CLSID specified in the *pClsID* parameter to create an instance of the application, and then calls the [**ImageEventCallback**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiaeventcallback-imageeventcallback) method to transmit the event information to the application.
 
 An application can invoke the [**EnumRegisterEventInfo**](-wia-iwiaitem2-enumregistereventinfo.md) method to enumerate event registration information.
 
@@ -151,7 +151,3 @@ If the application is not a registered Component Object Model (COM) component an
  
 
  
-
-
-
-

@@ -16,11 +16,8 @@ When a control does not have its own caption property, take the following steps 
 -   Position the label text immediately to the left or preceding the referenced control.
 -   Make the static text invisible if it is not appropriate to display it visually. Do this by assigning the appropriate attribute in the resource script. This may be appropriate when the name or function of a control is visually provided by means other than static text control, such as a graphic or a related radio button.
 
-The proper use of static controls is the only way to correctly implement underlined access keys for controls that do not have intrinsic labels. For more information about using controls that do not have caption properties, see the [Accessibility](https://docs.microsoft.com/windows/desktop/accessibility) section.
+The proper use of static controls is the only way to correctly implement underlined access keys for controls that do not have intrinsic labels. For more information about using controls that do not have caption properties, see the [Accessibility](/windows/desktop/accessibility) section.
 
  
 
  
-
-
-

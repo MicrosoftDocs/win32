@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # EmailAction.Attachments property
 
-\[This object is no longer supported. Please use IExecAction with the powershell [**Send-MailMessage**](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/send-mailmessage) cmdlet as a workaround.\]
+\[This object is no longer supported. Please use IExecAction with the powershell [**Send-MailMessage**](/powershell/module/microsoft.powershell.utility/send-mailmessage) cmdlet as a workaround.\]
 
 For scripting, gets or sets an array of attachments that is sent with the email message.
 
@@ -69,10 +69,4 @@ A maximum of eight attachments can be in the array of attachments.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

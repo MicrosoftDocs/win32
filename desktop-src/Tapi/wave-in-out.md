@@ -17,13 +17,10 @@ DWORD DeviceInId;  // identifier of wave in audio device
 DWORD DeviceOutId;  // identifier of wave out audio device
 ```
 
-The **DeviceInId** and **DeviceOutId** members are identifiers of a closed audio device. You use these identifiers in a call to the [**waveOutOpen**](https://msdn.microsoft.com/library/Dd743866(v=VS.85).aspx) function to open the device for output. You can use the resulting device handle to play digitized audio data at the line or phone device.
+The **DeviceInId** and **DeviceOutId** members are identifiers of a closed audio device. You use these identifiers in a call to the [**waveOutOpen**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutopen) function to open the device for output. You can use the resulting device handle to play digitized audio data at the line or phone device.
 
-For more information about the wave functions, see [**Multimedia Functions**](https://msdn.microsoft.com/library/Dd743586(v=VS.85).aspx).
-
- 
+For more information about the wave functions, see [**Multimedia Functions**](../multimedia/multimedia-functions.md).
 
  
 
-
-
+ 

@@ -14,7 +14,7 @@ A *window station* contains a clipboard, an atom table, and one or more [desktop
 
 The *interactive window station* is the only window station that can display a user interface or receive user input. It is assigned to the logon session of the interactive user, and contains the keyboard, mouse, and display device. It is always named "WinSta0". All other window stations are noninteractive, which means they cannot display a user interface or receive user input.
 
-When a user logs on to a computer using Remote Desktop Services, a session is started for the user. Each session is associated with its own interactive window station named "WinSta0". For more information, see [Remote Desktop Sessions](https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-sessions).
+When a user logs on to a computer using Remote Desktop Services, a session is started for the user. Each session is associated with its own interactive window station named "WinSta0". For more information, see [Remote Desktop Sessions](/windows/desktop/TermServ/terminal-services-sessions).
 
 For more information on window stations, see the following topics:
 
@@ -25,7 +25,3 @@ For more information on window stations, see the following topics:
  
 
  
-
-
-
-

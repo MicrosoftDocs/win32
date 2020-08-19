@@ -75,7 +75,7 @@ UI Automation maintains a separate proxy factory table for each client. When a c
 
 ## Managing Default Proxies
 
-When a client application creates the [**CUIAutomation**](https://msdn.microsoft.com/library/Ff384838(v=VS.85).aspx) object, the proxy factory table initially contains entries only for the default proxy providers for standard controls. By using the [**IUIAutomationProxyFactoryMapping**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationproxyfactorymapping) interface, clients can add new entries, remove unwanted entries, change the order of entries, and so on. A client can retrieve an **IUIAutomationProxyFactoryMapping** interface pointer by calling the [**IUIAutomation::ProxyFactoryMapping**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomation-get_proxyfactorymapping) method.
+When a client application creates the [**CUIAutomation**](/previous-versions/windows/desktop/legacy/ff384838(v=vs.85)) object, the proxy factory table initially contains entries only for the default proxy providers for standard controls. By using the [**IUIAutomationProxyFactoryMapping**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationproxyfactorymapping) interface, clients can add new entries, remove unwanted entries, change the order of entries, and so on. A client can retrieve an **IUIAutomationProxyFactoryMapping** interface pointer by calling the [**IUIAutomation::ProxyFactoryMapping**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomation-get_proxyfactorymapping) method.
 
 The table of available proxies contains an [**IUIAutomationProxyFactoryEntry**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationproxyfactoryentry) interface for each proxy. Each **IUIAutomationProxyFactoryEntry** specifies the [**IUIAutomationProxyFactory**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationproxyfactory) and the control class that the proxy serves, and defines how events are to be handled.
 
@@ -94,7 +94,3 @@ The table of proxies is represented by an [**IUIAutomationProxyFactoryMapping**]
  
 
  
-
-
-
-

@@ -14,9 +14,9 @@ api_location:
 
 # Windows Remote Management and WMI
 
-Windows Remote Management can be used to retrieve data exposed by Windows Management Instrumentation ([WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page) and [MI](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure)). You can obtain WMI data with scripts or applications that use the [WinRM Scripting API](winrm-scripting-api.md) or through the **Winrm** command-line tool.
+Windows Remote Management can be used to retrieve data exposed by Windows Management Instrumentation ([WMI](/windows/desktop/WmiSdk/wmi-start-page) and [MI](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure)). You can obtain WMI data with scripts or applications that use the [WinRM Scripting API](winrm-scripting-api.md) or through the **Winrm** command-line tool.
 
-WinRM supports most of the familiar WMI classes and operations, including embedded objects. WinRM can leverage WMI to collect data about [*resources*](windows-remote-management-glossary.md) or to manage resources on a Windows-based operating system. That means that you can obtain data about objects such as disks, network adapters, services, or processes in your enterprise through the existing set of [WMI classes](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-classes). You can also access the hardware data that is available from the standard WMI [IPMI provider](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider).
+WinRM supports most of the familiar WMI classes and operations, including embedded objects. WinRM can leverage WMI to collect data about [*resources*](windows-remote-management-glossary.md) or to manage resources on a Windows-based operating system. That means that you can obtain data about objects such as disks, network adapters, services, or processes in your enterprise through the existing set of [WMI classes](/windows/desktop/WmiSdk/wmi-classes). You can also access the hardware data that is available from the standard WMI [IPMI provider](/previous-versions/windows/desktop/ipmiprv/ipmi-provider).
 
 ## Identifying a WMI Resource
 
@@ -65,11 +65,11 @@ The following procedure describes how to generate a resource URI either to get a
 
 ## Locating a WMI Resource with WinRM
 
-You can obtain WMI data either through the command-line tool, **Winrm**, or through a Visual Basic script that uses the [WinRM Scripting API](winrm-scripting-api.md). You do not use a [WMI path](https://docs.microsoft.com/windows/desktop/WmiSdk/describing-the-location-of-a-wmi-object) to locate a resource. Instead, you convert the WMI namespace and hierarchy to a [*URI*](windows-remote-management-glossary.md).
+You can obtain WMI data either through the command-line tool, **Winrm**, or through a Visual Basic script that uses the [WinRM Scripting API](winrm-scripting-api.md). You do not use a [WMI path](/windows/desktop/WmiSdk/describing-the-location-of-a-wmi-object) to locate a resource. Instead, you convert the WMI namespace and hierarchy to a [*URI*](windows-remote-management-glossary.md).
 
 The WinRM URI for a WMI class contains two parts: the [URI prefix](uri-prefixes.md) and the class that you want to access.
 
-For example, the following URI can be supplied to the [**Session.Enumerate**](session-enumerate.md) method to list all the services on a computer. The URI prefix is http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/ and the class is [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service).
+For example, the following URI can be supplied to the [**Session.Enumerate**](session-enumerate.md) method to list all the services on a computer. The URI prefix is http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/ and the class is [**Win32\_Service**](/windows/desktop/CIMWin32Prov/win32-service).
 
 `strResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_CurrentTime"`
 
@@ -79,7 +79,7 @@ In WMI, list the data for all of the instances of a resource or class in several
 
     `Set colServices = objWMIService.ExecQuery("Select * from Win32_Service")`
 
--   A call to [**SWbemServices.InstancesOf**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-instancesof) or [**SWbemObject.Instances\_**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemobject-instances-).
+-   A call to [**SWbemServices.InstancesOf**](/windows/desktop/WmiSdk/swbemservices-instancesof) or [**SWbemObject.Instances\_**](/windows/desktop/WmiSdk/swbemobject-instances-).
 
     `Set colServices = InstancesOf("Win32_Service")`
 
@@ -177,7 +177,3 @@ You can obtain a specific instance of a class in several ways:
  
 
  
-
-
-
-

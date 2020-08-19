@@ -49,7 +49,7 @@ api_location:
 The **CommandLineEventConsumer** class starts an arbitrary process in the local system when an event is delivered to it. This class is one of the standard event consumers that WMI provides. For more information, see [Monitoring and Responding to Events with Standard Consumers](monitoring-and-responding-to-events-with-standard-consumers.md).
 
 > [!Note]  
-> When using the **CommandLineEventConsumer** class, secure the executable that you want to start. If the executable is not in a secure location, or secured with a strong access control list (ACL), an unauthorized user can replace your executable with a malicious executable. For more information about ACLs, visit the Security section of the Microsoft Windows Software Development Kit (SDK), and see [Creating a Security Descriptor for a New Object](https://docs.microsoft.com/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--).
+> When using the **CommandLineEventConsumer** class, secure the executable that you want to start. If the executable is not in a secure location, or secured with a strong access control list (ACL), an unauthorized user can replace your executable with a malicious executable. For more information about ACLs, visit the Security section of the Microsoft Windows Software Development Kit (SDK), and see [Creating a Security Descriptor for a New Object](/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--).
 
  
 
@@ -137,7 +137,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-If **True**, the new process is the root process of a new process group. The process group includes all processes that are descendants of this root process. The process identifier of the new process group is the same as this process identifier. Process groups are used by the [**GenerateConsoleCtrlEvent**](https://docs.microsoft.com/windows/console/generateconsolectrlevent) method to enable sending a CTRL+C or CTRL+BREAK signal to a group of console processes.
+If **True**, the new process is the root process of a new process group. The process group includes all processes that are descendants of this root process. The process identifier of the new process group is the same as this process identifier. Process groups are used by the [**GenerateConsoleCtrlEvent**](/windows/console/generateconsolectrlevent) method to enable sending a CTRL+C or CTRL+BREAK signal to a group of console processes.
 
 </dd> <dt>
 
@@ -163,7 +163,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-If **True**, the [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) method runs the new process in the shared Virtual DOS Machine (VDM). This property can override the DefaultSeparateVDM switch in the Windows section of Win.ini if set to **True**. For more information, see the Remarks section of this topic.
+If **True**, the [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) method runs the new process in the shared Virtual DOS Machine (VDM). This property can override the DefaultSeparateVDM switch in the Windows section of Win.ini if set to **True**. For more information, see the Remarks section of this topic.
 
 </dd> <dt>
 
@@ -339,7 +339,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-If **True**, the cursor is in feedback mode for two seconds after [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) is called. During those two seconds, if the process makes the first GUI call, the system gives five more seconds to the process. During those five seconds, if the process shows a window, the system gives another five seconds to the process to finish drawing the window.
+If **True**, the cursor is in feedback mode for two seconds after [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) is called. During those two seconds, if the process makes the first GUI call, the system gives five more seconds to the process. During those five seconds, if the process shows a window, the system gives another five seconds to the process to finish drawing the window.
 
 </dd> <dt>
 
@@ -590,7 +590,7 @@ Activates and displays a window to its most recent size and position. An applica
 
 </dt> <dd>
 
-Sets the show state based on the **SW\_\*** value specified in the [**STARTUPINFO**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa) structure passed to the [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) function by the program that starts an application.
+Sets the show state based on the **SW\_\*** value specified in the [**STARTUPINFO**](/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa) structure passed to the [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) function by the program that starts an application.
 
 </dd> </dl>
 
@@ -720,7 +720,7 @@ The **CommandLineEventConsumer** class is derived from the [**\_\_EventConsumer*
 The **CreateSeparateWowVdm** property indicates whether or not the new process runs in a private Virtual DOS Machine (VDM). The advantage of running separately is that a crash only terminates the single VDM. Programs running in distinct VDMs continue to function normally, and the 16-bit Windows-based applications running in separate VDMs have separate input queues. This means that if one application stops responding momentarily, the applications in separate VDMs continue to receive input. The disadvantage of running separately is that it takes significantly more memory to do so. You should set this property to **True** only if the user requests that 16-bit Windows-based applications run in their own VDM.
 
 > [!Note]  
-> The **CommandLineEventConsumer** uses the [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) method internally, and passes the **ExecutablePath** and **CommandLineTemplate** properties as the *lpApplicationName* and *lpCommandLine* parameters. The following Managed Object Format (MOF) code example does not use **CommandLineEventConsumer** correctly.
+> The **CommandLineEventConsumer** uses the [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) method internally, and passes the **ExecutablePath** and **CommandLineTemplate** properties as the *lpApplicationName* and *lpCommandLine* parameters. The following Managed Object Format (MOF) code example does not use **CommandLineEventConsumer** correctly.
 
  
 
@@ -735,7 +735,7 @@ instance of CommandLineEventConsumer
 
 
 
-The [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) method passes *lpCommandLine* as `argv[0]`, `argv[1]`, and so on. Because `argv[0]` for 16-bit applications used to be reserved for the executable file name, the previous MOF code results in the process being created as though the following command is entered at the command prompt: **c:\\windows\\system32\\cscript.exe param1 param2**.
+The [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) method passes *lpCommandLine* as `argv[0]`, `argv[1]`, and so on. Because `argv[0]` for 16-bit applications used to be reserved for the executable file name, the previous MOF code results in the process being created as though the following command is entered at the command prompt: **c:\\windows\\system32\\cscript.exe param1 param2**.
 
 The previous command does not succeed because Cscript.exe does not look at `argv[0]`, and so it does not recognize that it does not contain its own name, but something else ("c:\\\\scripts\\\\MyScript.js"). The following example identifies the recommended use of **CommandLineEventConsumer**.
 
@@ -755,7 +755,7 @@ The previous use of **CommandLineEventConsumer** results in the process created 
 
 Because "c:\\\\scripts\\\\MyScript.js" is now `argv[1]`, it is seen by Cscript.exe and the command succeeds.
 
-For more information, see the [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) function.
+For more information, see the [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) function.
 
 ## Examples
 
@@ -795,9 +795,4 @@ For an example of using **CommandLineEventConsumer** to create a consumer, see [
 </dt> </dl>
 
  
-
- 
-
-
-
 

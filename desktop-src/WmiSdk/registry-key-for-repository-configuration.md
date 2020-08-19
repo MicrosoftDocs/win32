@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Registry Key for Repository Configuration
 
-Windows Management Instrumentation (WMI) has a new registry key to enable or disable the AutoRestore repository feature.. For more information on restoring the WMI repository, see [Backup or Restore WMI Repository](https://technet.microsoft.com/library/cc731460.aspx).
+Windows Management Instrumentation (WMI) has a new registry key to enable or disable the AutoRestore repository feature.. For more information on restoring the WMI repository, see [Backup or Restore WMI Repository](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731460(v=ws.11)).
 
 In Windows 7, the default behavior is to auto-restore a repository from a backed-up version if a repository corruption is detected. WMI provides the **AutoRestoreEnabled** registry value to disable this feature.
 
@@ -40,7 +40,7 @@ Enabled
 
 </dd> </dl> </dd> </dl>
 
-The **AutoRestoreEnabled** registry value can be modified by using the Group Policy Management Console (GPMC). For more information, see [Group Policy Management Console](https://msdn.microsoft.com/library/aa814316.aspx).
+The **AutoRestoreEnabled** registry value can be modified by using the Group Policy Management Console (GPMC). For more information, see [Group Policy Management Console](/previous-versions/windows/desktop/gpmc/group-policy-management-console-portal).
 
 This procedure provides details about how to enable or disable the AutoRestore repository feature:
 
@@ -60,6 +60,3 @@ This procedure provides details about how to enable or disable the AutoRestore r
  
 
  
-
-
-

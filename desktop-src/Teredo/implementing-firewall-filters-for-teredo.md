@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Implementing Firewall Filters for Teredo
 
-Windows allows applications to set a socket option that allows applications to indicate an explicit intent to receive Teredo traffic sent to the host firewall via the Windows Filtering Platform. In Windows, a socket option for setting a protection level is used to allow an application to define what type of traffic it is willing to receive. More specifically, in scenarios involving Teredo traffic, the [IPV6\_PROTECTION\_LEVEL](https://docs.microsoft.com/windows/desktop/WinSock/ipv6-protection-level) socket option is specified. It is recommended that host firewall implementations maintain the following filters to selectively allow Teredo traffic for an application, while blocking traffic by default for any application without an exemption.
+Windows allows applications to set a socket option that allows applications to indicate an explicit intent to receive Teredo traffic sent to the host firewall via the Windows Filtering Platform. In Windows, a socket option for setting a protection level is used to allow an application to define what type of traffic it is willing to receive. More specifically, in scenarios involving Teredo traffic, the [IPV6\_PROTECTION\_LEVEL](/windows/desktop/WinSock/ipv6-protection-level) socket option is specified. It is recommended that host firewall implementations maintain the following filters to selectively allow Teredo traffic for an application, while blocking traffic by default for any application without an exemption.
 
 ## Default Block Filter for Edge Traversed Traffic
 
@@ -47,7 +47,7 @@ A host firewall must always maintain a default block filter within the ALE\_AUTH
 ```
 
 > [!Note]  
-> The 'Delivery', 'Arrival', and 'Next Hop' classes of interface conditions are used to control a weak-host model and packet forwarding across interfaces. The example above utilizes the 'Delivery' class. Please review [Filtering Conditions Available at Each Filtering Layer](https://docs.microsoft.com/windows/desktop/FWP/filtering-conditions-available-at-each-filtering-layer) in the WFP SDK documentation, as your security design must take each case into consideration.
+> The 'Delivery', 'Arrival', and 'Next Hop' classes of interface conditions are used to control a weak-host model and packet forwarding across interfaces. The example above utilizes the 'Delivery' class. Please review [Filtering Conditions Available at Each Filtering Layer](/windows/desktop/FWP/filtering-conditions-available-at-each-filtering-layer) in the WFP SDK documentation, as your security design must take each case into consideration.
 
  
 
@@ -133,7 +133,3 @@ The Teredo service in Windows implements a dormancy model. At any given time, if
  
 
  
-
-
-
-

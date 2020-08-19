@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # ObjectModel Control Pattern
 
-Describes guidelines and conventions for implementing [**IObjectModelProvider**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iobjectmodelprovider), including information about methods. The **ObjectModel** control pattern is used to expose a pointer to the underlying object model of a document.
+Describes guidelines and conventions for implementing [**IObjectModelProvider**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iobjectmodelprovider), including information about methods. The **ObjectModel** control pattern is used to expose a pointer to the underlying object model of a document.
 
 Many applications implement rich object models that add value beyond what Microsoft UI Automation provides. This control pattern allows a client to navigate from a UI Automation element into the underlying object model.
 
@@ -33,19 +33,19 @@ This topic contains the following sections.
 
 When implementing the **ObjectModel** control pattern, note the following guidelines and conventions:
 
--   The [**IObjectModelProvider::GetUnderlyingObjectModel**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iobjectmodelprovider-getunderlyingobjectmodel) method should return a pointer to the object that is as close as possible to the source UI element. For example, in a web browser, a UI Automation provider for a single element should return an object model pointer for the element. Returning an object model pointer for the document root would be far less useful.
--   The client of the **ObjectModel** control pattern is expected to have the IID for the interface they are seeking, which is why it is enough to return a simple [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) pointer.
+-   The [**IObjectModelProvider::GetUnderlyingObjectModel**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iobjectmodelprovider-getunderlyingobjectmodel) method should return a pointer to the object that is as close as possible to the source UI element. For example, in a web browser, a UI Automation provider for a single element should return an object model pointer for the element. Returning an object model pointer for the document root would be far less useful.
+-   The client of the **ObjectModel** control pattern is expected to have the IID for the interface they are seeking, which is why it is enough to return a simple [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) pointer.
 -   Because UI Automation marshals the pointer to the client process, the provider should expect the client to access the object model using standard Component Object Model (COM) practices.
 
 ## Required Members for **IObjectModelProvider**
 
-The following method is required for implementing the [**IObjectModelProvider**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iobjectmodelprovider) interface.
+The following method is required for implementing the [**IObjectModelProvider**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iobjectmodelprovider) interface.
 
 
 
 | Required members                                                                             | Member type | Notes                                                                                                                                                                                                   |
 |----------------------------------------------------------------------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetUnderlyingObjectModel**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iobjectmodelprovider-getunderlyingobjectmodel) | Method      | Returns a COM pointer to the underlying object model. The client is expected to call the [**IUnknown::QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) method to retrieve specific object model pointers. |
+| [**GetUnderlyingObjectModel**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iobjectmodelprovider-getunderlyingobjectmodel) | Method      | Returns a COM pointer to the underlying object model. The client is expected to call the [**IUnknown::QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) method to retrieve specific object model pointers. |
 
 
 
@@ -69,7 +69,3 @@ This control pattern has no associated events.
  
 
  
-
-
-
-

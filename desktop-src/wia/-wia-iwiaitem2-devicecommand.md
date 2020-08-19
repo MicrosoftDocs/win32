@@ -85,7 +85,7 @@ The behavior of this method is different depending on the category of the node o
 
 When the application sends the [**WIA\_CMD\_TAKE\_PICTURE**](-wia-wia-device-commands.md) command to the device using the **IWiaItem2::DeviceCommand** method, the WIA 2.0 run-time system creates an [**IWiaItem2**](-wia-iwiaitem2.md) object to represent the image. The **IWiaItem2::DeviceCommand** method stores the address of the interface in the *ppIWiaItem2* parameter.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIWiaItem2* parameter.
+Applications must call the [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method on the interface pointers they receive through the *ppIWiaItem2* parameter.
 
 ## Requirements
 
@@ -103,7 +103,3 @@ Applications must call the [IUnknown::Release](https://msdn.microsoft.com/librar
  
 
  
-
-
-
-

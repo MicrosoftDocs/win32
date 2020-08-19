@@ -62,7 +62,7 @@ Here is an example:
 
 
 
-For more information about MUI, see [Windows MUI Knowledge Center](/windows/win32/intl/about-multilingual-user-interface).
+For more information about MUI, see [Windows MUI Knowledge Center](../intl/about-multilingual-user-interface.md).
 
 ### HCI Profile
 
@@ -159,7 +159,7 @@ The disadvantages of not running in a job include:
 
 ### Windows Logo key + U
 
-If your accessibility application is configured to run in a job, your application's startup code should include a call to the [**IsProcessInJob**](https://docs.microsoft.com/windows/desktop/api/jobapi/nf-jobapi-isprocessinjob) function to determine whether the application is starting in a job. If it is, the application should start the Ease of Access Center and then exit. The following example shows how to call **IsProcessInJob**.
+If your accessibility application is configured to run in a job, your application's startup code should include a call to the [**IsProcessInJob**](/windows/desktop/api/jobapi/nf-jobapi-isprocessinjob) function to determine whether the application is starting in a job. If it is, the application should start the Ease of Access Center and then exit. The following example shows how to call **IsProcessInJob**.
 
 
 ```C++
@@ -467,10 +467,4 @@ The values for the magnifier component would be in the following key:
  
 
  
-
- 
-
-
-
-
 

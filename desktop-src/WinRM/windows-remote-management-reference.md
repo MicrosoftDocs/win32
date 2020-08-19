@@ -24,13 +24,9 @@ The following topics are discussed in this section:
 
 <dl> <dt>
 
-[MI Reference](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/wmi-reference)
+[MI Reference](/previous-versions/windows/desktop/wmi_v2/wmi-reference)
 </dt> </dl>
 
  
 
  
-
-
-
-

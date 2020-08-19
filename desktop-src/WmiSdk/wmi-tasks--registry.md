@@ -52,7 +52,7 @@ The following table lists script examples that can be used to obtain various typ
 <tbody>
 <tr class="odd">
 <td>...read registry key values using WMI?</td>
-<td>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class, located in root\default namespace. You cannot get any instances of this class because the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/system-registry-provider">System Registry Provider</a> is a method and event provider only. However, you can get registry data through methods such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/enumkey-method-in-class-stdregprov"><strong>EnumKey</strong></a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/enumvalues-method-in-class-stdregprov"><strong>EnumValue</strong></a>. The <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-registry"><strong>Win32_Registry</strong></a>, located in root\cimv2 namespace, gets data about the registry as a whole, such as how large it is.<br/> <span data-codelanguage="VisualBasic"></span>
+<td>Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov"><strong>StdRegProv</strong></a> class, located in root\default namespace. You cannot get any instances of this class because the <a href="/previous-versions/windows/desktop/regprov/system-registry-provider">System Registry Provider</a> is a method and event provider only. However, you can get registry data through methods such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/enumkey-method-in-class-stdregprov"><strong>EnumKey</strong></a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/regprov/enumvalues-method-in-class-stdregprov"><strong>EnumValue</strong></a>. The <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-registry"><strong>Win32_Registry</strong></a>, located in root\cimv2 namespace, gets data about the registry as a whole, such as how large it is.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -475,13 +475,8 @@ If ($results.Returnvalue -eq 0) {&quot;Key Removed&quot;} </code></pre></td>
 [Modifying the System Registry](modifying-the-system-registry.md)
 </dt> <dt>
 
-[**StdRegProv**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/stdregprov)
+[**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov)
 </dt> </dl>
 
  
-
- 
-
-
-
 

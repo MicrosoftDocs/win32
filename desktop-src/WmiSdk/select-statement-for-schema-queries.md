@@ -31,7 +31,7 @@ SELECT * FROM meta_class WHERE __this ISA "Win32_LogicalDisk"
 
 
 
-The special property called **\_\_this** identifies the target class for a schema query. Note that the ISA operator must be used with the **\_\_this** property to request definitions for the subclasses of the target class. The preceding query returns the definition for the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class and definitions for all of its subclasses.
+The special property called **\_\_this** identifies the target class for a schema query. Note that the ISA operator must be used with the **\_\_this** property to request definitions for the subclasses of the target class. The preceding query returns the definition for the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class and definitions for all of its subclasses.
 
 The following example shows how to request a class definition for a single class by using the **\_\_Class** system property.
 
@@ -103,6 +103,3 @@ For Each objClass In colClasses
  
 
  
-
-
-

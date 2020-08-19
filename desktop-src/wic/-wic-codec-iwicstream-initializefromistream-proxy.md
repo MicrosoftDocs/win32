@@ -48,7 +48,7 @@ Pointer to this [**IWICStream**](/windows/desktop/api/Wincodec/nn-wincodec-iwics
 *pIStream* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)\***
+Type: **[IStream](/windows/desktop/api/objidl/nn-objidl-istream)\***
 
 The initialize stream.
 
@@ -75,9 +75,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

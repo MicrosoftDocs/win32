@@ -41,7 +41,7 @@ The second intermediate setting in Windows 7 is the same as the first except tha
 
 Windows 7 introduces two intermediate UAC settings.
 
-**Note:** Guidelines related to writing [code to support User Account Control](https://msdn2.microsoft.com/library/aa905330.aspx) are presented in a separate article.
+**Note:** Guidelines related to writing [code to support User Account Control](/previous-versions/aa905330(v=msdn.10)) are presented in a separate article.
 
 ## Design concepts
 
@@ -253,10 +253,4 @@ In programming and other technical documentation:
 -   Refer to the dialog box used to enter passwords as the Credential UI. Refer to the dialog box used to give consent as the Consent UI. Refer to both generally as Elevation UI.
 
  
-
- 
-
-
-
-
 

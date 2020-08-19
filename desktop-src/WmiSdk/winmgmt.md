@@ -22,7 +22,7 @@ Winmgmt is the WMI service within the SVCHOST process running under the "LocalSy
 In all cases, the WMI service automatically starts when the first management application or script requests connection to a WMI namespace. For more information, see [Starting and Stopping the WMI Service](starting-and-stopping-the-wmi-service.md).
 
 > [!Note]  
-> WMI is a core component of the Windows operating system that allows developers and IT administrators to write scripts and applications to automate certain tasks. Winmgmt.exe is the service that allows WMI to run on your local computer. For more information on using WMI, see [Using WMI](using-wmi.md). If you have received an error message regarding winmgmt.exe, see [WMI Troubleshooting](wmi-troubleshooting.md). For more information on Winmgmt.exe, see [Using WMI Management Tools](https://TechNet.Microsoft.Com/library/cc180468.aspx).
+> WMI is a core component of the Windows operating system that allows developers and IT administrators to write scripts and applications to automate certain tasks. Winmgmt.exe is the service that allows WMI to run on your local computer. For more information on using WMI, see [Using WMI](using-wmi.md). If you have received an error message regarding winmgmt.exe, see [WMI Troubleshooting](wmi-troubleshooting.md). For more information on Winmgmt.exe, see [Using WMI Management Tools](/previous-versions/system-center/configuration-manager-2003/cc180468(v=technet.10)).
 
  
 
@@ -150,9 +150,4 @@ WMI returns the error **ERROR\_INTERNAL\_DB\_CORRUPTION** (net helpmsg 1358) if 
 </dt> </dl>
 
  
-
- 
-
-
-
 

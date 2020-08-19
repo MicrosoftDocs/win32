@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # IUpdate5 Properties
 
-The [**IUpdate5**](https://msdn.microsoft.com/library/Ee694844(v=VS.85).aspx) interface defines the following properties.
+The [**IUpdate5**](/windows/win32/api/wuapi/nn-wuapi-iupdate5) interface defines the following properties.
 
 
 
@@ -31,6 +31,3 @@ For information about the members inherited by this interface, see the following
  
 
  
-
-
-

@@ -62,7 +62,7 @@ This method can return one of these values.
 
 ## Remarks
 
-Each process receives the [**Suspending**](https://msdn.microsoft.com/library/BR205860(v=Win.10).aspx) event. It can be useful for developers to step through how their apps respond to this event.
+Each process receives the [**Suspending**](/uwp/api/Windows.ApplicationModel.Core.CoreApplication?view=winrt-19041) event. It can be useful for developers to step through how their apps respond to this event.
 
 ## Requirements
 
@@ -80,13 +80,9 @@ Each process receives the [**Suspending**](https://msdn.microsoft.com/library/BR
 
 <dl> <dt>
 
-[**IPackageDebugSettings**](https://msdn.microsoft.com/library/Hh438393(v=VS.85).aspx)
+[**IPackageDebugSettings**](/previous-versions//hh438393(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-
-

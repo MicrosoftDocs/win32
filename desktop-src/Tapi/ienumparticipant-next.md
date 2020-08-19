@@ -39,7 +39,7 @@ Number of elements requested.
 *ppElements* \[out\]
 </dt> <dd>
 
-Pointer to [**ITAgentHandler**](https://msdn.microsoft.com/library/Aa380394(v=VS.85).aspx) interfaces.
+Pointer to [**ITAgentHandler**](/windows/win32/api/tapi3cc/nn-tapi3cc-itagenthandler) interfaces.
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ This method can return one of these values.
 
 ## Remarks
 
-TAPI calls the [**AddRef**](https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx) method on the [**ITAgentHandler**](https://msdn.microsoft.com/library/Aa380394(v=VS.85).aspx) interface returned by **IEnumParticipant::Next**. The application must call [**Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) on the **ITAgentHandler** interface to free resources associated with it.
+TAPI calls the [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) method on the [**ITAgentHandler**](/windows/win32/api/tapi3cc/nn-tapi3cc-itagenthandler) interface returned by **IEnumParticipant::Next**. The application must call [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) on the **ITAgentHandler** interface to free resources associated with it.
 
 ## Requirements
 
@@ -95,9 +95,4 @@ TAPI calls the [**AddRef**](https://msdn.microsoft.com/library/ms691379(v=VS.85)
 </dt> </dl>
 
  
-
- 
-
-
-
 

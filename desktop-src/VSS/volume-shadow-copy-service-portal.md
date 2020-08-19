@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 The Volume Shadow Copy Service (VSS) is a set of COM interfaces that implements a framework to allow volume backups to be performed while applications on a system continue to write to the volumes.
 
-For an introduction to VSS for system administrators, see [Volume Shadow Copy Service](https://docs.microsoft.com/windows-server/storage/file-server/volume-shadow-copy-service) in the TechNet Library.
+For an introduction to VSS for system administrators, see [Volume Shadow Copy Service](/windows-server/storage/file-server/volume-shadow-copy-service) in the TechNet Library.
 
 ## Run-time requirements
 
@@ -56,7 +56,3 @@ All 32-bit VSS applications (requesters, providers, and writers) must run as nat
  
 
  
-
-
-
-

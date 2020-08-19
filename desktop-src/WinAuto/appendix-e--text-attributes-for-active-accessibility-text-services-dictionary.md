@@ -11,17 +11,17 @@ ms.date: 05/31/2018
 This appendix provides information about text attributes that are defined in [**IAccDictionary**](/windows/desktop/api/msaatext/nn-msaatext-iaccdictionary). It is organized as a series of tables. Each table includes information about a specific category of attributes. These categories are actually nested, but are separated below so that you can see the attributes.
 
 > [!Note]  
-> Active Accessibility Text Services is deprecated. Please see [Microsoft Windows Text Services Framework](https://msdn.microsoft.com/library/ms629032(VS.85).aspx) for more information on advanced text input and natural language technologies.
+> Active Accessibility Text Services is deprecated. Please see [Microsoft Windows Text Services Framework](../tsf/text-services-framework.md) for more information on advanced text input and natural language technologies.
 
  
 
-Each entry in a table provides an attribute name and friendly name, type, Cascading Style Sheets (CSS) equivalent, Text Object Model (TOM) equivalent, and any additional comments where appropriate. The TOM equivalent column provides information about the TOM method used with the attribute (part of the [**ITextFont**](https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont), [**ITextRange**](https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange), or [**ITextPara**](https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara) interfaces). The information prior to each table indicates which interface supports the attributes; the information in the TOM equivalent table indicates the name of the method. Each entry in the TOM equivalent column is associated with two methods. For example, the Name entry is associated with the **GetName** and **SetName** methods.
+Each entry in a table provides an attribute name and friendly name, type, Cascading Style Sheets (CSS) equivalent, Text Object Model (TOM) equivalent, and any additional comments where appropriate. The TOM equivalent column provides information about the TOM method used with the attribute (part of the [**ITextFont**](/windows/desktop/api/tom/nn-tom-itextfont), [**ITextRange**](/windows/desktop/api/tom/nn-tom-itextrange), or [**ITextPara**](/windows/desktop/api/tom/nn-tom-itextpara) interfaces). The information prior to each table indicates which interface supports the attributes; the information in the TOM equivalent table indicates the name of the method. Each entry in the TOM equivalent column is associated with two methods. For example, the Name entry is associated with the **GetName** and **SetName** methods.
 
-For more information about these interfaces, see the [Text Object Model](https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx) documentation in the Windows Software Development Kit (SDK).
+For more information about these interfaces, see the [Text Object Model](../controls/text-object-model.md) documentation in the Windows Software Development Kit (SDK).
 
 ## Font
 
-The attributes in the following table are associated with general font attributes. The TOM equivalent is the [**ITextFont**](https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont) interface.
+The attributes in the following table are associated with general font attributes. The TOM equivalent is the [**ITextFont**](/windows/desktop/api/tom/nn-tom-itextfont) interface.
 
 
 
@@ -36,7 +36,7 @@ The attributes in the following table are associated with general font attribute
 
 ## Font\_Style
 
-The attributes in the following table address font style attributes (for example, whether the text is set in bold or italic). The TOM equivalent is the [**ITextFont**](https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont) interface.
+The attributes in the following table address font style attributes (for example, whether the text is set in bold or italic). The TOM equivalent is the [**ITextFont**](/windows/desktop/api/tom/nn-tom-itextfont) interface.
 
 
 
@@ -71,7 +71,7 @@ The attributes in the following table address font style attributes (for example
 
 ## Font\_Style\_Animation
 
-The attributes in the following table address font animation. The TOM equivalent is the [**ITextFont**](https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont) interface.
+The attributes in the following table address font animation. The TOM equivalent is the [**ITextFont**](/windows/desktop/api/tom/nn-tom-itextfont) interface.
 
 
 
@@ -92,7 +92,7 @@ The attributes in the following table address font animation. The TOM equivalent
 
 ## Font\_Style\_Underline
 
-The attributes in the following table address underline styles for fonts. The TOM equivalent is the [**ITextFont**](https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont) interface.
+The attributes in the following table address underline styles for fonts. The TOM equivalent is the [**ITextFont**](/windows/desktop/api/tom/nn-tom-itextfont) interface.
 
 
 
@@ -158,7 +158,7 @@ The attributes in the following table address general text formatting attributes
 
 ## Text\_Alignment
 
-The attributes in the following table address text alignment. The TOM equivalent is the [**ITextPara**](https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara) interface.
+The attributes in the following table address text alignment. The TOM equivalent is the [**ITextPara**](/windows/desktop/api/tom/nn-tom-itextpara) interface.
 
 
 
@@ -175,7 +175,7 @@ The attributes in the following table address text alignment. The TOM equivalent
 
 ## Text\_Para
 
-The attributes in the following table address formatting for paragraphs. The TOM equivalent is the [**ITextPara**](https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara) interface.
+The attributes in the following table address formatting for paragraphs. The TOM equivalent is the [**ITextPara**](/windows/desktop/api/tom/nn-tom-itextpara) interface.
 
 
 
@@ -193,7 +193,7 @@ The attributes in the following table address formatting for paragraphs. The TOM
 
 ## Text\_Para\_lineSpacing
 
-The attributes in the following table address line spacing in paragraphs. The TOM equivalent is the [**ITextPara**](https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara) interface.
+The attributes in the following table address line spacing in paragraphs. The TOM equivalent is the [**ITextPara**](/windows/desktop/api/tom/nn-tom-itextpara) interface.
 
 
 
@@ -212,7 +212,7 @@ The attributes in the following table address line spacing in paragraphs. The TO
 
 ## Text\_List
 
-The attributes in the following table address lists and levels of text lists. The TOM equivalent is the [**ITextPara**](https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara) interface.
+The attributes in the following table address lists and levels of text lists. The TOM equivalent is the [**ITextPara**](/windows/desktop/api/tom/nn-tom-itextpara) interface.
 
 
 
@@ -226,7 +226,7 @@ The attributes in the following table address lists and levels of text lists. Th
 
 ## Text\_List\_Type
 
-The attributes in the following table address list styles for text. The TOM equivalent is the [**ITextPara**](https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara) interface.
+The attributes in the following table address list styles for text. The TOM equivalent is the [**ITextPara**](/windows/desktop/api/tom/nn-tom-itextpara) interface.
 
 
 
@@ -257,10 +257,4 @@ The attributes in the following table address list styles for text. The TOM equi
  
 
  
-
- 
-
-
-
-
 

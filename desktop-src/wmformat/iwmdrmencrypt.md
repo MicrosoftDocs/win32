@@ -22,7 +22,7 @@ The **IWMDRMEncrypt** interface provides a method for encrypting data in place.
 
 ## Members
 
-The **IWMDRMEncrypt** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMEncrypt** also has these types of members:
+The **IWMDRMEncrypt** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMEncrypt** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -51,10 +51,4 @@ The **IWMDRMEncrypt** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

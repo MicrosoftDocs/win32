@@ -56,7 +56,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 High half of the date-time stamp.
@@ -72,7 +72,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Low half of the date-time stamp.
@@ -101,7 +101,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Name of the WDM enabled driver that has a binary MOF file successfully compiled in the WMI repository.
@@ -135,9 +135,4 @@ Whenever WMI initializes the provider, the provider compares the timestamp with 
 </dt> </dl>
 
  
-
- 
-
-
-
 

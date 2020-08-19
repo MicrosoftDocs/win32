@@ -88,7 +88,7 @@ The following screen shot shows the ribbon in the hidden state.
 
 The following example demonstrates how to set the state of the ribbon UI at run time.
 
-In this case, the [**IUICommandHandler::Execute**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) function is used to expand or collapse the ribbon UI based on the toggle state of a [Toggle Button](windowsribbon-controls-togglebutton.md).
+In this case, the [**IUICommandHandler::Execute**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) function is used to expand or collapse the ribbon UI based on the toggle state of a [Toggle Button](windowsribbon-controls-togglebutton.md).
 
 
 ```C++
@@ -169,7 +169,3 @@ STDMETHODIMP CCommandHandler::Execute(
  
 
  
-
-
-
-

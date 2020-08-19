@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent as a signal that a window or an application should terminate.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -72,9 +72,9 @@ Example from [Windows Classic Samples](https://github.com/microsoft/Windows-clas
 
 ## Remarks
 
-An application can prompt the user for confirmation, prior to destroying a window, by processing the **WM\_CLOSE** message and calling the [**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx) function only if the user confirms the choice.
+An application can prompt the user for confirmation, prior to destroying a window, by processing the **WM\_CLOSE** message and calling the [**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow) function only if the user confirms the choice.
 
-By default, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function calls the [**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx) function to destroy the window.
+By default, the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function calls the [**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow) function to destroy the window.
 
 ## Requirements
 
@@ -95,10 +95,10 @@ By default, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/a
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx)
+[**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow)
 </dt> <dt>
 
 **Conceptual**
@@ -110,7 +110,3 @@ By default, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/a
  
 
  
-
-
-
-

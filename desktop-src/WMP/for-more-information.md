@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 -   For more information about Windows Media Player, see the [Windows Media Player webpage](https://support.microsoft.com/help/18612/windows-media-player) on the Windows Media website.
 -   To download the Windows SDK, which includes the Windows Media Player SDK, go to the [Windows SDK](https://msdn.microsoft.com/windows/bb980924.aspx) page in the Windows Developer Center.
 -   For more information about programming with Microsoft technologies, including Windows Media technologies and software development kits, see the [MSDN Library](http://msdn.microsoft.com/library).
--   The current version of the Windows Media Player SDK is version 12. For issues related to the Windows Media Player 11 SDK, see the [Windows Media Player 11 SDK Readme](https://msdn2.microsoft.com/library/aa905044.aspx).
+-   The current version of the Windows Media Player SDK is version 12. For issues related to the Windows Media Player 11 SDK, see the [Windows Media Player 11 SDK Readme](/previous-versions/aa905044(v=msdn.10)).
 
 ## Related topics
 
@@ -34,7 +34,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

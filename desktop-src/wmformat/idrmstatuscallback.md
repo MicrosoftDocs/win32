@@ -22,7 +22,7 @@ The **IDRMStatusCallback** interface provides a method for receiving status on a
 
 ## Members
 
-The **IDRMStatusCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDRMStatusCallback** also has these types of members:
+The **IDRMStatusCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDRMStatusCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -48,10 +48,4 @@ The **IDRMStatusCallback** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

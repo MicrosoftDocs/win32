@@ -77,7 +77,7 @@ If none of the specified strokes identify a stroke associated with the [**IInkAn
 
 This method returns an error code when strokeIds is **NULL**.
 
-For more information about language identifiers, see [Language Identifier Constants and Strings](https://docs.microsoft.com/windows/desktop/Intl/language-identifier-constants-and-strings).
+For more information about language identifiers, see [Language Identifier Constants and Strings](/windows/desktop/Intl/language-identifier-constants-and-strings).
 
 ## Requirements
 
@@ -121,9 +121,4 @@ For more information about language identifiers, see [Language Identifier Consta
 </dt> </dl>
 
  
-
- 
-
-
-
 

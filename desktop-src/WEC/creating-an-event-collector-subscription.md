@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Creating a Collector Initiated Subscription
 
-You can subscribe to receive events on a local computer (the event collector) that are forwarded from remote computers (the event sources) by using a collector-initiated subscription. In a collector-initiated subscription, the subscription must contain a list of all the event sources. Before a collector computer can subscribe to events and a remote event source can forward events, both computers must be configured for event collecting and forwarding. For more information about how to configure the computers, see [Configure Computers to Forward and Collect Events](https://technet.microsoft.com/library/cc748890.aspx).
+You can subscribe to receive events on a local computer (the event collector) that are forwarded from remote computers (the event sources) by using a collector-initiated subscription. In a collector-initiated subscription, the subscription must contain a list of all the event sources. Before a collector computer can subscribe to events and a remote event source can forward events, both computers must be configured for event collecting and forwarding. For more information about how to configure the computers, see [Configure Computers to Forward and Collect Events](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc748890(v=ws.11)).
 
 The following code example follows a series of steps to create a collector initiated subscription:
 
@@ -528,7 +528,7 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
 <dl> <dt>
 
-[Configure Computers to Forward and Collect Events](https://technet.microsoft.com/library/cc748890.aspx)
+[Configure Computers to Forward and Collect Events](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc748890(v=ws.11))
 </dt> <dt>
 
 [Adding an Event Source to an Event Collector Subscription](adding-an-event-source-to-an-event-collector-subscription.md)
@@ -540,7 +540,3 @@ DWORD GetProperty(EC_HANDLE hSubscription,
  
 
  
-
-
-
-

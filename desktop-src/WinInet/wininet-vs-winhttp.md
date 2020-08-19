@@ -10,7 +10,7 @@ ms.date: 02/22/2019
 
 # WinINet vs. WinHTTP
 
-With a few exceptions, [WinINet](portal.md) is a superset of [WinHTTP](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page). When selecting between the two, you should use WinINet, unless you plan to run within a service or service-like process that requires impersonation and session isolation.
+With a few exceptions, [WinINet](portal.md) is a superset of [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page). When selecting between the two, you should use WinINet, unless you plan to run within a service or service-like process that requires impersonation and session isolation.
 
 ## Comparison of features
 
@@ -19,7 +19,7 @@ With a few exceptions, [WinINet](portal.md) is a superset of [WinHTTP](https://d
 | **Credential Cache** Allows all built-in applications in Windows Internet Explorer to get credentials automatically. It also allows an application running outside of Internet Explorer to prompt/specify the credentials for the server only once. From then on the requests are automatic. | yes | no |
 | **Credential Prompting** Provides an API that allows the calling code to prompt the user for credentials. | yes | no |
 | **FTP** | yes | no |
-| **Autodial/RAS Support** This is legacy functionality. Use [Remote Access](https://docs.microsoft.com/windows/desktop/RRAS/portal) instead. | yes | no |
+| **Autodial/RAS Support** This is legacy functionality. Use [Remote Access](/windows/desktop/RRAS/portal) instead. | yes | no |
 | **Zones** Automatic integration with Internet Explorer security zones. | yes | no |
 | **IDNA Support** Integrated support for the IDNA RFC/Punycode. | yes | yes |
 | **Cookie Jar APIs** Persistent and non-persistent cookies are supported. Any application or script can use this to see the same cookies as the browser. | yes | no |

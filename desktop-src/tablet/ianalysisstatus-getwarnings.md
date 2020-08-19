@@ -48,7 +48,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> Call [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppAnalysisWarnings* when you no longer need the warning.
+> Call [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on \**ppAnalysisWarnings* when you no longer need the warning.
 
  
 
@@ -161,16 +161,11 @@ STDMETHODIMP CMyClass::Results(
 [**IAnalysisWarning**](ianalysiswarning.md)
 </dt> <dt>
 
-[**AnalysisWarningCode**](https://docs.microsoft.com/windows/desktop/tablet/analysiswarningcode)
+[**AnalysisWarningCode**](/windows/desktop/tablet/analysiswarningcode)
 </dt> <dt>
 
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

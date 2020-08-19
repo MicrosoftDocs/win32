@@ -20,8 +20,8 @@ This section provides detailed information about implementing the Microsoft UI A
 -   [Annotation Control Pattern](uiauto-implementingannotation.md)
 -   [CustomNavigation Control Pattern](uiauto-implementingcustomnavigation.md)
 -   [Dock Control Pattern](uiauto-implementingdock.md)
--   [Drag Control Pattern](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingdrag)
--   [DropTarget Control Pattern](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingdroptarget)
+-   [Drag Control Pattern](/windows/desktop/WinAuto/uiauto-implementingdrag)
+-   [DropTarget Control Pattern](/windows/desktop/WinAuto/uiauto-implementingdroptarget)
 -   [ExpandCollapse Control Pattern](uiauto-implementingexpandcollapse.md)
 -   [Grid Control Pattern](uiauto-implementinggrid.md)
 -   [GridItem Control Pattern](uiauto-implementinggriditem.md)
@@ -37,7 +37,7 @@ This section provides detailed information about implementing the Microsoft UI A
 -   [SelectionItem Control Pattern](uiauto-implementingselectionitem.md)
 -   [Spreadsheet Control Pattern](uiauto-implementingspreadsheet.md)
 -   [SpreadsheetItem Control Pattern](uiauto-implementingspreadsheetitem.md)
--   [Styles Control Pattern](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingstyles)
+-   [Styles Control Pattern](/windows/desktop/WinAuto/uiauto-implementingstyles)
 -   [SynchronizedInput Control Pattern](uiauto-implementingsynchronizedinput.md)
 -   [Table Control Pattern](uiauto-implementingtable.md)
 -   [TableItem Control Pattern](uiauto-implementingtableitem.md)
@@ -66,7 +66,3 @@ This section provides detailed information about implementing the Microsoft UI A
  
 
  
-
-
-
-

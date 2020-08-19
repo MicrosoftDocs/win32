@@ -10,13 +10,10 @@ ms.date: 05/31/2018
 
 The Unimodem, or Universal Modem Driver, TSP (Unimdm.tsp) provides access to nearly all standard modems. It supports voice modems that allow half-duplex streaming. They are supported by the Wave MSP and stream control is possible. (Note that Unimodem on Windows NT 4.0 or earlier does not support voice modems, so direct stream control is not possible.)
 
-This TSP supports an [**address type**](https://msdn.microsoft.com/library/ms733291(v=VS.85).aspx) value of LINEADDRESSTYPE\_PHONENUMBER. If the programmer wants to use the dialing rules, the TAPI 3 [**ITAddressTranslation**](https://msdn.microsoft.com/library/ms728214(v=VS.85).aspx) interface or the TAPI 2 [**lineTranslateAddress**](https://msdn.microsoft.com/library/ms736136(v=VS.85).aspx) function must be used to obtain a dialable string from a phone number in canonical format.
+This TSP supports an [**address type**](./lineaddresstype--constants.md) value of LINEADDRESSTYPE\_PHONENUMBER. If the programmer wants to use the dialing rules, the TAPI 3 [**ITAddressTranslation**](/windows/win32/api/tapi3if/nn-tapi3if-itaddresstranslation) interface or the TAPI 2 [**lineTranslateAddress**](/windows/win32/api/tapi/nf-tapi-linetranslateaddress) function must be used to obtain a dialable string from a phone number in canonical format.
 
 The Unimodem TSP is installed with Windows Server 2003 operating systems, Windows XP, Windows 2000, Windows NT, Windows Millennium Edition, Windows 98, and Windows 95.
 
  
 
  
-
-
-

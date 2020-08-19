@@ -51,7 +51,7 @@ If unexpected behavior is seen in apps in high-contrast themes, one of these sol
 
 -   **Using visual styles with owner-drawn UIs:**
 
-    Owner-drawn controls should follow the instructions on [MSDN](https://docs.microsoft.com/windows/desktop/Controls/using-visual-styles) for correctly rendering control parts and states, including text. Developers should not rely on the text or background color specified in a device context in order to use non-UxTheme methods for rendering. In the case where there is no theme part for the control in question, use GetThemeSysColor with the [appropriate metric](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor) and draw the text using standard GDI methods. If none of the UxTheme calls are appropriate, use the GetSysColor method to get the appropriate metric.
+    Owner-drawn controls should follow the instructions on [MSDN](/windows/desktop/Controls/using-visual-styles) for correctly rendering control parts and states, including text. Developers should not rely on the text or background color specified in a device context in order to use non-UxTheme methods for rendering. In the case where there is no theme part for the control in question, use GetThemeSysColor with the [appropriate metric](/windows/desktop/api/winuser/nf-winuser-getsyscolor) and draw the text using standard GDI methods. If none of the UxTheme calls are appropriate, use the GetSysColor method to get the appropriate metric.
 
 -   **Selecting text color:**
 
@@ -75,11 +75,11 @@ If unexpected behavior is seen in apps in high-contrast themes, one of these sol
 
 -   **Writing a high-contrast Windows Store app:**
 
-    Windows Store app should use the [SystemColors](https://docs.microsoft.com/dotnet/api/system.windows.systemcolors?redirectedfrom=MSDN) class for determining proper UI element coloring, keeping in mind that certain system metric colors are designed to be used in conjunction, such as SystemColors.WindowColor and SystemColors.WindowTextColor. This facilitates a superior high-contrast experience.
+    Windows Store app should use the [SystemColors](/dotnet/api/system.windows.systemcolors) class for determining proper UI element coloring, keeping in mind that certain system metric colors are designed to be used in conjunction, such as SystemColors.WindowColor and SystemColors.WindowTextColor. This facilitates a superior high-contrast experience.
 
 -   **Properly detecting high contrast in previous versions of Windows:**
 
-    Apps running on previous versions of Windows do not have access to the new high-contrast themes even if the manifest specifies compatibility with the version of Windows in question. As such, it might be necessary to insert additional code paths to handle rendering in the classic environment used in previous versions of Windows. The presence of high contrast in this case should be checked by calling the [SystemParametersInfo](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function with the SPI\_GETHIGHCONTRAST flag. This is the only supported way of checking the presence of high contrast.
+    Apps running on previous versions of Windows do not have access to the new high-contrast themes even if the manifest specifies compatibility with the version of Windows in question. As such, it might be necessary to insert additional code paths to handle rendering in the classic environment used in previous versions of Windows. The presence of high contrast in this case should be checked by calling the [SystemParametersInfo](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function with the SPI\_GETHIGHCONTRAST flag. This is the only supported way of checking the presence of high contrast.
 
 ## Tests
 
@@ -87,19 +87,15 @@ While testing an app, make sure that it renders correctly in all the in-box them
 
 ## Resources
 
--   [Aero Style Classes, Parts, and States](https://msdn.microsoft.com/library/ee453680(VS.85).aspx) (the new basic theme and high-contrast themes also use these states)
--   [Parts and States common to all visual styles](https://msdn.microsoft.com/library/bb773210(v=VS.85).aspx)
--   [Using Visual Styles with Custom and Owner-Drawn Controls](https://msdn.microsoft.com/library/dd373487(v=VS.85).aspx)
--   [GetSysColor function](https://msdn.microsoft.com/library/ms724371(v=VS.85).aspx)
+-   [Aero Style Classes, Parts, and States](../controls/aero-style-classes-parts-and-states.md) (the new basic theme and high-contrast themes also use these states)
+-   [Parts and States common to all visual styles](../controls/parts-and-states.md)
+-   [Using Visual Styles with Custom and Owner-Drawn Controls](../controls/using-visual-styles.md)
+-   [GetSysColor function](/windows/win32/api/winuser/nf-winuser-getsyscolor)
 -   [W3C CSS Color Module Level 3](https://www.w3.org/TR/css3-color/)
--   [SystemColors Class](https://msdn.microsoft.com/library/system.windows.systemcolors.aspx)
--   [SystemParametersInfo function](https://msdn.microsoft.com/library/ms724947(v=VS.85).aspx)
+-   [SystemColors Class](/dotnet/api/system.windows.systemcolors?view=netcore-3.1)
+-   [SystemParametersInfo function](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)
 -   [Microsoft Accessibility](https://www.microsoft.com/enable/)
 
  
 
  
-
-
-
-

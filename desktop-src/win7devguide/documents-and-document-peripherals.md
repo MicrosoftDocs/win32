@@ -16,7 +16,7 @@ Windows 7 supports all OPC file formats, including those from Microsoft as well
 
 Using the *Packaging*APIs in Windows 7, developers can create new package formats to accommodate application-specific data storage requirements.
 
-*X509* digital signatures are also supported by the *Packaging*APIs. Developers can use the digital signature features to sign and validate selected parts of an OPC package or the entire package. Applications can give their documents an added level of security by using digital signatures to detect when the content of an OPC-based file has been altered after the file was signed. (See [Open Packaging Conventions Overview](https://msdn.microsoft.com/library/dd742818(VS.85).aspx).)
+*X509* digital signatures are also supported by the *Packaging*APIs. Developers can use the digital signature features to sign and validate selected parts of an OPC package or the entire package. Applications can give their documents an added level of security by using digital signatures to detect when the content of an OPC-based file has been altered after the file was signed. (See [Open Packaging Conventions Overview](/previous-versions/windows/desktop/opc/open-packaging-conventions-overview).)
 
 ## XPS Documents
 
@@ -26,7 +26,7 @@ In previous versions of Windows, XPS was not supported for Microsoft Win32 devel
 
 In previous versions of Windows, access to the XPS print path from Win32 applications was limited to driver escapes. This significantly reduced the utility of the print path for developers not using managed code. For Win32 developers, the new XPS*Print*API reduces significantly the amount of work required to benefit from the advantages of the XPS print path and eliminates the need for parallel print code.
 
-Application developers can use XPS documents to share and archive content as electronic paper in a high-fidelity, efficient, and trustworthy format. Just like Windows Vista, the print path in Windows 7 is built on the XPS format to provide enhanced printing capabilities. The XPS document APIs in Windows 7 give developers the power to create, access, and manipulate XPS documents easily. (See [XPS Document Programming Guide](https://msdn.microsoft.com/library/dd372978(VS.85).aspx).)
+Application developers can use XPS documents to share and archive content as electronic paper in a high-fidelity, efficient, and trustworthy format. Just like Windows Vista, the print path in Windows 7 is built on the XPS format to provide enhanced printing capabilities. The XPS document APIs in Windows 7 give developers the power to create, access, and manipulate XPS documents easily. (See [XPS Document Programming Guide](/previous-versions//dd372978(v=vs.85)).)
 
 ![xps viewer](images/windows7-devguide-xpsviewer.jpg)
 
@@ -35,7 +35,3 @@ Windows application developers can create applications that produce XPS document
  
 
  
-
-
-
-

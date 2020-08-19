@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # Transform Control Pattern
 
-Describes guidelines and conventions for implementing [**ITransformProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itransformprovider) and [**ITransformProvider2**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itransformprovider2), including information about properties and methods. The Transform control pattern is used to support controls that can be moved, resized, or rotated within a two-dimensional space.
+Describes guidelines and conventions for implementing [**ITransformProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itransformprovider) and [**ITransformProvider2**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itransformprovider2), including information about properties and methods. The Transform control pattern is used to support controls that can be moved, resized, or rotated within a two-dimensional space.
 
 For examples of controls that implement this control pattern, see [Control Types and Their Supported Control Patterns](uiauto-controlpatternmapping.md).
 
@@ -63,8 +63,8 @@ The following additional properties and methods are required for implementing th
 
 | Required members                                              | Member type | Notes |
 |---------------------------------------------------------------|-------------|-------|
-| [**CanZoom**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-get_canzoom)     | Property    | None  |
-| [**Zoom**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-zoom)           | Method      | None  |
+| [**CanZoom**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-get_canzoom)     | Property    | None  |
+| [**Zoom**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-zoom)           | Method      | None  |
 | [**ZoomByUnit**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider2-zoombyunit)   | Method      | None  |
 | [**ZoomLevel**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider2-get_zoomlevel)     | Property    | None  |
 | [**ZoomMaximum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itransformprovider2-get_zoommaximum) | Property    | None  |
@@ -92,7 +92,3 @@ This control pattern has no associated events.
  
 
  
-
-
-
-

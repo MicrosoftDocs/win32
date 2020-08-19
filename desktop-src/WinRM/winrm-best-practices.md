@@ -22,14 +22,10 @@ When a quota is hit, the WinRM service returns an error to the client. As a resu
 
 ## Event subscriptions
 
-When using Collector-initiated subscriptions, limit the number of remote computers to 500 and isolate the [Windows Event Collector](https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector) service (wecsvc) in a separate host process.
+When using Collector-initiated subscriptions, limit the number of remote computers to 500 and isolate the [Windows Event Collector](/windows/desktop/WEC/windows-event-collector) service (wecsvc) in a separate host process.
 
 A connection error will hold a thread until it times out. A large number of simultaneous connection errors can cause thread pool exhaustion and render the server unresponsive.
 
  
 
  
-
-
-
-

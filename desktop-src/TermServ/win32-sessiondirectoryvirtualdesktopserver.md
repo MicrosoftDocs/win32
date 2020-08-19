@@ -56,7 +56,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The DNS name of the RD Virtualization Host server. This name takes the form "*MachineName*.*Domain*.com".
@@ -78,10 +78,4 @@ The DNS name of the RD Virtualization Host server. This name takes the form "*Ma
 
 
  
-
- 
-
-
-
-
 

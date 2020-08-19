@@ -22,7 +22,7 @@ Called to have the plug-in create an instance of the [**IWTSPlugin**](/windows/d
 
 > [!Note]
 >
-> This function is implemented by the plug-in and must be exported by name such that an application can use the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to the function.
+> This function is implemented by the plug-in and must be exported by name such that an application can use the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to the function.
 >
 > The prototype for this function is not contained in any public header file, so you must declare it exactly as shown.
 
@@ -82,10 +82,4 @@ If this entry point succeeds, it returns **S\_OK**. Otherwise, it returns an **H
 
 
  
-
- 
-
-
-
-
 

@@ -42,7 +42,7 @@ The following list shows the key steps in developing a service provider:
 3.  Be sure your service provider or device installs the proper registry keys during installation. These keys specify device parameters, register the service provider as a plug-in, and enable Plug and Play notifications for device arrival and removal. See [Device Parameters](device-parameters.md), [Registering the Service Provider](registering-the-service-provider.md), and [Enabling PnP for Devices](enabling-pnp-for-devices.md).
 4.  On instantiation of your class, authenticate the service provider in the constructor. To do this, create a [CSecureChannelServer](csecurechannelserver-class.md) class and set the certificate. Implement the [**IComponentAuthenticate**](/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate) interface and call the methods of the CSecureChannelServer class instantiated previously. See [Authenticating the Service Provider](authenticating-the-service-provider.md) to learn how to instantiate the CSecureChannelServer class and implement the IComponentAuthenticate methods.
 5.  Windows Media Device Manager will query your service provider for a list of connected devices by calling [**IMDServiceProvider2::CreateDevice**](/windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider2-createdevice) or [**IMDServiceProvider::EnumDevices**](/windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider-enumdevices), depending on whether the service provider handles Plug and Play devices. The service provider must return a list of [**IMDSPDevice**](/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice) objects representing connected devices. See [Enumerating Devices](enumerating-devices-service-provider.md) for more details.
-6.  Before handling any call, verify that a secure channel has been established. Call [**CSecureChannelServer::fIsAuthenticated**](https://msdn.microsoft.com/library/Ff801050(v=VS.85).aspx) before performing any actions. If this call fails, return WMDM\_E\_NOTCERTIFIED.
+6.  Before handling any call, verify that a secure channel has been established. Call [**CSecureChannelServer::fIsAuthenticated**](/previous-versions/bb231600(v=vs.85)) before performing any actions. If this call fails, return WMDM\_E\_NOTCERTIFIED.
 7.  You will need a certificate/key pair issued by Microsoft to be able to handle DRM-protected material. See [Handling Protected Content in the Service Provider](handling-protected-content-in-the-service-provider.md) for more information.
 8.  To enable your device to synchronize automatically with Windows Media Player, it must fulfill the requirements listed in [Enabling Synchronization with Windows Media Player](enabling-synchronization-with-windows-media-player.md).
 9.  To enable your device to appear in Windows Explorer, you must take a few special steps, detailed in [Requirements for Portable Audio Players to Appear in Windows Explorer](requirements-for-portable-audio-players-to-appear-in-windows-explorer.md).
@@ -57,7 +57,3 @@ The following list shows the key steps in developing a service provider:
  
 
  
-
-
-
-

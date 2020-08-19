@@ -58,7 +58,7 @@ This parameter can contain one of the following:
     
 
 -   A [**ResourceLocator**](resourcelocator.md) object.
--   A [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for [WS-Management Protocol](ws-management-protocol.md), see [Management Specifications Index Page](https://msdn.microsoft.com/library/ms951267.aspx).
+-   A [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the WS-Management protocol standard. For more information about the public specification for [WS-Management Protocol](ws-management-protocol.md), see [Management Specifications Index Page](/previous-versions/dotnet/articles/ms951267(v=msdn.10)).
 
 </dd> <dt>
 
@@ -74,7 +74,7 @@ If you have a [**ResourceLocator**](resourcelocator.md) object for the *resource
 *dialect* \[in, optional\]
 </dt> <dd>
 
-The language used by the filter. [WQL](https://docs.microsoft.com/windows/desktop/WmiSdk/wql-sql-for-wmi), a subset of SQL used by WMI, is the only language supported.
+The language used by the filter. [WQL](/windows/desktop/WmiSdk/wql-sql-for-wmi), a subset of SQL used by WMI, is the only language supported.
 
 If you have a [**ResourceLocator**](resourcelocator.md) object for the *resourceURI* parameter, then this parameter should not be used.
 
@@ -103,7 +103,7 @@ The corresponding C++ method is [**IWSManSession::Enumerate**](/windows/desktop/
 
 ## Examples
 
-The following VBScript code example enumerates the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) instances on a remote computer specified by the fully qualified domain name (servername.domain.com). Be aware that freeing the enumeration object clears pending enumeration requests. The DisplayOutput subroutine uses the Winrm command-line tool XML transform file (WsmTxt.xsl) to output the data in a tabular form.
+The following VBScript code example enumerates the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) instances on a remote computer specified by the fully qualified domain name (servername.domain.com). Be aware that freeing the enumeration object clears pending enumeration requests. The DisplayOutput subroutine uses the Winrm command-line tool XML transform file (WsmTxt.xsl) to output the data in a tabular form.
 
 
 ```VB
@@ -170,10 +170,4 @@ End Sub
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

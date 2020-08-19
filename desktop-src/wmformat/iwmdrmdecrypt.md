@@ -22,7 +22,7 @@ The **IWMDRMDecrypt** interface provides a method for decrypting content.
 
 ## Members
 
-The **IWMDRMDecrypt** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMDecrypt** also has these types of members:
+The **IWMDRMDecrypt** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMDecrypt** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -48,10 +48,4 @@ The **IWMDRMDecrypt** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

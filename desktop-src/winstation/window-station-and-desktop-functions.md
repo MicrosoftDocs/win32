@@ -14,16 +14,16 @@ Applications can use the following functions with [window station](window-statio
 
 | Function                                                     | Description                                                                                                     |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| [**CloseWindowStation**](https://msdn.microsoft.com/library/ms682047(v=VS.85).aspx)             | Closes an open window station handle.                                                                           |
-| [**CreateWindowStation**](https://msdn.microsoft.com/library/ms682496(v=VS.85).aspx)           | Creates a window station object, associates it with the current process, and assigns it to the current session. |
-| [**EnumWindowStations**](https://msdn.microsoft.com/library/ms682644(v=VS.85).aspx)             | Enumerates all window stations in the current session.                                                          |
-| [**GetProcessWindowStation**](https://msdn.microsoft.com/library/ms683225(v=VS.85).aspx)   | Retrieves a handle to the current window station for the calling process.                                       |
-| [**GetUserObjectInformation**](https://msdn.microsoft.com/library/ms683238(v=VS.85).aspx) | Retrieves information about the specified window station or desktop object.                                     |
-| [**GetUserObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getuserobjectsecurity)  | Retrieves security information for the specified window station or desktop object.                              |
-| [**OpenWindowStation**](https://msdn.microsoft.com/library/ms684339(v=VS.85).aspx)               | Opens the specified window station.                                                                             |
-| [**SetProcessWindowStation**](https://msdn.microsoft.com/library/ms686232(v=VS.85).aspx)   | Assigns the specified window station to the calling process.                                                    |
-| [**SetUserObjectInformation**](https://msdn.microsoft.com/library/ms686287(v=VS.85).aspx) | Sets information about the specified window station or desktop object.                                          |
-| [**SetUserObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity)  | Sets security information for the specified window station or desktop object.                                   |
+| [**CloseWindowStation**](/windows/win32/api/winuser/nf-winuser-closewindowstation)             | Closes an open window station handle.                                                                           |
+| [**CreateWindowStation**](/windows/win32/api/winuser/nf-winuser-createwindowstationa)           | Creates a window station object, associates it with the current process, and assigns it to the current session. |
+| [**EnumWindowStations**](/windows/win32/api/winuser/nf-winuser-enumwindowstationsa)             | Enumerates all window stations in the current session.                                                          |
+| [**GetProcessWindowStation**](/windows/win32/api/winuser/nf-winuser-getprocesswindowstation)   | Retrieves a handle to the current window station for the calling process.                                       |
+| [**GetUserObjectInformation**](/windows/win32/api/winuser/nf-winuser-getuserobjectinformationa) | Retrieves information about the specified window station or desktop object.                                     |
+| [**GetUserObjectSecurity**](/windows/desktop/api/winuser/nf-winuser-getuserobjectsecurity)  | Retrieves security information for the specified window station or desktop object.                              |
+| [**OpenWindowStation**](/windows/win32/api/winuser/nf-winuser-openwindowstationa)               | Opens the specified window station.                                                                             |
+| [**SetProcessWindowStation**](/windows/win32/api/winuser/nf-winuser-setprocesswindowstation)   | Assigns the specified window station to the calling process.                                                    |
+| [**SetUserObjectInformation**](/windows/win32/api/winuser/nf-winuser-setuserobjectinformationa) | Sets information about the specified window station or desktop object.                                          |
+| [**SetUserObjectSecurity**](/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity)  | Sets security information for the specified window station or desktop object.                                   |
 
 
 
@@ -35,20 +35,20 @@ Applications can use the following functions with [desktop](desktops.md) objects
 
 | Function                                                     | Description                                                                                                                        |
 |--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| [**CloseDesktop**](https://msdn.microsoft.com/library/ms682024(v=VS.85).aspx)                         | Closes an open handle to a desktop object.                                                                                         |
-| [**CreateDesktop**](https://msdn.microsoft.com/library/ms682124(v=VS.85).aspx)                       | Creates a new desktop, associates it with the current window station of the calling process, and assigns it to the calling thread. |
-| [**CreateDesktopEx**](https://msdn.microsoft.com/library/ms682127(v=VS.85).aspx)                   | Creates a new desktop, associates it with the current window station of the calling process, and assigns it to the calling thread. |
-| [**EnumDesktops**](https://msdn.microsoft.com/library/ms682614(v=VS.85).aspx)                         | Enumerates all desktops associated with the current window station of the calling process.                                         |
-| [**EnumDesktopWindows**](https://msdn.microsoft.com/library/ms682615(v=VS.85).aspx)             | Enumerates all top-level windows associated with the specified desktop.                                                            |
-| [**GetThreadDesktop**](https://msdn.microsoft.com/library/ms683232(v=VS.85).aspx)                 | Retrieves a handle to the desktop assigned to the specified thread.                                                                |
-| [**GetUserObjectInformation**](https://msdn.microsoft.com/library/ms683238(v=VS.85).aspx) | Gets information about a window station or desktop object.                                                                         |
-| [**GetUserObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getuserobjectsecurity)  | Gets security information for a window station or desktop object.                                                                  |
-| [**OpenDesktop**](https://msdn.microsoft.com/library/ms684303(v=VS.85).aspx)                           | Opens the specified desktop object.                                                                                                |
-| [**OpenInputDesktop**](https://msdn.microsoft.com/library/ms684309(v=VS.85).aspx)                 | Opens the desktop that receives user input.                                                                                        |
-| [**SetThreadDesktop**](https://msdn.microsoft.com/library/ms686250(v=VS.85).aspx)                 | Assigns the specified desktop to the calling thread.                                                                               |
-| [**SetUserObjectInformation**](https://msdn.microsoft.com/library/ms686287(v=VS.85).aspx) | Sets information about a window station or desktop object.                                                                         |
-| [**SetUserObjectSecurity**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity)  | Sets security information for a window station or desktop object.                                                                  |
-| [**SwitchDesktop**](https://msdn.microsoft.com/library/ms686347(v=VS.85).aspx)                       | Makes a desktop visible and activates it. This enables the desktop to receive input from the user.                                 |
+| [**CloseDesktop**](/windows/win32/api/winuser/nf-winuser-closedesktop)                         | Closes an open handle to a desktop object.                                                                                         |
+| [**CreateDesktop**](/windows/win32/api/winuser/nf-winuser-createdesktopa)                       | Creates a new desktop, associates it with the current window station of the calling process, and assigns it to the calling thread. |
+| [**CreateDesktopEx**](/windows/win32/api/winuser/nf-winuser-createdesktopexa)                   | Creates a new desktop, associates it with the current window station of the calling process, and assigns it to the calling thread. |
+| [**EnumDesktops**](/windows/win32/api/winuser/nf-winuser-enumdesktopsa)                         | Enumerates all desktops associated with the current window station of the calling process.                                         |
+| [**EnumDesktopWindows**](/windows/win32/api/winuser/nf-winuser-enumdesktopwindows)             | Enumerates all top-level windows associated with the specified desktop.                                                            |
+| [**GetThreadDesktop**](/windows/win32/api/winuser/nf-winuser-getthreaddesktop)                 | Retrieves a handle to the desktop assigned to the specified thread.                                                                |
+| [**GetUserObjectInformation**](/windows/win32/api/winuser/nf-winuser-getuserobjectinformationa) | Gets information about a window station or desktop object.                                                                         |
+| [**GetUserObjectSecurity**](/windows/desktop/api/winuser/nf-winuser-getuserobjectsecurity)  | Gets security information for a window station or desktop object.                                                                  |
+| [**OpenDesktop**](/windows/win32/api/winuser/nf-winuser-opendesktopa)                           | Opens the specified desktop object.                                                                                                |
+| [**OpenInputDesktop**](/windows/win32/api/winuser/nf-winuser-openinputdesktop)                 | Opens the desktop that receives user input.                                                                                        |
+| [**SetThreadDesktop**](/windows/win32/api/winuser/nf-winuser-setthreaddesktop)                 | Assigns the specified desktop to the calling thread.                                                                               |
+| [**SetUserObjectInformation**](/windows/win32/api/winuser/nf-winuser-setuserobjectinformationa) | Sets information about a window station or desktop object.                                                                         |
+| [**SetUserObjectSecurity**](/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity)  | Sets security information for a window station or desktop object.                                                                  |
+| [**SwitchDesktop**](/windows/win32/api/winuser/nf-winuser-switchdesktop)                       | Makes a desktop visible and activates it. This enables the desktop to receive input from the user.                                 |
 
 
 
@@ -57,7 +57,3 @@ Applications can use the following functions with [desktop](desktops.md) objects
  
 
  
-
-
-
-

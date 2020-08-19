@@ -61,7 +61,7 @@ Permanent subscriptions have greater potential to cause security problems in WMI
 
 ## Setting an Administrator-Only SD
 
-The following C++ code example creates an administrator-only security descriptor on the [**\_\_EventFilter**](--eventfilter.md) instance. This example creates the security descriptor using [Security Descriptor Definition Language](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language) (SDDL). For more information about **WBEM\_RIGHT\_SUBSCRIBE**, see [WMI Security Constants](wmi-security-constants.md).
+The following C++ code example creates an administrator-only security descriptor on the [**\_\_EventFilter**](--eventfilter.md) instance. This example creates the security descriptor using [Security Descriptor Definition Language](/windows/desktop/SecAuthZ/security-descriptor-definition-language) (SDDL). For more information about **WBEM\_RIGHT\_SUBSCRIBE**, see [WMI Security Constants](wmi-security-constants.md).
 
 
 ```C++
@@ -153,6 +153,3 @@ For cross domain situations, add Authenticated Users to the "Windows Authorizati
  
 
  
-
-
-

@@ -13,9 +13,9 @@ ms.date: 02/18/2020
 
 Describes the path to the Windows Touch samples and gives brief overviews of the samples..
 
-When you install the [Windows 7 Touch Samples](https://docs.microsoft.com/windows/win32/wintouch/windows-touch-samples?redirectedfrom=MSDN), you can choose where the samples are installed. For instance, if you are installing to the C drive, the SDK will default to "C:\\Program Files\\Microsoft SDKs\\Windows\\v7.0\\Samples". Inside the Samples directory is the Touch folder. This folder contains all of the Windows Touch samples.
+When you install the [Windows 7 Touch Samples](), you can choose where the samples are installed. For instance, if you are installing to the C drive, the SDK will default to "C:\\Program Files\\Microsoft SDKs\\Windows\\v7.0\\Samples". Inside the Samples directory is the Touch folder. This folder contains all of the Windows Touch samples.
 
-The following Windows Touch samples ship with the [Windows 7 SDK](https://docs.microsoft.com/windows/win32/wintouch/windows-touch-samples?redirectedfrom=MSDN).
+The following Windows Touch samples ship with the [Windows 7 SDK]().
 
 - [Manipulation and Inertia Sample](manipulation-and-inertia-sample.md)
 - [Windows Touch Gesture Sample (MTGestures)](windows-touch-gesture-sample--mtgestures-.md)

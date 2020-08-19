@@ -49,7 +49,7 @@ Pointer to this [**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincode
 *pIStream* \[in\]
 </dt> <dd>
 
-Type: **[IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)\***
+Type: **[IStream](/windows/desktop/api/objidl/nn-objidl-istream)\***
 
 The output stream.
 
@@ -85,9 +85,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

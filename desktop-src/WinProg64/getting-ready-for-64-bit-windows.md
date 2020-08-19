@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Getting Ready for 64-bit Windows
 
-A key goal of the 64-bit version of Windows is to make it easy for developers to use a single source-code base for their 32-bit and 64-bit applications. This overview describes how to make your source code support both 32-bit and 64-bit computing. Familiarity with existing [Windows data types](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types) will help.
+A key goal of the 64-bit version of Windows is to make it easy for developers to use a single source-code base for their 32-bit and 64-bit applications. This overview describes how to make your source code support both 32-bit and 64-bit computing. Familiarity with existing [Windows data types](/windows/desktop/WinProg/windows-data-types) will help.
 
 ## In this Section
 
@@ -27,7 +27,3 @@ A key goal of the 64-bit version of Windows is to make it easy for developers to
  
 
  
-
-
-
-

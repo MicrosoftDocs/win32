@@ -192,7 +192,7 @@ C++ constant: **SE\_TAKE\_OWNERSHIP\_NAME** string: **SeTakeOwnershipPrivilege**
 
 Scripting short name: **TakeOwnership**
 
-Required to assume ownership of files or other objects without having an [*Access Control Entry*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACE) in the *discretionary access control list* (DACL).
+Required to assume ownership of files or other objects without having an [*Access Control Entry*](/windows/desktop/SecGloss/a-gly) (ACE) in the *discretionary access control list* (DACL).
 
 
 </dt> </dl> </dd> <dt>
@@ -553,9 +553,4 @@ Required to perform volume maintenance tasks.
 </dt> </dl>
 
  
-
- 
-
-
-
 

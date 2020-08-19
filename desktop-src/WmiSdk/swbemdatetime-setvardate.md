@@ -61,7 +61,7 @@ This method does not return a value.
 
 ## Error codes
 
-After completing the **SetVarDate** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain the error code in the following list.
+After completing the **SetVarDate** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain the error code in the following list.
 
 <dl> <dt>
 
@@ -76,7 +76,7 @@ The format of *vdate* is not valid.
 
 After a successful call to **SetVarDate**, the [**DATETIME**](datetime.md) value is interpreted as an absolute datetime value instead of an interval, and the [**IsInterval**](swbemdatetime-isinterval.md) property is set to **FALSE**.
 
-The intrinsic Visual Basic or VBScript function [CDate](https://docs.microsoft.com/previous-versions//2dt118h2(v=vs.85)) provides a [**datetime**](datetime.md) value in the **VT\_DATE** format for input to **SetVarDate**.
+The intrinsic Visual Basic or VBScript function [CDate](/previous-versions//2dt118h2(v=vs.85)) provides a [**datetime**](datetime.md) value in the **VT\_DATE** format for input to **SetVarDate**.
 
 ## Examples
 
@@ -114,9 +114,4 @@ The [Convert Date to WMI Date-Time Format](https://Gallery.TechNet.Microsoft.Com
 </dt> </dl>
 
  
-
- 
-
-
-
 

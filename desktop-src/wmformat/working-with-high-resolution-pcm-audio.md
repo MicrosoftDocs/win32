@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 Some of the input formats for the Windows Media Audio 9 Professional codec and the Windows Media Audio 9 Lossless codec are high-resolution PCM formats. These are PCM formats that have more than two channels, or more than 16 bits per sample (audio with more than two channels is also called multichannel audio).
 
-These formats are configured by using a structured extension of the [**WAVEFORMATEX**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757720(v=vs.85)) structure, called [**WAVEFORMATEXTENSIBLE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757721(v=vs.85)). The **WAVEFORMATEXTENSIBLE** structure includes information about the channels included in the audio. This structure is required when using high-resolution PCM audio, because some Windows APIs will not accept **WAVEFORMATEX** structures that contain high-resolution values.
+These formats are configured by using a structured extension of the [**WAVEFORMATEX**](/previous-versions/windows/desktop/legacy/dd757720(v=vs.85)) structure, called [**WAVEFORMATEXTENSIBLE**](/previous-versions/windows/desktop/legacy/dd757721(v=vs.85)). The **WAVEFORMATEXTENSIBLE** structure includes information about the channels included in the audio. This structure is required when using high-resolution PCM audio, because some Windows APIs will not accept **WAVEFORMATEX** structures that contain high-resolution values.
 
 High-resolution PCM formats have 22 bytes of extended data, which is specified in the **cbSize** member of the **WAVEFORMATEX** structure. High-resolution Windows Media audio formats do not use the **WAVEFORMATEXTENSIBLE** structure, but do have extended data appended to the **WAVEFORMATEX** structure.
 
@@ -39,7 +39,3 @@ Multichannel audio requires more configuration. For more information, see [Readi
  
 
  
-
-
-
-

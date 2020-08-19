@@ -64,13 +64,13 @@ The [**RIO\_RQ**](riocqueue.md) typedef is defined in the *Mswsockdef.h* header 
 [**RIOReceiveEx**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceiveex)
 </dt> <dt>
 
-[**RIOResizeRequestQueue**](https://msdn.microsoft.com/library/Hh437204(v=VS.85).aspx)
+[**RIOResizeRequestQueue**](/previous-versions/windows/desktop/legacy/hh437204(v=vs.85))
 </dt> <dt>
 
 [**RIOSend**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riosend)
 </dt> <dt>
 
-[**RIOSendEx**](https://msdn.microsoft.com/library/Hh437216(v=VS.85).aspx)
+[**RIOSendEx**](/previous-versions/windows/desktop/legacy/hh437216(v=vs.85))
 </dt> <dt>
 
 [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa)
@@ -79,7 +79,3 @@ The [**RIO\_RQ**](riocqueue.md) typedef is defined in the *Mswsockdef.h* header 
  
 
  
-
-
-
-

@@ -450,7 +450,7 @@ Transitions have several usage patterns:
 
 **Attractors**
 
--   **Use attractors with restraint.** Unless the information is urgent, critical, or otherwise likely to affect the user's immediate behavior, it's usually better to change state inconspicuously and let users discover the change on their own. [Solve distractions, not discoverability](https://docs.microsoft.com/windows/desktop/uxguide/how-to-design-desktop-ux).
+-   **Use attractors with restraint.** Unless the information is urgent, critical, or otherwise likely to affect the user's immediate behavior, it's usually better to change state inconspicuously and let users discover the change on their own. [Solve distractions, not discoverability](/windows/desktop/uxguide/how-to-design-desktop-ux).
 
     ![screen shot of wireless status icons ](images/vis-animations-image45.png)
 
@@ -646,10 +646,4 @@ Examples:
 -   Use a cross-fade transition to change an object's state seamlessly.
 
  
-
- 
-
-
-
-
 

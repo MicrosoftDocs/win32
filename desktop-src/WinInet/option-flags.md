@@ -232,7 +232,7 @@ Not implemented.
 
 
 
-This flag is not supported by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona). The *lpBuffer* parameter must be a pointer to a [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) structure and not a pointer to a **CERT\_CONTEXT** pointer. If an application receives **ERROR\_INTERNET\_CLIENT\_AUTH\_CERT\_NEEDED**, it must call [**InternetErrorDlg**](/windows/desktop/api/Wininet/nf-wininet-interneterrordlg) or use [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona) to supply a certificate before retrying the request. [**CertDuplicateCertificateContext**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext) is then called so that the certificate context passed can be independently released by the application.
+This flag is not supported by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona). The *lpBuffer* parameter must be a pointer to a [**CERT\_CONTEXT**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) structure and not a pointer to a **CERT\_CONTEXT** pointer. If an application receives **ERROR\_INTERNET\_CLIENT\_AUTH\_CERT\_NEEDED**, it must call [**InternetErrorDlg**](/windows/desktop/api/Wininet/nf-wininet-interneterrordlg) or use [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona) to supply a certificate before retrying the request. [**CertDuplicateCertificateContext**](/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext) is then called so that the certificate context passed can be independently released by the application.
 
 
 </dt> </dl> </dd> <dt>
@@ -376,7 +376,7 @@ Sets or retrieves an unsigned long integer value that contains the connected sta
 
 
 
-Sets or retrieves a DWORD\_PTR that contains the address of the context value associated with this [**HINTERNET**](appendix-a-hinternet-handles.md) handle. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle. This is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) and [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona). Previously, this set the context value to the address stored in the **lpBuffer** pointer. This has been corrected so that the value stored in the buffer is used and the [INTERNET\_OPTION\_CONTEXT\_VALUE](https://docs.microsoft.com/windows) flag is assigned a new value. The old value, 10, has been preserved so that applications written for the old behavior are still supported.
+Sets or retrieves a DWORD\_PTR that contains the address of the context value associated with this [**HINTERNET**](appendix-a-hinternet-handles.md) handle. This option can be used on any [**HINTERNET**](appendix-a-hinternet-handles.md) handle. This is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) and [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona). Previously, this set the context value to the address stored in the **lpBuffer** pointer. This has been corrected so that the value stored in the buffer is used and the [INTERNET\_OPTION\_CONTEXT\_VALUE](/windows) flag is assigned a new value. The old value, 10, has been preserved so that applications written for the old behavior are still supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -389,7 +389,7 @@ Sets or retrieves a DWORD\_PTR that contains the address of the context value as
 
 
 
-Identical to [INTERNET\_OPTION\_RECEIVE\_TIMEOUT](https://docs.microsoft.com/windows). This is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) and [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona).
+Identical to [INTERNET\_OPTION\_RECEIVE\_TIMEOUT](/windows). This is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) and [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona).
 
 
 </dt> </dl> </dd> <dt>
@@ -402,7 +402,7 @@ Identical to [INTERNET\_OPTION\_RECEIVE\_TIMEOUT](https://docs.microsoft.com/win
 
 
 
-Identical to [INTERNET\_OPTION\_SEND\_TIMEOUT](https://docs.microsoft.com/windows). This is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) and [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona).
+Identical to [INTERNET\_OPTION\_SEND\_TIMEOUT](/windows). This is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) and [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona).
 
 
 </dt> </dl> </dd> <dt>
@@ -994,7 +994,7 @@ Not implemented.
 
 
 
-Opt-in for weak signatures (e.g. SHA-1) to be treated as insecure. This will instruct WinInet to call [**CertGetCertificateChain**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain) using the **CERT\_CHAIN\_OPT\_IN\_WEAK\_SIGNATURE** parameter.
+Opt-in for weak signatures (e.g. SHA-1) to be treated as insecure. This will instruct WinInet to call [**CertGetCertificateChain**](/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain) using the **CERT\_CHAIN\_OPT\_IN\_WEAK\_SIGNATURE** parameter.
 
 
 </dt> </dl> </dd> <dt>
@@ -1197,7 +1197,7 @@ Not implemented.
 
 
 
-Retrieves an unsigned long integer value that contains the special status flags that indicate the status of the download in progress. This is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona). The [INTERNET\_OPTION\_REQUEST\_FLAGS](https://docs.microsoft.com/windows) option can be one of the following values:
+Retrieves an unsigned long integer value that contains the special status flags that indicate the status of the download in progress. This is used by [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona). The [INTERNET\_OPTION\_REQUEST\_FLAGS](/windows) option can be one of the following values:
 
 <dl> <dt>
 
@@ -1348,7 +1348,7 @@ Retrieves an unsigned long integer value that contains the security flags for a 
 
 0x20000000
 
-Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_STRONG](https://docs.microsoft.com/windows). This is only returned in a call to [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona).
+Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_STRONG](/windows). This is only returned in a call to [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona).
 
 </dd> <dt>
 
@@ -1357,7 +1357,7 @@ Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_STRONG](https://docs
 
 0x10000000
 
-Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_WEAK](https://docs.microsoft.com/windows). This is only returned in a call to [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona).
+Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_WEAK](/windows). This is only returned in a call to [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona).
 
 </dd> <dt>
 
@@ -1366,7 +1366,7 @@ Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_WEAK](https://docs.m
 
 0x40000000
 
-Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_MEDIUM](https://docs.microsoft.com/windows). This is only returned in a call to [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona).
+Identical to the preferred value [SECURITY\_FLAG\_STRENGTH\_MEDIUM](/windows). This is only returned in a call to [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona).
 
 </dd> <dt>
 
@@ -1465,7 +1465,7 @@ Ignores incorrect usage problems.
 
 0x10000000
 
-Identical to the value [SECURITY\_FLAG\_STRENGTH\_WEAK](https://docs.microsoft.com/windows). This is only returned in a call to [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona).
+Identical to the value [SECURITY\_FLAG\_STRENGTH\_WEAK](/windows). This is only returned in a call to [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona).
 
 </dd> <dt>
 
@@ -1603,7 +1603,7 @@ When used in reference to an FTP transaction, this option refers to the control 
 
 
 
-Retrieves the server s certificate-chain context as a duplicated [PCCERT\_CHAIN\_CONTEXT](https://msdn.microsoft.com/library/aa377182.aspx). You may pass this duplicated context to any Crypto API function which takes a [PCCERT\_CHAIN\_CONTEXT](https://msdn.microsoft.com/library/aa377182.aspx). You must call [**CertFreeCertificateChain**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechain) on the returned [PCCERT\_CHAIN\_CONTEXT](https://msdn.microsoft.com/library/aa377182.aspx) when you are done with the certificate-chain context.
+Retrieves the server s certificate-chain context as a duplicated [PCCERT\_CHAIN\_CONTEXT](/windows/win32/api/wincrypt/ns-wincrypt-cert_chain_context). You may pass this duplicated context to any Crypto API function which takes a [PCCERT\_CHAIN\_CONTEXT](/windows/win32/api/wincrypt/ns-wincrypt-cert_chain_context). You must call [**CertFreeCertificateChain**](/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechain) on the returned [PCCERT\_CHAIN\_CONTEXT](/windows/win32/api/wincrypt/ns-wincrypt-cert_chain_context) when you are done with the certificate-chain context.
 
 **Version:** Requires Internet Explorer 8.0.
 
@@ -1783,7 +1783,7 @@ Sets or retrieves an unsigned long integer value that contains the size, in byte
 ## Remarks
 
 > [!Note]  
-> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 
@@ -1800,10 +1800,4 @@ Sets or retrieves an unsigned long integer value that contains the size, in byte
 
 
  
-
- 
-
-
-
-
 

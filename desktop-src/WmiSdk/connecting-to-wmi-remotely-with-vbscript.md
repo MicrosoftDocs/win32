@@ -68,7 +68,7 @@ Once you have made your connection, you can continue to access WMI data. For mor
 
 For a larger VBScript sample, see the Examples section in the [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md) reference page.
 
-The following VBScript code example connects to a group of remote computers in the same domain by creating an array of remote computer names and then displaying names of the Plug and Play devices—instances of [**Win32\_PnPEntity**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-pnpentity)—on each computer. To run the script below, you must be an administrator on the remote computers. Note that the "\\\\" required before the remote computer name is added by the script following the impersonation level setting. For more information about WMI paths, see [Describing the Location of a WMI Object](describing-the-location-of-a-wmi-object.md).
+The following VBScript code example connects to a group of remote computers in the same domain by creating an array of remote computer names and then displaying names of the Plug and Play devices—instances of [**Win32\_PnPEntity**](/windows/desktop/CIMWin32Prov/win32-pnpentity)—on each computer. To run the script below, you must be an administrator on the remote computers. Note that the "\\\\" required before the remote computer name is added by the script following the impersonation level setting. For more information about WMI paths, see [Describing the Location of a WMI Object](describing-the-location-of-a-wmi-object.md).
 
 
 ```VB
@@ -135,6 +135,3 @@ Next
  
 
  
-
-
-

@@ -29,7 +29,7 @@ The following procedure describes how to request a partial-instance update using
 
     
 
-2.  Set up a hash table listing the names of the properties to be updated, and use this hash table in a call to [Set-WmiInstance](https://technet.microsoft.com/library/hh849833.aspx).
+2.  Set up a hash table listing the names of the properties to be updated, and use this hash table in a call to [Set-WmiInstance](/powershell/module/microsoft.powershell.management/set-wmiinstance?view=powershell-5.1).
 
     ```PowerShell
     $newDriveName = @{VolumeName = "OSDisk"}
@@ -47,7 +47,7 @@ The following procedure describes how to request a partial-instance update using
 
 **To request a partial-instance update using C#**
 
-1.  Create a new [ManagementObject](https://docs.microsoft.com/dotnet/api/system.management.managementobject?redirectedfrom=MSDN) object that represents the specific instance to update.
+1.  Create a new [ManagementObject](/dotnet/api/system.management.managementobject) object that represents the specific instance to update.
 
     ```PowerShell
     using System.Management;
@@ -57,7 +57,7 @@ The following procedure describes how to request a partial-instance update using
 
     
 
-2.  Set the property value with a call to [ManagementObject.SetPropertyValue](https://docs.microsoft.com/dotnet/api/system.management.managementbaseobject.setpropertyvalue?redirectedfrom=MSDN#System_Management_ManagementBaseObject_SetPropertyValue_System_String_System_Object_).
+2.  Set the property value with a call to [ManagementObject.SetPropertyValue](/dotnet/api/system.management.managementbaseobject.setpropertyvalue#System_Management_ManagementBaseObject_SetPropertyValue_System_String_System_Object_).
 
     ```CSharp
     myDisk.SetPropertyValue("VolumeName", "OSDisk");
@@ -109,7 +109,7 @@ The following procedure describes how to request a partial-instance update using
 
 **To request a partial-instance update using C++**
 
-1.  Create an [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) object with a call to [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx).
+1.  Create an [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) object with a call to [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance).
 
     A context object is an object that WMI uses to pass in more information to a WMI provider. In this case, you are using the [**IWbemContext**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) object to instruct the provider to accept partial-instance updates.
 
@@ -137,7 +137,7 @@ The following procedure describes how to request a partial-instance update using
     | Named value                   | Description                                                                                                                                                                                                                                   |
     |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | "\_\_PUT\_EXT\_STRICT\_NULLS" | **VT\_BOOL** set to **VARIANT\_TRUE**. Indicates that the client has intentionally set properties to **VT\_NULL** and expects the write operation to succeed. If the provider cannot set the values to **NULL**, an error should be reported. |
-    | "\_\_PUT\_EXT\_PROPERTIES"    | [**SAFEARRAY**](https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray) of strings containing a list of property names to be updated. May be used alone or in combination with "\_\_PUT\_EXT\_PROPERTIES". The values are in the instance being written.                           |
+    | "\_\_PUT\_EXT\_PROPERTIES"    | [**SAFEARRAY**](/windows/win32/api/oaidl/ns-oaidl-safearray) of strings containing a list of property names to be updated. May be used alone or in combination with "\_\_PUT\_EXT\_PROPERTIES". The values are in the instance being written.                           |
     | "\_\_PUT\_EXT\_ATOMIC"        | **VT\_BOOL** set to **VARIANT\_TRUE**. Indicates that all updates must succeed simultaneously (atomic semantics) or the provider must revert back. There can be no partial success. May be used alone or in combination with other flags.     |
 
     
@@ -154,6 +154,3 @@ The following procedure describes how to request a partial-instance update using
  
 
  
-
-
-

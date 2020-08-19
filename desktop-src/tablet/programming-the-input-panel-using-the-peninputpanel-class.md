@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Programming the Input Panel Using the PenInputPanel Class
 
-\[[**PenInputPanel**](peninputpanel-class.md) has been replaced by [Microsoft.Ink.TextInput](https://msdn.microsoft.com/library/ms581554(v=VS.100).aspx). Please refer to [Programming the Text Input Panel](programming-the-text-input-panel.md).\]
+\[[**PenInputPanel**](peninputpanel-class.md) has been replaced by [Microsoft.Ink.TextInput](/previous-versions/ms581554(v=vs.100)). Please refer to [Programming the Text Input Panel](programming-the-text-input-panel.md).\]
 
 Description of using the [**PenInputPanel**](peninputpanel-class.md) object to program the system-level Tablet PC Input Panel.
 
@@ -30,7 +30,7 @@ There may be cases where you want to disable Input Panel. There are two ways to 
 
 ### Disabling Input Panel Programmatically
 
-To disable Input Panel programmatically, instantiate the [**PenInputPanel**](peninputpanel-class.md) and set its [**AutoShow**](https://msdn.microsoft.com/library/ms703289(v=VS.85).aspx) property to **False**.
+To disable Input Panel programmatically, instantiate the [**PenInputPanel**](peninputpanel-class.md) and set its [**AutoShow**](/windows/win32/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_autoshow) property to **False**.
 
 
 ```C++
@@ -54,7 +54,7 @@ theInputPanel.AutoShow = false;
 
 
 
-To disable Input Panel for multiple controls in a single application, either instantiate a [**PenInputPanel**](peninputpanel-class.md) object for each control and set the [**AutoShow**](https://msdn.microsoft.com/library/ms703289(v=VS.85).aspx)property to **False** for each or instantiate a single **PenInputPanel** and move it from control to control as input focus changes. For more information about these two techniques, see the [PenInputPanel Sample](peninputpanel-sample.md) topic.
+To disable Input Panel for multiple controls in a single application, either instantiate a [**PenInputPanel**](peninputpanel-class.md) object for each control and set the [**AutoShow**](/windows/win32/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_autoshow)property to **False** for each or instantiate a single **PenInputPanel** and move it from control to control as input focus changes. For more information about these two techniques, see the [PenInputPanel Sample](peninputpanel-sample.md) topic.
 
 ### Disabling Input Panel Through the Registry
 
@@ -75,10 +75,10 @@ If you still see a problem in your application after you disable the Input Panel
 
 In order to use an API on a Web page, it must function in a partial trust environment. All [**PenInputPanel**](peninputpanel-class.md) class members require full trust except the following:
 
--   [PenInputPanel Constructors](https://msdn.microsoft.com/library/ms571341(v=VS.90).aspx) (managed code only)
--   [Dispose Method](https://msdn.microsoft.com/library/ms571343(v=VS.90).aspx) (managed code only)
--   [AttachedEditControl Property](https://msdn.microsoft.com/library/ms582239(v=VS.90).aspx) (managed code only)
--   [**AutoShow Property**](https://msdn.microsoft.com/library/ms703289(v=VS.85).aspx)
+-   [PenInputPanel Constructors](/previous-versions/dotnet/netframework-3.5/ms571341(v=vs.90)) (managed code only)
+-   [Dispose Method](/previous-versions/dotnet/netframework-3.5/ms571343(v=vs.90)) (managed code only)
+-   [AttachedEditControl Property](/previous-versions/ms582239(v=vs.100)) (managed code only)
+-   [**AutoShow Property**](/windows/win32/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_autoshow)
 
 These APIs function in a partial trust environment, such as a Web page, enabling you to instantiate a [**PenInputPanel**](peninputpanel-class.md) object, attach it to a control, and disable Input Panel for that control. For more information, see Programming the Input Panel Using the PenInputPanel Class and [Ink on the Web](ink-on-the-web.md).
 
@@ -97,6 +97,3 @@ The following sections describe the [**PenInputPanel**](peninputpanel-class.md) 
  
 
  
-
-
-

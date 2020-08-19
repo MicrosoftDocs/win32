@@ -60,12 +60,9 @@ Do not design code that calls the Windows Mail UI API, since it will not work. Y
 
 <dl>
 
-[Application Compatibility Toolkit Download](https://docs.microsoft.com/windows-hardware/get-started/adk-install)  
+[Application Compatibility Toolkit Download](/windows-hardware/get-started/adk-install)  
 </dl>
 
  
 
  
-
-
-

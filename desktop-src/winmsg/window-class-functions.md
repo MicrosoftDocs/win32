@@ -8,26 +8,23 @@ ms.date: 05/31/2018
 
 # Window Class Functions
 
--   [**GetClassInfo**](https://msdn.microsoft.com/library/ms633578(v=VS.85).aspx)
--   [**GetClassInfoEx**](https://msdn.microsoft.com/library/ms633579(v=VS.85).aspx)
--   [**GetClassLong**](https://msdn.microsoft.com/library/ms633580(v=VS.85).aspx)
--   [**GetClassLongPtr**](https://msdn.microsoft.com/library/ms633581(v=VS.85).aspx)
--   [**GetClassName**](https://msdn.microsoft.com/library/ms633582(v=VS.85).aspx)
--   [**GetClassWord**](https://msdn.microsoft.com/library/ms633583(v=VS.85).aspx)
--   [**GetWindowLong**](https://msdn.microsoft.com/library/ms633584(v=VS.85).aspx)
--   [**GetWindowLongPtr**](https://msdn.microsoft.com/library/ms633585(v=VS.85).aspx)
--   [**RegisterClass**](https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx)
--   [**RegisterClassEx**](https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx)
--   [**SetClassLong**](https://msdn.microsoft.com/library/ms633588(v=VS.85).aspx)
--   [**SetClassLongPtr**](https://msdn.microsoft.com/library/ms633589(v=VS.85).aspx)
--   [**SetClassWord**](https://msdn.microsoft.com/library/ms633590(v=VS.85).aspx)
--   [**SetWindowLong**](https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx)
--   [**SetWindowLongPtr**](https://msdn.microsoft.com/library/ms644898(v=VS.85).aspx)
--   [**UnregisterClass**](https://msdn.microsoft.com/library/ms644899(v=VS.85).aspx)
+-   [**GetClassInfo**](/windows/win32/api/winuser/nf-winuser-getclassinfoa)
+-   [**GetClassInfoEx**](/windows/win32/api/winuser/nf-winuser-getclassinfoexa)
+-   [**GetClassLong**](/windows/win32/api/winuser/nf-winuser-getclasslonga)
+-   [**GetClassLongPtr**](/windows/win32/api/winuser/nf-winuser-getclasslongptra)
+-   [**GetClassName**](/windows/win32/api/winuser/nf-winuser-getclassname)
+-   [**GetClassWord**](/windows/win32/api/winuser/nf-winuser-getclassword)
+-   [**GetWindowLong**](/windows/win32/api/winuser/nf-winuser-getwindowlonga)
+-   [**GetWindowLongPtr**](/windows/win32/api/winuser/nf-winuser-getwindowlongptra)
+-   [**RegisterClass**](/windows/win32/api/winuser/nf-winuser-registerclassa)
+-   [**RegisterClassEx**](/windows/win32/api/winuser/nf-winuser-registerclassexa)
+-   [**SetClassLong**](/windows/win32/api/winuser/nf-winuser-setclasslonga)
+-   [**SetClassLongPtr**](/windows/win32/api/winuser/nf-winuser-setclasslongptra)
+-   [**SetClassWord**](/windows/win32/api/winuser/nf-winuser-setclassword)
+-   [**SetWindowLong**](/windows/win32/api/winuser/nf-winuser-setwindowlonga)
+-   [**SetWindowLongPtr**](/windows/win32/api/winuser/nf-winuser-setwindowlongptra)
+-   [**UnregisterClass**](/windows/win32/api/winuser/nf-winuser-unregisterclassa)
 
  
 
  
-
-
-

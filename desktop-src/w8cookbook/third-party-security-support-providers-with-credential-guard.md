@@ -17,7 +17,7 @@ Credential Guard does not allow 3rd party SSPs to ask for password hashes from L
 
 As the depth and breadth of protections provided by Credential Guard are increased, subsequent releases of Windows 10 with Credential Guard running may impact scenarios that were working in the past. For example, Credential Guard may block the use of a particular type of credential or a particular component to prevent malware from taking advantage of vulnerabilities. Therefore, we recommend that scenarios required for operations in an organization are tested before upgrading a device that has Credential Guard running.
 
-Please refer to [this article](https://technet.microsoft.com/itpro/windows/keep-secure/credential-guard) for the full description and recommended mitigations.
+Please refer to [this article](/windows/security/identity-protection/credential-guard/credential-guard) for the full description and recommended mitigations.
 
  
 

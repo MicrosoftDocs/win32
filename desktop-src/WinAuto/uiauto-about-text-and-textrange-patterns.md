@@ -29,7 +29,7 @@ ms.date: 05/31/2018
 The textual content of a control is exposed by using the [Text](uiauto-implementingtextandtextrange.md) control pattern, which represents the contents of a text container as a text stream. The Text control pattern requires the support of the TextRange control pattern to expose format and style attributes. The TextRange control pattern supports the Text control pattern by representing contiguous or multiple, disjoint text spans (or ranges) in a text container with a collection of start and end endpoints. The TextRange control pattern supports functionality such as selection, comparison, retrieval and traversal.
 
 > [!Note]  
-> The [Text](uiauto-implementingtextandtextrange.md) control pattern does not provide a means to insert or modify text. However, depending on the control, this may be accomplished by using the Microsoft UI Automation [Value](uiauto-implementingvalue.md) control pattern or through direct keyboard input. There's also a [**TextEdit**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itexteditprovider) pattern that supports programmatic change to text.
+> The [Text](uiauto-implementingtextandtextrange.md) control pattern does not provide a means to insert or modify text. However, depending on the control, this may be accomplished by using the Microsoft UI Automation [Value](uiauto-implementingvalue.md) control pattern or through direct keyboard input. There's also a [**TextEdit**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itexteditprovider) pattern that supports programmatic change to text.
 
  
 
@@ -55,7 +55,7 @@ TSF was designed for applications that need to inject input into context-aware s
 
 Accessible technologies that require read-only access to a text store can use the Text control pattern, but will need the functionality of TSF for context-aware input.
 
-For more information, see [Text Services Framework](https://docs.microsoft.com/windows/desktop/TSF/text-services-framework).
+For more information, see [Text Services Framework](/windows/desktop/TSF/text-services-framework).
 
 ## Control Types
 
@@ -124,13 +124,9 @@ If possible, a provider should ensure that any text changes, such as deletions, 
 **Other Resources**
 </dt> <dt>
 
-[Text Services Framework](https://docs.microsoft.com/windows/desktop/TSF/text-services-framework)
+[Text Services Framework](/windows/desktop/TSF/text-services-framework)
 </dt> </dl>
 
  
 
  
-
-
-
-

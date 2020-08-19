@@ -14,7 +14,7 @@ Sample rate conversions follow these rules:
 
 -   Voice input sample rate is fixed.
 
-    Voices can only handle the input sample rate specified when they were created. For [**mastering voices**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2masteringvoice) and [**submix voices**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2submixvoice), the input sample rate is specified with the *InputSampleRate* argument to the [**IXAudio2::CreateMasteringVoice**](https://msdn.microsoft.com/library/Hh405048(v=VS.85).aspx) and [**IXAudio2::CreateSubmixVoice**](https://msdn.microsoft.com/library/Ee418608(v=VS.85).aspx) functions. For source voices, the input sample rate of the voice is specified by the pSourceFormat argument to the [**IXAudio2::CreateSourceVoice**](https://msdn.microsoft.com/library/Ee418607(v=VS.85).aspx) function.
+    Voices can only handle the input sample rate specified when they were created. For [**mastering voices**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2masteringvoice) and [**submix voices**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2submixvoice), the input sample rate is specified with the *InputSampleRate* argument to the [**IXAudio2::CreateMasteringVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice) and [**IXAudio2::CreateSubmixVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createsubmixvoice) functions. For source voices, the input sample rate of the voice is specified by the pSourceFormat argument to the [**IXAudio2::CreateSourceVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice) function.
 
 -   All of a voice's output voices must have the same input sample rate.
 
@@ -53,6 +53,3 @@ Voices have different sample input rates and require more submix voices to perfo
  
 
  
-
-
-

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 A Remote Desktop Services server has multiple namespaces for the following named kernel objects: events, semaphores, mutexes, waitable timers, file-mapping objects, and job objects. There is a global namespace used primarily by services in client/server applications. In addition, each client session has a separate namespace for these objects, such as in Windows Vista.
 
-The separate client session namespaces enable multiple clients to run the same applications without interfering with each other. For processes started under a client session, the system uses the session namespace by default. However, these processes can use the global namespace by prepending the "Global\\" prefix to the object name. For example, the following code calls [**CreateEvent**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa) and creates an event object named CSAPP in the global namespace:
+The separate client session namespaces enable multiple clients to run the same applications without interfering with each other. For processes started under a client session, the system uses the session namespace by default. However, these processes can use the global namespace by prepending the "Global\\" prefix to the object name. For example, the following code calls [**CreateEvent**](/windows/desktop/api/synchapi/nf-synchapi-createeventa) and creates an event object named CSAPP in the global namespace:
 
 > [!Note]  
 > The global namespace is not available for Windows Store apps.
@@ -34,12 +34,8 @@ The "Session\\" prefix is reserved for system use and you should not use it in n
 
 Fast user switching is implemented by using Remote Desktop Services sessions. The first user to log on uses session one, the next user to log on uses session two, and so on. Kernel object names must follow the guidelines outlined for Remote Desktop Services so that applications can support multiple users.
 
-The creation of a file-mapping object in the global namespace, by using [**CreateFileMapping**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga), from a session other than session zero is a privileged operation. Because of this, an application running in an arbitrary Remote Desktop Session Host (RD Session Host) server session must have [SeCreateGlobalPrivilege](https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants) enabled in order to create a file-mapping object in the global namespace successfully. The privilege check is limited to the creation of file-mapping objects, and does not apply to opening existing ones. For example, if a service or the system creates a file-mapping object, any process running in any session can access that file-mapping object provided that the user has the necessary access.
+The creation of a file-mapping object in the global namespace, by using [**CreateFileMapping**](/windows/desktop/api/winbase/nf-winbase-createfilemappinga), from a session other than session zero is a privileged operation. Because of this, an application running in an arbitrary Remote Desktop Session Host (RD Session Host) server session must have [SeCreateGlobalPrivilege](/windows/desktop/SecAuthZ/authorization-constants) enabled in order to create a file-mapping object in the global namespace successfully. The privilege check is limited to the creation of file-mapping objects, and does not apply to opening existing ones. For example, if a service or the system creates a file-mapping object, any process running in any session can access that file-mapping object provided that the user has the necessary access.
 
  
 
  
-
-
-
-

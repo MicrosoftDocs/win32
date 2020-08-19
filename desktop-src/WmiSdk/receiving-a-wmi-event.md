@@ -29,11 +29,11 @@ The following sections are discussed in this topic:
 
 You can create a [semisynchronous](receiving-synchronous-and-semisynchronous-event-notifications.md) or [**asynchronous**](receiving-asynchronous-event-notifications.md) query to monitor changes to event logs, process creation, service status, computer availability or disk drive free space, and other entities or events. In scripting, the [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) method is used to subscribe to events. In C++, [**IWbemServices::ExecNotificationQuery**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery) is used. For more information, see [Calling a Method](calling-a-method.md).
 
-Notification of a change in the standard WMI data model is called an [*intrinsic event*](gloss-i.md). [**\_\_InstanceCreationEvent**](--instancecreationevent.md) or [**\_\_NamespaceDeletionEvent**](--namespacedeletionevent.md) are examples of intrinsic events. Notification of a change that a provider makes to define a provider event is called an [*extrinsic event*](gloss-e.md). For example, the [System Registry Provider](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/system-registry-provider), [Power Management Event Provider](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/power-management-event-provider), and [Win32 Provider](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-provider) define their own events. For more information, see [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md).
+Notification of a change in the standard WMI data model is called an [*intrinsic event*](gloss-i.md). [**\_\_InstanceCreationEvent**](--instancecreationevent.md) or [**\_\_NamespaceDeletionEvent**](--namespacedeletionevent.md) are examples of intrinsic events. Notification of a change that a provider makes to define a provider event is called an [*extrinsic event*](gloss-e.md). For example, the [System Registry Provider](/previous-versions/windows/desktop/regprov/system-registry-provider), [Power Management Event Provider](/windows/desktop/CIMWin32Prov/power-management-event-provider), and [Win32 Provider](/windows/desktop/CIMWin32Prov/win32-provider) define their own events. For more information, see [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md).
 
 ## Example
 
-The following script code example is a query for the intrinsic [**\_\_InstanceCreationEvent**](--instancecreationevent.md) of the event class [**Win32\_NTLogEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent). You can run this program in the background and when there is an event, a message appears. If you close the **Waiting for events** dialog box, the program stops waiting for events. Be aware that the **SeSecurityPrivilege** must be enabled.
+The following script code example is a query for the intrinsic [**\_\_InstanceCreationEvent**](--instancecreationevent.md) of the event class [**Win32\_NTLogEvent**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent). You can run this program in the background and when there is an event, a message appears. If you close the **Waiting for events** dialog box, the program stops waiting for events. Be aware that the **SeSecurityPrivilege** must be enabled.
 
 
 ```VB
@@ -77,7 +77,7 @@ Register-WmiEvent -Source Demo1 -Query $query -Action {
 
 
 
-The following VBScript code example shows the extrinsic event [\_\_RegistryValueChangeEvent](registering-for-system-registry-events.md) that the registry provider defines. The script creates a temporary consumer by using the call to [**SWbemServices.ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md), and only receives events when the script is running. The following script runs indefinitely until the computer is rebooted, WMI is stopped, or the script is stopped. To stop the script manually, use Task Manager to stop the process. To stop it programmatically, use the [**Terminate**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/terminate-method-in-class-win32-process) method in the Win32\_Process class. For more information, see [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md).
+The following VBScript code example shows the extrinsic event [\_\_RegistryValueChangeEvent](registering-for-system-registry-events.md) that the registry provider defines. The script creates a temporary consumer by using the call to [**SWbemServices.ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md), and only receives events when the script is running. The following script runs indefinitely until the computer is rebooted, WMI is stopped, or the script is stopped. To stop the script manually, use Task Manager to stop the process. To stop it programmatically, use the [**Terminate**](/windows/desktop/CIMWin32Prov/terminate-method-in-class-win32-process) method in the Win32\_Process class. For more information, see [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md).
 
 
 ```VB
@@ -172,9 +172,4 @@ An administrator or a user with **FULL\_WRITE** permission in the namespace can 
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -70,7 +70,7 @@ This method can return one of these values.
 
 ## Remarks
 
-The application must use [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) to free the memory allocated for the *ppKeyType* and *ppKeyData* parameters.
+The application must use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) to free the memory allocated for the *ppKeyType* and *ppKeyData* parameters.
 
 ## Requirements
 
@@ -93,9 +93,4 @@ The application must use [**SysFreeString**](https://msdn.microsoft.com/library/
 </dt> </dl>
 
  
-
- 
-
-
-
 

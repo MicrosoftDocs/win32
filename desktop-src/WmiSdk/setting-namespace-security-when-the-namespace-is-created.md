@@ -9,11 +9,11 @@ ms.date: 05/31/2018
 
 # Setting security on namespace creation
 
-The Managed Object Format (MOF) file that creates a namespace can also define the [*security descriptors*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) for the namespace by including the **NamespaceSecuritySDDL** qualifier with the security descriptor in [security descriptor definition language (SDDL)](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language) format.
+The Managed Object Format (MOF) file that creates a namespace can also define the [*security descriptors*](/windows/desktop/SecGloss/s-gly) for the namespace by including the **NamespaceSecuritySDDL** qualifier with the security descriptor in [security descriptor definition language (SDDL)](/windows/desktop/SecAuthZ/security-descriptor-definition-language) format.
 
 You can use **NamespaceSecuritySDDL** to secure any namespace. You can also use this qualifier in a simple MOF file to alter the security descriptor on an existing namespace. The SDDL string is processed by WMI to establish the namespace security but is not stored as a string. If no security descriptor is specified, the default security is used. For more information, see [Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md).
 
-The following procedure sets the security descriptor for the *root\\MyNamespace* namespace. The SDDL string sets the owner and group to authenticated users and specifies a [*discretionary access control list (DACL)*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) that is inherited by child namespaces. The DACL allows the user the right to read data, execute methods, write data to provider classes and use remote access: **WBEM\_ENABLE**, **WBEM\_METHOD\_EXECUTE**, **WBEM\_WRITE\_PROVIDER**, **WBEM\_REMOTE\_ACCESS**. For more information, see [Access to WMI Namespaces](access-to-wmi-namespaces.md).
+The following procedure sets the security descriptor for the *root\\MyNamespace* namespace. The SDDL string sets the owner and group to authenticated users and specifies a [*discretionary access control list (DACL)*](/windows/desktop/SecGloss/d-gly) that is inherited by child namespaces. The DACL allows the user the right to read data, execute methods, write data to provider classes and use remote access: **WBEM\_ENABLE**, **WBEM\_METHOD\_EXECUTE**, **WBEM\_WRITE\_PROVIDER**, **WBEM\_REMOTE\_ACCESS**. For more information, see [Access to WMI Namespaces](access-to-wmi-namespaces.md).
 
 **To set a namespace DACL**
 
@@ -87,6 +87,3 @@ The following procedure sets the security descriptor for the *root\\MyNamespace*
  
 
  
-
-
-

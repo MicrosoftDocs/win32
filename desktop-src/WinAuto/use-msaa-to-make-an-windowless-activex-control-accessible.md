@@ -16,7 +16,7 @@ Describes how to use the Microsoft Active Accessibility API to ensure that your 
 
 ### Technologies
 
--   [ActiveX Controls](https://docs.microsoft.com/windows/desktop/com/activex-controls)
+-   [ActiveX Controls](/windows/desktop/com/activex-controls)
 -   [Microsoft Active Accessibility](microsoft-active-accessibility.md)
 
 ### Prerequisites
@@ -34,9 +34,9 @@ To make your windowless ActiveX control accessible, you must implement the Micro
 
 ### Step 2: Implement the IServiceProvider interface.
 
-When a client requests accessibility information about your windowless control, the container calls your control's [**IServiceProvider::QueryService**](https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx) method to retrieve the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface pointer.
+When a client requests accessibility information about your windowless control, the container calls your control's [**IServiceProvider::QueryService**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)) method to retrieve the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface pointer.
 
-This example shows how to implement the [**QueryService**](https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx) method.
+This example shows how to implement the [**QueryService**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)) method.
 
 
 ```C++
@@ -63,7 +63,7 @@ STDMETHODIMP CMyAccessibleMSAAControl::QueryService(REFGUID guidService,
 
 ### Step 3: Delegate IAccessible::get\_accParent method calls to the control site's IAccessibleWindowlessSite::GetParentAccessible method.
 
-When a client requests the parent object of your windowless control, the container calls your control's [**IAccessible::get\_accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent) method. Your **get\_accParent** implementation should delegate to the [**IAccessibleWindowlessSite::GetParentAccessible**](https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-getparentaccessible) method of the container.
+When a client requests the parent object of your windowless control, the container calls your control's [**IAccessible::get\_accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent) method. Your **get\_accParent** implementation should delegate to the [**IAccessibleWindowlessSite::GetParentAccessible**](/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-getparentaccessible) method of the container.
 
 This example shows how to implement the [**get\_accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent) method.
 
@@ -99,7 +99,7 @@ HRESULT CMyAccessibleMSAAControl::get_accParent(IDispatch **ppdispParent)
 
 ### Step 4: Acquire a range of object IDs to assign to the event sources in your windowless control.
 
-Like window-based controls, a windowless ActiveX control calls the [**NotifyWinEvent**](/windows/desktop/api/Winuser/nf-winuser-notifywinevent) function to notify clients of important events. The function parameters include the object ID of the item that is raising the event. Your windowless control must assign object IDs by using a value from a range acquired by calling the control site’s [**IAccessibleWindowlessSite::AcquireObjectIdRange**](https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-acquireobjectidrange) method.
+Like window-based controls, a windowless ActiveX control calls the [**NotifyWinEvent**](/windows/desktop/api/Winuser/nf-winuser-notifywinevent) function to notify clients of important events. The function parameters include the object ID of the item that is raising the event. Your windowless control must assign object IDs by using a value from a range acquired by calling the control site’s [**IAccessibleWindowlessSite::AcquireObjectIdRange**](/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-acquireobjectidrange) method.
 
 This example shows how to acquire a range of object ID values from the control container.
 
@@ -141,7 +141,3 @@ If a client application responds to the event, the control container receives a 
  
 
  
-
-
-
-

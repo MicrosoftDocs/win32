@@ -65,13 +65,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IAsyncAction**](https://msdn.microsoft.com/library/BR205781(v=VS.85).aspx)
+[**IAsyncAction**](/windows/win32/api/windows.foundation/nn-windows-foundation-iasyncaction)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -65,7 +65,7 @@ The WIA 2.0 run-time system represents each WIA 2.0 hardware device as a hierarc
 
 If the folder is not empty, it contains a subtree of [**IWiaItem2**](-wia-iwiaitem2.md) objects. The **IWiaItem2::EnumChildItems** method enumerates all of the items contained in the folder. It stores a pointer to an enumerator in the *ppIEnumWiaItem2* parameter. Applications use the enumerator pointer to perform the enumeration of an object's child items.
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointers they receive through the *ppIEnumWiaItem2* parameter.
+Applications must call the [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method on the interface pointers they receive through the *ppIEnumWiaItem2* parameter.
 
 ## Requirements
 
@@ -83,7 +83,3 @@ Applications must call the [IUnknown::Release](https://msdn.microsoft.com/librar
  
 
  
-
-
-
-

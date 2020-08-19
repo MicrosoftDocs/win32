@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.SimpleRating Photo Metadata Policy
 
-The photo metadata policy for the [System.SimpleRating](https://msdn.microsoft.com/library/bb787564(VS.85).aspx) property.
+The photo metadata policy for the [System.SimpleRating](../properties/props-system-simplerating.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.SimpleRating](https://msdn.microsoft.com/library/bb787564(VS.85).aspx)
+[System.SimpleRating](../properties/props-system-simplerating.md)
 </dt> </dl>
 
  
 
  
-
-
-

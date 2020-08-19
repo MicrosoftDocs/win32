@@ -156,7 +156,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Unique identifier of this instance of the class.
@@ -187,7 +187,7 @@ Access type: Read-only
 
 Internal error code.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -332,7 +332,7 @@ Access type: Read-only
 
 Record identifier of the error record for this error.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -387,7 +387,7 @@ Validation bits used to indicate the validity of the subsequent fields.
 
  
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> </dl>
 
@@ -420,9 +420,4 @@ The **MSMCAEvent\_PCIComponentError** class is derived from [**WMIEvent**](wmiev
 </dt> </dl>
 
  
-
- 
-
-
-
 

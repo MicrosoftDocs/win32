@@ -10,7 +10,7 @@ ms.topic: reference
 
 # CHString::Format methods
 
-\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**CHString**](chstring.md) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The **Format** method formats and stores a series of characters and values in a [**CHString**](chstring.md) string.
 
@@ -20,8 +20,8 @@ The **Format** method formats and stores a series of characters and values in a 
 
 | Method                                              | Description                                                                                      |
 |:----------------------------------------------------|:-------------------------------------------------------------------------------------------------|
-| [**Format(UINT)**](https://msdn.microsoft.com/library/Aa385532(v=VS.85).aspx)       | Formats this CHString according to the resource identifier specified by the **UINT**.<br/> |
-| [**Format(LPCWSTR)**](https://msdn.microsoft.com/library/Aa385527(v=VS.85).aspx) | Formats this CHString according to the format specified by the **LPCWSTR**.<br/>           |
+| [**Format(UINT)**](/previous-versions/windows/desktop/legacy/aa385532(v=vs.85))       | Formats this CHString according to the resource identifier specified by the **UINT**.<br/> |
+| [**Format(LPCWSTR)**](/windows/win32/api/chstring/nf-chstring-chstring-format(lpcwstr_---)) | Formats this CHString according to the format specified by the **LPCWSTR**.<br/>           |
 
 
 
@@ -42,7 +42,3 @@ The **Format** method formats and stores a series of characters and values in a 
 �
 
 �
-
-
-
-

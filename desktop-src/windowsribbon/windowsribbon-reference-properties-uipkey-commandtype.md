@@ -24,7 +24,7 @@ propertyDescription
 
 UI\_PKEY\_CommandType is used by an application to query the command types in a gallery control.
 
-The property value is from the [**UI\_COMMANDTYPE**](https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype) enumeration.
+The property value is from the [**UI\_COMMANDTYPE**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype) enumeration.
 
 ## Related topics
 
@@ -36,7 +36,3 @@ The property value is from the [**UI\_COMMANDTYPE**](https://docs.microsoft.com/
  
 
  
-
-
-
-

@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # WBEMTimeSpan Methods
 
-\[The [**WBEMTimeSpan**](/windows/desktop/api/WbemTime/nl-wbemtime-wbemtimespan) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[The [**WBEMTimeSpan**](/windows/desktop/api/WbemTime/nl-wbemtime-wbemtimespan) class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The [**WBEMTimeSpan**](/windows/desktop/api/WbemTime/nl-wbemtime-wbemtimespan) class exposes the following methods.
 
@@ -29,12 +29,9 @@ The [**WBEMTimeSpan**](/windows/desktop/api/WbemTime/nl-wbemtime-wbemtimespan) c
 -   [**operator != method**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-not-equal-to)
 -   [**operator > method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator-greater-than)
 -   [**operator >= method**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator-greater-than-equal-to)
--   [**operator < method**](https://msdn.microsoft.com/library/Aa393994(v=VS.85).aspx)
--   [**operator <= method**](https://msdn.microsoft.com/library/Aa393995(v=VS.85).aspx)
+-   [**operator < method**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-less-than)
+-   [**operator <= method**](/windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-less-than-equal-to)
 
  
 
  
-
-
-

@@ -256,17 +256,11 @@ This section of code shows the **DropDownGallery** control declarations.
 [Working with Galleries](ribbon-controls-galleries.md)
 </dt> <dt>
 
-[**SetModes**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes)
+[**SetModes**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes)
 </dt> <dt>
 
 [Gallery Sample](windowsribbon-gallerysample.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

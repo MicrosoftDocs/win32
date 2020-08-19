@@ -234,7 +234,7 @@ if ($computer -eq &quot;.&quot;) {$computer = Hostname}
 </tr>
 <tr class="odd">
 <td><p>...convert a WMI datetime to a .NET DateTime value?</p></td>
-<td><p>Manually parse the string, then put the retrieved values into a <a href="https://docs.microsoft.com/dotnet/api/system.datetime?redirectedfrom=MSDN">DateTime</a> object.</p>
+<td><p>Manually parse the string, then put the retrieved values into a <a href="/dotnet/api/system.datetime">DateTime</a> object.</p>
 <div class="code">
 <span data-codelanguage="PowerShell"></span>
 <table>

@@ -22,7 +22,7 @@ When a document manager processes a text store, it produces return values in the
 
 | Return code/value                                                                                                                                                                                                                          | Description                                                                                                                                                                                                  |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="TS_E_FORMAT"></span><span id="ts_e_format"></span><dl> <dt>**TS\_E\_FORMAT**</dt> <dt>0x8004020a</dt> </dl>                   | Application does not support the data type contained in the [**IDataObject**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject) object to be inserted using [**ITextStoreACP::InsertEmbedded**](/windows/desktop/api/Textstor/nf-textstor-itextstoreacp-insertembedded).<br/> |
+| <span id="TS_E_FORMAT"></span><span id="ts_e_format"></span><dl> <dt>**TS\_E\_FORMAT**</dt> <dt>0x8004020a</dt> </dl>                   | Application does not support the data type contained in the [**IDataObject**](/windows/desktop/api/objidl/nn-objidl-idataobject) object to be inserted using [**ITextStoreACP::InsertEmbedded**](/windows/desktop/api/Textstor/nf-textstor-itextstoreacp-insertembedded).<br/> |
 | <span id="TS_E_INVALIDPOINT"></span><span id="ts_e_invalidpoint"></span><dl> <dt>**TS\_E\_INVALIDPOINT**</dt> <dt>0x80040207</dt> </dl> | Parameter is not within the bounding box of any character.<br/>                                                                                                                                        |
 | <span id="TS_E_INVALIDPOS"></span><span id="ts_e_invalidpos"></span><dl> <dt>**TS\_E\_INVALIDPOS**</dt> <dt>0x80040200</dt> </dl>       | Range specified extends outside the document.<br/>                                                                                                                                                     |
 | <span id="TS_E_NOINTERFACE"></span><span id="ts_e_nointerface"></span><dl> <dt>**TS\_E\_NOINTERFACE**</dt> <dt>0x80040204</dt> </dl>    | Object does not support the requested interface.<br/>                                                                                                                                                  |
@@ -61,10 +61,4 @@ When a document manager processes a text store, it produces return values in the
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

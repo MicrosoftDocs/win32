@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent to a window that the user is resizing. By processing this message, an application can monitor the size and position of the drag rectangle and, if needed, change its size or position.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -50,7 +50,7 @@ The edge of the window that is being sized. This parameter can be one of the fol
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx) structure with the screen coordinates of the drag rectangle. To change the size or position of the drag rectangle, an application must change the members of this structure.
+A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure with the screen coordinates of the drag rectangle. To change the size or position of the drag rectangle, an application must change the members of this structure.
 
 </dd> </dl>
 
@@ -94,13 +94,9 @@ An application should return **TRUE** if it processes this message.
 **Other Resources**
 </dt> <dt>
 
-[**RECT**](https://msdn.microsoft.com/library/Dd162897(v=VS.85).aspx)
+[**RECT**](/previous-versions//dd162897(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-
-

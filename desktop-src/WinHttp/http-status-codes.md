@@ -137,7 +137,7 @@ The server has fulfilled the partial GET request for the resource.
 
 
 
-During a World Wide Web Distributed Authoring and Versioning (WebDAV) operation, this indicates multiple status codes for a single response. The response body contains Extensible Markup Language (XML) that describes the status codes. For more information, see [HTTP Extensions for Distributed Authoring](/windows/win32/webdav/webdav-portal).
+During a World Wide Web Distributed Authoring and Versioning (WebDAV) operation, this indicates multiple status codes for a single response. The response body contains Extensible Markup Language (XML) that describes the status codes. For more information, see [HTTP Extensions for Distributed Authoring](../webdav/webdav-portal.md).
 
 
 </dt> </dl> </dd> <dt>
@@ -552,9 +552,4 @@ The server does not support the HTTP protocol version that was used in the reque
 </dt> </dl>
 
  
-
- 
-
-
-
 

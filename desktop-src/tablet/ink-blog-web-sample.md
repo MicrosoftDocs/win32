@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Ink Blog Web Sample
 
-The Ink Blog sample application demonstrates how to create a managed [UserControl](https://msdn.microsoft.com/library/97855yck(v=VS.90).aspx) class that has inking capability and host that control in Microsoft Internet Explorer. The sample also demonstrates one technique for sending ink data across a network by using HTTP and for persisting ink on a server.
+The Ink Blog sample application demonstrates how to create a managed [UserControl](/dotnet/api/system.windows.forms.usercontrol?view=netcore-3.1) class that has inking capability and host that control in Microsoft Internet Explorer. The sample also demonstrates one technique for sending ink data across a network by using HTTP and for persisting ink on a server.
 
 > [!Note]  
 > You must have Microsoft Internet Information Services (IIS) with ASP.NET installed to run this sample. Make sure that your computer meets the requirements necessary for ASP.NET applications to run on your computer.
@@ -32,9 +32,9 @@ There are two projects in the InkBlog solution: the **InkBlogControls** project 
 
 ## InkBlogControls Project
 
-The **InkBlogControls** project is a [UserControl](https://msdn.microsoft.com/library/97855yck(v=VS.90).aspx) project that contains the code for the user control that enables inking on the Web page. The code for this control, the InkArea control, is in the InkArea.cs file.
+The **InkBlogControls** project is a [UserControl](/dotnet/api/system.windows.forms.usercontrol?view=netcore-3.1) project that contains the code for the user control that enables inking on the Web page. The code for this control, the InkArea control, is in the InkArea.cs file.
 
-The `InkArea` Class inherits from the [UserControl](https://msdn.microsoft.com/library/97855yck(v=VS.90).aspx) class. The constructor for the `InkArea` control calls a helper method, `CreateInkCollectionSurface`.
+The `InkArea` Class inherits from the [UserControl](/dotnet/api/system.windows.forms.usercontrol?view=netcore-3.1) class. The constructor for the `InkArea` control calls a helper method, `CreateInkCollectionSurface`.
 
 
 ```C++
@@ -61,7 +61,7 @@ public InkArea()
 
 
 
-The `CreateInkCollectionSurface` method determines whether the Tablet PC inking components are available on the client by attempting to create an instance of the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.90).aspx) class. If the call to the `CreateInkCollectionSurface` method succeeds, the method returns a [Panel](https://msdn.microsoft.com/library/kbxtbzd1(v=VS.90).aspx) object as the control.
+The `CreateInkCollectionSurface` method determines whether the Tablet PC inking components are available on the client by attempting to create an instance of the [InkCollector](/previous-versions/ms583683(v=vs.100)) class. If the call to the `CreateInkCollectionSurface` method succeeds, the method returns a [Panel](/dotnet/api/system.windows.forms.panel?view=netcore-3.1) object as the control.
 
 
 ```C++
@@ -84,7 +84,7 @@ protected Control CreateInkCollectionSurface()
 
 
 
-If the constructor fails because the inking platform files are not found, then the `InputArea` control is instantiated as a [TextBox](https://msdn.microsoft.com/library/48deaakc(v=VS.90).aspx) control rather than a [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.90).aspx) control. The constructor then sizes the control to the size of the parent user control and adds it to the parent's Controls collection.
+If the constructor fails because the inking platform files are not found, then the `InputArea` control is instantiated as a [TextBox](/dotnet/api/system.windows.forms.textbox?view=netcore-3.1) control rather than a [InkCollector](/previous-versions/ms583683(v=vs.100)) control. The constructor then sizes the control to the size of the parent user control and adds it to the parent's Controls collection.
 
 The InkArea control class implements three interesting public properties: InkData, TextData, and WebEnabled.
 
@@ -113,9 +113,9 @@ protected String SerializeInkData()
 
 
 
-In the `SerializeInkData` method, the cast to [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.90).aspx) is necessary when obtaining the [Ink](https://msdn.microsoft.com/library/ms583670(v=VS.90).aspx) object, because `inputArea` is declared as a [Control](https://msdn.microsoft.com/library/36cd312w(v=VS.90).aspx). If the Ink object contains any strokes, the ink data is saved into the `inkDataBytes` byte array as a GIF (specified by using the [PersistenceFormat](https://msdn.microsoft.com/library/ms552503(v=VS.90).aspx) enumeration value). The method then converts the byte array to a Base64-encoded string and returns this string.
+In the `SerializeInkData` method, the cast to [InkCollector](/previous-versions/ms583683(v=vs.100)) is necessary when obtaining the [Ink](/previous-versions/ms583670(v=vs.100)) object, because `inputArea` is declared as a [Control](/dotnet/api/system.windows.forms.control?view=netcore-3.1). If the Ink object contains any strokes, the ink data is saved into the `inkDataBytes` byte array as a GIF (specified by using the [PersistenceFormat](/previous-versions/ms552503(v=vs.100)) enumeration value). The method then converts the byte array to a Base64-encoded string and returns this string.
 
-Assuming that the client can perform recognition, the `TextData` property returns the [RecognitionResult](https://msdn.microsoft.com/library/ms552537(v=VS.90).aspx) object from passing the ink data to a handwriting recognizer. If the client is not ink-aware, the text box contents are returned, as shown in the following code.
+Assuming that the client can perform recognition, the `TextData` property returns the [RecognitionResult](/previous-versions/ms552537(v=vs.100)) object from passing the ink data to a handwriting recognizer. If the client is not ink-aware, the text box contents are returned, as shown in the following code.
 
 
 ```C++
@@ -137,7 +137,7 @@ public string TextData
 
 
 
-The `TextData` property calls a helper method, `RecognizeInkData`, shown in the following code, to carry out the recognition. When recognition engines are present on the system, the `RecognizeInkData` method returns a string containing the [RecognitionResult](https://msdn.microsoft.com/library/ms552537(v=VS.90).aspx) object's [TopString](https://msdn.microsoft.com/library/ms572009(v=VS.90).aspx) property. Otherwise, it returns an empty string.
+The `TextData` property calls a helper method, `RecognizeInkData`, shown in the following code, to carry out the recognition. When recognition engines are present on the system, the `RecognizeInkData` method returns a string containing the [RecognitionResult](/previous-versions/ms552537(v=vs.100)) object's [TopString](/previous-versions/ms572009(v=vs.100)) property. Otherwise, it returns an empty string.
 
 
 ```C++
@@ -279,7 +279,7 @@ If you have installed ASP.NET and the .NET Framework on a computer and you then 
 
 <dl> <dt>
 
-[InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.90).aspx)
+[InkCollector](/previous-versions/ms583683(v=vs.100))
 </dt> <dt>
 
 [Ink on the Web](ink-on-the-web.md)
@@ -288,12 +288,9 @@ If you have installed ASP.NET and the .NET Framework on a computer and you then 
 [Ink Data Formats](ink-data-formats.md)
 </dt> <dt>
 
-[System.Windows.Forms.UserControl Class](https://msdn.microsoft.com/library/97855yck(v=VS.90).aspx)
+[System.Windows.Forms.UserControl Class](/dotnet/api/system.windows.forms.usercontrol?view=netcore-3.1)
 </dt> </dl>
 
  
 
  
-
-
-

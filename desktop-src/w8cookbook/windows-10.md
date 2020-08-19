@@ -35,7 +35,7 @@ We invite you to check out these topics to learn how to optimize your apps and t
 -   [How we can ensure compatibility of the combined ecosystem](how-we-can-ensure-compatibility-of-the-combined-ecosystem.md)
     -   [Windows version check](windows-version-check.md)
     -   [Undocumented APIs](undocumented-apis.md)
-    -   [Develop UWP and Desktop Bridge apps](https://docs.microsoft.com/windows/desktop/w8cookbook/develop-universal-windows-platform-apps)
+    -   [Develop UWP and Desktop Bridge apps](/windows/desktop/w8cookbook/develop-universal-windows-platform-apps)
     -   [Modern Desktop App functionality is impacted if not run in Windowed Mode](modern-desktop-app-functionality-is-impacted-if-not-run-in-windowed-mode.md)
     -   [Availability of applicable graphics drivers on Windows Update](availability-of-applicable-graphics-drivers-on-windows-update.md)
     -   [Graphics driver migration to Windows 10](graphics-driver-migration-to-windows-10.md)
@@ -47,14 +47,10 @@ For a quick reference to all this information, as well as information on Windows
 
 ## See Also
 
--   [Windows as a service](https://technet.microsoft.com/library/mt598226), for information about Windows 10 release types and app support.
+-   [Windows as a service](/windows/deployment/update/), for information about Windows 10 release types and app support.
 -   [Windows Insider](https://insider.windows.com/), to access preview builds, test, and provide feedback.
 -   [Ready for Windows 10](https://www.readyfor10.com/), to submit your company's information to a resource for IT managers.
 
  
 
  
-
-
-
-

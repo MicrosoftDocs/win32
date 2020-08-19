@@ -774,7 +774,7 @@
           - name: "HostAdapter Property"
             href: ivmvirtualnetwork-hostadapter.md
           - name: "MediaType Property"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd796707(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/dd796707(v=vs.85)
           - name: "Name Property"
             href: ivmvirtualnetwork-name.md
           - name: "NetworkAdapters Property"

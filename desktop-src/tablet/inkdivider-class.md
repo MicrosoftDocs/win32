@@ -49,7 +49,7 @@ The **InkDivider** class has these methods.
 
 | Method                              | Description                                                                                                                                                        |
 |:------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Divide**](https://msdn.microsoft.com/library/ms702500(v=VS.85).aspx) | Returns an [**IInkDivisionResult**](/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult) object that contains structural information about the strokes in the **InkDivider** object.<br/> |
+| [**Divide**](/windows/win32/api/msinkaut15/nf-msinkaut15-iinkdivider-divide) | Returns an [**IInkDivisionResult**](/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult) object that contains structural information about the strokes in the **InkDivider** object.<br/> |
 
 
 
@@ -63,9 +63,9 @@ The **InkDivider** class has these properties.
 
 | Property                                                             | Access type           | Description                                                                                                                     |
 |:---------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------|
-| [**LineHeight**](https://msdn.microsoft.com/library/ms699524(v=VS.85).aspx)<br/>               | Read/write<br/> | Gets or sets the expected handwriting height in HIMETRIC units.<br/>                                                      |
-| [**RecognizerContext**](https://msdn.microsoft.com/library/ms701736(v=VS.85).aspx)<br/> | Read/write<br/> | Gets or sets the [**InkRecognizerContext**](inkrecognizercontext-class.md) object used for handwriting recognition.<br/> |
-| [**Strokes**](https://msdn.microsoft.com/library/ms698600(v=VS.85).aspx)<br/>                     | Read/write<br/> | Gets or sets the [**InkStrokes**](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection contained by the **InkDivider** object. <br/>     |
+| [**LineHeight**](/windows/win32/api/msinkaut15/nf-msinkaut15-iinkdivider-get_lineheight)<br/>               | Read/write<br/> | Gets or sets the expected handwriting height in HIMETRIC units.<br/>                                                      |
+| [**RecognizerContext**](/windows/win32/api/msinkaut15/nf-msinkaut15-iinkdivider-get_recognizercontext)<br/> | Read/write<br/> | Gets or sets the [**InkRecognizerContext**](inkrecognizercontext-class.md) object used for handwriting recognition.<br/> |
+| [**Strokes**](/windows/win32/api/msinkaut15/nf-msinkaut15-iinkdivider-get_strokes)<br/>                     | Read/write<br/> | Gets or sets the [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) collection contained by the **InkDivider** object. <br/>     |
 
 
 
@@ -73,9 +73,9 @@ The **InkDivider** class has these properties.
 
 ## Remarks
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
+This object can be instantiated by calling the [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
-The **InkDivider** object uses the layout of the strokes, the order in which the strokes are added, the direction in which the strokes are drawn, and other factors to perform the analysis of the ink. The [InkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection that the **InkDivider** object analyzes is contained in the [**Strokes**](https://msdn.microsoft.com/library/ms698600(v=VS.85).aspx) property of the **InkDivider** object. The **InkDivider** object dynamically analyzes the InkStrokes collection as you add to or delete from the collection, but it performs no modification of the strokes.
+The **InkDivider** object uses the layout of the strokes, the order in which the strokes are added, the direction in which the strokes are drawn, and other factors to perform the analysis of the ink. The [InkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) collection that the **InkDivider** object analyzes is contained in the [**Strokes**](/windows/win32/api/msinkaut15/nf-msinkaut15-iinkdivider-get_strokes) property of the **InkDivider** object. The **InkDivider** object dynamically analyzes the InkStrokes collection as you add to or delete from the collection, but it performs no modification of the strokes.
 
 The analysis results are returned in an [**IInkDivisionResult**](/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult) object.
 
@@ -89,7 +89,7 @@ The **InkDivider** object uses an [**InkRecognizerContext**](inkrecognizercontex
 If you do not assign a recognizer context to the **InkDivider** object, the **InkDivider** object still analyzes the ink, but it divides the strokes less accurately and does not associate text with the division results.
 
 > [!Note]  
-> The [**RecognizerContext**](https://msdn.microsoft.com/library/ms701736(v=VS.85).aspx) property should be set before adding strokes to the [**Strokes**](https://msdn.microsoft.com/library/ms698600(v=VS.85).aspx) property. After strokes have been added to the **InkDivider** object, the **RecognizerContext** property cannot be changed.
+> The [**RecognizerContext**](/windows/win32/api/msinkaut15/nf-msinkaut15-iinkdivider-get_recognizercontext) property should be set before adding strokes to the [**Strokes**](/windows/win32/api/msinkaut15/nf-msinkaut15-iinkdivider-get_strokes) property. After strokes have been added to the **InkDivider** object, the **RecognizerContext** property cannot be changed.
 
  
 
@@ -118,13 +118,8 @@ The **InkDivider** does not currently support vertical languages. For the **InkD
 [**InkRecognizerContext Class**](inkrecognizercontext-class.md)
 </dt> <dt>
 
-[InkStrokes Collection](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx)
+[InkStrokes Collection](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
 

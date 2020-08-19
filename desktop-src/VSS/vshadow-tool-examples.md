@@ -31,7 +31,7 @@ If you use the **-script** optional flag when you create shadow copies, VShadow 
 You can use the generated CMD file to perform limited management operations on the shadow copies.
 
 > [!Note]  
-> The [**BackupComplete**](/windows/win32/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete) writer event is sent after the **-exec** script is executed. VSS calls the **IVssBackupComponents::BackupComplete** method to signal to the writers that the backup is completed, and the writers can potentially truncate logs at this point. Therefore, it is important to verify that the shadow/backup actually completed. If the backup failed, you can cancel the creation process by returning a nonzero exit code in the executed script/command. (See the documentation for the exit command in the [Windows Command Line Reference](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754340%28v%3dws.11%29).) If the custom command returns with a nonzero exit code, then the shadow copy creation is canceled and **IVssBackupComponents::BackupComplete** will not be called.
+> The [**BackupComplete**](/windows/win32/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete) writer event is sent after the **-exec** script is executed. VSS calls the **IVssBackupComponents::BackupComplete** method to signal to the writers that the backup is completed, and the writers can potentially truncate logs at this point. Therefore, it is important to verify that the shadow/backup actually completed. If the backup failed, you can cancel the creation process by returning a nonzero exit code in the executed script/command. (See the documentation for the exit command in the [Windows Command Line Reference](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754340(v=ws.11)).) If the custom command returns with a nonzero exit code, then the shadow copy creation is canceled and **IVssBackupComponents::BackupComplete** will not be called.
 
  
 
@@ -215,6 +215,3 @@ The following examples show how to use the **-bex** command-line option.
  
 
  
-
-
-

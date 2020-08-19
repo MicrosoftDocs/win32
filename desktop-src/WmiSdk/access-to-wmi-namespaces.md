@@ -27,17 +27,17 @@ The following information is discussed in this topic:
 
 ## WMI Namespace Security
 
-WMI maintains namespace security by comparing the [*access token*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) of the user connecting to the namespace with the [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) of the namespace. For more information about Windows security, see [Access to WMI Securable Objects](access-to-wmi-securable-objects.md).
+WMI maintains namespace security by comparing the [*access token*](/windows/desktop/SecGloss/a-gly) of the user connecting to the namespace with the [*security descriptor*](/windows/desktop/SecGloss/s-gly) of the namespace. For more information about Windows security, see [Access to WMI Securable Objects](access-to-wmi-securable-objects.md).
 
 Be aware that, starting with Windows Vista, [User Account Control (UAC)](https://www.microsoft.com/technet/windowsvista/security/uac.mspx) affects access to WMI data and what can be configured with the [*WMI Control*](gloss-w.md). For more information, see [Default Permissions on WMI Namespaces](#default-permissions-on-wmi-namespaces) and [User Account Control and WMI](user-account-control-and-wmi.md).
 
-Access to WMI namespaces is also affected when the connection is from a remote computer. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md), [Securing a Remote WMI Connection](securing-a-remote-wmi-connection.md), and [Connecting Through Windows Firewall](https://docs.microsoft.com/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista).
+Access to WMI namespaces is also affected when the connection is from a remote computer. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md), [Securing a Remote WMI Connection](securing-a-remote-wmi-connection.md), and [Connecting Through Windows Firewall](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista).
 
 Providers must rely on the impersonation setting for the connection to determine if the client script or application should receive data. For more information about script and client applications, see [Setting Client Application Process Security](setting-client-application-process-security.md). For more information about [*provider*](gloss-p.md) impersonation, see [Developing a WMI Provider](developing-a-wmi-provider.md).
 
 ## WMI Namespace Auditing
 
-WMI uses the namespace [*System access control lists (SACL)*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) to audit namespace activity. To enable auditing of WMI namespaces, use the **Security** tab on the [*WMI Control*](gloss-w.md) to change the auditing settings for the namespace.
+WMI uses the namespace [*System access control lists (SACL)*](/windows/desktop/SecGloss/s-gly) to audit namespace activity. To enable auditing of WMI namespaces, use the **Security** tab on the [*WMI Control*](gloss-w.md) to change the auditing settings for the namespace.
 
 Auditing is not enabled during the installation of the operating system. To enable auditing, click the **Auditing** tab in the standard **Security** window. Then you can add an auditing entry.
 
@@ -144,7 +144,7 @@ The default access permissions for the Authenticated Users, LOCAL SERVICE, and N
 
 Accounts in the Administrators group have all rights available to them, including editing security descriptors. However, because of User Account Control (UAC), the WMI Control or the script must be running at elevated security. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md).
 
-Sometimes a script or application must enable an administrator privilege, such as **SeSecurityPrivilege**, to carry out an operation. For example, a script can execute the [**GetSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/getsecuritydescriptor-method-in-class-win32-printer) method of the [**Win32\_Printer**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-printer) class without **SeSecurityPrivilege** and get the security information in the [*discretionary access control list (DACL)*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) of the printer object [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly). However, the SACL information is not returned to the script unless the **SeSecurityPrivilege** privilege is available and enabled for the account. If the account does not have the privilege available, then it cannot be enabled. For more information, see [Executing Privileged Operations](executing-privileged-operations.md).
+Sometimes a script or application must enable an administrator privilege, such as **SeSecurityPrivilege**, to carry out an operation. For example, a script can execute the [**GetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getsecuritydescriptor-method-in-class-win32-printer) method of the [**Win32\_Printer**](/windows/desktop/CIMWin32Prov/win32-printer) class without **SeSecurityPrivilege** and get the security information in the [*discretionary access control list (DACL)*](/windows/desktop/SecGloss/d-gly) of the printer object [*security descriptor*](/windows/desktop/SecGloss/s-gly). However, the SACL information is not returned to the script unless the **SeSecurityPrivilege** privilege is available and enabled for the account. If the account does not have the privilege available, then it cannot be enabled. For more information, see [Executing Privileged Operations](executing-privileged-operations.md).
 
 ## Related topics
 
@@ -156,6 +156,3 @@ Sometimes a script or application must enable an administrator privilege, such a
  
 
  
-
-
-

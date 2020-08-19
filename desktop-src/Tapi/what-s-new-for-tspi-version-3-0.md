@@ -8,26 +8,23 @@ ms.date: 05/31/2018
 
 # What's New for TSPI Version 3.0
 
-TSPI 3.0 adds functions and messages to support communication with a [Media Service Provider (MSP)](https://msdn.microsoft.com/library/ms726003(v=VS.85).aspx). Functions have also been added which enhance the ease of tracking conferences using the Call Hub concept.
+TSPI 3.0 adds functions and messages to support communication with a [Media Service Provider (MSP)](./about-the-media-service-provider-msp-.md). Functions have also been added which enhance the ease of tracking conferences using the Call Hub concept.
 
 Functions and messages that were new or changed for TSPI version 3.0 are as follows:
 
--   [**TSPI_lineCloseMSPInstance**](https://msdn.microsoft.com/library/ms725533(v=VS.85).aspx)
--   [**TSPI_lineCreateMSPInstance**](https://msdn.microsoft.com/library/ms725539(v=VS.85).aspx)
--   [**TSPI_lineGetCallHubTracking**](https://msdn.microsoft.com/library/ms725564(v=VS.85).aspx)
--   [**TSPI_lineGetCallIDs**](https://msdn.microsoft.com/library/ms725565(v=VS.85).aspx)
--   [**TSPI_lineMSPIdentify**](https://msdn.microsoft.com/library/ms725580(v=VS.85).aspx)
--   [**TSPI_lineReceiveMSPData**](https://msdn.microsoft.com/library/ms725587(v=VS.85).aspx)
--   [**TSPI_lineSetCallHubTracking**](https://msdn.microsoft.com/library/ms725596(v=VS.85).aspx)
+-   [**TSPI_lineCloseMSPInstance**](/windows/win32/api/tspi/nf-tspi-tspi_lineclosemspinstance)
+-   [**TSPI_lineCreateMSPInstance**](/windows/win32/api/tspi/nf-tspi-tspi_linecreatemspinstance)
+-   [**TSPI_lineGetCallHubTracking**](/windows/win32/api/tspi/nf-tspi-tspi_linegetcallhubtracking)
+-   [**TSPI_lineGetCallIDs**](/windows/win32/api/tspi/nf-tspi-tspi_linegetcallids)
+-   [**TSPI_lineMSPIdentify**](/windows/win32/api/tspi/nf-tspi-tspi_linemspidentify)
+-   [**TSPI_lineReceiveMSPData**](/windows/win32/api/tspi/nf-tspi-tspi_linereceivemspdata)
+-   [**TSPI_lineSetCallHubTracking**](/windows/win32/api/tspi/nf-tspi-tspi_linesetcallhubtracking)
 -   [**LINE_QOSINFO**](line-qosinfo.md)
 -   [**LINE_SENDMSPDATA**](line-sendmspdata.md)
--   [**LINE_DEVSPECIFICEX**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725226(v=vs.85))
+-   [**LINE_DEVSPECIFICEX**](/previous-versions/windows/desktop/legacy/ms725226(v=vs.85))
 -   **LINEADDRCAPFLAGS_NOPSTNADDRESSTRANSLATION** flag
 -   **LINEERR_INVALADDRESSTYPE** flags
 
  
 
  
-
-
-

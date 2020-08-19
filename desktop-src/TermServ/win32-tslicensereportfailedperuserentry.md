@@ -196,7 +196,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The name of the user to whom the license issuance was attempted.
@@ -225,10 +225,4 @@ The name of the user to whom the license issuance was attempted.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

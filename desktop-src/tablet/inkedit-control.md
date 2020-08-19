@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The [InkEdit](inkedit-control-reference.md) control provides an easy way to capture, recognize, and display ink.
 
-This implementation of the [InkEdit](inkedit-control-reference.md) control is based on the [**RichEdit**](https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditole) control. The managed (.NET Framework) implementation of [InkEdit](https://msdn.microsoft.com/library/ms835842(v=MSDN.10).aspx) is based on the [**RichTextBox**](https://msdn.microsoft.com/library/ms612650(v=VS.96).aspx) control.
+This implementation of the [InkEdit](inkedit-control-reference.md) control is based on the [**RichEdit**](/windows/desktop/api/richole/nn-richole-iricheditole) control. The managed (.NET Framework) implementation of [InkEdit](/previous-versions/ms835842(v=msdn.10)) is based on the [**RichTextBox**](/previous-versions/windows/) control.
 
 The primary purpose of the [InkEdit](inkedit-control-reference.md) control is to collect ink, recognize it, and display it in text form. Additionally, it supports displaying ink as an embedded object with text formatting capabilities, such as bold and underline.
 
@@ -39,7 +39,7 @@ Gesture events that you can handle contain gesture, stroke, and cursor informati
 
 ## Other Details
 
-[InkEdit](inkedit-control-reference.md) is designed to work well in a form scenario for single line as well as multiline text entry and editing. The primary intended use for InkEdit is to get text input from a user in the form of handwriting. By default, ink input is recognized and text is inserted in its place. The default user interface for InkEdit resembles that of the [**RichTextBox**](https://msdn.microsoft.com/library/ms612650(v=VS.96).aspx) control, except when the user is laying down ink. You can display original ink rather than text; however, the ink is scaled to the current input font size of the InkEdit control and is displayed inline with other text.
+[InkEdit](inkedit-control-reference.md) is designed to work well in a form scenario for single line as well as multiline text entry and editing. The primary intended use for InkEdit is to get text input from a user in the form of handwriting. By default, ink input is recognized and text is inserted in its place. The default user interface for InkEdit resembles that of the [**RichTextBox**](/previous-versions/windows/) control, except when the user is laying down ink. You can display original ink rather than text; however, the ink is scaled to the current input font size of the InkEdit control and is displayed inline with other text.
 
 > [!Note]  
 > For security reasons, you must use standard procedures to open or close a file, stream the input/output, and set the [**RTF**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selrtf) or [**Text**](/windows/desktop/api/inked/nf-inked-iinkedit-get_seltext) property.
@@ -56,7 +56,7 @@ For detailed reference information about the [InkEdit](inkedit-control-reference
  
 
 > [!Note]  
-> To ensure ink is displayed properly, call the [InkEdit](inkedit-control-reference.md) control [**Refresh**](/windows/desktop/api/inked/nf-inked-iinkedit-refresh) method when it receives an [**HScroll**](https://msdn.microsoft.com/library/5b124cx0(v=VS.90).aspx) or [**VScroll**](https://msdn.microsoft.com/library/ky3w0c68(v=VS.90).aspx) event.
+> To ensure ink is displayed properly, call the [InkEdit](inkedit-control-reference.md) control [**Refresh**](/windows/desktop/api/inked/nf-inked-iinkedit-refresh) method when it receives an [**HScroll**](/dotnet/api/system.windows.forms.richtextbox.hscroll?view=netcore-3.1) or [**VScroll**](/dotnet/api/system.windows.forms.richtextbox.vscroll?view=netcore-3.1) event.
 
  
 
@@ -69,9 +69,4 @@ The following sections detail the use of the [InkEdit](inkedit-control-reference
 -   [Using an Application Dictionary with InkEdit](using-an-application-dictionary-with-inkedit.md)
 
  
-
- 
-
-
-
 

@@ -66,10 +66,10 @@ If an application specifies a **NULL** window handle, the message is posted to t
 **Reference**
 </dt> <dt>
 
-[*JournalPlaybackProc*](https://msdn.microsoft.com/library/ms644982(v=VS.85).aspx)
+[*JournalPlaybackProc*](/previous-versions/windows/desktop/legacy/ms644982(v=vs.85))
 </dt> <dt>
 
-[**SetWindowsHookEx**](https://msdn.microsoft.com/library/ms644990(v=VS.85).aspx)
+[**SetWindowsHookEx**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)
 </dt> <dt>
 
 **Conceptual**
@@ -81,7 +81,3 @@ If an application specifies a **NULL** window handle, the message is posted to t
  
 
  
-
-
-
-

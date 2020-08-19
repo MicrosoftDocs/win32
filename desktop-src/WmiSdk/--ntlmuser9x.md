@@ -167,7 +167,7 @@ The **\_\_NTLMUser9X** class is used as an input parameter for the [**\_\_System
 
 <dl> <dt>
 
-[**\_\_SecurityRelatedClass**](https://docs.microsoft.com/windows/desktop/WmiSdk/--securityrelatedclass)
+[**\_\_SecurityRelatedClass**](/windows/desktop/WmiSdk/--securityrelatedclass)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
@@ -177,9 +177,4 @@ The **\_\_NTLMUser9X** class is used as an input parameter for the [**\_\_System
 </dt> </dl>
 
  
-
- 
-
-
-
 
