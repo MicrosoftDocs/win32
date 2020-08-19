@@ -18,7 +18,7 @@ api_location:
 
 # GetVolumeOperation class
 
-Registers an event handler that is invoked when the asynchronous operation started by [**GetVolumeAsync**](https://msdn.microsoft.com/library/Hh828933(v=VS.85).aspx) completes, and provides a method that returns the results of the operation.
+Registers an event handler that is invoked when the asynchronous operation started by [**GetVolumeAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getvolumeasync) completes, and provides a method that returns the results of the operation.
 
 **GetVolumeOperation** has these types of members:
 
@@ -33,7 +33,7 @@ The **GetVolumeOperation** class has these methods.
 
 | Method                                              | Description                                                                                                                      |
 |:----------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------|
-| [**GetResults**](getvolumeoperation-getresults.md) | Returns the results of the asynchronous operation started by [**GetVolumeAsync**](https://msdn.microsoft.com/library/Hh828933(v=VS.85).aspx).<br/> |
+| [**GetResults**](getvolumeoperation-getresults.md) | Returns the results of the asynchronous operation started by [**GetVolumeAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getvolumeasync).<br/> |
 
 
 
@@ -47,17 +47,11 @@ The **GetVolumeOperation** class has these properties.
 
 | Property                                                     | Access type           | Description                                                                                                                                                                |
 |:-------------------------------------------------------------|:----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Completed**](getvolumeoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetVolumeAsync**](https://msdn.microsoft.com/library/Hh828933(v=VS.85).aspx) is completed. <br/> |
+| [**Completed**](getvolumeoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetVolumeAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getvolumeasync) is completed. <br/> |
 
 
 
  
 
  
-
- 
-
-
-
-
 

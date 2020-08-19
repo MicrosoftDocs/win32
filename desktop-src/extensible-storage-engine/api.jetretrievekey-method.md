@@ -90,14 +90,14 @@ public static void JetRetrieveKey(
 <!-- end list -->
 
   - dataSize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The size of the buffer.
 
 <!-- end list -->
 
   - actualDataSize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Returns the actual size of the data.
 
@@ -117,4 +117,3 @@ public static void JetRetrieveKey(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -51,7 +51,7 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+Type: [System.String](/dotnet/api/system.string)  
 A string representation of this object.  
 
 ## See also
@@ -63,4 +63,3 @@ A string representation of this object.
 [JET_DBINFOMISC members](hh566148\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

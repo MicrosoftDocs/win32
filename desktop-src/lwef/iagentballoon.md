@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 **IAgentBalloon** defines an interface that allows applications to query properties for the Microsoft Agent word balloon. These functions are also available from [**IAgentBalloonEx**](https://www.bing.com/search?q=**IAgentBalloonEx**).
 
-Initial defaults for a character's word balloon are set in the Microsoft Agent Character Editor, but once the application is running, the user may override the [**Enabled**](enabled-property.md) and [Font](fontname-property.md) properties. If a user changes the balloon's properties, the change affects all characters. The [**IAgentBalloon**](https://docs.microsoft.com/windows/desktop/lwef/iagentballoon) object's properties also apply to text output through the [**Think**](think-method.md) method.
+Initial defaults for a character's word balloon are set in the Microsoft Agent Character Editor, but once the application is running, the user may override the [**Enabled**](enabled-property.md) and [Font](fontname-property.md) properties. If a user changes the balloon's properties, the change affects all characters. The [**IAgentBalloon**](/windows/desktop/lwef/iagentballoon) object's properties also apply to text output through the [**Think**](think-method.md) method.
 
 **Methods in Vtable Order**
 
@@ -46,7 +46,3 @@ Initial defaults for a character's word balloon are set in the Microsoft Agent C
  
 
  
-
-
-
-

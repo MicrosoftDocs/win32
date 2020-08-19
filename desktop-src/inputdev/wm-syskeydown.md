@@ -65,9 +65,9 @@ An application should return zero if it processes this message.
 
 ## Remarks
 
-The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function examines the specified key and generates a [**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand) message if the key is either TAB or ENTER.
+The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function examines the specified key and generates a [**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand) message if the key is either TAB or ENTER.
 
-When the context code is zero, the message can be passed to the [**TranslateAccelerator**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translateacceleratora) function, which will handle it as though it were a normal key message instead of a character-key message. This allows accelerator keys to be used with the active window even if the active window does not have the keyboard focus.
+When the context code is zero, the message can be passed to the [**TranslateAccelerator**](/windows/desktop/api/winuser/nf-winuser-translateacceleratora) function, which will handle it as though it were a normal key message instead of a character-key message. This allows accelerator keys to be used with the active window even if the active window does not have the keyboard focus.
 
 Because of automatic repeat, more than one **WM\_SYSKEYDOWN** message may occur before a [**WM\_SYSKEYUP**](wm-syskeyup.md) message is sent. The previous key state (bit 30) can be used to determine whether the **WM\_SYSKEYDOWN** message indicates the first down transition or a repeated down transition.
 
@@ -94,13 +94,13 @@ This message is also sent whenever the user presses the F10 key without the ALT 
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**TranslateAccelerator**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translateacceleratora)
+[**TranslateAccelerator**](/windows/desktop/api/winuser/nf-winuser-translateacceleratora)
 </dt> <dt>
 
-[**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand)
+[**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
 </dt> <dt>
 
 [**WM\_SYSKEYUP**](wm-syskeyup.md)
@@ -113,10 +113,4 @@ This message is also sent whenever the user presses the F10 key without the ALT 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

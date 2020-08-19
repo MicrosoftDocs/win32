@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.DrawRectangle methods
 
-This topic lists the DrawRectangle methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the DrawRectangle methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -16,17 +16,13 @@ This topic lists the DrawRectangle methods of the [**Graphics**](https://msdn.mi
 
 | Method                                                                                                                                  | Description                                                                                                                                                     |
 |:----------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DrawRectangle(Pen\*,Rect&)**](https://msdn.microsoft.com/library/ms536001(v=VS.85).aspx)                                          | The [**Graphics::DrawRectangle**](https://msdn.microsoft.com/library/ms536001(v=VS.85).aspx) method draws a rectangle.<br/>                            |
-| [**DrawRectangle(Pen\*,RectF&)**](https://msdn.microsoft.com/library/ms536006(v=VS.85).aspx)                                        | The [**Graphics::DrawRectangle**](https://msdn.microsoft.com/library/ms536006(v=VS.85).aspx) method draws a rectangle.<br/>                           |
-| [**DrawRectangle(Pen\*,INT,INT,INT,INT)**](https://msdn.microsoft.com/library/ms536003(v=VS.85).aspx)         | The [**Graphics::DrawRectangle**](https://msdn.microsoft.com/library/ms536003(v=VS.85).aspx) method draws a rectangle.<br/>     |
-| [**DrawRectangle(Pen\*,REAL,REAL,REAL,REAL)**](https://msdn.microsoft.com/library/ms536004(v=VS.85).aspx) | The [**Graphics::DrawRectangle**](https://msdn.microsoft.com/library/ms536004(v=VS.85).aspx) method draws a rectangle.<br/> |
+| [**DrawRectangle(Pen\*,Rect&)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inconstrect_))                                          | The [**Graphics::DrawRectangle**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inconstrect_)) method draws a rectangle.<br/>                            |
+| [**DrawRectangle(Pen\*,RectF&)**](/previous-versions//ms536006(v=vs.85))                                        | The [**Graphics::DrawRectangle**](/previous-versions//ms536006(v=vs.85)) method draws a rectangle.<br/>                           |
+| [**DrawRectangle(Pen\*,INT,INT,INT,INT)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inint_inint_inint_inint))         | The [**Graphics::DrawRectangle**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inint_inint_inint_inint)) method draws a rectangle.<br/>     |
+| [**DrawRectangle(Pen\*,REAL,REAL,REAL,REAL)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inreal_inreal_inreal_inreal)) | The [**Graphics::DrawRectangle**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inreal_inreal_inreal_inreal)) method draws a rectangle.<br/> |
 
 
 
  
 
  
-
-
-
-

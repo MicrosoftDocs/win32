@@ -28,7 +28,7 @@ myGraphics.DrawLine(&myPen, myStartPoint, myEndPoint);
 
 
 
-You can specify certain attributes when you construct a [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) object. For example, one [Pen](https://msdn.microsoft.com/library/ms535014(v=VS.85).aspx) constructor allows you to specify color and width. The following example draws a blue line of width 2 from (0, 0) to (60, 30).
+You can specify certain attributes when you construct a [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) object. For example, one [Pen](/windows/win32/api/gdipluspen/nf-gdipluspen-pen-pen(constpen_)) constructor allows you to specify color and width. The following example draws a blue line of width 2 from (0, 0) to (60, 30).
 
 
 ```
@@ -71,11 +71,8 @@ myGraphics.DrawRectangle(&myPen, myRect);
 
 
 
-A [**Rect**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-rect) object has methods for manipulating and gathering information about the rectangle. For example, the [Inflate](https://msdn.microsoft.com/library/ms534974(v=VS.85).aspx) and [Offset](https://msdn.microsoft.com/library/ms534976(v=VS.85).aspx) methods change the size and position of the rectangle. The [**Rect::IntersectsWith**](/windows/win32/api/Gdiplustypes/nf-gdiplustypes-rect-intersectswith) method tells you whether the rectangle intersects another given rectangle, and the [Contains](https://msdn.microsoft.com/library/ms534973(v=VS.85).aspx) method tells you whether a given point is inside the rectangle.
+A [**Rect**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-rect) object has methods for manipulating and gathering information about the rectangle. For example, the [Inflate](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-inflate(inint_inint)) and [Offset](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-offset(inconstpoint_)) methods change the size and position of the rectangle. The [**Rect::IntersectsWith**](/windows/win32/api/Gdiplustypes/nf-gdiplustypes-rect-intersectswith) method tells you whether the rectangle intersects another given rectangle, and the [Contains](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-contains(inint_inint)) method tells you whether a given point is inside the rectangle.
 
  
 
  
-
-
-

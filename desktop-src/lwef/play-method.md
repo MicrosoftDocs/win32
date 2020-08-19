@@ -42,7 +42,7 @@ When accessing a character's animations using a conventional file protocol, you 
 
 For more information, see the **Get** method.
 
-To simplify your syntax, you can declare an object reference and set it to reference the [**Character**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) object in the [**Characters**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) collection and use the reference as part of your **Play** statements:
+To simplify your syntax, you can declare an object reference and set it to reference the [**Character**](/windows/desktop/lwef/the-characters-object) object in the [**Characters**](/windows/desktop/lwef/the-characters-object) collection and use the reference as part of your **Play** statements:
 
 
 ```
@@ -61,14 +61,10 @@ To simplify your syntax, you can declare an object reference and set it to refer
 
 
 
-If you declare an object reference and set it to this method, it returns a [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object. In addition, if you specify an animation that is not loaded or if the character has not been successfully loaded, the server sets the [**Status**](status-property.md) property of **Request** object to "failed" with an appropriate error number. However, if the animation does not exist and the character's data has already been successfully loaded, the server raises an error.
+If you declare an object reference and set it to this method, it returns a [**Request**](/windows/desktop/lwef/the-request-object) object. In addition, if you specify an animation that is not loaded or if the character has not been successfully loaded, the server sets the [**Status**](status-property.md) property of **Request** object to "failed" with an appropriate error number. However, if the animation does not exist and the character's data has already been successfully loaded, the server raises an error.
 
-The **Play** method does not make the character visible. If the character is not visible, the server plays the animation invisibly, and sets the [**Status**](status-property.md) property of the [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object.
-
- 
+The **Play** method does not make the character visible. If the character is not visible, the server plays the animation invisibly, and sets the [**Status**](status-property.md) property of the [**Request**](/windows/desktop/lwef/the-request-object) object.
 
  
 
-
-
-
+ 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The Server Message Block (SMB) Protocol is a network file sharing protocol, and as implemented in Microsoft Windows is known as Microsoft SMB Protocol. The set of message packets that defines a particular version of the protocol is called a dialect. The Common Internet File System (CIFS) Protocol is a dialect of SMB. Both SMB and CIFS are also available on VMS, several versions of Unix, and other operating systems.
 
-The technical reference to CIFS is available from Microsoft Corporation at [Common Internet File System (CIFS) File Access Protocol](https://msdn.microsoft.com/library/ee442092.aspx).
+The technical reference to CIFS is available from Microsoft Corporation at [Common Internet File System (CIFS) File Access Protocol](/openspecs/windows_protocols/ms-cifs/d416ff7c-c536-406e-a951-4f04b2fd1d2b).
 
 Although its main purpose is file sharing, additional Microsoft SMB Protocol functionality includes the following:
 
@@ -24,7 +24,7 @@ Although its main purpose is file sharing, additional Microsoft SMB Protocol fun
 -   Unicode support
 -   [Opportunistic locks](opportunistic-locks.md)
 
-In the OSI networking model, Microsoft SMB Protocol is most often used as an Application layer or a Presentation layer protocol, and it relies on lower-level protocols for transport. The transport layer protocol that Microsoft SMB Protocol is most often used with is NetBIOS over TCP/IP ([NBT](https://msdn.microsoft.com/library/Bb870909(v=VS.85).aspx)). However, Microsoft SMB Protocol can also be used without a separate transport protocol the Microsoft SMB Protocol/NBT combination is generally used for backward compatibility.
+In the OSI networking model, Microsoft SMB Protocol is most often used as an Application layer or a Presentation layer protocol, and it relies on lower-level protocols for transport. The transport layer protocol that Microsoft SMB Protocol is most often used with is NetBIOS over TCP/IP ([NBT](/previous-versions//bb870909(v=vs.85))). However, Microsoft SMB Protocol can also be used without a separate transport protocol the Microsoft SMB Protocol/NBT combination is generally used for backward compatibility.
 
 The Microsoft SMB Protocol is a client-server implementation and consists of a set of data packets, each containing a request sent by the client or a response sent by the server. These packets can be broadly classified as follows:
 
@@ -49,9 +49,4 @@ Some message packets may be grouped and sent in one transmission to reduce respo
  
 
  
-
- 
-
-
-
 

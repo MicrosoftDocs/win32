@@ -37,8 +37,8 @@ This section describes sample applications that demonstrate how to use Media Fou
 
 | Sample                                            | Description                                                                                                                                                                                                     |
 |---------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [BasicPlayback](https://msdn.microsoft.com/library/Bb970475(v=VS.85).aspx)          | Plays audio and video files by using the [Media Session](media-session.md). This sample demonstrates how to create playback topologies, control the Media Session, and receive session events during playback. |
-| [MFPlayer](https://msdn.microsoft.com/library/Bb970516(v=VS.85).aspx)                    | Demonstrates some playback functions that are not included in the [BasicPlayback](https://msdn.microsoft.com/library/Bb970475(v=VS.85).aspx) sample.                                                                                              |
+| [BasicPlayback](/previous-versions//bb970475(v=vs.85))          | Plays audio and video files by using the [Media Session](media-session.md). This sample demonstrates how to create playback topologies, control the Media Session, and receive session events during playback. |
+| [MFPlayer](/previous-versions//bb970516(v=vs.85))                    | Demonstrates some playback functions that are not included in the [BasicPlayback](/previous-versions//bb970475(v=vs.85)) sample.                                                                                              |
 | [ProtectedPlayback](protectedplayback-sample.md) | Plays protected audio and video files. This sample shows how to use the protected media path (PMP) session and how to use content enabler objects.                                                              |
 
 
@@ -169,7 +169,3 @@ This sample is no longer included in the SDK.
  
 
  
-
-
-
-

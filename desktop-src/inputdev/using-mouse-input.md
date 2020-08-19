@@ -33,13 +33,13 @@ Tracking the cursor typically involves processing the [**WM\_LBUTTONDOWN**](wm-l
 
 A window tracks the position of the cursor by processing the stream of [**WM\_MOUSEMOVE**](wm-mousemove.md) messages posted to the window as the mouse moves. Processing the **WM\_MOUSEMOVE** message typically involves a repetitive painting or drawing operation in the client area. For example, a drawing application might redraw a line repeatedly as the mouse moves. A window uses the [**WM\_LBUTTONUP**](wm-lbuttonup.md) message as a signal to stop tracking the cursor.
 
-In addition, an application can call the [**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx) function to have the system send other messages that are useful for tracking the cursor. The system posts the [**WM\_MOUSEHOVER**](wm-mousehover.md) message when the cursor hovers over the client area for a certain time period. It posts the [**WM\_MOUSELEAVE**](wm-mouseleave.md) message when the cursor leaves the client area. The [**WM\_NCMOUSEHOVER**](wm-ncmousehover.md) and [**WM\_NCMOUSELEAVE**](wm-ncmouseleave.md) messages are the corresponding messages for the nonclient areas.
+In addition, an application can call the [**TrackMouseEvent**](/windows/win32/api/winuser/nf-winuser-trackmouseevent) function to have the system send other messages that are useful for tracking the cursor. The system posts the [**WM\_MOUSEHOVER**](wm-mousehover.md) message when the cursor hovers over the client area for a certain time period. It posts the [**WM\_MOUSELEAVE**](wm-mouseleave.md) message when the cursor leaves the client area. The [**WM\_NCMOUSEHOVER**](wm-ncmousehover.md) and [**WM\_NCMOUSELEAVE**](wm-ncmouseleave.md) messages are the corresponding messages for the nonclient areas.
 
 ## Drawing Lines with the Mouse
 
 The example in this section demonstrates how to track the mouse cursor. It contains portions of a window procedure that enables the user to draw lines in a window's client area by dragging the mouse.
 
-When the window procedure receives a [**WM\_LBUTTONDOWN**](wm-lbuttondown.md) message, it captures the mouse and saves the coordinates of the cursor, using the coordinates as the starting point of the line. It also uses the [**ClipCursor**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clipcursor) function to confine the cursor to the client area during the line drawing operation.
+When the window procedure receives a [**WM\_LBUTTONDOWN**](wm-lbuttondown.md) message, it captures the mouse and saves the coordinates of the cursor, using the coordinates as the starting point of the line. It also uses the [**ClipCursor**](/windows/desktop/api/winuser/nf-winuser-clipcursor) function to confine the cursor to the client area during the line drawing operation.
 
 During the first [**WM\_MOUSEMOVE**](wm-mousemove.md) message, the window procedure draws a line from the starting point to the current position of the cursor. During subsequent **WM\_MOUSEMOVE** messages, the window procedure erases the previous line by drawing over it with an inverted pen color. Then it draws a new line from the starting point to the new position of the cursor.
 
@@ -166,7 +166,7 @@ LRESULT APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lPa
 
 ## Processing a Double Click Message
 
-To receive double-click messages, a window must belong to a window class that has the [**CS\_DBLCLKS**](https://docs.microsoft.com/windows/desktop/winmsg/about-window-classes) class style. You set this style when registering the window class, as shown in the following example.
+To receive double-click messages, a window must belong to a window class that has the [**CS\_DBLCLKS**](/windows/desktop/winmsg/about-window-classes) class style. You set this style when registering the window class, as shown in the following example.
 
 
 ```
@@ -586,7 +586,7 @@ LONG APIENTRY MainWndProc(
 
 ## Retrieving the Number of Mouse Wheel Scroll Lines
 
-The following code allows an application to retrieve the number of scroll lines using the [**SystemParametersInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function.
+The following code allows an application to retrieve the number of scroll lines using the [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function.
 
 
 ```
@@ -650,7 +650,3 @@ UINT GetNumScrollLines(void)
  
 
  
-
-
-
-

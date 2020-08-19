@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 In many situations, the MCI command specifications define the default values and behavior for drivers of a particular device type. Since multimedia devices can have a wide range of features (and limitations), there can be undefined areas of behavior. Also, drivers might handle exceptions differently, based on the capabilities of the device.
 
-For example, consider the following commands sent to a waveform-audio driver using the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function:
+For example, consider the following commands sent to a waveform-audio driver using the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function:
 
 
 ```C++
@@ -29,7 +29,3 @@ The [**record**](record.md) command returns a "Parameter out of range" value and
  
 
  
-
-
-
-

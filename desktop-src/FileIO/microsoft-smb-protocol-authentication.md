@@ -14,11 +14,8 @@ User-level authentication indicates that the client attempting to access a share
 
 Share-level authentication indicates that access to a share is controlled by a password assigned to that share only. Unlike user-level security, this security level does not require a user name for authentication and no user identity is established.
 
-Under both of these security levels, the password is encrypted before it is sent to the server. [NTLM](https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-ntlm) and the older LAN Manager (LM) encryption are supported by Microsoft SMB Protocol. Both encryption methods use challenge-response authentication, where the server sends the client a random string and the client returns a computed response string that proves the client has sufficient credentials for access.
+Under both of these security levels, the password is encrypted before it is sent to the server. [NTLM](/windows/desktop/SecAuthN/microsoft-ntlm) and the older LAN Manager (LM) encryption are supported by Microsoft SMB Protocol. Both encryption methods use challenge-response authentication, where the server sends the client a random string and the client returns a computed response string that proves the client has sufficient credentials for access.
 
  
 
  
-
-
-

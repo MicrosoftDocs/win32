@@ -62,7 +62,7 @@ The application should return one of the following values.
 
 ## Remarks
 
-The application can call the [**DoDragDrop**](https://msdn.microsoft.com/library/ms678486(v=VS.85).aspx) function in response to this message.
+The application can call the [**DoDragDrop**](/windows/win32/api/ole2/nf-ole2-dodragdrop) function in response to this message.
 
 To create a drag-and-drop menu, call [**SetMenuInfo**](/windows/desktop/api/Winuser/nf-winuser-setmenuinfo) with **MNS\_DRAGDROP**.
 
@@ -95,10 +95,4 @@ To create a drag-and-drop menu, call [**SetMenuInfo**](/windows/desktop/api/Winu
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

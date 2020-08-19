@@ -53,13 +53,13 @@ The **Msvm\_AffectedJobElement** class has these properties.
 **AffectedElement**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
+Data type: **[**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-The managed element affected by the execution of the job. This property is inherited from [**CIM\_AffectedJobElement**](https://docs.microsoft.com/previous-versions//cc150663(v=vs.85)).
+The managed element affected by the execution of the job. This property is inherited from [**CIM\_AffectedJobElement**](/previous-versions//cc150663(v=vs.85)).
 
 </dd> <dt>
 
@@ -72,7 +72,7 @@ Data type: **[**Msvm\_ConcreteJob**](msvm-concretejob.md)**
 Access type: Read-only
 </dt> </dl>
 
-The job that is affecting the managed element. This property is inherited from [**CIM\_AffectedJobElement**](https://docs.microsoft.com/previous-versions//cc150663(v=vs.85)).
+The job that is affecting the managed element. This property is inherited from [**CIM\_AffectedJobElement**](/previous-versions//cc150663(v=vs.85)).
 
 </dd> <dt>
 
@@ -85,7 +85,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-An enumeration that describes the effect on the managed element. This property is inherited from [**CIM\_AffectedJobElement**](https://docs.microsoft.com/previous-versions//cc150663(v=vs.85)).
+An enumeration that describes the effect on the managed element. This property is inherited from [**CIM\_AffectedJobElement**](/previous-versions//cc150663(v=vs.85)).
 
 </dd> <dt>
 
@@ -98,13 +98,13 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Provides details for the effect at the corresponding array position in **ElementEffects**. This property is inherited from [**CIM\_AffectedJobElement**](https://docs.microsoft.com/previous-versions//cc150663(v=vs.85)).
+Provides details for the effect at the corresponding array position in **ElementEffects**. This property is inherited from [**CIM\_AffectedJobElement**](/previous-versions//cc150663(v=vs.85)).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_AffectedJobElement** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_AffectedJobElement** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -127,16 +127,11 @@ Access to the **Msvm\_AffectedJobElement** class might be restricted by UAC Filt
 [**CIM\_AffectedJobElement**](cim-affectedjobelement.md)
 </dt> <dt>
 
-[**CIM\_AffectedJobElement**](https://docs.microsoft.com/previous-versions//cc150663(v=vs.85))
+[**CIM\_AffectedJobElement**](/previous-versions//cc150663(v=vs.85))
 </dt> <dt>
 
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

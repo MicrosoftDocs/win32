@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 This topic lists the methods of the [**Metafile**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile) class. For a complete class listing, see **Metafile Class**.
 
 -   [**Clone**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-clone)
--   [**ConvertToEmfPlus**](https://msdn.microsoft.com/library/ms535281(v=VS.85).aspx)
--   [**ConvertToEmfPlus**](https://msdn.microsoft.com/library/ms535282(v=VS.85).aspx)
--   [**ConvertToEmfPlus**](https://msdn.microsoft.com/library/ms535283(v=VS.85).aspx)
+-   [**ConvertToEmfPlus**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-converttoemfplus(inconstgraphics_inoutint_inemftype_inconstwchar))
+-   [**ConvertToEmfPlus**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-converttoemfplus(inconstgraphics_inistream_inoutint_inemftype_inconstwchar))
+-   [**ConvertToEmfPlus**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-converttoemfplus(inconstgraphics_inconstwchar_inoutint_inemftype_inconstwchar))
 -   [**EmfToWmfBits**](/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-emftowmfbits)
 -   [**FindFirstItem**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-findfirstitem)
 -   [**FindNextItem**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-findnextitem)
@@ -33,11 +33,11 @@ This topic lists the methods of the [**Metafile**](/windows/desktop/api/gdiplush
 -   [**GetHorizontalResolution**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-gethorizontalresolution)
 -   [**GetItemData**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-getitemdata)
 -   [**GetLastStatus**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-getlaststatus)
--   [**GetMetafileHeader(WCHAR\*,MetafileHeader\*)**](https://msdn.microsoft.com/library/ms535276(v=VS.85).aspx)
--   [**GetMetafileHeader(HENHMETAFILE\*,MetafileHeader\*)**](https://msdn.microsoft.com/library/ms535277(v=VS.85).aspx)
--   [**GetMetafileHeader(HMETAFILE,WmfPlaceableFileHeader\*,MetafileHeader\*)**](https://msdn.microsoft.com/library/ms535278(v=VS.85).aspx)
--   [**GetMetafileHeader(MetafileHeader\*)**](https://msdn.microsoft.com/library/ms535279(v=VS.85).aspx)
--   [**GetMetafileHeader(IStream\*,MetafileHeader\*)**](https://msdn.microsoft.com/library/ms535280(v=VS.85).aspx)
+-   [**GetMetafileHeader(WCHAR\*,MetafileHeader\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(inconstwchar_outmetafileheader))
+-   [**GetMetafileHeader(HENHMETAFILE\*,MetafileHeader\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(inhenhmetafile_outmetafileheader))
+-   [**GetMetafileHeader(HMETAFILE,WmfPlaceableFileHeader\*,MetafileHeader\*)**](/previous-versions//ms535278(v=vs.85))
+-   [**GetMetafileHeader(MetafileHeader\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(outmetafileheader))
+-   [**GetMetafileHeader(IStream\*,MetafileHeader\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(inistream_outmetafileheader))
 -   [**GetPalette**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-getpalette)
 -   [**GetPaletteSize**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-getpalettesize)
 -   [**GetPhysicalDimension**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-getphysicaldimension)
@@ -55,10 +55,10 @@ This topic lists the methods of the [**Metafile**](/windows/desktop/api/gdiplush
 -   [**PlayRecord**](/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-playrecord)
 -   [**RemovePropertyItem**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-removepropertyitem)
 -   [**RotateFlip**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-rotateflip)
--   [**Save(IStream\*,CLSID\*,EncoderParameters\*)**](https://msdn.microsoft.com/library/ms535406(v=VS.85).aspx)
--   [**Save(WCHAR\*,CLSID\*,EncoderParameters\*)**](https://msdn.microsoft.com/library/ms535407(v=VS.85).aspx)
--   [**SaveAdd(EncoderParameters\*)**](https://msdn.microsoft.com/library/ms535408(v=VS.85).aspx)
--   [**SaveAdd(Image\*,EncoderParameters\*)**](https://msdn.microsoft.com/library/ms535409(v=VS.85).aspx)
+-   [**Save(IStream\*,CLSID\*,EncoderParameters\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-save(inistream_inconstclsid_inconstencoderparameters))
+-   [**Save(WCHAR\*,CLSID\*,EncoderParameters\*)**](/previous-versions//ms535407(v=vs.85))
+-   [**SaveAdd(EncoderParameters\*)**](/previous-versions//ms535408(v=vs.85))
+-   [**SaveAdd(Image\*,EncoderParameters\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-saveadd(inimage_inconstencoderparameters))
 -   [**SelectActiveFrame**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-selectactiveframe)
 -   [**SetAbort**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-setabort)
 -   [**SetDownLevelRasterizationLimit**](/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-setdownlevelrasterizationlimit)
@@ -68,6 +68,3 @@ This topic lists the methods of the [**Metafile**](/windows/desktop/api/gdiplush
  
 
  
-
-
-

@@ -24,9 +24,9 @@ Direct3D:
 
 The Direct3D APIs that you choose depend on the style of app you want to write.
 
--   If you want to write a UWP app, use a subset of Direct3D 11, DXGI, and HLSL APIs. For a list of these APIs, see [Win32 and COM APIs for UWP apps](https://docs.microsoft.com/uwp/win32-and-com/win32-and-com-for-uwp-apps). To learn how to write a Direct3D 11 Windows Store app, see [Create 3D graphics with DirectX](https://docs.microsoft.com/previous-versions/windows/apps/hh465137(v=win.10)).
+-   If you want to write a UWP app, use a subset of Direct3D 11, DXGI, and HLSL APIs. For a list of these APIs, see [Win32 and COM APIs for UWP apps](/uwp/win32-and-com/win32-and-com-for-uwp-apps). To learn how to write a Direct3D 11 Windows Store app, see [Create 3D graphics with DirectX](/previous-versions/windows/apps/hh465137(v=win.10)).
 -   If you write a desktop app, you can use the full set of Direct3D 11, DXGI, and HLSL APIs.
--   Starting with Windows 8, we no longer actively support the XNA framework for desktop apps. But Windows Store apps, UWP apps, and desktop apps can use the full set of the [XAudio2](https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-apis-portal) and [DirectXMath](https://docs.microsoft.com/windows/desktop/dxmath/directxmath-portal) APIs. Desktop apps can use the full set of the [XInput](https://docs.microsoft.com/windows/desktop/xinput/xinput-game-controller-apis-portal) APIs, while Windows Store apps and UWP apps can use most of the XInput APIs; for more info, see [XInput Versions](https://docs.microsoft.com/windows/desktop/xinput/xinput-versions).
+-   Starting with Windows 8, we no longer actively support the XNA framework for desktop apps. But Windows Store apps, UWP apps, and desktop apps can use the full set of the [XAudio2](/windows/desktop/xaudio2/xaudio2-apis-portal) and [DirectXMath](/windows/desktop/dxmath/directxmath-portal) APIs. Desktop apps can use the full set of the [XInput](/windows/desktop/xinput/xinput-game-controller-apis-portal) APIs, while Windows Store apps and UWP apps can use most of the XInput APIs; for more info, see [XInput Versions](/windows/desktop/xinput/xinput-versions).
 
 ## Which Direct3D version?
 
@@ -39,7 +39,7 @@ The Direct3D API version that you choose depends on the operating system and har
 
 ## Direct3D Rendering Pipeline
 
-In the Direct3D [rendering pipeline](https://msdn.microsoft.com/library/Ff476882(v=VS.85).aspx), data flows from several sources, like the tributaries of a river.
+In the Direct3D [rendering pipeline](./direct3d11/overviews-direct3d-11-graphics-pipeline.md), data flows from several sources, like the tributaries of a river.
 
 -   Some parts of the flow are programmable.
 -   Some parts have knobs and dials.
@@ -49,4 +49,4 @@ In the Direct3D [rendering pipeline](https://msdn.microsoft.com/library/Ff476882
 
 ## Direct3D Compute Shader
 
-With the Direct3D [compute shader](https://msdn.microsoft.com/library/Ff476331(v=VS.85).aspx), all the GPU's processors execute in parallel. So the compute shader behaves more like a pond than a river.
+With the Direct3D [compute shader](./direct3d11/direct3d-11-advanced-stages-compute-shader.md), all the GPU's processors execute in parallel. So the compute shader behaves more like a pond than a river.

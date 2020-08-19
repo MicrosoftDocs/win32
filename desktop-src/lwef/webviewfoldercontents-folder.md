@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # WebViewFolderContents.Folder property
 
-Gets a [**Folder**](/windows/win32/shell/folder) object that represents the view.
+Gets a [**Folder**](../shell/folder.md) object that represents the view.
 
 This property is read-only.
 
@@ -35,7 +35,7 @@ Folder = WebViewFolderContents.Folder
 
 ## Property value
 
-An object that receives the [**Folder**](/windows/win32/shell/folder) object.
+An object that receives the [**Folder**](../shell/folder.md) object.
 
 ## Examples
 
@@ -88,10 +88,4 @@ The following example shows the proper usage of this property in JScript embedde
 
 
  
-
- 
-
-
-
-
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MsiNTSuiteWebServer property
 
-On Windows 2000 and later operating systems, the installer sets the **MsiNTSuiteWebServer** property to 1 if the installer is running on a web edition of the Windows Server 2003. The installer sets this property to 1 only if the VER\_SUITE\_BLADE flag is set in the [**OSVERSIONINFOEX**](https://msdn.microsoft.com/library/ms724833(v=VS.85).aspx) structure. Otherwise the installer does not set this property.
+On Windows 2000 and later operating systems, the installer sets the **MsiNTSuiteWebServer** property to 1 if the installer is running on a web edition of the Windows Server 2003. The installer sets this property to 1 only if the VER\_SUITE\_BLADE flag is set in the [**OSVERSIONINFOEX**](/windows/win32/api/winnt/ns-winnt-osversioninfoexa) structure. Otherwise the installer does not set this property.
 
 ## Remarks
 
@@ -37,7 +37,3 @@ This property is available only with the Windows Server 2003 release of the ins
  
 
  
-
-
-
-

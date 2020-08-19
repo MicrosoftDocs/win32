@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Sending a Command
 
-The following example function sends the [**play**](play.md) command with the "from" and "to" flags using the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function.
+The following example function sends the [**play**](play.md) command with the "from" and "to" flags using the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function.
 
 
 ```C++
@@ -47,7 +47,3 @@ BOOL PlayFromTo(LPTSTR lpstrAlias, DWORD dwFrom, DWORD dwTo)
  
 
  
-
-
-
-

@@ -73,7 +73,7 @@ public static void JetGetDatabaseInfo(
 <!-- end list -->
 
   - value  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The value to be retrieved.
 
@@ -95,4 +95,3 @@ public static void JetGetDatabaseInfo(
 [JetGetDatabaseInfo overload](dn292163\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

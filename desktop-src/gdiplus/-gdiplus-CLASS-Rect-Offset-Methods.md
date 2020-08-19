@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Rect.Offset methods
 
-This topic lists the Offset methods of the [**Rect**](https://msdn.microsoft.com/library/ms534495(v=VS.85).aspx) class. For a complete list of methods for the **Rect** class, see [Rect Methods](-gdiplus-class-rect-methods.md).
+This topic lists the Offset methods of the [**Rect**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-rect) class. For a complete list of methods for the **Rect** class, see [Rect Methods](-gdiplus-class-rect-methods.md).
 
 ### Overload list
 
@@ -16,15 +16,11 @@ This topic lists the Offset methods of the [**Rect**](https://msdn.microsoft.com
 
 | Method                                                       | Description                                                                                         |
 |:-------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
-| [**Offset(Point&)**](https://msdn.microsoft.com/library/ms534979(v=VS.85).aspx)  | The [**Rect::Offset**](https://msdn.microsoft.com/library/ms534979(v=VS.85).aspx)*point*.**X***point*.**Y**.<br/> |
-| [**Offset(INT,INT)**](https://msdn.microsoft.com/library/ms534978(v=VS.85).aspx) | The [**Rect::Offset**](https://msdn.microsoft.com/library/ms534978(v=VS.85).aspx)*dxdy* vertically.<br/>          |
+| [**Offset(Point&)**](/previous-versions//ms534979(v=vs.85))  | The [**Rect::Offset**](/previous-versions//ms534979(v=vs.85))*point*.**X***point*.**Y**.<br/> |
+| [**Offset(INT,INT)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-offset(inint_inint)) | The [**Rect::Offset**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-offset(inint_inint))*dxdy* vertically.<br/>          |
 
 
 
  
 
  
-
-
-
-

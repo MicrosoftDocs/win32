@@ -79,7 +79,7 @@ public static Nullable<long> RetrieveColumnAsInt64(
 
 #### Return value
 
-Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN)\>  
+Type: [System.Nullable](/dotnet/api/system.nullable-1)\<[Int64](/dotnet/api/system.int64)\>  
 The data retrieved from the column as a long. Null if the column is null.  
 
 ## See also
@@ -93,4 +93,3 @@ The data retrieved from the column as a long. Null if the column is null.
 [RetrieveColumnAsInt64 overload](dn334101\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

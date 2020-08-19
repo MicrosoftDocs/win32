@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # MMIOM\_RENAME message
 
-The **MMIOM\_RENAME** message is sent to an I/O procedure by the [**mmioRename**](https://msdn.microsoft.com/library/Dd757335(v=VS.85).aspx) function to request that the specified file be renamed.
+The **MMIOM\_RENAME** message is sent to an I/O procedure by the [**mmioRename**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiorename) function to request that the specified file be renamed.
 
 
 ```C++
@@ -64,10 +64,4 @@ If the file is renamed successfully, the return value is zero. If the specified 
 
 
  
-
- 
-
-
-
-
 

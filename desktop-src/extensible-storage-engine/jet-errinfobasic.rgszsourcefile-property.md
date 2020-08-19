@@ -57,7 +57,7 @@ public string rgszSourceFile { get; set; }
 
 #### Property value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+Type: [System.String](/dotnet/api/system.string)  
 
 ## See also
 
@@ -68,4 +68,3 @@ Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redire
 [JET_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-

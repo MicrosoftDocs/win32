@@ -92,7 +92,7 @@ Specifies the mode for the compact operation. This must be one of the following 
 *Job* \[out\]
 </dt> <dd>
 
-Type: **[**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85))**
+Type: **[**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85))**
 
 A reference to the job (can be **Null** if the task is completed).
 
@@ -158,7 +158,7 @@ Only the following types of virtual hard disks can be used with this method:
 -   Differencing VHD
 -   Differencing VHDX
 
-Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -226,16 +226,11 @@ public static void CompactVirtualHardDisk(string vhdPath, VirtualHardDiskCompact
 
 <dl> <dt>
 
-[**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85))
+[**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85))
 </dt> <dt>
 
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

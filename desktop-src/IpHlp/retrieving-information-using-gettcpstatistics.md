@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Retrieving Information Using GetTcpStatistics
 
-The [**GetTcpStatistics**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-gettcpstatistics) function fills a pointer to an [**MIB\_TCPSTATS**](https://msdn.microsoft.com/library/Aa366915(v=VS.85).aspx) structure with information on the TCP protocol statistics for the local computer.
+The [**GetTcpStatistics**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-gettcpstatistics) function fills a pointer to an [**MIB\_TCPSTATS**](/windows/win32/api/tcpmib/ns-tcpmib-mib_tcpstats_lh) structure with information on the TCP protocol statistics for the local computer.
 
 **To use GetTcpStatistics**
 
 1.  Declare some variables that are needed.
 
-    Declare a **DWORD** variable `dwRetVal` that will be using for error checking function calls. Declare a pointer to an [**MIB\_TCPSTATS**](https://msdn.microsoft.com/library/Aa366915(v=VS.85).aspx) variable called *pTCPStats*, and allocate memory for the structure. Check that memory could be allocated.
+    Declare a **DWORD** variable `dwRetVal` that will be using for error checking function calls. Declare a pointer to an [**MIB\_TCPSTATS**](/windows/win32/api/tcpmib/ns-tcpmib-mib_tcpstats_lh) variable called *pTCPStats*, and allocate memory for the structure. Check that memory could be allocated.
 
     ```C++
     DWORD dwRetVal = 0;
@@ -37,7 +37,7 @@ The [**GetTcpStatistics**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-gettcpstati
 
     
 
-3.  If the call was successful, access the data returned in the [**MIB\_TCPSTATS**](https://msdn.microsoft.com/library/Aa366915(v=VS.85).aspx) pointed to by the *pTCPStats* parameter.
+3.  If the call was successful, access the data returned in the [**MIB\_TCPSTATS**](/windows/win32/api/tcpmib/ns-tcpmib-mib_tcpstats_lh) pointed to by the *pTCPStats* parameter.
     ```C++
     printf("\tNumber of active opens:  %u\n", pTCPStats->dwActiveOpens);
     printf("\tNumber of passive opens: %u\n", pTCPStats->dwPassiveOpens);
@@ -48,7 +48,7 @@ The [**GetTcpStatistics**](/windows/desktop/api/Iphlpapi/nf-iphlpapi-gettcpstati
 
     
 
-4.  Free the memory allocated for the [**MIB\_TCPSTATS**](https://msdn.microsoft.com/library/Aa366915(v=VS.85).aspx) structure pointed to by the *pTCPStats* parameter. This should be done once the application no longer needs the data returned by the *pTCPStats* parameter.
+4.  Free the memory allocated for the [**MIB\_TCPSTATS**](/windows/win32/api/tcpmib/ns-tcpmib-mib_tcpstats_lh) structure pointed to by the *pTCPStats* parameter. This should be done once the application no longer needs the data returned by the *pTCPStats* parameter.
     ```C++
     if (pTCPStats)
         free(pTCPStats);
@@ -67,6 +67,3 @@ Previous Step: [Retrieving Information Using GetIpStatistics](retrieving-informa
  
 
  
-
-
-

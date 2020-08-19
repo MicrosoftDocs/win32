@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Region.Translate methods
 
-This topic lists the Translate methods of the [**Region**](https://msdn.microsoft.com/library/ms534501(v=VS.85).aspx) class. For a complete list of methods for the **Region** class, see [Region Methods](-gdiplus-class-region-methods.md).
+This topic lists the Translate methods of the [**Region**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-region) class. For a complete list of methods for the **Region** class, see [Region Methods](-gdiplus-class-region-methods.md).
 
 ### Overload list
 
@@ -16,15 +16,11 @@ This topic lists the Translate methods of the [**Region**](https://msdn.microsof
 
 | Method                                                                           | Description                                                                                                                                                                             |
 |:---------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Translate(INT,INT)**](https://msdn.microsoft.com/library/ms534794(v=VS.85).aspx)     | The [**Region::Translate**](https://msdn.microsoft.com/library/ms534794(v=VS.85).aspx) method offsets this region by specified amounts in the horizontal and vertical directions.<br/>   |
-| [**Translate(REAL,REAL)**](https://msdn.microsoft.com/library/ms534793(v=VS.85).aspx) | The [**Region::Translate**](https://msdn.microsoft.com/library/ms534793(v=VS.85).aspx) method offsets this region by specified amounts in the horizontal and vertical directions.<br/> |
+| [**Translate(INT,INT)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-translate(inint_inint))     | The [**Region::Translate**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-translate(inint_inint)) method offsets this region by specified amounts in the horizontal and vertical directions.<br/>   |
+| [**Translate(REAL,REAL)**](/previous-versions//ms534793(v=vs.85)) | The [**Region::Translate**](/previous-versions//ms534793(v=vs.85)) method offsets this region by specified amounts in the horizontal and vertical directions.<br/> |
 
 
 
  
 
  
-
-
-
-

@@ -51,7 +51,7 @@ This value is unused and ignored by the system.
 
 ## Remarks
 
-There is no default handling of this message in [DefWindowProc](https://msdn.microsoft.com/library/windows/desktop/ms633572.aspx(d=robot)).
+There is no default handling of this message in [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
 This message is only sent when the top-level window has a DPI awareness context of PMv2.
 
@@ -78,10 +78,4 @@ This message is only sent when the top-level window has a DPI awareness context 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

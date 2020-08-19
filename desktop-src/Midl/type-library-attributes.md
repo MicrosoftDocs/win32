@@ -58,7 +58,7 @@ The following keywords specify type library information within the context of a 
 | [**source**](source.md)                     | Indicates that a member of a [**coclass**](coclass.md), property, or method is a source of events.                                                                                                                                                                                                                                                                                                    |
 | [**string**](string.md)                     | Indicates that the one-dimensional [**char**](char-idl.md), [**wchar\_t**](wchar-t.md), [**byte**](byte.md) (or equivalent) array or the pointer to such an array must be treated as a string.                                                                                                                                                                                                      |
 | [**uidefault**](uidefault.md)               | Indicates that the type information member is the default member for display in the user interface.                                                                                                                                                                                                                                                                                                    |
-| [**usesgetlasterror**](usesgetlasterror.md) | Specifies that a module entry point uses [**SetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) to return error codes and that a caller can then call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to retrieve the error code if there is an error on entering a function.                                                                                                                                                     |
+| [**usesgetlasterror**](usesgetlasterror.md) | Specifies that a module entry point uses [**SetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) to return error codes and that a caller can then call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to retrieve the error code if there is an error on entering a function.                                                                                                                                                     |
 | [**uuid**](uuid.md)                         | Designates a unique identifier for a type library, [**coclass**](coclass.md), or interface.                                                                                                                                                                                                                                                                                                           |
 | [**vararg**](vararg.md)                     | Specifies that the function takes a variable number of arguments.                                                                                                                                                                                                                                                                                                                                      |
 | [**version**](version.md)                   | Identifies a particular version of a type library.                                                                                                                                                                                                                                                                                                                                                     |
@@ -71,10 +71,10 @@ The following keywords specify type library information within the context of a 
 
 <dl> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> <dt>
 
-[ODL File Example](https://msdn.microsoft.com/library/ms221308(v=VS.71).aspx)
+[ODL File Example](/previous-versions/windows/desktop/automat/odl-file-example)
 </dt> <dt>
 
 [Generating a Type Library With MIDL](generating-a-type-library-with-midl-2.md)
@@ -83,7 +83,3 @@ The following keywords specify type library information within the context of a 
  
 
  
-
-
-
-

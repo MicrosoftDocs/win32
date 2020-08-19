@@ -60,14 +60,8 @@ A pointer to a **boolean** that indicates if the device supports muting the audi
 
 <dl> <dt>
 
-[**ActiveBasicDevice**](https://msdn.microsoft.com/library/Dn385755(v=VS.85).aspx)
+[**ActiveBasicDevice**](/previous-versions/windows/desktop/legacy/dn385755(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

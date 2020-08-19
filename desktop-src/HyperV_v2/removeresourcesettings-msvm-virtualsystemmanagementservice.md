@@ -38,14 +38,14 @@ uint32 RemoveResourceSettings(
 *ResourceSettings* \[in\]
 </dt> <dd>
 
-An array of references to instances of the [**CIM\_ResourceAllocationSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata) class, where each instance represents the settings of a virtual resource within a virtual machine configuration that are to be removed.
+An array of references to instances of the [**CIM\_ResourceAllocationSettingData**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata) class, where each instance represents the settings of a virtual resource within a virtual machine configuration that are to be removed.
 
 </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -107,9 +107,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

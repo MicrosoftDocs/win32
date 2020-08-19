@@ -8,7 +8,7 @@ ms.topic: reference
 
 # GraphicsPath.AddCurve methods
 
-This topic lists the AddCurve methods of the [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx).
+This topic lists the AddCurve methods of the [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath).
 
 ### Overload list
 
@@ -16,12 +16,12 @@ This topic lists the AddCurve methods of the [**GraphicsPath**](https://msdn.mic
 
 | Method                                                                                                                                              | Description                                                                                                                                                                                                             |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AddCurve(Point\*,INT)**](https://msdn.microsoft.com/library/ms535609(v=VS.85).aspx)                                                       | The [**GraphicsPath::AddCurve**](https://msdn.microsoft.com/library/ms535609(v=VS.85).aspx) method adds a cardinal spline to the current figure of this path.<br/>                                         |
-| [**AddCurve(PointF\*,INT)**](https://msdn.microsoft.com/library/ms535611(v=VS.85).aspx)                                                     | The [**GraphicsPath::AddCurve**](https://msdn.microsoft.com/library/ms535611(v=VS.85).aspx) method adds a cardinal spline to the current figure of this path.<br/>                                        |
-| [**AddCurve(Point\*,INT,REAL)**](https://msdn.microsoft.com/library/ms535613(v=VS.85).aspx)                                     | The [**GraphicsPath::AddCurve**](https://msdn.microsoft.com/library/ms535613(v=VS.85).aspx) method adds a cardinal spline to the current figure of this path.<br/>                            |
-| [**AddCurve(PointF\*,INT,REAL)**](https://msdn.microsoft.com/library/ms535610(v=VS.85).aspx)                                   | The [**GraphicsPath::AddCurve**](https://msdn.microsoft.com/library/ms535610(v=VS.85).aspx) method adds a cardinal spline to the current figure of this path.<br/>                           |
-| [**AddCurve(Point\*,INT,INT,INT,REAL)**](https://msdn.microsoft.com/library/ms535612(v=VS.85).aspx)  | The [**GraphicsPath::AddCurve**](https://msdn.microsoft.com/library/ms535612(v=VS.85).aspx) method adds a cardinal spline to the current figure of this path.<br/> |
-| [**AddCurve(PointF\*,INT,INT,INT,REAL)**](https://msdn.microsoft.com/library/ms535614(v=VS.85).aspx) | The [**GraphicsPath::AddCurve**](https://msdn.microsoft.com/library/ms535614(v=VS.85).aspx) method adds a cardinal spline to the current figure of this path.<br/> |
+| [**AddCurve(Point\*,INT)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addcurve(inconstpoint_inint))                                                       | The [**GraphicsPath::AddCurve**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addcurve(inconstpoint_inint)) method adds a cardinal spline to the current figure of this path.<br/>                                         |
+| [**AddCurve(PointF\*,INT)**](/previous-versions//ms535611(v=vs.85))                                                     | The [**GraphicsPath::AddCurve**](/previous-versions//ms535611(v=vs.85)) method adds a cardinal spline to the current figure of this path.<br/>                                        |
+| [**AddCurve(Point\*,INT,REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addcurve(inconstpoint_inint_inreal))                                     | The [**GraphicsPath::AddCurve**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addcurve(inconstpoint_inint_inreal)) method adds a cardinal spline to the current figure of this path.<br/>                            |
+| [**AddCurve(PointF\*,INT,REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addcurve(inconstpointf_inint_inreal))                                   | The [**GraphicsPath::AddCurve**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addcurve(inconstpointf_inint_inreal)) method adds a cardinal spline to the current figure of this path.<br/>                           |
+| [**AddCurve(Point\*,INT,INT,INT,REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addcurve(inconstpoint_inint_inint_inint_inreal))  | The [**GraphicsPath::AddCurve**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addcurve(inconstpoint_inint_inint_inint_inreal)) method adds a cardinal spline to the current figure of this path.<br/> |
+| [**AddCurve(PointF\*,INT,INT,INT,REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addcurve(inconstpointf_inint_inint_inint_inreal)) | The [**GraphicsPath::AddCurve**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addcurve(inconstpointf_inint_inint_inint_inreal)) method adds a cardinal spline to the current figure of this path.<br/> |
 
 
 
@@ -38,7 +38,3 @@ This topic lists the AddCurve methods of the [**GraphicsPath**](https://msdn.mic
  
 
  
-
-
-
-

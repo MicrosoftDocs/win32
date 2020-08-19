@@ -57,25 +57,25 @@ public string ToString(
 #### Parameters
 
   - format  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
-    The [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) specifying the format to use. -or- null to use the default format defined for the type of the [IFormattable](https://docs.microsoft.com/dotnet/api/system.iformattable?redirectedfrom=MSDN) implementation.
+    The [String](/dotnet/api/system.string) specifying the format to use. -or- null to use the default format defined for the type of the [IFormattable](/dotnet/api/system.iformattable) implementation.
 
 <!-- end list -->
 
   - formatProvider  
-    Type: [System.IFormatProvider](https://docs.microsoft.com/dotnet/api/system.iformatprovider?redirectedfrom=MSDN)  
+    Type: [System.IFormatProvider](/dotnet/api/system.iformatprovider)  
     
-    The [IFormatProvider](https://docs.microsoft.com/dotnet/api/system.iformatprovider?redirectedfrom=MSDN) to use to format the value. -or- null to obtain the numeric format information from the current locale setting of the operating system.
+    The [IFormatProvider](/dotnet/api/system.iformatprovider) to use to format the value. -or- null to obtain the numeric format information from the current locale setting of the operating system.
 
 #### Return value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
-A [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) containing the value of the current instance in the specified format.  
+Type: [System.String](/dotnet/api/system.string)  
+A [String](/dotnet/api/system.string) containing the value of the current instance in the specified format.  
 
 #### Implements
 
-[IFormattable.ToString(String, IFormatProvider)](https://docs.microsoft.com/dotnet/api/system.iformattable.tostring?redirectedfrom=MSDN#System_IFormattable_ToString_System_String_System_IFormatProvider_)  
+[IFormattable.ToString(String, IFormatProvider)](/dotnet/api/system.iformattable.tostring#System_IFormattable_ToString_System_String_System_IFormatProvider_)  
 
 ## See also
 
@@ -88,4 +88,3 @@ A [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MS
 [ToString overload](hh558497\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

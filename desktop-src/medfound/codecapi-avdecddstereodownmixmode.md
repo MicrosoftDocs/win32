@@ -20,7 +20,7 @@ Specifies the stereo downmix mode for a Dolby Digital audio decoder.
 
 ## Property value
 
-The value of this property is a member of the [**eAVDecDDStereoDownMixMode**](https://msdn.microsoft.com/library/Hh447683(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVDecDDStereoDownMixMode**](/windows/win32/api/codecapi/ne-codecapi-eavdecddstereodownmixmode) enumeration.
 
 ## Remarks
 
@@ -45,13 +45,8 @@ This attribute applies when the input to the decoder is multichannel PCM audio, 
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> <dt>
 
-[**ICodecAPI**](https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi)
+[**ICodecAPI**](/windows/desktop/api/strmif/nn-strmif-icodecapi)
 </dt> </dl>
 
  
-
- 
-
-
-
 

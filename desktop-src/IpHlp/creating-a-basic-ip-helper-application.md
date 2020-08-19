@@ -71,9 +71,9 @@ ms.date: 05/31/2018
 
     > [!Note]
     >
-    > This basic IP Helper application only uses some IP address data structures and IP address to string conversion functions from Windows Sockets 2.0. These Windows Sockets functions can be used without calling [**WSAStartup**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup) to initialize Windows Sockets resources and [**WSACleanup**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacleanup) when done using these resources.
+    > This basic IP Helper application only uses some IP address data structures and IP address to string conversion functions from Windows Sockets 2.0. These Windows Sockets functions can be used without calling [**WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) to initialize Windows Sockets resources and [**WSACleanup**](/windows/desktop/api/winsock/nf-winsock-wsacleanup) when done using these resources.
     >
-    > In IP Helper applications that use other Winsock functions other than these IP address to string functions, the [**WSAStartup**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup) function must be called to initialize Windows Sockets resources before calling any Windows Sockets functions and [**WSACleanup**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacleanup) should be called when the application is done using Windows Sockets resources.
+    > In IP Helper applications that use other Winsock functions other than these IP address to string functions, the [**WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) function must be called to initialize Windows Sockets resources before calling any Windows Sockets functions and [**WSACleanup**](/windows/desktop/api/winsock/nf-winsock-wsacleanup) should be called when the application is done using Windows Sockets resources.
 
      
 
@@ -88,6 +88,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-

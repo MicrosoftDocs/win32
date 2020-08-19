@@ -20,7 +20,7 @@ This section describes the functions and structures associated with multimedia t
 
 ## Retrieving the System Time
 
--   [**MMTIME**](https://msdn.microsoft.com/library/Dd757347(v=VS.85).aspx)
+-   [**MMTIME**](/previous-versions//dd757347(v=vs.85))
 -   [**timeGetSystemTime**](/windows/desktop/api/TimeAPI/nf-timeapi-timegetsystemtime)
 -   [**timeGetTime**](/windows/desktop/api/TimeAPI/nf-timeapi-timegettime)
 
@@ -31,9 +31,9 @@ This section describes the functions and structures associated with multimedia t
 
 ## Time Events
 
--   [**timeKillEvent**](https://msdn.microsoft.com/library/Dd757630(v=VS.85).aspx)
--   [**TimeProc**](https://msdn.microsoft.com/library/Dd757631(v=VS.85).aspx)
--   [**timeSetEvent**](https://msdn.microsoft.com/library/Dd757634(v=VS.85).aspx)
+-   [**timeKillEvent**](/previous-versions//dd757630(v=vs.85))
+-   [**TimeProc**](/previous-versions//dd757631(v=vs.85))
+-   [**timeSetEvent**](/previous-versions//dd757634(v=vs.85))
 
 ## Time Periods
 
@@ -50,7 +50,3 @@ This section describes the functions and structures associated with multimedia t
  
 
  
-
-
-
-

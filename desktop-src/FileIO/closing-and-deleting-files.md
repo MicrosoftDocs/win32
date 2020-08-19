@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Closing and Deleting Files
 
-To use operating system resources efficiently, an application should close files when they are no longer needed by using the [**CloseHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle) function. If a file is open when an application terminates, the system closes it automatically.
+To use operating system resources efficiently, an application should close files when they are no longer needed by using the [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle) function. If a file is open when an application terminates, the system closes it automatically.
 
 The [**DeleteFile**](/windows/desktop/api/FileAPI/nf-fileapi-deletefilea) function can be used to delete a file on close. A file cannot be deleted until all handles to it are closed. If a file cannot be deleted, its name cannot be reused. To reuse a file name immediately, rename the existing file.
 
@@ -17,6 +17,3 @@ If you are deleting an open file or directory on a remote machine and it has alr
  
 
  
-
-
-

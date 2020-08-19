@@ -33,13 +33,13 @@ Showing state animation flag. If this parameter is **True**, the **Showing** sta
 <span id="pdwReqID"></span><span id="pdwreqid"></span><span id="PDWREQID"></span>*pdwReqID*
 </dt> <dd>
 
-Address of a variable that receives the [**Show**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--show) request ID.
+Address of a variable that receives the [**Show**](/windows/desktop/lwef/iagentcharacter--show) request ID.
 
 </dd> </dl>
 
-Avoid setting the *bFast* parameter to **True** without playing an animation beforehand, otherwise, the character frame may be displayed, but have no image to display. In particular, note that if you call [**MoveTo**](iagentcharacter--moveto.md) when the character is not visible, it does not play any animation. Therefore, if you call the **Show** method with *bFast* set to **True**, no image will be displayed. Similarly, if you call [**Hide**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--hide), then **Show** with *bFast* set to **True**, there will be no visible image.
+Avoid setting the *bFast* parameter to **True** without playing an animation beforehand, otherwise, the character frame may be displayed, but have no image to display. In particular, note that if you call [**MoveTo**](iagentcharacter--moveto.md) when the character is not visible, it does not play any animation. Therefore, if you call the **Show** method with *bFast* set to **True**, no image will be displayed. Similarly, if you call [**Hide**](/windows/desktop/lwef/iagentcharacter--hide), then **Show** with *bFast* set to **True**, there will be no visible image.
 
-When using the HTTP protocol to access character and animation data, use the [**Prepare**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--prepare) method to ensure the availability of the **Showing** state animation before calling this method.
+When using the HTTP protocol to access character and animation data, use the [**Prepare**](/windows/desktop/lwef/iagentcharacter--prepare) method to ensure the availability of the **Showing** state animation before calling this method.
 
 ## See Also
 
@@ -49,7 +49,3 @@ When using the HTTP protocol to access character and animation data, use the [**
  
 
  
-
-
-
-

@@ -35,7 +35,7 @@ propVal = Dependency.Version
 
 ## C++
 
-See [**get\_Version**](https://msdn.microsoft.com/library/Aa369248(v=VS.85).aspx) function.
+See [**get\_Version**](/windows/win32/api/mergemod/nf-mergemod-imsmdependency-get_version) function.
 
 ## Requirements
 
@@ -50,9 +50,4 @@ See [**get\_Version**](https://msdn.microsoft.com/library/Aa369248(v=VS.85).aspx
 
 
  
-
- 
-
-
-
 

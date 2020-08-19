@@ -12,7 +12,7 @@ A programmer or user may mark a directory or file as encrypted. A file marked en
 
 Directories are not themselves encrypted. Rather, by default, in an "encrypted" directory all new files in the directory are encrypted at creation. A user must specifically change the status of a new file to decrypted if the user does not want the file to be encrypted. An encrypted directory is visible. To make a directory inaccessible to other users, use the standard methods of access control.
 
-The encryption functions cannot be used with the [Backup API](https://docs.microsoft.com/windows/desktop/Backup/backup).
+The encryption functions cannot be used with the [Backup API](/windows/desktop/Backup/backup).
 
 To encrypt a new file, use the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function with the **FILE\_ATTRIBUTE\_ENCRYPTED** flag. To encrypt an existing file, use the [**EncryptFile**](/windows/desktop/api/WinBase/nf-winbase-encryptfilea) function. All data streams in the file are encrypted. If the file is already encrypted, **EncryptFile** does nothing but returns a nonzero value, which indicates success. If the file is compressed, **EncryptFile** decompresses the file before encrypting it.
 
@@ -27,6 +27,3 @@ To retrieve the encryption status of a file, use the [**FileEncryptionStatus**](
  
 
  
-
-
-

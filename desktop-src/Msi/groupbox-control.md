@@ -31,14 +31,10 @@ You can use the following attributes with the GroupBox control. To change the va
 
 ## Remarks
 
-This control can be created from the BUTTON class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **BS\_GROUPBOX**, **WS\_CHILD**, and **WS\_GROUP** styles.
+This control can be created from the BUTTON class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **BS\_GROUPBOX**, **WS\_CHILD**, and **WS\_GROUP** styles.
 
 There is always a gap between the top of the control's window and the visible frame, even when there is no caption.
 
  
 
  
-
-
-
-

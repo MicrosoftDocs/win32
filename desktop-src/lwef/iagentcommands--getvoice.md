@@ -16,7 +16,7 @@ HRESULT GetVoice(
 );
 ```
 
-Retrieves the value of the [**Voice**](voice-property.md) property for a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+Retrieves the value of the [**Voice**](voice-property.md) property for a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,7 +25,7 @@ Retrieves the value of the [**Voice**](voice-property.md) property for a [**Comm
 <span id="pbszVoice"></span><span id="pbszvoice"></span><span id="PBSZVOICE"></span>*pbszVoice*
 </dt> <dd>
 
-The address of a BSTR that receives the value of the [**Voice**](voice-property.md) text setting for a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+The address of a BSTR that receives the value of the [**Voice**](voice-property.md) text setting for a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 </dd> </dl>
 
@@ -37,7 +37,3 @@ The address of a BSTR that receives the value of the [**Voice**](voice-property.
  
 
  
-
-
-
-

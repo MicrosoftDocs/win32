@@ -56,14 +56,14 @@ Client-implemented functions are accessed through **windows.external**, as are p
 
 ### Methods
 
--   [**SetHeaderText**](https://docs.microsoft.com/windows/desktop/shell/iwebwizardhost-setheadertext)
--   [**SetWizardButtons**](https://docs.microsoft.com/windows/desktop/shell/iwebwizardhost-setwizardbuttons)
--   [**PassportAuthenticate**](https://docs.microsoft.com/windows/desktop/shell/inewwdevents-passportauthenticate)
+-   [**SetHeaderText**](/windows/desktop/shell/iwebwizardhost-setheadertext)
+-   [**SetWizardButtons**](/windows/desktop/shell/iwebwizardhost-setwizardbuttons)
+-   [**PassportAuthenticate**](/windows/desktop/shell/inewwdevents-passportauthenticate)
 
 ### Properties
 
--   [**Caption**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb774352(v=vs.85))
--   [**Property**](https://docs.microsoft.com/windows/desktop/shell/iwebwizardhost-property)
+-   [**Caption**](/previous-versions/windows/desktop/legacy/bb774352(v=vs.85))
+-   [**Property**](/windows/desktop/shell/iwebwizardhost-property)
 
 The following code sample shows server-side code for a simple wizard page which implements the web service's error page.
 
@@ -106,7 +106,3 @@ The following code sample shows server-side code for a simple wizard page which 
  
 
  
-
-
-
-

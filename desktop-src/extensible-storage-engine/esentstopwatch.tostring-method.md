@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentStopwatch.ToString method
 
-Returns a [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that represents the current [Stopwatch](https://docs.microsoft.com/dotnet/api/system.diagnostics.stopwatch?redirectedfrom=MSDN).
+Returns a [String](/dotnet/api/system.string) that represents the current [Stopwatch](/dotnet/api/system.diagnostics.stopwatch).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -51,8 +51,8 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
-A [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that represents the current [Stopwatch](https://docs.microsoft.com/dotnet/api/system.diagnostics.stopwatch?redirectedfrom=MSDN).  
+Type: [System.String](/dotnet/api/system.string)  
+A [String](/dotnet/api/system.string) that represents the current [Stopwatch](/dotnet/api/system.diagnostics.stopwatch).  
 
 ## See also
 
@@ -63,4 +63,3 @@ A [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MS
 [EsentStopwatch members](dn334924\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

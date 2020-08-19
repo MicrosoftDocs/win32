@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Access Control
 
-In Windows Filtering Platform (WFP), the Base Filtering Engine (BFE) service implements the standard [Windows access control model](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-model) based on access tokens and security descriptors.
+In Windows Filtering Platform (WFP), the Base Filtering Engine (BFE) service implements the standard [Windows access control model](/windows/desktop/SecAuthZ/access-control-model) based on access tokens and security descriptors.
 
 ## Access Control Model
 
-Security descriptors can be specified when adding new WFP objects, such as filters and sub-layers. Security descriptors are managed using the WFP management functions **Fwpm\*GetSecurityInfo0** and **Fwpm\*SetSecurityInfo0**, where **\*** stands for the WFP object's name. These functions are semantically identical to the Windows [**GetSecurityInfo**](https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo) and [**SetSecurityInfo**](https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo) functions.
+Security descriptors can be specified when adding new WFP objects, such as filters and sub-layers. Security descriptors are managed using the WFP management functions **Fwpm\*GetSecurityInfo0** and **Fwpm\*SetSecurityInfo0**, where **\*** stands for the WFP object's name. These functions are semantically identical to the Windows [**GetSecurityInfo**](/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo) and [**SetSecurityInfo**](/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo) functions.
 
 > [!Note]  
 > The **Fwpm\*SetSecurityInfo0** functions cannot be called from within an explicit transaction.
@@ -222,20 +222,14 @@ No additional access checks beyond those for the individual filters and provider
 
 <dl> <dt>
 
-[**Standard Access Rights**](https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights)
+[**Standard Access Rights**](/windows/desktop/SecAuthZ/standard-access-rights)
 </dt> <dt>
 
-[Windows Access Control Model](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-model)
+[Windows access control model](/windows/desktop/SecAuthZ/access-control-model)
 </dt> <dt>
 
 [**Windows Filtering Platform Access Rights Identifiers**](access-right-identifiers.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -46,7 +46,7 @@ NTSTATUS WINAPI GetPhysicalMonitors(
 *pstrDeviceName* \[in\]
 </dt> <dd>
 
-A pointer to a [**UNICODE\_STRING**](https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string) structure that contains the name of the display device, as returned by the [**GetMonitorInfo**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa) function.
+A pointer to a [**UNICODE\_STRING**](/windows/desktop/api/subauth/ns-subauth-unicode_string) structure that contains the name of the display device, as returned by the [**GetMonitorInfo**](/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa) function.
 
 </dd> <dt>
 
@@ -82,7 +82,7 @@ Instead of using this function, applications should call one of the following fu
 -   [**GetPhysicalMonitorsFromHMONITOR**](/windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor)
 -   [**GetPhysicalMonitorsFromIDirect3DDevice9**](/windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromidirect3ddevice9)
 
-This function has no associated import library. To call this function, you must use the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Gdi32.dll.
+This function has no associated import library. To call this function, you must use the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Gdi32.dll.
 
 ## Requirements
 
@@ -104,10 +104,4 @@ This function has no associated import library. To call this function, you must 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

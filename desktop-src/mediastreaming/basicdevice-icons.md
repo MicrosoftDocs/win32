@@ -19,7 +19,7 @@ api_location:
 
 # BasicDevice.Icons property
 
-Gets a vector of [**IDeviceIcon**](https://msdn.microsoft.com/library/Hh828909(v=VS.85).aspx) interfaces.
+Gets a vector of [**IDeviceIcon**](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-ideviceicon) interfaces.
 
 This property is read-only.
 
@@ -36,19 +36,15 @@ HRESULT get_Icons(
 
 ## Property value
 
-An enumerable collection of [**IDeviceIcon**](https://msdn.microsoft.com/library/Hh828909(v=VS.85).aspx) interface pointers.
+An enumerable collection of [**IDeviceIcon**](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-ideviceicon) interface pointers.
 
 ## See also
 
 <dl> <dt>
 
-[**BasicDevice**](https://msdn.microsoft.com/library/Hh828813(v=VS.85).aspx)
+[**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-
-

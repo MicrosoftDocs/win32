@@ -16,7 +16,7 @@ Core window.
 
 ## Remarks
 
-For information more information see [**ICoreWindow interface**](https://msdn.microsoft.com/library/BR208296(v=Win.10).aspx).
+For information more information see [**ICoreWindow interface**](/uwp/api/Windows.UI.Core.ICoreWindow?view=winrt-19041).
 
 ## Requirements
 
@@ -40,7 +40,3 @@ For information more information see [**ICoreWindow interface**](https://msdn.mi
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Event Logging
 
-[Windows Events](https://msdn.microsoft.com/library/Aa964766(v=VS.85).aspx) provides a standard, centralized way for applications (and the operating system) to record important software and hardware events. The event-logging service stores events from various sources in a single collection called an *event log*. Prior to Windows Vista, you would use either [Event Tracing for Windows](https://msdn.microsoft.com/library/Bb968803(v=VS.85).aspx) (ETW) or [Event Logging](https://msdn.microsoft.com/library/Aa363652(v=VS.85).aspx) to log events. Windows Vista introduced a new eventing model that unifies both ETW and the [Windows Event Log](https://msdn.microsoft.com/library/Aa385780(v=VS.85).aspx) API.
+[Windows Events](../events/windows-events.md) provides a standard, centralized way for applications (and the operating system) to record important software and hardware events. The event-logging service stores events from various sources in a single collection called an *event log*. Prior to Windows Vista, you would use either [Event Tracing for Windows](../etw/event-tracing-portal.md) (ETW) or [Event Logging](../eventlog/event-logging.md) to log events. Windows Vista introduced a new eventing model that unifies both ETW and the [Windows Event Log](../wes/windows-event-log.md) API.
 
 The installer also writes entries into the event log. These record events such as following:
 
@@ -247,7 +247,3 @@ You can import localized errors strings for events into your database by using M
  
 
  
-
-
-
-

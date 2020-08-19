@@ -8,7 +8,7 @@ ms.topic: reference
 
 # FontFamily.FontFamily constructors
 
-This topic lists the constructors of the [**FontFamily**](https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx) class. For a complete class listing, see **FontFamilyClass**.
+This topic lists the constructors of the [**FontFamily**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-fontfamily) class. For a complete class listing, see **FontFamilyClass**.
 
 ### Overload list
 
@@ -16,15 +16,11 @@ This topic lists the constructors of the [**FontFamily**](https://msdn.microsoft
 
 | Constructor                                                                                               | Description                                                                                                                                               |
 |:----------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**FontFamily()**](https://msdn.microsoft.com/library/ms536182(v=VS.85).aspx)                                             | Creates an empty [**FontFamily::FontFamily**](https://msdn.microsoft.com/library/ms536182(v=VS.85).aspx) object.<br/>                                               |
-| [**FontFamily(WCHAR\*,FontCollection\*)**](https://msdn.microsoft.com/library/ms536183(v=VS.85).aspx) | Creates a [**FontFamily::FontFamily**](https://msdn.microsoft.com/library/ms536183(v=VS.85).aspx) object based on a specified font family.<br/> |
+| [**FontFamily()**](/previous-versions//ms536182(v=vs.85))                                             | Creates an empty [**FontFamily::FontFamily**](/previous-versions//ms536182(v=vs.85)) object.<br/>                                               |
+| [**FontFamily(WCHAR\*,FontCollection\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-fontfamily(inconstwchar_inconstfontcollection)) | Creates a [**FontFamily::FontFamily**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-fontfamily(inconstwchar_inconstfontcollection)) object based on a specified font family.<br/> |
 
 
 
  
 
  
-
-
-
-

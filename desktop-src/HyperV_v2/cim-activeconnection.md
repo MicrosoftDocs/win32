@@ -59,7 +59,7 @@ Data type: **CIM\_ServiceAccessPoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The service access point that is connected to the other service access point through the active connection. **CIM\_ServiceAccessPoint** object. In a unidirectional connection, this access point is the one that is transmitting data.
@@ -75,7 +75,7 @@ Data type: **CIM\_ServiceAccessPoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The service access point that is configured to communicate or is actively communicating with the service access point specified in the **Antecedent** property. In a unidirectional connection, this access point is the one that is receiving data.
@@ -104,7 +104,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("No value"), [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_ActiveConnection**.**TrafficType**")
+Qualifiers: [**Deprecated**](/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("No value"), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_ActiveConnection**.**TrafficType**")
 </dt> </dl>
 
 > [!Note]  
@@ -125,7 +125,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("No value"), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_ActiveConnection**.**OtherTrafficDescription**")
+Qualifiers: [**Deprecated**](/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("No value"), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_ActiveConnection**.**OtherTrafficDescription**")
 </dt> </dl>
 
 > [!Note]  
@@ -203,9 +203,4 @@ The type of traffic that is transmitted over this connection.
 </dt> </dl>
 
  
-
- 
-
-
-
 

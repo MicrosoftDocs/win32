@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The process of creating a dialog box in Windows Installer is similar to the process of creating a dialog box programmatically using a Microsoft Windows API dialog box template. While a Windows dialog box template is stored in a null terminated–character string, Windows Installer stores the dialog box parameters in the Dialog table. The Dialog table contains an attributes column that is analogous to Window styles in the Microsoft Windows user interface API. However, the number of dialog style bits in Windows Installer is a reduced and specialized set.
 
-To physically create the dialog box using the Windows user interface API, [**DialogBox**](https://msdn.microsoft.com/library/ms645452(v=VS.85).aspx) is called and passes a pointer to the template. In Windows Installer, the dialog box is created during execution of one of the three UI sequence tables.
+To physically create the dialog box using the Windows user interface API, [**DialogBox**](/windows/win32/api/winuser/nf-winuser-dialogboxa) is called and passes a pointer to the template. In Windows Installer, the dialog box is created during execution of one of the three UI sequence tables.
 
 Windows Installer does not contain a default UI that package authors can utilize for their packages. It does contain a limited set of default dialog boxes that display error and information messages, but these are displayed only if Windows Installer queries the Dialog and UI Sequence tables and finds there are no custom dialog boxes available.
 
@@ -26,6 +26,3 @@ A complete list of reserved primary key dialog box names is available in [dialog
  
 
  
-
-
-

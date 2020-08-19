@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # STRINGTABLE resource
 
-Defines one or more string resources for an application. String resources are simply null-terminated Unicode or ASCII strings that can be loaded when needed from the executable file, using the [**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx) function.
+Defines one or more string resources for an application. String resources are simply null-terminated Unicode or ASCII strings that can be loaded when needed from the executable file, using the [**LoadString**](/windows/win32/api/winuser/nf-winuser-loadstringa) function.
 
 There are two ways to format a **STRINGTABLE** statement:
 
@@ -147,7 +147,7 @@ END
 
 <dl> <dt>
 
-[**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx)
+[**LoadString**](/windows/win32/api/winuser/nf-winuser-loadstringa)
 </dt> <dt>
 
 [**ACCELERATORS**](accelerators-resource.md)
@@ -171,7 +171,3 @@ END
  
 
  
-
-
-
-

@@ -53,7 +53,7 @@ On Windows XP, the Photo Print Wizard supports all graphics file formats that a
 -   Portable Network Graphics (PNG)
 -   Tagged Image File Format (TIFF)
 
-For more information about graphics file formats supported by GDI+, see [Types of Bitmaps](https://msdn.microsoft.com/library/ms536393(v=VS.85).aspx).
+For more information about graphics file formats supported by GDI+, see [Types of Bitmaps](../gdiplus/-gdiplus-types-of-bitmaps-about.md).
 
 On Windows Vista, the Photo Print Wizard supports any image file format for which a Windows Imaging Component (WIC) codec is installed. WIC provides several standard codecs, including:
 
@@ -69,7 +69,7 @@ For more information about WIC and WIC codecs, see [Windows Imaging Component](h
 
 ## Programmatically Launching the Photo Print Wizard
 
-To invoke the Photo Printing Wizard, call the [IDropTarget](https://msdn.microsoft.com/library/ms679679(VS.85).aspx) interface with the following class identifier (CLSID):
+To invoke the Photo Printing Wizard, call the [IDropTarget](/windows/win32/api/oleidl/nn-oleidl-idroptarget) interface with the following class identifier (CLSID):
 
 
 ```
@@ -79,7 +79,7 @@ static const CLSID CLSID_PrintPhotosDropTarget =
 
 
 
-The files to be processed by the Photo Printing Wizard are specified in an [IDataObject](https://msdn.microsoft.com/library/ms688421(VS.85).aspx) object.
+The files to be processed by the Photo Printing Wizard are specified in an [IDataObject](/windows/win32/api/objidl/nn-objidl-idataobject) object.
 
 The following code example demonstrates how to invoke the Photo Printing Wizard.
 
@@ -113,7 +113,3 @@ spDropTarget->Drop(pDataObject, MK_LBUTTON, pt, &dwEffect);}
  
 
  
-
-
-
-

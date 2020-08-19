@@ -87,7 +87,7 @@ public static JET_wrn JetRetrieveColumns(
 <!-- end list -->
 
   - numColumns  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The number of entries in the columns array.
 
@@ -105,4 +105,3 @@ If any column retrieved is truncated due to an insufficient length buffer, then 
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

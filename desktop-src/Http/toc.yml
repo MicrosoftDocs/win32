@@ -248,7 +248,7 @@
         - name: "HTTP_KNOWN_HEADER"
           href: /windows/win32/api/Http/ns-http-http_known_header
         - name: "HTTP_REQUEST"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa364545(v=vs.85)
         - name: "HTTP_RESPONSE"
           href: http-response.md
         - name: "HTTP_REQUEST_HEADERS"
@@ -362,7 +362,7 @@
         - name: "HttpCreateUrlGroup"
           href: /windows/desktop/api/Http/nf-http-httpcreateurlgroup
         - name: "HttpControlService"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt797780(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/mt797780(v=vs.85)
         - name: "HttpDeclarePush"
           href: /windows/desktop/api/http/nf-http-httpdeclarepush
         - name: "HttpQueryServerSessionProperty"
@@ -456,7 +456,7 @@
         - name: "HTTP_IS_NULL_ID"
           href: /windows/desktop/api/http/nf-http-http_is_null_id
         - name: "HTTP_NULL_ID"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364541(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/aa364541(v=vs.85)
         - name: "HTTP_SET_NULL_ID"
           href: /windows/desktop/api/http/nf-http-http_set_null_id
       - name: "HTTP Server API Version 2.0 Constants"

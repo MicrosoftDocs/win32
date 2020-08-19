@@ -16,7 +16,7 @@ HRESULT SetDefaultID(
 );
 ```
 
-Sets the ID of the default command in a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+Sets the ID of the default command in a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,11 +25,11 @@ Sets the ID of the default command in a [**Commands**](https://docs.microsoft.co
 <span id="dwID"></span><span id="dwid"></span><span id="DWID"></span>*dwID*
 </dt> <dd>
 
-The ID for the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) to be set as the default.
+The ID for the [**Command**](/windows/desktop/lwef/the-command-object) to be set as the default.
 
 </dd> </dl>
 
-This property sets the default [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object set in your [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection. The default command is bold in the character's pop-up menu. However, setting the default command does not actually change command handling or double-click events.
+This property sets the default [**Command**](/windows/desktop/lwef/the-command-object) object set in your [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection. The default command is bold in the character's pop-up menu. However, setting the default command does not actually change command handling or double-click events.
 
 This property applies only to your client application's use of the character; the setting does not affect other clients of the character or other characters of your client application.
 
@@ -41,7 +41,3 @@ This property applies only to your client application's use of the character; th
  
 
  
-
-
-
-

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # MMIOM\_CLOSE message
 
-The **MMIOM\_CLOSE** message is sent to an I/O procedure by the [**mmioClose**](https://msdn.microsoft.com/library/Dd757316(v=VS.85).aspx) function to request that a file be closed.
+The **MMIOM\_CLOSE** message is sent to an I/O procedure by the [**mmioClose**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioclose) function to request that a file be closed.
 
 
 ```C++
@@ -57,10 +57,4 @@ Returns zero if the file is successfully closed or an error otherwise.
 
 
  
-
- 
-
-
-
-
 

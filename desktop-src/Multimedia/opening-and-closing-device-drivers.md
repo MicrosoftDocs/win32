@@ -23,10 +23,10 @@ You must open a MIDI device before using it, and you should close the device as 
 
 | Value                                | Meaning                                            |
 |--------------------------------------|----------------------------------------------------|
-| [**midiInClose**](https://msdn.microsoft.com/library/Dd798452(v=VS.85).aspx)   | Closes a specified MIDI input device.              |
-| [**midiInOpen**](https://msdn.microsoft.com/library/Dd798458(v=VS.85).aspx)     | Opens a specified MIDI input device for recording. |
-| [**midiOutClose**](https://msdn.microsoft.com/library/Dd798468(v=VS.85).aspx) | Closes a specified MIDI output device.             |
-| [**midiOutOpen**](https://msdn.microsoft.com/library/Dd798476(v=VS.85).aspx)   | Opens a MIDI output device for playback.           |
+| [**midiInClose**](/windows/win32/api/mmeapi/nf-mmeapi-midiinclose)   | Closes a specified MIDI input device.              |
+| [**midiInOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midiinopen)     | Opens a specified MIDI input device for recording. |
+| [**midiOutClose**](/windows/win32/api/mmeapi/nf-mmeapi-midioutclose) | Closes a specified MIDI output device.             |
+| [**midiOutOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midioutopen)   | Opens a MIDI output device for playback.           |
 
 
 
@@ -51,7 +51,3 @@ Many MIDI functions can accept either a device handle or a device identifier. Al
  
 
  
-
-
-
-

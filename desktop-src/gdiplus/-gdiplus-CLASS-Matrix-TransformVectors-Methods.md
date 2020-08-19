@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Matrix.TransformVectors methods
 
-This topic lists the TransformVectors methods of the [**Matrix**](https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx) class. For a complete list of methods for the **Matrix** class, see [Matrix Methods](-gdiplus-class-matrix-methods.md).
+This topic lists the TransformVectors methods of the [**Matrix**](/windows/win32/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) class. For a complete list of methods for the **Matrix** class, see [Matrix Methods](-gdiplus-class-matrix-methods.md).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the TransformVectors methods of the [**Matrix**](https://msdn.m
 
 | Method                                                                                                 | Description                                                                                                                                                                                                                                                                                                                                                                      |
 |:-------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**TransformVectors(Point\*,INT)**](https://msdn.microsoft.com/library/ms535318(v=VS.85).aspx)   | The [**Matrix::TransformVectors**](https://msdn.microsoft.com/library/ms535318(v=VS.85).aspx) method multiplies each vector in an array by this matrix. The translation elements of this matrix (third row) are ignored. Each vector is treated as a row matrix. The multiplication is performed with the row matrix on the left and this matrix on the right.<br/>  |
-| [**TransformVectors(PointF\*,INT)**](https://msdn.microsoft.com/library/ms535319(v=VS.85).aspx) | The [**Matrix::TransformVectors**](https://msdn.microsoft.com/library/ms535319(v=VS.85).aspx) method multiplies each vector in an array by this matrix. The translation elements of this matrix (third row) are ignored. Each vector is treated as a row matrix. The multiplication is performed with the row matrix on the left and this matrix on the right.<br/> |
+| [**TransformVectors(Point\*,INT)**](/windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-transformvectors(inoutpoint_inint))   | The [**Matrix::TransformVectors**](/windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-transformvectors(inoutpoint_inint)) method multiplies each vector in an array by this matrix. The translation elements of this matrix (third row) are ignored. Each vector is treated as a row matrix. The multiplication is performed with the row matrix on the left and this matrix on the right.<br/>  |
+| [**TransformVectors(PointF\*,INT)**](/previous-versions//ms535319(v=vs.85)) | The [**Matrix::TransformVectors**](/previous-versions//ms535319(v=vs.85)) method multiplies each vector in an array by this matrix. The translation elements of this matrix (third row) are ignored. Each vector is treated as a row matrix. The multiplication is performed with the row matrix on the left and this matrix on the right.<br/> |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the TransformVectors methods of the [**Matrix**](https://msdn.m
  
 
  
-
-
-
-

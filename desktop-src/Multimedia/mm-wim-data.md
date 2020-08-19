@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # MM\_WIM\_DATA message
 
-The **MM\_WIM\_DATA** message is sent to a window when waveform-audio data is present in the input buffer and the buffer is being returned to the application. The message can be sent either when the buffer is full or after the [**waveInReset**](https://msdn.microsoft.com/library/Dd743850(v=VS.85).aspx) function is called.
+The **MM\_WIM\_DATA** message is sent to a window when waveform-audio data is present in the input buffer and the buffer is being returned to the application. The message can be sent either when the buffer is full or after the [**waveInReset**](/windows/win32/api/mmeapi/nf-mmeapi-waveinreset) function is called.
 
 
 ```C++
@@ -43,7 +43,7 @@ Handle to the waveform-audio input device that received the data.
 <span id="lpwvhdr"></span><span id="LPWVHDR"></span>*lpwvhdr*
 </dt> <dd>
 
-Pointer to a [**WAVEHDR**](https://msdn.microsoft.com/library/Dd743837(v=VS.85).aspx) structure that identifies the buffer containing the data.
+Pointer to a [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr) structure that identifies the buffer containing the data.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ This message does not return a value.
 
 ## Remarks
 
-The returned buffer might not be full. Use the **dwBytesRecorded** member of the [**WAVEHDR**](https://msdn.microsoft.com/library/Dd743837(v=VS.85).aspx) structure specified by *lParam* to determine the number of bytes recorded into the returned buffer.
+The returned buffer might not be full. Use the **dwBytesRecorded** member of the [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr) structure specified by *lParam* to determine the number of bytes recorded into the returned buffer.
 
 ## Requirements
 
@@ -78,10 +78,4 @@ The returned buffer might not be full. Use the **dwBytesRecorded** member of the
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -19,7 +19,7 @@ api_location:
 
 # GetPositionInformationOperation.GetResults method
 
-Returns the results of the asynchronous operation started by [**GetPositionInformationAsync**](https://msdn.microsoft.com/library/Hh828931(v=VS.85).aspx).
+Returns the results of the asynchronous operation started by [**GetPositionInformationAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getpositioninformationasync).
 
 ## Syntax
 
@@ -39,7 +39,7 @@ HRESULT GetResults(
 *value* \[out, retval\]
 </dt> <dd>
 
-A reference to a [**PositionInformation**](https://msdn.microsoft.com/library/Hh828991(v=VS.85).aspx) structure that contains the results of the operation.
+A reference to a [**PositionInformation**](/previous-versions/windows/desktop/api/windows.media.streaming/ns-windows-media-streaming-positioninformation) structure that contains the results of the operation.
 
 </dd> </dl>
 
@@ -69,10 +69,4 @@ The **GetResults** method is typically called from the event handler that was re
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

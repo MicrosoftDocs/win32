@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Allocating Memory from a NUMA Node
 
-The following sample code demonstrates the use of the NUMA functions [**GetNumaHighestNodeNumber**](https://msdn.microsoft.com/library/ms683203(v=VS.85).aspx), [**GetNumaProcessorNode**](https://msdn.microsoft.com/library/ms683205(v=VS.85).aspx), and [**VirtualAllocExNuma**](https://msdn.microsoft.com/library/Aa366891(v=VS.85).aspx). It also demonstrates the use of the [**QueryWorkingSetEx**](https://msdn.microsoft.com/library/ms684949(v=VS.85).aspx) function to retrieve the NUMA node on which pages are allocated.
+The following sample code demonstrates the use of the NUMA functions [**GetNumaHighestNodeNumber**](/windows/win32/api/systemtopologyapi/nf-systemtopologyapi-getnumahighestnodenumber), [**GetNumaProcessorNode**](/windows/win32/api/winbase/nf-winbase-getnumaprocessornode), and [**VirtualAllocExNuma**](/windows/win32/api/memoryapi/nf-memoryapi-virtualallocexnuma). It also demonstrates the use of the [**QueryWorkingSetEx**](/windows/win32/api/psapi/nf-psapi-queryworkingsetex) function to retrieve the NUMA node on which pages are allocated.
 
 
 ```C++
@@ -251,12 +251,9 @@ void DumpNumaNodeInfo (PVOID Buffer, SIZE_T Size)
 
 <dl> <dt>
 
-[NUMA Support](https://msdn.microsoft.com/library/Aa363804(v=VS.85).aspx)
+[NUMA Support](../procthread/numa-support.md)
 </dt> </dl>
 
  
 
  
-
-
-

@@ -123,9 +123,9 @@ For a description of each clock type, see the <strong>ClientContext</strong> mem
 
 After the registry has been modified and the computer restarted, the Global Logger session starts automatically and is used like any other session with one exception: You use the WMI\_GLOBAL\_LOGGER\_ID constant handle (defined in Wmistr.h) to reference the Global Logger session. This constant may be used as an argument to any event tracing function that accepts a session handle. In functions that accept a session name, use GLOBAL\_LOGGER\_NAME.
 
-The Global Logger controller does not call the [**EnableTrace**](enabletrace.md) function to enable providers. The provider is responsible for determining if the Global Logger session is started and then enabling itself.
+The Global Logger controller does not call the [**EnableTrace**](/windows/win32/api/evntrace/nf-evntrace-enabletrace) function to enable providers. The provider is responsible for determining if the Global Logger session is started and then enabling itself.
 
-To determine if the Global Logger session is started, you can call the [**ControlTrace**](controltrace.md) function, setting *SessionHandle* to WMI\_GLOBAL\_LOGGER\_ID and *ControlCode* to **EVENT\_TRACE\_CONTROL\_QUERY**. If the **ControlTrace** call is successful, the Global Logger session exists and the provider can enable itself and log events to the Global Logger session (the **ControlTrace** function returns ERROR\_WMI\_INSTANCE\_NOT\_FOUND if the Global Logger is not active).
+To determine if the Global Logger session is started, you can call the [**ControlTrace**](/windows/win32/api/evntrace/nf-evntrace-controltracea) function, setting *SessionHandle* to WMI\_GLOBAL\_LOGGER\_ID and *ControlCode* to **EVENT\_TRACE\_CONTROL\_QUERY**. If the **ControlTrace** call is successful, the Global Logger session exists and the provider can enable itself and log events to the Global Logger session (the **ControlTrace** function returns ERROR\_WMI\_INSTANCE\_NOT\_FOUND if the Global Logger is not active).
 
 Typically, the controller is responsible for passing the enable flags and level to the provider when it enables the provider, but because the Global Logger controller does not enable the provider, it is the provider's responsibility to pass this information to itself, if needed.
 
@@ -138,9 +138,4 @@ For details on starting a private logger session, see [Configuring and Starting 
 For details on starting an NT Kernel Logger session, see [Configuring and Starting the NT Kernel Logger Session](configuring-and-starting-the-nt-kernel-logger-session.md).
 
  
-
- 
-
-
-
 

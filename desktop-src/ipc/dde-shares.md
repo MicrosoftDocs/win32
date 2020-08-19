@@ -14,17 +14,14 @@ DDE shares are a machine resource. They are similar to file shares because they 
 
 The server calls the [**NDdeShareAdd**](nddeshareadd.md) function to create the DDE share, which is stored in the DDE share database manager (DSDM).
 
-The client starts the DDE conversation by connecting to the DDE share. The client must call the [**DdeInitialize**](https://msdn.microsoft.com/library/ms648757(v=VS.85).aspx) function to initialize DDEML and call the [**DdeConnect**](https://msdn.microsoft.com/library/ms648745(v=VS.85).aspx) function to connect to the DDE share. In the **DdeConnect** call, the client specifies the service name as follows:
+The client starts the DDE conversation by connecting to the DDE share. The client must call the [**DdeInitialize**](/windows/win32/api/ddeml/nf-ddeml-ddeinitializea) function to initialize DDEML and call the [**DdeConnect**](/windows/win32/api/ddeml/nf-ddeml-ddeconnect) function to connect to the DDE share. In the **DdeConnect** call, the client specifies the service name as follows:
 
 \\\\*ComputerName*\\NDDE$
 
-where *ComputerName* is the name of the computer running the server application. The NDDE$ indicates that the topic provided to [**DdeConnect**](https://msdn.microsoft.com/library/ms648745(v=VS.85).aspx) is the DDE share name on the remote computer named *ComputerName*.
+where *ComputerName* is the name of the computer running the server application. The NDDE$ indicates that the topic provided to [**DdeConnect**](/windows/win32/api/ddeml/nf-ddeml-ddeconnect) is the DDE share name on the remote computer named *ComputerName*.
 
 There are three types of DDE shares: old style, new style, and static. It is typical to support only the static type. The names of static shares use the following convention: *ShareName*$.
 
  
 
  
-
-
-

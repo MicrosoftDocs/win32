@@ -61,14 +61,14 @@ In the preceding code, the three GDI+ drawing commands are in between calls to t
 
  
 
-Generally you won't want to hard-code the name of a printer as was done in the preceding console application. One alternative to hard-coding the name is to call [GetDefaultPrinter](/windows/win32/printdocs/getdefaultprinter) to obtain the name of the default printer. Before you call GetDefaultPrinter, you must allocate a buffer large enough to hold the printer name. You can determine the size of the required buffer by calling GetDefaultPrinter, passing **NULL** as the first argument.
+Generally you won't want to hard-code the name of a printer as was done in the preceding console application. One alternative to hard-coding the name is to call [GetDefaultPrinter](../printdocs/getdefaultprinter.md) to obtain the name of the default printer. Before you call GetDefaultPrinter, you must allocate a buffer large enough to hold the printer name. You can determine the size of the required buffer by calling GetDefaultPrinter, passing **NULL** as the first argument.
 
 > [!Note]  
-> The [GetDefaultPrinter](/windows/win32/printdocs/getdefaultprinter) function is supported only on Windows 2000 and later.
+> The [GetDefaultPrinter](../printdocs/getdefaultprinter.md) function is supported only on Windows 2000 and later.
 
  
 
-The following console application gets the name of the default printer and then draws a rectangle and an ellipse on that printer. The [**Graphics::DrawRectangle**](https://msdn.microsoft.com/library/ms536003(v=VS.85).aspx) call is in between calls to [StartPage](/windows/win32/api/wingdi/nf-wingdi-startpage) and [EndPage](/windows/win32/api/wingdi/nf-wingdi-endpage), so the rectangle is on a page by itself. Similarly, the ellipse is on a page by itself.
+The following console application gets the name of the default printer and then draws a rectangle and an ellipse on that printer. The [**Graphics::DrawRectangle**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inint_inint_inint_inint)) call is in between calls to [StartPage](/windows/win32/api/wingdi/nf-wingdi-startpage) and [EndPage](/windows/win32/api/wingdi/nf-wingdi-endpage), so the rectangle is on a page by itself. Similarly, the ellipse is on a page by itself.
 
 
 ```
@@ -142,6 +142,3 @@ INT main()
  
 
  
-
-
-

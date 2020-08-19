@@ -83,7 +83,7 @@ public static bool TrySeek(
 
 #### Return value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 True if a record matching the criteria was found.  
 
 ## See also
@@ -95,4 +95,3 @@ True if a record matching the criteria was found.
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

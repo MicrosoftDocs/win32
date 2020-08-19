@@ -53,7 +53,7 @@ public override bool CanWrite { get; }
 
 #### Property value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 
 ## See also
 
@@ -64,4 +64,3 @@ Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redi
 [ColumnStream members](dn334190\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

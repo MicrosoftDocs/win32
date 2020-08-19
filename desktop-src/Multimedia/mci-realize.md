@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_REALIZE command causes a graphic device to realize its palette into a device context (DC). Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function with the following parameters.
 
 
 ```C++
@@ -65,7 +65,7 @@ Returns zero if successful or an error otherwise.
 
 ## Remarks
 
-You should use this command when your application receives the [**WM\_QUERYNEWPALETTE**](https://docs.microsoft.com/windows/desktop/gdi/wm-querynewpalette) message.
+You should use this command when your application receives the [**WM\_QUERYNEWPALETTE**](/windows/desktop/gdi/wm-querynewpalette) message.
 
 The following additional flags are used with the "digitalvideo" device type:
 
@@ -110,10 +110,4 @@ For digital-video devices, the *lpRealize* parameter points to an **MCI\_REALIZE
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

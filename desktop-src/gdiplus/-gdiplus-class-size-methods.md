@@ -12,12 +12,9 @@ This topic lists the methods of the [**Size**](/windows/desktop/api/gdiplustypes
 
 -   [**Empty**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-size-empty)
 -   [**Equals**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-size-equals)
--   [**operator-(Size&)**](https://msdn.microsoft.com/library/ms534752(v=VS.85).aspx)
--   [**operator+(Size&)**](https://msdn.microsoft.com/library/ms534751(v=VS.85).aspx)
+-   [**operator-(Size&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-size-operator-sub)
+-   [**operator+(Size&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-size-operator-add)
 
  
 
  
-
-
-

@@ -32,7 +32,7 @@ A class that encapsulates an update on a JET_TABLEID.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   [Microsoft.Isam.Esent.Interop.EsentResource](dn319890\(v=exchg.10\).md)  
     Microsoft.Isam.Esent.Interop.Update  
 
@@ -64,4 +64,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [Update members](dn351259\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

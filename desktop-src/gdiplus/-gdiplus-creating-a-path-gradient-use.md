@@ -43,7 +43,7 @@ The following illustration shows the filled ellipse.
 
 ![illustration showing an ellipse with a gradient fill](images/pathgradient1.png)
 
-By default, a path gradient brush does not extend outside the boundary of the path. If you use the path gradient brush to fill a shape that extends beyond the boundary of the path, the area of the screen outside the path will not be filled. The following illustration shows what happens if you change the [**Graphics::FillEllipse**](https://msdn.microsoft.com/library/ms535967(v=VS.85).aspx) call in the preceding code to `graphics.FillRectangle(&pthGrBrush, 0, 10, 200, 40)`.
+By default, a path gradient brush does not extend outside the boundary of the path. If you use the path gradient brush to fill a shape that extends beyond the boundary of the path, the area of the screen outside the path will not be filled. The following illustration shows what happens if you change the [**Graphics::FillEllipse**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillellipse(inconstbrush_inreal_inreal_inreal_inreal)) call in the preceding code to `graphics.FillRectangle(&pthGrBrush, 0, 10, 200, 40)`.
 
 ![illustration showing a horizontal slice of the previous ellipse](images/pathgradient2.png)
 
@@ -217,7 +217,7 @@ The following illustration shows the output of the preceding code.
 
 ## Setting the Center Point
 
-By default, the center point of a path gradient brush is at the centroid of the path used to construct the brush. You can change the location of the center point by calling the [**PathGradientBrush::SetCenterPoint**](https://msdn.microsoft.com/library/ms535094(v=VS.85).aspx) method of the [**PathGradientBrush**](/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush) class.
+By default, the center point of a path gradient brush is at the centroid of the path used to construct the brush. You can change the location of the center point by calling the [**PathGradientBrush::SetCenterPoint**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setcenterpoint(inconstpoint_)) method of the [**PathGradientBrush**](/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush) class.
 
 The following example creates a path gradient brush based on an ellipse. The center of the ellipse is at (70, 35), but the center point of the path gradient brush is set to (120, 40).
 
@@ -250,7 +250,7 @@ The following illustration shows the filled ellipse and the center point of the 
 
 ![illustration showing an ellipse that fills from blue to aqua from a center point near one end](images/pathgradient5.png)
 
-You can set the center point of a path gradient brush to a location outside the path that was used to construct the brush. In the preceding code, if you replace the call to [**PathGradientBrush::SetCenterPoint**](https://msdn.microsoft.com/library/ms535094(v=VS.85).aspx) with `pthGrBrush.SetCenterPoint(Point(145, 35))`, you will get the following result.
+You can set the center point of a path gradient brush to a location outside the path that was used to construct the brush. In the preceding code, if you replace the call to [**PathGradientBrush::SetCenterPoint**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setcenterpoint(inconstpoint_)) with `pthGrBrush.SetCenterPoint(Point(145, 35))`, you will get the following result.
 
 ![illustration showing an ellipse that fills from red to yellow from a center point that is outside the edge of the ellipse](images/pathgradient6.png)
 
@@ -259,6 +259,3 @@ In the preceding illustration, the points at the far right of the ellipse are no
  
 
  
-
-
-

@@ -32,7 +32,7 @@ For more information on file streams, see [File Streams](file-streams.md). For m
 |-------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [File Streams](file-streams.md)<br/>                 | In the NTFS file system, streams contain the data that is written to a file, and that gives more information about a file than attributes and properties.<br/>                                                                                         |
 | [File Objects](file-objects.md)<br/>                 | *File objects* function as the logical interface between kernel and user-mode processes and the file data that resides on the physical disk.<br/>                                                                                                      |
-| [File Handles](file-handles.md)<br/>                 | When a file is opened by a process using the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function, a *file handle* is associated with it until either the process terminates or the handle is closed using the [**CloseHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle) function.<br/> |
+| [File Handles](file-handles.md)<br/>                 | When a file is opened by a process using the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function, a *file handle* is associated with it until either the process terminates or the handle is closed using the [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle) function.<br/> |
 | [File Pointers](file-pointers.md)<br/>               | A file pointer is a 64-bit offset value that specifies the next byte to be read or the location to receive the next byte written.<br/>                                                                                                                 |
 | [Clusters and Extents](clusters-and-extents.md)<br/> | Clusters may be referred to from two different perspectives: within the file and on the volume.<br/>                                                                                                                                                   |
 
@@ -41,9 +41,4 @@ For more information on file streams, see [File Streams](file-streams.md). For m
  
 
  
-
- 
-
-
-
 

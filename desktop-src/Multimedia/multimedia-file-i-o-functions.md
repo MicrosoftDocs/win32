@@ -21,24 +21,24 @@ ms.date: 05/31/2018
 
 The following functions are used with multimedia file I/O.
 
--   [**IOProc**](https://msdn.microsoft.com/library/Dd757098(v=VS.85).aspx)
--   [**mmioAdvance**](https://msdn.microsoft.com/library/Dd757314(v=VS.85).aspx)
--   [**mmioAscend**](https://msdn.microsoft.com/library/Dd757315(v=VS.85).aspx)
--   [**mmioClose**](https://msdn.microsoft.com/library/Dd757316(v=VS.85).aspx)
--   [**mmioCreateChunk**](https://msdn.microsoft.com/library/Dd757317(v=VS.85).aspx)
--   [**mmioDescend**](https://msdn.microsoft.com/library/Dd757318(v=VS.85).aspx)
--   [**mmioFlush**](https://msdn.microsoft.com/library/Dd757319(v=VS.85).aspx)
--   [**mmioGetInfo**](https://msdn.microsoft.com/library/Dd757321(v=VS.85).aspx)
--   [**mmioInstallIOProc**](https://msdn.microsoft.com/library/Dd757323(v=VS.85).aspx)
--   [**mmioOpen**](https://msdn.microsoft.com/library/Dd757331(v=VS.85).aspx)
--   [**mmioRead**](https://msdn.microsoft.com/library/Dd757334(v=VS.85).aspx)
--   [**mmioRename**](https://msdn.microsoft.com/library/Dd757335(v=VS.85).aspx)
--   [**mmioSeek**](https://msdn.microsoft.com/library/Dd757336(v=VS.85).aspx)
--   [**mmioSendMessage**](https://msdn.microsoft.com/library/Dd757337(v=VS.85).aspx)
--   [**mmioSetBuffer**](https://msdn.microsoft.com/library/Dd757338(v=VS.85).aspx)
--   [**mmioSetInfo**](https://msdn.microsoft.com/library/Dd757339(v=VS.85).aspx)
--   [**mmioStringToFOURCC**](https://msdn.microsoft.com/library/Dd757340(v=VS.85).aspx)
--   [**mmioWrite**](https://msdn.microsoft.com/library/Dd757341(v=VS.85).aspx)
+-   [**IOProc**](/previous-versions//dd757098(v=vs.85))
+-   [**mmioAdvance**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioadvance)
+-   [**mmioAscend**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioascend)
+-   [**mmioClose**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioclose)
+-   [**mmioCreateChunk**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiocreatechunk)
+-   [**mmioDescend**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiodescend)
+-   [**mmioFlush**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioflush)
+-   [**mmioGetInfo**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiogetinfo)
+-   [**mmioInstallIOProc**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioinstallioproc)
+-   [**mmioOpen**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioopen)
+-   [**mmioRead**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioread)
+-   [**mmioRename**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiorename)
+-   [**mmioSeek**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioseek)
+-   [**mmioSendMessage**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiosendmessage)
+-   [**mmioSetBuffer**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiosetbuffer)
+-   [**mmioSetInfo**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiosetinfo)
+-   [**mmioStringToFOURCC**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiostringtofourcc)
+-   [**mmioWrite**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiowrite)
 
 ## Related topics
 
@@ -50,7 +50,3 @@ The following functions are used with multimedia file I/O.
  
 
  
-
-
-
-

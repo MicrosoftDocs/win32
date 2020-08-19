@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Using midiOutShortMsg to Send Individual MIDI Messages
 
-The following example uses the [**midiOutShortMsg**](https://msdn.microsoft.com/library/Dd798481(v=VS.85).aspx) function to send a specified MIDI event to a given MIDI output device:
+The following example uses the [**midiOutShortMsg**](/windows/win32/api/mmeapi/nf-mmeapi-midioutshortmsg) function to send a specified MIDI event to a given MIDI output device:
 
 
 ```C++
@@ -49,7 +49,3 @@ UINT sendMIDIEvent(HMIDIOUT hmo, BYTE bStatus, BYTE bData1,
  
 
  
-
-
-
-

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # WM\_SYSCHAR message
 
-Posted to the window with the keyboard focus when a [**WM\_SYSKEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown) message is translated by the [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) function. It specifies the character code of a system character key   that is, a character key that is pressed while the ALT key is down.
+Posted to the window with the keyboard focus when a [**WM\_SYSKEYDOWN**](/windows/desktop/inputdev/wm-syskeydown) message is translated by the [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) function. It specifies the character code of a system character key   that is, a character key that is pressed while the ALT key is down.
 
 
 ```C++
@@ -91,10 +91,10 @@ For enhanced 101- and 102-key keyboards, extended keys are the right ALT and CTR
 [**TranslateAccelerator**](/windows/desktop/api/Winuser/nf-winuser-translateacceleratora)
 </dt> <dt>
 
-[**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage)
+[**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
 </dt> <dt>
 
-[**WM\_SYSKEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown)
+[**WM\_SYSKEYDOWN**](/windows/desktop/inputdev/wm-syskeydown)
 </dt> <dt>
 
 **Conceptual**
@@ -104,10 +104,4 @@ For enhanced 101- and 102-key keyboards, extended keys are the right ALT and CTR
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

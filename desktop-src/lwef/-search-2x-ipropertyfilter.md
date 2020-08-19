@@ -26,7 +26,7 @@ Exposes properties used to filter the query.
 
 ## Members
 
-The **IPropertyFilter** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPropertyFilter** also has these types of members:
+The **IPropertyFilter** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPropertyFilter** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -66,10 +66,4 @@ These properties are used to filter the query.
 
 
  
-
- 
-
-
-
-
 

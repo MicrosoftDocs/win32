@@ -18,7 +18,7 @@ ms.date: 02/07/2020
 
 # Touch Hit Testing Behaviors
 
-The following constants are used by applications or UI frameworks to identify how messages for touch hit testing are processed by windows that are registered through the [**RegisterTouchHitTestingWindow**](https://msdn.microsoft.com/library/windows/desktop/hh437252) function.
+The following constants are used by applications or UI frameworks to identify how messages for touch hit testing are processed by windows that are registered through the [**RegisterTouchHitTestingWindow**](/windows/win32/api/winuser/nf-winuser-registertouchhittestingwindow) function.
 
 | Constant/value | Description |
 |---|---|

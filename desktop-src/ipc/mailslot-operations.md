@@ -32,12 +32,12 @@ The following functions are also used by mailslot servers.
 
 | Function                                                         | Description                                         |
 |------------------------------------------------------------------|-----------------------------------------------------|
-| [**DuplicateHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle)                      | Duplicates the mailslot handle.                     |
-| [**ReadFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile), [**ReadFileEx**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex) | Retrieves messages from a mailslot.                 |
-| [**GetFileTime**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletime)                              | Retrieves the date and time a mailslot was created. |
-| [**SetFileTime**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfiletime)                              | Sets the date and time a mailslot was created.      |
-| [**GetHandleInformation**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-gethandleinformation)            | Retrieves properties of the mailslot handle.        |
-| [**SetHandleInformation**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-sethandleinformation)            | Sets properties of the mailslot handle.             |
+| [**DuplicateHandle**](/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle)                      | Duplicates the mailslot handle.                     |
+| [**ReadFile**](/windows/desktop/api/fileapi/nf-fileapi-readfile), [**ReadFileEx**](/windows/desktop/api/fileapi/nf-fileapi-readfileex) | Retrieves messages from a mailslot.                 |
+| [**GetFileTime**](/windows/desktop/api/fileapi/nf-fileapi-getfiletime)                              | Retrieves the date and time a mailslot was created. |
+| [**SetFileTime**](/windows/desktop/api/fileapi/nf-fileapi-setfiletime)                              | Sets the date and time a mailslot was created.      |
+| [**GetHandleInformation**](/windows/desktop/api/handleapi/nf-handleapi-gethandleinformation)            | Retrieves properties of the mailslot handle.        |
+| [**SetHandleInformation**](/windows/desktop/api/handleapi/nf-handleapi-sethandleinformation)            | Sets properties of the mailslot handle.             |
 
 
 
@@ -51,10 +51,10 @@ A client process uses the following functions when interacting with a mailslot.
 
 | Function                                                             | Description                                     |
 |----------------------------------------------------------------------|-------------------------------------------------|
-| [**CloseHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle)                                  | Closes a mailslot handle for a client process.  |
-| [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)                                    | Creates a mailslot handle for a client process. |
-| [**DuplicateHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle)                          | Duplicates a mailslot handle.                   |
-| [**WriteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile), [**WriteFileEx**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex) | Writes data to a mailslot.                      |
+| [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle)                                  | Closes a mailslot handle for a client process.  |
+| [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea)                                    | Creates a mailslot handle for a client process. |
+| [**DuplicateHandle**](/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle)                          | Duplicates a mailslot handle.                   |
+| [**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile), [**WriteFileEx**](/windows/desktop/api/fileapi/nf-fileapi-writefileex) | Writes data to a mailslot.                      |
 
 
 
@@ -63,6 +63,3 @@ A client process uses the following functions when interacting with a mailslot.
  
 
  
-
-
-

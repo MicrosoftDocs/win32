@@ -53,7 +53,7 @@ Data type: **CIM\_SwitchPort**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 A [**CIM\_SwitchPort**](cim-switchport.md) reference to the switch port.
@@ -69,7 +69,7 @@ Data type: **CIM\_DynamicForwardingEntry**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_DynamicForwardingEntry**](cim-dynamicforwardingentry.md) reference to the entry of the forwarding database.
@@ -98,9 +98,4 @@ A [**CIM\_DynamicForwardingEntry**](cim-dynamicforwardingentry.md) reference to 
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -39,7 +39,7 @@ This value is only valid for errors of type msmErrorFileCreate or msmErrorDirCre
 
 ### C++
 
-See [**get\_Path**](https://msdn.microsoft.com/library/Aa369255(v=VS.85).aspx) function.
+See [**get\_Path**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-get_path) function.
 
 ## Requirements
 
@@ -54,9 +54,4 @@ See [**get\_Path**](https://msdn.microsoft.com/library/Aa369255(v=VS.85).aspx) f
 
 
  
-
- 
-
-
-
 

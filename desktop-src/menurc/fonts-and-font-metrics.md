@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 This topic discusses the outline fonts provided by Windows, font metric values that may change between versions of Windows, and guidance for how to use font metrics in your desktop apps.
 
--   For info specific to font metrics in DirectWrite, see [Text Metrics](https://docs.microsoft.com/windows/desktop/DirectWrite/text-metrics).
--   For details on managing text in apps using GDI, see the topics in [Fonts and Text](https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text).
+-   For info specific to font metrics in DirectWrite, see [Text Metrics](/windows/desktop/DirectWrite/text-metrics).
+-   For details on managing text in apps using GDI, see the topics in [Fonts and Text](/windows/desktop/gdi/fonts-and-text).
 
 For more detailed information on font usage and type specifications, see the [Microsoft typography site](https://www.microsoft.com/typography/default.mspx).
 
@@ -151,18 +151,18 @@ These fonts are used as defaults in Microsoft apps and are also affected by lock
 Other than the locked metrics listed above, font values are accurately reported. If a font is changed in a new version of Windows, dynamic font values will differ between the new and old. For example, when a glyph is added to a font, values in the font’s header may change. Clipping could result if these values (which include xMin, xMax, yMin, and yMax, and report the minimum and maximum bounding box for glyphs in the font) were locked and didn't report true values.
 
 > [!IMPORTANT]
-> If you use dynamic font values in your app (like those in [**TEXTMETRIC**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-textmetrica)), these values will change if fonts are modified in future versions of Windows. Don't use these actual values in situations where text must stay static.
+> If you use dynamic font values in your app (like those in [**TEXTMETRIC**](/windows/win32/api/wingdi/ns-wingdi-textmetrica)), these values will change if fonts are modified in future versions of Windows. Don't use these actual values in situations where text must stay static.
 
  
 
 ## Guidelines for using font metrics
 
--   Compute screen metrics and font metrics (e.g., average width) when an app is launched, and use these values to lay out your app. This will provide consistently accurate rendering, and your layout will respond to changes in fonts or accommodate font fallback. For an overview of font fallback and font linking, see [Globalization Step by Step: Fonts](https://msdn.microsoft.com/goglobal/bb688134.aspx). See [Using Font Fallback](https://docs.microsoft.com/windows/desktop/Intl/using-font-fallback) for Uniscribe-specific info.
+-   Compute screen metrics and font metrics (e.g., average width) when an app is launched, and use these values to lay out your app. This will provide consistently accurate rendering, and your layout will respond to changes in fonts or accommodate font fallback. For an overview of font fallback and font linking, see [Globalization Step by Step: Fonts](https://msdn.microsoft.com/goglobal/bb688134.aspx). See [Using Font Fallback](/windows/desktop/Intl/using-font-fallback) for Uniscribe-specific info.
     -   To compute a base metric, render representative text for your intended language/script.
     -   For controls that just contain a single line of unwrapped text, lay them out to fit the full width of the untrimmed text.
     -   For controls with multiple lines, get the total length, divide by the character length, and you’ve got a solid width to work with. Note that this is trickier for complex scripts where a single ‘character’ to the reader may be multiple code points.
 -   Use sTypoAscender, sTypoDescender, and unitsPerEm (from the [OS/2 table](https://www.microsoft.com/typography/otspec/os2.htm)) to calculate vertical spacing. sTypoAscender is used to determine the optimum offset from the top of a text frame to the first baseline and sTypoDescender determines the optimum offset from the bottom of a text frame to the last baseline.
--   If you’re using DirectWrite, create a layout using [**IDWriteTextLayout**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout). **IDWriteTextLayout** provides **ascender** + **descender** + **lineGap** in natural layout. You can access these specific values with [**DWRITE\_FONT\_METRICS**](https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_font_metrics). For info on this interface, see [Text Formatting and Layout](https://docs.microsoft.com/windows/desktop/DirectWrite/text-formatting-and-layout).
+-   If you’re using DirectWrite, create a layout using [**IDWriteTextLayout**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout). **IDWriteTextLayout** provides **ascender** + **descender** + **lineGap** in natural layout. You can access these specific values with [**DWRITE\_FONT\_METRICS**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_font_metrics). For info on this interface, see [Text Formatting and Layout](/windows/desktop/DirectWrite/text-formatting-and-layout).
 -   If you’re using GDI, render off screen, then inspect the layout (for example, the line length or characters per line) and recalculate the final layout parameters used in actual rendering.
 -   Don’t build layouts statically based on particular values for particular versions of fonts. Actual values may change from release to release.
 
@@ -173,13 +173,13 @@ Other than the locked metrics listed above, font values are accurately reported.
 **Reference**
 </dt> <dt>
 
-[**IDWriteTextLayout**](https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout)
+[**IDWriteTextLayout**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout)
 </dt> <dt>
 
-[**DWRITE\_FONT\_METRICS**](https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_font_metrics)
+[**DWRITE\_FONT\_METRICS**](/windows/desktop/api/dwrite/ns-dwrite-dwrite_font_metrics)
 </dt> <dt>
 
-[**TEXTMETRIC**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-textmetrica)
+[**TEXTMETRIC**](/windows/win32/api/wingdi/ns-wingdi-textmetrica)
 </dt> <dt>
 
 [unitsPerEm](https://www.microsoft.com/typography/otspec/head.htm)
@@ -197,10 +197,10 @@ Other than the locked metrics listed above, font values are accurately reported.
 **Conceptual**
 </dt> <dt>
 
-[Text Metrics (DirectWrite)](https://docs.microsoft.com/windows/desktop/DirectWrite/text-metrics)
+[Text Metrics (DirectWrite)](/windows/desktop/DirectWrite/text-metrics)
 </dt> <dt>
 
-[Fonts and Text (GDI)](https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text)
+[Fonts and Text (GDI)](/windows/desktop/gdi/fonts-and-text)
 </dt> <dt>
 
 [Microsoft Typography](https://www.microsoft.com/typography/default.mspx)
@@ -209,7 +209,3 @@ Other than the locked metrics listed above, font values are accurately reported.
  
 
  
-
-
-
-

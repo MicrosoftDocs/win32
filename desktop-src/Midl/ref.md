@@ -54,14 +54,14 @@ Specifies a [base type](midl-base-types.md), [**struct**](struct.md), [**union**
 *standard-declarator* 
 </dt> <dd>
 
-Specifies a standard C declarator, such as an identifier, a pointer declarator, or an array declarator. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**arrays**](arrays-1.md), and [Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers).
+Specifies a standard C declarator, such as an identifier, a pointer declarator, or an array declarator. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**arrays**](arrays-1.md), and [Arrays and Pointers](/windows/desktop/Rpc/arrays-and-pointers).
 
 </dd> <dt>
 
 *declarator-list* 
 </dt> <dd>
 
-Specifies standard C declarators, such as identifiers, pointer declarators, and array declarators. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**arrays**](arrays-1.md), and [Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers). The *declarator-list* consists of one or more declarators separated by commas. The parameter-name identifier in the function declarator is optional.
+Specifies standard C declarators, such as identifiers, pointer declarators, and array declarators. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**arrays**](arrays-1.md), and [Arrays and Pointers](/windows/desktop/Rpc/arrays-and-pointers). The *declarator-list* consists of one or more declarators separated by commas. The parameter-name identifier in the function declarator is optional.
 
 </dd> <dt>
 
@@ -129,7 +129,7 @@ If no attribute is specified for a top-level pointer parameter, it is treated as
 [**arrays**](arrays-1.md)
 </dt> <dt>
 
-[Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers)
+[Arrays and Pointers](/windows/desktop/Rpc/arrays-and-pointers)
 </dt> <dt>
 
 [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md)
@@ -201,7 +201,3 @@ If no attribute is specified for a top-level pointer parameter, it is treated as
  
 
  
-
-
-
-

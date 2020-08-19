@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Publishing Your Event Schema for a Manifest-based Provider
 
-[Manifest-based](about-event-tracing.md) providers use a manifest to publish the schema for their events. The manifest is embedded in the provider binary, which means that the provider must be available on the computer for the consumer to consume its events. For complete details on writing a manifest, see [Writing an Instrumentation Manifest](https://msdn.microsoft.com/library/Dd996930(v=VS.85).aspx).
+[Manifest-based](about-event-tracing.md) providers use a manifest to publish the schema for their events. The manifest is embedded in the provider binary, which means that the provider must be available on the computer for the consumer to consume its events. For complete details on writing a manifest, see [Writing an Instrumentation Manifest](../wes/writing-an-instrumentation-manifest.md).
 
 The following manifest defines the events that are used in examples in the [Providing Events](providing-events.md) and [Consuming Events](consuming-events.md) section of the document.
 
@@ -139,6 +139,3 @@ The following manifest defines the events that are used in examples in the [Prov
  
 
  
-
-
-

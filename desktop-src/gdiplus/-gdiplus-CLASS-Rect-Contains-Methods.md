@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Rect.Contains methods
 
-This topic lists the Contains methods of the [**Rect**](https://msdn.microsoft.com/library/ms534495(v=VS.85).aspx) class. For a complete list of methods for the **Rect** class, see [Rect Methods](-gdiplus-class-rect-methods.md).
+This topic lists the Contains methods of the [**Rect**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-rect) class. For a complete list of methods for the **Rect** class, see [Rect Methods](-gdiplus-class-rect-methods.md).
 
 ### Overload list
 
@@ -16,16 +16,12 @@ This topic lists the Contains methods of the [**Rect**](https://msdn.microsoft.c
 
 | Method                                                         | Description                                                                                                                                       |
 |:---------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Contains(Rect&)**](https://msdn.microsoft.com/library/ms534985(v=VS.85).aspx)  | The [**Rect::Contains**](https://msdn.microsoft.com/library/ms534985(v=VS.85).aspx) method determines whether another rectangle is inside this rectangle.<br/> |
-| [**Contains(Point&)**](https://msdn.microsoft.com/library/ms534984(v=VS.85).aspx)   | The [**Rect::Contains**](https://msdn.microsoft.com/library/ms534984(v=VS.85).aspx) method determines whether a point is inside this rectangle.<br/>             |
-| [**Contains(INT,INT)**](https://msdn.microsoft.com/library/ms534986(v=VS.85).aspx) | The [**Rect::Contains**](https://msdn.microsoft.com/library/ms534986(v=VS.85).aspx)*xy*) is inside this rectangle.<br/>                                         |
+| [**Contains(Rect&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-contains(inrect_))  | The [**Rect::Contains**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-contains(inrect_)) method determines whether another rectangle is inside this rectangle.<br/> |
+| [**Contains(Point&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-contains(inconstpoint_))   | The [**Rect::Contains**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-contains(inconstpoint_)) method determines whether a point is inside this rectangle.<br/>             |
+| [**Contains(INT,INT)**](/previous-versions//ms534986(v=vs.85)) | The [**Rect::Contains**](/previous-versions//ms534986(v=vs.85))*xy*) is inside this rectangle.<br/>                                         |
 
 
 
  
 
  
-
-
-
-

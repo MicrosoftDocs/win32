@@ -37,7 +37,7 @@ Not used.
 
 ## Return Value
 
-Returns a [**POINTS**](https://msdn.microsoft.com/library/Dd162808(v=VS.85).aspx) structure that contains the x coordinate and y coordinate of the status window position in screen coordinates, relative to the upper left corner of the screen.
+Returns a [**POINTS**](/previous-versions//dd162808(v=vs.85)) structure that contains the x coordinate and y coordinate of the status window position in screen coordinates, relative to the upper left corner of the screen.
 
 ## Requirements
 
@@ -67,7 +67,3 @@ Returns a [**POINTS**](https://msdn.microsoft.com/library/Dd162808(v=VS.85).aspx
  
 
  
-
-
-
-

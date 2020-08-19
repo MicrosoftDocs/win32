@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 
 The [Microsoft Agent Robby Character](https://www.microsoft.com/downloads/details.aspx?FamilyID=fa36d1d5-d828-494a-ad0a-7b571db5bd2e) is a copyrighted work of Microsoft Corporation.
 
-Robby supports the animations listed in the table below. Refer to [Programming the Microsoft Agent Server Interface](https://docs.microsoft.com/windows/desktop/lwef/programming-the-microsoft-agent-server-interface) and [Programming the Microsoft Agent Control](programming-the-microsoft-agent-control.md) for information on how to call the character's animations.
+Robby supports the animations listed in the table below. Refer to [Programming the Microsoft Agent Server Interface](/windows/desktop/lwef/programming-the-microsoft-agent-server-interface) and [Programming the Microsoft Agent Control](programming-the-microsoft-agent-control.md) for information on how to call the character's animations.
 
-If accessing these character animations using the HTTP protocol and the control's [**Get**](get-method.md) or server's [**Prepare**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--prepare) method, consider how you will download them. Instead of downloading all the animations at once, you may want to retrieve the **Showing** and **Speaking** state animations first. This will enable you to display the character quickly and have it speak while bringing down other animations asynchronously. In addition, to ensure that character and animation data load successfully, use the [**RequestComplete**](requestcomplete-event.md) event. If a load request fails, you can retry loading the data or display an appropriate message.
+If accessing these character animations using the HTTP protocol and the control's [**Get**](get-method.md) or server's [**Prepare**](/windows/desktop/lwef/iagentcharacter--prepare) method, consider how you will download them. Instead of downloading all the animations at once, you may want to retrieve the **Showing** and **Speaking** state animations first. This will enable you to display the character quickly and have it speak while bringing down other animations asynchronously. In addition, to ensure that character and animation data load successfully, use the [**RequestComplete**](requestcomplete-event.md) event. If a load request fails, you can retry loading the data or display an appropriate message.
 
 If an animation's **Return** animation is defined using Exit branches, you do not need to call it explicitly; Agent automatically plays the **Return** animation before the next animation. However, if a **Return** animation is listed, you must call the animation using the [**Play**](play-method.md) method before another animation to provide a smooth transition. If no **Return** animation is listed, the animation typically ends without needing a transitional animation.
 
@@ -100,10 +100,4 @@ The character file includes sound effects for some animations as noted in the fo
 \* If you play a looping animation, you must use [**Stop**](stop-method.md) to clear it before other animations in the character's queue will play.
 
  
-
- 
-
-
-
-
 

@@ -61,7 +61,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates if the referenced setting is currently being used in the operation of the element, or that this information is unknown. This property is inherited from [**CIM\_ElementSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata).
+Indicates if the referenced setting is currently being used in the operation of the element, or that this information is unknown. This property is inherited from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata).
 
 
 
@@ -86,7 +86,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates if the referenced setting is a default setting for the element, or that this information is unknown. This property is inherited from [**CIM\_ElementSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata).
+Indicates if the referenced setting is a default setting for the element, or that this information is unknown. This property is inherited from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata).
 
 
 
@@ -113,7 +113,7 @@ Access type: Read-only
 
 Indicates whether or not the referenced setting is the next setting to be applied. For example, the application could take place on a re-initialization, reset, reconfiguration request. This could be a permanent setting, or a setting used only one time, as indicated by the flag. If it is a permanent setting then the setting is applied every time the managed element reinitializes, until this flag is manually reset. However, if it is single use, then the flag is automatically cleared after the settings are applied. Also, if this flag is specified (i.e. set to value other than 0 (Unknown)), then this takes precedence over any setting data that may have been specified as default. For example: If the managed element is a computer system, and the value of this flag is 1 (Is Next), then the setting will be effective next time the system resets. And, unless this flag is changed, it will persist for subsequent system resets. However, if this flag is set to 3 (Is Next For Single Use), then this setting will only be used once and the flag would be reset after that to 2 (Is Not Next). So, in the above example, if the system reboots in a quick succession, the setting will not be used at the second reboot.
 
-This property is inherited from [**CIM\_ElementSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata).
+This property is inherited from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata).
 
 
 
@@ -139,10 +139,10 @@ Data type: **[**CIM\_ComputerSystem**](msvm-computersystem.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_ElementSettingData.ManagedElement")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_ElementSettingData.ManagedElement")
 </dt> </dl>
 
-Reference to the virtual machine. This property is inherited from [**CIM\_ElementSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata).
+Reference to the virtual machine. This property is inherited from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata).
 
 </dd> <dt>
 
@@ -155,16 +155,16 @@ Data type: **[**Msvm\_VirtualSystemExportSettingData**](msvm-virtualsystemexport
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_ElementSettingData.SettingData")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("CIM\_ElementSettingData.SettingData")
 </dt> </dl>
 
-Reference to the export setting data for the virtual machine. This property is inherited from [**CIM\_ElementSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata).
+Reference to the export setting data for the virtual machine. This property is inherited from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_SystemExportSettingData** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_SystemExportSettingData** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -181,9 +181,4 @@ Access to the **Msvm\_SystemExportSettingData** class might be restricted by UAC
 
 
  
-
- 
-
-
-
 

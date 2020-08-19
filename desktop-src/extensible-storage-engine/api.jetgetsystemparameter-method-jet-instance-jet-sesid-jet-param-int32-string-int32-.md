@@ -90,21 +90,21 @@ public static JET_wrn JetGetSystemParameter(
 <!-- end list -->
 
   - paramValue  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Returns the value of the parameter, if the value is an integer.
 
 <!-- end list -->
 
   - paramString  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     Returns the value of the parameter, if the value is a string.
 
 <!-- end list -->
 
   - maxParam  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The maximum size of the parameter string.
 
@@ -128,4 +128,3 @@ An ESENT warning code.
 [JetGetSystemParameter overload](dn292183\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

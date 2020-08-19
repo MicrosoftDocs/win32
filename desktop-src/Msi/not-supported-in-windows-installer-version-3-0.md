@@ -21,7 +21,7 @@ The following features are not supported in Windows Installer 3.0 and earlier v
 
 Callback Function Prototype
 
--   [**INSTALLUI\_HANDLER\_RECORD**](https://msdn.microsoft.com/library/Aa369545(v=VS.85).aspx)
+-   [**INSTALLUI\_HANDLER\_RECORD**](/windows/win32/api/msi/nc-msi-installui_handler_record)
 
 [Database Tables](database-tables.md)
 
@@ -42,6 +42,3 @@ Callback Function Prototype
  
 
  
-
-
-

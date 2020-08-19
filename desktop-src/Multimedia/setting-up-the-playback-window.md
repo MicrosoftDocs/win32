@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Setting Up the Playback Window
 
-The following example finds the dimensions needed to play an AVI file, creates a window corresponding to that size, and plays the file in the window by using the MCIAVI driver. It uses the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function
+The following example finds the dimensions needed to play an AVI file, creates a window corresponding to that size, and plays the file in the window by using the MCIAVI driver. It uses the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function
 
 
 ```C++
@@ -50,7 +50,3 @@ if (hwndMovie){
  
 
  
-
-
-
-

@@ -62,7 +62,7 @@ The installer attempts to open the module in the language specified by *Language
 
 ### C++
 
-See [**OpenModule**](https://msdn.microsoft.com/library/Aa369278(v=VS.85).aspx) function.
+See [**OpenModule**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-openmodule) function.
 
 ## Requirements
 
@@ -79,7 +79,3 @@ See [**OpenModule**](https://msdn.microsoft.com/library/Aa369278(v=VS.85).aspx) 
  
 
  
-
-
-
-

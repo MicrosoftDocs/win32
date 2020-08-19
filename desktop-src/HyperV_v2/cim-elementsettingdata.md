@@ -178,7 +178,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The managed element.
@@ -194,7 +194,7 @@ Data type: **CIM\_SettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The setting data associated with the element.
@@ -216,9 +216,4 @@ The setting data associated with the element.
 
 
  
-
- 
-
-
-
 

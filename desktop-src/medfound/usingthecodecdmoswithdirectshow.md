@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The Windows Media Audio and Video encoder and decoder objects were originally designed and optimized to work with the ASF file container format and the Windows Media Format SDK. The codec objects work well in DirectShow for certain scenarios, namely one-pass CBR and quality based VBR encoding of video streams. But if you are considering using the codec objects directly in DirectShow using file containers other than ASF, there are certain behaviors and issues that you should be aware of in advance.
 
 > [!Note]  
-> If you are going to use standalone codecs with DirectShow, you will probably want to use them as DMOs only. In other words, you will be using the [**IMediaObject**](https://msdn.microsoft.com/library/Dd406926(v=VS.85).aspx) interface instead of [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform).
+> If you are going to use standalone codecs with DirectShow, you will probably want to use them as DMOs only. In other words, you will be using the [**IMediaObject**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) interface instead of [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform).
 
  
 
@@ -19,7 +19,7 @@ The Windows Media Audio and Video encoder and decoder objects were originally de
 
 You can use DirectShow to encode WMA streams into any file container format for which you have a multiplexer filter. However, the Windows Media Audio and Video codec interfaces do not support WMA in AVI files because it is impossible, using the default DirectShow AVI playback filters, to maintain audio-video sync in an AVI file with a WMA stream. For more information, see [Storing Compressed Media in AVI Files](storingcompressedmediainavifiles.md).
 
-The audio encoder DMO outputs samples of varying duration, even when in "constant bit rate" mode. It therefore works best with file container formats that use time stamps. AVI files do not provide a time stamp for each audio sample or group of samples. In DirectShow, the AVI Splitter filter manufactures time stamps for each group of samples (each audio frame) based on the **nAvgBytesPerSec** value in the [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) structure in the AVI stream header.
+The audio encoder DMO outputs samples of varying duration, even when in "constant bit rate" mode. It therefore works best with file container formats that use time stamps. AVI files do not provide a time stamp for each audio sample or group of samples. In DirectShow, the AVI Splitter filter manufactures time stamps for each group of samples (each audio frame) based on the **nAvgBytesPerSec** value in the [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) structure in the AVI stream header.
 
 The assumption underlying this calculation is that all audio samples in the stream are of equal duration; however, the samples output by the DMO are not of equal duration, and so the time stamps applied by the AVI Splitter are not accurate. Therefore, it is not possible, without modifying either the AVI Splitter or the audio decoder DMO, to use any DirectShow-based application to play back AVI files with audio and video streams in sync. The Windows Media Audio 9 Voice codec will work in some cases, but even this will lose sync after any seek operation, so it really cannot be considered a viable solution.
 
@@ -37,9 +37,9 @@ When the graph goes into a run state for the second pass, the DMO Wrapper sets t
 
 ## Interlaced Content
 
-The WMV encoder DMO is able to encode interlaced content while preserving the interlacing, which is useful for content that is captured from a TV and might also be played back on a TV. However, it is not possible to preserve interlacing using the default DMO Wrapper, because that filter does not support [**INSSBuffer**](https://msdn.microsoft.com/library/Dd743243(v=VS.85).aspx) on its input samples.
+The WMV encoder DMO is able to encode interlaced content while preserving the interlacing, which is useful for content that is captured from a TV and might also be played back on a TV. However, it is not possible to preserve interlacing using the default DMO Wrapper, because that filter does not support [**INSSBuffer**](/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer) on its input samples.
 
-The DMO uses that interface to obtain the interlaced settings for each sample that it receives. If the interface is not found, as is the case with the DMO Wrapper, the DMO simply treats the input samples as noninterlaced. To perform interlaced encoding in DirectShow, there are several alternatives. The easiest approach is probably to use the Windows Media Format 9 Series SDK either directly or using the WM ASF Writer DirectShow filter, to create an interlaced ASF file. You can then transcode that file into some other format. If you transcode into AVI, you will have an interlaced file, but the standard DirectShow AVI playback filters will not recognize it as such because they do not support [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/library/Dd407326(v=VS.85).aspx). Another approach is to write your own DMO Wrapper filter that supports the [**INSSBuffer**](https://msdn.microsoft.com/library/Dd743243(v=VS.85).aspx) interface.
+The DMO uses that interface to obtain the interlaced settings for each sample that it receives. If the interface is not found, as is the case with the DMO Wrapper, the DMO simply treats the input samples as noninterlaced. To perform interlaced encoding in DirectShow, there are several alternatives. The easiest approach is probably to use the Windows Media Format 9 Series SDK either directly or using the WM ASF Writer DirectShow filter, to create an interlaced ASF file. You can then transcode that file into some other format. If you transcode into AVI, you will have an interlaced file, but the standard DirectShow AVI playback filters will not recognize it as such because they do not support [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2). Another approach is to write your own DMO Wrapper filter that supports the [**INSSBuffer**](/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer) interface.
 
 ## Related topics
 
@@ -51,6 +51,3 @@ The DMO uses that interface to obtain the interlaced settings for each sample th
  
 
  
-
-
-

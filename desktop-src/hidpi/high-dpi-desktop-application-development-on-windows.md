@@ -15,7 +15,7 @@ api_location:
 
 This content is targeted at developers who are looking to update desktop applications to handle display scale factor (dots per inch, or DPI) changes dynamically, allowing their applications to be crisp on any display they're rendered on.
 
-To start, if you're creating a new Windows app from scratch, it is highly recommended that you create a [Universal Windows Platform (UWP)](https://docs.microsoft.com/windows/uwp/get-started/whats-a-uwp) application. UWP applications automatically&mdash;and dynamically&mdash;scale for each display that they're running on.
+To start, if you're creating a new Windows app from scratch, it is highly recommended that you create a [Universal Windows Platform (UWP)](/windows/uwp/get-started/whats-a-uwp) application. UWP applications automatically&mdash;and dynamically&mdash;scale for each display that they're running on.
 
 Desktop applications using older Windows programming technologies (raw Win32 programming, Windows Forms, Windows Presentation Framework (WPF), etc.) are unable to automatically handle DPI scaling without additional developer work. Without such work, applications will appear blurry or incorrectly-sized in many common usage scenarios. This document provides context and information about what is involved in updating a desktop application to render correctly.
 
@@ -403,10 +403,4 @@ The table below shows what happens if you attempt to violate this rule:
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

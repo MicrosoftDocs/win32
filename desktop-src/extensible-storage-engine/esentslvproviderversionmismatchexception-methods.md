@@ -49,7 +49,7 @@ The [EsentSLVProviderVersionMismatchException](dn350740\(v=exchg.10\).md) type e
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn334369(v=exchg.10).md">GetObjectData</a></td>
-<td>When overridden in a derived class, sets the <a href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo?redirectedfrom=MSDN">SerializationInfo</a> with information about the exception. (Inherited from <a href="dn274314(v=exchg.10).md">EsentErrorException</a>.)</td>
+<td>When overridden in a derived class, sets the <a href="/dotnet/api/system.runtime.serialization.serializationinfo">SerializationInfo</a> with information about the exception. (Inherited from <a href="dn274314(v=exchg.10).md">EsentErrorException</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -79,4 +79,3 @@ Top
 [EsentSLVProviderVersionMismatchException class](dn350740\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

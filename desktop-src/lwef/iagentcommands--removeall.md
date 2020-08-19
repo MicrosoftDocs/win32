@@ -14,11 +14,11 @@ ms.date: 05/31/2018
 HRESULT Remove();
 ```
 
-Removes all [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) from a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+Removes all [**Commands**](/windows/desktop/lwef/the-command-object) from a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 -   Returns S\_OK to indicate the operation was successful.
 
-Removing all [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) from a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection also removes them from the pop-up menu and the **Voice Commands Window** when your application is input-active. **RemoveAll** does not remove server or other client's entries.
+Removing all [**Commands**](/windows/desktop/lwef/the-command-object) from a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection also removes them from the pop-up menu and the **Voice Commands Window** when your application is input-active. **RemoveAll** does not remove server or other client's entries.
 
 ## See Also
 
@@ -28,7 +28,3 @@ Removing all [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-
  
 
  
-
-
-
-

@@ -65,7 +65,7 @@ CHECKBOX "Italic", 3, 10, 10, 40, 10
 [Check Boxes](https://www.bing.com/search?q=Check+Boxes)
 </dt> <dt>
 
-[**GetDialogBaseUnits**](https://msdn.microsoft.com/library/ms645475(v=VS.85).aspx)
+[**GetDialogBaseUnits**](/windows/win32/api/winuser/nf-winuser-getdialogbaseunits)
 </dt> <dt>
 
 [**STATE3**](state3-control.md)
@@ -74,7 +74,3 @@ CHECKBOX "Italic", 3, 10, 10, 40, 10
  
 
  
-
-
-
-

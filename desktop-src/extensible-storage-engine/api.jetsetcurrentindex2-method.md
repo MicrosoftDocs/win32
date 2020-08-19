@@ -77,7 +77,7 @@ public static void JetSetCurrentIndex2(
 <!-- end list -->
 
   - index  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The name of the index to be selected. If this is null or empty the primary index will be selected.
 
@@ -97,4 +97,3 @@ public static void JetSetCurrentIndex2(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

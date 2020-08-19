@@ -41,12 +41,12 @@ Moves the specified character to the specified location.
 
 The server automatically plays the appropriate animation assigned to the **Moving** states. The location of a character is based on the upper left corner of its frame.
 
-If you declare an object variable and set it to this method, it returns a [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object. In addition, if the associated animation has not been loaded on the local machine, the server sets the **Request** object's [**Status**](status-property.md) property to "failed" with an appropriate error number. Therefore, if you are using the HTTP protocol to access character or animation data, use the [**Get**](get-method.md) method to load the **Moving** state animations before calling the **MoveTo** method.
+If you declare an object variable and set it to this method, it returns a [**Request**](/windows/desktop/lwef/the-request-object) object. In addition, if the associated animation has not been loaded on the local machine, the server sets the **Request** object's [**Status**](status-property.md) property to "failed" with an appropriate error number. Therefore, if you are using the HTTP protocol to access character or animation data, use the [**Get**](get-method.md) method to load the **Moving** state animations before calling the **MoveTo** method.
 
 Even if the animation is not loaded, the server still moves the frame.
 
 > [!Note]  
-> If you call **MoveTo** with a nonzero value before the character is shown, it will return a failure status if you assigned it a [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object, because the nonzero value indicates that you are attempting to play an animation when the character is not visible.
+> If you call **MoveTo** with a nonzero value before the character is shown, it will return a failure status if you assigned it a [**Request**](/windows/desktop/lwef/the-request-object) object, because the nonzero value indicates that you are attempting to play an animation when the character is not visible.
 
  
 
@@ -58,7 +58,3 @@ Even if the animation is not loaded, the server still moves the frame.
  
 
  
-
-
-
-

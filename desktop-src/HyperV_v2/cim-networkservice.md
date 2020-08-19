@@ -57,7 +57,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("No value")
+Qualifiers: [**Deprecated**](/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("No value")
 </dt> </dl>
 
 This property is deprecated and should not be used.
@@ -78,7 +78,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("CIM\_ServiceAccessURI")
+Qualifiers: [**Deprecated**](/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("CIM\_ServiceAccessURI")
 </dt> </dl>
 
 This property is deprecated. Instead, we recommend the **CIM\_ServiceAccessURI** class.
@@ -99,7 +99,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("No value")
+Qualifiers: [**Deprecated**](/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("No value")
 </dt> </dl>
 
 This property is deprecated and should not be used.
@@ -120,7 +120,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Deprecated**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("No value")
+Qualifiers: [**Deprecated**](/windows/desktop/WmiSdk/standard-wmi-qualifiers) ("No value")
 </dt> </dl>
 
 This property is deprecated and should not be used.
@@ -154,9 +154,4 @@ This property is deprecated and should not be used.
 </dt> </dl>
 
  
-
- 
-
-
-
 

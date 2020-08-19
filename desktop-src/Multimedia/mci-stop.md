@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_STOP command stops all play and record sequences, unloads all play buffers, and ceases display of video images. CD audio, digital-video, MIDI sequencer, videodisc, VCR, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function with the following parameters.
 
 
 ```C++
@@ -92,10 +92,4 @@ For the CD audio device, MCI\_STOP resets the current track position to zero; in
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

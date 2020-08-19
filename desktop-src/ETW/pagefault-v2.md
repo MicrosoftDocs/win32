@@ -35,12 +35,12 @@ The **PageFault\_V2** class does not define any members.
 
 ## Remarks
 
-To enable all page fault events in an NT Kernel logging session, specify the **EVENT\_TRACE\_FLAG\_MEMORY\_PAGE\_FAULTS** flag in the **EnableFlags** member of an [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) structure when calling the [**StartTrace**](starttrace.md) function. You can also specify the following flags:
+To enable all page fault events in an NT Kernel logging session, specify the **EVENT\_TRACE\_FLAG\_MEMORY\_PAGE\_FAULTS** flag in the **EnableFlags** member of an [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) structure when calling the [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) function. You can also specify the following flags:
 
 -   **EVENT\_TRACE\_FLAG\_MEMORY\_HARD\_FAULTS**
 -   **EVENT\_TRACE\_FLAG\_VIRTUAL\_ALLOC**
 
-Event trace consumers can implement special processing for all page fault events by calling the [**SetTraceCallback**](settracecallback.md) function and specifying [**PageFaultGuid**](nt-kernel-logger-constants.md) as the *pGuid* parameter. Use the following event types to identify the actual memory event when consuming events.
+Event trace consumers can implement special processing for all page fault events by calling the [**SetTraceCallback**](/windows/win32/api/evntrace/nf-evntrace-settracecallback) function and specifying [**PageFaultGuid**](nt-kernel-logger-constants.md) as the *pGuid* parameter. Use the following event types to identify the actual memory event when consuming events.
 
 
 
@@ -61,7 +61,7 @@ Event trace consumers can implement special processing for all page fault events
 
  
 
-You can use the **ProcessId** and **ThreadId** members of [**EVENT\_TRACE\_HEADER**](event-trace-header.md) to identify the faulting process or thread.
+You can use the **ProcessId** and **ThreadId** members of [**EVENT\_TRACE\_HEADER**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) to identify the faulting process or thread.
 
 ## Requirements
 
@@ -77,7 +77,3 @@ You can use the **ProcessId** and **ThreadId** members of [**EVENT\_TRACE\_HEADE
  
 
  
-
-
-
-

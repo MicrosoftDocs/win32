@@ -16,7 +16,7 @@ HRESULT GetVisible(
 );
 ```
 
-Retrieves the value of the [**Visible**](visible-property.md) property for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+Retrieves the value of the [**Visible**](visible-property.md) property for a [**Command**](/windows/desktop/lwef/the-command-object).
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,7 +25,7 @@ Retrieves the value of the [**Visible**](visible-property.md) property for a [**
 <span id="pbVisible"></span><span id="pbvisible"></span><span id="PBVISIBLE"></span>*pbVisible*
 </dt> <dd>
 
-The address of a variable that receives the [**Visible**](visible-property.md) property for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+The address of a variable that receives the [**Visible**](visible-property.md) property for a [**Command**](/windows/desktop/lwef/the-command-object).
 
 </dd> </dl>
 
@@ -37,7 +37,3 @@ The address of a variable that receives the [**Visible**](visible-property.md) p
  
 
  
-
-
-
-

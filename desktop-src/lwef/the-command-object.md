@@ -10,11 +10,11 @@ ms.date: 05/31/2018
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
-A [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object is an item in a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection. The server provides the user access to your **Command** objects when your client application becomes input-active.
+A [**Command**](/windows/desktop/lwef/the-command-object) object is an item in a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection. The server provides the user access to your **Command** objects when your client application becomes input-active.
 
 -   [Command Object Properties](command-object-properties.md)
 
-To access the property of a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object, you reference it in its collection using its [**Name**](name-property.md) property. In VBScript and Visual Basic you can use the **Name** property directly:
+To access the property of a [**Command**](/windows/desktop/lwef/the-command-object) object, you reference it in its collection using its [**Name**](name-property.md) property. In VBScript and Visual Basic you can use the **Name** property directly:
 
 
 ```
@@ -58,7 +58,7 @@ In Visual Basic 5.0, you can also declare the object as type [**IAgentCtlCommand
 
 
 
-In VBScript, you can declare a reference as a particular type, but you can still declare the variable and set it to the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) in the collection:
+In VBScript, you can declare a reference as a particular type, but you can still declare the variable and set it to the [**Command**](/windows/desktop/lwef/the-command-object) in the collection:
 
 
 ```
@@ -71,9 +71,9 @@ In VBScript, you can declare a reference as a particular type, but you can still
 
 
 
-A command may appear in either the character's pop-up menu and the Commands Window, or in both. To appear in the pop-up menu it must have a caption and have the [**Visible**](visible-property.md) property set to **True**. In addition, its Commands collection object **Visible** property must also be set to **True**. To appear in the Commands Window, a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) must have its [**Caption**](caption-property.md) and [**Voice**](voice-property.md) properties set. Note that a character's pop-up menu entries do not change while the menu displays. If you add or remove commands or change their properties while the character's pop-up menu is displayed, the menu displays those changes whenever the user next displays it. However, the Commands Window dynamically reflects any changes you make.
+A command may appear in either the character's pop-up menu and the Commands Window, or in both. To appear in the pop-up menu it must have a caption and have the [**Visible**](visible-property.md) property set to **True**. In addition, its Commands collection object **Visible** property must also be set to **True**. To appear in the Commands Window, a [**Command**](/windows/desktop/lwef/the-command-object) must have its [**Caption**](caption-property.md) and [**Voice**](voice-property.md) properties set. Note that a character's pop-up menu entries do not change while the menu displays. If you add or remove commands or change their properties while the character's pop-up menu is displayed, the menu displays those changes whenever the user next displays it. However, the Commands Window dynamically reflects any changes you make.
 
-The following table summarizes how the properties of a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) affect its presentation:
+The following table summarizes how the properties of a [**Command**](/windows/desktop/lwef/the-command-object) affect its presentation:
 
 
 
@@ -545,13 +545,7 @@ No
 
  
 
-When the server receives input for one of your commands, it sends a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) event, and passes back the name of the **Command** as an attribute of the [**UserInput**](https://docs.microsoft.com/windows/desktop/lwef/iagentuserinput) object. You can then use conditional statements to match and process the **Command**.
+When the server receives input for one of your commands, it sends a [**Command**](/windows/desktop/lwef/the-command-object) event, and passes back the name of the **Command** as an attribute of the [**UserInput**](/windows/desktop/lwef/iagentuserinput) object. You can then use conditional statements to match and process the **Command**.
 
  
-
- 
-
-
-
-
 

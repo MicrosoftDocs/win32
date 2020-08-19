@@ -105,7 +105,7 @@ library Hello
 
 <dl> <dt>
 
-[Contents of a Type Library](https://msdn.microsoft.com/library/ms221355(v=VS.71).aspx)
+[Contents of a Type Library](/previous-versions/windows/desktop/automat/contents-of-a-type-library)
 </dt> <dt>
 
 [**control**](control.md)
@@ -129,7 +129,7 @@ library Hello
 [**lcid**](lcid.md)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> <dt>
 
 [**restricted**](restricted.md)
@@ -141,7 +141,3 @@ library Hello
  
 
  
-
-
-
-

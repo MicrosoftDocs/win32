@@ -56,13 +56,13 @@ public static DateTime ConvertDoubleToDateTime(
 #### Parameters
 
   - d  
-    Type: [System.Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)  
+    Type: [System.Double](/dotnet/api/system.double)  
     
     The double value.
 
 #### Return value
 
-Type: [System.DateTime](https://docs.microsoft.com/dotnet/api/system.datetime?redirectedfrom=MSDN)  
+Type: [System.DateTime](/dotnet/api/system.datetime)  
 A DateTime.  
 
 ## See also
@@ -74,4 +74,3 @@ A DateTime.
 [Conversions members](dn334184\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

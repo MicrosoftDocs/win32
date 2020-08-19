@@ -97,14 +97,14 @@ public static void JetPrereadKeys(
 <!-- end list -->
 
   - keyCount  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The maximum number of keys to preread.
 
 <!-- end list -->
 
   - keysPreread  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Returns the number of keys to actually preread.
 
@@ -126,4 +126,3 @@ public static void JetPrereadKeys(
 [JetPrereadKeys overload](dn335411\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows7 namespace](hh577573\(v=exchg.10\).md)
-

@@ -41,13 +41,8 @@ If the value is **VARIANT\_TRUE**, CABAC is enabled.
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> <dt>
 
-[**ICodecAPI**](https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi)
+[**ICodecAPI**](/windows/desktop/api/strmif/nn-strmif-icodecapi)
 </dt> </dl>
 
  
-
- 
-
-
-
 

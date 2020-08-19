@@ -62,7 +62,7 @@ The name of the cabinet if some or all of the files stored on the media are comp
 <span id="VolumeLabel"></span><span id="volumelabel"></span><span id="VOLUMELABEL"></span>VolumeLabel
 </dt> <dd>
 
-The label attributed to the volume. This is the volume label returned by the [**GetVolumeInformation**](https://msdn.microsoft.com/library/Aa364993(v=VS.85).aspx) function. If the [**SourceDir**](sourcedir.md) property refers to a removable (floppy or CD-ROM) volume, then this volume label is used to verify that the proper disk is in the drive before attempting to install files. The entry in this column must match the volume label of the physical media.
+The label attributed to the volume. This is the volume label returned by the [**GetVolumeInformation**](/windows/win32/api/fileapi/nf-fileapi-getvolumeinformationa) function. If the [**SourceDir**](sourcedir.md) property refers to a removable (floppy or CD-ROM) volume, then this volume label is used to verify that the proper disk is in the drive before attempting to install files. The entry in this column must match the volume label of the physical media.
 
 </dd> <dt>
 
@@ -103,6 +103,3 @@ Note that this only applies to files in the File table that do not have either t
  
 
  
-
-
-

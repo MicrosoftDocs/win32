@@ -131,7 +131,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Job**](cim-job.md).**ErrorCode**")
+Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM\_Job**](cim-job.md).**ErrorCode**")
 </dt> </dl>
 
 Contains an error summary description.
@@ -269,9 +269,4 @@ GUID of the virtual machines for which export operation has been performed.
 </dt> </dl>
 
  
-
- 
-
-
-
 

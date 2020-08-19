@@ -23,7 +23,7 @@ topic_type:
 
 Specifies the password used to authenticate a user.
 
-For more information, see the documentation for the v1 [**Password**](https://msdn.microsoft.com/library/Dd323292(v=VS.85).aspx) element.
+For more information, see the documentation for the v1 [**Password**](./schema-password-userlogoncred-element.md) element.
 
 ## Element hierarchy
 
@@ -98,6 +98,3 @@ None.
  
 
  
-
-
-

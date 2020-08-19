@@ -29,7 +29,7 @@ ICE03 posts the following messages for the validation errors.
 | Invalid GUID string                                                       | See the [GUID](guid.md) data type.                                                                                                                                                                                                                                                       |
 | Invalid file name/usage of wildcards                                      | The database contains an invalid file name or an incorrect wildcard. See the [WildCardFilename](wildcardfilename.md) data type.                                                                                                                                                          |
 | Invalid identifier                                                        | See the [Identifier](identifier.md) data type.                                                                                                                                                                                                                                           |
-| Invalid Language Id                                                       | The database contains an invalid numeric Language Identifier (LANGID). See the [Language](language.md) data type. See [Language Identifier Constants and Strings](https://msdn.microsoft.com/library/Dd318693(v=VS.85).aspx). For example, 1033 for the U.S. and 0 for language neutral.<br/> |
+| Invalid Language Id                                                       | The database contains an invalid numeric Language Identifier (LANGID). See the [Language](language.md) data type. See [Language Identifier Constants and Strings](../intl/language-identifier-constants-and-strings.md). For example, 1033 for the U.S. and 0 for language neutral.<br/> |
 | Invalid Filename                                                          | See the [Filename](filename.md) data type.                                                                                                                                                                                                                                               |
 | Invalid full path                                                         | See the [Path](path.md), [AnyPath](anypath.md), and [Paths](paths.md) data types.                                                                                                                                                                                                      |
 | Bad conditional string                                                    | The database contains an invalid conditional string. This is a text string that must evaluate to TRUE or FALSE according to the [Conditional Statement Syntax](conditional-statement-syntax.md). See the [Condition](condition.md) data type.                                           |
@@ -63,7 +63,3 @@ ICE03 posts the following messages for the validation errors.
  
 
  
-
-
-
-

@@ -28,13 +28,13 @@ ROBOTS: INDEX,FOLLOW
 
 # FloatColumnValue class
 
-A [Single](https://docs.microsoft.com/dotnet/api/system.single?redirectedfrom=MSDN) column value.
+A [Single](/dotnet/api/system.single) column value.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Single](https://docs.microsoft.com/dotnet/api/system.single?redirectedfrom=MSDN)\>  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Single](/dotnet/api/system.single)\>  
       Microsoft.Isam.Esent.Interop.FloatColumnValue  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
@@ -65,4 +65,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [FloatColumnValue members](dn350882\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

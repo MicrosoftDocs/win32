@@ -98,7 +98,7 @@ public static void JetRegisterCallback(
 <!-- end list -->
 
   - context  
-    Type: [System.IntPtr](https://docs.microsoft.com/dotnet/api/system.intptr?redirectedfrom=MSDN)  
+    Type: [System.IntPtr](/dotnet/api/system.intptr)  
     
     A context that will be given to the callback.
 
@@ -118,4 +118,3 @@ public static void JetRegisterCallback(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

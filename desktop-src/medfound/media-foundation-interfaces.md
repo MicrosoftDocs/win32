@@ -590,7 +590,7 @@ ms.date: 05/31/2018
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp"><strong>IMFPMPHostApp</strong></a><br/></td>
-<td>Allows a media source to create a <a href="https://docs.microsoft.com/windows/desktop/WinRT/reference">Windows Runtime</a> object in the <a href="protected-media-path.md">Protected Media Path</a> (PMP) process. <br/></td>
+<td>Allows a media source to create a <a href="/windows/desktop/WinRT/reference">Windows Runtime</a> object in the <a href="protected-media-path.md">Protected Media Path</a> (PMP) process. <br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmpserver"><strong>IMFPMPServer</strong></a><br/></td>
@@ -1097,7 +1097,3 @@ This interface is obsolete and should not be used.
  
 
  
-
-
-
-

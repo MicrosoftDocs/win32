@@ -19,7 +19,7 @@ These functions may be implemented in the same DLL as the authentication protoco
 
 The [**RasEapGetIdentity**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity) function typically displays a user interface (UI) to obtain identity information for the user. However, if the *dwFlags* parameter contains the RAS\_EAP\_FLAG\_NON\_INTERACTIVE flag, **RasEapGetIdentity** should not display a UI.
 
-If [**RasEapGetIdentity**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity) does display a UI, the UI must support [**WM\_COMMAND**](https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx) messages where the value of [**LOWORD**](https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx)(*wParam*) is equal to IDCANCEL.
+If [**RasEapGetIdentity**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity) does display a UI, the UI must support [**WM\_COMMAND**](../menurc/wm-command.md) messages where the value of [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))(*wParam*) is equal to IDCANCEL.
 
 The authentication service calls [**RasEapGetIdentity**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity) if the [RAS\_EAP\_VALUENAME\_INVOKE\_NAMEDLG](authentication-protocol-registry-values.md) value that is in the registry for this EAP is set to zero. If RAS\_EAP\_VALUENAME\_INVOKE\_NAMEDLG is not present, or is present and is set to one, the authentication service displays the standard system user name dialog box.
 
@@ -27,14 +27,10 @@ In addition to RAS\_EAP\_VALUENAME\_INVOKE\_NAMEDLG, the EAP vendor may create a
 
 For more information on these registry values, see [Authentication Protocol Registry Values](authentication-protocol-registry-values.md).
 
-The information obtained by [**RasEapGetIdentity**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity) is passed to the authentication protocol during the call to [**RasEapBegin**](https://msdn.microsoft.com/library/Aa363520(v=VS.85).aspx). The information is pointed to by the **pszIdentity** and **pUserData** members of the [**PPP\_EAP\_INPUT**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_input) structure. To save this information in the registry on the client computer, the authentication protocol should return the information in the *pEapOutput* parameter of [**RasEapMakeMessage**](https://msdn.microsoft.com/library/Aa363532(v=VS.85).aspx).
+The information obtained by [**RasEapGetIdentity**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity) is passed to the authentication protocol during the call to [**RasEapBegin**](/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)). The information is pointed to by the **pszIdentity** and **pUserData** members of the [**PPP\_EAP\_INPUT**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_input) structure. To save this information in the registry on the client computer, the authentication protocol should return the information in the *pEapOutput* parameter of [**RasEapMakeMessage**](/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)).
 
-After the call to [**RasEapBegin**](https://msdn.microsoft.com/library/Aa363520(v=VS.85).aspx), the authentication service calls [**RasEapFreeMemory**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapfreememory) to free the memory occupied by this data. Therefore, the authentication protocol should copy the information into a private memory buffer during the call to **RasEapBegin**.
-
- 
+After the call to [**RasEapBegin**](/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)), the authentication service calls [**RasEapFreeMemory**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapfreememory) to free the memory occupied by this data. Therefore, the authentication protocol should copy the information into a private memory buffer during the call to **RasEapBegin**.
 
  
 
-
-
-
+ 

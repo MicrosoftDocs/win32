@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The following messages are used with painting and drawing:
 
 -   [**WM\_DISPLAYCHANGE**](wm-displaychange.md)
--   [**WM\_ERASEBKGND**](https://msdn.microsoft.com/library/ms648055(v=VS.85).aspx)
+-   [**WM\_ERASEBKGND**](../winmsg/wm-erasebkgnd.md)
 -   [**WM\_NCPAINT**](wm-ncpaint.md)
 -   [**WM\_PAINT**](wm-paint.md)
 -   [**WM\_PRINT**](wm-print.md)
@@ -22,6 +22,3 @@ The following messages are used with painting and drawing:
  
 
  
-
-
-

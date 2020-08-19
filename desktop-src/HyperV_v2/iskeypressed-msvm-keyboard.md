@@ -40,7 +40,7 @@ uint32 IsKeyPressed(
 
 Type: **uint32**
 
-The virtual key code of the key to query. For the list for virtual-key codes, see [**Virtual-Key Codes**](https://msdn.microsoft.com/library/Dd375731(v=VS.85).aspx).
+The virtual key code of the key to query. For the list for virtual-key codes, see [**Virtual-Key Codes**](../inputdev/virtual-key-codes.md).
 
 </dd> <dt>
 
@@ -104,7 +104,7 @@ A return value of zero indicates success. A nonzero value indicates a failure to
 
 The **IsKeyPressed** method will always return **False** for the **VK\_MENU** (18), **VK\_CONTROL** (17), and **VK\_SHIFT** (16) because these are not real keys on a keyboard. These virtual key codes are always mapped to **VK\_LMENU** (164), **VK\_LCONTROL** (162), and **VK\_LSHIFT** (160), respectively, by the [**PressKey**](presskey-msvm-keyboard.md) and [**ReleaseKey**](releasekey-msvm-keyboard.md) methods.
 
-Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -127,13 +127,8 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 [**Msvm\_Keyboard**](msvm-keyboard.md)
 </dt> <dt>
 
-[**Virtual-Key Codes**](https://msdn.microsoft.com/library/Dd375731(v=VS.85).aspx)
+[**Virtual-Key Codes**](../inputdev/virtual-key-codes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

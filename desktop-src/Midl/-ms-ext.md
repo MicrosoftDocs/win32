@@ -38,11 +38,11 @@ The following Microsoft extensions to OSF DCE are now available by default:
 -   [**wchar\_t**](wchar-t.md) wide-character types, constants, and strings
 -   [**enum initialization**](enum.md) (sparse enumerators)
 -   Expressions as size and discriminator specifiers
--   [Handle extensions](https://docs.microsoft.com/windows/desktop/Rpc/microsoft-rpc-binding-handle-extensions)
--   [Pointer-attribute type inheritance](https://docs.microsoft.com/windows/desktop/Rpc/pointer-attribute-type-inheritance)
--   [Multiple interfaces](https://docs.microsoft.com/windows/desktop/Rpc/registering-interfaces)
+-   [Handle extensions](/windows/desktop/Rpc/microsoft-rpc-binding-handle-extensions)
+-   [Pointer-attribute type inheritance](/windows/desktop/Rpc/pointer-attribute-type-inheritance)
+-   [Multiple interfaces](/windows/desktop/Rpc/registering-interfaces)
 -   Definitions outside of the interface block
--   You can omit [directional attributes](https://docs.microsoft.com/windows/desktop/Rpc/directional-parameter-attributes) \[[**in**](in.md), [**out**](out-idl.md)\]
+-   You can omit [directional attributes](/windows/desktop/Rpc/directional-parameter-attributes) \[[**in**](in.md), [**out**](out-idl.md)\]
 
 ## See also
 
@@ -51,7 +51,7 @@ The following Microsoft extensions to OSF DCE are now available by default:
 [General MIDL Command-line Syntax](general-midl-command-line-syntax.md)
 </dt> <dt>
 
-[Pointer-Attribute Type Inheritance](https://docs.microsoft.com/windows/desktop/Rpc/pointer-attribute-type-inheritance)
+[Pointer-attribute type inheritance](/windows/desktop/Rpc/pointer-attribute-type-inheritance)
 </dt> <dt>
 
 [**/app\_config**](-app-config.md)
@@ -63,7 +63,3 @@ The following Microsoft extensions to OSF DCE are now available by default:
  
 
  
-
-
-
-

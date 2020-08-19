@@ -53,7 +53,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("NameFormat")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("NameFormat")
 </dt> </dl>
 
 Indicates whether the logical device uses the name format of the OS.
@@ -85,7 +85,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("NameNamespace")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("NameNamespace")
 </dt> </dl>
 
 Indicates whether the logical device has the same namespace as the OS.
@@ -130,9 +130,4 @@ Indicates whether the logical device has the same namespace as the OS.
 </dt> </dl>
 
  
-
- 
-
-
-
 

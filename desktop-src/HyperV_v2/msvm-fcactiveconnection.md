@@ -61,7 +61,7 @@ Data type: **Msvm\_FcEndpoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_FcEndpoint**](msvm-fcendpoint.md) class that represents the service access point (SAP) that is configured to communicate or is actively communicating with the dependent SAP. In a unidirectional connection, this SAP is the one that is transmitting.
@@ -77,7 +77,7 @@ Data type: **Msvm\_FcEndpoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_FcEndpoint**](msvm-fcendpoint.md) class that represents the SAP that is configured to communicate or is actively communicating with the antecedent SAP. In a unidirectional connection, this SAP is the one that is receiving.
@@ -93,7 +93,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-If this property is **True**, this connection is unidirectional; otherwise, this connection is bidirectional. When a connection is unidirectional, the "speaker" should be defined as the **Antecedent** reference. In a bidirectional connection, it does not matter whether the selected access point is the **Antecedent** or **Dependent**. This property is inherited from [**CIM\_ActiveConnection**](https://docs.microsoft.com/previous-versions//cc136779(v=vs.85)).
+If this property is **True**, this connection is unidirectional; otherwise, this connection is bidirectional. When a connection is unidirectional, the "speaker" should be defined as the **Antecedent** reference. In a bidirectional connection, it does not matter whether the selected access point is the **Antecedent** or **Dependent**. This property is inherited from [**CIM\_ActiveConnection**](/previous-versions//cc136779(v=vs.85)).
 
 </dd> <dt>
 
@@ -106,7 +106,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ActiveConnection**](https://docs.microsoft.com/previous-versions//cc136779(v=vs.85)), but it is not used.
+This property is inherited from [**CIM\_ActiveConnection**](/previous-versions//cc136779(v=vs.85)), but it is not used.
 
 </dd> <dt>
 
@@ -119,7 +119,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-This property is inherited from [**CIM\_ActiveConnection**](https://docs.microsoft.com/previous-versions//cc136779(v=vs.85)), but it is not used.
+This property is inherited from [**CIM\_ActiveConnection**](/previous-versions//cc136779(v=vs.85)), but it is not used.
 
 </dd> </dl>
 
@@ -138,9 +138,4 @@ This property is inherited from [**CIM\_ActiveConnection**](https://docs.microso
 
 
  
-
- 
-
-
-
 

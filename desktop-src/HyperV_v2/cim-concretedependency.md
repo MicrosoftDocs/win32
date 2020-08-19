@@ -53,7 +53,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The independent object in the association.
@@ -69,7 +69,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The dependent object in the association.
@@ -98,9 +98,4 @@ The dependent object in the association.
 </dt> </dl>
 
  
-
- 
-
-
-
 

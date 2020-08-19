@@ -61,14 +61,8 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**IDeviceIcon**](https://msdn.microsoft.com/library/Hh828909(v=VS.85).aspx)
+[**IDeviceIcon**](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-ideviceicon)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

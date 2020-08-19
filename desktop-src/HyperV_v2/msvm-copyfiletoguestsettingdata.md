@@ -25,7 +25,7 @@ api_location:
 
 # Msvm\_CopyFileToGuestSettingData class
 
-Represents the parameters for copying a file from the host into the guest. This class derives from [**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85)).
+Represents the parameters for copying a file from the host into the guest. This class derives from [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)).
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -189,13 +189,8 @@ The complete path of the source file to be copied. This source file must be acce
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> <dt>
 
-[**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85))
+[**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
 

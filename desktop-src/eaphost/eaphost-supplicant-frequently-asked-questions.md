@@ -32,7 +32,7 @@ This topic provides answers to commonly-asked questions about the EAPHost Suppli
 </tr>
 <tr class="even">
 <td>Which functions must be invoked on threads that have COM initialized for [Single Threaded Apartment](Http://go.microsoft.com/fwlink/p/?linkid=83881) (STA)?</td>
-<td>[<strong>EapHostPeerInvokeConfigUI</strong>](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui), [<strong>EapHostPeerInvokeInteractiveUI</strong>](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeinteractiveui), and [<strong>EapHostAuthenticatorInvokeConfigUI</strong>](/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorinvokeconfigui) must be called on threads that have COM initialized for STA. This can be achieved by calling COM API [<strong>CoInitialize</strong>](https://msdn.microsoft.com/windows/desktop/0f171cf4-87b9-43a6-97f2-80ed344fe376); when the supplicant has finished with the STA thread [<strong>CoUninitialize</strong>](https://msdn.microsoft.com/windows/desktop/9411cbed-fa3b-46f7-b677-6ada53324edc) must be called before exiting.</td>
+<td>[<strong>EapHostPeerInvokeConfigUI</strong>](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui), [<strong>EapHostPeerInvokeInteractiveUI</strong>](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeinteractiveui), and [<strong>EapHostAuthenticatorInvokeConfigUI</strong>](/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorinvokeconfigui) must be called on threads that have COM initialized for STA. This can be achieved by calling COM API [<strong>CoInitialize</strong>](/windows/win32/api/objbase/nf-objbase-coinitialize); when the supplicant has finished with the STA thread [<strong>CoUninitialize</strong>](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) must be called before exiting.</td>
 </tr>
 <tr class="odd">
 <td>How does EAPHost export keying material?</td>
@@ -47,7 +47,7 @@ This topic provides answers to commonly-asked questions about the EAPHost Suppli
 <td>If an EAP method generates attributes or EMSK, then the supplicant will consume attributes. Typically, attributes that are consumed by supplicants are keys. The attributes consumed are <strong>eatPeerId</strong>, <strong>eatServerId</strong>, <strong>eatMethodId</strong>, <strong>eatEMSK</strong>, and <strong>eatCredentialsChanged</strong>. For more information, see [<strong>EAP_ATTRIBUTE_TYPE</strong>](/windows/desktop/api/eaptypes/ne-eaptypes-eap_attribute_type). An EAP method can export additional application-specific EMSK material such as:
 <ul>
 <li>Session ID</li>
-<li>[Network Access Protection](https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page) (NAP)</li>
+<li>[Network Access Protection](/windows/desktop/NAP/network-access-protection-start-page) (NAP)</li>
 </ul>
 <br/></td>
 </tr>
@@ -82,7 +82,7 @@ MPPE keys are keys generated at the end of successful authentication, by both pe
 </tr>
 <tr class="even">
 <td>Why does the [<strong>EapHostPeerBeginSession</strong>](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession) API take a [<em>NotificationHandler</em>](/previous-versions/windows/desktop/api) callback function pointer as a parameter?</td>
-<td>[<em>NotificationHandler</em>](/previous-versions/windows/desktop/api) is the mechanism by which a supplicant is notified that it must re-authenticate. There are various scenarios where the supplicant is required to re-authenticate, including authentication with [Network Access Protection](https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page) (NAP).</td>
+<td>[<em>NotificationHandler</em>](/previous-versions/windows/desktop/api) is the mechanism by which a supplicant is notified that it must re-authenticate. There are various scenarios where the supplicant is required to re-authenticate, including authentication with [Network Access Protection](/windows/desktop/NAP/network-access-protection-start-page) (NAP).</td>
 </tr>
 <tr class="odd">
 <td>What is the purpose of the <em>pConnectionId</em> parameter in the [<strong>EapHostPeerBeginSession</strong>](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession) API?</td>
@@ -136,10 +136,4 @@ MPPE keys are keys generated at the end of successful authentication, by both pe
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

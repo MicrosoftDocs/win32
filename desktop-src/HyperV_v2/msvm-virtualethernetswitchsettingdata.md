@@ -122,7 +122,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Action to take for the virtual machine when the software executed by the virtual machine fails. Failures in this case means a failure that is detectable by the host platform, such as a non-interruptible wait state condition. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)), and is not used.
+Action to take for the virtual machine when the software executed by the virtual machine fails. Failures in this case means a failure that is detectable by the host platform, such as a non-interruptible wait state condition. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)), and is not used.
 
 </dd> <dt>
 
@@ -135,7 +135,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Action to take for the virtual machine when the host is shut down. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)), and is not used.
+Action to take for the virtual machine when the host is shut down. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)), and is not used.
 
 </dd> <dt>
 
@@ -148,7 +148,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Action to take for the virtual machine when the host is started. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)), and is not used.
+Action to take for the virtual machine when the host is started. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)), and is not used.
 
 </dd> <dt>
 
@@ -161,7 +161,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The delay time before the virtual machine is automatically started up. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)), and is not used.
+The delay time before the virtual machine is automatically started up. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)), and is not used.
 
 </dd> <dt>
 
@@ -174,7 +174,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-A number that indicates the relative sequence of virtual machine activation when the host system is started. A lower number indicates earlier activation. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)), and is not used.
+A number that indicates the relative sequence of virtual machine activation when the host system is started. A lower number indicates earlier activation. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)), and is not used.
 
 </dd> <dt>
 
@@ -230,7 +230,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Virtual Ethernet Switch Settings".
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Virtual Ethernet Switch Settings".
 
 </dd> <dt>
 
@@ -243,7 +243,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The path of a directory where information about the virtual machine configuration is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)), and is not used.
+The path of a directory where information about the virtual machine configuration is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)), and is not used.
 
 </dd> <dt>
 
@@ -256,7 +256,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The relative path and file name of a file where information about the virtual machine configuration is stored. This path is relative to the **ConfigurationDataRoot** property. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)), and is not used.
+The relative path and file name of a file where information about the virtual machine configuration is stored. This path is relative to the **ConfigurationDataRoot** property. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)), and is not used.
 
 </dd> <dt>
 
@@ -269,7 +269,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The unique identifier of the virtual machine configuration. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)), and is not used.
+The unique identifier of the virtual machine configuration. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)), and is not used.
 
 </dd> <dt>
 
@@ -282,7 +282,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date and time at which the settings were created. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+The date and time at which the settings were created. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -295,7 +295,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Active settings for the virtual Ethernet switch".
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Active settings for the virtual Ethernet switch".
 
 </dd> <dt>
 
@@ -308,7 +308,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+A display name for the object. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -337,7 +337,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85)) and is always set to "Microsoft:*GUID*\\*DeviceSpecificData*".
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)) and is always set to "Microsoft:*GUID*\\*DeviceSpecificData*".
 
 </dd> <dt>
 
@@ -363,7 +363,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The path of a directory where log information for the virtual machine is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)), and is not used.
+The path of a directory where log information for the virtual machine is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)), and is not used.
 
 </dd> <dt>
 
@@ -389,7 +389,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-User supplied notes that are related to the virtual machine. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+User supplied notes that are related to the virtual machine. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -420,7 +420,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The full path of a file where recovery related information for the virtual machine is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)), and is not used.
+The full path of a file where recovery related information for the virtual machine is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)), and is not used.
 
 </dd> <dt>
 
@@ -433,7 +433,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The path of a directory where information about the virtual machine snapshots is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)), and is not used.
+The path of a directory where information about the virtual machine snapshots is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)), and is not used.
 
 </dd> <dt>
 
@@ -446,7 +446,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The path of a directory where information about the virtual machine suspend-related information is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)), and is not used.
+The path of a directory where information about the virtual machine suspend-related information is stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)), and is not used.
 
 </dd> <dt>
 
@@ -459,7 +459,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The path of a directory where swap files for the virtual machine are stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)), and is not used.
+The path of a directory where swap files for the virtual machine are stored. This property is inherited from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)), and is not used.
 
 </dd> <dt>
 
@@ -490,7 +490,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The name of the [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) object to which this setting data belongs. This property is an override from [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+The name of the [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) object to which this setting data belongs. This property is an override from [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -503,7 +503,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Specifies the type of virtual machine the setting data represents. This property is inherited from the [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)).
+Specifies the type of virtual machine the setting data represents. This property is inherited from the [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)).
 
 </dd> <dt>
 
@@ -535,9 +535,4 @@ A list of VLAN identifiers that this switch can access. This property is inherit
 
 
  
-
- 
-
-
-
 

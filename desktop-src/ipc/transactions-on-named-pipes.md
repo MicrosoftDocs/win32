@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Transactions on Named Pipes
 
-A named pipe transaction is a client/server communication that combines a write operation and a read operation into a single network operation. A transaction can be used only on a duplex, message-type pipe. Transactions improve the performance of network communications between a client and a remote server. Processes can use the [**TransactNamedPipe**](https://msdn.microsoft.com/library/Aa365790(v=VS.85).aspx) and [**CallNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-callnamedpipea) functions to perform named pipe transactions.
+A named pipe transaction is a client/server communication that combines a write operation and a read operation into a single network operation. A transaction can be used only on a duplex, message-type pipe. Transactions improve the performance of network communications between a client and a remote server. Processes can use the [**TransactNamedPipe**](/windows/win32/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe) and [**CallNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-callnamedpipea) functions to perform named pipe transactions.
 
-The [**TransactNamedPipe**](https://msdn.microsoft.com/library/Aa365790(v=VS.85).aspx) function is most commonly used by a pipe client to write a request message to the named pipe server and read the server's response message. The pipe client must specify GENERIC\_READ \| GENERIC\_WRITE access when it opens its pipe handle by calling the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function. Then, the pipe client sets the pipe handle to message-read mode by calling the [**SetNamedPipeHandleState**](https://msdn.microsoft.com/library/Aa365787(v=VS.85).aspx) function. If the read buffer specified in the call to **TransactNamedPipe** is not large enough to hold the entire message written by the server, the function returns zero and [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_MORE\_DATA. The client can read the remainder of the message by calling either the [**ReadFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile), [**ReadFileEx**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex), or [**PeekNamedPipe**](https://msdn.microsoft.com/library/Aa365779(v=VS.85).aspx) function.
+The [**TransactNamedPipe**](/windows/win32/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe) function is most commonly used by a pipe client to write a request message to the named pipe server and read the server's response message. The pipe client must specify GENERIC\_READ \| GENERIC\_WRITE access when it opens its pipe handle by calling the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) function. Then, the pipe client sets the pipe handle to message-read mode by calling the [**SetNamedPipeHandleState**](/windows/win32/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate) function. If the read buffer specified in the call to **TransactNamedPipe** is not large enough to hold the entire message written by the server, the function returns zero and [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns ERROR\_MORE\_DATA. The client can read the remainder of the message by calling either the [**ReadFile**](/windows/desktop/api/fileapi/nf-fileapi-readfile), [**ReadFileEx**](/windows/desktop/api/fileapi/nf-fileapi-readfileex), or [**PeekNamedPipe**](/windows/win32/api/namedpipeapi/nf-namedpipeapi-peeknamedpipe) function.
 
-[**TransactNamedPipe**](https://msdn.microsoft.com/library/Aa365790(v=VS.85).aspx) is typically called by pipe clients, but can also be used by a pipe server.
+[**TransactNamedPipe**](/windows/win32/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe) is typically called by pipe clients, but can also be used by a pipe server.
 
-The following example shows a pipe client using [**TransactNamedPipe**](https://msdn.microsoft.com/library/Aa365790(v=VS.85).aspx). This pipe client can be used with any of the pipe servers listed under See Also.
+The following example shows a pipe client using [**TransactNamedPipe**](/windows/win32/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe). This pipe client can be used with any of the pipe servers listed under See Also.
 
 
 ```C++
@@ -132,7 +132,7 @@ int _tmain(int argc, TCHAR *argv[])
 
 
 
-A pipe client uses [**CallNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-callnamedpipea) to combine the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea), [**WaitNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-waitnamedpipea) (if necessary), [**TransactNamedPipe**](https://msdn.microsoft.com/library/Aa365790(v=VS.85).aspx), and [**CloseHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle) function calls into a single call. Because the pipe handle is closed before the function returns, any additional bytes in the message are lost if the message is larger than the specified size of the read buffer. The following example is the previous example rewritten to use **CallNamedPipe**.
+A pipe client uses [**CallNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-callnamedpipea) to combine the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea), [**WaitNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-waitnamedpipea) (if necessary), [**TransactNamedPipe**](/windows/win32/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe), and [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle) function calls into a single call. Because the pipe handle is closed before the function returns, any additional bytes in the message are lost if the message is larger than the specified size of the read buffer. The following example is the previous example rewritten to use **CallNamedPipe**.
 
 
 ```C++
@@ -201,6 +201,3 @@ int _tmain(int argc, TCHAR *argv[])
  
 
  
-
-
-

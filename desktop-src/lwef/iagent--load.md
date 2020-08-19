@@ -18,7 +18,7 @@ HRESULT Load(
 );
 ```
 
-Loads a character into the [**Characters**](https://msdn.microsoft.com/library/ms697571(v=VS.85).aspx) collection.
+Loads a character into the [**Characters**](./iagent.md) collection.
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -62,14 +62,10 @@ You cannot load the same character (a character having the same GUID) more than 
 
 Microsoft Agent's data provider supports loading character data stored as a single structured file (.ACS) with character data and animation data together, or as separate character data (.ACF) and animation (.ACA) files. Generally, use the single structured .ACS file to load a character that is stored on a local disk drive or network and accessed using conventional file protocol (such as UNC pathnames). Use the separate .ACF and .ACA files when you want to load the animation files individually from a remote site where they are accessed using HTTP protocol.
 
-For .ACS files, using the [**Load**](load-method.md) method provides access a character's animations; once loaded, you can use the [**Play**](play-method.md) method to animate the character. For .ACF files, you also use the [**Prepare**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--prepare) method to load animation data. The **Load** method does not support downloading .ACS files from an HTTP site.
+For .ACS files, using the [**Load**](load-method.md) method provides access a character's animations; once loaded, you can use the [**Play**](play-method.md) method to animate the character. For .ACF files, you also use the [**Prepare**](/windows/desktop/lwef/iagentcharacter--prepare) method to load animation data. The **Load** method does not support downloading .ACS files from an HTTP site.
 
 Loading a character does not automatically display the character. Use the [**Show**](show-method.md) method first to make the character visible.
 
  
 
  
-
-
-
-

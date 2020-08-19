@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_WINDOW command specifies the window and the window characteristics for graphic devices. Digital-video, and video-overlay devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function with the following parameters.
 
 
 ```C++
@@ -122,7 +122,7 @@ The handle of the window used for the destination is included in the **hWnd** me
 <span id="MCI_OVLY_WINDOW_STATE"></span><span id="mci_ovly_window_state"></span>MCI\_OVLY\_WINDOW\_STATE
 </dt> <dd>
 
-The **nCmdShow** member of the *lpWindow* structure contains parameters for setting the window state. This flag is equivalent to calling [ShowWindow](https://msdn.microsoft.com/library/ms633548.aspx) with the *state* parameter. The constants are the same as those defined in WINDOWS.H (such as SW\_HIDE, SW\_MINIMIZE, or SW\_SHOWNORMAL).
+The **nCmdShow** member of the *lpWindow* structure contains parameters for setting the window state. This flag is equivalent to calling [ShowWindow](/windows/win32/api/winuser/nf-winuser-showwindow) with the *state* parameter. The constants are the same as those defined in WINDOWS.H (such as SW\_HIDE, SW\_MINIMIZE, or SW\_SHOWNORMAL).
 
 </dd> <dt>
 
@@ -158,10 +158,4 @@ For video-overlay devices, the *lpWindow* parameter points to an [**MCI\_OVLY\_W
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

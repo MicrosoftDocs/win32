@@ -63,7 +63,7 @@ Internally, the ANSI version translates the string to Unicode. The Windows heade
 
 
 
-In MSDN, the function is documented under the name [**SetWindowText**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowtexta), even though that is really the macro name, not the actual function name.
+In MSDN, the function is documented under the name [**SetWindowText**](/windows/desktop/api/winuser/nf-winuser-setwindowtexta), even though that is really the macro name, not the actual function name.
 
 New applications should always call the Unicode versions. Many world languages require Unicode. If you use ANSI strings, it will be impossible to localize your application. The ANSI versions are also less efficient, because the operating system must convert the ANSI strings to Unicode at run time. Depending on your preference, you can call the Unicode functions explicitly, such as **SetWindowTextW**, or use the macros. The example code on MSDN typically calls the macros, but the two forms are exactly equivalent. Most newer APIs in Windows have just a Unicode version, with no corresponding ANSI version.
 
@@ -126,7 +126,3 @@ Be careful: Some headers use the preprocessor symbol `UNICODE`, others use `_UNI
  
 
  
-
-
-
-

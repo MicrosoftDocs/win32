@@ -35,7 +35,7 @@ Specifies one or more C-language expressions. Each expression evaluates to a non
 
 ## Remarks
 
-If you are using the \[**size\_is**\] attribute to allocate memory for a multidimensional array and you are using array \[ \] notation, keep in mind that only the first dimension of a multidimensional array can be dynamically determined at run time. The other dimensions must be statically specified. For more information on using the \[**size\_is**\] attribute with multiple levels of pointers to enable a server to return a dynamically-sized array of data to a client, as shown in the example Proc7, see [Multiple Levels of Pointers](https://docs.microsoft.com/windows/desktop/Rpc/multiple-levels-of-pointers).
+If you are using the \[**size\_is**\] attribute to allocate memory for a multidimensional array and you are using array \[ \] notation, keep in mind that only the first dimension of a multidimensional array can be dynamically determined at run time. The other dimensions must be statically specified. For more information on using the \[**size\_is**\] attribute with multiple levels of pointers to enable a server to return a dynamically-sized array of data to a client, as shown in the example Proc7, see [Multiple Levels of Pointers](/windows/desktop/Rpc/multiple-levels-of-pointers).
 
 You can use either \[**size\_is**\] or [**max\_is**](max-is.md) (but not both in the same attribute list) to specify the size of an array whose upper bounds are determined at run time. Note, however, that the \[**size\_is**\] attribute cannot be used on array dimensions that are fixed. The \[**max\_is**\] attribute specifies the maximum valid array index. As a result, specifying \[size\_is(n)\] is equivalent to specifying \[max\_is(n-1)\].
 
@@ -107,7 +107,7 @@ HRESULT Proc6(
 [**arrays**](arrays-1.md)
 </dt> <dt>
 
-[Field Attributes](https://docs.microsoft.com/windows/desktop/Rpc/field-attributes)
+[Field Attributes](/windows/desktop/Rpc/field-attributes)
 </dt> <dt>
 
 [**first\_is**](first-is.md)
@@ -140,7 +140,3 @@ HRESULT Proc6(
  
 
  
-
-
-
-

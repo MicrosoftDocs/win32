@@ -46,12 +46,8 @@ To display a useful error message to the user, the installation program usually 
 
 For example, if [**VerInstallFile**](/windows/desktop/api/Winver/nf-winver-verinstallfilea) returns the **VIF\_DIFFTYPE** error, the installation program should use the [**GetFileVersionInfoSize**](/windows/desktop/api/Winver/nf-winver-getfileversioninfosizea), [**GetFileVersionInfo**](/windows/desktop/api/Winver/nf-winver-getfileversioninfoa), and [**VerQueryValue**](/windows/desktop/api/Winver/nf-winver-verqueryvaluea) functions on the temporary and destination files to obtain the general type of each file. If the languages of the files conflict, the installation program should also use [**VerLanguageName**](/windows/desktop/api/Winver/nf-winver-verlanguagenamea) to translate the binary language identifier into a text representation of the language. (For example, 0x040C translates to the string "French.")
 
-If [**VerInstallFile**](/windows/desktop/api/Winver/nf-winver-verinstallfilea) returns a file error, such as **VIF\_ACCESSVIOLATION**, the installation program should use the [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function to retrieve the most recent error value. The program should translate this value into an informative message to display to the user. The program must not yield control between the calls to **VerInstallFile** and **GetLastError**.
+If [**VerInstallFile**](/windows/desktop/api/Winver/nf-winver-verinstallfilea) returns a file error, such as **VIF\_ACCESSVIOLATION**, the installation program should use the [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function to retrieve the most recent error value. The program should translate this value into an informative message to display to the user. The program must not yield control between the calls to **VerInstallFile** and **GetLastError**.
 
  
 
  
-
-
-
-

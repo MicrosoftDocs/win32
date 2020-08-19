@@ -22,7 +22,7 @@ HRESULT AddEx(
 );
 ```
 
-Adds a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) to a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+Adds a [**Command**](/windows/desktop/lwef/the-command-object) to a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -31,49 +31,49 @@ Adds a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command
 <span id="bszCaption"></span><span id="bszcaption"></span><span id="BSZCAPTION"></span>*bszCaption*
 </dt> <dd>
 
-A BSTR that specifies the value of the [**Caption**](caption-property.md) text displayed for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) in a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+A BSTR that specifies the value of the [**Caption**](caption-property.md) text displayed for a [**Command**](/windows/desktop/lwef/the-command-object) in a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 </dd> <dt>
 
 <span id="bszVoice"></span><span id="bszvoice"></span><span id="BSZVOICE"></span>*bszVoice*
 </dt> <dd>
 
-A BSTR that specifies the value of the [**Voice**](voice-property.md) text setting for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) in a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+A BSTR that specifies the value of the [**Voice**](voice-property.md) text setting for a [**Command**](/windows/desktop/lwef/the-command-object) in a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 </dd> <dt>
 
 <span id="bszVoiceCaption"></span><span id="bszvoicecaption"></span><span id="BSZVOICECAPTION"></span>*bszVoiceCaption*
 </dt> <dd>
 
-A BSTR that specifies the value of the [**VoiceCaption**](voicecaption-property.md) text displayed for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) in a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+A BSTR that specifies the value of the [**VoiceCaption**](voicecaption-property.md) text displayed for a [**Command**](/windows/desktop/lwef/the-command-object) in a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 </dd> <dt>
 
 <span id="bEnabled"></span><span id="benabled"></span><span id="BENABLED"></span>*bEnabled*
 </dt> <dd>
 
-A Boolean expression that specifies the [**Enabled**](enabled-property.md) setting for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) in a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection. If the parameter is **True**, the **Command** is enabled and can be selected; if **False**, the **Command** is disabled.
+A Boolean expression that specifies the [**Enabled**](enabled-property.md) setting for a [**Command**](/windows/desktop/lwef/the-command-object) in a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection. If the parameter is **True**, the **Command** is enabled and can be selected; if **False**, the **Command** is disabled.
 
 </dd> <dt>
 
 <span id="bVisible"></span><span id="bvisible"></span><span id="BVISIBLE"></span>*bVisible*
 </dt> <dd>
 
-A Boolean expression that specifies the [**Visible**](visible-property.md) setting for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) in a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection. If the parameter is **True**, the **Command** will be visible in the character's pop-up menu (if the [**Caption**](caption-property.md) property is also set).
+A Boolean expression that specifies the [**Visible**](visible-property.md) setting for a [**Command**](/windows/desktop/lwef/the-command-object) in a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection. If the parameter is **True**, the **Command** will be visible in the character's pop-up menu (if the [**Caption**](caption-property.md) property is also set).
 
 </dd> <dt>
 
 <span id="ulHelpID"></span><span id="ulhelpid"></span><span id="ULHELPID"></span>*ulHelpID*
 </dt> <dd>
 
-The context number of the help topic associated with the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object; used to provide context-sensitive Help for the command.
+The context number of the help topic associated with the [**Command**](/windows/desktop/lwef/the-command-object) object; used to provide context-sensitive Help for the command.
 
 </dd> <dt>
 
 <span id="pdwID_"></span><span id="pdwid_"></span><span id="PDWID_"></span>*pdwID* 
 </dt> <dd>
 
-Address of a variable that receives the ID for the added [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+Address of a variable that receives the ID for the added [**Command**](/windows/desktop/lwef/the-command-object).
 
 </dd> </dl>
 
@@ -87,7 +87,3 @@ Address of a variable that receives the ID for the added [**Command**](https://d
  
 
  
-
-
-
-

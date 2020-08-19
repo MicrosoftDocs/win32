@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The MsiPublishAssemblies action manages the advertisement of common language runtime assemblies and Win32 assemblies. The action queries the [MsiAssembly table](msiassembly-table.md) to determine which assemblies have features being advertised or installed to the global assembly cache and which assemblies have a parent component being advertised or installed to a location isolated for a particular application. For information see, [Installation of Assemblies to the Global Assembly Cache](installation-of-assemblies-to-the-global-assembly-cache.md) and [Installation of Win32 Assemblies](installation-of-win32-assemblies.md).
 
-On Microsoft Windows XP and later systems, Windows Installer can install Win32 assemblies as [side-by-side assemblies](side-by-side-assemblies.md). For more information, see [About Isolated Applications and Side-by-side Assemblies](https://msdn.microsoft.com/library/Aa374029(v=VS.85).aspx).
+On Microsoft Windows XP and later systems, Windows Installer can install Win32 assemblies as [side-by-side assemblies](side-by-side-assemblies.md). For more information, see [About Isolated Applications and Side-by-side Assemblies](../sbscs/about-isolated-applications-and-side-by-side-assemblies.md).
 
 ## Sequence Restrictions
 
@@ -38,6 +38,3 @@ The [MsiUnpublishAssemblies Action](msiunpublishassemblies-action.md) manages th
  
 
  
-
-
-

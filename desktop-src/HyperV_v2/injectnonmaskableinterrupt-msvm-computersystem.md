@@ -37,7 +37,7 @@ uint32 InjectNonMaskableInterrupt(
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)) to track the status of the interrupt injection. This reference can be **NULL** if the task is complete.
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)) to track the status of the interrupt injection. This reference can be **NULL** if the task is complete.
 
 </dd> </dl>
 
@@ -78,9 +78,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

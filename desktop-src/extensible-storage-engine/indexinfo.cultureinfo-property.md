@@ -53,7 +53,7 @@ public CultureInfo CultureInfo { get; }
 
 #### Property value
 
-Type: [System.Globalization.CultureInfo](https://docs.microsoft.com/dotnet/api/system.globalization.cultureinfo?redirectedfrom=MSDN)  
+Type: [System.Globalization.CultureInfo](/dotnet/api/system.globalization.cultureinfo)  
 
 ## See also
 
@@ -64,4 +64,3 @@ Type: [System.Globalization.CultureInfo](https://docs.microsoft.com/dotnet/api/s
 [IndexInfo members](dn350916\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

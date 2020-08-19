@@ -27,15 +27,15 @@ The Windows Filtering Platform (WFP) API is divided into the following component
 </thead>
 <tbody>
 <tr class="odd">
-<td rowspan="2"><a href="https://msdn.microsoft.com/library/ff571067.aspx">Callout API</a> (FWPS)${REMOVE}$<br />
+<td rowspan="2"><a href="/windows-hardware/drivers/ddi/_netvista/">Callout API</a> (FWPS)${REMOVE}$<br />
 </td>
-<td><a href="https://msdn.microsoft.com/library/ff570892.aspx">Data types</a> used by callouts.<strong>Note</strong>  These data types are documented in the Microsoft Windows Driver Development Kit (DDK).<br/></td>
+<td><a href="/windows-hardware/drivers/ddi/_netvista/">Data types</a> used by callouts.<strong>Note</strong>  These data types are documented in the Microsoft Windows Driver Development Kit (DDK).<br/></td>
 <td><dl> fwpstypes.h<br />
 fwpstypes.idl<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td><a href="https://msdn.microsoft.com/library/ff571067.aspx">Functions</a> and <a href="https://msdn.microsoft.com/library/ff548865.aspx">enumerated types</a> used to implement callouts.<strong>Note</strong>  These functions and enumerated types are documented in the DDK.<br/></td>
+<td><a href="/windows-hardware/drivers/ddi/_netvista/">Functions</a> and <a href="/windows-hardware/drivers/ddi/_netvista/">enumerated types</a> used to implement callouts.<strong>Note</strong>  These functions and enumerated types are documented in the DDK.<br/></td>
 <td><dl> fwpsu.h<br />
 fwpsk.h<br />
 </dl></td>
@@ -153,10 +153,4 @@ The FWPS data types are generally smaller than their FWPM counterparts. For exam
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

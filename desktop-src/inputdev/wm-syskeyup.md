@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Posted to the window with the keyboard focus when the user releases a key that was pressed while the ALT key was held down. It also occurs when no window currently has the keyboard focus; in this case, the **WM\_SYSKEYUP** message is sent to the active window. The window that receives the message can distinguish between these two contexts by checking the context code in the *lParam* parameter.
 
-A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -67,9 +67,9 @@ An application should return zero if it processes this message.
 
 ## Remarks
 
-The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function sends a [**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand) message to the top-level window if the F10 key or the ALT key was released. The *wParam* parameter of the message is set to **SC\_KEYMENU**.
+The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function sends a [**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand) message to the top-level window if the F10 key or the ALT key was released. The *wParam* parameter of the message is set to **SC\_KEYMENU**.
 
-When the context code is zero, the message can be passed to the [**TranslateAccelerator**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translateacceleratora) function, which will handle it as though it were a normal key message instead of a character-key message. This allows accelerator keys to be used with the active window even if the active window does not have the keyboard focus.
+When the context code is zero, the message can be passed to the [**TranslateAccelerator**](/windows/desktop/api/winuser/nf-winuser-translateacceleratora) function, which will handle it as though it were a normal key message instead of a character-key message. This allows accelerator keys to be used with the active window even if the active window does not have the keyboard focus.
 
 For enhanced 101- and 102-key keyboards, extended keys are the right ALT and CTRL keys on the main section of the keyboard; the INS, DEL, HOME, END, PAGE UP, PAGE DOWN, and arrow keys in the clusters to the left of the numeric keypad; and the divide (/) and ENTER keys in the numeric keypad. Other keyboards may support the extended-key bit in the *lParam* parameter.
 
@@ -107,13 +107,13 @@ For non-U.S. enhanced 102-key keyboards, the right ALT key is handled as a CTRL+
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**TranslateAccelerator**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translateacceleratora)
+[**TranslateAccelerator**](/windows/desktop/api/winuser/nf-winuser-translateacceleratora)
 </dt> <dt>
 
-[**WM\_SYSCOMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand)
+[**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
 </dt> <dt>
 
 [**WM\_SYSKEYDOWN**](wm-syskeydown.md)
@@ -126,10 +126,4 @@ For non-U.S. enhanced 102-key keyboards, the right ALT key is handled as a CTRL+
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

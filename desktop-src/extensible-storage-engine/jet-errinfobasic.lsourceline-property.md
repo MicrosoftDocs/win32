@@ -57,7 +57,7 @@ public int lSourceLine { get; set; }
 
 #### Property value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 
 ## See also
 
@@ -68,4 +68,3 @@ Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirect
 [JET_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-

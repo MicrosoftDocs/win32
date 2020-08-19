@@ -46,13 +46,13 @@ The low-order word specifies a window handle used for the MCI\_NOTIFY flag.
 **rc**
 </dt> <dd>
 
-Rectangle containing positioning information. [RECT](https://msdn.microsoft.com/library/ms536136.aspx) structures are handled differently in MCI than in other parts of Windows; in MCI, **rc.right** contains the width of the rectangle and **rc.bottom** contains its height.
+Rectangle containing positioning information. [RECT](/previous-versions//ms536136(v=vs.85)) structures are handled differently in MCI than in other parts of Windows; in MCI, **rc.right** contains the width of the rectangle and **rc.bottom** contains its height.
 
 </dd> </dl>
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function to validate the members.
 
 ## Requirements
 
@@ -82,17 +82,11 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_WHERE**](mci-where.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](/previous-versions//dd757160(v=vs.85))
 </dt> <dt>
 
-[RECT](https://msdn.microsoft.com/library/ms536136.aspx)
+[RECT](/previous-versions//ms536136(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

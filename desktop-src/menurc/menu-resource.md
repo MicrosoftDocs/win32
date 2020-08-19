@@ -81,7 +81,7 @@ sample MENU
 
 <dl> <dt>
 
-[Using Menus](https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx)
+[Using Menus](./using-menus.md)
 </dt> <dt>
 
 [**ACCELERATORS**](accelerators-resource.md)
@@ -114,7 +114,3 @@ sample MENU
  
 
  
-
-
-
-

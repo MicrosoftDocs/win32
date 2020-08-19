@@ -79,7 +79,7 @@
     - name: "PROCESS_DPI_AWARENESS"
       href: /windows/desktop/api/ShellScalingApi/ne-shellscalingapi-process_dpi_awareness
     - name: "_DPI_HOSTING_BEHAVIOR"
-      href: https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior
+      href: /windows/desktop/api/windef/ne-windef-dpi_hosting_behavior
     - name: "WM_DPICHANGED"
       href: wm-dpichanged.md
     - name: "WM_DPICHANGED_BEFOREPARENT"

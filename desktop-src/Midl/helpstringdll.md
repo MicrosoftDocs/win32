@@ -74,10 +74,10 @@ Use the **GetDocumentation2** functions in the **ITypeLib2** and **ITypeInfo2** 
 [**library**](library.md)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> <dt>
 
-[ODL File Example](https://msdn.microsoft.com/library/ms221308(v=VS.71).aspx)
+[ODL File Example](/previous-versions/windows/desktop/automat/odl-file-example)
 </dt> <dt>
 
 [Generating a Type Library With MIDL](generating-a-type-library-with-midl-2.md)
@@ -86,7 +86,3 @@ Use the **GetDocumentation2** functions in the **ITypeLib2** and **ITypeInfo2** 
  
 
  
-
-
-
-

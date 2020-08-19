@@ -51,7 +51,7 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+Type: [System.String](/dotnet/api/system.string)  
 The structure as a string.  
 
 ## See also
@@ -63,4 +63,3 @@ The structure as a string.
 [JET_COMMIT_ID members](dn335451\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-

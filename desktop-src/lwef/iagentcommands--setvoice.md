@@ -16,7 +16,7 @@ HRESULT SetVoice(
 );
 ```
 
-Sets the [**Voice**](voice-property.md) text property for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+Sets the [**Voice**](voice-property.md) text property for a [**Command**](/windows/desktop/lwef/the-command-object).
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,11 +25,11 @@ Sets the [**Voice**](voice-property.md) text property for a [**Command**](https:
 <span id="bszVoice"></span><span id="bszvoice"></span><span id="BSZVOICE"></span>*bszVoice*
 </dt> <dd>
 
-A BSTR that specifies the value for the [**Voice**](voice-property.md) text property of a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+A BSTR that specifies the value for the [**Voice**](voice-property.md) text property of a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 </dd> </dl>
 
-A [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection must have its [**Voice**](voice-property.md) text property set to be voice-accessible. It also must have its [**VoiceCaption**](voicecaption-property.md) or [**Caption**](caption-property.md) property set to appear in the Voice Commands Window and its [**Visible**](visible-property.md) property set to **True** to appear on the character's pop-up menu.
+A [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection must have its [**Voice**](voice-property.md) text property set to be voice-accessible. It also must have its [**VoiceCaption**](voicecaption-property.md) or [**Caption**](caption-property.md) property set to appear in the Voice Commands Window and its [**Visible**](visible-property.md) property set to **True** to appear on the character's pop-up menu.
 
 The BSTR expression you supply can include square bracket characters (\[ \]) to indicate optional words and vertical bar characters (\|) to indicate alternative strings. Alternates must be enclosed in parentheses. For example, "(hello \[there\] \| hi)" tells the speech engine to accept "hello," "hello there," or "hi" for the command. Remember to include appropriate spaces between words you include in brackets or parentheses as well as other text. Remember to include appropriate spaces between the text that's in brackets or parentheses and the text that's not in brackets or parentheses.
 
@@ -70,7 +70,7 @@ You can also use an ellipsis (...) to support *word spotting*, that is, telling 
 
 When defining the words and grammar for your command, include at least one word that is required; that is, avoid supplying only optional words. In addition, make sure that the word includes only pronounceable words and letters. For numbers, it is better to spell out the word rather than use an ambiguous representation. For example, "345" is not a good grammar form. Similarly, instead of "IEEE", use "I triple E". Also, omit any punctuation or symbols. For example, instead of "the \#1 $10 pizza!", use "the number one ten dollar pizza". Including non-pronounceable characters or symbols for one command may cause the speech engine to fail to compile the grammar for all your commands. Finally, make your voice parameter as distinct as reasonably possible from other voice commands you define. The greater the similarity between the voice grammar for commands, the more likely the speech engine will make a recognition error. You can also use the confidence scores to better distinguish between two commands that may have similar or similar-sounding voice grammar.
 
-You can include in your grammar words in the form of "*text\\pronunciation*", where "text" is the text displayed and "pronunciation" is text that clarifies the pronunciation. For example, the grammar, "1st\\first", would be recognized when the user says "first," but the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) event will return the text, "1st\\first". You can also use IPA (International Phonetic Alphabet) to specify a pronunciation by beginning the pronunciation with a pound-sign character ("\#"), then the text representing the IPA pronunciation.
+You can include in your grammar words in the form of "*text\\pronunciation*", where "text" is the text displayed and "pronunciation" is text that clarifies the pronunciation. For example, the grammar, "1st\\first", would be recognized when the user says "first," but the [**Command**](/windows/desktop/lwef/the-command-object) event will return the text, "1st\\first". You can also use IPA (International Phonetic Alphabet) to specify a pronunciation by beginning the pronunciation with a pound-sign character ("\#"), then the text representing the IPA pronunciation.
 
 For Japanese speech recognition engines, you can define grammar in the form "*kana\\kanji*," reducing the alternative pronunciations and increasing the accuracy. (The ordering is reversed for backward compatibility.) This is particularly important for the pronunciation of proper names in Kanji. However, you can just pass in "kanji," without the Kana, in which case the engine should listen for all acceptable pronunciations for the Kanji. You can also pass in just Kana.
 
@@ -91,7 +91,3 @@ The operation of this property depends on the state of Microsoft Agent server's 
  
 
  
-
-
-
-

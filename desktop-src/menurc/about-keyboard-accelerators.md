@@ -36,7 +36,7 @@ An accelerator table consists of an array of [**ACCEL**](/windows/win32/api/winu
 -   The accelerator's identifier.
 -   Various flags. This includes one that specifies whether the system is to provide visual feedback by highlighting the corresponding menu item, if any, when the accelerator is used
 
-To process accelerator keystrokes for a specified thread, the developer must call the [**TranslateAccelerator**](/windows/desktop/api/Winuser/nf-winuser-translateacceleratora) function in the message loop associated with the thread's message queue. The **TranslateAccelerator** function monitors keyboard input to the message queue, checking for key combinations that match an entry in the accelerator table. When **TranslateAccelerator** finds a match, it translates the keyboard input (that is, the [**WM\_KEYUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup) and [**WM\_KEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown) messages) into a [**WM\_COMMAND**](wm-command.md) or [**WM\_SYSCOMMAND**](wm-syscommand.md) message and then sends the message to the window procedure of the specified window. The following illustration shows how accelerators are processed.
+To process accelerator keystrokes for a specified thread, the developer must call the [**TranslateAccelerator**](/windows/desktop/api/Winuser/nf-winuser-translateacceleratora) function in the message loop associated with the thread's message queue. The **TranslateAccelerator** function monitors keyboard input to the message queue, checking for key combinations that match an entry in the accelerator table. When **TranslateAccelerator** finds a match, it translates the keyboard input (that is, the [**WM\_KEYUP**](/windows/desktop/inputdev/wm-keyup) and [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown) messages) into a [**WM\_COMMAND**](wm-command.md) or [**WM\_SYSCOMMAND**](wm-syscommand.md) message and then sends the message to the window procedure of the specified window. The following illustration shows how accelerators are processed.
 
 ![keyboard accelerator processing model](images/cskac-01.png)
 
@@ -130,7 +130,3 @@ If a control supports navigation between the UI elements it contains, it can upd
  
 
  
-
-
-
-

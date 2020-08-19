@@ -125,7 +125,7 @@ For example, performing a connect using one of the connection managers will chan
 
 ## Sending And Receiving Bytes
 
-Use the IP Helper functions [GetlfEntry](https://msdn.microsoft.com/library/aa365939(VS.85).aspx) and [GetlfEntry2](https://msdn.microsoft.com/library/aa365941(VS.85).aspx) to send and receive bytes.
+Use the IP Helper functions [GetlfEntry](/windows/win32/api/iphlpapi/nf-iphlpapi-getifentry) and [GetlfEntry2](/windows/win32/api/netioapi/nf-netioapi-getifentry2) to send and receive bytes.
 
 ## Using The Pin Unblock API
 
@@ -242,6 +242,3 @@ ERROR_0:
  
 
  
-
-
-

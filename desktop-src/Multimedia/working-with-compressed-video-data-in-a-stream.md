@@ -14,7 +14,7 @@ If you want to display one or more frames of a compressed video stream, you can 
 
 AVIFile provides functions for decompressing a single video frame. To allocate resources, use the [**AVIStreamGetFrameOpen**](/windows/desktop/api/Vfw/nf-vfw-avistreamgetframeopen) function. This function creates a buffer for the decompressed data.
 
-You can decompress a single video frame by using the [**AVIStreamGetFrame**](/windows/desktop/api/Vfw/nf-vfw-avistreamgetframe) function. This function decompresses the frame and retrieves a complete frame of image data, returning the address of the DIB in the [BITMAPINFOHEADER](https://msdn.microsoft.com/library/ms532290.aspx) structure. Your application can display the DIB by using standard drawing functions or by using the DrawDib functions.
+You can decompress a single video frame by using the [**AVIStreamGetFrame**](/windows/desktop/api/Vfw/nf-vfw-avistreamgetframe) function. This function decompresses the frame and retrieves a complete frame of image data, returning the address of the DIB in the [BITMAPINFOHEADER](/previous-versions//ms532290(v=vs.85)) structure. Your application can display the DIB by using standard drawing functions or by using the DrawDib functions.
 
 If your application makes successive calls to **AVIStreamGetFrame**, the function overwrites its buffer with each retrieved frame.
 
@@ -25,7 +25,3 @@ For more information about decompressing images, see [Video Compression Manager]
  
 
  
-
-
-
-

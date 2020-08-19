@@ -80,7 +80,7 @@ Size of the buffer indicated by *lpName*, in UTF-16 code points. A value of 0 fo
 
 Returns the count of UTF-16 code points in the locale name, including the terminating null character, if successful.
 
-This function returns 0 if it does not succeed. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
+This function returns 0 if it does not succeed. To get extended error information, the application can call [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror), which can return one of the following error codes:
 
 -   ERROR\_INSUFFICIENT\_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to **NULL**.
 -   ERROR\_INVALID\_PARAMETER. Any of the parameter values was invalid.
@@ -122,7 +122,3 @@ The required header file and DLL are part of the "Microsoft NLS Downlevel Data M
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.BeginContainer methods
 
-This topic lists the BeginContainer methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the BeginContainer methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -17,8 +17,8 @@ This topic lists the BeginContainer methods of the [**Graphics**](https://msdn.m
 | Method                                                                                                                      | Description                                                                                                                                                              |
 |:----------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**BeginContainer()**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrectf__inconstrectf__inunit))                                                         | The [**Graphics::BeginContainer**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrectf__inconstrectf__inunit)) method begins a new graphics container. <br/>                                      |
-| [**BeginContainer(Rect&,Rect&,Unit)**](https://msdn.microsoft.com/library/ms536158(v=VS.85).aspx)     | The [**Graphics::BeginContainer**](https://msdn.microsoft.com/library/ms536158(v=VS.85).aspx) method begins a new graphics container.<br/>   |
-| [**BeginContainer(RectF&,RectF&,Unit)**](https://msdn.microsoft.com/library/ms536157(v=VS.85).aspx) | The [**Graphics::BeginContainer**](https://msdn.microsoft.com/library/ms536157(v=VS.85).aspx) method begins a new graphics container.<br/> |
+| [**BeginContainer(Rect&,Rect&,Unit)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit))     | The [**Graphics::BeginContainer**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)) method begins a new graphics container.<br/>   |
+| [**BeginContainer(RectF&,RectF&,Unit)**](/previous-versions//ms536157(v=vs.85)) | The [**Graphics::BeginContainer**](/previous-versions//ms536157(v=vs.85)) method begins a new graphics container.<br/> |
 
 
 
@@ -35,7 +35,3 @@ This topic lists the BeginContainer methods of the [**Graphics**](https://msdn.m
  
 
  
-
-
-
-

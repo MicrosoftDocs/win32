@@ -49,13 +49,13 @@ The **Msvm\_VideoHeadOnController** class has these properties.
 **Antecedent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_DisplayController**](https://docs.microsoft.com/previous-versions//cc136810(v=vs.85))**
+Data type: **[**CIM\_DisplayController**](/previous-versions//cc136810(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The video controller that includes the head.
@@ -71,7 +71,7 @@ Data type: **[**Msvm\_VideoHead**](msvm-videohead.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 The head on the video device.
@@ -80,7 +80,7 @@ The head on the video device.
 
 ## Remarks
 
-Access to the **Msvm\_VideoHeadOnController** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_VideoHeadOnController** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -103,16 +103,11 @@ Access to the **Msvm\_VideoHeadOnController** class might be restricted by UAC F
 [**CIM\_VideoHeadOnController**](cim-videoheadoncontroller.md)
 </dt> <dt>
 
-[**CIM\_VideoHeadOnController**](https://docs.microsoft.com/previous-versions//cc136950(v=vs.85))
+[**CIM\_VideoHeadOnController**](/previous-versions//cc136950(v=vs.85))
 </dt> <dt>
 
 [Video Classes](video-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

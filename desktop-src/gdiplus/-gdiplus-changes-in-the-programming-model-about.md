@@ -37,7 +37,7 @@ The following two examples each draw a red line of width 3 from location (20, 10
 
 ### Drawing a line with GDI
 
-To draw a line with GDI, you need two objects: a device context and a pen. You get a handle to a device context by calling [**BeginPaint**](https://msdn.microsoft.com/library/Dd183362(v=VS.85).aspx), and a handle to a pen by calling [CreatePen](/windows/win32/api/wingdi/nf-wingdi-createpen). Next, you call [SelectObject](/windows/win32/api/wingdi/nf-wingdi-selectobject) to select the pen into the device context. You set the pen position to (20, 10) by calling [MoveToEx](/windows/win32/api/wingdi/nf-wingdi-movetoex) and then draw a line from that pen position to (200, 100) by calling **LineTo**. Note that MoveToEx and [LineTo](/windows/win32/api/wingdi/nf-wingdi-lineto) both receive **hdc** as an argument.
+To draw a line with GDI, you need two objects: a device context and a pen. You get a handle to a device context by calling [**BeginPaint**](/windows/win32/api/winuser/nf-winuser-beginpaint), and a handle to a pen by calling [CreatePen](/windows/win32/api/wingdi/nf-wingdi-createpen). Next, you call [SelectObject](/windows/win32/api/wingdi/nf-wingdi-selectobject) to select the pen into the device context. You set the pen position to (20, 10) by calling [MoveToEx](/windows/win32/api/wingdi/nf-wingdi-movetoex) and then draw a line from that pen position to (200, 100) by calling **LineTo**. Note that MoveToEx and [LineTo](/windows/win32/api/wingdi/nf-wingdi-lineto) both receive **hdc** as an argument.
 
 
 ```
@@ -166,6 +166,3 @@ region2.Intersect(onePath);
  
 
  
-
-
-

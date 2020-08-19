@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Sent when a menu is about to become active. It occurs when the user clicks an item on the menu bar or presses a menu key. This allows the application to modify the menu before it is displayed.
 
-A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -84,10 +84,4 @@ A **WM\_INITMENU** message is sent only when a menu is first accessed; only one 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

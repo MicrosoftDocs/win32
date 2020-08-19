@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating a Logical Font
 
-You can use the **Font** common dialog box to display available fonts. The **ChooseFont** dialog box is displayed after an application initializes the members of a [**CHOOSEFONT**](https://msdn.microsoft.com/library/ms646832(v=VS.85).aspx) structure and calls the [**ChooseFont**](https://msdn.microsoft.com/library/ms646832(v=VS.85).aspx) function. After the user selects one of the available fonts and presses the **OK** button, the **ChooseFont** function initializes a [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure with the relevant data. Your application can then call the [**CreateFontIndirect**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirecta) function and create a logical font based on the user's request. The following example demonstrates how this is done.
+You can use the **Font** common dialog box to display available fonts. The **ChooseFont** dialog box is displayed after an application initializes the members of a [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure and calls the [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function. After the user selects one of the available fonts and presses the **OK** button, the **ChooseFont** function initializes a [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure with the relevant data. Your application can then call the [**CreateFontIndirect**](/windows/desktop/api/Wingdi/nf-wingdi-createfontindirecta) function and create a logical font based on the user's request. The following example demonstrates how this is done.
 
 
 ```C++
@@ -54,6 +54,3 @@ HFONT FAR PASCAL MyCreateFont( void )
  
 
  
-
-
-

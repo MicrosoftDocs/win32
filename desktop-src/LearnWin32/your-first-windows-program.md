@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 In this module, we will write a minimal Windows desktop program. All it does is create and show a blank window. This first program contains about 50 lines of code, not counting blank lines and comments. It will be our starting point; later we'll add graphics, text, user input, and other features.
 
-If you are looking for more details on how to create a traditional Windows desktop application in Visual Studio, check out  [Walkthrough: Create a traditional Windows Desktop application (C++)](https://docs.microsoft.com/cpp/windows/walkthrough-creating-windows-desktop-applications-cpp?view=vs-2019).
+If you are looking for more details on how to create a traditional Windows desktop application in Visual Studio, check out  [Walkthrough: Create a traditional Windows Desktop application (C++)](/cpp/windows/walkthrough-creating-windows-desktop-applications-cpp?view=vs-2019).
 
 ![screen shot of the example program](images/window01.png)
 
@@ -113,7 +113,7 @@ It may be useful to give a brief outline of what this code does. Later topics wi
 2.  Next, the program creates the window and receives a handle that uniquely identifies the window.
 3.  If the window is created successfully, the program enters a **while** loop. The program remains in this loop until the user closes the window and exits the application.
 
-Notice that the program does not explicitly call the `WindowProc` function, even though we said this is where most of the application logic is defined. Windows communicates with your program by passing it a series of *messages*. The code inside the **while** loop drives this process. Each time the program calls the [**DispatchMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage) function, it indirectly causes Windows to invoke the WindowProc function, once for each message.
+Notice that the program does not explicitly call the `WindowProc` function, even though we said this is where most of the application logic is defined. Windows communicates with your program by passing it a series of *messages*. The code inside the **while** loop drives this process. Each time the program calls the [**DispatchMessage**](/windows/desktop/api/winuser/nf-winuser-dispatchmessage) function, it indirectly causes Windows to invoke the WindowProc function, once for each message.
 
 ## In this section
 
@@ -137,7 +137,3 @@ Notice that the program does not explicitly call the `WindowProc` function, even
  
 
  
-
-
-
-

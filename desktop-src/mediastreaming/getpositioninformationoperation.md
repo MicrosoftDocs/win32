@@ -18,7 +18,7 @@ api_location:
 
 # GetPositionInformationOperation class
 
-Registers an event handler that is invoked when the asynchronous operation started by [**GetPositionInformationAsync**](https://msdn.microsoft.com/library/Hh828931(v=VS.85).aspx) completes, and provides a method that returns the results of the operation.
+Registers an event handler that is invoked when the asynchronous operation started by [**GetPositionInformationAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getpositioninformationasync) completes, and provides a method that returns the results of the operation.
 
 **GetPositionInformationOperation** has these types of members:
 
@@ -33,7 +33,7 @@ The **GetPositionInformationOperation** class has these methods.
 
 | Method                                                           | Description                                                                                                                                                 |
 |:-----------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetResults**](getpositioninformationoperation-getresults.md) | Returns the results of the asynchronous operation started by [**GetPositionInformationAsync**](https://msdn.microsoft.com/library/Hh828931(v=VS.85).aspx). <br/> |
+| [**GetResults**](getpositioninformationoperation-getresults.md) | Returns the results of the asynchronous operation started by [**GetPositionInformationAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getpositioninformationasync). <br/> |
 
 
 
@@ -47,17 +47,11 @@ The **GetPositionInformationOperation** class has these properties.
 
 | Property                                                                  | Access type           | Description                                                                                                                                                                                          |
 |:--------------------------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Completed**](getpositioninformationoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetPositionInformationAsync**](https://msdn.microsoft.com/library/Hh828931(v=VS.85).aspx) is completed. <br/> |
+| [**Completed**](getpositioninformationoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetPositionInformationAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-getpositioninformationasync) is completed. <br/> |
 
 
 
  
 
  
-
- 
-
-
-
-
 

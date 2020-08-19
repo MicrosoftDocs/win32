@@ -8,7 +8,7 @@ ms.topic: reference
 
 # GraphicsPath.AddBeziers methods
 
-This topic lists the AddBeziers methods of the [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx).
+This topic lists the AddBeziers methods of the [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath).
 
 ### Overload list
 
@@ -16,15 +16,11 @@ This topic lists the AddBeziers methods of the [**GraphicsPath**](https://msdn.m
 
 | Method                                                                                              | Description                                                                                                                                                                                               |
 |:----------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AddBeziers(Point\*,INT)**](https://msdn.microsoft.com/library/ms535619(v=VS.85).aspx)   | The [**GraphicsPath::AddBeziers**](https://msdn.microsoft.com/library/ms535619(v=VS.85).aspx) method adds a sequence of connected Bézier splines to the current figure of this path.<br/>  |
-| [**AddBeziers(PointF\*,INT)**](https://msdn.microsoft.com/library/ms535620(v=VS.85).aspx) | The [**GraphicsPath::AddBeziers**](https://msdn.microsoft.com/library/ms535620(v=VS.85).aspx) method adds a sequence of connected Bézier splines to the current figure of this path.<br/> |
+| [**AddBeziers(Point\*,INT)**](/previous-versions//ms535619(v=vs.85))   | The [**GraphicsPath::AddBeziers**](/previous-versions//ms535619(v=vs.85)) method adds a sequence of connected Bézier splines to the current figure of this path.<br/>  |
+| [**AddBeziers(PointF\*,INT)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addbeziers(inconstpoint_inint)) | The [**GraphicsPath::AddBeziers**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addbeziers(inconstpoint_inint)) method adds a sequence of connected Bézier splines to the current figure of this path.<br/> |
 
 
 
  
 
  
-
-
-
-

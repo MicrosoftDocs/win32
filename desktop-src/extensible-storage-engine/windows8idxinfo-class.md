@@ -32,7 +32,7 @@ Column info levels that have been added to the Windows 8 version of ESENT.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.Windows8.Windows8IdxInfo  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
@@ -60,4 +60,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 #### Reference
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-

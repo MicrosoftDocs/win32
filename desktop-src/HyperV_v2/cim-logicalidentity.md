@@ -53,7 +53,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The second aspect in the association.
@@ -69,7 +69,7 @@ Data type: **CIM\_ManagedElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The first aspect in the association. The use of System in the property name does not limit the scope of the association.
@@ -91,9 +91,4 @@ The first aspect in the association. The use of System in the property name does
 
 
  
-
- 
-
-
-
 

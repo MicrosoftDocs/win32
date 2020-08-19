@@ -46,14 +46,10 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the COMBOBOX class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **CBS\_DROPDOWNLIST**, **CBS\_OWNERDRAWFIXED**, **CBS\_HASSTRINGS**, **WS\_VSCROLL**, **WS\_CHILD**, **WS\_GROUP**, **WS\_TABSTOP**, and **CBS\_SORT** styles. For information about developing a user interface with Windows, see [User Interface Design and Development](https://msdn.microsoft.com/library/aa286531.aspx).
+This control can be created from the COMBOBOX class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **CBS\_DROPDOWNLIST**, **CBS\_OWNERDRAWFIXED**, **CBS\_HASSTRINGS**, **WS\_VSCROLL**, **WS\_CHILD**, **WS\_GROUP**, **WS\_TABSTOP**, and **CBS\_SORT** styles. For information about developing a user interface with Windows, see [User Interface Design and Development](/previous-versions/aa286531(v=msdn.10)).
 
 For compatibility with screen readers, when authoring a dialog box with a VolumeSelectCombo control as the first active control, you must make the text field belonging to the edit field the first active control in the [Dialog table](dialog-table.md). Since the static text cannot take focus, when the dialog box is created, the edit field will have the focus initially as intended. This ensures that screen readers show the correct information.
 
  
 
  
-
-
-
-

@@ -55,7 +55,7 @@ Data type: **CIM\_FCPort**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A reference to a class derived from **CIM\_FCPort** that represents the logical device.
@@ -71,7 +71,7 @@ Data type: **Msvm\_FcEndpoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_FcEndpoint**](msvm-fcendpoint.md) class that represents the SAP that is using the **Antecedent**.
@@ -93,9 +93,4 @@ A reference to an instance of the [**Msvm\_FcEndpoint**](msvm-fcendpoint.md) cla
 
 
  
-
- 
-
-
-
 

@@ -66,7 +66,7 @@ void __RPC_USER h_service_unbind(h_service, handle_t);
 
 <dl> <dt>
 
-[Binding and Handles](https://docs.microsoft.com/windows/desktop/Rpc/binding-and-handles)
+[Binding and Handles](/windows/desktop/Rpc/binding-and-handles)
 </dt> <dt>
 
 [Interface Definition (IDL) File](interface-definition-idl-file.md)
@@ -81,7 +81,3 @@ void __RPC_USER h_service_unbind(h_service, handle_t);
  
 
  
-
-
-
-

@@ -20,12 +20,8 @@ The following topics describe each of the files generated for a custom COM inter
 -   [The Interface UUID File](the-interface-uuid-file.md)
 -   [The Interface Registration File](the-interface-registration-file.md)
 
-For more information, see [Application Configuration File (ACF)](application-configuration-file-acf-.md), [**/app\_config**](-app-config.md), [Interface Definition (IDL) File](interface-definition-idl-file.md), and [Building and Registering a Proxy DLL](https://msdn.microsoft.com/library/ms688707(v=VS.85).aspx).
+For more information, see [Application Configuration File (ACF)](application-configuration-file-acf-.md), [**/app\_config**](-app-config.md), [Interface Definition (IDL) File](interface-definition-idl-file.md), and [Building and Registering a Proxy DLL](../com/building-and-registering-a-proxy-dll.md).
 
  
 
  
-
-
-
-

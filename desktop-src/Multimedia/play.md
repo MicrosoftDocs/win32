@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 The play command starts playing a device. CD audio, digital-video, MIDI sequencer, videodisc, VCR, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -136,10 +136,4 @@ play mysound from 1000 to 2000 notify
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

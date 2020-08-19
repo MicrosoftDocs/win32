@@ -401,7 +401,7 @@ Access type: Read-only
 Qualifiers: **WmiDataId** (16), **Extension("NoPrint")**, **Max** (176)
 </dt> </dl>
 
-A [**TIME\_ZONE\_INFORMATION**](https://msdn.microsoft.com/library/ms725481(v=VS.85).aspx) structure that contains the time zone for the **BootTime**, **EndTime** and **StartTime** members.
+A [**TIME\_ZONE\_INFORMATION**](/windows/win32/api/timezoneapi/ns-timezoneapi-time_zone_information) structure that contains the time zone for the **BootTime**, **EndTime** and **StartTime** members.
 
 </dd> <dt>
 
@@ -425,9 +425,9 @@ Version number of the operating system. Starting with the low-order bytes, the f
 
 Typically, you want to save the values for the following properties for use later when processing events from the log file.
 
--   **TimerResolution**—use with the **KernelTime** and **UserTime** members of the [**EVENT\_TRACE\_HEADER**](event-trace-header.md) structure to determine the CPU cost for a set of instructions. For details, see the Remarks section of [**EVENT\_TRACE\_HEADER**](event-trace-header.md).
+-   **TimerResolution**—use with the **KernelTime** and **UserTime** members of the [**EVENT\_TRACE\_HEADER**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) structure to determine the CPU cost for a set of instructions. For details, see the Remarks section of [**EVENT\_TRACE\_HEADER**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header).
 -   **PointerSize**—for properties that contain the **Pointer** qualifier, use this value to determine the size of the pointer. Note that this value may not be accurate. For example, on a 64-bit computer, a 32-bit application will log 4-byte pointers; however, the session will set **PointerSize** to 8.
--   **LogFileMode**—use to determine if this session is a private logger session. There are some properties that do not contain data for private logger sessions. For example, the **KernelTime** and **UserTime** members of the [**EVENT\_TRACE\_HEADER**](event-trace-header.md) structure.
+-   **LogFileMode**—use to determine if this session is a private logger session. There are some properties that do not contain data for private logger sessions. For example, the **KernelTime** and **UserTime** members of the [**EVENT\_TRACE\_HEADER**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) structure.
 
 ## Requirements
 
@@ -447,13 +447,9 @@ Typically, you want to save the values for the following properties for use late
 [**EventTraceEvent**](eventtraceevent.md)
 </dt> <dt>
 
-[**TRACE\_LOGFILE\_HEADER**](trace-logfile-header.md)
+[**TRACE\_LOGFILE\_HEADER**](/windows/win32/api/evntrace/ns-evntrace-trace_logfile_header)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -36,9 +36,9 @@ The **WM\_UNICHAR** message can be used by an application to post input to other
 
 The character code of the key.
 
-If *wParam* is **UNICODE\_NOCHAR** and the application processes this message, then return **TRUE**. The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function will return **FALSE** (the default).
+If *wParam* is **UNICODE\_NOCHAR** and the application processes this message, then return **TRUE**. The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function will return **FALSE** (the default).
 
-If *wParam* is not **UNICODE\_NOCHAR**, return **FALSE**. The Unicode  [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) posts a [**WM\_CHAR**](wm-char.md) message with the same parameters and the ANSI **DefWindowProc** function posts either one or two **WM\_CHAR** messages with the corresponding ANSI character(s).
+If *wParam* is not **UNICODE\_NOCHAR**, return **FALSE**. The Unicode  [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) posts a [**WM\_CHAR**](wm-char.md) message with the same parameters and the ANSI **DefWindowProc** function posts either one or two **WM\_CHAR** messages with the corresponding ANSI character(s).
 
 </dd> <dt>
 
@@ -96,7 +96,7 @@ For enhanced 101- and 102-key keyboards, extended keys are the right ALT and the
 **Reference**
 </dt> <dt>
 
-[**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage)
+[**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
 </dt> <dt>
 
 [**WM\_CHAR**](wm-char.md)
@@ -112,10 +112,4 @@ For enhanced 101- and 102-key keyboards, extended keys are the right ALT and the
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

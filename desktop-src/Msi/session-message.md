@@ -40,7 +40,7 @@ Session.Message(
 *kind* 
 </dt> <dd>
 
-The *kind* parameter is required to be one of the following values. To display a message box with push buttons and icons, calculate the value of *kind* by adding the standard message box styles used by [**MessageBox**](https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx) and [**MessageBoxEx**](https://msdn.microsoft.com/library/ms645507(v=VS.85).aspx) to **msiMessageTypeError**, **msiMessageTypeWarning**, or **msiMessageTypeUser**. For more information see the Remarks section below.
+The *kind* parameter is required to be one of the following values. To display a message box with push buttons and icons, calculate the value of *kind* by adding the standard message box styles used by [**MessageBox**](/windows/win32/api/winuser/nf-winuser-messagebox) and [**MessageBoxEx**](/windows/win32/api/winuser/nf-winuser-messageboxexa) to **msiMessageTypeError**, **msiMessageTypeWarning**, or **msiMessageTypeUser**. For more information see the Remarks section below.
 
 
 
@@ -191,7 +191,3 @@ If a custom action calls the **Message** method, the custom action should be cap
  
 
  
-
-
-
-

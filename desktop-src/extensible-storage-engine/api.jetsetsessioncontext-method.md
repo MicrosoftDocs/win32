@@ -64,7 +64,7 @@ public static void JetSetSessionContext(
 <!-- end list -->
 
   - context  
-    Type: [System.IntPtr](https://docs.microsoft.com/dotnet/api/system.intptr?redirectedfrom=MSDN)  
+    Type: [System.IntPtr](/dotnet/api/system.intptr)  
     
     The context to set.
 
@@ -77,4 +77,3 @@ public static void JetSetSessionContext(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

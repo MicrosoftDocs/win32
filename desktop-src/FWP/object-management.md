@@ -20,7 +20,7 @@ When creating a new session, the caller can create a dynamic session by passing 
 
 The WFP API is transactional, and most function calls are made within the context of a transaction. Callers can use [**FwpmTransactionBegin0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmtransactionbegin0), [**FwpmTransactionCommit0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmtransactioncommit0), and [**FwpmTransactionAbort0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmtransactionabort0) to explicitly control transactions. However, if a function call is made outside of an explicit transaction, it will be executed within an implicit transaction. If a transaction is in progress, when a session terminates, it is automatically aborted. Implicit transactions are never forcibly aborted.
 
-Transactions are either read-only or read/write and enforce rigorous Atomic Consistent Isolated Durable ([ACID](https://msdn.microsoft.com/library/ms683579.aspx)) semantics.
+Transactions are either read-only or read/write and enforce rigorous Atomic Consistent Isolated Durable ([ACID](../cossdk/acid-properties.md)) semantics.
 
 Each client session can have only one transaction in progress at a time. If the caller attempts to begin a second transaction before committing or aborting the first, BFE returns an error.
 
@@ -62,7 +62,3 @@ All kernel mode WFP API objects (FWPS) are identified by a locally unique identi
  
 
  
-
-
-
-

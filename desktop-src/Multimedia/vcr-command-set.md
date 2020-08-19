@@ -18,7 +18,7 @@ VCRs support the following set of commands.
 | [**capability**](capability.md)   | [**MCI\_GETDEVCAPS**](mci-getdevcaps.md)   |
 | [**cue**](cue.md)                 | [**MCI\_CUE**](mci-cue.md)                 |
 | [**freeze**](freeze.md)           | [**MCI\_FREEZE**](mci-freeze.md)           |
-| [**index**](index.md)             | [**MCI\_INDEX**](mci-index.md)             |
+| [**index**](./windows-multimedia-start-page.md)             | [**MCI\_INDEX**](mci-index.md)             |
 | [**info**](info.md)               | [**MCI\_INFO**](mci-info.md)               |
 | [**list**](list.md)               | [**MCI\_LIST**](mci-list.md)               |
 | [**mark**](mark.md)               | [**MCI\_MARK**](mci-mark.md)               |
@@ -45,7 +45,3 @@ VCRs support the following set of commands.
  
 
  
-
-
-
-

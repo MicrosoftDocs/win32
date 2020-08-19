@@ -12,7 +12,7 @@ Specifies which beam the Voice Capture DSP uses for microphone array processing.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -75,7 +75,3 @@ This property can have the following values. Values are in degrees horizontal.
  
 
  
-
-
-
-

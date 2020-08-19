@@ -53,7 +53,7 @@ public override Object ValueAsObject { get; }
 
 #### Property value
 
-Type: [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+Type: [System.Object](/dotnet/api/system.object)  
 
 ## See also
 
@@ -64,4 +64,3 @@ Type: [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redire
 [BytesColumnValue members](dn334118\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

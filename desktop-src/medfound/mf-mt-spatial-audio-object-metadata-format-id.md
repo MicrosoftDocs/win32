@@ -16,7 +16,7 @@ A decoder-defined GUID that identifies the spatial audio metadata format, notify
 
 ## Remarks
 
-The metadata blob with the specified format is written using the [**ISpatialAudioMetadataWriter**](https://msdn.microsoft.com/library/Mt798197(v=VS.85).aspx) interface and read using the [**ISpatialAudioMetadataReader**](https://msdn.microsoft.com/library/Mt798191(v=VS.85).aspx) interface. The metadata blob is opaque to the Media Foundation pipeline and components. The attribute is applied to the spatial audio media type. If a downstream component does not support the metadata format specified by the GUID, the component should reject the input media type.
+The metadata blob with the specified format is written using the [**ISpatialAudioMetadataWriter**](/windows/win32/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatawriter) interface and read using the [**ISpatialAudioMetadataReader**](/windows/win32/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatareader) interface. The metadata blob is opaque to the Media Foundation pipeline and components. The attribute is applied to the spatial audio media type. If a downstream component does not support the metadata format specified by the GUID, the component should reject the input media type.
 
 ## Requirements
 
@@ -33,7 +33,3 @@ The metadata blob with the specified format is written using the [**ISpatialAudi
  
 
  
-
-
-
-

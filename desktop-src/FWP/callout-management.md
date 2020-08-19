@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**FWPM\_CALLOUT\_CHANGE\_CALLBACK0**](https://msdn.microsoft.com/library/Aa364255(v=VS.85).aspx)
+-   [**FWPM\_CALLOUT\_CHANGE\_CALLBACK0**](/windows/win32/api/fwpmu/nc-fwpmu-fwpm_callout_change_callback0)
 -   [**FwpmCalloutAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmcalloutadd0)
 -   [**FwpmCalloutCreateEnumHandle0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmcalloutcreateenumhandle0)
 -   [**FwpmCalloutDeleteById0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmcalloutdeletebyid0)
@@ -28,7 +28,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

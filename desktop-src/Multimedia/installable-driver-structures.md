@@ -16,12 +16,8 @@ ms.date: 05/31/2018
 
 The following structure can be used with installable drivers.
 
-[**DRVCONFIGINFO**](https://msdn.microsoft.com/library/Dd797923(v=VS.85).aspx)
+[**DRVCONFIGINFO**](/windows/win32/api/mmiscapi/ns-mmiscapi-drvconfiginfo)
 
  
 
  
-
-
-
-

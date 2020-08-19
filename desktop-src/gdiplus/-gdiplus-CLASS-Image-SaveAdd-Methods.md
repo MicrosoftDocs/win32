@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Image.SaveAdd methods
 
-This topic lists the SaveAdd methods of the [**Image**](https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx) class. For a complete list of methods for the **Image** class, see [Image Methods](-gdiplus-class-image-methods.md).
+This topic lists the SaveAdd methods of the [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) class. For a complete list of methods for the **Image** class, see [Image Methods](-gdiplus-class-image-methods.md).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the SaveAdd methods of the [**Image**](https://msdn.microsoft.c
 
 | Method                                                                                               | Description                                                                                                                                                                                                                                                                            |
 |:-----------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SaveAdd(EncoderParameters\*)**](https://msdn.microsoft.com/library/ms535408(v=VS.85).aspx)                  | The [**Image::SaveAdd**](https://msdn.microsoft.com/library/ms535408(v=VS.85).aspx) method adds a frame to a file or stream specified in a previous call to the **Save** method. Use this method to save selected frames from a multiple-frame image to another multiple-frame image.<br/> |
-| [**SaveAdd(Image\*,EncoderParameters\*)**](https://msdn.microsoft.com/library/ms535409(v=VS.85).aspx) | The [**Image::SaveAdd**](https://msdn.microsoft.com/library/ms535409(v=VS.85).aspx) method adds a frame to a file or stream specified in a previous call to the **Save** method.<br/>                                                                                             |
+| [**SaveAdd(EncoderParameters\*)**](/previous-versions//ms535408(v=vs.85))                  | The [**Image::SaveAdd**](/previous-versions//ms535408(v=vs.85)) method adds a frame to a file or stream specified in a previous call to the **Save** method. Use this method to save selected frames from a multiple-frame image to another multiple-frame image.<br/> |
+| [**SaveAdd(Image\*,EncoderParameters\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-saveadd(inimage_inconstencoderparameters)) | The [**Image::SaveAdd**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-saveadd(inimage_inconstencoderparameters)) method adds a frame to a file or stream specified in a previous call to the **Save** method.<br/>                                                                                             |
 
 
 
@@ -38,7 +38,3 @@ This topic lists the SaveAdd methods of the [**Image**](https://msdn.microsoft.c
  
 
  
-
-
-
-

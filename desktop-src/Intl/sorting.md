@@ -13,7 +13,7 @@ For NLS, sorting (also known as "collation") is the arrangement of strings. Ther
 -   Linguistic sorting. Arranges strings with similar linguistic characteristics into groups (by sorts).
 -   Ordinal (non-linguistic) sorting. Arranges the strings in an ordered sequence.
 
-Sorting uses the NLS string comparison functions, such as [CompareString](https://msdn.microsoft.com/library/Dd317759(v=VS.85).aspx) and [**LCMapString**](/windows/desktop/api/Winnls/nf-winnls-lcmapstringa), or "wrapper" API functions, such as [lstrcmp](https://msdn.microsoft.com/library/ms647488(v=VS.85).aspx), that internally call the NLS string comparison functions.
+Sorting uses the NLS string comparison functions, such as [CompareString](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) and [**LCMapString**](/windows/desktop/api/Winnls/nf-winnls-lcmapstringa), or "wrapper" API functions, such as [lstrcmp](/windows/win32/api/winbase/nf-winbase-lstrcmpa), that internally call the NLS string comparison functions.
 
 For details about implementing sorting in your applications, see [Handling Sorting in Your Applications](handling-sorting-in-your-applications.md).
 
@@ -27,7 +27,7 @@ For details about implementing sorting in your applications, see [Handling Sorti
 [Handling Sorting in Your Applications](handling-sorting-in-your-applications.md)
 </dt> <dt>
 
-[**CompareString**](https://msdn.microsoft.com/library/Dd317759(v=VS.85).aspx)
+[**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw)
 </dt> <dt>
 
 [LCMapString](/windows/desktop/api/Winnls/nf-winnls-lcmapstringa)
@@ -36,6 +36,3 @@ For details about implementing sorting in your applications, see [Handling Sorti
  
 
  
-
-
-

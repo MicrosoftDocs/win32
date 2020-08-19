@@ -16,12 +16,8 @@ The MIDI Mapper is part of the system software. The following illustration shows
 
 ![how the midi mapper relates to other elements of the audio services image](images/mmap-a01.gif)
 
-From the viewpoint of an application, the MIDI Mapper looks like another MIDI output device. The MIDI Mapper receives messages sent to it by the low-level MIDI output functions [**midiOutShortMsg**](https://msdn.microsoft.com/library/Dd798481(v=VS.85).aspx) and [**midiOutLongMsg**](https://msdn.microsoft.com/library/Dd798474(v=VS.85).aspx). The MIDI Mapper modifies these messages and redirects them to a MIDI output device according to the current MIDI setup map. The current MIDI setup map is selected by the user by means of the MIDI Control Panel option. Only the user can select the current setup map; applications cannot change the current setup map.
+From the viewpoint of an application, the MIDI Mapper looks like another MIDI output device. The MIDI Mapper receives messages sent to it by the low-level MIDI output functions [**midiOutShortMsg**](/windows/win32/api/mmeapi/nf-mmeapi-midioutshortmsg) and [**midiOutLongMsg**](/windows/win32/api/mmeapi/nf-mmeapi-midioutlongmsg). The MIDI Mapper modifies these messages and redirects them to a MIDI output device according to the current MIDI setup map. The current MIDI setup map is selected by the user by means of the MIDI Control Panel option. Only the user can select the current setup map; applications cannot change the current setup map.
 
  
 
  
-
-
-
-

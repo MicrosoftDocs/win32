@@ -37,19 +37,14 @@ All file systems supported by Windows have the following storage components:
 
 <dl> <dt>
 
-[FAT Technical Reference](https://technet.microsoft.com/library/810c3217-77bb-4553-b6ce-3ff10dbdbac9)
+[FAT Technical Reference](/previous-versions/windows/it-pro/windows-server-2003/cc758586(v=ws.10))
 </dt> <dt>
 
-[File Systems Technologies](https://technet.microsoft.com/library/58bb0cab-2cb8-4d1d-97f9-c94e30514089)
+[File Systems Technologies](/previous-versions/windows/it-pro/windows-server-2003/cc778296(v=ws.10))
 </dt> <dt>
 
-[NTFS Technical Reference](https://technet.microsoft.com/library/81cc8a8a-bd32-4786-a849-03245d68d8e4)
+[NTFS Technical Reference](/previous-versions/windows/it-pro/windows-server-2003/cc758691(v=ws.10))
 </dt> </dl>
 
  
-
- 
-
-
-
 

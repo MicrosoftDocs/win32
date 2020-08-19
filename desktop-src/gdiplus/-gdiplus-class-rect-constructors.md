@@ -23,16 +23,12 @@ This topic lists the constructors of the [**Rect**](/windows/desktop/api/gdiplus
 
 | Constructor                                                                 | Description                                                                                                                                                                                                                                                                                        |
 |:----------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Rect(Point&,Size&)**](https://msdn.microsoft.com/library/ms534988(v=VS.85).aspx)       | Creates a [**Rect**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect) object by using a [**Point**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point) object to initialize the **X** and **Y** data members and a [**Size**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size) object to initialize the **Width** and **Height** data members.<br/> |
-| [**Rect(INT,INT,INT,INT)**](https://msdn.microsoft.com/library/ms534989(v=VS.85).aspx) | Creates a [**Rect**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect) object by using four integers to initialize the **X**, **Y**, **Width**, and **Height** data members.<br/>                                                                                                                               |
-| [**Rect()**](https://msdn.microsoft.com/library/ms534987(v=VS.85).aspx)                                 | Creates a [**Rect**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect) object whose x-coordinate, y-coordinate, width, and height are all zero. This is the default constructor. <br/>                                                                                                                          |
+| [**Rect(Point&,Size&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-rect(inconstpoint__inconstsize_))       | Creates a [**Rect**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect) object by using a [**Point**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point) object to initialize the **X** and **Y** data members and a [**Size**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size) object to initialize the **Width** and **Height** data members.<br/> |
+| [**Rect(INT,INT,INT,INT)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-rect(inint_inint_inint_inint)) | Creates a [**Rect**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect) object by using four integers to initialize the **X**, **Y**, **Width**, and **Height** data members.<br/>                                                                                                                               |
+| [**Rect()**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-rect)                                 | Creates a [**Rect**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect) object whose x-coordinate, y-coordinate, width, and height are all zero. This is the default constructor. <br/>                                                                                                                          |
 
 
 
  
 
  
-
-
-
-

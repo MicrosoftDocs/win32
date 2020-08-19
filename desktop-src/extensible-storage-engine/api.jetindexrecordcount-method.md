@@ -77,14 +77,14 @@ public static void JetIndexRecordCount(
 <!-- end list -->
 
   - numRecords  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Returns the number of records.
 
 <!-- end list -->
 
   - maxRecordsToCount  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The maximum number of records to count. A value of 0 indicates that the count is unlimited.
 
@@ -97,4 +97,3 @@ public static void JetIndexRecordCount(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

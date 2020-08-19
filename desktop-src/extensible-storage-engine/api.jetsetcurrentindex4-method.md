@@ -83,7 +83,7 @@ public static void JetSetCurrentIndex4(
 <!-- end list -->
 
   - index  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The name of the index to be selected. If this is null or empty the primary index will be selected.
 
@@ -104,7 +104,7 @@ public static void JetSetCurrentIndex4(
 <!-- end list -->
 
   - itagSequence  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Sequence number of the multi-valued column value which will be used to position the cursor on the new index. This parameter is only used in conjunction with [NoMove](hh558524\(v=exchg.10\).md). When this parameter is not present or is set to zero, its value is presumed to be 1.
 
@@ -117,4 +117,3 @@ public static void JetSetCurrentIndex4(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

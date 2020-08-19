@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.FillPolygon methods
 
-This topic lists the FillPolygon methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the FillPolygon methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -16,10 +16,10 @@ This topic lists the FillPolygon methods of the [**Graphics**](https://msdn.micr
 
 | Method                                                                                                                                           | Description                                                                                                                                                                                        |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**FillPolygon(Brush\*,Point\*,INT)**](https://msdn.microsoft.com/library/ms535958(v=VS.85).aspx)                              | The [**Graphics::FillPolygon**](https://msdn.microsoft.com/library/ms535958(v=VS.85).aspx) method uses a brush to fill the interior of a polygon. <br/>                    |
-| [**FillPolygon(Brush\*,PointF\*,INT)**](https://msdn.microsoft.com/library/ms535959(v=VS.85).aspx)                            | The [**Graphics::FillPolygon**](https://msdn.microsoft.com/library/ms535959(v=VS.85).aspx) method uses a brush to fill the interior of a polygon. <br/>                   |
-| [**FillPolygon(Brush\*,Point\*,INT,FillMode)**](https://msdn.microsoft.com/library/ms535960(v=VS.85).aspx)   | The [**Graphics::FillPolygon**](https://msdn.microsoft.com/library/ms535960(v=VS.85).aspx) method uses a brush to fill the interior of a polygon. <br/>  |
-| [**FillPolygon(Brush\*,PointF\*,INT,FillMode)**](https://msdn.microsoft.com/library/ms535961(v=VS.85).aspx) | The [**Graphics::FillPolygon**](https://msdn.microsoft.com/library/ms535961(v=VS.85).aspx) method uses a brush to fill the interior of a polygon. <br/> |
+| [**FillPolygon(Brush\*,Point\*,INT)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpolygon(inconstbrush_inconstpoint_inint))                              | The [**Graphics::FillPolygon**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpolygon(inconstbrush_inconstpoint_inint)) method uses a brush to fill the interior of a polygon. <br/>                    |
+| [**FillPolygon(Brush\*,PointF\*,INT)**](/previous-versions//ms535959(v=vs.85))                            | The [**Graphics::FillPolygon**](/previous-versions//ms535959(v=vs.85)) method uses a brush to fill the interior of a polygon. <br/>                   |
+| [**FillPolygon(Brush\*,Point\*,INT,FillMode)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpolygon(inconstbrush_inconstpoint_inint_infillmode))   | The [**Graphics::FillPolygon**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpolygon(inconstbrush_inconstpoint_inint_infillmode)) method uses a brush to fill the interior of a polygon. <br/>  |
+| [**FillPolygon(Brush\*,PointF\*,INT,FillMode)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpolygon(inconstbrush_inconstpointf_inint_infillmode)) | The [**Graphics::FillPolygon**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpolygon(inconstbrush_inconstpointf_inint_infillmode)) method uses a brush to fill the interior of a polygon. <br/> |
 
 
 
@@ -36,7 +36,3 @@ This topic lists the FillPolygon methods of the [**Graphics**](https://msdn.micr
  
 
  
-
-
-
-
