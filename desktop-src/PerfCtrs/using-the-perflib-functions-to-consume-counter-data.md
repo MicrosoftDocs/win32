@@ -6,7 +6,7 @@ ms.topic: article
 ---
 # Using the PerfLib Functions to Consume Counter Data
 
-Use the PerfLib V2 Consumer functions to consume performance data from V2 performance data providers if you cannot use the [Performance Data Helper (PDH) functions](using-the-pdh-functions-to-consume-counter-data.md). These functions might be used when writing OneCore applications to collect V2 countersets or when you need to collect specific V2 countersets with minimal dependencies and overhead.
+Use the PerfLib Consumer functions to consume performance data from V2 performance data providers when you cannot use the [Performance Data Helper (PDH) functions](using-the-pdh-functions-to-consume-counter-data.md). These functions might be used when writing OneCore applications to collect V2 countersets or when you need to collect V2 countersets with minimal dependencies and overhead.
 
 > [!TIP]
 > The PerfLib V2 Consumer functions are harder to use than the Performance Data Helper (PDH) functions and only support collecting data from V2 providers. The PDH functions should be preferred for most applications.
@@ -14,11 +14,11 @@ Use the PerfLib V2 Consumer functions to consume performance data from V2 perfor
 The PerfLib V2 Consumer functions are the low-level API for collecting data from **V2 providers**. The PerfLib V2 Consumer functions do not support collecting data from **V1 providers**.
 
 > [!WARNING]
-> The PerfLib V2 consumer functions can collect data from various sources on local and remote machines. The PerfLib V2 consumer functions do not validate the data for integrity or consistency. It is up to your consumer application to verify that the returned data is consistent, e.g. that the Size values in the returned data block do not exceed the actual size of the returned data block. This is especially important when collecting data from a remote system or when the consumer application runs at elevated privilege.
+> The PerfLib V2 consumer functions can potentially collect data from untrusted sources, e.g. from limited-privilege local services or from remote machines. The PerfLib V2 consumer functions do not validate the data for integrity or consistency. It is up to your consumer application to verify that the returned data is consistent, e.g. that the Size values in the returned data block do not exceed the actual size of the returned data block. This is especially important when the consumer application runs at elevated privilege.
 
 ## PerfLib Usage
 
-The `perflib.h` header includes the definitions used by V2 user-mode providers (i.e. the PerfLib Provider API) and V2 consumers (i.e. the PerfLib Consumer API).
+The `perflib.h` header includes the declarations used by V2 user-mode providers (i.e. the PerfLib Provider API) and V2 consumers (i.e. the PerfLib Consumer API). It declares the following functions for consuming V2 performance data:
 
 - Use [**PerfEnumerateCounterSet**](/windows/desktop/api/Perflib/nf-perflib-perfenumeratecounterset) to get the GUIDs of the countersets that are registered by the V2 providers on the system.
 - Use [**PerfQueryCounterSetRegistrationInfo**](/windows/desktop/api/Perflib/nf-perflib-perfquerycountersetregistrationinfo) to get information about a particular counterset such as the counterset's name, description, type (single-instance or multi-instance), counter types, counter names, and counter descriptions.
@@ -30,9 +30,13 @@ The `perflib.h` header includes the definitions used by V2 user-mode providers (
 - Use [**PerfQueryCounterInfo**](/windows/desktop/api/Perflib/nf-perflib-perfquerycounterinfo) to get information about the current queries on a query handle.
 - Use [**PerfQueryCounterData**](/windows/desktop/api/Perflib/nf-perflib-perfquerycounterdata) to collect the performance data from a query handle.
 
-If your consumer will be consuming data only from a specific provider that you control, and the GUID and counter indexes are unlikely to change, you may want to use the [CTRPP](ctrpp.md)-generated symbol file to hard-code the counterset GUID and counter index values into your consumer.
+If your consumer will be consuming data only from a specific provider where the GUID and counter indexes are stable and you have access to the [CTRPP](ctrpp.md)-generated symbol file (from the CTRPP `-ch` parameter), you can hard-code the counterset GUID and counter index values into your consumer.
 
-Otherwise, you will need to load counterset metadata. Use **PerfEnumerateCounterSet** to get a list of supported counterset GUIDs. For each GUID, use **PerfQueryCounterSetRegistrationInfo** to load counterset metadata (counterset name, counterset configuration, counter names, counter indexes, counter types).
+Otherwise, you will need to load counterset metadata to determine the counterset GUID(s) and counter indexes to use in your query as follows:
+
+- Use **PerfEnumerateCounterSet** to get a list of supported counterset GUIDs.
+- For each GUID, use **PerfQueryCounterSetRegistrationInfo** to load the counterset name. Stop when you find the name you are looking for.
+- Use **PerfQueryCounterSetRegistrationInfo** to load the remaining metadata (counterset configuration, counter names, counter indexes, counter types) for that counterset.
 
 If you just need to know the names of the currently-active instances of a counterset (i.e. if you do not need the actual performance data values), you can use **PerfEnumerateCounterSetInstances**. This takes a counterset GUID as input and returns a `PERF_INSTANCE_HEADER` block with the names and IDs of the currently-active instances of the given counterset.
 
@@ -55,6 +59,9 @@ After changing the queries in a query handle, use **PerfQueryCounterInfo** to ob
 
 Once the query handle is ready, use **PerfQueryCounterData** to collect the data. You will normally collect the data periodically (once a second or once a minute) then process the data as needed.
 
+> [!NOTE]
+> Performance counters are not designed to be collected more than once per second.
+
 **PerfQueryCounterData** will return a `PERF_DATA_HEADER` block, which consists of a data header with timestamps followed by a sequence of `PERF_COUNTER_HEADER` blocks, each containing the results of one query.
 
 The `PERF_COUNTER_HEADER` may contain various different kinds of data, as indicated by the value of the `dwType` field:
@@ -64,11 +71,6 @@ The `PERF_COUNTER_HEADER` may contain various different kinds of data, as indica
 - `PERF_MULTIPLE_COUNTERS` - The query was for multiple counters from a single-instance counterset. The result contains the counter values along with information for matching each value up with the corresponding counter (i.e. column headings).
 - `PERF_MULTIPLE_INSTANCES` - The query was for a single counter from a multi-instance counterset. The results contain the instance information (i.e. row headings) and one counter value per instance.
 - `PERF_COUNTERSET` - The query was for multiple counters from a multi-instance counterset. The results contain the instance information (i.e. row headings), the counter values for each instance, and information for matching each value up with the corresponding counter (i.e. column headings).
-
-The consumer will typically call **PerfQueryCounterData** periodically, e.g. once per second or once per minute, depending on the granularity of the data required.
-
-> [!NOTE]
-> Performance counters are not designed to be collected more than once per second.
 
 The values returned by **PerfQueryCounterData** are `UINT32` or `UINT64` raw values. These usually require some processing to produce the expected formatted values. The required processing depends on the counter's type. Many counter types require additional information for complete processing, such as a timestamp or a value from a "base" counter in the same sample.
 
@@ -86,9 +88,9 @@ The consumer is organized as follows:
 - The `CpuPerfTimestamp` struct stores the timestamp information for a sample. Each time data is collected the caller receives a single `CpuPerfTimestamp`.
 - The `CpuPerfData` struct stores the performance information (instance name and raw performance values) for one CPU. Each time data is collected the caller receives an array of `CpuPerfData` (one per CPU).
 
-This sample uses hard-coded counterset GUID and counter ID values because it is optimized for a specific counterset that will not change GUID or ID values. A more-generic class that reads performance data from arbitrary countersets would need to use **PerfQueryCounterSetRegistrationInfo** to look up the mapping between counter IDs and counter values at runtime.
+This sample uses hard-coded counterset GUID and counter ID values because it is optimized for a specific counterset (Processor Information) that will not change GUID or ID values. A more-generic class that reads performance data from arbitrary countersets would need to use **PerfQueryCounterSetRegistrationInfo** to look up the mapping between counter IDs and counter values at runtime.
 
-A simple program is shown that uses the values from the `CpuPerfCounters` class.
+A simple `CpuPerfCountersConsumer.cpp` program shows how to use the values from the `CpuPerfCounters` class.
 
 ### CpuPerfCounters.h
 
@@ -115,7 +117,7 @@ struct CpuPerfTimestamp
 // 100*(1-(s1.ProcessorTime-s0.ProcessorTime)/(t1.PerfTime100NSec-t0.PerfTime100NSec))
 struct CpuPerfData
 {
-    wchar_t Name[16]; // Format: NumaNode,NumaIndex
+    wchar_t Name[16]; // Format: "NumaNode,NumaIndex", "NumaNode,_Total", or "_Total".
     __int64 unsigned ProcessorTime; // % Processor Time (#0, Type=PERF_100NSEC_TIMER_INV)
     __int64 unsigned UserTime; // % User Time (#1, Type=PERF_100NSEC_TIMER)
     __int64 unsigned PrivilegedTime; // % Privileged Time (#2, Type=PERF_100NSEC_TIMER)
@@ -304,6 +306,9 @@ CpuPerfCounters::ReadData(
             goto Done;
         }
 
+        // NOTE: A program that adds more than one query to the handle would need to call
+        // PerfQueryCounterInfo to determine the order of the query results.
+
         m_hQuery = hQuery;
     }
 
@@ -344,7 +349,7 @@ CpuPerfCounters::ReadData(
         goto Done;
     }
 
-    // PERF_COUNTER_HEADER block = PERF_COUNTER_HEADER + PERF_MULTI_COUNTERS block + PERF_MULTI_INSTANCES block
+    // PERF_COUNTERSET block = PERF_COUNTER_HEADER + PERF_MULTI_COUNTERS block + PERF_MULTI_INSTANCES block
     cbData = pDataHeader->dwTotalSize - sizeof(PERF_DATA_HEADER);
     pCounterHeader = reinterpret_cast<PERF_COUNTER_HEADER*>(pDataHeader + 1);
     if (cbData < sizeof(PERF_COUNTER_HEADER) ||

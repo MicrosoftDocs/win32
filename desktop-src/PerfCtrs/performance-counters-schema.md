@@ -8,10 +8,12 @@ ms.date: 08/17/2020
 
 # Performance Counters Schema
 
-V2 performance data providers are supported on Windows Vista or later. They use an XML instrumentation manifest to define the provider, the countersets, and the counters.
+V2 performance data providers are supported on Windows Vista or later. They use a .MAN (XML instrumentation manifest) file to define the provider, the countersets, and the counters.
 
 > [!NOTE]
-> For details on instrumentation manifests see [EventManifest Schema](https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-schema) and [Writing an Instrumentation Manifest](https://docs.microsoft.com/windows/desktop/WES/writing-an-instrumentation-manifest)). This section describes the following elements and types that you use to write the `counters` section of an instrumentation manifest:
+> Instrumentation manifests can contain information about both Event Tracing for Windows (ETW) providers and Performance Counter providers. For details on instrumentation manifests see [EventManifest Schema](https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-schema) and [Writing an Instrumentation Manifest](https://docs.microsoft.com/windows/desktop/WES/writing-an-instrumentation-manifest)).
+
+This section describes the following elements and types that you use in the `counters` section of an instrumentation manifest:
 
 - [Performance Counters Elements](performance-counters-elements.md)
 - [Performance Counters Simple Types](performance-counters-simple-types.md)
@@ -19,17 +21,17 @@ V2 performance data providers are supported on Windows Vista or later. They use 
 
 Do not use the `localization` or `stringTable` sections of the instrumentation manifest for performance data strings. Instead, specify the strings as values of the attribute that you are setting.
 
-When the manifest is complete, use the [CTRPP](ctrpp.md) tool to generate code (`.h`) and resource (`.rc`) files for your provider to be included into your provider.
+After creating the manifest, use the [CTRPP](ctrpp.md) tool to validate the manifest and to generate code (`.h`) and resource (`.rc`) files to be used in building your provider.
 
 When installing your application, run the [LodCtr.exe tool](https://docs.microsoft.com/windows-server/administration/windows-commands/lodctr) with the `/M:` parameter to install your performance counters. The LodCtr.exe tool will record the necessary information into the registry under `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Perflib\_V2Providers\{ProviderGuid}`, including the full path to the binary containing the string resources for your provider (as specified in the `applicationIdentity` attribute of the manifest). You must have administrator privileges to run LodCtr.exe. Example installation command:
 
 **LodCtr.exe** /M:"*manifest*" \["*ApplicationIdentityDirectory*"\]
 
-If you need to update a counterset, be sure to uninstall the old counterset using the [UnlodCtr.exe tool](https://docs.microsoft.com/windows-server/administration/windows-commands/unlodctr_1) with the `/G:` or `/P:` parameters. After the counter set is unregistered, you can pass the updated manifest to the LodCtr.exe tool.
+If you need to update a counterset, be sure to uninstall the old counterset using the [UnlodCtr.exe tool](https://docs.microsoft.com/windows-server/administration/windows-commands/unlodctr_1) with the `/G:` or `/P:` parameters. After the old counterset is uninstalled, you can install the updated counterset.
 
 ## Schema
 
-The following is the performance counters schema that you can use to validate the counters section of your manifest. This schema is found in the Windows SDK as `counterman.xsd`. For details on the schema that you use to validate the instrumentation section of the manifest, see [EventManifest Schema](https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-schema).
+The following is the performance counters schema that you can use to validate the `counters` section of your manifest. This schema is found in the Windows SDK as `counterman.xsd`. For details on the schema that you use to validate the instrumentation section of the manifest, see [EventManifest Schema](https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-schema).
 
 ``` syntax
 <xs:schema
