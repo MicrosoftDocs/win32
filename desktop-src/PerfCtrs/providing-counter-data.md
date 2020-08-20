@@ -20,7 +20,7 @@ Providers implemented using a manifest and performance counter provider APIs are
 
 Windows supports user-mode V2 providers on Windows Vista or later. For user-mode details, see [Providing Counter Data Using Version 2.0](providing-counter-data-using-version-2-0.md).
 
-Windows supports kernel-mode V2 providers on Windows 7 or later. For kernel-mode details, see [Kernel Mode Performance Monitoring](https://docs.microsoft.com/windows-hardware/drivers/devtest/kernel-mode-performance-monitoring).
+Windows supports kernel-mode V2 providers on Windows 7 or later. For kernel-mode details, see [Kernel Mode Performance Monitoring](/windows-hardware/drivers/devtest/kernel-mode-performance-monitoring).
 
 ## Performance DLL (deprecated)
 

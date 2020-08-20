@@ -20,11 +20,11 @@ The [CTRPP](ctrpp.md) tool was changed to improve and simplify code generation. 
 
 A new `symbol` attribute is available for the following manifest elements:
 
-- [provider](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-provider--counters--element)
-- [counterSet](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-counterset--provider--element)
-- [counter](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-counter--counterset--element)
+- [provider](/windows/desktop/PerfCtrs/performance-counters-provider--counters--element)
+- [counterSet](/windows/desktop/PerfCtrs/performance-counters-counterset--provider--element)
+- [counter](/windows/desktop/PerfCtrs/performance-counters-counter--counterset--element)
 
-The `symbol` attribute is required for [provider](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-provider--counters--element) and [counterSet](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-counterset--provider--element), and is optional for [counter](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-counter--counterset--element). The attribute lets you provide a symbolic name that you can use to reference each element when calling the provider functions (for example, you can use the counter set symbolic name when calling [PerfCreateInstance](/windows/desktop/api/Perflib/nf-perflib-perfcreateinstance)).
+The `symbol` attribute is required for [provider](/windows/desktop/PerfCtrs/performance-counters-provider--counters--element) and [counterSet](/windows/desktop/PerfCtrs/performance-counters-counterset--provider--element), and is optional for [counter](/windows/desktop/PerfCtrs/performance-counters-counter--counterset--element). The attribute lets you provide a symbolic name that you can use to reference each element when calling the provider functions (for example, you can use the counter set symbolic name when calling [PerfCreateInstance](/windows/desktop/api/Perflib/nf-perflib-perfcreateinstance)).
 
 ## Windows Vista
 

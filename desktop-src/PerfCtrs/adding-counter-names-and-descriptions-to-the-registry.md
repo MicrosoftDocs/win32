@@ -184,7 +184,7 @@ To unload the names and help strings (during uninstall), run the **unlodctr** to
 
 Before running **lodctr**, be sure that your application has an entry under the **Services** key. For details, see [Creating the Application's Performance Key](creating-the-applications-performance-key.md). If the key does not exist, **lodctr** will not update the registry with your names and descriptions.
 
-As an alternative to running **lodctr**, you can call [**LoadPerfCounterTextStrings**](https://docs.microsoft.com/windows/win32/api/loadperf/nf-loadperf-loadperfcountertextstringsw) (defined in Loadperf.h) from your installation program to load your counter names descriptions. You can then call [**UnloadPerfCounterTextStrings**](https://docs.microsoft.com/windows/win32/api/loadperf/nf-loadperf-unloadperfcountertextstringsw) during uninstall.
+As an alternative to running **lodctr**, you can call [**LoadPerfCounterTextStrings**](/windows/win32/api/loadperf/nf-loadperf-loadperfcountertextstringsw) (defined in Loadperf.h) from your installation program to load your counter names descriptions. You can then call [**UnloadPerfCounterTextStrings**](/windows/win32/api/loadperf/nf-loadperf-unloadperfcountertextstringsw) during uninstall.
 
 The **lodctr** utility copies the strings from the .INI file to the **Counters** and **Help** registry values under the appropriate language subkeys. If the corresponding language subkey does not exist, the strings for that language are not copied. The utility also updates the **Last Counter** and **Last Help** value. The performance counter names and descriptions are stored in the following location in the registry.
 

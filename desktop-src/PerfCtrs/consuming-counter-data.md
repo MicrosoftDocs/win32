@@ -10,8 +10,8 @@ ms.date: 08/17/2020
 
 Programs that want to read and make use of Windows Performance Counter data can use one of several interfaces as appropriate for the scenario.
 
-- Scripts can use the [WMI Performance Counter Classes](https://docs.microsoft.com/windows/desktop/WmiSdk/monitoring-performance-data) or the [TypePerf](https://docs.microsoft.com/windows-server/administration/windows-commands/typeperf) tool.
-- .NET programs can use the [PerformanceCounter Class](https://docs.microsoft.com/dotnet/api/system.diagnostics.performancecounter).
+- Scripts can use the [WMI Performance Counter Classes](/windows/desktop/WmiSdk/monitoring-performance-data) or the [TypePerf](/windows-server/administration/windows-commands/typeperf) tool.
+- .NET programs can use the [PerformanceCounter Class](/dotnet/api/system.diagnostics.performancecounter).
 - The [Performance Data Helper (PDH) library](using-the-pdh-functions-to-consume-counter-data.md) provides high-level access to data from both V1 and V2 performance counter providers via a Win32 (C/C++) API.
 - The [registry interface](using-the-registry-functions-to-consume-counter-data.md) provides access to data from both V1 and V2 performance counter providers via the special `HKEY_PERFORMANCE_DATA` registry key.
 - The [PerfLib V2 Consumer functions](using-the-perflib-functions-to-consume-counter-data.md) provide low-level access to data from V2 performance counter providers via a Win32 (C/C++) API.

@@ -14,7 +14,7 @@ Performance counter **providers** are software components that publish performan
 
 - Use [Performance Counter Tools](performance-counters-tools.md) when you want to collect or view the counter data from a system.
 - Use [Performance Counter Consumer APIs](consuming-counter-data.md) when you want to write a program that collects counter data from the local system.
-- Use [WMI Performance Counter Classes](https://docs.microsoft.com/windows/desktop/WmiSdk/monitoring-performance-data) when you want to collect counter data from a local or remote system using WMI.
+- Use [WMI Performance Counter Classes](/windows/desktop/WmiSdk/monitoring-performance-data) when you want to collect counter data from a local or remote system using WMI.
 - Use [Performance Counter Provider APIs](providing-counter-data.md) when you want to publish performance counter data from your software component.
 
 ## See also

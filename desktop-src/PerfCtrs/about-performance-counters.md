@@ -11,16 +11,16 @@ ms.date: 08/17/2020
 Windows Performance Counters provide a high-level abstraction layer with a consistent interface for collecting various kinds of system data such as CPU, memory, and disk usage statistics. System administrators use performance counters to monitor for performance or behavior problems. Software developers use performance counters to inspect the resource usage of their components.
 
 > [!IMPORTANT]
-> Windows Performance Counters are optimized for administrative/diagnostic data discovery and collection. They are not appropriate for high-frequency data collection or for application profiling since they are not designed to be collected more than once per second. For lower-overhead access to system information, you might prefer more direct APIs such as [**Process Status Helper**](https://docs.microsoft.com/windows/win32/psapi/process-status-helper), [**GlobalMemoryStatusEx**](https://docs.microsoft.com/windows/win32/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex), [**GetSystemTimes**](https://docs.microsoft.com/windows/win32/api/processthreadsapi/nf-processthreadsapi-getsystemtimes), or [**GetProcessTimes**](https://docs.microsoft.com/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes). For profiling, you might collect ETW logs with system profiling data using [**tracelog.exe**](https://docs.microsoft.com/windows-hardware/drivers/devtest/tracelog) with `-critsec`, `-dpcisr`, `-eflag`, or `-ProfileSource` options, or you might use [**Hardware Counter Profiling**](https://docs.microsoft.com/previous-versions/windows/desktop/hcp/hcp-reference).
+> Windows Performance Counters are optimized for administrative/diagnostic data discovery and collection. They are not appropriate for high-frequency data collection or for application profiling since they are not designed to be collected more than once per second. For lower-overhead access to system information, you might prefer more direct APIs such as [**Process Status Helper**](/windows/win32/psapi/process-status-helper), [**GlobalMemoryStatusEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex), [**GetSystemTimes**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getsystemtimes), or [**GetProcessTimes**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes). For profiling, you might collect ETW logs with system profiling data using [**tracelog.exe**](/windows-hardware/drivers/devtest/tracelog) with `-critsec`, `-dpcisr`, `-eflag`, or `-ProfileSource` options, or you might use [**Hardware Counter Profiling**](/previous-versions/windows/desktop/hcp/hcp-reference).
 
 > [!NOTE]
-> Do not confuse Windows Performance Counters with the [**QueryPerformanceCounter**](https://docs.microsoft.com/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) API. Windows Performance Counters provide a high-level abstraction for many kinds of system information. The QueryPerformanceCounter function provides optimized access to a high-precision timestamp.
+> Do not confuse Windows Performance Counters with the [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) API. Windows Performance Counters provide a high-level abstraction for many kinds of system information. The QueryPerformanceCounter function provides optimized access to a high-precision timestamp.
 
 ## Getting Started
 
 - Use [Performance Counter Tools](performance-counters-tools.md) when you want to collect or view the performance data from a system.
 - Use [Performance Counter Collection APIs](consuming-counter-data.md) when you want to write a script or a program that collects performance data from the local system.
-- Use [WMI Performance Counter Classes](https://docs.microsoft.com/windows/desktop/WmiSdk/monitoring-performance-data) when you want to collect performance data from a local or remote system using WMI.
+- Use [WMI Performance Counter Classes](/windows/desktop/WmiSdk/monitoring-performance-data) when you want to collect performance data from a local or remote system using WMI.
 - Use [Performance Counter Provider APIs](providing-counter-data.md) when you want to publish performance data from your software component.
 
 ## Concepts
@@ -75,7 +75,7 @@ Providers are expected to behave as if they are stateless, i.e. collecting data 
 Performance counter consumers include:
 
 - [Microsoft-provided applications](performance-counters-tools.md) such as Task Manager, Resource Monitor, Performance Monitor, and typeperf.exe.
-- Microsoft-provided high-level API surfaces that expose performance counter data such as [WMI Performance Classes](https://docs.microsoft.com/windows/desktop/WmiSdk/monitoring-performance-data).
+- Microsoft-provided high-level API surfaces that expose performance counter data such as [WMI Performance Classes](/windows/desktop/WmiSdk/monitoring-performance-data).
 - Your own applications or scripts that use [performance counter consumer APIs](consuming-counter-data.md).
 
 Most performance counter consumers use APIs from [PDH.dll](using-the-pdh-functions-to-consume-counter-data.md) to collect performance data. PDH manages many complex aspects of gathering performance counters such as parsing queries, matching up instances across multiple samples, and computing formatted values from the raw counter data. The PDH implementation uses the registry APIs when consuming data from a V1 provider and uses the V2 consumer APIs when consuming data from a V2 provider.
@@ -92,7 +92,7 @@ V1 providers are implemented as a provider DLL that is loaded into the consumer 
 V2 providers are implemented as either a user-mode program (often a Windows service) or a kernel-mode driver. Usually the performance data provider code is integrated directly into an existing component (i.e. the driver or service is reporting statistics about itself). The PerfLib V2 implementation manages requests and responses via the PCW.sys kernel extension so the provider usually does not need to implement any interprocess communication to provide the performance data.
 
 > [!NOTE]
-> Windows Performance Counter APIs and tools include limited support for accessing performance counters from other machines via Remote Registry (for V1 providers) and RPC (for V2 providers). This support is often hard to use in terms of authentication controls (the tools and APIs can only authenticate as the current user) as well as in terms of [system configuration](accessing-remote-counter-data.md) (the necessary endpoints and services are disabled by default). In many cases, it is better to access the performance counters of remote systems via [WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/monitoring-performance-data) rather than via the built-in remote access support.
+> Windows Performance Counter APIs and tools include limited support for accessing performance counters from other machines via Remote Registry (for V1 providers) and RPC (for V2 providers). This support is often hard to use in terms of authentication controls (the tools and APIs can only authenticate as the current user) as well as in terms of [system configuration](accessing-remote-counter-data.md) (the necessary endpoints and services are disabled by default). In many cases, it is better to access the performance counters of remote systems via [WMI](/windows/desktop/WmiSdk/monitoring-performance-data) rather than via the built-in remote access support.
 
 ## Developer audience
 

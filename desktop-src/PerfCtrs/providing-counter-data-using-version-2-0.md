@@ -10,7 +10,7 @@ ms.date: 08/17/2020
 
 Modern performance data providers use a manifest to define the counter data and use performance counter provider APIs to manage data within the context of the provider. Providers implemented using a manifest and performance counter provider APIs are often called **V2 providers**. Windows supports user-mode V2 providers on Windows Vista or later and kernel-mode V2 providers on Windows 7 or later.
 
-This page describes user-mode V2 providers. For information about kernel-mode V2 providers, see [Kernel Mode Performance Monitoring](https://docs.microsoft.com/windows-hardware/drivers/devtest/kernel-mode-performance-monitoring).
+This page describes user-mode V2 providers. For information about kernel-mode V2 providers, see [Kernel Mode Performance Monitoring](/windows-hardware/drivers/devtest/kernel-mode-performance-monitoring).
 
 At runtime, V2 providers work as follows:
 
@@ -46,7 +46,7 @@ At runtime, V2 providers work as follows:
 
    Before the provider exits, it must call the [**PerfDeleteInstance**](/windows/desktop/api/Perflib/nf-perflib-perfdeleteinstance) for each counter set instance that it created.
 
-   If you specified the **callback** attribute in the [**provider**](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-provider--counters--element) element in your manifest or used the **-NotificationCallback** argument when calling [CTRPP](ctrpp.md), you must implement the [*ControlCallback*](/windows/desktop/api/Perflib/nc-perflib-perflibrequest) callback function. You pass the callback function to [**CounterInitialize**](counterinitialize.md).
+   If you specified the **callback** attribute in the [**provider**](/windows/desktop/PerfCtrs/performance-counters-provider--counters--element) element in your manifest or used the **-NotificationCallback** argument when calling [CTRPP](ctrpp.md), you must implement the [*ControlCallback*](/windows/desktop/api/Perflib/nc-perflib-perflibrequest) callback function. You pass the callback function to [**CounterInitialize**](counterinitialize.md).
 
    If you used the **-MemoryRoutines** when calling [CTRPP](ctrpp.md), you must implement the [*AllocateMemory*](/windows/desktop/api/Perflib/nc-perflib-perf_mem_alloc) and [*FreeMemory*](/windows/desktop/api/Perflib/nc-perflib-perf_mem_free) callback functions. You pass the callback functions to [**CounterInitialize**](counterinitialize.md).
 
