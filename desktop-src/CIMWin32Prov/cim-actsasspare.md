@@ -117,13 +117,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 <dl> <dt>
 
-[CIM Classes](https://docs.microsoft.com/windows/desktop/WmiSdk/cimclas)
+[CIM Classes](/windows/desktop/WmiSdk/cimclas)
 </dt> </dl>
 
  
-
- 
-
-
-
 

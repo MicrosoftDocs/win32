@@ -68,7 +68,7 @@ This style is supported only in the Windows Classic theme. All other themes over
 
 ## Remarks
 
-You can set progress bar styles, in the same way as other common controls, with [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa), [**GetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlonga), or [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga).
+You can set progress bar styles, in the same way as other common controls, with [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa), [**GetWindowLong**](/windows/desktop/api/winuser/nf-winuser-getwindowlonga), or [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga).
 
 ## Requirements
 
@@ -81,10 +81,4 @@ You can set progress bar styles, in the same way as other common controls, with 
 
 
  
-
- 
-
-
-
-
 

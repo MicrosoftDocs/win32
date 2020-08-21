@@ -20,7 +20,7 @@ A server or ROT object that is not a service or running under a specific user ac
 
 When a class is registered as in-process, a call to [**CoGetClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject) to create its class object is automatically passed by COM to the [**DllGetClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-dllgetclassobject) function, which the class must implement to give the calling object a pointer to its class object.
 
-Classes implemented in executables can specify that COM should execute their process and wait for the process to register their class object's [**IClassFactory**](https://msdn.microsoft.com/library/ms694364(v=VS.85).aspx) interface through a call to the [**CoRegisterClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject) function.
+Classes implemented in executables can specify that COM should execute their process and wait for the process to register their class object's [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) interface through a call to the [**CoRegisterClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject) function.
 
 ## Related topics
 
@@ -47,7 +47,3 @@ Classes implemented in executables can specify that COM should execute their pro
  
 
  
-
-
-
-

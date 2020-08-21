@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Memory Management Rules
 
-The lifetime of pointers to interfaces is always managed through the [**AddRef**](https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx) and [**Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) methods on every COM interface. For more information, see [Rules for Managing Reference Counts](rules-for-managing-reference-counts.md).
+The lifetime of pointers to interfaces is always managed through the [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) and [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) methods on every COM interface. For more information, see [Rules for Managing Reference Counts](rules-for-managing-reference-counts.md).
 
 For all other parameters, it is important to adhere to certain rules for managing memory. The following rules apply to all parameters of interface methodsâ€”including the return valueâ€”that are not passed by value:
 
@@ -26,7 +26,7 @@ Another area that needs special attention is the treatment of out and in-out par
 
 Remember that these memory management conventions for COM applications apply only across public interfaces and APIsâ€”there is no requirement at all that memory allocation strictly internal to a COM application need be done using these mechanisms.
 
-COM internally uses Remote Procedure Calls (RPC) to communicate between clients and servers. For more information about managing memory in RPC server stubs, see the [Server-stub Memory Management](https://msdn.microsoft.com/library/aa378672.aspx) topic.
+COM internally uses Remote Procedure Calls (RPC) to communicate between clients and servers. For more information about managing memory in RPC server stubs, see the [Server-stub Memory Management](../rpc/server-stub-memory-management.md) topic.
 
 ## Related topics
 
@@ -38,7 +38,3 @@ COM internally uses Remote Procedure Calls (RPC) to communicate between clients 
  
 
  
-
-
-
-

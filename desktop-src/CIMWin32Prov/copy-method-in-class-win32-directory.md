@@ -18,9 +18,9 @@ api_location:
 
 # Copy method of the Win32\_Directory class
 
-The **Copy** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method copies the logical directory entry file or directory specified in the object path to the location specified by the input parameter. A copy is not supported if overwriting an existing logical file is required.
+The **Copy** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method copies the logical directory entry file or directory specified in the object path to the location specified by the input parameter. A copy is not supported if overwriting an existing logical file is required.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -189,16 +189,11 @@ Next
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_Directory**](win32-directory.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

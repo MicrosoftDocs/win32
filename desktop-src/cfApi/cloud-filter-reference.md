@@ -16,18 +16,13 @@ The following elements are used to create and manage placeholder files and direc
 
 | Topic                                                                     | Description                                                                                                   |
 |---------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| [Cloud Filter Enumerations](https://docs.microsoft.com/windows/desktop/cfApi/cloud-files-enumerations)<br/> | The following enumerations are used in creating and maintaining placeholder files and directories.<br/> |
-| [Cloud Filter Functions](https://docs.microsoft.com/windows/desktop/cfApi/cloud-files-functions)<br/>       | The following functions are used in creating and maintaining placeholder files and directories.<br/>    |
-| [Cloud Filter Structures](https://docs.microsoft.com/windows/desktop/cfApi/cloud-files-structures)<br/>     | The following structures are used in creating and maintaining placeholder files and directories.<br/>   |
+| [Cloud Filter Enumerations](/windows/desktop/cfApi/cloud-files-enumerations)<br/> | The following enumerations are used in creating and maintaining placeholder files and directories.<br/> |
+| [Cloud Filter Functions](/windows/desktop/cfApi/cloud-files-functions)<br/>       | The following functions are used in creating and maintaining placeholder files and directories.<br/>    |
+| [Cloud Filter Structures](/windows/desktop/cfApi/cloud-files-structures)<br/>     | The following structures are used in creating and maintaining placeholder files and directories.<br/>   |
 
 
 
  
 
  
-
- 
-
-
-
 

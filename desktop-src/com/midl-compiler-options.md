@@ -8,23 +8,23 @@ ms.date: 05/31/2018
 
 # MIDL Compiler Options
 
-You can use the following command-line options to override some of the default behavior of the MIDL compiler and to choose optimizations appropriate for your application. For a complete listing of MIDL command-line options, see the [MIDL Command-Line Reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
+You can use the following command-line options to override some of the default behavior of the MIDL compiler and to choose optimizations appropriate for your application. For a complete listing of MIDL command-line options, see the [MIDL Command-Line Reference](/windows/desktop/Midl/midl-command-line-reference).
 
 
 
 | Command line switch                                       | Description                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**/acf**](https://docs.microsoft.com/windows/desktop/Midl/-acf)<br/>                          | Use to supply an explicit ACF filename. This switch also enables the use of different interface names in the IDL and ACF files.<br/>                                                                                                       |
-| [**/dlldata**](https://docs.microsoft.com/windows/desktop/Midl/-dlldata)<br/>                  | Specifies a filename for the generated DLL data file for a proxy DLL. The default filename is Dlldata.c.<br/>                                                                                                                              |
-| [**/env**](https://docs.microsoft.com/windows/desktop/Midl/-env)<br/>                          | Directs MIDL to generate stubs or a type library for a target environment.<br/>                                                                                                                                                            |
-| [**/header**](https://docs.microsoft.com/windows/desktop/Midl/-header), [**/h**](https://docs.microsoft.com/windows/desktop/Midl/-h)<br/> | Specifies the name of the interface header file. The default name is that of the IDL file with an .h extension.<br/>                                                                                                                       |
-| [**/iid**](https://docs.microsoft.com/windows/desktop/Midl/-iid)<br/>                          | Specifies an interface identifier filename that overrides the default interface identifier filename for a COM interface.<br/>                                                                                                              |
-| [**/lcid**](https://docs.microsoft.com/windows/desktop/Midl/-lcid)<br/>                        | Provides full DBCS support so that you can use international characters in your input files, filenames, and directory paths.<br/>                                                                                                          |
-| [**/no\_format\_opt**](https://docs.microsoft.com/windows/desktop/Midl/-no-format-opt)<br/>    | By default, to reduce code size, MIDL eliminates duplicate descriptors. This switch turns off this optimizing behavior.<br/>                                                                                                               |
-| [**/Oi**](https://docs.microsoft.com/windows/desktop/Midl/-oi), **/Oic**, **/Oif**<br/>        | Directs MIDL to use a fully interpreted marshaling method. The /Oic and /Oicf switches provide additional performance enhancements.<br/>                                                                                                   |
-| [**/out**](https://docs.microsoft.com/windows/desktop/Midl/-out)<br/>                          | Specifies the directory to which the MIDL compiler writes output files. The output directory can be specified with a drive letter, an absolute pathname, or both. The default is that MIDL writes the files to the current directory.<br/> |
-| [**/proxy**](https://docs.microsoft.com/windows/desktop/Midl/-proxy)<br/>                      | Specifies the name of the interface proxy file for a COM interface. The default name is that of the IDL file plus "\_p.c".<br/>                                                                                                            |
-| [**/tlb**](https://docs.microsoft.com/windows/desktop/Midl/-tlb)<br/>                          | Specifies the name of the type library file. The default name is that of the IDL file, with a .tlb extension.<br/>                                                                                                                         |
+| [**/acf**](/windows/desktop/Midl/-acf)<br/>                          | Use to supply an explicit ACF filename. This switch also enables the use of different interface names in the IDL and ACF files.<br/>                                                                                                       |
+| [**/dlldata**](/windows/desktop/Midl/-dlldata)<br/>                  | Specifies a filename for the generated DLL data file for a proxy DLL. The default filename is Dlldata.c.<br/>                                                                                                                              |
+| [**/env**](/windows/desktop/Midl/-env)<br/>                          | Directs MIDL to generate stubs or a type library for a target environment.<br/>                                                                                                                                                            |
+| [**/header**](/windows/desktop/Midl/-header), [**/h**](/windows/desktop/Midl/-h)<br/> | Specifies the name of the interface header file. The default name is that of the IDL file with an .h extension.<br/>                                                                                                                       |
+| [**/iid**](/windows/desktop/Midl/-iid)<br/>                          | Specifies an interface identifier filename that overrides the default interface identifier filename for a COM interface.<br/>                                                                                                              |
+| [**/lcid**](/windows/desktop/Midl/-lcid)<br/>                        | Provides full DBCS support so that you can use international characters in your input files, filenames, and directory paths.<br/>                                                                                                          |
+| [**/no\_format\_opt**](/windows/desktop/Midl/-no-format-opt)<br/>    | By default, to reduce code size, MIDL eliminates duplicate descriptors. This switch turns off this optimizing behavior.<br/>                                                                                                               |
+| [**/Oi**](/windows/desktop/Midl/-oi), **/Oic**, **/Oif**<br/>        | Directs MIDL to use a fully interpreted marshaling method. The /Oic and /Oicf switches provide additional performance enhancements.<br/>                                                                                                   |
+| [**/out**](/windows/desktop/Midl/-out)<br/>                          | Specifies the directory to which the MIDL compiler writes output files. The output directory can be specified with a drive letter, an absolute pathname, or both. The default is that MIDL writes the files to the current directory.<br/> |
+| [**/proxy**](/windows/desktop/Midl/-proxy)<br/>                      | Specifies the name of the interface proxy file for a COM interface. The default name is that of the IDL file plus "\_p.c".<br/>                                                                                                            |
+| [**/tlb**](/windows/desktop/Midl/-tlb)<br/>                          | Specifies the name of the type library file. The default name is that of the IDL file, with a .tlb extension.<br/>                                                                                                                         |
 
 
 
@@ -38,10 +38,4 @@ You can use the following command-line options to override some of the default b
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -20,7 +20,7 @@ api_location:
 
 The **StartService** method places the service in the started state.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -37,7 +37,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns one of the values listed in the following list or any other value to indicate an error. For values different from those listed in the following list, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants).
+Returns one of the values listed in the following list or any other value to indicate an error. For values different from those listed in the following list, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants).
 
 <dl> <dt>
 
@@ -80,9 +80,4 @@ Request not supported.
 </dt> </dl>
 
  
-
- 
-
-
-
 

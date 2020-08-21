@@ -12,7 +12,7 @@ Activation security (also called launch security) helps control who can launch a
 
 When determining the identity of the client, activation examines the cloaking flag set in the client's call to [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity). If the cloaking flag is set (for either dynamic or static cloaking), the thread token is used, if present, to determine the identity of the client. If no cloaking is set, the process token is used instead of the thread token.
 
-For more information about activation security, see [**COAUTHINFO**](/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo) and [**COSERVERINFO**](https://msdn.microsoft.com/library/ms687322(v=VS.85).aspx).
+For more information about activation security, see [**COAUTHINFO**](/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo) and [**COSERVERINFO**](/windows/win32/api/objidlbase/ns-objidlbase-coserverinfo).
 
 ## Related topics
 
@@ -24,7 +24,3 @@ For more information about activation security, see [**COAUTHINFO**](/windows/de
  
 
  
-
-
-
-

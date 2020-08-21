@@ -49,13 +49,13 @@ Value of type **int** specifying which month calendar color to set. This value c
 *lParam* 
 </dt> <dd>
 
-[**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that represents the color that will be set for the specified area of the month calendar.
+[**COLORREF**](/windows/desktop/gdi/colorref) value that represents the color that will be set for the specified area of the month calendar.
 
 </dd> </dl>
 
 ## Return value
 
-Returns a [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that represents the previous color setting for the specified portion of the month calendar control if successful. Otherwise, the return is -1.
+Returns a [**COLORREF**](/windows/desktop/gdi/colorref) value that represents the previous color setting for the specified portion of the month calendar control if successful. Otherwise, the return is -1.
 
 ## Remarks
 
@@ -74,10 +74,4 @@ If visual styles are active, this message has no effect except when *wParam* is 
 
 
  
-
- 
-
-
-
-
 

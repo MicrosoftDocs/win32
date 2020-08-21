@@ -37,7 +37,7 @@ api_location:
 
 # Win32\_ScheduledJob class
 
-The **Win32\_ScheduledJob** [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents a job created with the **AT** command.
+The **Win32\_ScheduledJob** [WMI class](../wmisdk/retrieving-a-class.md) represents a job created with the **AT** command.
 
 > [!Note]  
 > The **Win32\_ScheduledJob** class does not represent a job created with the Scheduled Task Wizard from the Control Panel. You cannot change a task created by WMI in the Scheduled Tasks UI. For more information, see the Remarks section.
@@ -111,7 +111,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Caption")
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (64), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Caption")
 </dt> </dl>
 
 A short textual description of the object.
@@ -129,7 +129,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**AT\_INFO**](https://msdn.microsoft.com/library/Aa370248(v=VS.85).aspx)\|**Command**")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**AT\_INFO**](/windows/win32/api/lmat/ns-lmat-at_info)\|**Command**")
 </dt> </dl>
 
 Name of the command, batch program, or binary file (and command-line arguments) that the schedule service uses to invoke the job.
@@ -147,7 +147,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**AT\_INFO**](https://msdn.microsoft.com/library/Aa370248(v=VS.85).aspx)\|**DaysOfMonth**")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**AT\_INFO**](/windows/win32/api/lmat/ns-lmat-at_info)\|**DaysOfMonth**")
 </dt> </dl>
 
 Days of the month when the job is scheduled to run. If a job is scheduled to run on multiple days of the month, these values can be joined in a logical OR. For example, if a job is to run on the 1st and 16th of each month, the value of the **DaysOfMonth** property would be 1 OR 32768.
@@ -506,7 +506,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**AT\_INFO**](https://msdn.microsoft.com/library/Aa370248(v=VS.85).aspx)\|**DaysOfWeek**")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**AT\_INFO**](/windows/win32/api/lmat/ns-lmat-at_info)\|**DaysOfWeek**")
 </dt> </dl>
 
 Days of the week when a job is scheduled to run. If a job is scheduled to run on multiple days of the week, the values can be joined in a logical OR. For example, if a job is scheduled to run on Mondays, Wednesdays, and Fridays the value of the **DaysOfWeek** property would be 1 OR 4 OR 16.
@@ -573,7 +573,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Description")
+Qualifiers: [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Description")
 </dt> </dl>
 
 A textual description of the object.
@@ -606,7 +606,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Install Date")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Install Date")
 </dt> </dl>
 
 Indicates when the object was installed. Lack of a value does not indicate that the object is not installed.
@@ -624,7 +624,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**AT\_INFO**](https://msdn.microsoft.com/library/Aa370248(v=VS.85).aspx)\|**Flags**\|**JOB\_NONINTERACTIVE**")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**AT\_INFO**](/windows/win32/api/lmat/ns-lmat-at_info)\|**Flags**\|**JOB\_NONINTERACTIVE**")
 </dt> </dl>
 
 Specified job is interactive, which means that a user can give input to a scheduled job while it is executing.
@@ -640,7 +640,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**AT\_ENUM**](https://msdn.microsoft.com/library/Aa370247(v=VS.85).aspx)\|**JobId**")
+Qualifiers: [**Key**](../wmisdk/key-qualifier.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**AT\_ENUM**](/windows/win32/api/lmat/ns-lmat-at_enum)\|**JobId**")
 </dt> </dl>
 
 Identifying number of the job. It is used by methods as a handle to one job being scheduled on this computer.
@@ -656,7 +656,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("JobStatus"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**AT\_ENUM**](https://msdn.microsoft.com/library/Aa370247(v=VS.85).aspx)\|**Flags**\|**JOB\_EXEC\_ERROR**")
+Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("JobStatus"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**AT\_ENUM**](/windows/win32/api/lmat/ns-lmat-at_enum)\|**Flags**\|**JOB\_EXEC\_ERROR**")
 </dt> </dl>
 
 Status of execution the last time this job was scheduled to run.
@@ -688,7 +688,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Name")
+Qualifiers: [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Name")
 </dt> </dl>
 
 Label by which the object is known. When subclassed, this property can be overridden to be a key property.
@@ -751,7 +751,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**AT\_INFO**](https://msdn.microsoft.com/library/Aa370248(v=VS.85).aspx)\|**Flags**\|**JOB\_RUN\_PERIODICALLY**")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**AT\_INFO**](/windows/win32/api/lmat/ns-lmat-at_info)\|**Flags**\|**JOB\_RUN\_PERIODICALLY**")
 </dt> </dl>
 
 Scheduled job runs repeatedly on the days that the job is scheduled. If **False**, then the job is run one time.
@@ -767,7 +767,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("StartTime"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**AT\_ENUM**](https://msdn.microsoft.com/library/Aa370247(v=VS.85).aspx)\|**JobTime**")
+Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("StartTime"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**AT\_ENUM**](/windows/win32/api/lmat/ns-lmat-at_enum)\|**JobTime**")
 </dt> </dl>
 
 UTC time to run the job, in the form of "YYYYMMDDHHMMSS.MMMMMM(+-)OOO", where "YYYYMMDD" must be replaced by "\*\*\*\*\*\*\*\*". The replacement is necessary because the scheduling service only allows jobs to be configured to run one time, or run on a day of the month or week. A job cannot be run on a specific date.
@@ -787,7 +787,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Status")
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (10), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Status")
 </dt> </dl>
 
 String that indicates the current status of the object. Operational and non-operational status can be defined. Operational status can include "OK", "Degraded", and "Pred Fail". "Pred Fail" indicates that an element is functioning properly, but is predicting a failure (for example, a SMART-enabled hard disk drive).
@@ -940,7 +940,7 @@ Value: 1
 
 You may need to restart the machine to make the setting effective.
 
-Because **Win32\_ScheduledJob** is based on the [**NetScheduleJobGetInfo**](https://msdn.microsoft.com/library/Aa370617(v=VS.85).aspx) Win32 API, you cannot use this class in conjunction with the Task Scheduler. If you wish to use Task Scheduler, use the Task Scheduler API. For more information, see the [Task Scheduler Reference](https://msdn.microsoft.com/library/Aa383608(v=VS.85).aspx).
+Because **Win32\_ScheduledJob** is based on the [**NetScheduleJobGetInfo**](/windows/win32/api/lmat/nf-lmat-netschedulejobgetinfo) Win32 API, you cannot use this class in conjunction with the Task Scheduler. If you wish to use Task Scheduler, use the Task Scheduler API. For more information, see the [Task Scheduler Reference](../taskschd/task-scheduler-reference.md).
 
 ## Examples
 
@@ -982,16 +982,12 @@ End If
 [**CIM\_Job**](cim-job.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](./operating-system-classes.md)
 </dt> <dt>
 
-[WMI Tasks: Scheduled Tasks](https://msdn.microsoft.com/library/Aa394601(v=VS.85).aspx)
+[WMI Tasks: Scheduled Tasks](../wmisdk/wmi-tasks--scheduled-tasks.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

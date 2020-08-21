@@ -63,7 +63,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1024)
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (1024)
 </dt> </dl>
 
 Free-form string that indicates a street or other type of address for the physical element's location.
@@ -79,7 +79,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
 Free-form string that defines a label for the location and is part of the key for the object.
@@ -95,7 +95,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (256)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256)
 </dt> </dl>
 
 Free-form string that indicates the placement of a physical element. It can specify slot information on a hosting board, mounting site in a cabinet, or latitude and longitude information. It is part of the key of the **CIM\_Location** object.
@@ -123,9 +123,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

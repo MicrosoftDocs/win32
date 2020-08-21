@@ -60,7 +60,7 @@ Returns the extended edit style flags, which can include one or more of the foll
 | <dl> <dt>**SES\_EX\_NOTABLE**</dt> </dl>            | Disable insertion of tables. The [**EM\_INSERTTABLE**](em-inserttable.md) message returns **E\_FAIL** and RTF tables are skipped (default: 0). <br/>                                                                                                  |
 | <dl> <dt>**SES\_EX\_USESINGLELINE**</dt> </dl>      | Enable a multiline control to act like a single-line control with the ability to scroll vertically when the single-line height is greater than the window height (default: 0). <br/>                                                                   |
 | <dl> <dt>**SES\_HIDETEMPFORMAT**</dt> </dl>         | Hide temporary formatting that is created when [**ITextFont.Reset**](/windows/desktop/api/Tom/nf-tom-itextfont-reset) is called with **tomApplyTmp**. For example, such formatting is used by spell checkers to display a squiggly underline under possibly misspelled words.<br/> |
-| <dl> <dt>**SES\_EX\_USEMOUSEWPARAM**</dt> </dl>     | Use *wParam* when handling the [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove) message and do not call [**GetAsyncKeyState**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate).<br/>                                                                                              |
+| <dl> <dt>**SES\_EX\_USEMOUSEWPARAM**</dt> </dl>     | Use *wParam* when handling the [**WM\_MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) message and do not call [**GetAsyncKeyState**](/windows/desktop/api/winuser/nf-winuser-getasynckeystate).<br/>                                                                                              |
 
 
 
@@ -86,10 +86,4 @@ Returns the extended edit style flags, which can include one or more of the foll
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

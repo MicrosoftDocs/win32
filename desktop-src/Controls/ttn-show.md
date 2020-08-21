@@ -42,7 +42,7 @@ Pointer to an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) struc
 
 ## Return value
 
-[Version 4.70](common-control-versions.md). To display the tooltip in its default location, return zero. To customize the tooltip position, reposition the tooltip window with the [**SetWindowPos**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos) function and return **TRUE**.
+[Version 4.70](common-control-versions.md). To display the tooltip in its default location, return zero. To customize the tooltip position, reposition the tooltip window with the [**SetWindowPos**](/windows/desktop/api/winuser/nf-winuser-setwindowpos) function and return **TRUE**.
 
 > [!Note]  
 > For versions earlier than 4.70, there is no return value.
@@ -66,10 +66,4 @@ A tooltip window rectangle is somewhat larger than its text display rectangle, a
 
 
  
-
- 
-
-
-
-
 

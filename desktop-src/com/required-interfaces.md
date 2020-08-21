@@ -23,8 +23,8 @@ The table below lists the ActiveX Control Container interfaces, and denotes whic
 | **IDispatch** for ambient properties<br/>                                | Yes<br/> | See note 2 and [Ambient Properties for Controls](ambient-properties-for-controls.md)<br/>                                                                                                                                                                                                                                                             |
 | Control Event Sets<br/>                                                  | Yes<br/> | See note 2<br/>                                                                                                                                                                                                                                                                                                                                        |
 | [**ISimpleFrameSite**](/windows/desktop/api/OCIdl/nn-ocidl-isimpleframesite)<br/>                        | No<br/>  | [**ISimpleFrameSite**](/windows/desktop/api/OCIdl/nn-ocidl-isimpleframesite) and support for nested simple frames is optional.<br/>                                                                                                                                                                                                                                                    |
-| [IPropertyNotifySink](data-binding-through-ipropertynotifysink.md)<br/> | No<br/>  | Only needed for containers that (a) have their own property editing UI which would require updating whenever a control changed a property itself or (b) want to control \[[**requestedit**](https://docs.microsoft.com/windows/desktop/Midl/requestedit)\] property changes and other such data-binding features.<br/>                                                                            |
-| [IErrorInfo](https://msdn.microsoft.com/library/ms221233.aspx)<br/>       | Yes<br/> | Mandatory if container supports dual interfaces. See note 2.<br/>                                                                                                                                                                                                                                                                                      |
+| [IPropertyNotifySink](data-binding-through-ipropertynotifysink.md)<br/> | No<br/>  | Only needed for containers that (a) have their own property editing UI which would require updating whenever a control changed a property itself or (b) want to control \[[**requestedit**](/windows/desktop/Midl/requestedit)\] property changes and other such data-binding features.<br/>                                                                            |
+| [IErrorInfo](/windows/win32/api/oaidl/nn-oaidl-ierrorinfo)<br/>       | Yes<br/> | Mandatory if container supports dual interfaces. See note 2.<br/>                                                                                                                                                                                                                                                                                      |
 | [**IClassFactory2**](/windows/desktop/api/OCIdl/nn-ocidl-iclassfactory2)<br/>                            | No<br/>  | Support is strongly recommended.<br/>                                                                                                                                                                                                                                                                                                                  |
 
 
@@ -34,7 +34,7 @@ The table below lists the ActiveX Control Container interfaces, and denotes whic
 1.  [**IOleContainer**](/windows/desktop/api/OleIdl/nn-oleidl-iolecontainer) is implemented on the document or form object (or appropriate analog) that holds the container sites. Controls use **IOleContainer** to navigate to other controls in the same document or form.
 2.  Support for dual interfaces is not mandatory, but is strongly recommended. Writing ActiveX control containers to take advantage of dual interfaces will afford better performance with controls that offer dual interface support.
 
-ActiveX control containers must support OLE Automation exceptions. If a control container supports dual interfaces, then it must capture automation exceptions through [IErrorInfo](https://msdn.microsoft.com/library/ms221233.aspx).
+ActiveX control containers must support OLE Automation exceptions. If a control container supports dual interfaces, then it must capture automation exceptions through [IErrorInfo](/windows/win32/api/oaidl/nn-oaidl-ierrorinfo).
 
 ## Related topics
 
@@ -44,10 +44,4 @@ ActiveX control containers must support OLE Automation exceptions. If a control 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

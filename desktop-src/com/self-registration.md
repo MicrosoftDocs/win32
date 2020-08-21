@@ -12,7 +12,7 @@ As component software continues to grow as a market, there will be more and more
 
 Self-registration is the standard means through which a server module can package its own registry operations, both registration and unregistration, into the module itself. When used with licensing handled through [**IClassFactory2**](/windows/desktop/api/OCIdl/nn-ocidl-iclassfactory2), a server can become an entirely self-contained module with no need for external installation programs or .reg files.
 
-Any self-registering module, DLL or EXE, should first include an "OleSelfRegister" string in the [StringFileInfo](https://docs.microsoft.com/windows/desktop/menurc/stringfileinfo-block) section of its version information resource, as shown here.
+Any self-registering module, DLL or EXE, should first include an "OleSelfRegister" string in the [StringFileInfo](/windows/desktop/menurc/stringfileinfo-block) section of its version information resource, as shown here.
 
 ``` syntax
 VS_VERSION_INFO VERSIONINFO 
@@ -44,13 +44,13 @@ VS_VERSION_INFO VERSIONINFO
 
 The existence of this data allows any interested party, such as an application that wishes to integrate this new component, to determine whether the server supports self-registration without having to load the DLL or EXE first.
 
-If the server is packaged in a DLL module, the DLL must export the functions [**DllRegisterServer**](https://msdn.microsoft.com/library/ms682162(v=VS.85).aspx) and [**DllUnregisterServer**](https://msdn.microsoft.com/library/ms691457(v=VS.85).aspx). Any application that wishes to instruct the server to register itself (that is, all its CLSIDs and type library IDs) can obtain a pointer to **DllRegisterServer** through the [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) function. Within **DllRegisterServer**, the DLL creates all its necessary registry entries, storing the correct path to the DLL for all [InprocServer32](inprocserver32.md) or [InprocHandler32](inprochandler32.md) entries.
+If the server is packaged in a DLL module, the DLL must export the functions [**DllRegisterServer**](/windows/win32/api/olectl/nf-olectl-dllregisterserver) and [**DllUnregisterServer**](/windows/win32/api/olectl/nf-olectl-dllunregisterserver). Any application that wishes to instruct the server to register itself (that is, all its CLSIDs and type library IDs) can obtain a pointer to **DllRegisterServer** through the [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) function. Within **DllRegisterServer**, the DLL creates all its necessary registry entries, storing the correct path to the DLL for all [InprocServer32](inprocserver32.md) or [InprocHandler32](inprochandler32.md) entries.
 
-When an application wishes to remove the component from the system, it should unregister that component by calling [**DllUnregisterServer**](https://msdn.microsoft.com/library/ms691457(v=VS.85).aspx). Within this call, the server removes exactly those entries it previously created in [**DllRegisterServer**](https://msdn.microsoft.com/library/ms682162(v=VS.85).aspx). The server should not blindly remove all entries for its classes because other software may have stored additional entries, such as a [TreatAs](treatas.md) key.
+When an application wishes to remove the component from the system, it should unregister that component by calling [**DllUnregisterServer**](/windows/win32/api/olectl/nf-olectl-dllunregisterserver). Within this call, the server removes exactly those entries it previously created in [**DllRegisterServer**](/windows/win32/api/olectl/nf-olectl-dllregisterserver). The server should not blindly remove all entries for its classes because other software may have stored additional entries, such as a [TreatAs](treatas.md) key.
 
-If the server is packaged in an EXE module, the application wishing to register the server launches the EXE server with the command-line argument **/RegServer** or **-RegServer** (case-insensitive). If the application wishes to unregister the server, it launches the EXE with the command-line argument **/UnregServer** or **-UnregServer**. The self-registering EXE detects these command-line arguments and invokes the same operations as a DLL would within [**DllRegisterServer**](https://msdn.microsoft.com/library/ms682162(v=VS.85).aspx)and [**DllUnregisterServer**](https://msdn.microsoft.com/library/ms691457(v=VS.85).aspx), respectively, registering its module path under [LocalServer32](localserver32.md) instead of **InprocServer32** or **InprocHandler32**.
+If the server is packaged in an EXE module, the application wishing to register the server launches the EXE server with the command-line argument **/RegServer** or **-RegServer** (case-insensitive). If the application wishes to unregister the server, it launches the EXE with the command-line argument **/UnregServer** or **-UnregServer**. The self-registering EXE detects these command-line arguments and invokes the same operations as a DLL would within [**DllRegisterServer**](/windows/win32/api/olectl/nf-olectl-dllregisterserver)and [**DllUnregisterServer**](/windows/win32/api/olectl/nf-olectl-dllunregisterserver), respectively, registering its module path under [LocalServer32](localserver32.md) instead of **InprocServer32** or **InprocHandler32**.
 
-The server must register the full path to the installation location of the DLL or EXE module for their respective **InprocServer32**, **InprocHandler32**, and **LocalServer32** keys in the registry. The module path is easily obtained through the [**GetModuleFileName**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea) function.
+The server must register the full path to the installation location of the DLL or EXE module for their respective **InprocServer32**, **InprocHandler32**, and **LocalServer32** keys in the registry. The module path is easily obtained through the [**GetModuleFileName**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea) function.
 
 ## Related topics
 
@@ -71,7 +71,3 @@ The server must register the full path to the installation location of the DLL o
  
 
  
-
-
-
-

@@ -30,7 +30,7 @@ Retrieves the minimum size required to display a full month in a month calendar 
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that will receive bounding rectangle information. This parameter must be a valid address and cannot be **NULL**.
+Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that will receive bounding rectangle information. This parameter must be a valid address and cannot be **NULL**.
 
 </dd> </dl>
 
@@ -40,7 +40,7 @@ Returns nonzero and *lParam* receives the applicable bounding information if suc
 
 ## Remarks
 
-The minimum required window size for a month calendar control depends on the currently selected font, control styles, system metrics, and regional settings. When an application changes anything that affects the minimum window size, or processes a [**WM\_SETTINGCHANGE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settingchange) message, it should send **MCM\_GETMINREQRECT** to determine the new minimum size.
+The minimum required window size for a month calendar control depends on the currently selected font, control styles, system metrics, and regional settings. When an application changes anything that affects the minimum window size, or processes a [**WM\_SETTINGCHANGE**](/windows/desktop/winmsg/wm-settingchange) message, it should send **MCM\_GETMINREQRECT** to determine the new minimum size.
 
 > [!Note]  
 > The rectangle returned by **MCM\_GETMINREQRECT** does not include the width of the "Today" string, if it is present. If the [**MCS\_NOTODAY**](month-calendar-control-styles.md) style is not set, your application should also retrieve the rectangle that defines the "Today" string width by sending a [**MCM\_GETMAXTODAYWIDTH**](mcm-getmaxtodaywidth.md) message. Use the larger of the two rectangles to ensure that the "Today" string is not clipped.
@@ -62,10 +62,4 @@ The **top** and **left** members of the structure pointed to by *lParam* will al
 
 
  
-
- 
-
-
-
-
 

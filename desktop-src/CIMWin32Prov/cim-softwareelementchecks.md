@@ -65,7 +65,7 @@ Data type: **CIM\_Check**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (FALSE), [**Weak**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (0), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (FALSE), [**Weak**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Reference to the check.
@@ -81,7 +81,7 @@ Data type: **CIM\_SoftwareElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Reference to the element.
@@ -138,9 +138,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

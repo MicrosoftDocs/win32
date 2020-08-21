@@ -49,7 +49,7 @@ function square(x){ return x*x; }
 
 Notice that the scripting languages, unlike the programming languages, are weakly typed. In other words, you do not have to specify the data type of a parameter or return value when you declare a function. Instead, the variables are automatically cast to the appropriate data type. In the case of VBScript, all variables are of the same data type, **Variant**.
 
-The JavaScript and JScript syntax for square is the same. JScript is largely compatible with JavaScript. However, JScript includes some objects not currently supported by JavaScript, such as **ActiveXObject**, **Enumerator**, **Error**, **Global**, and **VBArray**. For more information about these objects, see the [JScript Language Reference](https://msdn.microsoft.com/library/ye921ye4.aspx).
+The JavaScript and JScript syntax for square is the same. JScript is largely compatible with JavaScript. However, JScript includes some objects not currently supported by JavaScript, such as **ActiveXObject**, **Enumerator**, **Error**, **Global**, and **VBArray**. For more information about these objects, see the [JScript Language Reference](/previous-versions/visualstudio/visual-studio-2010/ye921ye4(v=vs.100)).
 
 On the surface, JavaScript and JScript syntax resembles Java syntax. This similarity is only superficial. The Java language was developed independently from both JavaScript and JScript and is not related to either.
 
@@ -60,7 +60,3 @@ For information on using COM objects in scripting languages, see [Scripting with
  
 
  
-
-
-
-

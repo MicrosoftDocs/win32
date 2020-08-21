@@ -29,9 +29,9 @@ Sets the text in the specified part of a status window.
 *wParam* 
 </dt> <dd>
 
-The [**LOBYTE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632658(v=vs.85)) of the low-order word specifies the zero-based index of the part to set. If the **LOBYTE** is set to SB\_SIMPLEID, the status window is assumed to be a simple mode status bar; that is, a status bar with only one part.
+The [**LOBYTE**](/previous-versions/windows/desktop/legacy/ms632658(v=vs.85)) of the low-order word specifies the zero-based index of the part to set. If the **LOBYTE** is set to SB\_SIMPLEID, the status window is assumed to be a simple mode status bar; that is, a status bar with only one part.
 
-The [**HIBYTE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632656(v=vs.85)) of the low-order word specifies the type of the drawing operation. This parameter can be one of the following values.
+The [**HIBYTE**](/previous-versions/windows/desktop/legacy/ms632656(v=vs.85)) of the low-order word specifies the type of the drawing operation. This parameter can be one of the following values.
 
 The high-order word of *wParam* is ignored.
 
@@ -100,7 +100,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Remarks
 
-The message invalidates the portion of the window that has changed, causing it to display the new text when the window next receives the [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message.
+The message invalidates the portion of the window that has changed, causing it to display the new text when the window next receives the [**WM\_PAINT**](/windows/desktop/gdi/wm-paint) message.
 
 Normal windows display text left-to-right (LTR). Windows can be *mirrored* to display languages such as Hebrew or Arabic that read right-to-left (RTL). If SBT\_RTLREADING is set, the *lParam* string will read in the opposite direction from the text in the parent window.
 
@@ -125,10 +125,4 @@ Normal windows display text left-to-right (LTR). Windows can be *mirrored* to di
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

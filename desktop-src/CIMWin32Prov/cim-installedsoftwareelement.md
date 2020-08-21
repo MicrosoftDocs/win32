@@ -61,7 +61,7 @@ Data type: **CIM\_SoftwareElement**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (FALSE)
+Qualifiers: [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (0), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (FALSE)
 </dt> </dl>
 
 Reference to the software element that is installed on the computer system.
@@ -77,7 +77,7 @@ Data type: **CIM\_ComputerSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (FALSE)
+Qualifiers: [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (0), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (FALSE)
 </dt> </dl>
 
 Reference to the computer system hosting a particular software element.
@@ -105,9 +105,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

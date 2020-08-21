@@ -61,7 +61,7 @@ Data type: **CIM\_SoftwareFeature**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (0), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_SoftwareFeature**](cim-softwarefeature.md) that describes the antecedent software feature.
@@ -77,7 +77,7 @@ Data type: **CIM\_ServiceAccessPoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (0), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (0), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_ServiceAccessPoint**](cim-serviceaccesspoint.md) that describes the dependent service access point.
@@ -114,9 +114,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -14,7 +14,7 @@ Pools are configured and maintained on a per-component basis. A pool consists of
 
 When the application starts, the pool will be populated up to the minimum level that you have administratively specified, as long as object creation succeeds. As client requests for the component come in, they are satisfied on a first-come first-served basis from the pool. If no pooled objects are available and the pool is not yet at its specified maximum level, a new object is created and activated for the client.
 
-When the pool reaches its maximum level, client requests are queued and will receive the first available object from the pool. The number of objects, including both activated and deactivated, will never exceed the maximum pool value. Object creation requests will time out after an administratively specified period so that you can control how long clients will wait for object creation. Upon a time-out failure, the client will get back the error E\_TIMEOUT from [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
+When the pool reaches its maximum level, client requests are queued and will receive the first available object from the pool. The number of objects, including both activated and deactivated, will never exceed the maximum pool value. Object creation requests will time out after an administratively specified period so that you can control how long clients will wait for object creation. Upon a time-out failure, the client will get back the error E\_TIMEOUT from [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
 
 Whenever possible, COM+ will attempt to reuse an object after a client releases it, until the pool reaches its maximum level. The object is responsible for monitoring its state to determine whether it can be reused and should return an appropriate value for [**IObjectControl::CanBePooled**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontrol-canbepooled).
 
@@ -50,6 +50,3 @@ For details about how to configure components to be pooled, see [Configuring a C
  
 
  
-
-
-

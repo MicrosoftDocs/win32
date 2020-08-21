@@ -25,9 +25,9 @@ An application can resize a rich edit control as needed so that it is always the
 
 ### Automatically Resize a Rich Edit Control
 
-When processing the [EN\_REQUESTRESIZE](en-requestresize.md) notification code, an application should resize the control to the dimensions in the specified [**REQRESIZE**](/windows/desktop/api/Richedit/ns-richedit-reqresize) structure. An application might also move any information that is near the control to accommodate the control's change in height. To resize the control, you can use the [**SetWindowPos**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos) function.
+When processing the [EN\_REQUESTRESIZE](en-requestresize.md) notification code, an application should resize the control to the dimensions in the specified [**REQRESIZE**](/windows/desktop/api/Richedit/ns-richedit-reqresize) structure. An application might also move any information that is near the control to accommodate the control's change in height. To resize the control, you can use the [**SetWindowPos**](/windows/desktop/api/winuser/nf-winuser-setwindowpos) function.
 
-You can force a bottomless rich edit control to send an [EN\_REQUESTRESIZE](en-requestresize.md) notification code by using the [**EM\_REQUESTRESIZE**](em-requestresize.md) message. This message can be useful when processing the [**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size) message.
+You can force a bottomless rich edit control to send an [EN\_REQUESTRESIZE](en-requestresize.md) notification code by using the [**EM\_REQUESTRESIZE**](em-requestresize.md) message. This message can be useful when processing the [**WM\_SIZE**](/windows/desktop/winmsg/wm-size) message.
 
 ## Remarks
 
@@ -46,7 +46,3 @@ To receive [EN\_REQUESTRESIZE](en-requestresize.md) notification codes, you must
  
 
  
-
-
-
-

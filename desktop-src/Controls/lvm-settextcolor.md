@@ -30,7 +30,7 @@ Sets the text color of a list-view control. You can send this message explicitly
 *lParam* 
 </dt> <dd>
 
-A [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) that specifies the new text color.
+A [**COLORREF**](/windows/desktop/gdi/colorref) that specifies the new text color.
 
 </dd> </dl>
 
@@ -51,10 +51,4 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 
  
-
- 
-
-
-
-
 

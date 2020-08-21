@@ -26,8 +26,8 @@ The following table shows the various actions that COM+ can take, in order of pr
 
 | Function call                                                  | Parameter                                                      | COM+ action                                                                                                                                                                                    |
 |----------------------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CoGetObject**](https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cogetobject) or **GetObject**<br/> | Partition moniker (includes partition ID and CLSID)<br/> | Uses the partition ID specified in the partition moniker.<br/>                                                                                                                           |
-| [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance)<br/>        | CLSID<br/>                                               | Uses either the partition ID of the user identity's default partition or the partition ID that was added to the context during a previous component activation in the same process.<br/> |
+| [**CoGetObject**](/windows/desktop/api/objbase/nf-objbase-cogetobject) or **GetObject**<br/> | Partition moniker (includes partition ID and CLSID)<br/> | Uses the partition ID specified in the partition moniker.<br/>                                                                                                                           |
+| [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance)<br/>        | CLSID<br/>                                               | Uses either the partition ID of the user identity's default partition or the partition ID that was added to the context during a previous component activation in the same process.<br/> |
 
 
 
@@ -52,7 +52,7 @@ HRESULT CoGetObject(
 
 
 
-The following example shows a snippet of C++ code, in which a partition moniker is being used as an argument to the [**CoGetObject**](https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cogetobject) function:
+The following example shows a snippet of C++ code, in which a partition moniker is being used as an argument to the [**CoGetObject**](/windows/desktop/api/objbase/nf-objbase-cogetobject) function:
 
 
 ```C++
@@ -86,11 +86,11 @@ Set objCLSID1 = GetObject( _
 
 ## Use of Default Mapping
 
-When the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) function is used to activate a component, using the component's CLSID, COM+ uses the default user-identity mapping that is, the partition set that the user is mapped to within Active Directory. However, if the user is not mapped to a partition set within Active Directory, the Global Partition is selected.
+When the [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) function is used to activate a component, using the component's CLSID, COM+ uses the default user-identity mapping that is, the partition set that the user is mapped to within Active Directory. However, if the user is not mapped to a partition set within Active Directory, the Global Partition is selected.
 
 ## Use of Partition IDs and Object Context
 
-One of the five properties assigned to a new partition is the partition ID. When the client program calls the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) function to instantiate an object, the partition ID is added to the context. Using the partition ID from the context to locate the partition is important because it ensures that after a chain of activations has begun, the partition ID remains the same unless it is changed explicitly through a partition moniker.
+One of the five properties assigned to a new partition is the partition ID. When the client program calls the [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) function to instantiate an object, the partition ID is added to the context. Using the partition ID from the context to locate the partition is important because it ensures that after a chain of activations has begun, the partition ID remains the same unless it is changed explicitly through a partition moniker.
 
 For additional information on locating partitions during activation, see [COM+ Queued Components and Partitions](com--queued-components-and-partitions.md).
 
@@ -127,9 +127,4 @@ The size of the cache and the expiration time for the cache entries are set via 
 </dt> </dl>
 
  
-
- 
-
-
-
 

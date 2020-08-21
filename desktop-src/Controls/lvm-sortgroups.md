@@ -57,14 +57,8 @@ Returns 1 if successful, or 0 otherwise.
 
 <dl> <dt>
 
-[**LVGroupCompare**](https://msdn.microsoft.com/library/Bb775142(v=VS.85).aspx)
+[**LVGroupCompare**](/windows/win32/api/commctrl/nc-commctrl-pfnlvgroupcompare)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

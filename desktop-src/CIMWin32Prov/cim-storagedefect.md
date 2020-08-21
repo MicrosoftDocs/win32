@@ -61,7 +61,7 @@ Data type: **CIM\_StorageError**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Weak**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Weak**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Reference to the error object, which defines the starting and ending addresses that are mapped out of the storage extent.
@@ -77,7 +77,7 @@ Data type: **CIM\_StorageExtent**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [**Min**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 Reference to the storage extent on which the errors occurred.
@@ -105,9 +105,4 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
  
-
- 
-
-
-
 

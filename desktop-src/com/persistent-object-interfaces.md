@@ -16,9 +16,9 @@ The following persistent object interfaces are currently defined:
 -   [**IPersistStreamInit**](/windows/desktop/api/OCIdl/nn-ocidl-ipersiststreaminit)
 -   [**IPersistStorage**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage)
 -   [**IPersistFile**](/windows/desktop/api/ObjIdl/nn-objidl-ipersistfile)
--   [**IPersistMoniker**](https://msdn.microsoft.com/library/ms775042(v=VS.85).aspx)
--   [IPersistMemory](https://msdn2.microsoft.com/library/Aa768210.aspx)
--   [IPersistPropertyBag](https://msdn2.microsoft.com/library/Aa768210.aspx)
+-   [**IPersistMoniker**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775042(v=vs.85))
+-   [IPersistMemory](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768210(v=vs.85))
+-   [IPersistPropertyBag](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768210(v=vs.85))
 
 Implementers choose which persistent object interfaces an object supports depending on how the object is to be used. By not supporting any persistent object interfaces, the implementer is effectively saying, "This object's state cannot be persistently stored." By supporting one or more persistent object interfaces, the implementer is effectively saying, "This object's state can be persistently stored in one or more data store mediums."
 
@@ -30,14 +30,14 @@ For example, the following table lists several object types that allow support f
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Monikers<br/>                 | [**IPersistStream**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststream)<br/>                                                                                                                                                      |
 | OLE embeddable objects<br/>   | [**IPersistStorage**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage), [**IPersistFile**](/windows/desktop/api/ObjIdl/nn-objidl-ipersistfile)<br/>                                                                                                              |
-| ActiveX controls<br/>         | [**IPersistStreamInit**](/windows/desktop/api/OCIdl/nn-ocidl-ipersiststreaminit), [**IPersistStorage**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage), IPersistMemory, IPersistPropertyBag, [**IPersistMoniker**](https://msdn.microsoft.com/library/ms775042(v=VS.85).aspx)<br/> |
+| ActiveX controls<br/>         | [**IPersistStreamInit**](/windows/desktop/api/OCIdl/nn-ocidl-ipersiststreaminit), [**IPersistStorage**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage), IPersistMemory, IPersistPropertyBag, [**IPersistMoniker**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775042(v=vs.85))<br/> |
 | ActiveX document objects<br/> | [**IPersistStorage**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage), [**IPersistFile**](/windows/desktop/api/ObjIdl/nn-objidl-ipersistfile)<br/>                                                                                                              |
 
 
 
  
 
-Client implementers can also choose which persistent object interfaces the client can use. The interfaces a client uses is usually determined by where the client can store its own data. A client that can store its data only in a flat file will probably use only [**IPersistStreamInit**](/windows/desktop/api/OCIdl/nn-ocidl-ipersiststreaminit), [**IPersistMoniker**](https://msdn.microsoft.com/library/ms775042(v=VS.85).aspx), and IPersistPropertyBag. (**IPersistStreamInit** can replace [**IPersistStream**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststream) in most applications, because it contains that definition and adds an initialization method.) A client that can save its data to a structured storage file will, in addition, use [**IPersistStorage**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage).
+Client implementers can also choose which persistent object interfaces the client can use. The interfaces a client uses is usually determined by where the client can store its own data. A client that can store its data only in a flat file will probably use only [**IPersistStreamInit**](/windows/desktop/api/OCIdl/nn-ocidl-ipersiststreaminit), [**IPersistMoniker**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775042(v=vs.85)), and IPersistPropertyBag. (**IPersistStreamInit** can replace [**IPersistStream**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststream) in most applications, because it contains that definition and adds an initialization method.) A client that can save its data to a structured storage file will, in addition, use [**IPersistStorage**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage).
 
 ## Related topics
 
@@ -47,10 +47,4 @@ Client implementers can also choose which persistent object interfaces the clien
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

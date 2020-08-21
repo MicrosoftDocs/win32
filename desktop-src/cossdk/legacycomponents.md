@@ -22,7 +22,7 @@ This collection supports the [**Remove**](/windows/desktop/api/ComAdmin/nf-comad
 
 ## Members
 
-The **LegacyComponents** collection inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **LegacyComponents** collection inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Related Collections
 
@@ -432,6 +432,3 @@ A component that you are willing to trust with Unrestricted access should have t
  
 
  
-
-
-

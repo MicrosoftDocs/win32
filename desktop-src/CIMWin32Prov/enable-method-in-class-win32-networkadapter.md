@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).
+Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).
 
 ## Remarks
 
@@ -43,7 +43,7 @@ You may experience difficulty using this method if your application does not adm
 
 ## Examples
 
-The following Visual Basic Script example enables the first network adapter and shows the status of the **NetEnabled** property. For more information, see [**SWbemObjectSet.ItemIndex**](https://docs.microsoft.com/windows/desktop/wmisdk/swbemobjectset-itemindex).
+The following Visual Basic Script example enables the first network adapter and shows the status of the **NetEnabled** property. For more information, see [**SWbemObjectSet.ItemIndex**](/windows/desktop/wmisdk/swbemobjectset-itemindex).
 
 
 ```VB
@@ -91,16 +91,11 @@ WScript.Echo "NetEnabled= " & colAdapters.ItemIndex(0).NetEnabled
 [**Win32\_NetworkAdapter**](win32-networkadapter.md)
 </dt> <dt>
 
-[WMI Tasks: Networking](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--networking)
+[WMI Tasks: Networking](/windows/desktop/WmiSdk/wmi-tasks--networking)
 </dt> <dt>
 
-[IPv6 and IPv4 Support in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi)
+[IPv6 and IPv4 Support in WMI](/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi)
 </dt> </dl>
 
  
-
- 
-
-
-
 

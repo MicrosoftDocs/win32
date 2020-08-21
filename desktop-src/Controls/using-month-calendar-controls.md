@@ -16,7 +16,7 @@ This section provides information and example code for implementing month calend
 
 | Topic                                                                                    | Description                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [How to Create a Month Calendar Control](create-a-month-calendar-control.md)<br/> | This topic demonstrates how to dynamically create a month calendar control by using the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function. <br/>                              |
+| [How to Create a Month Calendar Control](create-a-month-calendar-control.md)<br/> | This topic demonstrates how to dynamically create a month calendar control by using the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function. <br/>                              |
 | [How to Set Day States](set-day-states.md)<br/>                                   | This topic demonstrates how to set day state information. The month calendar control uses day state information to determine how it draws specific days within the control.<br/> |
 
 
@@ -24,10 +24,4 @@ This section provides information and example code for implementing month calend
  
 
  
-
- 
-
-
-
-
 

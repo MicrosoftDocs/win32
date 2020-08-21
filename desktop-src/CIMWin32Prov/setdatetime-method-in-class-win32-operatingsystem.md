@@ -18,9 +18,9 @@ api_location:
 
 # SetDateTime method of the Win32\_OperatingSystem class
 
-The **SetDateTime** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method sets the current system time on the computer.
+The **SetDateTime** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method sets the current system time on the computer.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -46,7 +46,7 @@ Value of the current time.
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -78,19 +78,14 @@ The calling process must have the SE\_SYSTEMTIME\_NAME privilege.
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_OperatingSystem**](win32-operatingsystem.md)
 </dt> <dt>
 
-[WMI Tasks: Desktop Management](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--desktop-management)
+[WMI Tasks: Desktop Management](/windows/desktop/WmiSdk/wmi-tasks--desktop-management)
 </dt> </dl>
 
  
-
- 
-
-
-
 

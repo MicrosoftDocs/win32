@@ -12,7 +12,7 @@ This topic demonstrates how to use an owner-drawn combo box. The C++ code exampl
 
 ![screen shot showing a dialog box with a list box and an expanded drop-down list box showing an icon and label for each item](images/cscbx-01.png)
 
-The dialog box also contains a list box (IDLIST) and two buttons: **OK** (IDOK) and **Cancel** (IDCANCEL). The IDOK and IDCANCEL constants are defined by the SDK header files. The constant IDLIST is defined in the application's header file, as is the control identifier, IDCOMBO. For more information about dialog boxes, see [Dialog Boxes](https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes).
+The dialog box also contains a list box (IDLIST) and two buttons: **OK** (IDOK) and **Cancel** (IDCANCEL). The IDOK and IDCANCEL constants are defined by the SDK header files. The constant IDLIST is defined in the application's header file, as is the control identifier, IDCOMBO. For more information about dialog boxes, see [Dialog Boxes](/windows/desktop/dlgbox/dialog-boxes).
 
 ## What you need to know
 
@@ -29,7 +29,7 @@ The dialog box also contains a list box (IDLIST) and two buttons: **OK** (IDOK) 
 
 ### Step 1: Create the Owner-Drawn Dialog Box
 
-The code example uses the [**DialogBox**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxa) function to create a modal dialog box. The dialog box template, IDD\_SQMEAL, defines the window styles, buttons, and control identifiers for the combo box. The combo box in this example uses the [**CBS\_DROPDOWNLIST**](combo-box-styles.md), [**CBS\_OWNERDRAWFIXED**](combo-box-styles.md), [**CBS\_SORT**](combo-box-styles.md), [**CBS\_HASSTRINGS**](combo-box-styles.md), [**WS\_VSCROLL**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles), and [**WS\_TABSTOP**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) styles.
+The code example uses the [**DialogBox**](/windows/desktop/api/winuser/nf-winuser-dialogboxa) function to create a modal dialog box. The dialog box template, IDD\_SQMEAL, defines the window styles, buttons, and control identifiers for the combo box. The combo box in this example uses the [**CBS\_DROPDOWNLIST**](combo-box-styles.md), [**CBS\_OWNERDRAWFIXED**](combo-box-styles.md), [**CBS\_SORT**](combo-box-styles.md), [**CBS\_HASSTRINGS**](combo-box-styles.md), [**WS\_VSCROLL**](/windows/desktop/winmsg/window-styles), and [**WS\_TABSTOP**](/windows/desktop/winmsg/window-styles) styles.
 
 
 ```C++
@@ -41,7 +41,7 @@ DialogBox(hInst, MAKEINTRESOURCE(IDD_SQMEAL),
 
 ### Step 2: Process the WM\_INITDIALOG and WM\_DESTROY messages in a dialog box.
 
-When you use a combo box in a dialog box, you usually respond to a [**WM\_INITDIALOG**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog) message by initializing the combo box. The application loads the bitmaps used for the owner-drawn combo box and then calls the application-defined `InitGroupList` function to initialize the combo box. It also selects the first list item in the combo box and then calls the application-defined `InitFoodList` function to initialize the list box.
+When you use a combo box in a dialog box, you usually respond to a [**WM\_INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog) message by initializing the combo box. The application loads the bitmaps used for the owner-drawn combo box and then calls the application-defined `InitGroupList` function to initialize the combo box. It also selects the first list item in the combo box and then calls the application-defined `InitFoodList` function to initialize the list box.
 
 In the example, the owner-drawn combo box is a drop-down list box that contains the names of each of the four food groups. `InitGroupList` adds the name of each food group , and uses the [**CB\_SETITEMDATA**](cb-setitemdata.md) message to associate a bitmap handle with each list item that identifies a food group.
 
@@ -71,7 +71,7 @@ case WM_INITDIALOG:
 
 
 
-When it receives the [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy) message, the application deletes the bitmaps in the owner-drawn combo box.
+When it receives the [**WM\_DESTROY**](/windows/desktop/winmsg/wm-destroy) message, the application deletes the bitmaps in the owner-drawn combo box.
 
 
 ```C++
@@ -193,15 +193,15 @@ case WM_DRAWITEM:
 
 ### Step 5: Process the WM\_COMMAND message.
 
-When an event occurs in a dialog box control, the control notifies the dialog box procedure by means of a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message. The example processes notification messages from the combo box, the list box, and the **OK** button. The control identifier is in the low-order word of *wParam*, and the notification code is in the high-order word of *wParam*.
+When an event occurs in a dialog box control, the control notifies the dialog box procedure by means of a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message. The example processes notification messages from the combo box, the list box, and the **OK** button. The control identifier is in the low-order word of *wParam*, and the notification code is in the high-order word of *wParam*.
 
 If the control identifier is IDCOMBO, an event has occurred in the combo box. In response, the dialog box procedure ignores all other combo box events except [**CBN\_SELENDOK**](cbn-selendok.md), which indicates that a selection was made, the drop down list box was closed, and the changes made should be accepted. The dialog box procedure calls `InitFoodList` to reset the contents of the list box and to add the names of the current selections in the drop-down list box.
 
 If the control identifier is IDLIST, an event has occurred in the list box. This causes the dialog box procedure to ignore all list box events except [**LBN\_DBLCLK**](lbn-dblclk.md), which indicates that the user has double-clicked a list item. This event is processed in the same way as if an **OK** button had been chosen.
 
-If the control identifier is IDOK, the user has chosen the **OK** button. In response, the dialog box procedure inserts the name of the selected food into the application's multi-line edit control, then calls the [**EndDialog**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddialog) function to close the dialog box.
+If the control identifier is IDOK, the user has chosen the **OK** button. In response, the dialog box procedure inserts the name of the selected food into the application's multi-line edit control, then calls the [**EndDialog**](/windows/desktop/api/winuser/nf-winuser-enddialog) function to close the dialog box.
 
-If the control identifier is IDCANCEL, the user has clicked the **Cancel** button. In response, the dialog box procedure calls [**EndDialog**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddialog) to close the dialog box.
+If the control identifier is IDCANCEL, the user has clicked the **Cancel** button. In response, the dialog box procedure calls [**EndDialog**](/windows/desktop/api/winuser/nf-winuser-enddialog) to close the dialog box.
 
 
 ```C++
@@ -587,7 +587,3 @@ void DeleteIconBitmaps(void)
  
 
  
-
-
-
-

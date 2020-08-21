@@ -53,12 +53,9 @@ The following is a table of WMI management classes.
 
 <dl> <dt>
 
-[Win32 Classes](https://msdn.microsoft.com/library/Aa394388(v=VS.85).aspx)
+[Win32 Classes](./win32-provider.md)
 </dt> </dl>
 
  
 
  
-
-
-

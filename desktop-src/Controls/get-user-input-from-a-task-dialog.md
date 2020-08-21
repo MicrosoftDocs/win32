@@ -27,7 +27,7 @@ To complete a task, users submit the task details to the application by configur
 
 You can identify the button that was clicked by examining the *pnButton* parameter of the calling function. You can also identify the selected radio button from the *pnRadioButton* parameter of [**TaskDialogIndirect**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialogindirect), and the state of the verification check box from the *pfVerificationFlagChecked* parameter.
 
-Clicks on buttons and hyperlinks are received by the [*TaskDialogCallbackProc*](https://msdn.microsoft.com/library/Bb760542(v=VS.85).aspx) function in the form of [TDN\_BUTTON\_CLICKED](tdn-button-clicked.md) and [TDN\_HYPERLINK\_CLICKED](tdn-hyperlink-clicked.md) notifications. If your callback function returns S\_OK after handling a button notification, the task dialog closes and the command identifier of the button is returned in *pnButton*. If you return S\_FALSE, or do not have a callback function, the task dialog remains open.
+Clicks on buttons and hyperlinks are received by the [*TaskDialogCallbackProc*](/windows/win32/api/commctrl/nc-commctrl-pftaskdialogcallback) function in the form of [TDN\_BUTTON\_CLICKED](tdn-button-clicked.md) and [TDN\_HYPERLINK\_CLICKED](tdn-hyperlink-clicked.md) notifications. If your callback function returns S\_OK after handling a button notification, the task dialog closes and the command identifier of the button is returned in *pnButton*. If you return S\_FALSE, or do not have a callback function, the task dialog remains open.
 
 ## Related topics
 
@@ -39,7 +39,3 @@ Clicks on buttons and hyperlinks are received by the [*TaskDialogCallbackProc*](
  
 
  
-
-
-
-

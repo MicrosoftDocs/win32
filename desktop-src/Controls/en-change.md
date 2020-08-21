@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # EN\_CHANGE notification code
 
-Sent when the user has taken an action that may have altered text in an edit control. Unlike the [EN\_UPDATE](en-update.md) notification code, this notification code is sent after the system updates the screen. The parent window of the edit control receives this notification code through a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message.
+Sent when the user has taken an action that may have altered text in an edit control. Unlike the [EN\_UPDATE](en-update.md) notification code, this notification code is sent after the system updates the screen. The parent window of the edit control receives this notification code through a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message.
 
 
 ```C++
@@ -37,7 +37,7 @@ EN_CHANGE
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the edit control. The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
+The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the edit control. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
 
 </dd> <dt>
 
@@ -52,7 +52,7 @@ A handle to the edit control.
 
 **Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. To receive EN\_CHANGE notification codes, specify [**ENM\_CHANGE**](rich-edit-control-event-mask-flags.md) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
-The EN\_CHANGE notification code is not sent when the [**ES\_MULTILINE**](edit-control-styles.md) style is used and the text is sent through [**WM\_SETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settext).
+The EN\_CHANGE notification code is not sent when the [**ES\_MULTILINE**](edit-control-styles.md) style is used and the text is sent through [**WM\_SETTEXT**](/windows/desktop/winmsg/wm-settext).
 
 ## Requirements
 
@@ -79,14 +79,8 @@ The EN\_CHANGE notification code is not sent when the [**ES\_MULTILINE**](edit-c
 **Other Resources**
 </dt> <dt>
 
-[**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command)
+[**WM\_COMMAND**](/windows/desktop/menurc/wm-command)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

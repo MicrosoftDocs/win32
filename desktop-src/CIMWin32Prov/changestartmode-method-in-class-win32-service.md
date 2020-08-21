@@ -18,9 +18,9 @@ api_location:
 
 # ChangeStartMode method of the Win32\_Service class
 
-The **ChangeStartMode** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method modifies the start mode of a [**Win32\_Service**](win32-service.md).
+The **ChangeStartMode** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method modifies the start mode of a [**Win32\_Service**](win32-service.md).
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -101,7 +101,7 @@ Service that can no longer be started.
 
 ## Return value
 
-Returns one of the values listed in the following list or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns one of the values listed in the following list or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -372,19 +372,14 @@ ELSE
 
 <dl> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
 [**Win32\_Service**](win32-service.md)
 </dt> <dt>
 
-[WMI Tasks: Services](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--services)
+[WMI Tasks: Services](/windows/desktop/WmiSdk/wmi-tasks--services)
 </dt> </dl>
 
  
-
- 
-
-
-
 

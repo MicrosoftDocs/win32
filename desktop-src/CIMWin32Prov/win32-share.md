@@ -28,7 +28,7 @@ api_location:
 
 # Win32\_Share class
 
-The **Win32\_Share** class represents a shared resource on a computer system running Windows. This may be a disk drive, printer, interprocess communication, or other sharable device. For more information about retrieving WMI classes, see [Retrieving a Class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx).
+The **Win32\_Share** class represents a shared resource on a computer system running Windows. This may be a disk drive, printer, interprocess communication, or other sharable device. For more information about retrieving WMI classes, see [Retrieving a Class](../wmisdk/retrieving-a-class.md).
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -90,7 +90,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/Aa393651(v=VS.85).aspx)
+Qualifiers: [**DEPRECATED**](../wmisdk/standard-wmi-qualifiers.md)
 </dt> </dl>
 
 This property is obsolete and is no longer used. Use the [**Win32\_Share.GetAccessMask**](getaccessmask-method-in-class-win32-share.md) method instead. The value of the **AccessMask** property is set to **null** by WMI. For more information about setting access when a share is created, see the [**Create**](create-method-in-class-win32-share.md) method.
@@ -106,7 +106,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://msdn.microsoft.com/library/Bb525410(v=VS.85).aspx)\|shi502\_max\_uses")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](/windows/win32/api/lmshare/ns-lmshare-share_info_502)\|shi502\_max\_uses")
 </dt> </dl>
 
 Number of concurrent users for this resource has been limited. If **True**, the value in the **MaximumAllowed** property is ignored.
@@ -122,7 +122,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Caption")
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (64), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Caption")
 </dt> </dl>
 
 A short textual description of the object.
@@ -140,7 +140,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Description")
+Qualifiers: [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Description")
 </dt> </dl>
 
 A textual description of the object.
@@ -158,7 +158,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Install Date")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("MIF.DMTF\|ComponentID\|001.5"), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Install Date")
 </dt> </dl>
 
 Indicates when the object was installed. Lack of a value does not indicate that the object is not installed.
@@ -176,7 +176,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://msdn.microsoft.com/library/Bb525410(v=VS.85).aspx)\|shi502\_max\_uses")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](/windows/win32/api/lmshare/ns-lmshare-share_info_502)\|shi502\_max\_uses")
 </dt> </dl>
 
 Limit on the maximum number of users allowed to use this resource concurrently. The value is only valid if the **AllowMaximum** property is set to **FALSE**.
@@ -192,7 +192,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Name"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_1**](https://msdn.microsoft.com/library/Bb525407(v=VS.85).aspx)\|shi1\_netname")
+Qualifiers: [**key**](../wmisdk/key-qualifier.md), [**Override**](../wmisdk/standard-qualifiers.md) ("Name"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_1**](/windows/win32/api/lmshare/ns-lmshare-share_info_1)\|shi1\_netname")
 </dt> </dl>
 
 Alias given to a path set up as a share on a computer system running Windows.
@@ -210,7 +210,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://msdn.microsoft.com/library/Bb525410(v=VS.85).aspx)\|shi502\_path")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](/windows/win32/api/lmshare/ns-lmshare-share_info_502)\|shi502\_path")
 </dt> </dl>
 
 Local path of the Windows share.
@@ -228,7 +228,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (10), [**DisplayName**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Status")
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (10), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Status")
 </dt> </dl>
 
 String that indicates the current status of the object. Operational and non-operational status can be defined. Operational status can include "OK", "Degraded", and "Pred Fail". "Pred Fail" indicates that an element is functioning properly, but is predicting a failure (for example, a SMART-enabled hard disk drive).
@@ -336,7 +336,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](https://msdn.microsoft.com/library/Bb525410(v=VS.85).aspx)\|shi502\_type")
+Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API\|Network Management Structures\|[**SHARE\_INFO\_502**](/windows/win32/api/lmshare/ns-lmshare-share_info_502)\|shi502\_type")
 </dt> </dl>
 
 Type of resource being shared. Types include: disk drives, print queues, interprocess communications (IPC), and general devices.
@@ -473,16 +473,12 @@ Next
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](./operating-system-classes.md)
 </dt> <dt>
 
-[WMI Tasks: Files and Folders](https://msdn.microsoft.com/library/Aa394594(v=VS.85).aspx)
+[WMI Tasks: Files and Folders](../wmisdk/wmi-tasks--files-and-folders.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

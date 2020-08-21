@@ -112,7 +112,7 @@ The table below describes optional methods; note that the method must still exis
 |---------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ParseDisplayName**](/windows/desktop/api/OleIdl/nf-oleidl-iparsedisplayname-parsedisplayname)<br/> | Only if linking to controls or other embeddings in the container is supported, as this is necessary for moniker binding.<br/>                                                                                                                  |
 | [**LockContainer**](/windows/desktop/api/OleIdl/nf-oleidl-iolecontainer-lockcontainer)<br/>           | As for ParseDisplayName<br/>                                                                                                                                                                                                                   |
-| [**EnumObjects**](/windows/desktop/api/OleIdl/nf-oleidl-iolecontainer-enumobjects)<br/>               | Returns all ActiveX controls through an enumerator with [**IEnumUnknown**](https://msdn.microsoft.com/library/ms683764(v=VS.85).aspx), but not necessarily all objects (because there's no guarantee that all objects are ActiveX controls; some may be regular Windows controls).<br/> |
+| [**EnumObjects**](/windows/desktop/api/OleIdl/nf-oleidl-iolecontainer-enumobjects)<br/>               | Returns all ActiveX controls through an enumerator with [**IEnumUnknown**](/windows/win32/api/objidlbase/nn-objidlbase-ienumunknown), but not necessarily all objects (because there's no guarantee that all objects are ActiveX controls; some may be regular Windows controls).<br/> |
 
 
 
@@ -126,10 +126,4 @@ The table below describes optional methods; note that the method must still exis
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

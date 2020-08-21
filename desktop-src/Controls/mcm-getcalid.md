@@ -40,7 +40,7 @@ Must be zero.
 
 ## Return value
 
-ID of the current calendar. One of the [Calendar Identifiers](https://docs.microsoft.com/windows/desktop/Intl/calendar-identifiers) constants.
+ID of the current calendar. One of the [Calendar Identifiers](/windows/desktop/Intl/calendar-identifiers) constants.
 
 ## Requirements
 
@@ -55,10 +55,4 @@ ID of the current calendar. One of the [Calendar Identifiers](https://docs.micro
 
 
  
-
- 
-
-
-
-
 

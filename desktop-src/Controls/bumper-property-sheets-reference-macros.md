@@ -36,8 +36,8 @@ ms.date: 05/31/2018
 -   [**PropSheet\_SetCurSel**](/windows/desktop/api/Prsht/nf-prsht-propsheet_setcursel)
 -   [**PropSheet\_SetCurSelByID**](/windows/desktop/api/Prsht/nf-prsht-propsheet_setcurselbyid)
 -   [**PropSheet\_SetFinishText**](/windows/desktop/api/Prsht/nf-prsht-propsheet_setfinishtext)
--   [**PropSheet\_SetHeaderBitmap**](https://msdn.microsoft.com/library/Bb760787(v=VS.85).aspx)
--   [**PropSheet\_SetHeaderBitmapResource**](https://msdn.microsoft.com/library/Bb760789(v=VS.85).aspx)
+-   [**PropSheet\_SetHeaderBitmap**](/previous-versions/windows/desktop/legacy/bb760787(v=vs.85))
+-   [**PropSheet\_SetHeaderBitmapResource**](/previous-versions/windows/desktop/legacy/bb760789(v=vs.85))
 -   [**PropSheet\_SetHeaderSubTitle**](/windows/desktop/api/Prsht/nf-prsht-propsheet_setheadersubtitle)
 -   [**PropSheet\_SetHeaderTitle**](/windows/desktop/api/Prsht/nf-prsht-propsheet_setheadertitle)
 -   [**PropSheet\_SetNextText**](/windows/desktop/api/Prsht/nf-prsht-propsheet_setnexttext)
@@ -49,7 +49,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

@@ -18,9 +18,9 @@ ms.date: 05/31/2018
 
 # DrawTextExPrivWrap function
 
-\[**DrawTextExPrivWrap** is available through Windows XP with Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions. It is recommended to use [**DrawTextEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa) directly instead.\]
+\[**DrawTextExPrivWrap** is available through Windows XP with Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions. It is recommended to use [**DrawTextEx**](/windows/desktop/api/winuser/nf-winuser-drawtextexa) directly instead.\]
 
-Draws formatted text in the specified rectangle. This function wraps a call to [**DrawTextEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa).
+Draws formatted text in the specified rectangle. This function wraps a call to [**DrawTextEx**](/windows/desktop/api/winuser/nf-winuser-drawtextexa).
 
 ## Syntax
 
@@ -45,7 +45,7 @@ int WINAPI DrawTextExPrivWrap(
 *hdc* \[in\]
 </dt> <dd>
 
-Type: **[**HDC**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**HDC**](/windows/desktop/WinProg/windows-data-types)**
 
 A handle to the device context in which to draw.
 
@@ -54,7 +54,7 @@ A handle to the device context in which to draw.
 *lpchText* \[in, out\]
 </dt> <dd>
 
-Type: **[**LPTSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPTSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 A pointer to a buffer that contains the text to draw. If the *cchText* parameter is -1, the string must be null-terminated.
 
@@ -67,7 +67,7 @@ If *dwDTFormat* includes DT\_MODIFYSTRING, the function might add up to four add
 
 Type: **int**
 
-The length of the string pointed to by *lpchText*. If *cchText* is -1, then the *lpchText* parameter is assumed to be a pointer to a null-terminated string and [**DrawTextEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa) computes the character count automatically.
+The length of the string pointed to by *lpchText*. If *cchText* is -1, then the *lpchText* parameter is assumed to be a pointer to a null-terminated string and [**DrawTextEx**](/windows/desktop/api/winuser/nf-winuser-drawtextexa) computes the character count automatically.
 
 </dd> <dt>
 
@@ -76,16 +76,16 @@ The length of the string pointed to by *lpchText*. If *cchText* is -1, then the 
 
 Type: **LPRECT**
 
-A pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that contains the rectangle, in logical coordinates, in which the text is to be formatted.
+A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that contains the rectangle, in logical coordinates, in which the text is to be formatted.
 
 </dd> <dt>
 
 *dwDTFormat* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
-The formatting options. See the documentation for [**DrawTextEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa) for a complete list of options.
+The formatting options. See the documentation for [**DrawTextEx**](/windows/desktop/api/winuser/nf-winuser-drawtextexa) for a complete list of options.
 
 </dd> <dt>
 
@@ -94,7 +94,7 @@ The formatting options. See the documentation for [**DrawTextEx**](https://docs.
 
 Type: **LPDRAWTEXTPARAMS**
 
-A pointer to a [**DRAWTEXTPARAMS**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-drawtextparams) structure that specifies additional formatting options. This parameter can be **NULL**.
+A pointer to a [**DRAWTEXTPARAMS**](/windows/win32/api/winuser/ns-winuser-drawtextparams) structure that specifies additional formatting options. This parameter can be **NULL**.
 
 </dd> </dl>
 
@@ -106,13 +106,13 @@ If the function succeeds, the return value is the text height in logical units. 
 
 If the function fails, the return value is zero.
 
-To get extended error information, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+To get extended error information, call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
-**DrawTextExPrivWrap** is not exported by name or declared in a public header file. To use it, you must use [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) and request ordinal 416 from ComCtl32.dll to obtain a function pointer.
+**DrawTextExPrivWrap** is not exported by name or declared in a public header file. To use it, you must use [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) and request ordinal 416 from ComCtl32.dll to obtain a function pointer.
 
-For additional remarks, please see [**DrawTextEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa).
+For additional remarks, please see [**DrawTextEx**](/windows/desktop/api/winuser/nf-winuser-drawtextexa).
 
 ## Requirements
 
@@ -127,10 +127,4 @@ For additional remarks, please see [**DrawTextEx**](https://docs.microsoft.com/w
 
 
  
-
- 
-
-
-
-
 

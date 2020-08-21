@@ -34,7 +34,7 @@ Command identifier of the button.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that will receive the bounding rectangle information.
+Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that will receive the bounding rectangle information.
 
 </dd> </dl>
 
@@ -59,10 +59,4 @@ This message does not retrieve the bounding rectangle for buttons whose state is
 
 
  
-
- 
-
-
-
-
 

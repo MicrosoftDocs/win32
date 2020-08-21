@@ -44,7 +44,7 @@ The return value is identical to the *wParam* parameter.
 
 ## Remarks
 
-This message affects only the buffer returned by the [**EM\_GETHANDLE**](em-gethandle.md) message and the text returned by the [**WM\_GETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext) message. It has no effect on the display of the text within the edit control.
+This message affects only the buffer returned by the [**EM\_GETHANDLE**](em-gethandle.md) message and the text returned by the [**WM\_GETTEXT**](/windows/desktop/winmsg/wm-gettext) message. It has no effect on the display of the text within the edit control.
 
 The **EM\_FMTLINES** message does not affect a line that ends with a hard line break. A hard line break consists of one carriage return and a line feed.
 
@@ -80,14 +80,8 @@ The **EM\_FMTLINES** message does not affect a line that ends with a hard line b
 **Other Resources**
 </dt> <dt>
 
-[**WM\_GETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext)
+[**WM\_GETTEXT**](/windows/desktop/winmsg/wm-gettext)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

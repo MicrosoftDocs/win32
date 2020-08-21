@@ -24,7 +24,7 @@ Most of the communication that takes place within COM is synchronous. When makin
 <span id="Asynchronous_notifications"></span><span id="asynchronous_notifications"></span><span id="ASYNCHRONOUS_NOTIFICATIONS"></span>*Asynchronous notifications*
 </dt> <dd>
 
-When sending asynchronous notifications, the caller does not wait for the reply. COM uses [**PostMessage**](https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx) or high-level events to send asynchronous notifications, depending on the platform. COM defines five asynchronous methods of [**IAdviseSink**](/windows/desktop/api/ObjIdl/nn-objidl-iadvisesink):
+When sending asynchronous notifications, the caller does not wait for the reply. COM uses [**PostMessage**](/windows/win32/api/winuser/nf-winuser-postmessagea) or high-level events to send asynchronous notifications, depending on the platform. COM defines five asynchronous methods of [**IAdviseSink**](/windows/desktop/api/ObjIdl/nn-objidl-iadvisesink):
 
 -   [**OnDataChange**](/windows/desktop/api/ObjIdl/nf-objidl-iadvisesink-ondatachange)
 -   [**OnViewChange**](/windows/desktop/api/ObjIdl/nf-objidl-iadvisesink-onviewchange)
@@ -42,7 +42,7 @@ When sending asynchronous notifications, the caller does not wait for the reply.
 <span id="Input-synchronized_calls"></span><span id="input-synchronized_calls"></span><span id="INPUT-SYNCHRONIZED_CALLS"></span>*Input-synchronized calls*
 </dt> <dd>
 
-When making input-synchronized calls, the object called must complete the call before yielding control. This helps ensure that focus management works correctly and that data entered by the user is processed appropriately. These calls are made by COM through the [**SendMessage**](https://msdn.microsoft.com/library/ms644950(v=VS.85).aspx) function, without entering a modal loop. While processing an input-synchronized call, the object called must not call any function or method (including synchronous methods) that might yield control. The following methods are input synchronized
+When making input-synchronized calls, the object called must complete the call before yielding control. This helps ensure that focus management works correctly and that data entered by the user is processed appropriately. These calls are made by COM through the [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage) function, without entering a modal loop. While processing an input-synchronized call, the object called must not call any function or method (including synchronous methods) that might yield control. The following methods are input synchronized
 
 -   [**IOleWindow::GetWindow**](/windows/desktop/api/OleIdl/nf-oleidl-iolewindow-getwindow)
 -   [**IOleInPlaceActiveObject::OnFrameWindowActivate**](/windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceactiveobject-onframewindowactivate)
@@ -64,7 +64,3 @@ COM manages method calls by assigning an identifier called a *logical thread ID*
  
 
  
-
-
-
-

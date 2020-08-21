@@ -29,7 +29,7 @@ ms.date: 05/31/2018
 
 # Edit Control Styles
 
-To create an edit control using the [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specify the EDIT class, appropriate window style constants, and a combination of the following edit control styles. After the control has been created, these styles cannot be modified, except as noted.
+To create an edit control using the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, specify the EDIT class, appropriate window style constants, and a combination of the following edit control styles. After the control has been created, these styles cannot be modified, except as noted.
 
 ## Example
 
@@ -148,10 +148,4 @@ To use Comctl32.dll version 6, specify it in a manifest. For more information on
 
 
  
-
- 
-
-
-
-
 

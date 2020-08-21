@@ -14,13 +14,9 @@ ms.date: 05/31/2018
 -   [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea)
 -   [**DestroyPropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-destroypropertysheetpage)
 -   [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta)
--   [*PropSheetPageProc*](https://msdn.microsoft.com/library/Bb760813(v=VS.85).aspx)
+-   [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka)
 -   [*PropSheetProc*](/windows/desktop/api/Prsht/nc-prsht-pfnpropsheetcallback)
 
  
 
  
-
-
-
-

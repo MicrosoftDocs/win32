@@ -10,12 +10,8 @@ ms.date: 05/31/2018
 
 ## In This Section
 
--   [**LVGroupCompare**](https://msdn.microsoft.com/library/Bb775142(v=VS.85).aspx)
+-   [**LVGroupCompare**](/windows/win32/api/commctrl/nc-commctrl-pfnlvgroupcompare)
 
  
 
  
-
-
-
-

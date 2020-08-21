@@ -30,7 +30,7 @@ Sets the selection for a month calendar control to a given date range. You can s
 *lParam* 
 </dt> <dd>
 
-Pointer to a two-element array of [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structures that contain date information representing the selection limits. The first selected date must be specified in *lpSysTimeArray*\[0\], and the last selected date must be specified in *lpSysTimeArray*\[1\].
+Pointer to a two-element array of [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structures that contain date information representing the selection limits. The first selected date must be specified in *lpSysTimeArray*\[0\], and the last selected date must be specified in *lpSysTimeArray*\[1\].
 
 </dd> </dl>
 
@@ -58,10 +58,4 @@ Returns nonzero if successful, or zero otherwise. This message will fail if appl
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

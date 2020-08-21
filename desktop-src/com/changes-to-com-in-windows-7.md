@@ -14,7 +14,7 @@ The following additions were made to the COM API in Windows 7:
 
 The following APIs have changed in Windows 7:
 
--   [**IGlobalOptions**](https://msdn.microsoft.com/library/Aa344211(v=VS.85).aspx)
+-   [**IGlobalOptions**](/windows/win32/api/objidlbase/nn-objidlbase-iglobaloptions)
 
 ## Related topics
 
@@ -26,7 +26,3 @@ The following APIs have changed in Windows 7:
  
 
  
-
-
-
-

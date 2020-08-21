@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 With the introduction of distributed and Web-based applications, some method calls can take an unacceptably long time to return. The latency of the network connection may be high, the server machine may be serving many clients, or the server component may be passing a large amount of data, such as a multimedia file. Users should be able to cancel a request that is taking too long, and the application should be able to handle cancellation requests and continue with its other work. In COM, you can use the [**IMessageFilter**](/windows/desktop/api/ObjIdl/nn-objidl-imessagefilter) interface to cancel a pending call that originates from a single-threaded apartment.
 
-When a call is marshaled, the proxy creates a cancel object, which implements the [**ICancelMethodCalls**](https://msdn.microsoft.com/library/ms683860(v=VS.85).aspx) interface. The cancel object is associated with both the call and the thread on which the call is pending.
+When a call is marshaled, the proxy creates a cancel object, which implements the [**ICancelMethodCalls**](/windows/win32/api/objidlbase/nn-objidlbase-icancelmethodcalls) interface. The cancel object is associated with both the call and the thread on which the call is pending.
 
 To cancel the pending call, the client passes a cancellation request through the cancel object, which handles the details of notifying the server object that the call has been canceled. If the called method has not returned, the server object, on detecting the cancellation request, cleans up any program resources it has allocated and notifies its client, by returning an appropriate **HRESULT** value, that it canceled execution of the call. If the called method has already returned, the cancel object notifies the client. In either case, the client thread is unblocked and can continue processing.
 
@@ -39,7 +39,3 @@ At this time, cancel objects handle only synchronous calls.
  
 
  
-
-
-
-

@@ -13,14 +13,14 @@ The Microsoft Win32 provider retrieves and updates data relevant to Windows sys
 
 The Win32 provider defines the classes used to describe hardware or software available on Windows systems and the relationships between them.
 
-As an instance and method provider, the Win32 provider implements the standard [**IWbemProviderInit**](https://msdn.microsoft.com/library/Aa391853(v=VS.85).aspx) interface as well as the following [**IWbemServices**](https://msdn.microsoft.com/library/Aa392093(v=VS.85).aspx) methods:
+As an instance and method provider, the Win32 provider implements the standard [**IWbemProviderInit**](/windows/win32/api/wbemprov/nn-wbemprov-iwbemproviderinit) interface as well as the following [**IWbemServices**](/windows/win32/api/wbemcli/nn-wbemcli-iwbemservices) methods:
 
--   [**CreateInstanceEnumAsync**](https://msdn.microsoft.com/library/Aa392098(v=VS.85).aspx)
--   [**DeleteInstanceAsync**](https://msdn.microsoft.com/library/Aa392102(v=VS.85).aspx)
--   [**ExecMethodAsync**](https://msdn.microsoft.com/library/Aa392104(v=VS.85).aspx)
--   [**ExecQueryAsync**](https://msdn.microsoft.com/library/Aa392108(v=VS.85).aspx)
--   [**GetObjectAsync**](https://msdn.microsoft.com/library/Aa392110(v=VS.85).aspx)
--   [**PutInstanceAsync**](https://msdn.microsoft.com/library/Aa392116(v=VS.85).aspx)
+-   [**CreateInstanceEnumAsync**](/windows/win32/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenumasync)
+-   [**DeleteInstanceAsync**](/windows/win32/api/wbemcli/nf-wbemcli-iwbemservices-deleteinstanceasync)
+-   [**ExecMethodAsync**](/windows/win32/api/wbemcli/nf-wbemcli-iwbemservices-execmethodasync)
+-   [**ExecQueryAsync**](/windows/win32/api/wbemcli/nf-wbemcli-iwbemservices-execqueryasync)
+-   [**GetObjectAsync**](/windows/win32/api/wbemcli/nf-wbemcli-iwbemservices-getobjectasync)
+-   [**PutInstanceAsync**](/windows/win32/api/wbemcli/nf-wbemcli-iwbemservices-putinstanceasync)
 
 The following table lists the Win32 provider class categories.
 
@@ -47,7 +47,3 @@ The following table lists the Win32 provider class categories.
  
 
  
-
-
-
-

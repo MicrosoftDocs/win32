@@ -44,7 +44,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Remarks
 
-This message alphabetizes the tree items using [**lstrcmpi**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpia) on the item name. You can use the [**TVM\_SORTCHILDRENCB**](tvm-sortchildrencb.md) message to customize the ordering behavior.
+This message alphabetizes the tree items using [**lstrcmpi**](/windows/desktop/api/winbase/nf-winbase-lstrcmpia) on the item name. You can use the [**TVM\_SORTCHILDRENCB**](tvm-sortchildrencb.md) message to customize the ordering behavior.
 
 ## Requirements
 
@@ -59,10 +59,4 @@ This message alphabetizes the tree items using [**lstrcmpi**](https://docs.micro
 
 
  
-
- 
-
-
-
-
 

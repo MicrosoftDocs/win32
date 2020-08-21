@@ -78,7 +78,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("megahertz")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("megahertz")
 </dt> </dl>
 
 Speed of the bus, in megahertz (MHz), between the processor and memory.
@@ -94,7 +94,7 @@ Data type: **CIM\_Processor**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_Processor**](cim-processor.md) describing the processor that accesses the memory or uses the cache.
@@ -131,9 +131,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

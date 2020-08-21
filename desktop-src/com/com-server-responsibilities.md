@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 One of the most important ways for a client to get a pointer to an object is for the client to ask that a server be launched and that an instance of the object provided by the server be created and activated. It is the responsibility of the server to ensure that this happens properly. There are several important parts to this.
 
-The server must implement code for a class object through an implementation of either the [**IClassFactory**](https://msdn.microsoft.com/library/ms694364(v=VS.85).aspx) or [**IClassFactory2**](/windows/desktop/api/OCIdl/nn-ocidl-iclassfactory2) interface.
+The server must implement code for a class object through an implementation of either the [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) or [**IClassFactory2**](/windows/desktop/api/OCIdl/nn-ocidl-iclassfactory2) interface.
 
 The server must register its CLSID in the system registry on the machine on which it resides and further, has the option of publishing its machine location to other systems on a network to allow clients to call it without requiring the client to know the server's location.
 
@@ -36,7 +36,3 @@ The following topics detail the responsibilities of the COM server:
  
 
  
-
-
-
-

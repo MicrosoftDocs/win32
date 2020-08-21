@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Loading and Registering a Type Library
 
-The Automation dynamic link library, Oleaut32.dll, provides several functions that you can call to load and register a type library. Calling [LoadTypeLibEx](https://msdn.microsoft.com/library/ms221249.aspx), as shown in the following example, both loads the library and creates the registry entries.
+The Automation dynamic link library, Oleaut32.dll, provides several functions that you can call to load and register a type library. Calling [LoadTypeLibEx](/windows/win32/api/oleauto/nf-oleauto-loadtypelibex), as shown in the following example, both loads the library and creates the registry entries.
 
 ## Example
 
@@ -27,7 +27,3 @@ if(SUCCEEDED(hr))
  
 
  
-
-
-
-

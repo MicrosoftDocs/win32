@@ -30,7 +30,7 @@ Retrieves the currently selected date. You can send this message explicitly or b
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that will receive the currently selected date information. This parameter must be a valid address and cannot be **NULL**.
+Pointer to a [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that will receive the currently selected date information. This parameter must be a valid address and cannot be **NULL**.
 
 </dd> </dl>
 
@@ -58,10 +58,4 @@ Returns nonzero if successful, or zero otherwise. This message will always fail 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

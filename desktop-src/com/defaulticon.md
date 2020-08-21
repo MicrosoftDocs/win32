@@ -24,12 +24,8 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 
 This is a **REG\_SZ** value that specifies the full path to the executable name of the object application and the resource index of the icon within the executable.
 
-**DefaultIcon** identifies the icon to use when, for example, a control is minimized to an icon. This entry contains the full path to the executable name of the server application and the resource index of the icon within the executable. Applications can use the information provided by **DefaultIcon** to obtain an icon handle with [**ExtractIcon**](https://msdn.microsoft.com/library/ms648068(v=VS.85).aspx).
+**DefaultIcon** identifies the icon to use when, for example, a control is minimized to an icon. This entry contains the full path to the executable name of the server application and the resource index of the icon within the executable. Applications can use the information provided by **DefaultIcon** to obtain an icon handle with [**ExtractIcon**](/windows/win32/api/shellapi/nf-shellapi-extracticona).
 
  
 
  
-
-
-
-

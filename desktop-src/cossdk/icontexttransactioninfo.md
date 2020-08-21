@@ -28,7 +28,7 @@ Use this interface to access context object properties that relate to transactio
 
 ## Members
 
-The **IContextTransactionInfo** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IContextTransactionInfo** also has these types of members:
+The **IContextTransactionInfo** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IContextTransactionInfo** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -60,9 +60,4 @@ The **IContextTransactionInfo** interface has these methods.
 
 
  
-
- 
-
-
-
 

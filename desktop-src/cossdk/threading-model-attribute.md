@@ -21,7 +21,7 @@ You can use the Component Services administrative tool to view the threading-mod
 The preferred threading model for COM+ is the [neutral apartment](neutral-apartments.md). However, if you do not specify a threading model for your component, COM+ uses the main thread apartment, which is the default.
 
 > [!Note]  
-> For more detailed information, see [Choosing the Threading Model](https://docs.microsoft.com/windows/desktop/com/choosing-the-threading-model).
+> For more detailed information, see [Choosing the Threading Model](/windows/desktop/com/choosing-the-threading-model).
 
  
 
@@ -51,6 +51,3 @@ The following table shows the programming model for apartments in COM+.
  
 
  
-
-
-

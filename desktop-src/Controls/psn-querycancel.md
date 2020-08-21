@@ -48,7 +48,7 @@ Returns **TRUE** to prevent the cancel operation, or **FALSE** to allow it.
 
 This notification code is typically sent when a user clicks the **Cancel** button. It is also sent when a user clicks the **X** button in the property sheet's upper right hand corner or presses the ESCAPE key. A property sheet page can handle this notification code to ask the user to verify the cancel operation.
 
-To set a return value, the dialog box procedure for the page must call the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with DWL\_MSGRESULT set to the return value. The dialog box procedure must return **TRUE**.
+To set a return value, the dialog box procedure for the page must call the [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with DWL\_MSGRESULT set to the return value. The dialog box procedure must return **TRUE**.
 
 ## Requirements
 
@@ -63,10 +63,4 @@ To set a return value, the dialog box procedure for the page must call the [**Se
 
 
  
-
- 
-
-
-
-
 

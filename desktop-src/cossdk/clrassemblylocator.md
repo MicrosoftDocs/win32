@@ -39,7 +39,7 @@ Use this class to access the methods of [**IAssemblyLocator**](/windows/desktop/
 
 ## Remarks
 
-To create this object, call [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
+To create this object, call [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
 
 To use this class from Microsoft Visual Basic, add a reference to the COM+ Services Type Library. A ClrAssemblyLocator object can be declared using "COMSVCSLib.ClrAssemblyLocator" as the class name.
 
@@ -56,9 +56,4 @@ To use this class from Microsoft Visual Basic, add a reference to the COM+ Servi
 
 
  
-
- 
-
-
-
 

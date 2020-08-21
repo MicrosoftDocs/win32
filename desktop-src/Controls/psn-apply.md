@@ -47,7 +47,7 @@ Set PSNRET\_NOERROR to indicate that the changes made to this page are valid and
 -   PSNRET\_INVALID. The property sheet will not be destroyed, and focus will be returned to this page.
 -   PSNRET\_INVALID\_NOCHANGEPAGE. The property sheet will not be destroyed, and focus will be returned to the page that had focus when the button was pressed.
 
-To set the return value, the dialog box procedure for the page must call the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with the DWL\_MSGRESULT value, and the dialog box procedure must return **TRUE**.
+To set the return value, the dialog box procedure for the page must call the [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with the DWL\_MSGRESULT value, and the dialog box procedure must return **TRUE**.
 
 ## Remarks
 
@@ -62,7 +62,7 @@ The **lParam** member of the [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht
 
 The [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-pshnotify) structure contains an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet.
 
-Do not call the [**EndDialog**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddialog) function when processing this notification code.
+Do not call the [**EndDialog**](/windows/desktop/api/winuser/nf-winuser-enddialog) function when processing this notification code.
 
 A modal property sheet is destroyed if the user clicks the OK button and every page returns the PSNRET\_NOERROR value in response to **PSN\_APPLY**. If any page returns PSNRET\_INVALID or PSNRET\_INVALID\_NOCHANGEPAGE, the Apply process is canceled immediately. Pages after the cancelling page will not receive a PSN\_APPLY notification code.
 
@@ -86,10 +86,4 @@ To receive this notification code, a page must set the DWL\_MSGRESULT value to *
 
 
  
-
- 
-
-
-
-
 

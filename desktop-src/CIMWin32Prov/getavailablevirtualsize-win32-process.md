@@ -44,7 +44,7 @@ The *AvailableVirtualSize* parameter returns the free virtual address space avai
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns zero (0) to indicate success. Any other number indicates an error. For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -107,7 +107,7 @@ The specified parameter is invalid.
 
 22 4294967295
 
-For values other than those listed, refer to the [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes) documentation.
+For values other than those listed, refer to the [System Error Codes](/windows/desktop/Debug/system-error-codes) documentation.
 
 </dd> </dl>
 
@@ -133,9 +133,4 @@ For values other than those listed, refer to the [System Error Codes](https://do
 </dt> </dl>
 
  
-
- 
-
-
-
 

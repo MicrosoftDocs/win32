@@ -37,12 +37,8 @@ If an application is using an image list with a rebar control, it must send the 
 
 ## Rebar Control Message Forwarding
 
-A rebar control forwards all [**WM\_NOTIFY**](wm-notify.md) window messages to its parent window. Additionally, a rebar control forwards any messages sent to it from windows assigned to its bands, like [**WM\_CHARTOITEM**](wm-chartoitem.md), [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command), and others.
+A rebar control forwards all [**WM\_NOTIFY**](wm-notify.md) window messages to its parent window. Additionally, a rebar control forwards any messages sent to it from windows assigned to its bands, like [**WM\_CHARTOITEM**](wm-chartoitem.md), [**WM\_COMMAND**](/windows/desktop/menurc/wm-command), and others.
 
  
 
  
-
-
-
-

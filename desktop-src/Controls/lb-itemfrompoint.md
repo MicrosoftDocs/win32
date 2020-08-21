@@ -34,15 +34,15 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the x-coordinate of a point, relative to the upper-left corner of the client area of the list box.
+The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the x-coordinate of a point, relative to the upper-left corner of the client area of the list box.
 
-The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the y-coordinate of a point, relative to the upper-left corner of the client area of the list box.
+The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the y-coordinate of a point, relative to the upper-left corner of the client area of the list box.
 
 </dd> </dl>
 
 ## Return value
 
-The return value contains the index of the nearest item in the [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)). The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is zero if the specified point is in the client area of the list box, or one if it is outside the client area.
+The return value contains the index of the nearest item in the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)). The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is zero if the specified point is in the client area of the list box, or one if it is outside the client area.
 
 ## Requirements
 
@@ -60,14 +60,8 @@ The return value contains the index of the nearest item in the [**LOWORD**](http
 
 <dl> <dt>
 
-[**MAKELPARAM**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makelparam)
+[**MAKELPARAM**](/windows/desktop/api/winuser/nf-winuser-makelparam)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

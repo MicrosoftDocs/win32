@@ -24,24 +24,20 @@ The following structures are provided by COM:
 -   [**COAUTHIDENTITY**](/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthidentity)
 -   [**COAUTHINFO**](/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo)
 -   [**CONNECTDATA**](/windows/win32/api/ocidl/ns-ocidl-connectdata)
--   [**COSERVERINFO**](https://msdn.microsoft.com/library/ms687322(v=VS.85).aspx)
+-   [**COSERVERINFO**](/windows/win32/api/objidlbase/ns-objidlbase-coserverinfo)
 -   [**CSPLATFORM**](/windows/win32/api/wtypes/ns-wtypes-csplatform)
 -   [**INTERFACEINFO**](/windows/win32/api/objidl/ns-objidl-interfaceinfo)
--   [**MULTI\_QI**](https://msdn.microsoft.com/library/ms687289(v=VS.85).aspx)
+-   [**MULTI\_QI**](/windows/win32/api/objidlbase/ns-objidlbase-multi_qi)
 -   [**ORPC\_DBG\_ALL**](orpc-dbg-all.md)
 -   [**ORPC\_DBG\_BUFFER**](orpc-dbg-all.md)
 -   [**ORPC\_INIT\_ARGS**](orpc-init-args.md)
 -   [**QUERYCONTEXT**](/windows/win32/api/wtypes/ns-wtypes-querycontext)
--   [**RPCOLEMESSAGE**](https://msdn.microsoft.com/library/ms691405(v=VS.85).aspx)
--   [**SOLE\_AUTHENTICATION\_INFO**](https://msdn.microsoft.com/library/ms680049(v=VS.85).aspx)
--   [**SOLE\_AUTHENTICATION\_LIST**](https://msdn.microsoft.com/library/ms680039(v=VS.85).aspx)
--   [**SOLE\_AUTHENTICATION\_SERVICE**](https://msdn.microsoft.com/library/ms686648(v=VS.85).aspx)
--   [**SOleTlsData**](https://msdn.microsoft.com/library/ms690269(v=VS.85).aspx)
+-   [**RPCOLEMESSAGE**](/windows/win32/api/objidlbase/ns-objidlbase-rpcolemessage)
+-   [**SOLE\_AUTHENTICATION\_INFO**](/windows/win32/api/objidlbase/ns-objidlbase-sole_authentication_info)
+-   [**SOLE\_AUTHENTICATION\_LIST**](/windows/win32/api/objidlbase/ns-objidlbase-sole_authentication_list)
+-   [**SOLE\_AUTHENTICATION\_SERVICE**](/windows/win32/api/objidlbase/ns-objidlbase-sole_authentication_service)
+-   [**SOleTlsData**](/previous-versions/windows/desktop/legacy/ms690269(v=vs.85))
 
  
 
  
-
-
-
-

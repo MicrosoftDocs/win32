@@ -98,7 +98,7 @@ Comctl32.dll version 6 is not redistributable but it is included in Windows. To 
 
 ## Remarks
 
-To retrieve and change the styles after creating the control, use the [**GetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlonga) and [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) functions.
+To retrieve and change the styles after creating the control, use the [**GetWindowLong**](/windows/desktop/api/winuser/nf-winuser-getwindowlonga) and [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) functions.
 
 ## Requirements
 
@@ -111,10 +111,4 @@ To retrieve and change the styles after creating the control, use the [**GetWind
 
 
  
-
- 
-
-
-
-
 

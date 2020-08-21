@@ -42,11 +42,11 @@ Pointer to a [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-pshnotify) stru
 
 ## Return value
 
-To specify which control should receive focus, return the control's handle. Otherwise, return zero and focus will go to the default control. To set the return value, the dialog box procedure must call the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with a **DWL\_MSGRESULT** value and return **TRUE**.
+To specify which control should receive focus, return the control's handle. Otherwise, return zero and focus will go to the default control. To set the return value, the dialog box procedure must call the [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with a **DWL\_MSGRESULT** value and return **TRUE**.
 
 ## Remarks
 
-An application must not call the [**SetFocus**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setfocus) function while handling this notification code. Return the handle of the control that should receive focus, and the property sheet manager will handle the focus change.
+An application must not call the [**SetFocus**](/windows/desktop/api/winuser/nf-winuser-setfocus) function while handling this notification code. Return the handle of the control that should receive focus, and the property sheet manager will handle the focus change.
 
 The PSN\_QUERYINITIALFOCUS notification code is not sent if the property sheet manager determines that no control on the page should receive focus.
 
@@ -77,10 +77,4 @@ case PSN_QUERYINITIALFOCUS :
 
 
  
-
- 
-
-
-
-
 

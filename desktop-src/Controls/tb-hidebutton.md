@@ -34,9 +34,9 @@ Command identifier of the button to hide or show.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is a **BOOL** that indicates whether to hide or show the specified button. If **TRUE**, the button is hidden. If **FALSE**, the button is shown.
+The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is a **BOOL** that indicates whether to hide or show the specified button. If **TRUE**, the button is hidden. If **FALSE**, the button is shown.
 
-The [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) must be zero.
+The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) must be zero.
 
 </dd> </dl>
 
@@ -57,10 +57,4 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 
  
-
- 
-
-
-
-
 
