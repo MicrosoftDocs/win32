@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # Categorizing layered service providers and apps
 
 > [!Note]  
-> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](https://msdn.microsoft.com/library/Aa366510(v=VS.85).aspx).
+> Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](../fwp/windows-filtering-platform-start-page.md).
 
  
 
@@ -123,7 +123,7 @@ To collect more detailed information on all Winsock providers, execute the follo
 
 **instlsp -p -v**
 
-The output will be a list [**WSAPROTOCOL\_INFO**](https://msdn.microsoft.com/library/ms741675(v=VS.85).aspx) structures supported on the local computer.
+The output will be a list [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structures supported on the local computer.
 
 For a list of only layered service providers installed on the local computer, execute the following console command:
 
@@ -134,13 +134,10 @@ To map the LSP structure, execute the following console command:
 **instlsp -m**
 
 > [!Note]  
-> The TDI feature is deprecated and will be removed in future versions of Microsoft Windows. Depending on how you use TDI, use either the Winsock Kernel (WSK) or Windows Filtering Platform (WFP). For more information about WFP and WSK, see [Windows Filtering Platform](https://msdn.microsoft.com/library/Aa366510(v=VS.85).aspx) and [Winsock Kernel](https://msdn.microsoft.com/library/Ff571083(v=VS.85).aspx). For a Windows Core Networking blog entry about WSK and TDI, see [Introduction to Winsock Kernel (WSK)](https://blogs.msdn.com/wndp/archive/2006/02/24/538746.aspx).
+> The TDI feature is deprecated and will be removed in future versions of Microsoft Windows. Depending on how you use TDI, use either the Winsock Kernel (WSK) or Windows Filtering Platform (WFP). For more information about WFP and WSK, see [Windows Filtering Platform](../fwp/windows-filtering-platform-start-page.md) and [Winsock Kernel](/windows-hardware/drivers/ddi/_netvista/). For a Windows Core Networking blog entry about WSK and TDI, see [Introduction to Winsock Kernel (WSK)](/archive/blogs/wndp/).
 
  
 
  
 
  
-
-
-

@@ -35,7 +35,7 @@ An application can use this functionality to allow customers to view files while
 
 Transactions used with transacted file systems may also be used with the transacted registry. Updates to the file and the registry are coordinated with a single transaction.
 
-By using [Distributed Transaction Coordinator](https://docs.microsoft.com/previous-versions/windows/desktop/mscs/distributed-transaction-coordinator) (DTC) transactions or System.Transactions, updates made to SQL, MSMQ, and other transactional resources can be coordinated with transacted file updates. For more information, see DTC's [IKernelTransaction](https://msdn.microsoft.com/library/aa344210.aspx).
+By using [Distributed Transaction Coordinator](/previous-versions/windows/desktop/mscs/distributed-transaction-coordinator) (DTC) transactions or System.Transactions, updates made to SQL, MSMQ, and other transactional resources can be coordinated with transacted file updates. For more information, see DTC's [IKernelTransaction](/previous-versions/windows/desktop/aa344210(v=vs.85)).
 
 ## Unsupported Scenarios
 
@@ -51,6 +51,3 @@ TxF does not support the following transaction scenarios:
  
 
  
-
-
-

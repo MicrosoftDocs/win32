@@ -46,7 +46,7 @@ None
 A strip cut causes the current strip to end, and a new strip to start. A strip cut can be done by explicitly calling this method, or just by rendering up to the maximum index value ( 1, which is 0xffffffff for 32-bit indices or 0xffff for 16-bit indices). Each instance of an indexed-instanced draw generates a strip cut automatically. This is true even if the topology is not a triangle strip.
 
 > [!Note]  
-> Support for restart and the  1 'magic value' for a cut is only available on [feature level](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 10.0 or higher devices.
+> Support for restart and the  1 'magic value' for a cut is only available on [feature level](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 10.0 or higher devices.
 
  
 
@@ -77,10 +77,4 @@ This function is supported in the following shader models.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

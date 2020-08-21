@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Returns the number of clusters to use for compression.
 
@@ -60,7 +60,3 @@ Returns the number of clusters to use for compression.
  
 
  
-
-
-
-

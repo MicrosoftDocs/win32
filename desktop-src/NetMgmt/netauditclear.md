@@ -18,12 +18,8 @@ api_location:
 
 # NetAuditClear
 
-The **NetAuditClear** function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use [event logging](https://docs.microsoft.com/windows/desktop/EventLog/event-logging).
+The **NetAuditClear** function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use [event logging](/windows/desktop/EventLog/event-logging).
 
  
 
  
-
-
-
-

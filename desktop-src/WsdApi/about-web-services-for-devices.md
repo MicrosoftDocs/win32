@@ -40,7 +40,7 @@ When a device is manufactured, it is given a globally unique identifier, represe
 
 WSDAPI provides a generic DPWS SOAP stack for use by client and service applications. The [Web Services on Devices Code Generator](web-services-for-devices-code-generator.md) (WsdCodeGen.exe) can be used to convert a service description (WSDL) into proxy and stub code that applications can call directly. This generated code automatically transforms function calls and parameters into SOAP messages and XML fields, and then calls into WSDAPI to issue to requests to the remote device or client.
 
-Function Discovery can be used when building WSDAPI applications to create and activate function instances returned by PnP. These function instances contain data that can be used to obtain more information through the PnP APIs when more than just simple discovery is required. For more information, see [Function Discovery](https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/fd-portal) and [PnP-X](https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/pnp-x).
+Function Discovery can be used when building WSDAPI applications to create and activate function instances returned by PnP. These function instances contain data that can be used to obtain more information through the PnP APIs when more than just simple discovery is required. For more information, see [Function Discovery](/previous-versions/windows/desktop/fundisc/fd-portal) and [PnP-X](/previous-versions/windows/desktop/fundisc/pnp-x).
 
 ## Related topics
 
@@ -58,6 +58,3 @@ Function Discovery can be used when building WSDAPI applications to create and a
  
 
  
-
-
-

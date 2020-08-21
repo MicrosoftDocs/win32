@@ -37,7 +37,7 @@ typedef struct D3DXMATRIXA16 {
 **\_ij**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -112,7 +112,3 @@ typedef D3DX_ALIGN16 _D3DXMATRIXA16 D3DXMATRIXA16, *LPD3DXMATRIXA16;
  
 
  
-
-
-
-

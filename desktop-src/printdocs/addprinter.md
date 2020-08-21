@@ -67,16 +67,16 @@ If the function fails, the return value is **NULL**.
 
 ## Remarks
 
-Do not call this method in [**DllMain**](https://docs.microsoft.com/windows/desktop/Dlls/dllmain).
+Do not call this method in [**DllMain**](/windows/desktop/Dlls/dllmain).
 
 > [!Note]  
 > This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.
 
  
 
-The caller must have the [SeLoadDriverPrivilege](https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants).
+The caller must have the [SeLoadDriverPrivilege](/windows/desktop/SecAuthZ/authorization-constants).
 
-The returned handle is not thread safe. If callers need to use it concurrently on multiple threads, they must provide custom synchronization access to the printer handle using the [Synchronization Functions](https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions). To avoid writing custom code the application can open a printer handle on each thread, as needed.
+The returned handle is not thread safe. If callers need to use it concurrently on multiple threads, they must provide custom synchronization access to the printer handle using the [Synchronization Functions](/windows/desktop/Sync/synchronization-functions). To avoid writing custom code the application can open a printer handle on each thread, as needed.
 
 The following are the members of the [**PRINTER\_INFO\_2**](printer-info-2.md) structure that can be set before the **AddPrinter** function is called:
 
@@ -179,9 +179,4 @@ The Internet Connection Firewall (ICF) blocks printer ports by default, but an e
 </dt> </dl>
 
  
-
- 
-
-
-
 

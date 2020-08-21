@@ -16,7 +16,7 @@ All strings in the environment block must be sorted alphabetically by name. The 
 
 ## Example 1
 
-By default, a child process inherits a copy of the environment block of the parent process. The following example demonstrates how to create a new environment block to pass to a child process using [**CreateProcess**](https://msdn.microsoft.com/library/ms682425(v=VS.85).aspx).
+By default, a child process inherits a copy of the environment block of the parent process. The following example demonstrates how to create a new environment block to pass to a child process using [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa).
 
 This example uses the code in example three as the child process, Ex3.exe.
 
@@ -201,7 +201,7 @@ int _tmain()
 
 ## Example 3
 
-The following example retrieves the process's environment block using [**GetEnvironmentStrings**](https://msdn.microsoft.com/library/ms683187(v=VS.85).aspx) and prints the contents to the console.
+The following example retrieves the process's environment block using [**GetEnvironmentStrings**](/windows/win32/api/processenv/nf-processenv-getenvironmentstrings) and prints the contents to the console.
 
 
 ```C++
@@ -245,6 +245,3 @@ int _tmain()
  
 
  
-
-
-

@@ -110,7 +110,7 @@ How to grid fit glyph outlines. In most cases, this should be DWRITE\_GRID\_FIT\
 *renderingParams* \[out\]
 </dt> <dd>
 
-Type: **[**IDWriteRenderingParams2**](https://msdn.microsoft.com/library/Dn900387(v=VS.85).aspx)\*\***
+Type: **[**IDWriteRenderingParams2**](/windows/win32/api/dwrite_2/nn-dwrite_2-idwriterenderingparams2)\*\***
 
 Holds the newly created rendering parameters object, or NULL in case of failure.
 
@@ -144,10 +144,4 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

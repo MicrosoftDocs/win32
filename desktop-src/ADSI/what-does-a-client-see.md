@@ -12,13 +12,9 @@ ms.date: 05/31/2018
 # What Does a Client See?
 
 -   A client sees ADSI and all of its extension objects as one object.
--   An ADSI client sees one [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface that handles all the dual and dispatch interfaces in the object, whether the dual or dispatch interface is implemented by the aggregator in the provider or by an extension. Please see [Resolution of Function/Property Name Conflicts in Automation in Extensions](resolution-of-functionproperty-name-conflicts-in-automation-in-extensions.md).
--   ADSI does not expose any type information through the [**IDispatch::GetTypeInfo**](https://msdn.microsoft.com/library/ms221571(v=VS.71).aspx) or [**IDispatch::GetTypeInfoCount**](https://msdn.microsoft.com/library/ms221674(v=VS.71).aspx) methods. ADSI provides type information through the type library.
+-   An ADSI client sees one [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface that handles all the dual and dispatch interfaces in the object, whether the dual or dispatch interface is implemented by the aggregator in the provider or by an extension. Please see [Resolution of Function/Property Name Conflicts in Automation in Extensions](resolution-of-functionproperty-name-conflicts-in-automation-in-extensions.md).
+-   ADSI does not expose any type information through the [**IDispatch::GetTypeInfo**](/windows/win32/api/oaidl/nf-oaidl-idispatch-gettypeinfo) or [**IDispatch::GetTypeInfoCount**](/windows/win32/api/oaidl/nf-oaidl-idispatch-gettypeinfocount) methods. ADSI provides type information through the type library.
 
  
 
  
-
-
-
-

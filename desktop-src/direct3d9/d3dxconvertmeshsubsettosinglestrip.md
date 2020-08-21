@@ -51,7 +51,7 @@ Pointer to an [**ID3DXBaseMesh**](id3dxbasemesh.md) interface, representing the 
 *AttribId* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Attribute ID of the mesh subset to convert to strips.
 
@@ -60,25 +60,25 @@ Attribute ID of the mesh subset to convert to strips.
 *IBOptions* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Combination of one or more flags from the [**D3DXMESH**](https://msdn.microsoft.com/library/Bb205370(v=VS.85).aspx) enumeration, specifying options for creating the index buffer. Cannot be D3DXMESH\_32BIT. The index buffer will be created with 32-bit or 16-bit indices, depending on the format of the index buffer of the mesh specified by the *MeshIn* parameter.
+Combination of one or more flags from the [**D3DXMESH**](./d3dxmesh.md) enumeration, specifying options for creating the index buffer. Cannot be D3DXMESH\_32BIT. The index buffer will be created with 32-bit or 16-bit indices, depending on the format of the index buffer of the mesh specified by the *MeshIn* parameter.
 
 </dd> <dt>
 
 *ppIndexBuffer* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DINDEXBUFFER9**](https://msdn.microsoft.com/library/Bb205865(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DINDEXBUFFER9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dindexbuffer9)\***
 
-Pointer to an [**IDirect3DIndexBuffer9**](https://msdn.microsoft.com/library/Bb205865(v=VS.85).aspx) interface, representing the index buffer containing the strip.
+Pointer to an [**IDirect3DIndexBuffer9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dindexbuffer9) interface, representing the index buffer containing the strip.
 
 </dd> <dt>
 
 *pNumIndices* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Number of indices in the buffer returned in the *ppIndexBuffer* parameter.
 
@@ -115,7 +115,3 @@ Before running this function, call [**Optimize**](id3dxmesh--optimize.md) or [**
  
 
  
-
-
-
-

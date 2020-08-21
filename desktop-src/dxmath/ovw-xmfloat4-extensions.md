@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMFLOAT4 Extensions
 
-[**XMFLOAT4**](https://msdn.microsoft.com/library/Ee419608(v=VS.85).aspx) describes a structure containing a 4D vector consisting of four single-precision floating-point values.
+[**XMFLOAT4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4) describes a structure containing a 4D vector consisting of four single-precision floating-point values.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 | Topic                                                       | Description                                    |
 |-------------------------------------------------------------|------------------------------------------------|
-| [**XMFLOAT4 Constructors**](https://msdn.microsoft.com/library/Ee415309(v=VS.85).aspx)<br/>   | Constructors exposed by `XMFLOAT4`.<br/> |
+| [**XMFLOAT4 Constructors**](/windows/win32/api/directxmath/nf-directxmath-xmfloat4-xmfloat4(constfloat))<br/>   | Constructors exposed by `XMFLOAT4`.<br/> |
 | [XMFLOAT4 Operators](ovw-xmfloat4-operators.md)<br/> | Operators exposed by `XMFLOAT4`.<br/>    |
 
 
@@ -35,13 +35,9 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4**](https://msdn.microsoft.com/library/Ee419608(v=VS.85).aspx)
+[**XMFLOAT4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4)
 </dt> </dl>
 
  
 
  
-
-
-
-

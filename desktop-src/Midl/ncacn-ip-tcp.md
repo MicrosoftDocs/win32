@@ -83,13 +83,9 @@ endpoint("ncacn_ip_tcp:128.10.2.30[1404]")
 [**ncalrpc**](ncalrpc.md)
 </dt> <dt>
 
-[**string binding**](https://docs.microsoft.com/windows/desktop/Rpc/string-binding)
+[**string binding**](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 -   [Applications performing updates to multiple files and/or to the registry hive](#applications-performing-updates-to-multiple-files-andor-to-the-registry-hive)
 -   [Applications managing a set of structured data](#applications-managing-a-set-of-structured-data)
 -   [Applications with Transactions involving files on a local NTFS volume and Tables in an external SQL database](#applications-with-transactions-involving-files-on-a-local-ntfs-volume-and-tables-in-an-external-sql-database)
--   [Closing & Recommended Action](https://docs.microsoft.com/windows)
+-   [Closing & Recommended Action](/windows)
 
 ## Abstract
 
@@ -35,7 +35,7 @@ Many applications which deal with "document-like" data tend to load the entire d
 
 ## Applications performing updates to multiple files and/or to the registry hive
 
-There are many applications which need to atomically perform an update to a set of files and to the registry. This scenario is most commonly achieved through an installer application, such as Windows Installer. For more information on Windows Installer, please refer to [Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal).
+There are many applications which need to atomically perform an update to a set of files and to the registry. This scenario is most commonly achieved through an installer application, such as Windows Installer. For more information on Windows Installer, please refer to [Windows Installer](/windows/desktop/Msi/windows-installer-portal).
 
 ## Applications managing a set of structured data
 
@@ -57,6 +57,3 @@ TxF is a complex and nuanced set of APIs which are not commonly used by 3rd part
  
 
  
-
-
-

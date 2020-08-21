@@ -44,7 +44,6 @@ This sample is available in the following locations.
 | Location     | Path/URL                                                                                                                                                                              |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows SDK  | \\Program Files\\Microsoft SDKs\\Windows\\v7.0\\Samples\\multimedia\\wic\\ProgressiveDecoding\\ (Download the SDK at [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).) |
-| Code Gallery | [Windows Imaging Component Progressive Decode Win32 Sample](https://code.msdn.microsoft.com/Windows-Imaging-Component-3af3cd49)                                                       |
 
 
 

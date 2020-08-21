@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Updating an Event Tracing Session
 
-To update the properties of an event tracing session, call the [**ControlTrace**](controltrace.md) function using the **EVENT\_TRACE\_CONTROL\_UPDATE** control code. You can specify the session to update using a session handle obtained from an earlier call to [**StartTrace**](starttrace.md), or a session name. The properties of the event tracing session are updated using the values specified in the [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) structure. You can update only a subset of the properties. For a list of the properties you can update, see the *Properties* parameter of the **ControlTrace** function.
+To update the properties of an event tracing session, call the [**ControlTrace**](/windows/win32/api/evntrace/nf-evntrace-controltracea) function using the **EVENT\_TRACE\_CONTROL\_UPDATE** control code. You can specify the session to update using a session handle obtained from an earlier call to [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea), or a session name. The properties of the event tracing session are updated using the values specified in the [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) structure. You can update only a subset of the properties. For a list of the properties you can update, see the *Properties* parameter of the **ControlTrace** function.
 
-If the [**ControlTrace**](controltrace.md) call is successful, the [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) structure is updated to reflect the new property values. The structure will also contain the new run statistics for the event tracing session.
+If the [**ControlTrace**](/windows/win32/api/evntrace/nf-evntrace-controltracea) call is successful, the [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) structure is updated to reflect the new property values. The structure will also contain the new run statistics for the event tracing session.
 
 The following example shows how to update the kernel event tracing session. The example queries for the current property values and updates the structure before updating the session.
 
@@ -118,6 +118,3 @@ cleanup:
  
 
  
-
-
-

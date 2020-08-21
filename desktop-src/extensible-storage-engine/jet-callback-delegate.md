@@ -99,28 +99,28 @@ public delegate JET_err JET_CALLBACK(
 <!-- end list -->
 
   - arg1  
-    Type: [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+    Type: [System.Object](/dotnet/api/system.object)  
     
     First callback-specific argument.
 
 <!-- end list -->
 
   - arg2  
-    Type: [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+    Type: [System.Object](/dotnet/api/system.object)  
     
     Second callback-specific argument.
 
 <!-- end list -->
 
   - context  
-    Type: [System.IntPtr](https://docs.microsoft.com/dotnet/api/system.intptr?redirectedfrom=MSDN)  
+    Type: [System.IntPtr](/dotnet/api/system.intptr)  
     
     Callback context.
 
 <!-- end list -->
 
   - unused  
-    Type: [System.IntPtr](https://docs.microsoft.com/dotnet/api/system.intptr?redirectedfrom=MSDN)  
+    Type: [System.IntPtr](/dotnet/api/system.intptr)  
     
     This parameter is not used.
 
@@ -133,4 +133,3 @@ Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)
 #### Reference
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

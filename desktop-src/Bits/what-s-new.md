@@ -46,7 +46,7 @@ BITS version 10.3 is included in the Windows 10 May 2019 Update (10.0; Build 183
 <li>Added <a href="/windows/win32/api/bits10_2/nn-bits10_2-ibackgroundcopyjobhttpoptions2"><strong>BackgroundCopyJobHttpOptions2</strong></a> to change the HTTP method for HTTP downloads.</li>
 <li>BITS now uses the default proxy ordering to be more consistent with the rest of the system.</li>
 <li>It's easier for programmers to set BITS proxy configuration for enterprise scenarios.</li>
-<li>BITS is now more careful of power and supports [Modern Standby](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby).</li>
+<li>BITS is now more careful of power and supports [Modern Standby](/windows-hardware/design/device-experiences/modern-standby).</li>
 <li>BITS now support Mobile device manager (MDM) [policies](/windows/client-management/mdm/policy-configuration-service-provider) in addition to [group policies](./group-policies).</li>
 </ul>
 BITS version 10.2 is included in Windows 10 October 2018 Update(10.0; Build 17763), and later.
@@ -119,7 +119,7 @@ BITS now uses group policies to limit the number of jobs and files you can creat
 </tr>
 <tr class="odd">
 <td>Version 1.5</td>
-<td>Added upload and upload-reply capability, command-line execution for events, and explicit credentials and proxy credentials.<br/> Starting with BITS 1.5, users with a <a href="https://msdn.microsoft.com/library/aa379316.aspx">restricted token</a> cannot create or modify jobs.<br/> BITS version 1.5 is included in Windows Server 2003. A redistributable is available for Windows XP from the <a href="https://www.microsoft.com/download/details.aspx?id=22250">Microsoft Download Center</a>.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.5.xxxx.xxxx&quot;.<br/></td>
+<td>Added upload and upload-reply capability, command-line execution for events, and explicit credentials and proxy credentials.<br/> Starting with BITS 1.5, users with a <a href="/windows/win32/secauthz/restricted-tokens">restricted token</a> cannot create or modify jobs.<br/> BITS version 1.5 is included in Windows Server 2003. A redistributable is available for Windows XP from the <a href="https://www.microsoft.com/download/details.aspx?id=22250">Microsoft Download Center</a>.<br/> The version of %windir%\System32\QMgr.dll is &quot;6.5.xxxx.xxxx&quot;.<br/></td>
 </tr>
 <tr class="even">
 <td>Version 1.2</td>
@@ -133,7 +133,7 @@ BITS now uses group policies to limit the number of jobs and files you can creat
 </table>
 
 To light up features in your program based on BITS capabilities, use QueryInterface on (for example) your Job object to see if the Job object allows you to create the version you need. Alternatively, 
-see [Determining the Version of BITS on a Computer](/windows/win32/Bits/determining-the-version-of-bits-on-a-computer) to convert the QMgr.dll version number into the BITS version.
+see [Determining the Version of BITS on a Computer](./determining-the-version-of-bits-on-a-computer.md) to convert the QMgr.dll version number into the BITS version.
 
 ## Version 10.3
 
@@ -229,7 +229,3 @@ The following interfaces and topics were added for version 1.5:
 ## Updating BITS versions
  
 You can download BITS 4.0 for Windows Server 2008 with Service Pack 2 (SP2), Windows Vista with Service Pack 1 (SP1), and Windows Vista with Service Pack 2 (SP2). For information about downloading BITS 4.0, see [KB968929](https://support.microsoft.com/kb/968929).
-
-
-
-

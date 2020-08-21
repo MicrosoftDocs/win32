@@ -48,7 +48,7 @@ Handle of the parameter, or **NULL** for top-level parameters. See [Handles (Dir
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 String containing the parameter name.
 
@@ -81,7 +81,3 @@ Returns the handle of the specified parameter, or **NULL** if the index was inva
  
 
  
-
-
-
-

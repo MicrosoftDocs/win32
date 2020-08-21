@@ -178,7 +178,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Connection identifier in the format "tunnelId:channelID".
@@ -325,7 +325,7 @@ User name connected to the RD Gateway server.
 
 You must be a member of the Administrators group to use this class.
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK). They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://docs.microsoft.com/windows/desktop/WmiSdk/managed-object-format--mof-).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK). They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## Requirements
 
@@ -364,10 +364,4 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

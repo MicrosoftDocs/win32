@@ -58,9 +58,9 @@ This vertex buffer contains per-vertex data for eight vertices; each vertex stor
 To access data from a vertex buffer, you need to know which vertex to access and these other buffer parameters:
 
 -   Offset - the number of bytes from the start of the buffer to the data for the first vertex. The offset is supplied to [**IASetVertexBuffers**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-iasetvertexbuffers).
--   BaseVertexLocation - the number of bytes from the offset to the first vertex used by the appropriate draw call (see [Draw Methods](https://msdn.microsoft.com/library/Bb205117(v=VS.85).aspx)).
+-   BaseVertexLocation - the number of bytes from the offset to the first vertex used by the appropriate draw call (see [Draw Methods](../direct3d11/d3d10-graphics-programming-guide-input-assembler-stage-getting-started.md)).
 
-Before you create a vertex buffer, you need to define its layout by creating an [**input-layout object**](https://msdn.microsoft.com/library/Bb173815(v=VS.85).aspx); this is done by calling [**CreateInputLayout**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-createinputlayout). Once the input-layout object is created, bind it to the input-assembler stage by calling [**IASetInputLayout**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-iasetinputlayout).
+Before you create a vertex buffer, you need to define its layout by creating an [**input-layout object**](/windows/win32/api/d3d10/nn-d3d10-id3d10inputlayout); this is done by calling [**CreateInputLayout**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-createinputlayout). Once the input-layout object is created, bind it to the input-assembler stage by calling [**IASetInputLayout**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-iasetinputlayout).
 
 To create a vertex buffer, call [**CreateBuffer**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-createbuffer).
 
@@ -73,12 +73,12 @@ An index buffer contains a sequential set of 16-bit or 32-bit indices; each inde
 The sequential indices stored in an index buffer are located with the following parameters:
 
 -   Offset - the number of bytes from the start of the buffer to the first index. The offset is supplied to [**IASetIndexBuffer**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-iasetindexbuffer).
--   StartIndexLocation - the number of bytes from the offset to the first vertex used by the appropriate draw call (see [Draw Methods](https://msdn.microsoft.com/library/Bb205117(v=VS.85).aspx)).
+-   StartIndexLocation - the number of bytes from the offset to the first vertex used by the appropriate draw call (see [Draw Methods](../direct3d11/d3d10-graphics-programming-guide-input-assembler-stage-getting-started.md)).
 -   IndexCount - the number of indices to render.
 
 To create an index buffer, call [**CreateBuffer**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-createbuffer).
 
-An index buffer can stitch together multiple [line or triangle strips](https://msdn.microsoft.com/library/Bb205124(v=VS.85).aspx) by separating each with a strip-cut index. A strip-cut index allows multiple line or triangle strips to be drawn with a single draw call. A strip-cut index is simply the maximum possible value for the index (0xffff for a 16-bit index, 0xffffffff for a 32-bit index). The strip-cut index resets the winding order in indexed primitives and can be used to remove the need for degenerate triangles that may otherwise be required to maintain proper winding order in a triangle strip. The following illustration shows an example of a strip-cut index.
+An index buffer can stitch together multiple [line or triangle strips](../direct3d11/d3d10-graphics-programming-guide-primitive-topologies.md) by separating each with a strip-cut index. A strip-cut index allows multiple line or triangle strips to be drawn with a single draw call. A strip-cut index is simply the maximum possible value for the index (0xffff for a 16-bit index, 0xffffffff for a 32-bit index). The strip-cut index resets the winding order in indexed primitives and can be used to remove the need for degenerate triangles that may otherwise be required to maintain proper winding order in a triangle strip. The following illustration shows an example of a strip-cut index.
 
 ![illustration of a strip-cut index](images/d3d10-ia-strips-cut-value.png)
 
@@ -104,11 +104,11 @@ Each shader stage allows up to 15 shader-constant buffers; each buffer can hold 
 
 Use a constant buffer to store the results of the stream-output stage.
 
-See [Shader Constants (DirectX HLSL)](https://msdn.microsoft.com/library/Bb509581(v=VS.85).aspx) for an example of declaring a constant buffer in a shader.
+See [Shader Constants (DirectX HLSL)](../direct3dhlsl/dx-graphics-hlsl-constants.md) for an example of declaring a constant buffer in a shader.
 
 ## Texture Resources
 
-A texture resource is a structured collection of data designed to store texels. Unlike buffers, textures can be filtered by texture samplers as they are read by shader units. The type of texture impacts how the texture is filtered. A texel represents the smallest unit of a texture that can be read or written to by the pipeline. Each texel contains 1 to 4 components, arranged in one of the DXGI formats (see [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx)).
+A texture resource is a structured collection of data designed to store texels. Unlike buffers, textures can be filtered by texture samplers as they are read by shader units. The type of texture impacts how the texture is filtered. A texel represents the smallest unit of a texture that can be read or written to by the pipeline. Each texel contains 1 to 4 components, arranged in one of the DXGI formats (see [**DXGI\_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)).
 
 Textures are created as a structured resource so that their size is known. However, each texture may be typed or type less at resource-creation time, as long as the type is fully specified using a view when the texture is bound to the pipeline.
 
@@ -233,7 +233,7 @@ Regardless of what texture type you are using, with or without mipmaps, with or 
 
 Creating a fully-typed resource restricts the resource to the format it was created with. This enables the runtime to optimize access, especially if the resource is created with flags indicating that it cannot be [mapped](d3d10-graphics-programming-guide-resources-mapping.md) by the application. Resources created with a specific type cannot be reinterpreted using the view mechanism.
 
-In a type less resource, the data type is unknown when the resource is first created. The application must choose from the available type less formats (see [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx)). You must specify the size of the memory to allocate and whether the runtime will need to generate the subtextures in a mipmap. However, the exact data format (whether the memory will be interpreted as integers, floating point values, unsigned integers etc.) is not determined until the resource is bound to the pipeline with a view. As the texture format remains flexible until the texture is bound to the pipeline, the resource is referred to as weakly typed storage. Weakly typed storage has the advantage that it can be reused or reinterpreted (in another format) as long as the component bit of the new format matches the bit count of the old format.
+In a type less resource, the data type is unknown when the resource is first created. The application must choose from the available type less formats (see [**DXGI\_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)). You must specify the size of the memory to allocate and whether the runtime will need to generate the subtextures in a mipmap. However, the exact data format (whether the memory will be interpreted as integers, floating point values, unsigned integers etc.) is not determined until the resource is bound to the pipeline with a view. As the texture format remains flexible until the texture is bound to the pipeline, the resource is referred to as weakly typed storage. Weakly typed storage has the advantage that it can be reused or reinterpreted (in another format) as long as the component bit of the new format matches the bit count of the old format.
 
 A single resource can be bound to multiple pipeline stages as long as each has a unique view, which fully qualifies the formats at each location. For example, a resource created with the format DXGI\_FORMAT\_R32G32B32A32\_TYPELESS could be used as an DXGI\_FORMAT\_R32G32B32A32\_FLOAT and an DXGI\_FORMAT\_R32G32B32A32\_UINT at different locations in the pipeline simultaneously.
 
@@ -247,7 +247,3 @@ A single resource can be bound to multiple pipeline stages as long as each has a
  
 
  
-
-
-
-

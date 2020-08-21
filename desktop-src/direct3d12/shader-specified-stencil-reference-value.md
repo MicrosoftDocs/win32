@@ -38,7 +38,7 @@ uint main2(float4 c : COORD) : SV_StencilRef
 [Resource Binding in HLSL](resource-binding-in-hlsl.md)
 </dt> <dt>
 
-[Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1)
+[Shader Model 5.1](/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> <dt>
 
 [Specifying Root Signatures in HLSL](specifying-root-signatures-in-hlsl.md)
@@ -47,7 +47,3 @@ uint main2(float4 c : COORD) : SV_StencilRef
  
 
  
-
-
-
-

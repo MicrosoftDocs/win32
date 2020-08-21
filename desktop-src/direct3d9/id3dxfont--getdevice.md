@@ -38,9 +38,9 @@ HRESULT GetDevice(
 *ppDevice* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)\***
 
-Address of a pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the Direct3D device object associated with the font object.
+Address of a pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, representing the Direct3D device object associated with the font object.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 ## Remarks
 
 > [!Note]  
-> Calling this method will increase the internal reference count on the [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface. Be sure to call [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) when you are done using this **IDirect3DDevice9** interface or you will have a memory leak.
+> Calling this method will increase the internal reference count on the [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface. Be sure to call [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) when you are done using this **IDirect3DDevice9** interface or you will have a memory leak.
 
  
 
@@ -78,7 +78,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

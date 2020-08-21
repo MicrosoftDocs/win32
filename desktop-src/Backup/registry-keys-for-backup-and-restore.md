@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # Registry Keys and Values for Backup and Restore
 
-Applications that request or perform backup and restore operations should use the following registry keys and values to communicate with each other or with features such as the [Volume Shadow Copy Service (VSS)](https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-service-portal) and Windows Backup:
+Applications that request or perform backup and restore operations should use the following registry keys and values to communicate with each other or with features such as the [Volume Shadow Copy Service (VSS)](/windows/desktop/VSS/volume-shadow-copy-service-portal) and Windows Backup:
 
 -   [CustomPerformanceSettings](#customperformancesettings)
 -   [DisableMonitoring](#disablemonitoring)
@@ -97,7 +97,7 @@ For block-level volume backups, Windows Server Backup and the Windows Wbadmin ut
 
 ## FilesNotToSnapshot
 
-VSS supports the **FilesNotToSnapshot** registry key. Applications and services can use this key to specify files to be deleted from newly created shadow copies. For more information, see [Excluding Files from Shadow Copies](https://docs.microsoft.com/windows/desktop/VSS/excluding-files-from-shadow-copies).
+VSS supports the **FilesNotToSnapshot** registry key. Applications and services can use this key to specify files to be deleted from newly created shadow copies. For more information, see [Excluding Files from Shadow Copies](/windows/desktop/VSS/excluding-files-from-shadow-copies).
 
 **Windows Server 2003 and Windows XP:** This registry key is not supported.
 
@@ -129,7 +129,7 @@ If you set this registry value:
 
 ## KeysNotToRestore
 
-The **KeysNotToRestore** registry key specifies the names of the registry subkeys and values that backup applications should not restore. For more information, see [KeysNotToRestore](https://technet.microsoft.com/library/44eee1b5-51b8-4c29-a04a-2c1e04214381). It is not necessary to honor the **KeysNotToRestore** registry key.
+The **KeysNotToRestore** registry key specifies the names of the registry subkeys and values that backup applications should not restore. For more information, see [KeysNotToRestore](/previous-versions/windows/it-pro/windows-server-2003/cc737538(v=ws.10)). It is not necessary to honor the **KeysNotToRestore** registry key.
 
 **Windows Server 2003 and Windows XP:** You must honor the **KeysNotToRestore** registry key.
 
@@ -139,7 +139,7 @@ System State Backup honors the **KeysNotToRestore** registry key.
 
 ## LastInstance
 
-The **LastInstance** registry value indicates that a bare-metal restore operation has been performed and that the volumes have been overwritten but not formatted. For more information, see [Using VSS Automated System Recovery for Disaster Recovery](https://docs.microsoft.com/windows/desktop/VSS/using-vss-automated-system-recovery-for-disaster-recovery).
+The **LastInstance** registry value indicates that a bare-metal restore operation has been performed and that the volumes have been overwritten but not formatted. For more information, see [Using VSS Automated System Recovery for Disaster Recovery](/windows/desktop/VSS/using-vss-automated-system-recovery-for-disaster-recovery).
 
 **Windows Server 2003 and Windows XP:** This registry value is not supported.
 
@@ -163,7 +163,7 @@ Other applications that need to monitor system state restores should store the d
 
 ## MaxShadowCopies
 
-The **MaxShadowCopies** registry value specifies the maximum number of [*client-accessible shadow copies*](https://docs.microsoft.com/windows/desktop/VSS/vssgloss-c) that can be stored on each volume of the computer. A client-accessible shadow copy is a shadow copy that is created using the **VSS\_CTX\_CLIENT\_ACCESSIBLE** value of the [**\_VSS\_SNAPSHOT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context) enumeration. Client-accessible shadow copies are used by Shadow Copies for Shared Folders. For more information about shadow copies, see the [VSS](https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-service-portal) documentation.
+The **MaxShadowCopies** registry value specifies the maximum number of [*client-accessible shadow copies*](/windows/desktop/VSS/vssgloss-c) that can be stored on each volume of the computer. A client-accessible shadow copy is a shadow copy that is created using the **VSS\_CTX\_CLIENT\_ACCESSIBLE** value of the [**\_VSS\_SNAPSHOT\_CONTEXT**](/windows/desktop/api/vss/ne-vss-vss_snapshot_context) enumeration. Client-accessible shadow copies are used by Shadow Copies for Shared Folders. For more information about shadow copies, see the [VSS](/windows/desktop/VSS/volume-shadow-copy-service-portal) documentation.
 
 If the **MaxShadowCopies** registry value does not exist, the backup application can create it under the following registry key:
 
@@ -184,7 +184,7 @@ Create a value with the name **MaxShadowCopies** and type DWORD. The default dat
 
 ## MinDiffAreaFileSize
 
-[VSS](https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-service-portal) allocates a shadow copy storage area (or "diff area") to store data for shadow copies. The minimum size of the shadow copy storage area is a per-computer setting that can be specified by using the **MinDiffAreaFileSize** registry value.
+[VSS](/windows/desktop/VSS/volume-shadow-copy-service-portal) allocates a shadow copy storage area (or "diff area") to store data for shadow copies. The minimum size of the shadow copy storage area is a per-computer setting that can be specified by using the **MinDiffAreaFileSize** registry value.
 
 If the **MinDiffAreaFileSize** registry value is not set, the minimum size of the shadow copy storage area is 32 MB for volumes that are smaller than 500 MB and 320 MB for volumes that are larger than 500 MB.
 
@@ -200,7 +200,7 @@ If the **MinDiffAreaFileSize** registry value does not exist, the backup applica
 
 Create a value with the name **MinDiffAreaFileSize** and type REG\_DWORD. The data for this key is specified in megabytes. 320 is equal to 320 MB, and 3200 is equal to 3.2 GB. You should specify a number that is a multiple of 32. If you specify a value that is not a multiple of 32, the next multiple of 32 will be used.
 
-Shadow copies might not function correctly if the **MinDiffAreaFileSize** registry value specifies a minimum size that is larger than the maximum size of the shadow copy storage area. To specify the maximum size of the shadow copy storage area, use the [Vssadmin](https://technet.microsoft.com/library/df7eb505-43c6-42af-ab42-3095f96ffc27) add shadowstorage or the Vssadmin resize shadowstorage command. To see the current maximum size, use the [Vssadmin list shadowstorage](https://technet.microsoft.com/library/df7eb505-43c6-42af-ab42-3095f96ffc27) command. If you have not set a maximum size, there is no limit to the amount of space that can be used.
+Shadow copies might not function correctly if the **MinDiffAreaFileSize** registry value specifies a minimum size that is larger than the maximum size of the shadow copy storage area. To specify the maximum size of the shadow copy storage area, use the [Vssadmin](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754968(v=ws.11)) add shadowstorage or the Vssadmin resize shadowstorage command. To see the current maximum size, use the [Vssadmin list shadowstorage](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754968(v=ws.11)) command. If you have not set a maximum size, there is no limit to the amount of space that can be used.
 
 ## OverallPerformanceSetting and CustomPerformanceSettings
 
@@ -216,9 +216,9 @@ To specify performances settings for all volumes, create a value with the name *
 
 | Value | Meaning                                                                                                                                                                                                                                   |
 |-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1     | Normal backup performance (by using full backups). This setting corresponds to the Normal backup performance setting described in [Optimizing Backup and Server Performance](https://technet.microsoft.com/library/dd759145.aspx).            |
-| 2     | Faster backup performance (by using incremental backups). This setting corresponds to the Faster backup performance setting described in [Optimizing Backup and Server Performance](https://technet.microsoft.com/library/dd759145.aspx).     |
-| 3     | Custom backup performance (by specifying a performance setting for each volume). This setting corresponds to the Custom setting described in [Optimizing Backup and Server Performance](https://technet.microsoft.com/library/dd759145.aspx). |
+| 1     | Normal backup performance (by using full backups). This setting corresponds to the Normal backup performance setting described in [Optimizing Backup and Server Performance](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759145(v=ws.11)).            |
+| 2     | Faster backup performance (by using incremental backups). This setting corresponds to the Faster backup performance setting described in [Optimizing Backup and Server Performance](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759145(v=ws.11)).     |
+| 3     | Custom backup performance (by specifying a performance setting for each volume). This setting corresponds to the Custom setting described in [Optimizing Backup and Server Performance](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759145(v=ws.11)). |
 
 
 
@@ -255,7 +255,3 @@ Create a value with the name **SYSVOL** and type REG\_SZ. The value's data shoul
  
 
  
-
-
-
-

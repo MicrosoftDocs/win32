@@ -143,19 +143,13 @@ Other tools, such as the Windows Performance Toolkit, are included in the ADK. T
   
 **Documentation:**
 
--   [Windows Assessment and Deployment Kit](https://msdn.microsoft.com/library/windows/hardware/hh825420.aspx)
--   [Windows Assessment Toolkit Technical Reference](https://msdn.microsoft.com/library/windows/hardware/hh825508.aspx)
--   [Assessment Execution Engine](https://docs.microsoft.com/previous-versions/windows/win32/axe/axe-access-portal)
+-   [Windows Assessment and Deployment Kit](/previous-versions/windows/hh825420(v=win.10))
+-   [Windows Assessment Toolkit Technical Reference](/previous-versions/windows/it-pro/windows-8.1-and-8/hh825508(v=win.10))
+-   [Assessment Execution Engine](/previous-versions/windows/win32/axe/axe-access-portal)
 -   [Windows Performance Analysis](https://msdn.microsoft.com/performance/default.aspx)
 
   
 </dl>
 
  
-
- 
-
-
-
-
 

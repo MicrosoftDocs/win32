@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 The [*Managed Object Format (MOF)*](gloss-m.md) compiler parses a file containing MOF statements and adds the classes and class instances defined in the file to the WMI repository. MOF files are usually automatically compiled during the installation of the systems with which they are provided, but you can also compile MOF files by using this tool.
 
-For more information about locating and using mofcomp.exe, see [Using WMI Management Tools](https://TechNet.Microsoft.Com/library/cc180468.aspx). For information about removing classes and instances from the WMI repository, see the [**pragma deleteclass**](pragma-deleteclass.md) preprocessor command.
+For more information about locating and using mofcomp.exe, see [Using WMI Management Tools](/previous-versions/system-center/configuration-manager-2003/cc180468(v=technet.10)). For information about removing classes and instances from the WMI repository, see the [**pragma deleteclass**](pragma-deleteclass.md) preprocessor command.
 
 The following code example shows how to run the MOF compiler on a file.
 
@@ -281,9 +281,4 @@ When an error occurs in updating the WMI repository, the compiler makes no attem
 </dt> </dl>
 
  
-
- 
-
-
-
 

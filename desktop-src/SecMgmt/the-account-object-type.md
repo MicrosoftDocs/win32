@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # The Account Object Type
 
-[**Account**](account-object.md) objects are used to signify [*privileges*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly), or system access rights that are to be bestowed upon a user or members of groups or local groups.
+[**Account**](account-object.md) objects are used to signify [*privileges*](/windows/desktop/SecGloss/p-gly), or system access rights that are to be bestowed upon a user or members of groups or local groups.
 
 [**Account**](account-object.md) objects reside within the [**Policy**](policy-object.md) object. There may be zero or more of these objects.
 
@@ -17,6 +17,3 @@ The [**Account**](account-object.md) object has no object-specific data types.
  
 
  
-
-
-

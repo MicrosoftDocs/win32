@@ -59,7 +59,7 @@ This event does not return a value.
 
 ## Error codes
 
-After the completion of the **OnObjectPut** event, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes below.
+After the completion of the **OnObjectPut** event, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes below.
 
 <dl> <dt>
 
@@ -115,9 +115,4 @@ Networking error occurred, preventing normal operation.
 </dt> </dl>
 
  
-
- 
-
-
-
 

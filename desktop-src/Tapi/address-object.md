@@ -19,7 +19,7 @@ The Address object represents an entity that can make or receive calls. This obj
 
 Most addresses are associated with a terminal, but this is not uniformly the case. For example, a remote TSP that provides access to equipment on a server will have an address on the local machine but not a terminal. A speakerless modem also has no terminal associated with its address.
 
-If an address does not have an associated terminal, the [**ITTerminalSupport**](https://msdn.microsoft.com/library/ms733156(v=VS.85).aspx) interface is not exposed on the object.
+If an address does not have an associated terminal, the [**ITTerminalSupport**](/windows/win32/api/tapi3if/nn-tapi3if-itterminalsupport) interface is not exposed on the object.
 
 The [Select an Address](select-an-address.md) code example shows the basic process for acquiring an address object pointer.
 
@@ -28,6 +28,3 @@ See [Address Object Interfaces](address-object-interfaces.md) for a list of all 
  
 
  
-
-
-

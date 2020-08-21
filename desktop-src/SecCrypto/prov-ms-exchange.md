@@ -18,10 +18,10 @@ For descriptions of each of these algorithms, see the glossary.
 
 | Purpose      | Supported algorithms                                           |
 |--------------|----------------------------------------------------------------|
-| Key Exchange | [*RSA*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx)    |
+| Key Exchange | [*RSA*](../secgloss/r-gly.md)    |
 | Signature    | RSA                                                            |
-| Encryption   | [*CAST*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) |
-| Hashing      | [*MD5*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx)    |
+| Encryption   | [*CAST*](../secgloss/c-gly.md) |
+| Hashing      | [*MD5*](../secgloss/m-gly.md)    |
 
 
 
@@ -30,6 +30,3 @@ For descriptions of each of these algorithms, see the glossary.
  
 
  
-
-
-

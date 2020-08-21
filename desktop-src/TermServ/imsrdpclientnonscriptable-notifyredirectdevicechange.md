@@ -33,7 +33,7 @@ ms.date: 05/31/2018
 
 # IMsRdpClientNonScriptable::NotifyRedirectDeviceChange method
 
-Notifies the device redirection module of the Remote Desktop ActiveX control that a device change has occurred on the system. This method passes [**WM\_DEVICECHANGE**](https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange) notifications to the control.
+Notifies the device redirection module of the Remote Desktop ActiveX control that a device change has occurred on the system. This method passes [**WM\_DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) notifications to the control.
 
 ## Syntax
 
@@ -193,7 +193,7 @@ The meaning of this message is user-defined.
 *lParam* \[in\]
 </dt> <dd>
 
-Pointer to a structure that contains event-specific data. Its format depends on the value of the *wParam* parameter. For more information, refer to the documentation for each event. For more information, see [Device Event Types](https://docs.microsoft.com/windows/desktop/DevIO/device-event-types).
+Pointer to a structure that contains event-specific data. Its format depends on the value of the *wParam* parameter. For more information, refer to the documentation for each event. For more information, see [Device Event Types](/windows/desktop/DevIO/device-event-types).
 
 </dd> </dl>
 
@@ -203,7 +203,7 @@ Return **S\_OK** if successful.
 
 ## Remarks
 
-A container application that allows dynamic addition or removal of devices should process the [**WM\_DEVICECHANGE**](https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange) message in its top level window and forward the message to the control using the **NotifyRedirectDeviceChange** method. An example of a dynamic device change is when a redirected disk drive is added or removed while the system is running.
+A container application that allows dynamic addition or removal of devices should process the [**WM\_DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) message in its top level window and forward the message to the control using the **NotifyRedirectDeviceChange** method. An example of a dynamic device change is when a redirected disk drive is added or removed while the system is running.
 
 For more information about Remote Desktop Web Connection, see [Requirements for Remote Desktop Web Connection](requirements-for-remote-desktop-web-connection.md).
 
@@ -241,10 +241,4 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

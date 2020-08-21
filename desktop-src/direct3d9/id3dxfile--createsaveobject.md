@@ -41,7 +41,7 @@ HRESULT CreateSaveObject(
 *pData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the name of the file to use for saving data.
 
@@ -112,7 +112,3 @@ The file format values can be combined in a logical OR to create compressed text
  
 
  
-
-
-
-

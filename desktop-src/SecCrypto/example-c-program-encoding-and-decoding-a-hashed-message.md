@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Example C Program: Encoding and Decoding a Hashed Message
 
-The following example [*hashes*](https://msdn.microsoft.com/library/ms721586(v=VS.85).aspx) and encodes a text message, and then decodes and verifies the message.
+The following example [*hashes*](../secgloss/h-gly.md) and encodes a text message, and then decodes and verifies the message.
 
 Although, for simplicity, the two different functions have been combined in this example, in a more realistic setting the two parts would be used separately.
 
@@ -389,6 +389,3 @@ void MyHandleError(char *s)
  
 
  
-
-
-

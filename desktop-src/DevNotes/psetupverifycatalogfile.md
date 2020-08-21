@@ -45,11 +45,11 @@ The fully qualified path of the catalog file to be verified.
 
 ## Return value
 
-If the function succeeds, it returns **ERROR\_SUCCESS**; otherwise, it returns the error from [**WinVerifyTrust**](https://msdn.microsoft.com/library/Aa388208(v=VS.85).aspx).
+If the function succeeds, it returns **ERROR\_SUCCESS**; otherwise, it returns the error from [**WinVerifyTrust**](/windows/win32/api/wintrust/nf-wintrust-winverifytrust).
 
 ## Remarks
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
@@ -65,16 +65,12 @@ This function has no associated import library or header file; you must call it 
 
 <dl> <dt>
 
-[**SetupVerifyInfFile**](https://msdn.microsoft.com/library/Aa377447(v=VS.85).aspx)
+[**SetupVerifyInfFile**](/windows/win32/api/setupapi/nf-setupapi-setupverifyinffilea)
 </dt> <dt>
 
-[**WinVerifyTrust**](https://msdn.microsoft.com/library/Aa388208(v=VS.85).aspx)
+[**WinVerifyTrust**](/windows/win32/api/wintrust/nf-wintrust-winverifytrust)
 </dt> </dl>
 
  
 
  
-
-
-
-

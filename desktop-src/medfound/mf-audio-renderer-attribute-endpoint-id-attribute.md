@@ -23,10 +23,10 @@ You can use this attribute to configure the audio renderer. The usage depends on
 
 An audio endpoint device is a hardware device that lies at one end of an audio data path, such as a headphone or a speaker. To obtain the audio endpoint identifier, use the following core audio APIs:
 
--   Use the [**IMMDeviceEnumerator**](https://msdn.microsoft.com/library/Dd371399(v=VS.85).aspx) interface to enumerate the devices on the system.
--   Call [**IMMDevice::GetId**](https://msdn.microsoft.com/library/Dd371407(v=VS.85).aspx) to get the identifier for the device.
+-   Use the [**IMMDeviceEnumerator**](/windows/win32/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator) interface to enumerate the devices on the system.
+-   Call [**IMMDevice::GetId**](/windows/win32/api/mmdeviceapi/nf-mmdeviceapi-immdevice-getid) to get the identifier for the device.
 
-For more information, see the [Core Audio](https://msdn.microsoft.com/library/Dd370802(v=VS.85).aspx) API documentation. If this attribute is not set, the audio renderer uses the default endpoint device.
+For more information, see the [Core Audio](../coreaudio/core-audio-apis-in-windows-vista.md) API documentation. If this attribute is not set, the audio renderer uses the default endpoint device.
 
 If this attribute is set, do not set the [**MF\_AUDIO\_RENDERER\_ATTRIBUTE\_ENDPOINT\_ROLE**](mf-audio-renderer-attribute-endpoint-role-attribute.md) attribute. If both attributes are set, a failure will occur when the audio renderer is created.
 
@@ -66,7 +66,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

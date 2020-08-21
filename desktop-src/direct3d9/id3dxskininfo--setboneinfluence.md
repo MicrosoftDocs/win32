@@ -41,7 +41,7 @@ HRESULT SetBoneInfluence(
 *Bone* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Bone number.
 
@@ -50,7 +50,7 @@ Bone number.
 *numInfluences* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of influences.
 
@@ -59,7 +59,7 @@ Number of influences.
 *vertices* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 The array of vertices influenced by a bone.
 
@@ -68,7 +68,7 @@ The array of vertices influenced by a bone.
 *weights* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](../winprog/windows-data-types.md)\***
 
 The array of weights influenced by a bone.
 
@@ -107,7 +107,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

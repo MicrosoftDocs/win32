@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualPC::FindVirtualNetwork method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves a virtual network object that matches the requested name.
 
@@ -101,10 +101,4 @@ Virtual network names are case-insensitive, for example, "MyNetwork" and "mynetw
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

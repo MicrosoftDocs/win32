@@ -31,7 +31,7 @@ To create a transition object, call [**IAMTimeline::CreateEmptyNode**](iamtimeli
 
 ## Members
 
-The **IAMTimelineTrans** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IAMTimelineTrans** also has these types of members:
+The **IAMTimelineTrans** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IAMTimelineTrans** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -89,7 +89,3 @@ The **IAMTimelineTrans** interface has these methods.
  
 
  
-
-
-
-

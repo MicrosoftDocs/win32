@@ -69,7 +69,7 @@ The **MDM\_Firewall\_FirewallRules02\_01** class has these properties.
 
 <dl> <dt>
 
-[Description](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#description)
+[Description](/windows/client-management/mdm/firewall-csp#description)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -80,7 +80,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Direction](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#direction)
+[Direction](/windows/client-management/mdm/firewall-csp#direction)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -91,7 +91,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EdgeTraversal](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#edgetraversal)
+[EdgeTraversal](/windows/client-management/mdm/firewall-csp#edgetraversal)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -102,7 +102,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Enabled](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#enabled)
+[Enabled](/windows/client-management/mdm/firewall-csp#enabled)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -148,12 +148,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[InterfaceTypes](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#interfacetypes)
+[InterfaceTypes](/windows/client-management/mdm/firewall-csp#interfacetypes)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -164,7 +164,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LocalAddressRanges](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#localaddressranges)
+[LocalAddressRanges](/windows/client-management/mdm/firewall-csp#localaddressranges)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -175,7 +175,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LocalPortRanges](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#localportranges)
+[LocalPortRanges](/windows/client-management/mdm/firewall-csp#localportranges)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -186,7 +186,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LocalUserAuthorizedList](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#localuserauthorizedlist)
+[LocalUserAuthorizedList](/windows/client-management/mdm/firewall-csp#localuserauthorizedlist)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -197,7 +197,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Name](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#name)
+[Name](/windows/client-management/mdm/firewall-csp#name)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -217,12 +217,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[Profiles](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#profiles)
+[Profiles](/windows/client-management/mdm/firewall-csp#profiles)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -233,7 +233,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Protocol](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#protocol)
+[Protocol](/windows/client-management/mdm/firewall-csp#protocol)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -244,7 +244,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RemoteAddressRanges](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#remoteaddressranges)
+[RemoteAddressRanges](/windows/client-management/mdm/firewall-csp#remoteaddressranges)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -255,7 +255,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RemotePortRanges](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#remoteportranges)
+[RemotePortRanges](/windows/client-management/mdm/firewall-csp#remoteportranges)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -266,7 +266,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Status](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp#status)
+[Status](/windows/client-management/mdm/firewall-csp#status)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -292,10 +292,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

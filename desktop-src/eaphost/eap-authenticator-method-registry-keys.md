@@ -1,6 +1,6 @@
 ---
 title: EAP Authenticator Method Registry Values
-description: Specific registry values are required for EAP authenticator methods.
+description: Learn about EAP Authenticator method registry values. These specific registry values are required for EAP authenticator methods.
 ms.assetid: 9374f9f7-b088-4e3a-ac96-8ccbeda87bb7
 ms.topic: article
 ms.date: 05/31/2018
@@ -29,7 +29,7 @@ For example, an EAP authenticator method installation registration path given an
 **HKLM\\System\\CCS\\Services\\Eaphost\\Methods\\311\\254\\311\\40**
 
 > [!Note]  
-> For more information on the allocation of EAP method types, see section 6.2 of [RFC 3748](Http://go.microsoft.com/fwlink/p/?linkid=84016).
+> For more information on the allocation of EAP method types, see section 6.2 of [RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84016).
 
  
 
@@ -127,7 +127,7 @@ The remaining authenticator method registry values are optional.
 [Using EAPHost](using-eap-host.md)
 </dt> <dt>
 
-[RFC 3748](Http://go.microsoft.com/fwlink/p/?linkid=84016)
+[RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84016)
 </dt> </dl>
 
  

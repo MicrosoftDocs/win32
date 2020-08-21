@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 The Shell supports several search utilities that allow users to locate namespace objects such as files or printers. You can create a custom search engine and make it available to users by implementing and registering a *search handler*.
 
-The general procedures for implementing and registering a Shell extension handler are discussed in [Creating Shell Extension Handlers](https://docs.microsoft.com/windows/desktop/shell/handlers). This document focuses on those aspects of implementation that are specific to search handlers.
+The general procedures for implementing and registering a Shell extension handler are discussed in [Creating Shell Extension Handlers](/windows/desktop/shell/handlers). This document focuses on those aspects of implementation that are specific to search handlers.
 
 -   [How Search Handlers Work](#how-search-handlers-work)
 -   [Registering Search Handlers](#registering-search-handlers)
@@ -43,9 +43,9 @@ There are a number of differences in how Windows 2000 and earlier systems manag
 
 | Pre-Windows 2000                                                                                                                                                                                                       | Windows 2000 and later                                                                                                                                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Search handlers are implemented as a type of [shortcut menu handler](https://docs.microsoft.com/windows/desktop/shell/context-menu-handlers).                                                                                                                     | Search handlers can be implemented as shortcut menu handlers, or as Dynamic HTML (DHTML) documents.                                                                                                                                                                                                               |
+| Search handlers are implemented as a type of [shortcut menu handler](/windows/desktop/shell/context-menu-handlers).                                                                                                                     | Search handlers can be implemented as shortcut menu handlers, or as Dynamic HTML (DHTML) documents.                                                                                                                                                                                                               |
 | Search handlers can be either static or dynamic. Static handlers are loaded only when they are selected by the user. Dynamic handlers are loaded by the Shell at startup and are not terminated until the Shell exits. | Handlers implemented as shortcut menu handlers can be either static or dynamic. Handlers implemented as DHTML documents must be static.                                                                                                                                                                           |
-| Search handlers appear on the **Find** submenu of the **Start** menu and the **Find** submenu of the Windows Explorer **Tools** menu.                                                                                  | Search handlers appear only on the **Search** submenu of the **Start** menu. To make a custom search pane available through the Windows Explorer menu bar, you must implement it as a [band object](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc144099(v=vs.85)). It is then listed on the **Explorer Bar** submenu of the Windows Explorer **View** menu. |
+| Search handlers appear on the **Find** submenu of the **Start** menu and the **Find** submenu of the Windows Explorer **Tools** menu.                                                                                  | Search handlers appear only on the **Search** submenu of the **Start** menu. To make a custom search pane available through the Windows Explorer menu bar, you must implement it as a [band object](/previous-versions/windows/desktop/legacy/cc144099(v=vs.85)). It is then listed on the **Explorer Bar** submenu of the Windows Explorer **View** menu. |
 
 
 
@@ -65,7 +65,7 @@ HKEY_LOCAL_MACHINE
                   FindExtensions
 ```
 
-From this point, the registration procedure depends on whether the handler is to be static or dynamic. For a general discussion of how to register Shell extension handlers, see [Creating Shell Extension Handlers](https://docs.microsoft.com/windows/desktop/shell/handlers).
+From this point, the registration procedure depends on whether the handler is to be static or dynamic. For a general discussion of how to register Shell extension handlers, see [Creating Shell Extension Handlers](/windows/desktop/shell/handlers).
 
 ### Registering a Static Search Handler
 
@@ -73,7 +73,7 @@ Static search handlers are loaded only when they are launched by the user. This 
 
 ### Shortcut menu-based search handlers
 
-If your handler is implemented as a [shortcut menu handler](https://docs.microsoft.com/windows/desktop/shell/context-menu-handlers), set the default value of the handler's name subkey to the object's class identifier (CLSID) GUID. Under the handler's name subkey, create a subkey named **0** (zero) and set its default value to the string that will be displayed in the **Search** or **Find** submenu. You can enable keyboard shortcuts in the usual way, by preceding the shortcut character with an ampersand (&). You can have an optional small icon displayed to the right of the menu text by creating a **DefaultIcon** subkey under the **0** subkey. Set its default value to a string containing the path of the file containing the icon, followed by a comma, followed by the icon's zero-based index.
+If your handler is implemented as a [shortcut menu handler](/windows/desktop/shell/context-menu-handlers), set the default value of the handler's name subkey to the object's class identifier (CLSID) GUID. Under the handler's name subkey, create a subkey named **0** (zero) and set its default value to the string that will be displayed in the **Search** or **Find** submenu. You can enable keyboard shortcuts in the usual way, by preceding the shortcut character with an ampersand (&). You can have an optional small icon displayed to the right of the menu text by creating a **DefaultIcon** subkey under the **0** subkey. Set its default value to a string containing the path of the file containing the icon, followed by a comma, followed by the icon's zero-based index.
 
 The following example registers the **MySearchEngine** search handler. The menu text is "My Search Engine", with M specified as the shortcut key. The icon is in C:\\MyDir\\MySearch.dll, with an index of 2.
 
@@ -96,7 +96,7 @@ HKEY_LOCAL_MACHINE
 
 ### DHTML-based search handlers
 
-With Windows 2000, you can also implement a search handler as a DHTML document. Its name is listed in the **Search** submenu of the **Start** menu. When the user selects it, it launches Windows Explorer with the Explorer bar opened to the search document. You can also specify a DHTML document to be displayed to the right of the Explorer bar. There is no way to launch a different handler from the default Search pane. Search engines can be launched directly from Windows Explorer, but only if they are implemented as as [band objects](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc144099(v=vs.85)).
+With Windows 2000, you can also implement a search handler as a DHTML document. Its name is listed in the **Search** submenu of the **Start** menu. When the user selects it, it launches Windows Explorer with the Explorer bar opened to the search document. You can also specify a DHTML document to be displayed to the right of the Explorer bar. There is no way to launch a different handler from the default Search pane. Search engines can be launched directly from Windows Explorer, but only if they are implemented as as [band objects](/previous-versions/windows/desktop/legacy/cc144099(v=vs.85)).
 
 To register a DHTML-based search handler, set the handler's name subkey to the string form of CLSID\_ShellSearchExt (currently {169A0691-8DF9-11d1-A1C4-00C04FD75D13}) and create the following subkeys.
 
@@ -133,7 +133,7 @@ HKEY_LOCAL_MACHINE
 
 ### Registering a Dynamic Search Handler
 
-If your handler is implemented as a [shortcut menu handler](https://docs.microsoft.com/windows/desktop/shell/context-menu-handlers), you can also register it as a dynamic handler. In that case, it will be loaded with the Shell and will terminate only when the Shell exits. Dynamic search handlers respond much more quickly than static handlers when they are launched by the user. This approach works best if your handler's DLL might take a long time to load, or if it is likely to be called frequently.
+If your handler is implemented as a [shortcut menu handler](/windows/desktop/shell/context-menu-handlers), you can also register it as a dynamic handler. In that case, it will be loaded with the Shell and will terminate only when the Shell exits. Dynamic search handlers respond much more quickly than static handlers when they are launched by the user. This approach works best if your handler's DLL might take a long time to load, or if it is likely to be called frequently.
 
 Dynamic search handlers are registered under the **FindExtensions** subkey.
 
@@ -163,27 +163,23 @@ HKEY_LOCAL_MACHINE
                            (Default) = &My Search Engine
 ```
 
-Unlike static search handlers, you do not specify the menu text in the registry. When the handler is loaded, the Shell will call the handler's [**IContextMenu::QueryContextMenu**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) method to add items to the **Find** or **Search** submenu.
+Unlike static search handlers, you do not specify the menu text in the registry. When the handler is loaded, the Shell will call the handler's [**IContextMenu::QueryContextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) method to add items to the **Find** or **Search** submenu.
 
 ## Implementing Search Handlers
 
 Search handlers can be implemented as shortcut menu handlers for all versions of Windows. For Windows 2000, they can also be implemented as DHTML documents.
 
-For a general discussion of how to implement shortcut menu handlers, see [Creating Context Menu Handlers](https://docs.microsoft.com/windows/desktop/shell/context-menu-handlers). Search handlers differ from standard shortcut menu handlers in only a few ways.
+For a general discussion of how to implement shortcut menu handlers, see [Creating Context Menu Handlers](/windows/desktop/shell/context-menu-handlers). Search handlers differ from standard shortcut menu handlers in only a few ways.
 
 For static menu handlers, the **Find** or **Search** submenu is created from the information in the registry. There is no need to have the handler add a menu item, as a normal shortcut menu handler would. The Shell manages static menu handlers in the following way.
 
--   When the user launches the handler's menu item, the Shell loads the handler's DLL and calls [**IContextMenu::InvokeCommand**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand) to notify the handler to launch the search engine. The [**IShellExtInit::Initialize**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) and [**IContextMenu::QueryContextMenu**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) methods are not called.
--   When [**IContextMenu::InvokeCommand**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand) is called, the **lpVerb** member of the [**CMINVOKECOMMANDINFO**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfo) structure that is passed in identifies the command. The low-order word of **lpVerb** is set to the numerical equivalent of the command's subkey name. Since this subkey is normally named **0**, **lpVerb** is usually set to zero. The handler should then launch the search engine.
+-   When the user launches the handler's menu item, the Shell loads the handler's DLL and calls [**IContextMenu::InvokeCommand**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand) to notify the handler to launch the search engine. The [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) and [**IContextMenu::QueryContextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) methods are not called.
+-   When [**IContextMenu::InvokeCommand**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand) is called, the **lpVerb** member of the [**CMINVOKECOMMANDINFO**](/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfo) structure that is passed in identifies the command. The low-order word of **lpVerb** is set to the numerical equivalent of the command's subkey name. Since this subkey is normally named **0**, **lpVerb** is usually set to zero. The handler should then launch the search engine.
 
-Dynamic search handlers are implemented in much the same way as normal shortcut menu handlers. The primary exception is that when [**IShellExtInit::Initialize**](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) is called, the *pidlFolder* and *lpdobj* arguments are set to **NULL**.
+Dynamic search handlers are implemented in much the same way as normal shortcut menu handlers. The primary exception is that when [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize) is called, the *pidlFolder* and *lpdobj* arguments are set to **NULL**.
 
 DHTML-based search handlers are implemented as a normal DHTML document. They can include any HTML, DHTML, or scripting technology that is supported by Windows Internet Explorer.
 
  
 
  
-
-
-
-

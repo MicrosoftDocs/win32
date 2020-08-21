@@ -23,7 +23,7 @@ Control system that prevents unauthorized users from gaining access to a local n
 <span id="_rpc_full_pointer_glos"></span><span id="_RPC_FULL_POINTER_GLOS"></span>**full pointer**
 </dt> <dd>
 
-Pointer that has all the capabilities normally associated with pointers in C/C++. Specifically, a full pointer can be null and can be aliased to another pointer parameter. The \[ [ptr](https://docs.microsoft.com/windows/desktop/Midl/ptr)\] attribute designates a full pointer. See also [*unique pointer*](u-glos.md) and [*reference pointer*](r-glos.md).
+Pointer that has all the capabilities normally associated with pointers in C/C++. Specifically, a full pointer can be null and can be aliased to another pointer parameter. The \[ [ptr](/windows/desktop/Midl/ptr)\] attribute designates a full pointer. See also [*unique pointer*](u-glos.md) and [*reference pointer*](r-glos.md).
 
 </dd> <dt>
 
@@ -44,7 +44,3 @@ Principal name in Full Subject Issuer Chain format as defined in RFC1779.
  
 
  
-
-
-
-

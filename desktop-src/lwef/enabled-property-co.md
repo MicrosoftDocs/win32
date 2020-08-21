@@ -38,13 +38,7 @@ Returns or sets whether the **Command** is enabled in the specified character's 
 
 ## Remarks
 
-If the [**Enabled**](enabled-property.md) property is set to **True**, the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) objects's caption appears as normal text in the character's pop-up menu when the client application is input-active. If the **Enabled** property is **False**, the caption appears as unavailable (disabled) text. A disabled **Command** is also not accessible for voice input.
+If the [**Enabled**](enabled-property.md) property is set to **True**, the [**Command**](/windows/desktop/lwef/the-command-object) objects's caption appears as normal text in the character's pop-up menu when the client application is input-active. If the **Enabled** property is **False**, the caption appears as unavailable (disabled) text. A disabled **Command** is also not accessible for voice input.
 
  
-
- 
-
-
-
-
 

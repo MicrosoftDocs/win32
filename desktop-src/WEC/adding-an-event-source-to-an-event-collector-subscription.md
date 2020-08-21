@@ -293,7 +293,7 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
 <dl> <dt>
 
-[Configure Computers to Forward and Collect Events](https://technet.microsoft.com/library/cc748890.aspx)
+[Configure Computers to Forward and Collect Events](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc748890(v=ws.11))
 </dt> <dt>
 
 [Creating an Event Collector Subscription](creating-an-event-collector-subscription.md)
@@ -305,7 +305,3 @@ DWORD GetProperty(EC_HANDLE hSubscription,
  
 
  
-
-
-
-

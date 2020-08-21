@@ -41,7 +41,7 @@ ID3DX11EffectType* GetMemberTypeByName(
 *Name* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 A member's name.
 
@@ -79,10 +79,4 @@ A pointer to an [**ID3DX11EffectType**](id3dx11effecttype.md).
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

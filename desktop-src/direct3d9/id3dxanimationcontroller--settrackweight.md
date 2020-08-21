@@ -39,7 +39,7 @@ HRESULT SetTrackWeight(
 *Track* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Identifier of the track to set the weight on.
 
@@ -48,7 +48,7 @@ Identifier of the track to set the weight on.
 *Weight* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Weight value.
 
@@ -81,7 +81,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

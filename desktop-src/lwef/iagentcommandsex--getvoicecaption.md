@@ -16,7 +16,7 @@ HRESULT GetVoiceCaption(
 );
 ```
 
-Retrieves the [**VoiceCaption**](voicecaption-property.md) for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object.
+Retrieves the [**VoiceCaption**](voicecaption-property.md) for a [**Command**](/windows/desktop/lwef/the-command-object) object.
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,11 +25,11 @@ Retrieves the [**VoiceCaption**](voicecaption-property.md) for a [**Command**](h
 <span id="pbszVoiceCaption"></span><span id="pbszvoicecaption"></span><span id="PBSZVOICECAPTION"></span>*pbszVoiceCaption*
 </dt> <dd>
 
-The address of a BSTR that receives the value of the [**Caption**](caption-property.md) text displayed for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+The address of a BSTR that receives the value of the [**Caption**](caption-property.md) text displayed for a [**Command**](/windows/desktop/lwef/the-command-object).
 
 </dd> </dl>
 
-The text returned is that set for your [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object and appears in the Voice Commands window when your client application is input-active.
+The text returned is that set for your [**Command**](/windows/desktop/lwef/the-command-object) object and appears in the Voice Commands window when your client application is input-active.
 
 This property applies only to your client application's use of the character; the setting does not affect other clients of the character or other characters of your client application.
 
@@ -41,7 +41,3 @@ This property applies only to your client application's use of the character; th
  
 
  
-
-
-
-

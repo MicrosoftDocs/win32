@@ -48,7 +48,7 @@ Handle of the parent technique. See [Handles (Direct3D 9)](handles.md).
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 String containing the pass name.
 
@@ -81,7 +81,3 @@ Returns the handle of the first pass inside the specified technique that has the
  
 
  
-
-
-
-

@@ -25,7 +25,7 @@ This section describes the functions, structures, and messages associated with t
 -   [**acmDriverClose**](/windows/desktop/api/Msacm/nf-msacm-acmdriverclose)
 -   [**ACMDRIVERDETAILS**](/windows/win32/api/msacm/ns-msacm-acmdriverdetails)
 -   [**acmDriverEnum**](/windows/desktop/api/Msacm/nf-msacm-acmdriverenum)
--   [**acmDriverEnumCallback**](https://msdn.microsoft.com/library/Dd742891(v=VS.85).aspx)
+-   [**acmDriverEnumCallback**](/windows/win32/api/msacm/nc-msacm-acmdriverenumcb)
 -   [**acmDriverID**](/windows/desktop/api/Msacm/nf-msacm-acmdriverid)
 -   [**acmDriverMessage**](/windows/desktop/api/Msacm/nf-msacm-acmdrivermessage)
 -   [**acmDriverOpen**](/windows/desktop/api/Msacm/nf-msacm-acmdriveropen)
@@ -65,7 +65,7 @@ This section describes the functions, structures, and messages associated with t
 
 -   [**acmStreamClose**](/windows/desktop/api/Msacm/nf-msacm-acmstreamclose)
 -   [**acmStreamConvert**](/windows/desktop/api/Msacm/nf-msacm-acmstreamconvert)
--   [**acmStreamConvertCallback**](https://docs.microsoft.com/previous-versions//dd742925(v=vs.85))
+-   [**acmStreamConvertCallback**](/previous-versions//dd742925(v=vs.85))
 -   [**ACMSTREAMHEADER**](/windows/win32/api/msacm/ns-msacm-acmstreamheader)
 -   [**acmStreamMessage**](/windows/desktop/api/Msacm/nf-msacm-acmstreammessage)
 -   [**acmStreamOpen**](/windows/desktop/api/Msacm/nf-msacm-acmstreamopen)
@@ -89,7 +89,3 @@ This section describes the functions, structures, and messages associated with t
  
 
  
-
-
-
-

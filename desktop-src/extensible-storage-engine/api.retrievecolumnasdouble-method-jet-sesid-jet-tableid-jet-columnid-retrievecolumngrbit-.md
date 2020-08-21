@@ -89,7 +89,7 @@ public static Nullable<double> RetrieveColumnAsDouble(
 
 #### Return value
 
-Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)\>  
+Type: [System.Nullable](/dotnet/api/system.nullable-1)\<[Double](/dotnet/api/system.double)\>  
 The data retrieved from the column as a double. Null if the column is null.  
 
 ## See also
@@ -103,4 +103,3 @@ The data retrieved from the column as a double. Null if the column is null.
 [RetrieveColumnAsDouble overload](dn334055\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

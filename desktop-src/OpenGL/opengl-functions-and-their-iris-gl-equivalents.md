@@ -361,7 +361,7 @@ This appendix lists IRIS GL functions and their equivalent OpenGL functions. The
 | videocmd         | Not supported.                                                                                                                                                                                                                  |
 | viewport         | [**glViewport**](glviewport.md)                                                                                                                                                                                                |
 | winattach        | Use Windows for windowing.                                                                                                                                                                                                      |
-| winclose         | [**wglDeleteContext**](/windows/desktop/api/wingdi/nf-wingdi-wgldeletecontext), [**CloseWindow**](https://msdn.microsoft.com/library/ms632678(v=VS.85).aspx)                                                                                                                                         |
+| winclose         | [**wglDeleteContext**](/windows/desktop/api/wingdi/nf-wingdi-wgldeletecontext), [**CloseWindow**](/windows/win32/api/winuser/nf-winuser-closewindow)                                                                                                                                         |
 | winconstraints   | Use Windows for windowing.                                                                                                                                                                                                      |
 | windepth         | Use Windows for windowing.                                                                                                                                                                                                      |
 | window           | [**glFrustum**](glfrustum.md)                                                                                                                                                                                                  |
@@ -392,7 +392,3 @@ This appendix lists IRIS GL functions and their equivalent OpenGL functions. The
  
 
  
-
-
-
-

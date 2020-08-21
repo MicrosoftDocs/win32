@@ -38,7 +38,7 @@ HRESULT DrawSubset(
 *AttribId* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Specifies which subset of the mesh to draw. This value is used to differentiate faces in a mesh as belonging to one or more attribute groups.
 
@@ -78,7 +78,3 @@ An attribute table is used to identify areas of the mesh that need to be drawn w
  
 
  
-
-
-
-

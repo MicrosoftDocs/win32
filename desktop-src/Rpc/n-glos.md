@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 <span id="_rpc_name_service_glos"></span><span id="_RPC_NAME_SERVICE_GLOS"></span>**name service**
 </dt> <dd>
 
-Service that maps names to objects and stores the name/object pairs in a database. For example, the RPC name service maps a logical name to a [*binding handle*](b-glos.md) so client applications can refer to that logical name, rather than a protocol sequence and network address. See also name service–interface daemon ([nsid)](https://docs.microsoft.com/windows), Client Directory Service ([*CDS)*](c-glos.md), [*Locator*](l-glos.md).
+Service that maps names to objects and stores the name/object pairs in a database. For example, the RPC name service maps a logical name to a [*binding handle*](b-glos.md) so client applications can refer to that logical name, rather than a protocol sequence and network address. See also name service–interface daemon ([nsid)](/windows), Client Directory Service ([*CDS)*](c-glos.md), [*Locator*](l-glos.md).
 
 </dd> <dt>
 
@@ -30,7 +30,7 @@ Collection of guidelines for distributed computing. The RPC communication protoc
 <span id="_rpc_nsi_glos"></span><span id="_RPC_NSI_GLOS"></span>**Name Service Independent (NSI)**
 </dt> <dd>
 
-Standard for API functions that allows a distributed application to access RPC name-service database elements through various name-service providers, such as OSF-DCE Cell Directory Service or Microsoft Locator. See also [–interface daemon](https://docs.microsoft.com/windows) (nsid).
+Standard for API functions that allows a distributed application to access RPC name-service database elements through various name-service providers, such as OSF-DCE Cell Directory Service or Microsoft Locator. See also [–interface daemon](/windows) (nsid).
 
 </dd> <dt>
 
@@ -44,14 +44,14 @@ Service that provides an interface between Microsoft [*Locator*](l-glos.md) and 
 <span id="_rpc_named_pipe_glos"></span><span id="_RPC_NAMED_PIPE_GLOS"></span>**named pipe**
 </dt> <dd>
 
-Connection-oriented protocol, based on Server Message Blocks (SMBs) and [NetBIOS](https://docs.microsoft.com/windows), used for communication between a server process and one or more client processes.
+Connection-oriented protocol, based on Server Message Blocks (SMBs) and [NetBIOS](/windows), used for communication between a server process and one or more client processes.
 
 </dd> <dt>
 
 <span id="_rpc_netbeui_glos"></span><span id="_RPC_NETBEUI_GLOS"></span>**NetBIOS Extended User Interface (NetBEUI)**
 </dt> <dd>
 
-LAN Manager native transport protocol and network device driver. See also [NetBIOS](https://docs.microsoft.com/windows).
+LAN Manager native transport protocol and network device driver. See also [NetBIOS](/windows).
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ Address that identifies a server on a network.
 <span id="_rpc_nonencapsulated_union_glos"></span><span id="_RPC_NONENCAPSULATED_UNION_GLOS"></span>**nonencapsulated union**
 </dt> <dd>
 
-[*Discriminated union*](d-glos.md) that is less restrictive than an encapsulated union in that the discriminant and the union are not tightly bound. If the union is a parameter, the discriminant is another parameter; if the union is a structure field, the discriminant is another structure field. The IDL keywords \[[**switch\_is**](https://docs.microsoft.com/windows/desktop/Midl/switch-is)\] and \[[**switch\_type**](https://docs.microsoft.com/windows/desktop/Midl/switch-type)\] identify the discriminant and its type. See also [*encapsulated union*](e-glos.md).
+[*Discriminated union*](d-glos.md) that is less restrictive than an encapsulated union in that the discriminant and the union are not tightly bound. If the union is a parameter, the discriminant is another parameter; if the union is a structure field, the discriminant is another structure field. The IDL keywords \[[**switch\_is**](/windows/desktop/Midl/switch-is)\] and \[[**switch\_type**](/windows/desktop/Midl/switch-type)\] identify the discriminant and its type. See also [*encapsulated union*](e-glos.md).
 
 </dd> <dt>
 
@@ -93,7 +93,3 @@ Indicator that a remote procedure call cannot be executed more than once because
  
 
  
-
-
-
-

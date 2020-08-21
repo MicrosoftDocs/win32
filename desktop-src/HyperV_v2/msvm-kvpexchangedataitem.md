@@ -65,7 +65,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -78,7 +78,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MAXLEN**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1024)
+Qualifiers: [**MAXLEN**](/windows/desktop/WmiSdk/standard-qualifiers) (1024)
 </dt> </dl>
 
 The value portion of the key/value pair.
@@ -94,7 +94,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -107,7 +107,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -123,7 +123,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -136,7 +136,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MAXLEN**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1024)
+Qualifiers: [**MAXLEN**](/windows/desktop/WmiSdk/standard-qualifiers) (1024)
 </dt> </dl>
 
 The key portion of the key/value pair.
@@ -146,24 +146,24 @@ The key portion of the key/value pair.
 | Key                                                                                                     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>"CSDVersion"</dt> </dl>                 | A string that represents the latest service pack installed on the guest system. For example, "Service Pack 2". If no service pack has been installed, this string is empty.<br/>                                                                                                                                                                                                                                                                                                                                          |
-| <dl> <dt>"FullyQualifiedDomainName"</dt> </dl>   | A string that represents the fully qualified DNS name that uniquely identifies the local computer. This name is a combination of the DNS host name and the DNS domain name, using the format *HostName*.*DomainName*. If the local computer is a node in a cluster, this value is the fully qualified DNS name of the cluster virtual server. This value matches the name returned by the [**GetComputerNameEx**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa) function when the *NameType* parameter is "ComputerNameDnsFullyQualified".<br/> |
+| <dl> <dt>"FullyQualifiedDomainName"</dt> </dl>   | A string that represents the fully qualified DNS name that uniquely identifies the local computer. This name is a combination of the DNS host name and the DNS domain name, using the format *HostName*.*DomainName*. If the local computer is a node in a cluster, this value is the fully qualified DNS name of the cluster virtual server. This value matches the name returned by the [**GetComputerNameEx**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa) function when the *NameType* parameter is "ComputerNameDnsFullyQualified".<br/> |
 | <dl> <dt>"IntegrationServicesVersion"</dt> </dl> | A string representing the version of the Integration Services currently installed in the guest virtual machine (for example, "6.1.7000.0").<br/>                                                                                                                                                                                                                                                                                                                                                                          |
 | <dl> <dt>"NetworkAddressIPv4"</dt> </dl>         | A string that contains a semicolon-delimited list of the IPv4 addresses currently assigned to the guest virtual machine. The list is automatically updated whenever a TCP/IP configuration change occurs on the guest virtual machine. Each address is represented in dot-decimal notation. <br/>                                                                                                                                                                                                                         |
 | <dl> <dt>"NetworkAddressIPv6"</dt> </dl>         | A string that contains a semicolon-delimited list of the IPv6 addresses currently assigned to the guest virtual machine. The list is automatically updated whenever a TCP/IP configuration change occurs on the guest virtual machine. Each address is represented in colon-hexadecimal notation. The IPv4 and IPv6 lists are not guaranteed to be in sync at all times.<br/>                                                                                                                                             |
 | <dl> <dt>"OSBuildNumber"</dt> </dl>              | A string that represents the build number of the operating system.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| <dl> <dt>"OSEditionId"</dt> </dl>                | A string representing the edition (SKU) of the guest virtual machine operating system. For a list of possible values, see the [**GetProductInfo**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getproductinfo) function.<br/>                                                                                                                                                                                                                                                                                                                                    |
+| <dl> <dt>"OSEditionId"</dt> </dl>                | A string representing the edition (SKU) of the guest virtual machine operating system. For a list of possible values, see the [**GetProductInfo**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getproductinfo) function.<br/>                                                                                                                                                                                                                                                                                                                                    |
 | <dl> <dt>"OSName"</dt> </dl>                     | A string that represents the name of the operating system. This value comes from the following registry entry: **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows NT**\\**CurrentVersion**\\**ProductName**<br/> <br/>                                                                                                                                                                                                                                                                                |
 | <dl> <dt>"OSMajorVersion"</dt> </dl>             | A string that represents the major version number of the operating system.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | <dl> <dt>"OSMinorVersion"</dt> </dl>             | A string that represents the minor version number of the operating system.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | <dl> <dt>"OSPlatformId"</dt> </dl>               | A string that represents the operating system platform. The possible values of the **Data** property are "1" to indicate an unsupported Windows system and "2" to indicate a supported Windows system.<br/>                                                                                                                                                                                                                                                                                                               |
 | <dl> <dt>"OSVersion"</dt> </dl>                  | A string that represents the operating system version. The format of this string is *MajorVersion*.*MinorVersion*.*BuildNumber*. For example, "5.2.3790" for Windows Server 2003.<br/>                                                                                                                                                                                                                                                                                                                                    |
-| <dl> <dt>"ProcessorArchitecture"</dt> </dl>      | A string that represents the processor architecture of the operating system. For a list of values, see the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info) structure.<br/>                                                                                                                                                                                                                                                                                                              |
-| <dl> <dt>"ProductType"</dt> </dl>                | A string that represents the product type. For a list of values, see the **wProductType** member of the [**OSVERSIONINFOEX**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa) structure.<br/>                                                                                                                                                                                                                                                                                                                                                   |
+| <dl> <dt>"ProcessorArchitecture"</dt> </dl>      | A string that represents the processor architecture of the operating system. For a list of values, see the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info) structure.<br/>                                                                                                                                                                                                                                                                                                              |
+| <dl> <dt>"ProductType"</dt> </dl>                | A string that represents the product type. For a list of values, see the **wProductType** member of the [**OSVERSIONINFOEX**](/windows/desktop/api/winnt/ns-winnt-osversioninfoexa) structure.<br/>                                                                                                                                                                                                                                                                                                                                                   |
 | <dl> <dt>"RDPAddressIPv4"</dt> </dl>             | A string that contains a semicolon-delimited list of the IPv4 addresses that the guest virtual machine RDP stack is currently listening on. If the RDP stack is not currently running, the string will be empty. The list is automatically updated whenever a TCP/IP configuration change affects the RDP stack on the guest virtual machine. Each address is represented in dot-decimal notation.<br/>                                                                                                                   |
 | <dl> <dt>"RDPAddressIPv6"</dt> </dl>             | A string that contains a semicolon-delimited list of the IPv6 addresses that the guest virtual machine RDP stack is currently listening on. If the RDP stack is not currently running, the string will be empty. The list is automatically updated whenever a TCP/IP configuration change affects the RDP stack on the guest virtual machine. Each address is represented in colon-hexadecimal notation.<br/>                                                                                                             |
 | <dl> <dt>"ServicePackMajor"</dt> </dl>           | A string that represents the major version number of the latest service pack installed on the system.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                |
 | <dl> <dt>"ServicePackMinor"</dt> </dl>           | A string that represents the minor version number of the latest service pack installed on the system.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                |
-| <dl> <dt>"SuiteMask"</dt> </dl>                  | A string that represents the product suites available on the system. This string is a combination of any of the values of the **wSuiteMask** member of the [**OSVERSIONINFOEX**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa) structure.<br/>                                                                                                                                                                                                                                                                                                |
+| <dl> <dt>"SuiteMask"</dt> </dl>                  | A string that represents the product suites available on the system. This string is a combination of any of the values of the **wSuiteMask** member of the [**OSVERSIONINFOEX**](/windows/desktop/api/winnt/ns-winnt-osversioninfoexa) structure.<br/>                                                                                                                                                                                                                                                                                                |
 
 
 
@@ -199,7 +199,7 @@ The source of the data.
 
 ## Remarks
 
-Access to the **Msvm\_KvpExchangeDataItem** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_KvpExchangeDataItem** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -222,13 +222,8 @@ Access to the **Msvm\_KvpExchangeDataItem** class might be restricted by UAC Fil
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> <dt>
 
-[**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement)
+[**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)
 </dt> </dl>
 
  
-
- 
-
-
-
 

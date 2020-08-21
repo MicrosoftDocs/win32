@@ -23,9 +23,9 @@ The following functions are used with multimedia timers.
 -   [**timeGetDevCaps**](/windows/desktop/api/TimeAPI/nf-timeapi-timegetdevcaps)
 -   [**timeGetSystemTime**](/windows/desktop/api/TimeAPI/nf-timeapi-timegetsystemtime)
 -   [**timeGetTime**](/windows/desktop/api/TimeAPI/nf-timeapi-timegettime)
--   [**timeKillEvent**](https://msdn.microsoft.com/library/Dd757630(v=VS.85).aspx)
--   [**TimeProc**](https://msdn.microsoft.com/library/Dd757631(v=VS.85).aspx)
--   [**timeSetEvent**](https://msdn.microsoft.com/library/Dd757634(v=VS.85).aspx)
+-   [**timeKillEvent**](/previous-versions//dd757630(v=vs.85))
+-   [**TimeProc**](/previous-versions//dd757631(v=vs.85))
+-   [**timeSetEvent**](/previous-versions//dd757634(v=vs.85))
 
 ## Related topics
 
@@ -37,7 +37,3 @@ The following functions are used with multimedia timers.
  
 
  
-
-
-
-

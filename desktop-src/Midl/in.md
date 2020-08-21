@@ -66,7 +66,7 @@ Specifies zero or more attributes appropriate for the specified parameter type. 
 *declarator* 
 </dt> <dd>
 
-Specifies standard C declarators, such as identifiers, pointer declarators, and array declarators. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**arrays**](arrays-1.md), and [Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers). The parameter declarator in the function declarator, such as the parameter name, is optional.
+Specifies standard C declarators, such as identifiers, pointer declarators, and array declarators. For more information, see [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md), [**arrays**](arrays-1.md), and [Arrays and Pointers](/windows/desktop/Rpc/arrays-and-pointers). The parameter declarator in the function declarator, such as the parameter name, is optional.
 
 </dd> </dl>
 
@@ -91,7 +91,7 @@ HRESULT MyFunction([in] short count);
 [Interface Definition (IDL) File](interface-definition-idl-file.md)
 </dt> <dt>
 
-[**midl\_user\_allocate**](https://docs.microsoft.com/windows/desktop/Rpc/the-midl-user-allocate-function)
+[**midl\_user\_allocate**](/windows/desktop/Rpc/the-midl-user-allocate-function)
 </dt> <dt>
 
 [**out**](out-idl.md)
@@ -100,7 +100,3 @@ HRESULT MyFunction([in] short count);
  
 
  
-
-
-
-

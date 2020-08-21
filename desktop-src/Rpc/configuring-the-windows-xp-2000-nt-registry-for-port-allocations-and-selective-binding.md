@@ -16,7 +16,7 @@ For versions of windows prior to Windows 2000, the registry keys in the followi
 
 Using the [**RpcServerUseProtseqEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqex) function affects these settings. Developers should be familiar with the registry settings explained in this section and the **RpcServerUseProtseqEx** function when managing port allocations. An example with three hypothetical applications follows the table below, and illustrates how these settings and the **RpcServerUseProtseqEx** function interoperate.
 
-If a key is missing or if it contains an invalid value, the entire configuration is marked as invalid, and all **RpcServerUseProtseq\*** calls over [**ncacn\_ip\_tcp**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp) or [**ncadg\_ip\_udp**](https://docs.microsoft.com/windows/desktop/Midl/ncadg-ip-udp) will fail.
+If a key is missing or if it contains an invalid value, the entire configuration is marked as invalid, and all **RpcServerUseProtseq\*** calls over [**ncacn\_ip\_tcp**](/windows/desktop/Midl/ncacn-ip-tcp) or [**ncadg\_ip\_udp**](/windows/desktop/Midl/ncadg-ip-udp) will fail.
 
 > [!Note]  
 > Ports allocated to a process remain allocated until that process dies. If all available ports are in use, the function returns RPC\_S\_OUT\_OF\_RESOURCES.
@@ -146,16 +146,12 @@ The value of the Ports key, for sake of this example, is 5000-5100 for each entr
 [**RpcServerUseProtseqIfEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqifex)
 </dt> <dt>
 
-[**ncacn\_ip\_tcp**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp)
+[**ncacn\_ip\_tcp**](/windows/desktop/Midl/ncacn-ip-tcp)
 </dt> <dt>
 
-[**ncadg\_ip\_udp**](https://docs.microsoft.com/windows/desktop/Midl/ncadg-ip-udp)
+[**ncadg\_ip\_udp**](/windows/desktop/Midl/ncadg-ip-udp)
 </dt> </dl>
 
  
 
  
-
-
-
-

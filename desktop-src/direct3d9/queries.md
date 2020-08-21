@@ -16,7 +16,7 @@ The diagram shows three states, each defined by circles. Each of the solid lines
 
 -   The signaled state is like an idle state. The query object has been generated and is waiting for the application to issue the query. Once a query has completed and transitioned back to the signaled state, the answer to the query can be retrieved.
 -   The building state is like a staging area for a query. From the building state, a query has been issued (by calling [**D3DISSUE\_BEGIN**](d3dissue-begin.md)) but has not yet transitioned to the issued state. When an application issues a query end (by calling [**D3DISSUE\_END**](d3dissue-end.md)), the query transitions to the issued state.
--   The issued state means that the resource being queried has control of the query. Once the resource finishes its work, the resource transitions the state machine to the signaled state. During the issued state, the application must poll to detect the transition to the signaled state. Once the transition to the signaled state occurs, [**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx) returns the query result (through an argument) to the application.
+-   The issued state means that the resource being queried has control of the query. Once the resource finishes its work, the resource transitions the state machine to the signaled state. During the issued state, the application must poll to detect the transition to the signaled state. Once the transition to the signaled state occurs, [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata) returns the query result (through an argument) to the application.
 
 The following table lists the available query types.
 
@@ -26,27 +26,27 @@ The following table lists the available query types.
 |-------------------|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------|--------------|--------------------------------------------------|
 | BANDWIDTHTIMINGS  | [**D3DISSUE\_BEGIN**](d3dissue-begin.md), [**D3DISSUE\_END**](d3dissue-end.md) | [**D3DDEVINFO\_D3D9BANDWIDTHTIMINGS**](d3ddevinfo-d3d9bandwidthtimings.md) | Retail/Debug | N/A                                              |
 | CACHEUTILIZATION  | [**D3DISSUE\_BEGIN**](d3dissue-begin.md), [**D3DISSUE\_END**](d3dissue-end.md) | [**D3DDEVINFO\_D3D9CACHEUTILIZATION**](d3ddevinfo-d3d9cacheutilization.md) | Retail/Debug | N/A                                              |
-| EVENT             | [**D3DISSUE\_END**](d3dissue-end.md)                                            | BOOL                                                                        | Retail/Debug | [**CreateDevice**](https://msdn.microsoft.com/library/Bb174313(v=VS.85).aspx) |
+| EVENT             | [**D3DISSUE\_END**](d3dissue-end.md)                                            | BOOL                                                                        | Retail/Debug | [**CreateDevice**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-createdevice) |
 | INTERFACETIMINGS  | [**D3DISSUE\_BEGIN**](d3dissue-begin.md), [**D3DISSUE\_END**](d3dissue-end.md) | [**D3DDEVINFO\_D3D9INTERFACETIMINGS**](d3ddevinfo-d3d9interfacetimings.md) | Retail/Debug | N/A                                              |
 | OCCLUSION         | [**D3DISSUE\_BEGIN**](d3dissue-begin.md), [**D3DISSUE\_END**](d3dissue-end.md) | DWORD                                                                       | Retail/Debug | N/A                                              |
 | PIPELINETIMINGS   | [**D3DISSUE\_BEGIN**](d3dissue-begin.md), [**D3DISSUE\_END**](d3dissue-end.md) | [**D3DDEVINFO\_D3D9PIPELINETIMINGS**](d3ddevinfo-d3d9pipelinetimings.md)   | Retail/Debug | N/A                                              |
-| RESOURCEMANAGER   | [**D3DISSUE\_END**](d3dissue-end.md)                                            | [**D3DDEVINFO\_ResourceManager**](d3ddevinfo-resourcemanager.md)           | Debug only   | [**Present**](https://msdn.microsoft.com/library/Bb174423(v=VS.85).aspx)     |
+| RESOURCEMANAGER   | [**D3DISSUE\_END**](d3dissue-end.md)                                            | [**D3DDEVINFO\_ResourceManager**](d3ddevinfo-resourcemanager.md)           | Debug only   | [**Present**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-present)     |
 | TIMESTAMP         | [**D3DISSUE\_END**](d3dissue-end.md)                                            | UINT64                                                                      | Retail/Debug | N/A                                              |
 | TIMESTAMPDISJOINT | [**D3DISSUE\_BEGIN**](d3dissue-begin.md), [**D3DISSUE\_END**](d3dissue-end.md) | BOOL                                                                        | Retail/Debug | N/A                                              |
 | TIMESTAMPFREQ     | [**D3DISSUE\_END**](d3dissue-end.md)                                            | UINT64                                                                      | Retail/Debug | N/A                                              |
-| VCACHE            | [**D3DISSUE\_END**](d3dissue-end.md)                                            | [**D3DDEVINFO\_VCACHE**](d3ddevinfo-vcache.md)                             | Retail/Debug | [**CreateDevice**](https://msdn.microsoft.com/library/Bb174313(v=VS.85).aspx) |
-| VERTEXSTATS       | [**D3DISSUE\_END**](d3dissue-end.md)                                            | [**D3DDEVINFO\_D3DVERTEXSTATS**](d3ddevinfo-d3dvertexstats.md)             | Debug only   | [**Present**](https://msdn.microsoft.com/library/Bb174423(v=VS.85).aspx)     |
+| VCACHE            | [**D3DISSUE\_END**](d3dissue-end.md)                                            | [**D3DDEVINFO\_VCACHE**](d3ddevinfo-vcache.md)                             | Retail/Debug | [**CreateDevice**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-createdevice) |
+| VERTEXSTATS       | [**D3DISSUE\_END**](d3dissue-end.md)                                            | [**D3DDEVINFO\_D3DVERTEXSTATS**](d3ddevinfo-d3dvertexstats.md)             | Debug only   | [**Present**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-present)     |
 | VERTEXTIMINGS     | [**D3DISSUE\_BEGIN**](d3dissue-begin.md), [**D3DISSUE\_END**](d3dissue-end.md) | [**D3DDEVINFO\_D3D9STAGETIMINGS**](d3ddevinfo-d3d9stagetimings.md)         | Retail/Debug | N/A                                              |
 
 
 
  
 
-Some of the queries require a begin and end event, while others only require an end event. The queries that only require an end event begin when another implicit event occurs (which is listed in the table). All queries return an answer, except the event query whose answer is always **TRUE**. An application uses either the state of the query or the return code of [**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx).
+Some of the queries require a begin and end event, while others only require an end event. The queries that only require an end event begin when another implicit event occurs (which is listed in the table). All queries return an answer, except the event query whose answer is always **TRUE**. An application uses either the state of the query or the return code of [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata).
 
 ## Create a Query
 
-Before you create a query, you can check to see if the runtime supports queries by calling [**CreateQuery**](https://msdn.microsoft.com/library/Bb174360(v=VS.85).aspx) with a **NULL** pointer like this:
+Before you create a query, you can check to see if the runtime supports queries by calling [**CreateQuery**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createquery) with a **NULL** pointer like this:
 
 
 ```
@@ -60,7 +60,7 @@ HRESULT hr = m_pd3dDevice->CreateQuery(D3DQUERYTYPE_EVENT, NULL);
 
 
 
-This method returns a success code if a query can be created; otherwise it returns an error code. Once [**CreateQuery**](https://msdn.microsoft.com/library/Bb174360(v=VS.85).aspx) succeeds, you can create a query object like this:
+This method returns a success code if a query can be created; otherwise it returns an error code. Once [**CreateQuery**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createquery) succeeds, you can create a query object like this:
 
 
 ```
@@ -133,12 +133,12 @@ A query in the issued state will transition like this when issued:
 
 ## Check the Query State and Get the Answer to the Query
 
-[**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx) does two things:
+[**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata) does two things:
 
 1.  Returns the query state in the return code.
 2.  Returns the answer to the query in *pData*.
 
-From each of the three query states, here are the [**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx) return codes:
+From each of the three query states, here are the [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata) return codes:
 
 
 
@@ -152,7 +152,7 @@ From each of the three query states, here are the [**GetData**](https://msdn.mic
 
  
 
-For example, when a query is in the issued state and the answer to the query is not available, [**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx) returns S\_FALSE. When the resource finishes its work and the application has issued a query end, the resource transitions the query to the signaled state. From the signaled state, **GetData** returns S\_OK which means that the answer to the query is also returned in *pData*. For instance, here is the sequence of events to return the number of pixels drawn in a render sequence:
+For example, when a query is in the issued state and the answer to the query is not available, [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata) returns S\_FALSE. When the resource finishes its work and the application has issued a query end, the resource transitions the query to the signaled state. From the signaled state, **GetData** returns S\_OK which means that the answer to the query is also returned in *pData*. For instance, here is the sequence of events to return the number of pixels drawn in a render sequence:
 
 -   Create the query.
 -   Issue a begin event.
@@ -190,17 +190,17 @@ while(S_FALSE == pOcclusionQuery->GetData( &numberOfPixelsDrawn,
 
 These lines of code do several things:
 
--   Call [**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx) to return the number of pixels drawn.
+-   Call [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata) to return the number of pixels drawn.
 -   Specify [**D3DGETDATA\_FLUSH**](d3dgetdata-flush.md) to enable the resource to transition the query to the signaled state.
--   Poll the query resource by calling [**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx) from a loop. As long as **GetData** returns S\_FALSE, this means the resource has not returned the answer yet.
+-   Poll the query resource by calling [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata) from a loop. As long as **GetData** returns S\_FALSE, this means the resource has not returned the answer yet.
 
-The return value of [**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx) essentially tells you in what state the query is. Possible values are S\_OK, S\_FALSE, and an error. Do not call **GetData** on a query that is in the building state.
+The return value of [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata) essentially tells you in what state the query is. Possible values are S\_OK, S\_FALSE, and an error. Do not call **GetData** on a query that is in the building state.
 
--   S\_OK means the resource (GPU or driver, or runtime) is finished. The query is returning to the signaled state. The answer (if any) is being returned by [**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx).
+-   S\_OK means the resource (GPU or driver, or runtime) is finished. The query is returning to the signaled state. The answer (if any) is being returned by [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata).
 -   S\_FALSE means the resource (GPU or driver, or runtime) cannot return an answer yet. This could be because the GPU is not finished or has not seen the work yet.
 -   An error means that the query has generated an error from which it cannot recover. This could be the case if the device is lost during a query. Once a query has generated an error (other than S\_FALSE), the query must be recreated which will restart the query sequence from the signaled state.
 
-Instead of specifying [**D3DGETDATA\_FLUSH**](d3dgetdata-flush.md), which provides more up-to-date information, you could supply zero which is a more light-weight check if the query is in the issued state. Supplying zero will cause [**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx) to not flush the command buffer. For this reason, care must be taken to avoid infinate loops (see **GetData** for details). Since the runtime queues up work in the command buffer, **D3DGETDATA\_FLUSH** is a mechanism for flushing the command buffer to the driver (and hence the GPU; see [Accurately Profiling Direct3D API Calls (Direct3D 9)](accurately-profiling-direct3d-api-calls.md)). During the command buffer flush, a query may transition to the signaled state.
+Instead of specifying [**D3DGETDATA\_FLUSH**](d3dgetdata-flush.md), which provides more up-to-date information, you could supply zero which is a more light-weight check if the query is in the issued state. Supplying zero will cause [**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata) to not flush the command buffer. For this reason, care must be taken to avoid infinate loops (see **GetData** for details). Since the runtime queues up work in the command buffer, **D3DGETDATA\_FLUSH** is a mechanism for flushing the command buffer to the driver (and hence the GPU; see [Accurately Profiling Direct3D API Calls (Direct3D 9)](accurately-profiling-direct3d-api-calls.md)). During the command buffer flush, a query may transition to the signaled state.
 
 ## Example: An Event Query
 
@@ -284,6 +284,3 @@ else if( dwOccluded != 0 )
  
 
  
-
-
-

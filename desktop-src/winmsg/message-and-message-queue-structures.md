@@ -8,12 +8,9 @@ ms.date: 05/31/2018
 
 # Message Structures
 
--   [**BSMINFO**](https://msdn.microsoft.com/library/ms644957(v=VS.85).aspx)
--   [**MSG**](https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx)
+-   [**BSMINFO**](/windows/win32/api/winuser/ns-winuser-bsminfo)
+-   [**MSG**](/windows/win32/api/winuser/ns-winuser-msg)
 
  
 
  
-
-
-

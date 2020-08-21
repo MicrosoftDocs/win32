@@ -24,8 +24,8 @@ Retrieves a font signature.
 
 | Method                                                                                                 | Description                                                   |
 |:-------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| [**GetFontSignature (\*IDWriteFont, \*FONTSIGNATURE)**](https://msdn.microsoft.com/library/Dn958417(v=VS.85).aspx)       | Reads the font signature from the given font.<br/>      |
-| [**GetFontSignature (\*IDWriteFontFace, \*FONTSIGNATURE)**](https://msdn.microsoft.com/library/Dn958418(v=VS.85).aspx) | Reads the font signature from the given font face.<br/> |
+| [**GetFontSignature (\*IDWriteFont, \*FONTSIGNATURE)**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritegdiinterop1-getfontsignature(idwritefontface_fontsignature))       | Reads the font signature from the given font.<br/>      |
+| [**GetFontSignature (\*IDWriteFontFace, \*FONTSIGNATURE)**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritegdiinterop1-getfontsignature(idwritefontface_fontsignature)) | Reads the font signature from the given font face.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Retrieves a font signature.
 
 <dl> <dt>
 
-[**IDWriteGdiInterop1**](https://msdn.microsoft.com/library/Dn958415(v=VS.85).aspx)
+[**IDWriteGdiInterop1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritegdiinterop1)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

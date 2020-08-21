@@ -45,7 +45,7 @@ HRESULT D3DXLoadMeshFromX(
 *pFilename* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Pointer to a string that specifies the filename. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the string data type resolves to LPCSTR. See Remarks.
 
@@ -54,18 +54,18 @@ Pointer to a string that specifies the filename. If the compiler settings requir
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Combination of one or more flags from the [**D3DXMESH**](https://msdn.microsoft.com/library/Bb205370(v=VS.85).aspx) enumeration, which specifies creation options for the mesh.
+Combination of one or more flags from the [**D3DXMESH**](./d3dxmesh.md) enumeration, which specifies creation options for the mesh.
 
 </dd> <dt>
 
 *pD3DDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, the device object associated with the mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, the device object associated with the mesh.
 
 </dd> <dt>
 
@@ -99,7 +99,7 @@ Pointer to a buffer containing an array of effect instances, one per attribute g
 *pNumMaterials* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to the number of [**D3DXMATERIAL**](d3dxmaterial.md) structures in the *ppMaterials* array, when the method returns.
 
@@ -157,7 +157,3 @@ The default texture name is also filled in, but is handled differently. The name
  
 
  
-
-
-
-

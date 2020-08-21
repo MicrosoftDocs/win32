@@ -53,16 +53,16 @@ A pointer to the device (see [**ID3D10Device Interface**](/windows/desktop/api/D
 *hSrcModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](../winprog/windows-data-types.md)**
 
-Handle to the resource module containing the shader-resource view. HMODULE can be obtained with [GetModuleHandle Function](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea).
+Handle to the resource module containing the shader-resource view. HMODULE can be obtained with [GetModuleHandle Function](/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea).
 
 </dd> <dt>
 
 *pSrcResource* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Name of the shader resource view in hSrcModule. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -134,7 +134,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

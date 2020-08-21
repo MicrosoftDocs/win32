@@ -58,7 +58,7 @@ t(m)<sub>RGBA</sub> = TextureSample(stage m)<sub>RGBA</sub> using t(n)<sub>AR</s
 
 \_bx2 cannot be used on the src register for texreg2ar or [texreg2gb - ps](texreg2gb---ps.md) instructions.
 
-For this instruction, the source register must use unsigned data. Use of signed or mixed data in the source register will produce undefined results. For more information, see [D3DFORMAT](https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat).
+For this instruction, the source register must use unsigned data. Use of signed or mixed data in the source register will produce undefined results. For more information, see [D3DFORMAT](/windows/desktop/direct3d9/d3dformat).
 
 ## Related topics
 
@@ -70,7 +70,3 @@ For this instruction, the source register must use unsigned data. Use of signed 
  
 
  
-
-
-
-

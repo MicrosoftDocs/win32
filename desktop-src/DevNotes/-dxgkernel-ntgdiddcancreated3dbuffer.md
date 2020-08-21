@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdCanCreateD3DBuffer(
 *hDirectDraw* \[in\]
 </dt> <dd>
 
-Handle to the [**DD\_DIRECTDRAW\_GLOBAL**](https://msdn.microsoft.com/library/Ff550586(v=VS.85).aspx) structure representing the DirectDraw object.
+Handle to the [**DD\_DIRECTDRAW\_GLOBAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_directdraw_global) structure representing the DirectDraw object.
 
 </dd> <dt>
 
 *puCanCreateSurfaceData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_CANCREATESURFACEDATA**](https://msdn.microsoft.com/library/Ff550501(v=VS.85).aspx) structure. This structure contains the information required for the driver to determine whether a command or vertex buffer can be created.
+Pointer to a [**DD\_CANCREATESURFACEDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_cancreatesurfacedata) structure. This structure contains the information required for the driver to determine whether a command or vertex buffer can be created.
 
 </dd> </dl>
 
@@ -91,7 +91,3 @@ Pointer to a [**DD\_CANCREATESURFACEDATA**](https://msdn.microsoft.com/library/F
  
 
  
-
-
-
-

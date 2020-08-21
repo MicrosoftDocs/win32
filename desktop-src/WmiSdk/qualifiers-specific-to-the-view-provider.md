@@ -52,7 +52,7 @@ Data type: **boolean**
 
 Default value for a view class property based on a source class property with a different default value. The underlying source class is implied by the view.
 
-For example, the source class [**Win32\_ScheduledJob**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-scheduledjob) has a [boolean](boolean.md) property **RunRepeatedly** that indicates whether the job is to be carried out periodically or one time only. The default value of **RunRepeatedly** is not True for **Win32\_ScheduledJob**, but is True for the view class.
+For example, the source class [**Win32\_ScheduledJob**](/windows/desktop/CIMWin32Prov/win32-scheduledjob) has a [boolean](boolean.md) property **RunRepeatedly** that indicates whether the job is to be carried out periodically or one time only. The default value of **RunRepeatedly** is not True for **Win32\_ScheduledJob**, but is True for the view class.
 
 
 ```mof
@@ -97,7 +97,7 @@ JoinOn("Win32Perf_RawProcess.IDProcess = Win32Perf_RawThread.IDProcess")
 
 Data type: **string array**
 
-Source method to execute for the view method. For similar syntax, see [PropertySources Qualifier](propertysources-qualifier.md). The signature of the method must match the signature of the source class exactly. Copy the method signature from the MOF file that defines the source class. The example below defines a method from the [**ClearEventLog**](https://docs.microsoft.com/previous-versions/windows/desktop/eventlogprov/cleareventlog-method-in-class-win32-nteventlogfile) method of [**Win32\_NTEventlogFile**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)):
+Source method to execute for the view method. For similar syntax, see [PropertySources Qualifier](propertysources-qualifier.md). The signature of the method must match the signature of the source class exactly. Copy the method signature from the MOF file that defines the source class. The example below defines a method from the [**ClearEventLog**](/previous-versions/windows/desktop/eventlogprov/cleareventlog-method-in-class-win32-nteventlogfile) method of [**Win32\_NTEventlogFile**](/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)):
 
 
 ```mof
@@ -177,9 +177,4 @@ Namespaces where the source instances are located.
 
 
  
-
- 
-
-
-
 

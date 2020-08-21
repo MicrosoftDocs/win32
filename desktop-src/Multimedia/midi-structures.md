@@ -18,13 +18,13 @@ ms.date: 05/31/2018
 
 The following structures are used with MIDI.
 
--   [**MIDIEVENT**](https://msdn.microsoft.com/library/Dd798448(v=VS.85).aspx)
--   [**MIDIHDR**](https://msdn.microsoft.com/library/Dd798449(v=VS.85).aspx)
--   [**MIDIINCAPS**](https://msdn.microsoft.com/library/Dd798451(v=VS.85).aspx)
--   [**MIDIOUTCAPS**](https://msdn.microsoft.com/library/Dd798467(v=VS.85).aspx)
--   [**MIDIPROPTEMPO**](https://msdn.microsoft.com/library/Dd798483(v=VS.85).aspx)
--   [**MIDIPROPTIMEDIV**](https://msdn.microsoft.com/library/Dd798484(v=VS.85).aspx)
--   [**MIDISTRMBUFFVER**](https://msdn.microsoft.com/library/Dd798493(v=VS.85).aspx)
+-   [**MIDIEVENT**](/windows/win32/api/mmeapi/ns-mmeapi-midievent)
+-   [**MIDIHDR**](/windows/win32/api/mmeapi/ns-mmeapi-midihdr)
+-   [**MIDIINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-midiincaps)
+-   [**MIDIOUTCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-midioutcaps)
+-   [**MIDIPROPTEMPO**](/windows/win32/api/mmeapi/ns-mmeapi-midiproptempo)
+-   [**MIDIPROPTIMEDIV**](/windows/win32/api/mmeapi/ns-mmeapi-midiproptimediv)
+-   [**MIDISTRMBUFFVER**](/windows/win32/api/mmeapi/ns-mmeapi-midistrmbuffver)
 
 ## Related topics
 
@@ -36,7 +36,3 @@ The following structures are used with MIDI.
  
 
  
-
-
-
-

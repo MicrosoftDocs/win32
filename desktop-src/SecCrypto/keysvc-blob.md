@@ -45,7 +45,7 @@ A **ULONG** value that specifies the size, in bytes, of **pb**.
 **pb**
 </dt> <dd>
 
-A pointer to a **BYTE** that contains the BLOB, in [*PKCS \#12*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) format.
+A pointer to a **BYTE** that contains the BLOB, in [*PKCS \#12*](../secgloss/p-gly.md) format.
 
 </dd> </dl>
 
@@ -74,7 +74,3 @@ A pointer to a **BYTE** that contains the BLOB, in [*PKCS \#12*](https://msdn.mi
  
 
  
-
-
-
-

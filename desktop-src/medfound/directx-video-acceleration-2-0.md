@@ -36,13 +36,9 @@ This section contains the following topics.
 [Media Foundation Programming Guide](media-foundation-programming-guide.md)
 </dt> <dt>
 
-[DXVA 1 Specification](https://msdn.microsoft.com/library/windows/hardware/gg463516)
+[DXVA 1 Specification](/windows-hardware/drivers/display/directx-video-acceleration)
 </dt> </dl>
 
  
 
  
-
-
-
-

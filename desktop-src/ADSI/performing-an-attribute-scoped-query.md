@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # Performing an Attribute Scope Query
 
-The attribute scope query is a search preference that enables a search of an object's distinguished name valued attributes to be performed. The attribute to search can be either single or multi-valued, but must be of the **ADS\_DN\_STRING** type. When the search is performed, ADSI will enumerate the distinguished name values of the attribute and perform the search on the objects represented by the distinguished names. For example, if an attribute scoped search is performed of the [**member**](https://docs.microsoft.com/windows/desktop/ADSchema/a-member) attribute of a group object, ADSI will enumerate the distinguished names in the **member** attribute and search each of the members of the group for the specified search criteria.
+The attribute scope query is a search preference that enables a search of an object's distinguished name valued attributes to be performed. The attribute to search can be either single or multi-valued, but must be of the **ADS\_DN\_STRING** type. When the search is performed, ADSI will enumerate the distinguished name values of the attribute and perform the search on the objects represented by the distinguished names. For example, if an attribute scoped search is performed of the [**member**](/windows/desktop/ADSchema/a-member) attribute of a group object, ADSI will enumerate the distinguished names in the **member** attribute and search each of the members of the group for the specified search criteria.
 
 If an attribute scoped query is performed on an attribute that is not of type **ADS\_DN\_STRING**, the search will fail. The attribute scoped query also requires that the **ADS\_SEARCHPREF\_SEARCH\_SCOPE** preference be set to **ADS\_SCOPE\_BASE**. The **ADS\_SEARCHPREF\_SEARCH\_SCOPE** preference will automatically be set to **ADS\_SCOPE\_BASE**, but if the **ADS\_SEARCHPREF\_SEARCH\_SCOPE** preference is set to any other value, [**IDirectorySearch::SetSearchPreference**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-setsearchpreference) will fail with **E\_ADS\_BAD\_PARAMETER**.
 
@@ -152,7 +152,3 @@ Error handling: The results of an attribute-scope query may span multiple server
  
 
  
-
-
-
-

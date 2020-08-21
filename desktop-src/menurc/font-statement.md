@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # FONT statement
 
-Defines the font with which the system will draw text in the dialog box. The font must have been previously loaded; for example, by calling the [**LoadResource**](https://msdn.microsoft.com/library/ms648046(v=VS.85).aspx) function.
+Defines the font with which the system will draw text in the dialog box. The font must have been previously loaded; for example, by calling the [**LoadResource**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadresource) function.
 
 ``` syntax
 FONT pointsize, "typeface", weight, italic, charset
@@ -55,7 +55,7 @@ Indicates an italic font if set to TRUE.
 <span id="charset"></span><span id="CHARSET"></span>*charset*
 </dt> <dd>
 
-The character set. For a list of values, see the **lfCharSet** member of the [**LOGFONT**](https://msdn.microsoft.com/library/Dd145037(v=VS.85).aspx) structure.
+The character set. For a list of values, see the **lfCharSet** member of the [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure.
 
 </dd> </dl>
 
@@ -71,13 +71,9 @@ FONT 12, "MS Shell Dlg"
 
 <dl> <dt>
 
-[**LoadResource**](https://msdn.microsoft.com/library/ms648046(v=VS.85).aspx)
+[**LoadResource**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadresource)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -42,13 +42,13 @@ There are four main types of providers: MOF (classic) providers, WPP providers, 
 
 #### MOF (classic) providers:
 
--   Use the [RegisterTraceGuids](registertraceguids.md) and [TraceEvent](traceevent.md) functions to register and write events.
+-   Use the [RegisterTraceGuids](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa) and [TraceEvent](/windows/win32/api/evntrace/nf-evntrace-traceevent) functions to register and write events.
 -   Use MOF classes to define events so that consumers know how to consume them.
 -   Can be enabled by only one trace session at a time.
 
 #### WPP providers:
 
--   Use the [RegisterTraceGuids](registertraceguids.md) and [TraceEvent](traceevent.md) functions to register and write events.
+-   Use the [RegisterTraceGuids](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa) and [TraceEvent](/windows/win32/api/evntrace/nf-evntrace-traceevent) functions to register and write events.
 -   Have associated TMF files (compiled into a binary's .pdb) containing decoding information inferred from the preprocessor's scan of WPP instrumentation in source code.
 -   Can be enabled by only one trace session at a time.
 
@@ -58,13 +58,13 @@ There are four main types of providers: MOF (classic) providers, WPP providers, 
 -   Use a manifest to define events so that consumers know how to consume them.
 -   Can be enabled by up to eight trace sessions simultaneously.
 
-#### [TraceLogging](https://docs.microsoft.com/windows/desktop/tracelogging/trace-logging-about) providers:
+#### [TraceLogging](/windows/desktop/tracelogging/trace-logging-about) providers:
 
--   Use [TraceLoggingRegister](https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregister) and [TraceLoggingWrite](https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingwrite) to register and write events.
+-   Use [TraceLoggingRegister](/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregister) and [TraceLoggingWrite](/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingwrite) to register and write events.
 -   Use self-describing events so that the events themselves contain all required information for consuming them.
 -   Can be enabled by up to eight trace sessions simultaneously.
 
-All event providers fundamentally use the Event Tracing family of APIs ([TraceEvent](traceevent.md) for legacy technologies and [EventWrite](/windows/desktop/api/Evntprov/nf-evntprov-eventwrite)/[EventWriteEx](/windows/desktop/api/Evntprov/nf-evntprov-eventwriteex) for newer ones). Event providers simply differ in what field types they store in event payloads and where they store the associated event decoding information.
+All event providers fundamentally use the Event Tracing family of APIs ([TraceEvent](/windows/win32/api/evntrace/nf-evntrace-traceevent) for legacy technologies and [EventWrite](/windows/desktop/api/Evntprov/nf-evntprov-eventwrite)/[EventWriteEx](/windows/desktop/api/Evntprov/nf-evntprov-eventwriteex) for newer ones). Event providers simply differ in what field types they store in event payloads and where they store the associated event decoding information.
 
 ## Consumers
 
@@ -89,6 +89,3 @@ For any of these reasons, please report these problems to the provider of the ap
  
 
  
-
-
-

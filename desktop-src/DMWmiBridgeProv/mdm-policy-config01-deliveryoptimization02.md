@@ -67,7 +67,7 @@ The **MDM\_Policy\_Config01\_DeliveryOptimization02** class has these properties
 
 <dl> <dt>
 
-[DOAbsoluteMaxCacheSize](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-doabsolutemaxcachesize)
+[DOAbsoluteMaxCacheSize](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-doabsolutemaxcachesize)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -78,7 +78,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DOAllowVPNPeerCaching](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-doallowvpnpeercaching)
+[DOAllowVPNPeerCaching](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-doallowvpnpeercaching)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -89,7 +89,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DOCacheHost](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-docachehost)
+[DOCacheHost](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-docachehost)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -100,7 +100,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DODownloadMode](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dodownloadmode)
+[DODownloadMode](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dodownloadmode)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -111,7 +111,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DOGroupID](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dogroupid)
+[DOGroupID](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dogroupid)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -122,7 +122,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DOMaxCacheAge](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxcacheage)
+[DOMaxCacheAge](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxcacheage)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -133,7 +133,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DOMaxCacheSize](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxcachesize)
+[DOMaxCacheSize](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxcachesize)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -144,7 +144,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DOMaxDownloadBandwidth](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxdownloadbandwidth)
+[DOMaxDownloadBandwidth](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxdownloadbandwidth)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -155,7 +155,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DOMaxUploadBandwidth](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxuploadbandwidth)
+[DOMaxUploadBandwidth](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxuploadbandwidth)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -166,7 +166,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DOMinBackgroundQos](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dominbackgroundqos)
+[DOMinBackgroundQos](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dominbackgroundqos)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -177,7 +177,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DOMinBatteryPercentageAllowedToUpload](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dominbatterypercentageallowedtoupload)
+[DOMinBatteryPercentageAllowedToUpload](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dominbatterypercentageallowedtoupload)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -188,7 +188,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DOMinDiskSizeAllowedToPeer](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domindisksizeallowedtopeer)
+[DOMinDiskSizeAllowedToPeer](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domindisksizeallowedtopeer)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -199,7 +199,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DOMinFileSizeToCache](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dominfilesizetocache)
+[DOMinFileSizeToCache](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dominfilesizetocache)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -210,7 +210,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DOMinRAMAllowedToPeer](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dominramallowedtopeer)
+[DOMinRAMAllowedToPeer](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dominramallowedtopeer)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -221,7 +221,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DOModifyCacheDrive](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domodifycachedrive)
+[DOModifyCacheDrive](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domodifycachedrive)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -232,7 +232,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DOMonthlyUploadDataCap](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domonthlyuploaddatacap)
+[DOMonthlyUploadDataCap](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domonthlyuploaddatacap)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -243,7 +243,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DOPercentageMaxDownloadBandwidth](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dopercentagemaxdownloadbandwidth)
+[DOPercentageMaxDownloadBandwidth](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dopercentagemaxdownloadbandwidth)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -263,7 +263,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "DeliveryOptimization".
@@ -279,7 +279,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Config"
@@ -304,14 +304,8 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

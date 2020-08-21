@@ -38,7 +38,7 @@ typedef struct D3DRASTER_STATUS {
 **InVBlank**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 **ScanLine**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -76,13 +76,9 @@ If InVBlank is **TRUE**, then this value is set to zero and can be ignored.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetRasterStatus**](https://msdn.microsoft.com/library/Bb174402(v=VS.85).aspx)
+[**GetRasterStatus**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getrasterstatus)
 </dt> </dl>
 
  
 
  
-
-
-
-

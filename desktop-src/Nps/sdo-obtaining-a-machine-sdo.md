@@ -11,16 +11,12 @@ ms.date: 05/31/2018
 
 The first step in using the SDO API is to create an SDO machine object.
 
-Use the [**CLSIDFromProgID**](https://msdn.microsoft.com/library/ms688386(v=VS.85).aspx) function to obtain the class identifier (CLSID) for the SDO machine object. The programmatic identifier (ProgID) to use for the object is "IAS.SdoMachine".
+Use the [**CLSIDFromProgID**](/windows/win32/api/combaseapi/nf-combaseapi-clsidfromprogid) function to obtain the class identifier (CLSID) for the SDO machine object. The programmatic identifier (ProgID) to use for the object is "IAS.SdoMachine".
 
-Once you have the CLSID, call [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) with this CLSID. Specify [**ISdoMachine**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine) as the interface for which to return a pointer.
+Once you have the CLSID, call [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) with this CLSID. Specify [**ISdoMachine**](/windows/desktop/api/sdoias/nn-sdoias-isdomachine) as the interface for which to return a pointer.
 
-See [Attaching to an SDO-Enabled Computer](https://docs.microsoft.com/windows/desktop/Nps/sdo-attaching-to-an-sdo-enabled-computer) for sample code that demonstrates how to obtain a machine SDO.
-
- 
+See [Attaching to an SDO-Enabled Computer](/windows/desktop/Nps/sdo-attaching-to-an-sdo-enabled-computer) for sample code that demonstrates how to obtain a machine SDO.
 
  
 
-
-
-
+ 

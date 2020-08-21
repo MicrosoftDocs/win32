@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Access Mask Format
 
-All securable objects arrange their access rights by using the [*access mask*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) format shown in the following illustration.
+All securable objects arrange their access rights by using the [*access mask*](/windows/desktop/SecGloss/a-gly) format shown in the following illustration.
 
 ![access mask format](images/accctrl4.png)
 
@@ -17,6 +17,3 @@ In this format, the low-order 16 bits are for object-specific access rights, the
  
 
  
-
-
-

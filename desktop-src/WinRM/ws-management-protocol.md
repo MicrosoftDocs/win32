@@ -27,7 +27,7 @@ The messages follow the conventions of [*Simple Object Access Protocol (SOAP)*](
 
 The following code example shows a message with a Get operation. This example is shown as an aid to understanding what the underlying messages look like. You do not need to know how to produce SOAP messages. The messages are assembled by Windows Remote Management when you execute a command using the **Winrm** command-line tool or run a script written with the [WinRM Scripting API](winrm-scripting-api.md).
 
-The message is a request to get the instance of [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) with a **DeviceID** property of "c:" from a server named RemoteComputer. The request uses the HTTP transport through port 80. The account sending the request must be in the local administrators group on the remote computer.
+The message is a request to get the instance of [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) with a **DeviceID** property of "c:" from a server named RemoteComputer. The request uses the HTTP transport through port 80. The account sending the request must be in the local administrators group on the remote computer.
 
 The characters before the colon at the beginning of each tag indicate which standard defines the XML element. For example, ` <wsa:To>` indicates that the To element is defined by the WS-Addressing standard and `<s:Header>` indicates the beginning of the header content in a SOAP message. Be aware that the majority of the message is composed of XML elements defined by SOAP or WS-Addressing. WS-Management protocol adds MaxEnvelopeSize, Selector, and SelectorSet.
 
@@ -76,7 +76,3 @@ The characters before the colon at the beginning of each tag indicate which stan
  
 
  
-
-
-
-

@@ -36,14 +36,14 @@ lParam = (DWORD_PTR) (LPVOID) lpbiOutput;
 <span id="lpbiInput"></span><span id="lpbiinput"></span><span id="LPBIINPUT"></span>*lpbiInput*
 </dt> <dd>
 
-Pointer to a [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure containing the input format.
+Pointer to a [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure containing the input format.
 
 </dd> <dt>
 
 <span id="lpbiOutput"></span><span id="lpbioutput"></span><span id="LPBIOUTPUT"></span>*lpbiOutput*
 </dt> <dd>
 
-Pointer to a [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure containing the output format.
+Pointer to a [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) structure containing the output format.
 
 </dd> </dl>
 
@@ -80,10 +80,4 @@ VCM saves the settings of the most recent **ICM\_COMPRESS\_BEGIN** message. The 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

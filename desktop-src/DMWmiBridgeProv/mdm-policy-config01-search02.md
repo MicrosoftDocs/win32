@@ -61,7 +61,7 @@ The **MDM\_Policy\_Config01\_Search02** class has these properties.
 
 <dl> <dt>
 
-[AllowCloudSearch](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-search#search-allowcloudsearch)
+[AllowCloudSearch](/windows/client-management/mdm/policy-csp-search#search-allowcloudsearch)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -72,7 +72,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowIndexingEncryptedStoresOrItems](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-search#search-allowindexingencryptedstoresoritems)
+[AllowIndexingEncryptedStoresOrItems](/windows/client-management/mdm/policy-csp-search#search-allowindexingencryptedstoresoritems)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -83,7 +83,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowSearchToUseLocation](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-search#search-allowsearchtouselocation)
+[AllowSearchToUseLocation](/windows/client-management/mdm/policy-csp-search#search-allowsearchtouselocation)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -94,7 +94,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowStoringImagesFromVisionSearch](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-search#search-allowstoringimagesfromvisionsearch)
+[AllowStoringImagesFromVisionSearch](/windows/client-management/mdm/policy-csp-search#search-allowstoringimagesfromvisionsearch)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -105,7 +105,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowUsingDiacritics](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-search#search-allowusingdiacritics)
+[AllowUsingDiacritics](/windows/client-management/mdm/policy-csp-search#search-allowusingdiacritics)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -116,7 +116,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowWindowsIndexer](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-search#search-allowwindowsindexer)
+[AllowWindowsIndexer](/windows/client-management/mdm/policy-csp-search#search-allowwindowsindexer)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -127,7 +127,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AlwaysUseAutoLangDetection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-search#search-alwaysuseautolangdetection)
+[AlwaysUseAutoLangDetection](/windows/client-management/mdm/policy-csp-search#search-alwaysuseautolangdetection)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -138,7 +138,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableBackoff](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-search#search-disablebackoff)
+[DisableBackoff](/windows/client-management/mdm/policy-csp-search#search-disablebackoff)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -149,7 +149,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableRemovableDriveIndexing](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-search#search-disableremovabledriveindexing)
+[DisableRemovableDriveIndexing](/windows/client-management/mdm/policy-csp-search#search-disableremovabledriveindexing)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -169,7 +169,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "Search".
@@ -185,14 +185,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Config"
 
 </dd> <dt>
 
-[PreventIndexingLowDiskSpaceMB](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-search#search-preventindexinglowdiskspacemb)
+[PreventIndexingLowDiskSpaceMB](/windows/client-management/mdm/policy-csp-search#search-preventindexinglowdiskspacemb)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -203,7 +203,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PreventRemoteQueries](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-search#search-preventremotequeries)
+[PreventRemoteQueries](/windows/client-management/mdm/policy-csp-search#search-preventremotequeries)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -232,14 +232,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

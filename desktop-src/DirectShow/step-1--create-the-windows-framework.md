@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[This API is not supported and may be altered or unavailable in the future.\]
 
-Start by creating the basic framework of a Windows application, including WinMain and a window procedure. The WinMain function is not shown here; call [**CoInitialize**](https://msdn.microsoft.com/library/ms678543(v=VS.85).aspx) before the message loop to initialize the COM library, and [**CoUninitialize**](https://msdn.microsoft.com/library/ms688715(v=VS.85).aspx) after the message loop exits. Start with the following minimal window procedure:
+Start by creating the basic framework of a Windows application, including WinMain and a window procedure. The WinMain function is not shown here; call [**CoInitialize**](/windows/win32/api/objbase/nf-objbase-coinitialize) before the message loop to initialize the COM library, and [**CoUninitialize**](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) after the message loop exits. Start with the following minimal window procedure:
 
 
 ```C++
@@ -50,6 +50,3 @@ Next: [Step 2: Add a Menu Command to Grab a Poster Frame](step-2--add-a-menu-com
  
 
  
-
-
-

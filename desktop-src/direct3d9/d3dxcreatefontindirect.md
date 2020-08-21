@@ -40,9 +40,9 @@ HRESULT D3DXCreateFontIndirect(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, the device to be associated with the font object.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, the device to be associated with the font object.
 
 </dd> <dt>
 
@@ -95,7 +95,3 @@ The compiler setting also determines the function version. If Unicode is defined
  
 
  
-
-
-
-

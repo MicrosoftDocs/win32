@@ -29,7 +29,7 @@ Implemented by the browser. Exposes methods that manage which monitor contains t
 
 ## Members
 
-The **IMultiMonitorDockingSite** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IMultiMonitorDockingSite** also has these types of members:
+The **IMultiMonitorDockingSite** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IMultiMonitorDockingSite** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -67,7 +67,3 @@ You do not typically implement the **IMultiMonitorDockingSite** interface. The S
  
 
  
-
-
-
-

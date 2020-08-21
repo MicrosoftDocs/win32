@@ -38,7 +38,7 @@ HRESULT EndScene(
 *MipFilter* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Filter options, enumerated in [D3DX\_FILTER](d3dx-filter.md).
 
@@ -74,7 +74,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

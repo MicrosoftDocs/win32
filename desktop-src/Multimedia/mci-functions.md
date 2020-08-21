@@ -12,15 +12,15 @@ ms.date: 05/31/2018
 
 The following functions are used with MCI.
 
--   [**mciExecute**](https://msdn.microsoft.com/library/Dd757154(v=VS.85).aspx)
--   [**mciGetCreatorTask**](https://msdn.microsoft.com/library/Dd757155(v=VS.85).aspx)
--   [**mciGetDeviceID**](https://msdn.microsoft.com/library/Dd757156(v=VS.85).aspx)
--   [**mciGetDeviceIDFromElementID**](https://msdn.microsoft.com/library/Dd757157(v=VS.85).aspx)
--   [**mciGetErrorString**](https://msdn.microsoft.com/library/Dd757158(v=VS.85).aspx)
--   [**mciGetYieldProc**](https://msdn.microsoft.com/library/Dd757159(v=VS.85).aspx)
--   [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
--   [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx)
--   [**mciSetYieldProc**](https://msdn.microsoft.com/library/Dd757163(v=VS.85).aspx)
+-   [**mciExecute**](/previous-versions//dd757154(v=vs.85))
+-   [**mciGetCreatorTask**](/previous-versions//dd757155(v=vs.85))
+-   [**mciGetDeviceID**](/previous-versions//dd757156(v=vs.85))
+-   [**mciGetDeviceIDFromElementID**](/previous-versions//dd757157(v=vs.85))
+-   [**mciGetErrorString**](/previous-versions//dd757158(v=vs.85))
+-   [**mciGetYieldProc**](/previous-versions//dd757159(v=vs.85))
+-   [**mciSendCommand**](/previous-versions//dd757160(v=vs.85))
+-   [**mciSendString**](/previous-versions//dd757161(v=vs.85))
+-   [**mciSetYieldProc**](/previous-versions//dd757163(v=vs.85))
 
 ## Related topics
 
@@ -32,7 +32,3 @@ The following functions are used with MCI.
  
 
  
-
-
-
-

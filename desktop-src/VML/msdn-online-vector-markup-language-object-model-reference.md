@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).
 
  
 
@@ -48,7 +48,7 @@ myshape.fillcolor = "red"
 
 
 
-Several of the attributes of a shape are also [subelements](https://docs.microsoft.com/windows) and have their own attributes, including the following:
+Several of the attributes of a shape are also [subelements](/windows) and have their own attributes, including the following:
 
 -   [Background](#background-element)
 -   [Extrusion](#extrusion-element)
@@ -61,7 +61,7 @@ Several of the attributes of a shape are also [subelements](https://docs.microso
 -   [Stroke](#stroke-element)
 -   [TextPath](#textpath-element)
 
-The VML OM uses several [data types](https://docs.microsoft.com/windows) to define parameters. Datatypes prefixed with "Vg" are enumerations and those prefixed with "IVg" are objects. Click here for a list. Minor datatypes are listed with specific parameters.
+The VML OM uses several [data types](/windows) to define parameters. Datatypes prefixed with "Vg" are enumerations and those prefixed with "IVg" are objects. Click here for a list. Minor datatypes are listed with specific parameters.
 
 ## Example
 
@@ -138,7 +138,7 @@ Note that in beta versions, an ActiveX object tag and a different behavior style
 
 ## VML OM Reference
 
-This reference defines the [Shape](#shape-element) element, [subelements](https://docs.microsoft.com/windows), and [data types](https://docs.microsoft.com/windows) that are used by the object model of VML.
+This reference defines the [Shape](#shape-element) element, [subelements](/windows), and [data types](/windows) that are used by the object model of VML.
 
 ### Shape element
 
@@ -1058,28 +1058,28 @@ Describes a vector path based on the text data, font, and styles supplied. The t
 
 The following data types are used by the VML Object Model.
 
--   [Double](https://docs.microsoft.com/windows)
--   [Fixed](https://docs.microsoft.com/windows)
--   [Integer](https://docs.microsoft.com/windows)
--   [IVgAdjustments](https://docs.microsoft.com/windows)
--   [IVgColor](https://docs.microsoft.com/windows)
--   [IVgEquation](https://docs.microsoft.com/windows)
--   [IVgFixedRectangle](https://docs.microsoft.com/windows)
--   [IVgFixedRectangleArray](https://docs.microsoft.com/windows)
--   [IVgFormula](https://docs.microsoft.com/windows)
--   [IVgFormulas](https://docs.microsoft.com/windows)
--   [IVgGradientColorArray](https://docs.microsoft.com/windows)
--   [IVgPoints](https://docs.microsoft.com/windows)
--   [IVgSkewMatrix](https://docs.microsoft.com/windows)
--   [IVgSkewOffset](https://docs.microsoft.com/windows)
--   [IVgVector2D](https://docs.microsoft.com/windows)
--   [IVgVector3D](https://docs.microsoft.com/windows)
--   [Length](https://docs.microsoft.com/windows)
--   [Measure](https://docs.microsoft.com/windows)
--   [String](https://docs.microsoft.com/windows)
--   [VgBlackWhiteMode](https://docs.microsoft.com/windows)
--   [VgFraction](https://docs.microsoft.com/windows)
--   [VgTriState](https://docs.microsoft.com/windows)
+-   [Double](/windows)
+-   [Fixed](/windows)
+-   [Integer](/windows)
+-   [IVgAdjustments](/windows)
+-   [IVgColor](/windows)
+-   [IVgEquation](/windows)
+-   [IVgFixedRectangle](/windows)
+-   [IVgFixedRectangleArray](/windows)
+-   [IVgFormula](/windows)
+-   [IVgFormulas](/windows)
+-   [IVgGradientColorArray](/windows)
+-   [IVgPoints](/windows)
+-   [IVgSkewMatrix](/windows)
+-   [IVgSkewOffset](/windows)
+-   [IVgVector2D](/windows)
+-   [IVgVector3D](/windows)
+-   [Length](/windows)
+-   [Measure](/windows)
+-   [String](/windows)
+-   [VgBlackWhiteMode](/windows)
+-   [VgFraction](/windows)
+-   [VgTriState](/windows)
 
 **Double data type**
 

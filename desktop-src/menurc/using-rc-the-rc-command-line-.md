@@ -14,7 +14,7 @@ To start RC, use the following command.
 
 The *script-file* parameter specifies the name of the resource-definition file that contains the names, types, filenames, and descriptions of the resources to be compiled.
 
-RC can generate separate resource files for applications that have both language-neutral and language-specific resources. Developers can use a [resource configuration file](https://docs.microsoft.com/windows/desktop/Intl/preparing-resources) or set command-line options to select which resource types and items are non-localizable resources of the [language-neutral (LN) file](https://docs.microsoft.com/windows/desktop/Intl/mui-resource-management) and which are localizable resources of language-specific MUI files. For more information, see the [Multilingual User Interface](https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface).
+RC can generate separate resource files for applications that have both language-neutral and language-specific resources. Developers can use a [resource configuration file](/windows/desktop/Intl/preparing-resources) or set command-line options to select which resource types and items are non-localizable resources of the [language-neutral (LN) file](/windows/desktop/Intl/mui-resource-management) and which are localizable resources of language-specific MUI files. For more information, see the [Multilingual User Interface](/windows/desktop/Intl/multilingual-user-interface).
 
 The *options* parameter can be one or more of the following command-line options.
 
@@ -48,7 +48,7 @@ Defines a symbol for the preprocessor that you can test with the [**\#ifdef**](-
 
 RC creates one language-neutral .RES file and one language-dependent (MUI) .RES file using *script-file*. This option must be used together with the **/fo** *resname* option. RC names the language-neutral .RES file *resname.res* and names the language-dependent (MUI) .RES file *mresname.res*.
 
-**Windows Server 2003 and Windows XP/2000:** This option is not available without also using the [**LoadMUILibrary**](https://docs.microsoft.com/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya) and [**FreeMUILibrary**](https://docs.microsoft.com/windows/desktop/api/muiload/nf-muiload-freemuilibrary) functions on an updated system.
+**Windows Server 2003 and Windows XP/2000:** This option is not available without also using the [**LoadMUILibrary**](/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya) and [**FreeMUILibrary**](/windows/desktop/api/muiload/nf-muiload-freemuilibrary) functions on an updated system.
 
 </dd> <dt>
 
@@ -59,7 +59,7 @@ RC creates a .RES file named *resname* using *script-file*.
 
 If the **/fm** *mresname* option is also set, RC creates one language-neutral .RES file and one language-dependent (MUI) .RES file.
 
-**Windows Server 2003 and Windows XP/2000:** This option is not available without also using the [**LoadMUILibrary**](https://docs.microsoft.com/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya) and [**FreeMUILibrary**](https://docs.microsoft.com/windows/desktop/api/muiload/nf-muiload-freemuilibrary) functions on an updated system.
+**Windows Server 2003 and Windows XP/2000:** This option is not available without also using the [**LoadMUILibrary**](/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya) and [**FreeMUILibrary**](/windows/desktop/api/muiload/nf-muiload-freemuilibrary) functions on an updated system.
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ Searches the specified directory before searching the directories specified by t
 
 Localizable resource types RC places into the language-dependent (MUI) .RES file. If the **/q** option is also set, this option is ignored, and the information in the RC Configuration file takes precedence.
 
-**Windows Server 2003 and Windows XP/2000:** This option is not available without also using the [**LoadMUILibrary**](https://docs.microsoft.com/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya) and [**FreeMUILibrary**](https://docs.microsoft.com/windows/desktop/api/muiload/nf-muiload-freemuilibrary) functions on an updated system.
+**Windows Server 2003 and Windows XP/2000:** This option is not available without also using the [**LoadMUILibrary**](/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya) and [**FreeMUILibrary**](/windows/desktop/api/muiload/nf-muiload-freemuilibrary) functions on an updated system.
 
 </dd> <dt>
 
@@ -98,7 +98,7 @@ Localizable resource types RC places into the language-dependent (MUI) .RES file
 
 Overlapping resource types that RC places into both the language-neutral .RES and the language-dependent (MUI).RES files. The resource types that are specified by the **/k** option must be a subset of those that are specified by the **/j** option. For example, ?J2 ?J3 ?K3 specifies that RC places resource type 3 in both the language-neutral and language-dependent (MUI) files. If the **/q** option is also set, this option is ignored, and the information in the RC Configuration file takes precedence.
 
-**Windows Server 2003 and Windows XP/2000:** This option is not available without also using the [**LoadMUILibrary**](https://docs.microsoft.com/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya) and [**FreeMUILibrary**](https://docs.microsoft.com/windows/desktop/api/muiload/nf-muiload-freemuilibrary) functions on an updated system.
+**Windows Server 2003 and Windows XP/2000:** This option is not available without also using the [**LoadMUILibrary**](/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya) and [**FreeMUILibrary**](/windows/desktop/api/muiload/nf-muiload-freemuilibrary) functions on an updated system.
 
 </dd> <dt>
 
@@ -107,7 +107,7 @@ Overlapping resource types that RC places into both the language-neutral .RES an
 
 Specifies the default language for compilation. For example, -l409 is equivalent to including the following statement at the top of the resource script file: `LANGUAGE LANG_ENGLISH,SUBLANG_ENGLISH_US`
 
-For more information, see [Language Identifiers](https://docs.microsoft.com/windows/desktop/Intl/language-identifiers).
+For more information, see [Language Identifiers](/windows/desktop/Intl/language-identifiers).
 
 </dd> <dt>
 
@@ -123,7 +123,7 @@ Null terminates all strings in the string table.
 
 An RC configuration file that follows the RC Configuration File format. The RC Configuration File format enables components to self-describe resource information such as resource versioning, MUI file path, resource types and items. This file specifies which resources go into the language-neutral .RES file and which resources go into the language-dependent (MUI) .RES file. This option, and the information provided in the RC Configuration file, override the command line options **/j** and **/k**.
 
-**Windows Server 2003 and Windows XP/2000:** This option is not available without also using the [**LoadMUILibrary**](https://docs.microsoft.com/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya) and [**FreeMUILibrary**](https://docs.microsoft.com/windows/desktop/api/muiload/nf-muiload-freemuilibrary) functions on an updated system.
+**Windows Server 2003 and Windows XP/2000:** This option is not available without also using the [**LoadMUILibrary**](/windows/desktop/api/muiload/nf-muiload-loadmuilibrarya) and [**FreeMUILibrary**](/windows/desktop/api/muiload/nf-muiload-freemuilibrary) functions on an updated system.
 
 </dd> <dt>
 
@@ -177,13 +177,9 @@ For more information, see the following topics:
 
 <dl> <dt>
 
-[Multilingual User Interface](https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface)
+[Multilingual User Interface](/windows/desktop/Intl/multilingual-user-interface)
 </dt> </dl>
 
  
 
  
-
-
-
-

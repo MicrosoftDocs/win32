@@ -24,7 +24,7 @@ Provides methods that receive information from the server that are related to cl
 
 ## Members
 
-The **IRemoteDesktopClientEvents** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRemoteDesktopClientEvents** also has these types of members:
+The **IRemoteDesktopClientEvents** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRemoteDesktopClientEvents** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -49,7 +49,7 @@ The **IRemoteDesktopClientEvents** interface has these methods.
 | [**OnNetworkStatusChanged**](iremotedesktopclientevents-onnetworkstatuschanged.md)         | Called when the network status has changed. <br/>                                                                                                             |
 | [**OnRemoteDesktopSizeChanged**](iremotedesktopclientevents-onremotedesktopsizechanged.md) | Called when the remote desktop size has changed. <br/>                                                                                                        |
 | [**OnStatusChanged**](iremotedesktopclientevents-onstatuschanged.md)                       | Called when the client control has updated its status. <br/>                                                                                                  |
-| [**OnTouchPointerCursorMoved**](iremotedesktopclientevents-ontouchpointercursormoved.md)   | Called when the touch pointer cursor has moved and the [**EventsEnabled**](https://msdn.microsoft.com/library/Mt787031(v=VS.85).aspx) property is set to true. <br/> |
+| [**OnTouchPointerCursorMoved**](iremotedesktopclientevents-ontouchpointercursormoved.md)   | Called when the touch pointer cursor has moved and the [**EventsEnabled**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclienttouchpointer-get_eventsenabled) property is set to true. <br/> |
 
 
 
@@ -78,10 +78,4 @@ The **IRemoteDesktopClientEvents** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

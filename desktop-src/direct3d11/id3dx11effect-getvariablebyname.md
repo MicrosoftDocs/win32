@@ -41,7 +41,7 @@ ID3DX11EffectVariable* GetVariableByName(
 *Name* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 The variable name.
 
@@ -83,10 +83,4 @@ The method returns a pointer to an [**effect-variable interface**](id3dx11effect
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

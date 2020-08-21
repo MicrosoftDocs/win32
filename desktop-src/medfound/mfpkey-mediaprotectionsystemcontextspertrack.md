@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MFPKEY\_MediaProtectionSystemContextsPerTrack property
 
-Set to an IPropertySet that defines a mapping from track type to a [**IRandomAccessStream**](https://msdn.microsoft.com/library/Hh438400(v=VS.85).aspx) that contains the Digital Rights Management (DRM) context.
+Set to an IPropertySet that defines a mapping from track type to a [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)) that contains the Digital Rights Management (DRM) context.
 
 **Type:**\*VT\_UNKNOWN that points to a IMap<HSTRING,IInspectable\*>
 
@@ -50,7 +50,3 @@ VT\_UNKNOWN that points to a IMap<HSTRING,IInspectable\*>
  
 
  
-
-
-
-

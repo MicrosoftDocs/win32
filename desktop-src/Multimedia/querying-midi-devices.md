@@ -21,8 +21,8 @@ Windows provides the following functions to determine how many MIDI devices are 
 
 | Value                                          | Meaning                                                            |
 |------------------------------------------------|--------------------------------------------------------------------|
-| [**midiInGetNumDevs**](https://msdn.microsoft.com/library/Dd798456(v=VS.85).aspx)   | Retrieves the number of MIDI input devices present in the system.  |
-| [**midiOutGetNumDevs**](https://msdn.microsoft.com/library/Dd798472(v=VS.85).aspx) | Retrieves the number of MIDI output devices present in the system. |
+| [**midiInGetNumDevs**](/windows/win32/api/mmeapi/nf-mmeapi-midiingetnumdevs)   | Retrieves the number of MIDI input devices present in the system.  |
+| [**midiOutGetNumDevs**](/windows/win32/api/mmeapi/nf-mmeapi-midioutgetnumdevs) | Retrieves the number of MIDI output devices present in the system. |
 
 
 
@@ -36,8 +36,8 @@ After you determine how many MIDI input or output devices are present in a syste
 
 | Value                                          | Meaning                                                                                                                                   |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| [**midiInGetDevCaps**](https://msdn.microsoft.com/library/Dd798453(v=VS.85).aspx)   | Retrieves the capabilities of a given MIDI input device and places this information in the [**MIDIINCAPS**](https://msdn.microsoft.com/library/Dd798451(v=VS.85).aspx) structure.    |
-| [**midiOutGetDevCaps**](https://msdn.microsoft.com/library/Dd798469(v=VS.85).aspx) | Retrieves the capabilities of a given MIDI output device and places this information in the [**MIDIOUTCAPS**](https://msdn.microsoft.com/library/Dd798467(v=VS.85).aspx) structure. |
+| [**midiInGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-midiingetdevcaps)   | Retrieves the capabilities of a given MIDI input device and places this information in the [**MIDIINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-midiincaps) structure.    |
+| [**midiOutGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-midioutgetdevcaps) | Retrieves the capabilities of a given MIDI output device and places this information in the [**MIDIOUTCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-midioutcaps) structure. |
 
 
 
@@ -55,7 +55,3 @@ Each of these functions has a parameter specifying the address of a structure th
  
 
  
-
-
-
-

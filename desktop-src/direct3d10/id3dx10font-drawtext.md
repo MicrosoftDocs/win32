@@ -52,7 +52,7 @@ Pointer to an ID3DX10Sprite object that contains the string you wish to draw. Ca
 *pString* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Pointer to a string to draw. If UNICODE is defined, this parameter type resolves to an LPCWSTR, otherwise, the type resolves to an LPCSTR. If the Count parameter is -1, the string must be **NULL** terminated.
 
@@ -61,7 +61,7 @@ Pointer to a string to draw. If UNICODE is defined, this parameter type resolves
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](../winprog/windows-data-types.md)**
 
 The number of characters in the string. If Count is -1, then the pString parameter is assumed to be a pointer to a sprite containing a NULL-terminated string and ID3DX10Font::DrawText computes the character count automatically.
 
@@ -72,14 +72,14 @@ The number of characters in the string. If Count is -1, then the pString paramet
 
 Type: **LPRECT**
 
-Pointer to a [RECT](https://docs.microsoft.com/previous-versions//ms536136(v=vs.85)) structure that contains the rectangle, in logical coordinates, in which the text is to be formatted. As with any RECT object, the coordinate value of the rectangle's right side must be greater than that of its left side. Likewise, the coordinate value of the bottom must be greater than that of the top.
+Pointer to a [RECT](/previous-versions//ms536136(v=vs.85)) structure that contains the rectangle, in logical coordinates, in which the text is to be formatted. As with any RECT object, the coordinate value of the rectangle's right side must be greater than that of its left side. Likewise, the coordinate value of the bottom must be greater than that of the top.
 
 </dd> <dt>
 
 *Format* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Specify the method of formatting the text. It can be any combination of the following values:
 
@@ -109,7 +109,7 @@ Specify the method of formatting the text. It can be any combination of the foll
 *Color* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXCOLOR**](https://msdn.microsoft.com/library/Bb172721(v=VS.85).aspx)**
+Type: **[**D3DXCOLOR**](../direct3d9/d3dxcolor.md)**
 
 Color of the text. See [**D3DXCOLOR**](d3d10-d3dxcolor.md).
 
@@ -117,13 +117,13 @@ Color of the text. See [**D3DXCOLOR**](d3d10-d3dxcolor.md).
 
 ## Return value
 
-Type: **[**INT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**INT**](../winprog/windows-data-types.md)**
 
 If the function succeeds, the return value is the height of the text in logical units. If DT\_VCENTER or DT\_BOTTOM is specified, the return value is the offset from pRect (top to the bottom) of the drawn text. If the function fails, the return value is zero.
 
 ## Remarks
 
-The parameters of this method are very similar to those of the [GDI DrawText](https://msdn2.microsoft.com/library/ms533909.aspx) function.
+The parameters of this method are very similar to those of the [GDI DrawText](/previous-versions//ms533909(v=vs.85)) function.
 
 This method supports both ANSI and Unicode strings.
 
@@ -157,7 +157,3 @@ This method supports only fonts whose escapement and orientation are both zero.
  
 
  
-
-
-
-

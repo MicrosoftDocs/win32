@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_SYSINFO command retrieves information about MCI devices. MCI supports this command directly rather than passing it to the device. Any MCI application can use this command. String information is returned in the application-supplied buffer pointed to by the **lpstrReturn** member of the structure identified by *lpSysInfo*. Numeric information is returned as a **DWORD** value placed in the application-supplied buffer. The **dwRetSize** member specifies the buffer length.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function with the following parameters.
 
 
 ```C++
@@ -122,10 +122,4 @@ String return values are null-terminated strings returned in the buffer pointed 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

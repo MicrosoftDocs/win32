@@ -20,7 +20,7 @@ The following are the elements that the Event schema defines. This section conta
 | Element                                                                                                    | Description                                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**BinaryEventData (EventType)**](eventschema-binaryeventdata-eventtype-element.md)                       | Contains the event data as a binary blob.<br/>                                                                                                                                                   |
-| [**Binary (EventDataType)**](eventschema-binary-eventdatatype-element.md)                                 | A binary data blob for events that are written using [Event Logging](https://docs.microsoft.com/windows/desktop/EventLog/event-logging).<br/>                                                                                                   |
+| [**Binary (EventDataType)**](eventschema-binary-eventdatatype-element.md)                                 | A binary data blob for events that are written using [Event Logging](/windows/desktop/EventLog/event-logging).<br/>                                                                                                   |
 | [**Channel (RenderingInfoType)**](eventschema-channel-renderinginfotype-element.md)                       | The rendered message string of the channel specified in the event.<br/>                                                                                                                          |
 | [**Channel (SystemPropertiesType)**](eventschema-channel-systempropertiestype-element.md)                 | The channel to which the event was logged.<br/>                                                                                                                                                  |
 | [**ComplexData (EventDataType)**](eventschema-complexdata-eventdatatype-element.md)                       | A structure that is defined in the template for the event.<br/>                                                                                                                                  |
@@ -70,10 +70,4 @@ The following are the elements that the Event schema defines. This section conta
  
 
  
-
- 
-
-
-
-
 

@@ -14,7 +14,7 @@ The **ITTimeCollection** interface is a provider-specific interface for the Sess
 
 ## Members
 
-The **ITTimeCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITTimeCollection** also has these types of members:
+The **ITTimeCollection** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **ITTimeCollection** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -51,9 +51,4 @@ The **ITTimeCollection** interface has these methods.
 
 
  
-
- 
-
-
-
 

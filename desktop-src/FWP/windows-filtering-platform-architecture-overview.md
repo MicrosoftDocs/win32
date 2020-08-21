@@ -31,7 +31,7 @@ The Base Filtering Engine (BFE) is a user-mode service (bfe.dll running in a svc
 Callout drivers provide additional filtering functionality by adding custom callout functions to the filter engine at one or more of the kernel-mode filtering layers. Callouts support deep inspection and packet as well as stream modification. After a callout driver has added its callout functions to the filter engine, filters that specify a given driver's callout function can be added to the filtering process. Such filters can be added by either a user-mode management application or by the callout driver itself. The kernel-mode interface, delivered in the Windows Development Kit, should only be used where needed and not as a substitute for the user-mode API.
 
 > [!Note]  
-> For more information on callout drivers, see the Windows Filtering Platform section of the [Windows Development Kit](https://msdn.microsoft.com/library/ff571068.aspx).
+> For more information on callout drivers, see the Windows Filtering Platform section of the [Windows Development Kit](/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2).
 
  
 
@@ -47,16 +47,12 @@ The Windows Filtering Platform includes a number of built-in callout functions t
 [WFP Operation](basic-operation.md)
 </dt> <dt>
 
-[Windows Filtering Platform Callout Drivers - Design Guide](https://msdn.microsoft.com/library/ff571068.aspx)
+[Windows Filtering Platform Callout Drivers - Design Guide](/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2)
 </dt> <dt>
 
-[Windows Filtering Platform Callout Drivers - Reference](https://msdn.microsoft.com/library/ff571067.aspx)
+[Windows Filtering Platform Callout Drivers - Reference](/windows-hardware/drivers/ddi/_netvista/)
 </dt> </dl>
 
  
 
  
-
-
-
-

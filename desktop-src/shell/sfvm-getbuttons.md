@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # SFVM\_GETBUTTONS message
 
-Allows the callback object to specify the buttons to be added to the toolbar. Used by [**IShellFolderViewCB::MessageSFVCB**](https://msdn.microsoft.com/library/Bb774968(v=VS.85).aspx).
+Allows the callback object to specify the buttons to be added to the toolbar. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -30,14 +30,14 @@ SFVM_GETBUTTONS
 *idCmdFirst\_cbtnMax* \[in\]
 </dt> <dd>
 
-Contains two 16-bit values packed into the parameter with the [**MAKEWPARAM**](https://msdn.microsoft.com/library/ms632664(v=VS.85).aspx) macro. The low-order word contains the initial command ID. The high-order word contains the number of buttons to be added, as specified in the preceding [**SFVM\_GETBUTTONINFO**](sfvm-getbuttoninfo.md) message.
+Contains two 16-bit values packed into the parameter with the [**MAKEWPARAM**](/windows/win32/api/winuser/nf-winuser-makewparam) macro. The low-order word contains the initial command ID. The high-order word contains the number of buttons to be added, as specified in the preceding [**SFVM\_GETBUTTONINFO**](sfvm-getbuttoninfo.md) message.
 
 </dd> <dt>
 
 *pbtn* \[out\]
 </dt> <dd>
 
-The address of an array of [**TBBUTTON**](https://msdn.microsoft.com/library/Bb760476(v=VS.85).aspx) structures, one for each button to be added to the toolbar.
+The address of an array of [**TBBUTTON**](/windows/win32/api/commctrl/ns-commctrl-tbbutton) structures, one for each button to be added to the toolbar.
 
 </dd> </dl>
 
@@ -60,7 +60,3 @@ This message is preceded by a [**SFVM\_GETBUTTONINFO**](sfvm-getbuttoninfo.md) m
  
 
  
-
-
-
-

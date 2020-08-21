@@ -65,7 +65,7 @@ This parameter can contain one of the following:
     
 
 -   [**ResourceLocator**](resourcelocator.md) object which may contain selectors, [*fragments*](windows-remote-management-glossary.md), or [*options*](windows-remote-management-glossary.md).
--   [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the [WS-Management Protocol](ws-management-protocol.md) standard. For more information about the public specification for WS-Management protocol, see [Management Specifications Index Page](https://msdn.microsoft.com/library/ms951267.aspx).
+-   [*WS-Addressing*](windows-remote-management-glossary.md) endpoint reference as described in the [WS-Management Protocol](ws-management-protocol.md) standard. For more information about the public specification for WS-Management protocol, see [Management Specifications Index Page](/previous-versions/dotnet/articles/ms951267(v=msdn.10)).
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ The XML representation of the method output.
 
 ## Examples
 
-The following VBScript code example starts a Calc.exe process. The *strInputParameters* parameter contains the input parameters in XML format. The only required input parameter for the [**Create**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) method of the WMI [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) class is the command line to execute.
+The following VBScript code example starts a Calc.exe process. The *strInputParameters* parameter contains the input parameters in XML format. The only required input parameter for the [**Create**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) method of the WMI [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) class is the command line to execute.
 
 
 ```VB
@@ -134,7 +134,7 @@ End Sub
 
 
 
-The following VBScript code example calls the **Session.Invoke** method to execute the [**StopService**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/stopservice-method-in-class-win32-service) method of [**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service). The **StopService** method does not have input parameters. However, the **Invoke** method requires an XML string in the *parameters* parameter.
+The following VBScript code example calls the **Session.Invoke** method to execute the [**StopService**](/windows/desktop/CIMWin32Prov/stopservice-method-in-class-win32-service) method of [**Win32\_Service**](/windows/desktop/CIMWin32Prov/win32-service). The **StopService** method does not have input parameters. However, the **Invoke** method requires an XML string in the *parameters* parameter.
 
 
 ```VB
@@ -213,10 +213,4 @@ End Sub
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

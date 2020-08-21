@@ -22,7 +22,7 @@ This property is read-only.
 
 ## Property value
 
-The value of this property is a member of the [**eAVDecVideoInputScanType**](https://msdn.microsoft.com/library/Dd388763(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVDecVideoInputScanType**](/windows/win32/api/codecapi/ne-codecapi-eavdecvideoinputscantype) enumeration.
 
 ## Remarks
 
@@ -51,9 +51,4 @@ The upper 16 bits of the value contain the width, and the lower 16 bits contain 
 </dt> </dl>
 
  
-
- 
-
-
-
 

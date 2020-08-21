@@ -24,7 +24,7 @@ The Get... methods provide access to the data structures used by the Apply... me
 
 ## Members
 
-The **ID3DXTextureGutterHelper** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXTextureGutterHelper** also has these types of members:
+The **ID3DXTextureGutterHelper** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXTextureGutterHelper** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -38,7 +38,7 @@ The **ID3DXTextureGutterHelper** interface has these methods.
 |:-------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|
 | [**ApplyGuttersFloat**](id3dxtexturegutterhelper--applyguttersfloat.md) | Applies gutters to a FLOAT texture buffer.<br/>                                                  |
 | [**ApplyGuttersPRT**](id3dxtexturegutterhelper--applyguttersprt.md)     | Applies gutters to an [**ID3DXPRTBuffer**](id3dxprtbuffer.md) buffer object.<br/>               |
-| [**ApplyGuttersTex**](id3dxtexturegutterhelper--applygutterstex.md)     | Applies gutters to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) texture object.<br/>        |
+| [**ApplyGuttersTex**](id3dxtexturegutterhelper--applygutterstex.md)     | Applies gutters to an [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) texture object.<br/>        |
 | [**GetBaryMap**](id3dxtexturegutterhelper--getbarymap.md)               | Retrieves texel barycentric coordinates.<br/>                                                    |
 | [**GetFaceMap**](id3dxtexturegutterhelper--getfacemap.md)               | Retrieves the index of the mesh face to which each texel belongs.<br/>                           |
 | [**GetGutterMap**](id3dxtexturegutterhelper--getguttermap.md)           | Receives a texel class value that indicates texel class according to each texel's location.<br/> |
@@ -114,7 +114,3 @@ typedef interface ID3DXTextureGutterHelper *LPD3DXTEXTUREGUTTERHELPER;
  
 
  
-
-
-
-

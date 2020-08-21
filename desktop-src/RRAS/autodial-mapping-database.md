@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # AutoDial Mapping Database
 
-The AutoDial mapping database maps network addresses to RAS phone-book entries. The database can include IP addresses (for example, "172.21.167.35"), Internet host names (for example, "www.microsoft.com"), or NetBIOS names (for example, "products1"). Associated with each address in the AutoDial database is a set of one or more [**RASAUTODIALENTRY**](https://msdn.microsoft.com/library/Aa376721(v=VS.85).aspx) entries. Each of these entries specifies a phone-book entry that RAS can dial to connect to the address from a particular Telephony Application Programming Interface (TAPI) dialing location. For more information about TAPI dialing locations, see the TAPI documentation.
+The AutoDial mapping database maps network addresses to RAS phone-book entries. The database can include IP addresses (for example, "172.21.167.35"), Internet host names (for example, "www.microsoft.com"), or NetBIOS names (for example, "products1"). Associated with each address in the AutoDial database is a set of one or more [**RASAUTODIALENTRY**](/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)) entries. Each of these entries specifies a phone-book entry that RAS can dial to connect to the address from a particular Telephony Application Programming Interface (TAPI) dialing location. For more information about TAPI dialing locations, see the TAPI documentation.
 
 AutoDial automatically creates entries in the AutoDial mapping database in two situations:
 
@@ -25,7 +25,3 @@ You can use the [**RasSetAutodialAddress**](/windows/desktop/api/Ras/nf-ras-rass
  
 
  
-
-
-
-

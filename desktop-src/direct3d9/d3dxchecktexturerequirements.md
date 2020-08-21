@@ -44,16 +44,16 @@ HRESULT D3DXCheckTextureRequirements(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the device to be associated with the texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, representing the device to be associated with the texture.
 
 </dd> <dt>
 
 *pWidth* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to the requested width in pixels, or **NULL**. Returns the corrected size.
 
@@ -62,7 +62,7 @@ Pointer to the requested width in pixels, or **NULL**. Returns the corrected siz
 *pHeight* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to the requested height in pixels, or **NULL**. Returns the corrected size.
 
@@ -71,7 +71,7 @@ Pointer to the requested height in pixels, or **NULL**. Returns the corrected si
 *pNumMipLevels* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 Pointer to number of requested mipmap levels, or **NULL**. Returns the corrected number of mipmap levels.
 
@@ -80,9 +80,9 @@ Pointer to number of requested mipmap levels, or **NULL**. Returns the corrected
 *Usage* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-0 or [**D3DUSAGE\_RENDERTARGET**](d3dusage.md). Setting this flag to D3DUSAGE\_RENDERTARGET indicates that the surface is to be used as a render target. The resource can then be passed to the pNewRenderTarget parameter of the [**SetRenderTarget**](/windows/desktop/api) method. If **D3DUSAGE\_RENDERTARGET** is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](https://msdn.microsoft.com/library/Bb174309(v=VS.85).aspx).
+0 or [**D3DUSAGE\_RENDERTARGET**](d3dusage.md). Setting this flag to D3DUSAGE\_RENDERTARGET indicates that the surface is to be used as a render target. The resource can then be passed to the pNewRenderTarget parameter of the [**SetRenderTarget**](/windows/desktop/api) method. If **D3DUSAGE\_RENDERTARGET** is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformat).
 
 </dd> <dt>
 
@@ -98,9 +98,9 @@ Pointer to a member of the [D3DFORMAT](d3dformat.md) enumerated type. Specifies 
 *Pool* \[in\]
 </dt> <dd>
 
-Type: **[**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx)**
+Type: **[**D3DPOOL**](./d3dpool.md)**
 
-Member of the [**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx) enumerated type, describing the memory class into which the texture should be placed.
+Member of the [**D3DPOOL**](./d3dpool.md) enumerated type, describing the memory class into which the texture should be placed.
 
 </dd> </dl>
 
@@ -143,7 +143,3 @@ This function uses the following heuristics when comparing the requested require
  
 
  
-
-
-
-

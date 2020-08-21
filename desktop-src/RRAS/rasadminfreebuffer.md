@@ -60,7 +60,7 @@ If the function fails, the return value can be the following error code.
 
  
 
-There is no extended error information for this function; do not call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+There is no extended error information for this function; do not call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
@@ -97,10 +97,4 @@ Use the **RasAdminFreeBuffer** function to free the buffers allocated by the [**
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

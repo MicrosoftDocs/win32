@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Creating or Modifying an ACL
 
-Windows supports a set of functions that create an [*access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACL) or modify the [*access control entries*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACEs) in an existing ACL.
+Windows supports a set of functions that create an [*access control list*](/windows/desktop/SecGloss/a-gly) (ACL) or modify the [*access control entries*](/windows/desktop/SecGloss/a-gly) (ACEs) in an existing ACL.
 
 The [**SetEntriesInAcl**](/windows/desktop/api/Aclapi/nf-aclapi-setentriesinacla) function creates a new ACL. **SetEntriesInAcl** can specify a completely new set of ACEs for the ACL, or it can merge one or more new ACEs with the ACEs of an existing ACL. The **SetEntriesInAcl** function uses an array of [**EXPLICIT\_ACCESS**](/windows/desktop/api/AccCtrl/ns-accctrl-explicit_access_a) structures to specify the information for the new ACEs. Each **EXPLICIT\_ACCESS** structure contains information that describes a single ACE. This information includes the access rights, the type of ACE, the flags that control ACE inheritance, and a [**TRUSTEE**](/windows/desktop/api/AccCtrl/ns-accctrl-trustee_a) structure that identifies the trustee.
 
 **To add a new ACE to an existing ACL**
 
-1.  Use the [**GetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getsecurityinfo) or [**GetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getnamedsecurityinfoa) function to get the existing DACL or SACL from an object's [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly).
+1.  Use the [**GetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getsecurityinfo) or [**GetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getnamedsecurityinfoa) function to get the existing DACL or SACL from an object's [*security descriptor*](/windows/desktop/SecGloss/s-gly).
 2.  For each new ACE, call the [**BuildExplicitAccessWithName**](/windows/desktop/api/Aclapi/nf-aclapi-buildexplicitaccesswithnamea) function to fill an [**EXPLICIT\_ACCESS**](/windows/desktop/api/AccCtrl/ns-accctrl-explicit_access_a) structure with the information that describes the ACE.
 3.  Call [**SetEntriesInAcl**](/windows/desktop/api/Aclapi/nf-aclapi-setentriesinacla), specifying the existing ACL and an array of [**EXPLICIT\_ACCESS**](/windows/desktop/api/AccCtrl/ns-accctrl-explicit_access_a) structures for the new ACEs. The **SetEntriesInAcl** function allocates and initializes the ACL and its ACEs.
 4.  Call the [**SetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setsecurityinfo) or [**SetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setnamedsecurityinfoa) function to attach the new ACL to the object's security descriptor.
@@ -26,6 +26,3 @@ For sample code that merges a new ACE into an existing ACL, see [Modifying the A
  
 
  
-
-
-

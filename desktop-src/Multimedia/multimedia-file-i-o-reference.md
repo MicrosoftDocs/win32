@@ -23,35 +23,35 @@ This section describes the functions, macros, messages, and structures associate
 
 ## Basic I/O
 
--   [**mmioClose**](https://msdn.microsoft.com/library/Dd757316(v=VS.85).aspx)
--   [**mmioOpen**](https://msdn.microsoft.com/library/Dd757331(v=VS.85).aspx)
--   [**mmioRead**](https://msdn.microsoft.com/library/Dd757334(v=VS.85).aspx)
--   [**mmioRename**](https://msdn.microsoft.com/library/Dd757335(v=VS.85).aspx)
--   [**mmioSeek**](https://msdn.microsoft.com/library/Dd757336(v=VS.85).aspx)
--   [**mmioWrite**](https://msdn.microsoft.com/library/Dd757341(v=VS.85).aspx)
+-   [**mmioClose**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioclose)
+-   [**mmioOpen**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioopen)
+-   [**mmioRead**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioread)
+-   [**mmioRename**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiorename)
+-   [**mmioSeek**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioseek)
+-   [**mmioWrite**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiowrite)
 
 ## Buffered I/O
 
--   [**mmioAdvance**](https://msdn.microsoft.com/library/Dd757314(v=VS.85).aspx)
--   [**mmioFlush**](https://msdn.microsoft.com/library/Dd757319(v=VS.85).aspx)
--   [**mmioGetInfo**](https://msdn.microsoft.com/library/Dd757321(v=VS.85).aspx)
--   [**MMIOINFO**](https://msdn.microsoft.com/library/Dd757322(v=VS.85).aspx)
--   [**mmioSetBuffer**](https://msdn.microsoft.com/library/Dd757338(v=VS.85).aspx)
--   [**mmioSetInfo**](https://msdn.microsoft.com/library/Dd757339(v=VS.85).aspx)
+-   [**mmioAdvance**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioadvance)
+-   [**mmioFlush**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioflush)
+-   [**mmioGetInfo**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiogetinfo)
+-   [**MMIOINFO**](/previous-versions//dd757322(v=vs.85))
+-   [**mmioSetBuffer**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiosetbuffer)
+-   [**mmioSetInfo**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiosetinfo)
 
 ## RIFF I/O
 
--   [**mmioAscend**](https://msdn.microsoft.com/library/Dd757315(v=VS.85).aspx)
--   [**MMCKINFO**](https://msdn.microsoft.com/library/Dd757312(v=VS.85).aspx)
--   [**mmioCreateChunk**](https://msdn.microsoft.com/library/Dd757317(v=VS.85).aspx)
--   [**mmioDescend**](https://msdn.microsoft.com/library/Dd757318(v=VS.85).aspx)
--   [**mmioFOURCC**](https://msdn.microsoft.com/library/Dd757320(v=VS.85).aspx)
--   [**mmioStringToFOURCC**](https://msdn.microsoft.com/library/Dd757340(v=VS.85).aspx)
+-   [**mmioAscend**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioascend)
+-   [**MMCKINFO**](/windows/win32/api/mmiscapi/ns-mmiscapi-mmckinfo)
+-   [**mmioCreateChunk**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiocreatechunk)
+-   [**mmioDescend**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiodescend)
+-   [**mmioFOURCC**](/windows/win32/api/vfw/nf-vfw-mmiofourcc)
+-   [**mmioStringToFOURCC**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiostringtofourcc)
 
 ## Custom I/O Procedures
 
--   [**IOProc**](https://msdn.microsoft.com/library/Dd757098(v=VS.85).aspx)
--   [**mmioInstallIOProc**](https://msdn.microsoft.com/library/Dd757323(v=VS.85).aspx)
+-   [**IOProc**](/previous-versions//dd757098(v=vs.85))
+-   [**mmioInstallIOProc**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioinstallioproc)
 -   [**MMIOM\_CLOSE**](mmiom-close.md)
 -   [**MMIOM\_OPEN**](mmiom-open.md)
 -   [**MMIOM\_READ**](mmiom-read.md)
@@ -59,7 +59,7 @@ This section describes the functions, macros, messages, and structures associate
 -   [**MMIOM\_SEEK**](mmiom-seek.md)
 -   [**MMIOM\_WRITE**](mmiom-write.md)
 -   [**MMIOM\_WRITEFLUSH**](mmiom-writeflush.md)
--   [**mmioSendMessage**](https://msdn.microsoft.com/library/Dd757337(v=VS.85).aspx)
+-   [**mmioSendMessage**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiosendmessage)
 
 ## Related topics
 
@@ -71,7 +71,3 @@ This section describes the functions, macros, messages, and structures associate
  
 
  
-
-
-
-

@@ -80,7 +80,7 @@ After you start the application, load an image file by using the **Open** comman
 [References](-wic-codec-reference.md)
 
 
-[Direct2D](https://msdn.microsoft.com/library/dd370990(VS.85).aspx)
+[Direct2D](../direct2d/direct2d-portal.md)
 
 
 [Samples and Code Examples](-wic-samples.md)
@@ -89,6 +89,3 @@ After you start the application, load an image file by using the **Open** comman
  
 
  
-
-
-

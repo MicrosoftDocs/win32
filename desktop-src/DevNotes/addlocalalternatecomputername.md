@@ -48,7 +48,7 @@ DWORD AddLocalAlternateComputerName(
 *lpDnsFQHostname* \[in\]
 </dt> <dd>
 
-The alternate name to be added. The name must be in the **ComputerNameDnsFullyQualified** format as defined in the [**COMPUTER\_NAME\_FORMAT**](https://msdn.microsoft.com/library/ms724224(v=VS.85).aspx) enumeration, and the [**DnsValidateName\_W**](https://msdn.microsoft.com/library/ms682032(v=VS.85).aspx) function must be able to validate it with its format set to **DnsNameHostnameFull**.
+The alternate name to be added. The name must be in the **ComputerNameDnsFullyQualified** format as defined in the [**COMPUTER\_NAME\_FORMAT**](/windows/win32/api/sysinfoapi/ne-sysinfoapi-computer_name_format) enumeration, and the [**DnsValidateName\_W**](/windows/win32/api/windns/nf-windns-dnsvalidatename) function must be able to validate it with its format set to **DnsNameHostnameFull**.
 
 </dd> <dt>
 
@@ -90,16 +90,12 @@ If the function succeeds, the function returns **ERROR\_SUCCESS**. If the functi
 
 <dl> <dt>
 
-[**COMPUTER\_NAME\_FORMAT**](https://msdn.microsoft.com/library/ms724224(v=VS.85).aspx)
+[**COMPUTER\_NAME\_FORMAT**](/windows/win32/api/sysinfoapi/ne-sysinfoapi-computer_name_format)
 </dt> <dt>
 
-[**DnsValidateName\_W**](https://msdn.microsoft.com/library/ms682032(v=VS.85).aspx)
+[**DnsValidateName\_W**](/windows/win32/api/windns/nf-windns-dnsvalidatename)
 </dt> </dl>
 
  
 
  
-
-
-
-

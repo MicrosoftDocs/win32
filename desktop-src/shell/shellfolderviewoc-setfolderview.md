@@ -37,7 +37,7 @@ iRetVal = ShellFolderViewOC.SetFolderView(
 *oShellFolderView* \[in\]
 </dt> <dd>
 
-Type: **[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)\***
+Type: **[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)\***
 
 A [**ShellFolderView**](shellfolderview.md) object. Its [**EnumDone**](shellfolderviewoc-enumdone.md) and [**SelectionChanged**](shellfolderview-selectionchanged.md) events will be forwarded to the corresponding [**ShellFolderViewOC**](shellfolderviewoc-object.md) event handler.
 
@@ -60,7 +60,3 @@ A [**ShellFolderView**](shellfolderview.md) object. Its [**EnumDone**](shellfold
  
 
  
-
-
-
-

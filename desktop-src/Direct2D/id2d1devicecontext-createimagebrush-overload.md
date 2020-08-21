@@ -24,9 +24,9 @@ Creates an image brush. The input image can be any type of image, including a bi
 
 | Method                                                                                                                                                           | Description                                                                                                                  |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------|
-| [**CreateImageBrush (ID2D1Image\*, D2D1\_IMAGE\_BRUSH\_PROPERTIES\*, D2D1\_BRUSH\_PROPERTIES\*, ID2D1ImageBrush\*\*)**](https://msdn.microsoft.com/library/Hh404506(v=VS.85).aspx) | Creates an image brush. The input image can be any type of image, including a bitmap, effect, or a command list. <br/> |
-| [**CreateImageBrush (ID2D1Image\*, D2D1\_IMAGE\_BRUSH\_PROPERTIES&, D2D1\_BRUSH\_PROPERTIES&, ID2D1ImageBrush\*\*)**](https://msdn.microsoft.com/library/JJ841140(v=VS.85).aspx)  | Creates an image brush. The input image can be any type of image, including a bitmap, effect, or a command list. <br/> |
-| [**CreateImageBrush (ID2D1Image\*, D2D1\_IMAGE\_BRUSH\_PROPERTIES&, ID2D1ImageBrush\*\*)**](https://msdn.microsoft.com/library/JJ841141(v=VS.85).aspx)                            | Creates an image brush. The input image can be any type of image, including a bitmap, effect, or a command list. <br/> |
+| [**CreateImageBrush (ID2D1Image\*, D2D1\_IMAGE\_BRUSH\_PROPERTIES\*, D2D1\_BRUSH\_PROPERTIES\*, ID2D1ImageBrush\*\*)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createimagebrush(id2d1image_constd2d1_image_brush_properties_constd2d1_brush_properties_id2d1imagebrush)) | Creates an image brush. The input image can be any type of image, including a bitmap, effect, or a command list. <br/> |
+| [**CreateImageBrush (ID2D1Image\*, D2D1\_IMAGE\_BRUSH\_PROPERTIES&, D2D1\_BRUSH\_PROPERTIES&, ID2D1ImageBrush\*\*)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createimagebrush(id2d1image_constd2d1_image_brush_properties__constd2d1_brush_properties__id2d1imagebrush))  | Creates an image brush. The input image can be any type of image, including a bitmap, effect, or a command list. <br/> |
+| [**CreateImageBrush (ID2D1Image\*, D2D1\_IMAGE\_BRUSH\_PROPERTIES&, ID2D1ImageBrush\*\*)**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createimagebrush(id2d1image_constd2d1_image_brush_properties__id2d1imagebrush))                            | Creates an image brush. The input image can be any type of image, including a bitmap, effect, or a command list. <br/> |
 
 
 
@@ -34,14 +34,8 @@ Creates an image brush. The input image can be any type of image, including a bi
 
 <dl> <dt>
 
-[**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx)
+[**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

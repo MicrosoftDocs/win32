@@ -30,17 +30,17 @@ propertyDescription
 
 PKEY values are defined in Propkey.h.
 
-If [System.ItemType](https://msdn.microsoft.com/library/Bb760781(v=VS.85).aspx) is VT\_EMPTY, the value of this property is also VT\_EMPTY. If the item is a file, the value of this property is the same as if you passed the file's System.ItemType value to [**PSFormatForDisplay**](https://msdn.microsoft.com/library/Bb776496(v=VS.85).aspx).
+If [System.ItemType](./props-system-itemtype.md) is VT\_EMPTY, the value of this property is also VT\_EMPTY. If the item is a file, the value of this property is the same as if you passed the file's System.ItemType value to [**PSFormatForDisplay**](/windows/win32/api/propsys/nf-propsys-psformatfordisplay).
 
-This property should not be confused with [System.Kind](https://msdn.microsoft.com/library/Bb787521(v=VS.85).aspx), which is a high-level, user-friendly kind name. For example, for a .doc document file, the various properties are as shown here:
+This property should not be confused with [System.Kind](./props-system-kind.md), which is a high-level, user-friendly kind name. For example, for a .doc document file, the various properties are as shown here:
 
 
 
 | Property                                               | Value                   |
 |--------------------------------------------------------|-------------------------|
-| [System.Kind](https://msdn.microsoft.com/library/Bb787521(v=VS.85).aspx)                 | Document                |
-| [System.ItemType](https://msdn.microsoft.com/library/Bb760781(v=VS.85).aspx)         | .doc                    |
-| [System.ItemTypeText](https://msdn.microsoft.com/library/Bb760783(v=VS.85).aspx) | Microsoft Word Document |
+| [System.Kind](./props-system-kind.md)                 | Document                |
+| [System.ItemType](./props-system-itemtype.md)         | .doc                    |
+| [System.ItemTypeText]() | Microsoft Word Document |
 
 
 
@@ -66,51 +66,48 @@ Example values:
 
 <dl> <dt>
 
-[propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx)
+[propertyDescription](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx)
+[searchInfo](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx)
+[labelInfo](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx)
+[typeInfo](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx)
+[displayInfo](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx)
+[stringFormat](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[booleanFormat](https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx)
+[booleanFormat](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx)
+[numberFormat](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[dateTimeFormat](https://msdn.microsoft.com/library/Bb773863(v=VS.85).aspx)
+[dateTimeFormat](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx)
+[enumeratedList](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx)
+[drawControl](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx)
+[editControl](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx)
+[filterControl](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx)
+[queryControl](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  
 
  
-
-
-

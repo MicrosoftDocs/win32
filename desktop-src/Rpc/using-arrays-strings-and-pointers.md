@@ -39,10 +39,10 @@ The Doctor program uses a character array for input and returns another characte
 
 | Approach                       | Attributes or functions                                                                                                        |
 |--------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| Counted character arrays       | \[ [size\_is](https://docs.microsoft.com/windows/desktop/Midl/size-is)\], \[ [length\_is](https://docs.microsoft.com/windows/desktop/Midl/length-is)\], \[ [ref](https://docs.microsoft.com/windows/desktop/Midl/ref)\]                                         |
-| Stub-managed strings           | \[ [string](https://docs.microsoft.com/windows/desktop/Midl/string)\], \[ [ref](https://docs.microsoft.com/windows/desktop/Midl/ref)\], [midl\_user\_allocate](https://docs.microsoft.com/windows/desktop/Midl/midl-user-allocate-1) on server                  |
-| Stub-managed strings           | \[ [string](https://docs.microsoft.com/windows/desktop/Midl/string)\], \[ [unique](https://docs.microsoft.com/windows/desktop/Midl/unique)\], [midl\_user\_allocate](https://docs.microsoft.com/windows/desktop/Midl/midl-user-allocate-1) on client and server |
-| Function that returns a string | \[ [unique](https://docs.microsoft.com/windows/desktop/Midl/unique)\]                                                                                                     |
+| Counted character arrays       | \[ [size\_is](/windows/desktop/Midl/size-is)\], \[ [length\_is](/windows/desktop/Midl/length-is)\], \[ [ref](/windows/desktop/Midl/ref)\]                                         |
+| Stub-managed strings           | \[ [string](/windows/desktop/Midl/string)\], \[ [ref](/windows/desktop/Midl/ref)\], [midl\_user\_allocate](/windows/desktop/Midl/midl-user-allocate-1) on server                  |
+| Stub-managed strings           | \[ [string](/windows/desktop/Midl/string)\], \[ [unique](/windows/desktop/Midl/unique)\], [midl\_user\_allocate](/windows/desktop/Midl/midl-user-allocate-1) on client and server |
+| Function that returns a string | \[ [unique](/windows/desktop/Midl/unique)\]                                                                                                     |
 
 
 
@@ -59,7 +59,3 @@ The following topics demonstrate the design trade-offs between the various inter
  
 
  
-
-
-
-

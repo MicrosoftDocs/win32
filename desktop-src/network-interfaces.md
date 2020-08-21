@@ -53,16 +53,16 @@ Notes for the preceding table:
 
 ## Visibility to developers
 
-In the preceding table, all properties except for the Plug and Play (PnP) properties are visible to user mode desktop apps and kernel mode drivers via a shared header (Netioapi.h). The PnP properties are visible via the Devpkey.h header and are used by both user mode desktop apps and kernel mode drivers. For example, see the [DEVPKEY](https://docs.microsoft.com/windows-hardware/drivers/install/devpkey-device-instanceid) documentation.
+In the preceding table, all properties except for the Plug and Play (PnP) properties are visible to user mode desktop apps and kernel mode drivers via a shared header (Netioapi.h). The PnP properties are visible via the Devpkey.h header and are used by both user mode desktop apps and kernel mode drivers. For example, see the [DEVPKEY](/windows-hardware/drivers/install/devpkey-device-instanceid) documentation.
 
-The [IP Helper](https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page) API is also available for both user mode desktop apps and kernel mode drivers.
+The [IP Helper](/windows/desktop/IpHlp/ip-helper-start-page) API is also available for both user mode desktop apps and kernel mode drivers.
 
-The UWP API surface only exposes the [ifGuid](https://docs.microsoft.com/uwp/api/windows.networking.connectivity.networkadapter.networkadapterid) property directly. However, it is possible for a UWP app developers to import the [**GetIfTable2**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getiftable2) function using P/Invoke if they are required to access other network interface properties.
+The UWP API surface only exposes the [ifGuid](/uwp/api/windows.networking.connectivity.networkadapter.networkadapterid) property directly. However, it is possible for a UWP app developers to import the [**GetIfTable2**](/windows/desktop/api/netioapi/nf-netioapi-getiftable2) function using P/Invoke if they are required to access other network interface properties.
 
 ## Related topics
 
 For management information base (MIB) definitions for network interfaces, see [RFC 2863](https://tools.ietf.org/html/rfc2863).
 
-For NDIS network interfaces in network drivers, see [NDIS Network Interfaces](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-network-interfaces2).
+For NDIS network interfaces in network drivers, see [NDIS Network Interfaces](/windows-hardware/drivers/network/ndis-network-interfaces2).
 
-For Netioapi.h API reference, see [netioapi.h header](https://docs.microsoft.com/windows/desktop/api/netioapi/).
+For Netioapi.h API reference, see [netioapi.h header](/windows/desktop/api/netioapi/).

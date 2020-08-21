@@ -36,7 +36,7 @@ Implements the [**IRealTimeStylus**](/windows/desktop/api/RTSCom/nn-rtscom-ireal
 
 <dl> <dt>
 
-[**DynamicRenderer Class**](https://msdn.microsoft.com/library/ms701168(v=VS.85).aspx)
+[**DynamicRenderer Class**](/previous-versions/windows/desktop/legacy/ms701168(v=vs.85))
 </dt> <dt>
 
 [RealTimeStylus Reference](realtimestylus-reference.md)
@@ -51,7 +51,3 @@ Implements the [**IRealTimeStylus**](/windows/desktop/api/RTSCom/nn-rtscom-ireal
  
 
  
-
-
-
-

@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 You can use WMI from client applications and scripts. It provides an infrastructure that makes it easy to both discover and perform management tasks. In addition, you can add to the set of possible management tasks by creating your own WMI providers.
 
 > [!Note]  
-> The next-generation version of WMI for writing applications and scripts is available through the Windows Management Infrastructure (MI). For more information, see [MI Providers and Clients](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-providers-and-clients-node-page).
+> The next-generation version of WMI for writing applications and scripts is available through the Windows Management Infrastructure (MI). For more information, see [MI Providers and Clients](/previous-versions/windows/desktop/wmi_v2/mi-providers-and-clients-node-page).
 
  
 
@@ -28,7 +28,7 @@ The following procedure describes how to obtain data from WMI by writing a scrip
 
 **To obtain data from WMI by writing a script or application**
 
-1.  Decide which language to use. For more information about scripting, see [Creating a WMI Script](creating-a-wmi-script.md). For more information about C++, see [Creating a WMI Application Using C++](creating-a-wmi-application-using-c-.md). For using more information about C# or WMI .NET, see [WMI .NET Overview](https://msdn.microsoft.com/library/ms257340.aspx).
+1.  Decide which language to use. For more information about scripting, see [Creating a WMI Script](creating-a-wmi-script.md). For more information about C++, see [Creating a WMI Application Using C++](creating-a-wmi-application-using-c-.md). For using more information about C# or WMI .NET, see [WMI .NET Overview](/previous-versions/).
 
     You can view or manipulate WMI data in many languages. The following table lists the topics that describe how to use the scripting and application languages to obtain data.
 
@@ -130,7 +130,7 @@ The following procedure describes how to supply data to WMI by writing a provide
 
     -   Using the WMI ATL Wizard in Visual Studio.
 
-        This approach creates an unmanaged COM provider. For more information, see [Adding a WMI Instance Provider](https://msdn.microsoft.com/library/aa394611.aspx) and [Adding a WMI Event Provider](https://msdn.microsoft.com/library/aa394610.aspx).
+        This approach creates an unmanaged COM provider. For more information, see [Adding a WMI Instance Provider](./writing-an-instance-provider.md) and [Adding a WMI Event Provider](./writing-an-event-provider.md).
 
     -   Using COM directly in any integrated development environment.
 
@@ -138,7 +138,7 @@ The following procedure describes how to supply data to WMI by writing a provide
 
     -   Using WMI in the .NET Framework to create a managed code provider.
 
-        This approach creates a managed code provider. Managed code providers can be written in any .NET Framework language, are simpler to write than WMI COM providers, and can obtain data from the WMI [*CIM*](gloss-c.md)-based classes such as [Win32 Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-provider). However, the .NET Framework WMI provider has some limitations. For more information, see [Managing Applications Using WMI](https://msdn.microsoft.com/library/aa720264.aspx).
+        This approach creates a managed code provider. Managed code providers can be written in any .NET Framework language, are simpler to write than WMI COM providers, and can obtain data from the WMI [*CIM*](gloss-c.md)-based classes such as [Win32 Classes](/windows/desktop/CIMWin32Prov/win32-provider). However, the .NET Framework WMI provider has some limitations. For more information, see [Managing Applications Using WMI](/previous-versions/dotnet/netframework-1.1/aa720264(v=vs.71)).
 
     -   Using the [provider framework classes](wmi-c-classes.md) is not recommended.
 
@@ -150,7 +150,7 @@ The following procedure describes how to supply data to WMI by writing a provide
     |---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
     | COM provider in the same process as WMI<br/>            | [Providing Data to WMI](providing-data-to-wmi.md)<br/>                                           |
     | COM decoupled provider<br/>                             | [Incorporating a Provider in an Application](incorporating-a-provider-in-an-application.md)<br/> |
-    | .NET Framework provider in C# or Visual Basic.NET<br/> | [Managing Applications Using WMI](https://msdn.microsoft.com/library/aa720264.aspx)<br/>            |
+    | .NET Framework provider in C# or Visual Basic.NET<br/> | [Managing Applications Using WMI](/previous-versions/dotnet/netframework-1.1/aa720264(v=vs.71))<br/>            |
 
     
 
@@ -177,9 +177,4 @@ The following topics provide information about using WMI to monitor and control 
  
 
  
-
- 
-
-
-
 

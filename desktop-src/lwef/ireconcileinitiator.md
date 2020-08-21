@@ -23,7 +23,7 @@ Exposes methods that provide the briefcase reconciler with the means to notify t
 
 ## Members
 
-The **IReconcileInitiator** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IReconcileInitiator** also has these types of members:
+The **IReconcileInitiator** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IReconcileInitiator** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -35,8 +35,8 @@ The **IReconcileInitiator** interface has these methods.
 
 | Method                                                                 | Description                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SetAbortCallback**](https://msdn.microsoft.com/library/Bb761345(v=VS.85).aspx)       | Sets the object through which the initiator can asynchronously terminate a reconciliation. A briefcase reconciler typically sets this object for reconciliations that are lengthy or involve user interaction. <br/>                                                                                              |
-| [**SetProgressFeedback**](https://msdn.microsoft.com/library/Bb761347(v=VS.85).aspx) | Indicates the amount of progress the briefcase reconciler has made toward completing the reconciliation. The amount is a fraction and is computed as the quotient of the *ulProgress* and *ulProgressMax* parameters. Reconcilers should call this method periodically during their reconciliation process. <br/> |
+| [**SetAbortCallback**](/windows/win32/api/reconcil/nf-reconcil-ireconcileinitiator-setabortcallback)       | Sets the object through which the initiator can asynchronously terminate a reconciliation. A briefcase reconciler typically sets this object for reconciliations that are lengthy or involve user interaction. <br/>                                                                                              |
+| [**SetProgressFeedback**](/windows/win32/api/reconcil/nf-reconcil-ireconcileinitiator-setprogressfeedback) | Indicates the amount of progress the briefcase reconciler has made toward completing the reconciliation. The amount is a fraction and is computed as the quotient of the *ulProgress* and *ulProgressMax* parameters. Reconcilers should call this method periodically during their reconciliation process. <br/> |
 
 
 
@@ -55,10 +55,4 @@ The **IReconcileInitiator** interface has these methods.
 
 
  
-
- 
-
-
-
-
 

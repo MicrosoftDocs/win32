@@ -15,10 +15,10 @@ Drive letters are not global to the system. Each logon session receives its own 
 A service should not directly access local or network resources through mapped drive letters, nor should it call the **net use** command to map drive letters at run time. The **net use** command is not recommended for several reasons:
 
 -   Drive mappings exist across logon contexts, so if an application is running in the context of the [LocalService account](localservice-account.md), then any other service running in that context may have access to the mapped drive.
--   If the service provides explicit credentials to a **net use** command, those credentials might be inadvertently shared outside of the service boundaries. Instead, the service should use [client impersonation](https://docs.microsoft.com/windows/desktop/SecAuthZ/client-impersonation) to impersonate the user.
+-   If the service provides explicit credentials to a **net use** command, those credentials might be inadvertently shared outside of the service boundaries. Instead, the service should use [client impersonation](/windows/desktop/SecAuthZ/client-impersonation) to impersonate the user.
 -   Multiple services running in the same context may interfere with each other. If both services perform an explicit **net use** and provide the same credentials at the same time, one service will fail with an "already connected" error.
 
-Additionally, a service should not use the [Windows Networking Functions](https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions) to manage mapped drive letters. Although the WNet functions may return successfully, the resulting behavior is not as intended. When the system establishes a redirected drive, it is stored on a per-user basis. Only the user is able to manage the redirected drive. The system keeps track of redirected drives based on the user's logon security identifier (SID). The logon SID is a unique identifier for the user's logon session. A single user can have multiple, simultaneous logon sessions on the system.
+Additionally, a service should not use the [Windows Networking Functions](/windows/desktop/WNet/windows-networking-functions) to manage mapped drive letters. Although the WNet functions may return successfully, the resulting behavior is not as intended. When the system establishes a redirected drive, it is stored on a per-user basis. Only the user is able to manage the redirected drive. The system keeps track of redirected drives based on the user's logon security identifier (SID). The logon SID is a unique identifier for the user's logon session. A single user can have multiple, simultaneous logon sessions on the system.
 
 If a service is configured to run under a user account, the system always creates a new logon session for the user and starts the service in that new logon session. Therefore, a service cannot manage the drive mappings established within the user's other sessions.
 
@@ -27,6 +27,3 @@ If a service is configured to run under a user account, the system always create
  
 
  
-
-
-

@@ -8,11 +8,8 @@ ms.date: 05/31/2018
 
 # VSS Backups and Restores of the Cluster Database
 
-Failover clustering uses the Volume Shadow Copy Service (VSS) for backing up and restoring the failover cluster configuration. For more information, see [Backing Up and Restoring the Failover Cluster Configuration Using VSS](https://msdn.microsoft.com/library/Dd264602(v=VS.85).aspx).
+Failover clustering uses the Volume Shadow Copy Service (VSS) for backing up and restoring the failover cluster configuration. For more information, see [Backing Up and Restoring the Failover Cluster Configuration Using VSS](/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-failover-cluster-configuration-using-vss).
 
  
 
  
-
-
-

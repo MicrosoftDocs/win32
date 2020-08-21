@@ -41,7 +41,7 @@ HRESULT IPropertyBag2_Write_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[IPropertyBag2](https://msdn.microsoft.com/library/Aa768192(VS.85).aspx)\***
+Type: **[IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85))\***
 
 PARAMDESC
 
@@ -57,7 +57,7 @@ Type: **ULONG**
 *ppropBag* \[in\]
 </dt> <dd>
 
-Type: **[PROPBAG2](https://msdn.microsoft.com/library/Aa768188(VS.85).aspx)\***
+Type: **[PROPBAG2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768188(v=vs.85))\***
 
 </dd> <dt>
 
@@ -89,9 +89,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

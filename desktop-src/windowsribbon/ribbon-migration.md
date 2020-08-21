@@ -238,7 +238,7 @@ Replacing standard menus and toolbars with a ribbon in a legacy application requ
 
  
 
-The following example demonstrates how to initialize the framework using [**IUIFramework::Initialize**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-initialize):
+The following example demonstrates how to initialize the framework using [**IUIFramework::Initialize**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-initialize):
 
 
 ```C++
@@ -262,7 +262,7 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 
 
 
-The following example demonstrates how to use [**IUIFramework::LoadUI**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui) to load the compiled markup:
+The following example demonstrates how to use [**IUIFramework::LoadUI**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui) to load the compiled markup:
 
 
 ```C++
@@ -304,13 +304,13 @@ HRESULT InitRibbon(CMainFrame* pMainFrame, IUnknown** ppFramework)
 
 
 
-The CApplication class, referred to above, must implement a pair of Component Object Model (COM) interfaces defined by the Ribbon framework: [**IUIApplication**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication) and [**IUICommandHandler**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler).
+The CApplication class, referred to above, must implement a pair of Component Object Model (COM) interfaces defined by the Ribbon framework: [**IUIApplication**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication) and [**IUICommandHandler**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler).
 
-[**IUIApplication**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication) provides the main callback interface between the framework and the application (for example, the height of the ribbon is communicated through [**IUIApplication::OnViewChanged**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-onviewchanged)) while the callbacks for individual Commands are provided in response to [**IUIApplication::OnCreateUICommand**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-oncreateuicommand).
+[**IUIApplication**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication) provides the main callback interface between the framework and the application (for example, the height of the ribbon is communicated through [**IUIApplication::OnViewChanged**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-onviewchanged)) while the callbacks for individual Commands are provided in response to [**IUIApplication::OnCreateUICommand**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-oncreateuicommand).
 
-**Tip:** Some application frameworks, such as MFC, require that the height of the ribbon bar be taken into account when rendering the document space of the application. In these cases, the addition of a hidden window to overlay the ribbon bar and force the document space to the desired height is necessary. For an example of this approach, where a layout function is called based on the ribbon height returned by the [**IUIRibbon::GetHeight**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-getheight) method, see the [HTMLEditRibbon Sample](windowsribbon-htmleditribbonsample.md).
+**Tip:** Some application frameworks, such as MFC, require that the height of the ribbon bar be taken into account when rendering the document space of the application. In these cases, the addition of a hidden window to overlay the ribbon bar and force the document space to the desired height is necessary. For an example of this approach, where a layout function is called based on the ribbon height returned by the [**IUIRibbon::GetHeight**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-getheight) method, see the [HTMLEditRibbon Sample](windowsribbon-htmleditribbonsample.md).
 
-The following code example demonstrates an [**IUIApplication::OnViewChanged**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-onviewchanged) implementation:
+The following code example demonstrates an [**IUIApplication::OnViewChanged**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-onviewchanged) implementation:
 
 
 ```C++
@@ -433,7 +433,7 @@ However, this approach requires special handling for Commands such as **Exit** o
 When the manifest of commands has been defined, the structure of the Ribbon has been declared, and the application code adapted to host the Ribbon framework, the final step is the specification of string and image resources for each Command.
 
 > [!Note]  
-> String and image resources are typically provided in the markup file. However, they can be generated or replaced programmatically by implementing the [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) callback method.
+> String and image resources are typically provided in the markup file. However, they can be generated or replaced programmatically by implementing the [**IUICommandHandler::UpdateProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) callback method.
 
  
 
@@ -565,7 +565,3 @@ The following example demonstrates how a set of dpi-specific images are referenc
  
 
  
-
-
-
-

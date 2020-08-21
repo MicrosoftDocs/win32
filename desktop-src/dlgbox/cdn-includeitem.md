@@ -18,11 +18,11 @@ ms.date: 05/31/2018
 
 # CDN\_INCLUDEITEM notification code
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](https://msdn.microsoft.com/library/Bb776913(v=VS.85).aspx). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 Sent by an **Open** or **Save As** dialog box to determine whether the dialog box should display an item in a shell folder's item list. When the user opens a folder, the dialog box sends a **CDN\_INCLUDEITEM** notification for each item in the folder. The dialog box sends this notification only if the **OFN\_ENABLEINCLUDENOTIFY** flag was set when the dialog box was created.
 
-Your [*OFNHookProc*](https://msdn.microsoft.com/library/ms646931(v=VS.85).aspx) hook procedure receives this message in the form of a [**WM\_NOTIFY**](https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx) message.
+Your [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc) hook procedure receives this message in the form of a [**WM\_NOTIFY**](../controls/wm-notify.md) message.
 
 
 ```C++
@@ -48,7 +48,7 @@ This parameter is not used.
 
 A pointer to an [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa) structure.
 
-The [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa) structure contains an [**NMHDR**](https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr) structure whose **code** member indicates the **CDN\_INCLUDEITEM** notification message.
+The [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa) structure contains an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure whose **code** member indicates the **CDN\_INCLUDEITEM** notification message.
 
 The **psf** member of the [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa) structure is a pointer to an interface for the folder whose items are being enumerated. The **pidl** member is a pointer to an item identifier list that identifies the item relative to the folder.
 
@@ -56,7 +56,7 @@ The **psf** member of the [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commd
 
 ## Return value
 
-If the [*OFNHookProc*](https://msdn.microsoft.com/library/ms646931(v=VS.85).aspx) hook procedure returns zero, the dialog box excludes the item from the list of items.
+If the [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc) hook procedure returns zero, the dialog box excludes the item from the list of items.
 
 To include the item, return a nonzero value from the hook procedure.
 
@@ -89,7 +89,7 @@ The dialog box always includes items that have both the **SFGAO\_FILESYSTEM** an
 [**GetSaveFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getsavefilenamea)
 </dt> <dt>
 
-[*OFNHookProc*](https://msdn.microsoft.com/library/ms646931(v=VS.85).aspx)
+[*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc)
 </dt> <dt>
 
 [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa)
@@ -102,10 +102,4 @@ The dialog box always includes items that have both the **SFGAO\_FILESYSTEM** an
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

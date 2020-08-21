@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.FillRectangles methods
 
-This topic lists the FillRectangles methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the FillRectangles methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the FillRectangles methods of the [**Graphics**](https://msdn.m
 
 | Method                                                                                                                   | Description                                                                                                                                                                                        |
 |:-------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**FillRectangles(Brush\*,Rect\*,INT)**](https://msdn.microsoft.com/library/ms535952(v=VS.85).aspx)   | The [**Graphics::FillRectangles**](https://msdn.microsoft.com/library/ms535952(v=VS.85).aspx) method uses a brush to fill the interior of a sequence of rectangles.<br/>  |
-| [**FillRectangles(Brush\*,RectF\*,INT)**](https://msdn.microsoft.com/library/ms535953(v=VS.85).aspx) | The [**Graphics::FillRectangles**](https://msdn.microsoft.com/library/ms535953(v=VS.85).aspx) method uses a brush to fill the interior of a sequence of rectangles.<br/> |
+| [**FillRectangles(Brush\*,Rect\*,INT)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillrectangles(inconstbrush_inconstrect_inint))   | The [**Graphics::FillRectangles**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillrectangles(inconstbrush_inconstrect_inint)) method uses a brush to fill the interior of a sequence of rectangles.<br/>  |
+| [**FillRectangles(Brush\*,RectF\*,INT)**](/previous-versions//ms535953(v=vs.85)) | The [**Graphics::FillRectangles**](/previous-versions//ms535953(v=vs.85)) method uses a brush to fill the interior of a sequence of rectangles.<br/> |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the FillRectangles methods of the [**Graphics**](https://msdn.m
  
 
  
-
-
-
-

@@ -37,10 +37,10 @@ The value for System.ItemType is intended to be programmatically parsed, and can
 
 The FriendlyTypeName element of a ProgID should be a localized version of the application name (@winword.dll,-42), while the default value of the ProgID key is a non-localized name (Word.Document.12).
 
-If there is no canonical type, the value is VT\_EMPTY. If the item is a file ([System.FileName](https://msdn.microsoft.com/library/Bb760703(v=VS.85).aspx) is not VT\_EMPTY), the value is the same as [System.FileExtension](https://msdn.microsoft.com/library/Bb760699(v=VS.85).aspx). Use [System.ItemTypeText](https://msdn.microsoft.com/library/Bb760783(v=VS.85).aspx) when you want to display the type to end users in a view.
+If there is no canonical type, the value is VT\_EMPTY. If the item is a file ([System.FileName](./props-system-filename.md) is not VT\_EMPTY), the value is the same as [System.FileExtension](./props-system-fileextension.md). Use [System.ItemTypeText](./props-system-itemtypetext.md) when you want to display the type to end users in a view.
 
 > [!Note]  
-> If the item is a file, passing the [System.ItemType](https://msdn.microsoft.com/library/Bb760781(v=VS.85).aspx) value to [**PSFormatForDisplay**](https://msdn.microsoft.com/library/Bb776496(v=VS.85).aspx) results in the same value as [System.ItemTypeText](https://msdn.microsoft.com/library/Bb760783(v=VS.85).aspx).
+> If the item is a file, passing the [System.ItemType]() value to [**PSFormatForDisplay**](/windows/win32/api/propsys/nf-propsys-psformatfordisplay) results in the same value as [System.ItemTypeText](./props-system-itemtypetext.md).
 
  
 
@@ -65,54 +65,51 @@ Example values:
 
 <dl> <dt>
 
-[propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx)
+[propertyDescription](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx)
+[searchInfo](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx)
+[labelInfo](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx)
+[typeInfo](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx)
+[displayInfo](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx)
+[stringFormat](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[booleanFormat](https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx)
+[booleanFormat](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx)
+[numberFormat](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[dateTimeFormat](https://msdn.microsoft.com/library/Bb773863(v=VS.85).aspx)
+[dateTimeFormat](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx)
+[enumeratedList](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx)
+[drawControl](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx)
+[editControl](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx)
+[filterControl](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx)
+[queryControl](./propdesc-schema-querycontrol.md)
 </dt> <dt>
 
-[Programmatic Identifiers](https://msdn.microsoft.com/library/Cc144152(v=VS.85).aspx)
+[Programmatic Identifiers](../shell/fa-progids.md)
 </dt> </dl>
 
  
 
  
-
-
-

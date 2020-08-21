@@ -14,14 +14,10 @@ ms.date: 05/31/2018
 
 # Callback Functions
 
-Installable drivers can notify the application, window, or task that opened the given instance about events by using the [DriverCallback](https://msdn.microsoft.com/library/Dd797917(v=VS.85).aspx) function. This function gives the driver the means to return information to an application or DLL while continuing to process a request.
+Installable drivers can notify the application, window, or task that opened the given instance about events by using the [DriverCallback](/windows/win32/api/mmiscapi/nf-mmiscapi-drivercallback) function. This function gives the driver the means to return information to an application or DLL while continuing to process a request.
 
 If a driver supports callback functions, the application or DLL that opens the instance must supply a value this is either the address of a callback function, a window handle, or a task handle. This value and a flag identifying the type of the value are typically passed in a structure pointed to by the second parameter of the [**DRV\_OPEN**](drv-open.md) message.
 
  
 
  
-
-
-
-

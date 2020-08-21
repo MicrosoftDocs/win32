@@ -39,7 +39,7 @@ typedef struct {
 **Size**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -61,11 +61,11 @@ The display mode format to filter out. See [D3DFORMAT](d3dformat.md).
 **ScanLineOrdering**
 </dt> <dd>
 
-Type: **[**D3DSCANLINEORDERING**](https://msdn.microsoft.com/library/Bb172604(v=VS.85).aspx)**
+Type: **[**D3DSCANLINEORDERING**](./d3dscanlineordering.md)**
 
 </dd> <dd>
 
-Whether the scanline ordering is interlaced or progressive. See [**D3DSCANLINEORDERING**](https://msdn.microsoft.com/library/Bb172604(v=VS.85).aspx).
+Whether the scanline ordering is interlaced or progressive. See [**D3DSCANLINEORDERING**](./d3dscanlineordering.md).
 
 </dd> </dl>
 
@@ -89,7 +89,3 @@ Whether the scanline ordering is interlaced or progressive. See [**D3DSCANLINEOR
  
 
  
-
-
-
-

@@ -44,7 +44,7 @@ HRESULT D3DXAssembleShader(
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to a memory buffer that contains the shader data.
 
@@ -53,7 +53,7 @@ Pointer to a memory buffer that contains the shader data.
 *SrcDataLen* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Length of the effect data, in bytes.
 
@@ -80,7 +80,7 @@ Optional interface pointer, [**ID3DXInclude**](id3dxinclude.md), to use for hand
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Compile options identified by various flags. The Direct3D 10 HLSL compiler is now the default. See [D3DXSHADER Flags](d3dxshader-flags.md) for details.
 
@@ -137,7 +137,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

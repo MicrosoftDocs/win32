@@ -18,12 +18,12 @@ ms.date: 02/03/2020
 
 # WM_PARENTNOTIFY message
 
-Sent to a window when a significant action occurs on a descendant window. This message is now extended to include the [**WM_POINTERDOWN**](wm-pointerdown.md) event. When the child window is being created, the system sends [**WM_PARENTNOTIFY**](https://msdn.microsoft.com/library/windows/desktop/hh454920) just before the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) or [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function that creates the window returns. When the child window is being destroyed, the system sends the message before any processing to destroy the window takes place.
+Sent to a window when a significant action occurs on a descendant window. This message is now extended to include the [**WM_POINTERDOWN**](wm-pointerdown.md) event. When the child window is being created, the system sends [**WM_PARENTNOTIFY**](/previous-versions/windows/desktop/inputmsg/wm-parentnotify) just before the [**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function that creates the window returns. When the child window is being destroyed, the system sends the message before any processing to destroy the window takes place.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 > \[!Important\]  
-> Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
+> Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 
  
 
@@ -73,8 +73,8 @@ Contains the point location of the pointer.
 
 Use the following macros to retrieve the physical screen coordinates of the point.
 
--   [**GET_X_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632654)(lParam): the x (horizontal point) coordinate.
--   [**GET_Y_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655)(lParam): the y (vertical point) coordinate.
+-   [**GET_X_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_x_lparam)(lParam): the x (horizontal point) coordinate.
+-   [**GET_Y_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_y_lparam)(lParam): the y (vertical point) coordinate.
 
 </dd> </dl>
 
@@ -82,13 +82,13 @@ Use the following macros to retrieve the physical screen coordinates of the poin
 
 If the application processes this message, it returns zero.
 
-If the application does not process this message, it calls [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572).
+If the application does not process this message, it calls [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
 ## Remarks
 
 This message is also sent to all ancestor windows of the child window, including the top-level window.
 
-All child windows, except those that have the **WS_EX_NOPARENTNOTIFY** extended window style, send this message to their parent windows. By default, child windows in a dialog box have the **WS_EX_NOPARENTNOTIFY** style, unless the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function is called to create the child window without this style.
+All child windows, except those that have the **WS_EX_NOPARENTNOTIFY** extended window style, send this message to their parent windows. By default, child windows in a dialog box have the **WS_EX_NOPARENTNOTIFY** style, unless the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function is called to create the child window without this style.
 
 This notification provides the child window's ancestor windows an opportunity to examine the pointer information and, if required, capture the pointer using the pointer capture functions.
 
@@ -111,41 +111,35 @@ This notification provides the child window's ancestor windows an opportunity to
 [Messages](messages.md)
 </dt> <dt>
 
-[**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679)
+[**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa)
 </dt> <dt>
 
-[**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680)
+[**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa)
 </dt> <dt>
 
-[**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657)
+[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 </dt> <dt>
 
-[**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659)
+[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
-[**WM_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619)
+[**WM_CREATE**](../winmsg/wm-create.md)
 </dt> <dt>
 
-[**WM_DESTROY**](https://msdn.microsoft.com/library/windows/desktop/ms632620)
+[**WM_DESTROY**](../winmsg/wm-destroy.md)
 </dt> <dt>
 
-[**WM_LBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms645607)
+[**WM_LBUTTONDOWN**](../inputdev/wm-lbuttondown.md)
 </dt> <dt>
 
-[**WM_MBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms645610)
+[**WM_MBUTTONDOWN**](../inputdev/wm-mbuttondown.md)
 </dt> <dt>
 
-[**WM_RBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646242)
+[**WM_RBUTTONDOWN**](../inputdev/wm-rbuttondown.md)
 </dt> <dt>
 
-[**WM_XBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646245)
+[**WM_XBUTTONDOWN**](../inputdev/wm-xbuttondown.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -40,16 +40,16 @@ HRESULT D3DXCreateTextureFromFile(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the device to be associated with the texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, representing the device to be associated with the texture.
 
 </dd> <dt>
 
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Pointer to a string that specifies the filename. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the string data type resolves to LPCSTR. See Remarks.
 
@@ -58,9 +58,9 @@ Pointer to a string that specifies the filename. If the compiler settings requir
 *ppTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)\***
 
-Address of a pointer to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) interface, representing the created texture object.
+Address of a pointer to an [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) interface, representing the created texture object.
 
 </dd> </dl>
 
@@ -74,7 +74,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 The compiler setting also determines the function version. If Unicode is defined, the function call resolves to D3DXCreateTextureFromFileW. Otherwise, the function call resolves to D3DXCreateTextureFromFileA because ANSI strings are being used.
 
-This function supports the following file formats: .bmp, .dds, .dib, .hdr, .jpg, .pfm, .png, .ppm, and .tga. See [**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/library/Bb172878(v=VS.85).aspx).
+This function supports the following file formats: .bmp, .dds, .dib, .hdr, .jpg, .pfm, .png, .ppm, and .tga. See [**D3DXIMAGE\_FILEFORMAT**](./d3dximage-fileformat.md).
 
 The function is equivalent to D3DXCreateTextureFromFileEx(pDevice, pSrcFile, D3DX\_DEFAULT, D3DX\_DEFAULT, D3DX\_DEFAULT, 0, D3DFMT\_UNKNOWN, D3DPOOL\_MANAGED, D3DX\_DEFAULT, D3DX\_DEFAULT, 0, **NULL**, **NULL**, ppTexture).
 
@@ -115,7 +115,3 @@ For the best performance when using **D3DXCreateTextureFromFile**:
  
 
  
-
-
-
-

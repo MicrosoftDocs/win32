@@ -8,10 +8,10 @@ ms.date: 05/31/2018
 
 # Smart Card Database Management Functions
 
-The following functions manage the [*smart card database*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx), updating the database by using a specified [*resource manager context*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx).
+The following functions manage the [*smart card database*](../secgloss/s-gly.md), updating the database by using a specified [*resource manager context*](../secgloss/r-gly.md).
 
 > [!Note]  
-> Database security is maintained by placing access restrictions on the database, rather than by adding security mechanisms to the [*smart card subsystem*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
+> Database security is maintained by placing access restrictions on the database, rather than by adding security mechanisms to the [*smart card subsystem*](../secgloss/s-gly.md).
 
  
 
@@ -19,7 +19,7 @@ The following functions manage the [*smart card database*](https://msdn.microsof
 
 | Topic                                                            | Description                                                                                                                                                             |
 |------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SCardAddReaderToGroup**](/windows/desktop/api/Winscard/nf-winscard-scardaddreadertogroupa)           | Add a [*reader*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx) to a [*reader group*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx). |
+| [**SCardAddReaderToGroup**](/windows/desktop/api/Winscard/nf-winscard-scardaddreadertogroupa)           | Add a [*reader*](../secgloss/r-gly.md) to a [*reader group*](../secgloss/r-gly.md). |
 | [**SCardForgetCardType**](/windows/desktop/api/Winscard/nf-winscard-scardforgetcardtypea)               | Remove a smart card from the system.                                                                                                                                    |
 | [**SCardForgetReader**](/windows/desktop/api/Winscard/nf-winscard-scardforgetreadera)                   | Remove a reader from the system.                                                                                                                                        |
 | [**SCardForgetReaderGroup**](/windows/desktop/api/Winscard/nf-winscard-scardforgetreadergroupa)         | Remove a reader group from the system.                                                                                                                                  |
@@ -35,6 +35,3 @@ The following functions manage the [*smart card database*](https://msdn.microsof
  
 
  
-
-
-

@@ -75,7 +75,7 @@ The forms and significance of **NTSTATUS** error codes are listed in the Ntstatu
 
 ## Remarks
 
-This function has no associated header file. The associated import library, Ntdll.lib, is available in the WDK. You can also use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Ntdll.dll.
+This function has no associated header file. The associated import library, Ntdll.lib, is available in the WDK. You can also use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Ntdll.dll.
 
 ## Requirements
 
@@ -102,7 +102,3 @@ This function has no associated header file. The associated import library, Ntdl
  
 
  
-
-
-
-

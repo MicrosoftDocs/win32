@@ -16,15 +16,15 @@ This section documents the following structures:
 
 [**FILTERED\_DATA\_SOURCES**](/windows/desktop/api/filtereg/ns-filtereg-filtered_data_sources)
 
-[**FILTERREGION**](https://msdn.microsoft.com/library/Bb231251(v=VS.85).aspx)
+[**FILTERREGION**](/windows/win32/api/filter/ns-filter-filterregion)
 
-[**FULLPROPSPEC**](https://msdn.microsoft.com/library/Bb231252(v=VS.85).aspx)
+[**FULLPROPSPEC**](/windows/win32/api/filter/ns-filter-fullpropspec)
 
 [**HITRANGE**](/windows/win32/api/structuredquery/ns-structuredquery-hitrange)
 
 [**INCREMENTAL\_ACCESS\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-incremental_access_info)
 
-[**INLINE\_NOTIFY\_DATA\_CHANGE\_ENTRY**](https://msdn.microsoft.com/library/Aa965367(v=VS.85).aspx)
+[**INLINE\_NOTIFY\_DATA\_CHANGE\_ENTRY**](/previous-versions/windows/desktop/legacy/aa965367(v=vs.85))
 
 [**ITEM\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-item_info)
 
@@ -40,7 +40,7 @@ This section documents the following structures:
 
 [**SEARCH\_ITEM\_PERSISTENT\_CHANGE**](/windows/desktop/api/Searchapi/ns-searchapi-search_item_persistent_change)
 
-[**STAT\_CHUNK**](https://msdn.microsoft.com/library/Bb231253(v=VS.85).aspx)
+[**STAT\_CHUNK**](/windows/win32/api/filter/ns-filter-stat_chunk)
 
 [**TEXT\_SOURCE**](/windows/win32/api/indexsrv/ns-indexsrv-text_source)
 
@@ -49,6 +49,3 @@ This section documents the following structures:
  
 
  
-
-
-

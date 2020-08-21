@@ -24,7 +24,7 @@ api_location:
 
 # \_\_Trustee class
 
-The [**\_\_Trustee**](--securitydescriptor.md) abstract system class represents a [*trustee*](https://docs.microsoft.com/windows/desktop/SecGloss/t-gly). Either a name or an SID (byte array) can be used.
+The [**\_\_Trustee**](--securitydescriptor.md) abstract system class represents a [*trustee*](/windows/desktop/SecGloss/t-gly). Either a name or an SID (byte array) can be used.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -134,7 +134,7 @@ Time in the [CIM\_DATETIME](cim-datetime.md) format when the security descriptor
 
 ## Remarks
 
-This class provides properties that are inherited by the [**Win32\_Trustee**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-trustee) class, which is a member of the [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class. For more information, see [WMI Security Descriptor Objects](wmi-security-descriptor-objects.md) and [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md). For more information about ACEs, see [Access Control Components](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-components).
+This class provides properties that are inherited by the [**Win32\_Trustee**](/previous-versions/windows/desktop/secrcw32prov/win32-trustee) class, which is a member of the [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class. For more information, see [WMI Security Descriptor Objects](wmi-security-descriptor-objects.md) and [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md). For more information about ACEs, see [Access Control Components](/windows/desktop/SecAuthZ/access-control-components).
 
 ## Requirements
 
@@ -155,16 +155,11 @@ This class provides properties that are inherited by the [**Win32\_Trustee**](ht
 [WMI System Classes](wmi-system-classes.md)
 </dt> <dt>
 
-[**Win32\_Trustee**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-trustee)
+[**Win32\_Trustee**](/previous-versions/windows/desktop/secrcw32prov/win32-trustee)
 </dt> <dt>
 
 [Maintaining WMI Security](maintaining-wmi-security.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

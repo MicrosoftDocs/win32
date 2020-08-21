@@ -52,8 +52,8 @@ The CLR creates *Runtime Callable Wrappers* for Component Object Model (COM) obj
 
 The CLR has weaker object lifetime guarantees than native code. Many extensions have reference count requirements on objects and interfaces, and the garbage-collection model employed by the CLR cannot fulfill these requirements.
 
--   If a CLR object obtains a reference to a COM object, the COM object reference held by the Runtime Callable Wrapper is not released until the Runtime Callable Wrapper is garbage-collected. Nondeterministic release behavior can conflict with some interface contracts. For example, the [**IPersistPropertyBag::Load**](https://msdn.microsoft.com/library/Aa768206(v=VS.85).aspx) method requires that no reference to the property bag be retained by the object when the **Load** method returns.
--   If a CLR object reference is returned to native code, the Runtime Callable Wrapper relinquishes its reference to the CLR object when the Runtime Callable Wrapper's final call to [**Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) is made, but the underlying CLR object is not finalized until it is garbage-collected. Nondeterministic finalization can conflict with some interface contracts. For example, thumbnail handlers are required to release all resources immediately when their reference count drops to zero.
+-   If a CLR object obtains a reference to a COM object, the COM object reference held by the Runtime Callable Wrapper is not released until the Runtime Callable Wrapper is garbage-collected. Nondeterministic release behavior can conflict with some interface contracts. For example, the [**IPersistPropertyBag::Load**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768206(v=vs.85)) method requires that no reference to the property bag be retained by the object when the **Load** method returns.
+-   If a CLR object reference is returned to native code, the Runtime Callable Wrapper relinquishes its reference to the CLR object when the Runtime Callable Wrapper's final call to [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) is made, but the underlying CLR object is not finalized until it is garbage-collected. Nondeterministic finalization can conflict with some interface contracts. For example, thumbnail handlers are required to release all resources immediately when their reference count drops to zero.
 
 ## Acceptable Uses of Managed Code and Other Runtimes
 
@@ -65,13 +65,10 @@ It is acceptable to use managed code and other runtimes to implement out-of-proc
 
 Some extensions can be implemented either as in-process or out-of-process extensions. You can implement these extensions as out-of-process extensions if they do not meet these requirements for in-process extensions. The following list shows examples of extensions that can be implemented as either in-process or out-of-process extensions:
 
--   [**IExecuteCommand**](https://msdn.microsoft.com/library/Dd378382(v=VS.85).aspx) associated with a **DelegateExecute** entry registered under a **shell**\\*verb*\\**command** subkey.
--   [**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx) associated with the CLSID registered under a **shell**\\*verb*\\**DropTarget** subkey.
--   [**IExplorerCommandState**](https://msdn.microsoft.com/library/Dd378380(v=VS.85).aspx) associated with a **CommandStateHandler** entry registered under a **shell**\\*verb* subkey.
+-   [**IExecuteCommand**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iexecutecommand) associated with a **DelegateExecute** entry registered under a **shell**\\*verb*\\**command** subkey.
+-   [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) associated with the CLSID registered under a **shell**\\*verb*\\**DropTarget** subkey.
+-   [**IExplorerCommandState**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate) associated with a **CommandStateHandler** entry registered under a **shell**\\*verb* subkey.
 
  
 
  
-
-
-

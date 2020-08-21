@@ -80,7 +80,7 @@ Identifies the root node of the counters section of an instrumentation manifest.
 
 ## Remarks
 
-This element's parent node is the [**instrumentation**](https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-instrumentationtype-complextype) element of the manifest.
+This element's parent node is the [**instrumentation**](/windows/desktop/WES/eventmanifestschema-instrumentationtype-complextype) element of the manifest.
 
 ## Requirements
 
@@ -94,9 +94,4 @@ This element's parent node is the [**instrumentation**](https://docs.microsoft.c
 
 
  
-
- 
-
-
-
 

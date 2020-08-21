@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 ## 
 
-[**ChangeAdviseCodes**](https://msdn.microsoft.com/library/Aa965736(v=VS.85).aspx)
+[**ChangeAdviseCodes**](/previous-versions//aa965736(v=vs.85))
 
 [**ColumnSortOrder**](/windows/win32/api/mmcobj/ne-mmcobj-_columnsortorder)
 
@@ -28,7 +28,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

@@ -47,7 +47,7 @@ typedef struct D3DRESOURCESTATS {
 **bThrashing**
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -58,7 +58,7 @@ Indicates if thrashing is occurring.
 **ApproxBytesDownloaded**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -69,7 +69,7 @@ Approximate number of bytes downloaded by the resource manager.
 **NumEvicts**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -80,7 +80,7 @@ Number of objects evicted.
 **NumVidCreates**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -91,7 +91,7 @@ Number of objects created in video memory.
 **LastPri**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -102,7 +102,7 @@ Priority of last object evicted.
 **NumUsed**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -113,7 +113,7 @@ Number of objects set to the device.
 **NumUsedInVidMem**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -124,7 +124,7 @@ Number of objects set to the device, which are already in video memory.
 **WorkingSet**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -135,7 +135,7 @@ Number of objects in video memory.
 **WorkingSetBytes**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -146,7 +146,7 @@ Number of bytes in video memory.
 **TotalManaged**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -157,7 +157,7 @@ Total number of managed objects.
 **TotalBytes**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -188,7 +188,3 @@ Total number of bytes of managed objects.
  
 
  
-
-
-
-

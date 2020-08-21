@@ -61,11 +61,11 @@ A pointer to a variable that receives the reboot status. This parameter can be *
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
-This function has no associated import library. You must use the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to NewDev.dll.
+This function has no associated import library. You must use the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to NewDev.dll.
 
 ## Requirements
 
@@ -87,9 +87,4 @@ This function has no associated import library. You must use the [**LoadLibrary*
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -17,10 +17,10 @@ api_location:
 
 # SignerTimeStampEx2 function
 
-The **SignerTimeStampEx2** function time stamps the specified subject and optionally returns a pointer to a [**SIGNER\_CONTEXT**](signer-context.md) structure that contains a pointer to a [*BLOB*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx). This function can be used to perform X.509 Public Key Infrastructure, RFC 3161–compliant, time stamps.
+The **SignerTimeStampEx2** function time stamps the specified subject and optionally returns a pointer to a [**SIGNER\_CONTEXT**](signer-context.md) structure that contains a pointer to a [*BLOB*](../secgloss/b-gly.md). This function can be used to perform X.509 Public Key Infrastructure, RFC 3161–compliant, time stamps.
 
 > [!Note]  
-> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to Mssign32.dll.
+> This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Mssign32.dll.
 
  
 
@@ -96,7 +96,7 @@ This parameter is optional and can be **NULL** if it is not included.
 *pSipData* \[in\]
 </dt> <dd>
 
-Optional. A 32-bit value that is passed as additional data to [*subject interface package*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SIP) functions. The format and content of this parameter is defined by the SIP provider.
+Optional. A 32-bit value that is passed as additional data to [*subject interface package*](../secgloss/s-gly.md) (SIP) functions. The format and content of this parameter is defined by the SIP provider.
 
 This parameter is optional and can be **NULL** if it is not included.
 
@@ -140,7 +140,3 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
  
 
  
-
-
-
-

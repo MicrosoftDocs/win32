@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Summaries of Call Center Programming Elements
 
-Call center functionality is a feature of the TAPI 3.x. The programming elements appearing in the TAPI 2.2 data set support a TAPI 3.x call center. For more information about call centers, see [About Call Center Controls](https://msdn.microsoft.com/library/ms725998(v=VS.85).aspx).
+Call center functionality is a feature of the TAPI 3.x. The programming elements appearing in the TAPI 2.2 data set support a TAPI 3.x call center. For more information about call centers, see [About Call Center Controls](./about-call-center-controls.md).
 
 The TAPI 2.2 call center programming element summaries include:
 
@@ -20,6 +20,3 @@ The TAPI 2.2 call center programming element summaries include:
  
 
  
-
-
-

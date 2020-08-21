@@ -76,7 +76,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The name of the farm from which desktops or applications have been published.
@@ -92,7 +92,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64)
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64)
 </dt> </dl>
 
 Short description (one-line string) of the object.
@@ -125,7 +125,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**optional**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**optional**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 The kind of farm:
@@ -171,7 +171,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Mappingstrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.5")
+Qualifiers: [**Mappingstrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|ComponentID\|001.5")
 </dt> </dl>
 
 The date the object was installed. A lack of a value does not indicate that the object is not installed.
@@ -189,7 +189,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**optional**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**optional**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 **true** if a user needs to be added to local administrator group upon connection; otherwise, **false**. Applicable only to ManualPersonalVm and AutoPersonalVM farm types.
@@ -220,7 +220,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**optional**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**optional**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 **true** to auto rollback VM to a snapshot after user logoff; otherwise, **false**. Applicable only to TempVm farm types.
@@ -236,7 +236,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**optional**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**optional**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 The name of the security descriptor controlling access to the application, in SDDL Format. Using an empty string implies allow all access.
@@ -252,7 +252,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (10)
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (10)
 </dt> </dl>
 
 Current status of the object. Various operational and nonoperational statuses can be defined. Operational statuses include: "OK", "Degraded", and "Pred Fail" (an element, such as a SMART-enabled hard disk drive, may be functioning properly but predicting a failure in the near future). Nonoperational statuses include: "Error", "Starting", "Stopping", and "Service". The latter, "Service", could apply during mirror-resilvering of a disk, reload of a user permissions list, or other administrative work. Not all such work is on-line, yet the managed element is neither "OK" nor in one of the other states.
@@ -328,7 +328,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**optional**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers)
+Qualifiers: [**optional**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)
 </dt> </dl>
 
 The virtual machine farm settings.
@@ -350,10 +350,4 @@ The virtual machine farm settings.
 
 
  
-
- 
-
-
-
-
 

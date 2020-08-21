@@ -49,7 +49,7 @@ The [EsentErrorException](dn274314\(v=exchg.10\).md) type exposes the following 
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn334369(v=exchg.10).md">GetObjectData</a></td>
-<td>When overridden in a derived class, sets the <a href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo?redirectedfrom=MSDN">SerializationInfo</a> with information about the exception. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.exception.getobjectdata?redirectedfrom=MSDN#System_Exception_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_">Exception.GetObjectData(SerializationInfo, StreamingContext)</a>.)</td>
+<td>When overridden in a derived class, sets the <a href="/dotnet/api/system.runtime.serialization.serializationinfo">SerializationInfo</a> with information about the exception. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.exception.getobjectdata?redirectedfrom=MSDN#System_Exception_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_">Exception.GetObjectData(SerializationInfo, StreamingContext)</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -79,4 +79,3 @@ Top
 [EsentErrorException class](dn274314\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -32,11 +32,8 @@ A callback that notifies the host of warnings returned by the associated request
 
 ## <span id="see_also"></span>See also
 
-[**IPixErrorCallback**](https://docs.microsoft.com/windows/desktop/direct3dtools/ipixerrorcallback)
+[**IPixErrorCallback**](/windows/desktop/direct3dtools/ipixerrorcallback)
 
  
 
  
-
-
-

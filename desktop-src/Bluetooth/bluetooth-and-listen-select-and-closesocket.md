@@ -17,32 +17,28 @@ ms.date: 05/31/2018
 
 # Bluetooth and listen, select, and closesocket
 
-Bluetooth uses the [**listen**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-listen), [**select**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select), and [**closesocket**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket) functions without any modification from standard Windows Sockets programming.
+Bluetooth uses the [**listen**](/windows/desktop/api/winsock2/nf-winsock2-listen), [**select**](/windows/desktop/api/winsock2/nf-winsock2-select), and [**closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket) functions without any modification from standard Windows Sockets programming.
 
-As with Windows Sockets, the [**closesocket**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket) function frees resources associated with the socket.
+As with Windows Sockets, the [**closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket) function frees resources associated with the socket.
 
-When calling the [**listen**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-listen) function, it is strongly recommended that a low value is used for the *backlog* parameter (typically 2 to 4), since only a few client connections are accepted. This reduces the system resources that are allocated for use by the listening socket.
+When calling the [**listen**](/windows/desktop/api/winsock2/nf-winsock2-listen) function, it is strongly recommended that a low value is used for the *backlog* parameter (typically 2 to 4), since only a few client connections are accepted. This reduces the system resources that are allocated for use by the listening socket.
 
 ## Related topics
 
 <dl> <dt>
 
-[Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
+[Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> <dt>
 
-[**closesocket**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket)
+[**closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket)
 </dt> <dt>
 
-[**listen**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-listen)
+[**listen**](/windows/desktop/api/winsock2/nf-winsock2-listen)
 </dt> <dt>
 
-[**select**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select)
+[**select**](/windows/desktop/api/winsock2/nf-winsock2-select)
 </dt> </dl>
 
  
 
  
-
-
-
-

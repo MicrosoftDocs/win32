@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # mciSendString Errors
 
-The following errors are returned by the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function but not by [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx):
+The following errors are returned by the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function but not by [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)):
 
 
 
@@ -48,7 +48,3 @@ The following errors are returned by the [**mciSendString**](https://msdn.micros
  
 
  
-
-
-
-

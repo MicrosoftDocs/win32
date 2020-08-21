@@ -80,14 +80,14 @@ public static void JetResizeDatabase(
 <!-- end list -->
 
   - desiredPages  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The desired size of the database, in pages.
 
 <!-- end list -->
 
   - actualPages  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The size of the database, in pages, after the call.
 
@@ -107,4 +107,3 @@ public static void JetResizeDatabase(
 [Windows8Api members](dn335373\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-

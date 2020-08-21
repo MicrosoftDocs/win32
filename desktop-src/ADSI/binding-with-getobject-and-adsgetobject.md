@@ -15,7 +15,7 @@ The **GetObject** and [**ADsGetObject**](/windows/desktop/api/Adshlp/nf-adshlp-a
 
 The **GetObject** function is used to bind to directory service objects in languages that support automation, such as Visual Basic. The **GetObject** function requires a moniker string. In ADSI, the binding string is the moniker string.
 
-In languages that do not directly support automation, such as C or C++, ADSI provides the [**ADsGetObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject) function to bind to directory service objects. Alternatively, the [**MkParseDisplayName**](https://msdn.microsoft.com/library/ms691253(v=VS.85).aspx) and [**MkParseDisplayNameEx**](https://msdn.microsoft.com/library/ms775113(v=VS.85).aspx) functions can be used to achieve the same result as **GetObject**.
+In languages that do not directly support automation, such as C or C++, ADSI provides the [**ADsGetObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject) function to bind to directory service objects. Alternatively, the [**MkParseDisplayName**](/windows/win32/api/objbase/nf-objbase-mkparsedisplayname) and [**MkParseDisplayNameEx**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775113(v=vs.85)) functions can be used to achieve the same result as **GetObject**.
 
 For a service running under the LocalSystem account, the security context used by **GetObject** and [**ADsGetObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject) depends on the computer on which the service is running. If the service is running as LocalSystem on a domain controller, the service has full system-level access to Active Directory. If the service is not running on a DC, the service has the access rights and privileges granted to the computer account for the computer on which the service is running; this is significantly less powerful than system-level access.
 
@@ -62,7 +62,3 @@ CoUninitialize();
  
 
  
-
-
-
-

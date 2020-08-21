@@ -14,7 +14,7 @@ The AutoLogger differs from the Global Logger in the following ways:
 
 -   You can specify one or more AutoLogger sessions (the Global Logger was a single session to which everyone logged events).
 -   The AutoLogger sends an enable notification to the providers when the session starts (the Global Logger did not send an enable notification to the providers, so the providers had to rely on other means to know if the Global Logger session was started in order to begin logging events).
--   The AutoLogger does not support logging NT Kernel Logger events (see the **EnableFlags** member of [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md)). To log NT Kernel Logger events, you must use the [Global Logger](configuring-and-starting-the-global-logger-session.md).
+-   The AutoLogger does not support logging NT Kernel Logger events (see the **EnableFlags** member of [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties)). To log NT Kernel Logger events, you must use the [Global Logger](configuring-and-starting-the-global-logger-session.md).
 
 For more information on the Global Logger seesion, see [Configuring and Starting the Global Logger Session](configuring-and-starting-the-global-logger-session.md).
 
@@ -231,13 +231,13 @@ For more information about these items, see the <strong>EnableProperty</strong> 
 
  
 
-After the registry has been modified, the AutoLogger session is started the next time the computer is restarted. The AutoLogger session calls the [**EnableTraceEx**](enabletraceex-func.md) function to enable the providers.
+After the registry has been modified, the AutoLogger session is started the next time the computer is restarted. The AutoLogger session calls the [**EnableTraceEx**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex) function to enable the providers.
 
 The AutoLogger sessions increase the system boot time and should be used sparingly. Services that want to capture information during the boot process should consider adding controller logic to itself instead of using the AutoLogger session.
 
-To stop an AutoLogger session, call the [**ControlTrace**](controltrace.md) function. The session name that you pass to the function is the name of the registry key that you used to define the session in the registry.
+To stop an AutoLogger session, call the [**ControlTrace**](/windows/win32/api/evntrace/nf-evntrace-controltracea) function. The session name that you pass to the function is the name of the registry key that you used to define the session in the registry.
 
-On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and stack walk filters can be used by the [**EnableTraceEx2**](enabletraceex2.md) function and the [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md) and [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) structures to filter on specific conditions in a logger session. For more information on event payload filters, see the [**TdhCreatePayloadFilter**](/windows/desktop/api/Tdh/nf-tdh-tdhcreatepayloadfilter), and [**TdhAggregatePayloadFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhaggregatepayloadfilters) functions and the **ENABLE\_TRACE\_PARAMETERS**, **EVENT\_FILTER\_DESCRIPTOR**, and [**PAYLOAD\_FILTER\_PREDICATE**](/windows/desktop/api/Tdh/ns-tdh-payload_filter_predicate) structures.
+On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and stack walk filters can be used by the [**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) function and the [**ENABLE\_TRACE\_PARAMETERS**](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters) and [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) structures to filter on specific conditions in a logger session. For more information on event payload filters, see the [**TdhCreatePayloadFilter**](/windows/desktop/api/Tdh/nf-tdh-tdhcreatepayloadfilter), and [**TdhAggregatePayloadFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhaggregatepayloadfilters) functions and the **ENABLE\_TRACE\_PARAMETERS**, **EVENT\_FILTER\_DESCRIPTOR**, and [**PAYLOAD\_FILTER\_PREDICATE**](/windows/desktop/api/Tdh/ns-tdh-payload_filter_predicate) structures.
 
 For details on starting an event tracing session, see [Configuring and Starting an Event Tracing Session](configuring-and-starting-an-event-tracing-session.md).
 
@@ -261,10 +261,10 @@ For details on starting an NT Kernel Logger session, see [Configuring and Starti
 [Configuring and Starting the NT Kernel Logger Session](configuring-and-starting-the-nt-kernel-logger-session.md)
 </dt> <dt>
 
-[**EnableTraceEx2**](enabletraceex2.md)
+[**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2)
 </dt> <dt>
 
-[**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md)
+[**ENABLE\_TRACE\_PARAMETERS**](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters)
 </dt> <dt>
 
 [**EVENT\_FILTER\_DESCRIPTOR**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor)
@@ -283,9 +283,4 @@ For details on starting an NT Kernel Logger session, see [Configuring and Starti
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -149,7 +149,7 @@ This method does not return a value. If successful, the sink receives an [**OnOb
 
 ## Error codes
 
-After the completion of the **ReferencesAsync\_** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
+After the completion of the **ReferencesAsync\_** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
 
 <dl> <dt>
 
@@ -225,9 +225,4 @@ For more information about the REFERENCES OF associated WQL query, source instan
 </dt> </dl>
 
  
-
- 
-
-
-
 

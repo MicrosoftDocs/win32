@@ -70,7 +70,7 @@ A reference to an instance of the [**Msvm\_VirtualSystemSettingData**](msvm-virt
 
 Type: **CIM\_ComputerSystem**
 
-A reference to an instance of the [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) class that represents the newly created virtual machine.
+A reference to an instance of the [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) class that represents the newly created virtual machine.
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ A reference to an instance of the [**CIM\_ComputerSystem**](https://docs.microso
 
 Type: **CIM\_ConcreteJob**
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -120,7 +120,7 @@ If this method is executed synchronously, it returns 0 if it succeeds. If this m
 
 ## Remarks
 
-Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -144,9 +144,4 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 </dt> </dl>
 
  
-
- 
-
-
-
 

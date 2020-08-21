@@ -120,7 +120,7 @@ To modify the pixels of a bitmap source
 
     
 
-    To unlock the [**IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap), call [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(VS.85).aspx) on all [**IWICBitmapLock**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmaplock) objects associated with the **IWICBitmap**.
+    To unlock the [**IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap), call [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) on all [**IWICBitmapLock**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmaplock) objects associated with the **IWICBitmap**.
 
 7.  Clean up created objects.
 
@@ -146,6 +146,3 @@ To modify the pixels of a bitmap source
  
 
  
-
-
-

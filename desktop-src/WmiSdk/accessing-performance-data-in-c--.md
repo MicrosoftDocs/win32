@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Accessing Performance Data in C++
 
-The WMI high-performance API is a series of interfaces that obtain data from [Performance Counter Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/performance-counter-classes). These interfaces require use of a [*refresher*](gloss-r.md) object to increase the sampling rate. For more information about using the refresher object in scripting, see [Accessing Performance Data in Script](accessing-performance-data-in-script.md) and [WMI Tasks: Performance Monitoring](wmi-tasks--performance-monitoring.md).
+The WMI high-performance API is a series of interfaces that obtain data from [Performance Counter Classes](/windows/desktop/CIMWin32Prov/performance-counter-classes). These interfaces require use of a [*refresher*](gloss-r.md) object to increase the sampling rate. For more information about using the refresher object in scripting, see [Accessing Performance Data in Script](accessing-performance-data-in-script.md) and [WMI Tasks: Performance Monitoring](wmi-tasks--performance-monitoring.md).
 
 The following sections are discussed in this topic:
 
@@ -93,7 +93,7 @@ The following procedure shows how to add an enumerator to a refresher.
     -   Provides an array of [**IWbemObjectAccess**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjectaccess) interface pointers to the [**IWbemHiPerfEnum::GetObjects**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemhiperfenum-getobjects) method.
     -   Accesses the properties of the enumerator by using the [**IWbemObjectAccess**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjectaccess) methods passed into [**GetObjects**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemhiperfenum-getobjects).
 
-        A property handle can be passed to each [**IWbemObjectAccess**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjectaccess) instance to retrieve the refreshed value. The client must call [**Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) to release the **IWbemObjectAccess** pointers returned by [**GetObjects**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemhiperfenum-getobjects).
+        A property handle can be passed to each [**IWbemObjectAccess**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjectaccess) instance to retrieve the refreshed value. The client must call [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) to release the **IWbemObjectAccess** pointers returned by [**GetObjects**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemhiperfenum-getobjects).
 
 ## Example
 
@@ -375,7 +375,7 @@ int __cdecl wmain(int argc, wchar_t* argv[])
 
 <dl> <dt>
 
-[Performance Counter Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/performance-counter-classes)
+[Performance Counter Classes](/windows/desktop/CIMWin32Prov/performance-counter-classes)
 </dt> <dt>
 
 [Accessing Performance Data in Script](accessing-performance-data-in-script.md)
@@ -399,12 +399,9 @@ int __cdecl wmain(int argc, wchar_t* argv[])
 [**Wmiadap.exe**](wmiadap.md)
 </dt> <dt>
 
-[**QueryPerformanceCounter**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx)
+[**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)
 </dt> </dl>
 
  
 
  
-
-
-

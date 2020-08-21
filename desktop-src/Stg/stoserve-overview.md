@@ -22,7 +22,7 @@ The ink data that is drawn on the COPaper surface can be stored in and loaded fr
 
 COPaper is housed in an in-process server and is made publicly available as a custom COM component. Similar to other servers in this tutorial series, StoServe is a self-registering COM server. It makes the COPaper object type available to clients as the DllPaper component using a CLSID\_DllPaper registration in the Registry.
 
-As in the previous CONSERVE server, connectable object features are supported in COPaper. The [**IConnectionPointContainer**](https://msdn.microsoft.com/library/ms683857(v=VS.85).aspx) interface is exposed, and an appropriate connection point is implemented. In this context, an outgoing custom IPaperSink interface is declared for use in sending notifications to the client.
+As in the previous CONSERVE server, connectable object features are supported in COPaper. The [**IConnectionPointContainer**](/windows/win32/api/ocidl/nn-ocidl-iconnectionpointcontainer) interface is exposed, and an appropriate connection point is implemented. In this context, an outgoing custom IPaperSink interface is declared for use in sending notifications to the client.
 
 The two [**IPaper**](ipaper-methods.md) and [**IPaperSink**](ipapersink-methods.md) custom interfaces are declared in IPAPER.H located in the common sibling \\INC directory. The GUIDs for the interfaces and objects are defined in PAPGUIDS.H located in that same common include directory.
 
@@ -30,7 +30,7 @@ The CThreaded facility in APPUTIL is used by **StoServe** to achieve thread safe
 
 ## COPaper COM Object
 
-The COPaper COM object is the single object type managed by this **StoServe** in-process server. COPaper is constructed as a connectable COM object with an implementation of the standard [**IConnectionPointContainer**](https://msdn.microsoft.com/library/ms683857(v=VS.85).aspx) interface and an implementation of the custom [**IPaper**](ipaper-methods.md) interface. COPaper exposes the **IPaper** interface so clients can perform a small set of electronic paper operations on an instance of COPaper. The essential operations are starting an ink drawing sequence, drawing the ink data on COPaper virtual paper surface, and ending the ink drawing sequence. In this scheme, the client is assumed to be a GUI application driven by a mouse or tablet device. The client is responsible for translating mouse movements into requests to COPaper, which saves these requests as ink data.
+The COPaper COM object is the single object type managed by this **StoServe** in-process server. COPaper is constructed as a connectable COM object with an implementation of the standard [**IConnectionPointContainer**](/windows/win32/api/ocidl/nn-ocidl-iconnectionpointcontainer) interface and an implementation of the custom [**IPaper**](ipaper-methods.md) interface. COPaper exposes the **IPaper** interface so clients can perform a small set of electronic paper operations on an instance of COPaper. The essential operations are starting an ink drawing sequence, drawing the ink data on COPaper virtual paper surface, and ending the ink drawing sequence. In this scheme, the client is assumed to be a GUI application driven by a mouse or tablet device. The client is responsible for translating mouse movements into requests to COPaper, which saves these requests as ink data.
 
 There are two levels of ink data saving in COPaper. COPaper saves the ink data in a RAM-based array that represents the current drawing, and COPaper persistently saves an entire drawing into a compound file. Methods in the [**IPaper**](ipaper-methods.md) interface perform both.
 
@@ -62,7 +62,3 @@ You can also double-click the Stoserve.dsp file in Windows Explorer to load a sa
  
 
  
-
-
-
-

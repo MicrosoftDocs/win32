@@ -48,7 +48,7 @@ The texture object to be filtered. See [**ID3D10Resource**](/windows/desktop/api
 *SrcLevel* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The mipmap level whose data is used to generate the rest of the mipmap chain.
 
@@ -57,7 +57,7 @@ The mipmap level whose data is used to generate the rest of the mipmap chain.
 *MipFilter* 
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Flags controlling how each miplevel is filtered (or D3DX10\_DEFAULT for D3DX10\_FILTER\_BOX). See [**D3DX10\_FILTER\_FLAG**](d3dx10-filter-flag.md).
 
@@ -89,7 +89,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

@@ -10,17 +10,14 @@ ms.date: 05/31/2018
 
 TAPI 3.x call center controls use the following enumerations to set and report on events and states.
 
--   [**ACDGROUP\_EVENT**](https://msdn.microsoft.com/library/ms726005(v=VS.85).aspx)
--   [**ACDQUEUE\_EVENT**](https://msdn.microsoft.com/library/ms726006(v=VS.85).aspx)
--   [**AGENT\_EVENT**](https://msdn.microsoft.com/library/ms726023(v=VS.85).aspx)
--   [**AGENTHANDLER\_EVENT**](https://msdn.microsoft.com/library/ms726021(v=VS.85).aspx)
--   [**AGENT\_SESSION\_EVENT**](https://msdn.microsoft.com/library/ms726024(v=VS.85).aspx)
--   [**AGENT\_SESSION\_STATE**](https://msdn.microsoft.com/library/ms726025(v=VS.85).aspx)
--   [**AGENT\_STATE**](https://msdn.microsoft.com/library/ms726204(v=VS.85).aspx)
+-   [**ACDGROUP\_EVENT**](/windows/win32/api/tapi3/ne-tapi3-acdgroup_event)
+-   [**ACDQUEUE\_EVENT**](/windows/win32/api/tapi3/ne-tapi3-acdqueue_event)
+-   [**AGENT\_EVENT**](/windows/win32/api/tapi3cc/ne-tapi3cc-agent_event)
+-   [**AGENTHANDLER\_EVENT**](/windows/win32/api/tapi3/ne-tapi3-agenthandler_event)
+-   [**AGENT\_SESSION\_EVENT**](/windows/win32/api/tapi3cc/ne-tapi3cc-agent_session_event)
+-   [**AGENT\_SESSION\_STATE**](/windows/win32/api/tapi3cc/ne-tapi3cc-agent_session_state)
+-   [**AGENT\_STATE**](/windows/win32/api/tapi3cc/ne-tapi3cc-agent_state)
 
  
 
  
-
-
-

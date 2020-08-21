@@ -114,7 +114,7 @@ The [**glBegin**](glbegin.md) and **glend** functions delimit the vertices that 
 
 <dl> <dt>
 
-[**glBegin**](https://docs.microsoft.com/windows/desktop/OpenGL/glbegin)
+[**glBegin**](/windows/desktop/OpenGL/glbegin)
 </dt> <dt>
 
 [**glCallLists**](glcalllists.md)
@@ -148,10 +148,4 @@ The [**glBegin**](glbegin.md) and **glend** functions delimit the vertices that 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

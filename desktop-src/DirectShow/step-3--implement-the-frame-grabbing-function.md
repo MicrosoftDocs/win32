@@ -19,7 +19,7 @@ The next step is to implement the GetBitmap function, which uses the Media Detec
 3.  Examine each stream in the file. If it is a video stream, get the native dimensions of the video.
 4.  Obtain a poster frame, specifying the seek time and the target dimension.
 
-Create the Media Detector object by calling [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx):
+Create the Media Detector object by calling [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance):
 
 
 ```C++
@@ -222,6 +222,3 @@ Next: [Step 4: Draw the Bitmap on the Client Area](step-4--draw-the-bitmap-on-th
  
 
  
-
-
-

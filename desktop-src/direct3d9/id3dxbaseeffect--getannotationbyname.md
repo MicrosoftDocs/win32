@@ -48,7 +48,7 @@ Handle of a technique, pass, or top-level parameter. See [Handles (Direct3D 9)](
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 String containing the annotation name.
 
@@ -81,7 +81,3 @@ Returns the handle of the specified annotation, or **NULL** if the name was not 
  
 
  
-
-
-
-

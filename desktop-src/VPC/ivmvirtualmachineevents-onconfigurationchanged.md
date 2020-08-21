@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachineEvents::OnConfigurationChanged method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Receives notification that a value in the configuration for this virtual machine has changed.
 
@@ -85,10 +85,4 @@ This method is called when the configuration changes for this virtual machine. T
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

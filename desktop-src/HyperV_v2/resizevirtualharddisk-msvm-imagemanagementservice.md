@@ -57,9 +57,9 @@ The maximum size of the virtual hard disk as viewable by the virtual machine, in
 *Job* \[out\]
 </dt> <dd>
 
-Type: **[**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85))**
+Type: **[**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85))**
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -129,7 +129,7 @@ Only the following types of virtual hard disks can be used with this method when
 -   Dynamic VHDX
 -   Differencing VHDX
 
-Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -186,16 +186,11 @@ public static void ResizeVirtualHardDisk(string path, UInt64 maxInternalSize)
 
 <dl> <dt>
 
-[**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85))
+[**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85))
 </dt> <dt>
 
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

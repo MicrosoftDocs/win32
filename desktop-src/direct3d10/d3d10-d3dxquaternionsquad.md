@@ -43,7 +43,7 @@ D3DXQUATERNION* D3DXQuaternionSquad(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that is the result of the operation.
 
@@ -52,7 +52,7 @@ Pointer to the [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) that is the result 
 *pQ1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to a source D3DXQUATERNION structure.
 
@@ -61,7 +61,7 @@ Pointer to a source D3DXQUATERNION structure.
 *pA* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to a source D3DXQUATERNION structure.
 
@@ -70,7 +70,7 @@ Pointer to a source D3DXQUATERNION structure.
 *pB* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to a source D3DXQUATERNION structure.
 
@@ -79,7 +79,7 @@ Pointer to a source D3DXQUATERNION structure.
 *pC* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to a source D3DXQUATERNION structure.
 
@@ -88,7 +88,7 @@ Pointer to a source D3DXQUATERNION structure.
 *t* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Parameter that indicates how far to interpolate between the quaternions.
 
@@ -96,7 +96,7 @@ Parameter that indicates how far to interpolate between the quaternions.
 
 ## Return value
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to a D3DXQUATERNION structure that is the result of the spherical quadrangle interpolation.
 
@@ -136,7 +136,3 @@ Use [**D3DXQuaternionNormalize**](d3d10-d3dxquaternionnormalize.md) for any quat
  
 
  
-
-
-
-

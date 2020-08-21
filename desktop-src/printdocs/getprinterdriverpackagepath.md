@@ -59,7 +59,7 @@ A pointer to a constant, null-terminated string that specifies the processor arc
 *pszLanguage* \[in\]
 </dt> <dd>
 
-A pointer to a constant, null-terminated string that specifies the [Multilingual User Interface](https://docs.microsoft.com/windows/desktop/Intl/mui-resource-management) language for the driver being installed. This can be **NULL**.
+A pointer to a constant, null-terminated string that specifies the [Multilingual User Interface](/windows/desktop/Intl/mui-resource-management) language for the driver being installed. This can be **NULL**.
 
 </dd> <dt>
 
@@ -95,7 +95,7 @@ A pointer to the required size of the *pszDriverPackageCab* buffer.
 
 If the operation succeeds, the return value is S\_OK, otherwise the **HRESULT** will contain an error code.
 
-For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
+For more information about COM error codes, see [Error Handling](../com/error-handling-in-com.md).
 
 ## Remarks
 
@@ -134,9 +134,4 @@ The *pszPackageID* is typically obtained from a call to [**GetCorePrinterDrivers
 </dt> </dl>
 
  
-
- 
-
-
-
 

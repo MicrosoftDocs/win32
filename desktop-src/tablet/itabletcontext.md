@@ -22,7 +22,7 @@ Stores tablet context information.
 
 ## Members
 
-The **ITabletContext** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **ITabletContext** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Remarks
 
@@ -161,9 +161,4 @@ interface ITabletContext : IUnknown
 
 
  
-
- 
-
-
-
 

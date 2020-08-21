@@ -14,9 +14,9 @@ ms.date: 05/31/2018
 
 The following code example shows how to create and initialize a service connection point. The code example performs additional steps that enable the service to update the SCP values at run time. Typically, a service installer performs these steps as part of installing a service instance on a host computer.
 
-This code example creates the SCP object as a child object for the object of the local computer. It uses the [**GetComputerObjectName**](https://docs.microsoft.com/windows/desktop/api/secext/nf-secext-getcomputerobjectnamea) function to get the DN of the local computer object. It then uses the DN to bind to an [**IDirectoryObject**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject) pointer for the computer object. The [**IDirectoryObject::CreateDSObject**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject) method creates the SCP and specifies initial values for the important SCP attributes.
+This code example creates the SCP object as a child object for the object of the local computer. It uses the [**GetComputerObjectName**](/windows/desktop/api/secext/nf-secext-getcomputerobjectnamea) function to get the DN of the local computer object. It then uses the DN to bind to an [**IDirectoryObject**](/windows/desktop/api/iads/nn-iads-idirectoryobject) pointer for the computer object. The [**IDirectoryObject::CreateDSObject**](/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject) method creates the SCP and specifies initial values for the important SCP attributes.
 
-[**CreateDSObject**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject) returns a pointer to the new SCP, which the code example uses to retrieve an [**IADs**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads) pointer for the SCP. The code example uses **IADs** methods to retrieve the **objectGUID** and **distinguishedName** attributes of the SCP. The code example uses the **objectGUID** to compose a string used to bind to the SCP, and then caches the GUID binding string in the local registry where it can be retrieved by the service at run time. The **distinguishedName** is returned to the function caller for use in composing a service principal name (SPN) for the service instance.
+[**CreateDSObject**](/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject) returns a pointer to the new SCP, which the code example uses to retrieve an [**IADs**](/windows/desktop/api/iads/nn-iads-iads) pointer for the SCP. The code example uses **IADs** methods to retrieve the **objectGUID** and **distinguishedName** attributes of the SCP. The code example uses the **objectGUID** to compose a string used to bind to the SCP, and then caches the GUID binding string in the local registry where it can be retrieved by the service at run time. The **distinguishedName** is returned to the function caller for use in composing a service principal name (SPN) for the service instance.
 
 The following code example calls this function as part of the basic steps of installing a directory-enabled service. For more information, see [Installing a Service on a Host Computer](installing-a-service-on-a-host-computer.md).
 
@@ -291,7 +291,3 @@ return dwStat;
  
 
  
-
-
-
-

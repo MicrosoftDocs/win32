@@ -44,14 +44,10 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the WC\_LISTVIEW class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **LVS\_REPORT**, **LVS\_NOCOLUMNHEADER**, **WS\_VSCROLL**, **WS\_HSCROLL**, **LVS\_SHAREIMAGELISTS**, **LVS\_SINGLESEL**, **LVS\_SHOWSELALWAYS**, **WS\_BORDER**, and **WS\_TABSTOP** styles. If the Sorted style bit is not on, the control also has the **LVS\_SORTASCENDING** style.
+This control can be created from the WC\_LISTVIEW class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **LVS\_REPORT**, **LVS\_NOCOLUMNHEADER**, **WS\_VSCROLL**, **WS\_HSCROLL**, **LVS\_SHAREIMAGELISTS**, **LVS\_SINGLESEL**, **LVS\_SHOWSELALWAYS**, **WS\_BORDER**, and **WS\_TABSTOP** styles. If the Sorted style bit is not on, the control also has the **LVS\_SORTASCENDING** style.
 
 For compatibility with screen readers, when authoring a dialog with an ListView control as the first active control, you must make the text field belonging to the edit field the first active control in the [Dialog table](dialog-table.md). Since the static text cannot take focus, when the dialog is created the edit field will have the focus initially as intended, but doing this ensures that screen readers show the correct information.
 
  
 
  
-
-
-
-

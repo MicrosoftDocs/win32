@@ -10,18 +10,15 @@ ms.date: 05/31/2018
 
 The following code examples briefly illustrate some basic operations. The examples are written in C++. The samples section of the Platform Software Development Kit (SDK) contains full programs that can be compiled.
 
--   [Initialize TAPI](https://msdn.microsoft.com/library/ms728171(v=VS.85).aspx)
--   [Select an Address](https://msdn.microsoft.com/library/ms734192(v=VS.85).aspx)
--   [Register Events](https://msdn.microsoft.com/library/ms734177(v=VS.85).aspx)
--   [Select a Terminal](https://msdn.microsoft.com/library/ms734193(v=VS.85).aspx)
--   [Make a Call](https://msdn.microsoft.com/library/ms733298(v=VS.85).aspx)
--   [Receive a Call](https://msdn.microsoft.com/library/ms734172(v=VS.85).aspx)
--   [Create a Simple Conference](https://msdn.microsoft.com/library/ms726950(v=VS.85).aspx)
--   [Transfer a Call](https://msdn.microsoft.com/library/ms734809(v=VS.85).aspx)
+-   [Initialize TAPI](./initialize-tapi.md)
+-   [Select an Address](./select-an-address.md)
+-   [Register Events](./register-events.md)
+-   [Select a Terminal](./select-a-terminal.md)
+-   [Make a Call](./make-a-call.md)
+-   [Receive a Call](./receive-a-call.md)
+-   [Create a Simple Conference](./create-a-simple-conference.md)
+-   [Transfer a Call](./transfer-a-call.md)
 
  
 
  
-
-
-

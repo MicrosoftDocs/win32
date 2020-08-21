@@ -26,18 +26,18 @@ struct DXCoreAdapterMemoryBudgetNodeSegmentGroup
 
 Type: **uint32_t**
 
-Specifies the device's physical adapter for which the adapter memory information is queried. For single-adapter operation, set this to zero. If there are multiple adapter nodes, then set this to the index of the node (the device's physical adapter) for which you want to query for adapter memory information (see [Multi-adapter systems](/windows/win32/direct3d12/multi-engine)).
+Specifies the device's physical adapter for which the adapter memory information is queried. For single-adapter operation, set this to zero. If there are multiple adapter nodes, then set this to the index of the node (the device's physical adapter) for which you want to query for adapter memory information (see [Multi-adapter systems](../../direct3d12/multi-engine.md)).
 
 ### segmentGroup
 
-Type: **[DXCoreSegmentGroup](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoresegmentgroup)**
+Type: **[DXCoreSegmentGroup](./ne-dxcore_interface-dxcoresegmentgroup.md)**
 
 Specifies the adapter memory segment grouping that you want to query about.
 
 ## See also
 
-[DXCore Reference](/windows/win32/dxcore/dxcore-reference)
+[DXCore Reference](../dxcore-reference.md)
 
-[Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
+[Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)
 
-[Multi-adapter systems](/windows/win32/direct3d12/multi-engine)
+[Multi-adapter systems](../../direct3d12/multi-engine.md)

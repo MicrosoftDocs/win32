@@ -1157,7 +1157,7 @@
         href: display-functions-in-active-directory-domain-services.md
         items: 
         - name: "BFFCallBack"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nc-shlobj_core-bffcallback
+          href: /windows/desktop/api/shlobj_core/nc-shlobj_core-bffcallback
         - name: "CQAddFormsProc"
           href: /windows/desktop/api/Cmnquery/nc-cmnquery-lpcqaddformsproc
         - name: "CQAddPagesProc"
@@ -1295,7 +1295,7 @@
         - name: "DsWriteAccountSpn"
           href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna
         - name: "SyncUpdateProc"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms677968(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ms677968(v=vs.85)
       - name: "Directory Service Functions"
         href: directory-service-functions.md
         items: 
@@ -1423,74 +1423,74 @@
         href: display-interfaces-in-active-directory-domain-services.md
         items: 
         - name: "ICommonQuery"
-          href: https://docs.microsoft.com/windows/desktop/api/cmnquery/nn-cmnquery-icommonquery
+          href: /windows/desktop/api/cmnquery/nn-cmnquery-icommonquery
           items: 
           - name: "ICommonQuery::OpenQueryWindow"
-            href: https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow
+            href: /windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow
         - name: "IDsBrowseDomainTree"
-          href: https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree
+          href: /windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree
           items: 
           - name: "IDsBrowseDomainTree::BrowseTo"
-            href: https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-browseto
+            href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-browseto
           - name: "IDsBrowseDomainTree::FlushCachedDomains"
-            href: https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains
+            href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains
           - name: "IDsBrowseDomainTree::FreeDomains"
-            href: https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-freedomains
+            href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-freedomains
           - name: "IDsBrowseDomainTree::GetDomains"
-            href: https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains
+            href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains
           - name: "IDsBrowseDomainTree::SetComputer"
-            href: https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-setcomputer
+            href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-setcomputer
         - name: "IDsDisplaySpecifier"
-          href: https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier
+          href: /windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier
           items: 
           - name: "IDsDisplaySpecifier::EnumClassAttributes"
-            href: https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-enumclassattributes
+            href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-enumclassattributes
           - name: "IDsDisplaySpecifier::GetAttributeADsType"
-            href: https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getattributeadstype
+            href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getattributeadstype
           - name: "IDsDisplaySpecifier::GetClassCreationInfo"
-            href: https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getclasscreationinfo
+            href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getclasscreationinfo
           - name: "IDsDisplaySpecifier::GetDisplaySpecifier"
-            href: https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getdisplayspecifier
+            href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getdisplayspecifier
           - name: "IDsDisplaySpecifier::GetFriendlyAttributeName"
-            href: https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyattributename
+            href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyattributename
           - name: "IDsDisplaySpecifier::GetFriendlyClassName"
-            href: https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyclassname
+            href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyclassname
           - name: "IDsDisplaySpecifier::GetIcon"
-            href: https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticon
+            href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticon
           - name: "IDsDisplaySpecifier::GetIconLocation"
-            href: https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticonlocation
+            href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticonlocation
           - name: "IDsDisplaySpecifier::IsClassContainer"
-            href: https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-isclasscontainer
+            href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-isclasscontainer
           - name: "IDsDisplaySpecifier::SetLanguageID"
-            href: https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-setlanguageid
+            href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-setlanguageid
           - name: "IDsDisplaySpecifier::SetServer"
-            href: https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-setserver
+            href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-setserver
         - name: "IPersistQuery"
-          href: https://docs.microsoft.com/windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery
+          href: /windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery
           items: 
           - name: "IPersistQuery::Clear"
-            href: https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-clear
+            href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-clear
           - name: "IPersistQuery::ReadInt"
-            href: https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readint
+            href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readint
           - name: "IPersistQuery::ReadString"
-            href: https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readstring
+            href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readstring
           - name: "IPersistQuery::ReadStruct"
-            href: https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readstruct
+            href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readstruct
           - name: "IPersistQuery::WriteInt"
-            href: https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writeint
+            href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writeint
           - name: "IPersistQuery::WriteString"
-            href: https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writestring
+            href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writestring
           - name: "IPersistQuery::WriteStruct"
-            href: https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writestruct
+            href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writestruct
         - name: "IQueryForm"
-          href: https://docs.microsoft.com/windows/desktop/api/cmnquery/nn-cmnquery-iqueryform
+          href: /windows/desktop/api/cmnquery/nn-cmnquery-iqueryform
           items: 
           - name: "IQueryForm::AddForms"
-            href: https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addforms
+            href: /windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addforms
           - name: "IQueryForm::AddPages"
-            href: https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addpages
+            href: /windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addpages
           - name: "IQueryForm::Initialize"
-            href: https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-initialize
+            href: /windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-initialize
       - name: "Object Picker Dialog Box Interfaces"
         href: object-picker-dialog-box-interfaces.md
         items: 

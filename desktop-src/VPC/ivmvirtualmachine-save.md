@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachine::Save method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Saves the virtual machine (VM) state.
 
@@ -92,10 +92,4 @@ The VM is turned off when the **Save** task reaches completion. The [**IVMVirtua
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

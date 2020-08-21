@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachineEvents::OnReset method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Receives notification that a virtual machine has been reset.
 
@@ -68,10 +68,4 @@ This method is called when the virtual machine has been reset. The client progra
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

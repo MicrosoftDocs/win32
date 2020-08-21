@@ -20,4 +20,4 @@ To obtain the latest version of DbgHelp.dll, go to [https://developer.microsoft.
 
 For a description of the PE format, download the specification from the following location: [https://www.microsoft.com/whdc/system/platform/firmware/PECOFF.mspx](https://www.microsoft.com/whdc/system/platform/firmware/PECOFF.mspx).
 
-For information on how to browse information found in .pdb files, see the [Debug Interface Access SDK](https://msdn.microsoft.com/library/x93ctkx8.aspx).
+For information on how to browse information found in .pdb files, see the [Debug Interface Access SDK](/visualstudio/debugger/debug-interface-access/debug-interface-access-sdk?view=vs-2015).

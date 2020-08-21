@@ -18,9 +18,9 @@ ms.date: 05/31/2018
 
 # WM\_MOUSEHOVER message
 
-Posted to a window when the cursor hovers over the client area of the window for the period of time specified in a prior call to [**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx).
+Posted to a window when the cursor hovers over the client area of the window for the period of time specified in a prior call to [**TrackMouseEvent**](/windows/win32/api/winuser/nf-winuser-trackmouseevent).
 
-A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -71,7 +71,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-Hover tracking stops when **WM\_MOUSEHOVER** is generated. The application must call [**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx) again if it requires further tracking of mouse hover behavior.
+Hover tracking stops when **WM\_MOUSEHOVER** is generated. The application must call [**TrackMouseEvent**](/windows/win32/api/winuser/nf-winuser-trackmouseevent) again if it requires further tracking of mouse hover behavior.
 
 Use the following code to obtain the horizontal and vertical position:
 
@@ -83,10 +83,10 @@ yPos = GET_Y_LPARAM(lParam);
 
 
 
-As noted above, the x-coordinate is in the low-order **short** of the return value; the y-coordinate is in the high-order **short** (both represent *signed* values because they can take negative values on systems with multiple monitors). If the return value is assigned to a variable, you can use the [**MAKEPOINTS**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-makepoints) macro to obtain a [**POINTS**](https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)) structure from the return value. You can also use the [**GET\_X\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam) or [**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam) macro to extract the x- or y-coordinate.
+As noted above, the x-coordinate is in the low-order **short** of the return value; the y-coordinate is in the high-order **short** (both represent *signed* values because they can take negative values on systems with multiple monitors). If the return value is assigned to a variable, you can use the [**MAKEPOINTS**](/windows/desktop/api/wingdi/nf-wingdi-makepoints) macro to obtain a [**POINTS**](/previous-versions//dd162808(v=vs.85)) structure from the return value. You can also use the [**GET\_X\_LPARAM**](/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam) or [**GET\_Y\_LPARAM**](/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam) macro to extract the x- or y-coordinate.
 
 > [!IMPORTANT]
-> Do not use the [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) or [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) macros to extract the x- and y- coordinates of the cursor position because these macros return incorrect results on systems with multiple monitors. Systems with multiple monitors can have negative x- and y- coordinates, and **LOWORD** and **HIWORD** treat the coordinates as unsigned quantities.
+> Do not use the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) or [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) macros to extract the x- and y- coordinates of the cursor position because these macros return incorrect results on systems with multiple monitors. Systems with multiple monitors can have negative x- and y- coordinates, and **LOWORD** and **HIWORD** treat the coordinates as unsigned quantities.
 
  
 
@@ -109,22 +109,22 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 **Reference**
 </dt> <dt>
 
-[**GET\_X\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam)
+[**GET\_X\_LPARAM**](/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam)
 </dt> <dt>
 
-[**GET\_Y\_LPARAM**](https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam)
+[**GET\_Y\_LPARAM**](/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam)
 </dt> <dt>
 
-[**GetCapture**](https://msdn.microsoft.com/library/ms646257(v=VS.85).aspx)
+[**GetCapture**](/windows/win32/api/winuser/nf-winuser-getcapture)
 </dt> <dt>
 
-[**SetCapture**](https://msdn.microsoft.com/library/ms646262(v=VS.85).aspx)
+[**SetCapture**](/windows/win32/api/winuser/nf-winuser-setcapture)
 </dt> <dt>
 
-[**TrackMouseEvent**](https://msdn.microsoft.com/library/ms646265(v=VS.85).aspx)
+[**TrackMouseEvent**](/windows/win32/api/winuser/nf-winuser-trackmouseevent)
 </dt> <dt>
 
-[**TRACKMOUSEEVENT**](https://msdn.microsoft.com/library/ms645604(v=VS.85).aspx)
+[**TRACKMOUSEEVENT**](/windows/win32/api/winuser/ns-winuser-trackmouseevent)
 </dt> <dt>
 
 **Conceptual**
@@ -136,17 +136,11 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 **Other Resources**
 </dt> <dt>
 
-[**MAKEPOINTS**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-makepoints)
+[**MAKEPOINTS**](/windows/desktop/api/wingdi/nf-wingdi-makepoints)
 </dt> <dt>
 
-[**POINTS**](https://docs.microsoft.com/previous-versions//dd162808(v=vs.85))
+[**POINTS**](/previous-versions//dd162808(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

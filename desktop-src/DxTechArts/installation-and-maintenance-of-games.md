@@ -61,7 +61,7 @@ To create a minimal installation configuration in a Windows Installer-based setu
     This feature will be referred to as the "Bootstrap" feature.
 
 -   Group all of the components that are to be run from the source media into a feature that is marked as "run from source."
--   When opening a file that might be on the source media, use the [**MsiGetComponentPath**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetcomponentpatha) function to determine the path to the file, instead of hard-coding the path.
+-   When opening a file that might be on the source media, use the [**MsiGetComponentPath**](/windows/desktop/api/msi/nf-msi-msigetcomponentpatha) function to determine the path to the file, instead of hard-coding the path.
 
     Doing so ensures that the file can be found even if the drive letter of the user's CD/DVD drive changes.
 
@@ -91,9 +91,9 @@ To create an install-on-demand configuration in a Windows Installer-based setup:
 
     For example, in a level-based game, group all the content used on a given level into one feature. Note that Windows Installer allows a component to be shared by multiple features, so if you have content that is used on multiple levels, you can add that content to the features for all of the necessary levels without replicating the content. All of these features should be marked as "Advertised", which means that they won't be installed initially, but can be installed later as needed.
 
--   When a file is needed, first check whether the file is already installed using the function [**MsiQueryFeatureState**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiqueryfeaturestatea).
+-   When a file is needed, first check whether the file is already installed using the function [**MsiQueryFeatureState**](/windows/desktop/api/msi/nf-msi-msiqueryfeaturestatea).
 
-    If it is not yet installed (that is, its state is INSTALLSTATE\_ADVERTISED), call the function [**MsiConfigureFeature**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea) to install the feature locally. When opening the file after it is installed, call [**MsiGetComponentPath**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetcomponentpatha) to determine the path to the file. While not strictly necessary for this scenario (since the content will always be installed to the hard drive before it is used), this makes it easier to support minimal installation in addition to installation on demand.
+    If it is not yet installed (that is, its state is INSTALLSTATE\_ADVERTISED), call the function [**MsiConfigureFeature**](/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea) to install the feature locally. When opening the file after it is installed, call [**MsiGetComponentPath**](/windows/desktop/api/msi/nf-msi-msigetcomponentpatha) to determine the path to the file. While not strictly necessary for this scenario (since the content will always be installed to the hard drive before it is used), this makes it easier to support minimal installation in addition to installation on demand.
 
 -   If possible, anticipate what content is likely to be needed soon, and install it in the background during idle time.
 
@@ -101,7 +101,7 @@ To create an install-on-demand configuration in a Windows Installer-based setup:
 
 -   Create an option in the game's options menu to force installation of all remaining content.
 
-    To implement this, create a feature that is a parent of all of the install-on-demand features, and then call [**MsiConfigureFeature**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea) to install this master feature locally. This will cause the subfeatures to be installed locally as well.
+    To implement this, create a feature that is a parent of all of the install-on-demand features, and then call [**MsiConfigureFeature**](/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea) to install this master feature locally. This will cause the subfeatures to be installed locally as well.
 
 -   Content layout should be similar to that for a minimal installation, except that content should be clustered only with other content that is likely to be needed at the same time (for example, all of the content for one level should be together).
 
@@ -109,11 +109,11 @@ To create an install-on-demand configuration in a Windows Installer-based setup:
 
 ### AutoRun
 
-To play a game that is already installed, the user should only need to drop the installation disc in the drive tray. The first thing that the AutoRun executable on the disc should do is to check to see if the game has already been installed, and if so, launch the game. Assuming that the game was installed using a Windows Installer-based setup, the check to determine if the game is installed can be accomplished with a single call to the function [**MsiQueryProductState**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiqueryproductstatea).
+To play a game that is already installed, the user should only need to drop the installation disc in the drive tray. The first thing that the AutoRun executable on the disc should do is to check to see if the game has already been installed, and if so, launch the game. Assuming that the game was installed using a Windows Installer-based setup, the check to determine if the game is installed can be accomplished with a single call to the function [**MsiQueryProductState**](/windows/desktop/api/msi/nf-msi-msiqueryproductstatea).
 
 ### Converting an Install-on-Demand Installation to a Full Installation
 
-While an install-on-demand installation allows the user to begin playing the game much sooner than a full installation, a user may want to explicitly install the remainder of the game content to the local hard drive. The user may want to be able to play the game without requiring the source media, or he or she may simply want to avoid the longer in-game load times that result from installing content on demand. If the game's setup uses Windows Installer, the game can provide an option in the in-game options UI to finish installing the remaining content. When the user selects this option, the game can call [**MsiConfigureFeature**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea) to force the remaining features to be installed locally; there is no need to spawn a separate setup application to do so.
+While an install-on-demand installation allows the user to begin playing the game much sooner than a full installation, a user may want to explicitly install the remainder of the game content to the local hard drive. The user may want to be able to play the game without requiring the source media, or he or she may simply want to avoid the longer in-game load times that result from installing content on demand. If the game's setup uses Windows Installer, the game can provide an option in the in-game options UI to finish installing the remaining content. When the user selects this option, the game can call [**MsiConfigureFeature**](/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea) to force the remaining features to be installed locally; there is no need to spawn a separate setup application to do so.
 
 ### Maintenance of Game Software and Content
 
@@ -135,9 +135,9 @@ Once the game has detected that a new update is available, it should immediately
 
 For more information on the technologies referenced in this article, refer to the relevant sections of the MSDN Library:
 
--   [Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal)
--   [Task Scheduler](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page)
--   [Background Intelligent Transfer Service](https://docs.microsoft.com/windows/desktop/Bits/background-intelligent-transfer-service-portal) (BITS)
+-   [Windows Installer](/windows/desktop/Msi/windows-installer-portal)
+-   [Task Scheduler](/windows/desktop/TaskSchd/task-scheduler-start-page)
+-   [Background Intelligent Transfer Service](/windows/desktop/Bits/background-intelligent-transfer-service-portal) (BITS)
 
 For more information on using Windows Installer for games, tune in to next month's Driving DirectX column, "Introduction to Windows Installer for Game Developers."
 
@@ -145,22 +145,18 @@ For more information on using Windows Installer for games, tune in to next month
 
 <dl> <dt>
 
-[**MsiConfigureFeature**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea)
+[**MsiConfigureFeature**](/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea)
 </dt> <dt>
 
-[**MsiQueryProductState**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiqueryproductstatea)
+[**MsiQueryProductState**](/windows/desktop/api/msi/nf-msi-msiqueryproductstatea)
 </dt> <dt>
 
-[**MsiQueryFeatureState**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiqueryfeaturestatea)
+[**MsiQueryFeatureState**](/windows/desktop/api/msi/nf-msi-msiqueryfeaturestatea)
 </dt> <dt>
 
-[**MsiGetComponentPath**](https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetcomponentpatha)
+[**MsiGetComponentPath**](/windows/desktop/api/msi/nf-msi-msigetcomponentpatha)
 </dt> </dl>
 
  
 
  
-
-
-
-

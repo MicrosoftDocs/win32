@@ -19,12 +19,12 @@ The following table shows the UI labels of the **General** property sheet.
 
 | UI label        | Attribute in Active Directory Domain Services |
 |-----------------|-----------------------------------------------|
-| Description     | [**Description**](https://docs.microsoft.com/windows/desktop/ADSchema/a-description)     |
-| Street          | [**Street-Address**](https://docs.microsoft.com/windows/desktop/ADSchema/a-street)       |
-| City            | [**Locality-Name**](https://docs.microsoft.com/windows/desktop/ADSchema/a-l)             |
-| State/Province  | [**State-Or-Province-Name**](https://docs.microsoft.com/windows/desktop/ADSchema/a-st)   |
-| Zip/Postal Code | [**Postal-Code**](https://docs.microsoft.com/windows/desktop/ADSchema/a-postalcode)      |
-| Country/Region  | [**Country-Name**](https://docs.microsoft.com/windows/desktop/ADSchema/a-c)              |
+| Description     | [**Description**](/windows/desktop/ADSchema/a-description)     |
+| Street          | [**Street-Address**](/windows/desktop/ADSchema/a-street)       |
+| City            | [**Locality-Name**](/windows/desktop/ADSchema/a-l)             |
+| State/Province  | [**State-Or-Province-Name**](/windows/desktop/ADSchema/a-st)   |
+| Zip/Postal Code | [**Postal-Code**](/windows/desktop/ADSchema/a-postalcode)      |
+| Country/Region  | [**Country-Name**](/windows/desktop/ADSchema/a-c)              |
 
 
 
@@ -38,14 +38,14 @@ The following table shows the UI labels of the **Managed By** property sheet.
 
 | UI label         | Attribute in Active Directory Domain Services                                                                                   |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Name             | [**Managed-By**](https://docs.microsoft.com/windows/desktop/ADSchema/a-managedby)                                                                                          |
-| Office           | The [**Physical-Delivery-Office-Name**](https://docs.microsoft.com/windows/desktop/ADSchema/a-physicaldeliveryofficename) attribute of the account identified by **Name**. |
-| Street           | The [**Street-Address**](https://docs.microsoft.com/windows/desktop/ADSchema/a-street) attribute of the account identified by **Name**.                                    |
-| City             | The [**Locality-Name**](https://docs.microsoft.com/windows/desktop/ADSchema/a-l) attribute of the account identified by **Name**.                                          |
-| State/province   | The [**State-Or-Province-Name**](https://docs.microsoft.com/windows/desktop/ADSchema/a-st) attribute of the account identified by **Name**.                                |
-| Country/region   | The [**Country-Name**](https://docs.microsoft.com/windows/desktop/ADSchema/a-c) attribute of the account identified by **Name**.                                           |
-| Telephone number | The [**Telephone-Number**](https://docs.microsoft.com/windows/desktop/ADSchema/a-telephonenumber) attribute of the account identified by **Name**.                         |
-| Fax number       | The [**Facsimile-Telephone-Number**](https://docs.microsoft.com/windows/desktop/ADSchema/a-facsimiletelephonenumber) attribute of the account identified by **Name**.      |
+| Name             | [**Managed-By**](/windows/desktop/ADSchema/a-managedby)                                                                                          |
+| Office           | The [**Physical-Delivery-Office-Name**](/windows/desktop/ADSchema/a-physicaldeliveryofficename) attribute of the account identified by **Name**. |
+| Street           | The [**Street-Address**](/windows/desktop/ADSchema/a-street) attribute of the account identified by **Name**.                                    |
+| City             | The [**Locality-Name**](/windows/desktop/ADSchema/a-l) attribute of the account identified by **Name**.                                          |
+| State/province   | The [**State-Or-Province-Name**](/windows/desktop/ADSchema/a-st) attribute of the account identified by **Name**.                                |
+| Country/region   | The [**Country-Name**](/windows/desktop/ADSchema/a-c) attribute of the account identified by **Name**.                                           |
+| Telephone number | The [**Telephone-Number**](/windows/desktop/ADSchema/a-telephonenumber) attribute of the account identified by **Name**.                         |
+| Fax number       | The [**Facsimile-Telephone-Number**](/windows/desktop/ADSchema/a-facsimiletelephonenumber) attribute of the account identified by **Name**.      |
 
 
 
@@ -54,7 +54,3 @@ The following table shows the UI labels of the **Managed By** property sheet.
  
 
  
-
-
-
-

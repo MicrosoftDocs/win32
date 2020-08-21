@@ -17,7 +17,7 @@ api_location:
 
 # WPD\_PARAMETER\_USAGE\_TYPES enumeration
 
-The [**WPD\_PARAMETER\_USAGE\_TYPES**](https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-parameter-usage-types) enumeration type describes how a method parameter is used in a given method.
+The [**WPD\_PARAMETER\_USAGE\_TYPES**](/windows/desktop/wpd_sdk/wpd-parameter-usage-types) enumeration type describes how a method parameter is used in a given method.
 
 ## Syntax
 
@@ -76,9 +76,4 @@ The parameter contains an input value before the method is called and an output 
 
 
  
-
- 
-
-
-
 

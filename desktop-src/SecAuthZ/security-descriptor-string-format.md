@@ -13,7 +13,7 @@ The **Security Descriptor String Format** is a text format for storing or transp
 The format is a **null**-terminated string with tokens to indicate each of the four main components of a security descriptor: owner (O:), primary group (G:), DACL (D:), and SACL (S:).
 
 > [!Note]  
-> [*Access control entries*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACEs) and conditional ACEs have differing formats. For ACEs, see [ACE Strings](ace-strings.md). For conditional ACEs, see [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md).
+> [*Access control entries*](/windows/desktop/SecGloss/a-gly) (ACEs) and conditional ACEs have differing formats. For ACEs, see [ACE Strings](ace-strings.md). For conditional ACEs, see [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md).
 
  
 
@@ -46,7 +46,7 @@ A SID string that identifies the object's primary group.
 <span id="dacl_flags"></span><span id="DACL_FLAGS"></span>dacl\_flags
 </dt> <dd>
 
-Security descriptor control flags that apply to the DACL. For a description of these control flags, see the [**SetSecurityDescriptorControl**](https://msdn.microsoft.com/library/Aa379582(v=VS.85).aspx) function. The dacl\_flags string can be a concatenation of zero or more of the following strings.
+Security descriptor control flags that apply to the DACL. For a description of these control flags, see the [**SetSecurityDescriptorControl**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorcontrol) function. The dacl\_flags string can be a concatenation of zero or more of the following strings.
 
 
 
@@ -258,6 +258,3 @@ DACL
  
 
  
-
-
-

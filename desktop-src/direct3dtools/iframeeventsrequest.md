@@ -26,7 +26,7 @@ Request for returning the list of events in a frame.
 
 ## Members
 
-The **IFrameEventsRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFrameEventsRequest** also has these types of members:
+The **IFrameEventsRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFrameEventsRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IFrameEventsRequest** interface has these methods.
  
 
  
-
-
-

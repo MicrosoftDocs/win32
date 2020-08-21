@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Monitoring Performance Data
 
-Using WMI, you can access system counter data programmatically from objects in the performance libraries. This is the same performance data that appears in the System Monitor in the Perfmon utility. Use the preinstalled [performance counter classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/performance-counter-classes) to obtain performance data in scripts or C++ applications.
+Using WMI, you can access system counter data programmatically from objects in the performance libraries. This is the same performance data that appears in the System Monitor in the Perfmon utility. Use the preinstalled [performance counter classes](/windows/desktop/CIMWin32Prov/performance-counter-classes) to obtain performance data in scripts or C++ applications.
 
 The following sections are discussed in this topic:
 
@@ -21,9 +21,9 @@ The following sections are discussed in this topic:
 
 ## WMI Performance Classes
 
-As an example, the "NetworkInterface" object, in System Monitor, is represented in WMI by the [**Win32\_PerfRawData\_Tcpip\_NetworkInterface**](https://msdn.microsoft.com/library/dn750765(v=vs.85).aspx) class for raw data and the [**Win32\_PerfFormattedData\_Tcpip\_NetworkInterface**](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data) class for precalculated, or formatted data. Classes derived from [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) and from [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata) must be used with a [*refresher*](gloss-r.md) object. On raw data classes, your C++ application or script must perform calculations to obtain the same output as Perfmon.exe. Formatted data classes supply precalculated data. For more information about obtaining data in C++ applications, see [Accessing Performance Data in C++](accessing-performance-data-in-c--.md). For scripting, see [Accessing Performance Data in Script](accessing-performance-data-in-script.md) and [Refreshing WMI Data in Scripts](refreshing-wmi-data-in-scripts.md).
+As an example, the "NetworkInterface" object, in System Monitor, is represented in WMI by the [**Win32\_PerfRawData\_Tcpip\_NetworkInterface**](./retrieving-raw-and-formatted-performance-data.md) class for raw data and the [**Win32\_PerfFormattedData\_Tcpip\_NetworkInterface**](/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data) class for precalculated, or formatted data. Classes derived from [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) and from [**Win32\_PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata) must be used with a [*refresher*](gloss-r.md) object. On raw data classes, your C++ application or script must perform calculations to obtain the same output as Perfmon.exe. Formatted data classes supply precalculated data. For more information about obtaining data in C++ applications, see [Accessing Performance Data in C++](accessing-performance-data-in-c--.md). For scripting, see [Accessing Performance Data in Script](accessing-performance-data-in-script.md) and [Refreshing WMI Data in Scripts](refreshing-wmi-data-in-scripts.md).
 
-The following VBScript code example uses [**Win32\_PerfFormattedData\_PerfProc\_Process**](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data) to obtain performance data for the Idle process. The script displays the same data that appears in Perfmon for the % Processor Time counter of the Process object. The call to [**SWbemObjectEx.Refresh\_**](swbemobjectex-refresh-.md) performs the refresh operation. Be aware that the data must be refreshed, at lease once, to obtain a baseline.
+The following VBScript code example uses [**Win32\_PerfFormattedData\_PerfProc\_Process**](/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data) to obtain performance data for the Idle process. The script displays the same data that appears in Perfmon for the % Processor Time counter of the Process object. The call to [**SWbemObjectEx.Refresh\_**](swbemobjectex-refresh-.md) performs the refresh operation. Be aware that the data must be refreshed, at lease once, to obtain a baseline.
 
 
 ```VB
@@ -47,7 +47,7 @@ Performance counter classes can also provide statistical data. For more informat
 
 ## Performance Data Providers
 
-WMI has preinstalled providers that monitor system performance on both the local system and remotely. The [WmiPerfClass](wmiperfclass-provider.md) provider creates the classes derived from [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) and from [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata). The [WmiPerfInst](wmiperfinst-provider.md) provider supplies data dynamically to both raw and formatted classes.
+WMI has preinstalled providers that monitor system performance on both the local system and remotely. The [WmiPerfClass](wmiperfclass-provider.md) provider creates the classes derived from [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) and from [**Win32\_PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata). The [WmiPerfInst](wmiperfinst-provider.md) provider supplies data dynamically to both raw and formatted classes.
 
 ## Using Formatted Performance Data Classes
 
@@ -122,9 +122,9 @@ Next
 
 ## Using Raw Performance Data Classes
 
-The following VBScript code example obtains raw, current percent processor time on the local computer and converts it to a percentage. The example shows you how to obtain raw performance data from the **PercentProcessorTime** property of the [**Win32\_PerfRawData\_PerfOS\_Processor**](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data) class.
+The following VBScript code example obtains raw, current percent processor time on the local computer and converts it to a percentage. The example shows you how to obtain raw performance data from the **PercentProcessorTime** property of the [**Win32\_PerfRawData\_PerfOS\_Processor**](/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data) class.
 
-To calculate the percent processor time value, you must locate the formula. Look up the value in the **CounterType** qualifier for the **PercentProcessorTime** property in the [**CounterType Qualifier**](countertype-qualifier.md) table to get the constant name. Locate the constant name in [Counter Types](https://technet.microsoft.com/library/cc785636(WS.10).aspx) to obtain the formula.
+To calculate the percent processor time value, you must locate the formula. Look up the value in the **CounterType** qualifier for the **PercentProcessorTime** property in the [**CounterType Qualifier**](countertype-qualifier.md) table to get the constant name. Locate the constant name in [Counter Types](/previous-versions/windows/it-pro/windows-server-2003/cc785636(v=ws.10)) to obtain the formula.
 
 
 ```VB
@@ -166,6 +166,3 @@ Next
  
 
  
-
-
-

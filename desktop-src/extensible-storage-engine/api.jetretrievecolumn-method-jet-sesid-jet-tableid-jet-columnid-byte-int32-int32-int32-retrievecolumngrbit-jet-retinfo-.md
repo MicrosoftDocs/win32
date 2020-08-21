@@ -107,21 +107,21 @@ public static JET_wrn JetRetrieveColumn(
 <!-- end list -->
 
   - dataSize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The size of the data buffer.
 
 <!-- end list -->
 
   - dataOffset  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Offset into the data buffer to read data into.
 
 <!-- end list -->
 
   - actualDataSize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Returns the actual size of the data buffer.
 
@@ -159,4 +159,3 @@ This is an internal method that takes a buffer offset as well as size.
 [JetRetrieveColumn overload](dn332996\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

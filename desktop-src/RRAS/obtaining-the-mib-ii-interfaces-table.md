@@ -111,10 +111,10 @@ int __cdecl main(){
 
 <dl> <dt>
 
-[**MIB\_OPAQUE\_INFO**](https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_opaque_info)
+[**MIB\_OPAQUE\_INFO**](/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_opaque_info)
 </dt> <dt>
 
-[**MIB\_OPAQUE\_QUERY**](https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_opaque_query)
+[**MIB\_OPAQUE\_QUERY**](/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_opaque_query)
 </dt> <dt>
 
 [**MprAdminMIBEntryGet**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminmibentryget)
@@ -123,7 +123,3 @@ int __cdecl main(){
  
 
  
-
-
-
-

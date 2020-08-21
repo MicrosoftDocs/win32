@@ -39,7 +39,7 @@ HRESULT CreateFrame(
 *Name* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Name of the frame to be created.
 
@@ -81,7 +81,3 @@ The return values of this method are implemented by an application programmer. I
  
 
  
-
-
-
-

@@ -28,7 +28,7 @@ ms.date: 05/31/2018
 
 # MCIERR Return Values
 
-The [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) and [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) functions return zero if they are successful; otherwise, they return a **DWORD** value that contains one of the following error values in the low word.
+The [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) and [**mciSendString**](/previous-versions//dd757161(v=vs.85)) functions return zero if they are successful; otherwise, they return a **DWORD** value that contains one of the following error values in the low word.
 
 -   [General MCI Errors](general-mci-errors.md)
 -   [mciSendString Errors](mcisendstring-errors.md)
@@ -36,12 +36,8 @@ The [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).as
 -   [Sequencer Errors](sequencer-errors.md)
 -   [Waveform-Audio Errors](waveform-audio-errors.md)
 
-You can obtain a description of individual return values by passing the return values to the [**mciGetErrorString**](https://msdn.microsoft.com/library/Dd757158(v=VS.85).aspx) function.
+You can obtain a description of individual return values by passing the return values to the [**mciGetErrorString**](/previous-versions//dd757158(v=vs.85)) function.
 
  
 
  
-
-
-
-

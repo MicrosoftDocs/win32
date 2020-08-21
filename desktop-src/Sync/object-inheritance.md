@@ -8,11 +8,8 @@ ms.date: 05/31/2018
 
 # Object Inheritance
 
-When you create a process with the [**CreateProcess**](https://msdn.microsoft.com/library/ms682425(v=VS.85).aspx) function, you can specify that the process inherit handles to mutex, event, semaphore, or timer objects using the [**SECURITY\_ATTRIBUTES**](https://msdn.microsoft.com/library/Aa379560(v=VS.85).aspx) structure. The handle inherited by the process has the same access to the object as the original handle. The inherited handle appears in the handle table of the created process, but you must communicate the handle value to the created process. You can do this by specifying the value as a command-line argument when you call **CreateProcess**. The created process then uses the [**GetCommandLine**](https://msdn.microsoft.com/library/ms683156(v=VS.85).aspx) function to retrieve the command-line string and convert the handle argument into a usable handle. For more information, see [Inheritance](https://msdn.microsoft.com/library/ms683463(v=VS.85).aspx).
+When you create a process with the [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) function, you can specify that the process inherit handles to mutex, event, semaphore, or timer objects using the [**SECURITY\_ATTRIBUTES**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure. The handle inherited by the process has the same access to the object as the original handle. The inherited handle appears in the handle table of the created process, but you must communicate the handle value to the created process. You can do this by specifying the value as a command-line argument when you call **CreateProcess**. The created process then uses the [**GetCommandLine**](/windows/win32/api/processenv/nf-processenv-getcommandlinea) function to retrieve the command-line string and convert the handle argument into a usable handle. For more information, see [Inheritance](../procthread/inheritance.md).
 
  
 
  
-
-
-

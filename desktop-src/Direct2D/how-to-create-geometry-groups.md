@@ -16,11 +16,11 @@ ms.date: 05/31/2018
 
 This topic describes how to create geometry groups.
 
-To create a geometry group, call the [**ID2D1Factory::CreateGeometryGroup**](https://msdn.microsoft.com/library/Dd371273(v=VS.85).aspx) method and specify an array of geometries and a fill mode.
+To create a geometry group, call the [**ID2D1Factory::CreateGeometryGroup**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup) method and specify an array of geometries and a fill mode.
 
-When you combine geometries into a geometry group, ensure that the geometries are similarly oriented. If you are unsure of the orientation of the geometries, call [**ID2D1Geometry::Outline**](https://msdn.microsoft.com/library/Dd316722(v=VS.85).aspx) on each of them individually, and then insert the resulting geometries into the geometry group.
+When you combine geometries into a geometry group, ensure that the geometries are similarly oriented. If you are unsure of the orientation of the geometries, call [**ID2D1Geometry::Outline**](/windows/win32/api/d2d1/nf-d2d1-id2d1geometry-outline(constd2d1_matrix_3x2_f__float_id2d1simplifiedgeometrysink)) on each of them individually, and then insert the resulting geometries into the geometry group.
 
-The following code example shows the creation of four concentric circles: the first circle has a radius of 25, the second 50, the third 75, and the fourth 100. The code also shows the instantiation of an array of geometries, as well as the two calls to [**CreateGeometryGroup**](https://msdn.microsoft.com/library/Dd371273(v=VS.85).aspx).
+The following code example shows the creation of four concentric circles: the first circle has a radius of 25, the second 50, the third 75, and the fourth 100. The code also shows the instantiation of an array of geometries, as well as the two calls to [**CreateGeometryGroup**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup).
 
 
 ```C++
@@ -118,7 +118,7 @@ HRESULT DemoApp::CreateGeometryResources()
 
 ## Drawing and Filling of Geometry Groups
 
-To draw and fill a geometry group, use the [**ID2D1RenderTarget::FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx) and [**ID2D1RenderTarget::DrawGeometry**](https://msdn.microsoft.com/library/Dd371890(v=VS.85).aspx) methods. The following code example shows how to draw and fill a geometry group.
+To draw and fill a geometry group, use the [**ID2D1RenderTarget::FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) and [**ID2D1RenderTarget::DrawGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry) methods. The following code example shows how to draw and fill a geometry group.
 
 
 ```C++
@@ -202,7 +202,3 @@ The code produces the output shown in the following illustration.
  
 
  
-
-
-
-

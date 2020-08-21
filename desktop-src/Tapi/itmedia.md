@@ -14,7 +14,7 @@ The **ITMedia** interface is a representation of media in a Session Descriptor P
 
 ## Members
 
-The **ITMedia** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITMedia** also has these types of members:
+The **ITMedia** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **ITMedia** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -59,7 +59,7 @@ The **ITMedia** interface has these methods.
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)
 </dt> <dt>
 
 [**ITMediaCollection**](itmediacollection.md)
@@ -72,9 +72,4 @@ The **ITMedia** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
 

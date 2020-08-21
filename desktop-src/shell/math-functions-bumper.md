@@ -44,7 +44,7 @@ topic_type:
 -   [**SizeTAdd**](/windows/desktop/api/Intsafe/nf-intsafe-sizetadd)
 -   [**SIZETAdd\_1**](/windows/desktop/api/Intsafe/nf-intsafe-ulonglongadd)
 -   [**SizeTMult**](/windows/desktop/api/Intsafe/nf-intsafe-sizetmult)
--   [**SIZETMult\_1**](https://msdn.microsoft.com/library/Bb776644(v=VS.85).aspx)
+-   [**SIZETMult\_1**](/previous-versions/windows/desktop/legacy/bb776644(v=vs.85))
 -   [**SizeTSub**](/windows/desktop/api/Intsafe/nf-intsafe-sizetsub)
 -   [**SIZETSub\_1**](/windows/desktop/api/Intsafe/nf-intsafe-ulonglongsub)
 -   [**SSIZETAdd**](/windows/desktop/api/intsafe/nf-intsafe-ssizetadd)
@@ -60,9 +60,9 @@ topic_type:
 -   [**UIntPtrSub**](/windows/desktop/api/Intsafe/nf-intsafe-uintptrsub)
 -   [**UIntSub**](/windows/desktop/api/Intsafe/nf-intsafe-uintsub)
 -   [**ULongAdd**](/windows/desktop/api/Intsafe/nf-intsafe-ulongadd)
--   [**ULongLongAdd**](https://msdn.microsoft.com/library/Bb776654(v=VS.85).aspx)
--   [**ULongLongMult**](https://msdn.microsoft.com/library/Bb776655(v=VS.85).aspx)
--   [**ULongLongSub**](https://msdn.microsoft.com/library/Bb776656(v=VS.85).aspx)
+-   [**ULongLongAdd**](/previous-versions/windows/desktop/legacy/bb776654(v=vs.85))
+-   [**ULongLongMult**](/previous-versions/windows/desktop/legacy/bb776655(v=vs.85))
+-   [**ULongLongSub**](/previous-versions/windows/desktop/legacy/bb776656(v=vs.85))
 -   [**ULongMult**](/windows/desktop/api/Intsafe/nf-intsafe-ulongmult)
 -   [**ULongPtrAdd**](/windows/desktop/api/Intsafe/nf-intsafe-ulongptradd)
 -   [**ULongPtrMult**](/windows/desktop/api/Intsafe/nf-intsafe-ulongptrmult)
@@ -75,6 +75,3 @@ topic_type:
  
 
  
-
-
-

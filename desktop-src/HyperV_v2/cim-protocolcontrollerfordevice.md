@@ -122,7 +122,7 @@ Data type: **CIM\_ProtocolController**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The protocol controller in the association.
@@ -138,7 +138,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The logical device in the association.
@@ -180,9 +180,4 @@ The address of the associated device in the context of the protocol controler.
 </dt> </dl>
 
  
-
- 
-
-
-
 

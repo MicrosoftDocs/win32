@@ -139,7 +139,7 @@ The [ColumnStream](dn334143\(v=exchg.10\).md) type exposes the following members
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn334149(v=exchg.10).md">ToString</a></td>
-<td>Returns a <a href="https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN">String</a> that represents the current <a href="dn334143(v=exchg.10).md">ColumnStream</a>. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.object.tostring?redirectedfrom=MSDN#System_Object_ToString">Object.ToString()</a>.)</td>
+<td>Returns a <a href="/dotnet/api/system.string">String</a> that represents the current <a href="dn334143(v=exchg.10).md">ColumnStream</a>. (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.object.tostring?redirectedfrom=MSDN#System_Object_ToString">Object.ToString()</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
@@ -164,4 +164,3 @@ Top
 [ColumnStream class](dn334143\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

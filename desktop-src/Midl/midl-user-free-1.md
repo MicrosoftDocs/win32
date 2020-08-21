@@ -35,7 +35,7 @@ A pointer to the memory block to be freed.
 
 ## Remarks
 
-Both client application and server application must implement the **midl\_user\_free** function, unless you are compiling in OSF-compatibility ([**/osf**](-osf.md)) mode. The **midl\_user\_free** function must be able to free all storage allocated by [**midl\_user\_allocate**](https://docs.microsoft.com/windows/desktop/Rpc/the-midl-user-allocate-function).
+Both client application and server application must implement the **midl\_user\_free** function, unless you are compiling in OSF-compatibility ([**/osf**](-osf.md)) mode. The **midl\_user\_free** function must be able to free all storage allocated by [**midl\_user\_allocate**](/windows/desktop/Rpc/the-midl-user-allocate-function).
 
 Applications and stubs call **midl\_user\_free** when dealing with objects referenced by pointers:
 
@@ -63,7 +63,7 @@ void __RPC_API midl_user_free(void __RPC_FAR * p)
 [**arrays**](arrays-1.md)
 </dt> <dt>
 
-[Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers)
+[Arrays and Pointers](/windows/desktop/Rpc/arrays-and-pointers)
 </dt> <dt>
 
 [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md)
@@ -72,7 +72,7 @@ void __RPC_API midl_user_free(void __RPC_FAR * p)
 [**in**](in.md)
 </dt> <dt>
 
-[**midl\_user\_allocate**](https://docs.microsoft.com/windows/desktop/Rpc/the-midl-user-allocate-function)
+[**midl\_user\_allocate**](/windows/desktop/Rpc/the-midl-user-allocate-function)
 </dt> <dt>
 
 [**/osf**](-osf.md)
@@ -87,7 +87,3 @@ void __RPC_API midl_user_free(void __RPC_FAR * p)
  
 
  
-
-
-
-

@@ -30,7 +30,7 @@ You may want to try installing your visualization on several machines to be sure
 
 ## Sign Your Visualization
 
-You must submit your visualization for code signing so that the user can decide whether to trust your visualization before they install it. For information about code signing, see [Introduction to Code Signing](https://msdn.microsoft.com/library/ms537361(v=VS.85).aspx).
+You must submit your visualization for code signing so that the user can decide whether to trust your visualization before they install it. For information about code signing, see [Introduction to Code Signing](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85)).
 
 ## Distributing Your Visualization
 
@@ -46,7 +46,3 @@ Although the WMPlugins website no longer supports distribution of your visualiza
  
 
  
-
-
-
-

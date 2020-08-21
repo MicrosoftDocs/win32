@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # Playlist Attributes
 
-The following attributes are available for media items retrieved from the library by using [**MediaCollection.getByAttribute("MediaType", "playlist")**](https://docs.microsoft.com/windows/desktop/WMP/mediacollection-getbyattribute).
+The following attributes are available for media items retrieved from the library by using [**MediaCollection.getByAttribute("MediaType", "playlist")**](/windows/desktop/WMP/mediacollection-getbyattribute).
 
 -   [**AcquisitionTime Attribute**](acquisitiontime-attribute.md)
 -   [**AlternateSourceURL Attribute**](alternatesourceurl-attribute.md)
@@ -89,7 +89,3 @@ The following attributes are available for media items retrieved from the librar
  
 
  
-
-
-
-

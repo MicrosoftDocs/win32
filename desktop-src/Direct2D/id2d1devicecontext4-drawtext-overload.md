@@ -24,8 +24,8 @@ Draws the text within the given layout rectangle.
 
 | Method                                                                                                                                                                                                  | Description                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| [**DrawText(WCHAR\*, UINT32, IDWriteTextFormat\*, D2D1\_RECT\_F\*, ID2D1Brush\*, ID2D1SvgGlyphStyle\*, UINT32, D2D1\_DRAW\_TEXT\_OPTIONS, DWRITE\_MEASURING\_MODE)**](https://msdn.microsoft.com/library/Mt750186(v=VS.85).aspx) | Draws the text within the given layout rectangle.<br/>  |
-| [**DrawText(WCHAR\*, UINT32, IDWriteTextFormat\*, D2D1\_RECT\_F&, ID2D1Brush\*, ID2D1SvgGlyphStyle\*, UINT32, D2D1\_DRAW\_TEXT\_OPTIONS, DWRITE\_MEASURING\_MODE)**](https://msdn.microsoft.com/library/Mt750186(v=VS.85).aspx)  | Draws the text within the given layout rectangle. <br/> |
+| [**DrawText(WCHAR\*, UINT32, IDWriteTextFormat\*, D2D1\_RECT\_F\*, ID2D1Brush\*, ID2D1SvgGlyphStyle\*, UINT32, D2D1\_DRAW\_TEXT\_OPTIONS, DWRITE\_MEASURING\_MODE)**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f_id2d1brush_id2d1svgglyphstyle_uint32_d2d1_draw_text_options_dwrite_measuring_mode)) | Draws the text within the given layout rectangle.<br/>  |
+| [**DrawText(WCHAR\*, UINT32, IDWriteTextFormat\*, D2D1\_RECT\_F&, ID2D1Brush\*, ID2D1SvgGlyphStyle\*, UINT32, D2D1\_DRAW\_TEXT\_OPTIONS, DWRITE\_MEASURING\_MODE)**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f_id2d1brush_id2d1svgglyphstyle_uint32_d2d1_draw_text_options_dwrite_measuring_mode))  | Draws the text within the given layout rectangle. <br/> |
 
 
 
@@ -33,14 +33,8 @@ Draws the text within the given layout rectangle.
 
 <dl> <dt>
 
-[**ID2D1DeviceContext4**](https://msdn.microsoft.com/library/Mt736468(v=VS.85).aspx)
+[**ID2D1DeviceContext4**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1devicecontext4)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

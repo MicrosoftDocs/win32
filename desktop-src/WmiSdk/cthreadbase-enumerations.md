@@ -15,7 +15,7 @@ The [**CThreadBase**](/windows/desktop/api/ThrdBase/nl-thrdbase-cthreadbase) cla
 
 <dl> <dt>
 
-[**FlagDefs**](https://msdn.microsoft.com/library/Mt432263(v=VS.85).aspx)
+[**FlagDefs**](/previous-versions/windows/desktop/legacy/mt432263(v=vs.85))
 </dt> <dd>
 
 Specifies which flags are valid for the specified type of operation. This enumeration is used by the [**Provider::ValidateFlags**](/windows/desktop/api/Provider/nf-provider-provider-validateflags) method.
@@ -32,6 +32,3 @@ Specifies which flags are valid for the specified type of operation. This enumer
  
 
  
-
-
-

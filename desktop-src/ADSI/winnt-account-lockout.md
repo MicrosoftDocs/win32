@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # Account Lockout (WinNT Provider)
 
-When the number of failed logon attempts is exceeded, the user account becomes locked out for the number of minutes specified by the [**lockoutDuration**](https://docs.microsoft.com/windows/desktop/ADSchema/a-lockoutduration) attribute. The [**IADsUser.IsAccountLocked**](iadsuser-property-methods.md) property appears to be the property to use to read and modify the lockout state of a user account, but the WinNT ADSI provider has restrictions that limit the use of the **IsAccountLocked** property.
+When the number of failed logon attempts is exceeded, the user account becomes locked out for the number of minutes specified by the [**lockoutDuration**](/windows/desktop/ADSchema/a-lockoutduration) attribute. The [**IADsUser.IsAccountLocked**](iadsuser-property-methods.md) property appears to be the property to use to read and modify the lockout state of a user account, but the WinNT ADSI provider has restrictions that limit the use of the **IsAccountLocked** property.
 
 ## Resetting the Account Lockout Status
 
@@ -151,7 +151,3 @@ HRESULT IsAccountLocked(LPCWSTR pwszUserDN, BOOL *pfLocked)
  
 
  
-
-
-
-

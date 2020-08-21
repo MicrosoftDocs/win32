@@ -22,21 +22,21 @@ With the SDO API, a developer can manipulate any element of the NPS configuratio
 
 The SDO API also makes it possible to set or retrieve any of the values accessible through the user dial-in settings property page.
 
-The SDO API is composed of COM interfaces. Each of the interfaces in the SDO API inherits from the COM [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. The **IDispatch** interface enables developers to call the SDO interface methods from Visual Basic or any Automation client, as well as from C/C++.
+The SDO API is composed of COM interfaces. Each of the interfaces in the SDO API inherits from the COM [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. The **IDispatch** interface enables developers to call the SDO interface methods from Visual Basic or any Automation client, as well as from C/C++.
 
 Developers can also call the SDO API from scripting languages such as VBScript. However, because VBScript is limited to using VARIANT-type parameters only, not all the functionality of SDO is available.
 
 ## In This Section
 
-[Overview](https://docs.microsoft.com/windows/desktop/Nps/sdo-about-server-data-objects)
+[Overview](/windows/desktop/Nps/sdo-about-server-data-objects)
 
 General information about the Server Data Objects API.
 
-[Using](https://docs.microsoft.com/windows/desktop/Nps/sdo-using-server-data-objects)
+[Using](/windows/desktop/Nps/sdo-using-server-data-objects)
 
 Sample code that demonstrates how to use the Server Data Objects API.
 
-[Reference](https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-reference)
+[Reference](/windows/desktop/Nps/sdo-server-data-objects-reference)
 
 Documentation of the enumerated types and interfaces that compose the Server Data Objects API.
 
@@ -47,13 +47,9 @@ Documentation of the enumerated types and interfaces that compose the Server Dat
 [Network Policy Server (Internet Authentication Service)](portal.md)
 </dt> <dt>
 
-[Remote Access Service](https://docs.microsoft.com/windows/desktop/RRAS/portal)
+[Remote Access Service](/windows/desktop/RRAS/portal)
 </dt> </dl>
 
  
 
  
-
-
-
-

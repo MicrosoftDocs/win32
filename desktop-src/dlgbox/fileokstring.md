@@ -20,9 +20,9 @@ ms.date: 05/31/2018
 
 # FILEOKSTRING message
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](https://msdn.microsoft.com/library/Bb776913(v=VS.85).aspx). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
-An **Open** or **Save As** dialog box sends the **FILEOKSTRING** registered message to your hook procedure, [*OFNHookProc*](https://msdn.microsoft.com/library/ms646931(v=VS.85).aspx), when the user specifies a file name and clicks the **OK** button. The hook procedure can accept the file name and allow the dialog box to close, or reject the file name and force the dialog box to remain open.
+An **Open** or **Save As** dialog box sends the **FILEOKSTRING** registered message to your hook procedure, [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc), when the user specifies a file name and clicks the **OK** button. The hook procedure can accept the file name and allow the dialog box to close, or reject the file name and force the dialog box to remain open.
 
 
 ```C++
@@ -57,7 +57,7 @@ If the hook procedure returns a nonzero value, the **Open** or **Save As** dialo
 
 ## Remarks
 
-The hook procedure must specify the **FILEOKSTRING** constant in a call to the [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function to get the identifier for the message sent by the dialog box.
+The hook procedure must specify the **FILEOKSTRING** constant in a call to the [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function to get the identifier for the message sent by the dialog box.
 
 ## Requirements
 
@@ -85,7 +85,7 @@ The hook procedure must specify the **FILEOKSTRING** constant in a call to the [
 [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)
 </dt> <dt>
 
-[**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
+[**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
 </dt> <dt>
 
 **Conceptual**
@@ -95,10 +95,4 @@ The hook procedure must specify the **FILEOKSTRING** constant in a call to the [
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

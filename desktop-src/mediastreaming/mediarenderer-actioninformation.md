@@ -36,7 +36,7 @@ HRESULT get_ActionInformation(
 
 ## Property value
 
-A reference to an [**IMediaRendererActionInformation**](https://msdn.microsoft.com/library/Hh828915(v=VS.85).aspx) interface.
+A reference to an [**IMediaRendererActionInformation**](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-imediarendereractioninformation) interface.
 
 ## See also
 
@@ -48,7 +48,3 @@ A reference to an [**IMediaRendererActionInformation**](https://msdn.microsoft.c
  
 
  
-
-
-
-

@@ -46,7 +46,7 @@ For script development, see [**EventTrigger.ValueQueries**](eventtrigger-valuequ
 
 ## Examples
 
-For a complete example of the XML for a task that specifies a an event trigger using this element, see [Event Trigger Example (XML)](https://msdn.microsoft.com/library/Aa446889(v=VS.85).aspx).
+For a complete example of the XML for a task that specifies a an event trigger using this element, see [Event Trigger Example (XML)](/previous-versions//aa446889(v=vs.85)).
 
 ## Requirements
 
@@ -60,10 +60,4 @@ For a complete example of the XML for a task that specifies a an event trigger u
 
 
  
-
- 
-
-
-
-
 

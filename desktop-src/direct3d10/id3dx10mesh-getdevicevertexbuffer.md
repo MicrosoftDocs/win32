@@ -39,7 +39,7 @@ HRESULT GetDeviceVertexBuffer(
 *iBuffer* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 An index identifying which vertex buffer to access.
 
@@ -84,7 +84,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

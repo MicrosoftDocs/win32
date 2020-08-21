@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using the ScriptString Functions
 
-For an application dealing with unformatted text, Uniscribe provides the **ScriptString\*** functions. These functions are similar to [**ExtTextOut**](https://msdn.microsoft.com/library/Dd162713(v=VS.85).aspx), [**DrawText**](https://msdn.microsoft.com/library/Dd162498(v=VS.85).aspx), and [**GetTextExtent**](CDC::GetTextExtent), but they provide full complex script support, including caret placement. These functions are similar to the other Uniscribe functions, but are tailored to the simpler requirements of plain text processing.
+For an application dealing with unformatted text, Uniscribe provides the **ScriptString\*** functions. These functions are similar to [**ExtTextOut**](/windows/win32/api/wingdi/nf-wingdi-exttextouta), [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext), and [**GetTextExtent**](CDC::GetTextExtent), but they provide full complex script support, including caret placement. These functions are similar to the other Uniscribe functions, but are tailored to the simpler requirements of plain text processing.
 
 The following table details the **ScriptString\*** functions and any counterparts in the other Uniscribe functions.
 
@@ -88,7 +88,3 @@ To only display plain text without any modifications, an application should call
  
 
  
-
-
-
-

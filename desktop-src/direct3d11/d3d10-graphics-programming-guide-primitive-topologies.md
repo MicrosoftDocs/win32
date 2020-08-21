@@ -20,11 +20,11 @@ Direct3D 10 and higher supports several primitive types (or topologies) that are
 
 The following basic primitive types are supported:
 
--   [Point List](https://docs.microsoft.com/windows/desktop/direct3d9/point-lists)
--   [Line List](https://docs.microsoft.com/windows/desktop/direct3d9/line-lists)
--   [Line Strip](https://docs.microsoft.com/windows/desktop/direct3d9/line-strips)
--   [Triangle List](https://docs.microsoft.com/windows/desktop/direct3d9/triangle-lists)
--   [Triange Strip](https://docs.microsoft.com/windows/desktop/direct3d9/triangle-strips)
+-   [Point List](/windows/desktop/direct3d9/point-lists)
+-   [Line List](/windows/desktop/direct3d9/line-lists)
+-   [Line Strip](/windows/desktop/direct3d9/line-strips)
+-   [Triangle List](/windows/desktop/direct3d9/triangle-lists)
+-   [Triange Strip](/windows/desktop/direct3d9/triangle-strips)
 
 For a visualization of each primitive type, see the diagram later in this topic in [Winding Direction and Leading Vertex Positions](#winding-direction-and-leading-vertex-positions).
 
@@ -62,7 +62,7 @@ The symbols in the preceding illustration are described in the following table.
 
 ## Generating Multiple Strips
 
-You can generate multiple strips through strip cutting. You can perform a strip cut by explicitly calling the [RestartStrip](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-so-restartstrip) HLSL function, or by inserting a special index value into the index buffer. This value is –1, which is 0xffffffff for 32-bit indices or 0xffff for 16-bit indices. An index of –1 indicates an explicit 'cut' or 'restart' of the current strip. The previous index completes the previous primitive or strip and the next index starts a new primitive or strip. For more info about generating multiple strips, see [Geometry-Shader Stage](https://docs.microsoft.com/previous-versions//bb205146(v=vs.85)).
+You can generate multiple strips through strip cutting. You can perform a strip cut by explicitly calling the [RestartStrip](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-so-restartstrip) HLSL function, or by inserting a special index value into the index buffer. This value is –1, which is 0xffffffff for 32-bit indices or 0xffff for 16-bit indices. An index of –1 indicates an explicit 'cut' or 'restart' of the current strip. The previous index completes the previous primitive or strip and the next index starts a new primitive or strip. For more info about generating multiple strips, see [Geometry-Shader Stage](/previous-versions//bb205146(v=vs.85)).
 
 > [!Note]  
 > You need [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 10.0 or higher hardware because not all 10level9 hardware implements this functionality.
@@ -76,13 +76,9 @@ You can generate multiple strips through strip cutting. You can perform a strip 
 [Getting Started with the Input-Assembler Stage](d3d10-graphics-programming-guide-input-assembler-stage-getting-started.md)
 </dt> <dt>
 
-[Pipeline Stages (Direct3D 10)](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
+[Pipeline Stages (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
  
 
  
-
-
-
-

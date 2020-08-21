@@ -76,49 +76,49 @@ public static JET_THREADSTATS Create(
 #### Parameters
 
   - cPageReferenced  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Number of pages visited.
 
 <!-- end list -->
 
   - cPageRead  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Number of pages read.
 
 <!-- end list -->
 
   - cPagePreread  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Number of pages preread.
 
 <!-- end list -->
 
   - cPageDirtied  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     TNumber of pages dirtied.
 
 <!-- end list -->
 
   - cPageRedirtied  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Number of pages redirtied.
 
 <!-- end list -->
 
   - cLogRecord  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Number of log records generated.
 
 <!-- end list -->
 
   - cbLogRecord  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Bytes of log records written.
 
@@ -136,4 +136,3 @@ A new [JET_THREADSTATS](hh578565\(v=exchg.10\).md) struct with the specified val
 [JET_THREADSTATS members](hh579250\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-

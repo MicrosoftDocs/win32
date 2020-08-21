@@ -48,7 +48,7 @@ Pointer to this [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-win
 *pIEncoderOptions* \[in\]
 </dt> <dd>
 
-Type: **[IPropertyBag2](https://msdn.microsoft.com/library/Aa768192(VS.85).aspx)\***
+Type: **[IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85))\***
 
 The set of properties to use for [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) initialization.
 
@@ -75,9 +75,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

@@ -39,7 +39,7 @@ typedef struct D3DXTECHNIQUE_DESC {
 **Name**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -50,7 +50,7 @@ String that contains the technique name.
 **Passes**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -61,7 +61,7 @@ Number of rendering passes the technique requires. See Remarks.
 **Annotations**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -93,7 +93,3 @@ Some video cards can render two textures in a single pass. However, if a card do
  
 
  
-
-
-
-

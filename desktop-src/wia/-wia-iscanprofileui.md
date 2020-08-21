@@ -21,7 +21,7 @@ The **IScanProfileUI** interface enables applications to display a dialog box so
 
 ## Members
 
-The **IScanProfileUI** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IScanProfileUI** also has these types of members:
+The **IScanProfileUI** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IScanProfileUI** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -60,7 +60,7 @@ The dialog box is modal; the user cannot switch to the parent window until the d
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)
 </dt> <dt>
 
 [Scan Profile Schema](-wia-scan-profile-schema.md)
@@ -69,7 +69,3 @@ The dialog box is modal; the user cannot switch to the parent window until the d
  
 
  
-
-
-
-

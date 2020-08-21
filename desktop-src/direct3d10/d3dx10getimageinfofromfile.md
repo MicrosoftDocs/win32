@@ -41,7 +41,7 @@ HRESULT D3DX10GetImageInfoFromFile(
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 File name of image to retrieve information about. If UNICODE or \_UNICODE are defined, this parameter type is LPCWSTR, otherwise, the type is LPCSTR.
 
@@ -105,7 +105,3 @@ This function supports both Unicode and ANSI strings.
  
 
  
-
-
-
-

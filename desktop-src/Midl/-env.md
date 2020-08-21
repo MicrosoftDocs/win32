@@ -86,7 +86,7 @@ The **/env** switch determines the packing level and other settings as follows:
 
 The [**/align**](-align.md), [**/pack**](-pack.md), and [**/Zp**](-zp.md) switches take precedence over the **/env** settings.
 
-For more information on 64 bit support for MIDL and RPC see [Designing 64-bit-Compatible Interfaces](https://docs.microsoft.com/windows/desktop/WinProg64/designing-64-bit-compatible-interfaces).
+For more information on 64 bit support for MIDL and RPC see [Designing 64-bit-Compatible Interfaces](/windows/desktop/WinProg64/designing-64-bit-compatible-interfaces).
 
 ## Examples
 
@@ -114,7 +114,3 @@ For more information on 64 bit support for MIDL and RPC see [Designing 64-bit-Co
  
 
  
-
-
-
-

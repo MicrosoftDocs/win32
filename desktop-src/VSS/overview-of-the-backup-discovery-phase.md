@@ -38,7 +38,7 @@ A requester uses the [**IVssExamineWriterMetadata**](/windows/desktop/api/VsBack
 
 At this point, the requester will need to generate an initial list of each writer's backup candidates by iterating over the writer's components using [**IVssExamineWriterMetadata::GetComponent**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getcomponent). This provides the requester with [**IVssWMComponent**](/windows/desktop/api/VsBackup/nl-vsbackup-ivsswmcomponent) objects, from which you can get the specifications for the files to be backed up using [**IVssWMComponent::GetFile**](/windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-getfile), [**IVssWMComponent::GetDatabaseFile**](/windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-getdatabasefile), and [**IVssWMComponent::GetDatabaseLogFile**](/windows/desktop/api/VsBackup/nf-vsbackup-ivsswmcomponent-getdatabaselogfile).
 
-Because the [**IVssWMFiledesc**](/windows/desktop/api/VsWriter/nl-vswriter-ivsswmfiledesc) object can use wildcard characters to hold file location information, it may be necessary to use functions such as [**FindFirstFile**](https://msdn.microsoft.com/library/Aa364418(v=VS.85).aspx), [**FindFirstFileEx**](https://msdn.microsoft.com/library/Aa364419(v=VS.85).aspx), and [**FindNextFile**](https://msdn.microsoft.com/library/Aa364428(v=VS.85).aspx).
+Because the [**IVssWMFiledesc**](/windows/desktop/api/VsWriter/nl-vswriter-ivsswmfiledesc) object can use wildcard characters to hold file location information, it may be necessary to use functions such as [**FindFirstFile**](/windows/win32/api/fileapi/nf-fileapi-findfirstfilea), [**FindFirstFileEx**](/windows/win32/api/fileapi/nf-fileapi-findfirstfileexa), and [**FindNextFile**](/windows/win32/api/fileapi/nf-fileapi-findnextfilea).
 
 Until the shadow copy has been completed, it is still possible for writers to add or remove files from disk in the normal course of their work, so you should not generate the actual list of files to be backed up at this time.
 
@@ -69,6 +69,3 @@ Writers are given access to the [**IVssComponent**](/windows/desktop/api/VsWrite
  
 
  
-
-
-

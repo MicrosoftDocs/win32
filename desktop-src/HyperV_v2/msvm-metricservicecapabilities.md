@@ -77,7 +77,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Hyper-V Metric Service Capabilities".
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Hyper-V Metric Service Capabilities".
 
 </dd> <dt>
 
@@ -93,7 +93,7 @@ Access type: Read-only
 Qualifiers: **ArrayType** ("Indexed")
 </dt> </dl>
 
-Identifies the instances of [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement) that can be controlled by the associated **CIM\_MetricService** instance. If this property is **Null**, all elements can be controlled. This property is inherited from **CIM\_MetricServiceCapabilities**.
+Identifies the instances of [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement) that can be controlled by the associated **CIM\_MetricService** instance. If this property is **Null**, all elements can be controlled. This property is inherited from **CIM\_MetricServiceCapabilities**.
 
 </dd> <dt>
 
@@ -122,7 +122,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Defines Hyper-V Metric Service Capabilities".
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Defines Hyper-V Metric Service Capabilities".
 
 </dd> <dt>
 
@@ -135,7 +135,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Hyper-V Metric Service Capabilities".
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Hyper-V Metric Service Capabilities".
 
 </dd> <dt>
 
@@ -177,7 +177,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -193,7 +193,7 @@ Access type: Read-only
 Qualifiers: **ArrayType** ("Indexed")
 </dt> </dl>
 
-Identifies the type of control supported by the associated **CIM\_MetricService** instance for the [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement) object identified by the value at the same array index in the **ControllableManagedElements** property. If this property is **Null**, all control types are supported. This property is inherited from **CIM\_MetricServiceCapabilities**.
+Identifies the type of control supported by the associated **CIM\_MetricService** instance for the [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement) object identified by the value at the same array index in the **ControllableManagedElements** property. If this property is **Null**, all control types are supported. This property is inherited from **CIM\_MetricServiceCapabilities**.
 
 
 
@@ -345,9 +345,4 @@ Specifies the methods supported by the metric service. This property is inherite
 </dt> </dl>
 
  
-
- 
-
-
-
 

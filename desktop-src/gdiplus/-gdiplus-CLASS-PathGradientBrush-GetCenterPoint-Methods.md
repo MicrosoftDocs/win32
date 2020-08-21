@@ -8,7 +8,7 @@ ms.topic: reference
 
 # PathGradientBrush.GetCenterPoint methods
 
-This topic lists the GetCenterPoint methods of the [**PathGradientBrush**](https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx) class. For a complete list of methods for the **PathGradientBrush** class, see [PathGradientBrush Methods](-gdiplus-class-pathgradientbrush-methods.md).
+This topic lists the GetCenterPoint methods of the [**PathGradientBrush**](/windows/win32/api/gdipluspath/nl-gdipluspath-pathgradientbrush) class. For a complete list of methods for the **PathGradientBrush** class, see [PathGradientBrush Methods](-gdiplus-class-pathgradientbrush-methods.md).
 
 ### Overload list
 
@@ -16,15 +16,11 @@ This topic lists the GetCenterPoint methods of the [**PathGradientBrush**](https
 
 | Method                                                                                            | Description                                                                                                                                                                         |
 |:--------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetCenterPoint(Point\*)**](https://msdn.microsoft.com/library/ms535098(v=VS.85).aspx)   | The [**PathGradientBrush::GetCenterPoint**](https://msdn.microsoft.com/library/ms535098(v=VS.85).aspx) method gets the center point of this path gradient brush.<br/>  |
-| [**GetCenterPoint(PointF\*)**](https://msdn.microsoft.com/library/ms535099(v=VS.85).aspx) | The [**PathGradientBrush::GetCenterPoint**](https://msdn.microsoft.com/library/ms535099(v=VS.85).aspx) method gets the center point of this path gradient brush.<br/> |
+| [**GetCenterPoint(Point\*)**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getcenterpoint(outpoint))   | The [**PathGradientBrush::GetCenterPoint**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getcenterpoint(outpoint)) method gets the center point of this path gradient brush.<br/>  |
+| [**GetCenterPoint(PointF\*)**](/previous-versions//ms535099(v=vs.85)) | The [**PathGradientBrush::GetCenterPoint**](/previous-versions//ms535099(v=vs.85)) method gets the center point of this path gradient brush.<br/> |
 
 
 
  
 
  
-
-
-
-

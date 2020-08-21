@@ -17,13 +17,13 @@ api_location:
 
 # ISCardTypeConv interface
 
-\[The **ISCardTypeConv** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **ISCardTypeConv** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **ISCardTypeConv** interface provides the methods needed to support the users of the other [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) COM interfaces. This interface is provided for backward compatibility only and should no longer be used.
+The **ISCardTypeConv** interface provides the methods needed to support the users of the other [*smart card*](../secgloss/s-gly.md) COM interfaces. This interface is provided for backward compatibility only and should no longer be used.
 
 ## Members
 
-The **ISCardTypeConv** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ISCardTypeConv** also has these types of members:
+The **ISCardTypeConv** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **ISCardTypeConv** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -70,7 +70,3 @@ The **ISCardTypeConv** interface has these methods.
  
 
  
-
-
-
-

@@ -72,14 +72,14 @@ The latest available graphics driver is strongly recommended, either from Window
 
 Windows 10 supports a wide variety of rendering APIs and frameworks. Advanced color support fundamentally relies on your app being able to perform modern presentation using either DXGI or the Visual Layer APIs.
 
-* [DirectX Graphics Infrastructure (DXGI)](/windows/win32/direct3ddxgi/dx-graphics-dxgi)
+* [DirectX Graphics Infrastructure (DXGI)](../direct3ddxgi/dx-graphics-dxgi.md)
 * [Visual Layer (Windows.UI.Composition)](/windows/uwp/composition/visual-layer)
 
 Therefore, any rendering API that can output to one of these presentations methods can support advanced color. This includes but is not limited to these.
 
-* [Direct3D 11](/windows/win32/direct3d11/atoc-dx-graphics-direct3d-11)
-* [Direct3D 12](/windows/win32/direct3d12/direct3d-12-graphics)
-* [Direct2D](/windows/win32/direct2d/direct2d-portal)
+* [Direct3D 11](../direct3d11/atoc-dx-graphics-direct3d-11.md)
+* [Direct3D 12](../direct3d12/direct3d-12-graphics.md)
+* [Direct2D](../direct2d/direct2d-portal.md)
 * [Win2D](https://github.com/Microsoft/Win2D)
   * Requires using the lower level **CanvasSwapChain** or **CanvasSwapChainPanel** APIs.
 * [**Windows.UI.Input.Inking**](/uwp/api/Windows.UI.Input.Inking)
@@ -128,7 +128,7 @@ Most of the other members of **DXGI_OUTPUT_DESC1** provide quantitative informat
 
 Win32 apps don't have a native mechanism to respond to advanced color capability changes. Instead, if your app uses a render loop, then you should query [**IDXGIFactory1::IsCurrent**](/windows/desktop/api/DXGI/nf-dxgi-idxgifactory1-iscurrent) with each frame. If it reports **FALSE**, then you should obtain a new **DXGI_OUTPUT_DESC1**, and check which values have changed.
 
-In addition, your Win32 message pump should handle the [**WM_SIZE**](/windows/win32/winmsg/wm-size) message, which indicates that your app may have moved between different displays.
+In addition, your Win32 message pump should handle the [**WM_SIZE**](../winmsg/wm-size.md) message, which indicates that your app may have moved between different displays.
 
 > [!Note]
 > To obtain a new **DXGI_OUTPUT_DESC1**, you must obtain the current display. However, you should not call **IDXGISwapChain::GetContainingOutput**. This is because swap chains will return a stale DXGI output once **DXGIFactory::IsCurrent** is false, and recreating the swap chain to get a current output results in a temporary black screen. Instead, we recommend that you enumerate through the bounds of all DXGI outputs, and determine which one has the greatest intersection with your app window's bounds.
@@ -193,7 +193,7 @@ Once you have determined that the display currently supports advanced color capa
 
 ### Use a flip presentation model effect
 
-When creating your swap chain using the **CreateSwapChainFor[Hwnd|Composition|CoreWindow]** methods, you must use the DXGI flip model by selecting either the **DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL** or **DXGI_SWAP_EFFECT_FLIP_DISCARD** option, which makes your swap chain eligible for advanced color processing from DWM and various fullscreen optimizations. For more information, refer to the [For best performance, use DXGI flip model](/windows/win32/direct3ddxgi/for-best-performance--use-dxgi-flip-model) topic.
+When creating your swap chain using the **CreateSwapChainFor[Hwnd|Composition|CoreWindow]** methods, you must use the DXGI flip model by selecting either the **DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL** or **DXGI_SWAP_EFFECT_FLIP_DISCARD** option, which makes your swap chain eligible for advanced color processing from DWM and various fullscreen optimizations. For more information, refer to the [For best performance, use DXGI flip model](../direct3ddxgi/for-best-performance--use-dxgi-flip-model.md) topic.
 
 ### Option 1. Use FP16 pixel format and scRGB color space
 
@@ -240,7 +240,7 @@ Currently, only UWP apps can obtain the current SDR reference white level via [*
 
 Windows defines the nominal, or default, reference white level at 80 nits; therefore if you were to render a standard sRGB (1.0, 1.0, 1.0) white to an FP16 swap chain, it would be reproduced at 80 nits luminance. In order to match the actual user-defined reference white level, you must adjust SDR content from 80 nits to the level specified via **AdvancedColorInfo.SdrWhiteLevelInNits**.
 
-If you're rendering using FP16 and scRGB, or any color space that uses linear (1.0) gamma, then you can simply multiply the SDR color value by _AdvancedColorInfo.SdrWhiteLevelInNits_ / _80_. If you're using Direct2D, there is a predefined constant [**D2D1_SCENE_REFERRED_SDR_WHITE_LEVEL**](/windows/win32/direct2d/direct2d-constants#d2d1_scene_referred_sdr_white_level-800f), which has a value of 80.
+If you're rendering using FP16 and scRGB, or any color space that uses linear (1.0) gamma, then you can simply multiply the SDR color value by _AdvancedColorInfo.SdrWhiteLevelInNits_ / _80_. If you're using Direct2D, there is a predefined constant [**D2D1_SCENE_REFERRED_SDR_WHITE_LEVEL**](../direct2d/direct2d-constants.md#d2d1_scene_referred_sdr_white_level-800f), which has a value of 80.
 
 ```cpp
 D2D1_VECTOR_4F inputColor; // Input SDR color value.
@@ -429,7 +429,7 @@ void D2DAdvancedColorImagesRenderer::ComputeHdrMetadata()
 
 ### Step 3. Perform the HDR tonemapping operation
 
-Tonemapping is inherently a lossy process, and can be optimized for a number of perceptual or objective metrics, so there is no one standard algorithm. Windows provides a built-in [HDR tonemapper effect](/windows/win32/direct2d/hdr-tone-map-effect) as part of Direct2D as well as in the Media Foundation HDR video playback pipeline. Some other commonly used algorithms include ACES Filmic, Reinhard, and ITU-R BT.2390-3 EETF (electrical-electrical transfer function).
+Tonemapping is inherently a lossy process, and can be optimized for a number of perceptual or objective metrics, so there is no one standard algorithm. Windows provides a built-in [HDR tonemapper effect](../direct2d/hdr-tone-map-effect.md) as part of Direct2D as well as in the Media Foundation HDR video playback pipeline. Some other commonly used algorithms include ACES Filmic, Reinhard, and ITU-R BT.2390-3 EETF (electrical-electrical transfer function).
 
 A simplified Reinhard tonemapper operator is shown below.
 

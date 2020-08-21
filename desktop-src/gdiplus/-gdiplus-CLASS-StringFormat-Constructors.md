@@ -8,7 +8,7 @@ ms.topic: reference
 
 # StringFormat.StringFormat constructors
 
-This topic lists the constructors of the [**StringFormat**](https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx) class. For a complete class listing, see **StringFormat Class**.
+This topic lists the constructors of the [**StringFormat**](/windows/win32/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat) class. For a complete class listing, see **StringFormat Class**.
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the constructors of the [**StringFormat**](https://msdn.microso
 
 | Constructor                                                                                        | Description                                                                                                                        |
 |:---------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
-| [**StringFormat(INT,LANGID)**](https://msdn.microsoft.com/library/ms534732(v=VS.85).aspx) | Creates a [**StringFormat**](https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx) object based on string format flags and a language.<br/> |
-| [**StringFormat(StringFormat\*)**](https://msdn.microsoft.com/library/ms534733(v=VS.85).aspx)           | Creates a [**StringFormat**](https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx) object from another **StringFormat** object.<br/>        |
+| [**StringFormat(INT,LANGID)**](/windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-stringformat(inint_inlangid)) | Creates a [**StringFormat**](/windows/win32/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat) object based on string format flags and a language.<br/> |
+| [**StringFormat(StringFormat\*)**](/windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-stringformat(conststringformat_))           | Creates a [**StringFormat**](/windows/win32/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat) object from another **StringFormat** object.<br/>        |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the constructors of the [**StringFormat**](https://msdn.microso
  
 
  
-
-
-
-

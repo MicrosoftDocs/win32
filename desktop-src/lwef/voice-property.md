@@ -38,7 +38,7 @@ Returns or sets the text that is passed to the speech engine grammar (for recogn
 
 ## Remarks
 
-If you do not supply this parameter, the [**VoiceCaption**](voicecaption-property.md) for your [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) object will not appear in the Voice Commands Window.
+If you do not supply this parameter, the [**VoiceCaption**](voicecaption-property.md) for your [**Commands**](/windows/desktop/lwef/the-commands-collection-object) object will not appear in the Voice Commands Window.
 
 The string expression you supply can include square bracket characters (\[ \]) to indicate optional words and vertical bar characters (\|) to indicate alternative strings. Alternates must be enclosed in parentheses. For example, "(hello \[there\] \| hi)" tells the speech engine to accept "hello," "hello there," or "hi" for the command. Remember to include appropriate spaces between the text that's in brackets or parentheses and the text that's not in brackets or parentheses. You can use the star (\*) operator to specify zero or more instances of the words included in the group or the plus (+) operator to specify one or more instances. For example, the following results in a grammar that supports "try this", "please try this", "please please try this", with unlimited iterations of "please":
 
@@ -110,7 +110,3 @@ The operation of this property depends on the state of the server's speech recog
  
 
  
-
-
-
-

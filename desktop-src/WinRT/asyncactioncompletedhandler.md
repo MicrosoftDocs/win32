@@ -21,7 +21,7 @@ Represents the method that is called when an asynchronous action completes.
 
 ## Members
 
-The **AsyncActionCompletedHandler** interface inherits from [**IAsyncInfo**](https://msdn.microsoft.com/library/BR205795(v=VS.85).aspx). **AsyncActionCompletedHandler** also has these types of members:
+The **AsyncActionCompletedHandler** interface inherits from [**IAsyncInfo**](/windows/win32/api/asyncinfo/nn-asyncinfo-iasyncinfo). **AsyncActionCompletedHandler** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -41,7 +41,7 @@ The **AsyncActionCompletedHandler** interface has these methods.
 
 ## Remarks
 
-Assign an **AsyncActionCompletedHandler** to an [**IAsyncAction**](https://msdn.microsoft.com/library/BR205781(v=VS.85).aspx) to receive a notification when the asynchronous action completes.
+Assign an **AsyncActionCompletedHandler** to an [**IAsyncAction**](/windows/win32/api/windows.foundation/nn-windows-foundation-iasyncaction) to receive a notification when the asynchronous action completes.
 
 ## Requirements
 
@@ -59,13 +59,8 @@ Assign an **AsyncActionCompletedHandler** to an [**IAsyncAction**](https://msdn.
 
 <dl> <dt>
 
-[**IAsyncInfo**](https://msdn.microsoft.com/library/BR205795(v=VS.85).aspx)
+[**IAsyncInfo**](/windows/win32/api/asyncinfo/nn-asyncinfo-iasyncinfo)
 </dt> </dl>
 
  
-
- 
-
-
-
 

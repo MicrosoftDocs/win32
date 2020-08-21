@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Rating Photo Metadata Policy
 
-The photo metadata policy for the [System.Rating](https://msdn.microsoft.com/library/bb787554(VS.85).aspx) property.
+The photo metadata policy for the [System.Rating](../properties/props-system-rating.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Rating](https://msdn.microsoft.com/library/bb787554(VS.85).aspx)
+[System.Rating](../properties/props-system-rating.md)
 </dt> </dl>
 
  
 
  
-
-
-

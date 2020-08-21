@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Server-side Asynchronous Pipe Handling
 
-The manager routine of an asynchronous function always receives the asynchronous handle as the first parameter. The server uses this handle to send the reply and to send the out pipe data as it becomes available. The handle remains valid until [**RpcAsyncCompleteCall**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccompletecall) is called on it, the call is aborted by [**RpcAsyncAbortCall**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncabortcall), or an exception occurs in the manager routine. The application must keep track of all top-level pointers for the \[**out**\] and \[**in, out**\] parameters, in order to update them before completing the call. The application must also keep track of the \[[**in**](https://docs.microsoft.com/windows/desktop/Midl/in)\] and \[[**out**](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\] pipes.
+The manager routine of an asynchronous function always receives the asynchronous handle as the first parameter. The server uses this handle to send the reply and to send the out pipe data as it becomes available. The handle remains valid until [**RpcAsyncCompleteCall**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccompletecall) is called on it, the call is aborted by [**RpcAsyncAbortCall**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncabortcall), or an exception occurs in the manager routine. The application must keep track of all top-level pointers for the \[**out**\] and \[**in, out**\] parameters, in order to update them before completing the call. The application must also keep track of the \[[**in**](/windows/desktop/Midl/in)\] and \[[**out**](/windows/desktop/Midl/out-idl)\] pipes.
 
 The server sends asynchronous pipe data in the same manner as the client. See [Client-Side Asynchronous Pipe Handling](client-side-asynchronous-pipe-handling.md).
 
@@ -173,7 +173,7 @@ void MyAsyncPipeAPCRoutine (
 [Pipes](pipes.md)
 </dt> <dt>
 
-[Asynchronous MIDL](https://docs.microsoft.com/windows/desktop/Midl/async)
+[Asynchronous MIDL](/windows/desktop/Midl/async)
 </dt> <dt>
 
 [Server-Side Asynchronous RPC](server-side-asynchronous-rpc.md)
@@ -182,7 +182,3 @@ void MyAsyncPipeAPCRoutine (
  
 
  
-
-
-
-

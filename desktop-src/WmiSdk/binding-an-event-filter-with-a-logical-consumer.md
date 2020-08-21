@@ -52,7 +52,7 @@ Two consumers, [**ActiveScriptEventConsumer**](activescripteventconsumer.md) and
 
 **:** When an administrator creates a subscription, his SID is not used for the **CreatorSID** property, but the SID of the local Administrators group is used instead. Therefore, instances can be created by different administrators and the subscription will still work. For more information, see [Receiving Events Securely](receiving-events-securely.md).
 
-When a filter is bound to a logical consumer the event is recorded by [Event Tracing](https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal) for Windows (ETW). For more information, see [Tracing WMI Activity](tracing-wmi-activity.md).
+When a filter is bound to a logical consumer the event is recorded by [Event Tracing](/windows/desktop/ETW/event-tracing-portal) for Windows (ETW). For more information, see [Tracing WMI Activity](tracing-wmi-activity.md).
 
 ## Related topics
 
@@ -64,6 +64,3 @@ When a filter is bound to a logical consumer the event is recorded by [Event Tra
  
 
  
-
-
-

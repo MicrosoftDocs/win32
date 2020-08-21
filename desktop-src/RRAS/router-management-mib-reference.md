@@ -16,12 +16,8 @@ This documentation describes the reference elements used in the router managemen
 -   [Router Management MIB Functions](mib-functions.md)
 -   [Transport and Protocol Constants](transport-and-protocol-constants.md)
 
-The structures that define MIB variables are documented in the technology-agnostic [Management Information Base API](https://docs.microsoft.com/previous-versions/windows/desktop/mib/management-information-base-reference) networking topic.
+The structures that define MIB variables are documented in the technology-agnostic [Management Information Base API](/previous-versions/windows/desktop/mib/management-information-base-reference) networking topic.
 
  
 
  
-
-
-
-

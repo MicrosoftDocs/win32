@@ -275,7 +275,7 @@ Indicates that this pointer transitioned to an up state; that is, contact with t
 
 
 
-Indicates input associated with a pointer wheel. For mouse pointers, this is equivalent to the action of the mouse scroll wheel ([**WM_MOUSEHWHEEL**](https://msdn.microsoft.com/library/windows/desktop/ms645614)).
+Indicates input associated with a pointer wheel. For mouse pointers, this is equivalent to the action of the mouse scroll wheel ([**WM_MOUSEHWHEEL**](../inputdev/wm-mousehwheel.md)).
 
 
 </dt> </dl> </dd> <dt>
@@ -288,7 +288,7 @@ Indicates input associated with a pointer wheel. For mouse pointers, this is equ
 
 
 
-Indicates input associated with a pointer h-wheel. For mouse pointers, this is equivalent to the action of the mouse horizontal scroll wheel ([**WM_MOUSEHWHEEL**](https://msdn.microsoft.com/library/windows/desktop/ms645614)).
+Indicates input associated with a pointer h-wheel. For mouse pointers, this is equivalent to the action of the mouse horizontal scroll wheel ([**WM_MOUSEHWHEEL**](../inputdev/wm-mousehwheel.md)).
 
 
 </dt> </dl> </dd> <dt>
@@ -349,10 +349,4 @@ XBUTTON1 and XBUTTON2 are additional buttons used on many mouse devices. They re
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

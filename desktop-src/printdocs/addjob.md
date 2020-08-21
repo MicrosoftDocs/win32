@@ -22,7 +22,7 @@ api_location:
 The **AddJob** function adds a print job to the list of print jobs that can be scheduled by the print spooler. The function retrieves the name of the file you can use to store the job.
 
 > [!NOTE]
-> In Windows 8 and later operating systems, we do not recommended using **AddJob** directly because there are cases (such as printing to a queue using File: or PORTPROMPT:) where **AddJob** will fail. Instead, you are advised to use [GDI Print API](gdi-printing.md), [XPS Print API](xps-printing.md), [**StartDocPrinter**](startdocprinter.md), or the appropriate method from the [**Windows.Graphics.Printing**](https://docs.microsoft.com/uwp/api/Windows.Graphics.Printing) namespace, depending on the print scenario.
+> In Windows 8 and later operating systems, we do not recommended using **AddJob** directly because there are cases (such as printing to a queue using File: or PORTPROMPT:) where **AddJob** will fail. Instead, you are advised to use [GDI Print API](gdi-printing.md), [XPS Print API](xps-printing.md), [**StartDocPrinter**](startdocprinter.md), or the appropriate method from the [**Windows.Graphics.Printing**](/uwp/api/Windows.Graphics.Printing) namespace, depending on the print scenario.
 >
 > If you try to print to a queue using **File:** or **PORTPROMPT:**, **AddJob** will Return the NOT\_SUPPORTED error.
 
@@ -90,7 +90,7 @@ If the function fails, the return value is zero.
 
  
 
-You can call the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function to open the spool file specified by the **Path** member of the [**ADDJOB\_INFO\_1**](addjob-info-1.md) structure, and then call the [**WriteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile) function to write print job data to it. After that is done, call the [**ScheduleJob**](schedulejob.md) function to notify the print spooler that the print job can now be scheduled by the spooler for printing.
+You can call the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) function to open the spool file specified by the **Path** member of the [**ADDJOB\_INFO\_1**](addjob-info-1.md) structure, and then call the [**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile) function to write print job data to it. After that is done, call the [**ScheduleJob**](schedulejob.md) function to notify the print spooler that the print job can now be scheduled by the spooler for printing.
 
 ## Requirements
 
@@ -114,7 +114,7 @@ You can call the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api
 [**ADDJOB\_INFO\_1**](addjob-info-1.md)
 </dt> <dt>
 
-[**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea)
+[**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea)
 </dt> <dt>
 
 [GDI Print API](gdi-printing.md)
@@ -135,19 +135,14 @@ You can call the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api
 [**StartDocPrinter**](startdocprinter.md)
 </dt> <dt>
 
-[**Windows.Graphics.Printing**](https://docs.microsoft.com/uwp/api/Windows.Graphics.Printing)
+[**Windows.Graphics.Printing**](/uwp/api/Windows.Graphics.Printing)
 </dt> <dt>
 
-[**WriteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile)
+[**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile)
 </dt> <dt>
 
 [XPS Print API](xps-printing.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

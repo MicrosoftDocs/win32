@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Workstation and Workstation User Functions
 
-The network management workstation functions perform administrative tasks on a local or remote workstation. Only a user or application with admin group membership, on a local or remote server, can perform administrative tasks on a workstation to control its operation, user access, and resource sharing. For more information about calling functions that require administrator privileges, see [Running with Special Privileges](https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges).
+The network management workstation functions perform administrative tasks on a local or remote workstation. Only a user or application with admin group membership, on a local or remote server, can perform administrative tasks on a workstation to control its operation, user access, and resource sharing. For more information about calling functions that require administrator privileges, see [Running with Special Privileges](/windows/desktop/SecBP/running-with-special-privileges).
 
 The workstation functions are listed following.
 
@@ -61,7 +61,3 @@ Workstation user information is available at the following levels:
  
 
  
-
-
-
-

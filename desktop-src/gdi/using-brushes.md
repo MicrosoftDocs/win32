@@ -37,7 +37,7 @@ END
 
 
 
-The **Custom Brush** dialog box contains five controls: a bitmap-grid window, a pattern-viewing window, and three push buttons, labeled **Test Pattern**, **OK**, and **Cancel**. The **Test Pattern** push button enables the user to view the pattern. The dialog box template specifies the overall dimensions of the dialog box window, assigns a value to each control, specifies the location of each control, and so forth. For more information, see [Dialog Boxes](https://msdn.microsoft.com/library/ms632588(v=VS.85).aspx).
+The **Custom Brush** dialog box contains five controls: a bitmap-grid window, a pattern-viewing window, and three push buttons, labeled **Test Pattern**, **OK**, and **Cancel**. The **Test Pattern** push button enables the user to view the pattern. The dialog box template specifies the overall dimensions of the dialog box window, assigns a value to each control, specifies the location of each control, and so forth. For more information, see [Dialog Boxes](../dlgbox/dialog-boxes.md).
 
 The control values in the dialog box template are constants that have been defined as follows in the application's header file.
 
@@ -292,16 +292,16 @@ The dialog box procedure for the **Custom Brush** dialog box processes four mess
 
 | Message                                          | Action                                                                                                                                                                                                                                                                                                     |
 |--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/ms645428(v=VS.85).aspx)   | Retrieves a window handle and dimensions for the grid-window and pattern-brush controls, computes the dimensions of a single cell in the grid-window control, and initializes an array of grid-cell coordinates.                                                                                           |
+| [**WM\_INITDIALOG**](../dlgbox/wm-initdialog.md)   | Retrieves a window handle and dimensions for the grid-window and pattern-brush controls, computes the dimensions of a single cell in the grid-window control, and initializes an array of grid-cell coordinates.                                                                                           |
 | [**WM\_PAINT**](wm-paint.md)                    | Draws the grid pattern in the grid-window control.                                                                                                                                                                                                                                                         |
-| [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/library/ms645607(v=VS.85).aspx) | Determines whether the cursor is within the grid-window control when the user presses the left mouse button. If so, the dialog box procedure inverts the appropriate grid cell and records the state of that cell in an array of bits that is used to create the bitmap for the custom brush.              |
-| [**WM\_COMMAND**](https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx)         | Processes input for the three push button controls. If the user clicks the **Test Pattern** button, the dialog box procedure paints the Test Pattern control with the new custom brush pattern. If the user clicks the **OK** or **Cancel** button, the dialog box procedure performs actions accordingly. |
+| [**WM\_LBUTTONDOWN**](../inputdev/wm-lbuttondown.md) | Determines whether the cursor is within the grid-window control when the user presses the left mouse button. If so, the dialog box procedure inverts the appropriate grid cell and records the state of that cell in an array of bits that is used to create the bitmap for the custom brush.              |
+| [**WM\_COMMAND**](../menurc/wm-command.md)         | Processes input for the three push button controls. If the user clicks the **Test Pattern** button, the dialog box procedure paints the Test Pattern control with the new custom brush pattern. If the user clicks the **OK** or **Cancel** button, the dialog box procedure performs actions accordingly. |
 
 
 
  
 
-For more information about messages and message processing, see [Messages and Message Queues](https://msdn.microsoft.com/library/ms632590(v=VS.85).aspx).
+For more information about messages and message processing, see [Messages and Message Queues](../winmsg/messages-and-message-queues.md).
 
 After you write the dialog box procedure, include the function definition for the procedure in the application's header file and then call the dialog box procedure at the appropriate point in the application.
 
@@ -333,6 +333,3 @@ This call is usually made in response to the user choosing an option from the ap
  
 
  
-
-
-

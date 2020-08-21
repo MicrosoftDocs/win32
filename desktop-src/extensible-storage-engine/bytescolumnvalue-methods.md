@@ -59,7 +59,7 @@ The [BytesColumnValue](dn334170\(v=exchg.10\).md) type exposes the following mem
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Public method" alt="Public method" /></td>
 <td><a href="dn334124(v=exchg.10).md">ToString</a></td>
-<td>Returns a <a href="https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN">String</a> that represents the current <a href="dn334170(v=exchg.10).md">BytesColumnValue</a>. (Overrides <a href="dn334163(v=exchg.10).md">ColumnValue.ToString()</a>.)</td>
+<td>Returns a <a href="/dotnet/api/system.string">String</a> that represents the current <a href="dn334170(v=exchg.10).md">BytesColumnValue</a>. (Overrides <a href="dn334163(v=exchg.10).md">ColumnValue.ToString()</a>.)</td>
 </tr>
 </tbody>
 </table>
@@ -74,4 +74,3 @@ Top
 [BytesColumnValue class](dn334170\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -22,12 +22,8 @@ You can use the version information functions to determine where a file should b
 
 The version information functions enable applications to query a version resource for file information and present the information in a clear format. This information includes the file's purpose, author, version number, and so on.
 
-You can add version information to any files that can have Windows resources, such as DLLs, executable files, or .fon font files. To add the information, create a [VERSIONINFO Resource](https://docs.microsoft.com/windows/desktop/menurc/versioninfo-resource) and use the resource compiler to compile the resource.
+You can add version information to any files that can have Windows resources, such as DLLs, executable files, or .fon font files. To add the information, create a [VERSIONINFO Resource](/windows/desktop/menurc/versioninfo-resource) and use the resource compiler to compile the resource.
 
  
 
  
-
-
-
-

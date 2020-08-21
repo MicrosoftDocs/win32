@@ -131,7 +131,7 @@ Data type: **String**
 Access type: Read-only
 </dt> </dl>
 
-Gets the X.500 path of the [**interSiteTransport**](https://docs.microsoft.com/windows/desktop/ADSchema/c-intersitetransport) object that corresponds to the transport over which replication is performed. Set to **NULL** for RPC/IP replication.
+Gets the X.500 path of the [**interSiteTransport**](/windows/desktop/ADSchema/c-intersitetransport) object that corresponds to the transport over which replication is performed. Set to **NULL** for RPC/IP replication.
 
 </dd> <dt>
 
@@ -287,7 +287,7 @@ Data type: **String**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Gets the X.500 path for the NC that is replicated by this connection.
@@ -592,7 +592,7 @@ Data type: **String**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Gets the GUID for the directory service agent (DSA) that represents the source domain controller (DC).
@@ -699,7 +699,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Gets the [**unchanged**](https://docs.microsoft.com/windows/desktop/ADSchema/a-usnchanged) attribute value of the last object update that was received.
+Gets the [**unchanged**](/windows/desktop/ADSchema/a-usnchanged) attribute value of the last object update that was received.
 
 </dd> <dt>
 
@@ -731,10 +731,4 @@ Gets the value that indicates whether the **DS\_REPL\_NBR\_WRITEABLE** flag has 
 
 
  
-
- 
-
-
-
-
 

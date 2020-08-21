@@ -40,7 +40,7 @@ Hides the specified character.
 
 The server queues the actions of the **Hide** method in the character's queue, so you can use it to hide the character after a sequence of other animations. You can play the action immediately by using the [**Stop**](stop-method.md) method before calling this method.
 
-If you declare an object reference and set it to this method, it returns a [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object. In addition, if the associated **Hiding** animation has not been loaded and you have not specified the **Fast** parameter as **True**, the server sets the **Request** object [**Status**](status-property.md) property to "failed" with an appropriate error number. Therefore, if you are using the HTTP protocol to access character or animation data, use the [**Get**](get-method.md) method and specify the **Hiding** state to load the animation before calling the **Hide** method.
+If you declare an object reference and set it to this method, it returns a [**Request**](/windows/desktop/lwef/the-request-object) object. In addition, if the associated **Hiding** animation has not been loaded and you have not specified the **Fast** parameter as **True**, the server sets the **Request** object [**Status**](status-property.md) property to "failed" with an appropriate error number. Therefore, if you are using the HTTP protocol to access character or animation data, use the [**Get**](get-method.md) method and specify the **Hiding** state to load the animation before calling the **Hide** method.
 
 Hiding a character can also result in triggering the [**ActivateInput**](activateinput-event.md) event of another client.
 
@@ -55,10 +55,4 @@ Hiding a character can also result in triggering the [**ActivateInput**](activat
 
 
  
-
- 
-
-
-
-
 

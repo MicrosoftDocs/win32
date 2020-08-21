@@ -28,7 +28,7 @@ Interrupts the animation for the specified character.
 
 | Part      | Description                                                                  |
 |-----------|------------------------------------------------------------------------------|
-| *Request* | A [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object for a particular animation call. |
+| *Request* | A [**Request**](/windows/desktop/lwef/the-request-object) object for a particular animation call. |
 
 
 
@@ -78,7 +78,7 @@ To specify the request parameter, you must create a variable and assign the anim
 
 You cannot interrupt the animation of the same character you specify in this method because the server queues the **Interrupt** method in that character's animation queue. Therefore, you can only use **Interrupt** to halt the animation of another character you have loaded.
 
-If you declare an object reference and set it to this method, it returns a [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object.
+If you declare an object reference and set it to this method, it returns a [**Request**](/windows/desktop/lwef/the-request-object) object.
 
 > [!Note]  
 > **Interrupt** does not flush the character's queue; it halts the existing animation and moves on to the next animation in the character's queue. To halt and flush a character's queue, use the [**Stop**](stop-method.md) method.
@@ -93,7 +93,3 @@ If you declare an object reference and set it to this method, it returns a [**Re
  
 
  
-
-
-
-

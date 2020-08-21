@@ -8,7 +8,7 @@ ms.topic: reference
 
 # GraphicsPath.AddPolygon methods
 
-This topic lists the AddPolygon methods of the [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx).
+This topic lists the AddPolygon methods of the [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the AddPolygon methods of the [**GraphicsPath**](https://msdn.m
 
 | Method                                                                                              | Description                                                                                                                                            |
 |:----------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AddPolygon(Point\*,INT)**](https://msdn.microsoft.com/library/ms535593(v=VS.85).aspx)   | The [**GraphicsPath::AddPolygon**](https://msdn.microsoft.com/library/ms535593(v=VS.85).aspx) method adds a polygon to this path.<br/>  |
-| [**AddPolygon(PointF\*,INT)**](https://msdn.microsoft.com/library/ms535594(v=VS.85).aspx) | The [**GraphicsPath::AddPolygon**](https://msdn.microsoft.com/library/ms535594(v=VS.85).aspx) method adds a polygon to this path.<br/> |
+| [**AddPolygon(Point\*,INT)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpolygon(inconstpoint_inint))   | The [**GraphicsPath::AddPolygon**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpolygon(inconstpoint_inint)) method adds a polygon to this path.<br/>  |
+| [**AddPolygon(PointF\*,INT)**](/previous-versions//ms535594(v=vs.85)) | The [**GraphicsPath::AddPolygon**](/previous-versions//ms535594(v=vs.85)) method adds a polygon to this path.<br/> |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the AddPolygon methods of the [**GraphicsPath**](https://msdn.m
  
 
  
-
-
-
-

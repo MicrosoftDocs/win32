@@ -24,8 +24,8 @@ Changes or animates the value of the ScaleZ property of a scale transform. The S
 
 | Method                                                                                                        | Description                                           |
 |:--------------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
-| [**SetScaleZ(float)**](https://msdn.microsoft.com/library/Hh449026(v=VS.85).aspx)                                     | Changes the value of the ScaleZ property.<br/>  |
-| [**SetScaleZ(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449028(v=VS.85).aspx) | Animates the value of the ScaleZ property.<br/> |
+| [**SetScaleZ(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscalez(float))                                     | Changes the value of the ScaleZ property.<br/>  |
+| [**SetScaleZ(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscalez(idcompositionanimation)) | Animates the value of the ScaleZ property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the ScaleZ property of a scale transform. The S
 
 <dl> <dt>
 
-[**IDCompositionScaleTransform3D**](https://msdn.microsoft.com/library/Hh448990(v=VS.85).aspx)
+[**IDCompositionScaleTransform3D**](/windows/win32/api/dcomp/nn-dcomp-idcompositionscaletransform)
 </dt> <dt>
 
 [**IDCompositionScaleTransform3D::SetScaleX**](idcompositionscaletransform3d-setscalex-overloaded.md)
@@ -59,8 +59,3 @@ Changes or animates the value of the ScaleZ property of a scale transform. The S
 �
 
 �
-
-
-
-
-

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Asynchronous Attributes
 
-When a program invokes a procedure in an interface, the procedure may execute synchronously or asynchronously. A synchronous procedure causes the calling program to wait until the procedure returns before the program can proceed. An asynchronous procedure returns immediately without waiting for results. The calling program must later resynchronize with the interface procedure to receive data. For more information, see [Asynchronous RPC](https://docs.microsoft.com/windows/desktop/Rpc/asynchronous-rpc).
+When a program invokes a procedure in an interface, the procedure may execute synchronously or asynchronously. A synchronous procedure causes the calling program to wait until the procedure returns before the program can proceed. An asynchronous procedure returns immediately without waiting for results. The calling program must later resynchronize with the interface procedure to receive data. For more information, see [Asynchronous RPC](/windows/desktop/Rpc/asynchronous-rpc).
 
 You can use the following attributes to provide support for asynchronous remote procedure calls.
 
@@ -30,7 +30,3 @@ You can use the following attributes to provide support for asynchronous remote 
  
 
  
-
-
-
-

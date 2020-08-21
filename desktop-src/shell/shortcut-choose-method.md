@@ -81,7 +81,7 @@ Static verbs are the simplest verbs to implement, but they still provide rich fu
 
  
 
-For more information about [**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
+For more information about [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
 
 ### Preferred Dynamic Verb Methods
 
@@ -93,7 +93,7 @@ The following dynamic verb methods are preferred:
 |-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Static verb (listed in the previous table) + Advanced Query Syntax (AQS)                  | This choice gets dynamic verb visibility.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Windows 7 and later: [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand)                         | This choice enables a common implementation of verbs and explorer commands that are displayed in the command module in Windows Explorer.                                                                                                                                                                                                                                                                                                                                                                                               |
-| Windows 7 and later: [**IExplorerCommandState**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate) + static verb | This choice also gets dynamic verb visibility. It is a hybrid model where a simple in-process handler is used to compute if a given static verb should be displyed. This can be applied to all of the static verb implementation methods to achieve dynamic behavior and minimize the exposure of the in-process logic. [**IExplorerCommandState**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate) has the advantage of running on a background thread, and thereby avoids UI hangs. It is considerably simpler than [**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx). |
+| Windows 7 and later: [**IExplorerCommandState**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate) + static verb | This choice also gets dynamic verb visibility. It is a hybrid model where a simple in-process handler is used to compute if a given static verb should be displyed. This can be applied to all of the static verb implementation methods to achieve dynamic behavior and minimize the exposure of the in-process logic. [**IExplorerCommandState**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate) has the advantage of running on a background thread, and thereby avoids UI hangs. It is considerably simpler than [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu). |
 
 
 
@@ -101,7 +101,7 @@ The following dynamic verb methods are preferred:
 
 ### Discouraged Dynamic Verb Methods
 
-[**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx) is the most powerful but also the most complicated method to implement. It is based on in-process COM objects that run on the thread of the caller, which usually Windows Explorer but can be any application hosting the items. **IContextMenu** supports verb visibility, ordering, and custom drawing. Some of these features have been added to the static verb features, such as an icon to be associated with a command, and [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) to deal with visibility.
+[**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) is the most powerful but also the most complicated method to implement. It is based on in-process COM objects that run on the thread of the caller, which usually Windows Explorer but can be any application hosting the items. **IContextMenu** supports verb visibility, ordering, and custom drawing. Some of these features have been added to the static verb features, such as an icon to be associated with a command, and [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) to deal with visibility.
 
 If you must extend the shortcut menu for a file type by registering a dynamic verb for the file type, then follow the instructions provided in [Customizing a Shortcut Menu Using Dynamic Verbs](shortcut-menu-using-dynamic-verbs.md).
 
@@ -154,7 +154,3 @@ Support for verb invocation methods by operating system are listed in the follow
  
 
  
-
-
-
-

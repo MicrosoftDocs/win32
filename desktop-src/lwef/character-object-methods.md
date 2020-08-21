@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
-The server also exposes methods for each character in a [**Characters**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) collection. The following methods are supported:
+The server also exposes methods for each character in a [**Characters**](/windows/desktop/lwef/the-characters-object) collection. The following methods are supported:
 
 -   [**Activate**](activate-method.md)
 -   [**GestureAt**](gestureat-method.md)
@@ -47,7 +47,7 @@ To use a method, reference the character in the collection. In VBScript and Visu
 
 
 
-To simplify the syntax of your code, you can define an object variable and set it to reference a character object in the [**Characters**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) collection; then you can use your variable to reference methods or properties of the character. The following example demonstrates how you can do this using the Visual Basic Set statement:
+To simplify the syntax of your code, you can define an object variable and set it to reference a character object in the [**Characters**](/windows/desktop/lwef/the-characters-object) collection; then you can use your variable to reference methods or properties of the character. The following example demonstrates how you can do this using the Visual Basic Set statement:
 
 
 ```
@@ -76,7 +76,7 @@ To simplify the syntax of your code, you can define an object variable and set i
 
 
 
-In Visual Basic 5.0, you can also create your reference by declaring your variable as a [**Character**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object)object:
+In Visual Basic 5.0, you can also create your reference by declaring your variable as a [**Character**](/windows/desktop/lwef/the-characters-object)object:
 
 
 ```
@@ -131,7 +131,7 @@ In VBScript, you cannot declare a reference as a particular type. However, you c
 
 
 
-Some programming languages do not support collections. However, you can access a [**Character**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) object's methods with the [**Character**](character-method.md) method:
+Some programming languages do not support collections. However, you can access a [**Character**](/windows/desktop/lwef/the-characters-object) object's methods with the [**Character**](character-method.md) method:
 
 
 ```
@@ -140,7 +140,7 @@ Some programming languages do not support collections. However, you can access a
 
 
 
-In addition, you can also create a reference to the [**Character**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) object to make your script code easier to follow:
+In addition, you can also create a reference to the [**Character**](/windows/desktop/lwef/the-characters-object) object to make your script code easier to follow:
 
 
 ```
@@ -169,7 +169,3 @@ In addition, you can also create a reference to the [**Character**](https://docs
  
 
  
-
-
-
-

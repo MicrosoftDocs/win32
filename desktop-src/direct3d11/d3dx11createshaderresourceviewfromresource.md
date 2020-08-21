@@ -25,7 +25,7 @@ ms.date: 05/31/2018
  
 
 > [!Note]  
-> Instead of using this function, we recommend that you use [resource functions](https://docs.microsoft.com/windows/desktop/menurc/resources-functions), then these:
+> Instead of using this function, we recommend that you use [resource functions](/windows/desktop/menurc/resources-functions), then these:
 >
 > -   [DirectXTK](https://github.com/Microsoft/DirectXTK) library (runtime), **CreateXXXTextureFromMemory** (where XXX is DDS or WIC)
 > -   [DirectXTex](https://github.com/Microsoft/DirectXTex) library (tools), **LoadFromXXXMemory** (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games) then **CreateShaderResourceView**
@@ -67,16 +67,16 @@ A pointer to the device (see [**ID3D11Device**](/windows/desktop/api/D3D11/nn-d3
 *hSrcModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**HMODULE**](/windows/desktop/WinProg/windows-data-types)**
 
-Handle to the resource module containing the shader-resource view. HMODULE can be obtained with [GetModuleHandle Function](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea).
+Handle to the resource module containing the shader-resource view. HMODULE can be obtained with [GetModuleHandle Function](/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea).
 
 </dd> <dt>
 
 *pSrcResource* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCTSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 Name of the shader resource view in hSrcModule. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -143,10 +143,4 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

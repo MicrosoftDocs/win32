@@ -84,7 +84,7 @@ public static void SerializeObjectToColumn(
 <!-- end list -->
 
   - value  
-    Type: [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+    Type: [System.Object](/dotnet/api/system.object)  
     
     The object to write. The object must be serializable.
 
@@ -97,4 +97,3 @@ public static void SerializeObjectToColumn(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

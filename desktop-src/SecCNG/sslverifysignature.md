@@ -17,7 +17,7 @@ api_location:
 
 # SslVerifySignature function
 
-The **SslVerifySignature** function verifies the specified signature by using the supplied [*hash*](https://docs.microsoft.com/windows/desktop/SecGloss/h-gly) and the [*public key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly).
+The **SslVerifySignature** function verifies the specified signature by using the supplied [*hash*](/windows/desktop/SecGloss/h-gly) and the [*public key*](/windows/desktop/SecGloss/p-gly).
 
 ## Syntax
 
@@ -43,7 +43,7 @@ SECURITY_STATUS WINAPI SslVerifySignature(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle to the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
+The handle to the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
 
 </dd> <dt>
 
@@ -111,7 +111,7 @@ Possible return codes include, but are not limited to, the following.
 
 The **SslVerifySignature** function is not currently called by Windows. This function is a required part of the SSL Provider interface and should be fully implemented to ensure forward compatibility.
 
-Current implementations of the server side of the [*Transport Layer Security protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/t-gly) (TLS) connection call the [**NCryptVerifySignature**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptverifysignature) function during the client authentication to process the certificate verify message.
+Current implementations of the server side of the [*Transport Layer Security protocol*](/windows/desktop/SecGloss/t-gly) (TLS) connection call the [**NCryptVerifySignature**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptverifysignature) function during the client authentication to process the certificate verify message.
 
 ## Requirements
 
@@ -127,9 +127,4 @@ Current implementations of the server side of the [*Transport Layer Security pro
 
 
  
-
- 
-
-
-
 

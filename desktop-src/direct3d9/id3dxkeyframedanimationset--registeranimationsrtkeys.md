@@ -45,7 +45,7 @@ HRESULT RegisterAnimationSRTKeys(
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to the animation name.
 
@@ -54,7 +54,7 @@ Pointer to the animation name.
 *NumScaleKeys* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of scale keys.
 
@@ -63,7 +63,7 @@ Number of scale keys.
 *NumRotationKeys* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of rotation keys.
 
@@ -72,7 +72,7 @@ Number of rotation keys.
 *NumTranslationKeys* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of translation keys.
 
@@ -108,7 +108,7 @@ Address of a pointer to a user-allocated array of [**D3DXKEY\_VECTOR3**](d3dxkey
 *pAnimationIndex* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Returns the animation index.
 
@@ -150,7 +150,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
  
 
  
-
-
-
-

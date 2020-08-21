@@ -17,22 +17,22 @@ ms.date: 05/31/2018
 
 The Text Services Framework includes the following functions.
 
--   [**EnumEnabledLayoutOrTip**](https://docs.microsoft.com/windows/desktop/TSF/enumenabledlayoutortip)
--   [**EnumLayoutOrTipForSetup**](https://docs.microsoft.com/windows/desktop/TSF/enumlayoutortipforsetup)
--   [**InstallLayoutOrTip**](https://docs.microsoft.com/windows/desktop/TSF/installlayoutortip)
--   [**InstallLayoutOrTipUserReg**](https://docs.microsoft.com/windows/desktop/TSF/installlayoutortipuserreg)
--   [**InitLocalMsCtfMonitor**](https://docs.microsoft.com/windows/desktop/api/msctfmonitorapi/nf-msctfmonitorapi-initlocalmsctfmonitor)
--   [**MsimtfIsWindowFiltered**](https://docs.microsoft.com/windows/desktop/TSF/msimtfiswindowfiltered)
--   [**QueryLayoutOrTipString**](https://docs.microsoft.com/windows/desktop/TSF/querylayoutortipstring)
--   [**QueryLayoutOrTipStringUserReg**](https://docs.microsoft.com/windows/desktop/TSF/querylayoutortipstringuserreg)
--   [**SaveDefaultUserInputSettings**](https://docs.microsoft.com/windows/desktop/TSF/savedefaultuserinputsettings)
--   [**SaveSystemAcctInputSettings**](https://docs.microsoft.com/windows/desktop/TSF/savesystemacctinputsettings)
--   [**SetDefaultLayoutOrTip**](https://docs.microsoft.com/windows/desktop/TSF/setdefaultlayoutortip)
--   [**SetDefaultLayoutOrTipUserReg**](https://docs.microsoft.com/windows/desktop/TSF/setdefaultlayoutortipuserreg)
--   [**SetInputScope**](https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscope)
--   [**SetInputScopes**](https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscopes)
--   [**SetInputScopes2**](https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscopes2)
--   [**SetInputScopeXML**](https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscopexml)
+-   [**EnumEnabledLayoutOrTip**](/windows/desktop/TSF/enumenabledlayoutortip)
+-   [**EnumLayoutOrTipForSetup**](/windows/desktop/TSF/enumlayoutortipforsetup)
+-   [**InstallLayoutOrTip**](/windows/desktop/TSF/installlayoutortip)
+-   [**InstallLayoutOrTipUserReg**](/windows/desktop/TSF/installlayoutortipuserreg)
+-   [**InitLocalMsCtfMonitor**](/windows/desktop/api/msctfmonitorapi/nf-msctfmonitorapi-initlocalmsctfmonitor)
+-   [**MsimtfIsWindowFiltered**](/windows/desktop/TSF/msimtfiswindowfiltered)
+-   [**QueryLayoutOrTipString**](/windows/desktop/TSF/querylayoutortipstring)
+-   [**QueryLayoutOrTipStringUserReg**](/windows/desktop/TSF/querylayoutortipstringuserreg)
+-   [**SaveDefaultUserInputSettings**](/windows/desktop/TSF/savedefaultuserinputsettings)
+-   [**SaveSystemAcctInputSettings**](/windows/desktop/TSF/savesystemacctinputsettings)
+-   [**SetDefaultLayoutOrTip**](/windows/desktop/TSF/setdefaultlayoutortip)
+-   [**SetDefaultLayoutOrTipUserReg**](/windows/desktop/TSF/setdefaultlayoutortipuserreg)
+-   [**SetInputScope**](/windows/desktop/api/inputscope/nf-inputscope-setinputscope)
+-   [**SetInputScopes**](/windows/desktop/api/inputscope/nf-inputscope-setinputscopes)
+-   [**SetInputScopes2**](/windows/desktop/api/inputscope/nf-inputscope-setinputscopes2)
+-   [**SetInputScopeXML**](/windows/desktop/api/inputscope/nf-inputscope-setinputscopexml)
 -   [**TF\_CreateCategoryMgr**](/windows/desktop/api/Msctf/nf-msctf-tf_createcategorymgr)
 -   [**TF\_CreateDisplayAttributeMgr**](/windows/desktop/api/Msctf/nf-msctf-tf_createdisplayattributemgr)
 -   [**TF\_CreateInputProcessorProfiles**](/windows/desktop/api/Msctf/nf-msctf-tf_createinputprocessorprofiles)
@@ -40,13 +40,9 @@ The Text Services Framework includes the following functions.
 -   [**TF\_CreateLangBarMgr**](/windows/desktop/api/Msctf/nf-msctf-tf_createlangbarmgr)
 -   [**TF\_CreateThreadMgr**](/windows/desktop/api/Msctf/nf-msctf-tf_createthreadmgr)
 -   [**TF\_GetThreadMgr**](/windows/desktop/api/Msctf/nf-msctf-tf_getthreadmgr)
--   [**TF\_InvalidAssemblyListCacheIfExist**](https://docs.microsoft.com/windows/desktop/TSF/tf-invalidassemblylistcacheifexist)
--   [**UninitLocalMsCtfMonitor**](https://docs.microsoft.com/windows/desktop/api/msctfmonitorapi/nf-msctfmonitorapi-uninitlocalmsctfmonitor)
+-   [**TF\_InvalidAssemblyListCacheIfExist**](/windows/desktop/TSF/tf-invalidassemblylistcacheifexist)
+-   [**UninitLocalMsCtfMonitor**](/windows/desktop/api/msctfmonitorapi/nf-msctfmonitorapi-uninitlocalmsctfmonitor)
 
  
 
  
-
-
-
-

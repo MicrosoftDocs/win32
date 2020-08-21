@@ -47,7 +47,7 @@ HRESULT D3DXLoadMeshFromXResource(
 *Module* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](../winprog/windows-data-types.md)**
 
 Handle to the module where the resource is located, or **NULL** for the module associated with the image the operating system used to create the current process. See remarks.
 
@@ -56,7 +56,7 @@ Handle to the module where the resource is located, or **NULL** for the module a
 *Name* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to a string that specifies the resource to create the mesh from. See remarks.
 
@@ -65,7 +65,7 @@ Pointer to a string that specifies the resource to create the mesh from. See rem
 *Type* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to a string that specifies the resource type. See remarks.
 
@@ -74,18 +74,18 @@ Pointer to a string that specifies the resource type. See remarks.
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Combination of one or more flags from the [**D3DXMESH**](https://msdn.microsoft.com/library/Bb205370(v=VS.85).aspx) enumeration that specify creation options for the mesh.
+Combination of one or more flags from the [**D3DXMESH**](./d3dxmesh.md) enumeration that specify creation options for the mesh.
 
 </dd> <dt>
 
 *pD3DDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, the device object associated with the mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, the device object associated with the mesh.
 
 </dd> <dt>
 
@@ -119,7 +119,7 @@ Pointer to a buffer containing an array of effect instances, one per attribute g
 *pNumMaterials* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to the number of [**D3DXMATERIAL**](d3dxmaterial.md) structures in the *ppMaterials* array, when the method returns.
 
@@ -142,7 +142,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 ## Remarks
 
-See [**FindResource**](https://msdn.microsoft.com/library/ms648042(v=VS.85).aspx) to find out more about the Module, Name and Type parameters.
+See [**FindResource**](/windows/win32/api/winbase/nf-winbase-findresourcea) to find out more about the Module, Name and Type parameters.
 
 All the meshes in the file will be collapsed into one output mesh. If the file contains a frame hierarchy, all the transformations will be applied to the mesh.
 
@@ -177,7 +177,3 @@ The default texture name is also filled in, but is handled differently. The name
  
 
  
-
-
-
-

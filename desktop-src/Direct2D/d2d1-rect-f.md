@@ -25,7 +25,7 @@ typedef D2D_RECT_F D2D1_RECT_F;
 
 ## Examples
 
-The following example uses an [**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/Dd371461(v=VS.85).aspx) to draw and fill several rectangles. This example produces output as shown in the following illustration.
+The following example uses an [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) to draw and fill several rectangles. This example produces output as shown in the following illustration.
 
 ![illustration of two rectangles on a grid background](images/drawrectangleexample-small.png)
 
@@ -137,10 +137,4 @@ For a related tutorial, see [Creating a Simple Direct2D Application](direct2d-qu
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -21,7 +21,7 @@ Manages the application's side of the Text Input Panel auto complete integration
 
 ## Members
 
-The **ITipAutocompleteProvider** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITipAutocompleteProvider** also has these types of members:
+The **ITipAutocompleteProvider** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITipAutocompleteProvider** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -64,9 +64,4 @@ The **ITipAutocompleteProvider** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
 

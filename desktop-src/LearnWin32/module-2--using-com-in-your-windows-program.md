@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Module 2. Using COM in Your Windows-Based Program
 
-[Module 1](your-first-windows-program.md) of this series showed how to create a window and respond to window messages such as [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) and [**WM\_CLOSE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-close). Module 2 introduces the Component Object Model (COM).
+[Module 1](your-first-windows-program.md) of this series showed how to create a window and respond to window messages such as [**WM\_PAINT**](/windows/desktop/gdi/wm-paint) and [**WM\_CLOSE**](/windows/desktop/winmsg/wm-close). Module 2 introduces the Component Object Model (COM).
 
 COM is a specification for creating reusable software components. Many of the features that you will use in a modern Windows-based program rely on COM, such as the following:
 

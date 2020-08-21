@@ -18,9 +18,9 @@ In WMI, a class is an object that describes some aspect of an enterprise, such a
 
 ## Base Class
 
-A base class represents some general concept. For example, the [**CIM\_CDROMDrive**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-cdromdrive) class represents all types of CD-ROM drives in WMI, and contains general properties that describe all kinds of CD-ROM drives. For more information, see [Creating a Base Class](creating-a-base-class.md).
+A base class represents some general concept. For example, the [**CIM\_CDROMDrive**](/windows/desktop/CIMWin32Prov/cim-cdromdrive) class represents all types of CD-ROM drives in WMI, and contains general properties that describe all kinds of CD-ROM drives. For more information, see [Creating a Base Class](creating-a-base-class.md).
 
-A derived class inherits properties and methods from another class. A derived class usually represents a specific case of a base class. For example, the [**Win32\_CDROMDrive**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-cdromdrive) class represents a CD-ROM drive on a Windows system. The **Win32\_CDROMDrive** class is based on and inherits many of properties from [**CIM\_CDROMDrive**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-cdromdrive). However, **Win32\_CDROMDrive**, like other derived classes, can have additional properties that make the derived class unique. For more information, see [Creating a Derived Class](creating-a-derived-class.md).
+A derived class inherits properties and methods from another class. A derived class usually represents a specific case of a base class. For example, the [**Win32\_CDROMDrive**](/windows/desktop/CIMWin32Prov/win32-cdromdrive) class represents a CD-ROM drive on a Windows system. The **Win32\_CDROMDrive** class is based on and inherits many of properties from [**CIM\_CDROMDrive**](/windows/desktop/CIMWin32Prov/cim-cdromdrive). However, **Win32\_CDROMDrive**, like other derived classes, can have additional properties that make the derived class unique. For more information, see [Creating a Derived Class](creating-a-derived-class.md).
 
 ## Properties and Methods
 
@@ -40,6 +40,3 @@ Each class must have at least one key property. While a class may have multiple 
  
 
  
-
-
-

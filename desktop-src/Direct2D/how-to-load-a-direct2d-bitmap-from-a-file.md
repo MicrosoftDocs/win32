@@ -8,9 +8,9 @@ ms.date: 03/09/2019
 
 # How to Load a Bitmap from a File
 
-Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bitmap from a file, first use WIC objects to load the image and to convert it to a Direct2D-compatible format, then use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85).aspx).
+Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bitmap from a file, first use WIC objects to load the image and to convert it to a Direct2D-compatible format, then use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap).
 
-1.  Create an [**IWICBitmapDecoder**](https://msdn.microsoft.com/library/Ee690086(v=VS.85).aspx) by using the [**IWICImagingFactory::CreateDecoderFromFileName**](https://msdn.microsoft.com/library/Ee690307(v=VS.85).aspx) method.
+1.  Create an [**IWICBitmapDecoder**](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapdecoder) by using the [**IWICImagingFactory::CreateDecoderFromFileName**](/windows/win32/api/wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilename) method.
 
     ```C++
     HRESULT DemoApp::LoadBitmapFromFile(
@@ -40,7 +40,7 @@ Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bit
 
     
 
-2.  Retrieve a frame from the image and store the frame in an [**IWICBitmapFrameDecode**](https://msdn.microsoft.com/library/Ee690134(v=VS.85).aspx) object.
+2.  Retrieve a frame from the image and store the frame in an [**IWICBitmapFrameDecode**](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapframedecode) object.
 
     ```C++
         if (SUCCEEDED(hr))
@@ -52,7 +52,7 @@ Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bit
 
     
 
-3.  The bitmap must be converted to a format that Direct2D can use, so convert the image's pixel format to 32bppPBGRA. (For a list of supported formats, see [Pixel Formats and Alpha Modes](supported-pixel-formats-and-alpha-modes.md).). Call the [**IWICImagingFactory::CreateFormatConverter**](https://msdn.microsoft.com/library/Ee690317(v=VS.85).aspx) method to create an [**IWICFormatConverter**](https://msdn.microsoft.com/library/Ee690274(v=VS.85).aspx) object, then call the **IWICFormatConverter** object's [**Initialize**](https://msdn.microsoft.com/library/Ee690279(v=VS.85).aspx) method to perform the conversion.
+3.  The bitmap must be converted to a format that Direct2D can use, so convert the image's pixel format to 32bppPBGRA. (For a list of supported formats, see [Pixel Formats and Alpha Modes](supported-pixel-formats-and-alpha-modes.md).). Call the [**IWICImagingFactory::CreateFormatConverter**](/windows/win32/api/wincodec/nf-wincodec-iwicimagingfactory-createformatconverter) method to create an [**IWICFormatConverter**](/windows/win32/api/wincodec/nn-wincodec-iwicformatconverter) object, then call the **IWICFormatConverter** object's [**Initialize**](/windows/win32/api/wincodec/nf-wincodec-iwicformatconverter-initialize) method to perform the conversion.
     ```C++
         if (SUCCEEDED(hr))
         {
@@ -78,7 +78,7 @@ Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bit
 
     
 
-4.  Call the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85).aspx) object that can be drawn by a render target and used with other Direct2D objects.
+4.  Call the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) object that can be drawn by a render target and used with other Direct2D objects.
     ```C++
         if (SUCCEEDED(hr))
         {
@@ -109,7 +109,7 @@ Some code has been omitted from this example.
 
 <dl> <dt>
 
-[**ID2D1Bitmap**](https://msdn.microsoft.com/library/Dd371109(v=VS.85).aspx)
+[**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap)
 </dt> <dt>
 
 [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md)
@@ -121,7 +121,3 @@ Some code has been omitted from this example.
  
 
  
-
-
-
-

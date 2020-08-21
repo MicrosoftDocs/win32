@@ -38,7 +38,7 @@ The clipboard formats defined by the system are called *standard clipboard forma
 
 Many applications work with data that cannot be translated into a standard clipboard format without loss of information. These applications can create their own clipboard formats. A clipboard format that is defined by an application, is called a [registered clipboard format](#registered-clipboard-formats). For example, if a word-processing application copied formatted text to the clipboard using a standard text format, the formatting information would be lost. The solution would be to register a new clipboard format, such as Rich Text Format (RTF).
 
-To register a new clipboard format, use the [**RegisterClipboardFormat**](/windows/desktop/api/Winuser/nf-winuser-registerclipboardformata) function. This function takes the name of the format and returns and unsigned integer value that represents the registered clipboard format. To retrieve the name of the registered clipboard format, pass the unsigned integer value to the [**GetClipboardFormatName**](/windows/desktop/api/Winuser/nf-winuser-getclipboardformatnamea) function.
+To register a new clipboard format, use the [**RegisterClipboardFormat**](/windows/desktop/api/Winuser/nf-winuser-registerclipboardformata) function. This function takes the name of the format and returns an unsigned integer value that represents the registered clipboard format. To retrieve the name of the registered clipboard format, pass the unsigned integer value to the [**GetClipboardFormatName**](/windows/desktop/api/Winuser/nf-winuser-getclipboardformatnamea) function.
 
 If more than one application registers a clipboard format with exactly the same name, the clipboard format is registered only once. Both calls to the [**RegisterClipboardFormat**](/windows/desktop/api/Winuser/nf-winuser-registerclipboardformata) function return the same value. In this way, two different applications can share data by using a registered clipboard format.
 
@@ -50,7 +50,7 @@ Data handles associated with private clipboard formats are not automatically fre
 
 For more information about the [**WM\_DESTROYCLIPBOARD**](wm-destroyclipboard.md) message, see [Clipboard Ownership](clipboard-operations.md).
 
-An application can place data handles on the clipboard by defining a private format in the range **CF\_GDIOBJFIRST** through **CF\_GDIOBJLAST**. When using values in this range, the data handle is not a handle to a Windows Graphics Device Interface (GDI) object, but is a handle allocated by the [**GlobalAlloc**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc) function with the GMEM\_MOVEABLE flag. When the clipboard is emptied the system automatically deletes the object using the [**GlobalFree**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree) function.
+An application can place data handles on the clipboard by defining a private format in the range **CF\_GDIOBJFIRST** through **CF\_GDIOBJLAST**. When using values in this range, the data handle is not a handle to a Windows Graphics Device Interface (GDI) object, but is a handle allocated by the [**GlobalAlloc**](/windows/desktop/api/winbase/nf-winbase-globalalloc) function with the GMEM\_MOVEABLE flag. When the clipboard is emptied the system automatically deletes the object using the [**GlobalFree**](/windows/desktop/api/winbase/nf-winbase-globalfree) function.
 
 ## Multiple Clipboard Formats
 
@@ -97,20 +97,35 @@ If the system provides an automatic type conversion for a particular clipboard f
 
 When copying bitmaps, it is best to place the **CF\_DIB** or **CF\_DIBV5** format on the clipboard. This is because the colors in a device-dependent bitmap (**CF\_BITMAP**) are relative to the system palette, which may change before the bitmap is pasted. If the **CF\_DIB** or **CF\_DIBV5** format is on the clipboard and a window requests the **CF\_BITMAP** format, the system renders the device-independent bitmap (DIB) using the current palette at that time.
 
-If you place the **CF\_BITMAP** format on the clipboard (and not **CF\_DIB**), the system renders the **CF\_DIB** or **CF\_DIBV5** clipboard format as soon as the clipboard is closed. This ensures that the correct palette is used to generate the DIB. If you place the **CF\_DIBV5** format with the bitmap color space information in the clipboard, the system will convert the bitmap bits from the bitmap color space to the sRGB color space when **CF\_DIB** or **CF\_DIBV5** is requested. If **CF\_DIBV5** is requested when there is no color space information in the clipboard, the system returns sRGB color space information in the [**BITMAPV5HEADER**](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapv5header) structure. Conversions between other clipboard formats occur upon demand.
+If you place the **CF\_BITMAP** format on the clipboard (and not **CF\_DIB**), the system renders the **CF\_DIB** or **CF\_DIBV5** clipboard format as soon as the clipboard is closed. This ensures that the correct palette is used to generate the DIB. If you place the **CF\_DIBV5** format with the bitmap color space information in the clipboard, the system will convert the bitmap bits from the bitmap color space to the sRGB color space when **CF\_DIB** or **CF\_DIBV5** is requested. If **CF\_DIBV5** is requested when there is no color space information in the clipboard, the system returns sRGB color space information in the [**BITMAPV5HEADER**](/windows/desktop/api/wingdi/ns-wingdi-bitmapv5header) structure. Conversions between other clipboard formats occur upon demand.
 
-If the clipboard contains data in the **CF\_PALETTE** format, the application should use the [**SelectPalette**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectpalette) and [**RealizePalette**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette) functions to realize any other data in the clipboard against that logical palette.
+If the clipboard contains data in the **CF\_PALETTE** format, the application should use the [**SelectPalette**](/windows/desktop/api/wingdi/nf-wingdi-selectpalette) and [**RealizePalette**](/windows/desktop/api/wingdi/nf-wingdi-realizepalette) functions to realize any other data in the clipboard against that logical palette.
 
 There are two clipboard formats for metafiles: **CF\_ENHMETAFILE** and **CF\_METAFILEPICT**. Specify **CF\_ENHMETAFILE** for enhanced metafiles and **CF\_METAFILEPICT** for Windows metafiles.
- 
+
 ## Cloud Clipboard and Clipboard History Formats
 
-Certain formats must be invoked to exclude clipboard content by being processed and stored in the Cloud Clipboard content or Clipboard History content. If the clipboard contains the format  **ExcludeClipboardContentFromMonitorProcessing**, the ClipboardMonitor will ignore the content. The ClipboardMonitor is an internal component processing content to send the the Cloud Clipboard and saved to Clipboard History. For example, any copied data using this format, will not be recorded in Clipboard History. Use the **RegisterClipboardFormat** function to obtain the value of the current content's format. 
+Some versions of Windows include [Cloud Clipboard](/windows/whats-new/whats-new-windows-10-version-1809#cloud-clipboard),
+which keeps a history of recent clipboard data items and can synchronize it between the user's devices.
+If you don't want the data your application places on the clipboard to be included
+in the clipboard history or synchronized with other devices, your application can control
+this behavior by placing data in certain [registered clipboard formats](#registered-clipboard-formats)
+whose names are known to the Windows system:
 
-To stop content from being included in Clipboard History, set the registered format as **CanIncludeInClipboardHistory** with a DWORD value of zero. (A DWORD value of one will include the content). 
+- **ExcludeClipboardContentFromMonitorProcessing** : Place any data on the clipboard in this format
+  to prevent all clipboard formats being included in the clipboard history or synchronized to the
+  user's other devices.
+- **CanIncludeInClipboardHistory** : Place a serialized **[DWORD](../WinProg/windows-data-types.md)**
+  value of zero on the clipboard in this format to prevent all clipboard formats being included
+  in the clipboard history, or place a value of one instead to explicitly request that
+  the clipboard item be included in the clipboard history. This does not affect synchronization
+  to the user's other devices.
+- **CanUploadToCloudClipboard** : Place a serialized **[DWORD](../WinProg/windows-data-types.md)**
+  value of zero on the clipboard in this format to prevent all clipboard formats being synchronized
+  to the user's other devices, or place a value of one instead to explicitly request that
+  the clipboard item be synchronized to other devices. This does not affect the local device's
+  clipboard history.
 
-To stop content from being uploaded to Cloud Clipboard, set the registered format to **CanUploadToCloudClipboard** with a DWORD value of zero. (A DWORD value of one will upload the content). 
-
-
-
-
+As with other registered clipboard formats, you will need to use the [**RegisterClipboardFormat**](
+/windows/win32/api/winuser/nf-winuser-registerclipboardformata) function to obtain an unsigned
+integer value that identifies each of the above 3 formats.

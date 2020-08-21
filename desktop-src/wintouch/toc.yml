@@ -87,11 +87,11 @@
         href: boundary-feedback-functions.md
         items: 
         - name: "BeginPanningFeedback"
-          href: https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginpanningfeedback
+          href: /windows/desktop/api/uxtheme/nf-uxtheme-beginpanningfeedback
         - name: "EndPanningFeedback"
-          href: https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-endpanningfeedback
+          href: /windows/desktop/api/uxtheme/nf-uxtheme-endpanningfeedback
         - name: "UpdatePanningFeedback"
-          href: https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-updatepanningfeedback
+          href: /windows/desktop/api/uxtheme/nf-uxtheme-updatepanningfeedback
     - name: "Inertia and Manipulation"
       href: inertia-and-manipulation-reference.md
       items: 

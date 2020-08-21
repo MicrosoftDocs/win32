@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Public Key Infrastructure
 
-Public-key cryptography (also called asymmetric-key cryptography) uses a key pair to encrypt and decrypt content. The key pair consists of one public and one private key that are mathematically related. An individual who intends to communicate securely with others can distribute the [*public key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) but must keep the [*private key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) secret. Content encrypted by using one of the keys can be decrypted by using the other. Assume, for example, that Bob wants to send a secure email message to Alice. This can be accomplished in the following manner:
+Public-key cryptography (also called asymmetric-key cryptography) uses a key pair to encrypt and decrypt content. The key pair consists of one public and one private key that are mathematically related. An individual who intends to communicate securely with others can distribute the [*public key*](/windows/desktop/SecGloss/p-gly) but must keep the [*private key*](/windows/desktop/SecGloss/p-gly) secret. Content encrypted by using one of the keys can be decrypted by using the other. Assume, for example, that Bob wants to send a secure email message to Alice. This can be accomplished in the following manner:
 
 1.  Both Bob and Alice have their own key pairs. They have kept their private keys securely to themselves and have sent their public keys directly to each other.
 2.  Bob uses Alice's public key to encrypt the message and sends it to her.
@@ -16,7 +16,7 @@ Public-key cryptography (also called asymmetric-key cryptography) uses a key pai
 
 This simplified example highlights at least one obvious concern Bob must have about the public key he used to encrypt the message. That is, he cannot know with certainty that the key he used for encryption actually belonged to Alice. It is possible that another party monitoring the communication channel between Bob and Alice substituted a different key.
 
-The public key infrastructure concept has evolved to help address this problem and others. A public key infrastructure (PKI) consists of software and hardware elements that a trusted third party can use to establish the integrity and ownership of a public key. The trusted party, called a [*certification authority*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) (CA), typically accomplishes this by issuing signed (encrypted) binary certificates that affirm the identity of the certificate subject and bind that identity to the public key contained in the certificate. The CA signs the certificate by using its private key. It issues the corresponding public key to all interested parties in a self-signed CA certificate. When a CA is used, the preceding example can be modified in the following manner:
+The public key infrastructure concept has evolved to help address this problem and others. A public key infrastructure (PKI) consists of software and hardware elements that a trusted third party can use to establish the integrity and ownership of a public key. The trusted party, called a [*certification authority*](/windows/desktop/SecGloss/c-gly) (CA), typically accomplishes this by issuing signed (encrypted) binary certificates that affirm the identity of the certificate subject and bind that identity to the public key contained in the certificate. The CA signs the certificate by using its private key. It issues the corresponding public key to all interested parties in a self-signed CA certificate. When a CA is used, the preceding example can be modified in the following manner:
 
 1.  Assume that the CA has issued a signed digital certificate that contains its public key. The CA self-signs this certificate by using the private key that corresponds to the public key in the certificate.
 2.  Alice and Bob agree to use the CA to verify their identities.
@@ -58,9 +58,4 @@ The following topics discuss the Microsoft public key infrastructure in more det
 </dt> </dl>
 
  
-
- 
-
-
-
 

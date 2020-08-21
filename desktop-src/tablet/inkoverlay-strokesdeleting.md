@@ -28,7 +28,7 @@ void StrokesDeleting(
 *Strokes* \[in\]
 </dt> <dd>
 
-The [InkStrokes](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx) collection deleted when the **StrokesDeleting** event fires.
+The [InkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) collection deleted when the **StrokesDeleting** event fires.
 
 </dd> </dl>
 
@@ -64,9 +64,4 @@ This event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents 
 </dt> </dl>
 
  
-
- 
-
-
-
 

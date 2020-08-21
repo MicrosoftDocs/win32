@@ -39,34 +39,34 @@
           href: platform-work-queue-api.md
           items: 
           - name: "IRtwqAsyncCallback"
-            href: https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasynccallback
+            href: /windows/desktop/api/rtworkq/nn-rtworkq-irtwqasynccallback
             items: 
             - name: "GetParameters method"
-              href: https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasynccallback-getparameters
+              href: /windows/desktop/api/rtworkq/nf-rtworkq-irtwqasynccallback-getparameters
             - name: "Invoke method"
-              href: https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasynccallback-invoke
+              href: /windows/desktop/api/rtworkq/nf-rtworkq-irtwqasynccallback-invoke
           - name: "IRtwqAsyncResult"
-            href: https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasyncresult
+            href: /windows/desktop/api/rtworkq/nn-rtworkq-irtwqasyncresult
             items: 
             - name: "GetState method"
-              href: https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getstate
+              href: /windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getstate
             - name: "GetStatus method"
-              href: https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getstatus
+              href: /windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getstatus
             - name: "SetStatus method"
-              href: https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-setstatus
+              href: /windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-setstatus
             - name: "GetObject method"
-              href: https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getobject
+              href: /windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getobject
             - name: "GetStateNoAddRef method"
-              href: https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getstatenoaddref
+              href: /windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getstatenoaddref
           - name: "IRtwqPlatformEvents"
-            href: https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqplatformevents
+            href: /windows/desktop/api/rtworkq/nn-rtworkq-irtwqplatformevents
             items: 
             - name: "InitializationComplete method"
-              href: https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-initializationcomplete
+              href: /windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-initializationcomplete
             - name: "ShutdownStart method"
-              href: https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-shutdownstart
+              href: /windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-shutdownstart
             - name: "ShutdownComplete method"
-              href: https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-shutdowncomplete
+              href: /windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-shutdowncomplete
           - name: "RTWQ_WORKQUEUE_TYPE"
             href: /windows/desktop/api/RTWorkQ/ne-rtworkq-rtwq_workqueue_type
           - name: "RtwqAddPeriodicCallback"
@@ -243,12 +243,12 @@
       - name: "PROCESSOR_CACHE_TYPE"
         href: /windows/win32/api/WinNT/ne-winnt-processor_cache_type
       - name: "UMS_THREAD_INFO_CLASS"
-        href: https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class
+        href: /windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class
     - name: "Process and Thread Functions"
       href: process-and-thread-functions.md
       items: 
       - name: "AssignProcessToJobObject"
-        href: https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-assignprocesstojobobject
+        href: /windows/desktop/api/jobapi2/nf-jobapi2-assignprocesstojobobject
       - name: "AttachThreadInput"
         href: /windows/desktop/api/Winuser/nf-winuser-attachthreadinput
       - name: "AvQuerySystemResponsiveness"
@@ -276,25 +276,25 @@
       - name: "BindIoCompletionCallback"
         href: /windows/desktop/api/WinBase/nf-winbase-bindiocompletioncallback
       - name: "CallbackMayRunLong"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-callbackmayrunlong
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-callbackmayrunlong
       - name: "CancelThreadpoolIo"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-cancelthreadpoolio
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-cancelthreadpoolio
       - name: "PTP_CLEANUP_GROUP_CANCEL_CALLBACK"
-        href: https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-ptp_cleanup_group_cancel_callback
+        href: /windows/desktop/api/winnt/nc-winnt-ptp_cleanup_group_cancel_callback
       - name: "CloseThreadpool"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpool
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpool
       - name: "CloseThreadpoolCleanupGroup"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolcleanupgroup
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolcleanupgroup
       - name: "CloseThreadpoolCleanupGroupMembers"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolcleanupgroupmembers
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolcleanupgroupmembers
       - name: "CloseThreadpoolIo"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolio
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolio
       - name: "CloseThreadpoolTimer"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpooltimer
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpooltimer
       - name: "CloseThreadpoolWait"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait
       - name: "CloseThreadpoolWork"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwork
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwork
       - name: "ConvertFiberToThread"
         href: /windows/desktop/api/WinBase/nf-winbase-convertfibertothread
       - name: "ConvertThreadToFiber"
@@ -310,31 +310,31 @@
       - name: "CreateJobObject"
         href: /windows/desktop/api/WinBase/nf-winbase-createjobobjecta
       - name: "CreateProcess"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa
       - name: "CreateProcessAsUser"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera
       - name: "CreateProcessWithLogonW"
         href: /windows/desktop/api/WinBase/nf-winbase-createprocesswithlogonw
       - name: "CreateProcessWithTokenW"
         href: /windows/desktop/api/WinBase/nf-winbase-createprocesswithtokenw
       - name: "CreateRemoteThread"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethread
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethread
       - name: "CreateRemoteThreadEx"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethreadex
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethreadex
       - name: "CreateThread"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread
       - name: "CreateThreadpool"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpool
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpool
       - name: "CreateThreadpoolCleanupGroup"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolcleanupgroup
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolcleanupgroup
       - name: "CreateThreadpoolIo"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolio
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolio
       - name: "CreateThreadpoolTimer"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpooltimer
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpooltimer
       - name: "CreateThreadpoolWait"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait
       - name: "CreateThreadpoolWork"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwork
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwork
       - name: "CreateUmsCompletionList"
         href: /windows/desktop/api/WinBase/nf-winbase-createumscompletionlist
       - name: "CreateUmsThreadContext"
@@ -342,7 +342,7 @@
       - name: "DeleteFiber"
         href: /windows/desktop/api/WinBase/nf-winbase-deletefiber
       - name: "DeleteProcThreadAttributeList"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist
       - name: "DeleteUmsCompletionList"
         href: /windows/desktop/api/WinBase/nf-winbase-deleteumscompletionlist
       - name: "DeleteUmsThreadContext"
@@ -352,33 +352,33 @@
       - name: "DestroyThreadpoolEnvironment"
         href: /windows/desktop/api/WinBase/nf-winbase-destroythreadpoolenvironment
       - name: "DisassociateCurrentThreadFromCallback"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-disassociatecurrentthreadfromcallback
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-disassociatecurrentthreadfromcallback
       - name: "EnterUmsSchedulingMode"
         href: /windows/desktop/api/WinBase/nf-winbase-enterumsschedulingmode
       - name: "ExecuteUmsThread"
         href: /windows/desktop/api/WinBase/nf-winbase-executeumsthread
       - name: "ExitProcess"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess
       - name: "ExitThread"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread
       - name: "FiberProc"
-        href: https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pfiber_start_routine
+        href: /windows/desktop/api/winbase/nc-winbase-pfiber_start_routine
       - name: "FlsAlloc"
-        href: https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsalloc
+        href: /windows/desktop/api/fibersapi/nf-fibersapi-flsalloc
       - name: "PFLS_CALLBACK_FUNCTION"
         href: /windows/desktop/api/Winnt/nc-winnt-pfls_callback_function
       - name: "FlsFree"
-        href: https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsfree
+        href: /windows/desktop/api/fibersapi/nf-fibersapi-flsfree
       - name: "FlsGetValue"
-        href: https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue
+        href: /windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue
       - name: "FlsSetValue"
-        href: https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flssetvalue
+        href: /windows/desktop/api/fibersapi/nf-fibersapi-flssetvalue
       - name: "FlushProcessWriteBuffers"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-flushprocesswritebuffers
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-flushprocesswritebuffers
       - name: "FreeEnvironmentStrings"
-        href: https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-freeenvironmentstringsa
+        href: /windows/desktop/api/processenv/nf-processenv-freeenvironmentstringsa
       - name: "FreeLibraryWhenCallbackReturns"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-freelibrarywhencallbackreturns
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-freelibrarywhencallbackreturns
       - name: "FreeMemoryJobObject"
         href: /windows/desktop/api/jobapi2/nf-jobapi2-freememoryjobobject
       - name: "GetActiveProcessorCount"
@@ -390,39 +390,39 @@
       - name: "GetDisplayAutoRotationPreferencesByProcessId"
         href: /windows/desktop/api/WinUser/nf-winuser-getdisplayautorotationpreferencesbyprocessid
       - name: "GetDisplayAutoRotationPreferences"
-        href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdisplayautorotationpreferences
+        href: /windows/desktop/api/winuser/nf-winuser-getdisplayautorotationpreferences
       - name: "GetCommandLine"
-        href: https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-getcommandlinea
+        href: /windows/desktop/api/processenv/nf-processenv-getcommandlinea
       - name: "GetCurrentProcess"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess
       - name: "GetCurrentProcessId"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocessid
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocessid
       - name: "GetCurrentProcessorNumber"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocessornumber
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocessornumber
       - name: "GetCurrentProcessorNumberEx"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocessornumberex
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocessornumberex
       - name: "GetCurrentThread"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthread
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthread
       - name: "GetCurrentThreadId"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadid
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadid
       - name: "GetCurrentThreadStackLimits"
         href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadstacklimits
       - name: "GetCurrentUmsThread"
         href: /windows/desktop/api/WinBase/nf-winbase-getcurrentumsthread
       - name: "GetEnvironmentStrings"
-        href: https://docs.microsoft.com/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
+        href: /windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
       - name: "GetEnvironmentVariable"
         href: /windows/desktop/api/WinBase/nf-winbase-getenvironmentvariable
       - name: "GetExitCodeProcess"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess
       - name: "GetExitCodeThread"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getexitcodethread
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getexitcodethread
       - name: "GetGuiResources"
         href: /windows/desktop/api/Winuser/nf-winuser-getguiresources
       - name: "GetLogicalProcessorInformation"
-        href: https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation
+        href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation
       - name: "GetLogicalProcessorInformationEx"
-        href: https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex
+        href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex
       - name: "GetMaximumProcessorCount"
         href: /windows/desktop/api/WinBase/nf-winbase-getmaximumprocessorcount
       - name: "GetMaximumProcessorGroupCount"
@@ -434,13 +434,13 @@
       - name: "GetNumaAvailableMemoryNodeEx"
         href: /windows/desktop/api/WinBase/nf-winbase-getnumaavailablememorynodeex
       - name: "GetNumaHighestNodeNumber"
-        href: https://docs.microsoft.com/windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumahighestnodenumber
+        href: /windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumahighestnodenumber
       - name: "GetNumaNodeNumberFromHandle"
         href: /windows/desktop/api/WinBase/nf-winbase-getnumanodenumberfromhandle
       - name: "GetNumaNodeProcessorMask"
         href: /windows/desktop/api/WinBase/nf-winbase-getnumanodeprocessormask
       - name: "GetNumaNodeProcessorMaskEx"
-        href: https://docs.microsoft.com/windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumanodeprocessormaskex
+        href: /windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumanodeprocessormaskex
       - name: "GetNumaProcessorNode"
         href: /windows/desktop/api/WinBase/nf-winbase-getnumaprocessornode
       - name: "GetNumaProcessorNodeEx"
@@ -448,41 +448,41 @@
       - name: "GetNumaProximityNode"
         href: /windows/desktop/api/WinBase/nf-winbase-getnumaproximitynode
       - name: "GetNumaProximityNodeEx"
-        href: https://docs.microsoft.com/windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumaproximitynodeex
+        href: /windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumaproximitynodeex
       - name: "GetPriorityClass"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getpriorityclass
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getpriorityclass
       - name: "GetProcessAffinityMask"
         href: /windows/desktop/api/WinBase/nf-winbase-getprocessaffinitymask
       - name: "GetProcessDefaultCpuSets"
         href: getprocessdefaultcpusets.md
       - name: "GetProcessGroupAffinity"
-        href: https://docs.microsoft.com/windows/desktop/api/processtopologyapi/nf-processtopologyapi-getprocessgroupaffinity
+        href: /windows/desktop/api/processtopologyapi/nf-processtopologyapi-getprocessgroupaffinity
       - name: "GetProcessHandleCount"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount
       - name: "GetProcessId"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessid
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessid
       - name: "GetProcessIdOfThread"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessidofthread
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessidofthread
       - name: "GetProcessInformation"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessinformation
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessinformation
       - name: "GetProcessIoCounters"
         href: /windows/desktop/api/WinBase/nf-winbase-getprocessiocounters
       - name: "GetProcessMitigationPolicy"
         href: /windows/desktop/api/Processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy
       - name: "GetProcessPriorityBoost"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesspriorityboost
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesspriorityboost
       - name: "GetProcessShutdownParameters"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessshutdownparameters
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessshutdownparameters
       - name: "GetProcessTimes"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesstimes
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesstimes
       - name: "GetProcessVersion"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessversion
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessversion
       - name: "GetProcessWorkingSetSize"
         href: /windows/desktop/api/WinBase/nf-winbase-getprocessworkingsetsize
       - name: "GetProcessWorkingSetSizeEx"
-        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getprocessworkingsetsizeex
+        href: /windows/desktop/api/memoryapi/nf-memoryapi-getprocessworkingsetsizeex
       - name: "GetProcessorSystemCycleTime"
-        href: https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getprocessorsystemcycletime
+        href: /windows/desktop/api/sysinfoapi/nf-sysinfoapi-getprocessorsystemcycletime
       - name: "GetStartupInfo"
         href: /windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow
       - name: "GetSystemCpuSetInformation"
@@ -490,53 +490,53 @@
       - name: "GetThreadDescription"
         href: /windows/desktop/api/ProcessThreadsApi/nf-processthreadsapi-getthreaddescription
       - name: "GetThreadGroupAffinity"
-        href: https://docs.microsoft.com/windows/desktop/api/processtopologyapi/nf-processtopologyapi-getthreadgroupaffinity
+        href: /windows/desktop/api/processtopologyapi/nf-processtopologyapi-getthreadgroupaffinity
       - name: "GetThreadId"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadid
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadid
       - name: "GetThreadIdealProcessorEx"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadidealprocessorex
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadidealprocessorex
       - name: "GetThreadInformation"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadinformation
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadinformation
       - name: "GetThreadIOPendingFlag"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadiopendingflag
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadiopendingflag
       - name: "GetThreadPriority"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadpriority
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadpriority
       - name: "GetThreadPriorityBoost"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadpriorityboost
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadpriorityboost
       - name: "GetThreadSelectedCpuSets"
         href: getthreadselectedcpusets.md
       - name: "GetThreadTimes"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadtimes
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadtimes
       - name: "GetUmsCompletionListEvent"
         href: /windows/desktop/api/WinBase/nf-winbase-getumscompletionlistevent
       - name: "GetUmsSystemThreadInformation"
         href: /windows/desktop/api/WinBase/nf-winbase-getumssystemthreadinformation
       - name: "InitializeProcThreadAttributeList"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-initializeprocthreadattributelist
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-initializeprocthreadattributelist
       - name: "InitializeThreadpoolEnvironment"
         href: /windows/desktop/api/WinBase/nf-winbase-initializethreadpoolenvironment
       - name: "IoCompletionCallback"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms684124(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/ms684124(v=vs.85)
       - name: "IsImmersiveProcess"
         href: /windows/desktop/api/Winuser/nf-winuser-isimmersiveprocess
       - name: "IsProcessInJob"
-        href: https://docs.microsoft.com/windows/desktop/api/jobapi/nf-jobapi-isprocessinjob
+        href: /windows/desktop/api/jobapi/nf-jobapi-isprocessinjob
       - name: "IsProcessCritical"
         href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocesscritical
       - name: "IsThreadAFiber"
-        href: https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-isthreadafiber
+        href: /windows/desktop/api/fibersapi/nf-fibersapi-isthreadafiber
       - name: "IsThreadpoolTimerSet"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-isthreadpooltimerset
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-isthreadpooltimerset
       - name: "IsWow64Message"
         href: /windows/desktop/api/Winuser/nf-winuser-iswow64message
       - name: "IsWow64Process"
-        href: https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process
+        href: /windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process
       - name: "IsWow64Process2"
         href: /windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process2
       - name: "LeaveCriticalSectionWhenCallbackReturns"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-leavecriticalsectionwhencallbackreturns
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-leavecriticalsectionwhencallbackreturns
       - name: "NeedCurrentDirectoryForExePath"
-        href: https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-needcurrentdirectoryforexepatha
+        href: /windows/desktop/api/processenv/nf-processenv-needcurrentdirectoryforexepatha
       - name: "NtGetCurrentProcessorNumber"
         href: ntgetcurrentprocessornumber.md
       - name: "NtQueryInformationProcess"
@@ -546,85 +546,85 @@
       - name: "OpenJobObject"
         href: /windows/desktop/api/WinBase/nf-winbase-openjobobjecta
       - name: "OpenProcess"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess
       - name: "OpenThread"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread
       - name: "QueryFullProcessImageName"
         href: /windows/desktop/api/WinBase/nf-winbase-queryfullprocessimagenamea
       - name: "QueryIdleProcessorCycleTime"
-        href: https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryidleprocessorcycletime
+        href: /windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryidleprocessorcycletime
       - name: "QueryIdleProcessorCycleTimeEx"
-        href: https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryidleprocessorcycletimeex
+        href: /windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryidleprocessorcycletimeex
       - name: "QueryInformationJobObject"
-        href: https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject
+        href: /windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject
       - name: "QueryIoRateControlInformationJobObject"
         href: /windows/desktop/api/jobapi2/nf-jobapi2-queryioratecontrolinformationjobobject
       - name: "QueryProcessAffinityUpdateMode"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queryprocessaffinityupdatemode
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-queryprocessaffinityupdatemode
       - name: "QueryProcessCycleTime"
-        href: https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryprocesscycletime
+        href: /windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryprocesscycletime
       - name: "QueryProtectedPolicy"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queryprotectedpolicy
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-queryprotectedpolicy
       - name: "QueryThreadCycleTime"
-        href: https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-querythreadcycletime
+        href: /windows/desktop/api/realtimeapiset/nf-realtimeapiset-querythreadcycletime
       - name: "QueryThreadpoolStackInformation"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-querythreadpoolstackinformation
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-querythreadpoolstackinformation
       - name: "QueryUmsThreadInformation"
         href: /windows/desktop/api/WinBase/nf-winbase-queryumsthreadinformation
       - name: "QueueUserWorkItem"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem
+        href: /windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem
       - name: "ReleaseMutexWhenCallbackReturns"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-releasemutexwhencallbackreturns
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-releasemutexwhencallbackreturns
       - name: "ReleaseSemaphoreWhenCallbackReturns"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-releasesemaphorewhencallbackreturns
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-releasesemaphorewhencallbackreturns
       - name: "ResumeThread"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-resumethread
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-resumethread
       - name: "SetDisplayAutoRotationPreferences"
         href: /windows/desktop/api/WinUser/nf-winuser-setdisplayautorotationpreferences
       - name: "SetEnvironmentVariable"
         href: /windows/desktop/api/WinBase/nf-winbase-setenvironmentvariable
       - name: "SetEventWhenCallbackReturns"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-seteventwhencallbackreturns
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-seteventwhencallbackreturns
       - name: "SetInformationJobObject"
-        href: https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject
+        href: /windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject
       - name: "SetIoRateControlInformationJobObject"
         href: /windows/desktop/api/jobapi2/nf-jobapi2-setioratecontrolinformationjobobject
       - name: "SetPriorityClass"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setpriorityclass
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setpriorityclass
       - name: "SetProcessAffinityMask"
         href: /windows/desktop/api/WinBase/nf-winbase-setprocessaffinitymask
       - name: "SetProcessAffinityUpdateMode"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessaffinityupdatemode
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessaffinityupdatemode
       - name: "SetProcessDefaultCpuSets"
         href: setprocessdefaultcpusets.md
       - name: "SetProcessInformation"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation
       - name: "SetProcessMitigationPolicy"
         href: /windows/desktop/api/Processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy
       - name: "SetProcessPriorityBoost"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocesspriorityboost
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocesspriorityboost
       - name: "SetProcessRestrictionExemption"
         href: /windows/desktop/api/Winuser/nf-winuser-setprocessrestrictionexemption
       - name: "SetProcessShutdownParameters"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessshutdownparameters
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessshutdownparameters
       - name: "SetProcessWorkingSetSize"
         href: /windows/desktop/api/WinBase/nf-winbase-setprocessworkingsetsize
       - name: "SetProcessWorkingSetSizeEx"
-        href: https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex
+        href: /windows/desktop/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex
       - name: "SetProtectedPolicy"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprotectedpolicy
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprotectedpolicy
       - name: "SetThreadAffinityMask"
         href: /windows/desktop/api/WinBase/nf-winbase-setthreadaffinitymask
       - name: "SetThreadDescription"
         href: /windows/desktop/api/ProcessThreadsApi/nf-processthreadsapi-setthreaddescription
       - name: "SetThreadGroupAffinity"
-        href: https://docs.microsoft.com/windows/desktop/api/processtopologyapi/nf-processtopologyapi-setthreadgroupaffinity
+        href: /windows/desktop/api/processtopologyapi/nf-processtopologyapi-setthreadgroupaffinity
       - name: "SetThreadIdealProcessor"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessor
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessor
       - name: "SetThreadIdealProcessorEx"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessorex
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessorex
       - name: "SetThreadInformation"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadinformation
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadinformation
       - name: "SetThreadpoolCallbackCleanupGroup"
         href: /windows/desktop/api/WinBase/nf-winbase-setthreadpoolcallbackcleanupgroup
       - name: "SetThreadpoolCallbackLibrary"
@@ -638,63 +638,63 @@
       - name: "SetThreadpoolCallbackRunsLong"
         href: /windows/desktop/api/WinBase/nf-winbase-setthreadpoolcallbackrunslong
       - name: "SetThreadpoolStackInformation"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolstackinformation
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolstackinformation
       - name: "SetThreadpoolThreadMaximum"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolthreadmaximum
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolthreadmaximum
       - name: "SetThreadpoolThreadMinimum"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolthreadminimum
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolthreadminimum
       - name: "SetThreadpoolTimer"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpooltimer
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpooltimer
       - name: "SetThreadpoolTimerEx"
         href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpooltimerex
       - name: "SetThreadpoolWait"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait
       - name: "SetThreadpoolWaitEx"
         href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwaitex
       - name: "SetThreadPriority"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadpriority
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadpriority
       - name: "SetThreadPriorityBoost"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadpriorityboost
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadpriorityboost
       - name: "SetThreadSelectedCpuSets"
         href: setthreadselectedcpusets.md
       - name: "SetThreadStackGuarantee"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadstackguarantee
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadstackguarantee
       - name: "SetUmsThreadInformation"
         href: /windows/desktop/api/WinBase/nf-winbase-setumsthreadinformation
       - name: "SimpleCallback"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686295(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/ms686295(v=vs.85)
       - name: "Sleep"
-        href: https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleep
+        href: /windows/desktop/api/synchapi/nf-synchapi-sleep
       - name: "SleepEx"
-        href: https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleepex
+        href: /windows/desktop/api/synchapi/nf-synchapi-sleepex
       - name: "StartThreadpoolIo"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-startthreadpoolio
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-startthreadpoolio
       - name: "SubmitThreadpoolWork"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-submitthreadpoolwork
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-submitthreadpoolwork
       - name: "SuspendThread"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread
       - name: "SwitchToFiber"
         href: /windows/desktop/api/WinBase/nf-winbase-switchtofiber
       - name: "SwitchToThread"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-switchtothread
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-switchtothread
       - name: "TerminateJobObject"
-        href: https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-terminatejobobject
+        href: /windows/desktop/api/jobapi2/nf-jobapi2-terminatejobobject
       - name: "TerminateProcess"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminateprocess
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminateprocess
       - name: "TerminateThread"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminatethread
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminatethread
       - name: "ThreadProc"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/ms686736(v=vs.85)
       - name: "TimerCallback"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686790(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/ms686790(v=vs.85)
       - name: "TlsAlloc"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc
       - name: "TlsFree"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsfree
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsfree
       - name: "TlsGetValue"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue
       - name: "TlsSetValue"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlssetvalue
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlssetvalue
       - name: "TpInitializeCallbackEnviron"
         href: /windows/desktop/api/winnt/nf-winnt-tpinitializecallbackenviron
       - name: "TpDestroyCallbackEnviron"
@@ -718,31 +718,31 @@
       - name: "TpSetCallbackThreadpool"
         href: /windows/desktop/api/winnt/nf-winnt-tpsetcallbackthreadpool
       - name: "TrySubmitThreadpoolCallback"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-trysubmitthreadpoolcallback
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-trysubmitthreadpoolcallback
       - name: "UmsSchedulerProc"
         href: /windows/desktop/api/WinNT/nc-winnt-rtl_ums_scheduler_entry_point
       - name: "UmsThreadYield"
         href: /windows/desktop/api/WinBase/nf-winbase-umsthreadyield
       - name: "UpdateProcThreadAttribute"
-        href: https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute
       - name: "UserHandleGrantAccess"
         href: /windows/desktop/api/Winuser/nf-winuser-userhandlegrantaccess
       - name: "WaitCallback"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms687017(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/ms687017(v=vs.85)
       - name: "WaitForInputIdle"
         href: /windows/desktop/api/Winuser/nf-winuser-waitforinputidle
       - name: "WaitForThreadpoolIoCallbacks"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpooliocallbacks
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpooliocallbacks
       - name: "WaitForThreadpoolTimerCallbacks"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpooltimercallbacks
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpooltimercallbacks
       - name: "WaitForThreadpoolWaitCallbacks"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpoolwaitcallbacks
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpoolwaitcallbacks
       - name: "WaitForThreadpoolWorkCallbacks"
-        href: https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpoolworkcallbacks
+        href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpoolworkcallbacks
       - name: "WinExec"
         href: /windows/desktop/api/WinBase/nf-winbase-winexec
       - name: "WorkCallback"
-        href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms687396(v=vs.85)
+        href: /previous-versions/windows/desktop/legacy/ms687396(v=vs.85)
       - name: "Wow64SuspendThread"
         href: /windows/desktop/api/WinBase/nf-winbase-wow64suspendthread
       - name: "ZwQueryInformationProcess"
@@ -751,9 +751,9 @@
       href: process-and-thread-macros.md
       items: 
       - name: "GetCurrentFiber"
-        href: https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-getcurrentfiber
+        href: /windows/desktop/api/winnt/nf-winnt-getcurrentfiber
       - name: "GetFiberData"
-        href: https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-getfiberdata
+        href: /windows/desktop/api/winnt/nf-winnt-getfiberdata
     - name: "Process and Thread Structures"
       href: process-and-thread-structures.md
       items: 

@@ -79,7 +79,7 @@ public static Nullable<Guid> RetrieveColumnAsGuid(
 
 #### Return value
 
-Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[Guid](https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN)\>  
+Type: [System.Nullable](/dotnet/api/system.nullable-1)\<[Guid](/dotnet/api/system.guid)\>  
 The data retrieved from the column as a guid. Null if the column is null.  
 
 ## See also
@@ -93,4 +93,3 @@ The data retrieved from the column as a guid. Null if the column is null.
 [RetrieveColumnAsGuid overload](dn334059\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

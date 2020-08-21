@@ -78,7 +78,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Alias of the collection.
@@ -94,7 +94,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The name of the desktop.
@@ -110,7 +110,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The user account domain name.
@@ -126,7 +126,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 The user account name.
@@ -148,10 +148,4 @@ The user account name.
 
 
  
-
- 
-
-
-
-
 

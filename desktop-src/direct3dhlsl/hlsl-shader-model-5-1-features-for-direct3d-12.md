@@ -17,7 +17,7 @@ This section describes the features of Shader Model 5.1 as they apply in practic
 | Topic                                                                         | Description                                                                                                                                              |
 |-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Bytecode changes in SM5.1](bytecode-changes-in-sm5-1.md)<br/>         | SM5.1 changes how resource registers are declared and referenced in instructions. <br/>                                                            |
-| [HLSL Specified Root Signature](hlsl-specified-root-signature.md)<br/> | A [Root Signature](https://docs.microsoft.com/windows/desktop/direct3d12/root-signatures) (a key table of resources and other elements for D3D12) can be specified in HLSL as a string. <br/> |
+| [HLSL Specified Root Signature](hlsl-specified-root-signature.md)<br/> | A [Root Signature](/windows/desktop/direct3d12/root-signatures) (a key table of resources and other elements for D3D12) can be specified in HLSL as a string. <br/> |
 
 
 
@@ -33,10 +33,4 @@ For details of the syntax changes to the shader language, refer to [Shader Model
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

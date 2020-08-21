@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Granting Access Rights to the Service Logon Account
 
-A primary consideration of installing a service instance is to ensure that the installed service can access the necessary resources. To do this, set ACEs in the security descriptors of objects that the service must access. An ACE can grant or deny access rights to a specified security principal, such as the service user account, or the computer account for a LocalSystem service, or a group to which the service's account belongs. For more information about ACEs, security descriptors, and access control, see [Controlling Access to objects in Active Directory Domain Services](controlling-access-to-objects-in-active-directory-domain-services.md) and [Access Control](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control).
+A primary consideration of installing a service instance is to ensure that the installed service can access the necessary resources. To do this, set ACEs in the security descriptors of objects that the service must access. An ACE can grant or deny access rights to a specified security principal, such as the service user account, or the computer account for a LocalSystem service, or a group to which the service's account belongs. For more information about ACEs, security descriptors, and access control, see [Controlling Access to objects in Active Directory Domain Services](controlling-access-to-objects-in-active-directory-domain-services.md) and [Access Control](/windows/desktop/SecAuthZ/access-control).
 
 For more information and a code example that can be used to set an ACE that enables the service to modify its service connection point, see [Enabling Service Account to Access SCP Properties](enabling-service-account-to-access-scp-properties.md).
 
@@ -20,7 +20,3 @@ In some cases, you must add your service user account as a member of one or more
  
 
  
-
-
-
-

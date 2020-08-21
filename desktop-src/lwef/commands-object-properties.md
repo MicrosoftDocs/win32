@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
-The server supports the following properties for the [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection:
+The server supports the following properties for the [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection:
 
 -   [**Caption**](caption-property-cmds.md)
 -   [**Count**](count-property.md)
@@ -23,9 +23,9 @@ The server supports the following properties for the [**Commands**](https://docs
 -   [**Voice**](voice-property.md)
 -   [**VoiceCaption**](voicecaption-property.md)
 
-An entry for the [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection can appear in both the pop-up menu and the Voice Commands Window for a character. To make this entry appear in the pop-up menu, set its [**Caption**](caption-property-cmds.md) property. To include the entry in the Voice Commands Window, set its [**VoiceCaption**](voicecaption-property.md) property. (For backward compatibility, if there is no **VoiceCaption**, the **Caption** setting is used)
+An entry for the [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection can appear in both the pop-up menu and the Voice Commands Window for a character. To make this entry appear in the pop-up menu, set its [**Caption**](caption-property-cmds.md) property. To include the entry in the Voice Commands Window, set its [**VoiceCaption**](voicecaption-property.md) property. (For backward compatibility, if there is no **VoiceCaption**, the **Caption** setting is used)
 
-The following table summarizes how the properties of a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) object affect the entry's presentation:
+The following table summarizes how the properties of a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) object affect the entry's presentation:
 
 
 
@@ -54,10 +54,4 @@ The following table summarizes how the properties of a [**Commands**](https://do
  
 
  
-
- 
-
-
-
-
 

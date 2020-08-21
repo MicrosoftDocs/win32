@@ -24,9 +24,9 @@ propertyDescription
 
 UI\_PKEY\_FontProperties\_ChangedProperties is used by an application to query only changed properties from [UI\_PKEY\_FontProperties](windowsribbon-reference-properties-uipkey-fontproperties.md).
 
-Calling the [**IUISimplePropertySet::GetValue**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue) method on this [**IUISimplePropertySet**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset) object returns an [IPropertyStore](https://msdn.microsoft.com/library/bb761474.aspx).
+Calling the [**IUISimplePropertySet::GetValue**](/windows/desktop/api/uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue) method on this [**IUISimplePropertySet**](/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset) object returns an [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
-UI\_PKEY\_FontProperties\_ChangedProperties is passed as the last parameter of the [**IUICommandHandler::Execute**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) call to the Ribbon host application.
+UI\_PKEY\_FontProperties\_ChangedProperties is passed as the last parameter of the [**IUICommandHandler::Execute**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) call to the Ribbon host application.
 
 This property key is read-only.
 
@@ -37,7 +37,7 @@ This property key is read-only.
 [Font Control Properties](windowsribbon-reference-properties-fontcontrol.md)
 </dt> <dt>
 
-[**IUISimplePropertySet**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset)
+[**IUISimplePropertySet**](/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset)
 </dt> <dt>
 
 [Font Control](windowsribbon-controls-fontcontrol.md)
@@ -46,7 +46,3 @@ This property key is read-only.
  
 
  
-
-
-
-

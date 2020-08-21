@@ -41,7 +41,7 @@ SECURITY_STATUS WINAPI SslHashHandshake(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle to the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
+The handle to the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
 
 </dd> <dt>
 
@@ -99,9 +99,4 @@ The **SslHashHandshake** function is one of three functions used to generate a h
 
 
  
-
- 
-
-
-
 

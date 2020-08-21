@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # ShellAdvtSupport property
 
-The **ShellAdvtSupport** property is set by the installer if the system's [**IShellLink**](https://msdn.microsoft.com/library/Bb774950(v=VS.85).aspx) interface supports installer descriptor resolution.
+The **ShellAdvtSupport** property is set by the installer if the system's [**IShellLink**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishelllinka) interface supports installer descriptor resolution.
 
 ## Remarks
 
-If this property is set, the system's [**IShellLink**](https://msdn.microsoft.com/library/Bb774950(v=VS.85).aspx) interface supports installer descriptor resolution. This is supported by Windows 2000 and systems running Internet Explorer 4.01. If this property is not set, the installer has the default behavior of creating non-advertised features during installation, either locally or run from source.
+If this property is set, the system's [**IShellLink**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishelllinka) interface supports installer descriptor resolution. This is supported by Windows 2000 and systems running Internet Explorer 4.01. If this property is not set, the installer has the default behavior of creating non-advertised features during installation, either locally or run from source.
 
 ## Requirements
 
@@ -37,7 +37,3 @@ If this property is set, the system's [**IShellLink**](https://msdn.microsoft.co
  
 
  
-
-
-
-

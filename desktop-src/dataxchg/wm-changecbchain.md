@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Sent to the first window in the clipboard viewer chain when a window is being removed from the chain.
 
-A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -55,7 +55,7 @@ If an application processes this message, it should return zero.
 
 Each clipboard viewer window saves the handle to the next window in the clipboard viewer chain. Initially, this handle is the return value of the [**SetClipboardViewer**](/windows/desktop/api/Winuser/nf-winuser-setclipboardviewer) function.
 
-When a clipboard viewer window receives the **WM\_CHANGECBCHAIN** message, it should call the [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) function to pass the message to the next window in the chain, unless the next window is the window being removed. In this case, the clipboard viewer should save the handle specified by the *lParam* parameter as the next window in the chain.
+When a clipboard viewer window receives the **WM\_CHANGECBCHAIN** message, it should call the [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) function to pass the message to the next window in the chain, unless the next window is the window being removed. In this case, the clipboard viewer should save the handle specified by the *lParam* parameter as the next window in the chain.
 
 ## Requirements
 
@@ -76,7 +76,7 @@ When a clipboard viewer window receives the **WM\_CHANGECBCHAIN** message, it sh
 **Reference**
 </dt> <dt>
 
-[**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage)
+[**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage)
 </dt> <dt>
 
 [**SetClipboardViewer**](/windows/desktop/api/Winuser/nf-winuser-setclipboardviewer)
@@ -89,10 +89,4 @@ When a clipboard viewer window receives the **WM\_CHANGECBCHAIN** message, it sh
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -19,8 +19,8 @@ As part of debugging an application, you can obtain information about the amount
 -   Decompressing a bitmap
 -   Dithering a bitmap
 -   Stretching a bitmap
--   Transferring a bitmap by using the [**BitBlt**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt) function
--   Transferring a bitmap by using the [**StretchDIBits**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits) function
+-   Transferring a bitmap by using the [**BitBlt**](/windows/desktop/api/wingdi/nf-wingdi-bitblt) function
+-   Transferring a bitmap by using the [**StretchDIBits**](/windows/desktop/api/wingdi/nf-wingdi-stretchdibits) function
 
 After retrieving a set of values, [**DrawDibTime**](/windows/desktop/api/Vfw/nf-vfw-drawdibtime) resets the count and value for each operation.
 
@@ -36,7 +36,3 @@ The [**DrawDibTime**](/windows/desktop/api/Vfw/nf-vfw-drawdibtime) function is a
  
 
  
-
-
-
-

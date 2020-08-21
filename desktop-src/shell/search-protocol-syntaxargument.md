@@ -32,12 +32,9 @@ search:query=from:paolo&syntax=AQS
 
 <dl> <dt>
 
-[Advanced Query Syntax](https://msdn.microsoft.com/library/Bb266512(v=VS.85).aspx)
+[Advanced Query Syntax](../search/-search-3x-advancedquerysyntax.md)
 </dt> </dl>
 
  
 
  
-
-
-

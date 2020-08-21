@@ -82,7 +82,7 @@ UINT16 depthOrArraySize
 
 UINT16 mipLevels
 
-[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
+[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
 
 UINT sampleCount
 
@@ -123,7 +123,7 @@ UINT64 width
 
 Specifies a function that initializes the following parameters:
 
-[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
+[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
 
 UINT64 width
 
@@ -144,7 +144,7 @@ UINT64 width
 
 Specifies a function that initializes the following parameters:
 
-[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
+[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
 
 UINT64 width
 
@@ -171,7 +171,7 @@ UINT height
 
 Specifies a function that initializes the following parameters:
 
-[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
+[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) format
 
 UINT64 width
 
@@ -266,10 +266,4 @@ Returns false if all members of each structure are identical.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

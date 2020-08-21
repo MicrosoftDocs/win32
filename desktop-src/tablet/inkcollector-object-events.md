@@ -20,7 +20,7 @@ The following table describes which threads the [**InkCollector**](inkcollector-
 | [**CursorInRange**](inkcollector-cursorinrange.md)                                | Fires on the ink thread.<br/>                               |
 | [**CursorOutOfRange**](inkcollector-cursoroutofrange.md)                          | Fires on the ink thread.<br/>                               |
 | [**DoubleClick Event**](inkcollector-doubleclick.md) (Automation only).           | Fires on the application's user interface (UI) thread.<br/> |
-| [**DoubleClick**](https://msdn.microsoft.com/library/ms567614(v=VS.90).aspx) (Managed Library only) | Fires on the application's UI thread.<br/>                  |
+| [**DoubleClick**](/previous-versions/ms567614(v=vs.100)) (Managed Library only) | Fires on the application's UI thread.<br/>                  |
 | [**Gesture**](inkcollector-gesture.md)                                            | Fires on the ink thread.<br/>                               |
 | [**MouseDown**](inkcollector-mousedown.md)                                        | Fires on the application's UI thread.<br/>                  |
 | [**MouseMove**](inkcollector-mousemove.md)                                        | Fires on the application's UI thread.<br/>                  |
@@ -38,9 +38,4 @@ The following table describes which threads the [**InkCollector**](inkcollector-
  
 
  
-
- 
-
-
-
 

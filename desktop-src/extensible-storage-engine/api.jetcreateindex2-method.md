@@ -84,7 +84,7 @@ public static void JetCreateIndex2(
 <!-- end list -->
 
   - numIndexCreates  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Number of index description objects.
 
@@ -101,4 +101,3 @@ When creating multiple indexes (i.e. with numIndexCreates greater than 1) this m
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

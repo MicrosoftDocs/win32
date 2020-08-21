@@ -55,7 +55,7 @@ Data type: **Msvm\_VirtualEthernetSwitchSettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Reference to an instance of the [**Msvm\_VirtualEthernetSwitchSettingData**](msvm-virtualethernetswitchsettingdata.md) class that represents an Ethernet port.
@@ -71,7 +71,7 @@ Data type: **Msvm\_EthernetSwitchFeatureSettingData**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 Reference to an instance of the [**Msvm\_EthernetSwitchFeatureSettingData**](msvm-ethernetswitchfeaturesettingdata.md) class that represents the settings applied to the switch.
@@ -93,9 +93,4 @@ Reference to an instance of the [**Msvm\_EthernetSwitchFeatureSettingData**](msv
 
 
  
-
- 
-
-
-
 

@@ -41,7 +41,7 @@ This function returns **TRUE** if it succeeds; otherwise, it returns **FALSE**.
 
 If no registry value is present in HKCU, the **reload\_config** function writes initial data to the registry.
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
@@ -56,7 +56,3 @@ This function has no associated import library or header file; you must call it 
  
 
  
-
-
-
-

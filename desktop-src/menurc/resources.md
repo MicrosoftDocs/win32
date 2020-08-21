@@ -33,13 +33,7 @@ A *resource* is binary data that you can add to the executable file of a Windows
 
  
 
-For more information about creating message resources, see [**Message Compiler**](https://docs.microsoft.com/windows/desktop/WES/message-compiler--mc-exe-).
+For more information about creating message resources, see [**Message Compiler**](/windows/desktop/WES/message-compiler--mc-exe-).
 
  
-
- 
-
-
-
-
 

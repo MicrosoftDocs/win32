@@ -52,7 +52,7 @@ The **MDM\_Policy\_Result01\_CredentialsUI02** class has these properties.
 
 <dl> <dt>
 
-[DisablePasswordReveal](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-credentialsui#credentialsui-disablepasswordreveal)
+[DisablePasswordReveal](/windows/client-management/mdm/policy-csp-credentialsui#credentialsui-disablepasswordreveal)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -63,7 +63,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnumerateAdministrators](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-credentialsui#credentialsui-enumerateadministrators)
+[EnumerateAdministrators](/windows/client-management/mdm/policy-csp-credentialsui#credentialsui-enumerateadministrators)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -83,7 +83,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -97,7 +97,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> </dl>
@@ -117,10 +117,4 @@ Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qual
 
 
  
-
- 
-
-
-
-
 

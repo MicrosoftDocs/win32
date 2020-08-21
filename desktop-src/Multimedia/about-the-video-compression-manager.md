@@ -18,7 +18,7 @@ Typically, installable compressors operate with video-image data stored in audio
 -   Using VCM renderers to draw data from your application
 -   VCM functions and structures
 
-Before you read this overview, you should be familiar with the Microsoft Win32 graphic services. In particular, bitmaps and bitmap-related structures, such as [**BITMAPINFO**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) and [**BITMAPINFOHEADER**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader), are used extensively by VCM. For additional information about the **BITMAPINFO** and **BITMAPINFOHEADER** structures, see [Bitmaps](https://msdn.microsoft.com/library/ms532349.aspx).
+Before you read this overview, you should be familiar with the Microsoft Win32 graphic services. In particular, bitmaps and bitmap-related structures, such as [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) and [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader), are used extensively by VCM. For additional information about the **BITMAPINFO** and **BITMAPINFOHEADER** structures, see [Bitmaps](/previous-versions//ms532349(v=vs.85)).
 
 > [!Note]  
 > The audio compression manager (ACM) provides system-level support for audio compression and decompression drivers. For a description of the audio compression services, see [Audio Compression Manager](audio-compression-manager.md).
@@ -35,7 +35,3 @@ Before you read this overview, you should be familiar with the Microsoft Win32 g
  
 
  
-
-
-
-

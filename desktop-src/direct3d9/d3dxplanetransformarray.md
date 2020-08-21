@@ -52,7 +52,7 @@ Pointer to the [**D3DXPLANE**](d3dxplane.md) structure that contains the resulti
 *OutStride* \[out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The stride of each transformed plane.
 
@@ -70,7 +70,7 @@ Pointer to the input [**D3DXPLANE**](d3dxplane.md) structure, which contains the
 *PStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The stride of each non-transformed plane.
 
@@ -88,7 +88,7 @@ Pointer to the source [**D3DXMATRIX**](d3dxmatrix.md) structure, which contains 
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of planes to transform.
 
@@ -169,7 +169,3 @@ The parameter *pM* contains the inverse transpose of the transformation matrix. 
  
 
  
-
-
-
-

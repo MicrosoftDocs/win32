@@ -57,7 +57,7 @@ A pointer to an array of identification numbers of the properties to be set. Eac
 *pvar* \[in\]
 </dt> <dd>
 
-Type: **[PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx)\***
+Type: **[PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant)\***
 
 A pointer to an array of values to be assigned to the properties.
 
@@ -112,7 +112,3 @@ If two applications create scan profile objects from the same XML file, and each
  
 
  
-
-
-
-

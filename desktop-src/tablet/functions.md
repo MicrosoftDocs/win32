@@ -25,7 +25,7 @@ This section contains the core functions for Tablet PC.
 | [**InvokeIDispatch**](invokeidispatch.md)                       | Invokes helper functionality for the IDispatch interface.                                                                                                                                           |
 | [**RecognizerContextSet**](recognizercontextset.md)             | Tests whether the [**InkDivider**](inkdivider-class.md) object can use the [**InkRecognizerContext**](inkrecognizercontext-class.md) class to analyze words.                                      |
 | [**RemoveStrokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-removestrokes)                | Removes [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) objects from the [**InkDivider**](inkdivider-class.md).                                                                                           |
-| [**SetLineHeight**](setlineheight.md)                           | Sets the [**LineHeight**](https://msdn.microsoft.com/library/ms699524(v=VS.85).aspx) property on the [**InkDivider**](inkdivider-class.md) object.                                                                                 |
+| [**SetLineHeight**](setlineheight.md)                           | Sets the [**LineHeight**](/windows/win32/api/msinkaut15/nf-msinkaut15-iinkdivider-get_lineheight) property on the [**InkDivider**](inkdivider-class.md) object.                                                                                 |
 | [**SetLineRecoCallback**](setlinerecocallback.md)               | Sets a callback function to be used during line recognition.                                                                                                                                        |
 
 
@@ -35,6 +35,3 @@ This section contains the core functions for Tablet PC.
  
 
  
-
-
-

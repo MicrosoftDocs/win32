@@ -42,7 +42,7 @@ Type: **WORD**
 
 </dd> <dd>
 
-The version number of the menu template. This member must be equal to zero to indicate that this is an [**RT\_MENU**](https://docs.microsoft.com/windows/desktop/menurc/resource-types) created with a standard menu template.
+The version number of the menu template. This member must be equal to zero to indicate that this is an [**RT\_MENU**](/windows/desktop/menurc/resource-types) created with a standard menu template.
 
 </dd> <dt>
 
@@ -100,10 +100,4 @@ The size of the menu template header. This value is zero for menus you create wi
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

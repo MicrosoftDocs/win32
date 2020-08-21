@@ -16,18 +16,18 @@ The following topics describe the COM structures for the Windows Machine Learnin
 
 | Topic                                                                                          | Description                                                          |
 |------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
-| [**WINML\_BINDING\_DESC**](https://msdn.microsoft.com/library/Mt845851(v=VS.85).aspx)<br/>                      | Contains a description of the WinML binding.<br/>              |
-| [**WINML\_IMAGE\_BINDING\_DESC**](https://msdn.microsoft.com/library/Mt845854(v=VS.85).aspx)<br/>         | Contains properties for the binding of the type image.<br/>    |
-| [**WINML\_IMAGE\_VARIABLE\_DESC**](https://msdn.microsoft.com/library/Mt845855(v=VS.85).aspx)<br/>       | Contains properties for the image variable description.<br/>   |
-| [**WINML\_MAP\_BINDING\_DESC**](https://msdn.microsoft.com/library/Mt845856(v=VS.85).aspx)<br/>             | Contains properties for the binding of type map.<br/>          |
-| [**WINML\_MAP\_VARIABLE\_DESC**](https://msdn.microsoft.com/library/Mt845857(v=VS.85).aspx)<br/>           | Contains description properties of the map variable.<br/>      |
-| [**WINML\_MODEL\_DESC**](https://msdn.microsoft.com/library/Mt845858(v=VS.85).aspx)<br/>                          | Contains description properties of the model.<br/>             |
-| [**WINML\_RESOURCE\_BINDING\_DESC**](https://msdn.microsoft.com/library/Mt845859(v=VS.85).aspx)<br/>   | Contains description properties of the resource binding.<br/>  |
-| [**WINML\_SEQUENCE\_BINDING\_DESC**](https://msdn.microsoft.com/library/Mt845861(v=VS.85).aspx)<br/>   | Contains description properties of the sequence binding.<br/>  |
-| [**WINML\_SEQUENCE\_VARIABLE\_DESC**](https://msdn.microsoft.com/library/Mt845862(v=VS.85).aspx)<br/> | Contains description properties of the sequence variable.<br/> |
-| [**WINML\_TENSOR\_BINDING\_DESC**](https://msdn.microsoft.com/library/Mt845863(v=VS.85).aspx)<br/>       | Contains description properties of the tensor binding.<br/>    |
-| [**WINML\_TENSOR\_VARIABLE\_DESC**](https://msdn.microsoft.com/library/Mt845865(v=VS.85).aspx)<br/>     | Contains description properties of the tensor variable.<br/>   |
-| [**WINML\_VARIABLE\_DESC**](https://msdn.microsoft.com/library/Mt845866(v=VS.85).aspx)<br/>                    | Contains description properties of the variable.<br/>          |
+| [**WINML\_BINDING\_DESC**](/windows/win32/api/winml/ns-winml-winml_binding_desc)<br/>                      | Contains a description of the WinML binding.<br/>              |
+| [**WINML\_IMAGE\_BINDING\_DESC**](/windows/win32/api/winml/ns-winml-winml_image_binding_desc)<br/>         | Contains properties for the binding of the type image.<br/>    |
+| [**WINML\_IMAGE\_VARIABLE\_DESC**](/windows/win32/api/winml/ns-winml-winml_image_variable_desc)<br/>       | Contains properties for the image variable description.<br/>   |
+| [**WINML\_MAP\_BINDING\_DESC**](/windows/win32/api/winml/ns-winml-winml_map_binding_desc)<br/>             | Contains properties for the binding of type map.<br/>          |
+| [**WINML\_MAP\_VARIABLE\_DESC**](/windows/win32/api/winml/ns-winml-winml_map_variable_desc)<br/>           | Contains description properties of the map variable.<br/>      |
+| [**WINML\_MODEL\_DESC**](/windows/win32/api/winml/ns-winml-winml_model_desc)<br/>                          | Contains description properties of the model.<br/>             |
+| [**WINML\_RESOURCE\_BINDING\_DESC**](/windows/win32/api/winml/ns-winml-winml_resource_binding_desc)<br/>   | Contains description properties of the resource binding.<br/>  |
+| [**WINML\_SEQUENCE\_BINDING\_DESC**](/windows/win32/api/winml/ns-winml-winml_sequence_binding_desc)<br/>   | Contains description properties of the sequence binding.<br/>  |
+| [**WINML\_SEQUENCE\_VARIABLE\_DESC**](/windows/win32/api/winml/ns-winml-winml_sequence_variable_desc)<br/> | Contains description properties of the sequence variable.<br/> |
+| [**WINML\_TENSOR\_BINDING\_DESC**](/windows/win32/api/winml/ns-winml-winml_tensor_binding_desc)<br/>       | Contains description properties of the tensor binding.<br/>    |
+| [**WINML\_TENSOR\_VARIABLE\_DESC**](/windows/win32/api/winml/ns-winml-winml_tensor_variable_desc)<br/>     | Contains description properties of the tensor variable.<br/>   |
+| [**WINML\_VARIABLE\_DESC**](/windows/win32/api/winml/ns-winml-winml_variable_desc)<br/>                    | Contains description properties of the variable.<br/>          |
 
 
 
@@ -36,7 +36,3 @@ The following topics describe the COM structures for the Windows Machine Learnin
  
 
  
-
-
-
-

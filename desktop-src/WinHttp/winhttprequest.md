@@ -104,7 +104,7 @@ The **WinHttpRequest** object has these properties.
 |:--------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------|
 | [**Option**](iwinhttprequest-option.md)<br/>                 | Read/write<br/> | Sets or retrieves a WinHTTP option value.<br/>                            |
 | [**ResponseBody**](iwinhttprequest-responsebody.md)<br/>     | Read-only<br/>  | Retrieves the response entity body as an array of unsigned bytes.<br/>    |
-| [**ResponseStream**](iwinhttprequest-responsestream.md)<br/> | Read-only<br/>  | Retrieves the response entity body as an [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream).<br/> |
+| [**ResponseStream**](iwinhttprequest-responsestream.md)<br/> | Read-only<br/>  | Retrieves the response entity body as an [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream).<br/> |
 | [**ResponseText**](iwinhttprequest-responsetext.md)<br/>     | Read-only<br/>  | Retrieves the response entity body as text.<br/>                          |
 | [**Status**](iwinhttprequest-status.md)<br/>                 | Read-only<br/>  | Retrieves the HTTP status code from the last response.<br/>               |
 | [**StatusText**](iwinhttprequest-statustext.md)<br/>         | Read-only<br/>  | Retrieves HTTP status text.<br/>                                          |
@@ -115,7 +115,7 @@ The **WinHttpRequest** object has these properties.
 
 ## Remarks
 
-The **WinHttpRequest** object uses the [**IErrorInfo**](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo) interface to provide error data. A description and numerical error value can be obtained with the [Err](https://msdn.microsoft.com/library/sbf5ze0e.aspx) object in Microsoft Visual Basic Scripting Edition (VBScript), and the [Error](https://msdn.microsoft.com/library/dww52sbt.aspx) object in Microsoft JScript. The lower 16 bits of an error number correspond to the values found in [**Error Messages**](error-messages.md).
+The **WinHttpRequest** object uses the [**IErrorInfo**](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo) interface to provide error data. A description and numerical error value can be obtained with the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object in Microsoft Visual Basic Scripting Edition (VBScript), and the [Error](https://msdn.microsoft.com/library/dww52sbt.aspx) object in Microsoft JScript. The lower 16 bits of an error number correspond to the values found in [**Error Messages**](error-messages.md).
 
 > [!Note]  
 > For Windows XP and Windows 2000, see [Run-Time Requirements](winhttp-start-page.md).
@@ -145,9 +145,4 @@ The **WinHttpRequest** object uses the [**IErrorInfo**](https://docs.microsoft.c
 </dt> </dl>
 
  
-
- 
-
-
-
 

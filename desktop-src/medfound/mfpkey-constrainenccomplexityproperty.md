@@ -12,7 +12,7 @@ Specifies whether the complexity of the audio encoding algorithm is constrained.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -61,7 +61,3 @@ If you set this property to **VARIANT\_TRUE**, you must also specify a complexit
  
 
  
-
-
-
-

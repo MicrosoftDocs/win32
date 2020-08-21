@@ -8,14 +8,10 @@ ms.date: 05/31/2018
 
 # HelpTopic Property
 
-The **HelpTopic** property obtains details used with the Microsoft Win32 [WinHelp](https://msdn.microsoft.com/library/bb762267(VS.85).aspx) function to display a Help topic associated with the object. Not all objects support this property.
+The **HelpTopic** property obtains details used with the Microsoft Win32 [WinHelp](/windows/win32/api/winuser/nf-winuser-winhelpa) function to display a Help topic associated with the object. Not all objects support this property.
 
 The **HelpTopic** property is retrieved by calling the [**IAccessible::get\_accHelpTopic**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acchelptopic).
 
  
 
  
-
-
-
-

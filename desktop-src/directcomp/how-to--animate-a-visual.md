@@ -22,8 +22,8 @@ This topic demonstrates how to animate the properties of a visual by using Micro
 ### Technologies
 
 -   [DirectComposition](directcomposition-portal.md)
--   [Direct3D 11 Graphics](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
--   [DirectX Graphics Infrastructure (DXGI)](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
+-   [Direct3D 11 Graphics](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
+-   [DirectX Graphics Infrastructure (DXGI)](/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 
 ### Prerequisites
 
@@ -42,7 +42,7 @@ For more information, see [How to initialize DirectComposition](initialize-direc
 
 ### Step 2: Create an animation object
 
-Use the [**CreateAnimation**](https://msdn.microsoft.com/library/Hh437394(v=VS.85).aspx) method to create an animation object.
+Use the [**CreateAnimation**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createanimation) method to create an animation object.
 
 
 ```C++
@@ -132,7 +132,7 @@ hr = m_pDevice->CreateEffectGroup(&m_pEffectGroup);
 
 ### Step 5: Commit the composition
 
-Call the [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/library/Hh437393(v=VS.85).aspx) method to commit the visual to DirectComposition for rendering to the target window. As the visual is rendered, the animation causes the visual's opacity to change from transparent to fully opaque over a period of two seconds.
+Call the [**IDCompositionDevice::Commit**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-commit) method to commit the visual to DirectComposition for rendering to the target window. As the visual is rendered, the animation causes the visual's opacity to change from transparent to fully opaque over a period of two seconds.
 
 
 ```C++
@@ -1009,7 +1009,3 @@ HRESULT DemoApp::GetImageFilenames(TCHAR szDir[MAX_PATH])
  
 
  
-
-
-
-

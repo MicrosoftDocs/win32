@@ -53,9 +53,9 @@ Pointer to an [**ID3DXMesh**](id3dxmesh.md) object, the mesh from which to weld 
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Combination of one or more flags from [**D3DXWELDEPSILONSFLAGS**](https://msdn.microsoft.com/library/Bb205561(v=VS.85).aspx).
+Combination of one or more flags from [**D3DXWELDEPSILONSFLAGS**](./d3dxweldepsilonsflags.md).
 
 </dd> <dt>
 
@@ -71,7 +71,7 @@ Pointer to a [**D3DXWeldEpsilons**](d3dxweldepsilons.md) structure, specifying t
 *pAdjacencyIn* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the source mesh. If the edge has no adjacent faces, the value is 0xffffffff. If this parameter is set to **NULL**, [**ID3DXBaseMesh::GenerateAdjacency**](id3dxbasemesh--generateadjacency.md) will be called to create logical adjacency information.
 
@@ -80,7 +80,7 @@ Pointer to an array of three DWORDs per face that specify the three neighbors fo
 *pAdjacencyOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the optimized mesh. If the edge has no adjacent faces, the value is 0xffffffff.
 
@@ -89,7 +89,7 @@ Pointer to an array of three DWORDs per face that specify the three neighbors fo
 *pFaceRemap* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 An array of DWORDs, one per face, that identifies the original mesh face that corresponds to each face in the welded mesh.
 
@@ -187,7 +187,3 @@ DWORD            i;                       // internal variable
  
 
  
-
-
-
-

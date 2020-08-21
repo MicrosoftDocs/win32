@@ -17,7 +17,7 @@ api_location:
 
 # ISCardTypeConv::CreateByteArray method
 
-\[The **CreateByteArray** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **CreateByteArray** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
 The **CreateByteArray** method creates a typical C/C++ byte array.
 
@@ -109,7 +109,3 @@ To create an Automation SAFEARRAY of unsigned characters (bytes), call [**Create
  
 
  
-
-
-
-

@@ -15,5 +15,5 @@ This section lists tools and utilities provided for DirectX graphics.
 | Topic | Description |
 |-|-|
 | [Debugging DirectX apps remotely](debugging-directx-apps-remotely.md) | You can use Visual Studio and the Windows 8 SDK to debug DirectX apps remotely.  |
-| [Effect-Compiler Tool](fxc.md) | FXC (fxc.exe) is an offline tool for compiling [HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl) shaders for all versions of Direct3D. The tool is located at: (*SDK root*)\\Utilities\\Bin\\x86\\ |
+| [Effect-Compiler Tool](fxc.md) | FXC (fxc.exe) is an offline tool for compiling [HLSL](/windows/desktop/direct3dhlsl/dx-graphics-hlsl) shaders for all versions of Direct3D. The tool is located at: (*SDK root*)\\Utilities\\Bin\\x86\\ |
 | [Direct3D Diagnostics Capture Interface Reference](vspixengine-reference.md) | This section covers APIs for the Direct3D graphics diagnostics capture interface.  |

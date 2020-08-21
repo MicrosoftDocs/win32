@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This section covers how to check on Format Support for Direct3D Feature Level Hardware using API calls.
 
-For D3D11, use [**ID3D11Device::CheckFormatSupport**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkformatsupport) to programmatically verify the info in the previous sections. For D3D12 use [**ID3D12::CheckFeatureSupport**](https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport).
+For D3D11, use [**ID3D11Device::CheckFormatSupport**](/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkformatsupport) to programmatically verify the info in the previous sections. For D3D12 use [**ID3D12::CheckFeatureSupport**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport).
 
 
 
@@ -290,25 +290,20 @@ No API available.
 
 <dl> <dt>
 
-[D3D12 Hardware Feature Levels](https://docs.microsoft.com/windows/desktop/direct3d12/hardware-feature-levels)
+[D3D12 Hardware Feature Levels](/windows/desktop/direct3d12/hardware-feature-levels)
 </dt> <dt>
 
-[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)
+[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)
 </dt> <dt>
 
-[**D3D11\_FORMAT\_SUPPORT**](https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support)
+[**D3D11\_FORMAT\_SUPPORT**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support)
 </dt> <dt>
 
-[**D3D11\_FORMAT\_SUPPORT2**](https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2)
+[**D3D11\_FORMAT\_SUPPORT2**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2)
 </dt> <dt>
 
 [Programming Guide for DXGI](dx-graphics-dxgi-overviews.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

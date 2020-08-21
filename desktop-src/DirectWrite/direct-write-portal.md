@@ -10,10 +10,10 @@ ms.date: 05/31/2018
 
 ## Purpose
 
-Today's applications must support high-quality text rendering, resolution-independent outline fonts, and full Unicode text and layout support. DirectWrite, a [DirectX](/windows/win32/directx) API, provides these features and more:
+Today's applications must support high-quality text rendering, resolution-independent outline fonts, and full Unicode text and layout support. DirectWrite, a [DirectX](../directx.md) API, provides these features and more:
 
 -   A device-independent text layout system that improves text readability in documents and in UI.
--   High-quality, sub-pixel, [**ClearType**](https://msdn.microsoft.com/library/Dd371288(v=VS.85).aspx) text rendering that can use [GDI](interoperating-with-gdi.md), [Direct2D](rendering-by-using-direct2d.md), or application-specific rendering technology.
+-   High-quality, sub-pixel, [**ClearType**](/windows/win32/api/dwrite/nf-dwrite-idwriterenderingparams-getcleartypelevel) text rendering that can use [GDI](interoperating-with-gdi.md), [Direct2D](rendering-by-using-direct2d.md), or application-specific rendering technology.
 -   Hardware-accelerated text, when used with [Direct2D](rendering-by-using-direct2d.md).
 -   Support for multi-format text.
 -   Support for the advanced typography features of OpenType fonts.
@@ -29,7 +29,7 @@ The API supports measuring, drawing, and hit-testing of multi-format text. Direc
 
 > [!Note]
 >
-> The Platform Update for Windows Vista and Platform Update for Windows Server 2008 are a set of run-time libraries that enables developers to target applications to Windows 7, Windows Vista, Windows Server 2008 R2, and Windows Server 2008. These updates will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require Platform Update for Windows Vista or Platform Update for Windows Server 2008 can have Windows Update detect whether the required updated is installed; if it is not, Windows Update will download and install it in the background. For more information about both updates, see [Platform Update for Windows Vista](https://msdn.microsoft.com/library/Ee663867(v=VS.85).aspx).
+> The Platform Update for Windows Vista and Platform Update for Windows Server 2008 are a set of run-time libraries that enables developers to target applications to Windows 7, Windows Vista, Windows Server 2008 R2, and Windows Server 2008. These updates will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require Platform Update for Windows Vista or Platform Update for Windows Server 2008 can have Windows Update detect whether the required updated is installed; if it is not, Windows Update will download and install it in the background. For more information about both updates, see [Platform Update for Windows Vista](../win7ip/platform-update-for-windows-vista-portal.md).
 
  
 
@@ -49,10 +49,4 @@ The API supports measuring, drawing, and hit-testing of multi-format text. Direc
  
 
  
-
- 
-
-
-
-
 

@@ -121,7 +121,7 @@ This only affects the display in the ARP. The Windows Installer is still capable
  
 
 > [!Note]  
-> For information regarding the Set Program and Defaults tool, please refer to the section [Working with Set Program Access and Computer Defaults](https://msdn.microsoft.com/library/aa969379.aspx).
+> For information regarding the Set Program and Defaults tool, please refer to the section [Working with Set Program Access and Computer Defaults](/previous-versions//bb776877(v=vs.85)).
 
  
 
@@ -133,9 +133,4 @@ This only affects the display in the ARP. The Windows Installer is still capable
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -26,4 +26,4 @@ The Input Source Identification APIs are designed for developers who are buildi
 
 ## Related topics
 
-[User Interaction](https://msdn.microsoft.com/053003a1-8c04-42d1-9b1c-bbbb58248376)
+[User Interaction](../user-interaction.md)

@@ -26,7 +26,7 @@ Five WGL functions manage rendering contexts, as described in the following tabl
 
  
 
-The [**wglCreateContext**](/windows/desktop/api/wingdi/nf-wingdi-wglcreatecontext) function takes a device context handle as its parameter and returns a rendering context handle. The created rendering context is suitable for drawing on the device referenced by the device context handle. In particular, its pixel format is the same as the device context's pixel format. After you create a rendering context, you can release or dispose of the device context. See [Device Contexts](https://docs.microsoft.com/windows/desktop/gdi/device-contexts) for more details on creating, obtaining, releasing, and disposing of a device context.
+The [**wglCreateContext**](/windows/desktop/api/wingdi/nf-wingdi-wglcreatecontext) function takes a device context handle as its parameter and returns a rendering context handle. The created rendering context is suitable for drawing on the device referenced by the device context handle. In particular, its pixel format is the same as the device context's pixel format. After you create a rendering context, you can release or dispose of the device context. See [Device Contexts](/windows/desktop/gdi/device-contexts) for more details on creating, obtaining, releasing, and disposing of a device context.
 
 > [!Note]  
 > The device context sent to [**wglCreateContext**](/windows/desktop/api/wingdi/nf-wingdi-wglcreatecontext) must be a display device context, a memory device context, or a color printer device context that uses four or more bits per pixel. The device context cannot be a monochrome printer device context.
@@ -50,14 +50,10 @@ After calling [**wglMakeCurrent**](/windows/desktop/api/wingdi/nf-wingdi-wglmake
 
 The second way to break the association between a rendering context and a thread is to call **wglMakeCurrent** with a different rendering context. After such a call, the calling thread has a new current rendering context, the former current rendering context is released from its connection to the thread, and the former current rendering context's association to a device context ends.
 
-The [**wglDeleteContext**](/windows/desktop/api/wingdi/nf-wingdi-wgldeletecontext) function takes a single parameter, the handle to the rendering context to be deleted. Before calling **wglDeleteContext**, make the rendering context not current by calling [**wglMakeCurrent**](/windows/desktop/api/wingdi/nf-wingdi-wglmakecurrent), and delete or release the associated device context by calling [DeleteDC](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc) or [ReleaseDC](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-releasedc) as appropriate.
+The [**wglDeleteContext**](/windows/desktop/api/wingdi/nf-wingdi-wgldeletecontext) function takes a single parameter, the handle to the rendering context to be deleted. Before calling **wglDeleteContext**, make the rendering context not current by calling [**wglMakeCurrent**](/windows/desktop/api/wingdi/nf-wingdi-wglmakecurrent), and delete or release the associated device context by calling [DeleteDC](/windows/desktop/api/wingdi/nf-wingdi-deletedc) or [ReleaseDC](/windows/desktop/api/winuser/nf-winuser-releasedc) as appropriate.
 
 It is an error for a thread to delete a rendering context that is another thread's current rendering context. However, if a rendering context is the calling thread's current rendering context, **wglDeleteContext** flushes all OpenGL drawing commands and makes the rendering context not current before deleting it. In this case, relying on **wglDeleteContext** to make a rendering context not current requires the programmer to delete or release the associated device context.
 
  
 
  
-
-
-
-

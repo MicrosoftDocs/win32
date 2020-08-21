@@ -18,7 +18,7 @@ topic_type:
 
 # CPL\_GETCOUNT message
 
-Sent to the [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) function of a Control Panel application to retrieve the number of dialog boxes supported by the application.
+Sent to the [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) function of a Control Panel application to retrieve the number of dialog boxes supported by the application.
 
 ## Parameters
 
@@ -32,7 +32,7 @@ Sent to the [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85)
 
 ## Return value
 
-The [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) function returns the number of dialog boxes that the Control Panel application supports.
+The [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) function returns the number of dialog boxes that the Control Panel application supports.
 
 ## Remarks
 
@@ -53,7 +53,3 @@ This message is sent immediately after the [**CPL\_INIT**](cpl-init.md) message.
  
 
  
-
-
-
-

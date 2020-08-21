@@ -10,13 +10,10 @@ ms.date: 05/31/2018
 
 The application must inventory the communications resources available to it, then notify TAPI about which resources it will use and how it will use them. See [Device Control](device-control.md) for additional information on the types of resources and capabilities an application might access.
 
-**TAPI 2.x:** Applications get the number of available lines when [**lineInitializeEx**](https://msdn.microsoft.com/library/ms735983(v=VS.85).aspx) returns. They can then perform [**lineGetDevCaps**](https://msdn.microsoft.com/library/ms735735(v=VS.85).aspx) on each line, [**lineGetAddressCaps**](https://msdn.microsoft.com/library/ms735674(v=VS.85).aspx) for each address, and [**lineOpen**](https://msdn.microsoft.com/library/ms736005(v=VS.85).aspx) for each line that will be used.
+**TAPI 2.x:** Applications get the number of available lines when [**lineInitializeEx**](/windows/win32/api/tapi/nf-tapi-lineinitializeexa) returns. They can then perform [**lineGetDevCaps**](/windows/win32/api/tapi/nf-tapi-linegetdevcaps) on each line, [**lineGetAddressCaps**](/windows/win32/api/tapi/nf-tapi-linegetaddresscaps) for each address, and [**lineOpen**](/windows/win32/api/tapi/nf-tapi-lineopen) for each line that will be used.
 
-**TAPI 3.x:** Applications use [**ITTAPI::EnumerateAddresses**](/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-enumerateaddresses) or [**ITTAPI::get\_Addresses**](/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_addresses) to discover the addresses available. [**ITMediaSupport**](/windows/desktop/api/tapi3if/nn-tapi3if-itmediasupport) and [**ITAddressCapabilities**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities) supply information on communication types possible for each address. If implemented by the service provider, [**ITTerminalSupport**](https://msdn.microsoft.com/library/ms733156(v=VS.85).aspx) gives an application access to additional information and controls.
-
- 
+**TAPI 3.x:** Applications use [**ITTAPI::EnumerateAddresses**](/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-enumerateaddresses) or [**ITTAPI::get\_Addresses**](/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_addresses) to discover the addresses available. [**ITMediaSupport**](/windows/desktop/api/tapi3if/nn-tapi3if-itmediasupport) and [**ITAddressCapabilities**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities) supply information on communication types possible for each address. If implemented by the service provider, [**ITTerminalSupport**](/windows/win32/api/tapi3if/nn-tapi3if-itterminalsupport) gives an application access to additional information and controls.
 
  
 
-
-
+ 

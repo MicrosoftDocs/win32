@@ -65,7 +65,7 @@ A pointer to a variable to receive the virtualization flags set for the key. Aft
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://msdn.microsoft.com/library/ms679351.aspx) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
+If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
 
 ## Remarks
 
@@ -79,7 +79,7 @@ Registry virtualization is enabled only for the following:
 -   Keys in **HKEY\_LOCAL\_MACHINE\\Software**
 -   Keys that an administrator can write to
 
-For more information, see [Registry Virtualization](https://msdn.microsoft.com/library/aa965884.aspx).
+For more information, see [Registry Virtualization](../sysinfo/registry-virtualization.md).
 
 ## Requirements
 
@@ -100,13 +100,9 @@ For more information, see [Registry Virtualization](https://msdn.microsoft.com/l
 [**ORSetVirtualFlags**](orsetvirtualflags.md)
 </dt> <dt>
 
-[Registry Virtualization](https://msdn.microsoft.com/library/aa965884.aspx)
+[Registry Virtualization](../sysinfo/registry-virtualization.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -92,7 +92,7 @@ Size, in characters, of the string indicated by *lpTestScripts*. The application
 
 Returns **TRUE** if the test list is non-empty and all items in the list are also included in the locale list. Otherwise, the function returns **FALSE**.
 
-A return value of **FALSE** can indicate that the test list contains an item that is not in the locale list, or it can indicate an error. To distinguish between these two cases, the application can call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx). If **DownlevelVerifyScripts** has successfully determined that there is an item in the test list that is not in the locale list, **GetLastError** returns ERROR\_SUCCESS. Otherwise, **GetLastError** can return one of the following error codes:
+A return value of **FALSE** can indicate that the test list contains an item that is not in the locale list, or it can indicate an error. To distinguish between these two cases, the application can call [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). If **DownlevelVerifyScripts** has successfully determined that there is an item in the test list that is not in the locale list, **GetLastError** returns ERROR\_SUCCESS. Otherwise, **GetLastError** can return one of the following error codes:
 
 -   ERROR\_INVALID\_FLAGS. The values supplied for flags were not valid.
 -   ERROR\_INVALID\_PARAMETER. Any of the parameter values was invalid.
@@ -103,7 +103,7 @@ This function compares strings, such as "Latn;Cyrl;", that consist of a series o
 
 This function is useful as part of a strategy to mitigate security issues related to [internationalized domain names (IDNs)](handling-internationalized-domain-names--idns.md).
 
-The following are examples of the return of this function and a subsequent call to [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) in various scenarios. The last two examples illustrate, respectively, a case in which the test list lacks a terminating semicolon (malformed string) and a case in which the test list is empty.
+The following are examples of the return of this function and a subsequent call to [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) in various scenarios. The last two examples illustrate, respectively, a case in which the test list lacks a terminating semicolon (malformed string) and a case in which the test list is empty.
 
 
 
@@ -161,7 +161,3 @@ The required header file and DLL are part of the ["Microsoft Internationalized D
  
 
  
-
-
-
-

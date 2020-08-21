@@ -100,7 +100,7 @@ Data type: **uint8**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Pointing Device\|003.4")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Pointing Device\|003.4")
 </dt> </dl>
 
 The number of buttons on the device. If the pointing device has no buttons, this value should be set to "0".
@@ -116,7 +116,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Pointing Device\|003.1")
+Qualifiers: [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|Pointing Device\|003.1")
 </dt> </dl>
 
 The type of the pointing device.
@@ -197,7 +197,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Counts per Inch"), **PUnit** ("count / inch")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("Counts per Inch"), **PUnit** ("count / inch")
 </dt> </dl>
 
 The tracking resolution of the pointing device, in counts per inch.
@@ -226,9 +226,4 @@ The tracking resolution of the pointing device, in counts per inch.
 </dt> </dl>
 
  
-
- 
-
-
-
 

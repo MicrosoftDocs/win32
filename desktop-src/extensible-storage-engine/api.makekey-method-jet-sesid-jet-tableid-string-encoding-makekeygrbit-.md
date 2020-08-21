@@ -76,14 +76,14 @@ public static void MakeKey(
 <!-- end list -->
 
   - data  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     Column data for the current key column of the current index.
 
 <!-- end list -->
 
   - encoding  
-    Type: [System.Text.Encoding](https://docs.microsoft.com/dotnet/api/system.text.encoding?redirectedfrom=MSDN)  
+    Type: [System.Text.Encoding](/dotnet/api/system.text.encoding)  
     
     The encoding used to convert the string.
 
@@ -105,4 +105,3 @@ public static void MakeKey(
 [MakeKey overload](dn334039\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

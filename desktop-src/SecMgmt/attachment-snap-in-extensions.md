@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Attachment Snap-in Extensions
 
-An attachment snap-in extension is the component of an attachment that displays the service-specific user interface. The snap-in extension is hosted by the Security Configuration snap-ins. The communication between the attachment extension and its snap-in host is handled by the standard MMC mechanisms described in the [Microsoft Management Console](https://docs.microsoft.com/previous-versions/windows/desktop/mmc/microsoft-management-console-start-page) documentation.
+An attachment snap-in extension is the component of an attachment that displays the service-specific user interface. The snap-in extension is hosted by the Security Configuration snap-ins. The communication between the attachment extension and its snap-in host is handled by the standard MMC mechanisms described in the [Microsoft Management Console](/previous-versions/windows/desktop/mmc/microsoft-management-console-start-page) documentation.
 
 In addition to the interfaces that the snap-in extension must support in order to be an MMC snap-in extension, an attachment snap-in extension must also support the COM interface, [**ISceSvcAttachmentPersistInfo**](/windows/desktop/api/Scesvc/nn-scesvc-iscesvcattachmentpersistinfo). This interface implements methods that indicate whether there is service-specific data that should be saved to the security database, and if so, retrieve and save this new data. The Security Configuration snap-ins call methods of this interface regularly in order to update the security database.
 
@@ -29,6 +29,3 @@ When you create an attachment snap-in extension, you must install it and registe
  
 
  
-
-
-

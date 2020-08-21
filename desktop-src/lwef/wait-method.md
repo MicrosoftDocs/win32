@@ -28,7 +28,7 @@ Causes the animation queue for the specified character to wait until the specifi
 
 | Part      | Description                                                                     |
 |-----------|---------------------------------------------------------------------------------|
-| *Request* | A [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object specifying a particular animation.. |
+| *Request* | A [**Request**](/windows/desktop/lwef/the-request-object) object specifying a particular animation.. |
 
 
 
@@ -38,7 +38,7 @@ Causes the animation queue for the specified character to wait until the specifi
 
 ## Remarks
 
-Use this method only when you support multiple (simultaneous) characters and are trying to sequence the interaction of characters. (For a single character, each animation request is played sequentially--after the previous request completes.) If you have two characters and you want a character's animation request to wait until the other character's animation completes, set the **Wait** method to the other character's animation [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object. To specify the request parameter, you must create a variable and assign the animation request you want to interrupt:
+Use this method only when you support multiple (simultaneous) characters and are trying to sequence the interaction of characters. (For a single character, each animation request is played sequentially--after the previous request completes.) If you have two characters and you want a character's animation request to wait until the other character's animation completes, set the **Wait** method to the other character's animation [**Request**](/windows/desktop/lwef/the-request-object) object. To specify the request parameter, you must create a variable and assign the animation request you want to interrupt:
 
 
 ```
@@ -102,12 +102,8 @@ You can also streamline your code by just calling **Wait** directly, using a spe
 
 
 
-This avoids having to explicitly declare a [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object.
+This avoids having to explicitly declare a [**Request**](/windows/desktop/lwef/the-request-object) object.
 
  
 
  
-
-
-
-

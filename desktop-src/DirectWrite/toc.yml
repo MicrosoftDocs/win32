@@ -190,7 +190,7 @@
       - name: "DWRITE_READING_DIRECTION"
         href: /windows/win32/api/dwrite/ne-dwrite-dwrite_reading_direction
       - name: "DWRITE_RENDERING_MODE enumerations"
-        href: /windows/win32/directwrite/dwrite-rendering-mode-enumerations
+        href: ./dwrite-rendering-mode-enumerations.md
         items: 
         - name: "DWRITE_RENDERING_MODE (Windows 8 and later)"
           href: /windows/win32/api/dwrite/ne-dwrite-dwrite_rendering_mode
@@ -985,7 +985,7 @@
         - name: "GetPixelsPerDip"
           href: /windows/win32/api/dwrite/nf-dwrite-idwritepixelsnapping-getpixelsperdip
         - name: "IsPixelSnappingDisabled"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371281(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/dd371281(v=vs.85)
       - name: "IDWriteRemoteFontFileLoader"
         href: /windows/win32/api/dwrite_3/nn-dwrite_3-idwriteremotefontfileloader
         items: 

@@ -77,7 +77,7 @@ The name of the parameter as defined in the IDL file.
 
 The **\[context\_handle\_serialize\]** attribute identifies a binding handle that maintains context or state information on the server between remote procedure calls. The attribute can appear as an IDL [**typedef**](typedef.md) type attribute, as a function return type attribute, or as a parameter attribute.
 
-By default, calls on context handles are serialized, but an application can call [**RpcSsDontSerializeContext**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcssdontserializecontext) to override this default behavior. Using the **\[context\_handle\_serialize\]** attribute in an ACF file guarantees that calls on this particular context handle will be serialized, even if the calling application has overridden the default serialization. A context rundown routine is optional.
+By default, calls on context handles are serialized, but an application can call [**RpcSsDontSerializeContext**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcssdontserializecontext) to override this default behavior. Using the **\[context\_handle\_serialize\]** attribute in an ACF file guarantees that calls on this particular context handle will be serialized, even if the calling application has overridden the default serialization. A context rundown routine is optional.
 
 This attribute is available in MIDL version 5.0.
 
@@ -106,16 +106,16 @@ HRESULT RemoteFunc([context_handle_serialize] pCxHandle);
 [**context\_handle**](context-handle.md)
 </dt> <dt>
 
-[Context Handles](https://docs.microsoft.com/windows/desktop/Rpc/context-handles)
+[Context Handles](/windows/desktop/Rpc/context-handles)
 </dt> <dt>
 
-[**RpcSsDontSerializeContext**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcssdontserializecontext)
+[**RpcSsDontSerializeContext**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcssdontserializecontext)
 </dt> <dt>
 
-[Server Context Run-down Routine](https://docs.microsoft.com/windows/desktop/Rpc/server-context-run-down-routine)
+[Server Context Run-down Routine](/windows/desktop/Rpc/server-context-run-down-routine)
 </dt> <dt>
 
-[Multithreaded Clients and Context Handles](https://docs.microsoft.com/windows/desktop/Rpc/multithreaded-clients-and-context-handles)
+[Multithreaded Clients and Context Handles](/windows/desktop/Rpc/multithreaded-clients-and-context-handles)
 </dt> <dt>
 
 [**typedef**](typedef.md)
@@ -124,7 +124,3 @@ HRESULT RemoteFunc([context_handle_serialize] pCxHandle);
  
 
  
-
-
-
-

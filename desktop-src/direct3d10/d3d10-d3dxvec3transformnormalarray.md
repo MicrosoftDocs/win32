@@ -42,7 +42,7 @@ D3DXVECTOR3* D3DXVec3TransformNormalArray(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) array that is the result of the operation.
 
@@ -51,7 +51,7 @@ Pointer to the [**D3DXVECTOR3**](d3d10-d3dxvector3.md) array that is the result 
 *OutStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Stride between vectors in the output data stream.
 
@@ -60,7 +60,7 @@ Stride between vectors in the output data stream.
 *pV* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to the source D3DXVECTOR3 array.
 
@@ -69,7 +69,7 @@ Pointer to the source D3DXVECTOR3 array.
 *VStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Stride between vectors in the input data stream.
 
@@ -78,7 +78,7 @@ Stride between vectors in the input data stream.
 *pM* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **const [**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 
@@ -87,7 +87,7 @@ Pointer to the source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) structure.
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of elements in the array.
 
@@ -95,7 +95,7 @@ Number of elements in the array.
 
 ## Return value
 
-Type: **[**D3DXVECTOR3**](https://msdn.microsoft.com/library/Bb205546(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointer to a D3DXVECTOR3 array that is the transformed array.
 
@@ -127,7 +127,3 @@ The return value for this function is the same value returned in the pOut parame
  
 
  
-
-
-
-

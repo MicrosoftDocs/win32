@@ -53,7 +53,7 @@ Data type: **CIM\_LogicalDevice**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The device that includes the port.
@@ -69,7 +69,7 @@ Data type: **CIM\_LogicalPort**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The port on the device.
@@ -98,9 +98,4 @@ The port on the device.
 </dt> </dl>
 
  
-
- 
-
-
-
 

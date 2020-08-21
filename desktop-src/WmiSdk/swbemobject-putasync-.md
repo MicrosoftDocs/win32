@@ -199,7 +199,7 @@ This method does not return a value. If the call is successful, the [**OnObjectP
 
 ## Error codes
 
-After the completion of the **PutAsync\_** method, the [Err](https://docs.microsoft.com/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
+After the completion of the **PutAsync\_** method, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain one of the error codes in the following list.
 
 <dl> <dt>
 
@@ -305,9 +305,4 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -58,7 +58,7 @@ The name of the metadata item.
 *pvarValue* \[in\]
 </dt> <dd>
 
-Type: **const [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx)\***
+Type: **const [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant)\***
 
 The metadata to set.
 
@@ -85,9 +85,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

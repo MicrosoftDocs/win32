@@ -43,18 +43,18 @@ HRESULT D3DXComputeNormalMap(
 *pTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)**
 
-Pointer to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) interface, representing the destination texture.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) interface, representing the destination texture.
 
 </dd> <dt>
 
 *pSrcTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)**
 
-Pointer to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) interface, representing the source height-map texture.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) interface, representing the source height-map texture.
 
 </dd> <dt>
 
@@ -70,7 +70,7 @@ Pointer to a [**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 One or more [D3DX\_NORMALMAP](d3dx-normalmap.md) flags that control generation of normal maps.
 
@@ -79,7 +79,7 @@ One or more [D3DX\_NORMALMAP](d3dx-normalmap.md) flags that control generation o
 *Channel* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 One [D3DX\_CHANNEL](d3dx-channel.md) flag specifying the source of height information.
 
@@ -88,7 +88,7 @@ One [D3DX\_CHANNEL](d3dx-channel.md) flag specifying the source of height inform
 *Amplitude* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Constant value multiplier that increases (or decreases) the values in the normal map. Higher values usually make bumps more visible, lower values usually make bumps less visible.
 
@@ -125,7 +125,3 @@ This method computes the normal by using the central difference with a kernel si
  
 
  
-
-
-
-

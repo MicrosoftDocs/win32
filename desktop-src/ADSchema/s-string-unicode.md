@@ -29,7 +29,7 @@ A case-insensitive Unicode string.
 | MAPI Type    | TSTRING                                                                |
 | ADS Type     | ADSTYPE\_OCTET\_STRING                                                 |
 | Variant Type | VT\_UI1 \| VT\_ARRAY                                                   |
-| SDS Type     | [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) |
+| SDS Type     | [System.String](/dotnet/api/system.string) |
 
 
 
@@ -37,13 +37,9 @@ A case-insensitive Unicode string.
 
 <dl> <dt>
 
-[System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)
+[System.String](/dotnet/api/system.string)
 </dt> </dl>
 
  
 
  
-
-
-
-

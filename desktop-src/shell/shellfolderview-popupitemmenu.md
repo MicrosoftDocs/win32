@@ -75,7 +75,7 @@ The vertical position of the menu, in screen coordinates.
 
 ## Return value
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)\***
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)\***
 
 The **String** that receives the command string.
 
@@ -96,7 +96,3 @@ The **String** that receives the command string.
  
 
  
-
-
-
-

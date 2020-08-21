@@ -38,7 +38,7 @@ HRESULT GetIndexBuffer(
 *ppIB* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DINDEXBUFFER9**](https://msdn.microsoft.com/library/Bb205865(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DINDEXBUFFER9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dindexbuffer9)\***
 
 Pointer to the index buffer.
 
@@ -75,7 +75,3 @@ The index buffer contains the vertex ordering in the vertex buffer. The index bu
  
 
  
-
-
-
-

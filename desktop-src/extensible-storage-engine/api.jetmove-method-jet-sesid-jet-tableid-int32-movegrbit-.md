@@ -73,7 +73,7 @@ public static void JetMove(
 <!-- end list -->
 
   - numRows  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     An offset which indicates how far to move the cursor.
 
@@ -95,4 +95,3 @@ public static void JetMove(
 [JetMove overload](dn292215\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

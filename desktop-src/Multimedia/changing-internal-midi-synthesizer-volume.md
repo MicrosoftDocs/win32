@@ -23,8 +23,8 @@ Windows provides the following functions to retrieve and set the volume level of
 
 | Value                                        | Meaning                                                                       |
 |----------------------------------------------|-------------------------------------------------------------------------------|
-| [**midiOutGetVolume**](https://msdn.microsoft.com/library/Dd798473(v=VS.85).aspx) | Retrieves the volume level of the specified internal MIDI synthesizer device. |
-| [**midiOutSetVolume**](https://msdn.microsoft.com/library/Dd798480(v=VS.85).aspx) | Sets the volume level of the specified internal MIDI synthesizer device.      |
+| [**midiOutGetVolume**](/windows/win32/api/mmeapi/nf-mmeapi-midioutgetvolume) | Retrieves the volume level of the specified internal MIDI synthesizer device. |
+| [**midiOutSetVolume**](/windows/win32/api/mmeapi/nf-mmeapi-midioutsetvolume) | Sets the volume level of the specified internal MIDI synthesizer device.      |
 
 
 
@@ -41,7 +41,3 @@ For devices that do not support individual volume changes on both the left and r
  
 
  
-
-
-
-

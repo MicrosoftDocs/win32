@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 A Dynamic Data Exchange (DDE) client application posts a **WM\_DDE\_POKE** message to a DDE server application. A client uses this message to request the server to accept an unsolicited data item. The server is expected to reply with a [**WM\_DDE\_ACK**](wm-dde-ack.md) message indicating whether it accepted the data item.
 
-To post this message, call the [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea) function with the following parameters.
+To post this message, call the [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) function with the following parameters.
 
 
 ```C++
@@ -53,7 +53,7 @@ The high-order word contains a global atom that identifies the data item for whi
 
 ### Posting
 
-The client application must allocate memory for the global memory object using the [**GlobalAlloc**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc) function. The client application must delete the object if either of the following conditions is true:
+The client application must allocate memory for the global memory object using the [**GlobalAlloc**](/windows/desktop/api/winbase/nf-winbase-globalalloc) function. The client application must delete the object if either of the following conditions is true:
 
 -   The server application responds with a negative [**WM\_DDE\_ACK**](wm-dde-ack.md) message.
 -   The **fRelease** member is **FALSE**, but the server application responds with either a positive or negative [**WM\_DDE\_ACK**](wm-dde-ack.md).
@@ -68,7 +68,7 @@ The server application should post the [**WM\_DDE\_ACK**](wm-dde-ack.md) message
 
 The server must create or reuse the [**WM\_DDE\_ACK**](wm-dde-ack.md) *lParam* parameter by calling the [**PackDDElParam**](/windows/desktop/api/Dde/nf-dde-packddelparam) function or the [**ReuseDDElParam**](/windows/desktop/api/Dde/nf-dde-reuseddelparam) function.
 
-To free the global memory object, the server should call the [**GlobalFree**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree) function. Also, if the data format is either [**CF\_DSPMETAFILEPICT**](clipboard-formats.md) or **CF\_METAFILEPICT**, the server must also call [**DeleteMetaFile**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletemetafile) with the embedded metafile handle. These two formats have an extra level of indirection; that is, an application must lock the object to get a pointer to a handle, then lock that handle to get a pointer to a [**METAFILEPICT**](/windows/win32/api/wingdi/ns-wingdi-metafilepict) structure, and finally call **DeleteMetaFile** with the handle from the **hMF** member of the **METAFILEPICT** structure.
+To free the global memory object, the server should call the [**GlobalFree**](/windows/desktop/api/winbase/nf-winbase-globalfree) function. Also, if the data format is either [**CF\_DSPMETAFILEPICT**](clipboard-formats.md) or **CF\_METAFILEPICT**, the server must also call [**DeleteMetaFile**](/windows/desktop/api/wingdi/nf-wingdi-deletemetafile) with the embedded metafile handle. These two formats have an extra level of indirection; that is, an application must lock the object to get a pointer to a handle, then lock that handle to get a pointer to a [**METAFILEPICT**](/windows/win32/api/wingdi/ns-wingdi-metafilepict) structure, and finally call **DeleteMetaFile** with the handle from the **hMF** member of the **METAFILEPICT** structure.
 
 To free the object, the server should call the [**FreeDDElParam**](/windows/desktop/api/Dde/nf-dde-freeddelparam) function.
 
@@ -106,13 +106,13 @@ To free the object, the server should call the [**FreeDDElParam**](/windows/desk
 [**PackDDElParam**](/windows/desktop/api/Dde/nf-dde-packddelparam)
 </dt> <dt>
 
-[**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea)
+[**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea)
 </dt> <dt>
 
 [**ReuseDDElParam**](/windows/desktop/api/Dde/nf-dde-reuseddelparam)
 </dt> <dt>
 
-[**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage)
+[**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage)
 </dt> <dt>
 
 [**UnpackDDElParam**](/windows/desktop/api/Dde/nf-dde-unpackddelparam)
@@ -128,10 +128,4 @@ To free the object, the server should call the [**FreeDDElParam**](/windows/desk
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

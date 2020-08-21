@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**
 </dt> <dd>
 
-Returns a Long integer (read-only property) that specifies the count of [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) objects in the [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+Returns a Long integer (read-only property) that specifies the count of [**Command**](/windows/desktop/lwef/the-command-object) objects in the [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 </dd> <dt>
 
@@ -28,12 +28,8 @@ Returns a Long integer (read-only property) that specifies the count of [**Comma
 
 ## Remarks
 
-**Count** includes only the number of [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) objects you define in your [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection. Server or other client entries are not included.
+**Count** includes only the number of [**Command**](/windows/desktop/lwef/the-command-object) objects you define in your [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection. Server or other client entries are not included.
 
  
 
  
-
-
-
-

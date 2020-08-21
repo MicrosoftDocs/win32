@@ -12,7 +12,7 @@ Specifies QP. Possible values are 1.0 through 31.0.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -47,7 +47,3 @@ As the value of this property increases, the compression ratio increases, and th
  
 
  
-
-
-
-

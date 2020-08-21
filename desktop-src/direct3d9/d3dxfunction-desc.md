@@ -38,7 +38,7 @@ typedef struct D3DXFUNCTION_DESC {
 **Name**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ Function name.
 **Annotations**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -77,7 +77,3 @@ Unused. This member will always be set to zero by [**GetFunctionDesc**](id3dxbas
  
 
  
-
-
-
-

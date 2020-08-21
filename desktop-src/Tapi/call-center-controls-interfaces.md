@@ -10,25 +10,22 @@ ms.date: 05/31/2018
 
 The following is an alphabetic listing of the TAPI 3.x call center controls interfaces.
 
--   [**IEnumACDGroup**](https://msdn.microsoft.com/library/ms727023(v=VS.85).aspx)
--   [**IEnumAgent**](https://msdn.microsoft.com/library/ms727033(v=VS.85).aspx)
--   [**IEnumAgentHandler**](https://msdn.microsoft.com/library/ms727034(v=VS.85).aspx)
--   [**IEnumAgentSession**](https://msdn.microsoft.com/library/ms727039(v=VS.85).aspx)
--   [**IEnumQueue**](https://msdn.microsoft.com/library/ms727545(v=VS.85).aspx)
--   [**ITACDGroup**](https://msdn.microsoft.com/library/ms728176(v=VS.85).aspx)
--   [**ITACDGroupEvent**](https://msdn.microsoft.com/library/ms728177(v=VS.85).aspx)
--   [**ITAgent**](https://msdn.microsoft.com/library/Aa379958(v=VS.85).aspx)
--   [**ITAgentEvent**](https://msdn.microsoft.com/library/Aa380140(v=VS.85).aspx)
--   [**ITAgentHandler**](https://msdn.microsoft.com/library/Aa380394(v=VS.85).aspx)
--   [**ITAgentHandlerEvent**](https://msdn.microsoft.com/library/Aa380631(v=VS.85).aspx)
--   [**ITAgentSession**](https://msdn.microsoft.com/library/Aa381285(v=VS.85).aspx)
--   [**ITAgentSessionEvent**](https://msdn.microsoft.com/library/Aa381304(v=VS.85).aspx)
--   [**ITQueue**](https://msdn.microsoft.com/library/ms731449(v=VS.85).aspx)
--   [**ITQueueEvent**](https://msdn.microsoft.com/library/ms731451(v=VS.85).aspx)
+-   [**IEnumACDGroup**](/windows/win32/api/tapi3cc/nn-tapi3cc-ienumacdgroup)
+-   [**IEnumAgent**](/windows/win32/api/tapi3cc/nn-tapi3cc-ienumagent)
+-   [**IEnumAgentHandler**](/windows/win32/api/tapi3cc/nn-tapi3cc-ienumagenthandler)
+-   [**IEnumAgentSession**](/windows/win32/api/tapi3cc/nn-tapi3cc-ienumagentsession)
+-   [**IEnumQueue**](/windows/win32/api/tapi3cc/nn-tapi3cc-ienumqueue)
+-   [**ITACDGroup**](/windows/win32/api/tapi3cc/nn-tapi3cc-itacdgroup)
+-   [**ITACDGroupEvent**](/windows/win32/api/tapi3cc/nn-tapi3cc-itacdgroupevent)
+-   [**ITAgent**](/windows/win32/api/tapi3cc/nn-tapi3cc-itagent)
+-   [**ITAgentEvent**](/windows/win32/api/tapi3cc/nn-tapi3cc-itagentevent)
+-   [**ITAgentHandler**](/windows/win32/api/tapi3cc/nn-tapi3cc-itagenthandler)
+-   [**ITAgentHandlerEvent**](/windows/win32/api/tapi3cc/nn-tapi3cc-itagenthandlerevent)
+-   [**ITAgentSession**](/windows/win32/api/tapi3cc/nn-tapi3cc-itagentsession)
+-   [**ITAgentSessionEvent**](/windows/win32/api/tapi3cc/nn-tapi3cc-itagentsessionevent)
+-   [**ITQueue**](/windows/win32/api/tapi3cc/nn-tapi3cc-itqueue)
+-   [**ITQueueEvent**](/windows/win32/api/tapi3cc/nn-tapi3cc-itqueueevent)
 
  
 
  
-
-
-

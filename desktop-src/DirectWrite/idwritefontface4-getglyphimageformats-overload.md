@@ -24,8 +24,8 @@ Gets supported glyph image formats.
 
 | Method                                                                                                                           | Description                                                                |
 |:---------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------|
-| [**GetGlyphImageFormats()**](https://msdn.microsoft.com/library/Mt725322(v=VS.85).aspx)                                                          | Gets all the glyph image formats supported by the entire font.<br/>  |
-| [**GetGlyphImageFormats(UINT16, UINT32, UINT32, DWRITE\_GLYPH\_IMAGE\_FORMATS\*)**](https://msdn.microsoft.com/library/Mt725323(v=VS.85).aspx) | Gets the available image formats of a specific glyph and ppem. <br/> |
+| [**GetGlyphImageFormats()**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface4-getglyphimageformats(uint16_uint32_uint32_dwrite_glyph_image_formats))                                                          | Gets all the glyph image formats supported by the entire font.<br/>  |
+| [**GetGlyphImageFormats(UINT16, UINT32, UINT32, DWRITE\_GLYPH\_IMAGE\_FORMATS\*)**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface4-getglyphimageformats(uint16_uint32_uint32_dwrite_glyph_image_formats)) | Gets the available image formats of a specific glyph and ppem. <br/> |
 
 
 
@@ -43,14 +43,9 @@ Gets supported glyph image formats.
 
 <dl> <dt>
 
-[**IDWriteFontFace4**](https://msdn.microsoft.com/library/Mt725320(v=VS.85).aspx)
+[**IDWriteFontFace4**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface4)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

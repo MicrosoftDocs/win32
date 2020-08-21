@@ -38,7 +38,7 @@ HRESULT get_Server(
 
 ## Property value
 
-Receives a [**ActiveBasicDevice**](https://msdn.microsoft.com/library/Dn385755(v=VS.85).aspx) object that represents the server device.
+Receives a [**ActiveBasicDevice**](/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)) object that represents the server device.
 
 ## Requirements
 
@@ -54,14 +54,8 @@ Receives a [**ActiveBasicDevice**](https://msdn.microsoft.com/library/Dn385755(v
 
 <dl> <dt>
 
-[**DevicePair**](https://msdn.microsoft.com/library/Dn385771(v=VS.85).aspx)
+[**DevicePair**](/previous-versions/windows/desktop/legacy/dn385771(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

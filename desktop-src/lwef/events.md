@@ -23,10 +23,10 @@ IAgentNotifySink notifies clients when certain state changes occur. These functi
 | [**BalloonVisibleState**](iagentnotifysink---balloonvisiblestate.md) | Occurs when the character's **Visible** state changes.                                   |
 | [**Click Event**](click-event.md)                                    | Occurs when a character is clicked.                                                      |
 | [**DblClick Event**](dblclick-event.md)                              | Occurs when a character is double-clicked.                                               |
-| [**DragStart**](https://docs.microsoft.com/windows/desktop/lwef/dragstart-event)                                | Occurs when a user starts dragging a character.                                          |
+| [**DragStart**](/windows/desktop/lwef/dragstart-event)                                | Occurs when a user starts dragging a character.                                          |
 | [**DragComplete**](https://www.bing.com/search?q=**DragComplete**)                          | Occurs when a user stops dragging a character.                                           |
-| [**RequestStart**](iagentnotifysink--requeststart.md)                | Occurs when the server begins processing a [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object.    |
-| [**RequestComplete**](iagentnotifysink--requestcomplete.md)          | Occurs when the server completes processing a [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object. |
+| [**RequestStart**](iagentnotifysink--requeststart.md)                | Occurs when the server begins processing a [**Request**](/windows/desktop/lwef/the-request-object) object.    |
+| [**RequestComplete**](iagentnotifysink--requestcomplete.md)          | Occurs when the server completes processing a [**Request**](/windows/desktop/lwef/the-request-object) object. |
 | [**Bookmark**](iagentnotifysink--bookmark.md)                        | Occurs when the server processes a bookmark.                                             |
 | [**Idle**](iagentnotifysink--idle.md)                                | Occurs when the server starts or ends idle processing.                                   |
 | [**Move**](iagentnotifysink--move.md)                                | Occurs when a character has been moved.                                                  |
@@ -42,7 +42,3 @@ The IAgentNotifySink::Restart and IAgentNotifySink::Shutdown events, supported i
  
 
  
-
-
-
-

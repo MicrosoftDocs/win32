@@ -56,7 +56,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 ## Remarks
 
 > [!Caution]  
-> To avoid a memory leak, use [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to release the memory from \**pplStrokes* when you no longer need the information.
+> To avoid a memory leak, use [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) to release the memory from \**pplStrokes* when you no longer need the information.
 
  
 
@@ -90,9 +90,4 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -39,7 +39,7 @@ The Locale ID to use when normalizing the data. Any locale may be used as long a
 
 **dwMapFlags**
 
-These flags get passed to [LCMapString](https://msdn.microsoft.com/library/dd318700(VS.85).aspx) when Unicode data gets normalized to a key, which enables user-defined flags to override the default.
+These flags get passed to [LCMapString](/windows/win32/api/winnls/nf-winnls-lcmapstringa) when Unicode data gets normalized to a key, which enables user-defined flags to override the default.
 
 **Windows 2000**:  The only two legal values for **dwFlags** are:
 
@@ -128,4 +128,3 @@ These flags get passed to [LCMapString](https://msdn.microsoft.com/library/dd318
 [JET_COLTYP](gg269213\(v=exchg.10\).md)  
 [JET_INDEXCREATE](gg269186\(v=exchg.10\).md)  
 [JetOpenTempTable3](gg269255\(v=exchg.10\).md)
-

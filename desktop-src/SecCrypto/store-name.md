@@ -17,7 +17,7 @@ api_location:
 
 # Store.Name property
 
-\[The [**Name**](store-location.md) property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](https://msdn.microsoft.com/library/d228271e(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[The [**Name**](store-location.md) property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](/dotnet/api/system.security.cryptography.x509certificates.x509store?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
 
 The [**Name**](store-location.md) property retrieves the name of the certificate store that this object represents.
 
@@ -61,7 +61,3 @@ The value of the [**Name**](store-location.md) property is the same as the value
  
 
  
-
-
-
-

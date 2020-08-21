@@ -64,7 +64,7 @@ This sample is available in the following locations.
 
 <dl> <dt>
 
-[BasicPlayback Sample](https://msdn.microsoft.com/library/Bb970475(v=VS.85).aspx)
+[BasicPlayback Sample](/previous-versions//bb970475(v=vs.85))
 </dt> <dt>
 
 [Media Foundation SDK Samples](media-foundation-sdk-samples.md)
@@ -76,6 +76,3 @@ This sample is available in the following locations.
  
 
  
-
-
-

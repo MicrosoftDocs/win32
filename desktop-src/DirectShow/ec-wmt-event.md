@@ -44,11 +44,11 @@ Pointer to an [**AM\_WMT\_EVENT\_DATA**](/previous-versions/windows/desktop/api/
 
 | lParam1                       | AM\_WMT\_EVENT\_DATA.pData                                                                                                                       |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| WMT\_ACQUIRE\_LICENSE         | Pointer to a [**WM\_GET\_LICENSE\_DATA**](https://docs.microsoft.com/windows/desktop/wmformat/wm-get-license-data) structure. This structure is documented in the Windows Media Format SDK. |
-| WMT\_INDIVIDUALIZE            | Pointer to a [**WM\_INDIVIDUALIZE\_STATUS**](https://docs.microsoft.com/windows/desktop/wmformat/wm-individualize-status) structure.                                                        |
+| WMT\_ACQUIRE\_LICENSE         | Pointer to a [**WM\_GET\_LICENSE\_DATA**](/windows/desktop/wmformat/wm-get-license-data) structure. This structure is documented in the Windows Media Format SDK. |
+| WMT\_INDIVIDUALIZE            | Pointer to a [**WM\_INDIVIDUALIZE\_STATUS**](/windows/desktop/wmformat/wm-individualize-status) structure.                                                        |
 | WMT\_NEEDS\_INDIVIDUALIZATION | **NULL**.                                                                                                                                        |
 | WMT\_NO\_RIGHTS               | Pointer to a wide-character string containing a challenge URL.                                                                                   |
-| WMT\_NO\_RIGHTS\_EX           | Pointer to a [**WM\_GET\_LICENSE\_DATA**](https://docs.microsoft.com/windows/desktop/wmformat/wm-get-license-data) structure.                                                               |
+| WMT\_NO\_RIGHTS\_EX           | Pointer to a [**WM\_GET\_LICENSE\_DATA**](/windows/desktop/wmformat/wm-get-license-data) structure.                                                               |
 
 
 
@@ -83,9 +83,4 @@ See the Windows Media Format SDK documentation for more information on enabling 
 </dt> </dl>
 
  
-
- 
-
-
-
 

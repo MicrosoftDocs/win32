@@ -333,7 +333,7 @@
         href: parser-functions.md
         items: 
         - name: "AddProperty"
-          href: https://docs.microsoft.com/previous-versions/bb251873(v%3dmsdn.10)
+          href: /previous-versions/bb251873(v=msdn.10)
         - name: "AddressToString"
           href: addresstostring.md
         - name: "AttachPropertyInstance"

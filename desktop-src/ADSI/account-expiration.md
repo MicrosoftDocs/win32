@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # Account Expiration (LDAP Provider)
 
-To set the account expiration date, set the [**IADsUser.AccountExpirationDate**](iadsuser-property-methods.md) property to the desired date value. To disable the account expiration date, set the [**accountExpires**](https://docs.microsoft.com/windows/desktop/ADSchema/a-accountexpires) attribute to zero. The following code examples show how to set the expiration date.
+To set the account expiration date, set the [**IADsUser.AccountExpirationDate**](iadsuser-property-methods.md) property to the desired date value. To disable the account expiration date, set the [**accountExpires**](/windows/desktop/ADSchema/a-accountexpires) attribute to zero. The following code examples show how to set the expiration date.
 
 
 ```VB
@@ -79,14 +79,10 @@ HRESULT SetUserAccountExpirationDate(IADsUser *pUser, DATE date)
 
 
 > [!Note]  
-> The [**accountExpires**](https://docs.microsoft.com/windows/desktop/ADSchema/a-accountexpires) attribute contains the account expire date. The Active Directory Users and Computers MMC snap-in displays the date that the account will expire at the end of. That is, the Active Directory Users and Computers MMC snap-in will display the account expiration date as one day earlier than the date contained in the **accountExpires** attribute.
+> The [**accountExpires**](/windows/desktop/ADSchema/a-accountexpires) attribute contains the account expire date. The Active Directory Users and Computers MMC snap-in displays the date that the account will expire at the end of. That is, the Active Directory Users and Computers MMC snap-in will display the account expiration date as one day earlier than the date contained in the **accountExpires** attribute.
 
  
 
  
 
  
-
-
-
-

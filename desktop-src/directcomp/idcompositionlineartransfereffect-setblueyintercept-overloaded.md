@@ -24,8 +24,8 @@ Sets the Y-intercept of the linear function for the blue channel.
 
 | Method                                                                                                         | Description                                                                  |
 |:---------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
-| [**SetBlueYIntercept**](https://msdn.microsoft.com/library/Dn919750(v=VS.85).aspx)                               | Sets the Y-intercept of the linear function for the blue channel.<br/> |
-| [**SetBlueYIntercept (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919751(v=VS.85).aspx) | Sets the Y-intercept of the linear function for the blue channel.<br/> |
+| [**SetBlueYIntercept**](/windows/win32/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setblueyintercept(float))                               | Sets the Y-intercept of the linear function for the blue channel.<br/> |
+| [**SetBlueYIntercept (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setblueyintercept(idcompositionanimation)) | Sets the Y-intercept of the linear function for the blue channel.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Sets the Y-intercept of the linear function for the blue channel.
 
 <dl> <dt>
 
-[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/library/Dn919741(v=VS.85).aspx)
+[**IDCompositionLinearTransferEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionlineartransfereffect)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

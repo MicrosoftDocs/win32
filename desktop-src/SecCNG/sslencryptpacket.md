@@ -17,7 +17,7 @@ api_location:
 
 # SslEncryptPacket function
 
-The **SslEncryptPacket** function encrypts a single [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) packet.
+The **SslEncryptPacket** function encrypts a single [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) packet.
 
 ## Syntax
 
@@ -158,9 +158,4 @@ Possible return codes include, but are not limited to, the following.
 
 
  
-
- 
-
-
-
 

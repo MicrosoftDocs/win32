@@ -43,10 +43,10 @@ This topic lists the methods of the [**Image**](/windows/desktop/api/gdiplushead
 -   [**GetWidth**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-getwidth)
 -   [**RemovePropertyItem**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-removepropertyitem)
 -   [**RotateFlip**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-rotateflip)
--   [**Save(IStream\*,CLSID\*,EncoderParameters\*)**](https://msdn.microsoft.com/library/ms535406(v=VS.85).aspx)
--   [**Save(WCHAR\*,CLSID\*,EncoderParameters\*)**](https://msdn.microsoft.com/library/ms535407(v=VS.85).aspx)
--   [**SaveAdd(EncoderParameters\*)**](https://msdn.microsoft.com/library/ms535408(v=VS.85).aspx)
--   [**SaveAdd(Image\*,EncoderParameters\*)**](https://msdn.microsoft.com/library/ms535409(v=VS.85).aspx)
+-   [**Save(IStream\*,CLSID\*,EncoderParameters\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-save(inistream_inconstclsid_inconstencoderparameters))
+-   [**Save(WCHAR\*,CLSID\*,EncoderParameters\*)**](/previous-versions//ms535407(v=vs.85))
+-   [**SaveAdd(EncoderParameters\*)**](/previous-versions//ms535408(v=vs.85))
+-   [**SaveAdd(Image\*,EncoderParameters\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-saveadd(inimage_inconstencoderparameters))
 -   [**SelectActiveFrame**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-selectactiveframe)
 -   [**SetAbort**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-setabort)
 -   [**SetPalette**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-setpalette)
@@ -55,6 +55,3 @@ This topic lists the methods of the [**Image**](/windows/desktop/api/gdiplushead
  
 
  
-
-
-

@@ -38,7 +38,7 @@ HRESULT GetChildren(
 *puiChildren* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**SIZE\_T**](../winprog/windows-data-types.md)\***
 
 Address of a pointer to receive the number of children in this file data object.
 
@@ -71,7 +71,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
  
 
  
-
-
-
-

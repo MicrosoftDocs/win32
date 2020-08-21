@@ -8,7 +8,7 @@ ms.topic: reference
 
 # GraphicsPathIterator.NextSubpath methods
 
-This topic lists the NextSubpath methods of the [**GraphicsPathIterator**](https://msdn.microsoft.com/library/ms534458(v=VS.85).aspx) class. For a complete list of methods for the **GraphicsPathIterator** class, see [GraphicsPathIterator Methods](-gdiplus-class-graphicspathiterator-methods.md).
+This topic lists the NextSubpath methods of the [**GraphicsPathIterator**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspathiterator) class. For a complete list of methods for the **GraphicsPathIterator** class, see [GraphicsPathIterator Methods](-gdiplus-class-graphicspathiterator-methods.md).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the NextSubpath methods of the [**GraphicsPathIterator**](https
 
 | Method                                                                                                                   | Description                                                                                                                                                                                                                                                    |
 |:-------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**NextSubpath(INT\*,INT\*,BOOL\*)**](https://msdn.microsoft.com/library/ms535463(v=VS.85).aspx) | The [**GraphicsPathIterator::NextSubpath**](https://msdn.microsoft.com/library/ms535463(v=VS.85).aspx) method gets the starting index and the ending index of the next subpath (figure) in this iterator's associated path.<br/> |
-| [**NextSubpath(GraphicsPath\*,BOOL\*)**](https://msdn.microsoft.com/library/ms535462(v=VS.85).aspx)             | The [**GraphicsPathIterator::NextSubpath**](https://msdn.microsoft.com/library/ms535462(v=VS.85).aspx) method gets the next figure (subpath) from this iterator's associated path.<br/>                                                         |
+| [**NextSubpath(INT\*,INT\*,BOOL\*)**](/previous-versions//ms535463(v=vs.85)) | The [**GraphicsPathIterator::NextSubpath**](/previous-versions//ms535463(v=vs.85)) method gets the starting index and the ending index of the next subpath (figure) in this iterator's associated path.<br/> |
+| [**NextSubpath(GraphicsPath\*,BOOL\*)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextsubpath(outconstgraphicspath_outbool))             | The [**GraphicsPathIterator::NextSubpath**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextsubpath(outconstgraphicspath_outbool)) method gets the next figure (subpath) from this iterator's associated path.<br/>                                                         |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the NextSubpath methods of the [**GraphicsPathIterator**](https
  
 
  
-
-
-
-

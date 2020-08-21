@@ -20,7 +20,7 @@ The following table describes on which threads the [**InkOverlay**](inkoverlay-c
 | [**CursorInRange**](inkoverlay-cursorinrange.md)                                 | Fires on the ink thread<br/>                                                                                                                                        |
 | [**CursorOutOfRange**](inkoverlay-cursoroutofrange.md)                           | Fires on the ink thread<br/>                                                                                                                                        |
 | [**DoubleClick**](inkoverlay-doubleclick.md) (Automation only).                  | Fires on the application's user interface (UI) thread<br/>                                                                                                          |
-| [**DoubleClick**](https://msdn.microsoft.com/library/ms567634(v=VS.90).aspx) (Managed Library only). | Fires on the application's UI thread<br/>                                                                                                                           |
+| [**DoubleClick**](/previous-versions/ms567634(v=vs.100)) (Managed Library only). | Fires on the application's UI thread<br/>                                                                                                                           |
 | [**Gesture**](inkoverlay-gesture.md)                                             | Fires on the ink thread<br/>                                                                                                                                        |
 | [**MouseDown**](inkoverlay-mousedown.md)                                         | Fires on the application's UI thread<br/>                                                                                                                           |
 | [**MouseMove**](inkoverlay-mousemove.md)                                         | Fires on the application's UI thread<br/>                                                                                                                           |
@@ -48,9 +48,4 @@ The following table describes on which threads the [**InkOverlay**](inkoverlay-c
  
 
  
-
- 
-
-
-
 

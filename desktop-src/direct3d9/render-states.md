@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Render States (Direct3D 9)
 
-Device render states affect the behavior of almost every part of the pipeline. Render states are set by calling [**IDirect3DDevice9::SetRenderState**](https://msdn.microsoft.com/library/Bb174454(v=VS.85).aspx).
+Device render states affect the behavior of almost every part of the pipeline. Render states are set by calling [**IDirect3DDevice9::SetRenderState**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrenderstate).
 
 Additional information is contained in the following topics:
 
@@ -37,6 +37,3 @@ Additional information is contained in the following topics:
  
 
  
-
-
-

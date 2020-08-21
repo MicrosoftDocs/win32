@@ -21,7 +21,7 @@ api_location:
 Creates a font object.
 
 > [!Note]  
-> Instead of using this function, we recommend that you use [DirectWrite](https://msdn.microsoft.com/library/Dd368038(v=VS.85).aspx) and the [DirectXTK](https://github.com/Microsoft/DirectXTK) library, **SpriteFont** class.
+> Instead of using this function, we recommend that you use [DirectWrite](../directwrite/direct-write-portal.md) and the [DirectXTK](https://github.com/Microsoft/DirectXTK) library, **SpriteFont** class.
 
  
 
@@ -96,7 +96,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

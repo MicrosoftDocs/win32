@@ -48,7 +48,7 @@ The cause for the event, which may be the following values:
 | Value                                                                         | Description                                                                          |
 |-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | **const unsigned short** **CSHELPCAUSE\_COMMAND = 1;**<br/>             | The user selected a command supplied by your application.                            |
-| **const unsigned short** **CSHELPCAUSE\_OTHERPROGRAM = 2;**<br/>        | The user selected the [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) object of another client. |
+| **const unsigned short** **CSHELPCAUSE\_OTHERPROGRAM = 2;**<br/>        | The user selected the [**Commands**](/windows/desktop/lwef/the-commands-collection-object) object of another client. |
 | **const unsigned short** **CSHELPCAUSE\_OPENCOMMANDSWINDOW = 3;**<br/>  | The user selected the Open Voice Commands command.                                   |
 | **const unsigned short** **CSHELPCAUSE\_CLOSECOMMANDSWINDOW = 4;**<br/> | The user selected the Close Voice Commands command.                                  |
 | **const unsigned short** **CSHELPCAUSE\_SHOWCHARACTER = 5;**<br/>       | The user selected the Show *CharacterName* command.                                  |
@@ -75,10 +75,4 @@ This event is sent only to the client application that places the character into
 
 
  
-
- 
-
-
-
-
 

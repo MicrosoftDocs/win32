@@ -37,12 +37,8 @@ This event does not return a value.
 
 ## Remarks
 
-To handle notifications from this event, register a [**RenderingParametersUpdateHandler**](https://msdn.microsoft.com/library/Hh828994(v=VS.85).aspx) event handler function using the [**add\_RenderingParametersUpdate**](https://msdn.microsoft.com/library/Hh828928(v=VS.85).aspx) method. To unregister the event handler, use the [**remove\_RenderingParametersUpdate**](https://msdn.microsoft.com/library/Hh828940(v=VS.85).aspx) method.
+To handle notifications from this event, register a [**RenderingParametersUpdateHandler**](/previous-versions/windows/desktop/legacy/hh828994(v=vs.85)) event handler function using the [**add\_RenderingParametersUpdate**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-add_renderingparametersupdate) method. To unregister the event handler, use the [**remove\_RenderingParametersUpdate**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-remove_renderingparametersupdate) method.
 
  
 
  
-
-
-
-

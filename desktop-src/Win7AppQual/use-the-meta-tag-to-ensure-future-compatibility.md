@@ -27,7 +27,7 @@ The **meta** element includes a **content** attribute that enables you to specif
 
  
 
-For more information about compatibility and the X-UA-Compatible header, see [Defining Document Compatibility](https://msdn.microsoft.com/library/Cc288325(v=VS.85).aspx) in the MSDN Library.
+For more information about compatibility and the X-UA-Compatible header, see [Defining Document Compatibility](/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85)) in the MSDN Library.
 
 The following code example demonstrates how to force a webpage to be rendered in Internet Explorer 8 mode.
 
@@ -49,7 +49,7 @@ The following code example demonstrates how to force a webpage to be rendered in
 
 ## Using an HTTP Header
 
-Many websites contain thousands (or tens of thousands) of individual webpages so setting the **meta** element on each document is impractical. If you want to set the **meta** element for all pages or a collection of pages that are selected by folder, you can adjust your server configuration instead and add the X-UA-Compatible metadata in the [HTTP header](https://msdn.microsoft.com/cc817572.aspx).
+Many websites contain thousands (or tens of thousands) of individual webpages so setting the **meta** element on each document is impractical. If you want to set the **meta** element for all pages or a collection of pages that are selected by folder, you can adjust your server configuration instead and add the X-UA-Compatible metadata in the [HTTP header](/previous-versions/cc817572(v=msdn.10)).
 
 For sites that require different **meta** element values for pages on the same server, there are several tools that automatically generate and insert the appropriate **meta** element for you. For example, the [ArtinSoft Web Tools](http://www.aggiorno.com/what-is-aggiorno-ie8-compatibility-tagging.aspx) utility from Aggiorno inserts and removes the Internet Explorer 8 compatibility tag feature and can help your site meet specific compatibility standards.
 
@@ -63,6 +63,3 @@ For sites that require different **meta** element values for pages on the same s
  
 
  
-
-
-

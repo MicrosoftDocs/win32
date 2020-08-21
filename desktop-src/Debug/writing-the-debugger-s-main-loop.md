@@ -8,15 +8,15 @@ ms.date: 05/31/2018
 
 # Writing the Debugger's Main Loop
 
-The debugger uses the [**WaitForDebugEvent**](https://msdn.microsoft.com/library/ms681423(v=VS.85).aspx) function at the beginning of its main loop. This function blocks the debugger until a debugging event occurs. When the debugging event occurs, the system suspends all threads in the process being debugged and notifies the debugger of the event.
+The debugger uses the [**WaitForDebugEvent**](/windows/win32/api/debugapi/nf-debugapi-waitfordebugevent) function at the beginning of its main loop. This function blocks the debugger until a debugging event occurs. When the debugging event occurs, the system suspends all threads in the process being debugged and notifies the debugger of the event.
 
-The debugger can interact with the user, or manipulate the state of the process being debugged, by using the [**GetThreadContext**](https://msdn.microsoft.com/library/ms679362(v=VS.85).aspx), [**GetThreadSelectorEntry**](/windows/desktop/api/WinBase/nf-winbase-getthreadselectorentry), [**ReadProcessMemory**](https://msdn.microsoft.com/library/ms680553(v=VS.85).aspx), [**SetThreadContext**](https://msdn.microsoft.com/library/ms680632(v=VS.85).aspx), and [**WriteProcessMemory**](https://msdn.microsoft.com/library/ms681674(v=VS.85).aspx) functions. **GetThreadSelectorEntry** returns the descriptor table entry for a specified selector and thread. Debuggers use the descriptor table entry to convert a segment-relative address to a linear virtual address. The **ReadProcessMemory** and **WriteProcessMemory** functions require linear virtual addresses.
+The debugger can interact with the user, or manipulate the state of the process being debugged, by using the [**GetThreadContext**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getthreadcontext), [**GetThreadSelectorEntry**](/windows/desktop/api/WinBase/nf-winbase-getthreadselectorentry), [**ReadProcessMemory**](/windows/win32/api/memoryapi/nf-memoryapi-readprocessmemory), [**SetThreadContext**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadcontext), and [**WriteProcessMemory**](/windows/win32/api/memoryapi/nf-memoryapi-writeprocessmemory) functions. **GetThreadSelectorEntry** returns the descriptor table entry for a specified selector and thread. Debuggers use the descriptor table entry to convert a segment-relative address to a linear virtual address. The **ReadProcessMemory** and **WriteProcessMemory** functions require linear virtual addresses.
 
-Debuggers frequently read the memory of the process being debugged and write the memory that contains instructions to the instruction cache. After the instructions are written, the debugger calls the [**FlushInstructionCache**](https://msdn.microsoft.com/library/ms679350(v=VS.85).aspx) function to execute the cached instructions.
+Debuggers frequently read the memory of the process being debugged and write the memory that contains instructions to the instruction cache. After the instructions are written, the debugger calls the [**FlushInstructionCache**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-flushinstructioncache) function to execute the cached instructions.
 
-The debugger uses the [**ContinueDebugEvent**](https://msdn.microsoft.com/library/ms679285(v=VS.85).aspx) function at the end of its main loop. This function allows the process being debugged to continue executing.
+The debugger uses the [**ContinueDebugEvent**](/windows/win32/api/debugapi/nf-debugapi-continuedebugevent) function at the end of its main loop. This function allows the process being debugged to continue executing.
 
-The following example uses the [**WaitForDebugEvent**](https://msdn.microsoft.com/library/ms681423(v=VS.85).aspx) and [**ContinueDebugEvent**](https://msdn.microsoft.com/library/ms679285(v=VS.85).aspx) functions to illustrate how a simple debugger might be organized.
+The following example uses the [**WaitForDebugEvent**](/windows/win32/api/debugapi/nf-debugapi-waitfordebugevent) and [**ContinueDebugEvent**](/windows/win32/api/debugapi/nf-debugapi-continuedebugevent) functions to illustrate how a simple debugger might be organized.
 
 
 ```C++
@@ -159,6 +159,3 @@ void EnterDebugLoop(const LPDEBUG_EVENT DebugEv)
  
 
  
-
-
-

@@ -29,12 +29,9 @@ The reference section of this documentation contains the following sections.
 
 <dl> <dt>
 
-[**Windows Portable Devices**](https://docs.microsoft.com/windows/desktop/windows-portable-devices)
+[**Windows Portable Devices**](/windows/desktop/windows-portable-devices)
 </dt> </dl>
 
  
 
  
-
-
-

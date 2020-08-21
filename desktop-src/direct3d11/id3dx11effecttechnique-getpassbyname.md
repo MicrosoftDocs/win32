@@ -41,7 +41,7 @@ ID3DX11EffectPass* GetPassByName(
 *Name* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 The name of the pass.
 
@@ -81,10 +81,4 @@ A technique contains one or more passes; get a pass using a name or an index.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

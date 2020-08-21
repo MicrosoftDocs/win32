@@ -73,7 +73,7 @@ public static void JetGetTableColumnInfo(
 <!-- end list -->
 
   - columnName  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The name of the column.
 
@@ -95,4 +95,3 @@ public static void JetGetTableColumnInfo(
 [JetGetTableColumnInfo overload](dn292184\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

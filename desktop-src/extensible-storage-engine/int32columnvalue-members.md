@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-An [Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN) column value.
+An [Int32](/dotnet/api/system.int32) column value.
 
 The [Int32ColumnValue](dn350992\(v=exchg.10\).md) type exposes the following members.
 
@@ -165,4 +165,3 @@ Top
 [Int32ColumnValue class](dn350992\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

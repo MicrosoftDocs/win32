@@ -40,7 +40,7 @@ Sublanguage identifier.
 
 </dd> </dl>
 
-For more information, see [Language Identifier Constants and Strings](https://docs.microsoft.com/windows/desktop/Intl/language-identifier-constants-and-strings).
+For more information, see [Language Identifier Constants and Strings](/windows/desktop/Intl/language-identifier-constants-and-strings).
 
 ## See also
 
@@ -67,7 +67,3 @@ For more information, see [Language Identifier Constants and Strings](https://do
  
 
  
-
-
-
-

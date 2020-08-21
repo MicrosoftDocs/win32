@@ -8,24 +8,21 @@ ms.date: 05/31/2018
 
 # Window Structures
 
--   [**ALTTABINFO**](https://msdn.microsoft.com/library/ms632601(v=VS.85).aspx)
--   [**CHANGEFILTERSTRUCT**](https://msdn.microsoft.com/library/Dd388197(v=VS.85).aspx)
--   [**CLIENTCREATESTRUCT**](https://msdn.microsoft.com/library/ms632602(v=VS.85).aspx)
--   [**CREATESTRUCT**](https://msdn.microsoft.com/library/ms632603(v=VS.85).aspx)
--   [**GUITHREADINFO**](https://msdn.microsoft.com/library/ms632604(v=VS.85).aspx)
--   [**MINMAXINFO**](https://msdn.microsoft.com/library/ms632605(v=VS.85).aspx)
--   [**NCCALCSIZE\_PARAMS**](https://msdn.microsoft.com/library/ms632606(v=VS.85).aspx)
--   [**STYLESTRUCT**](https://msdn.microsoft.com/library/ms632607(v=VS.85).aspx)
--   [**TITLEBARINFO**](https://msdn.microsoft.com/library/ms632608(v=VS.85).aspx)
--   [**TITLEBARINFOEX**](https://msdn.microsoft.com/library/Aa969233(v=VS.85).aspx)
--   [**UPDATELAYEREDWINDOWINFO**](https://msdn.microsoft.com/library/ms632609(v=VS.85).aspx)
--   [**WINDOWINFO**](https://msdn.microsoft.com/library/ms632610(v=VS.85).aspx)
--   [**WINDOWPLACEMENT**](https://msdn.microsoft.com/library/ms632611(v=VS.85).aspx)
--   [**WINDOWPOS**](https://msdn.microsoft.com/library/ms632612(v=VS.85).aspx)
+-   [**ALTTABINFO**](/windows/win32/api/winuser/ns-winuser-alttabinfo)
+-   [**CHANGEFILTERSTRUCT**](/windows/win32/api/winuser/ns-winuser-changefilterstruct)
+-   [**CLIENTCREATESTRUCT**](/windows/win32/api/winuser/ns-winuser-clientcreatestruct)
+-   [**CREATESTRUCT**](/windows/win32/api/winuser/ns-winuser-createstructa)
+-   [**GUITHREADINFO**](/windows/win32/api/winuser/ns-winuser-guithreadinfo)
+-   [**MINMAXINFO**](/windows/win32/api/winuser/ns-winuser-minmaxinfo)
+-   [**NCCALCSIZE\_PARAMS**](/windows/win32/api/winuser/ns-winuser-nccalcsize_params)
+-   [**STYLESTRUCT**](/windows/win32/api/winuser/ns-winuser-stylestruct)
+-   [**TITLEBARINFO**](/windows/win32/api/winuser/ns-winuser-titlebarinfo)
+-   [**TITLEBARINFOEX**](/windows/win32/api/winuser/ns-winuser-titlebarinfoex)
+-   [**UPDATELAYEREDWINDOWINFO**](/windows/win32/api/winuser/ns-winuser-updatelayeredwindowinfo)
+-   [**WINDOWINFO**](/windows/win32/api/winuser/ns-winuser-windowinfo)
+-   [**WINDOWPLACEMENT**](/windows/win32/api/winuser/ns-winuser-windowplacement)
+-   [**WINDOWPOS**](/windows/win32/api/winuser/ns-winuser-windowpos)
 
  
 
  
-
-
-

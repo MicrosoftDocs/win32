@@ -333,11 +333,11 @@ Version number of the Remote Desktop license server.
 
 ## Remarks
 
-This class is a [singleton](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers) class and can have only one instance. All of the methods contained within this class are static.
+This class is a [singleton](/windows/desktop/WmiSdk/standard-wmi-qualifiers) class and can have only one instance. All of the methods contained within this class are static.
 
 You must be a member of the Administrators group to use this class. If the caller is not a member of the Administrators group, the properties returned will be empty.
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK). They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://docs.microsoft.com/windows/desktop/WmiSdk/managed-object-format--mof-).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK). They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## Requirements
 
@@ -370,10 +370,4 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

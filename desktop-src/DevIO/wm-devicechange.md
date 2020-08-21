@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Notifies an application of a change to the hardware configuration of a device or the computer.
 
-A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -138,9 +138,4 @@ For devices that offer software-controllable features, such as ejection and lock
 </dt> </dl>
 
  
-
- 
-
-
-
 

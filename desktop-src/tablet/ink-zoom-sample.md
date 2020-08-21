@@ -10,18 +10,18 @@ ms.date: 05/31/2018
 
 This sample program demonstrates how to zoom and scroll ink. In particular, it enables the user to zoom in and out of ink in increments. It also demonstrates how to zoom into a particular region using a zoom rectangle. Finally, this sample illustrates how to collect ink at different zoom ratios and how to set up scrolling within the zoomed drawing area.
 
-In the sample, the [Renderer](https://msdn.microsoft.com/library/ms828481(v=MSDN.10).aspx) object's view and object transforms are used to perform zooming and scrolling. The view transform applies to the points and the pen width. The object transform applies only to the points. The user can control which transform is used by changing the Scale Pen Width item on the Mode menu.
+In the sample, the [Renderer](/previous-versions/ms828481(v=msdn.10)) object's view and object transforms are used to perform zooming and scrolling. The view transform applies to the points and the pen width. The object transform applies only to the points. The user can control which transform is used by changing the Scale Pen Width item on the Mode menu.
 
 > [!Note]  
-> It is problematic to perform some COM calls on certain interface methods ([**InkRenderer.SetViewTransform**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setviewtransform) and [**InkRenderer.SetObjectTransform**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setobjecttransform), for example) when a message has been SENT. When messages are SENT, they need to be marshalled to the POST message queue. To address this scenario, test whether you are handling a message from POST by calling [**InSendMesssageEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insendmessageex) and POST the message to yourself if the message was SENT.
+> It is problematic to perform some COM calls on certain interface methods ([**InkRenderer.SetViewTransform**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setviewtransform) and [**InkRenderer.SetObjectTransform**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setobjecttransform), for example) when a message has been SENT. When messages are SENT, they need to be marshalled to the POST message queue. To address this scenario, test whether you are handling a message from POST by calling [**InSendMesssageEx**](/windows/desktop/api/winuser/nf-winuser-insendmessageex) and POST the message to yourself if the message was SENT.
 
  
 
 The following features are used in this sample:
 
--   The [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx) object
--   The [Renderer](https://msdn.microsoft.com/library/ms828481(v=MSDN.10).aspx) object's [SetViewTransform](https://msdn.microsoft.com/library/ms828514(v=MSDN.10).aspx) method
--   The [Renderer](https://msdn.microsoft.com/library/ms828481(v=MSDN.10).aspx) object's [SetObjectTransform](https://msdn.microsoft.com/library/ms828513(v=MSDN.10).aspx) method
+-   The [InkCollector](/previous-versions/ms583683(v=vs.100)) object
+-   The [Renderer](/previous-versions/ms828481(v=msdn.10)) object's [SetViewTransform](/previous-versions/ms828514(v=msdn.10)) method
+-   The [Renderer](/previous-versions/ms828481(v=msdn.10)) object's [SetObjectTransform](/previous-versions/ms828513(v=msdn.10)) method
 
 ## Initializing the Form
 
@@ -34,7 +34,7 @@ using Microsoft.Ink;
 
 
 
-The sample declares an [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx), `myInkCollector`, and some private members to help with scaling.
+The sample declares an [InkCollector](/previous-versions/ms583683(v=vs.100)), `myInkCollector`, and some private members to help with scaling.
 
 
 ```C++
@@ -58,7 +58,7 @@ private const float MediumInkWidth = 100;
 
 
 
-Then the sample creates and enables the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx) in the form's [Load](https://msdn.microsoft.com/library/4w303742(v=VS.90).aspx) event handler. Also, the [Width](https://msdn.microsoft.com/library/ms837941(v=MSDN.10).aspx) property of the InkCollector object's [DefaultDrawingAttributes](https://msdn.microsoft.com/library/ms836500(v=MSDN.10).aspx) property is set. Finally, the scroll bar ranges are defined and the application's `UpdateZoomAndScroll` method is called.
+Then the sample creates and enables the [InkCollector](/previous-versions/ms583683(v=vs.100)) in the form's [Load](/dotnet/api/system.windows.forms.form.load?view=netcore-3.1) event handler. Also, the [Width](/previous-versions/ms837941(v=msdn.10)) property of the InkCollector object's [DefaultDrawingAttributes](/previous-versions/ms836500(v=msdn.10)) property is set. Finally, the scroll bar ranges are defined and the application's `UpdateZoomAndScroll` method is called.
 
 
 ```C++
@@ -95,7 +95,7 @@ private void InkZoom_Load(object sender, System.EventArgs e)
 The drawing area of the ink collector is affected by many events. In the `UpdateZoomAndScroll` method, a transformation matrix is used to both scale and translate the ink collector within the window.
 
 > [!Note]  
-> The [Renderer](https://msdn.microsoft.com/library/ms828481(v=MSDN.10).aspx) object's [SetViewTransform](https://msdn.microsoft.com/library/ms828514(v=MSDN.10).aspx) method applies the transform to both the strokes and the pen width, while the [SetObjectTransform](https://msdn.microsoft.com/library/ms828513(v=MSDN.10).aspx) method only applies the transform to the strokes.
+> The [Renderer](/previous-versions/ms828481(v=msdn.10)) object's [SetViewTransform](/previous-versions/ms828514(v=msdn.10)) method applies the transform to both the strokes and the pen width, while the [SetObjectTransform](/previous-versions/ms828513(v=msdn.10)) method only applies the transform to the strokes.
 
  
 
@@ -134,7 +134,7 @@ Refresh();
 
 ## Managing the Scroll Bars
 
-The `UpdateScrollBars` method sets up the scroll bars to work correctly with the current window size, zoom setting, and scroll location within the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx). This method calculates the large change and small change values for the vertical and horizontal scroll bars. It also calculates the current value of the scroll bars and whether they should be visible. The [Renderer](https://msdn.microsoft.com/library/ms828481(v=MSDN.10).aspx) object's [PixelToInkSpace](https://msdn.microsoft.com/library/ms828505(v=MSDN.10).aspx) method handles the conversion from pixels to the zoomed coordinate space and accounts for any scaling and scrolling that is applied through the view and object transforms.
+The `UpdateScrollBars` method sets up the scroll bars to work correctly with the current window size, zoom setting, and scroll location within the [InkCollector](/previous-versions/ms583683(v=vs.100)). This method calculates the large change and small change values for the vertical and horizontal scroll bars. It also calculates the current value of the scroll bars and whether they should be visible. The [Renderer](/previous-versions/ms828481(v=msdn.10)) object's [PixelToInkSpace](/previous-versions/ms828505(v=msdn.10)) method handles the conversion from pixels to the zoomed coordinate space and accounts for any scaling and scrolling that is applied through the view and object transforms.
 
 
 ```C++
@@ -190,15 +190,12 @@ if(vScrollBar.Visible && (vScrollBar.Value + vScrollBar.LargeChange > vScrollBar
 
 ## Zooming to a Rectangle
 
-The `pnlDrawingArea` panel event handlers manage drawing the rectangle to the window. If the Zoom To Rect command is checked on the Mode menu, then the [MouseUp](https://msdn.microsoft.com/library/ms567618(v=VS.90).aspx) event handler calls the application's `ZoomToRectangle` method. The `ZoomToRectangle` method calculates the width and height of the rectangle, checks for boundary conditions, updates the scroll bar values and the scale factor, and then calls the application's `UpdateZoomAndScroll` method to apply the new settings.
+The `pnlDrawingArea` panel event handlers manage drawing the rectangle to the window. If the Zoom To Rect command is checked on the Mode menu, then the [MouseUp](/previous-versions/ms567618(v=vs.100)) event handler calls the application's `ZoomToRectangle` method. The `ZoomToRectangle` method calculates the width and height of the rectangle, checks for boundary conditions, updates the scroll bar values and the scale factor, and then calls the application's `UpdateZoomAndScroll` method to apply the new settings.
 
 ## Closing the Form
 
-The form's [Dispose](https://msdn.microsoft.com/library/d305e9bx(v=VS.100).aspx) method disposes the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx) object.
+The form's [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) method disposes the [InkCollector](/previous-versions/ms583683(v=vs.100)) object.
 
  
 
  
-
-
-

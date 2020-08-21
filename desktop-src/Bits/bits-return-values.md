@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # BITS Return Values
 
-The Bitsmsg.h file contains the following return value constants. The constants represent return values that BITS generates and HTTP return values that BITS captures. All other return values that you can receive are COM, RPC, or converted Windows return values (BITS uses the [HRESULT\_FROM\_WIN32](https://msdn.microsoft.com/library/ms680746.aspx) macro to convert the Windows return values to HRESULT values).
+The Bitsmsg.h file contains the following return value constants. The constants represent return values that BITS generates and HTTP return values that BITS captures. All other return values that you can receive are COM, RPC, or converted Windows return values (BITS uses the [HRESULT\_FROM\_WIN32](/windows/win32/api/winerror/nf-winerror-hresult_from_win32) macro to convert the Windows return values to HRESULT values).
 
 Note that the Bitsmsg.h file contains additional return values not listed below.
 
@@ -405,7 +405,3 @@ The Bitsmsg.h header file contains additional HTTP return values not listed abov
  
 
  
-
-
-
-

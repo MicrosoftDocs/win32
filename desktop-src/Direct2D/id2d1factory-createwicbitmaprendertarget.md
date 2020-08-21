@@ -25,8 +25,8 @@ Creates a render target that renders to a Microsoft Windows Imaging Component (W
 
 | Method                                                                                                                                                                                                                            | Description                                                                                            |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|
-| [**CreateWicBitmapRenderTarget(IWICBitmap\*,D2D1\_RENDER\_TARGET\_PROPERTIES\*,ID2D1RenderTarget\*\*)**](https://msdn.microsoft.com/library/Dd371309(v=VS.85).aspx) | Creates a render target that renders to a Microsoft Windows Imaging Component (WIC) bitmap.<br/> |
-| [**CreateWicBitmapRenderTarget(IWICBitmap\*,D2D1\_RENDER\_TARGET\_PROPERTIES&,ID2D1RenderTarget\*\*)**](https://msdn.microsoft.com/library/Dd371313(v=VS.85).aspx)  | Creates a render target that renders to a Microsoft Windows Imaging Component (WIC) bitmap.<br/> |
+| [**CreateWicBitmapRenderTarget(IWICBitmap\*,D2D1\_RENDER\_TARGET\_PROPERTIES\*,ID2D1RenderTarget\*\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createwicbitmaprendertarget(iwicbitmap_constd2d1_render_target_properties_id2d1rendertarget)) | Creates a render target that renders to a Microsoft Windows Imaging Component (WIC) bitmap.<br/> |
+| [**CreateWicBitmapRenderTarget(IWICBitmap\*,D2D1\_RENDER\_TARGET\_PROPERTIES&,ID2D1RenderTarget\*\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createwicbitmaprendertarget(iwicbitmap_constd2d1_render_target_properties__id2d1rendertarget))  | Creates a render target that renders to a Microsoft Windows Imaging Component (WIC) bitmap.<br/> |
 
 
 
@@ -53,14 +53,8 @@ Your application should create render targets once and hold onto them for the li
 
 <dl> <dt>
 
-[**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx)
+[**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

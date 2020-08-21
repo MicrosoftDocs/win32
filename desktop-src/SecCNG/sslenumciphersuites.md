@@ -17,7 +17,7 @@ api_location:
 
 # SslEnumCipherSuites function
 
-The **SslEnumCipherSuites** function enumerates the cipher suites supported by a [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider.
+The **SslEnumCipherSuites** function enumerates the cipher suites supported by a [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) protocol provider.
 
 ## Syntax
 
@@ -48,7 +48,7 @@ The handle of the SSL protocol provider instance.
 *hPrivateKey* \[in, optional\]
 </dt> <dd>
 
-The handle of a [*private key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly). When a private key is specified, **SslEnumCipherSuites** enumerates the cipher suites that are compatible with the private key. For example, if the private key is a DSS key, then only the DSS\_DHE cipher suites are returned. If the private key is an RSA key, but it does not support raw decryption operations, then the SSL2 cipher suites are not returned.
+The handle of a [*private key*](/windows/desktop/SecGloss/p-gly). When a private key is specified, **SslEnumCipherSuites** enumerates the cipher suites that are compatible with the private key. For example, if the private key is a DSS key, then only the DSS\_DHE cipher suites are returned. If the private key is an RSA key, but it does not support raw decryption operations, then the SSL2 cipher suites are not returned.
 
 Set this parameter to **NULL** when you are not specifying a private key.
 
@@ -130,9 +130,4 @@ To enumerate all cipher suites supported by the SSL provider, call the **SslEnum
 </dt> </dl>
 
  
-
- 
-
-
-
 

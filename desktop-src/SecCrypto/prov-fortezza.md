@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PROV\_FORTEZZA
 
-The PROV\_FORTEZZA provider type contains a set of cryptographic protocols and algorithms owned by the [*National Institute of Standards and Technology*](https://msdn.microsoft.com/library/ms721596(v=VS.85).aspx) (NIST).
+The PROV\_FORTEZZA provider type contains a set of cryptographic protocols and algorithms owned by the [*National Institute of Standards and Technology*](../secgloss/n-gly.md) (NIST).
 
 ## Algorithms Supported
 
@@ -18,10 +18,10 @@ For descriptions of each of these algorithms, see the glossary.
 
 | Purpose      | Supported algorithms                                                                                      |
 |--------------|-----------------------------------------------------------------------------------------------------------|
-| Key Exchange | [*KEA*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx)         |
-| Signature    | [*DSS*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) |
-| Encryption   | [*Skipjack*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx)                                |
-| Hashing      | [*SHA*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx)           |
+| Key Exchange | [*KEA*](../secgloss/k-gly.md)         |
+| Signature    | [*DSS*](../secgloss/d-gly.md) |
+| Encryption   | [*Skipjack*](../secgloss/s-gly.md)                                |
+| Hashing      | [*SHA*](../secgloss/s-gly.md)           |
 
 
 
@@ -29,11 +29,8 @@ For descriptions of each of these algorithms, see the glossary.
 
 ## Related Documentation
 
-More information is available directly from the [*National Institute of Standards and Technology*](https://msdn.microsoft.com/library/ms721596(v=VS.85).aspx) (NIST).
+More information is available directly from the [*National Institute of Standards and Technology*](../secgloss/n-gly.md) (NIST).
 
  
 
  
-
-
-

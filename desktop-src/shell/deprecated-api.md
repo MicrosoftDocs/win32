@@ -21,11 +21,11 @@ topic_type:
 
 \[This function is available through Windows XP with SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
-\[[**CharLowerWrapW**](charlowerwrapw.md) is available for use in Windows XP. It may not be available in subsequent versions. You should use [**CharLowerW**](https://msdn.microsoft.com/library/ms647467(v=VS.85).aspx) in its place.\]
+\[[**CharLowerWrapW**](charlowerwrapw.md) is available for use in Windows XP. It may not be available in subsequent versions. You should use [**CharLowerW**](/windows/win32/api/winuser/nf-winuser-charlowera) in its place.\]
 
-\[[**CharUpperBuffWrapW**](charupperbuffwrapw.md) is available for use in Windows XP. It may not be available in subsequent versions. You should use [**CharUpperBuffW**](https://msdn.microsoft.com/library/ms647475(v=VS.85).aspx) in its place.\]
+\[[**CharUpperBuffWrapW**](charupperbuffwrapw.md) is available for use in Windows XP. It may not be available in subsequent versions. You should use [**CharUpperBuffW**](/windows/win32/api/winuser/nf-winuser-charupperbuffa) in its place.\]
 
-\[[**CompareStringWrapW**](comparestringwrapw.md) is available for use in Windows XP. It will not be available in subsequent versions. You should use [**CompareStringW**](https://msdn.microsoft.com/library/Dd317759(v=VS.85).aspx) in its place.\]
+\[[**CompareStringWrapW**](comparestringwrapw.md) is available for use in Windows XP. It will not be available in subsequent versions. You should use [**CompareStringW**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) in its place.\]
 
 \[This function is available through Windows XP and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
@@ -37,43 +37,43 @@ topic_type:
 
 \[ [**DAD\_AutoScroll**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_autoscroll) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions.\]
 
-\[ [**DAD\_DragEnterEx**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragEnter**](https://msdn.microsoft.com/library/Bb761526(v=VS.85).aspx) instead. \]
+\[ [**DAD\_DragEnterEx**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragEnter**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragenter) instead. \]
 
-\[ [**DAD\_DragEnterEx2**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex2) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragEnter**](https://msdn.microsoft.com/library/Bb761526(v=VS.85).aspx) instead.\]
+\[ [**DAD\_DragEnterEx2**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex2) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragEnter**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragenter) instead.\]
 
-\[ [**DAD\_DragLeave**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragleave) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragLeave**](https://msdn.microsoft.com/library/Bb761528(v=VS.85).aspx) instead.\]
+\[ [**DAD\_DragLeave**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragleave) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragLeave**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragleave) instead.\]
 
-\[ [**DAD\_DragMove**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragmove) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragMove**](https://msdn.microsoft.com/library/Bb761530(v=VS.85).aspx) instead. \]
+\[ [**DAD\_DragMove**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragmove) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragMove**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragmove) instead. \]
 
-\[ [**DAD\_SetDragImage**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_setdragimage) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_BeginDrag**](https://msdn.microsoft.com/library/Bb761516(v=VS.85).aspx) instead.\]
+\[ [**DAD\_SetDragImage**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_setdragimage) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_BeginDrag**](/windows/win32/api/commctrl/nf-commctrl-imagelist_begindrag) instead.\]
 
-\[ [**DAD\_ShowDragImage**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_showdragimage) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragShowNolock**](https://msdn.microsoft.com/library/Bb761532(v=VS.85).aspx) instead. \]
+\[ [**DAD\_ShowDragImage**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_showdragimage) is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use [**ImageList\_DragShowNolock**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragshownolock) instead. \]
 
-\[This function is retained only for backward compatibility. Use [**ExpandEnvironmentStrings**](https://msdn.microsoft.com/library/ms724265(v=VS.85).aspx) instead.\]
+\[This function is retained only for backward compatibility. Use [**ExpandEnvironmentStrings**](/windows/win32/api/processenv/nf-processenv-expandenvironmentstringsa) instead.\]
 
 \[This function is available through Windows XP with SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. \]
 
 \[This function is available on Windows XP with SP2 through Windows Vista. It might be altered or unavailable in subsequent versions of Windows. Client applications instead should use [**IAttachmentExecute**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute) to present a user environment that provides safe download and exchange of files through email and messaging attachments.\]
 
-\[[**FindResourceWrapW**](findresourcewrapw.md) is available for use in Windows XP. It may not be available in subsequent versions. You should use [**FindResourceW**](https://msdn.microsoft.com/library/ms648042(v=VS.85).aspx) instead.\]
+\[[**FindResourceWrapW**](findresourcewrapw.md) is available for use in Windows XP. It may not be available in subsequent versions. You should use [**FindResourceW**](/windows/win32/api/winbase/nf-winbase-findresourcea) instead.\]
 
-\[[**GetDateFormatWrapW**](getdateformatwrapw.md) is available for use in Windows XP. It will not be available in subsequent versions. You should use [**GetDateFormatW**](https://msdn.microsoft.com/library/Dd318086(v=VS.85).aspx) in its place.\]
-
-\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
-
-\[[**GetTimeFormatWrapW**](gettimeformatwrapw.md) is available for use in Windows XP. It may not be available in subsequent versions. You should use [**GetTimeFormatW**](https://msdn.microsoft.com/library/Dd318130(v=VS.85).aspx) in its place.\]
-
-\[ [**GUIDFromString**](guidfromstring.md) is available through Windows XP with SP2 or Windows Vista. It might be altered or unavailable in subsequent versions. Applications should use [**CLSIDFromString**](https://msdn.microsoft.com/library/ms680589(v=VS.85).aspx) or [**IIDFromString**](https://msdn.microsoft.com/library/ms687262(v=VS.85).aspx) in place of this function.\]
+\[[**GetDateFormatWrapW**](getdateformatwrapw.md) is available for use in Windows XP. It will not be available in subsequent versions. You should use [**GetDateFormatW**](/windows/win32/api/datetimeapi/nf-datetimeapi-getdateformata) in its place.\]
 
 \[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
-\[[**IsCharAlphaNumericWrapW**](ischaralphanumericwrapw.md) is available for use in Windows XP. It will not be available in subsequent versions. You should use [**IsCharAlphaNumericW**](https://msdn.microsoft.com/library/ms647483(v=VS.85).aspx) in its place.\]
+\[[**GetTimeFormatWrapW**](gettimeformatwrapw.md) is available for use in Windows XP. It may not be available in subsequent versions. You should use [**GetTimeFormatW**](/windows/win32/api/datetimeapi/nf-datetimeapi-gettimeformata) in its place.\]
 
-\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**GetDriveType**](https://msdn.microsoft.com/library/Aa364939(v=VS.85).aspx) or [**WNetGetConnection**](https://msdn.microsoft.com/library/Aa385453(v=VS.85).aspx) instead.\]
+\[ [**GUIDFromString**](guidfromstring.md) is available through Windows XP with SP2 or Windows Vista. It might be altered or unavailable in subsequent versions. Applications should use [**CLSIDFromString**](/windows/win32/api/combaseapi/nf-combaseapi-clsidfromstring) or [**IIDFromString**](/windows/win32/api/combaseapi/nf-combaseapi-iidfromstring) in place of this function.\]
+
+\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
+
+\[[**IsCharAlphaNumericWrapW**](ischaralphanumericwrapw.md) is available for use in Windows XP. It will not be available in subsequent versions. You should use [**IsCharAlphaNumericW**](/windows/win32/api/winuser/nf-winuser-ischaralphanumerica) in its place.\]
+
+\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**GetDriveType**](/windows/win32/api/fileapi/nf-fileapi-getdrivetypea) or [**WNetGetConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetconnectiona) instead.\]
 
 \[This interface is supported through Windows XP SP2 and Windows Server 2003. It might be unsupported in subsequent versions of Windows.\]
 
-\[This function is available through Windows XP with SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**InitCommonControlsEx**](https://msdn.microsoft.com/library/Bb775697(v=VS.85).aspx) instead.\]
+\[This function is available through Windows XP with SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**InitCommonControlsEx**](/windows/win32/api/commctrl/nf-commctrl-initcommoncontrolsex) instead.\]
 
 \[This function is available through Windows XP with SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
@@ -85,7 +85,7 @@ topic_type:
 
 \[This function is available through Windows XP and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
-\[This function is available for use in Windows XP. It may not be available in subsequent versions. Use [**OutputDebugStringW**](https://msdn.microsoft.com/library/Aa363362(v=VS.85).aspx) in its place.\]
+\[This function is available for use in Windows XP. It may not be available in subsequent versions. Use [**OutputDebugStringW**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) in its place.\]
 
 \[The [**ParseField**](parsefield.md) function is currently expected to be available for use in the next version of the Microsoft Windows operating system. It might be altered or unavailable in subsequent versions.\]
 
@@ -101,7 +101,7 @@ topic_type:
 
 \[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
-\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**CoTaskMemAlloc**](https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx) instead.\]
+\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**CoTaskMemAlloc**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc) instead.\]
 
 \[This function is available through Windows XP and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
@@ -109,13 +109,13 @@ topic_type:
 
 \[This structure is not supported.\]
 
-\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**CLSIDFromString**](https://msdn.microsoft.com/library/ms680589(v=VS.85).aspx) instead.\]
+\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**CLSIDFromString**](/windows/win32/api/combaseapi/nf-combaseapi-clsidfromstring) instead.\]
 
 \[[**SHCreateProcessAsUserW**](/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw) is not implemented under Windows XP or later systems.\]
 
 \[[**SHCreateProcessAsUserW**](/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw) is no longer implemented in Windows XP or later versions.\]
 
-\[This function is deprecated. Use [**CreateClassMoniker**](https://msdn.microsoft.com/library/ms688698(v=VS.85).aspx) instead. Note that the CLSID used in the call to **CreateClassMoniker** must be application-defined. Do not call **CreateClassMoniker** with a system-defined CLSID.\]
+\[This function is deprecated. Use [**CreateClassMoniker**](/windows/win32/api/objbase/nf-objbase-createclassmoniker) instead. Note that the CLSID used in the call to **CreateClassMoniker** must be application-defined. Do not call **CreateClassMoniker** with a system-defined CLSID.\]
 
 \[ [**SHDestroyPropSheetExtArray**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shdestroypropsheetextarray) is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
@@ -123,15 +123,15 @@ topic_type:
 
 \[ [**SHExtractIconsW**](shextracticonsw.md) is available through Windows XP SP2. It might be altered or unavailable in subsequent versions.\]
 
-\[This function is available through Windows XP SP2 and Windows Server 2003. It is not supported under Windows Vista and later. Use [**OleFlushClipboard**](https://msdn.microsoft.com/library/ms679707(v=VS.85).aspx) instead.\]
+\[This function is available through Windows XP SP2 and Windows Server 2003. It is not supported under Windows Vista and later. Use [**OleFlushClipboard**](/windows/win32/api/ole2/nf-ole2-oleflushclipboard) instead.\]
 
-\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**CoTaskMemFree**](https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx) instead.\]
+\[This function is available through Windows XP SP2 and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) instead.\]
 
 \[This function is available through Windows XP and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
 \[[**SHGetMalloc**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetmalloc) is available through Windows Vista and Windows Server 2003, but may be altered or unavailable in subsequent versions of the operating system or product. See the Remarks section for alternate recommendations.\]
 
-\[[**SHGetShellStyleHInstance**](https://msdn.microsoft.com/library/Bb762202(v=VS.85).aspx) is available for use in the Windows XP operating system up to and including SP2. It is not available in later versions of Windows, such as Windows Vista.\]
+\[[**SHGetShellStyleHInstance**](/previous-versions/windows/desktop/legacy/bb762202(v=vs.85)) is available for use in the Windows XP operating system up to and including SP2. It is not available in later versions of Windows, such as Windows Vista.\]
 
 \[This function is available through Windows XP and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
@@ -189,9 +189,9 @@ topic_type:
 
 \[This interface is supported through Windows XP SP2 and Windows Server 2003. It is not supported as of Windows Vista.\]
 
-\[The [**IEnumSyncItems**](https://msdn.microsoft.com/library/Bb761957(v=VS.85).aspx) interface is available for use through Windows XP. It is not available in subsequent versions of Windows.\]
+\[The [**IEnumSyncItems**](/previous-versions/windows/desktop/legacy/bb761957(v=vs.85)) interface is available for use through Windows XP. It is not available in subsequent versions of Windows.\]
 
-\[The [**IEnumSyncSchedules**](https://msdn.microsoft.com/library/Bb761937(v=VS.85).aspx) interface is available for use through Windows XP. It is unavailable in subsequent versions of Windows.\]
+\[The [**IEnumSyncSchedules**](/previous-versions/windows/desktop/legacy/bb761937(v=vs.85)) interface is available for use through Windows XP. It is unavailable in subsequent versions of Windows.\]
 
 \[The [**IIdentityChangeNotify**](iidentitychangenotify.md) interface is available for use in Windows 2000. In Windows XP, this functionality has been superseded by [User Accounts with Fast User Switching and Remote Desktop](fastuserswitching.md), and might be altered or unavailable in subsequent versions.\]
 
@@ -203,15 +203,15 @@ topic_type:
 
 \[This interface is supported through Windows XP SP2 and Windows Server 2003. It might be unsupported in subsequent versions of Windows.\]
 
-\[ [**IShellFolderView**](https://msdn.microsoft.com/library/Bb774989(v=VS.85).aspx) is no longer available for use as of Windows 7. Instead, use [**IFolderView2**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview2) and [**IFolderView**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview).\]
+\[ [**IShellFolderView**](/windows/win32/api/shlobj_core/nn-shlobj_core-ishellfolderview) is no longer available for use as of Windows 7. Instead, use [**IFolderView2**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview2) and [**IFolderView**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview).\]
 
 \[This interface will eventually be unsupported. It is recommended that Windows GDI+ APIs be used in place of [**IShellImageData**](/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedata) methods.\]
 
-\[[**IShellTaskScheduler2**](https://msdn.microsoft.com/library/Bb774852(v=VS.85).aspx) is available in Windows XP. It might be altered or unavailable in subsequent versions.\]
+\[[**IShellTaskScheduler2**](/previous-versions/windows/desktop/legacy/bb774852(v=vs.85)) is available in Windows XP. It might be altered or unavailable in subsequent versions.\]
 
-\[The [**ISyncSchedule**](https://msdn.microsoft.com/library/Bb774693(v=VS.85).aspx) interface is available for use through Windows XP. It is not available in subsequent versions of Windows.\]
+\[The [**ISyncSchedule**](/previous-versions/windows/desktop/isync-schedule/bb774693(v=vs.85)) interface is available for use through Windows XP. It is not available in subsequent versions of Windows.\]
 
-\[The [**ISyncScheduleMgr**](https://msdn.microsoft.com/library/Bb774672(v=VS.85).aspx) interface is available for use through Windows XP. It is not available in subsequent versions of Windows.\]
+\[The [**ISyncScheduleMgr**](/previous-versions/windows/desktop/isync-schedule-mgr/bb774672(v=vs.85)) interface is available for use through Windows XP. It is not available in subsequent versions of Windows.\]
 
 \[ [**ITravelEntry**](/windows/desktop/api/Shdeprecated/nn-shdeprecated-itravelentry) may not be supported in versions of Windows later than Windows XP.\]
 
@@ -450,7 +450,7 @@ The following APIs are either deprecated or superseded by newer APIs.
 </tr>
 <tr class="odd">
 <td><a href="linkwindow-registerclass.md"><strong>LinkWindow_RegisterClass</strong></a><br/></td>
-<td>Registers a window class that allows for the <a href="https://docs.microsoft.com/windows/desktop/Controls/syslink-overview">SysLink</a> common control to be used in a window.<br/></td>
+<td>Registers a window class that allows for the <a href="/windows/desktop/Controls/syslink-overview">SysLink</a> common control to be used in a window.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="linkwindow-unregisterclass.md"><strong>LinkWindow_UnregisterClass</strong></a><br/></td>
@@ -965,7 +965,7 @@ This function has been replaced by <a href="/windows/desktop/api/Shlwapi/nf-shlw
 <td>Exposes methods that enable the addition of custom columns in the Windows Explorer Details view. <br/>
 <blockquote>
 [!Note]<br />
-Support for <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider"><strong>IColumnProvider</strong></a> has been removed as of Windows Vista. The Windows property system is used in its place. See <a href="https://docs.microsoft.com/windows/desktop/properties/windows-properties-system">Windows Property System</a> for conceptual materials that explain the use of the new system.
+Support for <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider"><strong>IColumnProvider</strong></a> has been removed as of Windows Vista. The Windows property system is used in its place. See <a href="/windows/desktop/properties/windows-properties-system">Windows Property System</a> for conceptual materials that explain the use of the new system.
 </blockquote>
 <br/></td>
 </tr>
@@ -1182,7 +1182,3 @@ This interface is deprecated as of Windows 7. The feature it supported is no lo
  
 
  
-
-
-
-

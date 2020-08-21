@@ -8,13 +8,10 @@ ms.date: 05/31/2018
 
 # Permissions Property Page
 
-The **Permissions** property page contains controls for advanced editing of the [*ACEs*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) in an object's [*DACL*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly). This page enables the user to view and edit all of the information in the DACL, including information that is not available on the [basic security property page](basic-security-property-page.md). The advanced information includes [object-specific ACEs](object-specific-aces.md) and information about [ACE inheritance](ace-inheritance.md).
+The **Permissions** property page contains controls for advanced editing of the [*ACEs*](/windows/desktop/SecGloss/a-gly) in an object's [*DACL*](/windows/desktop/SecGloss/d-gly). This page enables the user to view and edit all of the information in the DACL, including information that is not available on the [basic security property page](basic-security-property-page.md). The advanced information includes [object-specific ACEs](object-specific-aces.md) and information about [ACE inheritance](ace-inheritance.md).
 
 The **Permissions** property page is always included in the [advanced security property sheet](advanced-security-property-sheet.md) displayed when the user clicks the **Advanced** button on the basic security property page.
 
  
 
  
-
-
-

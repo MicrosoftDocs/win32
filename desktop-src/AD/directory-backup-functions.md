@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Directory Backup Functions
 
-\[These functions are available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](https://msdn2.microsoft.com/library/aa384649.aspx) instead.\]
+\[These functions are available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](../vss/volume-shadow-copy-service-overview.md) instead.\]
 
 The following functions are used with the backup and restore operations in Active Directory Domain Services:
 
@@ -34,7 +34,3 @@ The following functions are used with the backup and restore operations in Activ
  
 
  
-
-
-
-

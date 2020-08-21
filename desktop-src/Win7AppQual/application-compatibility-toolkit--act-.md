@@ -9,7 +9,7 @@ ms.date: 06/12/2020
 # Application Compatibility Toolkit (ACT)
 
 > [!IMPORTANT]
-> The Application Compatibility Toolkit versions covered in this article are no longer supported. The last supported version is included in the [Windows 10 Assessment and Deployment Kit](https://docs.microsoft.com/archive/blogs/yongrhee/download-windows-10-assessment-and-deployment-kit-adk)
+> The Application Compatibility Toolkit versions covered in this article are no longer supported. The last supported version is included in the [Windows 10 Assessment and Deployment Kit](/archive/blogs/yongrhee/download-windows-10-assessment-and-deployment-kit-adk)
 
 ## Affected Platforms
 
@@ -38,14 +38,11 @@ With the ACT, you can:
 
 ## Links to Other Resources
 
--   [Application Compatibility Toolkit Download](https://docs.microsoft.com/archive/blogs/yongrhee/download-windows-10-assessment-and-deployment-kit-adk)
--   [Introduction to the Application Compatibility Toolkit](https://technet.microsoft.com/library/cc722367(WS.10).aspx)
--   [Application Compatibility Toolkit Technical Reference](https://technet.microsoft.com/library/cc749328.aspx)
--   [ACT Walkthrough Exercises](https://technet.microsoft.com/library/cc766493.aspx)
+-   [Application Compatibility Toolkit Download](/archive/blogs/yongrhee/download-windows-10-assessment-and-deployment-kit-adk)
+-   [Introduction to the Application Compatibility Toolkit](/previous-versions/windows/it-pro/windows-7/cc722367(v=ws.10))
+-   [Application Compatibility Toolkit Technical Reference](/previous-versions/windows/it-pro/windows-7/cc749328(v=ws.10))
+-   [ACT Walkthrough Exercises](/previous-versions/windows/it-pro/windows-7/cc766493(v=ws.10))
 
  
 
  
-
-
-

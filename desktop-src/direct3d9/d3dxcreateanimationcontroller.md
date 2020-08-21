@@ -42,7 +42,7 @@ HRESULT D3DXCreateAnimationController(
 *MaxNumAnimationOutputs* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Maximum number of animation outputs the controller can support.
 
@@ -51,7 +51,7 @@ Maximum number of animation outputs the controller can support.
 *MaxNumAnimationSets* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Maximum number of animation sets that can be mixed.
 
@@ -60,7 +60,7 @@ Maximum number of animation sets that can be mixed.
 *MaxNumTracks* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Maximum number of animation sets that can be mixed simultaneously.
 
@@ -69,7 +69,7 @@ Maximum number of animation sets that can be mixed simultaneously.
 *MaxNumEvents* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Maximum number of outstanding events that the controller will support.
 
@@ -115,7 +115,3 @@ An animation controller controls an animation mixer. The controller adds methods
  
 
  
-
-
-
-

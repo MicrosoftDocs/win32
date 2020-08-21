@@ -16,7 +16,7 @@ There are two methods to prevent this: keep alives and time outs.
 
 ## TCP Keep Alives
 
-The client can be set up to periodically ping the server to ensure the server is alive and running. The pings are TCP keep-alives for the [**ncacn\_ip\_tcp**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp) and [**ncacn\_http**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-http) protocol sequences, and as such, they are efficient in CPU utilization and network bandwidth. To enable keep alives on a given remote procedure call, use the [**RpcMgmtSetComTimeout**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout) function before the call is initiated. This function takes a binding handle and a time out as arguments. Every remote procedure call on this binding handle after **RpcMgmtSetComTimeout** uses the supplied time out.
+The client can be set up to periodically ping the server to ensure the server is alive and running. The pings are TCP keep-alives for the [**ncacn\_ip\_tcp**](/windows/desktop/Midl/ncacn-ip-tcp) and [**ncacn\_http**](/windows/desktop/Midl/ncacn-http) protocol sequences, and as such, they are efficient in CPU utilization and network bandwidth. To enable keep alives on a given remote procedure call, use the [**RpcMgmtSetComTimeout**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout) function before the call is initiated. This function takes a binding handle and a time out as arguments. Every remote procedure call on this binding handle after **RpcMgmtSetComTimeout** uses the supplied time out.
 
 The Timeout parameter for the [**RpcMgmtSetComTimeout**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout) function specifies how long the RPC run time waits before it turns on keep alives. The time out is a value between 0 and 10, where 0 is the minimal time out, and 10 is infinite time out (no time out). The time out itself is not in seconds; the translation from the time-out value supplied to the **RpcMgmtSetComTimeout** function to seconds is done by the RPC run time, and is implementation specific.
 
@@ -44,7 +44,7 @@ Once the keep alives are turned on, the client sends one keep alive packet every
 
 It is tempting to set keep alives to the lowest value to ensure the client application responds to network problems in a timely fashion. Careful consideration should be given to such temptation, and scrutiny applied to whether an aggressive value is warranted. A server that temporarily loses connectivity may find itself flooded with keep alives from numerous clients once connectivity is restored. In addition, long computational tasks can take more than two minutes, and the server may find itself spending more CPU time answering keep alives than performing useful work. Therefore, keep alives should be used with moderation. If the client cannot tolerate its thread being tied up for long periods, asynchronous RPC should be considered.
 
-Other protocol sequences may implement different mechanisms for detecting unresponsive servers, depending on which transport is used. The [**ncalrpc**](https://docs.microsoft.com/windows/desktop/Midl/ncalrpc) transport does not use keep alives. Since all communications in **ncalrpc** are local, if the server becomes unresponsive while a call is in progress, the RPC run time on the client immediately fails the call.
+Other protocol sequences may implement different mechanisms for detecting unresponsive servers, depending on which transport is used. The [**ncalrpc**](/windows/desktop/Midl/ncalrpc) transport does not use keep alives. Since all communications in **ncalrpc** are local, if the server becomes unresponsive while a call is in progress, the RPC run time on the client immediately fails the call.
 
 ## Call Time Outs
 
@@ -57,14 +57,10 @@ The most dangerous pitfall with call time outs is establishing a short time out 
 Imagine a server that operates near capacity. It has a number of clients with very short time outs, such as five seconds. A temporary loss of network connectivity or congestion at a router causes a lapse in server replies for a few seconds. On Ethernet networks, this situation can easily be caused by a burst of activity on a link that the server shares with another machine. The server does not manage to send all replies before the five-second time out. The clients get their calls canceled, and immediately retry. The server is not aware the calls are retries, and executes them as well. Thus, instead of executing its normal workload of calls, it executes 30-50% more calls, depending on how many clients timed out. If this exceeds its capacity, and the server cannot respond to all clients within five seconds, another round of calls are sent to the server. The clients keep reissuing the same calls, and since the server is overloaded processing previous calls, it is unable to respond within the time out. Once it responds, the clients have hit the time out, issued a new call, and discarded the answer. In a worst case scenario, the server will not recover until reboot, and depending on client access pattern, may not recover until a sufficient number of clients are stopped.
 
 > [!Note]  
-> Call time outs work only on the [**ncacn\_ip\_tcp**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp) and [**ncacn\_http**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-http) protocol sequences.
+> Call time outs work only on the [**ncacn\_ip\_tcp**](/windows/desktop/Midl/ncacn-ip-tcp) and [**ncacn\_http**](/windows/desktop/Midl/ncacn-http) protocol sequences.
 
  
 
  
 
  
-
-
-
-

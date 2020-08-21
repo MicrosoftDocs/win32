@@ -55,9 +55,9 @@ This function uses the following formula: (*x* >= *y*) ? 1 : 0. The function ret
 
 | Name  | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md) | Size                           |
 |-------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------|
-| *y*   | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | any                            |
-| *x*   | same as input *y*                                                                                              | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | same dimension(s) as input *y* |
-| *ret* | same as input *y*                                                                                              | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | same dimension(s) as input *y* |
+| *y*   | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**float**](/windows/desktop/WinProg/windows-data-types)                        | any                            |
+| *x*   | same as input *y*                                                                                              | [**float**](/windows/desktop/WinProg/windows-data-types)                        | same dimension(s) as input *y* |
+| *ret* | same as input *y*                                                                                              | [**float**](/windows/desktop/WinProg/windows-data-types)                        | same dimension(s) as input *y* |
 
 
 
@@ -86,10 +86,4 @@ This function is supported in the following shader models.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

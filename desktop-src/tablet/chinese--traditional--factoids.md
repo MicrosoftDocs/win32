@@ -43,13 +43,8 @@ The following tables list formats that are available for each factoid factoid us
 [**Factoid Constants (C++)**](factoid-constants.md)
 </dt> <dt>
 
-[Factoid Class (Managed code)](https://msdn.microsoft.com/library/ms583657(v=VS.90).aspx)
+[Factoid Class (Managed code)](/previous-versions/ms583657(v=vs.100))
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -15,7 +15,7 @@ Many counters, such as rate counters, require two data samples to calculate a fo
 **To collect counter values that require two samples to calculate a displayable value**
 
 1.  Call [**PdhCollectQueryData**](/windows/desktop/api/Pdh/nf-pdh-pdhcollectquerydata) to collect the first sample.
-2.  Call the [**Sleep**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleep) function to wait a minimum of one second between collections.
+2.  Call the [**Sleep**](/windows/desktop/api/synchapi/nf-synchapi-sleep) function to wait a minimum of one second between collections.
 3.  Call [**PdhCollectQueryData**](/windows/desktop/api/Pdh/nf-pdh-pdhcollectquerydata) again to collect the second sample.
 4.  Call the [**PdhGetFormattedCounterValue**](/windows/desktop/api/Pdh/nf-pdh-pdhgetformattedcountervalue) function to calculate a displayable value.
 5.  Repeat steps 2 through 4.
@@ -57,6 +57,3 @@ The following table shows how this can occur if a process is terminated while da
  
 
  
-
-
-

@@ -18,14 +18,14 @@ ms.date: 05/31/2018
 The following functions are used with multimedia joysticks.
 
 -   [**joyConfigChanged**](/windows/desktop/api/joystickapi/nf-joystickapi-joyconfigchanged)
--   [**joyGetDevCaps**](https://msdn.microsoft.com/library/Dd757105(v=VS.85).aspx)
--   [**joyGetNumDevs**](https://msdn.microsoft.com/library/Dd757106(v=VS.85).aspx)
--   [**joyGetPos**](https://msdn.microsoft.com/library/Dd757107(v=VS.85).aspx)
--   [**joyGetPosEx**](https://msdn.microsoft.com/library/Dd757108(v=VS.85).aspx)
--   [**joyGetThreshold**](https://msdn.microsoft.com/library/Dd757109(v=VS.85).aspx)
--   [**joyReleaseCapture**](https://msdn.microsoft.com/library/Dd757113(v=VS.85).aspx)
--   [**joySetCapture**](https://msdn.microsoft.com/library/Dd757114(v=VS.85).aspx)
--   [**joySetThreshold**](https://msdn.microsoft.com/library/Dd757115(v=VS.85).aspx)
+-   [**joyGetDevCaps**](/windows/win32/api/joystickapi/nf-joystickapi-joygetdevcaps)
+-   [**joyGetNumDevs**](/windows/win32/api/joystickapi/nf-joystickapi-joygetnumdevs)
+-   [**joyGetPos**](/windows/win32/api/joystickapi/nf-joystickapi-joygetpos)
+-   [**joyGetPosEx**](/windows/win32/api/joystickapi/nf-joystickapi-joygetposex)
+-   [**joyGetThreshold**](/windows/win32/api/joystickapi/nf-joystickapi-joygetthreshold)
+-   [**joyReleaseCapture**](/windows/win32/api/joystickapi/nf-joystickapi-joyreleasecapture)
+-   [**joySetCapture**](/windows/win32/api/joystickapi/nf-joystickapi-joysetcapture)
+-   [**joySetThreshold**](/windows/win32/api/joystickapi/nf-joystickapi-joysetthreshold)
 
 ## Related topics
 
@@ -37,7 +37,3 @@ The following functions are used with multimedia joysticks.
  
 
  
-
-
-
-

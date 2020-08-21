@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualPC::GetDVDFiles method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves an array of known DVD files.
 
@@ -99,10 +99,4 @@ The search paths used to retrieve the array of files will include those set prev
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -121,7 +121,7 @@ The Wireless Zero Configuration service does not automotically update media stat
 
 When the *dwInFlags* parameter contains **INTF\_BSSIDLIST**, the **WZCQueryInterface** function does not set the *dwOutFlags* with **INTF\_BSSIDLIST** if the visible list of networks is empty. When the *dwInFlags* parameter contains **INTF\_SSID**, the **WZCQueryInterface** function does not set the *dwOutFlags* with **INTF\_SSID** if no SSID is available.
 
-If the **WZCQueryInterface** function returns ERROR\_SUCCESS, the caller should call the [**LocalFree**](https://msdn.microsoft.com/library/Aa366730(v=VS.85).aspx) function with the *pIntf* parameter to release the internal buffers allocated for the data returned once this information is no longer needed. This releases the buffers used by the **rdSSID**, **rdBSSID**, **rdBSSIDList**, **rdStSSIDList**, and **rdCtrlData** members of the [**INTF\_ENTRY**](intf-entry.md) structure pointed to by *pIntf* parameter.
+If the **WZCQueryInterface** function returns ERROR\_SUCCESS, the caller should call the [**LocalFree**](/windows/win32/api/winbase/nf-winbase-localfree) function with the *pIntf* parameter to release the internal buffers allocated for the data returned once this information is no longer needed. This releases the buffers used by the **rdSSID**, **rdBSSID**, **rdBSSIDList**, **rdStSSIDList**, and **rdCtrlData** members of the [**INTF\_ENTRY**](intf-entry.md) structure pointed to by *pIntf* parameter.
 
 > [!Note]  
 > The *Wzcsapi.h* header file and *Wzcsapi.lib* import library file are not available in the Windows SDK.
@@ -163,7 +163,3 @@ If the **WZCQueryInterface** function returns ERROR\_SUCCESS, the caller should 
  
 
  
-
-
-
-

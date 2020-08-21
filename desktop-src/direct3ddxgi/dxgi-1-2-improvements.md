@@ -16,15 +16,15 @@ DXGI 1.2 enhances presentation with a new flip-model swap chain, content protect
 
 You can use the following DXGI 1.2 API for enhanced presentation.
 
--   [**IDXGIDisplayControl::IsStereoEnabled**](https://msdn.microsoft.com/library/Hh404553(v=VS.85).aspx)
--   [**IDXGIDisplayControl::SetStereoEnabled**](https://msdn.microsoft.com/library/Hh404554(v=VS.85).aspx)
+-   [**IDXGIDisplayControl::IsStereoEnabled**](/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgidisplaycontrol-isstereoenabled)
+-   [**IDXGIDisplayControl::SetStereoEnabled**](/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgidisplaycontrol-setstereoenabled)
 -   [**IDXGIFactory2::CreateSwapChainForHwnd**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd)
 -   [**IDXGIFactory2::CreateSwapChainForCoreWindow**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow)
 -   [**IDXGIFactory2::CreateSwapChainForComposition**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition)
 -   [**IDXGIFactory2::IsWindowedStereoEnabled**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-iswindowedstereoenabled)
--   [**IDXGIFactory2::RegisterStereoStatusWindow**](https://msdn.microsoft.com/library/Hh404587(v=VS.85).aspx)
--   [**IDXGIFactory2::RegisterStereoStatusEvent**](https://msdn.microsoft.com/library/Hh404584(v=VS.85).aspx)
--   [**IDXGIFactory2::UnregisterStereoStatus**](https://msdn.microsoft.com/library/Hh404593(v=VS.85).aspx)
+-   [**IDXGIFactory2::RegisterStereoStatusWindow**](/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-registerstereostatuswindow)
+-   [**IDXGIFactory2::RegisterStereoStatusEvent**](/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-registerstereostatusevent)
+-   [**IDXGIFactory2::UnregisterStereoStatus**](/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-unregisterstereostatus)
 -   [**IDXGIFactory2::RegisterOcclusionStatusWindow**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-registerocclusionstatuswindow)
 -   [**IDXGIFactory2::RegisterOcclusionStatusEvent**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-registerocclusionstatusevent)
 -   [**IDXGIFactory2::UnregisterOcclusionStatus**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-unregisterocclusionstatus)
@@ -80,9 +80,9 @@ You can use the following DXGI 1.2 API and Direct3D 11.1 API to share resources 
 -   [**IDXGIDevice2::EnqueueSetEvent**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgidevice2-enqueuesetevent)
 -   [**IDXGIResource1::CreateSharedHandle**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiresource1-createsharedhandle)
 -   [**IDXGIFactory2::GetSharedResourceAdapterLuid**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-getsharedresourceadapterluid)
--   [**ID3D11Device1::OpenSharedResource1**](https://msdn.microsoft.com/library/Hh404592(v=VS.85).aspx)
--   [**ID3D11Device1::OpenSharedResourceByName**](https://msdn.microsoft.com/library/Hh404595(v=VS.85).aspx)
--   [**D3D11\_RESOURCE\_MISC\_SHARED\_NTHANDLE**](https://msdn.microsoft.com/library/Ff476203(v=VS.85).aspx)
+-   [**ID3D11Device1::OpenSharedResource1**](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11device1-opensharedresource1)
+-   [**ID3D11Device1::OpenSharedResourceByName**](/windows/win32/api/d3d11_1/nf-d3d11_1-id3d11device1-opensharedresourcebyname)
+-   [**D3D11\_RESOURCE\_MISC\_SHARED\_NTHANDLE**](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag)
 
 ## Offer the video memory of resources
 
@@ -93,7 +93,7 @@ This DXGI 1.2 feature consists of the following methods.
 -   [**IDXGIDevice2::OfferResources**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgidevice2-offerresources)
 -   [**IDXGIDevice2::ReclaimResources**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgidevice2-reclaimresources)
 
-You can use the [**ID3D11Debug::SetFeatureMask**](https://msdn.microsoft.com/library/Ff476371(v=VS.85).aspx) method to set feature-mask flags that debug the behavior of the [**IDXGIDevice2::OfferResources**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgidevice2-offerresources) and [**IDXGIDevice2::ReclaimResources**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgidevice2-reclaimresources) methods in your app.
+You can use the [**ID3D11Debug::SetFeatureMask**](/windows/win32/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-setfeaturemask) method to set feature-mask flags that debug the behavior of the [**IDXGIDevice2::OfferResources**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgidevice2-offerresources) and [**IDXGIDevice2::ReclaimResources**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgidevice2-reclaimresources) methods in your app.
 
 ## GPU preemption at finer granularity levels for WDDM 1.2 driver model
 
@@ -111,9 +111,9 @@ The Windows 8 SDK provides additional debugging capability. You can use the fol
 -   [**IDXGIDebug**](/windows/desktop/api/DXGIDebug/nn-dxgidebug-idxgidebug)
 -   [**IDXGIInfoQueue**](/windows/desktop/api/DXGIDebug/nn-dxgidebug-idxgiinfoqueue)
 
-To access [**DXGIGetDebugInterface**](/windows/desktop/api/DXGIDebug/nf-dxgidebug-dxgigetdebuginterface), call the [**GetModuleHandle**](https://msdn.microsoft.com/library/ms683199(v=VS.85).aspx) function to get Dxgidebug.dll and the [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) function to get the address of **DXGIGetDebugInterface**. You can then call **DXGIGetDebugInterface** to obtain the [**IDXGIDebug**](/windows/desktop/api/DXGIDebug/nn-dxgidebug-idxgidebug) or [**IDXGIInfoQueue**](/windows/desktop/api/DXGIDebug/nn-dxgidebug-idxgiinfoqueue) interface.
+To access [**DXGIGetDebugInterface**](/windows/desktop/api/DXGIDebug/nf-dxgidebug-dxgigetdebuginterface), call the [**GetModuleHandle**](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlea) function to get Dxgidebug.dll and the [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) function to get the address of **DXGIGetDebugInterface**. You can then call **DXGIGetDebugInterface** to obtain the [**IDXGIDebug**](/windows/desktop/api/DXGIDebug/nn-dxgidebug-idxgidebug) or [**IDXGIInfoQueue**](/windows/desktop/api/DXGIDebug/nn-dxgidebug-idxgiinfoqueue) interface.
 
-For info about how to debug DirectX apps remotely, see [Debugging DirectX apps remotely](https://msdn.microsoft.com/library/Hh832045(v=VS.85).aspx).
+For info about how to debug DirectX apps remotely, see [Debugging DirectX apps remotely](../direct3dtools/debugging-directx-apps-remotely.md).
 
 ## Related topics
 

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
 
 > [!Note]  
-> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).
+> As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).
 
  
 
@@ -50,12 +50,8 @@ The title of the shape is "ToolTip display" and will appear when the mouse point
 
 
 
-[Title Attribute Example](https://docs.microsoft.com/previous-versions/bb264097(v%3dvs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
+[Title Attribute Example](/previous-versions/bb264097(v=vs.85)). (Requires Microsoft Internet Explorer 5 or greater.)
 
  
 
  
-
-
-
-

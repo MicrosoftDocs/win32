@@ -36,7 +36,7 @@ This section has code samples on the following tasks:
 
 ## Initiating a Conversation
 
-To initiate a Dynamic Data Exchange (DDE) conversation, the client sends a [**WM\_DDE\_INITIATE**](wm-dde-initiate.md) message. Usually, the client broadcasts this message by calling [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage), with –1 as the first parameter. If the application already has the window handle to the server application, it can send the message directly to that window. The client prepares atoms for the application name and topic name by calling [**GlobalAddAtom**](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma). The client can request conversations with any potential server application and for any potential topic by supplying **NULL** (wildcard) atoms for the application and topic.
+To initiate a Dynamic Data Exchange (DDE) conversation, the client sends a [**WM\_DDE\_INITIATE**](wm-dde-initiate.md) message. Usually, the client broadcasts this message by calling [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage), with –1 as the first parameter. If the application already has the window handle to the server application, it can send the message directly to that window. The client prepares atoms for the application name and topic name by calling [**GlobalAddAtom**](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma). The client can request conversations with any potential server application and for any potential topic by supplying **NULL** (wildcard) atoms for the application and topic.
 
 The following example illustrates how the client initiates a conversation, where both the application and topic are specified.
 
@@ -70,9 +70,9 @@ The following example illustrates how the client initiates a conversation, where
 
  
 
-The client application sends a [**WM\_DDE\_INITIATE**](wm-dde-initiate.md) message with these two atoms in the *lParam* parameter of the message. In the call to the [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) function, the special window handle –1 directs the system to send this message to all other active applications. **SendMessage** does not return to the client application until all applications that receive the message have, in turn, returned control to the system. This means that all [**WM\_DDE\_ACK**](wm-dde-ack.md) messages sent in reply by the server applications are guaranteed to have been processed by the client by the time the **SendMessage** call has returned.
+The client application sends a [**WM\_DDE\_INITIATE**](wm-dde-initiate.md) message with these two atoms in the *lParam* parameter of the message. In the call to the [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) function, the special window handle –1 directs the system to send this message to all other active applications. **SendMessage** does not return to the client application until all applications that receive the message have, in turn, returned control to the system. This means that all [**WM\_DDE\_ACK**](wm-dde-ack.md) messages sent in reply by the server applications are guaranteed to have been processed by the client by the time the **SendMessage** call has returned.
 
-After [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) returns, the client application deletes the global atoms.
+After [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) returns, the client application deletes the global atoms.
 
 Server applications respond according to the logic illustrated in the following diagram.
 
@@ -142,7 +142,7 @@ if (atomItem == 0)
 
 In this example, the client specifies the clipboard format **CF\_TEXT** as the preferred format for the requested data item.
 
-The receiver (server) of the [**WM\_DDE\_REQUEST**](wm-dde-request.md) message typically must delete the item atom, but if the [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea) call fails, the client must delete the atom.
+The receiver (server) of the [**WM\_DDE\_REQUEST**](wm-dde-request.md) message typically must delete the item atom, but if the [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) call fails, the client must delete the atom.
 
 If the server has access to the requested item and can render it in the requested format, the server copies the item value as a shared memory object and sends the client a [**WM\_DDE\_DATA**](wm-dde-data.md) message, as illustrated in the following example.
 
@@ -215,9 +215,9 @@ In this example, the server application allocates a memory object to contain the
 
 The server application then sets the **cfFormat** member of the structure to CF\_TEXT to inform the client application that the data is in text format. The client responds by copying the value of the requested data into the **Value** member of the [**DDEDATA**](/windows/desktop/api/Dde/ns-dde-ddedata) structure. After the server has filled the data object, the server unlocks the data and creates a global atom containing the name of the data item.
 
-Finally, the server issues the [**WM\_DDE\_DATA**](wm-dde-data.md) message by calling [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea). The handle to the data object and the atom containing the item name are packed into the *lParam* parameter of the message by the [**PackDDElParam**](/windows/desktop/api/Dde/nf-dde-packddelparam) function.
+Finally, the server issues the [**WM\_DDE\_DATA**](wm-dde-data.md) message by calling [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea). The handle to the data object and the atom containing the item name are packed into the *lParam* parameter of the message by the [**PackDDElParam**](/windows/desktop/api/Dde/nf-dde-packddelparam) function.
 
-If [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea) fails, the server must use the [**FreeDDElParam**](/windows/desktop/api/Dde/nf-dde-freeddelparam) function to free the packed *lParam* parameter. The server must also free the packed *lParam* parameter for the [**WM\_DDE\_REQUEST**](wm-dde-request.md) message it received.
+If [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) fails, the server must use the [**FreeDDElParam**](/windows/desktop/api/Dde/nf-dde-freeddelparam) function to free the packed *lParam* parameter. The server must also free the packed *lParam* parameter for the [**WM\_DDE\_REQUEST**](wm-dde-request.md) message it received.
 
 If the server cannot satisfy the request, it sends a negative [**WM\_DDE\_ACK**](wm-dde-ack.md) message to the client, as shown in the following example.
 
@@ -791,7 +791,7 @@ After an application has sent the [**WM\_DDE\_TERMINATE**](wm-dde-terminate.md) 
 
 If an application receives a DDE message other than [**WM\_DDE\_TERMINATE**](wm-dde-terminate.md) after it has posted **WM\_DDE\_TERMINATE**, it should free all objects associated with the received messages except the data handles for [**WM\_DDE\_DATA**](wm-dde-data.md) or [**WM\_DDE\_POKE**](wm-dde-poke.md) messages that do **not** have the **fRelease** member set.
 
-When an application is about to terminate, it should end all active DDE conversations before completing processing of the [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy) message. However, if an application does not end its active DDE conversations, the system will terminate any DDE conversations associated with a window when the window is destroyed. The following example shows how a server application terminates all DDE conversations.
+When an application is about to terminate, it should end all active DDE conversations before completing processing of the [**WM\_DESTROY**](/windows/desktop/winmsg/wm-destroy) message. However, if an application does not end its active DDE conversations, the system will terminate any DDE conversations associated with a window when the window is destroyed. The following example shows how a server application terminates all DDE conversations.
 
 
 ```
@@ -831,7 +831,3 @@ VOID SendTerminate(HWND hwndServerDDE, HWND hwndClientDDE)
  
 
  
-
-
-
-

@@ -39,16 +39,16 @@ HRESULT D3DX10CreateAsyncResourceLoader(
 *hSrcModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](../winprog/windows-data-types.md)**
 
-Handle to the resource module. Use [GetModuleHandle Function](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea) to get the handle.
+Handle to the resource module. Use [GetModuleHandle Function](/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea) to get the handle.
 
 </dd> <dt>
 
 *pSrcResource* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Name of the resource in hSrcModule. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -89,7 +89,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

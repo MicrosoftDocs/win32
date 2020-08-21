@@ -28,9 +28,9 @@ The CLSID for this effect is CLSID\_D2D1ColorManagement.
 
 | Display name and index enumeration | Description |
 |-|-|
-| SourceContext<br/> D2D1\_COLORMANAGEMENT\_PROP\_SOURCE\_COLOR\_CONTEXT<br/> | The source color space information. The type is [**ID2D1ColorContext**](https://msdn.microsoft.com/library/Hh404388(v=VS.85).aspx).<br/> The default value is NULL.<br/> |
+| SourceContext<br/> D2D1\_COLORMANAGEMENT\_PROP\_SOURCE\_COLOR\_CONTEXT<br/> | The source color space information. The type is [**ID2D1ColorContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1colorcontext).<br/> The default value is NULL.<br/> |
 | SourceIntent<br/> D2D1\_COLORMANAGEMENT\_PROP\_SOURCE\_RENDERING\_INTENT<br/> | Which ICC rendering intent to use. The type is D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT.<br/> The default value is D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_PERCEPTUAL.<br/> |
-| DestinationContext<br/> D2D1\_COLORMANAGEMENT\_PROP\_DESTINATION\_COLOR\_CONTEXT<br/> | The destination color space information. The type is [**ID2D1ColorContext**](https://msdn.microsoft.com/library/Hh404388(v=VS.85).aspx).<br/> The default value is NULL.<br/> |
+| DestinationContext<br/> D2D1\_COLORMANAGEMENT\_PROP\_DESTINATION\_COLOR\_CONTEXT<br/> | The destination color space information. The type is [**ID2D1ColorContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1colorcontext).<br/> The default value is NULL.<br/> |
 | DestinationIntent<br/> D2D1\_COLORMANAGEMENT\_PROP\_DESTINATION\_RENDERING\_INTENT<br/> | Which ICC rendering intent to use. The type is D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT.<br/> The default value is D2D1\_COLORMANAGEMENT\_RENDERING\_INTENT\_PERCEPTUAL.<br/> |
 | AlphaMode<br/> D2D1\_COLORMANAGEMENT\_PROP\_ALPHA\_MODE<br/> | How to interpret alpha data that is contained in the input image. The type is D2D1\_COLORMANAGEMENT\_ALPHA\_MODE.<br/> The default value is D2D1\_COLORMANAGEMENT\_ALPHA\_MODE\_PREMULTIPLIED.<br/> |
 | Quality<br/> D2D1\_COLORMANAGEMENT\_PROP\_QUALITY<br/> | The quality level of the transform. The type is D2D1\_COLORMANAGEMENT\_QUALITY.<br/> The default value is D2D1\_COLORMANAGEMENT\_QUALITY\_NORMAL.<br/> |
@@ -174,7 +174,7 @@ In general, the effect sets alpha to 1 (opaque) if there is no alpha data in the
 | D2D1\_COLORMANAGEMENT\_QUALITY\_NORMAL | Normal quality mode. This mode requires feature level 9\_1 or above. |
 | D2D1\_COLORMANAGEMENT\_QUALITY\_BEST | The best quality mode. This mode requires feature level 10\_0 or above, as well as floating point precision buffers. This mode supports floating point precision as well as extended range as defined in the ICC v4.3 specification. |
 
-The color management effect fails when drawing if the application requests a quality mode that is not supported by the hardware. You can determine the feature level when you call [**D3D11CreateDevice**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice). You can check for floating point buffer support by calling [**ID2D1EffectContext::IsBufferPrecisionSupported**](https://msdn.microsoft.com/library/Dn441541(v=VS.85).aspx) with the value [**D2D1\_BUFFER\_PRECISION\_32BPC\_FLOAT**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_buffer_precision).
+The color management effect fails when drawing if the application requests a quality mode that is not supported by the hardware. You can determine the feature level when you call [**D3D11CreateDevice**](/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice). You can check for floating point buffer support by calling [**ID2D1EffectContext::IsBufferPrecisionSupported**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-isbufferprecisionsupported) with the value [**D2D1\_BUFFER\_PRECISION\_32BPC\_FLOAT**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_buffer_precision).
 
 ## Sample code
 

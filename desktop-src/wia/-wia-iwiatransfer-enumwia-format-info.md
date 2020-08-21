@@ -52,7 +52,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-Applications must call the [IUnknown::Release](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method on the interface pointer received through the *ppIEnum* parameter.
+Applications must call the [IUnknown::Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method on the interface pointer received through the *ppIEnum* parameter.
 
 ## Requirements
 
@@ -71,7 +71,3 @@ Applications must call the [IUnknown::Release](https://msdn.microsoft.com/librar
  
 
  
-
-
-
-

@@ -71,20 +71,20 @@ public override int Read(
 <!-- end list -->
 
   - offset  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The offset in the buffer to read into.
 
 <!-- end list -->
 
   - count  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The number of bytes to read.
 
 #### Return value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 The number of bytes read into the buffer.  
 
 ## See also
@@ -96,4 +96,3 @@ The number of bytes read into the buffer.
 [ColumnStream members](dn334190\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

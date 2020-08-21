@@ -17,7 +17,7 @@ api_location:
 
 Constructors exposed by `XMFLOAT4X3`.
 
-Constructs instances of the [**XMFLOAT4X3**](https://msdn.microsoft.com/library/Ee419611(v=VS.85).aspx) structure.
+Constructs instances of the [**XMFLOAT4X3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -82,13 +82,9 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4X3**](https://msdn.microsoft.com/library/Ee419611(v=VS.85).aspx)
+[**XMFLOAT4X3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3)
 </dt> </dl>
 
  
 
  
-
-
-
-

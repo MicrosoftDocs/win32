@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Composing and registering SPNs for SCP-based Windows Sockets Service
 
-The following code example shows how to compose and register the SPNs for a service. Call this code from your service installer after calling [**CreateService**](https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea) and creating the service's service connection point (SCP).
+The following code example shows how to compose and register the SPNs for a service. Call this code from your service installer after calling [**CreateService**](/windows/desktop/api/winsvc/nf-winsvc-createservicea) and creating the service's service connection point (SCP).
 
 The following code example calls the **SpnCompose** and **SpnRegister** example functions that compose and register the SPN. For more information and the **SpnCompose** source code, see [Composing the SPNs for a Service with an SCP](composing-the-spns-for-a-service-with-an-scp.md). For more information and the **SpnRegister** source code, see [Registering the SPNs for a Service](registering-the-spns-for-a-service.md).
 
@@ -55,7 +55,3 @@ You can use similar code to unregister your SPNs when your service is uninstalle
  
 
  
-
-
-
-

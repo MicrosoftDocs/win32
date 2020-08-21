@@ -45,21 +45,21 @@ DWORD APIENTRY NtGdiD3DDrawPrimitives2(
 *hCmdBuf* \[in\]
 </dt> <dd>
 
-Handle to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that identifies the DirectDraw surface containing the command data.
+Handle to the [**DD\_SURFACE\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local) structure that identifies the DirectDraw surface containing the command data.
 
 </dd> <dt>
 
 *hVBuf* \[in\]
 </dt> <dd>
 
-Handle to the [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that identifies the DirectDraw surface containing the vertex data.
+Handle to the [**DD\_SURFACE\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local) structure that identifies the DirectDraw surface containing the vertex data.
 
 </dd> <dt>
 
 *pded* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**D3DNTHAL\_DRAWPRIMITIVES2DATA**](https://msdn.microsoft.com/library/Ff549031(v=VS.85).aspx) structure that contains the information required for the driver to render one or more primitives.
+Pointer to a [**D3DNTHAL\_DRAWPRIMITIVES2DATA**](/windows-hardware/drivers/ddi/) structure that contains the information required for the driver to render one or more primitives.
 
 </dd> <dt>
 
@@ -128,7 +128,3 @@ Specifies the minimum number of bytes that the driver must allocate for the swap
  
 
  
-
-
-
-

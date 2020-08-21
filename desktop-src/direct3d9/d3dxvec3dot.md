@@ -56,7 +56,7 @@ Pointer to a source [**D3DXVECTOR3**](d3dxvector3.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The dot-product.
 
@@ -84,7 +84,3 @@ The dot-product.
  
 
  
-
-
-
-

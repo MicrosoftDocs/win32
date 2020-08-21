@@ -51,7 +51,7 @@ Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of t
 *Scaling* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Scaling factor.
 
@@ -69,7 +69,7 @@ Pointer to a [**D3DXVECTOR2**](d3dxvector2.md) structure, a point identifying th
 *Rotation* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The angle of rotation.
 
@@ -139,7 +139,3 @@ For 3D affine transformations, use [**D3DXMatrixAffineTransformation**](d3dxmatr
  
 
  
-
-
-
-

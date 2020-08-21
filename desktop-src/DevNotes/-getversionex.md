@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **GetVersionEx** function. This function may be altered or unavailable in the future. Applications should call **GetVersionEx** directly.\]
 
-Gets information about the operating system version. See [**GetVersionEx**](https://msdn.microsoft.com/library/ms724451(v=VS.85).aspx).
+Gets information about the operating system version. See [**GetVersionEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa).
 
 ## Syntax
 
@@ -54,13 +54,9 @@ BOOL _GetVersionEx(
 
 <dl> <dt>
 
-[**GetVersionEx**](https://msdn.microsoft.com/library/ms724451(v=VS.85).aspx)
+[**GetVersionEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa)
 </dt> </dl>
 
  
 
  
-
-
-
-

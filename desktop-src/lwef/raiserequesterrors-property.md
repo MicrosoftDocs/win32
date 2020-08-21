@@ -38,15 +38,9 @@ Returns or sets whether errors for requests are raised.
 
 ## Remarks
 
-This property enables you to determine whether the server raises errors that occur with methods that support [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) objects. For example, if you specify an animation name that does not exist in a [**Play**](play-method.md)method, the server raises an error (displaying the error message) unless you set this property to **False**.
+This property enables you to determine whether the server raises errors that occur with methods that support [**Request**](/windows/desktop/lwef/the-request-object) objects. For example, if you specify an animation name that does not exist in a [**Play**](play-method.md)method, the server raises an error (displaying the error message) unless you set this property to **False**.
 
 It may be useful for programming languages that do not provide recovery when an error is raised. However, use care when setting this property to **False**, because it might be harder to find errors in your code.
 
  
-
- 
-
-
-
-
 

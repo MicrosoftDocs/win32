@@ -20,7 +20,7 @@ Instead of reading the values of all variables for every frame, an application c
 
 ## Example Code
 
-The following example code is taken from Thumbnail.cpp in the Windows Animation sample [Grid Layout](https://docs.microsoft.com/windows/desktop/UIAnimation/grid-layout-sample); see the CMainWindow::Render method. It uses the [**GetValue**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getvalue) method to read the values as floating-point values.
+The following example code is taken from Thumbnail.cpp in the Windows Animation sample [Grid Layout](/windows/desktop/UIAnimation/grid-layout-sample); see the CMainWindow::Render method. It uses the [**GetValue**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getvalue) method to read the values as floating-point values.
 
 
 ```C++
@@ -110,7 +110,3 @@ After completing this step, the next step is: [Create a Storyboard and Add Trans
  
 
  
-
-
-
-

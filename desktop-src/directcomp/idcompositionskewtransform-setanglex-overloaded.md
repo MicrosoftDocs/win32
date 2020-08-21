@@ -24,8 +24,8 @@ Changes or animates the value of the AngleX property of a 2D skew transform. The
 
 | Method                                                                                                     | Description                                           |
 |:-----------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
-| [**SetAngleX(float)**](https://msdn.microsoft.com/library/Hh449059(v=VS.85).aspx)                                     | Changes the value of the AngleX property.<br/>  |
-| [**SetAngleX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449061(v=VS.85).aspx) | Animates the value of the AngleX property.<br/> |
+| [**SetAngleX(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setanglex(float))                                     | Changes the value of the AngleX property.<br/>  |
+| [**SetAngleX(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setanglex(idcompositionanimation)) | Animates the value of the AngleX property.<br/> |
 
 
 
@@ -47,14 +47,9 @@ Changes or animates the value of the AngleX property of a 2D skew transform. The
 
 <dl> <dt>
 
-[**IDCompositionSkewTransform**](https://msdn.microsoft.com/library/Hh449057(v=VS.85).aspx)
+[**IDCompositionSkewTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionskewtransform)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

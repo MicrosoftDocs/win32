@@ -72,7 +72,7 @@ The following procedure describes how to use the external script example.
     KernelModeTime: 3125000 [hundreds of nanoseconds]
     ```
 
-The following VBScript code example shows the script that is called when an event is received by the permanent consumer. The **TargetEvent** object is an [**\_\_InstanceDeletionEvent**](--instancedeletionevent.md) instance so it has a property named **TargetInstance**, which is a [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) instance used to fire the event. The **Win32\_Process** class has the **UserModeTime** and **KernelModeTime** properties that are put into the log file created by the script.
+The following VBScript code example shows the script that is called when an event is received by the permanent consumer. The **TargetEvent** object is an [**\_\_InstanceDeletionEvent**](--instancedeletionevent.md) instance so it has a property named **TargetInstance**, which is a [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) instance used to fire the event. The **Win32\_Process** class has the **UserModeTime** and **KernelModeTime** properties that are put into the log file created by the script.
 
 
 ```VB
@@ -183,6 +183,3 @@ instance of __FilterToConsumerBinding
  
 
  
-
-
-

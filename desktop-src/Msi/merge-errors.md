@@ -39,7 +39,7 @@ The retrieval is non-destructive. Multiple instances of the error collection may
 
 ### C++
 
-See [**get\_Errors**](https://msdn.microsoft.com/library/Aa369272(v=VS.85).aspx) Function.
+See [**get\_Errors**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-get_errors) Function.
 
 ## Requirements
 
@@ -56,7 +56,3 @@ See [**get\_Errors**](https://msdn.microsoft.com/library/Aa369272(v=VS.85).aspx)
  
 
  
-
-
-
-

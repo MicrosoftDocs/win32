@@ -37,7 +37,7 @@ DirectShow uses the static library files shown in the following table.
 | Library File | Description                                                                                                                    |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------|
 | Strmiids.lib | Exports class identifiers (CLSIDs) and interface identifiers (IIDs).                                                           |
-| Quartz.lib   | Exports the [**AMGetErrorText**](https://msdn.microsoft.com/library/Dd373430(v=VS.85).aspx) function. If you do not call this function, this library is not required. |
+| Quartz.lib   | Exports the [**AMGetErrorText**](/windows/win32/api/errors/nf-errors-amgeterrortexta) function. If you do not call this function, this library is not required. |
 
 
 
@@ -117,6 +117,3 @@ The redstributable packages contain the following DLLs:
  
 
  
-
-
-

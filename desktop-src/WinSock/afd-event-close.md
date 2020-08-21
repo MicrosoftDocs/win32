@@ -62,7 +62,7 @@ A private field used internally.
 *Process* 
 </dt> <dd>
 
-The [EPROCESS](https://msdn.microsoft.com/library/ff544273(VS.85).aspx) address of the process that owns the related socket. This is an opaque structure that serves as the process object for a process. For more information, see the Windows Driver Kit documentation for the [EPROCESS](https://msdn.microsoft.com/library/ff544273(VS.85).aspx) structure.
+The [EPROCESS](/windows-hardware/drivers/kernel/eprocess) address of the process that owns the related socket. This is an opaque structure that serves as the process object for a process. For more information, see the Windows Driver Kit documentation for the [EPROCESS](/windows-hardware/drivers/kernel/eprocess) structure.
 
 </dd> <dt>
 
@@ -102,7 +102,7 @@ The **AFD\_EVENT\_CLOSE** event is traced for a Winsock network operation to clo
 [Control of Winsock Tracing](control-of-winsock-tracing.md)
 </dt> <dt>
 
-[**EVENT\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor)
+[**EVENT\_DESCRIPTOR**](/windows/desktop/api/evntprov/ns-evntprov-event_descriptor)
 </dt> <dt>
 
 [Winsock Tracing](winsock-tracing.md)
@@ -115,9 +115,4 @@ The **AFD\_EVENT\_CLOSE** event is traced for a Winsock network operation to clo
 </dt> </dl>
 
  
-
- 
-
-
-
 

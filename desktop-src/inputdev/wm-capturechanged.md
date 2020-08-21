@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Sent to the window that is losing the mouse capture.
 
-A window receives this message through its [**WindowProc**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -53,7 +53,7 @@ An application should return zero if it processes this message.
 
 ## Remarks
 
-A window receives this message even if it calls [**ReleaseCapture**](https://msdn.microsoft.com/library/ms646261(v=VS.85).aspx) itself. An application should not attempt to set the mouse capture in response to this message.
+A window receives this message even if it calls [**ReleaseCapture**](/windows/win32/api/winuser/nf-winuser-releasecapture) itself. An application should not attempt to set the mouse capture in response to this message.
 
 When it receives this message, a window should redraw itself, if necessary, to reflect the new mouse-capture state.
 
@@ -76,10 +76,10 @@ When it receives this message, a window should redraw itself, if necessary, to r
 **Reference**
 </dt> <dt>
 
-[**ReleaseCapture**](https://msdn.microsoft.com/library/ms646261(v=VS.85).aspx)
+[**ReleaseCapture**](/windows/win32/api/winuser/nf-winuser-releasecapture)
 </dt> <dt>
 
-[**SetCapture**](https://msdn.microsoft.com/library/ms646262(v=VS.85).aspx)
+[**SetCapture**](/windows/win32/api/winuser/nf-winuser-setcapture)
 </dt> <dt>
 
 **Conceptual**
@@ -89,10 +89,4 @@ When it receives this message, a window should redraw itself, if necessary, to r
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

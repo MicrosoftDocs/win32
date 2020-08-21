@@ -73,7 +73,7 @@ public static bool operator !=(
 
 #### Return value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 True if the two instances are not equal.  
 
 ## See also
@@ -85,4 +85,3 @@ True if the two instances are not equal.
 [JET_SIGNATURE members](hh565455\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

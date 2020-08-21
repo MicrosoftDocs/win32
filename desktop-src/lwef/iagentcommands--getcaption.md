@@ -16,7 +16,7 @@ HRESULT GetCaption(
 );
 ```
 
-Retrieves the [**Caption**](caption-property.md) for a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+Retrieves the [**Caption**](caption-property.md) for a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,7 +25,7 @@ Retrieves the [**Caption**](caption-property.md) for a [**Commands**](https://do
 <span id="pbszCaption"></span><span id="pbszcaption"></span><span id="PBSZCAPTION"></span>*pbszCaption*
 </dt> <dd>
 
-The address of a BSTR that receives the value of the [**Caption**](caption-property.md) text setting displayed for a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+The address of a BSTR that receives the value of the [**Caption**](caption-property.md) text setting displayed for a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 </dd> </dl>
 
@@ -37,7 +37,3 @@ The address of a BSTR that receives the value of the [**Caption**](caption-prope
  
 
  
-
-
-
-

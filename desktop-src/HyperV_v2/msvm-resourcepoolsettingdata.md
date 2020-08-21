@@ -75,7 +75,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -88,7 +88,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -101,7 +101,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -117,7 +117,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85)).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)).
 
 </dd> <dt>
 
@@ -387,9 +387,4 @@ The type of resource this resource pool can allocate. This property is inherited
 
 
  
-
- 
-
-
-
 

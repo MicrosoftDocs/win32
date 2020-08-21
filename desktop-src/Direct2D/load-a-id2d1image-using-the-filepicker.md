@@ -11,26 +11,26 @@ ms.date: 05/31/2018
 
 # How to load an image into Direct2D effects using the FilePicker
 
-Shows how to use the [**Windows::Storage::Pickers::FileOpenPicker**](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileOpenPicker) to load an image into [Direct2D effects](effects-overview.md). If you want to let the user select an image file from storage in a Windows Store app, we recommend that you use the [**FileOpenPicker**](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileOpenPicker).
+Shows how to use the [**Windows::Storage::Pickers::FileOpenPicker**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker) to load an image into [Direct2D effects](effects-overview.md). If you want to let the user select an image file from storage in a Windows Store app, we recommend that you use the [**FileOpenPicker**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker).
 
 ## What you need to know
 
 ### Technologies
 
--   [Direct2D](https://msdn.microsoft.com/library/Dd370990(v=VS.85).aspx)
+-   [Direct2D](./direct2d-portal.md)
 -   [Direct2D effects](effects-overview.md)
--   [**Windows::Storage::Pickers::FileOpenPicker**](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileOpenPicker)
+-   [**Windows::Storage::Pickers::FileOpenPicker**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker)
 
 ### Prerequisites
 
--   You need an [**ID2D1DeviceContext**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx) object for creating effects.
--   You need an [**IWICImagingFactory**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory) object for creating WIC objects.
+-   You need an [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) object for creating effects.
+-   You need an [**IWICImagingFactory**](/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory) object for creating WIC objects.
 
 ## Instructions
 
 ### Step 1: Open the file picker
 
-Create a [**FileOpenPicker**](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileOpenPicker) object and set the *ViewMode*, *SuggestedStartLocation*, and the *FileTypeFilter* for selecting images. Call the [**PickSingleFileAsync**](https://docs.microsoft.com/uwp/api/windows.storage.pickers.fileopenpicker.picksinglefileasync) method.
+Create a [**FileOpenPicker**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker) object and set the *ViewMode*, *SuggestedStartLocation*, and the *FileTypeFilter* for selecting images. Call the [**PickSingleFileAsync**](/uwp/api/windows.storage.pickers.fileopenpicker.picksinglefileasync) method.
 
 
 ```C++
@@ -43,11 +43,11 @@ Create a [**FileOpenPicker**](https://docs.microsoft.com/uwp/api/Windows.Storage
 
 
 
-After the [**PickSingleFileAsync**](https://docs.microsoft.com/uwp/api/windows.storage.pickers.fileopenpicker.picksinglefileasync) completes, you get a file stream from the [**IAsyncOperation**](https://docs.microsoft.com/previous-versions//bb776309(v=vs.85)) interface it returns.
+After the [**PickSingleFileAsync**](/uwp/api/windows.storage.pickers.fileopenpicker.picksinglefileasync) completes, you get a file stream from the [**IAsyncOperation**](/previous-versions//bb776309(v=vs.85)) interface it returns.
 
 ### Step 2: Get a file stream
 
-Declare a completion handler to run after the file picker async operation returns. Use the [**GetResults**](https://docs.microsoft.com/previous-versions//br205815(v=vs.85)) method to retrieve the file and to get the file stream object.
+Declare a completion handler to run after the file picker async operation returns. Use the [**GetResults**](/previous-versions//br205815(v=vs.85)) method to retrieve the file and to get the file stream object.
 
 
 ```C++
@@ -73,11 +73,11 @@ Declare a completion handler to run after the file picker async operation return
 
 
 
-In the next step you convert the [**IRandomAccessStream**](https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)) object to an [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) that you can pass to [WIC](https://docs.microsoft.com/windows/desktop/wic/-wic-api).
+In the next step you convert the [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)) object to an [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) that you can pass to [WIC](/windows/desktop/wic/-wic-api).
 
 ### Step 3: Convert the file stream
 
-Use the [**CreateStreamOverRandomAccessStream**](https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) function to convert the file stream. Windows Runtime APIs represent streams with [**IRandomAccessStream**](https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)), while [WIC](https://docs.microsoft.com/windows/desktop/wic/-wic-api) consumes [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream).
+Use the [**CreateStreamOverRandomAccessStream**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) function to convert the file stream. Windows Runtime APIs represent streams with [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)), while [WIC](/windows/desktop/wic/-wic-api) consumes [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream).
 
 
 ```C++
@@ -93,13 +93,13 @@ Use the [**CreateStreamOverRandomAccessStream**](https://docs.microsoft.com/wind
 
 
 > [!Note]  
-> To use the [**CreateStreamOverRandomAccessStream**](https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) function, you should include *shcore.h* in your project.
+> To use the [**CreateStreamOverRandomAccessStream**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) function, you should include *shcore.h* in your project.
 
  
 
 ### Step 4: Create a WIC decoder and get the frame
 
-Create an [**IWICBitmapDecoder**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder) object using the [**IWICImagingFactory::CreateDecoderFromStream**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromstream) method.
+Create an [**IWICBitmapDecoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder) object using the [**IWICImagingFactory::CreateDecoderFromStream**](/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromstream) method.
 
 
 ```C++
@@ -116,7 +116,7 @@ Create an [**IWICBitmapDecoder**](https://docs.microsoft.com/windows/desktop/api
 
 
 
-Get the first frame of the image from the decoder using the [**IWICBitmapDecoder::GetFrame**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getframecount) method.
+Get the first frame of the image from the decoder using the [**IWICBitmapDecoder::GetFrame**](/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getframecount) method.
 
 
 ```C++
@@ -130,9 +130,9 @@ Get the first frame of the image from the decoder using the [**IWICBitmapDecoder
 
 ### Step 5: Create a WIC converter and initialize
 
-Convert the image to the BGRA color format using [WIC](https://docs.microsoft.com/windows/desktop/wic/-wic-api). [IWICBitmapFrameDecode](https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapframedecode) will return the native pixel format of the image, like JPEGs are stored in GUID\_WICPixelFormat24bppBGR. However, as a performance optimization with Direct2D we recommend that you convert to WICPixelFormat32bppPBGRA.
+Convert the image to the BGRA color format using [WIC](/windows/desktop/wic/-wic-api). [IWICBitmapFrameDecode](/windows/desktop/wic/-wic-imp-iwicbitmapframedecode) will return the native pixel format of the image, like JPEGs are stored in GUID\_WICPixelFormat24bppBGR. However, as a performance optimization with Direct2D we recommend that you convert to WICPixelFormat32bppPBGRA.
 
-1.  Create a [**IWICFormatConverter**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicformatconverter) object using the [**IWICImagingFactory::CreateFormatConverter**](https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createformatconverter) method.
+1.  Create a [**IWICFormatConverter**](/windows/desktop/api/wincodec/nn-wincodec-iwicformatconverter) object using the [**IWICImagingFactory::CreateFormatConverter**](/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createformatconverter) method.
 
     ```C++
         ComPtr<IWICFormatConverter> converter;
@@ -161,16 +161,16 @@ Convert the image to the BGRA color format using [WIC](https://docs.microsoft.co
 
     
 
-The [**IWICFormatConverter**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicformatconverter) interface is derived from the [**IWICBitmapSource**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource) interface, so you can pass the converter to the [bitmap source](bitmap-source.md) effect.
+The [**IWICFormatConverter**](/windows/desktop/api/wincodec/nn-wincodec-iwicformatconverter) interface is derived from the [**IWICBitmapSource**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource) interface, so you can pass the converter to the [bitmap source](bitmap-source.md) effect.
 
 ### Step 6: Create effect and pass in an IWICBitmapSource
 
-Use the [**CreateEffect**](https://msdn.microsoft.com/library/Hh404500(v=VS.85).aspx) method to create a [bitmap source](bitmap-source.md) [**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx) object using the [Direct2D](getting-started-with-direct2d.md) [**device context**](https://msdn.microsoft.com/library/Hh404479(v=VS.85).aspx).
+Use the [**CreateEffect**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect) method to create a [bitmap source](bitmap-source.md) [**ID2D1Effect**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1effect) object using the [Direct2D](getting-started-with-direct2d.md) [**device context**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext).
 
-Use the [**ID2D1Effect::SetValue**](https://msdn.microsoft.com/library/Hh446885(v=VS.85).aspx) method to set the *D2D1\_BITMAPSOURCE\_PROP\_WIC\_BITMAP\_SOURCE* property to the [WIC](https://docs.microsoft.com/windows/desktop/wic/-wic-api) [**format converter**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicformatconverter).
+Use the [**ID2D1Effect::SetValue**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-setvalue(uint32_constbyte_uint32)) method to set the *D2D1\_BITMAPSOURCE\_PROP\_WIC\_BITMAP\_SOURCE* property to the [WIC](/windows/desktop/wic/-wic-api) [**format converter**](/windows/desktop/api/wincodec/nn-wincodec-iwicformatconverter).
 
 > [!Note]  
-> The [bitmap source](bitmap-source.md) effect doesn't take an input from the [**SetInput**](https://msdn.microsoft.com/library/Hh404591(v=VS.85).aspx) method like many [Direct2D effects](effects-overview.md). Instead, the [**IWICBitmapSource**](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource) object is specified as a property.
+> The [bitmap source](bitmap-source.md) effect doesn't take an input from the [**SetInput**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1effect-setinput) method like many [Direct2D effects](effects-overview.md). Instead, the [**IWICBitmapSource**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource) object is specified as a property.
 
  
 
@@ -191,7 +191,7 @@ Use the [**ID2D1Effect::SetValue**](https://msdn.microsoft.com/library/Hh446885(
 
 
 
-Now that you have the [bitmap source](bitmap-source.md) effect, you can use it as input to any [**ID2D1Effect**](https://msdn.microsoft.com/library/Hh404566(v=VS.85).aspx) and create an effect graph.
+Now that you have the [bitmap source](bitmap-source.md) effect, you can use it as input to any [**ID2D1Effect**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1effect) and create an effect graph.
 
 ## Complete example
 
@@ -289,7 +289,3 @@ void OpenFile(Windows::Storage::Streams::IRandomAccessStream^ fileStream)
  
 
  
-
-
-
-

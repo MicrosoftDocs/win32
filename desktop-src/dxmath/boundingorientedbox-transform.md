@@ -15,7 +15,7 @@ api_location:
 
 # BoundingOrientedBox.Transform methods
 
-Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).
+Transforms the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox).
 
 ### Overload list
 
@@ -23,8 +23,8 @@ Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh85
 
 | Method                                                                                                                   | Description                                                                   |
 |:-------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
-| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,XMMATRIX)**](https://msdn.microsoft.com/library/Hh855951(v=VS.85).aspx)                | Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/> |
-| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,float,XMVECTOR,XMVECTOR)**](https://msdn.microsoft.com/library/Hh855952(v=VS.85).aspx) | Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/> |
+| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,XMMATRIX)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-transform(boundingorientedbox__float_fxmvector_fxmvector))                | Transforms the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox).<br/> |
+| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,float,XMVECTOR,XMVECTOR)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingorientedbox-transform(boundingorientedbox__float_fxmvector_fxmvector)) | Transforms the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox).<br/> |
 
 
 
@@ -38,13 +38,9 @@ Transforms the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh85
 **Reference**
 </dt> <dt>
 
-[**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx)
+[**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox)
 </dt> </dl>
 
  
 
  
-
-
-
-

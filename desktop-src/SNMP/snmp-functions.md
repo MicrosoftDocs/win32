@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # SNMP Functions
 
-\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
+\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
 
 This topic describes three groupings of SNMP functions and lists the functions that are included in each group:
 
@@ -97,7 +97,3 @@ The SNMP utility functions provide capabilities that are useful during the devel
  
 
  
-
-
-
-

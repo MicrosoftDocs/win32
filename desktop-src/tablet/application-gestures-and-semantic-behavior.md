@@ -17,7 +17,7 @@ The following table lists application gestures supported by the Microsoft gestur
 -   The Action is the suggested semantic behavior associated with the gesture.
 -   For the gestures labeled as Fixed in the following table, Microsoft recommends that you not change the suggested semantic behavior. If an application does not have a need for the specified semantic behavior, Microsoft recommends that you not reuse the gesture for another action or semantic behavior.
 -   For the gestures labeled as Application-specific and that have a suggested semantic behavior, Microsoft recommends you support the suggested semantic behavior if that functionality exists in your application. To maintain consistency across applications, do not choose a different semantic behavior for such a gesture if the functionality corresponding to the suggested semantic exists in your application. However, if your application does not have functionality that corresponds to the suggested semantic, you should feel free to associate relevant semantic behaviors to the gesture. This also applies to all gestures that are Application-specific and do not have a suggested semantic.
--   The hot point of a gesture is a distinguishing point in the geometry of the gesture. The hot point can be used to determine where the gesture was performed. The gestures APIs, specifically the [HotPoint](https://msdn.microsoft.com/library/ms582125(v=VS.90).aspx) property of the [Gesture](https://msdn.microsoft.com/library/ms583661(v=VS.90).aspx) object, make it possible to determine the hot point for a given gesture. However, not all gestures have a specific distinguishing hot point. For those that do not have a specific distinguishing hot point, the starting point is reported as the hot point.
+-   The hot point of a gesture is a distinguishing point in the geometry of the gesture. The hot point can be used to determine where the gesture was performed. The gestures APIs, specifically the [HotPoint](/previous-versions/ms582125(v=vs.100)) property of the [Gesture](/previous-versions/ms583661(v=vs.100)) object, make it possible to determine the hot point for a given gesture. However, not all gestures have a specific distinguishing hot point. For those that do not have a specific distinguishing hot point, the starting point is reported as the hot point.
     > [!Note]  
     > Some of the gestures do have a distinguishing hot point that just happens to be the starting point. These are distinguished in the table.
 
@@ -96,9 +96,4 @@ The following table lists application gestures supported by the Microsoft gestur
 </dt> </dl>
 
  
-
- 
-
-
-
 

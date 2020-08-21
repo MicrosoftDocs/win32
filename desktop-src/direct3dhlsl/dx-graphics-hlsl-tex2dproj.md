@@ -52,8 +52,8 @@ The value of the texture data.
 | Name | In/Out | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md) | Size |
 |------|--------|-------------------------------------------------------------------------------------|----------------------------------------------------------------|------|
 | s    | in     | [**object**](dx-graphics-hlsl-intrinsic-functions.md) | [sampler2D](dx-graphics-hlsl-sampler.md)                      | 1    |
-| t    | in     | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | 4    |
-| ret  | out    | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | 4    |
+| t    | in     | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types)                        | 4    |
+| ret  | out    | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types)                        | 4    |
 
 
 
@@ -84,10 +84,4 @@ This function is supported in the following shader models.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

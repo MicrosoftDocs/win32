@@ -696,7 +696,7 @@
         href: /windows/desktop/api/imapi2fs/nn-imapi2fs-ifsinamedstreams
         items: 
         - name: "get_NewEnum Method"
-          href: https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get__newenum
+          href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get__newenum
         - name: "get_Item Method"
           href: /windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_item
         - name: "get_Count Method"

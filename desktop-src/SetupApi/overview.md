@@ -29,12 +29,7 @@ Unicode and ANSI versions are available for most setup functions. Unicode text f
 
 Although the Setup API supports prompting for new media and basic error-handling dialog boxes, the setup functions do not provide wizard functionality or a generic user interface.
 
-Developers should consider whether they can use [Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal) to install their applications rather than the Setup API. Windows Installer reduces the total cost of ownership (TCO) for your customers by enabling them to efficiently install and configure your products and applications. The installer can also provide your product with new capabilities to advertise features without installing them, to install products on-demand, and to add user customizations.
+Developers should consider whether they can use [Windows Installer](/windows/desktop/Msi/windows-installer-portal) to install their applications rather than the Setup API. Windows Installer reduces the total cost of ownership (TCO) for your customers by enabling them to efficiently install and configure your products and applications. The installer can also provide your product with new capabilities to advertise features without installing them, to install products on-demand, and to add user customizations.
 
  
-
- 
-
-
-
 

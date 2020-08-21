@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Using an Event Callback to Manage Buffered Playback
 
-To use an event callback, use the [CreateEvent](https://msdn.microsoft.com/library/ms682396.aspx) function to retrieve the handle of an event. In a call to the [**midiOutOpen**](https://msdn.microsoft.com/library/Dd798476(v=VS.85).aspx) function, specify CALLBACK\_EVENT for the *dwFlags* parameter. After using the [**midiOutPrepareHeader**](https://msdn.microsoft.com/library/Dd798477(v=VS.85).aspx) function but before sending MIDI events to the device, create a nonsignaled event by calling the [ResetEvent](https://msdn.microsoft.com/library/ms685081.aspx) function, specifying the event handle retrieved by **CreateEvent**. Then, inside a loop that checks whether the MHDR\_DONE bit is set in the **dwFlags** member of the [**MIDIHDR**](https://msdn.microsoft.com/library/Dd798449(v=VS.85).aspx) structure, use the [WaitForSingleObject](https://msdn.microsoft.com/library/ms687032.aspx) function, specifying the event handle and a time-out value of INFINITE as parameters.
+To use an event callback, use the [CreateEvent](/windows/win32/api/synchapi/nf-synchapi-createeventa) function to retrieve the handle of an event. In a call to the [**midiOutOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midioutopen) function, specify CALLBACK\_EVENT for the *dwFlags* parameter. After using the [**midiOutPrepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-midioutprepareheader) function but before sending MIDI events to the device, create a nonsignaled event by calling the [ResetEvent](/windows/win32/api/synchapi/nf-synchapi-resetevent) function, specifying the event handle retrieved by **CreateEvent**. Then, inside a loop that checks whether the MHDR\_DONE bit is set in the **dwFlags** member of the [**MIDIHDR**](/windows/win32/api/mmeapi/ns-mmeapi-midihdr) structure, use the [WaitForSingleObject](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject) function, specifying the event handle and a time-out value of INFINITE as parameters.
 
 An event callback is set by anything that might cause a function callback.
 
@@ -27,7 +27,3 @@ Because event callbacks do not receive specific close, done, or open notificatio
  
 
  
-
-
-
-

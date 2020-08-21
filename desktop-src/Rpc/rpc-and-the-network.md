@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # RPC and the Network
 
-This section discusses how to deal with network unreliability when using RPC, and explains how RPC-level APIs translate into network activity. The section refers only to the [**ncacn\_ip\_tcp**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp) and [**ncacn\_http**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-http) protocol sequences.
+This section discusses how to deal with network unreliability when using RPC, and explains how RPC-level APIs translate into network activity. The section refers only to the [**ncacn\_ip\_tcp**](/windows/desktop/Midl/ncacn-ip-tcp) and [**ncacn\_http**](/windows/desktop/Midl/ncacn-http) protocol sequences.
 
 This section is divided into the following topics:
 
@@ -24,7 +24,3 @@ This section is divided into the following topics:
  
 
  
-
-
-
-

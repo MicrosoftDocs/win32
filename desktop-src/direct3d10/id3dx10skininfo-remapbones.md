@@ -39,7 +39,7 @@ HRESULT RemapBones(
 *NewBoneCount* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The new number of bones.
 
@@ -48,7 +48,7 @@ The new number of bones.
 *pBoneRemap* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 A pointer to an array of bone indices, which describe the remapping. For example, say SkinInfo contains some bones such that bone0 is mapped to v0, bone1 to v1, and bone2 to v2, and array with 2,1,0 is specified for pBoneRemap. This will cause bone0 to be mapped to v2, bone1 to v1, and bone2 to v0.
 
@@ -84,7 +84,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

@@ -35,8 +35,8 @@ SV\_StencilRef represents the current pixel shader stencil reference value.
 
 Specifying the shader reference value in the pixel shader is available in both D3D11.3 and D3D12. Refer to:
 
--   [D3D11.3 Shader Specified Stencil Reference Value](https://docs.microsoft.com/windows/desktop/direct3d11/shader-specified-stencil-reference-value)
--   [D3D12 Shader Specified Stencil Reference Value](https://docs.microsoft.com/windows/desktop/direct3d12/shader-specified-stencil-reference-value)
+-   [D3D11.3 Shader Specified Stencil Reference Value](/windows/desktop/direct3d11/shader-specified-stencil-reference-value)
+-   [D3D12 Shader Specified Stencil Reference Value](/windows/desktop/direct3d12/shader-specified-stencil-reference-value)
 
 ## See also
 
@@ -51,7 +51,3 @@ Specifying the shader reference value in the pixel shader is available in both D
  
 
  
-
-
-
-

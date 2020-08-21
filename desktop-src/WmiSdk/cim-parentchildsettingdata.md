@@ -22,7 +22,7 @@ api_location:
 
 # CIM\_ParentChildSettingData class
 
-An association between an instance of [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-virtualsystemsettingdata) and the **CIM\_VirtualSystemSettingData** instance which represents the most recent snapshot upon which this object is based.
+An association between an instance of [**CIM\_VirtualSystemSettingData**](/previous-versions/windows/desktop/clushyperv/cim-virtualsystemsettingdata) and the **CIM\_VirtualSystemSettingData** instance which represents the most recent snapshot upon which this object is based.
 
 > [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
@@ -66,7 +66,7 @@ Access type: Read-only
 
 Reference to the independent object in this association.
 
-This property is inherited from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
+This property is inherited from [**CIM\_Dependency**](/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> <dt>
 
@@ -94,7 +94,7 @@ Access type: Read-only
 
 Reference to the object that is dependent on the **Antecedent** property.
 
-This property is inherited from [**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency).
+This property is inherited from [**CIM\_Dependency**](/windows/desktop/CIMWin32Prov/cim-dependency).
 
 </dd> <dt>
 
@@ -125,13 +125,8 @@ The snapshot setting data upon which the Child setting data is based.
 
 <dl> <dt>
 
-[**CIM\_Dependency**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-dependency)
+[**CIM\_Dependency**](/windows/desktop/CIMWin32Prov/cim-dependency)
 </dt> </dl>
 
  
-
- 
-
-
-
 

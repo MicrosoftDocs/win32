@@ -83,7 +83,7 @@ public static bool TryGetLock(
 
 #### Return value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 True if the lock was obtained, false otherwise. An exception is thrown if an unexpected error is encountered.  
 
 ## See also
@@ -95,4 +95,3 @@ True if the lock was obtained, false otherwise. An exception is thrown if an une
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

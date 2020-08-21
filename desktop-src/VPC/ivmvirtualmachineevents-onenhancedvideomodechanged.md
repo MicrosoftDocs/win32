@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachineEvents::OnEnhancedVideoModeChanged method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Receives notification that a virtual machine's support for enhanced video mode has changed.
 
@@ -73,10 +73,4 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

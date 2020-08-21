@@ -34,8 +34,8 @@ Microsoft RPC NDR currently supports the following functions and structures:
 -   [**NdrContextHandleSize**](/windows/desktop/api/Rpcndr/nf-rpcndr-ndrcontexthandlesize)
 -   [**NdrContextHandleMemorySize**](/windows/desktop/api/Rpcndr/nf-rpcndr-ndrcontexthandlememorysize)
 -   [**NdrConvert**](/windows/desktop/api/Rpcndr/nf-rpcndr-ndrconvert)
--   [**NdrCStdStubBuffer\_Release**](https://msdn.microsoft.com/library/Aa374242(v=VS.80).aspx)
--   [**NdrCStdStubBuffer2\_Release**](https://msdn.microsoft.com/library/Aa374240(v=VS.80).aspx)
+-   [**NdrCStdStubBuffer\_Release**](/previous-versions/aa374242(v=vs.80))
+-   [**NdrCStdStubBuffer2\_Release**](/previous-versions/aa374240(v=vs.80))
 -   [**NdrDllCanUnloadNow**](/windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrdllcanunloadnow)
 -   [**NdrDllGetClassObject**](/windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrdllgetclassobject)
 -   [**NdrDllRegisterProxy**](/windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrdllregisterproxy)
@@ -73,7 +73,3 @@ Microsoft RPC NDR currently supports the following functions and structures:
  
 
  
-
-
-
-

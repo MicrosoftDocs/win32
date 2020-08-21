@@ -29,7 +29,7 @@ It is possible for your client application to use the endpoint map to determine 
 
 Well-known endpoints are pre-assigned endpoints that the server program uses every time it runs. Because the server always listens to that particular endpoint, the client always attempts to connect to it. Well-known endpoints are usually assigned by the authority responsible for the transport protocol. Because server host computers have a finite number of available endpoints, application developers are strongly discouraged from using well-known endpoints. Another advantage of dynamic endpoints is that they simplify long-term management and maintenance of the system.
 
-A distributed application can specify a well-known endpoint in a string and pass that string as a parameter to the function [**RpcServerUseProtseqEp**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqep). Alternatively, the endpoint string can appear in the IDL file interface header as part of the \[ [endpoint](https://docs.microsoft.com/windows/desktop/Midl/endpoint)\] interface attribute.
+A distributed application can specify a well-known endpoint in a string and pass that string as a parameter to the function [**RpcServerUseProtseqEp**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqep). Alternatively, the endpoint string can appear in the IDL file interface header as part of the \[ [endpoint](/windows/desktop/Midl/endpoint)\] interface attribute.
 
 You can use two approaches to implement the well-known endpoint:
 
@@ -42,7 +42,7 @@ Your client application can also query a name service database for well-known en
 
 ## Using Dynamic Endpoints
 
-The number of endpoints for a particular server and a particular protocol sequence are usually limited. For example, when you use the [ncacn\_ip\_tcp](https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp) protocol sequence, indicating that RPC network communication occurs using TCP/IP, only a limited number of ports are available (most systems have only the range 1025 through 5000 opened). The RPC run-time libraries allow you to assign endpoints dynamically, as needed. Since the number of possible interface UUIDs is practically unlimited, using the interface UUID to direct the call offers more room for expansion and more flexibility.
+The number of endpoints for a particular server and a particular protocol sequence are usually limited. For example, when you use the [ncacn\_ip\_tcp](/windows/desktop/Midl/ncacn-ip-tcp) protocol sequence, indicating that RPC network communication occurs using TCP/IP, only a limited number of ports are available (most systems have only the range 1025 through 5000 opened). The RPC run-time libraries allow you to assign endpoints dynamically, as needed. Since the number of possible interface UUIDs is practically unlimited, using the interface UUID to direct the call offers more room for expansion and more flexibility.
 
 By default, the RPC run-time library functions search for endpoint information when they query a name service database. If the endpoint is dynamic, the name service database will not contain endpoint information. However, the query will give your client program the name of a server. It can then search the server's endpoint map.
 
@@ -59,7 +59,3 @@ This approach allows a transition path for applications that have started with a
  
 
  
-
-
-
-

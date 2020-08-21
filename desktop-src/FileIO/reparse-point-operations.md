@@ -10,15 +10,15 @@ ms.date: 05/31/2018
 
 To determine whether a file system supports reparse points, call the [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) function and examine the **FILE\_SUPPORTS\_REPARSE\_POINTS** bit flag.
 
-The [**DeviceIoControl**](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function enables you to set, modify, obtain, and remove reparse points. The following table describes the reparse point operations that you can perform using **DeviceIoControl**.
+The [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function enables you to set, modify, obtain, and remove reparse points. The following table describes the reparse point operations that you can perform using **DeviceIoControl**.
 
 
 
 | Operation                                                           | Description                                                                                     |
 |---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| [**FSCTL\_SET\_REPARSE\_POINT**](https://msdn.microsoft.com/library/Aa364595(v=VS.85).aspx)       | Allows the calling program to set a new reparse point, or to modify an existing one.<br/> |
-| [**FSCTL\_GET\_REPARSE\_POINT**](https://msdn.microsoft.com/library/Aa364571(v=VS.85).aspx)       | Obtains the information stored in an existing reparse point.<br/>                         |
-| [**FSCTL\_DELETE\_REPARSE\_POINT**](https://msdn.microsoft.com/library/Aa364560(v=VS.85).aspx) | Removes an existing reparse point.<br/>                                                   |
+| [**FSCTL\_SET\_REPARSE\_POINT**](/windows/win32/api/winioctl/ni-winioctl-fsctl_set_reparse_point)       | Allows the calling program to set a new reparse point, or to modify an existing one.<br/> |
+| [**FSCTL\_GET\_REPARSE\_POINT**](/windows/win32/api/winioctl/ni-winioctl-fsctl_get_reparse_point)       | Obtains the information stored in an existing reparse point.<br/>                         |
+| [**FSCTL\_DELETE\_REPARSE\_POINT**](/windows/win32/api/winioctl/ni-winioctl-fsctl_delete_reparse_point) | Removes an existing reparse point.<br/>                                                   |
 
 
 
@@ -31,9 +31,4 @@ To determine whether a file or directory contains a reparse point, use the [**Ge
 To overwrite an existing reparse point without already having a handle to the file or directory, call [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) with **FILE\_FLAG\_OPEN\_REPARSE\_POINT**. This flag allows you to open the file whether or not the corresponding file system filter is installed and working correctly.
 
  
-
- 
-
-
-
 

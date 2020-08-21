@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 In the administrator broker model, the application is divided into two programs. One of the programs runs as a standard user, and the other runs with administrator privilege.
 
-Using an application manifest, mark the standard user program with a **requestedExecutionLevel** of **asInvoker** and mark the administrative program with a **requestedExecutionLevel** of **requireAdministrator**. A user launches the standard user program first. When the user attempts to perform an operation that requires a full administrator access token, the standard user program calls the [**ShellExecute**](https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea) function to launch the administrative program. The **ShellExecute** function prompts the user for approval before running the application with the user's full administrator access token. The administrative program can then perform tasks that require administrator privilege.
+Using an application manifest, mark the standard user program with a **requestedExecutionLevel** of **asInvoker** and mark the administrative program with a **requestedExecutionLevel** of **requireAdministrator**. A user launches the standard user program first. When the user attempts to perform an operation that requires a full administrator access token, the standard user program calls the [**ShellExecute**](/windows/desktop/api/shellapi/nf-shellapi-shellexecutea) function to launch the administrative program. The **ShellExecute** function prompts the user for approval before running the application with the user's full administrator access token. The administrative program can then perform tasks that require administrator privilege.
 
-The administrative program is not completely isolated from the standard user program. The administrative program can enable interprocess communication with the standard user program. However, such communication is limited by the default mandatory integrity policy. For information about mandatory integrity considerations, see [Designing Applications to Run at a Low Integrity Level](https://msdn.microsoft.com/library/bb625960.aspx).
+The administrative program is not completely isolated from the standard user program. The administrative program can enable interprocess communication with the standard user program. However, such communication is limited by the default mandatory integrity policy. For information about mandatory integrity considerations, see [Designing Applications to Run at a Low Integrity Level](/previous-versions/dotnet/articles/bb625960(v=msdn.10)).
 
 The following are possible uses for the administrator broker model:
 
@@ -44,6 +44,3 @@ The following are drawbacks to using the administrator broker model:
  
 
  
-
-
-

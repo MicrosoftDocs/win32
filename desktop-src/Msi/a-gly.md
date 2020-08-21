@@ -43,7 +43,7 @@ The approval state enabled by User Account Protection (UAC) that runs all users 
 <span id="_msi_advertising_gly"></span><span id="_MSI_ADVERTISING_GLY"></span>**advertising**
 </dt> <dd>
 
-Capability to make the interfaces required for loading and to make an application available without installing the application. When a user or application activates an advertised interface, the installer then proceeds to install the necessary components. The two types of advertising are [*assigning*](https://docs.microsoft.com/windows) and [*publishing*](p-gly.md). For more information, see also [*install-on-demand*](i-gly.md). For more information about how the installer advertises applications, see [Advertisement](advertisement.md).
+Capability to make the interfaces required for loading and to make an application available without installing the application. When a user or application activates an advertised interface, the installer then proceeds to install the necessary components. The two types of advertising are [*assigning*](/windows) and [*publishing*](p-gly.md). For more information, see also [*install-on-demand*](i-gly.md). For more information about how the installer advertises applications, see [Advertisement](advertisement.md).
 
 </dd> <dt>
 
@@ -57,7 +57,7 @@ A system service of Windows Vista that facilitates starting installations that 
 <span id="_msi_assigning_gly"></span><span id="_MSI_ASSIGNING_GLY"></span>**assigning**
 </dt> <dd>
 
-Makes an application available, and makes it appear as if it has been installed to a user, without actually installing it. Assigning adds shortcuts and icons to the **Start** menu, associates appropriate files, and writes registry entries for the application. When a user tries to open an assigned application, then the installer installs the application. Assigning and [*publishing*](p-gly.md) are two methods of [*advertising*](https://docs.microsoft.com/windows). For more information, see [Advertisement](advertisement.md).
+Makes an application available, and makes it appear as if it has been installed to a user, without actually installing it. Assigning adds shortcuts and icons to the **Start** menu, associates appropriate files, and writes registry entries for the application. When a user tries to open an assigned application, then the installer installs the application. Assigning and [*publishing*](p-gly.md) are two methods of [*advertising*](/windows). For more information, see [Advertisement](advertisement.md).
 
 </dd> <dt>
 
@@ -71,6 +71,3 @@ Makes an application available, and makes it appear as if it has been installed 
  
 
  
-
-
-

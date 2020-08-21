@@ -16,7 +16,7 @@ The function GetEncoderClsid in the following example receives the MIME type of 
 -   image/tiff
 -   image/png
 
-The function calls [**GetImageEncoders**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders) to get an array of [**ImageCodecInfo**](https://msdn.microsoft.com/library/ms534466(v=VS.85).aspx) objects. If one of the **ImageCodecInfo** objects in that array represents the requested encoder, the function returns the index of the **ImageCodecInfo** object and copies the **CLSID** into the variable pointed to by **pClsid**. If the function fails, it returns –1.
+The function calls [**GetImageEncoders**](/windows/desktop/api/Gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders) to get an array of [**ImageCodecInfo**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-imagecodecinfo) objects. If one of the **ImageCodecInfo** objects in that array represents the requested encoder, the function returns the index of the **ImageCodecInfo** object and copies the **CLSID** into the variable pointed to by **pClsid**. If the function fails, it returns –1.
 
 
 ```
@@ -111,6 +111,3 @@ The CLSID of the PNG encoder is {557CF406-1A04-11D3-9A73-0000F81EF32E}.
  
 
  
-
-
-

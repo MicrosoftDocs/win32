@@ -14,8 +14,8 @@ ms.date: 05/31/2018
 
 | Topic                                                                      | Description                                                                                         |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [System.Note.Color](https://msdn.microsoft.com/library/Bb787286(v=VS.85).aspx)<br/>         |                                                                                                     |
-| [System.Note.ColorText](https://msdn.microsoft.com/library/Bb787288(v=VS.85).aspx)<br/> | The user-friendly form of System.Note.Color. Not intended to be parsed programmatically.<br/> |
+| [System.Note.Color](./props-system-note-color.md)<br/>         |                                                                                                     |
+| [System.Note.ColorText](./props-system-note-colortext.md)<br/> | The user-friendly form of System.Note.Color. Not intended to be parsed programmatically.<br/> |
 
 
 
@@ -24,7 +24,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

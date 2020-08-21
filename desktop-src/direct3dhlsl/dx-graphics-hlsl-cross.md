@@ -51,9 +51,9 @@ The cross product of the *x* parameter and the *y* parameter.
 
 | Name  | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md) | Size |
 |-------|-------------------------------------------------------------------------------------|----------------------------------------------------------------|------|
-| *x*   | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | 3    |
-| *y*   | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | 3    |
-| *ret* | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                        | 3    |
+| *x*   | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types)                        | 3    |
+| *y*   | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types)                        | 3    |
+| *ret* | [**vector**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types)                        | 3    |
 
 
 
@@ -82,10 +82,4 @@ This function is supported in the following shader models.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

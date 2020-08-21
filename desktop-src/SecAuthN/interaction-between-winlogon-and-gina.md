@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Interaction Between Winlogon and GINA
 
-[*Winlogon*](https://msdn.microsoft.com/library/ms721635(v=VS.85).aspx) and the [*GINA*](https://msdn.microsoft.com/library/ms721584(v=VS.85).aspx) must communicate initialization information, handle [*secure attention sequence*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SAS) monitoring and notification, and permit logoff and shutdown activities. The state of Winlogon determines which GINA function is called to process any given SAS event. Communications occur in the order shown here.
+[*Winlogon*](../secgloss/w-gly.md) and the [*GINA*](../secgloss/g-gly.md) must communicate initialization information, handle [*secure attention sequence*](../secgloss/s-gly.md) (SAS) monitoring and notification, and permit logoff and shutdown activities. The state of Winlogon determines which GINA function is called to process any given SAS event. Communications occur in the order shown here.
 
 > [!Note]  
 > GINA DLLs are ignored in Windows Vista.
@@ -112,7 +112,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

@@ -22,10 +22,10 @@ The Smart Card SDK provides the following COM interfaces. The methods for a spec
 | Interface                                    | Description                                                                                                                                                                              |
 |----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IByteBuffer**](ibytebuffer.md)           | Manages a stream object.                                                                                                                                                                 |
-| [**ISCard**](iscard.md)                     | Opens and manages a connection to a [*smart card*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly).                                                                    |
+| [**ISCard**](iscard.md)                     | Opens and manages a connection to a [*smart card*](/windows/desktop/SecGloss/s-gly).                                                                    |
 | [**ISCardAuth**](iscardauth.md)             | Authenticates an application, smart card, or user.                                                                                                                                       |
-| [**ISCardCmd**](iscardcmd.md)               | Constructs and manages a smart card [*Application Protocol Data Unit*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (APDU). |
-| [**ISCardDatabase**](iscarddatabase.md)     | Performs smart card [*resource manager*](https://docs.microsoft.com/windows/desktop/SecGloss/r-gly) database operations.                                              |
+| [**ISCardCmd**](iscardcmd.md)               | Constructs and manages a smart card [*Application Protocol Data Unit*](/windows/desktop/SecGloss/a-gly) (APDU). |
+| [**ISCardDatabase**](iscarddatabase.md)     | Performs smart card [*resource manager*](/windows/desktop/SecGloss/r-gly) database operations.                                              |
 | [**ISCardFileAccess**](iscardfileaccess.md) | Performs common file services such as locating, selecting, reading, writing, creating, and deleting files.                                                                               |
 | [**ISCardISO7816**](iscardiso7816.md)       | Constructs an APDU command.                                                                                                                                                              |
 | [**ISCardLocate**](iscardlocate.md)         | Locates a smart card.                                                                                                                                                                    |
@@ -57,6 +57,3 @@ The Identity Sharing SDK provides the following COM interfaces. The methods for 
  
 
  
-
-
-

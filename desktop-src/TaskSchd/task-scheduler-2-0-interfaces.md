@@ -29,7 +29,7 @@ The following interfaces are introduced in Task Scheduler 2.0.
 | [**IEventTrigger**](/windows/desktop/api/taskschd/nn-taskschd-ieventtrigger)                           | Represents a trigger that starts a task when a system event occurs.                                                                                                                                                                                                                               |
 | [**IExecAction**](/windows/desktop/api/taskschd/nn-taskschd-iexecaction)                               | Represents an action that executes a command-line operation.                                                                                                                                                                                                                                      |
 | [**IIdleSettings**](/windows/desktop/api/taskschd/nn-taskschd-iidlesettings)                           | Specifies how the Task Scheduler performs tasks when the computer is in an idle condition.                                                                                                                                                                                                        |
-| [**IIdleTrigger**](https://msdn.microsoft.com/library/Aa380724(v=VS.85).aspx)                             | Represents a trigger that starts a task when the computer goes into an idle state.                                                                                                                                                                                                                |
+| [**IIdleTrigger**](/windows/win32/api/taskschd/nn-taskschd-iidletrigger)                             | Represents a trigger that starts a task when the computer goes into an idle state.                                                                                                                                                                                                                |
 | [**ILogonTrigger**](/windows/desktop/api/taskschd/nn-taskschd-ilogontrigger)                           | Represents a trigger that starts a task when a user logs on.                                                                                                                                                                                                                                      |
 | [**IMaintenanceSettings**](/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings)             | Provides the settings that the Task Scheduler uses to perform task during Automatic maintenance.                                                                                                                                                                                                  |
 | [**IMonthlyDOWTrigger**](/windows/desktop/api/taskschd/nn-taskschd-imonthlydowtrigger)                 | Represents a trigger that starts a task on a monthly day-of-week schedule.                                                                                                                                                                                                                        |
@@ -70,7 +70,3 @@ The following interfaces are introduced in Task Scheduler 2.0.
  
 
  
-
-
-
-

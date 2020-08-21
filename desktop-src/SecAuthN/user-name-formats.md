@@ -15,7 +15,7 @@ When an application uses the Credentials Management API to prompt for credential
 
 ## User Principal Name
 
-[*User principal name*](https://msdn.microsoft.com/library/ms721629(v=VS.85).aspx) (UPN) format is used to specify an Internet-style name, such as <b>UserName@Example.Microsoft.com</b>. The following table summarizes the parts of a UPN.
+[*User principal name*](../secgloss/u-gly.md) (UPN) format is used to specify an Internet-style name, such as <b>UserName@Example.Microsoft.com</b>. The following table summarizes the parts of a UPN.
 
 
 
@@ -50,7 +50,3 @@ The down-level logon name format is used to specify a domain and a user account 
  
 
  
-
-
-
-

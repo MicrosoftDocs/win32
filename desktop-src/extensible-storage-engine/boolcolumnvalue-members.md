@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-A [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) column value.
+A [Boolean](/dotnet/api/system.boolean) column value.
 
 The [BoolColumnValue](dn334148\(v=exchg.10\).md) type exposes the following members.
 
@@ -165,4 +165,3 @@ Top
 [BoolColumnValue class](dn334148\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

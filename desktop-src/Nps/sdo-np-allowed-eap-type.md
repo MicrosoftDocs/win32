@@ -13,7 +13,7 @@ EAP encryption modes permitted for a connection.
 
 **LDAP Name:** msNPAllowedEapType
 
-**ID:** 4106 = [**IAS\_ATTRIBUTE\_NP\_ALLOWED\_EAP\_TYPE**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid)
+**ID:** 4106 = [**IAS\_ATTRIBUTE\_NP\_ALLOWED\_EAP\_TYPE**](/windows/desktop/api/sdoias/ne-sdoias-attributeid)
 
 **Syntax:** Integer
 
@@ -29,7 +29,3 @@ Defined by the Internet Assigned Numbers Authority (IANA) in the [Extensible Aut
  
 
  
-
-
-
-

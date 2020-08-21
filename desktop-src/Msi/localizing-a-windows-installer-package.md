@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Localizing a Windows Installer Package
 
-For general information about localization, see [Globalization Services](https://msdn.microsoft.com/library/Dd318140(v=VS.85).aspx). Localizing a Windows Installer package requires modifying the strings displayed by the user interface and may also require adding or modifying product resources. For example, localization may include the addition of international DLLs and localized files to the product.
+For general information about localization, see [Globalization Services](../intl/globalization-services.md). Localizing a Windows Installer package requires modifying the strings displayed by the user interface and may also require adding or modifying product resources. For example, localization may include the addition of international DLLs and localized files to the product.
 
 **To localize a Windows Installer package**
 
@@ -28,6 +28,3 @@ For more information, see [A Localization Example](a-localization-example.md).
  
 
  
-
-
-

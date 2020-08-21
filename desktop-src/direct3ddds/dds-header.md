@@ -51,7 +51,7 @@ typedef struct {
 **dwSize**
 </dt> <dd>
 
-Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -62,7 +62,7 @@ Size of structure. This member must be set to 124.
 **dwFlags**
 </dt> <dd>
 
-Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -105,7 +105,7 @@ The DDS\_HEADER\_FLAGS\_LINEARSIZE flag, which is defined in Dds.h, is equal to 
 **dwHeight**
 </dt> <dd>
 
-Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -116,7 +116,7 @@ Surface height (in pixels).
 **dwWidth**
 </dt> <dd>
 
-Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -127,7 +127,7 @@ Surface width (in pixels).
 **dwPitchOrLinearSize**
 </dt> <dd>
 
-Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -138,7 +138,7 @@ The pitch or number of bytes per scan line in an uncompressed texture; the total
 **dwDepth**
 </dt> <dd>
 
-Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -149,7 +149,7 @@ Depth of a volume texture (in pixels), otherwise unused.
 **dwMipMapCount**
 </dt> <dd>
 
-Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -160,7 +160,7 @@ Number of mipmap levels, otherwise unused.
 **dwReserved1\[11\]**
 </dt> <dd>
 
-Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -182,7 +182,7 @@ The pixel format (see [**DDS\_PIXELFORMAT**](dds-pixelformat.md)).
 **dwCaps**
 </dt> <dd>
 
-Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -216,7 +216,7 @@ The DDS\_SURFACE\_FLAGS\_CUBEMAP flag, which is defined in Dds.h, is equal to th
 **dwCaps2**
 </dt> <dd>
 
-Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -265,7 +265,7 @@ The DDS\_FLAGS\_VOLUME flag, which is defined in Dds.h, is equal to the DDSCAPS2
 **dwCaps3**
 </dt> <dd>
 
-Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -276,7 +276,7 @@ Unused.
 **dwCaps4**
 </dt> <dd>
 
-Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -287,7 +287,7 @@ Unused.
 **dwReserved2**
 </dt> <dd>
 
-Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -321,10 +321,4 @@ Use this structure in combination with a [**DDS\_HEADER\_DXT10**](dds-header-dxt
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

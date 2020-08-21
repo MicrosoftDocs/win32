@@ -39,7 +39,7 @@ A query string that identifies the event that fires the trigger.
 
 When reading or writing your own XML for a task, the event subscription is specified using the [**Subscription**](taskschedulerschema-subscription-eventtriggertype-element.md) element of the Task Scheduler schema.
 
-For more information about writing a query string for certain events, see [Event Selection](https://msdn.microsoft.com/library/aa385231(VS.85).aspx) and [Subscribing to Events](https://msdn.microsoft.com/library/aa385771(VS.85).aspx).
+For more information about writing a query string for certain events, see [Event Selection](/previous-versions//aa385231(v=vs.85)) and [Subscribing to Events](../wes/subscribing-to-events.md).
 
 ## Examples
 
@@ -80,10 +80,4 @@ The following query string defines a subscription to all level 2 events in the S
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

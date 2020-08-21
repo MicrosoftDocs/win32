@@ -87,14 +87,14 @@ public static void JetGetBookmark(
 <!-- end list -->
 
   - bookmarkSize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Size of the bookmark buffer.
 
 <!-- end list -->
 
   - actualBookmarkSize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Returns the actual size of the bookmark.
 
@@ -107,4 +107,3 @@ public static void JetGetBookmark(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -32,7 +32,7 @@ Managed versions of the ESENT API. This class contains static methods that corre
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.Api  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
@@ -62,4 +62,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

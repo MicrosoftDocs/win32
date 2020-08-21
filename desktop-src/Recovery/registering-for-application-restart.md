@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Registering for Application Restart
 
-To register your application to be restarted, call the [**RegisterApplicationRestart**](https://msdn.microsoft.com/library/Aa373347(v=VS.85).aspx) function. [Windows Error Reporting (WER)](https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting) will restart your application if it has been running for at least 60 seconds before becoming unresponsive or encountering an unhandled exception.
+To register your application to be restarted, call the [**RegisterApplicationRestart**](/windows/win32/api/winbase/nf-winbase-registerapplicationrestart) function. [Windows Error Reporting (WER)](/windows/desktop/wer/windows-error-reporting) will restart your application if it has been running for at least 60 seconds before becoming unresponsive or encountering an unhandled exception.
 
 You should consider also [registering for recovery](registering-for-application-recovery.md), which lets you save data and state information that may be helpful when WER restarts your application. WER will restart the application after the recovery process completes, if you also register for recovery.
 
 After the recovery process completes, WER terminates the application and then restarts it. For console applications, the application is started in a separate console window that closes when the application exits.
 
-**Note for application installer authors:** Registering for application restart will also cause Windows to automatically restart the application after the computer is restarted in cases where the computer is restarted due to a software update. For this to work, the installer of the application must call the [**ExitWindowsEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex) function with the EWX\_RESTARTAPPS flag set or the [**InitiateShutdown**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-initiateshutdowna) function with the SHUTDOWN\_RESTARTAPPS flag set.
+**Note for application installer authors:** Registering for application restart will also cause Windows to automatically restart the application after the computer is restarted in cases where the computer is restarted due to a software update. For this to work, the installer of the application must call the [**ExitWindowsEx**](/windows/desktop/api/winuser/nf-winuser-exitwindowsex) function with the EWX\_RESTARTAPPS flag set or the [**InitiateShutdown**](/windows/desktop/api/winreg/nf-winreg-initiateshutdowna) function with the SHUTDOWN\_RESTARTAPPS flag set.
 
 The following example shows how to register to have WER restart your application. The example causes an access violation after registering for application restart. The access violation will be picked up by Windows Error Reporting and will demonstrate the error reporting user experience, including application restart. It should be run from a console window with no command line arguments.
 
@@ -238,7 +238,3 @@ cleanup:
  
 
  
-
-
-
-

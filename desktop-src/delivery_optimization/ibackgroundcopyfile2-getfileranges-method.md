@@ -49,7 +49,7 @@ Number of elements in *Ranges*.
 *Ranges* \[out\]
 </dt> <dd>
 
-Array of [**BG_FILE_RANGE**](bg-file-range.md) structures that specify the ranges to download. When done, call the [**CoTaskMemFree**](https://msdn.microsoft.com/windows/desktop/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7) function to free *Ranges*.
+Array of [**BG_FILE_RANGE**](bg-file-range.md) structures that specify the ranges to download. When done, call the [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) function to free *Ranges*.
 
 </dd> </dl>
 
@@ -95,10 +95,4 @@ This method returns the following return values, as well as others.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -481,7 +481,7 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
 
 ## Visual Basic Example
 
-The following Visual Basic code example searches the current domain for users with the specified surname and returns the name and [**distinguishedName**](https://docs.microsoft.com/windows/desktop/ADSchema/a-distinguishedname) attributes for the objects that are found. The following code example uses ADO to perform the search.
+The following Visual Basic code example searches the current domain for users with the specified surname and returns the name and [**distinguishedName**](/windows/desktop/ADSchema/a-distinguishedname) attributes for the objects that are found. The following code example uses ADO to perform the search.
 
 
 ```VB
@@ -617,7 +617,3 @@ End Sub
  
 
  
-
-
-
-

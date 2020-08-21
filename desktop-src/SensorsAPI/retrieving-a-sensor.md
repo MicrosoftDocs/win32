@@ -102,7 +102,7 @@ if(SUCCEEDED(hr))
 
 
 
-To retrieve a sensor by its ID, you must know the unique ID for the sensor. Sensors usually generate this ID when first connected to enable you to identify multiple sensors of the same make and model. This means that you probably will not know the sensor ID in advance. However, if you have stored a copy of a particular sensor ID that you previously retrieved, for example by calling [**ISensor::GetID**](https://msdn.microsoft.com/library/Dd318873(v=VS.85).aspx), you may want to retrieve the same sensor again.
+To retrieve a sensor by its ID, you must know the unique ID for the sensor. Sensors usually generate this ID when first connected to enable you to identify multiple sensors of the same make and model. This means that you probably will not know the sensor ID in advance. However, if you have stored a copy of a particular sensor ID that you previously retrieved, for example by calling [**ISensor::GetID**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensor-getid), you may want to retrieve the same sensor again.
 
 The following example code shows how to retrieve a sensor by using its ID.
 
@@ -117,18 +117,15 @@ hr = pSensorManager->GetSensorByID(SAMPLE_SENSOR_TIME_ID, &pSensor);
 
 
 
-You can also retrieve sensors when they become available by receiving an event from the sensor manager. For more information, see [**ISensorManager::SetEventSink**](https://msdn.microsoft.com/library/Dd318868(v=VS.85).aspx).
+You can also retrieve sensors when they become available by receiving an event from the sensor manager. For more information, see [**ISensorManager::SetEventSink**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensormanager-seteventsink).
 
 ## Related topics
 
 <dl> <dt>
 
-[**ISensorManagerEvents::OnSensorEnter**](https://msdn.microsoft.com/library/Dd318863(v=VS.85).aspx)
+[**ISensorManagerEvents::OnSensorEnter**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensormanagerevents-onsensorenter)
 </dt> </dl>
 
  
 
  
-
-
-

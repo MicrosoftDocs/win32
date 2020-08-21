@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # MIDI Services
 
-Most applications will be able to use the MCI MIDI sequencer or stream buffers (and the [**midiStreamOut**](https://msdn.microsoft.com/library/Dd798487(v=VS.85).aspx) function) to implement all the MIDI functionality they need. Serious MIDI developers — those producing MIDI authoring or sequencing tools — can use either a combination of the stream capabilities and the MIDI services or use only the MIDI services. The following topics provides general information about using the MIDI services.
+Most applications will be able to use the MCI MIDI sequencer or stream buffers (and the [**midiStreamOut**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamout) function) to implement all the MIDI functionality they need. Serious MIDI developers — those producing MIDI authoring or sequencing tools — can use either a combination of the stream capabilities and the MIDI services or use only the MIDI services. The following topics provides general information about using the MIDI services.
 
 -   [Querying MIDI Devices](querying-midi-devices.md)
 -   [Opening and Closing Device Drivers](opening-and-closing-device-drivers.md)
@@ -28,7 +28,3 @@ Most applications will be able to use the MCI MIDI sequencer or stream buffers (
  
 
  
-
-
-
-

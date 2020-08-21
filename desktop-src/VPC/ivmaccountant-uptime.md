@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMAccountant::UpTime property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves the number of seconds that the virtual machine has been running.
 
@@ -78,10 +78,4 @@ The number of seconds.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

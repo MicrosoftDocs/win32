@@ -56,11 +56,11 @@ BOOL BlockModeCompress(
 {
     COMPRESSOR_HANDLE Compressor    = NULL;
     DWORD ProcessedSoFar            = 0;
-    DWORD OutputSoFar               = 0;
+    SIZE_T OutputSoFar              = 0;
     DWORD CurrentBlockSize          = 0;
-    DWORD CompressedDataSize        = 0;
-    DWORD CompressedBlockSize       = 0;
-    DWORD OutputDataSize            = 0;  
+    SIZE_T CompressedDataSize       = 0;
+    SIZE_T CompressedBlockSize      = 0;
+    SIZE_T OutputDataSize           = 0;  
     BOOL Success                    = FALSE;
 
     //  Set maximum input block size for compressor.
@@ -174,7 +174,17 @@ BOOL BlockModeCompress(
 
         ProcessedSoFar += CurrentBlockSize;
     }    
-    *CompressedSize = OutputSoFar;
+    
+    
+    if (OutputSoFar > UINT32_MAX)
+    {
+        *CompressedSize = 0;
+        Success = FALSE;
+    }
+    else
+    {
+        *CompressedSize = static_cast<DWORD>(OutputSoFar);
+    }
 
 done:
     if (Compressor != NULL)
@@ -338,7 +348,7 @@ done:
         }
         CloseHandle(CompressedFile);
     }
-
+}
 ```
 
 
@@ -484,7 +494,7 @@ void wmain(_In_ int argc, _In_ WCHAR *argv[])
     HANDLE DecompressedFile             = INVALID_HANDLE_VALUE;    
     BOOL DeleteTargetFile               = TRUE;    
     BOOL Success;
-    SIZE_T DecompressedDataSize;
+    DWORD DecompressedDataSize;
     DWORD InputFileSize, ByteRead, ByteWritten;
     ULONGLONG StartTime, EndTime;
     LARGE_INTEGER FileSize;    
@@ -628,6 +638,7 @@ done:
         }
         CloseHandle(DecompressedFile); 
     }
+}
 ```
 
 

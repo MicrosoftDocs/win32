@@ -106,46 +106,42 @@ The following code retrieves the clients collection for the Network Policy Serve
 
 ## Remarks
 
-The pSdoServiceControl variable contains a pointer to a Server Data Object for NPS. For more information, see the topic [Retrieving a Service SDO](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-service-sdo).
+The pSdoServiceControl variable contains a pointer to a Server Data Object for NPS. For more information, see the topic [Retrieving a Service SDO](/windows/desktop/Nps/sdo-retrieving-a-service-sdo).
 
-The vtClientsCollection variable is of type [\_variant\_t](https://msdn.microsoft.com/library/Aa278648.aspx). A \_variant\_t object encapsulates, or encloses, the [**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx) data type. The class manages resource allocation and deallocation, and makes function calls to [**VariantInit**](https://msdn.microsoft.com/library/ms221402(v=VS.71).aspx) and [**VariantClear**](https://msdn.microsoft.com/library/ms221165(v=VS.71).aspx) as appropriate.
+The vtClientsCollection variable is of type [\_variant\_t](/previous-versions/visualstudio/visual-studio-6.0/aa278648(v=vs.60)). A \_variant\_t object encapsulates, or encloses, the [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) data type. The class manages resource allocation and deallocation, and makes function calls to [**VariantInit**](/windows/win32/api/oleauto/nf-oleauto-variantinit) and [**VariantClear**](/windows/win32/api/oleauto/nf-oleauto-variantclear) as appropriate.
 
-After the call to "pSdo->GetProperty()", the vtProtocolsCollection variable specifies an object. The **pdispVal** member of vtProtocolsCollection contains a pointer to the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface for the object.
+After the call to "pSdo->GetProperty()", the vtProtocolsCollection variable specifies an object. The **pdispVal** member of vtProtocolsCollection contains a pointer to the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface for the object.
 
-The above sample code can be adapted to retrieve other NPS collections, for example the NPS Request Handlers collections. The [**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties) enumeration type enumerated values that correspond to the available NPS collections.
+The above sample code can be adapted to retrieve other NPS collections, for example the NPS Request Handlers collections. The [**IASPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-iasproperties) enumeration type enumerated values that correspond to the available NPS collections.
 
 ## Related topics
 
 <dl> <dt>
 
-[\_variant\_t](https://msdn.microsoft.com/library/Aa278648.aspx)
+[\_variant\_t](/previous-versions/visualstudio/visual-studio-6.0/aa278648(v=vs.60))
 </dt> <dt>
 
-[**IASPROPERTIES**](https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
+[**IASPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
 </dt> <dt>
 
-[**ISdo::GetProperty**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty)
+[**ISdo::GetProperty**](/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty)
 </dt> <dt>
 
-[**ISdoCollection**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdocollection)
+[**ISdoCollection**](/windows/desktop/api/sdoias/nn-sdoias-isdocollection)
 </dt> <dt>
 
-[Retrieving a Service SDO](https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-service-sdo)
+[Retrieving a Service SDO](/windows/desktop/Nps/sdo-retrieving-a-service-sdo)
 </dt> <dt>
 
-[**VariantClear**](https://msdn.microsoft.com/library/ms221165(v=VS.71).aspx)
+[**VariantClear**](/windows/win32/api/oleauto/nf-oleauto-variantclear)
 </dt> <dt>
 
-[**VariantInit**](https://msdn.microsoft.com/library/ms221402(v=VS.71).aspx)
+[**VariantInit**](/windows/win32/api/oleauto/nf-oleauto-variantinit)
 </dt> <dt>
 
-[**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx)
+[**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant)
 </dt> </dl>
 
  
 
  
-
-
-
-

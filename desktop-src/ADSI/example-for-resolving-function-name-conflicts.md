@@ -53,7 +53,7 @@ myInf1.Func2  ' IADs2::Func2 is invoked using GetIDsOfNames/Invoke
 
 
 
-Be aware that even though IADs1 does not support Func2, an ADSI client recognizes one [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) that supports all the dual and dispatch interfaces in the model. Thus, the ADSI client can directly call Func2 using myInf1.Func2 without resolving which interface supports Func2.
+Be aware that even though IADs1 does not support Func2, an ADSI client recognizes one [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) that supports all the dual and dispatch interfaces in the model. Thus, the ADSI client can directly call Func2 using myInf1.Func2 without resolving which interface supports Func2.
 
 
 ```VB
@@ -78,7 +78,7 @@ myInf2.Func0
 
 
 
-Again, in the next code example, both IADs1 and IADs2 have a function called Func0, but, here, the client has a pointer to a dual interface, IADs0, which does not have a function called Func0. Therefore, no direct vtable access can be performed. Instead, [**IDispatch::GetIDsOfNames**](https://msdn.microsoft.com/library/ms221306(v=VS.71).aspx) and [**Invoke**](https://msdn.microsoft.com/library/ms221479(v=VS.71).aspx) are called to invoke Func0.
+Again, in the next code example, both IADs1 and IADs2 have a function called Func0, but, here, the client has a pointer to a dual interface, IADs0, which does not have a function called Func0. Therefore, no direct vtable access can be performed. Instead, [**IDispatch::GetIDsOfNames**](/windows/win32/api/oaidl/nf-oaidl-idispatch-getidsofnames) and [**Invoke**](/windows/win32/api/oaidl/nf-oaidl-idispatch-invoke) are called to invoke Func0.
 
 
 ```VB
@@ -95,9 +95,9 @@ Consider these two cases:
 -   IADs1 and IADs2 are implemented by two COM components, Ext1 and Ext2, respectively. If Ext1 comes before Ext2 in the registry, IADs1::Func0 is invoked. However, if Ext2 comes first in the registry, IADs2::Func0 is invoked.
 -   If IADs1 and ADs2 are implemented by the same extension object, Func0 is always invoked by the extension's [**IADsExtension::PrivateGetIDsOfNames**](/windows/desktop/api/Iads/nf-iads-iadsextension-privategetidsofnames) and [**PrivateInvoke**](/windows/desktop/api/Iads/nf-iads-iadsextension-privateinvoke) methods.
 
-The extension developer must determine how to resolve conflicts of functions, or properties, of different dual [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interfaces that have the same name in an extension. The implementation of [**IADsExtension::PrivateGetIDsOfNames**](/windows/desktop/api/Iads/nf-iads-iadsextension-privategetidsofnames) and [**PrivateInvoke**](/windows/desktop/api/Iads/nf-iads-iadsextension-privateinvoke) methods should resolve this conflict. For example, if you use IMyInterface1::Func1 and IMyInterface2::Func1, where IMyInterface1 and IMyInterface2 are dual **IDispatch** interfaces supported by the same extension object. The **PrivateGetIDsOfNames** and **PrivateInvoke** methods must determine which Func1 should always be called.
+The extension developer must determine how to resolve conflicts of functions, or properties, of different dual [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interfaces that have the same name in an extension. The implementation of [**IADsExtension::PrivateGetIDsOfNames**](/windows/desktop/api/Iads/nf-iads-iadsextension-privategetidsofnames) and [**PrivateInvoke**](/windows/desktop/api/Iads/nf-iads-iadsextension-privateinvoke) methods should resolve this conflict. For example, if you use IMyInterface1::Func1 and IMyInterface2::Func1, where IMyInterface1 and IMyInterface2 are dual **IDispatch** interfaces supported by the same extension object. The **PrivateGetIDsOfNames** and **PrivateInvoke** methods must determine which Func1 should always be called.
 
-The same applies to conflicting DISPIDs in different dual or [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interfaces.
+The same applies to conflicting DISPIDs in different dual or [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interfaces.
 
 For example, the DISPID of IMyInterface1::Y is 2 in the file imyinterface1.odl, or imyinterface1.idl. The DISPID of IMyInterface2::X is also 2 in iMyInterface2.odl. [**IADsExtension::PrivateGetIDsOfNames**](/windows/desktop/api/Iads/nf-iads-iadsextension-privategetidsofnames) must return a unique DISPID, within the extension itself, for each, instead of returning the same DISPID for both.
 
@@ -106,7 +106,3 @@ ADSI resolves the first problem by not supporting multiple interfaces with confl
  
 
  
-
-
-
-

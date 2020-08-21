@@ -67,7 +67,7 @@ Access type: Read-only
 
 Any user-defined string that describes an error or operational status.
 
-This property is inherited from [**\_\_ExtendedStatus**](https://docs.microsoft.com/windows/desktop/WmiSdk/--extendedstatus).
+This property is inherited from [**\_\_ExtendedStatus**](/windows/desktop/WmiSdk/--extendedstatus).
 
 </dd> <dt>
 
@@ -80,9 +80,9 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Operation that takes place at the time of a failure or anomaly. Typically, WMI sets this property to the name of a COM API for WMI method such as the following: [**IWbemServices::CreateInstanceEnum**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenum).
+Operation that takes place at the time of a failure or anomaly. Typically, WMI sets this property to the name of a COM API for WMI method such as the following: [**IWbemServices::CreateInstanceEnum**](/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenum).
 
-This property is inherited from [**\_\_ExtendedStatus**](https://docs.microsoft.com/windows/desktop/WmiSdk/--extendedstatus).
+This property is inherited from [**\_\_ExtendedStatus**](/windows/desktop/WmiSdk/--extendedstatus).
 
 </dd> <dt>
 
@@ -97,7 +97,7 @@ Access type: Read-only
 
 Parameters involved in an error or status change. For example, if an application attempts to retrieve a class that does not exist, this property is set to the offending class name.
 
-This property is inherited from [**\_\_ExtendedStatus**](https://docs.microsoft.com/windows/desktop/WmiSdk/--extendedstatus).
+This property is inherited from [**\_\_ExtendedStatus**](/windows/desktop/WmiSdk/--extendedstatus).
 
 </dd> <dt>
 
@@ -112,7 +112,7 @@ Access type: Read-only
 
 Identifies the provider that causes or reports an error or status change. If a provider is not involved, this string is set to "Windows Management".
 
-This property is inherited from [**\_\_ExtendedStatus**](https://docs.microsoft.com/windows/desktop/WmiSdk/--extendedstatus).
+This property is inherited from [**\_\_ExtendedStatus**](/windows/desktop/WmiSdk/--extendedstatus).
 
 </dd> <dt>
 
@@ -125,7 +125,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Contains an error or information code for an operation. This can be any value defined by the provider, but the value 0 (zero) is usually reserved to indicate success. This property is inherited from [**\_\_NotifyStatus**](https://docs.microsoft.com/windows/desktop/WmiSdk/--notifystatus).
+Contains an error or information code for an operation. This can be any value defined by the provider, but the value 0 (zero) is usually reserved to indicate success. This property is inherited from [**\_\_NotifyStatus**](/windows/desktop/WmiSdk/--notifystatus).
 
 </dd> <dt>
 
@@ -160,14 +160,8 @@ The name of the terminal sin which the error occurred.
 
 <dl> <dt>
 
-[**\_\_ExtendedStatus**](https://docs.microsoft.com/windows/desktop/WmiSdk/--extendedstatus)
+[**\_\_ExtendedStatus**](/windows/desktop/WmiSdk/--extendedstatus)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

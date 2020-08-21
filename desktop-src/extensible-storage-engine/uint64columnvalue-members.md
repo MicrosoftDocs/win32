@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-A [UInt64](https://docs.microsoft.com/dotnet/api/system.uint64?redirectedfrom=MSDN) column value.
+A [UInt64](/dotnet/api/system.uint64) column value.
 
 The [UInt64ColumnValue](dn351190\(v=exchg.10\).md) type exposes the following members.
 
@@ -165,4 +165,3 @@ Top
 [UInt64ColumnValue class](dn351190\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

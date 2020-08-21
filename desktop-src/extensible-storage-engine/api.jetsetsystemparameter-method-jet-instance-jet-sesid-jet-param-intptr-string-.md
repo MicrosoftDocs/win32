@@ -86,14 +86,14 @@ public static JET_wrn JetSetSystemParameter(
 <!-- end list -->
 
   - paramValue  
-    Type: [System.IntPtr](https://docs.microsoft.com/dotnet/api/system.intptr?redirectedfrom=MSDN)  
+    Type: [System.IntPtr](/dotnet/api/system.intptr)  
     
     The value of the parameter to set, if the parameter is an integer type.
 
 <!-- end list -->
 
   - paramString  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The value of the parameter to set, if the parameter is a string type.
 
@@ -113,4 +113,3 @@ An ESENT warning code.
 [JetSetSystemParameter overload](dn334016\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

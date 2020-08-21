@@ -194,7 +194,7 @@ Specify the format function that is called to format the displayed data for the 
 
 ## Remarks
 
-The **PROPERTYINFO** structure is used in calls to the [AddProperty](https://msdn.microsoft.com/library/Ee817694(v=VS.85).aspx) function. The **AddProperty** function adds a single property definition to the parser [*property database*](p.md).
+The **PROPERTYINFO** structure is used in calls to the [AddProperty](/previous-versions/bb251873(v=msdn.10)) function. The **AddProperty** function adds a single property definition to the parser [*property database*](p.md).
 
 ## Requirements
 
@@ -212,7 +212,7 @@ The **PROPERTYINFO** structure is used in calls to the [AddProperty](https://msd
 
 <dl> <dt>
 
-[AddProperty](https://msdn.microsoft.com/library/Ee817694(v=VS.85).aspx)
+[AddProperty](/previous-versions/bb251873(v=msdn.10))
 </dt> <dt>
 
 [RANGE](range.md)
@@ -222,9 +222,4 @@ The **PROPERTYINFO** structure is used in calls to the [AddProperty](https://msd
 </dt> </dl>
 
  
-
- 
-
-
-
 

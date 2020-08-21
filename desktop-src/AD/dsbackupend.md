@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # DsBackupEnd function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](https://msdn2.microsoft.com/library/aa384649.aspx) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](../vss/volume-shadow-copy-service-overview.md) instead.\]
 
 The **DsBackupEnd** function is called to terminate a backup operation.
 
@@ -90,10 +90,4 @@ The **DsBackupEnd** function closes outstanding binding handles and performs a c
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

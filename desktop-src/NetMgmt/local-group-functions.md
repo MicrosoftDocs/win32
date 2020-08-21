@@ -34,7 +34,7 @@ The local group functions create or delete local groups, and review or adjust th
 
  
 
-You can add a member to a local group by specifying the security identifier (SID) of the member. To translate a member account name to a SID, call the [**LookupAccountName**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea) function.
+You can add a member to a local group by specifying the security identifier (SID) of the member. To translate a member account name to a SID, call the [**LookupAccountName**](/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea) function.
 
 When you create a local group by calling the [**NetLocalGroupAdd**](/windows/desktop/api/Lmaccess/nf-lmaccess-netlocalgroupadd) function, you must supply a local group name. Initially, the local group has no members.
 
@@ -57,12 +57,8 @@ You can retrieve the names of the local groups to which a user belongs by callin
 
 For more information, see the network management [Group Functions](group-functions.md).
 
-If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management local group functions. For more information, see [**IADsGroup**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup).
+If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management local group functions. For more information, see [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup).
 
  
 
  
-
-
-
-

@@ -64,7 +64,7 @@ Specifies the size, in characters, of the *lpszString* buffer. Error messages ar
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is an error code. This value can be a last error value set by the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx), [**GlobalAlloc**](https://msdn.microsoft.com/library/Aa366574(v=VS.85).aspx), or [**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx) functions; or it can be one of the following error codes.
+If the function fails, the return value is an error code. This value can be a last error value set by the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya), [**GlobalAlloc**](/windows/win32/api/winbase/nf-winbase-globalalloc), or [**LoadString**](/windows/win32/api/winuser/nf-winuser-loadstringa) functions; or it can be one of the following error codes.
 
 
 
@@ -77,7 +77,7 @@ If the function fails, the return value is an error code. This value can be a la
 
  
 
-There is no extended error information for this function; do not call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+There is no extended error information for this function; do not call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
@@ -107,20 +107,14 @@ The RasAdmin functions can return error codes that are not in the range supporte
 [RAS Server Administration Functions](ras-server-administration-functions.md)
 </dt> <dt>
 
-[**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx)
+[**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya)
 </dt> <dt>
 
-[**GlobalAlloc**](https://msdn.microsoft.com/library/Aa366574(v=VS.85).aspx)
+[**GlobalAlloc**](/windows/win32/api/winbase/nf-winbase-globalalloc)
 </dt> <dt>
 
-[**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx)
+[**LoadString**](/windows/win32/api/winuser/nf-winuser-loadstringa)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

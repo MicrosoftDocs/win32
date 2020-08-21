@@ -12,7 +12,7 @@ The IDL file consists of one or more interface definitions, each of which has a 
 
 In this example, the interface header contains only the UUID and the version number. The version number ensures that when there are multiple versions of an RPC interface, only compatible versions of the client and server will be connected.
 
-The interface body contains the function prototype for **HelloProc**. In this prototype, the function parameter pszString has the attributes **\[**[**in**](https://docs.microsoft.com/windows/desktop/Midl/in)**\]** and **\[**[**string**](https://docs.microsoft.com/windows/desktop/Midl/string)**\]**. The **\[in\]** attribute tells the run-time library that the parameter is passed only from the client to the server. The **\[string\]** attribute specifies that the stub should treat the parameter as a C-style character string.
+The interface body contains the function prototype for **HelloProc**. In this prototype, the function parameter pszString has the attributes **\[**[**in**](/windows/desktop/Midl/in)**\]** and **\[**[**string**](/windows/desktop/Midl/string)**\]**. The **\[in\]** attribute tells the run-time library that the parameter is passed only from the client to the server. The **\[string\]** attribute specifies that the stub should treat the parameter as a C-style character string.
 
 The client application should be able to shut down the server application, so the interface contains a prototype for another remote function,**Shutdown** , that will be implemented later in this tutorial.
 
@@ -32,7 +32,3 @@ interface hello
  
 
  
-
-
-
-

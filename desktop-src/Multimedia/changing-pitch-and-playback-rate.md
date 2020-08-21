@@ -32,10 +32,10 @@ Windows provides the following functions to query and set waveform-audio pitch a
 
 | Function                                                 | Description                                                                 |
 |----------------------------------------------------------|-----------------------------------------------------------------------------|
-| [**waveOutGetPitch**](https://msdn.microsoft.com/library/Dd743861(v=VS.85).aspx)               | Retrieves the pitch for the specified waveform-audio output device.         |
-| [**waveOutGetPlaybackRate**](https://msdn.microsoft.com/library/Dd743862(v=VS.85).aspx) | Retrieves the playback rate for the specified waveform-audio output device. |
-| [**waveOutSetPitch**](https://msdn.microsoft.com/library/Dd743872(v=VS.85).aspx)               | Sets the pitch for the specified waveform-audio output device.              |
-| [**waveOutSetPlaybackRate**](https://msdn.microsoft.com/library/Dd743873(v=VS.85).aspx) | Sets the playback rate for the specified waveform-audio output device.      |
+| [**waveOutGetPitch**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetpitch)               | Retrieves the pitch for the specified waveform-audio output device.         |
+| [**waveOutGetPlaybackRate**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetplaybackrate) | Retrieves the playback rate for the specified waveform-audio output device. |
+| [**waveOutSetPitch**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutsetpitch)               | Sets the pitch for the specified waveform-audio output device.              |
+| [**waveOutSetPlaybackRate**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutsetplaybackrate) | Sets the playback rate for the specified waveform-audio output device.      |
 
 
 
@@ -46,7 +46,3 @@ The pitch and playback rates are changed by a factor specified with a fixed-poin
  
 
  
-
-
-
-

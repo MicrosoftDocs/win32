@@ -38,7 +38,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**BOOL**](/windows/desktop/WinProg/windows-data-types)**
 
 **TRUE** if the effect is optimized; otherwise **FALSE**.
 
@@ -70,10 +70,4 @@ An effect uses memory space two different ways: to store the information require
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -68,7 +68,7 @@ Address of a pointer to the memory containing the saved texture. See [**ID3D10Bl
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Optional.
 
@@ -104,7 +104,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

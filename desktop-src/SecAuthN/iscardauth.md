@@ -16,9 +16,9 @@ api_location:
 
 # ISCardAuth interface
 
-\[The **ISCardAuth** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **ISCardAuth** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **ISCardAuth** interface definition is provided as a standard that can be followed when developing a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) [*service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+The **ISCardAuth** interface definition is provided as a standard that can be followed when developing a [*smart card*](../secgloss/s-gly.md) [*service provider*](../secgloss/c-gly.md).
 
 The **ISCardAuth** interface can be used to expose authentication services supported by a smart card. These services include application authentication, smart card authentication, and user authentication.
 
@@ -32,7 +32,7 @@ The following example shows a typical use of the **ISCardAuth** interface.
 
 ## Members
 
-The **ISCardAuth** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ISCardAuth** also has these types of members:
+The **ISCardAuth** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **ISCardAuth** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -69,7 +69,3 @@ The **ISCardAuth** interface has these methods.
  
 
  
-
-
-
-

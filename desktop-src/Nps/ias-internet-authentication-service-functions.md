@@ -18,44 +18,40 @@ ms.date: 05/31/2018
 
 The architecture for NPS Extension DLLs supports the following exported functions:
 
--   [**RadiusExtensionFreeAttributes**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_free_attributes)
--   [**RadiusExtensionInit**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_init)
--   [**RadiusExtensionProcess**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process)
--   [**RadiusExtensionProcessEx**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex)
--   [**RadiusExtensionProcess2**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2)
--   [**RadiusExtensionTerm**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_term)
+-   [**RadiusExtensionFreeAttributes**](/windows/desktop/api/authif/nc-authif-pradius_extension_free_attributes)
+-   [**RadiusExtensionInit**](/windows/desktop/api/authif/nc-authif-pradius_extension_init)
+-   [**RadiusExtensionProcess**](/windows/desktop/api/authif/nc-authif-pradius_extension_process)
+-   [**RadiusExtensionProcessEx**](/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex)
+-   [**RadiusExtensionProcess2**](/windows/desktop/api/authif/nc-authif-pradius_extension_process_2)
+-   [**RadiusExtensionTerm**](/windows/desktop/api/authif/nc-authif-pradius_extension_term)
 
-The [**RadiusExtensionInit**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_init) and [**RadiusExtensionTerm**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_term) functions are optional.
+The [**RadiusExtensionInit**](/windows/desktop/api/authif/nc-authif-pradius_extension_init) and [**RadiusExtensionTerm**](/windows/desktop/api/authif/nc-authif-pradius_extension_term) functions are optional.
 
-The Extension DLL may export [**RadiusExtensionProcess2**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2) instead of [**RadiusExtensionProcess**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process) or [**RadiusExtensionProcessEx**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex).
+The Extension DLL may export [**RadiusExtensionProcess2**](/windows/desktop/api/authif/nc-authif-pradius_extension_process_2) instead of [**RadiusExtensionProcess**](/windows/desktop/api/authif/nc-authif-pradius_extension_process) or [**RadiusExtensionProcessEx**](/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex).
 
-If the Extension DLL exports [**RadiusExtensionProcessEx**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex), then it must also export [**RadiusExtensionFreeAttributes**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_free_attributes).
+If the Extension DLL exports [**RadiusExtensionProcessEx**](/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex), then it must also export [**RadiusExtensionFreeAttributes**](/windows/desktop/api/authif/nc-authif-pradius_extension_free_attributes).
 
 ## System Defined
 
-When NPS calls an implementation of [**RadiusExtensionProcess2**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2), NPS passes the function a pointer to a [**RADIUS\_EXTENSION\_CONTROL\_BLOCK**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_extension_control_block) structure.
+When NPS calls an implementation of [**RadiusExtensionProcess2**](/windows/desktop/api/authif/nc-authif-pradius_extension_process_2), NPS passes the function a pointer to a [**RADIUS\_EXTENSION\_CONTROL\_BLOCK**](/windows/desktop/api/authif/ns-authif-radius_extension_control_block) structure.
 
-The [**RADIUS\_EXTENSION\_CONTROL\_BLOCK**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_extension_control_block) structure contains function pointers to the following functions provided by NPS:
+The [**RADIUS\_EXTENSION\_CONTROL\_BLOCK**](/windows/desktop/api/authif/ns-authif-radius_extension_control_block) structure contains function pointers to the following functions provided by NPS:
 
--   [**GetRequest**](https://docs.microsoft.com/previous-versions/ms688263(v%3dvs.85))
--   [**GetResponse**](https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85))
--   [**SetResponseType**](https://docs.microsoft.com/previous-versions/ms688462(v%3dvs.85))
+-   [**GetRequest**](/previous-versions/ms688263(v=vs.85))
+-   [**GetResponse**](/previous-versions/ms688270(v=vs.85))
+-   [**SetResponseType**](/previous-versions/ms688462(v=vs.85))
 
-The functions [**GetRequest**](https://docs.microsoft.com/previous-versions/ms688263(v%3dvs.85)) and [**GetResponse**](https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85)) return pointers to a structure of type [**RADIUS\_ATTRIBUTE\_ARRAY**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute_array).
+The functions [**GetRequest**](/previous-versions/ms688263(v=vs.85)) and [**GetResponse**](/previous-versions/ms688270(v=vs.85)) return pointers to a structure of type [**RADIUS\_ATTRIBUTE\_ARRAY**](/windows/desktop/api/authif/ns-authif-radius_attribute_array).
 
-The [**RADIUS\_ATTRIBUTE\_ARRAY**](https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute_array) structure contains function pointers to the following functions provided by NPS:
+The [**RADIUS\_ATTRIBUTE\_ARRAY**](/windows/desktop/api/authif/ns-authif-radius_attribute_array) structure contains function pointers to the following functions provided by NPS:
 
--   [**Add**](https://docs.microsoft.com/previous-versions/ms688246(v%3dvs.85))
--   [**AttributeAt**](https://docs.microsoft.com/previous-versions/ms688253(v%3dvs.85))
--   [**GetSize**](https://docs.microsoft.com/previous-versions/ms688277(v%3dvs.85))
--   [**InsertAt**](https://docs.microsoft.com/previous-versions/ms688296(v%3dvs.85))
--   [**RemoveAt**](https://docs.microsoft.com/previous-versions/ms688452(v%3dvs.85))
--   [**SetAt**](https://docs.microsoft.com/previous-versions/ms688456(v%3dvs.85))
-
- 
+-   [**Add**](/previous-versions/ms688246(v=vs.85))
+-   [**AttributeAt**](/previous-versions/ms688253(v=vs.85))
+-   [**GetSize**](/previous-versions/ms688277(v=vs.85))
+-   [**InsertAt**](/previous-versions/ms688296(v=vs.85))
+-   [**RemoveAt**](/previous-versions/ms688452(v=vs.85))
+-   [**SetAt**](/previous-versions/ms688456(v=vs.85))
 
  
 
-
-
-
+ 

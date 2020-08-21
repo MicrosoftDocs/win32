@@ -17,7 +17,7 @@ api_location:
 
 # GetError method of the Msvm\_MigrationJob class
 
-Retrieves the error object for the migration job, if one exists. When the job is executing or has terminated without error, then this method does not return a [**CIM\_Error**](https://docs.microsoft.com/previous-versions//cc150671(v=vs.85)) object. However, if the job has failed because of some internal problem or because the job has been terminated by a client, then a **CIM\_Error** instance is returned.
+Retrieves the error object for the migration job, if one exists. When the job is executing or has terminated without error, then this method does not return a [**CIM\_Error**](/previous-versions//cc150671(v=vs.85)) object. However, if the job has failed because of some internal problem or because the job has been terminated by a client, then a **CIM\_Error** instance is returned.
 
 ## Syntax
 
@@ -105,9 +105,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -18,9 +18,9 @@ The call to [**Session.Enumerate**](session-enumerate.md) has optional parameter
 
 You can either use the filter and dialect parameters of [**Session.Enumerate**](session-enumerate.md) or you can construct and supply a [**ResourceLocator**](resourcelocator.md) object and the [**AddSelector**](resourcelocator-addselector.md) method, but you cannot do both.
 
-This procedure executes a query for network adapters that have TCP/IP bound and enabled. The query requests all the instances of [**Win32\_NetworkAdapterConfiguration**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration) that have the **IpEnabled** property set to **True**. Except for the addition of the *filter* and *dialect*, the query is handled like a simple enumeration.
+This procedure executes a query for network adapters that have TCP/IP bound and enabled. The query requests all the instances of [**Win32\_NetworkAdapterConfiguration**](/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration) that have the **IpEnabled** property set to **True**. Except for the addition of the *filter* and *dialect*, the query is handled like a simple enumeration.
 
-In this example, the resource name for the Resource constant is represented by an asterisk "\*" because the class name, [**Win32\_NetworkAdapterConfiguration**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration), is already mentioned in the *strFilter* string.
+In this example, the resource name for the Resource constant is represented by an asterisk "\*" because the class name, [**Win32\_NetworkAdapterConfiguration**](/windows/desktop/CIMWin32Prov/win32-networkadapterconfiguration), is already mentioned in the *strFilter* string.
 
 **To query for specific instances of a resource**
 
@@ -43,7 +43,7 @@ In this example, the resource name for the Resource constant is represented by a
 
     
 
-3.  Construct the filter string. Windows Remote Management supports [WQL](https://docs.microsoft.com/windows/desktop/WmiSdk/wql-sql-for-wmi) as the filter dialect.
+3.  Construct the filter string. Windows Remote Management supports [WQL](/windows/desktop/WmiSdk/wql-sql-for-wmi) as the filter dialect.
 
     ```VB
     strFilter = "SELECT * FROM Win32_NetworkAdapterConfiguration WHERE IpEnabled=TRUE"
@@ -123,7 +123,3 @@ End Sub
  
 
  
-
-
-
-

@@ -21,8 +21,8 @@ The following operators are exposed by the [**XMVECTOR**](xmvector-data-type.md)
 
 | Methods                                                    | Description                                                                                                                                 |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| [**operator +=**](https://msdn.microsoft.com/library/Ee421394(v=VS.85).aspx)<br/>  | Adds a floating point value to an `XMVECTOR` instance, and returns a reference to the updated instance. <br/>                         |
-| [**operator -=**](https://msdn.microsoft.com/library/Ee421383(v=VS.85).aspx)<br/>    | Subtracts a floating point value from the current instance of `XMVECTOR`, returning the result in the updated current instance. <br/> |
+| [**operator +=**](/previous-versions/windows/desktop/legacy/ee421394(v=vs.85))<br/>  | Adds a floating point value to an `XMVECTOR` instance, and returns a reference to the updated instance. <br/>                         |
+| [**operator -=**](/previous-versions/windows/desktop/legacy/ee421383(v=vs.85))<br/>    | Subtracts a floating point value from the current instance of `XMVECTOR`, returning the result in the updated current instance. <br/> |
 | [**operator \***](xmvector-operator-mul.md)<br/>    | Multiplication operators<br/>                                                                                                         |
 | [**operator \*=**](xmvector-operator-muleq.md)<br/> | Multiplication assignment operators<br/>                                                                                              |
 | [**operator /**](xmvector-operator-div.md)<br/>     | Division operator.<br/>                                                                                                               |
@@ -50,7 +50,3 @@ The following operators are exposed by the [**XMVECTOR**](xmvector-data-type.md)
  
 
  
-
-
-
-

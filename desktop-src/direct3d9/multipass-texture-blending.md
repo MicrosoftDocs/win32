@@ -19,8 +19,8 @@ If the user's hardware does not support multiple texture blending, your applicat
 
 To perform multipass texture blending in a C/C++ application.
 
-1.  Set a texture in texture stage 0 by calling the [**IDirect3DDevice9::SetTexture**](https://msdn.microsoft.com/library/Bb174461(v=VS.85).aspx) method.
-2.  Select the desired color and alpha blending arguments and operations with the [**IDirect3DDevice9::SetTextureStageState**](https://msdn.microsoft.com/library/Bb174462(v=VS.85).aspx) method. The default settings are well-suited for multipass texture blending.
+1.  Set a texture in texture stage 0 by calling the [**IDirect3DDevice9::SetTexture**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexture) method.
+2.  Select the desired color and alpha blending arguments and operations with the [**IDirect3DDevice9::SetTextureStageState**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexturestagestate) method. The default settings are well-suited for multipass texture blending.
 3.  Render the appropriate objects in the scene.
 4.  Set the next texture in texture stage 0.
 5.  Set the D3DRS\_SRCBLEND and D3DRS\_DESTBLEND render states to adjust the source and destination blending factors as needed. The system blends the new textures with the existing pixels in the render-target surface according to these parameters.
@@ -36,6 +36,3 @@ To perform multipass texture blending in a C/C++ application.
  
 
  
-
-
-

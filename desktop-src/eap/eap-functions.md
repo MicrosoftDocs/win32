@@ -12,20 +12,16 @@ ms.date: 05/31/2018
 
 The following functions are implemented for authentication protocols and authentication providers:
 
--   [**RasEapBegin**](https://msdn.microsoft.com/library/Aa363520(v=VS.85).aspx)
--   [**RasEapEnd**](https://msdn.microsoft.com/library/Aa363521(v=VS.85).aspx)
+-   [**RasEapBegin**](/previous-versions/windows/desktop/legacy/aa363520(v=vs.85))
+-   [**RasEapEnd**](/previous-versions/windows/desktop/legacy/aa363521(v=vs.85))
 -   [**RasEapFreeMemory**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapfreememory)
 -   [**RasEapGetIdentity**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity)
 -   [**RasEapGetInfo**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapgetinfo)
--   [**RasEapInitialize**](https://msdn.microsoft.com/library/Aa363527(v=VS.85).aspx)
+-   [**RasEapInitialize**](/previous-versions/windows/desktop/legacy/aa363527(v=vs.85))
 -   [**RasEapInvokeConfigUI**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapinvokeconfigui)
 -   [**RasEapInvokeInteractiveUI**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapinvokeinteractiveui)
--   [**RasEapMakeMessage**](https://msdn.microsoft.com/library/Aa363532(v=VS.85).aspx)
+-   [**RasEapMakeMessage**](/previous-versions/windows/desktop/legacy/aa363532(v=vs.85))
 
  
 
  
-
-
-
-

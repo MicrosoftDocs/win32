@@ -36,7 +36,7 @@ api_location:
 
 # Msvm\_GuestServiceInterfaceComponent class
 
-Represents the state of the guest service interface component, which provides a mechanism to interact with the virtual machine from the management interfaces on the host system. This class derives from the [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice) class.
+Represents the state of the guest service interface component, which provides a mechanism to interact with the virtual machine from the management interfaces on the host system. This class derives from the [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice) class.
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -84,8 +84,8 @@ The **Msvm\_GuestServiceInterfaceComponent** class has these methods.
 | Method                                                                               | Description                                                                                                                              |
 |:-------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
 | [**RequestStateChange**](requeststatechange-msvm-guestserviceinterfacecomponent.md) | Requests that the state of the guest service interface component be changed to the specified value.<br/>                           |
-| [**Reset**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/reset-method-in-class-cim-logicaldevice)                        | Requests a reset of the logical device. Not implemented by WMI.<br/>                                                               |
-| [**SetPowerState**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/setpowerstate-method-in-class-cim-logicaldevice)        | Defines the desired power state for a logical device and when a device should be put into that state. Not implemented by WMI.<br/> |
+| [**Reset**](/windows/desktop/CIMWin32Prov/reset-method-in-class-cim-logicaldevice)                        | Requests a reset of the logical device. Not implemented by WMI.<br/>                                                               |
+| [**SetPowerState**](/windows/desktop/CIMWin32Prov/setpowerstate-method-in-class-cim-logicaldevice)        | Defines the desired power state for a logical device and when a device should be put into that state. Not implemented by WMI.<br/> |
 
 
 
@@ -145,7 +145,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Short textual description of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Short textual description of the object. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -238,7 +238,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Textual description of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Textual description of the object. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -290,7 +290,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-Date and time the object was installed. This property does not need a value to indicate that the object is installed. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Date and time the object was installed. This property does not need a value to indicate that the object is installed. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -316,7 +316,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Label by which the object is known. When subclassed, this property can be overridden to be a key property. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Label by which the object is known. When subclassed, this property can be overridden to be a key property. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -355,9 +355,9 @@ Array of the specific power-related capabilities of a logical device. This prope
 | <span id="Disabled"></span><span id="disabled"></span><span id="DISABLED"></span><dl> <dt>**Disabled**</dt> <dt>2 (0x2)</dt> </dl>                                                                                                                                 |                                                                                                                                                                                                                                                                                                                                      |
 | <span id="Enabled"></span><span id="enabled"></span><span id="ENABLED"></span><dl> <dt>**Enabled**</dt> <dt>3 (0x3)</dt> </dl>                                                                                                                                     | The power management features are currently enabled but the exact feature set is unknown or the information is unavailable.<br/>                                                                                                                                                                                               |
 | <span id="Power_Saving_Modes_Entered_Automatically"></span><span id="power_saving_modes_entered_automatically"></span><span id="POWER_SAVING_MODES_ENTERED_AUTOMATICALLY"></span><dl> <dt>**Power Saving Modes Entered Automatically**</dt> <dt>4 (0x4)</dt> </dl> | The device can change its power state based on usage or other criteria.<br/>                                                                                                                                                                                                                                                   |
-| <span id="Power_State_Settable"></span><span id="power_state_settable"></span><span id="POWER_STATE_SETTABLE"></span><dl> <dt>**Power State Settable**</dt> <dt>5 (0x5)</dt> </dl>                                                                                 | The [**SetPowerState**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/setpowerstate-method-in-class-cim-controller) method is supported. This method is found on the parent **CIM\_LogicalDevice** class and can be implemented. For more information, see [Designing Managed Object Format (MOF) Classes](https://docs.microsoft.com/windows/desktop/WmiSdk/designing-managed-object-format--mof--classes).<br/> |
-| <span id="Power_Cycling_Supported"></span><span id="power_cycling_supported"></span><span id="POWER_CYCLING_SUPPORTED"></span><dl> <dt>**Power Cycling Supported**</dt> <dt>6 (0x6)</dt> </dl>                                                                     | The [**SetPowerState**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/setpowerstate-method-in-class-cim-controller) method can be invoked with the *PowerState* parameter set to 5 ("Power Cycle").<br/>                                                                                                                                                            |
-| <span id="Timed_Power_On_Supported"></span><span id="timed_power_on_supported"></span><span id="TIMED_POWER_ON_SUPPORTED"></span><dl> <dt>**Timed Power On Supported**</dt> <dt>7 (0x7)</dt> </dl>                                                                 | The [**SetPowerState**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/setpowerstate-method-in-class-cim-controller) method can be invoked with the *PowerState*parameter set to 5 ("Power Cycle") and *Time* set to a specific date and time, or interval, for power-on.<br/>                                                                                       |
+| <span id="Power_State_Settable"></span><span id="power_state_settable"></span><span id="POWER_STATE_SETTABLE"></span><dl> <dt>**Power State Settable**</dt> <dt>5 (0x5)</dt> </dl>                                                                                 | The [**SetPowerState**](/windows/desktop/CIMWin32Prov/setpowerstate-method-in-class-cim-controller) method is supported. This method is found on the parent **CIM\_LogicalDevice** class and can be implemented. For more information, see [Designing Managed Object Format (MOF) Classes](/windows/desktop/WmiSdk/designing-managed-object-format--mof--classes).<br/> |
+| <span id="Power_Cycling_Supported"></span><span id="power_cycling_supported"></span><span id="POWER_CYCLING_SUPPORTED"></span><dl> <dt>**Power Cycling Supported**</dt> <dt>6 (0x6)</dt> </dl>                                                                     | The [**SetPowerState**](/windows/desktop/CIMWin32Prov/setpowerstate-method-in-class-cim-controller) method can be invoked with the *PowerState* parameter set to 5 ("Power Cycle").<br/>                                                                                                                                                            |
+| <span id="Timed_Power_On_Supported"></span><span id="timed_power_on_supported"></span><span id="TIMED_POWER_ON_SUPPORTED"></span><dl> <dt>**Timed Power On Supported**</dt> <dt>7 (0x7)</dt> </dl>                                                                 | The [**SetPowerState**](/windows/desktop/CIMWin32Prov/setpowerstate-method-in-class-cim-controller) method can be invoked with the *PowerState*parameter set to 5 ("Power Cycle") and *Time* set to a specific date and time, or interval, for power-on.<br/>                                                                                       |
 
 
 
@@ -389,7 +389,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Current status of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Current status of the object. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 Values include the following:
 
@@ -442,7 +442,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-State of the logical device. If this property does not apply to the logical device, the value 5 ("Not Applicable") should be used. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice).
+State of the logical device. If this property does not apply to the logical device, the value 5 ("Not Applicable") should be used. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).
 
 <dl> <dt>
 
@@ -510,13 +510,8 @@ Scoping system's name.
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> <dt>
 
-[**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice)
+[**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)
 </dt> </dl>
 
  
-
- 
-
-
-
 

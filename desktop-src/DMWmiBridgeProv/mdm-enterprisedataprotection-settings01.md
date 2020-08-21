@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-The **MDM\_EnterpriseDataProtection\_Settings01** class is used to configure Windows Information Protection (WIP) (formerly known as Enterprise Data Protection) specific settings. For more information about WIP, see [Protect your enterprise data using enterprise data protection (EDP)](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-edp).
+The **MDM\_EnterpriseDataProtection\_Settings01** class is used to configure Windows Information Protection (WIP) (formerly known as Enterprise Data Protection) specific settings. For more information about WIP, see [Protect your enterprise data using enterprise data protection (EDP)](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -59,7 +59,7 @@ The **MDM\_EnterpriseDataProtection\_Settings01** class has these properties.
 
 <dl> <dt>
 
-[AllowAzureRMSForEDP](https://docs.microsoft.com/windows/client-management/mdm/enterprisedataprotection-csp#settings-allowazurermsforedp)
+[AllowAzureRMSForEDP](/windows/client-management/mdm/enterprisedataprotection-csp#settings-allowazurermsforedp)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -70,7 +70,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowUserDecryption](https://docs.microsoft.com/windows/client-management/mdm/enterprisedataprotection-csp#settings-allowuserdecryption)
+[AllowUserDecryption](/windows/client-management/mdm/enterprisedataprotection-csp#settings-allowuserdecryption)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -81,7 +81,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DataRecoveryCertificate](https://docs.microsoft.com/windows/client-management/mdm/enterprisedataprotection-csp#settings-datarecoverycertificate)
+[DataRecoveryCertificate](/windows/client-management/mdm/enterprisedataprotection-csp#settings-datarecoverycertificate)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -95,7 +95,7 @@ Qualifiers: **Octetstring**
 
 </dd> <dt>
 
-[EDPEnforcementLevel](https://docs.microsoft.com/windows/client-management/mdm/enterprisedataprotection-csp#settings-edpenforcementlevel)
+[EDPEnforcementLevel](/windows/client-management/mdm/enterprisedataprotection-csp#settings-edpenforcementlevel)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -106,7 +106,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EDPShowIcons](https://docs.microsoft.com/windows/client-management/mdm/enterprisedataprotection-csp#settings-edpshowicons)
+[EDPShowIcons](/windows/client-management/mdm/enterprisedataprotection-csp#settings-edpshowicons)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -117,7 +117,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnterpriseProtectedDomainNames](https://docs.microsoft.com/windows/client-management/mdm/enterprisedataprotection-csp#settings-enterpriseprotecteddomainnames)
+[EnterpriseProtectedDomainNames](/windows/client-management/mdm/enterprisedataprotection-csp#settings-enterpriseprotecteddomainnames)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -137,7 +137,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "Settings".
@@ -153,14 +153,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/EnterpriseDataProtection"
 
 </dd> <dt>
 
-[RevokeOnUnenroll](https://docs.microsoft.com/windows/client-management/mdm/enterprisedataprotection-csp#settings-revokeonunenroll)
+[RevokeOnUnenroll](/windows/client-management/mdm/enterprisedataprotection-csp#settings-revokeonunenroll)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -171,7 +171,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RMSTemplateIDForEDP](https://docs.microsoft.com/windows/client-management/mdm/enterprisedataprotection-csp#settings-rmstemplateidforedp)
+[RMSTemplateIDForEDP](/windows/client-management/mdm/enterprisedataprotection-csp#settings-rmstemplateidforedp)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -182,7 +182,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SMBAutoEncryptedFileExtensions](https://docs.microsoft.com/windows/client-management/mdm/enterprisedataprotection-csp#settings-smbautoencryptedfileextensions)
+[SMBAutoEncryptedFileExtensions](/windows/client-management/mdm/enterprisedataprotection-csp#settings-smbautoencryptedfileextensions)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -208,10 +208,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

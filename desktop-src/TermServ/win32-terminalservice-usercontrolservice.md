@@ -21,9 +21,9 @@ ms.date: 05/31/2018
 
 # UserControlService method of the Win32\_Service class
 
-The **UserControlService** [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) method attempts to send a user-defined control code to the referenced service.
+The **UserControlService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method attempts to send a user-defined control code to the referenced service.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -49,7 +49,7 @@ Specifies defined values (from 128 to 255) that provide control commands specifi
 
 ## Return value
 
-Returns one of the values listed in the following list, or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns one of the values listed in the following list, or any other value to indicate an error. For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -91,7 +91,7 @@ The requested control code is not valid, or it is unacceptable to the service.
 **5**
 </dt> <dd>
 
-The requested control code cannot be sent to the service because the state of the service ([**Win32\_BaseService**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-baseservice).**State** property) is equal to 0, 1, or 2.
+The requested control code cannot be sent to the service because the state of the service ([**Win32\_BaseService**](/windows/desktop/CIMWin32Prov/win32-baseservice).**State** property) is equal to 0, 1, or 2.
 
 </dd> <dt>
 
@@ -246,20 +246,14 @@ The service is currently paused in the system.
 
 <dl> <dt>
 
-[**Win32\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-service)
+[**Win32\_Service**](/windows/desktop/CIMWin32Prov/win32-service)
 </dt> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/operating-system-classes)
+[Operating System Classes](/windows/desktop/CIMWin32Prov/operating-system-classes)
 </dt> <dt>
 
 [**Win32\_TerminalService**](win32-terminalservice.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

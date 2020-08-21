@@ -17,7 +17,7 @@ api_location:
 
 # CARD\_DIRECTORY\_ACCESS\_CONDITION enumeration
 
-The **CARD\_DIRECTORY\_ACCESS\_CONDITION** enumeration specifies access control permissions for a directory on a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
+The **CARD\_DIRECTORY\_ACCESS\_CONDITION** enumeration specifies access control permissions for a directory on a [*smart card*](../secgloss/s-gly.md).
 
 ## Syntax
 
@@ -73,19 +73,15 @@ Administrators can read, write, and delete the directory.
 
 <dl> <dt>
 
-[Microsoft Base Smart Card Cryptographic Service Provider](https://msdn.microsoft.com/library/Dd627637(v=VS.85).aspx)
+[Microsoft Base Smart Card Cryptographic Service Provider](/previous-versions/windows/desktop/secsmart/microsoft-base-smart-card-cryptographic-service-provider)
 </dt> <dt>
 
-[**CardCreateDirectory**](https://msdn.microsoft.com/library/Dd627606(v=VS.85).aspx)
+[**CardCreateDirectory**](/previous-versions/windows/desktop/secsmart/cardcreatedirectory)
 </dt> <dt>
 
-[**CardDeleteDirectory**](https://msdn.microsoft.com/library/Dd627611(v=VS.85).aspx)
+[**CardDeleteDirectory**](/previous-versions/windows/desktop/secsmart/carddeletedirectory)
 </dt> </dl>
 
  
 
  
-
-
-
-

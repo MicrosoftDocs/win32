@@ -38,7 +38,7 @@ typedef struct D3DDEVINFO_D3DVERTEXSTATS {
 **NumRenderedTriangles**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ Total number of triangles that are not clipped in this frame.
 **NumExtraClippingTriangles**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -81,7 +81,3 @@ Use the debug runtime and software vertex processing to get the number of non-cl
  
 
  
-
-
-
-

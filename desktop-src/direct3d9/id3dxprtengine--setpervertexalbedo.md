@@ -49,7 +49,7 @@ Pointer to FLOAT albedo data of the first sample.
 *NumChannels* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of color channels to set. Set to 1 to specify gray materials (R = G = B), or 3 to enable color bleeding effects.
 
@@ -58,7 +58,7 @@ Number of color channels to set. Set to 1 to specify gray materials (R = G = B),
 *Stride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Stride in bytes needed to get to next sample's albedo value. See [Width vs. Pitch (Direct3D 9)](width-vs--pitch.md).
 
@@ -91,7 +91,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

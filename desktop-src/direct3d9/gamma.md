@@ -19,9 +19,9 @@ Direct3D 9 can:
 
 All other colors (clear color, material color, vertex color, etc.) are assumed to be in linear space. Applications can gamma-correct the colors written into the frame buffer using pixel shader instructions. The linearization should be applied only to the RGB channels and not to the alpha channel.
 
-Not all surface formats can be linearized. Only the formats that pass [**CheckDeviceFormat**](https://msdn.microsoft.com/library/Bb174309(v=VS.85).aspx) with D3DUSAGE\_QUERY\_SRGBREAD can be linearized. The sampler state D3DSAMP\_SRGBTEXTURE is ignored for the rest. Only unsigned texture formats are expected to support this conversion. Unsigned texture formats include only R, G, B, and L components. If the alpha channel is present, it is ignored. If mixed formats support sRGB linearization, only the unsigned channels are affected. Ideally, hardware should perform the linearization before filtering but in Direct3D 9, hardware is allowed to perform the linearization after filtering.
+Not all surface formats can be linearized. Only the formats that pass [**CheckDeviceFormat**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformat) with D3DUSAGE\_QUERY\_SRGBREAD can be linearized. The sampler state D3DSAMP\_SRGBTEXTURE is ignored for the rest. Only unsigned texture formats are expected to support this conversion. Unsigned texture formats include only R, G, B, and L components. If the alpha channel is present, it is ignored. If mixed formats support sRGB linearization, only the unsigned channels are affected. Ideally, hardware should perform the linearization before filtering but in Direct3D 9, hardware is allowed to perform the linearization after filtering.
 
-Not all surface formats can be written in sRGB space. Only the formats that pass the [**CheckDeviceFormat**](https://msdn.microsoft.com/library/Bb174309(v=VS.85).aspx) with the usage flag D3DUSAGE\_QUERY\_SRGBWRITE can be linearized. The render state D3DRS\_SRGBWRITEENABLE is ignored for the rest. Eight bits per channel RGB unsigned formats are expected to expose this ability.
+Not all surface formats can be written in sRGB space. Only the formats that pass the [**CheckDeviceFormat**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformat) with the usage flag D3DUSAGE\_QUERY\_SRGBWRITE can be linearized. The render state D3DRS\_SRGBWRITEENABLE is ignored for the rest. Eight bits per channel RGB unsigned formats are expected to expose this ability.
 
 Ideally, hardware should perform the frame buffer blending operations in the linear space, but hardware is allowed to perform it after the pixel shader but before the frame buffer blender. This means that the frame buffer blending operations that take place in sRGB space will produce incorrect results. D3DRS\_SRGBWRITEENABLE is honored while performing a clear of the render target. For hardware that supports [Multiple Render Targets (Direct3D 9)](multiple-render-targets.md) or [Multiple-element Textures (Direct3D 9)](multiple-element-textures.md), only the first render target or element is written.
 
@@ -47,7 +47,7 @@ D3DUSAGE_QUERY_SRGBREAD
 
 It is valuable for applications to keep the back buffers of their swap chains in linear space in order to enable correct blending operations. Since the desktop is typically not in linear space, a gamma correction is required before the contents of the back buffer can be presented. The application can effect this correction itself by allocating an additional buffer and performing its own correcting copy from the linear buffer to the back buffer. This necessitates an extra copy which can be avoided if the driver performs gamma correction as part of the presentation blit.
 
-In Direct3D 9 a new flag, [D3DPRESENT\_LINEAR\_CONTENT](d3dpresent.md), is available for [**Present**](/windows/desktop/api) that allows the presentation to implicitly convert from linear space to sRGB/gamma 2.2. Applications should specify this flag if the backbuffer format is 16-bit floating point in order to match windowed mode present to full screen gamma behavior, provided D3DCAPS3\_LINEAR\_TO\_SRGB\_PRESENTATION is returned for device capabilities retrieved through [**GetDeviceCaps**](https://msdn.microsoft.com/library/Bb174385(v=VS.85).aspx).
+In Direct3D 9 a new flag, [D3DPRESENT\_LINEAR\_CONTENT](d3dpresent.md), is available for [**Present**](/windows/desktop/api) that allows the presentation to implicitly convert from linear space to sRGB/gamma 2.2. Applications should specify this flag if the backbuffer format is 16-bit floating point in order to match windowed mode present to full screen gamma behavior, provided D3DCAPS3\_LINEAR\_TO\_SRGB\_PRESENTATION is returned for device capabilities retrieved through [**GetDeviceCaps**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getdevicecaps).
 
 ## Related topics
 
@@ -59,6 +59,3 @@ In Direct3D 9 a new flag, [D3DPRESENT\_LINEAR\_CONTENT](d3dpresent.md), is avail
  
 
  
-
-
-

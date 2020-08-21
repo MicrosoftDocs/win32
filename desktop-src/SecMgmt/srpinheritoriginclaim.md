@@ -19,7 +19,7 @@ api_location:
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-This function takes the origin attribute if present from the origin token and sets them on a duplicate of the inheriting token, and returns the duplicate token. The caller can then impersonate the returned token. This function has no associated import library. You must use the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to srpapi.dll.
+This function takes the origin attribute if present from the origin token and sets them on a duplicate of the inheriting token, and returns the duplicate token. The caller can then impersonate the returned token. This function has no associated import library. You must use the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to srpapi.dll.
 
 ## Syntax
 
@@ -76,9 +76,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

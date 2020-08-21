@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.ISOSpeed Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.ISOSpeed](https://msdn.microsoft.com/library/bb760464(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.ISOSpeed](../properties/props-system-photo-focallengthinfilm.md) property.
 
 ### PKEY
 
@@ -128,12 +128,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.ISOSpeed](https://msdn.microsoft.com/library/bb760464(VS.85).aspx)
+[System.Photo.ISOSpeed](../properties/props-system-photo-focallengthinfilm.md)
 </dt> </dl>
 
  
 
  
-
-
-

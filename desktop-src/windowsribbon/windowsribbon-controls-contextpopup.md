@@ -155,7 +155,7 @@ The following example demonstrates the basic markup for the [**ContextPopup**](w
 
 ### Code
 
-To invoke a Context Popup, the [**IUIContextualUI::ShowAtLocation**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicontextualui-showatlocation) method is called when the top-level window of the Ribbon application receives a WM\_CONTEXTMENU notification.
+To invoke a Context Popup, the [**IUIContextualUI::ShowAtLocation**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicontextualui-showatlocation) method is called when the top-level window of the Ribbon application receives a WM\_CONTEXTMENU notification.
 
 This example demonstrates how to handle the WM\_CONTEXTMENU notification in the WndProc() method of the Ribbon application.
 
@@ -172,11 +172,11 @@ case WM_CONTEXTMENU:
 
 
 
-The following example demonstrates how a Ribbon application can show the Context Popup at a specific screen location using the [**IUIContextualUI::ShowAtLocation**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicontextualui-showatlocation) method.
+The following example demonstrates how a Ribbon application can show the Context Popup at a specific screen location using the [**IUIContextualUI::ShowAtLocation**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicontextualui-showatlocation) method.
 
 GetCurrentContext() has a value of `cmdContextMap` as defined in the preceding markup example.
 
-g\_pApplication is a reference to the [**IUIFramework**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework) interface.
+g\_pApplication is a reference to the [**IUIFramework**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework) interface.
 
 
 ```C++
@@ -202,7 +202,7 @@ HRESULT ShowContextualUI(POINT& ptLocation, HWND hWnd)
 
 
 
-The reference to [**IUIContextualUI**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicontextualui) can be released before the Context Popup is dismissed, as shown in the preceding example. However, the reference must be released at some point to avoid memory leaks.
+The reference to [**IUIContextualUI**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicontextualui) can be released before the Context Popup is dismissed, as shown in the preceding example. However, the reference must be released at some point to avoid memory leaks.
 
 > [!Caution]  
 > The Mini-Toolbar has a built-in fade effect that is based on the proximity of the mouse pointer. For this reason, it is recommended that the Mini-Toolbar be displayed as close to the mouse pointer as possible. Otherwise, due to the conflicting display mechanisms, the Mini-Toolbar may not render as expected.
@@ -226,7 +226,3 @@ There are no property keys associated with the Context Popup control.
  
 
  
-
-
-
-

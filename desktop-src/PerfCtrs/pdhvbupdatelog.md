@@ -43,7 +43,7 @@ Pointer to a string that specifies the data to be added to the log file. This is
 
 If the function succeeds, it returns 0.
 
-If the function fails, the return value is a [system error code](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). The following are possible values.
+If the function fails, the return value is a [system error code](/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). The following are possible values.
 
 
 
@@ -90,9 +90,4 @@ There must be a currently opened query, and the desired counters must be added t
 </dt> </dl>
 
  
-
- 
-
-
-
 

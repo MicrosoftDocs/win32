@@ -73,7 +73,7 @@ public static IEnumerable<byte[]> IntersectIndexes(
 
 #### Return value
 
-Type: [System.Collections.Generic.IEnumerable](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1?redirectedfrom=MSDN)\<\[\]\>  
+Type: [System.Collections.Generic.IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1)\<\[\]\>  
 The bookmarks of the records which are found in all the index ranges. The bookmarks are returned in primary key order.  
 
 ## See also
@@ -85,4 +85,3 @@ The bookmarks of the records which are found in all the index ranges. The bookma
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -69,14 +69,8 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**IMediaRendererFactory**](https://msdn.microsoft.com/library/Hh828924(v=VS.85).aspx)
+[**IMediaRendererFactory**](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-imediarendererfactory)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

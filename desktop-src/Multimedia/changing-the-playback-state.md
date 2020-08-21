@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Changing the Playback State
 
-The following examples show how to use the [**pause**](pause.md), [**resume**](resume.md), [**stop**](stop.md), and [**seek**](seek.md) commands in the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function.
+The following examples show how to use the [**pause**](pause.md), [**resume**](resume.md), [**stop**](stop.md), and [**seek**](seek.md) commands in the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function.
 
 
 ```C++
@@ -51,7 +51,3 @@ void SetSeekMode(BOOL fExact)
  
 
  
-
-
-
-

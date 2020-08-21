@@ -9,7 +9,7 @@ ms.custom: "seodec18"
 
 # How to Draw and Fill a Basic Shape
 
-This topic describes how to draw a basic shape. The [**ID2D1RenderTarget**](https://msdn.microsoft.com/library/Dd371766(v=VS.85).aspx) interface provides methods for outlining and filling ellipses, rectangles, and lines. The following examples show how to create and draw an ellipse.
+This topic describes how to draw a basic shape. The [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) interface provides methods for outlining and filling ellipses, rectangles, and lines. The following examples show how to create and draw an ellipse.
 
 This topic contains the following sections:
 
@@ -21,7 +21,7 @@ This topic contains the following sections:
 
 ## Draw the Outline of an Ellipse with a Solid Stroke
 
-To draw the outline of an ellipse, you define a brush (such as a [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/Dd372207(v=VS.85).aspx) or [**ID2D1LinearGradientBrush**](https://msdn.microsoft.com/library/Dd371488(v=VS.85).aspx)) for painting the outline and a [**D2D1\_ELLIPSE**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_ellipse) for describing the ellipse's position and dimensions, then pass these objects to the [**ID2D1RenderTarget::DrawEllipse**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse(constd2d1_ellipse__id2d1brush_float_id2d1strokestyle)) method. The following example creates a black solid color brush and stores it in the m\_spBlackBrush class member.
+To draw the outline of an ellipse, you define a brush (such as a [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush) or [**ID2D1LinearGradientBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1lineargradientbrush)) for painting the outline and a [**D2D1\_ELLIPSE**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_ellipse) for describing the ellipse's position and dimensions, then pass these objects to the [**ID2D1RenderTarget::DrawEllipse**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse(constd2d1_ellipse__id2d1brush_float_id2d1strokestyle)) method. The following example creates a black solid color brush and stores it in the m\_spBlackBrush class member.
 
 
 ```C++
@@ -52,7 +52,7 @@ m_pRenderTarget->DrawEllipse(ellipse, m_pBlackBrush, 10.f);
 
 ## Draw an Ellipse with a Dashed Stroke
 
-The preceding example used a plain stroke. You can modify the look of a stroke in several ways by creating an [**ID2D1StrokeStyle**](https://msdn.microsoft.com/library/Dd372217(v=VS.85).aspx). The **ID2D1StrokeStyle** lets you specify the shape at the beginning and end of a stroke, whether it has a dash pattern, and so on. The following example creates an **ID2D1StrokeStyle** that describes a dashed stroke. This example uses a predefined dash pattern, [**D2D1\_DASH\_STYLE\_DASH\_DOT\_DOT**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_dash_style), but you can also specify your own.
+The preceding example used a plain stroke. You can modify the look of a stroke in several ways by creating an [**ID2D1StrokeStyle**](/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle). The **ID2D1StrokeStyle** lets you specify the shape at the beginning and end of a stroke, whether it has a dash pattern, and so on. The following example creates an **ID2D1StrokeStyle** that describes a dashed stroke. This example uses a predefined dash pattern, [**D2D1\_DASH\_STYLE\_DASH\_DOT\_DOT**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_dash_style), but you can also specify your own.
 
 
 ```C++
@@ -113,7 +113,7 @@ Code has been omitted from these examples.
 
 ## Drawing More Complex Shapes
 
-To draw more complex shapes, you define ID2D1Geometry objects and use them with the [**DrawGeometry**](https://msdn.microsoft.com/library/Dd371890(v=VS.85).aspx) and [**FillGeometry**](https://msdn.microsoft.com/library/Dd371933(v=VS.85).aspx) methods. For more information, see the [Geometries Overview](direct2d-geometries-overview.md).
+To draw more complex shapes, you define ID2D1Geometry objects and use them with the [**DrawGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry) and [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) methods. For more information, see the [Geometries Overview](direct2d-geometries-overview.md).
 
 ## Related topics
 
@@ -128,7 +128,3 @@ To draw more complex shapes, you define ID2D1Geometry objects and use them with 
  
 
  
-
-
-
-

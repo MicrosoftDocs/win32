@@ -8,7 +8,7 @@ ms.topic: reference
 
 # GraphicsPathIterator.NextMarker methods
 
-This topic lists the NextMarker methods of the [**GraphicsPathIterator**](https://msdn.microsoft.com/library/ms534458(v=VS.85).aspx) class. For a complete list of methods for the **GraphicsPathIterator** class, see [GraphicsPathIterator Methods](-gdiplus-class-graphicspathiterator-methods.md).
+This topic lists the NextMarker methods of the [**GraphicsPathIterator**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspathiterator) class. For a complete list of methods for the **GraphicsPathIterator** class, see [GraphicsPathIterator Methods](-gdiplus-class-graphicspathiterator-methods.md).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the NextMarker methods of the [**GraphicsPathIterator**](https:
 
 | Method                                                                                                 | Description                                                                                                                                                                                                                                                 |
 |:-------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**NextMarker(INT\*,INT\*)**](https://msdn.microsoft.com/library/ms535465(v=VS.85).aspx) | The [**GraphicsPathIterator::NextMarker**](https://msdn.microsoft.com/library/ms535465(v=VS.85).aspx) method gets the starting index and the ending index of the next marker-delimited section in this iterator's associated path.<br/> |
-| [**NextMarker(GraphicsPath\*)**](https://msdn.microsoft.com/library/ms535464(v=VS.85).aspx)             | The [**GraphicsPathIterator::NextMarker**](https://msdn.microsoft.com/library/ms535464(v=VS.85).aspx) method gets the next marker-delimited section of this iterator's associated path.<br/>                                                           |
+| [**NextMarker(INT\*,INT\*)**](/previous-versions//ms535465(v=vs.85)) | The [**GraphicsPathIterator::NextMarker**](/previous-versions//ms535465(v=vs.85)) method gets the starting index and the ending index of the next marker-delimited section in this iterator's associated path.<br/> |
+| [**NextMarker(GraphicsPath\*)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextmarker(outconstgraphicspath))             | The [**GraphicsPathIterator::NextMarker**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspathiterator-nextmarker(outconstgraphicspath)) method gets the next marker-delimited section of this iterator's associated path.<br/>                                                           |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the NextMarker methods of the [**GraphicsPathIterator**](https:
  
 
  
-
-
-
-

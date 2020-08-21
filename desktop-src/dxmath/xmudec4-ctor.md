@@ -17,7 +17,7 @@ api_location:
 
 Constructors exposed by `XMUDEC4`.
 
-Constructs instances of the [**XMUDEC4**](https://msdn.microsoft.com/library/Ee420508(v=VS.85).aspx) structure.
+Constructs instances of the [**XMUDEC4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmudec4) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -91,13 +91,9 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMUDEC4**](https://msdn.microsoft.com/library/Ee420508(v=VS.85).aspx)
+[**XMUDEC4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmudec4)
 </dt> </dl>
 
  
 
  
-
-
-
-

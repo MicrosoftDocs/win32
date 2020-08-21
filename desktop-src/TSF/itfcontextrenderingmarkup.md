@@ -33,7 +33,7 @@ The **ITfContextRenderingMarkup** interface is implemented by TSF manager and us
 
 ## Members
 
-The **ITfContextRenderingMarkup** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **ITfContextRenderingMarkup** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Remarks
 
@@ -45,7 +45,3 @@ The **ITfContextRenderingMarkup** interface inherits from the [**IUnknown**](htt
  
 
  
-
-
-
-

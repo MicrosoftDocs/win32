@@ -16,16 +16,16 @@ Lists the geometric vector functions.
 
 | Topic                                                           | Description                                                                                                                                                                                                      |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**XMVectorBaryCentric**](https://msdn.microsoft.com/library/Ee421003(v=VS.85).aspx)<br/>   | Returns a point in Barycentric coordinates, using the specified position vectors.<br/>                                                                                                                     |
-| [**XMVectorBaryCentricV**](https://msdn.microsoft.com/library/Ee421004(v=VS.85).aspx)<br/> | Returns a point in Barycentric coordinates, using the specified position vectors.<br/>                                                                                                                     |
-| [**XMVectorCatmullRom**](https://msdn.microsoft.com/library/Ee421005(v=VS.85).aspx)<br/>     | Performs a Catmull-Rom interpolation, using the specified position vectors.<br/>                                                                                                                           |
-| [**XMVectorCatmullRomV**](https://msdn.microsoft.com/library/Ee421006(v=VS.85).aspx)<br/>   | Performs a Catmull-Rom interpolation, using the specified position vectors.<br/>                                                                                                                           |
-| [**XMVectorHermite**](https://msdn.microsoft.com/library/Ee421159(v=VS.85).aspx)<br/>           | Performs a Hermite spline interpolation, using the specified vectors.<br/>                                                                                                                                 |
-| [**XMVectorHermiteV**](https://msdn.microsoft.com/library/Ee421160(v=VS.85).aspx)<br/>         | Performs a Hermite spline interpolation, using the specified vectors.<br/>                                                                                                                                 |
-| [**XMVectorInBounds**](https://msdn.microsoft.com/library/Ee421166(v=VS.85).aspx)<br/>         | Tests whether the components of a given vector are within set bounds.<br/>                                                                                                                                 |
-| [**XMVectorInBoundsR**](https://msdn.microsoft.com/library/Hh404800(v=VS.85).aspx)<br/>       | Tests whether the components of a given vector are within certain bounds and sets a comparison value that can be examined using functions such as [**XMComparisonAllTrue**](/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonalltrue).<br/> |
-| [**XMVectorLerp**](https://msdn.microsoft.com/library/Ee421171(v=VS.85).aspx)<br/>                 | Performs a linear interpolation between two vectors.<br/>                                                                                                                                                  |
-| [**XMVectorLerpV**](https://msdn.microsoft.com/library/Ee421172(v=VS.85).aspx)<br/>               | Performs a linear interpolation between two vectors.<br/>                                                                                                                                                  |
+| [**XMVectorBaryCentric**](/windows/win32/api/directxmath/nf-directxmath-xmvectorbarycentric)<br/>   | Returns a point in Barycentric coordinates, using the specified position vectors.<br/>                                                                                                                     |
+| [**XMVectorBaryCentricV**](/windows/win32/api/directxmath/nf-directxmath-xmvectorbarycentricv)<br/> | Returns a point in Barycentric coordinates, using the specified position vectors.<br/>                                                                                                                     |
+| [**XMVectorCatmullRom**](/windows/win32/api/directxmath/nf-directxmath-xmvectorcatmullrom)<br/>     | Performs a Catmull-Rom interpolation, using the specified position vectors.<br/>                                                                                                                           |
+| [**XMVectorCatmullRomV**](/windows/win32/api/directxmath/nf-directxmath-xmvectorcatmullromv)<br/>   | Performs a Catmull-Rom interpolation, using the specified position vectors.<br/>                                                                                                                           |
+| [**XMVectorHermite**](/windows/win32/api/directxmath/nf-directxmath-xmvectorhermite)<br/>           | Performs a Hermite spline interpolation, using the specified vectors.<br/>                                                                                                                                 |
+| [**XMVectorHermiteV**](/windows/win32/api/directxmath/nf-directxmath-xmvectorhermitev)<br/>         | Performs a Hermite spline interpolation, using the specified vectors.<br/>                                                                                                                                 |
+| [**XMVectorInBounds**](/windows/win32/api/directxmath/nf-directxmath-xmvectorinbounds)<br/>         | Tests whether the components of a given vector are within set bounds.<br/>                                                                                                                                 |
+| [**XMVectorInBoundsR**](/windows/win32/api/directxmath/nf-directxmath-xmvectorinboundsr)<br/>       | Tests whether the components of a given vector are within certain bounds and sets a comparison value that can be examined using functions such as [**XMComparisonAllTrue**](/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonalltrue).<br/> |
+| [**XMVectorLerp**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlerp)<br/>                 | Performs a linear interpolation between two vectors.<br/>                                                                                                                                                  |
+| [**XMVectorLerpV**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlerpv)<br/>               | Performs a linear interpolation between two vectors.<br/>                                                                                                                                                  |
 
 
 
@@ -41,7 +41,3 @@ Lists the geometric vector functions.
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Retrieving a Certificate Revocation List
 
-A [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA) is responsible for publishing its [*certificate revocation list*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CRL). The current CRL can be retrieved by using the [**ICertAdmin2::GetCRL**](/windows/desktop/api/Certadm/nf-certadm-icertadmin-getcrl) method. In cases where a CA's certificate has been renewed, you might need to retrieve CRLs for the previous CA certificates. For information about CA renewal, see [Certification Authority Renewal](certification-authority-renewal.md). Additionally, a CA might publish delta CRLs. To retrieve CRLs for renewed CA certificates or delta CRLs, use either the [**ICertAdmin2::GetCAProperty**](/windows/desktop/api/Certadm/nf-certadm-icertadmin2-getcaproperty) or [**ICertRequest2::GetCAProperty**](/windows/desktop/api/Certcli/nf-certcli-icertrequest2-getcaproperty) methods.
+A [*certification authority*](../secgloss/c-gly.md) (CA) is responsible for publishing its [*certificate revocation list*](../secgloss/c-gly.md) (CRL). The current CRL can be retrieved by using the [**ICertAdmin2::GetCRL**](/windows/desktop/api/Certadm/nf-certadm-icertadmin-getcrl) method. In cases where a CA's certificate has been renewed, you might need to retrieve CRLs for the previous CA certificates. For information about CA renewal, see [Certification Authority Renewal](certification-authority-renewal.md). Additionally, a CA might publish delta CRLs. To retrieve CRLs for renewed CA certificates or delta CRLs, use either the [**ICertAdmin2::GetCAProperty**](/windows/desktop/api/Certadm/nf-certadm-icertadmin2-getcaproperty) or [**ICertRequest2::GetCAProperty**](/windows/desktop/api/Certcli/nf-certcli-icertrequest2-getcaproperty) methods.
 
 The following example shows retrieving the current CRL.
 
@@ -182,6 +182,3 @@ error:
  
 
  
-
-
-

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 An application can call the [**MsiEnumProducts**](/windows/desktop/api/Msi/nf-msi-msienumproductsa) or [**MsiEnumProductsEx**](/windows/desktop/api/Msi/nf-msi-msienumproductsexa) functions to enumerate products that are installed or advertised on the system. This function can enumerate all the products installed in the per-machine [installation context](installation-context.md). It can enumerate the products installed in the per-user context for the current user. The application can retrieve information about the context of these products by calling the [**MsiGetProductInfoEx**](/windows/desktop/api/Msi/nf-msi-msigetproductinfoexa) or [**MsiGetProductInfo**](/windows/desktop/api/Msi/nf-msi-msigetproductinfoa) functions.
 
-The Windows Installer can install products to run with elevated (system) privileges for non-administrator users. This requires the permission of an administrator user. A product that is installed with elevated privileges is called "managed." All products installed per-machine are managed. Products installed per-user are only managed if a local system agent performs an advertisement while impersonating a user. This is the method used by software deployment through [Group Policy](https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-start-page). Per-user applications installed while the [AlwaysInstallElevated](alwaysinstallelevated.md) policies are set are not considered managed. By calling [**MsiIsProductElevated**](/windows/desktop/api/Msi/nf-msi-msiisproductelevateda), an application can check whether a particular product is managed.
+The Windows Installer can install products to run with elevated (system) privileges for non-administrator users. This requires the permission of an administrator user. A product that is installed with elevated privileges is called "managed." All products installed per-machine are managed. Products installed per-user are only managed if a local system agent performs an advertisement while impersonating a user. This is the method used by software deployment through [Group Policy](/previous-versions/windows/desktop/Policy/group-policy-start-page). Per-user applications installed while the [AlwaysInstallElevated](alwaysinstallelevated.md) policies are set are not considered managed. By calling [**MsiIsProductElevated**](/windows/desktop/api/Msi/nf-msi-msiisproductelevateda), an application can check whether a particular product is managed.
 
 The following sample demonstrates how an application determines context by using [**MsiEnumProducts**](/windows/desktop/api/Msi/nf-msi-msienumproductsa), [**MsiGetProductInfo**](/windows/desktop/api/Msi/nf-msi-msigetproductinfoa), and [**MsiIsProductElevated**](/windows/desktop/api/Msi/nf-msi-msiisproductelevateda).
 
@@ -174,6 +174,3 @@ UINT DetermineContextForAllProducts()
  
 
  
-
-
-

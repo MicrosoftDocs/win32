@@ -20,9 +20,9 @@ ms.date: 05/31/2018
 
 # SHAREVISTRING message
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](https://msdn.microsoft.com/library/Bb776913(v=VS.85).aspx). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
-An **Open** or **Save As** dialog box sends the **SHAREVISTRING** registered message to your hook procedure, [*OFNHookProc*](https://msdn.microsoft.com/library/ms646931(v=VS.85).aspx), if a sharing violation occurs for the selected file when the user clicks the **OK** button.
+An **Open** or **Save As** dialog box sends the **SHAREVISTRING** registered message to your hook procedure, [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc), if a sharing violation occurs for the selected file when the user clicks the **OK** button.
 
 
 ```C++
@@ -67,7 +67,7 @@ The hook procedure must return one of the following values to indicate how the d
 
 ## Remarks
 
-The hook procedure must specify the **SHAREVISTRING** constant in a call to the [**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function to get the identifier for the message sent by the dialog box.
+The hook procedure must specify the **SHAREVISTRING** constant in a call to the [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) function to get the identifier for the message sent by the dialog box.
 
 The dialog box sends the **SHAREVISTRING** registered message only if you did not specify the **OFN\_SHAREAWARE** flag in the **Flags** member of the [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure when you created the dialog.
 
@@ -99,7 +99,7 @@ If the hook procedure returns an undefined value, the dialog box responds as if 
 [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)
 </dt> <dt>
 
-[**RegisterWindowMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
+[**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
 </dt> <dt>
 
 **Conceptual**
@@ -109,10 +109,4 @@ If the hook procedure returns an undefined value, the dialog box responds as if 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

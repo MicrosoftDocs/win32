@@ -219,7 +219,7 @@ SRGB was removed as part of the sampler state and now is tied to the texture for
 <span id="Which_D3D9_format_corresponds_to_which_D3D10_format___"></span><span id="which_d3d9_format_corresponds_to_which_d3d10_format___"></span><span id="WHICH_D3D9_FORMAT_CORRESPONDS_TO_WHICH_D3D10_FORMAT___"></span>Which D3D9 format corresponds to which D3D10 format? 
 </dt> <dd>
 
-For info, see [Direct3D 9 to Direct3D 10 Considerations](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-d3d9-to-d3d10-considerations).
+For info, see [Direct3D 9 to Direct3D 10 Considerations](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-d3d9-to-d3d10-considerations).
 
 </dd> <dt>
 
@@ -410,14 +410,14 @@ Ensure you are enabling an MSAA sample count and quality number that actually ar
 <span id="My_application_crashes_in_D3D10_or_in_the_driver_and_I_do_not_know_why.__"></span><span id="my_application_crashes_in_d3d10_or_in_the_driver_and_i_do_not_know_why.__"></span><span id="MY_APPLICATION_CRASHES_IN_D3D10_OR_IN_THE_DRIVER_AND_I_DO_NOT_KNOW_WHY.__"></span>My application crashes in D3D10 or in the driver and I do not know why. 
 </dt> <dd>
 
-The first step is to enable the debug runtime ([**D3D10\_CREATE\_DEVICE\_DEBUG**](https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_create_device_flag) flag passed into [**D3D10CreateDevice**](https://docs.microsoft.com/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice)). This will expose the most common errors as debug output.
+The first step is to enable the debug runtime ([**D3D10\_CREATE\_DEVICE\_DEBUG**](/windows/desktop/api/d3d10/ne-d3d10-d3d10_create_device_flag) flag passed into [**D3D10CreateDevice**](/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice)). This will expose the most common errors as debug output.
 
 </dd> <dt>
 
 <span id="PIX_crashes_when_I_try_to_use_my_application_with_it.__"></span><span id="pix_crashes_when_i_try_to_use_my_application_with_it.__"></span><span id="PIX_CRASHES_WHEN_I_TRY_TO_USE_MY_APPLICATION_WITH_IT.__"></span>PIX crashes when I try to use my application with it. 
 </dt> <dd>
 
-The first step is to enable the debug runtime ([**D3D10\_CREATE\_DEVICE\_DEBUG**](https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_create_device_flag) flag passed into [**D3D10CreateDevice**](https://docs.microsoft.com/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice)). PIX has a much higher probability of crashing if the debug output is not clean.
+The first step is to enable the debug runtime ([**D3D10\_CREATE\_DEVICE\_DEBUG**](/windows/desktop/api/d3d10/ne-d3d10-d3d10_create_device_flag) flag passed into [**D3D10CreateDevice**](/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice)). PIX has a much higher probability of crashing if the debug output is not clean.
 
 </dd> <dt>
 
@@ -587,7 +587,3 @@ In this constant buffer, IWaste2Floats is placed at the third float (12th byte) 
  
 
  
-
-
-
-

@@ -26,7 +26,7 @@ You can view or manipulate any information made available through WMI using scri
 
 The two main languages supported by WMI are PowerShell and VBScript (through the Windows Script Host, or WSH).
 
--   **PowerShell** was designed with tight integration with WMI in mind. As such, much of the underlying elements of WMI are built into the WMI cmdlets: [Get-WmiObject](https://technet.microsoft.com/library/hh849824.aspx), [Set-WmiInstance](https://technet.microsoft.com/library/hh849833.aspx), [Invoke-WmiMethod](https://technet.microsoft.com/library/hh849748.aspx), and [Remove-WmiObject](https://technet.microsoft.com/library/hh849820.aspx). The following table describes the general processes used for accessing WMI information. Note that while most of these examples use Get-WMIObject, many of the PowerShell WMI cmdlets have the same parameters, such as *-Class* or *-Credentials*. Therefore, many of these processes also work for other objects. For a more in-depth discussion of PowerShell and WMI, see [Using the Get-WMiObject Cmdlet](https://technet.microsoft.com/library/ee176860.aspx) and [Windows PowerShell - the WMI Connection](https://technet.microsoft.com/magazine/2007.05.powershell.aspx).
+-   **PowerShell** was designed with tight integration with WMI in mind. As such, much of the underlying elements of WMI are built into the WMI cmdlets: [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1), [Set-WmiInstance](/powershell/module/microsoft.powershell.management/set-wmiinstance?view=powershell-5.1), [Invoke-WmiMethod](/powershell/module/microsoft.powershell.management/invoke-wmimethod?view=powershell-5.1), and [Remove-WmiObject](/powershell/module/microsoft.powershell.management/remove-wmiobject?view=powershell-5.1). The following table describes the general processes used for accessing WMI information. Note that while most of these examples use Get-WMIObject, many of the PowerShell WMI cmdlets have the same parameters, such as *-Class* or *-Credentials*. Therefore, many of these processes also work for other objects. For a more in-depth discussion of PowerShell and WMI, see [Using the Get-WMiObject Cmdlet](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176860(v=technet.10)) and [Windows PowerShell - the WMI Connection](/previous-versions/technet-magazine/cc162365(v=msdn.10)).
 
 -   **VBScript**, in contrast, explicitly makes calls to the [Scripting API for WMI](scripting-api-for-wmi.md), as mentioned above. Other languages, such as Perl, can also use the scripting API for WMI. However, for the purposes of this documentation, most samples that demonstrate the scripting API for WMI will use VBScript. When a programming technique is specific to VBScript, however, it will be called out.
 
@@ -212,7 +212,7 @@ Get-WmiObject -Namespace root -Class __Namespace
 <span id="...retrieve_all_child_instances_of_a_class_"></span><span id="...RETRIEVE_ALL_CHILD_INSTANCES_OF_A_CLASS_"></span>...retrieve all child instances of a class?
 </dt> <dd>
 
-For languages that directly use the Scripting API for WMI and PowerShell, WMI supports retrieving the child classes of a base class. As such, in order to retrieve the child instances, you need to only search for the parent class. The following example searches for [**CIM\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldisk), which is a preinstalled WMI class that represents logical disks on a Windows-based computer system. As such, searching for this parent class also returns instances of [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk), which is what Windows uses to describe hard drives. For more information, see [Common Information Model](common-information-model.md). WMI supplies an entire schema of such preinstalled classes that allow you to access and control managed objects. For more information, see [Win32 Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-provider) and [WMI Classes](wmi-classes.md)..
+For languages that directly use the Scripting API for WMI and PowerShell, WMI supports retrieving the child classes of a base class. As such, in order to retrieve the child instances, you need to only search for the parent class. The following example searches for [**CIM\_LogicalDisk**](/windows/desktop/CIMWin32Prov/cim-logicaldisk), which is a preinstalled WMI class that represents logical disks on a Windows-based computer system. As such, searching for this parent class also returns instances of [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk), which is what Windows uses to describe hard drives. For more information, see [Common Information Model](common-information-model.md). WMI supplies an entire schema of such preinstalled classes that allow you to access and control managed objects. For more information, see [Win32 Classes](/windows/desktop/CIMWin32Prov/win32-provider) and [WMI Classes](wmi-classes.md)..
 
 
 ```VB
@@ -236,7 +236,7 @@ Get-WmiObject CIM_LogicalDisk | ForEach-Object { "Instance: " + $_.Name  }
 
 For both the Scripting API for WMI and PowerShell, WMI uses a combination of namespace, class name, and key properties to uniquely identify a given WMI instance. Together, this is known as the WMI object path. For VBScript, the [**SWbemObject.Path\_**](swbemobject-path-.md) property describes the path for any given object returned by the scripting API. For PowerShell, every WMI object will have a \_\_PATH property. For more information, see [Describing the Location of a WMI Object](describing-the-location-of-a-wmi-object.md)
 
-In addition to namespace and class name, a WMI object will also have a key property, which uniquely identifies that instance compared to other instances on your machine. For example, the **DeviceID** property is the key property for the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class. For more information, see [Managed Object Format (MOF)](managed-object-format--mof-.md).
+In addition to namespace and class name, a WMI object will also have a key property, which uniquely identifies that instance compared to other instances on your machine. For example, the **DeviceID** property is the key property for the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class. For more information, see [Managed Object Format (MOF)](managed-object-format--mof-.md).
 
 Finally, the Relative path is simply a shortened form of the path, and includes the class name and key value. In the examples below, the path may be "\\\\computerName\\root\\cimv2:Win32\_LogicalDisk.DeviceID="D:"", while the relative path would be ""Win32LogicalDisk.DeviceID="D""".
 
@@ -270,7 +270,7 @@ Get-WmiObject CIM_LogicalDisk | ForEach-Object { "Instance: " + $_.__RELPATH  }
 
 For VBScript and the Scripting API for WMI, use the [**SWbemObject.Put\_**](swbemobject-put-.md) method.
 
-For PowerShell, you can either use the Put method, or else [Set-WmiInstance](https://technet.microsoft.com/library/hh849833.aspx).
+For PowerShell, you can either use the Put method, or else [Set-WmiInstance](/powershell/module/microsoft.powershell.management/set-wmiinstance?view=powershell-5.1).
 
 For more information, see [Modifying an Instance Property](modifying-an-instance-property.md).
 
@@ -447,7 +447,7 @@ For the Scripting API for WMI, the provider may supply an [**SWbemLastError**](s
 
 In VBScript in particular, error handling is also supported using the native **Err** object. You may also access the [**SWbemLastError**](swbemlasterror.md)object, as described above. For more information, see [Retrieving an Error Code](retrieving-an-error-code.md).
 
-For PowerShell, you can use the standard PowerShell error handling techniques. For more information, see [An Introduction to Error Handling in PowerShell](https://blogs.msdn.microsoft.com/kebab/2013/06/09/an-introduction-to-error-handling-in-powershell/).
+For PowerShell, you can use the standard PowerShell error handling techniques. For more information, see [An Introduction to Error Handling in PowerShell](/archive/blogs/kebab/an-introduction-to-error-handling-in-powershell).
 
 
 ```VB
@@ -472,6 +472,3 @@ Wscript.Echo "Operation = " & LastError.operation & VBCRLF & "ParameterInfo = " 
  
 
  
-
-
-

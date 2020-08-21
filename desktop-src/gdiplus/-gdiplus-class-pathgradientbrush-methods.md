@@ -14,8 +14,8 @@ This topic lists the methods of the [**PathGradientBrush**](/windows/desktop/api
 -   [**GetBlend**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-getblend)
 -   [**GetBlendCount**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-getblendcount)
 -   [**GetCenterColor**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-getcentercolor)
--   [**GetCenterPoint(Point\*)**](https://msdn.microsoft.com/library/ms535098(v=VS.85).aspx)
--   [**GetCenterPoint(PointF\*)**](https://msdn.microsoft.com/library/ms535099(v=VS.85).aspx)
+-   [**GetCenterPoint(Point\*)**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getcenterpoint(outpoint))
+-   [**GetCenterPoint(PointF\*)**](/previous-versions//ms535099(v=vs.85))
 -   [**GetFocusScales**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-getfocusscales)
 -   [**GetGammaCorrection**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-getgammacorrection)
 -   [**GetGraphicsPath**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-getgraphicspath)
@@ -23,8 +23,8 @@ This topic lists the methods of the [**PathGradientBrush**](/windows/desktop/api
 -   [**GetInterpolationColors**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-getinterpolationcolors)
 -   [**GetLastStatus**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-getlaststatus)
 -   [**GetPointCount**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-getpointcount)
--   [**GetRectangle(RectF\*)**](https://msdn.microsoft.com/library/ms535096(v=VS.85).aspx)
--   [**GetRectangle(Rect\*)**](https://msdn.microsoft.com/library/ms535097(v=VS.85).aspx)
+-   [**GetRectangle(RectF\*)**](/previous-versions//ms535096(v=vs.85))
+-   [**GetRectangle(Rect\*)**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getrectangle(outrect))
 -   [**GetSurroundColorCount**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-getsurroundcolorcount)
 -   [**GetSurroundColors**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-getsurroundcolors)
 -   [**GetTransform**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-gettransform)
@@ -38,8 +38,8 @@ This topic lists the methods of the [**PathGradientBrush**](/windows/desktop/api
 -   [**SetBlendBellShape**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-setblendbellshape)
 -   [**SetBlendTriangularShape**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-setblendtriangularshape)
 -   [**SetCenterColor**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-setcentercolor)
--   [**SetCenterPoint(Point&)**](https://msdn.microsoft.com/library/ms535094(v=VS.85).aspx)
--   [**SetCenterPoint(PointF&)**](https://msdn.microsoft.com/library/ms535095(v=VS.85).aspx)
+-   [**SetCenterPoint(Point&)**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setcenterpoint(inconstpoint_))
+-   [**SetCenterPoint(PointF&)**](/previous-versions//ms535095(v=vs.85))
 -   [**SetFocusScales**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-setfocusscales)
 -   [**SetGammaCorrection**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-setgammacorrection)
 -   [**SetGraphicsPath**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-pathgradientbrush-setgraphicspath)
@@ -52,6 +52,3 @@ This topic lists the methods of the [**PathGradientBrush**](/windows/desktop/api
  
 
  
-
-
-

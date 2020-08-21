@@ -60,7 +60,7 @@ The **MDM\_ClientCertificateInstall\_SCEP01\_01** class has these properties.
 
 <dl> <dt>
 
-[CertThumbprint](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-certthumbprint)
+[CertThumbprint](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-certthumbprint)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -71,7 +71,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ErrorCode](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-errorcode)
+[ErrorCode](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-errorcode)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -91,7 +91,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, a unique ID to differentiate different certificate install requests.
@@ -107,7 +107,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node.
@@ -116,7 +116,7 @@ The string is "./Vendor/MSFT/ClientCertificateInstall/SCEP"
 
 </dd> <dt>
 
-[RespondentServerUrl](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-respondentserverurl)
+[RespondentServerUrl](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-respondentserverurl)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -127,7 +127,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Status](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-status)
+[Status](/windows/client-management/mdm/clientcertificateinstall-csp#clientcertificateinstall-scep-uniqueid-status)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -156,14 +156,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

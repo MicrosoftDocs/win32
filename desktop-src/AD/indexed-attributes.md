@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 Attributes may be indexed. Indexing an attribute can improve the performance of queries for that attribute.
 
-An attributes is indexed when the [**searchFlags**](https://docs.microsoft.com/windows/desktop/ADSchema/a-searchflags) attribute in the attribute's schema definition has the least significant bit set to 1. Setting the least significant bit of the **searchFlags** attribute schema definition to 1 will dynamically build an index. Setting the least significant bit of the **searchFlags** attribute schema definition to 0 will cause the index for the attribute to be removed. The index will be built automatically by a background thread on the domain controller.
+An attributes is indexed when the [**searchFlags**](/windows/desktop/ADSchema/a-searchflags) attribute in the attribute's schema definition has the least significant bit set to 1. Setting the least significant bit of the **searchFlags** attribute schema definition to 1 will dynamically build an index. Setting the least significant bit of the **searchFlags** attribute schema definition to 0 will cause the index for the attribute to be removed. The index will be built automatically by a background thread on the domain controller.
 
 Ideally, indexed attributes should be single valued with highly unique values evenly distributed across the set of instances. The less unique the values of an attribute are, the less effective the index will be.
 
@@ -36,12 +36,8 @@ HKEY_LOCAL_MACHINE
                   9 Internal Processing
 ```
 
-For more information about other bits in the [**searchFlags**](https://docs.microsoft.com/windows/desktop/ADSchema/a-searchflags) property, see [Characteristics of Attributes](characteristics-of-attributes.md).
+For more information about other bits in the [**searchFlags**](/windows/desktop/ADSchema/a-searchflags) property, see [Characteristics of Attributes](characteristics-of-attributes.md).
 
  
 
  
-
-
-
-

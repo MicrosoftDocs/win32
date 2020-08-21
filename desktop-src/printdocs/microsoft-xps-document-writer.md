@@ -44,7 +44,7 @@ Application developers can customize the output of MXDW using the [MXDW configur
 [XPS Specification and License Downloads](https://www.microsoft.com/download/details.aspx?id=11816)
 </dt> <dt>
 
-[isXPS Conformance Tool](https://msdn.microsoft.com/library/Aa348104(v=VS.85).aspx)
+[isXPS Conformance Tool](/previous-versions/dotnet/netframework-3.0/aa348104(v=vs.85))
 </dt> <dt>
 
 [MXDW configuration settings](mxdw-configuration-settings.md)
@@ -53,6 +53,3 @@ Application developers can customize the output of MXDW using the [MXDW configur
  
 
  
-
-
-

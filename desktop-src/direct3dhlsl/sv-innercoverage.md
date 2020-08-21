@@ -39,8 +39,8 @@ To access SV\_InnerCoverage, it must be declared as a single component out of on
 
 Conservative rasterization is available in both D3D11.3 and D3D12. Refer to:
 
--   [D3D11.3 Conservative Rasterization](https://docs.microsoft.com/windows/desktop/direct3d11/conservative-rasterization)
--   [D3D12 Conservative Rasterization](https://docs.microsoft.com/windows/desktop/direct3d12/conservative-rasterization)
+-   [D3D11.3 Conservative Rasterization](/windows/desktop/direct3d11/conservative-rasterization)
+-   [D3D12 Conservative Rasterization](/windows/desktop/direct3d12/conservative-rasterization)
 
 ## See also
 
@@ -55,7 +55,3 @@ Conservative rasterization is available in both D3D11.3 and D3D12. Refer to:
  
 
  
-
-
-
-

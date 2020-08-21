@@ -8,14 +8,14 @@ ms.date: 05/31/2018
 
 # Stream Contexts
 
-Stream contexts handle the secure stream-oriented protocols such as SSL or PCT. In the interest of sharing the same interface and similar credential management, SSPI provides support for stream contexts. The [*security protocol*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) incorporates both the stream authentication scheme and record formats.
+Stream contexts handle the secure stream-oriented protocols such as SSL or PCT. In the interest of sharing the same interface and similar credential management, SSPI provides support for stream contexts. The [*security protocol*](../secgloss/s-gly.md) incorporates both the stream authentication scheme and record formats.
 
-To provide stream-oriented protocols, [*security packages*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) that support stream contexts have the following process characteristics:
+To provide stream-oriented protocols, [*security packages*](../secgloss/s-gly.md) that support stream contexts have the following process characteristics:
 
 -   The package sets the SECPKG\_FLAG\_STREAM flag to indicate that it supports stream semantics.
--   Transport applications requests stream semantics by setting the ISC\_REQ\_STREAM and ASC\_REQ\_STREAM flags in the calls to the [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx) and [**AcceptSecurityContext (General)**](https://msdn.microsoft.com/library/Aa374703(v=VS.85).aspx) functions.
--   The application calls the [**QueryContextAttributes (General)**](https://msdn.microsoft.com/library/Aa379326(v=VS.85).aspx) function with a [**SecPkgContext\_StreamSizes**](/windows/desktop/api/Sspi/ns-sspi-secpkgcontext_streamsizes) structure to query the [*security context*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) for the number of buffers to provide and the sizes to reserve for headers or trailers.
--   The application provides buffer descriptors to spare during the actual processing of the data. By specifying stream semantics, the caller indicates willingness to do extra processing so that the [*security package*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) can handle the blocking of the messages. In essence, for the [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature) and [**VerifySignature**](/windows/desktop/api/Sspi/nf-sspi-verifysignature) functions, the caller passes in a list of buffers. When a message is received from a channel that is stream-oriented (such as a TCP port), the caller passes in a buffer list as follows.
+-   Transport applications requests stream semantics by setting the ISC\_REQ\_STREAM and ASC\_REQ\_STREAM flags in the calls to the [**InitializeSecurityContext (General)**](/windows/win32/api/sspi/nf-sspi-initializesecuritycontexta) and [**AcceptSecurityContext (General)**](/windows/win32/api/sspi/nf-sspi-acceptsecuritycontext) functions.
+-   The application calls the [**QueryContextAttributes (General)**](/windows/win32/api/sspi/nf-sspi-querycontextattributesa) function with a [**SecPkgContext\_StreamSizes**](/windows/desktop/api/Sspi/ns-sspi-secpkgcontext_streamsizes) structure to query the [*security context*](../secgloss/s-gly.md) for the number of buffers to provide and the sizes to reserve for headers or trailers.
+-   The application provides buffer descriptors to spare during the actual processing of the data. By specifying stream semantics, the caller indicates willingness to do extra processing so that the [*security package*](../secgloss/s-gly.md) can handle the blocking of the messages. In essence, for the [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature) and [**VerifySignature**](/windows/desktop/api/Sspi/nf-sspi-verifysignature) functions, the caller passes in a list of buffers. When a message is received from a channel that is stream-oriented (such as a TCP port), the caller passes in a buffer list as follows.
 
     | Buffer | Length         | Buffer type      |
     |--------|----------------|------------------|
@@ -29,7 +29,7 @@ To provide stream-oriented protocols, [*security packages*](https://msdn.microso
 
      
 
-    The security package then works on the [*BLOB*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx). If the function returns successfully, the buffer list looks like the following.
+    The security package then works on the [*BLOB*](../secgloss/b-gly.md). If the function returns successfully, the buffer list looks like the following.
 
     
 
@@ -57,7 +57,7 @@ To provide stream-oriented protocols, [*security packages*](https://msdn.microso
 
      
 
-    This indicates that more data was needed to process the record. Unlike most errors returned from a message function, this buffer type does not indicate that the context has been compromised. Instead, it indicates that more data is needed. [*Security packages*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) must not update their [*state*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) in this condition.
+    This indicates that more data was needed to process the record. Unlike most errors returned from a message function, this buffer type does not indicate that the context has been compromised. Instead, it indicates that more data is needed. [*security packages*](../secgloss/s-gly.md) must not update their [*state*](../secgloss/s-gly.md) in this condition.
 
     Similarly, on the sender side of the communication, the caller can call the [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature) function. The security package may need to reallocate the buffer or copy things around. The caller can be more efficient by providing a buffer list as follows.
 
@@ -73,11 +73,8 @@ To provide stream-oriented protocols, [*security packages*](https://msdn.microso
 
      
 
-    This allows the caller to use the buffers more efficiently. By calling the [**QueryContextAttributes**](https://msdn.microsoft.com/library/Aa379326(v=VS.85).aspx) function to determine the amount of space to reserve before calling [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature), the operation is more efficient for the application and the security package.
+    This allows the caller to use the buffers more efficiently. By calling the [**QueryContextAttributes**](/windows/win32/api/sspi/nf-sspi-querycontextattributesa) function to determine the amount of space to reserve before calling [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature), the operation is more efficient for the application and the security package.
 
  
 
  
-
-
-

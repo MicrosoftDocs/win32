@@ -53,7 +53,7 @@ The **MDM\_Policy\_Result01\_WindowsLogon02** class has these properties.
 
 <dl> <dt>
 
-[DisableLockScreenAppNotifications](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-disablelockscreenappnotifications)
+[DisableLockScreenAppNotifications](/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-disablelockscreenappnotifications)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -64,7 +64,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DontDisplayNetworkSelectionUI](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-dontdisplaynetworkselectionui)
+[DontDisplayNetworkSelectionUI](/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-dontdisplaynetworkselectionui)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -75,7 +75,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HideFastUserSwitching](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-hidefastuserswitching)
+[HideFastUserSwitching](/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-hidefastuserswitching)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -95,7 +95,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -109,7 +109,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> </dl>
@@ -129,10 +129,4 @@ Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qual
 
 
  
-
- 
-
-
-
-
 

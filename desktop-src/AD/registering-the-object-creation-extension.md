@@ -24,7 +24,7 @@ HKEY_CLASSES_ROOT
             ThreadingModel = Apartment
 ```
 
-"&lt;extension CLSID&gt;" is the string representation of the CLSID as produced by the [**StringFromCLSID**](https://msdn.microsoft.com/library/ms683917(v=VS.85).aspx) function. "&lt;extension path&gt;" contains the path and file name of the extension DLL. The **ThreadingModel** value for all object creation extensions must be "Apartment".
+"&lt;extension CLSID&gt;" is the string representation of the CLSID as produced by the [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) function. "&lt;extension path&gt;" contains the path and file name of the extension DLL. The **ThreadingModel** value for all object creation extensions must be "Apartment".
 
 ## Registering with Active Directory Domain Services
 
@@ -41,7 +41,7 @@ The **creationWizard** attribute identifies primary object creation extensions t
 
 
 
-The "&lt;CLSID&gt;" is the string representation of the COM object's CLSID as produced by the [**StringFromCLSID**](https://msdn.microsoft.com/library/ms683917(v=VS.85).aspx) function.
+The "&lt;CLSID&gt;" is the string representation of the COM object's CLSID as produced by the [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) function.
 
 The **createWizardExt** attribute identifies secondary object creation extensions. A secondary creation extension adds wizard pages to the native pages or primary extension. This attribute is multi-valued and requires the following format:
 
@@ -54,12 +54,8 @@ The **createWizardExt** attribute identifies secondary object creation extension
 
 The "&lt;order number&gt;" is an unsigned number that represents the page's position in the wizard. When a creation wizard is displayed, the values are sorted using a comparison of each value's "&lt;order number&gt;". If more than one value has the same "&lt;order number&gt;", those pages are loaded in the order they are read from the Active Directory server. If possible, you should use a non-existing "&lt;order number&gt;" (that is, one that has not been used by other values in the property). There is no prescribed starting position, and gaps are allowed in the "&lt;order number&gt;" sequence.
 
-The "&lt;CLSID&gt;" is the string representation of the COM object's CLSID as produced by the [**StringFromCLSID**](https://msdn.microsoft.com/library/ms683917(v=VS.85).aspx) function.
+The "&lt;CLSID&gt;" is the string representation of the COM object's CLSID as produced by the [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) function.
 
  
 
  
-
-
-
-

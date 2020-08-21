@@ -79,14 +79,14 @@ public static void JetGetIndexInfo(
 <!-- end list -->
 
   - tablename  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The name of the table to retrieve index information about.
 
 <!-- end list -->
 
   - indexname  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The name of the index to retrieve information about.
 
@@ -115,4 +115,3 @@ public static void JetGetIndexInfo(
 [JetGetIndexInfo overload](dn292165\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

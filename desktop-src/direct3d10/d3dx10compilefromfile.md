@@ -18,7 +18,7 @@ api_location:
 # D3DX10CompileFromFile function
 
 > [!Note]  
-> Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the [**D3DCompile**](https://msdn.microsoft.com/library/Dd607324(v=VS.85).aspx) API.
+> Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the [**D3DCompile**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompile) API.
 
  
 
@@ -52,7 +52,7 @@ HRESULT D3DX10CompileFromFile(
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 The name of the file that contains the shader code. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -70,16 +70,16 @@ Optional. Pointer to an array of macro definitions (see [**D3D\_SHADER\_MACRO**]
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**LPD3D10INCLUDE**](https://msdn.microsoft.com/library/Bb173775(v=VS.85).aspx)**
+Type: **[**LPD3D10INCLUDE**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))**
 
-Optional. Pointer to an [**ID3D10Include Interface**](https://msdn.microsoft.com/library/Bb173775(v=VS.85).aspx) interface for handling include files. Setting this to **NULL** will cause a compile error if a shader contains a \#include.
+Optional. Pointer to an [**ID3D10Include Interface**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85)) interface for handling include files. Setting this to **NULL** will cause a compile error if a shader contains a \#include.
 
 </dd> <dt>
 
 *pFunctionName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Name of the shader-entry point function where shader execution begins. When you compile an effect, **D3DX10CompileFromFile** ignores *pFunctionName*; we recommend that you set *pFunctionName* to **NULL** because it is good programming practice to set a pointer parameter to **NULL** if the called function will not use it.
 
@@ -88,16 +88,16 @@ Name of the shader-entry point function where shader execution begins. When you 
 *pProfile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
-A string that specifies the shader model; can be any profile in [shader model 2](https://msdn.microsoft.com/library/Bb509655(v=VS.85).aspx), [shader model 3](https://msdn.microsoft.com/library/Bb509656(v=VS.85).aspx), or [shader model 4](https://msdn.microsoft.com/library/Bb509657(v=VS.85).aspx).
+A string that specifies the shader model; can be any profile in [shader model 2](../direct3dhlsl/dx-graphics-hlsl-sm2.md), [shader model 3](../direct3dhlsl/dx-graphics-hlsl-sm3.md), or [shader model 4](../direct3dhlsl/dx-graphics-hlsl-sm4.md).
 
 </dd> <dt>
 
 *Flags1* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 [Shader compile flags](d3d10-shader.md).
 
@@ -106,7 +106,7 @@ Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
 *Flags2* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 [Effect compile flags](d3d10-graphics-reference-effect-constants.md). When you compile a shader and not an effect file, **D3DX10CompileFromFile** ignores *Flags2*; we recommend that you set *Flags2* to zero because it is good programming practice to set a nonpointer parameter to zero if the called function will not use it.
 
@@ -176,7 +176,3 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
  
 
  
-
-
-
-

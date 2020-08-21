@@ -26,7 +26,7 @@ Specifies whether the encoder uses variable-bit-rate (VBR) encoding. Read-write.
 
 This value must be set to **VARIANT\_TRUE** for any of the other VBR properties to be used by the codec.
 
-After you set this value to **VARIANT\_TRUE** on the audio encoder, the output types retrieved by using the [**IMediaObject::GetOutputType**](https://msdn.microsoft.com/library/Dd406956(v=VS.85).aspx) method are VBR types.
+After you set this value to **VARIANT\_TRUE** on the audio encoder, the output types retrieved by using the [**IMediaObject::GetOutputType**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getoutputtype) method are VBR types.
 
 ## Requirements
 
@@ -56,7 +56,3 @@ After you set this value to **VARIANT\_TRUE** on the audio encoder, the output t
  
 
  
-
-
-
-

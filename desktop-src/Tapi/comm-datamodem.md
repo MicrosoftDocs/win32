@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # comm/datamodem
 
-The comm/datamodem device class consists of datamodem devices. You access these devices by using the [file](https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions) and [communications functions](https://docs.microsoft.com/windows/desktop/DevIO/communications-functions). Devices in this class are associated with line devices that support the LINEMEDIAMODE\_DATAMODEM media type, which is specified in the **dwMediaModes** member of the [**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps) structure for the line device.
+The comm/datamodem device class consists of datamodem devices. You access these devices by using the [file](/windows/desktop/FileIO/file-management-functions) and [communications functions](/windows/desktop/DevIO/communications-functions). Devices in this class are associated with line devices that support the LINEMEDIAMODE\_DATAMODEM media type, which is specified in the **dwMediaModes** member of the [**LINEDEVCAPS**](/windows/desktop/api/Tapi/ns-tapi-linedevcaps) structure for the line device.
 
 The [**lineGetID**](/windows/desktop/api/Tapi/nf-tapi-linegetid) function fills a [**VARSTRING**](/windows/desktop/api/Tapi/ns-tapi-varstring) structure, setting **dwStringFormat** to the STRINGFORMAT\_BINARY value and appending these additional members:
 
@@ -21,7 +21,7 @@ The **hComm** member is the handle of the open communications port. This member 
 
 The **szDeviceName** member is a **null**-terminated string that specifies the name of the communications port associated with the line, address, or call.
 
-If **hComm** is a valid handle, you can use it in subsequent calls to file functions, such as [**ReadFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile) and [**WriteFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile), to send and receive data on the call. When you are finished using the communications port and preferably before you use the [**lineDeallocateCall**](/windows/desktop/api/Tapi/nf-tapi-linedeallocatecall) function to deallocate the call, you must close the port by using the [**CloseHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle) function.
+If **hComm** is a valid handle, you can use it in subsequent calls to file functions, such as [**ReadFile**](/windows/desktop/api/fileapi/nf-fileapi-readfile) and [**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile), to send and receive data on the call. When you are finished using the communications port and preferably before you use the [**lineDeallocateCall**](/windows/desktop/api/Tapi/nf-tapi-linedeallocatecall) function to deallocate the call, you must close the port by using the [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle) function.
 
 When using the [**lineGetDevConfig**](/windows/desktop/api/Tapi/nf-tapi-linegetdevconfig) and [**lineSetDevConfig**](/windows/desktop/api/Tapi/nf-tapi-linesetdevconfig) functions, some service providers require that the configuration data for this device class have the following format:
 
@@ -47,7 +47,7 @@ The following is device configuration information for use with the [**lineGetDev
 <span id="dwSize"></span><span id="dwsize"></span><span id="DWSIZE"></span>**dwSize**
 </dt> <dd>
 
-Sum of the size of the **DEVCFGHDR** structure and the actual size of the [**COMMCONFIG**](https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commconfig) structure.
+Sum of the size of the **DEVCFGHDR** structure and the actual size of the [**COMMCONFIG**](/windows/desktop/api/winbase/ns-winbase-commconfig) structure.
 
 </dd> <dt>
 
@@ -105,13 +105,10 @@ Number of seconds (in two seconds granularity) to replace the wait for credit to
 <span id="Commconfig"></span><span id="commconfig"></span><span id="COMMCONFIG"></span>**Commconfig**
 </dt> <dd>
 
-[**COMMCONFIG**](https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commconfig) structure that can be used with the communications and modem configuration functions.
+[**COMMCONFIG**](/windows/desktop/api/winbase/ns-winbase-commconfig) structure that can be used with the communications and modem configuration functions.
 
 </dd> </dl>
 
  
 
  
-
-
-

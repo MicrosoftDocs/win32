@@ -50,7 +50,7 @@ Name of the effect file.
 **NumDefaults**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -89,7 +89,3 @@ Pointer to an array of [**D3DXEFFECTDEFAULT**](d3dxeffectdefault.md) elements, e
  
 
  
-
-
-
-

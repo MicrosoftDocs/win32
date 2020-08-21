@@ -202,7 +202,7 @@
         - name: "GlobalAddAtom"
           href: /windows/desktop/api/Winbase/nf-winbase-globaladdatoma
         - name: "GlobalAddAtomEx"
-          href: https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globaladdatomexa
+          href: /windows/desktop/api/winbase/nf-winbase-globaladdatomexa
         - name: "GlobalDeleteAtom"
           href: /windows/desktop/api/Winbase/nf-winbase-globaldeleteatom
         - name: "GlobalFindAtom"
@@ -249,7 +249,7 @@
         - name: "DdeAddData"
           href: /windows/desktop/api/Ddeml/nf-ddeml-ddeadddata
         - name: "DdeCallback"
-          href: https://docs.microsoft.com/windows/desktop/api/ddeml/nc-ddeml-pfncallback
+          href: /windows/desktop/api/ddeml/nc-ddeml-pfncallback
         - name: "DdeClientTransaction"
           href: /windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction
         - name: "DdeCmpStringHandles"

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
-Your client application can support one or more characters. In addition, you can share a character among several applications. Microsoft Agent defines the [**Characters**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) object as a collection of characters. To access a character, load the character's data into the [**Characters**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) collection and specify that the item in the collection uses the methods and properties supported for that character.
+Your client application can support one or more characters. In addition, you can share a character among several applications. Microsoft Agent defines the [**Characters**](/windows/desktop/lwef/the-characters-object) object as a collection of characters. To access a character, load the character's data into the [**Characters**](/windows/desktop/lwef/the-characters-object) collection and specify that the item in the collection uses the methods and properties supported for that character.
 
 -   [Characters Object Methods](characters-object-methods.md)
 -   [Characters Object Methods](character-object-methods.md)
@@ -19,7 +19,3 @@ Your client application can support one or more characters. In addition, you can
  
 
  
-
-
-
-

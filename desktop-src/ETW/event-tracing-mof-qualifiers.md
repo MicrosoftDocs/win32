@@ -23,7 +23,7 @@ The following table lists the qualifiers you can specify on a provider MOF class
 
 | Qualifier | Data type  | Description                                                                                                                                                                                                                                                  |
 |-----------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Guid**  | **String** | Required. String Guid that uniquely identifies a provider. For example, Guid("{3F92E6E0-9886-434e-85DB-0D11D3904C0A}"). This is the same GUID you use when you call the [**RegisterTraceGuids**](registertraceguids.md) function to register your provider. |
+| **Guid**  | **String** | Required. String Guid that uniquely identifies a provider. For example, Guid("{3F92E6E0-9886-434e-85DB-0D11D3904C0A}"). This is the same GUID you use when you call the [**RegisterTraceGuids**](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa) function to register your provider. |
 
 
 
@@ -35,7 +35,7 @@ The following table lists the qualifiers you can specify on an event class (the 
 
 | Qualifier        | Data type   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Guid**         | **String**  | Required. String Guid that identifies a class of events. For example, Guid("{3F92E6E0-9886-434e-85DB-0D11D3904C0A}"). Event providers use the Guid to set the [**EVENT\_TRACE\_HEADER.Guid**](event-trace-header.md) member, so that consumers can determine the class of events they are receiving.                                                                                                                                                                                                                                                                                  |
+| **Guid**         | **String**  | Required. String Guid that identifies a class of events. For example, Guid("{3F92E6E0-9886-434e-85DB-0D11D3904C0A}"). Event providers use the Guid to set the [**EVENT\_TRACE\_HEADER.Guid**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) member, so that consumers can determine the class of events they are receiving.                                                                                                                                                                                                                                                                                  |
 | **EventVersion** | **Integer** | This qualifier is optional for the latest version of an event trace class and is required for all older versions of the class. The latest version of the class either does not specify the **EventVersion** qualifier or has the highest version number. Version numbers begin with 0, for example, EventVersion(0).Typically, when you create a new version of the class, you also rename the previous version to <classname>\_Vn, where n is an incremental number starting at 0. For an example, see [**FileIo**](fileio.md) and [**FileIo\_V0**](fileio-v0.md).<br/> |
 
 
@@ -50,7 +50,7 @@ The following table lists the qualifiers you can specify on an event type class 
 
 | Qualifier         | Value       | Description                                                                                                                                                                                                                                                                                                                                                                       |
 |-------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **EventType**     | **Integer** | Required. Identifies the event type class. For example, EventType(1). The event provider uses the same event type value to set [**EVENT\_TRACE\_HEADER.Class.Type**](event-trace-header.md). If the same MOF class is used for multiple event types (because they use the same event data), specify the event type value as an array of integers, for example, EventType{12,15}. |
+| **EventType**     | **Integer** | Required. Identifies the event type class. For example, EventType(1). The event provider uses the same event type value to set [**EVENT\_TRACE\_HEADER.Class.Type**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header). If the same MOF class is used for multiple event types (because they use the same event data), specify the event type value as an array of integers, for example, EventType{12,15}. |
 | **EventTypeName** | **String**  | Optional. Describes the event type. For example, EventTypeName("Start"). If the same MOF class is used for multiple event types (because they use the same event data), specify the event type name value as an array of strings, for example, EventTypeName{"Start", "End"}. The elements of the EventTypeName array correspond directly to the EventType array.                 |
 
 
@@ -290,7 +290,3 @@ class IIS_Trace : EventTrace
  
 
  
-
-
-
-

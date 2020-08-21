@@ -34,8 +34,8 @@ Use the following procedure to develop a new application, or update an existing 
 
     As an alternative, you can place a separate manifest file in the same directory as your application's executable file. The operating system loads the manifest from the file system first, and then checks the resource section of the executable. The file system version takes precedence.
 
-6.  [Shared assemblies](https://docs.microsoft.com/windows/desktop/Msi/shared-assemblies) should be installed using the [Windows Installer](https://msdn.microsoft.com/library/Cc185688(v=VS.85).aspx) version 2.0. Author a Windows Installer package as described in [How Do I Install Win32 Assemblies for Side-by-side Sharing on Windows XP?](https://msdn.microsoft.com/library/Aa369532(v=VS.85).aspx).
-7.  [Private assemblies](https://docs.microsoft.com/windows/desktop/Msi/private-assemblies) can be installed using the [Windows Installer](https://msdn.microsoft.com/library/Cc185688(v=VS.85).aspx) version 2.0. Author a Windows Installer package as described in [How Do I Install Win32 Assemblies for the Private Use of an Application on Windows XP?](https://msdn.microsoft.com/library/Aa369534(v=VS.85).aspx). You can also use any other installer to copy a private assembly and its manifest into the same folder as the application's executable file.
+6.  [Shared assemblies](/windows/desktop/Msi/shared-assemblies) should be installed using the [Windows Installer](../msi/windows-installer-portal.md) version 2.0. Author a Windows Installer package as described in [How Do I Install Win32 Assemblies for Side-by-side Sharing on Windows XP?](../msi/installing-win32-assemblies-for-side-by-side-sharing-on-windows-xp.md).
+7.  [Private assemblies](/windows/desktop/Msi/private-assemblies) can be installed using the [Windows Installer](../msi/windows-installer-portal.md) version 2.0. Author a Windows Installer package as described in [How Do I Install Win32 Assemblies for the Private Use of an Application on Windows XP?](../msi/installing-win32-assemblies-for-the-private-use-of-an-application-on-windows-xp.md). You can also use any other installer to copy a private assembly and its manifest into the same folder as the application's executable file.
 8.  Test your application to ensure the results. Note that your test computer should not have the side-by-side assembly registered.
 9.  Deploy your application or update as a Windows Installer package.
 
@@ -63,6 +63,3 @@ The following is an example of an application manifest:
  
 
  
-
-
-

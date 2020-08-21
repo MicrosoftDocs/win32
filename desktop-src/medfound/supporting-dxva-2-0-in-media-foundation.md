@@ -86,8 +86,8 @@ Decoding should occur inside the [**IMFTransform::ProcessOutput**](/windows/desk
 Assuming that the device handle is valid, the decoding process works as follows:
 
 1.  Get an available surface that is not currently in use. (Initially all of the surfaces are available.)
-2.  Query the media sample for the [**IMFTrackedSample**](https://msdn.microsoft.com/library/ms697026(v=VS.85).aspx) interface.
-3.  Call [**IMFTrackedSample::SetAllocator**](https://msdn.microsoft.com/library/ms704797(v=VS.85).aspx) and provide a pointer to the [**IMFAsyncCallback**](/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback) interface, implemented by the decoder. When the video renderer releases the sample, the decoder's callback will be invoked.
+2.  Query the media sample for the [**IMFTrackedSample**](/windows/win32/api/mfidl/nn-mfidl-imftrackedsample) interface.
+3.  Call [**IMFTrackedSample::SetAllocator**](/windows/win32/api/mfidl/nf-mfidl-imftrackedsample-setallocator) and provide a pointer to the [**IMFAsyncCallback**](/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback) interface, implemented by the decoder. When the video renderer releases the sample, the decoder's callback will be invoked.
 4.  Call [**IDirectXVideoDecoder::BeginFrame**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-beginframe).
 5.  Do the following one or more times:
     1.  Call [**IDirectXVideoDecoder::GetBuffer**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-getbuffer) to get a DXVA decoder buffer.
@@ -95,11 +95,11 @@ Assuming that the device handle is valid, the decoding process works as follows:
     3.  Call [**IDirectXVideoDecoder::ReleaseBuffer**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-releasebuffer).
     4.  Call [**IDirectXVideoDecoder::Execute**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute) to perform the decoding operations on the frame.
 
-DXVA 2.0 uses the same data structures as DXVA 1.0 for decoding operations. For the original set of DXVA profiles (for H.261, H.263, and MPEG-2), these data structures are described in the [DXVA 1.0 specification](https://msdn.microsoft.com/library/windows/hardware/gg463516).
+DXVA 2.0 uses the same data structures as DXVA 1.0 for decoding operations. For the original set of DXVA profiles (for H.261, H.263, and MPEG-2), these data structures are described in the [DXVA 1.0 specification](/windows-hardware/drivers/display/directx-video-acceleration).
 
 Within each pair of [**BeginFrame**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-beginframe)/[**Execute**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute) calls, you may call [**GetBuffer**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-getbuffer) multiple times, but only once for each type of DXVA buffer. If you call it twice with the same buffer type, you will overwrite the data.
 
-Use the callback from the [**SetAllocator**](https://msdn.microsoft.com/library/ms704797(v=VS.85).aspx) method (step 3) to keep track of which samples are currently available and which are in use.
+Use the callback from the [**SetAllocator**](/windows/win32/api/mfidl/nf-mfidl-imftrackedsample-setallocator) method (step 3) to keep track of which samples are currently available and which are in use.
 
 ## Related topics
 
@@ -114,6 +114,3 @@ Use the callback from the [**SetAllocator**](https://msdn.microsoft.com/library/
  
 
  
-
-
-

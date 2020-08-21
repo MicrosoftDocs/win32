@@ -55,7 +55,7 @@ Data type: **[**Msvm\_EthernetPortAllocationSettingData**](msvm-ethernetportallo
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Aggregate**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent"), [**Aggregate**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_EthernetPortAllocationSettingData**](msvm-ethernetportallocationsettingdata.md) class that represents the Ethernet port.
@@ -71,7 +71,7 @@ Data type: **[**Msvm\_EthernetSwitchPortFeatureSettingData**](msvm-ethernetswitc
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_EthernetSwitchPortFeatureSettingData**](msvm-ethernetswitchportfeaturesettingdata.md) class that represents the feature settings applied to the port.
@@ -93,9 +93,4 @@ A reference to an instance of the [**Msvm\_EthernetSwitchPortFeatureSettingData*
 
 
  
-
- 
-
-
-
 

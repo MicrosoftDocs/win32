@@ -23,18 +23,18 @@ Multithreading support divides the API into two distinct functional areas:
 
 Multithreading performance depends on the driver support. [How To: Check for Driver Support](overviews-direct3d-11-render-multi-thread-support.md) provides more information about querying the driver and what the results mean.
 
-Direct3D 11 has been designed from the ground up to support multithreading. Direct3D 10 implements limited support for multithreading using the [thread-safe layer](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-api-features-layers). This page lists the behavior differences between the two versions of DirectX: [Threading Differences between Direct3D Versions](overviews-direct3d-11-render-multi-thread-differences.md).
+Direct3D 11 has been designed from the ground up to support multithreading. Direct3D 10 implements limited support for multithreading using the [thread-safe layer](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-api-features-layers). This page lists the behavior differences between the two versions of DirectX: [Threading Differences between Direct3D Versions](overviews-direct3d-11-render-multi-thread-differences.md).
 
 ## Multithreading and DXGI
 
-Only one thread at a time should use the immediate context. However, your application should also use that same thread for Microsoft DirectX Graphics Infrastructure (DXGI) operations, especially when the application makes calls to the [**IDXGISwapChain::Present**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present) method.
+Only one thread at a time should use the immediate context. However, your application should also use that same thread for Microsoft DirectX Graphics Infrastructure (DXGI) operations, especially when the application makes calls to the [**IDXGISwapChain::Present**](/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present) method.
 
 > [!Note]  
-> It is invalid to use an immediate context concurrently with most of the DXGI interface functions. For the March 2009 and later DirectX SDKs, the only DXGI functions that are safe are [**AddRef**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref), [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release), and [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)).
+> It is invalid to use an immediate context concurrently with most of the DXGI interface functions. For the March 2009 and later DirectX SDKs, the only DXGI functions that are safe are [**AddRef**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref), [**Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release), and [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)).
 
  
 
-For more info about using DXGI with multiple threads, see [Multithread Considerations](https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi).
+For more info about using DXGI with multiple threads, see [Multithread Considerations](/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi).
 
 ## Related topics
 
@@ -46,7 +46,3 @@ For more info about using DXGI with multiple threads, see [Multithread Considera
  
 
  
-
-
-
-

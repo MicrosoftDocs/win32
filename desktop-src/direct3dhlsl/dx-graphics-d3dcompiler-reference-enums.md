@@ -21,8 +21,8 @@ This section contains information about the following Direct3D HLSL compiler enu
 
 | Enumeration                                                  | Description                                                |
 |--------------------------------------------------------------|------------------------------------------------------------|
-| [**D3D\_BLOB\_PART**](d3d-blob-part.md)                     | Identifies parts of a blob (arbitrary length data buffer). |
-| [**D3DCOMPILER\_STRIP\_FLAGS**](d3dcompiler-strip-flags.md) | Strip flag options.                                        |
+| [**D3D\_BLOB\_PART**](/windows/win32/api/d3dcompiler/ne-d3dcompiler-d3d_blob_part)                     | Identifies parts of a blob (arbitrary length data buffer). |
+| [**D3DCOMPILER\_STRIP\_FLAGS**](/windows/win32/api/d3dcompiler/ne-d3dcompiler-d3dcompiler_strip_flags) | Strip flag options.                                        |
 
 
 
@@ -38,7 +38,3 @@ This section contains information about the following Direct3D HLSL compiler enu
  
 
  
-
-
-
-

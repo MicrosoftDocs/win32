@@ -84,7 +84,7 @@ The following flags are overloaded.
 | 20  | DECODE\_IS\_USED                        | Used only in pickling.                              |
 | 10  | Oi\_IGNORE\_OBJECT\_EXCEPTION\_HANDLING | Not used anymore (old OLE).                         |
 | 20  | Oi\_HAS\_COMM\_OR\_FAULT                | In raw RPC only, \[comm \_, fault\_status\].        |
-| 20  | Oi\_OBJ\_USE\_V2\_INTERPRETER           | In DCOM only, use [**–Oif**](https://docs.microsoft.com/windows/desktop/Midl/-oi) interpreter. |
+| 20  | Oi\_OBJ\_USE\_V2\_INTERPRETER           | In DCOM only, use [**–Oif**](/windows/desktop/Midl/-oi) interpreter. |
 
 
 
@@ -106,7 +106,3 @@ The explicit\_handle\_description<> field is described later in this document. T
  
 
  
-
-
-
-

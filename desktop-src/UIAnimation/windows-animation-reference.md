@@ -23,7 +23,7 @@ The topics contained in this section provide the reference specifications for th
 | [Enumerations](-enumerations-main.md)<br/>                           | Reference documentation for enumerations defined by the Windows Animation Manager.<br/>                                                                                                                                                         |
 | [Interfaces](-interfaces-main.md)<br/>                               | Reference documentation for interfaces defined by the Windows Animation Manager. <br/>                                                                                                                                                          |
 | [Objects](-objects-main.md)<br/>                                     | Reference documentation for objects defined by the Windows Animation Manager.<br/>                                                                                                                                                              |
-| [**Windows Animation Error Codes**](uianimation-error-codes.md)<br/> | If an error occurs, Windows Animation returns a code as an **HRESULT** value. This section provides a list of error codes specific to Windows Animation. For a list of general COM error codes, see [COM Error Codes](https://docs.microsoft.com/windows/desktop/com/com-error-codes)<br/> |
+| [**Windows Animation Error Codes**](uianimation-error-codes.md)<br/> | If an error occurs, Windows Animation returns a code as an **HRESULT** value. This section provides a list of error codes specific to Windows Animation. For a list of general COM error codes, see [COM Error Codes](/windows/desktop/com/com-error-codes)<br/> |
 
 
 
@@ -40,10 +40,4 @@ The topics contained in this section provide the reference specifications for th
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

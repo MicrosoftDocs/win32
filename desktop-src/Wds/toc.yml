@@ -246,9 +246,9 @@
       - name: "TRANSPORTPROVIDER_CALLBACK_ID"
         href: /windows/win32/api/Wdstpdi/ne-wdstpdi-transportprovider_callback_id
       - name: "WDS_LOG_LEVEL"
-        href: https://docs.microsoft.com/windows/desktop/api/wdsclientapi/ne-wdsclientapi-__unnamed_enum_2
+        href: /windows/desktop/api/wdsclientapi/ne-wdsclientapi-__unnamed_enum_2
       - name: "WDS_LOG_TYPE_CLIENT"
-        href: https://docs.microsoft.com/windows/desktop/api/wdsclientapi/ne-wdsclientapi-__unnamed_enum_1
+        href: /windows/desktop/api/wdsclientapi/ne-wdsclientapi-__unnamed_enum_1
     - name: "Windows Deployment Services Structures"
       href: windows-deployment-services-structures.md
       items: 
@@ -469,7 +469,7 @@
           - name: "Type Property"
             href: /windows/desktop/api/Wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_type
         - name: "IWdsTransportNamespaceAutoCast"
-          href: https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespaceautocast
+          href: /windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespaceautocast
         - name: "IWdsTransportNamespaceManager"
           href: /windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacemanager
           items: 
@@ -492,7 +492,7 @@
           - name: "StartTime Property"
             href: /windows/desktop/api/Wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespacescheduledcastautostart-get_starttime
         - name: "IWdsTransportNamespaceScheduledCastManualStart"
-          href: https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcastmanualstart
+          href: /windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcastmanualstart
         - name: "IWdsTransportServer"
           href: /windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransportserver
           items: 
@@ -595,7 +595,7 @@
           href: /windows/desktop/api/Wdstptmgmt/nn-wdstptmgmt-iwdstransporttftpmanager
           items: 
           - name: "RetrieveTftpClients Method"
-            href: https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransporttftpmanager-retrievetftpclients
+            href: /windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransporttftpmanager-retrievetftpclients
     - name: "Windows Deployment Services Network Boot Program"
       href: windows-deployment-services-network-boot-program.md
       items: 

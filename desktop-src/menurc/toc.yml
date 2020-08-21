@@ -36,39 +36,39 @@
         - name: "EndUpdateResource"
           href: /windows/desktop/api/Winbase/nf-winbase-endupdateresourcea
         - name: "EnumResLangProc"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms648033(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ms648033(v=vs.85)
         - name: "EnumResNameProc"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms648034(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ms648034(v=vs.85)
         - name: "EnumResourceLanguages"
           href: /windows/desktop/api/Winbase/nf-winbase-enumresourcelanguagesa
         - name: "EnumResourceLanguagesEx"
-          href: https://docs.microsoft.com/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
+          href: /windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
         - name: "EnumResourceNames"
           href: /windows/desktop/api/Winbase/nf-winbase-enumresourcenamesa
         - name: "EnumResourceNamesEx"
-          href: https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesexw
+          href: /windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesexw
         - name: "EnumResourceTypes"
           href: /windows/desktop/api/Winbase/nf-winbase-enumresourcetypesa
         - name: "EnumResourceTypesEx"
-          href: https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcetypesexw
+          href: /windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcetypesexw
         - name: "EnumResTypeProc"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms648041(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ms648041(v=vs.85)
         - name: "FindResource"
           href: /windows/desktop/api/Winbase/nf-winbase-findresourcea
         - name: "FindResourceEx"
           href: /windows/desktop/api/Winbase/nf-winbase-findresourceexa
         - name: "FreeResource"
-          href: https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-freeresource
+          href: /windows/desktop/api/libloaderapi/nf-libloaderapi-freeresource
         - name: "IndexFilePath"
           href: /windows/desktop/api/resourceindexer/nf-resourceindexer-indexfilepath
         - name: "LoadImage"
           href: /windows/desktop/api/Winuser/nf-winuser-loadimagea
         - name: "LoadResource"
-          href: https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource
+          href: /windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource
         - name: "LockResource"
-          href: https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-lockresource
+          href: /windows/desktop/api/libloaderapi/nf-libloaderapi-lockresource
         - name: "SizeofResource"
-          href: https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-sizeofresource
+          href: /windows/desktop/api/libloaderapi/nf-libloaderapi-sizeofresource
         - name: "UpdateResource"
           href: /windows/desktop/api/Winbase/nf-winbase-updateresourcea
       - name: "Resource Macros"
@@ -77,7 +77,7 @@
         - name: "IS_INTRESOURCE"
           href: /windows/desktop/api/Winuser/nf-winuser-is_intresource
         - name: "MAKEINTRESOURCE"
-          href: https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea
+          href: /windows/desktop/api/winuser/nf-winuser-makeintresourcea
       - name: "Resource Structures"
         href: resources-structures.md
         items: 
@@ -599,9 +599,9 @@
         - name: "StringCchVPrintfEx"
           href: /windows/desktop/api/Strsafe/nf-strsafe-stringcchvprintfexa
         - name: "UnalignedStringCbLength"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh305643(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/hh305643(v=vs.85)
         - name: "UnalignedStringCchLength"
-          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh305644(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/hh305644(v=vs.85)
   - name: "Version Information"
     href: version-information.md
     items: 

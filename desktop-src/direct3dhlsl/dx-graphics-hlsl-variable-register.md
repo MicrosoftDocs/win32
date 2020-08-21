@@ -42,7 +42,7 @@ Required keyword.
 <span id="_shader_profile_"></span><span id="_SHADER_PROFILE_"></span>*\[shader\_profile\]*
 </dt> <dd>
 
-Optional [shader profile](https://docs.microsoft.com/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax), which can be a shader target or simply **ps** or **vs**.
+Optional [shader profile](/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax), which can be a shader target or simply **ps** or **vs**.
 
 </dd> <dt>
 
@@ -118,7 +118,3 @@ sampler myVar : register( ps, s[2] )
  
 
  
-
-
-
-

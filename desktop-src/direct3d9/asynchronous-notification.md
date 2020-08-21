@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 There are number of interesting queries on a driver that an application can make if there is no performance cost. In Direct3D 7 and Direct3D 8, a synchronous query mechanism, GetInfo, worked well for things like statistics, but no performance-critical queries were added. There are other things (like fences) that are inherently asynchronous. This is a simple API to make both synchronous and asynchronous queries. GetInfo will be retired in Direct3D 9.
 
-Create a query using [**IDirect3DDevice9::CreateQuery**](/windows/desktop/api). This method takes a D3DQUERYTYPE, which defines what kind of query to make and returns a pointer to an [**IDirect3DQuery9**](/windows/desktop/api) object. If the query type is not supported, the call returns an error D3DERR\_NOTAVAILABLE. Using the query object, the application submits the query to the runtime using [**IDirect3DQuery9::Issue**](https://msdn.microsoft.com/library/Bb205877(v=VS.85).aspx), and polls the query status using [**IDirect3DQuery9::GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx). If the query result is available, S\_OK is returned; otherwise, S\_FALSE is returned. The application is expected to pass an appropriately sized buffer for the query results.
+Create a query using [**IDirect3DDevice9::CreateQuery**](/windows/desktop/api). This method takes a D3DQUERYTYPE, which defines what kind of query to make and returns a pointer to an [**IDirect3DQuery9**](/windows/desktop/api) object. If the query type is not supported, the call returns an error D3DERR\_NOTAVAILABLE. Using the query object, the application submits the query to the runtime using [**IDirect3DQuery9::Issue**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-issue), and polls the query status using [**IDirect3DQuery9::GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata). If the query result is available, S\_OK is returned; otherwise, S\_FALSE is returned. The application is expected to pass an appropriately sized buffer for the query results.
 
-The application has an option to force the runtime to flush the query down to the driver by using D3DGETDATA\_FLUSH with [**IDirect3DQuery9::GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx). It causes a flush, forcing the driver to see the query. In this case, D3DERR\_DEVICELOST is returned if the device becomes lost.
+The application has an option to force the runtime to flush the query down to the driver by using D3DGETDATA\_FLUSH with [**IDirect3DQuery9::GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata). It causes a flush, forcing the driver to see the query. In this case, D3DERR\_DEVICELOST is returned if the device becomes lost.
 
 All queries are lost when the device is lost, the application has to re-create them. If the device does not support the query and the pQueryID is **NULL**, the query creation will fail with D3DERR\_INVALIDCALL.
 
@@ -32,7 +32,7 @@ The following table summaries important information about each query type.
 
  
 
-Flags field for [**IDirect3DQuery9::Issue**](https://msdn.microsoft.com/library/Bb205877(v=VS.85).aspx):
+Flags field for [**IDirect3DQuery9::Issue**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-issue):
 
 
 ```
@@ -52,7 +52,7 @@ Flags field for [**IDirect3DQuery9::Issue**](https://msdn.microsoft.com/library/
 
 
 
-Flags field for [**IDirect3DQuery9::GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx):
+Flags field for [**IDirect3DQuery9::GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata):
 
 
 ```
@@ -73,6 +73,3 @@ Flags field for [**IDirect3DQuery9::GetData**](https://msdn.microsoft.com/librar
  
 
  
-
-
-

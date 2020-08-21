@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Querying Waveform-Audio Input Devices
 
-Before recording waveform audio, you should call the [**waveInGetDevCaps**](https://msdn.microsoft.com/library/Dd743841(v=VS.85).aspx) function to determine the waveform-audio input capabilities of the system. This function fills a [**WAVEINCAPS**](https://msdn.microsoft.com/library/Dd743839(v=VS.85).aspx) structure with information about the capabilities of a specified device. This information includes the manufacturer and product identifiers, a product name for the device, and the version number of the device driver. In addition, the **WAVEINCAPS** structure provides information about the standard waveform-audio formats that the device supports.
+Before recording waveform audio, you should call the [**waveInGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetdevcaps) function to determine the waveform-audio input capabilities of the system. This function fills a [**WAVEINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveincaps) structure with information about the capabilities of a specified device. This information includes the manufacturer and product identifiers, a product name for the device, and the version number of the device driver. In addition, the **WAVEINCAPS** structure provides information about the standard waveform-audio formats that the device supports.
 
 ## Related topics
 
@@ -25,7 +25,3 @@ Before recording waveform audio, you should call the [**waveInGetDevCaps**](http
  
 
  
-
-
-
-

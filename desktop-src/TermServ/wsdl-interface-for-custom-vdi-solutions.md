@@ -330,7 +330,7 @@ The web service must return the following element to the filter plug-in.
 
 ## JobUpdated
 
-The web service calls this method to notify the filter plug-in that changes were made to an existing job. When you are implementing this method, return **S\_OK** if the function succeeds. If it fails, return an **HRESULT** value that indicates the error. For a list of common error codes, see [Common HRESULT Values](https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values)
+The web service calls this method to notify the filter plug-in that changes were made to an existing job. When you are implementing this method, return **S\_OK** if the function succeeds. If it fails, return an **HRESULT** value that indicates the error. For a list of common error codes, see [Common HRESULT Values](/windows/desktop/SecCrypto/common-hresult-values)
 
 The web service passes the following element to the filter plug-in.
 
@@ -454,7 +454,3 @@ The web service must return the following element to the filter plug-in.
  
 
  
-
-
-
-

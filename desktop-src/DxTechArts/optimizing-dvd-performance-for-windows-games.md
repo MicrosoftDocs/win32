@@ -65,9 +65,9 @@ Another example that demonstrates wasted throughput is loading 20 poorly located
 
 ## Reading Synchronously vs. Asynchronously
 
-Asynchronous reading is more efficient than synchronous reading. When reading synchronously, one or more ECC blocks of data are read into system memory before being copied into application memory. In contrast, asynchronous reading copies decoded ECC blocks directly to application memory, which avoids the L2 cache and creates less CPU overhead. To read asynchronously, use the FILE\_FLAG\_OVERLAPPED flag when using the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function to open files. The [**ReadFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile) function also needs a valid OVERLAPPED structure passed in to perform asynchronous I/O.
+Asynchronous reading is more efficient than synchronous reading. When reading synchronously, one or more ECC blocks of data are read into system memory before being copied into application memory. In contrast, asynchronous reading copies decoded ECC blocks directly to application memory, which avoids the L2 cache and creates less CPU overhead. To read asynchronously, use the FILE\_FLAG\_OVERLAPPED flag when using the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) function to open files. The [**ReadFile**](/windows/desktop/api/fileapi/nf-fileapi-readfile) function also needs a valid OVERLAPPED structure passed in to perform asynchronous I/O.
 
-More information on asynchronous I/O can be found at [Synchronous and Asynchronous I/O](https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o).
+More information on asynchronous I/O can be found at [Synchronous and Asynchronous I/O](/windows/desktop/FileIO/synchronous-and-asynchronous-i-o).
 
 ## Reading Optimally
 
@@ -91,7 +91,3 @@ To improve DVD performance, some general rules can be applied. The following tec
  
 
  
-
-
-
-

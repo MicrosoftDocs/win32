@@ -11,21 +11,17 @@ ms.date: 05/31/2018
 
 This category of interfaces includes the following:
 
--   [**ICommonQuery**](https://msdn.microsoft.com/library/ms676932(v=VS.85).aspx)
--   [**IDsBrowseDomainTree**](https://msdn.microsoft.com/library/ms676955(v=VS.85).aspx)
--   [**IDsDisplaySpecifier**](https://msdn.microsoft.com/library/ms676961(v=VS.85).aspx)
--   [**IPersistQuery**](https://msdn.microsoft.com/library/ms677246(v=VS.85).aspx)
--   [**IQueryForm**](https://msdn.microsoft.com/library/ms677262(v=VS.85).aspx)
+-   [**ICommonQuery**](/windows/win32/api/cmnquery/nn-cmnquery-icommonquery)
+-   [**IDsBrowseDomainTree**](/windows/win32/api/dsclient/nn-dsclient-idsbrowsedomaintree)
+-   [**IDsDisplaySpecifier**](/windows/win32/api/dsclient/nn-dsclient-idsdisplayspecifier)
+-   [**IPersistQuery**](/windows/win32/api/cmnquery/nn-cmnquery-ipersistquery)
+-   [**IQueryForm**](/windows/win32/api/cmnquery/nn-cmnquery-iqueryform)
 
 ## See Also
 
-[Active Directory Admin Interfaces](https://docs.microsoft.com/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services), [Object Picker Dialog Box Interfaces](object-picker-dialog-box-interfaces.md)
+[Active Directory Admin Interfaces](/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services), [Object Picker Dialog Box Interfaces](object-picker-dialog-box-interfaces.md)
 
 
  
 
  
-
-
-
-

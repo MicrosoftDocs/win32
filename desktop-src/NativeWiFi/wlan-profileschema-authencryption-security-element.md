@@ -93,7 +93,7 @@ The element is defined by the [**security**](wlan-profileschema-security-msm-ele
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [**authentication**](wlan-profileschema-authentication-authencryption-element.md) |                                                                   | Specifies the authentication method that must be used to connect to the wireless LAN.<br/> |
 | [**encryption**](wlan-profileschema-encryption-authencryption-element.md)         |                                                                   | Sets the data encryption to use to connect to the wireless LAN.<br/>                       |
-| [**useOneX**](wlan-profileschema-useonex-authencryption-element.md)               | [boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) | Indicates whether 802.1X is used.<br/>                                                     |
+| [**useOneX**](wlan-profileschema-useonex-authencryption-element.md)               | [boolean](/dotnet/api/system.boolean) | Indicates whether 802.1X is used.<br/>                                                     |
 
 
 
@@ -139,7 +139,3 @@ To view sample profiles that use the **authEncryption** element, see [Wireless P
  
 
  
-
-
-
-

@@ -20,7 +20,7 @@ The router management functions can also be divided up based on what components 
 
 The [router interface functions](router-interface-functions.md) have a prefix of either MprAdminInterface or MprConfigInterface. Use these functions to access interfaces. The [router manager functions](router-manager-transport-functions.md) have a prefix of MprAdminTransport or MprConfigTransport. Use these functions to access the router managers. Lastly, the [router manager client functions](router-manager-client-interfacetransport-functions.md) have a prefix of MprAdminInterfaceTransport or MprConfigInterfaceTransport. Use these functions to access the clients running on the router.
 
-A subset of MprAdmin functions are the [MprAdminMib functions](https://docs.microsoft.com/windows/desktop/RRAS/about-router-management-with-mib). These also operate on the running route alone. However, these functions do not pass information blocks. These functions provide additional flexibility to the protocol designer, especially for retrieving non-configuration information, such as statistics.
+A subset of MprAdmin functions are the [MprAdminMib functions](/windows/desktop/RRAS/about-router-management-with-mib). These also operate on the running route alone. However, these functions do not pass information blocks. These functions provide additional flexibility to the protocol designer, especially for retrieving non-configuration information, such as statistics.
 
 ## Ensuring that Changes Occur Immediately and are Persistent
 
@@ -45,7 +45,3 @@ To make changes to the router configuration on a remote machine obtain a handle 
  
 
  
-
-
-
-

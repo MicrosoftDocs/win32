@@ -28,8 +28,8 @@ In this diagram, the variable D is the distance from the camera to the origin of
 
 You define the viewport rectangle in C++ by using the [**D3DVIEWPORT9**](d3dviewport9.md) structure. The D3DVIEWPORT9 structure is used with the following viewport manipulation methods exposed by the IDirect3DDevice9 interface.
 
--   [**IDirect3DDevice9::GetViewport**](https://msdn.microsoft.com/library/Bb174420(v=VS.85).aspx)
--   [**IDirect3DDevice9::SetViewport**](https://msdn.microsoft.com/library/Bb174469(v=VS.85).aspx)
+-   [**IDirect3DDevice9::GetViewport**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getviewport)
+-   [**IDirect3DDevice9::SetViewport**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setviewport)
 
 The D3DVIEWPORT9 structure contains four members - X, Y, Width, Height - that define the area of the render-target surface into which a scene will be rendered. These values correspond to the destination rectangle, or viewport rectangle, as shown in the following diagram.
 
@@ -66,9 +66,9 @@ This matrix scales vertices according to the viewport dimensions and desired dep
 
 Clearing the viewport resets the contents of the viewport rectangle on the render-target surface. It can also clear the rectangle in the depth and stencil buffer surfaces.
 
-Use [**IDirect3DDevice9::Clear**](https://msdn.microsoft.com/library/Bb174352(v=VS.85).aspx) to clear the viewport. The method accepts one or more rectangles that define the areas on the surface being cleared. Setting the Count parameter to 1, and the pRects parameter to the address of a single rectangle that covers the entire viewport area will clear the entire viewport. Another way to clear the entire viewport is to set the pRects parameter to **NULL** and the Count parameter to 0.
+Use [**IDirect3DDevice9::Clear**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-clear) to clear the viewport. The method accepts one or more rectangles that define the areas on the surface being cleared. Setting the Count parameter to 1, and the pRects parameter to the address of a single rectangle that covers the entire viewport area will clear the entire viewport. Another way to clear the entire viewport is to set the pRects parameter to **NULL** and the Count parameter to 0.
 
-The [**IDirect3DDevice9::Clear**](https://msdn.microsoft.com/library/Bb174352(v=VS.85).aspx) can be used for clearing stencil bits within a depth buffer. Simply set the Flags parameter to determine how **IDirect3DDevice9::Clear** works with the render target and any associated depth or stencil buffers. The D3DCLEAR\_TARGET flag will clear the viewport using an arbitrary RGBA color that you provide in the Color argument (this is not the material color). The D3DCLEAR\_ZBUFFER flag will clear the depth buffer to an arbitrary depth you specify in Z: 0.0 is the closest distance, and 1.0 is the farthest. The D3DCLEAR\_STENCIL flag will reset the stencil bits to the value you provide in the Stencil argument. You can use integers that range from 0 to 2n-1, where n is the stencil buffer bit depth.
+The [**IDirect3DDevice9::Clear**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-clear) can be used for clearing stencil bits within a depth buffer. Simply set the Flags parameter to determine how **IDirect3DDevice9::Clear** works with the render target and any associated depth or stencil buffers. The D3DCLEAR\_TARGET flag will clear the viewport using an arbitrary RGBA color that you provide in the Color argument (this is not the material color). The D3DCLEAR\_ZBUFFER flag will clear the depth buffer to an arbitrary depth you specify in Z: 0.0 is the closest distance, and 1.0 is the farthest. The D3DCLEAR\_STENCIL flag will reset the stencil bits to the value you provide in the Stencil argument. You can use integers that range from 0 to 2n-1, where n is the stencil buffer bit depth.
 
 In some situations, you might be rendering only to small portions of the render target and depth buffer surfaces. The clear methods also enable you to clear multiple areas of your surfaces in a single call. Do this by setting the Count parameter to the number of rectangles you want cleared, and specify the address of the first rectangle in an array of rectangles in the pRects parameter.
 
@@ -84,9 +84,9 @@ The results of the projection matrix determine the clipping volume in projection
 
 Where: x, y, z, and w represent the vertex coordinates after the projection transformation is applied. Any vertices that have an x-, y-, or z-component outside these ranges are clipped, if clipping is enabled (the default behavior).
 
-With the exception of vertex buffers, applications enable or disable clipping by way of the [**D3DRS\_CLIPPING**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx) render state. Clipping information for vertex buffers is generated during processing. For more information, see [Fixed Function Vertex Processing (Direct3D 9)](fixed-function-vertex-processing.md) and [Programmable Vertex Processing (Direct3D 9)](programmable-vertex-processing.md).
+With the exception of vertex buffers, applications enable or disable clipping by way of the [**D3DRS\_CLIPPING**](./d3drenderstatetype.md) render state. Clipping information for vertex buffers is generated during processing. For more information, see [Fixed Function Vertex Processing (Direct3D 9)](fixed-function-vertex-processing.md) and [Programmable Vertex Processing (Direct3D 9)](programmable-vertex-processing.md).
 
-Direct3D does not clip transformed vertices of a primitive from a vertex buffer unless it comes from [**IDirect3DDevice9::ProcessVertices**](https://msdn.microsoft.com/library/Bb174424(v=VS.85).aspx). If you are doing your own transforms and need Direct3D to do the clipping, you should not use vertex buffers. In this case, the application traverses the data to transform it. Direct3D traverses the data a second time to clip it, and then the driver renders the data, which is inefficient. So, if the application transforms the data, is should also clip the data.
+Direct3D does not clip transformed vertices of a primitive from a vertex buffer unless it comes from [**IDirect3DDevice9::ProcessVertices**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-processvertices). If you are doing your own transforms and need Direct3D to do the clipping, you should not use vertex buffers. In this case, the application traverses the data to transform it. Direct3D traverses the data a second time to clip it, and then the driver renders the data, which is inefficient. So, if the application transforms the data, is should also clip the data.
 
 When the device receives pre-transformed and lit vertices (T&L vertices) that need to be clipped, in order to perform the clipping operation the vertices are back-transformed to the clipping space using the vertex's reciprocal homogeneous w (RHW) and the viewport information. Clipping is then performed. Not all devices are capable of performing this back-transform in order to clip T&L vertices.
 
@@ -103,7 +103,7 @@ D3DVIEWPORT9 viewData = { 0, 0, width, height, 0.0f, 1.0f };
 
 
 
-After setting values in the [**D3DVIEWPORT9**](d3dviewport9.md) structure, apply the viewport parameters to the device by calling its [**IDirect3DDevice9::SetViewport**](https://msdn.microsoft.com/library/Bb174469(v=VS.85).aspx) method. The following code example shows what this call might look like.
+After setting values in the [**D3DVIEWPORT9**](d3dviewport9.md) structure, apply the viewport parameters to the device by calling its [**IDirect3DDevice9::SetViewport**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setviewport) method. The following code example shows what this call might look like.
 
 
 ```
@@ -116,7 +116,7 @@ if(FAILED(hr))
 
 
 
-If the call succeeds, the viewport parameters are set and will take effect the next time a rendering method is called. To make changes to the viewport parameters, just update the values in the [**D3DVIEWPORT9**](d3dviewport9.md) structure and call [**IDirect3DDevice9::SetViewport**](https://msdn.microsoft.com/library/Bb174469(v=VS.85).aspx) again.
+If the call succeeds, the viewport parameters are set and will take effect the next time a rendering method is called. To make changes to the viewport parameters, just update the values in the [**D3DVIEWPORT9**](d3dviewport9.md) structure and call [**IDirect3DDevice9::SetViewport**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setviewport) again.
 
 > [!Note]  
 > The [**D3DVIEWPORT9**](d3dviewport9.md) structure members MinZ and MaxZ indicate the depth-ranges into which the scene will be rendered and are not used for clipping. Most applications set these members to 0.0 and 1.0 to enable the system to render to the entire range of depth values in the depth buffer. In some cases, you can achieve special effects by using other depth ranges. For instance, to render a heads-up display in a game, you can set both values to 0.0 to force the system to render objects in a scene in the foreground, or you might set them both to 1.0 to render an object that should always be in the background.
@@ -133,6 +133,3 @@ If the call succeeds, the viewport parameters are set and will take effect the n
  
 
  
-
-
-

@@ -20,18 +20,14 @@ In Windows 7, the Windows Filtering Platform has been enhanced to give develope
 
 Using Windows Filtering Platform, developers can build firewalls, intrusion detection systems, antivirus programs, network monitoring tools, and parental controls into their applications. Windows Filtering Platform integrates with and provides support for a wide variety of firewall features, including authenticated communication and dynamic firewall configuration based on applications' use of sockets API (application-based policy). Windows Filtering Platform also provides infrastructure for policy management, change notifications, network diagnostics, and stateful filtering.
 
-The initial architecture of Windows Filtering Platform in Windows Vista provided capabilities for IP-based traffic. Other non-IP protocols--such as such as Address Resolution Protocol (ARP) and media access control (*MAC*)-layer protocols for network management and authentication--also require filtering, inspection, or logging. In Windows 7, an *NDIS* inspection layer that supports *MAC* and *ETHERNET* filtering has been provided to satisfy this need. (See [Windows Filtering Platform](https://msdn.microsoft.com/library/aa366510.aspx).)
+The initial architecture of Windows Filtering Platform in Windows Vista provided capabilities for IP-based traffic. Other non-IP protocols--such as such as Address Resolution Protocol (ARP) and media access control (*MAC*)-layer protocols for network management and authentication--also require filtering, inspection, or logging. In Windows 7, an *NDIS* inspection layer that supports *MAC* and *ETHERNET* filtering has been provided to satisfy this need. (See [Windows Filtering Platform](../fwp/windows-filtering-platform-start-page.md).)
 
 ## User Account Control
 
 User account control (UAC) is a security component in Windows 7 that allows developers to build applications that enable users to perform common tasks as non-administrators. Developers can reduce security risks by running applications under a standard user token, reducing the risks of mistakes or attacks.
 
-User accounts that are members of the local *Administrators* group will run most applications as a standard user. By separating user and administrator functions while enabling productivity, UAC gives developers greater control over the level of access that users have over protected areas of an application. UAC requests credentials in a *Secure Desktop* mode, where the entire screen is protected to prevent spoofing of the user interface or the mouse. (See [User Account Control Dialog Updates](https://msdn.microsoft.com/library/dd371774(VS.85).aspx) and [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699.aspx).)
+User accounts that are members of the local *Administrators* group will run most applications as a standard user. By separating user and administrator functions while enabling productivity, UAC gives developers greater control over the level of access that users have over protected areas of an application. UAC requests credentials in a *Secure Desktop* mode, where the entire screen is protected to prevent spoofing of the user interface or the mouse. (See [User Account Control Dialog Updates](../win7appqual/user-interface---user-account-control-dialog-updates.md) and [User Account Control and WMI](../wmisdk/user-account-control-and-wmi.md).)
 
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Font.GetHeight methods
 
-This topic lists the GetHeight methods of the [**Font**](https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx) class. For a complete list of methods for the **Font** class, see [Font Methods](-gdiplus-class-font-methods.md).
+This topic lists the GetHeight methods of the [**Font**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-font) class. For a complete list of methods for the **Font** class, see [Font Methods](-gdiplus-class-font-methods.md).
 
 ### Overload list
 
@@ -16,15 +16,11 @@ This topic lists the GetHeight methods of the [**Font**](https://msdn.microsoft.
 
 | Method                                                                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:-------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetHeight(REAL)**](https://msdn.microsoft.com/library/ms536202(v=VS.85).aspx)            | The [**Font::GetHeight**](https://msdn.microsoft.com/library/ms536202(v=VS.85).aspx) method gets the line spacing, in pixels, of this font. The line spacing is the vertical distance between the base lines of two consecutive lines of text. Thus, the line spacing includes the blank space between lines along with the height of the character itself.<br/>                                                                                      |
-| [**GetHeight(Graphics\*)**](https://msdn.microsoft.com/library/ms536201(v=VS.85).aspx) | The [**Font::GetHeight**](https://msdn.microsoft.com/library/ms536201(v=VS.85).aspx) method gets the line spacing of this font in the current unit of a specified [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) object. The line spacing is the vertical distance between the base lines of two consecutive lines of text. Thus, the line spacing includes the blank space between lines along with the height of the character itself.<br/> |
+| [**GetHeight(REAL)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-getheight(inreal))            | The [**Font::GetHeight**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-getheight(inreal)) method gets the line spacing, in pixels, of this font. The line spacing is the vertical distance between the base lines of two consecutive lines of text. Thus, the line spacing includes the blank space between lines along with the height of the character itself.<br/>                                                                                      |
+| [**GetHeight(Graphics\*)**](/previous-versions//ms536201(v=vs.85)) | The [**Font::GetHeight**](/previous-versions//ms536201(v=vs.85)) method gets the line spacing of this font in the current unit of a specified [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object. The line spacing is the vertical distance between the base lines of two consecutive lines of text. Thus, the line spacing includes the blank space between lines along with the height of the character itself.<br/> |
 
 
 
  
 
  
-
-
-
-

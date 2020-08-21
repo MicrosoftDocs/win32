@@ -153,7 +153,7 @@ cleanup:
 
 
 
-When you compile the manifest (see [Compiling an Instrumentation Manifest](https://msdn.microsoft.com/library/Dd996909(v=VS.85).aspx)) that the example above uses, it creates the following header file (referenced in the example above).
+When you compile the manifest (see [Compiling an Instrumentation Manifest](../wes/compiling-an-instrumentation-manifest.md)) that the example above uses, it creates the following header file (referenced in the example above).
 
 
 ```C++
@@ -199,6 +199,3 @@ EXTERN_C __declspec(selectany) const EVENT_DESCRIPTOR TransferEvent = {0x1, 0x0,
  
 
  
-
-
-

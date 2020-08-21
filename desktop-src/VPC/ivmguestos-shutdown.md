@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMGuestOS::Shutdown method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Shuts down the guest operating system in the virtual machine (VM).
 
@@ -117,10 +117,4 @@ The following values can be returned through the [**Error**](ivmtask-error.md) p
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

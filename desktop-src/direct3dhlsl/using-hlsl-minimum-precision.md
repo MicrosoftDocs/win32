@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Starting with Windows 8, graphics drivers can implement minimum precision [HLSL scalar data types](dx-graphics-hlsl-scalar.md) by using any precision greater than or equal to their specified bit precision. When your HLSL minimum precision shader code is used on hardware that implements HLSL minimum precision, you use less memory bandwidth and as a result you also use less system power.
 
-You can query for the minimum precision support that the graphics driver provides by calling [**ID3D11Device::CheckFeatureSupport**](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkfeaturesupport) with the [**D3D11\_FEATURE\_SHADER\_MIN\_PRECISION\_SUPPORT**](https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_feature) value. For more info, see [HLSL minimum precision support](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-1-features).
+You can query for the minimum precision support that the graphics driver provides by calling [**ID3D11Device::CheckFeatureSupport**](/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkfeaturesupport) with the [**D3D11\_FEATURE\_SHADER\_MIN\_PRECISION\_SUPPORT**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_feature) value. For more info, see [HLSL minimum precision support](/windows/desktop/direct3d11/direct3d-11-1-features).
 
 -   [Declare variables with minimum precision data types](#declare-variables-with-minimum-precision-data-types)
 -   [Testing your minimum precision shader code](#testing-your-minimum-precision-shader-code)
@@ -33,7 +33,7 @@ The rules for HLSL minimum precision are similar to C/C++, where the types in an
 
 ## Testing your minimum precision shader code
 
-The reference rasterizer ([**D3D\_DRIVER\_TYPE\_REFERENCE**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_driver_type)) gives you a rough idea of how minimum precision in your HLSL shader code behaves by quantizing each HLSL instruction to the specified precision. This helps you discover code that might accidentally rely on more than the minimum precision. The reference rasterizer doesn’t run any faster when your HLSL shader code uses minimum precision, but you can use it to verify the correctness of your code. [WARP](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-create-warp) ([**D3D\_DRIVER\_TYPE\_WARP**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_driver_type)) doesn’t support using minimum precision in HLSL shader code; WARP just runs at full 32-bit precision.
+The reference rasterizer ([**D3D\_DRIVER\_TYPE\_REFERENCE**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_driver_type)) gives you a rough idea of how minimum precision in your HLSL shader code behaves by quantizing each HLSL instruction to the specified precision. This helps you discover code that might accidentally rely on more than the minimum precision. The reference rasterizer doesn’t run any faster when your HLSL shader code uses minimum precision, but you can use it to verify the correctness of your code. [WARP](/windows/desktop/direct3d11/overviews-direct3d-11-devices-create-warp) ([**D3D\_DRIVER\_TYPE\_WARP**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_driver_type)) doesn’t support using minimum precision in HLSL shader code; WARP just runs at full 32-bit precision.
 
 ## Related topics
 
@@ -45,7 +45,3 @@ The reference rasterizer ([**D3D\_DRIVER\_TYPE\_REFERENCE**](https://docs.micros
  
 
  
-
-
-
-

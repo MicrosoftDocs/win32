@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
-The server supports the following methods for the [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection object:
+The server supports the following methods for the [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection object:
 
 -   [**Add**](add-method.md)
 -   [**Command**](command-method.md)
@@ -21,7 +21,3 @@ The server supports the following methods for the [**Commands**](https://docs.mi
  
 
  
-
-
-
-

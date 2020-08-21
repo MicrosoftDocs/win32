@@ -21,7 +21,7 @@ ms.date: 06/25/2020
 
 ## Single-object Wait Functions
 
-The [**SignalObjectAndWait**](/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait), [**WaitForSingleObject**](https://docs.microsoft.com/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject), and [**WaitForSingleObjectEx**](https://docs.microsoft.com/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex) functions require a handle to one synchronization object. These functions return when one of the following occurs:
+The [**SignalObjectAndWait**](/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait), [**WaitForSingleObject**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject), and [**WaitForSingleObjectEx**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex) functions require a handle to one synchronization object. These functions return when one of the following occurs:
 
 -   The specified object is in the signaled state.
 -   The time-out interval elapses. The time-out interval can be set to **INFINITE** to specify that the wait will not time out.
@@ -30,12 +30,12 @@ The [**SignalObjectAndWait**](/windows/win32/api/synchapi/nf-synchapi-signalobje
 
 ## Multiple-object Wait Functions
 
-The [**WaitForMultipleObjects**](https://docs.microsoft.com/windows/win32/api/synchapi/nf-synchapi-waitformultipleobjects), [**WaitForMultipleObjectsEx**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-msgwaitformultipleobjectsex), [**MsgWaitForMultipleObjects**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjects), and [**MsgWaitForMultipleObjectsEx**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex) functions enable the calling thread to specify an array containing one or more synchronization object handles. These functions return when one of the following occurs:
+The [**WaitForMultipleObjects**](/windows/win32/api/synchapi/nf-synchapi-waitformultipleobjects), [**WaitForMultipleObjectsEx**](/windows/win32/api/winuser/nf-winuser-msgwaitformultipleobjectsex), [**MsgWaitForMultipleObjects**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjects), and [**MsgWaitForMultipleObjectsEx**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex) functions enable the calling thread to specify an array containing one or more synchronization object handles. These functions return when one of the following occurs:
 
 -   The state of any one of the specified objects is set to signaled or the states of all objects have been set to signaled. You control whether one or all of the states will be used in the function call.
 -   The time-out interval elapses. The time-out interval can be set to **INFINITE** to specify that the wait will not time out.
 
-The [**MsgWaitForMultipleObjects**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjects) and [**MsgWaitForMultipleObjectsEx**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex) function allow you to specify input event objects in the object handle array. This is done when you specify the type of input to wait for in the thread's input queue. For example, a thread could use **MsgWaitForMultipleObjects** to block its execution until the state of a specified object has been set to signaled and there is mouse input available in the thread's input queue. The thread can use the [**GetMessage**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessageA**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-peekmessagea) or [**PeekMessageW**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-peekmessagew) function to retrieve the input.
+The [**MsgWaitForMultipleObjects**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjects) and [**MsgWaitForMultipleObjectsEx**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex) function allow you to specify input event objects in the object handle array. This is done when you specify the type of input to wait for in the thread's input queue. For example, a thread could use **MsgWaitForMultipleObjects** to block its execution until the state of a specified object has been set to signaled and there is mouse input available in the thread's input queue. The thread can use the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessageA**](/windows/win32/api/winuser/nf-winuser-peekmessagea) or [**PeekMessageW**](/windows/win32/api/winuser/nf-winuser-peekmessagew) function to retrieve the input.
 
 When waiting for the states of all objects to be set to signaled, these multiple-object functions do not modify the states of the specified objects until the states of all objects have been set signaled. For example, the state of a mutex object can be signaled, but the calling thread does not get ownership until the states of the other objects specified in the array have also been set to signaled. In the meantime, some other thread may get ownership of the mutex object, thereby setting its state to nonsignaled.
 
@@ -43,11 +43,11 @@ When waiting for the state of a single object to be set to signaled, these multi
 
 ## Alertable Wait Functions
 
-The [**MsgWaitForMultipleObjectsEx**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex), [**SignalObjectAndWait**](/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait), [**WaitForMultipleObjectsEx**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-msgwaitformultipleobjectsex), and [**WaitForSingleObjectEx**](https://docs.microsoft.com/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex) functions differ from the other wait functions in that they can optionally perform an *alertable wait operation*. In an alertable wait operation, the function can return when the specified conditions are met, but it can also return if the system queues an I/O completion routine or an APC for execution by the waiting thread. For more information about alertable wait operations and I/O completion routines, see [Synchronization and Overlapped Input and Output](synchronization-and-overlapped-input-and-output.md). For more information about APCs, see [Asynchronous Procedure Calls](asynchronous-procedure-calls.md).
+The [**MsgWaitForMultipleObjectsEx**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex), [**SignalObjectAndWait**](/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait), [**WaitForMultipleObjectsEx**](/windows/win32/api/winuser/nf-winuser-msgwaitformultipleobjectsex), and [**WaitForSingleObjectEx**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex) functions differ from the other wait functions in that they can optionally perform an *alertable wait operation*. In an alertable wait operation, the function can return when the specified conditions are met, but it can also return if the system queues an I/O completion routine or an APC for execution by the waiting thread. For more information about alertable wait operations and I/O completion routines, see [Synchronization and Overlapped Input and Output](synchronization-and-overlapped-input-and-output.md). For more information about APCs, see [Asynchronous Procedure Calls](asynchronous-procedure-calls.md).
 
 ## Registered Wait Functions
 
-The [**RegisterWaitForSingleObject**](/windows/desktop/api/WinBase/nf-winbase-registerwaitforsingleobject) function differs from the other wait functions in that the wait operation is performed by a thread from the [thread pool](https://docs.microsoft.com/windows/win32/procthread/thread-pooling). When the specified conditions are met, the callback function is executed by a worker thread from the thread pool.
+The [**RegisterWaitForSingleObject**](/windows/desktop/api/WinBase/nf-winbase-registerwaitforsingleobject) function differs from the other wait functions in that the wait operation is performed by a thread from the [thread pool](../procthread/thread-pooling.md). When the specified conditions are met, the callback function is executed by a worker thread from the thread pool.
 
 By default, a registered wait operation is a multiple-wait operation. The system resets the timer every time the event is signaled (or the time-out interval elapses) until you call the [**UnregisterWaitEx**](unregisterwaitex.md) function to cancel the operation. To specify that a wait operation should be executed only once, set the *dwFlags* parameter of [**RegisterWaitForSingleObject**](/windows/desktop/api/WinBase/nf-winbase-registerwaitforsingleobject) to **WT\_EXECUTEONLYONCE**.
 
@@ -81,6 +81,3 @@ You have to be careful when using the wait functions and code that directly or i
  
 
  
-
-
-

@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 
 | CMSPCallBase MSPI helper methods                             | Description                                                                                                                                                                           |
 |--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateStream**](https://msdn.microsoft.com/library/ms732395(v=VS.85).aspx)         | Creates the media stream for a new call. Acquires the lock in the function.                                                                                                           |
-| [**EnumerateStreams**](https://msdn.microsoft.com/library/ms732398(v=VS.85).aspx) | Enumerates streams currently available. Acquires the lock in the function.                                                                                                            |
-| [**get\_Streams**](https://msdn.microsoft.com/library/ms732399(v=VS.85).aspx)          | Creates a collection of streams currently available. Provided for Automation client applications, such as those written in Microsoft Visual Basic. Acquires the lock in the function. |
+| [**CreateStream**](/windows/win32/api/tapi3if/nf-tapi3if-itstreamcontrol-createstream)         | Creates the media stream for a new call. Acquires the lock in the function.                                                                                                           |
+| [**EnumerateStreams**](/windows/win32/api/tapi3if/nf-tapi3if-itstreamcontrol-enumeratestreams) | Enumerates streams currently available. Acquires the lock in the function.                                                                                                            |
+| [**get\_Streams**](/windows/win32/api/tapi3if/nf-tapi3if-itstreamcontrol-get_streams)          | Creates a collection of streams currently available. Provided for Automation client applications, such as those written in Microsoft Visual Basic. Acquires the lock in the function. |
 
 
 
@@ -30,6 +30,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-

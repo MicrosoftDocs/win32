@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 | CMSPCallMultiGraph Overriden CComObject methods         | Description                                                 |
 |---------------------------------------------------------|-------------------------------------------------------------|
-| [**FinalRelease**](https://msdn.microsoft.com/library/ms726566(v=VS.85).aspx) | Releases the call object's reference to the address object. |
+| [**FinalRelease**](/previous-versions/windows/desktop/legacy/ms726566(v=vs.85)) | Releases the call object's reference to the address object. |
 
 
 
@@ -28,6 +28,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-

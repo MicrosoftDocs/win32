@@ -40,7 +40,7 @@ HRESULT add_ConnectionStatusChanged(
 *handler* \[in\]
 </dt> <dd>
 
-A [**ConnectionStatusHandler**](https://msdn.microsoft.com/library/Hh828836(v=VS.85).aspx) event handler function.
+A [**ConnectionStatusHandler**](/previous-versions/windows/desktop/legacy/hh828836(v=vs.85)) event handler function.
 
 </dd> <dt>
 
@@ -73,14 +73,8 @@ To unregister the event handler that was registered by this method, pass the *to
 
 <dl> <dt>
 
-[**BasicDevice**](https://msdn.microsoft.com/library/Hh828813(v=VS.85).aspx)
+[**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

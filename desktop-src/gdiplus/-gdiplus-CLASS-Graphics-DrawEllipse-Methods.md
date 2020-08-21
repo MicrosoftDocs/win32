@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.DrawEllipse methods
 
-This topic lists the DrawEllipse methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the DrawEllipse methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -16,17 +16,13 @@ This topic lists the DrawEllipse methods of the [**Graphics**](https://msdn.micr
 
 | Method                                                                                                                              | Description                                                                                                                                                |
 |:------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DrawEllipse(Pen\*,Rect&)**](https://msdn.microsoft.com/library/ms536062(v=VS.85).aspx)                                          | The [**Graphics::DrawEllipse**](https://msdn.microsoft.com/library/ms536062(v=VS.85).aspx) method draws an ellipse.<br/>                            |
-| [**DrawEllipse(Pen\*,RectF&)**](https://msdn.microsoft.com/library/ms536065(v=VS.85).aspx)                                        | The [**Graphics::DrawEllipse**](https://msdn.microsoft.com/library/ms536065(v=VS.85).aspx) method draws an ellipse.<br/>                           |
-| [**DrawEllipse(Pen\*,INT,INT,INT,INT)**](https://msdn.microsoft.com/library/ms536067(v=VS.85).aspx)         | The [**Graphics::DrawEllipse**](https://msdn.microsoft.com/library/ms536067(v=VS.85).aspx) method draws an ellipse.<br/>     |
-| [**DrawEllipse(Pen\*,REAL,REAL,REAL,REAL)**](https://msdn.microsoft.com/library/ms536064(v=VS.85).aspx) | The [**Graphics::DrawEllipse**](https://msdn.microsoft.com/library/ms536064(v=VS.85).aspx) method draws an ellipse.<br/> |
+| [**DrawEllipse(Pen\*,Rect&)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawellipse(inconstpen_inconstrect_))                                          | The [**Graphics::DrawEllipse**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawellipse(inconstpen_inconstrect_)) method draws an ellipse.<br/>                            |
+| [**DrawEllipse(Pen\*,RectF&)**](/previous-versions//ms536065(v=vs.85))                                        | The [**Graphics::DrawEllipse**](/previous-versions//ms536065(v=vs.85)) method draws an ellipse.<br/>                           |
+| [**DrawEllipse(Pen\*,INT,INT,INT,INT)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawellipse(inconstpen_inint_inint_inint_inint))         | The [**Graphics::DrawEllipse**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawellipse(inconstpen_inint_inint_inint_inint)) method draws an ellipse.<br/>     |
+| [**DrawEllipse(Pen\*,REAL,REAL,REAL,REAL)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawellipse(inconstpen_inreal_inreal_inreal_inreal)) | The [**Graphics::DrawEllipse**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawellipse(inconstpen_inreal_inreal_inreal_inreal)) method draws an ellipse.<br/> |
 
 
 
  
 
  
-
-
-
-

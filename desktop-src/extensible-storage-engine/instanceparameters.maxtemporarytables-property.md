@@ -57,7 +57,7 @@ public int MaxTemporaryTables { get; set; }
 
 #### Property value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 
 ## Remarks
 
@@ -72,4 +72,3 @@ The use of a temporary table also requires a cursor resource.
 [InstanceParameters members](dn350943\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

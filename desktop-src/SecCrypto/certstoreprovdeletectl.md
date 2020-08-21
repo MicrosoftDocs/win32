@@ -38,7 +38,7 @@ BOOL WINAPI CertStoreProvDeleteCTL(
 *hStoreProv* \[in\]
 </dt> <dd>
 
-**HCERTSTOREPROV** handle to a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+**HCERTSTOREPROV** handle to a [*certificate store*](../secgloss/c-gly.md).
 
 </dd> <dt>
 
@@ -74,7 +74,3 @@ Returns **TRUE** if a CTL can be deleted from the store.
  
 
  
-
-
-
-

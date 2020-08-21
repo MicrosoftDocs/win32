@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Pointer Attributes Applied to the Parameter
 
-Each pointer attribute (\[ [ref](https://docs.microsoft.com/windows/desktop/Midl/ref)\], \[ [unique](https://docs.microsoft.com/windows/desktop/Midl/unique)\], and \[ [ptr](https://docs.microsoft.com/windows/desktop/Midl/ptr)\]) has characteristics that affect memory allocation. The following table summarizes these characteristics.
+Each pointer attribute (\[ [ref](/windows/desktop/Midl/ref)\], \[ [unique](/windows/desktop/Midl/unique)\], and \[ [ptr](/windows/desktop/Midl/ptr)\]) has characteristics that affect memory allocation. The following table summarizes these characteristics.
 
 
 
@@ -27,10 +27,4 @@ The **\[ref\]** attribute indicates that the pointer points to valid memory. By 
 The unique pointer can change from null to non-null. If the unique pointer changes from null to non-null, new memory is allocated on the client. If the unique pointer changes from non-null to null, orphaning can result. For more information, see [Memory Orphaning](memory-orphaning.md).
 
  
-
- 
-
-
-
-
 

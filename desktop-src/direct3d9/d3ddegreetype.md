@@ -97,13 +97,9 @@ The values in this enumeration are used to describe the curves used by rectangle
 [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9)
 </dt> <dt>
 
-[**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx)
+[**D3DRENDERSTATETYPE**](./d3drenderstatetype.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

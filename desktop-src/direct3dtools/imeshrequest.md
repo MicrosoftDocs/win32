@@ -26,7 +26,7 @@ Request for a buffer containing the mesh of a pipeline stage.
 
 ## Members
 
-The **IMeshRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMeshRequest** also has these types of members:
+The **IMeshRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMeshRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IMeshRequest** interface has these methods.
  
 
  
-
-
-

@@ -36,12 +36,8 @@ You can use the following attributes with this control. To change the value of a
 
 ## Remarks
 
-This control can be created from the RICHEDIT class by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function. It has the **ES\_MULTILINE**, **WS\_VSCROLL**, **ES\_READONLY**, **WS\_TABSTOP**, **ES\_AUTOVSCROLL**, **WS\_CHILD**, **WS\_GROUP**, and **ES\_NOOLEDRAGDROP** styles.
+This control can be created from the RICHEDIT class by using the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. It has the **ES\_MULTILINE**, **WS\_VSCROLL**, **ES\_READONLY**, **WS\_TABSTOP**, **ES\_AUTOVSCROLL**, **WS\_CHILD**, **WS\_GROUP**, and **ES\_NOOLEDRAGDROP** styles.
 
  
 
  
-
-
-
-

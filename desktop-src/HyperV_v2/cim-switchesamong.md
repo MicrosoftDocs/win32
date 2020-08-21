@@ -53,7 +53,7 @@ Data type: **CIM\_SwitchPort**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_SwitchPort**](cim-switchport.md) reference to the switch port.
@@ -69,7 +69,7 @@ Data type: **CIM\_SwitchService**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Max**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (1)
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1)
 </dt> </dl>
 
 A [**CIM\_SwitchService**](cim-switchservice.md) reference to the switching service.
@@ -98,9 +98,4 @@ A [**CIM\_SwitchService**](cim-switchservice.md) reference to the switching serv
 </dt> </dl>
 
  
-
- 
-
-
-
 

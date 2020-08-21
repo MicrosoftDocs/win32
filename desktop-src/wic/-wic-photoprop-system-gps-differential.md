@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.Differential Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.Differential](https://msdn.microsoft.com/library/bb787516(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.Differential](../properties/props-system-gps-differential.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.GPS.Differential](https://msdn.microsoft.com/library/bb787516(VS.85).aspx)
+[System.GPS.Differential](../properties/props-system-gps-differential.md)
 </dt> </dl>
 
  
 
  
-
-
-

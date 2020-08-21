@@ -41,7 +41,7 @@ There are three types of resource barriers:
 
 -   **Aliasing barrier** - An aliasing barrier indicates a transition between usages of two different resources which have overlapping mappings into the same heap. This applies to both reserved and placed resources. A [**D3D12\_RESOURCE\_ALIASING\_BARRIER**](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_aliasing_barrier) structure is used to specify both the *before* resource and the *after* resource.
 
-    Note that one or both resources can be NULL, which indicates that any tiled resource could cause aliasing. For more information about using tiled resources, see [Tiled resources](/windows/win32/direct3d11/tiled-resources) and [Volume Tiled Resources](volume-tiled-resources.md).
+    Note that one or both resources can be NULL, which indicates that any tiled resource could cause aliasing. For more information about using tiled resources, see [Tiled resources](../direct3d11/tiled-resources.md) and [Volume Tiled Resources](volume-tiled-resources.md).
 
 -   **Unordered access view (UAV) barrier** - A UAV barrier indicates that all UAV accesses, both read or write, to a particular resource must complete between any future UAV accesses, both read or write. It's not necessary for an app to put a UAV barrier between two draw or dispatch calls that only read from a UAV. Also, it's not necessary to put a UAV barrier between two draw or dispatch calls that write to the same UAV if the application knows that it is safe to execute the UAV access in any order. A [**D3D12\_RESOURCE\_UAV\_BARRIER**](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_uav_barrier) structure is used to specify the UAV resource to which the barrier applies. The application can specify NULL for the barrier's UAV, which indicates that any UAV access could require the barrier.
 
@@ -585,6 +585,6 @@ D3D12_RESOURCE_BARRIER BarrierDesc = {};
 
 [DirectX advanced learning video tutorials : Resource Barriers and State Tracking](https://www.youtube.com/watch?v=nmB2XMasz2o)
 
-[Multi-engine synchronization](/windows/win32/direct3d12/user-mode-heap-synchronization)
+[Multi-engine synchronization](./user-mode-heap-synchronization.md)
 
 [Work Submission in Direct3D 12](command-queues-and-command-lists.md)

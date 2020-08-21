@@ -21,4 +21,4 @@ Ink renderer is designed for use by Universal Windows app developers interested 
 
 ## Related topics
 
-[Ink input](input-ink-portal.md), [Pen and stylus interactions](/windows/uwp/design/input/pen-and-stylus-interactions), [Ink Analysis sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/inkanalysis/), [Simple inking sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/simpleink/), [Complex inking sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/complexink/)
+[Ink input](input-ink-portal.md), [Pen and stylus interactions](/windows/uwp/design/input/pen-and-stylus-interactions), [Ink Analysis sample](/samples/microsoft/windows-universal-samples/inkanalysis/), [Simple inking sample](/samples/microsoft/windows-universal-samples/simpleink/), [Complex inking sample](/samples/microsoft/windows-universal-samples/complexink/)

@@ -40,7 +40,7 @@ typedef struct D3DXCOLOR {
 **r**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -51,7 +51,7 @@ Red component of the color.
 **g**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -62,7 +62,7 @@ Green component of the color.
 **b**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -73,7 +73,7 @@ Blue component of the color.
 **a**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -105,7 +105,3 @@ C++ programmers can take advantage of operator overloading and type casting with
  
 
  
-
-
-
-

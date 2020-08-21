@@ -8,14 +8,14 @@ ms.date: 05/31/2018
 
 # union keyword (RPC)
 
-Some features of the C language, such as unions, require special MIDL keywords to support their use in remote procedure calls. A union in the C language is a variable that holds objects of different types and sizes. The developer usually creates a variable to keep track of the types stored in the union. To operate correctly in a distributed environment, the variable that indicates the type of the union, or the *discriminant*, must also be available to the remote computer. MIDL provides the \[[**switch\_type**](https://docs.microsoft.com/windows/desktop/Midl/switch-type)\] and \[[**switch\_is**](https://docs.microsoft.com/windows/desktop/Midl/switch-is)\] keywords to identify the discriminant type and name.
+Some features of the C language, such as unions, require special MIDL keywords to support their use in remote procedure calls. A union in the C language is a variable that holds objects of different types and sizes. The developer usually creates a variable to keep track of the types stored in the union. To operate correctly in a distributed environment, the variable that indicates the type of the union, or the *discriminant*, must also be available to the remote computer. MIDL provides the \[[**switch\_type**](/windows/desktop/Midl/switch-type)\] and \[[**switch\_is**](/windows/desktop/Midl/switch-is)\] keywords to identify the discriminant type and name.
 
 MIDL requires that the discriminant be transmitted with the union in one of two ways:
 
 -   The union and the discriminant must be provided as parameters.
 -   The union and the discriminant must be packaged in a structure.
 
-Two fundamental types of discriminated unions are provided by MIDL: [**nonencapsulated\_union**](https://docs.microsoft.com/windows/desktop/Midl/nonencapsulated-unions) and [**encapsulated\_union**](https://docs.microsoft.com/windows/desktop/Midl/encapsulated-unions). The discriminant of a nonencapsulated union is another parameter if the union is a parameter. It is another field if the union is a field of a structure. The definition of an encapsulated union is turned into a structure definition whose first field is the discriminant and whose second and last fields are the union. The following example demonstrates how to provide the union and discriminant as parameters:
+Two fundamental types of discriminated unions are provided by MIDL: [**nonencapsulated\_union**](/windows/desktop/Midl/nonencapsulated-unions) and [**encapsulated\_union**](/windows/desktop/Midl/encapsulated-unions). The discriminant of a nonencapsulated union is another parameter if the union is a parameter. It is another field if the union is a field of a structure. The definition of an encapsulated union is turned into a structure definition whose first field is the discriminant and whose second and last fields are the union. The following example demonstrates how to provide the union and discriminant as parameters:
 
 ``` syntax
 typedef [switch_type(short)] union 
@@ -54,12 +54,8 @@ short UnionStructProc(
     [in] DISCRIM_UNION_STRUCT_TYPE u1);
 ```
 
-The Microsoft RPC MIDL compiler allows union declarations outside of [**typedef**](https://docs.microsoft.com/windows/desktop/Midl/typedef) constructs. This feature is an extension to DCE IDL. For more information, see [**union**](https://docs.microsoft.com/windows/desktop/Midl/union).
+The Microsoft RPC MIDL compiler allows union declarations outside of [**typedef**](/windows/desktop/Midl/typedef) constructs. This feature is an extension to DCE IDL. For more information, see [**union**](/windows/desktop/Midl/union).
 
  
 
  
-
-
-
-

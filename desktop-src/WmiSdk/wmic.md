@@ -9,19 +9,19 @@ ms.date: 05/31/2018
 
 # wmic
 
-The WMI command-line (WMIC) utility provides a command-line interface for Windows Management Instrumentation (WMI). WMIC is compatible with existing shells and utility commands. The following is a general reference topic for WMIC. For more information and guidelines on how to use WMIC, including additional information on aliases, verbs, switches, and commands, see [Using Windows Management Instrumentation Command-line](https://TechNet.Microsoft.Com/library/cc779482.aspx) and [WMIC - Take Command-line Control over WMI](https://TechNet.Microsoft.Com/library/bb742610.aspx).
+The WMI command-line (WMIC) utility provides a command-line interface for Windows Management Instrumentation (WMI). WMIC is compatible with existing shells and utility commands. The following is a general reference topic for WMIC. For more information and guidelines on how to use WMIC, including additional information on aliases, verbs, switches, and commands, see [Using Windows Management Instrumentation Command-line](/previous-versions/windows/it-pro/windows-server-2003/cc779482(v=ws.10)) and [WMIC - Take Command-line Control over WMI](/previous-versions/windows/it-pro/windows-2000-server/bb742610(v=technet.10)).
 
 ## Alias
 
-An alias is a friendly renaming of a class, property, or method that makes WMI easier to use and read. You can determine what aliases are available for WMIC through the **/?** command. You can also determine the aliases for a specific class using the **<className> /?** command. For more information, see [WMIC Aliases](https://technet.microsoft.com/library/cc736307.aspx).
+An alias is a friendly renaming of a class, property, or method that makes WMI easier to use and read. You can determine what aliases are available for WMIC through the **/?** command. You can also determine the aliases for a specific class using the **<className> /?** command. For more information, see [WMIC Aliases](/previous-versions/windows/it-pro/windows-server-2003/cc736307(v=ws.10)).
 
 ## Switches
 
-A switch is a WMIC option you can set globally or optionally. For a list of available switches, see [WMIC Switches](https://technet.microsoft.com/library/cc787035.aspx).
+A switch is a WMIC option you can set globally or optionally. For a list of available switches, see [WMIC Switches](/previous-versions/windows/it-pro/windows-server-2003/cc787035(v=ws.10)).
 
 ## Verbs
 
-To use verbs in WMIC, enter the alias name followed by the verb. If an alias does not support a verb, you receive the message "provider is not capable of the attempted operation." For more information, see [WMIC Verbs](https://technet.microsoft.com/library/cc784966.aspx).
+To use verbs in WMIC, enter the alias name followed by the verb. If an alias does not support a verb, you receive the message "provider is not capable of the attempted operation." For more information, see [WMIC Verbs](/previous-versions/windows/it-pro/windows-server-2003/cc784966(v=ws.10)).
 
 Most aliases support the following verbs.
 
@@ -305,7 +305,7 @@ Example: **/AGGREGATE:OFF** or **/AGGREGATE:ON**
 
 ## Commands
 
-The following WMIC commands are available at all times. For more information, see [WMIC Commands](https://technet.microsoft.com/library/cc779647.aspx).
+The following WMIC commands are available at all times. For more information, see [WMIC Commands](/previous-versions/windows/it-pro/windows-server-2003/cc779647(v=ws.10)).
 
 <dl> <dt>
 
@@ -370,9 +370,4 @@ The [Script for setting IP/Subnet/Gateway/DNS using wmic](https://Gallery.TechNe
 
 
  
-
- 
-
-
-
 

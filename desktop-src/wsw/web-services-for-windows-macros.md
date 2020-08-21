@@ -10,10 +10,10 @@ ms.date: 05/31/2018
 
 The Windows Web Services API includes the following macros:
 
--   [**WS\_STRING\_EMPTY**](https://msdn.microsoft.com/library/Dd323449(v=VS.85).aspx)
+-   [**WS\_STRING\_EMPTY**](/previous-versions/windows/desktop/legacy/dd323449(v=vs.85))
 -   [**WS\_STRING\_VALUE**](/windows/desktop/api/WebServices/nf-webservices-ws_string_value)
 -   [**WS\_XML\_STRING\_DICTIONARY\_VALUE**](/windows/desktop/api/WebServices/nf-webservices-ws_xml_string_dictionary_value)
--   [**WS\_XML\_STRING\_NULL**](https://msdn.microsoft.com/library/Dd323562(v=VS.85).aspx)
+-   [**WS\_XML\_STRING\_NULL**](/previous-versions/windows/desktop/legacy/dd323562(v=vs.85))
 -   [**WS\_XML\_STRING\_VALUE**](/windows/desktop/api/WebServices/nf-webservices-ws_xml_string_value)
 -   [**WsCountOf**](/windows/desktop/api/WebServices/nf-webservices-wscountof)
 -   [**WsOffsetOf**](/windows/desktop/api/WebServices/nf-webservices-wsoffsetof)
@@ -21,7 +21,3 @@ The Windows Web Services API includes the following macros:
  
 
  
-
-
-
-

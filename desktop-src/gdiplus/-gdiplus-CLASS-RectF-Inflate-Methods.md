@@ -8,7 +8,7 @@ ms.topic: reference
 
 # RectF.Inflate methods
 
-This topic lists the Inflate methods of the [**RectF**](https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx) class. For a complete list of methods for the **RectF** class, see [RectF Methods](-gdiplus-class-rectf-methods.md).
+This topic lists the Inflate methods of the [**RectF**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-rectf) class. For a complete list of methods for the **RectF** class, see [RectF Methods](-gdiplus-class-rectf-methods.md).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the Inflate methods of the [**RectF**](https://msdn.microsoft.c
 
 | Method                                                            | Description                                                                                                                         |
 |:------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
-| [**Inflate(PointF&)**](https://msdn.microsoft.com/library/ms534952(v=VS.85).aspx)   | The [**RectF::Inflate**](https://msdn.microsoft.com/library/ms534952(v=VS.85).aspx)*point*.**X***point*.**Y** on the top and bottom edges.<br/> |
-| [**Inflate(REAL,REAL)**](https://msdn.microsoft.com/library/ms534953(v=VS.85).aspx) | The [**RectF::Inflate**](https://msdn.microsoft.com/library/ms534953(v=VS.85).aspx)*dxdy* on the top and bottom edges.<br/>                     |
+| [**Inflate(PointF&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-inflate(inconstpointf_))   | The [**RectF::Inflate**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-inflate(inconstpointf_))*point*.**X***point*.**Y** on the top and bottom edges.<br/> |
+| [**Inflate(REAL,REAL)**](/previous-versions//ms534953(v=vs.85)) | The [**RectF::Inflate**](/previous-versions//ms534953(v=vs.85))*dxdy* on the top and bottom edges.<br/>                     |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the Inflate methods of the [**RectF**](https://msdn.microsoft.c
  
 
  
-
-
-
-

@@ -37,12 +37,7 @@ The properties of a transaction are summarized in the following table.
 
 These properties ensure that software can handle unexpected errors, because it can simply abort a transaction when an unexpected situation prevents a successful completion. The transaction infrastructure ensures that all the effects of the aborted transaction are rolled back, returning the data to a consistent state. Therefore, a transactional system enables a graceful recovery from system failures.
 
-To guarantee the ACID properties, a system that supports transactions must have a robust logging capability that can be used to commit or roll back transactions as necessary. For more information, see [Common Log File System](https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-portal).
+To guarantee the ACID properties, a system that supports transactions must have a robust logging capability that can be used to commit or roll back transactions as necessary. For more information, see [Common Log File System](/previous-versions/windows/desktop/clfs/common-log-file-system-portal).
 
  
-
- 
-
-
-
 

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # XTYP\_ADVREQ transaction
 
-The **XTYP\_ADVREQ** transaction informs the server that an advise transaction is outstanding on the specified topic name and item name pair and that data corresponding to the topic name and item name pair has changed. The system sends this transaction to the Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), after the server calls the [**DdePostAdvise**](/windows/desktop/api/Ddeml/nf-ddeml-ddepostadvise) function.
+The **XTYP\_ADVREQ** transaction informs the server that an advise transaction is outstanding on the specified topic name and item name pair and that data corresponding to the topic name and item name pair has changed. The system sends this transaction to the Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), after the server calls the [**DdePostAdvise**](/windows/desktop/api/Ddeml/nf-ddeml-ddepostadvise) function.
 
 
 ```C++
@@ -136,10 +136,4 @@ A server cannot block this transaction type; the **CBR\_BLOCK** return code is i
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

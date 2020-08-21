@@ -20,7 +20,7 @@ Defines the contents of a menu resource. A menu resource is a collection of info
 
 -   Help identifiers on menus.
 -   Identifiers on menus.
--   Use of the **MFT\_\*** type flags and **MFS\_\*** state flags. For more information on these flags, see the [**MENUITEMINFO**](https://msdn.microsoft.com/library/ms647578(v=VS.85).aspx) structure.
+-   Use of the **MFT\_\*** type flags and **MFS\_\*** state flags. For more information on these flags, see the [**MENUITEMINFO**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa) structure.
 
 ``` syntax
 menuID MENUEX{ [{[MENUITEM itemText [,[id][, [type][, state]]]] | 
@@ -104,7 +104,7 @@ Numeric expression indicating the state of the menu item To use the predefined M
 <span id="helpID"></span><span id="helpid"></span><span id="HELPID"></span>*helpID*
 </dt> <dd>
 
-Numeric expression indicating the identifier used to identify the menu during [**WM\_HELP**](https://msdn.microsoft.com/library/Bb774305(v=VS.85).aspx) processing.
+Numeric expression indicating the identifier used to identify the menu during [**WM\_HELP**](../shell/wm-help.md) processing.
 
 </dd> </dl> </dd> <dt>
 
@@ -132,7 +132,7 @@ The valid arithmetic and Boolean operations that can be contained in any of the 
 
 <dl> <dt>
 
-[Using Menus](https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx)
+[Using Menus](./using-menus.md)
 </dt> <dt>
 
 [**ACCELERATORS**](accelerators-resource.md)
@@ -168,7 +168,3 @@ The valid arithmetic and Boolean operations that can be contained in any of the 
  
 
  
-
-
-
-

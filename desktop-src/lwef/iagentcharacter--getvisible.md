@@ -29,12 +29,8 @@ Address of a variable that receives **True** if the character's frame is visible
 
 </dd> </dl>
 
-You can use this method to determine whether the character's frame is currently visible. To make a character visible, use the [**Show**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--show) method. To hide a character, use the [**Hide**](https://docs.microsoft.com/windows/desktop/lwef/iagentcharacter--hide) method.
+You can use this method to determine whether the character's frame is currently visible. To make a character visible, use the [**Show**](/windows/desktop/lwef/iagentcharacter--show) method. To hide a character, use the [**Hide**](/windows/desktop/lwef/iagentcharacter--hide) method.
 
  
 
  
-
-
-
-

@@ -38,11 +38,11 @@ There are several things users can do to accommodate these changes:
 
 As a result of these changes, this API guidance is provided:
 
--   The functionality of some method calls within the [IApplicationAssociationRegistration](https://msdn.microsoft.com/library/bb776332(VS.85).aspx) API has changed, and should no longer be used.
+-   The functionality of some method calls within the [IApplicationAssociationRegistration](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration) API has changed, and should no longer be used.
 
-    -   **Do not** call [QueryAppIsDefault](https://msdn.microsoft.com/library/bb776334(v=VS.85).aspx)/[QueryAppIsDefaultAll](https://msdn.microsoft.com/library/bb776335(v=VS.85).aspx) to determine if an app is the default
-    -   **Do not** call [QueryCurrentDefault](https://msdn.microsoft.com/library/bb776336(v=VS.85).aspx) to determine which app (if any) is the current default
-    -   **Do not** call [SetAppIsDefault](https://msdn.microsoft.com/library/bb776337(v=VS.85).aspx)/[SetAppIsDefaultAll](https://msdn.microsoft.com/library/bb776338(v=VS.85).aspx) to set the default app
+    -   **Do not** call [QueryAppIsDefault](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-queryappisdefault)/[QueryAppIsDefaultAll](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-queryappisdefaultall) to determine if an app is the default
+    -   **Do not** call [QueryCurrentDefault](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-querycurrentdefault) to determine which app (if any) is the current default
+    -   **Do not** call [SetAppIsDefault](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-setappasdefault)/[SetAppIsDefaultAll](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-setappasdefaultall) to set the default app
 
 -   The guidance going forward is:
 
@@ -54,9 +54,9 @@ As a result of these changes, this API guidance is provided:
 
     -   **Do not** attempt to manage defaults for file types or URI schemes from within an app
 
-    -   **Do** integrate with the [Set Default Programs](https://msdn.microsoft.com/library/cc144154(v=VS.85).aspx) control panel if you want to allow users of your app to access the default management UI (the management UI within the app is no longer supported)
+    -   **Do** integrate with the [Set Default Programs](../shell/default-programs.md) control panel if you want to allow users of your app to access the default management UI (the management UI within the app is no longer supported)
 
-        -   Calling [IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI](https://msdn.microsoft.com/library/bb776330(VS.85).aspx) allows the user to access the ‘[Set Default Programs](https://msdn.microsoft.com/library/cc144154(v=VS.85).aspx)’ control panel page for the specified app
+        -   Calling [IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI](/windows/win32/api/shobjidl/nf-shobjidl-iapplicationassociationregistrationui-launchadvancedassociationui) allows the user to access the ‘[Set Default Programs](../shell/default-programs.md)’ control panel page for the specified app
 
 ## Tests
 
@@ -66,13 +66,9 @@ As a result of these changes, this API guidance is provided:
 
 ## Resources
 
--   [Best Practices for File Type and URI Associations in Windows 8 Desktop Apps](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc144156(v=vs.85))
+-   [Best Practices for File Type and URI Associations in Windows 8 Desktop Apps](/previous-versions/windows/desktop/legacy/cc144156(v=vs.85))
 -   [File Type Associations and AutoPlay Build Conference Presentation](https://channel9.msdn.com/events/BUILD/BUILD2011/PLAT-282T)
 
  
 
  
-
-
-
-

@@ -38,14 +38,14 @@ uint32 ClearSnapshotState(
 *SnapshotSettingData* \[in\]
 </dt> <dd>
 
-A reference to the [**CIM\_VirtualSystemSettingData**](https://docs.microsoft.com/previous-versions//cc136954(v=vs.85)) instance that represents the snapshot whose state is to be cleared.
+A reference to the [**CIM\_VirtualSystemSettingData**](/previous-versions//cc136954(v=vs.85)) instance that represents the snapshot whose state is to be cleared.
 
 </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -116,9 +116,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

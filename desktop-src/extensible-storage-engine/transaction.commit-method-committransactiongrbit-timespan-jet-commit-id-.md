@@ -66,7 +66,7 @@ public void Commit(
 <!-- end list -->
 
   - durableCommit  
-    Type: [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN)  
+    Type: [System.TimeSpan](/dotnet/api/system.timespan)  
     
     Duration for committing lazy transactions.
 
@@ -88,4 +88,3 @@ public void Commit(
 [Commit overload](dn351242\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

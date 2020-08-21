@@ -129,7 +129,7 @@ The following list identifies the naming structure for the backup file:
 -   If the original filename is 8.3, the extension is replaced by a string in the format of "001", "002", and so on with the smallest number larger than all the previously used and chosen numbers. If "999" is used, then the number chosen is the smallest unused number.
 -   If the original filename is not 8.3, a string in the format of "001", "002", and so on is appended to the file name.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> <dt>
 
@@ -224,9 +224,4 @@ For an example of using **LogFileEventConsumer** to create a consumer, see [Writ
 </dt> </dl>
 
  
-
- 
-
-
-
 

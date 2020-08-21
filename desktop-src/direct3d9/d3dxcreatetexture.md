@@ -45,16 +45,16 @@ HRESULT D3DXCreateTexture(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the device to be associated with the texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, representing the device to be associated with the texture.
 
 </dd> <dt>
 
 *Width* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Width in pixels. If this value is 0, a value of 1 is used. See Remarks.
 
@@ -63,7 +63,7 @@ Width in pixels. If this value is 0, a value of 1 is used. See Remarks.
 *Height* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Height in pixels. If this value is 0, a value of 1 is used. See Remarks.
 
@@ -72,7 +72,7 @@ Height in pixels. If this value is 0, a value of 1 is used. See Remarks.
 *MipLevels* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of mip levels requested. If this value is zero or D3DX\_DEFAULT, a complete mipmap chain is created.
 
@@ -81,7 +81,7 @@ Number of mip levels requested. If this value is zero or D3DX\_DEFAULT, a comple
 *Usage* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 0, [**D3DUSAGE\_RENDERTARGET**](d3dusage.md), or **D3DUSAGE\_DYNAMIC**. Setting this flag to **D3DUSAGE\_RENDERTARGET** indicates that the surface is to be used as a render target by calling the [**SetRenderTarget**](/windows/desktop/api) method. If either **D3DUSAGE\_RENDERTARGET** or **D3DUSAGE\_DYNAMIC** is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](/windows/desktop/api). For more information about using dynamic textures, see [Using Dynamic Textures](performance-optimizations.md).
 
@@ -99,18 +99,18 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the requeste
 *Pool* \[in\]
 </dt> <dd>
 
-Type: **[**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx)**
+Type: **[**D3DPOOL**](./d3dpool.md)**
 
-Member of the [**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx) enumerated type, describing the memory class into which the texture should be placed.
+Member of the [**D3DPOOL**](./d3dpool.md) enumerated type, describing the memory class into which the texture should be placed.
 
 </dd> <dt>
 
 *ppTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9)\***
 
-Address of a pointer to an [**IDirect3DTexture9**](https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx) interface, representing the created texture object.
+Address of a pointer to an [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dtexture9) interface, representing the created texture object.
 
 </dd> </dl>
 
@@ -122,7 +122,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 ## Remarks
 
-Internally, D3DXCreateTexture uses [**D3DXCheckTextureRequirements**](d3dxchecktexturerequirements.md) to adjust the calling parameters. Therefore, calls to D3DXCreateTexture will often succeed where calls to [**CreateTexture**](https://msdn.microsoft.com/library/Bb174363(v=VS.85).aspx) would fail.
+Internally, D3DXCreateTexture uses [**D3DXCheckTextureRequirements**](d3dxchecktexturerequirements.md) to adjust the calling parameters. Therefore, calls to D3DXCreateTexture will often succeed where calls to [**CreateTexture**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createtexture) would fail.
 
 If both Height and Width are set to [D3DX\_DEFAULT](other-d3dx-constants.md), a value of 256 is used for both parameters. If either Height or Width is set to D3DX\_DEFAULT And the other parameter is set to a numeric value, the texture will be square with both the height and width equal to the numeric value.
 
@@ -147,7 +147,3 @@ If both Height and Width are set to [D3DX\_DEFAULT](other-d3dx-constants.md), a 
  
 
  
-
-
-
-

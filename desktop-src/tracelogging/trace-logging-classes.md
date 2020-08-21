@@ -18,7 +18,7 @@ TraceLogging provides the following classes that provide support for logging Eve
 
 <dl> <dt>
 
-[About Event Tracing](https://docs.microsoft.com/windows/desktop/ETW/about-event-tracing)
+[About Event Tracing](/windows/desktop/ETW/about-event-tracing)
 </dt> <dt>
 
 [TraceLogging](trace-logging-portal.md)
@@ -27,7 +27,3 @@ TraceLogging provides the following classes that provide support for logging Eve
  
 
  
-
-
-
-

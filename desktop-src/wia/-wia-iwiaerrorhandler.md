@@ -22,7 +22,7 @@ The **IWiaErrorHandler** interface provides methods to handle errors that may oc
 
 ## Members
 
-The **IWiaErrorHandler** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IWiaErrorHandler** also has these types of members:
+The **IWiaErrorHandler** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IWiaErrorHandler** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -64,7 +64,3 @@ This interface is not designed to handle errors encountered outside of image dat
  
 
  
-
-
-
-

@@ -47,7 +47,7 @@ There are two ways to set an integer constant in a shader.
 
 1.  Use defi to define the integer constant vector directly inside a shader.
 2.  Use the API methods to set a constant.
-    -   Use [**SetVertexShaderConstantI**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstanti) to set an integer constant.
+    -   Use [**SetVertexShaderConstantI**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstanti) to set an integer constant.
 
 ## Related topics
 
@@ -65,7 +65,3 @@ There are two ways to set an integer constant in a shader.
  
 
  
-
-
-
-

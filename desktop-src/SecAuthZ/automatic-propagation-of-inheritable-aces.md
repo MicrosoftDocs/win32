@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Automatic Propagation of Inheritable ACEs
 
-The [**SetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setnamedsecurityinfoa) and [**SetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setsecurityinfo) functions support automatic propagation of inheritable [*access control entries*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACEs). For example, if you use these functions to add an inheritable ACE to a directory in an NTFS, the system applies the ACE as appropriate to the [*access control lists*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACLs) of any existing subdirectories or files.
+The [**SetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setnamedsecurityinfoa) and [**SetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setsecurityinfo) functions support automatic propagation of inheritable [*access control entries*](/windows/desktop/SecGloss/a-gly) (ACEs). For example, if you use these functions to add an inheritable ACE to a directory in an NTFS, the system applies the ACE as appropriate to the [*access control lists*](/windows/desktop/SecGloss/a-gly) (ACLs) of any existing subdirectories or files.
 
-Directly applied ACEs have precedence over inherited ACEs. The system implements this precedence by placing directly applied ACEs ahead of inherited ACEs in a [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL). When you call the [**SetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setnamedsecurityinfoa) and [**SetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setsecurityinfo) functions to set the security information of an object, the system imposes the current inheritance model on the ACLs of all objects in the hierarchy below the target object. For objects that have been converted to the current inheritance model, the SE\_DACL\_AUTO\_INHERITED and SE\_SACL\_AUTO\_INHERITED bits are set in the control field of the [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) of the object.
+Directly applied ACEs have precedence over inherited ACEs. The system implements this precedence by placing directly applied ACEs ahead of inherited ACEs in a [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL). When you call the [**SetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setnamedsecurityinfoa) and [**SetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setsecurityinfo) functions to set the security information of an object, the system imposes the current inheritance model on the ACLs of all objects in the hierarchy below the target object. For objects that have been converted to the current inheritance model, the SE\_DACL\_AUTO\_INHERITED and SE\_SACL\_AUTO\_INHERITED bits are set in the control field of the [*security descriptor*](/windows/desktop/SecGloss/s-gly) of the object.
 
 When you build a new security descriptor that reflects the current inheritance model, care is taken not to change the semantics of the security descriptor. As such, allow and deny ACEs are never moved in relation to one another. If such movement is needed (for instance to place all noninherited ACEs at the front of an ACL), the ACL is marked as protected to prevent the semantic change.
 
@@ -25,11 +25,8 @@ These rules can have the unexpected result of converting an object with no DACL 
 
 To ensure that a child object with no DACL is not affected by inheritable ACEs, set the SE\_DACL\_PROTECTED flag in the security descriptor of the object.
 
-For information about how to properly create a DACL, see [Creating a DACL](https://docs.microsoft.com/windows/desktop/SecBP/creating-a-dacl).
+For information about how to properly create a DACL, see [Creating a DACL](/windows/desktop/SecBP/creating-a-dacl).
 
  
 
  
-
-
-

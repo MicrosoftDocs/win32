@@ -41,7 +41,7 @@ HRESULT GetString(
 *ppString* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)\***
 
 A pointer to the string.
 
@@ -79,10 +79,4 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

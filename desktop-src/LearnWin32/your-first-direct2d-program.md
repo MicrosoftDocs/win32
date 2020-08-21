@@ -205,8 +205,8 @@ You can download the complete Visual Studio project from [Direct2D Circle Sample
 
 The **D2D1** namespace contains helper functions and classes. These are not strictly part of the Direct2D API — you can program Direct2D without using them — but they help simplify your code. The **D2D1** namespace contains:
 
--   A [**ColorF**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-colorf) class for constructing color values.
--   A [**Matrix3x2F**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f) for constructing transformation matrices.
+-   A [**ColorF**](/windows/desktop/api/d2d1helper/nl-d2d1helper-colorf) class for constructing color values.
+-   A [**Matrix3x2F**](/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f) for constructing transformation matrices.
 -   A set of functions to initialize Direct2D structures.
 
 You will see examples of the **D2D1** namespace throughout this module.
@@ -225,7 +225,3 @@ You will see examples of the **D2D1** namespace throughout this module.
  
 
  
-
-
-
-

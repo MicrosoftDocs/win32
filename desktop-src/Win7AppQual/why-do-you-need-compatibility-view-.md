@@ -14,7 +14,7 @@ The Compatibility View feature follows a set of rules to display content correct
 
 If a user clicks the icon, Windows Internet Explorer 8 switches rendering modes, and the page reloads instantly.
 
-Users do not always see this icon. It is a secondary solution instead of the primary application compatibility mechanism. Windows Internet Explorer displays this icon only when a change into Compatibility View makes sense, such as when a user views standards mode pages. In all other cases, such as when a user views quirks mode pages or views Intranet Zone sites, the icon does not appear. For more information about Compatibility View and when the icon appears, see [Introducing Compatibility View](https://blogs.msdn.com/ie/archive/2008/08/27/introducing-compatibility-view.aspx).
+Users do not always see this icon. It is a secondary solution instead of the primary application compatibility mechanism. Windows Internet Explorer displays this icon only when a change into Compatibility View makes sense, such as when a user views standards mode pages. In all other cases, such as when a user views quirks mode pages or views Intranet Zone sites, the icon does not appear. For more information about Compatibility View and when the icon appears, see [Introducing Compatibility View](/archive/blogs/ie/).
 
 ## Related topics
 
@@ -26,6 +26,3 @@ Users do not always see this icon. It is a secondary solution instead of the pri
  
 
  
-
-
-

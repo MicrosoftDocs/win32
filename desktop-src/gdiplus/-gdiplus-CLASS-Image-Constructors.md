@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Image.Image constructors
 
-This topic lists the constructors of the [**Image**](https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx) class. For a complete class listing, see **Image Class**.
+This topic lists the constructors of the [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) class. For a complete class listing, see **Image Class**.
 
 ### Overload list
 
@@ -16,15 +16,11 @@ This topic lists the constructors of the [**Image**](https://msdn.microsoft.com/
 
 | Constructor                                                                                    | Description                                                                                                                           |
 |:-----------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------|
-| [**Image(WCHAR\*,BOOL)**](https://msdn.microsoft.com/library/ms535411(v=VS.85).aspx) | Creates an [**Image::Image**](https://msdn.microsoft.com/library/ms535411(v=VS.85).aspx) object based on a file.<br/> |
-| [**Image(IStream\*,BOOL)**](https://msdn.microsoft.com/library/ms535410(v=VS.85).aspx) | Creates an [**Image::Image**](https://msdn.microsoft.com/library/ms535410(v=VS.85).aspx) object based on a stream.<br/> |
+| [**Image(WCHAR\*,BOOL)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-image(inconstwchar_inbool)) | Creates an [**Image::Image**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-image(inconstwchar_inbool)) object based on a file.<br/> |
+| [**Image(IStream\*,BOOL)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-image(inistream_inbool)) | Creates an [**Image::Image**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-image(inistream_inbool)) object based on a stream.<br/> |
 
 
 
  
 
  
-
-
-
-

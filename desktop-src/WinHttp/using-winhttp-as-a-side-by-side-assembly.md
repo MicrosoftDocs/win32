@@ -12,9 +12,9 @@ On Windows Server 2003, WinHTTP is implemented as a side-by-side assembly, and m
 
 ## Side-by-side Assemblies
 
-Starting with Microsoft Windows XP, a side-by-side assemblies mechanism was provided to control run-time linking to avoid dynamic-link-library (DLL) versioning conflicts. For information about side-by-side assemblies, see [About Isolated Applications and Side-by-side Assemblies](https://docs.microsoft.com/windows/desktop/SbsCs/about-isolated-applications-and-side-by-side-assemblies).
+Starting with Microsoft Windows XP, a side-by-side assemblies mechanism was provided to control run-time linking to avoid dynamic-link-library (DLL) versioning conflicts. For information about side-by-side assemblies, see [About Isolated Applications and Side-by-side Assemblies](/windows/desktop/SbsCs/about-isolated-applications-and-side-by-side-assemblies).
 
-To use this mechanism to link to WinHTTP version 5.1 on Windows Server 2003, an application must incorporate a manifest that specifies WinHTTP as a dependent assembly. See [Using Side-by-side Assemblies](https://docs.microsoft.com/windows/desktop/SbsCs/using-side-by-side-assemblies) for more information about how to do this.
+To use this mechanism to link to WinHTTP version 5.1 on Windows Server 2003, an application must incorporate a manifest that specifies WinHTTP as a dependent assembly. See [Using Side-by-side Assemblies](/windows/desktop/SbsCs/using-side-by-side-assemblies) for more information about how to do this.
 
 ## A Sample WinHTTP Application Manifest
 
@@ -52,6 +52,3 @@ All values not specific to your application should take the forms shown below.
  
 
  
-
-
-

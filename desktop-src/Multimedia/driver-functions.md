@@ -16,9 +16,9 @@ ms.date: 05/31/2018
 
 The functions in this section describe the entry point, default processing, and callback functions to use in an installable driver.
 
--   [DefDriverProc](https://msdn.microsoft.com/library/Dd797870(v=VS.85).aspx)
--   [DriverProc](https://msdn.microsoft.com/library/Dd797918(v=VS.85).aspx)
--   [DriverCallback](https://msdn.microsoft.com/library/Dd797917(v=VS.85).aspx)
+-   [DefDriverProc](/windows/win32/api/mmiscapi/nf-mmiscapi-defdriverproc)
+-   [DriverProc](/windows/win32/api/mmiscapi/nc-mmiscapi-driverproc)
+-   [DriverCallback](/windows/win32/api/mmiscapi/nf-mmiscapi-drivercallback)
 
 ## Related topics
 
@@ -30,7 +30,3 @@ The functions in this section describe the entry point, default processing, and 
  
 
  
-
-
-
-

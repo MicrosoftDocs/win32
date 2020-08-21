@@ -40,7 +40,7 @@ HRESULT D3DXGetImageInfoFromResource(
 *hSrcModule* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](../winprog/windows-data-types.md)**
 
 Module where the resource is loaded. Set this parameter to **NULL** to specify the module associated with the image that the operating system used to create the current process.
 
@@ -49,7 +49,7 @@ Module where the resource is loaded. Set this parameter to **NULL** to specify t
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCTSTR**](../winprog/windows-data-types.md)**
 
 Pointer to a string that specifies the filename. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the string data type resolves to LPCSTR. See Remarks.
 
@@ -101,7 +101,3 @@ The compiler setting also determines the function version. If Unicode is defined
  
 
  
-
-
-
-

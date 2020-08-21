@@ -55,7 +55,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> </dl>
 
-Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](https://docs.microsoft.com/windows/desktop/WmiSdk/--event). For more information about constants used to set this security descriptor, see [WMI Security Constants](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-security-constants).
+Descriptor used by the event provider to determine which users can receive the event. This property is inherited from [**\_\_Event**](/windows/desktop/WmiSdk/--event). For more information about constants used to set this security descriptor, see [WMI Security Constants](/windows/desktop/WmiSdk/wmi-security-constants).
 
 </dd> <dt>
 
@@ -68,15 +68,15 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format. This property is inherited from [**\_\_Event**](https://docs.microsoft.com/windows/desktop/WmiSdk/--event).
+Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format. This property is inherited from [**\_\_Event**](/windows/desktop/WmiSdk/--event).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/previous-versions//aa393262(v=vs.85)).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> </dl>
 
 ## Remarks
 
-To connect to the "Root\\CIMV2\\TerminalServices" namespace, the authentication level must include packet privacy. For C/C++ calls, this is an authentication level of **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**, which can be set by using the [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/ms692692(v=VS.85).aspx) COM function. For Visual Basic and scripting calls, this is an authentication level of **WbemAuthenticationLevelPktPrivacy** or "pktPrivacy", with a value of 6. The following Visual Basic Scripting Edition (VBScript) example shows how to connect to a remote computer with packet privacy.
+To connect to the "Root\\CIMV2\\TerminalServices" namespace, the authentication level must include packet privacy. For C/C++ calls, this is an authentication level of **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**, which can be set by using the [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) COM function. For Visual Basic and scripting calls, this is an authentication level of **WbemAuthenticationLevelPktPrivacy** or "pktPrivacy", with a value of 6. The following Visual Basic Scripting Edition (VBScript) example shows how to connect to a remote computer with packet privacy.
 
 
 ```VB
@@ -87,7 +87,7 @@ Set objServices = GetObject( _
 
 
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK). They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://docs.microsoft.com/windows/desktop/WmiSdk/managed-object-format--mof-).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK). They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## Requirements
 
@@ -104,10 +104,4 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
  
-
- 
-
-
-
-
 

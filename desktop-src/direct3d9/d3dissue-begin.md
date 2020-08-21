@@ -17,7 +17,7 @@ api_location:
 
 # D3DISSUE\_BEGIN
 
-This macro creates a value used by [**Issue**](https://msdn.microsoft.com/library/Bb205877(v=VS.85).aspx) to issue a query begin.
+This macro creates a value used by [**Issue**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-issue) to issue a query begin.
 
 ``` syntax
 #define D3DISSUE_BEGIN (1 << 1)
@@ -52,13 +52,9 @@ D3DISSUE\_BEGIN is valid for the following query type.
 [**D3DGETDATA\_FLUSH**](d3dgetdata-flush.md)
 </dt> <dt>
 
-[**D3DQUERYTYPE**](https://msdn.microsoft.com/library/Bb172594(v=VS.85).aspx)
+[**D3DQUERYTYPE**](./d3dquerytype.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

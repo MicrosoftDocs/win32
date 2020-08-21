@@ -27,7 +27,7 @@ The following command strings are used with multimedia.
 -   [delete](delete.md)
 -   [escape](escape.md)
 -   [freeze](freeze.md)
--   [index](index.md)
+-   [index](./windows-multimedia-start-page.md)
 -   [info](info.md)
 -   [list](list.md)
 -   [load](load.md)
@@ -73,7 +73,3 @@ The following command strings are used with multimedia.
  
 
  
-
-
-
-

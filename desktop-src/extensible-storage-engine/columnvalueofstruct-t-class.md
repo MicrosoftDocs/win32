@@ -32,7 +32,7 @@ Set a column of a struct type (e.g. Int32/Guid).
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
     Microsoft.Isam.Esent.Interop.ColumnValueOfStruct\<T\>  
       
@@ -74,7 +74,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
     Microsoft.Isam.Esent.Interop.ColumnValueOfStruct\<T\>  
       [Microsoft.Isam.Esent.Interop.BoolColumnValue](dn334148\(v=exchg.10\).md)  
@@ -89,4 +89,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
       [Microsoft.Isam.Esent.Interop.UInt16ColumnValue](dn351247\(v=exchg.10\).md)  
       [Microsoft.Isam.Esent.Interop.UInt32ColumnValue](dn351251\(v=exchg.10\).md)  
       [Microsoft.Isam.Esent.Interop.UInt64ColumnValue](dn351190\(v=exchg.10\).md)
-

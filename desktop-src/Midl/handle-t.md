@@ -41,7 +41,7 @@ Parameters of type **handle\_t** (primitive handle parameters) are not transmitt
 [MIDL Base Types](midl-base-types.md)
 </dt> <dt>
 
-[Binding and Handles](https://docs.microsoft.com/windows/desktop/Rpc/binding-and-handles)
+[Binding and Handles](/windows/desktop/Rpc/binding-and-handles)
 </dt> <dt>
 
 [Interface Definition (IDL) File](interface-definition-idl-file.md)
@@ -62,7 +62,3 @@ Parameters of type **handle\_t** (primitive handle parameters) are not transmitt
  
 
  
-
-
-
-

@@ -46,7 +46,7 @@ Clients are generally in good shape. Their outgoing Transmission Control Protoco
 
 The Internet Connection Firewall (ICF) in Windows XP and Windows Server 2003 is a stateful packet filter, and handles both Internet Protocol, version 4 (IPv4) and Internet Protocol, version 6 (IPv6). However, it is not on by default and does not support 3rd party network stacks, of which there are a significant number in the world, such as large internet providers including national telephone companies.
 
-For those not on Windows XP SP2, turning on the ICF is highly recommended. See the instructions "Use an Internet Firewall" on https://www.microsoft.com/security/protect as the first step to securing your PC. The Internet Connection Firewall (ICF) provides port mapping to override the packet filter. Essentially, you specify the port to open and it remains opened until you close it. If the user reboots before it is closed, it will remain open until specifically closed. The control of the firewall and the management of the port mappings is done via [**INetSharingManager**](https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingmanager) (IPv4) and [**INetFwV6Mgr**](https://docs.microsoft.com/previous-versions/windows/desktop/ics/inetfwv6mgr) (IPv6).
+For those not on Windows XP SP2, turning on the ICF is highly recommended. See the instructions "Use an Internet Firewall" on https://www.microsoft.com/security/protect as the first step to securing your PC. The Internet Connection Firewall (ICF) provides port mapping to override the packet filter. Essentially, you specify the port to open and it remains opened until you close it. If the user reboots before it is closed, it will remain open until specifically closed. The control of the firewall and the management of the port mappings is done via [**INetSharingManager**](/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingmanager) (IPv4) and [**INetFwV6Mgr**](/previous-versions/windows/desktop/ics/inetfwv6mgr) (IPv6).
 
 The Windows Firewall for Windows XP SP2 is a more comprehensive solution that does support 3rd party network stacks, and handles ports more intelligently: ports are kept open only so long as the application that needs them is still active.
 
@@ -62,13 +62,13 @@ The new Windows Firewall is available on both Windows XP SP2 and Windows Server 
 
 In the "on with no exceptions" mode, all static holes are closed. API calls to open a static hole are allowed but deferred; that is, they are not applied until the firewall switches back to normal operation. All listen requests by applications will also be ignored. Outbound connections will still succeed.
 
-For new applications, add your application to the "Exceptions List" during installation. You can add the application using the [**INetFwAuthorizedApplications**](https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplications) interface, supplying the full path. We'll cover the details in the sample.
+For new applications, add your application to the "Exceptions List" during installation. You can add the application using the [**INetFwAuthorizedApplications**](/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplications) interface, supplying the full path. We'll cover the details in the sample.
 
 As a side note, you may be wondering if it is a security risk that applications can add and remove applications from the exceptions list any user intervention, or perhaps you think that the bigger risk is that applications can disable the firewall altogether. To perform these feats, the application must have administrator privileges. If you have malicious code running in administrator mode on your system, the game is already over and the hacker has already won. The hacker's ability to disable the firewall would merit little more than a footnote.
 
 Legacy applications, including applications installed before the user upgraded to Windows XP SP2, are handled with the Exceptions List popup (see Figure 1). This dialog shows when an application tries to open a port for incoming traffic - either when calling bind() with a non-zero port for UDP, or accept() for TCP/IP protocol. You must be running as an Administrator to "Unblock" applications, while "Ask Me Later" disallows this time around but asks again next time.
 
-This is a non-blocking, system modal dialog box. When running a fullscreen Microsoft Direct3D application, the dialog comes in underneath; and the user can then handle it when the application exits fullscreen mode or alt-tabs back to the desktop. However, it is not always obvious to the user that this dialog has appeared when a game is running fullscreen, so it is important to avoid causing this dialog to appear by using [**INetFwAuthorizedApplications**](https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplications) interface as discussed below.
+This is a non-blocking, system modal dialog box. When running a fullscreen Microsoft Direct3D application, the dialog comes in underneath; and the user can then handle it when the application exits fullscreen mode or alt-tabs back to the desktop. However, it is not always obvious to the user that this dialog has appeared when a game is running fullscreen, so it is important to avoid causing this dialog to appear by using [**INetFwAuthorizedApplications**](/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplications) interface as discussed below.
 
 **Figure 1. Exceptions List Popup Dialog**
 
@@ -321,7 +321,7 @@ The following is the steps needed to do this using an MSI editor such as Orca fo
 
      
 
-For more information on Windows Installer, see [Windows Installer](https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal).
+For more information on Windows Installer, see [Windows Installer](/windows/desktop/Msi/windows-installer-portal).
 
 ## Recommendations
 
@@ -334,7 +334,3 @@ The firewall is here to stay. These recommendations will give your customers a g
  
 
  
-
-
-
-

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 The update command repaints the current frame into the specified device context (DC). Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -64,7 +64,7 @@ The following table lists the flags that can be specified in the **lpszHDC** par
 |---------------------|--------------------------------------------------------------------------------------------------------|
 | hdc *hdc*           | Specifies the handle of the DC to paint.                                                               |
 | hdc *hdc* at *rect* | Specifies the clipping rectangle relative to the client rectangle.                                     |
-| paint hdc *hdc*     | Paints the DC when the application receives a [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) message intended for a DC. |
+| paint hdc *hdc*     | Paints the DC when the application receives a [**WM\_PAINT**](/windows/desktop/gdi/wm-paint) message intended for a DC. |
 
 
 
@@ -87,7 +87,7 @@ Returns zero if successful or an error otherwise.
 
 ## Examples
 
-The following command updates the entire display window used by the "movie" device. The number 203 is a handle to a DC obtained from the [**BeginPaint**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint) function.
+The following command updates the entire display window used by the "movie" device. The number 203 is a handle to a DC obtained from the [**BeginPaint**](/windows/desktop/api/winuser/nf-winuser-beginpaint) function.
 
 ``` syntax
 update movie hdc 203
@@ -115,10 +115,4 @@ update movie hdc 203
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

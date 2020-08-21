@@ -24,14 +24,14 @@ Changes the size of the render target to the specified pixel size.
 
 | Method                                                                         | Description                                                                    |
 |:-------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|
-| [**Resize(D2D1\_SIZE\_U&)**](https://msdn.microsoft.com/library/Dd371479(v=VS.85).aspx)  | Changes the size of the render target to the specified pixel size. <br/> |
-| [**Resize(D2D1\_SIZE\_U\*)**](https://msdn.microsoft.com/library/Dd371474(v=VS.85).aspx) | Changes the size of the render target to the specified pixel size.<br/>  |
+| [**Resize(D2D1\_SIZE\_U&)**](/windows/win32/api/d2d1/nf-d2d1-id2d1hwndrendertarget-resize(constd2d1_size_u_))  | Changes the size of the render target to the specified pixel size. <br/> |
+| [**Resize(D2D1\_SIZE\_U\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1hwndrendertarget-resize(constd2d1_size_u)) | Changes the size of the render target to the specified pixel size.<br/>  |
 
 
 
 ## Remarks
 
-After this method is called, the contents of the render target's back-buffer are not defined, even if the [**D2D1\_PRESENT\_OPTIONS\_RETAIN\_CONTENTS**](https://msdn.microsoft.com/library/Dd368144(v=VS.85).aspx) option was specified when the render target was created.
+After this method is called, the contents of the render target's back-buffer are not defined, even if the [**D2D1\_PRESENT\_OPTIONS\_RETAIN\_CONTENTS**](/windows/win32/api/d2d1/ne-d2d1-d2d1_present_options) option was specified when the render target was created.
 
 ## Requirements
 
@@ -49,14 +49,9 @@ After this method is called, the contents of the render target's back-buffer are
 
 <dl> <dt>
 
-[**ID2D1HwndRenderTarget**](https://msdn.microsoft.com/library/Dd371275(v=VS.85).aspx)
+[**ID2D1HwndRenderTarget**](/previous-versions/windows/desktop/legacy/dd371275(v=vs.85))
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

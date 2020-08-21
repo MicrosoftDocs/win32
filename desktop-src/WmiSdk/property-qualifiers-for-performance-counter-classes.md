@@ -22,13 +22,13 @@ Property qualifiers specify information about the performance counter to which t
 -   [How to Interpret Property Qualifiers](#how-to-interpret-property-qualifiers)
 -   [Related topics](#related-topics)
 
-The performance counter is part of a performance object represented by a WMI [performance counter class](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/performance-counter-classes) Performance counter–specific qualifiers are automatically attached by the WbemPerfClass provider to [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) classes and properties in Root\\CIMv2.
+The performance counter is part of a performance object represented by a WMI [performance counter class](/windows/desktop/CIMWin32Prov/performance-counter-classes) Performance counter–specific qualifiers are automatically attached by the WbemPerfClass provider to [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) classes and properties in Root\\CIMv2.
 
 This information applies to all instances of the performance class. Some qualifiers with **Boolean** values that are always false may not be present on specific classes.
 
 ## Property Qualifiers for Raw and Formatted Performance Classes
 
-The following list lists qualifiers that apply to properties in classes that are derived either from [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) or [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata).
+The following list lists qualifiers that apply to properties in classes that are derived either from [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) or [**Win32\_PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata).
 
 <dl> <dt>
 
@@ -70,7 +70,7 @@ Not used. Always contains 0.
 
 ## Property Qualifiers for Raw Performance Classes
 
-The following list lists qualifiers that apply to all properties of classes that are derived from [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata).
+The following list lists qualifiers that apply to all properties of classes that are derived from [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata).
 
 <dl> <dt>
 
@@ -79,7 +79,7 @@ The following list lists qualifiers that apply to all properties of classes that
 
 **boolean**
 
-Indicates whether this property is the default counter to use in list boxes. This qualifier defaults to **False** for Performance Counters Version 6.0 because they do not supply data for it. For more information, see [Performance Counters](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-portal).
+Indicates whether this property is the default counter to use in list boxes. This qualifier defaults to **False** for Performance Counters Version 6.0 because they do not supply data for it. For more information, see [Performance Counters](/windows/desktop/PerfCtrs/performance-counters-portal).
 
 </dd> <dt>
 
@@ -103,7 +103,7 @@ Audience level of knowledge. Not used. The value is always 100.
 
 ## Property Qualifiers for Formatted Performance Classes
 
-The following list lists qualifiers that apply to all properties of classes that are derived from [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata).
+The following list lists qualifiers that apply to all properties of classes that are derived from [**Win32\_PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata).
 
 <dl> <dt>
 
@@ -147,13 +147,13 @@ Name of a property in a raw class to use as a timestamp in the cooking formula. 
 
 ## How to Interpret Property Qualifiers
 
-Properties in the [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata) classes contain the calculated data supplied by the [Formatted Performance Data Provider](formatted-performance-data-provider.md). The property value is the final calculated result. The qualifiers supply a recipe.
+Properties in the [**Win32\_PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata) classes contain the calculated data supplied by the [Formatted Performance Data Provider](formatted-performance-data-provider.md). The property value is the final calculated result. The qualifiers supply a recipe.
 
 The **Counter** and **Base** qualifiers point to the sources of data and **CookingType** specifies the formula used to produce the result. The timestamp and sample frequency also come from the corresponding raw class and are named in **PerfTimeStamp** and **PerfTimeFreq**.
 
-For example, one of the formatted classes supplied by WMI, [**Win32\_PerfFormattedData\_PerfDisk\_LogicalDisk**](https://msdn.microsoft.com/library/dn750765(v=vs.85).aspx), contains a property named **AvgDiskBytesPerRead**. The name of the property in the formatted class must be the same as the property in the raw class. The **AvgDiskBytesPerRead** property has the following qualifiers.
+For example, one of the formatted classes supplied by WMI, [**Win32\_PerfFormattedData\_PerfDisk\_LogicalDisk**](./retrieving-raw-and-formatted-performance-data.md), contains a property named **AvgDiskBytesPerRead**. The name of the property in the formatted class must be the same as the property in the raw class. The **AvgDiskBytesPerRead** property has the following qualifiers.
 
-The following list lists the available property qualifiers for properties of all classes derived from [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata).
+The following list lists the available property qualifiers for properties of all classes derived from [**Win32\_PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata).
 
 
 
@@ -175,7 +175,7 @@ The **AvgDiskBytesPerRead** property reports the average number of bytes transfe
 
 (Sample2 - Sample1) / (Base Sample2 - Base Sample1)
 
-The read operation is sampled at the frequency specified by **PerfTimeFreq** with the **PerfTimeStamp** value indicating the most recent sample. The raw counter data in bytes is taken from the **AvgDiskBytesPerRead** property in the [**Win32\_PerfRawData\_PerfDisk\_LogicalDisk**](https://msdn.microsoft.com/library/dn750765(v=vs.85).aspx) class. The base number of operations data is taken from the **AvgDiskBytesPerRead\_Base** property in that same class.
+The read operation is sampled at the frequency specified by **PerfTimeFreq** with the **PerfTimeStamp** value indicating the most recent sample. The raw counter data in bytes is taken from the **AvgDiskBytesPerRead** property in the [**Win32\_PerfRawData\_PerfDisk\_LogicalDisk**](./retrieving-raw-and-formatted-performance-data.md) class. The base number of operations data is taken from the **AvgDiskBytesPerRead\_Base** property in that same class.
 
 For more information, see [Obtaining Statistical Performance Data](obtaining-statistical-performance-data.md) and [Monitoring Performance Data](monitoring-performance-data.md).
 
@@ -189,7 +189,7 @@ For more information, see [Obtaining Statistical Performance Data](obtaining-sta
 [Qualifiers Specific to WMI Performance Classes](qualifiers-specific-to-wmi-performance-classes.md)
 </dt> <dt>
 
-[Performance Counter Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/performance-counter-classes)
+[Performance Counter Classes](/windows/desktop/CIMWin32Prov/performance-counter-classes)
 </dt> <dt>
 
 [Accessing WMI Preinstalled Performance Classes](accessing-wmi-preinstalled-performance-classes.md)
@@ -201,6 +201,3 @@ For more information, see [Obtaining Statistical Performance Data](obtaining-sta
  
 
  
-
-
-

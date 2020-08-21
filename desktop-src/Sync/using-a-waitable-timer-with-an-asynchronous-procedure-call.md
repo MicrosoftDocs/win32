@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Using Waitable Timers with an Asynchronous Procedure Call
 
-The following example associates an [asynchronous procedure call](asynchronous-procedure-calls.md) (APC) function, also known as a completion routine, with a [waitable timer](waitable-timer-objects.md) when the timer is set. The address of the completion routine is the fourth parameter to the [**SetWaitableTimer**](https://msdn.microsoft.com/library/ms686289(v=VS.85).aspx) function. The fifth parameter is a void pointer that you can use to pass arguments to the completion routine.
+The following example associates an [asynchronous procedure call](asynchronous-procedure-calls.md) (APC) function, also known as a completion routine, with a [waitable timer](waitable-timer-objects.md) when the timer is set. The address of the completion routine is the fourth parameter to the [**SetWaitableTimer**](/windows/win32/api/synchapi/nf-synchapi-setwaitabletimer) function. The fifth parameter is a void pointer that you can use to pass arguments to the completion routine.
 
-The completion routine will be executed by the same thread that called [**SetWaitableTimer**](https://msdn.microsoft.com/library/ms686289(v=VS.85).aspx). This thread must be in an alertable state to execute the completion routine. It accomplishes this by calling the [**SleepEx**](https://msdn.microsoft.com/library/ms686307(v=VS.85).aspx) function, which is an alertable function.
+The completion routine will be executed by the same thread that called [**SetWaitableTimer**](/windows/win32/api/synchapi/nf-synchapi-setwaitabletimer). This thread must be in an alertable state to execute the completion routine. It accomplishes this by calling the [**SleepEx**](/windows/win32/api/synchapi/nf-synchapi-sleepex) function, which is an alertable function.
 
 Each thread has an APC queue. If there is an entry in the thread's APC queue at the time that one of the alertable functions is called, the thread is not put to sleep. Instead, the entry is removed from the APC queue and the completion routine is called.
 
@@ -18,7 +18,7 @@ If no entry exists in the APC queue, the thread is suspended until the wait is s
 
 After the completion routine is executed, the system checks for another entry in the APC queue to process. An alertable function will return only after all APC entries have been processed. Therefore, if entries are being added to the APC queue faster than they can be processed, it is possible that a call to an alertable function will never return. This is especially possible with waitable timers, if the period is shorter than the amount of time required to execute the completion routine.
 
-When you are using a waitable timer with an APC, the thread that sets the timer should not wait on the handle of the timer. By doing so, you would cause the thread to wake up as a result of the timer becoming signaled rather than as the result of an entry being added to the APC queue. As a result, the thread is no longer in an alertable state and the completion routine is not called. In the following code, the call to [**SleepEx**](https://msdn.microsoft.com/library/ms686307(v=VS.85).aspx) awakens the thread when an entry is added to the thread's APC queue after the timer is set to the signaled state.
+When you are using a waitable timer with an APC, the thread that sets the timer should not wait on the handle of the timer. By doing so, you would cause the thread to wake up as a result of the timer becoming signaled rather than as the result of an entry being added to the APC queue. As a result, the thread is no longer in an alertable state and the completion routine is not called. In the following code, the call to [**SleepEx**](/windows/win32/api/synchapi/nf-synchapi-sleepex) awakens the thread when an entry is added to the thread's APC queue after the timer is set to the signaled state.
 
 
 ```C++
@@ -131,6 +131,3 @@ int main( void )
  
 
  
-
-
-

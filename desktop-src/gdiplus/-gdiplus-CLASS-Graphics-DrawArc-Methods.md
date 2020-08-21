@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.DrawArc methods
 
-This topic lists the DrawArc methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the DrawArc methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -16,10 +16,10 @@ This topic lists the DrawArc methods of the [**Graphics**](https://msdn.microsof
 
 | Method                                                                                                                                                       | Description                                                                                                                                                                                          |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DrawArc(Pen\*,Rect&,REAL,REAL)**](https://msdn.microsoft.com/library/ms536152(v=VS.85).aspx)                                 | The [**Graphics::DrawArc**](https://msdn.microsoft.com/library/ms536152(v=VS.85).aspx) method draws an arc. The arc is part of an ellipse.<br/>                   |
-| [**DrawArc(Pen\*,RectF&,REAL,REAL)**](https://msdn.microsoft.com/library/ms536153(v=VS.85).aspx)                               | The [**Graphics::DrawArc**](https://msdn.microsoft.com/library/ms536153(v=VS.85).aspx) method draws an arc. The arc is part of an ellipse.<br/>                  |
-| [**DrawArc(Pen\*,INT,INT,INT,INT,REAL,REAL)**](https://msdn.microsoft.com/library/ms536155(v=VS.85).aspx)     | The [**Graphics::DrawArc**](https://msdn.microsoft.com/library/ms536155(v=VS.85).aspx) method draws an arc. The arc is part of an ellipse.<br/> |
-| [**DrawArc(Pen\*,REAL,REAL,REAL,REAL,REAL,REAL)**](https://msdn.microsoft.com/library/ms536154(v=VS.85).aspx) | The [**Graphics::DrawArc**](https://msdn.microsoft.com/library/ms536154(v=VS.85).aspx) method draws an arc. The arc is part of an ellipse.<br/> |
+| [**DrawArc(Pen\*,Rect&,REAL,REAL)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawarc(inconstpen_inconstrect__inreal_inreal))                                 | The [**Graphics::DrawArc**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawarc(inconstpen_inconstrect__inreal_inreal)) method draws an arc. The arc is part of an ellipse.<br/>                   |
+| [**DrawArc(Pen\*,RectF&,REAL,REAL)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawarc(inconstpen_inconstrectf__inreal_inreal))                               | The [**Graphics::DrawArc**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawarc(inconstpen_inconstrectf__inreal_inreal)) method draws an arc. The arc is part of an ellipse.<br/>                  |
+| [**DrawArc(Pen\*,INT,INT,INT,INT,REAL,REAL)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawarc(inconstpen_inint_inint_inint_inint_inreal_inreal))     | The [**Graphics::DrawArc**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawarc(inconstpen_inint_inint_inint_inint_inreal_inreal)) method draws an arc. The arc is part of an ellipse.<br/> |
+| [**DrawArc(Pen\*,REAL,REAL,REAL,REAL,REAL,REAL)**](/previous-versions//ms536154(v=vs.85)) | The [**Graphics::DrawArc**](/previous-versions//ms536154(v=vs.85)) method draws an arc. The arc is part of an ellipse.<br/> |
 
 
 
@@ -36,7 +36,3 @@ This topic lists the DrawArc methods of the [**Graphics**](https://msdn.microsof
  
 
  
-
-
-
-

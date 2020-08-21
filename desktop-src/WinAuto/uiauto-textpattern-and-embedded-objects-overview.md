@@ -111,7 +111,7 @@ The [Text and TextRange](uiauto-implementingtextandtextrange.md) control pattern
 The textual content (or inner text) of a text container and an embedded object, such as a hyperlink or table cell, is exposed as a single, continuous text stream in both the control view and the content view of the UI Automation tree; object boundaries are ignored. If a UI Automation client is retrieving the text to recite, interpret, or analyze in some manner, the text range should be checked for special cases, such as a table with textual content or other embedded objects. Call [**IUIAutomationTextRange::GetChildren**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getchildren) to obtain a [**IUIAutomationElement**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement) interface for each embedded object, and then call [**IUIAutomationTextPattern::RangeFromChild**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild) to obtain a text range for each element. This is done recursively until all textual content has been retrieved.
 
 > [!NOTE]
-> A degenerate (or collapsed) range is where the start endpoint and the end endpoint are same. Degenerate ranges are often used to indicate text cursor position through the [ITextProvider](https://docs.microsoft.com/windows/win32/api/uiautomationcore/nn-uiautomationcore-itextprovider) [GetSelection](https://docs.microsoft.com/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextprovider-getselection) and [GetCaretRange](https://docs.microsoft.com/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextprovider2-getcaretrange) methods.
+> A degenerate (or collapsed) range is where the start endpoint and the end endpoint are same. Degenerate ranges are often used to indicate text cursor position through the [ITextProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-itextprovider) [GetSelection](/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextprovider-getselection) and [GetCaretRange](/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextprovider2-getcaretrange) methods.
 
 The following diagram shows a text stream with embedded objects and their range spans.
 
@@ -119,7 +119,7 @@ The following diagram shows a text stream with embedded objects and their range 
 
 ## Embedded objects and TextUnit
 
-An [ITextProvider](https://docs.microsoft.com/windows/win32/api/uiautomationcore/nn-uiautomationcore-itextprovider) object can be traversed and  by a specified [TextUnit](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textunit). Providers that contain embedded objects can be traversed in much the same way, but embedded objects do affect traversal. Here are some things to be aware of:
+An [ITextProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-itextprovider) object can be traversed and  by a specified [TextUnit](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textunit). Providers that contain embedded objects can be traversed in much the same way, but embedded objects do affect traversal. Here are some things to be aware of:
 
 - Any non-compatible embedded object is represented by the replacement character U+FFFC in the text store of the container element's TextPattern. It is also considered both a character unit and a word unit.
 - Compatible embedded objects may consist of multiple characters and words.
@@ -152,18 +152,18 @@ An [ITextProvider](https://docs.microsoft.com/windows/win32/api/uiautomationcore
 
 ## Comparing embedded objects
 
-Nested TextPattern objects that are in a similar child relationship and share the same backing text store are called comparable. In this case, ranges from either of the TextPattern objects can be compared using [ITextRangeProvider::Compare](https://docs.microsoft.com/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextrangeprovider-compare) and [ITextRangeProvider::CompareEndpoints](https://docs.microsoft.com/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextrangeprovider-compareendpoints). Both result in a valid numerical value specifying their relative position.
+Nested TextPattern objects that are in a similar child relationship and share the same backing text store are called comparable. In this case, ranges from either of the TextPattern objects can be compared using [ITextRangeProvider::Compare](/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextrangeprovider-compare) and [ITextRangeProvider::CompareEndpoints](/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextrangeprovider-compareendpoints). Both result in a valid numerical value specifying their relative position.
 
-A non-TextPattern object embedded in a TextPattern object is comparable to the TextPattern if the object has a valid range in the TextPattern ([ITextProvider::RangeFromChild](https://docs.microsoft.com/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextprovider-rangefromchild)) and the content behind the text range is not empty and is not a replacement character.
+A non-TextPattern object embedded in a TextPattern object is comparable to the TextPattern if the object has a valid range in the TextPattern ([ITextProvider::RangeFromChild](/windows/win32/api/uiautomationcore/nf-uiautomationcore-itextprovider-rangefromchild)) and the content behind the text range is not empty and is not a replacement character.
 
 ## Embedded TextPattern objects and the Document TextUnit
 
-For embedded TextPattern objects, the [Document](https://docs.microsoft.com/windows/win32/api/uiautomationcore/ne-uiautomationcore-textunit) unit only recognizes the content contained within that element.
+For embedded TextPattern objects, the [Document](/windows/win32/api/uiautomationcore/ne-uiautomationcore-textunit) unit only recognizes the content contained within that element.
 
 ### Word TextPattern element hierarchy
 
-- The document element implements TextPattern and [Document](https://docs.microsoft.com/windows/win32/api/uiautomationcore/ne-uiautomationcore-textunit) returns the entire Word document range.
-- Individual pages of the document implement TextPattern and [Document](https://docs.microsoft.com/windows/win32/api/uiautomationcore/ne-uiautomationcore-textunit) returns the content of those individual pages (even though the pages share the same text store with the entire document TextPattern).
+- The document element implements TextPattern and [Document](/windows/win32/api/uiautomationcore/ne-uiautomationcore-textunit) returns the entire Word document range.
+- Individual pages of the document implement TextPattern and [Document](/windows/win32/api/uiautomationcore/ne-uiautomationcore-textunit) returns the content of those individual pages (even though the pages share the same text store with the entire document TextPattern).
 
 ### Webpage and text input controls in Edge
 

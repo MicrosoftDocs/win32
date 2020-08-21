@@ -19,7 +19,7 @@ api_location:
 
 # IBasicDevice::Icons method
 
-Returns a vector of [**IDeviceIcon**](https://msdn.microsoft.com/library/Hh828909(v=VS.85).aspx) interfaces.
+Returns a vector of [**IDeviceIcon**](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-ideviceicon) interfaces.
 
 ## Syntax
 
@@ -39,7 +39,7 @@ HRESULT Icons(
 *value* \[out\]
 </dt> <dd>
 
-Receives an enumerable collection of [**IDeviceIcon**](https://msdn.microsoft.com/library/Hh828909(v=VS.85).aspx) interface pointers.
+Receives an enumerable collection of [**IDeviceIcon**](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-ideviceicon) interface pointers.
 
 </dd> </dl>
 
@@ -65,10 +65,4 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

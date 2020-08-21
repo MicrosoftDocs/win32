@@ -56,14 +56,14 @@ public static void JetGetDatabaseFileInfo(
 #### Parameters
 
   - databaseName  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The file name of the database.
 
 <!-- end list -->
 
   - value  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The value to be retrieved.
 
@@ -85,4 +85,3 @@ public static void JetGetDatabaseFileInfo(
 [JetGetDatabaseFileInfo overload](dn292157\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

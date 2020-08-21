@@ -74,7 +74,7 @@ if (SUCCEEDED(hr))
 
 
 
-The following APIs can be used to query an association array or to construct an association array [**IQueryAssociations**](https://msdn.microsoft.com/library/Bb761400(v=VS.85).aspx) object that can be queried:
+The following APIs can be used to query an association array or to construct an association array [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) object that can be queried:
 
 -   [**AssocCreate**](/windows/desktop/api/Shlwapi/nf-shlwapi-assoccreate) (prior to Windows Vista)
 -   [**AssocCreateForClasses**](/windows/desktop/api/Shellapi/nf-shellapi-assoccreateforclasses)
@@ -158,6 +158,3 @@ Other common association arrays include Folder and Printers.
  
 
  
-
-
-

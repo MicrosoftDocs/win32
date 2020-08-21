@@ -36,16 +36,12 @@ Both the **ExtensionDLLs** and **AuthorizationDLLs** values must be of type **RE
 
 <dl> <dt>
 
-[Invoking the Extension DLLs](https://docs.microsoft.com/windows/desktop/Nps/ias-authentication-and-authorization-process)
+[Invoking the Extension DLLs](/windows/desktop/Nps/ias-authentication-and-authorization-process)
 </dt> <dt>
 
-[User Identification Attributes](https://docs.microsoft.com/windows/desktop/Nps/ias-user-identification-attributes)
+[User Identification Attributes](/windows/desktop/Nps/ias-user-identification-attributes)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -24,8 +24,8 @@ Sets the transform to apply to this style's nib shape.
 
 | Method                                                                             | Description                                                       |
 |:-----------------------------------------------------------------------------------|:------------------------------------------------------------------|
-| [**SetNibTransform (D2D1\_MATRIX\_3X2\_F\*)**](https://msdn.microsoft.com/library/Dn900431(v=VS.85).aspx)  | Sets the transform to apply to this style's nib shape.<br/> |
-| [**SetNibTransform (D2D1\_MATRIX\_3X2\_F&)**](https://msdn.microsoft.com/library/Dn900432(v=VS.85).aspx) | Sets the transform to apply to this style's nib shape.<br/> |
+| [**SetNibTransform (D2D1\_MATRIX\_3X2\_F\*)**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1inkstyle-setnibtransform(constd2d1_matrix_3x2_f))  | Sets the transform to apply to this style's nib shape.<br/> |
+| [**SetNibTransform (D2D1\_MATRIX\_3X2\_F&)**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1inkstyle-setnibtransform(constd2d1_matrix_3x2_f_)) | Sets the transform to apply to this style's nib shape.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Sets the transform to apply to this style's nib shape.
 
 <dl> <dt>
 
-[**ID2D1InkStyle**](https://msdn.microsoft.com/library/Dn900427(v=VS.85).aspx)
+[**ID2D1InkStyle**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1inkstyle)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

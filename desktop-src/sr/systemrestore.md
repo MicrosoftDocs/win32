@@ -167,7 +167,7 @@ The sequence number of the restore point.
 
 ## Remarks
 
-You can obtain a list of restore points by using the [**SWbemServices.InstancesOf**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemservices-instancesof) method to retrieve a collection of **SystemRestore** objects. You can use the class properties to identify the restore point.
+You can obtain a list of restore points by using the [**SWbemServices.InstancesOf**](/windows/desktop/WmiSdk/swbemservices-instancesof) method to retrieve a collection of **SystemRestore** objects. You can use the class properties to identify the restore point.
 
 ## Examples
 
@@ -205,14 +205,8 @@ next
 
 <dl> <dt>
 
-[Windows Management Instrumentation](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page)
+[Windows Management Instrumentation](/windows/desktop/WmiSdk/wmi-start-page)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -18,15 +18,15 @@ ms.date: 05/31/2018
 
 The following structures are used with audio mixers.
 
--   [**MIXERCAPS**](https://msdn.microsoft.com/library/Dd757291(v=VS.85).aspx)
--   [**MIXERCONTROL**](https://msdn.microsoft.com/library/Dd757293(v=VS.85).aspx)
+-   [**MIXERCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-mixercaps)
+-   [**MIXERCONTROL**](/windows/win32/api/mmeapi/ns-mmeapi-mixercontrol)
 -   [**MIXERCONTROLDETAILS**](/windows/win32/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta)
--   [**MIXERCONTROLDETAILS\_BOOLEAN**](https://msdn.microsoft.com/library/Dd757295(v=VS.85).aspx)
--   [**MIXERCONTROLDETAILS\_LISTTEXT**](https://msdn.microsoft.com/library/Dd757296(v=VS.85).aspx)
--   [**MIXERCONTROLDETAILS\_SIGNED**](https://msdn.microsoft.com/library/Dd757297(v=VS.85).aspx)
--   [**MIXERCONTROLDETAILS\_UNSIGNED**](https://msdn.microsoft.com/library/Dd757298(v=VS.85).aspx)
--   [**MIXERLINE**](https://msdn.microsoft.com/library/Dd757305(v=VS.85).aspx)
--   [**MIXERLINECONTROLS**](https://msdn.microsoft.com/library/Dd757306(v=VS.85).aspx)
+-   [**MIXERCONTROLDETAILS\_BOOLEAN**](/previous-versions//dd757295(v=vs.85))
+-   [**MIXERCONTROLDETAILS\_LISTTEXT**](/previous-versions//dd757296(v=vs.85))
+-   [**MIXERCONTROLDETAILS\_SIGNED**](/previous-versions//dd757297(v=vs.85))
+-   [**MIXERCONTROLDETAILS\_UNSIGNED**](/previous-versions//dd757298(v=vs.85))
+-   [**MIXERLINE**](/windows/win32/api/mmeapi/ns-mmeapi-mixerline)
+-   [**MIXERLINECONTROLS**](/windows/win32/api/mmeapi/ns-mmeapi-mixerlinecontrols)
 
 ## Related topics
 
@@ -38,7 +38,3 @@ The following structures are used with audio mixers.
  
 
  
-
-
-
-

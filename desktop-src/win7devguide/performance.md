@@ -27,7 +27,7 @@ The Windows 7Service Control Manager (SCM) has been extended so that a service 
 -   Group policy change: Start a service automatically when group policies are refreshed on the system.
 -   IP address arrival: Start a service only when the system is connected to the network.
 
-Software developers can use the predefined trigger types for Windows 7 and the configuration options to enable trigger-start capability. The Windows 7SCM exposes a new set of APIs that enable a service to register for specific custom trigger events. (See [Service Control Manager](https://msdn.microsoft.com/library/ms685150(VS.85).aspx).)
+Software developers can use the predefined trigger types for Windows 7 and the configuration options to enable trigger-start capability. The Windows 7SCM exposes a new set of APIs that enable a service to register for specific custom trigger events. (See [Service Control Manager](../services/service-control-manager.md).)
 
 ## Windows Troubleshooting Platform
 
@@ -35,7 +35,7 @@ Windows 7 delivers a comprehensive and extensible Troubleshooting Platform that
 
 The troubleshooting wizard provides a consistent experience across troubleshooting packs, communicating with the troubleshooting engine to troubleshoot and resolve problems that are specified in a troubleshooting pack. Execution of a troubleshooting pack can also be controlled through a set of PowerShell*commandlets*.
 
-The Troubleshooting Platform seamlessly integrates with the Windows 7PC Solution Center, enabling other applications to execute diagnostics in a similar manner as part of their PC management regimen. The Troubleshooting Platform is configurable by IT professionals through *Group Policy* for use within the enterprise, and a Windows Troubleshooting Toolkit that allows developers to author troubleshooting packs is also available. (See [Windows Troubleshooting Platform](https://msdn.microsoft.com/library/dd323778(VS.85).aspx).)
+The Troubleshooting Platform seamlessly integrates with the Windows 7PC Solution Center, enabling other applications to execute diagnostics in a similar manner as part of their PC management regimen. The Troubleshooting Platform is configurable by IT professionals through *Group Policy* for use within the enterprise, and a Windows Troubleshooting Toolkit that allows developers to author troubleshooting packs is also available. (See [Windows Troubleshooting Platform](/previous-versions/windows/desktop/wintt/windows-troubleshooting-toolkit-portal).)
 
 ![troubleshooting platform ui](images/windows7-devguide-troubleshoot.jpg)
 
@@ -44,7 +44,3 @@ The Troubleshooting Platform seamlessly integrates with the Windows 7PC Solutio
  
 
  
-
-
-
-

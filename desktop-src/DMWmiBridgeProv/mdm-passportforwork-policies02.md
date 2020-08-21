@@ -61,7 +61,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Root node for Windows Hello for Business policies.
@@ -77,14 +77,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/PassPortForWork/*TenantID*"
 
 </dd> <dt>
 
-[RequireSecurityDevice](https://docs.microsoft.com/windows/client-management/mdm/passportforwork-csp#tenantid-policies-requiresecuritydevice)
+[RequireSecurityDevice](/windows/client-management/mdm/passportforwork-csp#tenantid-policies-requiresecuritydevice)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -95,7 +95,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[UsePassportForWork](https://docs.microsoft.com/windows/client-management/mdm/passportforwork-csp#tenantid-policies-usepassportforwork)
+[UsePassportForWork](/windows/client-management/mdm/passportforwork-csp#tenantid-policies-usepassportforwork)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -124,14 +124,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -17,7 +17,7 @@ api_location:
 
 # IVectorChangedEventArgs interface
 
-Provides data for a [**VectorChanged**](https://msdn.microsoft.com/library/BR226053(v=Win.10).aspx) event.
+Provides data for a [**VectorChanged**](/uwp/api/windows.foundation.collections.iobservablevector-1?view=winrt-19041) event.
 
 ## Members
 
@@ -55,7 +55,3 @@ The **IVectorChangedEventArgs** interface has these methods.
  
 
  
-
-
-
-

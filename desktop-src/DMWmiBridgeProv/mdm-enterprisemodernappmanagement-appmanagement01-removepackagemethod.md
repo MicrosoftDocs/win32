@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-Method for removing packages. See also [RemovePackage](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp).
+Method for removing packages. See also [RemovePackage](/windows/client-management/mdm/enterprisemodernappmanagement-csp).
 
 ## Syntax
 
@@ -64,10 +64,4 @@ uint32 RemovePackageMethod(
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

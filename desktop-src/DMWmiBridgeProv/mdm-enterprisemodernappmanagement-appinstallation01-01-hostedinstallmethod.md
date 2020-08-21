@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-Method to perform an install of an app package from a hosted location, such as a local drive, a UNC, or HTTPS data source. See also, [HostedInstall](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp).
+Method to perform an install of an app package from a hosted location, such as a local drive, a UNC, or HTTPS data source. See also, [HostedInstall](/windows/client-management/mdm/enterprisemodernappmanagement-csp).
 
 ## Syntax
 
@@ -63,14 +63,8 @@ uint32 HostedInstallMethod(
 [**MDM\_EnterpriseModernAppManagement\_AppInstallation01\_01**](mdm-enterprisemodernappmanagement-appinstallation01-01.md)
 </dt> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

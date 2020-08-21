@@ -77,7 +77,7 @@ public static void JetCommitTransaction2(
 <!-- end list -->
 
   - durableCommit  
-    Type: [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN)  
+    Type: [System.TimeSpan](/dotnet/api/system.timespan)  
     
     Duration to commit lazy transaction.
 
@@ -97,4 +97,3 @@ public static void JetCommitTransaction2(
 [Windows8Api members](dn335373\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-

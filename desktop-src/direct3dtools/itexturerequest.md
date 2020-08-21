@@ -26,7 +26,7 @@ Request for a texture to be written as a DDS file.
 
 ## Members
 
-The **ITextureRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITextureRequest** also has these types of members:
+The **ITextureRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITextureRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **ITextureRequest** interface has these methods.
  
 
  
-
-
-

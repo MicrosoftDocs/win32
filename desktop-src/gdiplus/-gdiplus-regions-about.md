@@ -14,7 +14,7 @@ A region is a portion of the display surface. Regions can be simple (a single re
 
 Regions are often used for clipping and hit testing. Clipping involves restricting drawing to a certain region of the screen, usually the portion of the screen that needs to be updated. Hit testing involves checking to see whether the cursor is in a certain region of the screen when a mouse button is pressed.
 
-You can construct a region from a rectangle or from a path. You can also create complex regions by combining existing regions. The [**Region**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-region) class provides the following methods for combining regions: [Intersect](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-intersect(inconstregion)), [Union](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-union(inconstregion)), [Xor](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-xor(inconstrect_)), [Exclude](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-exclude(inconstregion)), and [**Region::Complement**](https://msdn.microsoft.com/library/ms534829(v=VS.85).aspx).
+You can construct a region from a rectangle or from a path. You can also create complex regions by combining existing regions. The [**Region**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-region) class provides the following methods for combining regions: [Intersect](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-intersect(inconstregion)), [Union](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-union(inconstregion)), [Xor](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-xor(inconstrect_)), [Exclude](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-exclude(inconstregion)), and [**Region::Complement**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-complement(inconstgraphicspath)).
 
 The intersection of two regions is the set of all points belonging to both regions. The union is the set of all points belonging to one or the other or both regions. The complement of a region is the set of all points that are not in the region. The following illustration shows the intersection and union of the two regions in the previous figure.
 
@@ -36,6 +36,3 @@ myGraphics.FillRegion(&mySolidBrush, &myRegion);
  
 
  
-
-
-

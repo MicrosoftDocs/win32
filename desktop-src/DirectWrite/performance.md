@@ -8,12 +8,8 @@ ms.date: 05/31/2018
 
 # DirectWrite Performance
 
-Performance for [DirectWrite](direct-write-portal.md) depends largely on how you render it. See the [Improving the performance of Direct2D apps](/windows/win32/Direct2D/improving-direct2d-performance) topic for info on rendering performance with [Direct2D](rendering-by-using-direct2d.md).
+Performance for [DirectWrite](direct-write-portal.md) depends largely on how you render it. See the [Improving the performance of Direct2D apps](../direct2d/improving-direct2d-performance.md) topic for info on rendering performance with [Direct2D](rendering-by-using-direct2d.md).
 
  
 
  
-
-
-
-

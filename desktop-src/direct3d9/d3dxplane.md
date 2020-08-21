@@ -40,7 +40,7 @@ typedef struct D3DXPLANE {
 **a**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -51,7 +51,7 @@ The a coefficient of the clipping plane in the general plane equation. See Remar
 **b**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -62,7 +62,7 @@ The b coefficient of the clipping plane in the general plane equation. See Remar
 **c**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -73,7 +73,7 @@ The c coefficient of the clipping plane in the general plane equation. See Remar
 **d**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -107,7 +107,3 @@ C++ programmers can take advantage of operator overloading and type casting with
  
 
  
-
-
-
-

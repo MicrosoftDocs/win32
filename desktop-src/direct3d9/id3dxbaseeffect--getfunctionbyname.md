@@ -38,7 +38,7 @@ D3DXHANDLE GetFunctionByName(
 *pName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 String containing the function name.
 
@@ -71,7 +71,3 @@ Returns the handle of the specified function, or **NULL** if the name was not fo
  
 
  
-
-
-
-

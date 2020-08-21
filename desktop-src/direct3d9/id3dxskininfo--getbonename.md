@@ -38,7 +38,7 @@ LPCSTR GetBoneName(
 *Bone* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Bone number.
 
@@ -46,7 +46,7 @@ Bone number.
 
 ## Return value
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Returns the bone name. Do not free this string.
 
@@ -77,7 +77,3 @@ Returns the bone name. Do not free this string.
  
 
  
-
-
-
-

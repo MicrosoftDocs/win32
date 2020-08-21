@@ -38,7 +38,7 @@ typedef struct D3DDEVINFO_D3D9CACHEUTILIZATION {
 **TextureCacheHitRate**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -49,7 +49,7 @@ The hit rate for finding a texture in the texture cache. This assumes there is a
 **PostTransformVertexCacheHitRate**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -78,13 +78,9 @@ An efficient cache is typically closer to a 90 percent hit rate, and an ineffici
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetData**](https://msdn.microsoft.com/library/Bb205873(v=VS.85).aspx)
+[**GetData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -61,7 +61,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -75,12 +75,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[PointAndPrintRestrictions](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-printers#printers-pointandprintrestrictions)
+[PointAndPrintRestrictions](/windows/client-management/mdm/policy-csp-printers#printers-pointandprintrestrictions)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -91,7 +91,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PublishPrinters](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-printers#printers-publishprinters)
+[PublishPrinters](/windows/client-management/mdm/policy-csp-printers#printers-publishprinters)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -117,10 +117,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

@@ -41,16 +41,16 @@ HRESULT D3DXCreateCubeTextureFromFileInMemory(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, representing the device to be associated with the cube texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, representing the device to be associated with the cube texture.
 
 </dd> <dt>
 
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the file in memory from which to create the cubemap. See Remarks.
 
@@ -59,7 +59,7 @@ Pointer to the file in memory from which to create the cubemap. See Remarks.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Size of the file in memory, in bytes.
 
@@ -68,9 +68,9 @@ Size of the file in memory, in bytes.
 *ppCubeTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DCUBETEXTURE9**](https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx)\***
+Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9)\***
 
-Address of a pointer to an [**IDirect3DCubeTexture9**](https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx) interface, representing the created cube texture object.
+Address of a pointer to an [**IDirect3DCubeTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9) interface, representing the created cube texture object.
 
 </dd> </dl>
 
@@ -82,7 +82,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 ## Remarks
 
-This function supports the following file formats: .bmp, .dds, .dib, .hdr, .jpg, .pfm, .png, .ppm, and .tga. See [**D3DXIMAGE\_FILEFORMAT**](https://msdn.microsoft.com/library/Bb172878(v=VS.85).aspx).
+This function supports the following file formats: .bmp, .dds, .dib, .hdr, .jpg, .pfm, .png, .ppm, and .tga. See [**D3DXIMAGE\_FILEFORMAT**](./d3dximage-fileformat.md).
 
 The function is equivalent to D3DXCreateCubeTextureFromFileInMemoryEx(pDevice, pSrcData, SrcDataSize, D3DX\_DEFAULT, D3DX\_DEFAULT, 0, D3DFMT\_UNKNOWN, D3DPOOL\_MANAGED, D3DX\_DEFAULT, D3DX\_DEFAULT, 0, **NULL**, **NULL**, ppCubeTexture).
 
@@ -92,7 +92,7 @@ This method is designed to be used for loading image files stored as RT\_RCDATA,
 
 Filtering is automatically applied to a texture created using this method. The filtering is equivalent to D3DX\_FILTER\_TRIANGLE \| D3DX\_FILTER\_DITHER in [D3DX\_FILTER](d3dx-filter.md).
 
-**D3DXCreateCubeTextureFromFileInMemory** uses the DirectDraw surface (DDS) file format. The DirectX Texture Editor (Dxtex.exe) enables you to generate a cube map from other file formats and save it in the DDS file format. You can get Dxtex.exe and learn about it from the DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/library/Ee663275(v=VS.85).aspx).
+**D3DXCreateCubeTextureFromFileInMemory** uses the DirectDraw surface (DDS) file format. The DirectX Texture Editor (Dxtex.exe) enables you to generate a cube map from other file formats and save it in the DDS file format. You can get Dxtex.exe and learn about it from the DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](../directx-sdk--august-2009-.md).
 
 ## Requirements
 
@@ -115,7 +115,3 @@ Filtering is automatically applied to a texture created using this method. The f
  
 
  
-
-
-
-

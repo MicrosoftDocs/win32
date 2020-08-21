@@ -15,7 +15,7 @@ The following functions are used with Remote Desktop Services.
 
 <dl> <dt>
 
-[**ProcessIdToSessionId**](https://msdn.microsoft.com/library/Aa382990(v=VS.85).aspx)
+[**ProcessIdToSessionId**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-processidtosessionid)
 </dt> <dd>
 
 Retrieves the Remote Desktop Services session associated with a specified process.
@@ -445,7 +445,3 @@ Waits for a Remote Desktop Services event before returning to the caller.
  
 
  
-
-
-
-

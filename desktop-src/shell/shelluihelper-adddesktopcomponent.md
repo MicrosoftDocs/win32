@@ -52,7 +52,7 @@ iRetVal = ShellUIHelper.AddDesktopComponent(
 *sURL* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** value that specifies the URL of the new favorite item.
 
@@ -61,7 +61,7 @@ A **String** value that specifies the URL of the new favorite item.
 *sType* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** value that specifies the type of item being added. This can be one of the following values.
 
@@ -190,7 +190,3 @@ End Sub
  
 
  
-
-
-
-

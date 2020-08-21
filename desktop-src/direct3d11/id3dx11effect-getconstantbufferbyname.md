@@ -41,7 +41,7 @@ ID3DX11EffectConstantBuffer* GetConstantBufferByName(
 *Name* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 The constant-buffer name.
 
@@ -81,10 +81,4 @@ An effect that contains a variable that will be read/written by an application r
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

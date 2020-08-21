@@ -17,7 +17,7 @@ api_location:
 
 # EnvelopedData.Recipients property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**EnvelopedCms Class**](https://msdn.microsoft.com/library/f73feezf(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**EnvelopedCms Class**](/dotnet/api/system.security.cryptography.pkcs.envelopedcms?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
 
 The **Recipients** property retrieves the collection of recipients of the enveloped message.
 
@@ -57,7 +57,3 @@ A [**Recipients**](recipients.md) collection that represents the recipients of t
  
 
  
-
-
-
-

@@ -41,9 +41,9 @@ A handle to the window that contains the cursor.
 *lParam* 
 </dt> <dd>
 
-The low-order word of *lParam* specifies the hit-test result for the cursor position. See the return values for [WM_NCHITTEST](/windows/win32/inputdev/wm-nchittest) for possible values.
+The low-order word of *lParam* specifies the hit-test result for the cursor position. See the return values for [WM_NCHITTEST](../inputdev/wm-nchittest.md) for possible values.
 
-The high-order word of *lParam* specifies the mouse window message which triggered this event, such as [WM_MOUSEMOVE](/windows/win32/inputdev/wm-mousemove). When the window enters menu mode, this value is zero.
+The high-order word of *lParam* specifies the mouse window message which triggered this event, such as [WM_MOUSEMOVE](../inputdev/wm-mousemove.md). When the window enters menu mode, this value is zero.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ If an application processes this message, it should return **TRUE** to halt furt
 
 ## Remarks
 
-The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowprocw) function passes the **WM\_SETCURSOR** message to a parent window before processing. If the parent window returns **TRUE**, further processing is halted. Passing the message to a window's parent window gives the parent window control over the cursor's setting in a child window. The **DefWindowProc** function also uses this message to set the cursor to an arrow if it is not in the client area, or to the registered class cursor if it is in the client area. If the low-order word of the *lParam* parameter is **HTERROR** and the high-order word of *lParam* specifies that one of the mouse buttons is pressed, **DefWindowProc** calls the [**MessageBeep**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebeep) function.
+The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowprocw) function passes the **WM\_SETCURSOR** message to a parent window before processing. If the parent window returns **TRUE**, further processing is halted. Passing the message to a window's parent window gives the parent window control over the cursor's setting in a child window. The **DefWindowProc** function also uses this message to set the cursor to an arrow if it is not in the client area, or to the registered class cursor if it is in the client area. If the low-order word of the *lParam* parameter is **HTERROR** and the high-order word of *lParam* specifies that one of the mouse buttons is pressed, **DefWindowProc** calls the [**MessageBeep**](/windows/desktop/api/winuser/nf-winuser-messagebeep) function.
 
 ## Requirements
 
@@ -74,13 +74,13 @@ The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/n
 **Reference**
 </dt> <dt>
 
-[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowprocw)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowprocw)
 </dt> <dt>
 
-[**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 </dt> <dt>
 
-[**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
 **Conceptual**
@@ -90,10 +90,4 @@ The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/n
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

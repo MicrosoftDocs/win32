@@ -32,9 +32,9 @@ An input buffer that appears as a stream the shader may pull values from. Only s
 
 The UAV format bound to this resource needs to be created with the DXGI\_FORMAT\_UNKNOWN format.
 
-The UAV bound to this resource must have been created with [**D3D11\_BUFFER\_UAV\_FLAG\_APPEND**](https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_buffer_uav_flag).
+The UAV bound to this resource must have been created with [**D3D11\_BUFFER\_UAV\_FLAG\_APPEND**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_buffer_uav_flag).
 
-For more info about consume structured buffers, see both sections: [append and consume buffer](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources) and [structured buffer](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources).
+For more info about consume structured buffers, see both sections: [append and consume buffer](/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources) and [structured buffer](/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources).
 
 ## Minimum Shader Model
 
@@ -72,7 +72,3 @@ This object is supported for the following types of shaders:
  
 
  
-
-
-
-

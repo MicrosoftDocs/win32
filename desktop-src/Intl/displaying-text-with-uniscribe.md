@@ -52,7 +52,7 @@ As shown in the following table, Uniscribe version 1.6 or greater supports sever
 
 Your application can use the following steps to lay out out a text paragraph with Uniscribe. This procedure assumes that the application has already divided the paragraph into runs.
 
-1.  Call [**ScriptRecordDigitSubstitution**](/windows/desktop/api/Usp10/nf-usp10-scriptrecorddigitsubstitution) only when starting or when receiving a [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/library/ms725497(v=VS.85).aspx) message.
+1.  Call [**ScriptRecordDigitSubstitution**](/windows/desktop/api/Usp10/nf-usp10-scriptrecorddigitsubstitution) only when starting or when receiving a [**WM\_SETTINGCHANGE**](../winmsg/wm-settingchange.md) message.
 2.  (Optional) Call [**ScriptIsComplex**](/windows/desktop/api/Usp10/nf-usp10-scriptiscomplex) to determine if the paragraph requires complex processing.
 3.  (Optional) If using Uniscribe to handle bidirectional text and/or digit substitution, call [**ScriptApplyDigitSubstitution**](/windows/desktop/api/Usp10/nf-usp10-scriptapplydigitsubstitution) to prepare the [**SCRIPT\_CONTROL**](/windows/win32/api/usp10/ns-usp10-script_control) and [**SCRIPT\_STATE**](/windows/win32/api/usp10/ns-usp10-script_state) structures as inputs to [**ScriptItemize**](/windows/desktop/api/Usp10/nf-usp10-scriptitemize). If skipping this step, but still requiring digit substitution, substitute national digits for Unicode U+0030 through U+0039 (European digits). For information about digit substitution, see [Digit Shapes](digit-shapes.md).
 4.  Call [**ScriptItemize**](/windows/desktop/api/Usp10/nf-usp10-scriptitemize) to divide the paragraph into items. If not using Uniscribe for digit substitution and the bidirectional order is known, for example, because of the keyboard layout used to enter the character, call **ScriptItemize**. In the call, provide null pointers for the [**SCRIPT\_CONTROL**](/windows/win32/api/usp10/ns-usp10-script_control) and [**SCRIPT\_STATE**](/windows/win32/api/usp10/ns-usp10-script_state) structures. This technique generates items by use of the shaping engine only, and the items can be reordered using the engine information.
@@ -107,6 +107,3 @@ Your application can use the following steps to display a text paragraph. This p
  
 
  
-
-
-

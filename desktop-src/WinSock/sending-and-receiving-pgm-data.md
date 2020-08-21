@@ -12,7 +12,7 @@ Sending and receiving PGM data is similar to sending or receiving data on any so
 
 ## Sending PGM Data
 
-Once a PGM sender session is created, data is sent using the various Windows Sockets send functions: [**send**](/windows/desktop/api/Winsock2/nf-winsock2-send), [**sendto**](/windows/desktop/api/winsock/nf-winsock-sendto), [**WSASend**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend), and [**WSASendTo**](/windows/desktop/api/Winsock2/nf-winsock2-wsasendto). Since Windows Sockets handles are file system handles, other functions such as [**WriteFile**](https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx) and CRT functions can also transmit data. The following code snippet illustrates a PGM sender operation:
+Once a PGM sender session is created, data is sent using the various Windows Sockets send functions: [**send**](/windows/desktop/api/Winsock2/nf-winsock2-send), [**sendto**](/windows/desktop/api/winsock/nf-winsock-sendto), [**WSASend**](/windows/desktop/api/Winsock2/nf-winsock2-wsasend), and [**WSASendTo**](/windows/desktop/api/Winsock2/nf-winsock2-wsasendto). Since Windows Sockets handles are file system handles, other functions such as [**WriteFile**](/windows/win32/api/fileapi/nf-fileapi-writefile) and CRT functions can also transmit data. The following code snippet illustrates a PGM sender operation:
 
 
 ```C++
@@ -34,7 +34,7 @@ If the send window is full, a new send from the application is not accepted unti
 
 ## Receiving PGM Data
 
-Once a PGM receiver session is created, data is received using the various Windows Sockets receive functions: [**recv**](/windows/desktop/api/winsock/nf-winsock-recv), [**recvfrom**](/windows/desktop/api/winsock/nf-winsock-recvfrom), [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv), and [**WSARecvFrom**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvfrom). Since Windows Sockets handles are also file handles, the [**ReadFile**](https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx) and CRT functions can also be used to receive PGM session data. The transport forwards data up to the receiver as it arrives as long as the data is in sequence. The transport guarantees that the data returned is contiguous and free of duplicates. The following code snippet illustrates a PGM receive operation:
+Once a PGM receiver session is created, data is received using the various Windows Sockets receive functions: [**recv**](/windows/desktop/api/winsock/nf-winsock-recv), [**recvfrom**](/windows/desktop/api/winsock/nf-winsock-recvfrom), [**WSARecv**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecv), and [**WSARecvFrom**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvfrom). Since Windows Sockets handles are also file handles, the [**ReadFile**](/windows/win32/api/fileapi/nf-fileapi-readfile) and CRT functions can also be used to receive PGM session data. The transport forwards data up to the receiver as it arrives as long as the data is in sequence. The transport guarantees that the data returned is contiguous and free of duplicates. The following code snippet illustrates a PGM receive operation:
 
 
 ```C++
@@ -74,6 +74,3 @@ The PGM sender or receiver can stop sending or receiving data by calling [**clos
  
 
  
-
-
-
