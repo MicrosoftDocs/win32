@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Ensure text is displayed with the correct reading direction
 
-Some languages, such as Arabic and Hebrew, require a right-to-left reading direction. The for a [DirectWrite](direct-write-portal.md) text format object, the default reading direction is left-to-right. DirectWrite does not automatically infer the reading direction from the locale, so you must do this yourself.
+Some languages, such as Arabic and Hebrew, require a right-to-left reading direction. For a [DirectWrite](direct-write-portal.md) text format object, the default reading direction is left-to-right. DirectWrite does not automatically infer the reading direction from the locale, so you must do this yourself.
 
 First, get the extended style flags for the window that the text will be rendered to by using the GetWindowStyleEx macro defined in windowsx.h.
 
