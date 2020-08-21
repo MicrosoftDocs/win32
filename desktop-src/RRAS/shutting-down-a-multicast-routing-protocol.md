@@ -16,7 +16,7 @@ Each row of the table represents one step.
 
 | Routing protocol action                                                                                                                                     | Multicast group manager action                                                                                                                                                                                                                                                                                                                                                                                                                                            | Notes                                                                     |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| Release ownership of each interface that the routing protocol owns using the [**MgmReleaseInterfaceOwnership**](/windows/desktop/api/Mgm/nf-mgm-mgmreleaseinterfaceownership) function. | If IGMP is also running on the interface that was just released by a routing protocol, contact IGMP using the [**PMGM\_DISABLE\_IGMP\_CALLBACK**](https://msdn.microsoft.com/library/Aa376678(v=VS.85).aspx) callback. Once all changes to multicast data regarding interface ownership have been made, contact IGMP again using [**PMGM\_ENABLE\_IGMP\_CALLBACK**](/windows/desktop/api/Mgm/nc-mgm-pmgm_enable_igmp_callback) callback.<br/> Delete all the forwarding entries associated with this interface.<br/> |                                                                           |
+| Release ownership of each interface that the routing protocol owns using the [**MgmReleaseInterfaceOwnership**](/windows/desktop/api/Mgm/nf-mgm-mgmreleaseinterfaceownership) function. | If IGMP is also running on the interface that was just released by a routing protocol, contact IGMP using the [**PMGM\_DISABLE\_IGMP\_CALLBACK**](/windows/win32/api/mgm/nc-mgm-pmgm_disable_igmp_callback) callback. Once all changes to multicast data regarding interface ownership have been made, contact IGMP again using [**PMGM\_ENABLE\_IGMP\_CALLBACK**](/windows/desktop/api/Mgm/nc-mgm-pmgm_enable_igmp_callback) callback.<br/> Delete all the forwarding entries associated with this interface.<br/> |                                                                           |
 | Deregister with the multicast group manager using the [**MgmDeRegisterMProtocol**](/windows/desktop/api/Mgm/nf-mgm-mgmderegistermprotocol) function.                                    | Destroy the handle that was returned to the routing protocol by a previous call to the [**MgmDeRegisterMProtocol**](/windows/desktop/api/Mgm/nf-mgm-mgmderegistermprotocol) function.                                                                                                                                                                                                                                                                                                                 | The routing protocol can no longer use this handle to call MGM functions. |
 
 
@@ -24,10 +24,4 @@ Each row of the table represents one step.
  
 
  
-
- 
-
-
-
-
 

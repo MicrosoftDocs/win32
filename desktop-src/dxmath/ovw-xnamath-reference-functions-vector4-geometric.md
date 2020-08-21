@@ -16,25 +16,25 @@ Lists the 4D vector geometric functions.
 
 | Topic                                                                                 | Description                                                                   |
 |---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| [**XMVector4AngleBetweenNormals**](https://msdn.microsoft.com/library/Ee420951(v=VS.85).aspx)<br/>       | Compute the radian angle between two normalized 4D vectors.<br/>        |
-| [**XMVector4AngleBetweenNormalsEst**](https://msdn.microsoft.com/library/Ee420952(v=VS.85).aspx)<br/> | Estimates the radian angle between two normalized 4D vectors.<br/>      |
-| [**XMVector4AngleBetweenVectors**](https://msdn.microsoft.com/library/Ee420953(v=VS.85).aspx)<br/>       | Compute the radian angle between two 4D vectors.<br/>                   |
-| [**XMVector4ClampLength**](https://msdn.microsoft.com/library/Ee420954(v=VS.85).aspx)<br/>                       | Clamps the length of a 4D vector to a given range.<br/>                 |
-| [**XMVector4ClampLengthV**](https://msdn.microsoft.com/library/Ee420955(v=VS.85).aspx)<br/>                     | Clamps the length of a 4D vector to a given range.<br/>                 |
-| [**XMVector4Cross**](https://msdn.microsoft.com/library/Ee420956(v=VS.85).aspx)<br/>                                   | Computes the 4D cross product.<br/>                                     |
-| [**XMVector4Dot**](https://msdn.microsoft.com/library/Ee420957(v=VS.85).aspx)<br/>                                       | Computes the dot product between 4D vectors.<br/>                       |
-| [**XMVector4InBounds**](https://msdn.microsoft.com/library/Ee420966(v=VS.85).aspx)<br/>                             | Tests whether the components of a 4D vector are within set bounds.<br/> |
-| [**XMVector4Length**](https://msdn.microsoft.com/library/Ee420970(v=VS.85).aspx)<br/>                                 | Computes the length of a 4D vector.<br/>                                |
-| [**XMVector4LengthEst**](https://msdn.microsoft.com/library/Ee420971(v=VS.85).aspx)<br/>                           | Estimates the length of a 4D vector.<br/>                               |
-| [**XMVector4LengthSq**](https://msdn.microsoft.com/library/Ee420972(v=VS.85).aspx)<br/>                             | Computes the square of the length of a 4D vector.<br/>                  |
-| [**XMVector4Normalize**](https://msdn.microsoft.com/library/Ee420976(v=VS.85).aspx)<br/>                           | Returns the normalized version of a 4D vector.<br/>                     |
-| [**XMVector4NormalizeEst**](https://msdn.microsoft.com/library/Ee420977(v=VS.85).aspx)<br/>                     | Estimates the normalized version of a 4D vector.<br/>                   |
-| [**XMVector4Orthogonal**](https://msdn.microsoft.com/library/Ee420980(v=VS.85).aspx)<br/>                         | Computes a vector perpendicular to a 4D vector.<br/>                    |
-| [**XMVector4ReciprocalLength**](https://msdn.microsoft.com/library/Ee420981(v=VS.85).aspx)<br/>             | Computes the reciprocal of the length of a 4D vector.<br/>              |
-| [**XMVector4ReciprocalLengthEst**](https://msdn.microsoft.com/library/Ee420982(v=VS.85).aspx)<br/>       | Estimates the reciprocal of the length of a 4D vector.<br/>             |
-| [**XMVector4Reflect**](https://msdn.microsoft.com/library/Ee420983(v=VS.85).aspx)<br/>                               | Reflects an incident 4D vector across a 4D normal vector.<br/>          |
-| [**XMVector4Refract**](https://msdn.microsoft.com/library/Ee420984(v=VS.85).aspx)<br/>                               | Refracts an incident 4D vector across a 4D normal vector.<br/>          |
-| [**XMVector4RefractV**](https://msdn.microsoft.com/library/Ee420985(v=VS.85).aspx)<br/>                             | Refracts an incident 4D vector across a 4D normal vector.<br/>          |
+| [**XMVector4AngleBetweenNormals**](/windows/win32/api/directxmath/nf-directxmath-xmvector4anglebetweennormals)<br/>       | Compute the radian angle between two normalized 4D vectors.<br/>        |
+| [**XMVector4AngleBetweenNormalsEst**](/windows/win32/api/directxmath/nf-directxmath-xmvector4anglebetweennormalsest)<br/> | Estimates the radian angle between two normalized 4D vectors.<br/>      |
+| [**XMVector4AngleBetweenVectors**](/windows/win32/api/directxmath/nf-directxmath-xmvector4anglebetweenvectors)<br/>       | Compute the radian angle between two 4D vectors.<br/>                   |
+| [**XMVector4ClampLength**](/windows/win32/api/directxmath/nf-directxmath-xmvector4clamplength)<br/>                       | Clamps the length of a 4D vector to a given range.<br/>                 |
+| [**XMVector4ClampLengthV**](/windows/win32/api/directxmath/nf-directxmath-xmvector4clamplengthv)<br/>                     | Clamps the length of a 4D vector to a given range.<br/>                 |
+| [**XMVector4Cross**](/windows/win32/api/directxmath/nf-directxmath-xmvector4cross)<br/>                                   | Computes the 4D cross product.<br/>                                     |
+| [**XMVector4Dot**](/windows/win32/api/directxmath/nf-directxmath-xmvector4dot)<br/>                                       | Computes the dot product between 4D vectors.<br/>                       |
+| [**XMVector4InBounds**](/windows/win32/api/directxmath/nf-directxmath-xmvector4inbounds)<br/>                             | Tests whether the components of a 4D vector are within set bounds.<br/> |
+| [**XMVector4Length**](/windows/win32/api/directxmath/nf-directxmath-xmvector4length)<br/>                                 | Computes the length of a 4D vector.<br/>                                |
+| [**XMVector4LengthEst**](/windows/win32/api/directxmath/nf-directxmath-xmvector4lengthest)<br/>                           | Estimates the length of a 4D vector.<br/>                               |
+| [**XMVector4LengthSq**](/windows/win32/api/directxmath/nf-directxmath-xmvector4lengthsq)<br/>                             | Computes the square of the length of a 4D vector.<br/>                  |
+| [**XMVector4Normalize**](/windows/win32/api/directxmath/nf-directxmath-xmvector4normalize)<br/>                           | Returns the normalized version of a 4D vector.<br/>                     |
+| [**XMVector4NormalizeEst**](/windows/win32/api/directxmath/nf-directxmath-xmvector4normalizeest)<br/>                     | Estimates the normalized version of a 4D vector.<br/>                   |
+| [**XMVector4Orthogonal**](/windows/win32/api/directxmath/nf-directxmath-xmvector4orthogonal)<br/>                         | Computes a vector perpendicular to a 4D vector.<br/>                    |
+| [**XMVector4ReciprocalLength**](/windows/win32/api/directxmath/nf-directxmath-xmvector4reciprocallength)<br/>             | Computes the reciprocal of the length of a 4D vector.<br/>              |
+| [**XMVector4ReciprocalLengthEst**](/windows/win32/api/directxmath/nf-directxmath-xmvector4reciprocallengthest)<br/>       | Estimates the reciprocal of the length of a 4D vector.<br/>             |
+| [**XMVector4Reflect**](/windows/win32/api/directxmath/nf-directxmath-xmvector4reflect)<br/>                               | Reflects an incident 4D vector across a 4D normal vector.<br/>          |
+| [**XMVector4Refract**](/windows/win32/api/directxmath/nf-directxmath-xmvector4refract)<br/>                               | Refracts an incident 4D vector across a 4D normal vector.<br/>          |
+| [**XMVector4RefractV**](/windows/win32/api/directxmath/nf-directxmath-xmvector4refractv)<br/>                             | Refracts an incident 4D vector across a 4D normal vector.<br/>          |
 
 
 
@@ -50,7 +50,3 @@ Lists the 4D vector geometric functions.
  
 
  
-
-
-
-

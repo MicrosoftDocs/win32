@@ -84,7 +84,7 @@ public delegate JET_err JET_PFNSTATUS(
 <!-- end list -->
 
   - data  
-    Type: [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+    Type: [System.Object](/dotnet/api/system.object)  
     
     Optional data. May be a [JET_SNPROG](dn351044\(v=exchg.10\).md).
 
@@ -97,4 +97,3 @@ Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)
 #### Reference
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

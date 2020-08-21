@@ -19,7 +19,7 @@ api_location:
 
 \[This function is not supported and might be disabled or deleted in future versions of Windows. [**PTGetPrintCapabilities**](/windows/desktop/api/prntvpt/nf-prntvpt-ptgetprintcapabilities) provides equivalent functionality and should be used instead.\]
 
-Retrieves the printer's capabilities formatted in compliance with the XML [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx).
+Retrieves the printer's capabilities formatted in compliance with the XML [Print Schema](./printschema.md).
 
 ## Syntax
 
@@ -51,7 +51,7 @@ A handle to an open print ticket provider. This handle is returned by the [**Bin
 *pPrintTicket* \[in\]
 </dt> <dd>
 
-The buffer that contains the print ticket data, expressed in XML as described in the [Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx).
+The buffer that contains the print ticket data, expressed in XML as described in the [Print Schema](./printschema.md).
 
 </dd> <dt>
 
@@ -65,7 +65,7 @@ The size, in bytes, of the buffer referenced by *pPrintTicket*.
 *ppbPrintCapabilities* \[out\]
 </dt> <dd>
 
-The address of the buffer that is allocated by this function and contains the valid print capabilities information, encoded as XML. This function calls [**CoTaskMemAlloc**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc) to allocate this buffer. When the buffer is no longer needed, the caller must free it by calling [**CoTaskMemFree**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
+The address of the buffer that is allocated by this function and contains the valid print capabilities information, encoded as XML. This function calls [**CoTaskMemAlloc**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc) to allocate this buffer. When the buffer is no longer needed, the caller must free it by calling [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
 </dd> <dt>
 
@@ -79,13 +79,13 @@ The size, in bytes, of the buffer referenced by *ppbPrintCapabilities*.
 *pbstrErrorMessage* \[out, optional\]
 </dt> <dd>
 
-A pointer to a string that specifies what, if anything, is invalid about *pPrintTicket*. If it is valid, this value is **NULL**. If *pbstrErrorMessage* is not **NULL** when the function returns, the caller must free the string with [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx).
+A pointer to a string that specifies what, if anything, is invalid about *pPrintTicket*. If it is valid, this value is **NULL**. If *pbstrErrorMessage* is not **NULL** when the function returns, the caller must free the string with [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring).
 
 </dd> </dl>
 
 ## Return value
 
-If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT** error code. For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
+If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT** error code. For more information about COM error codes, see [Error Handling](../com/error-handling-in-com.md).
 
 ## Requirements
 
@@ -106,7 +106,7 @@ If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT
 [**PTGetPrintCapabilities**](/windows/desktop/api/prntvpt/nf-prntvpt-ptgetprintcapabilities)
 </dt> <dt>
 
-[Print Schema](https://msdn.microsoft.com/library/Dd372919(v=VS.85).aspx)
+[Print Schema](./printschema.md)
 </dt> <dt>
 
 [Printing](printdocs-printing.md)
@@ -116,9 +116,4 @@ If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT
 </dt> </dl>
 
  
-
- 
-
-
-
 

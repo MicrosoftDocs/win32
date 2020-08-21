@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # relatedPropertyInfo
 
-New for Windows 7. Container element for [relatedProperty](https://msdn.microsoft.com/library/Dd798384(v=VS.85).aspx) elements. There should be only one [relatedPropertyInfo](https://msdn.microsoft.com/library/Dd798385(v=VS.85).aspx) element for each [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) element.
+New for Windows 7. Container element for [relatedProperty](./propdesc-schema-relatedproperty.md) elements. There should be only one [relatedPropertyInfo]() element for each [propertyDescription](./propdesc-schema-propertydescription.md) element.
 
 ## Syntax
 
@@ -42,7 +42,7 @@ New for Windows 7. Container element for [relatedProperty](https://msdn.microso
 
 | Parent Element                                                   | Child Elements                                           |
 |------------------------------------------------------------------|----------------------------------------------------------|
-| [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) | [relatedProperty](https://msdn.microsoft.com/library/Dd798384(v=VS.85).aspx) |
+| [propertyDescription](./propdesc-schema-propertydescription.md) | [relatedProperty](./propdesc-schema-relatedproperty.md) |
 
 
 
@@ -55,6 +55,3 @@ This element has no attributes.
  
 
  
-
-
-

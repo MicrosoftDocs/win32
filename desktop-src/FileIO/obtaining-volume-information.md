@@ -12,7 +12,7 @@ The [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolume
 
 In general, you should avoid using static buffers for file names and paths. Instead, use the values returned by [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) to allocate buffers as you need them. If you must use static buffers, reserve 256 characters for file names and 260 characters for paths.
 
-The [**GetSystemDirectory**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) and [**GetWindowsDirectory**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) functions retrieve the paths to the system directory and the Windows directory, respectively.
+The [**GetSystemDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) and [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) functions retrieve the paths to the system directory and the Windows directory, respectively.
 
 The [**GetDiskFreeSpace**](/windows/desktop/api/FileAPI/nf-fileapi-getdiskfreespacea) function retrieves organizational information about a volume, including the number of bytes per sector, the number of sectors per cluster, the number of free clusters, and the total number of clusters. However, **GetDiskFreeSpace** cannot report volume sizes that are greater than 2 GB. To ensure that your application works with large capacity hard drives, use the [**GetDiskFreeSpaceEx**](/windows/desktop/api/FileAPI/nf-fileapi-getdiskfreespaceexa) function.
 
@@ -30,6 +30,3 @@ The [**GetLogicalDrives**](/windows/desktop/api/FileAPI/nf-fileapi-getlogicaldri
  
 
  
-
-
-

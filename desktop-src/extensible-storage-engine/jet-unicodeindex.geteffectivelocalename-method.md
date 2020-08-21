@@ -51,7 +51,7 @@ public string GetEffectiveLocaleName()
 
 #### Return value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+Type: [System.String](/dotnet/api/system.string)  
 A BCP-47 style locale name.  
 
 ## See also
@@ -63,4 +63,3 @@ A BCP-47 style locale name.
 [JET_UNICODEINDEX members](dn351131\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

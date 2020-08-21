@@ -54,10 +54,10 @@ The server context for this server. Enter one of the following values for the CL
 
 | CLSID KEY                             | Description                                                               |
 |---------------------------------------|---------------------------------------------------------------------------|
-| [LocalServer](https://msdn.microsoft.com/library/ms686595(v=VS.85).aspx)       | Specifies the full path to a 16-bit local server application.             |
-| [LocalServer32](https://msdn.microsoft.com/library/ms683844(v=VS.85).aspx)   | Specifies the full path to a 32-bit local server application.             |
-| [InprocServer](https://msdn.microsoft.com/library/ms694328(v=VS.85).aspx)     | Specifies the path to an in-process server DLL.                           |
-| [InprocServer32](https://msdn.microsoft.com/library/ms682390(v=VS.85).aspx) | Specifies the path to a 32-bit in-process server and the threading model. |
+| [LocalServer](../com/localserver.md)       | Specifies the full path to a 16-bit local server application.             |
+| [LocalServer32](../com/localserver32.md)   | Specifies the full path to a 32-bit local server application.             |
+| [InprocServer](../com/inprocserver.md)     | Specifies the path to an in-process server DLL.                           |
+| [InprocServer32](../com/inprocserver32.md) | Specifies the path to a 32-bit in-process server and the threading model. |
 
 
 
@@ -98,7 +98,7 @@ Application ID containing DCOM information for the associated application (strin
 
 Contains information for the HKCR (this CLSID) key.
 
-If multiple patterns exist, they must be delimited by a semicolon, and numeric subkeys are generated: 0, 1, 2... For more information about this functionality, see [**GetClassFile**](https://msdn.microsoft.com/library/ms693715(v=VS.85).aspx).
+If multiple patterns exist, they must be delimited by a semicolon, and numeric subkeys are generated: 0, 1, 2... For more information about this functionality, see [**GetClassFile**](/windows/win32/api/objbase/nf-objbase-getclassfile).
 
 </dd> <dt>
 
@@ -201,6 +201,3 @@ This table is referred to when the [RegisterClassInfo action](registerclassinfo-
  
 
  
-
-
-

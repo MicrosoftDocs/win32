@@ -12,28 +12,24 @@ ms.date: 05/31/2018
 
 The following functions are provided to routing protocols by the router manager. When the router manager calls the [**StartProtocol**](/windows/desktop/api/Routprot/nc-routprot-pstart_protocol) function (implemented by the routing protocol), the router manager passes the routing protocol a [**SUPPORT\_FUNCTIONS**](/windows/desktop/api/Routprot/ns-routprot-support_functions_50) structure containing pointers to these functions:
 
-[**DemandDialRequest**](https://msdn.microsoft.com/library/Aa373924(v=VS.85).aspx)
+[**DemandDialRequest**](/previous-versions/windows/desktop/legacy/aa373924(v=vs.85))
 
-[**MIBEntryCreate**](https://msdn.microsoft.com/library/Aa374538(v=VS.85).aspx)
+[**MIBEntryCreate**](/previous-versions/windows/desktop/legacy/aa374538(v=vs.85))
 
-[**MIBEntryDelete**](https://msdn.microsoft.com/library/Aa374539(v=VS.85).aspx)
+[**MIBEntryDelete**](/previous-versions/windows/desktop/legacy/aa374539(v=vs.85))
 
-[**MIBEntryGet**](https://msdn.microsoft.com/library/Aa374540(v=VS.85).aspx)
+[**MIBEntryGet**](/previous-versions/windows/desktop/legacy/aa374540(v=vs.85))
 
-[**MIBEntryGetFirst**](https://msdn.microsoft.com/library/Aa374541(v=VS.85).aspx)
+[**MIBEntryGetFirst**](/previous-versions/windows/desktop/legacy/aa374541(v=vs.85))
 
-[**MIBEntryGetNext**](https://msdn.microsoft.com/library/Aa374542(v=VS.85).aspx)
+[**MIBEntryGetNext**](/previous-versions/windows/desktop/legacy/aa374542(v=vs.85))
 
-[**MIBEntrySet**](https://msdn.microsoft.com/library/Aa374543(v=VS.85).aspx)
+[**MIBEntrySet**](/previous-versions/windows/desktop/legacy/aa374543(v=vs.85))
 
-[**SetInterfaceReceiveType**](https://msdn.microsoft.com/library/Aa382181(v=VS.85).aspx)
+[**SetInterfaceReceiveType**](/previous-versions/windows/desktop/legacy/aa382181(v=vs.85))
 
-[**ValidateRoute**](https://msdn.microsoft.com/library/Aa382342(v=VS.85).aspx)
-
- 
+[**ValidateRoute**](/previous-versions/windows/desktop/legacy/aa382342(v=vs.85))
 
  
 
-
-
-
+ 

@@ -80,14 +80,14 @@ public static void JetRenameColumn(
 <!-- end list -->
 
   - name  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The name of the column.
 
 <!-- end list -->
 
   - newName  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The new name of the column.
 
@@ -107,4 +107,3 @@ public static void JetRenameColumn(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

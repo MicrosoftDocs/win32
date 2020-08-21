@@ -55,7 +55,7 @@ The **MDM\_SecureAssessment** class has these properties.
 
 <dl> <dt>
 
-[AllowScreenMonitoring](https://docs.microsoft.com/windows/client-management/mdm/secureassessment-csp#allowscreenmonitoring)
+[AllowScreenMonitoring](/windows/client-management/mdm/secureassessment-csp#allowscreenmonitoring)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -66,7 +66,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowTextSuggestions](https://docs.microsoft.com/windows/client-management/mdm/secureassessment-csp#AllowTextSuggestions)
+[AllowTextSuggestions](/windows/client-management/mdm/secureassessment-csp#AllowTextSuggestions)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -86,14 +86,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "SecureAssessment".
 
 </dd> <dt>
 
-[LaunchURI](https://docs.microsoft.com/windows/client-management/mdm/secureassessment-csp#launchuri)
+[LaunchURI](/windows/client-management/mdm/secureassessment-csp#launchuri)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -113,14 +113,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/"
 
 </dd> <dt>
 
-[RequirePrinting](https://docs.microsoft.com/windows/client-management/mdm/secureassessment-csp#requireprinting)
+[RequirePrinting](/windows/client-management/mdm/secureassessment-csp#requireprinting)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -131,7 +131,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[TesterAccount](https://docs.microsoft.com/windows/client-management/mdm/secureassessment-csp#testeraccount)
+[TesterAccount](/windows/client-management/mdm/secureassessment-csp#testeraccount)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -157,10 +157,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

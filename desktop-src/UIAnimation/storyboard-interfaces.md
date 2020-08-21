@@ -17,7 +17,7 @@ This section contains the reference specifications for the Windows Animation Man
 | Topic                                                                                                 | Description                                                                                                           |
 |-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | [**IUIAnimationStoryboard**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationstoryboard)<br/>                                   | Defines a storyboard, which contains a group of transitions that are synchronized relative to one another.<br/> |
-| [**IUIAnimationStoryboard2**](https://msdn.microsoft.com/library/Hh437178(v=VS.85).aspx)<br/>                                 | Defines a storyboard, which contains a group of transitions that are synchronized relative to one another.<br/> |
+| [**IUIAnimationStoryboard2**](/windows/win32/api/uianimation/nn-uianimation-iuianimationstoryboard2)<br/>                                 | Defines a storyboard, which contains a group of transitions that are synchronized relative to one another.<br/> |
 | [**IUIAnimationStoryboardEventHandler**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationstoryboardeventhandler)<br/>           | Defines methods for handling status and update events for a storyboard.<br/>                                    |
 | [**IUIAnimationStoryboardEventHandler2**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationstoryboardeventhandler2)<br/>         | Defines methods for handling storyboard events. <br/>                                                           |
 | [**IUIAnimationLoopIterationChangeHandler2**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationloopiterationchangehandler2)<br/> | Defines a method for handling storyboard loop iteration events.<br/>                                            |
@@ -36,10 +36,4 @@ This section contains the reference specifications for the Windows Animation Man
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

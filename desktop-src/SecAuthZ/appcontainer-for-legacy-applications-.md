@@ -23,16 +23,11 @@ For more information about using AppContainer for Legacy Applications, see the f
 | Topic                                                                       | Description                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [AppContainer Isolation](appcontainer-isolation.md)<br/>             | Isolation is the primary goal of an AppContainer execution environment. By isolating an application from unneeded resources and other applications, opportunities for malicious manipulation are minimized. Granting access based upon least-privilege prevents applications and users from accessing resources beyond their rights. Controlling access to resources protects the process, the device, and the network.<br/> |
-| [Implementing an AppContainer](implementing-an-appcontainer.md)<br/> | An AppContainer is implemented by adding new information to the process token, changing [**SeAccessCheck()**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-seaccesscheck) so that all legacy, unmodified access control list (ACL) objects block access requests from AppContainer processes by default, and re-ACL objects that should be available to AppContainers.<br/>                                                                                        |
+| [Implementing an AppContainer](implementing-an-appcontainer.md)<br/> | An AppContainer is implemented by adding new information to the process token, changing [**SeAccessCheck()**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-seaccesscheck) so that all legacy, unmodified access control list (ACL) objects block access requests from AppContainer processes by default, and re-ACL objects that should be available to AppContainers.<br/>                                                                                        |
 
 
 
  
 
  
-
- 
-
-
-
 

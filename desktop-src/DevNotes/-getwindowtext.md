@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **GetWindowText** function. This function may be altered or unavailable in the future. Applications should call **GetWindowText** directly.\]
 
-Retrieves the text from the specified window's title bar. See [**GetWindowText**](https://msdn.microsoft.com/library/ms633520(v=VS.85).aspx).
+Retrieves the text from the specified window's title bar. See [**GetWindowText**](/windows/win32/api/winuser/nf-winuser-getwindowtexta).
 
 ## Syntax
 
@@ -53,13 +53,9 @@ int _GetWindowText(
 
 <dl> <dt>
 
-[**GetWindowText**](https://msdn.microsoft.com/library/ms633520(v=VS.85).aspx)
+[**GetWindowText**](/windows/win32/api/winuser/nf-winuser-getwindowtexta)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -102,14 +102,14 @@ public static void JetGetSecondaryIndexBookmark(
 <!-- end list -->
 
   - secondaryKeySize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Size of the secondary key buffer.
 
 <!-- end list -->
 
   - actualSecondaryKeySize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Returns the size of the secondary key.
 
@@ -123,14 +123,14 @@ public static void JetGetSecondaryIndexBookmark(
 <!-- end list -->
 
   - primaryKeySize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Size of the primary key buffer.
 
 <!-- end list -->
 
   - actualPrimaryKeySize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Returns the size of the primary key.
 
@@ -150,4 +150,3 @@ public static void JetGetSecondaryIndexBookmark(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

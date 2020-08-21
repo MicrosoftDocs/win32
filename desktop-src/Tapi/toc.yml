@@ -265,7 +265,7 @@
           - name: "Tone Monitoring"
             href: tone-monitoring.md
         - name: "Media Control"
-          href: /windows/win32/tapi/media-control
+          href: ./media-control.md
         - name: "Digit Gathering"
           href: digit-gathering.md
         - name: "Generating Inband Digits and Tones"
@@ -1302,7 +1302,7 @@
           - name: "PHONE_BUTTON_STATE"
             href: /windows/desktop/api/Tapi3if/ne-tapi3if-phone_button_state
           - name: "PHONE_EVENT"
-            href: https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-phoneevent
+            href: /windows/desktop/api/tspi/nc-tspi-phoneevent
           - name: "PHONE_HOOK_SWITCH_DEVICE"
             href: /windows/desktop/api/Tapi3if/ne-tapi3if-phone_hook_switch_device
           - name: "PHONE_HOOK_SWITCH_STATE"
@@ -1646,27 +1646,27 @@
             - name: "get_TranslationResults Method"
               href: /windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslationinfo-get_translationresults
           - name: "ITAllocatorProperties"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itallocatorproperties
+            href: /windows/desktop/api/tapi3/nn-tapi3-itallocatorproperties
             items: 
             - name: "GetAllocateBuffers Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-getallocatebuffers
+              href: /windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-getallocatebuffers
             - name: "GetAllocatorProperties Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-getallocatorproperties
+              href: /windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-getallocatorproperties
             - name: "GetBufferSize Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-getbuffersize
+              href: /windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-getbuffersize
             - name: "SetAllocateBuffers Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-setallocatebuffers
+              href: /windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-setallocatebuffers
             - name: "SetAllocatorProperties Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-setallocatorproperties
+              href: /windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-setallocatorproperties
             - name: "SetBufferSize Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-setbuffersize
+              href: /windows/desktop/api/tapi3/nf-tapi3-itallocatorproperties-setbuffersize
           - name: "ITAMMediaFormat"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itammediaformat
+            href: /windows/desktop/api/tapi3/nn-tapi3-itammediaformat
             items: 
             - name: "get_MediaFormat Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itammediaformat-get_mediaformat
+              href: /windows/desktop/api/tapi3/nf-tapi3-itammediaformat-get_mediaformat
             - name: "put_MediaFormat Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itammediaformat-put_mediaformat
+              href: /windows/desktop/api/tapi3/nf-tapi3-itammediaformat-put_mediaformat
           - name: "ITASRTerminalEvent"
             href: /windows/desktop/api/tapi3if/nn-tapi3if-itasrterminalevent
             items: 
@@ -2628,12 +2628,12 @@
             - name: "get_Phones Method"
               href: /windows/desktop/api/tapi3if/nf-tapi3if-ittapi2-get_phones
           - name: "ITTAPICallCenter"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-ittapicallcenter
+            href: /windows/desktop/api/tapi3cc/nn-tapi3cc-ittapicallcenter
             items: 
             - name: "EnumerateAgentHandlers Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ittapicallcenter-enumerateagenthandlers
+              href: /windows/desktop/api/tapi3/nf-tapi3-ittapicallcenter-enumerateagenthandlers
             - name: "get_AgentHandlers Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ittapicallcenter-get_agenthandlers
+              href: /windows/desktop/api/tapi3/nf-tapi3-ittapicallcenter-get_agenthandlers
           - name: "ITTAPIEventNotification"
             href: /windows/desktop/api/Tapi3if/nn-tapi3if-ittapieventnotification
             items: 
@@ -2673,7 +2673,7 @@
             - name: "get_TickCount Method"
               href: /windows/desktop/api/Tapi3if/nf-tapi3if-ittonedetectionevent-get_tickcount
             - name: "get_ToneListID Method"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733258(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/ms733258(v=vs.85)
           - name: "ITToneTerminalEvent"
             href: /windows/desktop/api/tapi3if/nn-tapi3if-ittoneterminalevent
             items: 
@@ -2713,239 +2713,239 @@
           href: call-center-controls-interfaces.md
           items: 
           - name: "IEnumACDGroup"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumacdgroup
+            href: /windows/desktop/api/tapi3/nn-tapi3-ienumacdgroup
             items: 
             - name: "Clone Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumacdgroup-clone
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumacdgroup-clone
             - name: "Next Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumacdgroup-next
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumacdgroup-next
             - name: "Reset Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumacdgroup-reset
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumacdgroup-reset
             - name: "Skip Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumacdgroup-skip
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumacdgroup-skip
           - name: "IEnumAgent"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagent
+            href: /windows/desktop/api/tapi3/nn-tapi3-ienumagent
             items: 
             - name: "Clone Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagent-clone
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumagent-clone
             - name: "Next Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagent-next
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumagent-next
             - name: "Reset Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagent-reset
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumagent-reset
             - name: "Skip Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagent-skip
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumagent-skip
           - name: "IEnumAgentHandler"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagenthandler
+            href: /windows/desktop/api/tapi3/nn-tapi3-ienumagenthandler
             items: 
             - name: "Clone Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagenthandler-clone
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumagenthandler-clone
             - name: "Next Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagenthandler-next
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumagenthandler-next
             - name: "Reset Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagenthandler-reset
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumagenthandler-reset
             - name: "Skip Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagenthandler-skip
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumagenthandler-skip
           - name: "IEnumAgentSession"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession
+            href: /windows/desktop/api/tapi3/nn-tapi3-ienumagentsession
             items: 
             - name: "Clone Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagentsession-clone
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumagentsession-clone
             - name: "Next Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagentsession-next
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumagentsession-next
             - name: "Reset Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagentsession-reset
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumagentsession-reset
             - name: "Skip Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumagentsession-skip
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumagentsession-skip
           - name: "IEnumQueue"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumqueue
+            href: /windows/desktop/api/tapi3/nn-tapi3-ienumqueue
             items: 
             - name: "Clone Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumqueue-clone
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumqueue-clone
             - name: "Next Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumqueue-next
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumqueue-next
             - name: "Reset Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumqueue-reset
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumqueue-reset
             - name: "Skip Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumqueue-skip
+              href: /windows/desktop/api/tapi3/nf-tapi3-ienumqueue-skip
           - name: "ITACDGroup"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itacdgroup
+            href: /windows/desktop/api/tapi3/nn-tapi3-itacdgroup
             items: 
             - name: "EnumerateQueues Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-enumeratequeues
+              href: /windows/desktop/api/tapi3/nf-tapi3-itacdgroup-enumeratequeues
             - name: "get_Name Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-get_name
+              href: /windows/desktop/api/tapi3/nf-tapi3-itacdgroup-get_name
             - name: "get_Queues Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-get_queues
+              href: /windows/desktop/api/tapi3/nf-tapi3-itacdgroup-get_queues
           - name: "ITACDGroupEvent"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itacdgroupevent
+            href: /windows/desktop/api/tapi3/nn-tapi3-itacdgroupevent
             items: 
             - name: "get_Event Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroupevent-get_event
+              href: /windows/desktop/api/tapi3/nf-tapi3-itacdgroupevent-get_event
             - name: "get_Group Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroupevent-get_group
+              href: /windows/desktop/api/tapi3/nf-tapi3-itacdgroupevent-get_group
           - name: "ITAgent"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent
+            href: /windows/desktop/api/tapi3/nn-tapi3-itagent
             items: 
             - name: "CreateSession Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-createsession
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-createsession
             - name: "CreateSessionWithPIN Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-createsessionwithpin
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-createsessionwithpin
             - name: "EnumerateAgentSessions Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-enumerateagentsessions
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-enumerateagentsessions
             - name: "get_AgentSessions Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_agentsessions
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-get_agentsessions
             - name: "get_ID Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_id
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-get_id
             - name: "get_MeasurementPeriod Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod
             - name: "get_NumberOfACDCalls Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_numberofacdcalls
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-get_numberofacdcalls
             - name: "get_NumberOfIncomingCalls Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_numberofincomingcalls
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-get_numberofincomingcalls
             - name: "get_NumberOfOutgoingCalls Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_numberofoutgoingcalls
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-get_numberofoutgoingcalls
             - name: "get_OverallCallRate Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_overallcallrate
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-get_overallcallrate
             - name: "get_State Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_state
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-get_state
             - name: "get_TotalACDCallTime Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_totalacdcalltime
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-get_totalacdcalltime
             - name: "get_TotalACDTalkTime Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_totalacdtalktime
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-get_totalacdtalktime
             - name: "get_TotalWrapUpTime Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_totalwrapuptime
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-get_totalwrapuptime
             - name: "get_User Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_user
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-get_user
             - name: "put_MeasurementPeriod Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-put_measurementperiod
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-put_measurementperiod
             - name: "put_State Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-put_state
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagent-put_state
           - name: "ITAgentEvent"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentevent
+            href: /windows/desktop/api/tapi3/nn-tapi3-itagentevent
             items: 
             - name: "get_Agent Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentevent-get_agent
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentevent-get_agent
             - name: "get_Event Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentevent-get_event
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentevent-get_event
           - name: "ITAgentHandler"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandler
+            href: /windows/desktop/api/tapi3/nn-tapi3-itagenthandler
             items: 
             - name: "CreateAgent Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-createagent
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagenthandler-createagent
             - name: "CreateAgentWithID Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-createagentwithid
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagenthandler-createagentwithid
             - name: "EnumerateACDGroups Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-enumerateacdgroups
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagenthandler-enumerateacdgroups
             - name: "EnumerateUsableAddresses Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-enumerateusableaddresses
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagenthandler-enumerateusableaddresses
             - name: "get_ACDGroups Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-get_acdgroups
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagenthandler-get_acdgroups
             - name: "get_Name Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-get_name
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagenthandler-get_name
             - name: "get_UsableAddresses Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-get_usableaddresses
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagenthandler-get_usableaddresses
           - name: "ITAgentHandlerEvent"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandlerevent
+            href: /windows/desktop/api/tapi3/nn-tapi3-itagenthandlerevent
             items: 
             - name: "get_AgentHandler Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandlerevent-get_agenthandler
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagenthandlerevent-get_agenthandler
             - name: "get_Event Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandlerevent-get_event
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagenthandlerevent-get_event
           - name: "ITAgentSession"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession
+            href: /windows/desktop/api/tapi3/nn-tapi3-itagentsession
             items: 
             - name: "get_ACDCallRate Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_acdcallrate
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_acdcallrate
             - name: "get_ACDGroup Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_acdgroup
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_acdgroup
             - name: "get_Address Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_address
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_address
             - name: "get_Agent Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_agent
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_agent
             - name: "get_AverageCallTime Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_averagecalltime
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_averagecalltime
             - name: "get_AverageTalkTime Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_averagetalktime
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_averagetalktime
             - name: "get_AverageTimeToAnswer Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_averagetimetoanswer
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_averagetimetoanswer
             - name: "get_AverageWrapUpTime Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_averagewrapuptime
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_averagewrapuptime
             - name: "get_LongestTimeToAnswer Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_longesttimetoanswer
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_longesttimetoanswer
             - name: "get_NumberOfCalls Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_numberofcalls
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_numberofcalls
             - name: "get_SessionDuration Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_sessionduration
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_sessionduration
             - name: "get_SessionStartTime Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_sessionstarttime
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_sessionstarttime
             - name: "get_State Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_state
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_state
             - name: "get_TotalCallTime Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_totalcalltime
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_totalcalltime
             - name: "get_TotalTalkTime Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_totaltalktime
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_totaltalktime
             - name: "get_TotalWrapUpTime Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_totalwrapuptime
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_totalwrapuptime
             - name: "put_State Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-put_state
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsession-put_state
           - name: "ITAgentSessionEvent"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsessionevent
+            href: /windows/desktop/api/tapi3/nn-tapi3-itagentsessionevent
             items: 
             - name: "get_Event Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsessionevent-get_event
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsessionevent-get_event
             - name: "get_Session Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsessionevent-get_session
+              href: /windows/desktop/api/tapi3/nf-tapi3-itagentsessionevent-get_session
           - name: "ITQueue"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue
+            href: /windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue
             items: 
             - name: "get_AverageWaitTime Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_averagewaittime
+              href: /windows/desktop/api/tapi3/nf-tapi3-itqueue-get_averagewaittime
             - name: "get_CurrentCallsQueued Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_currentcallsqueued
+              href: /windows/desktop/api/tapi3/nf-tapi3-itqueue-get_currentcallsqueued
             - name: "get_CurrentLongestWaitTime Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_currentlongestwaittime
+              href: /windows/desktop/api/tapi3/nf-tapi3-itqueue-get_currentlongestwaittime
             - name: "get_FinalDisposition Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_finaldisposition
+              href: /windows/desktop/api/tapi3/nf-tapi3-itqueue-get_finaldisposition
             - name: "get_LongestEverWaitTime Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_longesteverwaittime
+              href: /windows/desktop/api/tapi3/nf-tapi3-itqueue-get_longesteverwaittime
             - name: "get_MeasurementPeriod Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod
+              href: /windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod
             - name: "get_Name Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_name
+              href: /windows/desktop/api/tapi3/nf-tapi3-itqueue-get_name
             - name: "get_TotalCallsAbandoned Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_totalcallsabandoned
+              href: /windows/desktop/api/tapi3/nf-tapi3-itqueue-get_totalcallsabandoned
             - name: "get_TotalCallsFlowedIn Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_totalcallsflowedin
+              href: /windows/desktop/api/tapi3/nf-tapi3-itqueue-get_totalcallsflowedin
             - name: "get_TotalCallsFlowedOut Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_totalcallsflowedout
+              href: /windows/desktop/api/tapi3/nf-tapi3-itqueue-get_totalcallsflowedout
             - name: "get_TotalCallsQueued Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_totalcallsqueued
+              href: /windows/desktop/api/tapi3/nf-tapi3-itqueue-get_totalcallsqueued
             - name: "put_MeasurementPeriod Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-put_measurementperiod
+              href: /windows/desktop/api/tapi3/nf-tapi3-itqueue-put_measurementperiod
           - name: "ITQueueEvent"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueueevent
+            href: /windows/desktop/api/tapi3cc/nn-tapi3cc-itqueueevent
             items: 
             - name: "get_Event Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueueevent-get_event
+              href: /windows/desktop/api/tapi3/nf-tapi3-itqueueevent-get_event
             - name: "get_Queue Method"
-              href: https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueueevent-get_queue
+              href: /windows/desktop/api/tapi3/nf-tapi3-itqueueevent-get_queue
         - name: "Call Center Controls Enumerations"
           href: call-center-controls-enumerations.md
           items: 
           - name: "ACDGROUP_EVENT"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-acdgroup_event
+            href: /windows/desktop/api/tapi3/ne-tapi3-acdgroup_event
           - name: "ACDQUEUE_EVENT"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-acdqueue_event
+            href: /windows/desktop/api/tapi3/ne-tapi3-acdqueue_event
           - name: "AGENT_EVENT"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_event
+            href: /windows/desktop/api/tapi3/ne-tapi3-agent_event
           - name: "AGENTHANDLER_EVENT"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agenthandler_event
+            href: /windows/desktop/api/tapi3/ne-tapi3-agenthandler_event
           - name: "AGENT_SESSION_EVENT"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_session_event
+            href: /windows/desktop/api/tapi3/ne-tapi3-agent_session_event
           - name: "AGENT_SESSION_STATE"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_session_state
+            href: /windows/desktop/api/tapi3/ne-tapi3-agent_session_state
           - name: "AGENT_STATE"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_state
+            href: /windows/desktop/api/tapi3/ne-tapi3-agent_state
     - name: "Rendezvous IP Telephony Conferencing"
       href: rendezvous-ip-telephony-conferencing.md
       items: 
@@ -3550,287 +3550,287 @@
             href: tspi-service-provider-functions.md
             items: 
             - name: "TSPI_providerConfig"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerconfig
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_providerconfig
             - name: "TSPI_providerCreateLineDevice"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providercreatelinedevice
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_providercreatelinedevice
             - name: "TSPI_providerCreatePhoneDevice"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providercreatephonedevice
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_providercreatephonedevice
             - name: "TSPI_providerEnumDevices"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerenumdevices
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_providerenumdevices
             - name: "TSPI_providerInit"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinit
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_providerinit
             - name: "TSPI_providerInstall"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinstall
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_providerinstall
             - name: "TSPI_providerRemove"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerremove
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_providerremove
             - name: "TSPI_providerShutdown"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providershutdown
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_providershutdown
           - name: "TSPI Line Device Functions"
             href: tspi-line-device-functions.md
             items: 
             - name: "TSPI_lineAccept"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineaccept
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineaccept
             - name: "TSPI_lineAddToConference"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineaddtoconference
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineaddtoconference
             - name: "TSPI_lineAnswer"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineanswer
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineanswer
             - name: "TSPI_lineBlindTransfer"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineblindtransfer
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineblindtransfer
             - name: "TSPI_lineClose"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineclose
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineclose
             - name: "TSPI_lineCloseCall"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineclosecall
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineclosecall
             - name: "TSPI_lineCloseMSPInstance"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineclosemspinstance
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineclosemspinstance
             - name: "TSPI_lineCompleteCall"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linecompletecall
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linecompletecall
             - name: "TSPI_lineCompleteTransfer"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linecompletetransfer
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linecompletetransfer
             - name: "TSPI_lineConditionalMediaDetection"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineconditionalmediadetection
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineconditionalmediadetection
             - name: "TSPI_lineConfigDialog"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineconfigdialog
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineconfigdialog
             - name: "TSPI_lineConfigDialogEdit"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineconfigdialogedit
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineconfigdialogedit
             - name: "TSPI_lineCreateMSPInstance"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linecreatemspinstance
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linecreatemspinstance
             - name: "TSPI_lineDevSpecific"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linedevspecific
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linedevspecific
             - name: "TSPI_lineDevSpecificFeature"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linedevspecificfeature
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linedevspecificfeature
             - name: "TSPI_lineDial"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linedial
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linedial
             - name: "TSPI_lineDrop"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linedrop
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linedrop
             - name: "TSPI_lineDropNoOwner"
               href: tspi-linedropnoowner.md
             - name: "TSPI_lineDropOnClose"
               href: tspi-linedroponclose.md
             - name: "TSPI_lineForward"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineforward
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineforward
             - name: "TSPI_lineGatherDigits"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegatherdigits
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegatherdigits
             - name: "TSPI_lineGenerateDigits"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegeneratedigits
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegeneratedigits
             - name: "TSPI_lineGenerateTone"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegeneratetone
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegeneratetone
             - name: "TSPI_lineGetAddressCaps"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddresscaps
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegetaddresscaps
             - name: "TSPI_lineGetAddressID"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddressid
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegetaddressid
             - name: "TSPI_lineGetAddressStatus"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddressstatus
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegetaddressstatus
             - name: "TSPI_lineGetCallAddressID"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetcalladdressid
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegetcalladdressid
             - name: "TSPI_lineGetCallHubTracking"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetcallhubtracking
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegetcallhubtracking
             - name: "TSPI_lineGetCallIDs"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetcallids
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegetcallids
             - name: "TSPI_lineGetCallInfo"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetcallinfo
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegetcallinfo
             - name: "TSPI_lineGetCallStatus"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetcallstatus
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegetcallstatus
             - name: "TSPI_lineGetDevCaps"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevcaps
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegetdevcaps
             - name: "TSPI_lineGetDevConfig"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevconfig
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegetdevconfig
             - name: "TSPI_lineGetExtensionID"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetextensionid
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegetextensionid
             - name: "TSPI_lineGetIcon"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegeticon
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegeticon
             - name: "TSPI_lineGetID"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetid
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegetid
             - name: "TSPI_lineGetLineDevStatus"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetlinedevstatus
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegetlinedevstatus
             - name: "TSPI_lineGetNumAddressIDs"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetnumaddressids
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linegetnumaddressids
             - name: "TSPI_lineHold"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linehold
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linehold
             - name: "TSPI_lineMakeCall"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemakecall
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linemakecall
             - name: "TSPI_lineMonitorDigits"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemonitordigits
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linemonitordigits
             - name: "TSPI_lineMonitorMedia"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemonitormedia
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linemonitormedia
             - name: "TSPI_lineMonitorTones"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemonitortones
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linemonitortones
             - name: "TSPI_lineMSPIdentify"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemspidentify
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linemspidentify
             - name: "TSPI_lineNegotiateExtVersion"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiateextversion
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linenegotiateextversion
             - name: "TSPI_lineNegotiateTSPIVersion"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiatetspiversion
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linenegotiatetspiversion
             - name: "TSPI_lineOpen"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineopen
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineopen
             - name: "TSPI_linePark"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linepark
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linepark
             - name: "TSPI_linePickup"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linepickup
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linepickup
             - name: "TSPI_linePrepareAddToConference"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineprepareaddtoconference
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineprepareaddtoconference
             - name: "TSPI_lineReceiveMSPData"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linereceivemspdata
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linereceivemspdata
             - name: "TSPI_lineRedirect"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineredirect
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineredirect
             - name: "TSPI_lineReleaseUserUserInfo"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linereleaseuseruserinfo
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linereleaseuseruserinfo
             - name: "TSPI_lineRemoveFromConference"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineremovefromconference
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineremovefromconference
             - name: "TSPI_lineSecureCall"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesecurecall
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesecurecall
             - name: "TSPI_lineSelectExtVersion"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineselectextversion
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineselectextversion
             - name: "TSPI_lineSendUserUserInfo"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesenduseruserinfo
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesenduseruserinfo
             - name: "TSPI_lineSetAppSpecific"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetappspecific
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesetappspecific
             - name: "TSPI_lineSetCallData"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetcalldata
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesetcalldata
             - name: "TSPI_lineSetCallHubTracking"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetcallhubtracking
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesetcallhubtracking
             - name: "TSPI_lineSetCallParams"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetcallparams
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesetcallparams
             - name: "TSPI_lineSetCallQualityOfService"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetcallqualityofservice
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesetcallqualityofservice
             - name: "TSPI_lineSetCallTreatment"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetcalltreatment
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesetcalltreatment
             - name: "TSPI_lineSetCurrentLocation"
               href: tspi-linesetcurrentlocation.md
             - name: "TSPI_lineSetDefaultMediaDetection"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetdefaultmediadetection
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesetdefaultmediadetection
             - name: "TSPI_lineSetDevConfig"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetdevconfig
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesetdevconfig
             - name: "TSPI_lineSetLineDevStatus"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetlinedevstatus
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesetlinedevstatus
             - name: "TSPI_lineSetMediaControl"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetmediacontrol
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesetmediacontrol
             - name: "TSPI_lineSetMediaMode"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetmediamode
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesetmediamode
             - name: "TSPI_lineSetStatusMessages"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetstatusmessages
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesetstatusmessages
             - name: "TSPI_lineSetTerminal"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetterminal
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesetterminal
             - name: "TSPI_lineSetupConference"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetupconference
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesetupconference
             - name: "TSPI_lineSetupTransfer"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetuptransfer
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_linesetuptransfer
             - name: "TSPI_lineSwapHold"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineswaphold
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineswaphold
             - name: "TSPI_lineUncompleteCall"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineuncompletecall
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineuncompletecall
             - name: "TSPI_lineUnhold"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineunhold
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineunhold
             - name: "TSPI_lineUnpark"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineunpark
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_lineunpark
           - name: "TSPI Phone Device Functions"
             href: tspi-phone-device-functions.md
             items: 
             - name: "TSPI_phoneClose"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phoneclose
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phoneclose
             - name: "TSPI_phoneConfigDialog"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phoneconfigdialog
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phoneconfigdialog
             - name: "TSPI_phoneDevSpecific"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonedevspecific
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonedevspecific
             - name: "TSPI_phoneGetButtonInfo"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetbuttoninfo
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonegetbuttoninfo
             - name: "TSPI_phoneGetData"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdata
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonegetdata
             - name: "TSPI_phoneGetDevCaps"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps
             - name: "TSPI_phoneGetDisplay"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdisplay
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonegetdisplay
             - name: "TSPI_phoneGetExtensionID"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetextensionid
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonegetextensionid
             - name: "TSPI_phoneGetGain"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetgain
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonegetgain
             - name: "TSPI_phoneGetHookSwitch"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegethookswitch
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonegethookswitch
             - name: "TSPI_phoneGetIcon"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegeticon
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonegeticon
             - name: "TSPI_phoneGetID"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetid
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonegetid
             - name: "TSPI_phoneGetLamp"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetlamp
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonegetlamp
             - name: "TSPI_phoneGetRing"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetring
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonegetring
             - name: "TSPI_phoneGetStatus"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetstatus
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonegetstatus
             - name: "TSPI_phoneGetVolume"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetvolume
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonegetvolume
             - name: "TSPI_phoneNegotiateExtVersion"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion
             - name: "TSPI_phoneNegotiateTSPIVersion"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiatetspiversion
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiatetspiversion
             - name: "TSPI_phoneOpen"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phoneopen
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phoneopen
             - name: "TSPI_phoneSelectExtVersion"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phoneselectextversion
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phoneselectextversion
             - name: "TSPI_phoneSetButtonInfo"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonesetbuttoninfo
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonesetbuttoninfo
             - name: "TSPI_phoneSetData"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonesetdata
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonesetdata
             - name: "TSPI_phoneSetDisplay"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonesetdisplay
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonesetdisplay
             - name: "TSPI_phoneSetGain"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonesetgain
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonesetgain
             - name: "TSPI_phoneSetHookSwitch"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonesethookswitch
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonesethookswitch
             - name: "TSPI_phoneSetLamp"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonesetlamp
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonesetlamp
             - name: "TSPI_phoneSetRing"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonesetring
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonesetring
             - name: "TSPI_phoneSetStatusMessages"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonesetstatusmessages
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonesetstatusmessages
             - name: "TSPI_phoneSetVolume"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonesetvolume
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_phonesetvolume
           - name: "TSPI Callback Functions"
             href: tspi-callback-functions.md
             items: 
             - name: "Completion_Proc"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion
+              href: /windows/desktop/api/tspi/nc-tspi-async_completion
             - name: "Line_Event"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent
+              href: /windows/desktop/api/tspi/nc-tspi-lineevent
             - name: "Phone_Event"
               href: /windows/win32/api/tapi3if/ne-tapi3if-phone_event
           - name: "TSP UI DLL Functions"
             href: tsp-ui-dll-functions.md
             items: 
             - name: "TSPI_providerFreeDialogInstance"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerfreedialoginstance
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_providerfreedialoginstance
             - name: "TSPI_providerGenericDialogData"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providergenericdialogdata
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_providergenericdialogdata
             - name: "TSPI_providerUIIdentify"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_provideruiidentify
+              href: /windows/desktop/api/tspi/nf-tspi-tspi_provideruiidentify
           - name: "TUISPI Service Provider Functions"
             href: tuispi-service-provider-functions.md
             items: 
             - name: "TUISPI_providerConfig"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerconfig
+              href: /windows/desktop/api/tspi/nf-tspi-tuispi_providerconfig
             - name: "TUISPI_providerGenericDialog"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialog
+              href: /windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialog
             - name: "TUISPI_providerGenericDialogData"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialogdata
+              href: /windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialogdata
             - name: "TUISPI_providerInstall"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerinstall
+              href: /windows/desktop/api/tspi/nf-tspi-tuispi_providerinstall
             - name: "TUISPI_providerRemove"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerremove
+              href: /windows/desktop/api/tspi/nf-tspi-tuispi_providerremove
           - name: "TUISPI Line Device Functions"
             href: tuispi-line-device-functions.md
             items: 
             - name: "TUISPI_lineConfigDialog"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialog
+              href: /windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialog
             - name: "TUISPI_lineConfigDialogEdit"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialogedit
+              href: /windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialogedit
           - name: "TUISPI Phone Device Functions"
             href: tuispi-phone-device-functions.md
             items: 
             - name: "TUISPI_phoneConfigDialog"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_phoneconfigdialog
+              href: /windows/desktop/api/tspi/nf-tspi-tuispi_phoneconfigdialog
           - name: "TUISPI Callback Functions"
             href: tuispi-callback-functions.md
             items: 
             - name: "TUISPIDLLCALLBACK"
-              href: https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-tuispidllcallback
+              href: /windows/desktop/api/tspi/nc-tspi-tuispidllcallback
         - name: "TSPI Structures"
           href: tspi-structures.md
           items: 
@@ -4100,9 +4100,9 @@
               href: cmspcallmultigraph-type-definitions.md
               items: 
               - name: "MSPSTREAMCONTEXT"
-                href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733448(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/ms733448(v=vs.85)
               - name: "THREADPOOLWAITBLOCK"
-                href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms734804(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/ms734804(v=vs.85)
             - name: "CMSPCallMultiGraph Members"
               href: cmspcallmultigraph-members.md
             - name: "CMSPCallMultiGraph MSPI Methods Implemented"
@@ -4130,7 +4130,7 @@
               href: cmspcallmultigraph-overriden-ccomobject-methods.md
               items: 
               - name: "FinalRelease Method"
-                href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms726566(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/ms726566(v=vs.85)
             - name: "CMSPCallMultiGraph Protected Helper Methods"
               href: cmspcallmultigraph-protected-helper-methods.md
               items: 
@@ -4266,99 +4266,99 @@
           - name: "GetEvent Method"
             href: /windows/desktop/api/msp/nf-msp-itmspaddress-getevent
         - name: "ITStream"
-          href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream
+          href: /windows/desktop/api/tapi3if/nn-tapi3if-itstream
           items: 
           - name: "EnumerateTerminals Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-enumerateterminals
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itstream-enumerateterminals
           - name: "PauseStream Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-pausestream
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itstream-pausestream
           - name: "SelectTerminal Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-selectterminal
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itstream-selectterminal
           - name: "StartStream Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-startstream
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itstream-startstream
           - name: "StopStream Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-stopstream
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itstream-stopstream
           - name: "UnselectTerminal Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-unselectterminal
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itstream-unselectterminal
           - name: "get_Direction Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-get_direction
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itstream-get_direction
           - name: "get_MediaType Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-get_mediatype
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itstream-get_mediatype
           - name: "get_Name Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-get_name
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itstream-get_name
           - name: "get_Terminals Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-get_terminals
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itstream-get_terminals
         - name: "ITStreamControl"
-          href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol
+          href: /windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol
           items: 
           - name: "CreateStream Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-createstream
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-createstream
           - name: "EnumerateStreams Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-enumeratestreams
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-enumeratestreams
           - name: "RemoveStream Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-removestream
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-removestream
           - name: "get_Streams Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-get_streams
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-get_streams
         - name: "ITSubStream"
-          href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itsubstream
+          href: /windows/desktop/api/tapi3if/nn-tapi3if-itsubstream
           items: 
           - name: "EnumerateTerminals Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-enumerateterminals
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-enumerateterminals
           - name: "get_Stream Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-get_stream
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-get_stream
           - name: "PauseSubStream Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-pausesubstream
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-pausesubstream
           - name: "SelectTerminal Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-selectterminal
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-selectterminal
           - name: "StartSubStream Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-startsubstream
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-startsubstream
           - name: "StopSubStream Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-stopsubstream
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-stopsubstream
           - name: "UnselectTerminal Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-unselectterminal
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-unselectterminal
           - name: "get_Terminals Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-get_terminals
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-get_terminals
         - name: "ITSubStreamControl"
-          href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itsubstreamcontrol
+          href: /windows/desktop/api/tapi3if/nn-tapi3if-itsubstreamcontrol
           items: 
           - name: "CreateSubStream Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-createsubstream
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-createsubstream
           - name: "EnumerateSubStreams Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-enumeratesubstreams
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-enumeratesubstreams
           - name: "RemoveSubStream Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-removesubstream
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-removesubstream
           - name: "get_SubStreams Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-get_substreams
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-get_substreams
         - name: "ITTerminal"
-          href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal
+          href: /windows/desktop/api/tapi3if/nn-tapi3if-itterminal
           items: 
           - name: "get_Direction Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_direction
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_direction
           - name: "get_MediaType Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_mediatype
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_mediatype
           - name: "get_Name Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_name
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_name
           - name: "get_State Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_state
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_state
           - name: "get_TerminalClass Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_terminalclass
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_terminalclass
           - name: "get_TerminalType Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_terminaltype
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_terminaltype
         - name: "ITTerminalSupport"
-          href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport
+          href: /windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport
           items: 
           - name: "CreateTerminal Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal
           - name: "EnumerateDynamicTerminalClasses Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratedynamicterminalclasses
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratedynamicterminalclasses
           - name: "EnumerateStaticTerminals Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratestaticterminals
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratestaticterminals
           - name: "GetDefaultStaticTerminal Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-getdefaultstaticterminal
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-getdefaultstaticterminal
           - name: "get_DynamicTerminalClasses Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-get_dynamicterminalclasses
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-get_dynamicterminalclasses
           - name: "get_StaticTerminals Method"
-            href: https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-get_staticterminals
+            href: /windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-get_staticterminals
         - name: "ITTerminalSupport2"
           href: /windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport2
           items: 

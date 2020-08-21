@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Querying Digest Security Context Attributes
 
-The [**QueryContextAttributes (Digest)**](https://msdn.microsoft.com/library/Aa379324(v=VS.85).aspx) function provides information about the current settings of a [*security context*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
+The [**QueryContextAttributes (Digest)**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) function provides information about the current settings of a [*security context*](../secgloss/s-gly.md).
 
 Microsoft Digest supports querying the following security context attributes.
 
@@ -17,7 +17,7 @@ Microsoft Digest supports querying the following security context attributes.
 | Attribute                   | Description                                                                                                                                                                                             |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | SECPKG\_ATTR\_KEY\_INFO     | Information relating to the signing and encryption algorithms in use.                                                                                                                                   |
-| SECPKG\_ATTR\_PACKAGE\_INFO | General information pertaining to Microsoft Digest, such as the maximum token size permitted by the [*security package*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx). |
+| SECPKG\_ATTR\_PACKAGE\_INFO | General information pertaining to Microsoft Digest, such as the maximum token size permitted by the [*security package*](../secgloss/s-gly.md). |
 | SECPKG\_ATTR\_SIZES         | The maximum sizes permitted for message-related data such as signatures.                                                                                                                                |
 
 
@@ -27,6 +27,3 @@ Microsoft Digest supports querying the following security context attributes.
  
 
  
-
-
-

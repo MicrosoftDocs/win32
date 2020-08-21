@@ -56,7 +56,7 @@ Pointer to a [**D3DXVECTOR4**](d3dxvector4.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The dot product of the plane and 4D vector.
 
@@ -91,7 +91,3 @@ Given a plane (a, b, c, d) and a 4D vector (x, y, z, w) the return value of this
  
 
  
-
-
-
-

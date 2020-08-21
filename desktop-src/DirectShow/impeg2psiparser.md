@@ -22,7 +22,7 @@ The `IMpeg2PsiParser` interface retrieves Program Specific Information (PSI) fro
 
 ## Members
 
-The **IMpeg2PsiParser** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IMpeg2PsiParser** also has these types of members:
+The **IMpeg2PsiParser** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IMpeg2PsiParser** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,15 +34,15 @@ The **IMpeg2PsiParser** interface has these methods.
 
 | Method                                                                             | Description                                                                               |
 |:-----------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------|
-| [**FindRecordProgramMapPid**](https://msdn.microsoft.com/library/Dd407137(v=VS.85).aspx)         | Finds the Program Map Table (PMT) PID for a program, given the program number.<br/> |
+| [**FindRecordProgramMapPid**](/previous-versions/windows/desktop/legacy/dd407137(v=vs.85))         | Finds the Program Map Table (PMT) PID for a program, given the program number.<br/> |
 | [**GetCountOfElementaryStreams**](impeg2psiparser-getcountofelementarystreams.md) | Retrieves the number of elementary streams in a specified program.<br/>             |
 | [**GetCountOfPrograms**](impeg2psiparser-getcountofprograms.md)                   | Retrieves the number of programs in the transport stream.<br/>                      |
 | [**GetPatVersionNumber**](impeg2psiparser-getpatversionnumber.md)                 | Retrieves the version\_number field from the Program Association Table (PAT).<br/>  |
 | [**GetPmtVersionNumber**](impeg2psiparser-getpmtversionnumber.md)                 | Retrieves the version\_number field from a specified PMT.<br/>                      |
-| [**GetRecordElementaryPid**](https://msdn.microsoft.com/library/Dd376623(v=VS.85).aspx)           | Retrieves the PID assignment for a specified elementary stream in a program.<br/>   |
-| [**GetRecordProgramMapPid**](https://msdn.microsoft.com/library/Dd376624(v=VS.85).aspx)           | Retrieves the PID assignment for a specified PMT.<br/>                              |
+| [**GetRecordElementaryPid**](/previous-versions/windows/desktop/legacy/dd376623(v=vs.85))           | Retrieves the PID assignment for a specified elementary stream in a program.<br/>   |
+| [**GetRecordProgramMapPid**](/previous-versions/windows/desktop/legacy/dd376624(v=vs.85))           | Retrieves the PID assignment for a specified PMT.<br/>                              |
 | [**GetRecordProgramNumber**](impeg2psiparser-getrecordprogramnumber.md)           | Retrieves the program number for a specified program.<br/>                          |
-| [**GetRecordStreamType**](https://msdn.microsoft.com/library/Dd376626(v=VS.85).aspx)                 | Retrieves the stream type for a specified elementary stream in a program.<br/>      |
+| [**GetRecordStreamType**](/previous-versions/windows/desktop/legacy/dd376626(v=vs.85))                 | Retrieves the stream type for a specified elementary stream in a program.<br/>      |
 | [**GetTransportStreamId**](impeg2psiparser-gettransportstreamid.md)               | Retrieves the transport\_stream\_id field from the PAT.<br/>                        |
 
 
@@ -59,7 +59,3 @@ The **IMpeg2PsiParser** interface has these methods.
  
 
  
-
-
-
-

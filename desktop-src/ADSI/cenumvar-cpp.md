@@ -17,9 +17,9 @@ In the example provider component, the base implementation for xxxEnumVariant de
 |-------------------------------------------------|---------------------------------------------------------------------------------------|
 | **CSampleDSEnumVariant::CSampleDSEnumVariant**  | Standard constructor.                                                                 |
 | **CSampleDSEnumVariant::~CSampleDSEnumVariant** | Standard destructor.                                                                  |
-| **CSampleDSEnumVariant::QueryInterface**        | Standard [**IUnknown::QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) implementation. |
-| **CSampleDSEnumVariant::AddRef**                | Standard [**IUnknown::AddRef**](https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx) implementation.                 |
-| **CSampleDSEnumVariant::Release**               | Standard [**IUnknown::Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) implementation.               |
+| **CSampleDSEnumVariant::QueryInterface**        | Standard [**IUnknown::QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) implementation. |
+| **CSampleDSEnumVariant::AddRef**                | Standard [**IUnknown::AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) implementation.                 |
+| **CSampleDSEnumVariant::Release**               | Standard [**IUnknown::Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) implementation.               |
 | **CSampleDSEnumVariant::Skip**                  | Standard **IEnumXXXX::Skip** implementation.                                          |
 | **CSampleDSEnumVariant::Reset**                 | Standard **IEnumXXXX::Reset** implementation.                                         |
 | **CSampleDSEnumVariant::Clone**                 | Standard **IEnumXXXX::Clone** implementation.                                         |
@@ -31,7 +31,3 @@ In the example provider component, the base implementation for xxxEnumVariant de
  
 
  
-
-
-
-

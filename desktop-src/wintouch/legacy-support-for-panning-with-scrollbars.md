@@ -43,7 +43,7 @@ Start a new Win32 project using the Microsoft Visual Studio wizard. Make sure th
 
 ![screen shot showing a window without scroll bars](images/gpd-1.png)
 
-Next, enable scroll bars on the image. Change the window creation code in **InitInstance** so that the [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) function call creates a window with scroll bars. The following code shows how to do this.
+Next, enable scroll bars on the image. Change the window creation code in **InitInstance** so that the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) function call creates a window with scroll bars. The following code shows how to do this.
 
 
 ```C++
@@ -349,7 +349,3 @@ You might want a different panning experience than Windows 7 offers by default.
  
 
  
-
-
-
-

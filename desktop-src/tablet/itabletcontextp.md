@@ -22,7 +22,7 @@ Represents the tablet context.
 
 ## Members
 
-The **ITabletContextP** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITabletContextP** also has these types of members:
+The **ITabletContextP** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITabletContextP** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -103,9 +103,4 @@ interface ITabletContextP : ITabletContext
 
 
  
-
- 
-
-
-
 

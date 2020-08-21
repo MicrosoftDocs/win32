@@ -39,7 +39,7 @@ The following functions are used with video compression.
 -   [**ICSeqCompressFrameEnd**](/windows/desktop/api/Vfw/nf-vfw-icseqcompressframeend)
 -   [**ICSeqCompressFrameStart**](/windows/desktop/api/Vfw/nf-vfw-icseqcompressframestart)
 -   [**ICSetStatusProc**](/windows/desktop/api/Vfw/nf-vfw-icsetstatusproc)
--   [**MyStatusProc**](https://msdn.microsoft.com/library/Dd743620(v=VS.85).aspx)
+-   [**MyStatusProc**](/previous-versions//dd743620(v=vs.85))
 
 ## Related topics
 
@@ -51,7 +51,3 @@ The following functions are used with video compression.
  
 
  
-
-
-
-

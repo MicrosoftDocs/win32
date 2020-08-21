@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Name Resolution Model
 
-A *namespace* refers to some capability to associate (as a minimum) the protocol and addressing attributes of a network service with one or more friendly names. Many namespaces are currently in wide use, including the Internet's [Domain Name System](https://msdn.microsoft.com/library/ms682100(v=VS.85).aspx) (DNS), [Active Directory Domain Services](https://msdn.microsoft.com/library/Aa362244(v=VS.85).aspx), the bindery, NetWare Directory Services (NDS) from Novell, and X.500. These namespaces vary widely in how they are organized and implemented. Some of their properties are particularly important to understand from the perspective of Winsock name resolution.
+A *namespace* refers to some capability to associate (as a minimum) the protocol and addressing attributes of a network service with one or more friendly names. Many namespaces are currently in wide use, including the Internet's [Domain Name System](../dns/dns-start-page.md) (DNS), [Active Directory Domain Services](../ad/active-directory-domain-services.md), the bindery, NetWare Directory Services (NDS) from Novell, and X.500. These namespaces vary widely in how they are organized and implemented. Some of their properties are particularly important to understand from the perspective of Winsock name resolution.
 
 ## Types of Namespaces
 
@@ -22,7 +22,7 @@ Dynamic namespaces allow services to register with the namespace on the fly, and
 
 Static namespaces require all of the services to be registered ahead of time, that is, when the namespace is created. An example of a static namespace are the *hosts*, *protocol*, and *services* files used by most TCP/IP implementations. On Windows, these files are typically located in the *C:\\windows\\system32\\drivers\\etc* folder.
 
-Persistent namespaces allow services to register with the namespace on the fly. Unlike dynamic namespaces however, persistent namespaces retain the registration information in nonvolatile storage where it remains until such time as the service requests that it be removed. Persistent namespaces are typified by directory services such as X.500 and the NDS (NetWare Directory Service). These environments allow the adding, deleting, and modification of service properties. In addition, the service object representing the service within the directory service could have a variety of attributes associated with the service. The most important attribute for client applications is the service's addressing information. DNS is another example of a persistent namespace. Although there is a programmatic way to resolve DNS names using Windows Sockets, the DNS namespace provider in Windows does not support registering new DNS names using Winsock. You must use the DNS functions directly to register DNS names. For more information, see the [DNS Reference](https://msdn.microsoft.com/library/ms682085(v=VS.85).aspx).
+Persistent namespaces allow services to register with the namespace on the fly. Unlike dynamic namespaces however, persistent namespaces retain the registration information in nonvolatile storage where it remains until such time as the service requests that it be removed. Persistent namespaces are typified by directory services such as X.500 and the NDS (NetWare Directory Service). These environments allow the adding, deleting, and modification of service properties. In addition, the service object representing the service within the directory service could have a variety of attributes associated with the service. The most important attribute for client applications is the service's addressing information. DNS is another example of a persistent namespace. Although there is a programmatic way to resolve DNS names using Windows Sockets, the DNS namespace provider in Windows does not support registering new DNS names using Winsock. You must use the DNS functions directly to register DNS names. For more information, see the [DNS Reference](../dns/dns-reference.md).
 
 ## Namespace Organization
 
@@ -58,7 +58,7 @@ In the first two cases, the combination of the service class GUID for FTP and th
 
 <dl> <dt>
 
-[DNS Reference](https://msdn.microsoft.com/library/ms682085(v=VS.85).aspx)
+[DNS Reference](../dns/dns-reference.md)
 </dt> <dt>
 
 [Name Resolution Data Structures](name-resolution-data-structures-2.md)
@@ -79,6 +79,3 @@ In the first two cases, the combination of the service class GUID for FTP and th
  
 
  
-
-
-

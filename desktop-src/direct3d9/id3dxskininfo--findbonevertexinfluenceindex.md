@@ -40,7 +40,7 @@ HRESULT FindBoneVertexInfluenceIndex(
 *boneNum* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Index of the bone. Must be between 0 and the number of bones.
 
@@ -49,7 +49,7 @@ Index of the bone. Must be between 0 and the number of bones.
 *vertexNum* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Index of the vertex for which the bone influence is to be found. Must be between 0 and the number of vertices in the mesh.
 
@@ -58,7 +58,7 @@ Index of the vertex for which the bone influence is to be found. Must be between
 *pInfluenceIndex* \[in, out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to the index of the bone influence that affects vertexNum.
 
@@ -100,7 +100,3 @@ If the method succeeds, the return value is S\_OK. If the specified bone does no
  
 
  
-
-
-
-

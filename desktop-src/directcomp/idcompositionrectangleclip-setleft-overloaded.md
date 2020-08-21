@@ -24,8 +24,8 @@ Animates or changes the value of the Left property of a clip rectangle. The Left
 
 | Method                                                                                                 | Description                                         |
 |:-------------------------------------------------------------------------------------------------------|:----------------------------------------------------|
-| [**SetLeft(float)**](https://msdn.microsoft.com/library/Hh448899(v=VS.85).aspx)                                     | Changes the value of the Left property.<br/>  |
-| [**SetLeft(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448901(v=VS.85).aspx) | Animates the value of the Left property.<br/> |
+| [**SetLeft(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-setleft(float))                                     | Changes the value of the Left property.<br/>  |
+| [**SetLeft(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-setleft(idcompositionanimation)) | Animates the value of the Left property.<br/> |
 
 
 
@@ -47,14 +47,9 @@ Animates or changes the value of the Left property of a clip rectangle. The Left
 
 <dl> <dt>
 
-[**IDCompositionRectangleClip**](https://msdn.microsoft.com/library/Hh437434(v=VS.85).aspx)
+[**IDCompositionRectangleClip**](/windows/win32/api/dcomp/nn-dcomp-idcompositionrectangleclip)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

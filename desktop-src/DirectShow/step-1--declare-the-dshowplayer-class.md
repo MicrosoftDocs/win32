@@ -79,7 +79,7 @@ Notes:
 -   The constant WM\_GRAPH\_EVENT defines a private window message. This message is used to notify the application about filter graph events. See [Step 6: Handle Graph Events](step-6--handle-graph-events.md).
 -   `GraphEventFN` is a pointer to a callback function for handling filter graph events. The application implements this callback function.
 -   The *m\_pVideo* member variable provides a wrapper for the various DirectShow video renderers. See [Step 2: Declare CVideoRenderer and Derived Classes](step-2--declare-cvideorenderer-and-derived-classes.md).
--   Throughout this tutorial, the [SafeRelease](https://msdn.microsoft.com/library/Dd940435(v=VS.85).aspx) function is used to release COM interface pointers.
+-   Throughout this tutorial, the [SafeRelease](../medfound/saferelease.md) function is used to release COM interface pointers.
 
 Next: [Step 2: Declare CVideoRenderer and Derived Classes](step-2--declare-cvideorenderer-and-derived-classes.md).
 
@@ -93,6 +93,3 @@ Next: [Step 2: Declare CVideoRenderer and Derived Classes](step-2--declare-cvide
  
 
  
-
-
-

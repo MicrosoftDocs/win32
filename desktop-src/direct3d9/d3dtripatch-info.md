@@ -40,7 +40,7 @@ typedef struct D3DTRIPATCH_INFO {
 **StartVertexOffset**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -51,7 +51,7 @@ Starting vertex offset, in number of vertices.
 **NumVertices**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -62,22 +62,22 @@ Number of vertices.
 **Basis**
 </dt> <dd>
 
-Type: **[**D3DBASISTYPE**](https://msdn.microsoft.com/library/Bb172507(v=VS.85).aspx)**
+Type: **[**D3DBASISTYPE**](./d3dbasistype.md)**
 
 </dd> <dd>
 
-Member of the [**D3DBASISTYPE**](https://msdn.microsoft.com/library/Bb172507(v=VS.85).aspx) enumerated type, which defines the basis type for the triangular high-order patch. The only valid value for this member is D3DBASIS\_BEZIER.
+Member of the [**D3DBASISTYPE**](./d3dbasistype.md) enumerated type, which defines the basis type for the triangular high-order patch. The only valid value for this member is D3DBASIS\_BEZIER.
 
 </dd> <dt>
 
 **Degree**
 </dt> <dd>
 
-Type: **[**D3DDEGREETYPE**](https://msdn.microsoft.com/library/Bb172536(v=VS.85).aspx)**
+Type: **[**D3DDEGREETYPE**](./d3ddegreetype.md)**
 
 </dd> <dd>
 
-Member of the [**D3DDEGREETYPE**](https://msdn.microsoft.com/library/Bb172536(v=VS.85).aspx) enumerated type, defining the degree type for the triangular high-order patch.
+Member of the [**D3DDEGREETYPE**](./d3ddegreetype.md) enumerated type, defining the degree type for the triangular high-order patch.
 
 
 
@@ -98,7 +98,7 @@ N/A - Not available. Not supported.
 
 ## Remarks
 
-For example, the following diagram identifies the vertex order and segment numbers for a cubic Bézier triangle patch. The vertex order determines the segment numbers used by [**DrawTriPatch**](https://msdn.microsoft.com/library/Bb174374(v=VS.85).aspx). The offset is the number of bytes to the first triangle patch vertex in the vertex buffer.
+For example, the following diagram identifies the vertex order and segment numbers for a cubic Bézier triangle patch. The vertex order determines the segment numbers used by [**DrawTriPatch**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawtripatch). The offset is the number of bytes to the first triangle patch vertex in the vertex buffer.
 
 ![diagram of a triangular high-order patch with nine vertices](images/hop-tripatch-info.png)
 
@@ -119,7 +119,7 @@ For example, the following diagram identifies the vertex order and segment numbe
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**DrawTriPatch**](https://msdn.microsoft.com/library/Bb174374(v=VS.85).aspx)
+[**DrawTriPatch**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawtripatch)
 </dt> <dt>
 
 [**D3DXTessellateTriPatch**](d3dxtessellatetripatch.md)
@@ -128,7 +128,3 @@ For example, the following diagram identifies the vertex order and segment numbe
  
 
  
-
-
-
-

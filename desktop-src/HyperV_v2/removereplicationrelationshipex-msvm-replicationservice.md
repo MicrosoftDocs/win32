@@ -39,7 +39,7 @@ uint32 RemoveReplicationRelationshipEx(
 *ComputerSystem* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which to remove the replication.
+A reference to a [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which to remove the replication.
 
 </dd> <dt>
 
@@ -53,7 +53,7 @@ A string representation of an embedded instance of the [**Msvm\_ReplicationRelat
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)). This reference can be **NULL** if the task is complete.
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)). This reference can be **NULL** if the task is complete.
 
 </dd> </dl>
 
@@ -134,9 +134,4 @@ For a replica virtual machine, primary replication can't be removed if extended 
 </dt> </dl>
 
  
-
- 
-
-
-
 

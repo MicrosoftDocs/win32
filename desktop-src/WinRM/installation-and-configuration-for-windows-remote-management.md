@@ -22,7 +22,7 @@ WinRM is automatically installed with all currently-supported versions of the Wi
 
 ## Configuration of WinRM and IPMI
 
-The following WinRM and [*Intelligent Platform Management Interface (IPMI)*](windows-remote-management-glossary.md) [WMI provider](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider) components are installed with the operating system:
+The following WinRM and [*Intelligent Platform Management Interface (IPMI)*](windows-remote-management-glossary.md) [WMI provider](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) components are installed with the operating system:
 
 -   The WinRM service starts automatically on Windows Server 2008. On Windows Vista, the service must be started manually.
 -   By default, no WinRM [*listener*](windows-remote-management-glossary.md) is configured. Even if the WinRM service is running, WS-Management protocol [*messages*](windows-remote-management-glossary.md) that request data cannot be received or sent.
@@ -502,9 +502,9 @@ If the [*baseboard management controller (BMC)*](windows-remote-management-gloss
 
 If your system does not automatically detect the BMC and install the driver, but a BMC was detected during the setup process, the BMC device must be manually created. To do this, type the following command at a command prompt: **Rundll32 ipmisetp.dll, AddTheDevice**. After this command is executed, the IPMI device is created and appears in Device Manager. If you uninstall the Hardware Management component, the device is removed.
 
-For more information, see [Hardware Management Introduction](https://technet.microsoft.com/library/f550cac0-5344-41cb-8e89-6e5c93236886).
+For more information, see [Hardware Management Introduction](/previous-versions/windows/it-pro/windows-server-2003/cc785056(v=ws.10)).
 
-The IPMI provider places the hardware classes in the **root\\hardware** [*namespace*](https://docs.microsoft.com/windows/desktop/WmiSdk/gloss-n) of WMI. For more information about the hardware classes, see [IPMI Provider](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider). For more information about WMI *namespaces*, see [WMI Architecture](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-architecture).
+The IPMI provider places the hardware classes in the **root\\hardware** [*namespace*](/windows/desktop/WmiSdk/gloss-n) of WMI. For more information about the hardware classes, see [IPMI Provider](/previous-versions/windows/desktop/ipmiprv/ipmi-provider). For more information about WMI *namespaces*, see [WMI Architecture](/windows/desktop/WmiSdk/wmi-architecture).
 
 ## WMI Plug-in Configuration Notes
 
@@ -523,7 +523,3 @@ The majority of the WMI classes for management are in the **root\\cimv2** namesp
  
 
  
-
-
-
-

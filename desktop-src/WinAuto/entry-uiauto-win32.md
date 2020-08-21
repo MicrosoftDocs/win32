@@ -23,7 +23,7 @@ By using UI Automation and following accessible design practices, developers can
 
 UI Automation is designed for experienced C/C++ developers. In general, developers need a moderate level of understanding about Component Object Model (COM) objects and interfaces, Unicode, and Windows API programming.
 
-For information about UI Automation for managed code, please see [Accessibility](https://msdn.microsoft.com/library/ms753388.aspx) in the .NET Framework Developer's Guide section of MSDN.
+For information about UI Automation for managed code, please see [Accessibility](/dotnet/framework/ui-automation/) in the .NET Framework Developer's Guide section of MSDN.
 
 ## Run-Time Requirements
 
@@ -54,7 +54,7 @@ The Platform Update for Windows Vista and the Platform Update for Windows Serve
 -   Windows Server 2008 (English) <dl> Windows Server 2008 SP2 (x86 and x64)  
     </dl>
 
-For more information about both updates, see [Platform Update for Windows Vista](https://msdn.microsoft.com/library/Ee663867(v=VS.85).aspx).
+For more information about both updates, see [Platform Update for Windows Vista](../win7ip/platform-update-for-windows-vista-portal.md).
 
 ## In this section
 
@@ -68,7 +68,3 @@ For more information about both updates, see [Platform Update for Windows Vista]
  
 
  
-
-
-
-

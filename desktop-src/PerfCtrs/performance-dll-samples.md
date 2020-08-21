@@ -12,13 +12,10 @@ The Windows SDK (WSDK) contains three complete sample performance DLLs. These sa
 
 The samples contained in this directory are:
 
--   **AppMem**—Provides counterparts of the [**GlobalAlloc**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc), [**GlobalReAlloc**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalrealloc), and [**GlobalFree**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree) functions that report performance information. Performance counters in the registry and the Performance tool can read the performance information.
+-   **AppMem**—Provides counterparts of the [**GlobalAlloc**](/windows/desktop/api/winbase/nf-winbase-globalalloc), [**GlobalReAlloc**](/windows/desktop/api/winbase/nf-winbase-globalrealloc), and [**GlobalFree**](/windows/desktop/api/winbase/nf-winbase-globalfree) functions that report performance information. Performance counters in the registry and the Performance tool can read the performance information.
 -   **LeakyBin**—Demonstrates the use of application performance counters.
 -   **PerfGen**—Provides three waveforms at five different periods for use with the Performance tool to provide data at a known rate and value. This can be useful in testing applications that use performance data and need predictable values to test against.
 
  
 
  
-
-
-

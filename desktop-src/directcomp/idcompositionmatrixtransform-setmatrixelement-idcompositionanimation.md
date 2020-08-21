@@ -67,19 +67,15 @@ If the function succeeds, it returns S\_OK. Otherwise, it returns an **HRESULT**
 
 This method makes a copy of the specified animation. If the object referenced by the *animation* parameter is changed after calling this method, the change does not affect the element unless this method is called again. If the element was previously animated, calling this method replaces the previous animation with the new animation.
 
-This method fails if *animation* is an invalid pointer or if it was not created by the same [**IDCompositionDevice**](https://msdn.microsoft.com/library/Hh437392(v=VS.85).aspx) interface as the affected transform. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+This method fails if *animation* is an invalid pointer or if it was not created by the same [**IDCompositionDevice**](/windows/win32/api/dcomp/nn-dcomp-idcompositiondevice) interface as the affected transform. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 ## See also
 
 <dl> <dt>
 
-[**IDCompositionMatrixTransform**](https://msdn.microsoft.com/library/Hh437424(v=VS.85).aspx)
+[**IDCompositionMatrixTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionmatrixtransform)
 </dt> </dl>
 
  
 
  
-
-
-
-

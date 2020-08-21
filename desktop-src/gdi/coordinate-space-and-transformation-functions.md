@@ -18,7 +18,7 @@ The following functions are used with coordinate spaces and transformations.
 | [**CombineTransform**](/windows/desktop/api/Wingdi/nf-wingdi-combinetransform)                                   | Concatenates two world-space to page-space transformations.                                                                      |
 | [**DPtoLP**](/windows/desktop/api/Wingdi/nf-wingdi-dptolp)                                                       | Converts device coordinates into logical coordinates.                                                                            |
 | [**GetCurrentPositionEx**](/windows/desktop/api/Wingdi/nf-wingdi-getcurrentpositionex)                           | Retrieves the current position in logical coordinates.                                                                           |
-| [**GetDisplayAutoRotationPreferences**](https://msdn.microsoft.com/library/Dn376360(v=VS.85).aspx) | Gets the orientation preferences of the display.                                                                                 |
+| [**GetDisplayAutoRotationPreferences**](/previous-versions//dn376360(v=vs.85)) | Gets the orientation preferences of the display.                                                                                 |
 | [**GetGraphicsMode**](/windows/desktop/api/Wingdi/nf-wingdi-getgraphicsmode)                                     | Retrieves the current graphics mode for the specified device context.                                                            |
 | [**GetMapMode**](/windows/desktop/api/Wingdi/nf-wingdi-getmapmode)                                               | Retrieves the current mapping mode.                                                                                              |
 | [**GetViewportExtEx**](/windows/desktop/api/Wingdi/nf-wingdi-getviewportextex)                                   | Retrieves the x-extent and y-extent of the current viewport for the specified device context.                                    |
@@ -34,7 +34,7 @@ The following functions are used with coordinate spaces and transformations.
 | [**ScaleViewportExtEx**](/windows/desktop/api/Wingdi/nf-wingdi-scaleviewportextex)                               | Modifies the viewport for a device context using the ratios formed by the specified multiplicands and divisors.                  |
 | [**ScaleWindowExtEx**](/windows/desktop/api/Wingdi/nf-wingdi-scalewindowextex)                                   | Modifies the window for a device context using the ratios formed by the specified multiplicands and divisors.                    |
 | [**ScreenToClient**](/windows/desktop/api/Winuser/nf-winuser-screentoclient)                                       | Converts the screen coordinates of a specified point on the screen to client coordinates.                                        |
-| [**SetDisplayAutoRotationPreferences**](https://msdn.microsoft.com/library/Dn376361(v=VS.85).aspx) | Sets the orientation preferences of the display.                                                                                 |
+| [**SetDisplayAutoRotationPreferences**](/previous-versions//dn376361(v=vs.85)) | Sets the orientation preferences of the display.                                                                                 |
 | [**SetGraphicsMode**](/windows/desktop/api/Wingdi/nf-wingdi-setgraphicsmode)                                     | Sets the graphics mode for the specified device context.                                                                         |
 | [**SetMapMode**](/windows/desktop/api/Wingdi/nf-wingdi-setmapmode)                                               | Sets the mapping mode of the specified device context.                                                                           |
 | [**SetViewportExtEx**](/windows/desktop/api/Wingdi/nf-wingdi-setviewportextex)                                   | Sets the horizontal and vertical extents of the viewport for a device context by using the specified values.                     |
@@ -50,6 +50,3 @@ The following functions are used with coordinate spaces and transformations.
  
 
  
-
-
-

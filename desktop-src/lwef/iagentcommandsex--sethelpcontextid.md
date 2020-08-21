@@ -16,7 +16,7 @@ HRESULT SetHelpContextID(
 );
 ```
 
-Sets the [**HelpContextID**](helpcontextid-property.md) for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object.
+Sets the [**HelpContextID**](helpcontextid-property.md) for a [**Command**](/windows/desktop/lwef/the-command-object) object.
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,7 +25,7 @@ Sets the [**HelpContextID**](helpcontextid-property.md) for a [**Command**](http
 <span id="ulHelpID"></span><span id="ulhelpid"></span><span id="ULHELPID"></span>*ulHelpID*
 </dt> <dd>
 
-The context number of the help topic associated with the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object; used to provide context-sensitive Help for the command.
+The context number of the help topic associated with the [**Command**](/windows/desktop/lwef/the-command-object) object; used to provide context-sensitive Help for the command.
 
 </dd> </dl>
 
@@ -46,7 +46,3 @@ This property applies only to your client application's use of the character; th
  
 
  
-
-
-
-

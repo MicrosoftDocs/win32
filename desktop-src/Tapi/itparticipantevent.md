@@ -19,7 +19,7 @@ The **ITParticipantEvent** interface contains methods that retrieve the descript
 
 ## Members
 
-The **ITParticipantEvent** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITParticipantEvent** also has these types of members:
+The **ITParticipantEvent** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITParticipantEvent** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -33,7 +33,7 @@ The **ITParticipantEvent** interface has these methods.
 |:---------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**get\_Event**](itparticipantevent-get-event.md)             | Gets the [**PARTICIPANT\_EVENT**](participant-event.md) descriptor of the event.<br/>                                                    |
 | [**get\_Participant**](itparticipantevent-get-participant.md) | Gets a pointer to an array of [**ITParticipant**](itparticipant.md) interfaces representing the participants involved in the event.<br/> |
-| [**get\_SubStream**](itparticipantevent-get-substream.md)     | Gets a pointer to an array of [**ITSubStream**](https://msdn.microsoft.com/library/ms732440(v=VS.85).aspx) interfaces representing the substreams involved in the event.<br/>       |
+| [**get\_SubStream**](itparticipantevent-get-substream.md)     | Gets a pointer to an array of [**ITSubStream**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream) interfaces representing the substreams involved in the event.<br/>       |
 
 
 
@@ -59,7 +59,7 @@ The **ITParticipantEvent** interface has these methods.
 [**ITParticipant**](itparticipant.md)
 </dt> <dt>
 
-[**ITSubStream**](https://msdn.microsoft.com/library/ms732440(v=VS.85).aspx)
+[**ITSubStream**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream)
 </dt> <dt>
 
 [**ITCallInfo**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo)
@@ -78,9 +78,4 @@ The **ITParticipantEvent** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
 

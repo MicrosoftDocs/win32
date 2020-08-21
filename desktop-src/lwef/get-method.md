@@ -42,7 +42,7 @@ Retrieves specified animation data for the specified character.
 
 If you load a character using the HTTP protocol (an .ACF file), you must use the **Get** method to retrieve animation data before you can play the animation. You do not use this method if you loaded the character using the UNC protocol (an .ACS file). You also cannot retrieve HTTP data for a character using **Get** if you loaded that character using the UNC protocol (.ACS character file).
 
-If you declare an object reference and set it to this method, it returns a [**Request**](https://docs.microsoft.com/windows/desktop/lwef/the-request-object) object. If the associated animation fails to load, the server sets the **Request** object's [**Status**](status-property.md) property to "failed" with an appropriate error number. You can use the [**RequestComplete**](requestcomplete-event.md) event to check the status and determine what action to take.
+If you declare an object reference and set it to this method, it returns a [**Request**](/windows/desktop/lwef/the-request-object) object. If the associated animation fails to load, the server sets the **Request** object's [**Status**](status-property.md) property to "failed" with an appropriate error number. You can use the [**RequestComplete**](requestcomplete-event.md) event to check the status and determine what action to take.
 
 Animation or sound data retrieved with the **Get** method is stored in the browser's cache. Subsequent calls will check the cache, and if the animation data is already there, the control loads the data directly from the cache. Once loaded, the animation or sound data can be played with the [**Play**](play-method.md) or [**Speak**](speak-method.md) methods.
 
@@ -52,10 +52,4 @@ Animation or sound data retrieved with the **Get** method is stored in the brows
 
 
  
-
- 
-
-
-
-
 

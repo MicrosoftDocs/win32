@@ -57,7 +57,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) (64)
+Qualifiers: [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64)
 </dt> </dl>
 
 A short textual description of the object.
@@ -132,9 +132,4 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 
 
  
-
- 
-
-
-
 

@@ -43,7 +43,7 @@ Kernel-mode components that reside between the Network Stack and the filter engi
 
 ### Callouts
 
-Set of functions exposed by a driver and used for specialized filtering. Besides the basic actions of "Permit" and "Block", callouts can modify and secure inbound and outbound network traffic. See the [Windows Filtering Platform Callout Drivers](https://msdn.microsoft.com/library/ff571068.aspx) topic in the Windows Driver Kit (WDK) documentation for more information on callouts. WFP provides built-in callouts that accomplish the following tasks.<br/>
+Set of functions exposed by a driver and used for specialized filtering. Besides the basic actions of "Permit" and "Block", callouts can modify and secure inbound and outbound network traffic. See the [Windows Filtering Platform Callout Drivers](/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2) topic in the Windows Driver Kit (WDK) documentation for more information on callouts. WFP provides built-in callouts that accomplish the following tasks.<br/>
 
 -   Perform IPsec processing.
 -   Adjust stateful filtering behavior.
@@ -73,8 +73,8 @@ A set of data types and functions available to the developers to build and manag
 -   Includes a generic user notification system that informs subscribers of changes to the filtering system.
 -   Implements enumeration functions that report on the state of the system.
 -   Uses net events to record IPsec errors and packet drops.
--   Supports a Network Diagnostics Framework [(NDF) helper class](https://docs.microsoft.com/windows/desktop/NDF/extensible-helper-classes).
--   Supports the [Secure Socket extensions](https://docs.microsoft.com/windows/desktop/WinSock/winsock-secure-socket-extensions) to the Winsock API, which allow network applications to secure their traffic by configuring WFP.
+-   Supports a Network Diagnostics Framework [(NDF) helper class](/windows/desktop/NDF/extensible-helper-classes).
+-   Supports the [Secure Socket extensions](/windows/desktop/WinSock/winsock-secure-socket-extensions) to the Winsock API, which allow network applications to secure their traffic by configuring WFP.
 -   At Application Layer Enforcement (ALE) layers, minimally impacts network performance by processing only the first packet in a connection.
 -   Integrates hardware offload where kernel-mode callout modules can use hardware to perform specific packet inspection.
 
@@ -104,10 +104,4 @@ A set of data types and functions available to the developers to build and manag
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

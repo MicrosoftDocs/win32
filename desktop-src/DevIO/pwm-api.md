@@ -27,17 +27,14 @@ A PWM waveform can be categorized by two parameters:
 
 The duty cycle describes the proportion of the **on**/**Active** time with respect to the regular interval or **Period** of time. A low duty cycle corresponds to an average of low output power, because the power is off for most of the time. Duty cycle is expressed as a percentage. Fully on is 100%. Fully off is 0%. **Active** half the time is 50%.
 
-Developers looking to implement PWM in their IoT applications should investigate the [WinRT PWM documentation.](https://docs.microsoft.com/uwp/api/windows.devices.pwm)
+Developers looking to implement PWM in their IoT applications should investigate the [WinRT PWM documentation.](/uwp/api/windows.devices.pwm)
 
 ## Pulse Width Modulation types
 
 PWM uses [these IO control codes](pwm-control-codes.md), [structures](pwm-structures.md), and [enumerations.](pwm-enumeration-types.md)
 
-PWM also uses the following function: [**PwmParsePinPath**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pwmutil/nf-pwmutil-pwmparsepinpath).
+PWM also uses the following function: [**PwmParsePinPath**](/windows-hardware/drivers/ddi/content/pwmutil/nf-pwmutil-pwmparsepinpath).
 
  
 
  
-
-
-

@@ -22,7 +22,7 @@ In environments where a standard Windows Deployment Services (WDS) solution cann
 
 Windows PE 2.0 must be started, if not already started. The WDS client and supporting DLLs are only loaded by setup.exe when it is in the Microsoft Windows Preinstallation Environment (Windows PE 2.0) phase of setup processing.
 
--   When a new computer is connected to the network, the built-in preboot execution environment (PXE) technology can be used to download the Network Boot Program. For more information about PXE-booting a computer to install Windows, see [The Windows Deployment Services Update Step-by-Step Guide](https://technet.microsoft.com/library/cc766320.aspx).
+-   When a new computer is connected to the network, the built-in preboot execution environment (PXE) technology can be used to download the Network Boot Program. For more information about PXE-booting a computer to install Windows, see [The Windows Deployment Services Update Step-by-Step Guide](/previous-versions/windows/it-pro/windows-vista/cc766320(v=ws.10)).
 -   A RAMDISK bootable image of Windows PE 2.0 can be stored in the .WIM format and downloaded as part of the network boot process. Windows PE can then be loaded and run directly from that media.
 
 ## Open a session with the WDS server
@@ -79,7 +79,3 @@ The logging functionality of the WDS client library enables installation progres
  
 
  
-
-
-
-

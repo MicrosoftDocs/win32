@@ -14,7 +14,7 @@ The Media Foundation H.265 video encoder is a [Media Foundation Transform](media
 
 The H.265 video encoder exposes the following interfaces:
 
--   [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx)
+-   [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi)
 -   [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)
 
 ## Input Types
@@ -127,19 +127,19 @@ All other [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imf
 
 ## Supported ICodecAPI methods
 
-The following methods of the [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx) interface are supported for the H.265/HEVC encoder:
+The following methods of the [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi) interface are supported for the H.265/HEVC encoder:
 
--   [**IsSupported**](https://msdn.microsoft.com/library/Dd311960(v=VS.85).aspx)
--   [**SetValue**](https://msdn.microsoft.com/library/Dd311966(v=VS.85).aspx)
--   [**GetValue**](https://msdn.microsoft.com/library/Dd311958(v=VS.85).aspx)
--   [**GetParameterRange**](https://msdn.microsoft.com/library/Dd311956(v=VS.85).aspx)
--   [**GetParameterValues**](https://msdn.microsoft.com/library/Dd311957(v=VS.85).aspx)
+-   [**IsSupported**](/windows/win32/api/strmif/nf-strmif-icodecapi-issupported)
+-   [**SetValue**](/windows/win32/api/strmif/nf-strmif-icodecapi-setvalue)
+-   [**GetValue**](/windows/win32/api/strmif/nf-strmif-icodecapi-getvalue)
+-   [**GetParameterRange**](/windows/win32/api/strmif/nf-strmif-icodecapi-getparameterrange)
+-   [**GetParameterValues**](/windows/win32/api/strmif/nf-strmif-icodecapi-getparametervalues)
 
-All other [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx) methods will return the error E\_NOTIMPL.
+All other [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi) methods will return the error E\_NOTIMPL.
 
 ## Codec Properties
 
-The H.265 encoder implements the [**ICodecAPI**](https://msdn.microsoft.com/library/Dd311953(v=VS.85).aspx) interface for setting encoding parameters. It supports the following properties.
+The H.265 encoder implements the [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi) interface for setting encoding parameters. It supports the following properties.
 
 For the codec requirements for HCK encoder certification, see the **Certified Hardware Encoder** section below.
 
@@ -233,11 +233,11 @@ If a certified hardware encoder is present, it will generally be used instead of
 
 The following is the set of required and optional **ICodecAPI** properties for encoders to pass the HCK encoder certification.
 
--   [CODECAPI\_AVEncCommonRateControlMode](https://msdn.microsoft.com/library/Dd317842(v=VS.85).aspx)
--   [CODECAPI\_AVEncCommonQuality](https://msdn.microsoft.com/library/Dd317841(v=VS.85).aspx)
--   [CODECAPI\_AVEncCommonMeanBitRate](https://msdn.microsoft.com/library/Dd317662(v=VS.85).aspx)
--   [CODECAPI\_AVEncCommonBufferSize](https://msdn.microsoft.com/library/Dd317651(v=VS.85).aspx)
--   [CODECAPI\_AVEncMPVGOPSize](https://msdn.microsoft.com/library/Dd317889(v=VS.85).aspx)
+-   [CODECAPI\_AVEncCommonRateControlMode](../directshow/avenccommonratecontrolmode-property.md)
+-   [CODECAPI\_AVEncCommonQuality](../directshow/avenccommonquality-property.md)
+-   [CODECAPI\_AVEncCommonMeanBitRate](../directshow/avenccommonmeanbitrate-property.md)
+-   [CODECAPI\_AVEncCommonBufferSize](../directshow/avenccommonbuffersize-property.md)
+-   [CODECAPI\_AVEncMPVGOPSize](../directshow/avencmpvgopsize-property.md)
 -   [CODECAPI\_AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md)
 -   [CODECAPI\_AVEncVideoForceKeyFrame](codecapi-avencvideoforcekeyframe.md)
 
@@ -263,7 +263,3 @@ The following is the set of required and optional **ICodecAPI** properties for e
  
 
  
-
-
-
-

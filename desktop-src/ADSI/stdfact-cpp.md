@@ -9,12 +9,8 @@ ms.date: 05/31/2018
 
 # STDFACT.CPP
 
-In the example provider component, a code example showing the standard [**IClassFactory**](https://msdn.microsoft.com/library/ms694364(v=VS.85).aspx) implementation is in Stdfact.cpp. For more information, see **IClassFactory**.
+In the example provider component, a code example showing the standard [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) implementation is in Stdfact.cpp. For more information, see **IClassFactory**.
 
  
 
  
-
-
-
-

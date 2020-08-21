@@ -24,8 +24,8 @@ Changes or animates the value of the CenterX property of a 3D rotation transform
 
 | Method                                                                                                           | Description                                            |
 |:-----------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetCenterX(float)**](https://msdn.microsoft.com/library/Hh448953(v=VS.85).aspx)                                     | Changes the value of the CenterX property.<br/>  |
-| [**SetCenterX(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh448955(v=VS.85).aspx) | Animates the value of the CenterX property.<br/> |
+| [**SetCenterX(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcenterx(float))                                     | Changes the value of the CenterX property.<br/>  |
+| [**SetCenterX(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcenterx(idcompositionanimation)) | Animates the value of the CenterX property.<br/> |
 
 
 
@@ -47,14 +47,9 @@ Changes or animates the value of the CenterX property of a 3D rotation transform
 
 <dl> <dt>
 
-[**IDCompositionRotateTransform3D**](https://msdn.microsoft.com/library/Hh448927(v=VS.85).aspx)
+[**IDCompositionRotateTransform3D**](/windows/win32/api/dcomp/nn-dcomp-idcompositionrotatetransform3d)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

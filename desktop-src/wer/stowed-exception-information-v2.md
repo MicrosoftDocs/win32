@@ -68,18 +68,18 @@ The [**STOWED\_EXCEPTION\_INFORMATION\_HEADER**](stowed-exception-information-he
 **ResultCode**
 </dt> <dd>
 
-Type: **[**HRESULT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**HRESULT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
-The [**HRESULT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types) code for the stowed exception.
+The [**HRESULT**](/windows/desktop/WinProg/windows-data-types) code for the stowed exception.
 
 </dd> <dt>
 
 **ExceptionForm**
 </dt> <dd>
 
-Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -101,7 +101,7 @@ A 2-bit value that identifies the form of the exception.
 **ThreadId**
 </dt> <dd>
 
-Type: **[**DWORD**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -123,7 +123,7 @@ The members of this nested structure are valid only if the **ExceptionForm** mem
 **ExceptionAddress**
 </dt> <dd>
 
-Type: **[**PVOID**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**PVOID**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -134,7 +134,7 @@ A pointer that contains the exception address.
 **StackTraceWordSize**
 </dt> <dd>
 
-Type: **[**ULONG**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**ULONG**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -145,7 +145,7 @@ Size, in bytes, of each word in the stack trace that the **StackTrace** member p
 **StackTraceWords**
 </dt> <dd>
 
-Type: **[**ULONG**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**ULONG**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -156,7 +156,7 @@ The number of words in the stack trace that the **StackTrace** member points to.
 **StackTrace**
 </dt> <dd>
 
-Type: **[**PVOID**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**PVOID**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -174,7 +174,7 @@ The member of this nested structure is valid only if the **ExceptionForm** membe
 **ErrorText**
 </dt> <dd>
 
-Type: **[**PWSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**PWSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -185,7 +185,7 @@ A pointer to a null-terminated string that contains the error text of the except
 **NestedExceptionType**
 </dt> <dd>
 
-Type: **[**ULONG**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**ULONG**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -205,7 +205,7 @@ Here are some common type definitions:
 | Value                                                                                                                                                                                                                                                                                                                           | Meaning                                                                                                                                                                                                                                                                                                                                                                                                  |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="STOWED_EXCEPTION_NESTED_TYPE_NONE"></span><span id="stowed_exception_nested_type_none"></span><dl> <dt>**STOWED\_EXCEPTION\_NESTED\_TYPE\_NONE**</dt> <dt>(0x00000000)</dt> </dl>                                  | This value specifies that there is no nested exception object.<br/>                                                                                                                                                                                                                                                                                                                                |
-| <span id="STOWED_EXCEPTION_NESTED_TYPE_WIN32"></span><span id="stowed_exception_nested_type_win32"></span><dl> <dt>**STOWED\_EXCEPTION\_NESTED\_TYPE\_WIN32**</dt> <dt>STOWED\_EXCEPTION\_NESTED\_TYPE('W32E')</dt> </dl>    | This value specifies that the **NestedException** member points to an [**EXCEPTION\_RECORD**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record) object.<br/>                                                                                                                                                                                                                                                              |
+| <span id="STOWED_EXCEPTION_NESTED_TYPE_WIN32"></span><span id="stowed_exception_nested_type_win32"></span><dl> <dt>**STOWED\_EXCEPTION\_NESTED\_TYPE\_WIN32**</dt> <dt>STOWED\_EXCEPTION\_NESTED\_TYPE('W32E')</dt> </dl>    | This value specifies that the **NestedException** member points to an [**EXCEPTION\_RECORD**](/windows/desktop/api/winnt/ns-winnt-exception_record) object.<br/>                                                                                                                                                                                                                                                              |
 | <span id="STOWED_EXCEPTION_NESTED_TYPE_STOWED"></span><span id="stowed_exception_nested_type_stowed"></span><dl> <dt>**STOWED\_EXCEPTION\_NESTED\_TYPE\_STOWED**</dt> <dt>STOWED\_EXCEPTION\_NESTED\_TYPE('STOW')</dt> </dl> | This value specifies that the **NestedException** member points to another stowed exception object. The other stowed exception object can be a **STOWED\_EXCEPTION\_INFORMATION\_V2** object or a different version with a valid **Header** member, that is, a **Header** member that contains a valid [**STOWED\_EXCEPTION\_INFORMATION\_HEADER**](stowed-exception-information-header.md).<br/> |
 | <span id="STOWED_EXCEPTION_NESTED_TYPE_CLR"></span><span id="stowed_exception_nested_type_clr"></span><dl> <dt>**STOWED\_EXCEPTION\_NESTED\_TYPE\_CLR**</dt> <dt>STOWED\_EXCEPTION\_NESTED\_TYPE('CLR1')</dt> </dl>          | This value specifies that the **NestedException** member points to a 'CLR1' exception object.<br/>                                                                                                                                                                                                                                                                                                 |
 | <span id="STOWED_EXCEPTION_NESTED_TYPE_LEO"></span><span id="stowed_exception_nested_type_leo"></span><dl> <dt>**STOWED\_EXCEPTION\_NESTED\_TYPE\_LEO**</dt> <dt>STOWED\_EXCEPTION\_NESTED\_TYPE('LEO1')</dt> </dl>          | This value specifies that the **NestedException** member points to a language exception object.<br/>                                                                                                                                                                                                                                                                                               |
@@ -219,7 +219,7 @@ Here are some common type definitions:
 **NestedException**
 </dt> <dd>
 
-Type: **[**PVOID**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**PVOID**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -249,17 +249,11 @@ The **STOWED\_EXCEPTION\_INFORMATION\_V1** structure is identical to this struct
 
 <dl> <dt>
 
-[**EXCEPTION\_RECORD**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record)
+[**EXCEPTION\_RECORD**](/windows/desktop/api/winnt/ns-winnt-exception_record)
 </dt> <dt>
 
 [**STOWED\_EXCEPTION\_INFORMATION\_HEADER**](stowed-exception-information-header.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

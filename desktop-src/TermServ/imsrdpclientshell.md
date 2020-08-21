@@ -24,7 +24,7 @@ Remote Desktop Connection (RDC) client settings that are used to launch the clie
 
 ## Members
 
-The **IMsRdpClientShell** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IMsRdpClientShell** also has these types of members:
+The **IMsRdpClientShell** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IMsRdpClientShell** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -37,9 +37,9 @@ The **IMsRdpClientShell** interface has these methods.
 
 | Method                                                     | Description                                                  |
 |:-----------------------------------------------------------|:-------------------------------------------------------------|
-| [**GetRdpProperty**](https://msdn.microsoft.com/library/Aa381303(v=VS.85).aspx) | Retrieves a single RDP property.<br/>                  |
+| [**GetRdpProperty**](/previous-versions/windows/desktop/legacy/aa381303(v=vs.85)) | Retrieves a single RDP property.<br/>                  |
 | [**Launch**](imsrdpclientshell-launch.md)                 | Launches remote file content from the web portal.<br/> |
-| [**SetRdpProperty**](https://msdn.microsoft.com/library/Aa381312(v=VS.85).aspx) | Sets a single RDP property.<br/>                       |
+| [**SetRdpProperty**](/previous-versions/windows/desktop/legacy/aa381312(v=vs.85)) | Sets a single RDP property.<br/>                       |
 
 
 
@@ -79,17 +79,11 @@ The **IMsRdpClientShell** interface has these properties.
 
 <dl> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)
 </dt> <dt>
 
 [Remote Desktop Web Connection Reference](remote-desktop-web-connection-reference.md)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

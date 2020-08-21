@@ -24,8 +24,8 @@ Returns a subset of fonts matching the specified criteria.
 
 | Method                                                                                                                                                             | Description                                                                                 |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
-| [**GetMatchingFonts(const WCHAR\*, DWRITE\_FONT\_WEIGHT, DWRITE\_FONT\_STRETCH, DWRITE\_FONT\_STYLE, IDWriteFontSet\*\*)**](https://msdn.microsoft.com/library/Dn933246(v=VS.85).aspx) | Returns a list of fonts within the given WWS family prioritized by WWS distance.<br/> |
-| [**GetMatchingFonts(const DWRITE\_FONT\_PROPERTY\*, UINT32, IDWriteFontSet\*\*)**](https://msdn.microsoft.com/library/Dn933245(v=VS.85).aspx)                                          | Returns a subset of fonts filtered by the given properties.<br/>                      |
+| [**GetMatchingFonts(const WCHAR\*, DWRITE\_FONT\_WEIGHT, DWRITE\_FONT\_STRETCH, DWRITE\_FONT\_STYLE, IDWriteFontSet\*\*)**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getmatchingfonts(wcharconst_dwrite_font_weight_dwrite_font_stretch_dwrite_font_style_idwritefontset)) | Returns a list of fonts within the given WWS family prioritized by WWS distance.<br/> |
+| [**GetMatchingFonts(const DWRITE\_FONT\_PROPERTY\*, UINT32, IDWriteFontSet\*\*)**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getmatchingfonts(dwrite_font_propertyconst_uint32_idwritefontset))                                          | Returns a subset of fonts filtered by the given properties.<br/>                      |
 
 
 
@@ -33,14 +33,8 @@ Returns a subset of fonts matching the specified criteria.
 
 <dl> <dt>
 
-[**IDWriteFontSet**](https://msdn.microsoft.com/library/Dn933235(v=VS.85).aspx)
+[**IDWriteFontSet**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

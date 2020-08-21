@@ -26,13 +26,13 @@ When you certify your Windows 8.1 or Windows 8 desktop apps, you are eligible to
 
 <dl> <dt>
 
-[Verify that your apps are compatible with Windows.](https://docs.microsoft.com/windows/desktop/w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal)
+[Verify that your apps are compatible with Windows.](/windows/desktop/w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal)
 </dt> <dt>
 
 [Get the Windows SDK (includes the Windows App Certification Kit) and other downloads.](https://www.microsoft.com/?ref=go)
 </dt> <dt>
 
-[Get details for using the Windows logo with your desktop app.](https://docs.microsoft.com/previous-versions/windows/hardware/hck/dn641154(v=vs.85))
+[Get details for using the Windows logo with your desktop app.](/previous-versions/windows/hardware/hck/dn641154(v=vs.85))
 </dt> <dt>
 
 [Get help with developing desktop apps.](https://www.microsoft.com/?ref=go)
@@ -41,7 +41,3 @@ When you certify your Windows 8.1 or Windows 8 desktop apps, you are eligible to
  
 
  
-
-
-
-

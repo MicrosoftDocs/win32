@@ -15,12 +15,8 @@ Windows Connect Now (WCN) provides a simple and secure mechanism for network acc
 
  
 
-Windows Connect Now enables applications to search for WCN-capable devices using the [Function Discovery API](https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/fd-portal). The scope of a search can be narrowed down to a specific SSID, state, category, or even broadened to include all WCN-capable devices. Once devices are located, the WCN API allows communication with the WCN-capable device in order to facilitate configuration or connectivity.
+Windows Connect Now enables applications to search for WCN-capable devices using the [Function Discovery API](/previous-versions/windows/desktop/fundisc/fd-portal). The scope of a search can be narrowed down to a specific SSID, state, category, or even broadened to include all WCN-capable devices. Once devices are located, the WCN API allows communication with the WCN-capable device in order to facilitate configuration or connectivity.
 
  
 
  
-
-
-
-

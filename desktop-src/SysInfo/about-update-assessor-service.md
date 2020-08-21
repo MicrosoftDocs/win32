@@ -20,9 +20,6 @@ The WaaS Assessment API offers the caller the following information:
 The WaaS Assessment Platform uses the COM API model and runs automatically at least once a day. This cycle catches applicable release information. During the cached period, assessments are made against the cached release information. If a call is made outside of the cache expiration window, a fresh call and assessment is made, cached, and returned. When a call is made, the WaaS Assessment Client contacts the WaaS Assessment Service with the device's attributes, and receives back a dossier of information applicable to the device. The client then uses this information against the information it gathers about the device to perform the assessment.
 
 > [!NOTE]
-> Your code must have administrator privileges to call the Waas Assessment API. For more details about developing applications that require administrator privileges, see [this article](https://docs.microsoft.com/windows/win32/secauthz/developing-applications-that-require-administrator-privilege).
+> Your code must have administrator privileges to call the Waas Assessment API. For more details about developing applications that require administrator privileges, see [this article](../secauthz/developing-applications-that-require-administrator-privilege.md).
 
  
-
-
-

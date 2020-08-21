@@ -126,7 +126,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (64)
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -328,7 +328,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -377,7 +377,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The display name for this instance. In addition, the display name can be used as an index property for a search or query. This property is inherited from [**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85)).
+The display name for this instance. In addition, the display name can be used as an index property for a search or query. This property is inherited from [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)).
 
 </dd> <dt>
 
@@ -433,7 +433,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Within the scope of the instantiating Namespace, opaquely and uniquely identifies an instance of this class. This property is inherited from [**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85)).
+Within the scope of the instantiating Namespace, opaquely and uniquely identifies an instance of this class. This property is inherited from [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)).
 
 </dd> <dt>
 
@@ -452,7 +452,7 @@ Path to a [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md)
 
 ## Remarks
 
-Access to the **Msvm\_VirtualSystemExportSettingData** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_VirtualSystemExportSettingData** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -482,9 +482,4 @@ Access to the **Msvm\_VirtualSystemExportSettingData** class might be restricted
 </dt> </dl>
 
  
-
- 
-
-
-
 

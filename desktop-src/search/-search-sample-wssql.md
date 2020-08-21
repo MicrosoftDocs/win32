@@ -58,7 +58,7 @@ This sample is available in the following location.
 
 [General Query Language Information](-search-sql-generalqueryinfo.md)
 
-[OLE DB Programming Overview](https://docs.microsoft.com/cpp/data/oledb/ole-db-programming-overview)
+[OLE DB Programming Overview](/cpp/data/oledb/ole-db-programming-overview)
 
 ### Other Samples
 

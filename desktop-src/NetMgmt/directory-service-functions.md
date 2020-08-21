@@ -33,12 +33,8 @@ The network management directory service functions are listed following.
 
  
 
-For more information about programming for Active Directory, see the [Active Directory Reference](https://docs.microsoft.com/windows/desktop/AD/active-directory-domain-services-reference). For more information about organizational units, see [Managing Users](https://docs.microsoft.com/windows/desktop/AD/managing-users) in the Active Directory documentation.
+For more information about programming for Active Directory, see the [Active Directory Reference](/windows/desktop/AD/active-directory-domain-services-reference). For more information about organizational units, see [Managing Users](/windows/desktop/AD/managing-users) in the Active Directory documentation.
 
  
 
  
-
-
-
-

@@ -25,12 +25,8 @@ The following is a list of the System Monitor return values that are defined in 
 
  
 
-For a description of additional return values returned by System Monitor, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes) and [Performance Data Helper Error Codes](https://docs.microsoft.com/windows/desktop/PerfCtrs/checking-pdh-interface-return-values).
+For a description of additional return values returned by System Monitor, see [System Error Codes](/windows/desktop/Debug/system-error-codes) and [Performance Data Helper Error Codes](/windows/desktop/PerfCtrs/checking-pdh-interface-return-values).
 
  
 
  
-
-
-
-

@@ -20,7 +20,7 @@ The following advertisement capabilities are available on Windows Server 2008 
 
 -   CLSID contexts and InProcHandler.
 
--   Install-On-Demand through OLE is only available programmatically through [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) (C/C++), and **CreateObject Function (Visual Basic)** or **GetObject Function (Visual Basic)**.
+-   Install-On-Demand through OLE is only available programmatically through [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) (C/C++), and **CreateObject Function (Visual Basic)** or **GetObject Function (Visual Basic)**.
 
 > [!Note]AppId and Typelib information is only written when an advertised component is installed.
 >
@@ -41,6 +41,3 @@ Conditional statements can check the [**ShellAdvtSupport**](shelladvtsupport.md)
  
 
  
-
-
-

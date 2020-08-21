@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.CameraSerialNumber Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.CameraSerialNumber](https://msdn.microsoft.com/library/bb760405(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.CameraSerialNumber](../properties/props-system-photo-cameraserialnumber.md) property.
 
 ### PKEY
 
@@ -68,12 +68,9 @@ If the file is in TIFF format, the handler will read, write, and remove the data
 
 <dl> <dt>
 
-[System.Photo.CameraSerialNumber](https://msdn.microsoft.com/library/bb760405(VS.85).aspx)
+[System.Photo.CameraSerialNumber](../properties/props-system-photo-cameraserialnumber.md)
 </dt> </dl>
 
  
 
  
-
-
-

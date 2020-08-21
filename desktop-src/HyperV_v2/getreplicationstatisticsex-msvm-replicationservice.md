@@ -41,7 +41,7 @@ uint32 GetReplicationStatisticsEx(
 *ComputerSystem* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which to retrieve the replication statistics.
+A reference to a [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) instance that represents the virtual machine for which to retrieve the replication statistics.
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ If successful, receives an array of embedded instances of the [**Msvm\_Error**](
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)). This reference can be **NULL** if the task is complete.
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)). This reference can be **NULL** if the task is complete.
 
 </dd> </dl>
 
@@ -146,9 +146,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

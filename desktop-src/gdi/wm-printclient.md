@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The **WM\_PRINTCLIENT** message is sent to a window to request that it draw its client area in the specified device context, most commonly in a printer device context.
 
-Unlike [**WM\_PRINT**](wm-print.md), **WM\_PRINTCLIENT** is not processed by [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca). A window should process the **WM\_PRINTCLIENT** message through an application-defined [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function for it to be used properly.
+Unlike [**WM\_PRINT**](wm-print.md), **WM\_PRINTCLIENT** is not processed by [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca). A window should process the **WM\_PRINTCLIENT** message through an application-defined [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function for it to be used properly.
 
 
 ```C++
@@ -59,11 +59,11 @@ The drawing options. This parameter can be one or more of the following values.
 
 ## Remarks
 
-A window can process this message in much the same manner as [**WM\_PAINT**](https://msdn.microsoft.com/library/Dd145213(v=VS.85).aspx), except that [**BeginPaint**](/windows/desktop/api/Winuser/nf-winuser-beginpaint) and [**EndPaint**](/windows/desktop/api/Winuser/nf-winuser-endpaint) need not be called (a device context is provided), and the window should draw its entire client area rather than just the invalid region.
+A window can process this message in much the same manner as [**WM\_PAINT**](./wm-paint.md), except that [**BeginPaint**](/windows/desktop/api/Winuser/nf-winuser-beginpaint) and [**EndPaint**](/windows/desktop/api/Winuser/nf-winuser-endpaint) need not be called (a device context is provided), and the window should draw its entire client area rather than just the invalid region.
 
 Windows that can be used anywhere in the system, such as controls, should process this message. It is probably worthwhile for other windows to process this message as well because it is relatively easy to implement.
 
-The [AnimateWindow](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-animatewindow) function requires that the window being animated implements the **WM\_PRINTCLIENT** message.
+The [AnimateWindow](/windows/desktop/api/winuser/nf-winuser-animatewindow) function requires that the window being animated implements the **WM\_PRINTCLIENT** message.
 
 ## Requirements
 
@@ -87,7 +87,7 @@ The [AnimateWindow](https://docs.microsoft.com/windows/desktop/api/winuser/nf-wi
 [Painting and Drawing Messages](painting-and-drawing-messages.md)
 </dt> <dt>
 
-[**AnimateWindow**](https://msdn.microsoft.com/library/ms632669(v=VS.85).aspx)
+[**AnimateWindow**](/windows/win32/api/winuser/nf-winuser-animatewindow)
 </dt> <dt>
 
 [**BeginPaint**](/windows/desktop/api/Winuser/nf-winuser-beginpaint)
@@ -102,7 +102,3 @@ The [AnimateWindow](https://docs.microsoft.com/windows/desktop/api/winuser/nf-wi
  
 
  
-
-
-
-

@@ -14,11 +14,11 @@ The following functions are used with handles and objects.
 
 | Function                                             | Description                                                                                  |
 |------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| [**CloseHandle**](https://msdn.microsoft.com/library/ms724211(v=VS.85).aspx)                   | Closes an open object handle.                                                                |
+| [**CloseHandle**](/windows/win32/api/handleapi/nf-handleapi-closehandle)                   | Closes an open object handle.                                                                |
 | [**CompareObjectHandles**](/windows/desktop/api/handleapi/nf-handleapi-compareobjecthandles) | Compares two object handles to determine if they refer to the same underlying kernel object. |
-| [**DuplicateHandle**](https://msdn.microsoft.com/library/ms724251(v=VS.85).aspx)           | Duplicates an object handle.                                                                 |
-| [**GetHandleInformation**](https://msdn.microsoft.com/library/ms724329(v=VS.85).aspx) | Retrieves certain properties of an object handle.                                            |
-| [**SetHandleInformation**](https://msdn.microsoft.com/library/ms724935(v=VS.85).aspx) | Sets certain properties of an object handle.                                                 |
+| [**DuplicateHandle**](/windows/win32/api/handleapi/nf-handleapi-duplicatehandle)           | Duplicates an object handle.                                                                 |
+| [**GetHandleInformation**](/windows/win32/api/handleapi/nf-handleapi-gethandleinformation) | Retrieves certain properties of an object handle.                                            |
+| [**SetHandleInformation**](/windows/win32/api/handleapi/nf-handleapi-sethandleinformation) | Sets certain properties of an object handle.                                                 |
 
 
 
@@ -27,6 +27,3 @@ The following functions are used with handles and objects.
  
 
  
-
-
-

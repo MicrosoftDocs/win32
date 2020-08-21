@@ -16,7 +16,7 @@ ms.topic: reference
 
 # ID2D1RenderTarget::CreateSolidColorBrush methods
 
-Creates a new [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx) that can be used to paint areas with a solid color.
+Creates a new [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) that can be used to paint areas with a solid color.
 
 ### Overload list
 
@@ -24,9 +24,9 @@ Creates a new [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/Dd37
 
 | Method                                                                                                                                                                                                           | Description                                                                                                                             |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateSolidColorBrush(D2D1\_COLOR\_F&,ID2D1SolidColorBrush\*\*)**](id2d1rendertarget-createsolidcolorbrush-ref-color-f-ptr-ptr-https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx)                                                      | Creates a new [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx) that has the specified color and a base opacity of 1.0f. <br/> |
-| [**CreateSolidColorBrush(D2D1\_COLOR\_F&,D2D1\_BRUSH\_PROPERTIES&,ID2D1SolidColorBrush\*\*)**](id2d1rendertarget-createsolidcolorbrush-ref-color-f-ref-d2d1-brush-properties-ptr-ptr-https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx)   | Creates a new [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx) that has the specified color and opacity. <br/>                |
-| [**CreateSolidColorBrush(D2D1\_COLOR\_F\*,D2D1\_BRUSH\_PROPERTIES\*,ID2D1SolidColorBrush\*\*)**](id2d1rendertarget-createsolidcolorbrush-ptr-color-f-ptr-d2d1-brush-properties-ptr-ptr-https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx) | Creates a new [**ID2D1SolidColorBrush**](https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx) that has the specified color and opacity. <br/>                |
+| [**CreateSolidColorBrush(D2D1\_COLOR\_F&,ID2D1SolidColorBrush\*\*)**](id2d1rendertarget-createsolidcolorbrush-ref-color-f-ptr-ptr-https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx)                                                      | Creates a new [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) that has the specified color and a base opacity of 1.0f. <br/> |
+| [**CreateSolidColorBrush(D2D1\_COLOR\_F&,D2D1\_BRUSH\_PROPERTIES&,ID2D1SolidColorBrush\*\*)**](id2d1rendertarget-createsolidcolorbrush-ref-color-f-ref-d2d1-brush-properties-ptr-ptr-https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx)   | Creates a new [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) that has the specified color and opacity. <br/>                |
+| [**CreateSolidColorBrush(D2D1\_COLOR\_F\*,D2D1\_BRUSH\_PROPERTIES\*,ID2D1SolidColorBrush\*\*)**](id2d1rendertarget-createsolidcolorbrush-ptr-color-f-ptr-d2d1-brush-properties-ptr-ptr-https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx) | Creates a new [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) that has the specified color and opacity. <br/>                |
 
 
 
@@ -62,8 +62,3 @@ For an example, see [How to Create a Solid Color Brush](how-to-create-a-solid-co
 �
 
 �
-
-
-
-
-

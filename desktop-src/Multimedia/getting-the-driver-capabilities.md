@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Getting the Driver Capabilities
 
-The following example uses [**joyGetNumDevs**](https://msdn.microsoft.com/library/Dd757106(v=VS.85).aspx) and [**joyGetPos**](https://msdn.microsoft.com/library/Dd757107(v=VS.85).aspx) to determine whether the joystick services are available and if a joystick is attached to one of the ports.
+The following example uses [**joyGetNumDevs**](/windows/win32/api/joystickapi/nf-joystickapi-joygetnumdevs) and [**joyGetPos**](/windows/win32/api/joystickapi/nf-joystickapi-joygetpos) to determine whether the joystick services are available and if a joystick is attached to one of the ports.
 
 
 ```C++
@@ -35,7 +35,3 @@ BOOL bDev1Attached, bDev2Attached;
  
 
  
-
-
-
-

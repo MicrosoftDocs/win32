@@ -24,8 +24,8 @@ Sets the slope of the linear function for the red channel.
 
 | Method                                                                                             | Description                                                           |
 |:---------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|
-| [**SetRedSlope**](https://msdn.microsoft.com/library/Dn919759(v=VS.85).aspx)                               | Sets the slope of the linear function for the red channel.<br/> |
-| [**SetRedSlope (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919760(v=VS.85).aspx) | Sets the slope of the linear function for the red channel.<br/> |
+| [**SetRedSlope**](/windows/win32/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setredslope(float))                               | Sets the slope of the linear function for the red channel.<br/> |
+| [**SetRedSlope (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setredslope(idcompositionanimation)) | Sets the slope of the linear function for the red channel.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Sets the slope of the linear function for the red channel.
 
 <dl> <dt>
 
-[**idcompositionlineartransfereffect**](https://msdn.microsoft.com/library/Dn919741(v=VS.85).aspx)
+[**idcompositionlineartransfereffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionlineartransfereffect)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

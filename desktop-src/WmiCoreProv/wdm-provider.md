@@ -14,19 +14,19 @@ WDM classes are defined primarily in Wmi.mof.
 
 WDM is an operating system interface through which hardware components provide information and event notification. The WDM provider is a class, instance, event, and method provider that allows management applications access to data and events from WMI-for-WDM enabled device drivers. The classes created by the WDM provider to represent device driver data reside only in the "Root\\WMI" namespace. This namespace must already exist before the WDM provider will process the installed WDM drivers.
 
-The WDM provider records information about WDM operations in the WmiProv.log file. For more information, see [WMI Log Files](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-log-files).
+The WDM provider records information about WDM operations in the WmiProv.log file. For more information, see [WMI Log Files](/windows/desktop/WmiSdk/wmi-log-files).
 
-As a class, instance, method, and event provider, the WDM provider implements the standard [**IWbemProviderInit**](https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemproviderinit) interface, as well as the following [**IWbemServices**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices) methods:
+As a class, instance, method, and event provider, the WDM provider implements the standard [**IWbemProviderInit**](/windows/desktop/api/wbemprov/nn-wbemprov-iwbemproviderinit) interface, as well as the following [**IWbemServices**](/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices) methods:
 
--   [**CreateClassEnumAsync**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createclassenumasync)
--   [**CreateInstanceEnumAsync**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenumasync)
--   [**GetObjectAsync**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobjectasync)
--   [**ExecMethodAsync**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethodasync)
--   [**ExecNotificationQueryAsync**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execnotificationqueryasync)
--   [**ExecQueryAsync**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execqueryasync)
--   [**PutInstanceAsync**](https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstanceasync)
+-   [**CreateClassEnumAsync**](/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createclassenumasync)
+-   [**CreateInstanceEnumAsync**](/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenumasync)
+-   [**GetObjectAsync**](/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobjectasync)
+-   [**ExecMethodAsync**](/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethodasync)
+-   [**ExecNotificationQueryAsync**](/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execnotificationqueryasync)
+-   [**ExecQueryAsync**](/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execqueryasync)
+-   [**PutInstanceAsync**](/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstanceasync)
 
-The WDM provider supports the [**WMIEvent**](https://docs.microsoft.com/windows/desktop/WmiCoreProv/wmievent) extrinsic event, which notifies WMI regarding events from WDM-based drivers. You can register your event consumers for **WMIEvent** events as you would any other event. For more information, see [Receiving a WMI Event](https://docs.microsoft.com/windows/desktop/WmiSdk/receiving-a-wmi-event). No class creation events are raised when starting a driver.
+The WDM provider supports the [**WMIEvent**](/windows/desktop/WmiCoreProv/wmievent) extrinsic event, which notifies WMI regarding events from WDM-based drivers. You can register your event consumers for **WMIEvent** events as you would any other event. For more information, see [Receiving a WMI Event](/windows/desktop/WmiSdk/receiving-a-wmi-event). No class creation events are raised when starting a driver.
 
 The WDM provider supports the following class:
 
@@ -36,15 +36,12 @@ The WDM provider supports the following class:
 
 <dl> <dt>
 
-[WMI Providers](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-providers)
+[WMI Providers](/windows/desktop/WmiSdk/wmi-providers)
 </dt> <dt>
 
-[Accessing Data from Device Drivers](https://docs.microsoft.com/windows/desktop/WmiSdk/accessing-data-from-device-drivers)
+[Accessing Data from Device Drivers](/windows/desktop/WmiSdk/accessing-data-from-device-drivers)
 </dt> </dl>
 
  
 
  
-
-
-

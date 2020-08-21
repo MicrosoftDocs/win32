@@ -58,7 +58,7 @@ Pointer to a source [**D3DXCOLOR**](d3dxcolor.md) structure.
 *c* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Contrast value. This parameter linearly interpolates between fifty percent gray and the color, pC. There are not limits on the value of c. If this parameter is zero, then the returned color is fifty percent gray. If this parameter is 1, then the returned color is the original color.
 
@@ -111,7 +111,3 @@ If c is greater than 0 and less than 1, the contrast is decreased. If c is great
  
 
  
-
-
-
-

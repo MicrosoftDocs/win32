@@ -87,7 +87,7 @@ For an application to extend the events logged outside the set of predefined eve
 
 ### Logging Rights
 
-The WPC logging channel is controlled by [*access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ACL) to provide full access for administrators only. Non-administrator accounts may write to the channel but have no read or delete access. Access to the channel is by using the ETW API.
+The WPC logging channel is controlled by [*access control list*](/windows/desktop/SecGloss/a-gly) (ACL) to provide full access for administrators only. Non-administrator accounts may write to the channel but have no read or delete access. Access to the channel is by using the ETW API.
 
 ### Parental Controls Logging Provider Details
 
@@ -106,10 +106,10 @@ The Parental Controls system will fire a warning event at 15 minutes and again a
 [Parental Controls Extensibility Features Overview](parental-controls-extensibility-features-overview.md)
 </dt> <dt>
 
-[**EVENT\_DATA\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor)
+[**EVENT\_DATA\_DESCRIPTOR**](/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor)
 </dt> <dt>
 
-[**EventDataDescCreate**](https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventdatadesccreate)
+[**EventDataDescCreate**](/windows/desktop/api/evntprov/nf-evntprov-eventdatadesccreate)
 </dt> <dt>
 
 [**WPC\_ARGS\_CONVERSATIONINITEVENT**](/windows/win32/api/wpcevent/ne-wpcevent-wpc_args_conversationinitevent)
@@ -118,6 +118,3 @@ The Parental Controls system will fire a warning event at 15 minutes and again a
  
 
  
-
-
-

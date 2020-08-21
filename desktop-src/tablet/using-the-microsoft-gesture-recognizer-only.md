@@ -36,18 +36,15 @@ In **GestureOnly** mode, the strokes are delimited by timeouts before and after 
 
 <dl> <dt>
 
-[Microsoft.Ink.InkCollector.CollectionMode](https://msdn.microsoft.com/library/ms836497(v=MSDN.10).aspx)
+[Microsoft.Ink.InkCollector.CollectionMode](/previous-versions/ms836497(v=msdn.10))
 </dt> <dt>
 
-[Microsoft.Ink.InkOverlay.CollectionMode](https://msdn.microsoft.com/library/ms833092(v=MSDN.10).aspx)
+[Microsoft.Ink.InkOverlay.CollectionMode](/previous-versions/ms833092(v=msdn.10))
 </dt> <dt>
 
-[Microsoft.Ink.InkPicture.CollectionMode](https://msdn.microsoft.com/library/ms582182(v=VS.90).aspx)
+[Microsoft.Ink.InkPicture.CollectionMode](/previous-versions/ms582182(v=vs.100))
 </dt> </dl>
 
  
 
  
-
-
-

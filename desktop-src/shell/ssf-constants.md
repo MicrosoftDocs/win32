@@ -44,7 +44,7 @@ topic_type:
 
 # SSF Constants
 
-Used by the [**SHGetSetSettings**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings) function to specify which members of its [**SHELLSTATE**](https://msdn.microsoft.com/library/Bb759788(v=VS.85).aspx) structure should be set or retrived.
+Used by the [**SHGetSetSettings**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings) function to specify which members of its [**SHELLSTATE**](/windows/win32/api/shlobj_core/ns-shlobj_core-shellstatea) structure should be set or retrived.
 
 <dl> <dt>
 
@@ -175,7 +175,7 @@ The **fShowAttribCol** member is being requested.
 
 
 
-The **fDesktopHTML** member is being requested. Set is not available. Instead, for versions of Windows prior to Windows XP, enable desktop HTML by [**IActiveDesktop**](https://msdn.microsoft.com/library/Bb776357(v=VS.85).aspx). The use of **IActiveDesktop** for this purpose, however, is not recommended for Windows XP and later versions of Windows, and is deprecated in Windows Vista.
+The **fDesktopHTML** member is being requested. Set is not available. Instead, for versions of Windows prior to Windows XP, enable desktop HTML by [**IActiveDesktop**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop). The use of **IActiveDesktop** for this purpose, however, is not recommended for Windows XP and later versions of Windows, and is deprecated in Windows Vista.
 
 
 </dt> </dl> </dd> <dt>
@@ -418,7 +418,3 @@ Not used.
  
 
  
-
-
-
-

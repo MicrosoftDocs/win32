@@ -24,8 +24,8 @@ Changes or animates the value of the CenterY property of a 3D scale transform. T
 
 | Method                                                                                                          | Description                                            |
 |:----------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|
-| [**SetCenterY(float)**](https://msdn.microsoft.com/library/Hh449002(v=VS.85).aspx)                                     | Changes the value of the CenterY property.<br/>  |
-| [**SetCenterY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449004(v=VS.85).aspx) | Animates the value of the CenterY property.<br/> |
+| [**SetCenterY(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setcentery(float))                                     | Changes the value of the CenterY property.<br/>  |
+| [**SetCenterY(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setcentery(idcompositionanimation)) | Animates the value of the CenterY property.<br/> |
 
 
 
@@ -47,20 +47,15 @@ Changes or animates the value of the CenterY property of a 3D scale transform. T
 
 <dl> <dt>
 
-[**IDCompositionScaleTransform3D**](https://msdn.microsoft.com/library/Hh448990(v=VS.85).aspx)
+[**IDCompositionScaleTransform3D**](/windows/win32/api/dcomp/nn-dcomp-idcompositionscaletransform)
 </dt> <dt>
 
 [**IDCompositionScaleTransform3D::SetCenterX**](idcompositionscaletransform3d-setcenterx-overloaded.md)
 </dt> <dt>
 
-[**IDCompositionScaleTransform3D::SetCenterZ**](https://msdn.microsoft.com/library/Hh449012(v=VS.85).aspx)
+[**IDCompositionScaleTransform3D::SetCenterZ**](/previous-versions/windows/desktop/legacy/hh449012(v=vs.85))
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

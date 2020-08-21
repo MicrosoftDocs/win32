@@ -24,8 +24,8 @@ This set of topics discusses how to implement the extension handlers that allow 
 | [Icon handler](how-to-create-icon-handlers.md)       | Called before a file's icon is displayed. It enables you to replace the file's default icon with a custom icon on a file-by-file basis.                                    |
 | [Property sheet handler](propsheet-handlers.md)      | Called before an object's **Properties** property sheet is displayed. It enables you to add or replace pages.                                                              |
 | [**Thumbnail Image handler**](/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider) | Provides an image to represent the item.                                                                                                                                   |
-| [**Infotip handler**](https://msdn.microsoft.com/library/Bb761359(v=VS.85).aspx)                 | Provides pop-up text when the user hovers the mouse pointer over the object.                                                                                               |
-| [**Metadata handler**](https://msdn.microsoft.com/library/Aa379840(v=VS.85).aspx)       | Provides read and write access to metadata (properties) stored in a file. This can be used to extend the Details view, infotips, the property page, and grouping features. |
+| [**Infotip handler**](/windows/win32/api/shlobj_core/nn-shlobj_core-iqueryinfo)                 | Provides pop-up text when the user hovers the mouse pointer over the object.                                                                                               |
+| [**Metadata handler**](/windows/win32/api/propidl/nn-propidl-ipropertysetstorage)       | Provides read and write access to metadata (properties) stored in a file. This can be used to extend the Details view, infotips, the property page, and grouping features. |
 
 
 
@@ -37,11 +37,11 @@ Others are not associated with a particular file type but are called before some
 
 | Handler                                                            | Description                                                                                                                                  |
 |--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| [Column handler](https://msdn.microsoft.com/library/Bb776831(v=VS.85).aspx)                             | Called by Windows Explorer before it displays the Details view of a folder. It enables you to add custom columns to the Details view.        |
+| [Column handler](../lwef/column-handlers.md)                             | Called by Windows Explorer before it displays the Details view of a folder. It enables you to add custom columns to the Details view.        |
 | [Copy hook handler](how-to-create-copy-hook-handlers.md)          | Called when a folder or printer object is about to be moved, copied, deleted, or renamed. It enables you to approve or veto the operation.   |
 | [Drag-and-drop handler](context-menu-handlers.md)                 | Called when a file is dragged with the right mouse button. It enables you to modify the shortcut menu that is displayed.                     |
 | [Icon Overlay handler](how-to-implement-icon-overlay-handlers.md) | Called before a file's icon is displayed. It enables you to specify an overlay for the file's icon.                                          |
-| [Search handler](https://msdn.microsoft.com/library/Bb776834(v=VS.85).aspx)                             | Called to launch a search engine. It enables you to implement a custom search engine accessible from the **Start** menu or Windows Explorer. |
+| [Search handler](../lwef/search-handlers.md)                             | Called to launch a search engine. It enables you to implement a custom search engine accessible from the **Start** menu or Windows Explorer. |
 
 
 
@@ -55,6 +55,3 @@ The details of how to implement specific extension handlers are covered in the s
  
 
  
-
-
-

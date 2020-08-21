@@ -14,9 +14,9 @@ api_location:
 
 # WMI Tasks: Files and Folders
 
-WMI tasks for files and folders change file or folder properties through WMI, including creating a share or renaming a file. If you want to copy a file or read and write a file, the easiest way is to use the Windows Script Host [FileSystemObject](https://msdn.microsoft.com/library/Aa242706(VS.60).aspx) rather than WMI. For other examples, see the [Files and Folders](https://TechNet.Microsoft.Com/library/ee176985.aspx) section of the [TechNet ScriptCenter](https://www.microsoft.com/technet/scriptcenter).
+WMI tasks for files and folders change file or folder properties through WMI, including creating a share or renaming a file. If you want to copy a file or read and write a file, the easiest way is to use the Windows Script Host [FileSystemObject](/previous-versions/visualstudio/visual-basic-6/aa242706(v=vs.60)) rather than WMI. For other examples, see the [Files and Folders](/previous-versions/tn-archive/ee176985(v=technet.10)) section of the [TechNet ScriptCenter](https://www.microsoft.com/technet/scriptcenter).
 
-[**CIM\_DataFile**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-datafile) is one of the few [CIM classes](cimclas.md) in WMI that is implemented. Avoid enumerating or querying for all instances of **CIM\_DataFile** on a computer because the volume of data is likely to either affect performance or cause the computer to stop responding.
+[**CIM\_DataFile**](/windows/desktop/CIMWin32Prov/cim-datafile) is one of the few [CIM classes](cimclas.md) in WMI that is implemented. Avoid enumerating or querying for all instances of **CIM\_DataFile** on a computer because the volume of data is likely to either affect performance or cause the computer to stop responding.
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 

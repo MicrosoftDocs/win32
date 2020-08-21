@@ -59,13 +59,9 @@ desk1   ICON "desk.ico"
 
 <dl> <dt>
 
-[Using Icons](https://msdn.microsoft.com/library/ms648051(v=VS.85).aspx)
+[Using Icons](./using-icons.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

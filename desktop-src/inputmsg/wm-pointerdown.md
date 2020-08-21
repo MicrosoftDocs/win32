@@ -20,10 +20,10 @@ ms.date: 02/03/2020
 
 Posted when a pointer makes contact over the client area of a window. This input message targets the window over which the pointer makes contact, and the pointer is implicitly captured to the window so that the window continues to receive input for the pointer until it breaks contact.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 > \[!Important\]  
-> Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
+> Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 
  
 
@@ -80,8 +80,8 @@ Contains the point location of the pointer.
 
 Use the following macros to retrieve the physical screen coordinates of the point.
 
--   [**GET_X_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632654)(lParam): the x (horizontal point) coordinate.
--   [**GET_Y_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655)(lParam): the y (vertical point) coordinate.
+-   [**GET_X_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_x_lparam)(lParam): the x (horizontal point) coordinate.
+-   [**GET_Y_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_y_lparam)(lParam): the y (vertical point) coordinate.
 
 </dd> </dl>
 
@@ -89,7 +89,7 @@ Use the following macros to retrieve the physical screen coordinates of the poin
 
 If an application processes this message, it should return zero.
 
-If the application does not process this message, it should call [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572).
+If the application does not process this message, it should call [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
 ## Remarks
 
@@ -120,21 +120,21 @@ yPos = GET_Y_LPARAM(lParam);
 
 
 
-To convert the lParam parameter to a [**POINTS**](https://msdn.microsoft.com/library/windows/desktop/dd162808) structure, use the [**MAKEPOINTS**](https://msdn.microsoft.com/library/windows/desktop/dd145043) macro.
+To convert the lParam parameter to a [**POINTS**](/previous-versions//dd162808(v=vs.85)) structure, use the [**MAKEPOINTS**](/windows/win32/api/wingdi/nf-wingdi-makepoints) macro.
 
 To retrieve further information associated with the message, use the [**GetPointerInfo**](/previous-versions/windows/desktop/api) function.
 
-To determine the keyboard modifier key states associated with this message, use the [**GetKeyState**](https://msdn.microsoft.com/library/windows/desktop/ms646301) function. For example, to detect that the ALT key was pressed, check whether GetKeyState(VK_MENU) &lt; 0.
+To determine the keyboard modifier key states associated with this message, use the [**GetKeyState**](/windows/win32/api/winuser/nf-winuser-getkeystate) function. For example, to detect that the ALT key was pressed, check whether GetKeyState(VK_MENU) &lt; 0.
 
-Note that if the application does not process this message, [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) may generate one or more [**WM_GESTURE**](https://msdn.microsoft.com/library/windows/desktop/dd353242) messages if the sequence of input from this and, possibly, other pointers is recognized as a gesture. If a gesture is not recognized, **DefWindowProc** may generate mouse input.
+Note that if the application does not process this message, [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca) may generate one or more [**WM_GESTURE**](../wintouch/wm-gesture.md) messages if the sequence of input from this and, possibly, other pointers is recognized as a gesture. If a gesture is not recognized, **DefWindowProc** may generate mouse input.
 
-If an application selectively consumes some pointer input and passes the rest to [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572), the resulting behavior is undefined.
+If an application selectively consumes some pointer input and passes the rest to [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca), the resulting behavior is undefined.
 
 When a window loses capture of a pointer and receives the [**WM_POINTERCAPTURECHANGED**](wm-pointercapturechanged.md) notification, it will typically not receive any further notifications. Therefore, it is important that a window does not make any assumptions of its pointer status, regardless of whether it receives evenly paired DOWN / UP or ENTER / LEAVE notifications.
 
 ## Examples
 
-The following code example shows how to use [**IS_POINTER_FIRSTBUTTON_WPARAM**](/previous-versions/windows/desktop/api), [**GET_X_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632654), [**GET_Y_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655), and [**IS_POINTER_SECONDBUTTON_WPARAM**](/previous-versions/windows/desktop/api)to retrieve the relevant information associated with the **WM_POINTERDOWN** message.
+The following code example shows how to use [**IS_POINTER_FIRSTBUTTON_WPARAM**](/previous-versions/windows/desktop/api), [**GET_X_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_x_lparam), [**GET_Y_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_y_lparam), and [**IS_POINTER_SECONDBUTTON_WPARAM**](/previous-versions/windows/desktop/api)to retrieve the relevant information associated with the **WM_POINTERDOWN** message.
 
 
 ```
@@ -294,10 +294,4 @@ default:
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

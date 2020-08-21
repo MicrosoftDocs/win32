@@ -14,11 +14,11 @@ The following functions are used in structured exception handling.
 
     Indicates whether the **\_\_try** block of a termination handler terminated normally.
 
--   [**AddVectoredContinueHandler**](https://msdn.microsoft.com/library/ms679273(v=VS.85).aspx)
+-   [**AddVectoredContinueHandler**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-addvectoredcontinuehandler)
 
     Registers a vectored continue handler.
 
--   [**AddVectoredExceptionHandler**](https://msdn.microsoft.com/library/ms679274(v=VS.85).aspx)
+-   [**AddVectoredExceptionHandler**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-addvectoredexceptionhandler)
 
     Registers a vectored exception handler.
 
@@ -30,15 +30,15 @@ The following functions are used in structured exception handling.
 
     Retrieves a machine-independent description of an exception, and information about the machine state that existed for the thread when the exception occurred.
 
--   [**RaiseException**](https://msdn.microsoft.com/library/ms680552(v=VS.85).aspx)
+-   [**RaiseException**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-raiseexception)
 
     Raises an exception in the calling thread.
 
--   [**RemoveVectoredContinueHandler**](https://msdn.microsoft.com/library/ms680567(v=VS.85).aspx)
+-   [**RemoveVectoredContinueHandler**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-removevectoredcontinuehandler)
 
     Unregisters a vectored continue handler.
 
--   [**RemoveVectoredExceptionHandler**](https://msdn.microsoft.com/library/ms680571(v=VS.85).aspx)
+-   [**RemoveVectoredExceptionHandler**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-removevectoredexceptionhandler)
 
     Unregisters a vectored exception handler.
 
@@ -54,11 +54,11 @@ The following functions are used in structured exception handling.
 
     Reports that a dynamic function table has increased in size.
 
--   [**SetUnhandledExceptionFilter**](https://msdn.microsoft.com/library/ms680634(v=VS.85).aspx)
+-   [**SetUnhandledExceptionFilter**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-setunhandledexceptionfilter)
 
     Enables an application to supersede the top-level exception handler of each thread and process.
 
--   [**UnhandledExceptionFilter**](https://msdn.microsoft.com/library/ms681401(v=VS.85).aspx)
+-   [**UnhandledExceptionFilter**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter)
 
     Passes unhandled exceptions to the debugger, if the process is being debugged.
 
@@ -91,6 +91,3 @@ The following functions are used only on 64-bit Windows.
  
 
  
-
-
-

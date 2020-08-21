@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Obtaining Alternate Digest Credentials
 
-To obtain [*credentials*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) other than those associated with the current logon [*session*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx), populate a [**SEC\_WINNT\_AUTH\_IDENTITY**](https://msdn.microsoft.com/library/Aa380131(v=VS.85).aspx) structure with information for the alternate [*security principal*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx). Pass the structure to the [**AcquireCredentialsHandle**](https://msdn.microsoft.com/library/Aa374712(v=VS.85).aspx) function using the *pAuthData* parameter.
+To obtain [*credentials*](../secgloss/c-gly.md) other than those associated with the current logon [*session*](../secgloss/s-gly.md), populate a [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_a) structure with information for the alternate [*security principal*](../secgloss/s-gly.md). Pass the structure to the [**AcquireCredentialsHandle**](/windows/win32/api/sspi/nf-sspi-acquirecredentialshandlea) function using the *pAuthData* parameter.
 
-The following table describes the members of the [**SEC\_WINNT\_AUTH\_IDENTITY**](https://msdn.microsoft.com/library/Aa380131(v=VS.85).aspx) structure.
+The following table describes the members of the [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_a) structure.
 
 
 
@@ -22,7 +22,7 @@ The following table describes the members of the [**SEC\_WINNT\_AUTH\_IDENTITY**
 | **DomainLength**   | The length of the **Domain** member, in characters. Omit the terminating null.                                                       |
 | **Password**       | Null-terminated string containing the password of the security principal.                                                            |
 | **PasswordLength** | The length of the **Password** member, in characters. Omit the terminating null.                                                     |
-| **Flags**          | Indicates whether the string members are in ANSI or [*Unicode*](https://msdn.microsoft.com/library/ms721629(v=VS.85).aspx) format.  |
+| **Flags**          | Indicates whether the string members are in ANSI or [*Unicode*](../secgloss/u-gly.md) format.  |
 
 
 
@@ -35,7 +35,7 @@ The following table lists the valid values for the **Flags** member of the struc
 | Constant                            | Description                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | SEC\_WINNT\_AUTH\_IDENTITY\_ANSI    | Strings in this structure are in ANSI format.                                                                    |
-| SEC\_WINNT\_AUTH\_IDENTITY\_UNICODE | Strings in this structure are in [*Unicode*](https://msdn.microsoft.com/library/ms721629(v=VS.85).aspx) format. |
+| SEC\_WINNT\_AUTH\_IDENTITY\_UNICODE | Strings in this structure are in [*Unicode*](../secgloss/u-gly.md) format. |
 
 
 
@@ -106,6 +106,3 @@ If your application can use the credentials established at logon, see [Obtaining
  
 
  
-
-
-

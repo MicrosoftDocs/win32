@@ -17,7 +17,7 @@ api_location:
 
 # OID.FriendlyName property
 
-\[The **FriendlyName** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](https://msdn.microsoft.com/library/za72cszy(v=VS.90).aspx) in the [**System.Security.Cryptography**](https://msdn.microsoft.com/library/9eat8fht(v=VS.100).aspx) namespace.\]
+\[The **FriendlyName** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](/dotnet/api/system.security.cryptography.oid?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1) namespace.\]
 
 The **FriendlyName** property sets or retrieves the display name for the identifier.
 
@@ -59,7 +59,3 @@ If the **FriendlyName** property is set, the [**Value**](oid-value.md) property 
  
 
  
-
-
-
-

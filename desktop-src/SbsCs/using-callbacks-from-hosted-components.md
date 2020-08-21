@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using Callbacks From Hosted Components
 
-Callbacks from hosted components are what make hosting possible. However, it is possible that the component you are hosting has activated another activation context that it uses to access plug-ins or components of its own. In this case, if the hosted component leaves an activation context on the stack that refers to its own COM object, the hosting application might call [**CoCreateInstance**](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) to get an object that it expects to be its own implementation and instead receive the hosted component's object. To prevent this inheritance of activation contexts, a good hosting applications should activate its own well-known activation context first during a callback.
+Callbacks from hosted components are what make hosting possible. However, it is possible that the component you are hosting has activated another activation context that it uses to access plug-ins or components of its own. In this case, if the hosted component leaves an activation context on the stack that refers to its own COM object, the hosting application might call [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) to get an object that it expects to be its own implementation and instead receive the hosted component's object. To prevent this inheritance of activation contexts, a good hosting applications should activate its own well-known activation context first during a callback.
 
 Consider the following example that protects the hosting application's code:
 
@@ -38,6 +38,3 @@ This ensures that a proper activation context is set before passing the request 
  
 
  
-
-
-

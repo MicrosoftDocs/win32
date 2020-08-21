@@ -23,17 +23,13 @@ This topic lists the constructors of the [**Matrix**](/windows/desktop/api/gdipl
 
 | Constructor                                                                                          | Description                                                                                                                                                                          |
 |:-----------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Matrix(Rect&,Point\*)**](https://msdn.microsoft.com/library/ms535323(v=VS.85).aspx)                | Creates a [**Matrix::Matrix**](https://msdn.microsoft.com/library/ms535323(v=VS.85).aspx) object based on a rectangle and a point.<br/>                                         |
-| [**Matrix(RectF&,PointF\*)**](https://msdn.microsoft.com/library/ms535322(v=VS.85).aspx)            | Creates a [**Matrix::Matrix**](https://msdn.microsoft.com/library/ms535322(v=VS.85).aspx) object based on a rectangle and a point.<br/>                                       |
-| [**Matrix(REAL,REAL,REAL,REAL,REAL,REAL)**](https://msdn.microsoft.com/library/ms535325(v=VS.85).aspx) | Creates and initializes a [**Matrix::Matrix**](https://msdn.microsoft.com/library/ms535325(v=VS.85).aspx) object based on six numbers that define an affine transformation.<br/> |
-| [**Matrix()**](https://msdn.microsoft.com/library/ms535324(v=VS.85).aspx)                                                    | Creates and initializes a [**Matrix::Matrix**](https://msdn.microsoft.com/library/ms535324(v=VS.85).aspx) object that represents the identity matrix.<br/>                                             |
+| [**Matrix(Rect&,Point\*)**](/windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(inconstrect__inconstpoint))                | Creates a [**Matrix::Matrix**](/windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(inconstrect__inconstpoint)) object based on a rectangle and a point.<br/>                                         |
+| [**Matrix(RectF&,PointF\*)**](/windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(inconstrectf__inconstpointf))            | Creates a [**Matrix::Matrix**](/windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(inconstrectf__inconstpointf)) object based on a rectangle and a point.<br/>                                       |
+| [**Matrix(REAL,REAL,REAL,REAL,REAL,REAL)**](/windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(inreal_inreal_inreal_inreal_inreal_inreal)) | Creates and initializes a [**Matrix::Matrix**](/windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(inreal_inreal_inreal_inreal_inreal_inreal)) object based on six numbers that define an affine transformation.<br/> |
+| [**Matrix()**](/windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(constmatrix_))                                                    | Creates and initializes a [**Matrix::Matrix**](/windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(constmatrix_)) object that represents the identity matrix.<br/>                                             |
 
 
 
  
 
  
-
-
-
-

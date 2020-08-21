@@ -30,7 +30,7 @@ The following applies when a Windows Installer package that uses DLL, EXE, or Sc
 -   Any registry operations in a deferred custom action that write to **HKCU**\\**Software** are detected by the installer and copied to every user of the computer at the next logon of the user.
 -   Any registry operations in a deferred custom action that write to **HKCU**, but are not under the **HKCU**\\**Software** registry key, are not detected by the installer or copied.
 
-For more information, see [Terminal Services](https://msdn.microsoft.com/library/Bb892075(v=VS.85).aspx) in the Microsoft Windows Software Development Kit (SDK).
+For more information, see [Terminal Services](../termserv/terminal-services-portal.md) in the Microsoft Windows Software Development Kit (SDK).
 
 ## Related topics
 
@@ -45,12 +45,9 @@ For more information, see [Terminal Services](https://msdn.microsoft.com/library
 [**RemoteAdminTS property**](remoteadmints.md)
 </dt> <dt>
 
-[Terminal Services](https://msdn.microsoft.com/library/Bb892075(v=VS.85).aspx)
+[Terminal Services](../termserv/terminal-services-portal.md)
 </dt> </dl>
 
  
 
  
-
-
-

@@ -106,22 +106,18 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DCubeTexture9::AddDirtyRect**](https://msdn.microsoft.com/library/Bb174330(v=VS.85).aspx)
+[**IDirect3DCubeTexture9::AddDirtyRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dcubetexture9-adddirtyrect)
 </dt> <dt>
 
-[**IDirect3DCubeTexture9::GetCubeMapSurface**](https://msdn.microsoft.com/library/Bb174331(v=VS.85).aspx)
+[**IDirect3DCubeTexture9::GetCubeMapSurface**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dcubetexture9-getcubemapsurface)
 </dt> <dt>
 
-[**IDirect3DCubeTexture9::LockRect**](https://msdn.microsoft.com/library/Bb174334(v=VS.85).aspx)
+[**IDirect3DCubeTexture9::LockRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dcubetexture9-lockrect)
 </dt> <dt>
 
-[**IDirect3DCubeTexture9::UnlockRect**](https://msdn.microsoft.com/library/Bb174335(v=VS.85).aspx)
+[**IDirect3DCubeTexture9::UnlockRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dcubetexture9-unlockrect)
 </dt> </dl>
 
  
 
  
-
-
-
-

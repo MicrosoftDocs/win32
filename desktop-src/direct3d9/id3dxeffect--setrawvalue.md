@@ -59,7 +59,7 @@ Pointer to a buffer containing the data to be set. SetRawValue checks for valid 
 *OffsetInBytes* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of bytes between the beginning of the effect data and the beginning of the effect constants you are going to set.
 
@@ -68,7 +68,7 @@ Number of bytes between the beginning of the effect data and the beginning of th
 *Bytes* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 The size of the buffer to be set, in bytes.
 
@@ -107,7 +107,3 @@ All values are expected to be either matrix4x4s or float4s and all matrices are 
  
 
  
-
-
-
-

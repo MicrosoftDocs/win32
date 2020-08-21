@@ -26,7 +26,7 @@ The Windows Ribbon framework supports the dynamic reconfiguring and exposing of 
 
 ## Introduction
 
-Application modes consist of logical groups of controls that expose some core application functionality in the Ribbon UI. These modes are dynamically enabled or disabled by the application through a call to the framework method [**IUIFramework::SetModes**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes), which turns the visibility of one or more application modes on or off.
+Application modes consist of logical groups of controls that expose some core application functionality in the Ribbon UI. These modes are dynamically enabled or disabled by the application through a call to the framework method [**IUIFramework::SetModes**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes), which turns the visibility of one or more application modes on or off.
 
 ## Contextual User Interface
 
@@ -163,9 +163,9 @@ This example demonstrates the following:
 
 ### Switch Modes at Runtime
 
-After modes are defined in markup, they can be easily enabled or disabled in response to contextual events. As mentioned previously, Ribbon applications always start in the default mode 0. After the application has initialized and mode 0 is active, the set of active modes can be changed by calling the [**IUIFramework::SetModes**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes) function. This function takes a 32-bit integer as a bitwise representation of the modes that should be active; the least significant bit represents mode 0 and the most significant bit represents mode 31. If a bit is set to zero, the mode is not active in the Ribbon UI.
+After modes are defined in markup, they can be easily enabled or disabled in response to contextual events. As mentioned previously, Ribbon applications always start in the default mode 0. After the application has initialized and mode 0 is active, the set of active modes can be changed by calling the [**IUIFramework::SetModes**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes) function. This function takes a 32-bit integer as a bitwise representation of the modes that should be active; the least significant bit represents mode 0 and the most significant bit represents mode 31. If a bit is set to zero, the mode is not active in the Ribbon UI.
 
-In RibbonApp, when a user enables **Advanced** mode, the advanced commands are displayed alongside the simple commands. The command handler for the **Switch to Advanced Mode** button calls [**IUIFramework::SetModes**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes) in order to set modes 0 (**Simple**) and 1 (**Advanced**) as active in the UI. The following example is the RibbonApp code for this function call :
+In RibbonApp, when a user enables **Advanced** mode, the advanced commands are displayed alongside the simple commands. The command handler for the **Switch to Advanced Mode** button calls [**IUIFramework::SetModes**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes) in order to set modes 0 (**Simple**) and 1 (**Advanced**) as active in the UI. The following example is the RibbonApp code for this function call :
 
 
 ```C++
@@ -177,14 +177,14 @@ pFramework->SetModes( UI_MAKEAPPMODE(SIMPLE_MODE) | UI_MAKEAPPMODE(ADVANCED_MODE
 
 
 > [!Note]  
-> The Ribbon framework UI\_MAKEAPPMODE macro simplifies the task of setting these bits correctly in preparation for the call to [**IUIFramework::SetModes**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes).
+> The Ribbon framework UI\_MAKEAPPMODE macro simplifies the task of setting these bits correctly in preparation for the call to [**IUIFramework::SetModes**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes).
 
  
 
 This example demonstrates the following:
 
 -   Use the UI\_MAKEAPPMODE macro to build a mode set.
--   Modes are set explicitly and atomically. The integer value that is passed to [**IUIFramework::SetModes**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes) represents the modes that will be active after the function returns. Although the **Simple** mode was previously active, **IUIFramework::SetModes** must indicate that the **Simple** mode remain active when the **Advanced** mode is activated.
+-   Modes are set explicitly and atomically. The integer value that is passed to [**IUIFramework::SetModes**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes) represents the modes that will be active after the function returns. Although the **Simple** mode was previously active, **IUIFramework::SetModes** must indicate that the **Simple** mode remain active when the **Advanced** mode is activated.
 -   The default mode can be removed. Although in RibbonApp the default mode (mode 0) is never removed, it can be removed with the following call: `g_pFramework->SetModes(UI_MAKEAPPMODE(ADVANCED_MODE))`, exposing only the advanced commands in the UI.
 
 > [!Note]  
@@ -194,7 +194,7 @@ This example demonstrates the following:
 
 ## Remarks
 
-The Ribbon must have at least one active mode at all times. If an application attempts to deactivate all modes by calling [**IUIFramework::SetModes**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes) with a mode value of 0, E\_FAIL is returned and the active mode set remains unchanged.
+The Ribbon must have at least one active mode at all times. If an application attempts to deactivate all modes by calling [**IUIFramework::SetModes**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes) with a mode value of 0, E\_FAIL is returned and the active mode set remains unchanged.
 
 The framework requires that at least one tab exist in the Ribbon UI at all times. As a result, there must be at least one tab exposed by the default mode (mode 0) and after each mode switch.
 
@@ -213,7 +213,3 @@ Not all areas of the Ribbon UI are affected by application modes. For example, i
  
 
  
-
-
-
-

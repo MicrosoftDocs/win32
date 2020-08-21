@@ -29,12 +29,7 @@ Group policy settings control delegation of the following types of credentials.
 
  
 
-To include a server in the category associated with a particular group policy setting, add the [*Service Principal Name*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SPN) of that server to the list of servers for that group policy setting. The SPN can contain a single wildcard character.
+To include a server in the category associated with a particular group policy setting, add the [*Service Principal Name*](/windows/desktop/SecGloss/s-gly) (SPN) of that server to the list of servers for that group policy setting. The SPN can contain a single wildcard character.
 
  
-
- 
-
-
-
 

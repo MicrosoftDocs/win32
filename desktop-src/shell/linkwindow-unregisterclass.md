@@ -42,7 +42,7 @@ Returns **TRUE** if the operation was successful; **FALSE** otherwise.
 
 ## Remarks
 
-This function does not have an associated header or library file so it must be called by ordinal value. Call [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) with the DLL name Shell32.dll to obtain a module handle. Then call [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) with that module handle and the ordinal number 259 to use this function.
+This function does not have an associated header or library file so it must be called by ordinal value. Call [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) with the DLL name Shell32.dll to obtain a module handle. Then call [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) with that module handle and the ordinal number 259 to use this function.
 
 ## Requirements
 
@@ -60,13 +60,9 @@ This function does not have an associated header or library file so it must be c
 
 <dl> <dt>
 
-[Overview of SysLink Controls](https://msdn.microsoft.com/library/Bb760706(v=VS.85).aspx)
+[Overview of SysLink Controls](../controls/syslink-overview.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

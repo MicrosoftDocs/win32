@@ -8,13 +8,10 @@ ms.date: 05/31/2018
 
 # Using Cert2SPC
 
-The following command wraps an [*X.509*](https://msdn.microsoft.com/library/ms721636(v=VS.85).aspx) certificate, *MyCert*.cer, into a test PKCS \#7 [*Software Publisher Certificate*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SPC), called *MyCert*.spc. The SPC created is to be used for test purposes only. An SPC used to actually sign code to be distributed to the public must be obtained from GTE, VeriSign, Inc., or another trusted [*certification authority*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CA).
+The following command wraps an [*X.509*](../secgloss/x-gly.md) certificate, *MyCert*.cer, into a test PKCS \#7 [*Software Publisher Certificate*](../secgloss/s-gly.md) (SPC), called *MyCert*.spc. The SPC created is to be used for test purposes only. An SPC used to actually sign code to be distributed to the public must be obtained from GTE, VeriSign, Inc., or another trusted [*certification authority*](../secgloss/c-gly.md) (CA).
 
 **Cert2SPC** *MyCert***.cer** *MyCert***.spc**
 
  
 
  
-
-
-

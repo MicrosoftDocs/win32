@@ -38,7 +38,7 @@ This topic discusses the following items:
 
  
 
-Any web browser application can register to appear as an Internet client on the Start menu. This visibility, coupled with proper registration for an application's [file](fa-intro.md) and [protocol](https://msdn.microsoft.com/library/Aa767743(v=VS.85).aspx) types, gives an application default browser status.
+Any web browser application can register to appear as an Internet client on the Start menu. This visibility, coupled with proper registration for an application's [file](fa-intro.md) and [protocol](/previous-versions//aa767743(v=vs.85)) types, gives an application default browser status.
 
 Registrations made in the **HKEY\_CURRENT\_USER** subtree have higher precedence for the console user than corresponding registrations made in the **HKEY\_LOCAL\_MACHINE**. For new users on the system, the settings stored in **HKEY\_LOCAL\_MACHINE** are used. As of Windows XP, Start menu Internet settings are kept in the default entries of two registry locations:
 
@@ -135,7 +135,7 @@ HKEY_LOCAL_MACHINE
 
  
 
-After updating the appropriate subkeys, the application broadcasts the [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/library/ms725497(v=VS.85).aspx) message with its *wParam* parameter set to 0 and its *lParam* parameter pointing to the null-terminated string `"Software\Clients\StartMenuInternet"`. This notifies the operating system that the default client has changed.
+After updating the appropriate subkeys, the application broadcasts the [**WM\_SETTINGCHANGE**](../winmsg/wm-settingchange.md) message with its *wParam* parameter set to 0 and its *lParam* parameter pointing to the null-terminated string `"Software\Clients\StartMenuInternet"`. This notifies the operating system that the default client has changed.
 
 Setting these subkeys for the default Start menu Internet browser is necessary to preserve backward compatibility with old web browsers that do not support per-user registrations.
 
@@ -148,7 +148,7 @@ Setting these subkeys for the default Start menu Internet browser is necessary t
 
 ### How the Start Menu Displays the Default Email Client
 
-Any email application can register to appear as an email client on the Start menu. This visibility, coupled with proper registration for an application's [file](fa-intro.md) and [protocol](https://msdn.microsoft.com/library/Aa767743(v=VS.85).aspx) types, gives an application default mail status.
+Any email application can register to appear as an email client on the Start menu. This visibility, coupled with proper registration for an application's [file](fa-intro.md) and [protocol](/previous-versions//aa767743(v=vs.85)) types, gives an application default mail status.
 
 Registrations made in the **HKEY\_CURRENT\_USER** subtree have higher precedence for the console user than corresponding registrations made in the **HKEY\_LOCAL\_MACHINE**. For new users on the system, the settings stored in **HKEY\_LOCAL\_MACHINE** are used. As of Windows XP, Start menu Email settings are kept in the default entries of two registry locations:
 
@@ -192,7 +192,7 @@ HKEY_LOCAL_MACHINE
 
 The LocalizedString data is of type REG\_SZ, or REG\_EXPAND\_SZ if path variables such as `%programfiles%` are used. LocalizedString provides the path to an executable (.exe) or library (.dll) file. Note that the path string begins with an "at" sign (@) and that no quotation marks are required around the path regardless of spaces within it. The decimal integer is the ID of a string resource, contained within the specified DLL, whose value is to be displayed to the user. This enables the same registration to be used for multiple languages. Each language provides a different ResourceDLL.dll. This enables the system to display the correct string based on the currently selected language.
 
-After updating the appropriate subkeys, the application broadcasts the [**WM\_SETTINGCHANGE**](https://msdn.microsoft.com/library/ms725497(v=VS.85).aspx) message with its *wParam* parameter set to 0 and its *lParam* parameter pointing to the null-terminated string `"Software\Clients\Mail"`. This notifies the operating system that the default client has changed.
+After updating the appropriate subkeys, the application broadcasts the [**WM\_SETTINGCHANGE**](../winmsg/wm-settingchange.md) message with its *wParam* parameter set to 0 and its *lParam* parameter pointing to the null-terminated string `"Software\Clients\Mail"`. This notifies the operating system that the default client has changed.
 
 For backward compatibility with applications that do not support localized strings, the name of the application in the installed language should also be set as the default value for the subkey.
 
@@ -290,6 +290,3 @@ The subkey name below **shell** (in this case, "find") is an arbitrary, nonlocal
  
 
  
-
-
-

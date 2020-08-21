@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of tracks.
 
@@ -64,7 +64,3 @@ The maximum number of tracks the controller can manage.
  
 
  
-
-
-
-

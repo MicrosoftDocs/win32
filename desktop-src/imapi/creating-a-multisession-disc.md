@@ -284,7 +284,7 @@ End Function
 [Using IMAPI](using-imapi.md)
 </dt> <dt>
 
-[**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)
+[**IStream**](/windows/desktop/api/objidl/nn-objidl-istream)
 </dt> <dt>
 
 [**IDiscMaster2**](/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2)
@@ -299,7 +299,3 @@ End Function
  
 
  
-
-
-
-

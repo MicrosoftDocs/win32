@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**HDC**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HDC**](../winprog/windows-data-types.md)**
 
 Handle to a display DC.
 
@@ -60,7 +60,3 @@ Handle to a display DC.
  
 
  
-
-
-
-

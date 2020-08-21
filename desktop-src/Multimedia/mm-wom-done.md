@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # MM\_WOM\_DONE message
 
-The **MM\_WOM\_DONE** message is sent to a window when the given output buffer is being returned to the application. Buffers are returned to the application when they have been played, or as the result of a call to the [**waveOutReset**](https://msdn.microsoft.com/library/Dd743870(v=VS.85).aspx) function.
+The **MM\_WOM\_DONE** message is sent to a window when the given output buffer is being returned to the application. Buffers are returned to the application when they have been played, or as the result of a call to the [**waveOutReset**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutreset) function.
 
 
 ```C++
@@ -43,7 +43,7 @@ Handle to the waveform-audio output device that played the buffer.
 <span id="lpwvhdr"></span><span id="LPWVHDR"></span>*lpwvhdr*
 </dt> <dd>
 
-Pointer to a [**WAVEHDR**](https://msdn.microsoft.com/library/Dd743837(v=VS.85).aspx) structure identifying the buffer.
+Pointer to a [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr) structure identifying the buffer.
 
 </dd> </dl>
 
@@ -74,10 +74,4 @@ This message does not return a value.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

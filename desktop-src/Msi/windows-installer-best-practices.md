@@ -64,7 +64,7 @@ This section enumerates a list of tips, linked to the main Windows Installer SDK
 -   The [Windows Installer Development Tools](windows-installer-development-tools.md) are not redistributable, and you should only use the versions of these tools available from Microsoft. These are available in the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md) in the Microsoft Windows Software Development Kit (SDK).
 -   Several independent software vendors offer tools to create or modify Windows Installer packages. These tools can provide a package authoring environment that may be easier to use than the tools provided in the Windows Installer SDK. You can learn more about these tools from the information resources discussed in [Other Sources of Windows Installer Information](other-sources-of-windows-installer-information.md).
 -   The capability to build a package from text files may be more intuitive for some developers. The Windows Installer XML (WiX) toolset available on [Sourceforge.net](https://sourceforge.net/projects/wix) builds Windows installation packages from XML source code.
--   The documentation in the [Windows Installer SDK](https://msdn.microsoft.com/library/cc185688.aspx) released in the MSDN Online Library is updated the most frequently.
+-   The documentation in the [Windows Installer SDK](./windows-installer-portal.md) released in the MSDN Online Library is updated the most frequently.
 -   Use the recent version of [Msizap.exe](msizap-exe.md) (version 3.1.4000.2726 or greater) that is available in the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md) for Windows Vista or greater. Lesser versions of Msizap.exe can remove information about all updates that have been applied to other applications on the user's computer. If this information is removed, these other applications may need to be removed and reinstalled to receive additional updates.
 -   The database table editor [Orca.exe](orca-exe.md) is a database table editor for creating and editing Windows Installer packages and merge modules. It has a basic GUI interface but supports advanced editing of Windows Installer databases. Even if you use another application as your primary development tool, you may find using Orca.exe is convenient when troubleshooting and testing a package.
 -   See [Other Sources of Windows Installer Information](other-sources-of-windows-installer-information.md) for current Windows Installer information available in blogs, technical chats, newsgroups, technical articles, and websites.
@@ -84,7 +84,7 @@ Many application vendors provide native Windows Installer packages for the insta
 
 Windows Installer packages should not attempt to replace protected resources during installation or update. The Windows Installer does not remove or replace these resources because Windows prevents the replacement of essential system files, folders, and registry keys. Protecting these resources prevents application and operating system failures.
 
--   When running on Windows Server 2008 or Windows Vista, the Windows Installer skips the installation of any file or registry key that is protected by [Windows Resource Protection](https://msdn.microsoft.com/library/Cc185681(v=VS.85).aspx) (WRP), the installer enters a warning in the log file, and continues with the remainder of the installation without an error. For information, see [Using Windows Installer and Windows Resource Protection](windows-resource-protection-on-windows-vista.md).
+-   When running on Windows Server 2008 or Windows Vista, the Windows Installer skips the installation of any file or registry key that is protected by [Windows Resource Protection](../wfp/windows-resource-protection-portal.md) (WRP), the installer enters a warning in the log file, and continues with the remainder of the installation without an error. For information, see [Using Windows Installer and Windows Resource Protection](windows-resource-protection-on-windows-vista.md).
 -   WRP is the new name for Windows File Protection (WFP). WRP protects registry keys and folders as well as essential system files. In Windows Server 2003, Windows XP, and Windows 2000, when the Windows Installer encountered a WFP-protected file, the installer would request that WFP install the file. For information, see [Using Windows Installer and Windows Resource Protection](windows-resource-protection-on-windows-vista.md).
 
 ## Do not depend upon non-critical resources.
@@ -319,6 +319,3 @@ PMSIHANDLE hRec = MsiCreateRecord(3);
  
 
  
-
-
-

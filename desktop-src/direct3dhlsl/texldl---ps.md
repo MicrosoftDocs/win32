@@ -30,7 +30,7 @@ Where:
 
 -   dst is a destination register.
 -   src0 is a source register that provides the texture coordinates for the texture sample. See [Texture Coordinate Register](dx9-graphics-reference-asm-ps-registers-texture-coordinate.md).
--   src1 identifies the source sampler register (s\#), where \# specifies which texture sampler number to sample. The sampler has associated with it a texture and a control state defined by the [**D3DSAMPLERSTATETYPE**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dsamplerstatetype) enumeration (for example, D3DSAMP\_MINFILTER).
+-   src1 identifies the source sampler register (s\#), where \# specifies which texture sampler number to sample. The sampler has associated with it a texture and a control state defined by the [**D3DSAMPLERSTATETYPE**](/windows/desktop/direct3d9/d3dsamplerstatetype) enumeration (for example, D3DSAMP\_MINFILTER).
 
 ## Remarks
 
@@ -44,7 +44,7 @@ Where:
 
  
 
-texldl looks up the texture set at the sampler stage referenced by src1. The level-of-detail is selected from src0.w. This value can be negative in which case the level-of-detail selected is the zeroth one (biggest map) with the MAGFILTER. Since src0.w is a floating point value, the fractional value is used to interpolate (if MIPFILTER is LINEAR) between two mip levels. Sampler states MIPMAPLODBIAS and MAXMIPLEVEL are honored. For more information about sampler states, see [**D3DSAMPLERSTATETYPE**](https://docs.microsoft.com/windows/desktop/direct3d9/d3dsamplerstatetype).
+texldl looks up the texture set at the sampler stage referenced by src1. The level-of-detail is selected from src0.w. This value can be negative in which case the level-of-detail selected is the zeroth one (biggest map) with the MAGFILTER. Since src0.w is a floating point value, the fractional value is used to interpolate (if MIPFILTER is LINEAR) between two mip levels. Sampler states MIPMAPLODBIAS and MAXMIPLEVEL are honored. For more information about sampler states, see [**D3DSAMPLERSTATETYPE**](/windows/desktop/direct3d9/d3dsamplerstatetype).
 
 If a shader program samples from a sampler that does not have a texture set, then 0001 is obtained in the destination register.
 
@@ -98,7 +98,3 @@ Restrictions:
  
 
  
-
-
-
-

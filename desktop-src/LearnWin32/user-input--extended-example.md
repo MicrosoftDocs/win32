@@ -14,7 +14,7 @@ Let's combine everything that we have learned about user input to create a simpl
 
 The user can draw ellipses in several different colors, and select, move, or delete ellipses. To keep the UI simple, the program does not let the user select the ellipse colors. Instead, the program automatically cycles through a predefined list of colors. The program does not support any shapes other than ellipses. Obviously, this program will not win any awards for graphics software. However, it is still a useful example to learn from. You can download the complete source code from [Simple Drawing Sample](simple-drawing-sample.md). This section will just cover some highlights.
 
-Ellipses are represented in the program by a structure that contains the ellipse data ([**D2D1\_ELLIPSE**](https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_ellipse)) and the color ([**D2D1\_COLOR\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f)). The structure also defines two methods: a method to draw the ellipse, and a method to perform hit testing.
+Ellipses are represented in the program by a structure that contains the ellipse data ([**D2D1\_ELLIPSE**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_ellipse)) and the color ([**D2D1\_COLOR\_F**](/windows/desktop/Direct2D/d2d1-color-f)). The structure also defines two methods: a method to draw the ellipse, and a method to perform hit testing.
 
 
 ```C++
@@ -45,7 +45,7 @@ struct MyEllipse
 
 
 
-The program uses the same solid-color brush to draw the fill and outline for every ellipse, changing the color as needed. In Direct2D, changing the color of a solid-color brush is an efficient operation. So, the solid-color brush object supports a [**SetColor**](https://docs.microsoft.com/windows/desktop/Direct2D/id2d1solidcolorbrush-setcolor) method.
+The program uses the same solid-color brush to draw the fill and outline for every ellipse, changing the color as needed. In Direct2D, changing the color of a solid-color brush is an efficient operation. So, the solid-color brush object supports a [**SetColor**](/windows/desktop/Direct2D/id2d1solidcolorbrush-setcolor) method.
 
 The ellipses are stored in an STL **list** container:
 
@@ -57,7 +57,7 @@ The ellipses are stored in an STL **list** container:
 
 
 > [!Note]  
-> **shared\_ptr** is a smart-pointer class that was added to C++ in TR1 and formalized in C++0x. Visual Studio 2010 adds support for **shared\_pt**r and other C++0x features. For more information, see [Exploring New C++ and MFC Features in Visual Studio 2010](https://msdn.microsoft.com/magazine/ee336130.aspx) in *MSDN Magazine*. (This resource may not be available in some languages and countries.)
+> **shared\_ptr** is a smart-pointer class that was added to C++ in TR1 and formalized in C++0x. Visual Studio 2010 adds support for **shared\_pt**r and other C++0x features. For more information, see [Exploring New C++ and MFC Features in Visual Studio 2010](/archive/msdn-magazine/2010/april/visual-c-exploring-new-c-and-mfc-features-in-visual-studio-2010) in *MSDN Magazine*. (This resource may not be available in some languages and countries.)
 
  
 
@@ -104,7 +104,7 @@ The following table summarizes the effects of mouse input in each of the three m
 
  
 
-The following method in the `MainWindow` class handles [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown) messages.
+The following method in the `MainWindow` class handles [**WM\_LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown) messages.
 
 
 ```C++
@@ -146,9 +146,9 @@ void MainWindow::OnLButtonDown(int pixelX, int pixelY, DWORD flags)
 
 
 
-Mouse coordinates are passed to this method in pixels, and then converted to DIPs. It is important not to confuse these two units. For example, the [**DragDetect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dragdetect) function uses pixels, but drawing and hit-testing use DIPs. The general rule is that functions related to windows or mouse input use pixels, while Direct2D and DirectWrite use DIPs. Always test your program at a high-DPI setting, and remember to mark your program as DPI-aware. For more information, see [DPI and Device-Independent Pixels](dpi-and-device-independent-pixels.md).
+Mouse coordinates are passed to this method in pixels, and then converted to DIPs. It is important not to confuse these two units. For example, the [**DragDetect**](/windows/desktop/api/winuser/nf-winuser-dragdetect) function uses pixels, but drawing and hit-testing use DIPs. The general rule is that functions related to windows or mouse input use pixels, while Direct2D and DirectWrite use DIPs. Always test your program at a high-DPI setting, and remember to mark your program as DPI-aware. For more information, see [DPI and Device-Independent Pixels](dpi-and-device-independent-pixels.md).
 
-Here is the code that handles [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove) messages.
+Here is the code that handles [**WM\_MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) messages.
 
 
 ```C++
@@ -182,7 +182,7 @@ void MainWindow::OnMouseMove(int pixelX, int pixelY, DWORD flags)
 
 
 
-The logic to resize an ellipse was described previously, in the section [Example: Drawing Circles](mouse-movement.md). Also note the call to [**InvalidateRect**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect). This makes sure that the window is repainted. The following code handles [**WM\_LBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup) messages.
+The logic to resize an ellipse was described previously, in the section [Example: Drawing Circles](mouse-movement.md). Also note the call to [**InvalidateRect**](/windows/desktop/api/winuser/nf-winuser-invalidaterect). This makes sure that the window is repainted. The following code handles [**WM\_LBUTTONUP**](/windows/desktop/inputdev/wm-lbuttonup) messages.
 
 
 ```C++
@@ -237,7 +237,7 @@ void MainWindow::SetMode(Mode m)
 
 
 
-And finally, remember to set the cursor when the window receives a [**WM\_SETCURSOR**](https://docs.microsoft.com/windows/desktop/menurc/wm-setcursor) message:
+And finally, remember to set the cursor when the window receives a [**WM\_SETCURSOR**](/windows/desktop/menurc/wm-setcursor) message:
 
 
 ```C++
@@ -259,7 +259,3 @@ In this module, you learned how to handle mouse and keyboard input; how to defin
  
 
  
-
-
-
-

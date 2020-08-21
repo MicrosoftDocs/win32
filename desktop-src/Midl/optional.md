@@ -95,10 +95,10 @@ HRESULT MyFunc([in, optional] VARIANT Param1,
 [**lcid**](lcid.md)
 </dt> <dt>
 
-[ODL File Example](https://msdn.microsoft.com/library/ms221308(v=VS.71).aspx)
+[ODL File Example](/previous-versions/windows/desktop/automat/odl-file-example)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> <dt>
 
 [**retval**](retval.md)
@@ -107,7 +107,3 @@ HRESULT MyFunc([in, optional] VARIANT Param1,
  
 
  
-
-
-
-

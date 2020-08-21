@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Image.CompressedBitsPerPixel Photo Metadata Policy
 
-The photo metadata policy for the [System.Image.CompressedBitsPerPixel](https://msdn.microsoft.com/library/bb787449(VS.85).aspx) property.
+The photo metadata policy for the [System.Image.CompressedBitsPerPixel](../properties/props-system-image-compressedbitsperpixel.md) property.
 
 ### PKEY
 
@@ -92,12 +92,9 @@ This value is generated from System.Image.CompressedBitsPerPixelNumerator and Sy
 
 <dl> <dt>
 
-[System.Image.CompressedBitsPerPixel](https://msdn.microsoft.com/library/bb787449(VS.85).aspx)
+[System.Image.CompressedBitsPerPixel](../properties/props-system-image-compressedbitsperpixel.md)
 </dt> </dl>
 
  
 
  
-
-
-

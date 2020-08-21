@@ -21,7 +21,7 @@ Provides access to handwriting recognizers for use with ink analysis.
 
 ## Members
 
-The **IInkAnalysisRecognizer** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IInkAnalysisRecognizer** also has these types of members:
+The **IInkAnalysisRecognizer** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IInkAnalysisRecognizer** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -85,9 +85,4 @@ The [**IInkAnalyzer**](iinkanalyzer.md) maintains a list of available recognizer
 </dt> </dl>
 
  
-
- 
-
-
-
 

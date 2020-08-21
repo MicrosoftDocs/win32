@@ -21,7 +21,7 @@ The **IWinHttpRequestEvents** interface provides events for [Microsoft Windows H
 
 ## Members
 
-The **IWinHttpRequestEvents** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWinHttpRequestEvents** also has these types of members:
+The **IWinHttpRequestEvents** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWinHttpRequestEvents** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -46,13 +46,13 @@ The **IWinHttpRequestEvents** interface has these methods.
 
 The following procedure describes how to register for notifications.
 
-1.  Get an [IConnectionPointContainer](https://msdn.microsoft.com/library/ms683857(VS.85).aspx) interface by calling **QueryInterface** on an [**IWinHttpRequest**](iwinhttprequest-interface.md) object.
-2.  Call [FindConnectionPoint](https://msdn.microsoft.com/library/ms692476(VS.85).aspx) on the returned interface and pass **IID\_IWinHttpRequestEvents** to *riid*.
-3.  Call [Advise](https://msdn.microsoft.com/library/ms678815(VS.85).aspx) on the returned connection point and pass a pointer to an **IUnknown** interface on an object that implements **IWinHttpRequestEvents** to *pUnk*.
+1.  Get an [IConnectionPointContainer](/windows/win32/api/ocidl/nn-ocidl-iconnectionpointcontainer) interface by calling **QueryInterface** on an [**IWinHttpRequest**](iwinhttprequest-interface.md) object.
+2.  Call [FindConnectionPoint](/windows/win32/api/ocidl/nf-ocidl-iconnectionpointcontainer-findconnectionpoint) on the returned interface and pass **IID\_IWinHttpRequestEvents** to *riid*.
+3.  Call [Advise](/windows/win32/api/ocidl/nf-ocidl-iconnectionpoint-advise) on the returned connection point and pass a pointer to an **IUnknown** interface on an object that implements **IWinHttpRequestEvents** to *pUnk*.
 
-Notifications can be terminated by calling [Unadvise](https://msdn.microsoft.com/library/ms686608(VS.85).aspx) on the connection point returned in step 2.
+Notifications can be terminated by calling [Unadvise](/windows/win32/api/ocidl/nf-ocidl-iconnectionpoint-unadvise) on the connection point returned in step 2.
 
-To view some code that registers for COM notifications, see the Client section of the [COM Connection Points](https://docs.microsoft.com/archive/msdn-magazine/2007/september/clr-inside-out-com-connection-points) article.
+To view some code that registers for COM notifications, see the Client section of the [COM Connection Points](/archive/msdn-magazine/2007/september/clr-inside-out-com-connection-points) article.
 
 > [!Note]  
 > For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
@@ -83,9 +83,4 @@ To view some code that registers for COM notifications, see the Client section o
 </dt> </dl>
 
  
-
- 
-
-
-
 

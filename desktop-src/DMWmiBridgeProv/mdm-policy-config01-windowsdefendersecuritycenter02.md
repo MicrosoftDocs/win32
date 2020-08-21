@@ -64,7 +64,7 @@ The **MDM\_Policy\_Config01\_WindowsDefenderSecurityCenter02** class has these p
 
 <dl> <dt>
 
-[CompanyName](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-companyname)
+[CompanyName](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-companyname)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -75,7 +75,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableAppBrowserUI](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disableappbrowserui)
+[DisableAppBrowserUI](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disableappbrowserui)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -86,7 +86,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableEnhancedNotifications](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disableenhancednotifications)
+[DisableEnhancedNotifications](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disableenhancednotifications)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -97,7 +97,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableFamilyUI](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disablefamilyui)
+[DisableFamilyUI](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disablefamilyui)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -108,7 +108,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableHealthUI](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disablehealthui)
+[DisableHealthUI](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disablehealthui)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -119,7 +119,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableNetworkUI](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disablenetworkui)
+[DisableNetworkUI](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disablenetworkui)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -130,7 +130,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableNotifications](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disablenotifications)
+[DisableNotifications](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disablenotifications)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -141,7 +141,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableVirusUI](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disablevirusui)
+[DisableVirusUI](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disablevirusui)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -152,7 +152,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisallowExploitProtectionOverride](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disallowexploitprotectionoverride)
+[DisallowExploitProtectionOverride](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-disallowexploitprotectionoverride)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -163,7 +163,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[Email](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-email)
+[Email](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-email)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -174,7 +174,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnableCustomizedToasts](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-enablecustomizedtoasts)
+[EnableCustomizedToasts](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-enablecustomizedtoasts)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -185,7 +185,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnableInAppCustomization](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-enableinappcustomization)
+[EnableInAppCustomization](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-enableinappcustomization)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -205,7 +205,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -219,12 +219,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[Phone](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-phone)
+[Phone](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-phone)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -235,7 +235,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[URL](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-url)
+[URL](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-url)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -261,10 +261,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

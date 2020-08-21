@@ -23,7 +23,7 @@ XAudio2 is initialized for audio playback by creating an instance of the XAudio2
 
     
 
-2.  Use the [**CreateMasteringVoice**](https://msdn.microsoft.com/library/Hh405048(v=VS.85).aspx) method to create a mastering voice.
+2.  Use the [**CreateMasteringVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice) method to create a mastering voice.
 
     The mastering voices encapsulates an audio device. It is the ultimate destination for all audio that passes through an audio graph.
 
@@ -37,7 +37,7 @@ XAudio2 is initialized for audio playback by creating an instance of the XAudio2
 
 ## Notes for Windows Store apps
 
-We recommend that you make use of a [smart pointer](https://msdn.microsoft.com/library/Hh279674(v=VS.110).aspx) to manage the lifetime of XAUDIO2 objects in an exception safe manner. For Windows Store apps, you can use the [**ComPtr**](https://msdn.microsoft.com/library/BR244983(v=VS.110).aspx) smart pointer template from the Windows Runtime C++ Template Library (WRL).
+We recommend that you make use of a [smart pointer](/previous-versions/visualstudio/visual-studio-2012/hh279674(v=vs.110)) to manage the lifetime of XAUDIO2 objects in an exception safe manner. For Windows Store apps, you can use the [**ComPtr**](/previous-versions/visualstudio/visual-studio-2012/br244983(v=vs.110)) smart pointer template from the Windows Runtime C++ Template Library (WRL).
 
 
 ```C++
@@ -74,6 +74,3 @@ if ( FAILED(hr = pXAudio2->CreateMasteringVoice( &pMasterVoice ) ) )
  
 
  
-
-
-

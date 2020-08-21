@@ -92,7 +92,7 @@ The <searchConnectorDescription> element is the top level container element of a
 
 ## Element Information
 
-Refer to the schema documentation in [Windows Search](https://msdn.microsoft.com/library/Bb268030(v=MSDN.10).aspx)
+Refer to the schema documentation in [Windows Search](/previous-versions/bb268030(v=msdn.10))
 
 
 
@@ -144,12 +144,9 @@ The <searchConnectorDescription> element of a library uses the same schema defin
 [Library Description Schema](library-schema-entry.md)
 </dt> <dt>
 
-[Search Connector Description Schema](https://msdn.microsoft.com/library/Dd940480(v=VS.85).aspx)
+[Search Connector Description Schema](../search/search-sconn-desc-schema-entry.md)
 </dt> </dl>
 
  
 
  
-
-
-

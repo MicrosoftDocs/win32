@@ -44,13 +44,13 @@ This method has no parameters.
 
 ### JScript
 
-Type: **[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)\*\***
+Type: **[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)\*\***
 
 An object reference to the [**ShellWindows**](shellwindows.md) object.
 
 ### VB
 
-Type: **[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)\*\***
+Type: **[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)\*\***
 
 An object reference to the [**ShellWindows**](shellwindows.md) object.
 
@@ -147,7 +147,3 @@ End Sub
  
 
  
-
-
-
-

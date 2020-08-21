@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Signing a Message
 
-When a client and server finish setting up the [*security context*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx), message support functions can be used. The client and server use the security context token created when the session was established to call [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature) and [**VerifySignature**](/windows/desktop/api/Sspi/nf-sspi-verifysignature) functions. The context token can be used with [**EncryptMessage (General)**](https://msdn.microsoft.com/library/Aa375378(v=VS.85).aspx) and [**DecryptMessage (General)**](https://msdn.microsoft.com/library/Aa375211(v=VS.85).aspx) for communications [*privacy*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx).
+When a client and server finish setting up the [*security context*](../secgloss/s-gly.md), message support functions can be used. The client and server use the security context token created when the session was established to call [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature) and [**VerifySignature**](/windows/desktop/api/Sspi/nf-sspi-verifysignature) functions. The context token can be used with [**EncryptMessage (General)**](/windows/win32/api/sspi/nf-sspi-encryptmessage) and [**DecryptMessage (General)**](/windows/win32/api/sspi/nf-sspi-decryptmessage) for communications [*privacy*](../secgloss/p-gly.md).
 
-The following example shows the client side generating a signed message to send to the server. Before calling [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature), the client calls [**QueryContextAttributes (General)**](https://msdn.microsoft.com/library/Aa379326(v=VS.85).aspx) with a [**SecPkgContext\_Sizes**](/windows/desktop/api/Sspi/ns-sspi-secpkgcontext_sizes) structure to determine the length of the buffer needed to hold the message signature. If the **cbMaxSignature** member is zero, the [*security package*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) does not support signing messages. Otherwise, this member indicates the size of the buffer to allocate to receive the signature.
+The following example shows the client side generating a signed message to send to the server. Before calling [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature), the client calls [**QueryContextAttributes (General)**](/windows/win32/api/sspi/nf-sspi-querycontextattributesa) with a [**SecPkgContext\_Sizes**](/windows/desktop/api/Sspi/ns-sspi-secpkgcontext_sizes) structure to determine the length of the buffer needed to hold the message signature. If the **cbMaxSignature** member is zero, the [*security package*](../secgloss/s-gly.md) does not support signing messages. Otherwise, this member indicates the size of the buffer to allocate to receive the signature.
 
 The example assumes that a **SecHandle** variable named *phContext* and a **SOCKET** structure named *s* are initialized. For the declarations and initiations of these variables, see [Using SSPI with a Windows Sockets Client](using-sspi-with-a-windows-sockets-client.md) and [Using SSPI with a Windows Sockets Server](using-sspi-with-a-windows-sockets-server.md). This example includes calls to functions in Secur32.lib, which must be included among the link libraries.
 
@@ -120,6 +120,3 @@ if(!SendMsg(
  
 
  
-
-
-

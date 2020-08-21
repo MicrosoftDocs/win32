@@ -56,7 +56,7 @@ public override void SetLength(
 #### Parameters
 
   - value  
-    Type: [System.Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN)  
+    Type: [System.Int64](/dotnet/api/system.int64)  
     
     The desired length, in bytes.
 
@@ -69,4 +69,3 @@ public override void SetLength(
 [ColumnStream members](dn334190\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

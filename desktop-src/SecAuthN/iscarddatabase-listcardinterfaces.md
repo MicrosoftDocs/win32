@@ -17,9 +17,9 @@ api_location:
 
 # ISCardDatabase::ListCardInterfaces method
 
-\[The **ListCardInterfaces** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **ListCardInterfaces** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **ListCardInterfaces** method retrieves the identifiers (GUIDs) of all the interfaces supported for the specified [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx).
+The **ListCardInterfaces** method retrieves the identifiers (GUIDs) of all the interfaces supported for the specified [*smart card*](../secgloss/s-gly.md).
 
 ## Syntax
 
@@ -70,9 +70,9 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-To retrieve the [*primary service provider*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) of the smart card, call [**GetProviderCardId**](iscarddatabase-getprovidercardid.md).
+To retrieve the [*primary service provider*](../secgloss/p-gly.md) of the smart card, call [**GetProviderCardId**](iscarddatabase-getprovidercardid.md).
 
-To retrieve all known [*smart cards*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx), [*readers*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx), and [*reader groups*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx) call [**ListCards**](iscarddatabase-listcards.md), [**ListReaders**](iscarddatabase-listreaders.md), and [**ListReaderGroups**](iscarddatabase-listreadergroups.md) respectively.
+To retrieve all known [*smart cards*](../secgloss/s-gly.md), [*readers*](../secgloss/r-gly.md), and [*reader groups*](../secgloss/r-gly.md) call [**ListCards**](iscarddatabase-listcards.md), [**ListReaders**](iscarddatabase-listreaders.md), and [**ListReaderGroups**](iscarddatabase-listreadergroups.md) respectively.
 
 For a list of all the methods provided by this interface, see [**ISCardDatabase**](iscarddatabase.md).
 
@@ -148,7 +148,3 @@ else
  
 
  
-
-
-
-

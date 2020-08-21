@@ -29,7 +29,7 @@ You can use this attribute to configure the audio renderer. The usage depends on
 
  
 
-The value of the attribute is a member of the [**AUDIO\_STREAM\_CATEGORY**](https://msdn.microsoft.com/library/Hh404178(v=VS.85).aspx) enumeration. The audio service uses the stream category to determine audio policies when multiple applications play audio at the same time.
+The value of the attribute is a member of the [**AUDIO\_STREAM\_CATEGORY**](/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category) enumeration. The audio service uses the stream category to determine audio policies when multiple applications play audio at the same time.
 
 ## Requirements
 
@@ -53,7 +53,3 @@ The value of the attribute is a member of the [**AUDIO\_STREAM\_CATEGORY**](http
  
 
  
-
-
-
-

@@ -29,7 +29,7 @@ A case-sensitive string that contains characters from the printable character se
 | MAPI Type    | TSTRING                                                                |
 | ADS Type     | ADSTYPE\_PRINTABLE\_STRING                                             |
 | Variant Type | VT\_BSTR                                                               |
-| SDS Type     | [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) |
+| SDS Type     | [System.String](/dotnet/api/system.string) |
 
 
 
@@ -37,13 +37,9 @@ A case-sensitive string that contains characters from the printable character se
 
 <dl> <dt>
 
-[System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)
+[System.String](/dotnet/api/system.string)
 </dt> </dl>
 
  
 
  
-
-
-
-

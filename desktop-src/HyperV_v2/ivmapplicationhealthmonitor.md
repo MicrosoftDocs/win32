@@ -23,7 +23,7 @@ This interface is implemented by the Windows 8 Hyper-V integration components. A
 
 ## Members
 
-The **IVmApplicationHealthMonitor** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVmApplicationHealthMonitor** also has these types of members:
+The **IVmApplicationHealthMonitor** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IVmApplicationHealthMonitor** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -61,9 +61,4 @@ To use this programming element, the Windows 8 integration components must be in
 
 
  
-
- 
-
-
-
 

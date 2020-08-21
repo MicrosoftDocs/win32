@@ -8,15 +8,15 @@ ms.date: 05/31/2018
 
 # How to Use a Bitmap as an Opacity Mask
 
-This topic describes how to use a bitmap as an opacty mask by calling the [**ID2D1Factory::FillOpacityMask**](https://msdn.microsoft.com/library/Dd371947(v=VS.85).aspx) method. The opacity mask is a bitmap that supplies the coverage information that is represented by the alpha channel, which controls the transparency of the content that is rendered. This approach is more efficient than using layers with an opacity mask. For more information, see [Layers Overview](direct2d-layers-overview.md).
+This topic describes how to use a bitmap as an opacty mask by calling the [**ID2D1Factory::FillOpacityMask**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillopacitymask(id2d1bitmap_id2d1brush_d2d1_opacity_mask_content_constd2d1_rect_f__constd2d1_rect_f_)) method. The opacity mask is a bitmap that supplies the coverage information that is represented by the alpha channel, which controls the transparency of the content that is rendered. This approach is more efficient than using layers with an opacity mask. For more information, see [Layers Overview](direct2d-layers-overview.md).
 
 **To clip a region**
 
 1.  Load the original bitmap from a resource. For information on how to load a bitmap, see [How to Load a Bitmap from a Resource](how-to-load-a-bitmap-from-a-resource.md).
 2.  Load the bitmap mask from a resource.
 3.  Create a bitmap brush with the original bitmap. For information on how to create a bitmap brush, see [How to Create a Bitmap Brush](how-to-create-a-bitmap-brush.md).
-4.  Call [**ID2D1Factory::SetAntialiasMode**](https://msdn.microsoft.com/library/Dd316881(v=VS.85).aspx) to set antialias mode on the render target to D2D1\_ANTIALIAS\_MODE\_ALIASED for [**ID2D1Factory::FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) to work.
-5.  Call [**FillOpacityMask**](https://msdn.microsoft.com/library/Dd371947(v=VS.85).aspx) with the bitmap mask and the bitmap brush on the render target to fill the clip.
+4.  Call [**ID2D1Factory::SetAntialiasMode**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-setantialiasmode) to set antialias mode on the render target to D2D1\_ANTIALIAS\_MODE\_ALIASED for [**ID2D1Factory::FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) to work.
+5.  Call [**FillOpacityMask**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillopacitymask(id2d1bitmap_id2d1brush_d2d1_opacity_mask_content_constd2d1_rect_f__constd2d1_rect_f_)) with the bitmap mask and the bitmap brush on the render target to fill the clip.
 
 The following illustration shows the original bitmap on the left, the bitmap mask in the center, and the bitmap clipped to the mask on the right.
 
@@ -76,7 +76,7 @@ if (SUCCEEDED(hr))
 
 
 
-It then calls [**SetAntialiasMode**](https://msdn.microsoft.com/library/Dd316881(v=VS.85).aspx) to set the antialias mode. Call [**FillOpacityMask**](https://msdn.microsoft.com/library/Dd371947(v=VS.85).aspx) to use a bitmap mask to clip the original bitmap.
+It then calls [**SetAntialiasMode**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-setantialiasmode) to set the antialias mode. Call [**FillOpacityMask**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillopacitymask(id2d1bitmap_id2d1brush_d2d1_opacity_mask_content_constd2d1_rect_f__constd2d1_rect_f_)) to use a bitmap mask to clip the original bitmap.
 
 
 ```C++
@@ -110,7 +110,3 @@ For more information about opacity masks, see the [Opacity Masks Overview](opaci
  
 
  
-
-
-
-

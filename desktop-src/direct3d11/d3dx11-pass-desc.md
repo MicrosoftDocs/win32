@@ -44,7 +44,7 @@ typedef struct _D3DX11_PASS_DESC {
 **Name**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -55,7 +55,7 @@ Name of this pass (**NULL** if not anonymous).
 **Annotations**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -66,7 +66,7 @@ Number of annotations on this pass.
 **pIAInputSignature**
 </dt> <dd>
 
-Type: **[**BYTE**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)\***
+Type: **[**BYTE**](/windows/desktop/WinProg/windows-data-types)\***
 
 </dd> <dd>
 
@@ -77,7 +77,7 @@ Signature from the vertex shader or geometry shader (if there is no vertex shade
 **IAInputSignatureSize**
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**SIZE\_T**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -88,7 +88,7 @@ Singature size in bytes.
 **StencilRef**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -99,7 +99,7 @@ The stencil-reference value used in the depth-stencil state.
 **SampleMask**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -110,7 +110,7 @@ The sample mask for the blend state.
 **BlendFactor**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**FLOAT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -140,10 +140,4 @@ D3DX11\_PASS\_DESC is used with [**ID3DX11EffectPass::GetDesc**](id3dx11effectpa
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

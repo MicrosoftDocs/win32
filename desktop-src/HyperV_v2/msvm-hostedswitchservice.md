@@ -55,7 +55,7 @@ Data type: **[**Msvm\_VirtualEthernetSwitch**](msvm-virtualethernetswitch.md)**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("GroupComponent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_VirtualEthernetSwitch**](msvm-virtualethernetswitch.md) class that represents the virtual switch.
@@ -65,13 +65,13 @@ A reference to an instance of the [**Msvm\_VirtualEthernetSwitch**](msvm-virtual
 **Dependent**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_Service**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-service)**
+Data type: **[**CIM\_Service**](/windows/desktop/CIMWin32Prov/cim-service)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("PartComponent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_TransparentBridgingService**](msvm-transparentbridgingservice.md) class that represents the bridging service.
@@ -80,7 +80,7 @@ A reference to an instance of the [**Msvm\_TransparentBridgingService**](msvm-tr
 
 ## Remarks
 
-Access to the **Msvm\_HostedSwitchService** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_HostedSwitchService** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -103,13 +103,8 @@ Access to the **Msvm\_HostedSwitchService** class might be restricted by UAC Fil
 [**CIM\_HostedService**](cim-hostedservice.md)
 </dt> <dt>
 
-[**CIM\_HostedService**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-hostedservice)
+[**CIM\_HostedService**](/windows/desktop/CIMWin32Prov/cim-hostedservice)
 </dt> </dl>
 
  
-
- 
-
-
-
 

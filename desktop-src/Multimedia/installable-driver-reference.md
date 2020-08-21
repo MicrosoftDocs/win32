@@ -18,9 +18,9 @@ The functions and messages associated with installable drivers are grouped as fo
 
 ## Loading and Unloading Drivers
 
--   [GetDriverModuleHandle](https://msdn.microsoft.com/library/Dd797983(v=VS.85).aspx)
--   [OpenDriver](https://msdn.microsoft.com/library/Dd743639(v=VS.85).aspx)
--   [SendDriverMessage](https://msdn.microsoft.com/library/Dd798653(v=VS.85).aspx)
+-   [GetDriverModuleHandle](/windows/win32/api/mmiscapi/nf-mmiscapi-getdrivermodulehandle)
+-   [OpenDriver](/windows/win32/api/mmiscapi/nf-mmiscapi-opendriver)
+-   [SendDriverMessage](/windows/win32/api/mmiscapi/nf-mmiscapi-senddrivermessage)
 
 ## CloseDriver
 
@@ -35,7 +35,7 @@ The functions and messages associated with installable drivers are grouped as fo
 
 -   [**DRV\_CONFIGURE**](drv-configure.md)
 -   [**DRV\_QUERYCONFIGURE**](drv-queryconfigure.md)
--   [**DRVCONFIGINFO**](https://msdn.microsoft.com/library/Dd797923(v=VS.85).aspx)
+-   [**DRVCONFIGINFO**](/windows/win32/api/mmiscapi/ns-mmiscapi-drvconfiginfo)
 
 ## Installing a Driver
 
@@ -44,9 +44,9 @@ The functions and messages associated with installable drivers are grouped as fo
 
 ## Driver Functions
 
--   [DefDriverProc](https://msdn.microsoft.com/library/Dd797870(v=VS.85).aspx)
--   [DriverCallback](https://msdn.microsoft.com/library/Dd797917(v=VS.85).aspx)
--   [DriverProc](https://msdn.microsoft.com/library/Dd797918(v=VS.85).aspx)
+-   [DefDriverProc](/windows/win32/api/mmiscapi/nf-mmiscapi-defdriverproc)
+-   [DriverCallback](/windows/win32/api/mmiscapi/nf-mmiscapi-drivercallback)
+-   [DriverProc](/windows/win32/api/mmiscapi/nc-mmiscapi-driverproc)
 
 ## Related topics
 
@@ -58,7 +58,3 @@ The functions and messages associated with installable drivers are grouped as fo
  
 
  
-
-
-
-

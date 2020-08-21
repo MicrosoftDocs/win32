@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Command-Line Options
 
-The executable program that interprets packages and installs products is Msiexec.exe. Note that Msiexec also sets an error level on return that corresponds to [system error codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes). Command-line options are case-insensitive.
+The executable program that interprets packages and installs products is Msiexec.exe. Note that Msiexec also sets an error level on return that corresponds to [system error codes](/windows/desktop/Debug/system-error-codes). Command-line options are case-insensitive.
 
 The command-line options in the following table are available with Windows Installer  3.0 and earlier versions. The [Standard Installer Command-Line Options](standard-installer-command-line-options.md) are also available beginning with Windows Installer 3.0.
 
@@ -168,9 +168,4 @@ When you apply patches to a specific product, the /i and /p options cannot be sp
 The [**PATCH**](patch.md) property cannot be set in a command line, when /p option is used. If the **PATCH** property is set when the /p option is used, the value of **PATCH** property is ignored and overwritten.
 
  
-
- 
-
-
-
 

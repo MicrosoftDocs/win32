@@ -96,10 +96,10 @@ To make both the 32-bit (x86) and 64-bit (x64) output work on a 64-bit version o
 
 <dl> <dt>
 
-[**IPreviewHandler**](https://msdn.microsoft.com/library/Bb775315(v=VS.85).aspx)
+[**IPreviewHandler**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler)
 </dt> <dt>
 
-[**IPreviewHandlerFrame**](https://msdn.microsoft.com/library/Bb775309(v=VS.85).aspx)
+[**IPreviewHandlerFrame**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlerframe)
 </dt> <dt>
 
 [Application User Model IDs (AppUserModelIDs)](appids.md)
@@ -108,6 +108,3 @@ To make both the 32-bit (x86) and 64-bit (x64) output work on a 64-bit version o
  
 
  
-
-
-

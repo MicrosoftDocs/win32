@@ -60,7 +60,7 @@ L"SmartCardAssociatedECDHKey"
 
 
 
-An **LPWSTR** value that indicates the container name of the Elliptic Curve Diffie-Hellman (ECDH) key to use during logon for a given handle to an Elliptic Curve Digital Signature Algorithm (ECDSA) key. If there are no ECDH keys on the card, the [*key storage provider*](https://docs.microsoft.com/windows/desktop/SecGloss/k-gly) (KSP) returns **NTE\_NOT\_FOUND**. This property applies to ECDSA keys for logon with smart cards. The property is supported by the Microsoft Smart Card key storage provider and not by the Microsoft Software key storage provider.
+An **LPWSTR** value that indicates the container name of the Elliptic Curve Diffie-Hellman (ECDH) key to use during logon for a given handle to an Elliptic Curve Digital Signature Algorithm (ECDSA) key. If there are no ECDH keys on the card, the [*key storage provider*](/windows/desktop/SecGloss/k-gly) (KSP) returns **NTE\_NOT\_FOUND**. This property applies to ECDSA keys for logon with smart cards. The property is supported by the Microsoft Smart Card key storage provider and not by the Microsoft Software key storage provider.
 
 **Windows Server 2008 and Windows Vista:** This value is not supported.
 
@@ -88,9 +88,9 @@ L"SmartCardKeyCertificate"
 
 
 
-A [*BLOB*](https://docs.microsoft.com/windows/desktop/SecGloss/b-gly) that contains an X.509 certificate that is associated with the key.
+A [*BLOB*](/windows/desktop/SecGloss/b-gly) that contains an X.509 certificate that is associated with the key.
 
-**Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** A [*BLOB*](https://docs.microsoft.com/windows/desktop/SecGloss/b-gly) that contains the [*smart card*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) key [*certificate*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly). This property is not supported by the Microsoft Software Key Storage Provider.
+**Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** A [*BLOB*](/windows/desktop/SecGloss/b-gly) that contains the [*smart card*](/windows/desktop/SecGloss/s-gly) key [*certificate*](/windows/desktop/SecGloss/c-gly). This property is not supported by the Microsoft Software Key Storage Provider.
 
 
 </dt> </dl> </dd> <dt>
@@ -217,7 +217,7 @@ L"Modified"
 
 
 
-Indicates when the key was last modified. This data type is a pointer to a [**FILETIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure. This property only applies to persisted keys.
+Indicates when the key was last modified. This data type is a pointer to a [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) structure. This property only applies to persisted keys.
 
 
 </dt> </dl> </dd> <dt>
@@ -349,7 +349,7 @@ L"SmartCardPinId"
 
 
 
-A pointer to the **PIN\_ID** value associated with a given [*cryptographic key*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) on a [*smart card*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly). This is a read-only property. The **PIN\_ID** data type is defined in Cardmod.h.
+A pointer to the **PIN\_ID** value associated with a given [*cryptographic key*](/windows/desktop/SecGloss/c-gly) on a [*smart card*](/windows/desktop/SecGloss/s-gly). This is a read-only property. The **PIN\_ID** data type is defined in Cardmod.h.
 
 **Windows Server 2008 and Windows Vista:** This value is not supported.
 
@@ -364,7 +364,7 @@ L"SmartCardPinInfo"
 
 
 
-A pointer to [**PIN\_INFO**](https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_pin_info) structure of the PIN associated with a given cryptographic key on the smart card. The caller provides the key handle. This property is a read-only property. The **PIN\_INFO** structure is defined in Cardmod.h.
+A pointer to [**PIN\_INFO**](/windows/desktop/api/mbnapi/ns-mbnapi-mbn_pin_info) structure of the PIN associated with a given cryptographic key on the smart card. The caller provides the key handle. This property is a read-only property. The **PIN\_INFO** structure is defined in Cardmod.h.
 
 **Windows Server 2008 and Windows Vista:** This value is not supported.
 
@@ -394,7 +394,7 @@ L"Security Descr"
 
 
 
-A pointer to a [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure that contains access control information for the key. This property only applies to persistent keys. The *dwFlags* parameter of the [**NCryptGetProperty**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptgetproperty) or [**NCryptSetProperty**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptsetproperty) function identifies the part of the security descriptor to get or set.
+A pointer to a [**SECURITY\_DESCRIPTOR**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure that contains access control information for the key. This property only applies to persistent keys. The *dwFlags* parameter of the [**NCryptGetProperty**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptgetproperty) or [**NCryptSetProperty**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptsetproperty) function identifies the part of the security descriptor to get or set.
 
 
 </dt> </dl> </dd> <dt>
@@ -491,7 +491,7 @@ L"Use Count"
 
 
 
-A [**ULARGE\_INTEGER**](https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1) variable that contains the number of operations that the specified [*private key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) has performed. This property is optional and may not be supported by all providers. Providers that support this property on keys should also support the **NCRYPT\_USE\_COUNT\_ENABLED\_PROPERTY** property on the provider handle. The Microsoft key storage provider does not support this property. This property only applies to persistent keys.
+A [**ULARGE\_INTEGER**](https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1) variable that contains the number of operations that the specified [*private key*](/windows/desktop/SecGloss/p-gly) has performed. This property is optional and may not be supported by all providers. Providers that support this property on keys should also support the **NCRYPT\_USE\_COUNT\_ENABLED\_PROPERTY** property on the provider handle. The Microsoft key storage provider does not support this property. This property only applies to persistent keys.
 
 
 </dt> </dl> </dd> <dt>
@@ -571,9 +571,4 @@ The following values are used to define limits of property data.
 </dt> </dl>
 
  
-
- 
-
-
-
 

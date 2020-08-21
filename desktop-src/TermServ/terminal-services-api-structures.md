@@ -123,7 +123,7 @@ Contains information about sessions that are available to Remote Desktop Connect
 [**WTSSESSION\_NOTIFICATION**](/windows/win32/api/winuser/ns-winuser-wtssession_notification)
 </dt> <dd>
 
-Provides information about the session change notification. A service receives this structure in its [*HandlerEx*](https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex) function in response to a session change event.
+Provides information about the session change notification. A service receives this structure in its [*HandlerEx*](/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex) function in response to a session change event.
 
 </dd> <dt>
 
@@ -200,7 +200,3 @@ Contains extended information about a client session on a RD Session Host serve
  
 
  
-
-
-
-

@@ -18,7 +18,7 @@ api_location:
 
 The **FSCTL\_SRV\_REQUEST\_RESUME\_KEY** control code is used to retrieve an opaque file reference for use with the [**IOCTL\_COPYCHUNK**](ioctl-copychunk.md) control code.
 
-To perform this operation, call the [**DeviceIoControl**](https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx) function with the following parameters.
+To perform this operation, call the [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) function with the following parameters.
 
 
 ```C++
@@ -43,7 +43,7 @@ BOOL DeviceIoControl(
 *hDevice* \[in\]
 </dt> <dd>
 
-A handle to the file for which the source file key is to be requested. To obtain this handle, call the [**CreateFile**](https://msdn.microsoft.com/library/Aa363858(v=VS.85).aspx) function.
+A handle to the file for which the source file key is to be requested. To obtain this handle, call the [**CreateFile**](/windows/win32/api/fileapi/nf-fileapi-createfilea) function.
 
 </dd> <dt>
 
@@ -87,32 +87,32 @@ The size of the output buffer, in bytes.
 
 A pointer to a variable that receives the size of the data stored in the output buffer, in bytes.
 
-If the output buffer is too small, the call fails, the [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) function returns **ERROR\_INSUFFICIENT\_BUFFER**, and *lpBytesReturned* is zero.
+If the output buffer is too small, the call fails, the [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) function returns **ERROR\_INSUFFICIENT\_BUFFER**, and *lpBytesReturned* is zero.
 
-If the *lpOverlapped* parameter is **NULL**, *lpBytesReturned* cannot be **NULL**. Even when an operation returns no output data and the *lpOutBuffer* parameter is **NULL**, [**DeviceIoControl**](https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx) makes use of *lpBytesReturned*. After such an operation, the value of *lpBytesReturned* is meaningless.
+If the *lpOverlapped* parameter is **NULL**, *lpBytesReturned* cannot be **NULL**. Even when an operation returns no output data and the *lpOutBuffer* parameter is **NULL**, [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) makes use of *lpBytesReturned*. After such an operation, the value of *lpBytesReturned* is meaningless.
 
-If *lpOverlapped* is not **NULL**, *lpBytesReturned* can be **NULL**. If *lpOverlapped* is not **NULL** and the operation returns data, *lpBytesReturned* is meaningless until the overlapped operation has completed. To retrieve the number of bytes returned, call the [**GetOverlappedResult**](https://msdn.microsoft.com/library/ms683209(v=VS.85).aspx) function. If the *hDevice* parameter is associated with an I/O completion port, you can retrieve the number of bytes returned by calling the [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/library/Aa364986(v=VS.85).aspx) function.
+If *lpOverlapped* is not **NULL**, *lpBytesReturned* can be **NULL**. If *lpOverlapped* is not **NULL** and the operation returns data, *lpBytesReturned* is meaningless until the overlapped operation has completed. To retrieve the number of bytes returned, call the [**GetOverlappedResult**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) function. If the *hDevice* parameter is associated with an I/O completion port, you can retrieve the number of bytes returned by calling the [**GetQueuedCompletionStatus**](/windows/win32/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus) function.
 
 </dd> <dt>
 
 *lpOverlapped* \[in\]
 </dt> <dd>
 
-A pointer to an [**OVERLAPPED**](https://msdn.microsoft.com/library/ms684342(v=VS.85).aspx) structure.
+A pointer to an [**OVERLAPPED**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) structure.
 
 If the *hDevice* parameter was opened without specifying **FILE\_FLAG\_OVERLAPPED**, *lpOverlapped* is ignored.
 
-If *hDevice* was opened with the **FILE\_FLAG\_OVERLAPPED** flag, the operation is performed as an overlapped (asynchronous) operation. In this case, *lpOverlapped* must point to a valid [**OVERLAPPED**](https://msdn.microsoft.com/library/ms684342(v=VS.85).aspx) structure that contains a handle to an event object. Otherwise, the function fails in unpredictable ways.
+If *hDevice* was opened with the **FILE\_FLAG\_OVERLAPPED** flag, the operation is performed as an overlapped (asynchronous) operation. In this case, *lpOverlapped* must point to a valid [**OVERLAPPED**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) structure that contains a handle to an event object. Otherwise, the function fails in unpredictable ways.
 
-For overlapped operations, [**DeviceIoControl**](https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx) returns immediately, and the event object is signaled when the operation has been completed. Otherwise, the function does not return until the operation has been completed or until an error occurs.
+For overlapped operations, [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) returns immediately, and the event object is signaled when the operation has been completed. Otherwise, the function does not return until the operation has been completed or until an error occurs.
 
 </dd> </dl>
 
 ## Return value
 
-If the operation completes successfully, [**DeviceIoControl**](https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx) returns a nonzero value.
+If the operation completes successfully, [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) returns a nonzero value.
 
-If the operation fails or is pending, [**DeviceIoControl**](https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx) returns zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx).
+If the operation fails or is pending, [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) returns zero. To get extended error information, call [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
@@ -155,7 +155,7 @@ These members can be described as follows.
 
 <dl> <dt>
 
-[**DeviceIoControl**](https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx)
+[**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol)
 </dt> <dt>
 
 [**IOCTL\_COPYCHUNK**](ioctl-copychunk.md)
@@ -164,7 +164,3 @@ These members can be described as follows.
  
 
  
-
-
-
-

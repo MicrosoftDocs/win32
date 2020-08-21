@@ -52,7 +52,7 @@ A pointer to the variable.
 *Offset* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The offset (in bytes) from the beginning of the pointer to the data.
 
@@ -61,7 +61,7 @@ The offset (in bytes) from the beginning of the pointer to the data.
 *Count* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The number of bytes to get.
 
@@ -101,10 +101,4 @@ This method does no conversion or type checking; it is therefore a very quick wa
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

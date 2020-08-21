@@ -180,13 +180,9 @@ Efficiency of memory allocation contained in a [**D3DMEMORYPRESSURE**](d3dmemory
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::CreateQuery**](https://msdn.microsoft.com/library/Bb174360(v=VS.85).aspx)
+[**IDirect3DDevice9::CreateQuery**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createquery)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -49,7 +49,7 @@ typedef UINT32 MessageId;
 **ProbationTime**
 </dt> <dd>
 
-A [FILETIME](https://msdn.microsoft.com/library/ms724284.aspx) structure that contains a time related to a client machine's probation.
+A [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime) structure that contains a time related to a client machine's probation.
 
 </dd> <dt>
 
@@ -136,10 +136,4 @@ A unique value used to identify NAP system messages.
 
 
  
-
- 
-
-
-
-
 

@@ -53,7 +53,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("ChangeType"), [**ModelCorrespondence**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_AggregationMetricDefinition**.**IsContinuous**")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("ChangeType"), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_AggregationMetricDefinition**.**IsContinuous**")
 </dt> </dl>
 
 Indicates how the metric value changes using common attributes such as direction change, minimum and maximum values, and wrapping semantics.
@@ -189,9 +189,4 @@ the metric reports the modal value of the underlying metric values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

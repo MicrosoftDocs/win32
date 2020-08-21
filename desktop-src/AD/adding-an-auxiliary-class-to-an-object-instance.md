@@ -13,7 +13,7 @@ The following code examples show how to use ADSI and LDAP to dynamically add an 
 
 When you dynamically add an auxiliary class to an object instance, you must simultaneously specify values for any mandatory **mustHave** attributes in the class. The following examples show how to do this with the "vin" attribute, which is assumed to be mandatory.
 
-The following C++ example binds to an object, and uses [**IADs.PutEx**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex) to append the auxiliary class to the list of classes in the object's **objectClass** property. Then the example uses [**IADs.Put**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put) to set the value of the **vin** attribute. Finally, it calls [**IADs.SetInfo**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo) to commit the changes to the directory.
+The following C++ example binds to an object, and uses [**IADs.PutEx**](/windows/desktop/api/iads/nf-iads-iads-putex) to append the auxiliary class to the list of classes in the object's **objectClass** property. Then the example uses [**IADs.Put**](/windows/desktop/api/iads/nf-iads-iads-put) to set the value of the **vin** attribute. Finally, it calls [**IADs.SetInfo**](/windows/desktop/api/iads/nf-iads-iads-setinfo) to commit the changes to the directory.
 
 
 ```C++
@@ -47,7 +47,3 @@ VariantClear(&var);
  
 
  
-
-
-
-

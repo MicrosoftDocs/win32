@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Backing Up and Restoring Hard Links
 
-To back up and restore hard links, use the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea), [**CreateHardLink**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createhardlinka), [**FindFirstFileNameW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew), [**FindNextFileNameW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew), [**BackupRead**](/windows/desktop/api/Winbase/nf-winbase-backupread), [**GetFileInformationByHandle**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle), and [**BackupWrite**](/windows/desktop/api/Winbase/nf-winbase-backupwrite) functions as shown in the following pseudocode examples.
+To back up and restore hard links, use the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea), [**CreateHardLink**](/windows/desktop/api/winbase/nf-winbase-createhardlinka), [**FindFirstFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew), [**FindNextFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew), [**BackupRead**](/windows/desktop/api/Winbase/nf-winbase-backupread), [**GetFileInformationByHandle**](/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle), and [**BackupWrite**](/windows/desktop/api/Winbase/nf-winbase-backupwrite) functions as shown in the following pseudocode examples.
 
 ## Pseudocode Algorithm for Backing Up Hard Links
 
@@ -55,7 +55,7 @@ To back up and restore hard links, use the [**CreateFile**](https://docs.microso
 6.  EndWhile
 ```
 
-**Windows Server 2003 and Windows XP:** The [**FindFirstFileNameW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew) and [**FindNextFileNameW**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew) functions are not supported. You can instead use the procedure outlined in the following pseudocode example.
+**Windows Server 2003 and Windows XP:** The [**FindFirstFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew) and [**FindNextFileNameW**](/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew) functions are not supported. You can instead use the procedure outlined in the following pseudocode example.
 
 ## Alternate Pseudocode Algorithm for Backing Up Hard Links
 
@@ -89,7 +89,3 @@ To back up and restore hard links, use the [**CreateFile**](https://docs.microso
  
 
  
-
-
-
-

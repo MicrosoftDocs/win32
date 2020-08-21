@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Registering a Callback in Visual Basic
 
-Adding a callback in Visual Basic is different from the method used in VBScript. The **GetRef** function used in VBScript is different than the one used in Visual Basic. Therefore, a developer must create an [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) object that has the callback function as the default method. This topic provides the necessary information to develop Visual Basic applications.
+Adding a callback in Visual Basic is different from the method used in VBScript. The **GetRef** function used in VBScript is different than the one used in Visual Basic. Therefore, a developer must create an [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) object that has the callback function as the default method. This topic provides the necessary information to develop Visual Basic applications.
 
 **To implement this callback in an application**
 
@@ -83,7 +83,7 @@ In the following example, the [**IUPnPService**](/windows/desktop/api/Upnp/nn-up
 
 The previous examples and the Control Point sample code use some of the following object libraries:
 
-1.  TLBTypes.olb — This library defines some of the type library types and interfaces that are used in the sample code. It defines some of the functions to be used in Visual Basic, such as [**LoadTypeLibEx**](https://msdn.microsoft.com/library/ms221249(v=VS.71).aspx), that are already available in C or C++.
+1.  TLBTypes.olb — This library defines some of the type library types and interfaces that are used in the sample code. It defines some of the functions to be used in Visual Basic, such as [**LoadTypeLibEx**](/windows/win32/api/oleauto/nf-oleauto-loadtypelibex), that are already available in C or C++.
 2.  VboostTypes6.olb — This library defines some base types which are used in TLBTypes.olb and FunctionDelegator.bas. Further information regarding TLBTypes can be found in the book *Advanced Visual Basic 6: Power Techniques for Everyday Programs*, by Matthew Curland (Addison-Wesley, July 2000, ISBN: 0-201-70712-8). (This book may not be available in some languages and countries.)
 
 The Control Point sample code and the following libraries are related to this section and are needed to implement this callback. They can be found with the Control Point sample code:
@@ -97,7 +97,3 @@ The Control Point sample code and the following libraries are related to this se
  
 
  
-
-
-
-

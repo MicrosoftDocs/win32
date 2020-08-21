@@ -19,7 +19,7 @@ api_location:
 
 # IWinHttpRequest::ResponseStream property
 
-The **ResponseStream** property retrieves the response entity body as an [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream).
+The **ResponseStream** property retrieves the response entity body as an [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream).
 
 This property is read-only.
 
@@ -44,7 +44,7 @@ vtResponseStream = WinHttpRequest.ResponseStream
 
 ## Property value
 
-A **Variant** that receives a pointer to an [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface that can be queried for an [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface. This stream returns the raw data as received directly from the server.
+A **Variant** that receives a pointer to an [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface that can be queried for an [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) interface. This stream returns the raw data as received directly from the server.
 
 ## Error codes
 
@@ -54,7 +54,7 @@ It will be **E\_PENDING** if the previous [**Send**](iwinhttprequest-send.md) op
 
 ## Remarks
 
-Call [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) on the returned pointer to obtain a pointer to an [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface. This property returns the response data as an **IStream**. This property can only be invoked after the [**Send**](iwinhttprequest-send.md) method has been called.
+Call [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on the returned pointer to obtain a pointer to an [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) interface. This property returns the response data as an **IStream**. This property can only be invoked after the [**Send**](iwinhttprequest-send.md) method has been called.
 
 > [!Note]  
 > For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
@@ -63,7 +63,7 @@ Call [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).a
 
 ## Examples
 
-The following example shows how to open an HTTP connection, send an HTTP request, and read the response as an [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream). The data from the **IStream** is written to the file Temp1.gif.
+The following example shows how to open an HTTP connection, send an HTTP request, and read the response as an [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream). The data from the **IStream** is written to the file Temp1.gif.
 
 
 ```C++
@@ -313,9 +313,4 @@ int main(int argc, char* argv[])
 </dt> </dl>
 
  
-
- 
-
-
-
 

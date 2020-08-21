@@ -40,7 +40,7 @@ HRESULT DrawSubsetInstanced(
 *AttribId* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Specifies which subset of the mesh to draw. This value is used to differentiate faces in a mesh as belonging to one or more attribute groups. See remarks.
 
@@ -49,7 +49,7 @@ Specifies which subset of the mesh to draw. This value is used to differentiate 
 *InstanceCount* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of instances to render.
 
@@ -58,7 +58,7 @@ Number of instances to render.
 *StartInstanceLocation* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Which instance to start fetching from in each buffer marked as instance data.
 
@@ -127,7 +127,3 @@ The following code illustrates extracting the vertex and index buffers from the 
  
 
  
-
-
-
-

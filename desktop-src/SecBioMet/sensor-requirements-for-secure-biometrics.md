@@ -29,7 +29,7 @@ To claim that a sensor is a secure sensor it must meet the following requirement
 -   The matching engine must support secure credential release by implementing the new v4 methods outlined below
 -   The sensor must support presentation attack detection.
 
-The WINBIO\_CAPABILITY\_SECURE\_SENSOR value is contained in the [**WINBIO\_CAPABILITIES**](https://msdn.microsoft.com/library/windows/hardware/ff536475(v=vs.85).aspx) structure. Here's an example of how to define it.
+The WINBIO\_CAPABILITY\_SECURE\_SENSOR value is contained in the [**WINBIO\_CAPABILITIES**](/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_sensor_attributes) structure. Here's an example of how to define it.
 
 
 ```
@@ -277,7 +277,3 @@ Windows 10
  
 
  
-
-
-
-

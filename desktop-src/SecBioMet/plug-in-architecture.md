@@ -14,7 +14,7 @@ Biometric devices are manufactured in a wide variety of types and configurations
 
 The central component of the Windows Biometric Framework plug-in architecture is the biometric unit, a software object that exposes the capabilities of a biometric device to the framework through a standard interface.
 
-A single physical sensor is associated with each biometric unit. The sensor captures biometric data and may also, depending on its hardware capabilities, perform other biometric operations such as template matching and storage. Sensors that do not support onboard matching or storage require additional software modules to perform these functions. For more information, see [Adapters](https://docs.microsoft.com/previous-versions//dd401508(v=vs.85)).
+A single physical sensor is associated with each biometric unit. The sensor captures biometric data and may also, depending on its hardware capabilities, perform other biometric operations such as template matching and storage. Sensors that do not support onboard matching or storage require additional software modules to perform these functions. For more information, see [Adapters](/previous-versions//dd401508(v=vs.85)).
 
 The following illustration shows how data flows through a biometric unit. Essentially, the data flow forms a type of pipeline. The initial input to the pipeline is a biometric sample captured by a physical sensor. The engine attempts to match the sample to templates that already exist in the template store or, if no match is found, builds a new template from repeated physical samples and saves the template in the store.
 
@@ -73,7 +73,3 @@ These numbers are not arbitrary. Numerous studies have shown that human beings t
  
 
  
-
-
-
-

@@ -58,7 +58,7 @@ Key names are not case sensitive.
 *lpValue* \[in, optional\]
 </dt> <dd>
 
-The name of the registry value. If this parameter is **NULL** or an empty string, "", the function retrieves the type and data for the key's unnamed or default value, if any. For more information, see [Registry Element Size Limits](https://msdn.microsoft.com/library/ms724872.aspx).
+The name of the registry value. If this parameter is **NULL** or an empty string, "", the function retrieves the type and data for the key's unnamed or default value, if any. For more information, see [Registry Element Size Limits](../sysinfo/registry-element-size-limits.md).
 
 Keys do not automatically have an unnamed or default value. Unnamed values can be of any type.
 
@@ -69,7 +69,7 @@ Value names are not case sensitive.
 *pdwType* \[out, optional\]
 </dt> <dd>
 
-A pointer to a variable that receives a code indicating the type of data stored in the specified value. For a list of the possible type codes, see [Registry Value Types](https://msdn.microsoft.com/library/ms724884.aspx). This parameter can be **NULL** if the type is not required.
+A pointer to a variable that receives a code indicating the type of data stored in the specified value. For a list of the possible type codes, see [Registry Value Types](../sysinfo/registry-value-types.md). This parameter can be **NULL** if the type is not required.
 
 </dd> <dt>
 
@@ -101,7 +101,7 @@ If *pvData* is **NULL**, and *pcbData* is non-**NULL**, the function returns ERR
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://msdn.microsoft.com/library/ms679351.aspx) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
+If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
 
 ## Remarks
 
@@ -141,7 +141,3 @@ An application typically calls the [**OREnumValue**](orenumvalue.md) function to
  
 
  
-
-
-
-

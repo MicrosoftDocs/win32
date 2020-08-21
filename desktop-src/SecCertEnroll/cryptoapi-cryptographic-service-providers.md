@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # CryptoAPI Cryptographic Service Providers
 
-Providers associated with Cryptography API ([*CryptoAPI*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly)) are called cryptographic service providers (CSPs) in this documentation. CSPs typically implement cryptographic algorithms and provide key storage. Providers associated with CNG, on the other hand, separate algorithm implementation from key storage. The following Microsoft CSPs are distributed with Windows Vista and Windows Server 2008.
+Providers associated with Cryptography API ([*CryptoAPI*](/windows/desktop/SecGloss/c-gly)) are called cryptographic service providers (CSPs) in this documentation. CSPs typically implement cryptographic algorithms and provide key storage. Providers associated with CNG, on the other hand, separate algorithm implementation from key storage. The following Microsoft CSPs are distributed with Windows Vista and Windows Server 2008.
 
 ## Microsoft Base Cryptographic Provider v1.0
 
@@ -286,6 +286,3 @@ Implements the following algorithms.
  
 
  
-
-
-

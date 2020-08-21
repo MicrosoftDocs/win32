@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 Before implementing your provider, you should first register your provider with WMI. Registering the provider defines the type of the provider and the classes that the provider supports. WMI can only access registered providers.
 
 > [!Note]  
-> For more information on registering an MI provider, see [How to: Register an MI Provider](https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/how-to-register-an-mi-provider).
+> For more information on registering an MI provider, see [How to: Register an MI Provider](/previous-versions/windows/desktop/wmi_v2/how-to-register-an-mi-provider).
 
  
 
@@ -20,7 +20,7 @@ You can write your provider code before you register the provider. However, it i
 
 Only administrators can register or delete a provider.
 
-A provider must be registered for all the different types of provider functions that it performs. Nearly all providers supply instances of classes they define, but they may also provide property data, methods, events, or classes. The provider may also be registered as an event consumer provider or a performance counter provider. It is recommended that you combine all provider functionality in one provider rather than having many separate providers for each type. An example is the [System Registry provider](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/system-registry-provider), which provides methods and instances, and the [Disk Quota provider](https://docs.microsoft.com/previous-versions/windows/desktop/wmipdskq/disk-quota-provider), which supplies instances, methods, and events.
+A provider must be registered for all the different types of provider functions that it performs. Nearly all providers supply instances of classes they define, but they may also provide property data, methods, events, or classes. The provider may also be registered as an event consumer provider or a performance counter provider. It is recommended that you combine all provider functionality in one provider rather than having many separate providers for each type. An example is the [System Registry provider](/previous-versions/windows/desktop/regprov/system-registry-provider), which provides methods and instances, and the [Disk Quota provider](/previous-versions/windows/desktop/wmipdskq/disk-quota-provider), which supplies instances, methods, and events.
 
 A provider must be registered for all the different types of provider functions that it performs. Nearly all providers supply instances of classes they define, but they may also provide property data, methods, events, or classes. The provider may also be registered as an event consumer provider or a performance counter provider.
 
@@ -35,7 +35,7 @@ The same instance of [**\_\_Win32Provider**](--win32provider.md) is used for eac
 
 ## Example: Creating and Registering an Instance of a Provider
 
-The following example shows a MOF file that creates and registers an instance of the [System Registry Provider](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/system-registry-provider) in the root\\cimv2 namespace. It assigns the alias $Reg to the provider to avoid the long pathname required in the instance and method registrations. For more information, see [Creating an Alias](creating-an-alias.md).
+The following example shows a MOF file that creates and registers an instance of the [System Registry provider](/previous-versions/windows/desktop/regprov/system-registry-provider) in the root\\cimv2 namespace. It assigns the alias $Reg to the provider to avoid the long pathname required in the instance and method registrations. For more information, see [Creating an Alias](creating-an-alias.md).
 
 ``` syntax
 // Place the Registry provider in the root\cimv2 namespace
@@ -223,6 +223,3 @@ The following procedure describes how to register a provider.
  
 
  
-
-
-

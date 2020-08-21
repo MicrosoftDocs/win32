@@ -41,7 +41,7 @@ LPCSTR GetMemberName(
 *Index* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 A zero-based index.
 
@@ -49,7 +49,7 @@ A zero-based index.
 
 ## Return value
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 The name of the member.
 
@@ -79,10 +79,4 @@ The name of the member.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

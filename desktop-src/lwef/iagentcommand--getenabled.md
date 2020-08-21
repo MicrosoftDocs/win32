@@ -16,7 +16,7 @@ HRESULT GetEnabled(
 );
 ```
 
-Retrieves the value of the [**Enabled**](enabled-property.md) property for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+Retrieves the value of the [**Enabled**](enabled-property.md) property for a [**Command**](/windows/desktop/lwef/the-command-object).
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,7 +25,7 @@ Retrieves the value of the [**Enabled**](enabled-property.md) property for a [**
 <span id="pbEnabled"></span><span id="pbenabled"></span><span id="PBENABLED"></span>*pbEnabled*
 </dt> <dd>
 
-The address of a variable that receives **True** if the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) is enabled, or **False** if it is disabled. A disabled **Command** cannot be selected.
+The address of a variable that receives **True** if the [**Command**](/windows/desktop/lwef/the-command-object) is enabled, or **False** if it is disabled. A disabled **Command** cannot be selected.
 
 </dd> </dl>
 
@@ -37,7 +37,3 @@ The address of a variable that receives **True** if the [**Command**](https://do
  
 
  
-
-
-
-

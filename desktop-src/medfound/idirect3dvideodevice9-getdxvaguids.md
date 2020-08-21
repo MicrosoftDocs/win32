@@ -47,7 +47,7 @@ On output, if *pGuids* is **NULL**, *pNumGuids* receives the number of restricte
 *pGuids* 
 </dt> <dd>
 
-Address of an array of GUIDs or **NULL**. If the value is non-**NULL**, the array receives a list of GUIDs that specify restricted-mode DXVA profiles. These GUIDs are defined in dxva.h, and are documented in the [DXVA 1.0 specification](https://msdn.microsoft.com/library/windows/hardware/gg463516).
+Address of an array of GUIDs or **NULL**. If the value is non-**NULL**, the array receives a list of GUIDs that specify restricted-mode DXVA profiles. These GUIDs are defined in dxva.h, and are documented in the [DXVA 1.0 specification](/windows-hardware/drivers/display/directx-video-acceleration).
 
 </dd> </dl>
 
@@ -81,7 +81,3 @@ Call this method twice. On the first call, set *pGuids* to **NULL**. The *pNumGu
  
 
  
-
-
-
-

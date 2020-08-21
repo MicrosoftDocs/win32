@@ -34,7 +34,7 @@ The low-level functions work by getting and setting the values of Virtual Contro
 
 To use the low-level monitor configuration functions, perform the following steps:
 
-1.  Obtain an **HMONITOR** handle by calling [**EnumDisplayMonitors**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors) or [**MonitorFromWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-monitorfromwindow).
+1.  Obtain an **HMONITOR** handle by calling [**EnumDisplayMonitors**](/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors) or [**MonitorFromWindow**](/windows/desktop/api/winuser/nf-winuser-monitorfromwindow).
 2.  Call [**GetNumberOfPhysicalMonitorsFromHMONITOR**](/windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getnumberofphysicalmonitorsfromhmonitor) to get the number of physical monitors associated with the **HMONITOR** handle.
 3.  Call [**GetPhysicalMonitorsFromHMONITOR**](/windows/desktop/api/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor) to get a list of handles to the physical monitors.
 4.  Call [**GetCapabilitiesStringLength**](/windows/desktop/api/LowLevelMonitorConfigurationAPI/nf-lowlevelmonitorconfigurationapi-getcapabilitiesstringlength) to get the length of a monitor's DDC/CI capabilities string. The capabilities string is an ASCII string that contains static information about the monitor. One part of the string lists the VCP codes that the monitor supports. The string also lists the supported values of the noncontinuous VCP codes.
@@ -53,7 +53,3 @@ To use the low-level monitor configuration functions, perform the following step
  
 
  
-
-
-
-

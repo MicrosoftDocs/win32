@@ -52,11 +52,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## <span id="see_also"></span>See also
 
-[**IPipeLineStagesCallback2**](https://docs.microsoft.com/windows/desktop/direct3dtools/ipipelinestagescallback2)
+[**IPipeLineStagesCallback2**](/windows/desktop/direct3dtools/ipipelinestagescallback2)
 
  
 
  
-
-
-

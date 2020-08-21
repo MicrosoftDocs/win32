@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # enumeratedList
 
-Specifies how [**IPropertyDescription::FormatForDisplay**](https://msdn.microsoft.com/library/Bb761521(v=VS.85).aspx) should format the property's value as a string. It also influences how the property may be grouped, or what values to show in the list if the "editControl" is a listblox. This is applicable only if <displayInfo displayType="Enumerated">. There should be only one [enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx) element for each [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element.
+Specifies how [**IPropertyDescription::FormatForDisplay**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) should format the property's value as a string. It also influences how the property may be grouped, or what values to show in the list if the "editControl" is a listblox. This is applicable only if <displayInfo displayType="Enumerated">. There should be only one [enumeratedList]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
 
-If there are multiple elements, the last one is used. If no [enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
+If there are multiple elements, the last one is used. If no [enumeratedList]() element is provided, then the default attribute settings are applied to the property description.
 
 ## Syntax
 
@@ -48,8 +48,8 @@ If there are multiple elements, the last one is used. If no [enumeratedList](htt
 
 | Parent Element                                   | Child Elements                               |
 |--------------------------------------------------|----------------------------------------------|
-| [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) | [enum](https://msdn.microsoft.com/library/Bb773869(v=VS.85).aspx)           |
-|                                                  | [enumRange](https://msdn.microsoft.com/library/Bb773873(v=VS.85).aspx) |
+| [displayInfo](./propdesc-schema-displayinfo.md) | [enum](./propdesc-schema-enum.md)           |
+|                                                  | [enumRange](./propdesc-schema-enumrange.md) |
 
 
 
@@ -61,8 +61,8 @@ If there are multiple elements, the last one is used. If no [enumeratedList](htt
 
 | Attribute          | Description                                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| defaultText        | Public. Optional. Specify default text to use if a value is given to [**IPropertyDescription::FormatForDisplay**](https://msdn.microsoft.com/library/Bb761521(v=VS.85).aspx) that does not map to one of the enumerated elements in the list. The syntax allows for a direct display string or an indirect display string reference; use the reference, so it can be localized.                              |
-| useValueForDefault | Public. Optional. Setting this to "true" will inform [**IPropertyDescription::FormatForDisplay**](https://msdn.microsoft.com/library/Bb761521(v=VS.85).aspx) to use the value as-is if the value does not map to one of the enumerated elements in the list. For **IPropertyDescription::FormatForDisplay**, setting this to "true" takes precedence over setting the "defaultText". The default is "false". |
+| defaultText        | Public. Optional. Specify default text to use if a value is given to [**IPropertyDescription::FormatForDisplay**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) that does not map to one of the enumerated elements in the list. The syntax allows for a direct display string or an indirect display string reference; use the reference, so it can be localized.                              |
+| useValueForDefault | Public. Optional. Setting this to "true" will inform [**IPropertyDescription::FormatForDisplay**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) to use the value as-is if the value does not map to one of the enumerated elements in the list. For **IPropertyDescription::FormatForDisplay**, setting this to "true" takes precedence over setting the "defaultText". The default is "false". |
 
 
 
@@ -71,6 +71,3 @@ If there are multiple elements, the last one is used. If no [enumeratedList](htt
  
 
  
-
-
-

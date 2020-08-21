@@ -42,14 +42,8 @@ The HTTP Server API is supported on Windows Server 2003 operating systems and on
 
 <dl> <dt>
 
-[Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page)
+[Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

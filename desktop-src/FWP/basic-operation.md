@@ -44,7 +44,7 @@ Once a callout is registered with the filter engine, it can receive network traf
 
 Multiple callouts may be exposed by one callout driver.
 
-A callout needs to be added (with [**FwpmCalloutAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmcalloutadd0)) and registered (with [FwpsCalloutRegister](https://msdn.microsoft.com/library/ff571067.aspx)) before it can be used. A call to **FwpmCalloutAdd0** is required before the creation of filters that reference the callout. A call to FwpsCalloutRegister is required before WFP can invoke the callout when the callout filters are matched. By default filters that reference callouts that have been added but have not yet registered with the filter engine are treated as "Block" filters. The order of calling **FwpmCalloutAdd0** and FwpsCalloutRegister does not matter. A persistent callout needs to be added just once and needs to be registered every time the driver that implements the callout starts (for example, after a reboot).
+A callout needs to be added (with [**FwpmCalloutAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmcalloutadd0)) and registered (with [FwpsCalloutRegister](/windows-hardware/drivers/ddi/_netvista/)) before it can be used. A call to **FwpmCalloutAdd0** is required before the creation of filters that reference the callout. A call to FwpsCalloutRegister is required before WFP can invoke the callout when the callout filters are matched. By default filters that reference callouts that have been added but have not yet registered with the filter engine are treated as "Block" filters. The order of calling **FwpmCalloutAdd0** and FwpsCalloutRegister does not matter. A persistent callout needs to be added just once and needs to be registered every time the driver that implements the callout starts (for example, after a reboot).
 
 ## Classification
 
@@ -70,7 +70,7 @@ Classification actions could be either:
 
 At boot-time, as soon as the TCP/IP stack driver (tcpip.sys) starts, the kernel-mode filter engine enforces the security policy of the system through boot-time filters.
 
-Once the Base Filtering Engine (BFE) starts in user mode, persistent filters are added to the platform, boot-time filters are disabled, and notifications are sent to those callout drivers that subscribed using [FwpmBfeStateSubscribeChanges0](https://msdn.microsoft.com/library/ff550062.aspx). The notifications are dispatched immediately after the BFE initialization is completed. The platform is now ready for callouts to be registered and for run-time objects to be added.
+Once the Base Filtering Engine (BFE) starts in user mode, persistent filters are added to the platform, boot-time filters are disabled, and notifications are sent to those callout drivers that subscribed using [FwpmBfeStateSubscribeChanges0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0). The notifications are dispatched immediately after the BFE initialization is completed. The platform is now ready for callouts to be registered and for run-time objects to be added.
 
 The transition from boot-time to persistent filters could be several seconds, or even longer on a slow machine. It is atomic, so if a provider has both a boot-time and a persistent filter, there will never be a window when neither is in effect.
 
@@ -108,7 +108,3 @@ The following topics further describe the operation of the WFP.
  
 
  
-
-
-
-

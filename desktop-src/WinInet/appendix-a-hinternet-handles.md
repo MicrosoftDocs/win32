@@ -17,7 +17,7 @@ This section contains information about the handles that are used by the WinINet
 
 ## About HINTERNET Handles
 
-The handles that are created and used by the WinINet functions are of type **HINTERNET**. The WinINet functions return **HINTERNET** handles that are not interchangeable with other handle types. Therefore, they cannot be used with functions such as [**ReadFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile) or [**CloseHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle). Similarly, other handle types cannot be used with the WinINet functions. For example, a handle returned by [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) cannot be passed to [**InternetReadFile**](/windows/desktop/api/Wininet/nf-wininet-internetreadfile).
+The handles that are created and used by the WinINet functions are of type **HINTERNET**. The WinINet functions return **HINTERNET** handles that are not interchangeable with other handle types. Therefore, they cannot be used with functions such as [**ReadFile**](/windows/desktop/api/fileapi/nf-fileapi-readfile) or [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle). Similarly, other handle types cannot be used with the WinINet functions. For example, a handle returned by [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) cannot be passed to [**InternetReadFile**](/windows/desktop/api/Wininet/nf-wininet-internetreadfile).
 
 The [**InternetCloseHandle**](/windows/desktop/api/Wininet/nf-wininet-internetclosehandle) function closes handles of type **HINTERNET**. Note that handle values are recycled quickly; therefore, if a handle is closed and a new handle is generated immediately, there is a good chance that the new handle has the same value as the handle just closed.
 
@@ -72,14 +72,10 @@ After [**HttpSendRequest**](/windows/desktop/api/Wininet/nf-wininet-httpsendrequ
 After [**HttpSendRequestEx**](/windows/desktop/api/Wininet/nf-wininet-httpsendrequestexa) has used the handle returned by [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta), the handle can be used by [**HttpEndRequest**](/windows/desktop/api/Wininet/nf-wininet-httpendrequesta), [**InternetReadFileEx**](/windows/desktop/api/Wininet/nf-wininet-internetreadfileexa), and [**InternetWriteFile**](/windows/desktop/api/Wininet/nf-wininet-internetwritefile). After [**HttpEndRequest**](/windows/desktop/api/Wininet/nf-wininet-httpendrequesta) has been called, the handle can be used by [**InternetReadFile**](/windows/desktop/api/Wininet/nf-wininet-internetreadfile), [**InternetSetFilePointer**](/windows/desktop/api/Wininet/nf-wininet-internetsetfilepointer), and [**InternetQueryDataAvailable**](/windows/desktop/api/Wininet/nf-wininet-internetquerydataavailable).
 
 > [!Note]  
-> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 
  
 
  
-
-
-
-

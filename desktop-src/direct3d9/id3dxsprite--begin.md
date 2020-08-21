@@ -38,7 +38,7 @@ HRESULT Begin(
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Combination of zero or more flags that describe sprite rendering options. For this method, the valid flags are:
 
@@ -71,7 +71,7 @@ Render States:
 
 
 
-| Type ([**D3DRENDERSTATETYPE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx)) | Value                                                                                                             |
+| Type ([**D3DRENDERSTATETYPE**](./d3drenderstatetype.md)) | Value                                                                                                             |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | D3DRS\_ALPHABLENDENABLE                                       | TRUE                                                                                                              |
 | D3DRS\_ALPHAFUNC                                              | D3DCMP\_GREATER                                                                                                   |
@@ -107,7 +107,7 @@ Texture Stage States:
 
 
 
-| Stage Identifier | Type ([**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/library/Bb172617(v=VS.85).aspx)) | Value            |
+| Stage Identifier | Type ([**D3DTEXTURESTAGESTATETYPE**](./d3dtexturestagestatetype.md)) | Value            |
 |------------------|---------------------------------------------------------------------------|------------------|
 | 0                | D3DTSS\_ALPHAARG1                                                         | D3DTA\_TEXTURE   |
 | 0                | D3DTSS\_ALPHAARG2                                                         | D3DTA\_DIFFUSE   |
@@ -128,7 +128,7 @@ Sampler States:
 
 
 
-| Sampler Stage Index | Type ([**D3DSAMPLERSTATETYPE**](https://msdn.microsoft.com/library/Bb172602(v=VS.85).aspx)) | Value                                                                                                          |
+| Sampler Stage Index | Type ([**D3DSAMPLERSTATETYPE**](./d3dsamplerstatetype.md)) | Value                                                                                                          |
 |---------------------|-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | 0                   | D3DSAMP\_ADDRESSU                                               | D3DTADDRESS\_CLAMP                                                                                             |
 | 0                   | D3DSAMP\_ADDRESSV                                               | D3DTADDRESS\_CLAMP                                                                                             |
@@ -173,7 +173,3 @@ Sampler States:
  
 
  
-
-
-
-

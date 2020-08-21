@@ -114,25 +114,21 @@ One further note: Application Verifier is only as good as the code paths you run
 **Debugging Tools for Windows:**
 
 -   [Overview and download site](https://msdn.microsoft.com/windows/hardware/bg127145)
--   [MSDN online documentation](https://msdn.microsoft.com/library/Ff551063(v=VS.85).aspx)
+-   [MSDN online documentation](/windows-hardware/drivers/debugger/)
 
 **Application Verifier:**
 
--   [Overview](https://msdn.microsoft.com/library/ms220948(v=VS.80).aspx)
+-   [Overview](/previous-versions/ms220948(v=vs.80))
 -   [Download](https://www.microsoft.com/downloads/details.aspx?FamilyID=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18&amp;DisplayLang=en)
--   [Application Verifier for Microsoft Visual Studio 2008/.NET Framework 3.5](https://msdn.microsoft.com/library/ms220948(v=VS.80).aspx)
+-   [Application Verifier for Microsoft Visual Studio 2008/.NET Framework 3.5](/previous-versions/ms220948(v=vs.80))
 
     **Note:** the Application Verifier version that ships in Visual Studio is quite dated. If possible, use the standalone package instead. For this reason, future versions of Visual Studio will no longer have embedded Application Verifier.
 
 **WinQual:**
 
 -   [Windows Quality Online Services (Winqual)](/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-)
--   [Windows Error Reporting: Getting Started](https://docs.microsoft.com/windows/win32/wer/using-wer)
+-   [Windows Error Reporting: Getting Started](../wer/using-wer.md)
 
  
 
  
-
-
-
-

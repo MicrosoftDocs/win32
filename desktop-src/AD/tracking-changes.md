@@ -15,7 +15,7 @@ Some applications must maintain consistency between specific data stored in the 
 
 This section does not cover mechanisms used by monitoring applications. These are applications that monitor directory changes not for the purpose of maintaining consistent data between separate stores, but as a system management tool. Although monitoring applications can use the same mechanisms that support change-tracking applications, the following mechanisms are specifically designed for monitoring applications:
 
--   Security auditing. By modifying the system access-control list (SACL) portion of an object security descriptor, you can cause accesses to the object on a given domain controller to generate audit records in the security event log on that DC. You can audit reads, writes, or both; you can audit the entire object or specific attributes. For more information, see [Retrieving an Object's SACL](retrieving-an-objectampaposs-sacl.md) and [Audit Generation](https://docs.microsoft.com/windows/desktop/SecAuthZ/audit-generation).
+-   Security auditing. By modifying the system access-control list (SACL) portion of an object security descriptor, you can cause accesses to the object on a given domain controller to generate audit records in the security event log on that DC. You can audit reads, writes, or both; you can audit the entire object or specific attributes. For more information, see [Retrieving an Object's SACL](retrieving-an-objectampaposs-sacl.md) and [Audit Generation](/windows/desktop/SecAuthZ/audit-generation).
 -   Event logging. By modifying registry settings on a given domain controller, you can change the kinds of events logged to the directory service event log. Specifically, to log all modifications, set the **8 Directory Access** value under the following registry key to 4.
 
     ```
@@ -27,9 +27,9 @@ This section does not cover mechanisms used by monitoring applications. These ar
                    Diagnostics
     ```
 
-    For more information, see [Event Logging](https://docs.microsoft.com/windows/desktop/EventLog/event-logging).
+    For more information, see [Event Logging](/windows/desktop/EventLog/event-logging).
 
--   Event tracing. Windows 2000 introduced an Event Tracing API for tracing and logging interesting events in software or hardware. The Windows operating system, and Active Directory Domain Services in particular, support the use of event tracing for capacity planning and detailed performance analysis. For more information, see [Event Tracing](https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal) and [Event Tracing in ADSI](https://docs.microsoft.com/windows/desktop/ADSI/adsi-and-etw).
+-   Event tracing. Windows 2000 introduced an Event Tracing API for tracing and logging interesting events in software or hardware. The Windows operating system, and Active Directory Domain Services in particular, support the use of event tracing for capacity planning and detailed performance analysis. For more information, see [Event Tracing](/windows/desktop/ETW/event-tracing-portal) and [Event Tracing in ADSI](/windows/desktop/ADSI/adsi-and-etw).
 
 This section includes the following topics:
 
@@ -41,7 +41,3 @@ This section includes the following topics:
  
 
  
-
-
-
-

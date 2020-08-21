@@ -39,7 +39,7 @@ A module does not need to be open to retrieve dependency information.
 
 ### C++
 
-See [**get\_Dependencies**](https://msdn.microsoft.com/library/Aa369271(v=VS.85).aspx) Function.
+See [**get\_Dependencies**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-get_dependencies) Function.
 
 ## Requirements
 
@@ -56,7 +56,3 @@ See [**get\_Dependencies**](https://msdn.microsoft.com/library/Aa369271(v=VS.85)
  
 
  
-
-
-
-

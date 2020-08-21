@@ -23,7 +23,7 @@ ms.date: 05/31/2018
 
 # Header Annotations
 
-\[This topic describes the annotations supported in the Windows headers through Windows 7. If you are developing for Windows 8, you should use the annotations described in [SAL Annotations]( http://msdn.microsoft.com/en-us/library/ms182032(v=vs.120).aspx).\]
+\[This topic describes the annotations supported in the Windows headers through Windows 7. If you are developing for Windows 8, you should use the annotations described in [SAL Annotations]( /previous-versions/visualstudio/visual-studio-2013/ms182032(v=vs.120)).\]
 
 Header annotations describe how a function uses its parameters and return value. These annotations have been added to many of the Windows header files to help you ensure that you are calling the Windows API correctly. If you enable code analysis, which is available starting with the Visual Studio 2005, the compiler will produce level 6000 warnings if you are not calling these functions per the usage described through the annotations. You can also add these annotations in your own code to ensure that it is being called correctly. To enable code analysis in Visual Studio, see the documentation for your version of Visual Studio.
 
@@ -258,7 +258,7 @@ Advanced annotations provide additional information about the parameter or retur
 
  
 
-The following examples show the buffer and advanced annotations for the [**DeleteTimerQueueTimer**](https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer), [**FreeEnvironmentStrings**](https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-freeenvironmentstringsa), and [**UnhandledExceptionFilter**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter) functions.
+The following examples show the buffer and advanced annotations for the [**DeleteTimerQueueTimer**](/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer), [**FreeEnvironmentStrings**](/windows/desktop/api/processenv/nf-processenv-freeenvironmentstringsa), and [**UnhandledExceptionFilter**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter) functions.
 
 
 ```C++
@@ -292,17 +292,11 @@ UnhandledExceptionFilter(
 
 <dl> <dt>
 
-[SAL Annotations](https://msdn.microsoft.com/library/ms235402.aspx)
+[SAL Annotations](/cpp/c-runtime-library/sal-annotations?view=vs-2019)
 </dt> <dt>
 
-[Walkthrough: Analyzing C/C++ Code for Defects](https://msdn.microsoft.com/library/ms182028.aspx)
+[Walkthrough: Analyzing C/C++ Code for Defects](/visualstudio/code-quality/walkthrough-analyzing-c-cpp-code-for-defects?view=vs-2015)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -37,7 +37,7 @@ The identifier of the control that sent the **DFM\_WM\_DRAWITEM** message. If th
 *lpDrawItem* \[out\]
 </dt> <dd>
 
-A pointer to a [**DRAWITEMSTRUCT**](https://msdn.microsoft.com/library/Bb775802(v=VS.85).aspx) structure containing information about the item to be drawn and the type of drawing required.
+A pointer to a [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) structure containing information about the item to be drawn and the type of drawing required.
 
 </dd> </dl>
 
@@ -47,9 +47,9 @@ If an application processes this message, it should return **TRUE**.
 
 ## Remarks
 
-The **itemAction** member of the [**DRAWITEMSTRUCT**](https://msdn.microsoft.com/library/Bb775802(v=VS.85).aspx) structure specifies the drawing operation that an application should perform.
+The **itemAction** member of the [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) structure specifies the drawing operation that an application should perform.
 
-Before returning from processing this message, an application should ensure that the device context identified by the **hDC** member of the [**DRAWITEMSTRUCT**](https://msdn.microsoft.com/library/Bb775802(v=VS.85).aspx) structure is in the default state.
+Before returning from processing this message, an application should ensure that the device context identified by the **hDC** member of the [**DRAWITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) structure is in the default state.
 
 ## Requirements
 
@@ -66,7 +66,3 @@ Before returning from processing this message, an application should ensure that
  
 
  
-
-
-
-

@@ -42,7 +42,7 @@ SECURITY_STATUS WINAPI SslLookupCipherSuiteInfo(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle to the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
+The handle to the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
 
 </dd> <dt>
 
@@ -113,9 +113,4 @@ Possible return codes include, but are not limited to, the following.
 
 
  
-
- 
-
-
-
 

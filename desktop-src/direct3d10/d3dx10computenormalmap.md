@@ -51,7 +51,7 @@ Pointer to an ID3D10Texture2D interface, representing the source height-map text
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 One or more D3DX\_NORMALMAP flags that control generation of normal maps.
 
@@ -60,7 +60,7 @@ One or more D3DX\_NORMALMAP flags that control generation of normal maps.
 *Channel* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 One D3DX\_CHANNEL flag specifying the source of height information.
 
@@ -69,7 +69,7 @@ One D3DX\_CHANNEL flag specifying the source of height information.
 *Amplitude* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Constant value multiplier that increases (or decreases) the values in the normal map. Higher values usually make bumps more visible, lower values usually make bumps less visible.
 
@@ -115,7 +115,3 @@ This method computes the normal by using the central difference with a kernel si
  
 
  
-
-
-
-

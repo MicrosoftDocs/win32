@@ -61,7 +61,7 @@ The system and boot files include:
     </dl>
 -   The WFP service catalog file must be backed up prior to backing up the WFP files, and it is found under: <dl> %SystemRoot%\\System32\\CatRoot\\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}  
     </dl>
--   All files protected by [*System File Protection*](vssgloss-s.md) and enumerated by [**SfcGetNextProtectedFile**](https://msdn.microsoft.com/library/Aa382534(v=VS.85).aspx) (see VSS Restore Operations of WFP Protected Files)
+-   All files protected by [*System File Protection*](vssgloss-s.md) and enumerated by [**SfcGetNextProtectedFile**](/windows/win32/api/sfc/nf-sfc-sfcgetnextprotectedfile) (see VSS Restore Operations of WFP Protected Files)
 -   The Performance Counter Configuration files: <dl> %SystemRoot%\\System32\\Perf?00?.dat  
     %SystemRoot%\\System32\\Perf?00?.bak  
     </dl>
@@ -80,11 +80,11 @@ The WFP service is designed to prevent accidental or piecemeal replacement of sy
 
 The means the WFP writer should specify the **VSS\_RME\_RESTORE\_AT\_REBOOT** restore method when defining its Writer Metadata Document. If a requester determines that the WFP writer has failed to specify this restore method, it indicates a writer error.
 
-A requester should implement a restore method of **VSS\_RME\_RESTORE\_AT\_REBOOT** using the Win32 function [**MoveFileEx**](https://msdn.microsoft.com/library/Aa365240(v=VS.85).aspx) with the **MOVEFILE\_DELAY\_UNTIL\_REBOOT** parameter to replace system files. The restored files are not copied into the actual system file directories until after system reboot. The overwriting of protected system files will occur only if the value of the following **REG\_WORD** registry entry is set to 1:
+A requester should implement a restore method of **VSS\_RME\_RESTORE\_AT\_REBOOT** using the Win32 function [**MoveFileEx**](/windows/win32/api/winbase/nf-winbase-movefileexa) with the **MOVEFILE\_DELAY\_UNTIL\_REBOOT** parameter to replace system files. The restored files are not copied into the actual system file directories until after system reboot. The overwriting of protected system files will occur only if the value of the following **REG\_WORD** registry entry is set to 1:
 
 **HKEY\_LOCAL\_MACHINE**\\**System**\\**CurrentControlSet**\\**Control**\\**Session Manager**\\**AllowProtectedRenames** = 1
 
-This value must be set before any boot where protected files are to be replaced via [**MoveFileEx**](https://msdn.microsoft.com/library/Aa365240(v=VS.85).aspx) and is deleted after reboot.
+This value must be set before any boot where protected files are to be replaced via [**MoveFileEx**](/windows/win32/api/winbase/nf-winbase-movefileexa) and is deleted after reboot.
 
 The system dllcache directory should also be backed up or restored, with boot volume backup and restore, and is located by examining the **REG\_EXPAND\_SZ** registry entry:
 
@@ -113,6 +113,3 @@ These files help in the process of restoring the WFP files and as such there is 
  
 
  
-
-
-

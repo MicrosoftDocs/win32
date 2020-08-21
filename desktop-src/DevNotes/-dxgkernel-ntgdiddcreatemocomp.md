@@ -50,7 +50,7 @@ Handle to a previously created DirectDraw kernel-mode object for the device on w
 *puCreateMoCompData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_CREATEMOCOMPDATA**](https://msdn.microsoft.com/library/Ff550529(v=VS.85).aspx) structure that contains the information required to begin using motion compensation.
+Pointer to a [**DD\_CREATEMOCOMPDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_createmocompdata) structure that contains the information required to begin using motion compensation.
 
 </dd> </dl>
 
@@ -95,7 +95,3 @@ For more information, see the Microsoft DirectX Video Acceleration Driver Develo
  
 
  
-
-
-
-

@@ -127,7 +127,7 @@ The **MDM\_Policy\_Config01\_Privacy02** class has these properties.
 
 <dl> <dt>
 
-[AllowAutoAcceptPairingAndPrivacyConsentPrompts](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-allowautoacceptpairingandprivacyconsentprompts)
+[AllowAutoAcceptPairingAndPrivacyConsentPrompts](/windows/client-management/mdm/policy-csp-privacy#privacy-allowautoacceptpairingandprivacyconsentprompts)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -138,7 +138,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowInputPersonalization](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-allowinputpersonalization)
+[AllowInputPersonalization](/windows/client-management/mdm/policy-csp-privacy#privacy-allowinputpersonalization)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -149,7 +149,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisableAdvertisingId](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-disableadvertisingid)
+[DisableAdvertisingId](/windows/client-management/mdm/policy-csp-privacy#privacy-disableadvertisingid)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -160,7 +160,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnableActivityFeed](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-enableactivityfeed)
+[EnableActivityFeed](/windows/client-management/mdm/policy-csp-privacy#privacy-enableactivityfeed)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -180,14 +180,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "Privacy".
 
 </dd> <dt>
 
-[LetAppsAccessAccountInfo](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessaccountinfo)
+[LetAppsAccessAccountInfo](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessaccountinfo)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -198,7 +198,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessAccountInfo\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessaccountinfo-forceallowtheseapps)
+[LetAppsAccessAccountInfo\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessaccountinfo-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -209,7 +209,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessAccountInfo\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessaccountinfo-forcedenytheseapps)
+[LetAppsAccessAccountInfo\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessaccountinfo-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -220,7 +220,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessAccountInfo\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessaccountinfo-userincontroloftheseapps)
+[LetAppsAccessAccountInfo\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessaccountinfo-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -231,7 +231,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessCalendar](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscalendar)
+[LetAppsAccessCalendar](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscalendar)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -242,7 +242,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessCalendar\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscalendar-forceallowtheseapps)
+[LetAppsAccessCalendar\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscalendar-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -253,7 +253,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessCalendar\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscalendar-forcedenytheseapps)
+[LetAppsAccessCalendar\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscalendar-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -264,7 +264,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessCalendar\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscalendar-userincontroloftheseapps)
+[LetAppsAccessCalendar\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscalendar-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -275,7 +275,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessCallHistory](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscallhistory)
+[LetAppsAccessCallHistory](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscallhistory)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -286,7 +286,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessCallHistory\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscallhistory-forceallowtheseapps)
+[LetAppsAccessCallHistory\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscallhistory-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -297,7 +297,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessCallHistory\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscallhistory-forcedenytheseapps)
+[LetAppsAccessCallHistory\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscallhistory-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -308,7 +308,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessCallHistory\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscallhistory-userincontroloftheseapps)
+[LetAppsAccessCallHistory\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscallhistory-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -319,7 +319,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessCamera](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscamera)
+[LetAppsAccessCamera](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscamera)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -330,7 +330,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessCamera\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscamera-forceallowtheseapps)
+[LetAppsAccessCamera\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscamera-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -341,7 +341,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessCamera\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscamera-forcedenytheseapps)
+[LetAppsAccessCamera\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscamera-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -352,7 +352,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessCamera\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscamera-userincontroloftheseapps)
+[LetAppsAccessCamera\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscamera-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -363,7 +363,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessContacts](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscontacts)
+[LetAppsAccessContacts](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscontacts)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -374,7 +374,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessContacts\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscontacts-forceallowtheseapps)
+[LetAppsAccessContacts\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscontacts-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -385,7 +385,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessContacts\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscontacts-forcedenytheseapps)
+[LetAppsAccessContacts\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscontacts-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -396,7 +396,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessContacts\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscontacts-userincontroloftheseapps)
+[LetAppsAccessContacts\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesscontacts-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -407,7 +407,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessEmail](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessemail)
+[LetAppsAccessEmail](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessemail)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -418,7 +418,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessEmail\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessemail-forceallowtheseapps)
+[LetAppsAccessEmail\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessemail-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -429,7 +429,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessEmail\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessemail-forcedenytheseapps)
+[LetAppsAccessEmail\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessemail-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -440,7 +440,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessEmail\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessemail-userincontroloftheseapps)
+[LetAppsAccessEmail\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessemail-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -451,7 +451,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessLocation](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation)
+[LetAppsAccessLocation](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -462,7 +462,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessLocation\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation-forceallowtheseapps)
+[LetAppsAccessLocation\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -473,7 +473,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessLocation\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation-forcedenytheseapps)
+[LetAppsAccessLocation\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -484,7 +484,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessLocation\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation-userincontroloftheseapps)
+[LetAppsAccessLocation\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -495,7 +495,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessMessaging](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmessaging)
+[LetAppsAccessMessaging](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmessaging)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -506,7 +506,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessMessaging\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmessaging-forceallowtheseapps)
+[LetAppsAccessMessaging\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmessaging-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -517,7 +517,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessMessaging\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmessaging-forcedenytheseapps)
+[LetAppsAccessMessaging\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmessaging-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -528,7 +528,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessMessaging\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmessaging-userincontroloftheseapps)
+[LetAppsAccessMessaging\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmessaging-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -539,7 +539,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessMicrophone](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmicrophone)
+[LetAppsAccessMicrophone](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmicrophone)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -550,7 +550,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessMicrophone\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmicrophone-forceallowtheseapps)
+[LetAppsAccessMicrophone\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmicrophone-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -561,7 +561,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessMicrophone\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmicrophone-forcedenytheseapps)
+[LetAppsAccessMicrophone\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmicrophone-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -572,7 +572,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessMicrophone\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmicrophone-userincontroloftheseapps)
+[LetAppsAccessMicrophone\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmicrophone-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -583,7 +583,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessMotion](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmotion)
+[LetAppsAccessMotion](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmotion)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -594,7 +594,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessMotion\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmotion-forceallowtheseapps)
+[LetAppsAccessMotion\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmotion-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -605,7 +605,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessMotion\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmotion-forcedenytheseapps)
+[LetAppsAccessMotion\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmotion-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -616,7 +616,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessMotion\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmotion-userincontroloftheseapps)
+[LetAppsAccessMotion\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessmotion-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -627,7 +627,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessNotifications](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessnotifications)
+[LetAppsAccessNotifications](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessnotifications)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -638,7 +638,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessNotifications\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessnotifications-forceallowtheseapps)
+[LetAppsAccessNotifications\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessnotifications-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -649,7 +649,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessNotifications\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessnotifications-forcedenytheseapps)
+[LetAppsAccessNotifications\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessnotifications-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -660,7 +660,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessNotifications\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessnotifications-userincontroloftheseapps)
+[LetAppsAccessNotifications\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessnotifications-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -671,7 +671,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessPhone](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessphone)
+[LetAppsAccessPhone](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessphone)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -682,7 +682,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessPhone\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessphone-forceallowtheseapps)
+[LetAppsAccessPhone\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessphone-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -693,7 +693,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessPhone\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessphone-forcedenytheseapps)
+[LetAppsAccessPhone\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessphone-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -704,7 +704,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessPhone\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessphone-userincontroloftheseapps)
+[LetAppsAccessPhone\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessphone-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -715,7 +715,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessRadios](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessradios)
+[LetAppsAccessRadios](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessradios)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -726,7 +726,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessRadios\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessradios-forceallowtheseapps)
+[LetAppsAccessRadios\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessradios-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -737,7 +737,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessRadios\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessradios-forcedenytheseapps)
+[LetAppsAccessRadios\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessradios-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -748,7 +748,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessRadios\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessradios-userincontroloftheseapps)
+[LetAppsAccessRadios\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccessradios-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -759,7 +759,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessTasks](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesstasks)
+[LetAppsAccessTasks](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesstasks)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -770,7 +770,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessTasks\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesstasks-forceallowtheseapps)
+[LetAppsAccessTasks\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesstasks-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -781,7 +781,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessTasks\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesstasks-forcedenytheseapps)
+[LetAppsAccessTasks\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesstasks-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -792,7 +792,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessTasks\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesstasks-userincontroloftheseapps)
+[LetAppsAccessTasks\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesstasks-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -803,7 +803,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessTrustedDevices](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesstrusteddevices)
+[LetAppsAccessTrustedDevices](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesstrusteddevices)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -814,7 +814,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessTrustedDevices\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesstrusteddevices-forceallowtheseapps)
+[LetAppsAccessTrustedDevices\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesstrusteddevices-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -825,7 +825,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessTrustedDevices\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesstrusteddevices-forcedenytheseapps)
+[LetAppsAccessTrustedDevices\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesstrusteddevices-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -836,7 +836,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsAccessTrustedDevices\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesstrusteddevices-userincontroloftheseapps)
+[LetAppsAccessTrustedDevices\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesstrusteddevices-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -847,7 +847,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsGetDiagnosticInfo](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsgetdiagnosticinfo)
+[LetAppsGetDiagnosticInfo](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsgetdiagnosticinfo)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -858,7 +858,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsGetDiagnosticInfo\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsgetdiagnosticinfo-forceallowtheseapps)
+[LetAppsGetDiagnosticInfo\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsgetdiagnosticinfo-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -869,7 +869,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsGetDiagnosticInfo\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsgetdiagnosticinfo-forcedenytheseapps)
+[LetAppsGetDiagnosticInfo\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsgetdiagnosticinfo-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -880,7 +880,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsGetDiagnosticInfo\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsgetdiagnosticinfo-userincontroloftheseapps)
+[LetAppsGetDiagnosticInfo\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsgetdiagnosticinfo-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -891,7 +891,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsRunInBackground](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsruninbackground)
+[LetAppsRunInBackground](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsruninbackground)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -902,7 +902,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsRunInBackground\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsruninbackground-forceallowtheseapps)
+[LetAppsRunInBackground\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsruninbackground-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -913,7 +913,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsRunInBackground\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsruninbackground-forcedenytheseapps)
+[LetAppsRunInBackground\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsruninbackground-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -924,7 +924,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsRunInBackground\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsruninbackground-userincontroloftheseapps)
+[LetAppsRunInBackground\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsruninbackground-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -935,7 +935,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsSyncWithDevices](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappssyncwithdevices)
+[LetAppsSyncWithDevices](/windows/client-management/mdm/policy-csp-privacy#privacy-letappssyncwithdevices)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -946,7 +946,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsSyncWithDevices\_ForceAllowTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappssyncwithdevices-forceallowtheseapps)
+[LetAppsSyncWithDevices\_ForceAllowTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappssyncwithdevices-forceallowtheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -957,7 +957,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsSyncWithDevices\_ForceDenyTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappssyncwithdevices-forcedenytheseapps)
+[LetAppsSyncWithDevices\_ForceDenyTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappssyncwithdevices-forcedenytheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -968,7 +968,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LetAppsSyncWithDevices\_UserInControlOfTheseApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappssyncwithdevices-userincontroloftheseapps)
+[LetAppsSyncWithDevices\_UserInControlOfTheseApps](/windows/client-management/mdm/policy-csp-privacy#privacy-letappssyncwithdevices-userincontroloftheseapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -988,14 +988,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Config"
 
 </dd> <dt>
 
-[PublishUserActivities](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-publishuseractivities)
+[PublishUserActivities](/windows/client-management/mdm/policy-csp-privacy#privacy-publishuseractivities)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -1024,14 +1024,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

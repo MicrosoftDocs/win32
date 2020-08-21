@@ -37,14 +37,10 @@ void __RPC_FAR * __RPC_USER midl_user_allocate(size_t cBytes)
 
 
 > [!Note]  
-> If the RpcSs package is enabled (for example, as the result of using the \[ [**enable\_allocate**](https://docs.microsoft.com/windows/desktop/Midl/enable-allocate)\] attribute), use [**RpcSmAllocate**](/windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmallocate) to allocate memory on the server side. For additional information on \[**enable\_allocate**\], see [MIDL Reference](https://docs.microsoft.com/windows/desktop/Midl/midl-language-reference).
+> If the RpcSs package is enabled (for example, as the result of using the \[ [**enable\_allocate**](/windows/desktop/Midl/enable-allocate)\] attribute), use [**RpcSmAllocate**](/windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmallocate) to allocate memory on the server side. For additional information on \[**enable\_allocate**\], see [MIDL Reference](/windows/desktop/Midl/midl-language-reference).
 
  
 
  
 
  
-
-
-
-

@@ -76,7 +76,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** (64)
 </dt> </dl>
 
-A short description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A short description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -102,7 +102,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property allows each instance to define a display name in addition to its key properties, identity data, and description information. The [**Name**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement) property of the **CIM\_ManagedSystemElement** class is also defined as a display name. But, it is often subclassed to be a Key. It is not reasonable that the same property can convey both identity and a display name, without inconsistencies. Where [**Name**](msvm-keyboard.md) exists and is not a Key (such as for instances of a logical device), the same information can be present in both the **Name** and **ElementName** properties. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A display name for the object. This property allows each instance to define a display name in addition to its key properties, identity data, and description information. The [**Name**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement) property of the **CIM\_ManagedSystemElement** class is also defined as a display name. But, it is often subclassed to be a Key. It is not reasonable that the same property can convey both identity and a display name, without inconsistencies. Where [**Name**](msvm-keyboard.md) exists and is not a Key (such as for instances of a logical device), the same information can be present in both the **Name** and **ElementName** properties. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -115,7 +115,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A unique identifier for this resource pool. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A unique identifier for this resource pool. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -128,7 +128,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that describes the resource type when a well-defined value is not available and **ResourceType** has the value "Other". This property is inherited from [**CIM\_AllocationCapabilities**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities).
+A string that describes the resource type when a well-defined value is not available and **ResourceType** has the value "Other". This property is inherited from [**CIM\_AllocationCapabilities**](/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities).
 
 </dd> <dt>
 
@@ -141,7 +141,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether requesting a specific resource is supported. This property is inherited from [**CIM\_AllocationCapabilities**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities).
+Indicates whether requesting a specific resource is supported. This property is inherited from [**CIM\_AllocationCapabilities**](/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities).
 
 
 
@@ -167,7 +167,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that describes an implementation specific sub-type for this resource. For example, this may be used to distinguish different models of the same resource type. This property is inherited from [**CIM\_AllocationCapabilities**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities).
+A string that describes an implementation specific sub-type for this resource. For example, this may be used to distinguish different models of the same resource type. This property is inherited from [**CIM\_AllocationCapabilities**](/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities).
 
 </dd> <dt>
 
@@ -180,7 +180,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The type of resource this allocation setting represents. This property is inherited from [**CIM\_AllocationCapabilities**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities).
+The type of resource this allocation setting represents. This property is inherited from [**CIM\_AllocationCapabilities**](/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities).
 
 <dl> <dt>
 
@@ -300,7 +300,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates how access to an underlying resource is granted. This property is inherited from [**CIM\_AllocationCapabilities**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities).
+Indicates how access to an underlying resource is granted. This property is inherited from [**CIM\_AllocationCapabilities**](/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities).
 
 
 
@@ -325,7 +325,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Indicates the states that the system to which the resource will be associated can be in when a new resource is created. This property is inherited from [**CIM\_AllocationCapabilities**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities).
+Indicates the states that the system to which the resource will be associated can be in when a new resource is created. This property is inherited from [**CIM\_AllocationCapabilities**](/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities).
 
 <dl> <dt>
 
@@ -382,7 +382,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Indicates the states that the system to which the resource is associated can be in when the resource is removed. This property is inherited from [**CIM\_AllocationCapabilities**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities).
+Indicates the states that the system to which the resource is associated can be in when the resource is removed. This property is inherited from [**CIM\_AllocationCapabilities**](/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities).
 
 <dl> <dt>
 
@@ -432,7 +432,7 @@ Indicates the states that the system to which the resource is associated can be 
 
 ## Remarks
 
-Access to the **Msvm\_AllocationCapabilities** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_AllocationCapabilities** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -455,19 +455,14 @@ Access to the **Msvm\_AllocationCapabilities** class might be restricted by UAC 
 [**CIM\_AllocationCapabilities**](cim-allocationcapabilities.md)
 </dt> <dt>
 
-[**CIM\_AllocationCapabilities**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities)
+[**CIM\_AllocationCapabilities**](/previous-versions/windows/desktop/clushyperv/cim-allocationcapabilities)
 </dt> <dt>
 
-[**Msvm\_AllocationCapabilities (V1)**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/msvm-allocationcapabilities)
+[**Msvm\_AllocationCapabilities (V1)**](/previous-versions/windows/desktop/virtual/msvm-allocationcapabilities)
 </dt> <dt>
 
 [Resource Management Classes](resource-management-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

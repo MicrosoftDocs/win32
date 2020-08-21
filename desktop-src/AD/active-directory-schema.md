@@ -22,12 +22,8 @@ Topics that provide an overview of the Active Directory schema include:
 
 For more information about schema programming, including reading the schema and defining new classes and attributes in the schema, see [Extending the Schema](extending-the-schema.md).
 
-For more information, see the [Active Directory Domain Services Reference](active-directory-domain-services-reference.md). For the reference pages for the predefined schema classes, attributes, and attribute syntaxes, see the [Active Directory Schema Reference](https://docs.microsoft.com/windows/desktop/ADSchema/active-directory-schema).
+For more information, see the [Active Directory Domain Services Reference](active-directory-domain-services-reference.md). For the reference pages for the predefined schema classes, attributes, and attribute syntaxes, see the [Active Directory Schema Reference](/windows/desktop/ADSchema/active-directory-schema).
 
  
 
  
-
-
-
-

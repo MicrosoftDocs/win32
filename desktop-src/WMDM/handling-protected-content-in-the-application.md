@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # Handling Protected Content in the Application
 
-\[The Windows Media DRM feature is deprecated and should not be used. Use [Microsoft PlayReady](https://docs.microsoft.com/windows/uwp/audio-video-camera/playready-client-sdk) instead.\]
+\[The Windows Media DRM feature is deprecated and should not be used. Use [Microsoft PlayReady](/windows/uwp/audio-video-camera/playready-client-sdk) instead.\]
 
 An application must have a transfer certificate to be able to handle DRM-protected content. To learn where to get this certificate, see [Tools for Development](tools-for-development.md). For handling unprotected content, you can use a dummy certificate as described in [Authenticating the Application](authenticating-the-application.md).
 
@@ -103,7 +103,3 @@ HRESULT UpdateDRM(DWORD status)
  
 
  
-
-
-
-

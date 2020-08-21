@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Photo.Contrast Photo Metadata Policy
 
-The photo metadata policy for the [System.Photo.Contrast](https://msdn.microsoft.com/library/bb760407(VS.85).aspx) property.
+The photo metadata policy for the [System.Photo.Contrast](../properties/props-system-photo-contrast.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Photo.Contrast](https://msdn.microsoft.com/library/bb760407(VS.85).aspx)
+[System.Photo.Contrast](../properties/props-system-photo-contrast.md)
 </dt> </dl>
 
  
 
  
-
-
-

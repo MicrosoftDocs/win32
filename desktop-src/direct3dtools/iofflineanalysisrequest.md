@@ -26,7 +26,7 @@ Request for offline analysis data.
 
 ## Members
 
-The **IOfflineAnalysisRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IOfflineAnalysisRequest** also has these types of members:
+The **IOfflineAnalysisRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IOfflineAnalysisRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IOfflineAnalysisRequest** interface has these methods.
  
 
  
-
-
-

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent to a child window when the user clicks the window's title bar or when the window is activated, moved, or sized.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -62,10 +62,10 @@ If an application processes this message, it should return zero.
 **Reference**
 </dt> <dt>
 
-[**MoveWindow**](https://msdn.microsoft.com/library/ms633534(v=VS.85).aspx)
+[**MoveWindow**](/windows/win32/api/winuser/nf-winuser-movewindow)
 </dt> <dt>
 
-[**SetWindowPos**](https://msdn.microsoft.com/library/ms633545(v=VS.85).aspx)
+[**SetWindowPos**](/windows/win32/api/winuser/nf-winuser-setwindowpos)
 </dt> <dt>
 
 **Conceptual**
@@ -77,7 +77,3 @@ If an application processes this message, it should return zero.
  
 
  
-
-
-
-

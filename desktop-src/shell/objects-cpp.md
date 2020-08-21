@@ -22,7 +22,7 @@ This section describes the C++ Windows objects implemented by the Shell.
 
 | Topic                                                          | Description                                    |
 |----------------------------------------------------------------|------------------------------------------------|
-| [**PublishingWizard**](https://msdn.microsoft.com/library/Bb774108(v=VS.85).aspx)<br/> | Used to create a publishing wizard.<br/> |
+| [**PublishingWizard**](./scriptable-shell-objects-roadmap.md)<br/> | Used to create a publishing wizard.<br/> |
 
 
 
@@ -31,7 +31,3 @@ This section describes the C++ Windows objects implemented by the Shell.
  
 
  
-
-
-
-

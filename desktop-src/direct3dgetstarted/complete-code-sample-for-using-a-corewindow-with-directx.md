@@ -16,7 +16,7 @@ This topic contains these sections:
 
 -   [Technologies](#technologies)
 -   [Requirements](#requirements)
--   [View the code (C++)](https://docs.microsoft.com/windows)
+-   [View the code (C++)](/windows)
 
 <span id="download_locations"></span>
 
@@ -1478,7 +1478,3 @@ Renderer::~Renderer()
  
 
  
-
-
-
-

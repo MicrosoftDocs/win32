@@ -32,9 +32,9 @@ This class provides a streaming interface to a long-value column (i.e. a column 
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
-  [System.MarshalByRefObject](https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject?redirectedfrom=MSDN)  
-    [System.IO.Stream](https://docs.microsoft.com/dotnet/api/system.io.stream?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
+  [System.MarshalByRefObject](/dotnet/api/system.marshalbyrefobject)  
+    [System.IO.Stream](/dotnet/api/system.io.stream)  
       Microsoft.Isam.Esent.Interop.ColumnStream  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
@@ -65,4 +65,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [ColumnStream members](dn334190\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

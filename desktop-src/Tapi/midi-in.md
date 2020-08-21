@@ -16,13 +16,10 @@ The [**lineGetID**](/windows/desktop/api/Tapi/nf-tapi-linegetid) and [**phoneGet
 DWORD DeviceId;  // identifier of MIDI device
 ```
 
-The **DeviceId** member is the identifier of a closed MIDI device. You use this identifier in a call to the [**midiInOpen**](https://msdn.microsoft.com/library/Dd798458(v=VS.85).aspx) function to open the device for input. You can use the resulting device handle to record MIDI data from the line or phone device.
+The **DeviceId** member is the identifier of a closed MIDI device. You use this identifier in a call to the [**midiInOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midiinopen) function to open the device for input. You can use the resulting device handle to record MIDI data from the line or phone device.
 
-For more information about the MIDI functions, see [**Multimedia Functions**](https://msdn.microsoft.com/library/Dd743586(v=VS.85).aspx).
-
- 
+For more information about the MIDI functions, see [**Multimedia Functions**](../multimedia/multimedia-functions.md).
 
  
 
-
-
+ 

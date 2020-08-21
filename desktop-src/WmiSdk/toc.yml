@@ -949,9 +949,9 @@
               href: cframeworkquery-getvaluesforprop.md
               items: 
               - name: "GetValuesForProp(CHStringArray&, LPCWSTR) method"
-                href: https://docs.microsoft.com/windows/desktop/api/frquery/nf-frquery-cframeworkquery-getvaluesforprop(lpcwstr_chstringarray_)
+                href: /windows/desktop/api/frquery/nf-frquery-cframeworkquery-getvaluesforprop(lpcwstr_chstringarray_)
               - name: "GetValuesForProp(LPCWSTR, std::vector<_bstr_t>&) method"
-                href: https://docs.microsoft.com/windows/desktop/api/frquery/nf-frquery-cframeworkquery-getvaluesforprop(lpcwstr_std-vector__bstr_t__)
+                href: /windows/desktop/api/frquery/nf-frquery-cframeworkquery-getvaluesforprop(lpcwstr_std-vector__bstr_t__)
             - name: "IsPropertyRequired method"
               href: /windows/desktop/api/FrQuery/nf-frquery-cframeworkquery-ispropertyrequired
             - name: "KeysOnly method"
@@ -996,11 +996,11 @@
               href: cinstance-getwbemint64.md
               items: 
               - name: "GetWBEMINT64(LPCWSTR, LONGLONG&) method"
-                href: https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-getwbemint64(lpcwstr_longlong_)
+                href: /windows/desktop/api/instance/nf-instance-cinstance-getwbemint64(lpcwstr_longlong_)
               - name: "GetWBEMINT64(LPCWSTR, ULONGLONG&) method"
-                href: https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-getwbemint64(lpcwstr_ulonglong_)
+                href: /windows/desktop/api/instance/nf-instance-cinstance-getwbemint64(lpcwstr_ulonglong_)
               - name: "GetWBEMINT64(LPCWSTR, WBEMINT64&) method"
-                href: https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-getwbemint64(lpcwstr_ulonglong_)
+                href: /windows/desktop/api/instance/nf-instance-cinstance-getwbemint64(lpcwstr_ulonglong_)
             - name: "GetWCHAR method"
               href: /windows/desktop/api/Instance/nf-instance-cinstance-getwchar
             - name: "GetWORD method"
@@ -1015,18 +1015,18 @@
               href: cinstance-setcharsplat.md
               items: 
               - name: "SetCharSplat(LPCWSTR, DWORD) method"
-                href: https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-setcharsplat(lpcwstr_dword)
+                href: /windows/desktop/api/instance/nf-instance-cinstance-setcharsplat(lpcwstr_dword)
               - name: "SetCharSplat(LPCWSTR, LPCSTR) method"
-                href: https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-setcharsplat(lpcwstr_lpcstr)
+                href: /windows/desktop/api/instance/nf-instance-cinstance-setcharsplat(lpcwstr_lpcstr)
               - name: "SetCharSplat(LPCWSTR, LPCWSTR) method"
-                href: https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-setcharsplat(lpcwstr_lpcwstr)
+                href: /windows/desktop/api/instance/nf-instance-cinstance-setcharsplat(lpcwstr_lpcwstr)
             - name: "SetCHString methods"
               href: cinstance-setchstring.md
               items: 
               - name: "SetCHString(LPCWSTR, constCHString&) method"
-                href: https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-setchstring(lpcwstr_constchstring_)
+                href: /windows/desktop/api/instance/nf-instance-cinstance-setchstring(lpcwstr_constchstring_)
               - name: "SetCHString(LPCWSTR, LPCSTR) method"
-                href: https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-setchstring(lpcwstr_lpcstr)
+                href: /windows/desktop/api/instance/nf-instance-cinstance-setchstring(lpcwstr_lpcstr)
             - name: "SetDateTime method"
               href: /windows/desktop/api/Instance/nf-instance-cinstance-setdatetime
             - name: "SetDOUBLE method"
@@ -1051,11 +1051,11 @@
               href: cinstance--setwbemint64.md
               items: 
               - name: "SetWBEMINT64(LPCWSTR, constLONGLONG&) method"
-                href: https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-setwbemint64(lpcwstr_constlonglong)
+                href: /windows/desktop/api/instance/nf-instance-cinstance-setwbemint64(lpcwstr_constlonglong)
               - name: "SetWBEMINT64(LPCWSTR, constWBEMINT64&) method"
-                href: https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-setwbemint64(lpcwstr_constulonglong)
+                href: /windows/desktop/api/instance/nf-instance-cinstance-setwbemint64(lpcwstr_constulonglong)
               - name: "SetWBEMINT64(LPCWSTR, constULONGLONG&) method"
-                href: https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-setwbemint64(lpcwstr_constulonglong)
+                href: /windows/desktop/api/instance/nf-instance-cinstance-setwbemint64(lpcwstr_constulonglong)
             - name: "SetWORD method"
               href: /windows/desktop/api/Instance/nf-instance-cinstance-setword
         - name: "CThreadBase"
@@ -1065,7 +1065,7 @@
             href: cthreadbase-enumerations.md
             items: 
             - name: "FlagDefs"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt432263(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/mt432263(v=vs.85)
           - name: "CThreadBase Methods"
             href: cthreadbase-methods.md
             items: 
@@ -1096,11 +1096,11 @@
             href: cwbemproviderglue-methods.md
             items: 
             - name: "FrameworkLoginDLL method"
-              href: https://docs.microsoft.com/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-frameworklogindll(lpcwstr_plong)
+              href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-frameworklogindll(lpcwstr_plong)
             - name: "FrameworkLogoffDLL method"
-              href: https://docs.microsoft.com/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-frameworklogoffdll(lpcwstr_plong)
+              href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-frameworklogoffdll(lpcwstr_plong)
             - name: "GetAllDerivedInstances method"
-              href: https://docs.microsoft.com/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getallderivedinstances(lpcwstr_trefpointercollection_cinstance__methodcontext_lpcwstr)
+              href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getallderivedinstances(lpcwstr_trefpointercollection_cinstance__methodcontext_lpcwstr)
             - name: "GetAllDerivedInstancesAsynch method"
               href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getallderivedinstancesasynch
             - name: "GetAllInstances method"
@@ -1111,23 +1111,23 @@
               href: cwbemproviderglue-getemptyinstance.md
               items: 
               - name: "GetEmptyInstance(LPCWSTR, CInstance**, LPCWSTR) method"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getemptyinstance(methodcontext_lpcwstr_cinstance_lpcwstr)
+                href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getemptyinstance(methodcontext_lpcwstr_cinstance_lpcwstr)
               - name: "GetEmptyInstance(MethodContext*, LPCWSTR, CInstance**, LPCWSTR) method"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getemptyinstance(methodcontext_lpcwstr_cinstance_lpcwstr)
+                href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getemptyinstance(methodcontext_lpcwstr_cinstance_lpcwstr)
             - name: "GetInstanceByPath method"
-              href: https://docs.microsoft.com/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancebypath(lpcwstr_cinstance_methodcontext)
+              href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancebypath(lpcwstr_cinstance_methodcontext)
             - name: "GetInstanceKeysByPath method"
               href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getinstancekeysbypath
             - name: "GetInstancePropertiesByPath method"
               href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getinstancepropertiesbypath
             - name: "GetInstancesByQuery method"
-              href: https://docs.microsoft.com/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancesbyquery(lpcwstr_trefpointercollection_cinstance__methodcontext_lpcwstr)
+              href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancesbyquery(lpcwstr_trefpointercollection_cinstance__methodcontext_lpcwstr)
             - name: "GetInstancesByQueryAsynch method"
               href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-getinstancesbyqueryasynch
             - name: "GetNameSpaceConnection method"
-              href: https://docs.microsoft.com/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getnamespaceconnection(lpcwstr_methodcontext)
+              href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getnamespaceconnection(lpcwstr_methodcontext)
             - name: "IsDerivedFrom method"
-              href: https://docs.microsoft.com/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-isderivedfrom(lpcwstr_lpcwstr_methodcontext_lpcwstr)
+              href: /windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-isderivedfrom(lpcwstr_lpcwstr_methodcontext_lpcwstr)
             - name: "SetStatusObject method"
               href: /windows/desktop/api/WbemGlue/nf-wbemglue-cwbemproviderglue-setstatusobject
         - name: "Provider"
@@ -1141,11 +1141,11 @@
             - name: "CreateNewInstance method"
               href: /windows/desktop/api/Provider/nf-provider-provider-createnewinstance
             - name: "DeleteInstance method"
-              href: https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-deleteinstance(parsedobjectpath_long_methodcontext)
+              href: /windows/desktop/api/provider/nf-provider-provider-deleteinstance(parsedobjectpath_long_methodcontext)
             - name: "EnumerateInstances method"
               href: /windows/desktop/api/Provider/nf-provider-provider-enumerateinstances
             - name: "ExecMethod method"
-              href: https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-execmethod(parsedobjectpath_bstr_long_cinstance_cinstance_methodcontext)
+              href: /windows/desktop/api/provider/nf-provider-provider-execmethod(parsedobjectpath_bstr_long_cinstance_cinstance_methodcontext)
             - name: "ExecQuery method"
               href: /windows/desktop/api/Provider/nf-provider-provider-execquery
             - name: "Flush method"
@@ -1157,7 +1157,7 @@
             - name: "GetNamespace method"
               href: /windows/desktop/api/Provider/nf-provider-provider-getnamespace
             - name: "GetObject method"
-              href: https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-getobject(cinstance_long_cframeworkquery_)
+              href: /windows/desktop/api/provider/nf-provider-provider-getobject(cinstance_long_cframeworkquery_)
             - name: "GetProviderName method"
               href: /windows/desktop/api/Provider/nf-provider-provider-getprovidername
             - name: "MakeLocalPath method"
@@ -1165,7 +1165,7 @@
             - name: "Provider method"
               href: /windows/desktop/api/Provider/nf-provider-provider-provider
             - name: "PutInstance method"
-              href: https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-putinstance(constcinstance__long)
+              href: /windows/desktop/api/provider/nf-provider-provider-putinstance(constcinstance__long)
             - name: "SetCreationClassName method"
               href: /windows/desktop/api/Provider/nf-provider-provider-setcreationclassname
             - name: "ValidateDeletionFlags method"
@@ -1200,7 +1200,7 @@
             - name: "RemoveAll method"
               href: /windows/desktop/api/ChPtrArr/nf-chptrarr-chptrarray-removeall
             - name: "operator ["
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa384934(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa384934(v=vs.85)
         - name: "CHString"
           href: chstring.md
           items: 
@@ -1213,19 +1213,19 @@
               href: chstring-chstring.md
               items: 
               - name: "CHString() constructor"
-                href: https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig
+                href: /windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig
               - name: "CHString(constCHString&) constructor"
-                href: https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-chstring(constchstring_)
+                href: /windows/desktop/api/chstring/nf-chstring-chstring-chstring(constchstring_)
               - name: "CHString(constunsigned char*) constructor"
-                href: https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-chstring(constunsignedchar)
+                href: /windows/desktop/api/chstring/nf-chstring-chstring-chstring(constunsignedchar)
               - name: "CHString(LPCSTR) constructor"
                 href: /windows/desktop/api/ChString/nf-chstring-chstring-chstring(lpcstr)
               - name: "CHString(LPCWSTR) constructor"
                 href: /windows/desktop/api/ChString/nf-chstring-chstring-chstring(lpcwstr)
               - name: "CHString(LPCWSTR, int) constructor"
-                href: https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-chstring(lpcwstr_int)
+                href: /windows/desktop/api/chstring/nf-chstring-chstring-chstring(lpcwstr_int)
               - name: "CHString(WCHAR, int) constructor"
-                href: https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-chstring(wchar_int)
+                href: /windows/desktop/api/chstring/nf-chstring-chstring-chstring(wchar_int)
             - name: "Collate method"
               href: /windows/desktop/api/ChString/nf-chstring-chstring-collate
             - name: "Compare method"
@@ -1240,23 +1240,23 @@
               - name: "Find(LPCWSTR) method"
                 href: /windows/win32/api/chstring/nf-chstring-chstring-format(lpcwstr_---)
               - name: "Find(WCHAR) method"
-                href: https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find(lpcwstr)
+                href: /windows/desktop/api/chstring/nf-chstring-chstring-find(lpcwstr)
             - name: "FindOneOf method"
               href: /windows/win32/api/chstring/nf-chstring-chstring-findoneof
             - name: "Format methods"
               href: chstring-format.md
               items: 
               - name: "Format(LPCWSTR, ) method"
-                href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385527(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/aa385527(v=vs.85)
               - name: "Format(UINT, ) method"
-                href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385532(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/aa385532(v=vs.85)
             - name: "FormatMessageW methods"
               href: chstring-formatmessagew.md
               items: 
               - name: "FormatMessageW(LPCWSTR, ) method"
-                href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385515(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/aa385515(v=vs.85)
               - name: "FormatMessageW(UINT, ) method"
-                href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385519(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/aa385519(v=vs.85)
             - name: "FormatV method"
               href: /windows/desktop/api/ChString/nf-chstring-chstring-formatv
             - name: "FreeExtra method"
@@ -1295,7 +1295,7 @@
               - name: "Mid(int, int) method"
                 href: /windows/win32/api/chstring/nf-chstring-chstring-mid(int_int)
             - name: "operator["
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa386162(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa386162(v=vs.85)
             - name: "CHString::operator+"
               href: chstring--operator-plus.md
             - name: "CHString::operator+="
@@ -1303,31 +1303,31 @@
             - name: "CHString::operator="
               href: chstring--operator-equal.md
             - name: "operator==(constCHString&, constCHString&) method"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385641(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa385641(v=vs.85)
             - name: "operator==(constCHString&, constLPCWSTR&) method"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385645(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa385645(v=vs.85)
             - name: "operator>(constCHString&, constCHString&) method"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385665(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa385665(v=vs.85)
             - name: "operator>(constCHString&, constLPCWSTR&) method"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385672(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa385672(v=vs.85)
             - name: "operator>=(constCHString&, constCHString&) method"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385652(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa385652(v=vs.85)
             - name: "operator>=(constCHString&, constLPCWSTR&) method"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385661(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa385661(v=vs.85)
             - name: "operator<(constCHString&, constCHString&) method"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385689(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa385689(v=vs.85)
             - name: "operator<(constCHString&, constLPCWSTR&) method"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385695(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa385695(v=vs.85)
             - name: "operator<=(constCHString&, constCHString&) method"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385676(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa385676(v=vs.85)
             - name: "operator<=(constCHString&, constLPCWSTR&) method"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385683(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa385683(v=vs.85)
             - name: "operator!=(constCHString&, constCHString&) method"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385704(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa385704(v=vs.85)
             - name: "operator!=(constCHString&, constLPCWSTR&) method"
-              href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385763(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa385763(v=vs.85)
             - name: "operator LPCWSTR method"
-              href: https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-operatorlpcwstr
+              href: /windows/desktop/api/chstring/nf-chstring-chstring-operatorlpcwstr
             - name: "ReleaseBuffer method"
               href: /windows/desktop/api/ChString/nf-chstring-chstring-releasebuffer
             - name: "ReverseFind method"
@@ -1376,9 +1376,9 @@
               href: insertat-method-in-class-chstringarray.md
               items: 
               - name: "InsertAt(int, CHStringArray*) method"
-                href: https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-insertat(int_chstringarray)
+                href: /windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-insertat(int_chstringarray)
               - name: "InsertAt(int, LPCWSTR, int) method"
-                href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385383(v=vs.85)
+                href: /previous-versions/windows/desktop/legacy/aa385383(v=vs.85)
             - name: "CHStringArray::operator [ "
               href: chstringarray--operator-brackets.md
             - name: "RemoveAll method"
@@ -1386,7 +1386,7 @@
             - name: "RemoveAt method"
               href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-removeat
             - name: "SetAt method"
-              href: https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setat(int_lpcwstr)
+              href: /windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setat(int_lpcwstr)
             - name: "SetAtGrow method"
               href: /windows/desktop/api/ChStrArr/nf-chstrarr-chstringarray-setatgrow
             - name: "SetSize method"
@@ -1410,7 +1410,7 @@
               - name: "Free(LPWSTR) method"
                 href: /windows/desktop/api/ObjPath/nf-objpath-cobjectpathparser-free(lpwstr)
               - name: "Free(ParsedObjectPath*) method"
-                href: https://docs.microsoft.com/windows/desktop/api/objpath/nf-objpath-cobjectpathparser-free(parsedobjectpath)
+                href: /windows/desktop/api/objpath/nf-objpath-cobjectpathparser-free(parsedobjectpath)
             - name: "Parse method"
               href: /windows/desktop/api/ObjPath/nf-objpath-cobjectpathparser-parse
             - name: "UnParse method"
@@ -1444,7 +1444,7 @@
             - name: "GetSize method"
               href: /windows/desktop/api/RefPtrCo/nf-refptrco-trefpointercollection-getsize
             - name: "TRefPointerCollection method"
-              href: https://docs.microsoft.com/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-trefpointercollection(consttrefpointercollection_)
+              href: /windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-trefpointercollection(consttrefpointercollection_)
         - name: "WBEMTime"
           href: wbemtime.md
           items: 
@@ -1465,13 +1465,13 @@
               href: wbemtime--getlocaloffsetfordate.md
               items: 
               - name: "GetLocalOffsetForDate(constFILETIME*) method"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(constfiletime)
+                href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(constfiletime)
               - name: "GetLocalOffsetForDate(conststruct tm*) method"
                 href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(consttm)
               - name: "GetLocalOffsetForDate(constSYSTEMTIME*) method"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(constsystemtime)
+                href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(constsystemtime)
               - name: "GetLocalOffsetForDate(consttime_t&) method"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(consttime_t_)
+                href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getlocaloffsetfordate(consttime_t_)
             - name: "GetStructtm method"
               href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getstructtm
             - name: "GetSYSTEMTIME method"
@@ -1486,15 +1486,15 @@
               href: wbemtime--operator-minus.md
               items: 
               - name: "operator-(constWBEMTime&) method"
-                href: https://docs.microsoft.com/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
+                href: /windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
               - name: "operator-(constWBEMTimeSpan&) method"
                 href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-sub(constwbemtimespan_)
             - name: "WBEMTime::operator != method"
               href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-not-equal-to
             - name: "WBEMTime::operator < method"
-              href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-less-than
+              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-less-than
             - name: "WBEMTime::operator <= method"
-              href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-less-than-equal-to
+              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-less-than-equal-to
             - name: "WBEMTime::operator == method"
               href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtime-operator-equal-equal-to
             - name: "WBEMTime::operator > method"
@@ -1511,13 +1511,13 @@
               - name: "operator=(constBSTR&) method"
                 href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-assign(constbstr)
               - name: "operator=(constFILETIME&) method"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(constfiletime_)
+                href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(constfiletime_)
               - name: "operator=(conststruct tm&) method"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(consttm_)
+                href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(consttm_)
               - name: "operator=(constSYSTEMTIME&) method"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(constsystemtime_)
+                href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(constsystemtime_)
               - name: "operator=(consttime_t&) method"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(consttime_t_)
+                href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-operator-assign(consttime_t_)
             - name: "operator-= method"
               href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-sub-assign
             - name: "SetDMTF method"
@@ -1526,17 +1526,17 @@
               href: wbemtime-wbemtime.md
               items: 
               - name: "WBEMTime() constructor"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constbstr)
+                href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constbstr)
               - name: "WBEMTime(BSTR) constructor"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constbstr)
+                href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constbstr)
               - name: "WBEMTime(conststruct tm&) constructor"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(consttm_)
+                href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(consttm_)
               - name: "WBEMTime(constFILETIME&) constructor"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constfiletime_)
+                href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constfiletime_)
               - name: "WBEMTime(constSYSTEMTIME&) constructor"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constsystemtime_)
+                href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constsystemtime_)
               - name: "WBEMTime(consttime_t&) constructor"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(consttime_t_)
+                href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(consttime_t_)
         - name: "WBEMTimeSpan"
           href: /windows/desktop/api/WbemTime/nl-wbemtime-wbemtimespan
           items: 
@@ -1547,11 +1547,11 @@
               href: wbemtimespan-wbemtimespan.md
               items: 
               - name: "WBEMTimeSpan() constructor"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)
+                href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)
               - name: "WBEMTimeSpan(BSTR) constructor"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)
+                href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)
               - name: "WBEMTimeSpan(int, int, int, int, int, int, int) constructor"
-                href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(int_int_int_int_int_int_int)
+                href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(int_int_int_int_int_int_int)
             - name: "Clear method"
               href: /windows/desktop/api/WbemTime/nf-wbemtime-wbemtimespan-clear
             - name: "GetBSTR method"
@@ -1579,9 +1579,9 @@
             - name: "operator >= method"
               href: /windows/win32/api/wbemtime/nf-wbemtime-wbemtimespan-operator-greater-than-equal-to
             - name: "operator < method"
-              href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-operator-less-than
+              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-operator-less-than
             - name: "operator <= method"
-              href: https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-operator-less-than-equal-to
+              href: /windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-operator-less-than-equal-to
     - name: "COM API for WMI"
       href: com-api-for-wmi.md
       items: 
@@ -1640,9 +1640,9 @@
           href: iwbembackuprestoreex-methods.md
           items: 
           - name: "Backup method"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa391419(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa391419(v=vs.85)
           - name: "Restore method"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa391421(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa391421(v=vs.85)
           - name: "Pause method"
             href: /windows/desktop/api/Wbemcli/nf-wbemcli-iwbembackuprestoreex-pause
           - name: "Resume method"
@@ -1776,7 +1776,7 @@
           - name: "GetSink method"
             href: /windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledbasiceventprovider-getsink
           - name: "Register method"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa391480(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa391480(v=vs.85)
       - name: "IWbemDecoupledRegistrar"
         href: /windows/desktop/api/Wbemprov/nn-wbemprov-iwbemdecoupledregistrar
         items: 

@@ -19,12 +19,8 @@ An installable driver can let users choose configuration settings for the driver
 
 Before receiving the DRV\_CONFIGURE message, a driver receives the [**DRV\_QUERYCONFIGURE**](drv-queryconfigure.md) message. The driver must return a nonzero value to the query to ensure receipt of the subsequent DRV\_CONFIGURE message.
 
-When initializing the configuration dialog box, the driver typically retrieves configuration information from the registry. To help locate this information, the DRV\_CONFIGURE message usually includes the address of a [**DRVCONFIGINFO**](https://msdn.microsoft.com/library/Dd797923(v=VS.85).aspx) structure that contains the names of the registry key and value associated with the driver. If the user requests changes to the configuration, the driver should update the configuration information in the registry.
+When initializing the configuration dialog box, the driver typically retrieves configuration information from the registry. To help locate this information, the DRV\_CONFIGURE message usually includes the address of a [**DRVCONFIGINFO**](/windows/win32/api/mmiscapi/ns-mmiscapi-drvconfiginfo) structure that contains the names of the registry key and value associated with the driver. If the user requests changes to the configuration, the driver should update the configuration information in the registry.
 
  
 
  
-
-
-
-

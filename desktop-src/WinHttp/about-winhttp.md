@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 Microsoft Windows HTTP Services (WinHTTP) provides you with a server-supported, high-level interface to the HTTP/2 and 1.1 Internet protocols. WinHTTP is designed to be used primarily in server-based scenarios by server applications that communicate with HTTP servers.
 
-[WinINet](https://docs.microsoft.com/windows/desktop/WinInet/portal) was designed as an HTTP client platform for interactive desktop applications. WinINet displays a user interface for some operations such as collecting user credentials. WinHTTP, however, handles these operations programmatically. Server applications that require HTTP client services should use WinHTTP instead of WinINet. For more information, see [Porting WinINet Applications to WinHTTP](porting-wininet-applications-to-winhttp.md).
+[WinINet](/windows/desktop/WinInet/portal) was designed as an HTTP client platform for interactive desktop applications. WinINet displays a user interface for some operations such as collecting user credentials. WinHTTP, however, handles these operations programmatically. Server applications that require HTTP client services should use WinHTTP instead of WinINet. For more information, see [Porting WinINet Applications to WinHTTP](porting-wininet-applications-to-winhttp.md).
 
-WinHTTP is also designed for use in system services and HTTP-based client applications. However, single-user applications that require FTP protocol functionality, cookie persistence, caching, automatic credential dialog handling, Internet Explorer compatibility, or downlevel platform support should consider using [WinINet](https://docs.microsoft.com/windows/desktop/WinInet/portal).
+WinHTTP is also designed for use in system services and HTTP-based client applications. However, single-user applications that require FTP protocol functionality, cookie persistence, caching, automatic credential dialog handling, Internet Explorer compatibility, or downlevel platform support should consider using [WinINet](/windows/desktop/WinInet/portal).
 
 This interface is accessible from C/C++ by using either the WinHTTP application programming interface (API), or by using the [**IWinHttpRequest**](iwinhttprequest-interface.md) and [**IWinHttpRequestEvents**](iwinhttprequestevents-interface.md) interfaces. WinHTTP is also accessible from script and Microsoft Visual Basic through the WinHTTP object. For more information and descriptions of the individual functions, see the WinHTTP functions reference for the specific language.
 
@@ -34,12 +34,12 @@ The following features were added in version 5.1 of WinHTTP:
 -   HTTP/1.1 chunked transfer support for HTTP responses.
 -   Keep-alive pooling of anonymous connections across sessions.
 -   Secure Sockets Layer (SSL) functionality, including client certificates. Supported SSL protocols include the following: SSL 2.0, SSL 3.0, and Transport Layer Security (TLS) 1.0.
--   Support for server and proxy authentication, including integrated support for Microsoft Passport 1.4 and the Negotiate/ [Kerberos](https://msdn.microsoft.com/library/ms690406(v=VS.85).aspx) package.
+-   Support for server and proxy authentication, including integrated support for Microsoft Passport 1.4 and the Negotiate/ [Kerberos](../com/kerberos-v5-protocol.md) package.
 -   Automatic handling of redirects unless suppressed.
 -   Scriptable interface in addition to the API.
 -   Trace utility to help troubleshoot problems.
 
-A number of [WinINet](https://docs.microsoft.com/windows/desktop/WinInet/portal) features are not supported in WinHTTP, including URL caching and persistent cookies, autoproxy, autodialing, offline support, and File Transfer Protocol (FTP).
+A number of [WinINet](/windows/desktop/WinInet/portal) features are not supported in WinHTTP, including URL caching and persistent cookies, autoproxy, autodialing, offline support, and File Transfer Protocol (FTP).
 
 For more information about changes introduced in version 5.1, see [What's New in WinHTTP 5.1](what-s-new-in-winhttp-5-1.md).
 
@@ -53,4 +53,4 @@ For more information about WinHTTP, see the following topics.
 * [Network Terminology](network-terminology.md) describes useful concepts and terminology relating to networking in general and the HTTP protocol in particular.
 * [Choosing a WinHTTP Interface](choosing-a-winhttp-interface.md) describes the C/C++ API and the COM interface for WinHTTP.
 * [WinHTTP Security Considerations](winhttp-security-considerations.md) describes security issues to be aware of when using WinHTTP.
-* [Porting WinINet Applications to WinHTTP](porting-wininet-applications-to-winhttp.md) describes how to modify your existing [WinINet](https://docs.microsoft.com/windows/desktop/WinInet/portal) applications to use the WinHTTP API.
+* [Porting WinINet Applications to WinHTTP](porting-wininet-applications-to-winhttp.md) describes how to modify your existing [WinINet](/windows/desktop/WinInet/portal) applications to use the WinHTTP API.

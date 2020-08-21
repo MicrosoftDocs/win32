@@ -69,7 +69,7 @@ If a virtual switch is successfully created, a reference to an instance of the [
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -128,9 +128,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

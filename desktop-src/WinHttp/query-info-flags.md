@@ -793,7 +793,7 @@ Queries request headers only.
 
 
 
-Returns the header value as a [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure, which does not require the application to parse the data. Use for headers whose value is a date/time string, such as "Last-Modified-Time".
+Returns the header value as a [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure, which does not require the application to parse the data. Use for headers whose value is a date/time string, such as "Last-Modified-Time".
 
 
 </dt> </dl> </dd> </dl>
@@ -818,9 +818,4 @@ Returns the header value as a [**SYSTEMTIME**](https://docs.microsoft.com/window
 </dt> </dl>
 
  
-
- 
-
-
-
 

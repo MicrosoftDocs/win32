@@ -48,7 +48,7 @@ A value specifying the color type for the soft keyboard. Possible values are def
 *Color* \[in\]
 </dt> <dd>
 
-A 32-bit [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value specifying an RGB color.
+A 32-bit [**COLORREF**](/windows/desktop/gdi/colorref) value specifying an RGB color.
 
 </dd> </dl>
 
@@ -95,14 +95,8 @@ This method can return one of these values.
 [**COLORTYPE**](colortype.md)
 </dt> <dt>
 
-[**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref)
+[**COLORREF**](/windows/desktop/gdi/colorref)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

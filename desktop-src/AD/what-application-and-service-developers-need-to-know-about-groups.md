@@ -24,14 +24,14 @@ It is recommended that applications use the following guidelines when using grou
     -   Use universal groups only if necessary (member data is required globally using global catalog; group can contain any user/group). If you do use universal groups, place global groups in the universal group and add/remove users from the global group. Avoid excess change to universal groups for replication efficiency.
 -   Do not use group membership for access control. Instead, use an ACE and control access by having the system perform an access check.
 
-To control access to operations that do not fit within the predefined access rights for objects in Active Directory Domain services, use the control access rights feature of access control in Windows 2000. For more information, see [**ADS\_RIGHTS\_ENUM**](https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_rights_enum).
+To control access to operations that do not fit within the predefined access rights for objects in Active Directory Domain services, use the control access rights feature of access control in Windows 2000. For more information, see [**ADS\_RIGHTS\_ENUM**](/windows/win32/api/iads/ne-iads-ads_rights_enum).
 
 **To use a control access right to control the right to perform an operation**
 
 1.  Create a control access right that defines the type of access to the application or service. For more information, see [Control Access Rights](control-access-rights.md).
 2.  Create an object in Active Directory Domain Services that represents the application, service, or resource.
 3.  Add object ACEs to the DACL in the object security descriptor to grant or deny users or groups the control access right on that object. For more information, see [Setting Access Rights on an Object](setting-access-rights-on-an-object.md).
-4.  When a user attempts to perform the protected operation, your application or service uses the [**AccessCheckByTypeResultList**](https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytyperesultlist) function to determine whether the control access right is granted to the user. For more information, see [Checking a Control Access Right in an Object's ACL](checking-a-control-access-right-in-an-objectampaposs-acl.md).
+4.  When a user attempts to perform the protected operation, your application or service uses the [**AccessCheckByTypeResultList**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytyperesultlist) function to determine whether the control access right is granted to the user. For more information, see [Checking a Control Access Right in an Object's ACL](checking-a-control-access-right-in-an-objectampaposs-acl.md).
 5.  Based on the result of the access check on the object, your application or service can grant or deny the user access to the application or service.
 
 A service application could also create a group whose members would be the various service instances. For example, a service with instances installed on multiple computers throughout an enterprise might have a common log file that all service instances write to. The service installation program creates the log file and uses a DACL to grant access only to members of a group. The group members would be the user accounts under which the various service instances are running, or if the services run under the LocalSystem account, the members would be the computer accounts of the host servers.
@@ -39,7 +39,3 @@ A service application could also create a group whose members would be the vario
  
 
  
-
-
-
-

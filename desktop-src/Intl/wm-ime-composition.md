@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_COMPOSITION message
 
-Sent to an application when the IME changes composition status as a result of a keystroke. A window receives this message through its [*WindowProc*](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+Sent to an application when the IME changes composition status as a result of a keystroke. A window receives this message through its [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -106,7 +106,7 @@ This message has no return value.
 
 An application should process this message if it displays composition characters itself. Otherwise, it should send the message to the IME window.
 
-If the application has created an IME window, it should pass this message to that window. The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)  function processes this message by passing it to the default IME window. The IME window processes this message by updating its appearance based on the change flag specified. An application can call [**ImmGetCompositionString**](/windows/desktop/api/Imm/nf-imm-immgetcompositionstringa) to retrieve the new composition status.
+If the application has created an IME window, it should pass this message to that window. The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)  function processes this message by passing it to the default IME window. The IME window processes this message by updating its appearance based on the change flag specified. An application can call [**ImmGetCompositionString**](/windows/desktop/api/Imm/nf-imm-immgetcompositionstringa) to retrieve the new composition status.
 
 If none of the GCS\_ values are set, the message indicates that the current composition has been canceled and applications that draw the composition string should delete the string.
 
@@ -138,7 +138,3 @@ If none of the GCS\_ values are set, the message indicates that the current comp
  
 
  
-
-
-
-

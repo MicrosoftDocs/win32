@@ -49,7 +49,7 @@ The
 			
 
 Providers can only call this function from their 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> function.
+<a href="/windows/desktop/ETW/controlcallback">ControlCallback</a> function.
 
 
 ## Parameters
@@ -77,6 +77,3 @@ Returns an HRESULT.
 
 
 ## See also
-
-
-

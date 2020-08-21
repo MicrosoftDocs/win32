@@ -26,7 +26,7 @@ api_location:
 
 # Msvm\_BootSourceSettingData class
 
-Represents the parameters to set the boot source of a virtual machine. This class derives from [**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85)).
+Represents the parameters to set the boot source of a virtual machine. This class derives from [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)).
 
 The following syntax is simplified from MOF code and includes all inherited properties.
 
@@ -198,7 +198,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: **OctetString**, [**ArrayType**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
+Qualifiers: **OctetString**, [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
 </dt> </dl>
 
 Optional data provided by the firmware.
@@ -244,13 +244,8 @@ The other location info, if any, that the firmware uses to further uniquely iden
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> <dt>
 
-[**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85))
+[**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
 

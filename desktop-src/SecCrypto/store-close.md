@@ -17,9 +17,9 @@ api_location:
 
 # Store.Close method
 
-\[The **Close** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](https://msdn.microsoft.com/library/Hh424027(v=MSDN.10).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[The **Close** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](/previous-versions/windows/embedded/hh424027(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
 
-The **Close** method closes an open [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+The **Close** method closes an open [*certificate store*](../secgloss/c-gly.md).
 
 ## Syntax
 
@@ -69,7 +69,3 @@ After the **Close** method is called, the [**Store**](store.md) object is destro
  
 
  
-
-
-
-

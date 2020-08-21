@@ -37,7 +37,7 @@ HRESULT WINAPI RtwqEndUnregisterWorkQueueWithMMCSS(
 *pResult* 
 </dt> <dd>
 
-Pointer to the [**IMFAsyncResult**](https://msdn.microsoft.com/library/ms700196(v=VS.85).aspx) interface. Pass in the same pointer that your callback object received in the [**IRtwqAsyncCallback::Invoke**](https://msdn.microsoft.com/library/Dn448446(v=VS.85).aspx) method.
+Pointer to the [**IMFAsyncResult**](/windows/win32/api/mfobjects/nn-mfobjects-imfasyncresult) interface. Pass in the same pointer that your callback object received in the [**IRtwqAsyncCallback::Invoke**](/windows/win32/api/rtworkq/nf-rtworkq-irtwqasynccallback-invoke) method.
 
 </dd> </dl>
 
@@ -62,7 +62,3 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
  
 
  
-
-
-
-

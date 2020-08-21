@@ -14,19 +14,19 @@ Each RPC Proxy machine that is to act as a Load Balancing Server (LBS) service m
 
 Several registry keys and values are required to configure an LBS server. If any keys are missing or are entered in error, a Windows Event is logged. See the description of each key and value for information on the event logged.
 
-To configure the server farm, a registry key must be created **HKLM\\SOFTWARE\\Microsoft\\Rpc\\RpcProxy** called **LBSConfiguration**. Under the **LBSConfiguration** key, a key is created for each resource in the server farm. The key name is the string representation of the GUID for the resource. At least one resource key must exist, and this resource is identical to the [**UUID**](/windows/win32/rpc/rpcdce/ns-rpcdce-uuid) set by clients on the binding handle, [**RPC\_BINDING\_HANDLE**](rpc-binding-handle.md), when they create the RPC/HTTP binding (For more information please see [**RpcBindingSetObject**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetobject)). Under each Resource UUID key, there must exist a DWORD value named **ConfigurationType** which describes the configuration used. There must also exist a **REG\_SZ** of semicolon delimited server identifiers called **ServerFarm**. The servers identified in the **ServerFarm** key are the servers which are members of the load balancing server farm.
+To configure the server farm, a registry key must be created **HKLM\\SOFTWARE\\Microsoft\\Rpc\\RpcProxy** called **LBSConfiguration**. Under the **LBSConfiguration** key, a key is created for each resource in the server farm. The key name is the string representation of the GUID for the resource. At least one resource key must exist, and this resource is identical to the [**UUID**](./rpcdce/ns-rpcdce-uuid.md) set by clients on the binding handle, [**RPC\_BINDING\_HANDLE**](rpc-binding-handle.md), when they create the RPC/HTTP binding (For more information please see [**RpcBindingSetObject**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetobject)). Under each Resource UUID key, there must exist a DWORD value named **ConfigurationType** which describes the configuration used. There must also exist a **REG\_SZ** of semicolon delimited server identifiers called **ServerFarm**. The servers identified in the **ServerFarm** key are the servers which are members of the load balancing server farm.
 
 The following is a detailed breakdown of the required registry keys and values:
 
 **HKLM\\SOFTWARE\\Microsoft\\Rpc\\RpcProxy\\LBSConfiguration**
 
-Registry Key. The **LBSConfiguration** key is the registry key that holds the LBS configuration. This includes the Resource [**UUIDs**](/windows/win32/rpc/rpcdce/ns-rpcdce-uuid) that are to be load balanced, the configuration type for each resource and the servers in the server farms which participate in load balancing. If this key is missing or invalid, LBS will not be considered to be configured and the LBS service will not run.
+Registry Key. The **LBSConfiguration** key is the registry key that holds the LBS configuration. This includes the Resource [**UUIDs**](./rpcdce/ns-rpcdce-uuid.md) that are to be load balanced, the configuration type for each resource and the servers in the server farms which participate in load balancing. If this key is missing or invalid, LBS will not be considered to be configured and the LBS service will not run.
 
 \-
 
 **HKLM\\SOFTWARE\\Microsoft\\Rpc\\RpcProxy\\LBSConfiguration\\XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX**
 
-Registry Key. The **Resource UUID** key identifies the resource UUID to be load balanced. This resource UUID is the same as the [**UUID**](/windows/win32/rpc/rpcdce/ns-rpcdce-uuid) that clients set on the binding handle, [**RPC\_BINDING\_HANDLE**](rpc-binding-handle.md). There must be at least one resource UUID to be load balanced, there may be multiple resource UUIDs. There can be only one server farm and all endpoints must be on all servers within the server farm. If this key cannot be parsed to a valid UUID, the event **RPCPROXY\_EVENTLOG\_LB\_INVALID\_KEY (0xC0000006)** will be logged to the Windows Event Log.
+Registry Key. The **Resource UUID** key identifies the resource UUID to be load balanced. This resource UUID is the same as the [**UUID**](./rpcdce/ns-rpcdce-uuid.md) that clients set on the binding handle, [**RPC\_BINDING\_HANDLE**](rpc-binding-handle.md). There must be at least one resource UUID to be load balanced, there may be multiple resource UUIDs. There can be only one server farm and all endpoints must be on all servers within the server farm. If this key cannot be parsed to a valid UUID, the event **RPCPROXY\_EVENTLOG\_LB\_INVALID\_KEY (0xC0000006)** will be logged to the Windows Event Log.
 
 \-
 
@@ -70,7 +70,7 @@ DWORD. When the **NoSecurity** DWORD is not present or set to 0, incoming non-se
 
 **HKLM\\SOFTWARE\\Microsoft\\Rpc\\RpcProxy\\LBSConfiguration\\AssumeResourceUUID**
 
-DWORD. When the **AssumeResourceUUID** DWORD is not present no change in the LBS service occurs. When present, it must be set with a valid [**UUID**](/windows/win32/rpc/rpcdce/ns-rpcdce-uuid). This **UUID** will be used as the resource UUID for all connections which do not specify a resource UUID. This is commonly used in cases where clients do not specify a Resource UUID when they create the RPC/HTTP binding, but an administrator wishes to load balance the RPC/HTTP traffic to a server farm. If this key cannot be parsed to a UUID, an internal RPC error is lodged, generating [**RPC\_EXTENDED\_ERROR\_INFO**](/windows/win32/api/rpcasync/ns-rpcasync-rpc_extended_error_info) if it is enabled.
+DWORD. When the **AssumeResourceUUID** DWORD is not present no change in the LBS service occurs. When present, it must be set with a valid [**UUID**](./rpcdce/ns-rpcdce-uuid.md). This **UUID** will be used as the resource UUID for all connections which do not specify a resource UUID. This is commonly used in cases where clients do not specify a Resource UUID when they create the RPC/HTTP binding, but an administrator wishes to load balance the RPC/HTTP traffic to a server farm. If this key cannot be parsed to a UUID, an internal RPC error is lodged, generating [**RPC\_EXTENDED\_ERROR\_INFO**](/windows/win32/api/rpcasync/ns-rpcasync-rpc_extended_error_info) if it is enabled.
 
 \-
 
@@ -81,7 +81,3 @@ DWORD. When the **NoSecurity** DWORD is not presented or set to 0, all outgoing 
  
 
  
-
-
-
-

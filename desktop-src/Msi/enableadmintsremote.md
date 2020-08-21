@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Beginning with Windows Server 2008 and Windows Vista, this policy no longer has any effect. An administrator can perform an installation from the console session of a terminal server. An administrator can also perform an installation from a client session of the terminal server.
 
-For more information, see [Terminal Services](https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-portal) in the Microsoft Windows Software Development Kit (SDK).
+For more information, see [Terminal Services](/windows/desktop/TermServ/terminal-services-portal) in the Microsoft Windows Software Development Kit (SDK).
 
 **Operating systems earlier than Windows Server 2008 and Windows Vista:  **
 
@@ -31,6 +31,3 @@ For more information see also, [Using Windows Installer with a Terminal Server](
  
 
  
-
-
-

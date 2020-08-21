@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Remote Desktop Services permissions
 
-You can use the permissions provided for Remote Desktop Services to control how users and groups access the server. For a description of the default permission types and more detailed information about Remote Desktop Services permissions in general, see the documentation that accompanies the Remote Desktop Services Configuration administrative tool. For information about configuring these permissions for Windows Server 2008, see [Configure Permissions for Remote Desktop Services Connections](https://technet.microsoft.com/library/cc753032.aspx).
+You can use the permissions provided for Remote Desktop Services to control how users and groups access the server. For a description of the default permission types and more detailed information about Remote Desktop Services permissions in general, see the documentation that accompanies the Remote Desktop Services Configuration administrative tool. For information about configuring these permissions for Windows Server 2008, see [Configure Permissions for Remote Desktop Services Connections](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753032(v=ws.11)).
 
 Following is a list of the permissions that you can set and the tasks the permissions allow.
 
@@ -47,10 +47,4 @@ Remote Desktop Services permissions can be granted, or set, for individual users
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

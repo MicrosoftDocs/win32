@@ -26,7 +26,7 @@ Original interface for communicating data about a vsglog .
 
 ## Members
 
-The **IPixEngine** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixEngine** also has these types of members:
+The **IPixEngine** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixEngine** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IPixEngine** interface has these methods.
  
 
  
-
-
-

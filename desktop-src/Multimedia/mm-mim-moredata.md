@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # MM\_MIM\_MOREDATA message
 
-The **MM\_MIM\_MOREDATA** message is sent to a callback window when a MIDI message is received by a MIDI input device but the application is not processing [**MIM\_DATA**](mim-data.md) messages fast enough to keep up with the input device driver. The window receives this message only when the application specifies MIDI\_IO\_STATUS in the call to the [**midiInOpen**](https://msdn.microsoft.com/library/Dd798458(v=VS.85).aspx) function.
+The **MM\_MIM\_MOREDATA** message is sent to a callback window when a MIDI message is received by a MIDI input device but the application is not processing [**MIM\_DATA**](mim-data.md) messages fast enough to keep up with the input device driver. The window receives this message only when the application specifies MIDI\_IO\_STATUS in the call to the [**midiInOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midiinopen) function.
 
 
 ```C++
@@ -70,7 +70,7 @@ This message does not return a value.
 
 If your application will receive MIDI data faster than it can process it, you should not use a window callback mechanism. To maximize speed, use a callback function, and use the [**MIM\_MOREDATA**](mim-moredata.md) message instead of MM\_MIM\_MOREDATA.
 
-An application should do only a minimal amount of processing of MM\_MIM\_MOREDATA messages. (In particular, applications should not call the [PostMessage](https://msdn.microsoft.com/library/ms644944.aspx) function while processing MM\_MIM\_MOREDATA.) Instead, the application should place the event data into a buffer and then return.
+An application should do only a minimal amount of processing of MM\_MIM\_MOREDATA messages. (In particular, applications should not call the [PostMessage](/windows/win32/api/winuser/nf-winuser-postmessagea) function while processing MM\_MIM\_MOREDATA.) Instead, the application should place the event data into a buffer and then return.
 
 When an application receives an [**MM\_MIM\_DATA**](mm-mim-data.md) message after a series of MM\_MIM\_MOREDATA messages, it has caught up with incoming MIDI events and can safely call time-intensive functions.
 
@@ -101,10 +101,4 @@ This message is not sent when a MIDI system-exclusive message is received. No ti
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # TSPI Structures
 
-The data structures TSPI uses are identical to those defined in [TAPI Structures](https://msdn.microsoft.com/library/ms737245(v=VS.85).aspx), with the exception of [**TUISPICREATEDIALOGINSTANCEPARAMS**](https://msdn.microsoft.com/library/ms725972(v=VS.85).aspx).
+The data structures TSPI uses are identical to those defined in [TAPI Structures](./tapi-structures.md), with the exception of [**TUISPICREATEDIALOGINSTANCEPARAMS**](/windows/win32/api/tspi/ns-tspi-tuispicreatedialoginstanceparams).
 
 In the case of most of the larger data structures, the responsibility for filling in members is divided between the service provider and TAPI. The service provider must preserve the values present in members owned by TAPI. The description of which members must be set by the service provider and which must be preserved is provided in the Functions section in the functions that refer to that data structure.
 
@@ -34,6 +34,3 @@ Memory for all data structures whose representation is published and shared by b
  
 
  
-
-
-

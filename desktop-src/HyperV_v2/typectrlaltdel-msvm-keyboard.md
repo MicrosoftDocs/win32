@@ -81,7 +81,7 @@ A return value of zero indicates success. A nonzero value indicates a failure to
 
 ## Remarks
 
-Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -105,9 +105,4 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 </dt> </dl>
 
  
-
- 
-
-
-
 

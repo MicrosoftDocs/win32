@@ -11,14 +11,14 @@ ms.date: 05/31/2018
 
 # Composing SPNs for an RpcNs Service
 
-The following code example composes the service principal names (SPNs) for an RPC service that has an entry in the RpcServices container in the directory. An RPC service uses the [**RpcNsBindingExport**](https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta) function to create its RpcServices entry.
+The following code example composes the service principal names (SPNs) for an RPC service that has an entry in the RpcServices container in the directory. An RPC service uses the [**RpcNsBindingExport**](/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta) function to create its RpcServices entry.
 
 An RPC service uses this code example to build the SPN or SPNs that identify an instance of the service. The service uses this routine to perform the following tasks:
 
 -   To register or unregister the SPNs in the directory, when the service is installed or removed. For more information and a code example, see [Registering the SPNs for a Service](registering-the-spns-for-a-service.md).
 -   Register itself with the RPC authentication service when the service starts. For more information, see [Mutual Authentication in RPC Applications](mutual-authentication-in-rpc-applications.md).
 
-This code example uses the distinguished name of the service's RpcServices entry to compose the SPN. Before calling this code, call the [**RpcNsBindingExport**](https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta) function to create the service's RpcServices entry.
+This code example uses the distinguished name of the service's RpcServices entry to compose the SPN. Before calling this code, call the [**RpcNsBindingExport**](/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta) function to create the service's RpcServices entry.
 
 This code example calls the [**DsGetSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsgetspna) function to build an SPN. The SPN is composed from service class name and the distinguished name of the service RpcServices entry.
 
@@ -109,7 +109,3 @@ HRESULT SpnCompose(LPTSTR pszServiceName,
  
 
  
-
-
-
-

@@ -28,7 +28,7 @@ The following topics describe how to create a TSP that will function properly wi
 
 -   [Telephony Service Provider Interface (TSPI)](telephony-service-provider-interface-tspi-.md)
 -   [TSPI Reference](tspi-reference.md)
--   [Media Service Providers](https://msdn.microsoft.com/library/ms733409(v=VS.85).aspx)
+-   [Media Service Providers](./media-service-providers-start-page.md)
 
 > [!Note]  
 > A TSP is a user-created DLL. If you are creating a TSP for a 64-bit Windows platform, you must compile it as a 64-bit DLL or DLLs.
@@ -38,6 +38,3 @@ The following topics describe how to create a TSP that will function properly wi
  
 
  
-
-
-

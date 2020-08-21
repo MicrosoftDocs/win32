@@ -27,15 +27,12 @@ Information that is sent from one user to another by the remote station (ISDN). 
 
 **TAPI 2.x:** See [**lineReleaseUserUserInfo**](/windows/desktop/api/Tapi/nf-tapi-linereleaseuseruserinfo), [**lineSendUserUserInfo**](/windows/desktop/api/Tapi/nf-tapi-linesenduseruserinfo).
 
-**TSPI:** See [**TSPI\_lineReleaseUserUserInfo**](https://msdn.microsoft.com/library/ms725589(v=VS.85).aspx), [**TSPI\_lineSendUserUserInfo**](https://msdn.microsoft.com/library/ms725593(v=VS.85).aspx).
+**TSPI:** See [**TSPI\_lineReleaseUserUserInfo**](/windows/win32/api/tspi/nf-tspi-tspi_linereleaseuseruserinfo), [**TSPI\_lineSendUserUserInfo**](/windows/win32/api/tspi/nf-tspi-tspi_linesenduseruserinfo).
 
-**TAPI 3.x:** See [**ITCallInfo::get\_CallInfoBuffer**](https://msdn.microsoft.com/library/ms729300(v=VS.85).aspx), [**ITCallInfo::put\_CallInfoBuffer**](https://msdn.microsoft.com/library/ms729313(v=VS.85).aspx), [**ITCallInfo::ReleaseUserUserInfo**](https://msdn.microsoft.com/library/ms729319(v=VS.85).aspx).
+**TAPI 3.x:** See [**ITCallInfo::get\_CallInfoBuffer**](/windows/win32/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfobuffer), [**ITCallInfo::put\_CallInfoBuffer**](/windows/win32/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfobuffer), [**ITCallInfo::ReleaseUserUserInfo**](/windows/win32/api/tapi3if/nf-tapi3if-itcallinfo-releaseuseruserinfo).
 
 </dd> </dl>
 
  
 
  
-
-
-

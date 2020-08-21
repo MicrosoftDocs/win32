@@ -48,7 +48,7 @@ A pointer to the vertex declaration. See [**D3DVERTEXELEMENT9**](d3dvertexelemen
 *Stream* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 The zero-based stream index.
 
@@ -56,7 +56,7 @@ The zero-based stream index.
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The vertex declaration size, in bytes.
 
@@ -81,7 +81,3 @@ The vertex declaration size, in bytes.
  
 
  
-
-
-
-

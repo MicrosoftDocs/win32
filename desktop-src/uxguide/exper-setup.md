@@ -89,7 +89,7 @@ While it might be necessary to offer different branches of setup (a speedy, typi
 
 Another reason to streamline setup is that inexperienced users sometimes overanalyze options, fearing that a wrong choice could be irreversible or destructive. Forcing users to make decisions about things they don't understand or care about can make them feel anxious, incompetent, and even frustrated. Not a good first impression. It is better just to get them going quickly, feeling comfortable and confident as they explore the features in your program, and making better decisions about feature options at that time. For more guidelines, see [Streamlining setup](#streamlining-setup) later in this article.
 
-Strive to make your setup experience as [simple as possible, but not simpler](https://docs.microsoft.com/previous-versions//dn742474(v=vs.85)). Programs targeted at highly technical users may need a complex setup. For example, the Microsoft SQL Server team discovered that database administrators prefer to retain control over many setup options, such as file locations. Moreover, SQL Server is a large business application, with a number of components that differ widely in purpose and functionality. So while we want to keep things simple, setup needs to reflect the complexity of the product and the expectations and needs of its users.
+Strive to make your setup experience as [simple as possible, but not simpler](/previous-versions//dn742474(v=vs.85)). Programs targeted at highly technical users may need a complex setup. For example, the Microsoft SQL Server team discovered that database administrators prefer to retain control over many setup options, such as file locations. Moreover, SQL Server is a large business application, with a number of components that differ widely in purpose and functionality. So while we want to keep things simple, setup needs to reflect the complexity of the product and the expectations and needs of its users.
 
 Still, such complex setup programs should be the exception, not the rule. Most Windows programs should strive to start the setup process with a simple, single step.
 
@@ -172,11 +172,11 @@ Keep the normal user experience simple—don't clutter it with information that 
 
 -   **Name the setup file "Setup.exe".** "Install.exe" is an acceptable alternative. This enables Windows (and users) to recognize the file as a setup program.
     -   **Exception:** For programs downloaded from the Internet, help users manage and organize their Downloads folder by including the name of the program in the name of the setup file. For example, SetupVisualStudioExpress2008.exe.
--   **Copy program files to the proper file system locations.** Doing so allows users and Windows to find and organize the files better. For more information, see the [Windows File System Namespace Usage Guidelines](/windows/win32/fileio/naming-a-file#namespaces).
+-   **Copy program files to the proper file system locations.** Doing so allows users and Windows to find and organize the files better. For more information, see the [Windows File System Namespace Usage Guidelines](../fileio/naming-a-file.md#namespaces).
 
 ### User Account Control
 
--   **Digitally sign the setup executable file.** Signed executables have many advantages, including using a more specific User Account Control Elevation UI. For information about signing files, see [Introduction to Code Signing](https://msdn.microsoft.com/library/ms537361(VS.85).aspx).
+-   **Digitally sign the setup executable file.** Signed executables have many advantages, including using a more specific User Account Control Elevation UI. For information about signing files, see [Introduction to Code Signing](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85)).
 -   **If a setup might require elevation, elevate as late as possible.** Display the elevation UI only after the user has committed to an option that requires elevation. Usually, the elevation UI appears during the installation phase, not the decision phase. However, if a setup always requires elevation, elevate at its entry point.
 -   **Always require elevation for uninstall.** Doing so prevents malware from uninstalling critical software without users knowing about it.
 -   **Once elevated, stay elevated until elevated privileges are no longer necessary.** Users shouldn't have to elevate multiple times to perform complete a program installation.
@@ -187,7 +187,7 @@ For more guidelines, see [User Account Control](winenv-uac.md).
 
 ### Restarting Windows
 
--   **Avoid restarting Windows.** Most programs should install without restarting Windows. The primary reason program installations or updates require a system restart is that some of the files involved are currently being used by a running program. In this case, a better alternative is to make users aware of the situation, allow users to close these programs, and retry the action. For more information about avoiding restarts, see [Restart Manager](/windows/win32/RstMgr/restart-manager-portal).
+-   **Avoid restarting Windows.** Most programs should install without restarting Windows. The primary reason program installations or updates require a system restart is that some of the files involved are currently being used by a running program. In this case, a better alternative is to make users aware of the situation, allow users to close these programs, and retry the action. For more information about avoiding restarts, see [Restart Manager](../rstmgr/restart-manager-portal.md).
 -   **If your setup must restart Windows:**
     -   **Use a single restart.** Delay the restart required by any prerequisites until the program and its updates are completely installed.
     -   **Let users determine when it happens.** Don't restart Windows automatically, because users may lose work. Make sure that it's clear to users that they have a choice.
@@ -462,7 +462,3 @@ For more guidelines, see [Style and Tone](text-style-tone.md).
  
 
  
-
-
-
-

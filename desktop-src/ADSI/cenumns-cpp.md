@@ -20,8 +20,8 @@ In the example provider component, the enumeration of a namespace object uses th
 | **CSampleDSNamespaceEnum::~CSampleDSNamespaceEnum** | Standard destructor.                                                                                                                                      |
 | **CSampleDSNamespaceEnum::Next**                    | Retrieve the specified number of elements from the namespace object indicated.                                                                            |
 | **CSampleDSNamespaceEnum::EnumObjects**             | Manage retrieving the interface pointers to the objects.                                                                                                  |
-| **CSampleDSNamespaceEnum::FetchObjects**            | Fetch the set of [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) pointers.                                                                          |
-| **CSampleDSNamespaceEnum::FetchNextObject**         | Fetch the next object. If found, create a generic Active Directory object and retrieve its [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) pointer. |
+| **CSampleDSNamespaceEnum::FetchObjects**            | Fetch the set of [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) pointers.                                                                          |
+| **CSampleDSNamespaceEnum::FetchNextObject**         | Fetch the next object. If found, create a generic Active Directory object and retrieve its [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) pointer. |
 
 
 
@@ -30,7 +30,3 @@ In the example provider component, the enumeration of a namespace object uses th
  
 
  
-
-
-
-

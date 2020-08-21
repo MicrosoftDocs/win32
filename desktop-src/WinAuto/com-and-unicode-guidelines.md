@@ -16,24 +16,24 @@ To use Microsoft Active Accessibility effectively, you should understand the fol
 
 ### Functions:
 
--   [**OleInitialize**](https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize)
--   [**CoInitialize**](https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize) or [**CoInitializeEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex)
--   [**IUnknown::AddRef**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref) and [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release)
--   [**VariantInit**](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantinit) and [**VariantClear**](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear)
--   [**MultiByteToWideChar**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar) and [**WideCharToMultiByte**](https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte)
--   [**SysAllocString**](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring) and [**SysFreeString**](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring)
+-   [**OleInitialize**](/windows/desktop/api/ole2/nf-ole2-oleinitialize)
+-   [**CoInitialize**](/windows/desktop/api/objbase/nf-objbase-coinitialize) or [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex)
+-   [**IUnknown::AddRef**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref) and [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release)
+-   [**VariantInit**](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantinit) and [**VariantClear**](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear)
+-   [**MultiByteToWideChar**](/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar) and [**WideCharToMultiByte**](/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte)
+-   [**SysAllocString**](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring) and [**SysFreeString**](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring)
 
 ### Structures and data types:
 
 -   [**VARIANT**](variant-structure.md)
--   [**HRESULT**](https://docs.microsoft.com/windows/desktop/com/structure-of-com-error-codes)
--   [**BSTR**](https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr)
+-   [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes)
+-   [**BSTR**](/previous-versions/windows/desktop/automat/bstr)
 
 ### COM Interfaces:
 
--   [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown)
+-   [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown)
 -   [**IDispatch**](idispatch-interface.md)
--   [**IEnumVARIANT**](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant)
+-   [**IEnumVARIANT**](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant)
 
 ## In this section
 
@@ -44,7 +44,3 @@ To use Microsoft Active Accessibility effectively, you should understand the fol
  
 
  
-
-
-
-

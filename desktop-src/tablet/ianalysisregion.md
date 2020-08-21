@@ -21,7 +21,7 @@ Exposes methods and properties for a region that represents an area of a documen
 
 ## Members
 
-The **IAnalysisRegion** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IAnalysisRegion** also has these types of members:
+The **IAnalysisRegion** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IAnalysisRegion** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -95,9 +95,4 @@ This interface is equivalent to the System.Windows.Ink.AnalysisCore.AnalysisRegi
 </dt> </dl>
 
  
-
- 
-
-
-
 

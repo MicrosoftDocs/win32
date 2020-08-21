@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 A secondary set of rendering interfaces supports passing vertex and index data directly from user memory pointers. These interfaces support a single stream of vertex data only. For more information, see the following reference topics.
 
--   [**IDirect3DDevice9::DrawPrimitiveUP**](https://msdn.microsoft.com/library/Bb174372(v=VS.85).aspx)
--   [**IDirect3DDevice9::DrawIndexedPrimitiveUP**](https://msdn.microsoft.com/library/Bb174370(v=VS.85).aspx)
+-   [**IDirect3DDevice9::DrawPrimitiveUP**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawprimitiveup)
+-   [**IDirect3DDevice9::DrawIndexedPrimitiveUP**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawindexedprimitiveup)
 
 These methods render with data specified by user memory pointers, instead of vertex and index buffers.
 
@@ -25,6 +25,3 @@ These methods render with data specified by user memory pointers, instead of ver
  
 
  
-
-
-

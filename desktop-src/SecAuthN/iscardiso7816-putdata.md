@@ -17,9 +17,9 @@ api_location:
 
 # ISCardISO7816::PutData method
 
-\[The **PutData** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](https://msdn.microsoft.com/library/Dd627652(v=VS.85).aspx) provide similar functionality.\]
+\[The **PutData** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [Smart Card Modules](/previous-versions/windows/desktop/secsmart/smart-card-modules) provide similar functionality.\]
 
-The **PutData** method constructs an [*application protocol data unit*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (APDU) command that stores a single primitive data object or the set of data objects contained in a constructed data object, depending on the file selected.
+The **PutData** method constructs an [*application protocol data unit*](../secgloss/a-gly.md) (APDU) command that stores a single primitive data object or the set of data objects contained in a constructed data object, depending on the file selected.
 
 How the objects are stored (writing once and/or updating and/or appending) depends on the definition or the nature of the data objects.
 
@@ -97,7 +97,7 @@ Pointer to a byte buffer that contains the parameters and data to be written.
 
 On input, a pointer to an [**ISCardCmd**](iscardcmd.md) interface object or **NULL**.
 
-On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) [**ISCardCmd**](iscardcmd.md) object is internally created and returned using the *ppCmd* pointer.
+On return, it is filled with the APDU command constructed by this operation. If *ppCmd* was set to **NULL**, a [*smart card*](../secgloss/s-gly.md) [**ISCardCmd**](iscardcmd.md) object is internally created and returned using the *ppCmd* pointer.
 
 </dd> </dl>
 
@@ -120,7 +120,7 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-The command can be performed only if the security status satisfies the security conditions defined by the application within the [*context*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) for the function.
+The command can be performed only if the security status satisfies the security conditions defined by the application within the [*context*](../secgloss/c-gly.md) for the function.
 
 <dl> <dt>
 
@@ -180,7 +180,3 @@ In addition to the COM error codes listed above, this interface may return a sma
  
 
  
-
-
-
-

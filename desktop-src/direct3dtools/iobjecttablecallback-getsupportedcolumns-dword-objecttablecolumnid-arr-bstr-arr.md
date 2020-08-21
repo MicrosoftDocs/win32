@@ -56,11 +56,8 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## <span id="see_also"></span>See also
 
-[**IObjectTableCallback**](https://docs.microsoft.com/windows/desktop/direct3dtools/iobjecttablecallback)
+[**IObjectTableCallback**](/windows/desktop/direct3dtools/iobjecttablecallback)
 
  
 
  
-
-
-

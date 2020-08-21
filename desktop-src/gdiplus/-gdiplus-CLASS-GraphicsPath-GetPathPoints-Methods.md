@@ -8,7 +8,7 @@ ms.topic: reference
 
 # GraphicsPath.GetPathPoints methods
 
-This topic lists the GetPathPoints methods of the [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx).
+This topic lists the GetPathPoints methods of the [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the GetPathPoints methods of the [**GraphicsPath**](https://msd
 
 | Method                                                                                                    | Description                                                                                                                                                                                                                                                                           |
 |:----------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetPathPoints(Point\*,INT)**](https://msdn.microsoft.com/library/ms535581(v=VS.85).aspx)   | The [**GraphicsPath::GetPathPoints**](https://msdn.microsoft.com/library/ms535581(v=VS.85).aspx) method gets this path's array of points. The array contains the endpoints and control points of the lines and Bézier splines that are used to draw the path.<br/>  |
-| [**GetPathPoints(PointF\*,INT)**](https://msdn.microsoft.com/library/ms535582(v=VS.85).aspx) | The [**GraphicsPath::GetPathPoints**](https://msdn.microsoft.com/library/ms535582(v=VS.85).aspx) method gets this path's array of points. The array contains the endpoints and control points of the lines and Bézier splines that are used to draw the path.<br/> |
+| [**GetPathPoints(Point\*,INT)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-getpathpoints(outpoint_inint))   | The [**GraphicsPath::GetPathPoints**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-getpathpoints(outpoint_inint)) method gets this path's array of points. The array contains the endpoints and control points of the lines and Bézier splines that are used to draw the path.<br/>  |
+| [**GetPathPoints(PointF\*,INT)**](/previous-versions//ms535582(v=vs.85)) | The [**GraphicsPath::GetPathPoints**](/previous-versions//ms535582(v=vs.85)) method gets this path's array of points. The array contains the endpoints and control points of the lines and Bézier splines that are used to draw the path.<br/> |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the GetPathPoints methods of the [**GraphicsPath**](https://msd
  
 
  
-
-
-
-

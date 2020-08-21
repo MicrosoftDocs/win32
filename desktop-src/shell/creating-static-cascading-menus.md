@@ -14,7 +14,7 @@ topic_type:
 
 # Creating Static Cascading Menus
 
-In Windows 7 and later, cascading menu implementation is supported through registry settings. Prior to Windows 7, the creation of cascading menus was possible only through the implementation of the [**IContextMenu**](https://msdn.microsoft.com/library/Bb776095(v=VS.85).aspx) interface. In Windows 7 and later, you should resort to Component Object Model (COM) code-based solutions only when the static methods are insufficient.
+In Windows 7 and later, cascading menu implementation is supported through registry settings. Prior to Windows 7, the creation of cascading menus was possible only through the implementation of the [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) interface. In Windows 7 and later, you should resort to Component Object Model (COM) code-based solutions only when the static methods are insufficient.
 
 The following screen shot provides an example of a cascading menu.
 
@@ -29,6 +29,3 @@ In Windows 7 and later, there are three ways to create cascading menus, which a
  
 
  
-
-
-

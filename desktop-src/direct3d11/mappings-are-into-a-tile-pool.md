@@ -22,13 +22,13 @@ Let us explore what storage the page table itself could require in the worst cas
 
 Suppose each page table entry is 64 bits.
 
-For the worst-case page table size hit for a single surface, given the resource limits in Direct3D 11, suppose a tiled resource is created with a 128 bit-per-element format (for example, a RGBA float), so a 64KB tile contains only 4096 pixels. The maximum supported [**Texture2DArray**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-texture2darray) size of 16384\*16384\*2048 (but with only a single mipmap) would require about 1GB of storage in the page table if fully populated (not including mipmaps) using 64 bit table entries. Adding mipmaps would grow the fully-mapped (worst case) page table storage by about a third, to about 1.3GB.
+For the worst-case page table size hit for a single surface, given the resource limits in Direct3D 11, suppose a tiled resource is created with a 128 bit-per-element format (for example, a RGBA float), so a 64KB tile contains only 4096 pixels. The maximum supported [**Texture2DArray**](/windows/desktop/direct3dhlsl/sm5-object-texture2darray) size of 16384\*16384\*2048 (but with only a single mipmap) would require about 1GB of storage in the page table if fully populated (not including mipmaps) using 64 bit table entries. Adding mipmaps would grow the fully-mapped (worst case) page table storage by about a third, to about 1.3GB.
 
 This case would give access to about 10.6 terabytes of addressable memory. There might be a limit on the amount of addressable memory however, which would reduce these amounts, perhaps to around the terabyte range.
 
-Another case to consider is a single [**Texture2D**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-texture2d) tiled resource of 16384\*16384 with a 32 bit-per-element format, including mipmaps. The space needed in a fully populated page table would be roughly 170KB with 64 bit table entries.
+Another case to consider is a single [**Texture2D**](/windows/desktop/direct3dhlsl/sm5-object-texture2d) tiled resource of 16384\*16384 with a 32 bit-per-element format, including mipmaps. The space needed in a fully populated page table would be roughly 170KB with 64 bit table entries.
 
-Finally, consider an example using a BC format, say BC7 with 128 bits per tile of 4x4 pixels. That is one byte per pixel. A [**Texture2DArray**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-texture2darray) of 16384\*16384\*2048 including mipmaps would require roughly 85MB to fully populate this memory in a page table. That is not bad considering this allows one tiled resource to span 550 gigapixels (512 GB of memory in this case).
+Finally, consider an example using a BC format, say BC7 with 128 bits per tile of 4x4 pixels. That is one byte per pixel. A [**Texture2DArray**](/windows/desktop/direct3dhlsl/sm5-object-texture2darray) of 16384\*16384\*2048 including mipmaps would require roughly 85MB to fully populate this memory in a page table. That is not bad considering this allows one tiled resource to span 550 gigapixels (512 GB of memory in this case).
 
 In practice, nowhere near these full mappings would be defined given that the amount of physical memory available wouldn't allow anywhere near that much to be mapped and referenced at a time. But with a tile pool, applications could choose to reuse tiles (as a simple example, reusing a "black" colored tile for large black regions in an image) - effectively using the tile pool (that is, page table mappings) as a tool for memory compression.
 
@@ -56,10 +56,4 @@ The initial contents of the page table are **NULL** for all entries. Application
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

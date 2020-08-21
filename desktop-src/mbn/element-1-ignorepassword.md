@@ -15,7 +15,7 @@ Specifies how passwords are handled when upgrading profiles.
 
 If set to **TRUE** and a profile with the same name exists at the time of the update operation, then the password from that profile will be taken and stored in the new profile.
 
-For more details, see the documentation for the v1 [**IgnorePassword**](https://msdn.microsoft.com/library/Dd323287(v=VS.85).aspx) element.
+For more details, see the documentation for the v1 [**IgnorePassword**](./schema-ignorepassword-userlogoncred-element.md) element.
 
 ## Element hierarchy
 
@@ -90,6 +90,3 @@ None.
  
 
  
-
-
-

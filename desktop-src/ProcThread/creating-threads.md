@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Creating Threads
 
-The [**CreateThread**](https://msdn.microsoft.com/library/ms682453(v=VS.85).aspx) function creates a new thread for a process. The creating thread must specify the starting address of the code that the new thread is to execute. Typically, the starting address is the name of a function defined in the program code (for more information, see [*ThreadProc*](https://msdn.microsoft.com/library/ms686736(v=VS.85).aspx)). This function takes a single parameter and returns a **DWORD** value. A process can have multiple threads simultaneously executing the same function.
+The [**CreateThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread) function creates a new thread for a process. The creating thread must specify the starting address of the code that the new thread is to execute. Typically, the starting address is the name of a function defined in the program code (for more information, see [*ThreadProc*](/previous-versions/windows/desktop/legacy/ms686736(v=vs.85))). This function takes a single parameter and returns a **DWORD** value. A process can have multiple threads simultaneously executing the same function.
 
 The following is a simple example that demonstrates how to create a new thread that executes the locally defined function, `MyThreadFunction`.
 
-The calling thread uses the [**WaitForMultipleObjects**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects) function to persist until all worker threads have terminated. The calling thread blocks while it is waiting; to continue processing, a calling thread would use [**WaitForSingleObject**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject) and wait for each worker thread to signal its wait object. Note that if you were to close the handle to a worker thread before it terminated, this does not terminate the worker thread. However, the handle will be unavailable for use in subsequent function calls.
+The calling thread uses the [**WaitForMultipleObjects**](/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects) function to persist until all worker threads have terminated. The calling thread blocks while it is waiting; to continue processing, a calling thread would use [**WaitForSingleObject**](/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject) and wait for each worker thread to signal its wait object. Note that if you were to close the handle to a worker thread before it terminated, this does not terminate the worker thread. However, the handle will be unavailable for use in subsequent function calls.
 
 
 ```C++
@@ -179,13 +179,13 @@ The `MyThreadFunction` function avoids the use of the C run-time library (CRT), 
 
 It is risky to pass the address of a local variable if the creating thread exits before the new thread, because the pointer becomes invalid. Instead, either pass a pointer to dynamically allocated memory or make the creating thread wait for the new thread to terminate. Data can also be passed from the creating thread to the new thread using global variables. With global variables, it is usually necessary to synchronize access by multiple threads. For more information about synchronization, see [Synchronizing Execution of Multiple Threads](synchronizing-execution-of-multiple-threads.md).
 
-The creating thread can use the arguments to [**CreateThread**](https://msdn.microsoft.com/library/ms682453(v=VS.85).aspx) to specify the following:
+The creating thread can use the arguments to [**CreateThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread) to specify the following:
 
 -   The security attributes for the handle to the new thread. These security attributes include an inheritance flag that determines whether the handle can be inherited by child processes. The security attributes also include a security descriptor, which the system uses to perform access checks on all subsequent uses of the thread's handle before access is granted.
 -   The initial stack size of the new thread. The thread's stack is allocated automatically in the memory space of the process; the system increases the stack as needed and frees it when the thread terminates. For more information, see [Thread Stack Size](thread-stack-size.md).
--   A creation flag that enables you to create the thread in a suspended state. When suspended, the thread does not run until the [**ResumeThread**](https://msdn.microsoft.com/library/ms685086(v=VS.85).aspx) function is called.
+-   A creation flag that enables you to create the thread in a suspended state. When suspended, the thread does not run until the [**ResumeThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-resumethread) function is called.
 
-You can also create a thread by calling the [**CreateRemoteThread**](https://msdn.microsoft.com/library/ms682437(v=VS.85).aspx) function. This function is used by debugger processes to create a thread that runs in the address space of the process being debugged.
+You can also create a thread by calling the [**CreateRemoteThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createremotethread) function. This function is used by debugger processes to create a thread that runs in the address space of the process being debugged.
 
 ## Related topics
 
@@ -197,6 +197,3 @@ You can also create a thread by calling the [**CreateRemoteThread**](https://msd
  
 
  
-
-
-

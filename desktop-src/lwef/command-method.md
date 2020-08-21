@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**
 </dt> <dd>
 
-Returns a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object in a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+Returns a [**Command**](/windows/desktop/lwef/the-command-object) object in a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 </dd> <dt>
 
@@ -28,7 +28,7 @@ Returns a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-comm
 
 ## Remarks
 
-You can use this method to access a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object's properties.
+You can use this method to access a [**Command**](/windows/desktop/lwef/the-command-object) object's properties.
 
 > [!Note]  
 > This method may be required for some programming languages. It is not required for VBScript or Visual Basic. For further information on specifying **Command** methods, see Command Object Properties.
@@ -38,7 +38,3 @@ You can use this method to access a [**Command**](https://docs.microsoft.com/win
  
 
  
-
-
-
-

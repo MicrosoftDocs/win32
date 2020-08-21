@@ -16,36 +16,36 @@ The following messages have text arguments and are subject to automatic text tra
 
 <dl>
 
-[CB\_ADDSTRING](https://msdn.microsoft.com/library/Bb775828(v=VS.85).aspx)  
-[CB\_DIR](https://msdn.microsoft.com/library/Bb775832(v=VS.85).aspx)  
-[CB\_FINDSTRING](https://msdn.microsoft.com/library/Bb775835(v=VS.85).aspx)  
-[CB\_GETLBTEXT](https://msdn.microsoft.com/library/Bb775862(v=VS.85).aspx)  
-[CB\_INSERTSTRING](https://msdn.microsoft.com/library/Bb775875(v=VS.85).aspx)  
-[CB\_SELECTSTRING](https://msdn.microsoft.com/library/Bb775895(v=VS.85).aspx)  
-[EM\_GETLINE](https://msdn.microsoft.com/library/Bb761584(v=VS.85).aspx)  
-[EM\_REPLACESEL](https://msdn.microsoft.com/library/Bb761633(v=VS.85).aspx)  
-[EM\_SETPASSWORDCHAR](https://msdn.microsoft.com/library/Bb761653(v=VS.85).aspx)  
-[LB\_ADDFILE](https://msdn.microsoft.com/library/Bb775165(v=VS.85).aspx)  
-[LB\_ADDSTRING](https://msdn.microsoft.com/library/Bb775181(v=VS.85).aspx)  
-[LB\_DIR](https://msdn.microsoft.com/library/Bb775185(v=VS.85).aspx)  
-[LB\_FINDSTRING](https://msdn.microsoft.com/library/Bb775187(v=VS.85).aspx)  
-[LB\_GETTEXT](https://msdn.microsoft.com/library/Bb761313(v=VS.85).aspx)  
-[LB\_INSERTSTRING](https://msdn.microsoft.com/library/Bb761321(v=VS.85).aspx)  
-[LB\_SELECTSTRING](https://msdn.microsoft.com/library/Bb761327(v=VS.85).aspx)  
-[WM\_ASKCBFORMATNAME](https://msdn.microsoft.com/library/ms649018(v=VS.85).aspx)  
-[WM\_CHAR](https://msdn.microsoft.com/library/ms646276(v=VS.85).aspx)  
-[WM\_CHARTOITEM](https://msdn.microsoft.com/library/Bb761358(v=VS.85).aspx)  
-[WM\_CREATE](https://msdn.microsoft.com/library/ms632619(v=VS.85).aspx)  
-[WM\_DEADCHAR](https://msdn.microsoft.com/library/ms646277(v=VS.85).aspx)  
-[WM\_DEVMODECHANGE](https://msdn.microsoft.com/library/Dd145209(v=VS.85).aspx)  
-[WM\_GETTEXT](https://msdn.microsoft.com/library/ms632627(v=VS.85).aspx)  
-[WM\_MDICREATE](https://msdn.microsoft.com/library/ms644913(v=VS.85).aspx)  
-[WM\_MENUCHAR](https://msdn.microsoft.com/library/ms646349(v=VS.85).aspx)  
-[WM\_NCCREATE](https://msdn.microsoft.com/library/ms632635(v=VS.85).aspx)  
-[WM\_SETTEXT](https://msdn.microsoft.com/library/ms632644(v=VS.85).aspx)  
-[WM\_SYSCHAR](https://msdn.microsoft.com/library/ms646357(v=VS.85).aspx)  
-[WM\_SYSDEADCHAR](https://msdn.microsoft.com/library/ms646285(v=VS.85).aspx)  
-[WM\_WININICHANGE](https://msdn.microsoft.com/library/ms725499(v=VS.85).aspx)  
+[CB\_ADDSTRING](../controls/cb-addstring.md)  
+[CB\_DIR](../controls/cb-dir.md)  
+[CB\_FINDSTRING](../controls/cb-findstring.md)  
+[CB\_GETLBTEXT](../controls/cb-getlbtext.md)  
+[CB\_INSERTSTRING](../controls/cb-insertstring.md)  
+[CB\_SELECTSTRING](../controls/cb-selectstring.md)  
+[EM\_GETLINE](../controls/em-getline.md)  
+[EM\_REPLACESEL](../controls/em-replacesel.md)  
+[EM\_SETPASSWORDCHAR](../controls/em-setpasswordchar.md)  
+[LB\_ADDFILE](../controls/lb-addfile.md)  
+[LB\_ADDSTRING](../controls/lb-addstring.md)  
+[LB\_DIR](../controls/lb-dir.md)  
+[LB\_FINDSTRING](../controls/lb-findstring.md)  
+[LB\_GETTEXT](../controls/lb-gettext.md)  
+[LB\_INSERTSTRING](../controls/lb-insertstring.md)  
+[LB\_SELECTSTRING](../controls/lb-selectstring.md)  
+[WM\_ASKCBFORMATNAME](../dataxchg/wm-askcbformatname.md)  
+[WM\_CHAR](../inputdev/wm-char.md)  
+[WM\_CHARTOITEM](../controls/wm-chartoitem.md)  
+[WM\_CREATE](../winmsg/wm-create.md)  
+[WM\_DEADCHAR](../inputdev/wm-deadchar.md)  
+[WM\_DEVMODECHANGE](../gdi/wm-devmodechange.md)  
+[WM\_GETTEXT](../winmsg/wm-gettext.md)  
+[WM\_MDICREATE](../winmsg/wm-mdicreate.md)  
+[WM\_MENUCHAR](../menurc/wm-menuchar.md)  
+[WM\_NCCREATE](../winmsg/wm-nccreate.md)  
+[WM\_SETTEXT](../winmsg/wm-settext.md)  
+[WM\_SYSCHAR](../menurc/wm-syschar.md)  
+[WM\_SYSDEADCHAR](../inputdev/wm-sysdeadchar.md)  
+[WM\_WININICHANGE](../winmsg/wm-wininichange.md)  
 </dl>
 
 ## Related topics
@@ -58,6 +58,3 @@ The following messages have text arguments and are subject to automatic text tra
  
 
  
-
-
-

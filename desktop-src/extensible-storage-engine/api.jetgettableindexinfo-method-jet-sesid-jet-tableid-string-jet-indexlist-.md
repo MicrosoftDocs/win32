@@ -77,7 +77,7 @@ public static void JetGetTableIndexInfo(
 <!-- end list -->
 
   - indexname  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     This parameter is ignored.
 
@@ -99,4 +99,3 @@ public static void JetGetTableIndexInfo(
 [JetGetTableIndexInfo overload](dn292188\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

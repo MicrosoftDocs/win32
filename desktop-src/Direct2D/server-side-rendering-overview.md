@@ -36,7 +36,7 @@ There are three options for server-side rendering: GDI, GDI+ and Direct2D. Like 
 
 ### GDI
 
-Unlike Direct2D and GDI+, GDI does not support high-quality drawing features. For instance, GDI does not support antialiasing for creating smooth lines and has only limited support for transparency. Based on the graphics performance test results on Windows 7 and Windows Server 2008 R2, Direct2D scales more efficiently than GDI, despite the redesign of locks in GDI. For more information about these test results, see [Engineering Windows 7 Graphics Performance](https://blogs.msdn.microsoft.com/e7/2009/04/25/engineering-windows-7-graphics-performance/).
+Unlike Direct2D and GDI+, GDI does not support high-quality drawing features. For instance, GDI does not support antialiasing for creating smooth lines and has only limited support for transparency. Based on the graphics performance test results on Windows 7 and Windows Server 2008 R2, Direct2D scales more efficiently than GDI, despite the redesign of locks in GDI. For more information about these test results, see [Engineering Windows 7 Graphics Performance](/archive/blogs/e7/engineering-windows-7-graphics-performance).
 
 In addition, applications using GDI are limited to 10240 GDI handles per process and 65536 GDI handles per session. The reason is that internally Windows uses a 16-bit WORD to store the index of handles for each session.
 
@@ -60,7 +60,7 @@ The following sections describe how to use software rendering, how to optimally 
 
 ### Software Rendering
 
-Server-side applications use software rendering by creating [IWICBitmap](https://msdn.microsoft.com/library/ee719675(VS.85).aspx) render target, with the render target type set to either D2D1\_RENDER\_TARGET\_TYPE\_SOFTWARE or D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT. For more information about [IWICBitmap](https://msdn.microsoft.com/library/ee719675(VS.85).aspx) render targets, see the [**ID2D1Factory::CreateWicBitmapRenderTarget**](id2d1factory-createwicbitmaprendertarget.md) method; for more information about the render target types, see [**D2D1\_RENDER\_TARGET\_TYPE**](https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type).
+Server-side applications use software rendering by creating [IWICBitmap](/windows/win32/api/wincodec/nn-wincodec-iwicbitmap) render target, with the render target type set to either D2D1\_RENDER\_TARGET\_TYPE\_SOFTWARE or D2D1\_RENDER\_TARGET\_TYPE\_DEFAULT. For more information about [IWICBitmap](/windows/win32/api/wincodec/nn-wincodec-iwicbitmap) render targets, see the [**ID2D1Factory::CreateWicBitmapRenderTarget**](id2d1factory-createwicbitmaprendertarget.md) method; for more information about the render target types, see [**D2D1\_RENDER\_TARGET\_TYPE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type).
 
 ### Multithreading
 
@@ -68,7 +68,7 @@ Knowing how to create and share factories and render targets across threads can 
 
 ![direct2d multithreading diagram with a single render target.](images/server-side-rendering-1.png)
 
-In figure 1, different threads share the same factory and the same render target. This approach can lead to unpredictable results in cases when multiple threads simultaneously change the state of the shared render target, such as simultaneously setting the transformation matrix. As the internal locking in Direct2D does not synchronize a shared resource such as render targets, this approach can cause the [**BeginDraw**](https://msdn.microsoft.com/library/Dd371768(v=VS.85).aspx) call to fail in thread 1, because in thread 2, the **BeginDraw** call is already using the shared render target.
+In figure 1, different threads share the same factory and the same render target. This approach can lead to unpredictable results in cases when multiple threads simultaneously change the state of the shared render target, such as simultaneously setting the transformation matrix. As the internal locking in Direct2D does not synchronize a shared resource such as render targets, this approach can cause the [**BeginDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw) call to fail in thread 1, because in thread 2, the **BeginDraw** call is already using the shared render target.
 
 ![direct2d multithreading diagram with multiple render targets.](images/server-side-rendering-2.png)
 
@@ -80,11 +80,11 @@ Figure 3 shows the optimal approach, where a single-threaded factory and a singl
 
 ### Generating a Bitmap File
 
-To generate a bitmap file using software rendering, use an [IWICBitmap](https://msdn.microsoft.com/library/ee719675(VS.85).aspx) render target. Use an [IWICStream](https://msdn.microsoft.com/library/ee719782(VS.85).aspx) to write the bitmap to a file. Use [IWICBitmapFrameEncode](https://msdn.microsoft.com/library/ee690141(VS.85).aspx) to encode the bitmap into a specified image format. The following code example shows how to draw and save the following image to a file.
+To generate a bitmap file using software rendering, use an [IWICBitmap](/windows/win32/api/wincodec/nn-wincodec-iwicbitmap) render target. Use an [IWICStream](/windows/win32/api/wincodec/nn-wincodec-iwicstream) to write the bitmap to a file. Use [IWICBitmapFrameEncode](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapframeencode) to encode the bitmap into a specified image format. The following code example shows how to draw and save the following image to a file.
 
 ![example output image.](images/saveasimagefile-sample.png)
 
-This code example first creates an [IWICBitmap](https://msdn.microsoft.com/library/ee719675(VS.85).aspx) and an [IWICBitmap](https://msdn.microsoft.com/library/ee719675(VS.85).aspx) render target. It then renders a drawing with some text, a path geometry representing an hour glass, and a transformed hour glass into a WIC bitmap. It then uses [IWICStream::InitializeFromFilename](https://msdn.microsoft.com/library/ee719788(VS.85).aspx) to save the bitmap to a file. If your application needs to save the bitmap in memory, use [IWICStream::InitializeFromMemory](https://msdn.microsoft.com/library/ee719792(VS.85).aspx) instead. Finally, it uses [IWICBitmapFrameEncode](https://msdn.microsoft.com/library/ee690141(VS.85).aspx) to encode the bitmap.
+This code example first creates an [IWICBitmap](/windows/win32/api/wincodec/nn-wincodec-iwicbitmap) and an [IWICBitmap](/windows/win32/api/wincodec/nn-wincodec-iwicbitmap) render target. It then renders a drawing with some text, a path geometry representing an hour glass, and a transformed hour glass into a WIC bitmap. It then uses [IWICStream::InitializeFromFilename](/windows/win32/api/wincodec/nf-wincodec-iwicstream-initializefromfilename) to save the bitmap to a file. If your application needs to save the bitmap in memory, use [IWICStream::InitializeFromMemory](/windows/win32/api/wincodec/nf-wincodec-iwicstream-initializefrommemory) instead. Finally, it uses [IWICBitmapFrameEncode](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapframeencode) to encode the bitmap.
 
 
 ```C++
@@ -305,7 +305,3 @@ As seen from the above, using Direct2D for server-side rendering is simple and s
  
 
  
-
-
-
-

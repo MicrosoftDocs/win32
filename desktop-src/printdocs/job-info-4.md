@@ -244,9 +244,9 @@ The lower four bytes of the size, in bytes, of the job. See also the **SizeHigh*
 **Submitted**
 </dt> <dd>
 
-A [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that specifies the time when the job was submitted.
+A [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structure that specifies the time when the job was submitted.
 
-This time value is in Universal Time Coordinate (UTC) format. You should convert it to a local time value before displaying it. You can use the [**FileTimeToLocalFileTime**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-filetimetolocalfiletime) function to perform the conversion.
+This time value is in Universal Time Coordinate (UTC) format. You should convert it to a local time value before displaying it. You can use the [**FileTimeToLocalFileTime**](/windows/desktop/api/fileapi/nf-fileapi-filetimetolocalfiletime) function to perform the conversion.
 
 </dd> <dt>
 
@@ -311,9 +311,4 @@ Port monitors that do not support TrueEndOfJob will set the job as JOB\_STATUS\_
 </dt> </dl>
 
  
-
- 
-
-
-
 

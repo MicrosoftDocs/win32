@@ -43,9 +43,9 @@ HRESULT D3DX10CreateDeviceAndSwapChain(
 *pAdapter* \[in\]
 </dt> <dd>
 
-Type: **[**IDXGIAdapter**](https://msdn.microsoft.com/library/Bb174523(v=VS.85).aspx)\***
+Type: **[**IDXGIAdapter**](/windows/win32/api/dxgi/nn-dxgi-idxgiadapter)\***
 
-Pointer to a [**IDXGIAdapter**](https://msdn.microsoft.com/library/Bb174523(v=VS.85).aspx).
+Pointer to a [**IDXGIAdapter**](/windows/win32/api/dxgi/nn-dxgi-idxgiadapter).
 
 </dd> <dt>
 
@@ -61,16 +61,16 @@ The type of driver for the device. See [**D3D10\_DRIVER\_TYPE**](/windows/deskto
 *Software* \[in\]
 </dt> <dd>
 
-Type: **[**HMODULE**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**HMODULE**](../winprog/windows-data-types.md)**
 
-A handle to the DLL that implements a software rasterizer. Must be **NULL** if DriverType is non-software. The HMODULE of a DLL can be obtained with [LoadLibrary](https://msdn2.microsoft.com/library/ms684175.aspx), [LoadLibraryEx](https://msdn2.microsoft.com/library/ms684179.aspx), or [GetModuleHandle](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea).
+A handle to the DLL that implements a software rasterizer. Must be **NULL** if DriverType is non-software. The HMODULE of a DLL can be obtained with [LoadLibrary](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya), [LoadLibraryEx](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexa), or [GetModuleHandle](/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea).
 
 </dd> <dt>
 
 *Flags* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Optional. Device creation flags (see [**D3D10\_CREATE\_DEVICE\_FLAG**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_create_device_flag)) that enable [API layers](d3d10-graphics-programming-guide-api-features-layers.md). These flags can be bitwise OR'd together.
 
@@ -79,18 +79,18 @@ Optional. Device creation flags (see [**D3D10\_CREATE\_DEVICE\_FLAG**](/windows/
 *pSwapChainDesc* \[in\]
 </dt> <dd>
 
-Type: **[**DXGI\_SWAP\_CHAIN\_DESC**](https://msdn.microsoft.com/library/Bb173075(v=VS.85).aspx)\***
+Type: **[**DXGI\_SWAP\_CHAIN\_DESC**](/windows/win32/api/dxgi/ns-dxgi-dxgi_swap_chain_desc)\***
 
-Description of the swap chain. See [**DXGI\_SWAP\_CHAIN\_DESC**](https://msdn.microsoft.com/library/Bb173075(v=VS.85).aspx).
+Description of the swap chain. See [**DXGI\_SWAP\_CHAIN\_DESC**](/windows/win32/api/dxgi/ns-dxgi-dxgi_swap_chain_desc).
 
 </dd> <dt>
 
 *ppSwapChain* \[out\]
 </dt> <dd>
 
-Type: **[**IDXGISwapChain**](https://msdn.microsoft.com/library/Bb174569(v=VS.85).aspx)\*\***
+Type: **[**IDXGISwapChain**](/windows/win32/api/dxgi/nn-dxgi-idxgiswapchain)\*\***
 
-Address of a pointer to an [**IDXGISwapChain**](https://msdn.microsoft.com/library/Bb174569(v=VS.85).aspx).
+Address of a pointer to an [**IDXGISwapChain**](/windows/win32/api/dxgi/nn-dxgi-idxgiswapchain).
 
 </dd> <dt>
 
@@ -138,7 +138,3 @@ This method requires Windows Vista Service Pack 1.
  
 
  
-
-
-
-

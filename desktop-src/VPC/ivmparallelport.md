@@ -19,13 +19,13 @@ ms.date: 05/31/2018
 
 # IVMParallelPort interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Defines a parallel port inside a virtual machine. This interface allows you to configure parallel ports inside a virtual machine. You can retrieve an **IVMParallelPort** object from the [**IVMParallelPortCollection**](ivmparallelportcollection.md) object returned from the [**IVMVirtualMachine::ParallelPorts**](ivmvirtualmachine-parallelports.md) property.
 
 ## Members
 
-The **IVMParallelPort** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMParallelPort** also has these types of members:
+The **IVMParallelPort** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IVMParallelPort** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -74,10 +74,4 @@ The **IVMParallelPort** interface has these properties.
 
 
  
-
- 
-
-
-
-
 

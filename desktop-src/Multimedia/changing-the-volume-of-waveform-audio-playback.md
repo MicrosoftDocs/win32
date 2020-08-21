@@ -20,8 +20,8 @@ Windows provides the following functions to query and set the volume level of wa
 
 | Function                                     | Description                                                                       |
 |----------------------------------------------|-----------------------------------------------------------------------------------|
-| [**waveOutGetVolume**](https://msdn.microsoft.com/library/Dd743864(v=VS.85).aspx) | Retrieves the current volume level of the specified waveform-audio output device. |
-| [**waveOutSetVolume**](https://msdn.microsoft.com/library/Dd743874(v=VS.85).aspx) | Sets the volume level of the specified waveform-audio output device.              |
+| [**waveOutGetVolume**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetvolume) | Retrieves the current volume level of the specified waveform-audio output device. |
+| [**waveOutSetVolume**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutsetvolume) | Sets the volume level of the specified waveform-audio output device.              |
 
 
 
@@ -38,7 +38,3 @@ Volume-level values range from 0x0 (silence) to 0xFFFF (maximum volume) and are 
  
 
  
-
-
-
-

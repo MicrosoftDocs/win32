@@ -16,7 +16,7 @@ The tessellator unit has been enhanced. You can now use it to:
 -   Look up per-vertex displacement values from a displacement map and pass them on to a vertex shader.
 -   Support rectangle-patch tessellation. This is specified through a vertex declaration using D3DDECLMETHOD\_PARTIALU or D3DDECLMETHOD\_PARTIALV. If a vertex declaration containing these methods is used to draw a triangle patch, [**IDirect3DDevice9::DrawTriPatch**](/windows/desktop/api) will fail. For more information about vertex declarations, see [**D3DVERTEXELEMENT9**](d3dvertexelement9.md).
 
-In DirectX 8.x, what was called ORDER was really the degree. In Direct3D 9, the degree is now specified by [**D3DDEGREETYPE**](https://msdn.microsoft.com/library/Bb172536(v=VS.85).aspx).
+In DirectX 8.x, what was called ORDER was really the degree. In Direct3D 9, the degree is now specified by [**D3DDEGREETYPE**](./d3ddegreetype.md).
 
 
 ```
@@ -72,7 +72,7 @@ Adaptive tessellation can be applied to high-order primitives including N-patche
 
 The z-coordinates (Zi) of control vertices (Vi), which are transformed into eye space (Zieye) by performing a dot product with a 4-vector, are used as the depth values. The 4D vector (Mdm) is specified by the application using four render states (D3DRS\_ADAPTIVETESS\_X, D3DRS\_ADAPTIVETESS\_Y, D3DRS\_ADAPTIVETESS\_Z, and D3DRS\_ADAPTIVETESS\_W). This 4-vector could be the third column of the concatenated world and view matrices. It also could be used to apply a scale to Zieye.
 
-The function to compute a tessellation level Ti from Zieye is assumed to be (MaxTessellationLevel/Zieye), which means that the MaxTessellationLevel is the tessellation level at Z = 1 in eye space. The MaxTessellationLevel is equal to a value set by [**IDirect3DDevice9::SetNPatchMode**](https://msdn.microsoft.com/library/Bb174438(v=VS.85).aspx) for N-patches and, for RT-patches, it is equal to pNumSegs. The tessellation level is then clamped to values, defined by the two additional render states D3DRS\_MINTESSELLATIONLEVEL and D3DRS\_MAXTESSELLATIONLEVEL, which define the minimum and maximum tessellation levels to be clamped to. The Ti's for each vertex along an edge of a patch are averaged to obtain a tessellation level for that edge. The algorithm for computing Ti for rectangle patches, triangle patches, and N-patches differs in what control vertices are used to compute the tessellation level.
+The function to compute a tessellation level Ti from Zieye is assumed to be (MaxTessellationLevel/Zieye), which means that the MaxTessellationLevel is the tessellation level at Z = 1 in eye space. The MaxTessellationLevel is equal to a value set by [**IDirect3DDevice9::SetNPatchMode**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setnpatchmode) for N-patches and, for RT-patches, it is equal to pNumSegs. The tessellation level is then clamped to values, defined by the two additional render states D3DRS\_MINTESSELLATIONLEVEL and D3DRS\_MAXTESSELLATIONLEVEL, which define the minimum and maximum tessellation levels to be clamped to. The Ti's for each vertex along an edge of a patch are averaged to obtain a tessellation level for that edge. The algorithm for computing Ti for rectangle patches, triangle patches, and N-patches differs in what control vertices are used to compute the tessellation level.
 
 For the rectangle patches with a B-spline basis, the four outermost control vertices are used. For example, with D3DORDER\_CUBIC order: vertices (1,1) and (1,width-2) are used with pNumSegs\[0\], vertices (1,width-2) and (height-2,height-2) are used with pNumSegs\[1\], vertices (height-2,width-2) and (1,width-2) are used with pNumSegs\[2\], and vertices (2,1) and (1,1) are used with pNumSegs\[3\].
 
@@ -102,7 +102,7 @@ if Te < D3DRS_MINTESSELLATIONLEVEL, then Te = D3DRS_MINTESSELLATIONLEVEL
 
 
 
-When D3DRS\_ENABLEADAPTIVETESSELLATION is **TRUE**, triangle primitives (triangle lists, fans, strips) are drawn as N-patches, [**IDirect3DDevice9::SetNPatchMode**](https://msdn.microsoft.com/library/Bb174438(v=VS.85).aspx) has set value less than 1.0.
+When D3DRS\_ENABLEADAPTIVETESSELLATION is **TRUE**, triangle primitives (triangle lists, fans, strips) are drawn as N-patches, [**IDirect3DDevice9::SetNPatchMode**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setnpatchmode) has set value less than 1.0.
 
 ### API Changes
 
@@ -159,6 +159,3 @@ D3DDEVCAPS2_ADAPTIVETESSNPATCH  // Can adaptively tessellate N-patches
  
 
  
-
-
-

@@ -39,17 +39,17 @@ Use the following functions when developing software to administer routers in Wi
 -   [**MprAdminInterfaceUpdatePhonebookInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmininterfaceupdatephonebookinfo)
 -   [**MprAdminInterfaceUpdateRoutes**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmininterfaceupdateroutes)
 -   [**MprAdminIsDomainRasServer**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminisdomainrasserver)
--   [**MprAdminIsServiceInitialized**](https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminisserviceinitialized)
+-   [**MprAdminIsServiceInitialized**](/windows/desktop/api/mprapi/nf-mprapi-mpradminisserviceinitialized)
 -   [**MprAdminIsServiceRunning**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminisservicerunning)
 -   [**MprAdminRegisterConnectionNotification**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminregisterconnectionnotification)
 -   [**MprAdminServerConnect**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminserverconnect)
 -   [**MprAdminServerDisconnect**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminserverdisconnect)
 -   [**MprAdminServerGetCredentials**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminservergetcredentials)
 -   [**MprAdminServerGetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminservergetinfo)
--   [**MprAdminServerGetInfoEx**](https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminservergetinfoex)
+-   [**MprAdminServerGetInfoEx**](/windows/desktop/api/mprapi/nf-mprapi-mpradminservergetinfoex)
 -   [**MprAdminServerSetCredentials**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminserversetcredentials)
 -   [**MprAdminServerSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminserversetinfo)
--   [**MprAdminServerSetInfoEx**](https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfoex)
+-   [**MprAdminServerSetInfoEx**](/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfoex)
 -   [**MprAdminTransportCreate**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmintransportcreate)
 -   [**MprAdminTransportGetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmintransportgetinfo)
 -   [**MprAdminTransportSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmintransportsetinfo)
@@ -57,7 +57,3 @@ Use the following functions when developing software to administer routers in Wi
  
 
  
-
-
-
-

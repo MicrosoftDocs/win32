@@ -55,7 +55,7 @@ public long cMultiValues { get; internal set; }
 
 #### Property value
 
-Type: [System.Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN)  
+Type: [System.Int64](/dotnet/api/system.int64)  
 
 ## See also
 
@@ -66,4 +66,3 @@ Type: [System.Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirect
 [JET_RECSIZE members](hh557127\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-

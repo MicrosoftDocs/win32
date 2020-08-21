@@ -79,7 +79,7 @@ public Table(
 <!-- end list -->
 
   - name  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The name of the table.
 
@@ -99,4 +99,3 @@ public Table(
 [Table members](dn351162\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

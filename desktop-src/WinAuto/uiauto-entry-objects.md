@@ -16,9 +16,9 @@ This section provides reference documentation for the Microsoft UI Automation ob
 
 | Class                                                                             | Description                                                                                          |
 |-----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [**CUIAutomation**](https://msdn.microsoft.com/library/Ff384838(v=VS.85).aspx)<br/>                   | Implements the [**IUIAutomation**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation) interface.<br/>                   |
-| [**CUIAutomation8**](https://msdn.microsoft.com/library/Hh448746(v=VS.85).aspx)<br/>                 | Implements the [**IUIAutomation2**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation) interface for Windows 8.<br/>    |
-| [**CUIAutomationRegistrar**](https://msdn.microsoft.com/library/Ff384837(v=VS.85).aspx)<br/> | Implements the [**IUIAutomationRegistrar**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iuiautomationregistrar) interface.<br/> |
+| [**CUIAutomation**](/previous-versions/windows/desktop/legacy/ff384838(v=vs.85))<br/>                   | Implements the [**IUIAutomation**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation) interface.<br/>                   |
+| [**CUIAutomation8**](/previous-versions/windows/desktop/legacy/hh448746(v=vs.85))<br/>                 | Implements the [**IUIAutomation2**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomation) interface for Windows 8.<br/>    |
+| [**CUIAutomationRegistrar**](/previous-versions/windows/desktop/legacy/ff384837(v=vs.85))<br/> | Implements the [**IUIAutomationRegistrar**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iuiautomationregistrar) interface.<br/> |
 
 
 
@@ -32,10 +32,4 @@ This section provides reference documentation for the Microsoft UI Automation ob
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

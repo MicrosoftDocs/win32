@@ -61,7 +61,7 @@ The **PerfAutoCleanup** function calls [**PerfStopProvider**](/windows/desktop/a
 
 Your provider calls the **PerfAutoInitialize** and **PerfAutoCleanup** functions.
 
-The .c file includes the [**notification**](/windows/desktop/api/Perflib/nc-perflib-perflibrequest) callback function only if the **callback** attribute of [**provider**](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-provider--counters--element) is set to "custom" or you use the **-NotificationCallback** argument. The generated callback includes all the callback cases. You can provide implementation for each case or remove those cases that you do not want to support.
+The .c file includes the [**notification**](/windows/desktop/api/Perflib/nc-perflib-perflibrequest) callback function only if the **callback** attribute of [**provider**](/windows/desktop/PerfCtrs/performance-counters-provider--counters--element) is set to "custom" or you use the **-NotificationCallback** argument. The generated callback includes all the callback cases. You can provide implementation for each case or remove those cases that you do not want to support.
 
 The .rc file contains the localized strings for the counter name and description strings.
 
@@ -87,7 +87,7 @@ Changes the default signature of the [**CounterInitialize**](counterinitialize.m
 
 Changes the default signature of the [**CounterInitialize**](counterinitialize.md) function to include the parameter for specifying the name of your [*ControlCallback*](/windows/desktop/api/Perflib/nc-perflib-perflibrequest) callback function.
 
-This argument is that same as including the **callback** attribute in the [**provider**](https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-provider--counters--element) element.
+This argument is that same as including the **callback** attribute in the [**provider**](/windows/desktop/PerfCtrs/performance-counters-provider--counters--element) element.
 
 **Windows Vista:** Generates function templates for the notification callback (you provide the implementation for this callback).
 
@@ -172,9 +172,4 @@ If you do not specify the **-legacy**, **-o**, **-ch**, or **-rc** arguments, th
 
 
  
-
- 
-
-
-
 

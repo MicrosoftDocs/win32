@@ -17,7 +17,7 @@ api_location:
 
 # HashedData object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**HashAlgorithm Class**](https://msdn.microsoft.com/library/k50cye1b(v=VS.96).aspx) in the [**System.Security.Cryptography**](https://msdn.microsoft.com/library/9eat8fht(v=VS.100).aspx) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**HashAlgorithm Class**](/previous-versions/windows/) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1) namespace.\]
 
 The **HashedData** object provides functionality for hashing a string.
 
@@ -86,7 +86,3 @@ The **HashedData** object can be created, and it is safe for scripting. The Prog
  
 
  
-
-
-
-

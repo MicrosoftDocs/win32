@@ -61,7 +61,7 @@ Pointer to an **IPADDR** variable that specifies the IP address returned for thi
 
 ## Return value
 
-There is no extended error information for this function; do no call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx).
+There is no extended error information for this function; do no call [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
@@ -107,7 +107,3 @@ The setup program for a RAS administration DLL should also provide remove/uninst
  
 
  
-
-
-
-

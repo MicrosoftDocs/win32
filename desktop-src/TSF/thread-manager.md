@@ -22,7 +22,7 @@ The majority of the interfaces and objects provided by the TSF manager can be ob
 
 ## Applications
 
-An application creates a thread manager object by calling [CoCreateInstance](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) with CLSID\_TFThreadMgr.
+An application creates a thread manager object by calling [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) with CLSID\_TFThreadMgr.
 
 ## Text Services
 
@@ -39,7 +39,7 @@ The thread manager also provides event notification to clients. In TSF, event no
 [ITfThreadMgr](/windows/desktop/api/Msctf/nn-msctf-itfthreadmgr)
 </dt> <dt>
 
-[CoCreateInstance](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx)
+[CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance)
 </dt> <dt>
 
 [ITfTextInputProcessor::Activate](/windows/desktop/api/Msctf/nf-msctf-itftextinputprocessor-activate)
@@ -54,7 +54,3 @@ The thread manager also provides event notification to clients. In TSF, event no
  
 
  
-
-
-
-

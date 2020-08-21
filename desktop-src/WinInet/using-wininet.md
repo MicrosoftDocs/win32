@@ -19,12 +19,8 @@ The topics in the following list show you how to use the WinINet API:
 -   [Managing Cookies](managing-cookies.md)
 -   [Retrieving HTTP Headers](retrieving-http-headers.md)
 -   [Setting and Retrieving Internet Options](setting-and-retrieving-internet-options.md)
--   [IPv6 Extensions to Navigator Auto-Config File Format](https://docs.microsoft.com/windows/desktop/WinHttp/ipv6-extensions-to-navigator-auto-config-file-format)
+-   [IPv6 Extensions to Navigator Auto-Config File Format](/windows/desktop/WinHttp/ipv6-extensions-to-navigator-auto-config-file-format)
 
  
 
  
-
-
-
-

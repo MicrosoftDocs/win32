@@ -28,7 +28,7 @@ The [**ITAddressEvent**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddressevent)
 | [**ITLegacyAddressMediaControl2**](/windows/desktop/api/Tapi3if/nn-tapi3if-itlegacyaddressmediacontrol2) | Extends [**ITLegacyAddressMediaControl**](/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol) by allowing the configuration of parameters related to line devices. |
 | [**ITLocationInfo**](/windows/desktop/api/tapi3if/nn-tapi3if-itlocationinfo)                             | Gets information related to the location of the calling party.                                                                                  |
 | [**ITMediaSupport**](/windows/desktop/api/tapi3if/nn-tapi3if-itmediasupport)                             | Gets information concerning an address's media support capabilities.                                                                            |
-| [**ITTerminalSupport**](https://msdn.microsoft.com/library/ms733156(v=VS.85).aspx)                       | Gets information on available terminals and provides a method to create additional terminals.                                                   |
+| [**ITTerminalSupport**](/windows/win32/api/tapi3if/nn-tapi3if-itterminalsupport)                       | Gets information on available terminals and provides a method to create additional terminals.                                                   |
 | [**IEnumAddress**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumaddress)                                 | Enumerates [**ITAddress**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddress).                                                                                                      |
 | [**IEnumCallingCard**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallingcard)                         | Enumerates [**ITCallingCard**](/windows/desktop/api/tapi3if/nn-tapi3if-itcallingcard).                                                                                              |
 
@@ -41,6 +41,3 @@ If the address is a [Wave MSP](wave-msp.md) address, the [**ITLegacyWaveSupport*
  
 
  
-
-
-

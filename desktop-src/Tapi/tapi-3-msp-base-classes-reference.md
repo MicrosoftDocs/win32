@@ -19,7 +19,7 @@ The following material provides details on the Media Service Provider base class
 | [CBaseTerminal](cbaseterminal.md)                       | A terminal base class applicable to both static and dynamic terminals. It is completely generic, so any terminal implementation can derive from this class directly or indirectly. Defined in MSPterm.h |
 | [**CMSPAddress**](/windows/desktop/api/Mspaddr/nl-mspaddr-cmspaddress)                       | Implements the MSP address object and supports the [**ITMSPAddress**](/windows/desktop/api/msp/nn-msp-itmspaddress) interface. Defined in MSPaddr.h.                                                                                |
 | [CMSPArray](cmsparray.md)                               | A template that implements a smart array that will grow on demand. Defined in MSPutils.h.                                                                                                               |
-| [**CMSPCallBase**](/windows/desktop/api/Mspcall/nl-mspcall-cmspcallbase)                     | Provides a generic implementation of the call object and supports the [**ITStreamControl**](https://msdn.microsoft.com/library/ms732393(v=VS.85).aspx) interface. Defined in MSPcall.h.                                                       |
+| [**CMSPCallBase**](/windows/desktop/api/Mspcall/nl-mspcall-cmspcallbase)                     | Provides a generic implementation of the call object and supports the [**ITStreamControl**](/windows/win32/api/tapi3if/nn-tapi3if-itstreamcontrol) interface. Defined in MSPcall.h.                                                       |
 | [**CMSPCallMultiGraph**](/windows/desktop/api/Mspcall/nl-mspcall-cmspcallmultigraph)         | Defines a call that uses a filter graph for each stream. Defined in MSPcall.h.                                                                                                                          |
 | [**CMSPStream**](/windows/desktop/api/Mspstrm/nl-mspstrm-cmspstream)                         | Exposes methods that allow an application to start, pause, or stop a substream, and to select or unselect terminals. Defined in MSPstrm.h.                                                              |
 | [CMSPThread](cmspthread.md)                             | Implements the MSP's worker thread. Defined in MSPthrd.h.                                                                                                                                               |
@@ -33,6 +33,3 @@ The following material provides details on the Media Service Provider base class
  
 
  
-
-
-

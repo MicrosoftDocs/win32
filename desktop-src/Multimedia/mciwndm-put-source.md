@@ -36,7 +36,7 @@ lParam = (LPARAM) (LPRECT) prc;
 <span id="prc"></span><span id="PRC"></span>*prc*
 </dt> <dd>
 
-Pointer to a [RECT](https://msdn.microsoft.com/library/ms536136.aspx) structure containing the coordinates of the source rectangle.
+Pointer to a [RECT](/previous-versions//ms536136(v=vs.85)) structure containing the coordinates of the source rectangle.
 
 </dd> </dl>
 
@@ -57,10 +57,4 @@ Returns zero if successful or an error otherwise.
 
 
  
-
- 
-
-
-
-
 

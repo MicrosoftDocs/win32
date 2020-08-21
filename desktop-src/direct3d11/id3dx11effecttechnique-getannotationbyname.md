@@ -41,7 +41,7 @@ ID3DX11EffectVariable* GetAnnotationByName(
 *Name* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 Name of the annotation.
 
@@ -81,10 +81,4 @@ Use an annotation to attach a piece of metadata to a technique.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

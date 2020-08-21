@@ -19,13 +19,13 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachineEvents interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Defines the outgoing event interface for the [**IVMVirtualMachine**](ivmvirtualmachine.md) interface. The client implements these methods to receive events sent from [**IVMVirtualMachine**](ivmvirtualmachine.md).
 
 ## Members
 
-The **IVMVirtualMachineEvents** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **IVMVirtualMachineEvents** also has these types of members:
+The **IVMVirtualMachineEvents** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **IVMVirtualMachineEvents** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -70,10 +70,4 @@ The **IVMVirtualMachineEvents** interface has these methods.
 
 
  
-
- 
-
-
-
-
 

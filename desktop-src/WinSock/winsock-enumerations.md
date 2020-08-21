@@ -14,7 +14,7 @@ The following list provides concise descriptions of each Winsock enumeration. Fo
 |-|-|
 | [**CONTROL\_CHANNEL\_TRIGGER\_STATUS**](/windows/win32/api/mstcpip/ne-mstcpip-control_channel_trigger_status) | Specifies the status from a query for the **REAL\_TIME\_NOTIFICATION\_CAPABILITY** transport setting for a TCP socket that is used with [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) to receive background network notifications in a Windows Runtime application. |
 | [**eWINDOW\_ADVANCE\_METHOD**](/windows/win32/api/wsrm/ne-wsrm-ewindow_advance_method) | Specifies the window advance mode used for Reliable Multicast. |
-| [**GUARANTEE**](/windows/win32/winsock/guarantee-2) | No longer used. |
+| [**GUARANTEE**](./guarantee-2.md) | No longer used. |
 | [**MULTICAST\_MODE\_TYPE**](/windows/win32/api/ws2ipdef/ne-ws2ipdef-multicast_mode_type) | Specifies the filter mode for multicast group addresses. |
 | [**NAPI\_PROVIDER\_LEVEL**](/windows/win32/api/nsemail/ne-nsemail-napi_provider_level) | Specifies the provider authority level of a NS\_EMAIL namespace provider for a given domain. |
 | [**NAPI\_PROVIDER\_TYPE**](/windows/win32/api/nsemail/ne-nsemail-napi_provider_type) | Specifies the type of hosting expected for a namespace provider. |

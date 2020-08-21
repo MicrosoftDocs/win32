@@ -13,9 +13,9 @@ This topic provides information about using server annotation to specify a callb
 **To override a property that specifies a callback object**
 
 1.  Obtain an [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface pointer to the accessible element that is to be annotated.
-2.  Call [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on the accessible element to get an [**IAccIdentity**](/windows/desktop/api/oleacc/nn-oleacc-iaccidentity) interface pointer.
+2.  Call [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on the accessible element to get an [**IAccIdentity**](/windows/desktop/api/oleacc/nn-oleacc-iaccidentity) interface pointer.
 3.  Call [**IAccIdentity::GetIdentityString()**](/windows/desktop/api/Oleacc/nf-oleacc-iaccidentity-getidentitystring) on the [**IAccIdentity**](/windows/desktop/api/oleacc/nn-oleacc-iaccidentity) interface pointer to obtain a string that uniquely identifies the accessible element that is to be annotated.
-4.  Use [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) or [**CoCreateInstanceEx**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex) to create the [**IAccPropServices**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices) object.
+4.  Use [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) or [**CoCreateInstanceEx**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex) to create the [**IAccPropServices**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices) object.
 5.  Create a Component Object Model (COM) object that implements [**IAccPropServer**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropserver).
 6.  Call [**IAccPropServices::SetPropServer**](/windows/desktop/api/Oleacc/nf-oleacc-iaccpropservices-setpropserver), passing the identity string, a GUID indicating the property to be overridden, and a pointer to the [**IAccPropServer**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropserver) callback object.
 7.  Release interface pointers and free memory.
@@ -65,10 +65,4 @@ When specifying a callback, the following properties can be annotated. Currently
  
 
  
-
- 
-
-
-
-
 

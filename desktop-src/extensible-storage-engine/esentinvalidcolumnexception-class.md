@@ -32,8 +32,8 @@ Exception thrown when a column conversion fails.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
-  [System.Exception](https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
+  [System.Exception](/dotnet/api/system.exception)  
     [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
       Microsoft.Isam.Esent.Interop.EsentInvalidColumnException  
 
@@ -67,4 +67,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [EsentInvalidColumnException members](dn319449\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

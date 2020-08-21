@@ -54,8 +54,8 @@ This function is similar to the [**any**](dx-graphics-hlsl-any.md) HLSL intrinsi
 
 | Name  | [**Template Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Component Type**](dx-graphics-hlsl-intrinsic-functions.md)                                                         | Size |
 |-------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|------|
-| *x*   | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**float**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types), [**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types), [**bool**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types) | any  |
-| *ret* | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md)                            | [**bool**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)                                                                                 | 1    |
+| *x*   | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md), **vector**, or **matrix** | [**float**](/windows/desktop/WinProg/windows-data-types), [**int**](/windows/desktop/WinProg/windows-data-types), [**bool**](/windows/desktop/WinProg/windows-data-types) | any  |
+| *ret* | [**scalar**](dx-graphics-hlsl-intrinsic-functions.md)                            | [**bool**](/windows/desktop/WinProg/windows-data-types)                                                                                 | 1    |
 
 
 
@@ -84,10 +84,4 @@ This function is supported in the following shader models.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

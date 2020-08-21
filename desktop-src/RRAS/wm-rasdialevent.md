@@ -39,7 +39,7 @@ dwError = (DWORD) lParam;
 *rasconnstate* 
 </dt> <dd>
 
-Value of *wParam*. Equivalent to the *rasconnstate* parameter of the [**RasDialFunc**](/windows/desktop/api/Ras/nc-ras-rasdialfunc) and [**RasDialFunc1**](/windows/desktop/api/Ras/nc-ras-rasdialfunc1) callback functions. Specifies a [**RASCONNSTATE**](https://msdn.microsoft.com/library/Aa376727(v=VS.85).aspx) enumerator value that indicates the state the RasDial remote access connection process is about to enter.
+Value of *wParam*. Equivalent to the *rasconnstate* parameter of the [**RasDialFunc**](/windows/desktop/api/Ras/nc-ras-rasdialfunc) and [**RasDialFunc1**](/windows/desktop/api/Ras/nc-ras-rasdialfunc1) callback functions. Specifies a [**RASCONNSTATE**](/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)) enumerator value that indicates the state the RasDial remote access connection process is about to enter.
 
 </dd> <dt>
 
@@ -87,14 +87,8 @@ If an application processes this message, it should return **TRUE**.
 [**RasDialFunc1**](/windows/desktop/api/Ras/nc-ras-rasdialfunc1)
 </dt> <dt>
 
-[**RASCONNSTATE**](https://msdn.microsoft.com/library/Aa376727(v=VS.85).aspx)
+[**RASCONNSTATE**](/previous-versions/windows/desktop/legacy/aa376727(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

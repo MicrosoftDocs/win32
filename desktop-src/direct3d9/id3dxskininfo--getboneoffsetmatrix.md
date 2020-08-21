@@ -38,7 +38,7 @@ LPD3DXMATRIX GetBoneOffsetMatrix(
 *Bone* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Bone number.
 
@@ -77,7 +77,3 @@ Returns a pointer to the bone offset matrix. Do not free this pointer.
  
 
  
-
-
-
-

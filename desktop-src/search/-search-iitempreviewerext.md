@@ -20,7 +20,7 @@ Provides methods for supplying browser settings. The **IItemPreviewerExt** inter
 
 ## Members
 
-The **IItemPreviewerExt** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IItemPreviewerExt** also has these types of members:
+The **IItemPreviewerExt** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IItemPreviewerExt** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -62,7 +62,3 @@ To preview attachments with a third-party protocol handler on computers running 
  
 
  
-
-
-
-

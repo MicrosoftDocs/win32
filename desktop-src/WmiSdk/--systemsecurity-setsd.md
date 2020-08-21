@@ -20,12 +20,12 @@ api_location:
 
 The **SetSD** method sets the security descriptor for the namespace to which a user is connected. This method requires a security descriptor in binary byte array format. If you are writing a script, use the [**SetSecurityDescriptor**](setsecuritydescriptor-method-in-class---systemsecurity.md) method. For more information, see [Securing WMI Namespaces](securing-wmi-namespaces.md) and [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md).
 
-If you are programming in C++, you can manipulate the binary security descriptor using [SDDL](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language), and the conversion methods [**ConvertSecurityDescriptorToStringSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora).
+If you are programming in C++, you can manipulate the binary security descriptor using [SDDL](/windows/desktop/SecAuthZ/security-descriptor-definition-language), and the conversion methods [**ConvertSecurityDescriptorToStringSecurityDescriptor**](/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora).
 
 A user must have the **WRITE\_DAC** permission, and by default, an administrator has that permission. The only part of the security descriptor that is used is the noninherited access control entry (ACE) in the discretionary access control list (DACL). By setting the **CONTAINER\_INHERIT** flag in the ACEs, the security descriptor affects child namespaces. Both allow and deny ACEs are permitted.
 
 > [!Note]  
-> Because deny and allow ACEs are both permitted in a DACL, the order of ACEs is important. For more information, see [Ordering of ACEs in a DACL](https://docs.microsoft.com/windows/desktop/SecAuthZ/order-of-aces-in-a-dacl).
+> Because deny and allow ACEs are both permitted in a DACL, the order of ACEs is important. For more information, see [Ordering of ACEs in a DACL](/windows/desktop/SecAuthZ/order-of-aces-in-a-dacl).
 
  
 
@@ -247,19 +247,14 @@ The following C# code sample uses the System.Security.AccessControl.RawSecurityD
 [WMI Security Constants](wmi-security-constants.md)
 </dt> <dt>
 
-[**Win32\_ACE**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-ace)
+[**Win32\_ACE**](/previous-versions/windows/desktop/secrcw32prov/win32-ace)
 </dt> <dt>
 
-[**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)
+[**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)
 </dt> <dt>
 
 [Securing WMI Namespaces](securing-wmi-namespaces.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

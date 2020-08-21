@@ -17,12 +17,8 @@ Do not attempt to extend the [**IAccessible**](/windows/desktop/api/oleacc/nn-ol
 
 Note that the goal of the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface is to have a well-defined interface that is used by servers and clients. Before exposing custom interfaces, be sure to expose as much information as possible through **IAccessible**.
 
-You cannot use [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) to expose custom interfaces. Use **IServiceProvider::QueryService** as outlined in the following procedures.
+You cannot use [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) to expose custom interfaces. Use **IServiceProvider::QueryService** as outlined in the following procedures.
 
  
 
  
-
-
-
-

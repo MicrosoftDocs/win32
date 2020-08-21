@@ -39,7 +39,7 @@ HRESULT UnregisterScaleKey(
 *Animation* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Animation identifier.
 
@@ -48,7 +48,7 @@ Animation identifier.
 *Key* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Key frame.
 
@@ -85,7 +85,3 @@ This method is slow and should not be used after an animation has begun to play.
  
 
  
-
-
-
-

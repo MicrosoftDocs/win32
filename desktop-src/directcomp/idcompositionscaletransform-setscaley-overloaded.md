@@ -24,8 +24,8 @@ Changes or animates the value of the ScaleY property of a 2D scale transform.
 
 | Method                                                                                                      | Description                                           |
 |:------------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
-| [**SetScaleY(float)**](https://msdn.microsoft.com/library/Hh449050(v=VS.85).aspx)                                     | Changes the value of the ScaleY property.<br/>  |
-| [**SetScaleY(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh449053(v=VS.85).aspx) | Animates the value of the ScaleY property.<br/> |
+| [**SetScaleY(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setscaley(float))                                     | Changes the value of the ScaleY property.<br/>  |
+| [**SetScaleY(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform-setscaley(idcompositionanimation)) | Animates the value of the ScaleY property.<br/> |
 
 
 
@@ -47,7 +47,7 @@ Changes or animates the value of the ScaleY property of a 2D scale transform.
 
 <dl> <dt>
 
-[**IDCompositionScaleTransform**](https://msdn.microsoft.com/library/Hh448990(v=VS.85).aspx)
+[**IDCompositionScaleTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionscaletransform)
 </dt> <dt>
 
 [**IDCompositionScaleTransform::SetScaleX**](idcompositionscaletransform-setscalex-overloaded.md)
@@ -56,8 +56,3 @@ Changes or animates the value of the ScaleY property of a 2D scale transform.
 �
 
 �
-
-
-
-
-

@@ -13,9 +13,9 @@ ms.date: 05/31/2018
 
 # Querying for Category 1 or 2 Schema Objects
 
-The **systemFlags** attribute of **attributeSchema** and **classSchema** objects is an integer bitmask that contains flags that indicate additional system qualities of the attribute or class. The [**ADS\_SYSTEMFLAG\_ENUM**](https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_systemflag_enum) enumeration contains values that correspond to the bits you can set in the **systemFlags** attribute. There are additional **systemFlags** bits that you cannot set, such as the 0x10 bit which indicates whether the attribute or class is category 1 or category 2. The 0x10 bit is set for category 1 objects, which are the classes and attributes included in the base schema included with the system. The bit is not set for category 2 attributes and classes, which are extensions to the schema. If no **systemFlags** property exists on an **attributeSchema** or **classSchema** object, it is category 2.
+The **systemFlags** attribute of **attributeSchema** and **classSchema** objects is an integer bitmask that contains flags that indicate additional system qualities of the attribute or class. The [**ADS\_SYSTEMFLAG\_ENUM**](/windows/win32/api/iads/ne-iads-ads_systemflag_enum) enumeration contains values that correspond to the bits you can set in the **systemFlags** attribute. There are additional **systemFlags** bits that you cannot set, such as the 0x10 bit which indicates whether the attribute or class is category 1 or category 2. The 0x10 bit is set for category 1 objects, which are the classes and attributes included in the base schema included with the system. The bit is not set for category 2 attributes and classes, which are extensions to the schema. If no **systemFlags** property exists on an **attributeSchema** or **classSchema** object, it is category 2.
 
-The **LDAP\_MATCHING\_RULE\_BIT\_AND** matching rule can be used to search for objects that have the 0x10 flag set in the **systemFlags** attribute. For more information, see [Search Filter Syntax](https://docs.microsoft.com/windows/desktop/ADSI/search-filter-syntax).
+The **LDAP\_MATCHING\_RULE\_BIT\_AND** matching rule can be used to search for objects that have the 0x10 flag set in the **systemFlags** attribute. For more information, see [Search Filter Syntax](/windows/desktop/ADSI/search-filter-syntax).
 
 ## Querying for Category 1
 
@@ -46,7 +46,3 @@ Be aware that this query also returns **attributeSchema** objects that do not ha
  
 
  
-
-
-
-

@@ -23,7 +23,7 @@ topic_type:
 
 Specifies one preferred network provider in a list of providers to be used when roaming.
 
-The value of this element is an instance of the v1 [**providerType**](https://msdn.microsoft.com/library/Dd323298(v=VS.85).aspx) complex type.
+The value of this element is an instance of the v1 [**providerType**](./schema-providertype-complextype.md) complex type.
 
 ## Element hierarchy
 
@@ -93,6 +93,3 @@ None.
  
 
  
-
-
-

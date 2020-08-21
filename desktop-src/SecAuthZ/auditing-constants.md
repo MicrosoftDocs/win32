@@ -61,7 +61,7 @@ Audit attempts to access securable objects.
 
 
 
-Audit attempts to use [*privileges*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly).
+Audit attempts to use [*privileges*](/windows/desktop/SecGloss/p-gly).
 
 
 </dt> </dl> </dd> <dt>
@@ -87,7 +87,7 @@ Audit-specific events, such as program activation, some forms of handle duplicat
 
 
 
-Audit attempts to change [**Policy**](https://docs.microsoft.com/windows/desktop/SecMgmt/the-policy-object-type) object rules.
+Audit attempts to change [**Policy**](/windows/desktop/SecMgmt/the-policy-object-type) object rules.
 
 
 </dt> </dl> </dd> <dt>
@@ -126,7 +126,7 @@ Audit attempts to access the directory service.
 
 
 
-Audit logon attempts by privileged accounts that log on to the domain controller. These audit events are generated when the Kerberos [*Key Distribution Center*](https://docs.microsoft.com/windows/desktop/SecGloss/k-gly) (KDC) logs on to the domain controller.
+Audit logon attempts by privileged accounts that log on to the domain controller. These audit events are generated when the Kerberos [*Key Distribution Center*](/windows/desktop/SecGloss/k-gly) (KDC) logs on to the domain controller.
 
 
 </dt> </dl> </dd> </dl>
@@ -200,9 +200,4 @@ The following constants represent subcategories of audit-policy events. These co
 
 
  
-
- 
-
-
-
 

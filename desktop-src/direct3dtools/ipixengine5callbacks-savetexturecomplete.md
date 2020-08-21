@@ -32,11 +32,8 @@ A callback function used to notify the host when saving a texture has been compl
 
 ## <span id="see_also"></span>See also
 
-[**IPixEngine5Callbacks**](https://docs.microsoft.com/windows/desktop/direct3dtools/ipixengine5callbacks)
+[**IPixEngine5Callbacks**](/windows/desktop/direct3dtools/ipixengine5callbacks)
 
  
 
  
-
-
-

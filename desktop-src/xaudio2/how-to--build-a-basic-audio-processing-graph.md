@@ -14,9 +14,9 @@ The minimum requirement for enabling XAudio2 to play audio data is an audio proc
 
 1.  Initialize the XAudio2 engine by following the steps described in [How to: Initialize XAudio2](how-to--initialize-xaudio2.md).
 2.  Populate a **WAVEFORMATEX** and [**XAUDIO2\_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) structure by following the steps described in [How to: Load Audio Data Files in XAudio2](how-to--load-audio-data-files-in-xaudio2.md).
-3.  Create a source voice using the [**CreateSourceVoice**](https://msdn.microsoft.com/library/Ee418607(v=VS.85).aspx) function.
+3.  Create a source voice using the [**CreateSourceVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice) function.
 
-    When you specify NULL for the pSendList argument of [**CreateSourceVoice**](https://msdn.microsoft.com/library/Ee418607(v=VS.85).aspx), the source voice's output goes to the mastering voice created in step 1.
+    When you specify NULL for the pSendList argument of [**CreateSourceVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice), the source voice's output goes to the mastering voice created in step 1.
 
     ```
     IXAudio2SourceVoice* pSourceVoice;
@@ -32,7 +32,7 @@ The minimum requirement for enabling XAudio2 to play audio data is an audio proc
 
     ![a simple audio graph.](images/xaudio2-audio-graph.png)
 
-4.  Use the function [**SubmitSourceBuffer**](https://msdn.microsoft.com/library/Ee418473(v=VS.85).aspx) to submit an [**XAUDIO2\_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) to the source voice.
+4.  Use the function [**SubmitSourceBuffer**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-submitsourcebuffer) to submit an [**XAUDIO2\_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) to the source voice.
 
     ```
     if( FAILED(hr = pSourceVoice->SubmitSourceBuffer( &buffer ) ) )
@@ -41,7 +41,7 @@ The minimum requirement for enabling XAudio2 to play audio data is an audio proc
 
     
 
-5.  Use the [**Start**](https://msdn.microsoft.com/library/Ee418471(v=VS.85).aspx) function to start the source voice.
+5.  Use the [**Start**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-start) function to start the source voice.
 
     ```
     if ( FAILED(hr = pSourceVoice->Start( 0, XAUDIO2_COMMIT_NOW ) ) )
@@ -63,6 +63,3 @@ The minimum requirement for enabling XAudio2 to play audio data is an audio proc
  
 
  
-
-
-

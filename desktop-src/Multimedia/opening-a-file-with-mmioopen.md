@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # Opening a File with mmioOpen
 
-To open a file for basic I/O operations, set the *lpmmioinfo* parameter of the [**mmioOpen**](https://msdn.microsoft.com/library/Dd757331(v=VS.85).aspx) function to **NULL**. The following example opens a file named "C:\\SAMPLES\\SAMPLE1.TXT" for reading, and checks the return value for error.
+To open a file for basic I/O operations, set the *lpmmioinfo* parameter of the [**mmioOpen**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioopen) function to **NULL**. The following example opens a file named "C:\\SAMPLES\\SAMPLE1.TXT" for reading, and checks the return value for error.
 
 
 ```C++
@@ -39,7 +39,3 @@ Use the *dwFlags* parameter of **mmioOpen** to specify flags for opening a file.
  
 
  
-
-
-
-

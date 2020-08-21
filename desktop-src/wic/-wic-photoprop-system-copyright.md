@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Copyright Photo Metadata Policy
 
-The photo metadata policy for the [System.Copyright](https://msdn.microsoft.com/library/bb760671(VS.85).aspx) property.
+The photo metadata policy for the [System.Copyright](../properties/props-system-copyright.md) property.
 
 ### PKEY
 
@@ -137,12 +137,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Copyright](https://msdn.microsoft.com/library/bb760671(VS.85).aspx)
+[System.Copyright](../properties/props-system-copyright.md)
 </dt> </dl>
 
  
 
  
-
-
-

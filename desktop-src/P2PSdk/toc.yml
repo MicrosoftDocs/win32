@@ -613,7 +613,7 @@
           - name: "PNRPINFO_V1"
             href: /windows/win32/api/Pnrpns/ns-pnrpns-pnrpinfo_v1
           - name: "PNRPINFO_V2"
-            href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa371671(v=vs.85)
+            href: /previous-versions/windows/desktop/legacy/aa371671(v=vs.85)
         - name: "PNRP Constants"
           href: pnrp-constants.md
           items: 

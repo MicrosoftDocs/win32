@@ -78,11 +78,8 @@ The following list contains tools that can be used to configure Windows Firewall
 -   Group Policy
 -   Netsh advfirewall command-line tool
 
-For more information about how to use tools to configure Windows Firewall settings, see [Getting Started with Windows Firewall with Advanced Security](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc748991(v=ws.10)?redirectedfrom=MSDN).
+For more information about how to use tools to configure Windows Firewall settings, see [Getting Started with Windows Firewall with Advanced Security](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc748991(v=ws.10)).
 
  
 
  
-
-
-

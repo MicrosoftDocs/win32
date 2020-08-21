@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This topic provides a technical overview of interoperability using surface sharing between Windows graphics APIs, including Direct3D 11, Direct2D, DirectWrite, Direct3D 10, and Direct3D 9Ex. If you already have a working knowledge of these APIs, this paper can help you use multiple APIs to render to the same surface in an application designed for the Windows 7 or Windows Vista operating systems. This topic also provides best practice guidelines and pointers to additional resources.
 
 > [!Note]  
-> For Direct2D and DirectWrite interoperability on the DirectX 11.1 runtime, you can use [Direct2D devices and device contexts](https://docs.microsoft.com/windows/desktop/Direct2D/devices-and-device-contexts) to render directly to Direct3D 11 devices.
+> For Direct2D and DirectWrite interoperability on the DirectX 11.1 runtime, you can use [Direct2D devices and device contexts](/windows/desktop/Direct2D/devices-and-device-contexts) to render directly to Direct3D 11 devices.
 
  
 
@@ -114,7 +114,7 @@ pSwapChain->Present(0, 0);
 
 Device sharing is suitable for in-process, single-threaded usage of one rendering device shared by both Direct3D 10.1 and Direct2D rendering APIs. Synchronized shared surfaces enable multi-threaded, in-process and out-of-process usage of multiple rendering devices used by Direct3D 10.1, Direct2D and Direct3D 11 APIs.
 
-Another method of Direct3D 10.1 and Direct2D interoperability is by using ID3D1RenderTarget::CreateSharedBitmap, which creates an ID2D1Bitmap object from IDXGISurface. You can write a Direct3D10.1 scene to the bitmap and render it with Direct2D. For more information, see [ID2D1RenderTarget::CreateSharedBitmap Method](https://msdn.microsoft.com/library/dd371865(VS.85).aspx).
+Another method of Direct3D 10.1 and Direct2D interoperability is by using ID3D1RenderTarget::CreateSharedBitmap, which creates an ID2D1Bitmap object from IDXGISurface. You can write a Direct3D10.1 scene to the bitmap and render it with Direct2D. For more information, see [ID2D1RenderTarget::CreateSharedBitmap Method](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap).
 
 ### Direct2D Software Rasterization
 
@@ -822,7 +822,6 @@ while (!done)
 
 
 
-For the complete helper source and examples, refer to Direc3D9Ex and DXGI Interop Helper and Sample on MSDN Code Gallery <https://code.msdn.microsoft.com/D3D9ExDXGISharedSurf>.  
 A more complex solution could check the return value from enqueue and from flush to determine if flushing is necessary.  
 </dl>
 
@@ -877,7 +876,3 @@ You can create solutions that use interoperability to employ the power of multip
  
 
  
-
-
-
-

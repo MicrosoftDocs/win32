@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # filterControl
 
-Specifies what control to use in the header filter menu. There should be only one [filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx) element for each [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element.
+Specifies what control to use in the header filter menu. There should be only one [filterControl]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
 
-If there are multiple elements, the last one is used. If no [filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
+If there are multiple elements, the last one is used. If no [filterControl]() element is provided, then the default attribute settings are applied to the property description.
 
 ## Syntax
 
@@ -40,7 +40,7 @@ If there are multiple elements, the last one is used. If no [filterControl](http
 
 | Parent Element                                   | Child Elements |
 |--------------------------------------------------|----------------|
-| [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) | None           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | None           |
 
 
 
@@ -100,6 +100,3 @@ If there are multiple elements, the last one is used. If no [filterControl](http
  
 
  
-
-
-

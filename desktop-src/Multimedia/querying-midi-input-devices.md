@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Querying MIDI Input Devices
 
-Before recording MIDI audio, you should use the [**midiInGetDevCaps**](https://msdn.microsoft.com/library/Dd798453(v=VS.85).aspx) function to determine the capabilities of the MIDI input device that is present in the system. This function takes an address of a [**MIDIINCAPS**](https://msdn.microsoft.com/library/Dd798451(v=VS.85).aspx) structure, which it fills with information about the capabilities of the given device. This information includes the manufacturer and product identifiers, a product name for the device, and the version number of the device driver.
+Before recording MIDI audio, you should use the [**midiInGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-midiingetdevcaps) function to determine the capabilities of the MIDI input device that is present in the system. This function takes an address of a [**MIDIINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-midiincaps) structure, which it fills with information about the capabilities of the given device. This information includes the manufacturer and product identifiers, a product name for the device, and the version number of the device driver.
 
 ## Related topics
 
@@ -29,7 +29,3 @@ Before recording MIDI audio, you should use the [**midiInGetDevCaps**](https://m
  
 
  
-
-
-
-

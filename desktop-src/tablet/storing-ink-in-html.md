@@ -29,8 +29,8 @@ If it is necessary to refer to the image by some other means, such as cascading 
 
 Applications that support ink in HTML should:
 
--   Generate CF\_HTML when the user executes a copy. When generating CF\_HTML on copy (or save as HTML), use the [Microsoft.Ink.Ink.Save](https://msdn.microsoft.com/library/ms571335(v=VS.90).aspx) method, specifying the [Microsoft.Ink.PersistenceFormat](https://msdn.microsoft.com/library/ms827245(v=MSDN.10).aspx) value in the *p* parameter, to generate a fortified GIF image. The alt text should be set to the most accurate recognition result. You can set positioning to either absolute or in-place, as desired.
--   Check all IMG tags to determine if any images they point to contain ink, if the CF\_HTML slot is chosen for a paste. If so, treat the images as [Ink](https://msdn.microsoft.com/library/Aa515768(v=MSDN.10).aspx) objects internally. Although only GIF files are supported in this version, your application should check non-GIF images as well, in case additional image formats are supported in the future.
+-   Generate CF\_HTML when the user executes a copy. When generating CF\_HTML on copy (or save as HTML), use the [Microsoft.Ink.Ink.Save](/previous-versions/dotnet/netframework-3.5/ms571335(v=vs.90)) method, specifying the [Microsoft.Ink.PersistenceFormat](/previous-versions/ms827245(v=msdn.10)) value in the *p* parameter, to generate a fortified GIF image. The alt text should be set to the most accurate recognition result. You can set positioning to either absolute or in-place, as desired.
+-   Check all IMG tags to determine if any images they point to contain ink, if the CF\_HTML slot is chosen for a paste. If so, treat the images as [Ink](/previous-versions/aa515768(v=msdn.10)) objects internally. Although only GIF files are supported in this version, your application should check non-GIF images as well, in case additional image formats are supported in the future.
 -   Support the copying and pasting of ISF. Applications that support HTML should also support ISF to enhance interoperability with ink-enabled applications that do not recognize HTML. This is similar to the convention that applications that place HTML on the Clipboard also place text.
 
 For more information about fortified GIFs, see [Building Blocks](building-blocks.md).
@@ -38,6 +38,3 @@ For more information about fortified GIFs, see [Building Blocks](building-blocks
  
 
  
-
-
-

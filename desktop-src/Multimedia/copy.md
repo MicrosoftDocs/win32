@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 The copy command copies data to the clipboard. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -95,10 +95,4 @@ Returns zero if successful or an error otherwise.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

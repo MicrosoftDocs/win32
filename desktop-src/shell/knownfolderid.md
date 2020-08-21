@@ -4923,13 +4923,9 @@ Note that some paths have changed for Windows Vista.
 [How to Extend Known Folders with Custom Folders](how-to-extend-known-folders-with-custom-folders.md)
 </dt> <dt>
 
-[Known Folders Sample](https://msdn.microsoft.com/library/Dd940364(v=VS.85).aspx)
+[Known Folders Sample](/previous-versions/windows/desktop/legacy/dd940364(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-
-

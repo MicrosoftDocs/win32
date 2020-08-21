@@ -8,7 +8,7 @@ ms.topic: reference
 
 # GraphicsPath.AddRectangle methods
 
-This topic lists the AddRectangle methods of the [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx).
+This topic lists the AddRectangle methods of the [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the AddRectangle methods of the [**GraphicsPath**](https://msdn
 
 | Method                                                                               | Description                                                                                                                                     |
 |:-------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AddRectangle(Rect&)**](https://msdn.microsoft.com/library/ms535591(v=VS.85).aspx)   | The [**GraphicsPath::AddRectangle**](https://msdn.microsoft.com/library/ms535591(v=VS.85).aspx) method adds a rectangle to this path.<br/>  |
-| [**AddRectangle(RectF&)**](https://msdn.microsoft.com/library/ms535592(v=VS.85).aspx) | The [**GraphicsPath::AddRectangle**](https://msdn.microsoft.com/library/ms535592(v=VS.85).aspx) method adds a rectangle to this path.<br/> |
+| [**AddRectangle(Rect&)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addrectangle(inconstrect_))   | The [**GraphicsPath::AddRectangle**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addrectangle(inconstrect_)) method adds a rectangle to this path.<br/>  |
+| [**AddRectangle(RectF&)**](/previous-versions//ms535592(v=vs.85)) | The [**GraphicsPath::AddRectangle**](/previous-versions//ms535592(v=vs.85)) method adds a rectangle to this path.<br/> |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the AddRectangle methods of the [**GraphicsPath**](https://msdn
  
 
  
-
-
-
-

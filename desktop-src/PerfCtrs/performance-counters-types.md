@@ -17,7 +17,7 @@ PDH defines the following data types.
 | **PDH\_HQUERY**   | Handle to a query. The [**PdhOpenQuery**](/windows/desktop/api/Pdh/nf-pdh-pdhopenquerya) function returns this handle.                                                                                                                                                                            |
 | **PDH\_HCOUNTER** | Handle to a counter. The [**PdhAddCounter**](/windows/desktop/api/Pdh/nf-pdh-pdhaddcountera) function returns this handle. PDH maintains the linkage between counters and queries.                                                                                                                |
 | **PDH\_HLOG**     | Handle to a log file. The [**PdhOpenLog**](/windows/desktop/api/Pdh/nf-pdh-pdhopenloga) and [**PdhBindInputDataSource**](/windows/desktop/api/Pdh/nf-pdh-pdhbindinputdatasourcea) functions return this handle.                                                                                                                |
-| **PDH\_STATUS**   | PDH status value. All PDH functions return a value of type **PDH\_STATUS**. If the function succeeds, the return value is ERROR\_SUCCESS. Otherwise, the function returns a [system error code](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). |
+| **PDH\_STATUS**   | PDH status value. All PDH functions return a value of type **PDH\_STATUS**. If the function succeeds, the return value is ERROR\_SUCCESS. Otherwise, the function returns a [system error code](/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). |
 
 
 
@@ -26,6 +26,3 @@ PDH defines the following data types.
  
 
  
-
-
-

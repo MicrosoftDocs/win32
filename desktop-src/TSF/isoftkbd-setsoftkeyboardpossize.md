@@ -42,7 +42,7 @@ HRESULT SetSoftKeyboardPosSize(
 *StartPoint* \[in\]
 </dt> <dd>
 
-A [POINT](https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)) structure indicating the coordinates of the upper left position of the soft keyboard.
+A [POINT](/previous-versions//dd162805(v=vs.85)) structure indicating the coordinates of the upper left position of the soft keyboard.
 
 </dd> <dt>
 
@@ -98,10 +98,4 @@ This method can return one of these values.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

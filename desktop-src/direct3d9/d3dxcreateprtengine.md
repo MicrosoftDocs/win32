@@ -51,7 +51,7 @@ Pointer to an input [**ID3DXMesh**](id3dxmesh.md) mesh object that models the 3D
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Optional pointer to an array of three DWORDs per face to be filled with adjacent face indices. The number of bytes in this array must be at least ((3 \* [**GetNumFaces**](id3dxbasemesh--getnumfaces.md)) \* sizeof(DWORD)). May be **NULL**.
 
@@ -60,7 +60,7 @@ Optional pointer to an array of three DWORDs per face to be filled with adjacent
 *ExtractUVs* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 If **TRUE**, textures will be used to store albedos or PRT vectors.
 
@@ -115,7 +115,3 @@ Use [**D3DXConcatenateMeshes**](d3dxconcatenatemeshes.md) to combine multiple me
  
 
  
-
-
-
-

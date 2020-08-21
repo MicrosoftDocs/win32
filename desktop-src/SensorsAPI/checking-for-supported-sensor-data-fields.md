@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This topic describes how to verify that a sensor can provide a particular set of data fields.
 
-After you have retrieved a sensor object, you can call [**ISensor::GetSupportedDataFields**](https://msdn.microsoft.com/library/Dd318890(v=VS.85).aspx) to determine whether the sensor can provide the data you need.
+After you have retrieved a sensor object, you can call [**ISensor::GetSupportedDataFields**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensor-getsupporteddatafields) to determine whether the sensor can provide the data you need.
 
 The following example code creates a helper function that tests whether the sensor can provide all three of the sample data fields. The function takes a pointer to a sensor as its input and returns a Boolean value, where **TRUE** indicates that the sensor can provide all the data fields required.
 
@@ -93,6 +93,3 @@ BOOL CheckForSupportedDataFields(ISensor* pSensor)
  
 
  
-
-
-

@@ -29,12 +29,9 @@ The Windows application programming interface (API) is implemented as a set of D
 
 <dl> <dt>
 
-[DLLs (Visual C++)](https://msdn.microsoft.com/library/1ez7dh12.aspx)
+[DLLs (Visual C++)](/cpp/build/dlls-in-visual-cpp?view=vs-2019)
 </dt> </dl>
 
  
 
  
-
-
-

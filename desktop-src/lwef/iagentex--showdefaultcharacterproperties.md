@@ -44,7 +44,7 @@ The y-coordinate of the window in pixels, relative to the screen origin (upper l
 Default position flag. If this parameter is **True**, Microsoft Agent displays the property sheet window for the default character at the last location it appeared.
 
 > [!Note]  
-> For Windows 2000, it may be necessary to call the new [**AllowSetForegroundWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-allowsetforegroundwindow) API to ensure that this window becomes the foreground window. For more information about setting the foreground window under Windows 2000, see the Platform SDK documentation.
+> For Windows 2000, it may be necessary to call the new [**AllowSetForegroundWindow**](/windows/desktop/api/winuser/nf-winuser-allowsetforegroundwindow) API to ensure that this window becomes the foreground window. For more information about setting the foreground window under Windows 2000, see the Platform SDK documentation.
 
  
 
@@ -58,7 +58,3 @@ Default position flag. If this parameter is **True**, Microsoft Agent displays t
  
 
  
-
-
-
-

@@ -28,13 +28,13 @@ ROBOTS: INDEX,FOLLOW
 
 # DoubleColumnValue class
 
-A [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) column value.
+A [Double](/dotnet/api/system.double) column value.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)\>  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Double](/dotnet/api/system.double)\>  
       Microsoft.Isam.Esent.Interop.DoubleColumnValue  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
@@ -65,4 +65,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [DoubleColumnValue members](dn334200\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

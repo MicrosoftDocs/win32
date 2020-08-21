@@ -12,7 +12,7 @@ A network provider is a DLL that enables the Windows operating system to interac
 
 Because each network exposes a common interface through its provider, Windows can interact with several types of networks without knowing their network-specific implementation details.
 
-The [*Multiple Provider Router*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx) (MPR) handles communication with all of the various network providers on the system and presents an integrated network to the user.
+The [*Multiple Provider Router*](../secgloss/m-gly.md) (MPR) handles communication with all of the various network providers on the system and presents an integrated network to the user.
 
 ## Related topics
 
@@ -39,6 +39,3 @@ The [*Multiple Provider Router*](https://msdn.microsoft.com/library/ms721594(v=V
  
 
  
-
-
-

@@ -23,7 +23,7 @@ Posted when a pointer that made contact over the non-client area of a window bre
 If a window has captured this pointer, this message is not posted. Instead, a [**WM_POINTERUP**](wm-pointerup.md) is posted to the window that has captured this pointer.
 
 > \[!Important\]  
-> Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
+> Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 
  
 
@@ -45,7 +45,7 @@ Contains the pointer identifier and additional information. Use the following ma
 
 [**GET_POINTERID_WPARAM**](/previous-versions/windows/desktop/api)(wParam): pointer identifier
 
-[**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657)(wParam): hit-test value returned from processing the [**WM_NCHITTEST**](https://msdn.microsoft.com/library/windows/desktop/ms645618) message.
+[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))(wParam): hit-test value returned from processing the [**WM_NCHITTEST**](../inputdev/wm-nchittest.md) message.
 
 </dd> <dt>
 
@@ -61,8 +61,8 @@ Contains the point location of the pointer.
 
 Use the following macros to retrieve the physical screen coordinates of the point.
 
--   [**GET_X_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632654)(lParam): the x (horizontal point) coordinate.
--   [**GET_Y_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655)(lParam): the y (vertical point) coordinate.
+-   [**GET_X_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_x_lparam)(lParam): the x (horizontal point) coordinate.
+-   [**GET_Y_LPARAM**](/windows/win32/api/windowsx/nf-windowsx-get_y_lparam)(lParam): the y (vertical point) coordinate.
 
 </dd> </dl>
 
@@ -70,11 +70,11 @@ Use the following macros to retrieve the physical screen coordinates of the poin
 
 If an application processes this message, it should return zero.
 
-If the application does not process this message, it should call [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572).
+If the application does not process this message, it should call [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
 ## Remarks
 
-If the application does not process this message, [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) may perform one or more system actions depending on the hit-test result included in the message. Typically, applications should not need to handle this message.
+If the application does not process this message, [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca) may perform one or more system actions depending on the hit-test result included in the message. Typically, applications should not need to handle this message.
 
 ## Requirements
 
@@ -96,10 +96,4 @@ If the application does not process this message, [**DefWindowProc**](https://ms
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

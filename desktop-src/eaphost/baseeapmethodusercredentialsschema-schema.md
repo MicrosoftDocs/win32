@@ -1,6 +1,6 @@
 ---
 title: baseeapmethodusercredentials Schema
-description: Defines common credential schema elements.
+description: Learn about the baseeapmethodusercredentials schema. This schema defines common credential schema elements.
 ms.assetid: 85a19f7f-993a-4e7e-8c0b-eafef2e586de
 ms.topic: article
 ms.date: 05/31/2018

@@ -44,12 +44,12 @@ Some games only require a few patches throughout their lifecycle. Two methods th
 
 ### Method 1: Use Windows Installer for Occasional Patches
 
-In this method, a Windows Installer is used to install a package (.msi file) and a Windows Installer patch (.msp file) is distributed to install patches. The package must have an MsiPatchCertificate table, and the patch must be digitally signed by a certificate in the table. More information about digital signing can be found at [Authenticode Signing for Game Developers](https://docs.microsoft.com/windows/desktop/DxTechArts/authenticode-signing-for-game-developers).
+In this method, a Windows Installer is used to install a package (.msi file) and a Windows Installer patch (.msp file) is distributed to install patches. The package must have an MsiPatchCertificate table, and the patch must be digitally signed by a certificate in the table. More information about digital signing can be found at [Authenticode Signing for Game Developers](/windows/desktop/DxTechArts/authenticode-signing-for-game-developers).
 
 More details and requirements to use this patching method can be found in the Windows Installer documentation:
 
--   [Patching and Upgrades](https://docs.microsoft.com/windows/desktop/Msi/patching-and-upgrades)
--   [User Account Control (UAC) Patching](https://docs.microsoft.com/windows/desktop/Msi/user-account-control--uac--patching)
+-   [Patching and Upgrades](/windows/desktop/Msi/patching-and-upgrades)
+-   [User Account Control (UAC) Patching](/windows/desktop/Msi/user-account-control--uac--patching)
 
 The disadvantage to this method is that if the game was not installed from removable media on Windows XP, then patching requires Administrator rights. However, this not likely to be too restrictive, because most users administrators on Windows XP, and the restriction to software installed from removable media is not present on Windows Vista.
 
@@ -71,14 +71,14 @@ The advantage of this method is its simplicity. However, this method is unsuitab
 
  
 
-When implementing this method, the executable file that applies the patch must be different from the game executable. The manifest of the patching executable should specify requireAdministrator for requestedExecutionLevel to denote it as an application that requires Administrator rights. More information about how to do this can be found at [Developer Best Practices and Guidelines for Applications in a Least Privileged Environment](https://msdn2.microsoft.com/library/aa480150.aspx), in "Application Manifest Schema."
+When implementing this method, the executable file that applies the patch must be different from the game executable. The manifest of the patching executable should specify requireAdministrator for requestedExecutionLevel to denote it as an application that requires Administrator rights. More information about how to do this can be found at [Developer Best Practices and Guidelines for Applications in a Least Privileged Environment](/previous-versions/dotnet/articles/aa480150(v=msdn.10)), in "Application Manifest Schema."
 
 When this method is used, even with the settings in the manifest, the executable file might still be launched without Administrator rights in two cases:
 
 -   If the operating system is Windows XP, and the user's account is a Restricted User.
 -   If the operating system is Windows Vista or Windows 7, the user's account is a Standard User, and UAC is disabled.
 
-Both of these are rare consumer scenarios. However, the patcher should have the manifest require Administrator rights, and it should call [**IsUserAnAdmin**](https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-isuseranadmin); if this function returns FALSE, the error message "Administrator rights are required" is displayed.
+Both of these are rare consumer scenarios. However, the patcher should have the manifest require Administrator rights, and it should call [**IsUserAnAdmin**](/windows/desktop/api/shlobj_core/nf-shlobj_core-isuseranadmin); if this function returns FALSE, the error message "Administrator rights are required" is displayed.
 
 Overall, method 1 is preferable for games that need just a few patches over their lifetimes.
 
@@ -88,13 +88,13 @@ Many Internet-based games are being improved continuously, and they usually requ
 
 ### Method 3: Install Per-User
 
-One recommended and easy approach is to install the entire game to a per-user subfolder of the local application data folder, which you can find by calling [**SHGetFolderPath**](https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) with CSIDL\_LOCAL\_APPDATA. An example path is C:\\Documents and Settings\\user name\\Local Settings\\Application Data\\ExampleGame. Such a location allows an application running with Standard User rights to directly modify game files.
+One recommended and easy approach is to install the entire game to a per-user subfolder of the local application data folder, which you can find by calling [**SHGetFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) with CSIDL\_LOCAL\_APPDATA. An example path is C:\\Documents and Settings\\user name\\Local Settings\\Application Data\\ExampleGame. Such a location allows an application running with Standard User rights to directly modify game files.
 
 However, there is a disadvantage to this approach when a computer has multiple users: each user has a copy of the game installed, and patches must be downloaded and applied by each user. This wastes not only users' time and disk space, but it also increases use of network bandwidth to the server that provides patches. Also, because any application with standard user rights can modify the game, game executables are less protected; it is up to the game manufacturer to decide if this is acceptable or not.
 
 ### Method 4: Install to a Common Per-Computer Location
 
-Another method is to install the non-executable game data to a subdirectory of the path specified by [**SHGetFolderPath**](https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) CSIDL\_COMMON\_APPDATA; an example path is C:\\Documents and Settings\\All Users\\Application Data\\ExampleGame. This is a shared location for all users, and it can be modified by applications that run with Standard User rights. This method minimizes the need to reapply large patches when the game is played from more than one account. Executable files for the game should be kept in %SystemDrive%\\Programs Files to minimize the risk to other accounts on the system. The executable files should verify the integrity of the new content in the shared directory, since that location can be modified by a program or person with Standard User rights; consider using [**MapFileAndCheckSum**](https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-mapfileandchecksuma) to compute a checksum of the files.
+Another method is to install the non-executable game data to a subdirectory of the path specified by [**SHGetFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) CSIDL\_COMMON\_APPDATA; an example path is C:\\Documents and Settings\\All Users\\Application Data\\ExampleGame. This is a shared location for all users, and it can be modified by applications that run with Standard User rights. This method minimizes the need to reapply large patches when the game is played from more than one account. Executable files for the game should be kept in %SystemDrive%\\Programs Files to minimize the risk to other accounts on the system. The executable files should verify the integrity of the new content in the shared directory, since that location can be modified by a program or person with Standard User rights; consider using [**MapFileAndCheckSum**](/windows/desktop/api/imagehlp/nf-imagehlp-mapfileandchecksuma) to compute a checksum of the files.
 
 This method has the advantage of working equally well on both Windows XP and Windows Vista, and it doesn't require Administrator rights.
 
@@ -108,12 +108,8 @@ One final possibility is to write a custom service. In general, writing a custom
 
 Ultimately, it is up to you to decide which method to implement. You need to weigh the factors are that are important to you. Security, frequency of patching, ease of use by customer, workload required to implement, complexity of solution, and platform feature compliance are the factors that each developer must consider before deciding on a particular method.
 
-You can find more information about user account protection in [Windows Vista Application Development Requirements for User Account Control (UAC)](https://msdn2.microsoft.com/library/aa905330.aspx).
+You can find more information about user account protection in [Windows Vista Application Development Requirements for User Account Control (UAC)](/previous-versions/aa905330(v=msdn.10)).
 
  
 
  
-
-
-
-

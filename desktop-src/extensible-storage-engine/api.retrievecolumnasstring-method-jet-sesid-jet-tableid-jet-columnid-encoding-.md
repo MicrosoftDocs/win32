@@ -83,13 +83,13 @@ public static string RetrieveColumnAsString(
 <!-- end list -->
 
   - encoding  
-    Type: [System.Text.Encoding](https://docs.microsoft.com/dotnet/api/system.text.encoding?redirectedfrom=MSDN)  
+    Type: [System.Text.Encoding](/dotnet/api/system.text.encoding)  
     
     The string encoding to use when converting data.
 
 #### Return value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+Type: [System.String](/dotnet/api/system.string)  
 The data retrieved from the column as a string. Null if the column is null.  
 
 ## See also
@@ -103,4 +103,3 @@ The data retrieved from the column as a string. Null if the column is null.
 [RetrieveColumnAsString overload](dn334102\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

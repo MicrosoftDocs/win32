@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Device Providers
 
-Device providers are registered objects that the computer starts on every system startup. Device providers register and unregister running devices with the device host in response to some event. These devices are devices that have been automatically started at system startup time. For security reasons, a device provider should generally run as [LocalService](https://docs.microsoft.com/windows/desktop/Services/localservice-account), rather than [LocalSystem](https://docs.microsoft.com/windows/desktop/Services/localsystem-account).
+Device providers are registered objects that the computer starts on every system startup. Device providers register and unregister running devices with the device host in response to some event. These devices are devices that have been automatically started at system startup time. For security reasons, a device provider should generally run as [LocalService](/windows/desktop/Services/localservice-account), rather than [LocalSystem](/windows/desktop/Services/localsystem-account).
 
 Device providers can be used for transient devices. Device providers can also be used to bridge devices to polled media. For example, a peripheral device such as a digital music player is connected to a computer via a serial port. To expose the music player as a UPnP-based device, a device control object and a set of service objects are required. These objects implement the UPnP-based music player actions as serial commands. However, the music player must be plugged into the serial port and available for control before these objects are registered.
 
@@ -25,7 +25,3 @@ When the computer is shut down, the device host invokes the [**IUPnPDeviceProvid
  
 
  
-
-
-
-

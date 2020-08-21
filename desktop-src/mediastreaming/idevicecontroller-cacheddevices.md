@@ -61,14 +61,8 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 <dl> <dt>
 
-[**IDeviceController**](https://msdn.microsoft.com/library/Hh828901(v=VS.85).aspx)
+[**IDeviceController**](/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-idevicecontroller)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

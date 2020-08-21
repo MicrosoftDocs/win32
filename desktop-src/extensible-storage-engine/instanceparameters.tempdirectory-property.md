@@ -57,7 +57,7 @@ public string TempDirectory { get; set; }
 
 #### Property value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+Type: [System.String](/dotnet/api/system.string)  
 
 ## See also
 
@@ -68,4 +68,3 @@ Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redire
 [InstanceParameters members](dn350943\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

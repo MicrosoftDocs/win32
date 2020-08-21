@@ -22,7 +22,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncMPAEmphasisType**](https://msdn.microsoft.com/library/Dd319403(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVEncMPAEmphasisType**](/windows/win32/api/codecapi/ne-codecapi-eavencmpaemphasistype) enumeration.
 
 ## Remarks
 
@@ -51,9 +51,4 @@ This property sets the emphasis bits in the frame header.
 </dt> </dl>
 
  
-
- 
-
-
-
 

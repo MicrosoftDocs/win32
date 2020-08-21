@@ -51,8 +51,8 @@ The following table lists the UI labels of the **Member Of** property sheet.
 
 | UI label          | Active Directory Domain Services attribute | Comments                                                                                                                                                                   |
 |-------------------|--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Member of         | memberOf                                   | Includes all of the groups in the UI list, except the primary group, which is represented in the AD through the [**primaryGroupId**](https://docs.microsoft.com/windows/desktop/ADSchema/a-primarygroupid) attribute. |
-| Set Primary Group | primaryGroupID                             | LDAP: Tied to [**primaryGroupToken**](https://docs.microsoft.com/windows/desktop/ADSchema/a-primarygrouptoken) of the primary group.                                                                                  |
+| Member of         | memberOf                                   | Includes all of the groups in the UI list, except the primary group, which is represented in the AD through the [**primaryGroupId**](/windows/desktop/ADSchema/a-primarygroupid) attribute. |
+| Set Primary Group | primaryGroupID                             | LDAP: Tied to [**primaryGroupToken**](/windows/desktop/ADSchema/a-primarygrouptoken) of the primary group.                                                                                  |
 
 
 
@@ -77,7 +77,3 @@ The following table lists the UI labels of the **Operating System** property she
  
 
  
-
-
-
-

@@ -193,7 +193,7 @@
       href: functions.md
       items: 
       - name: "FileCallback"
-        href: https://docs.microsoft.com/windows/desktop/api/setupapi/nc-setupapi-psp_file_callback_a
+        href: /windows/desktop/api/setupapi/nc-setupapi-psp_file_callback_a
       - name: "InstallHinfSection"
         href: /windows/desktop/api/Setupapi/nf-setupapi-installhinfsectiona
       - name: "SetupAddInstallSectionToDiskSpaceList"

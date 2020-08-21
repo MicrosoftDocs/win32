@@ -32,15 +32,15 @@ These operations can be performed without inhibiting other processes from runnin
 
 **To defragment a file**
 
-1.  Use the [**FSCTL\_GET\_VOLUME\_BITMAP**](https://msdn.microsoft.com/library/Aa364573(v=VS.85).aspx) control code to find a place on the volume that is large enough to accept an entire file.
+1.  Use the [**FSCTL\_GET\_VOLUME\_BITMAP**](/windows/win32/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap) control code to find a place on the volume that is large enough to accept an entire file.
     > [!Note]  
     > If necessary, move other files to make a place that is large enough. Ideally, there is enough unallocated clusters after the first extent of the file that you can move subsequent extents into the space after the first extent.
 
      
 
-2.  Use the [**FSCTL\_GET\_RETRIEVAL\_POINTERS**](https://msdn.microsoft.com/library/Aa364572(v=VS.85).aspx) control code to get a map of the current layout of the file on the disk.
-3.  Walk the [**RETRIEVAL\_POINTERS\_BUFFER**](/windows/desktop/api/WinIoCtl/ns-winioctl-retrieval_pointers_buffer) structure returned by [**FSCTL\_GET\_RETRIEVAL\_POINTERS**](https://msdn.microsoft.com/library/Aa364572(v=VS.85).aspx).
-4.  Use the [**FSCTL\_MOVE\_FILE**](https://msdn.microsoft.com/library/Aa364577(v=VS.85).aspx) control code to move each cluster as you walk the structure.
+2.  Use the [**FSCTL\_GET\_RETRIEVAL\_POINTERS**](/windows/win32/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers) control code to get a map of the current layout of the file on the disk.
+3.  Walk the [**RETRIEVAL\_POINTERS\_BUFFER**](/windows/desktop/api/WinIoCtl/ns-winioctl-retrieval_pointers_buffer) structure returned by [**FSCTL\_GET\_RETRIEVAL\_POINTERS**](/windows/win32/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers).
+4.  Use the [**FSCTL\_MOVE\_FILE**](/windows/win32/api/winioctl/ni-winioctl-fsctl_move_file) control code to move each cluster as you walk the structure.
     > [!Note]  
     > You may need to renew either the bitmap or the retrieval structure, or both at various times as other processes write to the disk.
 
@@ -65,11 +65,11 @@ When possible, move data in blocks aligned relative to each other in 16-kilobyte
 
 The move delta is the number of bytes between the start of the source block and the start of the target block. In other words, a block starting at offset X (on-disk) can be moved to a starting offset Y if the absolute value of X minus Y is an even multiple of 16 KB. So, assuming 4-KB clusters, a move from cluster 3 to cluster 27 will be optimized, but a move from cluster 18 to cluster 24 will not. Note that mod(3,4) = 3 = mod(27,4). Mod 4 is chosen because four clusters at 4 KB each is equivalent to 16 KB. Therefore, a volume formatted to a 16-KB cluster size will result in all move files being optimized.
 
-For more information about shadow copies, see [Volume Shadow Copy Service](https://docs.microsoft.com/windows/desktop/VSS/about-the-volume-shadow-copy-service).
+For more information about shadow copies, see [Volume Shadow Copy Service](/windows/desktop/VSS/about-the-volume-shadow-copy-service).
 
 ## Files, streams, and stream types supported for defragmentation
 
-While most files can be moved using the [**FSCTL\_MOVE\_FILE**](https://msdn.microsoft.com/library/Aa364577(v=VS.85).aspx) control code, not all can be moved. Below is the list of files, streams, and stream types (also called attribute type codes) supported by **FSCTL\_MOVE\_FILE**. Other files, streams, and stream types are not supported by **FSCTL\_MOVE\_FILE**.
+While most files can be moved using the [**FSCTL\_MOVE\_FILE**](/windows/win32/api/winioctl/ni-winioctl-fsctl_move_file) control code, not all can be moved. Below is the list of files, streams, and stream types (also called attribute type codes) supported by **FSCTL\_MOVE\_FILE**. Other files, streams, and stream types are not supported by **FSCTL\_MOVE\_FILE**.
 
 Stream types supported for any file or directory.
 
@@ -86,7 +86,7 @@ Stream types supported for any directory.
 -   ::$BITMAP
 -   ::$INDEX\_ALLOCATION
 
-Following are the system file, stream, and stream types supported by [**FSCTL\_MOVE\_FILE**](https://msdn.microsoft.com/library/Aa364577(v=VS.85).aspx) in "*filename*:*streamname*:$*typename*" format.
+Following are the system file, stream, and stream types supported by [**FSCTL\_MOVE\_FILE**](/windows/win32/api/winioctl/ni-winioctl-fsctl_move_file) in "*filename*:*streamname*:$*typename*" format.
 
 -   $MFT::$DATA
 -   $MFT::$ATTRIBUTE\_LIST
@@ -140,6 +140,3 @@ Following are the system file, stream, and stream types supported by [**FSCTL\_M
  
 
  
-
-
-

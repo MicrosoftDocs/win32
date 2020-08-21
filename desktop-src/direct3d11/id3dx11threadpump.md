@@ -29,7 +29,7 @@ A thread pump executes tasks asynchronously. It is created by calling [**D3DX11C
 
 ## Members
 
-The **ID3DX11ThreadPump** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX11ThreadPump** also has these types of members:
+The **ID3DX11ThreadPump** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX11ThreadPump** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -141,10 +141,4 @@ The thread pump object takes up a substantial amount of resources, so generally 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

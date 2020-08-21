@@ -14,7 +14,7 @@ api_location:
 
 # Accessing Performance Data in Script
 
-WMI scripts can access the preinstalled WMI [Performance Counter Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/performance-counter-classes), either on the local computer or remotely. While scripts can obtain data from uncalculated classes, such as [**Win32\_PerfRawData\_PerfOS\_Memory**](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data), or formatted classes, [**Win32\_PerfFormattedData\_PerfOS\_Memory**](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data), the formatted data classes can be easier to use.
+WMI scripts can access the preinstalled WMI [Performance Counter Classes](/windows/desktop/CIMWin32Prov/performance-counter-classes), either on the local computer or remotely. While scripts can obtain data from uncalculated classes, such as [**Win32\_PerfRawData\_PerfOS\_Memory**](/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data), or formatted classes, [**Win32\_PerfFormattedData\_PerfOS\_Memory**](/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data), the formatted data classes can be easier to use.
 
 Monitoring performance data with the performance counter classes requires the use of a [*refresher*](gloss-r.md). Use the [**SWbemRefresher**](swbemrefresher.md) object to store one or more performance objects for refresh or refresh a single object by the [**SWbemObjectEx.Refresh**](swbemobjectex-refresh-.md) call. For more information, see [Refreshing WMI Data in Scripts](refreshing-wmi-data-in-scripts.md).
 
@@ -93,7 +93,7 @@ next
 
 <dl> <dt>
 
-[Performance Counter Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/performance-counter-classes)
+[Performance Counter Classes](/windows/desktop/CIMWin32Prov/performance-counter-classes)
 </dt> <dt>
 
 [WMI Tasks: Performance Monitoring](wmi-tasks--performance-monitoring.md)
@@ -105,6 +105,3 @@ next
  
 
  
-
-
-

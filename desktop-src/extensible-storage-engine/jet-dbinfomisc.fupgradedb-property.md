@@ -55,7 +55,7 @@ public bool fUpgradeDb { get; internal set; }
 
 #### Property value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 
 ## See also
 
@@ -66,4 +66,3 @@ Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redi
 [JET_DBINFOMISC members](hh566148\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

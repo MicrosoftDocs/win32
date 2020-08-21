@@ -37,7 +37,7 @@ Following is a typical MDI application. It is named Multipad.
 
 ## Child Window Creation
 
-To create a child window, an MDI application either calls the [**CreateMDIWindow**](https://msdn.microsoft.com/library/ms644923(v=VS.85).aspx) function or sends the [**WM\_MDICREATE**](wm-mdicreate.md) message to the MDI client window. A more efficient way to create an MDI child window is to call the [**CreateWindowEx**](https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx) function, specifying the **WS\_EX\_MDICHILD** extended style.
+To create a child window, an MDI application either calls the [**CreateMDIWindow**](/windows/win32/api/winuser/nf-winuser-createmdiwindowa) function or sends the [**WM\_MDICREATE**](wm-mdicreate.md) message to the MDI client window. A more efficient way to create an MDI child window is to call the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function, specifying the **WS\_EX\_MDICHILD** extended style.
 
 To destroy a child window, an MDI application sends a [**WM\_MDIDESTROY**](wm-mdidestroy.md) message to the MDI client window.
 
@@ -82,7 +82,7 @@ When the user is navigating through an MDI application's menus by using cursor k
 
 ## Multiple Document Accelerators
 
-To receive and process accelerator keys for its child windows, an MDI application must include the [**TranslateMDISysAccel**](https://msdn.microsoft.com/library/ms644926(v=VS.85).aspx) function in its message loop. The loop must call **TranslateMDISysAccel** before calling the [**TranslateAccelerator**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translateacceleratora) or [**DispatchMessage**](https://msdn.microsoft.com/library/ms644934(v=VS.85).aspx) function.
+To receive and process accelerator keys for its child windows, an MDI application must include the [**TranslateMDISysAccel**](/windows/win32/api/winuser/nf-winuser-translatemdisysaccel) function in its message loop. The loop must call **TranslateMDISysAccel** before calling the [**TranslateAccelerator**](/windows/desktop/api/winuser/nf-winuser-translateacceleratora) or [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) function.
 
 Accelerator keys on the window menu for an MDI child window are different from those for a non-MDI child window. In an MDI child window, the ALT+ – (minus) key combination opens the window menu, the CTRL+F4 key combination closes the active child window, and the CTRL+F6 key combination activates the next child window.
 
@@ -100,7 +100,7 @@ An MDI application should provide a different icon for each type of child window
 
 Because MDI child windows may be minimized, an MDI application must avoid manipulating icon title windows as if they were normal MDI child windows. Icon title windows appear when the application enumerates child windows of the MDI client window. Icon title windows differ from other child windows, however, in that they are owned by an MDI child window.
 
-To determine whether a child window is an icon title window, use the [**GetWindow**](https://msdn.microsoft.com/library/ms633515(v=VS.85).aspx) function with the GW\_OWNER index. Non-title windows return **NULL**. Note that this test is insufficient for top-level windows, because menus and dialog boxes are owned windows.
+To determine whether a child window is an icon title window, use the [**GetWindow**](/windows/win32/api/winuser/nf-winuser-getwindow) function with the GW\_OWNER index. Non-title windows return **NULL**. Note that this test is insufficient for top-level windows, because menus and dialog boxes are owned windows.
 
 ## Child Window Data
 
@@ -111,7 +111,7 @@ Because the number of child windows varies depending on how many documents the u
 
 ### Window Structure
 
-When an MDI application registers a window class, it may reserve extra space in the window structure for application data specific to this particular class of windows. To store and retrieve data in this extra space, the application uses the [**GetWindowLong**](https://msdn.microsoft.com/library/ms633584(v=VS.85).aspx) and [**SetWindowLong**](https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx) functions.
+When an MDI application registers a window class, it may reserve extra space in the window structure for application data specific to this particular class of windows. To store and retrieve data in this extra space, the application uses the [**GetWindowLong**](/windows/win32/api/winuser/nf-winuser-getwindowlonga) and [**SetWindowLong**](/windows/win32/api/winuser/nf-winuser-setwindowlonga) functions.
 
 To maintain a large amount of data for a child window, an application can allocate memory for a data structure and then store the handle to the memory containing the structure in the extra space associated with the child window.
 
@@ -122,6 +122,3 @@ An MDI application can also store per-document data by using window properties. 
  
 
  
-
-
-

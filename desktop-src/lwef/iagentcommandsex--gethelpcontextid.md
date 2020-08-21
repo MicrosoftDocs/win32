@@ -16,7 +16,7 @@ HRESULT GetHelpContextID(
 );
 ```
 
-Retrieves the [**HelpContextID**](helpcontextid-property.md) for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object.
+Retrieves the [**HelpContextID**](helpcontextid-property.md) for a [**Command**](/windows/desktop/lwef/the-command-object) object.
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,11 +25,11 @@ Retrieves the [**HelpContextID**](helpcontextid-property.md) for a [**Command**]
 <span id="pulHelpID"></span><span id="pulhelpid"></span><span id="PULHELPID"></span>*pulHelpID*
 </dt> <dd>
 
-Address of a variable that receives the context number of the help topic for the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object.
+Address of a variable that receives the context number of the help topic for the [**Command**](/windows/desktop/lwef/the-command-object) object.
 
 </dd> </dl>
 
-If you've created a Windows Help file for your application and set the character's [**HelpFile**](helpfile-property.md) property, Microsoft Agent automatically calls Help when [**HelpModeOn**](helpmodeon-property.md) is set to **True** and the user selects your [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object. If there is a context number in the [**HelpContextID**](helpcontextid-property.md), Agent calls Help and searches for the topic identified by the current context number. The current context number is the value of **HelpContextID** for the **Command** object.
+If you've created a Windows Help file for your application and set the character's [**HelpFile**](helpfile-property.md) property, Microsoft Agent automatically calls Help when [**HelpModeOn**](helpmodeon-property.md) is set to **True** and the user selects your [**Command**](/windows/desktop/lwef/the-command-object) object. If there is a context number in the [**HelpContextID**](helpcontextid-property.md), Agent calls Help and searches for the topic identified by the current context number. The current context number is the value of **HelpContextID** for the **Command** object.
 
 This property applies only to your client application's use of the character; the setting does not affect other clients of the character or other characters of your client application.
 
@@ -46,7 +46,3 @@ This property applies only to your client application's use of the character; th
  
 
  
-
-
-
-

@@ -22,13 +22,13 @@ The following functions are used with device contexts.
 | [**CreateIC**](/windows/desktop/api/Wingdi/nf-wingdi-createica)                               | Creates an information context for the specified device.                                                                                  |
 | [**DeleteDC**](/windows/desktop/api/Wingdi/nf-wingdi-deletedc)                               | Deletes the specified device context.                                                                                                     |
 | [**DeleteObject**](/windows/desktop/api/Wingdi/nf-wingdi-deleteobject)                       | Deletes a logical pen, brush, font, bitmap, region, or palette, freeing all system resources associated with the object.                  |
-| [**DeviceCapabilities**](https://msdn.microsoft.com/library/Dd183552(v=VS.85).aspx)           | Retrieves the capabilities of a printer device driver.                                                                                    |
+| [**DeviceCapabilities**](/windows/win32/api/wingdi/nf-wingdi-devicecapabilitiesa)           | Retrieves the capabilities of a printer device driver.                                                                                    |
 | [**DrawEscape**](/windows/desktop/api/Wingdi/nf-wingdi-drawescape)                           | Provides drawing capabilities of the specified video display that are not directly available through the graphics device interface.       |
 | [**EnumDisplayDevices**](/windows/desktop/api/Winuser/nf-winuser-enumdisplaydevicesa)           | Retrieves information about the display devices in a system.                                                                              |
 | [**EnumDisplaySettings**](/windows/desktop/api/Winuser/nf-winuser-enumdisplaysettingsa)         | Retrieves information about one of the graphics modes for a display device.                                                               |
 | [**EnumDisplaySettingsEx**](/windows/desktop/api/Winuser/nf-winuser-enumdisplaysettingsexa)     | Retrieves information about one of the graphics modes for a display device.                                                               |
 | [**EnumObjects**](/windows/desktop/api/Wingdi/nf-wingdi-enumobjects)                         | Enumerates the pens or brushes available for the specified device context.                                                                |
-| [**EnumObjectsProc**](https://msdn.microsoft.com/library/Dd162686(v=VS.85).aspx)                 | An application-defined callback function used with the [**EnumObjects**](/windows/desktop/api/Wingdi/nf-wingdi-enumobjects) function.                                       |
+| [**EnumObjectsProc**](/windows/win32/api/wingdi/nc-wingdi-gobjenumproc)                 | An application-defined callback function used with the [**EnumObjects**](/windows/desktop/api/Wingdi/nf-wingdi-enumobjects) function.                                       |
 | [**GetCurrentObject**](/windows/desktop/api/Wingdi/nf-wingdi-getcurrentobject)               | Retrieves a handle to an object of the specified type that has been selected into the specified device context.                           |
 | [**GetDC**](/windows/desktop/api/Winuser/nf-winuser-getdc)                                     | Retrieves a handle to a display device context for the client area of a specified window or for the entire screen.                        |
 | [**GetDCBrushColor**](/windows/desktop/api/WinGdi/nf-wingdi-getdcbrushcolor)                 | Retrieves the current brush color for the specified device context.                                                                       |
@@ -57,6 +57,3 @@ The following functions are used with device contexts.
  
 
  
-
-
-

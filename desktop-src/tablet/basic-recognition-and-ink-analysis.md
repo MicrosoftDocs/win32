@@ -56,7 +56,7 @@ Thus, there are two mechanisms for attaining recognition results:
 
  
 
-To use the [**BackgroundAnalyze**](iinkanalyzer-backgroundanalyze.md) operation, the [**InkCollector**](inkcollector-class.md) object (or similar objects or controls such as the [**RealTimeStylus**](realtimestylus-class.md) (RTS), [**InkOverlay**](inkoverlay-class.md), or [InkCanvas](https://msdn.microsoft.com/library/ms610988(v=VS.90).aspx) in Windows Presentation Foundation) manages the collection and rendering of the ink strokes. If the **InkCollector** is paired with the ink analysis APIs, applications can keep the recognition results updated by informing the [**InkAnalyzer**](inkanalyzer.md) about each new stroke added to the application. This allows for the **InkAnalyzer** to recognize the strokes incrementally and on a background thread.
+To use the [**BackgroundAnalyze**](iinkanalyzer-backgroundanalyze.md) operation, the [**InkCollector**](inkcollector-class.md) object (or similar objects or controls such as the [**RealTimeStylus**](realtimestylus-class.md) (RTS), [**InkOverlay**](inkoverlay-class.md), or [InkCanvas](/dotnet/api/system.windows.controls.inkcanvas?view=netcore-3.1) in Windows Presentation Foundation) manages the collection and rendering of the ink strokes. If the **InkCollector** is paired with the ink analysis APIs, applications can keep the recognition results updated by informing the [**InkAnalyzer**](inkanalyzer.md) about each new stroke added to the application. This allows for the **InkAnalyzer** to recognize the strokes incrementally and on a background thread.
 
 To accomplish incremental background analysis, applications need to implement three steps (shown for managed code):
 
@@ -109,7 +109,7 @@ private void analysisTimer_Tick(object sender, System.EventArgs e)
 
  
 
-3. Listen for the [ResultsUpdated](https://msdn.microsoft.com/library/ms567607(v=VS.90).aspx) event (managed code) or [**Results**](-ianalysisevents-results.md) event (C++ code) to determine when the background process has finished:
+3. Listen for the [ResultsUpdated](/previous-versions/ms567607(v=vs.100)) event (managed code) or [**Results**](-ianalysisevents-results.md) event (C++ code) to determine when the background process has finished:
 
 
 ```C++
@@ -344,6 +344,3 @@ class PointEraseAnalysisSample : Application
  
 
  
-
-
-

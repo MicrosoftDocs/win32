@@ -52,7 +52,7 @@ The **MDM\_Policy\_Config01\_Maps02** class has these properties.
 
 <dl> <dt>
 
-[AllowOfflineMapsDownloadOverMeteredConnection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-maps#maps-allowofflinemapsdownloadovermeteredconnection)
+[AllowOfflineMapsDownloadOverMeteredConnection](/windows/client-management/mdm/policy-csp-maps#maps-allowofflinemapsdownloadovermeteredconnection)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -63,7 +63,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[EnableOfflineMapsAutoUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-maps#maps-enableofflinemapsautoupdate)
+[EnableOfflineMapsAutoUpdate](/windows/client-management/mdm/policy-csp-maps#maps-enableofflinemapsautoupdate)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -83,7 +83,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "Maps".
@@ -99,7 +99,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Config"
@@ -121,10 +121,4 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 
  
-
- 
-
-
-
-
 

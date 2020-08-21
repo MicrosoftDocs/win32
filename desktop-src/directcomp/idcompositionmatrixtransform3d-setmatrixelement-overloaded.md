@@ -24,8 +24,8 @@ Changes or animates the value of one element of the matrix of this 3D transform.
 
 | Method                                                                                                                                 | Description                                                                      |
 |:---------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
-| [**SetMatrixElement(int, int, float)**](https://msdn.microsoft.com/library/Hh437427(v=VS.85).aspx)                                     | Changes the value of one element of the matrix of this 3D transform.<br/>  |
-| [**SetMatrixElement(int, int, IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Hh437428(v=VS.85).aspx) | Animates the value of one element of the matrix of this 3D transform.<br/> |
+| [**SetMatrixElement(int, int, float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionmatrixtransform3d-setmatrixelement(int_int_float))                                     | Changes the value of one element of the matrix of this 3D transform.<br/>  |
+| [**SetMatrixElement(int, int, IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionmatrixtransform3d-setmatrixelement(int_int_idcompositionanimation)) | Animates the value of one element of the matrix of this 3D transform.<br/> |
 
 
 
@@ -47,14 +47,9 @@ Changes or animates the value of one element of the matrix of this 3D transform.
 
 <dl> <dt>
 
-[**IDCompositionMatrixTransform3D**](https://msdn.microsoft.com/library/Hh437425(v=VS.85).aspx)
+[**IDCompositionMatrixTransform3D**](/windows/win32/api/dcomp/nn-dcomp-idcompositionmatrixtransform3d)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

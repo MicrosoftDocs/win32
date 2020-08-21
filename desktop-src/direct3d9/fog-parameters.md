@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Fog Parameters (Direct3D 9)
 
-Fog parameters are controlled through device render states. Both pixel and vertex fog types support all the fog formulas introduced in [Fog Formulas (Direct3D 9)](fog-formulas.md). The [**D3DFOGMODE**](https://msdn.microsoft.com/library/Bb172557(v=VS.85).aspx) enumerated type defines constants that you can use to identify the fog formula you want Microsoft Direct3D to use. The D3DRS\_FOGTABLEMODE render state controls the fog mode that Direct3D uses for pixel fog, and the D3DRS\_FOGVERTEXMODE render state controls the mode for vertex fog.
+Fog parameters are controlled through device render states. Both pixel and vertex fog types support all the fog formulas introduced in [Fog Formulas (Direct3D 9)](fog-formulas.md). The [**D3DFOGMODE**](./d3dfogmode.md) enumerated type defines constants that you can use to identify the fog formula you want Microsoft Direct3D to use. The D3DRS\_FOGTABLEMODE render state controls the fog mode that Direct3D uses for pixel fog, and the D3DRS\_FOGVERTEXMODE render state controls the mode for vertex fog.
 
 When using the linear fog formula, you set the starting and ending distances through the D3DRS\_FOGSTART and D3DRS\_FOGEND render states. How the system interprets these values depends on the type of fog your application uses - pixel or vertex fog - and, when using pixel fog, if z-based or w-based depth is being used. The following table summarizes fog types and their start and end units.
 
@@ -38,6 +38,3 @@ The color that the system uses for fog blending is controlled through the D3DRS\
  
 
  
-
-
-

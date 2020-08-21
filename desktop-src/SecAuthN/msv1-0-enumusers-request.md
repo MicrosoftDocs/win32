@@ -10,11 +10,8 @@ ms.date: 05/31/2018
 
 The MSV1\_0\_ENUMUSERS\_REQUEST structure is obsolete.
 
-For retrieving information about logged on users, see the [**NetWkstaUserEnum**](https://msdn.microsoft.com/library/Aa370669(v=VS.85).aspx) function.
+For retrieving information about logged on users, see the [**NetWkstaUserEnum**](/windows/win32/api/lmwksta/nf-lmwksta-netwkstauserenum) function.
 
  
 
  
-
-
-

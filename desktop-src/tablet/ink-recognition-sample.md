@@ -24,7 +24,7 @@ Imports Microsoft.Ink
 
 ## Initialize the InkCollector
 
-The sample adds code to the form's [Load](https://msdn.microsoft.com/library/4w303742(v=VS.100).aspx) event handler that serves to associate the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx), myInkCollector, with the group box window and enable the InkCollector.
+The sample adds code to the form's [Load](/dotnet/api/system.windows.forms.form.load?view=netcore-3.1) event handler that serves to associate the [InkCollector](/previous-versions/ms583683(v=vs.100)), myInkCollector, with the group box window and enable the InkCollector.
 
 
 ```VB
@@ -46,9 +46,9 @@ End Sub
 
 ## Recognize the Strokes
 
-The [Button](https://msdn.microsoft.com/library/031c58k4(v=VS.90).aspx) object's [Click](https://msdn.microsoft.com/library/hkz3c8hc(v=VS.90).aspx) event handler checks to ensure that the user has at least one recognizer installed by examining the [Count](https://msdn.microsoft.com/library/ms828521(v=MSDN.10).aspx) property of the [Recognizers](https://msdn.microsoft.com/library/ms828520(v=MSDN.10).aspx) collection.
+The [Button](/dotnet/api/system.windows.forms.button?view=netcore-3.1) object's [Click](/dotnet/api/system.windows.forms.control.click?view=netcore-3.1) event handler checks to ensure that the user has at least one recognizer installed by examining the [Count](/previous-versions/ms828521(v=msdn.10)) property of the [Recognizers](/previous-versions/ms828520(v=msdn.10)) collection.
 
-The [SelectedText](https://msdn.microsoft.com/library/ms605830(v=VS.96).aspx) property of the text box is set to the best match for the strokes using the [ToString](https://msdn.microsoft.com/library/ms827836(v=MSDN.10).aspx) method on the [Strokes](https://msdn.microsoft.com/library/ms552701(v=VS.100).aspx) collection. After the strokes have been recognized, they are deleted. Finally, the code forces drawing area repaint, clearing it for further ink use.
+The [SelectedText](/previous-versions/windows/) property of the text box is set to the best match for the strokes using the [ToString](/previous-versions/ms827836(v=msdn.10)) method on the [Strokes](/previous-versions/ms552701(v=vs.100)) collection. After the strokes have been recognized, they are deleted. Finally, the code forces drawing area repaint, clearing it for further ink use.
 
 
 ```VB
@@ -82,11 +82,8 @@ End Sub
 
 ## Closing the Form
 
-The form's [Dispose](https://msdn.microsoft.com/library/d305e9bx(v=VS.100).aspx) method disposes the [InkCollector](https://msdn.microsoft.com/library/ms583683(v=VS.100).aspx) object.
+The form's [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) method disposes the [InkCollector](/previous-versions/ms583683(v=vs.100)) object.
 
  
 
  
-
-
-

@@ -39,7 +39,7 @@ uint32 PressKey(
 
 Type: **uint32**
 
-The virtual-key code of the key to press. For the list for virtual-key codes, see [**Virtual-Key Codes**](https://msdn.microsoft.com/library/Dd375731(v=VS.85).aspx).
+The virtual-key code of the key to press. For the list for virtual-key codes, see [**Virtual-Key Codes**](../inputdev/virtual-key-codes.md).
 
 </dd> </dl>
 
@@ -94,7 +94,7 @@ A return value of zero indicates success. A nonzero value indicates a failure to
 
 The **PressKey** method maps references to the **VK\_MENU** (18), **VK\_CONTROL** (17), and **VK\_SHIFT** (16) to **VK\_LMENU** (164), **VK\_LCONTROL** (162), and **VK\_LSHIFT** (160), respectively, because the **VK\_MENU**, **VK\_CONTROL**, and **VK\_SHIFT** virtual key codes do not represent real keys on a keyboard.
 
-Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -333,13 +333,8 @@ End Function
 [**Msvm\_Keyboard**](msvm-keyboard.md)
 </dt> <dt>
 
-[**Virtual-Key Codes**](https://msdn.microsoft.com/library/Dd375731(v=VS.85).aspx)
+[**Virtual-Key Codes**](../inputdev/virtual-key-codes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

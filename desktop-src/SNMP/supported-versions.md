@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Supported Versions
 
-\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
+\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
 
 Windows Vista and Windows Server 2008 support SNMPv1 and SNMPv2c. This topic provides basic information about each of these versions of SNMP.
 
@@ -21,7 +21,3 @@ SNMPv2x is supported on Windows 2000 and later client and server operating syst
  
 
  
-
-
-
-

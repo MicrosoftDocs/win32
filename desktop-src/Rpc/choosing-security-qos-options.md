@@ -22,14 +22,10 @@ Many times, services run as Windows system services, which means they run under 
 
 ## Use the Lowest ImpersonationType that Allows the Call to Go Through
 
-This Best Practice is fairly self explanatory. Even if mutual authentication is used, do not give the server more rights than necessary; a legitimate server may have been compromised, and even though the data you send falls into the wrong hands in such cases, at least the server will not be able to access other data on the network on your behalf. Some servers will reject a call that does not have sufficient information to determine, and possibly impersonate, the caller. Also, be aware that some protocol sequences support transport level security ([**ncacn\_np**](https://docs.microsoft.com/windows/desktop/Midl/ncacn-np) and [**ncalrpc**](https://docs.microsoft.com/windows/desktop/Midl/ncalrpc)). In such cases, the server can always impersonate you if you specify a sufficiently high impersonation level through the *NetworkOptions* parameter when you create the binding handle.
+This Best Practice is fairly self explanatory. Even if mutual authentication is used, do not give the server more rights than necessary; a legitimate server may have been compromised, and even though the data you send falls into the wrong hands in such cases, at least the server will not be able to access other data on the network on your behalf. Some servers will reject a call that does not have sufficient information to determine, and possibly impersonate, the caller. Also, be aware that some protocol sequences support transport level security ([**ncacn\_np**](/windows/desktop/Midl/ncacn-np) and [**ncalrpc**](/windows/desktop/Midl/ncalrpc)). In such cases, the server can always impersonate you if you specify a sufficiently high impersonation level through the *NetworkOptions* parameter when you create the binding handle.
 
 Finally, some security providers or transports may transparently bump ImpersonationType to a higher level than that specified. When developing a program, make sure you try to make calls with the intended ImpersonationType and check whether you are getting higher ImpersonationType on the server.
 
  
 
  
-
-
-
-

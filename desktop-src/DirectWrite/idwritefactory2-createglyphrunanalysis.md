@@ -120,7 +120,7 @@ Vertical position of the baseline origin, in DIPs.
 *glyphRunAnalysis* \[out\]
 </dt> <dd>
 
-Type: **[**IDWriteGlyphRunAnalysis**](https://msdn.microsoft.com/library/Dd371188(v=VS.85).aspx)\*\***
+Type: **[**IDWriteGlyphRunAnalysis**](/windows/win32/api/dwrite/nn-dwrite-idwriteglyphrunanalysis)\*\***
 
 Receives a pointer to the newly created object.
 
@@ -154,10 +154,4 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

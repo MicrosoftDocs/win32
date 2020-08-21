@@ -205,7 +205,7 @@ cleanup:
 
 ## Reading events from the result set
 
-To enumerate the events in the result set, call the [**EvtNext**](/windows/desktop/api/WinEvt/nf-winevt-evtnext) function in a loop until the function returns **FALSE** and the [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function returns ERROR\_NO\_MORE\_ITEMS. The events in the result set are not static; new events that are written to the channel will be included in the result set until ERROR\_NO\_MORE\_ITEMS is set. To improve performance, fetch events from the result set in batches (taking into account the size of each event when determining the number of events to fetch).
+To enumerate the events in the result set, call the [**EvtNext**](/windows/desktop/api/WinEvt/nf-winevt-evtnext) function in a loop until the function returns **FALSE** and the [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function returns ERROR\_NO\_MORE\_ITEMS. The events in the result set are not static; new events that are written to the channel will be included in the result set until ERROR\_NO\_MORE\_ITEMS is set. To improve performance, fetch events from the result set in batches (taking into account the size of each event when determining the number of events to fetch).
 
 The following example shows how to enumerate the events in a result set.
 
@@ -268,7 +268,3 @@ If you want to query for events from where you left off, create a bookmark of th
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Implementing a Network Provider
 
-A network provider is a DLL that enables the Windows operating system to support a specific network protocol. It does this by implementing the Network Provider API. This API is a set of functions the [*Multiple Provider Router*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx) (MPR) calls to communicate with the network. The network provider then translates these calls into network-specific API calls to perform the action specified by the MPR. In this way, the Windows operating system can interact with new network protocols without having to understand their network-specific APIs.
+A network provider is a DLL that enables the Windows operating system to support a specific network protocol. It does this by implementing the Network Provider API. This API is a set of functions the [*Multiple Provider Router*](../secgloss/m-gly.md) (MPR) calls to communicate with the network. The network provider then translates these calls into network-specific API calls to perform the action specified by the MPR. In this way, the Windows operating system can interact with new network protocols without having to understand their network-specific APIs.
 
 To create a network provider, write a DLL that exports the [**NPGetCaps**](/windows/desktop/api/Npapi/nf-npapi-npgetcaps) function.
 
@@ -40,11 +40,8 @@ Your network provider should take this behavior of the MPR into account when dec
 
 ## Implementation note
 
-When implementing Network Provider DLL’s, the provider must not call into other [Windows Networking Functions](https://msdn.microsoft.com/library/Aa385391(v=VS.85).aspx), [Shell APIs](https://msdn.microsoft.com/library/Bb774328(v=VS.85).aspx), or other UNC path-based queries that could cause reentry into the MPR subsystem. If you make such calls from a Network Provider DLL, the application, or other operating system components may experience contention, poor performance, or deadlocks inside the MPR subsystem.
+When implementing Network Provider DLL’s, the provider must not call into other [Windows Networking Functions](../wnet/windows-networking-functions.md), [Shell APIs](../shell/samples-usingthumbnailproviders.md), or other UNC path-based queries that could cause reentry into the MPR subsystem. If you make such calls from a Network Provider DLL, the application, or other operating system components may experience contention, poor performance, or deadlocks inside the MPR subsystem.
 
  
 
  
-
-
-

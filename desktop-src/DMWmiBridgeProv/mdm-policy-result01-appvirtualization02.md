@@ -78,7 +78,7 @@ The **MDM\_Policy\_Result01\_AppVirtualization02** class has these properties.
 
 <dl> <dt>
 
-[AllowAppVClient](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowappvclient)
+[AllowAppVClient](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowappvclient)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -89,7 +89,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowDynamicVirtualization](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowdynamicvirtualization)
+[AllowDynamicVirtualization](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowdynamicvirtualization)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -100,7 +100,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowPackageCleanup](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowpackagecleanup)
+[AllowPackageCleanup](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowpackagecleanup)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -111,7 +111,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowPackageScripts](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowpackagescripts)
+[AllowPackageScripts](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowpackagescripts)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -122,7 +122,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowPublishingRefreshUX](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowpublishingrefreshux)
+[AllowPublishingRefreshUX](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowpublishingrefreshux)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -133,7 +133,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowReportingServer](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowreportingserver)
+[AllowReportingServer](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowreportingserver)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -144,7 +144,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowRoamingFileExclusions](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowroamingfileexclusions)
+[AllowRoamingFileExclusions](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowroamingfileexclusions)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -155,7 +155,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowRoamingRegistryExclusions](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowroamingregistryexclusions)
+[AllowRoamingRegistryExclusions](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowroamingregistryexclusions)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -166,7 +166,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowStreamingAutoload](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowstreamingautoload)
+[AllowStreamingAutoload](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-allowstreamingautoload)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -177,7 +177,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ClientCoexistenceAllowMigrationmode](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-clientcoexistenceallowmigrationmode)
+[ClientCoexistenceAllowMigrationmode](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-clientcoexistenceallowmigrationmode)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -197,12 +197,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[IntegrationAllowRootGlobal](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-integrationallowrootglobal)
+[IntegrationAllowRootGlobal](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-integrationallowrootglobal)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -213,7 +213,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[IntegrationAllowRootUser](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-integrationallowrootuser)
+[IntegrationAllowRootUser](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-integrationallowrootuser)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -233,12 +233,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[PublishingAllowServer1](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-publishingallowserver1)
+[PublishingAllowServer1](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-publishingallowserver1)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -249,7 +249,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PublishingAllowServer2](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-publishingallowserver2)
+[PublishingAllowServer2](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-publishingallowserver2)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -260,7 +260,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PublishingAllowServer3](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-publishingallowserver3)
+[PublishingAllowServer3](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-publishingallowserver3)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -271,7 +271,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PublishingAllowServer4](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-publishingallowserver4)
+[PublishingAllowServer4](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-publishingallowserver4)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -282,7 +282,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[PublishingAllowServer5](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-publishingallowserver5)
+[PublishingAllowServer5](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-publishingallowserver5)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -293,7 +293,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[StreamingAllowCertificateFilterForClient\_SSL](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingallowcertificatefilterforclient-ssl)
+[StreamingAllowCertificateFilterForClient\_SSL](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingallowcertificatefilterforclient-ssl)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -304,7 +304,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[StreamingAllowHighCostLaunch](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingallowhighcostlaunch)
+[StreamingAllowHighCostLaunch](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingallowhighcostlaunch)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -315,7 +315,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[StreamingAllowLocationProvider](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingallowlocationprovider)
+[StreamingAllowLocationProvider](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingallowlocationprovider)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -326,7 +326,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[StreamingAllowPackageInstallationRoot](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingallowpackageinstallationroot)
+[StreamingAllowPackageInstallationRoot](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingallowpackageinstallationroot)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -337,7 +337,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[StreamingAllowPackageSourceRoot](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingallowpackagesourceroot)
+[StreamingAllowPackageSourceRoot](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingallowpackagesourceroot)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -348,7 +348,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[StreamingAllowReestablishmentInterval](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingallowreestablishmentinterval)
+[StreamingAllowReestablishmentInterval](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingallowreestablishmentinterval)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -359,7 +359,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[StreamingAllowReestablishmentRetries](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingallowreestablishmentretries)
+[StreamingAllowReestablishmentRetries](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingallowreestablishmentretries)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -370,7 +370,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[StreamingSharedContentStoreMode](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingsharedcontentstoremode)
+[StreamingSharedContentStoreMode](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingsharedcontentstoremode)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -381,7 +381,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[StreamingSupportBranchCache](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingsupportbranchcache)
+[StreamingSupportBranchCache](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingsupportbranchcache)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -392,7 +392,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[StreamingVerifyCertificateRevocationList](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingverifycertificaterevocationlist)
+[StreamingVerifyCertificateRevocationList](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-streamingverifycertificaterevocationlist)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -403,7 +403,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[VirtualComponentsAllowList](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-virtualcomponentsallowlist)
+[VirtualComponentsAllowList](/windows/client-management/mdm/policy-csp-appvirtualization#appvirtualization-virtualcomponentsallowlist)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -429,10 +429,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

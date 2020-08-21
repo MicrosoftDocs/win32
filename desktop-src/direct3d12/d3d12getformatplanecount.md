@@ -49,9 +49,9 @@ The virtual adapter (an [**ID3D12Device**](/windows/desktop/api/d3d12/nn-d3d12-i
 *Format* 
 </dt> <dd>
 
-Type: **[**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
+Type: **[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 
-The [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) for which to get the plane count.
+The [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) for which to get the plane count.
 
 </dd> </dl>
 
@@ -87,10 +87,4 @@ The plane count for the specified format on the specified virtual adapter.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

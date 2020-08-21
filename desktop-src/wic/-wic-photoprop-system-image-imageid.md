@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Image.ImageID Photo Metadata Policy
 
-The photo metadata policy for the [System.Image.ImageID](https://msdn.microsoft.com/library/bb787464(VS.85).aspx) property.
+The photo metadata policy for the [System.Image.ImageID](../properties/props-system-image-imageid.md) property.
 
 ### PKEY
 
@@ -122,12 +122,9 @@ Values from different schemas are reconciled.
 
 <dl> <dt>
 
-[System.Image.ImageID](https://msdn.microsoft.com/library/bb787464(VS.85).aspx)
+[System.Image.ImageID](../properties/props-system-image-imageid.md)
 </dt> </dl>
 
  
 
  
-
-
-

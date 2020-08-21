@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 \[The Performance Counter Provider is no longer available for use. Instead, use the [WMIPerfInst](wmiperfinst-provider.md) provider.\]
 
-The Performance Counter provider is a high-performance provider that provides raw performance counter data to the WMI [Performance Counter Classes](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/performance-counter-classes) derived from [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata). The [**\_\_Win32Provider**](--win32provider.md) instance name is "NT5\_GenericPerfProvider\_V1".
+The Performance Counter provider is a high-performance provider that provides raw performance counter data to the WMI [Performance Counter Classes](/windows/desktop/CIMWin32Prov/performance-counter-classes) derived from [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata). The [**\_\_Win32Provider**](--win32provider.md) instance name is "NT5\_GenericPerfProvider\_V1".
 
-The [**Win32\_PerfRawData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfrawdata) classes are located in the WMI "Root\\CIMv2" namespace. Each WMI performance class corresponds to a performance object in a performance library. The properties of these classes represent the counters for the object. The WMI class name for a raw counter object is of the form **Win32\_PerfRawData\_\_*service\_name*\_*object\_name***. For example, the WMI class name that contains the logical disk counters is [**Win32\_PerfRawData\_PerfDisk\_LogicalDisk**](https://msdn.microsoft.com/library/dn750765(v=vs.85).aspx).
+The [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) classes are located in the WMI "Root\\CIMv2" namespace. Each WMI performance class corresponds to a performance object in a performance library. The properties of these classes represent the counters for the object. The WMI class name for a raw counter object is of the form **Win32\_PerfRawData\_\_*service\_name*\_*object\_name***. For example, the WMI class name that contains the logical disk counters is [**Win32\_PerfRawData\_PerfDisk\_LogicalDisk**](./retrieving-raw-and-formatted-performance-data.md).
 
-You can use the corresponding [**Win32\_PerfFormattedData**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-perfformatteddata) class to get the pre-calculated performance data shown in [*System Monitor*](gloss-s.md). For example, use the [**Win32\_PerfFormattedData\_PerfDisk\_LogicalDisk**](https://msdn.microsoft.com/library/dn750765(v=vs.85).aspx) class to get pre-calculated disk data.
+You can use the corresponding [**Win32\_PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata) class to get the pre-calculated performance data shown in [*System Monitor*](gloss-s.md). For example, use the [**Win32\_PerfFormattedData\_PerfDisk\_LogicalDisk**](./retrieving-raw-and-formatted-performance-data.md) class to get pre-calculated disk data.
 
 For more information about how to write a client that can access raw performance data, see [Accessing Performance Data in C++](accessing-performance-data-in-c--.md).
 
@@ -38,6 +38,3 @@ As a high-performance provider, the Performance Counter provider implements the 
  
 
  
-
-
-

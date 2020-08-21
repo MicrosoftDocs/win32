@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # SIS Links and Reparse Points
 
-SIS is an NTFS filter driver that replaces duplicate files with copy-on-write links (referred to as SIS links) that point to a single backing file, reducing the disk and cache overhead of those files. This backing file is contained in a [common store](the-sis-common-store-and-common-store-files.md). The implementation of the SIS architecture makes use of [reparse points](https://docs.microsoft.com/windows/desktop/FileIO/reparse-points) that contain information about the SIS links.
+SIS is an NTFS filter driver that replaces duplicate files with copy-on-write links (referred to as SIS links) that point to a single backing file, reducing the disk and cache overhead of those files. This backing file is contained in a [common store](the-sis-common-store-and-common-store-files.md). The implementation of the SIS architecture makes use of [reparse points](/windows/desktop/FileIO/reparse-points) that contain information about the SIS links.
 
 SIS links are implemented as sparse files, usually with most ranges of the file unallocated, and a reparse point. The structure and contents of a reparse point is opaque to your backup and restore applications; however, your applications send and retrieve the data within these reparse points to and from SIS API functions that process the information in them. The information in a reparse point refers to a single backing file that contains the actual file data. This backing file is called a [common-store file](the-sis-common-store-and-common-store-files.md), and it exists in the common store.
 
@@ -27,7 +27,3 @@ The only additional overhead required for SIS-assisted backups is that your back
  
 
  
-
-
-
-

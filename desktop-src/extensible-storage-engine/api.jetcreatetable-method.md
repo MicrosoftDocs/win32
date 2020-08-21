@@ -83,21 +83,21 @@ public static void JetCreateTable(
 <!-- end list -->
 
   - table  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The name of the table to create.
 
 <!-- end list -->
 
   - pages  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Initial number of pages in the table.
 
 <!-- end list -->
 
   - density  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The default density of the table. This is used when doing sequential inserts.
 
@@ -117,4 +117,3 @@ public static void JetCreateTable(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

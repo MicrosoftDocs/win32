@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualPC::SuggestedMaximumMemoryPerVM property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves the suggested maximum allowable quantity of physical memory per virtual machine, in megabytes, to avoid low memory conditions on the host.
 
@@ -78,10 +78,4 @@ The suggested maximum allowable quantity, in megabytes, of physical memory per v
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

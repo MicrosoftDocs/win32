@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 # Installable Drive Module-Definition File
 
-The module-definition (.DEF) file of an installable driver names the driver, exports the [DriverProc](https://msdn.microsoft.com/library/Dd797918(v=VS.85).aspx) function, and defines a driver description. The following example shows a typical module-definition file for an installable driver:
+The module-definition (.DEF) file of an installable driver names the driver, exports the [DriverProc](/windows/win32/api/mmiscapi/nc-mmiscapi-driverproc) function, and defines a driver description. The following example shows a typical module-definition file for an installable driver:
 
 
 ```C++
@@ -37,7 +37,3 @@ The *alias* specifies a unique name for the driver that applications can use to 
  
 
  
-
-
-
-

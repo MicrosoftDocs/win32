@@ -61,7 +61,7 @@ An XML-formatted description of the task.
 The following topics contain tasks defined using XML.
 
 -   [Time Trigger Example (XML)](time-trigger-example--xml-.md)
--   [Event Trigger Example (XML)](https://msdn.microsoft.com/library/Aa446889(v=VS.85).aspx)
+-   [Event Trigger Example (XML)](/previous-versions//aa446889(v=vs.85))
 -   [Daily Trigger Example (XML)](daily-trigger-example--xml-.md)
 -   [Registration Trigger Example (XML)](registration-trigger-example--xml-.md)
 -   [Weekly Trigger Example (XML)](weekly-trigger-example--xml-.md)
@@ -193,10 +193,4 @@ You can successfully register a task with a group specified in the *userId* para
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

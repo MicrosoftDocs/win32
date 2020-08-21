@@ -39,7 +39,7 @@ Screen scaling creates new challenges for applications that are concerned in any
 
 Suppose you design a dialog box with a button at coordinates (100, 48). When this dialog box is displayed at the default 96 dpi, the button is located at physical coordinates of (100, 48). At 120 dpi, it is located at physical coordinates of (125, 60). But the logical coordinates are the same at any dpi setting: (100, 48).
 
-Logical coordinates are important, because they make the behavior of the operating system and applications consistent, regardless of the dpi setting. For example, typically, the [**GetCursorPos**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorpos) function returns the logical coordinates. If you move the cursor over an element in a dialog box, the same coordinates are returned, regardless of the dpi setting. If you draw a control at (100, 100), it is drawn to those logical coordinates, and will occupy the same relative position at any dpi setting.
+Logical coordinates are important, because they make the behavior of the operating system and applications consistent, regardless of the dpi setting. For example, typically, the [**GetCursorPos**](/windows/desktop/api/winuser/nf-winuser-getcursorpos) function returns the logical coordinates. If you move the cursor over an element in a dialog box, the same coordinates are returned, regardless of the dpi setting. If you draw a control at (100, 100), it is drawn to those logical coordinates, and will occupy the same relative position at any dpi setting.
 
 ## Scaling in UI Automation Clients
 
@@ -56,14 +56,10 @@ By default, UI Automation applications that are running in an environment that i
 
 The solution has two parts.
 
-First, make the client application dpi-aware. To do this, call the [**SetProcessDPIAware**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function at startup. This function makes the entire process dpi-aware, meaning that all windows that belong to the process are unscaled.
+First, make the client application dpi-aware. To do this, call the [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function at startup. This function makes the entire process dpi-aware, meaning that all windows that belong to the process are unscaled.
 
-Second, to get cursor coordinates, call the [**GetPhysicalCursorPos**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getphysicalcursorpos) function.
-
- 
+Second, to get cursor coordinates, call the [**GetPhysicalCursorPos**](/windows/desktop/api/winuser/nf-winuser-getphysicalcursorpos) function.
 
  
 
-
-
-
+ 

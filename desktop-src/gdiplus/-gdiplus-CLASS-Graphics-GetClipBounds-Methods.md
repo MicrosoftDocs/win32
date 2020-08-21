@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.GetClipBounds methods
 
-This topic lists the GetClipBounds methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the GetClipBounds methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the GetClipBounds methods of the [**Graphics**](https://msdn.mi
 
 | Method                                                                              | Description                                                                                                                                                                                                                    |
 |:------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetClipBounds(Rect\*)**](https://msdn.microsoft.com/library/ms535948(v=VS.85).aspx)   | The [**Graphics::GetClipBounds**](https://msdn.microsoft.com/library/ms535948(v=VS.85).aspx) method gets a rectangle that encloses the clipping region of this [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) object.<br/> |
-| [**GetClipBounds(RectF\*)**](https://msdn.microsoft.com/library/ms535949(v=VS.85).aspx) | The [**Graphics::GetClipBounds**](https://msdn.microsoft.com/library/ms535949(v=VS.85).aspx)[**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) object.<br/>                                                                   |
+| [**GetClipBounds(Rect\*)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getclipbounds(outrect))   | The [**Graphics::GetClipBounds**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getclipbounds(outrect)) method gets a rectangle that encloses the clipping region of this [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object.<br/> |
+| [**GetClipBounds(RectF\*)**](/previous-versions//ms535949(v=vs.85)) | The [**Graphics::GetClipBounds**](/previous-versions//ms535949(v=vs.85))[**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object.<br/>                                                                   |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the GetClipBounds methods of the [**Graphics**](https://msdn.mi
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.topic: reference
 
 # GraphicsPath.AddEllipse methods
 
-This topic lists the AddEllipse methods of the [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx).
+This topic lists the AddEllipse methods of the [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath).
 
 ### Overload list
 
@@ -16,10 +16,10 @@ This topic lists the AddEllipse methods of the [**GraphicsPath**](https://msdn.m
 
 | Method                                                                                                                  | Description                                                                                                                                                          |
 |:------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AddEllipse(Rect&)**](https://msdn.microsoft.com/library/ms535605(v=VS.85).aspx)                                          | The [**GraphicsPath::AddEllipse**](https://msdn.microsoft.com/library/ms535605(v=VS.85).aspx) method adds an ellipse to this path.<br/>                            |
-| [**AddEllipse(RectF&)**](https://msdn.microsoft.com/library/ms535606(v=VS.85).aspx)                                        | The [**GraphicsPath::AddEllipse**](https://msdn.microsoft.com/library/ms535606(v=VS.85).aspx) method adds an ellipse to this path.<br/>                           |
-| [**AddEllipse(INT,INT,INT,INT)**](https://msdn.microsoft.com/library/ms535607(v=VS.85).aspx)         | The [**GraphicsPath::AddEllipse**](https://msdn.microsoft.com/library/ms535607(v=VS.85).aspx) method adds an ellipse to this path.<br/>     |
-| [**AddEllipse(REAL,REAL,REAL,REAL)**](https://msdn.microsoft.com/library/ms535608(v=VS.85).aspx) | The [**GraphicsPath::AddEllipse**](https://msdn.microsoft.com/library/ms535608(v=VS.85).aspx) method adds an ellipse to this path.<br/> |
+| [**AddEllipse(Rect&)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addellipse(inconstrect_))                                          | The [**GraphicsPath::AddEllipse**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addellipse(inconstrect_)) method adds an ellipse to this path.<br/>                            |
+| [**AddEllipse(RectF&)**](/previous-versions//ms535606(v=vs.85))                                        | The [**GraphicsPath::AddEllipse**](/previous-versions//ms535606(v=vs.85)) method adds an ellipse to this path.<br/>                           |
+| [**AddEllipse(INT,INT,INT,INT)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addellipse(inint_inint_inint_inint))         | The [**GraphicsPath::AddEllipse**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addellipse(inint_inint_inint_inint)) method adds an ellipse to this path.<br/>     |
+| [**AddEllipse(REAL,REAL,REAL,REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addellipse(inreal_inreal_inreal_inreal)) | The [**GraphicsPath::AddEllipse**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addellipse(inreal_inreal_inreal_inreal)) method adds an ellipse to this path.<br/> |
 
 
 
@@ -36,7 +36,3 @@ This topic lists the AddEllipse methods of the [**GraphicsPath**](https://msdn.m
  
 
  
-
-
-
-

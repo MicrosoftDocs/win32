@@ -77,8 +77,8 @@ This optional parameter designates which associated value to return for the spec
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="Missing_or_blank"></span><span id="missing_or_blank"></span><span id="MISSING_OR_BLANK"></span><dl> <dt>**Missing or blank**</dt> </dl> | Returns a Boolean designating whether the key exists.<br/>                                                                                        |
 | <span id="String"></span><span id="string"></span><span id="STRING"></span><dl> <dt>**String**</dt> </dl>                                         | Returns the data associated with the named value, fails if the value name is non-existent.<br/>                                                   |
-| <span id="Positive_integer"></span><span id="positive_integer"></span><span id="POSITIVE_INTEGER"></span><dl> <dt>**Positive integer**</dt> </dl> | Returns the 1-based enumerated value name, it is empty if non-existent. This option uses the [**RegEnumValue**](https://msdn.microsoft.com/library/ms724865(v=VS.85).aspx) function.<br/> |
-| <span id="Negative_integer"></span><span id="negative_integer"></span><span id="NEGATIVE_INTEGER"></span><dl> <dt>**Negative integer**</dt> </dl> | Returns the 1-based enumerated subkey name, this is empty if non-existent. This option uses the [**RegEnumKey**](https://msdn.microsoft.com/library/ms724861(v=VS.85).aspx) function.<br/>  |
+| <span id="Positive_integer"></span><span id="positive_integer"></span><span id="POSITIVE_INTEGER"></span><dl> <dt>**Positive integer**</dt> </dl> | Returns the 1-based enumerated value name, it is empty if non-existent. This option uses the [**RegEnumValue**](/windows/win32/api/winreg/nf-winreg-regenumvaluea) function.<br/> |
+| <span id="Negative_integer"></span><span id="negative_integer"></span><span id="NEGATIVE_INTEGER"></span><dl> <dt>**Negative integer**</dt> </dl> | Returns the 1-based enumerated subkey name, this is empty if non-existent. This option uses the [**RegEnumKey**](/windows/win32/api/winreg/nf-winreg-regenumkeya) function.<br/>  |
 | <span id="Zero_integer"></span><span id="zero_integer"></span><span id="ZERO_INTEGER"></span><dl> <dt>**Zero integer**</dt> </dl>                 | Returns the string class name for the designated key.<br/>                                                                                        |
 | <span id="Empty_string____"></span><span id="empty_string____"></span><span id="EMPTY_STRING____"></span><dl> <dt>**Empty string " "**</dt> </dl> | Returns the default value of the registry key.<br/>                                                                                               |
 
@@ -107,7 +107,3 @@ This method does not return a value.
  
 
  
-
-
-
-

@@ -126,7 +126,7 @@ An application must call the [**DdeUninitialize**](/windows/desktop/api/Ddeml/nf
 
 ## Callback Function
 
-An application that uses the DDEML must provide a callback function that processes the DDE events affecting the application. The DDEML notifies an application of such events by sending transactions to the application's DDE callback function. The transactions a callback function receives depend on which callback filter flags the application specified in [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) and whether the application is a client, a server, or both. For more information, please see [**DdeCallback**](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx).
+An application that uses the DDEML must provide a callback function that processes the DDE events affecting the application. The DDEML notifies an application of such events by sending transactions to the application's DDE callback function. The transactions a callback function receives depend on which callback filter flags the application specified in [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) and whether the application is a client, a server, or both. For more information, please see [**DdeCallback**](/windows/win32/api/ddeml/nc-ddeml-pfncallback).
 
 The following example shows the general structure of a callback function for a typical client application.
 
@@ -256,10 +256,4 @@ The [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) func
 All DDEML function calls for objects belonging to a DDEML instance must be made from the same thread that called [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) to create the instance. If you call a DDEML function from a different thread, the function will fail. You cannot access a DDEML conversation from a thread other than the one that allocated the conversation.
 
  
-
- 
-
-
-
-
 

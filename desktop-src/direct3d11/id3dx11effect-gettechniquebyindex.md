@@ -41,7 +41,7 @@ ID3DX11EffectTechnique* GetTechniqueByIndex(
 *Index* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 A zero-based index.
 
@@ -81,10 +81,4 @@ An effect contains one or more techniques; each technique contains one or more p
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -48,7 +48,7 @@ Handle of the parameter, or **NULL** for top-level parameters. See [Handles (Dir
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Parameter index.
 
@@ -81,7 +81,3 @@ Returns the handle of the specified parameter, or **NULL** if the index was inva
  
 
  
-
-
-
-

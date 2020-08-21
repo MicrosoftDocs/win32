@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # TF\_TF\_\* Constants
 
-The **TF\_TF\_\*** constants are used to specify options with the [ITfRange::GetText](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-gettext) method.
+The **TF\_TF\_\*** constants are used to specify options with the [ITfRange::GetText](/windows/desktop/api/msctf/nf-msctf-itfrange-gettext) method.
 
 
 
@@ -46,14 +46,8 @@ The **TF\_TF\_\*** constants are used to specify options with the [ITfRange::Get
 
 <dl> <dt>
 
-[ITfRange::GetText](https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-gettext)
+[ITfRange::GetText](/windows/desktop/api/msctf/nf-msctf-itfrange-gettext)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

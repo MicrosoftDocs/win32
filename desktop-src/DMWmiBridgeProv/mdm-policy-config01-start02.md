@@ -78,7 +78,7 @@ The **MDM\_Policy\_Config01\_Start02** class has these properties.
 
 <dl> <dt>
 
-[AllowPinnedFolderDocuments](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-allowpinnedfolderdocuments)
+[AllowPinnedFolderDocuments](/windows/client-management/mdm/policy-csp-start#start-allowpinnedfolderdocuments)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -89,7 +89,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowPinnedFolderDownloads](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-allowpinnedfolderdownloads)
+[AllowPinnedFolderDownloads](/windows/client-management/mdm/policy-csp-start#start-allowpinnedfolderdownloads)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -100,7 +100,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowPinnedFolderFileExplorer](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-allowpinnedfolderfileexplorer)
+[AllowPinnedFolderFileExplorer](/windows/client-management/mdm/policy-csp-start#start-allowpinnedfolderfileexplorer)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -111,7 +111,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowPinnedFolderHomeGroup](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-allowpinnedfolderhomegroup)
+[AllowPinnedFolderHomeGroup](/windows/client-management/mdm/policy-csp-start#start-allowpinnedfolderhomegroup)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -122,7 +122,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowPinnedFolderMusic](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-allowpinnedfoldermusic)
+[AllowPinnedFolderMusic](/windows/client-management/mdm/policy-csp-start#start-allowpinnedfoldermusic)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -133,7 +133,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowPinnedFolderNetwork](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-allowpinnedfoldernetwork)
+[AllowPinnedFolderNetwork](/windows/client-management/mdm/policy-csp-start#start-allowpinnedfoldernetwork)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -144,7 +144,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowPinnedFolderPersonalFolder](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-allowpinnedfolderpersonalfolder)
+[AllowPinnedFolderPersonalFolder](/windows/client-management/mdm/policy-csp-start#start-allowpinnedfolderpersonalfolder)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -155,7 +155,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowPinnedFolderPictures](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-allowpinnedfolderpictures)
+[AllowPinnedFolderPictures](/windows/client-management/mdm/policy-csp-start#start-allowpinnedfolderpictures)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -166,7 +166,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowPinnedFolderSettings](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-allowpinnedfoldersettings)
+[AllowPinnedFolderSettings](/windows/client-management/mdm/policy-csp-start#start-allowpinnedfoldersettings)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -177,7 +177,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowPinnedFolderVideos](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-allowpinnedfoldervideos)
+[AllowPinnedFolderVideos](/windows/client-management/mdm/policy-csp-start#start-allowpinnedfoldervideos)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -188,7 +188,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ForceStartSize](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-forcestartsize)
+[ForceStartSize](/windows/client-management/mdm/policy-csp-start#start-forcestartsize)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -199,7 +199,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HideAppList](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-hideapplist)
+[HideAppList](/windows/client-management/mdm/policy-csp-start#start-hideapplist)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -210,7 +210,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HideChangeAccountSettings](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-hidechangeaccountsettings)
+[HideChangeAccountSettings](/windows/client-management/mdm/policy-csp-start#start-hidechangeaccountsettings)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -221,7 +221,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HideFrequentlyUsedApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-hidefrequentlyusedapps)
+[HideFrequentlyUsedApps](/windows/client-management/mdm/policy-csp-start#start-hidefrequentlyusedapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -232,7 +232,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HideHibernate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-hidehibernate)
+[HideHibernate](/windows/client-management/mdm/policy-csp-start#start-hidehibernate)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -243,7 +243,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HideLock](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-hidelock)
+[HideLock](/windows/client-management/mdm/policy-csp-start#start-hidelock)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -254,7 +254,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HidePowerButton](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-hidepowerbutton)
+[HidePowerButton](/windows/client-management/mdm/policy-csp-start#start-hidepowerbutton)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -265,7 +265,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HideRecentJumplists](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-hiderecentjumplists)
+[HideRecentJumplists](/windows/client-management/mdm/policy-csp-start#start-hiderecentjumplists)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -276,7 +276,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HideRecentlyAddedApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-hiderecentlyaddedapps)
+[HideRecentlyAddedApps](/windows/client-management/mdm/policy-csp-start#start-hiderecentlyaddedapps)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -287,7 +287,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HideRestart](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-hiderestart)
+[HideRestart](/windows/client-management/mdm/policy-csp-start#start-hiderestart)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -298,7 +298,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HideShutDown](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-hideshutdown)
+[HideShutDown](/windows/client-management/mdm/policy-csp-start#start-hideshutdown)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -309,7 +309,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HideSignOut](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-hidesignout)
+[HideSignOut](/windows/client-management/mdm/policy-csp-start#start-hidesignout)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -320,7 +320,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HideSleep](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-hidesleep)
+[HideSleep](/windows/client-management/mdm/policy-csp-start#start-hidesleep)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -331,7 +331,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HideSwitchAccount](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-hideswitchaccount)
+[HideSwitchAccount](/windows/client-management/mdm/policy-csp-start#start-hideswitchaccount)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -342,7 +342,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HideUserTile](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-hideusertile)
+[HideUserTile](/windows/client-management/mdm/policy-csp-start#start-hideusertile)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -353,7 +353,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[ImportEdgeAssets](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-importedgeassets)
+[ImportEdgeAssets](/windows/client-management/mdm/policy-csp-start#start-importedgeassets)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -373,14 +373,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "Start"
 
 </dd> <dt>
 
-[NoPinningToTaskbar](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-nopinningtotaskbar)
+[NoPinningToTaskbar](/windows/client-management/mdm/policy-csp-start#start-nopinningtotaskbar)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -400,14 +400,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Config"
 
 </dd> <dt>
 
-[StartLayout](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-start#start-startlayout)
+[StartLayout](/windows/client-management/mdm/policy-csp-start#start-startlayout)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -436,14 +436,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

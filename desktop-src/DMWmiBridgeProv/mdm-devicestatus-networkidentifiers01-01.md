@@ -63,14 +63,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Node for queries on network and device properties.
 
 </dd> <dt>
 
-[IPAddressV4](https://docs.microsoft.com/windows/client-management/mdm/devicestatus-csp#devicestatus-networkidentifiers-macaddress-ipaddressv4)
+[IPAddressV4](/windows/client-management/mdm/devicestatus-csp#devicestatus-networkidentifiers-macaddress-ipaddressv4)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -81,7 +81,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[IPAddressV6](https://docs.microsoft.com/windows/client-management/mdm/devicestatus-csp#devicestatus-networkidentifiers-macaddress-ipaddressv6)
+[IPAddressV6](/windows/client-management/mdm/devicestatus-csp#devicestatus-networkidentifiers-macaddress-ipaddressv6)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -92,7 +92,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[IsConnected](https://docs.microsoft.com/windows/client-management/mdm/devicestatus-csp#devicestatus-networkidentifiers-macaddress-isconnected)
+[IsConnected](/windows/client-management/mdm/devicestatus-csp#devicestatus-networkidentifiers-macaddress-isconnected)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -112,14 +112,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/DeviceStatus"
 
 </dd> <dt>
 
-[Type](https://docs.microsoft.com/windows/client-management/mdm/devicestatus-csp#devicestatus-networkidentifiers-macaddress-type)
+[Type](/windows/client-management/mdm/devicestatus-csp#devicestatus-networkidentifiers-macaddress-type)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -148,14 +148,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

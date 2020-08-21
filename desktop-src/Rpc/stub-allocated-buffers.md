@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Stub-Allocated Buffers
 
-Rather than forcing a distinct call for each node of the tree or graph, you can direct the stubs to compute the size of the data and to allocate and free memory by making a single call to [midl\_user\_allocate](https://docs.microsoft.com/windows/desktop/Midl/midl-user-allocate-1) or [midl\_user\_free](https://docs.microsoft.com/windows/desktop/Midl/midl-user-free-1). The ACF attribute **\[allocate(all\_nodes)\]** directs the stubs to allocate or free all nodes in a single call to the user supplied–memory management functions.
+Rather than forcing a distinct call for each node of the tree or graph, you can direct the stubs to compute the size of the data and to allocate and free memory by making a single call to [midl\_user\_allocate](/windows/desktop/Midl/midl-user-allocate-1) or [midl\_user\_free](/windows/desktop/Midl/midl-user-free-1). The ACF attribute **\[allocate(all\_nodes)\]** directs the stubs to allocate or free all nodes in a single call to the user supplied–memory management functions.
 
 For example, an RPC application might use the following binary tree data structure:
 
@@ -38,7 +38,3 @@ For additional information, see [Node-by-Node Allocation and Deallocation](node-
  
 
  
-
-
-
-

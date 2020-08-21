@@ -204,7 +204,7 @@ Access type: Read-only
 Qualifiers: **Units** ("Bytes")
 </dt> </dl>
 
-The active or negotiated maximum transmission unit (MTU) that can be supported, in bytes. This property is inherited from [**CIM\_NetworkPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-networkport).
+The active or negotiated maximum transmission unit (MTU) that can be supported, in bytes. This property is inherited from [**CIM\_NetworkPort**](/previous-versions/windows/desktop/iscsitarg/cim-networkport).
 
 </dd> <dt>
 
@@ -217,7 +217,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Any additional availability and status of the device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+Any additional availability and status of the device. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -230,7 +230,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the port is capable of automatically determining the speed or other communications characteristics of the attached network media. This property is inherited from [**CIM\_NetworkPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-networkport).
+Indicates whether the port is capable of automatically determining the speed or other communications characteristics of the attached network media. This property is inherited from [**CIM\_NetworkPort**](/previous-versions/windows/desktop/iscsitarg/cim-networkport).
 
 </dd> <dt>
 
@@ -243,7 +243,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The primary availability and status of the device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+The primary availability and status of the device. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -256,9 +256,9 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Indicates the possible values for the *RequestedState* parameter of the [**RequestStateChange**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/requeststatechange-cim-enabledlogicalelement) method used to initiate a state change. The values listed will be a subset of the values contained in the **RequestedStatesSupported** property of the associated instance of **CIM\_EnabledLogicalElementCapabilities**, where the values selected are a function of the current state of the [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)). This property can be non-**Null** if an implementation is able to advertise the set of possible values as a function of the current state. This property will be **Null** if an implementation is unable to determine the set of possible values as a function of the current state.
+Indicates the possible values for the *RequestedState* parameter of the [**RequestStateChange**](/previous-versions/windows/desktop/iscsitarg/requeststatechange-cim-enabledlogicalelement) method used to initiate a state change. The values listed will be a subset of the values contained in the **RequestedStatesSupported** property of the associated instance of **CIM\_EnabledLogicalElementCapabilities**, where the values selected are a function of the current state of the [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)). This property can be non-**Null** if an implementation is able to advertise the set of possible values as a function of the current state. This property will be **Null** if an implementation is unable to determine the set of possible values as a function of the current state.
 
-This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)).
+This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)).
 
 <dl> <dt>
 
@@ -303,7 +303,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-An array that specifies the capabilities of the port. This property is inherited from [**CIM\_EthernetPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-ethernetport).
+An array that specifies the capabilities of the port. This property is inherited from [**CIM\_EthernetPort**](/previous-versions/windows/desktop/iscsitarg/cim-ethernetport).
 
 <dl> <dt>
 
@@ -336,7 +336,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-An array of free-form strings that provides more detailed explanations for the port features that are contained in the **Capabilities** array. Each entry of this array is related to the corresponding entry in the **Capabilities** array that is located at the same index. This property is inherited from [**CIM\_EthernetPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-ethernetport).
+An array of free-form strings that provides more detailed explanations for the port features that are contained in the **Capabilities** array. Each entry of this array is related to the corresponding entry in the **Capabilities** array that is located at the same index. This property is inherited from [**CIM\_EthernetPort**](/previous-versions/windows/desktop/iscsitarg/cim-ethernetport).
 
 </dd> <dt>
 
@@ -349,7 +349,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A short description of the object. This property is inherited from the [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement) class, and it is always set to "Ethernet Switch Port".
+A short description of the object. This property is inherited from the [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement) class, and it is always set to "Ethernet Switch Port".
 
 </dd> <dt>
 
@@ -362,7 +362,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Indicates the ability of the instrumentation to communicate with the underlying managed element. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -375,7 +375,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The scoping system's creation class name. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is always set to "Msvm\_EthernetSwitchPort".
+The scoping system's creation class name. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is always set to "Msvm\_EthernetSwitchPort".
 
 </dd> <dt>
 
@@ -388,7 +388,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A description of the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Microsoft Virtual Ethernet Switch Port".
+A description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement), and it is always set to "Microsoft Virtual Ethernet Switch Port".
 
 </dd> <dt>
 
@@ -401,7 +401,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Complements the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Complements the **PrimaryStatus** property with additional status detail. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -414,7 +414,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-An address or other identifying information to uniquely name the logical device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice).
+An address or other identifying information to uniquely name the logical device. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).
 
 </dd> <dt>
 
@@ -427,7 +427,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A display name for the object. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+A display name for the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -440,7 +440,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-Specifies which capabilities are enabled from the list of all supported capabilities in the **Capabilities** array. This property is inherited from [**CIM\_EthernetPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-ethernetport).
+Specifies which capabilities are enabled from the list of all supported capabilities in the **Capabilities** array. This property is inherited from [**CIM\_EthernetPort**](/previous-versions/windows/desktop/iscsitarg/cim-ethernetport).
 
 <dl> <dt>
 
@@ -473,7 +473,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-An administrator's default or startup configuration for the **EnabledState** property of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it is always set to 2 (Enabled).
+An administrator's default or startup configuration for the **EnabledState** property of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)), and it is always set to 2 (Enabled).
 
 </dd> <dt>
 
@@ -486,7 +486,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The enabled and disabled states of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it will be one of the following values.
+The enabled and disabled states of an element. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)), and it will be one of the following values.
 
 
 
@@ -510,7 +510,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the error reported in **LastErrorCode** is now cleared. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+Indicates whether the error reported in **LastErrorCode** is now cleared. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -523,7 +523,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that provides more information about the error recorded in **LastErrorCode** and information about any corrective actions that can be taken. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+A string that provides more information about the error recorded in **LastErrorCode** and information about any corrective actions that can be taken. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -536,7 +536,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the port is operating in full duplex mode. This property is inherited from [**CIM\_NetworkPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-networkport).
+Indicates whether the port is operating in full duplex mode. This property is inherited from [**CIM\_NetworkPort**](/previous-versions/windows/desktop/iscsitarg/cim-networkport).
 
 </dd> <dt>
 
@@ -549,7 +549,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The current health of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and it is always set to 5 (OK).
+The current health of the element. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and it is always set to 5 (OK).
 
 </dd> <dt>
 
@@ -562,7 +562,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-An array of free-form strings that provide explanations and details behind the entries in the **OtherIdentifyingInfo** property array. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+An array of free-form strings that provide explanations and details behind the entries in the **OtherIdentifyingInfo** property array. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -575,7 +575,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date and time when the object was installed. This property does not need a value to indicate that the object is installed. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+The date and time when the object was installed. This property does not need a value to indicate that the object is installed. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -591,7 +591,7 @@ Access type: Read-only
 Qualifiers: **Key**
 </dt> </dl>
 
-Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
+Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
 </dd> <dt>
 
@@ -617,7 +617,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The last error code reported by the logical device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+The last error code reported by the logical device. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -630,7 +630,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Specifies the type of link technology for the port. When set to 1 (Other), the **OtherLinkTechnology** property contains a string description of the type of link. This property is inherited from [**CIM\_NetworkPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-networkport).
+Specifies the type of link technology for the port. When set to 1 (Other), the **OtherLinkTechnology** property contains a string description of the type of link. This property is inherited from [**CIM\_NetworkPort**](/previous-versions/windows/desktop/iscsitarg/cim-networkport).
 
 <dl> <dt>
 
@@ -681,7 +681,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The maximum size of the INFO (non-MAC) field that will be received or transmitted. This property is inherited from [**CIM\_EthernetPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-ethernetport), and it is always set to 1500.
+The maximum size of the INFO (non-MAC) field that will be received or transmitted. This property is inherited from [**CIM\_EthernetPort**](/previous-versions/windows/desktop/iscsitarg/cim-ethernetport), and it is always set to 1500.
 
 </dd> <dt>
 
@@ -694,7 +694,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-This property has been deprecated. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+This property has been deprecated. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -710,7 +710,7 @@ Access type: Read-only
 Qualifiers: **Units** ("Bits per Second")
 </dt> </dl>
 
-The maximum bandwidth of the port, in bits per second. This property is inherited from [**CIM\_LogicalPort**](https://docs.microsoft.com/previous-versions//cc136869(v=vs.85)).
+The maximum bandwidth of the port, in bits per second. This property is inherited from [**CIM\_LogicalPort**](/previous-versions//cc136869(v=vs.85)).
 
 </dd> <dt>
 
@@ -723,7 +723,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The label by which the object is known. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+The label by which the object is known. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -739,7 +739,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** ( 64 )
 </dt> </dl>
 
-An array of strings that contain the MAC addresses for the port. This property is inherited from [**CIM\_NetworkPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-networkport).
+An array of strings that contain the MAC addresses for the port. This property is inherited from [**CIM\_NetworkPort**](/previous-versions/windows/desktop/iscsitarg/cim-networkport).
 
 </dd> <dt>
 
@@ -752,7 +752,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Provides current status information for the operational condition of the element and can be used for providing more detail with respect to the value of the **EnabledState** property. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -765,7 +765,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-The current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and each array element is always set to 2 (OK).
+The current statuses of the object. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement), and each array element is always set to 2 (OK).
 
 </dd> <dt>
 
@@ -778,7 +778,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-An array of free-form strings that provides more detailed explanations for any of the enabled capabilities that are specified as 1 (Other). This property is inherited from [**CIM\_EthernetPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-ethernetport).
+An array of free-form strings that provides more detailed explanations for any of the enabled capabilities that are specified as 1 (Other). This property is inherited from [**CIM\_EthernetPort**](/previous-versions/windows/desktop/iscsitarg/cim-ethernetport).
 
 </dd> <dt>
 
@@ -791,7 +791,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string that describes the enabled or disabled state of the element when the **EnabledState** property is set to 1 (Other). This property must be set to **Null** when the **EnabledState** property is any value other than 1. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.
+A string that describes the enabled or disabled state of the element when the **EnabledState** property is set to 1 (Other). This property must be set to **Null** when the **EnabledState** property is any value other than 1. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -804,7 +804,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Any additional data, beyond device ID information, that could be used to identify a logical device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+Any additional data, beyond device ID information, that could be used to identify a logical device. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -817,7 +817,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string value that describes **LinkTechnology** when it is set to 1, (Other). This property is inherited from [**CIM\_NetworkPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-networkport).
+A string value that describes **LinkTechnology** when it is set to 1, (Other). This property is inherited from [**CIM\_NetworkPort**](/previous-versions/windows/desktop/iscsitarg/cim-networkport).
 
 </dd> <dt>
 
@@ -830,7 +830,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The use of this property is deprecated in lieu of the **PortType** property. This property is inherited from [**CIM\_NetworkPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-networkport).
+The use of this property is deprecated in lieu of the **PortType** property. This property is inherited from [**CIM\_NetworkPort**](/previous-versions/windows/desktop/iscsitarg/cim-networkport).
 
 </dd> <dt>
 
@@ -843,7 +843,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Describes the type of module, when **PortType** is set to 1 (Other). This property is inherited from [**CIM\_LogicalPort**](https://docs.microsoft.com/previous-versions//cc136869(v=vs.85)).
+Describes the type of module, when **PortType** is set to 1 (Other). This property is inherited from [**CIM\_LogicalPort**](/previous-versions//cc136869(v=vs.85)).
 
 </dd> <dt>
 
@@ -859,7 +859,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** ( 64 )
 </dt> </dl>
 
-The network address that is hardcoded into a port. This hardcoded address can be changed by using a firmware upgrade or a software configuration. When this change is made, the field should be updated at the same time. This property should be **Null** if no hardcoded address exists for the network adapter. This property is inherited from [**CIM\_NetworkPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-networkport).
+The network address that is hardcoded into a port. This hardcoded address can be changed by using a firmware upgrade or a software configuration. When this change is made, the field should be updated at the same time. This property should be **Null** if no hardcoded address exists for the network adapter. This property is inherited from [**CIM\_NetworkPort**](/previous-versions/windows/desktop/iscsitarg/cim-networkport).
 
 </dd> <dt>
 
@@ -872,7 +872,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The port number. This property is inherited from [**CIM\_NetworkPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-networkport).
+The port number. This property is inherited from [**CIM\_NetworkPort**](/previous-versions/windows/desktop/iscsitarg/cim-networkport).
 
 </dd> <dt>
 
@@ -885,7 +885,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The specific mode that is currently enabled for the port. When set to 1 (Other), the related **OtherPortType** property contains a string description of the type of port. This property is inherited from [**CIM\_LogicalPort**](https://docs.microsoft.com/previous-versions//cc136869(v=vs.85)).
+The specific mode that is currently enabled for the port. When set to 1 (Other), the related **OtherPortType** property contains a string description of the type of port. This property is inherited from [**CIM\_LogicalPort**](/previous-versions//cc136869(v=vs.85)).
 
 <dl> <dt>
 
@@ -966,7 +966,7 @@ Data type: **uint16** array
 Access type: Read-only
 </dt> </dl>
 
-The power management capabilities of the device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+The power management capabilities of the device. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -979,7 +979,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the device can be power managed. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+Indicates whether the device can be power managed. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -992,7 +992,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The number of consecutive hours that this device has been powered on since its last power cycle. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+The number of consecutive hours that this device has been powered on since its last power cycle. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -1005,7 +1005,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status information for the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Provides high level status information. This property should be used in conjunction with the **DetailedStatus** property to provide high level and detailed health status information for the element and its subcomponents. A **Null** value indicates that this property is not implemented. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -1021,7 +1021,7 @@ Access type: Write-only
 Qualifiers: **Units** ("Bits per Second")
 </dt> </dl>
 
-The requested bandwidth of the port, in bits per second. The actual bandwidth is reported in the **Speed** property. This property is inherited from [**CIM\_LogicalPort**](https://docs.microsoft.com/previous-versions//cc136869(v=vs.85)).
+The requested bandwidth of the port, in bits per second. The actual bandwidth is reported in the **Speed** property. This property is inherited from [**CIM\_LogicalPort**](/previous-versions//cc136869(v=vs.85)).
 
 </dd> <dt>
 
@@ -1034,7 +1034,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The last requested or desired state for the element. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it is always set to 12 (Not Applicable).
+The last requested or desired state for the element. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)), and it is always set to 12 (Not Applicable).
 
 </dd> <dt>
 
@@ -1050,7 +1050,7 @@ Access type: Read-only
 Qualifiers: **Units** ("Bits per Second")
 </dt> </dl>
 
-The bandwidth of the port, in bits per second. This property is inherited from [**CIM\_LogicalPort**](https://docs.microsoft.com/previous-versions//cc136869(v=vs.85)).
+The bandwidth of the port, in bits per second. This property is inherited from [**CIM\_LogicalPort**](/previous-versions//cc136869(v=vs.85)).
 
 </dd> <dt>
 
@@ -1063,7 +1063,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The current status of the object. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not used.
+The current status of the object. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement), but it is not used.
 
 </dd> <dt>
 
@@ -1076,7 +1076,7 @@ Data type: **string** array
 Access type: Read-only
 </dt> </dl>
 
-Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
+Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement).
 
 </dd> <dt>
 
@@ -1089,7 +1089,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-The current state of the logical device. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+The current state of the logical device. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -1105,7 +1105,7 @@ Access type: Read-only
 Qualifiers: **Units** ("Bytes")
 </dt> </dl>
 
-The maximum transmission unit (MTU) that can be supported, in bytes. This property is inherited from [**CIM\_NetworkPort**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-networkport).
+The maximum transmission unit (MTU) that can be supported, in bytes. This property is inherited from [**CIM\_NetworkPort**](/previous-versions/windows/desktop/iscsitarg/cim-networkport).
 
 </dd> <dt>
 
@@ -1118,7 +1118,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The scoping system's creation class name. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is always set to "Msvm\_VirtualEthernetSwitch".
+The scoping system's creation class name. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), and it is always set to "Msvm\_VirtualEthernetSwitch".
 
 </dd> <dt>
 
@@ -1131,7 +1131,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The scoping system's name. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice).
+The scoping system's name. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice).
 
 </dd> <dt>
 
@@ -1144,7 +1144,7 @@ Data type: **datetime**
 Access type: Read-only
 </dt> </dl>
 
-The date or time when the enabled state of the element last changed. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.
+The date or time when the enabled state of the element last changed. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)), and it is always set to **Null**.
 
 </dd> <dt>
 
@@ -1157,7 +1157,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The total number of hours that this device has been powered. This property is inherited from [**CIM\_LogicalDevice**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
+The total number of hours that this device has been powered. This property is inherited from [**CIM\_LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice), but it is not used.
 
 </dd> <dt>
 
@@ -1170,7 +1170,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates the target state to which the instance is transitioning. This property is inherited from [**CIM\_EnabledLogicalElement**](https://docs.microsoft.com/previous-versions//cc136818(v=vs.85)), but it is not used.
+Indicates the target state to which the instance is transitioning. This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)), but it is not used.
 
 </dd> <dt>
 
@@ -1183,7 +1183,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-In some circumstances, a logical port might be identifiable as a front end or back end port. An example of this situation would be a storage array that might have back end ports to communicate with disk drives and front end ports to communicate with hosts. If there is no restriction on the use of the port, then the value should be set to 4 (Not restricted). This property is inherited from [**CIM\_LogicalPort**](https://docs.microsoft.com/previous-versions//cc136869(v=vs.85)).
+In some circumstances, a logical port might be identifiable as a front end or back end port. An example of this situation would be a storage array that might have back end ports to communicate with disk drives and front end ports to communicate with hosts. If there is no restriction on the use of the port, then the value should be set to 4 (Not restricted). This property is inherited from [**CIM\_LogicalPort**](/previous-versions//cc136869(v=vs.85)).
 
 <dl> <dt>
 
@@ -1229,9 +1229,4 @@ The current virtual machine queue (VMQ) offloading usage on this port. The usage
 
 
  
-
- 
-
-
-
 

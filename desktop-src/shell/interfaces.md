@@ -287,7 +287,7 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idataobjectprovider"><strong>IDataObjectProvider</strong></a><br/></td>
-<td>Provides methods that enable you to set or retrieve a <a href="https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.datatransfer.datapackage.aspx">DataPackage</a> object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject"><strong>IDataObject interface</strong></a>, which the DataPackage uses to support interoperability. The DataPackage object is used by an app to provide data to another app.<br/></td>
+<td>Provides methods that enable you to set or retrieve a <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage?view=winrt-19041">DataPackage</a> object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject"><strong>IDataObject interface</strong></a>, which the DataPackage uses to support interoperability. The DataPackage object is used by an app to provide data to another app.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idatatransfermanagerinterop"><strong>IDataTransferManagerInterop</strong></a><br/></td>
@@ -719,7 +719,7 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrolfoldercapabilities"><strong>INameSpaceTreeControlFolderCapabilities</strong></a><br/></td>
-<td>Exposes a single method that retrieves the status of a folder's <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> filtering support.<br/></td>
+<td>Exposes a single method that retrieves the status of a folder's <a href="/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> filtering support.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk"><strong>INamespaceWalk</strong></a><br/></td>
@@ -923,7 +923,7 @@ This interface is the current, renamed version of <a href="https://docs.microsof
 </tr>
 <tr class="odd">
 <td><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iqueryinfo"><strong>IQueryInfo</strong></a><br/></td>
-<td>Exposes methods that the Shell uses to retrieve flags and info tip information for an item that resides in an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a> implementation. Info tips are usually displayed inside a <a href="https://docs.microsoft.com/windows/desktop/Controls/tooltip-controls">tooltip</a> control.<br/></td>
+<td>Exposes methods that the Shell uses to retrieve flags and info tip information for an item that resides in an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a> implementation. Info tips are usually displayed inside a <a href="/windows/desktop/Controls/tooltip-controls">tooltip</a> control.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irelateditem"><strong>IRelatedItem</strong></a><br/></td>
@@ -1393,7 +1393,3 @@ This interface is the current, renamed version of <a href="https://docs.microsof
  
 
  
-
-
-
-

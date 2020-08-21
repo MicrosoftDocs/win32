@@ -22,9 +22,9 @@ When the pipeline is configured without a geometry shader, a pixel shader is lim
 
 Pixel shader input data includes vertex attributes (that can be interpolated with or without perspective correction) or can be treated as per-primitive constants. Pixel shader inputs are interpolated from the vertex attributes of the primitive being rasterized, based on the interpolation mode declared. If a primitive gets clipped before rasterization, the interpolation mode is honored during the clipping process as well.
 
-Vertex attributes are interpolated (or evaluated) at pixel shader center locations. Pixel shader attribute interpolation modes are declared in an input register declaration, on a per-element basis in either an [argument](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-function-parameters) or an [input structure](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-struct). Attributes can be interpolated linearly, or with [centroid sampling](https://msdn.microsoft.com/library/Ee415231(v=VS.85).aspx). Centroid evaluation is relevant only during multisampling to cover cases where a pixel is covered by a primitive but a pixel center may not be; centroid evaluation occurs as close as possible to the (non-covered) pixel center.
+Vertex attributes are interpolated (or evaluated) at pixel shader center locations. Pixel shader attribute interpolation modes are declared in an input register declaration, on a per-element basis in either an [argument](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-function-parameters) or an [input structure](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-struct). Attributes can be interpolated linearly, or with [centroid sampling](https://msdn.microsoft.com/library/Ee415231(v=VS.85).aspx). Centroid evaluation is relevant only during multisampling to cover cases where a pixel is covered by a primitive but a pixel center may not be; centroid evaluation occurs as close as possible to the (non-covered) pixel center.
 
-Inputs may also be declared with a [system-value semantic](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics), which marks a parameter that is consumed by other pipeline stages. For instance, a pixel position should be marked with the SV\_Position semantic. The IA stage can produce one scalar for a pixel shader (using SV\_PrimitiveID); the rasterizer stage can also generate one scalar for a pixel shader (using SV\_IsFrontFace).
+Inputs may also be declared with a [system-value semantic](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics), which marks a parameter that is consumed by other pipeline stages. For instance, a pixel position should be marked with the SV\_Position semantic. The IA stage can produce one scalar for a pixel shader (using SV\_PrimitiveID); the rasterizer stage can also generate one scalar for a pixel shader (using SV\_IsFrontFace).
 
 ### Outputs
 
@@ -41,13 +41,9 @@ A pixel shader cannot output a stencil value.
 [Graphics Pipeline](overviews-direct3d-11-graphics-pipeline.md)
 </dt> <dt>
 
-[Pipeline Stages (Direct3D 10)](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
+[Pipeline Stages (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
  
 
  
-
-
-
-

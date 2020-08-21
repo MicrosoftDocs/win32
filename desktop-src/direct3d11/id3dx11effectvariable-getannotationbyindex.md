@@ -41,7 +41,7 @@ ID3DX11EffectVariable* GetAnnotationByIndex(
 *Index* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 A zero-based index.
 
@@ -81,10 +81,4 @@ Annonations can be attached to a technique, a pass, or a global variable.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

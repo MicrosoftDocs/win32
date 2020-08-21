@@ -27,9 +27,9 @@ Applications must query an image item to obtain a pointer to its [**IWiaDataTran
 
 
 
-In the previous code, it is assumed that **pWiaItem** is a valid pointer to the [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) interface. The call to [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) fills **pWiaDataTransfer** with a pointer to the [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer) interface of the item referred to by **pWiaItem**.
+In the previous code, it is assumed that **pWiaItem** is a valid pointer to the [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) interface. The call to [IUnknown::QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) fills **pWiaDataTransfer** with a pointer to the [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer) interface of the item referred to by **pWiaItem**.
 
-The application then sets the [STGMEDIUM](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure members. For information, see STGMEDIUM and [TYMED](https://msdn.microsoft.com/library/ms691227(v=VS.85).aspx).
+The application then sets the [STGMEDIUM](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure members. For information, see STGMEDIUM and [TYMED](/windows/win32/api/objidl/ne-objidl-tymed).
 
 
 ```
@@ -195,6 +195,3 @@ HRESULT TransferWiaItem( IWiaItem *pWiaItem )
  
 
  
-
-
-

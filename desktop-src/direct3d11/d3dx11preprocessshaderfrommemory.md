@@ -25,7 +25,7 @@ ms.date: 05/31/2018
  
 
 > [!Note]  
-> Instead of using this function, we recommend that you use the [**D3DPreprocess**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dpreprocess) API.
+> Instead of using this function, we recommend that you use the [**D3DPreprocess**](/windows/desktop/direct3dhlsl/d3dpreprocess) API.
 
  
 
@@ -57,7 +57,7 @@ HRESULT D3DX11PreprocessShaderFromMemory(
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 Pointer to the memory containing the shader.
 
@@ -66,7 +66,7 @@ Pointer to the memory containing the shader.
 *SrcDataSize* \[in\]
 </dt> <dd>
 
-Type: **[**SIZE\_T**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**SIZE\_T**](/windows/desktop/WinProg/windows-data-types)**
 
 Size of the shader.
 
@@ -75,7 +75,7 @@ Size of the shader.
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 Name of the shader.
 
@@ -93,7 +93,7 @@ A NULL-terminated array of shader macros; set this to **NULL** to specify no mac
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**LPD3D10INCLUDE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))**
+Type: **[**LPD3D10INCLUDE**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))**
 
 A pointer to an include interface; set this to **NULL** to specify there is no include file.
 
@@ -111,7 +111,7 @@ A pointer to a thread pump interface (see [**ID3DX11ThreadPump Interface**](id3d
 *ppShaderText* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob)\*\***
+Type: **[**ID3D10Blob**](/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob)\*\***
 
 A pointer to memory that contains the uncompiled shader.
 
@@ -120,7 +120,7 @@ A pointer to memory that contains the uncompiled shader.
 *ppErrorMsgs* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob)\*\***
+Type: **[**ID3D10Blob**](/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob)\*\***
 
 The address of a pointer to memory that contains effect-creation errors, if any occurred.
 
@@ -160,10 +160,4 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_RESTORE command copies a bitmap from a file to the frame buffer. Digital-video devices recognize this command. This command performs the opposite action of the [MCI\_CAPTURE](mci-capture.md) command.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function with the following parameters.
 
 
 ```C++
@@ -108,10 +108,4 @@ The **rc** member of the structure identified by *lpRestore* contains a valid re
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

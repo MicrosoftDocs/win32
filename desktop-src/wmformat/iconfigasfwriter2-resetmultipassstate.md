@@ -57,14 +57,8 @@ This method must be called to reset the internal state of the filter whenever a 
 
 <dl> <dt>
 
-[**IConfigAsfWriter2 Interface**](https://msdn.microsoft.com/library/Dd743206(v=VS.85).aspx)
+[**IConfigAsfWriter2 Interface**](/previous-versions/windows/desktop/legacy/dd743206(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

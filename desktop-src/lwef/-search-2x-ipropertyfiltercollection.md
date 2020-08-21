@@ -26,7 +26,7 @@ Exposes properties of the returned collection based on the query submitted.
 
 ## Members
 
-The **IPropertyFilterCollection** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPropertyFilterCollection** also has these types of members:
+The **IPropertyFilterCollection** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPropertyFilterCollection** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -66,10 +66,4 @@ These properties are used to filter collection returned by the query.
 
 
  
-
- 
-
-
-
-
 

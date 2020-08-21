@@ -41,7 +41,7 @@ HRESULT ExtractToMesh(
 *NumCoefficients* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of coefficients to extract from the buffer. When using spherical harmonic (SH) precomputed radiance transfer (PRT), the number of coefficients should be Order ². Order must be in the range of [D3DXSH\_MINORDER](other-d3dx-constants.md) to D3DXSH\_MAXORDER, inclusive.
 
@@ -50,16 +50,16 @@ Number of coefficients to extract from the buffer. When using spherical harmonic
 *Usage* \[in\]
 </dt> <dd>
 
-Type: **[**D3DDECLUSAGE**](https://msdn.microsoft.com/library/Bb172534(v=VS.85).aspx)**
+Type: **[**D3DDECLUSAGE**](./d3ddeclusage.md)**
 
-Vertex usage descriptions of the mesh. See [**D3DDECLUSAGE**](https://msdn.microsoft.com/library/Bb172534(v=VS.85).aspx).
+Vertex usage descriptions of the mesh. See [**D3DDECLUSAGE**](./d3ddeclusage.md).
 
 </dd> <dt>
 
 *UsageIndexStart* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Starting index for coefficients to be stored in the mesh.
 
@@ -101,7 +101,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

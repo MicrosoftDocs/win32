@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## Detecting Support for Bump Mapping
 
-A device can perform bump mapping if it supports either the D3DTOP\_BUMPENVMAP or D3DTOP\_BUMPENVMAPLUMINANCE texture blending operation. Use [**IDirect3D9::CheckDeviceFormat**](https://msdn.microsoft.com/library/Bb174309(v=VS.85).aspx) with D3DUSAGE\_QUERY\_LEGACYBUMPMAP to see if a format is supported for bump mapping.
+A device can perform bump mapping if it supports either the D3DTOP\_BUMPENVMAP or D3DTOP\_BUMPENVMAPLUMINANCE texture blending operation. Use [**IDirect3D9::CheckDeviceFormat**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformat) with D3DUSAGE\_QUERY\_LEGACYBUMPMAP to see if a format is supported for bump mapping.
 
 Additionally, applications should check the device capabilities to make sure the device supports an appropriate number of blending stages, usually at least three, and exposes at least one bump-mapping pixel format.
 
@@ -96,7 +96,7 @@ d3dDevice->SetTextureStageState( 2, D3DTSS_COLORARG2, D3DTA_CURRENT );
 
 
 
-When the blending operations and arguments are set, the following code example sets the 2x2 bump mapping matrix to the identity matrix by setting the D3DTSS\_BUMPENVMAPMAT00 and the D3DTSS\_BUMPENVMAPMAT11 members of [**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/library/Bb172617(v=VS.85).aspx) to 1.0. Setting the matrix to the identity causes the system to use the delta values in the bump map unmodified, but this is not a requirement.
+When the blending operations and arguments are set, the following code example sets the 2x2 bump mapping matrix to the identity matrix by setting the D3DTSS\_BUMPENVMAPMAT00 and the D3DTSS\_BUMPENVMAPMAT11 members of [**D3DTEXTURESTAGESTATETYPE**](./d3dtexturestagestatetype.md) to 1.0. Setting the matrix to the identity causes the system to use the delta values in the bump map unmodified, but this is not a requirement.
 
 
 ```
@@ -143,6 +143,3 @@ Note that the preceding example shows parameters set for specular environment ma
  
 
  
-
-
-

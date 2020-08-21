@@ -33,13 +33,13 @@ Each attribute provides the user identity in a different format. In general, dev
 
 The **ratUserName** attribute contains the name that was actually sent "over the wire." NPS has not, in any way, processed or validated the contents of this attribute. This attribute may not be available at all because the user may have been identified through a means such as caller ID.
 
-When using [**RadiusExtensionProcess/Ex**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex), if this attribute is available, it is available only at the Authentication Extension DLL plug-in point. The **ratUserName** attribute is not available at the Authorization Extension DLL plug-in point because in Authorization Extension DLLs the **RadiusExtensionProcess/Ex** functions see only the "outbound" attributes.
+When using [**RadiusExtensionProcess/Ex**](/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex), if this attribute is available, it is available only at the Authentication Extension DLL plug-in point. The **ratUserName** attribute is not available at the Authorization Extension DLL plug-in point because in Authorization Extension DLLs the **RadiusExtensionProcess/Ex** functions see only the "outbound" attributes.
 
-When using [**RadiusExtensionProcess2**](https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2), if this attribute is available, it is available at both the Authentication Extension DLL plug-in point and the Authorization Extension DLL plug-in point.
+When using [**RadiusExtensionProcess2**](/windows/desktop/api/authif/nc-authif-pradius_extension_process_2), if this attribute is available, it is available at both the Authentication Extension DLL plug-in point and the Authorization Extension DLL plug-in point.
 
 ## ratStrippedUserName
 
-The **ratStrippedUserName** is the user's identity after "realm stripping." For more information on realm stripping, see the [Realm names](https://technet.microsoft.com/library/6e5ce48d-e662-435c-a74e-0dce305914ce) topic on http:\\\\technet2.microsoft.com.
+The **ratStrippedUserName** is the user's identity after "realm stripping." For more information on realm stripping, see the [Realm names](/previous-versions/windows/it-pro/windows-server-2003/cc779938(v=ws.10)) topic on http:\\\\technet2.microsoft.com.
 
 This attribute may be present at the Authentication Extension DLL plug-in point, the Authorization Extension DLL plug-in point, or both. This attribute is guaranteed to have the format:
 
@@ -69,16 +69,12 @@ The format of the **ratFQUserName** attribute at the Authorization Extension DLL
 
 <dl> <dt>
 
-[Setting Up the Extension DLLs](https://docs.microsoft.com/windows/desktop/Nps/ias-setting-up-the-extension-and-authorization-dlls)
+[Setting Up the Extension DLLs](/windows/desktop/Nps/ias-setting-up-the-extension-and-authorization-dlls)
 </dt> <dt>
 
-[Invoking the Extension DLLs](https://docs.microsoft.com/windows/desktop/Nps/ias-authentication-and-authorization-process)
+[Invoking the Extension DLLs](/windows/desktop/Nps/ias-authentication-and-authorization-process)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -15,11 +15,11 @@ ms.date: 05/31/2018
 # Writing a Timer Callback Function
 
 > [!Note]  
-> This topic describes an obsolete function. New applications should use the [**CreateTimerQueueTimer**](https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) function to create timers.
+> This topic describes an obsolete function. New applications should use the [**CreateTimerQueueTimer**](/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) function to create timers.
 
  
 
-The following callback function, OneShotTimer, invalidates the identifier for the single timer event and calls a timer routine to handle the application-specific tasks. For more information, see [**TimeProc**](https://msdn.microsoft.com/library/Dd757631(v=VS.85).aspx).
+The following callback function, OneShotTimer, invalidates the identifier for the single timer event and calls a timer routine to handle the application-specific tasks. For more information, see [**TimeProc**](/previous-versions//dd757631(v=vs.85)).
 
 
 ```C++
@@ -45,7 +45,3 @@ void CALLBACK OneShotTimer(UINT wTimerID, UINT msg,
  
 
  
-
-
-
-

@@ -58,7 +58,7 @@ A pointer that receives a pointer to the new instance of an [**IWICBitmapFrameEn
 *ppIEncoderOptions* \[in, out\]
 </dt> <dd>
 
-Type: **[IPropertyBag2](https://msdn.microsoft.com/library/Aa768192(VS.85).aspx)\*\***
+Type: **[IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85))\*\***
 
 The named properties to use for frame initialization.
 
@@ -85,9 +85,4 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
  
-
- 
-
-
-
 

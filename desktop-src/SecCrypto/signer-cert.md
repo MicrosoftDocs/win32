@@ -16,7 +16,7 @@ api_location:
 
 # SIGNER\_CERT structure
 
-The **SIGNER\_CERT** structure specifies a [*certificate*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) used to sign a document. The certificate can be stored in a [*Software Publisher Certificate*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SPC) file or in a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+The **SIGNER\_CERT** structure specifies a [*certificate*](../secgloss/c-gly.md) used to sign a document. The certificate can be stored in a [*Software Publisher Certificate*](../secgloss/s-gly.md) (SPC) file or in a [*certificate store*](../secgloss/c-gly.md).
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.
@@ -123,7 +123,3 @@ The handle of the window to use as the owner of any dialog boxes that are displa
  
 
  
-
-
-
-

@@ -48,10 +48,10 @@ The [OpenType specification](https://www.microsoft.com/Typography/OpenTypeSpecif
 
 | Technique                                                                                                                        | Description                                                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [COLR](https://docs.microsoft.com/typography/opentype/spec/colr)/[CPAL](https://docs.microsoft.com/typography/opentype/spec/cpal) tables | Uses layers of colored vectors, whose shapes are defined in the same way as single-color glyph outlines. **Note:** Supported starting in Windows 8.1. <br/>                                                                                                                                                 |
-| [SVG](https://docs.microsoft.com/typography/opentype/spec/svg) table                                                                 | Uses vector images authored in the Scalable Vector Graphics format. **Note:** As of Windows 10 Anniversary Update, DirectWrite supports a subset of the full SVG spec. Not all SVG content is guaranteed to render in an OpenType SVG font. See [SVG Support](/windows/win32/Direct2D/svg-support) for more details. <br/> |
-| [CBDT](https://docs.microsoft.com/typography/opentype/spec/cbdt)/[CBLC](https://docs.microsoft.com/typography/opentype/spec/cblc) tables | Uses embedded color bitmap images.                                                                                                                                                                                                                                                                                |
-| [sbix](https://docs.microsoft.com/typography/opentype/spec/sbix) table                                                               | Uses embedded color bitmap images.                                                                                                                                                                                                                                                                                |
+| [COLR](/typography/opentype/spec/colr)/[CPAL](/typography/opentype/spec/cpal) tables | Uses layers of colored vectors, whose shapes are defined in the same way as single-color glyph outlines. **Note:** Supported starting in Windows 8.1. <br/>                                                                                                                                                 |
+| [SVG](/typography/opentype/spec/svg) table                                                                 | Uses vector images authored in the Scalable Vector Graphics format. **Note:** As of Windows 10 Anniversary Update, DirectWrite supports a subset of the full SVG spec. Not all SVG content is guaranteed to render in an OpenType SVG font. See [SVG Support](../direct2d/svg-support.md) for more details. <br/> |
+| [CBDT](/typography/opentype/spec/cbdt)/[CBLC](/typography/opentype/spec/cblc) tables | Uses embedded color bitmap images.                                                                                                                                                                                                                                                                                |
+| [sbix](/typography/opentype/spec/sbix) table                                                               | Uses embedded color bitmap images.                                                                                                                                                                                                                                                                                |
 
 
 
@@ -65,7 +65,7 @@ From the developer s perspective too, color fonts are usually used the same way 
 
 ### Using color fonts in a XAML app
 
-The XAML platform s text elements (such as [TextBlock](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.textblock), [TextBox](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.textbox), [RichEditBox](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.richeditbox), [Glyphs](https://docs.microsoft.com/uwp/api/windows.ui.xaml.documents.glyphs?f=255&MSPPError=-2147217396), and [FontIcon](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.fonticon)) support color fonts by default. Simply style your text with a color font, and any color glyphs will be rendered in color. The following code example shows one way to style a TextBlock with a color font packaged with your app. The same technique applies to regular fonts.
+The XAML platform s text elements (such as [TextBlock](/uwp/api/windows.ui.xaml.controls.textblock), [TextBox](/uwp/api/windows.ui.xaml.controls.textbox), [RichEditBox](/uwp/api/windows.ui.xaml.controls.richeditbox), [Glyphs](/uwp/api/windows.ui.xaml.documents.glyphs?f=255&MSPPError=-2147217396), and [FontIcon](/uwp/api/windows.ui.xaml.controls.fonticon)) support color fonts by default. Simply style your text with a color font, and any color glyphs will be rendered in color. The following code example shows one way to style a TextBlock with a color font packaged with your app. The same technique applies to regular fonts.
 
 
 ```XML
@@ -74,15 +74,15 @@ The XAML platform s text elements (such as [TextBlock](https://docs.microsoft.co
 
 
 
-If you never want your XAML text element to render multicolored text, set its [IsColorFontEnabledProperty](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.textblock.iscolorfontenabledproperty) property to false.
+If you never want your XAML text element to render multicolored text, set its [IsColorFontEnabledProperty](/uwp/api/windows.ui.xaml.controls.textblock.iscolorfontenabledproperty) property to false.
 
 ### Using color fonts in Microsoft Edge
 
-Color fonts are rendered by default in websites and web apps running on Microsoft Edge, including the XAML [WebView](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.webview) control. Simply use HTML and CSS to style your text with a color font, and any color glyphs will be rendered in color.
+Color fonts are rendered by default in websites and web apps running on Microsoft Edge, including the XAML [WebView](/uwp/api/windows.ui.xaml.controls.webview) control. Simply use HTML and CSS to style your text with a color font, and any color glyphs will be rendered in color.
 
 ### Using color fonts with DirectWrite and Direct2D
 
-Your app can use Direct2D s higher-level text drawing methods ([**DrawText**](/windows/win32/Direct2D/id2d1devicecontext4-drawtext-overload) and [**DrawTextLayout**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawtextlayout)) or it can use lower-level techniques to draw glyph runs directly. In either case, your app requires code changes in order to handle color glyphs correctly. If your app uses Direct2D s **DrawText** and **DrawTextLayout** APIs, note that these do not render color glyphs by default. This is to avoid unexpected behavior changes in text rendering apps that were designed prior to color font support.
+Your app can use Direct2D s higher-level text drawing methods ([**DrawText**](../direct2d/id2d1devicecontext4-drawtext-overload.md) and [**DrawTextLayout**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawtextlayout)) or it can use lower-level techniques to draw glyph runs directly. In either case, your app requires code changes in order to handle color glyphs correctly. If your app uses Direct2D s **DrawText** and **DrawTextLayout** APIs, note that these do not render color glyphs by default. This is to avoid unexpected behavior changes in text rendering apps that were designed prior to color font support.
 
 To opt in to color glyph rendering, pass the [**D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT**](/windows/win32/api/d2d1/ne-d2d1-d2d1_draw_text_options) options flag to the drawing method. The following code example shows how to call Direct2D s DrawText method to render a string in a color font:
 
@@ -108,10 +108,10 @@ If your app uses lower-level APIs to handle glyph runs directly, then it will co
 
 To correctly handle color glyphs, your app should:
 
-1.  Pass the glyph run information to [**TranslateColorGlyphRun**](https://msdn.microsoft.com/library/Mt761992(v=VS.85).aspx), along with a [**DWRITE\_GLYPH\_IMAGE\_FORMATS**](/windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_formats) parameter that indicates which type(s) of color glyph the app is prepared to handle. If any color glyphs are present (based on the font and the requested **DWRITE\_GLYPH\_IMAGE\_FORMATS**), then DirectWrite will split the primary glyph run into individual  color glyph runs  which can be accessed through the returned [**IDWriteColorGlyphRunEnumerator**](idwritecolorglyphrunenumerator.md) object in Step 4.
-2.  Check the HRESULT returned by [**TranslateColorGlyphRun**](https://msdn.microsoft.com/library/Mt761992(v=VS.85).aspx) to determine whether any color glyph runs were detected. An **HRESULT** of **DWRITE\_E\_NOCOLOR** indicates no applicable color glyph run.
-3.  If [**TranslateColorGlyphRun**](https://msdn.microsoft.com/library/Mt761992(v=VS.85).aspx) reported no color glyph runs (by returning **DWRITE\_E\_NOCOLOR**), then the whole glyph run is treated as monochromatic, and your app should draw it as desired (for example, using [**ID2D1DeviceContext::DrawGlyphRun**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawglyphrun)).
-4.  If [**TranslateColorGlyphRun**](https://msdn.microsoft.com/library/Mt761992(v=VS.85).aspx) does report the presence of color glyph runs, then your app should ignore the primary glyph run and instead use the color glyph run(s) returned by TranslateColorGlyphRun. To do so, iterate through the returned [**IDWriteColorGlyphRunEnumerator1**](https://msdn.microsoft.com/library/Mt725314(v=VS.85).aspx) object, retrieving each color glyph run and drawing it as appropriate for its glyph image format (for example, you can use [**DrawColorBitmapGlyphRun**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawcolorbitmapglyphrun) and [**DrawSvgGlyphRun**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawsvgglyphrun) to draw color bitmap glyphs and SVG glyphs, respectively).
+1.  Pass the glyph run information to [**TranslateColorGlyphRun**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun), along with a [**DWRITE\_GLYPH\_IMAGE\_FORMATS**](/windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_formats) parameter that indicates which type(s) of color glyph the app is prepared to handle. If any color glyphs are present (based on the font and the requested **DWRITE\_GLYPH\_IMAGE\_FORMATS**), then DirectWrite will split the primary glyph run into individual  color glyph runs  which can be accessed through the returned [**IDWriteColorGlyphRunEnumerator**](idwritecolorglyphrunenumerator.md) object in Step 4.
+2.  Check the HRESULT returned by [**TranslateColorGlyphRun**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun) to determine whether any color glyph runs were detected. An **HRESULT** of **DWRITE\_E\_NOCOLOR** indicates no applicable color glyph run.
+3.  If [**TranslateColorGlyphRun**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun) reported no color glyph runs (by returning **DWRITE\_E\_NOCOLOR**), then the whole glyph run is treated as monochromatic, and your app should draw it as desired (for example, using [**ID2D1DeviceContext::DrawGlyphRun**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawglyphrun)).
+4.  If [**TranslateColorGlyphRun**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun) does report the presence of color glyph runs, then your app should ignore the primary glyph run and instead use the color glyph run(s) returned by TranslateColorGlyphRun. To do so, iterate through the returned [**IDWriteColorGlyphRunEnumerator1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritecolorglyphrunenumerator1) object, retrieving each color glyph run and drawing it as appropriate for its glyph image format (for example, you can use [**DrawColorBitmapGlyphRun**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawcolorbitmapglyphrun) and [**DrawSvgGlyphRun**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawsvgglyphrun) to draw color bitmap glyphs and SVG glyphs, respectively).
 
 The following code example shows the general structure of this procedure:
 
@@ -216,33 +216,21 @@ args.DrawingSession.DrawText(
     m_color, 
     m_textFormat 
     ); 
-    
 ```
-
-
 
 ## Related topics
 
-[DirectWrite color glyph sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteColorGlyph)
+[DirectWrite colored glyph sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteColorGlyph)
 
 
-[DirectWrite Color Font Fallback sample](https://code.msdn.microsoft.com/windowsapps/DirectWrite-Color-Font-ef762d88)
+[**IDWriteFontFace4 interface**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface4)
 
 
-[**IDWriteFontFace4 interface**](https://msdn.microsoft.com/library/Mt725320(v=VS.85).aspx)
+[**IDWriteFactory4::TranslateColorGlyphRun method**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun)
 
 
-[**IDWriteFactory4::TranslateColorGlyphRun method**](https://msdn.microsoft.com/library/Mt761992(v=VS.85).aspx)
-
-
-[**ID2D1DeviceContext4::DrawText method**](/windows/win32/Direct2D/id2d1devicecontext4-drawtext-overload)
+[**ID2D1DeviceContext4::DrawText method**](../direct2d/id2d1devicecontext4-drawtext-overload.md)
 
 
  
-
- 
-
-
-
-
 

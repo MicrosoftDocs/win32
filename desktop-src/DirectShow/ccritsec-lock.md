@@ -41,7 +41,7 @@ This method does not return a value.
 
 ## Remarks
 
-This method calls the [**EnterCriticalSection**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-entercriticalsection) function.
+This method calls the [**EnterCriticalSection**](/windows/desktop/api/synchapi/nf-synchapi-entercriticalsection) function.
 
 Call the [**CCritSec::Unlock**](ccritsec-unlock.md) member function to unlock the critical section. You can make multiple calls to the **Lock** method on the same thread; be sure to call **Unlock** a corresponding number of times.
 
@@ -66,9 +66,4 @@ If the object is already locked by another thread, the **CCritSec::Lock** method
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -87,7 +87,7 @@ public static void JetMakeKey(
 <!-- end list -->
 
   - dataSize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Size of the data.
 
@@ -111,4 +111,3 @@ The MakeKey functions provide datatype-specific make key functionality.
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

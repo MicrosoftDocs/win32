@@ -41,7 +41,7 @@ The collection is empty if the values do not apply to the type of the error. You
 
 ### C++
 
-See [**get\_DatabaseKeys**](https://msdn.microsoft.com/library/Aa369250(v=VS.85).aspx) function.
+See [**get\_DatabaseKeys**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-get_databasekeys) function.
 
 ## Requirements
 
@@ -56,9 +56,4 @@ See [**get\_DatabaseKeys**](https://msdn.microsoft.com/library/Aa369250(v=VS.85)
 
 
  
-
- 
-
-
-
 

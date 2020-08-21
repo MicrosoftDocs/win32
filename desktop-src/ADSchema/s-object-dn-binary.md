@@ -29,7 +29,7 @@ An octet string that contains a binary value and a distinguished name (DN).
 | MAPI Type    | TSTRING                                                                            |
 | ADS Type     | ADSTYPE\_DN\_WITH\_BINARY                                                          |
 | Variant Type | VT\_DISPATCH                                                                       |
-| SDS Type     | A COM object that can be cast to an [**IADsDNWithBinary**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsdnwithbinary). |
+| SDS Type     | A COM object that can be cast to an [**IADsDNWithBinary**](/windows/desktop/api/iads/nn-iads-iadsdnwithbinary). |
 
 
 
@@ -41,19 +41,15 @@ A value with this syntax has the following format:
 B:<char count>:<binary value>:<object DN>
 ```
 
-where "&lt;char count&gt;" is the number of hexadecimal digits in "&lt;binary value&gt;", "&lt;binary value&gt;" is the hexadecimal representation of the binary value, and "&lt;object DN&gt;" is a distinguished name. Active Directory automatically updates the DN if the object that it refers to is moved or renamed. For more information and a code example that uses this syntax, see [Enabling Rename-safe Binding with the otherWellKnownObjects Property](https://docs.microsoft.com/windows/desktop/AD/enabling-rename-safe-binding-with-the-otherwellknownobjects-property).
+where "&lt;char count&gt;" is the number of hexadecimal digits in "&lt;binary value&gt;", "&lt;binary value&gt;" is the hexadecimal representation of the binary value, and "&lt;object DN&gt;" is a distinguished name. Active Directory automatically updates the DN if the object that it refers to is moved or renamed. For more information and a code example that uses this syntax, see [Enabling Rename-safe Binding with the otherWellKnownObjects Property](/windows/desktop/AD/enabling-rename-safe-binding-with-the-otherwellknownobjects-property).
 
 ## See also
 
 <dl> <dt>
 
-[**IADsDNWithBinary**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsdnwithbinary)
+[**IADsDNWithBinary**](/windows/desktop/api/iads/nn-iads-iadsdnwithbinary)
 </dt> </dl>
 
  
 
  
-
-
-
-

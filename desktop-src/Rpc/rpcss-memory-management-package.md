@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The default allocator/deallocator pair used by the stubs and run time when allocating memory on behalf of the application is **midl\_user\_allocate**/**midl\_user\_free**. However, you can choose the RpcSs package instead of the default by using the ACF attribute **\[enable\_allocate\]**. The RpcSs package consists of RPC functions that begin with the prefix **RpcSs** or **RpcSm**. The RpcSs package is not recommended for Windows applications.
 
 > [!Note]  
-> The Rpcss Memory Management Package is obsolete. It is recommended that [**midl\_user\_allocate**](https://docs.microsoft.com/windows/desktop/Midl/midl-user-allocate-1) and [**midl\_user\_free**](https://docs.microsoft.com/windows/desktop/Midl/midl-user-free-1) are used in its place.
+> The Rpcss Memory Management Package is obsolete. It is recommended that [**midl\_user\_allocate**](/windows/desktop/Midl/midl-user-allocate-1) and [**midl\_user\_free**](/windows/desktop/Midl/midl-user-free-1) are used in its place.
 
  
 
@@ -43,7 +43,3 @@ You can also enable the memory management environment for your application by ca
  
 
  
-
-
-
-

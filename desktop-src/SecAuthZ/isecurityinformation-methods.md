@@ -8,21 +8,18 @@ ms.date: 05/31/2018
 
 # ISecurityInformation Methods
 
-The [**ISecurityInformation**](https://msdn.microsoft.com/library/Aa378900(v=VS.85).aspx) interface exposes the following methods.
+The [**ISecurityInformation**](/windows/win32/api/aclui/nn-aclui-isecurityinformation) interface exposes the following methods.
 
 ## In this section
 
--   [**GetAccessRights Method**](https://msdn.microsoft.com/library/Aa379092(v=VS.85).aspx)
--   [**GetInheritTypes Method**](https://msdn.microsoft.com/library/Aa379097(v=VS.85).aspx)
--   [**GetObjectInformation Method**](https://msdn.microsoft.com/library/Aa379102(v=VS.85).aspx)
--   [**GetSecurity Method**](https://msdn.microsoft.com/library/Aa379105(v=VS.85).aspx)
--   [**MapGeneric Method**](https://msdn.microsoft.com/library/Aa379113(v=VS.85).aspx)
--   [**PropertySheetPageCallback Method**](https://msdn.microsoft.com/library/Aa379116(v=VS.85).aspx)
--   [**SetSecurity Method**](https://msdn.microsoft.com/library/Aa379122(v=VS.85).aspx)
+-   [**GetAccessRights Method**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-getaccessrights)
+-   [**GetInheritTypes Method**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-getinherittypes)
+-   [**GetObjectInformation Method**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-getobjectinformation)
+-   [**GetSecurity Method**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-getsecurity)
+-   [**MapGeneric Method**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-mapgeneric)
+-   [**PropertySheetPageCallback Method**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-propertysheetpagecallback)
+-   [**SetSecurity Method**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-setsecurity)
 
  
 
  
-
-
-

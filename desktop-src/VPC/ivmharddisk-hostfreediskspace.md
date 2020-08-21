@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMHardDisk::HostFreeDiskSpace property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves the amount of remaining disk space available on the host for the virtual hard disk.
 
@@ -78,10 +78,4 @@ The amount of remaining disk space available on the host computer for the curren
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

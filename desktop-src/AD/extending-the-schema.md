@@ -18,7 +18,7 @@ The Active Directory directory service schema defines the attributes and classes
 
 If the existing classes and attributes do not fit with the type of data you want to store, you should extend the schema. It is important to note that schema additions are permanent; you can disable classes and attributes, but you can never remove them from the schema. Keep this in mind when you are testing code.
 
-Also consider the size of the data that you want to store. Microsoft recommends that no attribute value exceed 500 kilobytes, including the sum of multivalued attributes. Also, objects should not exceed 1 megabyte in size. Consider also the number of instances of the data; if you add a new attribute to the [**User**](https://docs.microsoft.com/windows/desktop/ADSchema/c-user) class on a system that has 100,000 users, this can use up considerable space.
+Also consider the size of the data that you want to store. Microsoft recommends that no attribute value exceed 500 kilobytes, including the sum of multivalued attributes. Also, objects should not exceed 1 megabyte in size. Consider also the number of instances of the data; if you add a new attribute to the [**User**](/windows/desktop/ADSchema/c-user) class on a system that has 100,000 users, this can use up considerable space.
 
 Topics in this section include:
 
@@ -33,7 +33,3 @@ For more information, including reference pages for the predefined schema classe
  
 
  
-
-
-
-

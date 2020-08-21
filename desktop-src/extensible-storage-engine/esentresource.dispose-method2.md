@@ -46,7 +46,7 @@ public void Dispose()
 
 #### Implements
 
-[IDisposable.Dispose()](https://docs.microsoft.com/dotnet/api/system.idisposable.dispose?redirectedfrom=MSDN#System_IDisposable_Dispose)  
+[IDisposable.Dispose()](/dotnet/api/system.idisposable.dispose#System_IDisposable_Dispose)  
 
 ## See also
 
@@ -59,4 +59,3 @@ public void Dispose()
 [Dispose overload](dn350542\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

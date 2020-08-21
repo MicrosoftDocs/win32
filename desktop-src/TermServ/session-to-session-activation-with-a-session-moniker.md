@@ -9,9 +9,9 @@ ms.date: 05/31/2018
 
 # Session-to-Session Activation with a Session Moniker
 
-Session-to-session activation (also called cross-session activation) allows a client process to start (activate) a local server process on a specified session. This feature is available for applications that are configured to run in the security context of the interactive user, also known as the "RunAs Interactive User" object activation mode. For more information about security contexts, see [The Client's Security Context](https://docs.microsoft.com/windows/desktop/SecAuthZ/the-client-security-context).
+Session-to-session activation (also called cross-session activation) allows a client process to start (activate) a local server process on a specified session. This feature is available for applications that are configured to run in the security context of the interactive user, also known as the "RunAs Interactive User" object activation mode. For more information about security contexts, see [The Client's Security Context](/windows/desktop/SecAuthZ/the-client-security-context).
 
-Distributed COM (DCOM) enables object activation on a per-session basis by using a system-supplied [Session Moniker](session-monikers.md). Other system-supplied monikers include [file monikers](https://msdn.microsoft.com/library/ms688670(v=VS.85).aspx), [item monikers](https://msdn.microsoft.com/library/ms693722(v=VS.85).aspx), generic [composite monikers](https://msdn.microsoft.com/library/ms693788(v=VS.85).aspx), [anti-monikers](https://msdn.microsoft.com/library/ms680703(v=VS.85).aspx), [pointer monikers](https://msdn.microsoft.com/library/ms690112(v=VS.85).aspx), and [URL monikers](https://msdn.microsoft.com/library/ms688580(v=VS.85).aspx).
+Distributed COM (DCOM) enables object activation on a per-session basis by using a system-supplied [Session Moniker](session-monikers.md). Other system-supplied monikers include [file monikers](../com/file-monikers.md), [item monikers](../com/item-monikers.md), generic [composite monikers](../com/composite-monikers.md), [anti-monikers](../com/anti-monikers.md), [pointer monikers](../com/pointer-monikers.md), and [URL monikers](../com/url-monikers.md).
 
 To be able to use the session moniker, the DCOM application must be set to run as the interactive user. This can be set by using the Component Services Administrative tool, viewing the Properties of the DCOM application, and selecting **The interactive user** on the **Identity** tab. For more information about the possible security risks associated with setting a DCOM application to run as the interactive user in a Remote Desktop Services environment, see the "Application Identity (COM)" section of the COM documentation in the Platform Software Development Kit (SDK).
 
@@ -35,7 +35,7 @@ To create a session moniker, you must compose the session ID of the Remote Deskt
     "Session:Console!clsid:[class id]"
     ```
 
-2.  After you have created the session moniker, you can pass the result to either the [**MkParseDisplayName**](https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname) function or the [MkParseDisplayNameEx](https://msdn.microsoft.com/library/ms775113(VS.85).aspx) function.
+2.  After you have created the session moniker, you can pass the result to either the [**MkParseDisplayName**](/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname) function or the [MkParseDisplayNameEx](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775113(v=vs.85)) function.
 
 You can use a session moniker in the same way as you would use any other moniker.
 
@@ -51,7 +51,3 @@ For more information about object activation, system-supplied monikers and class
  
 
  
-
-
-
-

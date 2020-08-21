@@ -42,7 +42,7 @@ HRESULT GetHullShader(
 *ShaderIndex* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 Index of the shader.
 
@@ -51,9 +51,9 @@ Index of the shader.
 *ppPS* 
 </dt> <dd>
 
-Type: **[**ID3D11HullShader**](https://msdn.microsoft.com/library/Ff476537(v=VS.85).aspx)\*\***
+Type: **[**ID3D11HullShader**](/windows/win32/api/d3d11/nn-d3d11-id3d11hullshader)\*\***
 
-A pointer to an [**ID3D11HullShader**](https://msdn.microsoft.com/library/Ff476537(v=VS.85).aspx) pointer that will be set to the hull shader on return.
+A pointer to an [**ID3D11HullShader**](/windows/win32/api/d3d11/nn-d3d11-id3d11hullshader) pointer that will be set to the hull shader on return.
 
 </dd> </dl>
 
@@ -89,10 +89,4 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

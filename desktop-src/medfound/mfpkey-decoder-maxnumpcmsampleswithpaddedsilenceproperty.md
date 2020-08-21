@@ -12,7 +12,7 @@ Specifies the maximum number of additional PCM samples that might be returned at
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -50,7 +50,3 @@ For the Windows Media Audio 10 Professional and Windows Media Audio 9 Lossless d
  
 
  
-
-
-
-

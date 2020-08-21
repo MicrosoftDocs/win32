@@ -48,7 +48,7 @@ Handle of the array. See [Handles (Direct3D 9)](handles.md).
 *ElementIndex* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Array element index.
 
@@ -85,7 +85,3 @@ This method is used to get an element of a parameter that is an array.
  
 
  
-
-
-
-

@@ -39,7 +39,7 @@ HRESULT D3DX10CheckVersion(
 *D3DSdkVersion* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Use D3D10\_SDK\_VERSION. See remarks.
 
@@ -48,7 +48,7 @@ Use D3D10\_SDK\_VERSION. See remarks.
 *D3DX10SdkVersion* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Use D3DX10\_SDK\_VERSION. See remarks.
 
@@ -95,7 +95,3 @@ if( FAILED( D3DX10CheckVersion(D3D10_SDK_VERSION, D3DX10_SDK_VERSION) ) )
  
 
  
-
-
-
-

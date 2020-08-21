@@ -42,7 +42,7 @@ HRESULT GetPixelShader(
 *ShaderIndex* 
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 A zero-based index.
 
@@ -51,9 +51,9 @@ A zero-based index.
 *ppPS* 
 </dt> <dd>
 
-Type: **[**ID3D11PixelShader**](https://msdn.microsoft.com/library/Ff476576(v=VS.85).aspx)\*\***
+Type: **[**ID3D11PixelShader**](/windows/win32/api/d3d11/nn-d3d11-id3d11pixelshader)\*\***
 
-A pointer to an [**ID3D11PixelShader**](https://msdn.microsoft.com/library/Ff476576(v=VS.85).aspx) pointer that will be set to the pixel shader on return.
+A pointer to an [**ID3D11PixelShader**](/windows/win32/api/d3d11/nn-d3d11-id3d11pixelshader) pointer that will be set to the pixel shader on return.
 
 </dd> </dl>
 
@@ -89,10 +89,4 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

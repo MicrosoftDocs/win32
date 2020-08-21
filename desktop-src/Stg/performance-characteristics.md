@@ -12,7 +12,7 @@ A call to the COM compound file implementation of the [**IPropertySetStorage**](
 
 When a property set is opened, [IStorage::OpenStream](/windows/desktop/api/Objidl/nf-objidl-istorage-openstream) or [IStorage::OpenStorage](/windows/desktop/api/Objidl/nf-objidl-istorage-openstorage) is used. The entire property set stream is read into contiguous memory. [**IPropertyStorage::ReadMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-readmultiple) operations then operate by reading the memory buffer. Therefore, the first access is expensive in terms of time (because of disk reads) but subsequent accesses are very efficient. Writes may be slightly more expensive because SetSize operations on the underlying stream may be required to guarantee that disk space is available if data is added.
 
-No guarantees are made as to whether [**IPropertyStorage::WriteMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writemultiple) will flush updates. In general, the client should assume that **IPropertyStorage::WriteMultiple** only updates the in memory buffer. To flush data, [**IPropertyStorage::Commit**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-commit) or [**IUnknown::Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) (last release) should be called.
+No guarantees are made as to whether [**IPropertyStorage::WriteMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writemultiple) will flush updates. In general, the client should assume that **IPropertyStorage::WriteMultiple** only updates the in memory buffer. To flush data, [**IPropertyStorage::Commit**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-commit) or [**IUnknown::Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) (last release) should be called.
 
 This design means that [**WriteMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writemultiple) may succeed but the data is not actually persistently written.
 
@@ -24,7 +24,3 @@ This design means that [**WriteMultiple**](/windows/desktop/api/Propidl/nf-propi
  
 
  
-
-
-
-

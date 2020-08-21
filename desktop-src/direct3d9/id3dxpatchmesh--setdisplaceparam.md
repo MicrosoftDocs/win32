@@ -43,7 +43,7 @@ HRESULT SetDisplaceParam(
 *Texture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DBASETEXTURE9**](https://msdn.microsoft.com/library/Bb174322(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DBASETEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9)**
 
 Texture containing the displacement data.
 
@@ -52,43 +52,43 @@ Texture containing the displacement data.
 *MinFilter* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/library/Bb172615(v=VS.85).aspx)**
+Type: **[**D3DTEXTUREFILTERTYPE**](./d3dtexturefiltertype.md)**
 
-Minification level. For more information, see [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/library/Bb172615(v=VS.85).aspx).
+Minification level. For more information, see [**D3DTEXTUREFILTERTYPE**](./d3dtexturefiltertype.md).
 
 </dd> <dt>
 
 *MagFilter* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/library/Bb172615(v=VS.85).aspx)**
+Type: **[**D3DTEXTUREFILTERTYPE**](./d3dtexturefiltertype.md)**
 
-Magnification level. For more information, see [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/library/Bb172615(v=VS.85).aspx).
+Magnification level. For more information, see [**D3DTEXTUREFILTERTYPE**](./d3dtexturefiltertype.md).
 
 </dd> <dt>
 
 *MipFilter* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/library/Bb172615(v=VS.85).aspx)**
+Type: **[**D3DTEXTUREFILTERTYPE**](./d3dtexturefiltertype.md)**
 
-Mip filter level. For more information, see [**D3DTEXTUREFILTERTYPE**](https://msdn.microsoft.com/library/Bb172615(v=VS.85).aspx).
+Mip filter level. For more information, see [**D3DTEXTUREFILTERTYPE**](./d3dtexturefiltertype.md).
 
 </dd> <dt>
 
 *Wrap* \[in\]
 </dt> <dd>
 
-Type: **[**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/library/Bb172614(v=VS.85).aspx)**
+Type: **[**D3DTEXTUREADDRESS**](./d3dtextureaddress.md)**
 
-Texture address wrap mode. For more information, see [**D3DTEXTUREADDRESS**](https://msdn.microsoft.com/library/Bb172614(v=VS.85).aspx)
+Texture address wrap mode. For more information, see [**D3DTEXTUREADDRESS**](./d3dtextureaddress.md)
 
 </dd> <dt>
 
 *dwLODBias* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Level of detail bias value.
 
@@ -125,7 +125,3 @@ Displacement maps can only be 2D textures. Mipmapping is ignored for nonadaptive
  
 
  
-
-
-
-

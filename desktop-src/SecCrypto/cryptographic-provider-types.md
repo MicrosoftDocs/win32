@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Cryptographic Provider Types
 
-The field of [*cryptography*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) is large and growing. There are many different standard data formats and protocols. These are generally organized into groups or families, each of which has its own set of data formats and way of doing things. Even if two families use the same algorithm (for example, the [*RC2*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx) [*block cipher*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx)), they will often use different [*padding*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) schemes, different [*key lengths*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx), and different default modes. CryptoAPI is designed so that a CSP provider type represents a particular family.
+The field of [*cryptography*](../secgloss/c-gly.md) is large and growing. There are many different standard data formats and protocols. These are generally organized into groups or families, each of which has its own set of data formats and way of doing things. Even if two families use the same algorithm (for example, the [*RC2*](../secgloss/r-gly.md) [*block cipher*](../secgloss/b-gly.md)), they will often use different [*padding*](../secgloss/p-gly.md) schemes, different [*key lengths*](../secgloss/k-gly.md), and different default modes. CryptoAPI is designed so that a CSP provider type represents a particular family.
 
 When an application connects to a CSP of a particular type, each of the CryptoAPI functions will, by default, operate in a way prescribed by the family that corresponds to that CSP type. An application's choice of provider type specifies the following items:
 
@@ -16,13 +16,13 @@ When an application connects to a CSP of a particular type, each of the CryptoAP
 
 | Item                                                                                                                                | Description                                                                                                                                                                                                                                                                                            |
 |-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [*Key exchange algorithm*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx)                | Each provider type specifies one and only one key exchange algorithm. Every CSP of a particular type must implement this algorithm. Applications specify the key exchange algorithm to use by selecting a CSP of the appropriate provider type.                                                        |
-| [*Digital signature algorithm*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx) | Each provider type specifies one and only one digital signature algorithm. Every CSP of a particular type must implement this algorithm. Applications specify the digital signature algorithm to use by selecting a CSP of the appropriate provider type.                                              |
-| Key BLOB formats                                                                                                                    | The provide type determines the format of the [*key BLOB*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx) used to export keys from the [*CSP*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) and to import keys into a CSP. |
+| [*Key exchange algorithm*](../secgloss/k-gly.md)                | Each provider type specifies one and only one key exchange algorithm. Every CSP of a particular type must implement this algorithm. Applications specify the key exchange algorithm to use by selecting a CSP of the appropriate provider type.                                                        |
+| [*Digital signature algorithm*](../secgloss/d-gly.md) | Each provider type specifies one and only one digital signature algorithm. Every CSP of a particular type must implement this algorithm. Applications specify the digital signature algorithm to use by selecting a CSP of the appropriate provider type.                                              |
+| Key BLOB formats                                                                                                                    | The provide type determines the format of the [*key BLOB*](../secgloss/k-gly.md) used to export keys from the [*CSP*](../secgloss/c-gly.md) and to import keys into a CSP. |
 | Digital signature format                                                                                                            | The provider type determines the digital signature format. This ensures that a signature produced by a CSP of a given provider type can be verified by any CSP of the same provider type.                                                                                                              |
-| Session key derivation scheme                                                                                                       | The provider type determines the method used to derived a [*session key*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) from a [*hash*](https://msdn.microsoft.com/library/ms721586(v=VS.85).aspx).                                                                                   |
-| [*Key length*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx)                                                    | Some provider types specify the length of [*public/private key pairs*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) and the session keys.                                                                                                               |
-| Default modes                                                                                                                       | The provider type often specifies default modes for various options, such as the block encryption [*cipher mode*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) or the block encryption [*padding*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) method.          |
+| Session key derivation scheme                                                                                                       | The provider type determines the method used to derived a [*session key*](../secgloss/s-gly.md) from a [*hash*](../secgloss/h-gly.md).                                                                                   |
+| [*Key length*](../secgloss/k-gly.md)                                                    | Some provider types specify the length of [*public/private key pairs*](../secgloss/p-gly.md) and the session keys.                                                                                                               |
+| Default modes                                                                                                                       | The provider type often specifies default modes for various options, such as the block encryption [*cipher mode*](../secgloss/c-gly.md) or the block encryption [*padding*](../secgloss/p-gly.md) method.          |
 
 
 
@@ -43,13 +43,10 @@ There are currently a number of predefined provider types. The next sections pro
 -   [PROV\_MS\_EXCHANGE](prov-ms-exchange.md)
 -   [PROV\_SSL](prov-ssl.md)
 
-Even though some CSP types might be partially compatible with others, two or more applications that need to [*exchange keys*](https://msdn.microsoft.com/library/ms721575(v=VS.85).aspx) and encrypted messages should use CSPs of the same type.
+Even though some CSP types might be partially compatible with others, two or more applications that need to [*exchange keys*](../secgloss/e-gly.md) and encrypted messages should use CSPs of the same type.
 
 A custom CSP writer can define a new provider type. However, the CSP writer is then responsible for distributing the new provider type to the authors of any applications that are to use it. For information about writing custom CSPs, see [Cryptographic Service Providers](cryptographic-service-providers.md).
 
  
 
  
-
-
-

@@ -17,12 +17,12 @@ api_location:
 
 # OutputDebugStringWrapW function
 
-\[This function is available for use in Windows XP. It may not be available in subsequent versions. Use [**OutputDebugStringW**](https://msdn.microsoft.com/library/Aa363362(v=VS.85).aspx) in its place.\]
+\[This function is available for use in Windows XP. It may not be available in subsequent versions. Use [**OutputDebugStringW**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) in its place.\]
 
 Sends a Unicode string to the debugger for display.
 
 > [!Note]  
-> **OutputDebugStringWrapW** is a wrapper for the **OutputDebugStringW** function. See the [**OutputDebugString**](https://msdn.microsoft.com/library/Aa363362(v=VS.85).aspx) page for further usage notes.
+> **OutputDebugStringWrapW** is a wrapper for the **OutputDebugStringW** function. See the [**OutputDebugString**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) page for further usage notes.
 
  
 
@@ -56,7 +56,7 @@ This function does not return a value.
 
 ## Remarks
 
-**OutputDebugStringWrapW** provides the ability to use Unicode strings in operating systems prior to Windows XP. The preferred method is to use [**OutputDebugStringW**](https://msdn.microsoft.com/library/Aa363362(v=VS.85).aspx) in conjunction with the Microsoft Layer for Unicode (MSLU).
+**OutputDebugStringWrapW** provides the ability to use Unicode strings in operating systems prior to Windows XP. The preferred method is to use [**OutputDebugStringW**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) in conjunction with the Microsoft Layer for Unicode (MSLU).
 
 **OutputDebugStringWrapW** must be called directly from Shlwapi.dll, using ordinal 115.
 
@@ -79,13 +79,9 @@ If the application has no debugger, the system debugger displays the string. If 
 
 <dl> <dt>
 
-[**OutputDebugString**](https://msdn.microsoft.com/library/Aa363362(v=VS.85).aspx)
+[**OutputDebugString**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa)
 </dt> </dl>
 
  
 
  
-
-
-
-

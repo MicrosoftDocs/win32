@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # ShowMessageAction object
 
-\[This object is no longer supported. You can use IExecAction with the Windows scripting [**MsgBox function**](https://msdn.microsoft.com/library/sfw6660x(v=VS.80).aspx) to show a message in the user session.\]
+\[This object is no longer supported. You can use IExecAction with the Windows scripting [**MsgBox function**](/previous-versions/sfw6660x(v=vs.80)) to show a message in the user session.\]
 
 For scripting, represents an action that shows a message box when a task is activated.
 
@@ -54,7 +54,7 @@ When reading or writing your own XML for a task, a message box action is specifi
 
 ## Examples
 
-For more information and example code for this scripting object, see [Message Box Example (Scripting)](https://msdn.microsoft.com/library/Aa381916(v=VS.85).aspx).
+For more information and example code for this scripting object, see [Message Box Example (Scripting)](/previous-versions//aa381916(v=vs.85)).
 
 ## Requirements
 
@@ -72,10 +72,4 @@ For more information and example code for this scripting object, see [Message Bo
 
 
  
-
- 
-
-
-
-
 

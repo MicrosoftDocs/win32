@@ -66,7 +66,7 @@ A pointer to the device (see [**ID3D11Device**](/windows/desktop/api/D3D11/nn-d3
 *pSrcFile* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCTSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 The name of the file containing the resource. If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCWSTR. Otherwise, the data type resolves to LPCSTR.
 
@@ -133,10 +133,4 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

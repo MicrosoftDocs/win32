@@ -30,10 +30,10 @@ The following support functions are provided by the Security Configuration tool 
 
 | Callback function                                         | Description                                                                                 |
 |-----------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| [**PFSCE\_FREE\_INFO**](https://msdn.microsoft.com/library/ms721887(v=VS.85).aspx)<br/>   | Used to free memory allocated by these support functions.<br/>                        |
-| [**PFSCE\_LOG\_INFO**](https://msdn.microsoft.com/library/ms721889(v=VS.85).aspx)<br/>     | Used to log message to the configuration log file or analysis log file.<br/>          |
-| [**PFSCE\_QUERY\_INFO**](https://msdn.microsoft.com/library/ms721890(v=VS.85).aspx)<br/> | Used to query the configuration and analysis information for a specific service.<br/> |
-| [**PFSCE\_SET\_INFO**](https://msdn.microsoft.com/library/ms721892(v=VS.85).aspx)<br/>     | Used to set configuration and analysis information for a specific service.<br/>       |
+| [**PFSCE\_FREE\_INFO**](/windows/win32/api/scesvc/nc-scesvc-pfsce_free_info)<br/>   | Used to free memory allocated by these support functions.<br/>                        |
+| [**PFSCE\_LOG\_INFO**](/windows/win32/api/scesvc/nc-scesvc-pfsce_log_info)<br/>     | Used to log message to the configuration log file or analysis log file.<br/>          |
+| [**PFSCE\_QUERY\_INFO**](/windows/win32/api/scesvc/nc-scesvc-pfsce_query_info)<br/> | Used to query the configuration and analysis information for a specific service.<br/> |
+| [**PFSCE\_SET\_INFO**](/windows/win32/api/scesvc/nc-scesvc-pfsce_set_info)<br/>     | Used to set configuration and analysis information for a specific service.<br/>       |
 
 
 
@@ -55,7 +55,7 @@ The following support functions are provided by the Security Configuration tool 
 
 ## LSA Policy Functions
 
-The following topics provide reference information for the [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) Policy functions.
+The following topics provide reference information for the [*Local Security Authority*](/windows/desktop/SecGloss/l-gly) (LSA) Policy functions.
 
 
 
@@ -64,7 +64,7 @@ The following topics provide reference information for the [*Local Security Auth
 | Policy Functions<br/>         | Details functions used to open the local [**Policy**](policy-object.md) object and to set or retrieve global policy information.<br/>                                                  |
 | Account Functions<br/>        | Details functions used to manage account permissions and to create and delete user accounts.<br/>                                                                                       |
 | Trusted Domain Functions<br/> | Details functions used to create and delete trusted domain relationships and to set and retrieve information about those trusted domains.<br/>                                          |
-| Private Data Functions<br/>   | Do not use the LSA private data functions. Instead, use the [**CryptProtectData**](https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata) functions.<br/> |
+| Private Data Functions<br/>   | Do not use the LSA private data functions. Instead, use the [**CryptProtectData**](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata) functions.<br/> |
 | Miscellaneous Functions<br/>  | Details functions not described elsewhere.<br/>                                                                                                                                         |
 
 
@@ -83,7 +83,7 @@ The following functions enumerate user accounts and trusted domains, receive pol
 | [**LsaEnumerateTrustedDomainsEx**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaenumeratetrusteddomainsex)<br/>                   | Enumerates the trusted domains.<br/>                                                                                                                                                                                                                                                                                                            |
 | [**LsaLookupNames**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupnames)<br/>                                               | Maps the specified names to their SIDs. Returns the SID as an RID/Domain SID pair.<br/>                                                                                                                                                                                                                                                         |
 | [**LsaLookupNames2**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupnames2)<br/>                                             | Maps the specified names to their SIDs. Returns the SID as a single element.<br/>                                                                                                                                                                                                                                                               |
-| [**LsaLookupPrivilegeValue**](/windows/desktop/api/ntlsa/nf-ntlsa-lsalookupprivilegevalue)<br/>                             | Retrieves the [*locally unique identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LUID) used by the [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) to represent the specified privilege name.<br/> |
+| [**LsaLookupPrivilegeValue**](/windows/desktop/api/ntlsa/nf-ntlsa-lsalookupprivilegevalue)<br/>                             | Retrieves the [*locally unique identifier*](/windows/desktop/SecGloss/l-gly) (LUID) used by the [*Local Security Authority*](/windows/desktop/SecGloss/l-gly) (LSA) to represent the specified privilege name.<br/> |
 | [**LsaLookupSids**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupsids)<br/>                                                 | Maps the specified account names to their SIDs.<br/>                                                                                                                                                                                                                                                                                            |
 | [**LsaRegisterPolicyChangeNotification**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaregisterpolicychangenotification)<br/>     | Registers an event object to receive notifications when the local policy information changes.<br/>                                                                                                                                                                                                                                              |
 | [**LsaUnregisterPolicyChangeNotification**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification)<br/> | Unregisters an event object that is receiving policy change notifications.<br/>                                                                                                                                                                                                                                                                 |
@@ -131,7 +131,7 @@ The following functions create, enumerate, and delete trusted domains and set an
 
 ### Private Data Functions
 
-Do not use the LSA private data functions. Instead, use the [**CryptProtectData**](https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata) functions.
+Do not use the LSA private data functions. Instead, use the [**CryptProtectData**](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata) functions.
 
 
 
@@ -171,7 +171,7 @@ The following functions are used to create, enumerate, find, and delete managed 
 | [**NetAddServiceAccount**](/windows/desktop/api/Lmaccess/nf-lmaccess-netaddserviceaccount)<br/>               | Creates a managed service account.<br/>                                                                               |
 | [**NetEnumerateServiceAccounts**](/windows/desktop/api/Lmaccess/nf-lmaccess-netenumerateserviceaccounts)<br/> | Enumerates the server accounts on the specified server.<br/>                                                          |
 | [**NetIsServiceAccount**](/windows/desktop/api/Lmaccess/nf-lmaccess-netisserviceaccount)<br/>                 | Tests whether the specified service account exists in the Netlogon store on the specified server.<br/>                |
-| [**NetRemoveServiceAccount**](/windows/desktop/api/Lmaccess/nf-lmaccess-netremoveserviceaccount)<br/>         | Deletes the specified service account from the [Active Directory](https://docs.microsoft.com/windows/desktop/AD/active-directory-domain-services) database.<br/> |
+| [**NetRemoveServiceAccount**](/windows/desktop/api/Lmaccess/nf-lmaccess-netremoveserviceaccount)<br/>         | Deletes the specified service account from the [Active Directory](/windows/desktop/AD/active-directory-domain-services) database.<br/> |
 
 
 
@@ -179,7 +179,7 @@ The following functions are used to create, enumerate, find, and delete managed 
 
 ## Password Filter Functions
 
-The following [*password filter*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) functions are implemented by custom password filter DLLs to provide password filtering and password change notification.
+The following [*password filter*](/windows/desktop/SecGloss/p-gly) functions are implemented by custom password filter DLLs to provide password filtering and password change notification.
 
 
 
@@ -217,9 +217,4 @@ The following Safer functions can be used to check the safer level of any execut
  
 
  
-
- 
-
-
-
 

@@ -38,7 +38,7 @@ HRESULT GenerateAdjacencyAndPointReps(
 *Epsilon* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Specifies that vertices that differ in position by less than epsilon should be treated as coincident.
 
@@ -80,7 +80,3 @@ The order of the entries in the adjacency buffer is determined by the order of t
  
 
  
-
-
-
-

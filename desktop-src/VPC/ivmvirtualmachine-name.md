@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualMachine::Name property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Retrieves and sets the name of the virtual machine configuration.
 
@@ -95,10 +95,4 @@ If VPC.exe is running and the VM is saved then setting the **Name** property wil
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

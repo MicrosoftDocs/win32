@@ -44,7 +44,7 @@ The input location.
 *sampleindex* \[in\]
 </dt> <dd>
 
-Type: **[**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**int**](/windows/desktop/WinProg/windows-data-types)**
 
 The sample index.
 
@@ -94,7 +94,3 @@ This function is supported for the following types of shaders:
  
 
  
-
-
-
-

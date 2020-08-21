@@ -60,7 +60,7 @@ Handle to the window that must be the current window for break detection.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members. The following flags are defined:
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function to validate the members. The following flags are defined:
 
 MCI\_BREAK\_HWND
 
@@ -99,14 +99,8 @@ Disables any existing break key.
 [**MCI\_BREAK**](mci-break.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](/previous-versions//dd757160(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

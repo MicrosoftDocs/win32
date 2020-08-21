@@ -14,7 +14,7 @@ The [**IAutomaticUpdates2**](/windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdat
 
 | Method                                        | Description                                                                                     |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------|
-| [**Results**](https://msdn.microsoft.com/library/Bb513699(v=VS.85).aspx) | Returns a pointer to an [**IAutomaticUpdatesResults**](/windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdatesresults) interface. |
+| [**Results**](/windows/win32/api/wuapi/nf-wuapi-iautomaticupdates2-get_results) | Returns a pointer to an [**IAutomaticUpdatesResults**](/windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdatesresults) interface. |
 
 
 
@@ -27,6 +27,3 @@ For information about the members inherited by this interface, see the following
  
 
  
-
-
-

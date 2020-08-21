@@ -19,20 +19,20 @@ The first generation of hardware that exposes this feature has the following res
 -   The texture cannot be a mipmap. Creation of the mip chain will fail.
 -   The same element cannot be set as a texture at the same time it is a render target. However, different elements of the same multiple-element texture surface can simultaneously be textures and render targets.
 -   No antialiasing is supported.
--   Multiple-element texture surfaces, when used as a texture, cannot be filtered. This limitation can be verified using [**CheckDeviceFormat**](https://msdn.microsoft.com/library/Bb174309(v=VS.85).aspx).
+-   Multiple-element texture surfaces, when used as a texture, cannot be filtered. This limitation can be verified using [**CheckDeviceFormat**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformat).
 -   Multiple-element texture surfaces cannot be locked.
 -   More than one multiple-element texture surface can be used simultaneously by assigning each to various stages, just as with normal textures.
 -   Multiple-element texture surfaces support conversion of gamma from 2.2 to 1.0 conversion on a read operation, just as with other texture formats.
 -   Some of the implementations do not apply the output write mask (D3DRS\_COLORWRITEENABLE). Those that can have independent color write masks. This is expressed using a new capability bit. The number of independent color write masks available will be equal to the maximum number of elements of which the device is capable.
--   [**Clear**](https://msdn.microsoft.com/library/Bb174352(v=VS.85).aspx) clears all elements of the multiple-element texture which is set as the render target.
+-   [**Clear**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-clear) clears all elements of the multiple-element texture which is set as the render target.
 
 The usage of multiple-element textures follows these steps:
 
 1.  Applications discover support for this feature by checking for the availability of multiple-element texture formats.
-2.  The application creates these surfaces by calling [**CreateTexture**](https://msdn.microsoft.com/library/Bb174363(v=VS.85).aspx).
-3.  The application sets the surface as a render target using the [**SetRenderTarget**](/windows/desktop/api) call. The pixel shader provides output to the surfaces using the [mov - ps](https://msdn.microsoft.com/library/Bb147213(v=VS.85).aspx) instruction.
-4.  [**SetTexture**](https://msdn.microsoft.com/library/Bb174461(v=VS.85).aspx) is called to set a multiple-element texture surface to a particular stage. As with other textures, the same surface is allowed to be set to multiple stages at once.
-5.  [**SetSamplerState**](https://msdn.microsoft.com/library/Bb174456(v=VS.85).aspx) is called to set D3DSAMP\_ELEMENTINDEX to the appropriate element number in the multiple-element texture from which the sampler samples. Default value for this state is 0, which means non-multiple-element textures will work. Setting this state to an inappropriate number results in an undefined behavior - if the multiple-element texture is only two elements wide but the sampler is asked to sample from the fourth element, for example.
+2.  The application creates these surfaces by calling [**CreateTexture**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createtexture).
+3.  The application sets the surface as a render target using the [**SetRenderTarget**](/windows/desktop/api) call. The pixel shader provides output to the surfaces using the [mov - ps](../direct3dhlsl/mov---ps.md) instruction.
+4.  [**SetTexture**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexture) is called to set a multiple-element texture surface to a particular stage. As with other textures, the same surface is allowed to be set to multiple stages at once.
+5.  [**SetSamplerState**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setsamplerstate) is called to set D3DSAMP\_ELEMENTINDEX to the appropriate element number in the multiple-element texture from which the sampler samples. Default value for this state is 0, which means non-multiple-element textures will work. Setting this state to an inappropriate number results in an undefined behavior - if the multiple-element texture is only two elements wide but the sampler is asked to sample from the fourth element, for example.
 
 ## API Support
 
@@ -60,6 +60,3 @@ The following is a summary of the API elements that support multiple-element tex
  
 
  
-
-
-

@@ -17,17 +17,12 @@ The following interfaces are used by an app to manage the print document package
 | Topic                                                                                       | Description                                                                                                                                                                                                                 |
 |---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IPrintDocumentPackageStatusEvent**](/windows/desktop/api/Documenttarget/nn-documenttarget-iprintdocumentpackagestatusevent)<br/>     | Represents the progress of the print job.<br/>                                                                                                                                                                        |
-| [**IPrintDocumentPackageTarget**](https://msdn.microsoft.com/library/Hh448393(v=VS.85).aspx)<br/>               | Allows users to enumerate the supported package target types and to create one with a given type ID. **IPrintDocumentPackageTarget** also supports the tracking of the package printing progress and cancelling.<br/> |
-| [**IPrintDocumentPackageTargetFactory**](/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetargetfactory)<br/> | Used with [IPrintDocumentPackageTarget](https://msdn.microsoft.com/library/Hh448393(v=VS.85).aspx) for starting a print job.<br/>                                                                                                               |
+| [**IPrintDocumentPackageTarget**](/windows/win32/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget)<br/>               | Allows users to enumerate the supported package target types and to create one with a given type ID. **IPrintDocumentPackageTarget** also supports the tracking of the package printing progress and cancelling.<br/> |
+| [**IPrintDocumentPackageTargetFactory**](/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetargetfactory)<br/> | Used with [IPrintDocumentPackageTarget](/windows/win32/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget) for starting a print job.<br/>                                                                                                               |
 
 
 
  
 
  
-
- 
-
-
-
 

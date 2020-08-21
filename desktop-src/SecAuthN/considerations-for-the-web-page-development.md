@@ -12,7 +12,7 @@ Web Authentication Broker is built on the top of the same technologies that powe
 
 ## Internet Explorer 10 standard document mode
 
-The Web Authentication Broker displays all pages in the "IE10 Standards Mode". You can use the developer tools in Internet Explorer to see how your page works under different document modes. For more information on Internet Explorer 10 compatibility, see the MSDN topics for [Internet Explorer](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673527(v=vs.85)).
+The Web Authentication Broker displays all pages in the "IE10 Standards Mode". You can use the developer tools in Internet Explorer to see how your page works under different document modes. For more information on Internet Explorer 10 compatibility, see the MSDN topics for [Internet Explorer](/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673527(v=vs.85)).
 
 ## Disabled and locked down features
 
@@ -41,7 +41,7 @@ The first URL that an application will use to communicate with the online provid
 
 ## Dimension for different window sizes
 
-A Windows 8 app may appear in several different sizes such as full screen, a resized window, or within a Charm such as Share Charm. Depending in which window layout the Web Authentication Broker appears, the size with which the web pages have to work could be different. For more information, see the [Guidelines for resizing to narrow layouts](https://docs.microsoft.com/previous-versions/windows/hh465371(v=win.10)) topic and the [Guidelines for sharing content](https://docs.microsoft.com/previous-versions/windows/hh465251(v=win.10)) topic.
+A Windows 8 app may appear in several different sizes such as full screen, a resized window, or within a Charm such as Share Charm. Depending in which window layout the Web Authentication Broker appears, the size with which the web pages have to work could be different. For more information, see the [Guidelines for resizing to narrow layouts](/previous-versions/windows/hh465371(v=win.10)) topic and the [Guidelines for sharing content](/previous-versions/windows/hh465251(v=win.10)) topic.
 
 The web page should use CSS media queries to check the size it has to work with and lay itself out accordingly. However, the page should not be designed based on the exact pixels documented here and should be able to scale to different sizes. The sizes specified in this document are subject to change in future OS versions.
 
@@ -113,12 +113,9 @@ By default, no URLs will result in a new window being opened but will instead be
 [Web Authentication Broker SDK sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
 </dt> <dt>
 
-[**Windows.Security.Authentication.Web**](https://docs.microsoft.com/uwp/api/Windows.Security.Authentication.Web)
+[**Windows.Security.Authentication.Web**](/uwp/api/Windows.Security.Authentication.Web)
 </dt> </dl>
 
  
 
  
-
-
-

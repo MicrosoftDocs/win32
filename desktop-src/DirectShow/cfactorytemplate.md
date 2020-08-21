@@ -24,7 +24,7 @@ Provides a template for creating class factories.
 
 In DirectShow, class factories are specialized using the **CFactoryTemplate** class, also called the *factory template*. Each class factory holds a pointer to a factory template. The factory template contains information about a COM object, including the object's class identifier (CLSID) and a pointer to a function that creates the object.
 
-In your DLL, declare a global array of factory templates named *g\_Templates*. Include one factory template for each object in the DLL. When the [**DllGetClassObject**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-dllgetclassobject) function makes a new class factory, it searches the array for a template with a matching CLSID. Assuming it finds one, it creates a class factory that holds a pointer to the matching template. When the client calls **IClassFactory::CreateInstance**, the class factory calls the instantiation function defined in the template.
+In your DLL, declare a global array of factory templates named *g\_Templates*. Include one factory template for each object in the DLL. When the [**DllGetClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-dllgetclassobject) function makes a new class factory, it searches the array for a template with a matching CLSID. Assuming it finds one, it creates a class factory that holds a pointer to the matching template. When the client calls **IClassFactory::CreateInstance**, the class factory calls the instantiation function defined in the template.
 
 For more information, see [How to Create a DirectShow Filter DLL](how-to-create-a-dll.md).
 
@@ -64,9 +64,4 @@ For more information, see [How to Create a DirectShow Filter DLL](how-to-create-
 </dt> </dl>
 
  
-
- 
-
-
-
 

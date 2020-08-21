@@ -18,12 +18,12 @@ api_location:
 
 # FindResourceWrapW function
 
-\[**FindResourceWrapW** is available for use in Windows XP. It may not be available in subsequent versions. You should use [**FindResourceW**](https://msdn.microsoft.com/library/ms648042(v=VS.85).aspx) instead.\]
+\[**FindResourceWrapW** is available for use in Windows XP. It may not be available in subsequent versions. You should use [**FindResourceW**](/windows/win32/api/winbase/nf-winbase-findresourcea) instead.\]
 
 Determines the location of a resource with the specified type and name, in the specified module.
 
 > [!Note]  
-> **FindResourceWrapW** is a wrapper for the **FindResourceW** function. See [**FindResource**](https://msdn.microsoft.com/library/ms648042(v=VS.85).aspx) for further usage notes.
+> **FindResourceWrapW** is a wrapper for the **FindResourceW** function. See [**FindResource**](/windows/win32/api/winbase/nf-winbase-findresourcea) for further usage notes.
 
  
 
@@ -58,7 +58,7 @@ A handle to the module whose executable file contains the resource. A value of *
 
 Type: **LPCWSTR**
 
-The name of the resource. For more information, see [**FindResource**](https://msdn.microsoft.com/library/ms648042(v=VS.85).aspx).
+The name of the resource. For more information, see [**FindResource**](/windows/win32/api/winbase/nf-winbase-findresourcea).
 
 </dd> <dt>
 
@@ -67,7 +67,7 @@ The name of the resource. For more information, see [**FindResource**](https://m
 
 Type: **LPCWSTR**
 
-A pointer to a string that specifies the resource type. For more information, see [**FindResource**](https://msdn.microsoft.com/library/ms648042(v=VS.85).aspx).
+A pointer to a string that specifies the resource type. For more information, see [**FindResource**](/windows/win32/api/winbase/nf-winbase-findresourcea).
 
 </dd> </dl>
 
@@ -75,15 +75,15 @@ A pointer to a string that specifies the resource type. For more information, se
 
 Type: **HRSRC**
 
-If the function succeeds, the return value is a handle to the specified resource's information block. To obtain a handle to the resource, pass this handle to the [**LoadResource**](https://msdn.microsoft.com/library/ms648046(v=VS.85).aspx) function.
+If the function succeeds, the return value is a handle to the specified resource's information block. To obtain a handle to the resource, pass this handle to the [**LoadResource**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadresource) function.
 
-If the function fails, the return value is **NULL**. To get extended error information, call the [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) function.
+If the function fails, the return value is **NULL**. To get extended error information, call the [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) function.
 
 ## Remarks
 
-If you need to specify a particular localization, use the [**FindResourceEx**](https://msdn.microsoft.com/library/ms648043(v=VS.85).aspx) function rather than **FindResourceWrapW**.
+If you need to specify a particular localization, use the [**FindResourceEx**](/windows/win32/api/winbase/nf-winbase-findresourceexa) function rather than **FindResourceWrapW**.
 
-**FindResourceWrapW** provides the ability to use Unicode strings in older operating systems. The preferred method is to use [**FindResourceW**](https://msdn.microsoft.com/library/ms648042(v=VS.85).aspx) in conjunction with the Microsoft Layer for Unicode (MSLU).
+**FindResourceWrapW** provides the ability to use Unicode strings in older operating systems. The preferred method is to use [**FindResourceW**](/windows/win32/api/winbase/nf-winbase-findresourcea) in conjunction with the Microsoft Layer for Unicode (MSLU).
 
 **FindResourceWrapW** must be called directly from Shlwapi.dll, using ordinal 66.
 
@@ -105,13 +105,9 @@ If you need to specify a particular localization, use the [**FindResourceEx**](h
 
 <dl> <dt>
 
-[**FindResource**](https://msdn.microsoft.com/library/ms648042(v=VS.85).aspx)
+[**FindResource**](/windows/win32/api/winbase/nf-winbase-findresourcea)
 </dt> </dl>
 
  
 
  
-
-
-
-

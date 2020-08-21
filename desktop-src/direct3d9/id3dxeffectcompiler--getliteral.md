@@ -48,7 +48,7 @@ Unique identifier to a parameter. See [Handles (Direct3D 9)](handles.md).
 *pLiteral* \[out\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**BOOL**](../winprog/windows-data-types.md)\***
 
 Returns True if the parameter is a literal, and False otherwise.
 
@@ -91,7 +91,3 @@ This methods only changes whether the parameter is a literal or not. To change t
  
 
  
-
-
-
-

@@ -21,7 +21,7 @@ Contains a collection of objects that implement the [**IContextLink**](icontextl
 
 ## Members
 
-The **IContextLinks** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IContextLinks** also has these types of members:
+The **IContextLinks** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IContextLinks** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -77,9 +77,4 @@ This is usually accessed through the [**IContextNode::GetContextLinks**](icontex
 </dt> </dl>
 
  
-
- 
-
-
-
 

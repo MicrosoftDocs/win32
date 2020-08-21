@@ -100,7 +100,7 @@ The primary colors as seen with Deuteranopia (6% of male population).
 
 The primary colors as seen with Tritanopia (1% of male population).
 
-For more information, see [Can Color-Blind Users See Your Site?](https://msdn2.microsoft.com/library/bb263953.aspx)
+For more information, see [Can Color-Blind Users See Your Site?](/previous-versions/windows/internet-explorer/ie-developer/)
 
 ### Use color to reinforce visually
 
@@ -271,10 +271,4 @@ In this example, there are three different shades of yellow, but only the highly
 In the incorrect example, the message refers to the Windows Internet Explorer information bar by its color instead of its name.
 
  
-
- 
-
-
-
-
 

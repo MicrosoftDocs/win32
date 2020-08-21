@@ -60,13 +60,13 @@ public static uint LCMapFlagsFromCompareOptions(
 #### Parameters
 
   - compareOptions  
-    Type: [System.Globalization.CompareOptions](https://docs.microsoft.com/dotnet/api/system.globalization.compareoptions?redirectedfrom=MSDN)  
+    Type: [System.Globalization.CompareOptions](/dotnet/api/system.globalization.compareoptions)  
     
     The options to convert.
 
 #### Return value
 
-Type: [System.UInt32](https://docs.microsoft.com/dotnet/api/system.uint32?redirectedfrom=MSDN)  
+Type: [System.UInt32](/dotnet/api/system.uint32)  
 The LCMapString flags that match the compare options. Unsupported options are ignored.  
 
 ## See also
@@ -78,4 +78,3 @@ The LCMapString flags that match the compare options. Unsupported options are ig
 [Conversions members](dn334184\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -56,12 +56,9 @@ The name is the friendly library name that is displayed in Windows Explorer. The
 [libraryDescription Element (Library Schema)](schema-librarydescription.md)
 </dt> <dt>
 
-[Search Connector Description Schema](https://msdn.microsoft.com/library/Dd940480(v=VS.85).aspx)
+[Search Connector Description Schema](../search/search-sconn-desc-schema-entry.md)
 </dt> </dl>
 
  
 
  
-
-
-

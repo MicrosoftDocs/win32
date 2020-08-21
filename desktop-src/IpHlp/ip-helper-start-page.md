@@ -43,16 +43,11 @@ The IP Helper API can be used on all Windows platforms. Not all operating system
 
 <dl> <dt>
 
-[Windows Sockets 2](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
+[Windows Sockets 2](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> <dt>
 
-[Routing and Remote Access Service](https://msdn.microsoft.com/library/Bb530710(v=VS.85).aspx)
+[Routing and Remote Access Service](../rras/routing-start-page.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

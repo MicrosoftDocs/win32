@@ -24,8 +24,8 @@ Creates a paint object which can be used to set the 'fill' or 'stroke' propertie
 
 | Method                                                                                                                      | Description                                                                                   |
 |:----------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------|
-| [**CreatePaint(D2D1\_SVG\_PAINT\_TYPE, D2D1\_COLOR\_F \*, PCWSTR, ID2D1SvgPaint \*\*)**](https://msdn.microsoft.com/library/Mt797818(v=VS.85).aspx)  | Creates a paint object which can be used to set the 'fill' or 'stroke' properties.<br/> |
-| [**CreatePaint(D2D1\_SVG\_PAINT\_TYPE, D2D1\_COLOR\_F &, PCWSTR, ID2D1SvgPaint \*\*)**](https://msdn.microsoft.com/library/Mt492667(v=VS.85).aspx) | Creates a paint object which can be used to set the 'fill' or 'stroke' properties.<br/> |
+| [**CreatePaint(D2D1\_SVG\_PAINT\_TYPE, D2D1\_COLOR\_F \*, PCWSTR, ID2D1SvgPaint \*\*)**](/windows/win32/api/d2d1svg/nf-d2d1svg-id2d1svgdocument-createpaint(d2d1_svg_paint_type_constd2d1_color_f_pcwstr_id2d1svgpaint))  | Creates a paint object which can be used to set the 'fill' or 'stroke' properties.<br/> |
+| [**CreatePaint(D2D1\_SVG\_PAINT\_TYPE, D2D1\_COLOR\_F &, PCWSTR, ID2D1SvgPaint \*\*)**](/windows/win32/api/d2d1svg/nf-d2d1svg-id2d1svgdocument-createpaint(d2d1_svg_paint_type_constd2d1_color_f__pcwstr_id2d1svgpaint)) | Creates a paint object which can be used to set the 'fill' or 'stroke' properties.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Creates a paint object which can be used to set the 'fill' or 'stroke' propertie
 
 <dl> <dt>
 
-[**ID2D1SvgDocument**](https://msdn.microsoft.com/library/Mt797817(v=VS.85).aspx)
+[**ID2D1SvgDocument**](/windows/win32/api/d2d1svg/nn-d2d1svg-id2d1svgdocument)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

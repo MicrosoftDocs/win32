@@ -22,7 +22,7 @@ The Microsoft Peer Distribution service supports functions for both consumer rol
 | [**PeerDistGetStatusEx**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistgetstatusex)                                                     | Returns the current status and capabilities of the Peer Distribution service.                                   |
 | [**PeerDistGetOverlappedResult**](/windows/desktop/api/peerdist/nf-peerdist-peerdistgetoverlappedresult)                                     | Retrieves the results of asynchronous operations.                                                               |
 | [**PeerDistRegisterForStatusChangeNotification**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistregisterforstatuschangenotification)     | Requests that the Peer Distribution service notify the caller when a status change occurs.                      |
-| [**PeerDistRegisterForStatusChangeNotificationEx**](https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotificationex) | Requests that the Peer Distribution service notify the caller when a status change occurs.                      |
+| [**PeerDistRegisterForStatusChangeNotificationEx**](/windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotificationex) | Requests that the Peer Distribution service notify the caller when a status change occurs.                      |
 | [**PeerDistUnregisterForStatusChangeNotification**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistunregisterforstatuschangenotification) | Deregisters the status change notification for the session associated with the supplied handle.                 |
 
 
@@ -44,7 +44,7 @@ The Microsoft Peer Distribution service supports functions for both consumer rol
 | [**PeerDistClientBlockRead**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistclientblockread)                                   | Provides random access to the content stream.                                                                                                                                                                                                                                                                                                    |
 | [**PeerDistClientStreamRead**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistclientstreamread)                                 | Provides sequential access to the content stream.                                                                                                                                                                                                                                                                                                |
 | [**PeerDistClientFlushContent**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistclientflushcontent)                             | Removes content that has been previously added to the local Peer Distribution system.                                                                                                                                                                                                                                                            |
-| [**PeerDistClientCancelAsyncOperation**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistclientcancelasyncoperation)             | Cancels asynchronous operation associated with an [OVERLAPPED](https://msdn.microsoft.com/library/ms684342.aspx) structure and the content handle returned by [**PeerDistClientOpenContent**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistclientopencontent).                                                                                                                     |
+| [**PeerDistClientCancelAsyncOperation**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistclientcancelasyncoperation)             | Cancels asynchronous operation associated with an [OVERLAPPED](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) structure and the content handle returned by [**PeerDistClientOpenContent**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistclientopencontent).                                                                                                                     |
 
 
 
@@ -65,7 +65,7 @@ The Microsoft Peer Distribution service supports functions for both consumer rol
 | [**PeerDistServerOpenContentInformationEx**](/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformationex)     | Opens a **PEERDIST\_CONTENTINFO\_HANDLE** for published content.                                                                                                                                   |
 | [**PeerDistServerRetrieveContentInformation**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistserverretrievecontentinformation) | Retrieves the content information associated with published content.                                                                                                                               |
 | [**PeerDistServerCloseContentInformation**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistserverclosecontentinformation)       | **PEERDIST\_CONTENTINFO\_HANDLE** opened by [**PeerDistServerOpenContentInformation**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistserveropencontentinformation).                                                                  |
-| [**PeerDistServerCancelAsyncOperation**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistservercancelasyncoperation)             | Cancels the asynchronous operation associated with the content identifier and [OVERLAPPED](https://msdn.microsoft.com/library/ms684342.aspx) structure.                                             |
+| [**PeerDistServerCancelAsyncOperation**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistservercancelasyncoperation)             | Cancels the asynchronous operation associated with the content identifier and [OVERLAPPED](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) structure.                                             |
 
 
 
@@ -74,6 +74,3 @@ The Microsoft Peer Distribution service supports functions for both consumer rol
  
 
  
-
-
-

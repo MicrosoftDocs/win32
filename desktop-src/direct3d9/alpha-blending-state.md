@@ -12,9 +12,9 @@ The alpha value of a color controls its transparency. Enabling alpha blending al
 
 For more information, see [Alpha Texture Blending (Direct3D 9)](alpha-texture-blending.md) and [Texture Blending (Direct3D 9)](texture-blending.md).
 
-Applications written in C++ use the [**D3DRS\_ALPHABLENDENABLE**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx) render state to enable alpha transparency blending. The Direct3D API allows many types of alpha blending. However, it is important to note the user's 3D hardware might not support all the blending states allowed by Direct3D.
+Applications written in C++ use the [**D3DRS\_ALPHABLENDENABLE**](./d3drenderstatetype.md) render state to enable alpha transparency blending. The Direct3D API allows many types of alpha blending. However, it is important to note the user's 3D hardware might not support all the blending states allowed by Direct3D.
 
-The type of alpha blending that is done depends on the [**D3DRS\_SRCBLEND**](https://msdn.microsoft.com/library/Bb172599(v=VS.85).aspx) And **D3DRS\_DESTBLEND** render states. Source and destination blend states are used in pairs. The following code example demonstrates how the source blend state is set to D3DBLEND\_SRCCOLOR and the destination blend state is set to D3DBLEND\_INVSRCCOLOR.
+The type of alpha blending that is done depends on the [**D3DRS\_SRCBLEND**](./d3drenderstatetype.md) And **D3DRS\_DESTBLEND** render states. Source and destination blend states are used in pairs. The following code example demonstrates how the source blend state is set to D3DBLEND\_SRCCOLOR and the destination blend state is set to D3DBLEND\_INVSRCCOLOR.
 
 
 ```
@@ -47,6 +47,3 @@ You can achieve color light mapping by setting the source alpha blending state t
  
 
  
-
-
-

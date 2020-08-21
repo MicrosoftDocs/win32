@@ -29,7 +29,7 @@ The address that receives **True** if the voice grammar for Agent's global comma
 
 </dd> </dl>
 
-Microsoft Agent automatically adds voice parameters (grammar) for opening and closing the Voice Commands Window and for showing and hiding the character. When this method returns **False**, any voice parameters for these commands as well as the voice parameters for the [**Caption**](caption-property.md) of other clients' [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) objects are not included in the grammar. This enables you to eliminate these from your client's current active grammar. However, this setting does not reflect the inclusion of these commands in the character's pop-up menu.
+Microsoft Agent automatically adds voice parameters (grammar) for opening and closing the Voice Commands Window and for showing and hiding the character. When this method returns **False**, any voice parameters for these commands as well as the voice parameters for the [**Caption**](caption-property.md) of other clients' [**Command**](/windows/desktop/lwef/the-command-object) objects are not included in the grammar. This enables you to eliminate these from your client's current active grammar. However, this setting does not reflect the inclusion of these commands in the character's pop-up menu.
 
 ## See Also
 
@@ -39,7 +39,3 @@ Microsoft Agent automatically adds voice parameters (grammar) for opening and cl
  
 
  
-
-
-
-

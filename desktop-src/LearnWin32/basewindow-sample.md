@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # BaseWindow Sample
 
-This sample application shows how to pass application state data in the [**WM\_NCCREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-nccreate) message.
+This sample application shows how to pass application state data in the [**WM\_NCCREATE**](/windows/desktop/winmsg/wm-nccreate) message.
 
 ## Description
 
-The BaseWindow sample application is a variation on the [Windows Hello World Sample](windows-hello-world-sample.md). It uses the [**WM\_NCCREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-nccreate) message to pass application data to the window procedure. This sample is discussed in the topic [Managing Application State](managing-application-state-.md).
+The BaseWindow sample application is a variation on the [Windows Hello World Sample](windows-hello-world-sample.md). It uses the [**WM\_NCCREATE**](/windows/desktop/winmsg/wm-nccreate) message to pass application data to the window procedure. This sample is discussed in the topic [Managing Application State](managing-application-state-.md).
 
 ## Downloading the Sample
 

@@ -29,8 +29,8 @@ The following screen shots show the visual before and after applying the 2D tran
 ### Technologies
 
 -   [DirectComposition](directcomposition-portal.md)
--   [Direct3D 11 Graphics](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
--   [DirectX Graphics Infrastructure (DXGI)](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
+-   [Direct3D 11 Graphics](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
+-   [DirectX Graphics Infrastructure (DXGI)](/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 
 ### Prerequisites
 
@@ -58,8 +58,8 @@ IDCompositionTransform *pTransforms[3];
 
 ### Step 3: Create the transform objects, set their properties, and add them to the transform group array
 
-1.  Use the [**IDCompositionDevice::CreateRotateTransform**](https://msdn.microsoft.com/library/Hh437400(v=VS.85).aspx), [**::CreateScaleTransform**](https://msdn.microsoft.com/library/Hh437402(v=VS.85).aspx), and [**::CreateTranslateTransform**](https://msdn.microsoft.com/library/Hh437411(v=VS.85).aspx) methods to create the transform objects.
-2.  Use the member functions of the [**IDCompositionRotateTransform**](https://msdn.microsoft.com/library/Hh448924(v=VS.85).aspx), [**IDCompositionScaleTransform**](https://msdn.microsoft.com/library/Hh448990(v=VS.85).aspx), and [**IDCompositionTranslateTransform**](https://msdn.microsoft.com/library/Hh449113(v=VS.85).aspx) interfaces to set the properties of the transforms.
+1.  Use the [**IDCompositionDevice::CreateRotateTransform**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createrotatetransform), [**::CreateScaleTransform**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createscaletransform), and [**::CreateTranslateTransform**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createtranslatetransform) methods to create the transform objects.
+2.  Use the member functions of the [**IDCompositionRotateTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionrotatetransform), [**IDCompositionScaleTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionscaletransform), and [**IDCompositionTranslateTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositiontranslatetransform) interfaces to set the properties of the transforms.
 3.  Copy the transform interface pointers to the transform group array.
 
 
@@ -137,7 +137,7 @@ if (SUCCEEDED(hr))
 
 ### Step 4: Create the transform group object
 
-Call the [**IDCompositionDevice::CreateTransformGroup**](https://msdn.microsoft.com/library/Hh437410(v=VS.85).aspx) method to create the transform group object.
+Call the [**IDCompositionDevice::CreateTransformGroup**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createtransformgroup) method to create the transform group object.
 
 
 ```C++
@@ -152,7 +152,7 @@ if (SUCCEEDED(hr))
 
 ### Step 5: Apply the transform group object to the visual
 
-Use the [**IDCompositionVisual::SetTransform**](https://msdn.microsoft.com/library/Hh449174(v=VS.85).aspx) method to associate the Transform property of the visual with the transform group object.
+Use the [**IDCompositionVisual::SetTransform**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-settransform(constd2d_matrix_3x2_f_)) method to associate the Transform property of the visual with the transform group object.
 
 
 ```C++
@@ -167,7 +167,7 @@ if (SUCCEEDED(hr))
 
 ### Step 6: Commit the composition
 
-Call the [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/library/Hh437393(v=VS.85).aspx) method to commit the updates to the visual to DirectComposition for processing. The result of applying the group of 2D transforms appears in the target window.
+Call the [**IDCompositionDevice::Commit**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-commit) method to commit the updates to the visual to DirectComposition for processing. The result of applying the group of 2D transforms appears in the target window.
 
 
 ```C++
@@ -182,7 +182,7 @@ if (SUCCEEDED(hr))
 
 ### Step 7: Free the DirectComposition objects
 
-Be sure to free the group of 2D transform objects when you no longer need them. The following example calls the application-defined [**SafeRelease**](https://docs.microsoft.com/windows/desktop/medfound/saferelease) macro to free the transform objects.
+Be sure to free the group of 2D transform objects when you no longer need them. The following example calls the application-defined [**SafeRelease**](/windows/desktop/medfound/saferelease) macro to free the transform objects.
 
 
 ```C++
@@ -325,7 +325,3 @@ HRESULT DemoApp::ApplyTransformGroup(IDCompositionDevice *pDevice,
  
 
  
-
-
-
-

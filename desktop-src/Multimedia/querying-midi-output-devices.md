@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Querying MIDI Output Devices
 
-Before playing a MIDI file, you should use the [**midiOutGetDevCaps**](https://msdn.microsoft.com/library/Dd798469(v=VS.85).aspx) function to determine the capabilities of the MIDI output device that is present in the system. This function takes an address of a [**MIDIOUTCAPS**](https://msdn.microsoft.com/library/Dd798467(v=VS.85).aspx) structure, which it fills with information about the capabilities of the given device. This information includes the manufacturer and product identifiers, a product name for the device, and the version number of the device driver (specified in the **wMid**, **wPid**, **szPname**, and **vDriverVersion** members, respectively).
+Before playing a MIDI file, you should use the [**midiOutGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-midioutgetdevcaps) function to determine the capabilities of the MIDI output device that is present in the system. This function takes an address of a [**MIDIOUTCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-midioutcaps) structure, which it fills with information about the capabilities of the given device. This information includes the manufacturer and product identifiers, a product name for the device, and the version number of the device driver (specified in the **wMid**, **wPid**, **szPname**, and **vDriverVersion** members, respectively).
 
 MIDI output devices can be either internal synthesizers or external MIDI output ports. The **wTechnology** member of the **MIDIOUTCAPS** structure specifies the technology of the device.
 
@@ -28,7 +28,3 @@ The **dwSupport** member of the **MIDIOUTCAPS** structure indicates whether the 
  
 
  
-
-
-
-

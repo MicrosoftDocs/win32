@@ -21,19 +21,16 @@ Variables that are declared as global in a DLL source code file are treated as g
 
 ## Dynamic Memory Allocation
 
-When a DLL allocates memory using any of the memory allocation functions ([**GlobalAlloc**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc), [**LocalAlloc**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc), [**HeapAlloc**](https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc), and [**VirtualAlloc**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc)), the memory is allocated in the virtual address space of the calling process and is accessible only to the threads of that process.
+When a DLL allocates memory using any of the memory allocation functions ([**GlobalAlloc**](/windows/desktop/api/winbase/nf-winbase-globalalloc), [**LocalAlloc**](/windows/desktop/api/winbase/nf-winbase-localalloc), [**HeapAlloc**](/windows/desktop/api/heapapi/nf-heapapi-heapalloc), and [**VirtualAlloc**](/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc)), the memory is allocated in the virtual address space of the calling process and is accessible only to the threads of that process.
 
-A DLL can use file mapping to allocate memory that can be shared among processes. For a general discussion of how to use file mapping to create named shared memory, see [File Mapping](https://docs.microsoft.com/windows/desktop/Memory/file-mapping). For an example that uses the [**DllMain**](dllmain.md) function to set up shared memory using file mapping, see [Using Shared Memory in a Dynamic-Link Library](using-shared-memory-in-a-dynamic-link-library.md).
+A DLL can use file mapping to allocate memory that can be shared among processes. For a general discussion of how to use file mapping to create named shared memory, see [File Mapping](/windows/desktop/Memory/file-mapping). For an example that uses the [**DllMain**](dllmain.md) function to set up shared memory using file mapping, see [Using Shared Memory in a Dynamic-Link Library](using-shared-memory-in-a-dynamic-link-library.md).
 
 ## Thread Local Storage
 
-The thread local storage (TLS) functions enable a DLL to allocate an index for storing and retrieving a different value for each thread of a multithreaded process. For example, a spreadsheet application can create a new instance of the same thread each time the user opens a new spreadsheet. A DLL providing the functions for various spreadsheet operations can use TLS to save information about the current state of each spreadsheet (row, column, and so on). For a general discussion of thread local storage, see [Thread Local Storage](https://docs.microsoft.com/windows/desktop/ProcThread/thread-local-storage). For an example that uses the [**DllMain**](dllmain.md) function to set up thread local storage, see [Using Thread Local Storage in a Dynamic-Link Library](using-thread-local-storage-in-a-dynamic-link-library.md).
+The thread local storage (TLS) functions enable a DLL to allocate an index for storing and retrieving a different value for each thread of a multithreaded process. For example, a spreadsheet application can create a new instance of the same thread each time the user opens a new spreadsheet. A DLL providing the functions for various spreadsheet operations can use TLS to save information about the current state of each spreadsheet (row, column, and so on). For a general discussion of thread local storage, see [Thread Local Storage](/windows/desktop/ProcThread/thread-local-storage). For an example that uses the [**DllMain**](dllmain.md) function to set up thread local storage, see [Using Thread Local Storage in a Dynamic-Link Library](using-thread-local-storage-in-a-dynamic-link-library.md).
 
-**Windows Server 2003 and Windows XP:** The Visual C++ compiler supports a syntax that enables you to declare thread-local variables: **\_declspec(thread)**. If you use this syntax in a DLL, you will not be able to load the DLL explicitly using [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) or [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa) on versions of Windows prior to Windows Vista. If your DLL will be loaded explicitly, you must use the thread local storage functions instead of **\_declspec(thread)**.
-
- 
+**Windows Server 2003 and Windows XP:** The Visual C++ compiler supports a syntax that enables you to declare thread-local variables: **\_declspec(thread)**. If you use this syntax in a DLL, you will not be able to load the DLL explicitly using [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) or [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa) on versions of Windows prior to Windows Vista. If your DLL will be loaded explicitly, you must use the thread local storage functions instead of **\_declspec(thread)**.
 
  
 
-
-
+ 

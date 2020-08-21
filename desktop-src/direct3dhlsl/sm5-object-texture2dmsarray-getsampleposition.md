@@ -34,7 +34,7 @@ float2 GetSamplePosition(
 *sampleindex* \[in\]
 </dt> <dd>
 
-Type: **[**int**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**int**](/windows/desktop/WinProg/windows-data-types)**
 
 The zero-based index of a sample location.
 
@@ -73,7 +73,3 @@ This function is supported for the following types of shaders:
  
 
  
-
-
-
-

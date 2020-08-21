@@ -16,7 +16,7 @@ For a user assigned the Preset restriction, the administrator specifies a phone 
 
 A Preset callback operation is handled automatically by the Remote Access Connection Manager and the remote server. The RAS client application does not need to do anything other than provide feedback to the user when the notification handler is called during the various states of the callback operation.
 
-A user assigned the Set By Caller privilege can choose to connect either with or without a callback. The [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) call uses the **szCallbackNumber** member of the [**RASDIALPARAMS**](https://msdn.microsoft.com/library/Aa377238(v=VS.85).aspx) structure to indicate the choice.
+A user assigned the Set By Caller privilege can choose to connect either with or without a callback. The [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) call uses the **szCallbackNumber** member of the [**RASDIALPARAMS**](/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)) structure to indicate the choice.
 
 The **szCallbackNumber** member can simply specify the callback number; or, to establish the connection without a callback, **szCallbackNumber** can point to an empty string, "". In either of these cases, the Remote Access Connection Manager handles the connection operation automatically. As with a Preset callback operation, the RAS client does not need to perform any action other than to provide feedback to the user.
 
@@ -32,7 +32,3 @@ In the event of a callback, the call to [**RasDial**](/windows/desktop/api/Ras/n
  
 
  
-
-
-
-

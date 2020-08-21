@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WinSNMP Common Error Codes
 
-\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
+\[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use [Windows Remote Management](/windows/desktop/WinRM/portal), which is the Microsoft implementation of WS-Man.\]
 
 The [**SnmpGetLastError**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpgetlasterror) function can return a general error code after a WinSNMP function fails. The following table lists the WinSNMP common error codes.
 
@@ -30,7 +30,3 @@ The WinSNMP errors that convey context-specific information are noted in each fu
  
 
  
-
-
-
-

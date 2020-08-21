@@ -10,19 +10,19 @@ ms.date: 05/31/2018
 
 The following API are used with H.264 UVC 1.5 camera encoders.
 
--   [CODECAPI\_AVEncCommonBufferSize](https://docs.microsoft.com/windows/desktop/DirectShow/avenccommonbuffersize-property)
--   [CODECAPI\_AVEncCommonMeanBitRate](https://docs.microsoft.com/windows/desktop/DirectShow/avenccommonmeanbitrate-property)
--   [CODECAPI\_AVEncCommonRateControlMode](https://docs.microsoft.com/windows/desktop/DirectShow/avenccommonratecontrolmode-property)
--   [CODECAPI\_AVEncVideoEncodeDimension](https://docs.microsoft.com/windows/desktop/DirectShow/avencvideoencodedimension-property)
+-   [CODECAPI\_AVEncCommonBufferSize](/windows/desktop/DirectShow/avenccommonbuffersize-property)
+-   [CODECAPI\_AVEncCommonMeanBitRate](/windows/desktop/DirectShow/avenccommonmeanbitrate-property)
+-   [CODECAPI\_AVEncCommonRateControlMode](/windows/desktop/DirectShow/avenccommonratecontrolmode-property)
+-   [CODECAPI\_AVEncVideoEncodeDimension](/windows/desktop/DirectShow/avencvideoencodedimension-property)
 -   [CODECAPI\_AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md)
 -   [CODECAPI\_AVEncVideoForceKeyFrame](codecapi-avencvideoforcekeyframe.md)
--   [CODECAPI\_AVEncVideoOutputFrameRate](https://docs.microsoft.com/windows/desktop/DirectShow/avencvideooutputframerate-property)
+-   [CODECAPI\_AVEncVideoOutputFrameRate](/windows/desktop/DirectShow/avencvideooutputframerate-property)
 -   [CODECAPI\_AVEncVideoSelectLayer](codecapi-avencvideoselectlayer.md)
 -   [CODECAPI\_AVEncVideoSupportedControls](codecapi-avencvideosupportedcontrols.md)
 -   [CODECAPI\_AVEncVideoTemporalLayerCount](codecapi-avencvideotemporallayercount.md)
 -   [CODECAPI\_AVEncVideoUsage](codecapi-avencvideousage.md)
 -   [**eAVEncH264VProfile**](/windows/desktop/api/codecapi/ne-codecapi-eavench264vprofile)
--   [**eAVEncCommonRateControlMode**](https://docs.microsoft.com/windows/desktop/api/codecapi/ne-codecapi-eavenccommonratecontrolmode)
+-   [**eAVEncCommonRateControlMode**](/windows/desktop/api/codecapi/ne-codecapi-eavenccommonratecontrolmode)
 -   [MF\_MT\_H264\_CAPABILITIES](mf-mt-h264-capabilities.md)
 -   [MF\_MT\_H264\_DYNAMIC\_RESOLUTION\_SCALING](https://www.bing.com/search?q=MF\_MT\_H264\_DYNAMIC\_RESOLUTION\_SCALING)
 -   [MF\_MT\_H264\_MAX\_CODEC\_CONFIG\_DELAY](mf-mt-h264-max-codec-config-delay.md)
@@ -34,7 +34,7 @@ The following API are used with H.264 UVC 1.5 camera encoders.
 -   [MF\_MT\_H264\_SUPPORTED\_USAGES](mf-mt-h264-supported-usages.md)
 -   [MF\_MT\_H264\_SVC\_CAPABILITIES](mf-mt-h264-svc-capabilities.md)
 
-For information on developing device drivers for H.264 UVC 1.5 camera encoders see [New AVStream Topics for Windows 8](https://docs.microsoft.com/windows-hardware/drivers/stream/new-windows-8-ddis).
+For information on developing device drivers for H.264 UVC 1.5 camera encoders see [New AVStream Topics for Windows 8](/windows-hardware/drivers/stream/new-windows-8-ddis).
 
 ## Related topics
 
@@ -46,6 +46,3 @@ For information on developing device drivers for H.264 UVC 1.5 camera encoders s
  
 
  
-
-
-

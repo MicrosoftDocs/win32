@@ -57,17 +57,11 @@ If an application cannot recognize this indicator, it should not modify the prop
 
  
 
-Possible values for the code page are given in the Win32 API (for more information, see the [**GetACP**](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getacp) function) and *Inside Macintosh Volume VI*, pages 14-111. (These resources may not be available in some languages and countries.) For example, the code page US ANSI is represented by 0x04E4 (1252 in decimal) while the code page for Unicode is 0x04B0 (1200 in decimal).
+Possible values for the code page are given in the Win32 API (for more information, see the [**GetACP**](/windows/desktop/api/winnls/nf-winnls-getacp) function) and *Inside Macintosh Volume VI*, pages 14-111. (These resources may not be available in some languages and countries.) For example, the code page US ANSI is represented by 0x04E4 (1252 in decimal) while the code page for Unicode is 0x04B0 (1200 in decimal).
 
 It is recommended that the Unicode code page be used when possible, and use VT\_LPWSTR instead of VT\_LPSTR to avoid multibyte <-> Unicode conversions during storage and retrieval. Using the same code page for all property sets is the only way to achieve interoperable property sets on a worldwide basis. In either the Unicode or non-Unicode code page, be aware that the count at the start of a VT\_LPSTR or VT\_BSTR is a **byte** count and not a **character** count. This byte count includes the one or two zero bytes at the end of the string (the **NULL** terminator of the string).
 
 Property ID 1 is a VT\_I2 type and starts with a **DWORD** that contains the value VT\_I2 followed by a **SHORT** that indicates the code page.
 
  
-
- 
-
-
-
-
 

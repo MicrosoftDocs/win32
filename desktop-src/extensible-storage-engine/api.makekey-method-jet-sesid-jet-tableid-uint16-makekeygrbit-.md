@@ -77,7 +77,7 @@ public static void MakeKey(
 <!-- end list -->
 
   - data  
-    Type: [System.UInt16](https://docs.microsoft.com/dotnet/api/system.uint16?redirectedfrom=MSDN)  
+    Type: [System.UInt16](/dotnet/api/system.uint16)  
     
     Column data for the current key column of the current index.
 
@@ -99,4 +99,3 @@ public static void MakeKey(
 [MakeKey overload](dn334039\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

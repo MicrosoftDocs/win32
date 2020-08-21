@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-Method for getting a license from the store. See also, [GetLicenseFromStore](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp).
+Method for getting a license from the store. See also, [GetLicenseFromStore](/windows/client-management/mdm/enterprisemodernappmanagement-csp).
 
 ## Syntax
 
@@ -63,14 +63,8 @@ uint32 GetLicenseFromStoreMethod(
 [**MDM\_EnterpriseModernAppManagement\_StoreLicenses02\_01**](mdm-enterprisemodernappmanagement-storelicenses02-01.md)
 </dt> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

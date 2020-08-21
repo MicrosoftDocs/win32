@@ -44,13 +44,8 @@ Client applications that use WSDAPI are supported starting with Windows Vista an
 
 <dl> <dt>
 
-[Dan Driscoll's Blog](https://blogs.msdn.com/dandris/)
+[Dan Driscoll's Blog](/archive/blogs/dandris/)
 </dt> </dl>
 
  
-
- 
-
-
-
 

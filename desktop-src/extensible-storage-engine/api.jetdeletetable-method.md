@@ -74,7 +74,7 @@ public static void JetDeleteTable(
 <!-- end list -->
 
   - table  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The name of the table to delete.
 
@@ -87,4 +87,3 @@ public static void JetDeleteTable(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

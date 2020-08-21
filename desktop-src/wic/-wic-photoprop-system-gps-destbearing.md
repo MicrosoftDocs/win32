@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.DestBearing Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.DestBearing](https://msdn.microsoft.com/library/bb787484(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.DestBearing](../properties/props-system-gps-destbearing.md) property.
 
 ### PKEY
 
@@ -118,12 +118,9 @@ This value can be written by writing to System.GPS.DestBearingNumerator and Syst
 
 <dl> <dt>
 
-[System.GPS.DestBearing](https://msdn.microsoft.com/library/bb787484(VS.85).aspx)
+[System.GPS.DestBearing](../properties/props-system-gps-destbearing.md)
 </dt> </dl>
 
  
 
  
-
-
-

@@ -53,7 +53,7 @@ Data type: **CIM\_ProtocolEndpoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 The lower level endpoint that is accessed by the service access point.
@@ -69,7 +69,7 @@ Data type: **CIM\_ServiceAccessPoint**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 The access point or protocol endpoint that is dependent on the lower level endpoint.
@@ -98,9 +98,4 @@ The access point or protocol endpoint that is dependent on the lower level endpo
 </dt> </dl>
 
  
-
- 
-
-
-
 

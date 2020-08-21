@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Converting Strings
 
-When you use the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function, all values passed with the command and all return values are text strings, so your application needs conversion routines to translate from variables to strings or back again. The following example retrieves the source rectangle and converts the returned string into rectangle coordinates.
+When you use the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function, all values passed with the command and all return values are text strings, so your application needs conversion routines to translate from variables to strings or back again. The following example retrieves the source rectangle and converts the returned string into rectangle coordinates.
 
 
 ```C++
@@ -87,7 +87,3 @@ BOOL GetSourceRect(LPTSTR lpstrAlias, LPRECT lprc)
  
 
  
-
-
-
-

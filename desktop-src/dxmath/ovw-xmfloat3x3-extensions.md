@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMFLOAT3X3 Extensions
 
-[**XMFLOAT3X3**](https://msdn.microsoft.com/library/Ee419511(v=VS.85).aspx) describes a 3\*3 floating point matrix.
+[**XMFLOAT3X3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x3) describes a 3\*3 floating point matrix.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -35,13 +35,9 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT3X3**](https://msdn.microsoft.com/library/Ee419511(v=VS.85).aspx)
+[**XMFLOAT3X3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x3)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -42,7 +42,7 @@ On restore, and prior to actually performing a restore operation, a requester sh
 
 To do this, the requester first iterates over the writers with stored components in its Backup Components Document using [**IVssBackupComponents::GetWriterComponentsCount**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponentscount) and [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents).
 
-The [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents) interface is then used to return instances of the [**IVssWriterComponentsExt**](https://msdn.microsoft.com/library/Aa384312(v=VS.85).aspx) interface, which provide [**IVssWriterComponentsExt::GetComponent**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponent) and [**IVssWriterComponentsExt::GetComponentCount**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponentcount), that allow the requester to obtain [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) instances.
+The [**IVssBackupComponents::GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents) interface is then used to return instances of the [**IVssWriterComponentsExt**](/windows/win32/api/vsbackup/nl-vsbackup-ivsswritercomponentsext) interface, which provide [**IVssWriterComponentsExt::GetComponent**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponent) and [**IVssWriterComponentsExt::GetComponentCount**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswritercomponents-getcomponentcount), that allow the requester to obtain [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) instances.
 
 This allows a requester to obtain information about the partially backed up files to participate in a restore by using [**IVssComponent::GetPartialFileCount**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpartialfilecount) and [**IVssComponent::GetPartialFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpartialfile) for the instance of [**IVssComponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) corresponding to the component that manages the file (or the component that defines the component set that contains the file).
 
@@ -57,6 +57,3 @@ If the requester has had to restore the ranges file to a new location, VSS will 
  
 
  
-
-
-

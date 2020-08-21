@@ -59,7 +59,7 @@ public static void JetGetInstanceInfo(
 #### Parameters
 
   - numInstances  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Returns the number of instances.
 
@@ -79,4 +79,3 @@ public static void JetGetInstanceInfo(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

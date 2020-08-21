@@ -9,11 +9,11 @@ ms.date: 05/31/2018
 
 # Windows Event Collector
 
-You can subscribe to receive and store events on a local computer (event collector) that are forwarded from a remote computer (event source). The [Windows Event Collector functions](windows-event-collector-functions.md) support subscribing to events by using the WS-Management protocol. For more information about WS-Management, see [About Windows Remote Management](https://docs.microsoft.com/windows/desktop/WinRM/about-windows-remote-management).
+You can subscribe to receive and store events on a local computer (event collector) that are forwarded from a remote computer (event source). The [Windows Event Collector functions](windows-event-collector-functions.md) support subscribing to events by using the WS-Management protocol. For more information about WS-Management, see [About Windows Remote Management](/windows/desktop/WinRM/about-windows-remote-management).
 
 ## Event Forwarding and Event Collection Architecture
 
-Event collection allows administrators to get events from remote computers and store them in a local event log on the collector computer. The destination log path for the events is a property of the subscription. All data in the forwarded event is saved in the collector computer event log (none of the information is lost). Additional information related to the event forwarding is also added to the event. For more information about how to enable a computer to receive collected events or forward events, see [Configure Computers to Forward and Collect Events](https://technet.microsoft.com/library/cc748890.aspx).
+Event collection allows administrators to get events from remote computers and store them in a local event log on the collector computer. The destination log path for the events is a property of the subscription. All data in the forwarded event is saved in the collector computer event log (none of the information is lost). Additional information related to the event forwarding is also added to the event. For more information about how to enable a computer to receive collected events or forward events, see [Configure Computers to Forward and Collect Events](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc748890(v=ws.11)).
 
 ## Subscriptions
 
@@ -31,7 +31,3 @@ For more information about the functions used to collect and forward events, see
  
 
  
-
-
-
-

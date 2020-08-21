@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 Active Directory Domain Services includes a directory service that stores domain, user, user group, and security data.
 
-On Windows NT 4.0 and earlier, you can use functions such as [**NetUserAdd**](https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd), [**NetUserEnum**](https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuserenum), [**NetUserDel**](https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuserdel), and so on, to manage users, user groups, and other network items. On Windows 2000 and later versions of Windows, ADSI provides uniform and secure access to these items and their properties. Be aware that ADSI provides a Windows NT 4.0 provider that enables you to use ADSI to manage user, user groups, and computers on Windows NT 4.0 systems. There are also providers for Windows Server 2008 Enterprise (Server Core installation), Microsoft Exchange 5.5, Microsoft Internet Information Server (IIS), Novell NetWare Directory Services (NDS), and Novell NetWare 3. That is, a single set of standardized methods for managing users and user groups for Windows NT, NDS, and NetWare 3.
+On Windows NT 4.0 and earlier, you can use functions such as [**NetUserAdd**](/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd), [**NetUserEnum**](/windows/desktop/api/lmaccess/nf-lmaccess-netuserenum), [**NetUserDel**](/windows/desktop/api/lmaccess/nf-lmaccess-netuserdel), and so on, to manage users, user groups, and other network items. On Windows 2000 and later versions of Windows, ADSI provides uniform and secure access to these items and their properties. Be aware that ADSI provides a Windows NT 4.0 provider that enables you to use ADSI to manage user, user groups, and computers on Windows NT 4.0 systems. There are also providers for Windows Server 2008 Enterprise (Server Core installation), Microsoft Exchange 5.5, Microsoft Internet Information Server (IIS), Novell NetWare Directory Services (NDS), and Novell NetWare 3. That is, a single set of standardized methods for managing users and user groups for Windows NT, NDS, and NetWare 3.
 
 In addition, Windows 2000 is a multi-master directory. That is, changes to users, user groups, and other data stored in the directory can be made at any domain controller. On Windows 2000, you are not required to locate the primary domain controller (PDC) and make user and user group changes on the PDC.
 
@@ -26,7 +26,3 @@ Domains, OUs, users, user groups, computers, and other network items are stored 
  
 
  
-
-
-
-

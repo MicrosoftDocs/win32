@@ -32,12 +32,8 @@ Embedded UI Handler makes custom UIs easier to integrate by embedding a custom u
 
 Embedded Multiple Package Chainer allows developers to enable installation events across multiple packages. For example, they can enable install-on-demand events, repair events, and uninstall events across multiple packages.
 
-New features also enable the creation of true per-user installations, including support for per-user program files and "elevate now" functionality, and provide support for offline software inventory and patch applicability checks through Deployment Image Servicing and Management. (See [What's New in Windows Installer 5.0](https://msdn.microsoft.com/library/dd408114(VS.85).aspx).)
+New features also enable the creation of true per-user installations, including support for per-user program files and "elevate now" functionality, and provide support for offline software inventory and patch applicability checks through Deployment Image Servicing and Management. (See [What's New in Windows Installer 5.0](../msi/what-s-new-in-windows-installer-5-0.md).)
 
  
 
  
-
-
-
-

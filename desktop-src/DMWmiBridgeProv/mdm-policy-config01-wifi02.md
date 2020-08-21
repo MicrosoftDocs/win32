@@ -56,7 +56,7 @@ The **MDM\_Policy\_Config01\_WiFi02** class has these properties.
 
 <dl> <dt>
 
-[AllowAutoConnectToWiFiSenseHotspots](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-wifi#wifi-allowautoconnecttowifisensehotspots)
+[AllowAutoConnectToWiFiSenseHotspots](/windows/client-management/mdm/policy-csp-wifi#wifi-allowautoconnecttowifisensehotspots)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -67,7 +67,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowInternetSharing](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-wifi#wifi-allowinternetsharing)
+[AllowInternetSharing](/windows/client-management/mdm/policy-csp-wifi#wifi-allowinternetsharing)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -78,7 +78,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowManualWiFiConfiguration](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-wifi#wifi-allowmanualwificonfiguration)
+[AllowManualWiFiConfiguration](/windows/client-management/mdm/policy-csp-wifi#wifi-allowmanualwificonfiguration)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -89,7 +89,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowWiFi](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-wifi#wifi-allowwifi)
+[AllowWiFi](/windows/client-management/mdm/policy-csp-wifi#wifi-allowwifi)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -100,7 +100,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowWiFiDirect](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-wifi#wifi-allowwifidirect)
+[AllowWiFiDirect](/windows/client-management/mdm/policy-csp-wifi#wifi-allowwifidirect)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -120,7 +120,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "WiFi".
@@ -136,14 +136,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/Policy/Config"
 
 </dd> <dt>
 
-[WLANScanMode](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-wifi#wifi-wlanscanmode)
+[WLANScanMode](/windows/client-management/mdm/policy-csp-wifi#wifi-wlanscanmode)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -172,14 +172,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

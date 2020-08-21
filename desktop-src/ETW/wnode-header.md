@@ -17,7 +17,7 @@ api_location:
 
 # WNODE\_HEADER structure
 
-The **WNODE\_HEADER** structure is a member of the [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) structure.
+The **WNODE\_HEADER** structure is a member of the [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) structure.
 
 ## Syntax
 
@@ -52,7 +52,7 @@ typedef struct _WNODE_HEADER {
 **BufferSize**
 </dt> <dd>
 
-Total size of memory allocated, in bytes, for the event tracing session properties. The size of memory must include the room for the [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) structure plus the session name string and log file name string that follow the structure in memory.
+Total size of memory allocated, in bytes, for the event tracing session properties. The size of memory must include the room for the [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) structure plus the session name string and log file name string that follow the structure in memory.
 
 </dd> <dt>
 
@@ -210,13 +210,13 @@ c. If ReservedFlags == 3 (CPU cycle counter): DOUBLE timeStampScale = 10.0 / log
 
 <dl> <dt>
 
-[*ControlCallback*](controlcallback.md)
+[*ControlCallback*](/windows/win32/api/evntrace/nc-evntrace-wmidprequest)
 </dt> <dt>
 
-[**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md)
+[**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties)
 </dt> <dt>
 
-[**GetTraceLoggerHandle**](gettraceloggerhandle.md)
+[**GetTraceLoggerHandle**](/windows/win32/api/evntrace/nf-evntrace-gettraceloggerhandle)
 </dt> <dt>
 
 [**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer~r1)
@@ -225,7 +225,3 @@ c. If ReservedFlags == 3 (CPU cycle counter): DOUBLE timeStampScale = 10.0 / log
  
 
  
-
-
-
-

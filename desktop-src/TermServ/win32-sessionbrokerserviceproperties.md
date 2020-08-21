@@ -44,7 +44,7 @@ class Win32_SessionBrokerServiceProperties
 The **Win32\_SessionBrokerServiceProperties** class has these types of members:
 
 -   [Methods](#methods)
--   [Properties](https://docs.microsoft.com/windows)
+-   [Properties](/windows)
 
 ### Methods
 
@@ -129,10 +129,4 @@ The network name used by the session broker service.
 
 
  
-
- 
-
-
-
-
 

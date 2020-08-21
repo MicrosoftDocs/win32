@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # \[in, out, string\] Prototype
 
-The following function prototype uses a single \[[**in**](https://docs.microsoft.com/windows/desktop/Midl/in), [**out**](https://docs.microsoft.com/windows/desktop/Midl/out-idl), [**string**](https://docs.microsoft.com/windows/desktop/Midl/string)\] parameter for both the input and output strings. The string first contains patient input and is then overwritten with the doctor response as shown:
+The following function prototype uses a single \[[**in**](/windows/desktop/Midl/in), [**out**](/windows/desktop/Midl/out-idl), [**string**](/windows/desktop/Midl/string)\] parameter for both the input and output strings. The string first contains patient input and is then overwritten with the doctor response as shown:
 
 ``` syntax
 void Analyze([in, out, string, size_is(STRSIZE)] char  achInOut[]);
 ```
 
-This example is similar to the one that employed a single-counted string for both input and output. As with that example, the \[[**size\_is**](https://docs.microsoft.com/windows/desktop/Midl/size-is)\] attribute determines the number of elements allocated on the server. The \[[**string**](https://docs.microsoft.com/windows/desktop/Midl/string)\] attribute directs the stub to call **strlen** to determine the number of transmitted elements.
+This example is similar to the one that employed a single-counted string for both input and output. As with that example, the \[[**size\_is**](/windows/desktop/Midl/size-is)\] attribute determines the number of elements allocated on the server. The \[[**string**](/windows/desktop/Midl/string)\] attribute directs the stub to call **strlen** to determine the number of transmitted elements.
 
 The client allocates all memory before the call as:
 
@@ -42,7 +42,3 @@ void Analyze(char *pchInOut)
  
 
  
-
-
-
-

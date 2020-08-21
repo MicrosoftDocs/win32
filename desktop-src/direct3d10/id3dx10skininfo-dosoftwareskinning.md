@@ -47,7 +47,7 @@ HRESULT DoSoftwareSkinning(
 *StartVertex* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 A 0-based index into pSrcVertices.
 
@@ -56,7 +56,7 @@ A 0-based index into pSrcVertices.
 *VertexCount* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of vertices to transform.
 
@@ -74,7 +74,7 @@ Pointer to an array of vertices to transform.
 *SrcStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The size, in bytes, of a vertex in pSrcVertices.
 
@@ -92,7 +92,7 @@ Pointer to an array of vertices, which will be filled with the transformed verti
 *DestStride* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The size, in bytes, of a vertex in pDestVertices.
 
@@ -101,7 +101,7 @@ The size, in bytes, of a vertex in pDestVertices.
 *pBoneMatrices* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 An array of matrices that will be used to transform the points mapped to each bone, such that the vertices mapped to bone\[i\] will be transformed by pBoneMatrices\[i\]. This array will be used to transform the matrices only if the IsNormal value in pChannelDescs is set to **FALSE**, otherwise pInverseTransposeBoneMatrices will be used.
 
@@ -110,7 +110,7 @@ An array of matrices that will be used to transform the points mapped to each bo
 *pInverseTransposeBoneMatrices* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXMATRIX**](https://msdn.microsoft.com/library/Bb172912(v=VS.85).aspx)\***
+Type: **[**D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 If this value is **NULL**, it will be set equal to pBoneMatrices. This array of matrices will be used to transform the vertices only if the IsNormal value in pChannelDescs is set to **TRUE**, otherwise pBoneMatrices will be used.
 
@@ -128,7 +128,7 @@ Pointer to a D3DX10\_SKINNING\_CHANNEL structure, which determines the member of
 *NumChannels* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of D3DX10\_SKINNING\_CHANNEL structures in pChannelDescs.
 
@@ -216,7 +216,3 @@ pSkinInfo->DoSoftwareSkinning(0, numVertices,
  
 
  
-
-
-
-

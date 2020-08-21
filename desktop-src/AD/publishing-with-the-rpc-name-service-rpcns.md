@@ -13,12 +13,8 @@ ms.date: 05/31/2018
 
 RPC services can publish their identifiers in a namespace using the RPC name service (RpcNs) APIs. The RpcNs APIs in Windows 2000 publish the RPC entries in Active Directory Domain Services. Services create RPC bindings and publish them in the namespace as named RPC Server entries with attributes including the unique interface ID, a GUID that is recognized by clients. A client can then search for RPC Servers offering the desired interface, import the binding, and connect to the server.
 
-For more information about publishing an RPC service, see [Server-side Binding](https://docs.microsoft.com/windows/desktop/Rpc/server-side-binding).
+For more information about publishing an RPC service, see [Server-side Binding](/windows/desktop/Rpc/server-side-binding).
 
  
 
  
-
-
-
-

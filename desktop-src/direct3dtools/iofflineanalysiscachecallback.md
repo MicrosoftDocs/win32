@@ -26,7 +26,7 @@ Callback to return information on whether an offline request is cached or not.
 
 ## Members
 
-The **IOfflineAnalysisCacheCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IOfflineAnalysisCacheCallback** also has these types of members:
+The **IOfflineAnalysisCacheCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IOfflineAnalysisCacheCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IOfflineAnalysisCacheCallback** interface has these methods.
  
 
  
-
-
-

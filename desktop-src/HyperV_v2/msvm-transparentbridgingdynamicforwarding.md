@@ -55,7 +55,7 @@ Data type: **[**Msvm\_TransparentBridgingService**](msvm-transparentbridgingserv
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_TransparentBridgingService**](msvm-transparentbridgingservice.md) class that represents the transparent bridging service.
@@ -71,7 +71,7 @@ Data type: **[**Msvm\_DynamicForwardingEntry**](msvm-dynamicforwardingentry.md)*
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A reference to an instance of the [**Msvm\_DynamicForwardingEntry**](msvm-dynamicforwardingentry.md) class that represents the dynamic forwarding entry of the forwarding database.
@@ -80,7 +80,7 @@ A reference to an instance of the [**Msvm\_DynamicForwardingEntry**](msvm-dynami
 
 ## Remarks
 
-Access to the **Msvm\_TransparentBridgingDynamicForwarding** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_TransparentBridgingDynamicForwarding** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -103,13 +103,8 @@ Access to the **Msvm\_TransparentBridgingDynamicForwarding** class might be rest
 [**CIM\_TransparentBridgingDynamicForwarding**](cim-transparentbridgingdynamicforwarding.md)
 </dt> <dt>
 
-[**CIM\_TransparentBridgingDynamicForwarding**](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv/cim-transparentbridgingdynamicforwarding)
+[**CIM\_TransparentBridgingDynamicForwarding**](/previous-versions/windows/desktop/clushyperv/cim-transparentbridgingdynamicforwarding)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -28,14 +28,14 @@ The topics in this section provide the reference specifications for specific [Po
 <tbody>
 <tr class="odd">
 <td>[<strong>DM_POINTERHITTEST</strong>](dm-pointerhittest.md)<br/></td>
-<td>Sent to a window, when pointer input is first detected, in order to determine the most probable input target for [Direct Manipulation](https://msdn.microsoft.com/library/windows/desktop/hh446969). <br/></td>
+<td>Sent to a window, when pointer input is first detected, in order to determine the most probable input target for [Direct Manipulation](/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal). <br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>WM_NCPOINTERDOWN</strong>](wm-ncpointerdown.md)<br/></td>
 <td>Posted when a pointer makes contact over the non-client area of a window. The message targets the window over which the pointer makes contact. The pointer is implicitly captured to the window so that the window continues to receive input for the pointer until it breaks contact. <br/> If a window has captured this pointer, this message is not posted. Instead, a [<strong>WM_POINTERDOWN</strong>](wm-pointerdown.md) is posted to the window that has captured this pointer. <br/>
 <blockquote>
 [!Important]<br />
-Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
+Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 </blockquote>
 <br/></td>
 </tr>
@@ -44,7 +44,7 @@ Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinat
 <td>Posted when a pointer that made contact over the non-client area of a window breaks contact. The message targets the window over which the pointer makes contact and the pointer is, at that point, implicitly captured to the window so that the window continues to receive input for the pointer until it breaks contact, including the [<strong>WM_NCPOINTERUP</strong>](wm-ncpointerup.md) notification. <br/> If a window has captured this pointer, this message is not posted. Instead, a [<strong>WM_POINTERUP</strong>](wm-pointerup.md) is posted to the window that has captured this pointer. <br/>
 <blockquote>
 [!Important]<br />
-Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
+Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 </blockquote>
 <br/></td>
 </tr>
@@ -53,26 +53,26 @@ Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinat
 <td>Posted to provide an update on a pointer that made contact over the non-client area of a window or when a hovering uncaptured contact moves over the non-client area of a window. While the pointer is hovering, the message targets whichever window the pointer happens to be over. While the pointer is in contact with the surface, the pointer is implicitly captured to the window over which the pointer made contact and that window continues to receive input for the pointer until it breaks contact. <br/> If a window has captured this pointer, this message is not posted. Instead, a [<strong>WM_POINTERUPDATE</strong>](wm-pointerupdate.md) is posted to the window that has captured this pointer.<br/>
 <blockquote>
 [!Important]<br />
-Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
+Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>WM_PARENTNOTIFY</strong>](wm-parentnotify.md)<br/></td>
-<td>Sent to a window when a significant action occurs on a descendant window. This message is now extended to include the [<strong>WM_POINTERDOWN</strong>](wm-pointerdown.md) event. When the child window is being created, the system sends [<strong>WM_PARENTNOTIFY</strong>](https://msdn.microsoft.com/library/windows/desktop/hh454920) just before the [<strong>CreateWindow</strong>](https://msdn.microsoft.com/library/windows/desktop/ms632679) or [<strong>CreateWindowEx</strong>](https://msdn.microsoft.com/library/windows/desktop/ms632680) function that creates the window returns. When the child window is being destroyed, the system sends the message before any processing to destroy the window takes place.<br/> A window receives this message through its [<strong>WindowProc</strong>](https://msdn.microsoft.com/library/windows/desktop/ms633573) function. <br/>
+<td>Sent to a window when a significant action occurs on a descendant window. This message is now extended to include the [<strong>WM_POINTERDOWN</strong>](wm-pointerdown.md) event. When the child window is being created, the system sends [<strong>WM_PARENTNOTIFY</strong>](/previous-versions/windows/desktop/inputmsg/wm-parentnotify) just before the [<strong>CreateWindow</strong>](/windows/win32/api/winuser/nf-winuser-createwindowa) or [<strong>CreateWindowEx</strong>](/windows/win32/api/winuser/nf-winuser-createwindowexa) function that creates the window returns. When the child window is being destroyed, the system sends the message before any processing to destroy the window takes place.<br/> A window receives this message through its [<strong>WindowProc</strong>](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function. <br/>
 <blockquote>
 [!Important]<br />
-Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
+Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>WM_POINTERACTIVATE</strong>](wm-pointeractivate.md)<br/></td>
-<td>Sent to an inactive window when a primary pointer generates a [<strong>WM_POINTERDOWN</strong>](wm-pointerdown.md) over the window. As long as the message remains unhandled, it travels up the parent window chain until it is reaches the top-level window. Applications can respond to this message to specify whether they wish to be activated.<br/> A window receives this message through its [<strong>WindowProc</strong>](https://msdn.microsoft.com/library/windows/desktop/ms633573) function. <br/></td>
+<td>Sent to an inactive window when a primary pointer generates a [<strong>WM_POINTERDOWN</strong>](wm-pointerdown.md) over the window. As long as the message remains unhandled, it travels up the parent window chain until it is reaches the top-level window. Applications can respond to this message to specify whether they wish to be activated.<br/> A window receives this message through its [<strong>WindowProc</strong>](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function. <br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>WM_POINTERCAPTURECHANGED</strong>](wm-pointercapturechanged.md)<br/></td>
-<td>Sent to a window that is losing capture of an input pointer.<br/> A window receives this message through its [<strong>WindowProc</strong>](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.<br/></td>
+<td>Sent to a window that is losing capture of an input pointer.<br/> A window receives this message through its [<strong>WindowProc</strong>](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.<br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>WM_POINTERDEVICECHANGE</strong>](wm-pointerdevicechange.md)<br/></td>
@@ -88,10 +88,10 @@ Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinat
 </tr>
 <tr class="odd">
 <td>[<strong>WM_POINTERDOWN</strong>](wm-pointerdown.md)<br/></td>
-<td>Posted when a pointer makes contact over the client area of a window. This input message targets the window over which the pointer makes contact, and the pointer is implicitly captured to the window so that the window continues to receive input for the pointer until it breaks contact. <br/> A window receives this message through its [<strong>WindowProc</strong>](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.<br/>
+<td>Posted when a pointer makes contact over the client area of a window. This input message targets the window over which the pointer makes contact, and the pointer is implicitly captured to the window so that the window continues to receive input for the pointer until it breaks contact. <br/> A window receives this message through its [<strong>WindowProc</strong>](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.<br/>
 <blockquote>
 [!Important]<br />
-Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
+Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 </blockquote>
 <br/></td>
 </tr>
@@ -109,18 +109,18 @@ Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinat
 </tr>
 <tr class="odd">
 <td>[<strong>WM_POINTERROUTEDRELEASED</strong>](wm-pointerroutedreleased.md)<br/></td>
-<td>Sent to all processes (configured for cross-process chaining through [<strong>AddContentWithCrossProcessChaining</strong>](https://msdn.microsoft.com/library/windows/desktop/mt622455) and not currently handling pointer input) ever associated with a specific pointer ID, when a [<strong>WM_POINTERUP</strong>](wm-pointerup.md) message is received on the current process. <br/></td>
+<td>Sent to all processes (configured for cross-process chaining through [<strong>AddContentWithCrossProcessChaining</strong>](/windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationcompositor2-addcontentwithcrossprocesschaining) and not currently handling pointer input) ever associated with a specific pointer ID, when a [<strong>WM_POINTERUP</strong>](wm-pointerup.md) message is received on the current process. <br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>WM_POINTERROUTEDTO</strong>](wm-pointerroutedto.md)<br/></td>
-<td>Sent when ongoing pointer input, for an existing pointer ID, transitions from one process to another across content configured for cross-process chaining ([<strong>AddContentWithCrossProcessChaining</strong>](https://msdn.microsoft.com/library/windows/desktop/mt622455)).<br/></td>
+<td>Sent when ongoing pointer input, for an existing pointer ID, transitions from one process to another across content configured for cross-process chaining ([<strong>AddContentWithCrossProcessChaining</strong>](/windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationcompositor2-addcontentwithcrossprocesschaining)).<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>WM_POINTERUP</strong>](wm-pointerup.md)<br/></td>
-<td>Posted when a pointer that made contact over the client area of a window breaks contact. This input message targets the window over which the pointer makes contact and the pointer is, at that point, implicitly captured to the window so that the window continues to receive input messages including the [<strong>WM_POINTERUP</strong>](wm-pointerup.md) notification for the pointer until it breaks contact. <br/> A window receives this message through its [<strong>WindowProc</strong>](https://msdn.microsoft.com/library/windows/desktop/ms633573) function. <br/>
+<td>Posted when a pointer that made contact over the client area of a window breaks contact. This input message targets the window over which the pointer makes contact and the pointer is, at that point, implicitly captured to the window so that the window continues to receive input messages including the [<strong>WM_POINTERUP</strong>](wm-pointerup.md) notification for the pointer until it breaks contact. <br/> A window receives this message through its [<strong>WindowProc</strong>](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function. <br/>
 <blockquote>
 [!Important]<br />
-Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
+Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 </blockquote>
 <br/></td>
 </tr>
@@ -129,25 +129,25 @@ Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinat
 <td>Posted to provide an update on a pointer that made contact over the client area of a window or on a hovering uncaptured pointer over the client area of a window. While the pointer is hovering, the message targets whichever window the pointer happens to be over. While the pointer is in contact with the surface, the pointer is implicitly captured to the window over which the pointer made contact and that window continues to receive input for the pointer until it breaks contact. <br/>
 <blockquote>
 [!Important]<br />
-Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
+Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>WM_POINTERWHEEL</strong>](wm-pointerwheel.md)<br/></td>
-<td>Posted to the window with foreground keyboard focus when a scroll wheel is rotated. <br/> A window receives this message through its [<strong>WindowProc</strong>](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.<br/>
+<td>Posted to the window with foreground keyboard focus when a scroll wheel is rotated. <br/> A window receives this message through its [<strong>WindowProc</strong>](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.<br/>
 <blockquote>
 [!Important]<br />
-Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
+Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>WM_POINTERHWHEEL</strong>](wm-pointerhwheel.md)<br/></td>
-<td>Posted to the window with foreground keyboard focus when a horizontal scroll wheel is rotated. <br/> A window receives this message through its [<strong>WindowProc</strong>](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.<br/>
+<td>Posted to the window with foreground keyboard focus when a horizontal scroll wheel is rotated. <br/> A window receives this message through its [<strong>WindowProc</strong>](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.<br/>
 <blockquote>
 [!Important]<br />
-Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
+Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 </blockquote>
 <br/></td>
 </tr>
@@ -170,10 +170,4 @@ Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinat
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

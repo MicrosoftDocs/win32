@@ -8,25 +8,25 @@ ms.date: 05/31/2018
 
 # HLSL tiled resources exposure
 
-New Microsoft High Level Shader Language (HLSL) syntax is required to support tiled resources in [Shader Model 5](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3d11-graphics-reference-sm5).
+New Microsoft High Level Shader Language (HLSL) syntax is required to support tiled resources in [Shader Model 5](/windows/desktop/direct3dhlsl/d3d11-graphics-reference-sm5).
 
 The new HLSL syntax is allowed only on devices with tiled resources support. Each relevant HLSL method for tiled resources in the following table accepts either one (feedback) or two (clamp and feedback in this order) additional optional parameters. For example, a **Sample** method is:
 
 **Sample(sampler, location \[, offset \[, clamp \[, feedback\] \] \])**
 
-An example of a **Sample** method is [**Texture2D.Sample(S,float,int,float,uint)**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/t2darray-sample-s-float-int-float-uint-).
+An example of a **Sample** method is [**Texture2D.Sample(S,float,int,float,uint)**](/windows/desktop/direct3dhlsl/t2darray-sample-s-float-int-float-uint-).
 
 The offset, clamp and feedback parameters are optional. You must specify all optional parameters up to the one you need, which is consistent with the C++ rules for default function arguments. For example, if the feedback status is needed, both offset and clamp parameters need to be explicitly supplied to **Sample**, even though they may not be logically needed.
 
 The clamp parameter is a scalar float value. The literal value of clamp=0.0f indicates that the clamp operation isn't performed.
 
-The feedback parameter is a **uint** variable that you can supply to the memory-access querying intrinsic [**CheckAccessFullyMapped**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/checkaccessfullymapped) function. You must not modify or interpret the value of the feedback parameter; but, the compiler doesn't provide any advanced analysis and diagnostics to detect whether you modified the value.
+The feedback parameter is a **uint** variable that you can supply to the memory-access querying intrinsic [**CheckAccessFullyMapped**](/windows/desktop/direct3dhlsl/checkaccessfullymapped) function. You must not modify or interpret the value of the feedback parameter; but, the compiler doesn't provide any advanced analysis and diagnostics to detect whether you modified the value.
 
-Here is the syntax of [**CheckAccessFullyMapped**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/checkaccessfullymapped):
+Here is the syntax of [**CheckAccessFullyMapped**](/windows/desktop/direct3dhlsl/checkaccessfullymapped):
 
 **bool CheckAccessFullyMapped(in uint FeedbackVar);**
 
-[**CheckAccessFullyMapped**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/checkaccessfullymapped) interprets the value of *FeedbackVar* and returns true if all data being accessed was mapped in the resource; otherwise, **CheckAccessFullyMapped** returns false.
+[**CheckAccessFullyMapped**](/windows/desktop/direct3dhlsl/checkaccessfullymapped) interprets the value of *FeedbackVar* and returns true if all data being accessed was mapped in the resource; otherwise, **CheckAccessFullyMapped** returns false.
 
 If either the clamp or feedback parameter is present, the compiler emits a variant of the basic instruction. For example, sample of a tiled resource generates the `sample_cl_s` instruction. If neither clamp nor feedback is specified, the compiler emits the basic instruction, so that there is no change from the current behavior. The clamp value of 0.0f indicates that no clamp is performed; thus, the driver compiler can further tailor the instruction to the target hardware. If feedback is a NULL register in an instruction, the feedback is unused; thus, the driver compiler can further tailor the instruction to the target architecture.
 
@@ -38,7 +38,7 @@ This is the summary table of HLSL methods that are changed to support feedback a
 
 
 
-| [HLSL objects](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3d11-graphics-reference-sm5-objects)                                                                                                                                                                                                                                | Intrinsic methods with feedback option (\*) - also has clamp option                                                                                                                                                                  |
+| [HLSL objects](/windows/desktop/direct3dhlsl/d3d11-graphics-reference-sm5-objects)                                                                                                                                                                                                                                | Intrinsic methods with feedback option (\*) - also has clamp option                                                                                                                                                                  |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \[RW\]Texture2D<br/> \[RW\]Texture2DArray<br/> TextureCUBE<br/> TextureCUBEArray<br/>                                                                                                                                                                                    | Gather<br/> GatherRed<br/> GatherGreen<br/> GatherBlue<br/> GatherAlpha<br/> GatherCmp<br/> GatherCmpRed<br/> GatherCmpGreen<br/> GatherCmpBlue<br/> GatherCmpAlpha<br/> |
 | \[RW\]Texture1D<br/> \[RW\]Texture1DArray<br/> \[RW\]Texture2D<br/> \[RW\]Texture2DArray<br/> \[RW\]Texture3D<br/> TextureCUBE<br/> TextureCUBEArray<br/>                                                                                              | Sample\*<br/> SampleBias\*<br/> SampleCmp\*<br/> SampleCmpLevelZero<br/> SampleGrad\*<br/> SampleLevel<br/>                                                                                      |
@@ -56,10 +56,4 @@ This is the summary table of HLSL methods that are changed to support feedback a
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

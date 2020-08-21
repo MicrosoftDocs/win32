@@ -2,7 +2,7 @@
   href: software-device-api-portal.md
   items: 
   - name: "Software Device API Programming Guide"
-    href: https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315034(v=vs.85)
+    href: /previous-versions/windows/hardware/drivers/dn315034(v=vs.85)
   - name: "Software Device API Reference"
     href: software-device-api-reference.md
     items: 
@@ -10,33 +10,33 @@
       href: software-device-api-functions.md
       items: 
       - name: "SwDeviceClose"
-        href: https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdeviceclose
+        href: /windows/desktop/api/swdevice/nf-swdevice-swdeviceclose
       - name: "SW_DEVICE_CREATE_CALLBACK"
-        href: https://docs.microsoft.com/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback
+        href: /windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback
       - name: "SwDeviceCreate"
-        href: https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate
+        href: /windows/desktop/api/swdevice/nf-swdevice-swdevicecreate
       - name: "SwDeviceGetLifetime"
-        href: https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicegetlifetime
+        href: /windows/desktop/api/swdevice/nf-swdevice-swdevicegetlifetime
       - name: "SwDeviceInterfacePropertySet"
-        href: https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfacepropertyset
+        href: /windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfacepropertyset
       - name: "SwDeviceInterfaceRegister"
-        href: https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfaceregister
+        href: /windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfaceregister
       - name: "SwDeviceInterfaceSetState"
-        href: https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfacesetstate
+        href: /windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfacesetstate
       - name: "SwDevicePropertySet"
-        href: https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicepropertyset
+        href: /windows/desktop/api/swdevice/nf-swdevice-swdevicepropertyset
       - name: "SwDeviceSetLifetime"
-        href: https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicesetlifetime
+        href: /windows/desktop/api/swdevice/nf-swdevice-swdevicesetlifetime
       - name: "SwMemFree"
-        href: https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swmemfree
+        href: /windows/desktop/api/swdevice/nf-swdevice-swmemfree
     - name: "Software Device API Structures"
       href: software-device-api-structures.md
       items: 
       - name: "DEVPROPCOMPKEY"
-        href: https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315029(v=vs.85)
+        href: /previous-versions/windows/hardware/drivers/dn315029(v=vs.85)
       - name: "DEVPROPERTY"
-        href: https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315030(v=vs.85)
+        href: /previous-versions/windows/hardware/drivers/dn315030(v=vs.85)
       - name: "DEVPROPKEY"
-        href: https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315031(v=vs.85)
+        href: /previous-versions/windows/hardware/drivers/dn315031(v=vs.85)
       - name: "SW_DEVICE_CREATE_INFO"
-        href: https://docs.microsoft.com/windows/desktop/api/swdevicedef/ns-swdevicedef-sw_device_create_info
+        href: /windows/desktop/api/swdevicedef/ns-swdevicedef-sw_device_create_info

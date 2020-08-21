@@ -20,7 +20,7 @@ The following topics describe WMI namespace security and how to control access t
 <span id="Access_to_WMI_Namespaces"></span><span id="access_to_wmi_namespaces"></span><span id="ACCESS_TO_WMI_NAMESPACES"></span>[Access to WMI Namespaces](access-to-wmi-namespaces.md)
 </dt> <dd>
 
-WMI namespace security relies on standard Windows user [*security identifiers*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SIDs) and access control lists. Administrators and users have different default permissions.
+WMI namespace security relies on standard Windows user [*security identifiers*](/windows/desktop/SecGloss/s-gly) (SIDs) and access control lists. Administrators and users have different default permissions.
 
 </dd> <dt>
 
@@ -64,6 +64,3 @@ You can control whether a child namespace inherits the security descriptor of th
  
 
  
-
-
-

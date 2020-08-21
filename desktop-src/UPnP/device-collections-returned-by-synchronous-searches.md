@@ -77,12 +77,8 @@ HRESULT TraverseCollection(IUPnPDevices * pDevices)
 
 
 
-The first step is to request a new enumerator for the collection using the [**\_NewEnum**](https://msdn.microsoft.com/library/Aa381613(v=VS.85).aspx) property. This returns an enumerator as the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. The sample code invokes [**IUnknown::QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) to obtain the [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface. The sample code then sets the enumerator to the beginning of the collection by invoking the [**IEnumVARIANT::Reset**](https://msdn.microsoft.com/library/ms220975(v=VS.71).aspx) method. Finally, the sample code invokes the [**IEnumVARIANT::Next**](https://msdn.microsoft.com/library/ms221369(v=VS.71).aspx) method to traverse the collection. The device objects in the collection are contained within **VARIANT** structures. These structures contain pointers to [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interfaces on the device objects. To obtain the [**IUPnPDevice**](/windows/desktop/api/Upnp/nn-upnp-iupnpdevice) interface, the sample code invokes **QueryInterface** on the **IDispatch** interface.
+The first step is to request a new enumerator for the collection using the [**\_NewEnum**](/windows/win32/api/upnp/nf-upnp-iupnpdevices-get__newenum) property. This returns an enumerator as the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. The sample code invokes [**IUnknown::QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) to obtain the [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) interface. The sample code then sets the enumerator to the beginning of the collection by invoking the [**IEnumVARIANT::Reset**](/windows/win32/api/oaidl/nf-oaidl-ienumvariant-reset) method. Finally, the sample code invokes the [**IEnumVARIANT::Next**](/windows/win32/api/oaidl/nf-oaidl-ienumvariant-next) method to traverse the collection. The device objects in the collection are contained within **VARIANT** structures. These structures contain pointers to [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interfaces on the device objects. To obtain the [**IUPnPDevice**](/windows/desktop/api/Upnp/nn-upnp-iupnpdevice) interface, the sample code invokes **QueryInterface** on the **IDispatch** interface.
 
  
 
  
-
-
-
-

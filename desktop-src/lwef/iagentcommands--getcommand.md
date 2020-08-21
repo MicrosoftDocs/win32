@@ -17,7 +17,7 @@ HRESULT GetCommand(
 );                    
 ```
 
-Retrieves a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object from the [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+Retrieves a [**Command**](/windows/desktop/lwef/the-command-object) object from the [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -26,14 +26,14 @@ Retrieves a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-co
 <span id="dwCommandID"></span><span id="dwcommandid"></span><span id="DWCOMMANDID"></span>*dwCommandID*
 </dt> <dd>
 
-The ID of a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object in the [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+The ID of a [**Command**](/windows/desktop/lwef/the-command-object) object in the [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 </dd> <dt>
 
 <span id="IUnknown"></span><span id="iunknown"></span><span id="IUNKNOWN"></span>*IUnknown*
 </dt> <dd>
 
-The address of the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface for the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object.
+The address of the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface for the [**Command**](/windows/desktop/lwef/the-command-object) object.
 
 </dd> </dl>
 
@@ -45,7 +45,3 @@ The address of the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api
  
 
  
-
-
-
-

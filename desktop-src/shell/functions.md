@@ -858,7 +858,7 @@ Windows XP SP2 or later: This function is no longer supported.
 </tr>
 <tr class="even">
 <td><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762266(v=vs.85)"><strong>WinExecError</strong></a><br/></td>
-<td>Retrieves the error value generated if the <a href="https://msdn.microsoft.com/library/windows/desktop/ms687393(v=vs.85).aspx">WinExec</a> function cannot run a specified application. <br/></td>
+<td>Retrieves the error value generated if the <a href="/windows/win32/api/winbase/nf-winbase-winexec">WinExec</a> function cannot run a specified application. <br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Winuser/nf-winuser-winhelpa"><strong>WinHelp</strong></a><br/></td>
@@ -874,7 +874,3 @@ Windows XP SP2 or later: This function is no longer supported.
  
 
  
-
-
-
-

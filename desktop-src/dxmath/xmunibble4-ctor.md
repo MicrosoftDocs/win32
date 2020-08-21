@@ -17,7 +17,7 @@ api_location:
 
 Constructors exposed by `XMUNIBBLE4`.
 
-Constructs instances of the [**XMUNIBBLE4**](https://msdn.microsoft.com/library/Ee420614(v=VS.85).aspx) structure.
+Constructs instances of the [**XMUNIBBLE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmunibble4) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -109,13 +109,9 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMUNIBBLE4**](https://msdn.microsoft.com/library/Ee420614(v=VS.85).aspx)
+[**XMUNIBBLE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmunibble4)
 </dt> </dl>
 
  
 
  
-
-
-
-

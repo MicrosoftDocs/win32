@@ -33,7 +33,7 @@ This topic contains the following sections:
 
 Because of the way UI Automation uses Windows messages, conflicts can occur when a client application attempts to interact with its own UI on the UI thread. These conflicts can lead to very slow performance, or even cause the application to stop responding.
 
-If your client application is intended to interact with all elements on the desktop, including its own UI, you should make all UI Automation calls from a separate thread. This includes locating elements, for example, by using [**IUIAutomationTreeWalker**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtreewalker) or the [**IUIAutomationElement::FindAll**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-findall) method and using control patterns. This thread should not own any windows, and should be a Component Object Model (COM) Multithreaded Apartment (MTA) model thread (one that initializes COM by calling [CoInitializeEx](https://msdn.microsoft.com/library/ms695279(VS.85).aspx) with the **COINIT\_MULTITHREADED** flag.)
+If your client application is intended to interact with all elements on the desktop, including its own UI, you should make all UI Automation calls from a separate thread. This includes locating elements, for example, by using [**IUIAutomationTreeWalker**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtreewalker) or the [**IUIAutomationElement::FindAll**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-findall) method and using control patterns. This thread should not own any windows, and should be a Component Object Model (COM) Multithreaded Apartment (MTA) model thread (one that initializes COM by calling [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) with the **COINIT\_MULTITHREADED** flag.)
 
 It is safe to make UI Automation calls in a UI Automation event handler, because the event handler is always called on a non-UI thread. However, when subscribing to events that may originate from your client application UI, you must make the call to [**IUIAutomation::AddAutomationEventHandler**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomation-addautomationeventhandler), or a related method, on a non-UI thread (which should also be an MTA thread). Remove event handlers on the same thread.
 
@@ -45,7 +45,7 @@ A UI Automation client should use the COM MTA threading model for threads that i
 
 ## COM Apartment Affinity on 64-bit Windows
 
-According to the COM specification, the lifetime of a remote object is governed by the lifetime of the apartment where the [CoCreateInstance](https://msdn.microsoft.com/library/ms686615.aspx) function is called to create the object. When the original apartment shuts down, the remote object is also released.
+According to the COM specification, the lifetime of a remote object is governed by the lifetime of the apartment where the [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) function is called to create the object. When the original apartment shuts down, the remote object is also released.
 
 For UI Automation clients, this COM behavior can mean that the lifetime of the remote 32/64 helper (created by UIAutomationCore.dll) used by a 32-bit element is governed by the apartment lifetime of the thread that created the element. If the UI Automation client marshals the element to another thread, the element can become invalidated when the originating apartment shuts down. The UI Automation client should handle these issues gracefully by catching errors while using marshaled automation elements.
 
@@ -76,7 +76,3 @@ The same issue can occur with a 32-bit UI Automation client that has 64-bit elem
  
 
  
-
-
-
-

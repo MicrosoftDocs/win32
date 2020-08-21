@@ -29,7 +29,7 @@ A string that contains Open Systems Interconnection (OSI) presentation addresses
 | MAPI Type    | \-                                                                     |
 | ADS Type     | ADSTYPE\_CASE\_IGNORE\_STRING                                          |
 | Variant Type | VT\_BSTR                                                               |
-| SDS Type     | [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) |
+| SDS Type     | [System.String](/dotnet/api/system.string) |
 
 
 
@@ -37,13 +37,9 @@ A string that contains Open Systems Interconnection (OSI) presentation addresses
 
 <dl> <dt>
 
-[System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)
+[System.String](/dotnet/api/system.string)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -179,7 +179,7 @@ Tips have several usage patterns:
 
 ### Tooltips
 
--   **Use tooltips to provide labels for unlabeled controls.** Controls that commonly have tooltips are [toolbar buttons](cmd-toolbars.md), graphic buttons, and [progressive disclosure controls](ctrl-progressive-disclosure-controls.md). Controls with prompts are considered labeled, such as [text boxes](ctrl-text-boxes.md) and [combo boxes](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop). All other controls should have explicit labels.
+-   **Use tooltips to provide labels for unlabeled controls.** Controls that commonly have tooltips are [toolbar buttons](cmd-toolbars.md), graphic buttons, and [progressive disclosure controls](ctrl-progressive-disclosure-controls.md). Controls with prompts are considered labeled, such as [text boxes](ctrl-text-boxes.md) and [combo boxes](/windows/desktop/uxguide/ctrl-drop). All other controls should have explicit labels.
 -   Use sentence fragments without ending punctuation.
 -   Use sentence-style capitalization.
     -   **Exception:** This guideline is new for Windows Vista. For legacy applications, you may use title-style capitalization if necessary to avoid mixing capitalization styles.
@@ -379,10 +379,4 @@ When referring to tips:
 -   To describe user interaction, use hover.
 
  
-
- 
-
-
-
-
 

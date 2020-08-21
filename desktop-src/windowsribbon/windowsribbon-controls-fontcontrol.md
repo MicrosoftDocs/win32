@@ -72,7 +72,7 @@ This single Command handler allows the Font Control to manage the functionality 
 Other features of the Font Control include
 
 -   Automatic, DPI-aware generation of a WYSIWYG (what you see is what you get) bitmap representation for each font in the **Font family** menu.
--   [Windows Graphics Device Interface (GDI)](https://msdn.microsoft.com/library/dd145203.aspx) integration.
+-   [Windows Graphics Device Interface (GDI)](../gdi/windows-gdi.md) integration.
 -   Localized font family bitmaps and tooltips.
 -   Font enumeration, grouping, and metadata for managing and presenting fonts.
     > [!Note]  
@@ -85,9 +85,9 @@ Other features of the Font Control include
 
 ## Alignment with Common GDI Text Structures
 
-[Windows Graphics Device Interface (GDI)](https://msdn.microsoft.com/library/dd145203.aspx) text stack components are used to expose font selection and formatting functionality through the Ribbon Font Control. The various font features supported by the [LOGFONT Structure](https://msdn.microsoft.com/library/dd145037.aspx), [CHOOSEFONT Structure](https://msdn.microsoft.com/library/ms646832.aspx), and [CHARFORMAT2 Structure](https://msdn.microsoft.com/library/bb787883.aspx) are exposed through the sub-controls that are included in the Font Control.
+[Windows Graphics Device Interface (GDI)](../gdi/windows-gdi.md) text stack components are used to expose font selection and formatting functionality through the Ribbon Font Control. The various font features supported by the [LOGFONT Structure](/windows/win32/api/wingdi/ns-wingdi-logfonta), [CHOOSEFONT Structure](/windows/win32/api/commdlg/ns-commdlg-choosefonta), and [CHARFORMAT2 Structure](/windows/win32/api/richedit/ns-richedit-charformat2a) are exposed through the sub-controls that are included in the Font Control.
 
-The sub-controls that are displayed in the Font Control depend on the *FontType* template declared in the Ribbon markup. The *FontType* templates (discussed in further detail in the following section) are designed to align with the common [Windows Graphics Device Interface (GDI)](https://msdn.microsoft.com/library/dd145203.aspx) text structures.
+The sub-controls that are displayed in the Font Control depend on the *FontType* template declared in the Ribbon markup. The *FontType* templates (discussed in further detail in the following section) are designed to align with the common [Windows Graphics Device Interface (GDI)](../gdi/windows-gdi.md) text structures.
 
 ## Add a FontControl
 
@@ -117,9 +117,9 @@ The following table lists the Font Control templates and the edit control type t
 
 | Template      | Supports                                                                 |
 |---------------|--------------------------------------------------------------------------|
-| FontOnly      | [LOGFONT Structure](https://msdn.microsoft.com/library/dd145037.aspx)     |
-| FontWithColor | [CHOOSEFONT Structure](https://msdn.microsoft.com/library/ms646832.aspx)  |
-| RichFont      | [CHARFORMAT2 Structure](https://msdn.microsoft.com/library/bb787883.aspx) |
+| FontOnly      | [LOGFONT Structure](/windows/win32/api/wingdi/ns-wingdi-logfonta)     |
+| FontWithColor | [CHOOSEFONT Structure](/windows/win32/api/commdlg/ns-commdlg-choosefonta)  |
+| RichFont      | [CHARFORMAT2 Structure](/windows/win32/api/richedit/ns-richedit-charformat2a) |
 
 
 
@@ -544,12 +544,12 @@ FCSAMPLE_RIBBON    UIFILE    "Debug\\FCSample.bml"
 
 The Ribbon framework defines a collection of [property keys](windowsribbon-reference-properties.md) for the Font Control and its constituent sub-controls.
 
-Typically, a Font Control property is updated in the ribbon UI by invalidating the Command associated with the control through a call to the [**IUIFramework::InvalidateUICommand**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand) method. The invalidation event is handled, and the property updates defined, by the [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) callback method.
+Typically, a Font Control property is updated in the ribbon UI by invalidating the Command associated with the control through a call to the [**IUIFramework::InvalidateUICommand**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand) method. The invalidation event is handled, and the property updates defined, by the [**IUICommandHandler::UpdateProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) callback method.
 
-The [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) callback method is not executed, and the application queried for an updated property value, until the property is required by the framework. For example, when a tab is activated and a control revealed in the ribbon UI, or when a tooltip is displayed.
+The [**IUICommandHandler::UpdateProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) callback method is not executed, and the application queried for an updated property value, until the property is required by the framework. For example, when a tab is activated and a control revealed in the ribbon UI, or when a tooltip is displayed.
 
 > [!Note]  
-> In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) method and set with the [**IUIFramework::SetUICommandProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) method.
+> In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) method and set with the [**IUIFramework::SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) method.
 
  
 
@@ -559,18 +559,18 @@ The following table lists the property keys that are associated with the Font Co
 
 | Property Key                                                                                                                  | Notes                                                                                                                                                                                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [UI\_PKEY\_FontProperties](windowsribbon-reference-properties-uipkey-fontproperties.md)                                      | Exposes, in aggregate as an [IPropertyStore](https://msdn.microsoft.com/library/bb761474.aspx) object, all Font Control sub-control properties.<br/> The framework queries this property when `UI_INVALIDATIONS_VALUE` is passed as the value of *flags* in the call to [**IUIFramework::InvalidateUICommand**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand).<br/> |
-| [UI\_PKEY\_FontProperties\_ChangedProperties](windowsribbon-reference-properties-uipkey-fontproperties-changedproperties.md) | Exposes, in aggregate as an [**IUISimplePropertySet**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset) object, only Font Control sub-control properties that have changed.<br/>                                                                                                                                                                                                        |
+| [UI\_PKEY\_FontProperties](windowsribbon-reference-properties-uipkey-fontproperties.md)                                      | Exposes, in aggregate as an [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) object, all Font Control sub-control properties.<br/> The framework queries this property when `UI_INVALIDATIONS_VALUE` is passed as the value of *flags* in the call to [**IUIFramework::InvalidateUICommand**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand).<br/> |
+| [UI\_PKEY\_FontProperties\_ChangedProperties](windowsribbon-reference-properties-uipkey-fontproperties-changedproperties.md) | Exposes, in aggregate as an [**IUISimplePropertySet**](/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset) object, only Font Control sub-control properties that have changed.<br/>                                                                                                                                                                                                        |
 | [UI\_PKEY\_Keytip](windowsribbon-reference-properties-uipkey-keytip.md)                                                      | Can only be updated through invalidation.                                                                                                                                                                                                                                                                                                                                                      |
-| [UI\_PKEY\_Enabled](windowsribbon-reference-properties-uipkey-enabled.md)                                                    | Supports [**IUIFramework::GetUICommandProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) and [**IUIFramework::SetUICommandProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty).                                                                                                                                                                  |
+| [UI\_PKEY\_Enabled](windowsribbon-reference-properties-uipkey-enabled.md)                                                    | Supports [**IUIFramework::GetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) and [**IUIFramework::SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty).                                                                                                                                                                  |
 
 
 
  
 
-In addition to the properties supported by the Font Control itself, the Ribbon framework also defines a [property key](windowsribbon-reference-properties.md) for each Font Control sub-control. These property keys and their values are exposed by the framework through an [IPropertyStore](https://msdn.microsoft.com/library/bb761474.aspx) interface implementation that defines the methods for managing a collection, also called a property bag, of name and value pairs.
+In addition to the properties supported by the Font Control itself, the Ribbon framework also defines a [property key](windowsribbon-reference-properties.md) for each Font Control sub-control. These property keys and their values are exposed by the framework through an [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) interface implementation that defines the methods for managing a collection, also called a property bag, of name and value pairs.
 
-The application translates the font structures to properties that are accessible through the [IPropertyStore](https://msdn.microsoft.com/library/bb761474.aspx) interface methods. This model emphasizes the distinction between the Font Control and the Windows Graphics Device Interface (GDI) text stack components ([LOGFONT Structure](https://msdn.microsoft.com/library/dd145037.aspx), [CHOOSEFONT Structure](https://msdn.microsoft.com/library/ms646832.aspx), and [CHARFORMAT2 Structure](https://msdn.microsoft.com/library/bb787883.aspx)) that are supported by the framework.
+The application translates the font structures to properties that are accessible through the [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) interface methods. This model emphasizes the distinction between the Font Control and the Windows Graphics Device Interface (GDI) text stack components ([LOGFONT Structure](/windows/win32/api/wingdi/ns-wingdi-logfonta), [CHOOSEFONT Structure](/windows/win32/api/commdlg/ns-commdlg-choosefonta), and [CHARFORMAT2 Structure](/windows/win32/api/richedit/ns-richedit-charformat2a)) that are supported by the framework.
 
 The following table lists the individual controls and their associated property keys.
 
@@ -588,7 +588,7 @@ The following table lists the individual controls and their associated property 
 | **Strikethrough**        | [UI\_PKEY\_FontProperties\_Strikethrough](windowsribbon-reference-properties-uipkey-fontproperties-strikethrough.md)                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Subscript**            | [UI\_PKEY\_FontProperties\_VerticalPositioning](windowsribbon-reference-properties-uipkey-fontproperties-verticalpositioning.md)                                                                                                                                      | If the **Subscript** button is set, then the **Superscript** cannot also be set.                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Superscript**          | [UI\_PKEY\_FontProperties\_VerticalPositioning](windowsribbon-reference-properties-uipkey-fontproperties-verticalpositioning.md)                                                                                                                                      | If the **Superscript** button is set, then the **Subscript** cannot also be set.                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| **Text highlight color** | [UI\_PKEY\_FontProperties\_BackgroundColor](https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolor), [UI\_PKEY\_FontProperties\_BackgroundColorType](windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolortype.md) | Provides the same functionality as the `HighlightColors` template of the [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md) element.<br/> We highly recommend that only an initial **Text highlight color** value be set by the application. The last selected value should be preserved and not set when the cursor is repositioned within a document. This allows quick access to the user's last selection, and the color picker does not have to be reopened.<br/> Color swatches cannot be customized.<br/> |
+| **Text highlight color** | [UI\_PKEY\_FontProperties\_BackgroundColor](/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolor), [UI\_PKEY\_FontProperties\_BackgroundColorType](windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolortype.md) | Provides the same functionality as the `HighlightColors` template of the [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md) element.<br/> We highly recommend that only an initial **Text highlight color** value be set by the application. The last selected value should be preserved and not set when the cursor is repositioned within a document. This allows quick access to the user's last selection, and the color picker does not have to be reopened.<br/> Color swatches cannot be customized.<br/> |
 | **Text color**           | [UI\_PKEY\_FontProperties\_ForegroundColor](windowsribbon-reference-properties-uipkey-fontproperties-foregroundcolor.md), [UI\_PKEY\_FontProperties\_ForegroundColorType](windowsribbon-reference-properties-uipkey-fontproperties-foregroundcolortype.md)           | Provides the same functionality as the `StandardColors` template of the [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md) element.<br/> We highly recommend that only an initial **Text color** value be set by the application. The last selected value should be preserved and not set when the cursor is repositioned within a document. This allows quick access to the user's last selection, and the color picker does not have to be reopened.<br/> Color swatches cannot be customized.<br/>            |
 
 
@@ -637,7 +637,7 @@ STDMETHODIMP CApplication::OnCreateUICommand(
 
 
 
-The following code example illustrates how to implement the [**IUICommandHandler::Execute**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) method for a Font Control.
+The following code example illustrates how to implement the [**IUICommandHandler::Execute**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) method for a Font Control.
 
 
 ```C++
@@ -733,7 +733,7 @@ STDMETHODIMP CCommandHandler::Execute(
 
 
 
-The following code example illustrates how to implement the [**IUICommandHandler::UpdateProperty**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) method for a Font Control.
+The following code example illustrates how to implement the [**IUICommandHandler::UpdateProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) method for a Font Control.
 
 
 ```C++
@@ -799,10 +799,4 @@ STDMETHODIMP CCommandHandler::UpdateProperty(
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

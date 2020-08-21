@@ -106,16 +106,12 @@ The push procedure in this example uses the state variable to track the next pos
 
 <dl> <dt>
 
-[pipe](https://docs.microsoft.com/windows/desktop/Midl/pipe)
+[pipe](/windows/desktop/Midl/pipe)
 </dt> <dt>
 
-[**/Oi**](https://docs.microsoft.com/windows/desktop/Midl/-oi)
+[**/Oi**](/windows/desktop/Midl/-oi)
 </dt> </dl>
 
  
 
  
-
-
-
-

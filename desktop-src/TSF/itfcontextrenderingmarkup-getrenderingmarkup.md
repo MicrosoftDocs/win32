@@ -73,7 +73,7 @@ HRESULT GetRenderingMarkup(
 *ppEnum* \[out\]
 </dt> <dd>
 
-\[out\] A pointer to retrieve [IEnumTfRenderingMarkup](https://docs.microsoft.com/windows/desktop/TSF/ienumtfrenderingmarkup) interface pointer.
+\[out\] A pointer to retrieve [IEnumTfRenderingMarkup](/windows/desktop/TSF/ienumtfrenderingmarkup) interface pointer.
 
 </dd> </dl>
 
@@ -99,10 +99,4 @@ This method can return one of these values.
  
 
  
-
- 
-
-
-
-
 

@@ -57,7 +57,7 @@ This corresponds to a non-call-associated signaling connection from the applicat
 
 
 
-When a call is active in LINEBEARERMODE\_PASSTHROUGH, the service provider gives direct access to the attached hardware for control by the application. This mode is used primarily by applications desiring temporary direct control over asynchronous modems, accessed through the [communications functions](https://docs.microsoft.com/windows/desktop/DevIO/communications-functions), for the purpose of configuring or using special features not otherwise supported by the service provider.
+When a call is active in LINEBEARERMODE\_PASSTHROUGH, the service provider gives direct access to the attached hardware for control by the application. This mode is used primarily by applications desiring temporary direct control over asynchronous modems, accessed through the [communications functions](/windows/desktop/DevIO/communications-functions), for the purpose of configuring or using special features not otherwise supported by the service provider.
 
 
 </dt> </dl> </dd> <dt>
@@ -110,9 +110,4 @@ Note that bearer mode and media type are different notions. The bearer mode of a
 
 
  
-
- 
-
-
-
 

@@ -12,7 +12,7 @@ Enables the application to override the default settings on various properties o
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -68,7 +68,3 @@ If this property is VARIANT\_FALSE, the DSP ignores these properties and uses it
  
 
  
-
-
-
-

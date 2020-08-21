@@ -231,7 +231,7 @@ The stroke is the line that can be drawn around the perimeter of the figure. The
 **Used in This Page**
 </dt> <dt>
 
-[**IOpcPartUri**](https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi)
+[**IOpcPartUri**](/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi)
 </dt> <dt>
 
 [**IXpsOMGeometry**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry)
@@ -273,6 +273,3 @@ The stroke is the line that can be drawn around the perimeter of the figure. The
  
 
  
-
-
-

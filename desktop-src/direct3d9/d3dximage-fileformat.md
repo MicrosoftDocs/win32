@@ -124,7 +124,7 @@ The following table lists the available input and output formats.
 | File Extension | Description                                                                                                                                                                                                                                                                                                                                        |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | .bmp           | Windows bitmap format. Contains a header that describes the resolution of the device on which the rectangle of pixels was created, the dimensions of the rectangle, the size of the array of bits, a logical palette, and an array of bits that defines the relationship between pixels in the bitmapped image and entries in the logical palette. |
-| .dds           | DirectDraw Surface file format. Stores textures, volume textures, and cubic environment maps, with or without mipmap levels, and with or without pixel compression. See [DDS](https://msdn.microsoft.com/library/Bb943990(v=VS.85).aspx).                                                                                                                                       |
+| .dds           | DirectDraw Surface file format. Stores textures, volume textures, and cubic environment maps, with or without mipmap levels, and with or without pixel compression. See [DDS](../direct3ddds/dx-graphics-dds.md).                                                                                                                                       |
 | .dib           | Windows DIB. Contains an array of bits combined with structures that specify width and height of the bitmapped image, color format of the device where the image was created, and resolution of the device used to create that image.                                                                                                              |
 | .hdr           | HDR format. Encodes each pixel as an RGBE 32-bit color, with 8 bits of mantissa for red, green, and blue, and a shared 8-bit exponent. Each channel is separately compressed with run-length encoding (RLE).                                                                                                                                       |
 | .jpg           | JPEG standard. Specifies variable compression of 24-bit RGB color and 8-bit gray-scale Tagged Image File Format (TIFF) image document files.                                                                                                                                                                                                       |
@@ -137,7 +137,7 @@ The following table lists the available input and output formats.
 
  
 
-See [Types of Bitmaps](https://msdn.microsoft.com/library/ms536393(v=VS.85).aspx) for more information on some of these formats.
+See [Types of Bitmaps](../gdiplus/-gdiplus-types-of-bitmaps-about.md) for more information on some of these formats.
 
 ## Requirements
 
@@ -159,7 +159,3 @@ See [Types of Bitmaps](https://msdn.microsoft.com/library/ms536393(v=VS.85).aspx
  
 
  
-
-
-
-

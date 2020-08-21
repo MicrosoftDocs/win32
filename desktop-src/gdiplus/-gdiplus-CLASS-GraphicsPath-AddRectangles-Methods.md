@@ -8,7 +8,7 @@ ms.topic: reference
 
 # GraphicsPath.AddRectangles methods
 
-This topic lists the AddRectangles methods of the [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx).
+This topic lists the AddRectangles methods of the [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the AddRectangles methods of the [**GraphicsPath**](https://msd
 
 | Method                                                                                                 | Description                                                                                                                                                               |
 |:-------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AddRectangles(Rect\*,INT)**](https://msdn.microsoft.com/library/ms535589(v=VS.85).aspx)   | The [**GraphicsPath::AddRectangles**](https://msdn.microsoft.com/library/ms535589(v=VS.85).aspx) method adds a sequence of rectangles to this path<br/>   |
-| [**AddRectangles(RectF\*,INT)**](https://msdn.microsoft.com/library/ms535590(v=VS.85).aspx) | The [**GraphicsPath::AddRectangles**](https://msdn.microsoft.com/library/ms535590(v=VS.85).aspx) method adds a sequence of rectangles to this path.<br/> |
+| [**AddRectangles(Rect\*,INT)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addrectangles(inconstrect_int))   | The [**GraphicsPath::AddRectangles**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addrectangles(inconstrect_int)) method adds a sequence of rectangles to this path<br/>   |
+| [**AddRectangles(RectF\*,INT)**](/previous-versions//ms535590(v=vs.85)) | The [**GraphicsPath::AddRectangles**](/previous-versions//ms535590(v=vs.85)) method adds a sequence of rectangles to this path.<br/> |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the AddRectangles methods of the [**GraphicsPath**](https://msd
  
 
  
-
-
-
-

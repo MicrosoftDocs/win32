@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Retrieving Information About a Network Resource
 
-To identify the network provider that owns a resource, an application can call the [**WNetGetResourceInformation**](https://msdn.microsoft.com/library/Aa385469(v=VS.85).aspx) function, as illustrated in the following code sample.
+To identify the network provider that owns a resource, an application can call the [**WNetGetResourceInformation**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa) function, as illustrated in the following code sample.
 
-The following sample is a function (CheckServer) that takes a server name as a parameter and returns information about that server. First the function calls the [**ZeroMemory**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366920(v=vs.85)) function to initialize the contents of a block of memory to zero. Then the sample calls the [**WNetGetResourceInformation**](https://msdn.microsoft.com/library/Aa385469(v=VS.85).aspx) function, specifying a buffer large enough to hold only a [**NETRESOURCE**](/windows/desktop/api/Winnetwk/ns-winnetwk-netresourcea) structure. The routine includes error processing to handle the case when a buffer of this size is insufficient to hold the variable-length strings to which members of the **NETRESOURCE** structure point. If this error occurs, the sample allocates sufficient memory and calls **WNetGetResourceInformation** again. Finally, the sample frees the allocated memory.
+The following sample is a function (CheckServer) that takes a server name as a parameter and returns information about that server. First the function calls the [**ZeroMemory**](/previous-versions/windows/desktop/legacy/aa366920(v=vs.85)) function to initialize the contents of a block of memory to zero. Then the sample calls the [**WNetGetResourceInformation**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa) function, specifying a buffer large enough to hold only a [**NETRESOURCE**](/windows/desktop/api/Winnetwk/ns-winnetwk-netresourcea) structure. The routine includes error processing to handle the case when a buffer of this size is insufficient to hold the variable-length strings to which members of the **NETRESOURCE** structure point. If this error occurs, the sample allocates sufficient memory and calls **WNetGetResourceInformation** again. Finally, the sample frees the allocated memory.
 
 Note that the sample assumes that the *pszServer* parameter points to a server name that one of the network providers on the local computer recognizes.
 
@@ -74,7 +74,3 @@ CheckServer( LPTSTR pszServer )
  
 
  
-
-
-
-

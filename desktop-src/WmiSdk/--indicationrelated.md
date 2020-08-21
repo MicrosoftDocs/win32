@@ -55,16 +55,11 @@ The **\_\_IndicationRelated** class is derived from [**\_\_SystemClass**](--syst
 
 <dl> <dt>
 
-[**\_\_SystemClass**](https://docs.microsoft.com/windows/desktop/WmiSdk/--systemclass)
+[**\_\_SystemClass**](/windows/desktop/WmiSdk/--systemclass)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

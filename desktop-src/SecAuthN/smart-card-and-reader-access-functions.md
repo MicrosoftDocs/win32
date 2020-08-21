@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Smart Card and Reader Access Functions
 
-The following functions connect to and communicate with a specific [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx). I/O operations to the card use a buffer for sending or receiving data and a structure that contains protocol control information. The protocol control information structure always begins with an [**SCARD\_IO\_REQUEST**](scard-io-request.md) structure.
+The following functions connect to and communicate with a specific [*smart card*](../secgloss/s-gly.md). I/O operations to the card use a buffer for sending or receiving data and a structure that contains protocol control information. The protocol control information structure always begins with an [**SCARD\_IO\_REQUEST**](scard-io-request.md) structure.
 
 
 
@@ -17,10 +17,10 @@ The following functions connect to and communicate with a specific [*smart card*
 | [**SCardConnect**](/windows/desktop/api/Winscard/nf-winscard-scardconnecta)                   | Connect to a card.                                                                                                                                                                                                                         |
 | [**SCardReconnect**](/windows/desktop/api/Winscard/nf-winscard-scardreconnect)               | Reestablish a connection.                                                                                                                                                                                                                  |
 | [**SCardDisconnect**](/windows/desktop/api/Winscard/nf-winscard-scarddisconnect)             | Terminate a connection.                                                                                                                                                                                                                    |
-| [**SCardBeginTransaction**](/windows/desktop/api/Winscard/nf-winscard-scardbegintransaction) | Start a [*transaction*](https://msdn.microsoft.com/library/ms721627(v=VS.85).aspx), blocking other applications from accessing a card.                                                                                            |
+| [**SCardBeginTransaction**](/windows/desktop/api/Winscard/nf-winscard-scardbegintransaction) | Start a [*transaction*](../secgloss/t-gly.md), blocking other applications from accessing a card.                                                                                            |
 | [**SCardEndTransaction**](/windows/desktop/api/Winscard/nf-winscard-scardendtransaction)     | End a transaction, allowing other applications to access a card.                                                                                                                                                                           |
 | [**SCardStatus**](/windows/desktop/api/Winscard/nf-winscard-scardstatusa)                     | Provide the current status of the reader.                                                                                                                                                                                                  |
-| [**SCardTransmit**](/windows/desktop/api/Winscard/nf-winscard-scardtransmit)                 | Requests service and receives data back from a card using [*T=0*](https://msdn.microsoft.com/library/ms721627(v=VS.85).aspx), [*T=1*](https://msdn.microsoft.com/library/ms721627(v=VS.85).aspx), and raw protocols. |
+| [**SCardTransmit**](/windows/desktop/api/Winscard/nf-winscard-scardtransmit)                 | Requests service and receives data back from a card using [*T=0*](../secgloss/t-gly.md), [*T=1*](../secgloss/t-gly.md), and raw protocols. |
 
 
 
@@ -29,6 +29,3 @@ The following functions connect to and communicate with a specific [*smart card*
  
 
  
-
-
-

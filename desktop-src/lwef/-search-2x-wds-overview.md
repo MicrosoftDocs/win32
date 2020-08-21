@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 > [!NOTE]
 > Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
-The use of and development for the 2.x versions of Microsoft Windows Desktop Search (WDS) is strongly discouraged in favor of [Windows Search](https://msdn.microsoft.com/library/aa965362(VS.85).aspx).
+The use of and development for the 2.x versions of Microsoft Windows Desktop Search (WDS) is strongly discouraged in favor of [Windows Search](../search/-search-3x-wds-overview.md).
 
 WDS is an indexing service and platform that provides fast search of files and data across different data sources and locations. WDS helps users and other applications find almost anything on their computers, email messages, calendar appointments, photos, documents, and more. Additionally, WDS can return results from multiple data sources all in a Windows Explorer environment so your users can quickly preview, filter, and act on search results.
 
@@ -50,11 +50,11 @@ There are two primary types of integration with WDS: adding data to the index an
 
 ### Adding Data to the Index with Add-Ins
 
-There are basically two types of data sources: file system stores and non-file system stores. A group of files in My Documents is a simple file system store. WDS can search information in the files stored in such a file system if it can locate a filter for the file type. You can enable WDS to index a new proprietary file type if you provide an implementation of the [**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)interface for that file type.
+There are basically two types of data sources: file system stores and non-file system stores. A group of files in My Documents is a simple file system store. WDS can search information in the files stored in such a file system if it can locate a filter for the file type. You can enable WDS to index a new proprietary file type if you provide an implementation of the [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)interface for that file type.
 
-A non-file system store, like a database, requires a protocol handler to enable WDS to navigate through and index data within the data store. For example, if you have a mail client that stores its list of received email in its own file (such as PST files in Outlook), you can provide a protocol handler to index and search each individual email by providing a protocol handler. If the data store is hierarchical, you will also need to implement an [**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)interface to enumerate the items in the store. For a better user experience, you can implement a Shell Extension to provide context menus and icons from within the results view.
+A non-file system store, like a database, requires a protocol handler to enable WDS to navigate through and index data within the data store. For example, if you have a mail client that stores its list of received email in its own file (such as PST files in Outlook), you can provide a protocol handler to index and search each individual email by providing a protocol handler. If the data store is hierarchical, you will also need to implement an [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)interface to enumerate the items in the store. For a better user experience, you can implement a Shell Extension to provide context menus and icons from within the results view.
 
-Currently, WDS contains filters for over 200 types of items (including plaintext items such as HTML, XML, and source code files) and uses the same [**IFilter**](https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter)and protocol handler technology as SharePoint Services. If you already have filters installed for proprietary file types, WDS can use the existing filter interfaces to index this data.
+Currently, WDS contains filters for over 200 types of items (including plaintext items such as HTML, XML, and source code files) and uses the same [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)and protocol handler technology as SharePoint Services. If you already have filters installed for proprietary file types, WDS can use the existing filter interfaces to index this data.
 
 ### Querying the Index
 
@@ -106,7 +106,3 @@ The following are required to use Windows Desktop Search:
  
 
  
-
-
-
-

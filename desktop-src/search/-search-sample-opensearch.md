@@ -98,12 +98,9 @@ To build the sample using Microsoft Visual Studio (preferred):
 **Other Resources**
 </dt> <dt>
 
-[Library Description Schema](https://msdn.microsoft.com/library/Dd798389(v=VS.85).aspx)
+[Library Description Schema](../shell/library-schema-entry.md)
 </dt> </dl>
 
  
 
  
-
-
-

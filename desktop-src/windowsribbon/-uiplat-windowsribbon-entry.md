@@ -85,20 +85,14 @@ Recommended foundational knowledge:
 
 ## See Also
 
-[Component Object Model (COM)](https://msdn.microsoft.com/library/ms680573(VS.85).aspx)
+[Component Object Model (COM)](../com/component-object-model--com--portal.md)
 
 
-[Windows API](https://msdn.microsoft.com/library/cc433218(VS.85).aspx)
+[Windows API](/previous-versions//cc433218(v=vs.85))
 
 
-[XAML](https://msdn.microsoft.com/library/ms747122.aspx)
+[XAML](/dotnet/framework/wpf/advanced/xaml-in-wpf)
 
 
  
-
- 
-
-
-
-
 

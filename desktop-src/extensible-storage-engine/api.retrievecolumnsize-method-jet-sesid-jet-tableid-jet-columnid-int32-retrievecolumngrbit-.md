@@ -87,7 +87,7 @@ public static Nullable<int> RetrieveColumnSize(
 <!-- end list -->
 
   - itagSequence  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The sequence number of value in a multi-valued column. The array of values is one-based. The first value is sequence 1, not 0. If the record column has only one value then 1 should be passed as the itagSequence.
 
@@ -100,7 +100,7 @@ public static Nullable<int> RetrieveColumnSize(
 
 #### Return value
 
-Type: [System.Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)\<[Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)\>  
+Type: [System.Nullable](/dotnet/api/system.nullable-1)\<[Int32](/dotnet/api/system.int32)\>  
 The size of the column. 0 if the column is null.  
 
 ## See also
@@ -114,4 +114,3 @@ The size of the column. 0 if the column is null.
 [RetrieveColumnSize overload](dn334115\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-A [Byte](https://docs.microsoft.com/dotnet/api/system.byte?redirectedfrom=MSDN) column value.
+A [Byte](/dotnet/api/system.byte) column value.
 
 The [ByteColumnValue](dn334109\(v=exchg.10\).md) type exposes the following members.
 
@@ -165,4 +165,3 @@ Top
 [ByteColumnValue class](dn334109\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

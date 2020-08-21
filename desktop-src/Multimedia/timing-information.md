@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # Timing Information
 
-Timing information for a MIDI event is stored in the **dwDeltaTime** member of the [**MIDIEVENT**](https://msdn.microsoft.com/library/Dd798448(v=VS.85).aspx) structure. Time is given in ticks, as defined in the *Standard MIDI Files 1.0* specification. The length of a tick is defined by the time format and possibly the tempo associated with the stream. For more information about streams, see [MIDI Streams](midi-streams.md).
+Timing information for a MIDI event is stored in the **dwDeltaTime** member of the [**MIDIEVENT**](/windows/win32/api/mmeapi/ns-mmeapi-midievent) structure. Time is given in ticks, as defined in the *Standard MIDI Files 1.0* specification. The length of a tick is defined by the time format and possibly the tempo associated with the stream. For more information about streams, see [MIDI Streams](midi-streams.md).
 
 A tick is expressed either as microseconds per quarter note or as ticks of SMPTE (Society of Motion Picture and Television Engineers) time. Applications that send MIDI messages individually or use unprocessed MIDI messages use quarter note time and tempo information to determine the duration of a tick. Applications that preprocess MIDI messages can store the elapsed time as a count of the SMPTE units being used.
 
@@ -30,7 +30,3 @@ SMPTE time division formats completely specify the length of a tick without the 
  
 
  
-
-
-
-

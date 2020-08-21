@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # Retrieving the Connection Name
 
-To retrieve the name of the network resource associated with a local device, an application can call the [**WNetGetConnection**](https://msdn.microsoft.com/library/Aa385453(v=VS.85).aspx) function, as shown in the following sample.
+To retrieve the name of the network resource associated with a local device, an application can call the [**WNetGetConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetconnectiona) function, as shown in the following sample.
 
-The following sample calls an application-defined error handler to process errors, and the [**TextOut**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta) function for printing.
+The following sample calls an application-defined error handler to process errors, and the [**TextOut**](/windows/desktop/api/wingdi/nf-wingdi-textouta) function for printing.
 
 
 ```C++
@@ -58,7 +58,3 @@ For more information about using an application-defined error handler, see [Retr
  
 
  
-
-
-
-

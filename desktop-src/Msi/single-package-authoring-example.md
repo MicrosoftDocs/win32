@@ -201,7 +201,7 @@ At the target, this [Directory](directory-table.md) table resolves to the follow
 
 ## Application Registration
 
-The PUASample.msi adds a subkey to the App Paths registry key for the application and performs registrations that enable application information to be saved in the registry under this key. For more information about App Paths and application registration, see the [PerceivedTypes, SystemFileAssociations, and Application Registration](https://msdn.microsoft.com/library/Cc144150(v=VS.85).aspx) in the [shell extensibility](https://msdn.microsoft.com/library/bb762762.aspx) section of the [Shell Developer's Guide](https://msdn.microsoft.com/library/Bb776778(v=VS.85).aspx). At installation time, the user makes the decision to install the application in either the per-user or per-machine installation context. At the time the dual-purpose package is authored, the package developer cannot know if the registrations should be performed under the HKEY\_LOCAL\_MACHINE or HKEY\_CURRENT\_USER keys.
+The PUASample.msi adds a subkey to the App Paths registry key for the application and performs registrations that enable application information to be saved in the registry under this key. For more information about App Paths and application registration, see the [PerceivedTypes, SystemFileAssociations, and Application Registration](/previous-versions/windows/desktop/legacy/cc144150(v=vs.85)) in the [shell extensibility](https://msdn.microsoft.com/library/bb762762.aspx) section of the [Shell Developer's Guide](/previous-versions/windows/desktop/legacy/bb776778(v=vs.85)). At installation time, the user makes the decision to install the application in either the per-user or per-machine installation context. At the time the dual-purpose package is authored, the package developer cannot know if the registrations should be performed under the HKEY\_LOCAL\_MACHINE or HKEY\_CURRENT\_USER keys.
 
 The package developer defines the file identifier for the application's executable file in the File field of the [File](file-table.md) Table.
 
@@ -269,7 +269,7 @@ The following records in the [Registry](registry-table.md) table perform the reg
 
 ## AutoPlay Cancel Registration
 
-The PUASample.msi performs registrations that enable the application user to prevent [Hardware Autoplay](https://msdn.microsoft.com/library/Cc144210(v=VS.85).aspx) from launching for selected devices. For information about registering a handler to cancel Autoplay in response to an event, see the [Preparing Hardware and Software for Use with AutoPlay](https://msdn.microsoft.com/library/Cc144208(v=VS.85).aspx) topic in the [shell extensibility](https://msdn.microsoft.com/library/bb762762.aspx) section of the [Shell Developer's Guide](https://msdn.microsoft.com/library/Bb776778(v=VS.85).aspx). The following record registers the handler specified in the Name field when the ProductComponent component is installed. The value -1 in the Root field is required to specify to the Windows Installer that the registration should be redirected to a location that depends upon the installation context.
+The PUASample.msi performs registrations that enable the application user to prevent [Hardware Autoplay](/previous-versions/windows/desktop/legacy/cc144210(v=vs.85)) from launching for selected devices. For information about registering a handler to cancel Autoplay in response to an event, see the [Preparing Hardware and Software for Use with AutoPlay](/previous-versions//cc144208(v=vs.85)) topic in the [shell extensibility](https://msdn.microsoft.com/library/bb762762.aspx) section of the [Shell Developer's Guide](/previous-versions/windows/desktop/legacy/bb776778(v=vs.85)). The following record registers the handler specified in the Name field when the ProductComponent component is installed. The value -1 in the Root field is required to specify to the Windows Installer that the registration should be redirected to a location that depends upon the installation context.
 
 [Registry](registry-table.md) Table 
 
@@ -283,7 +283,7 @@ The PUASample.msi performs registrations that enable the application user to pre
 
 ## Preview Handler Registration
 
-The PUASample.msi performs registrations that are required to install a [preview handler](https://msdn.microsoft.com/library/Cc144143(v=VS.85).aspx) that enables a read-only preview of .pua files without launching the application. For information about registering preview handlers, see the [Registering Preview Handlers](https://msdn.microsoft.com/library/Cc144144(v=VS.85).aspx) topic in the [shell extensibility](https://msdn.microsoft.com/library/bb762762.aspx) section of the [Shell Developer's Guide](https://msdn.microsoft.com/library/Bb776778(v=VS.85).aspx). The following records in the [Registry](registry-table.md) table register the handler when the ProductComponent component is installed. The value -1 in the Root field is required to specify to the Windows Installer that the registration should be redirected to a location that depends upon the installation context.
+The PUASample.msi performs registrations that are required to install a [preview handler](../shell/preview-handlers.md) that enables a read-only preview of .pua files without launching the application. For information about registering preview handlers, see the [Registering Preview Handlers](../shell/how-to-register-a-preview-handler.md) topic in the [shell extensibility](https://msdn.microsoft.com/library/bb762762.aspx) section of the [Shell Developer's Guide](/previous-versions/windows/desktop/legacy/bb776778(v=vs.85)). The following records in the [Registry](registry-table.md) table register the handler when the ProductComponent component is installed. The value -1 in the Root field is required to specify to the Windows Installer that the registration should be redirected to a location that depends upon the installation context.
 
 [Registry](registry-table.md) Table
 
@@ -307,7 +307,3 @@ The PUASample.msi performs registrations that are required to install a [preview
  
 
  
-
-
-
-

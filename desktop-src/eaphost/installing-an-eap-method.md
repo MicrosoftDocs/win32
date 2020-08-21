@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Follow the instructions below to install a user-implemented EAP method on a client computer running EAPHost.
 
--   Implement [**DllRegisterServer**](https://msdn.microsoft.com/windows/desktop/4442206b-b2ad-47d7-8add-18002c44c5a2) and [**DllUnregisterServer**](https://msdn.microsoft.com/windows/desktop/b71137a7-284e-4521-a3b2-9dad9c9d3c54) for your EAP Method DLL. These functions add and remove the appropriate registry keys for your EAP method during the installation and (uninstallation) process.
+-   Implement [**DllRegisterServer**](/windows/win32/api/olectl/nf-olectl-dllregisterserver) and [**DllUnregisterServer**](/windows/win32/api/olectl/nf-olectl-dllunregisterserver) for your EAP Method DLL. These functions add and remove the appropriate registry keys for your EAP method during the installation and (uninstallation) process.
 
     For information on the specific registry keys associated with the installation of an EAP method, see the [Registry Configuration for EAP Methods](registry-keys-for-eap-methods.md) topic.
 
@@ -34,7 +34,3 @@ Follow the instructions below to install a user-implemented EAP method on a clie
  
 
  
-
-
-
-

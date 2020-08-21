@@ -11,20 +11,17 @@ ms.date: 05/31/2018
 ## In this section
 
 -   [Virtual DOS Machine Debug](virtual-dos-machine-debug.md)
--   [**SymbolServer**](https://msdn.microsoft.com/library/Ff797950(v=VS.85).aspx)
+-   [**SymbolServer**](/previous-versions//ff797950(v=vs.85))
 -   [*SymbolServerCallback*](/windows/desktop/api/DbgHelp/nc-dbghelp-psymbolservercallbackproc)
--   [**SymbolServerClose**](https://msdn.microsoft.com/library/Ff797952(v=VS.85).aspx)
--   [**SymbolServerGetOptionData**](https://msdn.microsoft.com/library/Mt732697(v=VS.85).aspx)
--   [**SymbolServerGetOptions**](https://msdn.microsoft.com/library/Ff797953(v=VS.85).aspx)
--   [**SymbolServerIsStore**](https://msdn.microsoft.com/library/Mt732698(v=VS.85).aspx)
--   [**SymbolServerPingWEx**](https://msdn.microsoft.com/library/Mt732699(v=VS.85).aspx)
--   [**SymbolServerSetHttpAuthHeader**](https://msdn.microsoft.com/library/Mt493460(v=VS.85).aspx)
--   [**SymbolServerSetOptions**](https://msdn.microsoft.com/library/Ff797954(v=VS.85).aspx)
--   [**SymbolServerStoreFile**](https://msdn.microsoft.com/library/Ee942775(v=VS.85).aspx)
+-   [**SymbolServerClose**](/previous-versions//ff797952(v=vs.85))
+-   [**SymbolServerGetOptionData**](/previous-versions//mt732697(v=vs.85))
+-   [**SymbolServerGetOptions**](/previous-versions//ff797953(v=vs.85))
+-   [**SymbolServerIsStore**](/previous-versions//mt732698(v=vs.85))
+-   [**SymbolServerPingWEx**](/previous-versions//mt732699(v=vs.85))
+-   [**SymbolServerSetHttpAuthHeader**](/previous-versions//mt493460(v=vs.85))
+-   [**SymbolServerSetOptions**](/previous-versions//ff797954(v=vs.85))
+-   [**SymbolServerStoreFile**](/previous-versions//ee942775(v=vs.85))
 
  
 
  
-
-
-

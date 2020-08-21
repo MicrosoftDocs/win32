@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The release of Microsoft Internet Access Server included Winsock Proxy, an enhanced version of Windows Sockets API version 1.1. Winsock Proxy lets a Windows Sockets application, running on a private network client, behave as if it were directly connected to a remote Internet server application. The Microsoft Proxy Server acts as the host for this connection. This means that all application-level communications are channeled through a single secured computer—the gateway computer running Microsoft Proxy Server.
 
-Ordinarily, for datagram-packet transfers, the RPC transport DLL bypasses the [**sendto**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto) and [**recvfrom**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recvfrom) functions provided in Wsock32.dll, and communicates directly with the underlying device driver. This improves the speed of packet transfers but makes Winsock Proxy features unavailable to the application.
+Ordinarily, for datagram-packet transfers, the RPC transport DLL bypasses the [**sendto**](/windows/desktop/api/winsock/nf-winsock-sendto) and [**recvfrom**](/windows/desktop/api/winsock/nf-winsock-recvfrom) functions provided in Wsock32.dll, and communicates directly with the underlying device driver. This improves the speed of packet transfers but makes Winsock Proxy features unavailable to the application.
 
 Each network protocol provider to have an associated GUID. The RPC run-time library compares the UDP and IPX GUIDs to the well known Microsoft identifiers. If they don't match, RPC automatically uses Winsock.
 
@@ -61,7 +61,3 @@ Windows 2000 does not implement the **ClientProtocols** and **ServerProtocols**
  
 
  
-
-
-
-

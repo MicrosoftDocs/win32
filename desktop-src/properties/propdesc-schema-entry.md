@@ -15,7 +15,7 @@ The introduction of new features for Windows Vista and later required that the 
 -   Support a rich and extensible property description system that provides information about properties including display names, type, display type, sort and group behavior, and other attributes needed to present and operate over the properties.
 -   Support a stock list of property types (combined with UI that can edit those types in different views like the listview, preview pane, property dialogs, and so on) that can be associated with various properties.
 -   Supply property description lists, which define the set of properties displayed in various views.
--   Provide a simplified interface, [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx), so property handlers can be written more easily and so properties can be persisted to files.
+-   Provide a simplified interface, [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore), so property handlers can be written more easily and so properties can be persisted to files.
 -   Support for non-file property handlers to expose properties in the view.
 
 These features are achieved on an architecture that provides abstract access to the properties of a Shell item. This abstraction is called the Shell property system.
@@ -31,10 +31,10 @@ These features are achieved on an architecture that provides abstract access to 
 The schema subsystem consists of the following:
 
 -   One or more .propdesc schema files that define property descriptions. The property description schema is defined in a collection of XML schema files (using the .propdesc file extension) at runtime on the system. These files are lazy-loaded when a part of the property system requires them.
--   An in-memory schema cache used to store the parsed schema files, which include all property descriptions introduced to the subsystem. There is no need to reparse the .propdesc config files that describe the schema. For more information, see [**PSRegisterPropertySchema**](https://msdn.microsoft.com/library/Bb762087(v=VS.85).aspx), [**PSUnregisterPropertySchema**](https://msdn.microsoft.com/library/Bb762090(v=VS.85).aspx), and [**PSRefreshPropertySchema**](https://msdn.microsoft.com/library/Bb762086(v=VS.85).aspx).
--   A subsystem object that implements [**IPropertySystem**](https://msdn.microsoft.com/library/Bb761437(v=VS.85).aspx), which is used to obtain or work with property descriptions.
--   A subsystem object that implements [**IPropertyDescription**](https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx), which is used to inform and operate based on a property description.
--   A subsystem object that implements [**IPropertyDescriptionList**](https://msdn.microsoft.com/library/Bb761511(v=VS.85).aspx), which is used as a collection of property descriptions.
+-   An in-memory schema cache used to store the parsed schema files, which include all property descriptions introduced to the subsystem. There is no need to reparse the .propdesc config files that describe the schema. For more information, see [**PSRegisterPropertySchema**](/windows/win32/api/propsys/nf-propsys-psregisterpropertyschema), [**PSUnregisterPropertySchema**](/windows/win32/api/propsys/nf-propsys-psunregisterpropertyschema), and [**PSRefreshPropertySchema**](/windows/win32/api/propsys/nf-propsys-psrefreshpropertyschema).
+-   A subsystem object that implements [**IPropertySystem**](/windows/win32/api/propsys/nn-propsys-ipropertysystem), which is used to obtain or work with property descriptions.
+-   A subsystem object that implements [**IPropertyDescription**](/windows/win32/api/propsys/nn-propsys-ipropertydescription), which is used to inform and operate based on a property description.
+-   A subsystem object that implements [**IPropertyDescriptionList**](/windows/win32/api/propsys/nn-propsys-ipropertydescriptionlist), which is used as a collection of property descriptions.
 
 > [!Note]  
 > You must add `xmlns=http://schemas.microsoft.com/windows/2006/propertydescriptio`n to the root schema element of your .propdesc files.
@@ -43,11 +43,11 @@ The schema subsystem consists of the following:
 
 ## Why Use a Schema?
 
-Properties, by themselves, are not type-safe. A component can assign a numerical value to the System.Author property, or a [**FILETIME**](https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx) date-stamp to the System.Music.AlbumTitle property, and, without any further enforcement or guidance, the property stores will allow it. So, we needed a notion to "schematize" the properties, which brings us to the schema subsystem.
+Properties, by themselves, are not type-safe. A component can assign a numerical value to the System.Author property, or a [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) date-stamp to the System.Music.AlbumTitle property, and, without any further enforcement or guidance, the property stores will allow it. So, we needed a notion to "schematize" the properties, which brings us to the schema subsystem.
 
 ## What Are the Major Schema Parts?
 
-The property description schema used by the Shell property system is composed of a single [propertyDescriptionList](https://msdn.microsoft.com/library/Bb773882(v=VS.85).aspx) element, as well as a *schemaVersion* attribute, which indicates the version of this schema definition format. Note: value must be "1.0".
+The property description schema used by the Shell property system is composed of a single [propertyDescriptionList](./propdesc-schema-propertydescriptionlist.md) element, as well as a *schemaVersion* attribute, which indicates the version of this schema definition format. Note: value must be "1.0".
 
 
 ```
@@ -64,7 +64,7 @@ The property description schema used by the Shell property system is composed of
 
 
 
-The [propertyDescriptionList](https://msdn.microsoft.com/library/Bb773882(v=VS.85).aspx) is composed of one or more [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) elements, as well as *publisher* and *product* attributes.
+The [propertyDescriptionList](./propdesc-schema-propertydescriptionlist.md) is composed of one or more [propertyDescription](./propdesc-schema-propertydescription.md) elements, as well as *publisher* and *product* attributes.
 
 
 ```
@@ -82,9 +82,9 @@ The [propertyDescriptionList](https://msdn.microsoft.com/library/Bb773882(v=VS.8
 
 
 
-A [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) is composed of one [searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx) and zero or one [labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx), [typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx), and [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) elements, as well as *formatID*, *propID*, *propstr*, and *name* attributes.
+A [propertyDescription](./propdesc-schema-propertydescription.md) is composed of one [searchInfo](./propdesc-schema-searchinfo.md) and zero or one [labelInfo](./propdesc-schema-labelinfo.md), [typeInfo](./propdesc-schema-typeinfo.md), and [displayInfo](./propdesc-schema-displayinfo.md) elements, as well as *formatID*, *propID*, *propstr*, and *name* attributes.
 
-There should be one [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) element for every unique canonical property name that is intended to be available in the system. The string attributes have a limit of 512 characters. Values longer than 512 characters are truncated.
+There should be one [propertyDescription](./propdesc-schema-propertydescription.md) element for every unique canonical property name that is intended to be available in the system. The string attributes have a limit of 512 characters. Values longer than 512 characters are truncated.
 
 
 ```
@@ -115,78 +115,75 @@ However, updating custom properties for Windows 7 is recommended for a better a
 
 The following are new elements and attributes:
 
--   [relatedPropertyInfo](https://msdn.microsoft.com/library/Dd798385(v=VS.85).aspx) and [relatedProperty](https://msdn.microsoft.com/library/Dd798384(v=VS.85).aspx) elements
--   [image](https://msdn.microsoft.com/library/Dd798383(v=VS.85).aspx) element
--   mnemonics attribute of the [searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx) element
--   mnemonics attribute of the [enum](https://msdn.microsoft.com/library/Bb773869(v=VS.85).aspx) element
--   searchRawValue attribute of the [typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx) element
+-   [relatedPropertyInfo](./propdesc-schema-relatedpropertyinfo.md) and [relatedProperty](./propdesc-schema-relatedproperty.md) elements
+-   [image](./propdesc-schema-image.md) element
+-   mnemonics attribute of the [searchInfo](./propdesc-schema-searchinfo.md) element
+-   mnemonics attribute of the [enum](./propdesc-schema-enum.md) element
+-   searchRawValue attribute of the [typeInfo](./propdesc-schema-typeinfo.md) element
 
 The following elements and attributes have changed:
 
--   [enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx), [enum](https://msdn.microsoft.com/library/Bb773869(v=VS.85).aspx), and [enumRange](https://msdn.microsoft.com/library/Bb773873(v=VS.85).aspx) elements
--   [drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx) element
--   [editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx) element
--   propID attribute of the [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) element
--   columnIndexType attribute of the [searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx) element
+-   [enumeratedList](./propdesc-schema-enumeratedlist.md), [enum](./propdesc-schema-enum.md), and [enumRange](./propdesc-schema-enumrange.md) elements
+-   [drawControl](./propdesc-schema-drawcontrol.md) element
+-   [editControl](./propdesc-schema-editcontrol.md) element
+-   propID attribute of the [propertyDescription](./propdesc-schema-propertydescription.md) element
+-   columnIndexType attribute of the [searchInfo](./propdesc-schema-searchinfo.md) element
 
 The following elements and attributes have been removed:
 
--   [queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx) element
--   isQueryable attribute of the [typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx) element
--   includeInFullTextQuery attribute of the [typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx) element
+-   [queryControl](./propdesc-schema-querycontrol.md) element
+-   isQueryable attribute of the [typeInfo](./propdesc-schema-typeinfo.md) element
+-   includeInFullTextQuery attribute of the [typeInfo](./propdesc-schema-typeinfo.md) element
 
 ## Related topics
 
 <dl> <dt>
 
-[propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx)
+[propertyDescription](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx)
+[searchInfo](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx)
+[labelInfo](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx)
+[typeInfo](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx)
+[displayInfo](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx)
+[stringFormat](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[booleanFormat](https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx)
+[booleanFormat](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx)
+[numberFormat](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[dateTimeFormat](https://msdn.microsoft.com/library/Bb773863(v=VS.85).aspx)
+[dateTimeFormat](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx)
+[enumeratedList](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx)
+[drawControl](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx)
+[editControl](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx)
+[filterControl](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx)
+[queryControl](./propdesc-schema-querycontrol.md)
 </dt> <dt>
 
-[image](https://msdn.microsoft.com/library/Dd798383(v=VS.85).aspx)
+[image](./propdesc-schema-image.md)
 </dt> </dl>
 
  
 
  
-
-
-

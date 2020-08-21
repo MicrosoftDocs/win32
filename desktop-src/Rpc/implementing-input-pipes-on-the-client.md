@@ -115,16 +115,12 @@ The client stub calls the pull procedure. The pull procedure in this example use
 
 <dl> <dt>
 
-[pipe](https://docs.microsoft.com/windows/desktop/Midl/pipe)
+[pipe](/windows/desktop/Midl/pipe)
 </dt> <dt>
 
-[**/Oi**](https://docs.microsoft.com/windows/desktop/Midl/-oi)
+[**/Oi**](/windows/desktop/Midl/-oi)
 </dt> </dl>
 
  
 
  
-
-
-
-

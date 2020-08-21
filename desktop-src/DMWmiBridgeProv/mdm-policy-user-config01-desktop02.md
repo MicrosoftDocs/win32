@@ -60,7 +60,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -74,12 +74,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[PreventUserRedirectionOfProfileFolders](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-desktop#desktop-preventuserredirectionofprofilefolders)
+[PreventUserRedirectionOfProfileFolders](/windows/client-management/mdm/policy-csp-desktop#desktop-preventuserredirectionofprofilefolders)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -105,10 +105,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

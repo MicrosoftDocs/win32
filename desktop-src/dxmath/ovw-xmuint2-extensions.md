@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMUINT2 Extensions
 
-[**XMUINT2**](https://msdn.microsoft.com/library/Hh404745(v=VS.85).aspx) describes a 2D vector consisting of two unsigned integer values.
+[**XMUINT2**](/windows/win32/api/directxmath/ns-directxmath-xmuint2) describes a 2D vector consisting of two unsigned integer values.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 | Topic                                                     | Description                                   |
 |-----------------------------------------------------------|-----------------------------------------------|
-| [**XMUINT2 Constructors**](https://msdn.microsoft.com/library/Hh449553(v=VS.85).aspx)<br/>   | Constructors exposed by `XMUINT2`.<br/> |
+| [**XMUINT2 Constructors**](/windows/win32/api/directxmath/nf-directxmath-xmuint2-xmuint2(constuint32_t))<br/>   | Constructors exposed by `XMUINT2`.<br/> |
 | [XMUINT2 Operators](ovw-xmuint2-operators.md)<br/> | Operators exposed by `XMUINT2`.<br/>    |
 
 
@@ -35,13 +35,9 @@ ms.date: 05/31/2018
 **Reference**
 </dt> <dt>
 
-[**XMUINT2**](https://msdn.microsoft.com/library/Hh404745(v=VS.85).aspx)
+[**XMUINT2**](/windows/win32/api/directxmath/ns-directxmath-xmuint2)
 </dt> </dl>
 
  
 
  
-
-
-
-

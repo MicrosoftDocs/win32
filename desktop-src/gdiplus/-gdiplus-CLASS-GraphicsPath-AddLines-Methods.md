@@ -8,7 +8,7 @@ ms.topic: reference
 
 # GraphicsPath.AddLines methods
 
-This topic lists the AddLines methods of the [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx).
+This topic lists the AddLines methods of the [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath).
 
 ### Overload list
 
@@ -16,15 +16,11 @@ This topic lists the AddLines methods of the [**GraphicsPath**](https://msdn.mic
 
 | Method                                                                                          | Description                                                                                                                                                                                  |
 |:------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AddLines(Point\*,INT)**](https://msdn.microsoft.com/library/ms535599(v=VS.85).aspx)   | The [**GraphicsPath::AddLines**](https://msdn.microsoft.com/library/ms535599(v=VS.85).aspx) method adds a sequence of connected lines to the current figure of this path.<br/>  |
-| [**AddLines(PointF\*,INT)**](https://msdn.microsoft.com/library/ms535600(v=VS.85).aspx) | The [**GraphicsPath::AddLines**](https://msdn.microsoft.com/library/ms535600(v=VS.85).aspx) method adds a sequence of connected lines to the current figure of this path.<br/> |
+| [**AddLines(Point\*,INT)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addlines(inconstpoint_inint))   | The [**GraphicsPath::AddLines**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addlines(inconstpoint_inint)) method adds a sequence of connected lines to the current figure of this path.<br/>  |
+| [**AddLines(PointF\*,INT)**](/previous-versions//ms535600(v=vs.85)) | The [**GraphicsPath::AddLines**](/previous-versions//ms535600(v=vs.85)) method adds a sequence of connected lines to the current figure of this path.<br/> |
 
 
 
  
 
  
-
-
-
-

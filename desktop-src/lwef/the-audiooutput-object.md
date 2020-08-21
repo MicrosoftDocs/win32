@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 This object provides access to audio output properties maintained by the server. The properties are read-only, but the user can change them in the Microsoft Agent property sheet.
 
-If you declare an object variable of type [**IAgentCtlAudioObjectEx**](https://www.bing.com/search?q=**IAgentCtlAudioObjectEx**), you will not be able to access all properties for the [**AudioOutput**](https://docs.microsoft.com/windows/desktop/lwef/the-audiooutput-object) object. While Agent also supports [**IAgentCtlAudioObject**](https://www.bing.com/search?q=**IAgentCtlAudioObject**), this latter interface is provided only for backward compatibility and supports only those properties in previous releases.
+If you declare an object variable of type [**IAgentCtlAudioObjectEx**](https://www.bing.com/search?q=**IAgentCtlAudioObjectEx**), you will not be able to access all properties for the [**AudioOutput**](/windows/desktop/lwef/the-audiooutput-object) object. While Agent also supports [**IAgentCtlAudioObject**](https://www.bing.com/search?q=**IAgentCtlAudioObject**), this latter interface is provided only for backward compatibility and supports only those properties in previous releases.
 
 -   [**Enabled**](enabled-property-ao.md)
 -   [**SoundEffects**](soundeffects-property.md)
@@ -21,7 +21,3 @@ If you declare an object variable of type [**IAgentCtlAudioObjectEx**](https://w
  
 
  
-
-
-
-

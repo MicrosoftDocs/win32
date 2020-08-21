@@ -23,7 +23,7 @@ Some apps perform a version check and simply pass a warning to users. However, t
 -   If the app is dependent on specific API functionality, ensure you target the correct API version.
 -   NTDDI (NT device driver interface) version number will increment only if target functionality in the API changes. Ensure you detect the change via APISet or other exposed API as created by the feature team, and do not use the version as a proxy for some feature or fix. If there are breaking changes and a proper check is not exposed, then that is a bug.
 -   Ensure the app does NOT check for version in odd ways, such as via the registry, file versions, offsets, kernel mode, drivers or other means. If the app absolutely needs to check the version, use the GetVersion APIs, which should return the major, minor and build number.
--   If you are using the GetVersion API or other Version Helper functions such as [VerifyVersionInfo](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa), remember that the behavior of this API has changed starting with Windows 8.1. Please refer to [the API documentation](../SysInfo/version-helper-apis.md) for more details.
+-   If you are using the GetVersion API or other Version Helper functions such as [VerifyVersionInfo](/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa), remember that the behavior of this API has changed starting with Windows 8.1. Please refer to [the API documentation](../SysInfo/version-helper-apis.md) for more details.
 -   If you own apps such as antimalware or firewall, you should work through your usual feedback channels and via the Windows Insider program.
 
 ## Declaring Windows 10 Compatibility With An App Manifest
@@ -69,5 +69,5 @@ Declaring support for Windows 10 in your app manifest will not have any effect 
 ## Resources
 
 -   [Application Compatibility Toolkit Download: Download the Windows ADK for Windows 10](http://download.microsoft.com/download/9/A/E/9AE69DD5-BA93-44E0-864E-180F5E700AB4/adk/adksetup.exe)
--   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](https://technet.microsoft.com/library/cc765984.aspx)
--   [Version Helpers API](https://msdn.microsoft.com/library/windows/desktop/dn424972(v=vs.85).aspx)
+-   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](/previous-versions/windows/it-pro/windows-7/cc765984(v=ws.10))
+-   [Version Helpers API](../sysinfo/version-helper-apis.md)

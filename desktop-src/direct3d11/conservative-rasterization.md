@@ -28,7 +28,7 @@ For example, the following figure shows a green triangle rendered using conserva
 
 ## Interactions with the pipeline
 
-For many details on how conservative rasterization interacts with the graphics pipeline, refer to [D3D12 Conservative rasterization](https://docs.microsoft.com/windows/desktop/direct3d12/conservative-rasterization).
+For many details on how conservative rasterization interacts with the graphics pipeline, refer to [D3D12 Conservative rasterization](/windows/desktop/direct3d12/conservative-rasterization).
 
 ## Implementation details
 

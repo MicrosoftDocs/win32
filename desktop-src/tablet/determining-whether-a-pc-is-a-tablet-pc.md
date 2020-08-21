@@ -14,7 +14,7 @@ You may occasionally need to determine whether your application is running on a 
 
 You can use the following techniques to determine whether your code is running on a Tablet PC.
 
--   [Using GetSystemMetrics (SM\_TABLETPC)](https://docs.microsoft.com/windows)
+-   [Using GetSystemMetrics (SM\_TABLETPC)](/windows)
 -   [Using the Presence of Tablet Platform Binaries](#using-the-presence-of-tablet-platform-binaries)
 -   [Web-Based Applications](#web-based-applications)
 
@@ -55,12 +55,9 @@ Use this value to determine whether the client computer is a Tablet PC and suppo
 
 <dl> <dt>
 
-[**GetSystemMetrics**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics)
+[**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics)
 </dt> </dl>
 
  
 
  
-
-
-

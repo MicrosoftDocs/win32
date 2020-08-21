@@ -17,12 +17,8 @@ The automated setup procedure for many existing applications assumes that the ap
 To avoid these problems, setup procedures should use the following guidelines when installing an application on a Remote Desktop Session Host (RD Session Host) server:
 
 -   Install applications into the default user environment common to all users. Before installing the application, execute the **change user /install** console command, and after installation is complete, execute the **change user /execute** console command. Use a Remote Desktop Services compatibility script for the installation.
--   Support user-specific customization through the use of user profiles. To do this, create an [Administrative Template File Format](https://docs.microsoft.com/previous-versions/windows/desktop/Policy/administrative-template-file-format) so an administrator can configure the registry to indicate the features available to each user. Then, at run time, the application can enable or disable features depending on the settings in the current user's registry settings. The application can store the per user configuration in the **HKEY CURRENT USER** registry hive and let every user configure the application according to their preferences.
+-   Support user-specific customization through the use of user profiles. To do this, create an [Administrative Template File Format](/previous-versions/windows/desktop/Policy/administrative-template-file-format) so an administrator can configure the registry to indicate the features available to each user. Then, at run time, the application can enable or disable features depending on the settings in the current user's registry settings. The application can store the per user configuration in the **HKEY CURRENT USER** registry hive and let every user configure the application according to their preferences.
 
  
 
  
-
-
-
-

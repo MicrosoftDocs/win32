@@ -49,7 +49,7 @@ IShellDispatch2.ServiceStart( _
 *sServiceName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that contains the name of the service.
 
@@ -80,9 +80,9 @@ Returns **true** if successful; otherwise, **false**.
 
 ## Remarks
 
-This method is implemented and accessed through the [**Shell.ServiceStart**](https://msdn.microsoft.com/library/Gg537743(v=VS.85).aspx) method.
+This method is implemented and accessed through the [**Shell.ServiceStart**](./shell-servicestart.md) method.
 
-The method returns **false** if the service has already been started. Before calling this method, you can call [**Shell.IsServiceRunning**](https://msdn.microsoft.com/library/Gg537742(v=VS.85).aspx) to ascertain the status of the service.
+The method returns **false** if the service has already been started. Before calling this method, you can call [**Shell.IsServiceRunning**](./shell-isservicerunning.md) to ascertain the status of the service.
 
 This method is not currently available in Microsoft Visual Basic.
 
@@ -144,7 +144,3 @@ VBScript:
  
 
  
-
-
-
-

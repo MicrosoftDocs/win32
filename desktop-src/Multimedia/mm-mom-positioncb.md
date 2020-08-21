@@ -36,7 +36,7 @@ lParam = reserved
 <span id="lpMidiHdr"></span><span id="lpmidihdr"></span><span id="LPMIDIHDR"></span>*lpMidiHdr*
 </dt> <dd>
 
-Pointer to a [**MIDIHDR**](https://msdn.microsoft.com/library/Dd798449(v=VS.85).aspx) structure that identifies the event that caused the callback. The **dwOffset** member gives the offset of the event.
+Pointer to a [**MIDIHDR**](/windows/win32/api/mmeapi/ns-mmeapi-midihdr) structure that identifies the event that caused the callback. The **dwOffset** member gives the offset of the event.
 
 </dd> <dt>
 
@@ -55,7 +55,7 @@ This message does not return a value.
 
 Playback of the stream buffer continues even while the callback function is executing. Any events after the MEVT\_F\_CALLBACK event in the buffer will be scheduled and sent on time regardless of how much time is spent in the callback function.
 
-If position callbacks are being generated more quickly than your application can process them, the **dwOffset** member of the [**MIDIHDR**](https://msdn.microsoft.com/library/Dd798449(v=VS.85).aspx) structure might refer to an event your application has not yet processed.
+If position callbacks are being generated more quickly than your application can process them, the **dwOffset** member of the [**MIDIHDR**](/windows/win32/api/mmeapi/ns-mmeapi-midihdr) structure might refer to an event your application has not yet processed.
 
 ## Requirements
 
@@ -77,10 +77,4 @@ If position callbacks are being generated more quickly than your application can
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

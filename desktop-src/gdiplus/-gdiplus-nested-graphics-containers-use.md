@@ -21,7 +21,7 @@ DrawRectangle(&pen, -60, -30, 120, 60)
 
 
 
-twice. The first call to [**Graphics::DrawRectangle**](https://msdn.microsoft.com/library/ms536003(v=VS.85).aspx) is *inside the container*; that is, the call is in between the calls to [**Graphics::BeginContainer**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrectf__inconstrectf__inunit)) and [**Graphics::EndContainer**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer). The second call to **Graphics::DrawRectangle** is after the call to **Graphics::EndContainer**.
+twice. The first call to [**Graphics::DrawRectangle**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inint_inint_inint_inint)) is *inside the container*; that is, the call is in between the calls to [**Graphics::BeginContainer**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrectf__inconstrectf__inunit)) and [**Graphics::EndContainer**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer). The second call to **Graphics::DrawRectangle** is after the call to **Graphics::EndContainer**.
 
 
 ```
@@ -49,7 +49,7 @@ In the preceding code, the rectangle drawn from inside the container is transfor
 
 ## Clipping in Nested Containers
 
-The following example illustrates how nested containers handle clipping regions. The code creates a [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and a container within that **Graphics** object. The clipping region of the **Graphics** object is a rectangle, and the clipping region of the container is an ellipse. The code makes two calls to the [**Graphics::DrawLine**](https://msdn.microsoft.com/library/ms536026(v=VS.85).aspx) method. The first call to **Graphics::DrawLine** is inside the container, and the second call to **Graphics::DrawLine** is outside the container (after the call to [**Graphics::EndContainer**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer)). The first line is clipped by the intersection of the two clipping regions. The second line is clipped only by the rectangular clipping region of the **Graphics** object.
+The following example illustrates how nested containers handle clipping regions. The code creates a [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object and a container within that **Graphics** object. The clipping region of the **Graphics** object is a rectangle, and the clipping region of the container is an ellipse. The code makes two calls to the [**Graphics::DrawLine**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)) method. The first call to **Graphics::DrawLine** is inside the container, and the second call to **Graphics::DrawLine** is outside the container (after the call to [**Graphics::EndContainer**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer)). The first line is clipped by the intersection of the two clipping regions. The second line is clipped only by the rectangular clipping region of the **Graphics** object.
 
 
 ```
@@ -134,6 +134,3 @@ The following illustration shows the three strings. The strings drawn from the i
  
 
  
-
-
-

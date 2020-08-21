@@ -17,7 +17,7 @@ api_location:
 
 # SslComputeClientAuthHash function
 
-The **SslComputeClientAuthHash** function computes a [*hash*](https://docs.microsoft.com/windows/desktop/SecGloss/h-gly) to use during [*certificate*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) authentication.
+The **SslComputeClientAuthHash** function computes a [*hash*](/windows/desktop/SecGloss/h-gly) to use during [*certificate*](/windows/desktop/SecGloss/c-gly) authentication.
 
 ## Syntax
 
@@ -44,14 +44,14 @@ SECURITY_STATUS WINAPI SslComputeClientAuthHash(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle of the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
+The handle of the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
 
 </dd> <dt>
 
 *hMasterKey* \[in\]
 </dt> <dd>
 
-The handle of the [*master key*](https://docs.microsoft.com/windows/desktop/SecGloss/m-gly) object.
+The handle of the [*master key*](/windows/desktop/SecGloss/m-gly) object.
 
 </dd> <dt>
 
@@ -65,14 +65,14 @@ The handle of the hash of the handshake computed so far.
 *pszAlgId* \[in\]
 </dt> <dd>
 
-A pointer to a null-terminated Unicode string that identifies the requested [*cryptographic algorithm*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly). This can be one of the standard [**CNG Algorithm Identifiers**](cng-algorithm-identifiers.md) or the identifier for another registered algorithm.
+A pointer to a null-terminated Unicode string that identifies the requested [*cryptographic algorithm*](/windows/desktop/SecGloss/c-gly). This can be one of the standard [**CNG Algorithm Identifiers**](cng-algorithm-identifiers.md) or the identifier for another registered algorithm.
 
 </dd> <dt>
 
 *pbOutput* \[out\]
 </dt> <dd>
 
-The address of a buffer that receives the [*key BLOB*](https://docs.microsoft.com/windows/desktop/SecGloss/k-gly). The *cbOutput* parameter contains the size of this buffer. If this parameter is **NULL**, this function will place the required size, in bytes, in the **DWORD** pointed to by the *pcbResult* parameter.
+The address of a buffer that receives the [*key BLOB*](/windows/desktop/SecGloss/k-gly). The *cbOutput* parameter contains the size of this buffer. If this parameter is **NULL**, this function will place the required size, in bytes, in the **DWORD** pointed to by the *pcbResult* parameter.
 
 </dd> <dt>
 
@@ -135,9 +135,4 @@ The manner in which the hash is computed depends on the protocol and cipher suit
 
 
  
-
- 
-
-
-
 

@@ -8,14 +8,14 @@ ms.date: 05/31/2018
 
 # MSGina.dll Features
 
-If you are writing a [*GINA*](https://msdn.microsoft.com/library/ms721584(v=VS.85).aspx) to replace the Microsoft standard GINA DLL (MSGina.dll), you may want to provide some or all of the standard GINA functionality. Following is a list of standard features and a brief description of how they are controlled.
+If you are writing a [*GINA*](../secgloss/g-gly.md) to replace the Microsoft standard GINA DLL (MSGina.dll), you may want to provide some or all of the standard GINA functionality. Following is a list of standard features and a brief description of how they are controlled.
 
 > [!Note]  
 > GINA DLLs are ignored in Windows Vista.
 
  
 
-Registry key values control the availability or behavior of many of these standard GINA features. Unless otherwise noted, these key values belong to the Winlogon registry key and have a value type of \[REG\_SZ\]. The actual path of the [*Winlogon*](https://msdn.microsoft.com/library/ms721635(v=VS.85).aspx) key is:
+Registry key values control the availability or behavior of many of these standard GINA features. Unless otherwise noted, these key values belong to the Winlogon registry key and have a value type of \[REG\_SZ\]. The actual path of the [*Winlogon*](../secgloss/w-gly.md) key is:
 
 **\\HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon**
 
@@ -57,7 +57,7 @@ Registry key values control the availability or behavior of many of these standa
 
      
 
-    If the **AutoAdminLogon** key value is present and contains a one, and the **AutoLogonCount** key value is not present, an automatic logon will occur every time the current user logs off or the system is restarted. The account being logged onto is specified using the **DefaultUserName** and **DefaultDomainName** key values. The password for the account can be specified in one of two ways. For computers running one of the Windows Server 2003 or Windows XP operating systems, the password should be stored as a secret using the [**LsaStorePrivateData**](https://msdn.microsoft.com/library/ms721818(v=VS.85).aspx) function. For details, see [Protecting the Automatic Logon Password](protecting-the-automatic-logon-password.md). The other way to store the password is in plaintext in the **DefaultPassword** entry of the Winlogon key; for security purposes, this technique should be avoided. If you store the password using the **LsaStorePrivateData** function, then do not provide a **DefaultPassword** entry in the Winlogon key.
+    If the **AutoAdminLogon** key value is present and contains a one, and the **AutoLogonCount** key value is not present, an automatic logon will occur every time the current user logs off or the system is restarted. The account being logged onto is specified using the **DefaultUserName** and **DefaultDomainName** key values. The password for the account can be specified in one of two ways. For computers running one of the Windows Server 2003 or Windows XP operating systems, the password should be stored as a secret using the [**LsaStorePrivateData**](/windows/win32/api/ntsecapi/nf-ntsecapi-lsastoreprivatedata) function. For details, see [Protecting the Automatic Logon Password](protecting-the-automatic-logon-password.md). The other way to store the password is in plaintext in the **DefaultPassword** entry of the Winlogon key; for security purposes, this technique should be avoided. If you store the password using the **LsaStorePrivateData** function, then do not provide a **DefaultPassword** entry in the Winlogon key.
 
     If the **AutoAdminLogon** key value is present and contains a one, and if the **AutoLogonCount** key value is present and is not zero, **AutoLogonCount** will determine the number of automatic logons that occur. Each time the system is restarted, the value of **AutoLogonCount** will be decremented by one, until it reaches zero. When **AutoLogonCount** reaches zero, no account will be logged on automatically, the **AutoLogonCount** key value and **DefaultPassword** key value, if used, will be deleted from the registry, and **AutoAdminLogon** will be set to zero.
 
@@ -65,7 +65,7 @@ Registry key values control the availability or behavior of many of these standa
 
 -   **Allow Unauthenticated Shutdown**
 
-    You can configure the default [*GINA*](https://msdn.microsoft.com/library/ms721584(v=VS.85).aspx) to include a **Shutdown** button in the logon dialog box. This lets users shut down the system without first logging on. The following key value controls whether this button is included.
+    You can configure the default [*GINA*](../secgloss/g-gly.md) to include a **Shutdown** button in the logon dialog box. This lets users shut down the system without first logging on. The following key value controls whether this button is included.
 
     
 
@@ -79,13 +79,13 @@ Registry key values control the availability or behavior of many of these standa
 
 -   **Userinit.exe Activation**
 
-    Userinit.exe is an application that is executed by MSGina.dll when the user has logged on. It runs in the newly logged-on user's [*context*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) and on the application desktop. Its purpose is to set up the user's environment, including restoring network uses, establishing profile settings such as fonts and screen colors, and running logon scripts. After completing those tasks, Userinit.exe executes the user shell programs. The shell programs inherit the environment that Userinit.exe sets up. The specific shell programs that Userinit.exe executes are stored in the **Shell** key value under the Winlogon registry key.
+    Userinit.exe is an application that is executed by MSGina.dll when the user has logged on. It runs in the newly logged-on user's [*context*](../secgloss/c-gly.md) and on the application desktop. Its purpose is to set up the user's environment, including restoring network uses, establishing profile settings such as fonts and screen colors, and running logon scripts. After completing those tasks, Userinit.exe executes the user shell programs. The shell programs inherit the environment that Userinit.exe sets up. The specific shell programs that Userinit.exe executes are stored in the **Shell** key value under the Winlogon registry key.
 
     The **Shell** key value can contain a comma-separated list of programs to be executed. Windows Explorer is the default shell program and will be executed if the **Shell** key value is null or not present. By default, Windows Explorer is listed.
 
 -   **Logged-On Security Options**
 
-    When logged on, if a user enters a [*secure attention sequence*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SAS), the user is presented with a security options screen. Among the options listed are:
+    When logged on, if a user enters a [*secure attention sequence*](../secgloss/s-gly.md) (SAS), the user is presented with a security options screen. Among the options listed are:
 
     -   Shut down the system.
     -   Log off.
@@ -98,6 +98,3 @@ Registry key values control the availability or behavior of many of these standa
  
 
  
-
-
-

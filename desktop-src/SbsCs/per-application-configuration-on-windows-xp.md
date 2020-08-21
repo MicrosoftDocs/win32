@@ -17,7 +17,7 @@ On Windows XP, per-application configuration overrides both [default configurati
 
 A per-application configuration may become necessary if the correct operation of a particular application requires an assembly version that is different than the version normally specified as a default or publisher configuration. For example, a global update of the assembly version by the publisher might fix the assembly but break this particular application. In this case, per-application configuration might be used to enable the application to continue to run with the previous assembly version. Another example, a service pack installation containing an assembly update might use [publisher configuration](publisher-configuration.md) to redirect the dependencies of all applications and assemblies on the system from version 1.0.0.0 to 1.0.1.0. If there is an application that requires version 1.0.0.0 to work correctly, it can be redirected to version 1.0.0.0 by using per-application configuration.
 
-Application administrators can implement a per-application configuration by authoring and installing [application configuration files](application-configuration-files.md). These redirect a specific application from dependence on one version of a side-by-side assembly to dependence on another version. [*Application configuration*](https://docs.microsoft.com/windows/desktop/Msi/a-gly) files can override [publisher configuration files](publisher-configuration-files.md) and the default configuration specified by [application manifests](application-manifests.md) and [assembly manifests](assembly-manifests.md). The application configuration file includes information used by the loader when [**CreateProcess**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) is called.
+Application administrators can implement a per-application configuration by authoring and installing [application configuration files](application-configuration-files.md). These redirect a specific application from dependence on one version of a side-by-side assembly to dependence on another version. [*Application configuration*](/windows/desktop/Msi/a-gly) files can override [publisher configuration files](publisher-configuration-files.md) and the default configuration specified by [application manifests](application-manifests.md) and [assembly manifests](assembly-manifests.md). The application configuration file includes information used by the loader when [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) is called.
 
 To configure an application to override both the application manifest and the publisher configuration, a developer must author an application configuration file. The application configuration file is then deployed and installed into the same folder as the application's executable file. For a listing of the file schema, see [Application Configuration File Schema](application-configuration-file-schema.md).
 
@@ -51,6 +51,3 @@ The following is an example of an application configuration file. For more infor
  
 
  
-
-
-

@@ -75,7 +75,7 @@ Some of these rules are a single option where IEEE-754 offers choices.
 -   x +/- 0.0f always results in x (except denorm flushed). But -0 + 0 = +0.
 -   Fused operations (such as mad, dp3) produce results that are no less accurate than the worst possible serial ordering of evaluation of the unfused expansion of the operation. The definition of the worst possible ordering, for the purpose of tolerance, is not a fixed definition for a given fused operation; it depends on the particular values of the inputs. The individual steps in the unfused expansion are each allowed 1 ULP tolerance (or for any instructions Direct3D calls out with a more lax tolerance than 1 ULP, the more lax tolerance is allowed).
 -   Fused operations adhere to the same NaN rules as non-fused operations.
--   sqrt and rcp have 1 ULP tolerance. The shader reciprocal and reciprocal square-root instructions, [**rcp**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh447205(v=vs.85)) and [**rsq**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/rsq--sm4---asm-), have their own separate relaxed precision requirement.
+-   sqrt and rcp have 1 ULP tolerance. The shader reciprocal and reciprocal square-root instructions, [**rcp**](/previous-versions/windows/desktop/legacy/hh447205(v=vs.85)) and [**rsq**](/windows/desktop/direct3dhlsl/rsq--sm4---asm-), have their own separate relaxed precision requirement.
 -   Multiply and divide each operate at the 32-bit floating-point precision level (accuracy to 0.5 ULP for multiply, 1.0 ULP for reciprocal). If x/y is implemented directly, results must be of greater or equal accuracy than a two-step method.
 
 ## 64-bit (double precision) floating point rules
@@ -146,7 +146,3 @@ A float11/float10 value (v) follows the following rules:
  
 
  
-
-
-
-

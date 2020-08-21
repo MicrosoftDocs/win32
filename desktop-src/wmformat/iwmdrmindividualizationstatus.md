@@ -26,7 +26,7 @@ To retrieve a pointer to an instance of the **IWMDRMIndividualizationStatus** in
 
 ## Members
 
-The **IWMDRMIndividualizationStatus** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMIndividualizationStatus** also has these types of members:
+The **IWMDRMIndividualizationStatus** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWMDRMIndividualizationStatus** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -52,10 +52,4 @@ The **IWMDRMIndividualizationStatus** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -35,7 +35,7 @@ propVal = Dependency.Language
 
 ## C++
 
-See [**get\_Language Function (Dependency Object)**](https://msdn.microsoft.com/library/Aa369246(v=VS.85).aspx).
+See [**get\_Language Function (Dependency Object)**](/windows/win32/api/mergemod/nf-mergemod-imsmdependency-get_language).
 
 ## Requirements
 
@@ -50,9 +50,4 @@ See [**get\_Language Function (Dependency Object)**](https://msdn.microsoft.com/
 
 
  
-
- 
-
-
-
 

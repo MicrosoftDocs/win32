@@ -26,7 +26,7 @@ Extensions to the IPixEngine4 interface containing additions for viewing texture
 
 ## Members
 
-The **IPixEngine5** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixEngine5** also has these types of members:
+The **IPixEngine5** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IPixEngine5** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IPixEngine5** interface has these methods.
  
 
  
-
-
-

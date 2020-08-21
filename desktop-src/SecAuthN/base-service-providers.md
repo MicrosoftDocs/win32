@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Base Service Providers
 
-These [*service providers*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) provide the basic [*smart card*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) capabilities. They can be used to access a single smart card capability, or their COM interfaces can be combined to provide several capabilities within a single service provider. These service providers are the building blocks for developing additional functionality to other service providers.
+These [*service providers*](/windows/desktop/SecGloss/c-gly) provide the basic [*smart card*](/windows/desktop/SecGloss/s-gly) capabilities. They can be used to access a single smart card capability, or their COM interfaces can be combined to provide several capabilities within a single service provider. These service providers are the building blocks for developing additional functionality to other service providers.
 
 The following tasks can be performed by base service provider interfaces supplied by the Smart Card SDK.
 
@@ -17,8 +17,8 @@ The following tasks can be performed by base service provider interfaces supplie
 | Task                                                                                                                   | Base service provider interfaces         | DLL      |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------|----------|
 | Connect to a smart card, implement transactions, close connections, and so on.                                         | [**ISCard**](iscard.md)                 | SCardSSP |
-| Maintain a command APDU and [*reply APDU*](https://docs.microsoft.com/windows/desktop/SecGloss/r-gly).          | [**ISCardCmd**](iscardcmd.md)           | SCardSSP |
-| Query the [*smart card database*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly). | [**ISCardDatabase**](iscarddatabase.md) | SCardSSP |
+| Maintain a command APDU and [*reply APDU*](/windows/desktop/SecGloss/r-gly).          | [**ISCardCmd**](iscardcmd.md)           | SCardSSP |
+| Query the [*smart card database*](/windows/desktop/SecGloss/s-gly). | [**ISCardDatabase**](iscarddatabase.md) | SCardSSP |
 | Locate a smart card or reader.                                                                                         | [**ISCardLocate**](iscardlocate.md)     | SCardSSP |
 | Build an ISO7816-4 command APDU.                                                                                       | [**ISCardISO7816**](iscardiso7816.md)   | SCardSSP |
 | Wrap an Istream buffer by using Visual Basic–compatible types.                                                         | [**IByteBuffer**](ibytebuffer.md)       | SCardSSP |
@@ -43,6 +43,3 @@ For information about the APDU command built within the DLLs, see [Building an I
  
 
  
-
-
-

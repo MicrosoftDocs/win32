@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # ABM\_ACTIVATE message
 
-Notifies the system that an appbar has been activated. An appbar should call this message in response to the [**WM\_ACTIVATE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-activate) message.
+Notifies the system that an appbar has been activated. An appbar should call this message in response to the [**WM\_ACTIVATE**](/windows/desktop/inputdev/wm-activate) message.
 
 
 ```C++
@@ -52,9 +52,4 @@ This message is ignored if the **hWnd** member of the structure pointed to by *p
 
 
  
-
- 
-
-
-
 

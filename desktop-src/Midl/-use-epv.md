@@ -28,7 +28,7 @@ This switch has no parameters.
 
 ## Remarks
 
-Typically, applications require static linkage to the server application routine. The MIDL compiler generates such a call by default. However, if an application requires the server stub to call the server application routine by using the epv, the **/use\_epv** switch must be specified. When the **/use\_epv** switch is specified, the MIDL compiler generates a default epv. This default epv is then used if the application does not register another epv through the [**RpcServerRegisterIf**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif) call.
+Typically, applications require static linkage to the server application routine. The MIDL compiler generates such a call by default. However, if an application requires the server stub to call the server application routine by using the epv, the **/use\_epv** switch must be specified. When the **/use\_epv** switch is specified, the MIDL compiler generates a default epv. This default epv is then used if the application does not register another epv through the [**RpcServerRegisterIf**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif) call.
 
 ## Examples
 
@@ -47,13 +47,9 @@ Typically, applications require static linkage to the server application routine
 [**/no\_default\_epv**](-no-default-epv.md)
 </dt> <dt>
 
-[**RpcServerRegisterIf**](https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif)
+[**RpcServerRegisterIf**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -12,7 +12,7 @@ This section describes how to add resource strings to the Windows Installer [Sho
 
 **Windows Installer 2.0 and Windows Installer 3.0:** Not supported. This example requires Windows Installer 4.0.
 
-Refer to the [Multilingual User Interface (MUI)](https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface) documentation for information on how to develop MUI-enabled applications .
+Refer to the [Multilingual User Interface (MUI)](/windows/desktop/Intl/multilingual-user-interface) documentation for information on how to develop MUI-enabled applications .
 
 To add the resource strings used by Windows Vista Multilingual User Interfaces to a Windows Installer package:
 
@@ -120,6 +120,3 @@ To add the resource strings used by Windows Vista Multilingual User Interfaces 
  
 
  
-
-
-

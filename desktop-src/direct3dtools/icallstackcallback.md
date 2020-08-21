@@ -26,7 +26,7 @@ Callback to return callstack data.
 
 ## Members
 
-The **ICallStackCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ICallStackCallback** also has these types of members:
+The **ICallStackCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ICallStackCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **ICallStackCallback** interface has these methods.
  
 
  
-
-
-

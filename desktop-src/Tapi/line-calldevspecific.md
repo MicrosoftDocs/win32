@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # LINE\_CALLDEVSPECIFIC message
 
-The TSPI **LINE\_CALLDEVSPECIFIC** message is sent to the [**LINEEVENT**](https://msdn.microsoft.com/library/ms725228(v=VS.85).aspx) callback function to notify TAPI about device-specific events occurring on a call. The meaning of the message and the interpretation of the *dwParam1* through *dwParam3* parameters is device specific.
+The TSPI **LINE\_CALLDEVSPECIFIC** message is sent to the [**LINEEVENT**](/windows/win32/api/tspi/nc-tspi-lineevent) callback function to notify TAPI about device-specific events occurring on a call. The meaning of the message and the interpretation of the *dwParam1* through *dwParam3* parameters is device specific.
 
 
 ```C++
@@ -65,11 +65,11 @@ Device specific.
 
 ## Remarks
 
-The **LINE\_CALLDEVSPECIFIC** message is used by a service provider in conjunction with the [**TSPI\_lineDevSpecific**](https://msdn.microsoft.com/library/ms725540(v=VS.85).aspx) function. Its meaning is device specific.
+The **LINE\_CALLDEVSPECIFIC** message is used by a service provider in conjunction with the [**TSPI\_lineDevSpecific**](/windows/win32/api/tspi/nf-tspi-tspi_linedevspecific) function. Its meaning is device specific.
 
-TAPI sends the [**LINE\_DEVSPECIFIC**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725225(v=vs.85)) message to applications in response to receiving this message from a service provider. The *htLine* and *htCall* parameters are translated to the appropriate *hCall* as the *hDevice* parameter at the TAPI level. The *dwParam1*, *dwParam2*, and *dwParam3* parameters are passed through unmodified.
+TAPI sends the [**LINE\_DEVSPECIFIC**](/previous-versions/windows/desktop/legacy/ms725225(v=vs.85)) message to applications in response to receiving this message from a service provider. The *htLine* and *htCall* parameters are translated to the appropriate *hCall* as the *hDevice* parameter at the TAPI level. The *dwParam1*, *dwParam2*, and *dwParam3* parameters are passed through unmodified.
 
-There is no directly corresponding message at the TAPI level, although this message is very similar to [**LINE\_DEVSPECIFIC**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725225(v=vs.85)). At the TSPI level, the device-specific messages are split between those reporting events on lines and addresses, and those reporting events on calls.
+There is no directly corresponding message at the TAPI level, although this message is very similar to [**LINE\_DEVSPECIFIC**](/previous-versions/windows/desktop/legacy/ms725225(v=vs.85)). At the TSPI level, the device-specific messages are split between those reporting events on lines and addresses, and those reporting events on calls.
 
 ## Requirements
 
@@ -86,19 +86,14 @@ There is no directly corresponding message at the TAPI level, although this mess
 
 <dl> <dt>
 
-[**LINE\_DEVSPECIFIC**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725225(v=vs.85))
+[**LINE\_DEVSPECIFIC**](/previous-versions/windows/desktop/legacy/ms725225(v=vs.85))
 </dt> <dt>
 
-[**LINEEVENT**](https://msdn.microsoft.com/library/ms725228(v=VS.85).aspx)
+[**LINEEVENT**](/windows/win32/api/tspi/nc-tspi-lineevent)
 </dt> <dt>
 
-[**TSPI\_lineDevSpecific**](https://msdn.microsoft.com/library/ms725540(v=VS.85).aspx)
+[**TSPI\_lineDevSpecific**](/windows/win32/api/tspi/nf-tspi-tspi_linedevspecific)
 </dt> </dl>
 
  
-
- 
-
-
-
 

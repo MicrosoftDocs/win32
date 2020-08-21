@@ -55,7 +55,7 @@ The **InkRenderer** class has these methods.
 | [**InkSpaceToPixel**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixel)                     | Converts a location in ink space coordinates to be in pixel space.<br/>                                                                            |
 | [**InkSpaceToPixelFromPoints**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixelfrompoints) | Converts an array of points in ink space coordinates to pixel space.<br/>                                                                          |
 | [**Measure**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-measure)                                     | Calculates the rectangle on the device context that would contain a collection of strokes if they were drawn with the **InkRenderer** object.<br/> |
-| [**MeasureStroke**](https://msdn.microsoft.com/library/ms702493(v=VS.85).aspx)                         | Calculates the rectangle on the device context that would contain a stroke if they were drawn with the **InkRenderer** object.<br/>                |
+| [**MeasureStroke**](/windows/win32/api/msinkaut/nf-msinkaut-iinkrenderer-measurestroke)                         | Calculates the rectangle on the device context that would contain a stroke if they were drawn with the **InkRenderer** object.<br/>                |
 | [**Move**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-move)                                           | Applies a translation to the view transform in ink space coordinates.<br/>                                                                         |
 | [**PixelToInkSpace**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspace)                     | Converts a location in pixel coordinates to be in ink space.<br/>                                                                                  |
 | [**PixelToInkSpaceFromPoints**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspacefrompoints) | Converts an array of points in pixel space coordinates to ink space.<br/>                                                                          |
@@ -72,7 +72,7 @@ The **InkRenderer** class has these methods.
 
 Printing is also done through the **InkRenderer** object.
 
-This object can be instantiated by calling the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
+This object can be instantiated by calling the [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) method in C++.
 
 ## Requirements
 
@@ -100,13 +100,8 @@ This object can be instantiated by calling the [**CoCreateInstance**](https://do
 [**IInkStrokeDisp Interface**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp)
 </dt> <dt>
 
-[InkStrokes Collection](https://msdn.microsoft.com/library/ms703293(v=VS.85).aspx)
+[InkStrokes Collection](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
 

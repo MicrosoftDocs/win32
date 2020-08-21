@@ -35,7 +35,7 @@ Preprocessor directive that inserts the contents of the specified file into the 
 The \#include directive causes replacement of the directive by the entire contents of the specified file. The preprocessor stops searching as soon as it finds a file with the specified name; if you specify a complete, unambiguous path specification for the file, the preprocessor searches only the specified path.
 
 > [!NOTE]
-> The [Effect-Compiler Tool](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc) has a built-in include handler using the /I switch. However, when executing the compiler from the API, you can provide a customized include handler by implementing the ID3DXInclude interface.
+> The [Effect-Compiler Tool](/windows/desktop/direct3dtools/fxc) has a built-in include handler using the /I switch. However, when executing the compiler from the API, you can provide a customized include handler by implementing the ID3DXInclude interface.
 
 The difference between the two syntax forms is the order in which the preprocessor searches for header files when the path is incompletely specified, as shown in the following table.
 
@@ -94,6 +94,6 @@ The following example causes the preprocessor to replace the \#include directive
 
 - [Preprocessor Directives (DirectX HLSL)](dx-graphics-hlsl-appendix-preprocessor.md)
 
-- [ID3D10Include Interface](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))
+- [ID3D10Include Interface](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))
 
-- [Effect-Compiler Tool](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc)
+- [Effect-Compiler Tool](/windows/desktop/direct3dtools/fxc)

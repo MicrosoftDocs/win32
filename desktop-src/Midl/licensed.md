@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # licensed attribute
 
-The **\[licensed\]** attribute indicates that the [**coclass**](coclass.md) to which it applies is licensed, and must be instantiated using [**IClassFactory2**](https://msdn.microsoft.com/library/ms692720(v=VS.85).aspx).
+The **\[licensed\]** attribute indicates that the [**coclass**](coclass.md) to which it applies is licensed, and must be instantiated using [**IClassFactory2**](/windows/win32/api/ocidl/nn-ocidl-iclassfactory2).
 
 ``` syntax
 [
@@ -56,7 +56,7 @@ Specifies statements that make up the [**coclass**](coclass.md) definition.
 
 ## Remarks
 
-Licensing is a feature of COM that provides control over object creation. Licensed objects can be created only by clients that are authorized to use them. Licensing is implemented in COM through the [**IClassFactory2**](https://msdn.microsoft.com/library/ms692720(v=VS.85).aspx) interface and by support for a license key that can be passed at run time.
+Licensing is a feature of COM that provides control over object creation. Licensed objects can be created only by clients that are authorized to use them. Licensing is implemented in COM through the [**IClassFactory2**](/windows/win32/api/ocidl/nn-ocidl-iclassfactory2) interface and by support for a license key that can be passed at run time.
 
 ### Flags
 
@@ -83,7 +83,7 @@ coclass MyClass
 [**coclass**](coclass.md)
 </dt> <dt>
 
-[Contents of a Type Library](https://msdn.microsoft.com/library/ms221355(v=VS.71).aspx)
+[Contents of a Type Library](/previous-versions/windows/desktop/automat/contents-of-a-type-library)
 </dt> <dt>
 
 [**control**](control.md)
@@ -101,10 +101,10 @@ coclass MyClass
 [**hidden**](hidden.md)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> <dt>
 
-[TYPEFLAGS](https://msdn.microsoft.com/library/ms221509(v=VS.71).aspx)
+[TYPEFLAGS](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> <dt>
 
 [**version**](version.md)
@@ -113,7 +113,3 @@ coclass MyClass
  
 
  
-
-
-
-

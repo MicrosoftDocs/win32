@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Date property
 
-The **Date** property is the current month, day, and year as a string of literal text in the format MM/DD/YYYY. For example, the date June 22, 2005 can represented as "06/22/2005". The format of the value depends upon the user's locale, and is the format obtained using [**GetDateFormat**](https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformata) with the DATE\_SHORTDATE option. The value of this property is set by the Windows Installer and not the package author.
+The **Date** property is the current month, day, and year as a string of literal text in the format MM/DD/YYYY. For example, the date June 22, 2005 can represented as "06/22/2005". The format of the value depends upon the user's locale, and is the format obtained using [**GetDateFormat**](/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformata) with the DATE\_SHORTDATE option. The value of this property is set by the Windows Installer and not the package author.
 
 ## Remarks
 
@@ -32,9 +32,4 @@ Because this is a text string, it cannot be used in conditional expressions.
 </dt> </dl>
 
  
-
- 
-
-
-
 

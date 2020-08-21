@@ -85,7 +85,7 @@ Rasterization rules for primitives are, in general, unchanged by multisample ant
 
 -   For a point, a coverage test is performed for each sample location (not for a pixel center).
 
-Many formats support multisampling (see [Hardware Support for Direct3D 10 Formats](https://docs.microsoft.com/previous-versions//cc627090(v=vs.85))), some formats can be resolved ([**ResolveSubresource**](https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-resolvesubresource); which downsamples a multisampled format to a sample size of 1). Multisampling formats can be used in render targets which can be read back into shaders using [load](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load), since no resolve is required for individual samples accessed by the shader. Depth formats are not supported for multisample resource, therefore, depth formats are restricted to render targets only.
+Many formats support multisampling (see [Hardware Support for Direct3D 10 Formats](/previous-versions//cc627090(v=vs.85))), some formats can be resolved ([**ResolveSubresource**](/windows/desktop/api/d3d10/nf-d3d10-id3d10device-resolvesubresource); which downsamples a multisampled format to a sample size of 1). Multisampling formats can be used in render targets which can be read back into shaders using [load](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load), since no resolve is required for individual samples accessed by the shader. Depth formats are not supported for multisample resource, therefore, depth formats are restricted to render targets only.
 
 Typeless formats (R8G8B8A8\_TYPELESS for instance) support multisampling to allow a resource view to interpret data in different ways. For instance, you could create a multisample resource using R8G8B8A8\_TYPELESS, render to it using a render-target-view resource with a R8G8B8A8\_UINT format, then resolve the contents to another resource with a R8G8B8A8\_UNORM data format.
 
@@ -121,7 +121,3 @@ If derivatives are requested on an attribute that has been centroid sampled, the
  
 
  
-
-
-
-

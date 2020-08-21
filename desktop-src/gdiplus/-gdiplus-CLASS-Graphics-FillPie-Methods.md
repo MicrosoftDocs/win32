@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.FillPie methods
 
-This topic lists the FillPie methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the FillPie methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -16,10 +16,10 @@ This topic lists the FillPie methods of the [**Graphics**](https://msdn.microsof
 
 | Method                                                                                                                                                         | Description                                                                                                                                                                                          |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**FillPie(Brush\*,Rect&,REAL,REAL)**](https://msdn.microsoft.com/library/ms535962(v=VS.85).aspx)                             | The [**Graphics::FillPie**](https://msdn.microsoft.com/library/ms535962(v=VS.85).aspx) method uses a brush to fill the interior of a pie. <br/>               |
-| [**FillPie(Brush\*,RectF&,REAL,REAL)**](https://msdn.microsoft.com/library/ms535965(v=VS.85).aspx)                           | The [**Graphics::FillPie**](https://msdn.microsoft.com/library/ms535965(v=VS.85).aspx) method uses a brush to fill the interior of a pie. <br/>              |
-| [**FillPie(Brush\*,INT,INT,INT,INT,REAL,REAL)**](https://msdn.microsoft.com/library/ms535963(v=VS.85).aspx)     | The [**Graphics::FillPie**](https://msdn.microsoft.com/library/ms535963(v=VS.85).aspx) method uses a brush to fill the interior of a pie. <br/> |
-| [**FillPie(Brush\*,REAL,REAL,REAL,REAL,REAL,REAL)**](https://msdn.microsoft.com/library/ms535964(v=VS.85).aspx) | The [**Graphics::FillPie**](https://msdn.microsoft.com/library/ms535964(v=VS.85).aspx) method uses a brush to fill the interior of a pie. <br/> |
+| [**FillPie(Brush\*,Rect&,REAL,REAL)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpie(inconstbrush_inconstrect__inreal_inreal))                             | The [**Graphics::FillPie**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpie(inconstbrush_inconstrect__inreal_inreal)) method uses a brush to fill the interior of a pie. <br/>               |
+| [**FillPie(Brush\*,RectF&,REAL,REAL)**](/previous-versions//ms535965(v=vs.85))                           | The [**Graphics::FillPie**](/previous-versions//ms535965(v=vs.85)) method uses a brush to fill the interior of a pie. <br/>              |
+| [**FillPie(Brush\*,INT,INT,INT,INT,REAL,REAL)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpie(inconstbrush_inint_inint_inint_inint_inreal_inreal))     | The [**Graphics::FillPie**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpie(inconstbrush_inint_inint_inint_inint_inreal_inreal)) method uses a brush to fill the interior of a pie. <br/> |
+| [**FillPie(Brush\*,REAL,REAL,REAL,REAL,REAL,REAL)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpie(inconstbrush_inreal_inreal_inreal_inreal_inreal_inreal)) | The [**Graphics::FillPie**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpie(inconstbrush_inreal_inreal_inreal_inreal_inreal_inreal)) method uses a brush to fill the interior of a pie. <br/> |
 
 
 
@@ -36,7 +36,3 @@ This topic lists the FillPie methods of the [**Graphics**](https://msdn.microsof
  
 
  
-
-
-
-

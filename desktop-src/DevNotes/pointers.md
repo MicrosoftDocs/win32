@@ -10,18 +10,15 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**DecodePointer**](https://msdn.microsoft.com/library/Bb432242(v=VS.85).aspx)
--   [**DecodePointer (KernelBase)**](https://msdn.microsoft.com/library/Ee388304(v=VS.85).aspx)
--   [**DecodeRemotePointer**](https://msdn.microsoft.com/library/Dn877133(v=VS.85).aspx)
--   [**DecodeSystemPointer**](https://msdn.microsoft.com/library/Bb432243(v=VS.85).aspx)
--   [**EncodePointer**](https://msdn.microsoft.com/library/Bb432254(v=VS.85).aspx)
--   [**EncodePointer (KernelBase)**](https://msdn.microsoft.com/library/Ee388305(v=VS.85).aspx)
--   [**EncodeRemotePointer**](https://msdn.microsoft.com/library/Dn877135(v=VS.85).aspx)
--   [**EncodeSystemPointer**](https://msdn.microsoft.com/library/Bb432255(v=VS.85).aspx)
+-   [**DecodePointer**](/previous-versions//bb432242(v=vs.85))
+-   [**DecodePointer (KernelBase)**](/previous-versions//ee388304(v=vs.85))
+-   [**DecodeRemotePointer**](/previous-versions//dn877133(v=vs.85))
+-   [**DecodeSystemPointer**](/previous-versions//bb432243(v=vs.85))
+-   [**EncodePointer**](/previous-versions//bb432254(v=vs.85))
+-   [**EncodePointer (KernelBase)**](/previous-versions//ee388305(v=vs.85))
+-   [**EncodeRemotePointer**](/previous-versions//dn877135(v=vs.85))
+-   [**EncodeSystemPointer**](/previous-versions//bb432255(v=vs.85))
 
  
 
  
-
-
-

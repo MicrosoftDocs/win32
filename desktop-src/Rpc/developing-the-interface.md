@@ -16,7 +16,7 @@ Interfaces are defined in the Microsoft Interface Definition Language (MIDL). If
 
 When developing an RPC application, a text editor is used to define the interface and store it in a text file with an .idl extension. For more information, see [The IDL and ACF Files](the-idl-and-acf-files.md). The MIDL compiler generates a header file that your program includes in the client and server source files. The MIDL compiler also generates two C source files. You compile and link one of these to your client program, and the other to your server program. These two C source files are the client and server stubs. For an overview of the client and server stubs, see [How RPC Works](how-rpc-works.md). For an overview on the MIDL compiler, see [Compiling a MIDL File](using-midl.md).
 
-By default, the client and server stub have the same name, which can cause problems if the client links with the server stub, or vice-versa. Using the MIDL [**/prefix**](https://docs.microsoft.com/windows/desktop/Midl/-prefix) option prevents this common error from occurring.
+By default, the client and server stub have the same name, which can cause problems if the client links with the server stub, or vice-versa. Using the MIDL [**/prefix**](/windows/desktop/Midl/-prefix) option prevents this common error from occurring.
 
 The following illustration shows the process of creating an interface.
 
@@ -32,7 +32,3 @@ In addition to the MIDL compiler, you will typically need to use the Uuidgen uti
  
 
  
-
-
-
-

@@ -31,7 +31,7 @@ Set to IMC\_GETCOMPOSITIONFONT.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a [**LOGFONT**](https://msdn.microsoft.com/library/Dd145037(v=VS.85).aspx) structure that receives information about the logical font.
+Pointer to a [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure that receives information about the logical font.
 
 </dd> </dl>
 
@@ -64,7 +64,3 @@ Returns 0 if successful, or a nonzero value otherwise.
  
 
  
-
-
-
-

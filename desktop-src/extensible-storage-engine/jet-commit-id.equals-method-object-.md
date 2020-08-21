@@ -53,13 +53,13 @@ public override bool Equals(
 #### Parameters
 
   - obj  
-    Type: [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+    Type: [System.Object](/dotnet/api/system.object)  
     
     An object to compare with this instance.
 
 #### Return value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 true if the two instances are equal.  
 
 ## See also
@@ -73,4 +73,3 @@ true if the two instances are equal.
 [Equals overload](dn335455\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-

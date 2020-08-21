@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Receiving Time-Stamped MIDI Messages
 
-Because of the delay between when the device driver receives a MIDI message and the time the application receives the message, MIDI input device drivers time stamp the MIDI message with the time that the message was received. MIDI time stamps, which are defined as the time the first byte of the message was received, are specified in milliseconds. The [**midiInStart**](https://msdn.microsoft.com/library/Dd798462(v=VS.85).aspx) function resets the time stamps for a device to zero.
+Because of the delay between when the device driver receives a MIDI message and the time the application receives the message, MIDI input device drivers time stamp the MIDI message with the time that the message was received. MIDI time stamps, which are defined as the time the first byte of the message was received, are specified in milliseconds. The [**midiInStart**](/windows/win32/api/mmeapi/nf-mmeapi-midiinstart) function resets the time stamps for a device to zero.
 
 As stated previously, to receive time stamps with MIDI input, you must use a callback function. The *dwParam2* parameter of the callback function specifies the time stamp for data associated with the [**MIM\_DATA**](mim-data.md) and [**MIM\_LONGDATA**](mim-longdata.md) messages.
 
@@ -27,7 +27,3 @@ As stated previously, to receive time stamps with MIDI input, you must use a cal
  
 
  
-
-
-
-

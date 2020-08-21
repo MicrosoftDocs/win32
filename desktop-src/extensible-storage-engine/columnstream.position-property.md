@@ -57,7 +57,7 @@ public override long Position { get; set; }
 
 #### Property value
 
-Type: [System.Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN)  
+Type: [System.Int64](/dotnet/api/system.int64)  
 
 ## See also
 
@@ -68,4 +68,3 @@ Type: [System.Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirect
 [ColumnStream members](dn334190\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

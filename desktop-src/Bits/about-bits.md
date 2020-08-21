@@ -18,13 +18,13 @@ BITS continues to transfer files after an application exits as long as the user 
 
 BITS is mindful of the current network cost and congestion so that a background job interferes as little as possible with the user's foreground experience. BITS uses idle [network bandwidth](network-bandwidth.md) to transfer the files and will increase or decrease the rate at which files are transferred based on the amount of idle network bandwidth available. If a network application begins to consume more bandwidth, BITS decreases its transfer rate to preserve the user's interactive experience. BITS uses app-specified [transfer policies](how-to-block-a-bits-job-from-downloading-over-an-expensive-connection.md) to prevent files from transferring on costed network connections.
 
-BITS is also mindful of power usage. Starting with the Windows 10 May 2019 Update, BITS will transfer files when the machine is in [Modern Standby](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby) mode and the machine is plugged in.
+BITS is also mindful of power usage. Starting with the Windows 10 May 2019 Update, BITS will transfer files when the machine is in [Modern Standby](/windows-hardware/design/device-experiences/modern-standby) mode and the machine is plugged in.
 
 The BITS application can use the different BITS [priority levels](/windows/desktop/api/Bits/ne-bits-bg_job_priority) to let BITS intelligently pick which transfer jobs to run. Higher priority jobs preempt lower priority jobs. Jobs at the same priority level share transfer time, which prevents a large job from blocking small jobs in the transfer queue. Lower priority jobs do not receive transfer time until all higher priority jobs are complete or in an error state.
 
-BITS uses Windows BranchCache for peer caching. For more information, see the [BranchCache Overview](https://technet.microsoft.com/library/dd755969(WS.10).aspx).
+BITS uses Windows BranchCache for peer caching. For more information, see the [BranchCache Overview](/previous-versions/windows/it-pro/windows-7/dd755969(v=ws.10)).
 
-Universal Windows Platform (UWP) developers should use the [Windows.Networking.BackgroundTransfer](https://docs.microsoft.com/uwp/api/Windows.Networking.BackgroundTransfer) API and not the BITS API.
+Universal Windows Platform (UWP) developers should use the [Windows.Networking.BackgroundTransfer](/uwp/api/Windows.Networking.BackgroundTransfer) API and not the BITS API.
 
 There are three types of [**transfer jobs**](/windows/desktop/api/Bits/ne-bits-bg_job_type). A download job downloads files to the client, an upload job uploads a file to the server, and an upload-reply job uploads a file to the server and receives a reply file from the server application.
 

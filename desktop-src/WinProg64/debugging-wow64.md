@@ -16,7 +16,7 @@ Applications running under WOW64 can be debugged two ways:
 -   Use an x86-hosted debugger such as NTSD, WinDbg, or Visual Studio. The 32-bit NTSD is installed to %systemroot%\\syswow64 on retail installations. Note that x86 debuggers can be used to debug x86 code, but cannot be used to disassemble or set breakpoints within the WOW64 thunk layer because it is 64-bit native code.
 -   Use a native debugger such as CDB, NTSD, or WinDbg and the WOW64 debugger extension, Wow64exts.dll. If the native debugger breaks while the processor is in x86 mode, the debugger presents the process as an x86 process. If the processor is in native mode, the debugger presents the process as native.
 
-CDB, NTSD, and WinDbg are included in Debugging Tools for Windows. For more information, see the [Debugging Tools for Windows](https://msdn.microsoft.com/library/ff551063(VS.85).aspx) documentation.
+CDB, NTSD, and WinDbg are included in Debugging Tools for Windows. For more information, see the [Debugging Tools for Windows](/windows-hardware/drivers/debugger/) documentation.
 
 The Wow64exts debugger extension is installed with WinDbg. Use the !load wow64exts command to load the debugger extension. The following table lists the !wow64exts debugger extension commands.
 
@@ -36,7 +36,3 @@ The Wow64exts debugger extension is installed with WinDbg. Use the !load wow64ex
  
 
  
-
-
-
-

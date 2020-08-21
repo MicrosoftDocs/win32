@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # OID Overview
 
-Extensibility is achieved by providing for the use of new [*object identifiers*](https://msdn.microsoft.com/library/ms721599(v=VS.85).aspx) (OIDs), new encoding types, and new DLLs.
+Extensibility is achieved by providing for the use of new [*object identifiers*](../secgloss/o-gly.md) (OIDs), new encoding types, and new DLLs.
 
 CryptoAPI OIDs can take any of the following forms:
 
@@ -25,6 +25,3 @@ This allows the functionality of the CryptoAPI to be extended as the need arises
  
 
  
-
-
-

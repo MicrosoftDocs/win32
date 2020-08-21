@@ -145,7 +145,7 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> </dl>
 
@@ -169,16 +169,11 @@ The **\_\_ConsumerFailureEvent** class is derived from [**\_\_EventDroppedEvent*
 
 <dl> <dt>
 
-[**\_\_EventDroppedEvent**](https://docs.microsoft.com/windows/desktop/WmiSdk/--eventdroppedevent)
+[**\_\_EventDroppedEvent**](/windows/desktop/WmiSdk/--eventdroppedevent)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

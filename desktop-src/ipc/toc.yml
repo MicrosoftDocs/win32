@@ -139,13 +139,13 @@
         - name: "CallNamedPipe"
           href: /windows/desktop/api/Winbase/nf-winbase-callnamedpipea
         - name: "ConnectNamedPipe"
-          href: https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe
+          href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe
         - name: "CreateNamedPipe"
           href: /windows/desktop/api/Winbase/nf-winbase-createnamedpipea
         - name: "CreatePipe"
-          href: https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe
+          href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe
         - name: "DisconnectNamedPipe"
-          href: https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-disconnectnamedpipe
+          href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-disconnectnamedpipe
         - name: "GetNamedPipeClientComputerName"
           href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeclientcomputernamea
         - name: "GetNamedPipeClientProcessId"
@@ -155,16 +155,16 @@
         - name: "GetNamedPipeHandleState"
           href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipehandlestatea
         - name: "GetNamedPipeInfo"
-          href: https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-getnamedpipeinfo
+          href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-getnamedpipeinfo
         - name: "GetNamedPipeServerProcessId"
           href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeserverprocessid
         - name: "GetNamedPipeServerSessionId"
           href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeserversessionid
         - name: "PeekNamedPipe"
-          href: https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-peeknamedpipe
+          href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-peeknamedpipe
         - name: "SetNamedPipeHandleState"
-          href: https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate
+          href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate
         - name: "TransactNamedPipe"
-          href: https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe
+          href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe
         - name: "WaitNamedPipe"
           href: /windows/desktop/api/Winbase/nf-winbase-waitnamedpipea

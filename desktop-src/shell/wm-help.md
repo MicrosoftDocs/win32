@@ -34,7 +34,7 @@ Returns **TRUE**.
 
 ## Remarks
 
-The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function passes **WM\_HELP** to the parent window of a child window or to the owner of a top-level window.
+The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function passes **WM\_HELP** to the parent window of a child window or to the owner of a top-level window.
 
 ## Requirements
 
@@ -51,7 +51,3 @@ The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/n
  
 
  
-
-
-
-

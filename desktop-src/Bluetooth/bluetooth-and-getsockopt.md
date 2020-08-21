@@ -12,10 +12,10 @@ ms.date: 05/31/2018
 
 # Bluetooth and getsockopt
 
-Bluetooth uses the [**getsockopt**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt) function to query various parameters associated with the server channel or the connection. Use of **getsockopt** with Bluetooth has the following requirements:
+Bluetooth uses the [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) function to query various parameters associated with the server channel or the connection. Use of **getsockopt** with Bluetooth has the following requirements:
 
--   The *s* parameter of [**getsockopt**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt) must be a valid Bluetooth socket.
--   The *level* parameter of [**getsockopt**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt) must be SOL\_RFCOMM.
+-   The *s* parameter of [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) must be a valid Bluetooth socket.
+-   The *level* parameter of [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) must be SOL\_RFCOMM.
 
 For a listing of available Bluetooth socket options, see [Bluetooth and Socket Options](bluetooth-and-socket-options.md).
 
@@ -23,16 +23,12 @@ For a listing of available Bluetooth socket options, see [Bluetooth and Socket O
 
 <dl> <dt>
 
-[Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
+[Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> <dt>
 
-[**getsockopt**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt)
+[**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt)
 </dt> </dl>
 
  
 
  
-
-
-
-

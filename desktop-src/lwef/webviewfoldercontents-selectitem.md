@@ -43,7 +43,7 @@ WebViewFolderContents.SelectItem(
 
 Type: **Variant\***
 
-The [**FolderItem**](/windows/win32/shell/folderitem) object for which the selection state will be set.
+The [**FolderItem**](../shell/folderitem.md) object for which the selection state will be set.
 
 </dd> <dt>
 
@@ -177,10 +177,4 @@ The following example shows the proper usage of this method for JScript embedded
 
 
  
-
- 
-
-
-
-
 

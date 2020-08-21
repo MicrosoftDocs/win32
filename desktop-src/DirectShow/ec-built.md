@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # EC\_BUILT
 
-The **EC\_BUILT** event is sent by the [Video Control](https://msdn.microsoft.com/library/Dd695349(v=VS.85).aspx) when a graph has been completely built. This event is not forwarded to applications.
+The **EC\_BUILT** event is sent by the [Video Control](/previous-versions/windows/desktop/mstv/video-control-overview) when a graph has been completely built. This event is not forwarded to applications.
 
 ## Parameters
 
@@ -53,9 +53,4 @@ None.
 </dt> </dl>
 
  
-
- 
-
-
-
 

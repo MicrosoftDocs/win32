@@ -3,7 +3,7 @@ Description: This specification describes the structure of executable (image) fi
 ms.assetid: 3dbfbf7f-6662-45a4-99f1-e0e24c370dee
 title: PE Format
 ms.topic: article
-ms.date: 08/26/2019
+ms.date: 08/11/2020
 ---
 
 # PE Format
@@ -13,114 +13,13 @@ This specification describes the structure of executable (image) files and objec
 > [!Note]  
 > This document is provided to aid in the development of tools and applications for Windows but is not guaranteed to be a complete specification in all respects. Microsoft reserves the right to alter this document without notice.
 
- 
-
 This revision of the Microsoft Portable Executable and Common Object File Format Specification replaces all previous revisions of this specification.
-
-- [General Concepts](#general-concepts)
-- [Overview](#overview)
-- [File Headers](#file-headers)
-  - [MS-DOS Stub (Image Only)](#ms-dos-stub-image-only)
-  - [Signature (Image Only)](#signature-image-only)
-  - [COFF File Header (Object and Image)](#coff-file-header-object-and-image)
-    - [Machine Types](#machine-types)
-    - [Characteristics](#characteristics)
-  - [Optional Header (Image Only)](#optional-header-image-only)
-    - [Optional Header Standard Fields (Image Only)](#optional-header-standard-fields-image-only)
-    - [Optional Header Windows-Specific Fields (Image Only)](#optional-header-windows-specific-fields-image-only)
-    - [Optional Header Data Directories (Image Only)](#optional-header-data-directories-image-only)
-- [Section Table (Section Headers)](#section-table-section-headers)
-  - [Section Flags](#section-flags)
-  - [Grouped Sections (Object Only)](#grouped-sections-object-only)
-- [Other Contents of the File](#other-contents-of-the-file)
-  - [Section Data](#section-data)
-  - [COFF Relocations (Object Only)](#coff-relocations-object-only)
-    - [Type Indicators](#type-indicators)
-  - [COFF Line Numbers (Deprecated)](#coff-line-numbers-deprecated)
-  - [COFF Symbol Table](#coff-symbol-table)
-    - [Symbol Name Representation](#symbol-name-representation)
-    - [Section Number Values](#section-number-values)
-    - [Type Representation](#type-representation)
-    - [Storage Class](#storage-class)
-  - [Auxiliary Symbol Records](#auxiliary-symbol-records)
-    - [Auxiliary Format 1: Function Definitions](#auxiliary-format-1-function-definitions)
-    - [Auxiliary Format 2: .bf and .ef Symbols](#auxiliary-format-2-bf-and-ef-symbols)
-    - [Auxiliary Format 3: Weak Externals](#auxiliary-format-3-weak-externals)
-    - [Auxiliary Format 4: Files](#auxiliary-format-4-files)
-    - [Auxiliary Format 5: Section Definitions](#auxiliary-format-5-section-definitions)
-    - [COMDAT Sections (Object Only)](#comdat-sections-object-only)
-    - [CLR Token Definition (Object Only)](#clr-token-definition-object-only)
-  - [COFF String Table](#coff-string-table)
-  - [The Attribute Certificate Table (Image Only)](#the-attribute-certificate-table-image-only)
-    - [Certificate Data](#certificate-data)
-  - [Delay-Load Import Tables (Image Only)](#delay-load-import-tables-image-only)
-    - [The Delay-Load Directory Table](#the-delay-load-directory-table)
-    - [Attributes](#attributes)
-    - [Name](#name)
-    - [Module Handle](#module-handle)
-    - [Delay Import Address Table](#delay-import-address-table)
-    - [Delay Import Name Table](#delay-import-name-table)
-    - [Delay Bound Import Address Table and Time Stamp](#delay-bound-import-address-table-and-time-stamp)
-    - [Delay Unload Import Address Table](#delay-unload-import-address-table)
-- [Special Sections](#special-sections)
-  - [The .debug Section](#the-debug-section)
-    - [Debug Directory (Image Only)](#debug-directory-image-only)
-    - [Debug Type](#debug-type)
-    - [.debug$F (Object Only)](#debugf-object-only)
-    - [.debug$S (Object Only)](#debugs-object-only)
-    - [.debug$P (Object Only)](#debugp-object-only)
-    - [.debug$T (Object Only)](#debugt-object-only)
-    - [Linker Support for Microsoft Debug Information](#linker-support-for-microsoft-debug-information)
-  - [The .drectve Section (Object Only)](#the-drectve-section-object-only)
-  - [The .edata Section (Image Only)](#the-edata-section-image-only)
-    - [Export Directory Table](#export-directory-table)
-    - [Export Address Table](#export-address-table)
-    - [Export Name Pointer Table](#export-name-pointer-table)
-    - [Export Ordinal Table](#export-ordinal-table)
-    - [Export Name Table](#export-name-table)
-  - [The .idata Section](#the-idata-section)
-    - [Import Directory Table](#import-directory-table)
-    - [Import Lookup Table](#import-lookup-table)
-    - [Hint/Name Table](#hintname-table)
-    - [Import Address Table](#delay-import-address-table)
-  - [The .pdata Section](#the-pdata-section)
-  - [The .reloc Section (Image Only)](#the-reloc-section-image-only)
-    - [Base Relocation Block](#base-relocation-block)
-    - [Base Relocation Types](#base-relocation-types)
-  - [The .tls Section](#the-tls-section)
-    - [The TLS Directory](#the-tls-directory)
-    - [TLS Callback Functions](#tls-callback-functions)
-  - [The Load Configuration Structure (Image Only)](#the-load-configuration-structure-image-only)
-    - [Load Configuration Directory](#load-configuration-directory)
-    - [Load Configuration Layout](#load-configuration-layout)
-  - [The .rsrc Section](#the-rsrc-section)
-    - [Resource Directory Table](#resource-directory-table)
-    - [Resource Directory Entries](#resource-directory-entries)
-    - [Resource Directory String](#resource-directory-string)
-    - [Resource Data Entry](#resource-data-entry)
-  - [The .cormeta Section (Object Only)](#the-cormeta-section-object-only)
-  - [The .sxdata Section](#the-sxdata-section)
-- [Archive (Library) File Format](#archive-library-file-format)
-  - [Archive File Signature](#archive-file-signature)
-  - [Archive Member Headers](#archive-member-headers)
-  - [First Linker Member](#first-linker-member)
-  - [Second Linker Member](#second-linker-member)
-  - [Longnames Member](#longnames-member)
-- [Import Library Format](#import-library-format)
-  - [Import Header](#import-header)
-  - [Import Type](#import-type)
-- [Appendix A: Calculating Authenticode PE Image Hash](#appendix-a-calculating-authenticode-pe-image-hash)
-  - [A.1 What is an Authenticode PE Image Hash?](#a1-what-is-an-authenticode-pe-image-hash)
-  - [A.2 What is Covered in an Authenticode PE Image Hash?](#a2-what-is-covered-in-an-authenticode-pe-image-hash)
-- [References](#references)
 
 ## General Concepts
 
 This document specifies the structure of executable (image) files and object files under the Microsoft Windows family of operating systems. These files are referred to as Portable Executable (PE) and Common Object File Format (COFF) files, respectively. The name "Portable Executable" refers to the fact that the format is not architecture specific.
 
 Certain concepts that appear throughout this specification are described in the following table:
-
-
 
 | Name                              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -130,13 +29,9 @@ Certain concepts that appear throughout this specification are described in the 
 | linker <br/>                | A reference to the linker that is provided with Microsoft Visual Studio. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | object file <br/>           | A file that is given as input to the linker. The linker produces an image file, which in turn is used as input by the loader. The term "object file" does not necessarily imply any connection to object-oriented programming. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | reserved, must be 0 <br/>   | A description of a field that indicates that the value of the field must be zero for generators and consumers must ignore the field. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| RVA <br/>                   | Relative virtual address. In an image file, the address of an item after it is loaded into memory, with the base address of the image file subtracted from it. The RVA of an item almost always differs from its position within the file on disk (file pointer). <br/> In an object file, an RVA is less meaningful because memory locations are not assigned. In this case, an RVA would be an address within a section (described later in this table), to which a relocation is later applied during linking. For simplicity, a compiler should just set the first RVA in each section to zero. <br/>                                                                                                                                         |
+| Relative virtual address (RVA) <br/>                   | In an image file, this is the address of an item after it is loaded into memory, with the base address of the image file subtracted from it. The RVA of an item almost always differs from its position within the file on disk (file pointer). <br/> In an object file, an RVA is less meaningful because memory locations are not assigned. In this case, an RVA would be an address within a section (described later in this table), to which a relocation is later applied during linking. For simplicity, a compiler should just set the first RVA in each section to zero. <br/>                                                                                                                                         |
 | section <br/>               | The basic unit of code or data within a PE or COFF file. For example, all code in an object file can be combined within a single section or (depending on compiler behavior) each function can occupy its own section. With more sections, there is more file overhead, but the linker is able to link in code more selectively. A section is similar to a segment in Intel 8086 architecture. All the raw data in a section must be loaded contiguously. In addition, an image file can contain a number of sections, such as .tls or .reloc , which have special purposes. <br/>                                                                                                                                                                      |
-| VA <br/>                    | virtual address. Same as RVA, except that the base address of the image file is not subtracted. The address is called a "VA" because Windows creates a distinct VA space for each process, independent of physical memory. For almost all purposes, a VA should be considered just an address. A VA is not as predictable as an RVA because the loader might not load the image at its preferred location. <br/>                                                                                                                                                                                                                                                                                                                                        |
-
-
-
- 
+| Virtual Address (VA) <br/>                    | Same as RVA, except that the base address of the image file is not subtracted. The address is called a VA because Windows creates a distinct VA space for each process, independent of physical memory. For almost all purposes, a VA should be considered just an address. A VA is not as predictable as an RVA because the loader might not load the image at its preferred location. <br/>                                                                                                                                                                                                                                                                                                                                        |
 
 ## Overview
 
@@ -183,6 +78,16 @@ The following list describes the Microsoft COFF object-module format:
 
 ## File Headers
 
+- [MS-DOS Stub (Image Only)](#ms-dos-stub-image-only)
+- [Signature (Image Only)](#signature-image-only)
+- [COFF File Header (Object and Image)](#coff-file-header-object-and-image)
+  - [Machine Types](#machine-types)
+  - [Characteristics](#characteristics)
+- [Optional Header (Image Only)](#optional-header-image-only)
+  - [Optional Header Standard Fields (Image Only)](#optional-header-standard-fields-image-only)
+  - [Optional Header Windows-Specific Fields (Image Only)](#optional-header-windows-specific-fields-image-only)
+  - [Optional Header Data Directories (Image Only)](#optional-header-data-directories-image-only)
+
 The PE file header consists of a Microsoft MS-DOS stub, the PE signature, the COFF file header, and an optional header. A COFF object file header consists of a COFF file header and an optional header. In both cases, the file headers are followed immediately by section headers.
 
 ### MS-DOS Stub (Image Only)
@@ -199,31 +104,23 @@ After the MS-DOS stub, at the file offset specified at offset 0x3c, is a 4-byte 
 
 At the beginning of an object file, or immediately after the signature of an image file, is a standard COFF file header in the following format. Note that the Windows loader limits the number of sections to 96.
 
-
-
 | Offset         | Size          | Field                            | Description                                                                                                                                                                                                                                                          |
 |----------------|---------------|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0 <br/>  | 2 <br/> | Machine <br/>              | The number that identifies the type of target machine. For more information, see [Machine Types](#machine-types). <br/>                                                                                                                                        |
 | 2 <br/>  | 2 <br/> | NumberOfSections <br/>     | The number of sections. This indicates the size of the section table, which immediately follows the headers. <br/>                                                                                                                                             |
-| 4 <br/>  | 4 <br/> | TimeDateStamp <br/>        | The low 32 bits of the number of seconds since 00:00 January 1, 1970 (a C run-time time\_t value), that indicates when the file was created. <br/>                                                                                                             |
+| 4 <br/>  | 4 <br/> | TimeDateStamp <br/>        | The low 32 bits of the number of seconds since 00:00 January 1, 1970 (a C run-time time\_t value), which indicates when the file was created. <br/>                                                                                                             |
 | 8 <br/>  | 4 <br/> | PointerToSymbolTable <br/> | The file offset of the COFF symbol table, or zero if no COFF symbol table is present. This value should be zero for an image because COFF debugging information is deprecated. <br/>                                                                           |
 | 12 <br/> | 4 <br/> | NumberOfSymbols <br/>      | The number of entries in the symbol table. This data can be used to locate the string table, which immediately follows the symbol table. This value should be zero for an image because COFF debugging information is deprecated. <br/>                        |
 | 16 <br/> | 2 <br/> | SizeOfOptionalHeader <br/> | The size of the optional header, which is required for executable files but not for object files. This value should be zero for an object file. For a description of the header format, see [Optional Header (Image Only)](#optional-header-image-only). <br/> |
 | 18 <br/> | 2 <br/> | Characteristics <br/>      | The flags that indicate the attributes of the file. For specific flag values, see [Characteristics](#characteristics). <br/>                                                                                                                               |
 
-
-
- 
-
 #### Machine Types
 
-The Machine field has one of the following values that specifies its CPU type. An image file can be run only on the specified machine or on a system that emulates the specified machine.
-
-
+The Machine field has one of the following values, which specify the CPU type. An image file can be run only on the specified machine or on a system that emulates the specified machine.
 
 | Constant                                    | Value              | Description                                                                             |
 |---------------------------------------------|--------------------|-----------------------------------------------------------------------------------------|
-| IMAGE\_FILE\_MACHINE\_UNKNOWN <br/>   | 0x0 <br/>    | The contents of this field are assumed to be applicable to any machine type <br/> |
+| IMAGE\_FILE\_MACHINE\_UNKNOWN <br/>   | 0x0 <br/>    | The content of this field is assumed to be applicable to any machine type <br/> |
 | IMAGE\_FILE\_MACHINE\_AM33 <br/>      | 0x1d3 <br/>  | Matsushita AM33 <br/>                                                             |
 | IMAGE\_FILE\_MACHINE\_AMD64 <br/>     | 0x8664 <br/> | x64 <br/>                                                                         |
 | IMAGE\_FILE\_MACHINE\_ARM <br/>       | 0x1c0 <br/>  | ARM little endian <br/>                                                           |
@@ -249,15 +146,9 @@ The Machine field has one of the following values that specifies its CPU type. A
 | IMAGE\_FILE\_MACHINE\_THUMB <br/>     | 0x1c2 <br/>  | Thumb <br/>                                                                       |
 | IMAGE\_FILE\_MACHINE\_WCEMIPSV2 <br/> | 0x169 <br/>  | MIPS little-endian WCE v2 <br/>                                                   |
 
-
-
- 
-
 #### Characteristics
 
 The Characteristics field contains flags that indicate attributes of the object or image file. The following flags are currently defined:
-
-
 
 | Flag                                                 | Value              | Description                                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------------------------------|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -278,36 +169,24 @@ The Characteristics field contains flags that indicate attributes of the object 
 | IMAGE\_FILE\_UP\_SYSTEM\_ONLY <br/>            | 0x4000 <br/> | The file should be run only on a uniprocessor machine. <br/>                                                                                                                                                                                                                                                                                                 |
 | IMAGE\_FILE\_BYTES\_REVERSED\_HI <br/>         | 0x8000 <br/> | Big endian: the MSB precedes the LSB in memory. This flag is deprecated and should be zero. <br/>                                                                                                                                                                                                                                                            |
 
-
-
- 
-
 ### Optional Header (Image Only)
 
 Every image file has an optional header that provides information to the loader. This header is optional in the sense that some files (specifically, object files) do not have it. For image files, this header is required. An object file can have an optional header, but generally this header has no function in an object file except to increase its size.
 
-Note that the size of the optional header is not fixed. The SizeOfOptionalHeader field in the COFF header must be used to validate that a probe into the file for a particular data directory does not go beyond SizeOfOptionalHeader. For more information, see [COFF File Header (Object and Image)](#coff-file-header-object-and-image).
+Note that the size of the optional header is not fixed. The **SizeOfOptionalHeader** field in the COFF header must be used to validate that a probe into the file for a particular data directory does not go beyond **SizeOfOptionalHeader**. For more information, see [COFF File Header (Object and Image)](#coff-file-header-object-and-image).
 
-The NumberOfRvaAndSizes field of the optional header should also be used to ensure that no probe for a particular data directory entry goes beyond the optional header. In addition, it is important to validate the optional header magic number for format compatibility.
+The **NumberOfRvaAndSizes** field of the optional header should also be used to ensure that no probe for a particular data directory entry goes beyond the optional header. In addition, it is important to validate the optional header magic number for format compatibility.
 
 The optional header magic number determines whether an image is a PE32 or PE32+ executable.
-
-
 
 | Magic number      | PE format         |
 |-------------------|-------------------|
 | 0x10b <br/> | PE32 <br/>  |
 | 0x20b <br/> | PE32+ <br/> |
 
-
-
- 
-
 PE32+ images allow for a 64-bit address space while limiting the image size to 2 gigabytes. Other PE32+ modifications are addressed in their respective sections.
 
 The optional header itself has three major parts.
-
-
 
 | Offset (PE32/PE32+) | Size (PE32/PE32+)    | Header part                         | Description                                                                                                                                                                   |
 |---------------------|----------------------|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -315,15 +194,9 @@ The optional header itself has three major parts.
 | 28/24 <br/>   | 68/88 <br/>    | Windows-specific fields <br/> | Additional fields to support specific features of Windows (for example, subsystems). <br/>                                                                              |
 | 96/112 <br/>  | Variable <br/> | Data directories <br/>        | Address/size pairs for special tables that are found in the image file and are used by the operating system (for example, the import table and the export table). <br/> |
 
-
-
- 
-
 #### Optional Header Standard Fields (Image Only)
 
 The first eight fields of the optional header are standard fields that are defined for every implementation of COFF. These fields contain general information that is useful for loading and running an executable file. They are unchanged for the PE32+ format.
-
-
 
 | Offset         | Size          | Field                               | Description                                                                                                                                                                                                                                                                                                                                   |
 |----------------|---------------|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -336,27 +209,15 @@ The first eight fields of the optional header are standard fields that are defin
 | 16 <br/> | 4 <br/> | AddressOfEntryPoint <br/>     | The address of the entry point relative to the image base when the executable file is loaded into memory. For program images, this is the starting address. For device drivers, this is the address of the initialization function. An entry point is optional for DLLs. When no entry point is present, this field must be zero. <br/> |
 | 20 <br/> | 4 <br/> | BaseOfCode <br/>              | The address that is relative to the image base of the beginning-of-code section when it is loaded into memory. <br/>                                                                                                                                                                                                                    |
 
-
-
- 
-
 PE32 contains this additional field, which is absent in PE32+, following BaseOfCode.
-
-
 
 | Offset         | Size          | Field                  | Description                                                                                                                |
 |----------------|---------------|------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | 24 <br/> | 4 <br/> | BaseOfData <br/> | The address that is relative to the image base of the beginning-of-data section when it is loaded into memory. <br/> |
 
-
-
- 
-
 #### Optional Header Windows-Specific Fields (Image Only)
 
 The next 21 fields are an extension to the COFF optional header format. They contain additional information that is required by the linker and loader in Windows.
-
-
 
 | Offset (PE32/ PE32+) | Size (PE32/ PE32+) | Field                                   | Description                                                                                                                                                                                                                                                                                                            |
 |----------------------|--------------------|-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -382,15 +243,9 @@ The next 21 fields are an extension to the COFF optional header format. They con
 | 88/104 <br/>   | 4 <br/>      | LoaderFlags <br/>                 | Reserved, must be zero. <br/>                                                                                                                                                                                                                                                                                    |
 | 92/108 <br/>   | 4 <br/>      | NumberOfRvaAndSizes <br/>         | The number of data-directory entries in the remainder of the optional header. Each describes a location and size. <br/>                                                                                                                                                                                          |
 
-
-
- 
-
 ##### Windows Subsystem
 
 The following values defined for the Subsystem field of the optional header determine which Windows subsystem (if any) is required to run the image.
-
-
 
 | Constant                                                  | Value          | Description                                                      |
 |-----------------------------------------------------------|----------------|------------------------------------------------------------------|
@@ -409,15 +264,9 @@ The following values defined for the Subsystem field of the optional header dete
 | IMAGE\_SUBSYSTEM\_XBOX <br/>                        | 14 <br/> | XBOX <br/>                                                 |
 | IMAGE\_SUBSYSTEM\_WINDOWS\_BOOT\_APPLICATION <br/>  | 16 <br/> | Windows boot application. <br/>                            |
 
-
-
- 
-
 ##### DLL Characteristics
 
 The following values are defined for the DllCharacteristics field of the optional header.
-
-
 
 | Constant                                                             | Value              | Description                                                                                             |
 |----------------------------------------------------------------------|--------------------|---------------------------------------------------------------------------------------------------------|
@@ -437,31 +286,22 @@ The following values are defined for the DllCharacteristics field of the optiona
 | IMAGE\_DLLCHARACTERISTICS\_GUARD\_CF <br/>                     | 0x4000 <br/> | Image supports Control Flow Guard. <br/>                                                          |
 | IMAGE\_DLLCHARACTERISTICS\_ TERMINAL\_SERVER\_AWARE <br/>      | 0x8000 <br/> | Terminal Server aware. <br/>                                                                      |
 
-
-
- 
-
 #### Optional Header Data Directories (Image Only)
 
 Each data directory gives the address and size of a table or string that Windows uses. These data directory entries are all loaded into memory so that the system can use them at run time. A data directory is an 8-byte field that has the following declaration:
 
-
-```C++
+```cpp
 typedef struct _IMAGE_DATA_DIRECTORY {
     DWORD   VirtualAddress;
     DWORD   Size;
 } IMAGE_DATA_DIRECTORY, *PIMAGE_DATA_DIRECTORY;
 ```
 
-
-
 The first field, VirtualAddress, is actually the RVA of the table. The RVA is the address of the table relative to the base address of the image when the table is loaded. The second field gives the size in bytes. The data directories, which form the last part of the optional header, are listed in the following table.
 
 Note that the number of directories is not fixed. Before looking for a specific directory, check the NumberOfRvaAndSizes field in the optional header.
 
 Also, do not assume that the RVAs in this table point to the beginning of a section or that the sections that contain specific tables have specific names.
-
-
 
 | Offset (PE/PE32+)   | Size          | Field                               | Description                                                                                                                                                                          |
 |---------------------|---------------|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -482,13 +322,12 @@ Also, do not assume that the RVAs in this table point to the beginning of a sect
 | 208/224 <br/> | 8 <br/> | CLR Runtime Header <br/>      | The CLR runtime header address and size. For more information, see [The .cormeta Section (Object Only)](#the-cormeta-section-object-only).<br/>                                |
 | 216/232 <br/> | 8 <br/> | Reserved, must be zero <br/>  |                                                                                                                                                                                      |
 
-
-
- 
-
 The Certificate Table entry points to a table of attribute certificates. These certificates are not loaded into memory as part of the image. As such, the first field of this entry, which is normally an RVA, is a file pointer instead.
 
 ## Section Table (Section Headers)
+
+- [Section Flags](#section-flags)
+- [Grouped Sections (Object Only)](#grouped-sections-object-only)
 
 Each row of the section table is, in effect, a section header. This table immediately follows the optional header, if any. This positioning is required because the file header does not contain a direct pointer to the section table. Instead, the location of the section table is determined by calculating the location of the first byte after the headers. Make sure to use the size of the optional header as specified in the file header.
 
@@ -584,6 +423,36 @@ However, the characters following the "$"? determine the ordering of the contrib
 The section name in an image file never contains a "$"? character.
 
 ## Other Contents of the File
+
+- [Section Data](#section-data)
+- [COFF Relocations (Object Only)](#coff-relocations-object-only)
+  - [Type Indicators](#type-indicators)
+- [COFF Line Numbers (Deprecated)](#coff-line-numbers-deprecated)
+- [COFF Symbol Table](#coff-symbol-table)
+  - [Symbol Name Representation](#symbol-name-representation)
+  - [Section Number Values](#section-number-values)
+  - [Type Representation](#type-representation)
+  - [Storage Class](#storage-class)
+- [Auxiliary Symbol Records](#auxiliary-symbol-records)
+  - [Auxiliary Format 1: Function Definitions](#auxiliary-format-1-function-definitions)
+  - [Auxiliary Format 2: .bf and .ef Symbols](#auxiliary-format-2-bf-and-ef-symbols)
+  - [Auxiliary Format 3: Weak Externals](#auxiliary-format-3-weak-externals)
+  - [Auxiliary Format 4: Files](#auxiliary-format-4-files)
+  - [Auxiliary Format 5: Section Definitions](#auxiliary-format-5-section-definitions)
+  - [COMDAT Sections (Object Only)](#comdat-sections-object-only)
+  - [CLR Token Definition (Object Only)](#clr-token-definition-object-only)
+- [COFF String Table](#coff-string-table)
+- [The Attribute Certificate Table (Image Only)](#the-attribute-certificate-table-image-only)
+  - [Certificate Data](#certificate-data)
+- [Delay-Load Import Tables (Image Only)](#delay-load-import-tables-image-only)
+  - [The Delay-Load Directory Table](#the-delay-load-directory-table)
+  - [Attributes](#attributes)
+  - [Name](#name)
+  - [Module Handle](#module-handle)
+  - [Delay Import Address Table](#delay-import-address-table)
+  - [Delay Import Name Table](#delay-import-name-table)
+  - [Delay Bound Import Address Table and Time Stamp](#delay-bound-import-address-table-and-time-stamp)
+  - [Delay Unload Import Address Table](#delay-unload-import-address-table)
 
 The data structures that were described so far, up to and including the optional header, are all located at a fixed offset from the beginning of the file (or from the PE header if the file is an image that contains an MS-DOS stub).
 
@@ -1421,6 +1290,44 @@ The delay unload import address table (UIAT) is an optional table of IMAGE\_THUN
 
 ## Special Sections
 
+- [The .debug Section](#the-debug-section)
+  - [Debug Directory (Image Only)](#debug-directory-image-only)
+  - [Debug Type](#debug-type)
+  - [.debug$F (Object Only)](#debugf-object-only)
+  - [.debug$S (Object Only)](#debugs-object-only)
+  - [.debug$P (Object Only)](#debugp-object-only)
+  - [.debug$T (Object Only)](#debugt-object-only)
+  - [Linker Support for Microsoft Debug Information](#linker-support-for-microsoft-debug-information)
+- [The .drectve Section (Object Only)](#the-drectve-section-object-only)
+- [The .edata Section (Image Only)](#the-edata-section-image-only)
+  - [Export Directory Table](#export-directory-table)
+  - [Export Address Table](#export-address-table)
+  - [Export Name Pointer Table](#export-name-pointer-table)
+  - [Export Ordinal Table](#export-ordinal-table)
+  - [Export Name Table](#export-name-table)
+- [The .idata Section](#the-idata-section)
+  - [Import Directory Table](#import-directory-table)
+  - [Import Lookup Table](#import-lookup-table)
+  - [Hint/Name Table](#hintname-table)
+  - [Import Address Table](#delay-import-address-table)
+- [The .pdata Section](#the-pdata-section)
+- [The .reloc Section (Image Only)](#the-reloc-section-image-only)
+  - [Base Relocation Block](#base-relocation-block)
+  - [Base Relocation Types](#base-relocation-types)
+- [The .tls Section](#the-tls-section)
+  - [The TLS Directory](#the-tls-directory)
+  - [TLS Callback Functions](#tls-callback-functions)
+- [The Load Configuration Structure (Image Only)](#the-load-configuration-structure-image-only)
+  - [Load Configuration Directory](#load-configuration-directory)
+  - [Load Configuration Layout](#load-configuration-layout)
+- [The .rsrc Section](#the-rsrc-section)
+  - [Resource Directory Table](#resource-directory-table)
+  - [Resource Directory Entries](#resource-directory-entries)
+  - [Resource Directory String](#resource-directory-string)
+  - [Resource Data Entry](#resource-data-entry)
+- [The .cormeta Section (Object Only)](#the-cormeta-section-object-only)
+- [The .sxdata Section](#the-sxdata-section)
+
 Typical COFF sections contain code or data that linkers and Microsoft Win32 loaders process without special knowledge of the section contents. The contents are relevant only to the application that is being linked or executed.
 
 However, some COFF sections have special meanings when found in object files or image files. Tools and loaders recognize these sections because they have special flags set in the section header, because special locations in the image optional header point to them, or because the section name itself indicates a special function of the section. (Even if the section name itself does not indicate a special function of the section, the section name is dictated by convention, so the authors of this specification can refer to a section name in all cases.)
@@ -2130,7 +2037,7 @@ Each resource directory table has the following format. This data structure shou
 
 #### Resource Directory Entries
 
-The directory entries make up the rows of a table. Each resource directory entry has the following format. Whether the entry is a Name or ID entry is indicated by the resource directory table, which indicates how many Name and ID entries follow it (remember that all the Name entries precede all the ID entries for the table). All entries for the table are sorted in ascending order: the Name entries by case-sensitive string and the ID entries by numeric value. Offsets are relative to the address in the IMAGE\_DIRECTORY\_ENTRY\_RESOURCE DataDirectory. See [Peering Inside the PE: A Tour of the Win32 Portable Executable File Format](https://docs.microsoft.com/previous-versions/ms809762(v=msdn.10)#pe-file-resources) for more information.
+The directory entries make up the rows of a table. Each resource directory entry has the following format. Whether the entry is a Name or ID entry is indicated by the resource directory table, which indicates how many Name and ID entries follow it (remember that all the Name entries precede all the ID entries for the table). All entries for the table are sorted in ascending order: the Name entries by case-sensitive string and the ID entries by numeric value. Offsets are relative to the address in the IMAGE\_DIRECTORY\_ENTRY\_RESOURCE DataDirectory. See [Peering Inside the PE: A Tour of the Win32 Portable Executable File Format](/previous-versions/ms809762(v=msdn.10)#pe-file-resources) for more information.
 
 
 
@@ -2188,6 +2095,12 @@ The valid exception handlers of an object are listed in the **.sxdata** section 
 Additionally, the compiler marks a COFF object as registered SEH by emitting the absolute symbol "@feat.00" with the LSB of the value field set to 1. A COFF object with no registered SEH handlers would have the "@feat.00" symbol, but no **.sxdata** section.
 
 ## Archive (Library) File Format
+
+- [Archive File Signature](#archive-file-signature)
+- [Archive Member Headers](#archive-member-headers)
+- [First Linker Member](#first-linker-member)
+- [Second Linker Member](#second-linker-member)
+- [Longnames Member](#longnames-member)
 
 The COFF archive format provides a standard mechanism for storing collections of object files. These collections are commonly called libraries in programming documentation.
 
@@ -2320,6 +2233,9 @@ The strings are null-terminated. Each string begins immediately after the null b
 
 ## Import Library Format
 
+- [Import Header](#import-header)
+- [Import Type](#import-type)
+
 Traditional import libraries, that is, libraries that describe the exports from one image for use by another, typically follow the layout described in section 7, [Archive (Library) File Format](#archive-library-file-format). The primary difference is that import library members contain pseudo-object files instead of real ones, in which each member includes the section contributions that are required to build the import tables that are described in section 6.4, [The .idata Section](#the-idata-section) The linker generates this archive while building the exporting application.
 
 The section contributions for an import can be inferred from a small set of information. The linker can either generate the complete, verbose information into the import library for each member at the time of the library's creation or write only the canonical information to the library and let the application that later uses it generate the necessary data on the fly.
@@ -2393,27 +2309,29 @@ The null-terminated import symbol name immediately follows its associated import
 | IMPORT\_NAME\_NOPREFIX | 2 | The import name is the public symbol name, but skipping the leading ?, @, or optionally \_. |
 | IMPORT\_NAME\_UNDECORATE | 3 | The import name is the public symbol name, but skipping the leading ?, @, or optionally \_, and truncating at the first @. |
 
-
-
 ## Appendix A: Calculating Authenticode PE Image Hash
+
+- [What is an Authenticode PE Image Hash?](#what-is-an-authenticode-pe-image-hash)
+- [What is Covered in an Authenticode PE Image Hash?](#what-is-covered-in-an-authenticode-pe-image-hash)
 
 Several attribute certificates are expected to be used to verify the integrity of the images. However, the most common is Authenticode signature. An Authenticode signature can be used to verify that the relevant sections of a PE image file have not been altered in any way from the file’s original form. To accomplish this task, Authenticode signatures contain something called a PE image hash
 
-### A.1 What is an Authenticode PE Image Hash?
+### What is an Authenticode PE Image Hash?
 
 The Authenticode PE image hash, or file hash for short, is similar to a file checksum in that it produces a small value that relates to the integrity of a file. A checksum is produced by a simple algorithm and is used primarily to detect memory failures. That is, it is used to detect whether a block of memory on disk has gone bad and the values stored there have become corrupted. A file hash is similar to a checksum in that it also detects file corruption. However, unlike most checksum algorithms, it is very difficult to modify a file so that it has the same file hash as its original (unmodified) form. That is, a checksum is intended to detect simple memory failures that lead to corruption, but a file hash can be used to detect intentional and even subtle modifications to a file, such as those introduced by viruses, hackers, or Trojan horse programs.
 
 In an Authenticode signature, the file hash is digitally signed by using a private key known only to the signer of the file. A software consumer can verify the integrity of the file by calculating the hash value of the file and comparing it to the value of signed hash contained in the Authenticode digital signature. If the file hashes do not match, part of the file covered by the PE image hash has been modified.
 
-### A.2 What is Covered in an Authenticode PE Image Hash?
+### What is Covered in an Authenticode PE Image Hash?
 
 It is not possible or desirable to include all image file data in the calculation of the PE image hash. Sometimes it simply presents undesirable characteristics (for example, debugging information cannot be removed from publicly released files); sometimes it is simply impossible. For example, it is not possible to include all information within an image file in an Authenticode signature, then insert the Authenticode signature that contains that PE image hash into the PE image, and later be able to generate an identical PE image hash by including all image file data in the calculation again, because the file now contains the Authenticode signature that was not originally there.
 
-This appendix illustrates how a PE image hash is calculated and what parts of the PE image can be modified without invalidating the Authenticode signature.
-
-It is worth noting that the PE image hash for a specific file can be included in a separate catalog file without including an attribute certificate within the hashed file. This is relevant, because it becomes possible to invalidate the PE image hash in an Authenticode-signed catalog file by modifying a PE image that does not actually contain an Authenticode signature.
-
 #### Process for Generating the Authenticode PE Image Hash
+
+This section describes how a PE image hash is calculated and what parts of the PE image can be modified without invalidating the Authenticode signature.
+
+> [!NOTE]
+> The PE image hash for a specific file can be included in a separate catalog file without including an attribute certificate within the hashed file. This is relevant, because it becomes possible to invalidate the PE image hash in an Authenticode-signed catalog file by modifying a PE image that does not actually contain an Authenticode signature.
 
 All data in sections of the PE image that are specified in the section table are hashed in their entirety except for the following exclusion ranges:
 

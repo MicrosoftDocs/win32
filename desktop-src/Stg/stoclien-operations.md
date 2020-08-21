@@ -137,12 +137,8 @@ Displays the About dialog box for this application.
 
 </dd> </dl>
 
-The [StoClien](structured-storage-client-sample--stoclien-.md) sample uses many of the utility classes and services provided by [APPUTIL](https://msdn.microsoft.com/library/aa380382.aspx). For more information about [APPUTIL](https://msdn.microsoft.com/library/aa380382.aspx), see the [APPUTIL](https://msdn.microsoft.com/library/aa380382.aspx) library source code in the sibling [APPUTIL](https://msdn.microsoft.com/library/aa380382.aspx) directory and Apputil.md in the main tutorial directory. For more information about [APPUTIL](https://msdn.microsoft.com/library/aa380382.aspx), see [How to Build Samples](how-to-build-samples.md).
+The [StoClien](structured-storage-client-sample--stoclien-.md) sample uses many of the utility classes and services provided by [APPUTIL](./using-visual-studio.md). For more information about [APPUTIL](./using-visual-studio.md), see the [APPUTIL](./using-visual-studio.md) library source code in the sibling [APPUTIL](./using-visual-studio.md) directory and Apputil.md in the main tutorial directory. For more information about [APPUTIL](./using-visual-studio.md), see [How to Build Samples](how-to-build-samples.md).
 
  
 
  
-
-
-
-

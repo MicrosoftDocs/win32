@@ -64,17 +64,11 @@ Data logged by NPS can go to a text file on the NPS server or to a central SQL d
 [Internet Authentication Service and Network Policy Server](internet-authentication-service-vs-network-policy-server.md)
 </dt> <dt>
 
-[RADIUS Authentication, Authorization, and Accounting](https://docs.microsoft.com/windows/desktop/Nps/ias-radius-authentication-and-accounting)
+[RADIUS Authentication, Authorization, and Accounting](/windows/desktop/Nps/ias-radius-authentication-and-accounting)
 </dt> <dt>
 
-[Working with a State Server](https://docs.microsoft.com/windows/desktop/Nps/ias-working-with-a-state-server)
+[Working with a State Server](/windows/desktop/Nps/ias-working-with-a-state-server)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

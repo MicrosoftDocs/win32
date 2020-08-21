@@ -48,7 +48,7 @@ This method does not return a value.
 
 ## C++
 
-See [**OpenDatabase**](https://msdn.microsoft.com/library/Aa369276(v=VS.85).aspx) function.
+See [**OpenDatabase**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-opendatabase) function.
 
 ## Requirements
 
@@ -65,7 +65,3 @@ See [**OpenDatabase**](https://msdn.microsoft.com/library/Aa369276(v=VS.85).aspx
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMFLOAT2 operators
 
-The [**XMFLOAT2**](https://msdn.microsoft.com/library/Ee419468(v=VS.85).aspx) structure exposes the following operators.
+The [**XMFLOAT2**](/windows/win32/api/directxmath/ns-directxmath-xmfloat2) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -21,7 +21,7 @@ The [**XMFLOAT2**](https://msdn.microsoft.com/library/Ee419468(v=VS.85).aspx) st
 
 | Methods                                               | Description                                                                                                         |
 |-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| [**operator =**](https://msdn.microsoft.com/library/Ee419474(v=VS.85).aspx)<br/> | Assigns the vector component data from one instance of `XMFLOAT2` to the current instance of `XMFLOAT2`.<br/> |
+| [**operator =**](/windows/win32/api/directxmath/nf-directxmath-xmfloat2-operator-assign)<br/> | Assigns the vector component data from one instance of `XMFLOAT2` to the current instance of `XMFLOAT2`.<br/> |
 
 
 
@@ -37,13 +37,9 @@ The [**XMFLOAT2**](https://msdn.microsoft.com/library/Ee419468(v=VS.85).aspx) st
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT2**](https://msdn.microsoft.com/library/Ee419468(v=VS.85).aspx)
+[**XMFLOAT2**](/windows/win32/api/directxmath/ns-directxmath-xmfloat2)
 </dt> </dl>
 
  
 
  
-
-
-
-

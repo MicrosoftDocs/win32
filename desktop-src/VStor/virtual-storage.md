@@ -10,13 +10,9 @@ ms.date: 05/31/2018
 
 <dl>
 
-[Virtual Disk](https://msdn.microsoft.com/library/Dd323684(v=VS.85).aspx)  
+[Virtual Disk](/previous-versions/windows/desktop/legacy/dd323684(v=vs.85))  
 </dl>
 
  
 
  
-
-
-
-

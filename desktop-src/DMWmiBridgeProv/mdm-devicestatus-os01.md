@@ -51,7 +51,7 @@ The **MDM\_DeviceStatus\_OS01** class has these properties.
 
 <dl> <dt>
 
-[Edition](https://docs.microsoft.com/windows/client-management/mdm/devicestatus-csp#devicestatus-os-edition)
+[Edition](/windows/client-management/mdm/devicestatus-csp#devicestatus-os-edition)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -71,7 +71,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Node for the OS query.
@@ -87,7 +87,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/DeviceStatus"
@@ -109,10 +109,4 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 
  
-
- 
-
-
-
-
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Resources are the textures and buffers that are used to render a scene. Applications need to create, load, copy, and use resources. This section gives a brief introduction to resources and the steps and methods used by applications when working with resources.
 
-All resources, including the geometry resources [**IDirect3DIndexBuffer9**](/windows/desktop/api) and [**IDirect3DVertexBuffer9**](/windows/desktop/api), inherit from the [**IDirect3DResource9**](/windows/desktop/api) interface. The texture resources, [**IDirect3DCubeTexture9**](/windows/desktop/api), [**IDirect3DTexture9**](/windows/desktop/api), and [**IDirect3DVolumeTexture9**](/windows/desktop/api), also inherit from the [**IDirect3DBaseTexture9**](https://msdn.microsoft.com/library/Bb174322(v=VS.85).aspx) interface.
+All resources, including the geometry resources [**IDirect3DIndexBuffer9**](/windows/desktop/api) and [**IDirect3DVertexBuffer9**](/windows/desktop/api), inherit from the [**IDirect3DResource9**](/windows/desktop/api) interface. The texture resources, [**IDirect3DCubeTexture9**](/windows/desktop/api), [**IDirect3DTexture9**](/windows/desktop/api), and [**IDirect3DVolumeTexture9**](/windows/desktop/api), also inherit from the [**IDirect3DBaseTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9) interface.
 
 -   [Resource Properties (Direct3D 9)](resource-properties.md)
 -   [Manipulating Resources (Direct3D 9)](manipulating-resources.md)
@@ -34,6 +34,3 @@ All resources, including the geometry resources [**IDirect3DIndexBuffer9**](/win
  
 
  
-
-
-

@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 This topic describes ways to make your COM code more effective and robust.
 
--   [The \_\_uuidof Operator](https://docs.microsoft.com/windows)
--   [The IID\_PPV\_ARGS Macro](https://docs.microsoft.com/windows)
+-   [The \_\_uuidof Operator](/windows)
+-   [The IID\_PPV\_ARGS Macro](/windows)
 -   [The SafeRelease Pattern](#the-saferelease-pattern)
 -   [COM Smart Pointers](#com-smart-pointers)
 
@@ -41,7 +41,7 @@ The compiler extracts the GUID value from the header, so no library export is ne
 
 ## The IID\_PPV\_ARGS Macro
 
-We saw that both [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) and [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) require coercing the final parameter to a **void\*\*** type. This creates the potential for a type mismatch. Consider the following code fragment:
+We saw that both [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) and [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) require coercing the final parameter to a **void\*\*** type. This creates the potential for a type mismatch. Consider the following code fragment:
 
 
 ```C++
@@ -157,7 +157,7 @@ void UseSafeRelease()
 
 
 
-If [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) succeeds, the call to `SafeRelease` releases the pointer. If **CoCreateInstance** fails, *pFileOpen* remains **NULL**. The `SafeRelease` function checks for this and skips the call to [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release).
+If [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) succeeds, the call to `SafeRelease` releases the pointer. If **CoCreateInstance** fails, *pFileOpen* remains **NULL**. The `SafeRelease` function checks for this and skips the call to [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release).
 
 It is also safe to call `SafeRelease` more than once on the same pointer, as shown here:
 
@@ -266,7 +266,7 @@ hr = pFileOpen->Show(NULL);
 
 
 
-**CComPtr** also defines a **CComPtr::CoCreateInstance** method, which calls the COM [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) function with some default parameter values. The only required parameter is the class identifier, as the next example shows:
+**CComPtr** also defines a **CComPtr::CoCreateInstance** method, which calls the COM [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) function with some default parameter values. The only required parameter is the class identifier, as the next example shows:
 
 
 ```C++
@@ -275,7 +275,7 @@ hr = pFileOpen.CoCreateInstance(__uuidof(FileOpenDialog));
 
 
 
-The **CComPtr::CoCreateInstance** method is provided purely as a convenience; you can still call the COM [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) function, if you prefer.
+The **CComPtr::CoCreateInstance** method is provided purely as a convenience; you can still call the COM [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) function, if you prefer.
 
 ## Next
 
@@ -284,7 +284,3 @@ The **CComPtr::CoCreateInstance** method is provided purely as a convenience; yo
  
 
  
-
-
-
-

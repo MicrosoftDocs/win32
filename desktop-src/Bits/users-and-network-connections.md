@@ -21,8 +21,8 @@ If the network connection is lost, all jobs whose state is [**BG\_JOB\_STATE\_QU
 For BITS to detect that a user is logged on, the user must use one of the following interactive logon options:
 
 -   Log on through the Welcome screen.
--   Log on to a [terminal service](https://msdn.microsoft.com/library/bb892075(VS.85).aspx) client.
--   Use [fast user switching](https://msdn.microsoft.com/library/bb776893.aspx).
+-   Log on to a [terminal service](../termserv/terminal-services-portal.md) client.
+-   Use [fast user switching](../shell/fast-user-switching.md).
 -   Starting with Windows 10, version 1607, log on from another device using Remote Powershell. See [To manage PowerShell Remote sessions](using-windows-powershell-to-create-bits-transfer-jobs.md) for details.
 
 Running an application as another user (by using the **RunAs** command) is not an interactive logon; BITS will not run jobs associated with the specified user.
@@ -31,11 +31,7 @@ The LocalSystem, LocalService, and NetworkService system accounts are always log
 
 Job owners can provide a helper token to be used in situations where multiple tokens are needed to complete a transfer, such as for authentication with a remote host. See [Helper Tokens for BITS Transfer Jobs](helper-tokens-for-bits-transfer-jobs.md) for details. In earlier versions of Windows, the job owner effectively had to have administrator privileges to start a job that used a helper token. In Windows 10, version 1607, it is now possible for a BITS job owner to set helper tokens without being an administrator, as long as the helper token does not have administrator capabilities. This reduces the vulnerability footprint of background download or update tools by enabling them to run under the lower-privileged NetworkService account rather than under an account with administrative privileges.
 
-Users with a [restricted token](https://msdn.microsoft.com/library/aa379316.aspx) (a token that contains restricting SIDs) cannot create or modify jobs.
+Users with a [restricted token](../secauthz/restricted-tokens.md) (a token that contains restricting SIDs) cannot create or modify jobs.
  
 
  
-
-
-
-

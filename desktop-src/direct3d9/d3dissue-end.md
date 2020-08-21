@@ -17,7 +17,7 @@ api_location:
 
 # D3DISSUE\_END
 
-This macro creates a value used by [**Issue**](https://msdn.microsoft.com/library/Bb205877(v=VS.85).aspx) to issue a query end.
+This macro creates a value used by [**Issue**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dquery9-issue) to issue a query end.
 
 ``` syntax
 #define D3DISSUE_END (1 << 0)
@@ -63,13 +63,9 @@ D3DISSUE\_END is valid for the following query types.
 [**D3DISSUE\_BEGIN**](d3dissue-begin.md)
 </dt> <dt>
 
-[**D3DQUERYTYPE**](https://msdn.microsoft.com/library/Bb172594(v=VS.85).aspx)
+[**D3DQUERYTYPE**](./d3dquerytype.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

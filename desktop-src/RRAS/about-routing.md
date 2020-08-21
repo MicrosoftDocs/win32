@@ -15,12 +15,8 @@ The following documentation describes the Routing and Remote Access Service (RRA
 This documentation includes the following sections:
 
 -   [Router Management](about-router-management.md)
--   [Router Managers and Management Information Base](https://docs.microsoft.com/windows/desktop/RRAS/about-router-management-with-mib)
+-   [Router Managers and Management Information Base](/windows/desktop/RRAS/about-router-management-with-mib)
 
  
 
  
-
-
-
-

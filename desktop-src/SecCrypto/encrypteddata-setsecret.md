@@ -17,9 +17,9 @@ api_location:
 
 # EncryptedData.SetSecret method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use Platform Invocation Services (PInvoke) to call the Win32 API functions [**CryptEncryptMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencryptmessage) and [**CryptDecryptMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdecryptmessage) to encrypt and decrypt messages. For information about PInvoke, see [Platform Invoke Tutorial](https://msdn.microsoft.com/library/aa288468.aspx). The [.NET and CryptoAPI via P/Invoke: Part 1](https://msdn.microsoft.com/library/ms867087.aspx#netcryptoapi_topic5) and [.NET and CryptoAPI via P/Invoke: Part 2](https://msdn.microsoft.com/library/ms867087.aspx#netcryptoapi_topic6) subsections of [Extending .NET Cryptography with CAPICOM and P/Invoke](https://msdn.microsoft.com/library/ms867087.aspx) may also be helpful.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use Platform Invocation Services (PInvoke) to call the Win32 API functions [**CryptEncryptMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencryptmessage) and [**CryptDecryptMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdecryptmessage) to encrypt and decrypt messages. For information about PInvoke, see [Platform Invoke Tutorial](https://msdn.microsoft.com/library/aa288468.aspx). The [.NET and CryptoAPI via P/Invoke: Part 1](/previous-versions/ms867087(v=msdn.10)#netcryptoapi_topic5) and [.NET and CryptoAPI via P/Invoke: Part 2](/previous-versions/ms867087(v=msdn.10)#netcryptoapi_topic6) subsections of [Extending .NET Cryptography with CAPICOM and P/Invoke](/previous-versions/ms867087(v=msdn.10)) may also be helpful.\]
 
-The **SetSecret** method sets the value of the secret used to derive the cryptographic [*session key*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) used to encrypt and decrypt data.
+The **SetSecret** method sets the value of the secret used to derive the cryptographic [*session key*](../secgloss/s-gly.md) used to encrypt and decrypt data.
 
 ## Syntax
 
@@ -97,7 +97,3 @@ If appropriate for your application, consider using [**CryptProtectMemory**](/wi
  
 
  
-
-
-
-

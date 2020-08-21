@@ -41,7 +41,7 @@ ID3DX11EffectTechnique* GetTechniqueByName(
 *Name* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 The name of the technique.
 
@@ -79,10 +79,4 @@ A pointer to an [**ID3DX11EffectTechnique**](id3dx11effecttechnique.md), or **NU
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

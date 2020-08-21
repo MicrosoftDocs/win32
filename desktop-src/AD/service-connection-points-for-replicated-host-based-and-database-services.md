@@ -21,7 +21,7 @@ Replicable services can store the SCPs and other service-specific objects for mu
 
 One strategy for a replicable service is to create an SCP for each replica. When a client queries for the service's product GUID or other identifying keyword, it finds the SCP objects for all replicas and selects one at random or using some load-balancing algorithm. For example, an administrator could specify priority and load-balancing data for each replica, similar to the priority and weight fields of a DNS SRV record. The service's setup application can store this data in the **serviceBindingInformation** attribute of each replica's SCP. Clients retrieve the data from each SCP and use it to select a replica.
 
-Another strategy is to create a single SCP for all replicas and set the SCP **serviceDNSName** attribute to the name of a DNS SRV record. Then the setup application for each replica registers a SRV record with that name. When a client identifies the service's lone SCP, the client retrieves the name of the SRV record and uses the [**DnsQuery**](https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a) function to retrieve the array of SRV records for the replicas. Each SRV record contains the name of a host computer and additional data that the client can use to select a replica.
+Another strategy is to create a single SCP for all replicas and set the SCP **serviceDNSName** attribute to the name of a DNS SRV record. Then the setup application for each replica registers a SRV record with that name. When a client identifies the service's lone SCP, the client retrieves the name of the SRV record and uses the [**DnsQuery**](/windows/desktop/api/windns/nf-windns-dnsquery_a) function to retrieve the array of SRV records for the replicas. Each SRV record contains the name of a host computer and additional data that the client can use to select a replica.
 
 ## Database services
 
@@ -36,7 +36,3 @@ Each instance of a host-based service should create its own SCP under the comput
  
 
  
-
-
-
-

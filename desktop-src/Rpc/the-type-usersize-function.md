@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # The type\_UserSize Function
 
-The **<type>\_UserSize** function is a helper function for the \[ [wire\_marshal](https://docs.microsoft.com/windows/desktop/Midl/wire-marshal)\] and \[ [user\_marshal](https://docs.microsoft.com/windows/desktop/Midl/user-marshal)\] attributes. The stubs call this function to size the RPC data buffer for the user data object before the data is marshaled on the client or server side. The function is defined as:
+The **<type>\_UserSize** function is a helper function for the \[ [wire\_marshal](/windows/desktop/Midl/wire-marshal)\] and \[ [user\_marshal](/windows/desktop/Midl/user-marshal)\] attributes. The stubs call this function to size the RPC data buffer for the user data object before the data is marshaled on the client or server side. The function is defined as:
 
 ``` syntax
 unsigned long __RPC_USER  <type>_UserSize(
@@ -60,16 +60,12 @@ The **<type>\_UserSize** function is not called if the wire size can be computed
 [Marshaling rules for user\_marshal and wire\_marshal](marshaling-rules-for-user-marshal-and-wire-marshal.md)
 </dt> <dt>
 
-[user\_marshal](https://docs.microsoft.com/windows/desktop/Midl/user-marshal)
+[user\_marshal](/windows/desktop/Midl/user-marshal)
 </dt> <dt>
 
-[wire\_marshal](https://docs.microsoft.com/windows/desktop/Midl/wire-marshal)
+[wire\_marshal](/windows/desktop/Midl/wire-marshal)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -24,7 +24,7 @@ The following table describes which threads the [InkEdit](inkedit-control-refere
 | [**MouseDown**](inkedit-mousedown.md)                                         | Fires on the application's UI thread<br/>                  |
 | [**MouseMove**](inkedit-mousemove.md)                                         | Fires on the application's UI thread<br/>                  |
 | [**MouseUp**](inkedit-mouseup.md)                                             | Fires on the application's UI thread<br/>                  |
-| [**Recognition**](https://msdn.microsoft.com/library/ms567627(v=VS.90).aspx) (Managed Library only). | Fires on the application's UI thread<br/>                  |
+| [**Recognition**](/previous-versions/ms567627(v=vs.100)) (Managed Library only). | Fires on the application's UI thread<br/>                  |
 | [**RecognitionResult**](inkedit-recognitionresult.md)                         | Fires on the application's UI thread<br/>                  |
 | [**SelChange**](inkedit-selchange.md)                                         | Fires on the application's UI thread<br/>                  |
 | [**Stroke**](inkedit-stroke.md)                                               | Fires on the application's UI thread<br/>                  |
@@ -34,9 +34,4 @@ The following table describes which threads the [InkEdit](inkedit-control-refere
  
 
  
-
- 
-
-
-
 

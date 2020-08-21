@@ -20,7 +20,7 @@ With version 5.1, WinHTTP is an operating-system component of the following oper
 -   Windows XP with Service Pack 1 (SP1) and later
 -   Windows Server 2003 with Service Pack 1 (SP1) and later
 
-For Windows Server 2003 with SP1, WinHTTP is a system side-by-side assembly. For more information, see [Side-by-side Assemblies](https://docs.microsoft.com/windows/desktop/SbsCs/about-side-by-side-assemblies-).
+For Windows Server 2003 with SP1, WinHTTP is a system side-by-side assembly. For more information, see [Side-by-side Assemblies](/windows/desktop/SbsCs/about-side-by-side-assemblies-).
 
 Redistribution of WinHTTP 5.1 outside of these operating systems is not supported.
 
@@ -36,6 +36,3 @@ The WinHTTP 5.0 redistributable, "winhttp5.dll", runs on Windows 2000 or later,
  
 
  
-
-
-

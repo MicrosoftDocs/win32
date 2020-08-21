@@ -14,8 +14,8 @@ The following topics provide information about using security management. These 
 
 | Topic                                                                        | Description                                                                                                                                                                                                  |
 |------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Using LSA Policy](using-lsa-policy.md)                                     | Information about using the [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) Policy functions for the management of local security |
-| [Using Password Filters](using-password-filters.md)                         | Information about installing and registering a [*password filter*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly)                                                               |
+| [Using LSA Policy](using-lsa-policy.md)                                     | Information about using the [*Local Security Authority*](/windows/desktop/SecGloss/l-gly) Policy functions for the management of local security |
+| [Using Password Filters](using-password-filters.md)                         | Information about installing and registering a [*password filter*](/windows/desktop/SecGloss/p-gly)                                                               |
 | [Using Service Security Attachments](using-service-security-attachments.md) | Information about creating attachment components required to support a service-specific configuration in the Security Configuration snap-in                                                                  |
 
 
@@ -25,6 +25,3 @@ The following topics provide information about using security management. These 
  
 
  
-
-
-

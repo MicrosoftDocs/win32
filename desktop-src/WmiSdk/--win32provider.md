@@ -138,7 +138,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-This property is composed of values from the [**MSFT\_Providers**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-providers) **HostingGroup** and **HostingSpecification** properties. The value of this property specifies how WMI loads the provider and the security account it runs under. For more information about setting the **HostingModel** property, see [Provider Hosting and Security](provider-hosting-and-security.md) and [Registering a Provider](registering-a-provider.md).
+This property is composed of values from the [**MSFT\_Providers**](/previous-versions/windows/desktop/wmisystemprov/msft-providers) **HostingGroup** and **HostingSpecification** properties. The value of this property specifies how WMI loads the provider and the security account it runs under. For more information about setting the **HostingModel** property, see [Provider Hosting and Security](provider-hosting-and-security.md) and [Registering a Provider](registering-a-provider.md).
 
 </dd> <dt>
 
@@ -281,7 +281,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-If **TRUE**, the provider agrees to prepare to unload by calling [**IUnknown::Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) on all outstanding interface points when WMI calls the **Release** method of its primary interface. Providers that must remain clients of WMI after they do not function as providers should set **Pure** to **FALSE**. The default setting is **TRUE**. For more information, see the Remarks section of this topic.
+If **TRUE**, the provider agrees to prepare to unload by calling [**IUnknown::Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) on all outstanding interface points when WMI calls the **Release** method of its primary interface. Providers that must remain clients of WMI after they do not function as providers should set **Pure** to **FALSE**. The default setting is **TRUE**. For more information, see the Remarks section of this topic.
 
 </dd> <dt>
 
@@ -294,7 +294,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-Security descriptor (SD) in the Security Descriptor Definition Language (SDDL) that determines the set of users that can successfully call [**IWbemDecoupledRegistrar:Register**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register) for the decoupled provider. For more information, see the [Security Descriptor Definition Language](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language) topic in the Security section of the Windows SDK. This security descriptor is used only for decoupled providers, and does not affect other providers. For more information, see [Incorporating a Provider in an Application](incorporating-a-provider-in-an-application.md).
+Security descriptor (SD) in the Security Descriptor Definition Language (SDDL) that determines the set of users that can successfully call [**IWbemDecoupledRegistrar:Register**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register) for the decoupled provider. For more information, see the [Security Descriptor Definition Language](/windows/desktop/SecAuthZ/security-descriptor-definition-language) topic in the Security section of the Windows SDK. This security descriptor is used only for decoupled providers, and does not affect other providers. For more information, see [Incorporating a Provider in an Application](incorporating-a-provider-in-an-application.md).
 
 WMI performs access checks for decoupled providers that use the [**IWbemProviderInit**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit) and [**IWbemObjectSink**](iwbemobjectsink.md) interfaces. If the security descriptor is **NULL**, then only applications or services that run under the LocalSystem, NetworkService, LocalService accounts can run a decoupled provider.
 
@@ -438,7 +438,7 @@ WMI must be able to distinguish pure providers from non-pure providers so that i
 
 <dl> <dt>
 
-[**\_\_Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--provider)
+[**\_\_Provider**](/windows/desktop/WmiSdk/--provider)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
@@ -448,9 +448,4 @@ WMI must be able to distinguish pure providers from non-pure providers so that i
 </dt> </dl>
 
  
-
- 
-
-
-
 

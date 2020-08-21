@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PROV\_RSA\_AES
 
-The PROV\_RSA\_AES provider type supports both [digital signatures](digital-signatures.md) and data encryption. It is considered a general purpose [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP). The RSA [*public key algorithm*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) is used for all [*public key*](https://msdn.microsoft.com/library/ms721603(v=VS.85).aspx) operations.
+The PROV\_RSA\_AES provider type supports both [digital signatures](digital-signatures.md) and data encryption. It is considered a general purpose [*cryptographic service provider*](../secgloss/c-gly.md) (CSP). The RSA [*public key algorithm*](../secgloss/p-gly.md) is used for all [*public key*](../secgloss/p-gly.md) operations.
 
 ## Algorithms Supported
 
@@ -18,10 +18,10 @@ For descriptions of each of these algorithms, see the glossary.
 
 | Purpose      | Supported algorithms                                                                                                                                                                                                                                                                                       |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Key Exchange | [*RSA*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx)<br/>                                                                                                                                                                                                                                     |
-| Signature    | [*RSA*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx)<br/>                                                                                                                                                                                                                                     |
-| Encryption   | [*RC2*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx)<br/> [*RC4*](https://msdn.microsoft.com/library/ms721604(v=VS.85).aspx)<br/> [*Advanced Encryption Standard*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) (AES) <br/>                                                       |
-| Hashing      | [*MD2*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx)<br/> [*MD4*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx)<br/> [*MD5*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx)<br/> [*SHA-1*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx)<br/> SHA-2 (SHA-256, SHA-384, and SHA-512)<br/> |
+| Key Exchange | [*RSA*](../secgloss/r-gly.md)<br/>                                                                                                                                                                                                                                     |
+| Signature    | [*RSA*](../secgloss/r-gly.md)<br/>                                                                                                                                                                                                                                     |
+| Encryption   | [*RC2*](../secgloss/r-gly.md)<br/> [*RC4*](../secgloss/r-gly.md)<br/> [*Advanced Encryption Standard*](../secgloss/a-gly.md) (AES) <br/>                                                       |
+| Hashing      | [*MD2*](../secgloss/m-gly.md)<br/> [*MD4*](../secgloss/m-gly.md)<br/> [*MD5*](../secgloss/m-gly.md)<br/> [*SHA-1*](../secgloss/s-gly.md)<br/> SHA-2 (SHA-256, SHA-384, and SHA-512)<br/> |
 
 
 
@@ -42,7 +42,3 @@ This provider type is defined by Microsoft and RSA Data Security. It is describe
  
 
  
-
-
-
-

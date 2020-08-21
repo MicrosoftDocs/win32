@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MF\_TOPONODE\_WORKQUEUE\_MMCSS\_CLASS attribute
 
-Specifies a [Multimedia Class Scheduler Service](https://msdn.microsoft.com/library/ms684247(v=VS.85).aspx) (MMCSS) task for a topology branch.
+Specifies a [Multimedia Class Scheduler Service](../procthread/multimedia-class-scheduler-service.md) (MMCSS) task for a topology branch.
 
 ## Data type
 
@@ -68,7 +68,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

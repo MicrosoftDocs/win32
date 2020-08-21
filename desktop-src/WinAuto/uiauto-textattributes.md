@@ -137,7 +137,7 @@ Information about text alignment such as indentation, tab settings, and horizont
 
 ## Text Color Attributes
 
-The foreground and background text colors are available through the following text attributes. Both colors are specified as a [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) data type.
+The foreground and background text colors are available through the following text attributes. Both colors are specified as a [**COLORREF**](/windows/desktop/gdi/colorref) data type.
 
 
 
@@ -229,7 +229,3 @@ Information about current text selection in the range and focus state is availab
  
 
  
-
-
-
-

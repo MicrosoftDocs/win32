@@ -52,7 +52,7 @@ protected bool HasResource { get; }
 
 #### Property value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 
 ## See also
 
@@ -63,4 +63,3 @@ Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redi
 [EsentResource members](dn350521\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

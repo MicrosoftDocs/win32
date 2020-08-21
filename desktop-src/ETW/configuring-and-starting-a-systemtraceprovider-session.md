@@ -24,15 +24,15 @@ To programmatically enable the SystemTraceProvider to start a session other than
 
     **\#define PRIVATE\_LOGGER\_NAME L”Some Private Trace Session”**
 
--   At the controller, set the following members of the [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) structure.
+-   At the controller, set the following members of the [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) structure.
 
     Set **LogFileMode** to **EVENT\_TRACE\_SYSTEM\_LOGGER\_MODE**.
 
     Set **LoggerName** to private logger, instead of **KERNEL\_LOGGER\_NAME**.
 
-    Make sure the **Wnode.Guid** member of the [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) structure is not set to **SystemTraceControlGuid**. You must assign a new **GUID** to this member.
+    Make sure the **Wnode.Guid** member of the [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) structure is not set to **SystemTraceControlGuid**. You must assign a new **GUID** to this member.
 
--   At the consumer, set the **LoggerName** member of the [**EVENT\_TRACE\_LOGFILE**](event-trace-logfile.md) structure to this private logger.
+-   At the consumer, set the **LoggerName** member of the [**EVENT\_TRACE\_LOGFILE**](/windows/win32/api/evntrace/ns-evntrace-event_trace_logfilea) structure to this private logger.
 
 > [!Note]  
 > If you want a non-administrators or a non-TCB process to be able to start a profiling trace session using the SystemTraceProvider on behalf of third party applications, then you need to grant the user profile privilege and then add this user to both the session **GUID** (created for the logger session) and the system trace provider **GUID** to enable the system trace provider. For more information, see the [**EventAccessControl**](/windows/desktop/api/Evntcons/nf-evntcons-eventaccesscontrol) function.
@@ -61,6 +61,3 @@ To programmatically enable the SystemTraceProvider to start a session other than
  
 
  
-
-
-

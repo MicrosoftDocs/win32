@@ -59,13 +59,9 @@ cursor1 CURSOR "bullseye.cur"
 
 <dl> <dt>
 
-[Using Cursors](https://msdn.microsoft.com/library/ms648380(v=VS.85).aspx)
+[Using Cursors](./using-cursors.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

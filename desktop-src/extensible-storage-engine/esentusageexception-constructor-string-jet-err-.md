@@ -55,7 +55,7 @@ protected EsentUsageException(
 #### Parameters
 
   - description  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The description of the error.
 
@@ -77,4 +77,3 @@ protected EsentUsageException(
 [EsentUsageException overload](dn350852\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

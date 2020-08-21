@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # WM\_PSD\_PAGESETUPDLG message
 
-Notifies a [**PagePaintHook**](https://msdn.microsoft.com/library/ms646935(v=VS.85).aspx) hook procedure that the **Page Setup** dialog box is about to draw the contents of the sample page. The hook procedure can use this message to carry out initialization tasks related to drawing the contents of the sample page.
+Notifies a [**PagePaintHook**](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook) hook procedure that the **Page Setup** dialog box is about to draw the contents of the sample page. The hook procedure can use this message to carry out initialization tasks related to drawing the contents of the sample page.
 
 
 ```C++
@@ -71,7 +71,7 @@ If the hook procedure returns **FALSE**, the dialog box sends the remaining mess
 
 ## Remarks
 
-The **Page Setup** dialog box includes an image of a sample page that shows how the user's selections affect the appearance of the printed output. When you call the [**PageSetupDlg**](https://msdn.microsoft.com/library/ms646937(v=VS.85).aspx) function, you can provide a [*PagePaintHook*](https://msdn.microsoft.com/library/ms646935(v=VS.85).aspx) hook procedure to customize the appearance of the sample page. Whenever the dialog box is about to draw the contents of the sample page, the dialog box sends a sequence of messages to the hook procedure.
+The **Page Setup** dialog box includes an image of a sample page that shows how the user's selections affect the appearance of the printed output. When you call the [**PageSetupDlg**](/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)) function, you can provide a [*PagePaintHook*](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook) hook procedure to customize the appearance of the sample page. Whenever the dialog box is about to draw the contents of the sample page, the dialog box sends a sequence of messages to the hook procedure.
 
 The first three messages of a drawing sequence (**WM\_PSD\_PAGESETUPDLG**, [**WM\_PSD\_FULLPAGERECT**](wm-psd-fullpagerect.md), or [**WM\_PSD\_MINMARGINRECT**](wm-psd-minmarginrect.md)) provide information that the hook procedure can use to draw the contents of the sample page. The remaining messages ([**WM\_PSD\_MARGINRECT**](wm-psd-marginrect.md), [**WM\_PSD\_GREEKTEXTRECT**](wm-psd-greektextrect.md), [**WM\_PSD\_ENVSTAMPRECT**](wm-psd-envstamprect.md), [**WM\_PSD\_YAFULLPAGERECT**](wm-psd-yafullpagerect.md)) notify the hook procedure that the dialog box is about to draw a specific portion of the sample page. This allows the hook procedure to selectively draw portions of the sample page.
 
@@ -94,10 +94,10 @@ The first three messages of a drawing sequence (**WM\_PSD\_PAGESETUPDLG**, [**WM
 **Reference**
 </dt> <dt>
 
-[*PagePaintHook*](https://msdn.microsoft.com/library/ms646935(v=VS.85).aspx)
+[*PagePaintHook*](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook)
 </dt> <dt>
 
-[**PageSetupDlg**](https://msdn.microsoft.com/library/ms646937(v=VS.85).aspx)
+[**PageSetupDlg**](/previous-versions/windows/desktop/legacy/ms646937(v=vs.85))
 </dt> <dt>
 
 [**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga)
@@ -128,10 +128,4 @@ The first three messages of a drawing sequence (**WM\_PSD\_PAGESETUPDLG**, [**WM
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

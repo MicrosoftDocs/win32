@@ -18,7 +18,7 @@ The tape backup API enables backup applications to read from and write to a tape
 
 Single-instance store (SIS) is an architecture designed to maintain duplicate files with a minimum of overhead. Backup application use the SIS backup API to access the SIS architecture. For more information, see [Single-Instance Store and SIS Backup](single-instance-store-and-sis-backup.md).
 
-Backup and restore of encrypted files is enabled by the raw encryption API, which reads and writes encrypted files while keeping the data in encrypted format. The API allows the encrypted data in these files to be backed up and restored, while meeting the goals of maintaining the security of the backed up data, and being usable by an application that lacks permission to use the encryption keys on the file. For more information, see [Backup and Restore of Encrypted Files](https://docs.microsoft.com/windows/desktop/FileIO/backup-and-restore-of-encrypted-files).
+Backup and restore of encrypted files is enabled by the raw encryption API, which reads and writes encrypted files while keeping the data in encrypted format. The API allows the encrypted data in these files to be backed up and restored, while meeting the goals of maintaining the security of the backed up data, and being usable by an application that lacks permission to use the encryption keys on the file. For more information, see [Backup and Restore of Encrypted Files](/windows/desktop/FileIO/backup-and-restore-of-encrypted-files).
 
 The Srdelayed tool can enable system state recovery applications to move, delete, and set the short name of system files. For more information, see [Srdelayed.exe](srdelayed-exe.md).
 
@@ -32,7 +32,3 @@ The Srdelayed tool can enable system state recovery applications to move, delete
  
 
  
-
-
-
-

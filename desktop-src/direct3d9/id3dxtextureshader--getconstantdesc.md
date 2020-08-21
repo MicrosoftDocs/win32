@@ -58,7 +58,7 @@ Returns a pointer to an array of descriptions. See [**D3DXCONSTANT\_DESC**](d3dx
 *pCount* \[in, out\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**UINT**](../winprog/windows-data-types.md)\***
 
 The input supplied must be the maximum size of the array. The output is the number of elements that are filled in the array when the function returns.
 
@@ -98,7 +98,3 @@ Samplers can appear more than once in a constant table, therefore, this method c
  
 
  
-
-
-
-

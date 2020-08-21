@@ -19,7 +19,7 @@ The [**ITSdp::get\_MediaCollection**](itsdp-get-mediacollection.md) method creat
 
 ## Members
 
-The **ITMediaCollection** interface inherits from the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface. **ITMediaCollection** also has these types of members:
+The **ITMediaCollection** interface inherits from the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface. **ITMediaCollection** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -56,9 +56,4 @@ The **ITMediaCollection** interface has these methods.
 
 
  
-
- 
-
-
-
 

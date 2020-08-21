@@ -17,7 +17,7 @@ api_location:
 
 # MENUHELPID structure
 
-Contains the final data written to the [**RT\_MENU**](https://docs.microsoft.com/windows/desktop/menurc/resource-types) resource for a menu or submenu if the **resInfo** member of the [**POPUPMENUITEM**](popupmenuitem.md) structure is set to **MFR\_POPUP**. The structure definition provided here is for explanation only; it is not present in any standard header file.
+Contains the final data written to the [**RT\_MENU**](/windows/desktop/menurc/resource-types) resource for a menu or submenu if the **resInfo** member of the [**POPUPMENUITEM**](popupmenuitem.md) structure is set to **MFR\_POPUP**. The structure definition provided here is for explanation only; it is not present in any standard header file.
 
 ## Syntax
 
@@ -41,7 +41,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-The identifier used to identify the menu during [**WM\_HELP**](https://docs.microsoft.com/windows/desktop/shell/wm-help) processing.
+The identifier used to identify the menu during [**WM\_HELP**](/windows/desktop/shell/wm-help) processing.
 
 </dd> </dl>
 
@@ -76,10 +76,4 @@ The identifier used to identify the menu during [**WM\_HELP**](https://docs.micr
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -39,7 +39,7 @@ typedef struct D3DGAMMARAMP {
 **red**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -50,7 +50,7 @@ Array of 256 WORD element that describes the red gamma ramp.
 **green**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -61,7 +61,7 @@ Array of 256 WORD element that describes the green gamma ramp.
 **blue**
 </dt> <dd>
 
-Type: **[**WORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**WORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -86,16 +86,12 @@ Array of 256 WORD element that describes the blue gamma ramp.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetGammaRamp**](https://msdn.microsoft.com/library/Bb174390(v=VS.85).aspx)
+[**GetGammaRamp**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getgammaramp)
 </dt> <dt>
 
-[**SetGammaRamp**](https://msdn.microsoft.com/library/Bb174434(v=VS.85).aspx)
+[**SetGammaRamp**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setgammaramp)
 </dt> </dl>
 
  
 
  
-
-
-
-

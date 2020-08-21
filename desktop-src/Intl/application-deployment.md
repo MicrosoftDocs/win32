@@ -61,11 +61,11 @@ Installation logic for copying and setting up application files relies on the su
 
 If your application simply installs the language of the target operating system, the installer must detect the operating system user interface to determine the application resources to install. To support the best user experience, the installer should also detect the user interface language to present a localized user interface for the installation itself.
 
-It is recommended to use Windows Installer (MSI) to create your installation software. Associated resources should be included in the base language resource file, as described in [Creating the Base Language Resource File](creating-the-base-language-resource-file.md). For instructions on using MSI to prepare the application installer, see [Windows Installer](https://msdn.microsoft.com/library/Cc185688(v=VS.85).aspx).
+It is recommended to use Windows Installer (MSI) to create your installation software. Associated resources should be included in the base language resource file, as described in [Creating the Base Language Resource File](creating-the-base-language-resource-file.md). For instructions on using MSI to prepare the application installer, see [Windows Installer](../msi/windows-installer-portal.md).
 
 ## Uninstall Program
 
-You might also want to furnish an uninstall program with your MUI application. MSI is also recommended for creation of this program. For instructions on using MSI to prepare the uninstall software, see [Windows Installer](https://msdn.microsoft.com/library/Cc185688(v=VS.85).aspx).
+You might also want to furnish an uninstall program with your MUI application. MSI is also recommended for creation of this program. For instructions on using MSI to prepare the uninstall software, see [Windows Installer](../msi/windows-installer-portal.md).
 
 ## Related topics
 
@@ -77,6 +77,3 @@ You might also want to furnish an uninstall program with your MUI application. M
  
 
  
-
-
-

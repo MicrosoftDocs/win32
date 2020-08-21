@@ -13,12 +13,8 @@ ms.date: 05/31/2018
 
 # Account Lockout (LDAP Provider)
 
-When the number of failed logon attempts is exceeded, the user account is locked out for a time period specified by the [**lockoutDuration**](https://docs.microsoft.com/windows/desktop/ADSchema/a-lockoutduration) attribute. The [**IADsUser.IsAccountLocked**](iadsuser-property-methods.md) property appears to be the property to use to read and modify the lockout state of a user account, but the LDAP ADSI provider does not accurately support the **IsAccountLocked** property. To obtain and set accurate account lockout data, use the WinNT provider. For more information about using the **IsAccountLocked** property with the WinNT provider, see [Account Lockout (WinNT Provider)](winnt-account-lockout.md).
+When the number of failed logon attempts is exceeded, the user account is locked out for a time period specified by the [**lockoutDuration**](/windows/desktop/ADSchema/a-lockoutduration) attribute. The [**IADsUser.IsAccountLocked**](iadsuser-property-methods.md) property appears to be the property to use to read and modify the lockout state of a user account, but the LDAP ADSI provider does not accurately support the **IsAccountLocked** property. To obtain and set accurate account lockout data, use the WinNT provider. For more information about using the **IsAccountLocked** property with the WinNT provider, see [Account Lockout (WinNT Provider)](winnt-account-lockout.md).
 
  
 
  
-
-
-
-

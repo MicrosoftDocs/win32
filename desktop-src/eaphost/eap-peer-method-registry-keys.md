@@ -130,7 +130,7 @@ The following AP peer method registry values are optional.
 | Constant Value | PeerInvokePasswordDialog                                                                                                                                                                                                                         |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type           | REG\_DWORD                                                                                                                                                                                                                                       |
-| Description    | 1- to get credentials using the generic EAPHost password and domain dialog box. 0 - to use a custom dialog box. If the generic dialog box is used, credentials are set by the [**EapPeerSetCredentials**](https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials) method. |
+| Description    | 1- to get credentials using the generic EAPHost password and domain dialog box. 0 - to use a custom dialog box. If the generic dialog box is used, credentials are set by the [**EapPeerSetCredentials**](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials) method. |
 
 
 
@@ -162,7 +162,7 @@ The following AP peer method registry values are optional.
 <li>1 - to get credentials using the generic EAPHost user name dialog box.</li>
 <li>0- to use a custom dialog box.</li>
 </ul>
-If the generic dialog box is used, credentials are set by the [<strong>EapPeerSetCredentials</strong>](https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials) method.</td>
+If the generic dialog box is used, credentials are set by the [<strong>EapPeerSetCredentials</strong>](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials) method.</td>
 </tr>
 </tbody>
 </table>
@@ -216,7 +216,3 @@ If the generic dialog box is used, credentials are set by the [<strong>EapPeerSe
  
 
  
-
-
-
-

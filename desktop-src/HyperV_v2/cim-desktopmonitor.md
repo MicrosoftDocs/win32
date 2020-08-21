@@ -57,7 +57,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MegaHertz"), **PUnit** ("hertz \* 10^6")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("MegaHertz"), **PUnit** ("hertz \* 10^6")
 </dt> </dl>
 
 The bandwidth of the display, in MHertz. "0" indicates unknown.
@@ -169,9 +169,4 @@ The logical width of the display, in screen coordinates.
 </dt> </dl>
 
  
-
- 
-
-
-
 

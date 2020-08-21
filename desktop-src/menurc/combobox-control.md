@@ -49,13 +49,9 @@ COMBOBOX 777, 10, 10, 50, 54, CBS_SIMPLE | WS_VSCROLL | WS_TABSTOP
 
 <dl> <dt>
 
-[Combo Boxes](https://msdn.microsoft.com/library/Bb775791(v=VS.85).aspx)
+[Combo Boxes](../controls/about-combo-boxes.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

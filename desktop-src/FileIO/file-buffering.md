@@ -30,7 +30,7 @@ For more information on how **FILE\_FLAG\_NO\_BUFFERING** interacts with other c
 
 As previously discussed, an application must meet certain requirements when working with files opened with **FILE\_FLAG\_NO\_BUFFERING**. The following specifics apply:
 
--   File access sizes, including the optional file offset in the [**OVERLAPPED**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure, if specified, must be for a number of bytes that is an integer multiple of the volume sector size. For example, if the sector size is 512 bytes, an application can request reads and writes of 512, 1,024, 1,536, or 2,048 bytes, but not of 335, 981, or 7,171 bytes.
+-   File access sizes, including the optional file offset in the [**OVERLAPPED**](/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure, if specified, must be for a number of bytes that is an integer multiple of the volume sector size. For example, if the sector size is 512 bytes, an application can request reads and writes of 512, 1,024, 1,536, or 2,048 bytes, but not of 335, 981, or 7,171 bytes.
 -   File access buffer addresses for read and write operations should be physical sector-aligned, which means aligned on addresses in memory that are integer multiples of the volume's physical sector size. Depending on the disk, this requirement may not be enforced.
 
 Application developers should take note of new types of storage devices being introduced into the market with a physical media sector size of 4,096 bytes. The industry name for these devices is "Advanced Format". As there may be compatibility issues with directly introducing 4,096 bytes as the unit of addressing for the media, a temporary compatibility solution is to introduce devices that emulate a regular 512-byte sector storage device but make available information about the true sector size through standard ATA and SCSI commands.
@@ -44,19 +44,16 @@ Most current Windows APIs, such as [**IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY**](/wind
 
 **Windows Server 2003 and Windows XP:** The [**STORAGE\_ACCESS\_ALIGNMENT\_DESCRIPTOR**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_access_alignment_descriptor) structure is not available. It was introduced with Windows Vista and Windows Server 2008.
 
-Because buffer addresses for read and write operations must be sector-aligned, the application must have direct control of how these buffers are allocated. One way to sector-align buffers is to use the [**VirtualAlloc**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc) function to allocate the buffers. Consider the following:
+Because buffer addresses for read and write operations must be sector-aligned, the application must have direct control of how these buffers are allocated. One way to sector-align buffers is to use the [**VirtualAlloc**](/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc) function to allocate the buffers. Consider the following:
 
--   [**VirtualAlloc**](https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc) allocates memory that is aligned on addresses that are integer multiples of the system's page size. Page size is 4,096 bytes on x64 and x86 or 8,192 bytes for Itanium-based systems. For additional information, see the [**GetSystemInfo**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo) function.
+-   [**VirtualAlloc**](/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc) allocates memory that is aligned on addresses that are integer multiples of the system's page size. Page size is 4,096 bytes on x64 and x86 or 8,192 bytes for Itanium-based systems. For additional information, see the [**GetSystemInfo**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo) function.
 -   Sector size is typically 512 to 4,096 bytes for direct-access storage devices (hard drives) and 2,048 bytes for CD-ROMs.
 -   Both page and sector sizes are powers of 2.
 
 Therefore, in most situations, page-aligned memory will also be sector-aligned, because the case where the sector size is larger than the page size is rare.
 
-Another way to obtain manually-aligned memory buffers is to use the [\_aligned\_malloc](https://msdn.microsoft.com/library/8z34s9c6.aspx) function from the C Run-Time library. For an example of how to manually control buffer alignment, see the C++ language code example in the Example Code section of [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile).
+Another way to obtain manually-aligned memory buffers is to use the [\_aligned\_malloc](/cpp/c-runtime-library/reference/aligned-malloc?view=vs-2019) function from the C Run-Time library. For an example of how to manually control buffer alignment, see the C++ language code example in the Example Code section of [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile).
 
  
 
  
-
-
-

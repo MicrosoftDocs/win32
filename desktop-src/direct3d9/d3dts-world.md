@@ -34,7 +34,7 @@ This macro has no parameters.
 
 ## Return value
 
-A [**D3DTRANSFORMSTATETYPE**](https://msdn.microsoft.com/library/Bb172619(v=VS.85).aspx) equivalent to [**D3DTS\_WORLDMATRIX(0)**](https://msdn.microsoft.com/library/Bb172623(v=VS.85).aspx).
+A [**D3DTRANSFORMSTATETYPE**](./d3dtransformstatetype.md) equivalent to [**D3DTS\_WORLDMATRIX(0)**](./d3dts-worldmatrix.md).
 
 ## Remarks
 
@@ -57,7 +57,7 @@ This macro is provided to facilitate porting existing applications to Direct3D 9
 [Macros](dx9-graphics-reference-d3d-macros.md)
 </dt> <dt>
 
-[**SetTransform**](https://msdn.microsoft.com/library/Bb174463(v=VS.85).aspx)
+[**SetTransform**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settransform)
 </dt> <dt>
 
 [**D3DTS\_WORLDMATRIX**](d3dts-worldmatrix.md)
@@ -66,7 +66,3 @@ This macro is provided to facilitate porting existing applications to Direct3D 9
  
 
  
-
-
-
-

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # The type\_UserUnmarshal Function
 
-The **<type>\_UserUnmarshal** function is a helper function for the \[ [wire\_marshal](https://docs.microsoft.com/windows/desktop/Midl/wire-marshal)\] and \[ [user\_marshal](https://docs.microsoft.com/windows/desktop/Midl/user-marshal)\] attributes. The stubs call this function to unmarshal data on the client or server side. The function is defined as:
+The **<type>\_UserUnmarshal** function is a helper function for the \[ [wire\_marshal](/windows/desktop/Midl/wire-marshal)\] and \[ [user\_marshal](/windows/desktop/Midl/user-marshal)\] attributes. The stubs call this function to unmarshal data on the client or server side. The function is defined as:
 
 ``` syntax
 unsigned char __RPC_FAR * __RPC_USER  <type>_UserUnmarshal(
@@ -36,16 +36,12 @@ In a heterogeneous environment, the NDR engine performs any data conversion nece
 [Marshaling Rules for user\_marshal and wire\_marshal](marshaling-rules-for-user-marshal-and-wire-marshal.md)
 </dt> <dt>
 
-[wire\_marshal](https://docs.microsoft.com/windows/desktop/Midl/wire-marshal)
+[wire\_marshal](/windows/desktop/Midl/wire-marshal)
 </dt> <dt>
 
-[user\_marshal](https://docs.microsoft.com/windows/desktop/Midl/user-marshal)
+[user\_marshal](/windows/desktop/Midl/user-marshal)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 # General MCI Errors
 
-The following error values can be returned by either the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) or [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function:
+The following error values can be returned by either the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) or [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function:
 
 
 
@@ -80,7 +80,3 @@ The following error values can be returned by either the [**mciSendCommand**](ht
  
 
  
-
-
-
-

@@ -21,7 +21,7 @@ topic_type:
 
 # <span id="WWAN_profile_v4.element_1_Name"></span>ModemDMConfigProfile\/Name (v4)
 
-The name of the profile. For more information, see the documentation for the v1 [**Name**](https://msdn.microsoft.com/library/Dd323291(v=VS.85).aspx) element.
+The name of the profile. For more information, see the documentation for the v1 [**Name**](./schema-name-mbnprofile-element.md) element.
 
 ## Element hierarchy
 
@@ -97,6 +97,3 @@ None.
  
 
  
-
-
-

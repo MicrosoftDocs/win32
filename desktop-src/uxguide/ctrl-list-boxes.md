@@ -31,7 +31,7 @@ To decide, consider these questions:
 **Single-selection lists**
 
 -   **Is the control used to choose one option from a list of mutually exclusive values?** If not, use another control. To choose multiple options, use a standard multiple-selection list, check box list, list builder, or add/remove list instead.
--   **Is there a default option that is recommended for most users in most situations?** Is seeing the selected option far more important than seeing the alternatives? If so, consider using a [drop-down list](https://docs.microsoft.com/windows/desktop/uxguide/ctrl-drop) if you don't want to encourage users to make changes by hiding the alternatives.
+-   **Is there a default option that is recommended for most users in most situations?** Is seeing the selected option far more important than seeing the alternatives? If so, consider using a [drop-down list](/windows/desktop/uxguide/ctrl-drop) if you don't want to encourage users to make changes by hiding the alternatives.
 
 ![screen shot of highest quality as default button ](images/ctrl-list-boxes-image2.png)
 
@@ -300,10 +300,4 @@ When referring to list boxes:
 Example: In the **Go to what** list, select **Bookmark**.
 
  
-
- 
-
-
-
-
 

@@ -40,7 +40,7 @@ When implementing the **Styles** control pattern, note the following guidelines 
     -   When responding to a request for the [**StyleId**](uiauto-textattribute-ids.md) text attribute, the text range should return one of the style identifiers described in [**Style Identifiers**](uiauto-style-identifiers.md).
     -   If [**StyleId\_Custom**](uiauto-style-identifiers.md) is used, the text range should return a string value for the [**StyleName**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_stylename) text attribute to enable clients to discover the style name.
     -   A text range that has multiple styles, such as both heading and normal text, should return the special UI Automation [**ReservedMixedAttributeValue**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiagetreservedmixedattributevalue) property for both the [**StyleId**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_styleid) and [**StyleName**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_stylename) properties. A client receiving this response can subdivide the text range to find where the styles begin and end.
--   Applications can use a wide variety of styles to describe objects, but UI Automation represents only the most common ones. To represent additional style attributes, such as border color, a provider can return a list of additional attributes in the [**ExtendedProperties**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-istylesprovider-get_extendedproperties) property. This is basically a property bag with a set of extended properties, such as "BorderColor=0xFF0000;BorderStyle=dotted". The values of extended properties can be application-specific.
+-   Applications can use a wide variety of styles to describe objects, but UI Automation represents only the most common ones. To represent additional style attributes, such as border color, a provider can return a list of additional attributes in the [**ExtendedProperties**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-istylesprovider-get_extendedproperties) property. This is basically a property bag with a set of extended properties, such as "BorderColor=0xFF0000;BorderStyle=dotted". The values of extended properties can be application-specific.
 
 ## Required Members for **IStylesProvider**
 
@@ -50,7 +50,7 @@ The following properties are required for implementing the [**IStylesProvider**]
 
 | Required members                                                            | Member type | Notes |
 |-----------------------------------------------------------------------------|-------------|-------|
-| [**ExtendedProperties**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-istylesprovider-get_extendedproperties) | Property    | None  |
+| [**ExtendedProperties**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-istylesprovider-get_extendedproperties) | Property    | None  |
 | [**FillColor**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_fillcolor)                       | Property    | None  |
 | [**FillPatternColor**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_fillpatterncolor)         | Property    | None  |
 | [**FillPatternStyle**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_fillpatternstyle)         | Property    | None  |
@@ -80,7 +80,3 @@ This control pattern has no associated methods or events.
  
 
  
-
-
-
-

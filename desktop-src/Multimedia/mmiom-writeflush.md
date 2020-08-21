@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # MMIOM\_WRITEFLUSH message
 
-The **MMIOM\_WRITEFLUSH** message is sent to an I/O procedure by the [**mmioWrite**](https://msdn.microsoft.com/library/Dd757341(v=VS.85).aspx) function to request that data be written to an open file and that any internal buffers used by the I/O procedure be flushed to disk.
+The **MMIOM\_WRITEFLUSH** message is sent to an I/O procedure by the [**mmioWrite**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiowrite) function to request that data be written to an open file and that any internal buffers used by the I/O procedure be flushed to disk.
 
 
 ```C++
@@ -53,7 +53,7 @@ Returns the number of bytes actually written to the file. If there is an error, 
 
 ## Remarks
 
-The I/O procedure is responsible for updating the **lDiskOffset** member of the [**MMIOINFO**](https://msdn.microsoft.com/library/Dd757322(v=VS.85).aspx) structure to reflect the new file position after the write operation.
+The I/O procedure is responsible for updating the **lDiskOffset** member of the [**MMIOINFO**](/previous-versions//dd757322(v=vs.85)) structure to reflect the new file position after the write operation.
 
 This message is equivalent to the [**MMIOM\_WRITE**](mmiom-write.md) message except that it requests that the I/O procedure flush its internal buffers, if any. Unless an I/O procedure performs internal buffering, this message can be handled exactly like the **MMIOM\_WRITE** message.
 
@@ -70,10 +70,4 @@ This message is equivalent to the [**MMIOM\_WRITE**](mmiom-write.md) message exc
 
 
  
-
- 
-
-
-
-
 

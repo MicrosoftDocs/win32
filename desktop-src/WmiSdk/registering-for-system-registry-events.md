@@ -14,7 +14,7 @@ api_location:
 
 # Registering for System Registry Events
 
-To receive notifications from the [System Registry](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/system-registry-provider) provider, a management application must register as a temporary event consumer. Most of the requirements to register for the System Registry provider are the same as any other event registration, except you must also perform the following procedure.
+To receive notifications from the [System Registry](/previous-versions/windows/desktop/regprov/system-registry-provider) provider, a management application must register as a temporary event consumer. Most of the requirements to register for the System Registry provider are the same as any other event registration, except you must also perform the following procedure.
 
 The registry provider supplies event classes for events in the system registry. For more information about general event registration, see [Receiving a WMI Event](receiving-a-wmi-event.md).
 
@@ -34,10 +34,10 @@ The following procedure describes how to register for system registry events.
 
     | Event class                                                      | Hive location        | Description                                                 |
     |------------------------------------------------------------------|----------------------|-------------------------------------------------------------|
-    | [**RegistryEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registryevent)                       | N/A<br/>       | Abstract base class for changes in the registry.<br/> |
-    | [**RegistryTreeChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registrytreechangeevent)   | RootPath<br/>  | Monitors changes to a hierarchy of keys.<br/>         |
-    | [**RegistryKeyChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registrykeychangeevent)     | KeyPath<br/>   | Monitors changes to a single key.<br/>                |
-    | [**RegistryValueChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registryvaluechangeevent) | ValueName<br/> | Monitors changes to a single value.<br/>              |
+    | [**RegistryEvent**](/previous-versions/windows/desktop/regprov/registryevent)                       | N/A<br/>       | Abstract base class for changes in the registry.<br/> |
+    | [**RegistryTreeChangeEvent**](/previous-versions/windows/desktop/regprov/registrytreechangeevent)   | RootPath<br/>  | Monitors changes to a hierarchy of keys.<br/>         |
+    | [**RegistryKeyChangeEvent**](/previous-versions/windows/desktop/regprov/registrykeychangeevent)     | KeyPath<br/>   | Monitors changes to a single key.<br/>                |
+    | [**RegistryValueChangeEvent**](/previous-versions/windows/desktop/regprov/registryvaluechangeevent) | ValueName<br/> | Monitors changes to a single value.<br/>              |
 
     
 
@@ -45,7 +45,7 @@ The following procedure describes how to register for system registry events.
 
     These classes have a property called **Hive** that identifies the hierarchy of keys to be monitored for change, such as **HKEY\_LOCAL\_MACHINE**.
 
-    Changes to the **HKEY\_CLASSES\_ROOT** and **HKEY\_CURRENT\_USER** hives are not supported by [**RegistryEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registryevent) or classes derived from it, such as [**RegistryTreeChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registrytreechangeevent).
+    Changes to the **HKEY\_CLASSES\_ROOT** and **HKEY\_CURRENT\_USER** hives are not supported by [**RegistryEvent**](/previous-versions/windows/desktop/regprov/registryevent) or classes derived from it, such as [**RegistryTreeChangeEvent**](/previous-versions/windows/desktop/regprov/registrytreechangeevent).
 
 3.  Create the WHERE clause for your event registration.
 
@@ -76,9 +76,9 @@ Wend
 
 
 
-The following VBScript code example shows how to monitor the change in the values of a key by registering for the registry provider event type [**RegistryKeyChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registrykeychangeevent). The script calls an asynchronous method, [**SWbemServices.ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md). For more information about asynchronous calls and security, see [Making an Asynchronous Call with VBScript](making-an-asynchronous-call-with-vbscript.md).
+The following VBScript code example shows how to monitor the change in the values of a key by registering for the registry provider event type [**RegistryKeyChangeEvent**](/previous-versions/windows/desktop/regprov/registrykeychangeevent). The script calls an asynchronous method, [**SWbemServices.ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md). For more information about asynchronous calls and security, see [Making an Asynchronous Call with VBScript](making-an-asynchronous-call-with-vbscript.md).
 
-The following script runs indefinitely until the computer is rebooted, WMI is stopped, or the script is stopped. To stop the script manually, use Task Manager to stop the process. To stop it programmatically, use the [**Terminate**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/terminate-method-in-class-win32-process) method in the Win32\_Process class.
+The following script runs indefinitely until the computer is rebooted, WMI is stopped, or the script is stopped. To stop the script manually, use Task Manager to stop the process. To stop it programmatically, use the [**Terminate**](/windows/desktop/CIMWin32Prov/terminate-method-in-class-win32-process) method in the Win32\_Process class.
 
 
 ```VB
@@ -117,9 +117,4 @@ End Sub
 
 
  
-
- 
-
-
-
 

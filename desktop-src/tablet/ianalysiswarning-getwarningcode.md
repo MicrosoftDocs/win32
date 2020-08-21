@@ -148,16 +148,11 @@ STDMETHODIMP CMyClass::Results(
 [**IAnalysisWarning**](ianalysiswarning.md)
 </dt> <dt>
 
-[**AnalysisWarningCode**](https://docs.microsoft.com/windows/desktop/tablet/analysiswarningcode)
+[**AnalysisWarningCode**](/windows/desktop/tablet/analysiswarningcode)
 </dt> <dt>
 
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

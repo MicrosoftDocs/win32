@@ -61,7 +61,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Required**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Required**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 **true** to set a policy to protect a VM's data; otherwise, **false**. A newly created TPM is disabled, so the initial data protection state is **false**.
@@ -77,7 +77,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Required**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Required**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 The enabled and disabled states of an element. The default value is **Disabled**.
@@ -109,7 +109,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Required**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), **OctetString**
+Qualifiers: [**Required**](/windows/desktop/WmiSdk/standard-qualifiers), **OctetString**
 </dt> </dl>
 
 The key protector from Host Guardian Service client.
@@ -125,7 +125,7 @@ Data type: **uint8** array
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Required**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), **OctetString**
+Qualifiers: [**Required**](/windows/desktop/WmiSdk/standard-qualifiers), **OctetString**
 </dt> </dl>
 
 The last known good key protector successfully encrypted TPM device state in the last VM boot.
@@ -143,7 +143,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Required**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Required**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 **true** to define a policy that shields a virtual machine; otherwise, **false**. A newly created TPM is disabled, so the initial shielding state is **false**.
@@ -174,9 +174,4 @@ Qualifiers: [**Required**](https://docs.microsoft.com/windows/desktop/WmiSdk/sta
 </dt> </dl>
 
  
-
- 
-
-
-
 

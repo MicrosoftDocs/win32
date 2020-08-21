@@ -16,7 +16,7 @@ api_location:
 
 # SIGNER\_SPC\_CHAIN\_INFO structure
 
-The **SIGNER\_SPC\_CHAIN\_INFO** structure specifies a [*Software Publisher Certificate*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SPC) and certificate chain used to sign a document.
+The **SIGNER\_SPC\_CHAIN\_INFO** structure specifies a [*Software Publisher Certificate*](../secgloss/s-gly.md) (SPC) and certificate chain used to sign a document.
 
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.
@@ -102,7 +102,3 @@ Optional. A handle to an additional certificate store.
  
 
  
-
-
-
-

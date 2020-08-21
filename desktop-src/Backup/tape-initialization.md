@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Tape Initialization
 
-An application must use the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function to create a handle of a tape device. This handle is used in subsequent operations on the tape in the device.
+An application must use the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) function to create a handle of a tape device. This handle is used in subsequent operations on the tape in the device.
 
 Before an application writes to a tape, the tape must be formatted according to the needs of the application and the capabilities of the tape drive being used. The [**CreateTapePartition**](/windows/desktop/api/Winbase/nf-winbase-createtapepartition) function reformats a tape, creating on it a given number of partitions of a specified size.
 
@@ -27,7 +27,3 @@ To retrieve and set information about a tape and tape drive, an application uses
  
 
  
-
-
-
-

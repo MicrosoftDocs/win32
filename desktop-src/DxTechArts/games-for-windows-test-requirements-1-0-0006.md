@@ -1060,7 +1060,7 @@ This is an example of a typical test pass using the preceding test requirements 
 
 1.  Verify that the game does not generate errors on exit \[4.3\]
 2.  Verify that the game installed to Program Files \[3.3\]
-3.  Proceed to [Parental Controls](https://docs.microsoft.com/windows)
+3.  Proceed to [Parental Controls](/windows)
 
 ### 5.7 Parental Controls
 
@@ -1283,7 +1283,7 @@ This process is the same as clicking **Fail**, with the exception of the auto-po
 <span id="Games_for_Windows__Technical_Requirements"></span><span id="games_for_windows__technical_requirements"></span><span id="GAMES_FOR_WINDOWS__TECHNICAL_REQUIREMENTS"></span>Games for Windows: Technical Requirements
 </dt> <dd>
 
-[Games for Windows Technical Requirements: Best Practices for Games on Windows XP, Windows Vista, and Windows 7](/windows/win32/DxTechArts/games-for-windows-technical-requirements-1-1-0006)
+[Games for Windows Technical Requirements: Best Practices for Games on Windows XP, Windows Vista, and Windows 7](./games-for-windows-technical-requirements-1-1-0006.md)
 
 </dd> <dt>
 
@@ -1304,21 +1304,21 @@ This process is the same as clicking **Fail**, with the exception of the auto-po
 <span id="Windows_Installer_Information"></span><span id="windows_installer_information"></span><span id="WINDOWS_INSTALLER_INFORMATION"></span>Windows Installer Information
 </dt> <dd>
 
-[Windows Installer](/windows/win32/Msi/windows-installer-portal)
+[Windows Installer](../msi/windows-installer-portal.md)
 
 </dd> <dt>
 
 <span id="WinQual_Developer_Portal__"></span><span id="winqual_developer_portal__"></span><span id="WINQUAL_DEVELOPER_PORTAL__"></span>WinQual Developer Portal 
 </dt> <dd>
 
-[Windows Quality Online Services (Winqual)](https://docs.microsoft.com/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-)
+[Windows Quality Online Services (Winqual)](/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-)
 
 </dd> <dt>
 
 <span id="DirectX_Developer_Portal"></span><span id="directx_developer_portal"></span><span id="DIRECTX_DEVELOPER_PORTAL"></span>DirectX Developer Portal
 </dt> <dd>
 
-[DirectX Developer Center](https://docs.microsoft.com/previous-versions/windows/apps/hh452744(v=win.10))
+[DirectX Developer Center](/previous-versions/windows/apps/hh452744(v=win.10))
 
 </dd> <dt>
 
@@ -1332,15 +1332,9 @@ This process is the same as clicking **Fail**, with the exception of the auto-po
 <span id="Additional_DirectX_Articles"></span><span id="additional_directx_articles"></span><span id="ADDITIONAL_DIRECTX_ARTICLES"></span>Additional DirectX Articles
 </dt> <dd>
 
-[DirectX Technical Articles](/windows/win32/DxTechArts/dx9-technical-articles)
+[DirectX Technical Articles](./dx9-technical-articles.md)
 
 </dd> </dl>
 
  
-
- 
-
-
-
-
 

@@ -10,11 +10,8 @@ ms.date: 05/31/2018
 
 This section contains the description of the TUISPI callback function, which is:
 
--   [**DllCallbackProc**](https://msdn.microsoft.com/library/ms725187(v=VS.85).aspx)
+-   [**DllCallbackProc**](/windows/win32/api/tspi/nc-tspi-tuispidllcallback)
 
  
 
  
-
-
-

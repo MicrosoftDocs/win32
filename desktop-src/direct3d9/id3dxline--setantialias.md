@@ -38,7 +38,7 @@ HRESULT SetAntialias(
 *bAntiAlias* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Toggles antialiasing on and off. **TRUE** turns antialiasing on, and **FALSE** turns antialiasing off.
 
@@ -74,7 +74,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

@@ -26,13 +26,13 @@ The **IDODownload** interface has these methods.
 
 | Method | Description |
 | ---- |:---- |
-| [IDODownload::Abort](/windows/win32/delivery_optimization/do/nf-do-idomanager-createdownload) | Aborts the download. |
-| [IDODownload::Finalize](/windows/win32/delivery_optimization/do/nf-do-idodownload-finalize) | Finalizes the download. |
-| [IDODownload::GetProperty](/windows/win32/delivery_optimization/do/nf-do-idodownload-getproperty) | Retrieves a pointer to a **VARIANT** that contains a specific download property. |
-| [IDODownload::GetStatus](/windows/win32/delivery_optimization/do/nf-do-idodownload-getstatus) | Retrieves a pointer to a **DO_DOWNLOAD_STATUS** structure that reflects the current status of the download. |
-| [IDODownload::Pause](/windows/win32/delivery_optimization/do/nf-do-idodownload-pause) | Pauses the download. |
-| [IDODownload::SetProperty](/windows/win32/delivery_optimization/do/nf-do-idodownload-setproperty) | Sets a download property. |
-| [IDODownload::Start](/windows/win32/delivery_optimization/do/nf-do-idodownload-start) | Starts or resumes a download. |
+| [IDODownload::Abort](./nf-do-idomanager-createdownload.md) | Aborts the download. |
+| [IDODownload::Finalize](./nf-do-idodownload-finalize.md) | Finalizes the download. |
+| [IDODownload::GetProperty](./nf-do-idodownload-getproperty.md) | Retrieves a pointer to a **VARIANT** that contains a specific download property. |
+| [IDODownload::GetStatus](./nf-do-idodownload-getstatus.md) | Retrieves a pointer to a **DO_DOWNLOAD_STATUS** structure that reflects the current status of the download. |
+| [IDODownload::Pause](./nf-do-idodownload-pause.md) | Pauses the download. |
+| [IDODownload::SetProperty](./nf-do-idodownload-setproperty.md) | Sets a download property. |
+| [IDODownload::Start](./nf-do-idodownload-start.md) | Starts or resumes a download. |
 
 ## Requirements
 

@@ -23,13 +23,10 @@ The process of granting trusted status to a share adds the share to the logged-o
 
 ## Security
 
-Network DDE performs an additional security check when the client requests data or a link. It checks that the server has granted the remote user the necessary permission for the operation. The server controls access to the share through the *pSD* parameter of the [**NDdeShareAdd**](nddeshareadd.md) function. This parameter specifies the security descriptor. If this parameter is **NULL**, the function creates a default security descriptor that grants full access to the creator of the share and grants read and link permission to all other users. To grant or deny additional permissions to individual users or groups of users, create and use a security descriptor. For more information on security descriptors, see [**Access Control**](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control).
+Network DDE performs an additional security check when the client requests data or a link. It checks that the server has granted the remote user the necessary permission for the operation. The server controls access to the share through the *pSD* parameter of the [**NDdeShareAdd**](nddeshareadd.md) function. This parameter specifies the security descriptor. If this parameter is **NULL**, the function creates a default security descriptor that grants full access to the creator of the share and grants read and link permission to all other users. To grant or deny additional permissions to individual users or groups of users, create and use a security descriptor. For more information on security descriptors, see [**Access Control**](/windows/desktop/SecAuthZ/access-control).
 
 To obtain the security descriptor for an existing DDE share, call the [**NDdeGetShareSecurity**](nddegetsharesecurity.md) function. You can edit the information and then update the security descriptor for the share by using the [**NDdeSetShareSecurity**](nddesetsharesecurity.md) function.
 
  
 
  
-
-
-

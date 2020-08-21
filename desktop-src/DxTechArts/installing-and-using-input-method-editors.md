@@ -21,7 +21,7 @@ This article offers a tutorial for how to install and use the standard Windows I
 
 The following sections describe how to install and use Input Method Editors (IMEs) to enter complex characters in four different East Asian languages. Features unique to each language are discussed.
 
-To implement Input Method Editor (IME) functionality in an application, see [Using an Input Method Editor in a Game](https://docs.microsoft.com/windows/desktop/DxTechArts/using-an-input-method-editor-in-a-game).
+To implement Input Method Editor (IME) functionality in an application, see [Using an Input Method Editor in a Game](/windows/desktop/DxTechArts/using-an-input-method-editor-in-a-game).
 
 An IME is not installed on Microsoft Windows XP systems by default. To install, complete the following steps.
 
@@ -130,7 +130,7 @@ This section describes how to use the Traditional Chinese IME (New Phonetic) wit
 
     ![composition string updated with selected character](images/ime-tc7.png)
 
-8.  Press ENTER. This tells the IME that the composition is complete and the string should be sent to the application - Notepad in this example. The composition window closes, and the two characters are sent to Notepad via [**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char). The underline is gone in the following figure because the two characters shown are part of the text in Notepad. The existing text "ABCDEFG" in Notepad is moved to the right because two more characters have been inserted. You have now successfully entered two Traditional Chinese characters using an IME.
+8.  Press ENTER. This tells the IME that the composition is complete and the string should be sent to the application - Notepad in this example. The composition window closes, and the two characters are sent to Notepad via [**WM\_CHAR**](/windows/desktop/inputdev/wm-char). The underline is gone in the following figure because the two characters shown are part of the text in Notepad. The existing text "ABCDEFG" in Notepad is moved to the right because two more characters have been inserted. You have now successfully entered two Traditional Chinese characters using an IME.
 
     ![successfully entered two traditional chinese characters using an ime](images/ime-tc8.png)
 
@@ -166,7 +166,7 @@ This section is a walk-through of using the Japanese IME with Notepad to enter a
 
     ![composition string updated with selected character](images/ime-j7.png)
 
-8.  Press ENTER. This tells the IME that the composition is complete and the string should be sent to the application - Notepad in this example. The composition window closes, and the two characters are sent to Notepad via [**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char). The underline is gone in the following figure because the two characters shown are part of the text in Notepad. The existing text "ABCDEFG" in Notepad is moved to the right because two more characters have been inserted. You have now successfully entered a few Japanese characters using an IME.
+8.  Press ENTER. This tells the IME that the composition is complete and the string should be sent to the application - Notepad in this example. The composition window closes, and the two characters are sent to Notepad via [**WM\_CHAR**](/windows/desktop/inputdev/wm-char). The underline is gone in the following figure because the two characters shown are part of the text in Notepad. The existing text "ABCDEFG" in Notepad is moved to the right because two more characters have been inserted. You have now successfully entered a few Japanese characters using an IME.
 
     ![successfully entered a few japanese characters using an ime](images/ime-j8.png)
 
@@ -224,7 +224,3 @@ This section describes how to use the Korean IME with Notepad to enter a few Kor
  
 
  
-
-
-
-

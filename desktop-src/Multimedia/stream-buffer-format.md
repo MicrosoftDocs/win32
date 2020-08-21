@@ -14,14 +14,10 @@ ms.date: 05/31/2018
 
 # Stream Buffer Format
 
-The **lpData** member of the [**MIDIHDR**](https://msdn.microsoft.com/library/Dd798449(v=VS.85).aspx) structure points to a stream buffer, and the **dwBufferLength** member specifies the actual size of this buffer. The **dwBytesRecorded** member of **MIDIHDR** specifies the number of bytes in the buffer that are actually used by the MIDI events; this value must be less than or equal to the value specified by **dwBufferLength**.
+The **lpData** member of the [**MIDIHDR**](/windows/win32/api/mmeapi/ns-mmeapi-midihdr) structure points to a stream buffer, and the **dwBufferLength** member specifies the actual size of this buffer. The **dwBytesRecorded** member of **MIDIHDR** specifies the number of bytes in the buffer that are actually used by the MIDI events; this value must be less than or equal to the value specified by **dwBufferLength**.
 
-Each of the MIDI events in the stream buffer is specified by a [**MIDIEVENT**](https://msdn.microsoft.com/library/Dd798448(v=VS.85).aspx) structure, which contains the time for the event, a stream identifier, an event code, and, when appropriate, parameters for the event. Each of these **MIDIEVENT** structures must begin on a doubleword boundary. If necessary, pad bytes must be added to the end of the structure to ensure that the next one starts on a doubleword boundary.
-
- 
+Each of the MIDI events in the stream buffer is specified by a [**MIDIEVENT**](/windows/win32/api/mmeapi/ns-mmeapi-midievent) structure, which contains the time for the event, a stream identifier, an event code, and, when appropriate, parameters for the event. Each of these **MIDIEVENT** structures must begin on a doubleword boundary. If necessary, pad bytes must be added to the end of the structure to ensure that the next one starts on a doubleword boundary.
 
  
 
-
-
-
+ 

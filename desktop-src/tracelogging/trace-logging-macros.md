@@ -25,7 +25,7 @@ TraceLogging defines the following macros that you can use to define a provider,
 
 <dl> <dt>
 
-[About Event Tracing](https://docs.microsoft.com/windows/desktop/ETW/about-event-tracing)
+[About Event Tracing](/windows/desktop/ETW/about-event-tracing)
 </dt> <dt>
 
 [TraceLogging](trace-logging-portal.md)
@@ -34,7 +34,3 @@ TraceLogging defines the following macros that you can use to define a provider,
  
 
  
-
-
-
-

@@ -75,7 +75,7 @@ Access type: Read-only
 Qualifiers: **Experimental**
 </dt> </dl>
 
-The context in which the newly created object will run. This value is passed in the *dwClsContext* parameter to [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance). This property is always set to 1.
+The context in which the newly created object will run. This value is passed in the *dwClsContext* parameter to [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance). This property is always set to 1.
 
 </dd> <dt>
 
@@ -110,7 +110,7 @@ A language-neutral string that uniquely identifies the service. The following fo
 
 ## Remarks
 
-Access to the **Msvm\_VirtualizationComponent** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_VirtualizationComponent** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -129,9 +129,4 @@ Access to the **Msvm\_VirtualizationComponent** class might be restricted by UAC
 
 
  
-
- 
-
-
-
 

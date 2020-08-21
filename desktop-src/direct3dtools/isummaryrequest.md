@@ -26,7 +26,7 @@ Request for summary information.
 
 ## Members
 
-The **ISummaryRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ISummaryRequest** also has these types of members:
+The **ISummaryRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ISummaryRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **ISummaryRequest** interface has these methods.
  
 
  
-
-
-

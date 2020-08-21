@@ -17,7 +17,7 @@ api_location:
 
 # Recipients.Item property
 
-\[The **Item** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsRecipientCollection Class**](https://msdn.microsoft.com/library/0y59h9e9(v=VS.90).aspx) in the [**System.Security.Cryptography.Pkcs**](https://msdn.microsoft.com/library/6see7k14(v=VS.100).aspx) namespace.\]
+\[The **Item** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsRecipientCollection Class**](/dotnet/api/system.security.cryptography.pkcs.cmsrecipientcollection?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
 
 The **Item** property retrieves an object from the [**Recipients**](recipients.md) collection. This is the default property.
 
@@ -57,7 +57,3 @@ A variant that represents the indexed item in the [**Recipients**](recipients.md
  
 
  
-
-
-
-

@@ -157,7 +157,7 @@ This function is obsolete and should not be used.
 
 | Topic                                 | Contents                                                                                                                                                                                                                              |
 |---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IMESTRUCT**](https://msdn.microsoft.com/library/Aa969466(v=VS.85).aspx) | Used by [**SendIMEMessageEx**](/windows/desktop/api/Ime/nf-ime-sendimemessageexa) to specify the subfunction to be executed in the IME message and its parameters. This structure is also used to receive return values from those subfunctions.<br/> |
+| [**IMESTRUCT**](/windows/win32/api/ime/ns-ime-imestruct) | Used by [**SendIMEMessageEx**](/windows/desktop/api/Ime/nf-ime-sendimemessageexa) to specify the subfunction to be executed in the IME message and its parameters. This structure is also used to receive return values from those subfunctions.<br/> |
 | [**STRING**](/windows/desktop/api/Winternl/ns-winternl-string)       | This structure is used with the [**RtlUnicodeStringToOemString**](/windows/desktop/api/Winternl/nf-winternl-rtlunicodestringtooemstring) function. <br/>                                                                                                              |
 
 

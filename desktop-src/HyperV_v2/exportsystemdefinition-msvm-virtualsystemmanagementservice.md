@@ -40,7 +40,7 @@ uint32 ExportSystemDefinition(
 *ComputerSystem* \[in\]
 </dt> <dd>
 
-A reference to a [**CIM\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-computersystem) that represents the virtual machine to be exported.
+A reference to a [**CIM\_ComputerSystem**](/windows/desktop/CIMWin32Prov/cim-computersystem) that represents the virtual machine to be exported.
 
 </dd> <dt>
 
@@ -61,7 +61,7 @@ An embedded instance of the [**Msvm\_VirtualSystemExportSettingData**](msvm-virt
 *Job* \[out\]
 </dt> <dd>
 
-If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](https://docs.microsoft.com/previous-versions//cc136808(v=vs.85)).
+If the operation is performed asynchronously, this method will return 4096, and this parameter will contain a reference to an object derived from [**CIM\_ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
 
 </dd> </dl>
 
@@ -132,9 +132,4 @@ This method returns one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

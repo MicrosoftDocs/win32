@@ -50,7 +50,7 @@ Handle to previously created kernel-mode DirectDraw object.
 *puGetMoCompFormatsData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_GETMOCOMPFORMATSDATA**](https://msdn.microsoft.com/library/Ff551580(v=VS.85).aspx) structure that contains the uncompressed format information for the hardware.
+Pointer to a [**DD\_GETMOCOMPFORMATSDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_getmocompformatsdata) structure that contains the uncompressed format information for the hardware.
 
 </dd> </dl>
 
@@ -95,7 +95,3 @@ For more information, see the Microsoft DirectX Video Acceleration Driver Develo
  
 
  
-
-
-
-
