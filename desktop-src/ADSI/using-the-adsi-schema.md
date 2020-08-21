@@ -20,12 +20,8 @@ To determine attribute definitions, that is, the range of values, the syntax, an
 
 ADSI abstracts the syntax data as necessary and enables you to use [**IADsSyntax**](/windows/desktop/api/Iads/nn-iads-iadssyntax) to identify the syntax required to represent object data.
 
-For more information about the Active Directory schema, see [Active Directory Schema](https://docs.microsoft.com/windows/desktop/AD/active-directory-schema). For code examples to use to read the schema container, see [Reading the Schema](reading-the-schema.md).
+For more information about the Active Directory schema, see [Active Directory Schema](/windows/desktop/AD/active-directory-schema). For code examples to use to read the schema container, see [Reading the Schema](reading-the-schema.md).
 
  
 
  
-
-
-
-

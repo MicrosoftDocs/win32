@@ -20,9 +20,9 @@ All objects have properties. All Active Directory Service Interface (ADSI) COM o
 
 ADSI allows you to cache properties locally after they have been read from the directory server. This allows you a choice of reading the properties from the local property cache or retrieving the properties directly from the directory server. ADSI also has methods to update the cache as well as specifying whether all properties for an object are cached or just those you have specified.
 
-After you have retrieved a property, you read its value. The data type of a property depends on the definition of the property (also known as an attribute) in the Active Directory schema. For each type of property that can exist in Active Directory, there is an **attributeSchema** object in the Active Directory schema. An **attributeSchema** object defines the characteristics of the attribute. One of these characteristics is the attribute's syntax, which determines the data type of the attribute's values. For more information, see [Characteristics of Attributes](https://docs.microsoft.com/windows/desktop/AD/characteristics-of-attributes) and [Syntaxes for Active Directory Attributes](https://docs.microsoft.com/windows/desktop/AD/syntaxes-for-attributes-in-active-directory-domain-services).
+After you have retrieved a property, you read its value. The data type of a property depends on the definition of the property (also known as an attribute) in the Active Directory schema. For each type of property that can exist in Active Directory, there is an **attributeSchema** object in the Active Directory schema. An **attributeSchema** object defines the characteristics of the attribute. One of these characteristics is the attribute's syntax, which determines the data type of the attribute's values. For more information, see [Characteristics of Attributes](/windows/desktop/AD/characteristics-of-attributes) and [Syntaxes for Active Directory Attributes](/windows/desktop/AD/syntaxes-for-attributes-in-active-directory-domain-services).
 
-The Automation interfaces ([**IADs**](/windows/desktop/api/Iads/nn-iads-iads)\*) return a property value as a [**VARIANT**](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx) or a pointer to an Automation interface on a COM object that represents the property. The [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) and [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) interfaces return a property as a pointer to a structure containing a typed property value or a pointer to a string of bytes. In addition, **IDirectoryObject** and **IDirectorySearch** retrieve properties directly from the directory server instead of using a local property cache.
+The Automation interfaces ([**IADs**](/windows/desktop/api/Iads/nn-iads-iads)\*) return a property value as a [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) or a pointer to an Automation interface on a COM object that represents the property. The [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) and [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) interfaces return a property as a pointer to a structure containing a typed property value or a pointer to a string of bytes. In addition, **IDirectoryObject** and **IDirectorySearch** retrieve properties directly from the directory server instead of using a local property cache.
 
 This section describes the following topics:
 
@@ -35,7 +35,3 @@ This section describes the following topics:
  
 
  
-
-
-
-

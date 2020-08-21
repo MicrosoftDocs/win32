@@ -9,12 +9,8 @@ ms.date: 05/31/2018
 
 # CDISPMGR.CPP
 
-In the example provider component, a code example that shows the dispatch manager implementation of the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface is in cdispmgr.cpp. For more information, see **IDispatch**.
+In the example provider component, a code example that shows the dispatch manager implementation of the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface is in cdispmgr.cpp. For more information, see **IDispatch**.
 
  
 
  
-
-
-
-

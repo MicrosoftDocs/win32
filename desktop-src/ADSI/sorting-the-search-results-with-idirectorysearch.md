@@ -38,12 +38,8 @@ SearchPref.vValue.ProviderSpecific.lpValue = (LPBYTE)&SortKey;
 
 
 
-Active Directory does not support sorting on constructed attributes, so it is not possible to specify a constructed attribute for sorting. The [**distinguishedName**](https://docs.microsoft.com/windows/desktop/ADSchema/a-distinguishedname) attribute also cannot be used for sorting. Active Directory also does not allow sorting on more than one attribute, so the **ADS\_SEARCHPREF\_SORT\_ON** search option can only contain one [**ADS\_SORTKEY**](/windows/desktop/api/Iads/ns-iads-ads_sortkey) structure.
+Active Directory does not support sorting on constructed attributes, so it is not possible to specify a constructed attribute for sorting. The [**distinguishedName**](/windows/desktop/ADSchema/a-distinguishedname) attribute also cannot be used for sorting. Active Directory also does not allow sorting on more than one attribute, so the **ADS\_SEARCHPREF\_SORT\_ON** search option can only contain one [**ADS\_SORTKEY**](/windows/desktop/api/Iads/ns-iads-ads_sortkey) structure.
 
  
 
  
-
-
-
-

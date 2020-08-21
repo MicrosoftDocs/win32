@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 Consider the following performance enhancement concepts when executing a query:
 
--   If possible, filter on indexed attributes only. Use index attributes that you expect will generate the fewest number of hits. For more information and a comprehensive list of indexed attributes for Windows, see [Active Directory Schema](https://docs.microsoft.com/windows/desktop/ADSchema/active-directory-schema).
+-   If possible, filter on indexed attributes only. Use index attributes that you expect will generate the fewest number of hits. For more information and a comprehensive list of indexed attributes for Windows, see [Active Directory Schema](/windows/desktop/ADSchema/active-directory-schema).
 -   Search on **objectCategory** instead of **objectClass** because **objectClass** is not an indexed property.
 -   Be aware of referrals. Consider searching the global catalog if your attributes are listed as GC replicated.
 -   Avoid searching for text in the middle and at the end of a string. For example, "cn=\*hille\*" or "cn=\*larouse".
@@ -28,7 +28,3 @@ Consider the following performance enhancement concepts when executing a query:
  
 
  
-
-
-
-

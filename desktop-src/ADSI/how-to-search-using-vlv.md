@@ -23,7 +23,7 @@ All VLV searches must use server-side result sorting, which is performed by sett
 
 When a VLV search is performed, a certain amount of metadata about the search is returned in a column that is retrieved by calling [**IDirectorySearch::GetColumn**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getcolumn) with the **ADS\_VLV\_RESPONSE** identifier. This data is contained in an [**ADS\_VLV**](/windows/desktop/api/Iads/ns-iads-ads_vlv) structure. Of particular importance are the **dwContentCount** and **lpContextID** members. The **dwContentCount** member will contain the number of results that meet the VLV search criteria. This value can be used as an estimate of the total number of items that would be returned for a search of that type. The **lpContextID** member contains a server-defined value that can be passed to the next search to identify the search. Using the **lpContextID** can enhance the search performance. Be aware that the **lpContextID** is a server-defined value and its length is contained in the **dwContextIDLength** member. This buffer is freed when the [**IDirectorySearch::FreeColumn**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-freecolumn) method is called, so the caller must allocate a buffer of the appropriate size and copy and save the contents of the buffer between searches.
 
-For more information about the LDAP VLV control, see [Searching with the LDAP VLV Control](https://docs.microsoft.com/previous-versions/windows/desktop/ldap/searching-with-the-ldap-vlv-control).
+For more information about the LDAP VLV control, see [Searching with the LDAP VLV Control](/previous-versions/windows/desktop/ldap/searching-with-the-ldap-vlv-control).
 
 For more information, see:
 
@@ -113,7 +113,3 @@ Similarly to searching by index, it is also possible to retrieve more than one r
  
 
  
-
-
-
-

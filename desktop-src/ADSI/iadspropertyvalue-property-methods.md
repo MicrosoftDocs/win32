@@ -232,7 +232,7 @@ HRESULT put_Integer(
 **LargeInteger**
 </dt> <dd> <dl>
 
-Pointer to the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface of the object implementing [**IADsLargeInteger**](/windows/desktop/api/Iads/nn-iads-iadslargeinteger) for this value.
+Pointer to the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface of the object implementing [**IADsLargeInteger**](/windows/desktop/api/Iads/nn-iads-iadslargeinteger) for this value.
 
 <dt>
 
@@ -344,7 +344,7 @@ HRESULT put_PrintableString(
 **SecurityDescriptor**
 </dt> <dd> <dl>
 
-Pointer to the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface of the object implementing [**IADsSecurityDescriptor**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor) for this value.
+Pointer to the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface of the object implementing [**IADsSecurityDescriptor**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor) for this value.
 
 <dt>
 
@@ -616,14 +616,8 @@ Cleanup:
 [**IADsSecurityDescriptor**](/windows/desktop/api/Iads/nn-iads-iadssecuritydescriptor)
 </dt> <dt>
 
-[**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx)
+[**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 
