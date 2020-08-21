@@ -1,6 +1,6 @@
 ---
 title: EAPHost Authenticator Method Enumerations
-description: EAPHost Authenticator Method Enumerations
+description: Learn about EAPHost Authenticator Method enumerations. The enumerations are EAP\_AUTHENTICATOR\_SEND\_TIMEOUT and EAP\_METHOD\_AUTHENTICATOR\_RESPONSE\_ACTION.
 ms.assetid: 8c21625f-a9b7-4ea5-98ff-cdcce637dad8
 ms.topic: article
 ms.date: 05/31/2018

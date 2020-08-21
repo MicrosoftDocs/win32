@@ -1,6 +1,6 @@
 ---
 title: Transferring Data Between the Supplicant and EAP Methods
-description: Allows data to be exchanged between supplicants and EAP methods.
+description: Learn about transferring data between the Supplicant and EAP methods. Transferring data between methods is accomplished by using EAP attributes.
 ms.assetid: f1bcff61-286a-4f18-8a5d-93d5d1fd2b5b
 ms.topic: reference
 ms.date: 05/31/2018

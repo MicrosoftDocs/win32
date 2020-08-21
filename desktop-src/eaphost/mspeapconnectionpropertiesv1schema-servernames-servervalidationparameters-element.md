@@ -1,6 +1,6 @@
 ---
-title: ServerNames (ServerValidationParameters) Element
-description: Represents a list of semicolon delimited server names.
+title: ServerNames (ServerValidationParameters) element (PEAP)
+description: Learn about the ServerNames (ServerValidationParameters) element. This element represents a list of semicolon delimited server names.
 ms.assetid: 2595daa1-9f1b-40cf-9219-0e7295fdd5c3
 keywords:
 - ServerNames element EAPHost
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# ServerNames (ServerValidationParameters) Element
+# ServerNames (ServerValidationParameters) element (PEAP)
 
 The **ServerNames (ServerValidationParameters)** element represents a list of semicolon delimited server names.
 
@@ -37,10 +37,10 @@ Each server name is delimited by semicolons, and can be represented by regular e
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

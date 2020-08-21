@@ -1,6 +1,6 @@
 ---
 title: eaphostusercredentials Schema
-description: Defines EAPHost credential schema.
+description: Learn about the eaphostusercredentials schema. This schema defines the EAPHost credential schema elements.
 ms.assetid: a2aff175-06c8-4352-9f37-edcd44229ea8
 ms.topic: article
 ms.date: 05/31/2018

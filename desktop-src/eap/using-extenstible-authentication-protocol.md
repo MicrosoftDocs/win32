@@ -1,6 +1,6 @@
 ---
 title: Using the Extensible Authentication Protocol
-description: Using the Extensible Authentication Protocol
+description: Learn how to use the Extensible Authentication Protocol (EAP). See a list of EAP topics and view additional available information.
 ms.assetid: 739fcb95-5d92-42c2-a28c-0f718ee45f17
 ms.topic: article
 ms.date: 05/31/2018

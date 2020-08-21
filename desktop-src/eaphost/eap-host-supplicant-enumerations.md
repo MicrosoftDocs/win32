@@ -1,6 +1,6 @@
 ---
 title: EAPHost Supplicant Enumerations
-description: EAPHost Supplicant Enumerations
+description: Learn about EAPHost Supplicant API enumerations, such as EapHostPeerMethodResultReason and ISOLATION\_STATE.
 ms.assetid: ba4d5a7f-3a5d-4ca3-975e-1ffa182b9014
 ms.topic: article
 ms.date: 05/31/2018

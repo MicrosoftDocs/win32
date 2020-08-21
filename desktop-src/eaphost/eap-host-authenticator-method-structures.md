@@ -1,6 +1,6 @@
 ---
 title: EAPHost Authenticator Method Structures
-description: EAPHost Authenticator Method Structures
+description: Learn about EAPHost Authenticator Method structures, EAP\_AUTHENTICATOR\_METHOD\_ROUTINES and EAP\_METHOD\_AUTHENTICATOR\_RESULT.
 ms.assetid: e26d5db7-f247-4bff-ae5f-081474f8e61e
 ms.topic: article
 ms.date: 05/31/2018
