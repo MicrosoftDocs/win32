@@ -1,6 +1,6 @@
 ---
 title: EAPHost Peer Method Configuration Functions
-description: EAPHost Peer Method Configuration Functions
+description: Learn about EAPHost peer method configuration functions. See a list of the configuration functions and view additional available resources.
 ms.assetid: ba5c90b2-5185-4810-84a2-d08e62e8105c
 ms.topic: article
 ms.date: 05/31/2018

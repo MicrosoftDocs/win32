@@ -1,6 +1,6 @@
 ---
 title: EapMethod (EapHostConfig) Element
-description: Identifies the method being referred to.
+description: Learn about the EapMethod (EapHostConfig) element. This element identifies the method being referred to.
 ms.assetid: 00d6fd29-da8f-4142-ac1e-686ab8dd2eab
 keywords:
 - EapMethod element EAPHost
@@ -32,10 +32,10 @@ The **EapMethod** element is defined by the [**EapHostConfig**](eaphostconfigsch
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum OS version |
+|------|--------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>              |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

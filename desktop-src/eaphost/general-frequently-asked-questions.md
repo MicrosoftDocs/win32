@@ -1,6 +1,6 @@
 ---
 title: General Frequently Asked Questions
-description: Provides answers to commonly-asked questions about the EAPHost APIs.
+description: "Read answers to commonly-asked questions about the EAPHost APIs, such as 'What is the lifetime of an authentication?'."
 ms.assetid: 4025e8da-8cb1-477b-86bb-7756d9636224
 ms.topic: article
 ms.date: 05/31/2018
