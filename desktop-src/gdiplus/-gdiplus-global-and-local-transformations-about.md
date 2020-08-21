@@ -27,10 +27,6 @@ The following illustration shows the original ellipse and the transformed ellips
 
 ![screen shot of a window that contains two overlapping ellipses; one is narrower and rotated](images/aboutgdip05-art14.png)
 
-The following illustration shows the matrices involved in the transformation.
-
-![screen shot of a window that contains two overlapping ellipses; one is narrower and rotated](images/aboutgdip05-art14.png)
-
 > [!Note]  
 > In the previous example, the ellipse is rotated about the origin of the coordinate system, which is at the upper–left corner of the client area. This produces a different result than rotating the ellipse about its own center.
 
