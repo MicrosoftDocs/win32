@@ -1,6 +1,6 @@
 ---
 title: SimpleCertSelection (CertSelection) Element
-description: Determines how the user selects a certificate.
+description: Learn about the SimpleCertSelection (CertSelection) element. This element determines how the user selects a certificate.
 ms.assetid: 28454877-fd07-4b47-9544-f2b4e91c6651
 keywords:
 - SimpleCertSelection element EAPHost
@@ -36,10 +36,10 @@ The **SimpleCertSelection** element is defined by the [**CertSelection**](eaptls
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS |
+|------|----------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
