@@ -1,6 +1,6 @@
 ---
 title: User Element
-description: Is not used when using legacy methods via the EAPHost APIs.
+description: Learn about the User element. This element is not used when using legacy methods via the EAPHost APIs.
 ms.assetid: d35fb4ba-5f48-431d-b2bf-738043f5d1ff
 keywords:
 - User element EAPHost
@@ -47,10 +47,10 @@ The **User** element is not used when using legacy methods via the EAPHost APIs.
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
