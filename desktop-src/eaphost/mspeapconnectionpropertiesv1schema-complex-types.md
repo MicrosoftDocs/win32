@@ -1,6 +1,6 @@
 ---
 title: mspeapconnectionpropertiesv1 Schema Complex Types
-description: Defines the following complex types.
+description: Learn about mspeapconnectionpropertiesv1 schema. This schema defines the PeapExtensionsType and ServerValidationParameters complex types.
 ms.assetid: 544ee8fc-6b96-4661-bba5-9e26a7af661d
 ms.topic: article
 ms.date: 05/31/2018
