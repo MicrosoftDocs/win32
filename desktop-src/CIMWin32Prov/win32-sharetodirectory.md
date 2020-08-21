@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_ShareToDirectory class
 
-The **Win32\_ShareToDirectory** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a shared resource on the computer system and the directory to which it is mapped.
+The **Win32\_ShareToDirectory** association [WMI class](../wmisdk/retrieving-a-class.md) relates a shared resource on the computer system and the directory to which it is mapped.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_Share**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_Share")
+Qualifiers: [**key**](../wmisdk/key-qualifier.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_Share")
 </dt> </dl>
 
 Reference to the instance representing the properties of a shared resource available through the directory.
@@ -72,7 +72,7 @@ Data type: **CIM\_Directory**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("CIM\|CIM\_Directory")
+Qualifiers: [**key**](../wmisdk/key-qualifier.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("CIM\|CIM\_Directory")
 </dt> </dl>
 
 Reference to the instance representing the properties of the directory that has been mapped to a shared resource.
@@ -97,13 +97,9 @@ Reference to the instance representing the properties of the directory that has 
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](./operating-system-classes.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -25,7 +25,7 @@ The **ChangeSecurityPermissionsEx** method changes the security permissions for 
 
  
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).
 
 ## Syntax
 
@@ -52,7 +52,7 @@ uint32 ChangeSecurityPermissionsEx(
 Specifies security information.
 
 > [!Note]  
-> A **NULL** ACL in the [**SECURITY\_DESCRIPTOR**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure grants unlimited access. For more information about the implications of unlimited access, see [Creating a Security Descriptor for a New Object](https://docs.microsoft.com/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--).
+> A **NULL** ACL in the [**SECURITY\_DESCRIPTOR**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) structure grants unlimited access. For more information about the implications of unlimited access, see [Creating a Security Descriptor for a New Object](/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--).
 
  
 
@@ -136,7 +136,7 @@ If **True**, the method is also applied recursively to files and directories wit
 
 ## Return value
 
-Returns a value of 0 (zero) on success, and any other number to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns a value of 0 (zero) on success, and any other number to indicate an error. For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -287,16 +287,11 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_DataFile**](cim-datafile.md)
 </dt> <dt>
 
-[WMI Tasks: Files and Folders](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--files-and-folders)
+[WMI Tasks: Files and Folders](/windows/desktop/WmiSdk/wmi-tasks--files-and-folders)
 </dt> <dt>
 
-[**File and Directory Access Rights Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/file-and-directory-access-rights-constants)
+[**File and Directory Access Rights Constants**](/windows/desktop/WmiSdk/file-and-directory-access-rights-constants)
 </dt> </dl>
 
  
-
- 
-
-
-
 

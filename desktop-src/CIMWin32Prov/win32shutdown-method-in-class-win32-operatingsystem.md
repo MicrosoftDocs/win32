@@ -18,9 +18,9 @@ api_location:
 
 # Win32Shutdown method of the Win32\_OperatingSystem class
 
-The **Win32Shutdown**   [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) method provides the full set of shutdown options supported by Win32 operating systems. These include logoff, shutdown, reboot, and forcing a logoff, shutdown, or reboot.
+The **Win32Shutdown**   [WMI class](../wmisdk/retrieving-a-class.md) method provides the full set of shutdown options supported by Win32 operating systems. These include logoff, shutdown, reboot, and forcing a logoff, shutdown, or reboot.
 
-This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/Aa384832(v=VS.85).aspx).
+This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](../wmisdk/calling-a-method.md).
 
 ## Syntax
 
@@ -118,7 +118,7 @@ A means to extend **Win32Shutdown**. Currently, the *Reserved* parameter is igno
 
 ## Return value
 
-Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](https://msdn.microsoft.com/library/Aa394559(v=VS.85).aspx) or [**WbemErrorEnum**](https://msdn.microsoft.com/library/Aa393978(v=VS.85).aspx). For general **HRESULT** values, see [System Error Codes](https://msdn.microsoft.com/library/ms681381(v=VS.85).aspx).
+Returns zero (0) to indicate success. Any other number indicates an error. For error codes, see [**WMI Error Constants**](../wmisdk/wmi-error-constants.md) or [**WbemErrorEnum**](/windows/win32/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](../debug/system-error-codes.md).
 
 <dl> <dt>
 
@@ -223,7 +223,7 @@ Next
 
 <dl> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](./operating-system-classes.md)
 </dt> <dt>
 
 [**Win32\_OperatingSystem**](win32-operatingsystem.md)
@@ -232,16 +232,12 @@ Next
 [**Win32ShutdownTracker**](win32shutdowntracker-method-in-class-win32-operatingsystem.md)
 </dt> <dt>
 
-[WMI Tasks: Desktop Management](https://msdn.microsoft.com/library/Aa394591(v=VS.85).aspx)
+[WMI Tasks: Desktop Management](../wmisdk/wmi-tasks--desktop-management.md)
 </dt> <dt>
 
-[Executing Privileged Operations Using VBScript](https://msdn.microsoft.com/library/Aa390430(v=VS.85).aspx)
+[Executing Privileged Operations Using VBScript](../wmisdk/executing-privileged-operations-using-vbscript.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

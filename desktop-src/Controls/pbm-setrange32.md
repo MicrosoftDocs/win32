@@ -40,7 +40,7 @@ Maximum range value. This value must be greater than *wParam*. By default, the m
 
 ## Return value
 
-Returns a **DWORD** value that holds the previous 16-bit low limit in its [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) and the previous 16-bit high limit in its [**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)). If the previous ranges were 32-bit values, the return value consists of the **LOWORD**s of both 32-bit limits.
+Returns a **DWORD** value that holds the previous 16-bit low limit in its [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) and the previous 16-bit high limit in its [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)). If the previous ranges were 32-bit values, the return value consists of the **LOWORD**s of both 32-bit limits.
 
 ## Remarks
 
@@ -59,10 +59,4 @@ To retrieve the entire high and low 32-bit values, use the [**PBM\_GETRANGE**](p
 
 
  
-
- 
-
-
-
-
 

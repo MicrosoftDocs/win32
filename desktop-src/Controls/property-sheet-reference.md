@@ -34,7 +34,7 @@ This section contains information about programming elements used with property 
 | [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea)   | Creates a new page for a property sheet.<br/>                                                                                                                                                                                                        |
 | [**DestroyPropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-destroypropertysheetpage) | Destroys a property sheet page. An application must call this function for pages that have not been passed to the [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) function.<br/>                                                                              |
 | [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta)                       | Creates a property sheet and adds the pages defined in the specified property sheet header structure.<br/>                                                                                                                                           |
-| [*PropSheetPageProc*](https://msdn.microsoft.com/library/Bb760813(v=VS.85).aspx)                 | Specifies an application-defined callback function that a property sheet calls when a page is created and when it is about to be destroyed. An application can use this function to perform initialization and cleanup operations for the page.<br/> |
+| [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka)                 | Specifies an application-defined callback function that a property sheet calls when a page is created and when it is about to be destroyed. An application can use this function to perform initialization and cleanup operations for the page.<br/> |
 | [*PropSheetProc*](/windows/desktop/api/Prsht/nc-prsht-pfnpropsheetcallback)                         | An application-defined callback function that the system calls when the property sheet is being created and initialized.<br/>                                                                                                                        |
 
 
@@ -125,10 +125,4 @@ This section contains information about programming elements used with property 
  
 
  
-
- 
-
-
-
-
 

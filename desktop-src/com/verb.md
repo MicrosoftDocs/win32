@@ -27,9 +27,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 
 Each verb is a **REG\_SZ** value of the form "*name*, *menu\_flag*, *verb\_flag*". Verbs must be numbered consecutively.
 
-The *name* describes how the verb is appended by an [**AppendMenu**](https://msdn.microsoft.com/library/ms647616(v=VS.85).aspx) function call. For example, "&Play".
+The *name* describes how the verb is appended by an [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua) function call. For example, "&Play".
 
-The *menu\_flag* value indicates how the verb should appear in the menu. All flags supported by [**AppendMenu**](https://msdn.microsoft.com/library/ms647616(v=VS.85).aspx) are supported, except for MF\_BITMAP, MF\_OWNERDRAW, and MF\_POPUP.
+The *menu\_flag* value indicates how the verb should appear in the menu. All flags supported by [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua) are supported, except for MF\_BITMAP, MF\_OWNERDRAW, and MF\_POPUP.
 
 The *verb\_flag* value describes attributes of the verbs. Use one of the values from [**OLEVERBATTRIB**](/windows/win32/api/oleidl/ne-oleidl-oleverbattrib), or 0.
 
@@ -39,7 +39,7 @@ For more information, see [**OLEVERB**](/windows/win32/api/oleidl/ns-oleidl-olev
 
 <dl> <dt>
 
-[**AppendMenu**](https://msdn.microsoft.com/library/ms647616(v=VS.85).aspx)
+[**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua)
 </dt> <dt>
 
 [**OLEVERB**](/windows/win32/api/oleidl/ns-oleidl-oleverb)
@@ -51,7 +51,3 @@ For more information, see [**OLEVERB**](/windows/win32/api/oleidl/ns-oleidl-olev
  
 
  
-
-
-
-

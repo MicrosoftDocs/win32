@@ -44,7 +44,7 @@ This message does not return a value.
 
 ## Remarks
 
-This message is useful during [**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size) processing for the parent of a bottomless rich edit control.
+This message is useful during [**WM\_SIZE**](/windows/desktop/winmsg/wm-size) processing for the parent of a bottomless rich edit control.
 
 ## Requirements
 
@@ -71,14 +71,8 @@ This message is useful during [**WM\_SIZE**](https://docs.microsoft.com/windows/
 **Other Resources**
 </dt> <dt>
 
-[**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size)
+[**WM\_SIZE**](/windows/desktop/winmsg/wm-size)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -18,7 +18,7 @@ api_location:
 
 # SetPowerState method of the CIM\_WORMDrive class
 
-The **SetPowerState** method of the CIM\_WORMDrive class sets the desired power state for a logical device and when a device should be put into that state. In a subclass, the set of possible return codes should be specified by using a [**ValueMap**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) qualifier on the method. The strings to which the **ValueMap** contents are translated should also be specified in the subclass as a **Values** array qualifier. This method is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
+The **SetPowerState** method of the CIM\_WORMDrive class sets the desired power state for a logical device and when a device should be put into that state. In a subclass, the set of possible return codes should be specified by using a [**ValueMap**](/windows/desktop/WmiSdk/standard-qualifiers) qualifier on the method. The strings to which the **ValueMap** contents are translated should also be specified in the subclass as a **Values** array qualifier. This method is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
 > [!IMPORTANT]
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](https://dmtf.org/standards/cim/schemas).
@@ -44,7 +44,7 @@ uint32 SetPowerState(
 *PowerState* \[in\]
 </dt> <dd>
 
-A [**ValueMap**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) value that specifies the desired power state for this logical device.
+A [**ValueMap**](/windows/desktop/WmiSdk/standard-qualifiers) value that specifies the desired power state for this logical device.
 
 <dt>
 
@@ -132,9 +132,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

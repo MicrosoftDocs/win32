@@ -69,7 +69,7 @@ The return value indicates the relative position of the two items. It may be any
 
 When the owner of an owner-drawn combo box or list box receives this message, the owner returns a value indicating which of the items specified by the [**COMPAREITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-compareitemstruct) structure will appear before the other. Typically, the system sends this message several times until it determines the exact position for the new item.
 
-If a dialog box procedure handles this message, it should cast the desired return value to a **BOOL** and return the value directly. The DWL\_MSGRESULT value set by the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function is ignored.
+If a dialog box procedure handles this message, it should cast the desired return value to a **BOOL** and return the value directly. The DWL\_MSGRESULT value set by the [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function is ignored.
 
 ## Requirements
 
@@ -96,14 +96,8 @@ If a dialog box procedure handles this message, it should cast the desired retur
 **Other Resources**
 </dt> <dt>
 
-[**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga)
+[**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

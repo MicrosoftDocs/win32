@@ -32,7 +32,7 @@ Groups the configuration options for one or more DCOM objects into one centraliz
 | [**LoadUserSettings**](loadusersettings.md)             | Determines whether COM will load the user profile for COM servers running as the launching user application identity.                                                                                           |
 | [**LocalService**](localservice.md)                     | Installs an object as a service application.                                                                                                                                                                    |
 | [**PreferredServerBitness**](preferredserverbitness.md) | Sets the preferred architecture, 32-bit or 64-bit, for this COM server.                                                                                                                                         |
-| [**RemoteServerName**](remoteservername.md)             | Configures the client to request the object be run at a particular computer whenever an activation function is called for which a [**COSERVERINFO**](https://msdn.microsoft.com/library/ms687322(v=VS.85).aspx) structure is not specified.              |
+| [**RemoteServerName**](remoteservername.md)             | Configures the client to request the object be run at a particular computer whenever an activation function is called for which a [**COSERVERINFO**](/windows/win32/api/objidlbase/ns-objidlbase-coserverinfo) structure is not specified.              |
 | [**ROTFlags**](rotflags.md)                             | Controls the registration of a COM server in the running object table (ROT).                                                                                                                                    |
 | [**RunAs**](runas.md)                                   | Configures a class to run under a specific user account when activated by a remote client without being written as a service application.                                                                       |
 | [**ServiceParameters**](serviceparameters.md)           | Specifies the command-line parameters to be passed to an object installed for use by COM through the [**LocalService**](localservice.md) registry value.                                                       |
@@ -51,7 +51,7 @@ AppIDs are mapped to executables and classes using two different mechanisms:
 
 The **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes** key corresponds to the **HKEY\_CLASSES\_ROOT** key, which was retained for compatibility with earlier versions of COM.
 
-For COM servers, the mapping is usually generated and written to the registry during the registration process or when running dcomcnfg.exe. However, COM clients that want to set security using the **AppID** key must create appropriate registry keys and specify the required mapping by calling the [registry functions](https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions) or using Regedit.exe. Then values such as [**AccessPermission**](accesspermission.md) or [**AuthenticationLevel**](authenticationlevel.md) can be set for the client. For example, suppose the name of your executable for your client process is "YourClient.exe" and you want to set the authentication level to "None". You would use Guidgen.exe or Uuidgen.exe to create the GUID that is the AppID for your executable. Then you would set values in the registry as shown in the following example, where 00000001 represents an authentication level of "None":
+For COM servers, the mapping is usually generated and written to the registry during the registration process or when running dcomcnfg.exe. However, COM clients that want to set security using the **AppID** key must create appropriate registry keys and specify the required mapping by calling the [registry functions](/windows/desktop/SysInfo/registry-functions) or using Regedit.exe. Then values such as [**AccessPermission**](accesspermission.md) or [**AuthenticationLevel**](authenticationlevel.md) can be set for the client. For example, suppose the name of your executable for your client process is "YourClient.exe" and you want to set the authentication level to "None". You would use Guidgen.exe or Uuidgen.exe to create the GUID that is the AppID for your executable. Then you would set values in the registry as shown in the following example, where 00000001 represents an authentication level of "None":
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
@@ -64,7 +64,3 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
  
 
  
-
-
-
-

@@ -27,7 +27,7 @@ This topic demonstrates how to drag an image on the screen. The dragging functio
 
 Use the [**ImageList\_BeginDrag**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_begindrag) function to begin a drag operation.
 
-The user-defined function in the following C++ code example is intended to be called in response to a mouse button-down message, such as [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown). The function determines whether the user has clicked within the bounding rectangle of the image. If the user has clicked, the function captures the mouse input, erases the image from the client area, and calculates the position for the hot spot within the image. The function sets the hot spot to coincide with the hot spot of the mouse cursor. Then the function begins the drag operation by calling [**ImageList\_BeginDrag**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_begindrag).
+The user-defined function in the following C++ code example is intended to be called in response to a mouse button-down message, such as [**WM\_LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown). The function determines whether the user has clicked within the bounding rectangle of the image. If the user has clicked, the function captures the mouse input, erases the image from the client area, and calculates the position for the hot spot within the image. The function sets the hot spot to coincide with the hot spot of the mouse cursor. Then the function begins the drag operation by calling [**ImageList\_BeginDrag**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_begindrag).
 
 
 ```C++
@@ -91,7 +91,7 @@ BOOL StartDragging(HWND hwnd, POINT ptCur, HIMAGELIST himl)
 
 The [**ImageList\_DragMove**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_dragmove) function moves the image to a new location.
 
-The user-defined function in the following C++ code example is intended to be called in response to the [**WM\_MOUSEMOVE**](https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove) message. It drags the image to a new location.
+The user-defined function in the following C++ code example is intended to be called in response to the [**WM\_MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) message. It drags the image to a new location.
 
 
 ```C++
@@ -162,7 +162,3 @@ BOOL StopDragging(HWND hwnd, HIMAGELIST himl, POINT ptCur)
  
 
  
-
-
-
-

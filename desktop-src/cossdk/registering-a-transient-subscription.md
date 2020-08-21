@@ -16,7 +16,7 @@ Transient subscriptions cannot be set by using the Component Services administra
 
 The following procedure describes how to create a transient subscription using Microsoft Visual Basic:
 
-1.  Specify a subscription as transient by adding a new entry to the [**TransientSubscriptions**](transientsubscriptions.md) collection and setting the SubscriberInterface property to the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface of the subscriber object. COM+ Events does not create a new instance of the subscriber object when firing an event but instead uses the instance you specify. COM+ Events holds a reference count for the subscriber object until the subscription is removed from the system.
+1.  Specify a subscription as transient by adding a new entry to the [**TransientSubscriptions**](transientsubscriptions.md) collection and setting the SubscriberInterface property to the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface of the subscriber object. COM+ Events does not create a new instance of the subscriber object when firing an event but instead uses the instance you specify. COM+ Events holds a reference count for the subscriber object until the subscription is removed from the system.
 2.  Create a COM+ server application (an .exe, a .dll, or an .ocx file) with an object that implements the interfaces or methods you want to subscribe to.
 3.  Create your transient subscription using the following code, by passing in the CLSID of the [event class](the-com--event-class-object.md) object and the instance of the subscriber object. Using the Component Services administrative tool, you can get the EventCLSID property by right-clicking the COM+ component, selecting **Properties**, and selecting the **General** tab.
 
@@ -77,6 +77,3 @@ The CreateTransientSubscription function returns a string, which is a GUID that 
  
 
  
-
-
-

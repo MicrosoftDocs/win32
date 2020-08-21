@@ -26,7 +26,7 @@ This collection supports the [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin
 
 ## Members
 
-The **Applications** collection inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
+The **Applications** collection inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface but does not have additional members.
 
 ## Related Collections
 
@@ -185,7 +185,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
  
 
-For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services in IIS 6.0](https://msdn.microsoft.com/library/ms526018.aspx).
+For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services in IIS 6.0](/previous-versions/iis/6.0-sdk/ms526018(v=vs.90)).
 
 ### ApplicationProxy
 
@@ -950,6 +950,3 @@ An application that you are willing to trust with Unrestricted access should hav
  
 
  
-
-
-

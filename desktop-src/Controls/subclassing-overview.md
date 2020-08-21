@@ -25,7 +25,7 @@ This document discusses how subclasses are created and includes the following to
 
 You can put a control in a subclass and store user data within a control. You do this when you use versions of ComCtl32.dll prior to version 6. There are some disadvantages in creating subclasses with earlier versions of ComCtl32.dll.
 
-To make a new control, it is best to start with one of the Windows common controls and extend it to fit a particular need. To extend a control, create a control and replace its existing window procedure with a new one. The new procedure intercepts the control's messages and either acts on them or passes them to the original procedure for default processing. Use the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) or [**SetWindowLongPtr**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlongptra) function to replace the WNDPROC of the control. The following code sample shows how to replace a WNDPROC.
+To make a new control, it is best to start with one of the Windows common controls and extend it to fit a particular need. To extend a control, create a control and replace its existing window procedure with a new one. The new procedure intercepts the control's messages and either acts on them or passes them to the original procedure for default processing. Use the [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) or [**SetWindowLongPtr**](/windows/desktop/api/winuser/nf-winuser-setwindowlongptra) function to replace the WNDPROC of the control. The following code sample shows how to replace a WNDPROC.
 
 
 ```
@@ -37,7 +37,7 @@ GWLP_WNDPROC, (LONG_PTR)NewWndProc);
 
 ### Storing User Data
 
-You might want to store user data with an individual window. This data can be used by the new window procedure to determine how to draw the control or where to send certain messages. For example, you might use data to store a C++ class pointer to the class that represents the control. The following code sample shows how to use [**SetProp**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setpropa) to store data with a window.
+You might want to store user data with an individual window. This data can be used by the new window procedure to determine how to draw the control or where to send certain messages. For example, you might use data to store a C++ class pointer to the class that represents the control. The following code sample shows how to use [**SetProp**](/windows/desktop/api/winuser/nf-winuser-setpropa) to store data with a window.
 
 
 ```
@@ -53,7 +53,7 @@ The following list points out some of the disadvantages of using the previously 
 -   The window procedure can only be replaced once.
 -   It is difficult to remove a subclass after it is created.
 -   Associating private data with a window is inefficient.
--   To call the next procedure in a subclass chain, you cannot cast the old window procedure and call it, you must call it by using the [**CallWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca) function.
+-   To call the next procedure in a subclass chain, you cannot cast the old window procedure and call it, you must call it by using the [**CallWindowProc**](/windows/desktop/api/winuser/nf-winuser-callwindowproca) function.
 
 ## Subclassing Controls Using ComCtl32.dll version 6
 
@@ -64,14 +64,14 @@ The following list points out some of the disadvantages of using the previously 
 
 ComCtl32.dll version 6 contains four functions that make creating subclasses easier and eliminate the disadvantages previously discussed. The new functions encapsulate the management involved with multiple sets of reference data, therefore the developer can focus on programming features and not on managing subclasses. The subclassing functions are:
 
--   [**SetWindowSubclass**](https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass)
--   [**GetWindowSubclass**](https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-getwindowsubclass)
--   [**RemoveWindowSubclass**](https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-removewindowsubclass)
--   [**DefSubclassProc**](https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-defsubclassproc)
+-   [**SetWindowSubclass**](/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass)
+-   [**GetWindowSubclass**](/windows/desktop/api/commctrl/nf-commctrl-getwindowsubclass)
+-   [**RemoveWindowSubclass**](/windows/desktop/api/commctrl/nf-commctrl-removewindowsubclass)
+-   [**DefSubclassProc**](/windows/desktop/api/commctrl/nf-commctrl-defsubclassproc)
 
 ### SetWindowSubclass
 
-This function is used to initially subclass a window. Each subclass is uniquely identified by the address of the *pfnSubclass* and its *uIdSubclass*. Both of these are parameters of the [**SetWindowSubclass**](https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass) function. Several subclasses can share the same subclass procedure and the ID can identify each call. To change reference data you can make subsequent calls to **SetWindowSubclass**. The important advantage is that each subclass instance has its own reference data.
+This function is used to initially subclass a window. Each subclass is uniquely identified by the address of the *pfnSubclass* and its *uIdSubclass*. Both of these are parameters of the [**SetWindowSubclass**](/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass) function. Several subclasses can share the same subclass procedure and the ID can identify each call. To change reference data you can make subsequent calls to **SetWindowSubclass**. The important advantage is that each subclass instance has its own reference data.
 
 The declaration of a subclass procedure is slightly different from a regular window procedure because it has two additional pieces of data: the subclass ID and the reference data. The last two parameters of the following function declaration show this.
 
@@ -113,7 +113,7 @@ LRESULT CALLBACK OwnerDrawButtonProc(HWND hWnd, UINT uMsg, WPARAM wParam,
 
 
 
-The window procedure can be attached to the control in the [**WM\_INITDIALOG**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog) handler of the dialog procedure, as shown in the following example.
+The window procedure can be attached to the control in the [**WM\_INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog) handler of the dialog procedure, as shown in the following example.
 
 
 ```
@@ -129,20 +129,16 @@ case WM_INITDIALOG:
 
 ### GetWindowSubclass
 
-This function retrieves information about a subclass. For example, you can use [**GetWindowSubclass**](https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-getwindowsubclass) to access the reference data.
+This function retrieves information about a subclass. For example, you can use [**GetWindowSubclass**](/windows/desktop/api/commctrl/nf-commctrl-getwindowsubclass) to access the reference data.
 
 ### RemoveWindowSubclass
 
-This function removes subclasses. [**RemoveWindowSubclass**](https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-removewindowsubclass) in combination with [**SetWindowSubclass**](https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass) allows you to dynamically add and remove subclasses.
+This function removes subclasses. [**RemoveWindowSubclass**](/windows/desktop/api/commctrl/nf-commctrl-removewindowsubclass) in combination with [**SetWindowSubclass**](/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass) allows you to dynamically add and remove subclasses.
 
 ### DefSubclassProc
 
-The [**DefSubclassProc**](https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-defsubclassproc) function calls the next handler in the subclass chain. The function also retrieves the proper ID and reference data and passes the information to the next window procedure.
+The [**DefSubclassProc**](/windows/desktop/api/commctrl/nf-commctrl-defsubclassproc) function calls the next handler in the subclass chain. The function also retrieves the proper ID and reference data and passes the information to the next window procedure.
 
  
 
  
-
-
-
-

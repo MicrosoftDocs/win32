@@ -22,15 +22,15 @@ The main surrogate thread should typically perform the following setup steps:
 1.  Call [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) to initialize the thread and set the threading model.
 2.  If you want the DLL servers that are to run in the server to be able to use the security settings in the **AppID** registry key, call [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) with the EOAC\_APPID capability. Otherwise, legacy security settings will be used.
 3.  Call [**CoRegisterSurrogate**](/windows/desktop/api/combaseapi/nf-combaseapi-coregistersurrogate) to register the surrogate interface to COM.
-4.  Call [**ISurrogate::LoadDllServer**](https://msdn.microsoft.com/library/ms679711(v=VS.85).aspx) for the requested CLSID.
+4.  Call [**ISurrogate::LoadDllServer**](/windows/win32/api/objidlbase/nf-objidlbase-isurrogate-loaddllserver) for the requested CLSID.
 5.  Put main thread in a loop to call [**CoFreeUnusedLibraries**](/windows/desktop/api/combaseapi/nf-combaseapi-cofreeunusedlibraries) periodically.
-6.  When COM calls [**ISurrogate::FreeSurrogate**](https://msdn.microsoft.com/library/ms693453(v=VS.85).aspx), revoke all class factories and exit.
+6.  When COM calls [**ISurrogate::FreeSurrogate**](/windows/win32/api/objidlbase/nf-objidlbase-isurrogate-freesurrogate), revoke all class factories and exit.
 
-A surrogate process must implement the [**ISurrogate**](https://msdn.microsoft.com/library/ms695062(v=VS.85).aspx) interface. This interface should be registered when a new surrogate is started and after calling [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex). As indicated in the preceding steps, the **ISurrogate** interface has two methods that COM calls: [**LoadDllServer**](https://msdn.microsoft.com/library/ms679711(v=VS.85).aspx), to dynamically load new DLL servers into existing surrogates; and [**FreeSurrogate**](https://msdn.microsoft.com/library/ms693453(v=VS.85).aspx), to free the surrogate.
+A surrogate process must implement the [**ISurrogate**](/windows/win32/api/objidlbase/nn-objidlbase-isurrogate) interface. This interface should be registered when a new surrogate is started and after calling [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex). As indicated in the preceding steps, the **ISurrogate** interface has two methods that COM calls: [**LoadDllServer**](/windows/win32/api/objidlbase/nf-objidlbase-isurrogate-loaddllserver), to dynamically load new DLL servers into existing surrogates; and [**FreeSurrogate**](/windows/win32/api/objidlbase/nf-objidlbase-isurrogate-freesurrogate), to free the surrogate.
 
-The implementation of [**LoadDllServer**](https://msdn.microsoft.com/library/ms679711(v=VS.85).aspx), which COM calls with a load request, must first create a class factory object that supports [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown), [**IClassFactory**](https://msdn.microsoft.com/library/ms694364(v=VS.85).aspx), and [**IMarshal**](https://msdn.microsoft.com/library/Dd542707(v=VS.85).aspx), and then call [**CoRegisterClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject) to register the object as the class factory for the requested CLSID.
+The implementation of [**LoadDllServer**](/windows/win32/api/objidlbase/nf-objidlbase-isurrogate-loaddllserver), which COM calls with a load request, must first create a class factory object that supports [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown), [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory), and [**IMarshal**](/windows/win32/api/objidlbase/nn-objidlbase-imarshal), and then call [**CoRegisterClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject) to register the object as the class factory for the requested CLSID.
 
-The class factory registered by the surrogate process is not the actual class factory implemented by the DLL server but is a generic class factory implemented by the surrogate process that supports [**IClassFactory**](https://msdn.microsoft.com/library/ms694364(v=VS.85).aspx) and [**IMarshal**](https://msdn.microsoft.com/library/Dd542707(v=VS.85).aspx). Because it is the surrogate's class factory, rather than that of the DLL server that is being registered, the surrogate's class factory will need to use the real class factory to create an instance of the object for the registered CLSID. The surrogate's [**IClassFactory::CreateInstance**](/windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance) should look something like the following example:
+The class factory registered by the surrogate process is not the actual class factory implemented by the DLL server but is a generic class factory implemented by the surrogate process that supports [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) and [**IMarshal**](/windows/win32/api/objidlbase/nn-objidlbase-imarshal). Because it is the surrogate's class factory, rather than that of the DLL server that is being registered, the surrogate's class factory will need to use the real class factory to create an instance of the object for the registered CLSID. The surrogate's [**IClassFactory::CreateInstance**](/windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance) should look something like the following example:
 
 
 ```C++
@@ -54,7 +54,7 @@ STDMETHODIMP CSurrogateFactory::CreateInstance(
 
 
 
-The surrogate's class factory must also support [**IMarshal**](https://msdn.microsoft.com/library/Dd542707(v=VS.85).aspx) because a call to [**CoGetClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject) can request any interface from the registered class factory, not just [**IClassFactory**](https://msdn.microsoft.com/library/ms694364(v=VS.85).aspx). Further, since the generic class factory supports only [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) and **IClassFactory**, requests for other interfaces must be directed to the real object. Thus, there should be a [**MarshalInterface**](https://msdn.microsoft.com/library/ms692716(v=VS.85).aspx) method which should be similar to the following:
+The surrogate's class factory must also support [**IMarshal**](/windows/win32/api/objidlbase/nn-objidlbase-imarshal) because a call to [**CoGetClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject) can request any interface from the registered class factory, not just [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory). Further, since the generic class factory supports only [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) and **IClassFactory**, requests for other interfaces must be directed to the real object. Thus, there should be a [**MarshalInterface**](/windows/win32/api/objidlbase/nf-objidlbase-imarshal-marshalinterface) method which should be similar to the following:
 
 
 ```C++
@@ -93,7 +93,3 @@ Following these guidelines for creating a surrogate process when it is necessary
  
 
  
-
-
-
-

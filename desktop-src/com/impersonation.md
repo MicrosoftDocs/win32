@@ -16,13 +16,13 @@ The primary reason for impersonation is to cause access checks to be performed a
 
 Access tokens are objects that describe the security context of a process or thread. They provide information that includes the identity of a user account and a subset of the privileges available to the user account. Every process has a *primary access token* that describes the security context of the user account associated with the process. By default, the system uses the primary token when a thread of the process interacts with a securable object. However, when a thread impersonates a client, the impersonating thread has both a primary access token and an *impersonation token*. The impersonation token represents the client's security context, and this access token is the one that is used for access checks during impersonation. When impersonation is over, the thread reverts to using only the primary access token.
 
-You can use the [**OpenProcessToken**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken) function to get a handle to the primary token of a process. Use the [**OpenThreadToken**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken) function to get a handle to the impersonation token of a thread.
+You can use the [**OpenProcessToken**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken) function to get a handle to the primary token of a process. Use the [**OpenThreadToken**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken) function to get a handle to the impersonation token of a thread.
 
 ## Related topics
 
 <dl> <dt>
 
-[Access Tokens](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-tokens)
+[Access Tokens](/windows/desktop/SecAuthZ/access-tokens)
 </dt> <dt>
 
 [Delegation and Impersonation](delegation-and-impersonation.md)
@@ -31,7 +31,3 @@ You can use the [**OpenProcessToken**](https://docs.microsoft.com/windows/deskto
  
 
  
-
-
-
-

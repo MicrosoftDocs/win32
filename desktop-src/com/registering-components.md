@@ -16,14 +16,14 @@ When the following types of applications are installed, installation information
 
 For all three instances, register COM library (DLL) information and application-specific information.
 
-The DLL registers the information for all its components by exporting [**DllRegisterServer**](https://msdn.microsoft.com/library/ms682162(v=VS.85).aspx) and [**DllUnregisterServer**](https://msdn.microsoft.com/library/ms691457(v=VS.85).aspx). Use the following functions to register and unregister a component:
+The DLL registers the information for all its components by exporting [**DllRegisterServer**](/windows/win32/api/olectl/nf-olectl-dllregisterserver) and [**DllUnregisterServer**](/windows/win32/api/olectl/nf-olectl-dllunregisterserver). Use the following functions to register and unregister a component:
 
--   [**RegOpenKeyEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa)
--   [**RegCreateKeyEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa)
--   [**RegSetValueEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetvalueexa)
--   [**RegEnumKeyEx**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regenumkeyexa)
--   [**RegDeleteKey**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdeletekeya)
--   [**RegCloseKey**](https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey)
+-   [**RegOpenKeyEx**](/windows/desktop/api/winreg/nf-winreg-regopenkeyexa)
+-   [**RegCreateKeyEx**](/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa)
+-   [**RegSetValueEx**](/windows/desktop/api/winreg/nf-winreg-regsetvalueexa)
+-   [**RegEnumKeyEx**](/windows/desktop/api/winreg/nf-winreg-regenumkeyexa)
+-   [**RegDeleteKey**](/windows/desktop/api/winreg/nf-winreg-regdeletekeya)
+-   [**RegCloseKey**](/windows/desktop/api/winreg/nf-winreg-regclosekey)
 
 ## Related topics
 
@@ -35,7 +35,3 @@ The DLL registers the information for all its components by exporting [**DllRegi
  
 
  
-
-
-
-

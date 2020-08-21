@@ -32,7 +32,7 @@ As the table indicates, the [**IAdviseSink**](/windows/desktop/api/ObjIdl/nn-obj
 
 In order to take advantage of the advise sink, a data source must implement [**IDataObject::DAdvise**](/windows/desktop/api/ObjIdl/nf-objidl-idataobject-dadvise), [**IDataObject::DUnadvise**](/windows/desktop/api/ObjIdl/nf-objidl-idataobject-dunadvise), and [**IDataObject::EnumDAdvise**](/windows/desktop/api/ObjIdl/nf-objidl-idataobject-enumdadvise). A data consumer calls the **DAdvise** mothod to notify a data object that it wishes to be notified when the object's data changes. The consuming object calls the **DUnadvise** method to tear down this connection. Any interested party can call the **EnumDAdvise** method to learn the number of objects having an advisory connection with a data object.
 
-When data changes at the source, the data object calls [**IAdviseSink::OnDataChange**](/windows/desktop/api/ObjIdl/nf-objidl-iadvisesink-ondatachange) on all data consumers that have registered to receive notifications. To keep track of advisory connections and manage the dispatch of notifications, data sources rely on an object called a *data advise holder*. You can create your own data advise holder by implementing the [**IDataAdviseHolder**](/windows/desktop/api/ObjIdl/nn-objidl-idataadviseholder) interface. Or, you can let COM do it for you by calling the helper function [**CreateDataAdviseHolder**](https://msdn.microsoft.com/library/ms690308(v=VS.85).aspx).
+When data changes at the source, the data object calls [**IAdviseSink::OnDataChange**](/windows/desktop/api/ObjIdl/nf-objidl-iadvisesink-ondatachange) on all data consumers that have registered to receive notifications. To keep track of advisory connections and manage the dispatch of notifications, data sources rely on an object called a *data advise holder*. You can create your own data advise holder by implementing the [**IDataAdviseHolder**](/windows/desktop/api/ObjIdl/nn-objidl-idataadviseholder) interface. Or, you can let COM do it for you by calling the helper function [**CreateDataAdviseHolder**](/windows/win32/api/ole2/nf-ole2-createdataadviseholder).
 
 ## Related topics
 
@@ -42,10 +42,4 @@ When data changes at the source, the data object calls [**IAdviseSink::OnDataCha
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

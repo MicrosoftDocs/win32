@@ -34,7 +34,7 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-A [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure specifying the display area of the device.
+A [**RECT**](/previous-versions//dd162897(v=vs.85)) structure specifying the display area of the device.
 
 </dd> </dl>
 
@@ -70,10 +70,4 @@ Banding is the process by which a single page of output is generated using one o
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

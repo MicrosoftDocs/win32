@@ -74,14 +74,8 @@ The copied line does not contain a terminating null character.
 **Other Resources**
 </dt> <dt>
 
-[**WM\_GETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext)
+[**WM\_GETTEXT**](/windows/desktop/winmsg/wm-gettext)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -38,12 +38,9 @@ COM+ version 1.5 is included in Windows starting with Windows XP and Windows Se
 
 <dl> <dt>
 
-[COM](https://docs.microsoft.com/windows/desktop/com/component-object-model--com--portal)
+[COM](/windows/desktop/com/component-object-model--com--portal)
 </dt> </dl>
 
  
 
  
-
-
-

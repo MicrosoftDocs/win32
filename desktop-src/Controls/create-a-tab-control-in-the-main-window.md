@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Create a Tab Control in the Main Window
 
-The example in this section demonstrates how to create a tab control and display it in the client area of the application's main window. The application displays a third window (a static control) in the display area of the tab control. The parent window positions and sizes the tab control and static control when it processes the [**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size) message.
+The example in this section demonstrates how to create a tab control and display it in the client area of the application's main window. The application displays a third window (a static control) in the display area of the tab control. The parent window positions and sizes the tab control and static control when it processes the [**WM\_SIZE**](/windows/desktop/winmsg/wm-size) message.
 
 There are seven tabs in this example, one for each day of the week. When the user selects a tab, the application displays the name of the corresponding day in the static control.
 
@@ -27,7 +27,7 @@ There are seven tabs in this example, one for each day of the week. When the use
 
 ### Create a Tab Control in the Main Window
 
-The following function creates the tab control and adds a tab for each day of the week. The names of the days are defined as string resources, consecutively numbered starting with IDS\_SUNDAY (defined in the application's resource header file). Both the parent window and the tab control must have the [**WS\_CLIPSIBLINGS**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) window style. The application's initialization function calls this function after creating the main window.
+The following function creates the tab control and adds a tab for each day of the week. The names of the days are defined as string resources, consecutively numbered starting with IDS\_SUNDAY (defined in the application's resource header file). Both the parent window and the tab control must have the [**WS\_CLIPSIBLINGS**](/windows/desktop/winmsg/window-styles) window style. The application's initialization function calls this function after creating the main window.
 
 
 ```C++
@@ -110,7 +110,7 @@ HWND DoCreateDisplayWindow(HWND hwndTab)
 
 
 
-The following example functions are called from the application's window procedure. The application calls the `OnSize` function when processing the [**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size) message to position and size the tab control to fit the main window's client area.
+The following example functions are called from the application's window procedure. The application calls the `OnSize` function when processing the [**WM\_SIZE**](/windows/desktop/winmsg/wm-size) message to position and size the tab control to fit the main window's client area.
 
 When a tab is selected, the tab control sends a [**WM\_NOTIFY**](wm-notify.md) message, specifying the [TCN\_SELCHANGE](tcn-selchange.md) notification code. The application's `OnNotify` function processes this notification code by setting the text of the static control.
 
@@ -187,7 +187,3 @@ BOOL OnNotify(HWND hwndTab, HWND hwndDisplay, LPARAM lParam)
  
 
  
-
-
-
-

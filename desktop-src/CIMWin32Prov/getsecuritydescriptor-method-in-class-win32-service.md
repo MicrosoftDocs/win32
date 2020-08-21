@@ -18,7 +18,7 @@ api_location:
 
 # GetSecurityDescriptor method of the Win32\_Service class
 
-The **GetSecurityDescriptor** method returns the security descriptor that controls access to the service. The descriptor is returned as an instance of [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor).
+The **GetSecurityDescriptor** method returns the security descriptor that controls access to the service. The descriptor is returned as an instance of [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor).
 
 ## Syntax
 
@@ -44,7 +44,7 @@ The security descriptor associated with the service.
 
 ## Return value
 
-Returns one of the values listed in the following list, or a different value to indicate an error. For additional error codes, see [**WMI Error Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes).
+Returns one of the values listed in the following list, or a different value to indicate an error. For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).
 
 <dl> <dt>
 
@@ -282,9 +282,9 @@ The service is currently paused in the system.
 
 ## Remarks
 
-The [**Win32\_SecurityDescriptor**](https://docs.microsoft.com/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance represents a [**SECURITY\_DESCRIPTOR\_CONTROL**](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control) data type and contains a [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL) and a [*system access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SACL). For more information, see [Access Control Lists](https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists).
+The [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance represents a [**SECURITY\_DESCRIPTOR\_CONTROL**](/windows/desktop/SecAuthZ/security-descriptor-control) data type and contains a [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) and a [*system access control list*](/windows/desktop/SecGloss/s-gly) (SACL). For more information, see [Access Control Lists](/windows/desktop/SecAuthZ/access-control-lists).
 
-If the **SeSecurityPrivilege** is not granted or enabled when getting a security descriptor, then only the DACL is returned in the returned security descriptor. For more information, see [**Privilege Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/privilege-constants) and [Executing Privileged Operations](https://docs.microsoft.com/windows/desktop/WmiSdk/executing-privileged-operations).
+If the **SeSecurityPrivilege** is not granted or enabled when getting a security descriptor, then only the DACL is returned in the returned security descriptor. For more information, see [**Privilege Constants**](/windows/desktop/WmiSdk/privilege-constants) and [Executing Privileged Operations](/windows/desktop/WmiSdk/executing-privileged-operations).
 
 ## Examples
 
@@ -329,22 +329,17 @@ Scope.Options.EnablePrivileges = True
 [**Win32\_Service**](win32-service.md)
 </dt> <dt>
 
-[**Privilege Constants**](https://docs.microsoft.com/windows/desktop/WmiSdk/privilege-constants)
+[**Privilege Constants**](/windows/desktop/WmiSdk/privilege-constants)
 </dt> <dt>
 
-[WMI Security Descriptor Objects](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-security-descriptor-objects)
+[WMI Security Descriptor Objects](/windows/desktop/WmiSdk/wmi-security-descriptor-objects)
 </dt> <dt>
 
-[Changing Access Security on Securable Objects](https://docs.microsoft.com/windows/desktop/WmiSdk/changing-access-security-on-securable-objects)
+[Changing Access Security on Securable Objects](/windows/desktop/WmiSdk/changing-access-security-on-securable-objects)
 </dt> <dt>
 
-[User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi)
+[User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -34,7 +34,7 @@ Zero-based index of the button for which to retrieve information.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that receives the client coordinates of the bounding rectangle.
+Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that receives the client coordinates of the bounding rectangle.
 
 </dd> </dl>
 
@@ -59,10 +59,4 @@ This message does not retrieve the bounding rectangle for buttons whose state is
 
 
  
-
- 
-
-
-
-
 

@@ -56,11 +56,11 @@ By choosing the impersonation level, the client tells the server how far it can 
 There are two ways to set the impersonation level:
 
 -   The client can set it processwide, through a call to [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity).
--   A client can set proxy-level security on an interface of a remote object through a call to [**IClientSecurity::SetBlanket**](https://msdn.microsoft.com/library/ms691255(v=VS.85).aspx) (or the helper function [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket)).
+-   A client can set proxy-level security on an interface of a remote object through a call to [**IClientSecurity::SetBlanket**](/windows/win32/api/objidl/nf-objidl-iclientsecurity-setblanket) (or the helper function [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket)).
 
 You set the impersonation level by passing an appropriate RPC\_C\_IMP\_LEVEL\_xxx value to [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) or [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket) through the *dwImpLevel* parameter.
 
-Different authentication services support delegate-level impersonation to different extents. For instance, NTLMSSP supports cross-thread and cross-process delegate-level impersonation, but not cross-computer. On the other hand, the Kerberos protocol supports delegate-level impersonation across computer boundaries, while Schannel does not support any impersonation at the delegate level. If you have a proxy at impersonate level and you want to set the impersonation level to delegate, you should call [**SetBlanket**](https://msdn.microsoft.com/library/ms691255(v=VS.85).aspx) using the default constants for every parameter except the impersonation level. COM will choose NTLM locally and the Kerberos protocol remotely (when the Kerberos protocol will work).
+Different authentication services support delegate-level impersonation to different extents. For instance, NTLMSSP supports cross-thread and cross-process delegate-level impersonation, but not cross-computer. On the other hand, the Kerberos protocol supports delegate-level impersonation across computer boundaries, while Schannel does not support any impersonation at the delegate level. If you have a proxy at impersonate level and you want to set the impersonation level to delegate, you should call [**SetBlanket**](/windows/win32/api/objidl/nf-objidl-iclientsecurity-setblanket) using the default constants for every parameter except the impersonation level. COM will choose NTLM locally and the Kerberos protocol remotely (when the Kerberos protocol will work).
 
 ## Related topics
 
@@ -72,7 +72,3 @@ Different authentication services support delegate-level impersonation to differ
  
 
  
-
-
-
-

@@ -40,7 +40,7 @@ This message is processed only by multiline edit controls. You can send this mes
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that specifies the new dimensions of the rectangle. If this parameter is **NULL**, the formatting rectangle is set to its default values.
+A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that specifies the new dimensions of the rectangle. If this parameter is **NULL**, the formatting rectangle is set to its default values.
 
 </dd> </dl>
 
@@ -77,14 +77,8 @@ This message does not return a value.
 **Other Resources**
 </dt> <dt>
 
-[**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85))
+[**RECT**](/previous-versions//dd162897(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

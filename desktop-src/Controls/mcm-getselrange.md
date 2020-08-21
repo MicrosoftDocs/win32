@@ -30,7 +30,7 @@ Retrieves date information that represents the upper and lower limits of the dat
 *lParam* 
 </dt> <dd>
 
-Pointer to a two-element array of [**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structures that will receive the lower and upper limits of the user's selection. The lower and upper limits are placed in *lprgSysTimeArray*\[0\] and *lprgSysTimeArray*\[1\], respectively. This parameter must be a valid address and cannot be **NULL**.
+Pointer to a two-element array of [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) structures that will receive the lower and upper limits of the user's selection. The lower and upper limits are placed in *lprgSysTimeArray*\[0\] and *lprgSysTimeArray*\[1\], respectively. This parameter must be a valid address and cannot be **NULL**.
 
 </dd> </dl>
 
@@ -58,10 +58,4 @@ Returns nonzero if successful, or zero otherwise. **MCM\_GETSELRANGE** will fail
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

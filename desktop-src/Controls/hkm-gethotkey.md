@@ -32,7 +32,7 @@ Gets the virtual key code and modifier flags of a hot key from a hot key control
 
 ## Return value
 
-Returns the virtual key code and modifier flags. The [**LOBYTE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632658(v=vs.85)) of the [**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is the virtual key code of the hot key. The [**HIBYTE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632656(v=vs.85)) of the **LOWORD** is the key modifier that specifies the keys that define a hot key combination. The modifier flags can be a combination of the following values.
+Returns the virtual key code and modifier flags. The [**LOBYTE**](/previous-versions/windows/desktop/legacy/ms632658(v=vs.85)) of the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is the virtual key code of the hot key. The [**HIBYTE**](/previous-versions/windows/desktop/legacy/ms632656(v=vs.85)) of the **LOWORD** is the key modifier that specifies the keys that define a hot key combination. The modifier flags can be a combination of the following values.
 
 
 
@@ -49,7 +49,7 @@ Returns the virtual key code and modifier flags. The [**LOBYTE**](https://docs.m
 
 ## Remarks
 
-The 16-bit value returned by this message can be used as the *wParam* parameter in the [**WM\_SETHOTKEY**](https://docs.microsoft.com/windows/desktop/inputdev/wm-sethotkey) message.
+The 16-bit value returned by this message can be used as the *wParam* parameter in the [**WM\_SETHOTKEY**](/windows/desktop/inputdev/wm-sethotkey) message.
 
 ## Requirements
 
@@ -64,10 +64,4 @@ The 16-bit value returned by this message can be used as the *wParam* parameter 
 
 
  
-
- 
-
-
-
-
 

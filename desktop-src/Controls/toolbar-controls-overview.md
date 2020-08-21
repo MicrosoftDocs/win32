@@ -44,9 +44,9 @@ If you create a toolbar using [**CreateToolbarEx**](/windows/desktop/api/Commctr
 
  
 
-The [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function does not have parameters for specifying toolbar size. The toolbar window procedure automatically sets the size and position of the toolbar window. The height is based on the height of the buttons in the toolbar. The width is the same as the width of the parent window's client area. To change the automatic size settings, send a [**TB\_SETBUTTONSIZE**](tb-setbuttonsize.md) message. The [**CCS\_TOP**](common-control-styles.md) and [**CCS\_BOTTOM**](common-control-styles.md) common control styles determine whether the toolbar is positioned along the top or bottom of the client area. By default, a toolbar has the **CCS\_TOP** style.
+The [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function does not have parameters for specifying toolbar size. The toolbar window procedure automatically sets the size and position of the toolbar window. The height is based on the height of the buttons in the toolbar. The width is the same as the width of the parent window's client area. To change the automatic size settings, send a [**TB\_SETBUTTONSIZE**](tb-setbuttonsize.md) message. The [**CCS\_TOP**](common-control-styles.md) and [**CCS\_BOTTOM**](common-control-styles.md) common control styles determine whether the toolbar is positioned along the top or bottom of the client area. By default, a toolbar has the **CCS\_TOP** style.
 
-Also, the toolbar window procedure automatically adjusts the size of the toolbar whenever it receives a [**WM\_SIZE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-size) or [**TB\_AUTOSIZE**](tb-autosize.md) message. An application should send either of these messages whenever the size of the parent window changes or after sending a message that requires adjusting the size of the toolbar—for example, a [**TB\_SETBUTTONSIZE**](tb-setbuttonsize.md) message.
+Also, the toolbar window procedure automatically adjusts the size of the toolbar whenever it receives a [**WM\_SIZE**](/windows/desktop/winmsg/wm-size) or [**TB\_AUTOSIZE**](tb-autosize.md) message. An application should send either of these messages whenever the size of the parent window changes or after sending a message that requires adjusting the size of the toolbar—for example, a [**TB\_SETBUTTONSIZE**](tb-setbuttonsize.md) message.
 
 The toolbar default sizing and positioning behaviors can be turned off by setting the [**CCS\_NORESIZE**](common-control-styles.md) and [**CCS\_NOPARENTALIGN**](common-control-styles.md) common control styles. Toolbar controls that are hosted by rebar controls must set these styles because the rebar control sizes and positions the toolbar.
 
@@ -62,7 +62,7 @@ The following screen shot shows a transparent toolbar as it might appear in Wind
 
 ![screen shot of a window in windows vista with a transparent toolbar](images/tb-transparent.png)
 
-To create a transparent toolbar, all you need to do is add [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md) or [**TBSTYLE\_TRANSPARENT**](toolbar-control-and-button-styles.md) to the window style parameter of [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa). If you do not want a line to appear to indicate the bottom of the toolbar, do not use the [**WS\_BORDER**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) window style.
+To create a transparent toolbar, all you need to do is add [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md) or [**TBSTYLE\_TRANSPARENT**](toolbar-control-and-button-styles.md) to the window style parameter of [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa). If you do not want a line to appear to indicate the bottom of the toolbar, do not use the [**WS\_BORDER**](/windows/desktop/winmsg/window-styles) window style.
 
 > [!Note]  
 > When using visual styles, toolbars may be flat by default.
@@ -81,7 +81,7 @@ You can use the [**TBSTYLE\_LIST**](toolbar-control-and-button-styles.md) toolba
 
 ## Defining Button Images
 
-There are two ways to specify the images for buttons—by bitmaps or by image lists. An application must choose which method to use. It cannot use both methods with the same toolbar control. Note that the [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex) function uses the bitmap method. Applications that want to use the image list method must use the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function to create the toolbar control.
+There are two ways to specify the images for buttons—by bitmaps or by image lists. An application must choose which method to use. It cannot use both methods with the same toolbar control. Note that the [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex) function uses the bitmap method. Applications that want to use the image list method must use the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function to create the toolbar control.
 
 ### Defining Button Images by Using Bitmaps
 
@@ -89,7 +89,7 @@ Each button in a toolbar can include a bitmapped image. A toolbar uses an intern
 
 Each image has a zero-based index. The first image added to the internal list has an index of 0, the second image has an index of 1, and so on. [**TB\_ADDBITMAP**](tb-addbitmap.md) adds images to the end of the list and returns the index of the first new image that it added. To associate the image with a button, you must send a [**TB\_ADDBUTTONS**](tb-addbuttons.md) message and specify the image's index after you add bitmaps to the internal image list.
 
-Windows assumes that all of a toolbar's bitmapped images are the same size. You specify the size when you create the toolbar by using [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex). If you use the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function to create a toolbar, the size of the images is set to the default dimensions of 16 by 15 pixels. You can use the [**TB\_SETBITMAPSIZE**](tb-setbitmapsize.md) message to change the dimensions of the bitmapped images, but you must do so before adding any images to the internal list.
+Windows assumes that all of a toolbar's bitmapped images are the same size. You specify the size when you create the toolbar by using [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex). If you use the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function to create a toolbar, the size of the images is set to the default dimensions of 16 by 15 pixels. You can use the [**TB\_SETBITMAPSIZE**](tb-setbitmapsize.md) message to change the dimensions of the bitmapped images, but you must do so before adding any images to the internal list.
 
 ### Defining Button Images by Using Image Lists
 
@@ -119,12 +119,12 @@ Using [**TB\_ADDSTRING**](tb-addstring.md) is not the only way to add strings to
 
 ## Adding Toolbar Buttons
 
-If you use the [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex) function to create a toolbar, you can add buttons to the toolbar by filling an array of [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) structures and specifying the address of the array in the function call. However, the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function does not have a parameter for passing a **TBBUTTON** structure. **CreateWindowEx** creates an empty toolbar that you fill by sending a [**TB\_ADDBUTTONS**](tb-addbuttons.md) message, specifying the address of a **TBBUTTON** structure.
+If you use the [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex) function to create a toolbar, you can add buttons to the toolbar by filling an array of [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) structures and specifying the address of the array in the function call. However, the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function does not have a parameter for passing a **TBBUTTON** structure. **CreateWindowEx** creates an empty toolbar that you fill by sending a [**TB\_ADDBUTTONS**](tb-addbuttons.md) message, specifying the address of a **TBBUTTON** structure.
 
 After a toolbar is created, you can add buttons by sending a [**TB\_INSERTBUTTON**](tb-insertbutton.md) or [**TB\_ADDBUTTONS**](tb-addbuttons.md) message. Each button is described by a [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) structure, which defines the attributes of the button, including the indexes of its string and bitmap as well as its style, state, command identifier, and application-defined 32-bit value.
 
 > [!Note]  
-> If you use the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function to create a toolbar, you must send the [**TB\_BUTTONSTRUCTSIZE**](tb-buttonstructsize.md) message before adding any buttons. The message passes the size of the [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) structure to the toolbar.
+> If you use the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function to create a toolbar, you must send the [**TB\_BUTTONSTRUCTSIZE**](tb-buttonstructsize.md) message before adding any buttons. The message passes the size of the [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) structure to the toolbar.
 
  
 
@@ -153,7 +153,7 @@ Each button has an application-defined command identifier associated with it. Bu
 
 
 
-When the user selects a button, the toolbar sends the parent window a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) or [**WM\_NOTIFY**](wm-notify.md) message that includes the command identifier of the button. The parent window examines the command identifier and carries out the command associated with the button. For information about when controls send **WM\_COMMAND** messages and when they send **WM\_NOTIFY**, see the Remarks section of the [**WM\_NOTIFY**](wm-notify.md) documentation.
+When the user selects a button, the toolbar sends the parent window a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) or [**WM\_NOTIFY**](wm-notify.md) message that includes the command identifier of the button. The parent window examines the command identifier and carries out the command associated with the button. For information about when controls send **WM\_COMMAND** messages and when they send **WM\_NOTIFY**, see the Remarks section of the [**WM\_NOTIFY**](wm-notify.md) documentation.
 
 ### Button Size and Position
 
@@ -161,7 +161,7 @@ A toolbar keeps track of its buttons by assigning each button a position index. 
 
 A toolbar updates the position indexes as buttons are inserted and removed. An application can retrieve the current position index of a button by using the [**TB\_COMMANDTOINDEX**](tb-commandtoindex.md) message. The message specifies the command identifier of a button, and the toolbar window uses the identifier to locate the button and return its position index.
 
-All buttons in a toolbar are the same size. The [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex) function requires you to set the initial size of the buttons when you create the toolbar. When you use the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, the initial size is set to the default dimensions of 24 by 22 pixels. You can use the [**TB\_SETBUTTONSIZE**](tb-setbuttonsize.md) message to change the button size, but you must do so before adding any buttons to the toolbar. The [**TB\_GETITEMRECT**](tb-getitemrect.md) message retrieves the current dimensions of the buttons.
+All buttons in a toolbar are the same size. The [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex) function requires you to set the initial size of the buttons when you create the toolbar. When you use the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, the initial size is set to the default dimensions of 24 by 22 pixels. You can use the [**TB\_SETBUTTONSIZE**](tb-setbuttonsize.md) message to change the button size, but you must do so before adding any buttons to the toolbar. The [**TB\_GETITEMRECT**](tb-getitemrect.md) message retrieves the current dimensions of the buttons.
 
 When you add a string that is longer than any string currently in the toolbar, the toolbar automatically resets the width of its buttons. The width is set to accommodate the longest string in the toolbar.
 
@@ -178,7 +178,3 @@ Hot-tracking means that when the pointer moves over an item, the button's appear
  
 
  
-
-
-
-

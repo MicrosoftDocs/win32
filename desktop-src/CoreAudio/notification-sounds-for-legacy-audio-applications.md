@@ -12,7 +12,7 @@ In Windows Vista, the operating system assigns all of its system notification so
 
 Some applications play notification sounds. Instead of requiring the user to manage an application's notification sounds through a separate volume slider in Sndvol, the application can assign its notification sounds to the same session as the system notification sounds. The Sndvol volume slider that controls the system notification sounds then controls the notification sounds from the application.
 
-To enable this behavior, Windows Vista defines a SND\_SYSTEM flag for the legacy [**PlaySound**](https://msdn.microsoft.com/library/Dd743680(v=VS.85).aspx) function. (This flag is not supported in earlier versions of Windows, including Windows Server 2003, Windows XP, and Windows 2000.) If the caller sets this flag, then the **PlaySound** function assigns the sound that it plays to the cross-process session that the operating system uses for its notification sounds. If the caller does not set the flag, then **PlaySound** assigns the sound that it plays to the default session—the process-specific session that is identified by the session GUID value GUID\_NULL. SND\_SYSTEM is defined in the header file Mmsystem.h. For more information about **PlaySound**, see the Windows SDK documentation.
+To enable this behavior, Windows Vista defines a SND\_SYSTEM flag for the legacy [**PlaySound**](/previous-versions//dd743680(v=vs.85)) function. (This flag is not supported in earlier versions of Windows, including Windows Server 2003, Windows XP, and Windows 2000.) If the caller sets this flag, then the **PlaySound** function assigns the sound that it plays to the cross-process session that the operating system uses for its notification sounds. If the caller does not set the flag, then **PlaySound** assigns the sound that it plays to the default session—the process-specific session that is identified by the session GUID value GUID\_NULL. SND\_SYSTEM is defined in the header file Mmsystem.h. For more information about **PlaySound**, see the Windows SDK documentation.
 
 ## Related topics
 
@@ -24,6 +24,3 @@ To enable this behavior, Windows Vista defines a SND\_SYSTEM flag for the legacy
  
 
  
-
-
-

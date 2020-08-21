@@ -30,7 +30,7 @@ Retrieves the total size of all of the visible buttons and separators in the too
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**SIZE**](https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)) structure that receives the size of the items.
+Pointer to a [**SIZE**](/previous-versions//dd145106(v=vs.85)) structure that receives the size of the items.
 
 </dd> </dl>
 
@@ -51,10 +51,4 @@ Returns nonzero if successful, or zero otherwise.
 
 
  
-
- 
-
-
-
-
 

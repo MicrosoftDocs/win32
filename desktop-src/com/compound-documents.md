@@ -24,7 +24,7 @@ A compound document object is essentially a COM object that can be embedded in, 
 <span id="Structured_Storage"></span><span id="structured_storage"></span><span id="STRUCTURED_STORAGE"></span>Structured Storage
 </dt> <dd>
 
-A compound document object must implement the [**IPersistStorage**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage) or, optionally, [**IPersistStream**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststream) interfaces to manage its own storage. A container used to create compound documents must supply the [**IStorage**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage) interface, through which objects store and retrieve data. Containers almost always provide instances of **IStorage** obtained from OLE's Compound Files implementation. Containers must also use an object's **IPersistStorage** and/or **IPersistStream** interfaces.
+A compound document object must implement the [**IPersistStorage**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage) or, optionally, [**IPersistStream**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststream) interfaces to manage its own storage. A container used to create compound documents must supply the [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) interface, through which objects store and retrieve data. Containers almost always provide instances of **IStorage** obtained from OLE's Compound Files implementation. Containers must also use an object's **IPersistStorage** and/or **IPersistStream** interfaces.
 
 </dd> <dt>
 
@@ -58,13 +58,9 @@ For more information, see the following topics:
 [Data Transfer](data-transfer.md)
 </dt> <dt>
 
-[Structured Storage](https://docs.microsoft.com/windows/desktop/Stg/structured-storage-start-page)
+[Structured Storage](/windows/desktop/Stg/structured-storage-start-page)
 </dt> </dl>
 
  
 
  
-
-
-
-

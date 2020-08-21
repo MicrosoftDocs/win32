@@ -46,7 +46,7 @@ The return value for this notification code must be zero.
 
 ## Remarks
 
-To receive the RBN\_GETOBJECT notification code, initialize OLE with a call to [**OleInitialize**](https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize) or [**CoInitialize**](https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize).
+To receive the RBN\_GETOBJECT notification code, initialize OLE with a call to [**OleInitialize**](/windows/desktop/api/ole2/nf-ole2-oleinitialize) or [**CoInitialize**](/windows/desktop/api/objbase/nf-objbase-coinitialize).
 
 ## Requirements
 
@@ -61,10 +61,4 @@ To receive the RBN\_GETOBJECT notification code, initialize OLE with a call to [
 
 
  
-
- 
-
-
-
-
 

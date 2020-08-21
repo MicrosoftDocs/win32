@@ -89,7 +89,7 @@ This section contains information about the programming elements used with butto
 | [**BCM\_SETSHIELD**](bcm-setshield.md)               | Sets the elevation required state for a specified button or command link to display an elevated icon. Send this message explicitly or by using the [**Button\_SetElevationRequiredState**](/windows/desktop/api/Commctrl/nf-commctrl-button_setelevationrequiredstate) macro.<br/>                                                  |
 | [**BCM\_SETSPLITINFO**](bcm-setsplitinfo.md)         | Sets information for a split button control. Send this message explicitly or by using the [**Button\_SetSplitInfo**](/windows/desktop/api/Commctrl/nf-commctrl-button_setsplitinfo) macro.<br/>                                                                                                                                     |
 | [**BCM\_SETTEXTMARGIN**](bcm-settextmargin.md)       | The [**BCM\_SETTEXTMARGIN**](bcm-settextmargin.md) message sets the margins for drawing text in a button control. <br/>                                                                                                                                                                      |
-| [**BM\_CLICK**](bm-click.md)                         | Simulates the user clicking a button. This message causes the button to receive the [**WM\_LBUTTONDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown) and [**WM\_LBUTTONUP**](https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttonup) messages, and the button's parent window to receive a [BN\_CLICKED](bn-clicked.md) notification code.<br/> |
+| [**BM\_CLICK**](bm-click.md)                         | Simulates the user clicking a button. This message causes the button to receive the [**WM\_LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown) and [**WM\_LBUTTONUP**](/windows/desktop/inputdev/wm-lbuttonup) messages, and the button's parent window to receive a [BN\_CLICKED](bn-clicked.md) notification code.<br/> |
 | [**BM\_GETCHECK**](bm-getcheck.md)                   | Gets the check state of a radio button or check box. You can send this message explicitly or use the [**Button\_GetCheck**](/windows/desktop/api/Windowsx/nf-windowsx-button_getcheck) macro.<br/>                                                                                                                                  |
 | [**BM\_GETIMAGE**](bm-getimage.md)                   | Retrieves a handle to the image (icon or bitmap) associated with the button.<br/>                                                                                                                                                                                                             |
 | [**BM\_GETSTATE**](bm-getstate.md)                   | Retrieves the state of a button or check box. You can send this message explicitly or use the [**Button\_GetState**](/windows/desktop/api/Windowsx/nf-windowsx-button_getstate) macro.<br/>                                                                                                                                         |
@@ -237,17 +237,11 @@ This notification code is provided only for compatibility with 16-bit versions o
 
 | Topic                              | Contents                                                                                                                                                                                                                                                            |
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Button Styles](button-styles.md) | Specifies a combination of button styles. If you create a button using the BUTTON class with the [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, you can specify any of the button styles listed below.<br/> |
+| [Button Styles](button-styles.md) | Specifies a combination of button styles. If you create a button using the BUTTON class with the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, you can specify any of the button styles listed below.<br/> |
 
 
 
  
 
  
-
- 
-
-
-
-
 

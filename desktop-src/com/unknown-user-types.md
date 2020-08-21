@@ -14,7 +14,7 @@ You can ease product localization by adding the following registry key:
 
 This key allows functions to return a specified string rather than a default value of "Unknown", enabling localizers to specify a user type of a different language.
 
-The COM default handler's implementation of [**IOleObject::GetUserType**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getusertype) examines the registry by calling [**OleRegGetUserType**](/windows/desktop/api/Ole2/nf-ole2-olereggetusertype). If the object's class is not found in the registry, the user type from the object's [**IStorage**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage) instance is returned. If the class is not found in the object's **IStorage** instance, the string "Unknown" is returned.
+The COM default handler's implementation of [**IOleObject::GetUserType**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getusertype) examines the registry by calling [**OleRegGetUserType**](/windows/desktop/api/Ole2/nf-ole2-olereggetusertype). If the object's class is not found in the registry, the user type from the object's [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) instance is returned. If the class is not found in the object's **IStorage** instance, the string "Unknown" is returned.
 
 ## Related topics
 
@@ -26,7 +26,3 @@ The COM default handler's implementation of [**IOleObject::GetUserType**](/windo
  
 
  
-
-
-
-

@@ -41,19 +41,15 @@ If this value is not present, then:
 -   If the computer that hosts the server is running Windows XP or Windows Server 2003 without SP1 or later installed, then COM will prefer a 64-bit version of the server if available; otherwise it will activate a 32-bit version of the server.
 -   If the computer that hosts the server is running Windows Server 2003 with SP1 or later installed, then COM will try to match the server architecture to the client architecture. In other words, for a 32-bit client, COM will activate a 32-bit server if available; otherwise it will activate a 64-bit version of the server. For a 64-bit client, COM will activate a 64-bit server if available; otherwise it will activate a 32-bit server.
 
-The client can also specify its own architecture preference via the CLSCTX\_ACTIVATE\_32\_BIT\_SERVER and CLSCTX\_ACTIVATE\_64\_BIT\_SERVER flags, and these will override the server's preference. For more information, and a chart of possible interactions between client and server architecture preferences, see [**CLSCTX**](https://msdn.microsoft.com/library/ms693716(v=VS.85).aspx).
+The client can also specify its own architecture preference via the CLSCTX\_ACTIVATE\_32\_BIT\_SERVER and CLSCTX\_ACTIVATE\_64\_BIT\_SERVER flags, and these will override the server's preference. For more information, and a chart of possible interactions between client and server architecture preferences, see [**CLSCTX**](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx).
 
 ## Related topics
 
 <dl> <dt>
 
-[**CLSCTX**](https://msdn.microsoft.com/library/ms693716(v=VS.85).aspx)
+[**CLSCTX**](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx)
 </dt> </dl>
 
  
 
  
-
-
-
-

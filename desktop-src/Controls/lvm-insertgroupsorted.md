@@ -36,7 +36,7 @@ The return value is not used.
 
 ## Remarks
 
-The ordering of the list is based on the ID of the group. The order is defined by the application-defined ordering function, [**LVGroupCompare**](https://msdn.microsoft.com/library/Bb775142(v=VS.85).aspx), that is passed in the [**LVINSERTGROUPSORTED**](/windows/win32/api/commctrl/ns-commctrl-lvinsertgroupsorted) structure by the *wParam* parameter.
+The ordering of the list is based on the ID of the group. The order is defined by the application-defined ordering function, [**LVGroupCompare**](/windows/win32/api/commctrl/nc-commctrl-pfnlvgroupcompare), that is passed in the [**LVINSERTGROUPSORTED**](/windows/win32/api/commctrl/ns-commctrl-lvinsertgroupsorted) structure by the *wParam* parameter.
 
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
@@ -62,17 +62,11 @@ The ordering of the list is based on the ID of the group. The order is defined b
 **Reference**
 </dt> <dt>
 
-[**LVGroupCompare**](https://msdn.microsoft.com/library/Bb775142(v=VS.85).aspx)
+[**LVGroupCompare**](/windows/win32/api/commctrl/nc-commctrl-pfnlvgroupcompare)
 </dt> <dt>
 
 [**LVINSERTGROUPSORTED**](/windows/win32/api/commctrl/ns-commctrl-lvinsertgroupsorted)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

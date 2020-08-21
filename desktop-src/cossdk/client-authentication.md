@@ -21,11 +21,11 @@ For a COM+ server application, you set an authentication level that determines h
 Higher security comes with some performance cost, however, which you should take into consideration when configuring your application. COM+ will negotiate between the authentication level specified by client and server. The way this negotiation is carried out has the benefit of enabling you to administratively control authentication from the server side alone. For details, see [Negotiation of Authentication Level](negotiation-of-authentication-level.md).
 
 > [!Note]  
-> You should never specify an authentication level programmatically by using [**CoInitializeSecurity**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) within a COM+ application. COM+ calls **CoInitializeSecurity** for you, and this can be called only once per process.
+> You should never specify an authentication level programmatically by using [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) within a COM+ application. COM+ calls **CoInitializeSecurity** for you, and this can be called only once per process.
 
  
 
-The underlying authentication services are provided by COM and Microsoft Windows. In an authentication service, a third party supplies a certificate for a user, attesting to the authenticity of the user's identity. This certification is as credible as the certifying authority, and—in much the same way as a driver's license or a passport serves as a certifying document—it depends on the issuer's authority. For more detailed information about authentication services, see [COM and Security Packages](https://docs.microsoft.com/windows/desktop/com/com-and-security-packages) in the COM documentation.
+The underlying authentication services are provided by COM and Microsoft Windows. In an authentication service, a third party supplies a certificate for a user, attesting to the authenticity of the user's identity. This certification is as credible as the certifying authority, and—in much the same way as a driver's license or a passport serves as a certifying document—it depends on the issuer's authority. For more detailed information about authentication services, see [COM and Security Packages](/windows/desktop/com/com-and-security-packages) in the COM documentation.
 
 ## Setting Authentication for COM+ Library Applications
 
@@ -58,6 +58,3 @@ Additionally, you may want or be required to authenticate the client at the data
  
 
  
-
-
-

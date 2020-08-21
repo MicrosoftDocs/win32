@@ -61,7 +61,7 @@ Data type: **CIM\_VideoController**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Element")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Element")
 </dt> </dl>
 
 A [**CIM\_VideoController**](cim-videocontroller.md) that describes the video controller.
@@ -77,7 +77,7 @@ Data type: **CIM\_VideoControllerResolution**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Setting")
+Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Setting")
 </dt> </dl>
 
 A [**CIM\_VideoControllerResolution**](cim-videocontrollerresolution.md) that describes the resolutions, refresh rates, scan mode and number of colors that can be set for the Controller.
@@ -112,9 +112,4 @@ This documentation is derived from the CIM class descriptions published by the D
 </dt> </dl>
 
  
-
- 
-
-
-
 

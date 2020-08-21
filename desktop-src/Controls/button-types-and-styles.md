@@ -41,7 +41,7 @@ A *check box* consists of a square box and an application-defined label, icon, o
 
 A check box can be one of four styles: standard, automatic, three-state, and automatic three-state, as defined by the constants [**BS\_CHECKBOX**](button-styles.md), [**BS\_AUTOCHECKBOX**](button-styles.md), [**BS\_3STATE**](button-styles.md), and [**BS\_AUTO3STATE**](button-styles.md), respectively. Each style can assume two check states: checked (a check mark inside the box) or cleared (no check mark). In addition, a three-state check box can assume an indeterminate state (a shaded box inside the check box), which might signify that the user has not made a choice. Repeatedly clicking a standard or automatic check box toggles it from checked to cleared and back again. Repeatedly clicking a three-state check box toggles it from checked to cleared to indeterminate and then repeats the cycle.
 
-When the user clicks a check box (of any style), the check box receives the keyboard focus. The system sends the check box's parent window a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message containing the [BN\_CLICKED](bn-clicked.md) notification code. The parent window does not have to handle this message if it comes from an automatic check box or automatic three-state check box, because the system automatically sets the check state for those styles. But the parent window must handle the message if it comes from a non-automatic check box or three-state check box, because the parent window is responsible for setting the check state for those styles. Regardless of the check box style, the system automatically repaints the check box once its state is changed.
+When the user clicks a check box (of any style), the check box receives the keyboard focus. The system sends the check box's parent window a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message containing the [BN\_CLICKED](bn-clicked.md) notification code. The parent window does not have to handle this message if it comes from an automatic check box or automatic three-state check box, because the system automatically sets the check state for those styles. But the parent window must handle the message if it comes from a non-automatic check box or three-state check box, because the parent window is responsible for setting the check state for those styles. Regardless of the check box style, the system automatically repaints the check box once its state is changed.
 
 The application can ascertain the state of a check box by using the [**IsDlgButtonChecked**](/windows/desktop/api/Winuser/nf-winuser-isdlgbuttonchecked) function.
 
@@ -55,7 +55,7 @@ A *push button* is a rectangle containing an application-defined text label, an 
 
 A push button can be one of two styles, standard or default, as defined by the constants [**BS\_PUSHBUTTON**](button-styles.md) and [**BS\_DEFPUSHBUTTON**](button-styles.md). A standard push button is typically used to start an operation. It receives the keyboard focus when the user clicks it. A default push button is typically used to indicate the most common or default choice, such as closing the dialog box. It is a button that the user can select by simply pressing ENTER when no other push button in the dialog box has the input focus.
 
-When the user clicks a push button, it receives the keyboard focus. The system sends the button's parent window a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message that contains the [BN\_CLICKED](bn-clicked.md) notification code.
+When the user clicks a push button, it receives the keyboard focus. The system sends the button's parent window a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message that contains the [BN\_CLICKED](bn-clicked.md) notification code.
 
 The *split button* is a special kind of push button introduced in Windows Vista and [Version 6.00](common-control-versions.md). A split button is divided into two parts. The main part functions like a regular or default push button. The second part has an arrow pointing downward. Typically a menu is displayed when the arrow is clicked.
 
@@ -71,9 +71,9 @@ A *radio button* (also called option button) consists of a round button and an a
 
 A radio button can be one of two styles: standard or automatic, as defined by the style constants [**BS\_RADIOBUTTON**](button-styles.md) and [**BS\_AUTORADIOBUTTON**](button-styles.md). Each style can assume two check states: checked (a dot in the button) or cleared (no dot in the button).
 
-When the user selects either state, the radio button receives the keyboard focus. The system sends the button's parent window a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message containing the [BN\_CLICKED](bn-clicked.md) notification code. The parent window need not handle this message if it comes from an automatic radio button, because the system automatically sets the check state for that style. But the parent window should handle the message if it comes from a non-automatic radio button, because the parent window is responsible for setting the check state for that style. Regardless of the radio button style, the system automatically repaints the button as its state changes.
+When the user selects either state, the radio button receives the keyboard focus. The system sends the button's parent window a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message containing the [BN\_CLICKED](bn-clicked.md) notification code. The parent window need not handle this message if it comes from an automatic radio button, because the system automatically sets the check state for that style. But the parent window should handle the message if it comes from a non-automatic radio button, because the parent window is responsible for setting the check state for that style. Regardless of the radio button style, the system automatically repaints the button as its state changes.
 
-Radio buttons are arranged in groups, and only one button in the group can be checked at any time. If the [**WS\_GROUP**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) flag is set for any radio button, that button is the first button in a group, and all buttons that follow it immediately in the tab order (but do not themselves have the **WS\_GROUP** flag) are part of its group. If no radio buttons have the **WS\_GROUP** flag, all the radio buttons in the dialog box are treated as a single group.
+Radio buttons are arranged in groups, and only one button in the group can be checked at any time. If the [**WS\_GROUP**](/windows/desktop/winmsg/window-styles) flag is set for any radio button, that button is the first button in a group, and all buttons that follow it immediately in the tab order (but do not themselves have the **WS\_GROUP** flag) are part of its group. If no radio buttons have the **WS\_GROUP** flag, all the radio buttons in the dialog box are treated as a single group.
 
 The application can ascertain whether a radio button is checked by using the [**IsDlgButtonChecked**](/windows/desktop/api/Winuser/nf-winuser-isdlgbuttonchecked) function.
 
@@ -96,7 +96,3 @@ The application can ascertain whether a radio button is checked by using the [**
  
 
  
-
-
-
-

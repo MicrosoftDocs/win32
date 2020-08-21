@@ -44,7 +44,7 @@ Returns the index of the first new image if successful, or -1 otherwise.
 
 ## Remarks
 
-If the toolbar was created using the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, you must send the [**TB\_BUTTONSTRUCTSIZE**](tb-buttonstructsize.md) message to the toolbar before sending **TB\_ADDBITMAP**.
+If the toolbar was created using the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, you must send the [**TB\_BUTTONSTRUCTSIZE**](tb-buttonstructsize.md) message to the toolbar before sending **TB\_ADDBITMAP**.
 
 ## Examples
 
@@ -82,10 +82,4 @@ int index = SendMessage (hWndToolbar, TB_ADDBITMAP, 0, (LPARAM)&tb);
 
 
  
-
- 
-
-
-
-
 

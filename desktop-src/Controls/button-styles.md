@@ -46,7 +46,7 @@ ms.date: 07/27/2020
 
 # Button Styles
 
-Specifies a combination of button styles. If you create a button using the BUTTON class with the [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, you can specify any of the button styles listed below.
+Specifies a combination of button styles. If you create a button using the BUTTON class with the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function, you can specify any of the button styles listed below.
 
 ## Example
 
@@ -96,7 +96,7 @@ Example from [Windows Classic Samples](https://github.com/microsoft/Windows-clas
 | <span id="BS_MULTILINE"></span><span id="bs_multiline"></span><dl> <dt>**BS\_MULTILINE**</dt> </dl>                   | Wraps the button text to multiple lines if the text string is too long to fit on a single line in the button rectangle.<br/>                                                                                                                                                                                                                                                                         |
 | <span id="BS_NOTIFY"></span><span id="bs_notify"></span><dl> <dt>**BS\_NOTIFY**</dt> </dl>                            | Enables a button to send [BN\_KILLFOCUS](bn-killfocus.md) and [BN\_SETFOCUS](bn-setfocus.md) notification codes to its parent window. <br/> Note that buttons send the [BN\_CLICKED](bn-clicked.md) notification code regardless of whether it has this style. To get [BN\_DBLCLK](bn-dblclk.md) notification codes, the button must have the BS\_RADIOBUTTON or BS\_OWNERDRAW style.<br/> |
 | <span id="BS_OWNERDRAW"></span><span id="bs_ownerdraw"></span><dl> <dt>**BS\_OWNERDRAW**</dt> </dl>                   | Creates an owner-drawn button. The owner window receives a [**WM\_DRAWITEM**](wm-drawitem.md) message when a visual aspect of the button has changed. Do not combine the BS\_OWNERDRAW style with any other button styles.<br/>                                                                                                                                                                     |
-| <span id="BS_PUSHBUTTON"></span><span id="bs_pushbutton"></span><dl> <dt>**BS\_PUSHBUTTON**</dt> </dl>                | Creates a push button that posts a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message to the owner window when the user selects the button.<br/>                                                                                                                                                                                                                                                           |
+| <span id="BS_PUSHBUTTON"></span><span id="bs_pushbutton"></span><dl> <dt>**BS\_PUSHBUTTON**</dt> </dl>                | Creates a push button that posts a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message to the owner window when the user selects the button.<br/>                                                                                                                                                                                                                                                           |
 | <span id="BS_PUSHLIKE"></span><span id="bs_pushlike"></span><dl> <dt>**BS\_PUSHLIKE**</dt> </dl>                      | Makes a button (such as a check box, three-state check box, or radio button) look and act like a push button. The button looks raised when it isn't pushed or checked, and sunken when it is pushed or checked.<br/>                                                                                                                                                                                 |
 | <span id="BS_RADIOBUTTON"></span><span id="bs_radiobutton"></span><dl> <dt>**BS\_RADIOBUTTON**</dt> </dl>             | Creates a small circle with text. By default, the text is displayed to the right of the circle. To display the text to the left of the circle, combine this flag with the BS\_LEFTTEXT style (or with the equivalent BS\_RIGHTBUTTON style). Use radio buttons for groups of related, but mutually exclusive choices.<br/>                                                                           |
 | <span id="BS_RIGHT"></span><span id="bs_right"></span><dl> <dt>**BS\_RIGHT**</dt> </dl>                               | Right-justifies text in the button rectangle. However, if the button is a check box or radio button that does not have the BS\_RIGHTBUTTON style, the text is right justified on the right side of the check box or radio button.<br/>                                                                                                                                                               |
@@ -140,10 +140,4 @@ The appearance of text or an icon or both on a button control depends on the BS\
 
 
  
-
- 
-
-
-
-
 

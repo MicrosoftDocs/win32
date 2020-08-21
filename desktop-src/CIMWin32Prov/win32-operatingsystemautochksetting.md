@@ -50,7 +50,7 @@ Data type: **Win32\_OperatingSystem**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Element"), [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx)
+Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("Element"), [**key**](../wmisdk/key-qualifier.md)
 </dt> </dl>
 
 TBD
@@ -66,7 +66,7 @@ Data type: **Win32\_AutochkSetting**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Setting"), [**key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx)
+Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("Setting"), [**key**](../wmisdk/key-qualifier.md)
 </dt> </dl>
 
 TBD
@@ -97,7 +97,3 @@ TBD
  
 
  
-
-
-
-

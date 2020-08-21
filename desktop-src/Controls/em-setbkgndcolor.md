@@ -34,7 +34,7 @@ Specifies whether to use the system color. If this parameter is a nonzero value,
 *lParam* 
 </dt> <dd>
 
-A [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) structure specifying the color if *wParam* is zero. To generate a **COLORREF**, use the [**RGB**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb) macro.
+A [**COLORREF**](/windows/desktop/gdi/colorref) structure specifying the color if *wParam* is zero. To generate a **COLORREF**, use the [**RGB**](/windows/desktop/api/wingdi/nf-wingdi-rgb) macro.
 
 </dd> </dl>
 
@@ -61,17 +61,11 @@ This message returns the original background color.
 **Other Resources**
 </dt> <dt>
 
-[**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref)
+[**COLORREF**](/windows/desktop/gdi/colorref)
 </dt> <dt>
 
-[**RGB**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb)
+[**RGB**](/windows/desktop/api/wingdi/nf-wingdi-rgb)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -53,7 +53,7 @@ An application handles this notification code to validate the information the us
 
  
 
-To set a return value, the dialog box procedure for the page must call the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with a DWL\_MSGRESULT value set to the return value. The dialog box procedure must return **TRUE**.
+To set a return value, the dialog box procedure for the page must call the [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with a DWL\_MSGRESULT value set to the return value. The dialog box procedure must return **TRUE**.
 
 If the dialog box procedure sets DWL\_MSGRESULT to **TRUE**, it should display a message box to explain the problem to the user.
 
@@ -70,10 +70,4 @@ If the dialog box procedure sets DWL\_MSGRESULT to **TRUE**, it should display a
 
 
  
-
- 
-
-
-
-
 

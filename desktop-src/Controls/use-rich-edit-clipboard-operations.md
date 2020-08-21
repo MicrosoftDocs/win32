@@ -25,11 +25,11 @@ An application can paste the contents of the clipboard into a rich edit control 
 
 ### Use a Rich Edit Clipboard Operation
 
-As with an edit control, you can copy or cut the contents of the current selection by using the [**WM\_COPY**](https://docs.microsoft.com/windows/desktop/dataxchg/wm-copy) or [**WM\_CUT**](https://docs.microsoft.com/windows/desktop/dataxchg/wm-cut) message. Similarly, you can paste the contents of the clipboard into a rich edit control by using the [**WM\_PASTE**](https://docs.microsoft.com/windows/desktop/dataxchg/wm-paste) message. The control pastes the first available format that it recognizes, which presumably is the most descriptive format.
+As with an edit control, you can copy or cut the contents of the current selection by using the [**WM\_COPY**](/windows/desktop/dataxchg/wm-copy) or [**WM\_CUT**](/windows/desktop/dataxchg/wm-cut) message. Similarly, you can paste the contents of the clipboard into a rich edit control by using the [**WM\_PASTE**](/windows/desktop/dataxchg/wm-paste) message. The control pastes the first available format that it recognizes, which presumably is the most descriptive format.
 
 To paste a specific clipboard format, you can use the [**EM\_PASTESPECIAL**](em-pastespecial.md) message. This message is useful for applications with a **Paste Special** command that enables the user to select the clipboard format. You can use the [**EM\_CANPASTE**](em-canpaste.md) message to determine whether a given format is recognized by the control.
 
-You can also use the [**EM\_CANPASTE**](em-canpaste.md) message to determine whether any available clipboard format is recognized by a rich edit control. This message is useful when processing the [**WM\_INITMENUPOPUP**](https://docs.microsoft.com/windows/desktop/menurc/wm-initmenupopup) message. An application might enable or gray its **Paste** command depending on whether the control can paste any available format.
+You can also use the [**EM\_CANPASTE**](em-canpaste.md) message to determine whether any available clipboard format is recognized by a rich edit control. This message is useful when processing the [**WM\_INITMENUPOPUP**](/windows/desktop/menurc/wm-initmenupopup) message. An application might enable or gray its **Paste** command depending on whether the control can paste any available format.
 
 Rich edit controls register two clipboard formats:
 
@@ -37,7 +37,7 @@ Rich edit controls register two clipboard formats:
 -   Rich Text Format Without Objects
 -   RichEdit Text and Objects
 
-An application can register these formats by using the [**RegisterClipboardFormat**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclipboardformata) function, specifying the CF\_RTF, CF\_RTFNOOBJS, and CF\_RETEXTOBJ values.
+An application can register these formats by using the [**RegisterClipboardFormat**](/windows/desktop/api/winuser/nf-winuser-registerclipboardformata) function, specifying the CF\_RTF, CF\_RTFNOOBJS, and CF\_RETEXTOBJ values.
 
 ## Related topics
 
@@ -52,7 +52,3 @@ An application can register these formats by using the [**RegisterClipboardForma
  
 
  
-
-
-
-

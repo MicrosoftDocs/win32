@@ -47,17 +47,17 @@ Each page in a property sheet is an application-defined modeless dialog box that
 
 A property sheet sends notification codes to the dialog box procedure for a page when the page is gaining or losing the activation and when the user clicks the **OK**, **Cancel**, **Apply**, or **Help** button. The notifications are sent in the form of [**WM\_NOTIFY**](wm-notify.md) messages. The *lParam* parameter is the address of an [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) structure that includes the window handle to the property sheet dialog box.
 
-Some notification codes require a page to return either **TRUE** or **FALSE** in response to the [**WM\_NOTIFY**](wm-notify.md) message. To do this, the page must use the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function to set the **DWL\_MSGRESULT** value for the page dialog box to either **TRUE** or **FALSE**.
+Some notification codes require a page to return either **TRUE** or **FALSE** in response to the [**WM\_NOTIFY**](wm-notify.md) message. To do this, the page must use the [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function to set the **DWL\_MSGRESULT** value for the page dialog box to either **TRUE** or **FALSE**.
 
 ## Pages
 
 A property sheet must contain at least one page, but it cannot contain more than the value of **MAXPROPPAGES** as defined in the Windows header files. Each page has a zero-based index that the property sheet assigns according to the order in which the page is added to the property sheet. The indexes are used in messages that you send to the property sheet.
 
-A property page can contain a nested dialog box. If it does, you must include the [**WS\_EX\_CONTROLPARENT**](https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles) style for the top-level dialog box and call the [**IsDialogMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isdialogmessagea) function with the handle to the parent dialog box. This ensures that the user can use mnemonics and the dialog box navigation keys to move the focus to controls in the nested dialog box.
+A property page can contain a nested dialog box. If it does, you must include the [**WS\_EX\_CONTROLPARENT**](/windows/desktop/winmsg/extended-window-styles) style for the top-level dialog box and call the [**IsDialogMessage**](/windows/desktop/api/winuser/nf-winuser-isdialogmessagea) function with the handle to the parent dialog box. This ensures that the user can use mnemonics and the dialog box navigation keys to move the focus to controls in the nested dialog box.
 
 Each page has a corresponding icon and label. The property sheet creates a tab for each page and displays the icon and label in the tab. All property sheet pages are expected to use a nonbold font. To ensure that the font is not bold, specify the **DS\_3DLOOK** style in the dialog box template.
 
-The dialog box procedure for a page must not call the [**EndDialog**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddialog) function. Doing so will destroy the entire property sheet, not just the page.
+The dialog box procedure for a page must not call the [**EndDialog**](/windows/desktop/api/winuser/nf-winuser-enddialog) function. Doing so will destroy the entire property sheet, not just the page.
 
 The minimum size for a property sheet page is 212 dialog units horizontally and 114 dialog units vertically. If a page dialog is smaller than this, the page will be enlarged until it meets the minimum size. The Prsht.h header file contains three sets of recommended sizes for property sheet pages, as shown in the following table.
 
@@ -90,25 +90,25 @@ To create a property sheet, you specify the address of a [**PROPSHEETHEADER**](/
 
 Another way to assign pages to a property sheet is to specify an array of [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structures instead of an array of **HPROPSHEETPAGE** handles. In this case, [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) creates handles for the pages before adding them to the property sheet.
 
-When a page is created, its dialog box procedure receives a [**WM\_INITDIALOG**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog) message. The message's *lParam* parameter is a pointer to a copy of the [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure that is defined when the page is created. In particular, when a page is created, the structure's **lParam** member can be used to pass application-defined information to the dialog box procedure. With the exception of the **lParam** member, this structure must be treated as read-only. Modifying anything other than **lParam** will have unpredictable consequences.
+When a page is created, its dialog box procedure receives a [**WM\_INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog) message. The message's *lParam* parameter is a pointer to a copy of the [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure that is defined when the page is created. In particular, when a page is created, the structure's **lParam** member can be used to pass application-defined information to the dialog box procedure. With the exception of the **lParam** member, this structure must be treated as read-only. Modifying anything other than **lParam** will have unpredictable consequences.
 
-When the system subsequently passes a copy of the page's [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure to your application, it uses the same pointer. Any changes to the structure will be passed along. Because the **lParam** member is ignored by the system, it can be modified to send information to other parts of your application. You can, for instance, use **lParam** to pass information to the page's [*PropSheetPageProc*](https://msdn.microsoft.com/library/Bb760813(v=VS.85).aspx) callback function.
+When the system subsequently passes a copy of the page's [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure to your application, it uses the same pointer. Any changes to the structure will be passed along. Because the **lParam** member is ignored by the system, it can be modified to send information to other parts of your application. You can, for instance, use **lParam** to pass information to the page's [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka) callback function.
 
 [**PropertySheet**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) automatically sets the size and initial position of a property sheet. The position is based on the position of the owner window, and the size is based on the largest page specified in the array of pages when the property sheet was created. If you want the pages to match the width of the four buttons at the bottom of the property sheet, set the width of the widest page to 190 dialog units.
 
-The size of a property sheet is computed from the *width* and *height* properties of the dialog template in the resource file. See [**DIALOG Resource**](https://docs.microsoft.com/windows/desktop/menurc/dialog-resource) or [**DIALOGEX Resource**](https://docs.microsoft.com/windows/desktop/menurc/dialogex-resource) for further details. Note, however, that for compatibility reasons, the dimensions are computed relative to the MS Shell Dlg font rather than the font used by the page. If you design a page that uses another font, one of the following suggestions can be used.
+The size of a property sheet is computed from the *width* and *height* properties of the dialog template in the resource file. See [**DIALOG Resource**](/windows/desktop/menurc/dialog-resource) or [**DIALOGEX Resource**](/windows/desktop/menurc/dialogex-resource) for further details. Note, however, that for compatibility reasons, the dimensions are computed relative to the MS Shell Dlg font rather than the font used by the page. If you design a page that uses another font, one of the following suggestions can be used.
 
 -   Adjust the dimensions of the dialog template to compensate for the difference in size between the MS Shell Dlg font and the font the page actually uses. For example, if you choose a font that is twice as wide as MS Shell Dlg, then set the dialog template's width property to twice the normal use.
--   Use a [**DIALOGEX**](https://docs.microsoft.com/windows/desktop/menurc/dialogex-resource) template and set the **DS\_SHELLFONT** dialog style. In that case, the property sheet manager interprets the dialog template dimensions relative to the font used by the dialog template.
+-   Use a [**DIALOGEX**](/windows/desktop/menurc/dialogex-resource) template and set the **DS\_SHELLFONT** dialog style. In that case, the property sheet manager interprets the dialog template dimensions relative to the font used by the dialog template.
 
 ## Adding and Removing Pages
 
 After creating a property sheet, an application can add a page to the end of the existing set of pages by sending a [**PSM\_ADDPAGE**](psm-addpage.md) message. To insert a page between existing pages, send a [**PropSheet\_InsertPage**](/windows/desktop/api/Prsht/nf-prsht-propsheet_insertpage) message. Note that the size of the property sheet cannot change after it has been created. Any added or inserted pages must be no larger than the largest page currently in the property sheet. To remove a page, send a [**PSM\_REMOVEPAGE**](psm-removepage.md) message.
 
-When you define a page, you can specify the address of a [*PropSheetPageProc*](https://msdn.microsoft.com/library/Bb760813(v=VS.85).aspx) callback function that the property sheet calls when it is creating or removing the page. Using *PropSheetPageProc* gives you an opportunity to perform initialization and cleanup operations for individual pages.
+When you define a page, you can specify the address of a [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka) callback function that the property sheet calls when it is creating or removing the page. Using *PropSheetPageProc* gives you an opportunity to perform initialization and cleanup operations for individual pages.
 
 > [!Note]  
-> A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Do not add, insert, or remove pages in your implementation of [*PropSheetPageProc*](https://msdn.microsoft.com/library/Bb760813(v=VS.85).aspx), or while handling the following notifications and Windows messages.
+> A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Do not add, insert, or remove pages in your implementation of [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka), or while handling the following notifications and Windows messages.
 >
 > -   [PSN\_APPLY](psn-apply.md)
 > -   [PSN\_KILLACTIVE](psn-killactive.md)
@@ -116,12 +116,12 @@ When you define a page, you can specify the address of a [*PropSheetPageProc*](h
 > -   [PSN\_SETACTIVE](psn-setactive.md)
 > -   [PSN\_WIZBACK](psn-wizback.md)
 > -   [PSN\_WIZNEXT](psn-wiznext.md)
-> -   [**WM\_INITDIALOG**](https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog)
-> -   [**WM\_DESTROY**](https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy)
+> -   [**WM\_INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog)
+> -   [**WM\_DESTROY**](/windows/desktop/winmsg/wm-destroy)
 
  
 
-If the need arises to modify a property sheet page while you are handling one of these messages or while [*PropSheetPageProc*](https://msdn.microsoft.com/library/Bb760813(v=VS.85).aspx) is in operation, post a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks, at which point it will be safe to modify the list of pages.
+If the need arises to modify a property sheet page while you are handling one of these messages or while [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka) is in operation, post a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks, at which point it will be safe to modify the list of pages.
 
 When a property sheet is destroyed, it automatically destroys all of the pages that have been added to it. The pages are destroyed in reverse order from that specified in the array used to create the pages. To destroy a page that was created by the [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea) function but was not added to the property sheet, use the [**DestroyPropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-destroypropertysheetpage) function.
 
@@ -135,7 +135,7 @@ By default, a property sheet uses the name string specified in the dialog box te
 
 A property sheet can have only one active page at a time. The page that has the activation is at the foreground of the overlapping stack of pages. The user activates a page by selecting its tab; an application activates a page by using the [**PSM\_SETCURSEL**](psm-setcursel.md) message.
 
-The property sheet sends the [PSN\_KILLACTIVE](psn-killactive.md) notification code to the page that is about to lose the activation. In response, the page must validate any changes that the user has made to the page. If the page requires additional user input before losing the activation, use the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function to set the **DWL\_MSGRESULT** value of the page to **TRUE**. Also, the page must display a message box that describes the problem and provides the recommended action. Set **DWL\_MSGRESULT** to **FALSE** when it is okay to lose the activation.
+The property sheet sends the [PSN\_KILLACTIVE](psn-killactive.md) notification code to the page that is about to lose the activation. In response, the page must validate any changes that the user has made to the page. If the page requires additional user input before losing the activation, use the [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function to set the **DWL\_MSGRESULT** value of the page to **TRUE**. Also, the page must display a message box that describes the problem and provides the recommended action. Set **DWL\_MSGRESULT** to **FALSE** when it is okay to lose the activation.
 
 Before the page that is gaining the activation is visible, the property sheet sends the [PSN\_SETACTIVE](psn-setactive.md) notification code to the page. The page must respond by initializing its control windows.
 
@@ -148,7 +148,7 @@ The property sheet Help button is optional, and can be enabled on a page by page
 -   Set the **PSH\_HASHELP** flag in the **dwFlags** member of the property sheet's [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2) structure.
 -   For each page that will display a Help button, set the **PSP\_HASHELP** flag in the **dwFlags** member of the page's [**PROPSHEETPAGE**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) structure.
 
-When the user clicks the Help button, the active page receives a [PSN\_HELP](psn-help.md) notification code. The page must respond by displaying Help information, typically by calling the [**WinHelp**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-winhelpa) function.
+When the user clicks the Help button, the active page receives a [PSN\_HELP](psn-help.md) notification code. The page must respond by displaying Help information, typically by calling the [**WinHelp**](/windows/desktop/api/winuser/nf-winuser-winhelpa) function.
 
 ### Removing the Caption Bar Help Button
 
@@ -192,7 +192,7 @@ int CALLBACK RemoveContextHelpProc(HWND hwnd, UINT message, LPARAM lParam)
 
 
 
-If the [**DLGTEMPLATEEX**](https://docs.microsoft.com/windows/desktop/dlgbox/dlgtemplateex) structure is not defined, include the following declaration:
+If the [**DLGTEMPLATEEX**](/windows/desktop/dlgbox/dlgtemplateex) structure is not defined, include the following declaration:
 
 ``` syntax
 #include <pshpack1.h>
@@ -218,9 +218,9 @@ typedef struct DLGTEMPLATEEX
 
 The **OK** and **Apply** buttons are similar; both direct a property sheet's pages to validate and apply the property changes that the user has made. The only difference is that clicking the **OK** button causes the property sheet to be destroyed after the changes are applied.
 
-When the user clicks the **OK** or **Apply** button, the property sheet sends a [PSN\_KILLACTIVE](psn-killactive.md) notification to the active page, giving it an opportunity to validate the user's changes. If the changes are valid, the page must call the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with the **DWL\_MSGRESULT** value set to **FALSE**. If the user's changes are not valid, the page must set **DWL\_MSGRESULT** to **TRUE** and display a dialog box informing the user of the problem. The page remains active until it sets **DWL\_MSGRESULT** to **FALSE** in response to a PSN\_KILLACTIVE message.
+When the user clicks the **OK** or **Apply** button, the property sheet sends a [PSN\_KILLACTIVE](psn-killactive.md) notification to the active page, giving it an opportunity to validate the user's changes. If the changes are valid, the page must call the [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function with the **DWL\_MSGRESULT** value set to **FALSE**. If the user's changes are not valid, the page must set **DWL\_MSGRESULT** to **TRUE** and display a dialog box informing the user of the problem. The page remains active until it sets **DWL\_MSGRESULT** to **FALSE** in response to a PSN\_KILLACTIVE message.
 
-After a page responds to a [PSN\_KILLACTIVE](psn-killactive.md) notification by setting **DWL\_MSGRESULT** to **FALSE**, the property sheet will send a [PSN\_APPLY](psn-apply.md) notification to each page. When a page receives this notification, it must apply the new properties to the corresponding item. To indicate to the property sheet that the changes are valid for the page, call [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) with **DWL\_MSGRESULT** set to **PSNRET\_NOERROR**. If the changes are invalid for the page, return an error. Doing so prevents the property sheet from being destroyed and returns focus to either the page that received the PSN\_APPLY notification or the page that had focus when the **Apply** button was pressed. To return an error, and indicate which page will receive focus, set **DWL\_MSGRESULT** to one of the following values.
+After a page responds to a [PSN\_KILLACTIVE](psn-killactive.md) notification by setting **DWL\_MSGRESULT** to **FALSE**, the property sheet will send a [PSN\_APPLY](psn-apply.md) notification to each page. When a page receives this notification, it must apply the new properties to the corresponding item. To indicate to the property sheet that the changes are valid for the page, call [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) with **DWL\_MSGRESULT** set to **PSNRET\_NOERROR**. If the changes are invalid for the page, return an error. Doing so prevents the property sheet from being destroyed and returns focus to either the page that received the PSN\_APPLY notification or the page that had focus when the **Apply** button was pressed. To return an error, and indicate which page will receive focus, set **DWL\_MSGRESULT** to one of the following values.
 
 -   **PSNRET\_INVALID**. The property sheet will not be destroyed, and focus will be returned to this page.
 -   **PSNRET\_INVALID\_NOCHANGEPAGE**. The property sheet will not be destroyed, and focus will be returned to the page that had focus when the button was pressed.
@@ -250,7 +250,3 @@ See [Creating Wizards](wizards.md) for a complete discussion of wizards.
  
 
  
-
-
-
-

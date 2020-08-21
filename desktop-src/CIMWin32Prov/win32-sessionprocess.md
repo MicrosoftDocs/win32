@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_SessionProcess class
 
-The **Win32\_SessionProcess** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) represents an association between a logon session and the processes associated with that session.
+The **Win32\_SessionProcess** association [WMI class](../wmisdk/retrieving-a-class.md) represents an association between a logon session and the processes associated with that session.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_LogonSession**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Antecedent"), [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx)
+Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("Antecedent"), [**Key**](../wmisdk/key-qualifier.md)
 </dt> </dl>
 
 A [**Win32\_LogonSession**](win32-logonsessionmappeddisk.md) that represents the session which is related to the process.
@@ -72,7 +72,7 @@ Data type: **Win32\_Process**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Dependent"), [**Key**](https://msdn.microsoft.com/library/Aa392157(v=VS.85).aspx)
+Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("Dependent"), [**Key**](../wmisdk/key-qualifier.md)
 </dt> </dl>
 
 A [**Win32\_Process**](win32-processor.md) that represents the process associated with the session.
@@ -104,13 +104,9 @@ A [**Win32\_Process**](win32-processor.md) that represents the process associate
 [**Win32\_SessionResource**](win32-sessionresource.md)
 </dt> <dt>
 
-[Operating System Classes](https://msdn.microsoft.com/library/Dn792258(v=VS.85).aspx)
+[Operating System Classes](./operating-system-classes.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

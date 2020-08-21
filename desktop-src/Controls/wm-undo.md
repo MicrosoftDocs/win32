@@ -67,23 +67,17 @@ If the message fails, the return value is **FALSE**.
 **Other Resources**
 </dt> <dt>
 
-[**WM\_CLEAR**](https://docs.microsoft.com/windows/desktop/dataxchg/wm-clear)
+[**WM\_CLEAR**](/windows/desktop/dataxchg/wm-clear)
 </dt> <dt>
 
-[**WM\_COPY**](https://docs.microsoft.com/windows/desktop/dataxchg/wm-copy)
+[**WM\_COPY**](/windows/desktop/dataxchg/wm-copy)
 </dt> <dt>
 
-[**WM\_CUT**](https://docs.microsoft.com/windows/desktop/dataxchg/wm-cut)
+[**WM\_CUT**](/windows/desktop/dataxchg/wm-cut)
 </dt> <dt>
 
-[**WM\_PASTE**](https://docs.microsoft.com/windows/desktop/dataxchg/wm-paste)
+[**WM\_PASTE**](/windows/desktop/dataxchg/wm-paste)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -25,7 +25,7 @@ This topic demonstrates how to subclass combo boxes. The C++ example application
 
 ### Process the WM\_CREATE Message
 
-The application processes the [**WM\_CREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-create) message to create two combo box controls as child windows.
+The application processes the [**WM\_CREATE**](/windows/desktop/winmsg/wm-create) message to create two combo box controls as child windows.
 
 
 ```C++
@@ -51,11 +51,11 @@ hwndCombo2 = CreateWindow(L"COMBOBOX", L"",
 
 
 
-The application then subclasses the edit controls (selection fields) in each combo box, because they receive the character input for simple and drop-down combo box. Finally, it calls the [**ChildWindowFromPoint**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-childwindowfrompoint) function to retrieve the handle to each edit control.
+The application then subclasses the edit controls (selection fields) in each combo box, because they receive the character input for simple and drop-down combo box. Finally, it calls the [**ChildWindowFromPoint**](/windows/desktop/api/winuser/nf-winuser-childwindowfrompoint) function to retrieve the handle to each edit control.
 
-To subclass the edit controls, the application calls the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function, replacing the pointer to the class window procedure with a pointer to the application-defined **SubClassProc** function. The pointer to the original window procedure is saved in the global variable *lpfnEditWndProc*.
+To subclass the edit controls, the application calls the [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function, replacing the pointer to the class window procedure with a pointer to the application-defined **SubClassProc** function. The pointer to the original window procedure is saved in the global variable *lpfnEditWndProc*.
 
-**SubClassProc** intercepts TAB, ENTER, and ESC keys and notifies the toolbar window by sending application-defined messages (WM\_TAB, WM\_ESC, and WM\_ENTER). **SubClassProc** uses the [**CallWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca) function to pass most messages to the original window procedure, *lpfnEditWndProc*.
+**SubClassProc** intercepts TAB, ENTER, and ESC keys and notifies the toolbar window by sending application-defined messages (WM\_TAB, WM\_ESC, and WM\_ENTER). **SubClassProc** uses the [**CallWindowProc**](/windows/desktop/api/winuser/nf-winuser-callwindowproca) function to pass most messages to the original window procedure, *lpfnEditWndProc*.
 
 
 ```C++
@@ -77,7 +77,7 @@ SetWindowLongPtr(hwndEdit2, GWLP_WNDPROC, (LONG_PTR) SubClassProc);
 
 ### Process the WM\_SETFOCUS Message
 
-When the toolbar window receives the input focus, it immediately sets the focus to the first combo box in the toolbar. To do this, the example calls the [**SetFocus**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setfocus) function in response to the [**WM\_SETFOCUS**](https://docs.microsoft.com/windows/desktop/inputdev/wm-setfocus) message.
+When the toolbar window receives the input focus, it immediately sets the focus to the first combo box in the toolbar. To do this, the example calls the [**SetFocus**](/windows/desktop/api/winuser/nf-winuser-setfocus) function in response to the [**WM\_SETFOCUS**](/windows/desktop/inputdev/wm-setfocus) message.
 
 
 ```C++
@@ -353,7 +353,3 @@ LRESULT CALLBACK SubClassProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
  
 
  
-
-
-
-

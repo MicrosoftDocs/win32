@@ -98,7 +98,7 @@ This function is deprecated, because it does not support all features of toolbar
 | [**TB\_GETITEMRECT**](tb-getitemrect.md)                     | Retrieves the bounding rectangle of a button in a toolbar. <br/>                                                                                                                                  |
 | [**TB\_GETMAXSIZE**](tb-getmaxsize.md)                       | Retrieves the total size of all of the visible buttons and separators in the toolbar. <br/>                                                                                                       |
 | [**TB\_GETMETRICS**](tb-getmetrics.md)                       | Retrieves the metrics of a toolbar control.<br/>                                                                                                                                                  |
-| [**TB\_GETOBJECT**](tb-getobject.md)                         | Retrieves the [**IDropTarget**](https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget) for a toolbar control. <br/>                                                                                                                     |
+| [**TB\_GETOBJECT**](tb-getobject.md)                         | Retrieves the [**IDropTarget**](/windows/desktop/api/oleidl/nn-oleidl-idroptarget) for a toolbar control. <br/>                                                                                                                     |
 | [**TB\_GETPADDING**](tb-getpadding.md)                       | Retrieves the padding for a toolbar control. <br/>                                                                                                                                                |
 | [**TB\_GETPRESSEDIMAGELIST**](tb-getpressedimagelist.md)     | Gets the image list that a toolbar control uses to display buttons in a pressed state.<br/>                                                                                                       |
 | [**TB\_GETRECT**](tb-getrect.md)                             | Retrieves the bounding rectangle for a specified toolbar button. <br/>                                                                                                                            |
@@ -170,7 +170,7 @@ This function is deprecated, because it does not support all features of toolbar
 
 | Topic                                                            | Contents                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [NM\_CHAR (toolbar)](nm-char-toolbar.md)                        | Sent by the toolbar when it receives a [**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char) message. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.<br/>                                                                                                                                       |
+| [NM\_CHAR (toolbar)](nm-char-toolbar.md)                        | Sent by the toolbar when it receives a [**WM\_CHAR**](/windows/desktop/inputdev/wm-char) message. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.<br/>                                                                                                                                       |
 | [NM\_CLICK (toolbar)](nm-click-toolbar.md)                      | Sent by a toolbar control when the user clicks an item with the left mouse button. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.<br/>                                                                                                                                     |
 | [NM\_CUSTOMDRAW (toolbar)](nm-customdraw-toolbar.md)            | Sent by the toolbar to notify its parent window about drawing operations. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.<br/>                                                                                                                                              |
 | [NM\_DBLCLK (toolbar)](nm-dblclk-toolbar.md)                    | Notifies the parent window of a toolbar control that the user has double-clicked the left mouse button within the control. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.<br/>                                                                                             |
@@ -281,10 +281,4 @@ Comctl32.dll version 6 is not redistributable but it is included in Windows or l
  
 
  
-
- 
-
-
-
-
 

@@ -80,7 +80,7 @@ The [**ImageList\_BeginDrag**](/windows/desktop/api/Commctrl/nf-commctrl-imageli
 
 The [**ImageList\_DragEnter**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_dragenter) function sets the initial position of the drag image within a window and draws the image at the position. The parameters include the handle to the window in which to draw the image and the coordinates of the initial position within the window. The coordinates are relative to the window's upper-left corner, not the client area. The same is true for all of the image dragging functions that take coordinates as parameters. This means you must compensate for the widths of window elements such as the border, title bar, and menu bar when specifying the coordinates. If you specify a **NULL** window handle when calling **ImageList\_DragEnter**, the dragging functions draw the image in the device context that is associated with the desktop window, and the coordinates are relative to the upper-left corner of the screen.
 
-The [**ImageList\_SetDragCursorImage**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_setdragcursorimage) function creates a new drag image by combining the given image (typically a mouse cursor image) with the current drag image. Because the dragging functions use the new image during a drag operation, you should use the [**ShowCursor**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcursor) function to hide the actual mouse cursor after calling **ImageList\_SetDragCursorImage**. Otherwise, the system may appear to have two mouse cursors for the duration of the drag operation.
+The [**ImageList\_SetDragCursorImage**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_setdragcursorimage) function creates a new drag image by combining the given image (typically a mouse cursor image) with the current drag image. Because the dragging functions use the new image during a drag operation, you should use the [**ShowCursor**](/windows/desktop/api/winuser/nf-winuser-showcursor) function to hide the actual mouse cursor after calling **ImageList\_SetDragCursorImage**. Otherwise, the system may appear to have two mouse cursors for the duration of the drag operation.
 
 When an application calls [**ImageList\_BeginDrag**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_begindrag), the system creates a temporary, internal image list and then copies the specified drag image to the internal list. You can retrieve the handle to the temporary drag image list by using the [**ImageList\_GetDragImage**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_getdragimage) function. The function also retrieves the current drag position and the offset of the drag image relative to the drag position.
 
@@ -121,14 +121,10 @@ To author 32-bit icons correctly, you must create multiple images for each icon,
 -   Previous versions of Windows had a 10-icon resource limit.
 
 > [!Note]  
-> You can use third party tools to generate icon files and bitmaps that contain an alpha channel. If you use [**LoadImage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea) to load a 32 bpp bitmap that contains alpha, you need to specify the LR\_CREATEDIBSECTION flag.
+> You can use third party tools to generate icon files and bitmaps that contain an alpha channel. If you use [**LoadImage**](/windows/desktop/api/winuser/nf-winuser-loadimagea) to load a 32 bpp bitmap that contains alpha, you need to specify the LR\_CREATEDIBSECTION flag.
 
  
 
  
 
  
-
-
-
-

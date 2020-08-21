@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_NetworkAdapterSetting class
 
-The **Win32\_NetworkAdapterSetting** association [WMI class](https://msdn.microsoft.com/library/Aa393244(v=VS.85).aspx) relates a network adapter and its configuration settings.
+The **Win32\_NetworkAdapterSetting** association [WMI class](../wmisdk/retrieving-a-class.md) relates a network adapter and its configuration settings.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -56,7 +56,7 @@ Data type: **Win32\_NetworkAdapter**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Element"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_NetworkAdapter")
+Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("Element"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_NetworkAdapter")
 </dt> </dl>
 
 A [**Win32\_NetworkAdapter**](win32-networkadapter.md) that describes the properties of the network adapter that is using a particular network adapter setting.
@@ -72,7 +72,7 @@ Data type: **Win32\_NetworkAdapterConfiguration**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Override**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("Setting"), [**MappingStrings**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) ("WMI\|Win32\_NetworkAdapterConfiguration")
+Qualifiers: [**Override**](../wmisdk/standard-qualifiers.md) ("Setting"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI\|Win32\_NetworkAdapterConfiguration")
 </dt> </dl>
 
 A [**Win32\_NetworkAdapterConfiguration**](win32-networkadapterconfiguration.md) that describes the configuration settings used on the network adapter.
@@ -83,7 +83,7 @@ A [**Win32\_NetworkAdapterConfiguration**](win32-networkadapterconfiguration.md)
 
 The **Win32\_NetworkAdapterSetting** class is derived from [**Win32\_DeviceSettings**](win32-devicesettings.md).
 
-For information on how to use association classes, see [ASSOCIATORS OF Statement](https://msdn.microsoft.com/library/Aa384793(v=VS.85).aspx).
+For information on how to use association classes, see [ASSOCIATORS OF Statement](../wmisdk/associators-of-statement.md).
 
 ## Examples
 
@@ -139,13 +139,9 @@ Next
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> <dt>
 
-[WMI Tasks: Networking](https://msdn.microsoft.com/library/Aa394595(v=VS.85).aspx)
+[WMI Tasks: Networking](../wmisdk/wmi-tasks--networking.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

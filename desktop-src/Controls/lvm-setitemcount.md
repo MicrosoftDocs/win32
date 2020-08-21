@@ -55,7 +55,7 @@ Returns nonzero if successful, or zero otherwise.
 
 ## Remarks
 
-How the memory is allocated depends on how the list-view control was created. You can send this message explicitly or use the [**ListView\_SetItemCount**](/windows/desktop/api/Commctrl/nf-commctrl-listview_setitemcount) or [**ListView\_SetItemCountEx**](/windows/desktop/api/Commctrl/nf-commctrl-listview_setitemcountex) macros. For more information, see [Virtual List-View Style](https://docs.microsoft.com/windows/desktop/Controls/list-view-controls-overview).
+How the memory is allocated depends on how the list-view control was created. You can send this message explicitly or use the [**ListView\_SetItemCount**](/windows/desktop/api/Commctrl/nf-commctrl-listview_setitemcount) or [**ListView\_SetItemCountEx**](/windows/desktop/api/Commctrl/nf-commctrl-listview_setitemcountex) macros. For more information, see [Virtual List-View Style](/windows/desktop/Controls/list-view-controls-overview).
 
 If the list-view control was created without the [**LVS\_OWNERDATA**](list-view-window-styles.md) style, sending this message causes the control to allocate its internal data structures for the specified number of items. This prevents the control from having to allocate the data structures every time an item is added.
 
@@ -78,10 +78,4 @@ When the common control list-view is a virtualized list-view ([**LVS\_OWNERDATA*
 
 
  
-
- 
-
-
-
-
 

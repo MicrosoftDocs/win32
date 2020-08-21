@@ -22,7 +22,7 @@ The [**IGlobalInterfaceTable**](/windows/desktop/api/ObjIdl/nn-objidl-iglobalint
 
 In this situation, if the outer object gets marshaled to another apartment and the application calls on it, and the object tries to call on any of its member variable interface pointers that are not free-threaded or are proxies to objects in other apartments, it might get incorrect results or the error RPC\_E\_WRONG\_THREAD. This error occurs because the inner interface is designed to be callable only from the apartment in which it was first stored in the member variable.
 
-To solve this problem, the outer object aggregating the free-threaded marshaler should call [**IGlobalInterfaceTable::RegisterInterfaceInGlobal**](https://msdn.microsoft.com/library/ms682465(v=VS.85).aspx) on the inner interface and store the resulting cookie in its member variable, instead of storing the actual interface pointer. When the outer object wants to call on an inner object's interface pointer, it should call [**IGlobalInterfaceTable::GetInterfaceFromGlobal**](https://msdn.microsoft.com/library/ms680695(v=VS.85).aspx), use the returned interface pointer, and then release it. When the outer object goes away, it should call [**IGlobalInterfaceTable::RevokeInterfaceFromGlobal**](https://msdn.microsoft.com/library/ms679756(v=VS.85).aspx) to remove the interface from the global interface table.
+To solve this problem, the outer object aggregating the free-threaded marshaler should call [**IGlobalInterfaceTable::RegisterInterfaceInGlobal**](/windows/win32/api/objidl/nf-objidl-iglobalinterfacetable-registerinterfaceinglobal) on the inner interface and store the resulting cookie in its member variable, instead of storing the actual interface pointer. When the outer object wants to call on an inner object's interface pointer, it should call [**IGlobalInterfaceTable::GetInterfaceFromGlobal**](/windows/win32/api/objidl/nf-objidl-iglobalinterfacetable-getinterfacefromglobal), use the returned interface pointer, and then release it. When the outer object goes away, it should call [**IGlobalInterfaceTable::RevokeInterfaceFromGlobal**](/windows/win32/api/objidl/nf-objidl-iglobalinterfacetable-revokeinterfacefromglobal) to remove the interface from the global interface table.
 
 ## Related topics
 
@@ -34,7 +34,3 @@ To solve this problem, the outer object aggregating the free-threaded marshaler 
  
 
  
-
-
-
-

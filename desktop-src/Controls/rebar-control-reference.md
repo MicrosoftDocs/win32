@@ -41,7 +41,7 @@ This section contains information about programming elements used with rebar con
 | [**RB\_GETBARINFO**](rb-getbarinfo.md)             | Retrieves information about the rebar control and the image list it uses. <br/>                                                                                                                |
 | [**RB\_GETBKCOLOR**](rb-getbkcolor.md)             | Retrieves a rebar control's default background color. <br/>                                                                                                                                    |
 | [**RB\_GETCOLORSCHEME**](rb-getcolorscheme.md)     | Retrieves the color scheme information from the rebar control. <br/>                                                                                                                           |
-| [**RB\_GETDROPTARGET**](rb-getdroptarget.md)       | Retrieves a rebar control's [**IDropTarget**](https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget) interface pointer. <br/>                                                                                                        |
+| [**RB\_GETDROPTARGET**](rb-getdroptarget.md)       | Retrieves a rebar control's [**IDropTarget**](/windows/desktop/api/oleidl/nn-oleidl-idroptarget) interface pointer. <br/>                                                                                                        |
 | [**RB\_GETEXTENDEDSTYLE**](rb-getextendedstyle.md) | Gets the extended style. <br/>                                                                                                                                                                 |
 | [**RB\_GETPALETTE**](rb-getpalette.md)             | Retrieves the rebar control's current palette. <br/>                                                                                                                                           |
 | [**RB\_GETRECT**](rb-getrect.md)                   | Retrieves the bounding rectangle for a given band in a rebar control. <br/>                                                                                                                    |
@@ -83,7 +83,7 @@ This section contains information about programming elements used with rebar con
 | Topic                                                        | Contents                                                                                                                                                                                                                                                                     |
 |--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [NM\_CUSTOMDRAW (rebar)](nm-customdraw-rebar.md)            | Sent by the rebar control to notify its parent window about drawing operations. This notification is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.<br/>                                                                                               |
-| [NM\_NCHITTEST (rebar)](nm-nchittest-rebar.md)              | Sent by a rebar control when the control receives a [**WM\_NCHITTEST**](https://docs.microsoft.com/windows/desktop/inputdev/wm-nchittest) message. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message. <br/>                                                                 |
+| [NM\_NCHITTEST (rebar)](nm-nchittest-rebar.md)              | Sent by a rebar control when the control receives a [**WM\_NCHITTEST**](/windows/desktop/inputdev/wm-nchittest) message. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message. <br/>                                                                 |
 | [NM\_RELEASEDCAPTURE (rebar)](nm-releasedcapture-rebar-.md) | Notifies a rebar control's parent window that the control is releasing mouse capture. This notification is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message. <br/>                                                                                        |
 | [RBN\_AUTOBREAK](rbn-autobreak.md)                          | Notifies a [rebar's](rebar-controls.md) parent that a break will appear in the bar. The parent determines whether to make the break. <br/>                                                                                                                            |
 | [RBN\_AUTOSIZE](rbn-autosize.md)                            | Sent by a rebar control created with the [**RBS\_AUTOSIZE**](rebar-control-styles.md) style when the rebar automatically resizes itself. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message. <br/>                  |
@@ -136,10 +136,4 @@ This section contains information about programming elements used with rebar con
  
 
  
-
- 
-
-
-
-
 

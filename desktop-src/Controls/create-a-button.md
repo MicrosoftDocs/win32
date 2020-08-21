@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Create a Button
 
-To create buttons dynamically, you use the [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function. This topic demonstrates how to use the **CreateWindow** function to create a default push button.
+To create buttons dynamically, you use the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function. This topic demonstrates how to use the **CreateWindow** function to create a default push button.
 
 ## What you need to know
 
@@ -25,7 +25,7 @@ To create buttons dynamically, you use the [**CreateWindow**](https://docs.micro
 
 ### 
 
-Use the [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) function to create a button control.
+Use the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) function to create a button control.
 
 In the following C++ example, the *m\_hwnd* parameter is the handle to the parent window. The [**BS\_DEFPUSHBUTTON**](button-styles.md) style specifies that a default push button should be created. Note that the size and position values must be specified because using **CW\_USEDEFAULT** for a button sets the values to zero.
 
@@ -66,7 +66,3 @@ HWND hwndButton = CreateWindow(
  
 
  
-
-
-
-

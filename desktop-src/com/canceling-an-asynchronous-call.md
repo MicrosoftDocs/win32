@@ -8,15 +8,15 @@ ms.date: 05/31/2018
 
 # Canceling an Asynchronous Call
 
-A client can cancel an asynchronous call that is in progress if the call object implements the [**ICancelMethodCalls**](https://msdn.microsoft.com/library/ms683860(v=VS.85).aspx) interface. For objects that use standard marshaling, **ICancelMethodCalls** is always available for marshaled calls. For objects that use custom marshaling or for calls to server objects within the same apartment, this functionality is available only if the call object implements **ICancelMethodCalls**.
+A client can cancel an asynchronous call that is in progress if the call object implements the [**ICancelMethodCalls**](/windows/win32/api/objidlbase/nn-objidlbase-icancelmethodcalls) interface. For objects that use standard marshaling, **ICancelMethodCalls** is always available for marshaled calls. For objects that use custom marshaling or for calls to server objects within the same apartment, this functionality is available only if the call object implements **ICancelMethodCalls**.
 
 The client can cancel the call at any time, from when the Begin\_ method is called until the Finish\_ method returns. If the client cancels the call before calling the Finish\_ method, it must call the Finish\_ method to clean up the state of the call object. Until the client has done so, any calls to any Begin\_ method on the call object will return RPC\_E\_CALL\_PENDING.
 
 **To cancel an asynchronous call**
 
-1.  Query the call object for [**ICancelMethodCalls**](https://msdn.microsoft.com/library/ms683860(v=VS.85).aspx).
+1.  Query the call object for [**ICancelMethodCalls**](/windows/win32/api/objidlbase/nn-objidlbase-icancelmethodcalls).
 
-2.  Call [**ICancelMethodCalls::Cancel**](https://msdn.microsoft.com/library/ms680711(v=VS.85).aspx), and then call [**Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) to release the pointer obtained by the [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) call in step 1.
+2.  Call [**ICancelMethodCalls::Cancel**](/windows/win32/api/objidlbase/nf-objidlbase-icancelmethodcalls-cancel), and then call [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) to release the pointer obtained by the [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) call in step 1.
 
 3.  If the client has not called the Finish\_ method already, call it now.
 
@@ -32,7 +32,3 @@ There is no guarantee that the server actually stopped execution of the call. If
  
 
  
-
-
-
-

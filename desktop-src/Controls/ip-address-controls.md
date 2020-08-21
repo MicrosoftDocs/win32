@@ -33,11 +33,11 @@ The default range for each field is 0 to 255, but the application can set the ra
 
 Before creating an IP address control, call [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) with the **ICC\_INTERNET\_CLASSES** flag set in the **dwICC** member of the [**INITCOMMONCONTROLSEX**](/windows/win32/api/commctrl/ns-commctrl-initcommoncontrolsex) structure.
 
-Use the [**CreateWindow**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa) or the [**CreateWindowEx**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) function to create an IP address control. The class name for the control is [**WC\_IPADDRESS**](common-control-window-classes.md), which is defined in Commctrl.h. No IP address control-specific styles exist; however, because this is a child control, use the [**WS\_CHILD**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style as a minimum.
+Use the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) or the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function to create an IP address control. The class name for the control is [**WC\_IPADDRESS**](common-control-window-classes.md), which is defined in Commctrl.h. No IP address control-specific styles exist; however, because this is a child control, use the [**WS\_CHILD**](/windows/desktop/winmsg/window-styles) style as a minimum.
 
 ## Is an IP Address Control an Edit Control?
 
-An IP address control is not an edit control and it will not respond to EM\_ messages. It will, however, send the owner window the following edit control notifications through the [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message. Note that the IP address control will also send private IPN\_ notifications through the [**WM\_NOTIFY**](wm-notify.md) message.
+An IP address control is not an edit control and it will not respond to EM\_ messages. It will, however, send the owner window the following edit control notifications through the [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message. Note that the IP address control will also send private IPN\_ notifications through the [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 
@@ -55,7 +55,3 @@ An IP address control is not an edit control and it will not respond to EM\_ mes
  
 
  
-
-
-
-

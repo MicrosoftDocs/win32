@@ -47,7 +47,7 @@ HWND hwndCommandLink = CreateWindow(
 
 ### Step 2: Set the command link label and explanation text
 
-Use the [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) function to set the command link label and supplementary text via the [**WM\_SETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settext) message and the [**BCM\_SETNOTE**](bcm-setnote.md) message, respectively.
+Use the [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) function to set the command link label and supplementary text via the [**WM\_SETTEXT**](/windows/desktop/winmsg/wm-settext) message and the [**BCM\_SETNOTE**](bcm-setnote.md) message, respectively.
 
 
 ```C++
@@ -76,7 +76,3 @@ SendMessage(hwndCommandLink, BCM_SETNOTE, 0, (LPARAM)L"with note");
  
 
  
-
-
-
-

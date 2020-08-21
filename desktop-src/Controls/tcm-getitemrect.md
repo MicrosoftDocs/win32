@@ -34,7 +34,7 @@ Index of the tab.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that receives the bounding rectangle of the tab, in viewport coordinates.
+Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that receives the bounding rectangle of the tab, in viewport coordinates.
 
 </dd> </dl>
 
@@ -55,10 +55,4 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 
  
-
- 
-
-
-
-
 

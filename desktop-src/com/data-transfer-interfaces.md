@@ -22,7 +22,7 @@ The following table summarizes which ones to use, depending on what types of dat
 |----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Compound documents<br/>                                                    | [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject)<br/>                                                                                                                               |
 | Drag and drop transfers<br/>                                               | [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject), [**IDropSource**](/windows/desktop/api/OleIdl/nn-oleidl-idropsource), [**IDropTarget**](/windows/desktop/api/OleIdl/nn-oleidl-idroptarget), [**DoDragDrop**](/windows/desktop/api/Ole2/nf-ole2-dodragdrop) (or the equivalent)<br/> |
-| Clipboard transfers using global memory exclusively<br/>                   | [Clipboard API](https://msdn.microsoft.com/library/ms648709(v=VS.85).aspx)<br/>                                                                                                                            |
+| Clipboard transfers using global memory exclusively<br/>                   | [Clipboard API](../dataxchg/clipboard.md)<br/>                                                                                                                            |
 | Clipboard transfers using exchange mediums other than global memory.<br/>  | [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject)<br/>                                                                                                                               |
 | Clipboard transfers now but drag and drop or compound documents later<br/> | [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) and the interfaces and function listed above for "Drag and drop transfers"<br/>                                                    |
 
@@ -42,10 +42,4 @@ On the receiving side of the transfer, the destination receives the [**IDataObje
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

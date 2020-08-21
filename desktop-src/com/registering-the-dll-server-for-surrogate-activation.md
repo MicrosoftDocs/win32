@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 A DLL server will be loaded into a surrogate process under the following conditions:
 
 -   There must be an AppID value specified under the CLSID key in the registry, and a corresponding [AppID](appid-key.md) key.
--   In an activation call, the [**CLSCTX\_LOCAL\_SERVER**](https://msdn.microsoft.com/library/ms693716(v=VS.85).aspx) bit is set and the CLSID key does not specify [LocalServer32](localserver32.md), [LocalServer](localserver.md), or [LocalService](localservice.md). If other **CLSCTX** bits are set, the [**processing algorithm**](https://msdn.microsoft.com/library/ms693716(v=VS.85).aspx)for the in-process, local, or remote execution flags is followed.
+-   In an activation call, the [**CLSCTX\_LOCAL\_SERVER**](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx) bit is set and the CLSID key does not specify [LocalServer32](localserver32.md), [LocalServer](localserver.md), or [LocalService](localservice.md). If other **CLSCTX** bits are set, the [**processing algorithm**](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx)for the in-process, local, or remote execution flags is followed.
 -   The CLSID key contains the [InprocServer32](inprocserver32.md) subkey.
 -   The proxy/stub DLL specified in the **InprocServer32** key exists.
 -   The [DllSurrogate](dllsurrogate.md) value exists under the **AppID** key.
@@ -47,7 +47,3 @@ It is best to configure a DLL server that is designed to run alone in its own su
  
 
  
-
-
-
-

@@ -22,7 +22,7 @@ api_location:
 
 # Win32\_LogicalDiskToPartition class
 
-The **Win32\_LogicalDiskToPartition** association [WMI class](https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-a-class) relates a logical disk drive and the disk partition it resides on.
+The **Win32\_LogicalDiskToPartition** association [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) relates a logical disk drive and the disk partition it resides on.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -60,7 +60,7 @@ Data type: **Win32\_DiskPartition**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_DiskPartition")
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_DiskPartition")
 </dt> </dl>
 
 Reference to the instance representing the properties of a disk partition where the logical disk resides.
@@ -76,7 +76,7 @@ Data type: **Win32\_LogicalDisk**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**MappingStrings**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_LogicalDisk")
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("WMI\|Win32\_LogicalDisk")
 </dt> </dl>
 
 Reference to the instance representing the properties of a logical disk that resides on a physical disk partition.
@@ -94,7 +94,7 @@ Access type: Read-only
 
 Indicates the end of the high-level extent in lower-level storage. This property is useful when mapping non-contiguous extents into a higher-level grouping.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 This property is inherited from [**CIM\_BasedOn**](cim-basedon.md).
 
@@ -111,7 +111,7 @@ Access type: Read-only
 
 Indicates the beginning of the high-level extent in lower-level storage.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 This property is inherited from [**CIM\_BasedOn**](cim-basedon.md).
 
@@ -466,16 +466,11 @@ BOOL wmi_close()
 [**CIM\_LogicalDiskBasedOnPartition**](cim-logicaldiskbasedonpartition.md)
 </dt> <dt>
 
-[Operating System Classes](https://docs.microsoft.com/previous-versions//aa392727(v=vs.85))
+[Operating System Classes](/previous-versions//aa392727(v=vs.85))
 </dt> <dt>
 
-[WMI Tasks: Disks and File Systems](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-tasks--disks-and-file-systems)
+[WMI Tasks: Disks and File Systems](/windows/desktop/WmiSdk/wmi-tasks--disks-and-file-systems)
 </dt> </dl>
 
  
-
- 
-
-
-
 

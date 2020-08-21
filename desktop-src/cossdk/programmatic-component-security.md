@@ -18,9 +18,9 @@ For more information regarding programmatic role-based security, see the followi
 
 ## Impersonation and COM Security Features
 
-If your component is used in a COM+ application that does not use role-based security, programmatic role checking and security call context information are not available. However, you can use the programmatic security functionality provided by COM. For more information, see [Security in COM](https://docs.microsoft.com/windows/desktop/com/security-in-com).
+If your component is used in a COM+ application that does not use role-based security, programmatic role checking and security call context information are not available. However, you can use the programmatic security functionality provided by COM. For more information, see [Security in COM](/windows/desktop/com/security-in-com).
 
-Although you can use most of the security functionality provided by COM, you cannot call [**CoInitializeSecurity**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) from a component that is part of a COM+ application because **CoInitializeSecurity** is called by the surrogate that the COM+ application runs in. However, you can call other security functions, such as [**CoQueryClientBlanket**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coqueryclientblanket), which retrieves information about the client.
+Although you can use most of the security functionality provided by COM, you cannot call [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) from a component that is part of a COM+ application because **CoInitializeSecurity** is called by the surrogate that the COM+ application runs in. However, you can call other security functions, such as [**CoQueryClientBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-coqueryclientblanket), which retrieves information about the client.
 
 In particular, when you need to use the client's identity to access some resource—for example, accessing a file protected by a security descriptor, or propagating the client's identity through to a database—you can perform impersonation programmatically. For more detail about when and how to do this, see [Client Impersonation and Delegation](client-impersonation-and-delegation.md).
 
@@ -57,6 +57,3 @@ If you are writing a stand-alone component for COM+ applications that use role-b
  
 
  
-
-
-

@@ -46,7 +46,7 @@ This message does not return a value.
 
 ## Remarks
 
-To respond to the **LB\_SETHORIZONTALEXTENT** message, the list box must have been defined with the [**WS\_HSCROLL**](https://docs.microsoft.com/windows/desktop/winmsg/window-styles) style.
+To respond to the **LB\_SETHORIZONTALEXTENT** message, the list box must have been defined with the [**WS\_HSCROLL**](/windows/desktop/winmsg/window-styles) style.
 
 Note that a list box does not update its horizontal extent dynamically.
 
@@ -72,10 +72,4 @@ This message has no effect on a multiple-column list box.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

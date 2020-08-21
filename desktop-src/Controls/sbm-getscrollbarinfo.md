@@ -42,7 +42,7 @@ Pointer to a [**SCROLLBARINFO**](/windows/win32/api/winuser/ns-winuser-scrollbar
 
 Returns nonzero if successful or zero otherwise.
 
-To get extended error information, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+To get extended error information, call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Requirements
 
@@ -70,10 +70,4 @@ To get extended error information, call [**GetLastError**](https://docs.microsof
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

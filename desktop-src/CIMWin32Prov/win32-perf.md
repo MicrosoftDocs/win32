@@ -29,7 +29,7 @@ api_location:
 
 The base class for the performance counter classes [**Win32\_PerfRawData**](win32-perfrawdata.md) and [**Win32\_PerfFormattedData**](win32-perfformatteddata.md).
 
-**Win32\_Perf** defines the required timestamp and frequency properties used in the [**CounterType**](https://msdn.microsoft.com/library/Aa389383(v=VS.85).aspx) algorithms for the performance counter classes.
+**Win32\_Perf** defines the required timestamp and frequency properties used in the [**CounterType**](../wmisdk/countertype-qualifier.md) algorithms for the performance counter classes.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -72,7 +72,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (64)
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (64)
 </dt> </dl>
 
 Short textual description for the statistic or metric.
@@ -107,7 +107,7 @@ Access type: Read-only
 
 Frequency in ticks per second of the **Timestamp\_Object** property. When sub-classed, the provider defines this property.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -120,9 +120,9 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Frequency in ticks per second of the **Frequency\_PerfTime** property. A value can be obtained by calling the Windows function [**QueryPerformanceCounter**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx).
+Frequency in ticks per second of the **Frequency\_PerfTime** property. A value can be obtained by calling the Windows function [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -137,7 +137,7 @@ Access type: Read-only
 
 Frequency in ticks per second of the **Timestamp\_Sys100NS** property (10000000).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -150,7 +150,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/Aa393650(v=VS.85).aspx) (256)
+Qualifiers: [**MaxLen**](../wmisdk/standard-qualifiers.md) (256)
 </dt> </dl>
 
 Label by which the statistic or metric is known. When subclassed, this property can be overridden to be a key property.
@@ -170,7 +170,7 @@ Access type: Read-only
 
 Object-defined timestamp. The provider defines his property.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -183,9 +183,9 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-High Performance counter timestamp. A value can be obtained by calling the Windows function [**QueryPerformanceCounter**](https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx).
+High Performance counter timestamp. A value can be obtained by calling the Windows function [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> <dt>
 
@@ -200,7 +200,7 @@ Access type: Read-only
 
 Timestamp value in 100 nanosecond units.
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/Aa393262(v=VS.85).aspx).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/previous-versions//aa393262(v=vs.85)).
 
 </dd> </dl>
 
@@ -231,19 +231,15 @@ The **Win32\_Perf** class derives from [**CIM\_StatisticalInformation**](cim-sta
 [Performance Counter Classes](performance-counter-classes.md)
 </dt> <dt>
 
-[Accessing WMI Preinstalled Performance Classes](https://msdn.microsoft.com/library/Aa384740(v=VS.85).aspx)
+[Accessing WMI Preinstalled Performance Classes](../wmisdk/accessing-wmi-preinstalled-performance-classes.md)
 </dt> <dt>
 
-[WMI Tasks: Performance Monitoring](https://msdn.microsoft.com/library/Aa394597(v=VS.85).aspx)
+[WMI Tasks: Performance Monitoring](../wmisdk/wmi-tasks--performance-monitoring.md)
 </dt> <dt>
 
-[Accessing Performance Data in Script](https://msdn.microsoft.com/library/Aa384728(v=VS.85).aspx)
+[Accessing Performance Data in Script](../wmisdk/accessing-performance-data-in-script.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

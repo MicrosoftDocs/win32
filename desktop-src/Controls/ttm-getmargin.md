@@ -30,7 +30,7 @@ Retrieves the top, left, bottom, and right margins set for a tooltip window. A m
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)) structure that will receive the margin information. The members of the **RECT** structure do not define a bounding rectangle. For the purpose of this message, the structure members are interpreted as follows:
+Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that will receive the margin information. The members of the **RECT** structure do not define a bounding rectangle. For the purpose of this message, the structure members are interpreted as follows:
 
 
 
@@ -75,10 +75,4 @@ All four margins default to zero when you create the tooltip control.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

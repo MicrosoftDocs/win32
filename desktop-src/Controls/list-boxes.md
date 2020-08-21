@@ -104,10 +104,10 @@ This section contains information about the programming elements used with list 
 | [LBN\_SELCANCEL](lbn-selcancel.md)               | Notifies the application that the user has canceled the selection in a list box. <br/>                                                                                                                                                                                                                                         |
 | [LBN\_SELCHANGE](lbn-selchange.md)               | Notifies the application that the selection in a list box has changed. <br/>                                                                                                                                                                                                                                                   |
 | [LBN\_SETFOCUS](lbn-setfocus.md)                 | Notifies the application that the list box has received the keyboard focus. <br/>                                                                                                                                                                                                                                              |
-| [**WM\_CHARTOITEM**](wm-chartoitem.md)           | Sent by a list box with the [**LBS\_WANTKEYBOARDINPUT**](list-box-styles.md) style to its owner in response to a [**WM\_CHAR**](https://docs.microsoft.com/windows/desktop/inputdev/wm-char) message. <br/>                                                                                                                                        |
+| [**WM\_CHARTOITEM**](wm-chartoitem.md)           | Sent by a list box with the [**LBS\_WANTKEYBOARDINPUT**](list-box-styles.md) style to its owner in response to a [**WM\_CHAR**](/windows/desktop/inputdev/wm-char) message. <br/>                                                                                                                                        |
 | [**WM\_CTLCOLORLISTBOX**](wm-ctlcolorlistbox.md) | Sent to the parent window of a list box before the system draws the list box. By responding to this message, the parent window can set the text and background colors of the list box by using the specified display device context handle. <br/>                                                                              |
 | [**WM\_DELETEITEM**](wm-deleteitem.md)           | Sent to the owner of a list box or combo box when the list box or combo box is destroyed or when items are removed by the [**LB\_DELETESTRING**](lb-deletestring.md), [**LB\_RESETCONTENT**](lb-resetcontent.md), [**CB\_DELETESTRING**](cb-deletestring.md), or [**CB\_RESETCONTENT**](cb-resetcontent.md) message. <br/> |
-| [**WM\_VKEYTOITEM**](wm-vkeytoitem.md)           | Sent by a list box with the [**LBS\_WANTKEYBOARDINPUT**](list-box-styles.md) style to its owner in response to a [**WM\_KEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown) message. <br/>                                                                                                                                  |
+| [**WM\_VKEYTOITEM**](wm-vkeytoitem.md)           | Sent by a list box with the [**LBS\_WANTKEYBOARDINPUT**](list-box-styles.md) style to its owner in response to a [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown) message. <br/>                                                                                                                                  |
 | [DL\_BEGINDRAG](dl-begindrag.md)                 | Notifies the drag list box's parent window that the user has clicked the left mouse button on an item. <br/>                                                                                                                                                                                                                   |
 | [DL\_CANCELDRAG](dl-canceldrag.md)               | Signals that the user has canceled a drag operation by clicking the right mouse button or pressing the ESC key. <br/>                                                                                                                                                                                                          |
 | [DL\_DRAGGING](dl-dragging.md)                   | Signals that the user has moved the mouse while dragging an item. <br/>                                                                                                                                                                                                                                                        |
@@ -143,10 +143,4 @@ This section contains information about the programming elements used with list 
  
 
  
-
- 
-
-
-
-
 

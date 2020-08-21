@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # NM\_SETCURSOR (tree view) notification code
 
-Notifies a tree-view control's parent window that the control is setting the cursor in response to a [**WM\_SETCURSOR**](https://docs.microsoft.com/windows/desktop/menurc/wm-setcursor) message. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
+Notifies a tree-view control's parent window that the control is setting the cursor in response to a [**WM\_SETCURSOR**](/windows/desktop/menurc/wm-setcursor) message. This notification code is sent in the form of a [**WM\_NOTIFY**](wm-notify.md) message.
 
 
 ```C++
@@ -57,10 +57,4 @@ Return zero to enable the control to set the cursor or nonzero to prevent the co
 
 
  
-
- 
-
-
-
-
 

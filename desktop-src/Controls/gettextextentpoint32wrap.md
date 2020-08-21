@@ -18,9 +18,9 @@ ms.date: 05/31/2018
 
 # GetTextExtentPoint32Wrap function
 
-\[**GetTextExtentPoint32Wrap** is available through Windows XP with Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions. It is recommended to use [**GetTextExtentPoint**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextextentpointa) directly instead.\]
+\[**GetTextExtentPoint32Wrap** is available through Windows XP with Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions. It is recommended to use [**GetTextExtentPoint**](/windows/desktop/api/wingdi/nf-wingdi-gettextextentpointa) directly instead.\]
 
-Computes the width and height of the specified string of text. This function wraps a call to [**GetTextExtentPoint**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextextentpointa).
+Computes the width and height of the specified string of text. This function wraps a call to [**GetTextExtentPoint**](/windows/desktop/api/wingdi/nf-wingdi-gettextextentpointa).
 
 ## Syntax
 
@@ -43,7 +43,7 @@ BOOL GetTextExtentPoint32Wrap(
 *hdc* \[in\]
 </dt> <dd>
 
-Type: **[**HDC**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**HDC**](/windows/desktop/WinProg/windows-data-types)**
 
 A handle to the device context.
 
@@ -52,7 +52,7 @@ A handle to the device context.
 *lpString* \[in\]
 </dt> <dd>
 
-Type: **[**LPCTSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCTSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 A pointer to a buffer that contains the text to be drawn. The string does not need to be zero-terminated, since *cbCount* specifies the length of the string.
 
@@ -61,7 +61,7 @@ A pointer to a buffer that contains the text to be drawn. The string does not ne
 *cbCount* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 The length, in bytes, of the string pointed to by *lpString*.
 
@@ -72,23 +72,23 @@ The length, in bytes, of the string pointed to by *lpString*.
 
 Type: **LPSIZE**
 
-When this method returns, contains a pointer to a [**SIZE**](https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)) structure containing the dimensions of the string, in logical units.
+When this method returns, contains a pointer to a [**SIZE**](/previous-versions//dd145106(v=vs.85)) structure containing the dimensions of the string, in logical units.
 
 </dd> </dl>
 
 ## Return value
 
-Type: **[**BOOL**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**BOOL**](/windows/desktop/WinProg/windows-data-types)**
 
 Returns a nonzero value if successful; otherwise, 0.
 
-To get extended error information, call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+To get extended error information, call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Remarks
 
-**GetTextExtentPoint32Wrap** is not exported by name or declared in a public header file. To use it, you must use [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) and request ordinal 420 from ComCtl32.dll to obtain a function pointer.
+**GetTextExtentPoint32Wrap** is not exported by name or declared in a public header file. To use it, you must use [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) and request ordinal 420 from ComCtl32.dll to obtain a function pointer.
 
-For additional remarks, please see [**GetTextExtentPoint**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextextentpointa).
+For additional remarks, please see [**GetTextExtentPoint**](/windows/desktop/api/wingdi/nf-wingdi-gettextextentpointa).
 
 ## Requirements
 
@@ -103,10 +103,4 @@ For additional remarks, please see [**GetTextExtentPoint**](https://docs.microso
 
 
  
-
- 
-
-
-
-
 

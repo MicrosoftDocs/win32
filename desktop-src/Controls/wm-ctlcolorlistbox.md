@@ -54,11 +54,11 @@ If an application processes this message, it must return a handle to a brush. Th
 
 ## Remarks
 
-By default, the [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function selects the default system colors for the list box.
+By default, the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function selects the default system colors for the list box.
 
 The **WM\_CTLCOLORLISTBOX** message is never sent between threads. It is sent only within one thread.
 
-If a dialog box procedure handles this message, it should cast the desired return value to a **INT\_PTR** and return the value directly. If the dialog box procedure returns **FALSE**, then default message handling is performed. The **DWL\_MSGRESULT** value set by the [**SetWindowLong**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function is ignored.
+If a dialog box procedure handles this message, it should cast the desired return value to a **INT\_PTR** and return the value directly. If the dialog box procedure returns **FALSE**, then default message handling is performed. The **DWL\_MSGRESULT** value set by the [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) function is ignored.
 
 ## Requirements
 
@@ -79,20 +79,14 @@ If a dialog box procedure handles this message, it should cast the desired retur
 **Other Resources**
 </dt> <dt>
 
-[**RealizePalette**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette)
+[**RealizePalette**](/windows/desktop/api/wingdi/nf-wingdi-realizepalette)
 </dt> <dt>
 
-[**SelectPalette**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectpalette)
+[**SelectPalette**](/windows/desktop/api/wingdi/nf-wingdi-selectpalette)
 </dt> <dt>
 
-[**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

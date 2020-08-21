@@ -32,7 +32,7 @@ Retrieves a rebar control's default background color.
 
 ## Return value
 
-Returns a [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref) value that represent the current default background color.
+Returns a [**COLORREF**](/windows/desktop/gdi/colorref) value that represent the current default background color.
 
 ## Requirements
 
@@ -54,10 +54,4 @@ Returns a [**COLORREF**](https://docs.microsoft.com/windows/desktop/gdi/colorref
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

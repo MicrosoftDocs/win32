@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # EN\_DROPFILES notification code
 
-Notifies a rich edit control parent window that the user is attempting to drop files into the control. A rich edit control sends this notification code in the form of a [**WM\_NOTIFY**](wm-notify.md) message when it receives the [**WM\_DROPFILES**](https://docs.microsoft.com/windows/desktop/shell/wm-dropfiles) message.
+Notifies a rich edit control parent window that the user is attempting to drop files into the control. A rich edit control sends this notification code in the form of a [**WM\_NOTIFY**](wm-notify.md) message when it receives the [**WM\_DROPFILES**](/windows/desktop/shell/wm-dropfiles) message.
 
 
 ```C++
@@ -48,7 +48,7 @@ Return zero to ignore the drop operation.
 
 ## Remarks
 
-For a rich edit control to receive [**WM\_DROPFILES**](https://docs.microsoft.com/windows/desktop/shell/wm-dropfiles) messages, the parent window must register the control as a drop target by using the [**DragAcceptFiles**](https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-dragacceptfiles) function. The control does not register itself.
+For a rich edit control to receive [**WM\_DROPFILES**](/windows/desktop/shell/wm-dropfiles) messages, the parent window must register the control as a drop target by using the [**DragAcceptFiles**](/windows/desktop/api/shellapi/nf-shellapi-dragacceptfiles) function. The control does not register itself.
 
 To receive EN\_DROPFILES notification codes, specify [**ENM\_DROPFILES**](rich-edit-control-event-mask-flags.md) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
 
@@ -75,10 +75,4 @@ To receive EN\_DROPFILES notification codes, specify [**ENM\_DROPFILES**](rich-e
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

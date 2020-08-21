@@ -44,7 +44,7 @@ This message does not return a value.
 
 ## Remarks
 
-The undo flag is automatically reset whenever the edit control receives a [**WM\_SETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settext) or [**EM\_SETHANDLE**](em-sethandle.md) message.
+The undo flag is automatically reset whenever the edit control receives a [**WM\_SETTEXT**](/windows/desktop/winmsg/wm-settext) or [**EM\_SETHANDLE**](em-sethandle.md) message.
 
 **Edit controls and Rich Edit 1.0:** The control can only undo or redo the most recent operation.
 
@@ -83,14 +83,8 @@ The undo flag is automatically reset whenever the edit control receives a [**WM\
 **Other Resources**
 </dt> <dt>
 
-[**WM\_SETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-settext)
+[**WM\_SETTEXT**](/windows/desktop/winmsg/wm-settext)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

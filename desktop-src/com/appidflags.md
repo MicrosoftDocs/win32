@@ -38,19 +38,19 @@ This is a **REG\_DWORD** value.
 
 ### APPIDREGFLAGS\_ACTIVATE\_IUSERVER\_INDESKTOP Description
 
-If the **APPIDREGFLAGS\_ACTIVATE\_IUSERVER\_INDESKTOP** flag is cleared in **AppIDFlags** or if **AppIDFlags** is not present, the client in a terminal server session making an activation request for an [Interactive User](interactive-user.md) COM server, will either bind to, or launch and bind to, the COM server in the "default" desktop of the "winsta0" [window station](https://docs.microsoft.com/windows/desktop/winstation/window-stations) of the session in the activation request. For example, if the client is running "winsta0\\desktop1" of session 3, the activation request for session 3 will either bind to, or launch and bind to, the COM server in "winsta0\\default" of session 3, even if an instance of the COM server is already running in "winsta0\\desktop1" of session 3.
+If the **APPIDREGFLAGS\_ACTIVATE\_IUSERVER\_INDESKTOP** flag is cleared in **AppIDFlags** or if **AppIDFlags** is not present, the client in a terminal server session making an activation request for an [Interactive User](interactive-user.md) COM server, will either bind to, or launch and bind to, the COM server in the "default" desktop of the "winsta0" [window station](/windows/desktop/winstation/window-stations) of the session in the activation request. For example, if the client is running "winsta0\\desktop1" of session 3, the activation request for session 3 will either bind to, or launch and bind to, the COM server in "winsta0\\default" of session 3, even if an instance of the COM server is already running in "winsta0\\desktop1" of session 3.
 
 If the **APPIDREGFLAGS\_ACTIVATE\_IUSERVER\_INDESKTOP** flag is set in the **AppIDFlags** value, COM will either bind to, or launch and bind to, the server process running in the client's desktop and the session in the activation request. For example, if the client is running "winsta0\\desktop1" in session 3, the activation request for session 3 will either bind to, or launch and bind to, the COM server in "winsta0\\desktop1" in session 3, even if an instance of the COM server is already running in "winsta0\\default" in session 3.
 
-The client can use the [session moniker](https://docs.microsoft.com/windows/desktop/TermServ/session-monikers) to specify a session different than the client's session when it makes the activation request.
+The client can use the [session moniker](/windows/desktop/TermServ/session-monikers) to specify a session different than the client's session when it makes the activation request.
 
 The **APPIDREGFLAGS\_ACTIVATE\_IUSERVER\_INDESKTOP** flag applies only to COM servers that are configured to RunAs "[Interactive User](interactive-user.md)".
 
 ### APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND Description
 
-If the **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag is set in **AppIDFlags**, COM servers that are configured to RunAs "Activator" will be launched with a process security descriptor that allows [PROCESS\_ALL\_ACCESS](https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights) to the LogonID SID of the process token. In addition, the owner of the security descriptor will be set to the LogonID SID of the process token.
+If the **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag is set in **AppIDFlags**, COM servers that are configured to RunAs "Activator" will be launched with a process security descriptor that allows [PROCESS\_ALL\_ACCESS](/windows/desktop/ProcThread/process-security-and-access-rights) to the LogonID SID of the process token. In addition, the owner of the security descriptor will be set to the LogonID SID of the process token.
 
-If the **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag is set in **AppIDFlags**, COM servers that are configured to RunAs "This User" will be launched with a process security descriptor that allows [PROCESS\_ALL\_ACCESS](https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights) in the LogonID SID of the process token. In addition, the owner of the security descriptor will be set to the LogonID SID of the process token. Further, the COM Service Control Manager (SCM) modifies the token of the COM server process as follows:
+If the **APPIDREGFLAGS\_SECURE\_SERVER\_PROCESS\_SD\_AND\_BIND** flag is set in **AppIDFlags**, COM servers that are configured to RunAs "This User" will be launched with a process security descriptor that allows [PROCESS\_ALL\_ACCESS](/windows/desktop/ProcThread/process-security-and-access-rights) in the LogonID SID of the process token. In addition, the owner of the security descriptor will be set to the LogonID SID of the process token. Further, the COM Service Control Manager (SCM) modifies the token of the COM server process as follows:
 
 -   It adds an APPID SID to the token. It grants the APPID SID full access in the token default discretionary access control list (DACL). In Windows Vista and later versions of Windows, it grants the OwnerRights SID READ\_CONTROL permission in the token default DACL. In pre-Windows Vista versions of Windows, it sets the token owner to the APPID SID.
 
@@ -72,7 +72,7 @@ If the **APPIDREGFLAGS\_ISSUE\_ACTIVATION\_RPC\_AT\_IDENTIFY** flag is not set, 
 
 The following security considerations must be taken into account when using the **APPIDREGFLAGS\_ISSUE\_ACTIVATION\_RPC\_AT\_IDENTIFY** flag:
 
--   The **APPIDREGFLAGS\_ISSUE\_ACTIVATION\_RPC\_AT\_IDENTIFY** flag is meant to be used by COM servers that do not perform work on behalf of clients in object activation requests. For such servers, having the COM SCM issue object activation requests at [RPC\_C\_IMP\_LEVEL\_IDENTIFY](impersonation-levels.md) minimizes the chances of privileged tokens with [**SE\_IMPERSONATE\_NAME**](https://docs.microsoft.com/windows/desktop/SecAuthZ/privilege-constants) level appearing in the process.
+-   The **APPIDREGFLAGS\_ISSUE\_ACTIVATION\_RPC\_AT\_IDENTIFY** flag is meant to be used by COM servers that do not perform work on behalf of clients in object activation requests. For such servers, having the COM SCM issue object activation requests at [RPC\_C\_IMP\_LEVEL\_IDENTIFY](impersonation-levels.md) minimizes the chances of privileged tokens with [**SE\_IMPERSONATE\_NAME**](/windows/desktop/SecAuthZ/privilege-constants) level appearing in the process.
 
 The **APPIDREGFLAGS\_ISSUE\_ACTIVATION\_RPC\_AT\_IDENTIFY** flag is supported in Windows 7 and later versions of Windows.
 
@@ -80,7 +80,7 @@ The **APPIDREGFLAGS\_ISSUE\_ACTIVATION\_RPC\_AT\_IDENTIFY** flag is supported in
 
 <dl> <dt>
 
-[Desktops](https://docs.microsoft.com/windows/desktop/winstation/desktops)
+[Desktops](/windows/desktop/winstation/desktops)
 </dt> <dt>
 
 [Impersonation Levels](impersonation-levels.md)
@@ -89,16 +89,12 @@ The **APPIDREGFLAGS\_ISSUE\_ACTIVATION\_RPC\_AT\_IDENTIFY** flag is supported in
 [Interactive User](interactive-user.md)
 </dt> <dt>
 
-[Session Monikers](https://docs.microsoft.com/windows/desktop/TermServ/session-monikers)
+[Session Monikers](/windows/desktop/TermServ/session-monikers)
 </dt> <dt>
 
-[Window Stations](https://docs.microsoft.com/windows/desktop/winstation/window-stations)
+[Window Stations](/windows/desktop/winstation/window-stations)
 </dt> </dl>
 
  
 
  
-
-
-
-
