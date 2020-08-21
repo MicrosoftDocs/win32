@@ -1,6 +1,6 @@
 ---
 title: DifferentUsername (EapType) Element
-description: Determines which user name EAP-TLS is to use.
+description: Learn about the DifferentUsername (EapType) element. This element determines which user name EAP-TLS is to use.
 ms.assetid: f0ce41a9-c774-4d12-8a5a-a8eb1eb84cb0
 keywords:
 - DifferentUsername element EAPHost
@@ -38,10 +38,10 @@ The **DifferentUserName** element is optional.
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
