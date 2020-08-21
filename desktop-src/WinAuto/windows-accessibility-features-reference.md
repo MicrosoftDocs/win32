@@ -19,13 +19,9 @@ This section describes the API elements that are used with the Windows accessibi
 
 <dl> <dt>
 
-[Windows Accessibility Features](windows-accessibility-features.md)
+[Windows Accessibility Features](../accessibility/accessibility.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

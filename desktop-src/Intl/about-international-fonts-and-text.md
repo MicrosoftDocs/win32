@@ -14,13 +14,13 @@ The topics in this section address the basic functionality of International Font
 
 Starting with Windows 7, the font management infrastructure supports the hiding of fonts which are not appropriate for a user's font selection lists. The default system settings will choose to auto-hide fonts which are not designed for the input language(s) (keyboards) enabled on the OS system. In addition, users can choose to manually hide fonts in the Fonts Control Panel. This feature means users need no longer be faced with long lists of inappropriate fonts, and is particularly valuable for international users working in non-Latin scripts.
 
-In Windows 7, there are no APIs for directly querying which fonts are hidden, or for setting fonts to be hidden. However, this does not mean you cannot take advantage of this feature in your application. If you use the Windows [**ChooseFont**](https://msdn.microsoft.com/library/ms646914(v=VS.85).aspx) API (Font common dialog) to enable font selection today, you will get the new behavior for free. The new Windows Scenic Ribbon (Font Controls) introduced in Windows 7 also supports this behavior and provides another reason to "Ribbonize" your applications. For details of using Font Controls in Ribbon and **ChooseFont** to display fonts while filtering out the hidden fonts, please reference [International Font Enumeration and Selection](using-international-fonts-and-text.md).
+In Windows 7, there are no APIs for directly querying which fonts are hidden, or for setting fonts to be hidden. However, this does not mean you cannot take advantage of this feature in your application. If you use the Windows [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) API (Font common dialog) to enable font selection today, you will get the new behavior for free. The new Windows Scenic Ribbon (Font Controls) introduced in Windows 7 also supports this behavior and provides another reason to "Ribbonize" your applications. For details of using Font Controls in Ribbon and **ChooseFont** to display fonts while filtering out the hidden fonts, please reference [International Font Enumeration and Selection](using-international-fonts-and-text.md).
 
-Note that hiding fonts only impacts font selection UI. It does not impact drawing APIs. When a font is selected into a device context, there is no effect on drawing due to the font being hidden. The [**EnumFontFamiliesEx**](https://msdn.microsoft.com/library/Dd162620(v=VS.85).aspx) function continues to enumerate fonts that are set to hidden.
+Note that hiding fonts only impacts font selection UI. It does not impact drawing APIs. When a font is selected into a device context, there is no effect on drawing due to the font being hidden. The [**EnumFontFamiliesEx**](/windows/win32/api/wingdi/nf-wingdi-enumfontfamiliesexa) function continues to enumerate fonts that are set to hidden.
 
 ## GDI Font Embedding and Subsetting
 
-International Fonts technology makes use of the Font Embedding Services Library to allow you to bundle TrueType and OpenType fonts into a document or file. Embedding a font in a file guarantees that the font will be present on the computer receiving the file. For more information, see [Font Embedding Reference](https://msdn.microsoft.com/library/Dd144830(v=VS.85).aspx).
+International Fonts technology makes use of the Font Embedding Services Library to allow you to bundle TrueType and OpenType fonts into a document or file. Embedding a font in a file guarantees that the font will be present on the computer receiving the file. For more information, see [Font Embedding Reference](../gdi/font-embedding-reference.md).
 
 ## Related topics
 
@@ -32,12 +32,9 @@ International Fonts technology makes use of the Font Embedding Services Library 
 [Using MS Shell Dlg and MS Shell Dlg 2](using-ms-shell-dlg-and-ms-shell-dlg-2.md)
 </dt> <dt>
 
-[Font Embedding Reference](https://msdn.microsoft.com/library/Dd144830(v=VS.85).aspx)
+[Font Embedding Reference](../gdi/font-embedding-reference.md)
 </dt> </dl>
 
  
 
  
-
-
-

@@ -75,7 +75,7 @@ The code constant that tells MXDC what to do.
 
 ## Remarks
 
-Before calling [**MXDC\_ESCAPE**](mxdc-escape.md),\_applications should first verify that the driver is MXDC by calling [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) with the [**GETTECHNOLOGY**](https://msdn.microsoft.com/library/Dd144931(v=VS.85).aspx) escape. If the driver is the MXDC the function returns the zero-terminated string "http://schemas.microsoft.com/xps/2005/06".
+Before calling [**MXDC\_ESCAPE**](mxdc-escape.md),\_applications should first verify that the driver is MXDC by calling [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) with the [**GETTECHNOLOGY**](/previous-versions/windows/desktop/legacy/dd144931(v=vs.85)) escape. If the driver is the MXDC the function returns the zero-terminated string "http://schemas.microsoft.com/xps/2005/06".
 
 This structure is always at the beginning of the data passed to the [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) function in its *lpszInData* parameter.
 
@@ -136,7 +136,7 @@ When **opCode** is MXDCOP\_SET\_XPSPASSTHRU\_MODE:
 [Print Spooler API Structures](printing-and-print-spooler-structures.md)
 </dt> <dt>
 
-[GDI Printer Escape Functions](https://msdn.microsoft.com/library/Dd162843(v=VS.85).aspx)
+[GDI Printer Escape Functions](/previous-versions/windows/desktop/legacy/dd162843(v=vs.85))
 </dt> <dt>
 
 [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape)
@@ -146,9 +146,4 @@ When **opCode** is MXDCOP\_SET\_XPSPASSTHRU\_MODE:
 </dt> </dl>
 
  
-
- 
-
-
-
 

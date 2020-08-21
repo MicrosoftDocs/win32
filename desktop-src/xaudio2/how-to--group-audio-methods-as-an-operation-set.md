@@ -36,7 +36,7 @@ This topic shows you how you can group together XAudio2 methods so they take eff
 
 4.  Set the [operation set](operation-sets.md) parameters to the current value of the global counter.
 
-    In this case, four calls to [**IXAudio2SourceVoice::Start**](https://msdn.microsoft.com/library/Ee418471(v=VS.85).aspx) are grouped as one [operation set](operation-sets.md). Grouping the calls causes all four of the sounds to start at exactly the same time.
+    In this case, four calls to [**IXAudio2SourceVoice::Start**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-start) are grouped as one [operation set](operation-sets.md). Grouping the calls causes all four of the sounds to start at exactly the same time.
 
     ```
     hr = pSFXSourceVoice1->Start( 0, OperationID );
@@ -49,7 +49,7 @@ This topic shows you how you can group together XAudio2 methods so they take eff
 
 5.  Start the [operation set](operation-sets.md).
 
-    After you call all the methods in the set, start the set by calling [**IXAudio2::CommitChanges**](https://msdn.microsoft.com/library/Ee418603(v=VS.85).aspx) with the current value of the global counter.
+    After you call all the methods in the set, start the set by calling [**IXAudio2::CommitChanges**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-commitchanges) with the current value of the global counter.
 
     ```
     pXAudio2->CommitChanges(OperationID);
@@ -73,6 +73,3 @@ This topic shows you how you can group together XAudio2 methods so they take eff
  
 
  
-
-
-

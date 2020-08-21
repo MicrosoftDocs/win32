@@ -70,7 +70,7 @@ if (SUCCEEDED(hr))
 
 ## Extended support for WARP devices
 
-Direct3D 11.2 extends support for [WARP](overviews-direct3d-11-devices-create-warp.md) devices, which you create by passing [**D3D\_DRIVER\_TYPE\_WARP**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_driver_type) in the *DriverType* parameter of [**D3D11CreateDevice**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice). The WARP software renderer in Direct3D 11.2 adds full support for Direct3D [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 11\_1, including [tiled resources](#tiled-resources), [**IDXGIDevice3::Trim**](https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidevice3-trim), shared BCn surfaces, minblend, and map default. [Double](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_doubles) support in HLSL shaders has also been enabled along with support for 16x MSAA.
+Direct3D 11.2 extends support for [WARP](overviews-direct3d-11-devices-create-warp.md) devices, which you create by passing [**D3D\_DRIVER\_TYPE\_WARP**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_driver_type) in the *DriverType* parameter of [**D3D11CreateDevice**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice). The WARP software renderer in Direct3D 11.2 adds full support for Direct3D [feature level](overviews-direct3d-11-devices-downlevel-intro.md) 11\_1, including [tiled resources](#tiled-resources), [**IDXGIDevice3::Trim**](/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidevice3-trim), shared BCn surfaces, minblend, and map default. [Double](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_doubles) support in HLSL shaders has also been enabled along with support for 16x MSAA.
 
 ## Annotate graphics commands
 
@@ -83,15 +83,15 @@ Direct3D 11.2 lets you annotate graphics commands with these API:
 
 ## HLSL shader linking
 
-Windows 8.1 adds separate compilation and linking of HLSL shaders, which allows graphics programmers to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run-time. This is essentially an equivalent of C/C++ separate compilation, libraries, and linking, and it allows programmers to compose precompiled HLSL code when more information becomes available to finalize the computation. For more info about how to use shader linking, see [Using shader linking](https://docs.microsoft.com/windows/desktop/direct3dhlsl/using-shader-linking).
+Windows 8.1 adds separate compilation and linking of HLSL shaders, which allows graphics programmers to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run-time. This is essentially an equivalent of C/C++ separate compilation, libraries, and linking, and it allows programmers to compose precompiled HLSL code when more information becomes available to finalize the computation. For more info about how to use shader linking, see [Using shader linking](/windows/desktop/direct3dhlsl/using-shader-linking).
 
 Complete these steps to create a final shader using dynamic linkage at run time.
 
 **To create and use shader linking**
 
 1.  Create a [**ID3D11Linker**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11linker) linker object, which represents a linking context. A single context can't be used to produce multiple shaders; a linking context is used to produce a single shader and then the linking context is thrown away.
-2.  Use [**D3DLoadModule**](https://docs.microsoft.com/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dloadmodule) to load and set libraries from their library blobs.
-3.  Use [**D3DLoadModule**](https://docs.microsoft.com/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dloadmodule) to load and set an entry shader blob, or create an [FLG shader](#function-linking-graph-flg).
+2.  Use [**D3DLoadModule**](/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dloadmodule) to load and set libraries from their library blobs.
+3.  Use [**D3DLoadModule**](/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dloadmodule) to load and set an entry shader blob, or create an [FLG shader](#function-linking-graph-flg).
 4.  Use [**ID3D11Module**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11module)::[**CreateInstance**](/windows/desktop/api/D3D11Shader/nf-d3d11shader-id3d11module-createinstance) to create [**ID3D11ModuleInstance**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11moduleinstance) objects, then call functions on these objects to rebind resources to their final slots.
 5.  Add the libraries to the linker, then call [**ID3D11Linker**](/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11linker)::[**Link**](/windows/desktop/api/D3D11Shader/nf-d3d11shader-id3d11linker-link) to produce final shader byte code that can then be loaded and used in the runtime just like a fully precompiled and linked shader.
 
@@ -101,7 +101,7 @@ Windows 8.1 also adds the Function Linking Graph (FLG). You can use FLG to cons
 
 ## Inbox HLSL compiler
 
-The HLSL compiler is now inbox on Windows 8.1 and later. Now, most APIs for shader programming can be used in Windows Store apps that are built for Windows 8.1 and later. Many APIs for shader programming couldn't be used in Windows Store apps that were built for Windows 8; the reference pages for these APIs were marked with a note. But some shader APIs (for example, [**D3DCompileFromFile**](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompilefromfile)) can still only be used to develop Windows Store apps, and not in apps that you submit to the Windows Store; the reference pages for these APIs are still marked with a note.
+The HLSL compiler is now inbox on Windows 8.1 and later. Now, most APIs for shader programming can be used in Windows Store apps that are built for Windows 8.1 and later. Many APIs for shader programming couldn't be used in Windows Store apps that were built for Windows 8; the reference pages for these APIs were marked with a note. But some shader APIs (for example, [**D3DCompileFromFile**](/windows/desktop/direct3dhlsl/d3dcompilefromfile)) can still only be used to develop Windows Store apps, and not in apps that you submit to the Windows Store; the reference pages for these APIs are still marked with a note.
 
 ## Related topics
 
@@ -113,7 +113,3 @@ The HLSL compiler is now inbox on Windows 8.1 and later. Now, most APIs for sha
  
 
  
-
-
-
-

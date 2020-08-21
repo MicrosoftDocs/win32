@@ -67,7 +67,7 @@ In the backup initialization phase, the ASR writer reports the following types o
 
      
 
--   Disks. Every fixed disk on the computer is exposed as a component in ASR. If a disk was not excluded during backup, it will be assigned during restore and can be re-created and reformatted. Note that during restore, the requester can still re-create a disk that was excluded during backup by calling the [**IVssBackupComponents::SetRestoreOptions**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions) method. If one disk in a dynamic disk pack is selected, all other disks in that pack must also be selected. If a volume is selected because it is a critical volume (that is, a volume that contains system state information), every disk that contains an extent for that volume must also be selected. To find the extents for a volume, use the [**IOCTL\_VOLUME\_GET\_VOLUME\_DISK\_EXTENTS**](https://msdn.microsoft.com/library/Aa365194(v=VS.85).aspx) control code.
+-   Disks. Every fixed disk on the computer is exposed as a component in ASR. If a disk was not excluded during backup, it will be assigned during restore and can be re-created and reformatted. Note that during restore, the requester can still re-create a disk that was excluded during backup by calling the [**IVssBackupComponents::SetRestoreOptions**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions) method. If one disk in a dynamic disk pack is selected, all other disks in that pack must also be selected. If a volume is selected because it is a critical volume (that is, a volume that contains system state information), every disk that contains an extent for that volume must also be selected. To find the extents for a volume, use the [**IOCTL\_VOLUME\_GET\_VOLUME\_DISK\_EXTENTS**](/windows/win32/api/winioctl/ni-winioctl-ioctl_volume_get_volume_disk_extents) control code.
 
     > [!Note]  
     > During backup, the requester should include all fixed disks. If the disk that contains the requester's backup set is a local disk, this disk should be included. During restore, the requester must exclude the disk that contains the requester's backup set to prevent it from being overwritten.
@@ -76,9 +76,9 @@ In the backup initialization phase, the ASR writer reports the following types o
 
     In a clustering environment, ASR does not re-create the layout of the cluster's shared disks. Those disks should be restored online after the operating system is restored in the Windows RE.
 
--   Boot Configuration Data (BCD) store. This component specifies the path of the directory that contains the BCD store. The requester must specify this component and back up all of the files in the BCD store directory. For more information about the BCD store, see [About BCD](https://msdn.microsoft.com/library/Aa362639(v=VS.85).aspx).
+-   Boot Configuration Data (BCD) store. This component specifies the path of the directory that contains the BCD store. The requester must specify this component and back up all of the files in the BCD store directory. For more information about the BCD store, see [About BCD](/previous-versions/windows/desktop/bcd/about-bcd).
     > [!Note]  
-    > On computers that use the Extended Firmware Interface (EFI), the EFI System Partition (ESP) is always hidden and cannot be included in a volume shadow copy. The requester must back up the contents of this partition. Because this partition cannot be included in a volume shadow copy, the backup can only be performed from the live volume, not from the shadow copy. For more information about EFI and ESP, see [Bring up guide](https://docs.microsoft.com/windows-hardware/drivers/bringup/).
+    > On computers that use the Extended Firmware Interface (EFI), the EFI System Partition (ESP) is always hidden and cannot be included in a volume shadow copy. The requester must back up the contents of this partition. Because this partition cannot be included in a volume shadow copy, the backup can only be performed from the live volume, not from the shadow copy. For more information about EFI and ESP, see [Bring up guide](/windows-hardware/drivers/bringup/).
 
 The component names use the following formats:
 
@@ -86,7 +86,7 @@ The component names use the following formats:
 
     <COMPONENT logicalPath="Disks" componentName="harddisk*n*" componentType="filegroup" />
 
-    where *n* is the disk number. Only the disk number is recorded. To get the disk number, use the [**IOCTL\_STORAGE\_GET\_DEVICE\_NUMBER**](https://msdn.microsoft.com/library/Bb968800(v=VS.85).aspx) control code.
+    where *n* is the disk number. Only the disk number is recorded. To get the disk number, use the [**IOCTL\_STORAGE\_GET\_DEVICE\_NUMBER**](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_get_device_number) control code.
 
 -   For volume components, the format is
 
@@ -129,8 +129,8 @@ In the [**PreRestore**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomp
     -   For GPT disks, the partition identifier is not changed.
 -   A dynamic disk is not re-created if its disk layout is intact or only additive changes have been made to it. For a dynamic disk to be intact, all of the conditions for a basic disk must be met. In addition, the entire disk pack's volume structure must be intact. The disk pack's volume structure is intact if it meets the following conditions, which apply to both MBR and GPT disks:
     -   The number of volumes that are available in the physical pack during restore must be greater than or equal to the number of volumes that were specified in the ASR writer metadata during backup.
-    -   The number of [*plexes*](https://msdn.microsoft.com/library/Aa383960(v=VS.85).aspx) per volume must be unchanged.
-    -   The number of [*members*](https://msdn.microsoft.com/library/Aa383960(v=VS.85).aspx) must be unchanged.
+    -   The number of [*plexes*](../vds/virtual-disk-service-glossary-all.md) per volume must be unchanged.
+    -   The number of [*members*](../vds/virtual-disk-service-glossary-all.md) must be unchanged.
     -   The number of physical disk extents must be greater than the number of disk extents specified in the ASR writer metadata.
     -   An intact pack remains intact when additional volumes are added, or if a volume in the pack is extended (for example, from a simple volume to a spanned volume).
         > [!Note]  
@@ -186,7 +186,7 @@ At restore time, the requester performs the following steps:
 
     Under this key, there is a value named **RestoredVolumes** with the data type REG\_MULTI\_SZ. If this value does not exist, you should create it. Under this value, your requester should create a volume GUID entry for each volume that has been restored. This entry should be in the following format: \\\\?\\Volume{78618c8f-aefd-11da-a898-806e6f6e6963}. Each time a bare-metal recovery is performed, ASR sets the **RestoredVolumes** value to the set of volumes that ASR restored. If the requester restored additional volumes, it should set this value to the union of the set of volumes that the requester restored and the set of volumes that ASR restored. If the requester did not use ASR, it should replace the list of volumes.
 
-    You should also create a value named **LastInstance** with the data type REG\_SZ. This key should contain a random cookie that uniquely identifies the current restore operation. Such a cookie can be created by using the [**UuidCreate**](https://msdn.microsoft.com/library/Aa379205(v=VS.80).aspx) and [**UuidToString**](https://msdn.microsoft.com/library/Aa379352(v=VS.80).aspx) functions. Each time a bare-metal recovery is performed, ASR resets this registry value to notify requesters and non-VSS backup applications that the recovery has occurred.
+    You should also create a value named **LastInstance** with the data type REG\_SZ. This key should contain a random cookie that uniquely identifies the current restore operation. Such a cookie can be created by using the [**UuidCreate**](/windows/win32/api/rpcdce/nf-rpcdce-uuidcreate) and [**UuidToString**](/windows/win32/api/rpcdce/nf-rpcdce-uuidtostring) functions. Each time a bare-metal recovery is performed, ASR resets this registry value to notify requesters and non-VSS backup applications that the recovery has occurred.
 
 6.  Call [**IVssBackupComponents::PostRestore**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-postrestore) to indicate the end of the restore operation. Call [**IVssAsync::QueryStatus**](/windows/desktop/api/Vss/nf-vss-ivssasync-querystatus) as many times as necessary until the status value returned in the *pHrResult* parameter is not VSS\_S\_ASYNC\_PENDING.
 
@@ -200,7 +200,7 @@ It is important to note that during WinPE disaster recovery, ASR writer function
 
 If during the restore session the backup application detects that the volume unique IDs are unchanged, and therefore all volumes from the time of the backup are present and intact in WinPE, the backup application can proceed to restore only the contents of the volumes, without involving ASR. In this case, the backup application should indicate that the computer was restored by setting the following registry key in the restored operating system: **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Microsoft**\\**Windows NT**\\**CurrentVersion**\\**ASR**\\**RestoreSession**
 
-Under this key, specify **LastInstance** for the value name, REG\_SZ for the value type, and a random cookie (such as a GUID created by the [**UuidCreate**](https://msdn.microsoft.com/library/Aa379205(v=VS.80).aspx) function) for the value data.
+Under this key, specify **LastInstance** for the value name, REG\_SZ for the value type, and a random cookie (such as a GUID created by the [**UuidCreate**](/windows/win32/api/rpcdce/nf-rpcdce-uuidcreate) function) for the value data.
 
 If during the restore session the backup application detects that one or more volumes are changed or missing, the backup application should use ASR to perform the restore. ASR will re-create the volumes exactly the way they were at the time of the backup and set the **RestoreSession** registry key.
 
@@ -299,6 +299,3 @@ Exit:
  
 
  
-
-
-

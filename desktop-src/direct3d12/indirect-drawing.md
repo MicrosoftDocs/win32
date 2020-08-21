@@ -20,7 +20,7 @@ Indirect drawing enables some scene-traversal and culling to be moved from the C
 
 ## Command Signatures
 
-The command signature object ([**ID3D12CommandSignature**](https://msdn.microsoft.com/library/Dn891446(v=VS.85).aspx)) enables apps to specify indirect drawing, in particular setting the following:
+The command signature object ([**ID3D12CommandSignature**](/windows/win32/api/d3d12/nn-d3d12-id3d12commandsignature)) enables apps to specify indirect drawing, in particular setting the following:
 
 -   The indirect argument buffer format.
 -   The command type that will be used (from the [**ID3D12GraphicsCommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist) methods [**DrawInstanced**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced), [**DrawIndexedInstanced**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawindexedinstanced), or [**Dispatch**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-dispatch)).
@@ -59,7 +59,7 @@ The following structures define how particular arguments appear in an indirect a
 
 To create a command signature, use the following API items:
 
--   [**ID3D12Device::CreateCommandSignature**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandsignature) (outputs an [**ID3D12CommandSignature**](https://msdn.microsoft.com/library/Dn891446(v=VS.85).aspx))
+-   [**ID3D12Device::CreateCommandSignature**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandsignature) (outputs an [**ID3D12CommandSignature**](/windows/win32/api/d3d12/nn-d3d12-id3d12commandsignature))
 -   [**D3D12\_INDIRECT\_ARGUMENT\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_indirect_argument_type)
 -   [**D3D12\_INDIRECT\_ARGUMENT\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_indirect_argument_desc)
 -   [**D3D12\_COMMAND\_SIGNATURE\_DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_command_signature_desc)
@@ -172,7 +172,3 @@ The layout of a single structure within the indirect argument buffer is the foll
  
 
  
-
-
-
-

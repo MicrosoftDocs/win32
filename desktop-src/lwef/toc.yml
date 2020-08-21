@@ -48,56 +48,56 @@
       href: legacy-shell-reference.md
       items: 
       - name: "IActiveDesktop"
-        href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop
+        href: /windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop
         items: 
         - name: "AddDesktopItem"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-adddesktopitem
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-adddesktopitem
         - name: "AddDesktopItemWithUI"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-adddesktopitemwithui
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-adddesktopitemwithui
         - name: "AddUrl"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-addurl
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-addurl
         - name: "ApplyChanges"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-applychanges
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-applychanges
         - name: "GenerateDesktopItemHtml"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-generatedesktopitemhtml
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-generatedesktopitemhtml
         - name: "GetDesktopItem"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitem
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitem
         - name: "GetDesktopItemByID"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitembyid
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitembyid
         - name: "GetDesktopItemBySource"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitembysource
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitembysource
         - name: "GetDesktopItemCount"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitemcount
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitemcount
         - name: "GetDesktopItemOptions"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitemoptions
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitemoptions
         - name: "GetPattern"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getpattern
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getpattern
         - name: "GetWallpaper"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getwallpaper
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getwallpaper
         - name: "GetWallpaperOptions"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getwallpaperoptions
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getwallpaperoptions
         - name: "ModifyDesktopItem"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-modifydesktopitem
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-modifydesktopitem
         - name: "RemoveDesktopItem"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-removedesktopitem
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-removedesktopitem
         - name: "SetDesktopItemOptions"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setdesktopitemoptions
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setdesktopitemoptions
         - name: "SetPattern"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setpattern
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setpattern
         - name: "SetWallpaper"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setwallpaper
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setwallpaper
         - name: "SetWallpaperOptions"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setwallpaperoptions
+          href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-setwallpaperoptions
       - name: "IActiveDesktopP"
-        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-iactivedesktopp
+        href: /windows/desktop/api/shlobj/nn-shlobj-iactivedesktopp
         items: 
         - name: "SetSafeMode"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-iactivedesktopp-setsafemode
+          href: /windows/desktop/api/shlobj/nf-shlobj-iactivedesktopp-setsafemode
       - name: "IADesktopP2"
-        href: https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-iadesktopp2
+        href: /windows/desktop/api/shlobj/nn-shlobj-iadesktopp2
         items: 
         - name: "UpdateAllDesktopSubscriptions"
-          href: https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-iadesktopp2-updatealldesktopsubscriptions
+          href: /windows/desktop/api/shlobj/nf-shlobj-iadesktopp2-updatealldesktopsubscriptions
       - name: "IEmptyVolumeCache"
         href: /windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache
         items: 
@@ -124,19 +124,19 @@
         - name: "ScanProgress"
           href: /windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecachecallback-scanprogress
       - name: "IReconcilableObject"
-        href: https://docs.microsoft.com/windows/desktop/api/reconcil/nn-reconcil-ireconcilableobject
+        href: /windows/desktop/api/reconcil/nn-reconcil-ireconcilableobject
         items: 
         - name: "GetProgressFeedbackMaxEstimate"
-          href: https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-getprogressfeedbackmaxestimate
+          href: /windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-getprogressfeedbackmaxestimate
         - name: "Reconcile"
-          href: https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile
+          href: /windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile
       - name: "IReconcileInitiator"
         href: ireconcileinitiator.md
         items: 
         - name: "SetAbortCallback"
-          href: https://docs.microsoft.com/previous-versions//bb761345(v=vs.85)
+          href: /previous-versions//bb761345(v=vs.85)
         - name: "SetProgressFeedback"
-          href: https://docs.microsoft.com/previous-versions//bb761347(v=vs.85)
+          href: /previous-versions//bb761347(v=vs.85)
       - name: "WebViewFolderContents"
         href: webviewfoldercontents.md
         items: 
@@ -1373,7 +1373,7 @@
         href: -search-2x-constants-and-enumerations-entry-page.md
         items: 
         - name: "ChangeAdviseCodes"
-          href: https://docs.microsoft.com/previous-versions//aa965736(v=vs.85)
+          href: /previous-versions//aa965736(v=vs.85)
         - name: "ColumnSortOrder"
           href: /windows/win32/api/mmcobj/ne-mmcobj-_columnsortorder
         - name: "HeaderDisplayStyle"
@@ -1388,7 +1388,7 @@
         href: -search-2x-interfaces-entry-page.md
         items: 
         - name: "IGatherNotify (Deprecated)"
-          href: https://docs.microsoft.com/previous-versions//aa965731(v=vs.85)
+          href: /previous-versions//aa965731(v=vs.85)
           items: 
           - name: "AddScope (Deprecated)"
             href: -search-2x-igathernotify-addscope.md
@@ -1399,12 +1399,12 @@
           - name: "OnDataChange (Deprecated)"
             href: -search-2x-igathernotify-ondatachange.md
           - name: "RemoveScope (Deprecated)"
-            href: https://docs.microsoft.com/previous-versions//ff431697(v=vs.85)
+            href: /previous-versions//ff431697(v=vs.85)
         - name: "ISearchDesktop"
-          href: https://docs.microsoft.com/previous-versions//aa965729(v=vs.85)
+          href: /previous-versions//aa965729(v=vs.85)
           items: 
           - name: "ExecuteQuery"
-            href: https://docs.microsoft.com/previous-versions//aa965727(v=vs.85)
+            href: /previous-versions//aa965727(v=vs.85)
           - name: "ExecuteSQLQuery"
             href: -search-2x-isearchdesktop-executesqlquery.md
   - name: "Windows Defender"

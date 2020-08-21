@@ -40,7 +40,7 @@ D3DXVECTOR4* D3DXVec4Cross(
 *pOut* \[in, out\]
 </dt> <dd>
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) that is the result of the operation.
 
@@ -49,7 +49,7 @@ Pointer to the [**D3DXVECTOR4**](d3d10-d3dxvector4.md) that is the result of the
 *pV1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to a source D3DXVECTOR4 structure.
 
@@ -58,7 +58,7 @@ Pointer to a source D3DXVECTOR4 structure.
 *pV2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to a source D3DXVECTOR4 structure.
 
@@ -67,7 +67,7 @@ Pointer to a source D3DXVECTOR4 structure.
 *pV3* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **const [**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to a source D3DXVECTOR4 structure.
 
@@ -75,7 +75,7 @@ Pointer to a source D3DXVECTOR4 structure.
 
 ## Return value
 
-Type: **[**D3DXVECTOR4**](https://msdn.microsoft.com/library/Bb205548(v=VS.85).aspx)\***
+Type: **[**D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointer to a D3DXVECTOR4 structure that is the cross product.
 
@@ -103,7 +103,3 @@ The return value for this function is the same value returned in the pOut parame
  
 
  
-
-
-
-

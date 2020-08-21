@@ -30,13 +30,9 @@ The following table describes which threads the [**PenInputPanel**](peninputpane
 [**PenInputPanel Class**](peninputpanel-class.md)
 </dt> <dt>
 
-[Microsoft.Ink.PenInputPanel Class](https://msdn.microsoft.com/library/Aa514041(v=MSDN.10).aspx)
+[Microsoft.Ink.PenInputPanel Class](/previous-versions/aa514041(v=msdn.10))
 </dt> </dl>
 
  
 
  
-
-
-
-

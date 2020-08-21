@@ -27,11 +27,11 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 ## Remarks
 
-This event is raised by the stream sink of the SAR. The event is triggered when the SAR receives an [**IAudioSessionEvents::OnSimpleVolumeChanged**](https://msdn.microsoft.com/library/Dd370943(v=VS.85).aspx) event from the audio session. To get the new volume level and mute state, call [**IMFSimpleAudioVolume::GetMasterVolume**](/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-getmastervolume) and [**IMFSimpleAudioVolume::GetMute**](/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-getmute).
+This event is raised by the stream sink of the SAR. The event is triggered when the SAR receives an [**IAudioSessionEvents::OnSimpleVolumeChanged**](/windows/win32/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-onsimplevolumechanged) event from the audio session. To get the new volume level and mute state, call [**IMFSimpleAudioVolume::GetMasterVolume**](/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-getmastervolume) and [**IMFSimpleAudioVolume::GetMute**](/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-getmute).
 
 The SAR sends this event if an external action changes the volume—for example, if the user changes the volume through the system volume-control program (SndVol). The SAR does not send the event if the application changes the volume directly on the SAR.
 
-Also, the SAR does not send this event when the channel volume changes ([**IAudioSessionEvents::OnChannelVolumeChanged**](https://msdn.microsoft.com/library/Dd370933(v=VS.85).aspx)).
+Also, the SAR does not send this event when the channel volume changes ([**IAudioSessionEvents::OnChannelVolumeChanged**](/windows/win32/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-onchannelvolumechanged)).
 
 ## Requirements
 
@@ -58,7 +58,3 @@ Also, the SAR does not send this event when the channel volume changes ([**IAudi
  
 
  
-
-
-
-

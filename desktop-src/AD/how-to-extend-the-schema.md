@@ -41,7 +41,7 @@ Verify Active Directory functionality before you update the schema to help ensur
 **To Extend the Schema**
 
 1.  Determine the method of extension. Once you have carefully designed your schema changes, the next step is to decide which method to use to extend the schema. You can use one of the following methods:
-    -   Manually, using import files. See the documentation [Using the LDIFDE Tool](https://msdn.microsoft.com/library/ms870068.aspx).
+    -   Manually, using import files. See the documentation [Using the LDIFDE Tool](/previous-versions/office/developer/exchange-server-2003/ms870068(v=exchg.65)).
         > [!Note]  
         > Do not use LDIFDE to import Windows Sch\*.ldf files. Those files are required to extend the Active Directory schema in order to install domain controllers that run a newer version of Windows Server than the version that is running on the current schema master. When you need to extend the schema in order to install a new domain controller, use Adprep.exe.
 
@@ -65,10 +65,10 @@ Verify Active Directory functionality before you update the schema to help ensur
 [The new command-line tools for Active Directory in Windows Server 2003](https://support.microsoft.com/kb/298882)
 </dt> <dt>
 
-[Using the LDIFDE Tool](https://msdn.microsoft.com/library/ms870068.aspx)
+[Using the LDIFDE Tool](/previous-versions/office/developer/exchange-server-2003/ms870068(v=exchg.65))
 </dt> <dt>
 
-[Extending the Active Directory Schema](https://msdn.microsoft.com/library/ms806972.aspx)
+[Extending the Active Directory Schema](/previous-versions/ms806972(v=msdn.10))
 </dt> <dt>
 
 [Restrictions on Schema Extension](restrictions-on-schema-extension.md)
@@ -77,7 +77,3 @@ Verify Active Directory functionality before you update the schema to help ensur
  
 
  
-
-
-
-

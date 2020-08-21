@@ -20,7 +20,7 @@ Specifies the adaptive encoding mode for a video encoder.
 
 ## Property value
 
-The value of this property is a bitwise **OR** of values from the [**eAVEncAdaptiveMode**](https://msdn.microsoft.com/library/Hh447684(v=VS.85).aspx) enumeration.
+The value of this property is a bitwise **OR** of values from the [**eAVEncAdaptiveMode**](/windows/win32/api/codecapi/ne-codecapi-eavencadaptivemode) enumeration.
 
 ## Requirements
 
@@ -41,13 +41,8 @@ The value of this property is a bitwise **OR** of values from the [**eAVEncAdapt
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> <dt>
 
-[**ICodecAPI**](https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi)
+[**ICodecAPI**](/windows/desktop/api/strmif/nn-strmif-icodecapi)
 </dt> </dl>
 
  
-
- 
-
-
-
 

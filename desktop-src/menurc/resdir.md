@@ -107,7 +107,7 @@ The icon or cursor with a unique ordinal identifier.
 
 ## Remarks
 
-One or more **RESDIR** structures immediately follow the [**NEWHEADER**](newheader.md) structure in the .res file. The **ResCount** member of the **NEWHEADER** structure specifies the number of **RESDIR** structures. Note that the **RESDIR** structure consists of either an [**ICONRESDIR**](iconresdir.md) structure or a [**CURSORDIR**](cursordir.md) structure followed by the **Planes**, **BitCount**, **BytesInRes**, and **IconCursorId** members. If the **RESDIR** structure contains information about a cursor, the first two **WORD**s the resource compiler writes to the [RT\_CURSOR](https://docs.microsoft.com/windows/desktop/menurc/resource-types) resource are the **xHotSpot** and **yHotSpot** members of the [**LOCALHEADER**](localheader.md) structure.
+One or more **RESDIR** structures immediately follow the [**NEWHEADER**](newheader.md) structure in the .res file. The **ResCount** member of the **NEWHEADER** structure specifies the number of **RESDIR** structures. Note that the **RESDIR** structure consists of either an [**ICONRESDIR**](iconresdir.md) structure or a [**CURSORDIR**](cursordir.md) structure followed by the **Planes**, **BitCount**, **BytesInRes**, and **IconCursorId** members. If the **RESDIR** structure contains information about a cursor, the first two **WORD**s the resource compiler writes to the [RT\_CURSOR](/windows/desktop/menurc/resource-types) resource are the **xHotSpot** and **yHotSpot** members of the [**LOCALHEADER**](localheader.md) structure.
 
 ## Requirements
 
@@ -146,10 +146,4 @@ One or more **RESDIR** structures immediately follow the [**NEWHEADER**](newhead
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

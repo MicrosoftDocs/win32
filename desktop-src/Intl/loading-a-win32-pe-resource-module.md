@@ -12,7 +12,7 @@ This topic describes how the application loads a Win32 PE resource module on eit
 
 ## Load the Resource Module on Windows Vista and Later
 
-On Windows Vista and later, the application loads the resource module using a call to [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) or [**LoadLibraryEx**](https://msdn.microsoft.com/library/ms684179(v=VS.85).aspx). The recommended operation is to call this function with both flags specified. The following is an example of application code that loads a module based on system language settings.
+On Windows Vista and later, the application loads the resource module using a call to [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) or [**LoadLibraryEx**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexa). The recommended operation is to call this function with both flags specified. The following is an example of application code that loads a module based on system language settings.
 
 
 ```C++
@@ -54,6 +54,3 @@ FreeMUILibrary(hResModule);
  
 
  
-
-
-

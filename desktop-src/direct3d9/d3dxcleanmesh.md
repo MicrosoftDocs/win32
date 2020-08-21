@@ -43,9 +43,9 @@ HRESULT D3DXCleanMesh(
 *CleanType* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXCLEANTYPE**](https://msdn.microsoft.com/library/Bb172720(v=VS.85).aspx)**
+Type: **[**D3DXCLEANTYPE**](./d3dxcleantype.md)**
 
-Vertex operations to perform in preparation for mesh cleaning. See [**D3DXCLEANTYPE**](https://msdn.microsoft.com/library/Bb172720(v=VS.85).aspx).
+Vertex operations to perform in preparation for mesh cleaning. See [**D3DXCLEANTYPE**](./d3dxcleantype.md).
 
 </dd> <dt>
 
@@ -61,7 +61,7 @@ Pointer to an [**ID3DXMesh**](id3dxmesh.md) interface, representing the mesh to 
 *pAdjacencyIn* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the mesh to be cleaned.
 
@@ -79,7 +79,7 @@ Address of a pointer to an [**ID3DXMesh**](id3dxmesh.md) interface, representing
 *pAdjacencyOut* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the output mesh.
 
@@ -102,7 +102,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 ## Remarks
 
-This function cleans a mesh using the cleaning method and options specified in the CleanType parameter. See the [**D3DXCLEANTYPE**](https://msdn.microsoft.com/library/Bb172720(v=VS.85).aspx) enumeration for a description of the available options.
+This function cleans a mesh using the cleaning method and options specified in the CleanType parameter. See the [**D3DXCLEANTYPE**](./d3dxcleantype.md) enumeration for a description of the available options.
 
 ## Requirements
 
@@ -125,7 +125,3 @@ This function cleans a mesh using the cleaning method and options specified in t
  
 
  
-
-
-
-

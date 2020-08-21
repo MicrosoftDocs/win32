@@ -57,7 +57,7 @@ public IntPtr Value { get; set; }
 
 #### Property value
 
-Type: [System.IntPtr](https://docs.microsoft.com/dotnet/api/system.intptr?redirectedfrom=MSDN)  
+Type: [System.IntPtr](/dotnet/api/system.intptr)  
 
 ## See also
 
@@ -68,4 +68,3 @@ Type: [System.IntPtr](https://docs.microsoft.com/dotnet/api/system.intptr?redire
 [JET_LS members](hh596466\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

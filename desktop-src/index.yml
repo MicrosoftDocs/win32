@@ -24,7 +24,7 @@ landingContent:
       - linkListType: tutorial
         links:
           - text: Create your first app with Win32 and C++
-            url: /windows/win32/learnwin32/learn-to-program-for-windows
+            url: ./learnwin32/learn-to-program-for-windows.md
       - linkListType: download
         links:
           - text: Development tools
@@ -44,7 +44,7 @@ landingContent:
       - linkListType: reference
         links:
           - text: Win32 API reference by feature
-            url: /windows/win32/apiindex/windows-api-list
+            url: ./apiindex/windows-api-list.md
           - text: Win32 API reference by header
             url: /windows/win32/api/
 
@@ -77,7 +77,7 @@ landingContent:
           - text: Choose your desktop platform
             url: /windows/apps/desktop/choose-your-platform
           - text: C++/WinRT
-            url: https://docs.microsoft.com/windows/uwp/cpp-and-winrt-apis/
+            url: /windows/uwp/cpp-and-winrt-apis/
           - text: MSIX packaging and deployment
             url: /windows/msix/desktop/desktop-to-uwp-root
           - text: UWP
@@ -85,7 +85,7 @@ landingContent:
           - text: .NET
             url: //docs.microsoft.com/dotnet/
           - text: Docs archive for Windows 8.x and earlier
-            url: https://docs.microsoft.com/previous-versions/windows/
+            url: /previous-versions/windows/
 
   # Card
   - title: Related technologies
@@ -93,12 +93,12 @@ landingContent:
       - linkListType: overview
         links:
           - text: Windows AI
-            url: https://docs.microsoft.com/windows/ai/
+            url: /windows/ai/
           - text: Windows IoT
-            url: https://docs.microsoft.com/windows/iot-core/
+            url: /windows/iot-core/
           - text: Windows Mixed Reality
-            url: https://docs.microsoft.com/windows/mixed-reality/
+            url: /windows/mixed-reality/
           - text: Windows Containers
-            url: https://docs.microsoft.com/virtualization/#pivot=main&panel=containers
+            url: /virtualization/#pivot=main&panel=containers
           - text: Games
             url: https://developer.microsoft.com/games

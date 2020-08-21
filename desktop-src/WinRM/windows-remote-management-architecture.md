@@ -72,7 +72,7 @@ The following WinRM components reside on the responding computer.
 
 -   Intelligent Platform Management Interface (IPMI) driver and WMI IPMI provider
 
-    These components supply any hardware data that is requested using the IPMI classes. For more information, see [IPMI Provider](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider). BMC hardware must have been detected by the SMBIOS or the device created manually by loading the driver. For more information, see [Installation and Configuration for Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
+    These components supply any hardware data that is requested using the IPMI classes. For more information, see [IPMI Provider](/previous-versions/windows/desktop/ipmiprv/ipmi-provider). BMC hardware must have been detected by the SMBIOS or the device created manually by loading the driver. For more information, see [Installation and Configuration for Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
 
 ## Related topics
 
@@ -84,7 +84,3 @@ The following WinRM components reside on the responding computer.
  
 
  
-
-
-
-

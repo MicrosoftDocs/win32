@@ -26,7 +26,7 @@ Request for object table data.
 
 ## Members
 
-The **IObjectTableRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IObjectTableRequest** also has these types of members:
+The **IObjectTableRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IObjectTableRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IObjectTableRequest** interface has these methods.
  
 
  
-
-
-

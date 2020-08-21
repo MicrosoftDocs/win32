@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # DropTarget Control Pattern
 
-Provides guidelines and conventions for implementing the **DropTarget** control pattern by using [**IDropTargetProvider**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idroptargetprovider), including information about properties and methods. The **DropTarget** control pattern is used to support controls that can be the target of a drag-and-drop operation.
+Provides guidelines and conventions for implementing the **DropTarget** control pattern by using [**IDropTargetProvider**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idroptargetprovider), including information about properties and methods. The **DropTarget** control pattern is used to support controls that can be the target of a drag-and-drop operation.
 
 ## Implementation Guidelines and Conventions
 
@@ -55,7 +55,7 @@ The following properties and methods are required for implementing the [**IDropT
 [Control Types and Their Supported Control Patterns](uiauto-controlpatternmapping.md)
 </dt> <dt>
 
-[Drag Control Pattern](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingdrag)
+[Drag Control Pattern](/windows/desktop/WinAuto/uiauto-implementingdrag)
 </dt> <dt>
 
 [UI Automation Control Patterns Overview](uiauto-controlpatternsoverview.md)
@@ -70,7 +70,3 @@ The following properties and methods are required for implementing the [**IDropT
  
 
  
-
-
-
-

@@ -52,7 +52,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_idw"><strong>CM_Add_ID</strong></a><br/></td>
-<td>The <strong>CM_Add_ID</strong> function appends a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-ids">device ID</a> (if not already present) to a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">hardware ID</a> list or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/compatible-ids">compatible ID</a> list.<br/></td>
+<td>The <strong>CM_Add_ID</strong> function appends a specified <a href="/windows-hardware/drivers/install/device-ids">device ID</a> (if not already present) to a <a href="/windows-hardware/drivers/">device instance's</a> <a href="/windows-hardware/drivers/install/hardware-ids">hardware ID</a> list or <a href="/windows-hardware/drivers/install/compatible-ids">compatible ID</a> list.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_id_exw"><strong>CM_Add_ID_Ex</strong></a><br/></td>
@@ -60,11 +60,11 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_idw"><strong>CM_Add_ID</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Add_ID_Ex</strong> function appends a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-ids">device ID</a> (if not already present) to a device instance's <a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">hardware ID</a> list or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/compatible-ids">compatible ID</a> list, on either the local or a remote machine.<br/></td>
+<br/> The <strong>CM_Add_ID_Ex</strong> function appends a <a href="/windows-hardware/drivers/install/device-ids">device ID</a> (if not already present) to a device instance's <a href="/windows-hardware/drivers/install/hardware-ids">hardware ID</a> list or <a href="/windows-hardware/drivers/install/compatible-ids">compatible ID</a> list, on either the local or a remote machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_res_des"><strong>CM_Add_Res_Des</strong></a><br/></td>
-<td>The <strong>CM_Add_Res_Des</strong> function adds a <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a> to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>.<br/></td>
+<td>The <strong>CM_Add_Res_Des</strong> function adds a <a href="/windows-hardware/drivers/">resource descriptor</a> to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_res_des_ex"><strong>CM_Add_Res_Des_Ex</strong></a><br/></td>
@@ -72,7 +72,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_res_des"><strong>CM_Add_Res_Des</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Add_Res_Des_Ex</strong> function adds a <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a> to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>. The logical configuration can be on either the local or a remote machine.<br/></td>
+<br/> The <strong>CM_Add_Res_Des_Ex</strong> function adds a <a href="/windows-hardware/drivers/">resource descriptor</a> to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>. The logical configuration can be on either the local or a remote machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_connect_machinew"><strong>CM_Connect_Machine</strong></a><br/></td>
@@ -84,7 +84,7 @@ Beginning in Windows 8 and Windows Server 2012 functionality to access remote ma
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_class_key"><strong>CM_Delete_Class_Key</strong></a><br/></td>
-<td>The <strong>CM_Delete_Class_Key</strong> function removes the specified installed <a href="https://docs.microsoft.com/windows-hardware/drivers/">device class</a> from the system.<br/></td>
+<td>The <strong>CM_Delete_Class_Key</strong> function removes the specified installed <a href="/windows-hardware/drivers/">device class</a> from the system.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_keyw"><strong>CM_Delete_Device_Interface_Key</strong></a><br/></td>
@@ -128,7 +128,7 @@ Beginning in Windows 8 and Windows Server 2012 functionality to access remote ma
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_classes"><strong>CM_Enumerate_Classes</strong></a><br/></td>
-<td>The <strong>CM_Enumerate_Classes</strong> function, when called repeatedly, enumerates the local machine's installed <a href="https://docs.microsoft.com/windows-hardware/drivers/">device classes</a> by supplying each class's GUID.<br/></td>
+<td>The <strong>CM_Enumerate_Classes</strong> function, when called repeatedly, enumerates the local machine's installed <a href="/windows-hardware/drivers/">device classes</a> by supplying each class's GUID.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_classes_ex"><strong>CM_Enumerate_Classes_Ex</strong></a><br/></td>
@@ -152,7 +152,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf"><strong>CM_Free_Log_Conf</strong></a><br/></td>
-<td>The <strong>CM_Free_Log_Conf</strong> function removes a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> and all associated <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptors</a> from the local machine.<br/></td>
+<td>The <strong>CM_Free_Log_Conf</strong> function removes a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> and all associated <a href="/windows-hardware/drivers/">resource descriptors</a> from the local machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf_ex"><strong>CM_Free_Log_Conf_Ex</strong></a><br/></td>
@@ -160,7 +160,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf"><strong>CM_Free_Log_Conf</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Free_Log_Conf_Ex</strong> function removes a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> and all associated <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptors</a> from either a local or a remote machine.<br/></td>
+<br/> The <strong>CM_Free_Log_Conf_Ex</strong> function removes a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> and all associated <a href="/windows-hardware/drivers/">resource descriptors</a> from either a local or a remote machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf_handle"><strong>CM_Free_Log_Conf_Handle</strong></a><br/></td>
@@ -168,7 +168,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des"><strong>CM_Free_Res_Des</strong></a><br/></td>
-<td>The <strong>CM_Free_Res_Des</strong> function removes a <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a> from a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on the local machine.<br/></td>
+<td>The <strong>CM_Free_Res_Des</strong> function removes a <a href="/windows-hardware/drivers/">resource descriptor</a> from a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on the local machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des_ex"><strong>CM_Free_Res_Des_Ex</strong></a><br/></td>
@@ -176,7 +176,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des"><strong>CM_Free_Res_Des</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Free_Res_Des_Ex</strong> function removes a <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a> from a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on either a local or a remote machine.<br/></td>
+<br/> The <strong>CM_Free_Res_Des_Ex</strong> function removes a <a href="/windows-hardware/drivers/">resource descriptor</a> from a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on either a local or a remote machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des_handle"><strong>CM_Free_Res_Des_Handle</strong></a><br/></td>
@@ -200,7 +200,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_propertyw"><strong>CM_Get_Class_Property</strong></a><br/></td>
-<td>The <strong>CM_Get_Class_Property</strong> function retrieves a device property that is set for a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
+<td>The <strong>CM_Get_Class_Property</strong> function retrieves a device property that is set for a <a href="/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_exw"><strong>CM_Get_Class_Property_ExW</strong></a><br/></td>
@@ -208,11 +208,11 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_propertyw"><strong>CM_Get_Class_Property</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Class_Property_ExW</strong> function retrieves a device property that is set for a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
+<br/> The <strong>CM_Get_Class_Property_ExW</strong> function retrieves a device property that is set for a <a href="/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys"><strong>CM_Get_Class_Property_Keys</strong></a><br/></td>
-<td>The <strong>CM_Get_Class_Property_Keys</strong> function retrieves an array of the device property keys that represent the device properties that are set for a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
+<td>The <strong>CM_Get_Class_Property_Keys</strong> function retrieves an array of the device property keys that represent the device properties that are set for a <a href="/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys_ex"><strong>CM_Get_Class_Property_Keys_Ex</strong></a><br/></td>
@@ -220,7 +220,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys"><strong>CM_Get_Class_Property_Keys</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Class_Property_Keys_Ex</strong> function retrieves an array of the device property keys that represent the device properties that are set for a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
+<br/> The <strong>CM_Get_Class_Property_Keys_Ex</strong> function retrieves an array of the device property keys that represent the device properties that are set for a <a href="/windows-hardware/drivers/install/device-interface-classes">device interface class</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-setup-classes">device setup class</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_registry_propertyw"><strong>CM_Get_Class_Registry_Property</strong></a><br/></td>
@@ -240,7 +240,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_idw"><strong>CM_Get_Device_ID</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_ID</strong> function retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on the local machine.<br/></td>
+<td>The <strong>CM_Get_Device_ID</strong> function retrieves the <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a specified <a href="/windows-hardware/drivers/">device instance</a> on the local machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_exw"><strong>CM_Get_Device_ID_Ex</strong></a><br/></td>
@@ -248,11 +248,11 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_idw"><strong>CM_Get_Device_ID</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Device_ID_Ex</strong> function retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br/></td>
+<br/> The <strong>CM_Get_Device_ID_Ex</strong> function retrieves the <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a specified <a href="/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_lista"><strong>CM_Get_Device_ID_List</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_ID_List</strong> function retrieves a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the local computer's <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a>.<br/></td>
+<td>The <strong>CM_Get_Device_ID_List</strong> function retrieves a list of <a href="/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the local computer's <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_exw"><strong>CM_Get_Device_ID_List_Ex</strong></a><br/></td>
@@ -260,11 +260,11 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_lista"><strong>CM_Get_Device_ID_List</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Device_ID_List_Ex</strong> function retrieves a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a> on a local or a remote machine.<br/></td>
+<br/> The <strong>CM_Get_Device_ID_List_Ex</strong> function retrieves a list of <a href="/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the <a href="/windows-hardware/drivers/">device instances</a> on a local or a remote machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea"><strong>CM_Get_Device_ID_List_Size</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_ID_List_Size</strong> function retrieves the buffer size required to hold a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the local machine's <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a>.<br/></td>
+<td>The <strong>CM_Get_Device_ID_List_Size</strong> function retrieves the buffer size required to hold a list of <a href="/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the local machine's <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_size_exw"><strong>CM_Get_Device_ID_List_Size_Ex</strong></a><br/></td>
@@ -272,11 +272,11 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea"><strong>CM_Get_Device_ID_List_Size</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Device_ID_List_Size_Ex</strong> function retrieves the buffer size required to hold a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for a local or a remote machine's <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a>.<br/></td>
+<br/> The <strong>CM_Get_Device_ID_List_Size_Ex</strong> function retrieves the buffer size required to hold a list of <a href="/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for a local or a remote machine's <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size"><strong>CM_Get_Device_ID_Size</strong></a><br/></td>
-<td>The <strong>CM_Get_Device_ID_Size</strong> function retrieves the buffer size required to hold a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on the local machine.<br/></td>
+<td>The <strong>CM_Get_Device_ID_Size</strong> function retrieves the buffer size required to hold a <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a <a href="/windows-hardware/drivers/">device instance</a> on the local machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size_ex"><strong>CM_Get_Device_ID_Size_Ex</strong></a><br/></td>
@@ -284,7 +284,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size"><strong>CM_Get_Device_ID_Size</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Device_ID_Size_Ex</strong> function retrieves the buffer size required to hold a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br/></td>
+<br/> The <strong>CM_Get_Device_ID_Size_Ex</strong> function retrieves the buffer size required to hold a <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a <a href="/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_aliasw"><strong>CM_Get_Device_Interface_Alias</strong></a><br/></td>
@@ -364,7 +364,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf"><strong>CM_Get_First_Log_Conf</strong></a><br/></td>
-<td>The <strong>CM_Get_First_Log_Conf</strong> function obtains the first <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>, of a specified configuration type, associated with a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on the local machine.<br/></td>
+<td>The <strong>CM_Get_First_Log_Conf</strong> function obtains the first <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>, of a specified configuration type, associated with a specified <a href="/windows-hardware/drivers/">device instance</a> on the local machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf_ex"><strong>CM_Get_First_Log_Conf_Ex</strong></a><br/></td>
@@ -372,7 +372,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf"><strong>CM_Get_First_Log_Conf</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_First_Log_Conf_Ex</strong> function obtains the first <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> associated with a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br/></td>
+<br/> The <strong>CM_Get_First_Log_Conf_Ex</strong> function obtains the first <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> associated with a specified <a href="/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flagsa"><strong>CM_Get_HW_Prof_Flags</strong></a><br/></td>
@@ -380,7 +380,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.
 </blockquote>
-<br/> The <strong>CM_Get_HW_Prof_Flags</strong> function retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/">hardware profile</a>-specific configuration flags for a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on a local machine.<br/></td>
+<br/> The <strong>CM_Get_HW_Prof_Flags</strong> function retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/">hardware profile</a>-specific configuration flags for a <a href="/windows-hardware/drivers/">device instance</a> on a local machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flags_exa"><strong>CM_Get_HW_Prof_Flags_Ex</strong></a><br/></td>
@@ -388,11 +388,11 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 This function has been deprecated and should not be used.
 </blockquote>
-<br/> The <strong>CM_Get_HW_Prof_Flags_Ex</strong> function retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/">hardware profile</a>-specific configuration flags for a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on a remote machine or a local machine.<br/></td>
+<br/> The <strong>CM_Get_HW_Prof_Flags_Ex</strong> function retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/">hardware profile</a>-specific configuration flags for a <a href="/windows-hardware/drivers/">device instance</a> on a remote machine or a local machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_log_conf_priority"><strong>CM_Get_Log_Conf_Priority</strong></a><br/></td>
-<td>The <strong>CM_Get_Log_Conf_Priority</strong> function obtains the configuration priority of a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on the local machine.<br/></td>
+<td>The <strong>CM_Get_Log_Conf_Priority</strong> function obtains the configuration priority of a specified <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on the local machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_log_conf_priority_ex"><strong>CM_Get_Log_Conf_Priority_Ex</strong></a><br/></td>
@@ -400,11 +400,11 @@ This function has been deprecated and should not be used.
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_log_conf_priority"><strong>CM_Get_Log_Conf_Priority</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Log_Conf_Priority_Ex</strong> function obtains the configuration priority of a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on a local or a remote machine.<br/></td>
+<br/> The <strong>CM_Get_Log_Conf_Priority_Ex</strong> function obtains the configuration priority of a specified <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on a local or a remote machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf"><strong>CM_Get_Next_Log_Conf</strong></a><br/></td>
-<td>The <strong>CM_Get_Next_Log_Conf</strong> function obtains the next <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> associated with a specific <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on the local machine.<br/></td>
+<td>The <strong>CM_Get_Next_Log_Conf</strong> function obtains the next <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> associated with a specific <a href="/windows-hardware/drivers/">device instance</a> on the local machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf_ex"><strong>CM_Get_Next_Log_Conf_Ex</strong></a><br/></td>
@@ -412,11 +412,11 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf"><strong>CM_Get_Next_Log_Conf</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Next_Log_Conf_Ex</strong> function obtains the next <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> associated with a specific <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br/></td>
+<br/> The <strong>CM_Get_Next_Log_Conf_Ex</strong> function obtains the next <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> associated with a specific <a href="/windows-hardware/drivers/">device instance</a> on a local or a remote machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_res_des"><strong>CM_Get_Next_Res_Des</strong></a><br/></td>
-<td>The <strong>CM_Get_Next_Res_Des</strong> function obtains a handle to the next <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a>, of a specified resource type, for a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on the local machine.<br/></td>
+<td>The <strong>CM_Get_Next_Res_Des</strong> function obtains a handle to the next <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a>, of a specified resource type, for a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on the local machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_res_des_ex"><strong>CM_Get_Next_Res_Des_Ex</strong></a><br/></td>
@@ -424,7 +424,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_res_des"><strong>CM_Get_Next_Res_Des</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Next_Res_Des_Ex</strong> function obtains a handle to the next <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a>, of a specified resource type, for a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on a local or a remote machine.<br/></td>
+<br/> The <strong>CM_Get_Next_Res_Des_Ex</strong> function obtains a handle to the next <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a>, of a specified resource type, for a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> on a local or a remote machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_parent"><strong>CM_Get_Parent</strong></a><br/></td>
@@ -440,7 +440,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data"><strong>CM_Get_Res_Des_Data</strong></a><br/></td>
-<td>The <strong>CM_Get_Res_Des_Data</strong> function retrieves the information stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a> on the local machine.<br/></td>
+<td>The <strong>CM_Get_Res_Des_Data</strong> function retrieves the information stored in a <a href="/windows-hardware/drivers/">resource descriptor</a> on the local machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_ex"><strong>CM_Get_Res_Des_Data_Ex</strong></a><br/></td>
@@ -448,11 +448,11 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data"><strong>CM_Get_Res_Des_Data</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Res_Des_Data_Ex</strong> function retrieves the information stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a> on a local or a remote machine.<br/></td>
+<br/> The <strong>CM_Get_Res_Des_Data_Ex</strong> function retrieves the information stored in a <a href="/windows-hardware/drivers/">resource descriptor</a> on a local or a remote machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size"><strong>CM_Get_Res_Des_Data_Size</strong></a><br/></td>
-<td>The <strong>CM_Get_Res_Des_Data_Size</strong> function obtains the buffer size required to hold the information contained in a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a> on the local machine.<br/></td>
+<td>The <strong>CM_Get_Res_Des_Data_Size</strong> function obtains the buffer size required to hold the information contained in a specified <a href="/windows-hardware/drivers/">resource descriptor</a> on the local machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size_ex"><strong>CM_Get_Res_Des_Data_Size_Ex</strong></a><br/></td>
@@ -460,7 +460,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size"><strong>CM_Get_Res_Des_Data_Size</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Get_Res_Des_Data_Size_Ex</strong> function obtains the buffer size required to hold the information contained in a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a> on a local or a remote machine.<br/></td>
+<br/> The <strong>CM_Get_Res_Des_Data_Size_Ex</strong> function obtains the buffer size required to hold the information contained in a specified <a href="/windows-hardware/drivers/">resource descriptor</a> on a local or a remote machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_count"><strong>CM_Get_Resource_Conflict_Count</strong></a><br/></td>
@@ -488,7 +488,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.
 </blockquote>
-<br/> The <strong>CM_Get_Version</strong> function returns version 4.0 of the Plug and Play (PnP) Configuration Manager <a href="https://docs.microsoft.com/windows-hardware/drivers/">DLL</a> (<em>Cfgmgr32.dll</em>) for a local machine. <br/></td>
+<br/> The <strong>CM_Get_Version</strong> function returns version 4.0 of the Plug and Play (PnP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<em>Cfgmgr32.dll</em>) for a local machine. <br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_version_ex"><strong>CM_Get_Version_Ex</strong></a><br/></td>
@@ -496,11 +496,11 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.
 </blockquote>
-<br/> The <strong>CM_Get_Version_Ex</strong> function returns version 4.0 of the Plug and Play (PnP) Configuration Manager <a href="https://docs.microsoft.com/windows-hardware/drivers/">DLL</a> (<em>Cfgmgr32.dll</em>) for a local or a remote machine. <br/></td>
+<br/> The <strong>CM_Get_Version_Ex</strong> function returns version 4.0 of the Plug and Play (PnP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<em>Cfgmgr32.dll</em>) for a local or a remote machine. <br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present"><strong>CM_Is_Dock_Station_Present</strong></a><br/></td>
-<td>The <strong>CM_Is_Dock_Station_Present</strong> function identifies whether a <a href="https://docs.microsoft.com/windows-hardware/drivers/">docking station</a> is present in a local machine.<br/></td>
+<td>The <strong>CM_Is_Dock_Station_Present</strong> function identifies whether a <a href="/windows-hardware/drivers/">docking station</a> is present in a local machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present_ex"><strong>CM_Is_Dock_Station_Present_Ex</strong></a><br/></td>
@@ -508,7 +508,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated. Please use <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present"><strong>CM_Is_Dock_Station_Present</strong></a> instead.
 </blockquote>
-<br/> The <strong>CM_Is_Dock_Station_Present_Ex</strong> function identifies whether a <a href="https://docs.microsoft.com/windows-hardware/drivers/">docking station</a> is present in a local or a remote machine.<br/></td>
+<br/> The <strong>CM_Is_Dock_Station_Present_Ex</strong> function identifies whether a <a href="/windows-hardware/drivers/">docking station</a> is present in a local or a remote machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_version_available"><strong>CM_Is_Version_Available</strong></a><br/></td>
@@ -516,7 +516,7 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.
 </blockquote>
-<br/> The <strong>CM_Is_Version_Available</strong> function indicates whether a specified version of the Plug and Play (PnP) Configuration Manager <a href="https://docs.microsoft.com/windows-hardware/drivers/">DLL</a> (<em>Cfgmgr32.dll</em>) is supported by a local machine.<br/></td>
+<br/> The <strong>CM_Is_Version_Available</strong> function indicates whether a specified version of the Plug and Play (PnP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<em>Cfgmgr32.dll</em>) is supported by a local machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_version_available_ex"><strong>CM_Is_Version_Available_Ex</strong></a><br/></td>
@@ -524,11 +524,11 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
 [!Note]<br />
 Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.
 </blockquote>
-<br/> The <strong>CM_Is_Version_Available_Ex</strong> function indicates whether a specified version of the Plug and Play (PNP) Configuration Manager <a href="https://docs.microsoft.com/windows-hardware/drivers/">DLL</a> (<em>Cfgmgr32.dll</em>) is supported by a local or a remote machine.<br/></td>
+<br/> The <strong>CM_Is_Version_Available_Ex</strong> function indicates whether a specified version of the Plug and Play (PNP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<em>Cfgmgr32.dll</em>) is supported by a local or a remote machine.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_locate_devnodea"><strong>CM_Locate_DevNode</strong></a><br/></td>
-<td>The <strong>CM_Locate_DevNode</strong> function obtains a device instance handle to the device node that is associated with a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> on the local machine.<br/></td>
+<td>The <strong>CM_Locate_DevNode</strong> function obtains a device instance handle to the device node that is associated with a specified <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> on the local machine.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_locate_devnode_exw"><strong>CM_Locate_DevNode_Ex</strong></a><br/></td>
@@ -810,8 +810,3 @@ Beginning with Windows 8 and Windows Server 2012, this function has been depreca
  
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bdevinst\devinst%5D:%20Cfgmgr32.h%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
-
-
-
-
-

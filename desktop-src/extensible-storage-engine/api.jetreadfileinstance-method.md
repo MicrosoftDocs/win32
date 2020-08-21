@@ -87,14 +87,14 @@ public static void JetReadFileInstance(
 <!-- end list -->
 
   - bufferSize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The size of the buffer.
 
 <!-- end list -->
 
   - bytesRead  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Returns the amount of data read into the buffer.
 
@@ -107,4 +107,3 @@ public static void JetReadFileInstance(
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

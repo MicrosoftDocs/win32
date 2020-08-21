@@ -12,7 +12,7 @@ Specifies the quality of the output.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -48,7 +48,3 @@ The valid range of this property is 1 to 60, inclusive. Higher values produce hi
  
 
  
-
-
-
-

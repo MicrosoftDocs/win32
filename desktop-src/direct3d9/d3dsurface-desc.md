@@ -55,18 +55,18 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the surface 
 **Type**
 </dt> <dd>
 
-Type: **[**D3DRESOURCETYPE**](https://msdn.microsoft.com/library/Bb172601(v=VS.85).aspx)**
+Type: **[**D3DRESOURCETYPE**](./d3dresourcetype.md)**
 
 </dd> <dd>
 
-Member of the [**D3DRESOURCETYPE**](https://msdn.microsoft.com/library/Bb172601(v=VS.85).aspx) enumerated type, identifying this resource as a surface.
+Member of the [**D3DRESOURCETYPE**](./d3dresourcetype.md) enumerated type, identifying this resource as a surface.
 
 </dd> <dt>
 
 **Usage**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -77,40 +77,40 @@ Either the D3DUSAGE\_DEPTHSTENCIL or D3DUSAGE\_RENDERTARGET values. For more inf
 **Pool**
 </dt> <dd>
 
-Type: **[**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx)**
+Type: **[**D3DPOOL**](./d3dpool.md)**
 
 </dd> <dd>
 
-Member of the [**D3DPOOL**](https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx) enumerated type, specifying the class of memory allocated for this surface.
+Member of the [**D3DPOOL**](./d3dpool.md) enumerated type, specifying the class of memory allocated for this surface.
 
 </dd> <dt>
 
 **MultiSampleType**
 </dt> <dd>
 
-Type: **[**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/library/Bb172574(v=VS.85).aspx)**
+Type: **[**D3DMULTISAMPLE\_TYPE**](./d3dmultisample-type.md)**
 
 </dd> <dd>
 
-Member of the [**D3DMULTISAMPLE\_TYPE**](https://msdn.microsoft.com/library/Bb172574(v=VS.85).aspx) enumerated type, specifying the levels of full-scene multisampling supported by the surface.
+Member of the [**D3DMULTISAMPLE\_TYPE**](./d3dmultisample-type.md) enumerated type, specifying the levels of full-scene multisampling supported by the surface.
 
 </dd> <dt>
 
 **MultiSampleQuality**
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
-Quality level. The valid range is between zero and one less than the level returned by pQualityLevels used by [**CheckDeviceMultiSampleType**](https://msdn.microsoft.com/library/Bb174311(v=VS.85).aspx). Passing a larger value returns the error, D3DERR\_INVALIDCALL. The MultisampleQuality values of paired render targets, depth stencil surfaces and the MultiSample type must all match.
+Quality level. The valid range is between zero and one less than the level returned by pQualityLevels used by [**CheckDeviceMultiSampleType**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdevicemultisampletype). Passing a larger value returns the error, D3DERR\_INVALIDCALL. The MultisampleQuality values of paired render targets, depth stencil surfaces and the MultiSample type must all match.
 
 </dd> <dt>
 
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -121,7 +121,7 @@ Width of the surface, in pixels.
 **Height**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -146,19 +146,15 @@ Height of the surface, in pixels.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetLevelDesc**](https://msdn.microsoft.com/library/Bb174332(v=VS.85).aspx)
+[**GetLevelDesc**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dcubetexture9-getleveldesc)
 </dt> <dt>
 
-[**GetDesc**](https://msdn.microsoft.com/library/Bb205895(v=VS.85).aspx)
+[**GetDesc**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-getdesc)
 </dt> <dt>
 
-[**GetLevelDesc**](https://msdn.microsoft.com/library/Bb174332(v=VS.85).aspx)
+[**GetLevelDesc**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dcubetexture9-getleveldesc)
 </dt> </dl>
 
  
 
  
-
-
-
-

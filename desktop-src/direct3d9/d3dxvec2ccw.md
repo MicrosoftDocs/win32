@@ -56,7 +56,7 @@ Pointer to a source [**D3DXVECTOR2**](d3dxvector2.md) structure.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The z-component.
 
@@ -97,7 +97,3 @@ If the value of the z-component is positive, the vector V2 is counterclockwise f
  
 
  
-
-
-
-

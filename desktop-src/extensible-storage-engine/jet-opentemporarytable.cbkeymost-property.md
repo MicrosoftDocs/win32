@@ -57,7 +57,7 @@ public int cbKeyMost { get; set; }
 
 #### Property value
 
-Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+Type: [System.Int32](/dotnet/api/system.int32)  
 
 ## See also
 
@@ -68,4 +68,3 @@ Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirect
 [JET_OPENTEMPORARYTABLE members](dn335285\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-

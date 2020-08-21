@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## Purpose
 
-The security management technologies can be used to manage [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) policy and [*password filter*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly) policy, query the ability of programs from external sources, and service attachments that extend the functionality of the Security Configuration tool.
+The security management technologies can be used to manage [*Local Security Authority*](/windows/desktop/SecGloss/l-gly) (LSA) policy and [*password filter*](/windows/desktop/SecGloss/p-gly) policy, query the ability of programs from external sources, and service attachments that extend the functionality of the Security Configuration tool.
 
 Microsoft security management technologies include the LSA Policy API, the Password Filter API, the Safer API, and the Service Security Attachments API. These technologies enable software developers to create applications that manage systems and applications.
 
@@ -37,9 +37,4 @@ For information about run-time requirements for a particular programming element
  
 
  
-
- 
-
-
-
 

@@ -115,7 +115,7 @@ HANDLE
 **ADS\_UTC\_TIME**
 </dt> <dd>
 
-[**SYSTEMTIME**](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime)
+[**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime)
 
 </dd> </dl>
 
@@ -136,10 +136,4 @@ When ADSI reads an attribute that has been defined as an **INTEGER** in the LDAP
 
 
  
-
- 
-
-
-
-
 

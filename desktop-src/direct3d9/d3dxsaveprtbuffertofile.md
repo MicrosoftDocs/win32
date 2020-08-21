@@ -39,7 +39,7 @@ HRESULT D3DXSavePRTBufferToFile(
 *pFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Name of the file to which the buffer is to be saved.
 
@@ -85,7 +85,3 @@ The compiler setting also determines the function version. If Unicode is defined
  
 
  
-
-
-
-

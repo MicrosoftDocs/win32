@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # InkEdit Messages (Win32 Only)
 
-The [InkEdit](inkedit-control-reference.md) control is a super class of the [**RichEdit**](https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditole) control. Every **RichEdit** message is passed on, directly in most cases, and has exactly the same effect as in **RichEdit**. This also applies to event notification messages.
+The [InkEdit](inkedit-control-reference.md) control is a super class of the [**RichEdit**](/windows/desktop/api/richole/nn-richole-iricheditole) control. Every **RichEdit** message is passed on, directly in most cases, and has exactly the same effect as in **RichEdit**. This also applies to event notification messages.
 
 To send these messages, call the SendMessage function with the following parameters:
 
@@ -150,9 +150,4 @@ LRESULT CALLBACK WindowProc(
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -43,7 +43,7 @@ YUV formats are categorized according to the following information:
 
  
 
-For a description of theses YUV formats for video rendering on Windows, see [Recommended 8-Bit YUV Formats for Video Rendering](https://msdn.microsoft.com/library/Dd206750(v=VS.85).aspx) .
+For a description of theses YUV formats for video rendering on Windows, see [Recommended 8-Bit YUV Formats for Video Rendering](../medfound/recommended-8-bit-yuv-formats-for-video-rendering.md) .
 
 **Other YUV Format Types**
 
@@ -94,7 +94,7 @@ For a description of theses YUV formats for video rendering on Windows, see [Rec
 
 <dl> <dt>
 
-[Recommended 8-Bit YUV Formats for Video Rendering](https://msdn.microsoft.com/library/Dd206750(v=VS.85).aspx)
+[Recommended 8-Bit YUV Formats for Video Rendering](../medfound/recommended-8-bit-yuv-formats-for-video-rendering.md)
 </dt> <dt>
 
 [Video Subtypes](video-subtypes.md)
@@ -106,7 +106,3 @@ For a description of theses YUV formats for video rendering on Windows, see [Rec
  
 
  
-
-
-
-

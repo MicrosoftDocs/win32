@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 **Windows Vista and Windows Server 2008:  **
 
-ProxyCfg.exe has been deprecated. It is replaced by the [Netsh.exe winhttp](https://technet.microsoft.com/library/cc731131(WS.10).aspx) commands.
+ProxyCfg.exe has been deprecated. It is replaced by the [Netsh.exe winhttp](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731131(v=ws.10)) commands.
 
 This topic explains the use of the [Microsoft Windows HTTP Services (WinHTTP)](about-winhttp.md) proxy configuration tool, "ProxyCfg.exe".
 
@@ -131,6 +131,3 @@ For more information about the auto-logon policy, see [Automatic Logon Policy](a
  
 
  
-
-
-

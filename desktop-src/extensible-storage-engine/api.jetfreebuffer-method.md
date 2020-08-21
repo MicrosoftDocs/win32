@@ -53,9 +53,9 @@ public static void JetFreeBuffer(
 #### Parameters
 
   - buffer  
-    Type: [System.IntPtr](https://docs.microsoft.com/dotnet/api/system.intptr?redirectedfrom=MSDN)  
+    Type: [System.IntPtr](/dotnet/api/system.intptr)  
     
-    The buffer allocated by a call to the database engine. [Zero](https://docs.microsoft.com/dotnet/api/system.intptr.zero?redirectedfrom=MSDN) is acceptable, and will be ignored.
+    The buffer allocated by a call to the database engine. [Zero](/dotnet/api/system.intptr.zero) is acceptable, and will be ignored.
 
 ## Remarks
 
@@ -70,4 +70,3 @@ This method is internal because we never expose the memory allocated by ESENT to
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

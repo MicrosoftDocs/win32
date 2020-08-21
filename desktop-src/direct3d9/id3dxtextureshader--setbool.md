@@ -48,7 +48,7 @@ Unique identifier to the constant. See [D3DXHANDLE](d3dxfx.md).
 *b* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 BOOL value.
 
@@ -81,7 +81,3 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
  
 
  
-
-
-
-

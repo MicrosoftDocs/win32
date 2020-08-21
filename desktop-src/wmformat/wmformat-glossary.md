@@ -137,14 +137,14 @@ A COM object that processes multimedia data streams from buffers allocated by th
 <span id="wmformat.dmo"></span><span id="WMFORMAT.DMO"></span> **DMO**
 </dt> <dd>
 
-See definition for: [*DirectX Media Object (DMO)*](https://docs.microsoft.com/windows)
+See definition for: [*DirectX Media Object (DMO)*](/windows)
 
 </dd> <dt>
 
 <span id="wmformat.drm"></span><span id="WMFORMAT.DRM"></span> **DRM**
 </dt> <dd>
 
-See definition for: [*digital rights management (DRM)*](https://docs.microsoft.com/windows)
+See definition for: [*digital rights management (DRM)*](/windows)
 
 </dd> <dt>
 
@@ -298,14 +298,14 @@ A text string that is associated with a designated time in Windows Media-based c
 <span id="wmformat.mbr"></span><span id="WMFORMAT.MBR"></span> **MBR**
 </dt> <dd>
 
-See definition for: [*multiple bit rate (MBR)*](https://docs.microsoft.com/windows)
+See definition for: [*multiple bit rate (MBR)*](/windows)
 
 </dd> <dt>
 
 <span id="wmformat.mime"></span><span id="WMFORMAT.MIME"></span> **MIME**
 </dt> <dd>
 
-See definition for: [*Multipurpose Internet Mail Extension (MIME)*](https://docs.microsoft.com/windows)
+See definition for: [*Multipurpose Internet Mail Extension (MIME)*](/windows)
 
 </dd> <dt>
 
@@ -389,7 +389,7 @@ A color model that describes color information in terms of the red (R), green (G
 <span id="wmformat.sdmi"></span><span id="WMFORMAT.SDMI"></span> **SDMI**
 </dt> <dd>
 
-See definition for: [*Secure Digital Music Initiative (SDMI)*](https://docs.microsoft.com/windows)
+See definition for: [*Secure Digital Music Initiative (SDMI)*](/windows)
 
 </dd> <dt>
 
@@ -445,7 +445,7 @@ The film-to-video conversion system that adds frames to video to compensate for 
 <span id="wmformat.udp"></span><span id="WMFORMAT.UDP"></span> **UDP**
 </dt> <dd>
 
-See definition for: [*User Datagram Protocol (UDP)*](https://docs.microsoft.com/windows)
+See definition for: [*User Datagram Protocol (UDP)*](/windows)
 
 </dd> <dt>
 
@@ -466,7 +466,7 @@ A characteristic of a data stream in which the bit rate fluctuates, depending up
 <span id="wmformat.vbr"></span><span id="WMFORMAT.VBR"></span> **VBR**
 </dt> <dd>
 
-See definition for: [*variable bit rate (VBR)*](https://docs.microsoft.com/windows)
+See definition for: [*variable bit rate (VBR)*](/windows)
 
 </dd> <dt>
 
@@ -501,7 +501,3 @@ A color model that describes color information in terms of its brightness (lumin
  
 
  
-
-
-
-

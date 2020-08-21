@@ -35,7 +35,7 @@ Over the years, the power of 3D video cards has grown dramatically to the point 
 
 ![wddm](images/graphics-apis-in-windows-vista.gif)
 
-For more information about the WDDM, see [Windows Vista Display Driver Model (WDDM) Design Guide](https://docs.microsoft.com/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide) on MSDN.
+For more information about the WDDM, see [Windows Vista Display Driver Model (WDDM) Design Guide](/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide) on MSDN.
 
 ## Direct3D 9
 
@@ -56,7 +56,7 @@ The primary reason for creating the new Direct3D 9Ex API was to allow full acces
 
  
 
-For more information about Direct3D 9Ex, see [DirectX for Windows Vista](https://msdn2.microsoft.com/library/ms681824.aspx) on MDSN.
+For more information about Direct3D 9Ex, see [DirectX for Windows Vista](/previous-versions//ms681824(v=vs.85)) on MDSN.
 
 ## Direct3D 10
 
@@ -70,7 +70,7 @@ All of these enhancements enable next-generation graphics technology and expand 
 
 To provide this level of innovation in Direct3D 10, older hardware cannot be expressed as a partial implementation of a new interface. A video card is either capable of supporting all of the new features, or it’s not a Direct3D 10–capable card. Therefore, while Direct3D 9 could drive DirectX7-era hardware with many missing capability bits and usage limitations, Direct3D 10 only works on a new generation of video cards. For an application to support older video hardware, it must also support the Direct3D 9 interfaces. Future versions of Direct3D will build on version 10, extending it to new versions of the API while ensuring a strict superset of Direct3D 10 functionality.
 
-For more information about Direct3D 10, see [Direct3D 10](https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics).
+For more information about Direct3D 10, see [Direct3D 10](/windows/desktop/direct3d10/d3d10-graphics).
 
 ## Direct3D 10.1
 
@@ -99,16 +99,16 @@ In addition to the Direct3D 11 API, Windows 7 includes DXGI 1.1, Direct2D, Direc
 
 ## Direct3D 11.1
 
-Windows 8 extends the [Direct3D 11 API](#direct3d-11) with Direct3D 11.1. Direct3D 11.1 supports all existing hardware that [feature levels](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 11, 10\_x, and 9\_x support, as well as a new 11\_1 feature level.
+Windows 8 extends the [Direct3D 11 API](#direct3d-11) with Direct3D 11.1. Direct3D 11.1 supports all existing hardware that [feature levels](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 11, 10\_x, and 9\_x support, as well as a new 11\_1 feature level.
 
-In addition to the [Direct3D 11.1 API](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-1-features), Windows 8 includes [DXGI 1.2](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-1-2-improvements), [Direct2D device contexts](https://docs.microsoft.com/windows/desktop/Direct2D/devices-and-device-contexts), and support for WDDM 1.2 drivers.
+In addition to the [Direct3D 11.1 API](/windows/desktop/direct3d11/direct3d-11-1-features), Windows 8 includes [DXGI 1.2](/windows/desktop/direct3ddxgi/dxgi-1-2-improvements), [Direct2D device contexts](/windows/desktop/Direct2D/devices-and-device-contexts), and support for WDDM 1.2 drivers.
 
 > [!Note]  
-> If you want your Windows Store apps to program 3D graphics with DirectX, you can use the Direct3D 11.1 API. For more info about programming 3D graphics with DirectX, see [Introduction to 3D graphics with DirectX](https://docs.microsoft.com/previous-versions/windows/apps/hh465137(v=win.10)).
+> If you want your Windows Store apps to program 3D graphics with DirectX, you can use the Direct3D 11.1 API. For more info about programming 3D graphics with DirectX, see [Introduction to 3D graphics with DirectX](/previous-versions/windows/apps/hh465137(v=win.10)).
 
  
 
-**Platform Update for Windows 7:** Partial support is available for the [Direct3D 11.1 API](https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-1-features) on Windows 7 or Windows Server 2008 R2 with the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838) installed. For more info about the Platform Update for Windows 7, see [Platform Update for Windows 7](platform-update-for-windows-7.md).
+**Platform Update for Windows 7:** Partial support is available for the [Direct3D 11.1 API](/windows/desktop/direct3d11/direct3d-11-1-features) on Windows 7 or Windows Server 2008 R2 with the [Platform Update for Windows 7](https://support.microsoft.com/kb/2670838) installed. For more info about the Platform Update for Windows 7, see [Platform Update for Windows 7](platform-update-for-windows-7.md).
 
 ## OpenGL
 
@@ -131,7 +131,3 @@ Consider the following recommendations when selecting an API for your graphical 
  
 
  
-
-
-
-

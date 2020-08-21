@@ -18,7 +18,7 @@ topic_type:
 
 # CPL\_NEWINQUIRE message
 
-Sent to the [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) function of a Control Panel application to request information about a dialog box that the application supports.
+Sent to the [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) function of a Control Panel application to request information about a dialog box that the application supports.
 
 ## Parameters
 
@@ -40,7 +40,7 @@ The address of a [**NEWCPLINFO**](/windows/win32/api/cpl/ns-cpl-newcplinfoa) str
 
 ## Return value
 
-If the [**CPlApplet**](https://msdn.microsoft.com/library/Bb776392(v=VS.85).aspx) function processes this message successfully, it should return zero.
+If the [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) function processes this message successfully, it should return zero.
 
 ## Remarks
 
@@ -69,7 +69,3 @@ The only applications that should use **CPL\_NEWINQUIRE** are those that need to
  
 
  
-
-
-
-

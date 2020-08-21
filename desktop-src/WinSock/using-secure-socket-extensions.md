@@ -277,28 +277,28 @@ int QueryTcpSocketSecurity(IN SOCKET sock)
 
 <dl> <dt>
 
-[About Windows Filtering Platform](https://msdn.microsoft.com/library/Aa363967(v=VS.85).aspx)
+[About Windows Filtering Platform](../fwp/about-windows-filtering-platform.md)
 </dt> <dt>
 
 [Advanced Winsock Samples Using Secure Socket Extensions](advanced-winsock-samples-using-secure-socket-extensions.md)
 </dt> <dt>
 
-[Application Layer Enforcement (ALE)](https://msdn.microsoft.com/library/Aa363971(v=VS.85).aspx)
+[Application Layer Enforcement (ALE)](../fwp/application-layer-enforcement--ale-.md)
 </dt> <dt>
 
-[IPsec Configuration](https://msdn.microsoft.com/library/Bb736264(v=VS.85).aspx)
+[IPsec Configuration](../fwp/ipsec-configuration.md)
 </dt> <dt>
 
-[IPsec Functions](https://msdn.microsoft.com/library/Aa364938(v=VS.85).aspx)
+[IPsec Functions](../fwp/fwp-ipsec-functions.md)
 </dt> <dt>
 
-[Security Support Provider Interface (SSPI)](https://msdn.microsoft.com/library/Aa378663(v=VS.80).aspx)
+[Security Support Provider Interface (SSPI)](../rpc/security-support-provider-interface-sspi-.md)
 </dt> <dt>
 
-[Windows Filtering Platform](https://msdn.microsoft.com/library/Aa366510(v=VS.85).aspx)
+[Windows Filtering Platform](../fwp/windows-filtering-platform-start-page.md)
 </dt> <dt>
 
-[Windows Filtering Platform API Functions](https://msdn.microsoft.com/library/Aa364931(v=VS.85).aspx)
+[Windows Filtering Platform API Functions](../fwp/fwp-functions.md)
 </dt> <dt>
 
 [Winsock Secure Socket Extensions](winsock-secure-socket-extensions.md)
@@ -307,6 +307,3 @@ int QueryTcpSocketSecurity(IN SOCKET sock)
  
 
  
-
-
-

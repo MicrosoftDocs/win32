@@ -18,7 +18,7 @@ Parameters are used to describe an acceptable range of values, rather than a dis
 
 For a summary of the ParameterDef element type, please refer to [ParameterDef](parameterdef.md) section.
 
-For more information on the interaction between ParameterDef elements and ParameterInit elements, refer to [ParameterDef and ParameterInit Elements](https://msdn.microsoft.com/library/ms716524(v=VS.85).aspx) section.
+For more information on the interaction between ParameterDef elements and ParameterInit elements, refer to [ParameterDef and ParameterInit Elements](./parameterdef-and-parameterinit-elements.md) section.
 
 ParameterDef elements that are defined in the Print Schema Keywords must be fully defined in a PrintCapabilities document.
 
@@ -38,6 +38,3 @@ A user configurable element keyword may contain a reference to a Parameter. Para
  
 
  
-
-
-

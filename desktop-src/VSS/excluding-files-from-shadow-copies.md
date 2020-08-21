@@ -32,7 +32,7 @@ A VSS writer can exclude files from a shadow copy as follows:
 >
 > -   It cannot delete files from a shadow copy that was created on a Windows Server by using the Previous Versions feature.
 > -   It cannot delete files from shadow copies for shared folders.
-> -   It can delete files from a shadow copy that was created by using the [DiskShadow](https://technet.microsoft.com/library/e962537d-b759-4368-b6f1-e8391cf7b221) utility, but it cannot delete files from a shadow copy that was created by using the [Vssadmin](https://technet.microsoft.com/library/df7eb505-43c6-42af-ab42-3095f96ffc27) utility.
+> -   It can delete files from a shadow copy that was created by using the [DiskShadow](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc772172(v=ws.11)) utility, but it cannot delete files from a shadow copy that was created by using the [Vssadmin](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754968(v=ws.11)) utility.
 > -   Files are deleted from a shadow copy on a best-effort basis. This means that they are not guaranteed to be deleted.
 
  
@@ -71,11 +71,8 @@ Under this registry key, specify DisableUserProfileExpansion for the value name,
 
 ## About the FilesNotToBackup Registry Key
 
-The **FilesNotToBackup** registry key can be used to specify the names of the files and directories that backup applications should not backup or restore. However, it does not exclude those files from shadow copies. For more information about this registry key, see [Registry Keys and Values for Backup and Restore](https://msdn.microsoft.com/library/Bb891959(v=VS.85).aspx).
+The **FilesNotToBackup** registry key can be used to specify the names of the files and directories that backup applications should not backup or restore. However, it does not exclude those files from shadow copies. For more information about this registry key, see [Registry Keys and Values for Backup and Restore](../backup/registry-keys-for-backup-and-restore.md).
 
  
 
  
-
-
-

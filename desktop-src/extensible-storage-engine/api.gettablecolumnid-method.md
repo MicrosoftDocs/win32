@@ -77,7 +77,7 @@ public static JET_COLUMNID GetTableColumnid(
 <!-- end list -->
 
   - columnName  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The name of the column.
 
@@ -95,4 +95,3 @@ The id of the column.
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

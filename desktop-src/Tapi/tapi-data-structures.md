@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # TAPI Data Structures
 
-TAPI applications, TAPI, and telephony service providers use structures to receive and return the data associated with communications needs. This section discusses the following topics on how to use [line device](https://msdn.microsoft.com/library/ms736537(v=VS.85).aspx), [phone device](https://msdn.microsoft.com/library/ms737184(v=VS.85).aspx), and [call center](https://msdn.microsoft.com/library/ms734839(v=VS.85).aspx) structures.
+TAPI applications, TAPI, and telephony service providers use structures to receive and return the data associated with communications needs. This section discusses the following topics on how to use [line device](./line-device-structures.md), [phone device](./phone-device-structures.md), and [call center](./call-center-structures.md) structures.
 
 -   [Memory Allocation](memory-allocation.md)
 -   [Variably Sized Data Structures](variably-sized-data-structures.md)
@@ -17,6 +17,3 @@ TAPI applications, TAPI, and telephony service providers use structures to recei
  
 
  
-
-
-

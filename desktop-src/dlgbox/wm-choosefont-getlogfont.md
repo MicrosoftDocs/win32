@@ -42,7 +42,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure that receives information about the user's current font selections.
+A pointer to a [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure that receives information about the user's current font selections.
 
 </dd> </dl>
 
@@ -52,11 +52,11 @@ This message does not return a value.
 
 ## Remarks
 
-The [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function creates a **Font** dialog box. When the user closes the **Font** dialog box, the **ChooseFont** function returns information about the user's font selections in the [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure. The **lpLogFont** member of the **CHOOSEFONT** structure is a pointer to a [**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta) structure.
+The [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) function creates a **Font** dialog box. When the user closes the **Font** dialog box, the **ChooseFont** function returns information about the user's font selections in the [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) structure. The **lpLogFont** member of the **CHOOSEFONT** structure is a pointer to a [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure.
 
 Use the **WM\_CHOOSEFONT\_GETLOGFONT** message to get information about the user's current font selections while the **Font** dialog box is open. For example, if you enable the **Apply** button in the **Font** dialog box, send the message to get the font information to apply to the current text selection.
 
-Typically, you enable a [*CFHookProc*](https://msdn.microsoft.com/library/ms646909(v=VS.85).aspx) hook procedure to process [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) messages for the **Apply** button. When the user clicks the **Apply** button, the hook procedure sends the **WM\_CHOOSEFONT\_GETLOGFONT** message to the dialog box.
+Typically, you enable a [*CFHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc) hook procedure to process [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) messages for the **Apply** button. When the user clicks the **Apply** button, the hook procedure sends the **WM\_CHOOSEFONT\_GETLOGFONT** message to the dialog box.
 
 ## Requirements
 
@@ -77,7 +77,7 @@ Typically, you enable a [*CFHookProc*](https://msdn.microsoft.com/library/ms6469
 **Reference**
 </dt> <dt>
 
-[**CFHookProc**](https://msdn.microsoft.com/library/ms646909(v=VS.85).aspx)
+[**CFHookProc**](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc)
 </dt> <dt>
 
 [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
@@ -86,7 +86,7 @@ Typically, you enable a [*CFHookProc*](https://msdn.microsoft.com/library/ms6469
 [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
 </dt> <dt>
 
-[**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command)
+[**WM\_COMMAND**](/windows/desktop/menurc/wm-command)
 </dt> <dt>
 
 **Conceptual**
@@ -98,14 +98,8 @@ Typically, you enable a [*CFHookProc*](https://msdn.microsoft.com/library/ms6469
 **Other Resources**
 </dt> <dt>
 
-[**LOGFONT**](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-logfonta)
+[**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # XTYP\_XACT\_COMPLETE transaction
 
-A Dynamic Data Exchange (DDE) client callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives the **XTYP\_XACT\_COMPLETE** transaction when an asynchronous transaction, initiated by a call to the [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) function, has completed.
+A Dynamic Data Exchange (DDE) client callback function, [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), receives the **XTYP\_XACT\_COMPLETE** transaction when an asynchronous transaction, initiated by a call to the [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) function, has completed.
 
 
 ```C++
@@ -124,10 +124,4 @@ An application must not free the data handle obtained during this transaction. A
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

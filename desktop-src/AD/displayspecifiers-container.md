@@ -14,11 +14,11 @@ ms.date: 05/31/2018
 
 Display specifiers are stored, by locale, in the DisplaySpecifiers container of the Configuration container. Because the Configuration container is replicated across the entire forest, display specifiers are propagated across all domains in a forest.
 
-The Configuration container stores the DisplaySpecifiers container, which then stores containers that correspond to each locale. These locale containers are named using the hexadecimal representation of the locale identifier. For example, the US/English locale container is named 409, the German locale's container is named 407, and the Japanese locale's container is named 411. For more information, and a list of possible language identifiers, see [Language Identifier Constants and Strings](https://docs.microsoft.com/windows/desktop/Intl/language-identifier-constants-and-strings).
+The Configuration container stores the DisplaySpecifiers container, which then stores containers that correspond to each locale. These locale containers are named using the hexadecimal representation of the locale identifier. For example, the US/English locale container is named 409, the German locale's container is named 407, and the Japanese locale's container is named 411. For more information, and a list of possible language identifiers, see [Language Identifier Constants and Strings](/windows/desktop/Intl/language-identifier-constants-and-strings).
 
-Each locale container stores objects of the [**displaySpecifier**](https://docs.microsoft.com/windows/desktop/ADSchema/c-displayspecifier) class.
+Each locale container stores objects of the [**displaySpecifier**](/windows/desktop/ADSchema/c-displayspecifier) class.
 
-To list all display specifiers for a locale, enumerate all the [**displaySpecifier**](https://docs.microsoft.com/windows/desktop/ADSchema/c-displayspecifier) objects in the specified locale container within the DisplaySpecifiers container.
+To list all display specifiers for a locale, enumerate all the [**displaySpecifier**](/windows/desktop/ADSchema/c-displayspecifier) objects in the specified locale container within the DisplaySpecifiers container.
 
 The following code example contains a function that binds to the display specifier container for the specified locale:
 
@@ -111,7 +111,3 @@ return hr;
  
 
  
-
-
-
-

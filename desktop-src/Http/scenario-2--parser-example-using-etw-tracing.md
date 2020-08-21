@@ -12,7 +12,7 @@ To generate an ETW trace report for the HTTP Server API component, run the steps
 
 ## Viewing the Trace and Diagnosing
 
-The resulting CSV file for traces can be viewed in Excel or any tool that supports the CSV format. Table 2 below shows excerpts from a sample trace file (httptrace.csv). In the trace report, the "Level" column shows an entry with a value of "2", which represents an error. As noted above, the HTTP Server API component follows the ETW Levels defined in the article [LevelType Complex Type Complex Type](https://msdn2.microsoft.com/library/aa382793.aspx).
+The resulting CSV file for traces can be viewed in Excel or any tool that supports the CSV format. Table 2 below shows excerpts from a sample trace file (httptrace.csv). In the trace report, the "Level" column shows an entry with a value of "2", which represents an error. As noted above, the HTTP Server API component follows the ETW Levels defined in the article [LevelType Complex Type Complex Type](../wes/eventmanifestschema-leveltype-complextype.md).
 
 The ETW levels include: 1 Critical; 2 Error; 3 Warning; 4 Informational; 5 Verbose.
 
@@ -39,7 +39,3 @@ Table 2: Excerpts from a Sample Trace Report for a Parsing Issue
  
 
  
-
-
-
-

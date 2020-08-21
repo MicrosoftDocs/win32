@@ -50,7 +50,7 @@ Specifies a 4D vector that is dotted with the vertices to get the per-vertex ada
 *dwMaxTessLevel* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Maximum limit for adaptive tessellation. This is the number of vertices introduced between existing vertices. This integer value can range from 1 to 32, inclusive.
 
@@ -59,7 +59,7 @@ Maximum limit for adaptive tessellation. This is the number of vertices introduc
 *dwMinTessLevel* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Minimum limit for adaptive tessellation. This is the number of vertices introduced between existing vertices. This integer value can range from 1 to 32, inclusive.
 
@@ -105,7 +105,3 @@ This function will perform more efficiently if the patch mesh has been optimized
  
 
  
-
-
-
-

@@ -17,14 +17,10 @@ ms.date: 05/31/2018
 
 # Opening MIDI Output Devices
 
-To open a MIDI output device for playback, use the [**midiOutOpen**](https://msdn.microsoft.com/library/Dd798476(v=VS.85).aspx) function. This function opens the device associated with the specified device identifier and returns a handle of the open device by writing the handle to a specified memory location.
+To open a MIDI output device for playback, use the [**midiOutOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midioutopen) function. This function opens the device associated with the specified device identifier and returns a handle of the open device by writing the handle to a specified memory location.
 
 One of the parameters of **midiOutOpen** is a doubleword value. This value specifies a window or thread handle, an event handle, or the address of a callback function that is used to monitor the progress of the playback of MIDI system-exclusive data and stream buffers. Monitoring enables the application to determine when to send additional data blocks and when to free data blocks that have been sent. For more information about these methods, see [Managing MIDI Data Blocks](managing-midi-data-blocks.md).
 
  
 
  
-
-
-
-

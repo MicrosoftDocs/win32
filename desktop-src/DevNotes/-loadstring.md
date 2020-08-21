@@ -20,7 +20,7 @@ api_location:
 
 \[This function is a wrapper over the **LoadString** function. This function may be altered or unavailable in the future. Applications should call **LoadString** directly.\]
 
-Loads a string resource. See [**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx).
+Loads a string resource. See [**LoadString**](/windows/win32/api/winuser/nf-winuser-loadstringa).
 
 ## Syntax
 
@@ -54,13 +54,9 @@ int _LoadString(
 
 <dl> <dt>
 
-[**LoadString**](https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx)
+[**LoadString**](/windows/win32/api/winuser/nf-winuser-loadstringa)
 </dt> </dl>
 
  
 
  
-
-
-
-

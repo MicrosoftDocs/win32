@@ -19,16 +19,16 @@ This section lists the MCI functions, structures, messages, macros, commands, an
 
 ## Retrieving Information
 
--   [**mciGetCreatorTask**](https://msdn.microsoft.com/library/Dd757155(v=VS.85).aspx)
--   [**mciGetDeviceID**](https://msdn.microsoft.com/library/Dd757156(v=VS.85).aspx)
--   [**mciGetDeviceIDFromElementID**](https://msdn.microsoft.com/library/Dd757157(v=VS.85).aspx)
--   [**mciGetErrorString**](https://msdn.microsoft.com/library/Dd757158(v=VS.85).aspx)
+-   [**mciGetCreatorTask**](/previous-versions//dd757155(v=vs.85))
+-   [**mciGetDeviceID**](/previous-versions//dd757156(v=vs.85))
+-   [**mciGetDeviceIDFromElementID**](/previous-versions//dd757157(v=vs.85))
+-   [**mciGetErrorString**](/previous-versions//dd757158(v=vs.85))
 
 ## Sending Commands
 
--   [**mciExecute**](https://msdn.microsoft.com/library/Dd757154(v=VS.85).aspx)
--   [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
--   [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx)
+-   [**mciExecute**](/previous-versions//dd757154(v=vs.85))
+-   [**mciSendCommand**](/previous-versions//dd757160(v=vs.85))
+-   [**mciSendString**](/previous-versions//dd757161(v=vs.85))
 
 ## Time Formats
 
@@ -38,7 +38,7 @@ This section lists the MCI functions, structures, messages, macros, commands, an
 -   [**MCI\_MAKE\_HMS**](mci-make-hms.md)
 -   [**MCI\_MAKE\_MSF**](mci-make-msf.md)
 -   [**MCI\_MAKE\_TMSF**](mci-make-tmsf.md)
--   [**MCI\_MSF\_FRAME**](https://msdn.microsoft.com/library/Dd743438(v=VS.85).aspx)
+-   [**MCI\_MSF\_FRAME**](/previous-versions//dd743438(v=vs.85))
 -   [**MCI\_MSF\_MINUTE**](mci-msf-minute.md)
 -   [**MCI\_MSF\_SECOND**](mci-msf-second.md)
 -   [**MCI\_TMSF\_FRAME**](mci-tmsf-frame.md)
@@ -48,15 +48,15 @@ This section lists the MCI functions, structures, messages, macros, commands, an
 
 ## Yield Procedures
 
--   [**mciGetYieldProc**](https://msdn.microsoft.com/library/Dd757159(v=VS.85).aspx)
--   [**mciSetYieldProc**](https://msdn.microsoft.com/library/Dd757163(v=VS.85).aspx)
+-   [**mciGetYieldProc**](/previous-versions//dd757159(v=vs.85))
+-   [**mciSetYieldProc**](/previous-versions//dd757163(v=vs.85))
 
 ## Configuring a Device
 
 -   [**break**](break.md)
 -   [**configure**](configure.md)
 -   [escape](escape.md)
--   [**index**](index.md)
+-   [**index**](./windows-multimedia-start-page.md)
 -   [**MCI\_BREAK**](mci-break.md)
 -   [**MCI\_BREAK\_PARMS**](mci-break-parms.md)
 -   [**MCI\_CONFIGURE**](mci-configure.md)
@@ -91,11 +91,11 @@ This section lists the MCI functions, structures, messages, macros, commands, an
 -   [**freeze**](freeze.md)
 -   [**load**](load.md)
 -   [**MCI\_DGV\_FREEZE\_PARMS**](/windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_rect_parms)
--   [**MCI\_DGV\_LOAD\_PARMS**](https://msdn.microsoft.com/library/Dd743391(v=VS.85).aspx)
--   [**MCI\_DGV\_PAUSE\_PARMS**](https://msdn.microsoft.com/library/Dd743395(v=VS.85).aspx)
--   [**MCI\_DGV\_PLAY\_PARMS**](https://msdn.microsoft.com/library/Dd743396(v=VS.85).aspx)
--   [**MCI\_DGV\_RESUME\_PARMS**](https://msdn.microsoft.com/library/Dd743403(v=VS.85).aspx)
--   [**MCI\_DGV\_STOP\_PARMS**](https://msdn.microsoft.com/library/Dd743411(v=VS.85).aspx)
+-   [**MCI\_DGV\_LOAD\_PARMS**](/previous-versions//dd743391(v=vs.85))
+-   [**MCI\_DGV\_PAUSE\_PARMS**](/previous-versions//dd743395(v=vs.85))
+-   [**MCI\_DGV\_PLAY\_PARMS**](/previous-versions//dd743396(v=vs.85))
+-   [**MCI\_DGV\_RESUME\_PARMS**](/previous-versions//dd743403(v=vs.85))
+-   [**MCI\_DGV\_STOP\_PARMS**](/previous-versions//dd743411(v=vs.85))
 -   [**MCI\_FREEZE**](mci-freeze.md)
 -   [**MCI\_LOAD**](mci-load.md)
 -   [**MCI\_LOAD\_PARMS**](mci-load-parms.md)
@@ -205,7 +205,7 @@ This section lists the MCI functions, structures, messages, macros, commands, an
 
 -   [**MCI\_DGV\_RECORD\_PARMS**](/windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_record_parms)
 -   [**MCI\_DGV\_SAVE\_PARMS**](/windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_save_parmsa)
--   [**MCI\_OVLY\_SAVE\_PARMS**](https://msdn.microsoft.com/library/Dd743447(v=VS.85).aspx)
+-   [**MCI\_OVLY\_SAVE\_PARMS**](/previous-versions//dd743447(v=vs.85))
 -   [**MCI\_RECORD**](mci-record.md)
 -   [**MCI\_RECORD\_PARMS**](mci-record-parms.md)
 -   [**MCI\_SAVE**](mci-save.md)
@@ -233,8 +233,8 @@ This section lists the MCI functions, structures, messages, macros, commands, an
 
 ## Window or Display Rectangles
 
--   [**MCI\_DGV\_PUT\_PARMS**](https://msdn.microsoft.com/library/Dd743397(v=VS.85).aspx)
--   [**MCI\_DGV\_RECT\_PARMS**](https://msdn.microsoft.com/library/Dd743400(v=VS.85).aspx)
+-   [**MCI\_DGV\_PUT\_PARMS**](/previous-versions//dd743397(v=vs.85))
+-   [**MCI\_DGV\_RECT\_PARMS**](/windows/win32/api/digitalv/ns-digitalv-mci_dgv_rect_parms)
 -   [**MCI\_DGV\_WINDOW\_PARMS**](/windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_window_parmsa)
 -   [**MCI\_OVLY\_RECT\_PARMS**](mci-ovly-rect-parms.md)
 -   [**MCI\_OVLY\_WINDOW\_PARMS**](mci-ovly-window-parms.md)
@@ -255,7 +255,3 @@ This section lists the MCI functions, structures, messages, macros, commands, an
  
 
  
-
-
-
-

@@ -47,7 +47,7 @@ This instruction does the following:
 
 In vertex shader 2\_0, nesting calls are not allowed.
 
-In vertex shader 2\_x, the nesting depth is limited by the StaticFlowControlDepth element of the [**D3DVSHADERCAPS2\_0**](https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dvshadercaps2_0) structure. For more information, see [**GetDeviceCaps**](https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getdevicecaps).
+In vertex shader 2\_x, the nesting depth is limited by the StaticFlowControlDepth element of the [**D3DVSHADERCAPS2\_0**](/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dvshadercaps2_0) structure. For more information, see [**GetDeviceCaps**](/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getdevicecaps).
 
 In vertex shader 3\_0, four levels of call nesting are allowed.
 
@@ -67,7 +67,3 @@ If a subroutine is referencing the [Loop Counter Register](dx9-graphics-referenc
  
 
  
-
-
-
-

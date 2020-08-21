@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the .NET Framework to implement security features. For more information, see [Alternatives to Using CAPICOM](alternatives-to-using-capicom.md).\]
 
-Often a group of [*certificates*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) needs to be collected and verified. This would often be done to prepare a group of recipients for an enveloped message. In the example that follows, the certificates in a local store are enumerated and checked for validity. Next, an Active Directory store is opened to retrieve and add to the local store new certificates. The certificates retrieved from the active directory store are checked for validity and, if valid, are added to the local store. Both stores are then closed.
+Often a group of [*certificates*](../secgloss/c-gly.md) needs to be collected and verified. This would often be done to prepare a group of recipients for an enveloped message. In the example that follows, the certificates in a local store are enumerated and checked for validity. Next, an Active Directory store is opened to retrieve and add to the local store new certificates. The certificates retrieved from the active directory store are checked for validity and, if valid, are added to the local store. Both stores are then closed.
 
 On any CAPICOM error, a negative decimal value of **Err.Number** is returned. For more information, see [**CAPICOM\_ERROR\_CODE**](capicom-error-code.md). For information about positive decimal values of **Err.Number**, see Winerror.h.
 
@@ -85,6 +85,3 @@ End Sub
  
 
  
-
-
-

@@ -56,7 +56,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 ## Remarks
 
-This function has no associated import library. To call this function, you must use the [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) and [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) functions to dynamically link to mf.dll.
+This function has no associated import library. To call this function, you must use the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to mf.dll.
 
 ## Requirements
 
@@ -87,7 +87,3 @@ This function has no associated import library. To call this function, you must 
  
 
  
-
-
-
-

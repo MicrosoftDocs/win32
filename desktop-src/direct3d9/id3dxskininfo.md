@@ -22,7 +22,7 @@ Applications use the methods of the ID3DXSkinInfo interface to manipulate bone m
 
 ## Members
 
-The **ID3DXSkinInfo** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXSkinInfo** also has these types of members:
+The **ID3DXSkinInfo** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXSkinInfo** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -97,7 +97,3 @@ typedef struct ID3DXSkinInfo *LPD3DXSKININFO;
  
 
  
-
-
-
-

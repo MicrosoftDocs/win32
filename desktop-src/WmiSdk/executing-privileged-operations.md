@@ -20,7 +20,7 @@ By default, a local user on a computer can read static data from the [*WMI repos
 
 The privilege constants for C++ differ from those that are used by automation languages such as Visual Basic. Scripts must use the value of the constant rather than the name. For more information, see [Executing Privileged Operations Using C++](executing-privileged-operations-using-c-.md) or [Executing Privileged Operations Using VBScript](executing-privileged-operations-using-vbscript.md).
 
-A common cause of access denied errors when using WMI is the lack of an enabled privilege for operations, such as getting all instances of [**Win32\_NTEventlogFile**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)). Without enabling the **SeSecurity** privilege, you cannot access the Security log file.
+A common cause of access denied errors when using WMI is the lack of an enabled privilege for operations, such as getting all instances of [**Win32\_NTEventlogFile**](/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)). Without enabling the **SeSecurity** privilege, you cannot access the Security log file.
 
 The following VBScript code example shows how to set the **SeSecurity** privilege in the moniker string. When used in the moniker, the privilege name in parentheses drops the initial "Se". For more information, see [Constructing a Moniker String](constructing-a-moniker-string.md).
 
@@ -50,6 +50,3 @@ Next
  
 
  
-
-
-

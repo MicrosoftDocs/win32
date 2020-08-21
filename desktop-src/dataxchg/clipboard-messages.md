@@ -19,13 +19,9 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[**WM\_UNDO**](https://docs.microsoft.com/windows/desktop/Controls/wm-undo)
+[**WM\_UNDO**](/windows/desktop/Controls/wm-undo)
 </dt> </dl>
 
  
 
  
-
-
-
-

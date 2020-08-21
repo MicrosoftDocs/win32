@@ -12,10 +12,10 @@ ms.date: 05/31/2018
 
 | Field                                                                | Description                                                                                      |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| [**Center**](boundingorientedbox-center.md)<br/>              | The center of the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/>                 |
-| [**CORNER\_COUNT**](boundingorientedbox-corner-count.md)<br/> | The number of points defining the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/> |
-| [**Extents**](boundingorientedbox-extents.md)<br/>            | The extents of the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/>                |
-| [**Orientation**](boundingorientedbox-orientation.md)<br/>    | The orientation of the [**BoundingOrientedBox**](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx).<br/>            |
+| [**Center**](boundingorientedbox-center.md)<br/>              | The center of the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox).<br/>                 |
+| [**CORNER\_COUNT**](boundingorientedbox-corner-count.md)<br/> | The number of points defining the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox).<br/> |
+| [**Extents**](boundingorientedbox-extents.md)<br/>            | The extents of the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox).<br/>                |
+| [**Orientation**](boundingorientedbox-orientation.md)<br/>    | The orientation of the [**BoundingOrientedBox**](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox).<br/>            |
 
 
 
@@ -25,13 +25,9 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[BoundingOrientedBox](https://msdn.microsoft.com/library/Hh855863(v=VS.85).aspx)
+[BoundingOrientedBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox)
 </dt> </dl>
 
  
 
  
-
-
-
-

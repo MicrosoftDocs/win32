@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Description**
 </dt> <dd>
 
-Removes a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object from the [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+Removes a [**Command**](/windows/desktop/lwef/the-command-object) object from the [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 </dd> <dt>
 
@@ -38,7 +38,7 @@ Removes a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-comm
 
 ## Remarks
 
-When a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object is removed from the collection, it no longer appears when the character's pop-up menu is displayed or in the Commands Window when your client application is input-active.
+When a [**Command**](/windows/desktop/lwef/the-command-object) object is removed from the collection, it no longer appears when the character's pop-up menu is displayed or in the Commands Window when your client application is input-active.
 
 ## See Also
 
@@ -48,7 +48,3 @@ When a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command
  
 
  
-
-
-
-

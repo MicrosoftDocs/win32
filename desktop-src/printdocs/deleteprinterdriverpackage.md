@@ -69,7 +69,7 @@ HRESULT\_CODE(ERROR\_PRINT\_DRIVER\_PACKAGE\_IN\_USE), if the package is being u
 
 Otherwise the **HRESULT** will contain an error code.
 
-For more information about COM error codes, see [Error Handling](https://msdn.microsoft.com/library/ms679692(v=VS.85).aspx).
+For more information about COM error codes, see [Error Handling](../com/error-handling-in-com.md).
 
 ## Remarks
 
@@ -110,9 +110,4 @@ The user must have printer administration privileges.
 </dt> </dl>
 
  
-
- 
-
-
-
 

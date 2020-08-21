@@ -33,12 +33,9 @@ Frequently asked questions for Web Authentication Broker.
 [Web Authentication Broker SDK sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
 </dt> <dt>
 
-[**Windows.Security.Authentication.Web**](https://docs.microsoft.com/uwp/api/Windows.Security.Authentication.Web)
+[**Windows.Security.Authentication.Web**](/uwp/api/Windows.Security.Authentication.Web)
 </dt> </dl>
 
  
 
  
-
-
-

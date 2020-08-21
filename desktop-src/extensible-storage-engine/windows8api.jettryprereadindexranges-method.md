@@ -101,21 +101,21 @@ public static bool JetTryPrereadIndexRanges(
 <!-- end list -->
 
   - rangeIndex  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The index of the first key range in the array to read.
 
 <!-- end list -->
 
   - rangeCount  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The maximum number of key ranges to preread.
 
 <!-- end list -->
 
   - rangesPreread  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Returns the number of keys actually preread.
 
@@ -135,7 +135,7 @@ public static bool JetTryPrereadIndexRanges(
 
 #### Return value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 **\[true\]** if some preread done, **\[false\]** otherwise.  
 
 ## See also
@@ -147,4 +147,3 @@ Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redi
 [Windows8Api members](dn335373\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-

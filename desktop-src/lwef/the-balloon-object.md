@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 
 Microsoft Agent supports textual captioning of [**Speak**](speak-method.md) method using a cartoon word balloon. The [**Think**](think-method.md) method enables you to display text without audio output in a "thought" word balloon.
 
-A character's initial word balloon window defaults are defined and compiled in the Microsoft Agent Character Editor. Once running, the balloon's [**Enabled**](enabled-property.md) and [**Font**](https://www.bing.com/search?q=**Font**) properties may be overridden by the user. If a user changes the word balloon's properties, they affect all characters. Both the [**Speak**](speak-method.md) and [**Think**](think-method.md) word balloons use the same property settings for size. You can access the properties for a character's word balloon through the [**Balloon**](https://docs.microsoft.com/windows/desktop/lwef/the-balloon-object) object, which is a child of the [**Character**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) object.
+A character's initial word balloon window defaults are defined and compiled in the Microsoft Agent Character Editor. Once running, the balloon's [**Enabled**](enabled-property.md) and [**Font**](https://www.bing.com/search?q=**Font**) properties may be overridden by the user. If a user changes the word balloon's properties, they affect all characters. Both the [**Speak**](speak-method.md) and [**Think**](think-method.md) word balloons use the same property settings for size. You can access the properties for a character's word balloon through the [**Balloon**](/windows/desktop/lwef/the-balloon-object) object, which is a child of the [**Character**](/windows/desktop/lwef/the-characters-object) object.
 
-The [**Balloon**](https://docs.microsoft.com/windows/desktop/lwef/the-balloon-object) object supports the following properties:
+The [**Balloon**](/windows/desktop/lwef/the-balloon-object) object supports the following properties:
 
 -   [**BackColor**](backcolor-property.md)
 -   [**BorderColor**](bordercolor-property.md)
@@ -35,7 +35,3 @@ The [**Balloon**](https://docs.microsoft.com/windows/desktop/lwef/the-balloon-ob
  
 
  
-
-
-
-

@@ -14,8 +14,8 @@ ms.date: 05/31/2018
 
 | Topic                                                                            | Description |
 |----------------------------------------------------------------------------------|-------------|
-| [System.Journal.Contacts](https://msdn.microsoft.com/library/Bb787440(v=VS.85).aspx)<br/>   |             |
-| [System.Journal.EntryType](https://msdn.microsoft.com/library/Bb787442(v=VS.85).aspx)<br/> |             |
+| [System.Journal.Contacts](./props-system-journal-contacts.md)<br/>   |             |
+| [System.Journal.EntryType](./props-system-journal-entrytype.md)<br/> |             |
 
 
 
@@ -24,7 +24,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

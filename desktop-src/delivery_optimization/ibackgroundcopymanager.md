@@ -24,7 +24,7 @@ Creates transfer jobs, retrieves an enumerator object that contains the jobs in 
 
 ## Members
 
-The **IBackgroundCopyManager** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IBackgroundCopyManager** also has these types of members:
+The **IBackgroundCopyManager** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IBackgroundCopyManager** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -67,10 +67,4 @@ The **IBackgroundCopyManager** interface has these methods.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

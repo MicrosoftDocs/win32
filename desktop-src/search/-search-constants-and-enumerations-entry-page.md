@@ -22,9 +22,9 @@ This section documents the following constants and enumerations:
 
 [**CatalogStatus**](/windows/desktop/api/Searchapi/ne-searchapi-catalogstatus)
 
-[**CHUNKSTATE**](https://msdn.microsoft.com/library/Bb266508(v=VS.85).aspx)
+[**CHUNKSTATE**](/windows/win32/api/filter/ne-filter-chunkstate)
 
-[**CHUNK\_BREAKTYPE**](https://msdn.microsoft.com/library/Bb266509(v=VS.85).aspx)
+[**CHUNK\_BREAKTYPE**](/windows/win32/api/filter/ne-filter-chunk_breaktype)
 
 [**CLUSION\_REASON**](/windows/win32/api/searchapi/ne-searchapi-clusion_reason)
 
@@ -36,9 +36,9 @@ This section documents the following constants and enumerations:
 
 [**FOLLOW\_FLAGS**](/windows/desktop/api/Searchapi/ne-searchapi-follow_flags)
 
-[**IFILTER\_FLAGS**](https://msdn.microsoft.com/library/Bb266510(v=VS.85).aspx)
+[**IFILTER\_FLAGS**](/windows/win32/api/filter/ne-filter-ifilter_flags)
 
-[**IFILTER\_INIT**](https://msdn.microsoft.com/library/Bb266511(v=VS.85).aspx)
+[**IFILTER\_INIT**](/previous-versions/windows/desktop/legacy/bb266511(v=vs.85))
 
 [**INTERVAL\_LIMIT\_KIND**](/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind)
 
@@ -78,11 +78,8 @@ This section documents the following constants and enumerations:
 
 [**STRUCTURED\_QUERY\_SYNTAX**](/windows/win32/api/structuredquery/ne-structuredquery-structured_query_syntax)
 
-[**WORDREP\_BREAK\_TYPE**](https://msdn.microsoft.com/library/Ff819130(v=VS.85).aspx)
+[**WORDREP\_BREAK\_TYPE**](/previous-versions/windows/desktop/legacy/ff819130(v=vs.85))
 
  
 
  
-
-
-

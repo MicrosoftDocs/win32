@@ -96,7 +96,7 @@ Type: **BOOL**
 
  
 
-**StrRetToStrN** is not exported by name. To use it, you must use [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) and request ordinal 96 from Shell32.dll to obtain a function pointer.
+**StrRetToStrN** is not exported by name. To use it, you must use [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) and request ordinal 96 from Shell32.dll to obtain a function pointer.
 
 If the **uType** member of the structure pointed to by *pStrRet* is set to **STRRET\_WSTR**, the **pOleStr** member of that structure will be freed on return.
 
@@ -127,7 +127,3 @@ Note that this function is exported from Shell32.dll rather than Shlwapi.dll. It
  
 
  
-
-
-
-

@@ -37,7 +37,7 @@ The process whereby bandwidth enables a call to transmit more information at the
 <span id="tapi2.ip_multicast_tapgloss"></span><span id="TAPI2.IP_MULTICAST_TAPGLOSS"></span>**IP Multicast**
 </dt> <dd>
 
-IP multicast is a scheme for sending the same data to several machines simultaneously. A network with multicast-aware routers enabled will be able to convey such information much more rapidly by sending packets just once between routers. For additional information, see [About Rendezvous IP Telephony Conferencing](https://msdn.microsoft.com/library/ms726002(v=VS.85).aspx).
+IP multicast is a scheme for sending the same data to several machines simultaneously. A network with multicast-aware routers enabled will be able to convey such information much more rapidly by sending packets just once between routers. For additional information, see [About Rendezvous IP Telephony Conferencing](./about-rendezvous-ip-telephony-conferencing.md).
 
 </dd> <dt>
 
@@ -51,6 +51,3 @@ See *Integrated Services Digital Network (ISDN)*.
  
 
  
-
-
-

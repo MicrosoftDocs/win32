@@ -8,13 +8,10 @@ ms.date: 05/31/2018
 
 # Using Error Handling
 
-The following topic contains details on using the [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) and [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) functions:
+The following topic contains details on using the [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) and [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) functions:
 
 -   [Retrieving the Last-Error Code](retrieving-the-last-error-code.md)
 
  
 
  
-
-
-

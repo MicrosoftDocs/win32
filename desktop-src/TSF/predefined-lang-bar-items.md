@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Predefined Language Bar Items
 
-The following [**GUID**](https://docs.microsoft.com/windows/desktop/TSF/predefined-lang-bar-items) values identify the predefined language bar items. These values are used with [**GetItem**](/windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemmgr-getitem) to obtain a specific language bar item.
+The following [**GUID**](/windows/desktop/TSF/predefined-lang-bar-items) values identify the predefined language bar items. These values are used with [**GetItem**](/windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemmgr-getitem) to obtain a specific language bar item.
 
 <dl> <dt>
 
@@ -61,14 +61,8 @@ Keyboard type item.
 
 <dl> <dt>
 
-[ITfLangBarItemMgr::GetItem](https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-getitem)
+[ITfLangBarItemMgr::GetItem](/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-getitem)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

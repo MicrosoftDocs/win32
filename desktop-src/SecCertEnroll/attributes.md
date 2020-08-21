@@ -17,7 +17,7 @@ api_location:
 
 # Attributes (Certificate Enrollment API)
 
-Attributes can be added to a certificate request to provide a certification authority (CA) with additional information that it can use when creating and issuing a certificate. Each attribute is a [*Distinguished Encoding Rules*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DER) encoded [*Abstract Syntax Notation One*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ASN.1) structure that contains an object identifier (OID) and zero or more values. Attributes are defined by using interfaces included with the Certificate Enrollment API. The following topics discuss attributes in more detail:
+Attributes can be added to a certificate request to provide a certification authority (CA) with additional information that it can use when creating and issuing a certificate. Each attribute is a [*Distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) (DER) encoded [*Abstract Syntax Notation One*](/windows/desktop/SecGloss/a-gly) (ASN.1) structure that contains an object identifier (OID) and zero or more values. Attributes are defined by using interfaces included with the Certificate Enrollment API. The following topics discuss attributes in more detail:
 
 -   [Supported Attributes](supported-attributes.md)
 -   [Attribute Architecture](attribute-architecture.md)
@@ -28,6 +28,3 @@ Attributes can be added to a certificate request to provide a certification auth
  
 
  
-
-
-

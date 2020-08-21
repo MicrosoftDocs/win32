@@ -40,7 +40,7 @@ FLOAT* D3DXFloat16To32Array(
 *pOut* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to the array of 32-bit floats.
 
@@ -49,7 +49,7 @@ Pointer to the array of 32-bit floats.
 *pIn* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXFLOAT16**](https://msdn.microsoft.com/library/Bb172839(v=VS.85).aspx)\***
+Type: **const [**D3DXFLOAT16**](../direct3d9/d3dxfloat16.md)\***
 
 Pointer to an array of 16-bit floats.
 
@@ -58,7 +58,7 @@ Pointer to an array of 16-bit floats.
 *n* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of elements in the array.
 
@@ -66,7 +66,7 @@ Number of elements in the array.
 
 ## Return value
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of 32-bit floats.
 
@@ -91,7 +91,3 @@ Pointer to an array of 32-bit floats.
  
 
  
-
-
-
-

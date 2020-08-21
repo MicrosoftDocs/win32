@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Certificates and Messages
 
-The base cryptographic functions use [*certificates*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx), and [*low-level message functions*](https://msdn.microsoft.com/library/ms721592(v=VS.85).aspx) and [*simplified message functions*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) also use them. To send or receive messages that incorporate certificates, use low-level message functions.
+The base cryptographic functions use [*certificates*](../secgloss/c-gly.md), and [*low-level message functions*](../secgloss/l-gly.md) and [*simplified message functions*](../secgloss/s-gly.md) also use them. To send or receive messages that incorporate certificates, use low-level message functions.
 
 For examples of using certificates with the low-level message functions see [Example C Program: Encoding and Decoding a Countersigned Message](example-c-program-encoding-and-decoding-a-countersigned-message.md), [Example C Program: Encoding and Decoding a Hashed Message](example-c-program-encoding-and-decoding-a-hashed-message.md).
 
@@ -21,6 +21,3 @@ For information about simplified message functions, see [Simplified Messages](si
  
 
  
-
-
-

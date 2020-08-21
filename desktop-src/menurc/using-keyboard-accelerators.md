@@ -24,7 +24,7 @@ This section covers tasks that are associated with keyboard accelerators.
     -   [Creating the Accelerator Table Resource](#creating-the-accelerator-table-resource)
     -   [Loading the Accelerator Table Resource](#loading-the-accelerator-table-resource)
     -   [Calling the Translate Accelerator Function](#calling-the-translate-accelerator-function)
-    -   [Processing WM\_COMMAND Messages](https://docs.microsoft.com/windows)
+    -   [Processing WM\_COMMAND Messages](/windows)
     -   [Destroying the Accelerator Table Resource](#destroying-the-accelerator-table-resource)
     -   [Creating Accelerators for Font Attributes](#creating-accelerators-for-font-attributes)
 -   [Using an Accelerator Table Created at Run Time](#using-an-accelerator-table-created-at-run-time)
@@ -42,15 +42,15 @@ This section covers the following topics.
 -   [Creating the Accelerator Table Resource](#creating-the-accelerator-table-resource)
 -   [Loading the Accelerator Table Resource](#loading-the-accelerator-table-resource)
 -   [Calling the Translate Accelerator Function](#calling-the-translate-accelerator-function)
--   [Processing WM\_COMMAND Messages](https://docs.microsoft.com/windows)
+-   [Processing WM\_COMMAND Messages](/windows)
 -   [Destroying the Accelerator Table Resource](#destroying-the-accelerator-table-resource)
 -   [Creating Accelerators for Font Attributes](#creating-accelerators-for-font-attributes)
 
 ### Creating the Accelerator Table Resource
 
-You create an accelerator-table resource by using the [ACCELERATORS](https://msdn.microsoft.com/library/Aa380610(v=VS.85).aspx) statement in your application's resource-definition file. You must assign a name or resource identifier to the accelerator table, preferably unlike that of any other resource. The system uses this identifier to load the resource at run time.
+You create an accelerator-table resource by using the [ACCELERATORS](./accelerators-resource.md) statement in your application's resource-definition file. You must assign a name or resource identifier to the accelerator table, preferably unlike that of any other resource. The system uses this identifier to load the resource at run time.
 
-Each accelerator you define requires a separate entry in the accelerator table. In each entry, you define the keystroke (either an ASCII character code or virtual-key code) that generates the accelerator and the accelerator's identifier. You must also specify whether the keystroke must be used in some combination with the ALT, SHIFT, or CTRL keys. For more information about virtual keys, see [Keyboard Input](https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input).
+Each accelerator you define requires a separate entry in the accelerator table. In each entry, you define the keystroke (either an ASCII character code or virtual-key code) that generates the accelerator and the accelerator's identifier. You must also specify whether the keystroke must be used in some combination with the ALT, SHIFT, or CTRL keys. For more information about virtual keys, see [Keyboard Input](/windows/desktop/inputdev/keyboard-input).
 
 An ASCII keystroke is specified either by enclosing the ASCII character in double quotation marks or by using the integer value of the character in combination with the ASCII flag. The following examples show how to define ASCII accelerators.
 
@@ -112,11 +112,11 @@ END
 
 An application loads an accelerator-table resource by calling the [**LoadAccelerators**](/windows/desktop/api/Winuser/nf-winuser-loadacceleratorsa) function and specifying the instance handle to the application whose executable file contains the resource and the name or identifier of the resource. **LoadAccelerators** loads the specified accelerator table into memory and returns the handle to the accelerator table.
 
-An application can load an accelerator-table resource at any time. Usually, a single-threaded application loads its accelerator table before entering its main message loop. An application that uses multiple threads typically loads the accelerator-table resource for a thread before entering the message loop for the thread. An application or thread might also use multiple accelerator tables, each associated with a particular window in the application. Such an application would load the accelerator table for the window each time the user activated the window. For more information about threads, see [Processes and Threads](https://docs.microsoft.com/windows/desktop/ProcThread/processes-and-threads).
+An application can load an accelerator-table resource at any time. Usually, a single-threaded application loads its accelerator table before entering its main message loop. An application that uses multiple threads typically loads the accelerator-table resource for a thread before entering the message loop for the thread. An application or thread might also use multiple accelerator tables, each associated with a particular window in the application. Such an application would load the accelerator table for the window each time the user activated the window. For more information about threads, see [Processes and Threads](/windows/desktop/ProcThread/processes-and-threads).
 
 ### Calling the Translate Accelerator Function
 
-To process accelerators, an application's (or thread's) message loop must contain a call to the [**TranslateAccelerator**](/windows/desktop/api/Winuser/nf-winuser-translateacceleratora) function. **TranslateAccelerator** compares keystrokes to an accelerator table and, if it finds a match, translates the keystrokes into a [**WM\_COMMAND**](wm-command.md) (or [**WM\_SYSCOMMAND**](wm-syscommand.md)) message. The function then sends the message to a window procedure. The parameters of the **TranslateAccelerator** function include the handle to the window that is to receive the **WM\_COMMAND** messages, the handle to the accelerator table used to translate accelerators, and a pointer to an [**MSG**](https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-msg) structure containing a message from the queue. The following example shows how to call **TranslateAccelerator** from within a message loop.
+To process accelerators, an application's (or thread's) message loop must contain a call to the [**TranslateAccelerator**](/windows/desktop/api/Winuser/nf-winuser-translateacceleratora) function. **TranslateAccelerator** compares keystrokes to an accelerator table and, if it finds a match, translates the keystrokes into a [**WM\_COMMAND**](wm-command.md) (or [**WM\_SYSCOMMAND**](wm-syscommand.md)) message. The function then sends the message to a window procedure. The parameters of the **TranslateAccelerator** function include the handle to the window that is to receive the **WM\_COMMAND** messages, the handle to the accelerator table used to translate accelerators, and a pointer to an [**MSG**](/windows/win32/api/winuser/ns-winuser-msg) structure containing a message from the queue. The following example shows how to call **TranslateAccelerator** from within a message loop.
 
 
 ```
@@ -346,7 +346,7 @@ To create the accelerator table, pass a pointer to the array of [**ACCEL**](/win
 
 ### Processing Accelerators
 
-The process of loading and calling accelerators provided by an accelerator table created at run time is the same as processing those provided by an accelerator-table resource. For more information, see [Loading the Accelerator Table Resource](#loading-the-accelerator-table-resource) through [Processing WM\_COMMAND Messages](https://docs.microsoft.com/windows).
+The process of loading and calling accelerators provided by an accelerator table created at run time is the same as processing those provided by an accelerator-table resource. For more information, see [Loading the Accelerator Table Resource](#loading-the-accelerator-table-resource) through [Processing WM\_COMMAND Messages](/windows).
 
 ### Destroying a Run-Time Accelerator Table
 
@@ -780,7 +780,3 @@ BOOL CALLBACK EdAccelProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
  
 
  
-
-
-
-

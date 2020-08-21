@@ -12,7 +12,7 @@ A Microsoft DirectX effect enables the integration of vertex and pixel shaders w
 
 Effects also provide a convenient way to write shaders for different hardware versions. Because different video cards support different functionalities, an application can write several techniques that will run on a variety of devices. This way, if the application is running on the latest and greatest hardware, the application can run the most sophisticated effect technique. On the other hand, less sophisticated effect techniques can automatically be chosen to run on less-expensive or less-capable hardware.
 
-An effect can replace the vertex processing and part of the pixel processing performed by the graphics pipeline. An example of an effect that uses a vertex shader and a pixel shader is in the BasicHLSL Sample. You can get this sample and learn about it from the DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](https://msdn.microsoft.com/library/Ee663275(v=VS.85).aspx).
+An effect can replace the vertex processing and part of the pixel processing performed by the graphics pipeline. An example of an effect that uses a vertex shader and a pixel shader is in the BasicHLSL Sample. You can get this sample and learn about it from the DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](../directx-sdk--august-2009-.md).
 
 For more information about effects, see these topics:
 
@@ -61,6 +61,3 @@ Cloned effects use the same effect pool as the effect from which they are cloned
  
 
  
-
-
-

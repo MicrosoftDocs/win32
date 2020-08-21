@@ -12,12 +12,8 @@ Function return values are similar to **\[out\]**-only parameters because their 
 
 However, using an **\[out\]** parameter instead of a return value for complex data types is recommended. While returning complex data types, the MIDL compiler will generate an /Os mode stub. As a result, all recent error-checking information provided by /robust is lost.
 
-Function return values that are pointer types are allocated by the client stub with a call to [midl\_user\_allocate](https://docs.microsoft.com/windows/desktop/Midl/midl-user-allocate-1). Accordingly, only the unique or full pointer attribute can be applied to a pointer function-return type.
+Function return values that are pointer types are allocated by the client stub with a call to [midl\_user\_allocate](/windows/desktop/Midl/midl-user-allocate-1). Accordingly, only the unique or full pointer attribute can be applied to a pointer function-return type.
 
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Direct3D Surfaces (Direct3D 9)
 
-A surface represents a linear area of display memory and usually resides in the display memory of the display card, although surfaces can exist in system memory. Surfaces are managed by the [**IDirect3DSurface9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx) interface.
+A surface represents a linear area of display memory and usually resides in the display memory of the display card, although surfaces can exist in system memory. Surfaces are managed by the [**IDirect3DSurface9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dsurface9) interface.
 
 -   Front Buffer. A rectangle of memory that is translated by the graphics adapter and displayed on the monitor. In Direct3D an application never writes directly to the front buffer.
 -   Back Buffer. A rectangle of memory that an application can directly write to. The back buffer is never directly displayed on the monitor.
@@ -19,23 +19,23 @@ A surface represents a linear area of display memory and usually resides in the 
 
 Create a surface by calling any of these methods:
 
--   [**CreateDepthStencilSurface**](https://msdn.microsoft.com/library/Bb174356(v=VS.85).aspx)
--   [**CreateOffscreenPlainSurface**](https://msdn.microsoft.com/library/Bb174358(v=VS.85).aspx)
--   [**CreateRenderTarget**](https://msdn.microsoft.com/library/Bb174361(v=VS.85).aspx)
+-   [**CreateDepthStencilSurface**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createdepthstencilsurface)
+-   [**CreateOffscreenPlainSurface**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createoffscreenplainsurface)
+-   [**CreateRenderTarget**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createrendertarget)
 
-Surface formats determine how data for each pixel in surface memory is interpreted. Direct3D uses the [D3DFORMAT](d3dformat.md) member of the [**D3DSURFACE\_DESC**](d3dsurface-desc.md) structure to describe the surface format. You can retrieve the format of an existing surface by calling the [**GetDesc**](https://msdn.microsoft.com/library/Bb205895(v=VS.85).aspx) method.
+Surface formats determine how data for each pixel in surface memory is interpreted. Direct3D uses the [D3DFORMAT](d3dformat.md) member of the [**D3DSURFACE\_DESC**](d3dsurface-desc.md) structure to describe the surface format. You can retrieve the format of an existing surface by calling the [**GetDesc**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-getdesc) method.
 
 Once a surface is created, you can get a pointer to it by calling any of these methods:
 
--   [**GetCubeMapSurface**](https://msdn.microsoft.com/library/Bb174331(v=VS.85).aspx)
--   [**GetBackBuffer**](https://msdn.microsoft.com/library/Bb174379(v=VS.85).aspx)
--   [**GetDepthStencilSurface**](https://msdn.microsoft.com/library/Bb174384(v=VS.85).aspx)
--   [**GetFrontBufferData**](https://msdn.microsoft.com/library/Bb174388(v=VS.85).aspx)
--   [**GetRenderTarget**](https://msdn.microsoft.com/library/Bb174404(v=VS.85).aspx)
--   [**GetBackBuffer**](https://msdn.microsoft.com/library/Bb174379(v=VS.85).aspx)
--   [**GetSurfaceLevel**](https://msdn.microsoft.com/library/Bb205912(v=VS.85).aspx)
+-   [**GetCubeMapSurface**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dcubetexture9-getcubemapsurface)
+-   [**GetBackBuffer**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getbackbuffer)
+-   [**GetDepthStencilSurface**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getdepthstencilsurface)
+-   [**GetFrontBufferData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getfrontbufferdata)
+-   [**GetRenderTarget**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getrendertarget)
+-   [**GetBackBuffer**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getbackbuffer)
+-   [**GetSurfaceLevel**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-getsurfacelevel)
 
-The [**IDirect3DSurface9**](https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx) interface enables you to indirectly access memory through the [**UpdateSurface**](/windows/desktop/api) method. This method allows you to copy a rectangular region of pixels from one **IDirect3DSurface9** interface to another **IDirect3DSurface9** interface. The surface interface also has methods to directly access display memory. For example, you can use the [**LockRect**](/windows/desktop/api) method to lock a rectangular region of display memory. It is important to call [**UnlockRect**](https://msdn.microsoft.com/library/Bb205898(v=VS.85).aspx) after you are done working with the locked rectangular region on the surface.
+The [**IDirect3DSurface9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dsurface9) interface enables you to indirectly access memory through the [**UpdateSurface**](/windows/desktop/api) method. This method allows you to copy a rectangular region of pixels from one **IDirect3DSurface9** interface to another **IDirect3DSurface9** interface. The surface interface also has methods to directly access display memory. For example, you can use the [**LockRect**](/windows/desktop/api) method to lock a rectangular region of display memory. It is important to call [**UnlockRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-unlockrect) after you are done working with the locked rectangular region on the surface.
 
 ## Additional Surface Topics
 
@@ -62,6 +62,3 @@ Find out more about how to use surfaces with any of these topics:
  
 
  
-
-
-

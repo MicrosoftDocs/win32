@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Example C Program: Using CryptEncryptMessage and CryptDecryptMessage
 
-[**CryptEncryptMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencryptmessage) is the only function call necessary to accomplish all of the tasks listed in [Encrypting a Message](https://msdn.microsoft.com/library/Aa375375(v=VS.85).aspx). Initialization of data structures is necessary. The following illustration shows the relationship between those function parameters that point to structures or arrays and their initialized data. This example also decrypts the message using [**CryptDecryptMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdecryptmessage).
+[**CryptEncryptMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencryptmessage) is the only function call necessary to accomplish all of the tasks listed in [Encrypting a Message](../secauthn/encrypting-a-message.md). Initialization of data structures is necessary. The following illustration shows the relationship between those function parameters that point to structures or arrays and their initialized data. This example also decrypts the message using [**CryptDecryptMessage**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdecryptmessage).
 
 ![initialization map for a call to cryptencryptmessage](images/crypenc.png)
 
@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 1.  Get a pointer to the content to be encrypted.
 2.  Determine the size of the content to be encrypted.
 3.  Acquire a handle to a cryptographic provider.
-4.  Open a [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx).
+4.  Open a [*certificate store*](../secgloss/c-gly.md).
 5.  Get the recipient certificate.
 6.  Create the recipient certificate array.
 7.  Initialize the [**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_algorithm_identifier) structure.
@@ -555,6 +555,3 @@ return (pCertContext);
  
 
  
-
-
-

@@ -16,7 +16,7 @@ HRESULT Remove(
 );
 ```
 
-Removes the specified [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) from a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+Removes the specified [**Command**](/windows/desktop/lwef/the-command-object) from a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,11 +25,11 @@ Removes the specified [**Command**](https://docs.microsoft.com/windows/desktop/l
 <span id="dwID"></span><span id="dwid"></span><span id="DWID"></span>*dwID*
 </dt> <dd>
 
-The ID of a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) to remove from the [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection.
+The ID of a [**Command**](/windows/desktop/lwef/the-command-object) to remove from the [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection.
 
 </dd> </dl>
 
-Removing a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) from a [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) collection also removes it from the pop-up menu and the **Voice Commands Window** when your application is input-active.
+Removing a [**Command**](/windows/desktop/lwef/the-command-object) from a [**Commands**](/windows/desktop/lwef/the-commands-collection-object) collection also removes it from the pop-up menu and the **Voice Commands Window** when your application is input-active.
 
 ## See Also
 
@@ -39,7 +39,3 @@ Removing a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-com
  
 
  
-
-
-
-

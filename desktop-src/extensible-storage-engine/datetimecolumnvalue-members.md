@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-A [Guid](https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN) column value.
+A [Guid](/dotnet/api/system.guid) column value.
 
 The [DateTimeColumnValue](dn334238\(v=exchg.10\).md) type exposes the following members.
 
@@ -165,4 +165,3 @@ Top
 [DateTimeColumnValue class](dn334238\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -29,7 +29,7 @@ Represents a Boolean value.
 | MAPI Type    | BOOLEAN                                                                  |
 | ADS Type     | ADSTYPE\_BOOLEAN                                                         |
 | Variant Type | VT\_BOOL                                                                 |
-| SDS Type     | [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) |
+| SDS Type     | [System.Boolean](/dotnet/api/system.boolean) |
 
 
 
@@ -41,13 +41,9 @@ For queries that include attributes of Boolean syntax in a filter, specify "TRUE
 
 <dl> <dt>
 
-[System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)
+[System.Boolean](/dotnet/api/system.boolean)
 </dt> </dl>
 
  
 
  
-
-
-
-

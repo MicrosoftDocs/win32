@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Accelerator Tables
 
-Applications often define keyboard shortcuts, such as CTRL+O for the File Open command. You could implement keyboard shortcuts by handling individual [**WM\_KEYDOWN**](https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown) messages, but accelerator tables provide a better solution that:
+Applications often define keyboard shortcuts, such as CTRL+O for the File Open command. You could implement keyboard shortcuts by handling individual [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown) messages, but accelerator tables provide a better solution that:
 
 -   Requires less coding.
 -   Consolidates all of your shortcuts into one data file.
@@ -21,7 +21,7 @@ An *accelerator table* is a data resource that maps keyboard combinations, such 
 2.  Use the Microsoft Windows Resource Compiler (RC) to compile the resource definition file into a compiled resource (.res) file. The RC compiler is provided with Visual Studio and also the Windows SDK.
 3.  Link the compiled resource file to the binary file.
 
-These steps are roughly equivalent to the compile/link process for code files. Visual Studio provides a set of resource editors that make it easy to create and modify resources. (These tools are not available in the Express editions of Visual Studio.) But an .rc file is simply a text file, and the syntax is documented on MSDN, so it is possible to create an .rc file using any text editor. For more information, see [About Resource Files](https://docs.microsoft.com/windows/desktop/menurc/about-resource-files).
+These steps are roughly equivalent to the compile/link process for code files. Visual Studio provides a set of resource editors that make it easy to create and modify resources. (These tools are not available in the Express editions of Visual Studio.) But an .rc file is simply a text file, and the syntax is documented on MSDN, so it is possible to create an .rc file using any text editor. For more information, see [About Resource Files](/windows/desktop/menurc/about-resource-files).
 
 ## Defining an Accelerator Table
 
@@ -84,7 +84,7 @@ If you use ASCII characters for shortcuts, then a lowercase character will be a 
 
 ## Loading the Accelerator Table
 
-The resource for the accelerator table must be loaded before the program can use it. To load an accelerator table, call the [**LoadAccelerators**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa) function.
+The resource for the accelerator table must be loaded before the program can use it. To load an accelerator table, call the [**LoadAccelerators**](/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa) function.
 
 
 ```C++
@@ -93,13 +93,13 @@ The resource for the accelerator table must be loaded before the program can use
 
 
 
-Call this function before you enter the message loop. The first parameter is the handle to the module. (This parameter is passed to your [**WinMain**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-winmain) function. For details, see [WinMain: The Application Entry Point](winmain--the-application-entry-point.md).) The second parameter is the resource identifier. The function returns a handle to the resource. Recall that a handle is an opaque type that refers to an object managed by the system. If the function fails, it returns **NULL**.
+Call this function before you enter the message loop. The first parameter is the handle to the module. (This parameter is passed to your [**WinMain**](/windows/desktop/api/winbase/nf-winbase-winmain) function. For details, see [WinMain: The Application Entry Point](winmain--the-application-entry-point.md).) The second parameter is the resource identifier. The function returns a handle to the resource. Recall that a handle is an opaque type that refers to an object managed by the system. If the function fails, it returns **NULL**.
 
-You can release an accelerator table by calling [**DestroyAcceleratorTable**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyacceleratortable). However, the system automatically releases the table when the program exits, so you only need to call this function if you are replacing one table with another. There is an interesting example of this in the topic [Creating User Editable Accelerators](https://docs.microsoft.com/windows/desktop/menurc/using-keyboard-accelerators).
+You can release an accelerator table by calling [**DestroyAcceleratorTable**](/windows/desktop/api/winuser/nf-winuser-destroyacceleratortable). However, the system automatically releases the table when the program exits, so you only need to call this function if you are replacing one table with another. There is an interesting example of this in the topic [Creating User Editable Accelerators](/windows/desktop/menurc/using-keyboard-accelerators).
 
 ## Translating Key Strokes into Commands
 
-An accelerator table works by translating key strokes into [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) messages. The *wParam* parameter of **WM\_COMMAND** contains the numeric identifier of the command. For example, using the table shown previously, the key stroke CTRL+M is translated into a **WM\_COMMAND** message with the value `ID_TOGGLE_MODE`. To make this happen, change your message loop to the following:
+An accelerator table works by translating key strokes into [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) messages. The *wParam* parameter of **WM\_COMMAND** contains the numeric identifier of the command. For example, using the table shown previously, the key stroke CTRL+M is translated into a **WM\_COMMAND** message with the value `ID_TOGGLE_MODE`. To make this happen, change your message loop to the following:
 
 
 ```C++
@@ -116,9 +116,9 @@ An accelerator table works by translating key strokes into [**WM\_COMMAND**](htt
 
 
 
-This code adds a call to the [**TranslateAccelerator**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translateacceleratora) function inside the message loop. The **TranslateAccelerator** function examines each window message, looking for key-down messages. If the user presses one of the key combinations listed in the accelerator table, **TranslateAccelerator** sends a [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message to the window. The function sends **WM\_COMMAND** by directly invoking the window procedure. When **TranslateAccelerator** successfully translates a key stroke, the function returns a non-zero value, which means you should skip the normal processing for the message. Otherwise, **TranslateAccelerator** returns zero. In that case, pass the window message to [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) and [**DispatchMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage), as normal.
+This code adds a call to the [**TranslateAccelerator**](/windows/desktop/api/winuser/nf-winuser-translateacceleratora) function inside the message loop. The **TranslateAccelerator** function examines each window message, looking for key-down messages. If the user presses one of the key combinations listed in the accelerator table, **TranslateAccelerator** sends a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message to the window. The function sends **WM\_COMMAND** by directly invoking the window procedure. When **TranslateAccelerator** successfully translates a key stroke, the function returns a non-zero value, which means you should skip the normal processing for the message. Otherwise, **TranslateAccelerator** returns zero. In that case, pass the window message to [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) and [**DispatchMessage**](/windows/desktop/api/winuser/nf-winuser-dispatchmessage), as normal.
 
-Here is how the drawing program might handle the [**WM\_COMMAND**](https://docs.microsoft.com/windows/desktop/menurc/wm-command) message:
+Here is how the drawing program might handle the [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message:
 
 
 ```C++
@@ -159,7 +159,3 @@ This code assumes that `SetMode` is a function defined by the application to swi
  
 
  
-
-
-
-

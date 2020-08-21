@@ -36,15 +36,12 @@ When software applications are ready to be tested, go to the Microsoft Connect W
 ## Links to Other Resources
 
 -   [Windows 7 Logo Program Overview](https://msdn.microsoft.com/windows/dd203105.aspx)
--   [Windows Application Compatibility Resources](https://msdn.microsoft.com/windows/aa904987.aspx)
--   [Microsoft Connect Windows 7 Software Logo Program page](https://docs.microsoft.com/collaborate/connect-redirect?SiteID=831)
--   [Windows 7 Software Logo Requirements](https://msdn.microsoft.com/library/windows/hardware/hh749017.aspx)
+-   [Windows Application Compatibility Resources](/windows/apps/desktop/)
+-   [Microsoft Connect Windows 7 Software Logo Program page](/collaborate/connect-redirect?SiteID=831)
+-   [Windows 7 Software Logo Requirements](/previous-versions/windows/hardware/hck/dn641155(v=vs.85))
 -   [Windows 7 Software Logo Toolkit - Beta 2](https://www.microsoft.com/windowsserver2008/en/us/isv.aspx)
 -   **Client Logo Mailbox:** <SWLogo@Microsoft.com>
 
  
 
  
-
-
-

@@ -26,7 +26,7 @@ Request to cancel generating a shader trace.
 
 ## Members
 
-The **IDebugShaderCancel** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDebugShaderCancel** also has these types of members:
+The **IDebugShaderCancel** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDebugShaderCancel** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IDebugShaderCancel** interface has these methods.
  
 
  
-
-
-

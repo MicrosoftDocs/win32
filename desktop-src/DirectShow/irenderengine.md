@@ -39,7 +39,7 @@ Although an application can create a filter graph and pass it to a render engine
 
 ## Members
 
-The **IRenderEngine** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IRenderEngine** also has these types of members:
+The **IRenderEngine** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IRenderEngine** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -110,7 +110,3 @@ The **IRenderEngine** interface has these methods.
  
 
  
-
-
-
-

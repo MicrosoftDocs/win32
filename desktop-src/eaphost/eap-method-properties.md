@@ -60,7 +60,7 @@ The properties supported by EAP methods are listed. Properties are stored as reg
 
 
 
-The method allows the cipher suite to be negotiated for the purpose of data encryption. Windows Server 2008 supports the following 3DES [cipher suites](https://docs.microsoft.com/windows/desktop/SecAuthN/tls-cipher-suites):
+The method allows the cipher suite to be negotiated for the purpose of data encryption. Windows Server 2008 supports the following 3DES [cipher suites](/windows/desktop/SecAuthN/tls-cipher-suites):
 
 -   TLS\_RSA\_WITH\_3DES\_EDE\_CBC\_SHA (TLS & SSL 3)
 -   TLS\_DHE\_DSS\_WITH\_3DES\_EDE\_CBC\_SHA (TLS & SSL 3)
@@ -458,10 +458,4 @@ Reserved. Not used.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

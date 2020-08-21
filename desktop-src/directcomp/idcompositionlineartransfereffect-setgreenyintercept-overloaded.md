@@ -24,8 +24,8 @@ Sets the Y-intercept of the linear function for the green channel.
 
 | Method                                                                                                           | Description                                                                   |
 |:-----------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
-| [**SetGreenYIntercept**](https://msdn.microsoft.com/library/Dn919756(v=VS.85).aspx)                               | Sets the Y-intercept of the linear function for the green channel.<br/> |
-| [**SetGreenYIntercept (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919757(v=VS.85).aspx) | Sets the Y-intercept of the linear function for the green channel.<br/> |
+| [**SetGreenYIntercept**](/windows/win32/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setgreenyintercept(float))                               | Sets the Y-intercept of the linear function for the green channel.<br/> |
+| [**SetGreenYIntercept (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setgreenyintercept(idcompositionanimation)) | Sets the Y-intercept of the linear function for the green channel.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Sets the Y-intercept of the linear function for the green channel.
 
 <dl> <dt>
 
-[**IDCompositionLinearTransferEffect**](https://msdn.microsoft.com/library/Dn919741(v=VS.85).aspx)
+[**IDCompositionLinearTransferEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionlineartransfereffect)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

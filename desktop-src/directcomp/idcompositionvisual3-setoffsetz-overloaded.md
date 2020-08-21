@@ -24,8 +24,8 @@ Sets the value of the visual's OffsetZ property.
 
 | Method                                                                            | Description                                                 |
 |:----------------------------------------------------------------------------------|:------------------------------------------------------------|
-| [**SetOffsetZ(float)**](https://msdn.microsoft.com/library/Mt589905(v=VS.85).aspx)                      | Sets the value of the visual's OffsetZ property.<br/> |
-| [**SetOffsetZ(IDCompositionAnimation\*)**](https://msdn.microsoft.com/library/Mt589906(v=VS.85).aspx) | Animates the value of the OffsetZ property.<br/>      |
+| [**SetOffsetZ(float)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual3-setoffsetz(float))                      | Sets the value of the visual's OffsetZ property.<br/> |
+| [**SetOffsetZ(IDCompositionAnimation\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual3-setoffsetz(idcompositionanimation)) | Animates the value of the OffsetZ property.<br/>      |
 
 
 
@@ -43,14 +43,9 @@ Sets the value of the visual's OffsetZ property.
 
 <dl> <dt>
 
-[**IDCompositionVisual3**](https://msdn.microsoft.com/library/Dn904490(v=VS.85).aspx)
+[**IDCompositionVisual3**](/windows/win32/api/dcomp/nn-dcomp-idcompositionvisual3)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

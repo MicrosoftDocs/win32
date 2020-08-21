@@ -40,7 +40,7 @@ HRESULT D3DXRectPatchSize(
 *pfNumSegs* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](../winprog/windows-data-types.md)\***
 
 Number of segments per edge to tessellate.
 
@@ -49,7 +49,7 @@ Number of segments per edge to tessellate.
 *pdwTriangles* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to a DWORD that contains the number of triangles in the patch.
 
@@ -58,7 +58,7 @@ Pointer to a DWORD that contains the number of triangles in the patch.
 *pwdVertices* \[out\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to a DWORD that contains the number of vertices in the patch.
 
@@ -94,7 +94,3 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
  
 
  
-
-
-
-

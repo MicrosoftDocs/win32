@@ -74,7 +74,7 @@ The following table contains an alphabetical listing of all the ADSI interfaces.
 | [**IADsSession**](/windows/desktop/api/Iads/nn-iads-iadssession)                             | Dynamic object              |
 | [**IADsSyntax**](/windows/desktop/api/Iads/nn-iads-iadssyntax)                               | Schema                      |
 | [**IADsTimestamp**](/windows/desktop/api/Iads/nn-iads-iadstimestamp)                         | Data Type                   |
-| [**IADsTsUserEx**](https://docs.microsoft.com/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex)                      | Terminal Services user data |
+| [**IADsTsUserEx**](/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex)                      | Terminal Services user data |
 | [**IADsTypedName**](/windows/desktop/api/Iads/nn-iads-iadstypedname)                         | Data Type                   |
 | [**IADsUser**](/windows/desktop/api/Iads/nn-iads-iadsuser)                                   | Persistent object           |
 | [**IADsWinNTSystemInfo**](/windows/desktop/api/Iads/nn-iads-iadswinntsysteminfo)             | Utility                     |
@@ -91,7 +91,3 @@ The following table contains an alphabetical listing of all the ADSI interfaces.
  
 
  
-
-
-
-

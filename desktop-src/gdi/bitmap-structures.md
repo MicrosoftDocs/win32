@@ -15,7 +15,7 @@ The following structures are used with bitmaps:
 -   [**BITMAPCOREINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapcoreinfo)
 -   [**BITMAPFILEHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader)
 -   [**BITMAPINFO**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo)
--   [**BITMAPINFOHEADER**](https://msdn.microsoft.com/library/Dd183376(v=VS.85).aspx)
+-   [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85))
 -   [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)
 -   [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header)
 -   [**BLENDFUNCTION**](/windows/desktop/api/Wingdi/ns-wingdi-blendfunction)
@@ -25,12 +25,9 @@ The following structures are used with bitmaps:
 -   [**GRADIENT\_TRIANGLE**](/windows/desktop/api/Wingdi/ns-wingdi-gradient_triangle)
 -   [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad)
 -   [**RGBTRIPLE**](/windows/win32/api/wingdi/ns-wingdi-rgbtriple)
--   [**SIZE**](https://msdn.microsoft.com/library/Dd145106(v=VS.85).aspx)
+-   [**SIZE**](/previous-versions//dd145106(v=vs.85))
 -   [**TRIVERTEX**](/windows/desktop/api/Wingdi/ns-wingdi-trivertex)
 
  
 
  
-
-
-

@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # IVMTask::IsCancelable property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Determines whether the task can be canceled.
 
@@ -77,10 +77,4 @@ HRESULT get_IsCancelable(
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

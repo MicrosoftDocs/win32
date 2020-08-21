@@ -17,7 +17,7 @@ A system can contain multiple versions of the same dynamic-link library (DLL). A
 -   [Search Order for Desktop Applications](#search-order-for-desktop-applications)
     -   [Standard Search Order for Desktop Applications](#standard-search-order-for-desktop-applications)
     -   [Alternate Search Order for Desktop Applications](#alternate-search-order-for-desktop-applications)
-    -   [Search Order Using **LOAD\_LIBRARY\_SEARCH** Flags](https://docs.microsoft.com/windows)
+    -   [Search Order Using **LOAD\_LIBRARY\_SEARCH** Flags](/windows)
 -   [Related topics](#related-topics)
 
 ## Factors That Affect Searching
@@ -61,7 +61,7 @@ If a module changes the standard search order by calling the [**LoadLibraryEx**]
 
 ## Search Order for Desktop Applications
 
-Desktop applications can control the location from which a DLL is loaded by specifying a full path, using [DLL redirection](dynamic-link-library-redirection.md), or by using a [manifest](https://docs.microsoft.com/windows/desktop/SbsCs/manifests). If none of these methods are used, the system searches for the DLL at load time as described in this section.
+Desktop applications can control the location from which a DLL is loaded by specifying a full path, using [DLL redirection](dynamic-link-library-redirection.md), or by using a [manifest](/windows/desktop/SbsCs/manifests). If none of these methods are used, the system searches for the DLL at load time as described in this section.
 
 Before the system searches for a DLL, it checks the following:
 
@@ -79,16 +79,16 @@ If a DLL has dependencies, the system searches for the dependent DLLs as if they
 
 The standard DLL search order used by the system depends on whether safe DLL search mode is enabled or disabled. Safe DLL search mode places the user's current directory later in the search order.
 
-Safe DLL search mode is enabled by default. To disable this feature, create the **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager**\\**SafeDllSearchMode** registry value and set it to 0. Calling the [**SetDllDirectory**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setdlldirectorya) function effectively disables **SafeDllSearchMode** while the specified directory is in the search path and changes the search order as described in this topic.
+Safe DLL search mode is enabled by default. To disable this feature, create the **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager**\\**SafeDllSearchMode** registry value and set it to 0. Calling the [**SetDllDirectory**](/windows/desktop/api/winbase/nf-winbase-setdlldirectorya) function effectively disables **SafeDllSearchMode** while the specified directory is in the search path and changes the search order as described in this topic.
 
 **Windows XP:** Safe DLL search mode is disabled by default. To enable this feature, create the **SafeDllSearchMode** registry value and set it to 1. Safe DLL search mode is enabled by default starting with Windows XP with Service Pack 2 (SP2).
 
 If **SafeDllSearchMode** is enabled, the search order is as follows:
 
 1.  The directory from which the application loaded.
-2.  The system directory. Use the [**GetSystemDirectory**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) function to get the path of this directory.
+2.  The system directory. Use the [**GetSystemDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) function to get the path of this directory.
 3.  The 16-bit system directory. There is no function that obtains the path of this directory, but it is searched.
-4.  The Windows directory. Use the [**GetWindowsDirectory**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) function to get the path of this directory.
+4.  The Windows directory. Use the [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) function to get the path of this directory.
 5.  The current directory.
 6.  The directories that are listed in the PATH environment variable. Note that this does not include the per-application path specified by the **App Paths** registry key. The **App Paths** key is not used when computing the DLL search path.
 
@@ -96,9 +96,9 @@ If **SafeDllSearchMode** is disabled, the search order is as follows:
 
 1.  The directory from which the application loaded.
 2.  The current directory.
-3.  The system directory. Use the [**GetSystemDirectory**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) function to get the path of this directory.
+3.  The system directory. Use the [**GetSystemDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) function to get the path of this directory.
 4.  The 16-bit system directory. There is no function that obtains the path of this directory, but it is searched.
-5.  The Windows directory. Use the [**GetWindowsDirectory**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) function to get the path of this directory.
+5.  The Windows directory. Use the [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) function to get the path of this directory.
 6.  The directories that are listed in the PATH environment variable. Note that this does not include the per-application path specified by the **App Paths** registry key. The **App Paths** key is not used when computing the DLL search path.
 
 ### Alternate Search Order for Desktop Applications
@@ -118,9 +118,9 @@ Note that the standard search strategy and the alternate search strategy specifi
 If **SafeDllSearchMode** is enabled, the alternate search order is as follows:
 
 1.  The directory specified by *lpFileName*.
-2.  The system directory. Use the [**GetSystemDirectory**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) function to get the path of this directory.
+2.  The system directory. Use the [**GetSystemDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) function to get the path of this directory.
 3.  The 16-bit system directory. There is no function that obtains the path of this directory, but it is searched.
-4.  The Windows directory. Use the [**GetWindowsDirectory**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) function to get the path of this directory.
+4.  The Windows directory. Use the [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) function to get the path of this directory.
 5.  The current directory.
 6.  The directories that are listed in the PATH environment variable. Note that this does not include the per-application path specified by the **App Paths** registry key. The **App Paths** key is not used when computing the DLL search path.
 
@@ -128,18 +128,18 @@ If **SafeDllSearchMode** is disabled, the alternate search order is as follows:
 
 1.  The directory specified by *lpFileName*.
 2.  The current directory.
-3.  The system directory. Use the [**GetSystemDirectory**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) function to get the path of this directory.
+3.  The system directory. Use the [**GetSystemDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) function to get the path of this directory.
 4.  The 16-bit system directory. There is no function that obtains the path of this directory, but it is searched.
-5.  The Windows directory. Use the [**GetWindowsDirectory**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) function to get the path of this directory.
+5.  The Windows directory. Use the [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) function to get the path of this directory.
 6.  The directories that are listed in the PATH environment variable. Note that this does not include the per-application path specified by the **App Paths** registry key. The **App Paths** key is not used when computing the DLL search path.
 
 The [**SetDllDirectory**](/windows/desktop/api/Winbase/nf-winbase-setdlldirectorya) function supports an alternate search order if the *lpPathName* parameter specifies a path. The alternate search order is as follows:
 
 1.  The directory from which the application loaded.
 2.  The directory specified by the *lpPathName* parameter of [**SetDllDirectory**](/windows/desktop/api/Winbase/nf-winbase-setdlldirectorya).
-3.  The system directory. Use the [**GetSystemDirectory**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) function to get the path of this directory. The name of this directory is System32.
+3.  The system directory. Use the [**GetSystemDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) function to get the path of this directory. The name of this directory is System32.
 4.  The 16-bit system directory. There is no function that obtains the path of this directory, but it is searched. The name of this directory is System.
-5.  The Windows directory. Use the [**GetWindowsDirectory**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) function to get the path of this directory.
+5.  The Windows directory. Use the [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) function to get the path of this directory.
 6.  The directories that are listed in the PATH environment variable. Note that this does not include the per-application path specified by the **App Paths** registry key. The **App Paths** key is not used when computing the DLL search path.
 
 If the *lpPathName* parameter is an empty string, the call removes the current directory from the search order.
@@ -170,7 +170,7 @@ If the application does not call [**LoadLibraryEx**](/windows/desktop/api/LibLoa
 [**AddDllDirectory**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-adddlldirectory)
 </dt> <dt>
 
-[Application Registration](https://docs.microsoft.com/windows/desktop/shell/app-registration)
+[Application Registration](/windows/desktop/shell/app-registration)
 </dt> <dt>
 
 [Dynamic-Link Library Redirection](dynamic-link-library-redirection.md)
@@ -179,7 +179,7 @@ If the application does not call [**LoadLibraryEx**](/windows/desktop/api/LibLoa
 [Dynamic-Link Library Security](dynamic-link-library-security.md)
 </dt> <dt>
 
-[**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx)
+[**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya)
 </dt> <dt>
 
 [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa)
@@ -194,12 +194,9 @@ If the application does not call [**LoadLibraryEx**](/windows/desktop/api/LibLoa
 [**SetDllDirectory**](/windows/desktop/api/Winbase/nf-winbase-setdlldirectorya)
 </dt> <dt>
 
-[Side-by-side Components](https://docs.microsoft.com/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal)
+[Side-by-side Components](/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal)
 </dt> </dl>
 
  
 
  
-
-
-

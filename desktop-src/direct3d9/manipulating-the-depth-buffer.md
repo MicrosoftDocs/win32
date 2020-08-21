@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Manipulating the Depth Buffer (Direct3D 9)
 
-Depth buffers are associated with the device. Applications are required to move the depth buffers when they set render targets. The [**IDirect3DDevice9::GetDepthStencilSurface**](/windows/desktop/api) and [**IDirect3DDevice9::SetDepthStencilSurface**](https://msdn.microsoft.com/library/Bb174431(v=VS.85).aspx) methods are used to manipulate depth buffers.
+Depth buffers are associated with the device. Applications are required to move the depth buffers when they set render targets. The [**IDirect3DDevice9::GetDepthStencilSurface**](/windows/desktop/api) and [**IDirect3DDevice9::SetDepthStencilSurface**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setdepthstencilsurface) methods are used to manipulate depth buffers.
 
 ## Related topics
 
@@ -20,6 +20,3 @@ Depth buffers are associated with the device. Applications are required to move 
  
 
  
-
-
-

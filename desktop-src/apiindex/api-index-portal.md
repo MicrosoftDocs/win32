@@ -17,7 +17,7 @@ The Win32 API (also called the Windows API) is the native platform for Windows a
 
 * [Win32 API reference by feature](windows-api-list.md)
 * [Win32 API reference by header](/windows/win32/api/)
-* [Win32 and COM APIs for UWP apps](https://docs.microsoft.com/uwp/win32-and-com/win32-and-com-for-uwp-apps)
+* [Win32 and COM APIs for UWP apps](/uwp/win32-and-com/win32-and-com-for-uwp-apps)
 * [Windows umbrella libraries](windows-umbrella-libraries.md)
 * [Windows API Sets](windows-apisets.md)
 
@@ -25,11 +25,11 @@ The Win32 API (also called the Windows API) is the native platform for Windows a
 
 The UWP is the leading edge platform for Windows 10 apps and games, including desktop apps. The UWP API is suitable for both native C++ and managed desktop apps that require a sophisticated UI, styles customization, and graphics-intensive scenarios.
 
-* [UWP API reference](https://docs.microsoft.com/uwp/api/)
+* [UWP API reference](/uwp/api/)
 * [UWP APIs callable from Win32, WPF, and Windows Forms desktop apps](uwp-apis-callable-from-a-classic-desktop-app.md)
 
 ## .NET
 
 The .NET Framework and .NET Core class libraries provide access to Windows system and UI features for managed desktop apps, including WPF and Windows Forms apps.
 
-* [.NET API](https://docs.microsoft.com/dotnet/api/index)
+* [.NET API](/dotnet/api/index)

@@ -45,7 +45,7 @@ TraceLogging is the new Windows 10 event tracing framework for user-mode applica
 </ul>
 <span class="underline">For managed code (Microsoft .NET Framework) developers</span><br/>
 <ul>
-<li>The <a href="https://docs.microsoft.com/dotnet/api/system.diagnostics.tracing.eventsource?redirectedfrom=MSDN">EventSource</a> class that shipped with previous versions of the .NET Framework already supports writing ETW events without the need for a manifest. However, developers were required to use EventSource as a base class and add attributes and methods to the derived class that were turned into an ETW manifest automatically. Now, developers do not have to derive from EventSource and can instead use EventSource directly to log self-describing events that do not require a manifest.</li>
+<li>The <a href="/dotnet/api/system.diagnostics.tracing.eventsource">EventSource</a> class that shipped with previous versions of the .NET Framework already supports writing ETW events without the need for a manifest. However, developers were required to use EventSource as a base class and add attributes and methods to the derived class that were turned into an ETW manifest automatically. Now, developers do not have to derive from EventSource and can instead use EventSource directly to log self-describing events that do not require a manifest.</li>
 </ul>
 <span class="underline">For C/C++ developers</span><br/>
 <ul>
@@ -64,10 +64,4 @@ TraceLogging is the new Windows 10 event tracing framework for user-mode applica
 TraceLogging is designed for use by user-mode application developers and kernel-mode driver developers who want to add tracing to their code.
 
  
-
- 
-
-
-
-
 

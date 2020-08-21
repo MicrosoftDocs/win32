@@ -52,13 +52,9 @@ This function returns **FALSE** if the Terminal Server is in INSTALL mode, **TRU
 
 <dl> <dt>
 
-[**VerifyVersionInfo**](https://msdn.microsoft.com/library/ms725492(v=VS.85).aspx)
+[**VerifyVersionInfo**](/windows/win32/api/winbase/nf-winbase-verifyversioninfoa)
 </dt> </dl>
 
  
 
  
-
-
-
-

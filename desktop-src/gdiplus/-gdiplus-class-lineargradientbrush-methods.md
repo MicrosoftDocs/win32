@@ -18,8 +18,8 @@ This topic lists the methods of the [**LinearGradientBrush**](/windows/desktop/a
 -   [**GetInterpolationColors**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getinterpolationcolors)
 -   [**GetLastStatus**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-getlaststatus)
 -   [**GetLinearColors**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getlinearcolors)
--   [**GetRectangle(Rect\*)**](https://msdn.microsoft.com/library/ms535351(v=VS.85).aspx)
--   [**GetRectangle(RectF\*)**](https://msdn.microsoft.com/library/ms535352(v=VS.85).aspx)
+-   [**GetRectangle(Rect\*)**](/windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getrectangle(outrect))
+-   [**GetRectangle(RectF\*)**](/previous-versions//ms535352(v=vs.85))
 -   [**GetTransform**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-gettransform)
 -   [**GetType**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-gettype)
 -   [**GetWrapMode**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getwrapmode)
@@ -40,6 +40,3 @@ This topic lists the methods of the [**LinearGradientBrush**](/windows/desktop/a
  
 
  
-
-
-

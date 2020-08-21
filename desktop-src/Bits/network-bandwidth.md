@@ -18,7 +18,7 @@ This can be an issue if the client has a fast network adapter but the full inter
 
 A gateway device that supports counters can eliminate this issue because BITS would measure the traffic on the slow link and use the bandwidth appropriately. If the device does not support counters, you can reduce the impact of this type of connection, by using the **MaxInternetBandwidth** policy to limit the bandwidth that BITS uses on the client computer. For details, see [Group Policies](group-policies.md).
 
-If the computer contains multiple network interfaces, such as a modem, virtual private network (VPN), and several network interface cards (NIC), BITS calls the IP Helper function, [**GetBestInterfaceEx**](https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestinterfaceex), to determine the interface that has the best route to the specified IP address. BITS will then monitor bandwidth usage on that interface.
+If the computer contains multiple network interfaces, such as a modem, virtual private network (VPN), and several network interface cards (NIC), BITS calls the IP Helper function, [**GetBestInterfaceEx**](/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestinterfaceex), to determine the interface that has the best route to the specified IP address. BITS will then monitor bandwidth usage on that interface.
 
 ## Using an Internet Gateway Device (IGD) to Determine Usage
 

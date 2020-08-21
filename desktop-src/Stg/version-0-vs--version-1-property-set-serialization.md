@@ -12,7 +12,7 @@ There are two versions of the property set serialization format. The original sp
 
 The following items identify the differences between version 0 and version 1 property set serialization formats.
 
--   Support for new **VARTYPE** values. For more information about **VARTYPE** values and how to use them, see the topic [IDispatch Data Types and Structures]( http://msdn.microsoft.com/en-us/library/ms221600.aspx) and the [**PROPVARIANT**](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx) structure.
+-   Support for new **VARTYPE** values. For more information about **VARTYPE** values and how to use them, see the topic [IDispatch Data Types and Structures]( /previous-versions/ms221600(v=vs.100)) and the [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structure.
 
     The following **VARTYPE** values are not supported in version 0 property sets, but are supported in version 1:
 
@@ -26,7 +26,7 @@ The following items identify the differences between version 0 and version 1 pro
 
     VT\_DECIMAL
 
-    Additionally, SafeArrays can be serialized in a property set. The presence of a SafeArray is indicated by the VT\_ARRAY bit combined, using an **OR** operation, with the array elements in the **vt** member of the [**PROPVARIANT**](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx) structure. For example, a SafeArray of 4-byte signed integers has a type of VT\_ARRAY \| VT\_I4.
+    Additionally, SafeArrays can be serialized in a property set. The presence of a SafeArray is indicated by the VT\_ARRAY bit combined, using an **OR** operation, with the array elements in the **vt** member of the [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structure. For example, a SafeArray of 4-byte signed integers has a type of VT\_ARRAY \| VT\_I4.
 
     The following element types are valid for a SafeArray in a serialized property set:
 
@@ -44,13 +44,13 @@ The following items identify the differences between version 0 and version 1 pro
 
  
 
-When the VT\_VARIANT data type is specified, it indicates that the SafeArray itself holds [**PROPVARIANT**](https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx) structures. The types for these elements must be from the preceding list, except they cannot contain nested VT\_VARIANT types.
+When the VT\_VARIANT data type is specified, it indicates that the SafeArray itself holds [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structures. The types for these elements must be from the preceding list, except they cannot contain nested VT\_VARIANT types.
 
 Note that implementations of [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) must be able to recover gracefully by returning an error when a new type is encountered; for example, VARENUM types.
 
 -   Case sensitive property names. Property names, for example those specified in the [**IPropertyStorage::WritePropertyNames**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writepropertynames) method, are not case sensitive in version 0 property sets. In version 1 property sets, property names can be case-sensitive depending on the value of the new Behavior property.
 
-    The Behavior property is [Property ID 0x80000003](https://docs.microsoft.com/windows/desktop/Stg/reserved-property-identifiers) with a type of VT\_UI4. If the lowest bit of this value is set, the property set names are case sensitive. Set the PROPSETFLAG\_CASE\_SENSITIVE flag in the *grfFlags* parameter of the [**IPropertySetStorage::Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) method to specify a case-sensitive property set.
+    The Behavior property is [Property ID 0x80000003](/windows/desktop/Stg/reserved-property-identifiers) with a type of VT\_UI4. If the lowest bit of this value is set, the property set names are case sensitive. Set the PROPSETFLAG\_CASE\_SENSITIVE flag in the *grfFlags* parameter of the [**IPropertySetStorage::Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) method to specify a case-sensitive property set.
 
 -   Long property names. Property names for version 0 property sets must be less than or equal to 256 characters, including the string terminator, for property sets in the Unicode code page. If not in the Unicode code page, they must be less than 256 bytes. Version 1 property sets, on the other hand, can have property names of unlimited length, although they are still limited by the overall property set size limit of 256 kilobytes (KB).
 
@@ -59,7 +59,3 @@ It is recommended that implementations of [**IPropertyStorage**](/windows/deskto
  
 
  
-
-
-
-

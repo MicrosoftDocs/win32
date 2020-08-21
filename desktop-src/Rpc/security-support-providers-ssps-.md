@@ -16,12 +16,8 @@ Beginning with Windows 2000, RPC supports a variety of security providers and p
 
 In addition, Microsoft RPC provides a *pseudo-SSP* that enables applications to negotiate between the use of real SSPs. This pseudo-SSP, called the Simple GSS-API Negotiation Mechanism (Snego) SSP, does not provide any actual authentication features. Its only use is to help applications select a real SSP. Currently, client and server programs can use the Snego SSP to negotiate between the use of the NTLM security package and Kerberos protocol security package. For more information on selecting SSPs, see [Authentication-Service Constants](authentication-service-constants.md).
 
-All of the SSPs that Microsoft provides, except SCHANNEL, recognize authentication credentials in the form provided by the [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/desktop/api/Rpcdce/ns-rpcdce-sec_winnt_auth_identity_a) structure. For details, see [Client Authentication Credentials](client-authentication-credentials.md). For information on how to use specific SSPs, see [SSPI Functions](https://docs.microsoft.com/windows/desktop/SecMgmt/management-functions) and [Using the Schannel Security Provider](https://docs.microsoft.com/windows/desktop/SecAuthN/secure-channel) in the Security documentation of the Platform Software Development Kit (SDK).
+All of the SSPs that Microsoft provides, except SCHANNEL, recognize authentication credentials in the form provided by the [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/desktop/api/Rpcdce/ns-rpcdce-sec_winnt_auth_identity_a) structure. For details, see [Client Authentication Credentials](client-authentication-credentials.md). For information on how to use specific SSPs, see [SSPI Functions](/windows/desktop/SecMgmt/management-functions) and [Using the Schannel Security Provider](/windows/desktop/SecAuthN/secure-channel) in the Security documentation of the Platform Software Development Kit (SDK).
 
  
 
  
-
-
-
-

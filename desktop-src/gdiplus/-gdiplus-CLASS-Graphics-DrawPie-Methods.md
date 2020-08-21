@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.DrawPie methods
 
-This topic lists the DrawPie methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the DrawPie methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -16,10 +16,10 @@ This topic lists the DrawPie methods of the [**Graphics**](https://msdn.microsof
 
 | Method                                                                                                                                                       | Description                                                                                                                                                          |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DrawPie(Pen\*,Rect&,REAL,REAL)**](https://msdn.microsoft.com/library/ms536011(v=VS.85).aspx)                                 | The [**Graphics::DrawPie**](https://msdn.microsoft.com/library/ms536011(v=VS.85).aspx) method draws a pie.<br/>                   |
-| [**DrawPie(Pen\*,RectF&,REAL,REAL)**](https://msdn.microsoft.com/library/ms536016(v=VS.85).aspx)                               | The [**Graphics::DrawPie**](https://msdn.microsoft.com/library/ms536016(v=VS.85).aspx) method draws a pie.<br/>                  |
-| [**DrawPie(Pen\*,INT,INT,INT,INT,REAL,REAL)**](https://msdn.microsoft.com/library/ms536013(v=VS.85).aspx)     | The [**Graphics::DrawPie**](https://msdn.microsoft.com/library/ms536013(v=VS.85).aspx) method draws a pie.<br/> |
-| [**DrawPie(Pen\*,REAL,REAL,REAL,REAL,REAL,REAL)**](https://msdn.microsoft.com/library/ms536014(v=VS.85).aspx) | The [**Graphics::DrawPie**](https://msdn.microsoft.com/library/ms536014(v=VS.85).aspx) method draws a pie.<br/> |
+| [**DrawPie(Pen\*,Rect&,REAL,REAL)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpie(inconstpen_inconstrect__inreal_inreal))                                 | The [**Graphics::DrawPie**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpie(inconstpen_inconstrect__inreal_inreal)) method draws a pie.<br/>                   |
+| [**DrawPie(Pen\*,RectF&,REAL,REAL)**](/previous-versions//ms536016(v=vs.85))                               | The [**Graphics::DrawPie**](/previous-versions//ms536016(v=vs.85)) method draws a pie.<br/>                  |
+| [**DrawPie(Pen\*,INT,INT,INT,INT,REAL,REAL)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpie(inconstpen_inint_inint_inint_inint_inreal_inreal))     | The [**Graphics::DrawPie**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpie(inconstpen_inint_inint_inint_inint_inreal_inreal)) method draws a pie.<br/> |
+| [**DrawPie(Pen\*,REAL,REAL,REAL,REAL,REAL,REAL)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpie(inconstpen_inreal_inreal_inreal_inreal_inreal_inreal)) | The [**Graphics::DrawPie**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpie(inconstpen_inreal_inreal_inreal_inreal_inreal_inreal)) method draws a pie.<br/> |
 
 
 
@@ -36,7 +36,3 @@ This topic lists the DrawPie methods of the [**Graphics**](https://msdn.microsof
  
 
  
-
-
-
-

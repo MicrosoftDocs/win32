@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 If you want to share an I/O procedure with other applications, you need to write a dynamic-link library (DLL) for your application. You can share the I/O procedure by doing one of the following:
 
 -   Include the code for the I/O procedure in the DLL.
--   Create a function in the DLL that calls the [**mmioInstallIOProc**](https://msdn.microsoft.com/library/Dd757323(v=VS.85).aspx) function to install the I/O procedure.
+-   Create a function in the DLL that calls the [**mmioInstallIOProc**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioinstallioproc) function to install the I/O procedure.
 -   Export this function in the module-definitions file of the DLL.
 
 To use the shared I/O procedure, an application must first call the function in the DLL to install the I/O procedure.
@@ -26,7 +26,3 @@ To use the shared I/O procedure, an application must first call the function in 
  
 
  
-
-
-
-

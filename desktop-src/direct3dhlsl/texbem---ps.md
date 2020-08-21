@@ -49,7 +49,7 @@ This instruction transforms red and green components in the source register usin
 
 This operation always interprets du and dv as signed quantities. For versions 1\_0 and 1\_1, the [Source Register Signed Scaling](dx9-graphics-reference-asm-ps-registers-modifiers-signed-scale.md) input modifier (\_bx2) is not permitted on the input argument.
 
-This instruction produces defined results when input textures contain signed format data. Mixed format data works only if the first two channels contain signed data. For more information about surface formats, see [D3DFORMAT](https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat).
+This instruction produces defined results when input textures contain signed format data. Mixed format data works only if the first two channels contain signed data. For more information about surface formats, see [D3DFORMAT](/windows/desktop/direct3d9/d3dformat).
 
 This can be used for a variety of techniques based on address perturbation, including fake per-pixel environment mapping and diffuse lighting (bump mapping).
 
@@ -127,7 +127,3 @@ texbem requires the following textures in the following texture stages.
  
 
  
-
-
-
-

@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Required Firewall Exceptions for Teredo
 
-For an application to receive Teredo traffic, the application must be permitted to receive IPv6 traffic in the host firewall, and the application is required to set the socket option [IPV6\_PROTECTION\_LEVEL](https://docs.microsoft.com/windows/desktop/WinSock/ipv6-protection-level) to 'PROTECTION\_LEVEL\_UNRESTRICTED'. To enable this type of scenario, the firewall exceptions detailed in this document must be implemented.
+For an application to receive Teredo traffic, the application must be permitted to receive IPv6 traffic in the host firewall, and the application is required to set the socket option [IPV6\_PROTECTION\_LEVEL](/windows/desktop/WinSock/ipv6-protection-level) to 'PROTECTION\_LEVEL\_UNRESTRICTED'. To enable this type of scenario, the firewall exceptions detailed in this document must be implemented.
 
 The following firewall configurations are required to ensure smooth interoperation between a firewall and Teredo:
 
 -   The client firewall must allow resolution of teredo.ipv6.microsoft.com.
 -   UDP Port 3544 must be open to ensure that Teredo clients can successfully communicate with the Teredo server.
--   The firewall must retrieve dynamic UDP ports used by Teredo service on the local machine by calling the [**FwpmSystemPortsGet0**](https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsystemportsget0) function; relevant ports are of type FWPM\_SYSTEM\_PORT\_TEREDO. The **FwpmSystemPortsGet0** function should be implemented in place of the now deprecated [**GetTeredoPort**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getteredoport) or [**NotifyTeredoPortChange**](https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyteredoportchange) functions.
+-   The firewall must retrieve dynamic UDP ports used by Teredo service on the local machine by calling the [**FwpmSystemPortsGet0**](/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsystemportsget0) function; relevant ports are of type FWPM\_SYSTEM\_PORT\_TEREDO. The **FwpmSystemPortsGet0** function should be implemented in place of the now deprecated [**GetTeredoPort**](/windows/desktop/api/netioapi/nf-netioapi-getteredoport) or [**NotifyTeredoPortChange**](/windows/desktop/api/netioapi/nf-netioapi-notifyteredoportchange) functions.
 -   The firewall permits the system to send and receive UDP/IPv4 packets to UDP port 1900 on the local subnet as this allows UPnP discovery traffic to flow and has the potential to improve connectivity rates.
     > [!Note]  
     > If this condition is not met, the potential for scenarios to encounter compatibility issues involving communication between certain NAT types is introduced; specifically between Symmetric NATs and Restricted NATs. While Symmetric NATs are popular in hotspots and Restricted NATs are popular in homes, communication between the two has the potential to fault on the side of the Restricted NAT.
@@ -43,7 +43,7 @@ Client firewalls must support the following ICMPv6 error messages and discovery 
 
 If these messages cannot be specifically allowed, then the exemption of all ICMPv6 messages should be enabled on the firewall. Additionally, the host firewall may notice that the packets classified by codes 135/136 or 133/134 originate from, or are targeted to, the user mode service **iphlpsvc** and not from the stack. These packets must not be dropped by the host firewall. The Teredo service is implemented primarily within the 'user mode' IP Helper service.
 
-Using the [**INetFwPolicy2**](https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2) Windows Firewall API to enumerate all rules with the Edge Traversal flag set, all applications that want to listen for unsolicited traffic are enumerated for the firewall exception. Specific information regarding the use of the Edge Traversal option is detailed in [Receiving Unsolicited Traffic Over Teredo](receiving-unsolicited-traffic-over-teredo.md).
+Using the [**INetFwPolicy2**](/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2) Windows Firewall API to enumerate all rules with the Edge Traversal flag set, all applications that want to listen for unsolicited traffic are enumerated for the firewall exception. Specific information regarding the use of the Edge Traversal option is detailed in [Receiving Unsolicited Traffic Over Teredo](receiving-unsolicited-traffic-over-teredo.md).
 
 Callbacks are not associated with the following sample enumeration code; it is strongly recommended that third party firewalls perform the enumeration periodically, or whenever the firewall detects a new application attempting to go through the firewall.
 
@@ -248,7 +248,3 @@ int __cdecl main()
  
 
  
-
-
-
-

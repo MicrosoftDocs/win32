@@ -16,18 +16,18 @@ Lists the scalar functions provided by DirectXMath.
 
 | Topic                                                     | Description                                                          |
 |-----------------------------------------------------------|----------------------------------------------------------------------|
-| [**XMScalarACos**](https://msdn.microsoft.com/library/Ee420183(v=VS.85).aspx)<br/>           | Computes the arccosine of a floating-point number.<br/>        |
-| [**XMScalarACosEst**](https://msdn.microsoft.com/library/Ee420184(v=VS.85).aspx)<br/>     | Estimates the arccosine of a floating-point number.<br/>       |
-| [**XMScalarASin**](https://msdn.microsoft.com/library/Ee420185(v=VS.85).aspx)<br/>           | Computes the arcsine of a floating-point number.<br/>          |
-| [**XMScalarASinEst**](https://msdn.microsoft.com/library/Ee420186(v=VS.85).aspx)<br/>     | Estimates the arcsine of a floating-point number.<br/>         |
-| [**XMScalarCos**](https://msdn.microsoft.com/library/Ee420187(v=VS.85).aspx)<br/>             | Computes the cosine of a radian angle.<br/>                    |
-| [**XMScalarCosEst**](https://msdn.microsoft.com/library/Ee420188(v=VS.85).aspx)<br/>       | Estimates the cosine of a radian angle.<br/>                   |
-| [**XMScalarModAngle**](https://msdn.microsoft.com/library/Ee420189(v=VS.85).aspx)<br/>   | Computes an angle between -XM\_PI and XM\_PI.<br/>             |
-| [**XMScalarNearEqual**](https://msdn.microsoft.com/library/Ee420190(v=VS.85).aspx)<br/> | Determines if two floating-point values are nearly equal.<br/> |
-| [**XMScalarSin**](https://msdn.microsoft.com/library/Ee420191(v=VS.85).aspx)<br/>             | Computes the sine of a radian angle.<br/>                      |
-| [**XMScalarSinCos**](https://msdn.microsoft.com/library/Ee420192(v=VS.85).aspx)<br/>       | Computes both the sine and cosine of a radian angle.<br/>      |
-| [**XMScalarSinCosEst**](https://msdn.microsoft.com/library/Ee420193(v=VS.85).aspx)<br/> | Estimates both the sine and cosine of a radian angle.<br/>     |
-| [**XMScalarSinEst**](https://msdn.microsoft.com/library/Ee420194(v=VS.85).aspx)<br/>       | Estimates the sine of a radian angle.<br/>                     |
+| [**XMScalarACos**](/windows/win32/api/directxmath/nf-directxmath-xmscalaracos)<br/>           | Computes the arccosine of a floating-point number.<br/>        |
+| [**XMScalarACosEst**](/windows/win32/api/directxmath/nf-directxmath-xmscalaracosest)<br/>     | Estimates the arccosine of a floating-point number.<br/>       |
+| [**XMScalarASin**](/windows/win32/api/directxmath/nf-directxmath-xmscalarasin)<br/>           | Computes the arcsine of a floating-point number.<br/>          |
+| [**XMScalarASinEst**](/windows/win32/api/directxmath/nf-directxmath-xmscalarasinest)<br/>     | Estimates the arcsine of a floating-point number.<br/>         |
+| [**XMScalarCos**](/windows/win32/api/directxmath/nf-directxmath-xmscalarcos)<br/>             | Computes the cosine of a radian angle.<br/>                    |
+| [**XMScalarCosEst**](/windows/win32/api/directxmath/nf-directxmath-xmscalarcosest)<br/>       | Estimates the cosine of a radian angle.<br/>                   |
+| [**XMScalarModAngle**](/windows/win32/api/directxmath/nf-directxmath-xmscalarmodangle)<br/>   | Computes an angle between -XM\_PI and XM\_PI.<br/>             |
+| [**XMScalarNearEqual**](/windows/win32/api/directxmath/nf-directxmath-xmscalarnearequal)<br/> | Determines if two floating-point values are nearly equal.<br/> |
+| [**XMScalarSin**](/windows/win32/api/directxmath/nf-directxmath-xmscalarsin)<br/>             | Computes the sine of a radian angle.<br/>                      |
+| [**XMScalarSinCos**](/windows/win32/api/directxmath/nf-directxmath-xmscalarsincos)<br/>       | Computes both the sine and cosine of a radian angle.<br/>      |
+| [**XMScalarSinCosEst**](/windows/win32/api/directxmath/nf-directxmath-xmscalarsincosest)<br/> | Estimates both the sine and cosine of a radian angle.<br/>     |
+| [**XMScalarSinEst**](/windows/win32/api/directxmath/nf-directxmath-xmscalarsinest)<br/>       | Estimates the sine of a radian angle.<br/>                     |
 
 
 
@@ -43,7 +43,3 @@ Lists the scalar functions provided by DirectXMath.
  
 
  
-
-
-
-

@@ -24,7 +24,7 @@ propertyDescription
 
 UI\_PKEY\_ItemImage is used by an application to query the image associated with an item or command in a gallery control.
 
-The property value is an [**IUIImage**](https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage) object.
+The property value is an [**IUIImage**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage) object.
 
 ## Related topics
 
@@ -36,7 +36,3 @@ The property value is an [**IUIImage**](https://docs.microsoft.com/windows/deskt
  
 
  
-
-
-
-

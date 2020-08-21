@@ -44,7 +44,7 @@ void D3DXQuaternionSquadSetup(
 *pAOut* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to AOut.
 
@@ -53,7 +53,7 @@ Pointer to AOut.
 *pBOut* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to BOut.
 
@@ -62,7 +62,7 @@ Pointer to BOut.
 *pCOut* \[in\]
 </dt> <dd>
 
-Type: **[**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **[**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to COut.
 
@@ -71,7 +71,7 @@ Pointer to COut.
 *pQ0* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the input control point, Q0.
 
@@ -80,7 +80,7 @@ Pointer to the input control point, Q0.
 *pQ1* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the input control point, Q1.
 
@@ -89,7 +89,7 @@ Pointer to the input control point, Q1.
 *pQ2* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the input control point, Q2.
 
@@ -98,7 +98,7 @@ Pointer to the input control point, Q2.
 *pQ3* \[in\]
 </dt> <dd>
 
-Type: **const [**D3DXQUATERNION**](https://msdn.microsoft.com/library/Bb205402(v=VS.85).aspx)\***
+Type: **const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointer to the input control point, Q3.
 
@@ -196,7 +196,3 @@ D3DXQuaternionSquad(&Qt, &Q1, &A, &B, &C, time);
  
 
  
-
-
-
-

@@ -40,7 +40,7 @@ Turns on Listening mode (speech recognition) for a timed period.
 
 Setting this method to **True** enables Listening mode (turns on speech recognition) for a fixed period of time (10 seconds). While you cannot set the value of the time-out, you can turn off Listening mode before the time-out expires. If you (or another client) successfully set Listening mode on and you attempt to set this property to **True** before the time-out expires, the method succeeds and resets the time-out. However, if the Listening mode is on because the user is pressing the Listening key, the method succeeds, but the time-out is ignored and the Listening mode ends based on the user's interaction with the Listening key.
 
-This method succeeds only when called by the input-active client and if speech services have been started. To ensure that speech services have been started, query or set the [**SRModeID**](srmodeid-property.md) or set the [**Voice**](voice-property.md) setting for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) before you call **Listen** otherwise the method will fail. To detect the success of this method, call it as a function and it will return a Boolean value indicating whether the method succeeded.
+This method succeeds only when called by the input-active client and if speech services have been started. To ensure that speech services have been started, query or set the [**SRModeID**](srmodeid-property.md) or set the [**Voice**](voice-property.md) setting for a [**Command**](/windows/desktop/lwef/the-command-object) before you call **Listen** otherwise the method will fail. To detect the success of this method, call it as a function and it will return a Boolean value indicating whether the method succeeded.
 
 
 ```
@@ -69,10 +69,4 @@ This method does not automatically call [**Stop**](stop-method.md) and play a Li
 
 
  
-
- 
-
-
-
-
 

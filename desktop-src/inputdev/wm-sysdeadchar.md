@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # WM\_SYSDEADCHAR message
 
-Sent to the window with the keyboard focus when a [**WM\_SYSKEYDOWN**](wm-syskeydown.md) message is translated by the [**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage) function. **WM\_SYSDEADCHAR** specifies the character code of a system dead key   that is, a dead key that is pressed while holding down the ALT key.
+Sent to the window with the keyboard focus when a [**WM\_SYSKEYDOWN**](wm-syskeydown.md) message is translated by the [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) function. **WM\_SYSDEADCHAR** specifies the character code of a system dead key   that is, a dead key that is pressed while holding down the ALT key.
 
 
 ```C++
@@ -86,7 +86,7 @@ For enhanced 101- and 102-key keyboards, extended keys are the right ALT and CTR
 **Reference**
 </dt> <dt>
 
-[**TranslateMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage)
+[**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
 </dt> <dt>
 
 [**WM\_DEADCHAR**](wm-deadchar.md)
@@ -102,10 +102,4 @@ For enhanced 101- and 102-key keyboards, extended keys are the right ALT and CTR
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

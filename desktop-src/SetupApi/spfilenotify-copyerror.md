@@ -46,7 +46,7 @@ The callback should return one of the following values.
 
 | Return code                                                                                    | Description                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**FILEOP\_ABORT**</dt> </dl>   | Queue processing should be canceled. [**SetupCommitFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupcommitfilequeuea) returns zero and [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns extended error information such as ERROR\_CANCELLED (if the user canceled) or ERROR\_NOT\_ENOUGH\_MEMORY.<br/> |
+| <dl> <dt>**FILEOP\_ABORT**</dt> </dl>   | Queue processing should be canceled. [**SetupCommitFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupcommitfilequeuea) returns zero and [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns extended error information such as ERROR\_CANCELLED (if the user canceled) or ERROR\_NOT\_ENOUGH\_MEMORY.<br/> |
 | <dl> <dt>**FILEOP\_NEWPATH**</dt> </dl> | Retry the copy operation using the path the callback function placed in the buffer pointed to by the *Param2* parameter. The callback routine should ensure that the path does not overflow the buffer size of a TCHAR array of MAX\_PATH elements.<br/>                |
 | <dl> <dt>**FILEOP\_RETRY**</dt> </dl>   | The user is attempting the copy operation again.<br/>                                                                                                                                                                                                                   |
 | <dl> <dt>**FILEOP\_SKIP**</dt> </dl>    | The user is skipping the file copy operation.<br/>                                                                                                                                                                                                                      |
@@ -87,9 +87,4 @@ The callback should return one of the following values.
 </dt> </dl>
 
  
-
- 
-
-
-
 

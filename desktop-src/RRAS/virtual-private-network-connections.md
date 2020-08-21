@@ -12,11 +12,11 @@ The Remote Access Service (RAS) supports Virtual Private Network (VPN) connectio
 
 If the client computer does not have an always-on connection to an IP network, two calls to [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) are required to establish the VPN connection. The first call establishes a dial-up connection to the IP network; the second call establishes the VPN connection.
 
-The **szLocalPhoneNumber** member of the [**RASENTRY**](https://msdn.microsoft.com/library/Aa377274(v=VS.85).aspx) structure for the VPN connection should contain either the DNS name or IP address of the destination VPN server.
+The **szLocalPhoneNumber** member of the [**RASENTRY**](/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)) structure for the VPN connection should contain either the DNS name or IP address of the destination VPN server.
 
 Each connection requires a separate [phone-book](ras-phone-books.md) entry. The first call to [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) specifies the phone-book entry for the IP network. The second call specifies the phone-book entry for the VPN.
 
-The [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) function takes a pointer to a [**RASDIALPARAMS**](https://msdn.microsoft.com/library/Aa377238(v=VS.85).aspx) structure as a parameter. This structure specifies the authentication credentials to use for the network specified by the phone-book entry. The credentials required to access the IP network are typically different from those for the VPN. The first call to **RasDial** should specify credentials for the IP network. The second call should specify credentials for the VPN.
+The [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) function takes a pointer to a [**RASDIALPARAMS**](/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)) structure as a parameter. This structure specifies the authentication credentials to use for the network specified by the phone-book entry. The credentials required to access the IP network are typically different from those for the VPN. The first call to **RasDial** should specify credentials for the IP network. The second call should specify credentials for the VPN.
 
 If the [**RasDial**](/windows/desktop/api/Ras/nf-ras-rasdiala) function is successful, it returns a handle for the connection. Use this handle in a call to [**RasHangUp**](/windows/desktop/api/Ras/nf-ras-rashangupa) to terminate the connection.
 
@@ -25,7 +25,3 @@ In the preceding scenario, the two calls to [**RasDial**](/windows/desktop/api/R
  
 
  
-
-
-
-

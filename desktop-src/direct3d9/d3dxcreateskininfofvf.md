@@ -41,7 +41,7 @@ HRESULT D3DXCreateSkinInfoFVF(
 *NumVertices* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of vertices for the skin mesh.
 
@@ -50,7 +50,7 @@ Number of vertices for the skin mesh.
 *FVF* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Combination of [D3DFVF](d3dfvf.md) that describes the vertex format for the returned skin mesh.
 
@@ -59,7 +59,7 @@ Combination of [D3DFVF](d3dfvf.md) that describes the vertex format for the retu
 *NumBones* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of bones for the skin mesh.
 
@@ -108,7 +108,3 @@ Use [**SetBoneInfluence**](id3dxskininfo--setboneinfluence.md) to populate the e
  
 
  
-
-
-
-

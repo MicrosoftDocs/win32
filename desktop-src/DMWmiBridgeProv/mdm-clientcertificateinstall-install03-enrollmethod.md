@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-Triggers the device to start the certificate enrollment. The device will not notify MDM server after certificate enrollment is done. The MDM server could later query the device to find out whether new certificate is added. See also, [**Enroll**](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp).
+Triggers the device to start the certificate enrollment. The device will not notify MDM server after certificate enrollment is done. The MDM server could later query the device to find out whether new certificate is added. See also, [**Enroll**](/windows/client-management/mdm/clientcertificateinstall-csp).
 
 ## Syntax
 
@@ -62,14 +62,8 @@ Required. Triggers the device to start the certificate enrollment. The device wi
 [**MDM\_ClientCertificateInstall\_Install03**](mdm-clientcertificateinstall-install03.md)
 </dt> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -32,7 +32,7 @@ This class provides properties to set and get system parameters on an ESENT inst
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.InstanceParameters  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
@@ -62,4 +62,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [InstanceParameters members](dn350943\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

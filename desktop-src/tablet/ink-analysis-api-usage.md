@@ -38,13 +38,13 @@ You can use the Ink Analysis API in your WPF project by adding a reference to th
 
 Non-Automation COM applications should use the COM layer of the Ink Analysis APIs.
 
-Type specific [ContextNode](https://msdn.microsoft.com/library/ms551996(v=VS.90).aspx) objects-such as [ParagraphNode](https://msdn.microsoft.com/library/ms580136(v=VS.90).aspx), [InkWordNode](https://msdn.microsoft.com/library/ms580133(v=VS.90).aspx), and others-are not used in the COM layer. Rather, you should use the [**IContextNode::AddPropertyData**](icontextnode-addpropertydata.md) on the standard [**IContextNode**](icontextnode.md) interface.
+Type specific [ContextNode](/previous-versions/ms551996(v=vs.100)) objects-such as [ParagraphNode](/previous-versions/ms580136(v=vs.100)), [InkWordNode](/previous-versions/ms580133(v=vs.100)), and others-are not used in the COM layer. Rather, you should use the [**IContextNode::AddPropertyData**](icontextnode-addpropertydata.md) on the standard [**IContextNode**](icontextnode.md) interface.
 
 You must \#include "IACom.h". You will most likely use the libraries in conjunction wit the Tablet PC platform Ink object, so you should also \#include "msinkaut.h".
 
 ### RTS and Other Applications
 
-The Ink Analysis base layer works differently than the others in that it takes point data for analysis rather than [Stroke](https://msdn.microsoft.com/library/ms552692(v=VS.90).aspx) objects. Examples of where you would work with the Base layer directly rather than using the Windows forms or COM layers include applications that do not use first generation Tablet PC Platform Ink objects, or applications that use the [**RealTimeStylus**](realtimestylus-class.md) APIs to manage stylus input rather than using the Tablet PC Platform [Ink](https://msdn.microsoft.com/library/ms583670(v=VS.100).aspx) objects.
+The Ink Analysis base layer works differently than the others in that it takes point data for analysis rather than [Stroke](/previous-versions/ms552692(v=vs.100)) objects. Examples of where you would work with the Base layer directly rather than using the Windows forms or COM layers include applications that do not use first generation Tablet PC Platform Ink objects, or applications that use the [**RealTimeStylus**](realtimestylus-class.md) APIs to manage stylus input rather than using the Tablet PC Platform [Ink](/previous-versions/ms583670(v=vs.100)) objects.
 
 ## 32-bit Support Only
 
@@ -63,6 +63,3 @@ Note that the Ink Analysis libraries are only supported in 32-bit processes.
  
 
  
-
-
-

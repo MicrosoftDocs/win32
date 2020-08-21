@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Most Windows Sockets 2 functions do not return the specific cause of an error when the function returns. For information, see the [Handling Winsock Errors](handling-winsock-errors.md) topic.
 
-The [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) function returns the last error that occurred for the calling thread. When a particular Windows Sockets function indicates an error has occurred, this function should be called immediately to retrieve the extended error code for the failing function call. These error codes and a short text description associated with an error code are defined in the *Winerror.h* header file. The [**FormatMessage**](https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx) function can be used to obtain the message string for the returned error.
+The [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) function returns the last error that occurred for the calling thread. When a particular Windows Sockets function indicates an error has occurred, this function should be called immediately to retrieve the extended error code for the failing function call. These error codes and a short text description associated with an error code are defined in the *Winerror.h* header file. The [**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage) function can be used to obtain the message string for the returned error.
 
 For information on how to handle error codes when porting socket applications to Winsock, see [Error Codes - errno, h\_errno and WSAGetLastError](error-codes-errno-h-errno-and-wsagetlasterror-2.md).
 
@@ -440,7 +440,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 [Handling Winsock Errors](handling-winsock-errors.md)
 </dt> <dt>
 
-[**FormatMessage**](https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx)
+[**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage)
 </dt> <dt>
 
 [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror)
@@ -449,7 +449,3 @@ The following list describes the possible error codes returned by the [**WSAGetL
  
 
  
-
-
-
-

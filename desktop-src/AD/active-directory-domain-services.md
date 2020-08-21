@@ -34,7 +34,7 @@ Independent software vendors and end-user developers can use Active Directory Do
 
 ## Developer audience
 
-Applications that access data in Active Directory Domain Services can be written using the [Active Directory Service Interfaces](/windows/win32/ADSI/active-directory-service-interfaces-adsi) API, [Lightweight Directory Access Protocol](https://docs.microsoft.com/previous-versions/windows/win32/ldap/lightweight-directory-access-protocol-ldap-api) API, or the [System.DirectoryServices](https://docs.microsoft.com/dotnet/api/system.directoryservices?redirectedfrom=MSDN) namespace.
+Applications that access data in Active Directory Domain Services can be written using the [Active Directory Service Interfaces](../adsi/active-directory-service-interfaces-adsi.md) API, [Lightweight Directory Access Protocol](/previous-versions/windows/win32/ldap/lightweight-directory-access-protocol-ldap-api) API, or the [System.DirectoryServices](/dotnet/api/system.directoryservices) namespace.
 
 ## Run-time requirements
 
@@ -68,7 +68,3 @@ Active Directory Domain Services programming reference.
  
 
  
-
-
-
-

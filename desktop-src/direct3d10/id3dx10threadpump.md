@@ -22,7 +22,7 @@ Used to execute tasks asynchronously, and created with [**D3DX10CreateThreadPump
 
 ## Members
 
-The **ID3DX10ThreadPump** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DX10ThreadPump** also has these types of members:
+The **ID3DX10ThreadPump** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DX10ThreadPump** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -142,7 +142,3 @@ APIs that take a thread pump as a parameter.
  
 
  
-
-
-
-

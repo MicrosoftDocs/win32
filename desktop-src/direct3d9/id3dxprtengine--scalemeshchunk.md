@@ -40,7 +40,7 @@ HRESULT ScaleMeshChunk(
 *uMeshChunk* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Location in the mesh at which to start scaling samples.
 
@@ -49,7 +49,7 @@ Location in the mesh at which to start scaling samples.
 *fScale* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Value by which to multiply each vector in the submesh.
 
@@ -91,7 +91,3 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
  
 
  
-
-
-
-

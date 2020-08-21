@@ -62,14 +62,14 @@ The hash algorithm used for the digital signature.
 **dwAttrChoice**
 </dt> <dd>
 
-Specifies whether the signature has [*Authenticode*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) attributes. This member can be one or more of the following values.
+Specifies whether the signature has [*Authenticode*](../secgloss/a-gly.md) attributes. This member can be one or more of the following values.
 
 
 
 | Value                                                                                                                                                                                                                                      | Meaning                                                                                                                                   |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="SIGNER_AUTHCODE_ATTR"></span><span id="signer_authcode_attr"></span><dl> <dt>**SIGNER\_AUTHCODE\_ATTR**</dt> <dt>1</dt> </dl> | The signature has [*Authenticode*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) attributes.<br/>           |
-| <span id="SIGNER_NO_ATTR"></span><span id="signer_no_attr"></span><dl> <dt>**SIGNER\_NO\_ATTR**</dt> <dt>0</dt> </dl>                   | The signature does not have [*Authenticode*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) attributes.<br/> |
+| <span id="SIGNER_AUTHCODE_ATTR"></span><span id="signer_authcode_attr"></span><dl> <dt>**SIGNER\_AUTHCODE\_ATTR**</dt> <dt>1</dt> </dl> | The signature has [*Authenticode*](../secgloss/a-gly.md) attributes.<br/>           |
+| <span id="SIGNER_NO_ATTR"></span><span id="signer_no_attr"></span><dl> <dt>**SIGNER\_NO\_ATTR**</dt> <dt>0</dt> </dl>                   | The signature does not have [*Authenticode*](../secgloss/a-gly.md) attributes.<br/> |
 
 
 
@@ -80,7 +80,7 @@ Specifies whether the signature has [*Authenticode*](https://msdn.microsoft.com/
 **pAttrAuthcode**
 </dt> <dd>
 
-Specifies attributes for an [*Authenticode*](https://msdn.microsoft.com/library/ms721532(v=VS.85).aspx) signature. This member is required if the value of the **dwAttrChoice** member is **SIGNER\_AUTHCODE\_ATTR**.
+Specifies attributes for an [*Authenticode*](../secgloss/a-gly.md) signature. This member is required if the value of the **dwAttrChoice** member is **SIGNER\_AUTHCODE\_ATTR**.
 
 </dd> <dt>
 
@@ -122,7 +122,3 @@ Unauthenticated user-supplied attributes added to the digital signature.
  
 
  
-
-
-
-

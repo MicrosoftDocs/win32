@@ -32,7 +32,7 @@ This is the base class for all esent resource objects. Subclasses of this class 
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.EsentResource  
     [Microsoft.Isam.Esent.Interop.Session](dn351164\(v=exchg.10\).md)  
     [Microsoft.Isam.Esent.Interop.Table](dn351163\(v=exchg.10\).md)  
@@ -68,4 +68,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [EsentResource members](dn350521\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

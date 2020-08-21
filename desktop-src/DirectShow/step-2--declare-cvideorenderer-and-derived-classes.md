@@ -55,7 +55,7 @@ Next, declare a derived class to wrap each of the three video renderers: the EVR
 
 ### CEVR Class
 
-The `CEVR` class manages the EVR. It contains a pointer to the [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) and [**IMFVideoDisplayControl**](https://msdn.microsoft.com/library/ms704002(v=VS.85).aspx) interfaces of the EVR.
+The `CEVR` class manages the EVR. It contains a pointer to the [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) and [**IMFVideoDisplayControl**](/windows/win32/api/evr/nn-evr-imfvideodisplaycontrol) interfaces of the EVR.
 
 
 ```C++
@@ -150,6 +150,3 @@ Next: [Step 3: Build the Filter Graph](step-3--build-the-filter-graph.md).
  
 
  
-
-
-

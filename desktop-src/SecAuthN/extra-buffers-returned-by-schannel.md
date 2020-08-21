@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Extra Buffers Returned by Schannel
 
-Information must be sent between the client and server while a [*security context*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) is being established and afterward because secure messages are exchanged by using the encryption and decryption features provided by Schannel. The following functions are used to accomplish these tasks:
+Information must be sent between the client and server while a [*security context*](/windows/desktop/SecGloss/s-gly) is being established and afterward because secure messages are exchanged by using the encryption and decryption features provided by Schannel. The following functions are used to accomplish these tasks:
 
--   [**AcceptSecurityContext (General)**](https://msdn.microsoft.com/library/Aa374703(v=VS.85).aspx)
--   [**InitializeSecurityContext (General)**](https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx)
--   [**DecryptMessage (General)**](https://msdn.microsoft.com/library/Aa375211(v=VS.85).aspx)
+-   [**AcceptSecurityContext (General)**](/windows/win32/api/sspi/nf-sspi-acceptsecuritycontext)
+-   [**InitializeSecurityContext (General)**](/windows/win32/api/sspi/nf-sspi-initializesecuritycontexta)
+-   [**DecryptMessage (General)**](/windows/win32/api/sspi/nf-sspi-decryptmessage)
 
 Schannel has a well-defined set of behaviors for incomplete or excess information included in the input buffers to these functions. Information is exchanged between the client and server in the following manner:
 
@@ -38,6 +38,3 @@ If you receive an extra buffer from a SSPI function, you must remove the already
  
 
  
-
-
-

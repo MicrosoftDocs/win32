@@ -20,7 +20,7 @@ ms.date: 02/03/2020
 
 Occurs on the process receiving input when the pointer input is routed to another process.
 
-Sent when pointer input transitions from one process to another across content configured for cross-process chaining ([**AddContentWithCrossProcessChaining**](https://msdn.microsoft.com/library/windows/desktop/mt622455)).
+Sent when pointer input transitions from one process to another across content configured for cross-process chaining ([**AddContentWithCrossProcessChaining**](/windows/win32/api/directmanipulation/nf-directmanipulation-idirectmanipulationcompositor2-addcontentwithcrossprocesschaining)).
 
 This message is sent to the process currently receiving pointer input.
 
@@ -80,10 +80,4 @@ This message is not sent with either a [**WM_POINTERUP**](wm-pointerup.md) messa
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -25,12 +25,12 @@ A transform is a mathematical operation that maps a set of points to a new set o
 
 Transforms are implemented by using matrices. However, you do not have to understand the mathematics of matrices in order to use them. If you want to learn more about the math, see [Appendix: Matrix Transforms](appendix--matrix-transforms.md).
 
-To apply a transform in Direct2D, call the [**ID2D1RenderTarget::SetTransform**](https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-settransform) method. This method takes a [**D2D1\_MATRIX\_3X2\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f) structure that defines the transformation. You can initialize this structure by calling methods on the [**D2D1::Matrix3x2F**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f) class. This class contains static methods that return a matrix for each kind of transform:
+To apply a transform in Direct2D, call the [**ID2D1RenderTarget::SetTransform**](/windows/desktop/Direct2D/id2d1rendertarget-settransform) method. This method takes a [**D2D1\_MATRIX\_3X2\_F**](/windows/desktop/Direct2D/d2d1-matrix-3x2-f) structure that defines the transformation. You can initialize this structure by calling methods on the [**D2D1::Matrix3x2F**](/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f) class. This class contains static methods that return a matrix for each kind of transform:
 
--   [**Matrix3x2F::Rotation**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-rotation)
+-   [**Matrix3x2F::Rotation**](/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-rotation)
 -   [**Matrix3x2F::Scale**](/windows/win32/api/d2d1helper/nf-d2d1helper-matrix3x2f-scale(d2d1_size_f_d2d1_point_2f))
 -   [**Matrix3x2F::Translation**](/windows/win32/api/d2d1helper/nf-d2d1helper-matrix3x2f-translation(d2d1_size_f))
--   [**Matrix3x2F::Skew**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-skew)
+-   [**Matrix3x2F::Skew**](/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-skew)
 
 For example, the following code applies a 20-degree rotation around the point (100, 100).
 
@@ -40,7 +40,7 @@ pRenderTarget->SetTransform(
     D2D1::Matrix3x2F::Rotation(20, D2D1::Point2F(100,100)));
 ```
 
-The transform is applied to all later drawing operations until you call [**SetTransform**](https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-settransform) again. To remove the current transform, call **SetTransform** with the identity matrix. To create the identity matrix, call the [**Matrix3x2F::Identity**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-identitymatrix) function.
+The transform is applied to all later drawing operations until you call [**SetTransform**](/windows/desktop/Direct2D/id2d1rendertarget-settransform) again. To remove the current transform, call **SetTransform** with the identity matrix. To create the identity matrix, call the [**Matrix3x2F::Identity**](/windows/desktop/api/d2d1helper/nf-d2d1helper-identitymatrix) function.
 
 
 ```C++
@@ -117,7 +117,7 @@ const D2D1::Matrix3x2F trans = D2D1::Matrix3x2F::Translation(40, 10);
 pRenderTarget->SetTransform(rot * trans);
 ```
 
-The [**Matrix3x2F**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f) class provides [**operator\*()**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-operator-mult) for matrix multiplication. The order in which you multiply the matrices is important. Setting a transform (M × N) means "Apply M first, followed by N." For example, here is rotation followed by translation:
+The [**Matrix3x2F**](/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f) class provides [**operator\*()**](/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-operator-mult) for matrix multiplication. The order in which you multiply the matrices is important. Setting a transform (M × N) means "Apply M first, followed by N." For example, here is rotation followed by translation:
 
 ![a diagram that shows rotation followed by translation.](images/graphics20.png)
 

@@ -39,7 +39,7 @@ HRESULT SaveTemplates(
 *cTemplates* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Total number of templates to save.
 
@@ -104,7 +104,3 @@ After using this method to save the templates, use the [**IDirectXFileSaveObject
  
 
  
-
-
-
-

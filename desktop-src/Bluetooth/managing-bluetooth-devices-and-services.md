@@ -16,7 +16,7 @@ This section describes how to use the Bluetooth API to directly control Bluetoot
 For information about using the Windows Sockets interface to program Bluetooth on Windows, see [Windows Sockets Support for Bluetooth](windows-sockets-support-for-bluetooth.md).
 
 > [!Note]  
-> Bluetooth does not prevent power management features from interrupting Bluetooth transmissions. Bluetooth-enabled applications can monitor power messages to prevent such interruption. For more information, see [Using Power Management](https://docs.microsoft.com/windows/desktop/Power/using-power-management).
+> Bluetooth does not prevent power management features from interrupting Bluetooth transmissions. Bluetooth-enabled applications can monitor power messages to prevent such interruption. For more information, see [Using Power Management](/windows/desktop/Power/using-power-management).
 
  
 
@@ -34,7 +34,3 @@ This section contains the following topics.
  
 
  
-
-
-
-

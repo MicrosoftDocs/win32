@@ -32,7 +32,7 @@ PKEY values are defined in Propkey.h.
 
 If the item is a file or folder, this property includes the extension in all cases, and is localized if a localized name is available. For other items, this is the user-friendly equivalent, assuming that the item exists in hierarchical storage.
 
-Unlike [System.ItemUrl](https://msdn.microsoft.com/library/Bb760785(v=VS.85).aspx), this property value does not include the URL scheme. To parse an item path, use System.ItemUrl or [System.ParsingPath](https://msdn.microsoft.com/library/Bb787547(v=VS.85).aspx). To reference Shell namespace items using Shell APIs, use System.ParsingPath.
+Unlike [System.ItemUrl](./props-system-itemurl.md), this property value does not include the URL scheme. To parse an item path, use System.ItemUrl or [System.ParsingPath](./props-system-parsingpath.md). To reference Shell namespace items using Shell APIs, use System.ParsingPath.
 
 Example values:
 
@@ -54,51 +54,48 @@ Example values:
 
 <dl> <dt>
 
-[propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx)
+[propertyDescription](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx)
+[searchInfo](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx)
+[labelInfo](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx)
+[typeInfo](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx)
+[displayInfo](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx)
+[stringFormat](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[booleanFormat](https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx)
+[booleanFormat](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx)
+[numberFormat](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[dateTimeFormat](https://msdn.microsoft.com/library/Bb773863(v=VS.85).aspx)
+[dateTimeFormat](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx)
+[enumeratedList](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx)
+[drawControl](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx)
+[editControl](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx)
+[filterControl](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx)
+[queryControl](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  
 
  
-
-
-

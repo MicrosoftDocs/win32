@@ -48,7 +48,7 @@ Handle of the parent technique. See [Handles (Direct3D 9)](handles.md).
 *Index* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Index for the pass.
 
@@ -81,7 +81,3 @@ Returns the handle of the specified pass inside the specified technique, or **NU
  
 
  
-
-
-
-

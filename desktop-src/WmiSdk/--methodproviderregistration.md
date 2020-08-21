@@ -77,7 +77,7 @@ The **\_\_MethodProviderRegistration** class is derived from [**\_\_ProviderRegi
 
 <dl> <dt>
 
-[**\_\_ProviderRegistration**](https://docs.microsoft.com/windows/desktop/WmiSdk/--providerregistration)
+[**\_\_ProviderRegistration**](/windows/desktop/WmiSdk/--providerregistration)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
@@ -87,9 +87,4 @@ The **\_\_MethodProviderRegistration** class is derived from [**\_\_ProviderRegi
 </dt> </dl>
 
  
-
- 
-
-
-
 

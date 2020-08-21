@@ -26,7 +26,7 @@ The **IDODownloadStatusCallback** interface has these methods.
 
 | Method | Description |
 | ---- |:---- |
-| [IDODownloadStatusCallback::OnStatusChanged](/windows/win32/delivery_optimization/do/nf-do-idodownloadstatuscallback-onstatuschanged) | DO calls your implementation of this method any time a download status has changed. |
+| [IDODownloadStatusCallback::OnStatusChanged](./nf-do-idodownloadstatuscallback-onstatuschanged.md) | DO calls your implementation of this method any time a download status has changed. |
 
 ## Requirements
 

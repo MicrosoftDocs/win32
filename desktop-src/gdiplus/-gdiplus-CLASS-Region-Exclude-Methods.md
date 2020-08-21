@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Region.Exclude methods
 
-This topic lists the Exclude methods of the [**Region**](https://msdn.microsoft.com/library/ms534501(v=VS.85).aspx) class. For a complete list of methods for the **Region** class, see [Region Methods](-gdiplus-class-region-methods.md).
+This topic lists the Exclude methods of the [**Region**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-region) class. For a complete list of methods for the **Region** class, see [Region Methods](-gdiplus-class-region-methods.md).
 
 ### Overload list
 
@@ -16,17 +16,13 @@ This topic lists the Exclude methods of the [**Region**](https://msdn.microsoft.
 
 | Method                                                                 | Description                                                                                                                                                                                         |
 |:-----------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Exclude(Rect&)**](https://msdn.microsoft.com/library/ms534825(v=VS.85).aspx)     | The [**Region::Exclude**](https://msdn.microsoft.com/library/ms534825(v=VS.85).aspx) method updates this region to the portion of itself that does not intersect the specified rectangle's interior.<br/>  |
-| [**Exclude(RectF&)**](https://msdn.microsoft.com/library/ms534823(v=VS.85).aspx)   | The [**Region::Exclude**](https://msdn.microsoft.com/library/ms534823(v=VS.85).aspx) method updates this region to the portion of itself that does not intersect the specified rectangle's interior.<br/> |
-| [**Exclude(Region\*)**](https://msdn.microsoft.com/library/ms534827(v=VS.85).aspx)     | The [**Region::Exclude**](https://msdn.microsoft.com/library/ms534827(v=VS.85).aspx) method updates this region to the portion of itself that does not intersect another region.<br/>                         |
-| [**Exclude(GraphicsPath\*)**](https://msdn.microsoft.com/library/ms534820(v=VS.85).aspx) | The [**Region::Exclude**](https://msdn.microsoft.com/library/ms534820(v=VS.85).aspx) method updates this region to the portion of itself that does not intersect the specified path's interior.<br/>            |
+| [**Exclude(Rect&)**](/previous-versions//ms534825(v=vs.85))     | The [**Region::Exclude**](/previous-versions//ms534825(v=vs.85)) method updates this region to the portion of itself that does not intersect the specified rectangle's interior.<br/>  |
+| [**Exclude(RectF&)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-exclude(inconstrectf_))   | The [**Region::Exclude**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-exclude(inconstrectf_)) method updates this region to the portion of itself that does not intersect the specified rectangle's interior.<br/> |
+| [**Exclude(Region\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-exclude(inconstregion))     | The [**Region::Exclude**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-exclude(inconstregion)) method updates this region to the portion of itself that does not intersect another region.<br/>                         |
+| [**Exclude(GraphicsPath\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-exclude(inconstgraphicspath)) | The [**Region::Exclude**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-exclude(inconstgraphicspath)) method updates this region to the portion of itself that does not intersect the specified path's interior.<br/>            |
 
 
 
  
 
  
-
-
-
-

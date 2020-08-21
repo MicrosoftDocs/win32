@@ -119,7 +119,7 @@ cbuffer IE
         float1 SVal2;    // starts a new vector
     } Val1;
 
-    float1 Val2;   // starts a new vector
+    float1 Val2; 
 };
 ```
 

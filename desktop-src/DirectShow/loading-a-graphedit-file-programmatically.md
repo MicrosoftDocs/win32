@@ -63,15 +63,12 @@ GraphEdit files are intended only for testing and debugging. They are not meant 
 [Simulating Graph Building with GraphEdit](simulating-graph-building-with-graphedit.md)
 </dt> <dt>
 
-[**StgIsStorageFile**](https://msdn.microsoft.com/library/Aa380334(v=VS.85).aspx)
+[**StgIsStorageFile**](/windows/win32/api/coml2api/nf-coml2api-stgisstoragefile)
 </dt> <dt>
 
-[**StgOpenStorage**](https://msdn.microsoft.com/library/Aa380341(v=VS.85).aspx)
+[**StgOpenStorage**](/windows/win32/api/coml2api/nf-coml2api-stgopenstorage)
 </dt> </dl>
 
  
 
  
-
-
-

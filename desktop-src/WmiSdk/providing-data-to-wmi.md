@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Providing Data to WMI
 
-WMI makes data about Windows manageable objects available through WMI [*providers*](gloss-p.md). A provider retrieves data from a system component, such as a process, or an instrumented application, such as SNMP or IIS, and passes that data through WMI to a management application. For example, when an application or script requests process information using the WMI [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) class, the data is obtained dynamically through a preinstalled provider.
+WMI makes data about Windows manageable objects available through WMI [*providers*](gloss-p.md). A provider retrieves data from a system component, such as a process, or an instrumented application, such as SNMP or IIS, and passes that data through WMI to a management application. For example, when an application or script requests process information using the WMI [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) class, the data is obtained dynamically through a preinstalled provider.
 
 The following sections are discussed in this topic:
 
@@ -80,7 +80,7 @@ A provider can be implemented in the following ways:
 
     The provider code is written in C++. For more information, see [Supplying Data to WMI by Writing a Provider](supplying-data-to-wmi-by-writing-a-provider.md).
 
--   Using the classes in the [**Microsoft.Management.Infrastructure**](https://docs.microsoft.com/previous-versions//hh872326(v=vs.85)) namespace in the .NET Framework to create a provider using managed code. (The **System.Management.Instrumentation** namespace is no longer supported.)
+-   Using the classes in the [**Microsoft.Management.Infrastructure**](/previous-versions//hh872326(v=vs.85)) namespace in the .NET Framework to create a provider using managed code. (The **System.Management.Instrumentation** namespace is no longer supported.)
 
     This process creates a decoupled provider.
 
@@ -96,7 +96,7 @@ When the provider code is registered, it is important to properly test the provi
 
 Perform the following tasks to test your provider:
 
--   Ensure that your provider is loading properly by tracking the [**MSFT\_WmiProvider\_OperationEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/wmisystemprov/msft-wmiprovider-operationevent) event notifications. These events will inform you about any provider load failures. Other troubleshooting classes that may be helpful are [**Win32\_ProcessStartTrace**](https://docs.microsoft.com/previous-versions/windows/desktop/krnlprov/win32-processstarttrace) and [**Win32\_ProcessStopTrace**](https://docs.microsoft.com/previous-versions/windows/desktop/krnlprov/win32-processstoptrace). For more information about troubleshooting providers, see [Debugging Providers](debugging-providers.md) and [Provider Configuration and Troubleshooting Classes](provider-configuration-and-troubleshooting-classes.md).
+-   Ensure that your provider is loading properly by tracking the [**MSFT\_WmiProvider\_OperationEvent**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiprovider-operationevent) event notifications. These events will inform you about any provider load failures. Other troubleshooting classes that may be helpful are [**Win32\_ProcessStartTrace**](/previous-versions/windows/desktop/krnlprov/win32-processstarttrace) and [**Win32\_ProcessStopTrace**](/previous-versions/windows/desktop/krnlprov/win32-processstoptrace). For more information about troubleshooting providers, see [Debugging Providers](debugging-providers.md) and [Provider Configuration and Troubleshooting Classes](provider-configuration-and-troubleshooting-classes.md).
 -   If the provider is an instance or method provider, ensure you test each provider capability one-by-one to avoid confusion in following your code logic.
 -   For an instance provider, create a client application or script that invokes every interface of the provider (enumeration, get, put, and delete). Even if the provider is not supposed to implement anything, it should return a "not supported" message. You can find the return values already defined in [WMI Return Codes](wmi-return-codes.md).
 -   To ensure that the desired security context is working as planned, invoke the provider supported operations from a nonadministrator security context. The provider must support impersonation. If a user lacking the correct security credentials tries to update data or perform an operation that executes a method, your provider should deny access with the appropriate error message.
@@ -133,6 +133,3 @@ Perform the following tasks to test your provider:
  
 
  
-
-
-

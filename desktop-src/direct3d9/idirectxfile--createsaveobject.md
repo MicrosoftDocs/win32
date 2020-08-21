@@ -40,7 +40,7 @@ HRESULT CreateSaveObject(
 *szFileName* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Pointer to the name of the file to use for saving data.
 
@@ -100,7 +100,3 @@ The default value for the file format is DXFILEFORMAT\_BINARY. The file format v
  
 
  
-
-
-
-

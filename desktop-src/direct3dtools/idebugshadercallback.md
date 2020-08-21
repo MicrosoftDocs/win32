@@ -26,7 +26,7 @@ Callback to return the instructions generated from creating a shader trace.
 
 ## Members
 
-The **IDebugShaderCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDebugShaderCallback** also has these types of members:
+The **IDebugShaderCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDebugShaderCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IDebugShaderCallback** interface has these methods.
  
 
  
-
-
-

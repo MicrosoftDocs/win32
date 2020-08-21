@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Implementing an AppContainer
 
-An AppContainer is implemented by adding new information to the process token, changing [**SeAccessCheck()**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-seaccesscheck) so that all legacy, unmodified access control list (ACL) objects block access requests from AppContainer processes by default, and re-ACL objects that should be available to AppContainers.
+An AppContainer is implemented by adding new information to the process token, changing [**SeAccessCheck()**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-seaccesscheck) so that all legacy, unmodified access control list (ACL) objects block access requests from AppContainer processes by default, and re-ACL objects that should be available to AppContainers.
 
 ## The process
 
@@ -29,6 +29,3 @@ Both AppContainerSID and CapabilitySID support access masks in Access Control En
  
 
  
-
-
-

@@ -311,7 +311,7 @@ In the code where you will use manipulations, you must create an instance of an 
 IManipulationProcessor* g_pIManipProc;     
 ```
 
-After you have your variable for the manipulation processor and you have included the headers for manipulations, you have to create an instance of the [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) interface. This is a COM object. Therefore, you must call [CoCreateInstance](https://msdn.microsoft.com/library/ms686615.aspx), and then create an instance of your reference to the **IManipulationProcessor**. The following code shows how you can create an instance of this interface.
+After you have your variable for the manipulation processor and you have included the headers for manipulations, you have to create an instance of the [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) interface. This is a COM object. Therefore, you must call [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance), and then create an instance of your reference to the **IManipulationProcessor**. The following code shows how you can create an instance of this interface.
 
 ```C++
    HRESULT hr = CoInitialize(0);
@@ -458,7 +458,3 @@ The custom methods that you have implemented in your event sink should now work.
 
 
  
-
-
-
-

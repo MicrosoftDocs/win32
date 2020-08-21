@@ -26,7 +26,7 @@ Callback to return the list of events in a frame.
 
 ## Members
 
-The **IFrameEventsCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFrameEventsCallback** also has these types of members:
+The **IFrameEventsCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IFrameEventsCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IFrameEventsCallback** interface has these methods.
  
 
  
-
-
-

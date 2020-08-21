@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # People Tagging Overview
 
-This topic introduces the new Extensible Metadata Platform (XMP) schema and the Windows 7 photo property [System.Photo.PeopleNames](https://msdn.microsoft.com/library/dd391582(VS.85).aspx) that enables the tagging of individuals in a digital photo. This topic also discusses how to use the Windows Imaging Component (WIC) API to both read and write the metadata needed for people tagging.
+This topic introduces the new Extensible Metadata Platform (XMP) schema and the Windows 7 photo property [System.Photo.PeopleNames](../properties/props-system-photo-peoplenames.md) that enables the tagging of individuals in a digital photo. This topic also discusses how to use the Windows Imaging Component (WIC) API to both read and write the metadata needed for people tagging.
 
 This topic contains the following sections.
 
@@ -30,7 +30,7 @@ To understand this topic, you should be familiar with the WIC decoder interfaces
 
 ## Introduction
 
-Microsoft has created a new XMP schema for tagging people within a digital image. This schema enables applications to store the names and locations of individuals who are in the image as metadata within the image. In addition to the new schema, the new photo property [System.Photo.PeopleNames](https://msdn.microsoft.com/library/dd391582(VS.85).aspx) is available in Windows 7. This new property enables applications to read the individual's names stored in the image metadata. WIC utilizes these new features by enabling applications to easily read and write people tagging metadata to digital photos.
+Microsoft has created a new XMP schema for tagging people within a digital image. This schema enables applications to store the names and locations of individuals who are in the image as metadata within the image. In addition to the new schema, the new photo property [System.Photo.PeopleNames](../properties/props-system-photo-peoplenames.md) is available in Windows 7. This new property enables applications to read the individual's names stored in the image metadata. WIC utilizes these new features by enabling applications to easily read and write people tagging metadata to digital photos.
 
 ## People Tagging
 
@@ -38,9 +38,9 @@ WIC provides application developers with COM components which read image data as
 
 ### People Names
 
-Part of the people-tagging feature is the ability to simply get a list the names of the people tagged within the image. This part of the feature is supported by the [System.Photo.PeopleNames](https://msdn.microsoft.com/library/dd391582(VS.85).aspx) and WIC's metadata handlers. The [**IWICMetadataQueryReader**](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader) interface, in conjunction with the System.Photo.PeopleNames property, are used to read the names of people identified in an image and stored in the image metadata.
+Part of the people-tagging feature is the ability to simply get a list the names of the people tagged within the image. This part of the feature is supported by the [System.Photo.PeopleNames](../properties/props-system-photo-peoplenames.md) and WIC's metadata handlers. The [**IWICMetadataQueryReader**](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader) interface, in conjunction with the System.Photo.PeopleNames property, are used to read the names of people identified in an image and stored in the image metadata.
 
-The following code example demonstrates a query reader obtained from an image frame to query an image's metadata for tagged names of the [System.Photo.PeopleNames](https://msdn.microsoft.com/library/dd391582(VS.85).aspx) property.
+The following code example demonstrates a query reader obtained from an image frame to query an image's metadata for tagged names of the [System.Photo.PeopleNames](../properties/props-system-photo-peoplenames.md) property.
 
 
 ```C++
@@ -65,7 +65,7 @@ if (SUCCEEDED(hr))
 
 
 
-The query expression "System.Photo.PeopleNames" queries the frame for the property. If the people-tagging metadata exists and contains people's names, the [PROPVARIANT](https://msdn.microsoft.com/library/Aa380072(VS.85).aspx) value will be set to VT\_LPWSTR and the data value will contain the list of tagged names. For more information on reading image metadata, see [Overview of Reading and Writing Image Metadata](-wic-codec-readingwritingmetadata.md).
+The query expression "System.Photo.PeopleNames" queries the frame for the property. If the people-tagging metadata exists and contains people's names, the [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) value will be set to VT\_LPWSTR and the data value will contain the list of tagged names. For more information on reading image metadata, see [Overview of Reading and Writing Image Metadata](-wic-codec-readingwritingmetadata.md).
 
 Querying for the people names tag is only useful if the image actually contains the people-tagging metadata. For this to occur, an application must first have written it. To write the people names metadata, use an [**IWICMetadataQueryWriter**](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataquerywriter) and the explicit XMP path of the metadata. The following code example demonstrates using a query writer to write a name to the query path.
 
@@ -289,6 +289,3 @@ The following is a representation of the XMP metadata for people tagging.
  
 
  
-
-
-

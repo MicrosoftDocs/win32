@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 
 The following code example shows how to update a service connection point. This code is typically executed by a service when it starts.
 
-This example retrieves the SCP's GUID binding string that the service installer cached in the registry. It uses this string to bind to an [**IDirectoryObject**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject) pointer on the SCP object, and then calls the [**IDirectoryObject::GetObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectattributes) method to get the **serviceDNSName** and **serviceBindingInformation** attributes of the SCP. Be aware that your service may require to verify and update additional attributes.
+This example retrieves the SCP's GUID binding string that the service installer cached in the registry. It uses this string to bind to an [**IDirectoryObject**](/windows/desktop/api/iads/nn-iads-idirectoryobject) pointer on the SCP object, and then calls the [**IDirectoryObject::GetObjectAttributes**](/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectattributes) method to get the **serviceDNSName** and **serviceBindingInformation** attributes of the SCP. Be aware that your service may require to verify and update additional attributes.
 
-The code compares the **serviceDNSName** value to the DNS name returned by the [**GetComputerNameEx**](https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa) function. It also compares the service's current port number to the port number stored in the **serviceBindingInformation** attribute. If either of these values have changed, the code calls the [**IDirectoryObject::SetObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-setobjectattributes) method to update the SCP attributes.
+The code compares the **serviceDNSName** value to the DNS name returned by the [**GetComputerNameEx**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa) function. It also compares the service's current port number to the port number stored in the **serviceBindingInformation** attribute. If either of these values have changed, the code calls the [**IDirectoryObject::SetObjectAttributes**](/windows/desktop/api/iads/nf-iads-idirectoryobject-setobjectattributes) method to update the SCP attributes.
 
 
 ```C++
@@ -163,7 +163,3 @@ return dwStat;
  
 
  
-
-
-
-

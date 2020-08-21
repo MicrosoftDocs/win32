@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Specifies whether a decoder is optimized for transcoding rather than for playback.
 
-Currently, this attribute applies only to hardware-based decoders that use the AVStream mini-driver. The attribute is stored in the registry under the decoder's capabilities information. For more information, see the documentation for [**IGetCapabilitiesKey**](https://msdn.microsoft.com/library/Dd390083(v=VS.85).aspx).
+Currently, this attribute applies only to hardware-based decoders that use the AVStream mini-driver. The attribute is stored in the registry under the decoder's capabilities information. For more information, see the documentation for [**IGetCapabilitiesKey**](/windows/win32/api/strmif/nn-strmif-igetcapabilitieskey).
 
 Applications typically do not use this attribute.
 
@@ -49,7 +49,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

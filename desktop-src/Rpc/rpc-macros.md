@@ -12,18 +12,14 @@ This section details the macros that are used with the RPC run-time library.
 
 -   [**Portability Macros**](portability-macros.md)
 -   [**RpcAsyncGetCallHandle**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncgetcallhandle)
--   [**RpcEndExcept**](https://msdn.microsoft.com/library/Aa375629(v=VS.80).aspx)
--   [**RpcEndFinally**](https://msdn.microsoft.com/library/Aa375634(v=VS.80).aspx)
+-   [**RpcEndExcept**](/previous-versions/aa375629(v=vs.80))
+-   [**RpcEndFinally**](/previous-versions/aa375634(v=vs.80))
 -   [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept)
--   [**RpcExceptionCode**](https://msdn.microsoft.com/library/Aa375695(v=VS.80).aspx)
--   [**RpcFinally**](https://msdn.microsoft.com/library/Aa375699(v=VS.80).aspx)
+-   [**RpcExceptionCode**](/previous-versions/aa375695(v=vs.80))
+-   [**RpcFinally**](/previous-versions/aa375699(v=vs.80))
 -   [**RpcTryExcept**](rpctryexcept.md)
 -   [**RpcTryFinally**](rpctryfinally.md)
 
  
 
  
-
-
-
-

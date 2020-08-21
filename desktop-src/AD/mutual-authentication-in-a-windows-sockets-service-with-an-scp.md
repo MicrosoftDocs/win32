@@ -33,7 +33,7 @@ The topics in this section include code examples that show how to perform mutual
     2.  Pass the client credentials and the SPN to the [**InitializeSecurityContext**](../SecAuthN/initializesecuritycontext--general.md) function to generate a security blob to send to the service for authentication. Set the **ISC\_REQ\_MUTUAL\_AUTH** flag to request mutual authentication.
     3.  Exchange blobs with the service until the authentication is complete.
 5.  Verify the returned capabilities mask for the **ISC\_REQ\_MUTUAL\_AUTH** flag to verify that mutual authentication was performed.
-6.  If the authentication was successful, exchange traffic with the authenticated service. Use digital signing to ensure that messages between client and service have not been tampered with. Unless performance requirements are severe, use encryption. For more information and a code example that shows how to use the [**MakeSignature**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-makesignature), [**VerifySignature**](https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-verifysignature), [**EncryptMessage**](../SecAuthN/encryptmessage--general.md), and [**DecryptMessage**](../SecAuthN/decryptmessage--general.md) functions in an SSPI package, see [Ensuring Communication Integrity During Message Exchange](https://docs.microsoft.com/windows/desktop/SecAuthN/ensuring-communication-integrity-during-message-exchange).
+6.  If the authentication was successful, exchange traffic with the authenticated service. Use digital signing to ensure that messages between client and service have not been tampered with. Unless performance requirements are severe, use encryption. For more information and a code example that shows how to use the [**MakeSignature**](/windows/desktop/api/sspi/nf-sspi-makesignature), [**VerifySignature**](/windows/desktop/api/sspi/nf-sspi-verifysignature), [**EncryptMessage**](../SecAuthN/encryptmessage--general.md), and [**DecryptMessage**](../SecAuthN/decryptmessage--general.md) functions in an SSPI package, see [Ensuring Communication Integrity During Message Exchange](/windows/desktop/SecAuthN/ensuring-communication-integrity-during-message-exchange).
 
 **To authenticate the client by the service when a client connects**
 
@@ -54,13 +54,9 @@ For more information and a code example for this mutual authentication scenario,
 For more information, see:
 
 -   [Publishing with service connection points](publishing-with-service-connection-points.md)
--   [SSPI documentation](https://docs.microsoft.com/windows/desktop/SecAuthN/sspi)
--   [Windows Sockets documentation](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
+-   [SSPI documentation](/windows/desktop/SecAuthN/sspi)
+-   [Windows Sockets documentation](/windows/desktop/WinSock/windows-sockets-start-page-2)
 
  
 
  
-
-
-
-

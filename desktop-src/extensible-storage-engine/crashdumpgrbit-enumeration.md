@@ -46,7 +46,7 @@ ROBOTS: INDEX,FOLLOW
 
 Options for JetConfigureProcessForCrashDump.
 
-This enumeration has a [FlagsAttribute](https://docs.microsoft.com/dotnet/api/system.flagsattribute?redirectedfrom=MSDN) attribute that allows a bitwise combination of its member values.
+This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](hh577573\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -126,4 +126,3 @@ public enum CrashDumpGrbit
 #### Reference
 
 [Microsoft.Isam.Esent.Interop.Windows7 namespace](hh577573\(v=exchg.10\).md)
-

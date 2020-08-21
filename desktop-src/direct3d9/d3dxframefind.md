@@ -48,7 +48,7 @@ Pointer to the root frame. See [**D3DXFRAME**](d3dxframe.md).
 *Name* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 Name of the child frame to find.
 
@@ -81,7 +81,3 @@ Returns the child frame if it is found, or **NULL** otherwise. See [**D3DXFRAME*
  
 
  
-
-
-
-

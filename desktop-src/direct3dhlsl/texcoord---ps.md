@@ -48,7 +48,7 @@ The advantage of texcoord is that it provides a way to pass vertex data interpol
 
 No texture is sampled by this instruction. Only texture coordinates set on this texture stage are relevant.
 
-Any texture data (such as position, normal, and light source direction) can be mapped by a vertex shader into a texture coordinate. This is done by associating a texture with a texture register using [**SetTexture**](https://docs.microsoft.com/windows/desktop/direct3d9/id3dxbaseeffect--settexture) and by specifying how the texture sampling is done using [**SetTextureStageState**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexturestagestate). If the fixed function pipeline is used, be sure to supply the TSS\_TEXCOORDINDEX flag.
+Any texture data (such as position, normal, and light source direction) can be mapped by a vertex shader into a texture coordinate. This is done by associating a texture with a texture register using [**SetTexture**](/windows/desktop/direct3d9/id3dxbaseeffect--settexture) and by specifying how the texture sampling is done using [**SetTextureStageState**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexturestagestate). If the fixed function pipeline is used, be sure to supply the TSS\_TEXCOORDINDEX flag.
 
 This instruction is used as follows:
 
@@ -124,7 +124,3 @@ static CUSTOMVERTEX g_Vertices[]=
  
 
  
-
-
-
-

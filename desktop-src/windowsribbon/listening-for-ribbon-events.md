@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Listening for Ribbon Events
 
-The Windows Ribbon framework uses the [Event Tracing for Windows (ETW)](https://msdn.microsoft.com/library/bb968803.aspx) infrastructure to enable developers to learn how users are interacting with their application's ribbon.
+The Windows Ribbon framework uses the [Event Tracing for Windows (ETW)](../etw/event-tracing-portal.md) infrastructure to enable developers to learn how users are interacting with their application's ribbon.
 
 ## Introduction
 
@@ -19,8 +19,8 @@ The Ribbon framework event mechanism is designed such that the framework reports
 
 Using the Ribbon framework events involves the following:
 
-1.  The ribbon application must register an [Event Tracing for Windows (ETW)](https://msdn.microsoft.com/library/bb968803.aspx) listener to receive ribbon event notifications from the Ribbon framework.
-2.  The Ribbon framework fires ribbon UI event callbacks at run time, if the application has registered an [Event Tracing for Windows (ETW)](https://msdn.microsoft.com/library/bb968803.aspx) listener.
+1.  The ribbon application must register an [Event Tracing for Windows (ETW)](../etw/event-tracing-portal.md) listener to receive ribbon event notifications from the Ribbon framework.
+2.  The Ribbon framework fires ribbon UI event callbacks at run time, if the application has registered an [Event Tracing for Windows (ETW)](../etw/event-tracing-portal.md) listener.
 
 ## Supported events
 
@@ -130,7 +130,7 @@ The application is responsible for unpacking this integer to determine which mod
 [Windows Ribbon Framework Developer Guides](windowsribbon-guides-entry.md)
 </dt> <dt>
 
-[Declaring Commands and Controls with Ribbon Markup](https://msdn.microsoft.com/library/Dd316913(v=VS.85).aspx)
+[Declaring Commands and Controls with Ribbon Markup](./windowsribbon-schema.md)
 </dt> <dt>
 
 [Ribbon User Experience Guidelines](https://msdn.microsoft.com/library/cc872782.aspx)
@@ -140,10 +140,4 @@ The application is responsible for unpacking this integer to determine which mod
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

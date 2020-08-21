@@ -29,7 +29,7 @@ When the installer executes a script of installer actions. In Microsoft Windows�
 <span id="_msi_execution_script_gly"></span><span id="_MSI_EXECUTION_SCRIPT_GLY"></span>**execution script**
 </dt> <dd>
 
-Installer actions for an installation. The execution script is generated during the [*acquisition phase*](a-gly.md) of installation and executed during the [*execution phase*](https://docs.microsoft.com/windows). For more information, see [Installation Mechanism](installation-mechanism.md).
+Installer actions for an installation. The execution script is generated during the [*acquisition phase*](a-gly.md) of installation and executed during the [*execution phase*](/windows). For more information, see [Installation Mechanism](installation-mechanism.md).
 
 </dd> <dt>
 
@@ -50,6 +50,3 @@ UI provided by the author of an installation package. It does not use the intern
  
 
  
-
-
-

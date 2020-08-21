@@ -41,13 +41,13 @@ z.OtherProperty = 5323
 
 
 
-In this code example, two extension components extend a **user** object. Each extension publishes its own interface. Each extension does not recognize the other extension interface; only ADSI recognizes the existence of both extensions. Each extension delegates its [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) to ADSI. ADSI acts as an aggregator for both extensions, and any other future extensions. Querying an interface from any extension, or from ADSI, yields the same consistent result.
+In this code example, two extension components extend a **user** object. Each extension publishes its own interface. Each extension does not recognize the other extension interface; only ADSI recognizes the existence of both extensions. Each extension delegates its [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) to ADSI. ADSI acts as an aggregator for both extensions, and any other future extensions. Querying an interface from any extension, or from ADSI, yields the same consistent result.
 
 The following procedure describes how to create an extension.
 
 ## Step 1: Add Aggregation to Your Component
 
-Follow the COM specification for adding aggregation to your component. In summary, you must accept the *pUnknown* requests to your component during **CreateInstance**, and delegate the *pUnknown* to the aggregator's [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) if the component is aggregated.
+Follow the COM specification for adding aggregation to your component. In summary, you must accept the *pUnknown* requests to your component during **CreateInstance**, and delegate the *pUnknown* to the aggregator's [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) if the component is aggregated.
 
 ## Step 2: Register Your Extension
 
@@ -146,7 +146,3 @@ return S_OK;
  
 
  
-
-
-
-

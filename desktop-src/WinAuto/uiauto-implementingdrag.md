@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 # Drag Control Pattern
 
-Provides guidelines and conventions for implementing the **Drag** control pattern by using [**IDragProvider**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idragprovider), including information about properties and methods. The **Drag** control pattern is used to support draggable controls, or controls with draggable items.
+Provides guidelines and conventions for implementing the **Drag** control pattern by using [**IDragProvider**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idragprovider), including information about properties and methods. The **Drag** control pattern is used to support draggable controls, or controls with draggable items.
 
 ## Implementation Guidelines and Conventions
 
@@ -37,7 +37,7 @@ When implementing the **Drag** control pattern, use these guidelines and convent
 
 ## Required Members for **IDragProvider**
 
-The following properties and methods are required for implementing the [**IDragProvider**](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idragprovider) interface.
+The following properties and methods are required for implementing the [**IDragProvider**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idragprovider) interface.
 
 
 
@@ -62,7 +62,7 @@ The following properties and methods are required for implementing the [**IDragP
 [Control Types and their Supported Control Patterns](uiauto-controlpatternmapping.md)
 </dt> <dt>
 
-[DropTarget Control Pattern](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingdroptarget)
+[DropTarget Control Pattern](/windows/desktop/WinAuto/uiauto-implementingdroptarget)
 </dt> <dt>
 
 [UI Automation Control Patterns Overview](uiauto-controlpatternsoverview.md)
@@ -77,7 +77,3 @@ The following properties and methods are required for implementing the [**IDragP
  
 
  
-
-
-
-

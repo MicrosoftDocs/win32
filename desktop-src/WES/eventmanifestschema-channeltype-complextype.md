@@ -105,7 +105,7 @@ Defines a channel to which providers can log events.
 <tr class="odd">
 <td>access</td>
 <td>string</td>
-<td>A <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language">Security Descriptor Definition Language</a> (SDDL) access descriptor that controls access to the log file that backs the channel. If the <strong>isolation</strong> attribute is set to Application or System, the access descriptor controls read access to the file (the write permissions are ignored). If the <strong>isolation</strong> attribute is set to Custom, the access descriptor controls write access to the channel and read access to the file.<br/></td>
+<td>A <a href="/windows/desktop/SecAuthZ/security-descriptor-definition-language">Security Descriptor Definition Language</a> (SDDL) access descriptor that controls access to the log file that backs the channel. If the <strong>isolation</strong> attribute is set to Application or System, the access descriptor controls read access to the file (the write permissions are ignored). If the <strong>isolation</strong> attribute is set to Custom, the access descriptor controls write access to the channel and read access to the file.<br/></td>
 </tr>
 <tr class="even">
 <td>chid</td>

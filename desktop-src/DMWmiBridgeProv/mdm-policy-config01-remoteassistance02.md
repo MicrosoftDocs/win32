@@ -54,7 +54,7 @@ The **MDM\_Policy\_Config01\_RemoteAssistance02** class has these properties.
 
 <dl> <dt>
 
-[CustomizeWarningMessages](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remoteassistance#remoteassistance-customizewarningmessages)
+[CustomizeWarningMessages](/windows/client-management/mdm/policy-csp-remoteassistance#remoteassistance-customizewarningmessages)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -74,7 +74,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -88,12 +88,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[SessionLogging](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remoteassistance#remoteassistance-sessionlogging)
+[SessionLogging](/windows/client-management/mdm/policy-csp-remoteassistance#remoteassistance-sessionlogging)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -104,7 +104,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SolicitedRemoteAssistance](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remoteassistance#remoteassistance-solicitedremoteassistance)
+[SolicitedRemoteAssistance](/windows/client-management/mdm/policy-csp-remoteassistance#remoteassistance-solicitedremoteassistance)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -115,7 +115,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[UnsolicitedRemoteAssistance](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remoteassistance#remoteassistance-unsolicitedremoteassistance)
+[UnsolicitedRemoteAssistance](/windows/client-management/mdm/policy-csp-remoteassistance#remoteassistance-unsolicitedremoteassistance)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -141,10 +141,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

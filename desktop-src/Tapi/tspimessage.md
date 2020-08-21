@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # TSPIMessage
 
-**TSPIMessage** is an enumeration type that defines the set of additional [**LINEEVENT**](https://msdn.microsoft.com/library/ms725228(v=VS.85).aspx) and [**PHONEEVENT**](https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-phoneevent) functions appearing in TSPI that do not appear in TAPI.
+**TSPIMessage** is an enumeration type that defines the set of additional [**LINEEVENT**](/windows/win32/api/tspi/nc-tspi-lineevent) and [**PHONEEVENT**](/windows/desktop/api/tspi/nc-tspi-phoneevent) functions appearing in TSPI that do not appear in TAPI.
 
 ## Parameters
 
@@ -45,6 +45,3 @@ Specifies that a device-specific feature event has occurred on a call device.
  
 
  
-
-
-

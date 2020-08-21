@@ -57,7 +57,7 @@ The **MDM\_VPNv2\_TrafficFilterList02\_01** class has these properties.
 
 <dl> <dt>
 
-[Claims](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trafficfilterlist-trafficfilterid-claims)
+[Claims](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trafficfilterlist-trafficfilterid-claims)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -77,14 +77,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node.
 
 </dd> <dt>
 
-[LocalAddressRanges](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trafficfilterlist-trafficfilterid-localaddressranges)
+[LocalAddressRanges](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trafficfilterlist-trafficfilterid-localaddressranges)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -95,7 +95,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LocalPortRanges](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trafficfilterlist-trafficfilterid-localportranges)
+[LocalPortRanges](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trafficfilterlist-trafficfilterid-localportranges)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -115,14 +115,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/VPNv2/*ProfileName*/TrafficFilterList"
 
 </dd> <dt>
 
-[Protocol](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trafficfilterlist-trafficfilterid-protocol)
+[Protocol](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trafficfilterlist-trafficfilterid-protocol)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -133,7 +133,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RemoteAddressRanges](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trafficfilterlist-trafficfilterid-remoteaddressranges)
+[RemoteAddressRanges](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trafficfilterlist-trafficfilterid-remoteaddressranges)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -144,7 +144,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RemotePortRanges](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trafficfilterlist-trafficfilterid-remoteportranges)
+[RemotePortRanges](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trafficfilterlist-trafficfilterid-remoteportranges)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -155,7 +155,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[RoutingPolicyType](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trafficfilterlist-trafficfilterid-routingpolicytype)
+[RoutingPolicyType](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trafficfilterlist-trafficfilterid-routingpolicytype)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -184,14 +184,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

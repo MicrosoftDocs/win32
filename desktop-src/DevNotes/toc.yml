@@ -310,7 +310,7 @@
         - name: "CCAB"
           href: /windows/desktop/api/Fci/ns-fci-ccab
         - name: "ERF"
-          href: https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf
+          href: /windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf
         - name: "FDICABINETINFO"
           href: /windows/desktop/api/Fdi/ns-fdi-fdicabinetinfo
         - name: "FDINOTIFICATION"
@@ -324,33 +324,33 @@
       href: virtual-dos-machine-debug.md
       items: 
       - name: "ProcessVDMs"
-        href: https://docs.microsoft.com/previous-versions//bb963829(v=vs.85)
+        href: /previous-versions//bb963829(v=vs.85)
       - name: "ProcessTasks"
-        href: https://docs.microsoft.com/previous-versions//bb963828(v=vs.85)
+        href: /previous-versions//bb963828(v=vs.85)
       - name: "VDMEnumProcessWOW"
         href: /windows/desktop/api/VdmDbg/nf-vdmdbg-vdmenumprocesswow
       - name: "VDMEnumTaskWOWEx"
         href: /windows/desktop/api/VdmDbg/nf-vdmdbg-vdmenumtaskwowex
     - name: "SymbolServer"
-      href: https://docs.microsoft.com/previous-versions//ff797950(v=vs.85)
+      href: /previous-versions//ff797950(v=vs.85)
     - name: "SymbolServerCallback"
       href: /windows/desktop/api/DbgHelp/nc-dbghelp-psymbolservercallbackproc
     - name: "SymbolServerClose"
-      href: https://docs.microsoft.com/previous-versions//ff797952(v=vs.85)
+      href: /previous-versions//ff797952(v=vs.85)
     - name: "SymbolServerGetOptionData"
-      href: https://docs.microsoft.com/previous-versions//mt732697(v=vs.85)
+      href: /previous-versions//mt732697(v=vs.85)
     - name: "SymbolServerGetOptions"
-      href: https://docs.microsoft.com/previous-versions//ff797953(v=vs.85)
+      href: /previous-versions//ff797953(v=vs.85)
     - name: "SymbolServerIsStore"
-      href: https://docs.microsoft.com/previous-versions//mt732698(v=vs.85)
+      href: /previous-versions//mt732698(v=vs.85)
     - name: "SymbolServerPingWEx"
-      href: https://docs.microsoft.com/previous-versions//mt732699(v=vs.85)
+      href: /previous-versions//mt732699(v=vs.85)
     - name: "SymbolServerSetHttpAuthHeader"
-      href: https://docs.microsoft.com/previous-versions//mt493460(v=vs.85)
+      href: /previous-versions//mt493460(v=vs.85)
     - name: "SymbolServerSetOptions"
-      href: https://docs.microsoft.com/previous-versions//ff797954(v=vs.85)
+      href: /previous-versions//ff797954(v=vs.85)
     - name: "SymbolServerStoreFile"
-      href: https://docs.microsoft.com/previous-versions//ee942775(v=vs.85)
+      href: /previous-versions//ee942775(v=vs.85)
   - name: "Diagnostics"
     href: Diagnostics.md
     items: 
@@ -834,7 +834,7 @@
     - name: "RtlUTF8ToUnicodeN"
       href: rtlutf8tounicoden.md
     - name: "SendIMEMessage"
-      href: https://docs.microsoft.com/previous-versions/hh457667(v=vs.85)
+      href: /previous-versions/hh457667(v=vs.85)
     - name: "SendIMEMessageEx"
       href: /windows/desktop/api/Ime/nf-ime-sendimemessageexa
     - name: "STRING"
@@ -850,21 +850,21 @@
       href: /windows/desktop/api/Exdisp/nn-exdisp-iwebbrowser2
       items: 
       - name: "HWND property"
-        href: https://docs.microsoft.com/previous-versions//mt725310(v=vs.85)
+        href: /previous-versions//mt725310(v=vs.85)
       - name: "TheaterMode property"
         href: /windows/desktop/api/Exdisp/nf-exdisp-iwebbrowser2-get_theatermode
       - name: "ToolBar property"
-        href: https://docs.microsoft.com/previous-versions//mt725312(v=vs.85)
+        href: /previous-versions//mt725312(v=vs.85)
   - name: "Installation"
     href: installation.md
     items: 
     - name: "CoInstall"
-      href: https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinstall
+      href: /windows/desktop/api/objbase/nf-objbase-coinstall
       items: 
       - name: "CSPLATFORM"
-        href: https://docs.microsoft.com/previous-versions//bb432231(v=vs.85)
+        href: /previous-versions//bb432231(v=vs.85)
       - name: "QUERYCONTEXT"
-        href: https://docs.microsoft.com/previous-versions//bb432414(v=vs.85)
+        href: /previous-versions//bb432414(v=vs.85)
       - name: "TYSPEC"
         href: tyspec.md
     - name: "IcfgInstallInetComponents"
@@ -915,7 +915,7 @@
     - name: "VerifyCatalogFile"
       href: verifycatalogfile.md
   - name: "iSCSI Target Pass-Through"
-    href: https://docs.microsoft.com/powershell/module/iscsi
+    href: /powershell/module/iscsi
     items: 
     - name: "SENSE_DATA"
       href: sense-data.md
@@ -975,7 +975,7 @@
       - name: "NETLOGON_INFO_4"
         href: /windows/win32/api/Lmaccess/ns-lmaccess-netlogon_info_4
     - name: "ResumeSuspendedDownload"
-      href: https://docs.microsoft.com/previous-versions//bb432423(v=vs.85)
+      href: /previous-versions//bb432423(v=vs.85)
     - name: "RPC NDR Engine"
       href: rpc-ndr-engine.md
       items: 
@@ -1212,9 +1212,9 @@
       href: ntsecpkg.md
       items: 
       - name: "SealMessage"
-        href: https://docs.microsoft.com/previous-versions//bb432479(v=vs.85)
+        href: /previous-versions//bb432479(v=vs.85)
       - name: "UnsealMessage"
-        href: https://docs.microsoft.com/previous-versions//bb432499(v=vs.85)
+        href: /previous-versions//bb432499(v=vs.85)
     - name: "Safer API"
       href: safer-api.md
       items: 
@@ -1314,11 +1314,11 @@
         - name: "CACHE_DESTROY_CALLBACK"
           href: /windows/desktop/api/Filehc/nc-filehc-cache_destroy_callback
         - name: "CACHE_READ_CALLBACK"
-          href: https://docs.microsoft.com/previous-versions//bb432262(v=vs.85)
+          href: /previous-versions//bb432262(v=vs.85)
         - name: "FCACHE_CREATE_CALLBACK"
-          href: https://docs.microsoft.com/previous-versions//bb432261(v=vs.85)
+          href: /previous-versions//bb432261(v=vs.85)
         - name: "FCACHE_RICHCREATE_CALLBACK"
-          href: https://docs.microsoft.com/previous-versions//bb432263(v=vs.85)
+          href: /previous-versions//bb432263(v=vs.85)
       - name: "FCachDLL Functions"
         href: fcachdll-functions.md
         items: 
@@ -1413,32 +1413,32 @@
       - name: "GetIdleMinutes"
         href: getidleminutes.md
     - name: "InitializeCriticalSectionAndSpinCount (KernelBase)"
-      href: https://docs.microsoft.com/previous-versions//ee388306(v=vs.85)
+      href: /previous-versions//ee388306(v=vs.85)
     - name: "ObFindHandleForObject"
       href: obfindhandleforobject.md
     - name: "Pointers"
       href: pointers.md
       items: 
       - name: "DecodePointer"
-        href: https://docs.microsoft.com/previous-versions//bb432242(v=vs.85)
+        href: /previous-versions//bb432242(v=vs.85)
       - name: "DecodePointer (KernelBase)"
-        href: https://docs.microsoft.com/previous-versions//ee388304(v=vs.85)
+        href: /previous-versions//ee388304(v=vs.85)
       - name: "DecodeRemotePointer"
-        href: https://docs.microsoft.com/previous-versions//dn877133(v=vs.85)
+        href: /previous-versions//dn877133(v=vs.85)
       - name: "DecodeSystemPointer"
-        href: https://docs.microsoft.com/previous-versions//bb432243(v=vs.85)
+        href: /previous-versions//bb432243(v=vs.85)
       - name: "EncodePointer"
-        href: https://docs.microsoft.com/previous-versions//bb432254(v=vs.85)
+        href: /previous-versions//bb432254(v=vs.85)
       - name: "EncodePointer (KernelBase)"
-        href: https://docs.microsoft.com/previous-versions//ee388305(v=vs.85)
+        href: /previous-versions//ee388305(v=vs.85)
       - name: "EncodeRemotePointer"
-        href: https://docs.microsoft.com/previous-versions//dn877135(v=vs.85)
+        href: /previous-versions//dn877135(v=vs.85)
       - name: "EncodeSystemPointer"
-        href: https://docs.microsoft.com/previous-versions//bb432255(v=vs.85)
+        href: /previous-versions//bb432255(v=vs.85)
     - name: "RegDeleteKeyEx (Api-ms-win)"
-      href: https://docs.microsoft.com/previous-versions//ee361587(v=vs.85)
+      href: /previous-versions//ee361587(v=vs.85)
     - name: "RegDeleteKeyEx (KernelBase)"
-      href: https://docs.microsoft.com/previous-versions//ee125877(v=vs.85)
+      href: /previous-versions//ee125877(v=vs.85)
     - name: "Run-time Library"
       href: run-time-library.md
       items: 
@@ -1449,7 +1449,7 @@
       - name: "RtlRaiseException"
         href: /windows/desktop/api/RtlSupportApi/nf-rtlsupportapi-rtlraiseexception
     - name: "SetThreadStackGuarantee (KernelBase)"
-      href: https://docs.microsoft.com/previous-versions//ee388307(v=vs.85)
+      href: /previous-versions//ee388307(v=vs.85)
     - name: "SndVol32.exe"
       href: sndvol32-exe-.md
     - name: "uaw_wcslen"

@@ -61,7 +61,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates that the referenced setting is currently being used in the operation of the element or that this information is unknown. This property is inherited from [**CIM\_ElementSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata). The default value is 0 (Unknown).
+Indicates that the referenced setting is currently being used in the operation of the element or that this information is unknown. This property is inherited from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata). The default value is 0 (Unknown).
 
 <dl> <dt>
 
@@ -85,7 +85,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates that the referenced setting is a default setting for the element or that this information is unknown. This property is inherited from [**CIM\_ElementSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata). The default value is 0 (Unknown).
+Indicates that the referenced setting is a default setting for the element or that this information is unknown. This property is inherited from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata). The default value is 0 (Unknown).
 
 <dl> <dt>
 
@@ -109,7 +109,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the referenced setting is the next setting to be applied. This property is inherited from [**CIM\_ElementSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata). The default value is 0 (Unknown).
+Indicates whether the referenced setting is the next setting to be applied. This property is inherited from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata). The default value is 0 (Unknown).
 
 <dl> <dt>
 
@@ -130,32 +130,32 @@ Indicates whether the referenced setting is the next setting to be applied. This
 **ManagedElement**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_ManagedElement**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
+Data type: **[**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-Reference to the virtual machine or virtual device. This property is inherited from [**CIM\_ElementSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata).
+Reference to the virtual machine or virtual device. This property is inherited from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata).
 
 </dd> <dt>
 
 **SettingData**
 </dt> <dd> <dl> <dt>
 
-Data type: **[**CIM\_SettingData**](https://docs.microsoft.com/previous-versions//cc136911(v=vs.85))**
+Data type: **[**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85))**
 </dt> <dt>
 
 Access type: Read-only
 </dt> </dl>
 
-Reference to the snapshotted settings for the virtual machine or virtual device. This property is inherited from [**CIM\_ElementSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata).
+Reference to the snapshotted settings for the virtual machine or virtual device. This property is inherited from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata).
 
 </dd> </dl>
 
 ## Remarks
 
-Access to the **Msvm\_ElementSettingData** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the **Msvm\_ElementSettingData** class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Examples
 
@@ -182,16 +182,11 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [**CIM\_ElementSettingData**](cim-elementsettingdata.md)
 </dt> <dt>
 
-[**CIM\_ElementSettingData**](https://docs.microsoft.com/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata)
+[**CIM\_ElementSettingData**](/previous-versions/windows/desktop/iscsitarg/cim-elementsettingdata)
 </dt> <dt>
 
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

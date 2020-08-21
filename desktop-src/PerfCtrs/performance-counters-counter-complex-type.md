@@ -386,7 +386,7 @@ Defines a counter.
 <tr class="even">
 <td>type</td>
 
-<td>The name of the counter type. For possible values, see the above syntax block. For details of each type, see <a href="https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2">Counter Types</a> in the Windows 2003 Deployment Guide. The name is case-sensitive use lowercase. <br/></td>
+<td>The name of the counter type. For possible values, see the above syntax block. For details of each type, see <a href="/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)">Counter Types</a> in the Windows 2003 Deployment Guide. The name is case-sensitive use lowercase. <br/></td>
 </tr>
 <tr class="odd">
 <td>uri</td>
@@ -414,9 +414,4 @@ To provide backwards-compatibility, each counter in the counter set should speci
 
 
  
-
- 
-
-
-
 

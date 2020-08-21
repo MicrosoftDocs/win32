@@ -49,7 +49,7 @@ There are two ways to set a boolean constant in a shader.
 
 1.  Use defb - vs to define the constant directly inside a shader.
 2.  Use the API methods to set a constant.
-    -   Use [**SetVertexShaderConstantB**](https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstantb) to set a Boolean constant.
+    -   Use [**SetVertexShaderConstantB**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstantb) to set a Boolean constant.
 
 ## Related topics
 
@@ -67,7 +67,3 @@ There are two ways to set a boolean constant in a shader.
  
 
  
-
-
-
-

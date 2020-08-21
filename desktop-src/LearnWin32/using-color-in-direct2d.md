@@ -29,7 +29,7 @@ Direct2D uses the RGB color model, in which colors are formed by combining diffe
 
 ![an image that shows rgb colors.](images/graphics13.png)
 
-Color values between 0 and 1 result in different shades of these pure colors. Direct2D uses the [**D2D1\_COLOR\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f) structure to represent colors. For example, the following code specifies magenta.
+Color values between 0 and 1 result in different shades of these pure colors. Direct2D uses the [**D2D1\_COLOR\_F**](/windows/desktop/Direct2D/d2d1-color-f) structure to represent colors. For example, the following code specifies magenta.
 
 
 ```C++
@@ -44,7 +44,7 @@ Color values between 0 and 1 result in different shades of these pure colors. Di
 
 
 
-You can also specify a color using the [**D2D1::ColorF**](https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-colorf) class, which derives from the [**D2D1\_COLOR\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f) structure.
+You can also specify a color using the [**D2D1::ColorF**](/windows/desktop/api/d2d1helper/nl-d2d1helper-colorf) class, which derives from the [**D2D1\_COLOR\_F**](/windows/desktop/Direct2D/d2d1-color-f) structure.
 
 
 ```C++
@@ -74,9 +74,9 @@ The following image shows the result of this blending operation.
 
 ## Pixel Formats
 
-The [**D2D1\_COLOR\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f) structure does not describe how a pixel is represented in memory. In most cases, that doesn't matter. Direct2D handles all of the internal details of translating color information into pixels. But you might need to know the pixel format if you are working directly with a bitmap in memory, or if you combine Direct2D with Direct3D or GDI.
+The [**D2D1\_COLOR\_F**](/windows/desktop/Direct2D/d2d1-color-f) structure does not describe how a pixel is represented in memory. In most cases, that doesn't matter. Direct2D handles all of the internal details of translating color information into pixels. But you might need to know the pixel format if you are working directly with a bitmap in memory, or if you combine Direct2D with Direct3D or GDI.
 
-The [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration defines a list of pixel formats. The list is fairly long, but only a few of them are relevant to Direct2D. (The others are used by Direct3D).
+The [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration defines a list of pixel formats. The list is fairly long, but only a few of them are relevant to Direct2D. (The others are used by Direct3D).
 
 
 
@@ -84,7 +84,7 @@ The [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat
 |----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="DXGI_FORMAT_B8G8R8A8_UNORM"></span><span id="dxgi_format_b8g8r8a8_unorm"></span>**DXGI\_FORMAT\_B8G8R8A8\_UNORM**<br/> | This is the most common pixel format. All pixel components (red, green, blue, and alpha) are 8-bit unsigned integers. The components are arranged in *BGRA* order in memory. (See illustration that follows.)<br/>                                          |
 | <span id="DXGI_FORMAT_R8G8B8A8_UNORM"></span><span id="dxgi_format_r8g8b8a8_unorm"></span>**DXGI\_FORMAT\_R8G8B8A8\_UNORM**<br/> | Pixel components are 8-bit unsigned integers, in *RGBA* order. In other words, the red and blue components are swapped, relative to **DXGI\_FORMAT\_B8G8R8A8\_UNORM**. This format is supported only for hardware devices.<br/>                             |
-| <span id="DXGI_FORMAT_A8_UNORM"></span><span id="dxgi_format_a8_unorm"></span>**DXGI\_FORMAT\_A8\_UNORM**<br/>                   | This format contains an 8-bit alpha component, with no RGB components. It is useful for creating opacity masks. To read more about using opacity masks in Direct2D, see [Compatible A8 Render Targets Overview](https://docs.microsoft.com/windows/desktop/Direct2D/compatible-a8-rendertargets).<br/> |
+| <span id="DXGI_FORMAT_A8_UNORM"></span><span id="dxgi_format_a8_unorm"></span>**DXGI\_FORMAT\_A8\_UNORM**<br/>                   | This format contains an 8-bit alpha component, with no RGB components. It is useful for creating opacity masks. To read more about using opacity masks in Direct2D, see [Compatible A8 Render Targets Overview](/windows/desktop/Direct2D/compatible-a8-rendertargets).<br/> |
 
 
 
@@ -94,7 +94,7 @@ The following illustration shows BGRA pixel layout.
 
 ![a diagram that shows bgra pixel layout.](images/graphics14.png)
 
-To get the pixel format of a render target, call [**ID2D1RenderTarget::GetPixelFormat**](https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getpixelformat). The pixel format might not match the display resolution. For example, the display might be set to 16-bit color, even though the render target uses 32-bit color.
+To get the pixel format of a render target, call [**ID2D1RenderTarget::GetPixelFormat**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getpixelformat). The pixel format might not match the display resolution. For example, the display might be set to 16-bit color, even though the render target uses 32-bit color.
 
 ### Alpha Mode
 
@@ -114,19 +114,13 @@ A render target also has an alpha mode, which defines how the alpha values are t
 
 Here is an example of the difference between straight alpha and premultiplied alpha. Suppose the desired color is pure red (100% intensity) with 50% alpha. As a Direct2D type, this color would be represented as (1, 0, 0, 0.5). Using straight alpha, and assuming 8-bit color components, the red component of the pixel is 0xFF. Using premultiplied alpha, the red component is scaled by 50% to equal 0x80.
 
-The [**D2D1\_COLOR\_F**](https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f) data type always represents colors using straight alpha. Direct2D converts pixels to premultiplied alpha format if needed.
+The [**D2D1\_COLOR\_F**](/windows/desktop/Direct2D/d2d1-color-f) data type always represents colors using straight alpha. Direct2D converts pixels to premultiplied alpha format if needed.
 
-If you know that your program will not perform any alpha blending, create the render target with the **D2D1\_ALPHA\_MODE\_IGNORE** alpha mode. This mode can improve performance, because Direct2D can skip the alpha calculations. For more information, see [Improving the Performance of Direct2D Applications](https://docs.microsoft.com/windows/desktop/Direct2D/improving-direct2d-performance).
+If you know that your program will not perform any alpha blending, create the render target with the **D2D1\_ALPHA\_MODE\_IGNORE** alpha mode. This mode can improve performance, because Direct2D can skip the alpha calculations. For more information, see [Improving the Performance of Direct2D Applications](/windows/desktop/Direct2D/improving-direct2d-performance).
 
 ## Next
 
 [Applying Transforms in Direct2D](applying-transforms-in-direct2d.md)
 
  
-
- 
-
-
-
-
 

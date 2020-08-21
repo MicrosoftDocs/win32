@@ -91,7 +91,7 @@ A globally unique identifier for a package. It is composed of a tuple of attribu
 <span id="appxpkg.appx_packaging_glossary_package_relative_application_id"></span><span id="APPXPKG.APPX_PACKAGING_GLOSSARY_PACKAGE_RELATIVE_APPLICATION_ID"></span>**package relative application ID**
 </dt> <dd>
 
-The **Id** attribute on the [**Application**](https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema2010-v2/element-application) element within the package manifest, which is also known as PRAID. This string uniquely identifies an app within a package. This attribute is required for the **Application** element.
+The **Id** attribute on the [**Application**](/uwp/schemas/appxpackage/appxmanifestschema2010-v2/element-application) element within the package manifest, which is also known as PRAID. This string uniquely identifies an app within a package. This attribute is required for the **Application** element.
 
 </dd> <dt>
 
@@ -119,7 +119,3 @@ The byte sequences in a ZIP file that store metadata about the ZIP archive and i
  
 
  
-
-
-
-

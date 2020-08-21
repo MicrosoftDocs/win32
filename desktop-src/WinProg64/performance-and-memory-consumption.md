@@ -22,12 +22,8 @@ Performance and memory consumption under WOW64 are determined by the following f
 
 WOW64 enables 32-bit applications to take advantage of the 64-bit kernel. Therefore, 32-bit applications can use a larger number of kernel handles and window handles. However, 32-bit applications may not be able to create as many threads under WOW64 as they can when running natively on x86-based systems because WOW64 allocates an additional 64-bit stack (usually 512 KB) for each thread. In addition, some amount of address space is reserved for WOW64 itself and the data structures it uses. The amount reserved depends on the processor; more is reserved on the Intel Itanium than on the x64 or ARM64 processors.
 
-If the application has the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image) flag set in the image header, each 32-bit application receives 4 GB of virtual address space in the WOW64 environment. If the **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** flag is not set, each 32-bit application receives 2 GB of virtual address space in the WOW64 environment.
+If the application has the [**IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE**](/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image) flag set in the image header, each 32-bit application receives 4 GB of virtual address space in the WOW64 environment. If the **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** flag is not set, each 32-bit application receives 2 GB of virtual address space in the WOW64 environment.
 
  
 
  
-
-
-
-

@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Creating an Instance
 
-An instance is a case of a class that describes a particular object on your enterprise. For example, if you have two CD-ROM drives in a desktop platform, you could use two instances of the [**Win32\_CDROMDrive**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-cdromdrive) class to describe both of them. Because an instance represents a real property of your enterprise, you are most likely to create more instances than classes. Each class that an instance is created from has one or more key properties. You cannot create an instance with more than 256 keys.
+An instance is a case of a class that describes a particular object on your enterprise. For example, if you have two CD-ROM drives in a desktop platform, you could use two instances of the [**Win32\_CDROMDrive**](/windows/desktop/CIMWin32Prov/win32-cdromdrive) class to describe both of them. Because an instance represents a real property of your enterprise, you are most likely to create more instances than classes. Each class that an instance is created from has one or more key properties. You cannot create an instance with more than 256 keys.
 
 For more information about creating instances, see the following topics:
 
@@ -27,6 +27,3 @@ For more information about creating instances, see the following topics:
  
 
  
-
-
-

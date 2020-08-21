@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 The compound file implementation of [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) allows you to create and manage substorages and streams within a storage object residing in a compound file object. To create a compound file object and get an **IStorage** pointer, call the API function [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex). To open an existing compound file object and get its root **IStorage** pointer, call [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex).
 
-Applications that use compound storage should be registered in HKEY\_CLASSES\_ROOT\\SystemFileAssociations and should provide their own property handlers. For more information, see the "Registering Verbs and Other File Association Information" section of [Application Registration](https://docs.microsoft.com/windows/desktop/shell/app-registration).
+Applications that use compound storage should be registered in HKEY\_CLASSES\_ROOT\\SystemFileAssociations and should provide their own property handlers. For more information, see the "Registering Verbs and Other File Association Information" section of [Application Registration](/windows/desktop/shell/app-registration).
 
 ## When to Use
 
@@ -188,7 +188,3 @@ When a simple-mode storage object is used to create a stream, the minimum size o
  
 
  
-
-
-
-

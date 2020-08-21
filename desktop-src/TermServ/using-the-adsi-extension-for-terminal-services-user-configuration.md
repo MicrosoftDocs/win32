@@ -17,19 +17,15 @@ The ADSI extension for Remote Desktop Services user configuration supports the e
 
 The provider implements the following methods:
 
--   [**IADs::Get**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get). This method searches for a specific property or set of properties on an instance of the class.
--   [**IADs::Put**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put). This method configures a specific property or set of properties on an instance of the class.
+-   [**IADs::Get**](/windows/desktop/api/iads/nf-iads-iads-get). This method searches for a specific property or set of properties on an instance of the class.
+-   [**IADs::Put**](/windows/desktop/api/iads/nf-iads-iads-put). This method configures a specific property or set of properties on an instance of the class.
 
 See the [Reference for the ADSI Extension for Remote Desktop Services User Configuration](reference-for-the-adsi-extension-for-terminal-services-user-configuration.md) for a list of the specific Remote Desktop Services user properties you can configure.
 
-For more information about accessing and modifying attributes with ADSI, see [Accessing and Manipulating Data with ADSI](https://docs.microsoft.com/windows/desktop/ADSI/accessing-and-manipulating-data-with-adsi).
+For more information about accessing and modifying attributes with ADSI, see [Accessing and Manipulating Data with ADSI](/windows/desktop/ADSI/accessing-and-manipulating-data-with-adsi).
 
-For more information about using ADSI naming conventions and AdsPath strings, see the information about individual [ADSI Service Providers](https://docs.microsoft.com/windows/desktop/ADSI/adsi-system-providers) in the [Active Directory Service Interfaces](https://docs.microsoft.com/windows/desktop/ADSI/active-directory-service-interfaces-adsi) Platform Software Development Kit (SDK) documentation.
-
- 
+For more information about using ADSI naming conventions and AdsPath strings, see the information about individual [ADSI Service Providers](/windows/desktop/ADSI/adsi-system-providers) in the [Active Directory Service Interfaces](/windows/desktop/ADSI/active-directory-service-interfaces-adsi) Platform Software Development Kit (SDK) documentation.
 
  
 
-
-
-
+ 

@@ -33,7 +33,7 @@ For more information, see [Extensions](extensions.md).
 | Authority Key Identifier(2.5.29.19)<br/>    | Identifies the certification authority (CA) public key that corresponds to the CA private key used to sign the certificate.                                                                              |
 | Basic Constraints(2.5.29.35)<br/>           | Specifies whether the entity can be used as a CA and, if so, the number of subordinate CAs that can exist beneath it in the certificate chain.                                                           |
 | Certificate Policies(2.5.29.32)<br/>        | Specifies the policies under which the certificate has been issued and the purposes for which it can be used.                                                                                            |
-| CRL Distribution Points(2.5.29.31)<br/>     | Contains the URI of the base [*certificate revocation list*](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) (CRL).                                  |
+| CRL Distribution Points(2.5.29.31)<br/>     | Contains the URI of the base [*certificate revocation list*](/windows/desktop/SecGloss/c-gly) (CRL).                                  |
 | Enhanced Key Usage(2.5.29.46)<br/>          | Specifies the manner in which the public key contained in the certificate can be used.                                                                                                                   |
 | Issuer Alternative Name(2.5.29.8)<br/>      | Specifies one or more alternative name forms for the issuer of the certificate request.                                                                                                                  |
 | Key Usage(2.5.29.15)<br/>                   | Specifies restrictions on the operations that can be performed by the public key contained in the certificate.                                                                                           |
@@ -63,9 +63,4 @@ For more information, see [Extensions](extensions.md).
 </dt> </dl>
 
  
-
- 
-
-
-
 

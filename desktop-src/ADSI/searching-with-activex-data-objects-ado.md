@@ -128,7 +128,7 @@ Search options for the **Command** object are specified by setting the **Propert
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | "Asynchronous"      | A Boolean value that specifies whether the search is synchronous or asynchronous. The default is False (synchronous). A synchronous search blocks until the server returns the entire result, or for a paged search, the entire page. An asynchronous search blocks until one row of the search results is available, or until the time specified by the "Timeout" property elapses.                           |
 | "Cache results"     | A Boolean value that specifies whether the result should be cached on the client side. The default is **true**; ADSI caches the result set. Turning off this option may be desirable for large result sets.                                                                                                                                                                                                    |
-| "Chase referrals"   | A value from the [**ADS\_CHASE\_REFERRALS\_ENUM**](/windows/win32/api/iads/ne-iads-ads_chase_referrals_enum) that specifies how the search chases referrals. The default is **ADS\_CHASE\_REFERRALS\_NEVER**.For more information about this property, see [Referrals](https://docs.microsoft.com/windows/desktop/AD/referrals).<br/>                                                                                                                                           |
+| "Chase referrals"   | A value from the [**ADS\_CHASE\_REFERRALS\_ENUM**](/windows/win32/api/iads/ne-iads-ads_chase_referrals_enum) that specifies how the search chases referrals. The default is **ADS\_CHASE\_REFERRALS\_NEVER**.For more information about this property, see [Referrals](/windows/desktop/AD/referrals).<br/>                                                                                                                                           |
 | "Column Names Only" | A Boolean value that indicates that the search should retrieve only the name of attributes to which values have been assigned. The default is **false**.                                                                                                                                                                                                                                                       |
 | "Deref Aliases"     | A Boolean value that specifies whether aliases of found objects are resolved. The default is **false**.                                                                                                                                                                                                                                                                                                        |
 | "Page size"         | An integer value that turns on paging and specifies the maximum number of objects to return in a results set. The default is no page size. For more information, see [Retrieving Large Results Sets](retrieving-large-results-sets.md).                                                                                                                                                                       |
@@ -229,13 +229,7 @@ Wend
 
 
 
-For more information about the ADO object model, see [Microsoft ActiveX Data Objects](https://msdn.microsoft.com/library/ms675532.aspx).
+For more information about the ADO object model, see [Microsoft ActiveX Data Objects](/sql/ado/microsoft-activex-data-objects-ado?view=sql-server-ver15).
 
  
-
- 
-
-
-
-
 

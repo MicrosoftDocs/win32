@@ -10,17 +10,17 @@ ms.date: 05/31/2018
 
 OpenXPS is the Open XML Paper Specification format for documents, and it’s based on the European Computer Manufacturers Association (ECMA) standard specification.
 
-Windows 8 provides full support for OpenXPS printing via the v4 print driver model, side-by-side with continued support for the Microsoft XPS format. And this topic focuses on the portion of this support that is relevant to Windows application developers. For information about driver requirements for OpenXPS support, see [Driver Support for OpenXPS](https://docs.microsoft.com/windows-hardware/drivers/print/printer-driver-overview).
+Windows 8 provides full support for OpenXPS printing via the v4 print driver model, side-by-side with continued support for the Microsoft XPS format. And this topic focuses on the portion of this support that is relevant to Windows application developers. For information about driver requirements for OpenXPS support, see [Driver Support for OpenXPS](/windows-hardware/drivers/print/printer-driver-overview).
 
 ## Sending XPS data to the Print System
 
-We recommend that you use [**IPrintDocumentPackageTarget**](https://msdn.microsoft.com/library/Hh448393(v=VS.85).aspx) for sending all XPS print jobs to the print system. **IPrintDocumentPackageTarget** accepts the XPS object model (OM) without serialization, and that helps to improve the overall performance.
+We recommend that you use [**IPrintDocumentPackageTarget**](/windows/win32/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget) for sending all XPS print jobs to the print system. **IPrintDocumentPackageTarget** accepts the XPS object model (OM) without serialization, and that helps to improve the overall performance.
 
 Here's a brief summary of the **IPrintDocumentPackageTarget** interface:
 
 -   This interface supports printing from tailored solutions as well as desktop applications.
 
--   For desktops apps, this can be used in place of [**StartXpsPrintJob1**](https://msdn.microsoft.com/library/Ff970306(v=VS.85).aspx).
+-   For desktops apps, this can be used in place of [**StartXpsPrintJob1**](/windows/win32/api/xpsprint/nf-xpsprint-startxpsprintjob1).
 
 -   Available on Windows 7 with Service Pack 1 (SP1) + Platform Update, and Windows 8.
 
@@ -90,10 +90,10 @@ Windows 8 provides the following new error codes in support of OpenXPS:
 
 <dl> <dt>
 
-[Driver Support for OpenXPS](https://docs.microsoft.com/windows-hardware/drivers/print/printer-driver-overview)
+[Driver Support for OpenXPS](/windows-hardware/drivers/print/printer-driver-overview)
 </dt> <dt>
 
-[**IPrintDocumentPackageTarget**](https://msdn.microsoft.com/library/Hh448393(v=VS.85).aspx)
+[**IPrintDocumentPackageTarget**](/windows/win32/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget)
 </dt> <dt>
 
 [**IXpsOMObjectFactory1::GetDocumentTypeFromFile**](/windows/desktop/api/XpsObjectModel_1/nf-xpsobjectmodel_1-ixpsomobjectfactory1-getdocumenttypefromfile)
@@ -117,6 +117,3 @@ Windows 8 provides the following new error codes in support of OpenXPS:
  
 
  
-
-
-

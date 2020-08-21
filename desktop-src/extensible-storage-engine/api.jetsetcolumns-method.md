@@ -89,7 +89,7 @@ public static JET_wrn JetSetColumns(
 <!-- end list -->
 
   - numColumns  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Number of entries in the setcolumns parameter.
 
@@ -107,4 +107,3 @@ A warning. If the last column set has a warning, then this warning will be retur
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

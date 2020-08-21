@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Profiling DirectX Apps
 
-This shows you how to measure some of the most important performance time measurements for a [DirectX](https://docs.microsoft.com/previous-versions/windows/apps/jj262109(v=win.10)) app using the **XPerf** and **GPUView** tools that ship as part of the Windows Performance Toolkit. This is not a comprehensive guide for understanding the tools, rather their specific applicability for analyzing DirectX app performance. While most of the techniques discussed here are relevant to all DirectX apps, it is most relevant to apps that use swap chains and not to DirectX applications built on XAML that use SIS/VSIS and XAML animations. We walk you through key performance time measurements, how to acquire and install the tools, and take performance measurement traces then analyze them to understand app bottlenecks.
+This shows you how to measure some of the most important performance time measurements for a [DirectX](/previous-versions/windows/apps/jj262109(v=win.10)) app using the **XPerf** and **GPUView** tools that ship as part of the Windows Performance Toolkit. This is not a comprehensive guide for understanding the tools, rather their specific applicability for analyzing DirectX app performance. While most of the techniques discussed here are relevant to all DirectX apps, it is most relevant to apps that use swap chains and not to DirectX applications built on XAML that use SIS/VSIS and XAML animations. We walk you through key performance time measurements, how to acquire and install the tools, and take performance measurement traces then analyze them to understand app bottlenecks.
 
 ## About the Tools
 
 ### **XPerf**
 
-**XPerf** is a set of performance analysis tools built on top of Event Tracing for Windows (ETW) designed for measuring and analyzing detailed system and app performance and resource usage. Starting in Windows 8 this command line tool has a graphical user interface and is called the Windows Performance Recorder (WPR) and Windows Performance Analyzer (WPA). More information about these tools can be found at the web page for [Windows Performance Toolkit](https://msdn.microsoft.com/library/hh162945) (WPT): [Windows Performance Toolkit](https://msdn.microsoft.com/library/hh162945).
+**XPerf** is a set of performance analysis tools built on top of Event Tracing for Windows (ETW) designed for measuring and analyzing detailed system and app performance and resource usage. Starting in Windows 8 this command line tool has a graphical user interface and is called the Windows Performance Recorder (WPR) and Windows Performance Analyzer (WPA). More information about these tools can be found at the web page for [Windows Performance Toolkit](/previous-versions/windows/it-pro/windows-8.1-and-8/hh162945(v=win.10)) (WPT): [Windows Performance Toolkit](/previous-versions/windows/it-pro/windows-8.1-and-8/hh162945(v=win.10)).
 
 An ETW collects requested kernel events and saves them into a file called an event trace log (ETL) file. These kernel events provide extensive information about an app and system characteristics when running the app. Data is collected by enabling trace capture, performing the desired app scenario that needs analysis, stopping the capture which saves the data in an ETL file. You can then analyze the file on the same or a different machine using either the command line tool **xperf.exe** or the visual trace analysis tool **xperfview.exe**.
 
@@ -22,7 +22,7 @@ An ETW collects requested kernel events and saves them into a file called an eve
 
 **GPUView** is a development tool for determining the performance of the graphics processing unit (GPU) and CPU. It looks at performance with regard to direct memory access (DMA) buffer processing and all other video processing on the video hardware.
 
-For [DirectX](https://docs.microsoft.com/previous-versions/windows/apps/jj262109(v=win.10)) apps that rely heavily on the GPU, **GPUView** is a powerful tool for understanding the relationship between work done on the CPU vs. GPU. For more info about **GPUView**see [Using GPUView](https://docs.microsoft.com/windows-hardware/drivers/display/using-gpuview).
+For [DirectX](/previous-versions/windows/apps/jj262109(v=win.10)) apps that rely heavily on the GPU, **GPUView** is a powerful tool for understanding the relationship between work done on the CPU vs. GPU. For more info about **GPUView**see [Using GPUView](/windows-hardware/drivers/display/using-gpuview).
 
 Similar to **XPerf**, an ETW trace is first taken by starting the tracing service, exercising the scenario that needs analysis for the app under consideration, stopping the service and saving the information in an ETL file. **GPUView** presents the data present in the ETL file in a graphical format.
 
@@ -34,7 +34,7 @@ Both **XPerf** and **GPUView** are included in the Windows Performance Toolkit (
 
 **XPerf** ships as part of the Windows Software Development Kit (SDK) for Windows. [Download the Windows SDK](https://dev.windows.com/downloads).
 
-**GPUView** is available in the Windows Assessment and Deployment Kit (Windows ADK). [Download the Windows ADK](https://msdn.microsoft.com/windows/hardware/dn913721.aspx).
+**GPUView** is available in the Windows Assessment and Deployment Kit (Windows ADK). [Download the Windows ADK](/windows-hardware/get-started/adk-install).
 
 After installation, you must add the directories that contain **XPerf** and **GPUView** to the system "Path" variable.
 
@@ -167,7 +167,7 @@ In both the cases, it was observed that the frame rate dropped drastically. Meas
 
     ![gpuview screenshot.](images/profile11.png)
 
-3.  Go to the Trace menu, and make sure "Load Symbols" is checked. Also, go to Trace -> Configure Symbol Paths, and type in the app symbol path. A symbol file contains debugging information about a compiled executable in a separate database (.pdb). This file is commonly referred to as a PDB. More on symbol files can be found here: [Symbol Files](https://docs.microsoft.com/windows/desktop/Debug/symbol-files). This file can be located in the "Debug" folder of the app directory.
+3.  Go to the Trace menu, and make sure "Load Symbols" is checked. Also, go to Trace -> Configure Symbol Paths, and type in the app symbol path. A symbol file contains debugging information about a compiled executable in a separate database (.pdb). This file is commonly referred to as a PDB. More on symbol files can be found here: [Symbol Files](/windows/desktop/Debug/symbol-files). This file can be located in the "Debug" folder of the app directory.
 
 4.  In order to get the breakdown of where the time is being spent in the app, right click on the interval selected in the previous step and click Summary Table. To get an overview of how much time is spent in each dll, uncheck "Stack" from the "Columns" menu. Note that the "Count" column here shows how many samples are within the given dll/function. Because approximately one sample is taken per ms, this number can be used as a best guess for how much time is spent in each dll/function. Checking the "Stack" from Columns menu will give the inclusive time spent in each function in the call graph. This will help to break down the problem points further.
 
@@ -191,12 +191,8 @@ Looking in **XPerf**, CPU is sitting idle for the longest time with only about 2
 
 ## Summary
 
-Both **GPUView** and **XPerf** and powerful tools for analyzing performance of [DirectX](https://docs.microsoft.com/previous-versions/windows/apps/jj262109(v=win.10)) apps. This article is a primer for using these tools and understanding basic performance measurements and app characteristics. Apart from understanding usage of tools, it is first important to understand the app being analyzed. Start with finding answers to questions like what is the app trying to achieve? Which threads in the system are most important? What trade-offs are you willing to make? When analyzing performance traces, start by looking at obvious problematic places. Is the app CPU or GPU bound? Is the app able to present every frame? Tools together with an understanding of the app can give very useful information in understanding, finding and finally solving performance problems.
+Both **GPUView** and **XPerf** and powerful tools for analyzing performance of [DirectX](/previous-versions/windows/apps/jj262109(v=win.10)) apps. This article is a primer for using these tools and understanding basic performance measurements and app characteristics. Apart from understanding usage of tools, it is first important to understand the app being analyzed. Start with finding answers to questions like what is the app trying to achieve? Which threads in the system are most important? What trade-offs are you willing to make? When analyzing performance traces, start by looking at obvious problematic places. Is the app CPU or GPU bound? Is the app able to present every frame? Tools together with an understanding of the app can give very useful information in understanding, finding and finally solving performance problems.
 
  
 
  
-
-
-
-

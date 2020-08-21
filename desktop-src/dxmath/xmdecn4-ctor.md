@@ -17,7 +17,7 @@ api_location:
 
 Constructors exposed by `XMDECN4`.
 
-Constructs instances of the [**XMDECN4**](https://msdn.microsoft.com/library/Ee419440(v=VS.85).aspx) structure.
+Constructs instances of the [**XMDECN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmdecn4) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -91,13 +91,9 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMDECN4**](https://msdn.microsoft.com/library/Ee419440(v=VS.85).aspx)
+[**XMDECN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmdecn4)
 </dt> </dl>
 
  
 
  
-
-
-
-

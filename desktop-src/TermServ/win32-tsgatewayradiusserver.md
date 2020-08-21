@@ -25,7 +25,7 @@ ms.date: 05/31/2018
 
 Describes a Remote Authentication Dial-In User Service (RADIUS) server, which has a set of Remote Desktop Services connection authorization policies (RD CAPs).
 
-RADIUS is an industry-standard protocol that is used to transmit authentication, authorization, and configuration information between a server computer and an authenticating server, called a RADIUS server, with a database that stores user information. For more information, see [RADIUS Protocol](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc781821(v=ws.10)?redirectedfrom=MSDN).
+RADIUS is an industry-standard protocol that is used to transmit authentication, authorization, and configuration information between a server computer and an authenticating server, called a RADIUS server, with a database that stores user information. For more information, see [RADIUS Protocol](/previous-versions/windows/it-pro/windows-server-2003/cc781821(v=ws.10)).
 
 ## Syntax
 
@@ -81,7 +81,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Name of the RADIUS server. This property can be changed with the [**SetName**](setname-win32-tsgatewayradiusserver.md) method.
@@ -118,7 +118,7 @@ Shared secret for the RADIUS server. This property can be changed with the [**Se
 
 You must be a member of the Administrators group to use this class.
 
-Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK). They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://docs.microsoft.com/windows/desktop/WmiSdk/managed-object-format--mof-).
+Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK). They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## Requirements
 
@@ -157,10 +157,4 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

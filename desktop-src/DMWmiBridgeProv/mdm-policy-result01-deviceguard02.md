@@ -53,7 +53,7 @@ The **MDM\_Policy\_Result01\_DeviceGuard02** class has these properties.
 
 <dl> <dt>
 
-[EnableVirtualizationBasedSecurity](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceguard#deviceguard-enablevirtualizationbasedsecurity)
+[EnableVirtualizationBasedSecurity](/windows/client-management/mdm/policy-csp-deviceguard#deviceguard-enablevirtualizationbasedsecurity)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -73,12 +73,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[LsaCfgFlags](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceguard#deviceguard-lsacfgflags)
+[LsaCfgFlags](/windows/client-management/mdm/policy-csp-deviceguard#deviceguard-lsacfgflags)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -98,12 +98,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[RequirePlatformSecurityFeatures](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deviceguard#deviceguard-requireplatformsecurityfeatures)
+[RequirePlatformSecurityFeatures](/windows/client-management/mdm/policy-csp-deviceguard#deviceguard-requireplatformsecurityfeatures)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -129,10 +129,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

@@ -14,7 +14,7 @@ These methods must be overridden by derived classes.
 
 | CMSPStream pure virtual methods        | Description                                                                                                                                                                                               |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**get\_Name**](https://msdn.microsoft.com/library/ms732418(v=VS.85).aspx) | Gets the name of the stream. The derived stream class should provide a name that allows a user to make meaningful distinctions between streams if this is called for in the application's user interface. |
+| [**get\_Name**](/windows/win32/api/tapi3if/nf-tapi3if-itstream-get_name) | Gets the name of the stream. The derived stream class should provide a name that allows a user to make meaningful distinctions between streams if this is called for in the application's user interface. |
 
 
 
@@ -30,6 +30,3 @@ These methods must be overridden by derived classes.
  
 
  
-
-
-

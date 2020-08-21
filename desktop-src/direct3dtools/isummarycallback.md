@@ -26,7 +26,7 @@ Callback to return summary information (displayed in the properties window).
 
 ## Members
 
-The **ISummaryCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ISummaryCallback** also has these types of members:
+The **ISummaryCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ISummaryCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **ISummaryCallback** interface has these methods.
  
 
  
-
-
-

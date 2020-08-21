@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 Effects modify a single clip, track, or composition. Transitions create seques from one track or compositionsto another.
 
-[DirectShow Editing Services](directshow-editing-services.md) uses DirectX Transform objects for its video transitions and video effects. For video transitions, use any 2-D two-input DirectX Transform object. For video effects, use any 2-D one-input DirectX Transform object. Microsoft no longer supports the development of third-party DirectX Transform objects. However, several are provided with DirectShow and others are provided with Microsoft Internet Explorer. For more information about the transitions provided with Internet Explorer, see [Visual Filters and Transitions Reference](https://msdn.microsoft.com/library/ms532853.aspx).
+[DirectShow Editing Services](directshow-editing-services.md) uses DirectX Transform objects for its video transitions and video effects. For video transitions, use any 2-D two-input DirectX Transform object. For video effects, use any 2-D one-input DirectX Transform object. Microsoft no longer supports the development of third-party DirectX Transform objects. However, several are provided with DirectShow and others are provided with Microsoft Internet Explorer. For more information about the transitions provided with Internet Explorer, see [Visual Filters and Transitions Reference](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms532853(v=vs.85)).
 
 For audio effects, you can use any DirectShow audio effect filter. DES also provides a [Volume Envelope Effect](volume-envelope-effect.md) for setting the volume on a track or clip. DES does not support audio transitions.
 
@@ -34,6 +34,3 @@ This section contains the following topics:
  
 
  
-
-
-

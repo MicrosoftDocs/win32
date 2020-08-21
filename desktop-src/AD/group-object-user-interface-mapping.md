@@ -27,12 +27,12 @@ The following table shows the UI labels of the **General** property sheet.
 
 | UI label                      | Attribute in Active Directory Domain Services     |
 |-------------------------------|---------------------------------------------------|
-| Group Name (pre-Windows 2000) | [**SAM-Account-Name**](https://docs.microsoft.com/windows/desktop/ADSchema/a-samaccountname) |
-| Description                   | [**Description**](https://docs.microsoft.com/windows/desktop/ADSchema/a-description)         |
-| E-Mail                        | [**E-mail-Addresses**](https://docs.microsoft.com/windows/desktop/ADSchema/a-mail)           |
-| Group Scope                   | [**Group-Type**](https://docs.microsoft.com/windows/desktop/ADSchema/a-grouptype)            |
-| Group Type                    | [**Group-Type**](https://docs.microsoft.com/windows/desktop/ADSchema/a-grouptype)            |
-| Notes                         | [**Comment**](https://docs.microsoft.com/windows/desktop/ADSchema/a-info)                    |
+| Group Name (pre-Windows 2000) | [**SAM-Account-Name**](/windows/desktop/ADSchema/a-samaccountname) |
+| Description                   | [**Description**](/windows/desktop/ADSchema/a-description)         |
+| E-Mail                        | [**E-mail-Addresses**](/windows/desktop/ADSchema/a-mail)           |
+| Group Scope                   | [**Group-Type**](/windows/desktop/ADSchema/a-grouptype)            |
+| Group Type                    | [**Group-Type**](/windows/desktop/ADSchema/a-grouptype)            |
+| Notes                         | [**Comment**](/windows/desktop/ADSchema/a-info)                    |
 
 
 
@@ -46,7 +46,7 @@ The following table shows the UI labels of the **Member Of** property sheet.
 
 | UI label  | Attribute in Active Directory Domain Services | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |-----------|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Member of | [**Is-Member-Of-DL**](https://docs.microsoft.com/windows/desktop/ADSchema/a-memberof)    | Contains the distinguished names of the groups to which this group belongs. The member attribute of each of the groups in this list contains the distinguished name of this group object.The user interface does not directly modify the [**Is-Member-Of-DL**](https://docs.microsoft.com/windows/desktop/ADSchema/a-memberof) attribute. It modifies the [**Member**](https://docs.microsoft.com/windows/desktop/ADSchema/a-member) attribute on the group object of which this object is made a member of. The Active Directory server maintains the **Is-Member-Of-DL** attribute.<br/> |
+| Member of | [**Is-Member-Of-DL**](/windows/desktop/ADSchema/a-memberof)    | Contains the distinguished names of the groups to which this group belongs. The member attribute of each of the groups in this list contains the distinguished name of this group object.The user interface does not directly modify the [**Is-Member-Of-DL**](/windows/desktop/ADSchema/a-memberof) attribute. It modifies the [**Member**](/windows/desktop/ADSchema/a-member) attribute on the group object of which this object is made a member of. The Active Directory server maintains the **Is-Member-Of-DL** attribute.<br/> |
 
 
 
@@ -60,7 +60,7 @@ The following table shows the UI labels of the **Members** property sheet.
 
 | UI label | Attribute in Active Directory Domain Services | Description                                                           |
 |----------|-----------------------------------------------|-----------------------------------------------------------------------|
-| Members  | [**Member**](https://docs.microsoft.com/windows/desktop/ADSchema/a-member)               | Contains the distinguished names of the members of this group object. |
+| Members  | [**Member**](/windows/desktop/ADSchema/a-member)               | Contains the distinguished names of the members of this group object. |
 
 
 
@@ -74,25 +74,19 @@ The following table shows the UI labels of the **Managed By** property sheet.
 
 | UI label                           | Attribute in Active Directory Domain Services                                                                                   |
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Name                               | [**Managed-By**](https://docs.microsoft.com/windows/desktop/ADSchema/a-managedby)                                                                                          |
+| Name                               | [**Managed-By**](/windows/desktop/ADSchema/a-managedby)                                                                                          |
 | Manager can update membership list | None. An ACE with the "Allow - Write Members" permission is added to the account identified by **Name**.                        |
-| Office                             | The [**Physical-Delivery-Office-Name**](https://docs.microsoft.com/windows/desktop/ADSchema/a-physicaldeliveryofficename) attribute of the account identified by **Name**. |
-| Street                             | The [**Street-Address**](https://docs.microsoft.com/windows/desktop/ADSchema/a-street) attribute of the account identified by **Name**.                                    |
-| City                               | The [**Locality-Name**](https://docs.microsoft.com/windows/desktop/ADSchema/a-l) attribute of the account identified by **Name**.                                          |
-| State/province                     | The [**State-Or-Province-Name**](https://docs.microsoft.com/windows/desktop/ADSchema/a-st) attribute of the account identified by **Name**.                                |
-| Country/region                     | The [**Country-Name**](https://docs.microsoft.com/windows/desktop/ADSchema/a-c) attribute of the account identified by **Name**.                                           |
-| Telephone number                   | The [**Telephone-Number**](https://docs.microsoft.com/windows/desktop/ADSchema/a-telephonenumber) attribute of the account identified by **Name**.                         |
-| Fax number                         | The [**Facsimile-Telephone-Number**](https://docs.microsoft.com/windows/desktop/ADSchema/a-facsimiletelephonenumber) attribute of the account identified by **Name**.      |
+| Office                             | The [**Physical-Delivery-Office-Name**](/windows/desktop/ADSchema/a-physicaldeliveryofficename) attribute of the account identified by **Name**. |
+| Street                             | The [**Street-Address**](/windows/desktop/ADSchema/a-street) attribute of the account identified by **Name**.                                    |
+| City                               | The [**Locality-Name**](/windows/desktop/ADSchema/a-l) attribute of the account identified by **Name**.                                          |
+| State/province                     | The [**State-Or-Province-Name**](/windows/desktop/ADSchema/a-st) attribute of the account identified by **Name**.                                |
+| Country/region                     | The [**Country-Name**](/windows/desktop/ADSchema/a-c) attribute of the account identified by **Name**.                                           |
+| Telephone number                   | The [**Telephone-Number**](/windows/desktop/ADSchema/a-telephonenumber) attribute of the account identified by **Name**.                         |
+| Fax number                         | The [**Facsimile-Telephone-Number**](/windows/desktop/ADSchema/a-facsimiletelephonenumber) attribute of the account identified by **Name**.      |
 
 
 
  
 
  
-
- 
-
-
-
-
 

@@ -38,7 +38,7 @@ HRESULT Close(
 *pData* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the returned buffer that contains the include directives. This is the pointer that was returned by the corresponding [**ID3DXInclude::Open**](id3dxinclude--open.md) call.
 
@@ -82,7 +82,3 @@ If [**ID3DXInclude::Open**](id3dxinclude--open.md) was successful, **ID3DXInclud
  
 
  
-
-
-
-

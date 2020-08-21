@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # WM\_NCDESTROY message
 
-Notifies a window that its nonclient area is being destroyed. The [**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx) function sends the **WM\_NCDESTROY** message to the window following the [**WM\_DESTROY**](wm-destroy.md) message.[**WM\_DESTROY**](wm-destroy.md) is used to free the allocated memory object associated with the window.
+Notifies a window that its nonclient area is being destroyed. The [**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow) function sends the **WM\_NCDESTROY** message to the window following the [**WM\_DESTROY**](wm-destroy.md) message.[**WM\_DESTROY**](wm-destroy.md) is used to free the allocated memory object associated with the window.
 
 The **WM\_NCDESTROY** message is sent after the child windows have been destroyed. In contrast, [**WM\_DESTROY**](wm-destroy.md) is sent before the child windows are destroyed.
 
-A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -68,7 +68,7 @@ This message frees any memory internally allocated for the window.
 **Reference**
 </dt> <dt>
 
-[**DestroyWindow**](https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx)
+[**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow)
 </dt> <dt>
 
 [**WM\_DESTROY**](wm-destroy.md)
@@ -86,7 +86,3 @@ This message frees any memory internally allocated for the window.
  
 
  
-
-
-
-

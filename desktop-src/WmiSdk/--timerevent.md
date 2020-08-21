@@ -87,7 +87,7 @@ Access type: Read-only
 
 Unique value that indicates the time at which the event was generated. This is a 64-bit value that represents the number of 100-nanosecond intervals after January 1, 1601. The information is in the Coordinated Universal Times (UTC) format. This property is inherited from [**\_\_Event**](--event.md).
 
-For more information about using **uint64** values in scripts, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+For more information about using **uint64** values in scripts, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 </dd> <dt>
 
@@ -110,7 +110,7 @@ The **\_\_TimerEvent** class is derived from [**\_\_Event**](--event.md).
 
 Event consumers register for an absolute timer event by creating an instance of the [**\_\_AbsoluteTimerInstruction**](--absolutetimerinstruction.md) system class. They register for an interval timer event by creating an instance of the [**\_\_IntervalTimerInstruction**](--intervaltimerinstruction.md) system class.
 
-During normal operation, the **NumFirings** property is set to 1. When it is not possible to reach the consumer or the firing interval is much quicker than the ability to deliver the event, **NumFirings** is set to a number greater than 1. When **NumFirings** is greater than 1, WMI automatically merges many timer events into the same event. This merging is similar to what occurs with [**WM\_TIMER**](https://docs.microsoft.com/windows/desktop/winmsg/wm-timer) messages in Windows programming.
+During normal operation, the **NumFirings** property is set to 1. When it is not possible to reach the consumer or the firing interval is much quicker than the ability to deliver the event, **NumFirings** is set to a number greater than 1. When **NumFirings** is greater than 1, WMI automatically merges many timer events into the same event. This merging is similar to what occurs with [**WM\_TIMER**](/windows/desktop/winmsg/wm-timer) messages in Windows programming.
 
 ## Requirements
 
@@ -128,7 +128,7 @@ During normal operation, the **NumFirings** property is set to 1. When it is not
 
 <dl> <dt>
 
-[**\_\_Event**](https://docs.microsoft.com/windows/desktop/WmiSdk/--event)
+[**\_\_Event**](/windows/desktop/WmiSdk/--event)
 </dt> <dt>
 
 [WMI System Classes](wmi-system-classes.md)
@@ -144,9 +144,4 @@ During normal operation, the **NumFirings** property is set to 1. When it is not
 </dt> </dl>
 
  
-
- 
-
-
-
 

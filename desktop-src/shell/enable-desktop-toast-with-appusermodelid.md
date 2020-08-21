@@ -39,7 +39,7 @@ This topic shows you how to create a shortcut for your app, assign it an [AppUse
 
 ### Step 1: Prepare the shortcut to be created
 
-This example first determines the path of the user's app data folder through the [**GetEnvironmentVariable**](https://msdn.microsoft.com/library/ms683188(v=VS.85).aspx) function. It then composes the full path to the shortcut, determines that a shortcut of that name does not already exist at that location, and passes that information to another method which creates and installs the shortcut.
+This example first determines the path of the user's app data folder through the [**GetEnvironmentVariable**](/windows/win32/api/processenv/nf-processenv-getenvironmentvariablea) function. It then composes the full path to the shortcut, determines that a shortcut of that name does not already exist at that location, and passes that information to another method which creates and installs the shortcut.
 
 Note that the shortcut can be deployed per-user or per-app.
 
@@ -79,7 +79,7 @@ HRESULT DesktopToastsApp::TryCreateShortcut()
 
 ### Step 2: Create the shortcut and install it in the Start screen
 
-This example also retrieves the shortcut's property store and sets the required [System.AppUserModel.ID](https://msdn.microsoft.com/library/Dd391569(v=VS.85).aspx) property from a previously defined variable, `AppID`.
+This example also retrieves the shortcut's property store and sets the required [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md) property from a previously defined variable, `AppID`.
 
 
 ```C++
@@ -157,48 +157,45 @@ As an alternative to the approach shown in this topic, you can use a framework s
 [Application User Model IDs (AppUserModelIDs)](appids.md)
 </dt> <dt>
 
-[How to: Install the Windows Installer XML (WiX) Tools](https://msdn.microsoft.com/library/Gg513936(v=MSDN.10).aspx)
+[How to: Install the Windows Installer XML (WiX) Tools](/previous-versions/windows/server-essentials/gg513936(v=msdn.10))
 </dt> <dt>
 
-[Toast XML schema](https://msdn.microsoft.com/library/BR230849(v=Win.10).aspx)
+[Toast XML schema](/uwp/schemas/tiles/toastschema/schema-root)
 </dt> <dt>
 
-[Toast notification overview](https://msdn.microsoft.com/library/Hh779727(v=WIN.10).aspx)
+[Toast notification overview](/previous-versions/windows/apps/hh779727(v=win.10))
 </dt> <dt>
 
-[Quickstart: Sending a toast notification](https://msdn.microsoft.com/library/Hh465448(v=Win.10).aspx)
+[Quickstart: Sending a toast notification](/previous-versions/windows/apps/hh465448(v=win.10))
 </dt> <dt>
 
-[Quickstart: Sending a toast push notification](https://msdn.microsoft.com/library/Hh761487(v=Win.10).aspx)
+[Quickstart: Sending a toast push notification](/previous-versions/windows/hh761487(v=win.10))
 </dt> <dt>
 
-[Guidelines and checklist for toast notifications](https://msdn.microsoft.com/library/Hh465391(v=Win.10).aspx)
+[Guidelines and checklist for toast notifications](/windows/uwp/design/shell/tiles-and-notifications/)
 </dt> <dt>
 
-[How to add images to a toast template](https://msdn.microsoft.com/library/Hh761480(v=Win.10).aspx)
+[How to add images to a toast template](/previous-versions/windows/)
 </dt> <dt>
 
-[How to check toast notification settings](https://msdn.microsoft.com/library/Hh761466(v=Win.10).aspx)
+[How to check toast notification settings](/previous-versions/windows/)
 </dt> <dt>
 
-[How to choose and use a toast template](https://msdn.microsoft.com/library/Hh465448(v=Win.10).aspx)
+[How to choose and use a toast template](/previous-versions/windows/apps/hh465448(v=win.10))
 </dt> <dt>
 
-[How to handle activation from a toast notification](https://msdn.microsoft.com/library/Hh761468(v=WIN.10).aspx)
+[How to handle activation from a toast notification](/previous-versions/windows/apps/hh761468(v=win.10))
 </dt> <dt>
 
-[How to opt in for toast notifications](https://msdn.microsoft.com/library/Hh781238(v=WIN.10).aspx)
+[How to opt in for toast notifications](/previous-versions/windows/apps/hh781238(v=win.10))
 </dt> <dt>
 
-[Choosing a toast template](https://msdn.microsoft.com/library/Hh761494(v=WIN.10).aspx)
+[Choosing a toast template](/previous-versions/windows/apps/hh761494(v=win.10))
 </dt> <dt>
 
-[Toast audio options](https://msdn.microsoft.com/library/Hh761492(v=WIN.10).aspx)
+[Toast audio options](/previous-versions/windows/apps/hh761492(v=win.10))
 </dt> </dl>
 
  
 
  
-
-
-

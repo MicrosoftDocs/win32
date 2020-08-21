@@ -1,6 +1,6 @@
 ---
 title: baseeapuserpropertiesv1 Schema Complex Types
-description: Defines the following complex types.
+description: Learn about the baseeapuserpropertiesv1 schema. This schema defines the BaseEapParameters and BaseEapTypeParameters complex types.
 ms.assetid: 543e574a-ec3b-47fc-9e8b-1a057228277b
 ms.topic: article
 ms.date: 05/31/2018

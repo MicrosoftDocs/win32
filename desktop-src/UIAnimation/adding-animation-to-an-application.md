@@ -16,7 +16,7 @@ To use Windows Animation in your application, the first step is to create a smal
 
 ## Overview
 
-Use the [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) function to create the animation manager, animation timer, and transition library objects.
+Use the [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) function to create the animation manager, animation timer, and transition library objects.
 
 These objects will be needed to create and display animations, so they usually should not be released until the application is shutting down. If there is no chance that any registered callbacks could have created a reference cycle, releasing the objects is sufficient for a proper cleanup. Otherwise, the application can clean up by clearing the callbacks (passing **NULL** in the place of each) or by calling the animation manager's [**Shutdown**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-shutdown) method.
 
@@ -100,7 +100,7 @@ After completing this step, the next step is: [Create Animation Variables](creat
 
 <dl> <dt>
 
-[**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance)
+[**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance)
 </dt> <dt>
 
 [**IUIAnimationManager**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationmanager)
@@ -118,7 +118,3 @@ After completing this step, the next step is: [Create Animation Variables](creat
  
 
  
-
-
-
-

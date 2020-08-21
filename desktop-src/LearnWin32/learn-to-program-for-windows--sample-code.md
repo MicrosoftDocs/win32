@@ -17,7 +17,7 @@ This section contains links to sample code for the series [Get Started with Win3
 | Topic                                                                   | Description                                                                                                                                       |
 |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Windows Hello World Sample](windows-hello-world-sample.md)<br/> | This sample application shows how to create a minimal Windows program.<br/>                                                                 |
-| [BaseWindow Sample](basewindow-sample.md)<br/>                   | This sample application shows how to pass application state data in the [**WM\_NCCREATE**](https://docs.microsoft.com/windows/desktop/winmsg/wm-nccreate) message.<br/>          |
+| [BaseWindow Sample](basewindow-sample.md)<br/>                   | This sample application shows how to pass application state data in the [**WM\_NCCREATE**](/windows/desktop/winmsg/wm-nccreate) message.<br/>          |
 | [Open Dialog Box Sample](open-dialog-box-sample.md)<br/>         | This sample application shows how to initialize the Component Object Model (COM) library and use a COM-based API in a Windows program.<br/> |
 | [Direct2D Circle Sample](direct2d-circle-sample.md)<br/>         | This sample application shows how to draw a circle using Direct2D.<br/>                                                                     |
 | [Direct2D Clock Sample](direct2d-clock-sample.md)<br/>           | This sample application shows how to use transforms in Direct2D to draw the hands of a clock.<br/>                                          |
@@ -36,10 +36,4 @@ This section contains links to sample code for the series [Get Started with Win3
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

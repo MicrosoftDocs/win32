@@ -28,7 +28,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_COLUMNBASE.ToString method
 
-Returns a [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that represents the current [JET_COLUMNBASE](dn335045\(v=exchg.10\).md).
+Returns a [String](/dotnet/api/system.string) that represents the current [JET_COLUMNBASE](dn335045\(v=exchg.10\).md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
@@ -51,8 +51,8 @@ public override string ToString()
 
 #### Return value
 
-Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
-A [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that represents the current [JET_COLUMNBASE](dn335045\(v=exchg.10\).md).  
+Type: [System.String](/dotnet/api/system.string)  
+A [String](/dotnet/api/system.string) that represents the current [JET_COLUMNBASE](dn335045\(v=exchg.10\).md).  
 
 ## See also
 
@@ -63,4 +63,3 @@ A [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MS
 [JET_COLUMNBASE members](dn335046\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

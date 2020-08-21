@@ -44,7 +44,7 @@ Pointer to the SIS backup structure returned from [**SisCreateBackupStructure**]
 
 ## Return value
 
-This function returns **TRUE** if it completes successfully and **FALSE** otherwise. Call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get more information about the reason the call failed.
+This function returns **TRUE** if it completes successfully and **FALSE** otherwise. Call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get more information about the reason the call failed.
 
 ## Remarks
 
@@ -74,10 +74,4 @@ Note that it is not safe to assume that this only deallocates memory. For exampl
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

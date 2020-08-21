@@ -49,7 +49,7 @@ Fully qualified URL for a file with a .txt file name extension that Windows Medi
 <span id="CodeURL__required_"></span><span id="codeurl__required_"></span><span id="CODEURL__REQUIRED_"></span>**CodeURL** (required)
 </dt> <dd>
 
-Fully qualified URL for a package, with a .cab file name extension, that is used to install the online store. The package and all code modules in the package must be signed. For information about code signing, see [Introduction to Code Signing](https://msdn.microsoft.com/library/ms537361(v=VS.85).aspx) in the MSDN Library.
+Fully qualified URL for a package, with a .cab file name extension, that is used to install the online store. The package and all code modules in the package must be signed. For information about code signing, see [Introduction to Code Signing](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85)) in the MSDN Library.
 
 </dd> <dt>
 
@@ -127,10 +127,4 @@ If any of the required attributes are missing or not available, Windows Media Pl
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

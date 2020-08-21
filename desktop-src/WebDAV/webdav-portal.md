@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 ## Purpose
 
-Web Distributed Authoring and Versioning (WebDAV) is an extension to Hypertext Transfer Protocol (HTTP) that defines how basic file functions such as copy, move, delete, and create are performed by using HTTP. The WebDAV API is a set of Win32 functions for creating and managing connections to WebDAV servers and performing file I/O operations on remote files on WebDAV servers. WebDAV API functions are designed to be used together with other Win32 API functions such as [Windows networking functions](https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions) and [file management functions](https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions).
+Web Distributed Authoring and Versioning (WebDAV) is an extension to Hypertext Transfer Protocol (HTTP) that defines how basic file functions such as copy, move, delete, and create are performed by using HTTP. The WebDAV API is a set of Win32 functions for creating and managing connections to WebDAV servers and performing file I/O operations on remote files on WebDAV servers. WebDAV API functions are designed to be used together with other Win32 API functions such as [Windows networking functions](/windows/desktop/WNet/windows-networking-functions) and [file management functions](/windows/desktop/FileIO/file-management-functions).
 
 ## Developer audience
 
@@ -37,10 +37,4 @@ The WebDAV API is in Windows Vista and later. For information about which operat
  
 
  
-
- 
-
-
-
-
 

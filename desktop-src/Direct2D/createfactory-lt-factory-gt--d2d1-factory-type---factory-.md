@@ -34,7 +34,7 @@ HRESULT D2D1CreateFactory(
 
 | Parameter | Description                                                 |
 |-----------|-------------------------------------------------------------|
-| *Factory* | The type of [**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx) to create. |
+| *Factory* | The type of [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) to create. |
 
 
 
@@ -92,10 +92,4 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
 
 
  
-
- 
-
-
-
-
 

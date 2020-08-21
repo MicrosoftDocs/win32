@@ -43,14 +43,14 @@ DWORD APIENTRY NtGdiDdLockD3D(
 *hSurface* \[in\]
 </dt> <dd>
 
-Pointer to a [**DD\_SURFACE\_LOCAL**](https://msdn.microsoft.com/library/Ff551733(v=VS.85).aspx) structure that describes the surface associated with the memory region to be locked down.
+Pointer to a [**DD\_SURFACE\_LOCAL**](/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local) structure that describes the surface associated with the memory region to be locked down.
 
 </dd> <dt>
 
 *puLockData* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DD\_LOCKDATA**](https://msdn.microsoft.com/library/Ff551637(v=VS.85).aspx) structure that contains the information required to perform the lock down.
+Pointer to a [**DD\_LOCKDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_lockdata) structure that contains the information required to perform the lock down.
 
 </dd> </dl>
 
@@ -91,7 +91,3 @@ Pointer to a [**DD\_LOCKDATA**](https://msdn.microsoft.com/library/Ff551637(v=VS
  
 
  
-
-
-
-

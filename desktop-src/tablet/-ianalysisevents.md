@@ -18,7 +18,7 @@ api_location:
 
 Specifies events associated with the analysis steps of an [**IInkAnalyzer**](iinkanalyzer.md) object.
 
--   [Events](https://docs.microsoft.com/windows)
+-   [Events](/windows)
 
 ### Events
 
@@ -69,9 +69,4 @@ The **\_IAnalysisEvents** interface has these events.
 </dt> </dl>
 
  
-
- 
-
-
-
 

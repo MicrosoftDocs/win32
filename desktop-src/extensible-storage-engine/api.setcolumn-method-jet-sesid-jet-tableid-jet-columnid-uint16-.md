@@ -84,7 +84,7 @@ public static void SetColumn(
 <!-- end list -->
 
   - data  
-    Type: [System.UInt16](https://docs.microsoft.com/dotnet/api/system.uint16?redirectedfrom=MSDN)  
+    Type: [System.UInt16](/dotnet/api/system.uint16)  
     
     The data to set.
 
@@ -99,4 +99,3 @@ public static void SetColumn(
 [SetColumn overload](dn334079\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

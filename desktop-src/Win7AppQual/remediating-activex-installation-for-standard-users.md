@@ -27,7 +27,7 @@ There are two policy settings for AXIS:
 -   The Approved Installation Sites for ActiveX Controls policy setting consists of a list of approved installation sites, which the AXIS uses to determine whether an ActiveX control can be installed.
 -   The ActiveX installation policy for sites in Trusted zones policy setting identifies how Trusted sites zones can be used to install ActiveX controls.
 
-When a website tries to install an ActiveX control, the AXIS checks to see if the URL of the website is listed in the list of approved installation sites or as part of the trusted sites zone. If the site is in either of these lists, the AXIS makes sure that the site meets the requirements that the policy defines. If the site and the ActiveX control meet all of the requirements of the policy settings, the control is installed. For more information, see [Administering the ActiveX Installer Service](https://technet.microsoft.com/library/dd631688(WS.10).aspx).
+When a website tries to install an ActiveX control, the AXIS checks to see if the URL of the website is listed in the list of approved installation sites or as part of the trusted sites zone. If the site is in either of these lists, the AXIS makes sure that the site meets the requirements that the policy defines. If the site and the ActiveX control meet all of the requirements of the policy settings, the control is installed. For more information, see [Administering the ActiveX Installer Service](/previous-versions/windows/it-pro/windows-7/dd631688(v=ws.10)).
 
 ## Related topics
 
@@ -39,6 +39,3 @@ When a website tries to install an ActiveX control, the AXIS checks to see if th
  
 
  
-
-
-

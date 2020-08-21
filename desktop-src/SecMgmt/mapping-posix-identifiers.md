@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Mapping Posix Identifiers
 
-The Posix subsystem must be able to translate any [*security identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SID) it encounters into a 32-bit value, called a *Posix ID*. Furthermore, it must be able to categorize the ID as either a user ID or a group ID. To understand how this mapping is accomplished, let's first look at the SIDs that must be mapped.
+The Posix subsystem must be able to translate any [*security identifier*](/windows/desktop/SecGloss/s-gly) (SID) it encounters into a 32-bit value, called a *Posix ID*. Furthermore, it must be able to categorize the ID as either a user ID or a group ID. To understand how this mapping is accomplished, let's first look at the SIDs that must be mapped.
 
 SIDs have two components, the SID of the domain and the relative ID of the account in the domain. For example, in the SID S-1-518364-21-43-8, the last number, 8, is the account's relative ID (RID) and S-1-518364-21-43 is the SID of the domain.
 
@@ -36,11 +36,8 @@ Not all Posix ID translations make use of a [**TrustedDomain**](trusteddomain-ob
 
  
 
-And finally, one other set of SIDs, logon SIDs, requires special processing. These values are assigned by the Windows logon process for each logon session and have the form S-1-5-5-X-Y, where X and Y are treated as a single LARGE\_INTEGER that is incremented for each logon session. These SIDs are mapped to the constant Posix ID 0xFFF. To map the Posix ID 0xFFF, you may translate whatever [*logon identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) best suits the situation, or you may use S-1-5-5-0-0 by default. (For example, if a posix user applies protection to an object and specifies FFFx, it is better to substitute that user's logon identifier than just assigning S-1-5-5-0-0.)
+And finally, one other set of SIDs, logon SIDs, requires special processing. These values are assigned by the Windows logon process for each logon session and have the form S-1-5-5-X-Y, where X and Y are treated as a single LARGE\_INTEGER that is incremented for each logon session. These SIDs are mapped to the constant Posix ID 0xFFF. To map the Posix ID 0xFFF, you may translate whatever [*logon identifier*](/windows/desktop/SecGloss/l-gly) best suits the situation, or you may use S-1-5-5-0-0 by default. (For example, if a posix user applies protection to an object and specifies FFFx, it is better to substitute that user's logon identifier than just assigning S-1-5-5-0-0.)
 
  
 
  
-
-
-

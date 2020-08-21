@@ -25,14 +25,14 @@ The programming model for swap chains in D3D12 is not identical to that in earli
 
 ### Buffer lifetime
 
-Apps are allowed to store pre-created descriptors which reference back buffers This is enabled by ensuring that the set of buffers owned by a swap chain never changes for the lifetime of the swap chain. The set of buffers returned by [**IDXGISwapChain::GetBuffer**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getbuffer) does not change until certain APIs are called:
+Apps are allowed to store pre-created descriptors which reference back buffers This is enabled by ensuring that the set of buffers owned by a swap chain never changes for the lifetime of the swap chain. The set of buffers returned by [**IDXGISwapChain::GetBuffer**](/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getbuffer) does not change until certain APIs are called:
 
--   [**IDXGISwapChain::ResizeTarget**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizetarget)
--   [**IDXGISwapChain::ResizeBuffers**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers)
+-   [**IDXGISwapChain::ResizeTarget**](/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizetarget)
+-   [**IDXGISwapChain::ResizeBuffers**](/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers)
 
-The order of buffers returned by [**GetBuffer**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getbuffer) never changes.
+The order of buffers returned by [**GetBuffer**](/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getbuffer) never changes.
 
-[**IDXGISwapChain3::GetCurrentBackBufferIndex**](https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-getcurrentbackbufferindex) returns the index of the current back buffer to the app.
+[**IDXGISwapChain3::GetCurrentBackBufferIndex**](/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-getcurrentbackbufferindex) returns the index of the current back buffer to the app.
 
 ### Swap effects
 
@@ -40,13 +40,13 @@ The only supported swap effect is FLIP\_SEQUENTIAL, which requires the buffer co
 
 ### Transitioning between windowed and full-screen modes
 
-D3D12 maintains the restriction that applications must call [**ResizeBuffers**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers) after transitioning between windowed and full-screen modes (D3D11 flip-model swap chains have the same restrictions).
+D3D12 maintains the restriction that applications must call [**ResizeBuffers**](/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers) after transitioning between windowed and full-screen modes (D3D11 flip-model swap chains have the same restrictions).
 
-The [**IDXGISwapChain::SetFullscreenState**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-setfullscreenstate) transitions do not change the set of app-visible buffers in the swap chain. Only the [**ResizeBuffers**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers) and [**ResizeTarget**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizetarget) calls create or destroy app-visible buffers.
+The [**IDXGISwapChain::SetFullscreenState**](/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-setfullscreenstate) transitions do not change the set of app-visible buffers in the swap chain. Only the [**ResizeBuffers**](/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers) and [**ResizeTarget**](/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizetarget) calls create or destroy app-visible buffers.
 
-When [**IDXGISwapChain1::Present1**](https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1) is called, the back buffer to be presented must be in the [**D3D12\_RESOURCE\_STATE\_PRESENT**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states) state. Present will fail with DXGI\_ERROR\_INVALID\_CALL if this is not the case.
+When [**IDXGISwapChain1::Present1**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1) is called, the back buffer to be presented must be in the [**D3D12\_RESOURCE\_STATE\_PRESENT**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states) state. Present will fail with DXGI\_ERROR\_INVALID\_CALL if this is not the case.
 
-Full-screen swap chains continue to have the restriction that [**SetFullscreenState**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-setfullscreenstate)(FALSE, NULL) must be called before the final release of the swap chain. **SetFullscreenState**(FALSE) succeeds on swap chains running on D3D12 devices.
+Full-screen swap chains continue to have the restriction that [**SetFullscreenState**](/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-setfullscreenstate)(FALSE, NULL) must be called before the final release of the swap chain. **SetFullscreenState**(FALSE) succeeds on swap chains running on D3D12 devices.
 
 Present operations occur on the default 3D queue associated with the device., and apps are free to concurrently present multiple swap chains, and record and execute command lists.
 
@@ -68,7 +68,7 @@ The following example code would be present in the main rendering loop:
 
 ### Creating swap chains
 
-When using the [**CreateSwapChainForHwnd**](https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd), [**CreateSwapChainForCoreWindow**](https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow), or [**CreateSwapChainForComposition**](https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition) calls, note that the *pDevice* parameter actually requires a pointer to a direct command queue in Direct3D 12, and not a device.
+When using the [**CreateSwapChainForHwnd**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd), [**CreateSwapChainForCoreWindow**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow), or [**CreateSwapChainForComposition**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition) calls, note that the *pDevice* parameter actually requires a pointer to a direct command queue in Direct3D 12, and not a device.
 
 ## Related topics
 
@@ -86,7 +86,3 @@ When using the [**CreateSwapChainForHwnd**](https://docs.microsoft.com/windows/d
  
 
  
-
-
-
-

@@ -36,12 +36,12 @@ dev_langs:
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn334148(v=exchg.10).md">BoolColumnValue</a></td>
-<td>A <a href="https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN">Boolean</a> column value.</td>
+<td>A <a href="/dotnet/api/system.boolean">Boolean</a> column value.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn334109(v=exchg.10).md">ByteColumnValue</a></td>
-<td>A <a href="https://docs.microsoft.com/dotnet/api/system.byte?redirectedfrom=MSDN">Byte</a> column value.</td>
+<td>A <a href="/dotnet/api/system.byte">Byte</a> column value.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
@@ -76,12 +76,12 @@ dev_langs:
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn334238(v=exchg.10).md">DateTimeColumnValue</a></td>
-<td>A <a href="https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN">Guid</a> column value.</td>
+<td>A <a href="/dotnet/api/system.guid">Guid</a> column value.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn273972(v=exchg.10).md">DoubleColumnValue</a></td>
-<td>A <a href="https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN">Double</a> column value.</td>
+<td>A <a href="/dotnet/api/system.double">Double</a> column value.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
@@ -2201,12 +2201,12 @@ dev_langs:
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn350880(v=exchg.10).md">FloatColumnValue</a></td>
-<td>A <a href="https://docs.microsoft.com/dotnet/api/system.single?redirectedfrom=MSDN">Single</a> column value.</td>
+<td>A <a href="/dotnet/api/system.single">Single</a> column value.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn350902(v=exchg.10).md">GuidColumnValue</a></td>
-<td>A <a href="https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN">Guid</a> column value.</td>
+<td>A <a href="/dotnet/api/system.guid">Guid</a> column value.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
@@ -2231,17 +2231,17 @@ dev_langs:
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn351017(v=exchg.10).md">Int16ColumnValue</a></td>
-<td>An <a href="https://docs.microsoft.com/dotnet/api/system.int16?redirectedfrom=MSDN">Int16</a> column value.</td>
+<td>An <a href="/dotnet/api/system.int16">Int16</a> column value.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn350992(v=exchg.10).md">Int32ColumnValue</a></td>
-<td>An <a href="https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN">Int32</a> column value.</td>
+<td>An <a href="/dotnet/api/system.int32">Int32</a> column value.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn351016(v=exchg.10).md">Int64ColumnValue</a></td>
-<td>An <a href="https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN">Int64</a> column value.</td>
+<td>An <a href="/dotnet/api/system.int64">Int64</a> column value.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
@@ -2411,17 +2411,17 @@ dev_langs:
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn351247(v=exchg.10).md">UInt16ColumnValue</a></td>
-<td>A <a href="https://docs.microsoft.com/dotnet/api/system.uint16?redirectedfrom=MSDN">UInt16</a> column value.</td>
+<td>A <a href="/dotnet/api/system.uint16">UInt16</a> column value.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn351251(v=exchg.10).md">UInt32ColumnValue</a></td>
-<td>A <a href="https://docs.microsoft.com/dotnet/api/system.uint32?redirectedfrom=MSDN">UInt32</a> column value.</td>
+<td>A <a href="/dotnet/api/system.uint32">UInt32</a> column value.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
 <td><a href="dn351190(v=exchg.10).md">UInt64ColumnValue</a></td>
-<td>A <a href="https://docs.microsoft.com/dotnet/api/system.uint64?redirectedfrom=MSDN">UInt64</a> column value.</td>
+<td>A <a href="/dotnet/api/system.uint64">UInt64</a> column value.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Public class" alt="Public class" /></td>
@@ -2955,4 +2955,3 @@ dev_langs:
 </tr>
 </tbody>
 </table>
-

@@ -37,7 +37,7 @@ HRESULT Invoke(
 *asyncInfo* \[in\]
 </dt> <dd>
 
-Type: **[**IAsyncAction**](https://msdn.microsoft.com/library/BR205781(v=VS.85).aspx)\***
+Type: **[**IAsyncAction**](/windows/win32/api/windows.foundation/nn-windows-foundation-iasyncaction)\***
 
 The asynchronous action that reports completion.
 
@@ -69,9 +69,4 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -12,7 +12,7 @@ Identifies the combination of audio devices that the application is currently us
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -55,7 +55,3 @@ If you are using the DSP in source mode, you do not need to set this property. T
  
 
  
-
-
-
-

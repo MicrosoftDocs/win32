@@ -18,10 +18,10 @@ For descriptions of each of these algorithms, see the glossary.
 
 | Purpose      | Supported algorithms                                                                                                              |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Key Exchange | [*DH*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx)                                                                          |
-| Signature    | [*DSS*](https://msdn.microsoft.com/library/ms721573(v=VS.85).aspx)                                                                       |
-| Encryption   | [*CYLINK\_MEK*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx)                                                 |
-| Hashing      | [*MD5*](https://msdn.microsoft.com/library/ms721594(v=VS.85).aspx)[*SHA*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx)<br/> |
+| Key Exchange | [*DH*](../secgloss/d-gly.md)                                                                          |
+| Signature    | [*DSS*](../secgloss/d-gly.md)                                                                       |
+| Encryption   | [*CYLINK\_MEK*](../secgloss/c-gly.md)                                                 |
+| Hashing      | [*MD5*](../secgloss/m-gly.md)[*SHA*](../secgloss/s-gly.md)<br/> |
 
 
 
@@ -29,14 +29,10 @@ For descriptions of each of these algorithms, see the glossary.
 
 ## Related Documentation
 
-The DSA was proposed by the [*National Institute of Standards and Technology*](https://msdn.microsoft.com/library/ms721596(v=VS.85).aspx) (NIST). A description of the algorithm can be found in the following government reference:
+The DSA was proposed by the [*National Institute of Standards and Technology*](../secgloss/n-gly.md) (NIST). A description of the algorithm can be found in the following government reference:
 
 -   "Proposed Federal Information Processing Standard for Digital Signature Standard (DSS)," Federal Register, v. 57, no. 21, 31 Jan 1992, pp. 3747-3749.
 
  
 
  
-
-
-
-

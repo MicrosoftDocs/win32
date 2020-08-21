@@ -34,7 +34,7 @@ The UAC feature is enabled by default. While it is possible for an administrator
 It is important to note that applications should strive to only use standard user rights if at all possible. While administrators can easily elevate the privileges of a process, the elevation still requires user interaction and acknowledgement every time that an application is run that requires administrative credentials. This elevation must also be done at the time that the program starts, so requiring administrative credentials   even for a single operation   requires exposing the system to greater risk for the entire running time of the application. Standard users without any ability to elevate their privileges are also common in family and business settings. "Run As Administrator" is not a good workaround for compatibility, exposes the user and the system to greater security risk, and creates frustration for users in many situations.
 
 > [!Note]  
-> The User Account Control feature introduced in Windows Vista is also present in Windows 7. While the user experience working with the various system features has been improved with respect to User Account Control, the impact on applications is basically the same. All of the Windows Vista recommendations in this article apply to Windows 7 as well. For details on the UAC UI changes for Windows 7, see [User Interface - User Account Control Dialog Updates](/windows/win32/Win7AppQual/user-interface---user-account-control-dialog-updates).
+> The User Account Control feature introduced in Windows Vista is also present in Windows 7. While the user experience working with the various system features has been improved with respect to User Account Control, the impact on applications is basically the same. All of the Windows Vista recommendations in this article apply to Windows 7 as well. For details on the UAC UI changes for Windows 7, see [User Interface - User Account Control Dialog Updates](../win7appqual/user-interface---user-account-control-dialog-updates.md).
 
  
 
@@ -267,15 +267,9 @@ This white paper provides detailed steps about the design process, along with co
 
 For more information about User Account Control, visit [Windows Vista: User Account Control](https://www.microsoft.com/technet/windowsvista/security/uac.mspx) on [Microsoft TechNet](https://www.microsoft.com/technet/).
 
-Another useful resource is the article [Teach Your Apps To Play Nicely with Windows Vista User Account Control](https://docs.microsoft.com/archive/msdn-magazine/2007/january/teach-your-apps-to-work-with-windows-vista-user-account-control), from [MSDN Magazine](https://msdn.microsoft.com/magazine/default.aspx), January 2007. This article discusses general issues of application compatibility, as well as the advantages and issues of using Windows Installer packages on Windows Vista.
+Another useful resource is the article [Teach Your Apps To Play Nicely with Windows Vista User Account Control](/archive/msdn-magazine/2007/january/teach-your-apps-to-work-with-windows-vista-user-account-control), from [MSDN Magazine](/archive/msdn-magazine/msdn-magazine-issues), January 2007. This article discusses general issues of application compatibility, as well as the advantages and issues of using Windows Installer packages on Windows Vista.
 
-For more information about the bug and the fix for mt.exe, the tool used by Visual Studio 2005 to automatically merge and embed a manifest into an executable, see [Exploring Manifests Part 2: Default Namespaces and UAC Manifests in Windows Vista](https://techcommunity.microsoft.com/t5/Windows-Blog-Archive/bg-p/Windows-Blog-Archive/2006/09/08/exploring-manifests-part-2-default-namespaces-and-uac-manifests-in-windows-vista/) on Chris Jackson's blog on [MSDN](https://blogs.msdn.microsoft.com/).
-
- 
+For more information about the bug and the fix for mt.exe, the tool used by Visual Studio 2005 to automatically merge and embed a manifest into an executable, see [Exploring Manifests Part 2: Default Namespaces and UAC Manifests in Windows Vista](https://techcommunity.microsoft.com/t5/Windows-Blog-Archive/bg-p/Windows-Blog-Archive/2006/09/08/exploring-manifests-part-2-default-namespaces-and-uac-manifests-in-windows-vista/) on Chris Jackson's blog on [MSDN](/archive/blogs/).
 
  
-
-
-
-
 

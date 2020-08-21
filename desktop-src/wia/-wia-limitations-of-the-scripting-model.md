@@ -13,7 +13,7 @@ api_location:
 # Limitations of the Scripting Model
 
 > [!Note]  
-> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](https://docs.microsoft.com/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
+> This scripting system has been replaced with Windows Image Acquisition (WIA) Automation Layer. See [Windows Image Acquisition Automation Layer](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
 
  
 
@@ -33,6 +33,3 @@ The Windows Image Acquisition (WIA) scripting model exposes a subset of WIA func
  
 
  
-
-
-

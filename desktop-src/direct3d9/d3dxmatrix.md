@@ -37,7 +37,7 @@ typedef struct D3DXMATRIX {
 **\_ij**
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -134,7 +134,3 @@ typedef struct _D3DMATRIX D3DXMATRIX, *LPD3DXMATRIX;
  
 
  
-
-
-
-

@@ -14,14 +14,14 @@ The following enumerations are declared in dxcore_interface.h.
 
 | Topic and description |
 |-|
-| [**DXCoreAdapterPreference**](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference). Defines constants that specify DXCore adapter preferences to be used as list-sorting criteria. |
-| [**DXCoreAdapterProperty**](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty). Defines constants that specify DXCore adapter properties. |
-| [**DXCoreAdapterState**](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate). Defines constants that specify kinds of DXCore adapter states. |
-| [**DXCoreNotificationType**](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype). Defines constants that specify types of notifications raised by [IDXCoreAdapter](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter) or [IDXCoreAdapterList](/windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist) objects. |
-| [**DXCoreSegmentGroup**](/windows/win32/dxcore/dxcore_interface/ne-dxcore_interface-dxcoresegmentgroup). Defines constants that specify an adapter's memory segment grouping. |
+| [**DXCoreAdapterPreference**](./dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference.md). Defines constants that specify DXCore adapter preferences to be used as list-sorting criteria. |
+| [**DXCoreAdapterProperty**](./dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty.md). Defines constants that specify DXCore adapter properties. |
+| [**DXCoreAdapterState**](./dxcore_interface/ne-dxcore_interface-dxcoreadapterstate.md). Defines constants that specify kinds of DXCore adapter states. |
+| [**DXCoreNotificationType**](./dxcore_interface/ne-dxcore_interface-dxcorenotificationtype.md). Defines constants that specify types of notifications raised by [IDXCoreAdapter](./dxcore_interface/nn-dxcore_interface-idxcoreadapter.md) or [IDXCoreAdapterList](./dxcore_interface/nn-dxcore_interface-idxcoreadapterlist.md) objects. |
+| [**DXCoreSegmentGroup**](./dxcore_interface/ne-dxcore_interface-dxcoresegmentgroup.md). Defines constants that specify an adapter's memory segment grouping. |
 
 ## Related topics
 
-* [DXCore Reference](/windows/win32/dxcore/dxcore-reference)
-* [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
-* [Direct3D 12 graphics](/windows/win32/direct3d12/direct3d-12-graphics)
+* [DXCore Reference](./dxcore-reference.md)
+* [Using DXCore to enumerate adapters](./dxcore-enum-adapters.md)
+* [Direct3D 12 graphics](../direct3d12/direct3d-12-graphics.md)

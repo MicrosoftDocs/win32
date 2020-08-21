@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 A Native Wifi API call may fail with when a caller does not have adequate permissions to perform the requested operation.
 
-Permissions are stored in a [discretionary access control lists (DACL)](https://msdn.microsoft.com/library/Aa374872(v=VS.85).aspx) associated with a [**WLAN\_SECURABLE\_OBJECT**](/windows/desktop/api/wlanapi/ne-wlanapi-wlan_securable_object). For more information about DACLs and securable objects, see [How DACLs Control Access to an Object](https://msdn.microsoft.com/library/Aa446683(v=VS.85).aspx).
+Permissions are stored in a [discretionary access control lists (DACL)](../secauthz/access-control-lists.md) associated with a [**WLAN\_SECURABLE\_OBJECT**](/windows/desktop/api/wlanapi/ne-wlanapi-wlan_securable_object). For more information about DACLs and securable objects, see [How DACLs Control Access to an Object](../secauthz/how-dacls-control-access-to-an-object.md).
 
 The following table shows the Native Wifi functions that use securable objects to determine if the caller has sufficient permissions to perform the requested operation. It also shows the securable objects used by each function.
 
@@ -78,7 +78,7 @@ The following table shows the Native Wifi functions that use securable objects t
 
  
 
-Before one of the above-named functions completes its operation, the function retrieves the DACL stored in the appropriate securable object. The function then checks the DACL to see if the caller has sufficient permissions. The WlanGet\* and WlanQuery\* functions require that the DACL contains an [access control entry (ACE)](https://msdn.microsoft.com/library/Aa374868(v=VS.85).aspx) that grants the [access token](https://msdn.microsoft.com/library/Aa374909(v=VS.85).aspx) of the calling thread WLAN\_READ\_ACCESS to the function. The WlanSet\* functions require an ACE that grants the access token of the calling thread WLAN\_WRITE\_ACCESS. If the caller does not have sufficient permissions, the function call fails with the error ERROR\_ACCESS\_DENIED.
+Before one of the above-named functions completes its operation, the function retrieves the DACL stored in the appropriate securable object. The function then checks the DACL to see if the caller has sufficient permissions. The WlanGet\* and WlanQuery\* functions require that the DACL contains an [access control entry (ACE)](../secauthz/access-control-entries.md) that grants the [access token](../secauthz/access-tokens.md) of the calling thread WLAN\_READ\_ACCESS to the function. The WlanSet\* functions require an ACE that grants the access token of the calling thread WLAN\_WRITE\_ACCESS. If the caller does not have sufficient permissions, the function call fails with the error ERROR\_ACCESS\_DENIED.
 
 Each securable object has a DACL associated with it by default. The default permissions stored in the DACL can be changed using the [**WlanSetSecuritySettings**](/windows/desktop/api/wlanapi/nf-wlanapi-wlansetsecuritysettings) function. To determine the effective user rights required to perform an operation on a particular system, call [**WlanGetSecuritySettings**](/windows/desktop/api/wlanapi/nf-wlanapi-wlangetsecuritysettings).
 
@@ -90,7 +90,7 @@ All-user profiles have additional permissions associated with the profile itself
 
 <dl> <dt>
 
-[How DACLs Control Access to an Object](https://msdn.microsoft.com/library/Aa446683(v=VS.85).aspx)
+[How DACLs Control Access to an Object](../secauthz/how-dacls-control-access-to-an-object.md)
 </dt> <dt>
 
 [**WLAN\_SECURABLE\_OBJECT**](/windows/desktop/api/wlanapi/ne-wlanapi-wlan_securable_object)
@@ -99,7 +99,3 @@ All-user profiles have additional permissions associated with the profile itself
  
 
  
-
-
-
-

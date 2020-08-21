@@ -39,7 +39,7 @@ typedef struct D3DLOCKED_BOX {
 **RowPitch**
 </dt> <dd>
 
-Type: **[**int**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**int**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -50,7 +50,7 @@ Byte offset from the left edge of one row to the left edge of the next row.
 **SlicePitch**
 </dt> <dd>
 
-Type: **[**int**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**int**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -90,16 +90,12 @@ Volumes can be visualized as being organized into slices of width x height 2D su
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**IDirect3DVolume9::LockBox**](https://msdn.microsoft.com/library/Bb205938(v=VS.85).aspx)
+[**IDirect3DVolume9::LockBox**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-lockbox)
 </dt> <dt>
 
-[**IDirect3DVolumeTexture9::LockBox**](https://msdn.microsoft.com/library/Bb205945(v=VS.85).aspx)
+[**IDirect3DVolumeTexture9::LockBox**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dvolumetexture9-lockbox)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -17,7 +17,7 @@ api_location:
 
 # NtCompareTokens function
 
-The **NtCompareTokens** function compares two [*access tokens*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) and determines whether they are equivalent with respect to a call to the [**AccessCheck**](https://msdn.microsoft.com/library/Aa374815(v=VS.85).aspx) function.
+The **NtCompareTokens** function compares two [*access tokens*](/windows/desktop/SecGloss/a-gly) and determines whether they are equivalent with respect to a call to the [**AccessCheck**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-accesscheck) function.
 
 ## Syntax
 
@@ -67,12 +67,12 @@ If the function fails, it returns an **NTSTATUS** error code.
 
 Two access control tokens are considered to be equivalent if all of the following conditions are true:
 
--   Every [*security identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SID) that is present in either token is also present in the other token.
+-   Every [*security identifier*](/windows/desktop/SecGloss/s-gly) (SID) that is present in either token is also present in the other token.
 -   Neither or both of the tokens are restricted.
 -   If both tokens are restricted, every SID that is restricted in one token is also restricted in the other token.
 -   Every privilege present in either token is also present in the other token.
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
 ## Requirements
 
@@ -88,9 +88,4 @@ This function has no associated import library or header file; you must call it 
 
 
  
-
- 
-
-
-
 

@@ -58,7 +58,7 @@ The property methods of the [**IADsSecurityDescriptor**](/windows/desktop/api/Ia
 **Control**
 </dt> <dd> <dl>
 
-Flags that qualify the meaning of the security descriptor. Values are taken from the Win32 [**SECURITY\_DESCRIPTOR\_CONTROL**](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control) structure.
+Flags that qualify the meaning of the security descriptor. Values are taken from the Win32 [**SECURITY\_DESCRIPTOR\_CONTROL**](/windows/desktop/SecAuthZ/security-descriptor-control) structure.
 
 <dt>
 
@@ -114,7 +114,7 @@ HRESULT put_DaclDefaulted(
 **DiscretionaryAcl**
 </dt> <dd> <dl>
 
-Discretionary access-control list (DACL) that specifies the types of access granted to the object for specified users and groups. For more information about DACLs, see [Null DACLs and Empty DACLs](https://docs.microsoft.com/windows/desktop/AD/null-dacls-and-empty-dacls).
+Discretionary access-control list (DACL) that specifies the types of access granted to the object for specified users and groups. For more information about DACLs, see [Null DACLs and Empty DACLs](/windows/desktop/AD/null-dacls-and-empty-dacls).
 
 <dt>
 
@@ -254,7 +254,7 @@ HRESULT put_OwnerDefaulted(
 **Revision**
 </dt> <dd> <dl>
 
-Revision level of the security descriptor. This value is taken from the Win32 [**ACL\_REVISION\_INFORMATION**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl_revision_information) structure. All ACEs in an ACL must be at the same revision level.
+Revision level of the security descriptor. This value is taken from the Win32 [**ACL\_REVISION\_INFORMATION**](/windows/desktop/api/winnt/ns-winnt-acl_revision_information) structure. All ACEs in an ACL must be at the same revision level.
 
 <dt>
 
@@ -400,10 +400,4 @@ Cleanup:
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

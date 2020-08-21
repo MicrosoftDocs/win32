@@ -22,7 +22,7 @@ The IDeliveryOptimizationJob2 enables adding a single file to the download job, 
 
 ## Members
 
-The **IDeliveryOptimizationJob2** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDeliveryOptimizationJob2** also has these types of members:
+The **IDeliveryOptimizationJob2** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDeliveryOptimizationJob2** also has these types of members:
 
 - [Methods](#methods)
 

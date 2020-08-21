@@ -12,7 +12,7 @@ Specifies whether the input stream is interlaced.
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -61,7 +61,3 @@ If this property is not set, the DSP uses the input media type to determine whet
  
 
  
-
-
-
-

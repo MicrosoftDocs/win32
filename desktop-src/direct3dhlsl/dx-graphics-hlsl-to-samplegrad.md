@@ -197,7 +197,7 @@ Samples a texture using a gradient to influence the way the sample location is c
 
 ## Return Value
 
-The texture's template type, which may be a single- or multi-component vector. The format is based on the texture's [**DXGI\_FORMAT**](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
+The texture's template type, which may be a single- or multi-component vector. The format is based on the texture's [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
 ## Minimum Shader Model
 
@@ -263,10 +263,4 @@ float4 PSSceneMain( VSSceneOut Input ) : SV_TARGET
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

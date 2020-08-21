@@ -13,11 +13,11 @@ ms.date: 05/31/2018
 
 # Retrieving Deleted Objects
 
-Deleted objects are stored in the Deleted Objects container. The Deleted Objects container is not normally visible, but the Deleted Objects container can be bound to by a member of the administrators group. The contents of the Deleted Objects container can be enumerated and individual deleted object attributes can be obtained using the [**IDirectorySearch**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch) interface with the **ADS\_SEARCHPREF\_TOMBSTONE** search preference.
+Deleted objects are stored in the Deleted Objects container. The Deleted Objects container is not normally visible, but the Deleted Objects container can be bound to by a member of the administrators group. The contents of the Deleted Objects container can be enumerated and individual deleted object attributes can be obtained using the [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) interface with the **ADS\_SEARCHPREF\_TOMBSTONE** search preference.
 
 The Deleted Objects container can be obtained by binding to the well-known GUID **GUID\_DELETED\_OBJECTS\_CONTAINER** defined in Ntdsapi.h. For more information about binding to well-known GUIDs, see [Binding to Well-Known Objects Using WKGUID](binding-to-well-known-objects-using-wkguid.md).
 
-Specify the **ADS\_FAST\_BIND** option when binding to the Deleted Objects container. This means that the ADSI interfaces used to work with an object in Active Directory Domain Services, such as [**IADs**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads) and [**IADsPropertyList**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist), cannot be used on the Deleted Objects container. For more information and a code example that shows how to bind to the Deleted Objects container, see the GetDeletedObjectsContainer example function below.
+Specify the **ADS\_FAST\_BIND** option when binding to the Deleted Objects container. This means that the ADSI interfaces used to work with an object in Active Directory Domain Services, such as [**IADs**](/windows/desktop/api/iads/nn-iads-iads) and [**IADsPropertyList**](/windows/desktop/api/iads/nn-iads-iadspropertylist), cannot be used on the Deleted Objects container. For more information and a code example that shows how to bind to the Deleted Objects container, see the GetDeletedObjectsContainer example function below.
 
 -   [Enumerating Deleted Objects](#enumerating-deleted-objects)
 -   [Finding a Specific Deleted Object](#finding-a-specific-deleted-object)
@@ -27,21 +27,21 @@ Specify the **ADS\_FAST\_BIND** option when binding to the Deleted Objects conta
 
 ## Enumerating Deleted Objects
 
-The [**IDirectorySearch**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch) interface is used to search for deleted objects.
+The [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) interface is used to search for deleted objects.
 
 **To enumerate deleted objects**
 
-1.  Obtain the [**IDirectorySearch**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch) interface for the Deleted Objects container. This is accomplished by binding to the Deleted Objects container and requesting the **IDirectorySearch** interface. For more information and a code example that shows how to bind to the Deleted Objects container, see the following **GetDeletedObjectsContainer** function example.
-2.  Set the **ADS\_SEARCHPREF\_SEARCH\_SCOPE** search preference to **ADS\_SCOPE\_ONELEVEL** using the [**IDirectorySearch::SetSearchPreference**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference) method. The **ADS\_SCOPE\_SUBTREE** preference can also be used, but the Deleted Objects container is only one level, so using **ADS\_SCOPE\_SUBTREE** is redundant.
+1.  Obtain the [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) interface for the Deleted Objects container. This is accomplished by binding to the Deleted Objects container and requesting the **IDirectorySearch** interface. For more information and a code example that shows how to bind to the Deleted Objects container, see the following **GetDeletedObjectsContainer** function example.
+2.  Set the **ADS\_SEARCHPREF\_SEARCH\_SCOPE** search preference to **ADS\_SCOPE\_ONELEVEL** using the [**IDirectorySearch::SetSearchPreference**](/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference) method. The **ADS\_SCOPE\_SUBTREE** preference can also be used, but the Deleted Objects container is only one level, so using **ADS\_SCOPE\_SUBTREE** is redundant.
 3.  Set the **ADS\_SEARCHPREF\_TOMBSTONE** search preference to **TRUE**. This causes the search to include deleted objects.
 4.  Set the **ADS\_SEARCHPREF\_PAGESIZE** search preference to a value less than, or equal to, 1000. This is optional, but if this is not done, no more than 1000 deleted objects can be retrieved.
-5.  Set the search filter in the [**IDirectorySearch::ExecuteSearch**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch) call to "(isDeleted=**TRUE**)". This causes the search to only retrieve objects with the **isDeleted** attribute set to **TRUE**.
+5.  Set the search filter in the [**IDirectorySearch::ExecuteSearch**](/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch) call to "(isDeleted=**TRUE**)". This causes the search to only retrieve objects with the **isDeleted** attribute set to **TRUE**.
 
 For a code example code that shows how to enumerate deleted objects, see the following **EnumDeletedObjects** function example.
 
-The search can be refined further by adding to the search filter as shown in [LDAP Dialect](https://docs.microsoft.com/windows/desktop/ADSI/ldap-dialect). For example, to search for all of the deleted objects with a name that begins with "Jeff", the search filter would be set to "(&(isDeleted=**TRUE**)(cn=Jeff\*))".
+The search can be refined further by adding to the search filter as shown in [LDAP Dialect](/windows/desktop/ADSI/ldap-dialect). For example, to search for all of the deleted objects with a name that begins with "Jeff", the search filter would be set to "(&(isDeleted=**TRUE**)(cn=Jeff\*))".
 
-Because deleted objects have most of their attributes removed when they are deleted, it is not possible to bind directly to a deleted object. The **ADS\_FAST\_BIND** option must be specified when binding to a deleted object. This means that the ADSI interfaces used to work with an Active Directory Domain Services object, such as [**IADs**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads) and [**IADsPropertyList**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist), cannot be used on a deleted object container.
+Because deleted objects have most of their attributes removed when they are deleted, it is not possible to bind directly to a deleted object. The **ADS\_FAST\_BIND** option must be specified when binding to a deleted object. This means that the ADSI interfaces used to work with an Active Directory Domain Services object, such as [**IADs**](/windows/desktop/api/iads/nn-iads-iads) and [**IADsPropertyList**](/windows/desktop/api/iads/nn-iads-iadspropertylist), cannot be used on a deleted object container.
 
 ## Finding a Specific Deleted Object
 
@@ -433,7 +433,3 @@ cleanup:
  
 
  
-
-
-
-

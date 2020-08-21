@@ -58,7 +58,7 @@ class Win32_RDMSCollectionProperties
 The **Win32\_RDMSCollectionProperties** class has these types of members:
 
 -   [Methods](#methods)
--   [Properties](https://docs.microsoft.com/windows)
+-   [Properties](/windows)
 
 ### Methods
 
@@ -89,7 +89,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Gets the alias of the collection.
@@ -235,10 +235,4 @@ Gets and sets a value that indicates whether RemoteFX is enabled for the master 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

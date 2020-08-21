@@ -24,8 +24,8 @@ Sets the y value of the black point.
 
 | Method                                                                                               | Description                                     |
 |:-----------------------------------------------------------------------------------------------------|:------------------------------------------------|
-| [**SetBlackPointY**](https://msdn.microsoft.com/library/Dn919715(v=VS.85).aspx)                               | Sets the y value of the black point.<br/> |
-| [**SetBlackPointY (IDCompositionAnimation \*)**](https://msdn.microsoft.com/library/Dn919716(v=VS.85).aspx) | Sets the y value of the black point.<br/> |
+| [**SetBlackPointY**](/windows/win32/api/dcomp/nf-dcomp-idcompositionbrightnesseffect-setblackpointy(float))                               | Sets the y value of the black point.<br/> |
+| [**SetBlackPointY (IDCompositionAnimation \*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionbrightnesseffect-setblackpointy(idcompositionanimation)) | Sets the y value of the black point.<br/> |
 
 
 
@@ -43,14 +43,9 @@ Sets the y value of the black point.
 
 <dl> <dt>
 
-[**idcompositionbrightnesseffect**](https://msdn.microsoft.com/library/Dn919711(v=VS.85).aspx)
+[**idcompositionbrightnesseffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionbrightnesseffect)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

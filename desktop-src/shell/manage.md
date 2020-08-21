@@ -224,7 +224,7 @@ int main(void)
 
 
 
-The application first retrieves a pointer to the desktop's [**IShellFolder**](https://msdn.microsoft.com/library/Bb775075(v=VS.85).aspx) interface. It then retrieves the source directory's PIDL by passing its fully qualified path to [**IShellFolder::ParseDisplayName**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname). Note that **IShellFolder::ParseDisplayName** requires the directory's path to be a Unicode string. The application then binds to the source directory and uses its **IShellFolder** interface to retrieve an enumerator object's [**IEnumIDList**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist) interface.
+The application first retrieves a pointer to the desktop's [**IShellFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) interface. It then retrieves the source directory's PIDL by passing its fully qualified path to [**IShellFolder::ParseDisplayName**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname). Note that **IShellFolder::ParseDisplayName** requires the directory's path to be a Unicode string. The application then binds to the source directory and uses its **IShellFolder** interface to retrieve an enumerator object's [**IEnumIDList**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist) interface.
 
 As each file in the source directory is enumerated, [**IShellFolder::GetDisplayNameOf**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) is used to retrieve its name. The SHGDN\_FORPARSING flag is set, which causes **IShellFolder::GetDisplayNameOf** to return the file's fully qualified path. The file paths, including the terminating **NULL** characters, are concatenated into a single array, *szSourceFiles*. A second **NULL** character is appended to the final path to terminate the array properly.
 
@@ -239,6 +239,3 @@ Your application can enumerate the contents of the Recent folder using the techn
  
 
  
-
-
-

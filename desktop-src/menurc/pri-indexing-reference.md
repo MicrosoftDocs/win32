@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Package resource indexing (PRI) reference
 
-A set of APIs for working with a resource indexer. A resource indexer is used to generate package resource index (PRI) files for a UWP app. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems).
+A set of APIs for working with a resource indexer. A resource indexer is used to generate package resource index (PRI) files for a UWP app. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
 
 ## In this section
 
@@ -51,7 +51,3 @@ A set of APIs for working with a resource indexer. A resource indexer is used to
  
 
  
-
-
-
-

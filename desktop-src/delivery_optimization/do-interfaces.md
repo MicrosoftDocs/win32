@@ -22,8 +22,8 @@ Use the following Delivery Optimization (DO) interfaces to transfer files and mo
 | [**IBackgroundCopyManager**](ibackgroundcopymanager.md) | Creates transfer jobs, retrieves an enumerator object of jobs in the queue, and retrieves individual jobs from the queue. |
 | [**IDeliveryOptimizationJob**](ideliveryoptimizationjob.md) | Use to download ranges of a file. |
 | [**IDeliveryOptimizationFile**](ideliveryoptimizationfile.md) | Use to identify the status of a specific file. |
-| [**IDODownload**](/windows/win32/delivery_optimization/do/nn-do-idodownload) | Used to start and manage a download. |
-| [**IDODownloadInternal**](/windows/win32/delivery_optimization/dodownloadinternal/nn-dodownloadinternal-idodownloadinternal) | Used to get or set extended download properties. |
-| [**IDODownloadStatusCallback**](/windows/win32/delivery_optimization/do/nn-do-idodownloadstatuscallback) | Used to receive notifications about a download. |
-| [**IDOManager**](/windows/win32/delivery_optimization/do/nn-do-idomanager) | Used to create a new download, and to enumerate existing downloads. |
+| [**IDODownload**](./do/nn-do-idodownload.md) | Used to start and manage a download. |
+| [**IDODownloadInternal**](./dodownloadinternal/nn-dodownloadinternal-idodownloadinternal.md) | Used to get or set extended download properties. |
+| [**IDODownloadStatusCallback**](./do/nn-do-idodownloadstatuscallback.md) | Used to receive notifications about a download. |
+| [**IDOManager**](./do/nn-do-idomanager.md) | Used to create a new download, and to enumerate existing downloads. |
 | [**IEnumBackgroundCopyFiles**](ienumbackgroundcopyfiles-.md) | Enumerates files in the job. |

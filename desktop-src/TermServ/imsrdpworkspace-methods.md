@@ -13,17 +13,13 @@ The [**IMsRdpWorkspace**](imsrdpworkspace.md) interface exposes the following me
 
 ## In this section
 
--   [**ClearWorkspaceCredential method**](https://msdn.microsoft.com/library/Ee351596(v=VS.85).aspx)
--   [**DisconnectWorkspace method**](https://msdn.microsoft.com/library/Ee351597(v=VS.85).aspx)
--   [**IsWorkspaceCredentialSpecified method**](https://msdn.microsoft.com/library/Ee351598(v=VS.85).aspx)
--   [**IsWorkspaceSSOEnabled method**](https://msdn.microsoft.com/library/Ee351599(v=VS.85).aspx)
--   [**OnAuthenticated method**](https://msdn.microsoft.com/library/Ee351600(v=VS.85).aspx)
--   [**StartWorkspace method**](https://msdn.microsoft.com/library/Ee351601(v=VS.85).aspx)
+-   [**ClearWorkspaceCredential method**](/previous-versions/windows/desktop/legacy/ee351596(v=vs.85))
+-   [**DisconnectWorkspace method**](/previous-versions/windows/desktop/legacy/ee351597(v=vs.85))
+-   [**IsWorkspaceCredentialSpecified method**](/previous-versions/windows/desktop/legacy/ee351598(v=vs.85))
+-   [**IsWorkspaceSSOEnabled method**](/previous-versions/windows/desktop/legacy/ee351599(v=vs.85))
+-   [**OnAuthenticated method**](/previous-versions/windows/desktop/legacy/ee351600(v=vs.85))
+-   [**StartWorkspace method**](/previous-versions/windows/desktop/legacy/ee351601(v=vs.85))
 
  
 
  
-
-
-
-

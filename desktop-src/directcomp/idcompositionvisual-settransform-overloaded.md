@@ -24,8 +24,8 @@ Sets the Transform property of this visual. The Transform property specifies a 2
 
 | Method                                                                                                    | Description                                                                    |
 |:----------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|
-| [**SetTransform(D2D\_MATRIX\_3X2\_F&)**](https://msdn.microsoft.com/library/Hh449174(v=VS.85).aspx)          | Sets the Transform property to the specified transform matrix.<br/>      |
-| [**SetTransform(IDCompositionTransform\*)**](https://msdn.microsoft.com/library/Hh449176(v=VS.85).aspx) | Sets the Transform property to the specified transformation object.<br/> |
+| [**SetTransform(D2D\_MATRIX\_3X2\_F&)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-settransform(constd2d_matrix_3x2_f_))          | Sets the Transform property to the specified transform matrix.<br/>      |
+| [**SetTransform(IDCompositionTransform\*)**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-settransform(idcompositiontransform)) | Sets the Transform property to the specified transformation object.<br/> |
 
 
 
@@ -47,25 +47,25 @@ Sets the Transform property of this visual. The Transform property specifies a 2
 
 <dl> <dt>
 
-[**IDCompositionMatrixTransform**](https://msdn.microsoft.com/library/Hh437424(v=VS.85).aspx)
+[**IDCompositionMatrixTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionmatrixtransform)
 </dt> <dt>
 
-[**IDCompositionRotateTransform**](https://msdn.microsoft.com/library/Hh448924(v=VS.85).aspx)
+[**IDCompositionRotateTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionrotatetransform)
 </dt> <dt>
 
-[**IDCompositionScaleTransform**](https://msdn.microsoft.com/library/Hh448990(v=VS.85).aspx)
+[**IDCompositionScaleTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionscaletransform)
 </dt> <dt>
 
-[**IDCompositionSkewTransform**](https://msdn.microsoft.com/library/Hh449057(v=VS.85).aspx)
+[**IDCompositionSkewTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionskewtransform)
 </dt> <dt>
 
-[**IDCompositionTransform**](https://msdn.microsoft.com/library/Hh449110(v=VS.85).aspx)
+[**IDCompositionTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositiontransform)
 </dt> <dt>
 
-[**IDCompositionTranslateTransform**](https://msdn.microsoft.com/library/Hh449113(v=VS.85).aspx)
+[**IDCompositionTranslateTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositiontranslatetransform)
 </dt> <dt>
 
-[**IDCompositionVisual**](https://msdn.microsoft.com/library/Hh449139(v=VS.85).aspx)
+[**IDCompositionVisual**](/windows/win32/api/dcomp/nn-dcomp-idcompositionvisual)
 </dt> <dt>
 
 [**IDCompositionVisual::SetOffsetX**](idcompositionvisual-setoffsetx-overloaded.md)
@@ -77,8 +77,3 @@ Sets the Transform property of this visual. The Transform property specifies a 2
 �
 
 �
-
-
-
-
-

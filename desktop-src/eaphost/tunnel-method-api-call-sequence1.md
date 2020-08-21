@@ -1,6 +1,6 @@
 ---
 title: Tunnel Method API Call Sequence
-description: This topic covers the API call sequence for Tunnel Methods.
+description: Learn about the API call sequence for Tunnel Methods. See an overview and view additional available resources.
 ms.assetid: 48aad213-1d29-4809-9599-b56325b2b8e8
 ms.topic: article
 ms.date: 05/31/2018

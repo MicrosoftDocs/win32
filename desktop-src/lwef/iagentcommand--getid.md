@@ -16,7 +16,7 @@ HRESULT GetID(
 );
 ```
 
-Retrieves the ID for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+Retrieves the ID for a [**Command**](/windows/desktop/lwef/the-command-object).
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,7 +25,7 @@ Retrieves the ID for a [**Command**](https://docs.microsoft.com/windows/desktop/
 <span id="pdwID"></span><span id="pdwid"></span><span id="PDWID"></span>*pdwID*
 </dt> <dd>
 
-The address of a variable that receives the ID of a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+The address of a variable that receives the ID of a [**Command**](/windows/desktop/lwef/the-command-object).
 
 </dd> </dl>
 
@@ -37,7 +37,3 @@ The address of a variable that receives the ID of a [**Command**](https://docs.m
  
 
  
-
-
-
-

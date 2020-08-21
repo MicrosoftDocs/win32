@@ -24,14 +24,14 @@ Paints the interior of the specified rounded rectangle.
 
 | Method                                                                                                                                          | Description                                                         |
 |:------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------|
-| [**FillRoundedRectangle(D2D1\_ROUNDED\_RECT&,ID2D1Brush\*)**](https://msdn.microsoft.com/library/Dd316795(v=VS.85).aspx)  | Paints the interior of the specified rounded rectangle. <br/> |
-| [**FillRoundedRectangle(D2D1\_ROUNDED\_RECT\*,ID2D1Brush\*)**](https://msdn.microsoft.com/library/Dd371959(v=VS.85).aspx) | Paints the interior of the specified rounded rectangle.<br/>  |
+| [**FillRoundedRectangle(D2D1\_ROUNDED\_RECT&,ID2D1Brush\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillroundedrectangle(constd2d1_rounded_rect__id2d1brush))  | Paints the interior of the specified rounded rectangle. <br/> |
+| [**FillRoundedRectangle(D2D1\_ROUNDED\_RECT\*,ID2D1Brush\*)**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillroundedrectangle(constd2d1_rounded_rect__id2d1brush)) | Paints the interior of the specified rounded rectangle.<br/>  |
 
 
 
 ## Remarks
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as **FillRoundedRectangle**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/library/Dd371924(v=VS.85).aspx) or [**ID2D1RenderTarget::Flush**](https://msdn.microsoft.com/library/Dd316801(v=VS.85).aspx) methods.
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as **FillRoundedRectangle**) failed, check the result returned by the [**ID2D1RenderTarget::EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) or [**ID2D1RenderTarget::Flush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush) methods.
 
 ## Examples
 
@@ -133,14 +133,9 @@ HRESULT DrawAndFillRoundedRectangleExample::OnRender()
 [How to Draw and Fill a Basic Shape](how-to-draw-an-ellipse.md)
 </dt> <dt>
 
-[**D2D1::RoundedRect**](https://msdn.microsoft.com/library/Dd316917(v=VS.85).aspx)
+[**D2D1::RoundedRect**](/windows/win32/api/d2d1/nf-d2d1-id2d1roundedrectanglegeometry-getroundedrect)
 </dt> </dl>
 
 �
 
 �
-
-
-
-
-

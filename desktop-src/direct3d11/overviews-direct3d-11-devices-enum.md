@@ -14,11 +14,11 @@ You generally need to enumerate adapters for these reasons:
 
 -   To determine how many graphics adapters are installed on a computer.
 -   To help you choose which adapter to use to create a Direct3D device.
--   To retrieve an [**IDXGIAdapter**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter) object that you can use to retrieve device capabilities.
+-   To retrieve an [**IDXGIAdapter**](/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter) object that you can use to retrieve device capabilities.
 
 **To enumerate adapters**
 
-1.  Create an [**IDXGIFactory**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory) object by calling the [**CreateDXGIFactory**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory) function. The following code example demonstrates how to initialize an **IDXGIFactory** object.
+1.  Create an [**IDXGIFactory**](/windows/desktop/api/dxgi/nn-dxgi-idxgifactory) object by calling the [**CreateDXGIFactory**](/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory) function. The following code example demonstrates how to initialize an **IDXGIFactory** object.
     ```
     IDXGIFactory * pFactory = NULL;
 
@@ -27,7 +27,7 @@ You generally need to enumerate adapters for these reasons:
 
     
 
-2.  Enumerate through each adapter by calling the [**IDXGIFactory::EnumAdapters**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-enumadapters) method. The *Adapter* parameter allows you to specify a zero-based index number of the adapter to enumerate. If no adapter is available at the specified index, the method returns [**DXGI\_ERROR\_NOT\_FOUND**](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error).
+2.  Enumerate through each adapter by calling the [**IDXGIFactory::EnumAdapters**](/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-enumadapters) method. The *Adapter* parameter allows you to specify a zero-based index number of the adapter to enumerate. If no adapter is available at the specified index, the method returns [**DXGI\_ERROR\_NOT\_FOUND**](/windows/desktop/direct3ddxgi/dxgi-error).
 
     The following code example demonstrates how to enumerate through the adapters on a computer.
 
@@ -43,7 +43,7 @@ You generally need to enumerate adapters for these reasons:
 The following code example demonstrates how to enumerate all adapters on a computer.
 
 > [!Note]  
-> For Direct3D 11.0 and later, we recommend that apps always use [**IDXGIFactory1**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1) and [**CreateDXGIFactory1**](https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1) instead.
+> For Direct3D 11.0 and later, we recommend that apps always use [**IDXGIFactory1**](/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1) and [**CreateDXGIFactory1**](/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1) instead.
 
  
 
@@ -93,7 +93,3 @@ std::vector <IDXGIAdapter*> EnumerateAdapters(void)
  
 
  
-
-
-
-

@@ -49,7 +49,7 @@ Pointer to an [**ID3DXMesh**](id3dxmesh.md) interface, representing the mesh to 
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the mesh to be tested.
 
@@ -95,7 +95,3 @@ This method validates the mesh by checking for invalid indices. Error informatio
  
 
  
-
-
-
-

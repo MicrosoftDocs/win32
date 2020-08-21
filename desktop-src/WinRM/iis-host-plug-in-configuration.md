@@ -15,7 +15,7 @@ The following sections describe IIS host plug-in configuration:
 
 -   [IIS Hosting Details](#iis-hosting-details)
 -   [IIS Host Configuration Model](#iis-host-configuration-model)
--   [IIS Host (WinRM) Configuration Setup and Details](https://docs.microsoft.com/windows)
+-   [IIS Host (WinRM) Configuration Setup and Details](/windows)
 -   [Reading IIS Host Configuration](#reading-iis-host-configuration)
 -   [Enumerating Plug-ins on the WinRM Service](#enumerating-plug-ins-on-the-winrm-service)
 
@@ -60,8 +60,8 @@ For example, there are separate **sections** for sites, logging, caching, and so
 
 For more information about IIS configuration, see the following:
 
--   [IIS 7.0 Settings Schema](https://msdn.microsoft.com/library/aa347559.aspx)
--   [https://blogs.msdn.com/carlosag/archive/2006/04/25/IIS7ConfigurationSystem.aspx](https://blogs.msdn.com/carlosag/archive/2006/04/25/IIS7ConfigurationSystem.aspx)
+-   [IIS 7.0 Settings Schema](/previous-versions/iis/settings-schema/aa347559(v=vs.90))
+-   [/archive/blogs/carlosag/](/archive/blogs/carlosag/)
 -   [https://www.iis.net/articles/view.aspx/IIS7/Use-IIS7-Administration-Tools/Using-XML-Configuration/Deep-Dive-into-IIS7](https://www.iis.net/learn/get-started/planning-your-iis-architecture/deep-dive-into-iis-configuration-with-iis-7-and-iis-8)
 
 The IIS configuration schema used to validate IIS configuration data is XML files stored in the IIS schema directory (typically, %windir%\\System32\\InetSrv\\Config\\Schema). The IIS configuration schema is not XSD. IIS configuration supports extensibility. New configuration sections can be directly integrated into the IIS configuration system, and the IIS configuration system's settings can be manipulated using the existing administration APIs.
@@ -290,10 +290,4 @@ The standard plug-ins are not configured by default. They need to be explicitly 
 The following command demonstrates how to use the winrm utility to determine which plug-ins are available on the WinRM service: **winrm enumerate winrm/config/plugin -format:pretty**.
 
  
-
- 
-
-
-
-
 

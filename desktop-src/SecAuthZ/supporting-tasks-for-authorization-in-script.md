@@ -15,7 +15,7 @@ The following tasks support the main tasks listed in [Using Authorization in Scr
 | Topic                                                                                                    | Description                                                                                                                                                                                                                                  |
 |----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Creating an Authorization Policy Store in Script](creating-an-authorization-policy-store-in-script.md) | Create an authorization policy before or during the installation of an application.                                                                                                                                                          |
-| [Establishing a Client Context in Script](establishing-a-client-context-in-script.md)                   | Create a client context with a handle to a token, a domain and user name, or a string representation of the [*security identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SID) of the client. |
+| [Establishing a Client Context in Script](establishing-a-client-context-in-script.md)                   | Create a client context with a handle to a token, a domain and user name, or a string representation of the [*security identifier*](/windows/desktop/SecGloss/s-gly) (SID) of the client. |
 | [Qualifying Access with Business Logic in Script](qualifying-access-with-business-logic-in-script.md)   | Provide run-time logic for checking access.                                                                                                                                                                                                  |
 
 
@@ -25,6 +25,3 @@ The following tasks support the main tasks listed in [Using Authorization in Scr
  
 
  
-
-
-

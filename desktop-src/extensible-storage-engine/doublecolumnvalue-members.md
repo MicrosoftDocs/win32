@@ -13,7 +13,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-A [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) column value.
+A [Double](/dotnet/api/system.double) column value.
 
 The [DoubleColumnValue](dn273972\(v=exchg.10\).md) type exposes the following members.
 
@@ -165,4 +165,3 @@ Top
 [DoubleColumnValue class](dn273972\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

@@ -12,7 +12,7 @@ A SID value includes components that provide information about the [**SID**](/wi
 
 -   The revision level of the [**SID**](/windows/desktop/api/Winnt/ns-winnt-sid) structure
 -   A 48-bit identifier authority value that identifies the authority that issued the SID
--   A variable number of subauthority or [*relative identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/r-gly) (RID) values that uniquely identify the trustee relative to the authority that issued the SID
+-   A variable number of subauthority or [*relative identifier*](/windows/desktop/SecGloss/r-gly) (RID) values that uniquely identify the trustee relative to the authority that issued the SID
 
 The combination of the identifier authority value and the subauthority values ensures that no two SIDs will be the same, even if two different SID-issuing authorities issue the same combination of RID values. Each SID-issuing authority issues a given RID only once.
 
@@ -28,7 +28,7 @@ The following example uses this notation to display the well-known domain-relati
 
 S-1-5-32-544
 
-In this example, the SID has the following components. The constants in parentheses are well-known identifier authority and [*RID*](https://docs.microsoft.com/windows/desktop/SecGloss/r-gly) values defined in Winnt.h:
+In this example, the SID has the following components. The constants in parentheses are well-known identifier authority and [*RID*](/windows/desktop/SecGloss/r-gly) values defined in Winnt.h:
 
 -   A revision level of 1
 -   An identifier-authority value of 5 (SECURITY\_NT\_AUTHORITY)
@@ -38,6 +38,3 @@ In this example, the SID has the following components. The constants in parenthe
  
 
  
-
-
-

@@ -77,7 +77,7 @@ The **MDM\_HealthAttestation** class has these properties.
 
 <dl> <dt>
 
-[Certificate](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp)
+[Certificate](/windows/client-management/mdm/healthattestation-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -91,7 +91,7 @@ Qualifiers: **Octetstring**
 
 </dd> <dt>
 
-[CorrelationID](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp)
+[CorrelationID](/windows/client-management/mdm/healthattestation-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -115,7 +115,7 @@ TBD
 
 </dd> <dt>
 
-[ForceRetrieve](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp)
+[ForceRetrieve](/windows/client-management/mdm/healthattestation-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **boolean**
@@ -126,7 +126,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[HASEndpoint](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp)
+[HASEndpoint](/windows/client-management/mdm/healthattestation-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -146,7 +146,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "HealthAttestation".
@@ -166,7 +166,7 @@ TBD
 
 </dd> <dt>
 
-[Nonce](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp)
+[Nonce](/windows/client-management/mdm/healthattestation-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -186,7 +186,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/"
@@ -206,7 +206,7 @@ TBD
 
 </dd> <dt>
 
-[Status](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp)
+[Status](/windows/client-management/mdm/healthattestation-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -217,7 +217,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[TpmReadyStatus](https://docs.microsoft.com/windows/client-management/mdm/healthattestation-csp)
+[TpmReadyStatus](/windows/client-management/mdm/healthattestation-csp)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -246,14 +246,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

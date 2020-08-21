@@ -73,7 +73,7 @@ public static bool operator <=(
 
 #### Return value
 
-Type: [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)  
+Type: [System.Boolean](/dotnet/api/system.boolean)  
 True if lhs comes before or is equal to rhs.  
 
 ## See also
@@ -85,4 +85,3 @@ True if lhs comes before or is equal to rhs.
 [JET_LGPOS members](hh566576\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

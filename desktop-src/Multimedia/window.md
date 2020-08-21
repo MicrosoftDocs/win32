@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 The window command controls the display window. You can use this command to change the display characteristics of the window or provide a destination window for the driver to use in place of the default display window. Digital-video, and video-overlay devices recognize this command.
 
-To send this command, call the [**mciSendString**](https://msdn.microsoft.com/library/Dd757161(v=VS.85).aspx) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/previous-versions//dd757161(v=vs.85)) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -65,7 +65,7 @@ The following table lists the flags that can be specified in the **lpszWindowFla
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | fixed                            | Disables stretching of the image.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | handle default                   | Specifies that the device should set the display window back to the default window created during the [open](open.md) operation. For video-overlay devices, specifies that the device should create and manage its own destination window.                                                                                                                                                                                                                                                                                                                                                  |
-| handle *hwnd*                    | Specifies the handle of the destination window to use instead of the default window. The *hwnd* parameter contains the ASCII numeric equivalent of the window handle returned by the [CreateWindow](https://msdn.microsoft.com/library/ms632679.aspx) function. Two device instances can use the same window handle provided that each instance updates the video and image pixels in the window as if the other instance did not exist. When video output is disabled with [setvideo](setvideo.md) "off", an [update](update.md) command will make the destination rectangle a solid color. |
+| handle *hwnd*                    | Specifies the handle of the destination window to use instead of the default window. The *hwnd* parameter contains the ASCII numeric equivalent of the window handle returned by the [CreateWindow](/windows/win32/api/winuser/nf-winuser-createwindowa) function. Two device instances can use the same window handle provided that each instance updates the video and image pixels in the window as if the other instance did not exist. When video output is disabled with [setvideo](setvideo.md) "off", an [update](update.md) command will make the destination rectangle a solid color. |
 | show maximized                   | Maximizes the destination window.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | show [**min**](min.md) noactive | Displays the destination window as an icon.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | show minimized                   | Minimizes the destination window.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -106,7 +106,7 @@ Returns zero if successful or an error otherwise.
 
 Video-overlay devices typically create and display a window when opened. If your application provides a window to the driver, your application is responsible for managing the messages sent to the window.
 
-Because you can use the [status](status.md) command to retrieve the handle to the driver display window, you can also use the standard window manager functions (such as [ShowWindow](https://msdn.microsoft.com/library/ms633548.aspx)) to manipulate the window.
+Because you can use the [status](status.md) command to retrieve the handle to the driver display window, you can also use the standard window manager functions (such as [ShowWindow](/windows/win32/api/winuser/nf-winuser-showwindow)) to manipulate the window.
 
 ## Examples
 
@@ -150,10 +150,4 @@ window movie text "Welcome to the Movies" state show
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

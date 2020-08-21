@@ -309,7 +309,7 @@ To verify the certificate trust if the signature status was valid or questionabl
 2.  Evaluate the returned certificate trust status.
 3.  Return the resulting status.
 
-The next code example does not test for every possible certificate trust status. For additional details on the status values that can be returned, see [**CERT\_TRUST\_STATUS**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status).
+The next code example does not test for every possible certificate trust status. For additional details on the status values that can be returned, see [**CERT\_TRUST\_STATUS**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status).
 
 
 ```C++
@@ -519,31 +519,31 @@ CreateCertificateChain (
 **Used in This Section**
 </dt> <dt>
 
-[**CERT\_CHAIN\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context)
+[**CERT\_CHAIN\_CONTEXT**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context)
 </dt> <dt>
 
-[**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context)
+[**CERT\_CONTEXT**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context)
 </dt> <dt>
 
-[**CERT\_TRUST\_STATUS**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status)
+[**CERT\_TRUST\_STATUS**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status)
 </dt> <dt>
 
-[**CertAddCertificateContextToStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatecontexttostore)
+[**CertAddCertificateContextToStore**](/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatecontexttostore)
 </dt> <dt>
 
-[**CertOpenStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore)
+[**CertOpenStore**](/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore)
 </dt> <dt>
 
-[**CertGetCertificateChain**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain)
+[**CertGetCertificateChain**](/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain)
 </dt> <dt>
 
-[**IOpcCertificateEnumerator**](https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertificateenumerator)
+[**IOpcCertificateEnumerator**](/previous-versions/windows/desktop/api/msopc/nn-msopc-iopccertificateenumerator)
 </dt> <dt>
 
-[**IOpcCertificateEnumerator::GetCurrent**](https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopccertificateenumerator-getcurrent)
+[**IOpcCertificateEnumerator::GetCurrent**](/previous-versions/windows/desktop/api/msopc/nf-msopc-iopccertificateenumerator-getcurrent)
 </dt> <dt>
 
-[**IOpcCertificateEnumerator::MoveNext**](https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopccertificateenumerator-movenext)
+[**IOpcCertificateEnumerator::MoveNext**](/previous-versions/windows/desktop/api/msopc/nf-msopc-iopccertificateenumerator-movenext)
 </dt> <dt>
 
 [**IXpsSignature**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignature)
@@ -591,6 +591,3 @@ CreateCertificateChain (
  
 
  
-
-
-

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
-The [**Character**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) object supports methods for accessing, loading, and unloading characters into its collection:
+The [**Character**](/windows/desktop/lwef/the-characters-object) object supports methods for accessing, loading, and unloading characters into its collection:
 
 -   [**Character**](character-method.md)
 -   [**Load**](load-method.md)
@@ -19,7 +19,3 @@ The [**Character**](https://docs.microsoft.com/windows/desktop/lwef/the-characte
  
 
  
-
-
-
-

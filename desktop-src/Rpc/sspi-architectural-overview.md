@@ -16,12 +16,8 @@ Using SSPI ensures that no matter which SSP you select, your application accesse
 
 Distributed applications communicate through the RPC interface. The RPC software in turn, accesses the authentication features of an SSP through the SSPI.
 
-For more information, see [SSPI](https://docs.microsoft.com/windows/desktop/SecAuthN/sspi).
+For more information, see [SSPI](/windows/desktop/SecAuthN/sspi).
 
  
 
  
-
-
-
-

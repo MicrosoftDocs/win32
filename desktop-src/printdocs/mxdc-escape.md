@@ -103,7 +103,7 @@ If the function succeeds, the return value is greater than zero. If the function
 
 This escape is supported by MXDC and XPSDrv, but not by GDI.
 
-To determine if the printer driver is the MXDC, call [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) with the [**GETTECHNOLOGY**](https://msdn.microsoft.com/library/Dd144931(v=VS.85).aspx) escape. If the driver is the MXDC, the **ExtEscape** will return the zero-terminated string, "http://schemas.microsoft.com/xps/2005/06". Be sure the buffer referenced by the *lpszOutData* parameter is large enough to hold this string.
+To determine if the printer driver is the MXDC, call [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) with the [**GETTECHNOLOGY**](/previous-versions/windows/desktop/legacy/dd144931(v=vs.85)) escape. If the driver is the MXDC, the **ExtEscape** will return the zero-terminated string, "http://schemas.microsoft.com/xps/2005/06". Be sure the buffer referenced by the *lpszOutData* parameter is large enough to hold this string.
 
 To determine if the printer driver is the Windows in-box Microsoft XPS Document Writer driver, confirm that the printer driver is the MXDC, and then determine whether the name of the printer driver is "Microsoft XPS Document Writer".
 
@@ -147,16 +147,11 @@ The following table shows where to find various objects in the XPS file various 
 [Printing](printdocs-printing.md)
 </dt> <dt>
 
-[Printer Escape Functions](https://msdn.microsoft.com/library/Dd162843(v=VS.85).aspx)
+[Printer Escape Functions](/previous-versions/windows/desktop/legacy/dd162843(v=vs.85))
 </dt> <dt>
 
 [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape)
 </dt> </dl>
 
  
-
- 
-
-
-
 

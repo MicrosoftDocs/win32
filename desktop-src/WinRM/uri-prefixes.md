@@ -18,9 +18,9 @@ The [*resource URI*](windows-remote-management-glossary.md) prefix is different 
 
 ## Prefixes
 
-If you access a [*CIM*](windows-remote-management-glossary.md) 2.1 class, such as [**CIM\_DataFile**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cim-datafile), the prefix of the URI differs from the prefix for a CIM 2.9 class, such as **CIM\_AdminDomain**. CIM 2.1 classes are documented in the [CIM Classes](https://docs.microsoft.com/windows/desktop/WmiSdk/cimclas) section of Windows Management Instrumentation (WMI).
+If you access a [*CIM*](windows-remote-management-glossary.md) 2.1 class, such as [**CIM\_DataFile**](/windows/desktop/CIMWin32Prov/cim-datafile), the prefix of the URI differs from the prefix for a CIM 2.9 class, such as **CIM\_AdminDomain**. CIM 2.1 classes are documented in the [CIM Classes](/windows/desktop/WmiSdk/cimclas) section of Windows Management Instrumentation (WMI).
 
-Most [WMI classes](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-classes) are in the **root\\cimv2** WMI namespace. Classes for the Microsoft Intelligent Platform Management Interface ([IPMI](https://docs.microsoft.com/previous-versions/windows/desktop/ipmiprv/ipmi-provider)) provider are in **root\\hardware**.
+Most [WMI classes](/windows/desktop/WmiSdk/wmi-classes) are in the **root\\cimv2** WMI namespace. Classes for the Microsoft Intelligent Platform Management Interface ([IPMI](/previous-versions/windows/desktop/ipmiprv/ipmi-provider)) provider are in **root\\hardware**.
 
 The following list contains the resource URI prefixes for these schemas:
 
@@ -36,7 +36,7 @@ The following list contains the resource URI prefixes for these schemas:
 
     "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/hardware/"
 
-For more information, see [Resource URIs](resource-uris.md) and [UrlPrefix Strings](https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings). For more information about generating a URI for a WMI class or method, see [Windows Remote Management and WMI](windows-remote-management-and-wmi.md).
+For more information, see [Resource URIs](resource-uris.md) and [UrlPrefix Strings](/windows/desktop/Http/urlprefix-strings). For more information about generating a URI for a WMI class or method, see [Windows Remote Management and WMI](windows-remote-management-and-wmi.md).
 
 ## Prefix Aliases
 
@@ -120,7 +120,3 @@ http://schemas.microsoft.com/wbem/wsman/1/windows/shell
  
 
  
-
-
-
-

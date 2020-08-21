@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # IVMVirtualPCEvents::OnVMStateChange method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://docs.microsoft.com/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Receives notification that a virtual machine's state has changed.
 
@@ -85,10 +85,4 @@ The client program must implement this interface method to receive notification 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

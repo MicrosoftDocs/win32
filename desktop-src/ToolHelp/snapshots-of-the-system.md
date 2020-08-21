@@ -23,9 +23,9 @@ The **TH32CS\_SNAPHEAPLIST** and **TH32CS\_SNAPMODULE** values are process speci
 
 To enumerate the heap or module state for all processes, specify the **TH32CS\_SNAPALL** value and the process identifier of the current process. Then, for each additional process in the snapshot, call [**CreateToolhelp32Snapshot**](/windows/desktop/api/TlHelp32/nf-tlhelp32-createtoolhelp32snapshot) again, specifying its process identifier and the **TH32CS\_SNAPHEAPLIST** or **TH32CS\_SNAPMODULE** value.
 
-You can retrieve an extended error status code for [**CreateToolhelp32Snapshot**](/windows/desktop/api/TlHelp32/nf-tlhelp32-createtoolhelp32snapshot) by using the [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function.
+You can retrieve an extended error status code for [**CreateToolhelp32Snapshot**](/windows/desktop/api/TlHelp32/nf-tlhelp32-createtoolhelp32snapshot) by using the [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) function.
 
-When your process finishes using a snapshot, destroy it using the [**CloseHandle**](https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle) function. If you do not destroy a snapshot, the process will leak memory until the it exits, at which time the system reclaims the memory.
+When your process finishes using a snapshot, destroy it using the [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle) function. If you do not destroy a snapshot, the process will leak memory until the it exits, at which time the system reclaims the memory.
 
 > [!Note]  
 > The snapshot handle acts like a file handle and is subject to the same rules regarding the processes and threads in which it can be used. To specify that the handle is inheritable, create the snapshot using the **TH32CS\_INHERIT** value.
@@ -42,7 +42,3 @@ When your process finishes using a snapshot, destroy it using the [**CloseHandle
  
 
  
-
-
-
-

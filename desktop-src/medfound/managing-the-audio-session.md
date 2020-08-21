@@ -55,7 +55,7 @@ What follows is a C++ class that handles the basic tasks in WASAPI:
 
 ### Class Declaration
 
-The `CAudioSessionVolume` class declaration implements the [**IAudioSessionEvents**](https://msdn.microsoft.com/library/Dd368289(v=VS.85).aspx) interface, which is the callback interface for audio session events.
+The `CAudioSessionVolume` class declaration implements the [**IAudioSessionEvents**](/windows/win32/api/audiopolicy/nn-audiopolicy-iaudiosessionevents) interface, which is the callback interface for audio session events.
 
 
 ```C++
@@ -579,6 +579,3 @@ MFPlay requires Windows 7.
  
 
  
-
-
-

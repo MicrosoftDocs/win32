@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.DrawLine methods
 
-This topic lists the DrawLine methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the DrawLine methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -16,17 +16,13 @@ This topic lists the DrawLine methods of the [**Graphics**](https://msdn.microso
 
 | Method                                                                                                                   | Description                                                                                                                                                          |
 |:-------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DrawLine(Pen\*,Point&,Point&)**](https://msdn.microsoft.com/library/ms536020(v=VS.85).aspx)                   | The [**Graphics::DrawLine**](https://msdn.microsoft.com/library/ms536020(v=VS.85).aspx) method draws a line that connects two points.<br/>             |
-| [**DrawLine(Pen\*,INT,INT,INT,INT)**](https://msdn.microsoft.com/library/ms536026(v=VS.85).aspx)         | The [**Graphics::DrawLine**](https://msdn.microsoft.com/library/ms536026(v=VS.85).aspx) method draws a line that connects two points.<br/>     |
-| [**DrawLine(Pen\*,PointF&,PointF&)**](https://msdn.microsoft.com/library/ms536022(v=VS.85).aspx)               | The [**Graphics::DrawLine**](https://msdn.microsoft.com/library/ms536022(v=VS.85).aspx) method draws a line that connects two points.<br/>           |
-| [**DrawLine(Pen\*,REAL,REAL,REAL,REAL)**](https://msdn.microsoft.com/library/ms536024(v=VS.85).aspx) | The [**Graphics::DrawLine**](https://msdn.microsoft.com/library/ms536024(v=VS.85).aspx) method draws a line that connects two points.<br/> |
+| [**DrawLine(Pen\*,Point&,Point&)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inconstpoint__inconstpoint_))                   | The [**Graphics::DrawLine**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inconstpoint__inconstpoint_)) method draws a line that connects two points.<br/>             |
+| [**DrawLine(Pen\*,INT,INT,INT,INT)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint))         | The [**Graphics::DrawLine**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)) method draws a line that connects two points.<br/>     |
+| [**DrawLine(Pen\*,PointF&,PointF&)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inconstpointf__inconstpointf_))               | The [**Graphics::DrawLine**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inconstpointf__inconstpointf_)) method draws a line that connects two points.<br/>           |
+| [**DrawLine(Pen\*,REAL,REAL,REAL,REAL)**](/previous-versions//ms536024(v=vs.85)) | The [**Graphics::DrawLine**](/previous-versions//ms536024(v=vs.85)) method draws a line that connects two points.<br/> |
 
 
 
  
 
  
-
-
-
-

@@ -10,11 +10,8 @@ ms.date: 05/31/2018
 
 A Mobile Broadband v3 Profile is comprised of the following elements. All of the named elements are in the namespace `https://www.microsoft.com/networking/WWAN/profile/v3`.
 
--   [**IsAdditionalPdpContextProfile**](https://msdn.microsoft.com/library/Mt156987(v=VS.85).aspx)
+-   [**IsAdditionalPdpContextProfile**](/previous-versions/windows/desktop/legacy/mt156987(v=vs.85))
 
  
 
  
-
-
-

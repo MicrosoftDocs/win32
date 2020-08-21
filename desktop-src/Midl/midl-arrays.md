@@ -55,7 +55,7 @@ HRESULT MyFunction(
 );
 ```
 
-For more information, see [Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers).
+For more information, see [Arrays and Pointers](/windows/desktop/Rpc/arrays-and-pointers).
 
 ## Multidimensional Arrays
 
@@ -100,7 +100,3 @@ The generated stubs allocate the array and assign null values to all pointers em
  
 
  
-
-
-
-

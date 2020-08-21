@@ -47,7 +47,7 @@ The WIC encoding API are designed to be codec-independent and image encoding for
 
 ### Encoder Options
 
-WIC-enabled codecs differ at the encoding option level. Encoder options reflect the capabilities of an image encoder and each native codec supports a set of these encoder options. Encoder options can be basic WIC supported options available to all WIC enabled codes (though not necessarily supported) or codec-specific options designed by the image format codec. To manage these encoding options during the encoding process, WIC uses the [**IPropertyBag2**](https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx) interface . For more information about using the **IPropertyBag2** interface for WIC encoding , see the [Encoding Overview](-wic-creating-encoder.md).
+WIC-enabled codecs differ at the encoding option level. Encoder options reflect the capabilities of an image encoder and each native codec supports a set of these encoder options. Encoder options can be basic WIC supported options available to all WIC enabled codes (though not necessarily supported) or codec-specific options designed by the image format codec. To manage these encoding options during the encoding process, WIC uses the [**IPropertyBag2**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) interface . For more information about using the **IPropertyBag2** interface for WIC encoding , see the [Encoding Overview](-wic-creating-encoder.md).
 
 The JPEG codec uses basic WIC options. The following table lists the WIC encoder options supported by the native JPEG codec.
 
@@ -60,13 +60,13 @@ The JPEG codec uses basic WIC options. The following table lists the WIC encoder
 | [Luminance](#luminance-option)                       | VT\_UI4/VT\_ARRAY | 64 Entries (DCT)                                                                  | Default luminance table.                                                       |
 | [Chrominance](#chrominance-option)                   | VT\_UI4/VT\_ARRAY | 64 Entries (DCT)                                                                  | Default chrominance table.                                                     |
 | [JpegYCrCbSubsampling](#jpegycrcbsubsampling-option) | VT\_UI1           | [**WICJpegYCrCbSubsamplingOption**](/windows/desktop/api/Wincodec/ne-wincodec-wicjpegycrcbsubsamplingoption) | [**WICJpegYCrCbSubsampling420**](/windows/desktop/api/Wincodec/ne-wincodec-wicjpegycrcbsubsamplingoption) |
-| [SuppressApp0](https://docs.microsoft.com/windows)                       | VT\_BOOL          | **TRUE**/**FALSE**                                                                | **FALSE**                                                                      |
+| [SuppressApp0](/windows)                       | VT\_BOOL          | **TRUE**/**FALSE**                                                                | **FALSE**                                                                      |
 
 
 
  
 
-If an encoder option is present in the [**IPropertyBag2**](https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx) option list that the codec does not support, it is ignored.
+If an encoder option is present in the [**IPropertyBag2**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) option list that the codec does not support, it is ignored.
 
 ### ImageQuality Option
 
@@ -109,6 +109,3 @@ The native JPEG codec also supports the [**IWICBitmapSourceTransform**](/windows
  
 
  
-
-
-

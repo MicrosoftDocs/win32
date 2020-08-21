@@ -18,7 +18,7 @@ api_location:
 
 # GetTransportInformationOperation class
 
-Registers an event handler that is invoked when the asynchronous operation started by [**GetTransportInformationAsync**](https://msdn.microsoft.com/library/Hh828932(v=VS.85).aspx) completes, and provides a method that returns the results of the operation.
+Registers an event handler that is invoked when the asynchronous operation started by [**GetTransportInformationAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-gettransportinformationasync) completes, and provides a method that returns the results of the operation.
 
 **GetTransportInformationOperation** has these types of members:
 
@@ -33,7 +33,7 @@ The **GetTransportInformationOperation** class has these methods.
 
 | Method                                                            | Description                                                                                                                                                  |
 |:------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetResults**](gettransportinformationoperation-getresults.md) | Returns the results of the asynchronous operation started by [**GetTransportInformationAsync**](https://msdn.microsoft.com/library/Hh828932(v=VS.85).aspx).<br/> |
+| [**GetResults**](gettransportinformationoperation-getresults.md) | Returns the results of the asynchronous operation started by [**GetTransportInformationAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-gettransportinformationasync).<br/> |
 
 
 
@@ -47,17 +47,11 @@ The **GetTransportInformationOperation** class has these properties.
 
 | Property                                                                   | Access type           | Description                                                                                                                                                                                            |
 |:---------------------------------------------------------------------------|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Completed**](gettransportinformationoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetTransportInformationAsync**](https://msdn.microsoft.com/library/Hh828932(v=VS.85).aspx) is completed. <br/> |
+| [**Completed**](gettransportinformationoperation-completed.md)<br/> | Read/write<br/> | Gets or sets an event handler that is invoked when the asynchronous operation started by [**GetTransportInformationAsync**](/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-imediarenderer-gettransportinformationasync) is completed. <br/> |
 
 
 
  
 
  
-
- 
-
-
-
-
 

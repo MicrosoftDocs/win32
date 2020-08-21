@@ -32,7 +32,7 @@ Information context surrounded data emitted from JET_PFNEMITLOGDATA.
 
 ## Inheritance hierarchy
 
-[System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID  
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
@@ -64,4 +64,3 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 [JET_COMMIT_ID members](dn335451\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-

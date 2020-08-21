@@ -61,7 +61,7 @@ To implement this example programmatically, use the following WFP configuration.
 1.  Add a filter with the following properties. 
     | Filter property                                                   | Value                                                                                              |
     |-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-    | **FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE** filtering condition | [NlatUnicast](https://msdn.microsoft.com/library/ff568757.aspx)                                      |
+    | **FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE** filtering condition | [NlatUnicast](/windows/win32/api/nldef/ne-nldef-nl_address_type)                                      |
     | **action.type**                                                   | **FWP\_ACTION\_CALLOUT\_TERMINATING**                                                              |
     | **action.calloutKey**                                             | **FWPM\_CALLOUT\_IPSEC\_INBOUND\_TRANSPORT\_V{4\|6}**                                              |
     | **rawContext**                                                    | [**FWPM\_CONTEXT\_IPSEC\_INBOUND\_PERSIST\_CONNECTION\_SECURITY**](filter-context-identifiers.md) |
@@ -167,10 +167,4 @@ To implement this example programmatically, use the following WFP configuration.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

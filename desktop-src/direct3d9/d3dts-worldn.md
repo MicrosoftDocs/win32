@@ -47,7 +47,7 @@ These macros are provided to facilitate porting existing applications to Direct3
 [Macros](dx9-graphics-reference-d3d-macros.md)
 </dt> <dt>
 
-[**SetTransform**](https://msdn.microsoft.com/library/Bb174463(v=VS.85).aspx)
+[**SetTransform**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settransform)
 </dt> <dt>
 
 [**D3DTS\_WORLDMATRIX**](d3dts-worldmatrix.md)
@@ -56,7 +56,3 @@ These macros are provided to facilitate porting existing applications to Direct3
  
 
  
-
-
-
-

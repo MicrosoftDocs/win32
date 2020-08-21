@@ -50,7 +50,7 @@ Unique reference that identifies this counter in the query. This variable must b
 
 If the function succeeds, it returns a **Long** integer equal to ERROR\_SUCCESS and a new handle in the *CounterHandle* variable.
 
-If the function fails, the return value is a [system error code](https://docs.microsoft.com/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). The following are possible values.
+If the function fails, the return value is a [system error code](/windows/desktop/Debug/system-error-codes) or a [PDH error code](pdh-error-codes.md). The following are possible values.
 
 
 
@@ -90,9 +90,4 @@ If the function fails, the return value is a [system error code](https://docs.mi
 </dt> </dl>
 
  
-
- 
-
-
-
 

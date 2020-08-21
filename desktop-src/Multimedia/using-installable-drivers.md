@@ -15,12 +15,8 @@ ms.date: 05/31/2018
 
 # Using Installable Drivers
 
-You use installable drivers to give applications or DLLs a standard way to access a device or a set of useful routines. The following sections show how to create an installable driver by using a [DriverProc](https://msdn.microsoft.com/library/Dd797918(v=VS.85).aspx) function and how to open an installable driver and direct it to carry out useful tasks.
+You use installable drivers to give applications or DLLs a standard way to access a device or a set of useful routines. The following sections show how to create an installable driver by using a [DriverProc](/windows/win32/api/mmiscapi/nc-mmiscapi-driverproc) function and how to open an installable driver and direct it to carry out useful tasks.
 
  
 
  
-
-
-
-

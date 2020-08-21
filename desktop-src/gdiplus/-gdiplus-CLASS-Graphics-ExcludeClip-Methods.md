@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.ExcludeClip methods
 
-This topic lists the ExcludeClip methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the ExcludeClip methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -16,9 +16,9 @@ This topic lists the ExcludeClip methods of the [**Graphics**](https://msdn.micr
 
 | Method                                                                         | Description                                                                                                                                                                                                  |
 |:-------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ExcludeClip(Rect&)**](https://msdn.microsoft.com/library/ms535974(v=VS.85).aspx)   | The [**Graphics::ExcludeClip**](https://msdn.microsoft.com/library/ms535974(v=VS.85).aspx) method updates the clipping region to the portion of itself that does not intersect the specified rectangle.<br/>  |
-| [**ExcludeClip(RectF&)**](https://msdn.microsoft.com/library/ms535975(v=VS.85).aspx) | The [**Graphics::ExcludeClip**](https://msdn.microsoft.com/library/ms535975(v=VS.85).aspx) method updates the clipping region to the portion of itself that does not intersect the specified rectangle.<br/> |
-| [**ExcludeClip(Region\*)**](https://msdn.microsoft.com/library/ms535976(v=VS.85).aspx)   | The [**Graphics::ExcludeClip**](https://msdn.microsoft.com/library/ms535976(v=VS.85).aspx) method updates the clipping region with the portion of itself that does not overlap the specified region.<br/>        |
+| [**ExcludeClip(Rect&)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-excludeclip(inconstrect_))   | The [**Graphics::ExcludeClip**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-excludeclip(inconstrect_)) method updates the clipping region to the portion of itself that does not intersect the specified rectangle.<br/>  |
+| [**ExcludeClip(RectF&)**](/previous-versions//ms535975(v=vs.85)) | The [**Graphics::ExcludeClip**](/previous-versions//ms535975(v=vs.85)) method updates the clipping region to the portion of itself that does not intersect the specified rectangle.<br/> |
+| [**ExcludeClip(Region\*)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-excludeclip(inconstregion))   | The [**Graphics::ExcludeClip**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-excludeclip(inconstregion)) method updates the clipping region with the portion of itself that does not overlap the specified region.<br/>        |
 
 
 
@@ -35,7 +35,3 @@ This topic lists the ExcludeClip methods of the [**Graphics**](https://msdn.micr
  
 
  
-
-
-
-

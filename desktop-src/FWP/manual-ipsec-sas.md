@@ -26,7 +26,7 @@ To implement this example programmatically, use the following WFP configuration.
 1.  Add a filter with the following properties. 
     | Filter property                                                   | Value                                                         |
     |-------------------------------------------------------------------|---------------------------------------------------------------|
-    | **FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE** filtering condition | [NlatUnicast](https://msdn.microsoft.com/library/ff568757.aspx) |
+    | **FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE** filtering condition | [NlatUnicast](/windows/win32/api/nldef/ne-nldef-nl_address_type) |
     | **FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS**                           | The appropriate local address (1.1.1.1 or 2.2.2.2).           |
     | **FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS**                          | The appropriate remote address (1.1.1.1 or 2.2.2.2).          |
     | **action.type**                                                   | **FWP\_ACTION\_CALLOUT\_TERMINATING**                         |
@@ -92,10 +92,4 @@ To implement this example programmatically, use the following WFP configuration.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

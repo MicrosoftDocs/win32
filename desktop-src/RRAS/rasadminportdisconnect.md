@@ -69,7 +69,7 @@ If the function fails, the return value can be one of the following error codes.
 
  
 
-There is no extended error information for this function; do not call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+There is no extended error information for this function; do not call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## Requirements
 
@@ -96,10 +96,4 @@ There is no extended error information for this function; do not call [**GetLast
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

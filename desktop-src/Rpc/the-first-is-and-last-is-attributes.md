@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # The \[first\_is\] and \[last\_is\] Attributes
 
-You can determine the number of transmitted elements by specifying the first and last elements. Use the \[[**first\_is**](https://docs.microsoft.com/windows/desktop/Midl/first-is)\] and \[[**last\_is**](https://docs.microsoft.com/windows/desktop/Midl/last-is)\] attributes as shown:
+You can determine the number of transmitted elements by specifying the first and last elements. Use the \[[**first\_is**](/windows/desktop/Midl/first-is)\] and \[[**last\_is**](/windows/desktop/Midl/last-is)\] attributes as shown:
 
 ``` syntax
 /* IDL file */
@@ -36,7 +36,3 @@ interface arraytest
  
 
  
-
-
-
-

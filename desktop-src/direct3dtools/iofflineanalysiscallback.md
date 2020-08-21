@@ -26,7 +26,7 @@ Callback to returns offline analysis data.
 
 ## Members
 
-The **IOfflineAnalysisCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IOfflineAnalysisCallback** also has these types of members:
+The **IOfflineAnalysisCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IOfflineAnalysisCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IOfflineAnalysisCallback** interface has these methods.
  
 
  
-
-
-

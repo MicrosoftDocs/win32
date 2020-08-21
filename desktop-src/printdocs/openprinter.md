@@ -77,7 +77,7 @@ If the function fails, the return value is zero.
 
 ## Remarks
 
-Do not call this method in [**DllMain**](https://docs.microsoft.com/windows/desktop/Dlls/dllmain).
+Do not call this method in [**DllMain**](/windows/desktop/Dlls/dllmain).
 
 > [!Note]  
 > A handle obtained for a remote printer by a call to **OpenPrinter** for a remote printer accesses the printer through a local cache in the print spooler service. This cache isn't real-time accurate. To obtain accurate data, replace the OpenPrinter call with [**OpenPrinter2**](openprinter2.md) with pOptions.dwFlags set to PRINTER\_OPTION\_NO\_CACHE. Note that only OpenPrinter2W is functional. The function returns a printer handle that uses other Printing API calls and bypasses the local cache. This method blocks while waiting for network communication with the remote printer, so it might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation factors that are difficult to predict when writing an application. Calling this function from a thread that manages user interface interaction might make the application appear unresponsive.
@@ -89,7 +89,7 @@ Do not call this method in [**DllMain**](https://docs.microsoft.com/windows/desk
 
  
 
-The handle pointed to by *phPrinter* is not thread safe. If callers need to use it concurrently on multiple threads, they must provide custom synchronization access to the printer handle using the [Synchronization Functions](https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions). To avoid writing custom code the application can open a printer handle on each thread, as needed.
+The handle pointed to by *phPrinter* is not thread safe. If callers need to use it concurrently on multiple threads, they must provide custom synchronization access to the printer handle using the [Synchronization Functions](/windows/desktop/Sync/synchronization-functions). To avoid writing custom code the application can open a printer handle on each thread, as needed.
 
 The *pDefault* parameter enables you to specify the data type and device mode values that are used for printing documents submitted by the [**StartDocPrinter**](startdocprinter.md) function. However, you can override these values by using the [**SetJob**](setjob.md) function after a document has been started.
 
@@ -105,15 +105,15 @@ Use the **DesiredAccess** member of the [**PRINTER\_DEFAULTS**](printer-defaults
 |---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PRINTER\_ACCESS\_ADMINISTER                 | To perform administrative tasks, such as those provided by [**SetPrinter**](setprinter.md).                                                                                                 |
 | PRINTER\_ACCESS\_USE                        | To perform basic printing operations.                                                                                                                                                        |
-| PRINTER\_ALL\_ACCESS                        | To perform all administrative tasks and basic printing operations except for SYNCHRONIZE (see [Standard Access Rights](https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights).                                     |
+| PRINTER\_ALL\_ACCESS                        | To perform all administrative tasks and basic printing operations except for SYNCHRONIZE (see [Standard Access Rights](/windows/desktop/SecAuthZ/standard-access-rights).                                     |
 | PRINTER\_ACCESS\_MANAGE\_LIMITED            | To perform administrative tasks, such as those provided by [**SetPrinter**](setprinter.md) and [**SetPrinterData**](setprinterdata.md). This value is available starting from Windows 8.1. |
-| generic security values, such as WRITE\_DAC | To allow specific control access rights. See [Standard Access Rights](https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights).                                                                                      |
+| generic security values, such as WRITE\_DAC | To allow specific control access rights. See [Standard Access Rights](/windows/desktop/SecAuthZ/standard-access-rights).                                                                                      |
 
 
 
  
 
-If a user does not have permission to open a specified printer or print server with the desired access, the **OpenPrinter** call will fail with a return value of zero and [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) will return the value ERROR\_ACCESS\_DENIED.
+If a user does not have permission to open a specified printer or print server with the desired access, the **OpenPrinter** call will fail with a return value of zero and [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) will return the value ERROR\_ACCESS\_DENIED.
 
 ## Examples
 
@@ -163,9 +163,4 @@ For a sample program that uses this function, see [How To: Print Using the GDI P
 </dt> </dl>
 
  
-
- 
-
-
-
 

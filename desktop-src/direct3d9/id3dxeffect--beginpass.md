@@ -38,7 +38,7 @@ HRESULT BeginPass(
 *Pass* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 A zero-based integer index into the technique.
 
@@ -77,7 +77,3 @@ If the application changes any effect state using any of the [**Effect::Setx**](
  
 
  
-
-
-
-

@@ -38,7 +38,7 @@ UINT D3DXGetFVFVertexSize(
 *FVF* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 FVF to be queried. A combination of [D3DFVF](d3dfvf.md).
 
@@ -46,7 +46,7 @@ FVF to be queried. A combination of [D3DFVF](d3dfvf.md).
 
 ## Return value
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The FVF vertex size, in bytes.
 
@@ -71,7 +71,3 @@ The FVF vertex size, in bytes.
  
 
  
-
-
-
-

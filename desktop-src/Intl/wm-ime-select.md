@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_SELECT message
 
-Sent to an application when the operating system is about to change the current IME. A window receives this message through its [*WindowProc*](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+Sent to an application when the operating system is about to change the current IME. A window receives this message through its [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -55,7 +55,7 @@ This message has no return value.
 
 An application that has created an IME window should pass this message to that window so that it can retrieve the keyboard layout handle to the newly selected IME.
 
-The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca)  function processes this message by passing the information to the default IME window.
+The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)  function processes this message by passing the information to the default IME window.
 
 ## Requirements
 
@@ -82,7 +82,3 @@ The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/n
  
 
  
-
-
-
-

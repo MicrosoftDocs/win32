@@ -42,7 +42,7 @@ HRESULT ComputeSurfSamplesDirectSH(
 *SHOrder* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Order of the SH approximation to use.
 
@@ -51,7 +51,7 @@ Order of the SH approximation to use.
 *NumSamples* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Number of sample locations.
 
@@ -121,7 +121,3 @@ Do not use a texture buffer when calling this method.
  
 
  
-
-
-
-

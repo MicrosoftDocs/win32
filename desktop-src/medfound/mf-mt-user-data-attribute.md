@@ -23,8 +23,8 @@ The meaning of the data in this attribute depends on the format that is describe
 | Format Type                                                                                                           | Additional Format Data                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows Media codec.                                                                                                  | Codec private data.                                                                                                                       |
-| Converted [**VIDEOINFOHEADER**](https://msdn.microsoft.com/library/Dd407325(v=VS.85).aspx) or [**VIDEOINFOHEADER2**](https://msdn.microsoft.com/library/Dd407326(v=VS.85).aspx) structure.   | Extra data that appears after the [**BITMAPINFOHEADER**](https://msdn.microsoft.com/library/Dd318229(v=VS.85).aspx) structure, not including the color table or color masks. |
-| Converted [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) or [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Dd390971(v=VS.85).aspx) structure. | Extra data that appears after the audio format structure.                                                                                 |
+| Converted [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) or [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) structure.   | Extra data that appears after the [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure, not including the color table or color masks. |
+| Converted [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) or [**WAVEFORMATEXTENSIBLE**](/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)) structure. | Extra data that appears after the audio format structure.                                                                                 |
 
 
 
@@ -66,7 +66,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

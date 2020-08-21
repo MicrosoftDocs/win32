@@ -20,13 +20,10 @@ Because [**BeginPaint**](/windows/desktop/api/Winuser/nf-winuser-beginpaint) hid
 
 Although a private device context is convenient to use, it is memory-intensive in terms of system resources, requiring 800 or more bytes to store. Private device contexts are recommended when performance considerations outweigh storage costs.
 
-The system includes the private device context when sending the [**WM\_ERASEBKGND**](https://msdn.microsoft.com/library/ms648055(v=VS.85).aspx) message to the application. The current selections of the private device context, including mapping mode, are in effect when the application or the system processes these messages. To avoid undesirable effects, the system uses logical coordinates when erasing the background; for example, it uses the [**GetClipBox**](/windows/desktop/api/Wingdi/nf-wingdi-getclipbox) function to retrieve the logical coordinates of the area to erase and passes these coordinates to the [**FillRect**](/windows/desktop/api/Winuser/nf-winuser-fillrect) function. Applications that process these messages can use similar techniques.
+The system includes the private device context when sending the [**WM\_ERASEBKGND**](../winmsg/wm-erasebkgnd.md) message to the application. The current selections of the private device context, including mapping mode, are in effect when the application or the system processes these messages. To avoid undesirable effects, the system uses logical coordinates when erasing the background; for example, it uses the [**GetClipBox**](/windows/desktop/api/Wingdi/nf-wingdi-getclipbox) function to retrieve the logical coordinates of the area to erase and passes these coordinates to the [**FillRect**](/windows/desktop/api/Winuser/nf-winuser-fillrect) function. Applications that process these messages can use similar techniques.
 
 An application can use the [**GetDCEx**](/windows/desktop/api/Winuser/nf-winuser-getdcex) function to force the system to return a common device context for the window that has a private device context. This is useful for carrying out quick touch-ups to a window without changing the current values of the attributes of the private device context.
 
  
 
  
-
-
-

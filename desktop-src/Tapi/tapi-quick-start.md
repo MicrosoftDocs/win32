@@ -41,9 +41,9 @@ The following topics contain reference page summaries.
 
 | Area     | Link                                                                                                                                                                                                  |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| TAPI 2.x | [TAPI Quick Function Reference](https://msdn.microsoft.com/library/ms737239(v=VS.85).aspx)                                                                                                                           |
+| TAPI 2.x | [TAPI Quick Function Reference](./tapi-quick-function-reference.md)                                                                                                                           |
 | TAPI 3.x | [Call and Media Controls Quick Reference](call-and-media-controls-quick-reference.md)[Rendezvous IP Telephony Conferencing Reference](rendezvous-ip-telephony-conferencing-reference.md)<br/> |
-| TSPI     | [TSPI Reference](https://msdn.microsoft.com/library/ms725966(v=VS.85).aspx)                                                                                                                                                          |
+| TSPI     | [TSPI Reference](./tspi-reference.md)                                                                                                                                                          |
 | MSPI     | [Media Service Provider Interface (MSPI) Reference](media-service-provider-interface-mspi-reference.md)                                                                                              |
 
 
@@ -56,7 +56,7 @@ The following topics contain hyperlinked graphics that may be useful in orientin
 
 -   [Microsoft Telephony Overview](microsoft-telephony-overview.md)
 -   [About Call And Media Controls](about-call-and-media-controls.md)
--   [TAPI Service Provider Overview](https://msdn.microsoft.com/library/ms725514(v=VS.85).aspx)
+-   [TAPI Service Provider Overview](./tapi-service-provider-overview.md)
 
 ## TAPI Newsgroups
 
@@ -69,9 +69,4 @@ Microsoft hosts a number of newsgroups, including one specializing in TAPI.
 In the left pane navigate to Windows Development, then to Windows SDK and choose win32.programmer.tapi.
 
  
-
- 
-
-
-
 

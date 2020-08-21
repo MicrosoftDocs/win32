@@ -19,24 +19,24 @@ This section describes the functions, structures, and messages associated with j
 
 ## Device Capabilities
 
--   [**joyGetDevCaps**](https://msdn.microsoft.com/library/Dd757105(v=VS.85).aspx)
--   [**joyGetNumDevs**](https://msdn.microsoft.com/library/Dd757106(v=VS.85).aspx)
--   [**JOYCAPS**](https://msdn.microsoft.com/library/Dd757103(v=VS.85).aspx)
+-   [**joyGetDevCaps**](/windows/win32/api/joystickapi/nf-joystickapi-joygetdevcaps)
+-   [**joyGetNumDevs**](/windows/win32/api/joystickapi/nf-joystickapi-joygetnumdevs)
+-   [**JOYCAPS**](/windows/win32/api/joystickapi/ns-joystickapi-joycaps)
 
 ## Querying a Joystick
 
 -   [**joyConfigChanged**](/windows/desktop/api/joystickapi/nf-joystickapi-joyconfigchanged)
--   [**joyGetPos**](https://msdn.microsoft.com/library/Dd757107(v=VS.85).aspx)
--   [**joyGetPosEx**](https://msdn.microsoft.com/library/Dd757108(v=VS.85).aspx)
--   [**JOYINFO**](https://msdn.microsoft.com/library/Dd757110(v=VS.85).aspx)
--   [**JOYINFOEX**](https://msdn.microsoft.com/library/Dd757112(v=VS.85).aspx)
+-   [**joyGetPos**](/windows/win32/api/joystickapi/nf-joystickapi-joygetpos)
+-   [**joyGetPosEx**](/windows/win32/api/joystickapi/nf-joystickapi-joygetposex)
+-   [**JOYINFO**](/windows/win32/api/joystickapi/ns-joystickapi-joyinfo)
+-   [**JOYINFOEX**](/windows/win32/api/joystickapi/ns-joystickapi-joyinfoex)
 
 ## Capturing a Joystick
 
--   [**joyGetThreshold**](https://msdn.microsoft.com/library/Dd757109(v=VS.85).aspx)
--   [**joyReleaseCapture**](https://msdn.microsoft.com/library/Dd757113(v=VS.85).aspx)
--   [**joySetCapture**](https://msdn.microsoft.com/library/Dd757114(v=VS.85).aspx)
--   [**joySetThreshold**](https://msdn.microsoft.com/library/Dd757115(v=VS.85).aspx)
+-   [**joyGetThreshold**](/windows/win32/api/joystickapi/nf-joystickapi-joygetthreshold)
+-   [**joyReleaseCapture**](/windows/win32/api/joystickapi/nf-joystickapi-joyreleasecapture)
+-   [**joySetCapture**](/windows/win32/api/joystickapi/nf-joystickapi-joysetcapture)
+-   [**joySetThreshold**](/windows/win32/api/joystickapi/nf-joystickapi-joysetthreshold)
 -   [**MM\_JOY1BUTTONDOWN**](mm-joy1buttondown.md)
 -   [**MM\_JOY1BUTTONUP**](mm-joy1buttonup.md)
 -   [**MM\_JOY1MOVE**](mm-joy1move.md)
@@ -56,7 +56,3 @@ This section describes the functions, structures, and messages associated with j
  
 
  
-
-
-
-

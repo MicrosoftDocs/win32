@@ -51,7 +51,7 @@ To build the sample from the Command Prompt window:
 
 ### Conceptual
 
-[**VBScript Language Reference**](https://msdn.microsoft.com/library/d1wf56tt(v=VS.71).aspx)
+[**VBScript Language Reference**](/previous-versions/d1wf56tt(v=vs.71))
 
 ### Other Samples
 

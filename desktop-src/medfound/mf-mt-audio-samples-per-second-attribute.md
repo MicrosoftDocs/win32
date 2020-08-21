@@ -16,7 +16,7 @@ Number of audio samples per second in an audio media type.
 
 ## Remarks
 
-This attribute corresponds to the **nSamplesPerSec** member of the [**WAVEFORMATEX**](https://msdn.microsoft.com/library/Dd390970(v=VS.85).aspx) structure.
+This attribute corresponds to the **nSamplesPerSec** member of the [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -57,7 +57,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

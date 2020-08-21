@@ -17,7 +17,7 @@ api_location:
 
 # SslFreeBuffer function
 
-The **SslFreeBuffer** function is used to free memory that was allocated by one of the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) provider functions.
+The **SslFreeBuffer** function is used to free memory that was allocated by one of the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) provider functions.
 
 ## Syntax
 
@@ -73,9 +73,4 @@ Possible return codes include, but are not limited to, the following.
 
 
  
-
- 
-
-
-
 

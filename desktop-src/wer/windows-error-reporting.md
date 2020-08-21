@@ -16,7 +16,7 @@ The error reporting feature enables users to notify Microsoft of application fau
 
 Users can enable error reporting through the Windows user interface. They can choose to report errors for specific applications. Administrators can override these settings using Group Policy.
 
-Developers can register with [Windows Desktop Application Program](https://docs.microsoft.com/windows/win32/appxpkg/windows-desktop-application-program) to get information about the problems customers are experiencing with their applications and help customers fix these problems. Developers can also use [Application Recovery and Restart](https://docs.microsoft.com/windows/desktop/Recovery/application-recovery-and-restart-portal) to ensure that customers do not lose data when their application crashes and allow users to quickly return to their tasks.
+Developers can register with [Windows Desktop Application Program](../appxpkg/windows-desktop-application-program.md) to get information about the problems customers are experiencing with their applications and help customers fix these problems. Developers can also use [Application Recovery and Restart](/windows/desktop/Recovery/application-recovery-and-restart-portal) to ensure that customers do not lose data when their application crashes and allow users to quickly return to their tasks.
 
 ## In this Section
 
@@ -29,16 +29,12 @@ Developers can register with [Windows Desktop Application Program](https://docs.
 
 <dl> <dt>
 
-[Application Recovery and Restart](https://docs.microsoft.com/windows/desktop/Recovery/application-recovery-and-restart-portal)
+[Application Recovery and Restart](/windows/desktop/Recovery/application-recovery-and-restart-portal)
 </dt> <dt>
 
-[Windows Desktop Application Program](https://docs.microsoft.com/windows/win32/appxpkg/windows-desktop-application-program)
+[Windows Desktop Application Program](../appxpkg/windows-desktop-application-program.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

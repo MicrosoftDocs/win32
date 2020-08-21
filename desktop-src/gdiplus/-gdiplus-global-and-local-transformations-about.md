@@ -1,5 +1,5 @@
 ---
-Description: '1000: A global transformation is a transformation that applies to every item drawn by a given Graphics object.'
+Description: 'A global transformation is a transformation that applies to every item drawn by a given Graphics object.'
 ms.assetid: 9f744c2a-f1f3-4a7e-ab0c-37aa1df01623
 title: Global and Local Transformations
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Global and Local Transformations
 
-1000: A global transformation is a transformation that applies to every item drawn by a given [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object. To create a global transformation, construct a **Graphics** object, and then call its [**Graphics::SetTransform**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-settransform) method. The **Graphics::SetTransform** method manipulates a [**Matrix**](/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) object that is associated with the **Graphics** object. The transformation stored in that **Matrix** object is called the *world transformation*. The world transformation can be a simple affine transformation or a complex sequence of affine transformations, but regardless of its complexity, the world transformation is stored in a single **Matrix** object.
+A global transformation is a transformation that applies to every item drawn by a given [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) object. To create a global transformation, construct a **Graphics** object, and then call its [**Graphics::SetTransform**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-settransform) method. The **Graphics::SetTransform** method manipulates a [**Matrix**](/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) object that is associated with the **Graphics** object. The transformation stored in that **Matrix** object is called the *world transformation*. The world transformation can be a simple affine transformation or a complex sequence of affine transformations, but regardless of its complexity, the world transformation is stored in a single **Matrix** object.
 
 The [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class provides several methods for building up a composite world transformation: [**Graphics::MultiplyTransform**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-multiplytransform), [**Graphics::RotateTransform**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-rotatetransform), [**Graphics::ScaleTransform**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-scaletransform), and [**Graphics::TranslateTransform**](/windows/desktop/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-translatetransform). The following example draws an ellipse twice: once before creating a world transformation and once after. The transformation first scales by a factor of 0.5 in the y direction, then translates 50 units in the x direction, and then rotates 30 degrees.
 
@@ -27,12 +27,8 @@ The following illustration shows the original ellipse and the transformed ellips
 
 ![screen shot of a window that contains two overlapping ellipses; one is narrower and rotated](images/aboutgdip05-art14.png)
 
-The following illustration shows the matrices involved in the transformation.
-
-![screen shot of a window that contains two overlapping ellipses; one is narrower and rotated](images/aboutgdip05-art14.png)
-
 > [!Note]  
-> In the previous example, the ellipse is rotated about the origin of the coordinate system, 1000:which is at the upper–left corner of the client area. This produces a different result than rotating the ellipse about its own center.
+> In the previous example, the ellipse is rotated about the origin of the coordinate system, which is at the upper–left corner of the client area. This produces a different result than rotating the ellipse about its own center.
 
  
 

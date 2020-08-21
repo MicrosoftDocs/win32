@@ -57,7 +57,7 @@ Pointer to an input mesh (see [**ID3DXMesh**](id3dxmesh.md)) which contains the 
 *dwWidth* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Texture width.
 
@@ -66,7 +66,7 @@ Texture width.
 *dwHeight* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 Texture height.
 
@@ -75,7 +75,7 @@ Texture height.
 *fGutter* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 The minimum distance, in texels, between two charts on the atlas. The gutter is always scaled by the width; so, if a gutter of 2.5 is used on a 512x512 texture, then the minimum distance between two charts is 2.5 / 512.0 texels.
 
@@ -84,7 +84,7 @@ The minimum distance, in texels, between two charts on the atlas. The gutter is 
 *dwTextureIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Zero-based texture coordinate index that identifies which set of texture coordinates to use.
 
@@ -93,7 +93,7 @@ Zero-based texture coordinate index that identifies which set of texture coordin
 *pdwPartitionResultAdjacency* 
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the mesh. It should be derived from the ppPartitionResultAdjacency returned from [**D3DXUVAtlasPartition**](d3dxuvatlaspartition.md). This value cannot be **NULL**, because Pack needs to know where charts were cut in the partition step in order to find the edges of each chart.
 
@@ -111,7 +111,7 @@ A pointer to a callback function (see [LPD3DXUVATLASCB](lpd3dxuvatlascb.md)) tha
 *fCallbackFrequency* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Specify how often D3DX will call the callback; a reasonable default value is 0.0001f.
 
@@ -120,7 +120,7 @@ Specify how often D3DX will call the callback; a reasonable default value is 0.0
 *pUserContent* \[in\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 A void pointer to be passed back to the callback function.
 
@@ -129,7 +129,7 @@ A void pointer to be passed back to the callback function.
 *dwOptions* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 This options parameter is currently reserved.
 
@@ -171,7 +171,3 @@ If the function succeeds, the return value is D3D\_OK; otherwise, the value is D
  
 
  
-
-
-
-

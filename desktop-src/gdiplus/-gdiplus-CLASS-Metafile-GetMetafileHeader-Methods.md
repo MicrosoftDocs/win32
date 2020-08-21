@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Metafile.GetMetafileHeader methods
 
-This topic lists the GetMetafileHeader methods of the [**Metafile**](https://msdn.microsoft.com/library/ms534477(v=VS.85).aspx) class. For a complete list of methods for the **Metafile** class, see [Metafile Methods](-gdiplus-class-metafile-methods.md).
+This topic lists the GetMetafileHeader methods of the [**Metafile**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-metafile) class. For a complete list of methods for the **Metafile** class, see [Metafile Methods](-gdiplus-class-metafile-methods.md).
 
 ### Overload list
 
@@ -16,18 +16,14 @@ This topic lists the GetMetafileHeader methods of the [**Metafile**](https://msd
 
 | Method                                                                                                                                                          | Description                                                                                                                                                                           |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetMetafileHeader(MetafileHeader\*)**](https://msdn.microsoft.com/library/ms535279(v=VS.85).aspx)                                                                | The [**Metafile::GetMetafileHeader**](https://msdn.microsoft.com/library/ms535279(v=VS.85).aspx) method gets the header.<br/>                                                       |
-| [**GetMetafileHeader(WCHAR\*,MetafileHeader\*)**](https://msdn.microsoft.com/library/ms535276(v=VS.85).aspx)                                               | The [**Metafile::GetMetafileHeader**](https://msdn.microsoft.com/library/ms535276(v=VS.85).aspx) method gets the header.<br/>                                              |
-| [**GetMetafileHeader(IStream\*,MetafileHeader\*)**](https://msdn.microsoft.com/library/ms535280(v=VS.85).aspx)                                               | The [**Metafile::GetMetafileHeader**](https://msdn.microsoft.com/library/ms535280(v=VS.85).aspx) method gets the header.<br/>                                                |
-| [**GetMetafileHeader(HENHMETAFILE\*,MetafileHeader\*)**](https://msdn.microsoft.com/library/ms535277(v=VS.85).aspx)                                            | The [**Metafile::GetMetafileHeader**](https://msdn.microsoft.com/library/ms535277(v=VS.85).aspx) method gets the header.<br/>                                                  |
-| [**GetMetafileHeader(HMETAFILE,WmfPlaceableFileHeader\*,MetafileHeader\*)**](https://msdn.microsoft.com/library/ms535278(v=VS.85).aspx) | The [**Metafile::GetMetafileHeader**](https://msdn.microsoft.com/library/ms535278(v=VS.85).aspx) method gets the metafile header of this metafile.<br/> |
+| [**GetMetafileHeader(MetafileHeader\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(outmetafileheader))                                                                | The [**Metafile::GetMetafileHeader**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(outmetafileheader)) method gets the header.<br/>                                                       |
+| [**GetMetafileHeader(WCHAR\*,MetafileHeader\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(inconstwchar_outmetafileheader))                                               | The [**Metafile::GetMetafileHeader**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(inconstwchar_outmetafileheader)) method gets the header.<br/>                                              |
+| [**GetMetafileHeader(IStream\*,MetafileHeader\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(inistream_outmetafileheader))                                               | The [**Metafile::GetMetafileHeader**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(inistream_outmetafileheader)) method gets the header.<br/>                                                |
+| [**GetMetafileHeader(HENHMETAFILE\*,MetafileHeader\*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(inhenhmetafile_outmetafileheader))                                            | The [**Metafile::GetMetafileHeader**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-getmetafileheader(inhenhmetafile_outmetafileheader)) method gets the header.<br/>                                                  |
+| [**GetMetafileHeader(HMETAFILE,WmfPlaceableFileHeader\*,MetafileHeader\*)**](/previous-versions//ms535278(v=vs.85)) | The [**Metafile::GetMetafileHeader**](/previous-versions//ms535278(v=vs.85)) method gets the metafile header of this metafile.<br/> |
 
 
 
  
 
  
-
-
-
-

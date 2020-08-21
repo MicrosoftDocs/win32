@@ -48,7 +48,7 @@ Handle of the parameter, or **NULL** for top-level parameters. See [Handles (Dir
 *pSemantic* \[in\]
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCSTR**](../winprog/windows-data-types.md)**
 
 String containing the semantic name.
 
@@ -81,7 +81,3 @@ Returns the handle of the first parameter that matches the specified semantic, o
  
 
  
-
-
-
-

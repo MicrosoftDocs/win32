@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.Latitude Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.Latitude](https://msdn.microsoft.com/library/bb760543(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.Latitude](../properties/props-system-gps-latitude.md) property.
 
 ### PKEY
 
@@ -118,12 +118,9 @@ This value can be written by writing to System.GPS.LatitudeNumerator and System.
 
 <dl> <dt>
 
-[System.GPS.Latitude](https://msdn.microsoft.com/library/bb760543(VS.85).aspx)
+[System.GPS.Latitude](../properties/props-system-gps-latitude.md)
 </dt> </dl>
 
  
 
  
-
-
-

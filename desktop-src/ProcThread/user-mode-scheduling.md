@@ -45,7 +45,7 @@ An application might create one UMS scheduler thread for each processor that wil
 
 ## UMS Worker Threads, Thread Contexts, and Completion Lists
 
-A UMS worker thread is created by calling [**CreateRemoteThreadEx**](https://msdn.microsoft.com/library/Dd405484(v=VS.85).aspx) with the PROC\_THREAD\_ATTRIBUTE\_UMS\_THREAD attribute and specifying a UMS thread context and a completion list.
+A UMS worker thread is created by calling [**CreateRemoteThreadEx**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createremotethreadex) with the PROC\_THREAD\_ATTRIBUTE\_UMS\_THREAD attribute and specifying a UMS thread context and a completion list.
 
 A UMS thread context represents the UMS thread state of a worker thread and is used to identify the worker thread in UMS function calls. It is created by calling [**CreateUmsThreadContext**](/windows/desktop/api/WinBase/nf-winbase-createumsthreadcontext).
 
@@ -69,7 +69,7 @@ The scheduler entry point function is responsible for determining the appropriat
 
 When the scheduler entry point function is called, the application's scheduler should attempt to retrieve all of the items in its associated completion list by calling the [**DequeueUmsCompletionListItems**](/windows/desktop/api/WinBase/nf-winbase-dequeueumscompletionlistitems) function. This function retrieves a list of UMS thread contexts that have finished processing in the kernel and are ready to run in user mode. The application's scheduler should not run UMS threads directly from this list because this can cause unpredictable behavior in the application. Instead, the scheduler should retrieve all UMS thread contexts by calling the [**GetNextUmsListItem**](/windows/desktop/api/WinBase/nf-winbase-getnextumslistitem) function once for each context, insert the UMS thread contexts in the scheduler’s ready thread queue, and only then run UMS threads from the ready thread queue.
 
-If the scheduler does not need to wait on multiple events, it should call [**DequeueUmsCompletionListItems**](/windows/desktop/api/WinBase/nf-winbase-dequeueumscompletionlistitems) with a nonzero timeout parameter so the function waits on the completion list event before returning. If the scheduler does need to wait on multiple completion list events, it should call **DequeueUmsCompletionListItems** with a timeout parameter of zero so the function returns immediately, even if the completion list is empty. In this case, the scheduler can wait explicitly on completion list events, for example, by using [**WaitForMultipleObjects**](https://msdn.microsoft.com/library/ms687025(v=VS.85).aspx).
+If the scheduler does not need to wait on multiple events, it should call [**DequeueUmsCompletionListItems**](/windows/desktop/api/WinBase/nf-winbase-dequeueumscompletionlistitems) with a nonzero timeout parameter so the function waits on the completion list event before returning. If the scheduler does need to wait on multiple completion list events, it should call **DequeueUmsCompletionListItems** with a timeout parameter of zero so the function returns immediately, even if the completion list is empty. In this case, the scheduler can wait explicitly on completion list events, for example, by using [**WaitForMultipleObjects**](/windows/win32/api/synchapi/nf-synchapi-waitformultipleobjects).
 
 ## UMS Thread Execution
 
@@ -90,6 +90,3 @@ Applications that implement UMS should follow these best practices:
  
 
  
-
-
-

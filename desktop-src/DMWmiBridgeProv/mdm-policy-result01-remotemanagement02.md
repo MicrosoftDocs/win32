@@ -65,7 +65,7 @@ The **MDM\_Policy\_Result01\_RemoteManagement02** class has these properties.
 
 <dl> <dt>
 
-[AllowBasicAuthentication\_Client](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowbasicauthentication-client)
+[AllowBasicAuthentication\_Client](/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowbasicauthentication-client)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -76,7 +76,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowBasicAuthentication\_Service](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowbasicauthentication-service)
+[AllowBasicAuthentication\_Service](/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowbasicauthentication-service)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -87,7 +87,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowCredSSPAuthenticationClient](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowcredsspauthenticationclient)
+[AllowCredSSPAuthenticationClient](/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowcredsspauthenticationclient)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -98,7 +98,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowCredSSPAuthenticationService](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowcredsspauthenticationservice)
+[AllowCredSSPAuthenticationService](/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowcredsspauthenticationservice)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -109,7 +109,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowRemoteServerManagement](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowremoteservermanagement)
+[AllowRemoteServerManagement](/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowremoteservermanagement)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -120,7 +120,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowUnencryptedTraffic\_Client](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowunencryptedtraffic-client)
+[AllowUnencryptedTraffic\_Client](/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowunencryptedtraffic-client)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -131,7 +131,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AllowUnencryptedTraffic\_Service](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowunencryptedtraffic-service)
+[AllowUnencryptedTraffic\_Service](/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowunencryptedtraffic-service)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -142,7 +142,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisallowDigestAuthentication](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-disallowdigestauthentication)
+[DisallowDigestAuthentication](/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-disallowdigestauthentication)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -153,7 +153,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisallowNegotiateAuthenticationClient](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-disallownegotiateauthenticationclient)
+[DisallowNegotiateAuthenticationClient](/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-disallownegotiateauthenticationclient)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -164,7 +164,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisallowNegotiateAuthenticationService](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-disallownegotiateauthenticationservice)
+[DisallowNegotiateAuthenticationService](/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-disallownegotiateauthenticationservice)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -175,7 +175,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DisallowStoringOfRunAsCredentials](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-disallowstoringofrunascredentials)
+[DisallowStoringOfRunAsCredentials](/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-disallowstoringofrunascredentials)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -195,7 +195,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
@@ -209,12 +209,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[SpecifyChannelBindingTokenHardeningLevel](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-specifychannelbindingtokenhardeninglevel)
+[SpecifyChannelBindingTokenHardeningLevel](/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-specifychannelbindingtokenhardeninglevel)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -225,7 +225,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[TrustedHosts](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-trustedhosts)
+[TrustedHosts](/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-trustedhosts)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -236,7 +236,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[TurnOnCompatibilityHTTPListener](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-turnoncompatibilityhttplistener)
+[TurnOnCompatibilityHTTPListener](/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-turnoncompatibilityhttplistener)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -247,7 +247,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[TurnOnCompatibilityHTTPSListener](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-turnoncompatibilityhttpslistener)
+[TurnOnCompatibilityHTTPSListener](/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-turnoncompatibilityhttpslistener)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -273,10 +273,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

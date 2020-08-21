@@ -57,7 +57,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Bytes"), **PUnit** ("byte")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("Bytes"), **PUnit** ("byte")
 </dt> </dl>
 
 The size, in bytes, of the area designated as "end of tape". Access in this area generates an "end of tape" warning.
@@ -86,7 +86,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("MilliSeconds"), **PUnit** ("second \* 10^-3")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("MilliSeconds"), **PUnit** ("second \* 10^-3")
 </dt> </dl>
 
 The time, in milliseconds, to move from the most physically distant point on the tape to the beginning.
@@ -102,7 +102,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Units**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Bytes"), **PUnit** ("byte")
+Qualifiers: [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("Bytes"), **PUnit** ("byte")
 </dt> </dl>
 
 The number of bytes inserted between blocks on tape media.
@@ -131,9 +131,4 @@ The number of bytes inserted between blocks on tape media.
 </dt> </dl>
 
  
-
- 
-
-
-
 

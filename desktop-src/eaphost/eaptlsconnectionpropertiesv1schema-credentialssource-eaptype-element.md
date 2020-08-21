@@ -1,6 +1,6 @@
 ---
 title: CredentialsSource (EapType) Element
-description: Contains information about the location of the EAP-TLS certificate.
+description: Learn about the CredentialsSource (EapType) element. This element contains information about the location of the EAP-TLS certificate.
 ms.assetid: 6ef48e5e-7c71-472f-ab01-0a43a97ecd96
 keywords:
 - CredentialsSource element EAPHost
@@ -36,10 +36,10 @@ The **CredentialSource** element is optional.
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

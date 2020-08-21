@@ -23,13 +23,10 @@ When the originating server receives a request with an Authorization header cont
 -   The authenticating server, which is a domain controller, retrieves the user's password.
 -   Using the authorization information, password, and originating server identification, the authenticating server computes the value that the client should have supplied in the challenge response's response directive. The authenticating server compares the computed value to the client's response to determine the success or failure of the authentication.
 
-If authentication is successful, the user's [*security context*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) and a Digest [*session key*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) are returned to the originating server. If authentication fails, the originating server must generate an error response. After a successful authentication the originating server returns the requested resource to the client.
+If authentication is successful, the user's [*security context*](../secgloss/s-gly.md) and a Digest [*session key*](../secgloss/s-gly.md) are returned to the originating server. If authentication fails, the originating server must generate an error response. After a successful authentication the originating server returns the requested resource to the client.
 
 The Digest session key returned by the authenticating server is cached by the originating server for use in authenticating future requests. For more information, see [Authenticating Subsequent Requests using Microsoft Digest](authenticating-subsequent-requests-using-microsoft-digest.md).
 
  
 
  
-
-
-

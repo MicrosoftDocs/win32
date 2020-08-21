@@ -34,8 +34,8 @@ Windows 8.1 gives developers new functionality to create desktop applications t
 
 To facilitate making a per-monitor DPI-aware application, Windows 8.1 provides the following Microsoft Win32APIs:
 
--   [**SetProcessDpiAwareness**](/windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-setprocessdpiawareness) (or DPI manifest entry) sets the process to a specified DPI awareness level, which then determines how Windows scales the UI. This supersedes [**SetProcessDPIAware**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware).
--   [**GetProcessDpiAwareness**](/windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-getprocessdpiawareness) returns the DPI awareness level. This supersedes [**IsProcessDPIAware**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isprocessdpiaware).
+-   [**SetProcessDpiAwareness**](/windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-setprocessdpiawareness) (or DPI manifest entry) sets the process to a specified DPI awareness level, which then determines how Windows scales the UI. This supersedes [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware).
+-   [**GetProcessDpiAwareness**](/windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-getprocessdpiawareness) returns the DPI awareness level. This supersedes [**IsProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-isprocessdpiaware).
 -   [**GetDpiForMonitor**](/windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-getdpiformonitor) returns the DPI for a monitor.
 -   The [**WM\_DPICHANGED**](wm-dpichanged.md) window notification is sent to per-monitor DPI-aware applications when a window’s position changes such that most of its area intersects a monitor with a DPI that is different from the DPI before the position change or when the user moves the display slider. To create an application that resizes and re-renders itself when a user moves it to a different display, use this notification.
 
@@ -240,7 +240,3 @@ In order to avoid blurred bitmaps caused by scaling, the WPF application develop
  
 
  
-
-
-
-

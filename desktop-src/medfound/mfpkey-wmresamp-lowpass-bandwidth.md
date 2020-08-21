@@ -12,7 +12,7 @@ Specifies the low-pass filter bandwidth, as a percentage of the destination samp
 
 ## Constant for IPropertyBag
 
-Available only by using [**IPropertyStore**](https://msdn.microsoft.com/library/Bb761474(v=VS.85).aspx).
+Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
 ## Data Type
 
@@ -48,7 +48,3 @@ The valid range of this property is 0.0 to 1.0, inclusive
  
 
  
-
-
-
-

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 The diagram shows the interface inheritance hierarchy.
 
-Most apps will use only the interfaces at the top of the hierarchy, and not directly use the inherited interfaces; [**ID3D12Pageable**](https://msdn.microsoft.com/library/Dn788704(v=VS.85).aspx), [**ID3D12DeviceChild**](/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild), [**ID3D12Object**](/windows/desktop/api/d3d12/nn-d3d12-id3d12object) and [**ID3D12CommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist).
+Most apps will use only the interfaces at the top of the hierarchy, and not directly use the inherited interfaces; [**ID3D12Pageable**](/windows/win32/api/d3d12/nn-d3d12-id3d12pageable), [**ID3D12DeviceChild**](/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild), [**ID3D12Object**](/windows/desktop/api/d3d12/nn-d3d12-id3d12object) and [**ID3D12CommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist).
 
 New interfaces are shown in a green box.
 
@@ -30,7 +30,3 @@ New interfaces are shown in a green box.
  
 
  
-
-
-
-

@@ -242,7 +242,7 @@ The following code example assumes the existence of an initialized XPS OM, and *
 [Create a Blank XPS OM](create-a-blank-xps-om.md)
 </dt> <dt>
 
-[Packaging API](https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging)
+[Packaging API](/previous-versions/windows/desktop/opc/packaging)
 </dt> <dt>
 
 [XPS Document API Reference](xps-programming-reference.md)
@@ -252,9 +252,4 @@ The following code example assumes the existence of an initialized XPS OM, and *
 </dt> </dl>
 
  
-
- 
-
-
-
 

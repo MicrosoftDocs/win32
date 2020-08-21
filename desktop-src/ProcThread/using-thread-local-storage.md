@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using Thread Local Storage
 
-[Thread local storage](thread-local-storage.md) (TLS) enables multiple threads of the same process to use an index allocated by the [**TlsAlloc**](https://msdn.microsoft.com/library/ms686801(v=VS.85).aspx) function to store and retrieve a value that is local to the thread. In this example, an index is allocated when the process starts. When each thread starts, it allocates a block of dynamic memory and stores a pointer to this memory in the TLS slot using the [**TlsSetValue**](https://msdn.microsoft.com/library/ms686818(v=VS.85).aspx) function. The CommonFunc function uses the [**TlsGetValue**](https://msdn.microsoft.com/library/ms686812(v=VS.85).aspx) function to access the data associated with the index that is local to the calling thread. Before each thread terminates, it releases its dynamic memory. Before the process terminates, it calls [**TlsFree**](https://msdn.microsoft.com/library/ms686804(v=VS.85).aspx) to release the index.
+[Thread local storage](thread-local-storage.md) (TLS) enables multiple threads of the same process to use an index allocated by the [**TlsAlloc**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-tlsalloc) function to store and retrieve a value that is local to the thread. In this example, an index is allocated when the process starts. When each thread starts, it allocates a block of dynamic memory and stores a pointer to this memory in the TLS slot using the [**TlsSetValue**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-tlssetvalue) function. The CommonFunc function uses the [**TlsGetValue**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue) function to access the data associated with the index that is local to the calling thread. Before each thread terminates, it releases its dynamic memory. Before the process terminates, it calls [**TlsFree**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-tlsfree) to release the index.
 
 
 ```C++
@@ -109,12 +109,9 @@ VOID ErrorExit (LPSTR lpszMessage)
 
 <dl> <dt>
 
-[Using Thread Local Storage in a Dynamic-Link Library](https://msdn.microsoft.com/library/ms686997(v=VS.85).aspx)
+[Using Thread Local Storage in a Dynamic-Link Library](../dlls/using-thread-local-storage-in-a-dynamic-link-library.md)
 </dt> </dl>
 
  
 
  
-
-
-

@@ -76,14 +76,14 @@ public static JET_wrn JetOpenDatabase(
 <!-- end list -->
 
   - database  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     The database to open.
 
 <!-- end list -->
 
   - connect  
-    Type: [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)  
+    Type: [System.String](/dotnet/api/system.string)  
     
     Reserved for future use.
 
@@ -115,4 +115,3 @@ An ESENT warning code.
 [Api members](dn292213\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

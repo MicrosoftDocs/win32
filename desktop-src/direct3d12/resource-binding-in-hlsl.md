@@ -9,7 +9,7 @@ ms.date: 08/27/2019
 
 # Resource binding in HLSL
 
-This topic describes some specific features of using High Level Shader Language (HLSL) [Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1) with Direct3D 12. All Direct3D 12 hardware supports Shader Model 5.1, so support for this model does not depend on what the hardware feature level is.
+This topic describes some specific features of using High Level Shader Language (HLSL) [Shader Model 5.1](/windows/desktop/direct3dhlsl/shader-model-5-1) with Direct3D 12. All Direct3D 12 hardware supports Shader Model 5.1, so support for this model does not depend on what the hardware feature level is.
 
 -   [Resource types and arrays](#resource-types-and-arrays)
 -   [Descriptor arrays and texture arrays](#descriptor-arrays-and-texture-arrays)
@@ -83,7 +83,7 @@ sampler samp[7] : register(s0);
 tex1[myMaterialID].Sample(samp[samplerID], texCoords);
 ```
 
-There's an important default restriction on the use of the indices (`myMaterialID` and `samplerID` in the code above) in that they're not allowed to vary within a [wave](/windows/win32/direct3dhlsl/hlsl-shader-model-6-0-features-for-direct3d-12#terminology). Even changing the index based on instancing counts as varying.
+There's an important default restriction on the use of the indices (`myMaterialID` and `samplerID` in the code above) in that they're not allowed to vary within a [wave](../direct3dhlsl/hlsl-shader-model-6-0-features-for-direct3d-12.md#terminology). Even changing the index based on instancing counts as varying.
 
 If varying the index is required then specify the `NonUniformResourceIndex` qualifier on the index, for example:
 
@@ -143,7 +143,7 @@ To achieve the **abcabcabc....** memory layout, use a descriptor table without u
 
 ## Resource aliasing
 
-The resource ranges specified in the HLSL shaders are logical ranges. They are be bound to concrete heap ranges at runtime via the root signature mechanism. Normally, a logical range maps to a heap range that does not overlap with other heap ranges. However, the root signature mechanism makes it possible to alias (overlap) heap ranges of compatible types. For example, `tex2` and `tex3` ranges from the above example may be mapped to the same (or overlapping) heap range, which has the effect of aliasing textures in the HLSL program. If such aliasing is desired, the shader must be compiled with D3D10\_SHADER\_RESOURCES\_MAY\_ALIAS option, which is set by using the */res\_may\_alias* option for the [Effect-Compiler Tool](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc) (FXC). The option makes the compiler produce correct code by preventing certain load/store optimizations under the assumption that resources may alias.
+The resource ranges specified in the HLSL shaders are logical ranges. They are be bound to concrete heap ranges at runtime via the root signature mechanism. Normally, a logical range maps to a heap range that does not overlap with other heap ranges. However, the root signature mechanism makes it possible to alias (overlap) heap ranges of compatible types. For example, `tex2` and `tex3` ranges from the above example may be mapped to the same (or overlapping) heap range, which has the effect of aliasing textures in the HLSL program. If such aliasing is desired, the shader must be compiled with D3D10\_SHADER\_RESOURCES\_MAY\_ALIAS option, which is set by using the */res\_may\_alias* option for the [Effect-Compiler Tool](/windows/desktop/direct3dtools/fxc) (FXC). The option makes the compiler produce correct code by preventing certain load/store optimizations under the assumption that resources may alias.
 
 ## Divergence and derivatives
 
@@ -324,10 +324,10 @@ ConstantBuffer<Stuff> myStuff[][3][8]  : register(b2, space3)
 [Dynamic Indexing using HLSL 5.1](dynamic-indexing-using-hlsl-5-1.md)
 </dt> <dt>
 
-[Effect-Compiler Tool](https://docs.microsoft.com/windows/desktop/direct3dtools/fxc)
+[Effect-Compiler Tool](/windows/desktop/direct3dtools/fxc)
 </dt> <dt>
 
-[HLSL Shader Model 5.1 Features for Direct3D 12](https://docs.microsoft.com/windows/desktop/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
+[HLSL Shader Model 5.1 Features for Direct3D 12](/windows/desktop/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
 </dt> <dt>
 
 [Rasterizer Ordered Views](rasterizer-order-views.md)
@@ -339,7 +339,7 @@ ConstantBuffer<Stuff> myStuff[][3][8]  : register(b2, space3)
 [Root Signatures](root-signatures.md)
 </dt> <dt>
 
-[Shader Model 5.1](https://docs.microsoft.com/windows/desktop/direct3dhlsl/shader-model-5-1)
+[Shader Model 5.1](/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> <dt>
 
 [Shader Specified Stencil Reference Value](shader-specified-stencil-reference-value.md)
@@ -351,7 +351,3 @@ ConstantBuffer<Stuff> myStuff[][3][8]  : register(b2, space3)
  
 
  
-
-
-
-

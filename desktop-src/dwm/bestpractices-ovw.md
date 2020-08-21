@@ -30,15 +30,15 @@ This topic contains the following sections:
 
 ## Application Practices for DWM
 
-If your application handles dots per inch (dpi) scaling, you can declare an application as dpi-aware and prevent automatic scaling by setting the dpi-aware flag in the program's manifest or by calling the [**SetProcessDPIAware**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function during program initialization.
+If your application handles dots per inch (dpi) scaling, you can declare an application as dpi-aware and prevent automatic scaling by setting the dpi-aware flag in the program's manifest or by calling the [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) function during program initialization.
 
-With DWM composition turned on, obscured applications no longer receive [**WM\_PAINT**](https://docs.microsoft.com/windows/desktop/gdi/wm-paint) messages and are not asked to re-render. Each window's content is already available to compose the screen image.
+With DWM composition turned on, obscured applications no longer receive [**WM\_PAINT**](/windows/desktop/gdi/wm-paint) messages and are not asked to re-render. Each window's content is already available to compose the screen image.
 
-Top-level [**WS\_EX\_TRANSPARENT**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa) windows should be combined with a **WS\_EX\_LAYERED** style for the purposes of hit testing. **WS\_EX\_TRANSPARENT** in the classic sense, without redirection, is useful for child windows in a hierarchy of windows that belong to the same thread, but is not intended for top-level windows.
+Top-level [**WS\_EX\_TRANSPARENT**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) windows should be combined with a **WS\_EX\_LAYERED** style for the purposes of hit testing. **WS\_EX\_TRANSPARENT** in the classic sense, without redirection, is useful for child windows in a hierarchy of windows that belong to the same thread, but is not intended for top-level windows.
 
 Use regions or layering to create shaped or blended windows. Note that in Windows Vista and later versions of Windows, custom drawing only part of a top-level window will not provide the desired stale content in undrawn regions.
 
-APIs such as [**GetDCOrgEx**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdcorgex) can be used to determine certain actual values. If you have a device context (DC) for a redirected window, the origin returned by **GetDCOrgEx** will not match the origin of your window on the screen. The origin will instead be the origin of the back-buffer surface for your window: (0, 0).
+APIs such as [**GetDCOrgEx**](/windows/desktop/api/wingdi/nf-wingdi-getdcorgex) can be used to determine certain actual values. If you have a device context (DC) for a redirected window, the origin returned by **GetDCOrgEx** will not match the origin of your window on the screen. The origin will instead be the origin of the back-buffer surface for your window: (0, 0).
 
 When all else fails, disable window rendering by calling the [**DwmSetWindowAttribute**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetwindowattribute) function.
 
@@ -54,7 +54,7 @@ Avoid drawing in the non-client area. Although this area can be accessed by the 
 
 Avoid mixing Windows Graphics Device Interface (GDI) and Microsoft DirectX unless they do not overlap. If mixing is necessary, either draw the GDI content into a DirectX software surface and combine them before composing to the screen, or else draw them in separate windows.
 
-Use [**BitBlt**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt) or [**StretchBlt**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt) function instead of Windows GDI+ to present your drawing for rendering. GDI+ renders one scan line at a time with software rendering. This can cause flickering in your applications.
+Use [**BitBlt**](/windows/desktop/api/wingdi/nf-wingdi-bitblt) or [**StretchBlt**](/windows/desktop/api/wingdi/nf-wingdi-stretchblt) function instead of Windows GDI+ to present your drawing for rendering. GDI+ renders one scan line at a time with software rendering. This can cause flickering in your applications.
 
 ## DWM Blur-Behind Client Region
 
@@ -67,7 +67,3 @@ Rendering the blur-behind effect is a resource-intensive operation for both the 
  
 
  
-
-
-
-

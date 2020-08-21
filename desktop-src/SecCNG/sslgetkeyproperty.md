@@ -17,7 +17,7 @@ api_location:
 
 # SslGetKeyProperty function
 
-The **SslGetKeyProperty** function retrieves the value of a named property for a [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) provider key object.
+The **SslGetKeyProperty** function retrieves the value of a named property for a [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) provider key object.
 
 ## Syntax
 
@@ -106,9 +106,4 @@ Possible return codes include, but are not limited to, the following.
 
 
  
-
- 
-
-
-
 

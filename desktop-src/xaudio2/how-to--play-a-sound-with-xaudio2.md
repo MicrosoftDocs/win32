@@ -19,7 +19,7 @@ This topic describes the minimum steps required to play previously-loaded audio 
 
      
 
-3.  Create a source voice by calling the [**IXAudio2::CreateSourceVoice**](https://msdn.microsoft.com/library/Ee418607(v=VS.85).aspx) method on an instance of the XAudio2 engine. The format of the voice is specified by the values set in a [**WAVEFORMATEX**](/windows/win32/api/mmreg/ns-mmreg-waveformatex) structure.
+3.  Create a source voice by calling the [**IXAudio2::CreateSourceVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice) method on an instance of the XAudio2 engine. The format of the voice is specified by the values set in a [**WAVEFORMATEX**](/windows/win32/api/mmreg/ns-mmreg-waveformatex) structure.
     ```
     IXAudio2SourceVoice* pSourceVoice;
     if( FAILED(hr = pXAudio2->CreateSourceVoice( &pSourceVoice, (WAVEFORMATEX*)&wfx ) ) ) return hr;
@@ -27,7 +27,7 @@ This topic describes the minimum steps required to play previously-loaded audio 
 
     
 
-4.  Submit an [**XAUDIO2\_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) to the source voice using the function [**SubmitSourceBuffer**](https://msdn.microsoft.com/library/Ee418473(v=VS.85).aspx).
+4.  Submit an [**XAUDIO2\_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) to the source voice using the function [**SubmitSourceBuffer**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-submitsourcebuffer).
     ```
     if( FAILED(hr = pSourceVoice->SubmitSourceBuffer( &buffer ) ) )
         return hr;
@@ -40,7 +40,7 @@ This topic describes the minimum steps required to play previously-loaded audio 
 
      
 
-5.  Use the [**Start**](https://msdn.microsoft.com/library/Ee418471(v=VS.85).aspx) function to start the source voice. Since all XAudio2 voices send their output to the mastering voice by default, audio from the source voice automatically makes its way to the audio device selected at initialization. In a more complicated audio graph, the source voice would have to specify the voice to which its output should be sent.
+5.  Use the [**Start**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-start) function to start the source voice. Since all XAudio2 voices send their output to the mastering voice by default, audio from the source voice automatically makes its way to the audio device selected at initialization. In a more complicated audio graph, the source voice would have to specify the voice to which its output should be sent.
     ```
     if ( FAILED(hr = pSourceVoice->Start( 0 ) ) )
         return hr;
@@ -50,7 +50,7 @@ This topic describes the minimum steps required to play previously-loaded audio 
 
 ## Notes for Windows Store apps
 
-We recommend that you make use of a [smart pointer](https://msdn.microsoft.com/library/Hh279674(v=VS.110).aspx) to manage the lifetime of XAUDIO2 objects in an exception safe manner. For Windows Store apps, you can use the [**ComPtr**](https://msdn.microsoft.com/library/BR244983(v=VS.110).aspx) smart pointer template from the Windows Runtime C++ Template Library (WRL).
+We recommend that you make use of a [smart pointer](/previous-versions/visualstudio/visual-studio-2012/hh279674(v=vs.110)) to manage the lifetime of XAUDIO2 objects in an exception safe manner. For Windows Store apps, you can use the [**ComPtr**](/previous-versions/visualstudio/visual-studio-2012/br244983(v=vs.110)) smart pointer template from the Windows Runtime C++ Template Library (WRL).
 
 
 ```
@@ -89,6 +89,3 @@ if ( FAILED(hr = SourceVoice->Start( 0 ) ) )
  
 
  
-
-
-

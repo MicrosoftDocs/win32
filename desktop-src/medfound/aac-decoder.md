@@ -282,7 +282,7 @@ Here is an example of the input media type needed for a 6-channel, 48-kHz AAC-LC
 
  
 
-The first 12 bytes of [**MF_MT_USER_DATA**](mf-mt-user-data-attribute.md) correspond to the following [**HEAACWAVEINFO**](https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo) structure members:
+The first 12 bytes of [**MF_MT_USER_DATA**](mf-mt-user-data-attribute.md) correspond to the following [**HEAACWAVEINFO**](/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo) structure members:
 
 -   **wPayloadType** = 0 (raw AAC)
 -   **wAudioProfileLevelIndication** = 0x2a (AAC Profile, Level 4)
@@ -343,7 +343,7 @@ If Platform Update Supplement for Windows Vista is installed, the AAC audio deco
 [Audio Media Types](audio-media-types.md)
 </dt> <dt>
 
-[**Microsoft MPEG-1/DD/AAC Audio Decoder**](https://docs.microsoft.com/windows/desktop/DirectShow/microsoft-mpeg-1-dd-audio-decoder)
+[**Microsoft MPEG-1/DD/AAC Audio Decoder**](/windows/desktop/DirectShow/microsoft-mpeg-1-dd-audio-decoder)
 </dt> <dt>
 
 [MPEG-4 Support in Media Foundation](mpeg-4-support-in-media-foundation.md)

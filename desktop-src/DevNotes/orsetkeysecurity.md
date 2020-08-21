@@ -46,14 +46,14 @@ A handle to an open registry key in an offline registry hive.
 *SecurityInformation* \[in\]
 </dt> <dd>
 
-Bit flags that indicate the type of security information to set. This parameter can be a combination of the [SECURITY\_INFORMATION](https://msdn.microsoft.com/library/aa379573.aspx) bit flags.
+Bit flags that indicate the type of security information to set. This parameter can be a combination of the [SECURITY\_INFORMATION](../secauthz/security-information.md) bit flags.
 
 </dd> <dt>
 
 *pSecurityDescriptor* \[in\]
 </dt> <dd>
 
-A pointer to a [SECURITY\_DESCRIPTOR](https://msdn.microsoft.com/library/aa379561.aspx) structure that specifies the security attributes to set for the specified key.
+A pointer to a [SECURITY\_DESCRIPTOR](/windows/win32/api/winnt/ns-winnt-security_descriptor) structure that specifies the security attributes to set for the specified key.
 
 </dd> </dl>
 
@@ -61,7 +61,7 @@ A pointer to a [SECURITY\_DESCRIPTOR](https://msdn.microsoft.com/library/aa37956
 
 If the function succeeds, the function returns ERROR\_SUCCESS.
 
-If the function fails, it returns a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://msdn.microsoft.com/library/ms679351.aspx) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
+If the function fails, it returns a nonzero error code defined in Winerror.h. You can use the [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
 
 ## Requirements
 
@@ -91,16 +91,12 @@ If the function fails, it returns a nonzero error code defined in Winerror.h. Yo
 [**ORGetKeySecurity**](orgetkeysecurity.md)
 </dt> <dt>
 
-[SECURITY\_DESCRIPTOR](https://msdn.microsoft.com/library/aa379561.aspx)
+[SECURITY\_DESCRIPTOR](/windows/win32/api/winnt/ns-winnt-security_descriptor)
 </dt> <dt>
 
-[SECURITY\_INFORMATION](https://msdn.microsoft.com/library/aa379573.aspx)
+[SECURITY\_INFORMATION](../secauthz/security-information.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

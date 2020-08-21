@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The StylusInput APIs allow you to interact with the tablet pen data stream. To interact with the data stream add a [**RealTimeStylus**](realtimestylus-class.md) object to your application, and add plug-ins to the **RealTimeStylus** object.
 
-Two plug-ins are provided in the StylusInput APIs. The [**DynamicRenderer**](https://msdn.microsoft.com/library/ms701168(v=VS.85).aspx) object implements the [**IStylusSyncPlugin**](https://msdn.microsoft.com/library/ms704312(v=VS.85).aspx) interface. The **DynamicRenderer** object renders the ink in real time, as it is being drawn. The [**GestureRecognizer**](gesturerecognizer-class.md) object implements the **IStylusSyncPlugin** and [**IStylusAsyncPlugin**](https://msdn.microsoft.com/library/ms702522(v=VS.85).aspx) interfaces. The **GestureRecognizer** object recognizes application gestures.
+Two plug-ins are provided in the StylusInput APIs. The [**DynamicRenderer**](/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)) object implements the [**IStylusSyncPlugin**](/windows/win32/api/rtscom/nn-rtscom-istylussyncplugin) interface. The **DynamicRenderer** object renders the ink in real time, as it is being drawn. The [**GestureRecognizer**](gesturerecognizer-class.md) object implements the **IStylusSyncPlugin** and [**IStylusAsyncPlugin**](/windows/win32/api/rtscom/nn-rtscom-istylusasyncplugin) interfaces. The **GestureRecognizer** object recognizes application gestures.
 
 ## Definitions
 
@@ -18,19 +18,19 @@ The following terms are used in the sections describing the StylusInput APIs:
 
 Synchronous plug-in
 
-A class that implements the [**IStylusSyncPlugin**](https://msdn.microsoft.com/library/ms704312(v=VS.85).aspx) interface. Synchronous plug-ins are generally called directly by the [**RealTimeStylus**](realtimestylus-class.md) object.
+A class that implements the [**IStylusSyncPlugin**](/windows/win32/api/rtscom/nn-rtscom-istylussyncplugin) interface. Synchronous plug-ins are generally called directly by the [**RealTimeStylus**](realtimestylus-class.md) object.
 
 Asynchronous plug-in
 
-A class that implements the [**IStylusAsyncPlugin**](https://msdn.microsoft.com/library/ms702522(v=VS.85).aspx) interface. Asynchronous plug-ins are generally called on the application's user interface (UI) thread.
+A class that implements the [**IStylusAsyncPlugin**](/windows/win32/api/rtscom/nn-rtscom-istylusasyncplugin) interface. Asynchronous plug-ins are generally called on the application's user interface (UI) thread.
 
 Synchronous plug-in collection
 
-A [StylusSyncPluginCollection](https://msdn.microsoft.com/library/ms824788(v=MSDN.10).aspx) collection, which is an ordered collection of [IStylusSyncPlugin](https://msdn.microsoft.com/library/ms824751(v=MSDN.10).aspx) objects. A synchronous plug-in collection usually refers to the collection assigned to the [SyncPluginCollection](https://msdn.microsoft.com/library/ms824833(v=MSDN.10).aspx) property of a [RealTimeStylus](https://msdn.microsoft.com/library/ms824830(v=MSDN.10).aspx) object. Only synchronous plug-ins may be added to a synchronous plug-in collection.
+A [StylusSyncPluginCollection](/previous-versions/ms824788(v=msdn.10)) collection, which is an ordered collection of [IStylusSyncPlugin](/previous-versions/ms824751(v=msdn.10)) objects. A synchronous plug-in collection usually refers to the collection assigned to the [SyncPluginCollection](/previous-versions/ms824833(v=msdn.10)) property of a [RealTimeStylus](/previous-versions/ms824830(v=msdn.10)) object. Only synchronous plug-ins may be added to a synchronous plug-in collection.
 
 Asynchronous plug-in collection
 
-A [StylusAsyncPluginCollection](https://msdn.microsoft.com/library/ms824808(v=MSDN.10).aspx) collection, which is an ordered collection of [IStylusAsyncPlugin](https://msdn.microsoft.com/library/ms824768(v=MSDN.10).aspx) objects. An asynchronous plug-in collection usually refers to the collection assigned to the [AsyncPluginCollection](https://msdn.microsoft.com/library/ms824831(v=MSDN.10).aspx) property of a [RealTimeStylus](https://msdn.microsoft.com/library/ms824830(v=MSDN.10).aspx) object. Only asynchronous plug-ins may be added to an asynchronous plug-in collection.
+A [StylusAsyncPluginCollection](/previous-versions/ms824808(v=msdn.10)) collection, which is an ordered collection of [IStylusAsyncPlugin](/previous-versions/ms824768(v=msdn.10)) objects. An asynchronous plug-in collection usually refers to the collection assigned to the [AsyncPluginCollection](/previous-versions/ms824831(v=msdn.10)) property of a [RealTimeStylus](/previous-versions/ms824830(v=msdn.10)) object. Only asynchronous plug-ins may be added to an asynchronous plug-in collection.
 
 ## Synchronous and Asynchronous Plug-ins
 
@@ -42,7 +42,7 @@ For more information about using and creating plug-ins, see [Working with the St
 
 ## The Tablet Pen Data Stream
 
-The [**RealTimeStylus**](realtimestylus-class.md) object has two internal queues that carry the tablet pen data, the input queue and the output queue. The pen data is converted into instances of the classes in the [Microsoft.StylusInput.PluginData](https://msdn.microsoft.com/library/ms823992(v=MSDN.10).aspx) namespace. The following list describes how the **RealTimeStylus** object handles the tablet pen data:
+The [**RealTimeStylus**](realtimestylus-class.md) object has two internal queues that carry the tablet pen data, the input queue and the output queue. The pen data is converted into instances of the classes in the [Microsoft.StylusInput.PluginData](/previous-versions/ms823992(v=msdn.10)) namespace. The following list describes how the **RealTimeStylus** object handles the tablet pen data:
 
 The [**RealTimeStylus**](realtimestylus-class.md) object checks for plug-in data objects first on its input queue and then from the tablet pen data stream.
 
@@ -64,13 +64,13 @@ For more information about how specific data is added to the queue and processed
 
 ## The StylusInput APIs
 
-The StylusInput APIs reside primarily in the [Microsoft.StylusInput](https://msdn.microsoft.com/library/ms824750(v=MSDN.10).aspx) and [Microsoft.StylusInput.PluginData](https://msdn.microsoft.com/library/ms823992(v=MSDN.10).aspx) namespaces. However, the StylusInput APIs also reference some classes in the [Microsoft.Ink](https://msdn.microsoft.com/library/ms826516(v=MSDN.10).aspx) namespace, such as the [Tablet](https://msdn.microsoft.com/library/ms827783(v=MSDN.10).aspx) class, the [TabletPropertyDescriptionCollection](https://msdn.microsoft.com/library/ms827760(v=MSDN.10).aspx) collection, and the [ApplicationGesture](https://msdn.microsoft.com/library/ms827547(v=MSDN.10).aspx) and [SystemGesture](https://msdn.microsoft.com/library/ms827134(v=MSDN.10).aspx) enumerations.
+The StylusInput APIs reside primarily in the [Microsoft.StylusInput](/previous-versions/ms824750(v=msdn.10)) and [Microsoft.StylusInput.PluginData](/previous-versions/ms823992(v=msdn.10)) namespaces. However, the StylusInput APIs also reference some classes in the [Microsoft.Ink](/previous-versions/ms826516(v=msdn.10)) namespace, such as the [Tablet](/previous-versions/ms827783(v=msdn.10)) class, the [TabletPropertyDescriptionCollection](/previous-versions/ms827760(v=msdn.10)) collection, and the [ApplicationGesture](/previous-versions/ms827547(v=msdn.10)) and [SystemGesture](/previous-versions/ms827134(v=msdn.10)) enumerations.
 
 ## Related topics
 
 <dl> <dt>
 
-[**DynamicRenderer**](https://msdn.microsoft.com/library/ms701168(v=VS.85).aspx)
+[**DynamicRenderer**](/previous-versions/windows/desktop/legacy/ms701168(v=vs.85))
 </dt> <dt>
 
 [**GestureRecognizer**](gesturerecognizer-class.md)
@@ -79,10 +79,10 @@ The StylusInput APIs reside primarily in the [Microsoft.StylusInput](https://msd
 [**RealTimeStylus**](realtimestylus-class.md)
 </dt> <dt>
 
-[**IStylusAsyncPlugin**](https://msdn.microsoft.com/library/ms702522(v=VS.85).aspx)
+[**IStylusAsyncPlugin**](/windows/win32/api/rtscom/nn-rtscom-istylusasyncplugin)
 </dt> <dt>
 
-[**IStylusSyncPlugin**](https://msdn.microsoft.com/library/ms704312(v=VS.85).aspx)
+[**IStylusSyncPlugin**](/windows/win32/api/rtscom/nn-rtscom-istylussyncplugin)
 </dt> <dt>
 
 [Working with the StylusInput APIs](working-with-the-stylusinput-apis.md)
@@ -94,6 +94,3 @@ The StylusInput APIs reside primarily in the [Microsoft.StylusInput](https://msd
  
 
  
-
-
-

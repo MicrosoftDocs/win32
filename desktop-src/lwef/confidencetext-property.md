@@ -28,7 +28,7 @@ Returns or sets the client's **ConfidenceText** that appears in the Listening Ti
 
 | Part     | Description                                                                                                           |
 |----------|-----------------------------------------------------------------------------------------------------------------------|
-| *string* | A string expression that evaluates to the text for the **ConfidenceText** for the [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object). |
+| *string* | A string expression that evaluates to the text for the **ConfidenceText** for the [**Command**](/windows/desktop/lwef/the-command-object). |
 
 
 
@@ -43,7 +43,3 @@ When the returned confidence value of the best match (UserInput.Confidence) does
  
 
  
-
-
-
-

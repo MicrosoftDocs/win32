@@ -52,12 +52,9 @@ For more information, see the following topics:
 
 <dl> <dt>
 
-[Requests](https://docs.microsoft.com/windows/desktop/SecCrypto/requests)
+[Requests](/windows/desktop/SecCrypto/requests)
 </dt> </dl>
 
  
 
  
-
-
-

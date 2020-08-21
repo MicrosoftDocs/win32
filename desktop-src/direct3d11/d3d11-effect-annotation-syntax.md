@@ -25,7 +25,7 @@ An annotation is a user-defined piece of information, declared with the syntax d
 
 | Item                                                                                                   | Description                                                                                                                                                                      |
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="DataType"></span><span id="datatype"></span><span id="DATATYPE"></span>*DataType*<br/> | \[in\] The data type, which includes any [scalar HLSL](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-scalar) type as well as the [string type](https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-scalar).<br/> |
+| <span id="DataType"></span><span id="datatype"></span><span id="DATATYPE"></span>*DataType*<br/> | \[in\] The data type, which includes any [scalar HLSL](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-scalar) type as well as the [string type](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-scalar).<br/> |
 | <span id="Name"></span><span id="name"></span><span id="NAME"></span>*Name*<br/>                 | \[in\] An ASCII string, that represents the annotation name.<br/>                                                                                                          |
 | <span id="Value"></span><span id="value"></span><span id="VALUE"></span>*Value*<br/>             | \[in\] The initial value of the annotation.<br/>                                                                                                                           |
 | <span id="..."></span>*...*<br/>                                                                 | \[in\] Additional annotations (name-value pairs).<br/>                                                                                                                     |
@@ -78,10 +78,4 @@ return pos;
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

@@ -8,29 +8,29 @@ ms.date: 05/31/2018
 
 # How to programmatically sign an app package (C++)
 
-Learn how to sign an app package by using the [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2) function.
+Learn how to sign an app package by using the [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) function.
 
-If you want to programmatically create Windows app packages by using the [Packaging API](interfaces.md), you also need to sign the app packages before they can be deployed. The Packaging API doesn't provide a specialized method for signing app packages. Instead, use the standard [cryptography functions](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions) to sign your app packages.
+If you want to programmatically create Windows app packages by using the [Packaging API](interfaces.md), you also need to sign the app packages before they can be deployed. The Packaging API doesn't provide a specialized method for signing app packages. Instead, use the standard [cryptography functions](/windows/desktop/SecCrypto/cryptography-functions) to sign your app packages.
 
 ## What you need to know
 
 ### Technologies
 
--   [Introduction to Code Signing](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85))
+-   [Introduction to Code Signing](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85))
 -   [Packaging, deployment, and query of Windows apps](appx-portal.md)
--   [Cryptography Functions](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions)
+-   [cryptography functions](/windows/desktop/SecCrypto/cryptography-functions)
 
 ### Prerequisites
 
 -   You need to have a packaged Windows app. For info about creating an app package, see [How to create an app package](how-to-create-a-package.md).
--   You need to have a code signing certificate that is appropriate for signing the app package. For info about creating a test code signing certificate, see [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md). Load this signing certificate into a [**CERT\_CONTEXT**](https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) structure. For example, you can use [**PFXImportCertStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-pfximportcertstore) and [**CertFindCertificateInStore**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore) to load a signing certificate.
--   Windows 8 introduces the [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2) function. Use **SignerSignEx2** when you sign Windows app packages.
+-   You need to have a code signing certificate that is appropriate for signing the app package. For info about creating a test code signing certificate, see [How to create an app package signing certificate](how-to-create-a-package-signing-certificate.md). Load this signing certificate into a [**CERT\_CONTEXT**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) structure. For example, you can use [**PFXImportCertStore**](/windows/desktop/api/wincrypt/nf-wincrypt-pfximportcertstore) and [**CertFindCertificateInStore**](/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore) to load a signing certificate.
+-   Windows 8 introduces the [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) function. Use **SignerSignEx2** when you sign Windows app packages.
 
 ## Instructions
 
 ### Step 1: Define the required structures for SignerSignEx2
 
-In addition to the Wincrypt.h header, the [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2) function depends on many structures that aren't defined in any SDK header file. To use **SignerSignEx2**, you must define these structures yourself:
+In addition to the Wincrypt.h header, the [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) function depends on many structures that aren't defined in any SDK header file. To use **SignerSignEx2**, you must define these structures yourself:
 
 
 ```C++
@@ -185,14 +185,14 @@ typedef struct _APPX_SIP_CLIENT_DATA
 
 ### Step 2: Call SignerSignEx2 to sign the app package
 
-After you define the required structures that are specified in the previous step, you can use any of the options available on the [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2) function to sign an app package. When you use **SignerSignEx2** with Windows app packages, these restrictions apply:
+After you define the required structures that are specified in the previous step, you can use any of the options available on the [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) function to sign an app package. When you use **SignerSignEx2** with Windows app packages, these restrictions apply:
 
--   You must provide a pointer to an **APPX\_SIP\_CLIENT\_DATA** structure as the *pSipData* parameter when you sign an app package. You must populate the **pSignerParams** member of **APPX\_SIP\_CLIENT\_DATA** with the same parameters that you use to sign the app package. To do this, define your desired parameters on the **SIGNER\_SIGN\_EX2\_PARAMS** structure, assign the address of this structure to **pSignerParams**, and then directly reference the structure's members as well when you call [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2).
--   After you call [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2), you must free the **pAppxSipState** on the *pSipData* by calling [**IUnknown::Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on **pAppxSipState** if it's not **NULL**.
+-   You must provide a pointer to an **APPX\_SIP\_CLIENT\_DATA** structure as the *pSipData* parameter when you sign an app package. You must populate the **pSignerParams** member of **APPX\_SIP\_CLIENT\_DATA** with the same parameters that you use to sign the app package. To do this, define your desired parameters on the **SIGNER\_SIGN\_EX2\_PARAMS** structure, assign the address of this structure to **pSignerParams**, and then directly reference the structure's members as well when you call [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2).
+-   After you call [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2), you must free the **pAppxSipState** on the *pSipData* by calling [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) on **pAppxSipState** if it's not **NULL**.
 -   The **algidHash** member of the **SIGNER\_SIGNATURE\_INFO** structure must be the same hash algorithm that was used in creating the app package. For info about how to determine the hash algorithm from the app package, see [How to sign an app package using SignTool](how-to-sign-a-package-using-signtool.md). The Windows 8 default algorithm that [MakeAppx](make-appx-package--makeappx-exe-.md) and Visual Studio use to create app packages is “algidHash = CALG\_SHA\_256”.
--   If you want to time stamp the signature on the app package as well, you must do so during the call to [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2) by providing **SignerSignEx2**'s optional time stamping parameters (*dwTimestampFlags*, *pszTimestampAlgorithmOid*, *pwszHttpTimeStamp*, *psRequest*). Calling [**SignerTimeStampEx3**](https://docs.microsoft.com/windows/desktop/SecCrypto/signertimestampex3) or its variants on an app package that is already signed is unsupported.
+-   If you want to time stamp the signature on the app package as well, you must do so during the call to [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) by providing **SignerSignEx2**'s optional time stamping parameters (*dwTimestampFlags*, *pszTimestampAlgorithmOid*, *pwszHttpTimeStamp*, *psRequest*). Calling [**SignerTimeStampEx3**](/windows/desktop/SecCrypto/signertimestampex3) or its variants on an app package that is already signed is unsupported.
 
-Here is some example code that shows how to call [**SignerSignEx2**](https://docs.microsoft.com/windows/desktop/SecCrypto/signersignex2):
+Here is some example code that shows how to call [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2):
 
 
 ```C++
@@ -312,25 +312,21 @@ HRESULT SignAppxPackage(
 
 ## Remarks
 
-After you sign the app package, you can also attempt to validate the signature programmatically by using the [**WinVerifyTrust**](https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust) function with **WINTRUST\_ACTION\_GENERIC\_VERIFY\_V2**. There are no special considerations in this case for using **WinVerifyTrust** with Windows app packages.
+After you sign the app package, you can also attempt to validate the signature programmatically by using the [**WinVerifyTrust**](/windows/desktop/api/wintrust/nf-wintrust-winverifytrust) function with **WINTRUST\_ACTION\_GENERIC\_VERIFY\_V2**. There are no special considerations in this case for using **WinVerifyTrust** with Windows app packages.
 
 ## Related topics
 
 <dl> <dt>
 
-[Introduction to Code Signing](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85))
+[Introduction to Code Signing](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85))
 </dt> <dt>
 
 [Packaging API](interfaces.md)
 </dt> <dt>
 
-[Cryptography Functions](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions)
+[cryptography functions](/windows/desktop/SecCrypto/cryptography-functions)
 </dt> </dl>
 
  
 
  
-
-
-
-

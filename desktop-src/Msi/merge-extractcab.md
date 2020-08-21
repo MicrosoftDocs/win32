@@ -48,7 +48,7 @@ This method does not return a value.
 
 ## C++
 
-See [**ExtractCAB**](https://msdn.microsoft.com/library/Aa369269(v=VS.85).aspx) function.
+See [**ExtractCAB**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-extractcab) function.
 
 ## Requirements
 
@@ -65,7 +65,3 @@ See [**ExtractCAB**](https://msdn.microsoft.com/library/Aa369269(v=VS.85).aspx) 
  
 
  
-
-
-
-

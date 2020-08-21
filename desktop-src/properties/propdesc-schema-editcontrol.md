@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # editControl
 
-Specifies what control to use when editing the property. There should be only one [editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx) element for each [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) element.
+Specifies what control to use when editing the property. There should be only one [editControl]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
 
-If there are multiple elements, the last one is used. If no [editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
+If there are multiple elements, the last one is used. If no [editControl]() element is provided, then the default attribute settings are applied to the property description.
 
 If <typeInfo isInnate="true">, this element is ignored because an innate property cannot be edited.
 
@@ -48,7 +48,7 @@ If <typeInfo isInnate="true">, this element is ignored because an innate propert
 
 | Parent Element                                   | Child Elements |
 |--------------------------------------------------|----------------|
-| [displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx) | None           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | None           |
 
 
 
@@ -160,6 +160,3 @@ If <typeInfo isInnate="true">, this element is ignored because an innate propert
  
 
  
-
-
-

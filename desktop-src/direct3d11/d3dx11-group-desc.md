@@ -40,7 +40,7 @@ typedef struct _D3DX11_GROUP_DESC {
 **Name**
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -51,7 +51,7 @@ Name of this group (only **NULL** if global).
 **Techniques**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -62,7 +62,7 @@ Number of techniques contained in group.
 **Annotations**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -92,10 +92,4 @@ D3DX11\_GROUP\_DESC is used with [**ID3DX11EffectTechnique::GetDesc**](id3dx11ef
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

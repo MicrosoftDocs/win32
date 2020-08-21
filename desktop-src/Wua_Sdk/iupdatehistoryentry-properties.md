@@ -24,7 +24,7 @@ The [**IUpdateHistoryEntry**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatehistory
 | [**ServiceID**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_serviceid)                     | Gets the service identifier of an update service that is not a Windows update.                                           |
 | [**SupportUrl**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_supporturl)                   | Gets a hyperlink to the language-specific support information for an update.                                             |
 | [**Title**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_title)                             | Gets the title of an update.                                                                                             |
-| [**UninstallationNotes**](https://msdn.microsoft.com/library/Aa386478(v=VS.85).aspx) | Gets the uninstallation notes of an update.                                                                              |
+| [**UninstallationNotes**](/windows/win32/api/wuapi/nf-wuapi-iupdatehistoryentry-get_uninstallationnotes) | Gets the uninstallation notes of an update.                                                                              |
 | [**UninstallationSteps**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_uninstallationsteps) | Gets the [**IStringCollection**](/windows/desktop/api/Wuapi/nn-wuapi-istringcollection) interface that contains the uninstallation steps for an update.  |
 | [**UnmappedResultCode**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_unmappedresultcode)   | Gets the unmapped result code that is returned from an operation on an update.                                           |
 | [**UpdateIdentity**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatehistoryentry-get_updateidentity)           | Gets a string. The string contains the unique identifier of an update.                                                   |
@@ -36,6 +36,3 @@ The [**IUpdateHistoryEntry**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatehistory
  
 
  
-
-
-

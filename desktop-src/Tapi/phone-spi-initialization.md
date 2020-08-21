@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Phone SPI Initialization
 
-As part of the phone device abstraction defined by TSPI, TAPI and the service provider must first undergo basic initialization. This basic initialization is accomplished both for the line and phone halves of the interface by the same set of steps. The first of these steps is interface version negotiation. TAPI performs this by calling the [**TSPI\_lineNegotiateTSPIVersion**](https://msdn.microsoft.com/library/ms725582(v=VS.85).aspx) function. This function is usually used to negotiate on behalf of an individual line device; different line devices within the same service provider may operate according to different interface versions. TAPI passes a special reserved device identifier value, [**INITIALIZE\_NEGOTIATION**](initialize-negotiation.md), to indicate that it is negotiating an overall interface version for initialization functions that affect the entire service provider, both for lines and phones.
+As part of the phone device abstraction defined by TSPI, TAPI and the service provider must first undergo basic initialization. This basic initialization is accomplished both for the line and phone halves of the interface by the same set of steps. The first of these steps is interface version negotiation. TAPI performs this by calling the [**TSPI\_lineNegotiateTSPIVersion**](/windows/win32/api/tspi/nf-tspi-tspi_linenegotiatetspiversion) function. This function is usually used to negotiate on behalf of an individual line device; different line devices within the same service provider may operate according to different interface versions. TAPI passes a special reserved device identifier value, [**INITIALIZE\_NEGOTIATION**](initialize-negotiation.md), to indicate that it is negotiating an overall interface version for initialization functions that affect the entire service provider, both for lines and phones.
 
 The result of this negotiation is passed to subsequent procedures until a phone device is opened. At that time, the phone device becomes committed to a particular interface version. This interface version is implicit until the phone is closed, and does not need to be passed to subsequent functions that operate on an opened phone.
 
-Following overall interface version negotiation, TAPI calls the [**TSPI\_providerInit**](https://msdn.microsoft.com/library/ms725960(v=VS.85).aspx) function. This function initializes the service provider, also giving it parameters required for subsequent operation. These parameters include the following:
+Following overall interface version negotiation, TAPI calls the [**TSPI\_providerInit**](/windows/win32/api/tspi/nf-tspi-tspi_providerinit) function. This function initializes the service provider, also giving it parameters required for subsequent operation. These parameters include the following:
 
 -   *dwPermanentProviderID*: Specifies the permanent identifier of the service provider being initialized, unique within the service providers on this system.
 -   *dwLineDeviceIDBase*: Specifies the lowest device identifier for the line devices supported by this service provider.
@@ -21,11 +21,8 @@ Following overall interface version negotiation, TAPI calls the [**TSPI\_provide
 -   *dwNumPhones*: Specifies how many phone devices this service provider supports.
 -   *lpfnCompletionProc*: Specifies the procedure the service provider calls to report completion of all asynchronously operating procedures on line and phone devices.
 
-Following [**TSPI\_providerInit**](https://msdn.microsoft.com/library/ms725960(v=VS.85).aspx), normal operations such as opening phones can be carried out.
+Following [**TSPI\_providerInit**](/windows/win32/api/tspi/nf-tspi-tspi_providerinit), normal operations such as opening phones can be carried out.
 
  
 
  
-
-
-

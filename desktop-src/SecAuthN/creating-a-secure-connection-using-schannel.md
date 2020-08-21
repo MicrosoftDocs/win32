@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating a Secure Connection Using Schannel
 
-The Schannel [*security package*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) provides access to four [*security protocols*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly):
+The Schannel [*security package*](/windows/desktop/SecGloss/s-gly) provides access to four [*security protocols*](/windows/desktop/SecGloss/s-gly):
 
 -   [Transport Layer Security (TLS 1.2)](transport-layer-security-protocol.md)
 -   [Transport Layer Security (TLS 1.1)](transport-layer-security-protocol.md)
@@ -32,7 +32,7 @@ If, after you have established a connection, the security requirements of your a
 
 When you have finished using an Schannel connection, you must perform the necessary cleanup. For details, see [Shutting Down an Schannel Connection](shutting-down-an-schannel-connection.md).
 
-For information about samples shipped with the Platform Software Development Kit (SDK) that demonstrate the Schannel [*security package*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly), see the PSDK samples using Schannel.
+For information about samples shipped with the Platform Software Development Kit (SDK) that demonstrate the Schannel [*security package*](/windows/desktop/SecGloss/s-gly), see the PSDK samples using Schannel.
 
 ## Related topics
 
@@ -44,6 +44,3 @@ For information about samples shipped with the Platform Software Development Kit
  
 
  
-
-
-

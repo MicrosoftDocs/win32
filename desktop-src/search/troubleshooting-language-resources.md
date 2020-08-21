@@ -48,7 +48,7 @@ We recommend that you monitor how the [**IStemmer**](/windows/desktop/api/Indexs
 We recommend that you ensure that the [**IWordBreaker**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordbreaker) implementation performs consistently under the following conditions:
 
 -   Word breaker performs consistently across multiple calls to its [**IWordBreaker::Init**](/windows/desktop/api/Indexsrv/nf-indexsrv-iwordbreaker-init) method. The word breaker reinitializes with the same parameters as in the previous initialization, without releasing the parameters.
--   Given the same test corpus, and repetitions of the same query, the [**IWordBreaker::BreakText**](/windows/desktop/api/Indexsrv/nf-indexsrv-iwordbreaker-breaktext) method produces the identical output and makes identical calls to the methods of the [**IWordSink**](iwordsink.md) and [**IPhraseSink**](https://msdn.microsoft.com/library/Ff819113(v=VS.85).aspx) objects.
+-   Given the same test corpus, and repetitions of the same query, the [**IWordBreaker::BreakText**](/windows/desktop/api/Indexsrv/nf-indexsrv-iwordbreaker-breaktext) method produces the identical output and makes identical calls to the methods of the [**IWordSink**](iwordsink.md) and [**IPhraseSink**](/windows/win32/api/indexsrv/nn-indexsrv-iphrasesink) objects.
 
 ### Testing for Invalid Input in the Word Breaker
 
@@ -61,7 +61,7 @@ We recommend that you ensure that the [**IWordBreaker**](/windows/desktop/api/In
 -   Call to [**IWordBreaker::BreakText**](/windows/desktop/api/Indexsrv/nf-indexsrv-iwordbreaker-breaktext) with the *cwc* parameter equal to 0. **IWordBreaker::BreakText** returns successfully (returns S\_OK) and does not result in an access violation.
 -   Call to the [**IWordBreaker::BreakText**](/windows/desktop/api/Indexsrv/nf-indexsrv-iwordbreaker-breaktext) method with the *pwcInBuf* parameter set to **NULL** and the *cwc* parameter equal to 0. **IWordBreaker::BreakText** fails (returns E\_FAIL) and does not result in an access violation.
 -   Phrases generated during index creation contain the same number of words.
--   Phrases are generated during index creation through successive calls to the [**IWordFormSink::PutWord**](iwordsink-putword.md) and [**IWordFormSink::PutAltWord**](iwordsink-putaltword.md) methods. The word breaker uses only the [**IPhraseSink**](https://msdn.microsoft.com/library/Ff819113(v=VS.85).aspx) object during query time.
+-   Phrases are generated during index creation through successive calls to the [**IWordFormSink::PutWord**](iwordsink-putword.md) and [**IWordFormSink::PutAltWord**](iwordsink-putaltword.md) methods. The word breaker uses only the [**IPhraseSink**](/windows/win32/api/indexsrv/nn-indexsrv-iphrasesink) object during query time.
 
 ## Related topics
 
@@ -82,6 +82,3 @@ We recommend that you ensure that the [**IWordBreaker**](/windows/desktop/api/In
  
 
  
-
-
-

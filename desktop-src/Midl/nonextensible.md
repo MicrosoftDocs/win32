@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # nonextensible attribute
 
-The **\[nonextensible\]** attribute specifies that the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) implementation includes only the properties and methods listed in the interface description and cannot be extended with additional members at run time. (By default, Automation assumes that interfaces may add members at run time; that is, it assumes they are extensible.)
+The **\[nonextensible\]** attribute specifies that the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) implementation includes only the properties and methods listed in the interface description and cannot be extended with additional members at run time. (By default, Automation assumes that interfaces may add members at run time; that is, it assumes they are extensible.)
 
 ``` syntax
 [
@@ -93,7 +93,7 @@ library Hello
 
 <dl> <dt>
 
-[Contents of a Type Library](https://msdn.microsoft.com/library/ms221355(v=VS.71).aspx)
+[Contents of a Type Library](/previous-versions/windows/desktop/automat/contents-of-a-type-library)
 </dt> <dt>
 
 [**dispinterface**](dispinterface.md)
@@ -108,19 +108,15 @@ library Hello
 [**interface**](interface.md)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> <dt>
 
 [**oleautomation**](oleautomation.md)
 </dt> <dt>
 
-[**TYPEFLAGS**](https://msdn.microsoft.com/library/ms221509(v=VS.71).aspx)
+[**TYPEFLAGS**](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -22,16 +22,12 @@ This section includes the following topics:
 
 <dl> <dt>
 
-[UI Automation Specification](https://msdn.microsoft.com/library/Dd561923(v=VS.85).aspx)
+[UI Automation Specification](./ui-automation-specification.md)
 </dt> <dt>
 
-[UI Automation Community Promise](https://msdn.microsoft.com/windows/bb892136.aspx)
+[UI Automation Community Promise](./uiauto-specandcommunitypromise.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

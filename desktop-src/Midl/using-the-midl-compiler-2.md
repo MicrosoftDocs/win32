@@ -22,12 +22,8 @@ The MIDL compiler is automatically installed as part of the Platform Software De
 -   [MIDL and COM](midl-and-com.md)
 -   [MIDL and ODL](midl-and-odl.md)
 
-For more information about the files that make up the RPC product, see [Installing the RPC Programming Environment](https://docs.microsoft.com/windows/desktop/Rpc/installing-the-rpc-programming-environment).
+For more information about the files that make up the RPC product, see [Installing the RPC Programming Environment](/windows/desktop/Rpc/installing-the-rpc-programming-environment).
 
  
 
  
-
-
-
-

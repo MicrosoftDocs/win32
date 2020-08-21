@@ -50,7 +50,7 @@ The window handle of the snap-in window that will process this message. This han
 *wParam* 
 </dt> <dd>
 
-Contains a pointer to a [**DSA\_SEC\_PAGE\_INFO**](dsa-sec-page-info.md) structure that defines the secondary property sheet to create. The message receiver must free this memory with the [**LocalFree**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree) function when it is no longer required.
+Contains a pointer to a [**DSA\_SEC\_PAGE\_INFO**](dsa-sec-page-info.md) structure that defines the secondary property sheet to create. The message receiver must free this memory with the [**LocalFree**](/windows/desktop/api/winbase/nf-winbase-localfree) function when it is no longer required.
 
 </dd> <dt>
 
@@ -86,14 +86,8 @@ Not used.
 [**DSA\_SEC\_PAGE\_INFO**](dsa-sec-page-info.md)
 </dt> <dt>
 
-[**LocalFree**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree)
+[**LocalFree**](/windows/desktop/api/winbase/nf-winbase-localfree)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

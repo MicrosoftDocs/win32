@@ -26,7 +26,7 @@ SMC_SFDDRESTRICTED
 *pDropTarget* 
 </dt> <dd>
 
-The address of a void pointer that receives a pointer to your [**IDropTarget**](https://msdn.microsoft.com/library/ms679679(v=VS.85).aspx) interface. Set this value to **NULL** if you do not want to accept the data object.
+The address of a void pointer that receives a pointer to your [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) interface. Set this value to **NULL** if you do not want to accept the data object.
 
 </dd> </dl>
 
@@ -54,7 +54,3 @@ This notification is received by the [**IShellMenuCallback::CallbackSM**](/windo
  
 
  
-
-
-
-

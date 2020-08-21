@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Overview of the WSDAPI Interfaces
 
-Web Services on Devices API (WSDAPI) is used to develop client applications that find and access devices, and to develop device hosts and associated services that run on Windows Vista and Windows Server 2008. The [Function Discovery](https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/fd-portal) API and the [WsdCodeGen](web-services-for-devices-code-generator.md) tool are supplemental tools that can be used for client, device host, and service development. The WSDAPI interfaces can be used directly to expose advanced functionality.
+Web Services on Devices API (WSDAPI) is used to develop client applications that find and access devices, and to develop device hosts and associated services that run on Windows Vista and Windows Server 2008. The [Function Discovery](/previous-versions/windows/desktop/fundisc/fd-portal) API and the [WsdCodeGen](web-services-for-devices-code-generator.md) tool are supplemental tools that can be used for client, device host, and service development. The WSDAPI interfaces can be used directly to expose advanced functionality.
 
 ## Major WSDAPI interfaces
 
@@ -22,7 +22,7 @@ The four major WSDAPI interfaces are [**IWSDiscoveryProvider**](/windows/desktop
 
 An [**IWSDiscoveryProvider**](/windows/desktop/api/WsdDisco/nn-wsddisco-iwsdiscoveryprovider) interface is not necessary when simply resolving a particular DPWS device address before creating a device proxy. [**WSDCreateDeviceProxy**](/windows/desktop/api/WsdClient/nf-wsdclient-wsdcreatedeviceproxy) will automatically resolve the device address if required.
 
-The [Function Discovery](https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/fd-portal) API can be used for generic device and service discovery, as the API can discover DPWS devices and also devices using other protocols. Consider using Function Discovery when writing a generic discovery application.
+The [Function Discovery](/previous-versions/windows/desktop/fundisc/fd-portal) API can be used for generic device and service discovery, as the API can discover DPWS devices and also devices using other protocols. Consider using Function Discovery when writing a generic discovery application.
 
 ## IWSDiscoveryPublisher
 
@@ -67,6 +67,3 @@ The [**IWSDDeviceHost**](/windows/desktop/api/WsdHost/nn-wsdhost-iwsddevicehost)
  
 
  
-
-
-

@@ -1,6 +1,6 @@
 ---
 title: Common EAPHost API Enumerations
-description: Common EAPHost API Enumerations
+description: Learn about common EAPHost API enumerations, such as EAP\_METHOD\_PROPERTY\_VALUE\_TYPE and EapCode.
 ms.assetid: 2bf991f2-44b8-4815-b6c7-582f51087c83
 ms.topic: article
 ms.date: 05/31/2018

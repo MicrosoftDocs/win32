@@ -36,9 +36,9 @@ The Windows Biometric Service manages installed biometric drivers and supports t
 
 -   It protects user confidentiality by separating client applications from biometric data.
 -   It protects biometric data from unprivileged client applications by requiring that applications gain access to data by using unique identifiers.
--   It uses a software component called a [Biometric Unit](https://docs.microsoft.com/previous-versions//dd401512(v=vs.85)) to expose the capabilities of a particular biometric device through a standardized interface.
+-   It uses a software component called a [Biometric Unit](/previous-versions//dd401512(v=vs.85)) to expose the capabilities of a particular biometric device through a standardized interface.
 -   It manages biometric units by grouping them into system, private, or unassigned [Sensor Pools](sensor-pools.md).
--   It supports the use of biometric unit [Adapters](https://docs.microsoft.com/previous-versions//dd401508(v=vs.85)) for physical devices that lack onboard processing or storage capabilities.
+-   It supports the use of biometric unit [Adapters](/previous-versions//dd401508(v=vs.85)) for physical devices that lack onboard processing or storage capabilities.
 
 ### Windows Biometric Framework API
 
@@ -81,7 +81,3 @@ You can manage biometric capabilities using Group Policy or MDM. Group Policy ca
  
 
  
-
-
-
-

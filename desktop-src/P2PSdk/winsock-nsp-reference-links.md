@@ -14,26 +14,23 @@ This topic provides you with useful links to topics about the Windows Sockets Fu
 
 The following list identifies links to topics about the Windows Sockets Functions:
 
--   [**WSACleanup**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacleanup)
--   [**WSAGetLastError**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror)
--   [**WSANSPIoctl**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsanspioctl)
--   [**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)
--   [**WSALookupServiceEnd**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend)
--   [**WSALookupServiceNext**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta)
--   [**WSASetService**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea)
--   [**WSAStartup**](https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup)
+-   [**WSACleanup**](/windows/desktop/api/winsock/nf-winsock-wsacleanup)
+-   [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror)
+-   [**WSANSPIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsanspioctl)
+-   [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)
+-   [**WSALookupServiceEnd**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend)
+-   [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta)
+-   [**WSASetService**](/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea)
+-   [**WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup)
 
  
 
 The following list identifies links to topics about the Windows Sockets Structures:
 
--   [**BLOB**](https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob)
--   [**WSACOMPLETION**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsacompletion)
--   [**WSAQUERYSET**](https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)
+-   [**BLOB**](/windows/desktop/api/nspapi/ns-nspapi-blob)
+-   [**WSACOMPLETION**](/windows/desktop/api/winsock2/ns-winsock2-wsacompletion)
+-   [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)
 
  
 
  
-
-
-

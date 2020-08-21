@@ -94,7 +94,7 @@ Return **S\_OK** if successful.
 
 Text to display in the client area of the control while the control is in the connected state. This is the text that is visible, for example, when the user switches the control to the full-screen mode in a web browser, a scenario that leaves a portion of the control hosted in the browser.
 
-The **get\_ConnectedStatusText** method allocates the memory required for the buffer pointed to by the *pConnectedStatusText* parameter. Calling C/C++ applications must free the memory with a call to the [**SysFreeString**](https://msdn.microsoft.com/library/ms221481(v=VS.71).aspx) function. This is not required for Visual Basic and scripting clients.
+The **get\_ConnectedStatusText** method allocates the memory required for the buffer pointed to by the *pConnectedStatusText* parameter. Calling C/C++ applications must free the memory with a call to the [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) function. This is not required for Visual Basic and scripting clients.
 
 This property cannot be set when the control is connected. You can check if the control is connected by calling the [**IMsTscAx::get\_Connected**](imstscax-connected.md) method.
 
@@ -146,10 +146,4 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

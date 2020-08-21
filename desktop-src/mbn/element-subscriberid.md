@@ -15,7 +15,7 @@ Identifies the unique identifier of the profile.
 
 For a GSM network this should contain the IMSI (International Mobile Subscriber Identity) of the SIM and for CDMA devices it should contain the MIN (Mobile Identification Number) of the device.
 
-For more information, see the documentation for the v1 [**SubscriberID**](https://msdn.microsoft.com/library/Dd323305(v=VS.85).aspx) element.
+For more information, see the documentation for the v1 [**SubscriberID**](./schema-subscriberid-mbnprofile-element.md) element.
 
 ## Element hierarchy
 
@@ -84,6 +84,3 @@ None.
  
 
  
-
-
-

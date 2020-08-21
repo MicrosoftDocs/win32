@@ -14,12 +14,8 @@ ms.date: 05/31/2018
 
 # Installable Driver Format
 
-Every installable driver exports a [DriverProc](https://msdn.microsoft.com/library/Dd797918(v=VS.85).aspx) function. This common entry-point function receives *driver messages* from the system that direct the driver to carry out actions or provide information. The system sends driver messages to the **DriverProc** function when an application or DLL opens or closes the driver or requests that a message be sent to the driver. The **DriverProc** function either processes the message or passes the message to the default message handler, the [DefDriverProc](https://msdn.microsoft.com/library/Dd797870(v=VS.85).aspx) function. In either case, **DriverProc** must return a value indicating whether the requested action was successful.
+Every installable driver exports a [DriverProc](/windows/win32/api/mmiscapi/nc-mmiscapi-driverproc) function. This common entry-point function receives *driver messages* from the system that direct the driver to carry out actions or provide information. The system sends driver messages to the **DriverProc** function when an application or DLL opens or closes the driver or requests that a message be sent to the driver. The **DriverProc** function either processes the message or passes the message to the default message handler, the [DefDriverProc](/windows/win32/api/mmiscapi/nf-mmiscapi-defdriverproc) function. In either case, **DriverProc** must return a value indicating whether the requested action was successful.
 
  
 
  
-
-
-
-

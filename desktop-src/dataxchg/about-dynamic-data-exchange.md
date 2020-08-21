@@ -146,7 +146,7 @@ Applications that support warm or hot data links typically provide a **Copy** or
 
 ### Atoms and Shared Memory Objects
 
-Certain arguments of DDE messages are global atoms or shared memory objects. Applications using these arguments must follow explicit rules about when to allocate and delete them. In all cases, the message sender must delete any atom or shared memory object that the intended receiver will not receive because of an error condition, such as failure of the [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea) function.
+Certain arguments of DDE messages are global atoms or shared memory objects. Applications using these arguments must follow explicit rules about when to allocate and delete them. In all cases, the message sender must delete any atom or shared memory object that the intended receiver will not receive because of an error condition, such as failure of the [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) function.
 
 DDE uses shared memory objects for three purposes:
 
@@ -184,7 +184,7 @@ The following table summarizes the DDE messages.
 
  
 
-An application calls [**SendMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage) to issue the [**WM\_DDE\_INITIATE**](wm-dde-initiate.md) message or a [**WM\_DDE\_ACK**](wm-dde-ack.md) message sent in response to **WM\_DDE\_INITIATE**. All other messages are sent by [**PostMessage**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea). The first parameter of these calls is a handle to the receiving window; the second parameter contains the message to be sent; the third parameter identifies the sending window; and the fourth parameter contains the message-specific arguments.
+An application calls [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) to issue the [**WM\_DDE\_INITIATE**](wm-dde-initiate.md) message or a [**WM\_DDE\_ACK**](wm-dde-ack.md) message sent in response to **WM\_DDE\_INITIATE**. All other messages are sent by [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea). The first parameter of these calls is a handle to the receiving window; the second parameter contains the message to be sent; the third parameter identifies the sending window; and the fourth parameter contains the message-specific arguments.
 
 ## Dynamic Data Exchange Message Flow
 
@@ -216,14 +216,10 @@ Applications can also use the [**ReuseDDElParam**](/windows/desktop/api/Dde/nf-d
 
 ## Dynamic Data Exchange and Impersonation
 
-To allow a server to impersonate a client, the client calls the [**DdeSetQualityOfService**](/windows/desktop/api/Dde/nf-dde-ddesetqualityofservice) function. The [**SECURITY\_IMPERSONATION\_LEVEL**](https://msdn.microsoft.com/library/Aa379572(v=VS.85).aspx) structure is used to control the level of impersonation the server may perform.
+To allow a server to impersonate a client, the client calls the [**DdeSetQualityOfService**](/windows/desktop/api/Dde/nf-dde-ddesetqualityofservice) function. The [**SECURITY\_IMPERSONATION\_LEVEL**](/windows/win32/api/winnt/ne-winnt-security_impersonation_level) structure is used to control the level of impersonation the server may perform.
 
 A DDE server can impersonate a DDE client by calling the [**ImpersonateDdeClientWindow**](/windows/desktop/api/Dde/nf-dde-impersonateddeclientwindow) function. A DDEML server should use the [**DdeImpersonateClient**](/windows/desktop/api/Ddeml/nf-ddeml-ddeimpersonateclient) function.
 
  
 
  
-
-
-
-

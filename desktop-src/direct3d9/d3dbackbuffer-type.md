@@ -86,16 +86,12 @@ Direct3D 9 does not support stereo view, so Direct3D does not use the D3DBACKBUF
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::GetBackBuffer**](https://msdn.microsoft.com/library/Bb174379(v=VS.85).aspx)
+[**IDirect3DDevice9::GetBackBuffer**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getbackbuffer)
 </dt> <dt>
 
-[**IDirect3DSwapChain9::GetBackBuffer**](https://msdn.microsoft.com/library/Bb205902(v=VS.85).aspx)
+[**IDirect3DSwapChain9::GetBackBuffer**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-getbackbuffer)
 </dt> </dl>
 
  
 
  
-
-
-
-

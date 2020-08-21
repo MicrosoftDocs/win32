@@ -103,9 +103,9 @@ Access type: Read/write
 
 Class identifier that WMI uses to determine whether or not to load a high performance provider into the client process or the WMI process. If both the provider and client are located on the same computer, WMI loads the provider in-process to the client by using **ClientLoadableCLSID** as the class identifier. When the provider and client are located on different computers, WMI loads the provider in-process to WMI. WMI also uses **ClientLoadableCLSID** to support refresh operations.
 
-For more information, see [Registering a High-Performance Provider.](https://docs.microsoft.com/windows/desktop/WmiSdk/registering-a-high-performance-provider)
+For more information, see [Registering a High-Performance Provider.](/windows/desktop/WmiSdk/registering-a-high-performance-provider)
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -118,9 +118,9 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-**GUID** that represents the class identifier (**CLSID**) of the provider COM object. This COM object must contain an implementation of the [**IWbemProviderInit**](https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemproviderinit) interface.
+**GUID** that represents the class identifier (**CLSID**) of the provider COM object. This COM object must contain an implementation of the [**IWbemProviderInit**](/windows/desktop/api/wbemprov/nn-wbemprov-iwbemproviderinit) interface.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -135,7 +135,7 @@ Access type: Read/write
 
 Not used.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -150,7 +150,7 @@ Access type: Read/write
 
 Identifies the computer on which to start the provider. If the provider runs on the local computer it is **NULL**.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -165,7 +165,7 @@ Access type: Read/write
 
 If **TRUE**, this instance is enabled and can be used to complete client requests.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -178,7 +178,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("HostingModel")
+Qualifiers: [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("HostingModel")
 </dt> </dl>
 
 Contains the hosting model of the provider.
@@ -196,7 +196,7 @@ Access type: Read/write
 
 Reserved. The default value is zero (0).
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -211,7 +211,7 @@ Access type: Read/write
 
 Set of flags that provide information about serialization. The default value is zero (0).
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 <dt>
 
@@ -261,7 +261,7 @@ Access type: Read/write
 
 Not used.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -276,7 +276,7 @@ Access type: Read/write
 
 **Windows Server 2003:** This property is disabled.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -289,12 +289,12 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 The provider name.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -309,7 +309,7 @@ Access type: Read/write
 
 Not used.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -324,7 +324,7 @@ Access type: Read/write
 
 If **TRUE**, the provider is initialized for each locale when a user connects to the same namespace more than one time using different locales. The default value is **FALSE**.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -339,7 +339,7 @@ Access type: Read/write
 
 If **TRUE**, the provider is initialized one time for each NT LAN Manager (NTLM) user that makes requests to the provider. If **FALSE** (default), the provider is initialized one time for all users.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -352,9 +352,9 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-If **TRUE**, the provider agrees to prepare to unload by calling [**IUnknown::Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) on all outstanding interface points when WMI calls the **Release** method of its primary interface. Providers that must remain clients of WMI after they do not function as providers should set **Pure** to **FALSE**. The default setting is **TRUE**. For more information, see the Remarks section of this topic.
+If **TRUE**, the provider agrees to prepare to unload by calling [**IUnknown::Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) on all outstanding interface points when WMI calls the **Release** method of its primary interface. Providers that must remain clients of WMI after they do not function as providers should set **Pure** to **FALSE**. The default setting is **TRUE**. For more information, see the Remarks section of this topic.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -367,15 +367,15 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-Security descriptor (SD) in the Security Descriptor Definition Language (SDDL) that determines the set of users that can successfully call [**IWbemDecoupledRegistrar:Register**](https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register) for the decoupled provider. For more information, see the [Security Descriptor Definition Language](https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language) topic in the Security section of the Windows SDK. This security descriptor is used only for decoupled providers, and does not affect other providers. For more information, see [Incorporating a Provider in an Application](https://docs.microsoft.com/windows/desktop/WmiSdk/incorporating-a-provider-in-an-application).
+Security descriptor (SD) in the Security Descriptor Definition Language (SDDL) that determines the set of users that can successfully call [**IWbemDecoupledRegistrar:Register**](/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register) for the decoupled provider. For more information, see the [Security Descriptor Definition Language](/windows/desktop/SecAuthZ/security-descriptor-definition-language) topic in the Security section of the Windows SDK. This security descriptor is used only for decoupled providers, and does not affect other providers. For more information, see [Incorporating a Provider in an Application](/windows/desktop/WmiSdk/incorporating-a-provider-in-an-application).
 
-WMI performs access checks for decoupled providers that use the [**IWbemProviderInit**](https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemproviderinit) and [**IWbemObjectSink**](https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink) interfaces. If the security descriptor is **NULL**, then only applications or services that run under the LocalSystem, NetworkService, LocalService accounts can run a decoupled provider.
+WMI performs access checks for decoupled providers that use the [**IWbemProviderInit**](/windows/desktop/api/wbemprov/nn-wbemprov-iwbemproviderinit) and [**IWbemObjectSink**](/windows/desktop/WmiSdk/iwbemobjectsink) interfaces. If the security descriptor is **NULL**, then only applications or services that run under the LocalSystem, NetworkService, LocalService accounts can run a decoupled provider.
 
 The following string shows a decoupled provider to be run only by built-in Administrators."O:BAG:BAD:(A;;0x1;;;BA)"
 
-For more information about setting the **SecurityDescriptor** property, see [Maintaining WMI Security](https://docs.microsoft.com/windows/desktop/WmiSdk/maintaining-wmi-security).
+For more information about setting the **SecurityDescriptor** property, see [Maintaining WMI Security](/windows/desktop/WmiSdk/maintaining-wmi-security).
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -390,7 +390,7 @@ Access type: Read/write
 
 Not used.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -405,7 +405,7 @@ Access type: Read/write
 
 Not used.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -420,7 +420,7 @@ Access type: Read/write
 
 Not used.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -435,7 +435,7 @@ Access type: Read/write
 
 Not used.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -450,7 +450,7 @@ Access type: Read/write
 
 Not used.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -465,7 +465,7 @@ Access type: Read/write
 
 Not used.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -478,11 +478,11 @@ Data type: **datetime**
 Access type: Read/write
 </dt> </dl>
 
-[Date and Time Format](https://docs.microsoft.com/windows/desktop/WmiSdk/date-and-time-format) that specifies how long WMI allows the provider to remain idle before it is unloaded. Typically, providers request that WMI wait no longer than five minutes.
+[Date and Time Format](/windows/desktop/WmiSdk/date-and-time-format) that specifies how long WMI allows the provider to remain idle before it is unloaded. Typically, providers request that WMI wait no longer than five minutes.
 
-For the current version of WMI, the value of this property is ignored. WMI unloads the provider based on the time-out value in an internal class in the \\root namespace. It is recommended that providers set **UnloadTimeout**. For more information, see [Unloading a Provider](https://docs.microsoft.com/windows/desktop/WmiSdk/unloading-a-provider).
+For the current version of WMI, the value of this property is ignored. WMI unloads the provider based on the time-out value in an internal class in the \\root namespace. It is recommended that providers set **UnloadTimeout**. For more information, see [Unloading a Provider](/windows/desktop/WmiSdk/unloading-a-provider).
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> <dt>
 
@@ -495,9 +495,9 @@ Data type: **uint32**
 Access type: Read/write
 </dt> </dl>
 
-Version of the provider. The supported versions are 1 and 2. Version 2 strengthens validity checks for all associated property registrations, specifically the [**ImpersonationLevel**](https://docs.microsoft.com/windows/desktop/WmiSdk/swbemsecurity-impersonationlevel) property.
+Version of the provider. The supported versions are 1 and 2. Version 2 strengthens validity checks for all associated property registrations, specifically the [**ImpersonationLevel**](/windows/desktop/WmiSdk/swbemsecurity-impersonationlevel) property.
 
-This property is inherited from [**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider).
+This property is inherited from [**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider).
 
 </dd> </dl>
 
@@ -527,14 +527,8 @@ An instance of this class represents the WMI provider for Active Directory Domai
 
 <dl> <dt>
 
-[**\_\_Win32Provider**](https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider)
+[**\_\_Win32Provider**](/windows/desktop/WmiSdk/--win32provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

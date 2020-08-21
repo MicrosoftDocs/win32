@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XMMATRIX Operators
 
-The [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx) structure exposes the following operators.
+The [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -21,9 +21,9 @@ The [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx) st
 
 | Methods                                                    | Description                                                                                                                                                                                   |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**operator \***](https://msdn.microsoft.com/library/Ff621686(v=VS.85).aspx)<br/>    | Performs a matrix multiplication of the current instance of `XMMATRIX` by another instance of `XMMATRIX`.<br/>                                                                          |
-| [**operator \*=**](https://msdn.microsoft.com/library/Ff621687(v=VS.85).aspx)<br/> | Performs a matrix multiplication of the current instance of `XMMATRIX` by another instance of `XMMATRIX` and returns a reference to the current instance, which has been updated. <br/> |
-| [**operator =**](https://msdn.microsoft.com/library/Ee420128(v=VS.85).aspx)<br/>      | Assigns the matrix data of one instance of `XMMATRIX` to the current instance of `XMMATRIX` and returns a `reference` to the current instance. <br/>                                    |
+| [**operator \***](/windows/win32/api/directxmath/nf-directxmath-xmmatrix-operator-mult)<br/>    | Performs a matrix multiplication of the current instance of `XMMATRIX` by another instance of `XMMATRIX`.<br/>                                                                          |
+| [**operator \*=**](/windows/win32/api/directxmath/nf-directxmath-xmmatrix-operator-mult-assign)<br/> | Performs a matrix multiplication of the current instance of `XMMATRIX` by another instance of `XMMATRIX` and returns a reference to the current instance, which has been updated. <br/> |
+| [**operator =**](/windows/win32/api/directxmath/nf-directxmath-xmmatrix-operator-assign)<br/>      | Assigns the matrix data of one instance of `XMMATRIX` to the current instance of `XMMATRIX` and returns a `reference` to the current instance. <br/>                                    |
 | [**operator ()**](xmmatrix-operator-parens.md)<br/> | Accesses specific matrix elements referenced by row and column from the current instance of `XMMATRIX`. <br/>                                                                           |
 
 
@@ -40,13 +40,9 @@ The [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx) st
 **Reference**
 </dt> <dt>
 
-[**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx)
+[**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)
 </dt> </dl>
 
  
 
  
-
-
-
-

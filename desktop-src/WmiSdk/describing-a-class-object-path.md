@@ -15,7 +15,7 @@ You can use the following methods to specify an object path:
 
 -   A full object path to a class appends the class name to a namespace path.
 
-    The following example shows the location of the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class within the \\root\\cimv2 namespace on the server named Admin.
+    The following example shows the location of the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class within the \\root\\cimv2 namespace on the server named Admin.
 
     ``` syntax
     \\Admin\Root\CimV2:Win32_LogicalDisk
@@ -23,7 +23,7 @@ You can use the following methods to specify an object path:
 
 -   A relative object path represents a class that resides in the current namespace. A relative object path to a class contains only the class name.
 
-    The following example shows the relative path to the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
+    The following example shows the relative path to the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
 
     ``` syntax
     Win32_LogicalDisk
@@ -35,7 +35,7 @@ When you query for a class name but specify no instances, WMI returns the class 
 
 -   You can use the moniker connection either with a query or [**GetObject**](https://msdn.microsoft.com/library/ebdktb00(v=VS.71).aspx). You can also use [**SWbemServices.Get**](swbemservices-get.md).
 
-    The following example shows how to use [GetObject](https://docs.microsoft.com/previous-versions//kdccchxa(v=vs.85)) to get a class definition.
+    The following example shows how to use [GetObject](/previous-versions//kdccchxa(v=vs.85)) to get a class definition.
 
     ```VB
     strComputer = "."
@@ -88,6 +88,3 @@ You can retrieve a class definition in C++ by specifying only the class name and
  
 
  
-
-
-

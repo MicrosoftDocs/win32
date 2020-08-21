@@ -35,7 +35,7 @@ Direct2D provides the following functions. Additional functions are defined in t
 | [**DeducingStringSetter**](deducingstringsetter.md) | Deduces the class and arguments and then calls a member-function property setter callback for a string-type property. |
 | [**DeducingValueGetter**](deducingvaluegetter.md) | Deduces the class and arguments and then calls a member-function property getter callback for a value-type property. |
 | [**DeducingValueSetter**](deducingvaluesetter.md) | Deduces the class and arguments and then calls a member-function property setter callback for a value-type property. |
-| [**GetType**](https://msdn.microsoft.com/library/Hh847962(v=VS.85).aspx) | Retrieves the type of the given property. |
+| [**GetType**](/previous-versions/windows/desktop/legacy/hh847962(v=vs.85)) | Retrieves the type of the given property. |
 | [**StringGetter**](/windows/desktop/api/d2d1effecthelpers/nf-d2d1effecthelpers-stringgetter) | Calls a member-function property getter callback for a string-type property. |
 | [**StringSetter**](/windows/desktop/api/d2d1effecthelpers/nf-d2d1effecthelpers-stringsetter) | Calls a member-function property setter callback for a string-type property. |
 | [**ValueGetter**](/windows/desktop/api/d2d1effecthelpers/nf-d2d1effecthelpers-valuegetter) | Calls a member-function property setter callback for a value-type property. |

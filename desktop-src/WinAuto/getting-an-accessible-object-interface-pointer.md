@@ -15,7 +15,7 @@ Microsoft Active Accessibility client applications retrieve interface pointers t
 Many clients look up information about specific accessible objects that generate events. Because the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface is the "gateway" to accessible objects, clients must have an easy way to associate [WinEvents](winevents-overview.md) with the **IAccessible** interface of the object generating the events. Microsoft Active Accessibility provides the [**AccessibleObjectFromEvent**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromevent) function specifically for this purpose.
 
 > [!Note]  
-> Clients with [in-context hook functions](in-context-hook-functions.md) must call the [IsWindow](https://msdn.microsoft.com/library/ms633528(VS.85).aspx) function before calling [**AccessibleObjectFromEvent**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromevent).
+> Clients with [in-context hook functions](in-context-hook-functions.md) must call the [IsWindow](/windows/win32/api/winuser/nf-winuser-iswindow) function before calling [**AccessibleObjectFromEvent**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromevent).
 
  
 
@@ -36,7 +36,3 @@ It is possible that servers return distinct interface pointers for the same user
  
 
  
-
-
-
-

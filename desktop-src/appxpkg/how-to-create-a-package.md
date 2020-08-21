@@ -12,7 +12,7 @@ Learn how to create an app package for a Windows app using the [packaging API](i
 
 If you want to create a desktop app package manually, you can also use the MakeAppx.exe tool which utilizes the [packaging API](interfaces.md). See [App packager (MakeAppx.exe)](make-appx-package--makeappx-exe-.md) for more information.
 
-If you are using Visual Studio, it's recommended that you use the Visual Studio packaging wizard to package your app. For more details, see [Package a UWP app using Visual Studio](https://docs.microsoft.com/windows/msix/package/packaging-uwp-apps).
+If you are using Visual Studio, it's recommended that you use the Visual Studio packaging wizard to package your app. For more details, see [Package a UWP app using Visual Studio](/windows/msix/package/packaging-uwp-apps).
 
 ## Instructions
 
@@ -274,7 +274,7 @@ if (manifestStream != NULL)
 
 ### Step 4: Clean up the package writer
 
-Before returning from the `wmain` function, call the [**Release**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) method to clean up the package writer and call the [**CoUninitialize**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize) function.
+Before returning from the `wmain` function, call the [**Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) method to clean up the package writer and call the [**CoUninitialize**](/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize) function.
 
 
 ```C++
@@ -307,7 +307,3 @@ CoUninitialize();
  
 
  
-
-
-
-

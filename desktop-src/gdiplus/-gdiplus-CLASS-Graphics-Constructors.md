@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.Graphics constructors
 
-This topic lists the constructors of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete class listing, see **Graphics Class**.
+This topic lists the constructors of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete class listing, see **Graphics Class**.
 
 ### Overload list
 
@@ -16,17 +16,13 @@ This topic lists the constructors of the [**Graphics**](https://msdn.microsoft.c
 
 | Constructor                                                                   | Description                                                                                                                                                                        |
 |:------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Graphics(HDC)**](https://msdn.microsoft.com/library/ms536160(v=VS.85).aspx)                | Creates a [**Graphics::Graphics**](https://msdn.microsoft.com/library/ms536160(v=VS.85).aspx) object that is associated with a specified device context.<br/>                                |
-| [**Graphics(Image\*)**](https://msdn.microsoft.com/library/ms536159(v=VS.85).aspx)          | Creates a [**Graphics::Graphics**](https://msdn.microsoft.com/library/ms536159(v=VS.85).aspx) object that is associated with an [**Image**](https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx) object.<br/>   |
-| [**Graphics(HWND,BOOL)**](https://msdn.microsoft.com/library/ms536162(v=VS.85).aspx)     | Creates a [**Graphics::Graphics**](https://msdn.microsoft.com/library/ms536162(v=VS.85).aspx) object that is associated with a specified window.<br/>                                   |
-| [**Graphics(HDC,HANDLE)**](https://msdn.microsoft.com/library/ms536161(v=VS.85).aspx) | Creates a [**Graphics::Graphics**](https://msdn.microsoft.com/library/ms536161(v=VS.85).aspx) object that is associated with a specified device context and a specified device.<br/> |
+| [**Graphics(HDC)**](/previous-versions//ms536160(v=vs.85))                | Creates a [**Graphics::Graphics**](/previous-versions//ms536160(v=vs.85)) object that is associated with a specified device context.<br/>                                |
+| [**Graphics(Image\*)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-graphics(inimage))          | Creates a [**Graphics::Graphics**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-graphics(inimage)) object that is associated with an [**Image**](/windows/win32/api/gdiplusheaders/nl-gdiplusheaders-image) object.<br/>   |
+| [**Graphics(HWND,BOOL)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-graphics(inhwnd_inbool))     | Creates a [**Graphics::Graphics**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-graphics(inhwnd_inbool)) object that is associated with a specified window.<br/>                                   |
+| [**Graphics(HDC,HANDLE)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-graphics(inhdc_inhandle)) | Creates a [**Graphics::Graphics**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-graphics(inhdc_inhandle)) object that is associated with a specified device context and a specified device.<br/> |
 
 
 
  
 
  
-
-
-
-

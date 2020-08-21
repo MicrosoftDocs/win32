@@ -18,10 +18,10 @@ ms.date: 05/31/2018
 
 | IAgentCommandEx Methods                                       | Description                                                                                  |
 |---------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| [**SetHelpContextID**](iagentcommandex--sethelpcontextid.md) | Sets the context-sensitive help topic ID for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object.    |
-| [**GetHelpContextID**](iagentcommandex--gethelpcontextid.md) | Returns the context-sensitive help topic ID for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object. |
-| [**SetVoiceCaption**](iagentcommandex--setvoicecaption.md)   | Sets the voice caption for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object.                      |
-| [**GetVoiceCaption**](iagentcommandex--getvoicecaption.md)   | Returns the voice caption for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) object.                   |
+| [**SetHelpContextID**](iagentcommandex--sethelpcontextid.md) | Sets the context-sensitive help topic ID for a [**Command**](/windows/desktop/lwef/the-command-object) object.    |
+| [**GetHelpContextID**](iagentcommandex--gethelpcontextid.md) | Returns the context-sensitive help topic ID for a [**Command**](/windows/desktop/lwef/the-command-object) object. |
+| [**SetVoiceCaption**](iagentcommandex--setvoicecaption.md)   | Sets the voice caption for a [**Command**](/windows/desktop/lwef/the-command-object) object.                      |
+| [**GetVoiceCaption**](iagentcommandex--getvoicecaption.md)   | Returns the voice caption for a [**Command**](/windows/desktop/lwef/the-command-object) object.                   |
 
 
 
@@ -30,7 +30,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
-

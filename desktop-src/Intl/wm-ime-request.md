@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM_IME_REQUEST message
 
-Sent to an application to provide commands and request information. A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx) function.
+Sent to an application to provide commands and request information. A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
 
 
 ```C++
@@ -107,7 +107,3 @@ Returns a command-specific value.
  
 
  
-
-
-
-

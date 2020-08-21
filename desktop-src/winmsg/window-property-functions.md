@@ -8,17 +8,14 @@ ms.date: 05/31/2018
 
 # Window Property Functions
 
--   [**EnumProps**](https://msdn.microsoft.com/library/ms633562(v=VS.85).aspx)
--   [**EnumPropsEx**](https://msdn.microsoft.com/library/ms633563(v=VS.85).aspx)
--   [**GetProp**](https://msdn.microsoft.com/library/ms633564(v=VS.85).aspx)
--   [*PropEnumProc*](https://msdn.microsoft.com/library/ms633565(v=VS.85).aspx)
--   [*PropEnumProcEx*](https://msdn.microsoft.com/library/ms633566(v=VS.85).aspx)
--   [**RemoveProp**](https://msdn.microsoft.com/library/ms633567(v=VS.85).aspx)
--   [**SetProp**](https://msdn.microsoft.com/library/ms633568(v=VS.85).aspx)
+-   [**EnumProps**](/windows/win32/api/winuser/nf-winuser-enumpropsa)
+-   [**EnumPropsEx**](/windows/win32/api/winuser/nf-winuser-enumpropsexa)
+-   [**GetProp**](/windows/win32/api/winuser/nf-winuser-getpropa)
+-   [*PropEnumProc*](/windows/win32/api/winuser/nc-winuser-propenumproca)
+-   [*PropEnumProcEx*](/windows/win32/api/winuser/nc-winuser-propenumprocexa)
+-   [**RemoveProp**](/windows/win32/api/winuser/nf-winuser-removepropa)
+-   [**SetProp**](/windows/win32/api/winuser/nf-winuser-setpropa)
 
  
 
  
-
-
-

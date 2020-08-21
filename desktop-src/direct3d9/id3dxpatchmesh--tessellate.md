@@ -39,7 +39,7 @@ HRESULT Tessellate(
 *fTessLevel* \[in\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**FLOAT**](../winprog/windows-data-types.md)**
 
 Tessellation level. This is the number of vertices introduced between existing vertices. The range of this float parameter is 0 < fTessLevel <= 32.
 
@@ -85,7 +85,3 @@ This function will perform more efficiently if the patch mesh has been optimized
  
 
  
-
-
-
-

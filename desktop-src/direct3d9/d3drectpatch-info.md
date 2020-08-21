@@ -43,7 +43,7 @@ typedef struct D3DRECTPATCH_INFO {
 **StartVertexOffsetWidth**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -54,7 +54,7 @@ Starting vertex offset width, in number of vertices.
 **StartVertexOffsetHeight**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -65,7 +65,7 @@ Starting vertex offset height, in number of vertices.
 **Width**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -76,7 +76,7 @@ Width of each vertex, in number of vertices.
 **Height**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -87,7 +87,7 @@ Height of each vertex, in number of vertices.
 **Stride**
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
@@ -98,11 +98,11 @@ Width of the imaginary two-dimensional vertex array, which occupies the same spa
 **Basis**
 </dt> <dd>
 
-Type: **[**D3DBASISTYPE**](https://msdn.microsoft.com/library/Bb172507(v=VS.85).aspx)**
+Type: **[**D3DBASISTYPE**](./d3dbasistype.md)**
 
 </dd> <dd>
 
-Member of the [**D3DBASISTYPE**](https://msdn.microsoft.com/library/Bb172507(v=VS.85).aspx) enumerated type, defining the basis type for the rectangular high-order patch.
+Member of the [**D3DBASISTYPE**](./d3dbasistype.md) enumerated type, defining the basis type for the rectangular high-order patch.
 
 
 
@@ -121,11 +121,11 @@ Member of the [**D3DBASISTYPE**](https://msdn.microsoft.com/library/Bb172507(v=V
 **Degree**
 </dt> <dd>
 
-Type: **[**D3DDEGREETYPE**](https://msdn.microsoft.com/library/Bb172536(v=VS.85).aspx)**
+Type: **[**D3DDEGREETYPE**](./d3ddegreetype.md)**
 
 </dd> <dd>
 
-Member of the [**D3DDEGREETYPE**](https://msdn.microsoft.com/library/Bb172536(v=VS.85).aspx) enumerated type, defining the degree for the rectangular patch.
+Member of the [**D3DDEGREETYPE**](./d3ddegreetype.md) enumerated type, defining the degree for the rectangular patch.
 
 </dd> </dl>
 
@@ -173,7 +173,7 @@ RectInfo.StartVertexOffsetHeight = 4*i;  // The variable i is the index of the
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**DrawRectPatch**](https://msdn.microsoft.com/library/Bb174373(v=VS.85).aspx)
+[**DrawRectPatch**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawrectpatch)
 </dt> <dt>
 
 [**D3DXTessellateRectPatch**](d3dxtessellaterectpatch.md)
@@ -182,7 +182,3 @@ RectInfo.StartVertexOffsetHeight = 4*i;  // The variable i is the index of the
  
 
  
-
-
-
-

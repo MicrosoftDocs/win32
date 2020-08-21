@@ -41,7 +41,7 @@ ID3DX11EffectTechnique* GetTechniqueByName(
 *Name* 
 </dt> <dd>
 
-Type: **[**LPCSTR**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
 
 The name of the technique.
 
@@ -81,10 +81,4 @@ An effect contains one or more techniques; each technique contains one or more p
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

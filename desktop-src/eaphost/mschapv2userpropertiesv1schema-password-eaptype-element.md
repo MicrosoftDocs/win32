@@ -1,6 +1,6 @@
 ---
 title: Password (EapType) Element
-description: Identifies the password of the user or machine being authenticated.
+description: Learn about the Password (EapType) element. This element identifies the password of the user or machine being authenticated.
 ms.assetid: d3ad95b8-2d98-420f-a680-a83b49ae2992
 keywords:
 - Password element EAPHost
@@ -36,10 +36,10 @@ If the **Password (EapType)** element is not present, the password hash is obtai
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

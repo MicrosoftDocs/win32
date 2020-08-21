@@ -83,7 +83,7 @@ String that represents the name of the user.
 
 ## Remarks
 
-You can specify the name of the user to whom the [*smart card*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) is issued by calling either [**ISCrdEnr::setUserName**](iscrdenr-setusername.md) or [**ISCrdEnr::selectUserName**](iscrdenr-selectusername.md). After a user name has been specified, its value can be retrieved by calling **getUserName**.
+You can specify the name of the user to whom the [*smart card*](../secgloss/s-gly.md) is issued by calling either [**ISCrdEnr::setUserName**](iscrdenr-setusername.md) or [**ISCrdEnr::selectUserName**](iscrdenr-selectusername.md). After a user name has been specified, its value can be retrieved by calling **getUserName**.
 
 ## Requirements
 
@@ -117,7 +117,3 @@ You can specify the name of the user to whom the [*smart card*](https://msdn.mic
  
 
  
-
-
-
-

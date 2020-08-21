@@ -22,7 +22,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncAudioDualMono**](https://msdn.microsoft.com/library/Dd388765(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVEncAudioDualMono**](/windows/win32/api/codecapi/ne-codecapi-eavencaudiodualmono) enumeration.
 
 ## Remarks
 
@@ -51,9 +51,4 @@ This property does not apply to MPEG audio encoders. For MPEG audio, use the [**
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -18,7 +18,7 @@ topic_type:
 
 # DFM\_GETDEFSTATICID message
 
-Sent by the default context menu implementation during creation, specifying the default menu command and allowing an alternate choice to be made. Used by [**LPFNDFMCALLBACK**](https://msdn.microsoft.com/library/Bb776770(v=VS.85).aspx).
+Sent by the default context menu implementation during creation, specifying the default menu command and allowing an alternate choice to be made. Used by [**LPFNDFMCALLBACK**](/windows/win32/api/shlobj_core/nc-shlobj_core-lpfndfmcallback).
 
 
 ```C++
@@ -74,7 +74,3 @@ This message is sent to either the callback function or the callback object depe
  
 
  
-
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.GPS.ImgDirection Photo Metadata Policy
 
-The photo metadata policy for the [System.GPS.ImgDirection](https://msdn.microsoft.com/library/bb760535(VS.85).aspx) property.
+The photo metadata policy for the [System.GPS.ImgDirection](../properties/props-system-gps-imgdirection.md) property.
 
 ### PKEY
 
@@ -118,12 +118,9 @@ This value can be written by writing to System.GPS.ImgDirectionNumerator and Sys
 
 <dl> <dt>
 
-[System.GPS.ImgDirection](https://msdn.microsoft.com/library/bb760535(VS.85).aspx)
+[System.GPS.ImgDirection](../properties/props-system-gps-imgdirection.md)
 </dt> </dl>
 
  
 
  
-
-
-

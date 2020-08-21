@@ -13,13 +13,13 @@ Scripts can access all WMI classes for hardware and software objects. Windows Sc
 
 If you are new to scripting or to WMI-specific scripting, see the TechNet ScriptCenter section [Getting Started](https://www.microsoft.com/technet/scriptcenter/hubs/start.mspx).
 
-With the [Scripting API for WMI](scripting-api-for-wmi.md), you can develop quick, simple scripts or complex applications. Scripting gives you the same capability of getting information or of configuring most objects in an enterprise as you would have through a C++ or C# application. For more information, see [Scripting in WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-wmi-script).
+With the [Scripting API for WMI](scripting-api-for-wmi.md), you can develop quick, simple scripts or complex applications. Scripting gives you the same capability of getting information or of configuring most objects in an enterprise as you would have through a C++ or C# application. For more information, see [Scripting in WMI](/windows/desktop/WmiSdk/creating-a-wmi-script).
 
 You cannot write a [*WMI provider*](gloss-p.md) in script. For more information, see [Providing Data to WMI](providing-data-to-wmi.md).
 
 WMI scripts can be written in any scripting language that can interact with ActiveX objects.
 
-Windows PowerShell provides a simple environment for WMI administration and scripting. For more information about PowerShell, see [Getting Started with Windows PowerShell](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7).
+Windows PowerShell provides a simple environment for WMI administration and scripting. For more information about PowerShell, see [Getting Started with Windows PowerShell](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7).
 
 Active Directory Service Interfaces (ADSI) scripts provides access to Active Directory Domain Services (AD DS) objects. Both WSH and ADSI scripts access objects and allow procedures not available through batch files.
 
@@ -36,6 +36,3 @@ Active Directory Service Interfaces (ADSI) scripts provides access to Active Dir
  
 
  
-
-
-

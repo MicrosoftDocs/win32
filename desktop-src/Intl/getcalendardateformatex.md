@@ -112,7 +112,7 @@ Size, in characters, of the *lpDateStr* buffer. Alternatively, the application c
 
 Returns the number of characters written to the *lpDateStr* buffer if successful. If the *cchDate* parameter is set to 0, the function returns the number of characters required to hold the formatted date string, including the terminating null character.
 
-This function returns 0 if it does not succeed. To get extended error information, the application can call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx), which can return one of the following error codes:
+This function returns 0 if it does not succeed. To get extended error information, the application can call [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror), which can return one of the following error codes:
 
 -   ERROR\_DATE\_OUT\_OF\_RANGE. The specified date was out of range.
 -   ERROR\_INSUFFICIENT\_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to **NULL**.
@@ -123,7 +123,7 @@ This function returns 0 if it does not succeed. To get extended error informatio
 
 The earliest date supported by this function is January 1, 1601.
 
-This function does not have an associated header file or library file. The application can call [**LoadLibrary**](https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx) with the DLL name (Kernel32.dll) to obtain a module handle. It can then call [**GetProcAddress**](https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx) with that module handle and the name of this function to get the function address.
+This function does not have an associated header file or library file. The application can call [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) with the DLL name (Kernel32.dll) to obtain a module handle. It can then call [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) with that module handle and the name of this function to get the function address.
 
 ## Requirements
 
@@ -168,7 +168,3 @@ This function does not have an associated header file or library file. The appli
  
 
  
-
-
-
-

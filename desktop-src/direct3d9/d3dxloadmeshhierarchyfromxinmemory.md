@@ -45,7 +45,7 @@ HRESULT D3DXLoadMeshHierarchyFromXInMemory(
 *pMemory* \[in\]
 </dt> <dd>
 
-Type: **[**LPCVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPCVOID**](../winprog/windows-data-types.md)**
 
 Pointer to a buffer that contains the mesh hierarchy.
 
@@ -54,7 +54,7 @@ Pointer to a buffer that contains the mesh hierarchy.
 *SizeOfMemory* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Size of the pMemory buffer, in bytes.
 
@@ -63,18 +63,18 @@ Size of the pMemory buffer, in bytes.
 *MeshOptions* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Combination of one or more flags from the [**D3DXMESH**](https://msdn.microsoft.com/library/Bb205370(v=VS.85).aspx) enumeration that specify creation options for the mesh.
+Combination of one or more flags from the [**D3DXMESH**](./d3dxmesh.md) enumeration that specify creation options for the mesh.
 
 </dd> <dt>
 
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9)**
 
-Pointer to an [**IDirect3DDevice9**](https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx) interface, the device object associated with the mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) interface, the device object associated with the mesh.
 
 </dd> <dt>
 
@@ -145,7 +145,3 @@ All the meshes in the file will be collapsed into one output mesh. If the file c
  
 
  
-
-
-
-

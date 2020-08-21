@@ -41,7 +41,7 @@ HRESULT GetLocalName(
 *ppName* \[out\]
 </dt> <dd>
 
-Null-terminated string that contains the name of the file on the client. The name is fully qualified. Call the [**CoTaskMemFree**](https://msdn.microsoft.com/windows/desktop/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7) function to free *ppName* when done.
+Null-terminated string that contains the name of the file on the client. The name is fully qualified. Call the [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) function to free *ppName* when done.
 
 </dd> </dl>
 
@@ -76,10 +76,4 @@ This method returns **S_OK** on success or one of the standard COM **HRESULT** v
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

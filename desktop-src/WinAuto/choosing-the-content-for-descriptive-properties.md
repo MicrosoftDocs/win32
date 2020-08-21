@@ -19,7 +19,7 @@ While the content of some properties is specific, the content for other properti
 | [**Value**](value-property.md)                 | Information contained in the object, such as the text in an edit control or the file name of an HTML link. The contents of the [**Value**](value-property.md) property can change, whereas the contents of the [**Name**](name-property.md) property do not change. |
 | [**Description**](description-property.md)     | Describes the object's appearance.                                                                                                                                                                                                                                    |
 | [**Help**](help-property.md)                   | Tooltip or balloon-style information used either to describe what the object does or how to use it.                                                                                                                                                                   |
-| [**HelpTopic**](helptopic-property.md)         | A context identifier of a [WinHelp](https://msdn.microsoft.com/library/bb762267(VS.85).aspx) topic that documents the object.                                                                                                                                                 |
+| [**HelpTopic**](helptopic-property.md)         | A context identifier of a [WinHelp](/windows/win32/api/winuser/nf-winuser-winhelpa) topic that documents the object.                                                                                                                                                 |
 
 
 
@@ -32,7 +32,3 @@ The content of the properties for custom controls must match the content of the 
  
 
  
-
-
-
-

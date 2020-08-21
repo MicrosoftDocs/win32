@@ -8,12 +8,8 @@ ms.date: 05/31/2018
 
 # Enumerated Types
 
-The [**enum**](https://docs.microsoft.com/windows/desktop/Midl/enum) declaration is not translated into **\#define** statements as it is by some DCE compilers, but is reproduced as a C-language **enum** declaration in the generated header file.
+The [**enum**](/windows/desktop/Midl/enum) declaration is not translated into **\#define** statements as it is by some DCE compilers, but is reproduced as a C-language **enum** declaration in the generated header file.
 
  
 
  
-
-
-
-

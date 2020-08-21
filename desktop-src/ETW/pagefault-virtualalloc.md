@@ -77,7 +77,7 @@ Access type: Read-only
 Qualifiers: WmiDataId(4), Format("x")
 </dt> </dl>
 
-The type of memory allocation that was performed. For possible values, see the *flAllocationType* parameter of the [**VirtualAllocEx**](https://msdn.microsoft.com/library/Aa366890(v=VS.85).aspx) function.
+The type of memory allocation that was performed. For possible values, see the *flAllocationType* parameter of the [**VirtualAllocEx**](/windows/win32/api/memoryapi/nf-memoryapi-virtualallocex) function.
 
 </dd> <dt>
 
@@ -134,7 +134,3 @@ The size, in bytes, of the memory that was allocated or freed.
  
 
  
-
-
-
-

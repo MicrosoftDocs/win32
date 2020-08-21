@@ -42,7 +42,7 @@ interface IeAxiServiceCallback : IUnknown
 
 ## Members
 
-The **IeAxiServiceCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IeAxiServiceCallback** also has these types of members:
+The **IeAxiServiceCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IeAxiServiceCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -73,9 +73,4 @@ The **IeAxiServiceCallback** interface has these methods.
 
 
  
-
- 
-
-
-
 

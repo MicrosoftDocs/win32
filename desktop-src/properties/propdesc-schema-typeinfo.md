@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # typeInfo
 
-Specifies a property's type information. There should be only one [typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx) element for each [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx). This element has changed for Windows 7.
+Specifies a property's type information. There should be only one [typeInfo]() element for each [propertyDescription](./propdesc-schema-propertydescription.md). This element has changed for Windows 7.
 
-If there are multiple elements, the last one is used. If no [typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx) element is provided, then the default attribute settings are applied to the property description.
+If there are multiple elements, the last one is used. If no [typeInfo]() element is provided, then the default attribute settings are applied to the property description.
 
 ## Syntax for Windows 7
 
@@ -115,7 +115,7 @@ If there are multiple elements, the last one is used. If no [typeInfo](https://m
 
 | Parent Element                                                   | Child Elements |
 |------------------------------------------------------------------|----------------|
-| [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) | None           |
+| [propertyDescription](./propdesc-schema-propertydescription.md) | None           |
 
 
 
@@ -473,6 +473,3 @@ A property whose <em>isInnate</em> value is &quot;false&quot; (meaning that the 
  
 
  
-
-
-

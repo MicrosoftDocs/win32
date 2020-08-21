@@ -22,7 +22,7 @@ The following Task Scheduler changes are introduced in Windows 10.
     -   Not set to run during automatic maintenance (task doesn't use [**MaintenanceSettings**](/windows/desktop/api/Taskschd/nf-taskschd-itasksettings3-get_maintenancesettings))
     -   Is set to **Run only when user is logged on** (task [**LogonType**](/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_logontype) is **TASK\_LOGON\_INTERACTIVE\_TOKEN** or **TASK\_LOGON\_GROUP**)
 
-    All other triggers are delayed until battery saver is off. For more information about accessing battery saver status in your application, see [**SYSTEM\_POWER\_STATUS**](https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-system_power_status). For general information about battery saver, see [battery saver (in the hardware component guidelines)](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-saver).
+    All other triggers are delayed until battery saver is off. For more information about accessing battery saver status in your application, see [**SYSTEM\_POWER\_STATUS**](/windows/desktop/api/winbase/ns-winbase-system_power_status). For general information about battery saver, see [battery saver (in the hardware component guidelines)](/windows-hardware/design/component-guidelines/battery-saver).
 
 -   For security reasons, a non-administrator user cannot view nor manage a Windows Task Scheduler task that was created by another user.
 
@@ -40,7 +40,7 @@ The following Task Scheduler 2.0 changes are introduced in Windows 8:
     -   XPath query values for event triggers, through the [**ValueQueries**](taskschedulerschema-valuequeries-eventtriggertype-element.md) element.
     -   Do not allow task hard terminate, through the [**AllowHardTerminate**](taskschedulerschema-allowhardterminate-settingstype-element.md) element.
 -   Features deprecated in this release
-    -   Action: [**sendEmail**](taskschedulerschema-sendemail-actiongroup-element.md) (you can use [**IExecAction**](/windows/desktop/api/taskschd/nn-taskschd-iexecaction) with the [Windows PowerShell](https://technet.microsoft.com/library/bb978526.aspx)[Send-MailMessage](https://technet.microsoft.com/library/hh849925.aspx) cmdlet as a workaround).
+    -   Action: [**sendEmail**](taskschedulerschema-sendemail-actiongroup-element.md) (you can use [**IExecAction**](/windows/desktop/api/taskschd/nn-taskschd-iexecaction) with the [Windows PowerShell](https://technet.microsoft.com/library/bb978526.aspx)[Send-MailMessage](/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7) cmdlet as a workaround).
     -   Action: [**showMessage**](taskschedulerschema-showmessage-actiongroup-element.md).
     -   AT.exe cmdline utility
 
@@ -60,13 +60,13 @@ The following Task Scheduler 2.0 changes are introduced in Windows 7:
     -   Task security hardening support: new task security hardening feature is introduced with new IPrincipal2 interface.
     -   Introduced two new task settings with the new ITaskSettings2 interface.
 
-        -   DisallowStartOnRemoteAppSession: The new DisallowStartOnRemoteAppSession setting can reject a task start if triggered in [Remote Applications Integrated Locally (RAIL)](https://msdn.microsoft.com/library/cc239612.aspx) sessions.
+        -   DisallowStartOnRemoteAppSession: The new DisallowStartOnRemoteAppSession setting can reject a task start if triggered in [Remote Applications Integrated Locally (RAIL)](/openspecs/windows_protocols/MS-WINPROTLP/df36f95e-6a6b-48d6-a3ae-35a17674f546) sessions.
         -   UseUnifiedSchedulingEngine: Using the UseUnifiedSchedulingEngine setting provides a cohesive behavior for Windows Tasks and Services because it is being managed in a uniform manner by a common system-wide scheduling engine. Although using a unified engine is recommended, it does not support some of the Task Scheduler features. If the combination of properties will not allow running of the task under a unified engine, the registration of such will be rejected.
         -   The task features that are not supported by the unified scheduling engine include:
 
             -   Logon types:
 
-                -   [TASK\_LOGON\_INTERACTIVE\_TOKEN\_OR\_PASSWORD](https://msdn.microsoft.com/library/aa383013(VS.85).aspx)
+                -   [TASK\_LOGON\_INTERACTIVE\_TOKEN\_OR\_PASSWORD](./taskschedulerschema-logontype-principaltype-element.md)
 
             -   Multiple instance policy:
 
@@ -74,20 +74,20 @@ The following Task Scheduler 2.0 changes are introduced in Windows 7:
 
             -   Actions:
 
-                -   [Send email](https://msdn.microsoft.com/library/aa383095(VS.85).aspx)
-                -   [Display message](https://msdn.microsoft.com/library/aa383104(VS.85).aspx)
+                -   [Send email](./taskschedulerschema-sendemail-actiongroup-element.md)
+                -   [Display message](./taskschedulerschema-showmessage-actiongroup-element.md)
 
             -   Settings:
 
-                -   [Task network settings](https://msdn.microsoft.com/library/aa383050(VS.85).aspx)
-                -   [Do not allow task hard terminate](https://msdn.microsoft.com/library/aa382594(VS.85).aspx)
+                -   [Task network settings](./taskschedulerschema-networksettings-settingstype-element.md)
+                -   [Do not allow task hard terminate](./taskschedulerschema-allowhardterminate-settingstype-element.md)
 
             -   Triggers:
 
-                -   [Trigger execution time limit](https://msdn.microsoft.com/library/aa382681(VS.85).aspx)
-                -   [Repetition patterns for calendar triggers]( http://msdn.microsoft.com/en-us/library/aa383079(VS.85).aspx)
-                -   [XPath query values for event triggers]( http://msdn.microsoft.com/en-us/library/aa383289(VS.85).aspx)
-                -   [Monthly](https://msdn.microsoft.com/library/aa383091(VS.85).aspx) and [Monthly day-of-week](https://msdn.microsoft.com/library/aa383090(VS.85).aspx) trigger types
+                -   [Trigger execution time limit](./taskschedulerschema-executiontimelimit-triggerbasetype-element.md)
+                -   [Repetition patterns for calendar triggers]( ./taskschedulerschema-repetition-triggerbasetype-element.md)
+                -   [XPath query values for event triggers]( ./taskschedulerschema-valuequeries-eventtriggertype-element.md)
+                -   [Monthly](./taskschedulerschema-schedulebymonth-calendartriggertype-element.md) and [Monthly day-of-week](./taskschedulerschema-schedulebymonthdayofweek-calendartriggertype-element.md) trigger types
 
 ## Windows Vista
 
@@ -110,7 +110,3 @@ The Task Scheduler 2.0 API is not available. Use Task Scheduler 1.0.
  
 
  
-
-
-
-

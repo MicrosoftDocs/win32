@@ -167,7 +167,7 @@ Opening a stream for an item is generally a slow operation at all times. SFGAO_I
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SFGAO_PKEYSFGAOMASK"></span><span id="sfgao_pkeysfgaomask"></span><dl> <dt><strong>SFGAO_PKEYSFGAOMASK</strong></dt> <dt>0x81044000</dt> </dl></td>
-<td style="text-align: left;">Mask used by the <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-sfgaoflags">PKEY_SFGAOFlags</a> property to determine attributes that are considered to cause slow calculations or lack context: SFGAO_ISSLOW, SFGAO_READONLY, SFGAO_HASSUBFOLDER, and SFGAO_VALIDATE. Callers normally do not use this value.<br/></td>
+<td style="text-align: left;">Mask used by the <a href="/windows/desktop/properties/props-system-sfgaoflags">PKEY_SFGAOFlags</a> property to determine attributes that are considered to cause slow calculations or lack context: SFGAO_ISSLOW, SFGAO_READONLY, SFGAO_HASSUBFOLDER, and SFGAO_VALIDATE. Callers normally do not use this value.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -203,7 +203,3 @@ Opening a stream for an item is generally a slow operation at all times. SFGAO_I
  
 
  
-
-
-
-

@@ -30,7 +30,7 @@ Indicates that context-sensitive Help mode has been exited.
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *CharacterID* | Returns the ID of the clicked character as a string.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | *Name*        | Returns a string value identifying the name (ID) of the command.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| *Cause*       | Returns a value that indicates what caused the Help mode to complete. 1 The user selected a command supplied by your application.<br/> 2 The user selected the [**Commands**](https://docs.microsoft.com/windows/desktop/lwef/the-commands-collection-object) object of another client.<br/> 3 The user selected the Open Voice Commands command.<br/> 4 The user selected the Close Voice Commands command.<br/> 5 The user selected the Show *CharacterName* command.<br/> 6 The user selected the Hide *CharacterName* command.<br/> 7 The user selected (clicked) the character.<br/> |
+| *Cause*       | Returns a value that indicates what caused the Help mode to complete. 1 The user selected a command supplied by your application.<br/> 2 The user selected the [**Commands**](/windows/desktop/lwef/the-commands-collection-object) object of another client.<br/> 3 The user selected the Open Voice Commands command.<br/> 4 The user selected the Close Voice Commands command.<br/> 5 The user selected the Show *CharacterName* command.<br/> 6 The user selected the Hide *CharacterName* command.<br/> 7 The user selected (clicked) the character.<br/> |
 
 
 
@@ -54,10 +54,4 @@ This event is sent only to the client application that places the character in H
 
 
  
-
- 
-
-
-
-
 

@@ -20,19 +20,19 @@ If your DLL may be used by a multithreaded application, you should make your DLL
 
 How you specify which functions in a DLL should be exported depends on the tools that you are using for development. Some compilers allow you to export a function directly in the source code by using a modifier in the function declaration. Other times, you must specify exports in a file that you pass to the linker.
 
-For example, using Visual C++, there are two possible ways to export DLL functions: with the [**\_\_declspec(dllexport)**](https://msdn.microsoft.com/library/3y1sfaz2(v=VS.71).aspx) modifier or with a module-definition (.def) file. If you use the **\_\_declspec(dllexport)** modifier, it is not necessary to use a .def file. For more information, see [Exporting from a DLL](https://msdn.microsoft.com/library/z4zxe9k8.aspx).
+For example, using Visual C++, there are two possible ways to export DLL functions: with the [**\_\_declspec(dllexport)**](https://msdn.microsoft.com/library/3y1sfaz2(v=VS.71).aspx) modifier or with a module-definition (.def) file. If you use the **\_\_declspec(dllexport)** modifier, it is not necessary to use a .def file. For more information, see [Exporting from a DLL](/cpp/build/exporting-from-a-dll?view=vs-2019).
 
 ## Creating an Import Library
 
 An import library (.lib) file contains information the linker needs to resolve external references to exported DLL functions, so the system can locate the specified DLL and exported DLL functions at run time. You can create an import library for your DLL when you build your DLL.
 
-For more information, see [Building an Import Library and Export File](https://msdn.microsoft.com/library/0b9xe492.aspx).
+For more information, see [Building an Import Library and Export File](/cpp/build/reference/building-an-import-library-and-export-file?view=vs-2019).
 
 ## Using an Import Library
 
-For example, to call the [**CreateWindow**](https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx) function, you must link your code with the import library User32.lib. The reason is that **CreateWindow** resides in a system DLL named User32.dll, and User32.lib is the import library used to resolve the calls to exported functions in User32.dll in your code. The linker creates a table that contains the address of each function call. Calls to functions in a DLL will be fixed up when the DLL is loaded. While the system is initializing the process, it loads User32.dll because the process depends on exported functions in that DLL, and it updates the entries in the function address table. All calls to **CreateWindow** invoke the function exported from User32.dll.
+For example, to call the [**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa) function, you must link your code with the import library User32.lib. The reason is that **CreateWindow** resides in a system DLL named User32.dll, and User32.lib is the import library used to resolve the calls to exported functions in User32.dll in your code. The linker creates a table that contains the address of each function call. Calls to functions in a DLL will be fixed up when the DLL is loaded. While the system is initializing the process, it loads User32.dll because the process depends on exported functions in that DLL, and it updates the entries in the function address table. All calls to **CreateWindow** invoke the function exported from User32.dll.
 
-For information, see [Linking Implicitly with a DLL](https://msdn.microsoft.com/library/d14wsce5.aspx).
+For information, see [Linking Implicitly with a DLL](/previous-versions/d14wsce5(v=vs.140)).
 
 ## Related topics
 
@@ -41,12 +41,9 @@ For information, see [Linking Implicitly with a DLL](https://msdn.microsoft.com/
 [Creating a Simple Dynamic-link Library](creating-a-simple-dynamic-link-library.md)
 </dt> <dt>
 
-[DLLs (Visual C++)](https://msdn.microsoft.com/library/1ez7dh12.aspx)
+[DLLs (Visual C++)](/cpp/build/dlls-in-visual-cpp?view=vs-2019)
 </dt> </dl>
 
  
 
  
-
-
-

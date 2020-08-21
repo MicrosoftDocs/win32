@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
-When the server notifies the input-active client with [**IAgentNotifySink::Command**](iagentnotifysink--command.md), it returns information through the [**IAgentUserInput**](https://docs.microsoft.com/windows/desktop/lwef/iagentuserinput) object. **IAgentUserInput** defines an interface that allows applications to query these values.
+When the server notifies the input-active client with [**IAgentNotifySink::Command**](iagentnotifysink--command.md), it returns information through the [**IAgentUserInput**](/windows/desktop/lwef/iagentuserinput) object. **IAgentUserInput** defines an interface that allows applications to query these values.
 
 **Methods in Vtable Order**
 
@@ -31,7 +31,3 @@ When the server notifies the input-active client with [**IAgentNotifySink::Comma
  
 
  
-
-
-
-

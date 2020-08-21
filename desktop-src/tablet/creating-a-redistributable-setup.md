@@ -71,14 +71,9 @@ Mstpcrt.msm is added to your Setup project and appears in the Solution Explorer 
 Windows Installer adds the files contained in the merge module to the Program Files folder. To use these files, end users must be logged on with an account that has access to the Program Files folder.
 
 > [!Note]  
-> You must add [SelfRegModules Action](https://msdn.microsoft.com/library/Aa371607(v=VS.85).aspx) and [SelfUnregModules Action](https://msdn.microsoft.com/library/Aa371610(v=VS.85).aspx) actions to the installation sequence. The [MsiPublishAssemblies Action](https://msdn.microsoft.com/library/Aa370359(v=VS.85).aspx) and [MsiUnpublishAssemblies Action](https://docs.microsoft.com/windows/desktop/Msi/msiunpublishassemblies-action) actions receive their order in the installation sequence from these actions.
+> You must add [SelfRegModules Action](../msi/selfregmodules-action.md) and [SelfUnregModules Action](../msi/selfunregmodules-action.md) actions to the installation sequence. The [MsiPublishAssemblies Action](../msi/msipublishassemblies-action.md) and [MsiUnpublishAssemblies Action](/windows/desktop/Msi/msiunpublishassemblies-action) actions receive their order in the installation sequence from these actions.
 
  
 
  
-
- 
-
-
-
 

@@ -22,7 +22,7 @@ These tasks are discussed in the sections in the remainder of this topic.
 
 ## Display the Picture Stored in an Enhanced Metafile
 
-You can display the picture stored in an enhanced metafile using the [**PlayEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-playenhmetafile) function. Pass the function a handle to the enhanced metafile, without being concerned with the format of the enhanced metafile records. However, it is sometimes desirable to enumerate the records in the enhanced metafile to search for a particular GDI function and modify the parameters of the function in some manner. To do this, you can use [**EnumEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-enumenhmetafile) and provide a callback function, [**EnhMetaFileProc**](https://msdn.microsoft.com/library/Dd162606(v=VS.85).aspx), to process the enhanced metafile records. To modify the parameters for an enhanced metafile record, you must know the format of the parameters within the record.
+You can display the picture stored in an enhanced metafile using the [**PlayEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-playenhmetafile) function. Pass the function a handle to the enhanced metafile, without being concerned with the format of the enhanced metafile records. However, it is sometimes desirable to enumerate the records in the enhanced metafile to search for a particular GDI function and modify the parameters of the function in some manner. To do this, you can use [**EnumEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-enumenhmetafile) and provide a callback function, [**EnhMetaFileProc**](/windows/win32/api/wingdi/nc-wingdi-enhmfenumproc), to process the enhanced metafile records. To modify the parameters for an enhanced metafile record, you must know the format of the parameters within the record.
 
 ## Create Copies of an Enhanced Metafile
 
@@ -32,7 +32,7 @@ To create a memory-based enhanced-format metafile, call the [**SetEnhMetaFileBit
 
 ## Edit an Enhanced Metafile
 
-Most drawing, illustration, and computer-aided design (CAD) applications require a means of editing a picture stored in an enhanced metafile. Although editing an enhanced metafile is a complex task, you can use the [**EnumEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-enumenhmetafile) function in combination with other functions to provide this capability in your application. The **EnumEnhMetaFile** function and its associated callback function, [**EnhMetaFileProc**](https://msdn.microsoft.com/library/Dd162606(v=VS.85).aspx), enable the application to process individual records in an enhanced metafile.
+Most drawing, illustration, and computer-aided design (CAD) applications require a means of editing a picture stored in an enhanced metafile. Although editing an enhanced metafile is a complex task, you can use the [**EnumEnhMetaFile**](/windows/desktop/api/Wingdi/nf-wingdi-enumenhmetafile) function in combination with other functions to provide this capability in your application. The **EnumEnhMetaFile** function and its associated callback function, [**EnhMetaFileProc**](/windows/win32/api/wingdi/nc-wingdi-enhmfenumproc), enable the application to process individual records in an enhanced metafile.
 
 ## Retrieve the Optional Description Stored in an Enhanced Metafile
 
@@ -49,6 +49,3 @@ To achieve consistent colors when a picture is displayed on various output devic
  
 
  
-
-
-

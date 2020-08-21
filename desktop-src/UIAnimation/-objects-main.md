@@ -16,13 +16,13 @@ Reference documentation for objects defined by the Windows Animation Manager.
 
 | Topic                                                                             | Description                                                                                                                                                                  |
 |-----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**UIAnimationManager**](https://msdn.microsoft.com/library/Dd317019(v=VS.85).aspx)<br/>                       | Implements the [**IUIAnimationManager**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationmanager) and [**IUIAnimationTimerUpdateHandler**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtimerupdatehandler) interfaces. <br/>       |
-| [**UIAnimationManager2**](https://msdn.microsoft.com/library/Hh448665(v=VS.85).aspx)<br/>                     | Implements the [**IUIAnimationManager2**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationmanager) and [**IUIAnimationTimerUpdateHandler**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtimerupdatehandler) interfaces. <br/>      |
-| [**UIAnimationTimer**](https://msdn.microsoft.com/library/Dd317021(v=VS.85).aspx)<br/>                           | Implements the [**IUIAnimationTimer**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtimer) and [**IUIAnimationTimerClientEventHandler**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtimerclienteventhandler) interfaces. <br/> |
-| [**UIAnimationTransitionFactory**](https://msdn.microsoft.com/library/Dd317024(v=VS.85).aspx)<br/>   | Implements the [**IUIAnimationTransitionFactory**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransitionfactory) interface. <br/>                                                                 |
-| [**UIAnimationTransitionFactory2**](https://msdn.microsoft.com/library/Hh448667(v=VS.85).aspx)<br/> | Implements the [**IUIAnimationTransitionFactory2**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransitionfactory2) interface. <br/>                                                               |
-| [**UIAnimationTransitionLibrary**](https://msdn.microsoft.com/library/Dd317028(v=VS.85).aspx)<br/>   | Implements the [**IUIAnimationTransitionLibrary**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransitionlibrary) interface.<br/>                                                                  |
-| [**UIAnimationTransitionLibrary2**](https://msdn.microsoft.com/library/Hh448668(v=VS.85).aspx)<br/> | Implements the [**IUIAnimationTransitionLibrary2**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransitionlibrary2) interface.<br/>                                                                |
+| [**UIAnimationManager**](/previous-versions/windows/desktop/legacy/dd317019(v=vs.85))<br/>                       | Implements the [**IUIAnimationManager**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationmanager) and [**IUIAnimationTimerUpdateHandler**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtimerupdatehandler) interfaces. <br/>       |
+| [**UIAnimationManager2**](/previous-versions/windows/desktop/legacy/hh448665(v=vs.85))<br/>                     | Implements the [**IUIAnimationManager2**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationmanager) and [**IUIAnimationTimerUpdateHandler**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtimerupdatehandler) interfaces. <br/>      |
+| [**UIAnimationTimer**](/previous-versions/windows/desktop/legacy/dd317021(v=vs.85))<br/>                           | Implements the [**IUIAnimationTimer**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtimer) and [**IUIAnimationTimerClientEventHandler**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtimerclienteventhandler) interfaces. <br/> |
+| [**UIAnimationTransitionFactory**](/previous-versions/windows/desktop/legacy/dd317024(v=vs.85))<br/>   | Implements the [**IUIAnimationTransitionFactory**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransitionfactory) interface. <br/>                                                                 |
+| [**UIAnimationTransitionFactory2**](/previous-versions/windows/desktop/legacy/hh448667(v=vs.85))<br/> | Implements the [**IUIAnimationTransitionFactory2**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransitionfactory2) interface. <br/>                                                               |
+| [**UIAnimationTransitionLibrary**](/previous-versions/windows/desktop/legacy/dd317028(v=vs.85))<br/>   | Implements the [**IUIAnimationTransitionLibrary**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransitionlibrary) interface.<br/>                                                                  |
+| [**UIAnimationTransitionLibrary2**](/previous-versions/windows/desktop/legacy/hh448668(v=vs.85))<br/> | Implements the [**IUIAnimationTransitionLibrary2**](/windows/desktop/api/UIAnimation/nn-uianimation-iuianimationtransitionlibrary2) interface.<br/>                                                                |
 
 
 
@@ -36,10 +36,4 @@ Reference documentation for objects defined by the Windows Animation Manager.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

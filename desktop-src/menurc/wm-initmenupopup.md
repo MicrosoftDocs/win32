@@ -70,10 +70,10 @@ If an application processes this message, it should return zero.
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 </dt> <dt>
 
-[**LOWORD**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
 [**WM\_INITMENU**](wm-initmenu.md)
@@ -86,10 +86,4 @@ If an application processes this message, it should return zero.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

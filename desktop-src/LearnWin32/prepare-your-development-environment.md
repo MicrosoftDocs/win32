@@ -15,7 +15,7 @@ Each release of the Windows SDK targets the latest version of Windows as well as
 The Windows SDK supports development of both 32-bit and 64-bit applications. The Windows APIs are designed so that the same code can compile for 32-bit or 64-bit without changes.
 
 > [!Note]  
-> The Windows SDK does not support hardware driver development, and this series will not discuss driver development. For information about writing a hardware driver, see [Getting Started with Windows Drivers](https://docs.microsoft.com/windows-hardware/drivers/gettingstarted/).
+> The Windows SDK does not support hardware driver development, and this series will not discuss driver development. For information about writing a hardware driver, see [Getting Started with Windows Drivers](/windows-hardware/drivers/gettingstarted/).
 
 ## Next
 

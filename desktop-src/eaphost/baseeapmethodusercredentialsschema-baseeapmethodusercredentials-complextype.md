@@ -1,6 +1,6 @@
 ---
 title: BaseEapMethodUserCredentials Complex Type
-description: Is a placeholder element for method credential data.
+description: Learn about the BaseEapMethodUserCredentials complex type. This type is a placeholder element for method credential data.
 ms.assetid: ebbf813d-657a-4ff2-acf2-c18ce694b564
 keywords:
 - BaseEapMethodUserCredentials complex type EAPHost
@@ -41,10 +41,10 @@ The EAP method performs schema validation on the contents of **BaseEapMethodUser
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

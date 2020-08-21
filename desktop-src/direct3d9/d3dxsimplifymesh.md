@@ -53,7 +53,7 @@ Pointer to an [**ID3DXMesh**](id3dxmesh.md) interface, representing the source m
 *pAdjacency* \[in\]
 </dt> <dd>
 
-Type: **const [**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of three DWORDs per face that specify the three neighbors for each face in the mesh to be simplified.
 
@@ -71,7 +71,7 @@ Pointer to a [**D3DXATTRIBUTEWEIGHTS**](d3dxattributeweights.md) structure, cont
 *pVertexWeights* \[in\]
 </dt> <dd>
 
-Type: **const [**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **const [**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to an array of vertex weights. If this parameter is set to **NULL**, all vertex weights are set to 1.0.
 
@@ -80,7 +80,7 @@ Pointer to an array of vertex weights. If this parameter is set to **NULL**, all
 *MinValue* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Number of vertices or faces, depending on the flag set in the *Options* parameter, by which to simplify the source mesh.
 
@@ -89,9 +89,9 @@ Number of vertices or faces, depending on the flag set in the *Options* paramete
 *Options* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
-Specifies simplification options for the mesh. One of the flags in [**D3DXMESHSIMP**](https://msdn.microsoft.com/library/Bb205375(v=VS.85).aspx) can be set.
+Specifies simplification options for the mesh. One of the flags in [**D3DXMESHSIMP**](./d3dxmeshsimp.md) can be set.
 
 </dd> <dt>
 
@@ -155,7 +155,3 @@ This default structure is what most applications should use because it considers
  
 
  
-
-
-
-

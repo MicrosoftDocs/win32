@@ -26,7 +26,7 @@ Request to start debugging a shader. This request contains two parts: generate a
 
 ## Members
 
-The **IDebugShaderRequest2** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDebugShaderRequest2** also has these types of members:
+The **IDebugShaderRequest2** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IDebugShaderRequest2** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IDebugShaderRequest2** interface has these methods.
  
 
  
-
-
-

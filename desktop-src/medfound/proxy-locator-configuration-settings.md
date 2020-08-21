@@ -30,7 +30,7 @@ The proxy locator can be configured to operate in three modes: *manual mode*, *a
 
     -   List of media server addresses that do not require a proxy server to establish a connection: [**MFNETSOURCE\_PROXYEXCEPTIONLIST**](mfnetsource-proxyexceptionlist-property.md) property. This setting is optional.
 
--   Auto-Detect Mode. The application sets this mode by setting the [**MFNETSOURCE\_PROXYSETTING**](mfnetsource-proxysettings-property.md) property to **MFNET\_PROXYSETTING\_AUTO**. In this mode, the proxy locator uses the WinHTTP AutoProxy mechanism to get the hostname and the port number for the proxy server. This connection information is retrieved by using the WPAD auto proxy script, which is configured by the domain administrator. For more information about this mechanism, see the [Microsoft website](https://msdn2.microsoft.com/library/aa384240.aspx).
+-   Auto-Detect Mode. The application sets this mode by setting the [**MFNETSOURCE\_PROXYSETTING**](mfnetsource-proxysettings-property.md) property to **MFNET\_PROXYSETTING\_AUTO**. In this mode, the proxy locator uses the WinHTTP AutoProxy mechanism to get the hostname and the port number for the proxy server. This connection information is retrieved by using the WPAD auto proxy script, which is configured by the domain administrator. For more information about this mechanism, see the [Microsoft website](../winhttp/winhttp-autoproxy-support.md).
 
     The proxy locator caches the connection information in the registry. In subsequent proxy detection calls, the proxy locator reads proxy information from the registry cache to reduce the overhead involved in auto detection. However, the application can force auto proxy redetection by setting the [**MFNETSOURCE\_PROXYRERUNAUTODETECTION**](mfnetsource-proxyrerunautodetection-property.md) property.
 
@@ -46,6 +46,3 @@ The proxy locator can be configured to operate in three modes: *manual mode*, *a
  
 
  
-
-
-

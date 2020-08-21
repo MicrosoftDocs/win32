@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This topic contains example code that shows how a Microsoft UI Automation provider returns properties of a UI element to client applications.
 
-To retrieve a property value from the provider, UI Automation calls a provider's implementation of the [**IRawElementProviderSimple::GetPropertyValue**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementprovidersimple-getpropertyvalue) method, passing the ID of the property to retrieve, and a pointer to a [**VARIANT**](https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-variant) structure. If the provider supports the specified property, it copies the data type and value of the property into the **VARIANT** structure. If the property is not supported, the provider sets the **vt** member of the **VARIANT** structure to VT\_EMPTY.
+To retrieve a property value from the provider, UI Automation calls a provider's implementation of the [**IRawElementProviderSimple::GetPropertyValue**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementprovidersimple-getpropertyvalue) method, passing the ID of the property to retrieve, and a pointer to a [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) structure. If the provider supports the specified property, it copies the data type and value of the property into the **VARIANT** structure. If the property is not supported, the provider sets the **vt** member of the **VARIANT** structure to VT\_EMPTY.
 
 
 ```C++
@@ -75,7 +75,3 @@ IFACEMETHODIMP Provider::GetPropertyValue(PROPERTYID propertyId, VARIANT* pRetVa
  
 
  
-
-
-
-

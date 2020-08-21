@@ -48,7 +48,7 @@ Unique identifier to a parameter. See [Handles (Direct3D 9)](handles.md).
 *Literal* \[in\]
 </dt> <dd>
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Set to **TRUE** to make the parameter a literal, and **FALSE** if the parameter can change value during the shader lifetime.
 
@@ -122,7 +122,3 @@ This function must be called before the effect is compiled. Here is an example o
  
 
  
-
-
-
-

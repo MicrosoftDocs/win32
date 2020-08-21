@@ -52,7 +52,7 @@ Name of file to load.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function to validate the members.
 
 ## Requirements
 
@@ -79,14 +79,8 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_LOAD**](mci-load.md)
 </dt> <dt>
 
-[**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx)
+[**mciSendCommand**](/previous-versions//dd757160(v=vs.85))
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

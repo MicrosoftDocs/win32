@@ -18,8 +18,8 @@ The following structures are used with enhanced-format metafiles.
 [**ENHMETAHEADER**](/windows/win32/api/wingdi/ns-wingdi-enhmetaheader)  
 [**ENHMETARECORD**](/windows/win32/api/wingdi/ns-wingdi-enhmetarecord)  
 [**HANDLETABLE**](/windows/win32/api/wingdi/ns-wingdi-handletable)  
-[**POINTL**](https://msdn.microsoft.com/library/Dd162807(v=VS.85).aspx)  
-[**RECTL**](https://msdn.microsoft.com/library/Dd162907(v=VS.85).aspx)  
+[**POINTL**](/previous-versions//dd162807(v=vs.85))  
+[**RECTL**](/previous-versions//dd162907(v=vs.85))  
 </dl> 
 
 Note that the [**EMR**](/windows/win32/api/wingdi/ns-wingdi-emr) structure is used as the first member of the remaining structures.  
@@ -148,6 +148,3 @@ The following structures are obsolete. The are provided for compatibility with W
  
 
  
-
-
-

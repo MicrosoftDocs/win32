@@ -9,9 +9,9 @@ ms.date: 05/31/2018
 
 # Detecting Whether the Remote Desktop Services Role Is Installed
 
-You can use the [**Win32\_ServerFeature**](https://docs.microsoft.com/windows/desktop/WmiSdk/win32-serverfeature) WMI class to detect whether the Remote Desktop Services server role is installed.
+You can use the [**Win32\_ServerFeature**](/windows/desktop/WmiSdk/win32-serverfeature) WMI class to detect whether the Remote Desktop Services server role is installed.
 
-The following C# example shows a method that returns **True** if the Remote Desktop Services server role is installed and running or **false** otherwise. Because the [**Win32\_ServerFeature**](https://docs.microsoft.com/windows/desktop/WmiSdk/win32-serverfeature) WMI class is only available beginning with Windows Server 2008, this code is not compatible with earlier versions of Windows.
+The following C# example shows a method that returns **True** if the Remote Desktop Services server role is installed and running or **false** otherwise. Because the [**Win32\_ServerFeature**](/windows/desktop/WmiSdk/win32-serverfeature) WMI class is only available beginning with Windows Server 2008, this code is not compatible with earlier versions of Windows.
 
 
 ```CSharp
@@ -52,7 +52,3 @@ static bool HasServerFeatureById(UInt32 roleId)
  
 
  
-
-
-
-

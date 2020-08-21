@@ -22,7 +22,7 @@ An ALE flow has an associated direction, which is the direction of the first pac
 
 An ALE flow for TCP traffic is identified by the five-tuple of TCP/IP (Source IP Address, Destination IP Address, Source Port, Destination Port, and Protocol).
 
-A TCP ALE flow has the same lifetime as a connected TCP socket. A connected TCP socket could be either a socket created using [**connect()**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect) or a socket created as a result of an [**accept()**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept) call.
+A TCP ALE flow has the same lifetime as a connected TCP socket. A connected TCP socket could be either a socket created using [**connect()**](/windows/desktop/api/winsock2/nf-winsock2-connect) or a socket created as a result of an [**accept()**](/windows/desktop/api/winsock2/nf-winsock2-accept) call.
 
 ALE maintains a one-to-one relationship between a TCP ALE flow and a TCP Control Block (TCB).
 
@@ -76,13 +76,9 @@ Only ICMP non-error messages are indicated to ALE layers. ICMP error messages ca
 [UDP Packet Flows](udp-packet-flows.md)
 </dt> <dt>
 
-[Winsock Functions](https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions)
+[Winsock Functions](/windows/desktop/WinSock/winsock-functions)
 </dt> </dl>
 
  
 
  
-
-
-
-

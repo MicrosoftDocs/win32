@@ -8,7 +8,7 @@ ms.topic: reference
 
 # RectF.Contains methods
 
-This topic lists the Contains methods of the [**RectF**](https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx) class. For a complete list of methods for the **RectF** class, see [RectF Methods](-gdiplus-class-rectf-methods.md).
+This topic lists the Contains methods of the [**RectF**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-rectf) class. For a complete list of methods for the **RectF** class, see [RectF Methods](-gdiplus-class-rectf-methods.md).
 
 ### Overload list
 
@@ -16,16 +16,12 @@ This topic lists the Contains methods of the [**RectF**](https://msdn.microsoft.
 
 | Method                                                            | Description                                                                                                                                           |
 |:------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Contains(RectF&)**](https://msdn.microsoft.com/library/ms534954(v=VS.85).aspx)   | The [**RectF::Contains**](https://msdn.microsoft.com/library/ms534954(v=VS.85).aspx) method determines whether another rectangle is inside this rectangle.<br/>   |
-| [**Contains(PointF&)**](https://msdn.microsoft.com/library/ms534955(v=VS.85).aspx)    | The [**RectF::Contains**](https://msdn.microsoft.com/library/ms534955(v=VS.85).aspx) method determines whether a point is inside this rectangle.<br/>               |
-| [**Contains(REAL,REAL)**](https://msdn.microsoft.com/library/ms534956(v=VS.85).aspx) | The [**RectF::Contains**](https://msdn.microsoft.com/library/ms534956(v=VS.85).aspx) method determines whether the point (*x*, *y*) is inside this rectangle.<br/> |
+| [**Contains(RectF&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-contains(inconstrectf_))   | The [**RectF::Contains**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-contains(inconstrectf_)) method determines whether another rectangle is inside this rectangle.<br/>   |
+| [**Contains(PointF&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-contains(inconstpointf_))    | The [**RectF::Contains**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-contains(inconstpointf_)) method determines whether a point is inside this rectangle.<br/>               |
+| [**Contains(REAL,REAL)**](/previous-versions//ms534956(v=vs.85)) | The [**RectF::Contains**](/previous-versions//ms534956(v=vs.85)) method determines whether the point (*x*, *y*) is inside this rectangle.<br/> |
 
 
 
  
 
  
-
-
-
-

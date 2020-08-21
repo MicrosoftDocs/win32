@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # WinNT Custom User Properties
 
-The WinNT provider makes available the following custom properties for the User class. They may be accessed through the [**IADs.Get**](/windows/desktop/api/Iads/nf-iads-iads-get) and [**IADs.Put**](/windows/desktop/api/Iads/nf-iads-iads-put) methods. For more information, see the [**USER\_INFO\_3**](https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3) structure.
+The WinNT provider makes available the following custom properties for the User class. They may be accessed through the [**IADs.Get**](/windows/desktop/api/Iads/nf-iads-iads-get) and [**IADs.Put**](/windows/desktop/api/Iads/nf-iads-iads-put) methods. For more information, see the [**USER\_INFO\_3**](/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3) structure.
 
 
 
@@ -78,7 +78,3 @@ grpPrimaryID = usr.Get("PrimaryGroupID")
  
 
  
-
-
-
-

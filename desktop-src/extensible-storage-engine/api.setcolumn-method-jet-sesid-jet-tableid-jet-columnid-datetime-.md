@@ -80,7 +80,7 @@ public static void SetColumn(
 <!-- end list -->
 
   - data  
-    Type: [System.DateTime](https://docs.microsoft.com/dotnet/api/system.datetime?redirectedfrom=MSDN)  
+    Type: [System.DateTime](/dotnet/api/system.datetime)  
     
     The data to set.
 
@@ -95,4 +95,3 @@ public static void SetColumn(
 [SetColumn overload](dn334079\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

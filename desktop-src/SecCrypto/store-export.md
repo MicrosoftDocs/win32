@@ -17,9 +17,9 @@ api_location:
 
 # Store.Export method
 
-\[The **Export** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](https://msdn.microsoft.com/library/Hh424027(v=MSDN.10).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace.\]
+\[The **Export** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](/previous-versions/windows/embedded/hh424027(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
 
-The **Export** method copies the contents of an open [*certificate store*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) to an encoded string.
+The **Export** method copies the contents of an open [*certificate store*](../secgloss/c-gly.md) to an encoded string.
 
 ## Syntax
 
@@ -102,7 +102,3 @@ This method returns a string that contains the certificates in the store in the 
  
 
  
-
-
-
-

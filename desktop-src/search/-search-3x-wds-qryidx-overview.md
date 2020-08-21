@@ -19,17 +19,17 @@ This section provides the conceptual framework for querying the index programmat
 -   [Using Advanced Query Syntax Programmatically](-search-3x-advancedquerysyntax.md)
 
 > [!Note]  
-> Legacy Microsoft Windows Desktop Search (WDS) 2x compatibility: On computers running Windows XP and later, [**ISearchDesktop**](https://msdn.microsoft.com/library/Aa965729(v=VS.85).aspx) is deprecated. Instead, developers should use [**ISearchQueryHelper**](/windows/win32/api/Searchapi/nn-searchapi-isearchqueryhelper) to get a connection string and to parse the user's query into Structured Query Language (SQL), and then query through Object Linking and Embedding Database (OLE DB).
+> Legacy Microsoft Windows Desktop Search (WDS) 2x compatibility: On computers running Windows XP and later, [**ISearchDesktop**](/previous-versions//aa965729(v=vs.85)) is deprecated. Instead, developers should use [**ISearchQueryHelper**](/windows/win32/api/Searchapi/nn-searchapi-isearchqueryhelper) to get a connection string and to parse the user's query into Structured Query Language (SQL), and then query through Object Linking and Embedding Database (OLE DB).
 
  
 
 ## Additional Resources
 
--   For information on OLE DB, see [OLE DB Programming Overview](https://msdn.microsoft.com/library/Cc522830(v=VS.71).aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](https://msdn.microsoft.com/library/system.data.oledb(VS.71).aspx).
+-   For information on OLE DB, see [OLE DB Programming Overview](https://msdn.microsoft.com/library/Cc522830(v=VS.71).aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](/dotnet/api/system.data.oledb?view=dotnet-plat-ext-3.1).
 -   For additional background on using properties in querying, see the following topics:
-    -   [Property System](https://msdn.microsoft.com/library/Cc144125(v=VS.85).aspx)
+    -   [Property System](../properties/building-property-handlers.md)
     -   [System Properties](https://msdn.microsoft.com/library/bb763010(VS.85).aspx)
--   For information on how to create and modify search folders, see [**ISearchFolderItemFactory Interface**](https://msdn.microsoft.com/library/Bb775176(v=VS.85).aspx).
+-   For information on how to create and modify search folders, see [**ISearchFolderItemFactory Interface**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory).
 -   For community-supported question and discussion message boards on Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://social.msdn.microsoft.com/Forums/en-US/windowsdesktopsearchdevelopment/threads).
 -   To download the Search SDK Code Samples:
     -   For Windows 7: [Windows Search Samples on GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch)
@@ -57,6 +57,3 @@ This section provides the conceptual framework for querying the index programmat
  
 
  
-
-
-

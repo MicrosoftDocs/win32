@@ -22,7 +22,7 @@ Provides access to all of the tablets attached to the computer.
 
 ## Members
 
-The **ITabletManager** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITabletManager** also has these types of members:
+The **ITabletManager** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITabletManager** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -34,7 +34,7 @@ The **ITabletManager** interface has these methods.
 
 | Method                                                  | Description                                                        |
 |:--------------------------------------------------------|:-------------------------------------------------------------------|
-| [**GetTablet**](https://msdn.microsoft.com/library/Aa373683(v=VS.85).aspx)           | Retrieves the specified tablet object.<br/>                  |
+| [**GetTablet**](/previous-versions/windows/desktop/legacy/aa373683(v=vs.85))           | Retrieves the specified tablet object.<br/>                  |
 | [**GetTabletCount**](itabletmanager-gettabletcount.md) | Retrieves the number of tablets attached to the system.<br/> |
 
 
@@ -77,7 +77,7 @@ interface ITabletManager : IUnknown
         
 ```
 
-Call [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) with a class ID of CLSID\_TabletManagerS, and then call [**QueryInterface**](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) to get a pointer to the **ITabletManager Interface**. The CLSID\_TabletManagerS GUID is defined as follows:
+Call [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) with a class ID of CLSID\_TabletManagerS, and then call [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) to get a pointer to the **ITabletManager Interface**. The CLSID\_TabletManagerS GUID is defined as follows:
 
 ``` syntax
 #define CLSID_TabletManagerS uuid(A5B020FD-E04B-4e67-B65A-E7DEED25B2CF)
@@ -96,9 +96,4 @@ Call [**CoCreateInstance**](https://docs.microsoft.com/windows/desktop/api/comba
 
 
  
-
- 
-
-
-
 

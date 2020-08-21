@@ -47,13 +47,9 @@ EDITTEXT  3, 10, 10, 100, 10
 
 <dl> <dt>
 
-[Edit Controls](https://msdn.microsoft.com/library/Bb775456(v=VS.85).aspx)
+[Edit Controls](../controls/about-edit-controls.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

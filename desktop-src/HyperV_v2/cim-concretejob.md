@@ -75,7 +75,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("InstanceID")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("InstanceID")
 </dt> </dl>
 
 Uniquely and opaquely identifies an instance of this class within the scope of the containing namespace.
@@ -255,7 +255,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Required**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Name")
+Qualifiers: [**Required**](/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Name")
 </dt> </dl>
 
 The user-friendly name of the instance. In addition, the user-friendly name can be used as a property for a search or query.
@@ -276,7 +276,7 @@ Data type: **datetime**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**Required**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Required**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Indicates how long a completed job is retained. The default value is "00000000000500.000000:000" (five minutes).
@@ -323,9 +323,4 @@ The date or time when the state of the job last changed.
 </dt> </dl>
 
  
-
- 
-
-
-
 

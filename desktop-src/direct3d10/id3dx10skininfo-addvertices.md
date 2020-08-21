@@ -38,7 +38,7 @@ HRESULT AddVertices(
 *Count* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of vertices to add.
 
@@ -74,7 +74,3 @@ If this method succeeds, the return value is S\_OK. If the method fails, the ret
  
 
  
-
-
-
-

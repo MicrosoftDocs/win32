@@ -1,6 +1,6 @@
 ---
 title: FastReconnect (EapType) Element
-description: Indicates whether to perform a fast reconnect.
+description: Learn about the FastReconnect (EapType) element. This element indicates whether to perform a fast reconnect.
 ms.assetid: 075285b0-7b1b-4d3c-af27-a718f3c20394
 keywords:
 - FastReconnect element EAPHost
@@ -36,10 +36,10 @@ If the **FastReconnect** element is TRUE, then PEAP attempts to perform a fast r
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

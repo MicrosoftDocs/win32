@@ -84,7 +84,7 @@ typedef struct _PITCHER_RECORD_TYPE
 [**arrays**](arrays-1.md)
 </dt> <dt>
 
-[Arrays and Pointers](https://docs.microsoft.com/windows/desktop/Rpc/arrays-and-pointers)
+[Arrays and Pointers](/windows/desktop/Rpc/arrays-and-pointers)
 </dt> <dt>
 
 [Array and Sized-Pointer Attributes](array-and-sized-pointer-attributes.md)
@@ -147,7 +147,3 @@ typedef struct _PITCHER_RECORD_TYPE
  
 
  
-
-
-
-

@@ -22,7 +22,7 @@ Applications use the methods of the ID3DXMATRIXStack interface to manipulate a m
 
 ## Members
 
-The **ID3DXMatrixStack** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **ID3DXMatrixStack** also has these types of members:
+The **ID3DXMatrixStack** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **ID3DXMatrixStack** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -89,7 +89,3 @@ typedef interface ID3DXMatrixStack *LPD3DXMATRIXSTACK;
  
 
  
-
-
-
-

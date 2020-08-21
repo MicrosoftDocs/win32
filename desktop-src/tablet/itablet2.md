@@ -22,7 +22,7 @@ Extends the [**ITablet Interface**](itablet.md).
 
 ## Members
 
-The **ITablet2** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITablet2** also has these types of members:
+The **ITablet2** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITablet2** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -75,9 +75,4 @@ interface ITablet2 : IUnknown
 
 
  
-
- 
-
-
-
 

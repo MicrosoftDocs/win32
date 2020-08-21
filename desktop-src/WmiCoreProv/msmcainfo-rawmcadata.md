@@ -84,7 +84,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers)
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/standard-qualifiers)
 </dt> </dl>
 
 Unique identifier of this instance of the class.
@@ -133,9 +133,4 @@ The **MSMCAInfo\_RawMCAData** class is derived from [**MSMCAInfo**](msmcainfo.md
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -50,7 +50,7 @@ A handle to an open registry key in an offline registry hive.
 *lpSubKey* \[in\]
 </dt> <dd>
 
-A pointer to a Unicode string that contains the name of a subkey that this function opens or creates. The *lpSubKey* parameter must specify a subkey of the key identified by the *Handle* parameter; it can be up to 32 levels deep in the registry tree. For more information about key names, see [Structure of the Registry](https://msdn.microsoft.com/library/ms724946.aspx).
+A pointer to a Unicode string that contains the name of a subkey that this function opens or creates. The *lpSubKey* parameter must specify a subkey of the key identified by the *Handle* parameter; it can be up to 32 levels deep in the registry tree. For more information about key names, see [Structure of the Registry](../sysinfo/structure-of-the-registry.md).
 
 This parameter cannot be **NULL**.
 
@@ -86,7 +86,7 @@ This parameter can be 0 or one of the following values.
 *pSecurityDescriptor* \[in, optional\]
 </dt> <dd>
 
-A pointer to a [SECURITY\_DESCRIPTOR](https://msdn.microsoft.com/library/aa379561.aspx) structure that contains a security descriptor for the new key. If *pSecurityDescriptor* is **NULL**, the key gets a default security descriptor. The ACLs in a default security descriptor for a key are inherited from its direct parent key.
+A pointer to a [SECURITY\_DESCRIPTOR](/windows/win32/api/winnt/ns-winnt-security_descriptor) structure that contains a security descriptor for the new key. If *pSecurityDescriptor* is **NULL**, the key gets a default security descriptor. The ACLs in a default security descriptor for a key are inherited from its direct parent key.
 
 </dd> <dt>
 
@@ -121,7 +121,7 @@ If *pdwDisposition* is **NULL**, no disposition information is returned.
 
 If the function succeeds, the return value is ERROR\_SUCCESS.
 
-If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](https://msdn.microsoft.com/library/ms679351.aspx) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
+If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) function with the FORMAT\_MESSAGE\_FROM\_SYSTEM flag to get a generic description of the error.
 
 If the *dwOptions* parameter is set with **REG\_OPTION\_CREATE\_LINK** but **REG\_OPTION\_NON\_VOLATILE** is clear, or if the handle to be returned would be a handle to the root key of the hive, the function returns ERROR\_INVALID\_PARAMETER.
 
@@ -161,13 +161,9 @@ The offline registry does not support saving individual keys. Use the [**ORSaveH
 [**ORSaveHive**](orsavehive.md)
 </dt> <dt>
 
-[SECURITY\_DESCRIPTOR](https://msdn.microsoft.com/library/aa379561.aspx)
+[SECURITY\_DESCRIPTOR](/windows/win32/api/winnt/ns-winnt-security_descriptor)
 </dt> </dl>
 
  
 
  
-
-
-
-

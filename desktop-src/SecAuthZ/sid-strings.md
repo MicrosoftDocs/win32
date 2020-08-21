@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # SID Strings
 
-In the [security descriptor definition language](security-descriptor-definition-language.md) (SDDL), [security descriptor string](security-descriptor-string-format.md) use SID strings for the following components of a [*security descriptor*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly):
+In the [security descriptor definition language](security-descriptor-definition-language.md) (SDDL), [security descriptor string](security-descriptor-string-format.md) use SID strings for the following components of a [*security descriptor*](/windows/desktop/SecGloss/s-gly):
 
 -   Owner
 -   Primary group
@@ -16,7 +16,7 @@ In the [security descriptor definition language](security-descriptor-definition-
 
 A SID string in a security descriptor string can use either the standard string representation of a SID (S-*R*-*I*-*S*-*S* ) or one of the string constants defined in Sddl.h. For more information about the standard SID string notation, see [SID Components](sid-components.md).
 
-The following SID string constants for well-known SIDs are defined in Sddl.h. For information about the corresponding [*relative IDs*](https://docs.microsoft.com/windows/desktop/SecGloss/r-gly) (RIDs), see [Well-known SIDs](well-known-sids.md).
+The following SID string constants for well-known SIDs are defined in Sddl.h. For information about the corresponding [*relative IDs*](/windows/desktop/SecGloss/r-gly) (RIDs), see [Well-known SIDs](well-known-sids.md).
 
 
 
@@ -55,7 +55,7 @@ The following SID string constants for well-known SIDs are defined in Sddl.h. Fo
 | "PO"<br/> | SDDL\_PRINTER\_OPERATORS<br/>              | Printer operators. The corresponding RID is DOMAIN\_ALIAS\_RID\_PRINT\_OPS.<br/>                                                                                                                                                                     |
 | "PS"<br/> | SDDL\_PERSONAL\_SELF<br/>                  | Principal self. The corresponding RID is SECURITY\_PRINCIPAL\_SELF\_RID.<br/>                                                                                                                                                                        |
 | "PU"<br/> | SDDL\_POWER\_USERS<br/>                    | Power users. The corresponding RID is DOMAIN\_ALIAS\_RID\_POWER\_USERS.<br/>                                                                                                                                                                         |
-| "RC"<br/> | SDDL\_RESTRICTED\_CODE<br/>                | Restricted code. This is a restricted token created using the [**CreateRestrictedToken**](https://msdn.microsoft.com/library/Aa446583(v=VS.85).aspx) function. The corresponding RID is SECURITY\_RESTRICTED\_CODE\_RID.<br/>                                                        |
+| "RC"<br/> | SDDL\_RESTRICTED\_CODE<br/>                | Restricted code. This is a restricted token created using the [**CreateRestrictedToken**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken) function. The corresponding RID is SECURITY\_RESTRICTED\_CODE\_RID.<br/>                                                        |
 | "RD"<br/> | SDDL\_REMOTE\_DESKTOP<br/>                 | Terminal server users. The corresponding RID is DOMAIN\_ALIAS\_RID\_REMOTE\_DESKTOP\_USERS.<br/>                                                                                                                                                     |
 | "RE"<br/> | SDDL\_REPLICATOR<br/>                      | Replicator. The corresponding RID is DOMAIN\_ALIAS\_RID\_REPLICATOR.<br/>                                                                                                                                                                            |
 | "RO"<br/> | SDDL\_ENTERPRISE\_RO\_DCs<br/>             | Enterprise Read-only domain controllers. The corresponding RID is DOMAIN\_GROUP\_RID\_ENTERPRISE\_READONLY\_DOMAIN\_CONTROLLERS.<br/>                                                                                                                |
@@ -84,9 +84,4 @@ For more information about well-known SIDs, see [Well-known SIDs](well-known-sid
 </dt> </dl>
 
  
-
- 
-
-
-
 

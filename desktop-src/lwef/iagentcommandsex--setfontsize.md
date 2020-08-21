@@ -29,7 +29,7 @@ The size of the font.
 
 </dd> </dl>
 
-This property determines the point size of the font used to display text in the character's pop-up menu when your client application is input-active. The default value for the font setting is based on the menu font setting for the character's language ID setting-or if that's not set-the user default language setting. If not input-active, your client application's [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) [**Caption**](caption-property.md) text appears in the point size specified for the input-active client.
+This property determines the point size of the font used to display text in the character's pop-up menu when your client application is input-active. The default value for the font setting is based on the menu font setting for the character's language ID setting-or if that's not set-the user default language setting. If not input-active, your client application's [**Command**](/windows/desktop/lwef/the-command-object) [**Caption**](caption-property.md) text appears in the point size specified for the input-active client.
 
 This property applies only to your client application's use of the character; the setting does not affect other clients of the character or other characters of your client application.
 
@@ -41,7 +41,3 @@ This property applies only to your client application's use of the character; th
  
 
  
-
-
-
-

@@ -8,9 +8,9 @@ ms.date: 05/31/2018
 
 # labelInfo
 
-Specifies how the property's labels are displayed. There should be only one [labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx) element for each [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) element.
+Specifies how the property's labels are displayed. There should be only one [labelInfo]() element for each [propertyDescription](./propdesc-schema-propertydescription.md) element.
 
-If there are multiple elements, the last one is used. If no [labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx) element is provided, then the property's label is not displayed; however, this would typically be a defect.
+If there are multiple elements, the last one is used. If no [labelInfo]() element is provided, then the property's label is not displayed; however, this would typically be a defect.
 
 ## Syntax
 
@@ -45,7 +45,7 @@ If there are multiple elements, the last one is used. If no [labelInfo](https://
 
 | Parent Element                                                   | Child Elements |
 |------------------------------------------------------------------|----------------|
-| [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) | None           |
+| [propertyDescription](./propdesc-schema-propertydescription.md) | None           |
 
 
 
@@ -100,6 +100,3 @@ If there are multiple elements, the last one is used. If no [labelInfo](https://
  
 
  
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating a Custom Queue Callback Routine
 
-In addition to using the default queue callback, you can write a custom callback routine. This function must have the same form as [*FileCallback*](https://msdn.microsoft.com/library/Aa376970(v=VS.85).aspx). This is useful if you need a callback routine to handle a notification in a manner other than that provided by the default queue callback routine.
+In addition to using the default queue callback, you can write a custom callback routine. This function must have the same form as [*FileCallback*](/windows/win32/api/setupapi/nc-setupapi-psp_file_callback_a). This is useful if you need a callback routine to handle a notification in a manner other than that provided by the default queue callback routine.
 
 If only a small portion of the default queue callback routine's behavior needs to be changed, you can create a custom callback routine to filter the notifications, handling only those that require special behavior and calling [**SetupDefaultQueueCallback**](/windows/desktop/api/Setupapi/nf-setupapi-setupdefaultqueuecallbacka) for the others.
 
@@ -26,6 +26,3 @@ This flow of control is illustrated in the following diagram.
  
 
  
-
-
-

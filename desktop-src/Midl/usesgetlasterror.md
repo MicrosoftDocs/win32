@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 # usesgetlasterror attribute
 
-The **\[usesgetlasterror\]** attribute signals the caller that it can call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to retrieve the error code.
+The **\[usesgetlasterror\]** attribute signals the caller that it can call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to retrieve the error code.
 
 ``` syntax
 [
@@ -83,7 +83,7 @@ Zero or more parameters to the remote procedure.
 
 ## Remarks
 
-The **\[usesgetlasterror\]** attribute can be set on a module entry point, if that entry point uses the Windows function [**SetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) to return error codes. The attribute tells the caller that, if there is an error when calling that function, the caller can then call [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to retrieve the error code.
+The **\[usesgetlasterror\]** attribute can be set on a module entry point, if that entry point uses the Windows function [**SetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) to return error codes. The attribute tells the caller that, if there is an error when calling that function, the caller can then call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to retrieve the error code.
 
 ## Examples
 
@@ -112,16 +112,12 @@ module MyModule
 [Generating a Type Library With MIDL](generating-a-type-library-with-midl-2.md)
 </dt> <dt>
 
-[ODL File Example](https://msdn.microsoft.com/library/ms221308(v=VS.71).aspx)
+[ODL File Example](/previous-versions/windows/desktop/automat/odl-file-example)
 </dt> <dt>
 
-[ODL File Syntax](https://msdn.microsoft.com/library/ms221683(v=VS.71).aspx)
+[ODL File Syntax](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -31,7 +31,7 @@ AttributeTypeValue ::= SEQUENCE
 
 ## ASN.1 Encoding Example
 
-The Certificate Enrollment API uses [*Distinguished Encoding Rules*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DER) to encode the preceding subject name. DER requires that each item in the name be represented by a TLV triplet where T contains the tag number of the ASN.1 type, L contains the length, and V contains the associated value. The following example shows how the subject name TestCN.TestOrg is encoded.
+The Certificate Enrollment API uses [*Distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) (DER) to encode the preceding subject name. DER requires that each item in the name be represented by a TLV triplet where T contains the tag number of the ASN.1 type, L contains the length, and V contains the associated value. The following example shows how the subject name TestCN.TestOrg is encoded.
 
 ``` syntax
 1.     30 23            ; SEQUENCE (23 Bytes)
@@ -94,6 +94,3 @@ Note the following points:
  
 
  
-
-
-

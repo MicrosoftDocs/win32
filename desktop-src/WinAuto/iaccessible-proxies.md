@@ -16,18 +16,14 @@ To determine whether a UI element natively supports the [**IAccessible**](/windo
 
 ## What Information Is Exposed
 
-Oleacc.dll uses the UI element's Windows class name to determine what information should be exposed for each of its [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) properties and how to collect that information. For example, Oleacc.dll calls the [**GetWindowText**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtexta) function to retrieve the [**Name**](name-property.md) property for a standard push button, but calls this same function to retrieve the [**Value**](value-property.md) property for a standard edit control. In effect, Oleacc.dll is mapping each **IAccessible** method to an appropriate Microsoft Win32 or control-specific message or function call. By using this class name-based special casing, it can return meaningful information through **IAccessible** proxies without any Microsoft Active Accessibility support in the server.
+Oleacc.dll uses the UI element's Windows class name to determine what information should be exposed for each of its [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) properties and how to collect that information. For example, Oleacc.dll calls the [**GetWindowText**](/windows/desktop/api/winuser/nf-winuser-getwindowtexta) function to retrieve the [**Name**](name-property.md) property for a standard push button, but calls this same function to retrieve the [**Value**](value-property.md) property for a standard edit control. In effect, Oleacc.dll is mapping each **IAccessible** method to an appropriate Microsoft Win32 or control-specific message or function call. By using this class name-based special casing, it can return meaningful information through **IAccessible** proxies without any Microsoft Active Accessibility support in the server.
 
 Applications built with standard UI elements typically get full Microsoft Active Accessibility support without additional development work. The exceptions to this rule are controls that have been subclassed, that do not store their own strings (absence of the **HASSTRINGS** style), or that are owner-drawn. In these cases, Oleacc.dll cannot gather the information it needs because the information is stored outside the control. However in many of these scenarios, established workarounds, or the use of Dynamic Annotation, allow the server to cooperate with the proxies provided by Oleacc.dll.
 
 ## Generic Proxy Objects
 
-If Oleacc.dll does not recognize the class name of the UI element, it creates a generic proxy that exposes as much information as possible. At most, this includes the object's bounding rectangle, parent object, name (from [**WM\_GETTEXT**](https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext)), and any children in the window hierarchy.
+If Oleacc.dll does not recognize the class name of the UI element, it creates a generic proxy that exposes as much information as possible. At most, this includes the object's bounding rectangle, parent object, name (from [**WM\_GETTEXT**](/windows/desktop/winmsg/wm-gettext)), and any children in the window hierarchy.
 
  
 
  
-
-
-
-

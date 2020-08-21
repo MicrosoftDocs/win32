@@ -451,7 +451,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FWPM_CONDITION_IP_LOCAL_ADDRESS_TYPE"></span><span id="fwpm_condition_ip_local_address_type"></span><dl> <dt><strong>FWPM_CONDITION_IP_LOCAL_ADDRESS_TYPE</strong></dt> </dl></td>
-<td style="text-align: left;">The local IP address type. <br/> <strong>Possible values:</strong> Any of the following <a href="https://msdn.microsoft.com/library/ff568757.aspx">NL_ADDRESS_TYPE</a> enumeration values.
+<td style="text-align: left;">The local IP address type. <br/> <strong>Possible values:</strong> Any of the following <a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration values.
 <ul>
 <li>NlatUnspecified</li>
 <li>NlatUnicast</li>
@@ -463,7 +463,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_IP_DESTINATION_ADDRESS_TYPE"></span><span id="fwpm_condition_ip_destination_address_type"></span><dl> <dt><strong>FWPM_CONDITION_IP_DESTINATION_ADDRESS_TYPE</strong></dt> </dl></td>
-<td style="text-align: left;">The destination IP address type for forwarded packets. <br/> <strong>Possible values:</strong> Any of the following <a href="https://msdn.microsoft.com/library/ff568757.aspx">NL_ADDRESS_TYPE</a> enumeration values.
+<td style="text-align: left;">The destination IP address type for forwarded packets. <br/> <strong>Possible values:</strong> Any of the following <a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration values.
 <ul>
 <li>NlatUnspecified</li>
 <li>NlatUnicast</li>
@@ -511,7 +511,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_EMBEDDED_LOCAL_ADDRESS_TYPE"></span><span id="fwpm_condition_embedded_local_address_type"></span><dl> <dt><strong>FWPM_CONDITION_EMBEDDED_LOCAL_ADDRESS_TYPE</strong></dt> </dl></td>
-<td style="text-align: left;">The local IP address type that is embedded in the ICMP packet.<br/> <strong>Possible values:</strong> Any of the following <a href="https://msdn.microsoft.com/library/ff568757.aspx">NL_ADDRESS_TYPE</a> enumeration values.
+<td style="text-align: left;">The local IP address type that is embedded in the ICMP packet.<br/> <strong>Possible values:</strong> Any of the following <a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration values.
 <ul>
 <li>NlatUnspecified</li>
 <li>NlatUnicast</li>

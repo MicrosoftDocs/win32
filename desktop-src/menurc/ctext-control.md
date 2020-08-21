@@ -59,7 +59,7 @@ CTEXT "Filename", 101, 10, 10, 100, 100
 [**CONTROL**](control-control.md)
 </dt> <dt>
 
-[Edit Controls](https://msdn.microsoft.com/library/Bb775456(v=VS.85).aspx)
+[Edit Controls](../controls/about-edit-controls.md)
 </dt> <dt>
 
 [**LTEXT**](ltext-control.md)
@@ -71,7 +71,3 @@ CTEXT "Filename", 101, 10, 10, 100, 100
  
 
  
-
-
-
-

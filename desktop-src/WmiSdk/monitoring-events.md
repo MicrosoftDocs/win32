@@ -29,9 +29,9 @@ The following sections are discussed in this topic:
 
 Temporary event consumers are scripts or applications that return the events that match an event query or filter. Temporary event queries usually use either [**IWbemServices::ExecNotificationQuery**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery) in C++ applications or [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) in scripts and Visual Basic.
 
-An event query requests instances of an event class that specifies a certain type of event, such as [**Win32\_ProcessTrace**](https://docs.microsoft.com/previous-versions/windows/desktop/krnlprov/win32-processtrace) or [**RegistryKeyChangeEvent**](https://docs.microsoft.com/previous-versions/windows/desktop/regprov/registrykeychangeevent).
+An event query requests instances of an event class that specifies a certain type of event, such as [**Win32\_ProcessTrace**](/previous-versions/windows/desktop/krnlprov/win32-processtrace) or [**RegistryKeyChangeEvent**](/previous-versions/windows/desktop/regprov/registrykeychangeevent).
 
-The following VBScript code example requests notification when an instance of [**Win32\_ProcessTrace**](https://docs.microsoft.com/previous-versions/windows/desktop/krnlprov/win32-processtrace) is created. An instance of this class is generated when a process is started or stopped.
+The following VBScript code example requests notification when an instance of [**Win32\_ProcessTrace**](/previous-versions/windows/desktop/krnlprov/win32-processtrace) is created. An instance of this class is generated when a process is started or stopped.
 
 To execute the script, copy it to a file named event.vbs and use the following command line: **cscript event.vbs**. You can see output from the script by starting Notepad.exe or any other process. The script stops after five processes have started or stopped.
 
@@ -103,7 +103,7 @@ The following procedure describes how to create a temporary event consumer.
 
     For asynchronous event queries, put the code in the various methods or events of the object sink. For semisynchronous event queries, each object is returned as WMI obtains it, so the code should be in the loop that handles each object.
 
-The following script code example is an asynchronous version of the [**Win32\_ProcessTrace**](https://docs.microsoft.com/previous-versions/windows/desktop/krnlprov/win32-processtrace) script. Because asynchronous operations return immediately, a dialog box keeps the script active while it is waiting for events.
+The following script code example is an asynchronous version of the [**Win32\_ProcessTrace**](/previous-versions/windows/desktop/krnlprov/win32-processtrace) script. Because asynchronous operations return immediately, a dialog box keeps the script active while it is waiting for events.
 
 Rather than call [**SWbemEventSource.NextEvent**](swbemeventsource-nextevent.md) to receive each event, the script has an event handler for the [**SWbemSink OnObjectReady**](swbemsink-onobjectready.md) event.
 
@@ -171,7 +171,7 @@ The following procedure describes how to create a permanent event consumer.
 
 1.  [Register the event provider](registering-a-provider.md) with the namespace that you are using.
 
-    Some event providers can only use a specific namespace. For example, [**\_\_InstanceCreationEvent**](--instancecreationevent.md) is an intrinsic event that is supported by the [Win32 provider](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-provider) and is registered by default with the \\root\\cimv2 namespace.
+    Some event providers can only use a specific namespace. For example, [**\_\_InstanceCreationEvent**](--instancecreationevent.md) is an intrinsic event that is supported by the [Win32 provider](/windows/desktop/CIMWin32Prov/win32-provider) and is registered by default with the \\root\\cimv2 namespace.
 
     > [!Note]  
     > You can use the **EventNamespace** property of the [**\_\_EventFilter**](--eventfilter.md) used in the registration to create a cross-namespace subscription. For more information, see [Implementing Cross-Namespace Permanent Event Subscriptions](implementing-cross-namespace-permanent-event-subscriptions.md).
@@ -198,6 +198,3 @@ The following procedure describes how to create a permanent event consumer.
  
 
  
-
-
-

@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 The Remote Desktop Services API enables you to enumerate and manage Remote Desktop Session Host (RD Session Host) servers, client sessions, and processes.
 
-To retrieve the names of all the RD Session Host servers in a domain, call the [**NetServerEnum**](https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserverenum) function to enumerate servers of the SV\_TYPE\_TERMINALSERVER type. To open a handle to a specific RD Session Host server, pass the server name in a call to the [**WTSOpenServer**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsopenservera) function. When you have finished using the handle, release it by calling the [**WTSCloseServer**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtscloseserver) function.
+To retrieve the names of all the RD Session Host servers in a domain, call the [**NetServerEnum**](/windows/desktop/api/lmserver/nf-lmserver-netserverenum) function to enumerate servers of the SV\_TYPE\_TERMINALSERVER type. To open a handle to a specific RD Session Host server, pass the server name in a call to the [**WTSOpenServer**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsopenservera) function. When you have finished using the handle, release it by calling the [**WTSCloseServer**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtscloseserver) function.
 
 You can use the handle returned by **WTSOpenServer** to perform the following operations on the server.
 
@@ -39,7 +39,3 @@ Several of these functions allocate buffers to return information to the caller.
  
 
  
-
-
-
-

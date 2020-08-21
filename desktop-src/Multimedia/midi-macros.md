@@ -18,8 +18,8 @@ ms.date: 05/31/2018
 
 The following macros are used with MIDI.
 
--   [**MEVT\_EVENTPARM**](https://msdn.microsoft.com/library/Dd798441(v=VS.85).aspx)
--   [**MEVT\_EVENTTYPE**](https://msdn.microsoft.com/library/Dd798442(v=VS.85).aspx)
+-   [**MEVT\_EVENTPARM**](/windows/win32/api/mmeapi/nf-mmeapi-mevt_eventparm)
+-   [**MEVT\_EVENTTYPE**](/windows/win32/api/mmeapi/nf-mmeapi-mevt_eventtype)
 
 ## Related topics
 
@@ -31,7 +31,3 @@ The following macros are used with MIDI.
  
 
  
-
-
-
-

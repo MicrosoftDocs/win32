@@ -17,7 +17,7 @@ api_location:
 
 # SslSignHash function
 
-The **SslSignHash** function signs a [*hash*](https://docs.microsoft.com/windows/desktop/SecGloss/h-gly) by using the specified [*private key*](https://docs.microsoft.com/windows/desktop/SecGloss/p-gly). The signing process is performed on the server.
+The **SslSignHash** function signs a [*hash*](/windows/desktop/SecGloss/h-gly) by using the specified [*private key*](/windows/desktop/SecGloss/p-gly). The signing process is performed on the server.
 
 ## Syntax
 
@@ -44,7 +44,7 @@ SECURITY_STATUS WINAPI SslSignHash(
 *hSslProvider* \[in\]
 </dt> <dd>
 
-The handle to the [*Secure Sockets Layer protocol*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
+The handle to the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) protocol provider instance.
 
 </dd> <dt>
 
@@ -129,9 +129,4 @@ Possible return codes include, but are not limited to, the following.
 
 
  
-
- 
-
-
-
 

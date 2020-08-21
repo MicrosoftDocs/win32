@@ -25,23 +25,23 @@ LDAP://servername/<GUID=XXXXX>
 
 
 
-In this example, "servername" is the name of the directory server and "XXXXX" is the string representation of the hexadecimal value of the GUID. The "servername" is optional. The GUID string is specified in the "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" form. The GUID string can also take the form "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX", which is the same form as the string produced by the [**StringFromGUID2**](https://msdn.microsoft.com/library/ms683893(v=VS.85).aspx) function, without the surrounding braces "{}". For more information and a code example that shows how to create a bindable string from a GUID, see [Example Code for Creating a Bindable String Representation of a GUID](example-code-for-creating-a-bindable-string-representation-of-a-guid.md). The [**IADs.GUID**](https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods) property can be used to retrieve the proper string form of the GUID.
+In this example, "servername" is the name of the directory server and "XXXXX" is the string representation of the hexadecimal value of the GUID. The "servername" is optional. The GUID string is specified in the "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" form. The GUID string can also take the form "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX", which is the same form as the string produced by the [**StringFromGUID2**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromguid2) function, without the surrounding braces "{}". For more information and a code example that shows how to create a bindable string from a GUID, see [Example Code for Creating a Bindable String Representation of a GUID](example-code-for-creating-a-bindable-string-representation-of-a-guid.md). The [**IADs.GUID**](/windows/desktop/ADSI/iads-property-methods) property can be used to retrieve the proper string form of the GUID.
 
-When binding using the object GUID, some [**IADs**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads) and [**IADsContainer**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer) methods and properties are not supported. The following **IADs** properties are not supported by objects obtained by binding using the object GUID:
+When binding using the object GUID, some [**IADs**](/windows/desktop/api/iads/nn-iads-iads) and [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) methods and properties are not supported. The following **IADs** properties are not supported by objects obtained by binding using the object GUID:
 
--   [**ADsPath**](https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods)
--   [**Name**](https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods)
--   [**Parent**](https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods)
+-   [**ADsPath**](/windows/desktop/ADSI/iads-property-methods)
+-   [**Name**](/windows/desktop/ADSI/iads-property-methods)
+-   [**Parent**](/windows/desktop/ADSI/iads-property-methods)
 
 The following **IADsContainer** methods are not supported by objects obtained by binding using the object GUID:
 
--   [**GetObject**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-getobject)
--   [**Create**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-create)
--   [**Delete**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-delete)
--   [**CopyHere**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-copyhere)
--   [**MoveHere**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-movehere)
+-   [**GetObject**](/windows/desktop/api/iads/nf-iads-iadscontainer-getobject)
+-   [**Create**](/windows/desktop/api/iads/nf-iads-iadscontainer-create)
+-   [**Delete**](/windows/desktop/api/iads/nf-iads-iadscontainer-delete)
+-   [**CopyHere**](/windows/desktop/api/iads/nf-iads-iadscontainer-copyhere)
+-   [**MoveHere**](/windows/desktop/api/iads/nf-iads-iadscontainer-movehere)
 
-To use these methods and properties after binding to an object using the object GUID, use the [**IADs.Get**](https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get) method to retrieve the object distinguished name and then use the distinguished name to bind to the object again.
+To use these methods and properties after binding to an object using the object GUID, use the [**IADs.Get**](/windows/desktop/api/iads/nf-iads-iads-get) method to retrieve the object distinguished name and then use the distinguished name to bind to the object again.
 
 If an application stores or caches identifiers or references to objects stored in Active Directory Domain Services, the object GUID is the best identifier to use for several reasons:
 
@@ -52,7 +52,3 @@ If an application stores or caches identifiers or references to objects stored i
  
 
  
-
-
-
-

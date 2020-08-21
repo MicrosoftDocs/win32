@@ -10,15 +10,12 @@ ms.date: 05/31/2018
 
 The advanced security property sheet enables the user to perform editing operations that are not available on the [basic security property page](basic-security-property-page.md) of an access control editor. The property sheet can include the following property pages:
 
--   A [Permissions](permissions-property-page.md) property page for advanced editing of the object's [*discretionary access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DACL), such as editing [object-specific ACEs](object-specific-aces.md) or controlling [ACE inheritance](ace-inheritance.md).
--   An [Auditing](auditing-property-page.md) property page for viewing and editing the object's [*system access control list*](https://docs.microsoft.com/windows/desktop/SecGloss/s-gly) (SACL).
+-   A [Permissions](permissions-property-page.md) property page for advanced editing of the object's [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL), such as editing [object-specific ACEs](object-specific-aces.md) or controlling [ACE inheritance](ace-inheritance.md).
+-   An [Auditing](auditing-property-page.md) property page for viewing and editing the object's [*system access control list*](/windows/desktop/SecGloss/s-gly) (SACL).
 -   An [Owner](owner-property-page.md) property page for changing the object's owner.
 
-The user can display the advanced security property sheet by clicking the **Advanced** button on the basic security property page. To display the **Advanced** button, set the SI\_ADVANCED flag in the [**SI\_OBJECT\_INFO**](/windows/desktop/api/Aclui/ns-aclui-si_object_info) structure returned by your [**ISecurityInformation::GetObjectInformation**](https://msdn.microsoft.com/library/Aa379102(v=VS.85).aspx) implementation.
+The user can display the advanced security property sheet by clicking the **Advanced** button on the basic security property page. To display the **Advanced** button, set the SI\_ADVANCED flag in the [**SI\_OBJECT\_INFO**](/windows/desktop/api/Aclui/ns-aclui-si_object_info) structure returned by your [**ISecurityInformation::GetObjectInformation**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-getobjectinformation) implementation.
 
  
 
  
-
-
-

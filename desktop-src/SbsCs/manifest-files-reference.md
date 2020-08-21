@@ -31,13 +31,10 @@ For a listing of the publisher configuration file schema, see [Publisher Configu
 
 Other technologies extend the format used by Windows versioning and configuration manifests. Developers should refer to the documentation that is specific to the technology being used for information about the manifest format. For example:
 
--   [ClickOnce](https://msdn.microsoft.com/library/6ae39a7c.aspx)
--   [Common Language Runtime](https://msdn.microsoft.com/library/8bs2ecf4.aspx)
--   [User Account Control (UAC)](https://msdn.microsoft.com/library/bb756929.aspx)
+-   [ClickOnce](/visualstudio/deployment/clickonce-reference?view=vs-2015)
+-   [Common Language Runtime](/dotnet/standard/clr)
+-   [User Account Control (UAC)](/previous-versions/bb756929(v=msdn.10))
 
  
 
  
-
-
-

@@ -17,7 +17,7 @@ api_location:
 
 Constructors exposed by `XMUBYTE4`.
 
-Constructs instances of the [**XMUBYTE4**](https://msdn.microsoft.com/library/Ee420424(v=VS.85).aspx) structure.
+Constructs instances of the [**XMUBYTE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyte4) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -109,13 +109,9 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMUBYTE4**](https://msdn.microsoft.com/library/Ee420424(v=VS.85).aspx)
+[**XMUBYTE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyte4)
 </dt> </dl>
 
  
 
  
-
-
-
-

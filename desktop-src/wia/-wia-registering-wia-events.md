@@ -18,7 +18,7 @@ All of these methods take parameters that specify the event and the hardware dev
 
 The **RegisterEventCallbackInterface** method registers an application to receive a WIA hardware device event if the application is running at the time the event occurs. When the event for which the application is registered occurs, WIA calls the [**IWiaEventCallback::ImageEventCallback**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiaeventcallback-imageeventcallback) method of the application-provided object to transmit the event information.
 
-The **RegisterEventCallbackCLSID** method registers an application that is a registered Component Object Model (COM) component to receive a WIA hardware device event even if the application is not running. In addition to the parameters mentioned previously, this method takes a parameter, *pClsID*, that specifies the class ID of the application. When the specified event occurs, the WIA system uses the [CoCreateInstance](https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx) function and the class ID specified by *pClsID* to create a new instance of the application, and calls the [**IWiaEventCallback::ImageEventCallback**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiaeventcallback-imageeventcallback) method of that application to transmit the event information.
+The **RegisterEventCallbackCLSID** method registers an application that is a registered Component Object Model (COM) component to receive a WIA hardware device event even if the application is not running. In addition to the parameters mentioned previously, this method takes a parameter, *pClsID*, that specifies the class ID of the application. When the specified event occurs, the WIA system uses the [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) function and the class ID specified by *pClsID* to create a new instance of the application, and calls the [**IWiaEventCallback::ImageEventCallback**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiaeventcallback-imageeventcallback) method of that application to transmit the event information.
 
 The **RegisterEventCallbackProgram** method registers an application to receive a WIA hardware device event even if the application is not running when the event occurs. The application need not be a registered COM component. WIA launches the application with a command line statement. **RegisterEventCallbackProgram** takes a parameter, *bstrCommandline*, that specifies the full path and filename of the executable application. **RegisterEventCallbackProgram** exists for backward compatibility with applications that were not written for WIA, and should be avoided. Use **RegisterEventCallbackInterface** or **RegisterEventCallbackCLSID** instead.
 
@@ -34,6 +34,3 @@ If an event occurs for which a running application is registered through **Regis
  
 
  
-
-
-

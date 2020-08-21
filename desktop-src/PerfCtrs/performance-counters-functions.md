@@ -121,9 +121,9 @@ Performance providers use the following functions:
 
 A [performance extension DLL](providing-counter-data-using-a-performance-dll.md) that provides performance data implements the following functions:
 
--   [**ClosePerformanceData**](https://msdn.microsoft.com/library/Aa371895(v=VS.85).aspx)
--   [**CollectPerformanceData**](https://msdn.microsoft.com/library/Aa371898(v=VS.85).aspx)
--   [**OpenPerformanceData**](https://msdn.microsoft.com/library/Aa372200(v=VS.85).aspx)
+-   [**ClosePerformanceData**](/windows/win32/api/winperf/nc-winperf-pm_close_proc)
+-   [**CollectPerformanceData**](/windows/win32/api/winperf/nc-winperf-pm_collect_proc)
+-   [**OpenPerformanceData**](/previous-versions/windows/desktop/legacy/aa372200(v=vs.85))
 
 > [!Note]  
 > A performance extension DLL is also called a version1 provider. Although you still can use a performance extension DLL to provide counter data, you are encouraged to use the new architecture for new providers instead. You also are encouraged to replace existing version 1 provides with version 2 providers.
@@ -143,6 +143,3 @@ You can use the following optional functions to register and unregister the .ini
  
 
  
-
-
-

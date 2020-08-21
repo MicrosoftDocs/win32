@@ -16,9 +16,9 @@ ms.date: 05/31/2018
 
 ## Description
 
-Beginning with Windows 8 and Windows Server 2012, the Virtual Disk Service COM interface is superseded by the Storage Management API, a WMI-based programming interface. For managing storage subsystems, (Windows) disks, partitions, and volumes, we strongly recommend using the Storage Management API. For more info, see [Windows Storage Management API](https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).
+Beginning with Windows 8 and Windows Server 2012, the Virtual Disk Service COM interface is superseded by the Storage Management API, a WMI-based programming interface. For managing storage subsystems, (Windows) disks, partitions, and volumes, we strongly recommend using the Storage Management API. For more info, see [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).
 
-For all usages except mirror boot volumes (using a mirror volume to host the operating system), dynamic disks are deprecated. For data that requires resiliency against drive failure, use Storage Spaces, a resilient storage virtualization solution. For more info, see [Storage Spaces Technical Preview](https://technet.microsoft.com/library/hh831739.aspx).
+For all usages except mirror boot volumes (using a mirror volume to host the operating system), dynamic disks are deprecated. For data that requires resiliency against drive failure, use Storage Spaces, a resilient storage virtualization solution. For more info, see [Storage Spaces Technical Preview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831739(v=ws.11)).
 
 You can continue to use DiskPart, DiskRAID, and Disk Management during the deprecation period, but these tools will not work with Storage Spaces or with any other new Windows Management Instrumentation (WMI)-based Windows Storage Management APIs or in-box storage management utilities or clients.
 
@@ -46,15 +46,11 @@ Microsoft strongly recommends that you base any new storage management apps on t
 
 ## Resources
 
--   [Windows Storage Management API](https://msdn.microsoft.com/library/hh830613(v=vs.85).aspx)
--   [Storage Cmdlets in Windows PowerShell](https://technet.microsoft.com/library/hh848705.aspx)
--   [Windows Management Instrumentation](https://msdn.microsoft.com/library/aa394582(v=VS.85).aspx)
+-   [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)
+-   [Storage Cmdlets in Windows PowerShell](/powershell/module/storage/?view=win10-ps)
+-   [Windows Management Instrumentation](../wmisdk/wmi-start-page.md)
 -   [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=VS.85).aspx)
 
  
 
  
-
-
-
-

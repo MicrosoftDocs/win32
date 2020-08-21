@@ -20,7 +20,7 @@ Specifies the type of output stream produced by a multiplexer.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncMuxOutput**](https://msdn.microsoft.com/library/Dd757614(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVEncMuxOutput**](/windows/win32/api/codecapi/ne-codecapi-eavencmuxoutput) enumeration.
 
 ## Requirements
 
@@ -45,9 +45,4 @@ The value of this property is a member of the [**eAVEncMuxOutput**](https://msdn
 </dt> </dl>
 
  
-
- 
-
-
-
 

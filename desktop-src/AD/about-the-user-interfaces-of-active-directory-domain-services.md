@@ -26,12 +26,8 @@ Beginning with Windows 2000, the system provides COM objects that implement com
 -   [Domain Browser](domain-browser.md)
 -   [Container Browser](container-browser.md)
 
-Active Directory administrative snap-ins, context menus, and property pages can be extended using MMC extension snap-ins. Other MMC extensions, such as taskpads, namespace items, control bars, and toolbars can also be implemented. For more information, see [Extending the Active Directory Administrative Snap-ins](https://docs.microsoft.com/previous-versions/windows/desktop/mmc/extending-the-active-directory-administrative-snap-ins).
+Active Directory administrative snap-ins, context menus, and property pages can be extended using MMC extension snap-ins. Other MMC extensions, such as taskpads, namespace items, control bars, and toolbars can also be implemented. For more information, see [Extending the Active Directory Administrative Snap-ins](/previous-versions/windows/desktop/mmc/extending-the-active-directory-administrative-snap-ins).
 
  
 
  
-
-
-
-

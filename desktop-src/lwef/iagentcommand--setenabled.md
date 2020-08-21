@@ -16,7 +16,7 @@ HRESULT SetEnabled(
 );
 ```
 
-Sets the [**Enabled**](enabled-property.md) property for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+Sets the [**Enabled**](enabled-property.md) property for a [**Command**](/windows/desktop/lwef/the-command-object).
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,11 +25,11 @@ Sets the [**Enabled**](enabled-property.md) property for a [**Command**](https:/
 <span id="bEnabled"></span><span id="benabled"></span><span id="BENABLED"></span>*bEnabled*
 </dt> <dd>
 
-A Boolean value that sets the value of the [**Enabled**](enabled-property.md) setting of a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object). **True** enables the **Command**; **False** disables it. A disabled **Command** cannot be selected.
+A Boolean value that sets the value of the [**Enabled**](enabled-property.md) setting of a [**Command**](/windows/desktop/lwef/the-command-object). **True** enables the **Command**; **False** disables it. A disabled **Command** cannot be selected.
 
 </dd> </dl>
 
-A [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) must have its [**Enabled**](enabled-property.md) property set to **True** to be selectable. It also must have its [**Caption**](caption-property.md) property set and its [**Visible**](visible-property.md) property set to **True** to appear in the character's pop-up menu. To make the **Command** appear in the **Voice Commands Window**, you must set its [**Voice**](voice-property.md)property.
+A [**Command**](/windows/desktop/lwef/the-command-object) must have its [**Enabled**](enabled-property.md) property set to **True** to be selectable. It also must have its [**Caption**](caption-property.md) property set and its [**Visible**](visible-property.md) property set to **True** to appear in the character's pop-up menu. To make the **Command** appear in the **Voice Commands Window**, you must set its [**Voice**](voice-property.md)property.
 
 ## See Also
 
@@ -39,7 +39,3 @@ A [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-obje
  
 
  
-
-
-
-

@@ -54,7 +54,7 @@ The type of system information to be retrieved. This parameter can be one of the
 
 </dt> <dd>
 
-The number of processors in the system in a **SYSTEM\_BASIC\_INFORMATION** structure. Use the [**GetSystemInfo**](https://msdn.microsoft.com/library/ms724381(v=VS.85).aspx) function instead.
+The number of processors in the system in a **SYSTEM\_BASIC\_INFORMATION** structure. Use the [**GetSystemInfo**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsysteminfo) function instead.
 
 </dd> <dt>
 
@@ -65,7 +65,7 @@ The number of processors in the system in a **SYSTEM\_BASIC\_INFORMATION** struc
 
 </dt> <dd>
 
-An opaque **SYSTEM\_PERFORMANCE\_INFORMATION** structure that can be used to generate an unpredictable seed for a random number generator. Use the [**CryptGenRandom**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead.
+An opaque **SYSTEM\_PERFORMANCE\_INFORMATION** structure that can be used to generate an unpredictable seed for a random number generator. Use the [**CryptGenRandom**](/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead.
 
 </dd> <dt>
 
@@ -76,7 +76,7 @@ An opaque **SYSTEM\_PERFORMANCE\_INFORMATION** structure that can be used to gen
 
 </dt> <dd>
 
-An opaque **SYSTEM\_TIMEOFDAY\_INFORMATION** structure that can be used to generate an unpredictable seed for a random number generator. Use the [**CryptGenRandom**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead.
+An opaque **SYSTEM\_TIMEOFDAY\_INFORMATION** structure that can be used to generate an unpredictable seed for a random number generator. Use the [**CryptGenRandom**](/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead.
 
 </dd> <dt>
 
@@ -111,7 +111,7 @@ An array of **SYSTEM\_PROCESSOR\_PERFORMANCE\_INFORMATION** structures, one for 
 
 </dt> <dd>
 
-An opaque **SYSTEM\_INTERRUPT\_INFORMATION** structure that can be used to generate an unpredictable seed for a random number generator. Use the [**CryptGenRandom**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead.
+An opaque **SYSTEM\_INTERRUPT\_INFORMATION** structure that can be used to generate an unpredictable seed for a random number generator. Use the [**CryptGenRandom**](/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead.
 
 </dd> <dt>
 
@@ -122,7 +122,7 @@ An opaque **SYSTEM\_INTERRUPT\_INFORMATION** structure that can be used to gener
 
 </dt> <dd>
 
-An opaque **SYSTEM\_EXCEPTION\_INFORMATION** structure that can be used to generate an unpredictable seed for a random number generator. Use the [**CryptGenRandom**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead.
+An opaque **SYSTEM\_EXCEPTION\_INFORMATION** structure that can be used to generate an unpredictable seed for a random number generator. Use the [**CryptGenRandom**](/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead.
 
 </dd> <dt>
 
@@ -144,7 +144,7 @@ A **SYSTEM\_REGISTRY\_QUOTA\_INFORMATION** structure.
 
 </dt> <dd>
 
-An opaque **SYSTEM\_LOOKASIDE\_INFORMATION** structure that can be used to generate an unpredictable seed for a random number generator. Use the [**CryptGenRandom**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead.
+An opaque **SYSTEM\_LOOKASIDE\_INFORMATION** structure that can be used to generate an unpredictable seed for a random number generator. Use the [**CryptGenRandom**](/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead.
 
 </dd> </dl> </dd> <dt>
 
@@ -172,7 +172,7 @@ typedef struct _SYSTEM_BASIC_INFORMATION {
 } SYSTEM_BASIC_INFORMATION;
 ```
 
-The **NumberOfProcessors** member contains the number of processors present in the system. Use [**GetSystemInfo**](https://msdn.microsoft.com/library/ms724381(v=VS.85).aspx) instead to retrieve this information.
+The **NumberOfProcessors** member contains the number of processors present in the system. Use [**GetSystemInfo**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsysteminfo) instead to retrieve this information.
 
 The other members of the structure are reserved for internal use by the operating system.
 
@@ -195,7 +195,7 @@ typedef struct _SYSTEM_PERFORMANCE_INFORMATION {
 
 Individual members of the structure are reserved for internal use by the operating system.
 
-Use the [**CryptGenRandom**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead to generate cryptographically random data.
+Use the [**CryptGenRandom**](/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead to generate cryptographically random data.
 
 </dd> <dt>
 
@@ -216,7 +216,7 @@ typedef struct _SYSTEM_TIMEOFDAY_INFORMATION {
 
 Individual members of the structure are reserved for internal use by the operating system.
 
-Use the [**CryptGenRandom**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead to generate cryptographically random data.
+Use the [**CryptGenRandom**](/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead to generate cryptographically random data.
 
 </dd> <dt>
 
@@ -248,11 +248,11 @@ typedef struct _SYSTEM_PROCESS_INFORMATION {
 
 The **NumberOfThreads** member contains the total number of currently running threads in the process.
 
-The **HandleCount** member contains the total number of handles being used by the process in question; use [**GetProcessHandleCount**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount) to retrieve this information instead.
+The **HandleCount** member contains the total number of handles being used by the process in question; use [**GetProcessHandleCount**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount) to retrieve this information instead.
 
 The **PeakPagefileUsage** member contains the maximum number of bytes of page-file storage used by the process, and the **PrivatePageCount** member contains the number of memory pages allocated for the use of this process.
 
-You can also retrieve this information using either the [**GetProcessMemoryInfo**](https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getprocessmemoryinfo) function or the [**Win32\_Process**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process) class.
+You can also retrieve this information using either the [**GetProcessMemoryInfo**](/windows/desktop/api/psapi/nf-psapi-getprocessmemoryinfo) function or the [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process) class.
 
 The other members of the structure are reserved for internal use by the operating system.
 
@@ -284,7 +284,7 @@ The **KernelTime** member contains the amount of time that the system has spent 
 
 The **UserTime** member contains the amount of time that the system has spent executing in User mode (including all threads in all processes, on all processors), in 1/100ths of a nanosecond.
 
-Use [**GetSystemTimes**](https://msdn.microsoft.com/library/ms724400(v=VS.85).aspx) instead to retrieve this information.
+Use [**GetSystemTimes**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getsystemtimes) instead to retrieve this information.
 
 </dd> <dt>
 
@@ -305,7 +305,7 @@ typedef struct _SYSTEM_INTERRUPT_INFORMATION {
 
 Individual members of the structure are reserved for internal use by the operating system.
 
-Use the [**CryptGenRandom**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead to generate cryptographically random data.
+Use the [**CryptGenRandom**](/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead to generate cryptographically random data.
 
 </dd> <dt>
 
@@ -326,7 +326,7 @@ typedef struct _SYSTEM_EXCEPTION_INFORMATION {
 
 Individual members of the structure are reserved for internal use by the operating system.
 
-Use the [**CryptGenRandom**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead to generate cryptographically random data.
+Use the [**CryptGenRandom**](/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead to generate cryptographically random data.
 
 </dd> <dt>
 
@@ -374,7 +374,7 @@ typedef struct _SYSTEM_LOOKASIDE_INFORMATION {
 
 Individual members of the structure are reserved for internal use by the operating system.
 
-Use the [**CryptGenRandom**](https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead to generate cryptographically random data.
+Use the [**CryptGenRandom**](/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom) function instead to generate cryptographically random data.
 
 </dd> </dl> </dd> <dt>
 
@@ -402,9 +402,9 @@ The forms and significance of NTSTATUS error codes are listed in the Ntstatus.h 
 
 The **ZwQuerySystemInformation** function and the structures that it returns are internal to the operating system and subject to change from one release of Windows to another. To maintain the compatibility of your application, it is better to use the alternate functions previously mentioned instead.
 
-If you do use **ZwQuerySystemInformation**, access the function through [run-time dynamic linking](https://docs.microsoft.com/windows/desktop/Dlls/using-run-time-dynamic-linking). This gives your code an opportunity to respond gracefully if the function has been changed or removed from the operating system. Signature changes, however, may not be detectable.
+If you do use **ZwQuerySystemInformation**, access the function through [run-time dynamic linking](/windows/desktop/Dlls/using-run-time-dynamic-linking). This gives your code an opportunity to respond gracefully if the function has been changed or removed from the operating system. Signature changes, however, may not be detectable.
 
-This function has no associated import library. You must use the [**LoadLibrary**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Ntdll.dll.
+This function has no associated import library. You must use the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Ntdll.dll.
 
 ## Requirements
 
@@ -420,25 +420,20 @@ This function has no associated import library. You must use the [**LoadLibrary*
 
 <dl> <dt>
 
-[**GetSystemInfo**](https://msdn.microsoft.com/library/ms724381(v=VS.85).aspx)
+[**GetSystemInfo**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsysteminfo)
 </dt> <dt>
 
-[**GetProcessHandleCount**](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount)
+[**GetProcessHandleCount**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount)
 </dt> <dt>
 
-[**GetProcessMemoryInfo**](https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getprocessmemoryinfo)
+[**GetProcessMemoryInfo**](/windows/desktop/api/psapi/nf-psapi-getprocessmemoryinfo)
 </dt> <dt>
 
-[**GetSystemTimes**](https://msdn.microsoft.com/library/ms724400(v=VS.85).aspx)
+[**GetSystemTimes**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getsystemtimes)
 </dt> <dt>
 
 [**GetSystemRegistryQuota**](/windows/desktop/api/Winbase/nf-winbase-getsystemregistryquota)
 </dt> </dl>
 
  
-
- 
-
-
-
 

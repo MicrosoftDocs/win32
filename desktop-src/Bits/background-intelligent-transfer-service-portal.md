@@ -31,11 +31,11 @@ Use BITS for applications that need to:
 -   Automatically resume file transfers after network disconnects and computer restarts.
 -   Preserve the responsiveness of other network applications.
 -   Be mindful of the network cost on e.g. roaming networks
--   Optionally work with [BranchCache](https://docs.microsoft.com/windows-server/networking/branchcache/branchcache) to optimize wide area network (WAN) traffic
+-   Optionally work with [BranchCache](/windows-server/networking/branchcache/branchcache) to optimize wide area network (WAN) traffic
 
 ## Developer audience
 
-BITS is a COM interface designed for C and C++ developers that can also be used by .NET developers. UWP developers should use the [Windows.Networking.BackgroundTransfer](https://docs.microsoft.com/uwp/api/Windows.Networking.BackgroundTransfer) API and not the BITS API.
+BITS is a COM interface designed for C and C++ developers that can also be used by .NET developers. UWP developers should use the [Windows.Networking.BackgroundTransfer](/uwp/api/Windows.Networking.BackgroundTransfer) API and not the BITS API.
 
 ## BITS versions
 
@@ -72,10 +72,4 @@ The following are additional resources.
  
 
  
-
- 
-
-
-
-
 

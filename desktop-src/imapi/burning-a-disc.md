@@ -160,13 +160,9 @@ End Function
 [**IFileSystemImage**](/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage)
 </dt> <dt>
 
-[**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)
+[**IStream**](/windows/desktop/api/objidl/nn-objidl-istream)
 </dt> </dl>
 
  
 
  
-
-
-
-

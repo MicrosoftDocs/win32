@@ -80,11 +80,11 @@ The value in the first member of the structure, vt, describes which of the union
 
 Before using the structure, initialize it by calling the VariantInit COM function. When finished with the structure, clear it before the memory that contains the VARIANT is freed by calling VariantClear.
 
-For more information on the VARIANT structure, see [VARIANT and VARIANTARG Data Types](https://msdn.microsoft.com/library/ms221627(v=VS.71).aspx).
+For more information on the VARIANT structure, see [VARIANT and VARIANTARG Data Types](/windows/win32/api/oaidl/ns-oaidl-variant).
 
 The SAFEARRAY structure is provided as a way to safely work with arrays in COM. The VARIANT's parray field is a pointer to a SAFEARRAY. Use functions such as SafeArrayCreateVector, SafeArrayAccessData, and SafeArrayUnaccessData to create and fill a SAFEARRAY in a VARIANT.
 
-For more information on the SAFEARRAY data type, see [SafeArray Data Type](https://msdn.microsoft.com/library/ms221482(v=VS.71).aspx).
+For more information on the SAFEARRAY data type, see [SafeArray Data Type](/windows/win32/api/oaidl/ns-oaidl-safearray).
 
 This C++ example creates an [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) , `pInkStrokeDisp`, in an [**InkDisp**](inkdisp-class.md) object, `pInk`, from an array of point data.
 
@@ -141,7 +141,7 @@ VariantClear( &varPK );
 
 The supported string format for COM is BSTR. A BSTR has a pointer to a zero-terminated string, but it also contains the length of the string (in bytes, not counting the terminator), which is stored in the 4 bytes immediately preceding the first character of the string.
 
-For more information on BSTR, see [BSTR Data Type](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx).
+For more information on BSTR, see [BSTR Data Type](/previous-versions/windows/desktop/automat/bstr).
 
 This C++ sample shows how to set the factoid on an [**InkRecognizerContext**](inkrecognizercontext-class.md) using a BSTR.
 
@@ -170,6 +170,3 @@ if SUCCEEDED(result)
  
 
  
-
-
-

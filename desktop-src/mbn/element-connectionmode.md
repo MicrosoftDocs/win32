@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 Specifies the auto connection setting to be used for a Mobile Broadband device.
 
-For more information, see the documentation for the v1 [**ConnectionMode**](https://msdn.microsoft.com/library/Dd323278(v=VS.85).aspx) element.
+For more information, see the documentation for the v1 [**ConnectionMode**](./schema-connectionmode-mbnprofile-element.md) element.
 
 ## Element hierarchy
 
@@ -82,6 +82,3 @@ None.
  
 
  
-
-
-

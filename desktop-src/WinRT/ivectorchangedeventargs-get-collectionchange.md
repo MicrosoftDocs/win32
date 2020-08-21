@@ -39,7 +39,7 @@ HRESULT get_CollectionChange(
 
 Type: **CollectionChange\***
 
-A value from the [**CollectionChange**](https://msdn.microsoft.com/library/BR226023(v=Win.10).aspx) enumeration that describes the change.
+A value from the [**CollectionChange**](/uwp/api/Windows.Foundation.Collections.CollectionChange?view=winrt-19041) enumeration that describes the change.
 
 </dd> </dl>
 
@@ -71,7 +71,3 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
  
 
  
-
-
-
-

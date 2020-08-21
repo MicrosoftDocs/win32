@@ -23,7 +23,7 @@ topic_type:
 
 Specifies a list of preferred network providers when roaming.
 
-For details, see the documentation for the v1 [**DataRoamingPartners**](https://msdn.microsoft.com/library/Dd323281(v=VS.85).aspx) element.
+For details, see the documentation for the v1 [**DataRoamingPartners**](./schema-dataroamingpartners-mbnprofile-element.md) element.
 
 ## Element hierarchy
 
@@ -117,6 +117,3 @@ None.
  
 
  
-
-
-

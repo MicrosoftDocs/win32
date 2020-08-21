@@ -22,7 +22,7 @@ The ITablet3 interface enables multitouch querying for input.
 
 ## Members
 
-The **ITablet3** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITablet3** also has these types of members:
+The **ITablet3** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ITablet3** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -75,9 +75,4 @@ interface ITablet3 : IUnknown
 
 
  
-
- 
-
-
-
 

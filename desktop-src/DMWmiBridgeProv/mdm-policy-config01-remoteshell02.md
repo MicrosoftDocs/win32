@@ -57,7 +57,7 @@ The **MDM\_Policy\_Config01\_RemoteShell02** class has these properties.
 
 <dl> <dt>
 
-[AllowRemoteShellAccess](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remoteshell#remoteshell-allowremoteshellaccess)
+[AllowRemoteShellAccess](/windows/client-management/mdm/policy-csp-remoteshell#remoteshell-allowremoteshellaccess)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -77,12 +77,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[MaxConcurrentUsers](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remoteshell#remoteshell-maxconcurrentusers)
+[MaxConcurrentUsers](/windows/client-management/mdm/policy-csp-remoteshell#remoteshell-maxconcurrentusers)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -102,12 +102,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[SpecifyIdleTimeout](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remoteshell#remoteshell-specifyidletimeout)
+[SpecifyIdleTimeout](/windows/client-management/mdm/policy-csp-remoteshell#remoteshell-specifyidletimeout)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -118,7 +118,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SpecifyMaxMemory](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remoteshell#remoteshell-specifymaxmemory)
+[SpecifyMaxMemory](/windows/client-management/mdm/policy-csp-remoteshell#remoteshell-specifymaxmemory)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -129,7 +129,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SpecifyMaxProcesses](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remoteshell#remoteshell-specifymaxprocesses)
+[SpecifyMaxProcesses](/windows/client-management/mdm/policy-csp-remoteshell#remoteshell-specifymaxprocesses)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -140,7 +140,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SpecifyMaxRemoteShells](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remoteshell#remoteshell-specifymaxremoteshells)
+[SpecifyMaxRemoteShells](/windows/client-management/mdm/policy-csp-remoteshell#remoteshell-specifymaxremoteshells)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -151,7 +151,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[SpecifyShellTimeout](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remoteshell#remoteshell-specifyshelltimeout)
+[SpecifyShellTimeout](/windows/client-management/mdm/policy-csp-remoteshell#remoteshell-specifyshelltimeout)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -177,10 +177,4 @@ Access type: Read/write
 
 
  
-
- 
-
-
-
-
 

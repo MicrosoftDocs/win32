@@ -1,6 +1,6 @@
 ---
 title: LogonDomain (EapType) Element
-description: Identifies the domain of the user or machine being authenticated.
+description: Learn about the LogonDomain (EapType) element. This element identifies the domain of the user or machine being authenticated.
 ms.assetid: a93793cd-29ee-47f9-8d91-895844c08bae
 keywords:
 - LogonDomain element EAPHost
@@ -38,10 +38,10 @@ If the **LogonDomain (EapType)** element is not present, the domain from winlogo
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

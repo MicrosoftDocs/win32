@@ -45,7 +45,7 @@ A feature level guarantees that a minimum size can be created, however, an appli
 
 ## Special Behavior of Adapters for Feature Level 9
 
-The three lowest feature levels D3D\_FEATURE\_LEVEL\_9\_1, D3D\_FEATURE\_LEVEL\_9\_2 and D3D\_FEATURE\_LEVEL\_9\_3, share a common implementation DLL and treat the [**IDXGIAdapter**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter) argument to D3D11CreateDevice\[AndSwapchain\] as a template adapter and create their own adapter as part of device creation. This means that the **IDXGIAdapter** passed into the creation routine will not be the same adapter as that retrieved from the device via IDXGIDevice::GetAdapter. The impact of this is that the **IDXGIOutputs** enumerated from the passed-in adapter cannot be used to enter fullscreen using any level 9 device, since those outputs are not owned by the device's adapter. It is good practice to discard the passed-in template adapter and retrieve the device's created adapter using IDXGIDevice::GetAdapter, where [**IDXGIDevice**](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevice) can be retrieved using QueryInterface from the Direct3D device interface.
+The three lowest feature levels D3D\_FEATURE\_LEVEL\_9\_1, D3D\_FEATURE\_LEVEL\_9\_2 and D3D\_FEATURE\_LEVEL\_9\_3, share a common implementation DLL and treat the [**IDXGIAdapter**](/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter) argument to D3D11CreateDevice\[AndSwapchain\] as a template adapter and create their own adapter as part of device creation. This means that the **IDXGIAdapter** passed into the creation routine will not be the same adapter as that retrieved from the device via IDXGIDevice::GetAdapter. The impact of this is that the **IDXGIOutputs** enumerated from the passed-in adapter cannot be used to enter fullscreen using any level 9 device, since those outputs are not owned by the device's adapter. It is good practice to discard the passed-in template adapter and retrieve the device's created adapter using IDXGIDevice::GetAdapter, where [**IDXGIDevice**](/windows/desktop/api/dxgi/nn-dxgi-idxgidevice) can be retrieved using QueryInterface from the Direct3D device interface.
 
 ## Related topics
 
@@ -57,7 +57,3 @@ The three lowest feature levels D3D\_FEATURE\_LEVEL\_9\_1, D3D\_FEATURE\_LEVEL\_
  
 
  
-
-
-
-

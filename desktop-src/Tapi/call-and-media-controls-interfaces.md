@@ -32,8 +32,8 @@ The following are the TAPI 3.x call and media controls interfaces. For a listing
 -   [**ITAddressEvent**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddressevent)
 -   [**ITAddressTranslation**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslation)
 -   [**ITAddressTranslationInfo**](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo)
--   [**ITAllocatorProperties**](https://msdn.microsoft.com/library/Aa381934(v=VS.85).aspx)
--   [**ITAMMediaFormat**](https://msdn.microsoft.com/library/Aa382285(v=VS.85).aspx)
+-   [**ITAllocatorProperties**](/windows/win32/api/tapi3/nn-tapi3-itallocatorproperties)
+-   [**ITAMMediaFormat**](/windows/win32/api/tapi3/nn-tapi3-itammediaformat)
 -   [**ITASRTerminalEvent**](/windows/desktop/api/tapi3if/nn-tapi3if-itasrterminalevent)
 -   [**ITAudioDeviceControl**](itaudiodevicecontrol.md)
 -   [**ITAudioSettings**](itaudiosettings.md)
@@ -100,7 +100,7 @@ The following are the TAPI 3.x call and media controls interfaces. For a listing
 -   [**ITStreamQualityControl**](itstreamqualitycontrol.md)
 -   [**ITTAPI**](/windows/desktop/api/tapi3if/nn-tapi3if-ittapi)
 -   [**ITTAPI2**](/windows/desktop/api/tapi3if/nn-tapi3if-ittapi2)
--   [**ITTAPICallCenter**](https://msdn.microsoft.com/library/ms732497(v=VS.85).aspx)
+-   [**ITTAPICallCenter**](/windows/win32/api/tapi3cc/nn-tapi3cc-ittapicallcenter)
 -   [**ITTAPIEventNotification**](/windows/desktop/api/Tapi3if/nn-tapi3if-ittapieventnotification)
 -   [**ITTAPIObjectEvent**](/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent)
 -   [**ITTAPIObjectEvent2**](/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent2)
@@ -121,6 +121,3 @@ The following interfaces are available if an MSP is associated with the call. Th
  
 
  
-
-
-

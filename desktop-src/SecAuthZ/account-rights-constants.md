@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 Account rights determine the type of logon that a user account can perform. An administrator assigns account rights to user and group accounts. Each user's account rights include those granted to the user and to the groups to which the user belongs.
 
-A system administrator can use the [*Local Security Authority*](https://docs.microsoft.com/windows/desktop/SecGloss/l-gly) (LSA) functions to work with account rights. The [**LsaAddAccountRights**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaaddaccountrights) and [**LsaRemoveAccountRights**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaremoveaccountrights) functions add or remove account rights from an account. The [**LsaEnumerateAccountRights**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumerateaccountrights) function enumerates the account rights held by a specified account. The [**LsaEnumerateAccountsWithUserRight**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumerateaccountswithuserright) function enumerates the accounts that hold a specified account right.
+A system administrator can use the [*Local Security Authority*](/windows/desktop/SecGloss/l-gly) (LSA) functions to work with account rights. The [**LsaAddAccountRights**](/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaaddaccountrights) and [**LsaRemoveAccountRights**](/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaremoveaccountrights) functions add or remove account rights from an account. The [**LsaEnumerateAccountRights**](/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumerateaccountrights) function enumerates the account rights held by a specified account. The [**LsaEnumerateAccountsWithUserRight**](/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumerateaccountswithuserright) function enumerates the accounts that hold a specified account right.
 
-The following account right constants are used to control the logon ability of an account. The [**LogonUser**](https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera) or [**LsaLogonUser**](https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser) functions fail if the account being logged on does not have the account rights required for the type of logon being performed.
+The following account right constants are used to control the logon ability of an account. The [**LogonUser**](/windows/desktop/api/winbase/nf-winbase-logonusera) or [**LsaLogonUser**](/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser) functions fail if the account being logged on does not have the account rights required for the type of logon being performed.
 
 
 
@@ -35,7 +35,7 @@ The following account right constants are used to control the logon ability of a
 
 The SE\_DENY rights override the corresponding account rights. An administrator can assign an SE\_DENY right to an account to override any logon rights that an account might have as a result of a group membership. For example, you could assign the SE\_NETWORK\_LOGON\_NAME right to Everyone but assign the SE\_DENY\_NETWORK\_LOGON\_NAME right to Administrators to prevent remote administration of computers.
 
-All of the LSA functions mentioned in the introduction above support both account rights and [privileges](privilege-constants.md). Unlike privileges, however, account rights are not supported by the [**LookupPrivilegeValue**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegevaluea) and [**LookupPrivilegeName**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegenamea) functions. The [**GetTokenInformation**](https://msdn.microsoft.com/library/Aa446671(v=VS.85).aspx) function will obtain information on account rights if TokenGroups, and not TokenPrivileges, is specified as the value of the *TokenInformationClass* parameter.
+All of the LSA functions mentioned in the introduction above support both account rights and [privileges](privilege-constants.md). Unlike privileges, however, account rights are not supported by the [**LookupPrivilegeValue**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegevaluea) and [**LookupPrivilegeName**](/windows/desktop/api/Winbase/nf-winbase-lookupprivilegenamea) functions. The [**GetTokenInformation**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-gettokeninformation) function will obtain information on account rights if TokenGroups, and not TokenPrivileges, is specified as the value of the *TokenInformationClass* parameter.
 
 The preceding account right constants are defined as strings in Ntsecapi.h. For example, the SE\_INTERACTIVE\_LOGON\_NAME constant is defined as "SeInteractiveLogonRight".
 
@@ -52,9 +52,4 @@ The preceding account right constants are defined as strings in Ntsecapi.h. For 
 
 
  
-
- 
-
-
-
 

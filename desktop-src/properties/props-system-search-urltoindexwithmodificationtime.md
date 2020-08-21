@@ -27,9 +27,9 @@ propertyDescription
 
 ## Remarks
 
-This [System.Search.UrlToIndexWithModificationTime](https://msdn.microsoft.com/library/Bb760179(v=VS.85).aspx) property is the same as the [System.Search.UrlToIndex](https://msdn.microsoft.com/library/Bb760177(v=VS.85).aspx) property, except that you also pass in the last modified time of the document. If the last modified time matches, the indexer assumes that the document is already indexed and throws away the notification. This property is a vector with two elements, a **VT\_LPWSTR** value that contains the URL and a **VT\_FILETIME** value that contains the last modified time.
+This [System.Search.UrlToIndexWithModificationTime]() property is the same as the [System.Search.UrlToIndex](/previous-versions/windows/desktop/legacy/bb760177(v=vs.85)) property, except that you also pass in the last modified time of the document. If the last modified time matches, the indexer assumes that the document is already indexed and throws away the notification. This property is a vector with two elements, a **VT\_LPWSTR** value that contains the URL and a **VT\_FILETIME** value that contains the last modified time.
 
-[System.Search.UrlToIndexWithModificationTime](https://msdn.microsoft.com/library/Bb760179(v=VS.85).aspx) was called PID\_GTHR\_DIRLINK\_WITH\_TIME in earlier versions of the Windows operating system.
+[System.Search.UrlToIndexWithModificationTime]() was called PID\_GTHR\_DIRLINK\_WITH\_TIME in earlier versions of the Windows operating system.
 
 PKEY values are defined in Propkey.h.
 
@@ -37,54 +37,51 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[System.Search.UrlToIndex](https://msdn.microsoft.com/library/Bb760177(v=VS.85).aspx)
+[System.Search.UrlToIndex](/previous-versions/windows/desktop/legacy/bb760177(v=vs.85))
 </dt> <dt>
 
-[propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx)
+[propertyDescription](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[searchInfo](https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx)
+[searchInfo](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[labelInfo](https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx)
+[labelInfo](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[typeInfo](https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx)
+[typeInfo](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[displayInfo](https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx)
+[displayInfo](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[stringFormat](https://msdn.microsoft.com/library/Bb773886(v=VS.85).aspx)
+[stringFormat](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[booleanFormat](https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx)
+[booleanFormat](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[numberFormat](https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx)
+[numberFormat](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[dateTimeFormat](https://msdn.microsoft.com/library/Bb773863(v=VS.85).aspx)
+[dateTimeFormat](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[enumeratedList](https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx)
+[enumeratedList](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[drawControl](https://msdn.microsoft.com/library/Bb773866(v=VS.85).aspx)
+[drawControl](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[editControl](https://msdn.microsoft.com/library/Bb773868(v=VS.85).aspx)
+[editControl](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[filterControl](https://msdn.microsoft.com/library/Bb773874(v=VS.85).aspx)
+[filterControl](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[queryControl](https://msdn.microsoft.com/library/Bb773883(v=VS.85).aspx)
+[queryControl](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  
 
  
-
-
-

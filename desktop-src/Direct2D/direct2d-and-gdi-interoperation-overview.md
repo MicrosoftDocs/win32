@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Direct2D and GDI Interoperability Overview
 
-This topic describes how to use Direct2D and [GDI](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi) together. There are two ways to combine Direct2D with GDI: you can write GDI content to a Direct2D GDI-compatible render target, or you can write Direct2D content to a [GDI Device Context (DC)](https://docs.microsoft.com/windows/desktop/gdi/device-contexts).
+This topic describes how to use Direct2D and [GDI](/windows/desktop/gdi/windows-gdi) together. There are two ways to combine Direct2D with GDI: you can write GDI content to a Direct2D GDI-compatible render target, or you can write Direct2D content to a [GDI Device Context (DC)](/windows/desktop/gdi/device-contexts).
 
 This topic contains the following sections.
 
@@ -33,9 +33,9 @@ This overview assumes that you are familiar with basic Direct2D drawing operatio
 
 ## Draw Direct2D Content to a GDI Device Context
 
-To draw Direct2D content to a GDI DC, you use an [**ID2D1DCRenderTarget**](https://msdn.microsoft.com/library/Dd371213(v=VS.85).aspx). To create a DC render target, you use the [**ID2D1Factory::CreateDCRenderTarget**](https://msdn.microsoft.com/library/Dd371248(v=VS.85).aspx) method. This method takes two parameters.
+To draw Direct2D content to a GDI DC, you use an [**ID2D1DCRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget). To create a DC render target, you use the [**ID2D1Factory::CreateDCRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdcrendertarget) method. This method takes two parameters.
 
-The first parameter, a [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure, specifies rendering, remoting, DPI, pixel format, and usage information. To enable the DC render target to work with GDI, set the DXGI format to [DXGI\_FORMAT\_B8G8R8A8\_UNORM](https://msdn.microsoft.com/library/bb173059(VS.85).aspx) and the alpha mode to [**D2D1\_ALPHA\_MODE\_PREMULTIPLIED**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) or **D2D1\_ALPHA\_MODE\_IGNORE**.
+The first parameter, a [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) structure, specifies rendering, remoting, DPI, pixel format, and usage information. To enable the DC render target to work with GDI, set the DXGI format to [DXGI\_FORMAT\_B8G8R8A8\_UNORM](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) and the alpha mode to [**D2D1\_ALPHA\_MODE\_PREMULTIPLIED**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) or **D2D1\_ALPHA\_MODE\_IGNORE**.
 
 The second parameter is the address of the pointer that receive the DC render target reference.
 
@@ -60,11 +60,11 @@ hr = m_pD2DFactory->CreateDCRenderTarget(&props, &m_pDCRT);
 
 
 
-In the preceding code, *m\_pD2DFactory* is a pointer to an [**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx), and *m\_pDCRT* is a pointer to an [**ID2D1DCRenderTarget**](https://msdn.microsoft.com/library/Dd371213(v=VS.85).aspx).
+In the preceding code, *m\_pD2DFactory* is a pointer to an [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory), and *m\_pDCRT* is a pointer to an [**ID2D1DCRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget).
 
-Before you can render with the DC render target, you must use its [**BindDC**](https://msdn.microsoft.com/library/Dd371214(v=VS.85).aspx) method to associate it with a GDI DC. You do this each time you use a different DC, or the size of the area you want to draw to changes.
+Before you can render with the DC render target, you must use its [**BindDC**](/windows/win32/api/d2d1/nf-d2d1-id2d1dcrendertarget-binddc) method to associate it with a GDI DC. You do this each time you use a different DC, or the size of the area you want to draw to changes.
 
-The [**BindDC**](https://msdn.microsoft.com/library/Dd371214(v=VS.85).aspx) method takes two parameters, *hDC* and *pSubRect*. The *hDC* parameter provides a handle to the device context that receives the output of the render target. The *pSubRect* parameter is a rectangle that describes the portion of the device context to which content is rendered. The DC render target updates its size to match the device context area described by *pSubRect*, should it change size.
+The [**BindDC**](/windows/win32/api/d2d1/nf-d2d1-id2d1dcrendertarget-binddc) method takes two parameters, *hDC* and *pSubRect*. The *hDC* parameter provides a handle to the device context that receives the output of the render target. The *pSubRect* parameter is a rectangle that describes the portion of the device context to which content is rendered. The DC render target updates its size to match the device context area described by *pSubRect*, should it change size.
 
 The following code binds a DC to a DC render target.
 
@@ -235,17 +235,17 @@ This code produces outputs as shown in the following illustration (callouts have
 
 ## ID2D1DCRenderTargets, GDI Transforms, and Right-to-Left Language Builds of Windows
 
-When you use an [**ID2D1DCRenderTarget**](https://msdn.microsoft.com/library/Dd371213(v=VS.85).aspx), it renders Direct2D content to an internal bitmap, and then renders the bitmap to the DC with GDI.
+When you use an [**ID2D1DCRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget), it renders Direct2D content to an internal bitmap, and then renders the bitmap to the DC with GDI.
 
-It's possible for GDI to apply a GDI transform (through the [**SetWorldTransform**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setworldtransform) method) or other effect to the same DC used by the render target, in which case GDI transforms the bitmap produced by Direct2D. Using a GDI transform to transform the Direct2D content has the potential to degrade the visual quality of the output, because you're transforming a bitmap for which antialiasing and subpixel positioning have already been calculated.
+It's possible for GDI to apply a GDI transform (through the [**SetWorldTransform**](/windows/desktop/api/wingdi/nf-wingdi-setworldtransform) method) or other effect to the same DC used by the render target, in which case GDI transforms the bitmap produced by Direct2D. Using a GDI transform to transform the Direct2D content has the potential to degrade the visual quality of the output, because you're transforming a bitmap for which antialiasing and subpixel positioning have already been calculated.
 
 For example, suppose you use the render target to draw a scene that contains antialiased geometries and text. If you use a GDI transform to apply a scale transform to the DC and scale the scene so that it's 10 times larger, you'll see pixelization and jagged edges. (If, however, you applied a similar transform using Direct2D, the visual quality of the scene would not be degraded.)
 
-In some cases, it might not be obvious that GDI is performing additional processing that might degrade the quality of the Direct2D content. For example, on a right-to-left (RTL) build of Windows, content rendered by an [**ID2D1DCRenderTarget**](https://msdn.microsoft.com/library/Dd371213(v=VS.85).aspx) might be horizontally inverted when GDI copies it to its destination. Whether the content is actually inverted depends on the current settings of the DC.
+In some cases, it might not be obvious that GDI is performing additional processing that might degrade the quality of the Direct2D content. For example, on a right-to-left (RTL) build of Windows, content rendered by an [**ID2D1DCRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget) might be horizontally inverted when GDI copies it to its destination. Whether the content is actually inverted depends on the current settings of the DC.
 
 Depending on the type of content being rendered, you might want to prevent the inversion. If the Direct2D content includes ClearType text, this inversion will degrade the quality of the text.
 
-You can control RTL rendering behavior by using the [**SetLayout**](https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setlayout) GDI function. To prevent the mirroring, call the **SetLayout** GDI function and specify **LAYOUT\_BITMAPORIENTATIONPRESERVED** as the only value for the second parameter (do not combine it with **LAYOUT\_RTL**), as shown in the following example:
+You can control RTL rendering behavior by using the [**SetLayout**](/windows/desktop/api/wingdi/nf-wingdi-setlayout) GDI function. To prevent the mirroring, call the **SetLayout** GDI function and specify **LAYOUT\_BITMAPORIENTATIONPRESERVED** as the only value for the second parameter (do not combine it with **LAYOUT\_RTL**), as shown in the following example:
 
 
 ```C++
@@ -258,7 +258,7 @@ SetLayout(m_hwnd, LAYOUT_BITMAPORIENTATIONPRESERVED);
 
 The previous section describes how to write Direct2D content to a GDI DC. You can also write GDI content to a Direct2D GDI-compatible render target. This approach is useful for applications that primarily render with Direct2D but have an extensibility model or other legacy content that requires the ability to render with GDI.
 
-To render GDI content to a Direct2D GDI-compatible render target, use an [**ID2D1GdiInteropRenderTarget**](https://msdn.microsoft.com/library/Dd371321(v=VS.85).aspx), which provides access to a device context that can accept GDI draw calls. Unlike other interfaces, an **ID2D1GdiInteropRenderTarget** object is not created directly. Instead, use the [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) method of an existing render target instance. The following code shows how to do this:
+To render GDI content to a Direct2D GDI-compatible render target, use an [**ID2D1GdiInteropRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1gdiinteroprendertarget), which provides access to a device context that can accept GDI draw calls. Unlike other interfaces, an **ID2D1GdiInteropRenderTarget** object is not created directly. Instead, use the [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) method of an existing render target instance. The following code shows how to do this:
 
 
 ```C++
@@ -281,11 +281,11 @@ To render GDI content to a Direct2D GDI-compatible render target, use an [**ID2D
 
 
 
-In the preceding code, *m\_pD2DFactory* is a pointer to an [**ID2D1Factory**](https://msdn.microsoft.com/library/Dd371246(v=VS.85).aspx), and *m\_pGDIRT* is a pointer to an [**ID2D1GdiInteropRenderTarget**](https://msdn.microsoft.com/library/Dd371321(v=VS.85).aspx).
+In the preceding code, *m\_pD2DFactory* is a pointer to an [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory), and *m\_pGDIRT* is a pointer to an [**ID2D1GdiInteropRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1gdiinteroprendertarget).
 
-Notice that the[**D2D1\_RENDER\_TARGET\_USAGE\_GDI\_COMPATIBLE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_usage) flag is specified when creating the Hwnd GDI-compatible render target. If a pixel format is required, use [DXGI\_FORMAT\_B8G8R8A8\_UNORM](https://msdn.microsoft.com/library/bb173059(VS.85).aspx). If an alpha mode is required, use [**D2D1\_ALPHA\_MODE\_PREMULTIPLIED**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) or **D2D1\_ALPHA\_MODE\_IGNORE**.
+Notice that the[**D2D1\_RENDER\_TARGET\_USAGE\_GDI\_COMPATIBLE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_usage) flag is specified when creating the Hwnd GDI-compatible render target. If a pixel format is required, use [DXGI\_FORMAT\_B8G8R8A8\_UNORM](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format). If an alpha mode is required, use [**D2D1\_ALPHA\_MODE\_PREMULTIPLIED**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) or **D2D1\_ALPHA\_MODE\_IGNORE**.
 
-Note that the [**QueryInterface**](https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx) method always succeeds. To test whether the [**ID2D1GdiInteropRenderTarget**](https://msdn.microsoft.com/library/Dd371321(v=VS.85).aspx) interface's methods will work for a given render target, create a [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) that specifies GDI compatibility and the appropriate pixel format, and then call the render target's [**IsSupported**](https://msdn.microsoft.com/library/Dd742854(v=VS.85).aspx) method to see whether the render target is GDI-compatible.
+Note that the [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) method always succeeds. To test whether the [**ID2D1GdiInteropRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1gdiinteroprendertarget) interface's methods will work for a given render target, create a [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) that specifies GDI compatibility and the appropriate pixel format, and then call the render target's [**IsSupported**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-issupported(constd2d1_render_target_properties)) method to see whether the render target is GDI-compatible.
 
 The following example shows how to draw a pie chart (GDI content) to the Hwnd GDI-compatible render target.
 
@@ -350,28 +350,24 @@ The code outputs charts as shown in the following illustration with callouts to 
 
 <dl> <dt>
 
-[**ID2D1Factory::CreateDCRenderTarget**](https://msdn.microsoft.com/library/Dd371248(v=VS.85).aspx)
+[**ID2D1Factory::CreateDCRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdcrendertarget)
 </dt> <dt>
 
-[**ID2D1DCRenderTarget**](https://msdn.microsoft.com/library/Dd371213(v=VS.85).aspx)
+[**ID2D1DCRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget)
 </dt> <dt>
 
-[**ID2D1GdiInteropRenderTarget**](https://msdn.microsoft.com/library/Dd371321(v=VS.85).aspx)
+[**ID2D1GdiInteropRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1gdiinteroprendertarget)
 </dt> <dt>
 
 [**D2D1\_RENDER\_TARGET\_PROPERTIES**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties)
 </dt> <dt>
 
-[GDI Device Contexts](https://docs.microsoft.com/windows/desktop/gdi/device-contexts)
+[GDI Device Contexts](/windows/desktop/gdi/device-contexts)
 </dt> <dt>
 
-[GDI SDK](https://docs.microsoft.com/windows/desktop/gdi/windows-gdi)
+[GDI SDK](/windows/desktop/gdi/windows-gdi)
 </dt> </dl>
 
  
 
  
-
-
-
-

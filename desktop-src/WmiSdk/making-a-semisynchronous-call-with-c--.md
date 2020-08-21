@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Making a Semisynchronous Call with C++
 
-Semisynchronous calls are the recommended means to call WMI methods, such as [**IWbemServices::ExecMethod**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethod) and provider methods, such as the [**Chkdsk Method of the Win32\_LogicalDisk Class**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/chkdsk-method-in-class-win32-logicaldisk).
+Semisynchronous calls are the recommended means to call WMI methods, such as [**IWbemServices::ExecMethod**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethod) and provider methods, such as the [**Chkdsk Method of the Win32\_LogicalDisk Class**](/windows/desktop/CIMWin32Prov/chkdsk-method-in-class-win32-logicaldisk).
 
 One disadvantage of synchronous processing is that the caller thread is blocked until the call completes. The blockage can cause a delay in processing time. In contrast, an asynchronous call must implement [**SWbemSink**](swbemsink.md) in script. In C++, asynchronous code must implement the [**IWbemObjectSink**](iwbemobjectsink.md) interface, use multiple threads, and control the flow of information back to the caller. Large result sets from queries, for example, can take a considerable amount of time to deliver and forces the caller to spend significant system resources to handle the delivery.
 
@@ -31,7 +31,7 @@ The following procedure describes how to make a semisynchronous call with the [*
 
 3.  Finish your call.
 
-    For a call that returns an enumerator, WMI calls [**IWbemObjectSink::SetStatus**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus) to report the completion of the operation. If you do not need the entire result, release the enumerator by calling the [**IEnumWbemClassObject**](/windows/desktop/api/Wbemcli/nn-wbemcli-ienumwbemclassobject)::[**Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) method. Calling **Release** results in WMI canceling the delivery of all objects that remain.
+    For a call that returns an enumerator, WMI calls [**IWbemObjectSink::SetStatus**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus) to report the completion of the operation. If you do not need the entire result, release the enumerator by calling the [**IEnumWbemClassObject**](/windows/desktop/api/Wbemcli/nn-wbemcli-ienumwbemclassobject)::[**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method. Calling **Release** results in WMI canceling the delivery of all objects that remain.
 
     For a call that does not use an enumerator, retrieve the [**GetCallStatus**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemcallresult-getcallstatus) object through the *plStatus* parameter of your method.
 
@@ -105,6 +105,3 @@ void GetObjSemiSync(IWbemServices *pSvc)
  
 
  
-
-
-

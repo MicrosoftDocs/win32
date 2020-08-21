@@ -14,7 +14,7 @@ The following methods are defined by the [**IMSCEPSetup**](/windows/desktop/api/
 
 | Method                                                             | Description                                                                                                                                                                                                                                                                       |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetKeyLengthList**](/windows/desktop/api/Casetup/nf-casetup-imscepsetup-getkeylengthlist)           | Gets the list of [*key lengths*](https://msdn.microsoft.com/library/ms721590(v=VS.85).aspx) supported by the specified [*cryptographic service provider*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) (CSP). |
+| [**GetKeyLengthList**](/windows/desktop/api/Casetup/nf-casetup-imscepsetup-getkeylengthlist)           | Gets the list of [*key lengths*](../secgloss/k-gly.md) supported by the specified [*cryptographic service provider*](../secgloss/c-gly.md) (CSP). |
 | [**GetMSCEPSetupProperty**](/windows/desktop/api/Casetup/nf-casetup-imscepsetup-getmscepsetupproperty) | Gets a property value for a Network Device Enrollment Service (NDES) configuration.                                                                                                                                                                                               |
 | [**GetProviderNameList**](/windows/desktop/api/Casetup/nf-casetup-imscepsetup-getprovidernamelist)     | Gets the list of CSPs that provide asymmetric key signature and exchange algorithms on the computer.                                                                                                                                                                              |
 | [**InitializeDefaults**](/windows/desktop/api/Casetup/nf-casetup-imscepsetup-initializedefaults)       | Initializes a **CMSCEPSetup** object with default values to enable installation of an NDES role.                                                                                                                                                                                  |
@@ -32,6 +32,3 @@ The following methods are defined by the [**IMSCEPSetup**](/windows/desktop/api/
  
 
  
-
-
-

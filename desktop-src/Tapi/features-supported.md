@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The following list contains the TAPI MSP supported features.
 
 -   Implements an MSP that handles a single address per instance of the MSP. Multiple like addresses are handled by instantiating the MSP multiple times. This greatly simplifies the implementation of the MSP and the base classes.
--   Implements all the MSPI interfaces, including [**ITMSPAddress**](/windows/desktop/api/msp/nn-msp-itmspaddress), [**ITTerminalSupport**](https://msdn.microsoft.com/library/ms733156(v=VS.85).aspx), [**ITStreamControl**](https://msdn.microsoft.com/library/ms732393(v=VS.85).aspx), and [**ITStream**](https://msdn.microsoft.com/library/ms732390(v=VS.85).aspx).
+-   Implements all the MSPI interfaces, including [**ITMSPAddress**](/windows/desktop/api/msp/nn-msp-itmspaddress), [**ITTerminalSupport**](/windows/win32/api/tapi3if/nn-tapi3if-itterminalsupport), [**ITStreamControl**](/windows/win32/api/tapi3if/nn-tapi3if-itstreamcontrol), and [**ITStream**](/windows/win32/api/tapi3if/nn-tapi3if-itstream).
 -   Implements ready-to-use static terminals for both audio and video.
 -   Implements generic terminal base classes. These terminal base classes are used by both the above-mentioned static terminal implementations and the implementations of dynamic terminals that are found in Termmgr.dll. The MSP can also use them to implement additional terminals.
 -   Uses the Terminal Manager to handle dynamic terminals. Creates dynamic terminals on a worker thread with a message pump (to free console applications from having to process window messages for video render terminals and to simplify synchronization issues).
@@ -24,6 +24,3 @@ The following list contains the TAPI MSP supported features.
  
 
  
-
-
-

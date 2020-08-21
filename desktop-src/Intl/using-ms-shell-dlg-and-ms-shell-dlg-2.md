@@ -12,7 +12,7 @@ Windows is available in localized editions for many languages. However, the Engl
 
 The problem in selecting the font for a user interface is obvious. For example, the shell font, also known as the system or default font, for English (United States) Windows 98 is MS Sans Serif, while the shell font for Greek (Greece) Windows 98 is MS Sans Serif Greek. For Japanese (Japan) Windows 98, the shell font is MS UI Gothic. These character sets cannot be directly mapped to each other. Replacing MS Sans Serif with MS Sans Serif Greek when the locale is set to Greek (Greece) does not allow existing applications to run adequately or to display Greek characters in system menus, dialog boxes, and edit controls.
 
-Windows solves this problem by using the MS Shell Dlg and MS Shell Dlg 2 logical fonts to allow selection of the appropriate font for script display. This section addresses several programming considerations for using the logical fonts to implement dialog boxes, menus, and the like for flexible user interfaces that display well on all supported Windows operating systems and across all languages. For more information, see [Font Creation and Selection](https://msdn.microsoft.com/library/Dd144826(v=VS.85).aspx). See also [Multilingual User Interface](multilingual-user-interface.md) for a discussion of the use of the Multilingual User Interface (MUI) technology in creating user interfaces for your multilingual applications.
+Windows solves this problem by using the MS Shell Dlg and MS Shell Dlg 2 logical fonts to allow selection of the appropriate font for script display. This section addresses several programming considerations for using the logical fonts to implement dialog boxes, menus, and the like for flexible user interfaces that display well on all supported Windows operating systems and across all languages. For more information, see [Font Creation and Selection](../gdi/font-creation-and-selection.md). See also [Multilingual User Interface](multilingual-user-interface.md) for a discussion of the use of the Multilingual User Interface (MUI) technology in creating user interfaces for your multilingual applications.
 
 ## About the Logical Fonts
 
@@ -84,6 +84,3 @@ For example, if the user is using a German-language version of Windows and wants
  
 
  
-
-
-

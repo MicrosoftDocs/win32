@@ -19,7 +19,7 @@ api_location:
 
 \[This function is a wrapper over the **GetDiskFreeSpaceEx** function. This function may be altered or unavailable in the future. Applications should call **GetDiskFreeSpaceEx** directly.\]
 
-Gets the free disk space. See [**GetDiskFreeSpaceEx**](https://msdn.microsoft.com/library/Aa364937(v=VS.85).aspx).
+Gets the free disk space. See [**GetDiskFreeSpaceEx**](/windows/win32/api/fileapi/nf-fileapi-getdiskfreespaceexa).
 
 ## Syntax
 
@@ -53,13 +53,9 @@ BOOL _GetDiskFreeSpaceEx(
 
 <dl> <dt>
 
-[**GetDiskFreeSpaceEx**](https://msdn.microsoft.com/library/Aa364937(v=VS.85).aspx)
+[**GetDiskFreeSpaceEx**](/windows/win32/api/fileapi/nf-fileapi-getdiskfreespaceexa)
 </dt> </dl>
 
  
 
  
-
-
-
-

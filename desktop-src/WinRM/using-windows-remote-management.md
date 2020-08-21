@@ -16,7 +16,7 @@ api_location:
 
 Windows Remote Management is intended to improve hardware management in a network environment with various devices running a variety of operating systems. The entire design of the service is focused on monitoring and managing remote computers by implementing an interoperable standard protocol.
 
-Because the [WinRM Scripting API](winrm-scripting-api.md) and the [WinRM C++ API](winrm-c---api.md) implement and closely model the operations defined for the WS-Management protocol, scripts and applications receive streams of XML in response to requests. Input parameters to method calls must be constructed in XML. You can use the methods of the [MSXML](https://msdn.microsoft.com/library/ms763742.aspx) API to display or construct XML strings. For an example, see [Displaying XML Output from WinRM Scripts](displaying-xml-output-from-winrm-scripts.md).
+Because the [WinRM Scripting API](winrm-scripting-api.md) and the [WinRM C++ API](winrm-c---api.md) implement and closely model the operations defined for the WS-Management protocol, scripts and applications receive streams of XML in response to requests. Input parameters to method calls must be constructed in XML. You can use the methods of the [MSXML](/previous-versions/windows/desktop/ms763742(v=vs.85)) API to display or construct XML strings. For an example, see [Displaying XML Output from WinRM Scripts](displaying-xml-output-from-winrm-scripts.md).
 
 The following list includes topics that describe how to use WinRM scripting:
 
@@ -29,7 +29,7 @@ The following list includes topics that describe how to use WinRM scripting:
 
 ## Tracing WinRM Activity
 
-Because WinRM obtains data through [Windows Management Instrumentation (WMI)](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page), you can trace WMI activity that results from WinRM messages. Starting with Windows Vista, the WMI service no longer uses the [WMI Log Files](https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-log-files). Instead it uses [Event Tracing](https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal) (ETW) and events are available through the **Event Viewer** UI or the Evtutil command line tool.
+Because WinRM obtains data through [Windows Management Instrumentation (WMI)](/windows/desktop/WmiSdk/wmi-start-page), you can trace WMI activity that results from WinRM messages. Starting with Windows Vista, the WMI service no longer uses the [WMI Log Files](/windows/desktop/WmiSdk/wmi-log-files). Instead it uses [Event Tracing](/windows/desktop/ETW/event-tracing-portal) (ETW) and events are available through the **Event Viewer** UI or the Evtutil command line tool.
 
 ## Related topics
 
@@ -50,7 +50,3 @@ Because WinRM obtains data through [Windows Management Instrumentation (WMI)](ht
  
 
  
-
-
-
-

@@ -26,7 +26,7 @@ Request for callstack data.
 
 ## Members
 
-The **ICallStackRequest** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ICallStackRequest** also has these types of members:
+The **ICallStackRequest** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **ICallStackRequest** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **ICallStackRequest** interface has these methods.
  
 
  
-
-
-

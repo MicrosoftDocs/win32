@@ -55,7 +55,7 @@ Data type: **CIM\_CollectionOfMSEs**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Antecedent")
 </dt> </dl>
 
 A [**CIM\_CollectionOfMSEs**](cim-collectionofmses.md) that represents the independent object in this association.
@@ -71,7 +71,7 @@ Data type: **CIM\_Collection**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**Key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier), [**Override**](https://docs.microsoft.com/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
+Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Dependent")
 </dt> </dl>
 
 A [**CIM\_Collection**](cim-collection.md) that represents the object that is dependent on the **Antecedent.**
@@ -100,9 +100,4 @@ A [**CIM\_Collection**](cim-collection.md) that represents the object that is de
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -15,9 +15,9 @@ With Microsoft Windows Desktop Search (WDS) 2.6, protocol handlers for a given 
 
 ## ISearchItemsChangedSink
 
-Protocol handlers notify the Indexer of changes through the [**ISearchItemsChangedSink**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchitemschangedsink) interface. Information about data changes should be collected in SEARCH\_ITEM\_CHANGE structs and SEARCH\_KIND\_OF\_CHANGE enumeration types and then communicated to the Indexer through the **OnItemsChanged** method of the **ISearchItemsChangedSink** interface.
+Protocol handlers notify the Indexer of changes through the [**ISearchItemsChangedSink**](/windows/desktop/api/searchapi/nn-searchapi-isearchitemschangedsink) interface. Information about data changes should be collected in SEARCH\_ITEM\_CHANGE structs and SEARCH\_KIND\_OF\_CHANGE enumeration types and then communicated to the Indexer through the **OnItemsChanged** method of the **ISearchItemsChangedSink** interface.
 
-To access this interface, a custom protocol handlers must first instantiate an [**ISearchManager**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchmanager) object to gain access to the [**ISearchCatalogManager**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchcatalogmanager) object. From there, one can instantiate an [**ISearchItemsChangedSink**](https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchitemschangedsink) object and notify the Indexer of the data changes.
+To access this interface, a custom protocol handlers must first instantiate an [**ISearchManager**](/windows/desktop/api/searchapi/nn-searchapi-isearchmanager) object to gain access to the [**ISearchCatalogManager**](/windows/desktop/api/searchapi/nn-searchapi-isearchcatalogmanager) object. From there, one can instantiate an [**ISearchItemsChangedSink**](/windows/desktop/api/searchapi/nn-searchapi-isearchitemschangedsink) object and notify the Indexer of the data changes.
 
 The OnItemsChanged method lets you collect and communicate data changes to your customer data store to initiate indexing.
 
@@ -82,7 +82,3 @@ The SEARCH\_NOTIFICATION\_PRIORITY enumeration is defined as follows:
  
 
  
-
-
-
-

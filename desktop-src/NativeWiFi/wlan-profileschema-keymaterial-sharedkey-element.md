@@ -50,7 +50,7 @@ Key material returned by [**WlanGetProfile**](/windows/desktop/api/wlanapi/nf-wl
 
 **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** The key material is never encrypted.
 
-If your process runs in the context of the LocalSystem account, then you can unencrypt key material by calling [**CryptUnprotectData**](https://msdn.microsoft.com/library/Aa380882(v=VS.85).aspx).
+If your process runs in the context of the LocalSystem account, then you can unencrypt key material by calling [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata).
 
 ## Examples
 
@@ -87,7 +87,3 @@ To view sample profiles that use the **keyMaterial** element, see [Non-Broadcast
  
 
  
-
-
-
-

@@ -118,7 +118,7 @@ A command buffer that the GPU can execute. A direct command list doesn't inherit
 <span id="direct3d12.directx_12_glossary_fence"></span><span id="DIRECT3D12.DIRECTX_12_GLOSSARY_FENCE"></span>**fence**
 </dt> <dd>
 
-A mechanism to synchronize the GPU and CPU. Both the GPU and CPU can be instructed to wait at a fence, waiting in effect for the other processor to catch up. See [Multi-engine synchronization](/windows/win32/direct3d12/user-mode-heap-synchronization).
+A mechanism to synchronize the GPU and CPU. Both the GPU and CPU can be instructed to wait at a fence, waiting in effect for the other processor to catch up. See [Multi-engine synchronization](./user-mode-heap-synchronization.md).
 
 </dd> <dt>
 
@@ -241,7 +241,7 @@ A user-mode heap that is focused on multiple GPU-read-only resources that are ty
 <span id="direct3d12.directx_12_glossary_swap_chain"></span><span id="DIRECT3D12.DIRECTX_12_GLOSSARY_SWAP_CHAIN"></span>**swap chain**
 </dt> <dd>
 
-Swap chains control the back buffer rotation, forming the basis of graphics animation. Swap chains are handled by the low level API set DXGI (see [DXGI Overview](/windows/win32/direct3ddxgi/d3d10-graphics-programming-guide-dxgi)).
+Swap chains control the back buffer rotation, forming the basis of graphics animation. Swap chains are handled by the low level API set DXGI (see [DXGI Overview](../direct3ddxgi/d3d10-graphics-programming-guide-dxgi.md)).
 
 </dd> <dt>
 
@@ -304,7 +304,3 @@ Three-dimensional [tiled resources](/windows).
  
 
  
-
-
-
-

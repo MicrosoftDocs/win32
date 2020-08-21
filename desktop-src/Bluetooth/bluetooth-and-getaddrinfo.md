@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Bluetooth and getaddrinfo
 
-The [**getaddrinfo**](https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo) function provides translation from host name to address for IP-based transports. Because the **getaddrinfo** function is specific to IP-based transports, it fails on Bluetooth sockets.
+The [**getaddrinfo**](/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo) function provides translation from host name to address for IP-based transports. Because the **getaddrinfo** function is specific to IP-based transports, it fails on Bluetooth sockets.
 
 To perform translation from host name to address for Bluetooth sockets, use the [**WSALookupServiceBegin**](bluetooth-and-wsalookupservicebegin-for-device-inquiry.md) function with **LUP\_CONTAINERS** to query remote devices, then search for a specific matching Remote Name and corresponding address.
 
@@ -18,19 +18,15 @@ To perform translation from host name to address for Bluetooth sockets, use the 
 
 <dl> <dt>
 
-[Windows Sockets](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2)
+[Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> <dt>
 
-[**getaddrinfo**](https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo)
+[**getaddrinfo**](/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo)
 </dt> <dt>
 
-[**WSALookupServiceBegin**](https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)
+[**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)
 </dt> </dl>
 
  
 
  
-
-
-
-

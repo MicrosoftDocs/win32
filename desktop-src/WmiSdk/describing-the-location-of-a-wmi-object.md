@@ -11,11 +11,11 @@ ms.date: 05/31/2018
 
 Conceptually similar to a Uniform Resource Locator (URL), a WMI object path is a string that uniquely identifies the namespace on a server, a class within a namespace, or instances of a class. An object path is hierarchical, and contains several elements that describe the location of the object in question. Like file paths, WMI object paths can be described in full or specified as a relative path.
 
-The namespace of a WMI object is listed on the WMI reference page. For example, the location of most of the classes supported by the [CIMWin32 WMI Providers](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/cimwin32-wmi-providers) are located in the \\root\\cimv2 namespace. The following PowerShell code describes a call to retrieve the [**Win32\_ComputerSystem**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-computersystem) object on your local machine:
+The namespace of a WMI object is listed on the WMI reference page. For example, the location of most of the classes supported by the [CIMWin32 WMI Providers](/windows/desktop/CIMWin32Prov/cimwin32-wmi-providers) are located in the \\root\\cimv2 namespace. The following PowerShell code describes a call to retrieve the [**Win32\_ComputerSystem**](/windows/desktop/CIMWin32Prov/win32-computersystem) object on your local machine:
 
 `Get-WmiObject -Class Win32_ComputerSystem -Namespace "root\cimv2" -ComputerName "."`
 
-Alternately, a specific instance of [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) may have the following path from the [**SWbemObject.Path\_**](swbemobject-path-.md) property.
+Alternately, a specific instance of [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) may have the following path from the [**SWbemObject.Path\_**](swbemobject-path-.md) property.
 
 `\\Machine1\root\cimv2:Win32_LogicalDisk.DeviceID="C:"`
 
@@ -23,7 +23,7 @@ The following example shows the relative path to this instance, as seen by displ
 
 `Win32_LogicalDisk.DeviceID="A:"`
 
-Note that **DeviceID** is the key property of the [**Win32\_LogicalDisk**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
+Note that **DeviceID** is the key property of the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
 
 ## C++
 
@@ -118,6 +118,3 @@ The following table lists the scripting objects that require object paths.
  
 
  
-
-
-

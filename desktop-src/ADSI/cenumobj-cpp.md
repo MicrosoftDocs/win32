@@ -18,8 +18,8 @@ In the example provider component, the enumeration of a container object uses th
 | **CSampleDSGenObjectEnum::Create**                     | Create an object to enable enumeration of generic Active Directory objects.                                                                                           |
 | **CSampleDSGenObjectEnum::CSampleDSGenObjectEnum**     | Initialization.                                                                                                                                                       |
 | **CSampleDSGenObjectEnum::EnumGenericObjects**         | Manage retrieval of objects.                                                                                                                                          |
-| **CSampleDSGenObjectEnum::FetchObjects**               | Retrieve the set of [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) pointers that match the filter.                                                             |
-| **CSampleDSGenObjectEnum::FetchNextObject**            | Retrieve an object and match against the filter. If it matches, wrap it in generic object and return a [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) pointer. |
+| **CSampleDSGenObjectEnum::FetchObjects**               | Retrieve the set of [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) pointers that match the filter.                                                             |
+| **CSampleDSGenObjectEnum::FetchNextObject**            | Retrieve an object and match against the filter. If it matches, wrap it in generic object and return a [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) pointer. |
 | **CSampleDSGenObjectEnum::EnumGenericObjects**         | Manage retrieving the objects.                                                                                                                                        |
 | **CSampleDSGenObjectEnum::Next**                       | Retrieve the specified number of elements from the enumeration object indicated.                                                                                      |
 | **CSampleDSGenObjectEnum::IsValidDSFilter**            | Verify that object class matches one in the filter list.                                                                                                              |
@@ -34,7 +34,3 @@ In the example provider component, the enumeration of a container object uses th
  
 
  
-
-
-
-

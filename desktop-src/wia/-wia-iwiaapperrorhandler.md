@@ -21,7 +21,7 @@ The **IWiaAppErrorHandler** interface enables applications to display error wind
 
 ## Members
 
-The **IWiaAppErrorHandler** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IWiaAppErrorHandler** also has these types of members:
+The **IWiaAppErrorHandler** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IWiaAppErrorHandler** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -68,7 +68,3 @@ If you want a driver error handler and default error handler to display error me
  
 
  
-
-
-
-

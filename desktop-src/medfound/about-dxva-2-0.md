@@ -61,12 +61,9 @@ DXVA 1 and DXVA 2 use the same data structures for decoding. However, the proced
 [DirectX Video Acceleration 2.0](directx-video-acceleration-2-0.md)
 </dt> <dt>
 
-[DXVA 1.0 specification](https://msdn.microsoft.com/library/windows/hardware/gg463516)
+[DXVA 1.0 specification](/windows-hardware/drivers/display/directx-video-acceleration)
 </dt> </dl>
 
  
 
  
-
-
-

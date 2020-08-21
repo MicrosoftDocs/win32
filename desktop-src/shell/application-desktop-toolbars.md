@@ -48,7 +48,7 @@ An application should set an appbar's size and position so that it does not inte
 
 To set the size and position of an appbar, an application first proposes a screen edge and bounding rectangle for the appbar by sending the [**ABM\_QUERYPOS**](abm-querypos.md) message. The system determines whether any part of the screen area within the proposed rectangle is used by the taskbar or another appbar, adjusts the rectangle (if necessary), and returns the adjusted rectangle to the application.
 
-Next, the application sends the [**ABM\_SETPOS**](abm-setpos.md) message to set the new bounding rectangle for the appbar. Again, the system may adjust the rectangle before returning it to the application. For this reason, the application should use the adjusted rectangle returned by **ABM\_SETPOS** to set the final size and position. The application can use the [**MoveWindow**](https://msdn.microsoft.com/library/ms633534(v=VS.85).aspx) function to move the appbar into position.
+Next, the application sends the [**ABM\_SETPOS**](abm-setpos.md) message to set the new bounding rectangle for the appbar. Again, the system may adjust the rectangle before returning it to the application. For this reason, the application should use the adjusted rectangle returned by **ABM\_SETPOS** to set the final size and position. The application can use the [**MoveWindow**](/windows/win32/api/winuser/nf-winuser-movewindow) function to move the appbar into position.
 
 By using a two-step process to set the size and position, the system enables the application to provide intermediate feedback to the user during the move operation. For example, if the user drags an appbar, the application might display a shaded rectangle indicating the new position before the appbar actually moves.
 
@@ -70,7 +70,7 @@ An autohide appbar does not need to register as a normal appbar; that is, it doe
 
 The system sends messages to notify an appbar about events that can affect its position and appearance. The messages are sent in the context of an application-defined message. The application specifies the identifier of the message when it sends the [**ABM\_NEW**](abm-new.md) message to register the appbar. The notification code is in the *wParam* parameter of the application-defined message.
 
-An appbar receives the [**ABN\_POSCHANGED**](abn-poschanged.md) notification message when the taskbar's size, position, or visibility state changes, when another appbar is added to the same edge of the screen, or when another appbar on the same edge of the screen is resized or removed. An appbar should respond to this notification message by sending [**ABM\_QUERYPOS**](abm-querypos.md) and [**ABM\_SETPOS**](abm-setpos.md) messages. If an appbar's position has changed, it should call the [**MoveWindow**](https://msdn.microsoft.com/library/ms633534(v=VS.85).aspx) function to move itself to the new position.
+An appbar receives the [**ABN\_POSCHANGED**](abn-poschanged.md) notification message when the taskbar's size, position, or visibility state changes, when another appbar is added to the same edge of the screen, or when another appbar on the same edge of the screen is resized or removed. An appbar should respond to this notification message by sending [**ABM\_QUERYPOS**](abm-querypos.md) and [**ABM\_SETPOS**](abm-setpos.md) messages. If an appbar's position has changed, it should call the [**MoveWindow**](/windows/win32/api/winuser/nf-winuser-movewindow) function to move itself to the new position.
 
 The system sends the [**ABN\_STATECHANGE**](abn-statechange.md) notification message whenever the taskbar's autohide or always-on-top state has changed—that is, when the user selects or clears the **Always on top** or **Auto hide** check box on the taskbar's property sheet. An appbar can use this notification message to set its state to conform to that of the taskbar, if desired.
 
@@ -139,7 +139,7 @@ BOOL RegisterAccessBar(HWND hwndAccessBar, BOOL fRegister)
 
 An application should set an appbar's size and position after registering the appbar, after the user user moves or sizes the appbar, and whenever the appbar receives the [**ABN\_POSCHANGED**](abn-poschanged.md) notification message. Before setting the size and position of the appbar, the application queries the system for an approved bounding rectangle by sending the [**ABM\_QUERYPOS**](abm-querypos.md) message. The system returns a bounding rectangle that does not interfere with the taskbar or any other appbar. The system adjusts the rectangle purely by rectangle subtraction; it makes no effort to preserve the rectangle's initial size. For this reason, the appbar should readjust the rectangle, as necessary, after sending **ABM\_QUERYPOS**.
 
-Next, the application passes the bounding rectangle back to the system by using the [**ABM\_SETPOS**](abm-setpos.md) message. Then it calls the [**MoveWindow**](https://msdn.microsoft.com/library/ms633534(v=VS.85).aspx) function to move the appbar into position.
+Next, the application passes the bounding rectangle back to the system by using the [**ABM\_SETPOS**](abm-setpos.md) message. Then it calls the [**MoveWindow**](/windows/win32/api/winuser/nf-winuser-movewindow) function to move the appbar into position.
 
 The following example shows how to set an appbar's size and position.
 
@@ -337,6 +337,3 @@ void PASCAL AppBarPosChanged(PAPPBARDATA pabd)
  
 
  
-
-
-

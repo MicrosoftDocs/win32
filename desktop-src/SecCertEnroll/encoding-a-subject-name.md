@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Encoding a Subject Name
 
-When you initialize an [**IX500DistinguishedName**](/windows/desktop/api/CertEnroll/nn-certenroll-ix500distinguishedname) object with a distinguished name to identify the subject of a certificate request, a [*Distinguished Encoding Rules*](https://docs.microsoft.com/windows/desktop/SecGloss/d-gly) (DER) encoded [*Abstract Syntax Notation One*](https://docs.microsoft.com/windows/desktop/SecGloss/a-gly) (ASN.1) sequence is created. For example, assume that the subject distinguished name consists of the following relative distinguished names (RDNs):<dl> E=Administrator@jdomcsc.nttest.microsoft.com  
+When you initialize an [**IX500DistinguishedName**](/windows/desktop/api/CertEnroll/nn-certenroll-ix500distinguishedname) object with a distinguished name to identify the subject of a certificate request, a [*Distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) (DER) encoded [*Abstract Syntax Notation One*](/windows/desktop/SecGloss/a-gly) (ASN.1) sequence is created. For example, assume that the subject distinguished name consists of the following relative distinguished names (RDNs):<dl> E=Administrator@jdomcsc.nttest.microsoft.com  
 CN=Administrator  
 CN=Users  
 DC=jdomcsc  
@@ -79,7 +79,7 @@ DC=com
       |              ; "Administrator@jdomcsc.nttest.microsoft.com"
 ```
 
-As discussed in [Subject Names](subject-names.md), every RDN in a distinguished name consists of a set of attributes, and each attribute contains an [*object identifier*](https://docs.microsoft.com/windows/desktop/SecGloss/o-gly) (OID) and a value. To understand how the [**IX500DistinguishedName**](/windows/desktop/api/CertEnroll/nn-certenroll-ix500distinguishedname) object encodes a distinguished name, consider the common name CN=Users.
+As discussed in [Subject Names](subject-names.md), every RDN in a distinguished name consists of a set of attributes, and each attribute contains an [*object identifier*](/windows/desktop/SecGloss/o-gly) (OID) and a value. To understand how the [**IX500DistinguishedName**](/windows/desktop/api/CertEnroll/nn-certenroll-ix500distinguishedname) object encodes a distinguished name, consider the common name CN=Users.
 
 ``` syntax
 0a73: |  |  30 0c               ; SEQUENCE (c Bytes)
@@ -114,6 +114,3 @@ The DER transfer syntax of an ASN.1 object always contains a type, length, and v
  
 
  
-
-
-

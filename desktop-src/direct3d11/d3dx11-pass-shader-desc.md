@@ -50,7 +50,7 @@ The variable that this shader came from.
 **ShaderIndex**
 </dt> <dd>
 
-Type: **[**UINT**](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[**UINT**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
@@ -82,10 +82,4 @@ If this is an inline shader assignment, the returned interface will be an anonym
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

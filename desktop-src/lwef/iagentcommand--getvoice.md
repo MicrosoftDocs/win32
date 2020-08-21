@@ -16,7 +16,7 @@ HRESULT GetVoice(
 );
 ```
 
-Retrieves the value of the [**Voice**](voice-property.md) text property for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+Retrieves the value of the [**Voice**](voice-property.md) text property for a [**Command**](/windows/desktop/lwef/the-command-object).
 
 -   Returns S\_OK to indicate the operation was successful.
 
@@ -25,11 +25,11 @@ Retrieves the value of the [**Voice**](voice-property.md) text property for a [*
 <span id="pbszVoice"></span><span id="pbszvoice"></span><span id="PBSZVOICE"></span>*pbszVoice*
 </dt> <dd>
 
-The address of a BSTR that receives the [**Voice**](voice-property.md) text property for a [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object).
+The address of a BSTR that receives the [**Voice**](voice-property.md) text property for a [**Command**](/windows/desktop/lwef/the-command-object).
 
 </dd> </dl>
 
-A [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-object) with its [**Voice**](voice-property.md) property set and its [**Enabled**](enabled-property.md) property set to **True** will be voice-accessible. If its [**Caption**](caption-property.md) property is also set it appears in the Voice Commands Window. If its [**Visible**](visible-property.md) property is set to **True**, it appears in the character's pop-up menu.
+A [**Command**](/windows/desktop/lwef/the-command-object) with its [**Voice**](voice-property.md) property set and its [**Enabled**](enabled-property.md) property set to **True** will be voice-accessible. If its [**Caption**](caption-property.md) property is also set it appears in the Voice Commands Window. If its [**Visible**](visible-property.md) property is set to **True**, it appears in the character's pop-up menu.
 
 ## See Also
 
@@ -39,7 +39,3 @@ A [**Command**](https://docs.microsoft.com/windows/desktop/lwef/the-command-obje
  
 
  
-
-
-
-

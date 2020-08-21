@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Decoding a CERT\_INFO Structure
 
-Given a certificate, the first step in decoding the certificate [*BLOB*](https://msdn.microsoft.com/library/ms721569(v=VS.85).aspx) is to call [**CertCreateCertificateContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-certcreatecertificatecontext), passing it a pointer to the encoded certificate (*BLOB*). When this function is called, it creates a duplicate of the encoded certificate, creates a structure of type [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context), and creates a structure of type [**CERT\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_info). As shown in the following illustration, a [*certificate context*](https://msdn.microsoft.com/library/ms721572(v=VS.85).aspx) includes the original certificate *BLOB*, a C structure of type **CERT\_CONTEXT**, and a C structure of type **CERT\_INFO**. One of the members of the **CERT\_CONTEXT** structure points to the **CERT\_INFO** structure and another to the encoded certificate BLOB.
+Given a certificate, the first step in decoding the certificate [*BLOB*](../secgloss/b-gly.md) is to call [**CertCreateCertificateContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-certcreatecertificatecontext), passing it a pointer to the encoded certificate (*BLOB*). When this function is called, it creates a duplicate of the encoded certificate, creates a structure of type [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context), and creates a structure of type [**CERT\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_info). As shown in the following illustration, a [*certificate context*](../secgloss/c-gly.md) includes the original certificate *BLOB*, a C structure of type **CERT\_CONTEXT**, and a C structure of type **CERT\_INFO**. One of the members of the **CERT\_CONTEXT** structure points to the **CERT\_INFO** structure and another to the encoded certificate BLOB.
 
 ![certificate context](images/certcntx.png)
 
@@ -23,6 +23,3 @@ In the [**CERT\_INFO**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_info) str
  
 
  
-
-
-

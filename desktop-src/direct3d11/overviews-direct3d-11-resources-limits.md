@@ -85,7 +85,7 @@ All of these resource limits are defined as constants in D3d11.h.
 
  The total number of components for all hull shader to domain shader control points is limited to 3968, which is 128 less than the maximum control points times the maximum control point registers times four components.
 
-4For compute shader profiles CS\_4\_0 and CS\_4\_1 there is only 1 UAV available. For more information about shader profiles, see [Shader Model 5](https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3d11-graphics-reference-sm5).
+4For compute shader profiles CS\_4\_0 and CS\_4\_1 there is only 1 UAV available. For more information about shader profiles, see [Shader Model 5](/windows/desktop/direct3dhlsl/d3d11-graphics-reference-sm5).
 
 ## Resource limits for feature level 9.x hardware
 
@@ -123,10 +123,4 @@ All of these 9.x [feature level](overviews-direct3d-11-devices-downlevel-intro.m
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

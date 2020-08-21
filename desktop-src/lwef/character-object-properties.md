@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
-The [**Character**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) object exposes the following properties:
+The [**Character**](/windows/desktop/lwef/the-characters-object) object exposes the following properties:
 
 -   [**Active**](active-property.md)
 -   [**AutoPopupMenu**](autopopupmenu-property.md)
@@ -41,9 +41,9 @@ The [**Character**](https://docs.microsoft.com/windows/desktop/lwef/the-characte
 -   [**Visible**](visible-property-cob.md)
 -   [**Width**](width-property-co.md)
 
-Note that the [**Height**](height-property.md), [**Left**](left-property.md), [**Top**](top-property.md), and [**Width**](width-property-co.md) properties of a character differ from those that may be supported by the programming environment for the placement of the control. The [**Character**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) properties apply to the visible presentation of a character, not the location of the Microsoft Agent control.
+Note that the [**Height**](height-property.md), [**Left**](left-property.md), [**Top**](top-property.md), and [**Width**](width-property-co.md) properties of a character differ from those that may be supported by the programming environment for the placement of the control. The [**Character**](/windows/desktop/lwef/the-characters-object) properties apply to the visible presentation of a character, not the location of the Microsoft Agent control.
 
-As with [**Character**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) object methods, you can access a character's properties using the [**Characters**](https://docs.microsoft.com/windows/desktop/lwef/the-characters-object) collection, or simplify your syntax by declaring an object variable and setting it to a character in the collection. In the following example, Test1 and Test2 will be set to the same value:
+As with [**Character**](/windows/desktop/lwef/the-characters-object) object methods, you can access a character's properties using the [**Characters**](/windows/desktop/lwef/the-characters-object) collection, or simplify your syntax by declaring an object variable and setting it to a character in the collection. In the following example, Test1 and Test2 will be set to the same value:
 
 
 ```
@@ -79,7 +79,3 @@ Because the server loads a character asynchronously, ensure that the character h
  
 
  
-
-
-
-

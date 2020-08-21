@@ -47,7 +47,7 @@ Shell.GetSystemInformation( _
 *sName* \[in\]
 </dt> <dd>
 
-Type: **[**BSTR**](https://msdn.microsoft.com/library/ms221069(v=VS.71).aspx)**
+Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 A **String** that specifies the system information that is being requested.
 
@@ -107,7 +107,7 @@ ProcessorArchitecture
 
 **Integer**
 
-The processor architecture. For details, see the discussion of the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/library/ms724958(v=VS.85).aspx) structure.
+The processor architecture. For details, see the discussion of the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](/windows/win32/api/sysinfoapi/ns-sysinfoapi-system_info) structure.
 
 PhysicalMemoryInstalled
 
@@ -203,7 +203,3 @@ VBScript:
  
 
  
-
-
-
-

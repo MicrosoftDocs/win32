@@ -61,7 +61,7 @@ Pointer to a [**D3DXVECTOR3**](d3dxvector3.md) structure, specifying the normali
 *pFaceIndex* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**DWORD**](../winprog/windows-data-types.md)\***
 
 Pointer to the index of the current mesh face that is first hit by the given ray, based upon stacking all blocker mesh faces in front of the current mesh.
 
@@ -70,7 +70,7 @@ Pointer to the index of the current mesh face that is first hit by the given ray
 *pU* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to a barycentric hit coordinate, U, for vertex 0 of the triangle.
 
@@ -79,7 +79,7 @@ Pointer to a barycentric hit coordinate, U, for vertex 0 of the triangle.
 *pV* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to a barycentric hit coordinate, V, for vertex 1 of the triangle.
 
@@ -88,7 +88,7 @@ Pointer to a barycentric hit coordinate, V, for vertex 1 of the triangle.
 *pDist* \[out\]
 </dt> <dd>
 
-Type: **[**FLOAT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)\***
+Type: **[**FLOAT**](../winprog/windows-data-types.md)\***
 
 Pointer to the distance of the intersection point along the ray.
 
@@ -96,7 +96,7 @@ Pointer to the distance of the intersection point along the ray.
 
 ## Return value
 
-Type: **[**BOOL**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**BOOL**](../winprog/windows-data-types.md)**
 
 Returns **TRUE** if the ray intersects the current mesh; otherwise, returns **FALSE**.
 
@@ -137,7 +137,3 @@ Barycentric coordinates define a point inside a triangle in terms of the triangl
  
 
  
-
-
-
-

@@ -37,7 +37,7 @@ User Mode Native Windows APIs:
 
 User Mode Domain-specific Management Wrappers:
 
--   [VDS VHD APIs](https://docs.microsoft.com/windows/desktop/VDS/about-vds) - VDS Object Model wrappers for the VHD Windows APIs.
+-   [VDS VHD APIs](/windows/desktop/VDS/about-vds) - VDS Object Model wrappers for the VHD Windows APIs.
 
 Kernel Mode Drivers:
 
@@ -52,12 +52,12 @@ The SDK documentation in this section covers the user-mode native Windows VHD AP
 There are considerations for using virtual disks, and what types of virtual disks are available:
 
 -   **Fixed**—The VHD image file is pre-allocated on the backing store for the maximum size requested.
--   **Expandable**—Also known as "dynamic", "dynamically expandable", and "sparse", the VHD image file uses only as much space on the backing store as needed to store the actual data the virtual disk currently contains. When creating this type of virtual disk, the VHD API does not test for free space on the physical disk based on the maximum size requested, therefore it is possible to successfully create a dynamic virtual disk with a maximum size larger than the available physical disk free space. For more information, see [**ExpandVirtualDisk**](https://msdn.microsoft.com/library/Dd323664(v=VS.85).aspx).
+-   **Expandable**—Also known as "dynamic", "dynamically expandable", and "sparse", the VHD image file uses only as much space on the backing store as needed to store the actual data the virtual disk currently contains. When creating this type of virtual disk, the VHD API does not test for free space on the physical disk based on the maximum size requested, therefore it is possible to successfully create a dynamic virtual disk with a maximum size larger than the available physical disk free space. For more information, see [**ExpandVirtualDisk**](/windows/win32/api/virtdisk/nf-virtdisk-expandvirtualdisk).
     **Note**  The maximum size of a dynamic virtual disk is 2,040 GB.
 
      
 
--   **Differencing**—A parent virtual disk is used as the basis of this type, with any subsequent writes written to the virtual disk as differences to the new differencing VHD image file, and the parent VHD image file is not modified. For example, if you have a clean-install system boot operating system virtual disk as a parent and designate the differencing virtual disk as the current virtual disk for the system to use, then the operating system on the parent virtual disk stays in its original state for quick recovery or for quickly creating more boot images based on additional differencing virtual disks. For more information, see [**MergeVirtualDisk**](https://msdn.microsoft.com/library/Dd323676(v=VS.85).aspx).
+-   **Differencing**—A parent virtual disk is used as the basis of this type, with any subsequent writes written to the virtual disk as differences to the new differencing VHD image file, and the parent VHD image file is not modified. For example, if you have a clean-install system boot operating system virtual disk as a parent and designate the differencing virtual disk as the current virtual disk for the system to use, then the operating system on the parent virtual disk stays in its original state for quick recovery or for quickly creating more boot images based on additional differencing virtual disks. For more information, see [**MergeVirtualDisk**](/windows/win32/api/virtdisk/nf-virtdisk-mergevirtualdisk).
     **Note**  The maximum size of a differencing virtual disk is 2,040 GB.
 
      
@@ -66,7 +66,7 @@ All virtual disk types have a minimum size of 3 MB.
 
 ## <span id="related_topics"></span>Related topics
 
-[About VDS](https://docs.microsoft.com/windows/desktop/VDS/about-vds)
+[About VDS](/windows/desktop/VDS/about-vds)
 
 [VHD Reference](vhd-reference.md)
 
@@ -75,6 +75,3 @@ All virtual disk types have a minimum size of 3 MB.
  
 
  
-
-
-

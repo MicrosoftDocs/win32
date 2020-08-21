@@ -41,7 +41,7 @@ Type = AddinType
 
 Registration of the service application takes effect only in sessions created after the registration was performed.
 
-For each registered service application, Remote Desktop Services will signal a set of event objects when a client connects or disconnects from the session. Each virtual channel plug-in must register itself and create the notification events by calling [**CreateEvent**](https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa). The names of these event objects adhere to the following format.
+For each registered service application, Remote Desktop Services will signal a set of event objects when a client connects or disconnects from the session. Each virtual channel plug-in must register itself and create the notification events by calling [**CreateEvent**](/windows/desktop/api/synchapi/nf-synchapi-createeventa). The names of these event objects adhere to the following format.
 
 ``` syntax
 AddinName-Reconnect
@@ -78,7 +78,3 @@ Global\AddinName-SessionId-Disconnect
  
 
  
-
-
-
-

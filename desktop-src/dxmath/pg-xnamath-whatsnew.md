@@ -58,8 +58,8 @@ Here is how the DirectXMath library primarily differs from the XNA Math library:
 -   New color functionality (color space conversions, .NET color constants).
 -   Bounding volume types (a version of which was previously in the XNACollision header in the DirectX SDK Collision sample).
 -   No Xbox 360 version is available. The Xbox 360 XDK continues to ship XNAMath v2.x; removal of Xbox 360 specific data types and function variants.
--   Reworked [**XMVectorPermute**](https://msdn.microsoft.com/library/Hh855956(v=VS.85).aspx) for improved optimization for SSE and ARM-NEON intrinsics.
--   The [**XMMATRIX**](https://msdn.microsoft.com/library/Ee419959(v=VS.85).aspx) type is fully opaque. To access individual elements of **XMMATRIX**, use other types such as [**XMFLOAT4X4**](https://msdn.microsoft.com/library/Ee419621(v=VS.85).aspx).
+-   Reworked [**XMVectorPermute**](/windows/win32/api/directxmath/nf-directxmath-xmvectorpermute) for improved optimization for SSE and ARM-NEON intrinsics.
+-   The [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) type is fully opaque. To access individual elements of **XMMATRIX**, use other types such as [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4).
 
 ## Related topics
 
@@ -74,6 +74,3 @@ Here is how the DirectXMath library primarily differs from the XNA Math library:
  
 
  
-
-
-

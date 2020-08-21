@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The MCI\_SAVE command saves the current file. Devices that modify files should not destroy the original copy until they receive the save message. Video-overlay and waveform-audio devices recognize this command. Although digital-video devices and MIDI sequencers also recognize this command, the MCIAVI and MCISEQ drivers do not implement it.
 
-To send this command, call the [**mciSendCommand**](https://msdn.microsoft.com/library/Dd757160(v=VS.85).aspx) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) function with the following parameters.
 
 
 ```C++
@@ -67,7 +67,7 @@ Returns zero if successful or an error otherwise.
 
 This command is supported by devices that return **TRUE** when you call the [MCI\_GETDEVCAPS](mci-getdevcaps.md) command with the MCI\_GETDEVCAPS\_CAN\_SAVE flag.
 
-The following additional flag applies to all devices supporting [MCI\_SAVE](https://docs.microsoft.com/windows):
+The following additional flag applies to all devices supporting [MCI\_SAVE](/windows):
 
 <dl> <dt>
 
@@ -116,7 +116,7 @@ The **rc** member of the structure identified by *lpSave* contains a valid displ
 
 </dd> </dl>
 
-For video-overlay devices, the *lpSave* parameter points to an [**MCI\_OVLY\_SAVE\_PARMS**](https://msdn.microsoft.com/library/Dd743447(v=VS.85).aspx) structure.
+For video-overlay devices, the *lpSave* parameter points to an [**MCI\_OVLY\_SAVE\_PARMS**](/previous-versions//dd743447(v=vs.85)) structure.
 
 ## Requirements
 
@@ -141,10 +141,4 @@ For video-overlay devices, the *lpSave* parameter points to an [**MCI\_OVLY\_SAV
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

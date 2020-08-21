@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # The IADs and IDirectoryObject Interfaces
 
-ADSI clients manage and manipulate directory service objects by using one of two COM interfaces: [**IADs**](/windows/desktop/api/Iads/nn-iads-iads) or [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject). **IADs** is an [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) interface intended for use by late-bound clients such as those written in Microsoft Visual Basic, Java, and various scripting languages. **IDirectoryObject** is a vtable interface that provides direct access to objects by early bound clients such as those written in C and C++.
+ADSI clients manage and manipulate directory service objects by using one of two COM interfaces: [**IADs**](/windows/desktop/api/Iads/nn-iads-iads) or [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject). **IADs** is an [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) interface intended for use by late-bound clients such as those written in Microsoft Visual Basic, Java, and various scripting languages. **IDirectoryObject** is a vtable interface that provides direct access to objects by early bound clients such as those written in C and C++.
 
 Each ADSI object must implement both [**IADs**](/windows/desktop/api/Iads/nn-iads-iads) and [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject). ADSI clients written in languages such as C or C++, which are able to directly access vtables, can use either interface, but not both in the same application. ADSI clients written in Visual Basic or Java are limited to using **IADs**.
 
@@ -24,7 +24,3 @@ The [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) i
  
 
  
-
-
-
-

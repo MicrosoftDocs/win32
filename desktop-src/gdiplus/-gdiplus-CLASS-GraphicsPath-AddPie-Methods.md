@@ -8,7 +8,7 @@ ms.topic: reference
 
 # GraphicsPath.AddPie methods
 
-This topic lists the AddPie methods of the [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx).
+This topic lists the AddPie methods of the [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) class. For a complete list of methods for the **GraphicsPath** class, see [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath).
 
 ### Overload list
 
@@ -16,10 +16,10 @@ This topic lists the AddPie methods of the [**GraphicsPath**](https://msdn.micro
 
 | Method                                                                                                                                                | Description                                                                                                                                                                                                                                                                                                                                                                                            |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AddPie(Rect&,REAL,REAL)**](https://msdn.microsoft.com/library/ms535595(v=VS.85).aspx)                                      | The [**GraphicsPath::AddPie**](https://msdn.microsoft.com/library/ms535595(v=VS.85).aspx) method adds a pie to this path. An arc is a portion of an ellipse, and a pie is a portion of the area enclosed by an ellipse. A pie is bounded by an arc and two lines (edges) that go from the center of the ellipse to the endpoints of the arc.<br/>                        |
-| [**AddPie(RectF&,REAL,REAL)**](https://msdn.microsoft.com/library/ms535598(v=VS.85).aspx)                                    | The [**GraphicsPath::AddPie**](https://msdn.microsoft.com/library/ms535598(v=VS.85).aspx) method adds a pie to this path. An arc is a portion of an ellipse, and a pie is a portion of the area enclosed by an ellipse. A pie is bounded by an arc and two lines (edges) that go from the center of the ellipse to the endpoints of the arc.<br/>                       |
-| [**AddPie(INT,INT,INT,INT,REAL,REAL)**](https://msdn.microsoft.com/library/ms535596(v=VS.85).aspx)     | The [**GraphicsPath::AddPie**](https://msdn.microsoft.com/library/ms535596(v=VS.85).aspx) method adds a pie to this path. An arc is a portion of an ellipse, and a pie is a portion of the area enclosed by an ellipse. A pie is bounded by an arc and two lines (edges) that go from the center of the ellipse to the endpoints of the arc.<br/> |
-| [**AddPie(REAL,REAL,REAL,REAL,REAL,REAL)**](https://msdn.microsoft.com/library/ms535597(v=VS.85).aspx) | The [**GraphicsPath::AddPie**](https://msdn.microsoft.com/library/ms535597(v=VS.85).aspx) method adds a pie to this path. An arc is a portion of an ellipse, and a pie is a portion of the area enclosed by an ellipse. A pie is bounded by an arc and two lines (edges) that go from the center of the ellipse to the endpoints of the arc.<br/> |
+| [**AddPie(Rect&,REAL,REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inconstrect__inreal_inreal))                                      | The [**GraphicsPath::AddPie**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inconstrect__inreal_inreal)) method adds a pie to this path. An arc is a portion of an ellipse, and a pie is a portion of the area enclosed by an ellipse. A pie is bounded by an arc and two lines (edges) that go from the center of the ellipse to the endpoints of the arc.<br/>                        |
+| [**AddPie(RectF&,REAL,REAL)**](/previous-versions//ms535598(v=vs.85))                                    | The [**GraphicsPath::AddPie**](/previous-versions//ms535598(v=vs.85)) method adds a pie to this path. An arc is a portion of an ellipse, and a pie is a portion of the area enclosed by an ellipse. A pie is bounded by an arc and two lines (edges) that go from the center of the ellipse to the endpoints of the arc.<br/>                       |
+| [**AddPie(INT,INT,INT,INT,REAL,REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inint_inint_inint_inint_inreal_inreal))     | The [**GraphicsPath::AddPie**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inint_inint_inint_inint_inreal_inreal)) method adds a pie to this path. An arc is a portion of an ellipse, and a pie is a portion of the area enclosed by an ellipse. A pie is bounded by an arc and two lines (edges) that go from the center of the ellipse to the endpoints of the arc.<br/> |
+| [**AddPie(REAL,REAL,REAL,REAL,REAL,REAL)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inreal_inreal_inreal_inreal_inreal_inreal)) | The [**GraphicsPath::AddPie**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-addpie(inreal_inreal_inreal_inreal_inreal_inreal)) method adds a pie to this path. An arc is a portion of an ellipse, and a pie is a portion of the area enclosed by an ellipse. A pie is bounded by an arc and two lines (edges) that go from the center of the ellipse to the endpoints of the arc.<br/> |
 
 
 
@@ -36,7 +36,3 @@ This topic lists the AddPie methods of the [**GraphicsPath**](https://msdn.micro
  
 
  
-
-
-
-

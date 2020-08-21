@@ -35,7 +35,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Returns the flexible vertex format (FVF) codes.
 
@@ -64,7 +64,3 @@ This method can return 0 if the vertex format cannot be mapped directly to an FV
  
 
  
-
-
-
-

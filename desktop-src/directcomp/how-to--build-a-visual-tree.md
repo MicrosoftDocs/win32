@@ -20,8 +20,8 @@ This topic demonstrates how to build a simple Microsoft DirectComposition visual
 ### Technologies
 
 -   [DirectComposition](directcomposition-portal.md)
--   [Direct3D 11 Graphics](https://docs.microsoft.com/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
--   [DirectX Graphics Infrastructure (DXGI)](https://docs.microsoft.com/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
+-   [Direct3D 11 Graphics](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
+-   [DirectX Graphics Infrastructure (DXGI)](/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 
 ### Prerequisites
 
@@ -39,7 +39,7 @@ For more information, see [How to initialize DirectComposition](initialize-direc
 
 ### Step 2: Create the visual objects and set the bitmap content
 
-Use the [**IDCompositionDevice::CreateVisual**](https://msdn.microsoft.com/library/Hh437414(v=VS.85).aspx) method to create the visuals, and the [**IDCompositionVisual::SetContent**](https://msdn.microsoft.com/library/Hh449157(v=VS.85).aspx) method to set the bitmap content of the visuals.
+Use the [**IDCompositionDevice::CreateVisual**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createvisual) method to create the visuals, and the [**IDCompositionVisual::SetContent**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setcontent) method to set the bitmap content of the visuals.
 
 > [!NOTE]  
 > In the following example, the first element of the `m_hBitmaps` array contains the bitmap for the root visual, and the remaining elements contain the bitmaps for the child visuals.
@@ -166,7 +166,7 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionS
 
 ### Step 3: Set the root visual
 
-Set the horizontal and vertical offsets of the root visual, and then add it to the visual tree by calling the [**IDCompositionTarget::SetRoot**](https://msdn.microsoft.com/library/Hh449109(v=VS.85).aspx) method.
+Set the horizontal and vertical offsets of the root visual, and then add it to the visual tree by calling the [**IDCompositionTarget::SetRoot**](/windows/win32/api/dcomp/nf-dcomp-idcompositiontarget-setroot) method.
 
 ```cpp
 float xPosRoot = 50.0;
@@ -182,7 +182,7 @@ hr = m_pCompTarget->SetRoot(pVisuals[0]);
 
 ### Step 4: Add the child visuals, and commit the composition
 
-Use methods exposed by each child visual's [**IDCompositionVisual**](https://msdn.microsoft.com/library/Hh449139(v=VS.85).aspx) interface to set the bitmap content and other properties, and then use the root visual's [**IDCompositionVisual::AddVisual**](https://msdn.microsoft.com/library/Hh449141(v=VS.85).aspx) method to add the child visuals to the root of the visual tree. Call [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/library/Hh437393(v=VS.85).aspx) to commit the batch of commands to DirectComposition for processing. The resulting composition appears in the target window.
+Use methods exposed by each child visual's [**IDCompositionVisual**](/windows/win32/api/dcomp/nn-dcomp-idcompositionvisual) interface to set the bitmap content and other properties, and then use the root visual's [**IDCompositionVisual::AddVisual**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-addvisual) method to add the child visuals to the root of the visual tree. Call [**IDCompositionDevice::Commit**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-commit) to commit the batch of commands to DirectComposition for processing. The resulting composition appears in the target window.
 
 ```cpp
 float xPosChild = 20.0f;
@@ -208,7 +208,7 @@ hr = m_pDevice->Commit();
 
 ### Step 5: Free the DirectComposition objects
 
-Free the visual objects as soon as you no longer need them. This next bit of code calls the application-defined [**SafeRelease**](https://docs.microsoft.com/windows/desktop/medfound/saferelease) macro to free the visual objects.
+Free the visual objects as soon as you no longer need them. This next bit of code calls the application-defined [**SafeRelease**](/windows/desktop/medfound/saferelease) macro to free the visual objects.
 
 ```cpp
 Cleanup:
@@ -851,9 +851,9 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionS
 ## Related topics
 
 * [**DCompositionCreateDevice**](/windows/desktop/api/Dcomp/nf-dcomp-dcompositioncreatedevice)
-* [**IDCompositionDevice::Commit**](https://msdn.microsoft.com/library/Hh437393(v=VS.85).aspx)
-* [**IDCompositionDevice::CreateTargetForHwnd**](https://msdn.microsoft.com/library/Hh437396(v=VS.85).aspx)
-* [**IDCompositionDevice::CreateVisual**](https://msdn.microsoft.com/library/Hh437414(v=VS.85).aspx)
-* [**IDCompositionTarget::SetRoot**](https://msdn.microsoft.com/library/Hh449109(v=VS.85).aspx)
-* [**IDCompositionVisual::SetContent**](https://msdn.microsoft.com/library/Hh449157(v=VS.85).aspx)
-* [**SafeRelease**](https://docs.microsoft.com/windows/desktop/medfound/saferelease)
+* [**IDCompositionDevice::Commit**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-commit)
+* [**IDCompositionDevice::CreateTargetForHwnd**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createtargetforhwnd)
+* [**IDCompositionDevice::CreateVisual**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createvisual)
+* [**IDCompositionTarget::SetRoot**](/windows/win32/api/dcomp/nf-dcomp-idcompositiontarget-setroot)
+* [**IDCompositionVisual::SetContent**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setcontent)
+* [**SafeRelease**](/windows/desktop/medfound/saferelease)

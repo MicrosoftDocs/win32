@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating Blending Stages (Direct3D 9)
 
-A blending stage is a set of texture operations and their arguments that define how textures are blended. When making a blending stage, C++ applications invoke the [**IDirect3DDevice9::SetTextureStageState**](https://msdn.microsoft.com/library/Bb174462(v=VS.85).aspx) method. The first call specifies the operation that is performed. Two additional invocations define the arguments to which the operation is applied. The following code example illustrates the creation of a blending stage.
+A blending stage is a set of texture operations and their arguments that define how textures are blended. When making a blending stage, C++ applications invoke the [**IDirect3DDevice9::SetTextureStageState**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexturestagestate) method. The first call specifies the operation that is performed. Two additional invocations define the arguments to which the operation is applied. The following code example illustrates the creation of a blending stage.
 
 
 ```
@@ -27,7 +27,7 @@ d3dDevice->SetTextureStageState(0, D3DTSS_COLORARG2, D3DTA_DIFFUSE);
 
 
 
-Texel data in textures contain color and alpha values. Applications can define separate operations for both color and alpha values in a single blending stage. Each operation, color, and alpha, has its own arguments. For details, see [**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/library/Bb172617(v=VS.85).aspx).
+Texel data in textures contain color and alpha values. Applications can define separate operations for both color and alpha values in a single blending stage. Each operation, color, and alpha, has its own arguments. For details, see [**D3DTEXTURESTAGESTATETYPE**](./d3dtexturestagestatetype.md).
 
 Although not part of the Direct3D API, you can insert the following macros into your application to abbreviate the code required for creating texture blending stages.
 
@@ -56,6 +56,3 @@ Although not part of the Direct3D API, you can insert the following macros into 
  
 
  
-
-
-

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using Logical Sensors
 
-To instantiate a device node for a logical sensor, or to reconnect to an existing logical sensor device node, an application or service must call [**ILogicalSensorManager::Connect**](https://msdn.microsoft.com/library/Dd374029(v=VS.85).aspx). The *pPropertyStore* parameter for this method requires a pointer to an [IPropertyStore](https://msdn.microsoft.com/library/bb761474(VS.85).aspx) interface that contains the IDs for the sensor drivers to connect to. This means that you must create a property store and add this data to the store before calling this method.
+To instantiate a device node for a logical sensor, or to reconnect to an existing logical sensor device node, an application or service must call [**ILogicalSensorManager::Connect**](/previous-versions/windows/desktop/legacy/dd374029(v=vs.85)). The *pPropertyStore* parameter for this method requires a pointer to an [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) interface that contains the IDs for the sensor drivers to connect to. This means that you must create a property store and add this data to the store before calling this method.
 
 ### Connecting to the Logical Sensor
 
@@ -71,7 +71,7 @@ HRESULT ConnectToLogicalSensor(PCWSTR* wszHardwareID, GUID guidLogicalID)
 
 ### Disconnecting from a Logical Sensor
 
-To disconnect from a logical sensor, you must provide the same logical ID that you used when you called [**Connect**](https://msdn.microsoft.com/library/Dd374029(v=VS.85).aspx).
+To disconnect from a logical sensor, you must provide the same logical ID that you used when you called [**Connect**](/previous-versions/windows/desktop/legacy/dd374029(v=vs.85)).
 
 The following example code creates a helper function that disconnects from a logical sensor.
 
@@ -107,7 +107,7 @@ HRESULT DisconnectFromLogicalSensor(GUID guidLogicalID)
 
 ### Uninstalling a Logical Sensor
 
-To uninstall a logical sensor, you must provide the same logical ID that you used when you called [**Connect**](https://msdn.microsoft.com/library/Dd374029(v=VS.85).aspx).
+To uninstall a logical sensor, you must provide the same logical ID that you used when you called [**Connect**](/previous-versions/windows/desktop/legacy/dd374029(v=vs.85)).
 
 The following example code creates a helper function that uninstalls a logical sensor.
 
@@ -148,6 +148,3 @@ HRESULT UninstallLogicalSensor(REFGUID guidLogicalID)
  
 
  
-
-
-

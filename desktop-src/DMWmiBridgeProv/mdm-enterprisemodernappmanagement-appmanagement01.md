@@ -70,7 +70,7 @@ The **MDM\_EnterpriseModernAppManagement\_AppManagement01** class has these prop
 
 <dl> <dt>
 
-[AppInventoryQuery](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#appmanagement-appinventoryquery)
+[AppInventoryQuery](/windows/client-management/mdm/enterprisemodernappmanagement-csp#appmanagement-appinventoryquery)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -81,7 +81,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[AppInventoryResults](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#appmanagement-appinventoryresults)
+[AppInventoryResults](/windows/client-management/mdm/enterprisemodernappmanagement-csp#appmanagement-appinventoryresults)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -101,14 +101,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Identifies the name of the parent node. For this class, the string is "AppManagement".
 
 </dd> <dt>
 
-[LastScanError](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#appmanagement-lastscanerror)
+[LastScanError](/windows/client-management/mdm/enterprisemodernappmanagement-csp#appmanagement-lastscanerror)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -128,14 +128,14 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Describes the full path to the parent node. For this class, the string is "./Vendor/MSFT/EnterpriseModernAppManagement/"
 
 </dd> <dt>
 
-[RemovePackage](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp#appmanagement-removepackage)
+[RemovePackage](/windows/client-management/mdm/enterprisemodernappmanagement-csp#appmanagement-removepackage)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -164,14 +164,8 @@ Access type: Read/write
 
 <dl> <dt>
 
-[Using PowerShell scripting with the WMI Bridge Provider](https://docs.microsoft.com/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
+[Using PowerShell scripting with the WMI Bridge Provider](/windows/client-management/mdm/using-powershell-scripting-with-the-wmi-bridge-provider)
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

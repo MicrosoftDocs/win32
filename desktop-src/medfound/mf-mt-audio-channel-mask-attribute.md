@@ -74,7 +74,7 @@ The value of this attribute is a bitwise **OR** of the following flags, which ar
 
 ## Remarks
 
-This attribute corresponds to the **dwChannelMask** member of the [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/Dd757714(v=VS.85).aspx) structure.
+This attribute corresponds to the **dwChannelMask** member of the [**WAVEFORMATEXTENSIBLE**](/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) structure.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -112,7 +112,3 @@ The GUID constant for this attribute is exported from mfuuid.lib.
  
 
  
-
-
-
-

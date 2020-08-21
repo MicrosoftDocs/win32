@@ -22,7 +22,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncDDDynamicRangeCompressionControl**](https://msdn.microsoft.com/library/Dd319379(v=VS.85).aspx) enumeration.
+The value of this property is a member of the [**eAVEncDDDynamicRangeCompressionControl**](/windows/win32/api/codecapi/ne-codecapi-eavencdddynamicrangecompressioncontrol) enumeration.
 
 ## Requirements
 
@@ -47,9 +47,4 @@ The value of this property is a member of the [**eAVEncDDDynamicRangeCompression
 </dt> </dl>
 
  
-
- 
-
-
-
 

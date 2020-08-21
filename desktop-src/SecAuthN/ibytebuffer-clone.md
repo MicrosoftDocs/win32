@@ -17,7 +17,7 @@ api_location:
 
 # IByteBuffer::Clone method
 
-\[The **Clone** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
+\[The **Clone** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) interface provides similar functionality.\]
 
 The **Clone** method creates a new object with its own seek pointer that references the same bytes as the original [**IByteBuffer**](ibytebuffer.md) object.
 
@@ -39,7 +39,7 @@ HRESULT Clone(
 *ppByteBuffer* \[out\]
 </dt> <dd>
 
-When successful, points to the location of an [**IByteBuffer**](ibytebuffer.md) pointer to the new stream object. When you have finished using the **IByteBuffer** pointer, release it by calling the [**IUnknown::Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx) function. If an error occurs, this parameter is **NULL**.
+When successful, points to the location of an [**IByteBuffer**](ibytebuffer.md) pointer to the new stream object. When you have finished using the **IByteBuffer** pointer, release it by calling the [**IUnknown::Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) function. If an error occurs, this parameter is **NULL**.
 
 </dd> </dl>
 
@@ -87,9 +87,4 @@ if (FAILED(hr))
 
 
  
-
- 
-
-
-
 

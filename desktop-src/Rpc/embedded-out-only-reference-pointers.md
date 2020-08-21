@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Embedded Out-Only Reference Pointers
 
-When you use \[[**out**](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\]-only reference pointers in Microsoft RPC, the generated server stubs allocate only the first level of pointers accessible from the reference pointer. Pointers at deeper levels are not allocated by the stubs, but must be allocated by the server application layer. For example, suppose an interface specifies an \[**out**\]-only array of reference pointers:
+When you use \[[**out**](/windows/desktop/Midl/out-idl)\]-only reference pointers in Microsoft RPC, the generated server stubs allocate only the first level of pointers accessible from the reference pointer. Pointers at deeper levels are not allocated by the stubs, but must be allocated by the server application layer. For example, suppose an interface specifies an \[**out**\]-only array of reference pointers:
 
 ``` syntax
 /* IDL file (fragment) */
@@ -17,9 +17,9 @@ typedef [ref] short * PREF;
 Proc1([out] PREF array[10]);
 ```
 
-In this example, the server stub allocates memory for 10 pointers and sets the value of each pointer to null. The server application must allocate the memory for the 10 [**short**](https://docs.microsoft.com/windows/desktop/Midl/short) integers referenced by the pointers and then set the 10 pointers to point to the integers.
+In this example, the server stub allocates memory for 10 pointers and sets the value of each pointer to null. The server application must allocate the memory for the 10 [**short**](/windows/desktop/Midl/short) integers referenced by the pointers and then set the 10 pointers to point to the integers.
 
-When the \[[**out**](https://docs.microsoft.com/windows/desktop/Midl/out-idl)\]-only data structure includes nested reference pointers, the server stubs allocate only the first pointer accessible from the reference pointer. For example:
+When the \[[**out**](/windows/desktop/Midl/out-idl)\]-only data structure includes nested reference pointers, the server stubs allocate only the first pointer accessible from the reference pointer. For example:
 
 ``` syntax
 /* IDL file (fragment) */
@@ -41,7 +41,3 @@ In the preceding example, the server stubs allocate the pointer *psTop* and the 
  
 
  
-
-
-
-

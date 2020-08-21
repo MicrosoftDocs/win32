@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # XTYP\_ERROR transaction
 
-A Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](https://msdn.microsoft.com/library/ms648742(v=VS.85).aspx), receives the **XTYP\_ERROR** transaction when a critical error occurs.
+A Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), receives the **XTYP\_ERROR** transaction when a critical error occurs.
 
 
 ```C++
@@ -123,10 +123,4 @@ An application cannot block this transaction type; the **CBR\_BLOCK** return cod
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

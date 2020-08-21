@@ -17,7 +17,7 @@ api_location:
 
 # SignedCode.Description property
 
-\[The **Description** property is available for use in the operating systems specified in the Requirements section. Instead, use Platform Invocation Services (PInvoke) to call the Win32 API [**SignerSignEx**](signersignex.md), [**SignerTimeStampEx**](signertimestampex.md), and [**WinVerifyTrust**](/windows/desktop/api/Wintrust/nf-wintrust-winverifytrust) functions to sign content with an Authenticode digital signature. For information about PInvoke, see [Platform Invoke Tutorial](https://msdn.microsoft.com/library/aa288468.aspx). The [.NET and CryptoAPI via P/Invoke: Part 1](https://msdn.microsoft.com/library/ms867087.aspx#netcryptoapi_topic5) and [.NET and CryptoAPI via P/Invoke: Part 2](https://msdn.microsoft.com/library/ms867087.aspx#netcryptoapi_topic6) subsections of [Extending .NET Cryptography with CAPICOM and P/Invoke](https://msdn.microsoft.com/library/ms867087.aspx) may also be helpful.\]
+\[The **Description** property is available for use in the operating systems specified in the Requirements section. Instead, use Platform Invocation Services (PInvoke) to call the Win32 API [**SignerSignEx**](signersignex.md), [**SignerTimeStampEx**](signertimestampex.md), and [**WinVerifyTrust**](/windows/desktop/api/Wintrust/nf-wintrust-winverifytrust) functions to sign content with an Authenticode digital signature. For information about PInvoke, see [Platform Invoke Tutorial](https://msdn.microsoft.com/library/aa288468.aspx). The [.NET and CryptoAPI via P/Invoke: Part 1](/previous-versions/ms867087(v=msdn.10)#netcryptoapi_topic5) and [.NET and CryptoAPI via P/Invoke: Part 2](/previous-versions/ms867087(v=msdn.10)#netcryptoapi_topic6) subsections of [Extending .NET Cryptography with CAPICOM and P/Invoke](/previous-versions/ms867087(v=msdn.10)) may also be helpful.\]
 
 The **Description** property sets or retrieves the description of the signed executable file.
 
@@ -59,7 +59,3 @@ The description is the text that appears in the Authenticode verification dialog
  
 
  
-
-
-
-

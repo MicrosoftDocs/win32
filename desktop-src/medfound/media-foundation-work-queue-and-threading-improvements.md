@@ -45,13 +45,13 @@ To queue a work item, call [**MFPutWorkItem**](/windows/desktop/api/mfapi/nf-mfa
 
 ### MMCSS Support
 
-The [Multimedia Class Scheduler Service](https://msdn.microsoft.com/library/ms684247(v=VS.85).aspx) (MMCSS) manages thread priorities so that multimedia applications get regular slices of CPU time, without denying CPU resources to lower-priority applications. MMCSS defines a set of *tasks* that have different CPU utilization profiles. When a thread joins an MMCSS task, MMCSS sets the priority of the thread based on several factors:
+The [Multimedia Class Scheduler Service](../procthread/multimedia-class-scheduler-service.md) (MMCSS) manages thread priorities so that multimedia applications get regular slices of CPU time, without denying CPU resources to lower-priority applications. MMCSS defines a set of *tasks* that have different CPU utilization profiles. When a thread joins an MMCSS task, MMCSS sets the priority of the thread based on several factors:
 
 -   The base priority of the task, which is set in the registry.
--   The relative thread priority, which is set at run time by calling [**AvSetMmThreadPriority**](https://msdn.microsoft.com/library/ms681975(v=VS.85).aspx).
+-   The relative thread priority, which is set at run time by calling [**AvSetMmThreadPriority**](/windows/win32/api/avrt/nf-avrt-avsetmmthreadpriority).
 -   Various run-time characteristics, such as whether the application is in the foreground, and how much CPU time is being consumed by the threads in each MMCSS class.
 
-An application can register a work queue with MMCSS by calling [**MFBeginRegisterWorkQueueWithMMCSS**](/windows/desktop/api/mfapi/nf-mfapi-mfbeginregisterworkqueuewithmmcss). This function takes a work queue ID, an MMCSS class (task name), and the MMCSS task identifier. Internally, it calls [**AvSetMmThreadCharacteristics**](https://msdn.microsoft.com/library/ms681974(v=VS.85).aspx) with the task name and task ID. After a work queue is registered with MMCSS, you can get the class and task ID by calling [**MFGetWorkQueueMMCSSClass**](/windows/desktop/api/mfapi/nf-mfapi-mfgetworkqueuemmcssclass) and [**MFGetWorkQueueMMCSSTaskId**](/windows/desktop/api/mfapi/nf-mfapi-mfgetworkqueuemmcsstaskid).
+An application can register a work queue with MMCSS by calling [**MFBeginRegisterWorkQueueWithMMCSS**](/windows/desktop/api/mfapi/nf-mfapi-mfbeginregisterworkqueuewithmmcss). This function takes a work queue ID, an MMCSS class (task name), and the MMCSS task identifier. Internally, it calls [**AvSetMmThreadCharacteristics**](/windows/win32/api/avrt/nf-avrt-avsetmmthreadcharacteristicsa) with the task name and task ID. After a work queue is registered with MMCSS, you can get the class and task ID by calling [**MFGetWorkQueueMMCSSClass**](/windows/desktop/api/mfapi/nf-mfapi-mfgetworkqueuemmcssclass) and [**MFGetWorkQueueMMCSSTaskId**](/windows/desktop/api/mfapi/nf-mfapi-mfgetworkqueuemmcsstaskid).
 
 The [Media Session](media-session.md) provides somewhat higher-level access to these APIs, through the [**IMFWorkQueueServices**](/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices) interface. This interface provides two primary methods:
 
@@ -129,7 +129,7 @@ The following new Media Foundation platform functions relate to MMCSS.
 
 | Function                                                                           | Description                                                                                                                                                                                                                                                                                                                                                                                           |
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**MFBeginRegisterWorkQueueWithMMCSSEx**](/windows/desktop/api/mfapi/nf-mfapi-mfbeginregisterworkqueuewithmmcssex) | Registers a work queue with MMCSS. This function includes a parameter to specify relative thread priority. Internally, this value is translated into a call to [**AvSetMmThreadPriority**](https://msdn.microsoft.com/library/ms681975(v=VS.85).aspx).                                                                                                                                                                               |
+| [**MFBeginRegisterWorkQueueWithMMCSSEx**](/windows/desktop/api/mfapi/nf-mfapi-mfbeginregisterworkqueuewithmmcssex) | Registers a work queue with MMCSS. This function includes a parameter to specify relative thread priority. Internally, this value is translated into a call to [**AvSetMmThreadPriority**](/windows/win32/api/avrt/nf-avrt-avsetmmthreadpriority).                                                                                                                                                                               |
 | [**MFGetWorkQueueMMCSSPriority**](/windows/desktop/api/mfapi/nf-mfapi-mfgetworkqueuemmcsspriority)                 | Queries the priority of a work queue.                                                                                                                                                                                                                                                                                                                                                                 |
 | [**MFRegisterPlatformWithMMCSS**](/windows/desktop/api/mfapi/nf-mfapi-mfregisterplatformwithmmcss)                 | Registers all of the platform work queues with an MMCSS task. This function is similar to the [**IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS**](/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginregisterplatformworkqueuewithmmcss) method, but it can be used without creating an instance of the Media Session. In addition, the function includes a parameter to specify the base thread priority. |
 
@@ -215,6 +215,3 @@ The following Media Foundation platform APIs that relate to threads and work que
  
 
  
-
-
-

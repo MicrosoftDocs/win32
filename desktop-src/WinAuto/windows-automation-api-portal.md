@@ -8,10 +8,10 @@ ms.date: 05/31/2018
 
 # Windows Accessibility API overview
 
-This section provides high-level overviews and detailed API reference for both the Microsoft Windows Automation API 3.0, which includes the Windows implementation of the Microsoft [UI Automation Specification](/windows/win32/winauto/uiauto-specandcommunitypromise), and Microsoft Active Accessibility (legacy feature introduced in Windows 95 as a platform add-in).
+This section provides high-level overviews and detailed API reference for both the Microsoft Windows Automation API 3.0, which includes the Windows implementation of the Microsoft [UI Automation Specification](./uiauto-specandcommunitypromise.md), and Microsoft Active Accessibility (legacy feature introduced in Windows 95 as a platform add-in).
 
 We describe the similarities and differences between Microsoft Active Accessibility and UI Automation, the components and features that enable the two technologies to work together, and provide guidelines for choosing which technology to implement for your specific scenario.
 
 ## Related topics
 
-[UI Automation Community Promise](/windows/win32/winauto/uiauto-specandcommunitypromise)
+[UI Automation Community Promise](./uiauto-specandcommunitypromise.md)

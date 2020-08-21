@@ -30,12 +30,9 @@ Give consideration to why you want your folder to be included in the known folde
 
 <dl> <dt>
 
-[Known Folders Sample](https://msdn.microsoft.com/library/Dd940364(v=VS.85).aspx)
+[Known Folders Sample](/previous-versions/windows/desktop/legacy/dd940364(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-

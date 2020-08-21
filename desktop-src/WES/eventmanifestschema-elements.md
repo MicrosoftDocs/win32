@@ -20,7 +20,7 @@ The following are the elements that the EventManifest schema defines. This secti
 | Element                                                                                                                  | Description                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**autoBackup (ChannelLoggingType)**](eventmanifestschema-autobackup-channelloggingtype-element.md)                     | Determines whether to create a new log file when the current log file reaches its maximum size.<br/>                                                                                                                                                                           |
-| [**binary (TemplateItemType)**](eventmanifestschema-binary-templateitemtype-element.md)                                 | Contains the binary data that is supplied by the [Event Log](https://docs.microsoft.com/windows/desktop/EventLog/event-logging) API.<br/>                                                                                                                                                                                     |
+| [**binary (TemplateItemType)**](eventmanifestschema-binary-templateitemtype-element.md)                                 | Contains the binary data that is supplied by the [Event Log](/windows/desktop/EventLog/event-logging) API.<br/>                                                                                                                                                                                     |
 | [**bitMap (MapType)**](eventmanifestschema-bitmap-maptype-element.md)                                                   | Defines a list of name/value pairs that map bit values and string values.<br/>                                                                                                                                                                                                 |
 | [**bufferSize (ChannelPublishingType)**](eventmanifestschema-buffersize-channelpublishingtype-element.md)               | Contains the amount of memory, in kilobytes, allocated for the session buffers.<br/>                                                                                                                                                                                           |
 | [**channel (ChannelListType)**](eventmanifestschema-channel-channellisttype-element.md)                                 | Defines a channel to which events can be logged.<br/>                                                                                                                                                                                                                          |
@@ -97,10 +97,4 @@ The following are the elements that the EventManifest schema defines. This secti
  
 
  
-
- 
-
-
-
-
 

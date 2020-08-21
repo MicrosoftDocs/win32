@@ -22,9 +22,9 @@ The table in this topic identifies the released versions of the Windows Installe
 | Windows Installer 2.0 | 2.0.3790.0                | Released with Windows Server 2003.                                                                                                                                                                                                              |
 | Windows Installer 3.0 | 3.0.3790.2180             | Released with Windows XP with Service Pack 2 (SP2). Released as a redistributable.                                                                                                                                                              |
 | Windows Installer 3.1 | 3.1.4000.1823             | Released as a redistributable. This version is has the same functionality as version 3.1.4000.2435.                                                                                                                                             |
-| Windows Installer 3.1 | 3.1.4000.1830             | Released with Windows Server 2003 with Service Pack 1 (SP1) and Windows XP Professional x64 Edition. Update this version to version 3.1.4000.2435 to address the issue discussed in [KB898628](https://blogs.msdn.com/windows_installer_team/archive/2005/08/05/448386.aspx). |
+| Windows Installer 3.1 | 3.1.4000.1830             | Released with Windows Server 2003 with Service Pack 1 (SP1) and Windows XP Professional x64 Edition. Update this version to version 3.1.4000.2435 to address the issue discussed in [KB898628](/archive/blogs/windows_installer_team/). |
 | Windows Installer 3.1 | 3.1.4000.3959             | Released with Windows Server 2003 with Service Pack 2 (SP2).                                                                                                                                                                                    |
-| Windows Installer 3.1 | 3.1.4000.2435             | Released with a fix to address the issue discussed in [KB898628](https://blogs.msdn.com/windows_installer_team/archive/2005/08/05/448386.aspx). This is the latest version of Windows Installer 3.1.                                                                          |
+| Windows Installer 3.1 | 3.1.4000.2435             | Released with a fix to address the issue discussed in [KB898628](/archive/blogs/windows_installer_team/). This is the latest version of Windows Installer 3.1.                                                                          |
 | Windows Installer 3.1 | 3.1.4001.5512             | Released with Windows XP with Service Pack 3 (SP3).                                                                                                                                                                                             |
 | Windows Installer 4.0 | 4.0.6000.16386            | Released with Windows Vista.                                                                                                                                                                                                                    |
 | Windows Installer 4.0 | 4.0.6001.18000            | Released with Windows Vista with Service Pack 1 (SP1) and Windows Server 2008.                                                                                                                                                                  |
@@ -49,6 +49,3 @@ For information about obtaining the latest Windows Installer redistributable, se
  
 
  
-
-
-

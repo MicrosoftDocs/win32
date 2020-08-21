@@ -11,14 +11,10 @@ ms.date: 05/31/2018
 
 # Access Rights for Active Directory Domain Services Objects
 
-All directory objects use the same set of predefined access rights that correspond to the common directory operations. These rights are described in the [**ADS\_RIGHTS\_ENUM**](https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_rights_enum) enumeration type.
+All directory objects use the same set of predefined access rights that correspond to the common directory operations. These rights are described in the [**ADS\_RIGHTS\_ENUM**](/windows/win32/api/iads/ne-iads-ads_rights_enum) enumeration type.
 
 In addition, you can define private access rights (control access rights) for operations that go beyond those covered by the predefined rights. See [Control Access Rights](control-access-rights.md).
 
  
 
  
-
-
-
-

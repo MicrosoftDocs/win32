@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Reading an Object's objectGUID and Creating a String Representation of the GUID
 
-The **objectGUID** property of each object in Active Directory Domain Services is stored in the directory as an octet string. An octet string is an array of one-byte characters. Use the [**IADs::get\_GUID**](https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods) method to retrieve the bindable string form of a directory object's **objectGUID**.
+The **objectGUID** property of each object in Active Directory Domain Services is stored in the directory as an octet string. An octet string is an array of one-byte characters. Use the [**IADs::get\_GUID**](/windows/desktop/ADSI/iads-property-methods) method to retrieve the bindable string form of a directory object's **objectGUID**.
 
 The following code examples show a function that reads the **objectGUID** attribute and returns a string representation of the GUID used to bind to the object.
 
@@ -176,7 +176,3 @@ void wmain(int argc, wchar_t *argv[])
  
 
  
-
-
-
-

@@ -26,7 +26,7 @@ Not used. Formerly a callback to respond to "capture frame" event.
 
 ## Members
 
-The **IRunActionCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRunActionCallback** also has these types of members:
+The **IRunActionCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IRunActionCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IRunActionCallback** interface has these methods.
  
 
  
-
-
-

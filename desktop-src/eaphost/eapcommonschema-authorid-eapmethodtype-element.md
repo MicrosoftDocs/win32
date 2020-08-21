@@ -1,6 +1,6 @@
 ---
 title: AuthorId (EapMethodType) Element
-description: Refers to the method author.
+description: Learn about the AuthorId (EapMethodType) element. The AuthorID (EapMethodType) element refers to the method author.
 ms.assetid: 1eb16a50-25b8-4883-b9ff-fde329d8dd81
 keywords:
 - AuthorId element EAPHost
@@ -38,10 +38,10 @@ The **AuthorId** and [**VendorId**](eapcommonschema-vendorid-eapmethodtype-eleme
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 

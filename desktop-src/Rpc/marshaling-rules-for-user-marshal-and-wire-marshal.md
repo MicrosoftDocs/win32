@@ -35,16 +35,16 @@ The OSF-DCE specification for marshaling embedded pointer types requires that yo
 
 -   A wire-type must be either a flat data type or a pointer type. If your transmissible type must be something else (a structure with pointers, for example), use a pointer to your desired type as the wire-type.
 
-The effect of these restrictions is that the types defined with the \[[**wire\_marshal**](https://docs.microsoft.com/windows/desktop/Midl/wire-marshal)\] or \[[**user\_marshal**](https://docs.microsoft.com/windows/desktop/Midl/user-marshal)\] attributes can be freely embedded in other types.
+The effect of these restrictions is that the types defined with the \[[**wire\_marshal**](/windows/desktop/Midl/wire-marshal)\] or \[[**user\_marshal**](/windows/desktop/Midl/user-marshal)\] attributes can be freely embedded in other types.
 
 ## Related topics
 
 <dl> <dt>
 
-[**wire\_marshal**](https://docs.microsoft.com/windows/desktop/Midl/wire-marshal)
+[**wire\_marshal**](/windows/desktop/Midl/wire-marshal)
 </dt> <dt>
 
-[**user\_marshal**](https://docs.microsoft.com/windows/desktop/Midl/user-marshal)
+[**user\_marshal**](/windows/desktop/Midl/user-marshal)
 </dt> <dt>
 
 [The type\_UserSize Function](the-type-usersize-function.md)
@@ -62,7 +62,3 @@ The effect of these restrictions is that the types defined with the \[[**wire\_m
  
 
  
-
-
-
-

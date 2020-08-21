@@ -105,7 +105,7 @@ With Direct3D 12 video, reference frames are passed explicitly. This allows for 
 
 ## DirectX 12 fences
 
-In DirectX 12, the app is responsible for synchronizing the access to their buffers. For the decoding case, there will be the need for adding fences to the input buffers and to the output buffers. Each fence has a value associated with it, and are used for synchronization of the CPU and the hardware engines. For more information, see [Using Resource Barriers to Synchronize Resource States in Direct3D 12](https://docs.microsoft.com/windows/desktop/direct3d12/using-resource-barriers-to-synchronize-resource-states-in-direct3d-12).
+In DirectX 12, the app is responsible for synchronizing the access to their buffers. For the decoding case, there will be the need for adding fences to the input buffers and to the output buffers. Each fence has a value associated with it, and are used for synchronization of the CPU and the hardware engines. For more information, see [Using Resource Barriers to Synchronize Resource States in Direct3D 12](/windows/desktop/direct3d12/using-resource-barriers-to-synchronize-resource-states-in-direct3d-12).
 
 A typical implementation will have a fence for each input buffer. In the case of input buffers, it is possible that the buffer may be available before the whole decoding process is done. The system will ignore this case and assume that the input buffer is available when decoding is done.
 An implementation will also usually have a fence for each output buffer. In the case of sending the output to the compositor, for instance, a fence is needed that is signaled when that presentation of that frame is finally done, indicating that the output is again available for the decoder.
@@ -121,7 +121,3 @@ An implementation will also usually have a fence for each output buffer. In the 
  
 
  
-
-
-
-

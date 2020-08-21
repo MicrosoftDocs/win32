@@ -8,16 +8,13 @@ ms.date: 05/31/2018
 
 # ISecurityInformation2 Methods
 
-The [**ISecurityInformation2**](https://msdn.microsoft.com/library/Aa378908(v=VS.85).aspx) interface exposes the following methods.
+The [**ISecurityInformation2**](/windows/win32/api/aclui/nn-aclui-isecurityinformation2) interface exposes the following methods.
 
 ## In this section
 
--   [**IsDaclCanonical Method**](https://msdn.microsoft.com/library/Aa379049(v=VS.85).aspx)
--   [**LookupSids Method**](https://msdn.microsoft.com/library/Aa379090(v=VS.85).aspx)
+-   [**IsDaclCanonical Method**](/windows/win32/api/aclui/nf-aclui-isecurityinformation2-isdaclcanonical)
+-   [**LookupSids Method**](/windows/win32/api/aclui/nf-aclui-isecurityinformation2-lookupsids)
 
  
 
  
-
-
-

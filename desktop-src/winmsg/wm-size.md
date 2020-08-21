@@ -10,7 +10,7 @@ ms.date: 07/27/2020
 
 Sent to a window after its size has changed.
 
-A window receives this message through its [**WindowProc**](https://docs.microsoft.com/windows/win32/api/winuser/nf-winuser-defwindowproca) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca) function.
 
 
 ```C++
@@ -108,11 +108,11 @@ Example from [Windows classic samples](https://github.com/microsoft/Windows-clas
 
 ## Remarks
 
-If the [**SetScrollPos**](https://msdn.microsoft.com/library/Cc411085(v=MSDN.10).aspx) or [**MoveWindow**](https://msdn.microsoft.com/library/ms633534(v=VS.85).aspx) function is called for a child window as a result of the **WM\_SIZE** message, the *bRedraw* or *bRepaint* parameter should be nonzero to cause the window to be repainted.
+If the [**SetScrollPos**](https://msdn.microsoft.com/library/Cc411085(v=MSDN.10).aspx) or [**MoveWindow**](/windows/win32/api/winuser/nf-winuser-movewindow) function is called for a child window as a result of the **WM\_SIZE** message, the *bRedraw* or *bRepaint* parameter should be nonzero to cause the window to be repainted.
 
 Although the width and height of a window are 32-bit values, the *lParam* parameter contains only the low-order 16 bits of each.
 
-The [**DefWindowProc**](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca) function
+The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function
 sends the **WM\_SIZE** and **WM\_MOVE** messages when it processes
 the [**WM\_WINDOWPOSCHANGED**](wm-windowposchanged.md) message.
 The **WM\_SIZE** and **WM\_MOVE** messages are not sent if an application handles
@@ -137,13 +137,13 @@ the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](https://msdn.microsoft.com/library/ms632657(v=VS.85).aspx)
+[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
 </dt> <dt>
 
-[**LOWORD**](https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx)
+[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
 </dt> <dt>
 
-[**MoveWindow**](https://msdn.microsoft.com/library/ms633534(v=VS.85).aspx)
+[**MoveWindow**](/windows/win32/api/winuser/nf-winuser-movewindow)
 </dt> <dt>
 
 [**WM\_WINDOWPOSCHANGED**](wm-windowposchanged.md)
@@ -164,7 +164,3 @@ the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
  
 
  
-
-
-
-

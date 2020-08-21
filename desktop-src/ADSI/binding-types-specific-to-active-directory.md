@@ -9,15 +9,11 @@ ms.date: 05/31/2018
 
 # Binding Types Specific to Active Directory
 
-In addition to the LDAP bindings discussed previously, Active Directory introduces several new concepts for binding to an object. See the following topics in the [Active Directory Domain Services](https://docs.microsoft.com/windows/desktop/AD/active-directory-domain-services) documentation:
+In addition to the LDAP bindings discussed previously, Active Directory introduces several new concepts for binding to an object. See the following topics in the [Active Directory Domain Services](/windows/desktop/AD/active-directory-domain-services) documentation:
 
--   [Serverless Binding and RootDSE](https://docs.microsoft.com/windows/desktop/AD/serverless-binding-and-rootdse)
--   [Binding to the Global Catalog](https://docs.microsoft.com/windows/desktop/AD/binding-to-the-global-catalog)
-
- 
+-   [Serverless Binding and RootDSE](/windows/desktop/AD/serverless-binding-and-rootdse)
+-   [Binding to the Global Catalog](/windows/desktop/AD/binding-to-the-global-catalog)
 
  
 
-
-
-
+ 

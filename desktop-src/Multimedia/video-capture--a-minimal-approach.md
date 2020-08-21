@@ -28,7 +28,7 @@ SendMessage (hWndC, WM_CAP_SEQUENCE, 0, 0L);
 
 
 
-A macro interface is also available that provides an alternative to using the [SendMessage](https://msdn.microsoft.com/library/ms644950.aspx) function and improves the readability of an application. The following example uses the macro interface to add video capture to an application.
+A macro interface is also available that provides an alternative to using the [SendMessage](/windows/win32/api/winuser/nf-winuser-sendmessage) function and improves the readability of an application. The following example uses the macro interface to add video capture to an application.
 
 
 ```C++
@@ -56,7 +56,3 @@ In an application, you can stop streaming captured data to a file by sending the
  
 
  
-
-
-
-

@@ -177,15 +177,9 @@ For all synchronous operations, the value of *dwContext* should be set to zero. 
 For FTP sessions, [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) tries to establish a connection to the server on the Internet. For HTTP sessions, [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) does not establish a connection until another function attempts to get information from the server.
 
 > [!Note]  
-> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 
  
-
- 
-
-
-
-
 

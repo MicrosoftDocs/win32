@@ -40,7 +40,7 @@ HRESULT D3DX10CreateThreadPump(
 *cIoThreads* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of I/O threads to create. If 0 is specified, Direct3D will attempt to calculate the optimal number of threads based on the hardware configuration.
 
@@ -49,7 +49,7 @@ The number of I/O threads to create. If 0 is specified, Direct3D will attempt to
 *cProcThreads* \[in\]
 </dt> <dd>
 
-Type: **[**UINT**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**UINT**](../winprog/windows-data-types.md)**
 
 The number of process threads to create. If 0 is specified, Direct3D will attempt to calculate the optimal number of threads based on the hardware configuration.
 
@@ -95,7 +95,3 @@ A thread pump is a very resource-intensive object. Only one thread pump should b
  
 
  
-
-
-
-

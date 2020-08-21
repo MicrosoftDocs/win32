@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Changing Elements of User Information
 
-The network management functions provide a variety of information levels to assist in changing user information. Some levels require administrative privileges to execute successfully. For more information about calling functions that require administrator privileges, see [Running with Special Privileges](https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges).
+The network management functions provide a variety of information levels to assist in changing user information. Some levels require administrative privileges to execute successfully. For more information about calling functions that require administrator privileges, see [Running with Special Privileges](/windows/desktop/SecBP/running-with-special-privileges).
 
 The sample code in this topic demonstrates how to change several elements of user information by calling the [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) function. The code uses various network management information structures.
 
@@ -76,7 +76,7 @@ else
 
 ## Setting the User Privilege, Level 1005
 
-The following code fragment illustrates how to specify the level of privilege assigned to a user with a call to the [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) function. The [**USER\_INFO\_1005**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_1005) topic contains additional information. For more information about account privileges, see [Privileges](https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges) and [Authorization Constants](https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants).
+The following code fragment illustrates how to specify the level of privilege assigned to a user with a call to the [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) function. The [**USER\_INFO\_1005**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_1005) topic contains additional information. For more information about account privileges, see [Privileges](/windows/desktop/SecAuthZ/privileges) and [Authorization Constants](/windows/desktop/SecAuthZ/authorization-constants).
 
 
 ```C++
@@ -245,7 +245,3 @@ else
  
 
  
-
-
-
-

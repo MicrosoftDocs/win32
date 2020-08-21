@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Graphics.DrawPolygon methods
 
-This topic lists the DrawPolygon methods of the [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](https://msdn.microsoft.com/library/ms534453(v=VS.85).aspx).
+This topic lists the DrawPolygon methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete list of methods for the **Graphics** class, see [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics).
 
 ### Overload list
 
@@ -16,8 +16,8 @@ This topic lists the DrawPolygon methods of the [**Graphics**](https://msdn.micr
 
 | Method                                                                                                            | Description                                                                                                                                  |
 |:------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DrawPolygon(Pen\*,Point\*,INT\*)**](https://msdn.microsoft.com/library/ms536008(v=VS.85).aspx)   | The [**Graphics::DrawPolygon**](https://msdn.microsoft.com/library/ms536008(v=VS.85).aspx) method draws a polygon.<br/>  |
-| [**DrawPolygon(Pen\*,PointF\*,INT\*)**](https://msdn.microsoft.com/library/ms536009(v=VS.85).aspx) | The [**Graphics::DrawPolygon**](https://msdn.microsoft.com/library/ms536009(v=VS.85).aspx) method draws a polygon.<br/> |
+| [**DrawPolygon(Pen\*,Point\*,INT\*)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpolygon(inconstpen_inconstpoint_inint))   | The [**Graphics::DrawPolygon**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpolygon(inconstpen_inconstpoint_inint)) method draws a polygon.<br/>  |
+| [**DrawPolygon(Pen\*,PointF\*,INT\*)**](/previous-versions//ms536009(v=vs.85)) | The [**Graphics::DrawPolygon**](/previous-versions//ms536009(v=vs.85)) method draws a polygon.<br/> |
 
 
 
@@ -34,7 +34,3 @@ This topic lists the DrawPolygon methods of the [**Graphics**](https://msdn.micr
  
 
  
-
-
-
-

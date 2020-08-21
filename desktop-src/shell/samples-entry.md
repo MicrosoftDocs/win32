@@ -19,7 +19,7 @@ This section describes the Shell samples available on [GitHub](https://github.co
 | Topic           | Contents                    |
 |-------------|-----------------------|
 | [Aero Wizards Sample](samples-aerowizards.md)                                                                | Demonstrates how to migrate Wizard 97 software to the Aero Wizard.    |
-| [Application User Model ID (AppUserModelID) Window Property Sample](samples-appusermodelidwindowproperty.md) | Demonstrates how to control the taskbar grouping behavior of an application's windows through the [System.AppUserModel.ID](https://msdn.microsoft.com/library/Dd391569(v=VS.85).aspx) property.                   |
+| [Application User Model ID (AppUserModelID) Window Property Sample](samples-appusermodelidwindowproperty.md) | Demonstrates how to control the taskbar grouping behavior of an application's windows through the [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md) property.                   |
 | [Automatic Jump List Sample](samples-automaticjumplist.md)              | Demonstrates how to add items to the automatic Jump List for an application, including switching between the display of the Frequent and Recent categories.                                                                   |
 | [Change Notify Watcher Sample](samples-changenotifywatcher.md)                                               | Demonstrates how to listen to Shell change notifications on a folder or item in the Windows Explorer namespace.                                                                                                               |
 | [Common File Dialog Modes Sample](samples-commonfiledialogmodes.md)                                          | Demonstrates how to use the Common File Dialog in different modes to pick files, containers (folders) or both files and folders (basket mode) without dismissing the dialog.                                                  |
@@ -65,6 +65,3 @@ This section describes the Shell samples available on [GitHub](https://github.co
  
 
  
-
-
-

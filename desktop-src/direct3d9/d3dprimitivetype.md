@@ -112,22 +112,18 @@ Using [Triangle Strips](triangle-strips.md) or [Triangle Fans (Direct3D 9)](tria
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::DrawIndexedPrimitive**](https://msdn.microsoft.com/library/Bb174369(v=VS.85).aspx)
+[**IDirect3DDevice9::DrawIndexedPrimitive**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawindexedprimitive)
 </dt> <dt>
 
-[**IDirect3DDevice9::DrawIndexedPrimitiveUP**](https://msdn.microsoft.com/library/Bb174370(v=VS.85).aspx)
+[**IDirect3DDevice9::DrawIndexedPrimitiveUP**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawindexedprimitiveup)
 </dt> <dt>
 
-[**IDirect3DDevice9::DrawPrimitive**](https://msdn.microsoft.com/library/Bb174371(v=VS.85).aspx)
+[**IDirect3DDevice9::DrawPrimitive**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawprimitive)
 </dt> <dt>
 
-[**IDirect3DDevice9::DrawPrimitiveUP**](https://msdn.microsoft.com/library/Bb174372(v=VS.85).aspx)
+[**IDirect3DDevice9::DrawPrimitiveUP**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawprimitiveup)
 </dt> </dl>
 
  
 
  
-
-
-
-

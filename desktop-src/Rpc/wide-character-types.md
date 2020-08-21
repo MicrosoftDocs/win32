@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Wide-Character Types
 
-Microsoft RPC supports the wide-character type [**wchar\_t**](https://docs.microsoft.com/windows/desktop/Midl/wchar-t). The wide-character type uses 2 bytes for each character. The ANSI C-language definition allows you to initialize long characters and long strings as:
+Microsoft RPC supports the wide-character type [**wchar\_t**](/windows/desktop/Midl/wchar-t). The wide-character type uses 2 bytes for each character. The ANSI C-language definition allows you to initialize long characters and long strings as:
 
 ``` syntax
 wchar_t wcInitial = L'a';
@@ -18,7 +18,3 @@ wchar_t * pwszString = L"Hello, world";
  
 
  
-
-
-
-

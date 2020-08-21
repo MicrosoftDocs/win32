@@ -43,7 +43,7 @@ The **IMsTscNonScriptable** interface can be accessed only through the vtable.
 
 ## Members
 
-The **IMsTscNonScriptable** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsTscNonScriptable** also has these types of members:
+The **IMsTscNonScriptable** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IMsTscNonScriptable** also has these types of members:
 
 -   [Methods](#methods)
 -   [Properties](#properties)
@@ -125,10 +125,4 @@ The **IMsTscNonScriptable** interface has been extended by the following interfa
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

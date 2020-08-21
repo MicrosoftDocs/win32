@@ -15,9 +15,9 @@ Structured Storage defines the following interfaces:
 -   [**IMemoryAllocator**](imemoryallocator.md)
 -   [**IDirectWriterLock**](/windows/desktop/api/Objidl/nn-objidl-idirectwriterlock)
 -   [IDirectWriterLock - Compound File Implementation](idirectwriterlock-compound-file-implementation.md)
--   [**IEnumSTATPROPSETSTG**](https://msdn.microsoft.com/library/Aa379184(v=VS.85).aspx)
+-   [**IEnumSTATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg)
 -   [IEnumSTATPROPSETSTG - Compound File Implementation](ienumstatpropsetstg-compound-file-implementation.md)
--   [**IEnumSTATPROPSTG**](https://msdn.microsoft.com/library/Aa379210(v=VS.85).aspx)
+-   [**IEnumSTATPROPSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropstg)
 -   [IEnumSTATPROPSTG - Compound File Implementation](ienumstatpropstg-compound-file-implementation.md)
 -   [**IEnumSTATSTG**](/windows/desktop/api/Objidl/nn-objidl-ienumstatstg)
 -   [**IFillLockBytes**](/windows/desktop/api/Objidl/nn-objidl-ifilllockbytes)
@@ -39,7 +39,3 @@ Structured Storage defines the following interfaces:
  
 
  
-
-
-
-

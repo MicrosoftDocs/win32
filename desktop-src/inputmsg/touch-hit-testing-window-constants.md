@@ -18,7 +18,7 @@ ms.date: 02/03/2020
 
 # Touch Hit Testing Window Constants
 
-Indicates how messages for touch hit testing are processed by windows that are registered through the [**RegisterTouchHitTestingWindow**](https://msdn.microsoft.com/library/windows/desktop/hh437252) function.
+Indicates how messages for touch hit testing are processed by windows that are registered through the [**RegisterTouchHitTestingWindow**](/windows/win32/api/winuser/nf-winuser-registertouchhittestingwindow) function.
 
 
 
@@ -53,10 +53,4 @@ Indicates how messages for touch hit testing are processed by windows that are r
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

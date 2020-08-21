@@ -91,14 +91,14 @@ public static void JetUpdate2(
 <!-- end list -->
 
   - bookmarkSize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     The size of the bookmark buffer.
 
 <!-- end list -->
 
   - actualBookmarkSize  
-    Type: [System.Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN)  
+    Type: [System.Int32](/dotnet/api/system.int32)  
     
     Returns the actual size of the bookmark.
 
@@ -122,4 +122,3 @@ JetUpdate is the final step in performing an insert or an update. The update is 
 [Server2003Api members](dn351196\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop.Server2003 namespace](hh557147\(v=exchg.10\).md)
-

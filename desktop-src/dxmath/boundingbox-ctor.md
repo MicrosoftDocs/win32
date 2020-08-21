@@ -23,9 +23,9 @@ Creates an instance of the `BoundingBox` class.
 
 | Constructor                                                                 | Description                                                |
 |:----------------------------------------------------------------------------|:-----------------------------------------------------------|
-| [**BoundingBox ()**](https://msdn.microsoft.com/library/Hh437810(v=VS.85).aspx)                                | Creates an instance of the `BoundingBox` class.<br/> |
-| [**BoundingBox (const BoundingBox&)**](https://msdn.microsoft.com/library/Hh437808(v=VS.85).aspx)              | Creates an instance of the `BoundingBox` class.<br/> |
-| [**BoundingBox (const XMFLOAT3&,const XMFLOAT3&)**](https://msdn.microsoft.com/library/Hh437809(v=VS.85).aspx) | Creates an instance of the `BoundingBox` class.<br/> |
+| [**BoundingBox ()**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-boundingbox(boundingbox__))                                | Creates an instance of the `BoundingBox` class.<br/> |
+| [**BoundingBox (const BoundingBox&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-boundingbox(constboundingbox_))              | Creates an instance of the `BoundingBox` class.<br/> |
+| [**BoundingBox (const XMFLOAT3&,const XMFLOAT3&)**](/windows/win32/api/directxcollision/nf-directxcollision-boundingbox-boundingbox(constxmfloat3__constxmfloat3_)) | Creates an instance of the `BoundingBox` class.<br/> |
 
 
 
@@ -42,7 +42,3 @@ Creates an instance of the `BoundingBox` class.
  
 
  
-
-
-
-

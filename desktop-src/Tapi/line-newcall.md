@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # LINE\_NEWCALL message
 
-The TSPI **LINE\_NEWCALL** message is sent to the [**LINEEVENT**](https://msdn.microsoft.com/library/ms725228(v=VS.85).aspx) callback function whenever a new call that TAPI has not originated arrives on a line that TAPI has open. This must be the first message sent regarding that call. TAPI writes the *htCall* opaque handle to the location passed by the service provider as *dwParam2*. This gives the service provider the *htCall* value to be used in subsequent messages.
+The TSPI **LINE\_NEWCALL** message is sent to the [**LINEEVENT**](/windows/win32/api/tspi/nc-tspi-lineevent) callback function whenever a new call that TAPI has not originated arrives on a line that TAPI has open. This must be the first message sent regarding that call. TAPI writes the *htCall* opaque handle to the location passed by the service provider as *dwParam2*. This gives the service provider the *htCall* value to be used in subsequent messages.
 
 
 ```C++
@@ -67,9 +67,9 @@ Unused.
 
 ## Remarks
 
-The service provider should send the [**LINE\_CALLSTATE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)) message as the next message for this call. The **LINE\_NEWCALL** event is unusual in that it also passes a value back to the service provider.
+The service provider should send the [**LINE\_CALLSTATE**](/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)) message as the next message for this call. The **LINE\_NEWCALL** event is unusual in that it also passes a value back to the service provider.
 
-This function reports any new calls that originate in the service provider (inbound, outbound, initiated at the phone, and so on) for which TAPI and the service provider have not yet exchanged opaque handles. The handles are exchanged so that TAPI and the service provider can subsequently make requests and report events involving the call. Because these new calls are not necessarily inbound, the calls can initially be in any state, not necessarily the *offering* state. If the service provider starts and discovers that one or more calls are already active on the line, it informs TAPI of them with **LINE\_NEWCALL** messages followed by [**LINE\_CALLSTATE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)) messages indicating the current state. A new outgoing call, initiated on the phone by the user, would be reported with a **LINE\_NEWCALL** message, and the initial **LINE\_CALLSTATE** message would indicate that the call was in **DIALTONE** state (and then continuing on from there).
+This function reports any new calls that originate in the service provider (inbound, outbound, initiated at the phone, and so on) for which TAPI and the service provider have not yet exchanged opaque handles. The handles are exchanged so that TAPI and the service provider can subsequently make requests and report events involving the call. Because these new calls are not necessarily inbound, the calls can initially be in any state, not necessarily the *offering* state. If the service provider starts and discovers that one or more calls are already active on the line, it informs TAPI of them with **LINE\_NEWCALL** messages followed by [**LINE\_CALLSTATE**](/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)) messages indicating the current state. A new outgoing call, initiated on the phone by the user, would be reported with a **LINE\_NEWCALL** message, and the initial **LINE\_CALLSTATE** message would indicate that the call was in **DIALTONE** state (and then continuing on from there).
 
 If the service provider passes a large number of calls to TAPI in a very short amount of time (during the same interrupt cycle), TAPI can become backlogged in processing those calls. When this happens, TAPI signals to the service provider to wait a short time before sending any more calls. It signals this by writing a value of **NULL**, instead of a valid [**HTAPICALL**](htapicall.md), into the location pointed to by the *dwParam2* parameter of **LINE\_NEWCALL**. This indicates that the attempt to process the newly offered call handle was not successful, most likely due to a temporary inability to allocate memory. The service provider can respond by dropping the call or by resending the **LINE\_NEWCALL** message after a scheduling delay (during which time the service provider should yield the processor to allow TAPI to process other pending actions). In any case, no further messages regarding the new call can be passed to TAPI until the handle exchange succeeds. When the location pointed to by *dwParam2* acquires a non-**NULL** value, the service provider knows that this value is a valid [**HTAPICALL**](htapicall.md) handle to the call.
 
@@ -90,16 +90,11 @@ There is no directly corresponding message at the TAPI level. This message is us
 
 <dl> <dt>
 
-[**LINE\_CALLSTATE**](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85))
+[**LINE\_CALLSTATE**](/previous-versions/windows/desktop/legacy/ms725219(v=vs.85))
 </dt> <dt>
 
-[**LINEEVENT**](https://msdn.microsoft.com/library/ms725228(v=VS.85).aspx)
+[**LINEEVENT**](/windows/win32/api/tspi/nc-tspi-lineevent)
 </dt> </dl>
 
  
-
- 
-
-
-
 

@@ -25,7 +25,7 @@ A collection of template classes for Microsoft Visual C++. It is used to create 
 <span id="projectid114.atl"></span><span id="PROJECTID114.ATL"></span> **ATL**
 </dt> <dd>
 
-See definition for: [Active Template Library (ATL)](https://docs.microsoft.com/windows)
+See definition for: [Active Template Library (ATL)](/windows)
 
 </dd> <dt>
 
@@ -102,7 +102,7 @@ Any technology used to protect the interests of owners of digital content and se
 <span id="projectid114.drm"></span><span id="PROJECTID114.DRM"></span> **DRM**
 </dt> <dd>
 
-See definition for: [digital rights management (DRM)](https://docs.microsoft.com/windows)
+See definition for: [digital rights management (DRM)](/windows)
 
 </dd> <dt>
 
@@ -193,7 +193,7 @@ To encrypt files with a key and add information such as the license acquisition 
 <span id="projectid114.sdmi"></span><span id="PROJECTID114.SDMI"></span> **SDMI**
 </dt> <dd>
 
-See definition for: [Secure Digital Music Initiative (SDMI)](https://docs.microsoft.com/windows)
+See definition for: [Secure Digital Music Initiative (SDMI)](/windows)
 
 </dd> <dt>
 
@@ -235,7 +235,3 @@ A service that is used to stream digital audio and video over the Internet or an
  
 
  
-
-
-
-

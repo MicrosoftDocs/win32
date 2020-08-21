@@ -67,7 +67,7 @@ Access type: Read-only
 Qualifiers: WmiDataId(4)
 </dt> </dl>
 
-Values passed in the *CreateOptions* and *CreateDispositions* parameters to the [**NtCreateFile**](https://msdn.microsoft.com/library/Bb432380(v=VS.85).aspx) function.
+Values passed in the *CreateOptions* and *CreateDispositions* parameters to the [**NtCreateFile**](/windows/win32/api/winternl/nf-winternl-ntcreatefile) function.
 
 </dd> <dt>
 
@@ -83,7 +83,7 @@ Access type: Read-only
 Qualifiers: WmiDataId(5)
 </dt> </dl>
 
-Value passed in the *FileAttributes* parameter to the [**NtCreateFile**](https://msdn.microsoft.com/library/Bb432380(v=VS.85).aspx) function.
+Value passed in the *FileAttributes* parameter to the [**NtCreateFile**](/windows/win32/api/winternl/nf-winternl-ntcreatefile) function.
 
 </dd> <dt>
 
@@ -147,7 +147,7 @@ Access type: Read-only
 Qualifiers: WmiDataId(6)
 </dt> </dl>
 
-Value passed in the *ShareAccess* parameter to the [**NtCreateFile**](https://msdn.microsoft.com/library/Bb432380(v=VS.85).aspx) function.
+Value passed in the *ShareAccess* parameter to the [**NtCreateFile**](/windows/win32/api/winternl/nf-winternl-ntcreatefile) function.
 
 </dd> <dt>
 
@@ -188,7 +188,3 @@ Thread identifier of the thread that is creating the file.
  
 
  
-
-
-
-

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 To create the enhanced video renderer (EVR) filter, call **CoCreateInstance**. The CLSID is CLSID\_EnhancedVideoRenderer, defined in uuids.h. You do not have to call [**MFStartup**](/windows/desktop/api/mfapi/nf-mfapi-mfstartup) or [**MFShutdown**](/windows/desktop/api/mfapi/nf-mfapi-mfshutdown) to use the EVR filter.
 
-For more information about using the EVR filter in a DirectShow application, see [Audio/Video Playback in DirectShow](https://msdn.microsoft.com/library/Ff625867(v=VS.85).aspx).
+For more information about using the EVR filter in a DirectShow application, see [Audio/Video Playback in DirectShow](../directshow/audio-video-playback-in-directshow.md).
 
 The EVR filter starts with one input pin, which corresponds to the reference stream. To add pins for substreams, query the filter for the [**IEVRFilterConfig**](/windows/desktop/api/evr/nn-evr-ievrfilterconfig) interface and call [**IEVRFilterConfig::SetNumberOfStreams**](/windows/desktop/api/evr/nf-evr-ievrfilterconfig-setnumberofstreams). Call this method before connecting any input pins. Pin 0 is always the reference stream. Connect this pin before any other pins, because the format of the reference stream might limit which substream formats are available.
 
@@ -26,18 +26,18 @@ Unlike the Video Mixing Renderer (VMR), the EVR does not have operational modes 
 
 The EVR filter exposes the following interfaces. Some of these interfaces are documented in the DirectShow SDK. Use **QueryInterface** to retrieve pointers to these interfaces:
 
--   [**IAMCertifiedOutputProtection**](https://msdn.microsoft.com/library/Dd389149(v=VS.85).aspx) (DirectShow)
--   [**IAMFilterMiscFlags**](https://msdn.microsoft.com/library/Dd389374(v=VS.85).aspx) (DirectShow)
--   [**IBaseFilter**](https://msdn.microsoft.com/library/Dd389526(v=VS.85).aspx) (DirectShow)
+-   [**IAMCertifiedOutputProtection**](/windows/win32/api/strmif/nn-strmif-iamcertifiedoutputprotection) (DirectShow)
+-   [**IAMFilterMiscFlags**](/windows/win32/api/strmif/nn-strmif-iamfiltermiscflags) (DirectShow)
+-   [**IBaseFilter**](/windows/win32/api/strmif/nn-strmif-ibasefilter) (DirectShow)
 -   [**IEVRFilterConfig**](/windows/desktop/api/evr/nn-evr-ievrfilterconfig)
--   [**IKsPropertySet**](https://msdn.microsoft.com/library/Dd390144(v=VS.85).aspx) (DirectShow)
--   [**IMediaEventSink**](https://msdn.microsoft.com/library/Dd406901(v=VS.85).aspx) (DirectShow)
+-   [**IKsPropertySet**](../directshow/ikspropertyset.md) (DirectShow)
+-   [**IMediaEventSink**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) (DirectShow)
 -   [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice)
 -   [**IMFVideoPositionMapper**](/windows/desktop/api/evr/nn-evr-imfvideopositionmapper)
 -   [**IMFVideoRenderer**](/windows/desktop/api/evr/nn-evr-imfvideorenderer)
 -   **IPersistStream**
--   [**IQualityControl**](https://msdn.microsoft.com/library/Dd376912(v=VS.85).aspx) (DirectShow)
--   [**IQualProp**](https://msdn.microsoft.com/library/Dd376915(v=VS.85).aspx) (DirectShow)
+-   [**IQualityControl**](/windows/win32/api/strmif/nn-strmif-iqualitycontrol) (DirectShow)
+-   [**IQualProp**](/previous-versions/windows/desktop/api/amvideo/nn-amvideo-iqualprop) (DirectShow)
 -   **ISpecifyPropertyPages**
 
 ## Input Pin Interfaces
@@ -45,10 +45,10 @@ The EVR filter exposes the following interfaces. Some of these interfaces are do
 The input pins on the EVR filter expose the following interfaces. Use **QueryInterface** to retrieve pointers to these interfaces:
 
 -   [**IEVRVideoStreamControl**](/windows/desktop/api/evr9/nn-evr9-ievrvideostreamcontrol)
--   [**IMemInputPin**](https://msdn.microsoft.com/library/Dd407073(v=VS.85).aspx) (DirectShow)
+-   [**IMemInputPin**](/windows/win32/api/strmif/nn-strmif-imeminputpin) (DirectShow)
 -   [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice)
--   [**IPin**](https://msdn.microsoft.com/library/Dd390397(v=VS.85).aspx) (DirectShow)
--   [**IQualityControl**](https://msdn.microsoft.com/library/Dd376912(v=VS.85).aspx) (DirectShow)
+-   [**IPin**](/windows/win32/api/strmif/nn-strmif-ipin) (DirectShow)
+-   [**IQualityControl**](/windows/win32/api/strmif/nn-strmif-iqualitycontrol) (DirectShow)
 
 In addition, you can use the [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice) interface to retrieve the following interface:
 
@@ -58,7 +58,7 @@ In addition, you can use the [**IMFGetService**](/windows/desktop/api/mfidl/nn-m
 
 <dl> <dt>
 
-[Audio/Video Playback in DirectShow](https://msdn.microsoft.com/library/Ff625867(v=VS.85).aspx)
+[Audio/Video Playback in DirectShow](../directshow/audio-video-playback-in-directshow.md)
 </dt> <dt>
 
 [Enhanced Video Renderer](enhanced-video-renderer.md)
@@ -67,6 +67,3 @@ In addition, you can use the [**IMFGetService**](/windows/desktop/api/mfidl/nn-m
  
 
  
-
-
-

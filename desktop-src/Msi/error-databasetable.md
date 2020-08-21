@@ -39,7 +39,7 @@ The collection is empty if the values do not apply to the type of the error. You
 
 ### C++
 
-See [**get\_DatabaseTable**](https://msdn.microsoft.com/library/Aa369251(v=VS.85).aspx) function.
+See [**get\_DatabaseTable**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-get_databasetable) function.
 
 ## Requirements
 
@@ -54,9 +54,4 @@ See [**get\_DatabaseTable**](https://msdn.microsoft.com/library/Aa369251(v=VS.85
 
 
  
-
- 
-
-
-
 

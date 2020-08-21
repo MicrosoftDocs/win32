@@ -24,7 +24,7 @@ The **IWordInfo** interface is a Japanese-specific language resource component. 
 
 ## Members
 
-The **IWordInfo** interface inherits from the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface. **IWordInfo** also has these types of members:
+The **IWordInfo** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IWordInfo** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -36,7 +36,7 @@ The **IWordInfo** interface has these methods.
 
 | Method        | Description                                                                                                                                 |
 |:--------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
-| **BreakText** | Parses text to identify words and provides the results to the [WordSink](https://msdn.microsoft.com/library/ms691570.aspx) object.<br/> |
+| **BreakText** | Parses text to identify words and provides the results to the [WordSink](/previous-versions//ms691570(v=vs.85)) object.<br/> |
 
 
 
@@ -67,13 +67,9 @@ This interface is used to retrieve Japanese word breaks or dictionary forms for 
 [**WordInfo**](wordinfo-coclass.md)
 </dt> <dt>
 
-[WordSink](https://msdn.microsoft.com/library/ms691570.aspx)
+[WordSink](/previous-versions//ms691570(v=vs.85))
 </dt> </dl>
 
  
 
  
-
-
-
-

@@ -102,7 +102,7 @@ This method returns one of the following values.
 
 ## Remarks
 
-Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](https://docs.microsoft.com/windows/desktop/WmiSdk/user-account-control-and-wmi).
+Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class might be restricted by UAC Filtering. For more information, see [User Account Control and WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
 ## Requirements
 
@@ -122,16 +122,11 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 
 <dl> <dt>
 
-[**FormatError (V1)**](https://docs.microsoft.com/previous-versions/windows/desktop/virtual/formaterror-msvm-virtualsystemmanagementservice)
+[**FormatError (V1)**](/previous-versions/windows/desktop/virtual/formaterror-msvm-virtualsystemmanagementservice)
 </dt> <dt>
 
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
  
-
- 
-
-
-
 

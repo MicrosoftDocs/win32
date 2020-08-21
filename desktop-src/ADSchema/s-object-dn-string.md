@@ -29,7 +29,7 @@ An octet string that contains a string value and a DN.
 | MAPI Type    | \-                                                                                 |
 | ADS Type     | ADSTYPE\_DN\_WITH\_STRING                                                          |
 | Variant Type | VT\_DISPATCH                                                                       |
-| SDS Type     | A COM object that can be cast to an [**IADsDNWithString**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsdnwithstring). |
+| SDS Type     | A COM object that can be cast to an [**IADsDNWithString**](/windows/desktop/api/iads/nn-iads-iadsdnwithstring). |
 
 
 
@@ -47,13 +47,9 @@ where "&lt;char count&gt;" is the number of characters in the "&lt;string value&
 
 <dl> <dt>
 
-[**IADsDNWithString**](https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsdnwithstring)
+[**IADsDNWithString**](/windows/desktop/api/iads/nn-iads-iadsdnwithstring)
 </dt> </dl>
 
  
 
  
-
-
-
-

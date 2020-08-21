@@ -26,7 +26,7 @@ Callback to return the contents of an object in buffer form for those that suppo
 
 ## Members
 
-The **IBufferObjectDataCallback** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IBufferObjectDataCallback** also has these types of members:
+The **IBufferObjectDataCallback** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IBufferObjectDataCallback** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -45,6 +45,3 @@ The **IBufferObjectDataCallback** interface has these methods.
  
 
  
-
-
-

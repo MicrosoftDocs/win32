@@ -12,7 +12,7 @@ This program demonstrates how you can build an application that captures InkColl
 
 ## Defining a Wrapper for Ink Collector Events
 
-The `InkCollectorEvents` Class handles passing ink collector events from the ink collector to the user of this class. The `AdviseInkCollector` method sets up the connection between the [**InkCollector**](inkcollector-class.md) object and this class. The `Invoke` method converts the [**IDispatch**](https://msdn.microsoft.com/library/ms221608(v=VS.71).aspx) event notification into a call to a virtual function that the user of this class can override to process a particular event.
+The `InkCollectorEvents` Class handles passing ink collector events from the ink collector to the user of this class. The `AdviseInkCollector` method sets up the connection between the [**InkCollector**](inkcollector-class.md) object and this class. The `Invoke` method converts the [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) event notification into a call to a virtual function that the user of this class can override to process a particular event.
 
 > [!Note]  
 > You must do more than override the virtual function for an event handler to get that event. For all but default events, you have to call the ink collector's [**SetEventInterest**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-seteventinterest) method to guarantee getting an event. Secondly, this object marshals itself free threaded so all implemented event handlers need to be free threaded as well. Of particular importance is using Windows APIs, which may cause a switch to another thread as the event handler is not guaranteed to be running on the same thread as the window connected with the ink collector.
@@ -60,7 +60,7 @@ virtual void Stroke(
 
 
 
-The `Init` method calls [CoCreateFreeThreadedMarshaler](https://msdn.microsoft.com/library/ms694500(v=VS.85).aspx) to set up a free threaded marshaler.
+The `Init` method calls [CoCreateFreeThreadedMarshaler](/windows/win32/api/combaseapi/nf-combaseapi-cocreatefreethreadedmarshaler) to set up a free threaded marshaler.
 
 
 ```C++
@@ -268,6 +268,3 @@ case WM_DESTROY:
  
 
  
-
-
-

@@ -54,7 +54,7 @@ The **MDM\_Personalization** class has these properties.
 
 <dl> <dt>
 
-[DesktopImageStatus](https://docs.microsoft.com/windows/client-management/mdm/personalization-csp#desktopimagestatus)
+[DesktopImageStatus](/windows/client-management/mdm/personalization-csp#desktopimagestatus)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -65,7 +65,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[DesktopImageUrl](https://docs.microsoft.com/windows/client-management/mdm/personalization-csp#desktopimageurl)
+[DesktopImageUrl](/windows/client-management/mdm/personalization-csp#desktopimageurl)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -85,12 +85,12 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> <dt>
 
-[LockScreenImageStatus](https://docs.microsoft.com/windows/client-management/mdm/personalization-csp#lockscreenimagestatus)
+[LockScreenImageStatus](/windows/client-management/mdm/personalization-csp#lockscreenimagestatus)
 </dt> <dd> <dl> <dt>
 
 Data type: **sint32**
@@ -101,7 +101,7 @@ Access type: Read/write
 
 </dd> <dt>
 
-[LockScreenImageUrl](https://docs.microsoft.com/windows/client-management/mdm/personalization-csp#lockscreenimageurl)
+[LockScreenImageUrl](/windows/client-management/mdm/personalization-csp#lockscreenimageurl)
 </dt> <dd> <dl> <dt>
 
 Data type: **string**
@@ -121,7 +121,7 @@ Data type: **string**
 Access type: Read-only
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 </dd> </dl>
@@ -141,10 +141,4 @@ Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qual
 
 
  
-
- 
-
-
-
-
 

@@ -79,7 +79,7 @@ Data type: **string**
 Access type: Read/write
 </dt> <dt>
 
-Qualifiers: [**key**](https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier)
+Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
 Name of the extension (e.g. .txt).
@@ -153,10 +153,4 @@ Hint to help open documents with this file association.
 
 
  
-
- 
-
-
-
-
 

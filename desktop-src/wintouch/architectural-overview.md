@@ -30,7 +30,7 @@ In the leftmost column of the illustration, touch-sensitive hardware receives in
 
 Applications receive gestures by default. Unless an application registers for Windows Touch input messages with the [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow) function, notifications for gestures ([**WM\_GESTURE**](wm-gesture.md) messages) are created by Windows and sent to that application window. If an application Window registers to receive touch messages, notifications for Windows Touch input ([**WM\_TOUCH**](wm-touchdown.md) messages) are sent to that application window. Windows Touch and gesture messages are greedy in the sense that after a touch is made or a gesture begins on an application Window, all messages are sent to that application until the gesture completes or the primary touch is completed.
 
-For legacy support, Windows interprets [**WM\_GESTURE**](wm-gesture.md) messages if they are bubbled up and then will SEND or POST appropriate messages that map to the gesture. To avoid breaking legacy support, make sure that you forward WM\_GESTURE messages using [DefWindowProc](https://msdn.microsoft.com/library/ms633572.aspx). More information on legacy support can be found in the section [Windows Touch Gestures Overview](windows-touch-gestures-overview.md).
+For legacy support, Windows interprets [**WM\_GESTURE**](wm-gesture.md) messages if they are bubbled up and then will SEND or POST appropriate messages that map to the gesture. To avoid breaking legacy support, make sure that you forward WM\_GESTURE messages using [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca). More information on legacy support can be found in the section [Windows Touch Gestures Overview](windows-touch-gestures-overview.md).
 
 ## Manipulations and Inertia
 
@@ -56,7 +56,3 @@ Note the similarities between inertia and manipulation. The only difference betw
  
 
  
-
-
-
-

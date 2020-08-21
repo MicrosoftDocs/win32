@@ -69,7 +69,7 @@ The return value is one of the following codes.
 | Value                                                                                                       | Description                                                                                                                                              |
 |-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**TRUE**</dt> </dl>                         | At least one route to the specified network exists. The best route is returned in the structure pointed to by the *BestRoute* parameter.<br/>      |
-| <dl> <dt>**FALSE**</dt> </dl>                        | There is no route to the specified network, or the operation failed. Call [**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx) to obtain more information:<br/> |
+| <dl> <dt>**FALSE**</dt> </dl>                        | There is no route to the specified network, or the operation failed. Call [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to obtain more information:<br/> |
 | <dl> <dt>**NO\_ERROR**</dt> </dl>                    | The operation succeeded, but there is no route to the specified network.<br/>                                                                      |
 | <dl> <dt>**ERROR\_INVALID\_PARAMETER**</dt> </dl>    | The value of the *ProtocolFamily* parameter does not correspond to any installed protocol family.<br/>                                             |
 | <dl> <dt>**ERROR\_NO\_SYSTEM\_RESOURCES**</dt> </dl> | There are insufficient resources to carry out the operation.<br/>                                                                                  |
@@ -103,7 +103,7 @@ The return value is one of the following codes.
 [Routing Table Manager Version 1 Functions](routing-table-manager-version-1-functions.md)
 </dt> <dt>
 
-[**GetLastError**](https://msdn.microsoft.com/library/ms679360(v=VS.85).aspx)
+[**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror)
 </dt> <dt>
 
 [**IP\_NETWORK**](ip-network.md)
@@ -116,10 +116,4 @@ The return value is one of the following codes.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

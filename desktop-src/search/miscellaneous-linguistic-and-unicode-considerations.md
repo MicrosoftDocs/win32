@@ -104,11 +104,8 @@ Surrogate pairs are character representations in source code that represent a si
 -   A low surrogate must follow a high surrogate.
 -   A high or low surrogate without a corresponding value for its other half has no meaning.
 
-Word breakers must consider any pairs and generate the pairs as such in the index. For more information, see [Surrogates and Supplementary Characters](https://docs.microsoft.com/windows/desktop/Intl/surrogates-and-supplementary-characters).
+Word breakers must consider any pairs and generate the pairs as such in the index. For more information, see [Surrogates and Supplementary Characters](/windows/desktop/Intl/surrogates-and-supplementary-characters).
 
  
 
  
-
-
-

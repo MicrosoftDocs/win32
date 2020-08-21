@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # propertyDescriptionList
 
-Container for one or many individual [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) elements. A .propdesc property description schema file should contain at least one [propertyDescriptionList](https://msdn.microsoft.com/library/Bb773882(v=VS.85).aspx) element.
+Container for one or many individual [propertyDescription](./propdesc-schema-propertydescription.md) elements. A .propdesc property description schema file should contain at least one [propertyDescriptionList]() element.
 
 ## Syntax
 
@@ -45,7 +45,7 @@ Container for one or many individual [propertyDescription](https://msdn.microsof
 
 | Parent Element                        | Child Elements                                                   |
 |---------------------------------------|------------------------------------------------------------------|
-| [schema](https://msdn.microsoft.com/library/Bb773879(v=VS.85).aspx) | [propertyDescription](https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx) |
+| [schema](./propdesc-schema-entry.md) | [propertyDescription](./propdesc-schema-propertydescription.md) |
 
 
 
@@ -66,11 +66,8 @@ Container for one or many individual [propertyDescription](https://msdn.microsof
 
 ## Remarks
 
-The [propertyDescriptionList](https://msdn.microsoft.com/library/Bb773882(v=VS.85).aspx) should not be confused with "property lists" and [**IPropertyDescriptionList**](https://msdn.microsoft.com/library/Bb761511(v=VS.85).aspx), which are completely separate.
+The [propertyDescriptionList]() should not be confused with "property lists" and [**IPropertyDescriptionList**](/windows/win32/api/propsys/nn-propsys-ipropertydescriptionlist), which are completely separate.
 
  
 
  
-
-
-

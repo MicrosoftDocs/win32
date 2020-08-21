@@ -210,7 +210,7 @@ End Sub
 
 
 
-The following Visual Basic .NET code example shows how to create a new application directory partition using [System.DirectoryServices](https://docs.microsoft.com/dotnet/api/system.directoryservices?redirectedfrom=MSDN).
+The following Visual Basic .NET code example shows how to create a new application directory partition using [System.DirectoryServices](/dotnet/api/system.directoryservices).
 
 
 ```VB
@@ -278,7 +278,7 @@ End Sub
 
 
 
-The following C# code example shows how to create a new application directory partition using [System.DirectoryServices](https://docs.microsoft.com/dotnet/api/system.directoryservices?redirectedfrom=MSDN).
+The following C# code example shows how to create a new application directory partition using [System.DirectoryServices](/dotnet/api/system.directoryservices).
 
 
 ```CSharp
@@ -356,7 +356,3 @@ static void CreateApplicationPartitionCS(string DCADsPath,
  
 
  
-
-
-
-

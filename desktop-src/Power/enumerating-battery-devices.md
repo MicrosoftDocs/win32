@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Enumerating Battery Devices
 
-To enumerate the battery devices on a local computer, use the [SetupDiGetClassDevs](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdigetclassdevsw?redirectedfrom=MSDN) function. The *ClassGuid* parameter is a pointer to **GUID\_DEVCLASS\_BATTERY** (defined in BatClass.h). To enumerate all of the batteries, set the *Enumerator* parameter to **NULL** and set the *Flags* parameter to **DIGCF\_PRESENT** \| **DIGCF\_INTERFACEDEVICE**. To obtain the names of the battery devices, use the [SetupDiEnumDeviceInterfaces](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces?redirectedfrom=MSDN) and [SetupDiGetDeviceInterfaceDetail](https://msdn.microsoft.com/library/ms792901.aspx) functions on the data returned. To open a file handle for each of the battery devices, call the [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function with these names.
+To enumerate the battery devices on a local computer, use the [SetupDiGetClassDevs](/windows/win32/api/setupapi/nf-setupapi-setupdigetclassdevsw) function. The *ClassGuid* parameter is a pointer to **GUID\_DEVCLASS\_BATTERY** (defined in BatClass.h). To enumerate all of the batteries, set the *Enumerator* parameter to **NULL** and set the *Flags* parameter to **DIGCF\_PRESENT** \| **DIGCF\_INTERFACEDEVICE**. To obtain the names of the battery devices, use the [SetupDiEnumDeviceInterfaces](/windows/win32/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces) and [SetupDiGetDeviceInterfaceDetail](https://msdn.microsoft.com/library/ms792901.aspx) functions on the data returned. To open a file handle for each of the battery devices, call the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) function with these names.
 
 The following C++ example shows how to enumerate battery devices on a local computer.
 
@@ -169,16 +169,16 @@ DWORD GetBatteryState()
 
 
 
-To enumerate the battery devices connected to a remote computer, use the [**Win32\_Battery**](https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-battery) WMI class in a client script or application.
+To enumerate the battery devices connected to a remote computer, use the [**Win32\_Battery**](/windows/desktop/CIMWin32Prov/win32-battery) WMI class in a client script or application.
 
 ## Related topics
 
 <dl> <dt>
 
-[SetupDiGetClassDevs](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdigetclassdevsw?redirectedfrom=MSDN)
+[SetupDiGetClassDevs](/windows/win32/api/setupapi/nf-setupapi-setupdigetclassdevsw)
 </dt> <dt>
 
-[SetupDiEnumDeviceInterfaces](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces?redirectedfrom=MSDN)
+[SetupDiEnumDeviceInterfaces](/windows/win32/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces)
 </dt> <dt>
 
 [SetupDiGetDeviceInterfaceDetail](https://msdn.microsoft.com/library/ms792901.aspx)
@@ -196,6 +196,3 @@ To enumerate the battery devices connected to a remote computer, use the [**Win3
  
 
  
-
-
-

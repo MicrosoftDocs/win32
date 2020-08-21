@@ -37,7 +37,7 @@ The following IPC mechanisms are supported by Windows:
 
 The clipboard acts as a central depository for data sharing among applications. When a user performs a cut or copy operation in an application, the application puts the selected data on the clipboard in one or more standard or application-defined formats. Any other application can then retrieve the data from the clipboard, choosing from the available formats that it understands. The clipboard is a very loosely coupled exchange medium, where applications need only agree on the data format. The applications can reside on the same computer or on different computers on a network.
 
-**Key Point:** All applications should support the clipboard for those data formats that they understand. For example, a text editor or word processor should at least be able to produce and accept clipboard data in pure text format. For more information, see [Clipboard](https://msdn.microsoft.com/library/ms648709(v=VS.85).aspx).
+**Key Point:** All applications should support the clipboard for those data formats that they understand. For example, a text editor or word processor should at least be able to produce and accept clipboard data in pure text format. For more information, see [Clipboard](../dataxchg/clipboard.md).
 
 ## Using COM for IPC
 
@@ -49,9 +49,9 @@ The foundation of OLE is the Component Object Model (COM). A software component 
 
 ## Using Data Copy for IPC
 
-Data copy enables an application to send information to another application using the [**WM\_COPYDATA**](https://msdn.microsoft.com/library/ms649011(v=VS.85).aspx) message. This method requires cooperation between the sending application and the receiving application. The receiving application must know the format of the information and be able to identify the sender. The sending application cannot modify the memory referenced by any pointers.
+Data copy enables an application to send information to another application using the [**WM\_COPYDATA**](../dataxchg/wm-copydata.md) message. This method requires cooperation between the sending application and the receiving application. The receiving application must know the format of the information and be able to identify the sender. The sending application cannot modify the memory referenced by any pointers.
 
-**Key Point:** Data copy can be used to quickly send information to another application using Windows messaging. For more information, see [Data Copy](https://msdn.microsoft.com/library/ms648710(v=VS.85).aspx).
+**Key Point:** Data copy can be used to quickly send information to another application using Windows messaging. For more information, see [Data Copy](../dataxchg/data-copy.md).
 
 ## Using DDE for IPC
 
@@ -61,7 +61,7 @@ The data formats used by DDE are the same as those used by the clipboard. DDE ca
 
 DDE exchanges can occur between applications running on the same computer or on different computers on a network.
 
-**Key Point:** DDE is not as efficient as newer technologies. However, you can still use DDE if other IPC mechanisms are not suitable or if you must interface with an existing application that only supports DDE. For more information, see [Dynamic Data Exchange](https://msdn.microsoft.com/library/ms648711(v=VS.85).aspx) and [Dynamic Data Exchange Management Library](https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx).
+**Key Point:** DDE is not as efficient as newer technologies. However, you can still use DDE if other IPC mechanisms are not suitable or if you must interface with an existing application that only supports DDE. For more information, see [Dynamic Data Exchange](../dataxchg/dynamic-data-exchange.md) and [Dynamic Data Exchange Management Library](../dataxchg/dynamic-data-exchange-management-library.md).
 
 ## Using a File Mapping for IPC
 
@@ -71,7 +71,7 @@ You can use a special case of file mapping to provide *named shared memory* betw
 
 File mapping is quite efficient and also provides operating-system–supported security attributes that can help prevent unauthorized data corruption. File mapping can be used only between processes on a local computer; it cannot be used over a network.
 
-**Key Point:** File mapping is an efficient way for two or more processes on the same computer to share data, but you must provide synchronization between the processes. For more information, see [File Mapping](https://docs.microsoft.com/windows/desktop/Memory/file-mapping) and [Synchronization](https://docs.microsoft.com/windows/desktop/Sync/synchronization).
+**Key Point:** File mapping is an efficient way for two or more processes on the same computer to share data, but you must provide synchronization between the processes. For more information, see [File Mapping](/windows/desktop/Memory/file-mapping) and [Synchronization](/windows/desktop/Sync/synchronization).
 
 ## Using a Mailslot for IPC
 
@@ -97,7 +97,7 @@ The RPC provided by Windows is compliant with the Open Software Foundation (OSF)
 
 RPC clients and servers are tightly coupled but still maintain high performance. The system makes extensive use of RPC to facilitate a client/server relationship between different parts of the operating system.
 
-**Key Point:** RPC is a function-level interface, with support for automatic data conversion and for communications with other operating systems. Using RPC, you can create high-performance, tightly coupled distributed applications. For more information, see [Microsoft RPC Components](https://docs.microsoft.com/windows/desktop/Rpc/microsoft-rpc-components).
+**Key Point:** RPC is a function-level interface, with support for automatic data conversion and for communications with other operating systems. Using RPC, you can create high-performance, tightly coupled distributed applications. For more information, see [Microsoft RPC Components](/windows/desktop/Rpc/microsoft-rpc-components).
 
 ## Using Windows Sockets for IPC
 
@@ -105,11 +105,8 @@ Windows Sockets is a protocol-independent interface. It takes advantage of the c
 
 Windows Sockets are based on the sockets first popularized by Berkeley Software Distribution (BSD). An application that uses Windows Sockets can communicate with other socket implementation on other types of systems. However, not all transport service providers support all available options.
 
-**Key Point:** Windows Sockets is a protocol-independent interface capable of supporting current and emerging networking capabilities. For more information, see [Windows Sockets 2](https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2).
+**Key Point:** Windows Sockets is a protocol-independent interface capable of supporting current and emerging networking capabilities. For more information, see [Windows Sockets 2](/windows/desktop/WinSock/windows-sockets-start-page-2).
 
  
 
  
-
-
-

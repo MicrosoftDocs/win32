@@ -47,25 +47,21 @@ The following code retrieves a Server Data Object (SDO) for the Network Policy S
 
 ## Remarks
 
-You must [attach](https://docs.microsoft.com/windows/desktop/Nps/sdo-attaching-to-an-sdo-enabled-computer) to a computer before you can call any of the [**ISdoMachine**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine) methods.
+You must [attach](/windows/desktop/Nps/sdo-attaching-to-an-sdo-enabled-computer) to a computer before you can call any of the [**ISdoMachine**](/windows/desktop/api/sdoias/nn-sdoias-isdomachine) methods.
 
 ## Related topics
 
 <dl> <dt>
 
-[Attaching to an SDO-Enabled Computer](https://docs.microsoft.com/windows/desktop/Nps/sdo-attaching-to-an-sdo-enabled-computer)
+[Attaching to an SDO-Enabled Computer](/windows/desktop/Nps/sdo-attaching-to-an-sdo-enabled-computer)
 </dt> <dt>
 
-[**ISdoMachine::GetServiceSDO**](https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getservicesdo)
+[**ISdoMachine::GetServiceSDO**](/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getservicesdo)
 </dt> <dt>
 
-[**ISdoServiceControl**](https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdoservicecontrol)
+[**ISdoServiceControl**](/windows/desktop/api/sdoias/nn-sdoias-isdoservicecontrol)
 </dt> </dl>
 
  
 
  
-
-
-
-

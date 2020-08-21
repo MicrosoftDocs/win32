@@ -39,7 +39,7 @@ interface IeAxiSystemInstaller : IUnknown
 
 ## Members
 
-The **IeAxiSystemInstaller** interface inherits from the [**IUnknown**](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IeAxiSystemInstaller** also has these types of members:
+The **IeAxiSystemInstaller** interface inherits from the [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IeAxiSystemInstaller** also has these types of members:
 
 -   [Methods](#methods)
 
@@ -70,9 +70,4 @@ The **IeAxiSystemInstaller** interface has these methods.
 
 
  
-
- 
-
-
-
 

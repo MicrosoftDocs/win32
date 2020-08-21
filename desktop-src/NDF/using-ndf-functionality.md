@@ -49,12 +49,4 @@ There are two ways to launch the diagnosis and repair functionality.
 
 ## Closing an Incident
 
-When you are finished diagnosing an incident, call [**NdfCloseIncident**](/windows/desktop/api/Ndfapi/nf-ndfapi-ndfcloseincident) to free system resources associated with performing diagnostics on that incident. (Note that this does not free objects created by [**NdfDiagnoseIncident**](/windows/desktop/api/Ndfapi/nf-ndfapi-ndfdiagnoseincident). For an example of how to do this, see the [Microsoft Windows Network Diagnostics Samples](https://code.msdn.microsoft.com/ndf).)
-
- 
-
- 
-
-
-
-
+When you are finished diagnosing an incident, call [**NdfCloseIncident**](/windows/desktop/api/Ndfapi/nf-ndfapi-ndfcloseincident) to free system resources associated with performing diagnostics on that incident. (Note that this does not free objects created by [**NdfDiagnoseIncident**](/windows/desktop/api/Ndfapi/nf-ndfapi-ndfdiagnoseincident).

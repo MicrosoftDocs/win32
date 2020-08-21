@@ -9,11 +9,11 @@ ms.date: 05/31/2018
 
 # Setting the Security on IWbemServices and Other Proxies
 
-While in C++ you can set the security on the entire process by calling [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx) before connecting to WMI through [**IWbemLocator::ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver). You can also change the authentication level, impersonation level, or the authentication service in a call that obtains a pointer to a WMI proxy, such as [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) or [**IWbemCallResult**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemcallresult). Calling [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/ms692692(v=VS.85).aspx) also allows you to change the authentication service (Kerberos, NTLM, or negotiate).
+While in C++ you can set the security on the entire process by calling [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) before connecting to WMI through [**IWbemLocator::ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver). You can also change the authentication level, impersonation level, or the authentication service in a call that obtains a pointer to a WMI proxy, such as [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) or [**IWbemCallResult**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemcallresult). Calling [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) also allows you to change the authentication service (Kerberos, NTLM, or negotiate).
 
 Scripts and Visual Basic applications only set security on proxies indirectly through calls to [**SWbemServices**](swbemservices.md) and other automation objects. For more information about setting and changing authentication and impersonation in script, see [Setting the Default Process Security Level Using VBScript](setting-the-default-process-security-level-using-vbscript.md).
 
-Changing security levels or services is primarily a concern when connecting to WMI on a remote computer that is running a different operating system. For more information, see [Connecting Between Different Operating Systems](https://docs.microsoft.com/windows/desktop/WmiSdk/troubleshooting-a-remote-wmi-connection).
+Changing security levels or services is primarily a concern when connecting to WMI on a remote computer that is running a different operating system. For more information, see [Connecting Between Different Operating Systems](/windows/desktop/WmiSdk/troubleshooting-a-remote-wmi-connection).
 
 A client application connects to a WMI proxy using an identity. An identity is a data object that consists of a user name, password, and authority settings. For a WMI client application, the call to the [**IWbemLocator::ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver) interface creates the initial identity. The [**ConnectServer**](swbemlocator-connectserver.md) method takes the identity in a set of three parameters, which you can set to **NULL** to indicate the current user. You can also specify a non-**NULL** parameter to indicate a specific user and domain. If the call is successful, **ConnectServer** returns a pointer through which you can access a variety of remote processes, such as a WMI service or the Windows operating system directly.
 
@@ -28,11 +28,11 @@ The following WMI interfaces use proxies:
 
     The WMI Refresher is a special case because it is passed an [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) pointer, whose security settings must be properly set. For more information about using refresher objects, see [Accessing Performance Data in C++](accessing-performance-data-in-c--.md).
 
-After you receive a pointer to a remote process, you can do one of two things. If you know what the process does, you can choose to set the security on the pointer and access the process normally. This is the case with most pointers to a WMI service. For more information, see [Setting the Security Levels on a WMI Connection](setting-the-security-levels-on-a-wmi-connection.md). Alternately, you need to access a different COM interface on the proxy, such as [**IUnknown::Release**](https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx), through a call to the [**IUnknown**](https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx) interface on the proxy.
+After you receive a pointer to a remote process, you can do one of two things. If you know what the process does, you can choose to set the security on the pointer and access the process normally. This is the case with most pointers to a WMI service. For more information, see [Setting the Security Levels on a WMI Connection](setting-the-security-levels-on-a-wmi-connection.md). Alternately, you need to access a different COM interface on the proxy, such as [**IUnknown::Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release), through a call to the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface on the proxy.
 
 ## Defaults and Recommendations
 
-The distributed version of the Component Object Model (DCOM) negotiates the default authentication service (Kerberos, NTLM, or Negotiate), and you cannot specify the default authentication service using [**CoInitializeSecurity**](https://msdn.microsoft.com/library/ms693736(v=VS.85).aspx). Specifying **RPC\_C\_AUTHN\_DEFAULT** in the authentication service parameter of [**CoSetProxyBlanket**](https://msdn.microsoft.com/library/ms692692(v=VS.85).aspx) allows DCOM to select the appropriate service. For remote connections the default service is Negotiate, which is the recommended service for applications functioning in both Kerberos and non-Kerberos domains. For local connections, the default authentication service is NT LAN Manager (NTLM).
+The distributed version of the Component Object Model (DCOM) negotiates the default authentication service (Kerberos, NTLM, or Negotiate), and you cannot specify the default authentication service using [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity). Specifying **RPC\_C\_AUTHN\_DEFAULT** in the authentication service parameter of [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) allows DCOM to select the appropriate service. For remote connections the default service is Negotiate, which is the recommended service for applications functioning in both Kerberos and non-Kerberos domains. For local connections, the default authentication service is NT LAN Manager (NTLM).
 
 The following code example shows the default authentication service being used.
 
@@ -73,6 +73,3 @@ For scripting, it is recommended that you use the defaults that DCOM selects for
  
 
  
-
-
-

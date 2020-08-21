@@ -8,7 +8,7 @@ ms.topic: reference
 
 # Rect.Intersect methods
 
-This topic lists the Intersect methods of the [**Rect**](https://msdn.microsoft.com/library/ms534495(v=VS.85).aspx) class. For a complete list of methods for the **Rect** class, see [Rect Methods](-gdiplus-class-rect-methods.md).
+This topic lists the Intersect methods of the [**Rect**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-rect) class. For a complete list of methods for the **Rect** class, see [Rect Methods](-gdiplus-class-rect-methods.md).
 
 ### Overload list
 
@@ -16,15 +16,11 @@ This topic lists the Intersect methods of the [**Rect**](https://msdn.microsoft.
 
 | Method                                                                       | Description                                                                                                                                                         |
 |:-----------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Intersect(Rect&)**](https://msdn.microsoft.com/library/ms534981(v=VS.85).aspx)              | The [**Rect::Intersect**](https://msdn.microsoft.com/library/ms534981(v=VS.85).aspx) method replaces this rectangle with the intersection of itself and another rectangle.<br/> |
-| [**Intersect(Rect&,Rect&,Rect&)**](https://msdn.microsoft.com/library/ms534980(v=VS.85).aspx) | The [**Rect::Intersect**](https://msdn.microsoft.com/library/ms534980(v=VS.85).aspx)[**Rect**](https://msdn.microsoft.com/library/ms534495(v=VS.85).aspx) object.<br/>                                     |
+| [**Intersect(Rect&)**](/previous-versions//ms534981(v=vs.85))              | The [**Rect::Intersect**](/previous-versions//ms534981(v=vs.85)) method replaces this rectangle with the intersection of itself and another rectangle.<br/> |
+| [**Intersect(Rect&,Rect&,Rect&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-intersect(outrect__inconstrect__inconstrect_)) | The [**Rect::Intersect**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-intersect(outrect__inconstrect__inconstrect_))[**Rect**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-rect) object.<br/>                                     |
 
 
 
  
 
  
-
-
-
-

@@ -17,7 +17,7 @@ api_location:
 
 # Qualifiers object
 
-\[The **Qualifiers** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](https://msdn.microsoft.com/library/x5x51x86(v=VS.100).aspx) in the [**System.Security.Cryptography.X509Certificates**](https://msdn.microsoft.com/library/73091bzx(v=VS.71).aspx) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to process qualifiers that are part of the policy information in the Certificate Policies extension.\]
+\[The **Qualifiers** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to process qualifiers that are part of the policy information in the Certificate Policies extension.\]
 
 The **Qualifiers** object represents a collection of qualifiers.
 
@@ -43,7 +43,7 @@ The **Qualifiers** object has these properties.
 
 | Property                                           | Access type          | Description                                                                                                                                                                                                                     |
 |:---------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](qualifiers-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](https://msdn.microsoft.com/library/ms221053(v=VS.71).aspx) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
+| [**\_NewEnum**](qualifiers-newenum.md)<br/> | Read-only<br/> | Retrieves an [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic Scripting Edition (VBScript).<br/> |
 | [**Count**](qualifiers-count.md)<br/>       | Read-only<br/> | Retrieves the number of qualifiers in the collection.<br/>                                                                                                                                                                |
 | [**Item**](qualifiers-item.md)<br/>         | Read-only<br/> | Retrieves a [**Qualifier**](qualifier.md) object that represents the indexed qualifier of the collection. This is the default property.<br/>                                                                             |
 
@@ -72,7 +72,3 @@ The [**PolicyInformation.Qualifiers**](policyinformation-qualifiers.md) CAPICOM 
  
 
  
-
-
-
-

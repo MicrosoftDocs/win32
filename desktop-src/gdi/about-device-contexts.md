@@ -20,11 +20,8 @@ This overview provides information on the following topics:
 -   [Device Context Operations](device-context-operations.md)
 -   [ICM-Enabled Device Context Functions](icm-enabled-device-context-functions.md)
 
-An important concept is the layout of a DC or a window, which describes the order in which GDI objects and text are revealed (either left-to-right or right-to-left). For more information, see "Window Layout and Mirroring" in [**Window Features**](https://msdn.microsoft.com/library/ms632599(v=VS.85).aspx) and the [**GetLayout**](/windows/desktop/api/Wingdi/nf-wingdi-getlayout) and [**SetLayout**](/windows/desktop/api/Wingdi/nf-wingdi-setlayout) functions.
+An important concept is the layout of a DC or a window, which describes the order in which GDI objects and text are revealed (either left-to-right or right-to-left). For more information, see "Window Layout and Mirroring" in [**Window Features**](../winmsg/window-features.md) and the [**GetLayout**](/windows/desktop/api/Wingdi/nf-wingdi-getlayout) and [**SetLayout**](/windows/desktop/api/Wingdi/nf-wingdi-setlayout) functions.
 
  
 
  
-
-
-

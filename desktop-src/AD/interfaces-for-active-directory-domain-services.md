@@ -16,14 +16,10 @@ ms.date: 05/31/2018
 
 The following are categories of interfaces for Active Directory Domain Services:
 
--   [Admin Interfaces in Active Directory Domain Services](https://docs.microsoft.com/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services)
+-   [Admin Interfaces in Active Directory Domain Services](/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services)
 -   [Display Interfaces in Active Directory Domain Services](display-interfaces-in-active-directory-domain-services.md)
 -   [Object Picker Dialog Box Interfaces](object-picker-dialog-box-interfaces.md)
 
  
 
  
-
-
-
-

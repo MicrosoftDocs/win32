@@ -30,7 +30,7 @@ This switch has no parameters.
 
 Use this switch if your application requires strict compatibility with OSF DCE for portability reasons.
 
-In **/osf** mode, the RpcSs package is automatically enabled when you use full pointers, the arguments require memory allocation, or when you use the [**enable\_allocate**](enable-allocate.md) attribute. This means that you do not have to supply the [**midl\_user\_allocate**](https://docs.microsoft.com/windows/desktop/Rpc/the-midl-user-allocate-function) and [**midl\_user\_free**](https://docs.microsoft.com/windows/desktop/Rpc/the-midl-user-free-function) functions in your client and server application.
+In **/osf** mode, the RpcSs package is automatically enabled when you use full pointers, the arguments require memory allocation, or when you use the [**enable\_allocate**](enable-allocate.md) attribute. This means that you do not have to supply the [**midl\_user\_allocate**](/windows/desktop/Rpc/the-midl-user-allocate-function) and [**midl\_user\_free**](/windows/desktop/Rpc/the-midl-user-free-function) functions in your client and server application.
 
 The following Microsoft-extended features are not available when you compile with the **/osf** switch:
 
@@ -87,13 +87,9 @@ The following C/C++ language extensions are not available when you compile with 
 [**/ms\_ext**](-ms-ext.md)
 </dt> <dt>
 
-[Rpcss Memory Management Package](https://docs.microsoft.com/windows/desktop/Rpc/rpcss-memory-management-package)
+[Rpcss Memory Management Package](/windows/desktop/Rpc/rpcss-memory-management-package)
 </dt> </dl>
 
  
 
  
-
-
-
-

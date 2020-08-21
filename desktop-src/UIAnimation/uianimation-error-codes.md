@@ -37,7 +37,7 @@ ms.date: 05/31/2018
 
 # Windows Animation Error Codes
 
-If an error occurs, Windows Animation returns a code as an **HRESULT** value. This section provides a list of error codes specific to Windows Animation. For a list of general COM error codes, see [COM Error Codes](https://docs.microsoft.com/windows/desktop/com/com-error-codes).
+If an error occurs, Windows Animation returns a code as an **HRESULT** value. This section provides a list of error codes specific to Windows Animation. For a list of general COM error codes, see [COM Error Codes](/windows/desktop/com/com-error-codes).
 
 <dl> <dt>
 
@@ -352,10 +352,4 @@ This client is already connected to a timer.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

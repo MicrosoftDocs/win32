@@ -148,7 +148,7 @@ When you are programming with these attributes, you should use the global identi
 | [**WM/PartOfSet**](wm-partofset.md)                                                 | g\_wszWMPartOfSet                             | **WMT\_TYPE\_STRING**                                |
 | [**WM/PeakBitrate**](wm-peakbitrate.md)                                             | g\_wszWMPeakBitrate                           | **WMT\_TYPE\_DWORD**                                 |
 | [**WM/Period**](wm-period.md)                                                       | g\_wszWMPeriod                                | **WMT\_TYPE\_STRING**                                |
-| [**WM/Picture**](https://docs.microsoft.com/windows/desktop/wmformat/wmpicture)                                      | g\_wszWMPicture                               | **WM\_PICTURE** (**WMT\_TYPE\_BINARY**)              |
+| [**WM/Picture**](/windows/desktop/wmformat/wmpicture)                                      | g\_wszWMPicture                               | **WM\_PICTURE** (**WMT\_TYPE\_BINARY**)              |
 | [**WM/PlaylistDelay**](wm-playlistdelay.md)                                         | g\_wszWMPlaylistDelay                         | **WMT\_TYPE\_STRING**                                |
 | [**WM/Producer**](wm-producer.md)                                                   | g\_wszWMProducer                              | **WMT\_TYPE\_STRING**                                |
 | [**WM/PromotionURL**](wm-promotionurl.md)                                           | g\_wszWMPromotionURL                          | **WMT\_TYPE\_STRING**                                |
@@ -218,7 +218,3 @@ The following constants are defined with the attributes. Each one indicates the 
  
 
  
-
-
-
-

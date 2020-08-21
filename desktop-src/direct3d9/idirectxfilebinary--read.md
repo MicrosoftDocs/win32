@@ -40,7 +40,7 @@ HRESULT Read(
 *pvData* \[out\]
 </dt> <dd>
 
-Type: **[**LPVOID**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPVOID**](../winprog/windows-data-types.md)**
 
 Pointer to the buffer that receives the data that has been read.
 
@@ -49,7 +49,7 @@ Pointer to the buffer that receives the data that has been read.
 *cbSize* \[in\]
 </dt> <dd>
 
-Type: **[**DWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**DWORD**](../winprog/windows-data-types.md)**
 
 Size of the buffer pointed to by pvData, in bytes.
 
@@ -58,7 +58,7 @@ Size of the buffer pointed to by pvData, in bytes.
 *pcbRead* \[out\]
 </dt> <dd>
 
-Type: **[**LPDWORD**](https://msdn.microsoft.com/library/Aa383751(v=VS.85).aspx)**
+Type: **[**LPDWORD**](../winprog/windows-data-types.md)**
 
 Pointer to the number of bytes actually read.
 
@@ -91,7 +91,3 @@ If the method succeeds, the return value is DXFILE\_OK. If the method fails, the
  
 
  
-
-
-
-

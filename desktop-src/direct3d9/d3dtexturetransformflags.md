@@ -110,13 +110,9 @@ Texture coordinates can be transformed using a 4 x 4 matrix before the results a
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DTEXTURESTAGESTATETYPE**](https://msdn.microsoft.com/library/Bb172617(v=VS.85).aspx)
+[**D3DTEXTURESTAGESTATETYPE**](./d3dtexturestagestatetype.md)
 </dt> </dl>
 
  
 
  
-
-
-
-

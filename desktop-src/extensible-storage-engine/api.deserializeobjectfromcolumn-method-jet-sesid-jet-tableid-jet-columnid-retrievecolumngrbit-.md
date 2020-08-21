@@ -89,7 +89,7 @@ public static Object DeserializeObjectFromColumn(
 
 #### Return value
 
-Type: [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)  
+Type: [System.Object](/dotnet/api/system.object)  
 The deserialized object. Null if the column was null.  
 
 ## See also
@@ -103,4 +103,3 @@ The deserialized object. Null if the column was null.
 [DeserializeObjectFromColumn overload](dn292141\(v=exchg.10\).md)
 
 [Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-

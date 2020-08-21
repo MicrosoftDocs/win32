@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Responsibilities of Winlogon
 
-[*Winlogon*](https://msdn.microsoft.com/library/ms721635(v=VS.85).aspx) has the following responsibilities:
+[*Winlogon*](../secgloss/w-gly.md) has the following responsibilities:
 
 -   Window station and desktop protection
 
@@ -16,7 +16,7 @@ ms.date: 05/31/2018
 
 -   Standard SAS recognition
 
-    Winlogon has special hooks into the User32 server that allow it to monitor CTRL+ALT+DEL [*secure attention sequence*](https://msdn.microsoft.com/library/ms721625(v=VS.85).aspx) (SAS) events. Winlogon makes this SAS event information available to GINAs to use as their SAS, or as part of their SAS. In general, GINAs should monitor SASs on their own; however, any [*GINA*](https://msdn.microsoft.com/library/ms721584(v=VS.85).aspx) that has the standard CTRL+ALT+DEL SAS as one of the SASs it recognizes should use the Winlogon support provided for this purpose.
+    Winlogon has special hooks into the User32 server that allow it to monitor CTRL+ALT+DEL [*secure attention sequence*](../secgloss/s-gly.md) (SAS) events. Winlogon makes this SAS event information available to GINAs to use as their SAS, or as part of their SAS. In general, GINAs should monitor SASs on their own; however, any [*GINA*](../secgloss/g-gly.md) that has the standard CTRL+ALT+DEL SAS as one of the SASs it recognizes should use the Winlogon support provided for this purpose.
 
 -   SAS routine dispatching
 
@@ -28,7 +28,7 @@ ms.date: 05/31/2018
 
 -   Assignment of security to user shell
 
-    When a user logs on, the GINA is responsible for creating one or more initial processes for that user. Winlogon provides a support function for the GINA to apply the security of the newly logged-on user to these processes. However, the preferred way to do this is for the GINA to call the Windows function [**CreateProcessAsUser**](https://msdn.microsoft.com/library/ms682429(v=VS.85).aspx), and let the system provide the service.
+    When a user logs on, the GINA is responsible for creating one or more initial processes for that user. Winlogon provides a support function for the GINA to apply the security of the newly logged-on user to these processes. However, the preferred way to do this is for the GINA to call the Windows function [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasusera), and let the system provide the service.
 
 -   Screen saver control
 
@@ -41,6 +41,3 @@ ms.date: 05/31/2018
  
 
  
-
-
-
