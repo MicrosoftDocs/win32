@@ -1,6 +1,6 @@
 ---
 title: EAPHost Constants (Eaptypes.h)
-description: Constants used by EAPHost methods.
+description: View a list of EAPHost constants (Eaptypes.h) used by EAPHost methods and see requirements for their use.
 ms.assetid: 56338B98-06E3-4CD3-B1CA-F8F45AA39566
 topic_type:
 - apiref
@@ -191,11 +191,10 @@ Windows Vista with SP1 or later: Indicates that the input field is read-only and
 
 
 
-|                                     |                                                                                       |
-|-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Eaptypes.h</dt> </dl> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows 8 \[desktop apps only\]<br/> |
+| Server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |
 
 
 

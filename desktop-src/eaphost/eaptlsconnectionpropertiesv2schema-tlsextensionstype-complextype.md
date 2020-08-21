@@ -1,6 +1,6 @@
 ---
 title: TLSExtensionsType Complex Type
-description: Enables future enhancements to the schema.
+description: Learn about the TLSExtensionsType complex type. This type enables future enhancements to the schema.
 ms.assetid: 5e4f8ef8-1adb-4683-8001-ba7d2d392523
 ms.topic: article
 ms.date: 05/31/2018

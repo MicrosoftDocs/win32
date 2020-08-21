@@ -1,6 +1,6 @@
 ---
 title: InnerEapOptional (EapType) Element
-description: Indicates whether to perform GUEST access.
+description: Learn about the InnerEapOptional (EapType) element. This element indicates whether to perform GUEST access.
 ms.assetid: 2d314c89-5415-407f-84c3-c4c5c8957b39
 keywords:
 - InnerEapOptional element EAPHost
@@ -36,10 +36,10 @@ If the **InnerEapOptional** element is TRUE, then the [**Eap**](baseeapconnectio
 
 
 
-|                                     |                                                      |
-|-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Role | Minimum supported OS version |
+|------|------------------------------|
+| Client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
