@@ -22,6 +22,6 @@ Performance counters specific to your application can help you tune performance 
     1. Create a registry key in the **Services** key for the application. If you do not have such a node, create it under the following registry key: `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services`. For details, see [Creating the Application's Performance Key](creating-the-applications-performance-key.md).
     2. Use the **lodctr** utility with the .ini and .h files to install the information in the registry. This utility succeeds only if a performance key exists in the **Services** key for the application. For details, see [Adding Counter Names and Descriptions to the Registry](adding-counter-names-and-descriptions-to-the-registry.md).
 5. Create a performance DLL containing a set of exported functions that provide the queried counter data to the consumer. For details, see [Creating a Performance Extension DLL](creating-a-performance-extension-dll.md).
-6. Modify the application's setup file to automate adding information to the registry (as described in step 4) and move your performance DLL to the system directory at setup.
+6. Modify the application's setup file to automate adding information to the registry (as described in step 4) and copy your performance DLL to your application's directory at setup.
 
 For information about additional registry entries, see [Creating Other Registry Entries](creating-other-registry-entries.md).

@@ -24,7 +24,10 @@ To obtain performance data from the local system, call the [**RegQueryValueEx**]
 
 To obtain performance data from a remote system, call the [**RegConnectRegistry**](/windows/desktop/api/winreg/nf-winreg-regconnectregistryw) function. Use the computer name of the remote system and use `HKEY_PERFORMANCE_DATA` as the key. This call retrieves a key representing the performance data for the remote system. Use this key rather than `HKEY_PERFORMANCE_DATA` key to retrieve the data.
 
-Be sure to use the [**RegCloseKey**](/windows/desktop/api/winreg/nf-winreg-regclosekey) function to close the handle to the key when you are finished obtaining the performance data.
+Be sure to use the [**RegCloseKey**](/windows/desktop/api/winreg/nf-winreg-regclosekey) function to close the handle to the key when you are finished obtaining the performance data. This is important for both the local and remote cases:
+
+- `RegCloseKey(HKEY_PERFORMANCE_DATA)` does not actually close a registry handle, but it clears all cached data and frees the loaded performance DLLs.
+- `RegCloseKey(hkeyRemotePerformanceData)` closes the handle to the remote machine's registry.
 
 > [!IMPORTANT]
 > Do not call `RegCloseKey(HKEY_PERFORMANCE_DATA)` during `DLL_PROCESS_DETACH`.

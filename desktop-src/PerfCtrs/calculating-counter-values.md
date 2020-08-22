@@ -12,7 +12,7 @@ Most counter types use a formula for calculating a displayable value for the cou
 
 The following example shows how to use the raw data to calculate a displayable value for each counter type. This example builds on the example in [Retrieving Counter Data](retrieving-counter-data.md).
 
-```C++
+```C
 // Contains the elements required to calculate a counter value.
 typedef struct
 {
